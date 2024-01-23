@@ -75,22 +75,22 @@ MARK_VAL_T(::GlobalNamespace::__OVRRaycaster__RaycastHit);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8156))
 // CS Name: ::OVRRaycaster::RaycastHit
 struct CORDL_TYPE __OVRRaycaster__RaycastHit {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "graphic", ty: "::UnityEngine::UI::Graphic*", modifiers: "", def_value: None }, CppParam { name: "worldPos", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "fromMouse", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __OVRRaycaster__RaycastHit(::UnityEngine::UI::Graphic* graphic, ::UnityEngine::Vector3 worldPos, bool fromMouse) noexcept;
+  // Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None }, CppParam { name: "worldPos", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None }, CppParam { name: "fromMouse", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __OVRRaycaster__RaycastHit(::UnityW<::UnityEngine::UI::Graphic> graphic, ::UnityEngine::Vector3 worldPos, bool fromMouse) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRRaycaster__RaycastHit();
 
   /// @brief Field graphic, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* graphic;
+  ::UnityW<::UnityEngine::UI::Graphic> graphic;
 
   /// @brief Field worldPos, offset: 0x8, size: 0xc, def value: None
   ::UnityEngine::Vector3 worldPos;
@@ -117,7 +117,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRRaycaster__RaycastHit, fromMouse)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8157))
 // CS Name: ::OVRRaycaster::<>c*
 class CORDL_TYPE __OVRRaycaster____c : public ::System::Object {
@@ -169,7 +169,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRRaycaster_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13045))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13045))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8158))
 // CS Name: ::OVRRaycaster*
 class CORDL_TYPE OVRRaycaster : public ::UnityEngine::UI::GraphicRaycaster {
@@ -180,24 +180,25 @@ public:
   using RaycastHit = ::GlobalNamespace::__OVRRaycaster__RaycastHit;
 
   /// @brief Field pointer, offset 0x40, size 0x8
-  __declspec(property(get = __get_pointer, put = __set_pointer))::UnityEngine::GameObject* pointer;
+  __declspec(property(get = __cordl_internal_get_pointer, put = __cordl_internal_set_pointer))::UnityW<::UnityEngine::GameObject> pointer;
 
   /// @brief Field sortOrder, offset 0x48, size 0x4
-  __declspec(property(get = __get_sortOrder, put = __set_sortOrder)) int32_t sortOrder;
+  __declspec(property(get = __cordl_internal_get_sortOrder, put = __cordl_internal_set_sortOrder)) int32_t sortOrder;
 
   /// @brief Field m_Canvas, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_Canvas, put = __set_m_Canvas))::UnityEngine::Canvas* m_Canvas;
+  __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas))::UnityW<::UnityEngine::Canvas> m_Canvas;
 
   /// @brief Field m_RaycastResults, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_RaycastResults, put = __set_m_RaycastResults))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* m_RaycastResults;
+  __declspec(property(get = __cordl_internal_get_m_RaycastResults,
+                      put = __cordl_internal_set_m_RaycastResults))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* m_RaycastResults;
 
   /// @brief Field s_SortedGraphics, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_SortedGraphics,
                              put = setStaticF_s_SortedGraphics))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* s_SortedGraphics;
 
-  __declspec(property(get = get_canvas))::UnityEngine::Canvas* canvas;
+  __declspec(property(get = get_canvas))::UnityW<::UnityEngine::Canvas> canvas;
 
-  __declspec(property(get = get_eventCamera))::UnityEngine::Camera* eventCamera;
+  __declspec(property(get = get_eventCamera))::UnityW<::UnityEngine::Camera> eventCamera;
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
@@ -213,29 +214,29 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  constexpr ::UnityEngine::GameObject*& __get_pointer();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_pointer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_pointer() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_pointer() const;
 
-  constexpr void __set_pointer(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_pointer(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr int32_t& __get_sortOrder();
+  constexpr int32_t& __cordl_internal_get_sortOrder();
 
-  constexpr int32_t const& __get_sortOrder() const;
+  constexpr int32_t const& __cordl_internal_get_sortOrder() const;
 
-  constexpr void __set_sortOrder(int32_t value);
+  constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  constexpr ::UnityEngine::Canvas*& __get_m_Canvas();
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_m_Canvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& __get_m_Canvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
 
-  constexpr void __set_m_Canvas(::UnityEngine::Canvas* value);
+  constexpr void __cordl_internal_set_m_Canvas(::UnityW<::UnityEngine::Canvas> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>*& __get_m_RaycastResults();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>*& __cordl_internal_get_m_RaycastResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>*> const& __get_m_RaycastResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>*> const& __cordl_internal_get_m_RaycastResults() const;
 
-  constexpr void __set_m_RaycastResults(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* value);
+  constexpr void __cordl_internal_set_m_RaycastResults(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* value);
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* value);
 
@@ -247,10 +248,10 @@ public:
   inline void _ctor();
 
   /// @brief Method get_canvas, addr 0x27b9234, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::Canvas* get_canvas();
+  inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
   /// @brief Method get_eventCamera, addr 0x27b92c8, size 0x1c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Camera* get_eventCamera();
+  inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   /// @brief Method get_sortOrderPriority, addr 0x27b92e4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
@@ -298,13 +299,13 @@ protected:
 
 public:
   /// @brief Field pointer, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___pointer;
+  ::UnityW<::UnityEngine::GameObject> ___pointer;
 
   /// @brief Field sortOrder, offset: 0x48, size: 0x4, def value: None
   int32_t ___sortOrder;
 
   /// @brief Field m_Canvas, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Canvas* ___m_Canvas;
+  ::UnityW<::UnityEngine::Canvas> ___m_Canvas;
 
   /// @brief Field m_RaycastResults, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* ___m_RaycastResults;

@@ -20,32 +20,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2e7c390;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationContext*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IStylePainter*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IStylePainter*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::IStylePainter*& UnityEngine::UIElements::MeshGenerationContext::__get_painter() {
+constexpr ::UnityEngine::UIElements::IStylePainter*& UnityEngine::UIElements::MeshGenerationContext::__cordl_internal_get_painter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___painter;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IStylePainter*> const& UnityEngine::UIElements::MeshGenerationContext::__get_painter() const {
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IStylePainter*> const& UnityEngine::UIElements::MeshGenerationContext::__cordl_internal_get_painter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___painter;
 }
-constexpr void UnityEngine::UIElements::MeshGenerationContext::__set_painter(::UnityEngine::UIElements::IStylePainter* value) {
+constexpr void UnityEngine::UIElements::MeshGenerationContext::__cordl_internal_set_painter(::UnityEngine::UIElements::IStylePainter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___painter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::MeshGenerationContext* UnityEngine::UIElements::MeshGenerationContext::New_ctor(::UnityEngine::UIElements::IStylePainter* painter) {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::MeshGenerationContext*>(painter));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::MeshGenerationContext*>(painter));
 }
 inline void UnityEngine::UIElements::MeshGenerationContext::_ctor(::UnityEngine::UIElements::IStylePainter* painter) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationContext*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IStylePainter*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IStylePainter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, painter);
 }
 // Ctor Parameters []

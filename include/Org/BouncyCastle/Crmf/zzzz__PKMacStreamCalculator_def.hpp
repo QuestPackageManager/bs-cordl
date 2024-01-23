@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacStreamCalculator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(706))
 // CS Name: ::Org.BouncyCastle.Crmf::PKMacStreamCalculator*
 class CORDL_TYPE PKMacStreamCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _stream, offset 0x10, size 0x8
-  __declspec(property(get = __get__stream, put = __set__stream))::Org::BouncyCastle::Crypto::IO::MacSink* _stream;
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::Org::BouncyCastle::Crypto::IO::MacSink* _stream;
 
   __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
 
@@ -46,11 +46,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IO::MacSink*& __get__stream();
+  constexpr ::Org::BouncyCastle::Crypto::IO::MacSink*& __cordl_internal_get__stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::MacSink*> const& __get__stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::MacSink*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __set__stream(::Org::BouncyCastle::Crypto::IO::MacSink* value);
+  constexpr void __cordl_internal_set__stream(::Org::BouncyCastle::Crypto::IO::MacSink* value);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacStreamCalculator* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 

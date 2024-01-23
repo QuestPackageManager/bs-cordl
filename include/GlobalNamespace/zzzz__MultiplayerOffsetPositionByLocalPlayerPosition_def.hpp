@@ -19,56 +19,57 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5229))
 // CS Name: ::MultiplayerOffsetPositionByLocalPlayerPosition*
 class CORDL_TYPE MultiplayerOffsetPositionByLocalPlayerPosition : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _multiplayerPlayersManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__multiplayerPlayersManager, put = __set__multiplayerPlayersManager))::GlobalNamespace::MultiplayerPlayersManager* _multiplayerPlayersManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager,
+                      put = __cordl_internal_set__multiplayerPlayersManager))::UnityW<::GlobalNamespace::MultiplayerPlayersManager> _multiplayerPlayersManager;
 
   /// @brief Field _positionOffset, offset 0x20, size 0xc
-  __declspec(property(get = __get__positionOffset, put = __set__positionOffset))::UnityEngine::Vector3 _positionOffset;
+  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
 
   /// @brief Field _rotationOffset, offset 0x2c, size 0x10
-  __declspec(property(get = __get__rotationOffset, put = __set__rotationOffset))::UnityEngine::Quaternion _rotationOffset;
+  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityEngine::Quaternion _rotationOffset;
 
   /// @brief Field _lastParentPosition, offset 0x3c, size 0xc
-  __declspec(property(get = __get__lastParentPosition, put = __set__lastParentPosition))::UnityEngine::Vector3 _lastParentPosition;
+  __declspec(property(get = __cordl_internal_get__lastParentPosition, put = __cordl_internal_set__lastParentPosition))::UnityEngine::Vector3 _lastParentPosition;
 
   /// @brief Field _lastParentRotation, offset 0x48, size 0x10
-  __declspec(property(get = __get__lastParentRotation, put = __set__lastParentRotation))::UnityEngine::Quaternion _lastParentRotation;
+  __declspec(property(get = __cordl_internal_get__lastParentRotation, put = __cordl_internal_set__lastParentRotation))::UnityEngine::Quaternion _lastParentRotation;
 
-  constexpr ::GlobalNamespace::MultiplayerPlayersManager*& __get__multiplayerPlayersManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__multiplayerPlayersManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayersManager*> const& __get__multiplayerPlayersManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__multiplayerPlayersManager() const;
 
-  constexpr void __set__multiplayerPlayersManager(::GlobalNamespace::MultiplayerPlayersManager* value);
+  constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  constexpr ::UnityEngine::Vector3& __get__positionOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__positionOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
 
-  constexpr void __set__positionOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__rotationOffset();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotationOffset();
 
-  constexpr ::UnityEngine::Quaternion const& __get__rotationOffset() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotationOffset() const;
 
-  constexpr void __set__rotationOffset(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get__lastParentPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__lastParentPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__lastParentPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastParentPosition() const;
 
-  constexpr void __set__lastParentPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__lastParentPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__lastParentRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__lastParentRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get__lastParentRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__lastParentRotation() const;
 
-  constexpr void __set__lastParentRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__lastParentRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method Awake, addr 0x2252b48, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
@@ -102,7 +103,7 @@ protected:
 
 public:
   /// @brief Field _multiplayerPlayersManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerPlayersManager* ____multiplayerPlayersManager;
+  ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
   /// @brief Field _positionOffset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____positionOffset;

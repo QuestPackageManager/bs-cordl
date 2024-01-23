@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaAttDef);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11700))
 // CS Name: ::SchemaAttDef::Reserve
 struct CORDL_TYPE __SchemaAttDef__Reserve {
@@ -97,7 +97,7 @@ static_assert(offsetof(::System::Xml::Schema::__SchemaAttDef__Reserve, value__) 
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11700)), TypeDefinitionIndex(TypeDefinitionIndex(11703))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11700)), TypeDefinitionIndex(TypeDefinitionIndex(11703))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11701))
 // CS Name: ::System.Xml.Schema::SchemaAttDef*
 class CORDL_TYPE SchemaAttDef : public ::System::Xml::Schema::SchemaDeclBase {
@@ -106,22 +106,22 @@ public:
   using Reserve = ::System::Xml::Schema::__SchemaAttDef__Reserve;
 
   /// @brief Field defExpanded, offset 0x60, size 0x8
-  __declspec(property(get = __get_defExpanded, put = __set_defExpanded))::StringW defExpanded;
+  __declspec(property(get = __cordl_internal_get_defExpanded, put = __cordl_internal_set_defExpanded))::StringW defExpanded;
 
   /// @brief Field lineNum, offset 0x68, size 0x4
-  __declspec(property(get = __get_lineNum, put = __set_lineNum)) int32_t lineNum;
+  __declspec(property(get = __cordl_internal_get_lineNum, put = __cordl_internal_set_lineNum)) int32_t lineNum;
 
   /// @brief Field linePos, offset 0x6c, size 0x4
-  __declspec(property(get = __get_linePos, put = __set_linePos)) int32_t linePos;
+  __declspec(property(get = __cordl_internal_get_linePos, put = __cordl_internal_set_linePos)) int32_t linePos;
 
   /// @brief Field valueLineNum, offset 0x70, size 0x4
-  __declspec(property(get = __get_valueLineNum, put = __set_valueLineNum)) int32_t valueLineNum;
+  __declspec(property(get = __cordl_internal_get_valueLineNum, put = __cordl_internal_set_valueLineNum)) int32_t valueLineNum;
 
   /// @brief Field valueLinePos, offset 0x74, size 0x4
-  __declspec(property(get = __get_valueLinePos, put = __set_valueLinePos)) int32_t valueLinePos;
+  __declspec(property(get = __cordl_internal_get_valueLinePos, put = __cordl_internal_set_valueLinePos)) int32_t valueLinePos;
 
   /// @brief Field reserved, offset 0x78, size 0x4
-  __declspec(property(get = __get_reserved, put = __set_reserved))::System::Xml::Schema::__SchemaAttDef__Reserve reserved;
+  __declspec(property(get = __cordl_internal_get_reserved, put = __cordl_internal_set_reserved))::System::Xml::Schema::__SchemaAttDef__Reserve reserved;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::Xml::Schema::SchemaAttDef* Empty;
@@ -174,41 +174,41 @@ public:
   /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
   constexpr ::System::Xml::IDtdAttributeInfo* i___System__Xml__IDtdAttributeInfo() noexcept;
 
-  constexpr ::StringW& __get_defExpanded();
+  constexpr ::StringW& __cordl_internal_get_defExpanded();
 
-  constexpr ::StringW const& __get_defExpanded() const;
+  constexpr ::StringW const& __cordl_internal_get_defExpanded() const;
 
-  constexpr void __set_defExpanded(::StringW value);
+  constexpr void __cordl_internal_set_defExpanded(::StringW value);
 
-  constexpr int32_t& __get_lineNum();
+  constexpr int32_t& __cordl_internal_get_lineNum();
 
-  constexpr int32_t const& __get_lineNum() const;
+  constexpr int32_t const& __cordl_internal_get_lineNum() const;
 
-  constexpr void __set_lineNum(int32_t value);
+  constexpr void __cordl_internal_set_lineNum(int32_t value);
 
-  constexpr int32_t& __get_linePos();
+  constexpr int32_t& __cordl_internal_get_linePos();
 
-  constexpr int32_t const& __get_linePos() const;
+  constexpr int32_t const& __cordl_internal_get_linePos() const;
 
-  constexpr void __set_linePos(int32_t value);
+  constexpr void __cordl_internal_set_linePos(int32_t value);
 
-  constexpr int32_t& __get_valueLineNum();
+  constexpr int32_t& __cordl_internal_get_valueLineNum();
 
-  constexpr int32_t const& __get_valueLineNum() const;
+  constexpr int32_t const& __cordl_internal_get_valueLineNum() const;
 
-  constexpr void __set_valueLineNum(int32_t value);
+  constexpr void __cordl_internal_set_valueLineNum(int32_t value);
 
-  constexpr int32_t& __get_valueLinePos();
+  constexpr int32_t& __cordl_internal_get_valueLinePos();
 
-  constexpr int32_t const& __get_valueLinePos() const;
+  constexpr int32_t const& __cordl_internal_get_valueLinePos() const;
 
-  constexpr void __set_valueLinePos(int32_t value);
+  constexpr void __cordl_internal_set_valueLinePos(int32_t value);
 
-  constexpr ::System::Xml::Schema::__SchemaAttDef__Reserve& __get_reserved();
+  constexpr ::System::Xml::Schema::__SchemaAttDef__Reserve& __cordl_internal_get_reserved();
 
-  constexpr ::System::Xml::Schema::__SchemaAttDef__Reserve const& __get_reserved() const;
+  constexpr ::System::Xml::Schema::__SchemaAttDef__Reserve const& __cordl_internal_get_reserved() const;
 
-  constexpr void __set_reserved(::System::Xml::Schema::__SchemaAttDef__Reserve value);
+  constexpr void __cordl_internal_set_reserved(::System::Xml::Schema::__SchemaAttDef__Reserve value);
 
   static inline void setStaticF_Empty(::System::Xml::Schema::SchemaAttDef* value);
 

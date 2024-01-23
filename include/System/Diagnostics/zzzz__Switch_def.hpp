@@ -22,23 +22,23 @@ MARK_REF_PTR_T(::System::Diagnostics::Switch);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8935))
 // CS Name: ::System.Diagnostics::Switch*
 class CORDL_TYPE Switch : public ::System::Object {
 public:
   // Declarations
   /// @brief Field description, offset 0x10, size 0x8
-  __declspec(property(get = __get_description, put = __set_description))::StringW description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
 
   /// @brief Field displayName, offset 0x18, size 0x8
-  __declspec(property(get = __get_displayName, put = __set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
 
   /// @brief Field switchValueString, offset 0x20, size 0x8
-  __declspec(property(get = __get_switchValueString, put = __set_switchValueString))::StringW switchValueString;
+  __declspec(property(get = __cordl_internal_get_switchValueString, put = __cordl_internal_set_switchValueString))::StringW switchValueString;
 
   /// @brief Field defaultValue, offset 0x28, size 0x8
-  __declspec(property(get = __get_defaultValue, put = __set_defaultValue))::StringW defaultValue;
+  __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue))::StringW defaultValue;
 
   /// @brief Field switches, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_switches, put = setStaticF_switches))::System::Collections::Generic::List_1<::System::WeakReference*>* switches;
@@ -46,29 +46,29 @@ public:
   /// @brief Field s_LastCollectionCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_LastCollectionCount, put = setStaticF_s_LastCollectionCount)) int32_t s_LastCollectionCount;
 
-  constexpr ::StringW& __get_description();
+  constexpr ::StringW& __cordl_internal_get_description();
 
-  constexpr ::StringW const& __get_description() const;
+  constexpr ::StringW const& __cordl_internal_get_description() const;
 
-  constexpr void __set_description(::StringW value);
+  constexpr void __cordl_internal_set_description(::StringW value);
 
-  constexpr ::StringW& __get_displayName();
+  constexpr ::StringW& __cordl_internal_get_displayName();
 
-  constexpr ::StringW const& __get_displayName() const;
+  constexpr ::StringW const& __cordl_internal_get_displayName() const;
 
-  constexpr void __set_displayName(::StringW value);
+  constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  constexpr ::StringW& __get_switchValueString();
+  constexpr ::StringW& __cordl_internal_get_switchValueString();
 
-  constexpr ::StringW const& __get_switchValueString() const;
+  constexpr ::StringW const& __cordl_internal_get_switchValueString() const;
 
-  constexpr void __set_switchValueString(::StringW value);
+  constexpr void __cordl_internal_set_switchValueString(::StringW value);
 
-  constexpr ::StringW& __get_defaultValue();
+  constexpr ::StringW& __cordl_internal_get_defaultValue();
 
-  constexpr ::StringW const& __get_defaultValue() const;
+  constexpr ::StringW const& __cordl_internal_get_defaultValue() const;
 
-  constexpr void __set_defaultValue(::StringW value);
+  constexpr void __cordl_internal_set_defaultValue(::StringW value);
 
   static inline void setStaticF_switches(::System::Collections::Generic::List_1<::System::WeakReference*>* value);
 

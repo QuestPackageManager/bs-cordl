@@ -24,24 +24,24 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HttpContentHeaders);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14672))
 // CS Name: ::System.Net.Http.Headers::HttpContentHeaders*
 class CORDL_TYPE HttpContentHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations
   /// @brief Field content, offset 0x20, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::System::Net::Http::HttpContent* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::Net::Http::HttpContent* content;
 
   __declspec(property(get = get_ContentLength))::System::Nullable_1<int64_t> ContentLength;
 
   __declspec(property(get = get_ContentType, put = set_ContentType))::System::Net::Http::Headers::MediaTypeHeaderValue* ContentType;
 
-  constexpr ::System::Net::Http::HttpContent*& __get_content();
+  constexpr ::System::Net::Http::HttpContent*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::System::Net::Http::HttpContent* value);
+  constexpr void __cordl_internal_set_content(::System::Net::Http::HttpContent* value);
 
   static inline ::System::Net::Http::Headers::HttpContentHeaders* New_ctor(::System::Net::Http::HttpContent* content);
 

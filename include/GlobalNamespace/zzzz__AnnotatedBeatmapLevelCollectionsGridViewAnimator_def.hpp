@@ -29,101 +29,101 @@ MARK_REF_PTR_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimat
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5769))
 // CS Name: ::AnnotatedBeatmapLevelCollectionsGridViewAnimator*
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _viewportTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__viewportTransform, put = __set__viewportTransform))::UnityEngine::RectTransform* _viewportTransform;
+  __declspec(property(get = __cordl_internal_get__viewportTransform, put = __cordl_internal_set__viewportTransform))::UnityW<::UnityEngine::RectTransform> _viewportTransform;
 
   /// @brief Field _contentTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__contentTransform, put = __set__contentTransform))::UnityEngine::RectTransform* _contentTransform;
+  __declspec(property(get = __cordl_internal_get__contentTransform, put = __cordl_internal_set__contentTransform))::UnityW<::UnityEngine::RectTransform> _contentTransform;
 
   /// @brief Field _transitionDuration, offset 0x28, size 0x4
-  __declspec(property(get = __get__transitionDuration, put = __set__transitionDuration)) float_t _transitionDuration;
+  __declspec(property(get = __cordl_internal_get__transitionDuration, put = __cordl_internal_set__transitionDuration)) float_t _transitionDuration;
 
   /// @brief Field _easeType, offset 0x2c, size 0x4
-  __declspec(property(get = __get__easeType, put = __set__easeType))::GlobalNamespace::EaseType _easeType;
+  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
 
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _rowHeight, offset 0x38, size 0x4
-  __declspec(property(get = __get__rowHeight, put = __set__rowHeight)) float_t _rowHeight;
+  __declspec(property(get = __cordl_internal_get__rowHeight, put = __cordl_internal_set__rowHeight)) float_t _rowHeight;
 
   /// @brief Field _rowCount, offset 0x3c, size 0x4
-  __declspec(property(get = __get__rowCount, put = __set__rowCount)) int32_t _rowCount;
+  __declspec(property(get = __cordl_internal_get__rowCount, put = __cordl_internal_set__rowCount)) int32_t _rowCount;
 
   /// @brief Field _selectedRow, offset 0x40, size 0x4
-  __declspec(property(get = __get__selectedRow, put = __set__selectedRow)) int32_t _selectedRow;
+  __declspec(property(get = __cordl_internal_get__selectedRow, put = __cordl_internal_set__selectedRow)) int32_t _selectedRow;
 
   /// @brief Field _viewportSizeTween, offset 0x48, size 0x8
-  __declspec(property(get = __get__viewportSizeTween, put = __set__viewportSizeTween))::Tweening::Vector2Tween* _viewportSizeTween;
+  __declspec(property(get = __cordl_internal_get__viewportSizeTween, put = __cordl_internal_set__viewportSizeTween))::Tweening::Vector2Tween* _viewportSizeTween;
 
   /// @brief Field _contentPositionTween, offset 0x50, size 0x8
-  __declspec(property(get = __get__contentPositionTween, put = __set__contentPositionTween))::Tweening::Vector2Tween* _contentPositionTween;
+  __declspec(property(get = __cordl_internal_get__contentPositionTween, put = __cordl_internal_set__contentPositionTween))::Tweening::Vector2Tween* _contentPositionTween;
 
-  constexpr ::UnityEngine::RectTransform*& __get__viewportTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewportTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__viewportTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewportTransform() const;
 
-  constexpr void __set__viewportTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__contentTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__contentTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentTransform() const;
 
-  constexpr void __set__contentTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__contentTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr float_t& __get__transitionDuration();
+  constexpr float_t& __cordl_internal_get__transitionDuration();
 
-  constexpr float_t const& __get__transitionDuration() const;
+  constexpr float_t const& __cordl_internal_get__transitionDuration() const;
 
-  constexpr void __set__transitionDuration(float_t value);
+  constexpr void __cordl_internal_set__transitionDuration(float_t value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__easeType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
 
-  constexpr void __set__easeType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr float_t& __get__rowHeight();
+  constexpr float_t& __cordl_internal_get__rowHeight();
 
-  constexpr float_t const& __get__rowHeight() const;
+  constexpr float_t const& __cordl_internal_get__rowHeight() const;
 
-  constexpr void __set__rowHeight(float_t value);
+  constexpr void __cordl_internal_set__rowHeight(float_t value);
 
-  constexpr int32_t& __get__rowCount();
+  constexpr int32_t& __cordl_internal_get__rowCount();
 
-  constexpr int32_t const& __get__rowCount() const;
+  constexpr int32_t const& __cordl_internal_get__rowCount() const;
 
-  constexpr void __set__rowCount(int32_t value);
+  constexpr void __cordl_internal_set__rowCount(int32_t value);
 
-  constexpr int32_t& __get__selectedRow();
+  constexpr int32_t& __cordl_internal_get__selectedRow();
 
-  constexpr int32_t const& __get__selectedRow() const;
+  constexpr int32_t const& __cordl_internal_get__selectedRow() const;
 
-  constexpr void __set__selectedRow(int32_t value);
+  constexpr void __cordl_internal_set__selectedRow(int32_t value);
 
-  constexpr ::Tweening::Vector2Tween*& __get__viewportSizeTween();
+  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__viewportSizeTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __get__viewportSizeTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __cordl_internal_get__viewportSizeTween() const;
 
-  constexpr void __set__viewportSizeTween(::Tweening::Vector2Tween* value);
+  constexpr void __cordl_internal_set__viewportSizeTween(::Tweening::Vector2Tween* value);
 
-  constexpr ::Tweening::Vector2Tween*& __get__contentPositionTween();
+  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__contentPositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __get__contentPositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __cordl_internal_get__contentPositionTween() const;
 
-  constexpr void __set__contentPositionTween(::Tweening::Vector2Tween* value);
+  constexpr void __cordl_internal_set__contentPositionTween(::Tweening::Vector2Tween* value);
 
   /// @brief Method Init, addr 0x22dc970, size 0xb0, virtual false, abstract: false, final false
   inline void Init(float_t rowHeight, int32_t rowCount);
@@ -190,10 +190,10 @@ protected:
 
 public:
   /// @brief Field _viewportTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____viewportTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____viewportTransform;
 
   /// @brief Field _contentTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____contentTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____contentTransform;
 
   /// @brief Field _transitionDuration, offset: 0x28, size: 0x4, def value: None
   float_t ____transitionDuration;
@@ -202,7 +202,7 @@ public:
   ::GlobalNamespace::EaseType ____easeType;
 
   /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _rowHeight, offset: 0x38, size: 0x4, def value: None
   float_t ____rowHeight;

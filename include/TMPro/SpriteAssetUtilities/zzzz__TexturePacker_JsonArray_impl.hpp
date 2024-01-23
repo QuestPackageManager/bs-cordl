@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x278;
   constexpr static std::size_t addrs = 0x2c4e64c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame>::get(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x2c4e8c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize>::get(),
@@ -113,47 +113,47 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c4e970;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 constexpr ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*&
-TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_frames() {
+TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__cordl_internal_get_frames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*> const&
-TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_frames() const {
+TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__cordl_internal_get_frames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
-constexpr void
-TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__set_frames(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* value) {
+constexpr void TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__cordl_internal_set_frames(
+    ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___frames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta& TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_meta() {
+constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta& TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__cordl_internal_get_meta() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___meta;
 }
-constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta const& TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_meta() const {
+constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta const& TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__cordl_internal_get_meta() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___meta;
 }
-constexpr void TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__set_meta(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta value) {
+constexpr void TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__cordl_internal_set_meta(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___meta = value;
 }
 inline ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject* TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject*>());
 }
 inline void TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -166,18 +166,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c4e644;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 inline ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray* TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>());
 }
 inline void TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

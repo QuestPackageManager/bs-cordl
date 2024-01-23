@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::System::Xml::XmlEntityReference);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11513))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11510))
 // CS Name: ::System.Xml::XmlEntityReference*
 class CORDL_TYPE XmlEntityReference : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field lastChild, offset 0x28, size 0x8
-  __declspec(property(get = __get_lastChild, put = __set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
+  __declspec(property(get = __cordl_internal_get_lastChild, put = __cordl_internal_set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -57,17 +57,17 @@ public:
 
   __declspec(property(get = get_ChildBaseURI))::StringW ChildBaseURI;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::System::Xml::XmlLinkedNode*& __get_lastChild();
+  constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_lastChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __get_lastChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __cordl_internal_get_lastChild() const;
 
-  constexpr void __set_lastChild(::System::Xml::XmlLinkedNode* value);
+  constexpr void __cordl_internal_set_lastChild(::System::Xml::XmlLinkedNode* value);
 
   static inline ::System::Xml::XmlEntityReference* New_ctor(::StringW name, ::System::Xml::XmlDocument* doc);
 

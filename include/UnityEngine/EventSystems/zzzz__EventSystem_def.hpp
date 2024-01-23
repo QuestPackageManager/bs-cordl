@@ -57,22 +57,22 @@ MARK_VAL_T(::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13189))
 // CS Name: ::EventSystem::UIToolkitOverrideConfig
 struct CORDL_TYPE __EventSystem__UIToolkitOverrideConfig {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "activeEventSystem", ty: "::UnityEngine::EventSystems::EventSystem*", modifiers: "", def_value: None }, CppParam { name: "sendEvents", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __EventSystem__UIToolkitOverrideConfig(::UnityEngine::EventSystems::EventSystem* activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) noexcept;
+  // Ctor Parameters [CppParam { name: "activeEventSystem", ty: "::UnityW<::UnityEngine::EventSystems::EventSystem>", modifiers: "", def_value: None }, CppParam { name: "sendEvents", ty: "bool",
+  // modifiers: "", def_value: None }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __EventSystem__UIToolkitOverrideConfig(::UnityW<::UnityEngine::EventSystems::EventSystem> activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __EventSystem__UIToolkitOverrideConfig();
 
   /// @brief Field activeEventSystem, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::EventSystem* activeEventSystem;
+  ::UnityW<::UnityEngine::EventSystems::EventSystem> activeEventSystem;
 
   /// @brief Field sendEvents, offset: 0x8, size: 0x1, def value: None
   bool sendEvents;
@@ -99,20 +99,20 @@ static_assert(offsetof(::UnityEngine::EventSystems::__EventSystem__UIToolkitOver
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13190))
 // CS Name: ::EventSystem::<>c__DisplayClass52_0*
 class CORDL_TYPE __EventSystem____c__DisplayClass52_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field go, offset 0x10, size 0x8
-  __declspec(property(get = __get_go, put = __set_go))::UnityEngine::GameObject* go;
+  __declspec(property(get = __cordl_internal_get_go, put = __cordl_internal_set_go))::UnityW<::UnityEngine::GameObject> go;
 
-  constexpr ::UnityEngine::GameObject*& __get_go();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_go();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_go() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_go() const;
 
-  constexpr void __set_go(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_go(::UnityW<::UnityEngine::GameObject> value);
 
   static inline ::UnityEngine::EventSystems::__EventSystem____c__DisplayClass52_0* New_ctor();
 
@@ -137,7 +137,7 @@ protected:
 
 public:
   /// @brief Field go, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___go;
+  ::UnityW<::UnityEngine::GameObject> ___go;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -151,7 +151,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::__EventSystem____c__DisplayC
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13189))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13189)), TypeDefinitionIndex(TypeDefinitionIndex(13214))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13191))
 // CS Name: ::UnityEngine.EventSystems::EventSystem*
 class CORDL_TYPE EventSystem : public ::UnityEngine::EventSystems::UIBehaviour {
@@ -162,34 +162,36 @@ public:
   using UIToolkitOverrideConfig = ::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig;
 
   /// @brief Field m_SystemInputModules, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_SystemInputModules, put = __set_m_SystemInputModules))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule*>* m_SystemInputModules;
+  __declspec(property(get = __cordl_internal_get_m_SystemInputModules,
+                      put = __cordl_internal_set_m_SystemInputModules))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseInputModule>>* m_SystemInputModules;
 
   /// @brief Field m_CurrentInputModule, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_CurrentInputModule, put = __set_m_CurrentInputModule))::UnityEngine::EventSystems::BaseInputModule* m_CurrentInputModule;
+  __declspec(property(get = __cordl_internal_get_m_CurrentInputModule, put = __cordl_internal_set_m_CurrentInputModule))::UnityW<::UnityEngine::EventSystems::BaseInputModule> m_CurrentInputModule;
 
   /// @brief Field m_FirstSelected, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_FirstSelected, put = __set_m_FirstSelected))::UnityEngine::GameObject* m_FirstSelected;
+  __declspec(property(get = __cordl_internal_get_m_FirstSelected, put = __cordl_internal_set_m_FirstSelected))::UnityW<::UnityEngine::GameObject> m_FirstSelected;
 
   /// @brief Field m_sendNavigationEvents, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_sendNavigationEvents, put = __set_m_sendNavigationEvents)) bool m_sendNavigationEvents;
+  __declspec(property(get = __cordl_internal_get_m_sendNavigationEvents, put = __cordl_internal_set_m_sendNavigationEvents)) bool m_sendNavigationEvents;
 
   /// @brief Field m_DragThreshold, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_DragThreshold, put = __set_m_DragThreshold)) int32_t m_DragThreshold;
+  __declspec(property(get = __cordl_internal_get_m_DragThreshold, put = __cordl_internal_set_m_DragThreshold)) int32_t m_DragThreshold;
 
   /// @brief Field m_CurrentSelected, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_CurrentSelected, put = __set_m_CurrentSelected))::UnityEngine::GameObject* m_CurrentSelected;
+  __declspec(property(get = __cordl_internal_get_m_CurrentSelected, put = __cordl_internal_set_m_CurrentSelected))::UnityW<::UnityEngine::GameObject> m_CurrentSelected;
 
   /// @brief Field m_HasFocus, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_HasFocus, put = __set_m_HasFocus)) bool m_HasFocus;
+  __declspec(property(get = __cordl_internal_get_m_HasFocus, put = __cordl_internal_set_m_HasFocus)) bool m_HasFocus;
 
   /// @brief Field m_SelectionGuard, offset 0x41, size 0x1
-  __declspec(property(get = __get_m_SelectionGuard, put = __set_m_SelectionGuard)) bool m_SelectionGuard;
+  __declspec(property(get = __cordl_internal_get_m_SelectionGuard, put = __cordl_internal_set_m_SelectionGuard)) bool m_SelectionGuard;
 
   /// @brief Field m_DummyData, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_DummyData, put = __set_m_DummyData))::UnityEngine::EventSystems::BaseEventData* m_DummyData;
+  __declspec(property(get = __cordl_internal_get_m_DummyData, put = __cordl_internal_set_m_DummyData))::UnityEngine::EventSystems::BaseEventData* m_DummyData;
 
   /// @brief Field m_EventSystems, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_EventSystems, put = setStaticF_m_EventSystems))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* m_EventSystems;
+  static __declspec(property(get = getStaticF_m_EventSystems,
+                             put = setStaticF_m_EventSystems))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* m_EventSystems;
 
   /// @brief Field s_RaycastComparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_RaycastComparer, put = setStaticF_s_RaycastComparer))::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* s_RaycastComparer;
@@ -201,13 +203,13 @@ public:
 
   __declspec(property(get = get_pixelDragThreshold, put = set_pixelDragThreshold)) int32_t pixelDragThreshold;
 
-  __declspec(property(get = get_currentInputModule))::UnityEngine::EventSystems::BaseInputModule* currentInputModule;
+  __declspec(property(get = get_currentInputModule))::UnityW<::UnityEngine::EventSystems::BaseInputModule> currentInputModule;
 
-  __declspec(property(get = get_firstSelectedGameObject, put = set_firstSelectedGameObject))::UnityEngine::GameObject* firstSelectedGameObject;
+  __declspec(property(get = get_firstSelectedGameObject, put = set_firstSelectedGameObject))::UnityW<::UnityEngine::GameObject> firstSelectedGameObject;
 
-  __declspec(property(get = get_currentSelectedGameObject))::UnityEngine::GameObject* currentSelectedGameObject;
+  __declspec(property(get = get_currentSelectedGameObject))::UnityW<::UnityEngine::GameObject> currentSelectedGameObject;
 
-  __declspec(property(get = get_lastSelectedGameObject))::UnityEngine::GameObject* lastSelectedGameObject;
+  __declspec(property(get = get_lastSelectedGameObject))::UnityW<::UnityEngine::GameObject> lastSelectedGameObject;
 
   __declspec(property(get = get_isFocused)) bool isFocused;
 
@@ -221,63 +223,64 @@ public:
 
   __declspec(property(get = get_createUIToolkitPanelGameObjectsOnStart)) bool createUIToolkitPanelGameObjectsOnStart;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule*>*& __get_m_SystemInputModules();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseInputModule>>*& __cordl_internal_get_m_SystemInputModules();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule*>*> const& __get_m_SystemInputModules() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseInputModule>>*> const&
+  __cordl_internal_get_m_SystemInputModules() const;
 
-  constexpr void __set_m_SystemInputModules(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule*>* value);
+  constexpr void __cordl_internal_set_m_SystemInputModules(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseInputModule>>* value);
 
-  constexpr ::UnityEngine::EventSystems::BaseInputModule*& __get_m_CurrentInputModule();
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule>& __cordl_internal_get_m_CurrentInputModule();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::BaseInputModule*> const& __get_m_CurrentInputModule() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule> const& __cordl_internal_get_m_CurrentInputModule() const;
 
-  constexpr void __set_m_CurrentInputModule(::UnityEngine::EventSystems::BaseInputModule* value);
+  constexpr void __cordl_internal_set_m_CurrentInputModule(::UnityW<::UnityEngine::EventSystems::BaseInputModule> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_FirstSelected();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_FirstSelected();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_FirstSelected() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_FirstSelected() const;
 
-  constexpr void __set_m_FirstSelected(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_FirstSelected(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get_m_sendNavigationEvents();
+  constexpr bool& __cordl_internal_get_m_sendNavigationEvents();
 
-  constexpr bool const& __get_m_sendNavigationEvents() const;
+  constexpr bool const& __cordl_internal_get_m_sendNavigationEvents() const;
 
-  constexpr void __set_m_sendNavigationEvents(bool value);
+  constexpr void __cordl_internal_set_m_sendNavigationEvents(bool value);
 
-  constexpr int32_t& __get_m_DragThreshold();
+  constexpr int32_t& __cordl_internal_get_m_DragThreshold();
 
-  constexpr int32_t const& __get_m_DragThreshold() const;
+  constexpr int32_t const& __cordl_internal_get_m_DragThreshold() const;
 
-  constexpr void __set_m_DragThreshold(int32_t value);
+  constexpr void __cordl_internal_set_m_DragThreshold(int32_t value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_CurrentSelected();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_CurrentSelected();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_CurrentSelected() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_CurrentSelected() const;
 
-  constexpr void __set_m_CurrentSelected(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_CurrentSelected(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get_m_HasFocus();
+  constexpr bool& __cordl_internal_get_m_HasFocus();
 
-  constexpr bool const& __get_m_HasFocus() const;
+  constexpr bool const& __cordl_internal_get_m_HasFocus() const;
 
-  constexpr void __set_m_HasFocus(bool value);
+  constexpr void __cordl_internal_set_m_HasFocus(bool value);
 
-  constexpr bool& __get_m_SelectionGuard();
+  constexpr bool& __cordl_internal_get_m_SelectionGuard();
 
-  constexpr bool const& __get_m_SelectionGuard() const;
+  constexpr bool const& __cordl_internal_get_m_SelectionGuard() const;
 
-  constexpr void __set_m_SelectionGuard(bool value);
+  constexpr void __cordl_internal_set_m_SelectionGuard(bool value);
 
-  constexpr ::UnityEngine::EventSystems::BaseEventData*& __get_m_DummyData();
+  constexpr ::UnityEngine::EventSystems::BaseEventData*& __cordl_internal_get_m_DummyData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::BaseEventData*> const& __get_m_DummyData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::BaseEventData*> const& __cordl_internal_get_m_DummyData() const;
 
-  constexpr void __set_m_DummyData(::UnityEngine::EventSystems::BaseEventData* value);
+  constexpr void __cordl_internal_set_m_DummyData(::UnityEngine::EventSystems::BaseEventData* value);
 
-  static inline void setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* value);
+  static inline void setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* getStaticF_m_EventSystems();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* getStaticF_m_EventSystems();
 
   static inline void setStaticF_s_RaycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
@@ -288,7 +291,7 @@ public:
   static inline ::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig getStaticF_s_UIToolkitOverride();
 
   /// @brief Method get_current, addr 0x2d968dc, size 0xc4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::EventSystems::EventSystem* get_current();
+  static inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_current();
 
   /// @brief Method set_current, addr 0x2d969a0, size 0x194, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::EventSystems::EventSystem* value);
@@ -306,19 +309,19 @@ public:
   inline void set_pixelDragThreshold(int32_t value);
 
   /// @brief Method get_currentInputModule, addr 0x2d96b58, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
+  inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
   /// @brief Method get_firstSelectedGameObject, addr 0x2d96b60, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_firstSelectedGameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_firstSelectedGameObject();
 
   /// @brief Method set_firstSelectedGameObject, addr 0x2d96b68, size 0x8, virtual false, abstract: false, final false
   inline void set_firstSelectedGameObject(::UnityEngine::GameObject* value);
 
   /// @brief Method get_currentSelectedGameObject, addr 0x2d96b70, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_currentSelectedGameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_currentSelectedGameObject();
 
   /// @brief Method get_lastSelectedGameObject, addr 0x2d96b78, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_lastSelectedGameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_lastSelectedGameObject();
 
   /// @brief Method get_isFocused, addr 0x2d96b80, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFocused();
@@ -412,13 +415,13 @@ protected:
 
 public:
   /// @brief Field m_SystemInputModules, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule*>* ___m_SystemInputModules;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseInputModule>>* ___m_SystemInputModules;
 
   /// @brief Field m_CurrentInputModule, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::BaseInputModule* ___m_CurrentInputModule;
+  ::UnityW<::UnityEngine::EventSystems::BaseInputModule> ___m_CurrentInputModule;
 
   /// @brief Field m_FirstSelected, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_FirstSelected;
+  ::UnityW<::UnityEngine::GameObject> ___m_FirstSelected;
 
   /// @brief Field m_sendNavigationEvents, offset: 0x30, size: 0x1, def value: None
   bool ___m_sendNavigationEvents;
@@ -427,7 +430,7 @@ public:
   int32_t ___m_DragThreshold;
 
   /// @brief Field m_CurrentSelected, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_CurrentSelected;
+  ::UnityW<::UnityEngine::GameObject> ___m_CurrentSelected;
 
   /// @brief Field m_HasFocus, offset: 0x40, size: 0x1, def value: None
   bool ___m_HasFocus;

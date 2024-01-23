@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Reflection::MemberFilter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3473))
 // CS Name: ::System.Reflection::MemberFilter*
 class CORDL_TYPE MemberFilter : public ::System::MulticastDelegate {

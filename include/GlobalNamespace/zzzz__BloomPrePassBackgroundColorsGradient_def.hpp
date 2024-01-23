@@ -35,38 +35,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Elemen
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14457))
 // CS Name: ::BloomPrePassBackgroundColorsGradient::Element*
 class CORDL_TYPE __BloomPrePassBackgroundColorsGradient__Element : public ::System::Object {
 public:
   // Declarations
   /// @brief Field color, offset 0x10, size 0x10
-  __declspec(property(get = __get_color, put = __set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
   /// @brief Field startT, offset 0x20, size 0x4
-  __declspec(property(get = __get_startT, put = __set_startT)) float_t startT;
+  __declspec(property(get = __cordl_internal_get_startT, put = __cordl_internal_set_startT)) float_t startT;
 
   /// @brief Field exp, offset 0x24, size 0x4
-  __declspec(property(get = __get_exp, put = __set_exp)) float_t exp;
+  __declspec(property(get = __cordl_internal_get_exp, put = __cordl_internal_set_exp)) float_t exp;
 
-  constexpr ::UnityEngine::Color& __get_color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
-  constexpr ::UnityEngine::Color const& __get_color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __set_color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  constexpr float_t& __get_startT();
+  constexpr float_t& __cordl_internal_get_startT();
 
-  constexpr float_t const& __get_startT() const;
+  constexpr float_t const& __cordl_internal_get_startT() const;
 
-  constexpr void __set_startT(float_t value);
+  constexpr void __cordl_internal_set_startT(float_t value);
 
-  constexpr float_t& __get_exp();
+  constexpr float_t& __cordl_internal_get_exp();
 
-  constexpr float_t const& __get_exp() const;
+  constexpr float_t const& __cordl_internal_get_exp() const;
 
-  constexpr void __set_exp(float_t value);
+  constexpr void __cordl_internal_set_exp(float_t value);
 
   static inline ::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element* New_ctor();
 
@@ -112,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradient
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14468))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14468))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14458))
 // CS Name: ::BloomPrePassBackgroundColorsGradient*
 class CORDL_TYPE BloomPrePassBackgroundColorsGradient : public ::GlobalNamespace::BloomPrePassBackgroundTextureGradient {
@@ -121,18 +121,20 @@ public:
   using Element = ::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element;
 
   /// @brief Field _elements, offset 0x40, size 0x8
-  __declspec(property(
-      get = __get__elements,
-      put = __set__elements))::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> _elements;
+  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*,
+                                                                                                           ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> _elements;
 
   __declspec(property(
       get = get_elements))::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> elements;
 
-  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*>& __get__elements();
+  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*>&
+  __cordl_internal_get__elements();
 
-  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> const& __get__elements() const;
+  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> const&
+  __cordl_internal_get__elements() const;
 
-  constexpr void __set__elements(::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> value);
+  constexpr void
+  __cordl_internal_set__elements(::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> value);
 
   /// @brief Method get_elements, addr 0x21041a0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> get_elements();

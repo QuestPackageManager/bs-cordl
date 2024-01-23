@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9291))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9291))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9279))
 // CS Name: ::System.Net.NetworkInformation::MacOsNetworkInterfaceAPI*
 class CORDL_TYPE MacOsNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
   // Declarations
   /// @brief Field AF_INET6, offset 0x10, size 0x4
-  __declspec(property(get = __get_AF_INET6, put = __set_AF_INET6)) int32_t AF_INET6;
+  __declspec(property(get = __cordl_internal_get_AF_INET6, put = __cordl_internal_set_AF_INET6)) int32_t AF_INET6;
 
-  constexpr int32_t& __get_AF_INET6();
+  constexpr int32_t& __cordl_internal_get_AF_INET6();
 
-  constexpr int32_t const& __get_AF_INET6() const;
+  constexpr int32_t const& __cordl_internal_get_AF_INET6() const;
 
-  constexpr void __set_AF_INET6(int32_t value);
+  constexpr void __cordl_internal_set_AF_INET6(int32_t value);
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor();
 

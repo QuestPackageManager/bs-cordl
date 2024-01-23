@@ -40,20 +40,20 @@ MARK_REF_PTR_T(::System::Security::Policy::__Evidence__EvidenceEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Policy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2900))
 // CS Name: ::Evidence::EvidenceEnumerator*
 class CORDL_TYPE __Evidence__EvidenceEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field currentEnum, offset 0x10, size 0x8
-  __declspec(property(get = __get_currentEnum, put = __set_currentEnum))::System::Collections::IEnumerator* currentEnum;
+  __declspec(property(get = __cordl_internal_get_currentEnum, put = __cordl_internal_set_currentEnum))::System::Collections::IEnumerator* currentEnum;
 
   /// @brief Field hostEnum, offset 0x18, size 0x8
-  __declspec(property(get = __get_hostEnum, put = __set_hostEnum))::System::Collections::IEnumerator* hostEnum;
+  __declspec(property(get = __cordl_internal_get_hostEnum, put = __cordl_internal_set_hostEnum))::System::Collections::IEnumerator* hostEnum;
 
   /// @brief Field assemblyEnum, offset 0x20, size 0x8
-  __declspec(property(get = __get_assemblyEnum, put = __set_assemblyEnum))::System::Collections::IEnumerator* assemblyEnum;
+  __declspec(property(get = __cordl_internal_get_assemblyEnum, put = __cordl_internal_set_assemblyEnum))::System::Collections::IEnumerator* assemblyEnum;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -63,23 +63,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Collections::IEnumerator*& __get_currentEnum();
+  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_currentEnum();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __get_currentEnum() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_currentEnum() const;
 
-  constexpr void __set_currentEnum(::System::Collections::IEnumerator* value);
+  constexpr void __cordl_internal_set_currentEnum(::System::Collections::IEnumerator* value);
 
-  constexpr ::System::Collections::IEnumerator*& __get_hostEnum();
+  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_hostEnum();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __get_hostEnum() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_hostEnum() const;
 
-  constexpr void __set_hostEnum(::System::Collections::IEnumerator* value);
+  constexpr void __cordl_internal_set_hostEnum(::System::Collections::IEnumerator* value);
 
-  constexpr ::System::Collections::IEnumerator*& __get_assemblyEnum();
+  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_assemblyEnum();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __get_assemblyEnum() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_assemblyEnum() const;
 
-  constexpr void __set_assemblyEnum(::System::Collections::IEnumerator* value);
+  constexpr void __cordl_internal_set_assemblyEnum(::System::Collections::IEnumerator* value);
 
   static inline ::System::Security::Policy::__Evidence__EvidenceEnumerator* New_ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum);
 
@@ -134,7 +134,7 @@ static_assert(offsetof(::System::Security::Policy::__Evidence__EvidenceEnumerato
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Policy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2901))
 // CS Name: ::System.Security.Policy::Evidence*
 class CORDL_TYPE Evidence : public ::System::Object {
@@ -143,13 +143,13 @@ public:
   using EvidenceEnumerator = ::System::Security::Policy::__Evidence__EvidenceEnumerator;
 
   /// @brief Field _locked, offset 0x10, size 0x1
-  __declspec(property(get = __get__locked, put = __set__locked)) bool _locked;
+  __declspec(property(get = __cordl_internal_get__locked, put = __cordl_internal_set__locked)) bool _locked;
 
   /// @brief Field hostEvidenceList, offset 0x18, size 0x8
-  __declspec(property(get = __get_hostEvidenceList, put = __set_hostEvidenceList))::System::Collections::ArrayList* hostEvidenceList;
+  __declspec(property(get = __cordl_internal_get_hostEvidenceList, put = __cordl_internal_set_hostEvidenceList))::System::Collections::ArrayList* hostEvidenceList;
 
   /// @brief Field assemblyEvidenceList, offset 0x20, size 0x8
-  __declspec(property(get = __get_assemblyEvidenceList, put = __set_assemblyEvidenceList))::System::Collections::ArrayList* assemblyEvidenceList;
+  __declspec(property(get = __cordl_internal_get_assemblyEvidenceList, put = __cordl_internal_set_assemblyEvidenceList))::System::Collections::ArrayList* assemblyEvidenceList;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -169,23 +169,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr bool& __get__locked();
+  constexpr bool& __cordl_internal_get__locked();
 
-  constexpr bool const& __get__locked() const;
+  constexpr bool const& __cordl_internal_get__locked() const;
 
-  constexpr void __set__locked(bool value);
+  constexpr void __cordl_internal_set__locked(bool value);
 
-  constexpr ::System::Collections::ArrayList*& __get_hostEvidenceList();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_hostEvidenceList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_hostEvidenceList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_hostEvidenceList() const;
 
-  constexpr void __set_hostEvidenceList(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_hostEvidenceList(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::ArrayList*& __get_assemblyEvidenceList();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_assemblyEvidenceList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_assemblyEvidenceList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_assemblyEvidenceList() const;
 
-  constexpr void __set_assemblyEvidenceList(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_assemblyEvidenceList(::System::Collections::ArrayList* value);
 
   static inline ::System::Security::Policy::Evidence* New_ctor();
 

@@ -25,22 +25,22 @@ MARK_REF_PTR_T(::System::Security::Principal::NTAccount);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3000))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3000))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3001))
 // CS Name: ::System.Security.Principal::NTAccount*
 class CORDL_TYPE NTAccount : public ::System::Security::Principal::IdentityReference {
 public:
   // Declarations
   /// @brief Field _value, offset 0x10, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::StringW _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::StringW _value;
 
   __declspec(property(get = get_Value))::StringW Value;
 
-  constexpr ::StringW& __get__value();
+  constexpr ::StringW& __cordl_internal_get__value();
 
-  constexpr ::StringW const& __get__value() const;
+  constexpr ::StringW const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::StringW value);
+  constexpr void __cordl_internal_set__value(::StringW value);
 
   static inline ::System::Security::Principal::NTAccount* New_ctor(::StringW name);
 

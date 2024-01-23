@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::System::Net::NtlmClient);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9197))
 // CS Name: ::System.Net::NtlmClient*
 class CORDL_TYPE NtlmClient : public ::System::Object {
 public:
   // Declarations
   /// @brief Field authObject, offset 0x10, size 0x8
-  __declspec(property(get = __get_authObject, put = __set_authObject))::System::Net::IAuthenticationModule* authObject;
+  __declspec(property(get = __cordl_internal_get_authObject, put = __cordl_internal_set_authObject))::System::Net::IAuthenticationModule* authObject;
 
   __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
 
@@ -44,11 +44,11 @@ public:
   /// @brief Convert to "::System::Net::IAuthenticationModule"
   constexpr ::System::Net::IAuthenticationModule* i___System__Net__IAuthenticationModule() noexcept;
 
-  constexpr ::System::Net::IAuthenticationModule*& __get_authObject();
+  constexpr ::System::Net::IAuthenticationModule*& __cordl_internal_get_authObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IAuthenticationModule*> const& __get_authObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IAuthenticationModule*> const& __cordl_internal_get_authObject() const;
 
-  constexpr void __set_authObject(::System::Net::IAuthenticationModule* value);
+  constexpr void __cordl_internal_set_authObject(::System::Net::IAuthenticationModule* value);
 
   static inline ::System::Net::NtlmClient* New_ctor();
 

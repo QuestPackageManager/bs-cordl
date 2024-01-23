@@ -32,38 +32,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(498))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(552))
 // CS Name: ::BcpgInputStream::PartialInputStream*
 class CORDL_TYPE __BcpgInputStream__PartialInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
   /// @brief Field m_in, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_in, put = __set_m_in))::Org::BouncyCastle::Bcpg::BcpgInputStream* m_in;
+  __declspec(property(get = __cordl_internal_get_m_in, put = __cordl_internal_set_m_in))::Org::BouncyCastle::Bcpg::BcpgInputStream* m_in;
 
   /// @brief Field partial, offset 0x38, size 0x1
-  __declspec(property(get = __get_partial, put = __set_partial)) bool partial;
+  __declspec(property(get = __cordl_internal_get_partial, put = __cordl_internal_set_partial)) bool partial;
 
   /// @brief Field dataLength, offset 0x3c, size 0x4
-  __declspec(property(get = __get_dataLength, put = __set_dataLength)) int32_t dataLength;
+  __declspec(property(get = __cordl_internal_get_dataLength, put = __cordl_internal_set_dataLength)) int32_t dataLength;
 
-  constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& __get_m_in();
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& __cordl_internal_get_m_in();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgInputStream*> const& __get_m_in() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgInputStream*> const& __cordl_internal_get_m_in() const;
 
-  constexpr void __set_m_in(::Org::BouncyCastle::Bcpg::BcpgInputStream* value);
+  constexpr void __cordl_internal_set_m_in(::Org::BouncyCastle::Bcpg::BcpgInputStream* value);
 
-  constexpr bool& __get_partial();
+  constexpr bool& __cordl_internal_get_partial();
 
-  constexpr bool const& __get_partial() const;
+  constexpr bool const& __cordl_internal_get_partial() const;
 
-  constexpr void __set_partial(bool value);
+  constexpr void __cordl_internal_set_partial(bool value);
 
-  constexpr int32_t& __get_dataLength();
+  constexpr int32_t& __cordl_internal_get_dataLength();
 
-  constexpr int32_t const& __get_dataLength() const;
+  constexpr int32_t const& __cordl_internal_get_dataLength() const;
 
-  constexpr void __set_dataLength(int32_t value);
+  constexpr void __cordl_internal_set_dataLength(int32_t value);
 
   static inline ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
@@ -118,7 +118,7 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInpu
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(498))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(553))
 // CS Name: ::Org.BouncyCastle.Bcpg::BcpgInputStream*
 class CORDL_TYPE BcpgInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
@@ -127,31 +127,31 @@ public:
   using PartialInputStream = ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream;
 
   /// @brief Field m_in, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_in, put = __set_m_in))::System::IO::Stream* m_in;
+  __declspec(property(get = __cordl_internal_get_m_in, put = __cordl_internal_set_m_in))::System::IO::Stream* m_in;
 
   /// @brief Field next, offset 0x38, size 0x1
-  __declspec(property(get = __get_next, put = __set_next)) bool next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) bool next;
 
   /// @brief Field nextB, offset 0x3c, size 0x4
-  __declspec(property(get = __get_nextB, put = __set_nextB)) int32_t nextB;
+  __declspec(property(get = __cordl_internal_get_nextB, put = __cordl_internal_set_nextB)) int32_t nextB;
 
-  constexpr ::System::IO::Stream*& __get_m_in();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_m_in();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_m_in() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_in() const;
 
-  constexpr void __set_m_in(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_m_in(::System::IO::Stream* value);
 
-  constexpr bool& __get_next();
+  constexpr bool& __cordl_internal_get_next();
 
-  constexpr bool const& __get_next() const;
+  constexpr bool const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(bool value);
+  constexpr void __cordl_internal_set_next(bool value);
 
-  constexpr int32_t& __get_nextB();
+  constexpr int32_t& __cordl_internal_get_nextB();
 
-  constexpr int32_t const& __get_nextB() const;
+  constexpr int32_t const& __cordl_internal_get_nextB() const;
 
-  constexpr void __set_nextB(int32_t value);
+  constexpr void __cordl_internal_set_nextB(int32_t value);
 
   /// @brief Method Wrap, addr 0x11cc880, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* Wrap(::System::IO::Stream* inStr);

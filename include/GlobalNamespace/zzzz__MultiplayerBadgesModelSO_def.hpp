@@ -23,39 +23,41 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgesModelSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5110))
 // CS Name: ::MultiplayerBadgesModelSO*
 class CORDL_TYPE MultiplayerBadgesModelSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _positiveBadges, offset 0x18, size 0x8
-  __declspec(property(get = __get__positiveBadges, put = __set__positiveBadges))::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* _positiveBadges;
+  __declspec(property(get = __cordl_internal_get__positiveBadges,
+                      put = __cordl_internal_set__positiveBadges))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* _positiveBadges;
 
   /// @brief Field _negativeBadges, offset 0x20, size 0x8
-  __declspec(property(get = __get__negativeBadges, put = __set__negativeBadges))::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* _negativeBadges;
+  __declspec(property(get = __cordl_internal_get__negativeBadges,
+                      put = __cordl_internal_set__negativeBadges))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* _negativeBadges;
 
-  __declspec(property(get = get_positiveBadges))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* positiveBadges;
+  __declspec(property(get = get_positiveBadges))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* positiveBadges;
 
-  __declspec(property(get = get_negativeBadges))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* negativeBadges;
+  __declspec(property(get = get_negativeBadges))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* negativeBadges;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>*& __get__positiveBadges();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*& __cordl_internal_get__positiveBadges();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>*> const& __get__positiveBadges() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*> const& __cordl_internal_get__positiveBadges() const;
 
-  constexpr void __set__positiveBadges(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* value);
+  constexpr void __cordl_internal_set__positiveBadges(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>*& __get__negativeBadges();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*& __cordl_internal_get__negativeBadges();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>*> const& __get__negativeBadges() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*> const& __cordl_internal_get__negativeBadges() const;
 
-  constexpr void __set__negativeBadges(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* value);
+  constexpr void __cordl_internal_set__negativeBadges(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* value);
 
   /// @brief Method get_positiveBadges, addr 0x23cf914, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* get_positiveBadges();
+  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_positiveBadges();
 
   /// @brief Method get_negativeBadges, addr 0x23cf91c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* get_negativeBadges();
+  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_negativeBadges();
 
   static inline ::GlobalNamespace::MultiplayerBadgesModelSO* New_ctor();
 
@@ -77,10 +79,10 @@ protected:
 
 public:
   /// @brief Field _positiveBadges, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* ____positiveBadges;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* ____positiveBadges;
 
   /// @brief Field _negativeBadges, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* ____negativeBadges;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* ____negativeBadges;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

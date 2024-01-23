@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::PointLightWithIds);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14552))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14550))
 // CS Name: ::PointLightWithIds*
 class CORDL_TYPE PointLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
   // Declarations
   /// @brief Field _pointLight, offset 0x48, size 0x8
-  __declspec(property(get = __get__pointLight, put = __set__pointLight))::GlobalNamespace::PointLight* _pointLight;
+  __declspec(property(get = __cordl_internal_get__pointLight, put = __cordl_internal_set__pointLight))::UnityW<::GlobalNamespace::PointLight> _pointLight;
 
-  constexpr ::GlobalNamespace::PointLight*& __get__pointLight();
+  constexpr ::UnityW<::GlobalNamespace::PointLight>& __cordl_internal_get__pointLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PointLight*> const& __get__pointLight() const;
+  constexpr ::UnityW<::GlobalNamespace::PointLight> const& __cordl_internal_get__pointLight() const;
 
-  constexpr void __set__pointLight(::GlobalNamespace::PointLight* value);
+  constexpr void __cordl_internal_set__pointLight(::UnityW<::GlobalNamespace::PointLight> value);
 
   /// @brief Method ColorWasSet, addr 0x2112910, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
@@ -58,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _pointLight, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::PointLight* ____pointLight;
+  ::UnityW<::GlobalNamespace::PointLight> ____pointLight;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

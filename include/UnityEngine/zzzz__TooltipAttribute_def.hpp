@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::TooltipAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10173))
 // CS Name: ::UnityEngine::TooltipAttribute*
 class CORDL_TYPE TooltipAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field tooltip, offset 0x10, size 0x8
-  __declspec(property(get = __get_tooltip, put = __set_tooltip))::StringW tooltip;
+  __declspec(property(get = __cordl_internal_get_tooltip, put = __cordl_internal_set_tooltip))::StringW tooltip;
 
-  constexpr ::StringW& __get_tooltip();
+  constexpr ::StringW& __cordl_internal_get_tooltip();
 
-  constexpr ::StringW const& __get_tooltip() const;
+  constexpr ::StringW const& __cordl_internal_get_tooltip() const;
 
-  constexpr void __set_tooltip(::StringW value);
+  constexpr void __cordl_internal_set_tooltip(::StringW value);
 
   static inline ::UnityEngine::TooltipAttribute* New_ctor(::StringW tooltip);
 

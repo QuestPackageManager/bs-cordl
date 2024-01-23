@@ -24,47 +24,47 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ShoulderRotator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12668))
 // CS Name: ::RootMotion.FinalIK::ShoulderRotator*
 class CORDL_TYPE ShoulderRotator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field offset, offset 0x1c, size 0x4
-  __declspec(property(get = __get_offset, put = __set_offset)) float_t offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) float_t offset;
 
   /// @brief Field ik, offset 0x20, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::FullBodyBipedIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
 
   /// @brief Field skip, offset 0x28, size 0x1
-  __declspec(property(get = __get_skip, put = __set_skip)) bool skip;
+  __declspec(property(get = __cordl_internal_get_skip, put = __cordl_internal_set_skip)) bool skip;
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  constexpr float_t& __get_offset();
+  constexpr float_t& __cordl_internal_get_offset();
 
-  constexpr float_t const& __get_offset() const;
+  constexpr float_t const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(float_t value);
+  constexpr void __cordl_internal_set_offset(float_t value);
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::FullBodyBipedIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
 
-  constexpr bool& __get_skip();
+  constexpr bool& __cordl_internal_get_skip();
 
-  constexpr bool const& __get_skip() const;
+  constexpr bool const& __cordl_internal_get_skip() const;
 
-  constexpr void __set_skip(bool value);
+  constexpr void __cordl_internal_set_skip(bool value);
 
   /// @brief Method Start, addr 0x129a37c, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
@@ -107,7 +107,7 @@ public:
   float_t ___offset;
 
   /// @brief Field ik, offset: 0x20, size: 0x8, def value: None
-  ::RootMotion::FinalIK::FullBodyBipedIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ___ik;
 
   /// @brief Field skip, offset: 0x28, size: 0x1, def value: None
   bool ___skip;

@@ -31,33 +31,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::RoleSyntax);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(380))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::RoleSyntax*
 class CORDL_TYPE RoleSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field roleAuthority, offset 0x10, size 0x8
-  __declspec(property(get = __get_roleAuthority, put = __set_roleAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority;
+  __declspec(property(get = __cordl_internal_get_roleAuthority, put = __cordl_internal_set_roleAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority;
 
   /// @brief Field roleName, offset 0x18, size 0x8
-  __declspec(property(get = __get_roleName, put = __set_roleName))::Org::BouncyCastle::Asn1::X509::GeneralName* roleName;
+  __declspec(property(get = __cordl_internal_get_roleName, put = __cordl_internal_set_roleName))::Org::BouncyCastle::Asn1::X509::GeneralName* roleName;
 
   __declspec(property(get = get_RoleAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* RoleAuthority;
 
   __declspec(property(get = get_RoleName))::Org::BouncyCastle::Asn1::X509::GeneralName* RoleName;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __get_roleAuthority();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_roleAuthority();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __get_roleAuthority() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_roleAuthority() const;
 
-  constexpr void __set_roleAuthority(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
+  constexpr void __cordl_internal_set_roleAuthority(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_roleName();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_roleName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_roleName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_roleName() const;
 
-  constexpr void __set_roleName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_roleName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
   /// @brief Method GetInstance, addr 0x11956b0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* GetInstance(::System::Object* obj);

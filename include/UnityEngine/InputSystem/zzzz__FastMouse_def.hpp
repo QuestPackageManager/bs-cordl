@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::FastMouse);
 // SizeInfo { instance_size: 440, native_size: -1, calculated_instance_size: 440, calculated_native_size: 440, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6244))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6244))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6249))
 // CS Name: ::UnityEngine.InputSystem::FastMouse*
 class CORDL_TYPE FastMouse : public ::UnityEngine::InputSystem::Mouse {

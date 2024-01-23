@@ -100,29 +100,29 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::__RemotingServices__CACD);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3070))
 // CS Name: ::RemotingServices::CACD*
 class CORDL_TYPE __RemotingServices__CACD : public ::System::Object {
 public:
   // Declarations
   /// @brief Field d, offset 0x10, size 0x8
-  __declspec(property(get = __get_d, put = __set_d))::System::Object* d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::System::Object* d;
 
   /// @brief Field c, offset 0x18, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::System::Object* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::System::Object* c;
 
-  constexpr ::System::Object*& __get_d();
+  constexpr ::System::Object*& __cordl_internal_get_d();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_d() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_d() const;
 
-  constexpr void __set_d(::System::Object* value);
+  constexpr void __cordl_internal_set_d(::System::Object* value);
 
-  constexpr ::System::Object*& __get_c();
+  constexpr ::System::Object*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::System::Object* value);
+  constexpr void __cordl_internal_set_c(::System::Object* value);
 
   static inline ::System::Runtime::Remoting::__RemotingServices__CACD* New_ctor();
 
@@ -163,7 +163,7 @@ static_assert(offsetof(::System::Runtime::Remoting::__RemotingServices__CACD, __
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3071))
 // CS Name: ::System.Runtime.Remoting::RemotingServices*
 class CORDL_TYPE RemotingServices : public ::System::Object {

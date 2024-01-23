@@ -22,76 +22,76 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::X931Rng);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1120))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::X931Rng*
 class CORDL_TYPE X931Rng : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mEngine, offset 0x10, size 0x8
-  __declspec(property(get = __get_mEngine, put = __set_mEngine))::Org::BouncyCastle::Crypto::IBlockCipher* mEngine;
+  __declspec(property(get = __cordl_internal_get_mEngine, put = __cordl_internal_set_mEngine))::Org::BouncyCastle::Crypto::IBlockCipher* mEngine;
 
   /// @brief Field mEntropySource, offset 0x18, size 0x8
-  __declspec(property(get = __get_mEntropySource, put = __set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mDT, offset 0x20, size 0x8
-  __declspec(property(get = __get_mDT, put = __set_mDT))::ArrayW<uint8_t, ::Array<uint8_t>*> mDT;
+  __declspec(property(get = __cordl_internal_get_mDT, put = __cordl_internal_set_mDT))::ArrayW<uint8_t, ::Array<uint8_t>*> mDT;
 
   /// @brief Field mI, offset 0x28, size 0x8
-  __declspec(property(get = __get_mI, put = __set_mI))::ArrayW<uint8_t, ::Array<uint8_t>*> mI;
+  __declspec(property(get = __cordl_internal_get_mI, put = __cordl_internal_set_mI))::ArrayW<uint8_t, ::Array<uint8_t>*> mI;
 
   /// @brief Field mR, offset 0x30, size 0x8
-  __declspec(property(get = __get_mR, put = __set_mR))::ArrayW<uint8_t, ::Array<uint8_t>*> mR;
+  __declspec(property(get = __cordl_internal_get_mR, put = __cordl_internal_set_mR))::ArrayW<uint8_t, ::Array<uint8_t>*> mR;
 
   /// @brief Field mV, offset 0x38, size 0x8
-  __declspec(property(get = __get_mV, put = __set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
+  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
 
   /// @brief Field mReseedCounter, offset 0x40, size 0x8
-  __declspec(property(get = __get_mReseedCounter, put = __set_mReseedCounter)) int64_t mReseedCounter;
+  __declspec(property(get = __cordl_internal_get_mReseedCounter, put = __cordl_internal_set_mReseedCounter)) int64_t mReseedCounter;
 
   __declspec(property(get = get_EntropySource))::Org::BouncyCastle::Crypto::IEntropySource* EntropySource;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_mEngine();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_mEngine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_mEngine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_mEngine() const;
 
-  constexpr void __set_mEngine(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_mEngine(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __get_mEntropySource();
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __cordl_internal_get_mEntropySource();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __get_mEntropySource() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __cordl_internal_get_mEntropySource() const;
 
-  constexpr void __set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
+  constexpr void __cordl_internal_set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mDT();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mDT();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mDT() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mDT() const;
 
-  constexpr void __set_mDT(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mDT(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mI();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mI();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mI() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mI() const;
 
-  constexpr void __set_mI(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mI(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mR();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mR();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mR() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mR() const;
 
-  constexpr void __set_mR(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mR(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mV() const;
 
-  constexpr void __set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int64_t& __get_mReseedCounter();
+  constexpr int64_t& __cordl_internal_get_mReseedCounter();
 
-  constexpr int64_t const& __get_mReseedCounter() const;
+  constexpr int64_t const& __cordl_internal_get_mReseedCounter() const;
 
-  constexpr void __set_mReseedCounter(int64_t value);
+  constexpr void __cordl_internal_set_mReseedCounter(int64_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931Rng* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector,
                                                                      ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);

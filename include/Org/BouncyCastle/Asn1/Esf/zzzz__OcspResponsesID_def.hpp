@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(147))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OcspResponsesID*
 class CORDL_TYPE OcspResponsesID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field ocspIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_ocspIdentifier, put = __set_ocspIdentifier))::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier;
+  __declspec(property(get = __cordl_internal_get_ocspIdentifier, put = __cordl_internal_set_ocspIdentifier))::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier;
 
   /// @brief Field ocspRepHash, offset 0x18, size 0x8
-  __declspec(property(get = __get_ocspRepHash, put = __set_ocspRepHash))::Org::BouncyCastle::Asn1::Esf::OtherHash* ocspRepHash;
+  __declspec(property(get = __cordl_internal_get_ocspRepHash, put = __cordl_internal_set_ocspRepHash))::Org::BouncyCastle::Asn1::Esf::OtherHash* ocspRepHash;
 
   __declspec(property(get = get_OcspIdentifier))::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* OcspIdentifier;
 
   __declspec(property(get = get_OcspRepHash))::Org::BouncyCastle::Asn1::Esf::OtherHash* OcspRepHash;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*& __get_ocspIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*& __cordl_internal_get_ocspIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*> const& __get_ocspIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*> const& __cordl_internal_get_ocspIdentifier() const;
 
-  constexpr void __set_ocspIdentifier(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* value);
+  constexpr void __cordl_internal_set_ocspIdentifier(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& __get_ocspRepHash();
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& __cordl_internal_get_ocspRepHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherHash*> const& __get_ocspRepHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherHash*> const& __cordl_internal_get_ocspRepHash() const;
 
-  constexpr void __set_ocspRepHash(::Org::BouncyCastle::Asn1::Esf::OtherHash* value);
+  constexpr void __cordl_internal_set_ocspRepHash(::Org::BouncyCastle::Asn1::Esf::OtherHash* value);
 
   /// @brief Method GetInstance, addr 0xe93e28, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* GetInstance(::System::Object* obj);

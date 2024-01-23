@@ -52,7 +52,7 @@ MARK_VAL_T(::System::Globalization::__TimeSpanFormat__FormatLiterals);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3681))
 // CS Name: ::TimeSpanFormat::Pattern
 struct CORDL_TYPE __TimeSpanFormat__Pattern {
@@ -106,7 +106,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanFormat__Pattern, value
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3682))
 // CS Name: ::TimeSpanFormat::FormatLiterals
 struct CORDL_TYPE __TimeSpanFormat__FormatLiterals {
@@ -205,7 +205,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3682))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3682))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3683))
 // CS Name: ::System.Globalization::TimeSpanFormat*
 class CORDL_TYPE TimeSpanFormat : public ::System::Object {

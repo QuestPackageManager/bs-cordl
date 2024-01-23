@@ -22,7 +22,7 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13982))
 // CS Name: ::UnityEngine.ResourceManagement.Util::GlobalLinkedListNodeCache`1<T>*
 class CORDL_TYPE GlobalLinkedListNodeCache_1 : public ::System::Object {

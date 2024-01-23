@@ -46,7 +46,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandl
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7475))
 // CS Name: ::StyleSheetCache::SheetHandleKey
 struct CORDL_TYPE __StyleSheetCache__SheetHandleKey {
@@ -85,7 +85,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7476))
 // CS Name: ::StyleSheetCache::SheetHandleKeyComparer*
 class CORDL_TYPE __StyleSheetCache__SheetHandleKeyComparer : public ::System::Object {
@@ -133,7 +133,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSh
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7477))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetCache*
 class CORDL_TYPE StyleSheetCache : public ::System::Object {

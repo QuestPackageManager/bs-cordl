@@ -38,29 +38,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(316))
 // CS Name: ::Org.BouncyCastle.Asn1.Tsp::TimeStampReq*
 class CORDL_TYPE TimeStampReq : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field messageImprint, offset 0x18, size 0x8
-  __declspec(property(get = __get_messageImprint, put = __set_messageImprint))::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint;
+  __declspec(property(get = __cordl_internal_get_messageImprint, put = __cordl_internal_set_messageImprint))::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint;
 
   /// @brief Field tsaPolicy, offset 0x20, size 0x8
-  __declspec(property(get = __get_tsaPolicy, put = __set_tsaPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy;
+  __declspec(property(get = __cordl_internal_get_tsaPolicy, put = __cordl_internal_set_tsaPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy;
 
   /// @brief Field nonce, offset 0x28, size 0x8
-  __declspec(property(get = __get_nonce, put = __set_nonce))::Org::BouncyCastle::Asn1::DerInteger* nonce;
+  __declspec(property(get = __cordl_internal_get_nonce, put = __cordl_internal_set_nonce))::Org::BouncyCastle::Asn1::DerInteger* nonce;
 
   /// @brief Field certReq, offset 0x30, size 0x8
-  __declspec(property(get = __get_certReq, put = __set_certReq))::Org::BouncyCastle::Asn1::DerBoolean* certReq;
+  __declspec(property(get = __cordl_internal_get_certReq, put = __cordl_internal_set_certReq))::Org::BouncyCastle::Asn1::DerBoolean* certReq;
 
   /// @brief Field extensions, offset 0x38, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
@@ -74,41 +74,41 @@ public:
 
   __declspec(property(get = get_Extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* Extensions;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Tsp::MessageImprint*& __get_messageImprint();
+  constexpr ::Org::BouncyCastle::Asn1::Tsp::MessageImprint*& __cordl_internal_get_messageImprint();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::MessageImprint*> const& __get_messageImprint() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::MessageImprint*> const& __cordl_internal_get_messageImprint() const;
 
-  constexpr void __set_messageImprint(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* value);
+  constexpr void __cordl_internal_set_messageImprint(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_tsaPolicy();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_tsaPolicy();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_tsaPolicy() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_tsaPolicy() const;
 
-  constexpr void __set_tsaPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_tsaPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_nonce();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_nonce();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_nonce() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_nonce() const;
 
-  constexpr void __set_nonce(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_nonce(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __get_certReq();
+  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_certReq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __get_certReq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_certReq() const;
 
-  constexpr void __set_certReq(::Org::BouncyCastle::Asn1::DerBoolean* value);
+  constexpr void __cordl_internal_set_certReq(::Org::BouncyCastle::Asn1::DerBoolean* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_extensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   /// @brief Method GetInstance, addr 0x10791e0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* GetInstance(::System::Object* obj);

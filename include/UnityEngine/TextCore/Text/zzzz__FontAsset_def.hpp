@@ -80,7 +80,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::__FontAsset____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13681))
 // CS Name: ::FontAsset::<>c*
 class CORDL_TYPE __FontAsset____c : public ::System::Object {
@@ -142,8 +142,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__F
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(13680)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15534)), TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(13679))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(13679)), TypeDefinitionIndex(TypeDefinitionIndex(13680)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(15534))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13682)) CS Name: ::UnityEngine.TextCore.Text::FontAsset*
 class CORDL_TYPE FontAsset : public ::UnityEngine::TextCore::Text::TextAsset {
 public:
@@ -151,138 +151,149 @@ public:
   using __c = ::UnityEngine::TextCore::Text::__FontAsset____c;
 
   /// @brief Field m_SourceFontFileGUID, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_SourceFontFileGUID, put = __set_m_SourceFontFileGUID))::StringW m_SourceFontFileGUID;
+  __declspec(property(get = __cordl_internal_get_m_SourceFontFileGUID, put = __cordl_internal_set_m_SourceFontFileGUID))::StringW m_SourceFontFileGUID;
 
   /// @brief Field m_SourceFontFile, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_SourceFontFile, put = __set_m_SourceFontFile))::UnityEngine::Font* m_SourceFontFile;
+  __declspec(property(get = __cordl_internal_get_m_SourceFontFile, put = __cordl_internal_set_m_SourceFontFile))::UnityW<::UnityEngine::Font> m_SourceFontFile;
 
   /// @brief Field m_AtlasPopulationMode, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_AtlasPopulationMode, put = __set_m_AtlasPopulationMode))::UnityEngine::TextCore::Text::AtlasPopulationMode m_AtlasPopulationMode;
+  __declspec(property(get = __cordl_internal_get_m_AtlasPopulationMode, put = __cordl_internal_set_m_AtlasPopulationMode))::UnityEngine::TextCore::Text::AtlasPopulationMode m_AtlasPopulationMode;
 
   /// @brief Field InternalDynamicOS, offset 0x4c, size 0x1
-  __declspec(property(get = __get_InternalDynamicOS, put = __set_InternalDynamicOS)) bool InternalDynamicOS;
+  __declspec(property(get = __cordl_internal_get_InternalDynamicOS, put = __cordl_internal_set_InternalDynamicOS)) bool InternalDynamicOS;
 
   /// @brief Field m_FaceInfo, offset 0x50, size 0x60
-  __declspec(property(get = __get_m_FaceInfo, put = __set_m_FaceInfo))::UnityEngine::TextCore::FaceInfo m_FaceInfo;
+  __declspec(property(get = __cordl_internal_get_m_FaceInfo, put = __cordl_internal_set_m_FaceInfo))::UnityEngine::TextCore::FaceInfo m_FaceInfo;
 
   /// @brief Field m_FamilyNameHashCode, offset 0xb0, size 0x4
-  __declspec(property(get = __get_m_FamilyNameHashCode, put = __set_m_FamilyNameHashCode)) int32_t m_FamilyNameHashCode;
+  __declspec(property(get = __cordl_internal_get_m_FamilyNameHashCode, put = __cordl_internal_set_m_FamilyNameHashCode)) int32_t m_FamilyNameHashCode;
 
   /// @brief Field m_StyleNameHashCode, offset 0xb4, size 0x4
-  __declspec(property(get = __get_m_StyleNameHashCode, put = __set_m_StyleNameHashCode)) int32_t m_StyleNameHashCode;
+  __declspec(property(get = __cordl_internal_get_m_StyleNameHashCode, put = __cordl_internal_set_m_StyleNameHashCode)) int32_t m_StyleNameHashCode;
 
   /// @brief Field m_FontWeightTable, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_FontWeightTable,
-                      put = __set_m_FontWeightTable))::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> m_FontWeightTable;
+  __declspec(property(get = __cordl_internal_get_m_FontWeightTable,
+                      put = __cordl_internal_set_m_FontWeightTable))::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> m_FontWeightTable;
 
   /// @brief Field m_GlyphTable, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_GlyphTable, put = __set_m_GlyphTable))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphTable;
+  __declspec(property(get = __cordl_internal_get_m_GlyphTable, put = __cordl_internal_set_m_GlyphTable))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphTable;
 
   /// @brief Field m_GlyphLookupDictionary, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_GlyphLookupDictionary,
-                      put = __set_m_GlyphLookupDictionary))::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* m_GlyphLookupDictionary;
+  __declspec(property(get = __cordl_internal_get_m_GlyphLookupDictionary,
+                      put = __cordl_internal_set_m_GlyphLookupDictionary))::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* m_GlyphLookupDictionary;
 
   /// @brief Field m_CharacterTable, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_CharacterTable, put = __set_m_CharacterTable))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* m_CharacterTable;
+  __declspec(property(get = __cordl_internal_get_m_CharacterTable,
+                      put = __cordl_internal_set_m_CharacterTable))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* m_CharacterTable;
 
   /// @brief Field m_CharacterLookupDictionary, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_CharacterLookupDictionary,
-                      put = __set_m_CharacterLookupDictionary))::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* m_CharacterLookupDictionary;
+  __declspec(
+      property(get = __cordl_internal_get_m_CharacterLookupDictionary,
+               put = __cordl_internal_set_m_CharacterLookupDictionary))::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* m_CharacterLookupDictionary;
 
   /// @brief Field m_AtlasTexture, offset 0xe0, size 0x8
-  __declspec(property(get = __get_m_AtlasTexture, put = __set_m_AtlasTexture))::UnityEngine::Texture2D* m_AtlasTexture;
+  __declspec(property(get = __cordl_internal_get_m_AtlasTexture, put = __cordl_internal_set_m_AtlasTexture))::UnityW<::UnityEngine::Texture2D> m_AtlasTexture;
 
   /// @brief Field m_AtlasTextures, offset 0xe8, size 0x8
-  __declspec(property(get = __get_m_AtlasTextures, put = __set_m_AtlasTextures))::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> m_AtlasTextures;
+  __declspec(property(get = __cordl_internal_get_m_AtlasTextures,
+                      put = __cordl_internal_set_m_AtlasTextures))::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> m_AtlasTextures;
 
   /// @brief Field m_AtlasTextureIndex, offset 0xf0, size 0x4
-  __declspec(property(get = __get_m_AtlasTextureIndex, put = __set_m_AtlasTextureIndex)) int32_t m_AtlasTextureIndex;
+  __declspec(property(get = __cordl_internal_get_m_AtlasTextureIndex, put = __cordl_internal_set_m_AtlasTextureIndex)) int32_t m_AtlasTextureIndex;
 
   /// @brief Field m_IsMultiAtlasTexturesEnabled, offset 0xf4, size 0x1
-  __declspec(property(get = __get_m_IsMultiAtlasTexturesEnabled, put = __set_m_IsMultiAtlasTexturesEnabled)) bool m_IsMultiAtlasTexturesEnabled;
+  __declspec(property(get = __cordl_internal_get_m_IsMultiAtlasTexturesEnabled, put = __cordl_internal_set_m_IsMultiAtlasTexturesEnabled)) bool m_IsMultiAtlasTexturesEnabled;
 
   /// @brief Field m_ClearDynamicDataOnBuild, offset 0xf5, size 0x1
-  __declspec(property(get = __get_m_ClearDynamicDataOnBuild, put = __set_m_ClearDynamicDataOnBuild)) bool m_ClearDynamicDataOnBuild;
+  __declspec(property(get = __cordl_internal_get_m_ClearDynamicDataOnBuild, put = __cordl_internal_set_m_ClearDynamicDataOnBuild)) bool m_ClearDynamicDataOnBuild;
 
   /// @brief Field m_AtlasWidth, offset 0xf8, size 0x4
-  __declspec(property(get = __get_m_AtlasWidth, put = __set_m_AtlasWidth)) int32_t m_AtlasWidth;
+  __declspec(property(get = __cordl_internal_get_m_AtlasWidth, put = __cordl_internal_set_m_AtlasWidth)) int32_t m_AtlasWidth;
 
   /// @brief Field m_AtlasHeight, offset 0xfc, size 0x4
-  __declspec(property(get = __get_m_AtlasHeight, put = __set_m_AtlasHeight)) int32_t m_AtlasHeight;
+  __declspec(property(get = __cordl_internal_get_m_AtlasHeight, put = __cordl_internal_set_m_AtlasHeight)) int32_t m_AtlasHeight;
 
   /// @brief Field m_AtlasPadding, offset 0x100, size 0x4
-  __declspec(property(get = __get_m_AtlasPadding, put = __set_m_AtlasPadding)) int32_t m_AtlasPadding;
+  __declspec(property(get = __cordl_internal_get_m_AtlasPadding, put = __cordl_internal_set_m_AtlasPadding)) int32_t m_AtlasPadding;
 
   /// @brief Field m_AtlasRenderMode, offset 0x104, size 0x4
-  __declspec(property(get = __get_m_AtlasRenderMode, put = __set_m_AtlasRenderMode))::UnityEngine::TextCore::LowLevel::GlyphRenderMode m_AtlasRenderMode;
+  __declspec(property(get = __cordl_internal_get_m_AtlasRenderMode, put = __cordl_internal_set_m_AtlasRenderMode))::UnityEngine::TextCore::LowLevel::GlyphRenderMode m_AtlasRenderMode;
 
   /// @brief Field m_UsedGlyphRects, offset 0x108, size 0x8
-  __declspec(property(get = __get_m_UsedGlyphRects, put = __set_m_UsedGlyphRects))::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* m_UsedGlyphRects;
+  __declspec(property(get = __cordl_internal_get_m_UsedGlyphRects,
+                      put = __cordl_internal_set_m_UsedGlyphRects))::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* m_UsedGlyphRects;
 
   /// @brief Field m_FreeGlyphRects, offset 0x110, size 0x8
-  __declspec(property(get = __get_m_FreeGlyphRects, put = __set_m_FreeGlyphRects))::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* m_FreeGlyphRects;
+  __declspec(property(get = __cordl_internal_get_m_FreeGlyphRects,
+                      put = __cordl_internal_set_m_FreeGlyphRects))::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* m_FreeGlyphRects;
 
   /// @brief Field m_FontFeatureTable, offset 0x118, size 0x8
-  __declspec(property(get = __get_m_FontFeatureTable, put = __set_m_FontFeatureTable))::UnityEngine::TextCore::Text::FontFeatureTable* m_FontFeatureTable;
+  __declspec(property(get = __cordl_internal_get_m_FontFeatureTable, put = __cordl_internal_set_m_FontFeatureTable))::UnityEngine::TextCore::Text::FontFeatureTable* m_FontFeatureTable;
 
   /// @brief Field m_FallbackFontAssetTable, offset 0x120, size 0x8
-  __declspec(property(get = __get_m_FallbackFontAssetTable,
-                      put = __set_m_FallbackFontAssetTable))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* m_FallbackFontAssetTable;
+  __declspec(property(get = __cordl_internal_get_m_FallbackFontAssetTable,
+                      put = __cordl_internal_set_m_FallbackFontAssetTable))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* m_FallbackFontAssetTable;
 
   /// @brief Field m_fontAssetCreationEditorSettings, offset 0x128, size 0x50
-  __declspec(property(get = __get_m_fontAssetCreationEditorSettings,
-                      put = __set_m_fontAssetCreationEditorSettings))::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings m_fontAssetCreationEditorSettings;
+  __declspec(property(get = __cordl_internal_get_m_fontAssetCreationEditorSettings,
+                      put = __cordl_internal_set_m_fontAssetCreationEditorSettings))::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings m_fontAssetCreationEditorSettings;
 
   /// @brief Field m_RegularStyleWeight, offset 0x178, size 0x4
-  __declspec(property(get = __get_m_RegularStyleWeight, put = __set_m_RegularStyleWeight)) float_t m_RegularStyleWeight;
+  __declspec(property(get = __cordl_internal_get_m_RegularStyleWeight, put = __cordl_internal_set_m_RegularStyleWeight)) float_t m_RegularStyleWeight;
 
   /// @brief Field m_RegularStyleSpacing, offset 0x17c, size 0x4
-  __declspec(property(get = __get_m_RegularStyleSpacing, put = __set_m_RegularStyleSpacing)) float_t m_RegularStyleSpacing;
+  __declspec(property(get = __cordl_internal_get_m_RegularStyleSpacing, put = __cordl_internal_set_m_RegularStyleSpacing)) float_t m_RegularStyleSpacing;
 
   /// @brief Field m_BoldStyleWeight, offset 0x180, size 0x4
-  __declspec(property(get = __get_m_BoldStyleWeight, put = __set_m_BoldStyleWeight)) float_t m_BoldStyleWeight;
+  __declspec(property(get = __cordl_internal_get_m_BoldStyleWeight, put = __cordl_internal_set_m_BoldStyleWeight)) float_t m_BoldStyleWeight;
 
   /// @brief Field m_BoldStyleSpacing, offset 0x184, size 0x4
-  __declspec(property(get = __get_m_BoldStyleSpacing, put = __set_m_BoldStyleSpacing)) float_t m_BoldStyleSpacing;
+  __declspec(property(get = __cordl_internal_get_m_BoldStyleSpacing, put = __cordl_internal_set_m_BoldStyleSpacing)) float_t m_BoldStyleSpacing;
 
   /// @brief Field m_ItalicStyleSlant, offset 0x188, size 0x1
-  __declspec(property(get = __get_m_ItalicStyleSlant, put = __set_m_ItalicStyleSlant)) uint8_t m_ItalicStyleSlant;
+  __declspec(property(get = __cordl_internal_get_m_ItalicStyleSlant, put = __cordl_internal_set_m_ItalicStyleSlant)) uint8_t m_ItalicStyleSlant;
 
   /// @brief Field m_TabMultiple, offset 0x189, size 0x1
-  __declspec(property(get = __get_m_TabMultiple, put = __set_m_TabMultiple)) uint8_t m_TabMultiple;
+  __declspec(property(get = __cordl_internal_get_m_TabMultiple, put = __cordl_internal_set_m_TabMultiple)) uint8_t m_TabMultiple;
 
   /// @brief Field IsFontAssetLookupTablesDirty, offset 0x18a, size 0x1
-  __declspec(property(get = __get_IsFontAssetLookupTablesDirty, put = __set_IsFontAssetLookupTablesDirty)) bool IsFontAssetLookupTablesDirty;
+  __declspec(property(get = __cordl_internal_get_IsFontAssetLookupTablesDirty, put = __cordl_internal_set_IsFontAssetLookupTablesDirty)) bool IsFontAssetLookupTablesDirty;
 
   /// @brief Field m_GlyphsToRender, offset 0x190, size 0x8
-  __declspec(property(get = __get_m_GlyphsToRender, put = __set_m_GlyphsToRender))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphsToRender;
+  __declspec(property(get = __cordl_internal_get_m_GlyphsToRender,
+                      put = __cordl_internal_set_m_GlyphsToRender))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphsToRender;
 
   /// @brief Field m_GlyphsRendered, offset 0x198, size 0x8
-  __declspec(property(get = __get_m_GlyphsRendered, put = __set_m_GlyphsRendered))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphsRendered;
+  __declspec(property(get = __cordl_internal_get_m_GlyphsRendered,
+                      put = __cordl_internal_set_m_GlyphsRendered))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphsRendered;
 
   /// @brief Field m_GlyphIndexList, offset 0x1a0, size 0x8
-  __declspec(property(get = __get_m_GlyphIndexList, put = __set_m_GlyphIndexList))::System::Collections::Generic::List_1<uint32_t>* m_GlyphIndexList;
+  __declspec(property(get = __cordl_internal_get_m_GlyphIndexList, put = __cordl_internal_set_m_GlyphIndexList))::System::Collections::Generic::List_1<uint32_t>* m_GlyphIndexList;
 
   /// @brief Field m_GlyphIndexListNewlyAdded, offset 0x1a8, size 0x8
-  __declspec(property(get = __get_m_GlyphIndexListNewlyAdded, put = __set_m_GlyphIndexListNewlyAdded))::System::Collections::Generic::List_1<uint32_t>* m_GlyphIndexListNewlyAdded;
+  __declspec(property(get = __cordl_internal_get_m_GlyphIndexListNewlyAdded,
+                      put = __cordl_internal_set_m_GlyphIndexListNewlyAdded))::System::Collections::Generic::List_1<uint32_t>* m_GlyphIndexListNewlyAdded;
 
   /// @brief Field m_GlyphsToAdd, offset 0x1b0, size 0x8
-  __declspec(property(get = __get_m_GlyphsToAdd, put = __set_m_GlyphsToAdd))::System::Collections::Generic::List_1<uint32_t>* m_GlyphsToAdd;
+  __declspec(property(get = __cordl_internal_get_m_GlyphsToAdd, put = __cordl_internal_set_m_GlyphsToAdd))::System::Collections::Generic::List_1<uint32_t>* m_GlyphsToAdd;
 
   /// @brief Field m_GlyphsToAddLookup, offset 0x1b8, size 0x8
-  __declspec(property(get = __get_m_GlyphsToAddLookup, put = __set_m_GlyphsToAddLookup))::System::Collections::Generic::HashSet_1<uint32_t>* m_GlyphsToAddLookup;
+  __declspec(property(get = __cordl_internal_get_m_GlyphsToAddLookup, put = __cordl_internal_set_m_GlyphsToAddLookup))::System::Collections::Generic::HashSet_1<uint32_t>* m_GlyphsToAddLookup;
 
   /// @brief Field m_CharactersToAdd, offset 0x1c0, size 0x8
-  __declspec(property(get = __get_m_CharactersToAdd, put = __set_m_CharactersToAdd))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* m_CharactersToAdd;
+  __declspec(property(get = __cordl_internal_get_m_CharactersToAdd,
+                      put = __cordl_internal_set_m_CharactersToAdd))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* m_CharactersToAdd;
 
   /// @brief Field m_CharactersToAddLookup, offset 0x1c8, size 0x8
-  __declspec(property(get = __get_m_CharactersToAddLookup, put = __set_m_CharactersToAddLookup))::System::Collections::Generic::HashSet_1<uint32_t>* m_CharactersToAddLookup;
+  __declspec(property(get = __cordl_internal_get_m_CharactersToAddLookup,
+                      put = __cordl_internal_set_m_CharactersToAddLookup))::System::Collections::Generic::HashSet_1<uint32_t>* m_CharactersToAddLookup;
 
   /// @brief Field s_MissingCharacterList, offset 0x1d0, size 0x8
-  __declspec(property(get = __get_s_MissingCharacterList, put = __set_s_MissingCharacterList))::System::Collections::Generic::List_1<uint32_t>* s_MissingCharacterList;
+  __declspec(property(get = __cordl_internal_get_s_MissingCharacterList, put = __cordl_internal_set_s_MissingCharacterList))::System::Collections::Generic::List_1<uint32_t>* s_MissingCharacterList;
 
   /// @brief Field m_MissingUnicodesFromFontFile, offset 0x1d8, size 0x8
-  __declspec(property(get = __get_m_MissingUnicodesFromFontFile, put = __set_m_MissingUnicodesFromFontFile))::System::Collections::Generic::HashSet_1<uint32_t>* m_MissingUnicodesFromFontFile;
+  __declspec(property(get = __cordl_internal_get_m_MissingUnicodesFromFontFile,
+                      put = __cordl_internal_set_m_MissingUnicodesFromFontFile))::System::Collections::Generic::HashSet_1<uint32_t>* m_MissingUnicodesFromFontFile;
 
   /// @brief Field k_ReadFontAssetDefinitionMarker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_ReadFontAssetDefinitionMarker, put = setStaticF_k_ReadFontAssetDefinitionMarker))::Unity::Profiling::ProfilerMarker k_ReadFontAssetDefinitionMarker;
@@ -315,7 +326,7 @@ public:
   /// @brief Field k_FontAssets_FontFeaturesUpdateQueue, offset 0xffffffff, size 0x8
   static __declspec(
       property(get = getStaticF_k_FontAssets_FontFeaturesUpdateQueue,
-               put = setStaticF_k_FontAssets_FontFeaturesUpdateQueue))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* k_FontAssets_FontFeaturesUpdateQueue;
+               put = setStaticF_k_FontAssets_FontFeaturesUpdateQueue))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* k_FontAssets_FontFeaturesUpdateQueue;
 
   /// @brief Field k_FontAssets_FontFeaturesUpdateQueueLookup, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup,
@@ -323,7 +334,7 @@ public:
 
   /// @brief Field k_FontAssets_AtlasTexturesUpdateQueue, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_FontAssets_AtlasTexturesUpdateQueue,
-                             put = setStaticF_k_FontAssets_AtlasTexturesUpdateQueue))::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>* k_FontAssets_AtlasTexturesUpdateQueue;
+                             put = setStaticF_k_FontAssets_AtlasTexturesUpdateQueue))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>* k_FontAssets_AtlasTexturesUpdateQueue;
 
   /// @brief Field k_FontAssets_AtlasTexturesUpdateQueueLookup, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup,
@@ -332,7 +343,7 @@ public:
   /// @brief Field k_GlyphIndexArray, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_GlyphIndexArray, put = setStaticF_k_GlyphIndexArray))::ArrayW<uint32_t, ::Array<uint32_t>*> k_GlyphIndexArray;
 
-  __declspec(property(get = get_sourceFontFile, put = set_sourceFontFile))::UnityEngine::Font* sourceFontFile;
+  __declspec(property(get = get_sourceFontFile, put = set_sourceFontFile))::UnityW<::UnityEngine::Font> sourceFontFile;
 
   __declspec(property(get = get_atlasPopulationMode, put = set_atlasPopulationMode))::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode;
 
@@ -353,9 +364,9 @@ public:
 
   __declspec(property(get = get_characterLookupTable))::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* characterLookupTable;
 
-  __declspec(property(get = get_atlasTexture))::UnityEngine::Texture2D* atlasTexture;
+  __declspec(property(get = get_atlasTexture))::UnityW<::UnityEngine::Texture2D> atlasTexture;
 
-  __declspec(property(get = get_atlasTextures, put = set_atlasTextures))::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> atlasTextures;
+  __declspec(property(get = get_atlasTextures, put = set_atlasTextures))::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> atlasTextures;
 
   __declspec(property(get = get_atlasTextureCount)) int32_t atlasTextureCount;
 
@@ -377,7 +388,8 @@ public:
 
   __declspec(property(get = get_fontFeatureTable, put = set_fontFeatureTable))::UnityEngine::TextCore::Text::FontFeatureTable* fontFeatureTable;
 
-  __declspec(property(get = get_fallbackFontAssetTable, put = set_fallbackFontAssetTable))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* fallbackFontAssetTable;
+  __declspec(property(get = get_fallbackFontAssetTable,
+                      put = set_fallbackFontAssetTable))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fallbackFontAssetTable;
 
   __declspec(property(get = get_fontAssetCreationEditorSettings,
                       put = set_fontAssetCreationEditorSettings))::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings fontAssetCreationEditorSettings;
@@ -394,263 +406,265 @@ public:
 
   __declspec(property(get = get_tabMultiple, put = set_tabMultiple)) uint8_t tabMultiple;
 
-  constexpr ::StringW& __get_m_SourceFontFileGUID();
+  constexpr ::StringW& __cordl_internal_get_m_SourceFontFileGUID();
 
-  constexpr ::StringW const& __get_m_SourceFontFileGUID() const;
+  constexpr ::StringW const& __cordl_internal_get_m_SourceFontFileGUID() const;
 
-  constexpr void __set_m_SourceFontFileGUID(::StringW value);
+  constexpr void __cordl_internal_set_m_SourceFontFileGUID(::StringW value);
 
-  constexpr ::UnityEngine::Font*& __get_m_SourceFontFile();
+  constexpr ::UnityW<::UnityEngine::Font>& __cordl_internal_get_m_SourceFontFile();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Font*> const& __get_m_SourceFontFile() const;
+  constexpr ::UnityW<::UnityEngine::Font> const& __cordl_internal_get_m_SourceFontFile() const;
 
-  constexpr void __set_m_SourceFontFile(::UnityEngine::Font* value);
+  constexpr void __cordl_internal_set_m_SourceFontFile(::UnityW<::UnityEngine::Font> value);
 
-  constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode& __get_m_AtlasPopulationMode();
+  constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode& __cordl_internal_get_m_AtlasPopulationMode();
 
-  constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode const& __get_m_AtlasPopulationMode() const;
+  constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode const& __cordl_internal_get_m_AtlasPopulationMode() const;
 
-  constexpr void __set_m_AtlasPopulationMode(::UnityEngine::TextCore::Text::AtlasPopulationMode value);
+  constexpr void __cordl_internal_set_m_AtlasPopulationMode(::UnityEngine::TextCore::Text::AtlasPopulationMode value);
 
-  constexpr bool& __get_InternalDynamicOS();
+  constexpr bool& __cordl_internal_get_InternalDynamicOS();
 
-  constexpr bool const& __get_InternalDynamicOS() const;
+  constexpr bool const& __cordl_internal_get_InternalDynamicOS() const;
 
-  constexpr void __set_InternalDynamicOS(bool value);
+  constexpr void __cordl_internal_set_InternalDynamicOS(bool value);
 
-  constexpr ::UnityEngine::TextCore::FaceInfo& __get_m_FaceInfo();
+  constexpr ::UnityEngine::TextCore::FaceInfo& __cordl_internal_get_m_FaceInfo();
 
-  constexpr ::UnityEngine::TextCore::FaceInfo const& __get_m_FaceInfo() const;
+  constexpr ::UnityEngine::TextCore::FaceInfo const& __cordl_internal_get_m_FaceInfo() const;
 
-  constexpr void __set_m_FaceInfo(::UnityEngine::TextCore::FaceInfo value);
+  constexpr void __cordl_internal_set_m_FaceInfo(::UnityEngine::TextCore::FaceInfo value);
 
-  constexpr int32_t& __get_m_FamilyNameHashCode();
+  constexpr int32_t& __cordl_internal_get_m_FamilyNameHashCode();
 
-  constexpr int32_t const& __get_m_FamilyNameHashCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_FamilyNameHashCode() const;
 
-  constexpr void __set_m_FamilyNameHashCode(int32_t value);
+  constexpr void __cordl_internal_set_m_FamilyNameHashCode(int32_t value);
 
-  constexpr int32_t& __get_m_StyleNameHashCode();
+  constexpr int32_t& __cordl_internal_get_m_StyleNameHashCode();
 
-  constexpr int32_t const& __get_m_StyleNameHashCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_StyleNameHashCode() const;
 
-  constexpr void __set_m_StyleNameHashCode(int32_t value);
+  constexpr void __cordl_internal_set_m_StyleNameHashCode(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*>& __get_m_FontWeightTable();
+  constexpr ::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*>& __cordl_internal_get_m_FontWeightTable();
 
-  constexpr ::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> const& __get_m_FontWeightTable() const;
+  constexpr ::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> const& __cordl_internal_get_m_FontWeightTable() const;
 
-  constexpr void __set_m_FontWeightTable(::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> value);
+  constexpr void __cordl_internal_set_m_FontWeightTable(::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*& __get_m_GlyphTable();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*& __cordl_internal_get_m_GlyphTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*> const& __get_m_GlyphTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*> const& __cordl_internal_get_m_GlyphTable() const;
 
-  constexpr void __set_m_GlyphTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
+  constexpr void __cordl_internal_set_m_GlyphTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>*& __get_m_GlyphLookupDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>*& __cordl_internal_get_m_GlyphLookupDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>*> const& __get_m_GlyphLookupDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>*> const& __cordl_internal_get_m_GlyphLookupDictionary() const;
 
-  constexpr void __set_m_GlyphLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* value);
+  constexpr void __cordl_internal_set_m_GlyphLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*& __get_m_CharacterTable();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*& __cordl_internal_get_m_CharacterTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*> const& __get_m_CharacterTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*> const& __cordl_internal_get_m_CharacterTable() const;
 
-  constexpr void __set_m_CharacterTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* value);
+  constexpr void __cordl_internal_set_m_CharacterTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>*& __get_m_CharacterLookupDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>*& __cordl_internal_get_m_CharacterLookupDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>*> const& __get_m_CharacterLookupDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>*> const&
+  __cordl_internal_get_m_CharacterLookupDictionary() const;
 
-  constexpr void __set_m_CharacterLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* value);
+  constexpr void __cordl_internal_set_m_CharacterLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* value);
 
-  constexpr ::UnityEngine::Texture2D*& __get_m_AtlasTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_AtlasTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get_m_AtlasTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_AtlasTexture() const;
 
-  constexpr void __set_m_AtlasTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set_m_AtlasTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr ::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*>& __get_m_AtlasTextures();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*>& __cordl_internal_get_m_AtlasTextures();
 
-  constexpr ::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> const& __get_m_AtlasTextures() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> const& __cordl_internal_get_m_AtlasTextures() const;
 
-  constexpr void __set_m_AtlasTextures(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> value);
+  constexpr void __cordl_internal_set_m_AtlasTextures(::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> value);
 
-  constexpr int32_t& __get_m_AtlasTextureIndex();
+  constexpr int32_t& __cordl_internal_get_m_AtlasTextureIndex();
 
-  constexpr int32_t const& __get_m_AtlasTextureIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_AtlasTextureIndex() const;
 
-  constexpr void __set_m_AtlasTextureIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_AtlasTextureIndex(int32_t value);
 
-  constexpr bool& __get_m_IsMultiAtlasTexturesEnabled();
+  constexpr bool& __cordl_internal_get_m_IsMultiAtlasTexturesEnabled();
 
-  constexpr bool const& __get_m_IsMultiAtlasTexturesEnabled() const;
+  constexpr bool const& __cordl_internal_get_m_IsMultiAtlasTexturesEnabled() const;
 
-  constexpr void __set_m_IsMultiAtlasTexturesEnabled(bool value);
+  constexpr void __cordl_internal_set_m_IsMultiAtlasTexturesEnabled(bool value);
 
-  constexpr bool& __get_m_ClearDynamicDataOnBuild();
+  constexpr bool& __cordl_internal_get_m_ClearDynamicDataOnBuild();
 
-  constexpr bool const& __get_m_ClearDynamicDataOnBuild() const;
+  constexpr bool const& __cordl_internal_get_m_ClearDynamicDataOnBuild() const;
 
-  constexpr void __set_m_ClearDynamicDataOnBuild(bool value);
+  constexpr void __cordl_internal_set_m_ClearDynamicDataOnBuild(bool value);
 
-  constexpr int32_t& __get_m_AtlasWidth();
+  constexpr int32_t& __cordl_internal_get_m_AtlasWidth();
 
-  constexpr int32_t const& __get_m_AtlasWidth() const;
+  constexpr int32_t const& __cordl_internal_get_m_AtlasWidth() const;
 
-  constexpr void __set_m_AtlasWidth(int32_t value);
+  constexpr void __cordl_internal_set_m_AtlasWidth(int32_t value);
 
-  constexpr int32_t& __get_m_AtlasHeight();
+  constexpr int32_t& __cordl_internal_get_m_AtlasHeight();
 
-  constexpr int32_t const& __get_m_AtlasHeight() const;
+  constexpr int32_t const& __cordl_internal_get_m_AtlasHeight() const;
 
-  constexpr void __set_m_AtlasHeight(int32_t value);
+  constexpr void __cordl_internal_set_m_AtlasHeight(int32_t value);
 
-  constexpr int32_t& __get_m_AtlasPadding();
+  constexpr int32_t& __cordl_internal_get_m_AtlasPadding();
 
-  constexpr int32_t const& __get_m_AtlasPadding() const;
+  constexpr int32_t const& __cordl_internal_get_m_AtlasPadding() const;
 
-  constexpr void __set_m_AtlasPadding(int32_t value);
+  constexpr void __cordl_internal_set_m_AtlasPadding(int32_t value);
 
-  constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode& __get_m_AtlasRenderMode();
+  constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode& __cordl_internal_get_m_AtlasRenderMode();
 
-  constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const& __get_m_AtlasRenderMode() const;
+  constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const& __cordl_internal_get_m_AtlasRenderMode() const;
 
-  constexpr void __set_m_AtlasRenderMode(::UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
+  constexpr void __cordl_internal_set_m_AtlasRenderMode(::UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*& __get_m_UsedGlyphRects();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*& __cordl_internal_get_m_UsedGlyphRects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*> const& __get_m_UsedGlyphRects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*> const& __cordl_internal_get_m_UsedGlyphRects() const;
 
-  constexpr void __set_m_UsedGlyphRects(::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* value);
+  constexpr void __cordl_internal_set_m_UsedGlyphRects(::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*& __get_m_FreeGlyphRects();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*& __cordl_internal_get_m_FreeGlyphRects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*> const& __get_m_FreeGlyphRects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*> const& __cordl_internal_get_m_FreeGlyphRects() const;
 
-  constexpr void __set_m_FreeGlyphRects(::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* value);
+  constexpr void __cordl_internal_set_m_FreeGlyphRects(::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* value);
 
-  constexpr ::UnityEngine::TextCore::Text::FontFeatureTable*& __get_m_FontFeatureTable();
+  constexpr ::UnityEngine::TextCore::Text::FontFeatureTable*& __cordl_internal_get_m_FontFeatureTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::FontFeatureTable*> const& __get_m_FontFeatureTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::FontFeatureTable*> const& __cordl_internal_get_m_FontFeatureTable() const;
 
-  constexpr void __set_m_FontFeatureTable(::UnityEngine::TextCore::Text::FontFeatureTable* value);
+  constexpr void __cordl_internal_set_m_FontFeatureTable(::UnityEngine::TextCore::Text::FontFeatureTable* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>*& __get_m_FallbackFontAssetTable();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*& __cordl_internal_get_m_FallbackFontAssetTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>*> const& __get_m_FallbackFontAssetTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*> const&
+  __cordl_internal_get_m_FallbackFontAssetTable() const;
 
-  constexpr void __set_m_FallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  constexpr void __cordl_internal_set_m_FallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  constexpr ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings& __get_m_fontAssetCreationEditorSettings();
+  constexpr ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings& __cordl_internal_get_m_fontAssetCreationEditorSettings();
 
-  constexpr ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings const& __get_m_fontAssetCreationEditorSettings() const;
+  constexpr ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings const& __cordl_internal_get_m_fontAssetCreationEditorSettings() const;
 
-  constexpr void __set_m_fontAssetCreationEditorSettings(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings value);
+  constexpr void __cordl_internal_set_m_fontAssetCreationEditorSettings(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings value);
 
-  constexpr float_t& __get_m_RegularStyleWeight();
+  constexpr float_t& __cordl_internal_get_m_RegularStyleWeight();
 
-  constexpr float_t const& __get_m_RegularStyleWeight() const;
+  constexpr float_t const& __cordl_internal_get_m_RegularStyleWeight() const;
 
-  constexpr void __set_m_RegularStyleWeight(float_t value);
+  constexpr void __cordl_internal_set_m_RegularStyleWeight(float_t value);
 
-  constexpr float_t& __get_m_RegularStyleSpacing();
+  constexpr float_t& __cordl_internal_get_m_RegularStyleSpacing();
 
-  constexpr float_t const& __get_m_RegularStyleSpacing() const;
+  constexpr float_t const& __cordl_internal_get_m_RegularStyleSpacing() const;
 
-  constexpr void __set_m_RegularStyleSpacing(float_t value);
+  constexpr void __cordl_internal_set_m_RegularStyleSpacing(float_t value);
 
-  constexpr float_t& __get_m_BoldStyleWeight();
+  constexpr float_t& __cordl_internal_get_m_BoldStyleWeight();
 
-  constexpr float_t const& __get_m_BoldStyleWeight() const;
+  constexpr float_t const& __cordl_internal_get_m_BoldStyleWeight() const;
 
-  constexpr void __set_m_BoldStyleWeight(float_t value);
+  constexpr void __cordl_internal_set_m_BoldStyleWeight(float_t value);
 
-  constexpr float_t& __get_m_BoldStyleSpacing();
+  constexpr float_t& __cordl_internal_get_m_BoldStyleSpacing();
 
-  constexpr float_t const& __get_m_BoldStyleSpacing() const;
+  constexpr float_t const& __cordl_internal_get_m_BoldStyleSpacing() const;
 
-  constexpr void __set_m_BoldStyleSpacing(float_t value);
+  constexpr void __cordl_internal_set_m_BoldStyleSpacing(float_t value);
 
-  constexpr uint8_t& __get_m_ItalicStyleSlant();
+  constexpr uint8_t& __cordl_internal_get_m_ItalicStyleSlant();
 
-  constexpr uint8_t const& __get_m_ItalicStyleSlant() const;
+  constexpr uint8_t const& __cordl_internal_get_m_ItalicStyleSlant() const;
 
-  constexpr void __set_m_ItalicStyleSlant(uint8_t value);
+  constexpr void __cordl_internal_set_m_ItalicStyleSlant(uint8_t value);
 
-  constexpr uint8_t& __get_m_TabMultiple();
+  constexpr uint8_t& __cordl_internal_get_m_TabMultiple();
 
-  constexpr uint8_t const& __get_m_TabMultiple() const;
+  constexpr uint8_t const& __cordl_internal_get_m_TabMultiple() const;
 
-  constexpr void __set_m_TabMultiple(uint8_t value);
+  constexpr void __cordl_internal_set_m_TabMultiple(uint8_t value);
 
-  constexpr bool& __get_IsFontAssetLookupTablesDirty();
+  constexpr bool& __cordl_internal_get_IsFontAssetLookupTablesDirty();
 
-  constexpr bool const& __get_IsFontAssetLookupTablesDirty() const;
+  constexpr bool const& __cordl_internal_get_IsFontAssetLookupTablesDirty() const;
 
-  constexpr void __set_IsFontAssetLookupTablesDirty(bool value);
+  constexpr void __cordl_internal_set_IsFontAssetLookupTablesDirty(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*& __get_m_GlyphsToRender();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*& __cordl_internal_get_m_GlyphsToRender();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*> const& __get_m_GlyphsToRender() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*> const& __cordl_internal_get_m_GlyphsToRender() const;
 
-  constexpr void __set_m_GlyphsToRender(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
+  constexpr void __cordl_internal_set_m_GlyphsToRender(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*& __get_m_GlyphsRendered();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*& __cordl_internal_get_m_GlyphsRendered();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*> const& __get_m_GlyphsRendered() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*> const& __cordl_internal_get_m_GlyphsRendered() const;
 
-  constexpr void __set_m_GlyphsRendered(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
+  constexpr void __cordl_internal_set_m_GlyphsRendered(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __get_m_GlyphIndexList();
+  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __cordl_internal_get_m_GlyphIndexList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __get_m_GlyphIndexList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __cordl_internal_get_m_GlyphIndexList() const;
 
-  constexpr void __set_m_GlyphIndexList(::System::Collections::Generic::List_1<uint32_t>* value);
+  constexpr void __cordl_internal_set_m_GlyphIndexList(::System::Collections::Generic::List_1<uint32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __get_m_GlyphIndexListNewlyAdded();
+  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __cordl_internal_get_m_GlyphIndexListNewlyAdded();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __get_m_GlyphIndexListNewlyAdded() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __cordl_internal_get_m_GlyphIndexListNewlyAdded() const;
 
-  constexpr void __set_m_GlyphIndexListNewlyAdded(::System::Collections::Generic::List_1<uint32_t>* value);
+  constexpr void __cordl_internal_set_m_GlyphIndexListNewlyAdded(::System::Collections::Generic::List_1<uint32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __get_m_GlyphsToAdd();
+  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __cordl_internal_get_m_GlyphsToAdd();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __get_m_GlyphsToAdd() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __cordl_internal_get_m_GlyphsToAdd() const;
 
-  constexpr void __set_m_GlyphsToAdd(::System::Collections::Generic::List_1<uint32_t>* value);
+  constexpr void __cordl_internal_set_m_GlyphsToAdd(::System::Collections::Generic::List_1<uint32_t>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __get_m_GlyphsToAddLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_GlyphsToAddLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __get_m_GlyphsToAddLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get_m_GlyphsToAddLookup() const;
 
-  constexpr void __set_m_GlyphsToAddLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);
+  constexpr void __cordl_internal_set_m_GlyphsToAddLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*& __get_m_CharactersToAdd();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*& __cordl_internal_get_m_CharactersToAdd();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*> const& __get_m_CharactersToAdd() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>*> const& __cordl_internal_get_m_CharactersToAdd() const;
 
-  constexpr void __set_m_CharactersToAdd(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* value);
+  constexpr void __cordl_internal_set_m_CharactersToAdd(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __get_m_CharactersToAddLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_CharactersToAddLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __get_m_CharactersToAddLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get_m_CharactersToAddLookup() const;
 
-  constexpr void __set_m_CharactersToAddLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);
+  constexpr void __cordl_internal_set_m_CharactersToAddLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __get_s_MissingCharacterList();
+  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __cordl_internal_get_s_MissingCharacterList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __get_s_MissingCharacterList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __cordl_internal_get_s_MissingCharacterList() const;
 
-  constexpr void __set_s_MissingCharacterList(::System::Collections::Generic::List_1<uint32_t>* value);
+  constexpr void __cordl_internal_set_s_MissingCharacterList(::System::Collections::Generic::List_1<uint32_t>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __get_m_MissingUnicodesFromFontFile();
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_MissingUnicodesFromFontFile();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __get_m_MissingUnicodesFromFontFile() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get_m_MissingUnicodesFromFontFile() const;
 
-  constexpr void __set_m_MissingUnicodesFromFontFile(::System::Collections::Generic::HashSet_1<uint32_t>* value);
+  constexpr void __cordl_internal_set_m_MissingUnicodesFromFontFile(::System::Collections::Generic::HashSet_1<uint32_t>* value);
 
   static inline void setStaticF_k_ReadFontAssetDefinitionMarker(::Unity::Profiling::ProfilerMarker value);
 
@@ -688,17 +702,17 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_SearchedFontAssetLookup();
 
-  static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueue(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueue(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* getStaticF_k_FontAssets_FontFeaturesUpdateQueue();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF_k_FontAssets_FontFeaturesUpdateQueue();
 
   static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup();
 
-  static inline void setStaticF_k_FontAssets_AtlasTexturesUpdateQueue(::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>* value);
+  static inline void setStaticF_k_FontAssets_AtlasTexturesUpdateQueue(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>* getStaticF_k_FontAssets_AtlasTexturesUpdateQueue();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>* getStaticF_k_FontAssets_AtlasTexturesUpdateQueue();
 
   static inline void setStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
@@ -709,7 +723,7 @@ public:
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_k_GlyphIndexArray();
 
   /// @brief Method get_sourceFontFile, addr 0x2d379b4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Font* get_sourceFontFile();
+  inline ::UnityW<::UnityEngine::Font> get_sourceFontFile();
 
   /// @brief Method set_sourceFontFile, addr 0x2d379bc, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceFontFile(::UnityEngine::Font* value);
@@ -763,10 +777,10 @@ public:
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* get_characterLookupTable();
 
   /// @brief Method get_atlasTexture, addr 0x2d37ed8, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_atlasTexture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_atlasTexture();
 
   /// @brief Method get_atlasTextures, addr 0x2d37f68, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> get_atlasTextures();
+  inline ::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> get_atlasTextures();
 
   /// @brief Method set_atlasTextures, addr 0x2d37f70, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasTextures(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> value);
@@ -829,10 +843,10 @@ public:
   inline void set_fontFeatureTable(::UnityEngine::TextCore::Text::FontFeatureTable* value);
 
   /// @brief Method get_fallbackFontAssetTable, addr 0x2d3801c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* get_fallbackFontAssetTable();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackFontAssetTable();
 
   /// @brief Method set_fallbackFontAssetTable, addr 0x2d38024, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  inline void set_fallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
   /// @brief Method get_fontAssetCreationEditorSettings, addr 0x2d3802c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings get_fontAssetCreationEditorSettings();
@@ -877,30 +891,30 @@ public:
   inline void set_tabMultiple(uint8_t value);
 
   /// @brief Method CreateFontAsset, addr 0x2d380c0, size 0x274, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize);
 
   /// @brief Method CreateFontAsset, addr 0x2d38334, size 0x17c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
-                                                                          ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                   ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAsset, addr 0x2d3890c, size 0x7c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font);
 
   /// @brief Method CreateFontAsset, addr 0x2d38988, size 0xc0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding,
-                                                                          ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                   ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAsset, addr 0x2d38a48, size 0x214, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
-                                                                          ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                   ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAssetInstance, addr 0x2d384b0, size 0x45c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAssetInstance(::UnityEngine::Font* font, int32_t atlasPadding, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
-                                                                                  int32_t atlasWidth, int32_t atlasHeight, ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode,
-                                                                                  bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAssetInstance(::UnityEngine::Font* font, int32_t atlasPadding,
+                                                                                           ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                           ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method Awake, addr 0x2d38c5c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
@@ -1075,7 +1089,7 @@ public:
   ::StringW ___m_SourceFontFileGUID;
 
   /// @brief Field m_SourceFontFile, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Font* ___m_SourceFontFile;
+  ::UnityW<::UnityEngine::Font> ___m_SourceFontFile;
 
   /// @brief Field m_AtlasPopulationMode, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::AtlasPopulationMode ___m_AtlasPopulationMode;
@@ -1108,10 +1122,10 @@ public:
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* ___m_CharacterLookupDictionary;
 
   /// @brief Field m_AtlasTexture, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ___m_AtlasTexture;
+  ::UnityW<::UnityEngine::Texture2D> ___m_AtlasTexture;
 
   /// @brief Field m_AtlasTextures, offset: 0xe8, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> ___m_AtlasTextures;
+  ::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> ___m_AtlasTextures;
 
   /// @brief Field m_AtlasTextureIndex, offset: 0xf0, size: 0x4, def value: None
   int32_t ___m_AtlasTextureIndex;
@@ -1144,7 +1158,7 @@ public:
   ::UnityEngine::TextCore::Text::FontFeatureTable* ___m_FontFeatureTable;
 
   /// @brief Field m_FallbackFontAssetTable, offset: 0x120, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* ___m_FallbackFontAssetTable;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* ___m_FallbackFontAssetTable;
 
   /// @brief Field m_fontAssetCreationEditorSettings, offset: 0x128, size: 0x50, def value: None
   ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings ___m_fontAssetCreationEditorSettings;

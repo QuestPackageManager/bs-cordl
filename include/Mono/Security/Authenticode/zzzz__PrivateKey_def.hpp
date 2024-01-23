@@ -20,49 +20,49 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::PrivateKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13803))
 // CS Name: ::Mono.Security.Authenticode::PrivateKey*
 class CORDL_TYPE PrivateKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encrypted, offset 0x10, size 0x1
-  __declspec(property(get = __get_encrypted, put = __set_encrypted)) bool encrypted;
+  __declspec(property(get = __cordl_internal_get_encrypted, put = __cordl_internal_set_encrypted)) bool encrypted;
 
   /// @brief Field rsa, offset 0x18, size 0x8
-  __declspec(property(get = __get_rsa, put = __set_rsa))::System::Security::Cryptography::RSA* rsa;
+  __declspec(property(get = __cordl_internal_get_rsa, put = __cordl_internal_set_rsa))::System::Security::Cryptography::RSA* rsa;
 
   /// @brief Field weak, offset 0x20, size 0x1
-  __declspec(property(get = __get_weak, put = __set_weak)) bool weak;
+  __declspec(property(get = __cordl_internal_get_weak, put = __cordl_internal_set_weak)) bool weak;
 
   /// @brief Field keyType, offset 0x24, size 0x4
-  __declspec(property(get = __get_keyType, put = __set_keyType)) int32_t keyType;
+  __declspec(property(get = __cordl_internal_get_keyType, put = __cordl_internal_set_keyType)) int32_t keyType;
 
   __declspec(property(get = get_RSA))::System::Security::Cryptography::RSA* RSA;
 
-  constexpr bool& __get_encrypted();
+  constexpr bool& __cordl_internal_get_encrypted();
 
-  constexpr bool const& __get_encrypted() const;
+  constexpr bool const& __cordl_internal_get_encrypted() const;
 
-  constexpr void __set_encrypted(bool value);
+  constexpr void __cordl_internal_set_encrypted(bool value);
 
-  constexpr ::System::Security::Cryptography::RSA*& __get_rsa();
+  constexpr ::System::Security::Cryptography::RSA*& __cordl_internal_get_rsa();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& __get_rsa() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& __cordl_internal_get_rsa() const;
 
-  constexpr void __set_rsa(::System::Security::Cryptography::RSA* value);
+  constexpr void __cordl_internal_set_rsa(::System::Security::Cryptography::RSA* value);
 
-  constexpr bool& __get_weak();
+  constexpr bool& __cordl_internal_get_weak();
 
-  constexpr bool const& __get_weak() const;
+  constexpr bool const& __cordl_internal_get_weak() const;
 
-  constexpr void __set_weak(bool value);
+  constexpr void __cordl_internal_set_weak(bool value);
 
-  constexpr int32_t& __get_keyType();
+  constexpr int32_t& __cordl_internal_get_keyType();
 
-  constexpr int32_t const& __get_keyType() const;
+  constexpr int32_t const& __cordl_internal_get_keyType() const;
 
-  constexpr void __set_keyType(int32_t value);
+  constexpr void __cordl_internal_set_keyType(int32_t value);
 
   static inline ::Mono::Security::Authenticode::PrivateKey* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 

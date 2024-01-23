@@ -16,56 +16,56 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSession);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13459))
 // CS Name: ::Oculus.Platform.Models::NetSyncSession*
 class CORDL_TYPE NetSyncSession : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ConnectionId, offset 0x10, size 0x8
-  __declspec(property(get = __get_ConnectionId, put = __set_ConnectionId)) int64_t ConnectionId;
+  __declspec(property(get = __cordl_internal_get_ConnectionId, put = __cordl_internal_set_ConnectionId)) int64_t ConnectionId;
 
   /// @brief Field Muted, offset 0x18, size 0x1
-  __declspec(property(get = __get_Muted, put = __set_Muted)) bool Muted;
+  __declspec(property(get = __cordl_internal_get_Muted, put = __cordl_internal_set_Muted)) bool Muted;
 
   /// @brief Field SessionId, offset 0x20, size 0x8
-  __declspec(property(get = __get_SessionId, put = __set_SessionId)) uint64_t SessionId;
+  __declspec(property(get = __cordl_internal_get_SessionId, put = __cordl_internal_set_SessionId)) uint64_t SessionId;
 
   /// @brief Field UserId, offset 0x28, size 0x8
-  __declspec(property(get = __get_UserId, put = __set_UserId)) uint64_t UserId;
+  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
 
   /// @brief Field VoipGroup, offset 0x30, size 0x8
-  __declspec(property(get = __get_VoipGroup, put = __set_VoipGroup))::StringW VoipGroup;
+  __declspec(property(get = __cordl_internal_get_VoipGroup, put = __cordl_internal_set_VoipGroup))::StringW VoipGroup;
 
-  constexpr int64_t& __get_ConnectionId();
+  constexpr int64_t& __cordl_internal_get_ConnectionId();
 
-  constexpr int64_t const& __get_ConnectionId() const;
+  constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
-  constexpr void __set_ConnectionId(int64_t value);
+  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
 
-  constexpr bool& __get_Muted();
+  constexpr bool& __cordl_internal_get_Muted();
 
-  constexpr bool const& __get_Muted() const;
+  constexpr bool const& __cordl_internal_get_Muted() const;
 
-  constexpr void __set_Muted(bool value);
+  constexpr void __cordl_internal_set_Muted(bool value);
 
-  constexpr uint64_t& __get_SessionId();
+  constexpr uint64_t& __cordl_internal_get_SessionId();
 
-  constexpr uint64_t const& __get_SessionId() const;
+  constexpr uint64_t const& __cordl_internal_get_SessionId() const;
 
-  constexpr void __set_SessionId(uint64_t value);
+  constexpr void __cordl_internal_set_SessionId(uint64_t value);
 
-  constexpr uint64_t& __get_UserId();
+  constexpr uint64_t& __cordl_internal_get_UserId();
 
-  constexpr uint64_t const& __get_UserId() const;
+  constexpr uint64_t const& __cordl_internal_get_UserId() const;
 
-  constexpr void __set_UserId(uint64_t value);
+  constexpr void __cordl_internal_set_UserId(uint64_t value);
 
-  constexpr ::StringW& __get_VoipGroup();
+  constexpr ::StringW& __cordl_internal_get_VoipGroup();
 
-  constexpr ::StringW const& __get_VoipGroup() const;
+  constexpr ::StringW const& __cordl_internal_get_VoipGroup() const;
 
-  constexpr void __set_VoipGroup(::StringW value);
+  constexpr void __cordl_internal_set_VoipGroup(::StringW value);
 
   static inline ::Oculus::Platform::Models::NetSyncSession* New_ctor(void* o);
 

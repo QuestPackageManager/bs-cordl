@@ -72,8 +72,8 @@ MARK_VAL_T(::System::IO::__StreamReader___ReadLineAsyncInternal_d__61);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3573)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3573)) CS Name:
 // ::StreamReader::<ReadLineAsyncInternal>d__61
 struct CORDL_TYPE __StreamReader___ReadLineAsyncInternal_d__61 {
 public:
@@ -146,9 +146,8 @@ static_assert(offsetof(::System::IO::__StreamReader___ReadLineAsyncInternal_d__6
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3363)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3574)) CS
-// Name: ::StreamReader::<ReadBufferAsync>d__69
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3574)) CS Name: ::StreamReader::<ReadBufferAsync>d__69
 struct CORDL_TYPE __StreamReader___ReadBufferAsync_d__69 {
 public:
   // Declarations
@@ -220,7 +219,7 @@ static_assert(offsetof(::System::IO::__StreamReader___ReadBufferAsync_d__69, __u
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3575))
 // CS Name: ::System.IO::StreamReader*
 class CORDL_TYPE StreamReader : public ::System::IO::TextReader {
@@ -233,49 +232,49 @@ public:
   using NullStreamReader = ::System::IO::__StreamReader__NullStreamReader;
 
   /// @brief Field _stream, offset 0x18, size 0x8
-  __declspec(property(get = __get__stream, put = __set__stream))::System::IO::Stream* _stream;
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
 
   /// @brief Field _encoding, offset 0x20, size 0x8
-  __declspec(property(get = __get__encoding, put = __set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
   /// @brief Field _decoder, offset 0x28, size 0x8
-  __declspec(property(get = __get__decoder, put = __set__decoder))::System::Text::Decoder* _decoder;
+  __declspec(property(get = __cordl_internal_get__decoder, put = __cordl_internal_set__decoder))::System::Text::Decoder* _decoder;
 
   /// @brief Field _byteBuffer, offset 0x30, size 0x8
-  __declspec(property(get = __get__byteBuffer, put = __set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
+  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
 
   /// @brief Field _charBuffer, offset 0x38, size 0x8
-  __declspec(property(get = __get__charBuffer, put = __set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
+  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
 
   /// @brief Field _charPos, offset 0x40, size 0x4
-  __declspec(property(get = __get__charPos, put = __set__charPos)) int32_t _charPos;
+  __declspec(property(get = __cordl_internal_get__charPos, put = __cordl_internal_set__charPos)) int32_t _charPos;
 
   /// @brief Field _charLen, offset 0x44, size 0x4
-  __declspec(property(get = __get__charLen, put = __set__charLen)) int32_t _charLen;
+  __declspec(property(get = __cordl_internal_get__charLen, put = __cordl_internal_set__charLen)) int32_t _charLen;
 
   /// @brief Field _byteLen, offset 0x48, size 0x4
-  __declspec(property(get = __get__byteLen, put = __set__byteLen)) int32_t _byteLen;
+  __declspec(property(get = __cordl_internal_get__byteLen, put = __cordl_internal_set__byteLen)) int32_t _byteLen;
 
   /// @brief Field _bytePos, offset 0x4c, size 0x4
-  __declspec(property(get = __get__bytePos, put = __set__bytePos)) int32_t _bytePos;
+  __declspec(property(get = __cordl_internal_get__bytePos, put = __cordl_internal_set__bytePos)) int32_t _bytePos;
 
   /// @brief Field _maxCharsPerBuffer, offset 0x50, size 0x4
-  __declspec(property(get = __get__maxCharsPerBuffer, put = __set__maxCharsPerBuffer)) int32_t _maxCharsPerBuffer;
+  __declspec(property(get = __cordl_internal_get__maxCharsPerBuffer, put = __cordl_internal_set__maxCharsPerBuffer)) int32_t _maxCharsPerBuffer;
 
   /// @brief Field _detectEncoding, offset 0x54, size 0x1
-  __declspec(property(get = __get__detectEncoding, put = __set__detectEncoding)) bool _detectEncoding;
+  __declspec(property(get = __cordl_internal_get__detectEncoding, put = __cordl_internal_set__detectEncoding)) bool _detectEncoding;
 
   /// @brief Field _checkPreamble, offset 0x55, size 0x1
-  __declspec(property(get = __get__checkPreamble, put = __set__checkPreamble)) bool _checkPreamble;
+  __declspec(property(get = __cordl_internal_get__checkPreamble, put = __cordl_internal_set__checkPreamble)) bool _checkPreamble;
 
   /// @brief Field _isBlocked, offset 0x56, size 0x1
-  __declspec(property(get = __get__isBlocked, put = __set__isBlocked)) bool _isBlocked;
+  __declspec(property(get = __cordl_internal_get__isBlocked, put = __cordl_internal_set__isBlocked)) bool _isBlocked;
 
   /// @brief Field _closable, offset 0x57, size 0x1
-  __declspec(property(get = __get__closable, put = __set__closable)) bool _closable;
+  __declspec(property(get = __cordl_internal_get__closable, put = __cordl_internal_set__closable)) bool _closable;
 
   /// @brief Field _asyncReadTask, offset 0x58, size 0x8
-  __declspec(property(get = __get__asyncReadTask, put = __set__asyncReadTask))::System::Threading::Tasks::Task* _asyncReadTask;
+  __declspec(property(get = __cordl_internal_get__asyncReadTask, put = __cordl_internal_set__asyncReadTask))::System::Threading::Tasks::Task* _asyncReadTask;
 
   /// @brief Field Null, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::StreamReader* Null;
@@ -288,95 +287,95 @@ public:
 
   __declspec(property(get = get_EndOfStream)) bool EndOfStream;
 
-  constexpr ::System::IO::Stream*& __get__stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __set__stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  constexpr ::System::Text::Encoding*& __get__encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  constexpr ::System::Text::Decoder*& __get__decoder();
+  constexpr ::System::Text::Decoder*& __cordl_internal_get__decoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __get__decoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __cordl_internal_get__decoder() const;
 
-  constexpr void __set__decoder(::System::Text::Decoder* value);
+  constexpr void __cordl_internal_set__decoder(::System::Text::Decoder* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__byteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__byteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__byteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
 
-  constexpr void __set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__charBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__charBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__charBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
 
-  constexpr void __set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get__charPos();
+  constexpr int32_t& __cordl_internal_get__charPos();
 
-  constexpr int32_t const& __get__charPos() const;
+  constexpr int32_t const& __cordl_internal_get__charPos() const;
 
-  constexpr void __set__charPos(int32_t value);
+  constexpr void __cordl_internal_set__charPos(int32_t value);
 
-  constexpr int32_t& __get__charLen();
+  constexpr int32_t& __cordl_internal_get__charLen();
 
-  constexpr int32_t const& __get__charLen() const;
+  constexpr int32_t const& __cordl_internal_get__charLen() const;
 
-  constexpr void __set__charLen(int32_t value);
+  constexpr void __cordl_internal_set__charLen(int32_t value);
 
-  constexpr int32_t& __get__byteLen();
+  constexpr int32_t& __cordl_internal_get__byteLen();
 
-  constexpr int32_t const& __get__byteLen() const;
+  constexpr int32_t const& __cordl_internal_get__byteLen() const;
 
-  constexpr void __set__byteLen(int32_t value);
+  constexpr void __cordl_internal_set__byteLen(int32_t value);
 
-  constexpr int32_t& __get__bytePos();
+  constexpr int32_t& __cordl_internal_get__bytePos();
 
-  constexpr int32_t const& __get__bytePos() const;
+  constexpr int32_t const& __cordl_internal_get__bytePos() const;
 
-  constexpr void __set__bytePos(int32_t value);
+  constexpr void __cordl_internal_set__bytePos(int32_t value);
 
-  constexpr int32_t& __get__maxCharsPerBuffer();
+  constexpr int32_t& __cordl_internal_get__maxCharsPerBuffer();
 
-  constexpr int32_t const& __get__maxCharsPerBuffer() const;
+  constexpr int32_t const& __cordl_internal_get__maxCharsPerBuffer() const;
 
-  constexpr void __set__maxCharsPerBuffer(int32_t value);
+  constexpr void __cordl_internal_set__maxCharsPerBuffer(int32_t value);
 
-  constexpr bool& __get__detectEncoding();
+  constexpr bool& __cordl_internal_get__detectEncoding();
 
-  constexpr bool const& __get__detectEncoding() const;
+  constexpr bool const& __cordl_internal_get__detectEncoding() const;
 
-  constexpr void __set__detectEncoding(bool value);
+  constexpr void __cordl_internal_set__detectEncoding(bool value);
 
-  constexpr bool& __get__checkPreamble();
+  constexpr bool& __cordl_internal_get__checkPreamble();
 
-  constexpr bool const& __get__checkPreamble() const;
+  constexpr bool const& __cordl_internal_get__checkPreamble() const;
 
-  constexpr void __set__checkPreamble(bool value);
+  constexpr void __cordl_internal_set__checkPreamble(bool value);
 
-  constexpr bool& __get__isBlocked();
+  constexpr bool& __cordl_internal_get__isBlocked();
 
-  constexpr bool const& __get__isBlocked() const;
+  constexpr bool const& __cordl_internal_get__isBlocked() const;
 
-  constexpr void __set__isBlocked(bool value);
+  constexpr void __cordl_internal_set__isBlocked(bool value);
 
-  constexpr bool& __get__closable();
+  constexpr bool& __cordl_internal_get__closable();
 
-  constexpr bool const& __get__closable() const;
+  constexpr bool const& __cordl_internal_get__closable() const;
 
-  constexpr void __set__closable(bool value);
+  constexpr void __cordl_internal_set__closable(bool value);
 
-  constexpr ::System::Threading::Tasks::Task*& __get__asyncReadTask();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__asyncReadTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get__asyncReadTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__asyncReadTask() const;
 
-  constexpr void __set__asyncReadTask(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set__asyncReadTask(::System::Threading::Tasks::Task* value);
 
   static inline void setStaticF_Null(::System::IO::StreamReader* value);
 

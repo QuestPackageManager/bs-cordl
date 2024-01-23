@@ -19,32 +19,32 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14453))
 // CS Name: ::BloomFogSO*
 class CORDL_TYPE BloomFogSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _bloomFogEnabled, offset 0x18, size 0x1
-  __declspec(property(get = __get__bloomFogEnabled, put = __set__bloomFogEnabled)) bool _bloomFogEnabled;
+  __declspec(property(get = __cordl_internal_get__bloomFogEnabled, put = __cordl_internal_set__bloomFogEnabled)) bool _bloomFogEnabled;
 
   /// @brief Field _legacyAutoExposureEnabled, offset 0x19, size 0x1
-  __declspec(property(get = __get__legacyAutoExposureEnabled, put = __set__legacyAutoExposureEnabled)) bool _legacyAutoExposureEnabled;
+  __declspec(property(get = __cordl_internal_get__legacyAutoExposureEnabled, put = __cordl_internal_set__legacyAutoExposureEnabled)) bool _legacyAutoExposureEnabled;
 
   /// @brief Field _transition, offset 0x1c, size 0x4
-  __declspec(property(get = __get__transition, put = __set__transition)) float_t _transition;
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition)) float_t _transition;
 
   /// @brief Field _autoExposureLimit, offset 0x20, size 0x4
-  __declspec(property(get = __get__autoExposureLimit, put = __set__autoExposureLimit)) float_t _autoExposureLimit;
+  __declspec(property(get = __cordl_internal_get__autoExposureLimit, put = __cordl_internal_set__autoExposureLimit)) float_t _autoExposureLimit;
 
   /// @brief Field _noteSpawnIntensity, offset 0x24, size 0x4
-  __declspec(property(get = __get__noteSpawnIntensity, put = __set__noteSpawnIntensity)) float_t _noteSpawnIntensity;
+  __declspec(property(get = __cordl_internal_get__noteSpawnIntensity, put = __cordl_internal_set__noteSpawnIntensity)) float_t _noteSpawnIntensity;
 
   /// @brief Field _defaultFogParams, offset 0x28, size 0x8
-  __declspec(property(get = __get__defaultFogParams, put = __set__defaultFogParams))::GlobalNamespace::BloomFogEnvironmentParams* _defaultFogParams;
+  __declspec(property(get = __cordl_internal_get__defaultFogParams, put = __cordl_internal_set__defaultFogParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> _defaultFogParams;
 
   /// @brief Field _transitionFogParams, offset 0x30, size 0x8
-  __declspec(property(get = __get__transitionFogParams, put = __set__transitionFogParams))::GlobalNamespace::BloomFogEnvironmentParams* _transitionFogParams;
+  __declspec(property(get = __cordl_internal_get__transitionFogParams, put = __cordl_internal_set__transitionFogParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> _transitionFogParams;
 
   /// @brief Field _customFogAttenuationID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__customFogAttenuationID, put = setStaticF__customFogAttenuationID)) int32_t _customFogAttenuationID;
@@ -60,9 +60,9 @@ public:
 
   __declspec(property(get = get_transition, put = set_transition)) float_t transition;
 
-  __declspec(property(get = get_defaultForParams, put = set_defaultForParams))::GlobalNamespace::BloomFogEnvironmentParams* defaultForParams;
+  __declspec(property(get = get_defaultForParams, put = set_defaultForParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> defaultForParams;
 
-  __declspec(property(get = get_transitionFogParams, put = set_transitionFogParams))::GlobalNamespace::BloomFogEnvironmentParams* transitionFogParams;
+  __declspec(property(get = get_transitionFogParams, put = set_transitionFogParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> transitionFogParams;
 
   __declspec(property(get = get_bloomFogEnabled, put = set_bloomFogEnabled)) bool bloomFogEnabled;
 
@@ -72,47 +72,47 @@ public:
 
   __declspec(property(get = get_noteSpawnIntensity)) float_t noteSpawnIntensity;
 
-  constexpr bool& __get__bloomFogEnabled();
+  constexpr bool& __cordl_internal_get__bloomFogEnabled();
 
-  constexpr bool const& __get__bloomFogEnabled() const;
+  constexpr bool const& __cordl_internal_get__bloomFogEnabled() const;
 
-  constexpr void __set__bloomFogEnabled(bool value);
+  constexpr void __cordl_internal_set__bloomFogEnabled(bool value);
 
-  constexpr bool& __get__legacyAutoExposureEnabled();
+  constexpr bool& __cordl_internal_get__legacyAutoExposureEnabled();
 
-  constexpr bool const& __get__legacyAutoExposureEnabled() const;
+  constexpr bool const& __cordl_internal_get__legacyAutoExposureEnabled() const;
 
-  constexpr void __set__legacyAutoExposureEnabled(bool value);
+  constexpr void __cordl_internal_set__legacyAutoExposureEnabled(bool value);
 
-  constexpr float_t& __get__transition();
+  constexpr float_t& __cordl_internal_get__transition();
 
-  constexpr float_t const& __get__transition() const;
+  constexpr float_t const& __cordl_internal_get__transition() const;
 
-  constexpr void __set__transition(float_t value);
+  constexpr void __cordl_internal_set__transition(float_t value);
 
-  constexpr float_t& __get__autoExposureLimit();
+  constexpr float_t& __cordl_internal_get__autoExposureLimit();
 
-  constexpr float_t const& __get__autoExposureLimit() const;
+  constexpr float_t const& __cordl_internal_get__autoExposureLimit() const;
 
-  constexpr void __set__autoExposureLimit(float_t value);
+  constexpr void __cordl_internal_set__autoExposureLimit(float_t value);
 
-  constexpr float_t& __get__noteSpawnIntensity();
+  constexpr float_t& __cordl_internal_get__noteSpawnIntensity();
 
-  constexpr float_t const& __get__noteSpawnIntensity() const;
+  constexpr float_t const& __cordl_internal_get__noteSpawnIntensity() const;
 
-  constexpr void __set__noteSpawnIntensity(float_t value);
+  constexpr void __cordl_internal_set__noteSpawnIntensity(float_t value);
 
-  constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& __get__defaultFogParams();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__defaultFogParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& __get__defaultFogParams() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& __cordl_internal_get__defaultFogParams() const;
 
-  constexpr void __set__defaultFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
+  constexpr void __cordl_internal_set__defaultFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& __get__transitionFogParams();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__transitionFogParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& __get__transitionFogParams() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& __cordl_internal_get__transitionFogParams() const;
 
-  constexpr void __set__transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
+  constexpr void __cordl_internal_set__transitionFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
   static inline void setStaticF__customFogAttenuationID(int32_t value);
 
@@ -137,13 +137,13 @@ public:
   inline float_t get_transition();
 
   /// @brief Method get_defaultForParams, addr 0x21025b0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BloomFogEnvironmentParams* get_defaultForParams();
+  inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_defaultForParams();
 
   /// @brief Method set_defaultForParams, addr 0x21023d0, size 0x9c, virtual false, abstract: false, final false
   inline void set_defaultForParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
 
   /// @brief Method get_transitionFogParams, addr 0x21025b8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BloomFogEnvironmentParams* get_transitionFogParams();
+  inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_transitionFogParams();
 
   /// @brief Method set_transitionFogParams, addr 0x2102210, size 0x98, virtual false, abstract: false, final false
   inline void set_transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
@@ -213,10 +213,10 @@ public:
   float_t ____noteSpawnIntensity;
 
   /// @brief Field _defaultFogParams, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogEnvironmentParams* ____defaultFogParams;
+  ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____defaultFogParams;
 
   /// @brief Field _transitionFogParams, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogEnvironmentParams* ____transitionFogParams;
+  ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____transitionFogParams;
 
   /// @brief Field kBloomFogEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kBloomFogEnabledKeyword{ u"ENABLE_BLOOM_FOG" };

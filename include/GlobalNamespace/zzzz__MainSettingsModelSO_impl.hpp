@@ -42,9 +42,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x234f6d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -56,10 +56,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x234f7ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
     return ___internal_method;
   }
 };
@@ -71,731 +71,731 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x234f8a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), "ApplyPerformancePreset", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), "ApplyPerformancePreset", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__get_version() {
+constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
-constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__get_version() const {
+constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_version(::StringW value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_version(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_windowResolutionWidth() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_windowResolutionWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowResolutionWidth;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_windowResolutionWidth() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_windowResolutionWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowResolutionWidth;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_windowResolutionWidth(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_windowResolutionWidth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowResolutionWidth = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_windowResolutionHeight() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_windowResolutionHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowResolutionHeight;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_windowResolutionHeight() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_windowResolutionHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowResolutionHeight;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_windowResolutionHeight(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_windowResolutionHeight(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowResolutionHeight = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_editorResolutionWidth() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_editorResolutionWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editorResolutionWidth;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_editorResolutionWidth() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_editorResolutionWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editorResolutionWidth;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_editorResolutionWidth(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_editorResolutionWidth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___editorResolutionWidth = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_editorResolutionHeight() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_editorResolutionHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editorResolutionHeight;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_editorResolutionHeight() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_editorResolutionHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editorResolutionHeight;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_editorResolutionHeight(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_editorResolutionHeight(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___editorResolutionHeight = value;
 }
-constexpr ::GlobalNamespace::__MainSettingsModelSO__WindowMode& GlobalNamespace::__MainSettingsModelSO__Config::__get_windowMode() {
+constexpr ::GlobalNamespace::__MainSettingsModelSO__WindowMode& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_windowMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowMode;
 }
-constexpr ::GlobalNamespace::__MainSettingsModelSO__WindowMode const& GlobalNamespace::__MainSettingsModelSO__Config::__get_windowMode() const {
+constexpr ::GlobalNamespace::__MainSettingsModelSO__WindowMode const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_windowMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowMode;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_windowMode(::GlobalNamespace::__MainSettingsModelSO__WindowMode value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_windowMode(::GlobalNamespace::__MainSettingsModelSO__WindowMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowMode = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_vrResolutionScale() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_vrResolutionScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vrResolutionScale;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_vrResolutionScale() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_vrResolutionScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vrResolutionScale;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_vrResolutionScale(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_vrResolutionScale(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___vrResolutionScale = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_menuVRResolutionScaleMultiplier() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_menuVRResolutionScaleMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuVRResolutionScaleMultiplier;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_menuVRResolutionScaleMultiplier() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_menuVRResolutionScaleMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuVRResolutionScaleMultiplier;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_menuVRResolutionScaleMultiplier(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_menuVRResolutionScaleMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___menuVRResolutionScaleMultiplier = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_antiAliasingLevel() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_antiAliasingLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___antiAliasingLevel;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_antiAliasingLevel() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_antiAliasingLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___antiAliasingLevel;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_antiAliasingLevel(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_antiAliasingLevel(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___antiAliasingLevel = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_mirrorGraphicsSettings() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_mirrorGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrorGraphicsSettings;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_mirrorGraphicsSettings() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_mirrorGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrorGraphicsSettings;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_mirrorGraphicsSettings(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_mirrorGraphicsSettings(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mirrorGraphicsSettings = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_mainEffectGraphicsSettings() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_mainEffectGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mainEffectGraphicsSettings;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_mainEffectGraphicsSettings() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_mainEffectGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mainEffectGraphicsSettings;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_mainEffectGraphicsSettings(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_mainEffectGraphicsSettings(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mainEffectGraphicsSettings = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_bloomGraphicsSettings() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_bloomGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bloomGraphicsSettings;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_bloomGraphicsSettings() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_bloomGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bloomGraphicsSettings;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_bloomGraphicsSettings(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_bloomGraphicsSettings(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bloomGraphicsSettings = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smokeGraphicsSettings() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smokeGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smokeGraphicsSettings;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smokeGraphicsSettings() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smokeGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smokeGraphicsSettings;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smokeGraphicsSettings(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smokeGraphicsSettings(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smokeGraphicsSettings = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_burnMarkTrailsEnabled() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_burnMarkTrailsEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burnMarkTrailsEnabled;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_burnMarkTrailsEnabled() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_burnMarkTrailsEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burnMarkTrailsEnabled;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_burnMarkTrailsEnabled(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_burnMarkTrailsEnabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___burnMarkTrailsEnabled = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_screenDisplacementEffectsEnabled() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_screenDisplacementEffectsEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenDisplacementEffectsEnabled;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_screenDisplacementEffectsEnabled() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_screenDisplacementEffectsEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenDisplacementEffectsEnabled;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_screenDisplacementEffectsEnabled(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_screenDisplacementEffectsEnabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenDisplacementEffectsEnabled = value;
 }
-constexpr ::GlobalNamespace::ObstaclesQuality& GlobalNamespace::__MainSettingsModelSO__Config::__get_obstaclesQuality() {
+constexpr ::GlobalNamespace::ObstaclesQuality& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_obstaclesQuality() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstaclesQuality;
 }
-constexpr ::GlobalNamespace::ObstaclesQuality const& GlobalNamespace::__MainSettingsModelSO__Config::__get_obstaclesQuality() const {
+constexpr ::GlobalNamespace::ObstaclesQuality const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_obstaclesQuality() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstaclesQuality;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_obstaclesQuality(::GlobalNamespace::ObstaclesQuality value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_obstaclesQuality(::GlobalNamespace::ObstaclesQuality value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___obstaclesQuality = value;
 }
-constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__get_performancePresetKey() {
+constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_performancePresetKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___performancePresetKey;
 }
-constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__get_performancePresetKey() const {
+constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_performancePresetKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___performancePresetKey;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_performancePresetKey(::StringW value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_performancePresetKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___performancePresetKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomCenterX() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomCenterX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenterX;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomCenterX() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomCenterX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenterX;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_roomCenterX(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_roomCenterX(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___roomCenterX = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomCenterY() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomCenterY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenterY;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomCenterY() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomCenterY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenterY;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_roomCenterY(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_roomCenterY(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___roomCenterY = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomCenterZ() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomCenterZ() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenterZ;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomCenterZ() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomCenterZ() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenterZ;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_roomCenterZ(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_roomCenterZ(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___roomCenterZ = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomRotation() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomRotation;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomRotation() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_roomRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomRotation;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_roomRotation(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_roomRotation(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___roomRotation = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerPositionX() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerPositionX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPositionX;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerPositionX() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerPositionX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPositionX;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_controllerPositionX(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_controllerPositionX(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerPositionX = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerPositionY() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerPositionY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPositionY;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerPositionY() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerPositionY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPositionY;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_controllerPositionY(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_controllerPositionY(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerPositionY = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerPositionZ() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerPositionZ() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPositionZ;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerPositionZ() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerPositionZ() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPositionZ;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_controllerPositionZ(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_controllerPositionZ(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerPositionZ = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerRotationX() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerRotationX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotationX;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerRotationX() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerRotationX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotationX;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_controllerRotationX(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_controllerRotationX(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerRotationX = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerRotationY() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerRotationY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotationY;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerRotationY() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerRotationY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotationY;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_controllerRotationY(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_controllerRotationY(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerRotationY = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerRotationZ() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerRotationZ() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotationZ;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllerRotationZ() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllerRotationZ() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotationZ;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_controllerRotationZ(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_controllerRotationZ(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerRotationZ = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraEnabled() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraEnabled;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraEnabled() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraEnabled;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraEnabled(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraEnabled(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraEnabled = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraFieldOfView() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraFieldOfView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraFieldOfView;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraFieldOfView() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraFieldOfView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraFieldOfView;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraFieldOfView(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraFieldOfView(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraFieldOfView = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonPositionX() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonPositionX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPositionX;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonPositionX() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonPositionX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPositionX;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraThirdPersonPositionX(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraThirdPersonPositionX(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraThirdPersonPositionX = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonPositionY() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonPositionY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPositionY;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonPositionY() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonPositionY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPositionY;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraThirdPersonPositionY(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraThirdPersonPositionY(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraThirdPersonPositionY = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonPositionZ() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonPositionZ() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPositionZ;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonPositionZ() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonPositionZ() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPositionZ;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraThirdPersonPositionZ(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraThirdPersonPositionZ(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraThirdPersonPositionZ = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEulerAnglesX() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEulerAnglesX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAnglesX;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEulerAnglesX() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEulerAnglesX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAnglesX;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraThirdPersonEulerAnglesX(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraThirdPersonEulerAnglesX(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraThirdPersonEulerAnglesX = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEulerAnglesY() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEulerAnglesY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAnglesY;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEulerAnglesY() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEulerAnglesY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAnglesY;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraThirdPersonEulerAnglesY(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraThirdPersonEulerAnglesY(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraThirdPersonEulerAnglesY = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEulerAnglesZ() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEulerAnglesZ() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAnglesZ;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEulerAnglesZ() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEulerAnglesZ() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAnglesZ;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraThirdPersonEulerAnglesZ(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraThirdPersonEulerAnglesZ(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraThirdPersonEulerAnglesZ = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEnabled() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEnabled;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraThirdPersonEnabled() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraThirdPersonEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEnabled;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraThirdPersonEnabled(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraThirdPersonEnabled(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraThirdPersonEnabled = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraRotationSmooth() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraRotationSmooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraRotationSmooth;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraRotationSmooth() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraRotationSmooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraRotationSmooth;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraRotationSmooth(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraRotationSmooth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraRotationSmooth = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraPositionSmooth() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraPositionSmooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraPositionSmooth;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_smoothCameraPositionSmooth() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_smoothCameraPositionSmooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraPositionSmooth;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_smoothCameraPositionSmooth(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_smoothCameraPositionSmooth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothCameraPositionSmooth = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_useCustomServerEnvironment() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_useCustomServerEnvironment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCustomServerEnvironment;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_useCustomServerEnvironment() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_useCustomServerEnvironment() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCustomServerEnvironment;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_useCustomServerEnvironment(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_useCustomServerEnvironment(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useCustomServerEnvironment = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_forceGameLiftServerEnvironment() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_forceGameLiftServerEnvironment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceGameLiftServerEnvironment;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_forceGameLiftServerEnvironment() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_forceGameLiftServerEnvironment() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceGameLiftServerEnvironment;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_forceGameLiftServerEnvironment(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_forceGameLiftServerEnvironment(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forceGameLiftServerEnvironment = value;
 }
-constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__get_customServerHostName() {
+constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_customServerHostName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customServerHostName;
 }
-constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__get_customServerHostName() const {
+constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_customServerHostName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customServerHostName;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_customServerHostName(::StringW value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_customServerHostName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___customServerHostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_useFixedFoveatedRenderingDuringGameplay() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_useFixedFoveatedRenderingDuringGameplay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFixedFoveatedRenderingDuringGameplay;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_useFixedFoveatedRenderingDuringGameplay() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_useFixedFoveatedRenderingDuringGameplay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFixedFoveatedRenderingDuringGameplay;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_useFixedFoveatedRenderingDuringGameplay(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_useFixedFoveatedRenderingDuringGameplay(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useFixedFoveatedRenderingDuringGameplay = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_gpuLevel() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_gpuLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_gpuLevel() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_gpuLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_gpuLevel(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_gpuLevel(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gpuLevel = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_cpuLevel() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_cpuLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_cpuLevel() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_cpuLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_cpuLevel(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_cpuLevel(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cpuLevel = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_targetFramerate() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_targetFramerate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetFramerate;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_targetFramerate() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_targetFramerate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetFramerate;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_targetFramerate(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_targetFramerate(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___targetFramerate = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_volume() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_volume() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_volume() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_volume() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_volume(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_volume(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___volume = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_ambientVolumeScale() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_ambientVolumeScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ambientVolumeScale;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_ambientVolumeScale() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_ambientVolumeScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ambientVolumeScale;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_ambientVolumeScale(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_ambientVolumeScale(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ambientVolumeScale = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllersRumbleEnabled() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllersRumbleEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllersRumbleEnabled;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_controllersRumbleEnabled() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_controllersRumbleEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllersRumbleEnabled;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_controllersRumbleEnabled(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_controllersRumbleEnabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllersRumbleEnabled = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableAlphaFeatures() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableAlphaFeatures() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableAlphaFeatures;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableAlphaFeatures() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableAlphaFeatures() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableAlphaFeatures;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_enableAlphaFeatures(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_enableAlphaFeatures(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableAlphaFeatures = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_pauseButtonPressDurationLevel() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_pauseButtonPressDurationLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseButtonPressDurationLevel;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_pauseButtonPressDurationLevel() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_pauseButtonPressDurationLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseButtonPressDurationLevel;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_pauseButtonPressDurationLevel(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_pauseButtonPressDurationLevel(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pauseButtonPressDurationLevel = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_maxShockwaveParticles() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_maxShockwaveParticles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxShockwaveParticles;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_maxShockwaveParticles() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_maxShockwaveParticles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxShockwaveParticles;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_maxShockwaveParticles(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_maxShockwaveParticles(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxShockwaveParticles = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_overrideAudioLatency() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_overrideAudioLatency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideAudioLatency;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_overrideAudioLatency() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_overrideAudioLatency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideAudioLatency;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_overrideAudioLatency(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_overrideAudioLatency(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideAudioLatency = value;
 }
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_audioLatency() {
+constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_audioLatency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioLatency;
 }
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_audioLatency() const {
+constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_audioLatency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioLatency;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_audioLatency(float_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_audioLatency(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___audioLatency = value;
 }
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_maxNumberOfCutSoundEffects() {
+constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_maxNumberOfCutSoundEffects() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxNumberOfCutSoundEffects;
 }
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_maxNumberOfCutSoundEffects() const {
+constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_maxNumberOfCutSoundEffects() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxNumberOfCutSoundEffects;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_maxNumberOfCutSoundEffects(int32_t value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_maxNumberOfCutSoundEffects(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxNumberOfCutSoundEffects = value;
 }
-constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__get_language() {
+constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__get_language() const {
+constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_language(::StringW value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_language(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___language)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableFPSCounter() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableFPSCounter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSCounter;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableFPSCounter() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableFPSCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSCounter;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_enableFPSCounter(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_enableFPSCounter(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableFPSCounter = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableFPSRecorder() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableFPSRecorder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSRecorder;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableFPSRecorder() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableFPSRecorder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSRecorder;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_enableFPSRecorder(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_enableFPSRecorder(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableFPSRecorder = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableMemoryTracker() {
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableMemoryTracker() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMemoryTracker;
 }
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableMemoryTracker() const {
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_get_enableMemoryTracker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMemoryTracker;
 }
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_enableMemoryTracker(bool value) {
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__cordl_internal_set_enableMemoryTracker(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableMemoryTracker = value;
 }
 inline ::GlobalNamespace::__MainSettingsModelSO__Config* GlobalNamespace::__MainSettingsModelSO__Config::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MainSettingsModelSO__Config*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MainSettingsModelSO__Config*>());
 }
 inline void GlobalNamespace::__MainSettingsModelSO__Config::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__MainSettingsModelSO__Config*
 GlobalNamespace::__MainSettingsModelSO__Config::New_ctor(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MainSettingsModelSO__Config*>(performancePresetToLoad));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MainSettingsModelSO__Config*>(performancePresetToLoad));
 }
 inline void GlobalNamespace::__MainSettingsModelSO__Config::_ctor(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, performancePresetToLoad);
 }
 inline void GlobalNamespace::__MainSettingsModelSO__Config::ApplyPerformancePreset(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), "ApplyPerformancePreset", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), "ApplyPerformancePreset", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, performancePresetToLoad);
 }
 // Ctor Parameters []
@@ -808,10 +808,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x358;
   constexpr static std::size_t addrs = 0x234fe44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(),
-                                                 "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -823,32 +823,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2350378;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(), "SetStateMachine",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 inline void GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(),
-                                               "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(), "SetStateMachine", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -877,9 +879,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234e734;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
-                                                                               "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "get_createScreenshotDuringTheGame",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -891,10 +894,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x234e73c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "set_createScreenshotDuringTheGame",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -906,9 +909,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234e748;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
-                                                                               "get_playingForTheFirstTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_playingForTheFirstTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -920,10 +923,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x234e750;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "set_playingForTheFirstTime",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -935,10 +938,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1dc;
   constexpr static std::size_t addrs = 0x234e75c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>>::get() })));
     return ___internal_method;
@@ -952,10 +955,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x504;
   constexpr static std::size_t addrs = 0x234f1cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Save", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Save", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
     return ___internal_method;
   }
 };
@@ -967,11 +970,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x894;
   constexpr static std::size_t addrs = 0x234e938;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Load", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Load", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -983,10 +986,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x234fa68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "ForceApplyPerformancePresetAsync", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MainSettingsModelSO__Config*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "ForceApplyPerformancePresetAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MainSettingsModelSO__Config*>::get() })));
     return ___internal_method;
   }
 };
@@ -997,9 +1000,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x234fb30;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
-                                                                               "__DeleteSettingsFiles", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "__DeleteSettingsFiles", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -1010,622 +1013,624 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234fc70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_vrResolutionScale() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_vrResolutionScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vrResolutionScale;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_vrResolutionScale() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_vrResolutionScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vrResolutionScale;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_vrResolutionScale(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_vrResolutionScale(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___vrResolutionScale)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_menuVRResolutionScaleMultiplier() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_menuVRResolutionScaleMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuVRResolutionScaleMultiplier;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_menuVRResolutionScaleMultiplier() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_menuVRResolutionScaleMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuVRResolutionScaleMultiplier;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_menuVRResolutionScaleMultiplier(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_menuVRResolutionScaleMultiplier(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___menuVRResolutionScaleMultiplier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::Vector2IntSO*& GlobalNamespace::MainSettingsModelSO::__get_windowResolution() {
+constexpr ::UnityW<::GlobalNamespace::Vector2IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_windowResolution() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowResolution;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector2IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_windowResolution() const {
+constexpr ::UnityW<::GlobalNamespace::Vector2IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_windowResolution() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowResolution;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_windowResolution(::GlobalNamespace::Vector2IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_windowResolution(::UnityW<::GlobalNamespace::Vector2IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___windowResolution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::Vector2IntSO*& GlobalNamespace::MainSettingsModelSO::__get_editorWindowResolution() {
+constexpr ::UnityW<::GlobalNamespace::Vector2IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_editorWindowResolution() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editorWindowResolution;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector2IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_editorWindowResolution() const {
+constexpr ::UnityW<::GlobalNamespace::Vector2IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_editorWindowResolution() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editorWindowResolution;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_editorWindowResolution(::GlobalNamespace::Vector2IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_editorWindowResolution(::UnityW<::GlobalNamespace::Vector2IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___editorWindowResolution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_fullscreen() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_fullscreen() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullscreen;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_fullscreen() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_fullscreen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullscreen;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_fullscreen(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_fullscreen(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fullscreen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_antiAliasingLevel() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_antiAliasingLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___antiAliasingLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_antiAliasingLevel() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_antiAliasingLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___antiAliasingLevel;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_antiAliasingLevel(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_antiAliasingLevel(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___antiAliasingLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_volume() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_volume() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_volume() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_volume() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_volume(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_volume(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___volume)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_ambientVolumeScale() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_ambientVolumeScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ambientVolumeScale;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_ambientVolumeScale() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_ambientVolumeScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ambientVolumeScale;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_ambientVolumeScale(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_ambientVolumeScale(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ambientVolumeScale)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_controllersRumbleEnabled() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_controllersRumbleEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllersRumbleEnabled;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_controllersRumbleEnabled() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_controllersRumbleEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllersRumbleEnabled;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_controllersRumbleEnabled(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_controllersRumbleEnabled(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___controllersRumbleEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::Vector3SO*& GlobalNamespace::MainSettingsModelSO::__get_roomCenter() {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_roomCenter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& GlobalNamespace::MainSettingsModelSO::__get_roomCenter() const {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_roomCenter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomCenter;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_roomCenter(::GlobalNamespace::Vector3SO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___roomCenter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_roomRotation() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_roomRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomRotation;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_roomRotation() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_roomRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomRotation;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_roomRotation(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_roomRotation(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___roomRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::Vector3SO*& GlobalNamespace::MainSettingsModelSO::__get_controllerPosition() {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_controllerPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPosition;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& GlobalNamespace::MainSettingsModelSO::__get_controllerPosition() const {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_controllerPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerPosition;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_controllerPosition(::GlobalNamespace::Vector3SO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_controllerPosition(::UnityW<::GlobalNamespace::Vector3SO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___controllerPosition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::Vector3SO*& GlobalNamespace::MainSettingsModelSO::__get_controllerRotation() {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_controllerRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotation;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& GlobalNamespace::MainSettingsModelSO::__get_controllerRotation() const {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_controllerRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRotation;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_controllerRotation(::GlobalNamespace::Vector3SO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_controllerRotation(::UnityW<::GlobalNamespace::Vector3SO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___controllerRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_mirrorGraphicsSettings() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_mirrorGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrorGraphicsSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_mirrorGraphicsSettings() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_mirrorGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrorGraphicsSettings;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_mirrorGraphicsSettings(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_mirrorGraphicsSettings(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mirrorGraphicsSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_mainEffectGraphicsSettings() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_mainEffectGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mainEffectGraphicsSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_mainEffectGraphicsSettings() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_mainEffectGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mainEffectGraphicsSettings;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_mainEffectGraphicsSettings(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_mainEffectGraphicsSettings(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mainEffectGraphicsSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_bloomPrePassGraphicsSettings() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_bloomPrePassGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bloomPrePassGraphicsSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_bloomPrePassGraphicsSettings() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_bloomPrePassGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bloomPrePassGraphicsSettings;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_bloomPrePassGraphicsSettings(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_bloomPrePassGraphicsSettings(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bloomPrePassGraphicsSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_smokeGraphicsSettings() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smokeGraphicsSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smokeGraphicsSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_smokeGraphicsSettings() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smokeGraphicsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smokeGraphicsSettings;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smokeGraphicsSettings(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smokeGraphicsSettings(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smokeGraphicsSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_enableAlphaFeatures() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableAlphaFeatures() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableAlphaFeatures;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_enableAlphaFeatures() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableAlphaFeatures() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableAlphaFeatures;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_enableAlphaFeatures(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_enableAlphaFeatures(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enableAlphaFeatures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_pauseButtonPressDurationLevel() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_pauseButtonPressDurationLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseButtonPressDurationLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_pauseButtonPressDurationLevel() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_pauseButtonPressDurationLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseButtonPressDurationLevel;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_pauseButtonPressDurationLevel(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_pauseButtonPressDurationLevel(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pauseButtonPressDurationLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_burnMarkTrailsEnabled() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_burnMarkTrailsEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burnMarkTrailsEnabled;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_burnMarkTrailsEnabled() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_burnMarkTrailsEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burnMarkTrailsEnabled;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_burnMarkTrailsEnabled(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_burnMarkTrailsEnabled(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___burnMarkTrailsEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_screenDisplacementEffectsEnabled() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_screenDisplacementEffectsEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenDisplacementEffectsEnabled;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_screenDisplacementEffectsEnabled() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_screenDisplacementEffectsEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenDisplacementEffectsEnabled;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_screenDisplacementEffectsEnabled(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_screenDisplacementEffectsEnabled(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___screenDisplacementEffectsEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ObstaclesQualitySO*& GlobalNamespace::MainSettingsModelSO::__get_obstaclesQuality() {
+constexpr ::UnityW<::GlobalNamespace::ObstaclesQualitySO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_obstaclesQuality() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstaclesQuality;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstaclesQualitySO*> const& GlobalNamespace::MainSettingsModelSO::__get_obstaclesQuality() const {
+constexpr ::UnityW<::GlobalNamespace::ObstaclesQualitySO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_obstaclesQuality() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstaclesQuality;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_obstaclesQuality(::GlobalNamespace::ObstaclesQualitySO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_obstaclesQuality(::UnityW<::GlobalNamespace::ObstaclesQualitySO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obstaclesQuality)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::StringSO*& GlobalNamespace::MainSettingsModelSO::__get_performancePresetKey() {
+constexpr ::UnityW<::GlobalNamespace::StringSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_performancePresetKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___performancePresetKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StringSO*> const& GlobalNamespace::MainSettingsModelSO::__get_performancePresetKey() const {
+constexpr ::UnityW<::GlobalNamespace::StringSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_performancePresetKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___performancePresetKey;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_performancePresetKey(::GlobalNamespace::StringSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_performancePresetKey(::UnityW<::GlobalNamespace::StringSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___performancePresetKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraEnabled() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraEnabled;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraEnabled() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraEnabled;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smoothCameraEnabled(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smoothCameraEnabled(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smoothCameraEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraFieldOfView() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraFieldOfView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraFieldOfView;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraFieldOfView() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraFieldOfView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraFieldOfView;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smoothCameraFieldOfView(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smoothCameraFieldOfView(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smoothCameraFieldOfView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::Vector3SO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraThirdPersonPosition() {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraThirdPersonPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPosition;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraThirdPersonPosition() const {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraThirdPersonPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonPosition;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smoothCameraThirdPersonPosition(::GlobalNamespace::Vector3SO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smoothCameraThirdPersonPosition(::UnityW<::GlobalNamespace::Vector3SO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smoothCameraThirdPersonPosition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::Vector3SO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraThirdPersonEulerAngles() {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraThirdPersonEulerAngles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAngles;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraThirdPersonEulerAngles() const {
+constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraThirdPersonEulerAngles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEulerAngles;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smoothCameraThirdPersonEulerAngles(::GlobalNamespace::Vector3SO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smoothCameraThirdPersonEulerAngles(::UnityW<::GlobalNamespace::Vector3SO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smoothCameraThirdPersonEulerAngles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraThirdPersonEnabled() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraThirdPersonEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEnabled;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraThirdPersonEnabled() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraThirdPersonEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraThirdPersonEnabled;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smoothCameraThirdPersonEnabled(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smoothCameraThirdPersonEnabled(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smoothCameraThirdPersonEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraRotationSmooth() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraRotationSmooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraRotationSmooth;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraRotationSmooth() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraRotationSmooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraRotationSmooth;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smoothCameraRotationSmooth(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smoothCameraRotationSmooth(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smoothCameraRotationSmooth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraPositionSmooth() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraPositionSmooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraPositionSmooth;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraPositionSmooth() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_smoothCameraPositionSmooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraPositionSmooth;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_smoothCameraPositionSmooth(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_smoothCameraPositionSmooth(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smoothCameraPositionSmooth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_overrideAudioLatency() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_overrideAudioLatency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideAudioLatency;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_overrideAudioLatency() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_overrideAudioLatency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideAudioLatency;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_overrideAudioLatency(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_overrideAudioLatency(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___overrideAudioLatency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_audioLatency() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_audioLatency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioLatency;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_audioLatency() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_audioLatency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioLatency;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_audioLatency(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_audioLatency(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioLatency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_maxShockwaveParticles() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_maxShockwaveParticles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxShockwaveParticles;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_maxShockwaveParticles() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_maxShockwaveParticles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxShockwaveParticles;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_maxShockwaveParticles(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_maxShockwaveParticles(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___maxShockwaveParticles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_maxNumberOfCutSoundEffects() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_maxNumberOfCutSoundEffects() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxNumberOfCutSoundEffects;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_maxNumberOfCutSoundEffects() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_maxNumberOfCutSoundEffects() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxNumberOfCutSoundEffects;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_maxNumberOfCutSoundEffects(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_maxNumberOfCutSoundEffects(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___maxNumberOfCutSoundEffects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LanguageSO*& GlobalNamespace::MainSettingsModelSO::__get_language() {
+constexpr ::UnityW<::GlobalNamespace::LanguageSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LanguageSO*> const& GlobalNamespace::MainSettingsModelSO::__get_language() const {
+constexpr ::UnityW<::GlobalNamespace::LanguageSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_language(::GlobalNamespace::LanguageSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_language(::UnityW<::GlobalNamespace::LanguageSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___language)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_useCustomServerEnvironment() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_useCustomServerEnvironment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCustomServerEnvironment;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_useCustomServerEnvironment() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_useCustomServerEnvironment() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCustomServerEnvironment;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_useCustomServerEnvironment(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_useCustomServerEnvironment(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___useCustomServerEnvironment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_forceGameLiftServerEnvironment() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_forceGameLiftServerEnvironment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceGameLiftServerEnvironment;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_forceGameLiftServerEnvironment() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_forceGameLiftServerEnvironment() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceGameLiftServerEnvironment;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_forceGameLiftServerEnvironment(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_forceGameLiftServerEnvironment(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___forceGameLiftServerEnvironment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::StringSO*& GlobalNamespace::MainSettingsModelSO::__get_customServerHostName() {
+constexpr ::UnityW<::GlobalNamespace::StringSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_customServerHostName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customServerHostName;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StringSO*> const& GlobalNamespace::MainSettingsModelSO::__get_customServerHostName() const {
+constexpr ::UnityW<::GlobalNamespace::StringSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_customServerHostName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customServerHostName;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_customServerHostName(::GlobalNamespace::StringSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_customServerHostName(::UnityW<::GlobalNamespace::StringSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___customServerHostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_enableFPSCounter() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableFPSCounter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSCounter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_enableFPSCounter() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableFPSCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSCounter;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_enableFPSCounter(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_enableFPSCounter(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enableFPSCounter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_enableFPSRecorder() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableFPSRecorder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSRecorder;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_enableFPSRecorder() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableFPSRecorder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableFPSRecorder;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_enableFPSRecorder(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_enableFPSRecorder(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enableFPSRecorder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_enableMemoryTracker() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableMemoryTracker() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMemoryTracker;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_enableMemoryTracker() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_enableMemoryTracker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMemoryTracker;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_enableMemoryTracker(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_enableMemoryTracker(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enableMemoryTracker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_useFixedFoveatedRenderingDuringGameplay() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_useFixedFoveatedRenderingDuringGameplay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFixedFoveatedRenderingDuringGameplay;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_useFixedFoveatedRenderingDuringGameplay() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_useFixedFoveatedRenderingDuringGameplay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFixedFoveatedRenderingDuringGameplay;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_useFixedFoveatedRenderingDuringGameplay(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_useFixedFoveatedRenderingDuringGameplay(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___useFixedFoveatedRenderingDuringGameplay)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_gpuLevel() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_gpuLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_gpuLevel() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_gpuLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_gpuLevel(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_gpuLevel(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gpuLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_cpuLevel() {
+constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_cpuLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_cpuLevel() const {
+constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_cpuLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_cpuLevel(::GlobalNamespace::IntSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_cpuLevel(::UnityW<::GlobalNamespace::IntSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cpuLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_targetFramerate() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_targetFramerate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetFramerate;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_targetFramerate() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_targetFramerate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetFramerate;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_targetFramerate(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_targetFramerate(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targetFramerate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_depthTextureEnabled() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_depthTextureEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthTextureEnabled;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_depthTextureEnabled() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get_depthTextureEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthTextureEnabled;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_depthTextureEnabled(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set_depthTextureEnabled(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___depthTextureEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::MainSettingsModelSO::__get__createScreenshotDuringTheGame_k__BackingField() {
+constexpr bool& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__createScreenshotDuringTheGame_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____createScreenshotDuringTheGame_k__BackingField;
 }
-constexpr bool const& GlobalNamespace::MainSettingsModelSO::__get__createScreenshotDuringTheGame_k__BackingField() const {
+constexpr bool const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__createScreenshotDuringTheGame_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____createScreenshotDuringTheGame_k__BackingField;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set__createScreenshotDuringTheGame_k__BackingField(bool value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set__createScreenshotDuringTheGame_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____createScreenshotDuringTheGame_k__BackingField = value;
 }
-constexpr bool& GlobalNamespace::MainSettingsModelSO::__get__playingForTheFirstTime_k__BackingField() {
+constexpr bool& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__playingForTheFirstTime_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingForTheFirstTime_k__BackingField;
 }
-constexpr bool const& GlobalNamespace::MainSettingsModelSO::__get__playingForTheFirstTime_k__BackingField() const {
+constexpr bool const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__playingForTheFirstTime_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingForTheFirstTime_k__BackingField;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set__playingForTheFirstTime_k__BackingField(bool value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set__playingForTheFirstTime_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playingForTheFirstTime_k__BackingField = value;
 }
-constexpr bool& GlobalNamespace::MainSettingsModelSO::__get__playingForTheFirstTimeChecked() {
+constexpr bool& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__playingForTheFirstTimeChecked() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingForTheFirstTimeChecked;
 }
-constexpr bool const& GlobalNamespace::MainSettingsModelSO::__get__playingForTheFirstTimeChecked() const {
+constexpr bool const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__playingForTheFirstTimeChecked() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingForTheFirstTimeChecked;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set__playingForTheFirstTimeChecked(bool value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set__playingForTheFirstTimeChecked(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playingForTheFirstTimeChecked = value;
 }
-constexpr bool& GlobalNamespace::MainSettingsModelSO::__get__isLoaded() {
+constexpr bool& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__isLoaded() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isLoaded;
 }
-constexpr bool const& GlobalNamespace::MainSettingsModelSO::__get__isLoaded() const {
+constexpr bool const& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__isLoaded() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isLoaded;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set__isLoaded(bool value) {
+constexpr void GlobalNamespace::MainSettingsModelSO::__cordl_internal_set__isLoaded(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isLoaded = value;
 }
-constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>& GlobalNamespace::MainSettingsModelSO::__get__defaultPerformancePreset() {
+constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>& GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__defaultPerformancePreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultPerformancePreset;
 }
-constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> const& GlobalNamespace::MainSettingsModelSO::__get__defaultPerformancePreset() const {
+constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> const&
+GlobalNamespace::MainSettingsModelSO::__cordl_internal_get__defaultPerformancePreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultPerformancePreset;
 }
-constexpr void GlobalNamespace::MainSettingsModelSO::__set__defaultPerformancePreset(::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> value) {
+constexpr void
+GlobalNamespace::MainSettingsModelSO::__cordl_internal_set__defaultPerformancePreset(::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultPerformancePreset = value;
 }
@@ -1638,66 +1643,67 @@ inline ::GlobalNamespace::PerformancePreset* GlobalNamespace::MainSettingsModelS
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get>();
 }
 inline bool GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
-                                                                             "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "get_createScreenshotDuringTheGame",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MainSettingsModelSO::set_createScreenshotDuringTheGame(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "set_createScreenshotDuringTheGame",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::MainSettingsModelSO::get_playingForTheFirstTime() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
-                                                                             "get_playingForTheFirstTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_playingForTheFirstTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MainSettingsModelSO::set_playingForTheFirstTime(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "set_playingForTheFirstTime",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MainSettingsModelSO::Initialize(::GlobalNamespace::ISaveData* saveData,
                                                              ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> defaultPerformancePreset) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveData, defaultPerformancePreset);
 }
 inline void GlobalNamespace::MainSettingsModelSO::Save(::GlobalNamespace::ISaveData* saveData) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Save", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Save", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveData);
 }
 inline void GlobalNamespace::MainSettingsModelSO::Load(::GlobalNamespace::ISaveData* saveData, bool forced) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Load", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Load", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveData, forced);
 }
 inline ::System::Threading::Tasks::Task* GlobalNamespace::MainSettingsModelSO::ForceApplyPerformancePresetAsync(::GlobalNamespace::__MainSettingsModelSO__Config* config) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "ForceApplyPerformancePresetAsync", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MainSettingsModelSO__Config*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "ForceApplyPerformancePresetAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MainSettingsModelSO__Config*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, config);
 }
 inline void GlobalNamespace::MainSettingsModelSO::__DeleteSettingsFiles() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
-                                                                             "__DeleteSettingsFiles", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "__DeleteSettingsFiles", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MainSettingsModelSO* GlobalNamespace::MainSettingsModelSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MainSettingsModelSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MainSettingsModelSO*>());
 }
 inline void GlobalNamespace::MainSettingsModelSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

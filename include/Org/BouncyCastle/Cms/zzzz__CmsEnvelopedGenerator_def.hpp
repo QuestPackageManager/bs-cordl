@@ -57,20 +57,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(617))
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedGenerator*
 class CORDL_TYPE CmsEnvelopedGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field recipientInfoGenerators, offset 0x10, size 0x8
-  __declspec(property(get = __get_recipientInfoGenerators, put = __set_recipientInfoGenerators))::System::Collections::IList* recipientInfoGenerators;
+  __declspec(property(get = __cordl_internal_get_recipientInfoGenerators, put = __cordl_internal_set_recipientInfoGenerators))::System::Collections::IList* recipientInfoGenerators;
 
   /// @brief Field rand, offset 0x18, size 0x8
-  __declspec(property(get = __get_rand, put = __set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
+  __declspec(property(get = __cordl_internal_get_rand, put = __cordl_internal_set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
 
   /// @brief Field unprotectedAttributeGenerator, offset 0x20, size 0x8
-  __declspec(property(get = __get_unprotectedAttributeGenerator, put = __set_unprotectedAttributeGenerator))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unprotectedAttributeGenerator;
+  __declspec(property(get = __cordl_internal_get_unprotectedAttributeGenerator,
+                      put = __cordl_internal_set_unprotectedAttributeGenerator))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unprotectedAttributeGenerator;
 
   /// @brief Field rc2Table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rc2Table, put = setStaticF_rc2Table))::ArrayW<int16_t, ::Array<int16_t>*> rc2Table;
@@ -134,23 +135,23 @@ public:
 
   __declspec(property(get = get_UnprotectedAttributeGenerator, put = set_UnprotectedAttributeGenerator))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* UnprotectedAttributeGenerator;
 
-  constexpr ::System::Collections::IList*& __get_recipientInfoGenerators();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_recipientInfoGenerators();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_recipientInfoGenerators() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_recipientInfoGenerators() const;
 
-  constexpr void __set_recipientInfoGenerators(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_recipientInfoGenerators(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_rand();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_rand();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_rand() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_rand() const;
 
-  constexpr void __set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __get_unprotectedAttributeGenerator();
+  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_unprotectedAttributeGenerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __get_unprotectedAttributeGenerator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_unprotectedAttributeGenerator() const;
 
-  constexpr void __set_unprotectedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
+  constexpr void __cordl_internal_set_unprotectedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
   static inline void setStaticF_rc2Table(::ArrayW<int16_t, ::Array<int16_t>*> value);
 

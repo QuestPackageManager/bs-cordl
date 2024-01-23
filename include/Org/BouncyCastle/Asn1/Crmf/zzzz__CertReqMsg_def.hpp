@@ -36,42 +36,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::CertReqMsg);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(105))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::CertReqMsg*
 class CORDL_TYPE CertReqMsg : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field certReq, offset 0x10, size 0x8
-  __declspec(property(get = __get_certReq, put = __set_certReq))::Org::BouncyCastle::Asn1::Crmf::CertRequest* certReq;
+  __declspec(property(get = __cordl_internal_get_certReq, put = __cordl_internal_set_certReq))::Org::BouncyCastle::Asn1::Crmf::CertRequest* certReq;
 
   /// @brief Field popo, offset 0x18, size 0x8
-  __declspec(property(get = __get_popo, put = __set_popo))::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* popo;
+  __declspec(property(get = __cordl_internal_get_popo, put = __cordl_internal_set_popo))::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* popo;
 
   /// @brief Field regInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_regInfo, put = __set_regInfo))::Org::BouncyCastle::Asn1::Asn1Sequence* regInfo;
+  __declspec(property(get = __cordl_internal_get_regInfo, put = __cordl_internal_set_regInfo))::Org::BouncyCastle::Asn1::Asn1Sequence* regInfo;
 
   __declspec(property(get = get_CertReq))::Org::BouncyCastle::Asn1::Crmf::CertRequest* CertReq;
 
   __declspec(property(get = get_Popo))::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* Popo;
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertRequest*& __get_certReq();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertRequest*& __cordl_internal_get_certReq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertRequest*> const& __get_certReq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertRequest*> const& __cordl_internal_get_certReq() const;
 
-  constexpr void __set_certReq(::Org::BouncyCastle::Asn1::Crmf::CertRequest* value);
+  constexpr void __cordl_internal_set_certReq(::Org::BouncyCastle::Asn1::Crmf::CertRequest* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession*& __get_popo();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession*& __cordl_internal_get_popo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession*> const& __get_popo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession*> const& __cordl_internal_get_popo() const;
 
-  constexpr void __set_popo(::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* value);
+  constexpr void __cordl_internal_set_popo(::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_regInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_regInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_regInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_regInfo() const;
 
-  constexpr void __set_regInfo(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_regInfo(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

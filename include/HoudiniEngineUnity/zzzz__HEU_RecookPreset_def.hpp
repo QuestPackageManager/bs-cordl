@@ -23,29 +23,30 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_RecookPreset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9613))
 // CS Name: ::HoudiniEngineUnity::HEU_RecookPreset*
 class CORDL_TYPE HEU_RecookPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _volumeCachePresets, offset 0x10, size 0x8
-  __declspec(property(get = __get__volumeCachePresets, put = __set__volumeCachePresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* _volumeCachePresets;
+  __declspec(property(get = __cordl_internal_get__volumeCachePresets,
+                      put = __cordl_internal_set__volumeCachePresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* _volumeCachePresets;
 
   /// @brief Field _inputPresets, offset 0x18, size 0x8
-  __declspec(property(get = __get__inputPresets, put = __set__inputPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* _inputPresets;
+  __declspec(property(get = __cordl_internal_get__inputPresets, put = __cordl_internal_set__inputPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* _inputPresets;
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& __get__volumeCachePresets();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& __cordl_internal_get__volumeCachePresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*> const& __get__volumeCachePresets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*> const& __cordl_internal_get__volumeCachePresets() const;
 
-  constexpr void __set__volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
+  constexpr void __cordl_internal_set__volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& __get__inputPresets();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& __cordl_internal_get__inputPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*> const& __get__inputPresets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*> const& __cordl_internal_get__inputPresets() const;
 
-  constexpr void __set__inputPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* value);
+  constexpr void __cordl_internal_set__inputPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* value);
 
   static inline ::HoudiniEngineUnity::HEU_RecookPreset* New_ctor();
 

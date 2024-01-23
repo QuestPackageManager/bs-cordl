@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ScriptableObject);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10210))
 // CS Name: ::UnityEngine::ScriptableObject*
 class CORDL_TYPE ScriptableObject : public ::UnityEngine::Object {
@@ -29,7 +29,7 @@ public:
   inline void _ctor();
 
   /// @brief Method CreateInstance, addr 0x2cd1930, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ScriptableObject* CreateInstance(::System::Type* type);
+  static inline ::UnityW<::UnityEngine::ScriptableObject> CreateInstance(::System::Type* type);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
@@ -38,7 +38,7 @@ public:
   static inline void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
 
   /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x2cd1970, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ScriptableObject* CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
+  static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -32,26 +32,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicKeyPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(582))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyPacket*
 class CORDL_TYPE PublicKeyPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field time, offset 0x18, size 0x8
-  __declspec(property(get = __get_time, put = __set_time)) int64_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) int64_t time;
 
   /// @brief Field validDays, offset 0x20, size 0x4
-  __declspec(property(get = __get_validDays, put = __set_validDays)) int32_t validDays;
+  __declspec(property(get = __cordl_internal_get_validDays, put = __cordl_internal_set_validDays)) int32_t validDays;
 
   /// @brief Field algorithm, offset 0x24, size 0x4
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm;
 
   /// @brief Field key, offset 0x28, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Bcpg::IBcpgKey* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Bcpg::IBcpgKey* key;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -61,35 +61,35 @@ public:
 
   __declspec(property(get = get_Key))::Org::BouncyCastle::Bcpg::IBcpgKey* Key;
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr int64_t& __get_time();
+  constexpr int64_t& __cordl_internal_get_time();
 
-  constexpr int64_t const& __get_time() const;
+  constexpr int64_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(int64_t value);
+  constexpr void __cordl_internal_set_time(int64_t value);
 
-  constexpr int32_t& __get_validDays();
+  constexpr int32_t& __cordl_internal_get_validDays();
 
-  constexpr int32_t const& __get_validDays() const;
+  constexpr int32_t const& __cordl_internal_get_validDays() const;
 
-  constexpr void __set_validDays(int32_t value);
+  constexpr void __cordl_internal_set_validDays(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_algorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __get_algorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey*& __get_key();
+  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::IBcpgKey*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::IBcpgKey*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Bcpg::IBcpgKey* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Bcpg::IBcpgKey* value);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

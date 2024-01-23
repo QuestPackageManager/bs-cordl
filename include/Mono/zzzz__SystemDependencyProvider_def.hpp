@@ -29,14 +29,15 @@ MARK_REF_PTR_T(::Mono::SystemDependencyProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8751))
 // CS Name: ::Mono::SystemDependencyProvider*
 class CORDL_TYPE SystemDependencyProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <CertificateProvider>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__CertificateProvider_k__BackingField, put = __set__CertificateProvider_k__BackingField))::Mono::SystemCertificateProvider* _CertificateProvider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CertificateProvider_k__BackingField,
+                      put = __cordl_internal_set__CertificateProvider_k__BackingField))::Mono::SystemCertificateProvider* _CertificateProvider_k__BackingField;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::Mono::SystemDependencyProvider* instance;
@@ -56,11 +57,11 @@ public:
   /// @brief Convert to "::Mono::ISystemDependencyProvider"
   constexpr ::Mono::ISystemDependencyProvider* i___Mono__ISystemDependencyProvider() noexcept;
 
-  constexpr ::Mono::SystemCertificateProvider*& __get__CertificateProvider_k__BackingField();
+  constexpr ::Mono::SystemCertificateProvider*& __cordl_internal_get__CertificateProvider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::SystemCertificateProvider*> const& __get__CertificateProvider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::SystemCertificateProvider*> const& __cordl_internal_get__CertificateProvider_k__BackingField() const;
 
-  constexpr void __set__CertificateProvider_k__BackingField(::Mono::SystemCertificateProvider* value);
+  constexpr void __cordl_internal_set__CertificateProvider_k__BackingField(::Mono::SystemCertificateProvider* value);
 
   static inline void setStaticF_instance(::Mono::SystemDependencyProvider* value);
 

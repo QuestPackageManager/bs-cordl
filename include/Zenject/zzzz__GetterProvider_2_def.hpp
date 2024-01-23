@@ -48,26 +48,26 @@ namespace Zenject {
 // cpp template
 template <typename TObj, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11193))
 // CS Name: ::Zenject::GetterProvider`2<TObj,TResult>*
 class CORDL_TYPE GetterProvider_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _identifier, offset 0x18, size 0x8
-  __declspec(property(get = __get__identifier, put = __set__identifier))::System::Object* _identifier;
+  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::System::Object* _identifier;
 
   /// @brief Field _method, offset 0x20, size 0x8
-  __declspec(property(get = __get__method, put = __set__method))::System::Func_2<TObj, TResult>* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_2<TObj, TResult>* _method;
 
   /// @brief Field _matchAll, offset 0x28, size 0x1
-  __declspec(property(get = __get__matchAll, put = __set__matchAll)) bool _matchAll;
+  __declspec(property(get = __cordl_internal_get__matchAll, put = __cordl_internal_set__matchAll)) bool _matchAll;
 
   /// @brief Field _sourceType, offset 0x2c, size 0x4
-  __declspec(property(get = __get__sourceType, put = __set__sourceType))::Zenject::InjectSources _sourceType;
+  __declspec(property(get = __cordl_internal_get__sourceType, put = __cordl_internal_set__sourceType))::Zenject::InjectSources _sourceType;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -79,35 +79,35 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Object*& __get__identifier();
+  constexpr ::System::Object*& __cordl_internal_get__identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__identifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identifier() const;
 
-  constexpr void __set__identifier(::System::Object* value);
+  constexpr void __cordl_internal_set__identifier(::System::Object* value);
 
-  constexpr ::System::Func_2<TObj, TResult>*& __get__method();
+  constexpr ::System::Func_2<TObj, TResult>*& __cordl_internal_get__method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObj, TResult>*> const& __get__method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObj, TResult>*> const& __cordl_internal_get__method() const;
 
-  constexpr void __set__method(::System::Func_2<TObj, TResult>* value);
+  constexpr void __cordl_internal_set__method(::System::Func_2<TObj, TResult>* value);
 
-  constexpr bool& __get__matchAll();
+  constexpr bool& __cordl_internal_get__matchAll();
 
-  constexpr bool const& __get__matchAll() const;
+  constexpr bool const& __cordl_internal_get__matchAll() const;
 
-  constexpr void __set__matchAll(bool value);
+  constexpr void __cordl_internal_set__matchAll(bool value);
 
-  constexpr ::Zenject::InjectSources& __get__sourceType();
+  constexpr ::Zenject::InjectSources& __cordl_internal_get__sourceType();
 
-  constexpr ::Zenject::InjectSources const& __get__sourceType() const;
+  constexpr ::Zenject::InjectSources const& __cordl_internal_get__sourceType() const;
 
-  constexpr void __set__sourceType(::Zenject::InjectSources value);
+  constexpr void __cordl_internal_set__sourceType(::Zenject::InjectSources value);
 
   static inline ::Zenject::GetterProvider_2<TObj, TResult>* New_ctor(::System::Object* identifier, ::System::Func_2<TObj, TResult>* method, ::Zenject::DiContainer* container,
                                                                      ::Zenject::InjectSources sourceType, bool matchAll);

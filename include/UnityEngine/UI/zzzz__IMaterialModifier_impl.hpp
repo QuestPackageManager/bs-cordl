@@ -4,22 +4,22 @@
 //  Writing Method size for method: ::UnityEngine::UI::IMaterialModifier.GetModifiedMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (::UnityEngine::UI::IMaterialModifier::*)(::UnityEngine::Material*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::UI::IMaterialModifier::*)(::UnityEngine::Material*)>(
     &::UnityEngine::UI::IMaterialModifier::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::IMaterialModifier*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::IMaterialModifier*>::get(), 0));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Material* UnityEngine::UI::IMaterialModifier::GetModifiedMaterial(::UnityEngine::Material* baseMaterial) {
+inline ::UnityW<::UnityEngine::Material> UnityEngine::UI::IMaterialModifier::GetModifiedMaterial(::UnityEngine::Material* baseMaterial) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::IMaterialModifier*>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Material*, false>(this, ___internal_method, baseMaterial);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(this, ___internal_method, baseMaterial);
 }
 #ifndef CORDL_NO_IMPL_INCLUDE
 #endif

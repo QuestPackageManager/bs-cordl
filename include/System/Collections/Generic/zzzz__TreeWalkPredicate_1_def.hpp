@@ -23,7 +23,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9543))
 // CS Name: ::System.Collections.Generic::TreeWalkPredicate`1<T>*
 class CORDL_TYPE TreeWalkPredicate_1 : public ::System::MulticastDelegate {

@@ -25,24 +25,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::LazyDerSet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(491))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(491))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(526))
 // CS Name: ::Org.BouncyCastle.Asn1::LazyDerSet*
 class CORDL_TYPE LazyDerSet : public ::Org::BouncyCastle::Asn1::DerSet {
 public:
   // Declarations
   /// @brief Field encoded, offset 0x18, size 0x8
-  __declspec(property(get = __get_encoded, put = __set_encoded))::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
+  __declspec(property(get = __cordl_internal_get_encoded, put = __cordl_internal_set_encoded))::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
 
   __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_encoded();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encoded();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_encoded() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoded() const;
 
-  constexpr void __set_encoded(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_encoded(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Asn1::LazyDerSet* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 

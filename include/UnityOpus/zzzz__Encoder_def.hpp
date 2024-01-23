@@ -35,28 +35,28 @@ MARK_REF_PTR_T(::UnityOpus::Encoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(16217)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16215))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16213)) CS Name: ::UnityOpus::Encoder*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16215)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16217))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16213)) CS Name: ::UnityOpus::Encoder*
 class CORDL_TYPE Encoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bitrate, offset 0x10, size 0x4
-  __declspec(property(get = __get_bitrate, put = __set_bitrate)) int32_t bitrate;
+  __declspec(property(get = __cordl_internal_get_bitrate, put = __cordl_internal_set_bitrate)) int32_t bitrate;
 
   /// @brief Field complexity, offset 0x14, size 0x4
-  __declspec(property(get = __get_complexity, put = __set_complexity)) int32_t complexity;
+  __declspec(property(get = __cordl_internal_get_complexity, put = __cordl_internal_set_complexity)) int32_t complexity;
 
   /// @brief Field signal, offset 0x18, size 0x4
-  __declspec(property(get = __get_signal, put = __set_signal))::UnityOpus::OpusSignal signal;
+  __declspec(property(get = __cordl_internal_get_signal, put = __cordl_internal_set_signal))::UnityOpus::OpusSignal signal;
 
   /// @brief Field encoder, offset 0x20, size 0x8
-  __declspec(property(get = __get_encoder, put = __set_encoder)) void* encoder;
+  __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder)) void* encoder;
 
   /// @brief Field channels, offset 0x28, size 0x4
-  __declspec(property(get = __get_channels, put = __set_channels))::UnityOpus::NumChannels channels;
+  __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels))::UnityOpus::NumChannels channels;
 
   /// @brief Field disposedValue, offset 0x2c, size 0x1
-  __declspec(property(get = __get_disposedValue, put = __set_disposedValue)) bool disposedValue;
+  __declspec(property(get = __cordl_internal_get_disposedValue, put = __cordl_internal_set_disposedValue)) bool disposedValue;
 
   __declspec(property(get = get_Bitrate, put = set_Bitrate)) int32_t Bitrate;
 
@@ -70,41 +70,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_bitrate();
+  constexpr int32_t& __cordl_internal_get_bitrate();
 
-  constexpr int32_t const& __get_bitrate() const;
+  constexpr int32_t const& __cordl_internal_get_bitrate() const;
 
-  constexpr void __set_bitrate(int32_t value);
+  constexpr void __cordl_internal_set_bitrate(int32_t value);
 
-  constexpr int32_t& __get_complexity();
+  constexpr int32_t& __cordl_internal_get_complexity();
 
-  constexpr int32_t const& __get_complexity() const;
+  constexpr int32_t const& __cordl_internal_get_complexity() const;
 
-  constexpr void __set_complexity(int32_t value);
+  constexpr void __cordl_internal_set_complexity(int32_t value);
 
-  constexpr ::UnityOpus::OpusSignal& __get_signal();
+  constexpr ::UnityOpus::OpusSignal& __cordl_internal_get_signal();
 
-  constexpr ::UnityOpus::OpusSignal const& __get_signal() const;
+  constexpr ::UnityOpus::OpusSignal const& __cordl_internal_get_signal() const;
 
-  constexpr void __set_signal(::UnityOpus::OpusSignal value);
+  constexpr void __cordl_internal_set_signal(::UnityOpus::OpusSignal value);
 
-  constexpr void*& __get_encoder();
+  constexpr void*& __cordl_internal_get_encoder();
 
-  constexpr void* const& __get_encoder() const;
+  constexpr void* const& __cordl_internal_get_encoder() const;
 
-  constexpr void __set_encoder(void* value);
+  constexpr void __cordl_internal_set_encoder(void* value);
 
-  constexpr ::UnityOpus::NumChannels& __get_channels();
+  constexpr ::UnityOpus::NumChannels& __cordl_internal_get_channels();
 
-  constexpr ::UnityOpus::NumChannels const& __get_channels() const;
+  constexpr ::UnityOpus::NumChannels const& __cordl_internal_get_channels() const;
 
-  constexpr void __set_channels(::UnityOpus::NumChannels value);
+  constexpr void __cordl_internal_set_channels(::UnityOpus::NumChannels value);
 
-  constexpr bool& __get_disposedValue();
+  constexpr bool& __cordl_internal_get_disposedValue();
 
-  constexpr bool const& __get_disposedValue() const;
+  constexpr bool const& __cordl_internal_get_disposedValue() const;
 
-  constexpr void __set_disposedValue(bool value);
+  constexpr void __cordl_internal_set_disposedValue(bool value);
 
   /// @brief Method get_Bitrate, addr 0x21f7710, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Bitrate();

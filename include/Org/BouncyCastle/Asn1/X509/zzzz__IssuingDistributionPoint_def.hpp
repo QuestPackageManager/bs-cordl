@@ -36,32 +36,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(367))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::IssuingDistributionPoint*
 class CORDL_TYPE IssuingDistributionPoint : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field _distributionPoint, offset 0x10, size 0x8
-  __declspec(property(get = __get__distributionPoint, put = __set__distributionPoint))::Org::BouncyCastle::Asn1::X509::DistributionPointName* _distributionPoint;
+  __declspec(property(get = __cordl_internal_get__distributionPoint, put = __cordl_internal_set__distributionPoint))::Org::BouncyCastle::Asn1::X509::DistributionPointName* _distributionPoint;
 
   /// @brief Field _onlyContainsUserCerts, offset 0x18, size 0x1
-  __declspec(property(get = __get__onlyContainsUserCerts, put = __set__onlyContainsUserCerts)) bool _onlyContainsUserCerts;
+  __declspec(property(get = __cordl_internal_get__onlyContainsUserCerts, put = __cordl_internal_set__onlyContainsUserCerts)) bool _onlyContainsUserCerts;
 
   /// @brief Field _onlyContainsCACerts, offset 0x19, size 0x1
-  __declspec(property(get = __get__onlyContainsCACerts, put = __set__onlyContainsCACerts)) bool _onlyContainsCACerts;
+  __declspec(property(get = __cordl_internal_get__onlyContainsCACerts, put = __cordl_internal_set__onlyContainsCACerts)) bool _onlyContainsCACerts;
 
   /// @brief Field _onlySomeReasons, offset 0x20, size 0x8
-  __declspec(property(get = __get__onlySomeReasons, put = __set__onlySomeReasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* _onlySomeReasons;
+  __declspec(property(get = __cordl_internal_get__onlySomeReasons, put = __cordl_internal_set__onlySomeReasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* _onlySomeReasons;
 
   /// @brief Field _indirectCRL, offset 0x28, size 0x1
-  __declspec(property(get = __get__indirectCRL, put = __set__indirectCRL)) bool _indirectCRL;
+  __declspec(property(get = __cordl_internal_get__indirectCRL, put = __cordl_internal_set__indirectCRL)) bool _indirectCRL;
 
   /// @brief Field _onlyContainsAttributeCerts, offset 0x29, size 0x1
-  __declspec(property(get = __get__onlyContainsAttributeCerts, put = __set__onlyContainsAttributeCerts)) bool _onlyContainsAttributeCerts;
+  __declspec(property(get = __cordl_internal_get__onlyContainsAttributeCerts, put = __cordl_internal_set__onlyContainsAttributeCerts)) bool _onlyContainsAttributeCerts;
 
   /// @brief Field seq, offset 0x30, size 0x8
-  __declspec(property(get = __get_seq, put = __set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
   __declspec(property(get = get_OnlyContainsUserCerts)) bool OnlyContainsUserCerts;
 
@@ -75,47 +75,47 @@ public:
 
   __declspec(property(get = get_OnlySomeReasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* OnlySomeReasons;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& __get__distributionPoint();
+  constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& __cordl_internal_get__distributionPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const& __get__distributionPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const& __cordl_internal_get__distributionPoint() const;
 
-  constexpr void __set__distributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
+  constexpr void __cordl_internal_set__distributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
 
-  constexpr bool& __get__onlyContainsUserCerts();
+  constexpr bool& __cordl_internal_get__onlyContainsUserCerts();
 
-  constexpr bool const& __get__onlyContainsUserCerts() const;
+  constexpr bool const& __cordl_internal_get__onlyContainsUserCerts() const;
 
-  constexpr void __set__onlyContainsUserCerts(bool value);
+  constexpr void __cordl_internal_set__onlyContainsUserCerts(bool value);
 
-  constexpr bool& __get__onlyContainsCACerts();
+  constexpr bool& __cordl_internal_get__onlyContainsCACerts();
 
-  constexpr bool const& __get__onlyContainsCACerts() const;
+  constexpr bool const& __cordl_internal_get__onlyContainsCACerts() const;
 
-  constexpr void __set__onlyContainsCACerts(bool value);
+  constexpr void __cordl_internal_set__onlyContainsCACerts(bool value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& __get__onlySomeReasons();
+  constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& __cordl_internal_get__onlySomeReasons();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& __get__onlySomeReasons() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& __cordl_internal_get__onlySomeReasons() const;
 
-  constexpr void __set__onlySomeReasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
+  constexpr void __cordl_internal_set__onlySomeReasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
 
-  constexpr bool& __get__indirectCRL();
+  constexpr bool& __cordl_internal_get__indirectCRL();
 
-  constexpr bool const& __get__indirectCRL() const;
+  constexpr bool const& __cordl_internal_get__indirectCRL() const;
 
-  constexpr void __set__indirectCRL(bool value);
+  constexpr void __cordl_internal_set__indirectCRL(bool value);
 
-  constexpr bool& __get__onlyContainsAttributeCerts();
+  constexpr bool& __cordl_internal_get__onlyContainsAttributeCerts();
 
-  constexpr bool const& __get__onlyContainsAttributeCerts() const;
+  constexpr bool const& __cordl_internal_get__onlyContainsAttributeCerts() const;
 
-  constexpr void __set__onlyContainsAttributeCerts(bool value);
+  constexpr void __cordl_internal_set__onlyContainsAttributeCerts(bool value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_seq();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_seq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_seq() const;
 
-  constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0x119143c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

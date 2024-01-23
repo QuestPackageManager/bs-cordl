@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AppInitSetupData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15393))
 // CS Name: ::AppInitSetupData::RunMode
 struct CORDL_TYPE __AppInitSetupData__RunMode {
@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInitSetupData__RunMode, value__) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15393))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15394))
 // CS Name: ::AppInitSetupData*
 class CORDL_TYPE AppInitSetupData : public ::System::Object {
@@ -83,13 +83,13 @@ public:
   using RunMode = ::GlobalNamespace::__AppInitSetupData__RunMode;
 
   /// @brief Field runMode, offset 0x10, size 0x4
-  __declspec(property(get = __get_runMode, put = __set_runMode))::GlobalNamespace::__AppInitSetupData__RunMode runMode;
+  __declspec(property(get = __cordl_internal_get_runMode, put = __cordl_internal_set_runMode))::GlobalNamespace::__AppInitSetupData__RunMode runMode;
 
-  constexpr ::GlobalNamespace::__AppInitSetupData__RunMode& __get_runMode();
+  constexpr ::GlobalNamespace::__AppInitSetupData__RunMode& __cordl_internal_get_runMode();
 
-  constexpr ::GlobalNamespace::__AppInitSetupData__RunMode const& __get_runMode() const;
+  constexpr ::GlobalNamespace::__AppInitSetupData__RunMode const& __cordl_internal_get_runMode() const;
 
-  constexpr void __set_runMode(::GlobalNamespace::__AppInitSetupData__RunMode value);
+  constexpr void __cordl_internal_set_runMode(::GlobalNamespace::__AppInitSetupData__RunMode value);
 
   static inline ::GlobalNamespace::AppInitSetupData* New_ctor();
 

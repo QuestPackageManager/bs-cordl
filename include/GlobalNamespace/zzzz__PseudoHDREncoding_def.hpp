@@ -20,21 +20,21 @@ MARK_REF_PTR_T(::GlobalNamespace::PseudoHDREncoding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5864))
 // CS Name: ::PseudoHDREncoding*
 class CORDL_TYPE PseudoHDREncoding : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _material, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityEngine::Material* _material;
+  static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityW<::UnityEngine::Material> _material;
 
-  static inline void setStaticF__material(::UnityEngine::Material* value);
+  static inline void setStaticF__material(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF__material();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
 
   /// @brief Method CreatePseudoHDREncodedTexture, addr 0x22f8108, size 0x1f0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
+  static inline ::UnityW<::UnityEngine::RenderTexture> CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
 
   // Ctor Parameters [CppParam { name: "", ty: "PseudoHDREncoding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

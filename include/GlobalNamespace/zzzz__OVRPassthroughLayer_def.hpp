@@ -191,7 +191,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRPassthroughLayer__Settings);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7661))
 // CS Name: ::OVRPassthroughLayer::ProjectionSurfaceType
 struct CORDL_TYPE __OVRPassthroughLayer__ProjectionSurfaceType {
@@ -241,7 +241,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfa
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7662))
 // CS Name: ::OVRPassthroughLayer::ColorMapEditorType
 struct CORDL_TYPE __OVRPassthroughLayer__ColorMapEditorType {
@@ -315,7 +315,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorT
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7663))
 // CS Name: ::OVRPassthroughLayer::Settings
 struct CORDL_TYPE __OVRPassthroughLayer__Settings {
@@ -325,23 +325,23 @@ public:
   inline void _ctor(::UnityEngine::Texture2D* colorLutTargetTexture, ::UnityEngine::Texture2D* colorLutSourceTexture, float_t saturation, float_t posterize, float_t brightness, float_t contrast,
                     ::UnityEngine::Gradient* gradient, float_t lutWeight, bool flipLutY);
 
-  // Ctor Parameters [CppParam { name: "colorLutTargetTexture", ty: "::UnityEngine::Texture2D*", modifiers: "", def_value: None }, CppParam { name: "colorLutSourceTexture", ty:
-  // "::UnityEngine::Texture2D*", modifiers: "", def_value: None }, CppParam { name: "saturation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "posterize", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "contrast", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "gradient", ty: "::UnityEngine::Gradient*", modifiers: "", def_value: None }, CppParam { name: "lutWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "flipLutY", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __OVRPassthroughLayer__Settings(::UnityEngine::Texture2D* colorLutTargetTexture, ::UnityEngine::Texture2D* colorLutSourceTexture, float_t saturation, float_t posterize, float_t brightness,
-                                            float_t contrast, ::UnityEngine::Gradient* gradient, float_t lutWeight, bool flipLutY) noexcept;
+  // Ctor Parameters [CppParam { name: "colorLutTargetTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "colorLutSourceTexture", ty:
+  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "saturation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "posterize", ty:
+  // "float_t", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "contrast", ty: "float_t", modifiers: "", def_value:
+  // None }, CppParam { name: "gradient", ty: "::UnityEngine::Gradient*", modifiers: "", def_value: None }, CppParam { name: "lutWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam {
+  // name: "flipLutY", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __OVRPassthroughLayer__Settings(::UnityW<::UnityEngine::Texture2D> colorLutTargetTexture, ::UnityW<::UnityEngine::Texture2D> colorLutSourceTexture, float_t saturation, float_t posterize,
+                                            float_t brightness, float_t contrast, ::UnityEngine::Gradient* gradient, float_t lutWeight, bool flipLutY) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRPassthroughLayer__Settings();
 
   /// @brief Field colorLutTargetTexture, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* colorLutTargetTexture;
+  ::UnityW<::UnityEngine::Texture2D> colorLutTargetTexture;
 
   /// @brief Field colorLutSourceTexture, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* colorLutSourceTexture;
+  ::UnityW<::UnityEngine::Texture2D> colorLutSourceTexture;
 
   /// @brief Field saturation, offset: 0x10, size: 0x4, def value: None
   float_t saturation;
@@ -395,7 +395,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__Settings, flipL
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10245))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7664))
 // CS Name: ::OVRPassthroughLayer::PassthroughMeshInstance
 struct CORDL_TYPE __OVRPassthroughLayer__PassthroughMeshInstance {
@@ -442,22 +442,22 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__PassthroughMesh
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7665))
 // CS Name: ::OVRPassthroughLayer::SerializedSurfaceGeometry
 struct CORDL_TYPE __OVRPassthroughLayer__SerializedSurfaceGeometry {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "meshFilter", ty: "::UnityEngine::MeshFilter*", modifiers: "", def_value: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "", def_value: None
-  // }]
-  constexpr __OVRPassthroughLayer__SerializedSurfaceGeometry(::UnityEngine::MeshFilter* meshFilter, bool updateTransform) noexcept;
+  // Ctor Parameters [CppParam { name: "meshFilter", ty: "::UnityW<::UnityEngine::MeshFilter>", modifiers: "", def_value: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "",
+  // def_value: None }]
+  constexpr __OVRPassthroughLayer__SerializedSurfaceGeometry(::UnityW<::UnityEngine::MeshFilter> meshFilter, bool updateTransform) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRPassthroughLayer__SerializedSurfaceGeometry();
 
   /// @brief Field meshFilter, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> meshFilter;
 
   /// @brief Field updateTransform, offset: 0x8, size: 0x1, def value: None
   bool updateTransform;
@@ -479,22 +479,22 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7666))
 // CS Name: ::OVRPassthroughLayer::DeferredPassthroughMeshAddition
 struct CORDL_TYPE __OVRPassthroughLayer__DeferredPassthroughMeshAddition {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityEngine::GameObject*", modifiers: "", def_value: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "", def_value: None
-  // }]
-  constexpr __OVRPassthroughLayer__DeferredPassthroughMeshAddition(::UnityEngine::GameObject* gameObject, bool updateTransform) noexcept;
+  // Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "",
+  // def_value: None }]
+  constexpr __OVRPassthroughLayer__DeferredPassthroughMeshAddition(::UnityW<::UnityEngine::GameObject> gameObject, bool updateTransform) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRPassthroughLayer__DeferredPassthroughMeshAddition();
 
   /// @brief Field gameObject, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::GameObject* gameObject;
+  ::UnityW<::UnityEngine::GameObject> gameObject;
 
   /// @brief Field updateTransform, offset: 0x8, size: 0x1, def value: None
   bool updateTransform;
@@ -516,7 +516,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthr
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7667))
 // CS Name: ::OVRPassthroughLayer::IStyleHandler*
 class CORDL_TYPE __OVRPassthroughLayer__IStyleHandler {
@@ -552,92 +552,95 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7668))
 // CS Name: ::OVRPassthroughLayer::StylesHandler*
 class CORDL_TYPE __OVRPassthroughLayer__StylesHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _noneHandler, offset 0x10, size 0x8
-  __declspec(property(get = __get__noneHandler, put = __set__noneHandler))::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* _noneHandler;
+  __declspec(property(get = __cordl_internal_get__noneHandler, put = __cordl_internal_set__noneHandler))::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* _noneHandler;
 
   /// @brief Field _lutHandler, offset 0x18, size 0x8
-  __declspec(property(get = __get__lutHandler, put = __set__lutHandler))::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* _lutHandler;
+  __declspec(property(get = __cordl_internal_get__lutHandler, put = __cordl_internal_set__lutHandler))::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* _lutHandler;
 
   /// @brief Field _interpolatedLutHandler, offset 0x20, size 0x8
-  __declspec(property(get = __get__interpolatedLutHandler, put = __set__interpolatedLutHandler))::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* _interpolatedLutHandler;
+  __declspec(property(get = __cordl_internal_get__interpolatedLutHandler,
+                      put = __cordl_internal_set__interpolatedLutHandler))::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* _interpolatedLutHandler;
 
   /// @brief Field _monoToRgbaHandler, offset 0x28, size 0x8
-  __declspec(property(get = __get__monoToRgbaHandler, put = __set__monoToRgbaHandler))::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* _monoToRgbaHandler;
+  __declspec(property(get = __cordl_internal_get__monoToRgbaHandler,
+                      put = __cordl_internal_set__monoToRgbaHandler))::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* _monoToRgbaHandler;
 
   /// @brief Field _monoToMonoHandler, offset 0x30, size 0x8
-  __declspec(property(get = __get__monoToMonoHandler, put = __set__monoToMonoHandler))::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* _monoToMonoHandler;
+  __declspec(property(get = __cordl_internal_get__monoToMonoHandler,
+                      put = __cordl_internal_set__monoToMonoHandler))::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* _monoToMonoHandler;
 
   /// @brief Field _bcsHandler, offset 0x38, size 0x8
-  __declspec(property(get = __get__bcsHandler, put = __set__bcsHandler))::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* _bcsHandler;
+  __declspec(property(get = __cordl_internal_get__bcsHandler, put = __cordl_internal_set__bcsHandler))::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* _bcsHandler;
 
   /// @brief Field _colorMapDataHandle, offset 0x40, size 0x8
-  __declspec(property(get = __get__colorMapDataHandle, put = __set__colorMapDataHandle))::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
+  __declspec(property(get = __cordl_internal_get__colorMapDataHandle, put = __cordl_internal_set__colorMapDataHandle))::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
 
   /// @brief Field _colorMapData, offset 0x48, size 0x8
-  __declspec(property(get = __get__colorMapData, put = __set__colorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
+  __declspec(property(get = __cordl_internal_get__colorMapData, put = __cordl_internal_set__colorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
 
   /// @brief Field CurrentStyleHandler, offset 0x50, size 0x8
-  __declspec(property(get = __get_CurrentStyleHandler, put = __set_CurrentStyleHandler))::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* CurrentStyleHandler;
+  __declspec(property(get = __cordl_internal_get_CurrentStyleHandler, put = __cordl_internal_set_CurrentStyleHandler))::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* CurrentStyleHandler;
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler*& __get__noneHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler*& __cordl_internal_get__noneHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler*> const& __get__noneHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler*> const& __cordl_internal_get__noneHandler() const;
 
-  constexpr void __set__noneHandler(::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* value);
+  constexpr void __cordl_internal_set__noneHandler(::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler*& __get__lutHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler*& __cordl_internal_get__lutHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler*> const& __get__lutHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler*> const& __cordl_internal_get__lutHandler() const;
 
-  constexpr void __set__lutHandler(::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* value);
+  constexpr void __cordl_internal_set__lutHandler(::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler*& __get__interpolatedLutHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler*& __cordl_internal_get__interpolatedLutHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler*> const& __get__interpolatedLutHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler*> const& __cordl_internal_get__interpolatedLutHandler() const;
 
-  constexpr void __set__interpolatedLutHandler(::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* value);
+  constexpr void __cordl_internal_set__interpolatedLutHandler(::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler*& __get__monoToRgbaHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler*& __cordl_internal_get__monoToRgbaHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler*> const& __get__monoToRgbaHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler*> const& __cordl_internal_get__monoToRgbaHandler() const;
 
-  constexpr void __set__monoToRgbaHandler(::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* value);
+  constexpr void __cordl_internal_set__monoToRgbaHandler(::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler*& __get__monoToMonoHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler*& __cordl_internal_get__monoToMonoHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler*> const& __get__monoToMonoHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler*> const& __cordl_internal_get__monoToMonoHandler() const;
 
-  constexpr void __set__monoToMonoHandler(::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* value);
+  constexpr void __cordl_internal_set__monoToMonoHandler(::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler*& __get__bcsHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler*& __cordl_internal_get__bcsHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler*> const& __get__bcsHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler*> const& __cordl_internal_get__bcsHandler() const;
 
-  constexpr void __set__bcsHandler(::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* value);
+  constexpr void __cordl_internal_set__bcsHandler(::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* value);
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get__colorMapDataHandle();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get__colorMapDataHandle();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get__colorMapDataHandle() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get__colorMapDataHandle() const;
 
-  constexpr void __set__colorMapDataHandle(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set__colorMapDataHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__colorMapData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__colorMapData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__colorMapData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__colorMapData() const;
 
-  constexpr void __set__colorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__colorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*& __get_CurrentStyleHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*& __cordl_internal_get_CurrentStyleHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*> const& __get_CurrentStyleHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*> const& __cordl_internal_get_CurrentStyleHandler() const;
 
-  constexpr void __set_CurrentStyleHandler(::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* value);
+  constexpr void __cordl_internal_set_CurrentStyleHandler(::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* value);
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* New_ctor();
 
@@ -731,7 +734,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__StylesHandler, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7669))
 // CS Name: ::OVRPassthroughLayer::NoneStyleHandler*
 class CORDL_TYPE __OVRPassthroughLayer__NoneStyleHandler : public ::System::Object {
@@ -786,17 +789,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7670))
 // CS Name: ::OVRPassthroughLayer::BaseGeneratedStyleHandler*
 class CORDL_TYPE __OVRPassthroughLayer__BaseGeneratedStyleHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _colorMapDataHandle, offset 0x10, size 0x8
-  __declspec(property(get = __get__colorMapDataHandle, put = __set__colorMapDataHandle))::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
+  __declspec(property(get = __cordl_internal_get__colorMapDataHandle, put = __cordl_internal_set__colorMapDataHandle))::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
 
   /// @brief Field _colorMapData, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorMapData, put = __set__colorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
+  __declspec(property(get = __cordl_internal_get__colorMapData, put = __cordl_internal_set__colorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
 
   __declspec(property(get = get_MapSize)) uint32_t MapSize;
 
@@ -808,17 +811,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* i___GlobalNamespace____OVRPassthroughLayer__IStyleHandler() noexcept;
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get__colorMapDataHandle();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get__colorMapDataHandle();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get__colorMapDataHandle() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get__colorMapDataHandle() const;
 
-  constexpr void __set__colorMapDataHandle(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set__colorMapDataHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__colorMapData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__colorMapData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__colorMapData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__colorMapData() const;
 
-  constexpr void __set__colorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__colorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_MapSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint32_t get_MapSize();
@@ -890,22 +893,22 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedSt
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7670))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7670))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7671))
 // CS Name: ::OVRPassthroughLayer::MonoToRgbaStyleHandler*
 class CORDL_TYPE __OVRPassthroughLayer__MonoToRgbaStyleHandler : public ::GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler {
 public:
   // Declarations
   /// @brief Field _tmpColorMapData, offset 0x20, size 0x8
-  __declspec(property(get = __get__tmpColorMapData, put = __set__tmpColorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _tmpColorMapData;
+  __declspec(property(get = __cordl_internal_get__tmpColorMapData, put = __cordl_internal_set__tmpColorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _tmpColorMapData;
 
   __declspec(property(get = get_MapSize)) uint32_t MapSize;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__tmpColorMapData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__tmpColorMapData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__tmpColorMapData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__tmpColorMapData() const;
 
-  constexpr void __set__tmpColorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__tmpColorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_MapSize, addr 0x27528b8, size 0x8, virtual true, abstract: false, final false
   inline uint32_t get_MapSize();
@@ -957,7 +960,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyle
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7670))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7670))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7672))
 // CS Name: ::OVRPassthroughLayer::MonoToMonoStyleHandler*
 class CORDL_TYPE __OVRPassthroughLayer__MonoToMonoStyleHandler : public ::GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler {
@@ -1004,7 +1007,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7670))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7670))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7673))
 // CS Name: ::OVRPassthroughLayer::BCSStyleHandler*
 class CORDL_TYPE __OVRPassthroughLayer__BCSStyleHandler : public ::GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler {
@@ -1048,26 +1051,27 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7674))
 // CS Name: ::OVRPassthroughLayer::ColorLutHandler*
 class CORDL_TYPE __OVRPassthroughLayer__ColorLutHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _currentFlipLutY, offset 0x10, size 0x1
-  __declspec(property(get = __get__currentFlipLutY, put = __set__currentFlipLutY)) bool _currentFlipLutY;
+  __declspec(property(get = __cordl_internal_get__currentFlipLutY, put = __cordl_internal_set__currentFlipLutY)) bool _currentFlipLutY;
 
   /// @brief Field _currentColorLutSourceTexture, offset 0x18, size 0x8
-  __declspec(property(get = __get__currentColorLutSourceTexture, put = __set__currentColorLutSourceTexture))::UnityEngine::Texture2D* _currentColorLutSourceTexture;
+  __declspec(property(get = __cordl_internal_get__currentColorLutSourceTexture,
+                      put = __cordl_internal_set__currentColorLutSourceTexture))::UnityW<::UnityEngine::Texture2D> _currentColorLutSourceTexture;
 
   /// @brief Field <Lut>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Lut_k__BackingField, put = __set__Lut_k__BackingField))::GlobalNamespace::OVRPassthroughColorLut* _Lut_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Lut_k__BackingField, put = __cordl_internal_set__Lut_k__BackingField))::GlobalNamespace::OVRPassthroughColorLut* _Lut_k__BackingField;
 
   /// @brief Field <Weight>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__Weight_k__BackingField, put = __set__Weight_k__BackingField)) float_t _Weight_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Weight_k__BackingField, put = __cordl_internal_set__Weight_k__BackingField)) float_t _Weight_k__BackingField;
 
   /// @brief Field <IsValid>k__BackingField, offset 0x2c, size 0x1
-  __declspec(property(get = __get__IsValid_k__BackingField, put = __set__IsValid_k__BackingField)) bool _IsValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsValid_k__BackingField, put = __cordl_internal_set__IsValid_k__BackingField)) bool _IsValid_k__BackingField;
 
   __declspec(property(get = get_Lut, put = set_Lut))::GlobalNamespace::OVRPassthroughColorLut* Lut;
 
@@ -1081,35 +1085,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* i___GlobalNamespace____OVRPassthroughLayer__IStyleHandler() noexcept;
 
-  constexpr bool& __get__currentFlipLutY();
+  constexpr bool& __cordl_internal_get__currentFlipLutY();
 
-  constexpr bool const& __get__currentFlipLutY() const;
+  constexpr bool const& __cordl_internal_get__currentFlipLutY() const;
 
-  constexpr void __set__currentFlipLutY(bool value);
+  constexpr void __cordl_internal_set__currentFlipLutY(bool value);
 
-  constexpr ::UnityEngine::Texture2D*& __get__currentColorLutSourceTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__currentColorLutSourceTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__currentColorLutSourceTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__currentColorLutSourceTexture() const;
 
-  constexpr void __set__currentColorLutSourceTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__currentColorLutSourceTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr ::GlobalNamespace::OVRPassthroughColorLut*& __get__Lut_k__BackingField();
+  constexpr ::GlobalNamespace::OVRPassthroughColorLut*& __cordl_internal_get__Lut_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRPassthroughColorLut*> const& __get__Lut_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRPassthroughColorLut*> const& __cordl_internal_get__Lut_k__BackingField() const;
 
-  constexpr void __set__Lut_k__BackingField(::GlobalNamespace::OVRPassthroughColorLut* value);
+  constexpr void __cordl_internal_set__Lut_k__BackingField(::GlobalNamespace::OVRPassthroughColorLut* value);
 
-  constexpr float_t& __get__Weight_k__BackingField();
+  constexpr float_t& __cordl_internal_get__Weight_k__BackingField();
 
-  constexpr float_t const& __get__Weight_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__Weight_k__BackingField() const;
 
-  constexpr void __set__Weight_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__Weight_k__BackingField(float_t value);
 
-  constexpr bool& __get__IsValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsValid_k__BackingField();
 
-  constexpr bool const& __get__IsValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsValid_k__BackingField() const;
 
-  constexpr void __set__IsValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsValid_k__BackingField(bool value);
 
   /// @brief Method get_Lut, addr 0x2752ad0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut* get_Lut();
@@ -1168,7 +1172,7 @@ public:
   bool ____currentFlipLutY;
 
   /// @brief Field _currentColorLutSourceTexture, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____currentColorLutSourceTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____currentColorLutSourceTexture;
 
   /// @brief Field <Lut>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRPassthroughColorLut* ____Lut_k__BackingField;
@@ -1199,31 +1203,33 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7674))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7674))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7675))
 // CS Name: ::OVRPassthroughLayer::InterpolatedColorLutHandler*
 class CORDL_TYPE __OVRPassthroughLayer__InterpolatedColorLutHandler : public ::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler {
 public:
   // Declarations
   /// @brief Field _currentColorLutTargetTexture, offset 0x30, size 0x8
-  __declspec(property(get = __get__currentColorLutTargetTexture, put = __set__currentColorLutTargetTexture))::UnityEngine::Texture2D* _currentColorLutTargetTexture;
+  __declspec(property(get = __cordl_internal_get__currentColorLutTargetTexture,
+                      put = __cordl_internal_set__currentColorLutTargetTexture))::UnityW<::UnityEngine::Texture2D> _currentColorLutTargetTexture;
 
   /// @brief Field <LutTarget>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__LutTarget_k__BackingField, put = __set__LutTarget_k__BackingField))::GlobalNamespace::OVRPassthroughColorLut* _LutTarget_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LutTarget_k__BackingField,
+                      put = __cordl_internal_set__LutTarget_k__BackingField))::GlobalNamespace::OVRPassthroughColorLut* _LutTarget_k__BackingField;
 
   __declspec(property(get = get_LutTarget, put = set_LutTarget))::GlobalNamespace::OVRPassthroughColorLut* LutTarget;
 
-  constexpr ::UnityEngine::Texture2D*& __get__currentColorLutTargetTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__currentColorLutTargetTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__currentColorLutTargetTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__currentColorLutTargetTexture() const;
 
-  constexpr void __set__currentColorLutTargetTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__currentColorLutTargetTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr ::GlobalNamespace::OVRPassthroughColorLut*& __get__LutTarget_k__BackingField();
+  constexpr ::GlobalNamespace::OVRPassthroughColorLut*& __cordl_internal_get__LutTarget_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRPassthroughColorLut*> const& __get__LutTarget_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRPassthroughColorLut*> const& __cordl_internal_get__LutTarget_k__BackingField() const;
 
-  constexpr void __set__LutTarget_k__BackingField(::GlobalNamespace::OVRPassthroughColorLut* value);
+  constexpr void __cordl_internal_set__LutTarget_k__BackingField(::GlobalNamespace::OVRPassthroughColorLut* value);
 
   /// @brief Method get_LutTarget, addr 0x2752ce8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut* get_LutTarget();
@@ -1263,7 +1269,7 @@ protected:
 
 public:
   /// @brief Field _currentColorLutTargetTexture, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____currentColorLutTargetTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____currentColorLutTargetTexture;
 
   /// @brief Field <LutTarget>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::OVRPassthroughColorLut* ____LutTarget_k__BackingField;
@@ -1282,20 +1288,20 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__InterpolatedCol
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7676))
 // CS Name: ::OVRPassthroughLayer::<>c__DisplayClass9_0*
 class CORDL_TYPE __OVRPassthroughLayer____c__DisplayClass9_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field obj, offset 0x10, size 0x8
-  __declspec(property(get = __get_obj, put = __set_obj))::UnityEngine::GameObject* obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::UnityW<::UnityEngine::GameObject> obj;
 
-  constexpr ::UnityEngine::GameObject*& __get_obj();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_obj();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_obj() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_obj() const;
 
-  constexpr void __set_obj(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_obj(::UnityW<::UnityEngine::GameObject> value);
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0* New_ctor();
 
@@ -1320,7 +1326,7 @@ protected:
 
 public:
   /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___obj;
+  ::UnityW<::UnityEngine::GameObject> ___obj;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1334,20 +1340,20 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7677))
 // CS Name: ::OVRPassthroughLayer::<>c__DisplayClass10_0*
 class CORDL_TYPE __OVRPassthroughLayer____c__DisplayClass10_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field obj, offset 0x10, size 0x8
-  __declspec(property(get = __get_obj, put = __set_obj))::UnityEngine::GameObject* obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::UnityW<::UnityEngine::GameObject> obj;
 
-  constexpr ::UnityEngine::GameObject*& __get_obj();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_obj();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_obj() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_obj() const;
 
-  constexpr void __set_obj(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_obj(::UnityW<::UnityEngine::GameObject> value);
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0* New_ctor();
 
@@ -1372,7 +1378,7 @@ protected:
 
 public:
   /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___obj;
+  ::UnityW<::UnityEngine::GameObject> ___obj;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1386,9 +1392,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer____c__DisplayCla
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7663)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7655)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7661)), TypeDefinitionIndex(TypeDefinitionIndex(7662)), TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7678)) CS Name: ::OVRPassthroughLayer*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7655)), TypeDefinitionIndex(TypeDefinitionIndex(7661)), TypeDefinitionIndex(TypeDefinitionIndex(7662)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7663)), TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7678)) CS Name: ::OVRPassthroughLayer*
 class CORDL_TYPE OVRPassthroughLayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -1427,102 +1433,102 @@ public:
   using ProjectionSurfaceType = ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType;
 
   /// @brief Field projectionSurfaceType, offset 0x18, size 0x4
-  __declspec(property(get = __get_projectionSurfaceType, put = __set_projectionSurfaceType))::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType projectionSurfaceType;
+  __declspec(property(get = __cordl_internal_get_projectionSurfaceType,
+                      put = __cordl_internal_set_projectionSurfaceType))::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType projectionSurfaceType;
 
   /// @brief Field overlayType, offset 0x1c, size 0x4
-  __declspec(property(get = __get_overlayType, put = __set_overlayType))::GlobalNamespace::__OVROverlay__OverlayType overlayType;
+  __declspec(property(get = __cordl_internal_get_overlayType, put = __cordl_internal_set_overlayType))::GlobalNamespace::__OVROverlay__OverlayType overlayType;
 
   /// @brief Field compositionDepth, offset 0x20, size 0x4
-  __declspec(property(get = __get_compositionDepth, put = __set_compositionDepth)) int32_t compositionDepth;
+  __declspec(property(get = __cordl_internal_get_compositionDepth, put = __cordl_internal_set_compositionDepth)) int32_t compositionDepth;
 
   /// @brief Field hidden, offset 0x24, size 0x1
-  __declspec(property(get = __get_hidden, put = __set_hidden)) bool hidden;
+  __declspec(property(get = __cordl_internal_get_hidden, put = __cordl_internal_set_hidden)) bool hidden;
 
   /// @brief Field overridePerLayerColorScaleAndOffset, offset 0x25, size 0x1
-  __declspec(property(get = __get_overridePerLayerColorScaleAndOffset, put = __set_overridePerLayerColorScaleAndOffset)) bool overridePerLayerColorScaleAndOffset;
+  __declspec(property(get = __cordl_internal_get_overridePerLayerColorScaleAndOffset, put = __cordl_internal_set_overridePerLayerColorScaleAndOffset)) bool overridePerLayerColorScaleAndOffset;
 
   /// @brief Field colorScale, offset 0x28, size 0x10
-  __declspec(property(get = __get_colorScale, put = __set_colorScale))::UnityEngine::Vector4 colorScale;
+  __declspec(property(get = __cordl_internal_get_colorScale, put = __cordl_internal_set_colorScale))::UnityEngine::Vector4 colorScale;
 
   /// @brief Field colorOffset, offset 0x38, size 0x10
-  __declspec(property(get = __get_colorOffset, put = __set_colorOffset))::UnityEngine::Vector4 colorOffset;
+  __declspec(property(get = __cordl_internal_get_colorOffset, put = __cordl_internal_set_colorOffset))::UnityEngine::Vector4 colorOffset;
 
   /// @brief Field colorMapEditorType_, offset 0x48, size 0x4
-  __declspec(property(get = __get_colorMapEditorType_, put = __set_colorMapEditorType_))::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapEditorType_;
+  __declspec(property(get = __cordl_internal_get_colorMapEditorType_, put = __cordl_internal_set_colorMapEditorType_))::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapEditorType_;
 
   /// @brief Field colorMapEditorGradient, offset 0x50, size 0x8
-  __declspec(property(get = __get_colorMapEditorGradient, put = __set_colorMapEditorGradient))::UnityEngine::Gradient* colorMapEditorGradient;
+  __declspec(property(get = __cordl_internal_get_colorMapEditorGradient, put = __cordl_internal_set_colorMapEditorGradient))::UnityEngine::Gradient* colorMapEditorGradient;
 
   /// @brief Field colorMapEditorContrast, offset 0x58, size 0x4
-  __declspec(property(get = __get_colorMapEditorContrast, put = __set_colorMapEditorContrast)) float_t colorMapEditorContrast;
+  __declspec(property(get = __cordl_internal_get_colorMapEditorContrast, put = __cordl_internal_set_colorMapEditorContrast)) float_t colorMapEditorContrast;
 
   /// @brief Field colorMapEditorBrightness, offset 0x5c, size 0x4
-  __declspec(property(get = __get_colorMapEditorBrightness, put = __set_colorMapEditorBrightness)) float_t colorMapEditorBrightness;
+  __declspec(property(get = __cordl_internal_get_colorMapEditorBrightness, put = __cordl_internal_set_colorMapEditorBrightness)) float_t colorMapEditorBrightness;
 
   /// @brief Field colorMapEditorPosterize, offset 0x60, size 0x4
-  __declspec(property(get = __get_colorMapEditorPosterize, put = __set_colorMapEditorPosterize)) float_t colorMapEditorPosterize;
+  __declspec(property(get = __cordl_internal_get_colorMapEditorPosterize, put = __cordl_internal_set_colorMapEditorPosterize)) float_t colorMapEditorPosterize;
 
   /// @brief Field colorMapEditorSaturation, offset 0x64, size 0x4
-  __declspec(property(get = __get_colorMapEditorSaturation, put = __set_colorMapEditorSaturation)) float_t colorMapEditorSaturation;
+  __declspec(property(get = __cordl_internal_get_colorMapEditorSaturation, put = __cordl_internal_set_colorMapEditorSaturation)) float_t colorMapEditorSaturation;
 
   /// @brief Field _colorLutSourceTexture, offset 0x68, size 0x8
-  __declspec(property(get = __get__colorLutSourceTexture, put = __set__colorLutSourceTexture))::UnityEngine::Texture2D* _colorLutSourceTexture;
+  __declspec(property(get = __cordl_internal_get__colorLutSourceTexture, put = __cordl_internal_set__colorLutSourceTexture))::UnityW<::UnityEngine::Texture2D> _colorLutSourceTexture;
 
   /// @brief Field _colorLutTargetTexture, offset 0x70, size 0x8
-  __declspec(property(get = __get__colorLutTargetTexture, put = __set__colorLutTargetTexture))::UnityEngine::Texture2D* _colorLutTargetTexture;
+  __declspec(property(get = __cordl_internal_get__colorLutTargetTexture, put = __cordl_internal_set__colorLutTargetTexture))::UnityW<::UnityEngine::Texture2D> _colorLutTargetTexture;
 
   /// @brief Field _lutWeight, offset 0x78, size 0x4
-  __declspec(property(get = __get__lutWeight, put = __set__lutWeight)) float_t _lutWeight;
+  __declspec(property(get = __cordl_internal_get__lutWeight, put = __cordl_internal_set__lutWeight)) float_t _lutWeight;
 
   /// @brief Field _flipLutY, offset 0x7c, size 0x1
-  __declspec(property(get = __get__flipLutY, put = __set__flipLutY)) bool _flipLutY;
+  __declspec(property(get = __cordl_internal_get__flipLutY, put = __cordl_internal_set__flipLutY)) bool _flipLutY;
 
   /// @brief Field _settings, offset 0x80, size 0x30
-  __declspec(property(get = __get__settings, put = __set__settings))::GlobalNamespace::__OVRPassthroughLayer__Settings _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::GlobalNamespace::__OVRPassthroughLayer__Settings _settings;
 
   /// @brief Field cameraRig, offset 0xb0, size 0x8
-  __declspec(property(get = __get_cameraRig, put = __set_cameraRig))::GlobalNamespace::OVRCameraRig* cameraRig;
+  __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
 
   /// @brief Field cameraRigInitialized, offset 0xb8, size 0x1
-  __declspec(property(get = __get_cameraRigInitialized, put = __set_cameraRigInitialized)) bool cameraRigInitialized;
+  __declspec(property(get = __cordl_internal_get_cameraRigInitialized, put = __cordl_internal_set_cameraRigInitialized)) bool cameraRigInitialized;
 
   /// @brief Field auxGameObject, offset 0xc0, size 0x8
-  __declspec(property(get = __get_auxGameObject, put = __set_auxGameObject))::UnityEngine::GameObject* auxGameObject;
+  __declspec(property(get = __cordl_internal_get_auxGameObject, put = __cordl_internal_set_auxGameObject))::UnityW<::UnityEngine::GameObject> auxGameObject;
 
   /// @brief Field passthroughOverlay, offset 0xc8, size 0x8
-  __declspec(property(get = __get_passthroughOverlay, put = __set_passthroughOverlay))::GlobalNamespace::OVROverlay* passthroughOverlay;
+  __declspec(property(get = __cordl_internal_get_passthroughOverlay, put = __cordl_internal_set_passthroughOverlay))::UnityW<::GlobalNamespace::OVROverlay> passthroughOverlay;
 
   /// @brief Field surfaceGameObjects, offset 0xd0, size 0x8
-  __declspec(property(
-      get = __get_surfaceGameObjects,
-      put = __set_surfaceGameObjects))::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* surfaceGameObjects;
+  __declspec(property(get = __cordl_internal_get_surfaceGameObjects, put = __cordl_internal_set_surfaceGameObjects))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* surfaceGameObjects;
 
   /// @brief Field deferredSurfaceGameObjects, offset 0xd8, size 0x8
-  __declspec(
-      property(get = __get_deferredSurfaceGameObjects,
-               put = __set_deferredSurfaceGameObjects))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* deferredSurfaceGameObjects;
+  __declspec(property(get = __cordl_internal_get_deferredSurfaceGameObjects, put = __cordl_internal_set_deferredSurfaceGameObjects))::System::Collections::Generic::List_1<
+      ::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* deferredSurfaceGameObjects;
 
   /// @brief Field serializedSurfaceGeometry, offset 0xe0, size 0x8
-  __declspec(property(get = __get_serializedSurfaceGeometry,
-                      put = __set_serializedSurfaceGeometry))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* serializedSurfaceGeometry;
+  __declspec(property(
+      get = __cordl_internal_get_serializedSurfaceGeometry,
+      put = __cordl_internal_set_serializedSurfaceGeometry))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* serializedSurfaceGeometry;
 
   /// @brief Field textureOpacity_, offset 0xe8, size 0x4
-  __declspec(property(get = __get_textureOpacity_, put = __set_textureOpacity_)) float_t textureOpacity_;
+  __declspec(property(get = __cordl_internal_get_textureOpacity_, put = __cordl_internal_set_textureOpacity_)) float_t textureOpacity_;
 
   /// @brief Field edgeRenderingEnabled_, offset 0xec, size 0x1
-  __declspec(property(get = __get_edgeRenderingEnabled_, put = __set_edgeRenderingEnabled_)) bool edgeRenderingEnabled_;
+  __declspec(property(get = __cordl_internal_get_edgeRenderingEnabled_, put = __cordl_internal_set_edgeRenderingEnabled_)) bool edgeRenderingEnabled_;
 
   /// @brief Field edgeColor_, offset 0xf0, size 0x10
-  __declspec(property(get = __get_edgeColor_, put = __set_edgeColor_))::UnityEngine::Color edgeColor_;
+  __declspec(property(get = __cordl_internal_get_edgeColor_, put = __cordl_internal_set_edgeColor_))::UnityEngine::Color edgeColor_;
 
   /// @brief Field colorMapType, offset 0x100, size 0x4
-  __declspec(property(get = __get_colorMapType, put = __set_colorMapType))::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType colorMapType;
+  __declspec(property(get = __cordl_internal_get_colorMapType, put = __cordl_internal_set_colorMapType))::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType colorMapType;
 
   /// @brief Field styleDirty, offset 0x104, size 0x1
-  __declspec(property(get = __get_styleDirty, put = __set_styleDirty)) bool styleDirty;
+  __declspec(property(get = __cordl_internal_get_styleDirty, put = __cordl_internal_set_styleDirty)) bool styleDirty;
 
   /// @brief Field _stylesHandler, offset 0x108, size 0x8
-  __declspec(property(get = __get__stylesHandler, put = __set__stylesHandler))::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* _stylesHandler;
+  __declspec(property(get = __cordl_internal_get__stylesHandler, put = __cordl_internal_set__stylesHandler))::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* _stylesHandler;
 
   /// @brief Field _editorToColorMapType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__editorToColorMapType, put = setStaticF__editorToColorMapType))::System::Collections::Generic::Dictionary_2<
@@ -1541,194 +1547,197 @@ public:
 
   __declspec(property(get = get_overlayShape))::GlobalNamespace::__OVROverlay__OverlayShape overlayShape;
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType& __get_projectionSurfaceType();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType& __cordl_internal_get_projectionSurfaceType();
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType const& __get_projectionSurfaceType() const;
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType const& __cordl_internal_get_projectionSurfaceType() const;
 
-  constexpr void __set_projectionSurfaceType(::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType value);
+  constexpr void __cordl_internal_set_projectionSurfaceType(::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType value);
 
-  constexpr ::GlobalNamespace::__OVROverlay__OverlayType& __get_overlayType();
+  constexpr ::GlobalNamespace::__OVROverlay__OverlayType& __cordl_internal_get_overlayType();
 
-  constexpr ::GlobalNamespace::__OVROverlay__OverlayType const& __get_overlayType() const;
+  constexpr ::GlobalNamespace::__OVROverlay__OverlayType const& __cordl_internal_get_overlayType() const;
 
-  constexpr void __set_overlayType(::GlobalNamespace::__OVROverlay__OverlayType value);
+  constexpr void __cordl_internal_set_overlayType(::GlobalNamespace::__OVROverlay__OverlayType value);
 
-  constexpr int32_t& __get_compositionDepth();
+  constexpr int32_t& __cordl_internal_get_compositionDepth();
 
-  constexpr int32_t const& __get_compositionDepth() const;
+  constexpr int32_t const& __cordl_internal_get_compositionDepth() const;
 
-  constexpr void __set_compositionDepth(int32_t value);
+  constexpr void __cordl_internal_set_compositionDepth(int32_t value);
 
-  constexpr bool& __get_hidden();
+  constexpr bool& __cordl_internal_get_hidden();
 
-  constexpr bool const& __get_hidden() const;
+  constexpr bool const& __cordl_internal_get_hidden() const;
 
-  constexpr void __set_hidden(bool value);
+  constexpr void __cordl_internal_set_hidden(bool value);
 
-  constexpr bool& __get_overridePerLayerColorScaleAndOffset();
+  constexpr bool& __cordl_internal_get_overridePerLayerColorScaleAndOffset();
 
-  constexpr bool const& __get_overridePerLayerColorScaleAndOffset() const;
+  constexpr bool const& __cordl_internal_get_overridePerLayerColorScaleAndOffset() const;
 
-  constexpr void __set_overridePerLayerColorScaleAndOffset(bool value);
+  constexpr void __cordl_internal_set_overridePerLayerColorScaleAndOffset(bool value);
 
-  constexpr ::UnityEngine::Vector4& __get_colorScale();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_colorScale();
 
-  constexpr ::UnityEngine::Vector4 const& __get_colorScale() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_colorScale() const;
 
-  constexpr void __set_colorScale(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_colorScale(::UnityEngine::Vector4 value);
 
-  constexpr ::UnityEngine::Vector4& __get_colorOffset();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_colorOffset();
 
-  constexpr ::UnityEngine::Vector4 const& __get_colorOffset() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_colorOffset() const;
 
-  constexpr void __set_colorOffset(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_colorOffset(::UnityEngine::Vector4 value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType& __get_colorMapEditorType_();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType& __cordl_internal_get_colorMapEditorType_();
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType const& __get_colorMapEditorType_() const;
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType const& __cordl_internal_get_colorMapEditorType_() const;
 
-  constexpr void __set_colorMapEditorType_(::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType value);
+  constexpr void __cordl_internal_set_colorMapEditorType_(::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType value);
 
-  constexpr ::UnityEngine::Gradient*& __get_colorMapEditorGradient();
+  constexpr ::UnityEngine::Gradient*& __cordl_internal_get_colorMapEditorGradient();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __get_colorMapEditorGradient() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __cordl_internal_get_colorMapEditorGradient() const;
 
-  constexpr void __set_colorMapEditorGradient(::UnityEngine::Gradient* value);
+  constexpr void __cordl_internal_set_colorMapEditorGradient(::UnityEngine::Gradient* value);
 
-  constexpr float_t& __get_colorMapEditorContrast();
+  constexpr float_t& __cordl_internal_get_colorMapEditorContrast();
 
-  constexpr float_t const& __get_colorMapEditorContrast() const;
+  constexpr float_t const& __cordl_internal_get_colorMapEditorContrast() const;
 
-  constexpr void __set_colorMapEditorContrast(float_t value);
+  constexpr void __cordl_internal_set_colorMapEditorContrast(float_t value);
 
-  constexpr float_t& __get_colorMapEditorBrightness();
+  constexpr float_t& __cordl_internal_get_colorMapEditorBrightness();
 
-  constexpr float_t const& __get_colorMapEditorBrightness() const;
+  constexpr float_t const& __cordl_internal_get_colorMapEditorBrightness() const;
 
-  constexpr void __set_colorMapEditorBrightness(float_t value);
+  constexpr void __cordl_internal_set_colorMapEditorBrightness(float_t value);
 
-  constexpr float_t& __get_colorMapEditorPosterize();
+  constexpr float_t& __cordl_internal_get_colorMapEditorPosterize();
 
-  constexpr float_t const& __get_colorMapEditorPosterize() const;
+  constexpr float_t const& __cordl_internal_get_colorMapEditorPosterize() const;
 
-  constexpr void __set_colorMapEditorPosterize(float_t value);
+  constexpr void __cordl_internal_set_colorMapEditorPosterize(float_t value);
 
-  constexpr float_t& __get_colorMapEditorSaturation();
+  constexpr float_t& __cordl_internal_get_colorMapEditorSaturation();
 
-  constexpr float_t const& __get_colorMapEditorSaturation() const;
+  constexpr float_t const& __cordl_internal_get_colorMapEditorSaturation() const;
 
-  constexpr void __set_colorMapEditorSaturation(float_t value);
+  constexpr void __cordl_internal_set_colorMapEditorSaturation(float_t value);
 
-  constexpr ::UnityEngine::Texture2D*& __get__colorLutSourceTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__colorLutSourceTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__colorLutSourceTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__colorLutSourceTexture() const;
 
-  constexpr void __set__colorLutSourceTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__colorLutSourceTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr ::UnityEngine::Texture2D*& __get__colorLutTargetTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__colorLutTargetTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__colorLutTargetTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__colorLutTargetTexture() const;
 
-  constexpr void __set__colorLutTargetTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__colorLutTargetTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr float_t& __get__lutWeight();
+  constexpr float_t& __cordl_internal_get__lutWeight();
 
-  constexpr float_t const& __get__lutWeight() const;
+  constexpr float_t const& __cordl_internal_get__lutWeight() const;
 
-  constexpr void __set__lutWeight(float_t value);
+  constexpr void __cordl_internal_set__lutWeight(float_t value);
 
-  constexpr bool& __get__flipLutY();
+  constexpr bool& __cordl_internal_get__flipLutY();
 
-  constexpr bool const& __get__flipLutY() const;
+  constexpr bool const& __cordl_internal_get__flipLutY() const;
 
-  constexpr void __set__flipLutY(bool value);
+  constexpr void __cordl_internal_set__flipLutY(bool value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__Settings& __get__settings();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__Settings& __cordl_internal_get__settings();
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__Settings const& __get__settings() const;
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__Settings const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__settings(::GlobalNamespace::__OVRPassthroughLayer__Settings value);
+  constexpr void __cordl_internal_set__settings(::GlobalNamespace::__OVRPassthroughLayer__Settings value);
 
-  constexpr ::GlobalNamespace::OVRCameraRig*& __get_cameraRig();
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& __get_cameraRig() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraRig() const;
 
-  constexpr void __set_cameraRig(::GlobalNamespace::OVRCameraRig* value);
+  constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  constexpr bool& __get_cameraRigInitialized();
+  constexpr bool& __cordl_internal_get_cameraRigInitialized();
 
-  constexpr bool const& __get_cameraRigInitialized() const;
+  constexpr bool const& __cordl_internal_get_cameraRigInitialized() const;
 
-  constexpr void __set_cameraRigInitialized(bool value);
+  constexpr void __cordl_internal_set_cameraRigInitialized(bool value);
 
-  constexpr ::UnityEngine::GameObject*& __get_auxGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_auxGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_auxGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_auxGameObject() const;
 
-  constexpr void __set_auxGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_auxGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::OVROverlay*& __get_passthroughOverlay();
+  constexpr ::UnityW<::GlobalNamespace::OVROverlay>& __cordl_internal_get_passthroughOverlay();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVROverlay*> const& __get_passthroughOverlay() const;
+  constexpr ::UnityW<::GlobalNamespace::OVROverlay> const& __cordl_internal_get_passthroughOverlay() const;
 
-  constexpr void __set_passthroughOverlay(::GlobalNamespace::OVROverlay* value);
+  constexpr void __cordl_internal_set_passthroughOverlay(::UnityW<::GlobalNamespace::OVROverlay> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>*& __get_surfaceGameObjects();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>*&
+  __cordl_internal_get_surfaceGameObjects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>*> const&
-  __get_surfaceGameObjects() const;
+  constexpr ::cordl_internals::to_const_pointer<
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>*> const&
+  __cordl_internal_get_surfaceGameObjects() const;
 
-  constexpr void __set_surfaceGameObjects(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* value);
+  constexpr void
+  __cordl_internal_set_surfaceGameObjects(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>*& __get_deferredSurfaceGameObjects();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>*& __cordl_internal_get_deferredSurfaceGameObjects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>*> const&
-  __get_deferredSurfaceGameObjects() const;
+  __cordl_internal_get_deferredSurfaceGameObjects() const;
 
-  constexpr void __set_deferredSurfaceGameObjects(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* value);
+  constexpr void __cordl_internal_set_deferredSurfaceGameObjects(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>*& __get_serializedSurfaceGeometry();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>*& __cordl_internal_get_serializedSurfaceGeometry();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>*> const&
-  __get_serializedSurfaceGeometry() const;
+  __cordl_internal_get_serializedSurfaceGeometry() const;
 
-  constexpr void __set_serializedSurfaceGeometry(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* value);
+  constexpr void __cordl_internal_set_serializedSurfaceGeometry(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* value);
 
-  constexpr float_t& __get_textureOpacity_();
+  constexpr float_t& __cordl_internal_get_textureOpacity_();
 
-  constexpr float_t const& __get_textureOpacity_() const;
+  constexpr float_t const& __cordl_internal_get_textureOpacity_() const;
 
-  constexpr void __set_textureOpacity_(float_t value);
+  constexpr void __cordl_internal_set_textureOpacity_(float_t value);
 
-  constexpr bool& __get_edgeRenderingEnabled_();
+  constexpr bool& __cordl_internal_get_edgeRenderingEnabled_();
 
-  constexpr bool const& __get_edgeRenderingEnabled_() const;
+  constexpr bool const& __cordl_internal_get_edgeRenderingEnabled_() const;
 
-  constexpr void __set_edgeRenderingEnabled_(bool value);
+  constexpr void __cordl_internal_set_edgeRenderingEnabled_(bool value);
 
-  constexpr ::UnityEngine::Color& __get_edgeColor_();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_edgeColor_();
 
-  constexpr ::UnityEngine::Color const& __get_edgeColor_() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_edgeColor_() const;
 
-  constexpr void __set_edgeColor_(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_edgeColor_(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType& __get_colorMapType();
+  constexpr ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType& __cordl_internal_get_colorMapType();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType const& __get_colorMapType() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType const& __cordl_internal_get_colorMapType() const;
 
-  constexpr void __set_colorMapType(::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType value);
+  constexpr void __cordl_internal_set_colorMapType(::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType value);
 
-  constexpr bool& __get_styleDirty();
+  constexpr bool& __cordl_internal_get_styleDirty();
 
-  constexpr bool const& __get_styleDirty() const;
+  constexpr bool const& __cordl_internal_get_styleDirty() const;
 
-  constexpr void __set_styleDirty(bool value);
+  constexpr void __cordl_internal_set_styleDirty(bool value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler*& __get__stylesHandler();
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler*& __cordl_internal_get__stylesHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__StylesHandler*> const& __get__stylesHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__StylesHandler*> const& __cordl_internal_get__stylesHandler() const;
 
-  constexpr void __set__stylesHandler(::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* value);
+  constexpr void __cordl_internal_set__stylesHandler(::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* value);
 
   static inline void setStaticF__editorToColorMapType(
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType, ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType>* value);
@@ -1914,10 +1923,10 @@ public:
   float_t ___colorMapEditorSaturation;
 
   /// @brief Field _colorLutSourceTexture, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____colorLutSourceTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____colorLutSourceTexture;
 
   /// @brief Field _colorLutTargetTexture, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____colorLutTargetTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____colorLutTargetTexture;
 
   /// @brief Field _lutWeight, offset: 0x78, size: 0x4, def value: None
   float_t ____lutWeight;
@@ -1929,19 +1938,19 @@ public:
   ::GlobalNamespace::__OVRPassthroughLayer__Settings ____settings;
 
   /// @brief Field cameraRig, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::OVRCameraRig* ___cameraRig;
+  ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
 
   /// @brief Field cameraRigInitialized, offset: 0xb8, size: 0x1, def value: None
   bool ___cameraRigInitialized;
 
   /// @brief Field auxGameObject, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___auxGameObject;
+  ::UnityW<::UnityEngine::GameObject> ___auxGameObject;
 
   /// @brief Field passthroughOverlay, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::OVROverlay* ___passthroughOverlay;
+  ::UnityW<::GlobalNamespace::OVROverlay> ___passthroughOverlay;
 
   /// @brief Field surfaceGameObjects, offset: 0xd0, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* ___surfaceGameObjects;
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* ___surfaceGameObjects;
 
   /// @brief Field deferredSurfaceGameObjects, offset: 0xd8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* ___deferredSurfaceGameObjects;

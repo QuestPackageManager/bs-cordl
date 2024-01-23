@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x229e188;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestFlowCoordinator*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestFlowCoordinator*>::get(), 4));
@@ -24,69 +24,69 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x229e1a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestFlowCoordinator*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::HMUI::ViewController*& GlobalNamespace::TestFlowCoordinator::__get__viewController() {
+constexpr ::UnityW<::HMUI::ViewController>& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__viewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& GlobalNamespace::TestFlowCoordinator::__get__viewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__viewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewController;
 }
-constexpr void GlobalNamespace::TestFlowCoordinator::__set__viewController(::HMUI::ViewController* value) {
+constexpr void GlobalNamespace::TestFlowCoordinator::__cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ViewController*& GlobalNamespace::TestFlowCoordinator::__get__leftViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__leftViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& GlobalNamespace::TestFlowCoordinator::__get__leftViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__leftViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftViewController;
 }
-constexpr void GlobalNamespace::TestFlowCoordinator::__set__leftViewController(::HMUI::ViewController* value) {
+constexpr void GlobalNamespace::TestFlowCoordinator::__cordl_internal_set__leftViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ViewController*& GlobalNamespace::TestFlowCoordinator::__get__rightViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__rightViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& GlobalNamespace::TestFlowCoordinator::__get__rightViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__rightViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightViewController;
 }
-constexpr void GlobalNamespace::TestFlowCoordinator::__set__rightViewController(::HMUI::ViewController* value) {
+constexpr void GlobalNamespace::TestFlowCoordinator::__cordl_internal_set__rightViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ViewController*& GlobalNamespace::TestFlowCoordinator::__get__bottomScreenViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__bottomScreenViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bottomScreenViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& GlobalNamespace::TestFlowCoordinator::__get__bottomScreenViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__bottomScreenViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bottomScreenViewController;
 }
-constexpr void GlobalNamespace::TestFlowCoordinator::__set__bottomScreenViewController(::HMUI::ViewController* value) {
+constexpr void GlobalNamespace::TestFlowCoordinator::__cordl_internal_set__bottomScreenViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bottomScreenViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ViewController*& GlobalNamespace::TestFlowCoordinator::__get__topScreenViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__topScreenViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topScreenViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& GlobalNamespace::TestFlowCoordinator::__get__topScreenViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& GlobalNamespace::TestFlowCoordinator::__cordl_internal_get__topScreenViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topScreenViewController;
 }
-constexpr void GlobalNamespace::TestFlowCoordinator::__set__topScreenViewController(::HMUI::ViewController* value) {
+constexpr void GlobalNamespace::TestFlowCoordinator::__cordl_internal_set__topScreenViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____topScreenViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -96,11 +96,11 @@ inline void GlobalNamespace::TestFlowCoordinator::DidActivate(bool firstActivati
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
 inline ::GlobalNamespace::TestFlowCoordinator* GlobalNamespace::TestFlowCoordinator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::TestFlowCoordinator*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TestFlowCoordinator*>());
 }
 inline void GlobalNamespace::TestFlowCoordinator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestFlowCoordinator*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

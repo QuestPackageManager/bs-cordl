@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x2b87aec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(), 6));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x2b87b70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(), 4));
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4c;
   constexpr static std::size_t addrs = 0x2b87ce4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(), 5));
@@ -58,45 +58,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x2b88930;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cone::__get_m_NumberOfSides() {
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_get_m_NumberOfSides() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumberOfSides;
 }
-constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cone::__get_m_NumberOfSides() const {
+constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_get_m_NumberOfSides() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumberOfSides;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Cone::__set_m_NumberOfSides(int32_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_set_m_NumberOfSides(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NumberOfSides = value;
 }
-constexpr float_t& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Radius() {
+constexpr float_t& UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_get_m_Radius() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Radius;
 }
-constexpr float_t const& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Radius() const {
+constexpr float_t const& UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_get_m_Radius() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Radius;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Cone::__set_m_Radius(float_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_set_m_Radius(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Radius = value;
 }
-constexpr bool& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Smooth() {
+constexpr bool& UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_get_m_Smooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
-constexpr bool const& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Smooth() const {
+constexpr bool const& UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_get_m_Smooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Cone::__set_m_Smooth(bool value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_set_m_Smooth(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
 }
@@ -117,11 +117,11 @@ inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Cone::RebuildMesh(
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method, mesh, size, rotation);
 }
 inline ::UnityEngine::ProBuilder::Shapes::Cone* UnityEngine::ProBuilder::Shapes::Cone::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Shapes::Cone*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Shapes::Cone*>());
 }
 inline void UnityEngine::ProBuilder::Shapes::Cone::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cone*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

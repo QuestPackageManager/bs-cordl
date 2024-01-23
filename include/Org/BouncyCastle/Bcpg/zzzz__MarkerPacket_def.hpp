@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::MarkerPacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(574))
 // CS Name: ::Org.BouncyCastle.Bcpg::MarkerPacket*
 class CORDL_TYPE MarkerPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
   /// @brief Field marker, offset 0x10, size 0x8
-  __declspec(property(get = __get_marker, put = __set_marker))::ArrayW<uint8_t, ::Array<uint8_t>*> marker;
+  __declspec(property(get = __cordl_internal_get_marker, put = __cordl_internal_set_marker))::ArrayW<uint8_t, ::Array<uint8_t>*> marker;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_marker();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_marker();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_marker() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_marker() const;
 
-  constexpr void __set_marker(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_marker(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Bcpg::MarkerPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

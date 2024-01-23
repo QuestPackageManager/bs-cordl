@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::MaterialManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13696))
 // CS Name: ::UnityEngine.TextCore.Text::MaterialManager*
 class CORDL_TYPE MaterialManager : public ::System::Object {
@@ -32,17 +32,17 @@ public:
   // Declarations
   /// @brief Field s_FallbackMaterials, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_FallbackMaterials,
-                             put = setStaticF_s_FallbackMaterials))::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::Material*>* s_FallbackMaterials;
+                             put = setStaticF_s_FallbackMaterials))::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* s_FallbackMaterials;
 
-  static inline void setStaticF_s_FallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::Material*>* value);
+  static inline void setStaticF_s_FallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::Material*>* getStaticF_s_FallbackMaterials();
+  static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* getStaticF_s_FallbackMaterials();
 
   /// @brief Method GetFallbackMaterial, addr 0x2d42abc, size 0x360, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
+  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
   /// @brief Method GetFallbackMaterial, addr 0x2d42e1c, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
+  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

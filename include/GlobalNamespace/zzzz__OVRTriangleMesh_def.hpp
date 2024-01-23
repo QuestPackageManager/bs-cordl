@@ -81,9 +81,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRTriangleMesh__Triangle);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7521)) CS
-// Name: ::OVRTriangleMesh::GetMeshJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7521)) CS Name: ::OVRTriangleMesh::GetMeshJob
 struct CORDL_TYPE __OVRTriangleMesh__GetMeshJob {
 public:
   // Declarations
@@ -132,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTriangleMesh__GetMeshJob, Indices
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7522))
 // CS Name: ::OVRTriangleMesh::Triangle
 struct CORDL_TYPE __OVRTriangleMesh__Triangle {
@@ -174,8 +173,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRTriangleMesh__Triangle, C) == 0x8
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 763 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7522))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7523)) CS Name: ::OVRTriangleMesh::FlipTriangleWindingJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7522)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 763
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7523)) CS Name: ::OVRTriangleMesh::FlipTriangleWindingJob
 struct CORDL_TYPE __OVRTriangleMesh__FlipTriangleWindingJob {
 public:
   // Declarations
@@ -213,8 +212,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRTriangleMesh__FlipTriangleWinding
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7524)) CS Name: ::OVRTriangleMesh::NegateXJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7524)) CS Name: ::OVRTriangleMesh::NegateXJob
 struct CORDL_TYPE __OVRTriangleMesh__NegateXJob {
 public:
   // Declarations
@@ -252,7 +251,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTriangleMesh__NegateXJob, Positio
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7525))
 // CS Name: ::OVRTriangleMesh
 struct CORDL_TYPE OVRTriangleMesh {

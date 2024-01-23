@@ -41,7 +41,7 @@ MARK_VAL_T(::UnityEngine::__SendMouseEvents__HitInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15956))
 // CS Name: ::SendMouseEvents::HitInfo
 struct CORDL_TYPE __SendMouseEvents__HitInfo {
@@ -56,19 +56,19 @@ public:
   /// @brief Method Compare, addr 0x2d0fb28, size 0xb4, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::__SendMouseEvents__HitInfo lhs, ::UnityEngine::__SendMouseEvents__HitInfo rhs);
 
-  // Ctor Parameters [CppParam { name: "target", ty: "::UnityEngine::GameObject*", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "::UnityEngine::Camera*", modifiers: "", def_value:
-  // None }]
-  constexpr __SendMouseEvents__HitInfo(::UnityEngine::GameObject* target, ::UnityEngine::Camera* camera) noexcept;
+  // Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
+  // modifiers: "", def_value: None }]
+  constexpr __SendMouseEvents__HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __SendMouseEvents__HitInfo();
 
   /// @brief Field target, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::GameObject* target;
+  ::UnityW<::UnityEngine::GameObject> target;
 
   /// @brief Field camera, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Camera* camera;
+  ::UnityW<::UnityEngine::Camera> camera;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -87,7 +87,7 @@ static_assert(offsetof(::UnityEngine::__SendMouseEvents__HitInfo, camera) == 0x8
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15957))
 // CS Name: ::UnityEngine::SendMouseEvents*
 class CORDL_TYPE SendMouseEvents : public ::System::Object {
@@ -110,7 +110,7 @@ public:
                              put = setStaticF_m_CurrentHit))::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> m_CurrentHit;
 
   /// @brief Field m_Cameras, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_Cameras, put = setStaticF_m_Cameras))::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> m_Cameras;
+  static __declspec(property(get = getStaticF_m_Cameras, put = setStaticF_m_Cameras))::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> m_Cameras;
 
   /// @brief Field s_GetMouseState, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_GetMouseState,
@@ -141,9 +141,9 @@ public:
 
   static inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> getStaticF_m_CurrentHit();
 
-  static inline void setStaticF_m_Cameras(::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> value);
+  static inline void setStaticF_m_Cameras(::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> value);
 
-  static inline ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> getStaticF_m_Cameras();
+  static inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> getStaticF_m_Cameras();
 
   static inline void setStaticF_s_GetMouseState(::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::UnityEngine::Vector2>>* value);
 

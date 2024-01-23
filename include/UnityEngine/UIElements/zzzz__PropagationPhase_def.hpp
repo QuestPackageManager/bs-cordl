@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PropagationPhase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7256))
 // CS Name: ::UnityEngine.UIElements::PropagationPhase
 struct CORDL_TYPE PropagationPhase {

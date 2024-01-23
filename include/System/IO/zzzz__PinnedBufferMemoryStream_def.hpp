@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::System::IO::PinnedBufferMemoryStream);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(3587))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(3587))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3569))
 // CS Name: ::System.IO::PinnedBufferMemoryStream*
 class CORDL_TYPE PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream {
 public:
   // Declarations
   /// @brief Field _array, offset 0x68, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::ArrayW<uint8_t, ::Array<uint8_t>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<uint8_t, ::Array<uint8_t>*> _array;
 
   /// @brief Field _pinningHandle, offset 0x70, size 0x8
-  __declspec(property(get = __get__pinningHandle, put = __set__pinningHandle))::System::Runtime::InteropServices::GCHandle _pinningHandle;
+  __declspec(property(get = __cordl_internal_get__pinningHandle, put = __cordl_internal_set__pinningHandle))::System::Runtime::InteropServices::GCHandle _pinningHandle;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__array();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__array();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__array() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__array(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get__pinningHandle();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get__pinningHandle();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get__pinningHandle() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get__pinningHandle() const;
 
-  constexpr void __set__pinningHandle(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set__pinningHandle(::System::Runtime::InteropServices::GCHandle value);
 
   static inline ::System::IO::PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 

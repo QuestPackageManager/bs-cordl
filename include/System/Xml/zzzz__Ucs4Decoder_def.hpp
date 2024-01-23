@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Decoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2827))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2827))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11562))
 // CS Name: ::System.Xml::Ucs4Decoder*
 class CORDL_TYPE Ucs4Decoder : public ::System::Text::Decoder {
 public:
   // Declarations
   /// @brief Field lastBytes, offset 0x20, size 0x8
-  __declspec(property(get = __get_lastBytes, put = __set_lastBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> lastBytes;
+  __declspec(property(get = __cordl_internal_get_lastBytes, put = __cordl_internal_set_lastBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> lastBytes;
 
   /// @brief Field lastBytesCount, offset 0x28, size 0x4
-  __declspec(property(get = __get_lastBytesCount, put = __set_lastBytesCount)) int32_t lastBytesCount;
+  __declspec(property(get = __cordl_internal_get_lastBytesCount, put = __cordl_internal_set_lastBytesCount)) int32_t lastBytesCount;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_lastBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_lastBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_lastBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lastBytes() const;
 
-  constexpr void __set_lastBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_lastBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_lastBytesCount();
+  constexpr int32_t& __cordl_internal_get_lastBytesCount();
 
-  constexpr int32_t const& __get_lastBytesCount() const;
+  constexpr int32_t const& __cordl_internal_get_lastBytesCount() const;
 
-  constexpr void __set_lastBytesCount(int32_t value);
+  constexpr void __cordl_internal_set_lastBytesCount(int32_t value);
 
   /// @brief Method GetCharCount, addr 0x28a62ac, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);

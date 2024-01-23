@@ -87,7 +87,7 @@ MARK_VAL_T(::System::Threading::__ExecutionContext__Reader);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2711))
 // CS Name: ::ExecutionContext::Flags
 struct CORDL_TYPE __ExecutionContext__Flags {
@@ -145,7 +145,7 @@ static_assert(offsetof(::System::Threading::__ExecutionContext__Flags, value__) 
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2712))
 // CS Name: ::ExecutionContext::Reader
 struct CORDL_TYPE __ExecutionContext__Reader {
@@ -213,7 +213,7 @@ static_assert(offsetof(::System::Threading::__ExecutionContext__Reader, m_ec) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2713))
 // CS Name: ::ExecutionContext::CaptureOptions
 struct CORDL_TYPE __ExecutionContext__CaptureOptions {
@@ -267,7 +267,7 @@ static_assert(offsetof(::System::Threading::__ExecutionContext__CaptureOptions, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2711)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2711))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2714))
 // CS Name: ::System.Threading::ExecutionContext*
 class CORDL_TYPE ExecutionContext : public ::System::Object {
@@ -280,26 +280,28 @@ public:
   using Flags = ::System::Threading::__ExecutionContext__Flags;
 
   /// @brief Field _syncContext, offset 0x10, size 0x8
-  __declspec(property(get = __get__syncContext, put = __set__syncContext))::System::Threading::SynchronizationContext* _syncContext;
+  __declspec(property(get = __cordl_internal_get__syncContext, put = __cordl_internal_set__syncContext))::System::Threading::SynchronizationContext* _syncContext;
 
   /// @brief Field _syncContextNoFlow, offset 0x18, size 0x8
-  __declspec(property(get = __get__syncContextNoFlow, put = __set__syncContextNoFlow))::System::Threading::SynchronizationContext* _syncContextNoFlow;
+  __declspec(property(get = __cordl_internal_get__syncContextNoFlow, put = __cordl_internal_set__syncContextNoFlow))::System::Threading::SynchronizationContext* _syncContextNoFlow;
 
   /// @brief Field _logicalCallContext, offset 0x20, size 0x8
-  __declspec(property(get = __get__logicalCallContext, put = __set__logicalCallContext))::System::Runtime::Remoting::Messaging::LogicalCallContext* _logicalCallContext;
+  __declspec(property(get = __cordl_internal_get__logicalCallContext, put = __cordl_internal_set__logicalCallContext))::System::Runtime::Remoting::Messaging::LogicalCallContext* _logicalCallContext;
 
   /// @brief Field _illogicalCallContext, offset 0x28, size 0x8
-  __declspec(property(get = __get__illogicalCallContext, put = __set__illogicalCallContext))::System::Runtime::Remoting::Messaging::IllogicalCallContext* _illogicalCallContext;
+  __declspec(property(get = __cordl_internal_get__illogicalCallContext,
+                      put = __cordl_internal_set__illogicalCallContext))::System::Runtime::Remoting::Messaging::IllogicalCallContext* _illogicalCallContext;
 
   /// @brief Field _flags, offset 0x30, size 0x4
-  __declspec(property(get = __get__flags, put = __set__flags))::System::Threading::__ExecutionContext__Flags _flags;
+  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags))::System::Threading::__ExecutionContext__Flags _flags;
 
   /// @brief Field _localValues, offset 0x38, size 0x8
-  __declspec(property(get = __get__localValues, put = __set__localValues))::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* _localValues;
+  __declspec(property(get = __cordl_internal_get__localValues,
+                      put = __cordl_internal_set__localValues))::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* _localValues;
 
   /// @brief Field _localChangeNotifications, offset 0x40, size 0x8
-  __declspec(property(get = __get__localChangeNotifications,
-                      put = __set__localChangeNotifications))::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* _localChangeNotifications;
+  __declspec(property(get = __cordl_internal_get__localChangeNotifications,
+                      put = __cordl_internal_set__localChangeNotifications))::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* _localChangeNotifications;
 
   /// @brief Field s_dummyDefaultEC, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_dummyDefaultEC, put = setStaticF_s_dummyDefaultEC))::System::Threading::ExecutionContext* s_dummyDefaultEC;
@@ -333,47 +335,47 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Threading::SynchronizationContext*& __get__syncContext();
+  constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get__syncContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __get__syncContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __cordl_internal_get__syncContext() const;
 
-  constexpr void __set__syncContext(::System::Threading::SynchronizationContext* value);
+  constexpr void __cordl_internal_set__syncContext(::System::Threading::SynchronizationContext* value);
 
-  constexpr ::System::Threading::SynchronizationContext*& __get__syncContextNoFlow();
+  constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get__syncContextNoFlow();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __get__syncContextNoFlow() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __cordl_internal_get__syncContextNoFlow() const;
 
-  constexpr void __set__syncContextNoFlow(::System::Threading::SynchronizationContext* value);
+  constexpr void __cordl_internal_set__syncContextNoFlow(::System::Threading::SynchronizationContext* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& __get__logicalCallContext();
+  constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& __cordl_internal_get__logicalCallContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const& __get__logicalCallContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const& __cordl_internal_get__logicalCallContext() const;
 
-  constexpr void __set__logicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
+  constexpr void __cordl_internal_set__logicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IllogicalCallContext*& __get__illogicalCallContext();
+  constexpr ::System::Runtime::Remoting::Messaging::IllogicalCallContext*& __cordl_internal_get__illogicalCallContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IllogicalCallContext*> const& __get__illogicalCallContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IllogicalCallContext*> const& __cordl_internal_get__illogicalCallContext() const;
 
-  constexpr void __set__illogicalCallContext(::System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
+  constexpr void __cordl_internal_set__illogicalCallContext(::System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
 
-  constexpr ::System::Threading::__ExecutionContext__Flags& __get__flags();
+  constexpr ::System::Threading::__ExecutionContext__Flags& __cordl_internal_get__flags();
 
-  constexpr ::System::Threading::__ExecutionContext__Flags const& __get__flags() const;
+  constexpr ::System::Threading::__ExecutionContext__Flags const& __cordl_internal_get__flags() const;
 
-  constexpr void __set__flags(::System::Threading::__ExecutionContext__Flags value);
+  constexpr void __cordl_internal_set__flags(::System::Threading::__ExecutionContext__Flags value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>*& __get__localValues();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>*& __cordl_internal_get__localValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>*> const& __get__localValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>*> const& __cordl_internal_get__localValues() const;
 
-  constexpr void __set__localValues(::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set__localValues(::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*& __get__localChangeNotifications();
+  constexpr ::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*& __cordl_internal_get__localChangeNotifications();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*> const& __get__localChangeNotifications() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*> const& __cordl_internal_get__localChangeNotifications() const;
 
-  constexpr void __set__localChangeNotifications(::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* value);
+  constexpr void __cordl_internal_set__localChangeNotifications(::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* value);
 
   static inline void setStaticF_s_dummyDefaultEC(::System::Threading::ExecutionContext* value);
 

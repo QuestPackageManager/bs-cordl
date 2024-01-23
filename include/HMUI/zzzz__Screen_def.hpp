@@ -43,35 +43,36 @@ MARK_REF_PTR_T(::HMUI::__Screen___TransitionCoroutine_d__5);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13589))
 // CS Name: ::Screen::<TransitionCoroutine>d__5*
 class CORDL_TYPE __Screen___TransitionCoroutine_d__5 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::Screen* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::Screen> __4__this;
 
   /// @brief Field newRootViewController, offset 0x28, size 0x8
-  __declspec(property(get = __get_newRootViewController, put = __set_newRootViewController))::HMUI::ViewController* newRootViewController;
+  __declspec(property(get = __cordl_internal_get_newRootViewController, put = __cordl_internal_set_newRootViewController))::UnityW<::HMUI::ViewController> newRootViewController;
 
   /// @brief Field animationType, offset 0x30, size 0x4
-  __declspec(property(get = __get_animationType, put = __set_animationType))::HMUI::__ViewController__AnimationType animationType;
+  __declspec(property(get = __cordl_internal_get_animationType, put = __cordl_internal_set_animationType))::HMUI::__ViewController__AnimationType animationType;
 
   /// @brief Field <oldRootViewController>5__2, offset 0x38, size 0x8
-  __declspec(property(get = __get__oldRootViewController_5__2, put = __set__oldRootViewController_5__2))::HMUI::ViewController* _oldRootViewController_5__2;
+  __declspec(property(get = __cordl_internal_get__oldRootViewController_5__2, put = __cordl_internal_set__oldRootViewController_5__2))::UnityW<::HMUI::ViewController> _oldRootViewController_5__2;
 
   /// @brief Field <oldRootViewControllerStartAlpha>5__3, offset 0x40, size 0x4
-  __declspec(property(get = __get__oldRootViewControllerStartAlpha_5__3, put = __set__oldRootViewControllerStartAlpha_5__3)) float_t _oldRootViewControllerStartAlpha_5__3;
+  __declspec(property(get = __cordl_internal_get__oldRootViewControllerStartAlpha_5__3,
+                      put = __cordl_internal_set__oldRootViewControllerStartAlpha_5__3)) float_t _oldRootViewControllerStartAlpha_5__3;
 
   /// @brief Field <elapsedTime>5__4, offset 0x44, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__4, put = __set__elapsedTime_5__4)) float_t _elapsedTime_5__4;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__4, put = __cordl_internal_set__elapsedTime_5__4)) float_t _elapsedTime_5__4;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -95,53 +96,53 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::Screen*& __get___4__this();
+  constexpr ::UnityW<::HMUI::Screen>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::Screen*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::Screen> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::Screen* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::Screen> value);
 
-  constexpr ::HMUI::ViewController*& __get_newRootViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_newRootViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_newRootViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_newRootViewController() const;
 
-  constexpr void __set_newRootViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_newRootViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::__ViewController__AnimationType& __get_animationType();
+  constexpr ::HMUI::__ViewController__AnimationType& __cordl_internal_get_animationType();
 
-  constexpr ::HMUI::__ViewController__AnimationType const& __get_animationType() const;
+  constexpr ::HMUI::__ViewController__AnimationType const& __cordl_internal_get_animationType() const;
 
-  constexpr void __set_animationType(::HMUI::__ViewController__AnimationType value);
+  constexpr void __cordl_internal_set_animationType(::HMUI::__ViewController__AnimationType value);
 
-  constexpr ::HMUI::ViewController*& __get__oldRootViewController_5__2();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__oldRootViewController_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get__oldRootViewController_5__2() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__oldRootViewController_5__2() const;
 
-  constexpr void __set__oldRootViewController_5__2(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__oldRootViewController_5__2(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get__oldRootViewControllerStartAlpha_5__3();
+  constexpr float_t& __cordl_internal_get__oldRootViewControllerStartAlpha_5__3();
 
-  constexpr float_t const& __get__oldRootViewControllerStartAlpha_5__3() const;
+  constexpr float_t const& __cordl_internal_get__oldRootViewControllerStartAlpha_5__3() const;
 
-  constexpr void __set__oldRootViewControllerStartAlpha_5__3(float_t value);
+  constexpr void __cordl_internal_set__oldRootViewControllerStartAlpha_5__3(float_t value);
 
-  constexpr float_t& __get__elapsedTime_5__4();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__4();
 
-  constexpr float_t const& __get__elapsedTime_5__4() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__4() const;
 
-  constexpr void __set__elapsedTime_5__4(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__4(float_t value);
 
   static inline ::HMUI::__Screen___TransitionCoroutine_d__5* New_ctor(int32_t __1__state);
 
@@ -184,16 +185,16 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::Screen* _____4__this;
+  ::UnityW<::HMUI::Screen> _____4__this;
 
   /// @brief Field newRootViewController, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ViewController* ___newRootViewController;
+  ::UnityW<::HMUI::ViewController> ___newRootViewController;
 
   /// @brief Field animationType, offset: 0x30, size: 0x4, def value: None
   ::HMUI::__ViewController__AnimationType ___animationType;
 
   /// @brief Field <oldRootViewController>5__2, offset: 0x38, size: 0x8, def value: None
-  ::HMUI::ViewController* ____oldRootViewController_5__2;
+  ::UnityW<::HMUI::ViewController> ____oldRootViewController_5__2;
 
   /// @brief Field <oldRootViewControllerStartAlpha>5__3, offset: 0x40, size: 0x4, def value: None
   float_t ____oldRootViewControllerStartAlpha_5__3;
@@ -227,7 +228,7 @@ static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, ____elapsedT
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13590))
 // CS Name: ::HMUI::Screen*
 class CORDL_TYPE Screen : public ::UnityEngine::MonoBehaviour {
@@ -236,24 +237,24 @@ public:
   using _TransitionCoroutine_d__5 = ::HMUI::__Screen___TransitionCoroutine_d__5;
 
   /// @brief Field _rootViewController, offset 0x18, size 0x8
-  __declspec(property(get = __get__rootViewController, put = __set__rootViewController))::HMUI::ViewController* _rootViewController;
+  __declspec(property(get = __cordl_internal_get__rootViewController, put = __cordl_internal_set__rootViewController))::UnityW<::HMUI::ViewController> _rootViewController;
 
   /// @brief Field _isBeingDestroyed, offset 0x20, size 0x1
-  __declspec(property(get = __get__isBeingDestroyed, put = __set__isBeingDestroyed)) bool _isBeingDestroyed;
+  __declspec(property(get = __cordl_internal_get__isBeingDestroyed, put = __cordl_internal_set__isBeingDestroyed)) bool _isBeingDestroyed;
 
   __declspec(property(get = get_isBeingDestroyed)) bool isBeingDestroyed;
 
-  constexpr ::HMUI::ViewController*& __get__rootViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__rootViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get__rootViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__rootViewController() const;
 
-  constexpr void __set__rootViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__rootViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr bool& __get__isBeingDestroyed();
+  constexpr bool& __cordl_internal_get__isBeingDestroyed();
 
-  constexpr bool const& __get__isBeingDestroyed() const;
+  constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
 
-  constexpr void __set__isBeingDestroyed(bool value);
+  constexpr void __cordl_internal_set__isBeingDestroyed(bool value);
 
   /// @brief Method get_isBeingDestroyed, addr 0x212baf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isBeingDestroyed();
@@ -287,7 +288,7 @@ protected:
 
 public:
   /// @brief Field _rootViewController, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::ViewController* ____rootViewController;
+  ::UnityW<::HMUI::ViewController> ____rootViewController;
 
   /// @brief Field _isBeingDestroyed, offset: 0x20, size: 0x1, def value: None
   bool ____isBeingDestroyed;

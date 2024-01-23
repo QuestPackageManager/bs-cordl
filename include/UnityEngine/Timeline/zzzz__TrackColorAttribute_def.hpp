@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackColorAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13864))
 // CS Name: ::UnityEngine.Timeline::TrackColorAttribute*
 class CORDL_TYPE TrackColorAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_Color, offset 0x10, size 0x10
-  __declspec(property(get = __get_m_Color, put = __set_m_Color))::UnityEngine::Color m_Color;
+  __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color))::UnityEngine::Color m_Color;
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  constexpr ::UnityEngine::Color& __get_m_Color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_Color();
 
-  constexpr ::UnityEngine::Color const& __get_m_Color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_Color() const;
 
-  constexpr void __set_m_Color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
   /// @brief Method get_color, addr 0x2c61a70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();

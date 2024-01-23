@@ -52,17 +52,17 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeEventInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3466)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3466))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3519))
 // CS Name: ::System.Reflection::RuntimeEventInfo*
 class CORDL_TYPE RuntimeEventInfo : public ::System::Reflection::EventInfo {
 public:
   // Declarations
   /// @brief Field klass, offset 0x18, size 0x8
-  __declspec(property(get = __get_klass, put = __set_klass)) void* klass;
+  __declspec(property(get = __cordl_internal_get_klass, put = __cordl_internal_set_klass)) void* klass;
 
   /// @brief Field handle, offset 0x20, size 0x8
-  __declspec(property(get = __get_handle, put = __set_handle)) void* handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle)) void* handle;
 
   __declspec(property(get = get_Module))::System::Reflection::Module* Module;
 
@@ -84,17 +84,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr void*& __get_klass();
+  constexpr void*& __cordl_internal_get_klass();
 
-  constexpr void* const& __get_klass() const;
+  constexpr void* const& __cordl_internal_get_klass() const;
 
-  constexpr void __set_klass(void* value);
+  constexpr void __cordl_internal_set_klass(void* value);
 
-  constexpr void*& __get_handle();
+  constexpr void*& __cordl_internal_get_handle();
 
-  constexpr void* const& __get_handle() const;
+  constexpr void* const& __cordl_internal_get_handle() const;
 
-  constexpr void __set_handle(void* value);
+  constexpr void __cordl_internal_set_handle(void* value);
 
   /// @brief Method get_event_info, addr 0x24f255c, size 0x4, virtual false, abstract: false, final false
   static inline void get_event_info(::System::Reflection::RuntimeEventInfo* ev, ByRef<::System::Reflection::MonoEventInfo> info);

@@ -19,14 +19,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::SimpleBlockResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1354))
 // CS Name: ::Org.BouncyCastle.Crypto::SimpleBlockResult*
 class CORDL_TYPE SimpleBlockResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field result, offset 0x10, size 0x8
-  __declspec(property(get = __get_result, put = __set_result))::ArrayW<uint8_t, ::Array<uint8_t>*> result;
+  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result))::ArrayW<uint8_t, ::Array<uint8_t>*> result;
 
   __declspec(property(get = get_Length)) int32_t Length;
 
@@ -36,11 +36,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_result();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_result();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_result() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_result() const;
 
-  constexpr void __set_result(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_result(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::SimpleBlockResult* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 

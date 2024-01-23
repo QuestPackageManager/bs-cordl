@@ -32,31 +32,34 @@ MARK_REF_PTR_T(::GlobalNamespace::MockNoteData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14752))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15511)) CS Name: ::MockNoteData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14760))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15511)) CS Name: ::MockNoteData*
 class CORDL_TYPE MockNoteData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <time>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__time_k__BackingField, put = __set__time_k__BackingField)) float_t _time_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) float_t _time_k__BackingField;
 
   /// @brief Field <lineIndex>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__lineIndex_k__BackingField, put = __set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
   /// @brief Field <gameplayType>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__gameplayType_k__BackingField, put = __set__gameplayType_k__BackingField))::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__gameplayType_k__BackingField,
+                      put = __cordl_internal_set__gameplayType_k__BackingField))::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
 
   /// @brief Field <colorType>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__colorType_k__BackingField, put = __set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__colorType_k__BackingField, put = __cordl_internal_set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
 
   /// @brief Field <cutDirection>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__cutDirection_k__BackingField, put = __set__cutDirection_k__BackingField))::GlobalNamespace::NoteCutDirection _cutDirection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cutDirection_k__BackingField,
+                      put = __cordl_internal_set__cutDirection_k__BackingField))::GlobalNamespace::NoteCutDirection _cutDirection_k__BackingField;
 
   /// @brief Field <noteLineLayer>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__noteLineLayer_k__BackingField, put = __set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteLineLayer_k__BackingField,
+                      put = __cordl_internal_set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
 
   /// @brief Field <duration>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__duration_k__BackingField, put = __set__duration_k__BackingField)) float_t _duration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__duration_k__BackingField, put = __cordl_internal_set__duration_k__BackingField)) float_t _duration_k__BackingField;
 
   __declspec(property(get = get_time, put = set_time)) float_t time;
 
@@ -72,47 +75,47 @@ public:
 
   __declspec(property(get = get_duration, put = set_duration)) float_t duration;
 
-  constexpr float_t& __get__time_k__BackingField();
+  constexpr float_t& __cordl_internal_get__time_k__BackingField();
 
-  constexpr float_t const& __get__time_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__time_k__BackingField() const;
 
-  constexpr void __set__time_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__lineIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
 
-  constexpr int32_t const& __get__lineIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
 
-  constexpr void __set__lineIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType& __get__gameplayType_k__BackingField();
+  constexpr ::GlobalNamespace::__NoteData__GameplayType& __cordl_internal_get__gameplayType_k__BackingField();
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __get__gameplayType_k__BackingField() const;
+  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __cordl_internal_get__gameplayType_k__BackingField() const;
 
-  constexpr void __set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value);
+  constexpr void __cordl_internal_set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value);
 
-  constexpr ::GlobalNamespace::ColorType& __get__colorType_k__BackingField();
+  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get__colorType_k__BackingField();
 
-  constexpr ::GlobalNamespace::ColorType const& __get__colorType_k__BackingField() const;
+  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
 
-  constexpr void __set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
+  constexpr void __cordl_internal_set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
 
-  constexpr ::GlobalNamespace::NoteCutDirection& __get__cutDirection_k__BackingField();
+  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get__cutDirection_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteCutDirection const& __get__cutDirection_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get__cutDirection_k__BackingField() const;
 
-  constexpr void __set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value);
+  constexpr void __cordl_internal_set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__noteLineLayer_k__BackingField();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__noteLineLayer_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__noteLineLayer_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__noteLineLayer_k__BackingField() const;
 
-  constexpr void __set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr float_t& __get__duration_k__BackingField();
+  constexpr float_t& __cordl_internal_get__duration_k__BackingField();
 
-  constexpr float_t const& __get__duration_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__duration_k__BackingField() const;
 
-  constexpr void __set__duration_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__duration_k__BackingField(float_t value);
 
   /// @brief Method get_time, addr 0x23e6d58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();

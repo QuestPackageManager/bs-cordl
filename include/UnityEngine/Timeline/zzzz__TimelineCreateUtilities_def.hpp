@@ -47,20 +47,20 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayC
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13937))
 // CS Name: ::TimelineCreateUtilities::<>c__DisplayClass0_0*
 class CORDL_TYPE __TimelineCreateUtilities____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0* New_ctor();
 
@@ -99,20 +99,20 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineCreateUtilities____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13938))
 // CS Name: ::TimelineCreateUtilities::<>c__DisplayClass0_1*
 class CORDL_TYPE __TimelineCreateUtilities____c__DisplayClass0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field result, offset 0x10, size 0x8
-  __declspec(property(get = __get_result, put = __set_result))::StringW result;
+  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result))::StringW result;
 
-  constexpr ::StringW& __get_result();
+  constexpr ::StringW& __cordl_internal_get_result();
 
-  constexpr ::StringW const& __get_result() const;
+  constexpr ::StringW const& __cordl_internal_get_result() const;
 
-  constexpr void __set_result(::StringW value);
+  constexpr void __cordl_internal_set_result(::StringW value);
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1* New_ctor();
 
@@ -151,7 +151,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineCreateUtilities____c__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13939))
 // CS Name: ::UnityEngine.Timeline::TimelineCreateUtilities*
 class CORDL_TYPE TimelineCreateUtilities : public ::System::Object {
@@ -162,7 +162,7 @@ public:
   using __c__DisplayClass0_0 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0;
 
   /// @brief Method GenerateUniqueActorName, addr 0x2c71e84, size 0x2f0, virtual false, abstract: false, final false
-  static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* tracks, ::StringW name);
+  static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* tracks, ::StringW name);
 
   /// @brief Method SaveAssetIntoObject, addr 0x2c71ca0, size 0xe8, virtual false, abstract: false, final false
   static inline void SaveAssetIntoObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
@@ -171,7 +171,7 @@ public:
   static inline void RemoveAssetFromObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
 
   /// @brief Method CreateAnimationClipForTrack, addr 0x2c72184, size 0x1b8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationClip* CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
+  static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
 
   /// @brief Method ValidateParentTrack, addr 0x2c7233c, size 0x320, virtual false, abstract: false, final false
   static inline bool ValidateParentTrack(::UnityEngine::Timeline::TrackAsset* parent, ::System::Type* childType);

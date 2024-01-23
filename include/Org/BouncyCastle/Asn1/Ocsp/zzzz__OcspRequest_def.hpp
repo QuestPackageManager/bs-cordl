@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(211))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::OcspRequest*
 class CORDL_TYPE OcspRequest : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field tbsRequest, offset 0x10, size 0x8
-  __declspec(property(get = __get_tbsRequest, put = __set_tbsRequest))::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest;
+  __declspec(property(get = __cordl_internal_get_tbsRequest, put = __cordl_internal_set_tbsRequest))::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest;
 
   /// @brief Field optionalSignature, offset 0x18, size 0x8
-  __declspec(property(get = __get_optionalSignature, put = __set_optionalSignature))::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature;
+  __declspec(property(get = __cordl_internal_get_optionalSignature, put = __cordl_internal_set_optionalSignature))::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature;
 
   __declspec(property(get = get_TbsRequest))::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* TbsRequest;
 
   __declspec(property(get = get_OptionalSignature))::Org::BouncyCastle::Asn1::Ocsp::Signature* OptionalSignature;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*& __get_tbsRequest();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*& __cordl_internal_get_tbsRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*> const& __get_tbsRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*> const& __cordl_internal_get_tbsRequest() const;
 
-  constexpr void __set_tbsRequest(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* value);
+  constexpr void __cordl_internal_set_tbsRequest(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Signature*& __get_optionalSignature();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Signature*& __cordl_internal_get_optionalSignature();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::Signature*> const& __get_optionalSignature() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::Signature*> const& __cordl_internal_get_optionalSignature() const;
 
-  constexpr void __set_optionalSignature(::Org::BouncyCastle::Asn1::Ocsp::Signature* value);
+  constexpr void __cordl_internal_set_optionalSignature(::Org::BouncyCastle::Asn1::Ocsp::Signature* value);
 
   /// @brief Method GetInstance, addr 0xf80ab4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

@@ -26,16 +26,16 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeItemHeaderValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14705)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14705)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
 class CORDL_TYPE RangeItemHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <From>k__BackingField, offset 0x10, size 0x10
-  __declspec(property(get = __get__From_k__BackingField, put = __set__From_k__BackingField))::System::Nullable_1<int64_t> _From_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__From_k__BackingField, put = __cordl_internal_set__From_k__BackingField))::System::Nullable_1<int64_t> _From_k__BackingField;
 
   /// @brief Field <To>k__BackingField, offset 0x20, size 0x10
-  __declspec(property(get = __get__To_k__BackingField, put = __set__To_k__BackingField))::System::Nullable_1<int64_t> _To_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__To_k__BackingField, put = __cordl_internal_set__To_k__BackingField))::System::Nullable_1<int64_t> _To_k__BackingField;
 
   __declspec(property(get = get_From, put = set_From))::System::Nullable_1<int64_t> From;
 
@@ -47,17 +47,17 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Nullable_1<int64_t>& __get__From_k__BackingField();
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__From_k__BackingField();
 
-  constexpr ::System::Nullable_1<int64_t> const& __get__From_k__BackingField() const;
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
 
-  constexpr void __set__From_k__BackingField(::System::Nullable_1<int64_t> value);
+  constexpr void __cordl_internal_set__From_k__BackingField(::System::Nullable_1<int64_t> value);
 
-  constexpr ::System::Nullable_1<int64_t>& __get__To_k__BackingField();
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__To_k__BackingField();
 
-  constexpr ::System::Nullable_1<int64_t> const& __get__To_k__BackingField() const;
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__To_k__BackingField() const;
 
-  constexpr void __set__To_k__BackingField(::System::Nullable_1<int64_t> value);
+  constexpr void __cordl_internal_set__To_k__BackingField(::System::Nullable_1<int64_t> value);
 
   static inline ::System::Net::Http::Headers::RangeItemHeaderValue* New_ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 

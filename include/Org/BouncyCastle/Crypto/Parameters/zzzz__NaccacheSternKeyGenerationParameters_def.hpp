@@ -18,17 +18,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerati
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1018))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1018))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1068))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyGenerationParameters*
 class CORDL_TYPE NaccacheSternKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
   /// @brief Field certainty, offset 0x1c, size 0x4
-  __declspec(property(get = __get_certainty, put = __set_certainty)) int32_t certainty;
+  __declspec(property(get = __cordl_internal_get_certainty, put = __cordl_internal_set_certainty)) int32_t certainty;
 
   /// @brief Field countSmallPrimes, offset 0x20, size 0x4
-  __declspec(property(get = __get_countSmallPrimes, put = __set_countSmallPrimes)) int32_t countSmallPrimes;
+  __declspec(property(get = __cordl_internal_get_countSmallPrimes, put = __cordl_internal_set_countSmallPrimes)) int32_t countSmallPrimes;
 
   __declspec(property(get = get_Certainty)) int32_t Certainty;
 
@@ -36,17 +36,17 @@ public:
 
   __declspec(property(get = get_IsDebug)) bool IsDebug;
 
-  constexpr int32_t& __get_certainty();
+  constexpr int32_t& __cordl_internal_get_certainty();
 
-  constexpr int32_t const& __get_certainty() const;
+  constexpr int32_t const& __cordl_internal_get_certainty() const;
 
-  constexpr void __set_certainty(int32_t value);
+  constexpr void __cordl_internal_set_certainty(int32_t value);
 
-  constexpr int32_t& __get_countSmallPrimes();
+  constexpr int32_t& __cordl_internal_get_countSmallPrimes();
 
-  constexpr int32_t const& __get_countSmallPrimes() const;
+  constexpr int32_t const& __cordl_internal_get_countSmallPrimes() const;
 
-  constexpr void __set_countSmallPrimes(int32_t value);
+  constexpr void __cordl_internal_set_countSmallPrimes(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty,
                                                                                                         int32_t countSmallPrimes);

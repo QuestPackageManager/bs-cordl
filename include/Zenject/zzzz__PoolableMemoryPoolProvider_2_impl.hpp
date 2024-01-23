@@ -17,34 +17,34 @@ template <typename TContract, typename TMemoryPool> constexpr Zenject::PoolableM
 template <typename TContract, typename TMemoryPool> constexpr ::Zenject::IValidatable* Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::i___Zenject__IValidatable() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
-template <typename TContract, typename TMemoryPool> constexpr TMemoryPool& Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__get__pool() {
+template <typename TContract, typename TMemoryPool> constexpr TMemoryPool& Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__cordl_internal_get__pool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
-template <typename TContract, typename TMemoryPool> constexpr TMemoryPool const& Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__get__pool() const {
+template <typename TContract, typename TMemoryPool> constexpr TMemoryPool const& Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__cordl_internal_get__pool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
-template <typename TContract, typename TMemoryPool> constexpr void Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__set__pool(TMemoryPool value) {
+template <typename TContract, typename TMemoryPool> constexpr void Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__cordl_internal_set__pool(TMemoryPool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract, typename TMemoryPool>
 inline ::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>* Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::New_ctor(::Zenject::DiContainer* container,
                                                                                                                                                 ::System::Guid poolId) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>*>(container, poolId));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>*>(container, poolId));
 }
 template <typename TContract, typename TMemoryPool> inline void Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::_ctor(::Zenject::DiContainer* container, ::System::Guid poolId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, poolId);
 }
 template <typename TContract, typename TMemoryPool> inline void Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::Validate() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>*>::get(), "Validate",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TContract, typename TMemoryPool>

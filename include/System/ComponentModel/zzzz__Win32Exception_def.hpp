@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::System::ComponentModel::Win32Exception);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3302))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3302))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9492))
 // CS Name: ::System.ComponentModel::Win32Exception*
 class CORDL_TYPE Win32Exception : public ::System::Runtime::InteropServices::ExternalException {
 public:
   // Declarations
   /// @brief Field nativeErrorCode, offset 0x8c, size 0x4
-  __declspec(property(get = __get_nativeErrorCode, put = __set_nativeErrorCode)) int32_t nativeErrorCode;
+  __declspec(property(get = __cordl_internal_get_nativeErrorCode, put = __cordl_internal_set_nativeErrorCode)) int32_t nativeErrorCode;
 
   __declspec(property(get = get_NativeErrorCode)) int32_t NativeErrorCode;
 
@@ -42,11 +42,11 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr int32_t& __get_nativeErrorCode();
+  constexpr int32_t& __cordl_internal_get_nativeErrorCode();
 
-  constexpr int32_t const& __get_nativeErrorCode() const;
+  constexpr int32_t const& __cordl_internal_get_nativeErrorCode() const;
 
-  constexpr void __set_nativeErrorCode(int32_t value);
+  constexpr void __cordl_internal_set_nativeErrorCode(int32_t value);
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor();
 

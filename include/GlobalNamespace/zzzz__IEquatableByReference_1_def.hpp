@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12785))
 // CS Name: ::IEquatableByReference`1<T>*
 class CORDL_TYPE IEquatableByReference_1 {

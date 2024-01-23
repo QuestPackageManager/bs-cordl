@@ -118,7 +118,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRSettings);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8494))
 // CS Name: ::IVRSettings::_GetSettingsErrorNameFromEnum*
 class CORDL_TYPE __IVRSettings___GetSettingsErrorNameFromEnum : public ::System::MulticastDelegate {
@@ -162,7 +162,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8495))
 // CS Name: ::IVRSettings::_Sync*
 class CORDL_TYPE __IVRSettings___Sync : public ::System::MulticastDelegate {
@@ -206,7 +206,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Syn
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8496))
 // CS Name: ::IVRSettings::_SetBool*
 class CORDL_TYPE __IVRSettings___SetBool : public ::System::MulticastDelegate {
@@ -251,7 +251,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8497))
 // CS Name: ::IVRSettings::_SetInt32*
 class CORDL_TYPE __IVRSettings___SetInt32 : public ::System::MulticastDelegate {
@@ -296,7 +296,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8498))
 // CS Name: ::IVRSettings::_SetFloat*
 class CORDL_TYPE __IVRSettings___SetFloat : public ::System::MulticastDelegate {
@@ -341,7 +341,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8499))
 // CS Name: ::IVRSettings::_SetString*
 class CORDL_TYPE __IVRSettings___SetString : public ::System::MulticastDelegate {
@@ -386,7 +386,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8500))
 // CS Name: ::IVRSettings::_GetBool*
 class CORDL_TYPE __IVRSettings___GetBool : public ::System::MulticastDelegate {
@@ -431,7 +431,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8501))
 // CS Name: ::IVRSettings::_GetInt32*
 class CORDL_TYPE __IVRSettings___GetInt32 : public ::System::MulticastDelegate {
@@ -476,7 +476,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8502))
 // CS Name: ::IVRSettings::_GetFloat*
 class CORDL_TYPE __IVRSettings___GetFloat : public ::System::MulticastDelegate {
@@ -521,7 +521,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8503))
 // CS Name: ::IVRSettings::_GetString*
 class CORDL_TYPE __IVRSettings___GetString : public ::System::MulticastDelegate {
@@ -566,7 +566,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8504))
 // CS Name: ::IVRSettings::_RemoveSection*
 class CORDL_TYPE __IVRSettings___RemoveSection : public ::System::MulticastDelegate {
@@ -610,7 +610,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Rem
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8505))
 // CS Name: ::IVRSettings::_RemoveKeyInSection*
 class CORDL_TYPE __IVRSettings___RemoveKeyInSection : public ::System::MulticastDelegate {
@@ -655,7 +655,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Rem
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8506))
 // CS Name: ::OVR.OpenVR::IVRSettings
 struct CORDL_TYPE IVRSettings {

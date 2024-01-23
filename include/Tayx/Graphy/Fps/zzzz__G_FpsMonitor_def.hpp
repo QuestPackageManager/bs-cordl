@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::__G_FpsMonitor____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15083))
 // CS Name: ::G_FpsMonitor::<>c*
 class CORDL_TYPE __G_FpsMonitor____c : public ::System::Object {
@@ -80,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::__G_FpsMonito
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15084))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsMonitor*
 class CORDL_TYPE G_FpsMonitor : public ::UnityEngine::MonoBehaviour {
@@ -89,40 +89,40 @@ public:
   using __c = ::Tayx::Graphy::Fps::__G_FpsMonitor____c;
 
   /// @brief Field m_fpsSamples, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_fpsSamples, put = __set_m_fpsSamples))::ArrayW<int16_t, ::Array<int16_t>*> m_fpsSamples;
+  __declspec(property(get = __cordl_internal_get_m_fpsSamples, put = __cordl_internal_set_m_fpsSamples))::ArrayW<int16_t, ::Array<int16_t>*> m_fpsSamples;
 
   /// @brief Field m_fpsSamplesSorted, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_fpsSamplesSorted, put = __set_m_fpsSamplesSorted))::ArrayW<int16_t, ::Array<int16_t>*> m_fpsSamplesSorted;
+  __declspec(property(get = __cordl_internal_get_m_fpsSamplesSorted, put = __cordl_internal_set_m_fpsSamplesSorted))::ArrayW<int16_t, ::Array<int16_t>*> m_fpsSamplesSorted;
 
   /// @brief Field m_fpsSamplesCapacity, offset 0x28, size 0x2
-  __declspec(property(get = __get_m_fpsSamplesCapacity, put = __set_m_fpsSamplesCapacity)) int16_t m_fpsSamplesCapacity;
+  __declspec(property(get = __cordl_internal_get_m_fpsSamplesCapacity, put = __cordl_internal_set_m_fpsSamplesCapacity)) int16_t m_fpsSamplesCapacity;
 
   /// @brief Field m_onePercentSamples, offset 0x2a, size 0x2
-  __declspec(property(get = __get_m_onePercentSamples, put = __set_m_onePercentSamples)) int16_t m_onePercentSamples;
+  __declspec(property(get = __cordl_internal_get_m_onePercentSamples, put = __cordl_internal_set_m_onePercentSamples)) int16_t m_onePercentSamples;
 
   /// @brief Field m_zero1PercentSamples, offset 0x2c, size 0x2
-  __declspec(property(get = __get_m_zero1PercentSamples, put = __set_m_zero1PercentSamples)) int16_t m_zero1PercentSamples;
+  __declspec(property(get = __cordl_internal_get_m_zero1PercentSamples, put = __cordl_internal_set_m_zero1PercentSamples)) int16_t m_zero1PercentSamples;
 
   /// @brief Field m_fpsSamplesCount, offset 0x2e, size 0x2
-  __declspec(property(get = __get_m_fpsSamplesCount, put = __set_m_fpsSamplesCount)) int16_t m_fpsSamplesCount;
+  __declspec(property(get = __cordl_internal_get_m_fpsSamplesCount, put = __cordl_internal_set_m_fpsSamplesCount)) int16_t m_fpsSamplesCount;
 
   /// @brief Field m_indexSample, offset 0x30, size 0x2
-  __declspec(property(get = __get_m_indexSample, put = __set_m_indexSample)) int16_t m_indexSample;
+  __declspec(property(get = __cordl_internal_get_m_indexSample, put = __cordl_internal_set_m_indexSample)) int16_t m_indexSample;
 
   /// @brief Field m_unscaledDeltaTime, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_unscaledDeltaTime, put = __set_m_unscaledDeltaTime)) float_t m_unscaledDeltaTime;
+  __declspec(property(get = __cordl_internal_get_m_unscaledDeltaTime, put = __cordl_internal_set_m_unscaledDeltaTime)) float_t m_unscaledDeltaTime;
 
   /// @brief Field <CurrentFPS>k__BackingField, offset 0x38, size 0x2
-  __declspec(property(get = __get__CurrentFPS_k__BackingField, put = __set__CurrentFPS_k__BackingField)) int16_t _CurrentFPS_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CurrentFPS_k__BackingField, put = __cordl_internal_set__CurrentFPS_k__BackingField)) int16_t _CurrentFPS_k__BackingField;
 
   /// @brief Field <AverageFPS>k__BackingField, offset 0x3a, size 0x2
-  __declspec(property(get = __get__AverageFPS_k__BackingField, put = __set__AverageFPS_k__BackingField)) int16_t _AverageFPS_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AverageFPS_k__BackingField, put = __cordl_internal_set__AverageFPS_k__BackingField)) int16_t _AverageFPS_k__BackingField;
 
   /// @brief Field <OnePercentFPS>k__BackingField, offset 0x3c, size 0x2
-  __declspec(property(get = __get__OnePercentFPS_k__BackingField, put = __set__OnePercentFPS_k__BackingField)) int16_t _OnePercentFPS_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__OnePercentFPS_k__BackingField, put = __cordl_internal_set__OnePercentFPS_k__BackingField)) int16_t _OnePercentFPS_k__BackingField;
 
   /// @brief Field <Zero1PercentFps>k__BackingField, offset 0x3e, size 0x2
-  __declspec(property(get = __get__Zero1PercentFps_k__BackingField, put = __set__Zero1PercentFps_k__BackingField)) int16_t _Zero1PercentFps_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Zero1PercentFps_k__BackingField, put = __cordl_internal_set__Zero1PercentFps_k__BackingField)) int16_t _Zero1PercentFps_k__BackingField;
 
   __declspec(property(get = get_CurrentFPS, put = set_CurrentFPS)) int16_t CurrentFPS;
 
@@ -132,77 +132,77 @@ public:
 
   __declspec(property(get = get_Zero1PercentFps, put = set_Zero1PercentFps)) int16_t Zero1PercentFps;
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_m_fpsSamples();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_m_fpsSamples();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_m_fpsSamples() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_m_fpsSamples() const;
 
-  constexpr void __set_m_fpsSamples(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_m_fpsSamples(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_m_fpsSamplesSorted();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_m_fpsSamplesSorted();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_m_fpsSamplesSorted() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_m_fpsSamplesSorted() const;
 
-  constexpr void __set_m_fpsSamplesSorted(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_m_fpsSamplesSorted(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr int16_t& __get_m_fpsSamplesCapacity();
+  constexpr int16_t& __cordl_internal_get_m_fpsSamplesCapacity();
 
-  constexpr int16_t const& __get_m_fpsSamplesCapacity() const;
+  constexpr int16_t const& __cordl_internal_get_m_fpsSamplesCapacity() const;
 
-  constexpr void __set_m_fpsSamplesCapacity(int16_t value);
+  constexpr void __cordl_internal_set_m_fpsSamplesCapacity(int16_t value);
 
-  constexpr int16_t& __get_m_onePercentSamples();
+  constexpr int16_t& __cordl_internal_get_m_onePercentSamples();
 
-  constexpr int16_t const& __get_m_onePercentSamples() const;
+  constexpr int16_t const& __cordl_internal_get_m_onePercentSamples() const;
 
-  constexpr void __set_m_onePercentSamples(int16_t value);
+  constexpr void __cordl_internal_set_m_onePercentSamples(int16_t value);
 
-  constexpr int16_t& __get_m_zero1PercentSamples();
+  constexpr int16_t& __cordl_internal_get_m_zero1PercentSamples();
 
-  constexpr int16_t const& __get_m_zero1PercentSamples() const;
+  constexpr int16_t const& __cordl_internal_get_m_zero1PercentSamples() const;
 
-  constexpr void __set_m_zero1PercentSamples(int16_t value);
+  constexpr void __cordl_internal_set_m_zero1PercentSamples(int16_t value);
 
-  constexpr int16_t& __get_m_fpsSamplesCount();
+  constexpr int16_t& __cordl_internal_get_m_fpsSamplesCount();
 
-  constexpr int16_t const& __get_m_fpsSamplesCount() const;
+  constexpr int16_t const& __cordl_internal_get_m_fpsSamplesCount() const;
 
-  constexpr void __set_m_fpsSamplesCount(int16_t value);
+  constexpr void __cordl_internal_set_m_fpsSamplesCount(int16_t value);
 
-  constexpr int16_t& __get_m_indexSample();
+  constexpr int16_t& __cordl_internal_get_m_indexSample();
 
-  constexpr int16_t const& __get_m_indexSample() const;
+  constexpr int16_t const& __cordl_internal_get_m_indexSample() const;
 
-  constexpr void __set_m_indexSample(int16_t value);
+  constexpr void __cordl_internal_set_m_indexSample(int16_t value);
 
-  constexpr float_t& __get_m_unscaledDeltaTime();
+  constexpr float_t& __cordl_internal_get_m_unscaledDeltaTime();
 
-  constexpr float_t const& __get_m_unscaledDeltaTime() const;
+  constexpr float_t const& __cordl_internal_get_m_unscaledDeltaTime() const;
 
-  constexpr void __set_m_unscaledDeltaTime(float_t value);
+  constexpr void __cordl_internal_set_m_unscaledDeltaTime(float_t value);
 
-  constexpr int16_t& __get__CurrentFPS_k__BackingField();
+  constexpr int16_t& __cordl_internal_get__CurrentFPS_k__BackingField();
 
-  constexpr int16_t const& __get__CurrentFPS_k__BackingField() const;
+  constexpr int16_t const& __cordl_internal_get__CurrentFPS_k__BackingField() const;
 
-  constexpr void __set__CurrentFPS_k__BackingField(int16_t value);
+  constexpr void __cordl_internal_set__CurrentFPS_k__BackingField(int16_t value);
 
-  constexpr int16_t& __get__AverageFPS_k__BackingField();
+  constexpr int16_t& __cordl_internal_get__AverageFPS_k__BackingField();
 
-  constexpr int16_t const& __get__AverageFPS_k__BackingField() const;
+  constexpr int16_t const& __cordl_internal_get__AverageFPS_k__BackingField() const;
 
-  constexpr void __set__AverageFPS_k__BackingField(int16_t value);
+  constexpr void __cordl_internal_set__AverageFPS_k__BackingField(int16_t value);
 
-  constexpr int16_t& __get__OnePercentFPS_k__BackingField();
+  constexpr int16_t& __cordl_internal_get__OnePercentFPS_k__BackingField();
 
-  constexpr int16_t const& __get__OnePercentFPS_k__BackingField() const;
+  constexpr int16_t const& __cordl_internal_get__OnePercentFPS_k__BackingField() const;
 
-  constexpr void __set__OnePercentFPS_k__BackingField(int16_t value);
+  constexpr void __cordl_internal_set__OnePercentFPS_k__BackingField(int16_t value);
 
-  constexpr int16_t& __get__Zero1PercentFps_k__BackingField();
+  constexpr int16_t& __cordl_internal_get__Zero1PercentFps_k__BackingField();
 
-  constexpr int16_t const& __get__Zero1PercentFps_k__BackingField() const;
+  constexpr int16_t const& __cordl_internal_get__Zero1PercentFps_k__BackingField() const;
 
-  constexpr void __set__Zero1PercentFps_k__BackingField(int16_t value);
+  constexpr void __cordl_internal_set__Zero1PercentFps_k__BackingField(int16_t value);
 
   /// @brief Method get_CurrentFPS, addr 0x2a08cd8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_CurrentFPS();

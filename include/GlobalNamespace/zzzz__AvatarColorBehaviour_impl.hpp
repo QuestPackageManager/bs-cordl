@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x2315250;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(), 13));
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e8;
   constexpr static std::size_t addrs = 0x23152c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(), 20));
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x23154ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(), 16));
@@ -59,69 +59,69 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x2315538;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Color& GlobalNamespace::AvatarColorBehaviour::__get__startColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__startColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::AvatarColorBehaviour::__get__startColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__startColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColor;
 }
-constexpr void GlobalNamespace::AvatarColorBehaviour::__set__startColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::AvatarColorBehaviour::__cordl_internal_set__startColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startColor = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::AvatarColorBehaviour::__get__endColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__endColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::AvatarColorBehaviour::__get__endColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__endColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endColor;
 }
-constexpr void GlobalNamespace::AvatarColorBehaviour::__set__endColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::AvatarColorBehaviour::__cordl_internal_set__endColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endColor = value;
 }
-constexpr ::GlobalNamespace::EaseType& GlobalNamespace::AvatarColorBehaviour::__get__easeType() {
+constexpr ::GlobalNamespace::EaseType& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__easeType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType;
 }
-constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::AvatarColorBehaviour::__get__easeType() const {
+constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__easeType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType;
 }
-constexpr void GlobalNamespace::AvatarColorBehaviour::__set__easeType(::GlobalNamespace::EaseType value) {
+constexpr void GlobalNamespace::AvatarColorBehaviour::__cordl_internal_set__easeType(::GlobalNamespace::EaseType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____easeType = value;
 }
-constexpr ::BeatSaber::AvatarCore::AvatarVisualController*& GlobalNamespace::AvatarColorBehaviour::__get__avatarVisualController() {
+constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController>& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__avatarVisualController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarVisualController;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarVisualController*> const& GlobalNamespace::AvatarColorBehaviour::__get__avatarVisualController() const {
+constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> const& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__avatarVisualController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarVisualController;
 }
-constexpr void GlobalNamespace::AvatarColorBehaviour::__set__avatarVisualController(::BeatSaber::AvatarCore::AvatarVisualController* value) {
+constexpr void GlobalNamespace::AvatarColorBehaviour::__cordl_internal_set__avatarVisualController(::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarVisualController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::AvatarColorBehaviour::__get__duration() {
+constexpr float_t& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__duration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
-constexpr float_t const& GlobalNamespace::AvatarColorBehaviour::__get__duration() const {
+constexpr float_t const& GlobalNamespace::AvatarColorBehaviour::__cordl_internal_get__duration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
-constexpr void GlobalNamespace::AvatarColorBehaviour::__set__duration(float_t value) {
+constexpr void GlobalNamespace::AvatarColorBehaviour::__cordl_internal_set__duration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration = value;
 }
@@ -141,11 +141,11 @@ inline void GlobalNamespace::AvatarColorBehaviour::OnPlayableDestroy(::UnityEngi
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playable);
 }
 inline ::GlobalNamespace::AvatarColorBehaviour* GlobalNamespace::AvatarColorBehaviour::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::AvatarColorBehaviour*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AvatarColorBehaviour*>());
 }
 inline void GlobalNamespace::AvatarColorBehaviour::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

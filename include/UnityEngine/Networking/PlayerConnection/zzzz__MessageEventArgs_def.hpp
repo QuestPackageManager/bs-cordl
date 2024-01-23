@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10312))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::MessageEventArgs*
 class CORDL_TYPE MessageEventArgs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field playerId, offset 0x10, size 0x4
-  __declspec(property(get = __get_playerId, put = __set_playerId)) int32_t playerId;
+  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId)) int32_t playerId;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  constexpr int32_t& __get_playerId();
+  constexpr int32_t& __cordl_internal_get_playerId();
 
-  constexpr int32_t const& __get_playerId() const;
+  constexpr int32_t const& __cordl_internal_get_playerId() const;
 
-  constexpr void __set_playerId(int32_t value);
+  constexpr void __cordl_internal_set_playerId(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* New_ctor();
 

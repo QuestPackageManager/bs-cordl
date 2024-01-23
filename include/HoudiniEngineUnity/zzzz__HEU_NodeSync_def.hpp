@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_NodeSync);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9793))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9793))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9796))
 // CS Name: ::HoudiniEngineUnity::HEU_NodeSync*
 class CORDL_TYPE HEU_NodeSync : public ::HoudiniEngineUnity::HEU_BaseSync {
 public:
   // Declarations
   /// @brief Field _nodeSaveFilePath, offset 0x80, size 0x8
-  __declspec(property(get = __get__nodeSaveFilePath, put = __set__nodeSaveFilePath))::StringW _nodeSaveFilePath;
+  __declspec(property(get = __cordl_internal_get__nodeSaveFilePath, put = __cordl_internal_set__nodeSaveFilePath))::StringW _nodeSaveFilePath;
 
-  constexpr ::StringW& __get__nodeSaveFilePath();
+  constexpr ::StringW& __cordl_internal_get__nodeSaveFilePath();
 
-  constexpr ::StringW const& __get__nodeSaveFilePath() const;
+  constexpr ::StringW const& __cordl_internal_get__nodeSaveFilePath() const;
 
-  constexpr void __set__nodeSaveFilePath(::StringW value);
+  constexpr void __cordl_internal_set__nodeSaveFilePath(::StringW value);
 
   /// @brief Method OnEnable, addr 0x21aa060, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();

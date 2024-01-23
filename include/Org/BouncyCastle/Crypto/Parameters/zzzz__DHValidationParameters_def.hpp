@@ -19,31 +19,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1025))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DHValidationParameters*
 class CORDL_TYPE DHValidationParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field seed, offset 0x10, size 0x8
-  __declspec(property(get = __get_seed, put = __set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
   /// @brief Field counter, offset 0x18, size 0x4
-  __declspec(property(get = __get_counter, put = __set_counter)) int32_t counter;
+  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
 
   __declspec(property(get = get_Counter)) int32_t Counter;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_seed();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_seed() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
 
-  constexpr void __set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_counter();
+  constexpr int32_t& __cordl_internal_get_counter();
 
-  constexpr int32_t const& __get_counter() const;
+  constexpr int32_t const& __cordl_internal_get_counter() const;
 
-  constexpr void __set_counter(int32_t value);
+  constexpr void __cordl_internal_set_counter(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 

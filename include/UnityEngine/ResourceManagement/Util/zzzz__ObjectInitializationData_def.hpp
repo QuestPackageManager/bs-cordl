@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::ObjectInitializationData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13983))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13983))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13984))
 // CS Name: ::UnityEngine.ResourceManagement.Util::ObjectInitializationData
 struct CORDL_TYPE ObjectInitializationData {

@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::System::IO::__Stream__NullStream);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3612))
 // CS Name: ::Stream::NullStream*
 class CORDL_TYPE __Stream__NullStream : public ::System::IO::Stream {

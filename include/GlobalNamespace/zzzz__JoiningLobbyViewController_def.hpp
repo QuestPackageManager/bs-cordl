@@ -24,47 +24,47 @@ MARK_REF_PTR_T(::GlobalNamespace::JoiningLobbyViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5715))
 // CS Name: ::JoiningLobbyViewController*
 class CORDL_TYPE JoiningLobbyViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _cancelJoiningButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__cancelJoiningButton, put = __set__cancelJoiningButton))::UnityEngine::UI::Button* _cancelJoiningButton;
+  __declspec(property(get = __cordl_internal_get__cancelJoiningButton, put = __cordl_internal_set__cancelJoiningButton))::UnityW<::UnityEngine::UI::Button> _cancelJoiningButton;
 
   /// @brief Field _loadingControl, offset 0x78, size 0x8
-  __declspec(property(get = __get__loadingControl, put = __set__loadingControl))::GlobalNamespace::LoadingControl* _loadingControl;
+  __declspec(property(get = __cordl_internal_get__loadingControl, put = __cordl_internal_set__loadingControl))::UnityW<::GlobalNamespace::LoadingControl> _loadingControl;
 
   /// @brief Field _text, offset 0x80, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::StringW _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::StringW _text;
 
   /// @brief Field didCancelEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didCancelEvent, put = __set_didCancelEvent))::System::Action* didCancelEvent;
+  __declspec(property(get = __cordl_internal_get_didCancelEvent, put = __cordl_internal_set_didCancelEvent))::System::Action* didCancelEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelJoiningButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelJoiningButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelJoiningButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelJoiningButton() const;
 
-  constexpr void __set__cancelJoiningButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelJoiningButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::LoadingControl*& __get__loadingControl();
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__loadingControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadingControl*> const& __get__loadingControl() const;
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& __cordl_internal_get__loadingControl() const;
 
-  constexpr void __set__loadingControl(::GlobalNamespace::LoadingControl* value);
+  constexpr void __cordl_internal_set__loadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
-  constexpr ::StringW& __get__text();
+  constexpr ::StringW& __cordl_internal_get__text();
 
-  constexpr ::StringW const& __get__text() const;
+  constexpr ::StringW const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::StringW value);
+  constexpr void __cordl_internal_set__text(::StringW value);
 
-  constexpr ::System::Action*& __get_didCancelEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didCancelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didCancelEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didCancelEvent() const;
 
-  constexpr void __set_didCancelEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didCancelEvent(::System::Action* value);
 
   /// @brief Method add_didCancelEvent, addr 0x22cd794, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCancelEvent(::System::Action* value);
@@ -104,10 +104,10 @@ protected:
 
 public:
   /// @brief Field _cancelJoiningButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelJoiningButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelJoiningButton;
 
   /// @brief Field _loadingControl, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::LoadingControl* ____loadingControl;
+  ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
   /// @brief Field _text, offset: 0x80, size: 0x8, def value: None
   ::StringW ____text;

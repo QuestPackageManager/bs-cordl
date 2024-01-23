@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeClipBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13884))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13884))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13883))
 // CS Name: ::UnityEngine.Timeline::RuntimeClipBase*
 class CORDL_TYPE RuntimeClipBase : public ::UnityEngine::Timeline::RuntimeElement {

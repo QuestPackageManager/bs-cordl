@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x22abff4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(),
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x22ac108;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(),
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x22ac1b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(),
@@ -58,46 +58,46 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22ac280;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraPositionSmooth() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothCameraPositionSmooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraPositionSmooth;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraPositionSmooth() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothCameraPositionSmooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraPositionSmooth;
 }
-constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__set__smoothCameraPositionSmooth(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_set__smoothCameraPositionSmooth(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothCameraPositionSmooth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraRotationSmooth() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothCameraRotationSmooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraRotationSmooth;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraRotationSmooth() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothCameraRotationSmooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraRotationSmooth;
 }
-constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__set__smoothCameraRotationSmooth(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_set__smoothCameraRotationSmooth(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothCameraRotationSmooth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothnesses() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothnesses() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothnesses;
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothnesses() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothnesses() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothnesses;
 }
-constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value) {
+constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothnesses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -120,12 +120,12 @@ inline ::StringW GlobalNamespace::SmoothCameraSmoothnessSettingsController::Text
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, idx);
 }
 inline ::GlobalNamespace::SmoothCameraSmoothnessSettingsController* GlobalNamespace::SmoothCameraSmoothnessSettingsController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>());
 }
 inline void GlobalNamespace::SmoothCameraSmoothnessSettingsController::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

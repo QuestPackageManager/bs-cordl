@@ -17,10 +17,11 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::BakedEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(10467)), TypeDefinitionIndex(TypeDefinitionIndex(9639)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(10196)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(10467), inst: 5233 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9604)) CS Name: ::HoudiniEngineUnity::BakedEvent*
-class CORDL_TYPE BakedEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(9639)), TypeDefinitionIndex(TypeDefinitionIndex(10196)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 311 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(10467), inst: 5233 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9604)) CS Name: ::HoudiniEngineUnity::BakedEvent*
+class CORDL_TYPE BakedEvent
+    : public ::UnityEngine::Events::UnityEvent_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::BakedEvent* New_ctor();

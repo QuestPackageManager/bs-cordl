@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttributeDictionary);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9855)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9855), inst: 2576 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9666))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9667)) CS Name: ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9666)), TypeDefinitionIndex(TypeDefinitionIndex(9855)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9855), inst: 2576
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9667)) CS Name: ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*
 class CORDL_TYPE HEU_OutputAttributeDictionary : public ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW, ::HoudiniEngineUnity::HEU_OutputAttribute*> {
 public:
   // Declarations

@@ -104,7 +104,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Scrollbar___ClickRepeat_d__58);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13108))
 // CS Name: ::Scrollbar::Direction
 struct CORDL_TYPE __Scrollbar__Direction {
@@ -162,7 +162,7 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar__Direction, value__) == 0x
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13109))
 // CS Name: ::Scrollbar::ScrollEvent*
 class CORDL_TYPE __Scrollbar__ScrollEvent : public ::UnityEngine::Events::UnityEvent_1<float_t> {
@@ -197,7 +197,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Scrollbar__Sc
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13110))
 // CS Name: ::Scrollbar::Axis
 struct CORDL_TYPE __Scrollbar__Axis {
@@ -247,26 +247,26 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar__Axis, value__) == 0x0, "O
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13111))
 // CS Name: ::Scrollbar::<ClickRepeat>d__58*
 class CORDL_TYPE __Scrollbar___ClickRepeat_d__58 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::UI::Scrollbar* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::UI::Scrollbar> __4__this;
 
   /// @brief Field screenPosition, offset 0x28, size 0x8
-  __declspec(property(get = __get_screenPosition, put = __set_screenPosition))::UnityEngine::Vector2 screenPosition;
+  __declspec(property(get = __cordl_internal_get_screenPosition, put = __cordl_internal_set_screenPosition))::UnityEngine::Vector2 screenPosition;
 
   /// @brief Field camera, offset 0x30, size 0x8
-  __declspec(property(get = __get_camera, put = __set_camera))::UnityEngine::Camera* camera;
+  __declspec(property(get = __cordl_internal_get_camera, put = __cordl_internal_set_camera))::UnityW<::UnityEngine::Camera> camera;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -290,35 +290,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::UnityEngine::UI::Scrollbar*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::UI::Scrollbar>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Scrollbar*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::UI::Scrollbar> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::UI::Scrollbar* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::UI::Scrollbar> value);
 
-  constexpr ::UnityEngine::Vector2& __get_screenPosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_screenPosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_screenPosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_screenPosition() const;
 
-  constexpr void __set_screenPosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_screenPosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Camera*& __get_camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get_camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_camera() const;
 
-  constexpr void __set_camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set_camera(::UnityW<::UnityEngine::Camera> value);
 
   static inline ::UnityEngine::UI::__Scrollbar___ClickRepeat_d__58* New_ctor(int32_t __1__state);
 
@@ -361,13 +361,13 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Scrollbar* _____4__this;
+  ::UnityW<::UnityEngine::UI::Scrollbar> _____4__this;
 
   /// @brief Field screenPosition, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___screenPosition;
 
   /// @brief Field camera, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Camera* ___camera;
+  ::UnityW<::UnityEngine::Camera> ___camera;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -389,8 +389,8 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar___ClickRepeat_d__58, ___ca
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 314, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13108)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::Scrollbar*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13108)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13119))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::Scrollbar*
 class CORDL_TYPE Scrollbar : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
@@ -403,42 +403,42 @@ public:
   using Direction = ::UnityEngine::UI::__Scrollbar__Direction;
 
   /// @brief Field m_HandleRect, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_HandleRect, put = __set_m_HandleRect))::UnityEngine::RectTransform* m_HandleRect;
+  __declspec(property(get = __cordl_internal_get_m_HandleRect, put = __cordl_internal_set_m_HandleRect))::UnityW<::UnityEngine::RectTransform> m_HandleRect;
 
   /// @brief Field m_Direction, offset 0x100, size 0x4
-  __declspec(property(get = __get_m_Direction, put = __set_m_Direction))::UnityEngine::UI::__Scrollbar__Direction m_Direction;
+  __declspec(property(get = __cordl_internal_get_m_Direction, put = __cordl_internal_set_m_Direction))::UnityEngine::UI::__Scrollbar__Direction m_Direction;
 
   /// @brief Field m_Value, offset 0x104, size 0x4
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) float_t m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) float_t m_Value;
 
   /// @brief Field m_Size, offset 0x108, size 0x4
-  __declspec(property(get = __get_m_Size, put = __set_m_Size)) float_t m_Size;
+  __declspec(property(get = __cordl_internal_get_m_Size, put = __cordl_internal_set_m_Size)) float_t m_Size;
 
   /// @brief Field m_NumberOfSteps, offset 0x10c, size 0x4
-  __declspec(property(get = __get_m_NumberOfSteps, put = __set_m_NumberOfSteps)) int32_t m_NumberOfSteps;
+  __declspec(property(get = __cordl_internal_get_m_NumberOfSteps, put = __cordl_internal_set_m_NumberOfSteps)) int32_t m_NumberOfSteps;
 
   /// @brief Field m_OnValueChanged, offset 0x110, size 0x8
-  __declspec(property(get = __get_m_OnValueChanged, put = __set_m_OnValueChanged))::UnityEngine::UI::__Scrollbar__ScrollEvent* m_OnValueChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnValueChanged, put = __cordl_internal_set_m_OnValueChanged))::UnityEngine::UI::__Scrollbar__ScrollEvent* m_OnValueChanged;
 
   /// @brief Field m_ContainerRect, offset 0x118, size 0x8
-  __declspec(property(get = __get_m_ContainerRect, put = __set_m_ContainerRect))::UnityEngine::RectTransform* m_ContainerRect;
+  __declspec(property(get = __cordl_internal_get_m_ContainerRect, put = __cordl_internal_set_m_ContainerRect))::UnityW<::UnityEngine::RectTransform> m_ContainerRect;
 
   /// @brief Field m_Offset, offset 0x120, size 0x8
-  __declspec(property(get = __get_m_Offset, put = __set_m_Offset))::UnityEngine::Vector2 m_Offset;
+  __declspec(property(get = __cordl_internal_get_m_Offset, put = __cordl_internal_set_m_Offset))::UnityEngine::Vector2 m_Offset;
 
   /// @brief Field m_Tracker, offset 0x128, size 0x1
-  __declspec(property(get = __get_m_Tracker, put = __set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
+  __declspec(property(get = __cordl_internal_get_m_Tracker, put = __cordl_internal_set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
 
   /// @brief Field m_PointerDownRepeat, offset 0x130, size 0x8
-  __declspec(property(get = __get_m_PointerDownRepeat, put = __set_m_PointerDownRepeat))::UnityEngine::Coroutine* m_PointerDownRepeat;
+  __declspec(property(get = __cordl_internal_get_m_PointerDownRepeat, put = __cordl_internal_set_m_PointerDownRepeat))::UnityEngine::Coroutine* m_PointerDownRepeat;
 
   /// @brief Field isPointerDownAndNotDragging, offset 0x138, size 0x1
-  __declspec(property(get = __get_isPointerDownAndNotDragging, put = __set_isPointerDownAndNotDragging)) bool isPointerDownAndNotDragging;
+  __declspec(property(get = __cordl_internal_get_isPointerDownAndNotDragging, put = __cordl_internal_set_isPointerDownAndNotDragging)) bool isPointerDownAndNotDragging;
 
   /// @brief Field m_DelayedUpdateVisuals, offset 0x139, size 0x1
-  __declspec(property(get = __get_m_DelayedUpdateVisuals, put = __set_m_DelayedUpdateVisuals)) bool m_DelayedUpdateVisuals;
+  __declspec(property(get = __cordl_internal_get_m_DelayedUpdateVisuals, put = __cordl_internal_set_m_DelayedUpdateVisuals)) bool m_DelayedUpdateVisuals;
 
-  __declspec(property(get = get_handleRect, put = set_handleRect))::UnityEngine::RectTransform* handleRect;
+  __declspec(property(get = get_handleRect, put = set_handleRect))::UnityW<::UnityEngine::RectTransform> handleRect;
 
   __declspec(property(get = get_direction, put = set_direction))::UnityEngine::UI::__Scrollbar__Direction direction;
 
@@ -486,80 +486,80 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_HandleRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_HandleRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_HandleRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_HandleRect() const;
 
-  constexpr void __set_m_HandleRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_HandleRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::__Scrollbar__Direction& __get_m_Direction();
+  constexpr ::UnityEngine::UI::__Scrollbar__Direction& __cordl_internal_get_m_Direction();
 
-  constexpr ::UnityEngine::UI::__Scrollbar__Direction const& __get_m_Direction() const;
+  constexpr ::UnityEngine::UI::__Scrollbar__Direction const& __cordl_internal_get_m_Direction() const;
 
-  constexpr void __set_m_Direction(::UnityEngine::UI::__Scrollbar__Direction value);
+  constexpr void __cordl_internal_set_m_Direction(::UnityEngine::UI::__Scrollbar__Direction value);
 
-  constexpr float_t& __get_m_Value();
+  constexpr float_t& __cordl_internal_get_m_Value();
 
-  constexpr float_t const& __get_m_Value() const;
+  constexpr float_t const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(float_t value);
+  constexpr void __cordl_internal_set_m_Value(float_t value);
 
-  constexpr float_t& __get_m_Size();
+  constexpr float_t& __cordl_internal_get_m_Size();
 
-  constexpr float_t const& __get_m_Size() const;
+  constexpr float_t const& __cordl_internal_get_m_Size() const;
 
-  constexpr void __set_m_Size(float_t value);
+  constexpr void __cordl_internal_set_m_Size(float_t value);
 
-  constexpr int32_t& __get_m_NumberOfSteps();
+  constexpr int32_t& __cordl_internal_get_m_NumberOfSteps();
 
-  constexpr int32_t const& __get_m_NumberOfSteps() const;
+  constexpr int32_t const& __cordl_internal_get_m_NumberOfSteps() const;
 
-  constexpr void __set_m_NumberOfSteps(int32_t value);
+  constexpr void __cordl_internal_set_m_NumberOfSteps(int32_t value);
 
-  constexpr ::UnityEngine::UI::__Scrollbar__ScrollEvent*& __get_m_OnValueChanged();
+  constexpr ::UnityEngine::UI::__Scrollbar__ScrollEvent*& __cordl_internal_get_m_OnValueChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Scrollbar__ScrollEvent*> const& __get_m_OnValueChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Scrollbar__ScrollEvent*> const& __cordl_internal_get_m_OnValueChanged() const;
 
-  constexpr void __set_m_OnValueChanged(::UnityEngine::UI::__Scrollbar__ScrollEvent* value);
+  constexpr void __cordl_internal_set_m_OnValueChanged(::UnityEngine::UI::__Scrollbar__ScrollEvent* value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_ContainerRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_ContainerRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_ContainerRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_ContainerRect() const;
 
-  constexpr void __set_m_ContainerRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_ContainerRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_Offset();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Offset();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_Offset() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Offset() const;
 
-  constexpr void __set_m_Offset(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_Offset(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker& __get_m_Tracker();
+  constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get_m_Tracker();
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker const& __get_m_Tracker() const;
+  constexpr ::UnityEngine::DrivenRectTransformTracker const& __cordl_internal_get_m_Tracker() const;
 
-  constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
+  constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  constexpr ::UnityEngine::Coroutine*& __get_m_PointerDownRepeat();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get_m_PointerDownRepeat();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get_m_PointerDownRepeat() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get_m_PointerDownRepeat() const;
 
-  constexpr void __set_m_PointerDownRepeat(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set_m_PointerDownRepeat(::UnityEngine::Coroutine* value);
 
-  constexpr bool& __get_isPointerDownAndNotDragging();
+  constexpr bool& __cordl_internal_get_isPointerDownAndNotDragging();
 
-  constexpr bool const& __get_isPointerDownAndNotDragging() const;
+  constexpr bool const& __cordl_internal_get_isPointerDownAndNotDragging() const;
 
-  constexpr void __set_isPointerDownAndNotDragging(bool value);
+  constexpr void __cordl_internal_set_isPointerDownAndNotDragging(bool value);
 
-  constexpr bool& __get_m_DelayedUpdateVisuals();
+  constexpr bool& __cordl_internal_get_m_DelayedUpdateVisuals();
 
-  constexpr bool const& __get_m_DelayedUpdateVisuals() const;
+  constexpr bool const& __cordl_internal_get_m_DelayedUpdateVisuals() const;
 
-  constexpr void __set_m_DelayedUpdateVisuals(bool value);
+  constexpr void __cordl_internal_set_m_DelayedUpdateVisuals(bool value);
 
   /// @brief Method get_handleRect, addr 0x2d80c70, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_handleRect();
+  inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
 
   /// @brief Method set_handleRect, addr 0x2d80c78, size 0x7c, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
@@ -672,16 +672,16 @@ public:
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
   /// @brief Method FindSelectableOnLeft, addr 0x2d82538, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnLeft();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnLeft();
 
   /// @brief Method FindSelectableOnRight, addr 0x2d82634, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnRight();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnRight();
 
   /// @brief Method FindSelectableOnUp, addr 0x2d82730, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnUp();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnUp();
 
   /// @brief Method FindSelectableOnDown, addr 0x2d8282c, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnDown();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnDown();
 
   /// @brief Method OnInitializePotentialDrag, addr 0x2d82928, size 0x18, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
@@ -690,7 +690,7 @@ public:
   inline void SetDirection(::UnityEngine::UI::__Scrollbar__Direction direction, bool includeRectLayouts);
 
   /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2d82ab8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
+  inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "Scrollbar", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -707,7 +707,7 @@ protected:
 
 public:
   /// @brief Field m_HandleRect, offset: 0xf8, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_HandleRect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_HandleRect;
 
   /// @brief Field m_Direction, offset: 0x100, size: 0x4, def value: None
   ::UnityEngine::UI::__Scrollbar__Direction ___m_Direction;
@@ -725,7 +725,7 @@ public:
   ::UnityEngine::UI::__Scrollbar__ScrollEvent* ___m_OnValueChanged;
 
   /// @brief Field m_ContainerRect, offset: 0x118, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_ContainerRect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_ContainerRect;
 
   /// @brief Field m_Offset, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Offset;

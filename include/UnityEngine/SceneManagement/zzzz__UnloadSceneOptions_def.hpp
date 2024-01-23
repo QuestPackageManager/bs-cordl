@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::UnloadSceneOptions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10378))
 // CS Name: ::UnityEngine.SceneManagement::UnloadSceneOptions
 struct CORDL_TYPE UnloadSceneOptions {

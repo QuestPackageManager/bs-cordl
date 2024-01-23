@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2dc0f3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdater*>::get(),
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x2dc0f94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdater*>::get(),
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30c;
   constexpr static std::size_t addrs = 0x2dc10dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdater*>::get(),
@@ -63,9 +63,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x2dc13e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdater*>::get(),
-                                                                               "ApplyStyles", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "ApplyStyles", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -77,84 +77,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x2dc184c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdater*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_ApplyStyleUpdateList() {
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_ApplyStyleUpdateList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ApplyStyleUpdateList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const&
-UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_ApplyStyleUpdateList() const {
+UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_ApplyStyleUpdateList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ApplyStyleUpdateList;
 }
-constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__set_m_ApplyStyleUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value) {
+constexpr void
+UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_ApplyStyleUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ApplyStyleUpdateList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_TransitionPropertyUpdateList() {
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*&
+UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_TransitionPropertyUpdateList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TransitionPropertyUpdateList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const&
-UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_TransitionPropertyUpdateList() const {
+UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_TransitionPropertyUpdateList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TransitionPropertyUpdateList;
 }
-constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__set_m_TransitionPropertyUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value) {
+constexpr void
+UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_TransitionPropertyUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TransitionPropertyUpdateList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_IsApplyingStyles() {
+constexpr bool& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_IsApplyingStyles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsApplyingStyles;
 }
-constexpr bool const& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_IsApplyingStyles() const {
+constexpr bool const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_IsApplyingStyles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsApplyingStyles;
 }
-constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__set_m_IsApplyingStyles(bool value) {
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_IsApplyingStyles(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsApplyingStyles = value;
 }
-constexpr uint32_t& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_Version() {
+constexpr uint32_t& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_Version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
-constexpr uint32_t const& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_Version() const {
+constexpr uint32_t const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_Version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
-constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__set_m_Version(uint32_t value) {
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_Version(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Version = value;
 }
-constexpr uint32_t& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_LastVersion() {
+constexpr uint32_t& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_LastVersion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastVersion;
 }
-constexpr uint32_t const& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_LastVersion() const {
+constexpr uint32_t const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_LastVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastVersion;
 }
-constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__set_m_LastVersion(uint32_t value) {
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_LastVersion(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastVersion = value;
 }
-constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*& UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_StyleContextHierarchyTraversal() {
+constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_StyleContextHierarchyTraversal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleContextHierarchyTraversal;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*> const&
-UnityEngine::UIElements::VisualTreeStyleUpdater::__get_m_StyleContextHierarchyTraversal() const {
+UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_StyleContextHierarchyTraversal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleContextHierarchyTraversal;
 }
-constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__set_m_StyleContextHierarchyTraversal(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* value) {
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_StyleContextHierarchyTraversal(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_StyleContextHierarchyTraversal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -191,15 +194,15 @@ inline void UnityEngine::UIElements::VisualTreeStyleUpdater::Update() {
 }
 inline void UnityEngine::UIElements::VisualTreeStyleUpdater::ApplyStyles() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdater*>::get(),
-                                                                             "ApplyStyles", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "ApplyStyles", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* UnityEngine::UIElements::VisualTreeStyleUpdater::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::VisualTreeStyleUpdater*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualTreeStyleUpdater*>());
 }
 inline void UnityEngine::UIElements::VisualTreeStyleUpdater::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdater*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -37,26 +37,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(190))
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.X509::ProfessionInfo*
 class CORDL_TYPE ProfessionInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field namingAuthority, offset 0x10, size 0x8
-  __declspec(property(get = __get_namingAuthority, put = __set_namingAuthority))::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority;
+  __declspec(property(get = __cordl_internal_get_namingAuthority, put = __cordl_internal_set_namingAuthority))::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority;
 
   /// @brief Field professionItems, offset 0x18, size 0x8
-  __declspec(property(get = __get_professionItems, put = __set_professionItems))::Org::BouncyCastle::Asn1::Asn1Sequence* professionItems;
+  __declspec(property(get = __cordl_internal_get_professionItems, put = __cordl_internal_set_professionItems))::Org::BouncyCastle::Asn1::Asn1Sequence* professionItems;
 
   /// @brief Field professionOids, offset 0x20, size 0x8
-  __declspec(property(get = __get_professionOids, put = __set_professionOids))::Org::BouncyCastle::Asn1::Asn1Sequence* professionOids;
+  __declspec(property(get = __cordl_internal_get_professionOids, put = __cordl_internal_set_professionOids))::Org::BouncyCastle::Asn1::Asn1Sequence* professionOids;
 
   /// @brief Field registrationNumber, offset 0x28, size 0x8
-  __declspec(property(get = __get_registrationNumber, put = __set_registrationNumber))::StringW registrationNumber;
+  __declspec(property(get = __cordl_internal_get_registrationNumber, put = __cordl_internal_set_registrationNumber))::StringW registrationNumber;
 
   /// @brief Field addProfessionInfo, offset 0x30, size 0x8
-  __declspec(property(get = __get_addProfessionInfo, put = __set_addProfessionInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* addProfessionInfo;
+  __declspec(property(get = __cordl_internal_get_addProfessionInfo, put = __cordl_internal_set_addProfessionInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* addProfessionInfo;
 
   /// @brief Field Rechtsanwltin, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Rechtsanwltin, put = setStaticF_Rechtsanwltin))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Rechtsanwltin;
@@ -121,35 +121,35 @@ public:
 
   __declspec(property(get = get_RegistrationNumber))::StringW RegistrationNumber;
 
-  constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*& __get_namingAuthority();
+  constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*& __cordl_internal_get_namingAuthority();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*> const& __get_namingAuthority() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*> const& __cordl_internal_get_namingAuthority() const;
 
-  constexpr void __set_namingAuthority(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* value);
+  constexpr void __cordl_internal_set_namingAuthority(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_professionItems();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_professionItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_professionItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_professionItems() const;
 
-  constexpr void __set_professionItems(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_professionItems(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_professionOids();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_professionOids();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_professionOids() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_professionOids() const;
 
-  constexpr void __set_professionOids(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_professionOids(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  constexpr ::StringW& __get_registrationNumber();
+  constexpr ::StringW& __cordl_internal_get_registrationNumber();
 
-  constexpr ::StringW const& __get_registrationNumber() const;
+  constexpr ::StringW const& __cordl_internal_get_registrationNumber() const;
 
-  constexpr void __set_registrationNumber(::StringW value);
+  constexpr void __cordl_internal_set_registrationNumber(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_addProfessionInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_addProfessionInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_addProfessionInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_addProfessionInfo() const;
 
-  constexpr void __set_addProfessionInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_addProfessionInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline void setStaticF_Rechtsanwltin(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 

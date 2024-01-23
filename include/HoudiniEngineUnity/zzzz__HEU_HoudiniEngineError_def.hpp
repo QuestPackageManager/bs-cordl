@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniEngineError);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9673))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniEngineError*
 class CORDL_TYPE HEU_HoudiniEngineError : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field _errorMsg, offset 0x90, size 0x8
-  __declspec(property(get = __get__errorMsg, put = __set__errorMsg))::StringW _errorMsg;
+  __declspec(property(get = __cordl_internal_get__errorMsg, put = __cordl_internal_set__errorMsg))::StringW _errorMsg;
 
-  constexpr ::StringW& __get__errorMsg();
+  constexpr ::StringW& __cordl_internal_get__errorMsg();
 
-  constexpr ::StringW const& __get__errorMsg() const;
+  constexpr ::StringW const& __cordl_internal_get__errorMsg() const;
 
-  constexpr void __set__errorMsg(::StringW value);
+  constexpr void __cordl_internal_set__errorMsg(::StringW value);
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* New_ctor();
 

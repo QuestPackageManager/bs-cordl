@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Messaging::ArgInfoType);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3149))
 // CS Name: ::System.Runtime.Remoting.Messaging::ArgInfoType
 struct CORDL_TYPE ArgInfoType {

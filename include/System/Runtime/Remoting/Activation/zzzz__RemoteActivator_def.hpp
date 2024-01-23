@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::RemoteActivator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3137))
 // CS Name: ::System.Runtime.Remoting.Activation::RemoteActivator*
 class CORDL_TYPE RemoteActivator : public ::System::MarshalByRefObject {

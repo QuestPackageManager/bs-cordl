@@ -50,93 +50,95 @@ MARK_REF_PTR_T(::GlobalNamespace::PrepareLevelCompletionResults);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5273))
 // CS Name: ::PrepareLevelCompletionResults*
 class CORDL_TYPE PrepareLevelCompletionResults : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _gameplayModifiersModelSO, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameplayModifiersModelSO, put = __set__gameplayModifiersModelSO))::GlobalNamespace::GameplayModifiersModelSO* _gameplayModifiersModelSO;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModelSO,
+                      put = __cordl_internal_set__gameplayModifiersModelSO))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModelSO;
 
   /// @brief Field _saberActivityCounter, offset 0x20, size 0x8
-  __declspec(property(get = __get__saberActivityCounter, put = __set__saberActivityCounter))::GlobalNamespace::SaberActivityCounter* _saberActivityCounter;
+  __declspec(property(get = __cordl_internal_get__saberActivityCounter, put = __cordl_internal_set__saberActivityCounter))::UnityW<::GlobalNamespace::SaberActivityCounter> _saberActivityCounter;
 
   /// @brief Field _beatmapObjectExecutionRatingsRecorder, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapObjectExecutionRatingsRecorder,
-                      put = __set__beatmapObjectExecutionRatingsRecorder))::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* _beatmapObjectExecutionRatingsRecorder;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectExecutionRatingsRecorder,
+                      put = __cordl_internal_set__beatmapObjectExecutionRatingsRecorder))::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> _beatmapObjectExecutionRatingsRecorder;
 
   /// @brief Field _scoreController, offset 0x30, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _gameEnergyCounter, offset 0x38, size 0x8
-  __declspec(property(get = __get__gameEnergyCounter, put = __set__gameEnergyCounter))::GlobalNamespace::GameEnergyCounter* _gameEnergyCounter;
+  __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter))::UnityW<::GlobalNamespace::GameEnergyCounter> _gameEnergyCounter;
 
   /// @brief Field _beatmapData, offset 0x40, size 0x8
-  __declspec(property(get = __get__beatmapData, put = __set__beatmapData))::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
 
   /// @brief Field _audioTimeSyncController, offset 0x48, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _gameplayModifiers, offset 0x50, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   /// @brief Field _comboController, offset 0x58, size 0x8
-  __declspec(property(get = __get__comboController, put = __set__comboController))::GlobalNamespace::ComboController* _comboController;
+  __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController))::UnityW<::GlobalNamespace::ComboController> _comboController;
 
-  constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiersModelSO();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModelSO();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& __get__gameplayModifiersModelSO() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModelSO() const;
 
-  constexpr void __set__gameplayModifiersModelSO(::GlobalNamespace::GameplayModifiersModelSO* value);
+  constexpr void __cordl_internal_set__gameplayModifiersModelSO(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-  constexpr ::GlobalNamespace::SaberActivityCounter*& __get__saberActivityCounter();
+  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter>& __cordl_internal_get__saberActivityCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberActivityCounter*> const& __get__saberActivityCounter() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter> const& __cordl_internal_get__saberActivityCounter() const;
 
-  constexpr void __set__saberActivityCounter(::GlobalNamespace::SaberActivityCounter* value);
+  constexpr void __cordl_internal_set__saberActivityCounter(::UnityW<::GlobalNamespace::SaberActivityCounter> value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*& __get__beatmapObjectExecutionRatingsRecorder();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder>& __cordl_internal_get__beatmapObjectExecutionRatingsRecorder();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*> const& __get__beatmapObjectExecutionRatingsRecorder() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> const& __cordl_internal_get__beatmapObjectExecutionRatingsRecorder() const;
 
-  constexpr void __set__beatmapObjectExecutionRatingsRecorder(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* value);
+  constexpr void __cordl_internal_set__beatmapObjectExecutionRatingsRecorder(::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> value);
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::GlobalNamespace::GameEnergyCounter*& __get__gameEnergyCounter();
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& __cordl_internal_get__gameEnergyCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameEnergyCounter*> const& __get__gameEnergyCounter() const;
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__gameEnergyCounter() const;
 
-  constexpr void __set__gameEnergyCounter(::GlobalNamespace::GameEnergyCounter* value);
+  constexpr void __cordl_internal_set__gameEnergyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get__beatmapData();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get__beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
-  constexpr void __set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr ::GlobalNamespace::ComboController*& __get__comboController();
+  constexpr ::UnityW<::GlobalNamespace::ComboController>& __cordl_internal_get__comboController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ComboController*> const& __get__comboController() const;
+  constexpr ::UnityW<::GlobalNamespace::ComboController> const& __cordl_internal_get__comboController() const;
 
-  constexpr void __set__comboController(::GlobalNamespace::ComboController* value);
+  constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
   /// @brief Method FillLevelCompletionResults, addr 0x22607b8, size 0x250, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
@@ -162,31 +164,31 @@ protected:
 
 public:
   /// @brief Field _gameplayModifiersModelSO, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersModelSO* ____gameplayModifiersModelSO;
+  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModelSO;
 
   /// @brief Field _saberActivityCounter, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SaberActivityCounter* ____saberActivityCounter;
+  ::UnityW<::GlobalNamespace::SaberActivityCounter> ____saberActivityCounter;
 
   /// @brief Field _beatmapObjectExecutionRatingsRecorder, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* ____beatmapObjectExecutionRatingsRecorder;
+  ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> ____beatmapObjectExecutionRatingsRecorder;
 
   /// @brief Field _scoreController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
   /// @brief Field _gameEnergyCounter, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::GameEnergyCounter* ____gameEnergyCounter;
+  ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
 
   /// @brief Field _beatmapData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
   /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _gameplayModifiers, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
   /// @brief Field _comboController, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::ComboController* ____comboController;
+  ::UnityW<::GlobalNamespace::ComboController> ____comboController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

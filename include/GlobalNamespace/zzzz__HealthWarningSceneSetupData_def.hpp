@@ -17,25 +17,26 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningSceneSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6053))
 // CS Name: ::HealthWarningSceneSetupData*
 class CORDL_TYPE HealthWarningSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   /// @brief Field _nextScenesTransitionSetupData, offset 0x10, size 0x8
-  __declspec(property(get = __get__nextScenesTransitionSetupData, put = __set__nextScenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* _nextScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__nextScenesTransitionSetupData,
+                      put = __cordl_internal_set__nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> _nextScenesTransitionSetupData;
 
-  __declspec(property(get = get_nextScenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+  __declspec(property(get = get_nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get__nextScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__nextScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get__nextScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get__nextScenesTransitionSetupData() const;
 
-  constexpr void __set__nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
   /// @brief Method get_nextScenesTransitionSetupData, addr 0x231ccb0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
+  inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
   static inline ::GlobalNamespace::HealthWarningSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
@@ -57,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ____nextScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

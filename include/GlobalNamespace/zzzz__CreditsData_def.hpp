@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__CreditsData__Text);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5473))
 // CS Name: ::CreditsData::TextStyle
 struct CORDL_TYPE __CreditsData__TextStyle {
@@ -101,38 +101,38 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__TextStyle, value__) == 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5473)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5473))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5474))
 // CS Name: ::CreditsData::Text*
 class CORDL_TYPE __CreditsData__Text : public ::System::Object {
 public:
   // Declarations
   /// @brief Field text, offset 0x10, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::StringW text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   /// @brief Field localized, offset 0x18, size 0x1
-  __declspec(property(get = __get_localized, put = __set_localized)) bool localized;
+  __declspec(property(get = __cordl_internal_get_localized, put = __cordl_internal_set_localized)) bool localized;
 
   /// @brief Field style, offset 0x1c, size 0x4
-  __declspec(property(get = __get_style, put = __set_style))::GlobalNamespace::__CreditsData__TextStyle style;
+  __declspec(property(get = __cordl_internal_get_style, put = __cordl_internal_set_style))::GlobalNamespace::__CreditsData__TextStyle style;
 
-  constexpr ::StringW& __get_text();
+  constexpr ::StringW& __cordl_internal_get_text();
 
-  constexpr ::StringW const& __get_text() const;
+  constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::StringW value);
+  constexpr void __cordl_internal_set_text(::StringW value);
 
-  constexpr bool& __get_localized();
+  constexpr bool& __cordl_internal_get_localized();
 
-  constexpr bool const& __get_localized() const;
+  constexpr bool const& __cordl_internal_get_localized() const;
 
-  constexpr void __set_localized(bool value);
+  constexpr void __cordl_internal_set_localized(bool value);
 
-  constexpr ::GlobalNamespace::__CreditsData__TextStyle& __get_style();
+  constexpr ::GlobalNamespace::__CreditsData__TextStyle& __cordl_internal_get_style();
 
-  constexpr ::GlobalNamespace::__CreditsData__TextStyle const& __get_style() const;
+  constexpr ::GlobalNamespace::__CreditsData__TextStyle const& __cordl_internal_get_style() const;
 
-  constexpr void __set_style(::GlobalNamespace::__CreditsData__TextStyle value);
+  constexpr void __cordl_internal_set_style(::GlobalNamespace::__CreditsData__TextStyle value);
 
   /// @brief Method IsEmpty, addr 0x22834d4, size 0x20, virtual false, abstract: false, final false
   inline bool IsEmpty();
@@ -184,48 +184,49 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__Text, ___style) == 0x1c
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5475))
 // CS Name: ::CreditsData::RootCreditsItem*
 class CORDL_TYPE __CreditsData__RootCreditsItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __get_title, put = __set_title))::GlobalNamespace::__CreditsData__Text* title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
 
   /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::GlobalNamespace::__CreditsData__Text* text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::GlobalNamespace::__CreditsData__Text* text;
 
   /// @brief Field rowCountOverride, offset 0x20, size 0x4
-  __declspec(property(get = __get_rowCountOverride, put = __set_rowCountOverride)) int32_t rowCountOverride;
+  __declspec(property(get = __cordl_internal_get_rowCountOverride, put = __cordl_internal_set_rowCountOverride)) int32_t rowCountOverride;
 
   /// @brief Field creditsItems, offset 0x28, size 0x8
-  __declspec(property(get = __get_creditsItems,
-                      put = __set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> creditsItems;
+  __declspec(
+      property(get = __cordl_internal_get_creditsItems,
+               put = __cordl_internal_set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> creditsItems;
 
-  constexpr ::GlobalNamespace::__CreditsData__Text*& __get_title();
+  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_title();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __get_title() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_title() const;
 
-  constexpr void __set_title(::GlobalNamespace::__CreditsData__Text* value);
+  constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  constexpr ::GlobalNamespace::__CreditsData__Text*& __get_text();
+  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_text();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __get_text() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::GlobalNamespace::__CreditsData__Text* value);
+  constexpr void __cordl_internal_set_text(::GlobalNamespace::__CreditsData__Text* value);
 
-  constexpr int32_t& __get_rowCountOverride();
+  constexpr int32_t& __cordl_internal_get_rowCountOverride();
 
-  constexpr int32_t const& __get_rowCountOverride() const;
+  constexpr int32_t const& __cordl_internal_get_rowCountOverride() const;
 
-  constexpr void __set_rowCountOverride(int32_t value);
+  constexpr void __cordl_internal_set_rowCountOverride(int32_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*>& __get_creditsItems();
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*>& __cordl_internal_get_creditsItems();
 
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> const& __get_creditsItems() const;
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> const& __cordl_internal_get_creditsItems() const;
 
-  constexpr void __set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> value);
+  constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> value);
 
   /// @brief Method HasTitle, addr 0x22835c0, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
@@ -285,29 +286,29 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__RootCreditsItem, ___cre
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5476))
 // CS Name: ::CreditsData::ChildCreditsItem*
 class CORDL_TYPE __CreditsData__ChildCreditsItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __get_title, put = __set_title))::GlobalNamespace::__CreditsData__Text* title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
 
   /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::GlobalNamespace::__CreditsData__Text* text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::GlobalNamespace::__CreditsData__Text* text;
 
-  constexpr ::GlobalNamespace::__CreditsData__Text*& __get_title();
+  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_title();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __get_title() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_title() const;
 
-  constexpr void __set_title(::GlobalNamespace::__CreditsData__Text* value);
+  constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  constexpr ::GlobalNamespace::__CreditsData__Text*& __get_text();
+  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_text();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __get_text() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::GlobalNamespace::__CreditsData__Text* value);
+  constexpr void __cordl_internal_set_text(::GlobalNamespace::__CreditsData__Text* value);
 
   /// @brief Method HasTitle, addr 0x2283608, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
@@ -354,7 +355,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__ChildCreditsItem, ___te
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5477))
 // CS Name: ::CreditsData*
 class CORDL_TYPE CreditsData : public ::System::Object {
@@ -369,14 +370,14 @@ public:
   using TextStyle = ::GlobalNamespace::__CreditsData__TextStyle;
 
   /// @brief Field creditsItems, offset 0x10, size 0x8
-  __declspec(property(get = __get_creditsItems,
-                      put = __set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> creditsItems;
+  __declspec(property(get = __cordl_internal_get_creditsItems,
+                      put = __cordl_internal_set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> creditsItems;
 
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*>& __get_creditsItems();
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*>& __cordl_internal_get_creditsItems();
 
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> const& __get_creditsItems() const;
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> const& __cordl_internal_get_creditsItems() const;
 
-  constexpr void __set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value);
+  constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value);
 
   /// @brief Method Deserialize, addr 0x22833c8, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CreditsData* Deserialize(::StringW text);

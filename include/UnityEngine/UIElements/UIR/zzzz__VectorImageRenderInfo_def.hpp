@@ -19,37 +19,37 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 413 }), TypeDefinitionIndex(TypeDefinitionIndex(7433)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7419)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7433)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 413
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7419)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
 class CORDL_TYPE VectorImageRenderInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations
   /// @brief Field useCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_useCount, put = __set_useCount)) int32_t useCount;
+  __declspec(property(get = __cordl_internal_get_useCount, put = __cordl_internal_set_useCount)) int32_t useCount;
 
   /// @brief Field firstGradientRemap, offset 0x20, size 0x8
-  __declspec(property(get = __get_firstGradientRemap, put = __set_firstGradientRemap))::UnityEngine::UIElements::UIR::GradientRemap* firstGradientRemap;
+  __declspec(property(get = __cordl_internal_get_firstGradientRemap, put = __cordl_internal_set_firstGradientRemap))::UnityEngine::UIElements::UIR::GradientRemap* firstGradientRemap;
 
   /// @brief Field gradientSettingsAlloc, offset 0x28, size 0x18
-  __declspec(property(get = __get_gradientSettingsAlloc, put = __set_gradientSettingsAlloc))::UnityEngine::UIElements::UIR::Alloc gradientSettingsAlloc;
+  __declspec(property(get = __cordl_internal_get_gradientSettingsAlloc, put = __cordl_internal_set_gradientSettingsAlloc))::UnityEngine::UIElements::UIR::Alloc gradientSettingsAlloc;
 
-  constexpr int32_t& __get_useCount();
+  constexpr int32_t& __cordl_internal_get_useCount();
 
-  constexpr int32_t const& __get_useCount() const;
+  constexpr int32_t const& __cordl_internal_get_useCount() const;
 
-  constexpr void __set_useCount(int32_t value);
+  constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __get_firstGradientRemap();
+  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_firstGradientRemap();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& __get_firstGradientRemap() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& __cordl_internal_get_firstGradientRemap() const;
 
-  constexpr void __set_firstGradientRemap(::UnityEngine::UIElements::UIR::GradientRemap* value);
+  constexpr void __cordl_internal_set_firstGradientRemap(::UnityEngine::UIElements::UIR::GradientRemap* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::Alloc& __get_gradientSettingsAlloc();
+  constexpr ::UnityEngine::UIElements::UIR::Alloc& __cordl_internal_get_gradientSettingsAlloc();
 
-  constexpr ::UnityEngine::UIElements::UIR::Alloc const& __get_gradientSettingsAlloc() const;
+  constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_gradientSettingsAlloc() const;
 
-  constexpr void __set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value);
+  constexpr void __cordl_internal_set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value);
 
   /// @brief Method Reset, addr 0x2dccea8, size 0x10, virtual false, abstract: false, final false
   inline void Reset();

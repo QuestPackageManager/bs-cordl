@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1095))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::CtrSP800Drbg*
 class CORDL_TYPE CtrSP800Drbg : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mEntropySource, offset 0x10, size 0x8
-  __declspec(property(get = __get_mEntropySource, put = __set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mEngine, offset 0x18, size 0x8
-  __declspec(property(get = __get_mEngine, put = __set_mEngine))::Org::BouncyCastle::Crypto::IBlockCipher* mEngine;
+  __declspec(property(get = __cordl_internal_get_mEngine, put = __cordl_internal_set_mEngine))::Org::BouncyCastle::Crypto::IBlockCipher* mEngine;
 
   /// @brief Field mKeySizeInBits, offset 0x20, size 0x4
-  __declspec(property(get = __get_mKeySizeInBits, put = __set_mKeySizeInBits)) int32_t mKeySizeInBits;
+  __declspec(property(get = __cordl_internal_get_mKeySizeInBits, put = __cordl_internal_set_mKeySizeInBits)) int32_t mKeySizeInBits;
 
   /// @brief Field mSeedLength, offset 0x24, size 0x4
-  __declspec(property(get = __get_mSeedLength, put = __set_mSeedLength)) int32_t mSeedLength;
+  __declspec(property(get = __cordl_internal_get_mSeedLength, put = __cordl_internal_set_mSeedLength)) int32_t mSeedLength;
 
   /// @brief Field mSecurityStrength, offset 0x28, size 0x4
-  __declspec(property(get = __get_mSecurityStrength, put = __set_mSecurityStrength)) int32_t mSecurityStrength;
+  __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Field mKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_mKey, put = __set_mKey))::ArrayW<uint8_t, ::Array<uint8_t>*> mKey;
+  __declspec(property(get = __cordl_internal_get_mKey, put = __cordl_internal_set_mKey))::ArrayW<uint8_t, ::Array<uint8_t>*> mKey;
 
   /// @brief Field mV, offset 0x38, size 0x8
-  __declspec(property(get = __get_mV, put = __set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
+  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
 
   /// @brief Field mReseedCounter, offset 0x40, size 0x8
-  __declspec(property(get = __get_mReseedCounter, put = __set_mReseedCounter)) int64_t mReseedCounter;
+  __declspec(property(get = __cordl_internal_get_mReseedCounter, put = __cordl_internal_set_mReseedCounter)) int64_t mReseedCounter;
 
   /// @brief Field mIsTdea, offset 0x48, size 0x1
-  __declspec(property(get = __get_mIsTdea, put = __set_mIsTdea)) bool mIsTdea;
+  __declspec(property(get = __cordl_internal_get_mIsTdea, put = __cordl_internal_set_mIsTdea)) bool mIsTdea;
 
   /// @brief Field TDEA_RESEED_MAX, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_TDEA_RESEED_MAX, put = setStaticF_TDEA_RESEED_MAX)) int64_t TDEA_RESEED_MAX;
@@ -81,59 +81,59 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* i___Org__BouncyCastle__Crypto__Prng__Drbg__ISP80090Drbg() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __get_mEntropySource();
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __cordl_internal_get_mEntropySource();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __get_mEntropySource() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __cordl_internal_get_mEntropySource() const;
 
-  constexpr void __set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
+  constexpr void __cordl_internal_set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_mEngine();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_mEngine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_mEngine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_mEngine() const;
 
-  constexpr void __set_mEngine(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_mEngine(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr int32_t& __get_mKeySizeInBits();
+  constexpr int32_t& __cordl_internal_get_mKeySizeInBits();
 
-  constexpr int32_t const& __get_mKeySizeInBits() const;
+  constexpr int32_t const& __cordl_internal_get_mKeySizeInBits() const;
 
-  constexpr void __set_mKeySizeInBits(int32_t value);
+  constexpr void __cordl_internal_set_mKeySizeInBits(int32_t value);
 
-  constexpr int32_t& __get_mSeedLength();
+  constexpr int32_t& __cordl_internal_get_mSeedLength();
 
-  constexpr int32_t const& __get_mSeedLength() const;
+  constexpr int32_t const& __cordl_internal_get_mSeedLength() const;
 
-  constexpr void __set_mSeedLength(int32_t value);
+  constexpr void __cordl_internal_set_mSeedLength(int32_t value);
 
-  constexpr int32_t& __get_mSecurityStrength();
+  constexpr int32_t& __cordl_internal_get_mSecurityStrength();
 
-  constexpr int32_t const& __get_mSecurityStrength() const;
+  constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
-  constexpr void __set_mSecurityStrength(int32_t value);
+  constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mKey() const;
 
-  constexpr void __set_mKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mV() const;
 
-  constexpr void __set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int64_t& __get_mReseedCounter();
+  constexpr int64_t& __cordl_internal_get_mReseedCounter();
 
-  constexpr int64_t const& __get_mReseedCounter() const;
+  constexpr int64_t const& __cordl_internal_get_mReseedCounter() const;
 
-  constexpr void __set_mReseedCounter(int64_t value);
+  constexpr void __cordl_internal_set_mReseedCounter(int64_t value);
 
-  constexpr bool& __get_mIsTdea();
+  constexpr bool& __cordl_internal_get_mIsTdea();
 
-  constexpr bool const& __get_mIsTdea() const;
+  constexpr bool const& __cordl_internal_get_mIsTdea() const;
 
-  constexpr void __set_mIsTdea(bool value);
+  constexpr void __cordl_internal_set_mIsTdea(bool value);
 
   static inline void setStaticF_TDEA_RESEED_MAX(int64_t value);
 

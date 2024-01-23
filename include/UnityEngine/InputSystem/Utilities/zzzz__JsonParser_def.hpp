@@ -71,7 +71,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6672))
 // CS Name: ::JsonParser::JsonValueType
 struct CORDL_TYPE __JsonParser__JsonValueType {
@@ -145,7 +145,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__JsonParser__Json
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6709))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6709))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6673))
 // CS Name: ::JsonParser::JsonString
 struct CORDL_TYPE __JsonParser__JsonString {
@@ -209,7 +209,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__JsonParser__Json
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6674))
 // CS Name: ::JsonParser::JsonValue::<>c*
 class CORDL_TYPE __JsonParser__JsonValue____c : public ::System::Object {
@@ -274,7 +274,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__JsonParser__J
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6673)), TypeDefinitionIndex(TypeDefinitionIndex(6672))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6672)), TypeDefinitionIndex(TypeDefinitionIndex(6673))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6675))
 // CS Name: ::JsonParser::JsonValue
 struct CORDL_TYPE __JsonParser__JsonValue {
@@ -414,7 +414,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__JsonParser__Json
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6676))
 // CS Name: ::UnityEngine.InputSystem.Utilities::JsonParser
 struct CORDL_TYPE JsonParser {

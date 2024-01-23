@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IllogicalCallContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3144))
 // CS Name: ::System.Runtime.Remoting.Messaging::IllogicalCallContext*
 class CORDL_TYPE IllogicalCallContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Datastore, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Datastore, put = __set_m_Datastore))::System::Collections::Hashtable* m_Datastore;
+  __declspec(property(get = __cordl_internal_get_m_Datastore, put = __cordl_internal_set_m_Datastore))::System::Collections::Hashtable* m_Datastore;
 
   /// @brief Field m_HostContext, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_HostContext, put = __set_m_HostContext))::System::Object* m_HostContext;
+  __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext))::System::Object* m_HostContext;
 
   __declspec(property(get = get_Datastore))::System::Collections::Hashtable* Datastore;
 
@@ -39,17 +39,17 @@ public:
 
   __declspec(property(get = get_HasUserData)) bool HasUserData;
 
-  constexpr ::System::Collections::Hashtable*& __get_m_Datastore();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_Datastore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_m_Datastore() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_Datastore() const;
 
-  constexpr void __set_m_Datastore(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_m_Datastore(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Object*& __get_m_HostContext();
+  constexpr ::System::Object*& __cordl_internal_get_m_HostContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_HostContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_HostContext() const;
 
-  constexpr void __set_m_HostContext(::System::Object* value);
+  constexpr void __cordl_internal_set_m_HostContext(::System::Object* value);
 
   /// @brief Method get_Datastore, addr 0x24a634c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Datastore();

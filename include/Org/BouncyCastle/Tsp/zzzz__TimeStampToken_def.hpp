@@ -60,31 +60,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1769))
 // CS Name: ::TimeStampToken::CertID*
 class CORDL_TYPE __TimeStampToken__CertID : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certID, offset 0x10, size 0x8
-  __declspec(property(get = __get_certID, put = __set_certID))::Org::BouncyCastle::Asn1::Ess::EssCertID* certID;
+  __declspec(property(get = __cordl_internal_get_certID, put = __cordl_internal_set_certID))::Org::BouncyCastle::Asn1::Ess::EssCertID* certID;
 
   /// @brief Field certIDv2, offset 0x18, size 0x8
-  __declspec(property(get = __get_certIDv2, put = __set_certIDv2))::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certIDv2;
+  __declspec(property(get = __cordl_internal_get_certIDv2, put = __cordl_internal_set_certIDv2))::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certIDv2;
 
   __declspec(property(get = get_IssuerSerial))::Org::BouncyCastle::Asn1::X509::IssuerSerial* IssuerSerial;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertID*& __get_certID();
+  constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertID*& __cordl_internal_get_certID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertID*> const& __get_certID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertID*> const& __cordl_internal_get_certID() const;
 
-  constexpr void __set_certID(::Org::BouncyCastle::Asn1::Ess::EssCertID* value);
+  constexpr void __cordl_internal_set_certID(::Org::BouncyCastle::Asn1::Ess::EssCertID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*& __get_certIDv2();
+  constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*& __cordl_internal_get_certIDv2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*> const& __get_certIDv2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*> const& __cordl_internal_get_certIDv2() const;
 
-  constexpr void __set_certIDv2(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* value);
+  constexpr void __cordl_internal_set_certIDv2(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* value);
 
   static inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
 
@@ -142,7 +142,7 @@ static_assert(offsetof(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID, ___ce
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1770))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampToken*
 class CORDL_TYPE TimeStampToken : public ::System::Object {
@@ -151,16 +151,16 @@ public:
   using CertID = ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID;
 
   /// @brief Field tsToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_tsToken, put = __set_tsToken))::Org::BouncyCastle::Cms::CmsSignedData* tsToken;
+  __declspec(property(get = __cordl_internal_get_tsToken, put = __cordl_internal_set_tsToken))::Org::BouncyCastle::Cms::CmsSignedData* tsToken;
 
   /// @brief Field tsaSignerInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_tsaSignerInfo, put = __set_tsaSignerInfo))::Org::BouncyCastle::Cms::SignerInformation* tsaSignerInfo;
+  __declspec(property(get = __cordl_internal_get_tsaSignerInfo, put = __cordl_internal_set_tsaSignerInfo))::Org::BouncyCastle::Cms::SignerInformation* tsaSignerInfo;
 
   /// @brief Field tstInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_tstInfo, put = __set_tstInfo))::Org::BouncyCastle::Tsp::TimeStampTokenInfo* tstInfo;
+  __declspec(property(get = __cordl_internal_get_tstInfo, put = __cordl_internal_set_tstInfo))::Org::BouncyCastle::Tsp::TimeStampTokenInfo* tstInfo;
 
   /// @brief Field certID, offset 0x28, size 0x8
-  __declspec(property(get = __get_certID, put = __set_certID))::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* certID;
+  __declspec(property(get = __cordl_internal_get_certID, put = __cordl_internal_set_certID))::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* certID;
 
   __declspec(property(get = get_TimeStampInfo))::Org::BouncyCastle::Tsp::TimeStampTokenInfo* TimeStampInfo;
 
@@ -170,29 +170,29 @@ public:
 
   __declspec(property(get = get_UnsignedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* UnsignedAttributes;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsSignedData*& __get_tsToken();
+  constexpr ::Org::BouncyCastle::Cms::CmsSignedData*& __cordl_internal_get_tsToken();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSignedData*> const& __get_tsToken() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSignedData*> const& __cordl_internal_get_tsToken() const;
 
-  constexpr void __set_tsToken(::Org::BouncyCastle::Cms::CmsSignedData* value);
+  constexpr void __cordl_internal_set_tsToken(::Org::BouncyCastle::Cms::CmsSignedData* value);
 
-  constexpr ::Org::BouncyCastle::Cms::SignerInformation*& __get_tsaSignerInfo();
+  constexpr ::Org::BouncyCastle::Cms::SignerInformation*& __cordl_internal_get_tsaSignerInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformation*> const& __get_tsaSignerInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformation*> const& __cordl_internal_get_tsaSignerInfo() const;
 
-  constexpr void __set_tsaSignerInfo(::Org::BouncyCastle::Cms::SignerInformation* value);
+  constexpr void __cordl_internal_set_tsaSignerInfo(::Org::BouncyCastle::Cms::SignerInformation* value);
 
-  constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenInfo*& __get_tstInfo();
+  constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenInfo*& __cordl_internal_get_tstInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*> const& __get_tstInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*> const& __cordl_internal_get_tstInfo() const;
 
-  constexpr void __set_tstInfo(::Org::BouncyCastle::Tsp::TimeStampTokenInfo* value);
+  constexpr void __cordl_internal_set_tstInfo(::Org::BouncyCastle::Tsp::TimeStampTokenInfo* value);
 
-  constexpr ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*& __get_certID();
+  constexpr ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*& __cordl_internal_get_certID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*> const& __get_certID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*> const& __cordl_internal_get_certID() const;
 
-  constexpr void __set_certID(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* value);
+  constexpr void __cordl_internal_set_certID(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* value);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 

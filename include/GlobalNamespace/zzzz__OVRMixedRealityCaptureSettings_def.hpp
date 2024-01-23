@@ -46,96 +46,100 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureSettings);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(7643)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7644)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7642)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8135)) CS Name: ::OVRMixedRealityCaptureSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7642)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7643)), TypeDefinitionIndex(TypeDefinitionIndex(7644)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10210)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8135)) CS Name: ::OVRMixedRealityCaptureSettings*
 class CORDL_TYPE OVRMixedRealityCaptureSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field enableMixedReality, offset 0x18, size 0x1
-  __declspec(property(get = __get_enableMixedReality, put = __set_enableMixedReality)) bool enableMixedReality;
+  __declspec(property(get = __cordl_internal_get_enableMixedReality, put = __cordl_internal_set_enableMixedReality)) bool enableMixedReality;
 
   /// @brief Field extraHiddenLayers, offset 0x1c, size 0x4
-  __declspec(property(get = __get_extraHiddenLayers, put = __set_extraHiddenLayers))::UnityEngine::LayerMask extraHiddenLayers;
+  __declspec(property(get = __cordl_internal_get_extraHiddenLayers, put = __cordl_internal_set_extraHiddenLayers))::UnityEngine::LayerMask extraHiddenLayers;
 
   /// @brief Field extraVisibleLayers, offset 0x20, size 0x4
-  __declspec(property(get = __get_extraVisibleLayers, put = __set_extraVisibleLayers))::UnityEngine::LayerMask extraVisibleLayers;
+  __declspec(property(get = __cordl_internal_get_extraVisibleLayers, put = __cordl_internal_set_extraVisibleLayers))::UnityEngine::LayerMask extraVisibleLayers;
 
   /// @brief Field dynamicCullingMask, offset 0x24, size 0x1
-  __declspec(property(get = __get_dynamicCullingMask, put = __set_dynamicCullingMask)) bool dynamicCullingMask;
+  __declspec(property(get = __cordl_internal_get_dynamicCullingMask, put = __cordl_internal_set_dynamicCullingMask)) bool dynamicCullingMask;
 
   /// @brief Field compositionMethod, offset 0x28, size 0x4
-  __declspec(property(get = __get_compositionMethod, put = __set_compositionMethod))::GlobalNamespace::__OVRManager__CompositionMethod compositionMethod;
+  __declspec(property(get = __cordl_internal_get_compositionMethod, put = __cordl_internal_set_compositionMethod))::GlobalNamespace::__OVRManager__CompositionMethod compositionMethod;
 
   /// @brief Field externalCompositionBackdropColorRift, offset 0x2c, size 0x10
-  __declspec(property(get = __get_externalCompositionBackdropColorRift, put = __set_externalCompositionBackdropColorRift))::UnityEngine::Color externalCompositionBackdropColorRift;
+  __declspec(property(get = __cordl_internal_get_externalCompositionBackdropColorRift,
+                      put = __cordl_internal_set_externalCompositionBackdropColorRift))::UnityEngine::Color externalCompositionBackdropColorRift;
 
   /// @brief Field externalCompositionBackdropColorQuest, offset 0x3c, size 0x10
-  __declspec(property(get = __get_externalCompositionBackdropColorQuest, put = __set_externalCompositionBackdropColorQuest))::UnityEngine::Color externalCompositionBackdropColorQuest;
+  __declspec(property(get = __cordl_internal_get_externalCompositionBackdropColorQuest,
+                      put = __cordl_internal_set_externalCompositionBackdropColorQuest))::UnityEngine::Color externalCompositionBackdropColorQuest;
 
   /// @brief Field capturingCameraDevice, offset 0x4c, size 0x4
-  __declspec(property(get = __get_capturingCameraDevice, put = __set_capturingCameraDevice))::GlobalNamespace::__OVRManager__CameraDevice capturingCameraDevice;
+  __declspec(property(get = __cordl_internal_get_capturingCameraDevice, put = __cordl_internal_set_capturingCameraDevice))::GlobalNamespace::__OVRManager__CameraDevice capturingCameraDevice;
 
   /// @brief Field flipCameraFrameHorizontally, offset 0x50, size 0x1
-  __declspec(property(get = __get_flipCameraFrameHorizontally, put = __set_flipCameraFrameHorizontally)) bool flipCameraFrameHorizontally;
+  __declspec(property(get = __cordl_internal_get_flipCameraFrameHorizontally, put = __cordl_internal_set_flipCameraFrameHorizontally)) bool flipCameraFrameHorizontally;
 
   /// @brief Field flipCameraFrameVertically, offset 0x51, size 0x1
-  __declspec(property(get = __get_flipCameraFrameVertically, put = __set_flipCameraFrameVertically)) bool flipCameraFrameVertically;
+  __declspec(property(get = __cordl_internal_get_flipCameraFrameVertically, put = __cordl_internal_set_flipCameraFrameVertically)) bool flipCameraFrameVertically;
 
   /// @brief Field handPoseStateLatency, offset 0x54, size 0x4
-  __declspec(property(get = __get_handPoseStateLatency, put = __set_handPoseStateLatency)) float_t handPoseStateLatency;
+  __declspec(property(get = __cordl_internal_get_handPoseStateLatency, put = __cordl_internal_set_handPoseStateLatency)) float_t handPoseStateLatency;
 
   /// @brief Field sandwichCompositionRenderLatency, offset 0x58, size 0x4
-  __declspec(property(get = __get_sandwichCompositionRenderLatency, put = __set_sandwichCompositionRenderLatency)) float_t sandwichCompositionRenderLatency;
+  __declspec(property(get = __cordl_internal_get_sandwichCompositionRenderLatency, put = __cordl_internal_set_sandwichCompositionRenderLatency)) float_t sandwichCompositionRenderLatency;
 
   /// @brief Field sandwichCompositionBufferedFrames, offset 0x5c, size 0x4
-  __declspec(property(get = __get_sandwichCompositionBufferedFrames, put = __set_sandwichCompositionBufferedFrames)) int32_t sandwichCompositionBufferedFrames;
+  __declspec(property(get = __cordl_internal_get_sandwichCompositionBufferedFrames, put = __cordl_internal_set_sandwichCompositionBufferedFrames)) int32_t sandwichCompositionBufferedFrames;
 
   /// @brief Field chromaKeyColor, offset 0x60, size 0x10
-  __declspec(property(get = __get_chromaKeyColor, put = __set_chromaKeyColor))::UnityEngine::Color chromaKeyColor;
+  __declspec(property(get = __cordl_internal_get_chromaKeyColor, put = __cordl_internal_set_chromaKeyColor))::UnityEngine::Color chromaKeyColor;
 
   /// @brief Field chromaKeySimilarity, offset 0x70, size 0x4
-  __declspec(property(get = __get_chromaKeySimilarity, put = __set_chromaKeySimilarity)) float_t chromaKeySimilarity;
+  __declspec(property(get = __cordl_internal_get_chromaKeySimilarity, put = __cordl_internal_set_chromaKeySimilarity)) float_t chromaKeySimilarity;
 
   /// @brief Field chromaKeySmoothRange, offset 0x74, size 0x4
-  __declspec(property(get = __get_chromaKeySmoothRange, put = __set_chromaKeySmoothRange)) float_t chromaKeySmoothRange;
+  __declspec(property(get = __cordl_internal_get_chromaKeySmoothRange, put = __cordl_internal_set_chromaKeySmoothRange)) float_t chromaKeySmoothRange;
 
   /// @brief Field chromaKeySpillRange, offset 0x78, size 0x4
-  __declspec(property(get = __get_chromaKeySpillRange, put = __set_chromaKeySpillRange)) float_t chromaKeySpillRange;
+  __declspec(property(get = __cordl_internal_get_chromaKeySpillRange, put = __cordl_internal_set_chromaKeySpillRange)) float_t chromaKeySpillRange;
 
   /// @brief Field useDynamicLighting, offset 0x7c, size 0x1
-  __declspec(property(get = __get_useDynamicLighting, put = __set_useDynamicLighting)) bool useDynamicLighting;
+  __declspec(property(get = __cordl_internal_get_useDynamicLighting, put = __cordl_internal_set_useDynamicLighting)) bool useDynamicLighting;
 
   /// @brief Field depthQuality, offset 0x80, size 0x4
-  __declspec(property(get = __get_depthQuality, put = __set_depthQuality))::GlobalNamespace::__OVRManager__DepthQuality depthQuality;
+  __declspec(property(get = __cordl_internal_get_depthQuality, put = __cordl_internal_set_depthQuality))::GlobalNamespace::__OVRManager__DepthQuality depthQuality;
 
   /// @brief Field dynamicLightingSmoothFactor, offset 0x84, size 0x4
-  __declspec(property(get = __get_dynamicLightingSmoothFactor, put = __set_dynamicLightingSmoothFactor)) float_t dynamicLightingSmoothFactor;
+  __declspec(property(get = __cordl_internal_get_dynamicLightingSmoothFactor, put = __cordl_internal_set_dynamicLightingSmoothFactor)) float_t dynamicLightingSmoothFactor;
 
   /// @brief Field dynamicLightingDepthVariationClampingValue, offset 0x88, size 0x4
-  __declspec(property(get = __get_dynamicLightingDepthVariationClampingValue, put = __set_dynamicLightingDepthVariationClampingValue)) float_t dynamicLightingDepthVariationClampingValue;
+  __declspec(property(get = __cordl_internal_get_dynamicLightingDepthVariationClampingValue,
+                      put = __cordl_internal_set_dynamicLightingDepthVariationClampingValue)) float_t dynamicLightingDepthVariationClampingValue;
 
   /// @brief Field virtualGreenScreenType, offset 0x8c, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenType, put = __set_virtualGreenScreenType))::GlobalNamespace::__OVRManager__VirtualGreenScreenType virtualGreenScreenType;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenType,
+                      put = __cordl_internal_set_virtualGreenScreenType))::GlobalNamespace::__OVRManager__VirtualGreenScreenType virtualGreenScreenType;
 
   /// @brief Field virtualGreenScreenTopY, offset 0x90, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenTopY, put = __set_virtualGreenScreenTopY)) float_t virtualGreenScreenTopY;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenTopY, put = __cordl_internal_set_virtualGreenScreenTopY)) float_t virtualGreenScreenTopY;
 
   /// @brief Field virtualGreenScreenBottomY, offset 0x94, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenBottomY, put = __set_virtualGreenScreenBottomY)) float_t virtualGreenScreenBottomY;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenBottomY, put = __cordl_internal_set_virtualGreenScreenBottomY)) float_t virtualGreenScreenBottomY;
 
   /// @brief Field virtualGreenScreenApplyDepthCulling, offset 0x98, size 0x1
-  __declspec(property(get = __get_virtualGreenScreenApplyDepthCulling, put = __set_virtualGreenScreenApplyDepthCulling)) bool virtualGreenScreenApplyDepthCulling;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenApplyDepthCulling, put = __cordl_internal_set_virtualGreenScreenApplyDepthCulling)) bool virtualGreenScreenApplyDepthCulling;
 
   /// @brief Field virtualGreenScreenDepthTolerance, offset 0x9c, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenDepthTolerance, put = __set_virtualGreenScreenDepthTolerance)) float_t virtualGreenScreenDepthTolerance;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenDepthTolerance, put = __cordl_internal_set_virtualGreenScreenDepthTolerance)) float_t virtualGreenScreenDepthTolerance;
 
   /// @brief Field mrcActivationMode, offset 0xa0, size 0x4
-  __declspec(property(get = __get_mrcActivationMode, put = __set_mrcActivationMode))::GlobalNamespace::__OVRManager__MrcActivationMode mrcActivationMode;
+  __declspec(property(get = __cordl_internal_get_mrcActivationMode, put = __cordl_internal_set_mrcActivationMode))::GlobalNamespace::__OVRManager__MrcActivationMode mrcActivationMode;
 
   /// @brief Field <OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject>k__BackingField, offset 0xa8, size 0x8
-  __declspec(property(get = __get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField,
-                      put = __set__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField))::GlobalNamespace::
+  __declspec(property(get = __cordl_internal_get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField,
+                      put = __cordl_internal_set__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField))::GlobalNamespace::
       __OVRManager__InstantiateMrcCameraDelegate* _OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField;
 
   __declspec(property(get = OVRMixedRealityCaptureConfiguration_get_enableMixedReality,
@@ -230,174 +234,175 @@ public:
   /// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept;
 
-  constexpr bool& __get_enableMixedReality();
+  constexpr bool& __cordl_internal_get_enableMixedReality();
 
-  constexpr bool const& __get_enableMixedReality() const;
+  constexpr bool const& __cordl_internal_get_enableMixedReality() const;
 
-  constexpr void __set_enableMixedReality(bool value);
+  constexpr void __cordl_internal_set_enableMixedReality(bool value);
 
-  constexpr ::UnityEngine::LayerMask& __get_extraHiddenLayers();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_extraHiddenLayers();
 
-  constexpr ::UnityEngine::LayerMask const& __get_extraHiddenLayers() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_extraHiddenLayers() const;
 
-  constexpr void __set_extraHiddenLayers(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_extraHiddenLayers(::UnityEngine::LayerMask value);
 
-  constexpr ::UnityEngine::LayerMask& __get_extraVisibleLayers();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_extraVisibleLayers();
 
-  constexpr ::UnityEngine::LayerMask const& __get_extraVisibleLayers() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_extraVisibleLayers() const;
 
-  constexpr void __set_extraVisibleLayers(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_extraVisibleLayers(::UnityEngine::LayerMask value);
 
-  constexpr bool& __get_dynamicCullingMask();
+  constexpr bool& __cordl_internal_get_dynamicCullingMask();
 
-  constexpr bool const& __get_dynamicCullingMask() const;
+  constexpr bool const& __cordl_internal_get_dynamicCullingMask() const;
 
-  constexpr void __set_dynamicCullingMask(bool value);
+  constexpr void __cordl_internal_set_dynamicCullingMask(bool value);
 
-  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& __get_compositionMethod();
+  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& __cordl_internal_get_compositionMethod();
 
-  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& __get_compositionMethod() const;
+  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& __cordl_internal_get_compositionMethod() const;
 
-  constexpr void __set_compositionMethod(::GlobalNamespace::__OVRManager__CompositionMethod value);
+  constexpr void __cordl_internal_set_compositionMethod(::GlobalNamespace::__OVRManager__CompositionMethod value);
 
-  constexpr ::UnityEngine::Color& __get_externalCompositionBackdropColorRift();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_externalCompositionBackdropColorRift();
 
-  constexpr ::UnityEngine::Color const& __get_externalCompositionBackdropColorRift() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_externalCompositionBackdropColorRift() const;
 
-  constexpr void __set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_externalCompositionBackdropColorQuest();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_externalCompositionBackdropColorQuest();
 
-  constexpr ::UnityEngine::Color const& __get_externalCompositionBackdropColorQuest() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_externalCompositionBackdropColorQuest() const;
 
-  constexpr void __set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::__OVRManager__CameraDevice& __get_capturingCameraDevice();
+  constexpr ::GlobalNamespace::__OVRManager__CameraDevice& __cordl_internal_get_capturingCameraDevice();
 
-  constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& __get_capturingCameraDevice() const;
+  constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& __cordl_internal_get_capturingCameraDevice() const;
 
-  constexpr void __set_capturingCameraDevice(::GlobalNamespace::__OVRManager__CameraDevice value);
+  constexpr void __cordl_internal_set_capturingCameraDevice(::GlobalNamespace::__OVRManager__CameraDevice value);
 
-  constexpr bool& __get_flipCameraFrameHorizontally();
+  constexpr bool& __cordl_internal_get_flipCameraFrameHorizontally();
 
-  constexpr bool const& __get_flipCameraFrameHorizontally() const;
+  constexpr bool const& __cordl_internal_get_flipCameraFrameHorizontally() const;
 
-  constexpr void __set_flipCameraFrameHorizontally(bool value);
+  constexpr void __cordl_internal_set_flipCameraFrameHorizontally(bool value);
 
-  constexpr bool& __get_flipCameraFrameVertically();
+  constexpr bool& __cordl_internal_get_flipCameraFrameVertically();
 
-  constexpr bool const& __get_flipCameraFrameVertically() const;
+  constexpr bool const& __cordl_internal_get_flipCameraFrameVertically() const;
 
-  constexpr void __set_flipCameraFrameVertically(bool value);
+  constexpr void __cordl_internal_set_flipCameraFrameVertically(bool value);
 
-  constexpr float_t& __get_handPoseStateLatency();
+  constexpr float_t& __cordl_internal_get_handPoseStateLatency();
 
-  constexpr float_t const& __get_handPoseStateLatency() const;
+  constexpr float_t const& __cordl_internal_get_handPoseStateLatency() const;
 
-  constexpr void __set_handPoseStateLatency(float_t value);
+  constexpr void __cordl_internal_set_handPoseStateLatency(float_t value);
 
-  constexpr float_t& __get_sandwichCompositionRenderLatency();
+  constexpr float_t& __cordl_internal_get_sandwichCompositionRenderLatency();
 
-  constexpr float_t const& __get_sandwichCompositionRenderLatency() const;
+  constexpr float_t const& __cordl_internal_get_sandwichCompositionRenderLatency() const;
 
-  constexpr void __set_sandwichCompositionRenderLatency(float_t value);
+  constexpr void __cordl_internal_set_sandwichCompositionRenderLatency(float_t value);
 
-  constexpr int32_t& __get_sandwichCompositionBufferedFrames();
+  constexpr int32_t& __cordl_internal_get_sandwichCompositionBufferedFrames();
 
-  constexpr int32_t const& __get_sandwichCompositionBufferedFrames() const;
+  constexpr int32_t const& __cordl_internal_get_sandwichCompositionBufferedFrames() const;
 
-  constexpr void __set_sandwichCompositionBufferedFrames(int32_t value);
+  constexpr void __cordl_internal_set_sandwichCompositionBufferedFrames(int32_t value);
 
-  constexpr ::UnityEngine::Color& __get_chromaKeyColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_chromaKeyColor();
 
-  constexpr ::UnityEngine::Color const& __get_chromaKeyColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_chromaKeyColor() const;
 
-  constexpr void __set_chromaKeyColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_chromaKeyColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get_chromaKeySimilarity();
+  constexpr float_t& __cordl_internal_get_chromaKeySimilarity();
 
-  constexpr float_t const& __get_chromaKeySimilarity() const;
+  constexpr float_t const& __cordl_internal_get_chromaKeySimilarity() const;
 
-  constexpr void __set_chromaKeySimilarity(float_t value);
+  constexpr void __cordl_internal_set_chromaKeySimilarity(float_t value);
 
-  constexpr float_t& __get_chromaKeySmoothRange();
+  constexpr float_t& __cordl_internal_get_chromaKeySmoothRange();
 
-  constexpr float_t const& __get_chromaKeySmoothRange() const;
+  constexpr float_t const& __cordl_internal_get_chromaKeySmoothRange() const;
 
-  constexpr void __set_chromaKeySmoothRange(float_t value);
+  constexpr void __cordl_internal_set_chromaKeySmoothRange(float_t value);
 
-  constexpr float_t& __get_chromaKeySpillRange();
+  constexpr float_t& __cordl_internal_get_chromaKeySpillRange();
 
-  constexpr float_t const& __get_chromaKeySpillRange() const;
+  constexpr float_t const& __cordl_internal_get_chromaKeySpillRange() const;
 
-  constexpr void __set_chromaKeySpillRange(float_t value);
+  constexpr void __cordl_internal_set_chromaKeySpillRange(float_t value);
 
-  constexpr bool& __get_useDynamicLighting();
+  constexpr bool& __cordl_internal_get_useDynamicLighting();
 
-  constexpr bool const& __get_useDynamicLighting() const;
+  constexpr bool const& __cordl_internal_get_useDynamicLighting() const;
 
-  constexpr void __set_useDynamicLighting(bool value);
+  constexpr void __cordl_internal_set_useDynamicLighting(bool value);
 
-  constexpr ::GlobalNamespace::__OVRManager__DepthQuality& __get_depthQuality();
+  constexpr ::GlobalNamespace::__OVRManager__DepthQuality& __cordl_internal_get_depthQuality();
 
-  constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& __get_depthQuality() const;
+  constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& __cordl_internal_get_depthQuality() const;
 
-  constexpr void __set_depthQuality(::GlobalNamespace::__OVRManager__DepthQuality value);
+  constexpr void __cordl_internal_set_depthQuality(::GlobalNamespace::__OVRManager__DepthQuality value);
 
-  constexpr float_t& __get_dynamicLightingSmoothFactor();
+  constexpr float_t& __cordl_internal_get_dynamicLightingSmoothFactor();
 
-  constexpr float_t const& __get_dynamicLightingSmoothFactor() const;
+  constexpr float_t const& __cordl_internal_get_dynamicLightingSmoothFactor() const;
 
-  constexpr void __set_dynamicLightingSmoothFactor(float_t value);
+  constexpr void __cordl_internal_set_dynamicLightingSmoothFactor(float_t value);
 
-  constexpr float_t& __get_dynamicLightingDepthVariationClampingValue();
+  constexpr float_t& __cordl_internal_get_dynamicLightingDepthVariationClampingValue();
 
-  constexpr float_t const& __get_dynamicLightingDepthVariationClampingValue() const;
+  constexpr float_t const& __cordl_internal_get_dynamicLightingDepthVariationClampingValue() const;
 
-  constexpr void __set_dynamicLightingDepthVariationClampingValue(float_t value);
+  constexpr void __cordl_internal_set_dynamicLightingDepthVariationClampingValue(float_t value);
 
-  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& __get_virtualGreenScreenType();
+  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& __cordl_internal_get_virtualGreenScreenType();
 
-  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& __get_virtualGreenScreenType() const;
+  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& __cordl_internal_get_virtualGreenScreenType() const;
 
-  constexpr void __set_virtualGreenScreenType(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value);
+  constexpr void __cordl_internal_set_virtualGreenScreenType(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value);
 
-  constexpr float_t& __get_virtualGreenScreenTopY();
+  constexpr float_t& __cordl_internal_get_virtualGreenScreenTopY();
 
-  constexpr float_t const& __get_virtualGreenScreenTopY() const;
+  constexpr float_t const& __cordl_internal_get_virtualGreenScreenTopY() const;
 
-  constexpr void __set_virtualGreenScreenTopY(float_t value);
+  constexpr void __cordl_internal_set_virtualGreenScreenTopY(float_t value);
 
-  constexpr float_t& __get_virtualGreenScreenBottomY();
+  constexpr float_t& __cordl_internal_get_virtualGreenScreenBottomY();
 
-  constexpr float_t const& __get_virtualGreenScreenBottomY() const;
+  constexpr float_t const& __cordl_internal_get_virtualGreenScreenBottomY() const;
 
-  constexpr void __set_virtualGreenScreenBottomY(float_t value);
+  constexpr void __cordl_internal_set_virtualGreenScreenBottomY(float_t value);
 
-  constexpr bool& __get_virtualGreenScreenApplyDepthCulling();
+  constexpr bool& __cordl_internal_get_virtualGreenScreenApplyDepthCulling();
 
-  constexpr bool const& __get_virtualGreenScreenApplyDepthCulling() const;
+  constexpr bool const& __cordl_internal_get_virtualGreenScreenApplyDepthCulling() const;
 
-  constexpr void __set_virtualGreenScreenApplyDepthCulling(bool value);
+  constexpr void __cordl_internal_set_virtualGreenScreenApplyDepthCulling(bool value);
 
-  constexpr float_t& __get_virtualGreenScreenDepthTolerance();
+  constexpr float_t& __cordl_internal_get_virtualGreenScreenDepthTolerance();
 
-  constexpr float_t const& __get_virtualGreenScreenDepthTolerance() const;
+  constexpr float_t const& __cordl_internal_get_virtualGreenScreenDepthTolerance() const;
 
-  constexpr void __set_virtualGreenScreenDepthTolerance(float_t value);
+  constexpr void __cordl_internal_set_virtualGreenScreenDepthTolerance(float_t value);
 
-  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& __get_mrcActivationMode();
+  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& __cordl_internal_get_mrcActivationMode();
 
-  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& __get_mrcActivationMode() const;
+  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& __cordl_internal_get_mrcActivationMode() const;
 
-  constexpr void __set_mrcActivationMode(::GlobalNamespace::__OVRManager__MrcActivationMode value);
+  constexpr void __cordl_internal_set_mrcActivationMode(::GlobalNamespace::__OVRManager__MrcActivationMode value);
 
-  constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*& __get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField();
+  constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*& __cordl_internal_get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*> const&
-  __get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField() const;
+  __cordl_internal_get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField() const;
 
-  constexpr void __set__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value);
+  constexpr void
+  __cordl_internal_set__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value);
 
   /// @brief Method OVRMixedRealityCaptureConfiguration.get_enableMixedReality, addr 0x27b3408, size 0x8, virtual true, abstract: false, final true
   inline bool OVRMixedRealityCaptureConfiguration_get_enableMixedReality();

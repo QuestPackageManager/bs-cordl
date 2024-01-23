@@ -31,14 +31,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RespData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1622))
 // CS Name: ::Org.BouncyCastle.Ocsp::RespData*
 class CORDL_TYPE RespData : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field data, offset 0x10, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -46,11 +46,11 @@ public:
 
   __declspec(property(get = get_ResponseExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* ResponseExtensions;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseData*& __get_data();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseData*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseData*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseData*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
+  constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
 
   static inline ::Org::BouncyCastle::Ocsp::RespData* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data);
 

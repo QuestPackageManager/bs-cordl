@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::GlobalNamespace::TransitionTimingSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5463))
 // CS Name: ::TransitionTimingSO*
 class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _easeType, offset 0x18, size 0x4
-  __declspec(property(get = __get__easeType, put = __set__easeType))::GlobalNamespace::EaseType _easeType;
+  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
 
   /// @brief Field _easeDuration, offset 0x1c, size 0x4
-  __declspec(property(get = __get__easeDuration, put = __set__easeDuration)) float_t _easeDuration;
+  __declspec(property(get = __cordl_internal_get__easeDuration, put = __cordl_internal_set__easeDuration)) float_t _easeDuration;
 
   __declspec(property(get = get_easeType))::GlobalNamespace::EaseType easeType;
 
   __declspec(property(get = get_easeDuration)) float_t easeDuration;
 
-  constexpr ::GlobalNamespace::EaseType& __get__easeType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
 
-  constexpr void __set__easeType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  constexpr float_t& __get__easeDuration();
+  constexpr float_t& __cordl_internal_get__easeDuration();
 
-  constexpr float_t const& __get__easeDuration() const;
+  constexpr float_t const& __cordl_internal_get__easeDuration() const;
 
-  constexpr void __set__easeDuration(float_t value);
+  constexpr void __cordl_internal_set__easeDuration(float_t value);
 
   /// @brief Method get_easeType, addr 0x228007c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();

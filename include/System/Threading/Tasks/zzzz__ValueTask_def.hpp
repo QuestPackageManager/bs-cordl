@@ -53,7 +53,7 @@ MARK_VAL_T(::System::Threading::Tasks::ValueTask);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2762))
 // CS Name: ::ValueTask::ValueTaskSourceAsTask::<>c*
 class CORDL_TYPE __ValueTask__ValueTaskSourceAsTask____c : public ::System::Object {
@@ -98,33 +98,33 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ValueTask__Va
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2773))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2763)) CS Name: ::ValueTask::ValueTaskSourceAsTask*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2763)) CS Name: ::ValueTask::ValueTaskSourceAsTask*
 class CORDL_TYPE __ValueTask__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__ValueTask__ValueTaskSourceAsTask____c;
 
   /// @brief Field _source, offset 0x58, size 0x8
-  __declspec(property(get = __get__source, put = __set__source))::System::Threading::Tasks::Sources::IValueTaskSource* _source;
+  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source))::System::Threading::Tasks::Sources::IValueTaskSource* _source;
 
   /// @brief Field _token, offset 0x60, size 0x2
-  __declspec(property(get = __get__token, put = __set__token)) int16_t _token;
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) int16_t _token;
 
   /// @brief Field s_completionAction, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_completionAction, put = setStaticF_s_completionAction))::System::Action_1<::System::Object*>* s_completionAction;
 
-  constexpr ::System::Threading::Tasks::Sources::IValueTaskSource*& __get__source();
+  constexpr ::System::Threading::Tasks::Sources::IValueTaskSource*& __cordl_internal_get__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource*> const& __get__source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource*> const& __cordl_internal_get__source() const;
 
-  constexpr void __set__source(::System::Threading::Tasks::Sources::IValueTaskSource* value);
+  constexpr void __cordl_internal_set__source(::System::Threading::Tasks::Sources::IValueTaskSource* value);
 
-  constexpr int16_t& __get__token();
+  constexpr int16_t& __cordl_internal_get__token();
 
-  constexpr int16_t const& __get__token() const;
+  constexpr int16_t const& __cordl_internal_get__token() const;
 
-  constexpr void __set__token(int16_t value);
+  constexpr void __cordl_internal_set__token(int16_t value);
 
   static inline void setStaticF_s_completionAction(::System::Action_1<::System::Object*>* value);
 
@@ -169,7 +169,7 @@ static_assert(offsetof(::System::Threading::Tasks::__ValueTask__ValueTaskSourceA
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 27, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2764))
 // CS Name: ::System.Threading.Tasks::ValueTask
 struct CORDL_TYPE ValueTask {

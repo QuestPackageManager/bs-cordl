@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::InternalEncodingDataItem);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3716))
 // CS Name: ::System.Globalization::InternalEncodingDataItem
 struct CORDL_TYPE InternalEncodingDataItem {

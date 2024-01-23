@@ -55,32 +55,32 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLevelFinishedController___StartLe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5076))
 // CS Name: ::MultiplayerLevelFinishedController::<StartLevelFinished>d__19*
 class CORDL_TYPE __MultiplayerLevelFinishedController___StartLevelFinished_d__19 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field localPlayerResults, offset 0x20, size 0x8
-  __declspec(property(get = __get_localPlayerResults, put = __set_localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults;
+  __declspec(property(get = __cordl_internal_get_localPlayerResults, put = __cordl_internal_set_localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerLevelFinishedController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> __4__this;
 
   /// @brief Field <waitStartTime>5__2, offset 0x30, size 0x4
-  __declspec(property(get = __get__waitStartTime_5__2, put = __set__waitStartTime_5__2)) float_t _waitStartTime_5__2;
+  __declspec(property(get = __cordl_internal_get__waitStartTime_5__2, put = __cordl_internal_set__waitStartTime_5__2)) float_t _waitStartTime_5__2;
 
   /// @brief Field <isPlayingAlone>5__3, offset 0x34, size 0x1
-  __declspec(property(get = __get__isPlayingAlone_5__3, put = __set__isPlayingAlone_5__3)) bool _isPlayingAlone_5__3;
+  __declspec(property(get = __cordl_internal_get__isPlayingAlone_5__3, put = __cordl_internal_set__isPlayingAlone_5__3)) bool _isPlayingAlone_5__3;
 
   /// @brief Field <resultsTimeoutLength>5__4, offset 0x38, size 0x4
-  __declspec(property(get = __get__resultsTimeoutLength_5__4, put = __set__resultsTimeoutLength_5__4)) float_t _resultsTimeoutLength_5__4;
+  __declspec(property(get = __cordl_internal_get__resultsTimeoutLength_5__4, put = __cordl_internal_set__resultsTimeoutLength_5__4)) float_t _resultsTimeoutLength_5__4;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -104,47 +104,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& __get_localPlayerResults();
+  constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& __cordl_internal_get_localPlayerResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const& __get_localPlayerResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const& __cordl_internal_get_localPlayerResults() const;
 
-  constexpr void __set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
+  constexpr void __cordl_internal_set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelFinishedController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelFinishedController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerLevelFinishedController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> value);
 
-  constexpr float_t& __get__waitStartTime_5__2();
+  constexpr float_t& __cordl_internal_get__waitStartTime_5__2();
 
-  constexpr float_t const& __get__waitStartTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__waitStartTime_5__2() const;
 
-  constexpr void __set__waitStartTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__waitStartTime_5__2(float_t value);
 
-  constexpr bool& __get__isPlayingAlone_5__3();
+  constexpr bool& __cordl_internal_get__isPlayingAlone_5__3();
 
-  constexpr bool const& __get__isPlayingAlone_5__3() const;
+  constexpr bool const& __cordl_internal_get__isPlayingAlone_5__3() const;
 
-  constexpr void __set__isPlayingAlone_5__3(bool value);
+  constexpr void __cordl_internal_set__isPlayingAlone_5__3(bool value);
 
-  constexpr float_t& __get__resultsTimeoutLength_5__4();
+  constexpr float_t& __cordl_internal_get__resultsTimeoutLength_5__4();
 
-  constexpr float_t const& __get__resultsTimeoutLength_5__4() const;
+  constexpr float_t const& __cordl_internal_get__resultsTimeoutLength_5__4() const;
 
-  constexpr void __set__resultsTimeoutLength_5__4(float_t value);
+  constexpr void __cordl_internal_set__resultsTimeoutLength_5__4(float_t value);
 
   static inline ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__19* New_ctor(int32_t __1__state);
 
@@ -190,7 +190,7 @@ public:
   ::GlobalNamespace::MultiplayerLevelCompletionResults* ___localPlayerResults;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLevelFinishedController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> _____4__this;
 
   /// @brief Field <waitStartTime>5__2, offset: 0x30, size: 0x4, def value: None
   float_t ____waitStartTime_5__2;
@@ -225,7 +225,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelFinishedController__
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5077))
 // CS Name: ::MultiplayerLevelFinishedController*
 class CORDL_TYPE MultiplayerLevelFinishedController : public ::UnityEngine::MonoBehaviour {
@@ -234,31 +234,32 @@ public:
   using _StartLevelFinished_d__19 = ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__19;
 
   /// @brief Field _levelEndActionsPublisher, offset 0x18, size 0x8
-  __declspec(property(get = __get__levelEndActionsPublisher, put = __set__levelEndActionsPublisher))::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _levelEndActionsPublisher;
+  __declspec(property(get = __cordl_internal_get__levelEndActionsPublisher,
+                      put = __cordl_internal_set__levelEndActionsPublisher))::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _levelEndActionsPublisher;
 
   /// @brief Field _rpcManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__rpcManager, put = __set__rpcManager))::GlobalNamespace::IGameplayRpcManager* _rpcManager;
+  __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager))::GlobalNamespace::IGameplayRpcManager* _rpcManager;
 
   /// @brief Field _multiplayerSessionManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field allResultsCollectedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_allResultsCollectedEvent, put = __set_allResultsCollectedEvent))::System::Action_2<
+  __declspec(property(get = __cordl_internal_get_allResultsCollectedEvent, put = __cordl_internal_set_allResultsCollectedEvent))::System::Action_2<
       ::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* allResultsCollectedEvent;
 
   /// @brief Field _otherPlayersCompletionResults, offset 0x38, size 0x8
-  __declspec(property(
-      get = __get__otherPlayersCompletionResults,
-      put = __set__otherPlayersCompletionResults))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* _otherPlayersCompletionResults;
+  __declspec(property(get = __cordl_internal_get__otherPlayersCompletionResults, put = __cordl_internal_set__otherPlayersCompletionResults))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* _otherPlayersCompletionResults;
 
   /// @brief Field _localPlayerResults, offset 0x40, size 0x8
-  __declspec(property(get = __get__localPlayerResults, put = __set__localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* _localPlayerResults;
+  __declspec(property(get = __cordl_internal_get__localPlayerResults, put = __cordl_internal_set__localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* _localPlayerResults;
 
   /// @brief Field _gameFinishReported, offset 0x48, size 0x1
-  __declspec(property(get = __get__gameFinishReported, put = __set__gameFinishReported)) bool _gameFinishReported;
+  __declspec(property(get = __cordl_internal_get__gameFinishReported, put = __cordl_internal_set__gameFinishReported)) bool _gameFinishReported;
 
   /// @brief Field _sceneLoadTime, offset 0x4c, size 0x4
-  __declspec(property(get = __get__sceneLoadTime, put = __set__sceneLoadTime)) float_t _sceneLoadTime;
+  __declspec(property(get = __cordl_internal_get__sceneLoadTime, put = __cordl_internal_set__sceneLoadTime)) float_t _sceneLoadTime;
 
   __declspec(property(get = get_gameResultsReady)) bool gameResultsReady;
 
@@ -267,58 +268,59 @@ public:
 
   __declspec(property(get = get_localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults;
 
-  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __get__levelEndActionsPublisher();
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __cordl_internal_get__levelEndActionsPublisher();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const& __get__levelEndActionsPublisher() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const& __cordl_internal_get__levelEndActionsPublisher() const;
 
-  constexpr void __set__levelEndActionsPublisher(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
+  constexpr void __cordl_internal_set__levelEndActionsPublisher(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__rpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__rpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__rpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__rpcManager() const;
 
-  constexpr void __set__rpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
   constexpr ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*&
-  __get_allResultsCollectedEvent();
+  __cordl_internal_get_allResultsCollectedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*> const&
-  __get_allResultsCollectedEvent() const;
+  __cordl_internal_get_allResultsCollectedEvent() const;
 
-  constexpr void __set_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
+  constexpr void
+  __cordl_internal_set_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*& __get__otherPlayersCompletionResults();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*& __cordl_internal_get__otherPlayersCompletionResults();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const&
-  __get__otherPlayersCompletionResults() const;
+  __cordl_internal_get__otherPlayersCompletionResults() const;
 
-  constexpr void __set__otherPlayersCompletionResults(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+  constexpr void __cordl_internal_set__otherPlayersCompletionResults(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& __get__localPlayerResults();
+  constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& __cordl_internal_get__localPlayerResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const& __get__localPlayerResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const& __cordl_internal_get__localPlayerResults() const;
 
-  constexpr void __set__localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
+  constexpr void __cordl_internal_set__localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  constexpr bool& __get__gameFinishReported();
+  constexpr bool& __cordl_internal_get__gameFinishReported();
 
-  constexpr bool const& __get__gameFinishReported() const;
+  constexpr bool const& __cordl_internal_get__gameFinishReported() const;
 
-  constexpr void __set__gameFinishReported(bool value);
+  constexpr void __cordl_internal_set__gameFinishReported(bool value);
 
-  constexpr float_t& __get__sceneLoadTime();
+  constexpr float_t& __cordl_internal_get__sceneLoadTime();
 
-  constexpr float_t const& __get__sceneLoadTime() const;
+  constexpr float_t const& __cordl_internal_get__sceneLoadTime() const;
 
-  constexpr void __set__sceneLoadTime(float_t value);
+  constexpr void __cordl_internal_set__sceneLoadTime(float_t value);
 
   /// @brief Method add_allResultsCollectedEvent, addr 0x23c9bcc, size 0xb0, virtual false, abstract: false, final false
   inline void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,

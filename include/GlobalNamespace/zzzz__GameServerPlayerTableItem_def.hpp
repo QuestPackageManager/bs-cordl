@@ -15,47 +15,47 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerPlayerTableItem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4488))
 // CS Name: ::GameServerPlayerTableItem*
 class CORDL_TYPE GameServerPlayerTableItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field playerName, offset 0x10, size 0x8
-  __declspec(property(get = __get_playerName, put = __set_playerName))::StringW playerName;
+  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
 
   /// @brief Field suggestedLevel, offset 0x18, size 0x8
-  __declspec(property(get = __get_suggestedLevel, put = __set_suggestedLevel))::StringW suggestedLevel;
+  __declspec(property(get = __cordl_internal_get_suggestedLevel, put = __cordl_internal_set_suggestedLevel))::StringW suggestedLevel;
 
   /// @brief Field suggestedModifiers, offset 0x20, size 0x8
-  __declspec(property(get = __get_suggestedModifiers, put = __set_suggestedModifiers))::StringW suggestedModifiers;
+  __declspec(property(get = __cordl_internal_get_suggestedModifiers, put = __cordl_internal_set_suggestedModifiers))::StringW suggestedModifiers;
 
   /// @brief Field isReady, offset 0x28, size 0x1
-  __declspec(property(get = __get_isReady, put = __set_isReady)) bool isReady;
+  __declspec(property(get = __cordl_internal_get_isReady, put = __cordl_internal_set_isReady)) bool isReady;
 
-  constexpr ::StringW& __get_playerName();
+  constexpr ::StringW& __cordl_internal_get_playerName();
 
-  constexpr ::StringW const& __get_playerName() const;
+  constexpr ::StringW const& __cordl_internal_get_playerName() const;
 
-  constexpr void __set_playerName(::StringW value);
+  constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  constexpr ::StringW& __get_suggestedLevel();
+  constexpr ::StringW& __cordl_internal_get_suggestedLevel();
 
-  constexpr ::StringW const& __get_suggestedLevel() const;
+  constexpr ::StringW const& __cordl_internal_get_suggestedLevel() const;
 
-  constexpr void __set_suggestedLevel(::StringW value);
+  constexpr void __cordl_internal_set_suggestedLevel(::StringW value);
 
-  constexpr ::StringW& __get_suggestedModifiers();
+  constexpr ::StringW& __cordl_internal_get_suggestedModifiers();
 
-  constexpr ::StringW const& __get_suggestedModifiers() const;
+  constexpr ::StringW const& __cordl_internal_get_suggestedModifiers() const;
 
-  constexpr void __set_suggestedModifiers(::StringW value);
+  constexpr void __cordl_internal_set_suggestedModifiers(::StringW value);
 
-  constexpr bool& __get_isReady();
+  constexpr bool& __cordl_internal_get_isReady();
 
-  constexpr bool const& __get_isReady() const;
+  constexpr bool const& __cordl_internal_get_isReady() const;
 
-  constexpr void __set_isReady(bool value);
+  constexpr void __cordl_internal_set_isReady(bool value);
 
   static inline ::GlobalNamespace::GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 

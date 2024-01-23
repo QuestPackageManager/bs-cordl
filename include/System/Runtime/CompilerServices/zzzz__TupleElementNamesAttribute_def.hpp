@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::TupleElementNamesAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3386))
 // CS Name: ::System.Runtime.CompilerServices::TupleElementNamesAttribute*
 class CORDL_TYPE TupleElementNamesAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _transformNames, offset 0x10, size 0x8
-  __declspec(property(get = __get__transformNames, put = __set__transformNames))::ArrayW<::StringW, ::Array<::StringW>*> _transformNames;
+  __declspec(property(get = __cordl_internal_get__transformNames, put = __cordl_internal_set__transformNames))::ArrayW<::StringW, ::Array<::StringW>*> _transformNames;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__transformNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__transformNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__transformNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__transformNames() const;
 
-  constexpr void __set__transformNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__transformNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline ::System::Runtime::CompilerServices::TupleElementNamesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 

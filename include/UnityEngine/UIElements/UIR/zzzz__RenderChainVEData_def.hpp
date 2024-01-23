@@ -57,8 +57,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainVEData);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(7394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7445)), TypeDefinitionIndex(TypeDefinitionIndex(7374))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7396)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7394)), TypeDefinitionIndex(TypeDefinitionIndex(7445)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7396)) CS Name:
 // ::UnityEngine.UIElements.UIR::RenderChainVEData
 struct CORDL_TYPE RenderChainVEData {
 public:

@@ -38,59 +38,59 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(714))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeParticipant*
 class CORDL_TYPE JPakeParticipant : public ::System::Object {
 public:
   // Declarations
   /// @brief Field participantId, offset 0x10, size 0x8
-  __declspec(property(get = __get_participantId, put = __set_participantId))::StringW participantId;
+  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId))::StringW participantId;
 
   /// @brief Field password, offset 0x18, size 0x8
-  __declspec(property(get = __get_password, put = __set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
 
   /// @brief Field digest, offset 0x20, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field random, offset 0x28, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field p, offset 0x30, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Org::BouncyCastle::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Math::BigInteger* p;
 
   /// @brief Field q, offset 0x38, size 0x8
-  __declspec(property(get = __get_q, put = __set_q))::Org::BouncyCastle::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::BigInteger* q;
 
   /// @brief Field g, offset 0x40, size 0x8
-  __declspec(property(get = __get_g, put = __set_g))::Org::BouncyCastle::Math::BigInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
 
   /// @brief Field partnerParticipantId, offset 0x48, size 0x8
-  __declspec(property(get = __get_partnerParticipantId, put = __set_partnerParticipantId))::StringW partnerParticipantId;
+  __declspec(property(get = __cordl_internal_get_partnerParticipantId, put = __cordl_internal_set_partnerParticipantId))::StringW partnerParticipantId;
 
   /// @brief Field x1, offset 0x50, size 0x8
-  __declspec(property(get = __get_x1, put = __set_x1))::Org::BouncyCastle::Math::BigInteger* x1;
+  __declspec(property(get = __cordl_internal_get_x1, put = __cordl_internal_set_x1))::Org::BouncyCastle::Math::BigInteger* x1;
 
   /// @brief Field x2, offset 0x58, size 0x8
-  __declspec(property(get = __get_x2, put = __set_x2))::Org::BouncyCastle::Math::BigInteger* x2;
+  __declspec(property(get = __cordl_internal_get_x2, put = __cordl_internal_set_x2))::Org::BouncyCastle::Math::BigInteger* x2;
 
   /// @brief Field gx1, offset 0x60, size 0x8
-  __declspec(property(get = __get_gx1, put = __set_gx1))::Org::BouncyCastle::Math::BigInteger* gx1;
+  __declspec(property(get = __cordl_internal_get_gx1, put = __cordl_internal_set_gx1))::Org::BouncyCastle::Math::BigInteger* gx1;
 
   /// @brief Field gx2, offset 0x68, size 0x8
-  __declspec(property(get = __get_gx2, put = __set_gx2))::Org::BouncyCastle::Math::BigInteger* gx2;
+  __declspec(property(get = __cordl_internal_get_gx2, put = __cordl_internal_set_gx2))::Org::BouncyCastle::Math::BigInteger* gx2;
 
   /// @brief Field gx3, offset 0x70, size 0x8
-  __declspec(property(get = __get_gx3, put = __set_gx3))::Org::BouncyCastle::Math::BigInteger* gx3;
+  __declspec(property(get = __cordl_internal_get_gx3, put = __cordl_internal_set_gx3))::Org::BouncyCastle::Math::BigInteger* gx3;
 
   /// @brief Field gx4, offset 0x78, size 0x8
-  __declspec(property(get = __get_gx4, put = __set_gx4))::Org::BouncyCastle::Math::BigInteger* gx4;
+  __declspec(property(get = __cordl_internal_get_gx4, put = __cordl_internal_set_gx4))::Org::BouncyCastle::Math::BigInteger* gx4;
 
   /// @brief Field b, offset 0x80, size 0x8
-  __declspec(property(get = __get_b, put = __set_b))::Org::BouncyCastle::Math::BigInteger* b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b))::Org::BouncyCastle::Math::BigInteger* b;
 
   /// @brief Field state, offset 0x88, size 0x4
-  __declspec(property(get = __get_state, put = __set_state)) int32_t state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) int32_t state;
 
   /// @brief Field STATE_INITIALIZED, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_STATE_INITIALIZED, put = setStaticF_STATE_INITIALIZED)) int32_t STATE_INITIALIZED;
@@ -118,101 +118,101 @@ public:
 
   __declspec(property(get = get_State)) int32_t State;
 
-  constexpr ::StringW& __get_participantId();
+  constexpr ::StringW& __cordl_internal_get_participantId();
 
-  constexpr ::StringW const& __get_participantId() const;
+  constexpr ::StringW const& __cordl_internal_get_participantId() const;
 
-  constexpr void __set_participantId(::StringW value);
+  constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_password();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_password();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_password() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_password() const;
 
-  constexpr void __set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_p();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_q();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_g();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::StringW& __get_partnerParticipantId();
+  constexpr ::StringW& __cordl_internal_get_partnerParticipantId();
 
-  constexpr ::StringW const& __get_partnerParticipantId() const;
+  constexpr ::StringW const& __cordl_internal_get_partnerParticipantId() const;
 
-  constexpr void __set_partnerParticipantId(::StringW value);
+  constexpr void __cordl_internal_set_partnerParticipantId(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_x1();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_x1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_x1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_x1() const;
 
-  constexpr void __set_x1(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_x1(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_x2();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_x2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_x2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_x2() const;
 
-  constexpr void __set_x2(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_x2(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_gx1();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_gx1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx1() const;
 
-  constexpr void __set_gx1(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_gx1(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_gx2();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_gx2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx2() const;
 
-  constexpr void __set_gx2(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_gx2(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_gx3();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx3();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_gx3() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx3() const;
 
-  constexpr void __set_gx3(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_gx3(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_gx4();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx4();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_gx4() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx4() const;
 
-  constexpr void __set_gx4(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_gx4(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_b();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_b();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_b() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_b(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr int32_t& __get_state();
+  constexpr int32_t& __cordl_internal_get_state();
 
-  constexpr int32_t const& __get_state() const;
+  constexpr int32_t const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(int32_t value);
+  constexpr void __cordl_internal_set_state(int32_t value);
 
   static inline void setStaticF_STATE_INITIALIZED(int32_t value);
 

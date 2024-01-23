@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DoubleControl);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 2704 }), TypeDefinitionIndex(TypeDefinitionIndex(6216))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 2704 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6633))
 // CS Name: ::UnityEngine.InputSystem.Controls::DoubleControl*
 class CORDL_TYPE DoubleControl : public ::UnityEngine::InputSystem::InputControl_1<double_t> {

@@ -63,29 +63,31 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionLevelDetailViewController____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5696))
 // CS Name: ::MissionLevelDetailViewController::<>c__DisplayClass14_0*
 class CORDL_TYPE __MissionLevelDetailViewController____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field missionObjectives, offset 0x10, size 0x8
-  __declspec(property(get = __get_missionObjectives, put = __set_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
+  __declspec(property(get = __cordl_internal_get_missionObjectives,
+                      put = __cordl_internal_set_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
 
   /// @brief Field modifierParamsList, offset 0x18, size 0x8
-  __declspec(property(get = __get_modifierParamsList, put = __set_modifierParamsList))::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
+  __declspec(property(get = __cordl_internal_get_modifierParamsList,
+                      put = __cordl_internal_set_modifierParamsList))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParamsList;
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __get_missionObjectives();
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get_missionObjectives();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __get_missionObjectives() const;
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get_missionObjectives() const;
 
-  constexpr void __set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
+  constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& __get_modifierParamsList();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*& __cordl_internal_get_modifierParamsList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __get_modifierParamsList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get_modifierParamsList() const;
 
-  constexpr void __set_modifierParamsList(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* value);
+  constexpr void __cordl_internal_set_modifierParamsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
   static inline ::GlobalNamespace::__MissionLevelDetailViewController____c__DisplayClass14_0* New_ctor();
 
@@ -116,7 +118,7 @@ public:
   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ___missionObjectives;
 
   /// @brief Field modifierParamsList, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* ___modifierParamsList;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifierParamsList;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +134,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelDetailViewController____
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5697))
 // CS Name: ::MissionLevelDetailViewController*
 class CORDL_TYPE MissionLevelDetailViewController : public ::HMUI::ViewController {
@@ -141,88 +143,90 @@ public:
   using __c__DisplayClass14_0 = ::GlobalNamespace::__MissionLevelDetailViewController____c__DisplayClass14_0;
 
   /// @brief Field _gameplayModifiersModel, offset 0x70, size 0x8
-  __declspec(property(get = __get__gameplayModifiersModel, put = __set__gameplayModifiersModel))::GlobalNamespace::GameplayModifiersModelSO* _gameplayModifiersModel;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
+                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
 
   /// @brief Field _playButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__playButton, put = __set__playButton))::UnityEngine::UI::Button* _playButton;
+  __declspec(property(get = __cordl_internal_get__playButton, put = __cordl_internal_set__playButton))::UnityW<::UnityEngine::UI::Button> _playButton;
 
   /// @brief Field _levelBar, offset 0x80, size 0x8
-  __declspec(property(get = __get__levelBar, put = __set__levelBar))::GlobalNamespace::LevelBar* _levelBar;
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
   /// @brief Field _objectiveListItems, offset 0x88, size 0x8
-  __declspec(property(get = __get__objectiveListItems, put = __set__objectiveListItems))::GlobalNamespace::ObjectiveListItemsList* _objectiveListItems;
+  __declspec(property(get = __cordl_internal_get__objectiveListItems, put = __cordl_internal_set__objectiveListItems))::UnityW<::GlobalNamespace::ObjectiveListItemsList> _objectiveListItems;
 
   /// @brief Field _gameplayModifierInfoListItemsList, offset 0x90, size 0x8
-  __declspec(property(get = __get__gameplayModifierInfoListItemsList,
-                      put = __set__gameplayModifierInfoListItemsList))::GlobalNamespace::GameplayModifierInfoListItemsList* _gameplayModifierInfoListItemsList;
+  __declspec(property(get = __cordl_internal_get__gameplayModifierInfoListItemsList,
+                      put = __cordl_internal_set__gameplayModifierInfoListItemsList))::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> _gameplayModifierInfoListItemsList;
 
   /// @brief Field _modifiersPanelGO, offset 0x98, size 0x8
-  __declspec(property(get = __get__modifiersPanelGO, put = __set__modifiersPanelGO))::UnityEngine::GameObject* _modifiersPanelGO;
+  __declspec(property(get = __cordl_internal_get__modifiersPanelGO, put = __cordl_internal_set__modifiersPanelGO))::UnityW<::UnityEngine::GameObject> _modifiersPanelGO;
 
   /// @brief Field didPressPlayButtonEvent, offset 0xa0, size 0x8
-  __declspec(property(get = __get_didPressPlayButtonEvent, put = __set_didPressPlayButtonEvent))::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* didPressPlayButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressPlayButtonEvent,
+                      put = __cordl_internal_set_didPressPlayButtonEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* didPressPlayButtonEvent;
 
   /// @brief Field _missionNode, offset 0xa8, size 0x8
-  __declspec(property(get = __get__missionNode, put = __set__missionNode))::GlobalNamespace::MissionNode* _missionNode;
+  __declspec(property(get = __cordl_internal_get__missionNode, put = __cordl_internal_set__missionNode))::UnityW<::GlobalNamespace::MissionNode> _missionNode;
 
-  __declspec(property(get = get_missionNode))::GlobalNamespace::MissionNode* missionNode;
+  __declspec(property(get = get_missionNode))::UnityW<::GlobalNamespace::MissionNode> missionNode;
 
-  constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiersModel();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& __get__gameplayModifiersModel() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr void __set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value);
+  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__playButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__playButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__playButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__playButton() const;
 
-  constexpr void __set__playButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__playButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::LevelBar*& __get__levelBar();
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelBar*> const& __get__levelBar() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
-  constexpr void __set__levelBar(::GlobalNamespace::LevelBar* value);
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
-  constexpr ::GlobalNamespace::ObjectiveListItemsList*& __get__objectiveListItems();
+  constexpr ::UnityW<::GlobalNamespace::ObjectiveListItemsList>& __cordl_internal_get__objectiveListItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObjectiveListItemsList*> const& __get__objectiveListItems() const;
+  constexpr ::UnityW<::GlobalNamespace::ObjectiveListItemsList> const& __cordl_internal_get__objectiveListItems() const;
 
-  constexpr void __set__objectiveListItems(::GlobalNamespace::ObjectiveListItemsList* value);
+  constexpr void __cordl_internal_set__objectiveListItems(::UnityW<::GlobalNamespace::ObjectiveListItemsList> value);
 
-  constexpr ::GlobalNamespace::GameplayModifierInfoListItemsList*& __get__gameplayModifierInfoListItemsList();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>& __cordl_internal_get__gameplayModifierInfoListItemsList();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierInfoListItemsList*> const& __get__gameplayModifierInfoListItemsList() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__gameplayModifierInfoListItemsList() const;
 
-  constexpr void __set__gameplayModifierInfoListItemsList(::GlobalNamespace::GameplayModifierInfoListItemsList* value);
+  constexpr void __cordl_internal_set__gameplayModifierInfoListItemsList(::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__modifiersPanelGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__modifiersPanelGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__modifiersPanelGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__modifiersPanelGO() const;
 
-  constexpr void __set__modifiersPanelGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__modifiersPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>*& __get_didPressPlayButtonEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*& __cordl_internal_get_didPressPlayButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>*> const& __get_didPressPlayButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*> const& __cordl_internal_get_didPressPlayButtonEvent() const;
 
-  constexpr void __set_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
+  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
-  constexpr ::GlobalNamespace::MissionNode*& __get__missionNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__missionNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNode*> const& __get__missionNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__missionNode() const;
 
-  constexpr void __set__missionNode(::GlobalNamespace::MissionNode* value);
+  constexpr void __cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
   /// @brief Method add_didPressPlayButtonEvent, addr 0x22c9c54, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
+  inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
   /// @brief Method remove_didPressPlayButtonEvent, addr 0x22c9d04, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
+  inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
   /// @brief Method get_missionNode, addr 0x22c9db4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* get_missionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNode> get_missionNode();
 
   /// @brief Method Setup, addr 0x22c9dbc, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionNode* missionNode);
@@ -256,28 +260,28 @@ protected:
 
 public:
   /// @brief Field _gameplayModifiersModel, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersModelSO* ____gameplayModifiersModel;
+  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
   /// @brief Field _playButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____playButton;
+  ::UnityW<::UnityEngine::UI::Button> ____playButton;
 
   /// @brief Field _levelBar, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::LevelBar* ____levelBar;
+  ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
   /// @brief Field _objectiveListItems, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::ObjectiveListItemsList* ____objectiveListItems;
+  ::UnityW<::GlobalNamespace::ObjectiveListItemsList> ____objectiveListItems;
 
   /// @brief Field _gameplayModifierInfoListItemsList, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifierInfoListItemsList* ____gameplayModifierInfoListItemsList;
+  ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____gameplayModifierInfoListItemsList;
 
   /// @brief Field _modifiersPanelGO, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____modifiersPanelGO;
+  ::UnityW<::UnityEngine::GameObject> ____modifiersPanelGO;
 
   /// @brief Field didPressPlayButtonEvent, offset: 0xa0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* ___didPressPlayButtonEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* ___didPressPlayButtonEvent;
 
   /// @brief Field _missionNode, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNode* ____missionNode;
+  ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

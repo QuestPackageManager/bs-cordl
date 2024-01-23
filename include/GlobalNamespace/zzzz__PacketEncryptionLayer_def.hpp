@@ -124,35 +124,35 @@ MARK_VAL_T(::GlobalNamespace::__PacketEncryptionLayer___AddPendingEncryptedEndpo
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12907))
 // CS Name: ::PacketEncryptionLayer::EncryptionStatistics*
 class CORDL_TYPE __PacketEncryptionLayer__EncryptionStatistics : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _packetsReceivedPlaintext, offset 0x10, size 0x8
-  __declspec(property(get = __get__packetsReceivedPlaintext, put = __set__packetsReceivedPlaintext)) int64_t _packetsReceivedPlaintext;
+  __declspec(property(get = __cordl_internal_get__packetsReceivedPlaintext, put = __cordl_internal_set__packetsReceivedPlaintext)) int64_t _packetsReceivedPlaintext;
 
   /// @brief Field _packetsReceivedEncrypted, offset 0x18, size 0x8
-  __declspec(property(get = __get__packetsReceivedEncrypted, put = __set__packetsReceivedEncrypted)) int64_t _packetsReceivedEncrypted;
+  __declspec(property(get = __cordl_internal_get__packetsReceivedEncrypted, put = __cordl_internal_set__packetsReceivedEncrypted)) int64_t _packetsReceivedEncrypted;
 
   /// @brief Field _packetsReceivedRejected, offset 0x20, size 0x8
-  __declspec(property(get = __get__packetsReceivedRejected, put = __set__packetsReceivedRejected)) int64_t _packetsReceivedRejected;
+  __declspec(property(get = __cordl_internal_get__packetsReceivedRejected, put = __cordl_internal_set__packetsReceivedRejected)) int64_t _packetsReceivedRejected;
 
   /// @brief Field _packetsSentPlaintext, offset 0x28, size 0x8
-  __declspec(property(get = __get__packetsSentPlaintext, put = __set__packetsSentPlaintext)) int64_t _packetsSentPlaintext;
+  __declspec(property(get = __cordl_internal_get__packetsSentPlaintext, put = __cordl_internal_set__packetsSentPlaintext)) int64_t _packetsSentPlaintext;
 
   /// @brief Field _packetsSentEncrypted, offset 0x30, size 0x8
-  __declspec(property(get = __get__packetsSentEncrypted, put = __set__packetsSentEncrypted)) int64_t _packetsSentEncrypted;
+  __declspec(property(get = __cordl_internal_get__packetsSentEncrypted, put = __cordl_internal_set__packetsSentEncrypted)) int64_t _packetsSentEncrypted;
 
   /// @brief Field _packetsSentRejected, offset 0x38, size 0x8
-  __declspec(property(get = __get__packetsSentRejected, put = __set__packetsSentRejected)) int64_t _packetsSentRejected;
+  __declspec(property(get = __cordl_internal_get__packetsSentRejected, put = __cordl_internal_set__packetsSentRejected)) int64_t _packetsSentRejected;
 
   /// @brief Field _encryptionProcessingTime, offset 0x40, size 0x8
-  __declspec(property(get = __get__encryptionProcessingTime, put = __set__encryptionProcessingTime)) int64_t _encryptionProcessingTime;
+  __declspec(property(get = __cordl_internal_get__encryptionProcessingTime, put = __cordl_internal_set__encryptionProcessingTime)) int64_t _encryptionProcessingTime;
 
   /// @brief Field _decryptionProcessingTime, offset 0x48, size 0x8
-  __declspec(property(get = __get__decryptionProcessingTime, put = __set__decryptionProcessingTime)) int64_t _decryptionProcessingTime;
+  __declspec(property(get = __cordl_internal_get__decryptionProcessingTime, put = __cordl_internal_set__decryptionProcessingTime)) int64_t _decryptionProcessingTime;
 
   __declspec(property(get = get_packetsReceivedPlaintext)) int64_t packetsReceivedPlaintext;
 
@@ -170,53 +170,53 @@ public:
 
   __declspec(property(get = get_decryptionProcessingTime)) int64_t decryptionProcessingTime;
 
-  constexpr int64_t& __get__packetsReceivedPlaintext();
+  constexpr int64_t& __cordl_internal_get__packetsReceivedPlaintext();
 
-  constexpr int64_t const& __get__packetsReceivedPlaintext() const;
+  constexpr int64_t const& __cordl_internal_get__packetsReceivedPlaintext() const;
 
-  constexpr void __set__packetsReceivedPlaintext(int64_t value);
+  constexpr void __cordl_internal_set__packetsReceivedPlaintext(int64_t value);
 
-  constexpr int64_t& __get__packetsReceivedEncrypted();
+  constexpr int64_t& __cordl_internal_get__packetsReceivedEncrypted();
 
-  constexpr int64_t const& __get__packetsReceivedEncrypted() const;
+  constexpr int64_t const& __cordl_internal_get__packetsReceivedEncrypted() const;
 
-  constexpr void __set__packetsReceivedEncrypted(int64_t value);
+  constexpr void __cordl_internal_set__packetsReceivedEncrypted(int64_t value);
 
-  constexpr int64_t& __get__packetsReceivedRejected();
+  constexpr int64_t& __cordl_internal_get__packetsReceivedRejected();
 
-  constexpr int64_t const& __get__packetsReceivedRejected() const;
+  constexpr int64_t const& __cordl_internal_get__packetsReceivedRejected() const;
 
-  constexpr void __set__packetsReceivedRejected(int64_t value);
+  constexpr void __cordl_internal_set__packetsReceivedRejected(int64_t value);
 
-  constexpr int64_t& __get__packetsSentPlaintext();
+  constexpr int64_t& __cordl_internal_get__packetsSentPlaintext();
 
-  constexpr int64_t const& __get__packetsSentPlaintext() const;
+  constexpr int64_t const& __cordl_internal_get__packetsSentPlaintext() const;
 
-  constexpr void __set__packetsSentPlaintext(int64_t value);
+  constexpr void __cordl_internal_set__packetsSentPlaintext(int64_t value);
 
-  constexpr int64_t& __get__packetsSentEncrypted();
+  constexpr int64_t& __cordl_internal_get__packetsSentEncrypted();
 
-  constexpr int64_t const& __get__packetsSentEncrypted() const;
+  constexpr int64_t const& __cordl_internal_get__packetsSentEncrypted() const;
 
-  constexpr void __set__packetsSentEncrypted(int64_t value);
+  constexpr void __cordl_internal_set__packetsSentEncrypted(int64_t value);
 
-  constexpr int64_t& __get__packetsSentRejected();
+  constexpr int64_t& __cordl_internal_get__packetsSentRejected();
 
-  constexpr int64_t const& __get__packetsSentRejected() const;
+  constexpr int64_t const& __cordl_internal_get__packetsSentRejected() const;
 
-  constexpr void __set__packetsSentRejected(int64_t value);
+  constexpr void __cordl_internal_set__packetsSentRejected(int64_t value);
 
-  constexpr int64_t& __get__encryptionProcessingTime();
+  constexpr int64_t& __cordl_internal_get__encryptionProcessingTime();
 
-  constexpr int64_t const& __get__encryptionProcessingTime() const;
+  constexpr int64_t const& __cordl_internal_get__encryptionProcessingTime() const;
 
-  constexpr void __set__encryptionProcessingTime(int64_t value);
+  constexpr void __cordl_internal_set__encryptionProcessingTime(int64_t value);
 
-  constexpr int64_t& __get__decryptionProcessingTime();
+  constexpr int64_t& __cordl_internal_get__decryptionProcessingTime();
 
-  constexpr int64_t const& __get__decryptionProcessingTime() const;
+  constexpr int64_t const& __cordl_internal_get__decryptionProcessingTime() const;
 
-  constexpr void __set__decryptionProcessingTime(int64_t value);
+  constexpr void __cordl_internal_set__decryptionProcessingTime(int64_t value);
 
   /// @brief Method get_packetsReceivedPlaintext, addr 0xe500d8, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_packetsReceivedPlaintext();
@@ -335,20 +335,20 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__EncryptionSta
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12908))
 // CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList::<>c__DisplayClass4_0*
 class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field port, offset 0x10, size 0x4
-  __declspec(property(get = __get_port, put = __set_port)) int32_t port;
+  __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) int32_t port;
 
-  constexpr int32_t& __get_port();
+  constexpr int32_t& __cordl_internal_get_port();
 
-  constexpr int32_t const& __get_port() const;
+  constexpr int32_t const& __cordl_internal_get_port() const;
 
-  constexpr void __set_port(int32_t value);
+  constexpr void __cordl_internal_set_port(int32_t value);
 
   static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0* New_ctor();
 
@@ -387,7 +387,7 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12909))
 // CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList::<>c*
 class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList____c : public ::System::Object {
@@ -445,20 +445,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PacketEncrypt
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12910))
 // CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList::<>c__DisplayClass8_0*
 class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encryptionState, offset 0x10, size 0x8
-  __declspec(property(get = __get_encryptionState, put = __set_encryptionState))::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState;
+  __declspec(property(get = __cordl_internal_get_encryptionState, put = __cordl_internal_set_encryptionState))::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState;
 
-  constexpr ::GlobalNamespace::__EncryptionUtility__IEncryptionState*& __get_encryptionState();
+  constexpr ::GlobalNamespace::__EncryptionUtility__IEncryptionState*& __cordl_internal_get_encryptionState();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> const& __get_encryptionState() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> const& __cordl_internal_get_encryptionState() const;
 
-  constexpr void __set_encryptionState(::GlobalNamespace::__EncryptionUtility__IEncryptionState* value);
+  constexpr void __cordl_internal_set_encryptionState(::GlobalNamespace::__EncryptionUtility__IEncryptionState* value);
 
   static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0* New_ctor();
 
@@ -497,7 +497,7 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12911))
 // CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList*
 class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList : public ::System::Object {
@@ -510,8 +510,9 @@ public:
   using __c__DisplayClass4_0 = ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0;
 
   /// @brief Field _pendingStatesByPort, offset 0x10, size 0x8
-  __declspec(property(get = __get__pendingStatesByPort,
-                      put = __set__pendingStatesByPort))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _pendingStatesByPort;
+  __declspec(
+      property(get = __cordl_internal_get__pendingStatesByPort,
+               put = __cordl_internal_set__pendingStatesByPort))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _pendingStatesByPort;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
@@ -521,12 +522,12 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*& __get__pendingStatesByPort();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*& __cordl_internal_get__pendingStatesByPort();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*> const&
-  __get__pendingStatesByPort() const;
+  __cordl_internal_get__pendingStatesByPort() const;
 
-  constexpr void __set__pendingStatesByPort(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* value);
+  constexpr void __cordl_internal_set__pendingStatesByPort(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* value);
 
   /// @brief Method get_isEmpty, addr 0xe4eed0, size 0x5c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
@@ -583,8 +584,8 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryp
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12723)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 907 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12723)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 907 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12912)) CS Name: ::PacketEncryptionLayer::<AddEncryptedEndpointAsync>d__25
 struct CORDL_TYPE __PacketEncryptionLayer___AddEncryptedEndpointAsync_d__25 {
 public:
@@ -676,8 +677,8 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer___AddEncrypted
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12723))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12913)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(12723)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12913)) CS Name:
 // ::PacketEncryptionLayer::<AddPendingEncryptedEndpointAsync>d__27
 struct CORDL_TYPE __PacketEncryptionLayer___AddPendingEncryptedEndpointAsync_d__27 {
 public:
@@ -767,7 +768,7 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer___AddPendingEn
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14242))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14242))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12914))
 // CS Name: ::PacketEncryptionLayer*
 class CORDL_TYPE PacketEncryptionLayer : public ::LiteNetLib::Layers::PacketLayerBase {
@@ -782,28 +783,29 @@ public:
   using EncryptionStatistics = ::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics;
 
   /// @brief Field statistics, offset 0x18, size 0x8
-  __declspec(property(get = __get_statistics, put = __set_statistics))::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* statistics;
+  __declspec(property(get = __cordl_internal_get_statistics, put = __cordl_internal_set_statistics))::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* statistics;
 
   /// @brief Field _taskUtility, offset 0x20, size 0x8
-  __declspec(property(get = __get__taskUtility, put = __set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
+  __declspec(property(get = __cordl_internal_get__taskUtility, put = __cordl_internal_set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
 
   /// @brief Field _encryptionStates, offset 0x28, size 0x8
-  __declspec(property(get = __get__encryptionStates,
-                      put = __set__encryptionStates))::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _encryptionStates;
+  __declspec(property(
+      get = __cordl_internal_get__encryptionStates,
+      put = __cordl_internal_set__encryptionStates))::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _encryptionStates;
 
   /// @brief Field _pendingEncryptionStates, offset 0x30, size 0x8
-  __declspec(property(get = __get__pendingEncryptionStates,
-                      put = __set__pendingEncryptionStates))::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*,
-                                                                                                    ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>* _pendingEncryptionStates;
+  __declspec(property(get = __cordl_internal_get__pendingEncryptionStates, put = __cordl_internal_set__pendingEncryptionStates))::GlobalNamespace::ExpiringDictionary_2<
+      ::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>* _pendingEncryptionStates;
 
   /// @brief Field _unencryptedTrafficFilter, offset 0x38, size 0x8
-  __declspec(property(get = __get__unencryptedTrafficFilter, put = __set__unencryptedTrafficFilter))::ArrayW<uint8_t, ::Array<uint8_t>*> _unencryptedTrafficFilter;
+  __declspec(property(get = __cordl_internal_get__unencryptedTrafficFilter, put = __cordl_internal_set__unencryptedTrafficFilter))::ArrayW<uint8_t, ::Array<uint8_t>*> _unencryptedTrafficFilter;
 
   /// @brief Field <filterUnencryptedTraffic>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__filterUnencryptedTraffic_k__BackingField, put = __set__filterUnencryptedTraffic_k__BackingField)) bool _filterUnencryptedTraffic_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__filterUnencryptedTraffic_k__BackingField,
+                      put = __cordl_internal_set__filterUnencryptedTraffic_k__BackingField)) bool _filterUnencryptedTraffic_k__BackingField;
 
   /// @brief Field <enableStatistics>k__BackingField, offset 0x41, size 0x1
-  __declspec(property(get = __get__enableStatistics_k__BackingField, put = __set__enableStatistics_k__BackingField)) bool _enableStatistics_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__enableStatistics_k__BackingField, put = __cordl_internal_set__enableStatistics_k__BackingField)) bool _enableStatistics_k__BackingField;
 
   /// @brief Field _stopwatch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__stopwatch, put = setStaticF__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
@@ -812,49 +814,51 @@ public:
 
   __declspec(property(get = get_enableStatistics, put = set_enableStatistics)) bool enableStatistics;
 
-  constexpr ::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics*& __get_statistics();
+  constexpr ::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics*& __cordl_internal_get_statistics();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics*> const& __get_statistics() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics*> const& __cordl_internal_get_statistics() const;
 
-  constexpr void __set_statistics(::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* value);
+  constexpr void __cordl_internal_set_statistics(::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* value);
 
-  constexpr ::BGNet::Core::ITaskUtility*& __get__taskUtility();
+  constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __get__taskUtility() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility() const;
 
-  constexpr void __set__taskUtility(::BGNet::Core::ITaskUtility* value);
+  constexpr void __cordl_internal_set__taskUtility(::BGNet::Core::ITaskUtility* value);
 
-  constexpr ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*& __get__encryptionStates();
+  constexpr ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*& __cordl_internal_get__encryptionStates();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*> const&
-  __get__encryptionStates() const;
+  __cordl_internal_get__encryptionStates() const;
 
-  constexpr void __set__encryptionStates(::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* value);
+  constexpr void __cordl_internal_set__encryptionStates(::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* value);
 
-  constexpr ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>*& __get__pendingEncryptionStates();
+  constexpr ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>*&
+  __cordl_internal_get__pendingEncryptionStates();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>*> const&
-  __get__pendingEncryptionStates() const;
+  __cordl_internal_get__pendingEncryptionStates() const;
 
-  constexpr void __set__pendingEncryptionStates(::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>* value);
+  constexpr void
+  __cordl_internal_set__pendingEncryptionStates(::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__unencryptedTrafficFilter();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__unencryptedTrafficFilter();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__unencryptedTrafficFilter() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__unencryptedTrafficFilter() const;
 
-  constexpr void __set__unencryptedTrafficFilter(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__unencryptedTrafficFilter(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get__filterUnencryptedTraffic_k__BackingField();
+  constexpr bool& __cordl_internal_get__filterUnencryptedTraffic_k__BackingField();
 
-  constexpr bool const& __get__filterUnencryptedTraffic_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__filterUnencryptedTraffic_k__BackingField() const;
 
-  constexpr void __set__filterUnencryptedTraffic_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__filterUnencryptedTraffic_k__BackingField(bool value);
 
-  constexpr bool& __get__enableStatistics_k__BackingField();
+  constexpr bool& __cordl_internal_get__enableStatistics_k__BackingField();
 
-  constexpr bool const& __get__enableStatistics_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enableStatistics_k__BackingField() const;
 
-  constexpr void __set__enableStatistics_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__enableStatistics_k__BackingField(bool value);
 
   static inline void setStaticF__stopwatch(::System::Diagnostics::Stopwatch* value);
 

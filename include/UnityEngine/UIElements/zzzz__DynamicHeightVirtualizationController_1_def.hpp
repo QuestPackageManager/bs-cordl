@@ -51,122 +51,123 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5349 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5349 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7366))
 // CS Name: ::UnityEngine.UIElements::DynamicHeightVirtualizationController`1<T>*
 class CORDL_TYPE DynamicHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
 public:
   // Declarations
   /// @brief Field m_ItemHeightCache, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_ItemHeightCache, put = __set_m_ItemHeightCache))::System::Collections::Generic::Dictionary_2<int32_t, float_t>* m_ItemHeightCache;
+  __declspec(property(get = __cordl_internal_get_m_ItemHeightCache, put = __cordl_internal_set_m_ItemHeightCache))::System::Collections::Generic::Dictionary_2<int32_t, float_t>* m_ItemHeightCache;
 
   /// @brief Field m_WaitingCache, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_WaitingCache, put = __set_m_WaitingCache))::System::Collections::Generic::HashSet_1<int32_t>* m_WaitingCache;
+  __declspec(property(get = __cordl_internal_get_m_WaitingCache, put = __cordl_internal_set_m_WaitingCache))::System::Collections::Generic::HashSet_1<int32_t>* m_WaitingCache;
 
   /// @brief Field m_ForcedFirstVisibleItem, offset 0x70, size 0x4
-  __declspec(property(get = __get_m_ForcedFirstVisibleItem, put = __set_m_ForcedFirstVisibleItem)) int32_t m_ForcedFirstVisibleItem;
+  __declspec(property(get = __cordl_internal_get_m_ForcedFirstVisibleItem, put = __cordl_internal_set_m_ForcedFirstVisibleItem)) int32_t m_ForcedFirstVisibleItem;
 
   /// @brief Field m_ForcedLastVisibleItem, offset 0x74, size 0x4
-  __declspec(property(get = __get_m_ForcedLastVisibleItem, put = __set_m_ForcedLastVisibleItem)) int32_t m_ForcedLastVisibleItem;
+  __declspec(property(get = __cordl_internal_get_m_ForcedLastVisibleItem, put = __cordl_internal_set_m_ForcedLastVisibleItem)) int32_t m_ForcedLastVisibleItem;
 
   /// @brief Field m_StickToBottom, offset 0x78, size 0x1
-  __declspec(property(get = __get_m_StickToBottom, put = __set_m_StickToBottom)) bool m_StickToBottom;
+  __declspec(property(get = __cordl_internal_get_m_StickToBottom, put = __cordl_internal_set_m_StickToBottom)) bool m_StickToBottom;
 
   /// @brief Field m_AverageHeight, offset 0x7c, size 0x4
-  __declspec(property(get = __get_m_AverageHeight, put = __set_m_AverageHeight)) float_t m_AverageHeight;
+  __declspec(property(get = __cordl_internal_get_m_AverageHeight, put = __cordl_internal_set_m_AverageHeight)) float_t m_AverageHeight;
 
   /// @brief Field m_AccumulatedHeight, offset 0x80, size 0x4
-  __declspec(property(get = __get_m_AccumulatedHeight, put = __set_m_AccumulatedHeight)) float_t m_AccumulatedHeight;
+  __declspec(property(get = __cordl_internal_get_m_AccumulatedHeight, put = __cordl_internal_set_m_AccumulatedHeight)) float_t m_AccumulatedHeight;
 
   /// @brief Field m_StoredPadding, offset 0x84, size 0x4
-  __declspec(property(get = __get_m_StoredPadding, put = __set_m_StoredPadding)) float_t m_StoredPadding;
+  __declspec(property(get = __cordl_internal_get_m_StoredPadding, put = __cordl_internal_set_m_StoredPadding)) float_t m_StoredPadding;
 
   /// @brief Field m_FillCallback, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_FillCallback, put = __set_m_FillCallback))::System::Action* m_FillCallback;
+  __declspec(property(get = __cordl_internal_get_m_FillCallback, put = __cordl_internal_set_m_FillCallback))::System::Action* m_FillCallback;
 
   /// @brief Field m_GeometryChangedCallback, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_GeometryChangedCallback, put = __set_m_GeometryChangedCallback))::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* m_GeometryChangedCallback;
+  __declspec(property(get = __cordl_internal_get_m_GeometryChangedCallback,
+                      put = __cordl_internal_set_m_GeometryChangedCallback))::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* m_GeometryChangedCallback;
 
   /// @brief Field m_ScheduledItem, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_ScheduledItem, put = __set_m_ScheduledItem))::UnityEngine::UIElements::IVisualElementScheduledItem* m_ScheduledItem;
+  __declspec(property(get = __cordl_internal_get_m_ScheduledItem, put = __cordl_internal_set_m_ScheduledItem))::UnityEngine::UIElements::IVisualElementScheduledItem* m_ScheduledItem;
 
   /// @brief Field m_IndexOutOfBoundsPredicate, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_IndexOutOfBoundsPredicate, put = __set_m_IndexOutOfBoundsPredicate))::System::Predicate_1<int32_t>* m_IndexOutOfBoundsPredicate;
+  __declspec(property(get = __cordl_internal_get_m_IndexOutOfBoundsPredicate, put = __cordl_internal_set_m_IndexOutOfBoundsPredicate))::System::Predicate_1<int32_t>* m_IndexOutOfBoundsPredicate;
 
   /// @brief Field InitialAverageHeight, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_InitialAverageHeight, put = setStaticF_InitialAverageHeight)) int32_t InitialAverageHeight;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, float_t>*& __get_m_ItemHeightCache();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, float_t>*& __cordl_internal_get_m_ItemHeightCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, float_t>*> const& __get_m_ItemHeightCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, float_t>*> const& __cordl_internal_get_m_ItemHeightCache() const;
 
-  constexpr void __set_m_ItemHeightCache(::System::Collections::Generic::Dictionary_2<int32_t, float_t>* value);
+  constexpr void __cordl_internal_set_m_ItemHeightCache(::System::Collections::Generic::Dictionary_2<int32_t, float_t>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_WaitingCache();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_WaitingCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_WaitingCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_WaitingCache() const;
 
-  constexpr void __set_m_WaitingCache(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_WaitingCache(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr int32_t& __get_m_ForcedFirstVisibleItem();
+  constexpr int32_t& __cordl_internal_get_m_ForcedFirstVisibleItem();
 
-  constexpr int32_t const& __get_m_ForcedFirstVisibleItem() const;
+  constexpr int32_t const& __cordl_internal_get_m_ForcedFirstVisibleItem() const;
 
-  constexpr void __set_m_ForcedFirstVisibleItem(int32_t value);
+  constexpr void __cordl_internal_set_m_ForcedFirstVisibleItem(int32_t value);
 
-  constexpr int32_t& __get_m_ForcedLastVisibleItem();
+  constexpr int32_t& __cordl_internal_get_m_ForcedLastVisibleItem();
 
-  constexpr int32_t const& __get_m_ForcedLastVisibleItem() const;
+  constexpr int32_t const& __cordl_internal_get_m_ForcedLastVisibleItem() const;
 
-  constexpr void __set_m_ForcedLastVisibleItem(int32_t value);
+  constexpr void __cordl_internal_set_m_ForcedLastVisibleItem(int32_t value);
 
-  constexpr bool& __get_m_StickToBottom();
+  constexpr bool& __cordl_internal_get_m_StickToBottom();
 
-  constexpr bool const& __get_m_StickToBottom() const;
+  constexpr bool const& __cordl_internal_get_m_StickToBottom() const;
 
-  constexpr void __set_m_StickToBottom(bool value);
+  constexpr void __cordl_internal_set_m_StickToBottom(bool value);
 
-  constexpr float_t& __get_m_AverageHeight();
+  constexpr float_t& __cordl_internal_get_m_AverageHeight();
 
-  constexpr float_t const& __get_m_AverageHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_AverageHeight() const;
 
-  constexpr void __set_m_AverageHeight(float_t value);
+  constexpr void __cordl_internal_set_m_AverageHeight(float_t value);
 
-  constexpr float_t& __get_m_AccumulatedHeight();
+  constexpr float_t& __cordl_internal_get_m_AccumulatedHeight();
 
-  constexpr float_t const& __get_m_AccumulatedHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_AccumulatedHeight() const;
 
-  constexpr void __set_m_AccumulatedHeight(float_t value);
+  constexpr void __cordl_internal_set_m_AccumulatedHeight(float_t value);
 
-  constexpr float_t& __get_m_StoredPadding();
+  constexpr float_t& __cordl_internal_get_m_StoredPadding();
 
-  constexpr float_t const& __get_m_StoredPadding() const;
+  constexpr float_t const& __cordl_internal_get_m_StoredPadding() const;
 
-  constexpr void __set_m_StoredPadding(float_t value);
+  constexpr void __cordl_internal_set_m_StoredPadding(float_t value);
 
-  constexpr ::System::Action*& __get_m_FillCallback();
+  constexpr ::System::Action*& __cordl_internal_get_m_FillCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_FillCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_FillCallback() const;
 
-  constexpr void __set_m_FillCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_m_FillCallback(::System::Action* value);
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*& __get_m_GeometryChangedCallback();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*& __cordl_internal_get_m_GeometryChangedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*> const& __get_m_GeometryChangedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*> const& __cordl_internal_get_m_GeometryChangedCallback() const;
 
-  constexpr void __set_m_GeometryChangedCallback(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
+  constexpr void __cordl_internal_set_m_GeometryChangedCallback(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
-  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __get_m_ScheduledItem();
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_ScheduledItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __get_m_ScheduledItem() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_ScheduledItem() const;
 
-  constexpr void __set_m_ScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
+  constexpr void __cordl_internal_set_m_ScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
-  constexpr ::System::Predicate_1<int32_t>*& __get_m_IndexOutOfBoundsPredicate();
+  constexpr ::System::Predicate_1<int32_t>*& __cordl_internal_get_m_IndexOutOfBoundsPredicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<int32_t>*> const& __get_m_IndexOutOfBoundsPredicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<int32_t>*> const& __cordl_internal_get_m_IndexOutOfBoundsPredicate() const;
 
-  constexpr void __set_m_IndexOutOfBoundsPredicate(::System::Predicate_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_IndexOutOfBoundsPredicate(::System::Predicate_1<int32_t>* value);
 
   static inline void setStaticF_InitialAverageHeight(int32_t value);
 

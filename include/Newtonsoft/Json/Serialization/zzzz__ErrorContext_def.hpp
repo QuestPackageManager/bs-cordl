@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ErrorContext);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11932))
 // CS Name: ::Newtonsoft.Json.Serialization::ErrorContext*
 class CORDL_TYPE ErrorContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Traced>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__Traced_k__BackingField, put = __set__Traced_k__BackingField)) bool _Traced_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Traced_k__BackingField, put = __cordl_internal_set__Traced_k__BackingField)) bool _Traced_k__BackingField;
 
   /// @brief Field <Error>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Error_k__BackingField, put = __set__Error_k__BackingField))::System::Exception* _Error_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Error_k__BackingField, put = __cordl_internal_set__Error_k__BackingField))::System::Exception* _Error_k__BackingField;
 
   /// @brief Field <OriginalObject>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__OriginalObject_k__BackingField, put = __set__OriginalObject_k__BackingField))::System::Object* _OriginalObject_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__OriginalObject_k__BackingField, put = __cordl_internal_set__OriginalObject_k__BackingField))::System::Object* _OriginalObject_k__BackingField;
 
   /// @brief Field <Member>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__Member_k__BackingField, put = __set__Member_k__BackingField))::System::Object* _Member_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Member_k__BackingField, put = __cordl_internal_set__Member_k__BackingField))::System::Object* _Member_k__BackingField;
 
   /// @brief Field <Path>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__Path_k__BackingField, put = __set__Path_k__BackingField))::StringW _Path_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField))::StringW _Path_k__BackingField;
 
   /// @brief Field <Handled>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__Handled_k__BackingField, put = __set__Handled_k__BackingField)) bool _Handled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Handled_k__BackingField, put = __cordl_internal_set__Handled_k__BackingField)) bool _Handled_k__BackingField;
 
   __declspec(property(get = get_Traced, put = set_Traced)) bool Traced;
 
@@ -57,41 +57,41 @@ public:
 
   __declspec(property(get = get_Handled, put = set_Handled)) bool Handled;
 
-  constexpr bool& __get__Traced_k__BackingField();
+  constexpr bool& __cordl_internal_get__Traced_k__BackingField();
 
-  constexpr bool const& __get__Traced_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Traced_k__BackingField() const;
 
-  constexpr void __set__Traced_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Traced_k__BackingField(bool value);
 
-  constexpr ::System::Exception*& __get__Error_k__BackingField();
+  constexpr ::System::Exception*& __cordl_internal_get__Error_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get__Error_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get__Error_k__BackingField() const;
 
-  constexpr void __set__Error_k__BackingField(::System::Exception* value);
+  constexpr void __cordl_internal_set__Error_k__BackingField(::System::Exception* value);
 
-  constexpr ::System::Object*& __get__OriginalObject_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__OriginalObject_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__OriginalObject_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__OriginalObject_k__BackingField() const;
 
-  constexpr void __set__OriginalObject_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__OriginalObject_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Object*& __get__Member_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__Member_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__Member_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Member_k__BackingField() const;
 
-  constexpr void __set__Member_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__Member_k__BackingField(::System::Object* value);
 
-  constexpr ::StringW& __get__Path_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Path_k__BackingField();
 
-  constexpr ::StringW const& __get__Path_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Path_k__BackingField() const;
 
-  constexpr void __set__Path_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  constexpr bool& __get__Handled_k__BackingField();
+  constexpr bool& __cordl_internal_get__Handled_k__BackingField();
 
-  constexpr bool const& __get__Handled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Handled_k__BackingField() const;
 
-  constexpr void __set__Handled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Handled_k__BackingField(bool value);
 
   static inline ::Newtonsoft::Json::Serialization::ErrorContext* New_ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 

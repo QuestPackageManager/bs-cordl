@@ -83,7 +83,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::__GraphAPIClient___Post_d__5_1);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 25, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12769))
 // CS Name: ::GraphAPIClient::PostOptions
 struct CORDL_TYPE __GraphAPIClient__PostOptions {
@@ -127,9 +127,10 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TRequest, typename TResponse>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 865 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 865 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12769)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12770)) CS Name: ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12769)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 865 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 865 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12770)) CS Name:
+// ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__4_2 {
 public:
   // Declarations
@@ -215,9 +216,10 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResponse>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 94 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS Name: ::GraphAPIClient::<Post>d__5`1<TResponse>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 883 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 94 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS Name:
+// ::GraphAPIClient::<Post>d__5`1<TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__5_1 {
 public:
   // Declarations
@@ -291,7 +293,7 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12772))
 // CS Name: ::GraphAPIClient*
 class CORDL_TYPE GraphAPIClient : public ::System::Object {
@@ -304,22 +306,22 @@ public:
   using PostOptions = ::GlobalNamespace::__GraphAPIClient__PostOptions;
 
   /// @brief Field _networkConfig, offset 0x10, size 0x8
-  __declspec(property(get = __get__networkConfig, put = __set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
   /// @brief Field _client, offset 0x18, size 0x8
-  __declspec(property(get = __get__client, put = __set__client))::System::Net::Http::HttpClient* _client;
+  __declspec(property(get = __cordl_internal_get__client, put = __cordl_internal_set__client))::System::Net::Http::HttpClient* _client;
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __get__networkConfig();
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __get__networkConfig() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
-  constexpr void __set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  constexpr ::System::Net::Http::HttpClient*& __get__client();
+  constexpr ::System::Net::Http::HttpClient*& __cordl_internal_get__client();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpClient*> const& __get__client() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpClient*> const& __cordl_internal_get__client() const;
 
-  constexpr void __set__client(::System::Net::Http::HttpClient* value);
+  constexpr void __cordl_internal_set__client(::System::Net::Http::HttpClient* value);
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig);
 

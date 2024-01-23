@@ -29,24 +29,24 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Encoding);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2874))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11557))
 // CS Name: ::System.Xml::Ucs4Encoding*
 class CORDL_TYPE Ucs4Encoding : public ::System::Text::Encoding {
 public:
   // Declarations
   /// @brief Field ucs4Decoder, offset 0x38, size 0x8
-  __declspec(property(get = __get_ucs4Decoder, put = __set_ucs4Decoder))::System::Xml::Ucs4Decoder* ucs4Decoder;
+  __declspec(property(get = __cordl_internal_get_ucs4Decoder, put = __cordl_internal_set_ucs4Decoder))::System::Xml::Ucs4Decoder* ucs4Decoder;
 
   __declspec(property(get = get_WebName))::StringW WebName;
 
   __declspec(property(get = get_CodePage)) int32_t CodePage;
 
-  constexpr ::System::Xml::Ucs4Decoder*& __get_ucs4Decoder();
+  constexpr ::System::Xml::Ucs4Decoder*& __cordl_internal_get_ucs4Decoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Ucs4Decoder*> const& __get_ucs4Decoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Ucs4Decoder*> const& __cordl_internal_get_ucs4Decoder() const;
 
-  constexpr void __set_ucs4Decoder(::System::Xml::Ucs4Decoder* value);
+  constexpr void __cordl_internal_set_ucs4Decoder(::System::Xml::Ucs4Decoder* value);
 
   /// @brief Method get_WebName, addr 0x28a5bc8, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_WebName();

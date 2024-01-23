@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Runtime::Serialization::StreamingContextStates);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3236))
 // CS Name: ::System.Runtime.Serialization::StreamingContextStates
 struct CORDL_TYPE StreamingContextStates {

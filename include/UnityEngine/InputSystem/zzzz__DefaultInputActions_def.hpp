@@ -94,7 +94,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__DefaultInputActions__UIActions);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6305))
 // CS Name: ::DefaultInputActions::PlayerActions
 struct CORDL_TYPE __DefaultInputActions__PlayerActions {
@@ -163,7 +163,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__DefaultInputActions__Player
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6306))
 // CS Name: ::DefaultInputActions::UIActions
 struct CORDL_TYPE __DefaultInputActions__UIActions {
@@ -267,7 +267,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__DefaultInputActions__UIActi
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6307))
 // CS Name: ::DefaultInputActions::IPlayerActions*
 class CORDL_TYPE __DefaultInputActions__IPlayerActions {
@@ -298,7 +298,7 @@ public:
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6308))
 // CS Name: ::DefaultInputActions::IUIActions*
 class CORDL_TYPE __DefaultInputActions__IUIActions {
@@ -350,7 +350,7 @@ public:
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6309))
 // CS Name: ::UnityEngine.InputSystem::DefaultInputActions*
 class CORDL_TYPE DefaultInputActions : public ::System::Object {
@@ -365,76 +365,79 @@ public:
   using PlayerActions = ::UnityEngine::InputSystem::__DefaultInputActions__PlayerActions;
 
   /// @brief Field <asset>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__asset_k__BackingField, put = __set__asset_k__BackingField))::UnityEngine::InputSystem::InputActionAsset* _asset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__asset_k__BackingField,
+                      put = __cordl_internal_set__asset_k__BackingField))::UnityW<::UnityEngine::InputSystem::InputActionAsset> _asset_k__BackingField;
 
   /// @brief Field m_Player, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Player, put = __set_m_Player))::UnityEngine::InputSystem::InputActionMap* m_Player;
+  __declspec(property(get = __cordl_internal_get_m_Player, put = __cordl_internal_set_m_Player))::UnityEngine::InputSystem::InputActionMap* m_Player;
 
   /// @brief Field m_PlayerActionsCallbackInterface, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_PlayerActionsCallbackInterface,
-                      put = __set_m_PlayerActionsCallbackInterface))::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions* m_PlayerActionsCallbackInterface;
+  __declspec(property(get = __cordl_internal_get_m_PlayerActionsCallbackInterface,
+                      put = __cordl_internal_set_m_PlayerActionsCallbackInterface))::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions* m_PlayerActionsCallbackInterface;
 
   /// @brief Field m_Player_Move, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Player_Move, put = __set_m_Player_Move))::UnityEngine::InputSystem::InputAction* m_Player_Move;
+  __declspec(property(get = __cordl_internal_get_m_Player_Move, put = __cordl_internal_set_m_Player_Move))::UnityEngine::InputSystem::InputAction* m_Player_Move;
 
   /// @brief Field m_Player_Look, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Player_Look, put = __set_m_Player_Look))::UnityEngine::InputSystem::InputAction* m_Player_Look;
+  __declspec(property(get = __cordl_internal_get_m_Player_Look, put = __cordl_internal_set_m_Player_Look))::UnityEngine::InputSystem::InputAction* m_Player_Look;
 
   /// @brief Field m_Player_Fire, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Player_Fire, put = __set_m_Player_Fire))::UnityEngine::InputSystem::InputAction* m_Player_Fire;
+  __declspec(property(get = __cordl_internal_get_m_Player_Fire, put = __cordl_internal_set_m_Player_Fire))::UnityEngine::InputSystem::InputAction* m_Player_Fire;
 
   /// @brief Field m_UI, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_UI, put = __set_m_UI))::UnityEngine::InputSystem::InputActionMap* m_UI;
+  __declspec(property(get = __cordl_internal_get_m_UI, put = __cordl_internal_set_m_UI))::UnityEngine::InputSystem::InputActionMap* m_UI;
 
   /// @brief Field m_UIActionsCallbackInterface, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_UIActionsCallbackInterface, put = __set_m_UIActionsCallbackInterface))::UnityEngine::InputSystem::__DefaultInputActions__IUIActions* m_UIActionsCallbackInterface;
+  __declspec(property(get = __cordl_internal_get_m_UIActionsCallbackInterface,
+                      put = __cordl_internal_set_m_UIActionsCallbackInterface))::UnityEngine::InputSystem::__DefaultInputActions__IUIActions* m_UIActionsCallbackInterface;
 
   /// @brief Field m_UI_Navigate, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_UI_Navigate, put = __set_m_UI_Navigate))::UnityEngine::InputSystem::InputAction* m_UI_Navigate;
+  __declspec(property(get = __cordl_internal_get_m_UI_Navigate, put = __cordl_internal_set_m_UI_Navigate))::UnityEngine::InputSystem::InputAction* m_UI_Navigate;
 
   /// @brief Field m_UI_Submit, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_UI_Submit, put = __set_m_UI_Submit))::UnityEngine::InputSystem::InputAction* m_UI_Submit;
+  __declspec(property(get = __cordl_internal_get_m_UI_Submit, put = __cordl_internal_set_m_UI_Submit))::UnityEngine::InputSystem::InputAction* m_UI_Submit;
 
   /// @brief Field m_UI_Cancel, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_UI_Cancel, put = __set_m_UI_Cancel))::UnityEngine::InputSystem::InputAction* m_UI_Cancel;
+  __declspec(property(get = __cordl_internal_get_m_UI_Cancel, put = __cordl_internal_set_m_UI_Cancel))::UnityEngine::InputSystem::InputAction* m_UI_Cancel;
 
   /// @brief Field m_UI_Point, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_UI_Point, put = __set_m_UI_Point))::UnityEngine::InputSystem::InputAction* m_UI_Point;
+  __declspec(property(get = __cordl_internal_get_m_UI_Point, put = __cordl_internal_set_m_UI_Point))::UnityEngine::InputSystem::InputAction* m_UI_Point;
 
   /// @brief Field m_UI_Click, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_UI_Click, put = __set_m_UI_Click))::UnityEngine::InputSystem::InputAction* m_UI_Click;
+  __declspec(property(get = __cordl_internal_get_m_UI_Click, put = __cordl_internal_set_m_UI_Click))::UnityEngine::InputSystem::InputAction* m_UI_Click;
 
   /// @brief Field m_UI_ScrollWheel, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_UI_ScrollWheel, put = __set_m_UI_ScrollWheel))::UnityEngine::InputSystem::InputAction* m_UI_ScrollWheel;
+  __declspec(property(get = __cordl_internal_get_m_UI_ScrollWheel, put = __cordl_internal_set_m_UI_ScrollWheel))::UnityEngine::InputSystem::InputAction* m_UI_ScrollWheel;
 
   /// @brief Field m_UI_MiddleClick, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_UI_MiddleClick, put = __set_m_UI_MiddleClick))::UnityEngine::InputSystem::InputAction* m_UI_MiddleClick;
+  __declspec(property(get = __cordl_internal_get_m_UI_MiddleClick, put = __cordl_internal_set_m_UI_MiddleClick))::UnityEngine::InputSystem::InputAction* m_UI_MiddleClick;
 
   /// @brief Field m_UI_RightClick, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_UI_RightClick, put = __set_m_UI_RightClick))::UnityEngine::InputSystem::InputAction* m_UI_RightClick;
+  __declspec(property(get = __cordl_internal_get_m_UI_RightClick, put = __cordl_internal_set_m_UI_RightClick))::UnityEngine::InputSystem::InputAction* m_UI_RightClick;
 
   /// @brief Field m_UI_TrackedDevicePosition, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_UI_TrackedDevicePosition, put = __set_m_UI_TrackedDevicePosition))::UnityEngine::InputSystem::InputAction* m_UI_TrackedDevicePosition;
+  __declspec(property(get = __cordl_internal_get_m_UI_TrackedDevicePosition, put = __cordl_internal_set_m_UI_TrackedDevicePosition))::UnityEngine::InputSystem::InputAction* m_UI_TrackedDevicePosition;
 
   /// @brief Field m_UI_TrackedDeviceOrientation, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_UI_TrackedDeviceOrientation, put = __set_m_UI_TrackedDeviceOrientation))::UnityEngine::InputSystem::InputAction* m_UI_TrackedDeviceOrientation;
+  __declspec(property(get = __cordl_internal_get_m_UI_TrackedDeviceOrientation,
+                      put = __cordl_internal_set_m_UI_TrackedDeviceOrientation))::UnityEngine::InputSystem::InputAction* m_UI_TrackedDeviceOrientation;
 
   /// @brief Field m_KeyboardMouseSchemeIndex, offset 0xa0, size 0x4
-  __declspec(property(get = __get_m_KeyboardMouseSchemeIndex, put = __set_m_KeyboardMouseSchemeIndex)) int32_t m_KeyboardMouseSchemeIndex;
+  __declspec(property(get = __cordl_internal_get_m_KeyboardMouseSchemeIndex, put = __cordl_internal_set_m_KeyboardMouseSchemeIndex)) int32_t m_KeyboardMouseSchemeIndex;
 
   /// @brief Field m_GamepadSchemeIndex, offset 0xa4, size 0x4
-  __declspec(property(get = __get_m_GamepadSchemeIndex, put = __set_m_GamepadSchemeIndex)) int32_t m_GamepadSchemeIndex;
+  __declspec(property(get = __cordl_internal_get_m_GamepadSchemeIndex, put = __cordl_internal_set_m_GamepadSchemeIndex)) int32_t m_GamepadSchemeIndex;
 
   /// @brief Field m_TouchSchemeIndex, offset 0xa8, size 0x4
-  __declspec(property(get = __get_m_TouchSchemeIndex, put = __set_m_TouchSchemeIndex)) int32_t m_TouchSchemeIndex;
+  __declspec(property(get = __cordl_internal_get_m_TouchSchemeIndex, put = __cordl_internal_set_m_TouchSchemeIndex)) int32_t m_TouchSchemeIndex;
 
   /// @brief Field m_JoystickSchemeIndex, offset 0xac, size 0x4
-  __declspec(property(get = __get_m_JoystickSchemeIndex, put = __set_m_JoystickSchemeIndex)) int32_t m_JoystickSchemeIndex;
+  __declspec(property(get = __cordl_internal_get_m_JoystickSchemeIndex, put = __cordl_internal_set_m_JoystickSchemeIndex)) int32_t m_JoystickSchemeIndex;
 
   /// @brief Field m_XRSchemeIndex, offset 0xb0, size 0x4
-  __declspec(property(get = __get_m_XRSchemeIndex, put = __set_m_XRSchemeIndex)) int32_t m_XRSchemeIndex;
+  __declspec(property(get = __cordl_internal_get_m_XRSchemeIndex, put = __cordl_internal_set_m_XRSchemeIndex)) int32_t m_XRSchemeIndex;
 
-  __declspec(property(get = get_asset))::UnityEngine::InputSystem::InputActionAsset* asset;
+  __declspec(property(get = get_asset))::UnityW<::UnityEngine::InputSystem::InputActionAsset> asset;
 
   __declspec(property(get = get_bindingMask, put = set_bindingMask))::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> bindingMask;
 
@@ -489,146 +492,146 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::InputActionAsset*& __get__asset_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& __cordl_internal_get__asset_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionAsset*> const& __get__asset_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& __cordl_internal_get__asset_k__BackingField() const;
 
-  constexpr void __set__asset_k__BackingField(::UnityEngine::InputSystem::InputActionAsset* value);
+  constexpr void __cordl_internal_set__asset_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionMap*& __get_m_Player();
+  constexpr ::UnityEngine::InputSystem::InputActionMap*& __cordl_internal_get_m_Player();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionMap*> const& __get_m_Player() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionMap*> const& __cordl_internal_get_m_Player() const;
 
-  constexpr void __set_m_Player(::UnityEngine::InputSystem::InputActionMap* value);
+  constexpr void __cordl_internal_set_m_Player(::UnityEngine::InputSystem::InputActionMap* value);
 
-  constexpr ::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions*& __get_m_PlayerActionsCallbackInterface();
+  constexpr ::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions*& __cordl_internal_get_m_PlayerActionsCallbackInterface();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions*> const& __get_m_PlayerActionsCallbackInterface() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions*> const& __cordl_internal_get_m_PlayerActionsCallbackInterface() const;
 
-  constexpr void __set_m_PlayerActionsCallbackInterface(::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions* value);
+  constexpr void __cordl_internal_set_m_PlayerActionsCallbackInterface(::UnityEngine::InputSystem::__DefaultInputActions__IPlayerActions* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_Player_Move();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_Player_Move();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_Player_Move() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_Player_Move() const;
 
-  constexpr void __set_m_Player_Move(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_Player_Move(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_Player_Look();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_Player_Look();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_Player_Look() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_Player_Look() const;
 
-  constexpr void __set_m_Player_Look(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_Player_Look(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_Player_Fire();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_Player_Fire();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_Player_Fire() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_Player_Fire() const;
 
-  constexpr void __set_m_Player_Fire(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_Player_Fire(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionMap*& __get_m_UI();
+  constexpr ::UnityEngine::InputSystem::InputActionMap*& __cordl_internal_get_m_UI();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionMap*> const& __get_m_UI() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionMap*> const& __cordl_internal_get_m_UI() const;
 
-  constexpr void __set_m_UI(::UnityEngine::InputSystem::InputActionMap* value);
+  constexpr void __cordl_internal_set_m_UI(::UnityEngine::InputSystem::InputActionMap* value);
 
-  constexpr ::UnityEngine::InputSystem::__DefaultInputActions__IUIActions*& __get_m_UIActionsCallbackInterface();
+  constexpr ::UnityEngine::InputSystem::__DefaultInputActions__IUIActions*& __cordl_internal_get_m_UIActionsCallbackInterface();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__DefaultInputActions__IUIActions*> const& __get_m_UIActionsCallbackInterface() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__DefaultInputActions__IUIActions*> const& __cordl_internal_get_m_UIActionsCallbackInterface() const;
 
-  constexpr void __set_m_UIActionsCallbackInterface(::UnityEngine::InputSystem::__DefaultInputActions__IUIActions* value);
+  constexpr void __cordl_internal_set_m_UIActionsCallbackInterface(::UnityEngine::InputSystem::__DefaultInputActions__IUIActions* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_Navigate();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_Navigate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_Navigate() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_Navigate() const;
 
-  constexpr void __set_m_UI_Navigate(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_Navigate(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_Submit();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_Submit();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_Submit() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_Submit() const;
 
-  constexpr void __set_m_UI_Submit(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_Submit(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_Cancel();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_Cancel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_Cancel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_Cancel() const;
 
-  constexpr void __set_m_UI_Cancel(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_Cancel(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_Point();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_Point();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_Point() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_Point() const;
 
-  constexpr void __set_m_UI_Point(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_Point(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_Click();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_Click();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_Click() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_Click() const;
 
-  constexpr void __set_m_UI_Click(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_Click(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_ScrollWheel();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_ScrollWheel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_ScrollWheel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_ScrollWheel() const;
 
-  constexpr void __set_m_UI_ScrollWheel(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_ScrollWheel(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_MiddleClick();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_MiddleClick();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_MiddleClick() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_MiddleClick() const;
 
-  constexpr void __set_m_UI_MiddleClick(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_MiddleClick(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_RightClick();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_RightClick();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_RightClick() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_RightClick() const;
 
-  constexpr void __set_m_UI_RightClick(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_RightClick(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_TrackedDevicePosition();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_TrackedDevicePosition();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_TrackedDevicePosition() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_TrackedDevicePosition() const;
 
-  constexpr void __set_m_UI_TrackedDevicePosition(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_TrackedDevicePosition(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_UI_TrackedDeviceOrientation();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_UI_TrackedDeviceOrientation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_UI_TrackedDeviceOrientation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_UI_TrackedDeviceOrientation() const;
 
-  constexpr void __set_m_UI_TrackedDeviceOrientation(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_UI_TrackedDeviceOrientation(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr int32_t& __get_m_KeyboardMouseSchemeIndex();
+  constexpr int32_t& __cordl_internal_get_m_KeyboardMouseSchemeIndex();
 
-  constexpr int32_t const& __get_m_KeyboardMouseSchemeIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_KeyboardMouseSchemeIndex() const;
 
-  constexpr void __set_m_KeyboardMouseSchemeIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_KeyboardMouseSchemeIndex(int32_t value);
 
-  constexpr int32_t& __get_m_GamepadSchemeIndex();
+  constexpr int32_t& __cordl_internal_get_m_GamepadSchemeIndex();
 
-  constexpr int32_t const& __get_m_GamepadSchemeIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_GamepadSchemeIndex() const;
 
-  constexpr void __set_m_GamepadSchemeIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_GamepadSchemeIndex(int32_t value);
 
-  constexpr int32_t& __get_m_TouchSchemeIndex();
+  constexpr int32_t& __cordl_internal_get_m_TouchSchemeIndex();
 
-  constexpr int32_t const& __get_m_TouchSchemeIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_TouchSchemeIndex() const;
 
-  constexpr void __set_m_TouchSchemeIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_TouchSchemeIndex(int32_t value);
 
-  constexpr int32_t& __get_m_JoystickSchemeIndex();
+  constexpr int32_t& __cordl_internal_get_m_JoystickSchemeIndex();
 
-  constexpr int32_t const& __get_m_JoystickSchemeIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_JoystickSchemeIndex() const;
 
-  constexpr void __set_m_JoystickSchemeIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_JoystickSchemeIndex(int32_t value);
 
-  constexpr int32_t& __get_m_XRSchemeIndex();
+  constexpr int32_t& __cordl_internal_get_m_XRSchemeIndex();
 
-  constexpr int32_t const& __get_m_XRSchemeIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_XRSchemeIndex() const;
 
-  constexpr void __set_m_XRSchemeIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_XRSchemeIndex(int32_t value);
 
   /// @brief Method get_asset, addr 0x2ab847c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionAsset* get_asset();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_asset();
 
   static inline ::UnityEngine::InputSystem::DefaultInputActions* New_ctor();
 
@@ -713,7 +716,7 @@ protected:
 
 public:
   /// @brief Field <asset>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionAsset* ____asset_k__BackingField;
+  ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ____asset_k__BackingField;
 
   /// @brief Field m_Player, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputActionMap* ___m_Player;

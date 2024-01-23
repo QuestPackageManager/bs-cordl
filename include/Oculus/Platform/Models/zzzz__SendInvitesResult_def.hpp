@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SendInvitesResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13480))
 // CS Name: ::Oculus.Platform.Models::SendInvitesResult*
 class CORDL_TYPE SendInvitesResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Invites, offset 0x10, size 0x8
-  __declspec(property(get = __get_Invites, put = __set_Invites))::Oculus::Platform::Models::ApplicationInviteList* Invites;
+  __declspec(property(get = __cordl_internal_get_Invites, put = __cordl_internal_set_Invites))::Oculus::Platform::Models::ApplicationInviteList* Invites;
 
-  constexpr ::Oculus::Platform::Models::ApplicationInviteList*& __get_Invites();
+  constexpr ::Oculus::Platform::Models::ApplicationInviteList*& __cordl_internal_get_Invites();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::ApplicationInviteList*> const& __get_Invites() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::ApplicationInviteList*> const& __cordl_internal_get_Invites() const;
 
-  constexpr void __set_Invites(::Oculus::Platform::Models::ApplicationInviteList* value);
+  constexpr void __cordl_internal_set_Invites(::Oculus::Platform::Models::ApplicationInviteList* value);
 
   static inline ::Oculus::Platform::Models::SendInvitesResult* New_ctor(void* o);
 

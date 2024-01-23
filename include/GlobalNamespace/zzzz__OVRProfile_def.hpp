@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRProfile);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7949))
 // CS Name: ::OVRProfile::State
 struct CORDL_TYPE __OVRProfile__State {
@@ -83,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRProfile__State, value__) == 0x0, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7950))
 // CS Name: ::OVRProfile*
 class CORDL_TYPE OVRProfile : public ::UnityEngine::Object {

@@ -26,97 +26,97 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::Match);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8903))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8903))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8906))
 // CS Name: ::System.Text.RegularExpressions::Match*
 class CORDL_TYPE Match : public ::System::Text::RegularExpressions::Group {
 public:
   // Declarations
   /// @brief Field _groupcoll, offset 0x40, size 0x8
-  __declspec(property(get = __get__groupcoll, put = __set__groupcoll))::System::Text::RegularExpressions::GroupCollection* _groupcoll;
+  __declspec(property(get = __cordl_internal_get__groupcoll, put = __cordl_internal_set__groupcoll))::System::Text::RegularExpressions::GroupCollection* _groupcoll;
 
   /// @brief Field _regex, offset 0x48, size 0x8
-  __declspec(property(get = __get__regex, put = __set__regex))::System::Text::RegularExpressions::Regex* _regex;
+  __declspec(property(get = __cordl_internal_get__regex, put = __cordl_internal_set__regex))::System::Text::RegularExpressions::Regex* _regex;
 
   /// @brief Field _textbeg, offset 0x50, size 0x4
-  __declspec(property(get = __get__textbeg, put = __set__textbeg)) int32_t _textbeg;
+  __declspec(property(get = __cordl_internal_get__textbeg, put = __cordl_internal_set__textbeg)) int32_t _textbeg;
 
   /// @brief Field _textpos, offset 0x54, size 0x4
-  __declspec(property(get = __get__textpos, put = __set__textpos)) int32_t _textpos;
+  __declspec(property(get = __cordl_internal_get__textpos, put = __cordl_internal_set__textpos)) int32_t _textpos;
 
   /// @brief Field _textend, offset 0x58, size 0x4
-  __declspec(property(get = __get__textend, put = __set__textend)) int32_t _textend;
+  __declspec(property(get = __cordl_internal_get__textend, put = __cordl_internal_set__textend)) int32_t _textend;
 
   /// @brief Field _textstart, offset 0x5c, size 0x4
-  __declspec(property(get = __get__textstart, put = __set__textstart)) int32_t _textstart;
+  __declspec(property(get = __cordl_internal_get__textstart, put = __cordl_internal_set__textstart)) int32_t _textstart;
 
   /// @brief Field _matches, offset 0x60, size 0x8
-  __declspec(property(get = __get__matches, put = __set__matches))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> _matches;
+  __declspec(property(get = __cordl_internal_get__matches, put = __cordl_internal_set__matches))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> _matches;
 
   /// @brief Field _matchcount, offset 0x68, size 0x8
-  __declspec(property(get = __get__matchcount, put = __set__matchcount))::ArrayW<int32_t, ::Array<int32_t>*> _matchcount;
+  __declspec(property(get = __cordl_internal_get__matchcount, put = __cordl_internal_set__matchcount))::ArrayW<int32_t, ::Array<int32_t>*> _matchcount;
 
   /// @brief Field _balancing, offset 0x70, size 0x1
-  __declspec(property(get = __get__balancing, put = __set__balancing)) bool _balancing;
+  __declspec(property(get = __cordl_internal_get__balancing, put = __cordl_internal_set__balancing)) bool _balancing;
 
   /// @brief Field <Empty>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField))::System::Text::RegularExpressions::Match* _Empty_k__BackingField;
 
   __declspec(property(get = get_Groups))::System::Text::RegularExpressions::GroupCollection* Groups;
 
-  constexpr ::System::Text::RegularExpressions::GroupCollection*& __get__groupcoll();
+  constexpr ::System::Text::RegularExpressions::GroupCollection*& __cordl_internal_get__groupcoll();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::GroupCollection*> const& __get__groupcoll() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::GroupCollection*> const& __cordl_internal_get__groupcoll() const;
 
-  constexpr void __set__groupcoll(::System::Text::RegularExpressions::GroupCollection* value);
+  constexpr void __cordl_internal_set__groupcoll(::System::Text::RegularExpressions::GroupCollection* value);
 
-  constexpr ::System::Text::RegularExpressions::Regex*& __get__regex();
+  constexpr ::System::Text::RegularExpressions::Regex*& __cordl_internal_get__regex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __get__regex() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __cordl_internal_get__regex() const;
 
-  constexpr void __set__regex(::System::Text::RegularExpressions::Regex* value);
+  constexpr void __cordl_internal_set__regex(::System::Text::RegularExpressions::Regex* value);
 
-  constexpr int32_t& __get__textbeg();
+  constexpr int32_t& __cordl_internal_get__textbeg();
 
-  constexpr int32_t const& __get__textbeg() const;
+  constexpr int32_t const& __cordl_internal_get__textbeg() const;
 
-  constexpr void __set__textbeg(int32_t value);
+  constexpr void __cordl_internal_set__textbeg(int32_t value);
 
-  constexpr int32_t& __get__textpos();
+  constexpr int32_t& __cordl_internal_get__textpos();
 
-  constexpr int32_t const& __get__textpos() const;
+  constexpr int32_t const& __cordl_internal_get__textpos() const;
 
-  constexpr void __set__textpos(int32_t value);
+  constexpr void __cordl_internal_set__textpos(int32_t value);
 
-  constexpr int32_t& __get__textend();
+  constexpr int32_t& __cordl_internal_get__textend();
 
-  constexpr int32_t const& __get__textend() const;
+  constexpr int32_t const& __cordl_internal_get__textend() const;
 
-  constexpr void __set__textend(int32_t value);
+  constexpr void __cordl_internal_set__textend(int32_t value);
 
-  constexpr int32_t& __get__textstart();
+  constexpr int32_t& __cordl_internal_get__textstart();
 
-  constexpr int32_t const& __get__textstart() const;
+  constexpr int32_t const& __cordl_internal_get__textstart() const;
 
-  constexpr void __set__textstart(int32_t value);
+  constexpr void __cordl_internal_set__textstart(int32_t value);
 
-  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& __get__matches();
+  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& __cordl_internal_get__matches();
 
-  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& __get__matches() const;
+  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& __cordl_internal_get__matches() const;
 
-  constexpr void __set__matches(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
+  constexpr void __cordl_internal_set__matches(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__matchcount();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__matchcount();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__matchcount() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__matchcount() const;
 
-  constexpr void __set__matchcount(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__matchcount(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get__balancing();
+  constexpr bool& __cordl_internal_get__balancing();
 
-  constexpr bool const& __get__balancing() const;
+  constexpr bool const& __cordl_internal_get__balancing() const;
 
-  constexpr void __set__balancing(bool value);
+  constexpr void __cordl_internal_set__balancing(bool value);
 
   static inline void setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::Match* value);
 

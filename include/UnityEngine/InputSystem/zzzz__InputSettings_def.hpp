@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputSettings);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6301))
 // CS Name: ::InputSettings::UpdateMode
 struct CORDL_TYPE __InputSettings__UpdateMode {
@@ -101,7 +101,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__UpdateMode, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6302))
 // CS Name: ::InputSettings::BackgroundBehavior
 struct CORDL_TYPE __InputSettings__BackgroundBehavior {
@@ -155,7 +155,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__BackgroundBe
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6303))
 // CS Name: ::InputSettings::EditorInputBehaviorInPlayMode
 struct CORDL_TYPE __InputSettings__EditorInputBehaviorInPlayMode {
@@ -209,8 +209,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__EditorInputB
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(6302)), TypeDefinitionIndex(TypeDefinitionIndex(6301)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6303))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6304)) CS Name: ::UnityEngine.InputSystem::InputSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6301)), TypeDefinitionIndex(TypeDefinitionIndex(6302)), TypeDefinitionIndex(TypeDefinitionIndex(6303)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10210))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6304)) CS Name: ::UnityEngine.InputSystem::InputSettings*
 class CORDL_TYPE InputSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -221,62 +221,63 @@ public:
   using UpdateMode = ::UnityEngine::InputSystem::__InputSettings__UpdateMode;
 
   /// @brief Field m_SupportedDevices, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_SupportedDevices, put = __set_m_SupportedDevices))::ArrayW<::StringW, ::Array<::StringW>*> m_SupportedDevices;
+  __declspec(property(get = __cordl_internal_get_m_SupportedDevices, put = __cordl_internal_set_m_SupportedDevices))::ArrayW<::StringW, ::Array<::StringW>*> m_SupportedDevices;
 
   /// @brief Field m_UpdateMode, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_UpdateMode, put = __set_m_UpdateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode m_UpdateMode;
+  __declspec(property(get = __cordl_internal_get_m_UpdateMode, put = __cordl_internal_set_m_UpdateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode m_UpdateMode;
 
   /// @brief Field m_MaxEventBytesPerUpdate, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_MaxEventBytesPerUpdate, put = __set_m_MaxEventBytesPerUpdate)) int32_t m_MaxEventBytesPerUpdate;
+  __declspec(property(get = __cordl_internal_get_m_MaxEventBytesPerUpdate, put = __cordl_internal_set_m_MaxEventBytesPerUpdate)) int32_t m_MaxEventBytesPerUpdate;
 
   /// @brief Field m_MaxQueuedEventsPerUpdate, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_MaxQueuedEventsPerUpdate, put = __set_m_MaxQueuedEventsPerUpdate)) int32_t m_MaxQueuedEventsPerUpdate;
+  __declspec(property(get = __cordl_internal_get_m_MaxQueuedEventsPerUpdate, put = __cordl_internal_set_m_MaxQueuedEventsPerUpdate)) int32_t m_MaxQueuedEventsPerUpdate;
 
   /// @brief Field m_CompensateForScreenOrientation, offset 0x2c, size 0x1
-  __declspec(property(get = __get_m_CompensateForScreenOrientation, put = __set_m_CompensateForScreenOrientation)) bool m_CompensateForScreenOrientation;
+  __declspec(property(get = __cordl_internal_get_m_CompensateForScreenOrientation, put = __cordl_internal_set_m_CompensateForScreenOrientation)) bool m_CompensateForScreenOrientation;
 
   /// @brief Field m_BackgroundBehavior, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_BackgroundBehavior, put = __set_m_BackgroundBehavior))::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior m_BackgroundBehavior;
+  __declspec(property(get = __cordl_internal_get_m_BackgroundBehavior,
+                      put = __cordl_internal_set_m_BackgroundBehavior))::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior m_BackgroundBehavior;
 
   /// @brief Field m_EditorInputBehaviorInPlayMode, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_EditorInputBehaviorInPlayMode,
-                      put = __set_m_EditorInputBehaviorInPlayMode))::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode m_EditorInputBehaviorInPlayMode;
+  __declspec(property(get = __cordl_internal_get_m_EditorInputBehaviorInPlayMode,
+                      put = __cordl_internal_set_m_EditorInputBehaviorInPlayMode))::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode m_EditorInputBehaviorInPlayMode;
 
   /// @brief Field m_DefaultDeadzoneMin, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_DefaultDeadzoneMin, put = __set_m_DefaultDeadzoneMin)) float_t m_DefaultDeadzoneMin;
+  __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMin, put = __cordl_internal_set_m_DefaultDeadzoneMin)) float_t m_DefaultDeadzoneMin;
 
   /// @brief Field m_DefaultDeadzoneMax, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_DefaultDeadzoneMax, put = __set_m_DefaultDeadzoneMax)) float_t m_DefaultDeadzoneMax;
+  __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMax, put = __cordl_internal_set_m_DefaultDeadzoneMax)) float_t m_DefaultDeadzoneMax;
 
   /// @brief Field m_DefaultButtonPressPoint, offset 0x40, size 0x4
-  __declspec(property(get = __get_m_DefaultButtonPressPoint, put = __set_m_DefaultButtonPressPoint)) float_t m_DefaultButtonPressPoint;
+  __declspec(property(get = __cordl_internal_get_m_DefaultButtonPressPoint, put = __cordl_internal_set_m_DefaultButtonPressPoint)) float_t m_DefaultButtonPressPoint;
 
   /// @brief Field m_ButtonReleaseThreshold, offset 0x44, size 0x4
-  __declspec(property(get = __get_m_ButtonReleaseThreshold, put = __set_m_ButtonReleaseThreshold)) float_t m_ButtonReleaseThreshold;
+  __declspec(property(get = __cordl_internal_get_m_ButtonReleaseThreshold, put = __cordl_internal_set_m_ButtonReleaseThreshold)) float_t m_ButtonReleaseThreshold;
 
   /// @brief Field m_DefaultTapTime, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_DefaultTapTime, put = __set_m_DefaultTapTime)) float_t m_DefaultTapTime;
+  __declspec(property(get = __cordl_internal_get_m_DefaultTapTime, put = __cordl_internal_set_m_DefaultTapTime)) float_t m_DefaultTapTime;
 
   /// @brief Field m_DefaultSlowTapTime, offset 0x4c, size 0x4
-  __declspec(property(get = __get_m_DefaultSlowTapTime, put = __set_m_DefaultSlowTapTime)) float_t m_DefaultSlowTapTime;
+  __declspec(property(get = __cordl_internal_get_m_DefaultSlowTapTime, put = __cordl_internal_set_m_DefaultSlowTapTime)) float_t m_DefaultSlowTapTime;
 
   /// @brief Field m_DefaultHoldTime, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_DefaultHoldTime, put = __set_m_DefaultHoldTime)) float_t m_DefaultHoldTime;
+  __declspec(property(get = __cordl_internal_get_m_DefaultHoldTime, put = __cordl_internal_set_m_DefaultHoldTime)) float_t m_DefaultHoldTime;
 
   /// @brief Field m_TapRadius, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_TapRadius, put = __set_m_TapRadius)) float_t m_TapRadius;
+  __declspec(property(get = __cordl_internal_get_m_TapRadius, put = __cordl_internal_set_m_TapRadius)) float_t m_TapRadius;
 
   /// @brief Field m_MultiTapDelayTime, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_MultiTapDelayTime, put = __set_m_MultiTapDelayTime)) float_t m_MultiTapDelayTime;
+  __declspec(property(get = __cordl_internal_get_m_MultiTapDelayTime, put = __cordl_internal_set_m_MultiTapDelayTime)) float_t m_MultiTapDelayTime;
 
   /// @brief Field m_DisableRedundantEventsMerging, offset 0x5c, size 0x1
-  __declspec(property(get = __get_m_DisableRedundantEventsMerging, put = __set_m_DisableRedundantEventsMerging)) bool m_DisableRedundantEventsMerging;
+  __declspec(property(get = __cordl_internal_get_m_DisableRedundantEventsMerging, put = __cordl_internal_set_m_DisableRedundantEventsMerging)) bool m_DisableRedundantEventsMerging;
 
   /// @brief Field m_ShortcutKeysConsumeInputs, offset 0x5d, size 0x1
-  __declspec(property(get = __get_m_ShortcutKeysConsumeInputs, put = __set_m_ShortcutKeysConsumeInputs)) bool m_ShortcutKeysConsumeInputs;
+  __declspec(property(get = __cordl_internal_get_m_ShortcutKeysConsumeInputs, put = __cordl_internal_set_m_ShortcutKeysConsumeInputs)) bool m_ShortcutKeysConsumeInputs;
 
   /// @brief Field m_FeatureFlags, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_FeatureFlags, put = __set_m_FeatureFlags))::System::Collections::Generic::HashSet_1<::StringW>* m_FeatureFlags;
+  __declspec(property(get = __cordl_internal_get_m_FeatureFlags, put = __cordl_internal_set_m_FeatureFlags))::System::Collections::Generic::HashSet_1<::StringW>* m_FeatureFlags;
 
   __declspec(property(get = get_updateMode, put = set_updateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode updateMode;
 
@@ -315,119 +316,119 @@ public:
 
   __declspec(property(get = get_disableRedundantEventsMerging, put = set_disableRedundantEventsMerging)) bool disableRedundantEventsMerging;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_SupportedDevices();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_SupportedDevices();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_SupportedDevices() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_SupportedDevices() const;
 
-  constexpr void __set_m_SupportedDevices(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_SupportedDevices(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode& __get_m_UpdateMode();
+  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode& __cordl_internal_get_m_UpdateMode();
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode const& __get_m_UpdateMode() const;
+  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode const& __cordl_internal_get_m_UpdateMode() const;
 
-  constexpr void __set_m_UpdateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
+  constexpr void __cordl_internal_set_m_UpdateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
 
-  constexpr int32_t& __get_m_MaxEventBytesPerUpdate();
+  constexpr int32_t& __cordl_internal_get_m_MaxEventBytesPerUpdate();
 
-  constexpr int32_t const& __get_m_MaxEventBytesPerUpdate() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxEventBytesPerUpdate() const;
 
-  constexpr void __set_m_MaxEventBytesPerUpdate(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxEventBytesPerUpdate(int32_t value);
 
-  constexpr int32_t& __get_m_MaxQueuedEventsPerUpdate();
+  constexpr int32_t& __cordl_internal_get_m_MaxQueuedEventsPerUpdate();
 
-  constexpr int32_t const& __get_m_MaxQueuedEventsPerUpdate() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxQueuedEventsPerUpdate() const;
 
-  constexpr void __set_m_MaxQueuedEventsPerUpdate(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxQueuedEventsPerUpdate(int32_t value);
 
-  constexpr bool& __get_m_CompensateForScreenOrientation();
+  constexpr bool& __cordl_internal_get_m_CompensateForScreenOrientation();
 
-  constexpr bool const& __get_m_CompensateForScreenOrientation() const;
+  constexpr bool const& __cordl_internal_get_m_CompensateForScreenOrientation() const;
 
-  constexpr void __set_m_CompensateForScreenOrientation(bool value);
+  constexpr void __cordl_internal_set_m_CompensateForScreenOrientation(bool value);
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior& __get_m_BackgroundBehavior();
+  constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior& __cordl_internal_get_m_BackgroundBehavior();
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const& __get_m_BackgroundBehavior() const;
+  constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const& __cordl_internal_get_m_BackgroundBehavior() const;
 
-  constexpr void __set_m_BackgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
+  constexpr void __cordl_internal_set_m_BackgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode& __get_m_EditorInputBehaviorInPlayMode();
+  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode& __cordl_internal_get_m_EditorInputBehaviorInPlayMode();
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const& __get_m_EditorInputBehaviorInPlayMode() const;
+  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const& __cordl_internal_get_m_EditorInputBehaviorInPlayMode() const;
 
-  constexpr void __set_m_EditorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
+  constexpr void __cordl_internal_set_m_EditorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
 
-  constexpr float_t& __get_m_DefaultDeadzoneMin();
+  constexpr float_t& __cordl_internal_get_m_DefaultDeadzoneMin();
 
-  constexpr float_t const& __get_m_DefaultDeadzoneMin() const;
+  constexpr float_t const& __cordl_internal_get_m_DefaultDeadzoneMin() const;
 
-  constexpr void __set_m_DefaultDeadzoneMin(float_t value);
+  constexpr void __cordl_internal_set_m_DefaultDeadzoneMin(float_t value);
 
-  constexpr float_t& __get_m_DefaultDeadzoneMax();
+  constexpr float_t& __cordl_internal_get_m_DefaultDeadzoneMax();
 
-  constexpr float_t const& __get_m_DefaultDeadzoneMax() const;
+  constexpr float_t const& __cordl_internal_get_m_DefaultDeadzoneMax() const;
 
-  constexpr void __set_m_DefaultDeadzoneMax(float_t value);
+  constexpr void __cordl_internal_set_m_DefaultDeadzoneMax(float_t value);
 
-  constexpr float_t& __get_m_DefaultButtonPressPoint();
+  constexpr float_t& __cordl_internal_get_m_DefaultButtonPressPoint();
 
-  constexpr float_t const& __get_m_DefaultButtonPressPoint() const;
+  constexpr float_t const& __cordl_internal_get_m_DefaultButtonPressPoint() const;
 
-  constexpr void __set_m_DefaultButtonPressPoint(float_t value);
+  constexpr void __cordl_internal_set_m_DefaultButtonPressPoint(float_t value);
 
-  constexpr float_t& __get_m_ButtonReleaseThreshold();
+  constexpr float_t& __cordl_internal_get_m_ButtonReleaseThreshold();
 
-  constexpr float_t const& __get_m_ButtonReleaseThreshold() const;
+  constexpr float_t const& __cordl_internal_get_m_ButtonReleaseThreshold() const;
 
-  constexpr void __set_m_ButtonReleaseThreshold(float_t value);
+  constexpr void __cordl_internal_set_m_ButtonReleaseThreshold(float_t value);
 
-  constexpr float_t& __get_m_DefaultTapTime();
+  constexpr float_t& __cordl_internal_get_m_DefaultTapTime();
 
-  constexpr float_t const& __get_m_DefaultTapTime() const;
+  constexpr float_t const& __cordl_internal_get_m_DefaultTapTime() const;
 
-  constexpr void __set_m_DefaultTapTime(float_t value);
+  constexpr void __cordl_internal_set_m_DefaultTapTime(float_t value);
 
-  constexpr float_t& __get_m_DefaultSlowTapTime();
+  constexpr float_t& __cordl_internal_get_m_DefaultSlowTapTime();
 
-  constexpr float_t const& __get_m_DefaultSlowTapTime() const;
+  constexpr float_t const& __cordl_internal_get_m_DefaultSlowTapTime() const;
 
-  constexpr void __set_m_DefaultSlowTapTime(float_t value);
+  constexpr void __cordl_internal_set_m_DefaultSlowTapTime(float_t value);
 
-  constexpr float_t& __get_m_DefaultHoldTime();
+  constexpr float_t& __cordl_internal_get_m_DefaultHoldTime();
 
-  constexpr float_t const& __get_m_DefaultHoldTime() const;
+  constexpr float_t const& __cordl_internal_get_m_DefaultHoldTime() const;
 
-  constexpr void __set_m_DefaultHoldTime(float_t value);
+  constexpr void __cordl_internal_set_m_DefaultHoldTime(float_t value);
 
-  constexpr float_t& __get_m_TapRadius();
+  constexpr float_t& __cordl_internal_get_m_TapRadius();
 
-  constexpr float_t const& __get_m_TapRadius() const;
+  constexpr float_t const& __cordl_internal_get_m_TapRadius() const;
 
-  constexpr void __set_m_TapRadius(float_t value);
+  constexpr void __cordl_internal_set_m_TapRadius(float_t value);
 
-  constexpr float_t& __get_m_MultiTapDelayTime();
+  constexpr float_t& __cordl_internal_get_m_MultiTapDelayTime();
 
-  constexpr float_t const& __get_m_MultiTapDelayTime() const;
+  constexpr float_t const& __cordl_internal_get_m_MultiTapDelayTime() const;
 
-  constexpr void __set_m_MultiTapDelayTime(float_t value);
+  constexpr void __cordl_internal_set_m_MultiTapDelayTime(float_t value);
 
-  constexpr bool& __get_m_DisableRedundantEventsMerging();
+  constexpr bool& __cordl_internal_get_m_DisableRedundantEventsMerging();
 
-  constexpr bool const& __get_m_DisableRedundantEventsMerging() const;
+  constexpr bool const& __cordl_internal_get_m_DisableRedundantEventsMerging() const;
 
-  constexpr void __set_m_DisableRedundantEventsMerging(bool value);
+  constexpr void __cordl_internal_set_m_DisableRedundantEventsMerging(bool value);
 
-  constexpr bool& __get_m_ShortcutKeysConsumeInputs();
+  constexpr bool& __cordl_internal_get_m_ShortcutKeysConsumeInputs();
 
-  constexpr bool const& __get_m_ShortcutKeysConsumeInputs() const;
+  constexpr bool const& __cordl_internal_get_m_ShortcutKeysConsumeInputs() const;
 
-  constexpr void __set_m_ShortcutKeysConsumeInputs(bool value);
+  constexpr void __cordl_internal_set_m_ShortcutKeysConsumeInputs(bool value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get_m_FeatureFlags();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_m_FeatureFlags();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get_m_FeatureFlags() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get_m_FeatureFlags() const;
 
-  constexpr void __set_m_FeatureFlags(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_FeatureFlags(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
   /// @brief Method get_updateMode, addr 0x2ab7d58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputSettings__UpdateMode get_updateMode();

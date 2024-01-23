@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Linq::Expressions::ExpressionType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14302))
 // CS Name: ::System.Linq.Expressions::ExpressionType
 struct CORDL_TYPE ExpressionType {

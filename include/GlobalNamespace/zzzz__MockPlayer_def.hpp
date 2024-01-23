@@ -58,77 +58,79 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayer);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(15021)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12686))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5179)) CS Name: ::MockPlayer*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15021))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5179)) CS Name: ::MockPlayer*
 class CORDL_TYPE MockPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <isMe>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__isMe_k__BackingField, put = __set__isMe_k__BackingField)) bool _isMe_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isMe_k__BackingField, put = __cordl_internal_set__isMe_k__BackingField)) bool _isMe_k__BackingField;
 
   /// @brief Field <isConnected>k__BackingField, offset 0x11, size 0x1
-  __declspec(property(get = __get__isConnected_k__BackingField, put = __set__isConnected_k__BackingField)) bool _isConnected_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isConnected_k__BackingField, put = __cordl_internal_set__isConnected_k__BackingField)) bool _isConnected_k__BackingField;
 
   /// @brief Field <multiplayerAvatarsData>k__BackingField, offset 0x18, size 0x18
-  __declspec(property(get = __get__multiplayerAvatarsData_k__BackingField,
-                      put = __set__multiplayerAvatarsData_k__BackingField))::GlobalNamespace::MultiplayerAvatarsData _multiplayerAvatarsData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplayerAvatarsData_k__BackingField,
+                      put = __cordl_internal_set__multiplayerAvatarsData_k__BackingField))::GlobalNamespace::MultiplayerAvatarsData _multiplayerAvatarsData_k__BackingField;
 
   /// @brief Field <isConnectionOwner>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__isConnectionOwner_k__BackingField, put = __set__isConnectionOwner_k__BackingField)) bool _isConnectionOwner_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isConnectionOwner_k__BackingField, put = __cordl_internal_set__isConnectionOwner_k__BackingField)) bool _isConnectionOwner_k__BackingField;
 
   /// @brief Field <isKicked>k__BackingField, offset 0x31, size 0x1
-  __declspec(property(get = __get__isKicked_k__BackingField, put = __set__isKicked_k__BackingField)) bool _isKicked_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isKicked_k__BackingField, put = __cordl_internal_set__isKicked_k__BackingField)) bool _isKicked_k__BackingField;
 
   /// @brief Field <currentPartySize>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__currentPartySize_k__BackingField, put = __set__currentPartySize_k__BackingField)) int32_t _currentPartySize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentPartySize_k__BackingField, put = __cordl_internal_set__currentPartySize_k__BackingField)) int32_t _currentPartySize_k__BackingField;
 
   /// @brief Field <selectionMask>k__BackingField, offset 0x38, size 0x28
-  __declspec(property(get = __get__selectionMask_k__BackingField, put = __set__selectionMask_k__BackingField))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__selectionMask_k__BackingField,
+                      put = __cordl_internal_set__selectionMask_k__BackingField))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask_k__BackingField;
 
   /// @brief Field <configuration>k__BackingField, offset 0x60, size 0x18
-  __declspec(property(get = __get__configuration_k__BackingField, put = __set__configuration_k__BackingField))::GlobalNamespace::GameplayServerConfiguration _configuration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__configuration_k__BackingField,
+                      put = __cordl_internal_set__configuration_k__BackingField))::GlobalNamespace::GameplayServerConfiguration _configuration_k__BackingField;
 
   /// @brief Field <isMyPartyOwner>k__BackingField, offset 0x78, size 0x1
-  __declspec(property(get = __get__isMyPartyOwner_k__BackingField, put = __set__isMyPartyOwner_k__BackingField)) bool _isMyPartyOwner_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isMyPartyOwner_k__BackingField, put = __cordl_internal_set__isMyPartyOwner_k__BackingField)) bool _isMyPartyOwner_k__BackingField;
 
   /// @brief Field <requiresPassword>k__BackingField, offset 0x79, size 0x1
-  __declspec(property(get = __get__requiresPassword_k__BackingField, put = __set__requiresPassword_k__BackingField)) bool _requiresPassword_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__requiresPassword_k__BackingField, put = __cordl_internal_set__requiresPassword_k__BackingField)) bool _requiresPassword_k__BackingField;
 
   /// @brief Field <isWaitingOnJoin>k__BackingField, offset 0x7a, size 0x1
-  __declspec(property(get = __get__isWaitingOnJoin_k__BackingField, put = __set__isWaitingOnJoin_k__BackingField)) bool _isWaitingOnJoin_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isWaitingOnJoin_k__BackingField, put = __cordl_internal_set__isWaitingOnJoin_k__BackingField)) bool _isWaitingOnJoin_k__BackingField;
 
   /// @brief Field <canInvite>k__BackingField, offset 0x7b, size 0x1
-  __declspec(property(get = __get__canInvite_k__BackingField, put = __set__canInvite_k__BackingField)) bool _canInvite_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__canInvite_k__BackingField, put = __cordl_internal_set__canInvite_k__BackingField)) bool _canInvite_k__BackingField;
 
   /// @brief Field <isWaitingOnInvite>k__BackingField, offset 0x7c, size 0x1
-  __declspec(property(get = __get__isWaitingOnInvite_k__BackingField, put = __set__isWaitingOnInvite_k__BackingField)) bool _isWaitingOnInvite_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isWaitingOnInvite_k__BackingField, put = __cordl_internal_set__isWaitingOnInvite_k__BackingField)) bool _isWaitingOnInvite_k__BackingField;
 
   /// @brief Field <canKick>k__BackingField, offset 0x7d, size 0x1
-  __declspec(property(get = __get__canKick_k__BackingField, put = __set__canKick_k__BackingField)) bool _canKick_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__canKick_k__BackingField, put = __cordl_internal_set__canKick_k__BackingField)) bool _canKick_k__BackingField;
 
   /// @brief Field <canLeave>k__BackingField, offset 0x7e, size 0x1
-  __declspec(property(get = __get__canLeave_k__BackingField, put = __set__canLeave_k__BackingField)) bool _canLeave_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__canLeave_k__BackingField, put = __cordl_internal_set__canLeave_k__BackingField)) bool _canLeave_k__BackingField;
 
   /// @brief Field <canBlock>k__BackingField, offset 0x7f, size 0x1
-  __declspec(property(get = __get__canBlock_k__BackingField, put = __set__canBlock_k__BackingField)) bool _canBlock_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__canBlock_k__BackingField, put = __cordl_internal_set__canBlock_k__BackingField)) bool _canBlock_k__BackingField;
 
   /// @brief Field <canUnblock>k__BackingField, offset 0x80, size 0x1
-  __declspec(property(get = __get__canUnblock_k__BackingField, put = __set__canUnblock_k__BackingField)) bool _canUnblock_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__canUnblock_k__BackingField, put = __cordl_internal_set__canUnblock_k__BackingField)) bool _canUnblock_k__BackingField;
 
   /// @brief Field _isReady, offset 0x81, size 0x1
-  __declspec(property(get = __get__isReady, put = __set__isReady)) bool _isReady;
+  __declspec(property(get = __cordl_internal_get__isReady, put = __cordl_internal_set__isReady)) bool _isReady;
 
   /// @brief Field _playerState, offset 0x88, size 0x8
-  __declspec(property(get = __get__playerState, put = __set__playerState))::System::Collections::Generic::HashSet_1<::StringW>* _playerState;
+  __declspec(property(get = __cordl_internal_get__playerState, put = __cordl_internal_set__playerState))::System::Collections::Generic::HashSet_1<::StringW>* _playerState;
 
   /// @brief Field _settings, offset 0x90, size 0x8
-  __declspec(property(get = __get__settings, put = __set__settings))::GlobalNamespace::MockPlayerSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::GlobalNamespace::MockPlayerSettings* _settings;
 
   /// @brief Field _fsm, offset 0x98, size 0x8
-  __declspec(property(get = __get__fsm, put = __set__fsm))::GlobalNamespace::MockPlayerFiniteStateMachine* _fsm;
+  __declspec(property(get = __cordl_internal_get__fsm, put = __cordl_internal_set__fsm))::GlobalNamespace::MockPlayerFiniteStateMachine* _fsm;
 
   /// @brief Field _gameplayRpcManager, offset 0xa0, size 0x8
-  __declspec(property(get = __get__gameplayRpcManager, put = __set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
   __declspec(property(get = get_isReady, put = set_isReady)) bool isReady;
 
@@ -214,137 +216,137 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkPlayer"
   constexpr ::GlobalNamespace::INetworkPlayer* i___GlobalNamespace__INetworkPlayer() noexcept;
 
-  constexpr bool& __get__isMe_k__BackingField();
+  constexpr bool& __cordl_internal_get__isMe_k__BackingField();
 
-  constexpr bool const& __get__isMe_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isMe_k__BackingField() const;
 
-  constexpr void __set__isMe_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isMe_k__BackingField(bool value);
 
-  constexpr bool& __get__isConnected_k__BackingField();
+  constexpr bool& __cordl_internal_get__isConnected_k__BackingField();
 
-  constexpr bool const& __get__isConnected_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isConnected_k__BackingField() const;
 
-  constexpr void __set__isConnected_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isConnected_k__BackingField(bool value);
 
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __get__multiplayerAvatarsData_k__BackingField();
+  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__multiplayerAvatarsData_k__BackingField();
 
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __get__multiplayerAvatarsData_k__BackingField() const;
+  constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__multiplayerAvatarsData_k__BackingField() const;
 
-  constexpr void __set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
+  constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  constexpr bool& __get__isConnectionOwner_k__BackingField();
+  constexpr bool& __cordl_internal_get__isConnectionOwner_k__BackingField();
 
-  constexpr bool const& __get__isConnectionOwner_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isConnectionOwner_k__BackingField() const;
 
-  constexpr void __set__isConnectionOwner_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isConnectionOwner_k__BackingField(bool value);
 
-  constexpr bool& __get__isKicked_k__BackingField();
+  constexpr bool& __cordl_internal_get__isKicked_k__BackingField();
 
-  constexpr bool const& __get__isKicked_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isKicked_k__BackingField() const;
 
-  constexpr void __set__isKicked_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isKicked_k__BackingField(bool value);
 
-  constexpr int32_t& __get__currentPartySize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__currentPartySize_k__BackingField();
 
-  constexpr int32_t const& __get__currentPartySize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__currentPartySize_k__BackingField() const;
 
-  constexpr void __set__currentPartySize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__currentPartySize_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get__selectionMask_k__BackingField();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask_k__BackingField();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get__selectionMask_k__BackingField() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get__selectionMask_k__BackingField() const;
 
-  constexpr void __set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get__configuration_k__BackingField();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get__configuration_k__BackingField();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get__configuration_k__BackingField() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration_k__BackingField() const;
 
-  constexpr void __set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value);
 
-  constexpr bool& __get__isMyPartyOwner_k__BackingField();
+  constexpr bool& __cordl_internal_get__isMyPartyOwner_k__BackingField();
 
-  constexpr bool const& __get__isMyPartyOwner_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isMyPartyOwner_k__BackingField() const;
 
-  constexpr void __set__isMyPartyOwner_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isMyPartyOwner_k__BackingField(bool value);
 
-  constexpr bool& __get__requiresPassword_k__BackingField();
+  constexpr bool& __cordl_internal_get__requiresPassword_k__BackingField();
 
-  constexpr bool const& __get__requiresPassword_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__requiresPassword_k__BackingField() const;
 
-  constexpr void __set__requiresPassword_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__requiresPassword_k__BackingField(bool value);
 
-  constexpr bool& __get__isWaitingOnJoin_k__BackingField();
+  constexpr bool& __cordl_internal_get__isWaitingOnJoin_k__BackingField();
 
-  constexpr bool const& __get__isWaitingOnJoin_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isWaitingOnJoin_k__BackingField() const;
 
-  constexpr void __set__isWaitingOnJoin_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isWaitingOnJoin_k__BackingField(bool value);
 
-  constexpr bool& __get__canInvite_k__BackingField();
+  constexpr bool& __cordl_internal_get__canInvite_k__BackingField();
 
-  constexpr bool const& __get__canInvite_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__canInvite_k__BackingField() const;
 
-  constexpr void __set__canInvite_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__canInvite_k__BackingField(bool value);
 
-  constexpr bool& __get__isWaitingOnInvite_k__BackingField();
+  constexpr bool& __cordl_internal_get__isWaitingOnInvite_k__BackingField();
 
-  constexpr bool const& __get__isWaitingOnInvite_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isWaitingOnInvite_k__BackingField() const;
 
-  constexpr void __set__isWaitingOnInvite_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isWaitingOnInvite_k__BackingField(bool value);
 
-  constexpr bool& __get__canKick_k__BackingField();
+  constexpr bool& __cordl_internal_get__canKick_k__BackingField();
 
-  constexpr bool const& __get__canKick_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__canKick_k__BackingField() const;
 
-  constexpr void __set__canKick_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__canKick_k__BackingField(bool value);
 
-  constexpr bool& __get__canLeave_k__BackingField();
+  constexpr bool& __cordl_internal_get__canLeave_k__BackingField();
 
-  constexpr bool const& __get__canLeave_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__canLeave_k__BackingField() const;
 
-  constexpr void __set__canLeave_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__canLeave_k__BackingField(bool value);
 
-  constexpr bool& __get__canBlock_k__BackingField();
+  constexpr bool& __cordl_internal_get__canBlock_k__BackingField();
 
-  constexpr bool const& __get__canBlock_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__canBlock_k__BackingField() const;
 
-  constexpr void __set__canBlock_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__canBlock_k__BackingField(bool value);
 
-  constexpr bool& __get__canUnblock_k__BackingField();
+  constexpr bool& __cordl_internal_get__canUnblock_k__BackingField();
 
-  constexpr bool const& __get__canUnblock_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__canUnblock_k__BackingField() const;
 
-  constexpr void __set__canUnblock_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__canUnblock_k__BackingField(bool value);
 
-  constexpr bool& __get__isReady();
+  constexpr bool& __cordl_internal_get__isReady();
 
-  constexpr bool const& __get__isReady() const;
+  constexpr bool const& __cordl_internal_get__isReady() const;
 
-  constexpr void __set__isReady(bool value);
+  constexpr void __cordl_internal_set__isReady(bool value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__playerState();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__playerState();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__playerState() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__playerState() const;
 
-  constexpr void __set__playerState(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__playerState(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::MockPlayerSettings*& __get__settings();
+  constexpr ::GlobalNamespace::MockPlayerSettings*& __cordl_internal_get__settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerSettings*> const& __get__settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerSettings*> const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__settings(::GlobalNamespace::MockPlayerSettings* value);
+  constexpr void __cordl_internal_set__settings(::GlobalNamespace::MockPlayerSettings* value);
 
-  constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine*& __get__fsm();
+  constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine*& __cordl_internal_get__fsm();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerFiniteStateMachine*> const& __get__fsm() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerFiniteStateMachine*> const& __cordl_internal_get__fsm() const;
 
-  constexpr void __set__fsm(::GlobalNamespace::MockPlayerFiniteStateMachine* value);
+  constexpr void __cordl_internal_set__fsm(::GlobalNamespace::MockPlayerFiniteStateMachine* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__gameplayRpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__gameplayRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
 
-  constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
   /// @brief Method get_isReady, addr 0x23df974, size 0x8, virtual false, abstract: false, final false
   inline bool get_isReady();

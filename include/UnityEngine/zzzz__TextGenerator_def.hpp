@@ -75,43 +75,43 @@ MARK_REF_PTR_T(::UnityEngine::TextGenerator);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 163, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15898)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15897))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15899)) CS Name: ::UnityEngine::TextGenerator*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15897)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15898))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15899)) CS Name: ::UnityEngine::TextGenerator*
 class CORDL_TYPE TextGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Field m_LastString, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_LastString, put = __set_m_LastString))::StringW m_LastString;
+  __declspec(property(get = __cordl_internal_get_m_LastString, put = __cordl_internal_set_m_LastString))::StringW m_LastString;
 
   /// @brief Field m_LastSettings, offset 0x20, size 0x60
-  __declspec(property(get = __get_m_LastSettings, put = __set_m_LastSettings))::UnityEngine::TextGenerationSettings m_LastSettings;
+  __declspec(property(get = __cordl_internal_get_m_LastSettings, put = __cordl_internal_set_m_LastSettings))::UnityEngine::TextGenerationSettings m_LastSettings;
 
   /// @brief Field m_HasGenerated, offset 0x80, size 0x1
-  __declspec(property(get = __get_m_HasGenerated, put = __set_m_HasGenerated)) bool m_HasGenerated;
+  __declspec(property(get = __cordl_internal_get_m_HasGenerated, put = __cordl_internal_set_m_HasGenerated)) bool m_HasGenerated;
 
   /// @brief Field m_LastValid, offset 0x84, size 0x4
-  __declspec(property(get = __get_m_LastValid, put = __set_m_LastValid))::UnityEngine::TextGenerationError m_LastValid;
+  __declspec(property(get = __cordl_internal_get_m_LastValid, put = __cordl_internal_set_m_LastValid))::UnityEngine::TextGenerationError m_LastValid;
 
   /// @brief Field m_Verts, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Verts, put = __set_m_Verts))::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* m_Verts;
+  __declspec(property(get = __cordl_internal_get_m_Verts, put = __cordl_internal_set_m_Verts))::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* m_Verts;
 
   /// @brief Field m_Characters, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_Characters, put = __set_m_Characters))::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* m_Characters;
+  __declspec(property(get = __cordl_internal_get_m_Characters, put = __cordl_internal_set_m_Characters))::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* m_Characters;
 
   /// @brief Field m_Lines, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_Lines, put = __set_m_Lines))::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* m_Lines;
+  __declspec(property(get = __cordl_internal_get_m_Lines, put = __cordl_internal_set_m_Lines))::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* m_Lines;
 
   /// @brief Field m_CachedVerts, offset 0xa0, size 0x1
-  __declspec(property(get = __get_m_CachedVerts, put = __set_m_CachedVerts)) bool m_CachedVerts;
+  __declspec(property(get = __cordl_internal_get_m_CachedVerts, put = __cordl_internal_set_m_CachedVerts)) bool m_CachedVerts;
 
   /// @brief Field m_CachedCharacters, offset 0xa1, size 0x1
-  __declspec(property(get = __get_m_CachedCharacters, put = __set_m_CachedCharacters)) bool m_CachedCharacters;
+  __declspec(property(get = __cordl_internal_get_m_CachedCharacters, put = __cordl_internal_set_m_CachedCharacters)) bool m_CachedCharacters;
 
   /// @brief Field m_CachedLines, offset 0xa2, size 0x1
-  __declspec(property(get = __get_m_CachedLines, put = __set_m_CachedLines)) bool m_CachedLines;
+  __declspec(property(get = __cordl_internal_get_m_CachedLines, put = __cordl_internal_set_m_CachedLines)) bool m_CachedLines;
 
   __declspec(property(get = get_characterCountVisible)) int32_t characterCountVisible;
 
@@ -133,71 +133,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  constexpr ::StringW& __get_m_LastString();
+  constexpr ::StringW& __cordl_internal_get_m_LastString();
 
-  constexpr ::StringW const& __get_m_LastString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_LastString() const;
 
-  constexpr void __set_m_LastString(::StringW value);
+  constexpr void __cordl_internal_set_m_LastString(::StringW value);
 
-  constexpr ::UnityEngine::TextGenerationSettings& __get_m_LastSettings();
+  constexpr ::UnityEngine::TextGenerationSettings& __cordl_internal_get_m_LastSettings();
 
-  constexpr ::UnityEngine::TextGenerationSettings const& __get_m_LastSettings() const;
+  constexpr ::UnityEngine::TextGenerationSettings const& __cordl_internal_get_m_LastSettings() const;
 
-  constexpr void __set_m_LastSettings(::UnityEngine::TextGenerationSettings value);
+  constexpr void __cordl_internal_set_m_LastSettings(::UnityEngine::TextGenerationSettings value);
 
-  constexpr bool& __get_m_HasGenerated();
+  constexpr bool& __cordl_internal_get_m_HasGenerated();
 
-  constexpr bool const& __get_m_HasGenerated() const;
+  constexpr bool const& __cordl_internal_get_m_HasGenerated() const;
 
-  constexpr void __set_m_HasGenerated(bool value);
+  constexpr void __cordl_internal_set_m_HasGenerated(bool value);
 
-  constexpr ::UnityEngine::TextGenerationError& __get_m_LastValid();
+  constexpr ::UnityEngine::TextGenerationError& __cordl_internal_get_m_LastValid();
 
-  constexpr ::UnityEngine::TextGenerationError const& __get_m_LastValid() const;
+  constexpr ::UnityEngine::TextGenerationError const& __cordl_internal_get_m_LastValid() const;
 
-  constexpr void __set_m_LastValid(::UnityEngine::TextGenerationError value);
+  constexpr void __cordl_internal_set_m_LastValid(::UnityEngine::TextGenerationError value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*& __get_m_Verts();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*& __cordl_internal_get_m_Verts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*> const& __get_m_Verts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*> const& __cordl_internal_get_m_Verts() const;
 
-  constexpr void __set_m_Verts(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* value);
+  constexpr void __cordl_internal_set_m_Verts(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*& __get_m_Characters();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*& __cordl_internal_get_m_Characters();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*> const& __get_m_Characters() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*> const& __cordl_internal_get_m_Characters() const;
 
-  constexpr void __set_m_Characters(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* value);
+  constexpr void __cordl_internal_set_m_Characters(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*& __get_m_Lines();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*& __cordl_internal_get_m_Lines();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*> const& __get_m_Lines() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*> const& __cordl_internal_get_m_Lines() const;
 
-  constexpr void __set_m_Lines(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* value);
+  constexpr void __cordl_internal_set_m_Lines(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* value);
 
-  constexpr bool& __get_m_CachedVerts();
+  constexpr bool& __cordl_internal_get_m_CachedVerts();
 
-  constexpr bool const& __get_m_CachedVerts() const;
+  constexpr bool const& __cordl_internal_get_m_CachedVerts() const;
 
-  constexpr void __set_m_CachedVerts(bool value);
+  constexpr void __cordl_internal_set_m_CachedVerts(bool value);
 
-  constexpr bool& __get_m_CachedCharacters();
+  constexpr bool& __cordl_internal_get_m_CachedCharacters();
 
-  constexpr bool const& __get_m_CachedCharacters() const;
+  constexpr bool const& __cordl_internal_get_m_CachedCharacters() const;
 
-  constexpr void __set_m_CachedCharacters(bool value);
+  constexpr void __cordl_internal_set_m_CachedCharacters(bool value);
 
-  constexpr bool& __get_m_CachedLines();
+  constexpr bool& __cordl_internal_get_m_CachedLines();
 
-  constexpr bool const& __get_m_CachedLines() const;
+  constexpr bool const& __cordl_internal_get_m_CachedLines() const;
 
-  constexpr void __set_m_CachedLines(bool value);
+  constexpr void __cordl_internal_set_m_CachedLines(bool value);
 
   static inline ::UnityEngine::TextGenerator* New_ctor();
 

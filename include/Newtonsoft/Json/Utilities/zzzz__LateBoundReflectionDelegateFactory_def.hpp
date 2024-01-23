@@ -101,29 +101,29 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateF
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11852))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass3_0*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::System::Reflection::ConstructorInfo* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::System::Reflection::ConstructorInfo* c;
 
   /// @brief Field method, offset 0x18, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::System::Reflection::MethodBase* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Reflection::MethodBase* method;
 
-  constexpr ::System::Reflection::ConstructorInfo*& __get_c();
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::System::Reflection::ConstructorInfo* value);
+  constexpr void __cordl_internal_set_c(::System::Reflection::ConstructorInfo* value);
 
-  constexpr ::System::Reflection::MethodBase*& __get_method();
+  constexpr ::System::Reflection::MethodBase*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __get_method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::System::Reflection::MethodBase* value);
+  constexpr void __cordl_internal_set_method(::System::Reflection::MethodBase* value);
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0* New_ctor();
 
@@ -172,29 +172,29 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11853))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass4_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::System::Reflection::ConstructorInfo* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::System::Reflection::ConstructorInfo* c;
 
   /// @brief Field method, offset 0x18, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::System::Reflection::MethodBase* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Reflection::MethodBase* method;
 
-  constexpr ::System::Reflection::ConstructorInfo*& __get_c();
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::System::Reflection::ConstructorInfo* value);
+  constexpr void __cordl_internal_set_c(::System::Reflection::ConstructorInfo* value);
 
-  constexpr ::System::Reflection::MethodBase*& __get_method();
+  constexpr ::System::Reflection::MethodBase*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __get_method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::System::Reflection::MethodBase* value);
+  constexpr void __cordl_internal_set_method(::System::Reflection::MethodBase* value);
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>* New_ctor();
 
@@ -237,29 +237,29 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11854))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass5_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   /// @brief Field constructorInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_constructorInfo, put = __set_constructorInfo))::System::Reflection::ConstructorInfo* constructorInfo;
+  __declspec(property(get = __cordl_internal_get_constructorInfo, put = __cordl_internal_set_constructorInfo))::System::Reflection::ConstructorInfo* constructorInfo;
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  constexpr ::System::Reflection::ConstructorInfo*& __get_constructorInfo();
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_constructorInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __get_constructorInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get_constructorInfo() const;
 
-  constexpr void __set_constructorInfo(::System::Reflection::ConstructorInfo* value);
+  constexpr void __cordl_internal_set_constructorInfo(::System::Reflection::ConstructorInfo* value);
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>* New_ctor();
 
@@ -302,20 +302,20 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11855))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass6_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field propertyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_propertyInfo, put = __set_propertyInfo))::System::Reflection::PropertyInfo* propertyInfo;
+  __declspec(property(get = __cordl_internal_get_propertyInfo, put = __cordl_internal_set_propertyInfo))::System::Reflection::PropertyInfo* propertyInfo;
 
-  constexpr ::System::Reflection::PropertyInfo*& __get_propertyInfo();
+  constexpr ::System::Reflection::PropertyInfo*& __cordl_internal_get_propertyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __get_propertyInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __cordl_internal_get_propertyInfo() const;
 
-  constexpr void __set_propertyInfo(::System::Reflection::PropertyInfo* value);
+  constexpr void __cordl_internal_set_propertyInfo(::System::Reflection::PropertyInfo* value);
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>* New_ctor();
 
@@ -352,20 +352,20 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11856))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass7_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field fieldInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_fieldInfo, put = __set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
+  __declspec(property(get = __cordl_internal_get_fieldInfo, put = __cordl_internal_set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
 
-  constexpr ::System::Reflection::FieldInfo*& __get_fieldInfo();
+  constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get_fieldInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __get_fieldInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get_fieldInfo() const;
 
-  constexpr void __set_fieldInfo(::System::Reflection::FieldInfo* value);
+  constexpr void __cordl_internal_set_fieldInfo(::System::Reflection::FieldInfo* value);
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>* New_ctor();
 
@@ -402,20 +402,20 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11857))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass8_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field fieldInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_fieldInfo, put = __set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
+  __declspec(property(get = __cordl_internal_get_fieldInfo, put = __cordl_internal_set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
 
-  constexpr ::System::Reflection::FieldInfo*& __get_fieldInfo();
+  constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get_fieldInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __get_fieldInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get_fieldInfo() const;
 
-  constexpr void __set_fieldInfo(::System::Reflection::FieldInfo* value);
+  constexpr void __cordl_internal_set_fieldInfo(::System::Reflection::FieldInfo* value);
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>* New_ctor();
 
@@ -452,20 +452,20 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11858))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass9_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field propertyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_propertyInfo, put = __set_propertyInfo))::System::Reflection::PropertyInfo* propertyInfo;
+  __declspec(property(get = __cordl_internal_get_propertyInfo, put = __cordl_internal_set_propertyInfo))::System::Reflection::PropertyInfo* propertyInfo;
 
-  constexpr ::System::Reflection::PropertyInfo*& __get_propertyInfo();
+  constexpr ::System::Reflection::PropertyInfo*& __cordl_internal_get_propertyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __get_propertyInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __cordl_internal_get_propertyInfo() const;
 
-  constexpr void __set_propertyInfo(::System::Reflection::PropertyInfo* value);
+  constexpr void __cordl_internal_set_propertyInfo(::System::Reflection::PropertyInfo* value);
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>* New_ctor();
 
@@ -500,7 +500,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11851))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11851))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11859))
 // CS Name: ::Newtonsoft.Json.Utilities::LateBoundReflectionDelegateFactory*
 class CORDL_TYPE LateBoundReflectionDelegateFactory : public ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory {

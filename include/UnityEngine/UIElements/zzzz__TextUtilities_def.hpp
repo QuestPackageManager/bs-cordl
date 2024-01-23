@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TextUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7147))
 // CS Name: ::UnityEngine.UIElements::TextUtilities*
 class CORDL_TYPE TextUtilities : public ::System::Object {
@@ -61,16 +61,16 @@ public:
                                                                     ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode, ::UnityEngine::UIElements::ITextHandle* textHandle);
 
   /// @brief Method GetFontAsset, addr 0x2e46220, size 0x128, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* GetFontAsset(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
   /// @brief Method GetFontAsset, addr 0x2e46f0c, size 0x16c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* GetFontAsset(::UnityEngine::UIElements::VisualElement* ve);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::VisualElement* ve);
 
   /// @brief Method GetFont, addr 0x2e4713c, size 0xf0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Font* GetFont(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
+  static inline ::UnityW<::UnityEngine::Font> GetFont(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
   /// @brief Method GetFont, addr 0x2e4722c, size 0x15c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Font* GetFont(::UnityEngine::UIElements::VisualElement* ve);
+  static inline ::UnityW<::UnityEngine::Font> GetFont(::UnityEngine::UIElements::VisualElement* ve);
 
   /// @brief Method IsFontAssigned, addr 0x2e46e3c, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::VisualElement* ve);
@@ -79,10 +79,10 @@ public:
   static inline bool IsFontAssigned(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams);
 
   /// @brief Method GetTextSettingsFrom, addr 0x2e47078, size 0xc4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PanelTextSettings* GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement* ve);
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement* ve);
 
   /// @brief Method GetTextSettingsFrom, addr 0x2e46168, size 0xb8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PanelTextSettings* GetTextSettingsFrom(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
   /// @brief Method GetTextCoreSettingsForElement, addr 0x2e47540, size 0x3b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::TextCoreSettings GetTextCoreSettingsForElement(::UnityEngine::UIElements::VisualElement* ve);

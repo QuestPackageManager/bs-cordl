@@ -13,58 +13,58 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x23c0068;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CoreGameHUDController__InitData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CoreGameHUDController__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__get_hide() {
+constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_hide() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hide;
 }
-constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__get_hide() const {
+constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_hide() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hide;
 }
-constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__set_hide(bool value) {
+constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_set_hide(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hide = value;
 }
-constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__get_showEnergyPanel() {
+constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_showEnergyPanel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showEnergyPanel;
 }
-constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__get_showEnergyPanel() const {
+constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_showEnergyPanel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showEnergyPanel;
 }
-constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__set_showEnergyPanel(bool value) {
+constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_set_showEnergyPanel(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showEnergyPanel = value;
 }
-constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__get_advancedHUD() {
+constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_advancedHUD() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___advancedHUD;
 }
-constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__get_advancedHUD() const {
+constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_advancedHUD() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___advancedHUD;
 }
-constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__set_advancedHUD(bool value) {
+constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_set_advancedHUD(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___advancedHUD = value;
 }
 inline ::GlobalNamespace::__CoreGameHUDController__InitData* GlobalNamespace::__CoreGameHUDController__InitData::New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__CoreGameHUDController__InitData*>(hide, showEnergyPanel, advancedHUD));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__CoreGameHUDController__InitData*>(hide, showEnergyPanel, advancedHUD));
 }
 inline void GlobalNamespace::__CoreGameHUDController__InitData::_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CoreGameHUDController__InitData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CoreGameHUDController__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hide, showEnergyPanel, advancedHUD);
 }
 // Ctor Parameters []
@@ -72,56 +72,56 @@ constexpr ::GlobalNamespace::__CoreGameHUDController__InitData::__CoreGameHUDCon
 //  Writing Method size for method: ::GlobalNamespace::CoreGameHUDController.get_songProgressPanelGO
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (::GlobalNamespace::CoreGameHUDController::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_songProgressPanelGO)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23bff94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                               "get_songProgressPanelGO", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_songProgressPanelGO", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CoreGameHUDController.get_relativeScoreGo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (::GlobalNamespace::CoreGameHUDController::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_relativeScoreGo)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23bff9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                               "get_relativeScoreGo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_relativeScoreGo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CoreGameHUDController.get_immediateRankGo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (::GlobalNamespace::CoreGameHUDController::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_immediateRankGo)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23bffa4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                               "get_immediateRankGo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_immediateRankGo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CoreGameHUDController.get_energyPanelGo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (::GlobalNamespace::CoreGameHUDController::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_energyPanelGo)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23bffac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                               "get_energyPanelGo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_energyPanelGo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -132,10 +132,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x23bffb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "set_alpha", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "set_alpha", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -147,10 +147,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x23bffd0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "Initialize", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__CoreGameHUDController__InitData*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__CoreGameHUDController__InitData*>::get() })));
     return ___internal_method;
   }
 };
@@ -161,110 +161,110 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23c0060;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::CoreGameHUDController::__get__songProgressPanelGO() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__songProgressPanelGO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songProgressPanelGO;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::CoreGameHUDController::__get__songProgressPanelGO() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__songProgressPanelGO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songProgressPanelGO;
 }
-constexpr void GlobalNamespace::CoreGameHUDController::__set__songProgressPanelGO(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::CoreGameHUDController::__cordl_internal_set__songProgressPanelGO(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songProgressPanelGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::CoreGameHUDController::__get__relativeScoreGO() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__relativeScoreGO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeScoreGO;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::CoreGameHUDController::__get__relativeScoreGO() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__relativeScoreGO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeScoreGO;
 }
-constexpr void GlobalNamespace::CoreGameHUDController::__set__relativeScoreGO(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::CoreGameHUDController::__cordl_internal_set__relativeScoreGO(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeScoreGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::CoreGameHUDController::__get__immediateRankGO() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__immediateRankGO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____immediateRankGO;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::CoreGameHUDController::__get__immediateRankGO() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__immediateRankGO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____immediateRankGO;
 }
-constexpr void GlobalNamespace::CoreGameHUDController::__set__immediateRankGO(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::CoreGameHUDController::__cordl_internal_set__immediateRankGO(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____immediateRankGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::CoreGameHUDController::__get__energyPanelGO() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__energyPanelGO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyPanelGO;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::CoreGameHUDController::__get__energyPanelGO() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__energyPanelGO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyPanelGO;
 }
-constexpr void GlobalNamespace::CoreGameHUDController::__set__energyPanelGO(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::CoreGameHUDController::__cordl_internal_set__energyPanelGO(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____energyPanelGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::CoreGameHUDController::__get__canvasGroup() {
+constexpr ::UnityW<::UnityEngine::CanvasGroup>& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__canvasGroup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvasGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::CoreGameHUDController::__get__canvasGroup() const {
+constexpr ::UnityW<::UnityEngine::CanvasGroup> const& GlobalNamespace::CoreGameHUDController::__cordl_internal_get__canvasGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvasGroup;
 }
-constexpr void GlobalNamespace::CoreGameHUDController::__set__canvasGroup(::UnityEngine::CanvasGroup* value) {
+constexpr void GlobalNamespace::CoreGameHUDController::__cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::GameObject* GlobalNamespace::CoreGameHUDController::get_songProgressPanelGO() {
+inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::CoreGameHUDController::get_songProgressPanelGO() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                             "get_songProgressPanelGO", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal_method);
+                                                                             "get_songProgressPanelGO", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::GameObject* GlobalNamespace::CoreGameHUDController::get_relativeScoreGo() {
+inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::CoreGameHUDController::get_relativeScoreGo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                             "get_relativeScoreGo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal_method);
+                                                                             "get_relativeScoreGo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::GameObject* GlobalNamespace::CoreGameHUDController::get_immediateRankGo() {
+inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::CoreGameHUDController::get_immediateRankGo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                             "get_immediateRankGo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal_method);
+                                                                             "get_immediateRankGo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::GameObject* GlobalNamespace::CoreGameHUDController::get_energyPanelGo() {
+inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::CoreGameHUDController::get_energyPanelGo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
-                                                                             "get_energyPanelGo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal_method);
+                                                                             "get_energyPanelGo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::CoreGameHUDController::set_alpha(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "set_alpha", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "set_alpha",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::CoreGameHUDController::Initialize(::GlobalNamespace::__CoreGameHUDController__InitData* initData) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "Initialize", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__CoreGameHUDController__InitData*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__CoreGameHUDController__InitData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initData);
 }
 inline ::GlobalNamespace::CoreGameHUDController* GlobalNamespace::CoreGameHUDController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::CoreGameHUDController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CoreGameHUDController*>());
 }
 inline void GlobalNamespace::CoreGameHUDController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

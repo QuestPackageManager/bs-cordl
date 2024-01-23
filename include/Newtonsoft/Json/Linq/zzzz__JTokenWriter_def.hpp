@@ -54,51 +54,51 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JTokenWriter);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11843))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11843))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11995))
 // CS Name: ::Newtonsoft.Json.Linq::JTokenWriter*
 class CORDL_TYPE JTokenWriter : public ::Newtonsoft::Json::JsonWriter {
 public:
   // Declarations
   /// @brief Field _token, offset 0x60, size 0x8
-  __declspec(property(get = __get__token, put = __set__token))::Newtonsoft::Json::Linq::JContainer* _token;
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token))::Newtonsoft::Json::Linq::JContainer* _token;
 
   /// @brief Field _parent, offset 0x68, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::Newtonsoft::Json::Linq::JContainer* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Linq::JContainer* _parent;
 
   /// @brief Field _value, offset 0x70, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::Newtonsoft::Json::Linq::JValue* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::Newtonsoft::Json::Linq::JValue* _value;
 
   /// @brief Field _current, offset 0x78, size 0x8
-  __declspec(property(get = __get__current, put = __set__current))::Newtonsoft::Json::Linq::JToken* _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::Newtonsoft::Json::Linq::JToken* _current;
 
   __declspec(property(get = get_CurrentToken))::Newtonsoft::Json::Linq::JToken* CurrentToken;
 
   __declspec(property(get = get_Token))::Newtonsoft::Json::Linq::JToken* Token;
 
-  constexpr ::Newtonsoft::Json::Linq::JContainer*& __get__token();
+  constexpr ::Newtonsoft::Json::Linq::JContainer*& __cordl_internal_get__token();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __get__token() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __cordl_internal_get__token() const;
 
-  constexpr void __set__token(::Newtonsoft::Json::Linq::JContainer* value);
+  constexpr void __cordl_internal_set__token(::Newtonsoft::Json::Linq::JContainer* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JContainer*& __get__parent();
+  constexpr ::Newtonsoft::Json::Linq::JContainer*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::Newtonsoft::Json::Linq::JContainer* value);
+  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Linq::JContainer* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JValue*& __get__value();
+  constexpr ::Newtonsoft::Json::Linq::JValue*& __cordl_internal_get__value();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JValue*> const& __get__value() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JValue*> const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::Newtonsoft::Json::Linq::JValue* value);
+  constexpr void __cordl_internal_set__value(::Newtonsoft::Json::Linq::JValue* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__current();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__current(::Newtonsoft::Json::Linq::JToken* value);
 
   /// @brief Method get_CurrentToken, addr 0x269cc08, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();

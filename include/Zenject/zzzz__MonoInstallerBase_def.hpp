@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::Zenject::MonoInstallerBase);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11146))
 // CS Name: ::Zenject::MonoInstallerBase*
 class CORDL_TYPE MonoInstallerBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field <Container>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Container_k__BackingField, put = __set__Container_k__BackingField))::Zenject::DiContainer* _Container_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Container_k__BackingField, put = __cordl_internal_set__Container_k__BackingField))::Zenject::DiContainer* _Container_k__BackingField;
 
   __declspec(property(get = get_Container, put = set_Container))::Zenject::DiContainer* Container;
 
@@ -45,11 +45,11 @@ public:
   /// @brief Convert to "::Zenject::IInstaller"
   constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__Container_k__BackingField();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__Container_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__Container_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__Container_k__BackingField() const;
 
-  constexpr void __set__Container_k__BackingField(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value);
 
   /// @brief Method get_Container, addr 0x2ef5138, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();

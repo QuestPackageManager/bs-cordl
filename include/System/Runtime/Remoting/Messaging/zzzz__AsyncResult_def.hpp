@@ -49,59 +49,59 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::AsyncResult);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3151))
 // CS Name: ::System.Runtime.Remoting.Messaging::AsyncResult*
 class CORDL_TYPE AsyncResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field async_state, offset 0x10, size 0x8
-  __declspec(property(get = __get_async_state, put = __set_async_state))::System::Object* async_state;
+  __declspec(property(get = __cordl_internal_get_async_state, put = __cordl_internal_set_async_state))::System::Object* async_state;
 
   /// @brief Field handle, offset 0x18, size 0x8
-  __declspec(property(get = __get_handle, put = __set_handle))::System::Threading::WaitHandle* handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle))::System::Threading::WaitHandle* handle;
 
   /// @brief Field async_delegate, offset 0x20, size 0x8
-  __declspec(property(get = __get_async_delegate, put = __set_async_delegate))::System::Object* async_delegate;
+  __declspec(property(get = __cordl_internal_get_async_delegate, put = __cordl_internal_set_async_delegate))::System::Object* async_delegate;
 
   /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __get_data, put = __set_data)) void* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) void* data;
 
   /// @brief Field object_data, offset 0x30, size 0x8
-  __declspec(property(get = __get_object_data, put = __set_object_data))::System::Object* object_data;
+  __declspec(property(get = __cordl_internal_get_object_data, put = __cordl_internal_set_object_data))::System::Object* object_data;
 
   /// @brief Field sync_completed, offset 0x38, size 0x1
-  __declspec(property(get = __get_sync_completed, put = __set_sync_completed)) bool sync_completed;
+  __declspec(property(get = __cordl_internal_get_sync_completed, put = __cordl_internal_set_sync_completed)) bool sync_completed;
 
   /// @brief Field completed, offset 0x39, size 0x1
-  __declspec(property(get = __get_completed, put = __set_completed)) bool completed;
+  __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed)) bool completed;
 
   /// @brief Field endinvoke_called, offset 0x3a, size 0x1
-  __declspec(property(get = __get_endinvoke_called, put = __set_endinvoke_called)) bool endinvoke_called;
+  __declspec(property(get = __cordl_internal_get_endinvoke_called, put = __cordl_internal_set_endinvoke_called)) bool endinvoke_called;
 
   /// @brief Field async_callback, offset 0x40, size 0x8
-  __declspec(property(get = __get_async_callback, put = __set_async_callback))::System::Object* async_callback;
+  __declspec(property(get = __cordl_internal_get_async_callback, put = __cordl_internal_set_async_callback))::System::Object* async_callback;
 
   /// @brief Field current, offset 0x48, size 0x8
-  __declspec(property(get = __get_current, put = __set_current))::System::Threading::ExecutionContext* current;
+  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::System::Threading::ExecutionContext* current;
 
   /// @brief Field original, offset 0x50, size 0x8
-  __declspec(property(get = __get_original, put = __set_original))::System::Threading::ExecutionContext* original;
+  __declspec(property(get = __cordl_internal_get_original, put = __cordl_internal_set_original))::System::Threading::ExecutionContext* original;
 
   /// @brief Field add_time, offset 0x58, size 0x8
-  __declspec(property(get = __get_add_time, put = __set_add_time)) int64_t add_time;
+  __declspec(property(get = __cordl_internal_get_add_time, put = __cordl_internal_set_add_time)) int64_t add_time;
 
   /// @brief Field call_message, offset 0x60, size 0x8
-  __declspec(property(get = __get_call_message, put = __set_call_message))::System::Runtime::Remoting::Messaging::MonoMethodMessage* call_message;
+  __declspec(property(get = __cordl_internal_get_call_message, put = __cordl_internal_set_call_message))::System::Runtime::Remoting::Messaging::MonoMethodMessage* call_message;
 
   /// @brief Field message_ctrl, offset 0x68, size 0x8
-  __declspec(property(get = __get_message_ctrl, put = __set_message_ctrl))::System::Runtime::Remoting::Messaging::IMessageCtrl* message_ctrl;
+  __declspec(property(get = __cordl_internal_get_message_ctrl, put = __cordl_internal_set_message_ctrl))::System::Runtime::Remoting::Messaging::IMessageCtrl* message_ctrl;
 
   /// @brief Field reply_message, offset 0x70, size 0x8
-  __declspec(property(get = __get_reply_message, put = __set_reply_message))::System::Runtime::Remoting::Messaging::IMessage* reply_message;
+  __declspec(property(get = __cordl_internal_get_reply_message, put = __cordl_internal_set_reply_message))::System::Runtime::Remoting::Messaging::IMessage* reply_message;
 
   /// @brief Field orig_cb, offset 0x78, size 0x8
-  __declspec(property(get = __get_orig_cb, put = __set_orig_cb))::System::Threading::WaitCallback* orig_cb;
+  __declspec(property(get = __cordl_internal_get_orig_cb, put = __cordl_internal_set_orig_cb))::System::Threading::WaitCallback* orig_cb;
 
   __declspec(property(get = get_AsyncState))::System::Object* AsyncState;
 
@@ -137,101 +137,101 @@ public:
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
   constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  constexpr ::System::Object*& __get_async_state();
+  constexpr ::System::Object*& __cordl_internal_get_async_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_async_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_async_state() const;
 
-  constexpr void __set_async_state(::System::Object* value);
+  constexpr void __cordl_internal_set_async_state(::System::Object* value);
 
-  constexpr ::System::Threading::WaitHandle*& __get_handle();
+  constexpr ::System::Threading::WaitHandle*& __cordl_internal_get_handle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& __get_handle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& __cordl_internal_get_handle() const;
 
-  constexpr void __set_handle(::System::Threading::WaitHandle* value);
+  constexpr void __cordl_internal_set_handle(::System::Threading::WaitHandle* value);
 
-  constexpr ::System::Object*& __get_async_delegate();
+  constexpr ::System::Object*& __cordl_internal_get_async_delegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_async_delegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_async_delegate() const;
 
-  constexpr void __set_async_delegate(::System::Object* value);
+  constexpr void __cordl_internal_set_async_delegate(::System::Object* value);
 
-  constexpr void*& __get_data();
+  constexpr void*& __cordl_internal_get_data();
 
-  constexpr void* const& __get_data() const;
+  constexpr void* const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(void* value);
+  constexpr void __cordl_internal_set_data(void* value);
 
-  constexpr ::System::Object*& __get_object_data();
+  constexpr ::System::Object*& __cordl_internal_get_object_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_object_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_object_data() const;
 
-  constexpr void __set_object_data(::System::Object* value);
+  constexpr void __cordl_internal_set_object_data(::System::Object* value);
 
-  constexpr bool& __get_sync_completed();
+  constexpr bool& __cordl_internal_get_sync_completed();
 
-  constexpr bool const& __get_sync_completed() const;
+  constexpr bool const& __cordl_internal_get_sync_completed() const;
 
-  constexpr void __set_sync_completed(bool value);
+  constexpr void __cordl_internal_set_sync_completed(bool value);
 
-  constexpr bool& __get_completed();
+  constexpr bool& __cordl_internal_get_completed();
 
-  constexpr bool const& __get_completed() const;
+  constexpr bool const& __cordl_internal_get_completed() const;
 
-  constexpr void __set_completed(bool value);
+  constexpr void __cordl_internal_set_completed(bool value);
 
-  constexpr bool& __get_endinvoke_called();
+  constexpr bool& __cordl_internal_get_endinvoke_called();
 
-  constexpr bool const& __get_endinvoke_called() const;
+  constexpr bool const& __cordl_internal_get_endinvoke_called() const;
 
-  constexpr void __set_endinvoke_called(bool value);
+  constexpr void __cordl_internal_set_endinvoke_called(bool value);
 
-  constexpr ::System::Object*& __get_async_callback();
+  constexpr ::System::Object*& __cordl_internal_get_async_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_async_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_async_callback() const;
 
-  constexpr void __set_async_callback(::System::Object* value);
+  constexpr void __cordl_internal_set_async_callback(::System::Object* value);
 
-  constexpr ::System::Threading::ExecutionContext*& __get_current();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get_current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_current() const;
 
-  constexpr void __set_current(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set_current(::System::Threading::ExecutionContext* value);
 
-  constexpr ::System::Threading::ExecutionContext*& __get_original();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_original();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get_original() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_original() const;
 
-  constexpr void __set_original(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set_original(::System::Threading::ExecutionContext* value);
 
-  constexpr int64_t& __get_add_time();
+  constexpr int64_t& __cordl_internal_get_add_time();
 
-  constexpr int64_t const& __get_add_time() const;
+  constexpr int64_t const& __cordl_internal_get_add_time() const;
 
-  constexpr void __set_add_time(int64_t value);
+  constexpr void __cordl_internal_set_add_time(int64_t value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage*& __get_call_message();
+  constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage*& __cordl_internal_get_call_message();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MonoMethodMessage*> const& __get_call_message() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MonoMethodMessage*> const& __cordl_internal_get_call_message() const;
 
-  constexpr void __set_call_message(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
+  constexpr void __cordl_internal_set_call_message(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageCtrl*& __get_message_ctrl();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageCtrl*& __cordl_internal_get_message_ctrl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageCtrl*> const& __get_message_ctrl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageCtrl*> const& __cordl_internal_get_message_ctrl() const;
 
-  constexpr void __set_message_ctrl(::System::Runtime::Remoting::Messaging::IMessageCtrl* value);
+  constexpr void __cordl_internal_set_message_ctrl(::System::Runtime::Remoting::Messaging::IMessageCtrl* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __get_reply_message();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __cordl_internal_get_reply_message();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __get_reply_message() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __cordl_internal_get_reply_message() const;
 
-  constexpr void __set_reply_message(::System::Runtime::Remoting::Messaging::IMessage* value);
+  constexpr void __cordl_internal_set_reply_message(::System::Runtime::Remoting::Messaging::IMessage* value);
 
-  constexpr ::System::Threading::WaitCallback*& __get_orig_cb();
+  constexpr ::System::Threading::WaitCallback*& __cordl_internal_get_orig_cb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& __get_orig_cb() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& __cordl_internal_get_orig_cb() const;
 
-  constexpr void __set_orig_cb(::System::Threading::WaitCallback* value);
+  constexpr void __cordl_internal_set_orig_cb(::System::Threading::WaitCallback* value);
 
   static inline ::System::Runtime::Remoting::Messaging::AsyncResult* New_ctor();
 

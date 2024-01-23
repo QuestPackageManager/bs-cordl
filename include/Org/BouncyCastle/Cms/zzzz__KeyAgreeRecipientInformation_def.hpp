@@ -51,29 +51,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(671))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(671))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(674))
 // CS Name: ::Org.BouncyCastle.Cms::KeyAgreeRecipientInformation*
 class CORDL_TYPE KeyAgreeRecipientInformation : public ::Org::BouncyCastle::Cms::RecipientInformation {
 public:
   // Declarations
   /// @brief Field info, offset 0x30, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info;
 
   /// @brief Field encryptedKey, offset 0x38, size 0x8
-  __declspec(property(get = __get_encryptedKey, put = __set_encryptedKey))::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey;
+  __declspec(property(get = __cordl_internal_get_encryptedKey, put = __cordl_internal_set_encryptedKey))::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*& __get_info();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*& __cordl_internal_get_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*> const& __get_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*> const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* value);
+  constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_encryptedKey();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_encryptedKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_encryptedKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_encryptedKey() const;
 
-  constexpr void __set_encryptedKey(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_encryptedKey(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   /// @brief Method ReadRecipientInfo, addr 0x11e39d0, size 0x57c, virtual false, abstract: false, final false
   static inline void ReadRecipientInfo(::System::Collections::IList* infos, ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);

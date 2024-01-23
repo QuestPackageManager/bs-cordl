@@ -17,26 +17,27 @@ MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupSceneSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6057))
 // CS Name: ::ShaderWarmupSceneSetupData*
 class CORDL_TYPE ShaderWarmupSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__nextScenesTransitionSetupData_k__BackingField,
-                      put = __set__nextScenesTransitionSetupData_k__BackingField))::GlobalNamespace::ScenesTransitionSetupDataSO* _nextScenesTransitionSetupData_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField,
+               put = __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> _nextScenesTransitionSetupData_k__BackingField;
 
-  __declspec(property(get = get_nextScenesTransitionSetupData, put = set_nextScenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+  __declspec(property(get = get_nextScenesTransitionSetupData, put = set_nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get__nextScenesTransitionSetupData_k__BackingField();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get__nextScenesTransitionSetupData_k__BackingField() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField() const;
 
-  constexpr void __set__nextScenesTransitionSetupData_k__BackingField(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
   /// @brief Method get_nextScenesTransitionSetupData, addr 0x231cdc4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
+  inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
   /// @brief Method set_nextScenesTransitionSetupData, addr 0x231cdcc, size 0x8, virtual false, abstract: false, final false
   inline void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
@@ -61,7 +62,7 @@ protected:
 
 public:
   /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ____nextScenesTransitionSetupData_k__BackingField;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

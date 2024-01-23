@@ -26,29 +26,30 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15522))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15522))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5182))
 // CS Name: ::MockPlayerLobbyPoseGeneratorMirror*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorMirror : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
   /// @brief Field _nodePoseSyncStateManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__nodePoseSyncStateManager, put = __set__nodePoseSyncStateManager))::GlobalNamespace::NodePoseSyncStateManager* _nodePoseSyncStateManager;
+  __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
+                      put = __cordl_internal_set__nodePoseSyncStateManager))::UnityW<::GlobalNamespace::NodePoseSyncStateManager> _nodePoseSyncStateManager;
 
   /// @brief Field _mirroredPlayer, offset 0x28, size 0x8
-  __declspec(property(get = __get__mirroredPlayer, put = __set__mirroredPlayer))::GlobalNamespace::IConnectedPlayer* _mirroredPlayer;
+  __declspec(property(get = __cordl_internal_get__mirroredPlayer, put = __cordl_internal_set__mirroredPlayer))::GlobalNamespace::IConnectedPlayer* _mirroredPlayer;
 
-  constexpr ::GlobalNamespace::NodePoseSyncStateManager*& __get__nodePoseSyncStateManager();
+  constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager>& __cordl_internal_get__nodePoseSyncStateManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NodePoseSyncStateManager*> const& __get__nodePoseSyncStateManager() const;
+  constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
-  constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::NodePoseSyncStateManager* value);
+  constexpr void __cordl_internal_set__nodePoseSyncStateManager(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__mirroredPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__mirroredPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__mirroredPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__mirroredPlayer() const;
 
-  constexpr void __set__mirroredPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__mirroredPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                 ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
@@ -86,7 +87,7 @@ protected:
 
 public:
   /// @brief Field _nodePoseSyncStateManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NodePoseSyncStateManager* ____nodePoseSyncStateManager;
+  ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> ____nodePoseSyncStateManager;
 
   /// @brief Field _mirroredPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____mirroredPlayer;

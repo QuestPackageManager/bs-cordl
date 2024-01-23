@@ -23,38 +23,38 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacketReader);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14194))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14194))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14162))
 // CS Name: ::LiteNetLib::NetPacketReader*
 class CORDL_TYPE NetPacketReader : public ::LiteNetLib::Utils::NetDataReader {
 public:
   // Declarations
   /// @brief Field _packet, offset 0x28, size 0x8
-  __declspec(property(get = __get__packet, put = __set__packet))::LiteNetLib::NetPacket* _packet;
+  __declspec(property(get = __cordl_internal_get__packet, put = __cordl_internal_set__packet))::LiteNetLib::NetPacket* _packet;
 
   /// @brief Field _manager, offset 0x30, size 0x8
-  __declspec(property(get = __get__manager, put = __set__manager))::LiteNetLib::NetManager* _manager;
+  __declspec(property(get = __cordl_internal_get__manager, put = __cordl_internal_set__manager))::LiteNetLib::NetManager* _manager;
 
   /// @brief Field _evt, offset 0x38, size 0x8
-  __declspec(property(get = __get__evt, put = __set__evt))::LiteNetLib::NetEvent* _evt;
+  __declspec(property(get = __cordl_internal_get__evt, put = __cordl_internal_set__evt))::LiteNetLib::NetEvent* _evt;
 
-  constexpr ::LiteNetLib::NetPacket*& __get__packet();
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__packet();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __get__packet() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__packet() const;
 
-  constexpr void __set__packet(::LiteNetLib::NetPacket* value);
+  constexpr void __cordl_internal_set__packet(::LiteNetLib::NetPacket* value);
 
-  constexpr ::LiteNetLib::NetManager*& __get__manager();
+  constexpr ::LiteNetLib::NetManager*& __cordl_internal_get__manager();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __get__manager() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __cordl_internal_get__manager() const;
 
-  constexpr void __set__manager(::LiteNetLib::NetManager* value);
+  constexpr void __cordl_internal_set__manager(::LiteNetLib::NetManager* value);
 
-  constexpr ::LiteNetLib::NetEvent*& __get__evt();
+  constexpr ::LiteNetLib::NetEvent*& __cordl_internal_get__evt();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetEvent*> const& __get__evt() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetEvent*> const& __cordl_internal_get__evt() const;
 
-  constexpr void __set__evt(::LiteNetLib::NetEvent* value);
+  constexpr void __cordl_internal_set__evt(::LiteNetLib::NetEvent* value);
 
   static inline ::LiteNetLib::NetPacketReader* New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
 

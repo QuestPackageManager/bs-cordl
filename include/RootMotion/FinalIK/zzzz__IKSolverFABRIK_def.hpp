@@ -27,40 +27,41 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFABRIK);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12574))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12574))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12568))
 // CS Name: ::RootMotion.FinalIK::IKSolverFABRIK*
 class CORDL_TYPE IKSolverFABRIK : public ::RootMotion::FinalIK::IKSolverHeuristic {
 public:
   // Declarations
   /// @brief Field OnPreIteration, offset 0x88, size 0x8
-  __declspec(property(get = __get_OnPreIteration, put = __set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
+  __declspec(property(get = __cordl_internal_get_OnPreIteration, put = __cordl_internal_set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
 
   /// @brief Field limitedBones, offset 0x90, size 0x8
-  __declspec(property(get = __get_limitedBones, put = __set_limitedBones))::ArrayW<bool, ::Array<bool>*> limitedBones;
+  __declspec(property(get = __cordl_internal_get_limitedBones, put = __cordl_internal_set_limitedBones))::ArrayW<bool, ::Array<bool>*> limitedBones;
 
   /// @brief Field solverLocalPositions, offset 0x98, size 0x8
-  __declspec(property(get = __get_solverLocalPositions, put = __set_solverLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> solverLocalPositions;
+  __declspec(property(get = __cordl_internal_get_solverLocalPositions,
+                      put = __cordl_internal_set_solverLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> solverLocalPositions;
 
   __declspec(property(get = get_boneLengthCanBeZero)) bool boneLengthCanBeZero;
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __get_OnPreIteration();
+  constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __cordl_internal_get_OnPreIteration();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __get_OnPreIteration() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __cordl_internal_get_OnPreIteration() const;
 
-  constexpr void __set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
+  constexpr void __cordl_internal_set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_limitedBones();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_limitedBones();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_limitedBones() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_limitedBones() const;
 
-  constexpr void __set_limitedBones(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_limitedBones(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_solverLocalPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_solverLocalPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_solverLocalPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_solverLocalPositions() const;
 
-  constexpr void __set_solverLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_solverLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
   /// @brief Method SolveForward, addr 0x1263078, size 0xd8, virtual false, abstract: false, final false
   inline void SolveForward(::UnityEngine::Vector3 position);

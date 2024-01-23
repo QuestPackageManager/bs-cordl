@@ -15,7 +15,7 @@ MARK_VAL_T(::System::IO::Compression::CompressionLevel);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9545))
 // CS Name: ::System.IO.Compression::CompressionLevel
 struct CORDL_TYPE CompressionLevel {

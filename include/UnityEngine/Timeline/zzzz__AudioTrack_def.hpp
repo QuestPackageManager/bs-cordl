@@ -72,23 +72,23 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13869))
 // CS Name: ::AudioTrack::<get_outputs>d__4*
 class CORDL_TYPE __AudioTrack___get_outputs_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x20
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x38, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x40, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::Timeline::AudioTrack* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::Timeline::AudioTrack> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current))::UnityEngine::Playables::PlayableBinding
       System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__Current;
@@ -127,29 +127,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::Playables::PlayableBinding& __get___2__current();
+  constexpr ::UnityEngine::Playables::PlayableBinding& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::Playables::PlayableBinding const& __get___2__current() const;
+  constexpr ::UnityEngine::Playables::PlayableBinding const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::Playables::PlayableBinding value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::Playables::PlayableBinding value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::Timeline::AudioTrack*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::Timeline::AudioTrack>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AudioTrack*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::AudioTrack> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::Timeline::AudioTrack* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Timeline::AudioTrack> value);
 
   static inline ::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4* New_ctor(int32_t __1__state);
 
@@ -201,7 +201,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Timeline::AudioTrack* _____4__this;
+  ::UnityW<::UnityEngine::Timeline::AudioTrack> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -221,7 +221,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4,
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13862))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13862))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13870))
 // CS Name: ::UnityEngine.Timeline::AudioTrack*
 class CORDL_TYPE AudioTrack : public ::UnityEngine::Timeline::TrackAsset {
@@ -230,15 +230,15 @@ public:
   using _get_outputs_d__4 = ::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4;
 
   /// @brief Field m_TrackProperties, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_TrackProperties, put = __set_m_TrackProperties))::UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties;
+  __declspec(property(get = __cordl_internal_get_m_TrackProperties, put = __cordl_internal_set_m_TrackProperties))::UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties;
 
   __declspec(property(get = get_outputs))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  constexpr ::UnityEngine::Timeline::AudioMixerProperties*& __get_m_TrackProperties();
+  constexpr ::UnityEngine::Timeline::AudioMixerProperties*& __cordl_internal_get_m_TrackProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AudioMixerProperties*> const& __get_m_TrackProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AudioMixerProperties*> const& __cordl_internal_get_m_TrackProperties() const;
 
-  constexpr void __set_m_TrackProperties(::UnityEngine::Timeline::AudioMixerProperties* value);
+  constexpr void __cordl_internal_set_m_TrackProperties(::UnityEngine::Timeline::AudioMixerProperties* value);
 
   /// @brief Method CreateClip, addr 0x2c62238, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClip(::UnityEngine::AudioClip* clip);

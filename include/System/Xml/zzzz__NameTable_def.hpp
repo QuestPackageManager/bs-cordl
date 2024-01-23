@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::System::Xml::__NameTable__Entry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11533))
 // CS Name: ::NameTable::Entry*
 class CORDL_TYPE __NameTable__Entry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field str, offset 0x10, size 0x8
-  __declspec(property(get = __get_str, put = __set_str))::StringW str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::StringW str;
 
   /// @brief Field hashCode, offset 0x18, size 0x4
-  __declspec(property(get = __get_hashCode, put = __set_hashCode)) int32_t hashCode;
+  __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field next, offset 0x20, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Xml::__NameTable__Entry* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::__NameTable__Entry* next;
 
-  constexpr ::StringW& __get_str();
+  constexpr ::StringW& __cordl_internal_get_str();
 
-  constexpr ::StringW const& __get_str() const;
+  constexpr ::StringW const& __cordl_internal_get_str() const;
 
-  constexpr void __set_str(::StringW value);
+  constexpr void __cordl_internal_set_str(::StringW value);
 
-  constexpr int32_t& __get_hashCode();
+  constexpr int32_t& __cordl_internal_get_hashCode();
 
-  constexpr int32_t const& __get_hashCode() const;
+  constexpr int32_t const& __cordl_internal_get_hashCode() const;
 
-  constexpr void __set_hashCode(int32_t value);
+  constexpr void __cordl_internal_set_hashCode(int32_t value);
 
-  constexpr ::System::Xml::__NameTable__Entry*& __get_next();
+  constexpr ::System::Xml::__NameTable__Entry*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__NameTable__Entry*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__NameTable__Entry*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Xml::__NameTable__Entry* value);
+  constexpr void __cordl_internal_set_next(::System::Xml::__NameTable__Entry* value);
 
   static inline ::System::Xml::__NameTable__Entry* New_ctor(::StringW str, int32_t hashCode, ::System::Xml::__NameTable__Entry* next);
 
@@ -102,7 +102,7 @@ static_assert(offsetof(::System::Xml::__NameTable__Entry, ___next) == 0x20, "Off
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11568))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11568))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11534))
 // CS Name: ::System.Xml::NameTable*
 class CORDL_TYPE NameTable : public ::System::Xml::XmlNameTable {
@@ -111,40 +111,40 @@ public:
   using Entry = ::System::Xml::__NameTable__Entry;
 
   /// @brief Field entries, offset 0x10, size 0x8
-  __declspec(property(get = __get_entries, put = __set_entries))::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> entries;
+  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries))::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> entries;
 
   /// @brief Field count, offset 0x18, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field mask, offset 0x1c, size 0x4
-  __declspec(property(get = __get_mask, put = __set_mask)) int32_t mask;
+  __declspec(property(get = __cordl_internal_get_mask, put = __cordl_internal_set_mask)) int32_t mask;
 
   /// @brief Field hashCodeRandomizer, offset 0x20, size 0x4
-  __declspec(property(get = __get_hashCodeRandomizer, put = __set_hashCodeRandomizer)) int32_t hashCodeRandomizer;
+  __declspec(property(get = __cordl_internal_get_hashCodeRandomizer, put = __cordl_internal_set_hashCodeRandomizer)) int32_t hashCodeRandomizer;
 
-  constexpr ::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*>& __get_entries();
+  constexpr ::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*>& __cordl_internal_get_entries();
 
-  constexpr ::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> const& __get_entries() const;
+  constexpr ::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> const& __cordl_internal_get_entries() const;
 
-  constexpr void __set_entries(::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> value);
+  constexpr void __cordl_internal_set_entries(::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr int32_t& __get_mask();
+  constexpr int32_t& __cordl_internal_get_mask();
 
-  constexpr int32_t const& __get_mask() const;
+  constexpr int32_t const& __cordl_internal_get_mask() const;
 
-  constexpr void __set_mask(int32_t value);
+  constexpr void __cordl_internal_set_mask(int32_t value);
 
-  constexpr int32_t& __get_hashCodeRandomizer();
+  constexpr int32_t& __cordl_internal_get_hashCodeRandomizer();
 
-  constexpr int32_t const& __get_hashCodeRandomizer() const;
+  constexpr int32_t const& __cordl_internal_get_hashCodeRandomizer() const;
 
-  constexpr void __set_hashCodeRandomizer(int32_t value);
+  constexpr void __cordl_internal_set_hashCodeRandomizer(int32_t value);
 
   static inline ::System::Xml::NameTable* New_ctor();
 

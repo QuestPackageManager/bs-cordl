@@ -26,16 +26,16 @@ MARK_REF_PTR_T(::System::Globalization::CultureNotFoundException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2344)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3660)) CS Name: ::System.Globalization::CultureNotFoundException*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3660)) CS Name: ::System.Globalization::CultureNotFoundException*
 class CORDL_TYPE CultureNotFoundException : public ::System::ArgumentException {
 public:
   // Declarations
   /// @brief Field _invalidCultureName, offset 0x98, size 0x8
-  __declspec(property(get = __get__invalidCultureName, put = __set__invalidCultureName))::StringW _invalidCultureName;
+  __declspec(property(get = __cordl_internal_get__invalidCultureName, put = __cordl_internal_set__invalidCultureName))::StringW _invalidCultureName;
 
   /// @brief Field _invalidCultureId, offset 0xa0, size 0x8
-  __declspec(property(get = __get__invalidCultureId, put = __set__invalidCultureId))::System::Nullable_1<int32_t> _invalidCultureId;
+  __declspec(property(get = __cordl_internal_get__invalidCultureId, put = __cordl_internal_set__invalidCultureId))::System::Nullable_1<int32_t> _invalidCultureId;
 
   __declspec(property(get = get_InvalidCultureId))::System::Nullable_1<int32_t> InvalidCultureId;
 
@@ -45,17 +45,17 @@ public:
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::StringW& __get__invalidCultureName();
+  constexpr ::StringW& __cordl_internal_get__invalidCultureName();
 
-  constexpr ::StringW const& __get__invalidCultureName() const;
+  constexpr ::StringW const& __cordl_internal_get__invalidCultureName() const;
 
-  constexpr void __set__invalidCultureName(::StringW value);
+  constexpr void __cordl_internal_set__invalidCultureName(::StringW value);
 
-  constexpr ::System::Nullable_1<int32_t>& __get__invalidCultureId();
+  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get__invalidCultureId();
 
-  constexpr ::System::Nullable_1<int32_t> const& __get__invalidCultureId() const;
+  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get__invalidCultureId() const;
 
-  constexpr void __set__invalidCultureId(::System::Nullable_1<int32_t> value);
+  constexpr void __cordl_internal_set__invalidCultureId(::System::Nullable_1<int32_t> value);
 
   static inline ::System::Globalization::CultureNotFoundException* New_ctor();
 

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HiddenAreaMesh_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8694))
 // CS Name: ::OVR.OpenVR::HiddenAreaMesh_t
 struct CORDL_TYPE HiddenAreaMesh_t {

@@ -26,22 +26,22 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RepaintData);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6867)) CS Name: ::UnityEngine.UIElements::RepaintData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10245))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6867)) CS Name: ::UnityEngine.UIElements::RepaintData*
 class CORDL_TYPE RepaintData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <currentOffset>k__BackingField, offset 0x10, size 0x40
-  __declspec(property(get = __get__currentOffset_k__BackingField, put = __set__currentOffset_k__BackingField))::UnityEngine::Matrix4x4 _currentOffset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentOffset_k__BackingField, put = __cordl_internal_set__currentOffset_k__BackingField))::UnityEngine::Matrix4x4 _currentOffset_k__BackingField;
 
   /// @brief Field <mousePosition>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__mousePosition_k__BackingField, put = __set__mousePosition_k__BackingField))::UnityEngine::Vector2 _mousePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__mousePosition_k__BackingField, put = __cordl_internal_set__mousePosition_k__BackingField))::UnityEngine::Vector2 _mousePosition_k__BackingField;
 
   /// @brief Field <currentWorldClip>k__BackingField, offset 0x58, size 0x10
-  __declspec(property(get = __get__currentWorldClip_k__BackingField, put = __set__currentWorldClip_k__BackingField))::UnityEngine::Rect _currentWorldClip_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentWorldClip_k__BackingField, put = __cordl_internal_set__currentWorldClip_k__BackingField))::UnityEngine::Rect _currentWorldClip_k__BackingField;
 
   /// @brief Field <repaintEvent>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __get__repaintEvent_k__BackingField, put = __set__repaintEvent_k__BackingField))::UnityEngine::Event* _repaintEvent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__repaintEvent_k__BackingField, put = __cordl_internal_set__repaintEvent_k__BackingField))::UnityEngine::Event* _repaintEvent_k__BackingField;
 
   __declspec(property(get = get_currentOffset))::UnityEngine::Matrix4x4 currentOffset;
 
@@ -49,29 +49,29 @@ public:
 
   __declspec(property(get = get_repaintEvent, put = set_repaintEvent))::UnityEngine::Event* repaintEvent;
 
-  constexpr ::UnityEngine::Matrix4x4& __get__currentOffset_k__BackingField();
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get__currentOffset_k__BackingField();
 
-  constexpr ::UnityEngine::Matrix4x4 const& __get__currentOffset_k__BackingField() const;
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get__currentOffset_k__BackingField() const;
 
-  constexpr void __set__currentOffset_k__BackingField(::UnityEngine::Matrix4x4 value);
+  constexpr void __cordl_internal_set__currentOffset_k__BackingField(::UnityEngine::Matrix4x4 value);
 
-  constexpr ::UnityEngine::Vector2& __get__mousePosition_k__BackingField();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__mousePosition_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2 const& __get__mousePosition_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__mousePosition_k__BackingField() const;
 
-  constexpr void __set__mousePosition_k__BackingField(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__mousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Rect& __get__currentWorldClip_k__BackingField();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__currentWorldClip_k__BackingField();
 
-  constexpr ::UnityEngine::Rect const& __get__currentWorldClip_k__BackingField() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__currentWorldClip_k__BackingField() const;
 
-  constexpr void __set__currentWorldClip_k__BackingField(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__currentWorldClip_k__BackingField(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Event*& __get__repaintEvent_k__BackingField();
+  constexpr ::UnityEngine::Event*& __cordl_internal_get__repaintEvent_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __get__repaintEvent_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get__repaintEvent_k__BackingField() const;
 
-  constexpr void __set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
+  constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
   /// @brief Method get_currentOffset, addr 0x2dc8714, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();

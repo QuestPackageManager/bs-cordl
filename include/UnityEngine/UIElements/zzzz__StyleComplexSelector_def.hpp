@@ -48,7 +48,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 21, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6821))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6821))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7259))
 // CS Name: ::StyleComplexSelector::PseudoStateData
 struct CORDL_TYPE __StyleComplexSelector__PseudoStateData {
@@ -88,7 +88,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StyleComplexSelector__Pseudo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7260))
 // CS Name: ::StyleComplexSelector::<>c*
 class CORDL_TYPE __StyleComplexSelector____c : public ::System::Object {
@@ -140,7 +140,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7261))
 // CS Name: ::UnityEngine.UIElements::StyleComplexSelector*
 class CORDL_TYPE StyleComplexSelector : public ::System::Object {
@@ -151,22 +151,23 @@ public:
   using PseudoStateData = ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData;
 
   /// @brief Field m_Specificity, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Specificity, put = __set_m_Specificity)) int32_t m_Specificity;
+  __declspec(property(get = __cordl_internal_get_m_Specificity, put = __cordl_internal_set_m_Specificity)) int32_t m_Specificity;
 
   /// @brief Field <rule>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__rule_k__BackingField, put = __set__rule_k__BackingField))::UnityEngine::UIElements::StyleRule* _rule_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rule_k__BackingField, put = __cordl_internal_set__rule_k__BackingField))::UnityEngine::UIElements::StyleRule* _rule_k__BackingField;
 
   /// @brief Field m_Selectors, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Selectors, put = __set_m_Selectors))::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> m_Selectors;
+  __declspec(property(get = __cordl_internal_get_m_Selectors,
+                      put = __cordl_internal_set_m_Selectors))::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> m_Selectors;
 
   /// @brief Field ruleIndex, offset 0x28, size 0x4
-  __declspec(property(get = __get_ruleIndex, put = __set_ruleIndex)) int32_t ruleIndex;
+  __declspec(property(get = __cordl_internal_get_ruleIndex, put = __cordl_internal_set_ruleIndex)) int32_t ruleIndex;
 
   /// @brief Field nextInTable, offset 0x30, size 0x8
-  __declspec(property(get = __get_nextInTable, put = __set_nextInTable))::UnityEngine::UIElements::StyleComplexSelector* nextInTable;
+  __declspec(property(get = __cordl_internal_get_nextInTable, put = __cordl_internal_set_nextInTable))::UnityEngine::UIElements::StyleComplexSelector* nextInTable;
 
   /// @brief Field orderInStyleSheet, offset 0x38, size 0x4
-  __declspec(property(get = __get_orderInStyleSheet, put = __set_orderInStyleSheet)) int32_t orderInStyleSheet;
+  __declspec(property(get = __cordl_internal_get_orderInStyleSheet, put = __cordl_internal_set_orderInStyleSheet)) int32_t orderInStyleSheet;
 
   /// @brief Field s_PseudoStates, offset 0xffffffff, size 0x8
   static __declspec(
@@ -179,41 +180,41 @@ public:
 
   __declspec(property(get = get_selectors, put = set_selectors))::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> selectors;
 
-  constexpr int32_t& __get_m_Specificity();
+  constexpr int32_t& __cordl_internal_get_m_Specificity();
 
-  constexpr int32_t const& __get_m_Specificity() const;
+  constexpr int32_t const& __cordl_internal_get_m_Specificity() const;
 
-  constexpr void __set_m_Specificity(int32_t value);
+  constexpr void __cordl_internal_set_m_Specificity(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::StyleRule*& __get__rule_k__BackingField();
+  constexpr ::UnityEngine::UIElements::StyleRule*& __cordl_internal_get__rule_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleRule*> const& __get__rule_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleRule*> const& __cordl_internal_get__rule_k__BackingField() const;
 
-  constexpr void __set__rule_k__BackingField(::UnityEngine::UIElements::StyleRule* value);
+  constexpr void __cordl_internal_set__rule_k__BackingField(::UnityEngine::UIElements::StyleRule* value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*>& __get_m_Selectors();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*>& __cordl_internal_get_m_Selectors();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> const& __get_m_Selectors() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> const& __cordl_internal_get_m_Selectors() const;
 
-  constexpr void __set_m_Selectors(::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> value);
+  constexpr void __cordl_internal_set_m_Selectors(::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> value);
 
-  constexpr int32_t& __get_ruleIndex();
+  constexpr int32_t& __cordl_internal_get_ruleIndex();
 
-  constexpr int32_t const& __get_ruleIndex() const;
+  constexpr int32_t const& __cordl_internal_get_ruleIndex() const;
 
-  constexpr void __set_ruleIndex(int32_t value);
+  constexpr void __cordl_internal_set_ruleIndex(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::StyleComplexSelector*& __get_nextInTable();
+  constexpr ::UnityEngine::UIElements::StyleComplexSelector*& __cordl_internal_get_nextInTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleComplexSelector*> const& __get_nextInTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleComplexSelector*> const& __cordl_internal_get_nextInTable() const;
 
-  constexpr void __set_nextInTable(::UnityEngine::UIElements::StyleComplexSelector* value);
+  constexpr void __cordl_internal_set_nextInTable(::UnityEngine::UIElements::StyleComplexSelector* value);
 
-  constexpr int32_t& __get_orderInStyleSheet();
+  constexpr int32_t& __cordl_internal_get_orderInStyleSheet();
 
-  constexpr int32_t const& __get_orderInStyleSheet() const;
+  constexpr int32_t const& __cordl_internal_get_orderInStyleSheet() const;
 
-  constexpr void __set_orderInStyleSheet(int32_t value);
+  constexpr void __cordl_internal_set_orderInStyleSheet(int32_t value);
 
   static inline void setStaticF_s_PseudoStates(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData>* value);
 

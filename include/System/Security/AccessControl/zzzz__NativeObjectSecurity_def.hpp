@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::__NativeObjectSecurity__Except
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3040))
 // CS Name: ::NativeObjectSecurity::ExceptionFromErrorCode*
 class CORDL_TYPE __NativeObjectSecurity__ExceptionFromErrorCode : public ::System::MulticastDelegate {
@@ -77,7 +77,7 @@ static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3026))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3026))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3041))
 // CS Name: ::System.Security.AccessControl::NativeObjectSecurity*
 class CORDL_TYPE NativeObjectSecurity : public ::System::Security::AccessControl::CommonObjectSecurity {
@@ -86,14 +86,14 @@ public:
   using ExceptionFromErrorCode = ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode;
 
   /// @brief Field exception_from_error_code, offset 0x28, size 0x8
-  __declspec(property(get = __get_exception_from_error_code,
-                      put = __set_exception_from_error_code))::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* exception_from_error_code;
+  __declspec(property(get = __cordl_internal_get_exception_from_error_code,
+                      put = __cordl_internal_set_exception_from_error_code))::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* exception_from_error_code;
 
-  constexpr ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*& __get_exception_from_error_code();
+  constexpr ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*& __cordl_internal_get_exception_from_error_code();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*> const& __get_exception_from_error_code() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*> const& __cordl_internal_get_exception_from_error_code() const;
 
-  constexpr void __set_exception_from_error_code(::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* value);
+  constexpr void __cordl_internal_set_exception_from_error_code(::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* value);
 
   static inline ::System::Security::AccessControl::NativeObjectSecurity* New_ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType,
                                                                                   ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* exceptionFromErrorCode,

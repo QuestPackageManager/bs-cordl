@@ -32,32 +32,32 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::PrefabControlPlayable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13908))
 // CS Name: ::UnityEngine.Timeline::PrefabControlPlayable*
 class CORDL_TYPE PrefabControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   /// @brief Field m_Instance, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Instance, put = __set_m_Instance))::UnityEngine::GameObject* m_Instance;
+  __declspec(property(get = __cordl_internal_get_m_Instance, put = __cordl_internal_set_m_Instance))::UnityW<::UnityEngine::GameObject> m_Instance;
 
-  __declspec(property(get = get_prefabInstance))::UnityEngine::GameObject* prefabInstance;
+  __declspec(property(get = get_prefabInstance))::UnityW<::UnityEngine::GameObject> prefabInstance;
 
-  constexpr ::UnityEngine::GameObject*& __get_m_Instance();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Instance();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_Instance() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Instance() const;
 
-  constexpr void __set_m_Instance(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_Instance(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method Create, addr 0x2c6ca34, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::PrefabControlPlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
 
   /// @brief Method get_prefabInstance, addr 0x2c6ce00, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_prefabInstance();
+  inline ::UnityW<::UnityEngine::GameObject> get_prefabInstance();
 
   /// @brief Method Initialize, addr 0x2c6cb78, size 0x288, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* Initialize(::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
+  inline ::UnityW<::UnityEngine::GameObject> Initialize(::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
 
   /// @brief Method OnPlayableDestroy, addr 0x2c6d150, size 0xac, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
@@ -91,7 +91,7 @@ protected:
 
 public:
   /// @brief Field m_Instance, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_Instance;
+  ::UnityW<::UnityEngine::GameObject> ___m_Instance;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

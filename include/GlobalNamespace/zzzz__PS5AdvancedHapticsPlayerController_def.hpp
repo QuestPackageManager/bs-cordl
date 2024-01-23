@@ -56,38 +56,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__Dis
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14425))
 // CS Name: ::PS5AdvancedHapticsPlayerController::<>c__DisplayClass6_0*
 class CORDL_TYPE __PS5AdvancedHapticsPlayerController____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::PS5AdvancedHapticsPlayerController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::PS5AdvancedHapticsPlayerController* __4__this;
 
   /// @brief Field node, offset 0x18, size 0x4
-  __declspec(property(get = __get_node, put = __set_node))::UnityEngine::XR::XRNode node;
+  __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node))::UnityEngine::XR::XRNode node;
 
   /// @brief Field hapticPreset, offset 0x20, size 0x8
-  __declspec(property(get = __get_hapticPreset, put = __set_hapticPreset))::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset;
+  __declspec(property(get = __cordl_internal_get_hapticPreset, put = __cordl_internal_set_hapticPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> hapticPreset;
 
-  constexpr ::GlobalNamespace::PS5AdvancedHapticsPlayerController*& __get___4__this();
+  constexpr ::GlobalNamespace::PS5AdvancedHapticsPlayerController*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5AdvancedHapticsPlayerController*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5AdvancedHapticsPlayerController*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::PS5AdvancedHapticsPlayerController* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::PS5AdvancedHapticsPlayerController* value);
 
-  constexpr ::UnityEngine::XR::XRNode& __get_node();
+  constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get_node();
 
-  constexpr ::UnityEngine::XR::XRNode const& __get_node() const;
+  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get_node() const;
 
-  constexpr void __set_node(::UnityEngine::XR::XRNode value);
+  constexpr void __cordl_internal_set_node(::UnityEngine::XR::XRNode value);
 
-  constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& __get_hapticPreset();
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get_hapticPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& __get_hapticPreset() const;
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get_hapticPreset() const;
 
-  constexpr void __set_hapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value);
+  constexpr void __cordl_internal_set_hapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
   static inline ::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0* New_ctor();
 
@@ -118,7 +118,7 @@ public:
   ::UnityEngine::XR::XRNode ___node;
 
   /// @brief Field hapticPreset, offset: 0x20, size: 0x8, def value: None
-  ::Libraries::HM::HMLib::VR::HapticPresetSO* ___hapticPreset;
+  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ___hapticPreset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -136,38 +136,38 @@ static_assert(offsetof(::GlobalNamespace::__PS5AdvancedHapticsPlayerController__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14426))
 // CS Name: ::PS5AdvancedHapticsPlayerController::<>c__DisplayClass7_0*
 class CORDL_TYPE __PS5AdvancedHapticsPlayerController____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::PS5AdvancedHapticsPlayerController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::PS5AdvancedHapticsPlayerController* __4__this;
 
   /// @brief Field node, offset 0x18, size 0x4
-  __declspec(property(get = __get_node, put = __set_node))::UnityEngine::XR::XRNode node;
+  __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node))::UnityEngine::XR::XRNode node;
 
   /// @brief Field hapticPreset, offset 0x20, size 0x8
-  __declspec(property(get = __get_hapticPreset, put = __set_hapticPreset))::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset;
+  __declspec(property(get = __cordl_internal_get_hapticPreset, put = __cordl_internal_set_hapticPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> hapticPreset;
 
-  constexpr ::GlobalNamespace::PS5AdvancedHapticsPlayerController*& __get___4__this();
+  constexpr ::GlobalNamespace::PS5AdvancedHapticsPlayerController*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5AdvancedHapticsPlayerController*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5AdvancedHapticsPlayerController*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::PS5AdvancedHapticsPlayerController* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::PS5AdvancedHapticsPlayerController* value);
 
-  constexpr ::UnityEngine::XR::XRNode& __get_node();
+  constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get_node();
 
-  constexpr ::UnityEngine::XR::XRNode const& __get_node() const;
+  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get_node() const;
 
-  constexpr void __set_node(::UnityEngine::XR::XRNode value);
+  constexpr void __cordl_internal_set_node(::UnityEngine::XR::XRNode value);
 
-  constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& __get_hapticPreset();
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get_hapticPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& __get_hapticPreset() const;
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get_hapticPreset() const;
 
-  constexpr void __set_hapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value);
+  constexpr void __cordl_internal_set_hapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
   static inline ::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0* New_ctor();
 
@@ -198,7 +198,7 @@ public:
   ::UnityEngine::XR::XRNode ___node;
 
   /// @brief Field hapticPreset, offset: 0x20, size: 0x8, def value: None
-  ::Libraries::HM::HMLib::VR::HapticPresetSO* ___hapticPreset;
+  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ___hapticPreset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,7 +216,7 @@ static_assert(offsetof(::GlobalNamespace::__PS5AdvancedHapticsPlayerController__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14427))
 // CS Name: ::PS5AdvancedHapticsPlayerController*
 class CORDL_TYPE PS5AdvancedHapticsPlayerController : public ::System::Object {
@@ -227,15 +227,14 @@ public:
   using __c__DisplayClass6_0 = ::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0;
 
   /// @brief Field _hapticsPlayerPool, offset 0x10, size 0x8
-  __declspec(property(get = __get__hapticsPlayerPool, put = __set__hapticsPlayerPool))::GlobalNamespace::__HapticsAudioClipPlayer__Pool* _hapticsPlayerPool;
+  __declspec(property(get = __cordl_internal_get__hapticsPlayerPool, put = __cordl_internal_set__hapticsPlayerPool))::GlobalNamespace::__HapticsAudioClipPlayer__Pool* _hapticsPlayerPool;
 
   /// @brief Field _coroutineStarter, offset 0x18, size 0x8
-  __declspec(property(get = __get__coroutineStarter, put = __set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
+  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
   /// @brief Field _activePlayers, offset 0x20, size 0x8
-  __declspec(property(get = __get__activePlayers,
-                      put = __set__activePlayers))::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*>,
-                                                                                               ::GlobalNamespace::HapticsAudioClipPlayer*>* _activePlayers;
+  __declspec(property(get = __cordl_internal_get__activePlayers, put = __cordl_internal_set__activePlayers))::System::Collections::Generic::Dictionary_2<
+      ::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>>, ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* _activePlayers;
 
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
@@ -249,27 +248,29 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  constexpr ::GlobalNamespace::__HapticsAudioClipPlayer__Pool*& __get__hapticsPlayerPool();
+  constexpr ::GlobalNamespace::__HapticsAudioClipPlayer__Pool*& __cordl_internal_get__hapticsPlayerPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HapticsAudioClipPlayer__Pool*> const& __get__hapticsPlayerPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HapticsAudioClipPlayer__Pool*> const& __cordl_internal_get__hapticsPlayerPool() const;
 
-  constexpr void __set__hapticsPlayerPool(::GlobalNamespace::__HapticsAudioClipPlayer__Pool* value);
+  constexpr void __cordl_internal_set__hapticsPlayerPool(::GlobalNamespace::__HapticsAudioClipPlayer__Pool* value);
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __get__coroutineStarter();
+  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __get__coroutineStarter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
 
-  constexpr void __set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
+  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*>, ::GlobalNamespace::HapticsAudioClipPlayer*>*&
-  __get__activePlayers();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>>,
+                                                         ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*&
+  __cordl_internal_get__activePlayers();
 
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*>, ::GlobalNamespace::HapticsAudioClipPlayer*>*> const&
-  __get__activePlayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>>,
+                                                                                             ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*> const&
+  __cordl_internal_get__activePlayers() const;
 
-  constexpr void __set__activePlayers(
-      ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*>, ::GlobalNamespace::HapticsAudioClipPlayer*>* value);
+  constexpr void
+  __cordl_internal_set__activePlayers(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>>,
+                                                                                   ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* value);
 
   /// @brief Method Initialize, addr 0x20f9a90, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
@@ -315,8 +316,8 @@ public:
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 
   /// @brief Field _activePlayers, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*>, ::GlobalNamespace::HapticsAudioClipPlayer*>*
-      ____activePlayers;
+  ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>>,
+                                               ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* ____activePlayers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

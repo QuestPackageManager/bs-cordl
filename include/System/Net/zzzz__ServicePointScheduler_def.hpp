@@ -112,61 +112,61 @@ MARK_VAL_T(::System::Net::__ServicePointScheduler___WaitAsync_d__46);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9203))
 // CS Name: ::ServicePointScheduler::ConnectionGroup*
 class CORDL_TYPE __ServicePointScheduler__ConnectionGroup : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Scheduler>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Scheduler_k__BackingField, put = __set__Scheduler_k__BackingField))::System::Net::ServicePointScheduler* _Scheduler_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Scheduler_k__BackingField, put = __cordl_internal_set__Scheduler_k__BackingField))::System::Net::ServicePointScheduler* _Scheduler_k__BackingField;
 
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Name_k__BackingField, put = __set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
   /// @brief Field ID, offset 0x20, size 0x4
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) int32_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) int32_t _cordl_ID;
 
   /// @brief Field connections, offset 0x28, size 0x8
-  __declspec(property(get = __get_connections, put = __set_connections))::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>* connections;
+  __declspec(property(get = __cordl_internal_get_connections, put = __cordl_internal_set_connections))::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>* connections;
 
   /// @brief Field queue, offset 0x30, size 0x8
-  __declspec(property(get = __get_queue, put = __set_queue))::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* queue;
+  __declspec(property(get = __cordl_internal_get_queue, put = __cordl_internal_set_queue))::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* queue;
 
   /// @brief Field nextId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_nextId, put = setStaticF_nextId)) int32_t nextId;
 
   __declspec(property(get = get_Scheduler))::System::Net::ServicePointScheduler* Scheduler;
 
-  constexpr ::System::Net::ServicePointScheduler*& __get__Scheduler_k__BackingField();
+  constexpr ::System::Net::ServicePointScheduler*& __cordl_internal_get__Scheduler_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePointScheduler*> const& __get__Scheduler_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePointScheduler*> const& __cordl_internal_get__Scheduler_k__BackingField() const;
 
-  constexpr void __set__Scheduler_k__BackingField(::System::Net::ServicePointScheduler* value);
+  constexpr void __cordl_internal_set__Scheduler_k__BackingField(::System::Net::ServicePointScheduler* value);
 
-  constexpr ::StringW& __get__Name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::StringW const& __get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr void __set__Name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  constexpr int32_t& __get__cordl_ID();
+  constexpr int32_t& __cordl_internal_get__cordl_ID();
 
-  constexpr int32_t const& __get__cordl_ID() const;
+  constexpr int32_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(int32_t value);
+  constexpr void __cordl_internal_set__cordl_ID(int32_t value);
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>*& __get_connections();
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>*& __cordl_internal_get_connections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>*> const& __get_connections() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>*> const& __cordl_internal_get_connections() const;
 
-  constexpr void __set_connections(::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>* value);
+  constexpr void __cordl_internal_set_connections(::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>* value);
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>*& __get_queue();
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>*& __cordl_internal_get_queue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>*> const& __get_queue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>*> const& __cordl_internal_get_queue() const;
 
-  constexpr void __set_queue(::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* value);
+  constexpr void __cordl_internal_set_queue(::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* value);
 
   static inline void setStaticF_nextId(int32_t value);
 
@@ -253,7 +253,7 @@ static_assert(offsetof(::System::Net::__ServicePointScheduler__ConnectionGroup, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9204))
 // CS Name: ::ServicePointScheduler::AsyncManualResetEvent::<>c*
 class CORDL_TYPE __ServicePointScheduler__AsyncManualResetEvent____c : public ::System::Object {
@@ -305,7 +305,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ServicePointS
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9205))
 // CS Name: ::ServicePointScheduler::AsyncManualResetEvent*
 class CORDL_TYPE __ServicePointScheduler__AsyncManualResetEvent : public ::System::Object {
@@ -314,13 +314,13 @@ public:
   using __c = ::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c;
 
   /// @brief Field m_tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_tcs, put = __set_m_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* m_tcs;
+  __declspec(property(get = __cordl_internal_get_m_tcs, put = __cordl_internal_set_m_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* m_tcs;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_m_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_m_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_m_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_m_tcs() const;
 
-  constexpr void __set_m_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_m_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
   /// @brief Method WaitAsync, addr 0x29db9e8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(int32_t millisecondTimeout);
@@ -365,8 +365,8 @@ static_assert(offsetof(::System::Net::__ServicePointScheduler__AsyncManualResetE
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9206)) CS Name: ::ServicePointScheduler::<RunScheduler>d__32
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9206)) CS Name: ::ServicePointScheduler::<RunScheduler>d__32
 struct CORDL_TYPE __ServicePointScheduler___RunScheduler_d__32 {
 public:
   // Declarations
@@ -468,8 +468,8 @@ static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9207)) CS Name: ::ServicePointScheduler::<WaitAsync>d__46
 struct CORDL_TYPE __ServicePointScheduler___WaitAsync_d__46 {
 public:
@@ -548,7 +548,7 @@ static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9208))
 // CS Name: ::System.Net::ServicePointScheduler*
 class CORDL_TYPE ServicePointScheduler : public ::System::Object {
@@ -563,43 +563,43 @@ public:
   using ConnectionGroup = ::System::Net::__ServicePointScheduler__ConnectionGroup;
 
   /// @brief Field <ServicePoint>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__ServicePoint_k__BackingField, put = __set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ServicePoint_k__BackingField, put = __cordl_internal_set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
 
   /// @brief Field running, offset 0x18, size 0x4
-  __declspec(property(get = __get_running, put = __set_running)) int32_t running;
+  __declspec(property(get = __cordl_internal_get_running, put = __cordl_internal_set_running)) int32_t running;
 
   /// @brief Field maxIdleTime, offset 0x1c, size 0x4
-  __declspec(property(get = __get_maxIdleTime, put = __set_maxIdleTime)) int32_t maxIdleTime;
+  __declspec(property(get = __cordl_internal_get_maxIdleTime, put = __cordl_internal_set_maxIdleTime)) int32_t maxIdleTime;
 
   /// @brief Field schedulerEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_schedulerEvent, put = __set_schedulerEvent))::System::Net::__ServicePointScheduler__AsyncManualResetEvent* schedulerEvent;
+  __declspec(property(get = __cordl_internal_get_schedulerEvent, put = __cordl_internal_set_schedulerEvent))::System::Net::__ServicePointScheduler__AsyncManualResetEvent* schedulerEvent;
 
   /// @brief Field defaultGroup, offset 0x28, size 0x8
-  __declspec(property(get = __get_defaultGroup, put = __set_defaultGroup))::System::Net::__ServicePointScheduler__ConnectionGroup* defaultGroup;
+  __declspec(property(get = __cordl_internal_get_defaultGroup, put = __cordl_internal_set_defaultGroup))::System::Net::__ServicePointScheduler__ConnectionGroup* defaultGroup;
 
   /// @brief Field groups, offset 0x30, size 0x8
-  __declspec(property(get = __get_groups, put = __set_groups))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>* groups;
+  __declspec(property(get = __cordl_internal_get_groups,
+                      put = __cordl_internal_set_groups))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>* groups;
 
   /// @brief Field operations, offset 0x38, size 0x8
-  __declspec(property(
-      get = __get_operations,
-      put = __set_operations))::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>* operations;
+  __declspec(property(get = __cordl_internal_get_operations, put = __cordl_internal_set_operations))::System::Collections::Generic::LinkedList_1<
+      ::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>* operations;
 
   /// @brief Field idleConnections, offset 0x40, size 0x8
-  __declspec(property(get = __get_idleConnections, put = __set_idleConnections))::System::Collections::Generic::LinkedList_1<
+  __declspec(property(get = __cordl_internal_get_idleConnections, put = __cordl_internal_set_idleConnections))::System::Collections::Generic::LinkedList_1<
       ::System::ValueTuple_3<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*, ::System::Threading::Tasks::Task*>>* idleConnections;
 
   /// @brief Field currentConnections, offset 0x48, size 0x4
-  __declspec(property(get = __get_currentConnections, put = __set_currentConnections)) int32_t currentConnections;
+  __declspec(property(get = __cordl_internal_get_currentConnections, put = __cordl_internal_set_currentConnections)) int32_t currentConnections;
 
   /// @brief Field connectionLimit, offset 0x4c, size 0x4
-  __declspec(property(get = __get_connectionLimit, put = __set_connectionLimit)) int32_t connectionLimit;
+  __declspec(property(get = __cordl_internal_get_connectionLimit, put = __cordl_internal_set_connectionLimit)) int32_t connectionLimit;
 
   /// @brief Field idleSince, offset 0x50, size 0x8
-  __declspec(property(get = __get_idleSince, put = __set_idleSince))::System::DateTime idleSince;
+  __declspec(property(get = __cordl_internal_get_idleSince, put = __cordl_internal_set_idleSince))::System::DateTime idleSince;
 
   /// @brief Field ID, offset 0x58, size 0x4
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) int32_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) int32_t _cordl_ID;
 
   /// @brief Field nextId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_nextId, put = setStaticF_nextId)) int32_t nextId;
@@ -608,85 +608,88 @@ public:
 
   __declspec(property(get = get_MaxIdleTime)) int32_t MaxIdleTime;
 
-  constexpr ::System::Net::ServicePoint*& __get__ServicePoint_k__BackingField();
+  constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __get__ServicePoint_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __cordl_internal_get__ServicePoint_k__BackingField() const;
 
-  constexpr void __set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
+  constexpr void __cordl_internal_set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
 
-  constexpr int32_t& __get_running();
+  constexpr int32_t& __cordl_internal_get_running();
 
-  constexpr int32_t const& __get_running() const;
+  constexpr int32_t const& __cordl_internal_get_running() const;
 
-  constexpr void __set_running(int32_t value);
+  constexpr void __cordl_internal_set_running(int32_t value);
 
-  constexpr int32_t& __get_maxIdleTime();
+  constexpr int32_t& __cordl_internal_get_maxIdleTime();
 
-  constexpr int32_t const& __get_maxIdleTime() const;
+  constexpr int32_t const& __cordl_internal_get_maxIdleTime() const;
 
-  constexpr void __set_maxIdleTime(int32_t value);
+  constexpr void __cordl_internal_set_maxIdleTime(int32_t value);
 
-  constexpr ::System::Net::__ServicePointScheduler__AsyncManualResetEvent*& __get_schedulerEvent();
+  constexpr ::System::Net::__ServicePointScheduler__AsyncManualResetEvent*& __cordl_internal_get_schedulerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__ServicePointScheduler__AsyncManualResetEvent*> const& __get_schedulerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__ServicePointScheduler__AsyncManualResetEvent*> const& __cordl_internal_get_schedulerEvent() const;
 
-  constexpr void __set_schedulerEvent(::System::Net::__ServicePointScheduler__AsyncManualResetEvent* value);
+  constexpr void __cordl_internal_set_schedulerEvent(::System::Net::__ServicePointScheduler__AsyncManualResetEvent* value);
 
-  constexpr ::System::Net::__ServicePointScheduler__ConnectionGroup*& __get_defaultGroup();
+  constexpr ::System::Net::__ServicePointScheduler__ConnectionGroup*& __cordl_internal_get_defaultGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__ServicePointScheduler__ConnectionGroup*> const& __get_defaultGroup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__ServicePointScheduler__ConnectionGroup*> const& __cordl_internal_get_defaultGroup() const;
 
-  constexpr void __set_defaultGroup(::System::Net::__ServicePointScheduler__ConnectionGroup* value);
+  constexpr void __cordl_internal_set_defaultGroup(::System::Net::__ServicePointScheduler__ConnectionGroup* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>*& __get_groups();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>*& __cordl_internal_get_groups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>*> const& __get_groups() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>*> const&
+  __cordl_internal_get_groups() const;
 
-  constexpr void __set_groups(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>* value);
+  constexpr void __cordl_internal_set_groups(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>* value);
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>*& __get_operations();
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>*&
+  __cordl_internal_get_operations();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>*> const&
-  __get_operations() const;
+  __cordl_internal_get_operations() const;
 
-  constexpr void __set_operations(::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>* value);
+  constexpr void
+  __cordl_internal_set_operations(::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>* value);
 
   constexpr ::System::Collections::Generic::LinkedList_1<
       ::System::ValueTuple_3<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*, ::System::Threading::Tasks::Task*>>*&
-  __get_idleConnections();
+  __cordl_internal_get_idleConnections();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<
       ::System::ValueTuple_3<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*, ::System::Threading::Tasks::Task*>>*> const&
-  __get_idleConnections() const;
+  __cordl_internal_get_idleConnections() const;
 
-  constexpr void __set_idleConnections(
+  constexpr void __cordl_internal_set_idleConnections(
       ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_3<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*, ::System::Threading::Tasks::Task*>>*
           value);
 
-  constexpr int32_t& __get_currentConnections();
+  constexpr int32_t& __cordl_internal_get_currentConnections();
 
-  constexpr int32_t const& __get_currentConnections() const;
+  constexpr int32_t const& __cordl_internal_get_currentConnections() const;
 
-  constexpr void __set_currentConnections(int32_t value);
+  constexpr void __cordl_internal_set_currentConnections(int32_t value);
 
-  constexpr int32_t& __get_connectionLimit();
+  constexpr int32_t& __cordl_internal_get_connectionLimit();
 
-  constexpr int32_t const& __get_connectionLimit() const;
+  constexpr int32_t const& __cordl_internal_get_connectionLimit() const;
 
-  constexpr void __set_connectionLimit(int32_t value);
+  constexpr void __cordl_internal_set_connectionLimit(int32_t value);
 
-  constexpr ::System::DateTime& __get_idleSince();
+  constexpr ::System::DateTime& __cordl_internal_get_idleSince();
 
-  constexpr ::System::DateTime const& __get_idleSince() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_idleSince() const;
 
-  constexpr void __set_idleSince(::System::DateTime value);
+  constexpr void __cordl_internal_set_idleSince(::System::DateTime value);
 
-  constexpr int32_t& __get__cordl_ID();
+  constexpr int32_t& __cordl_internal_get__cordl_ID();
 
-  constexpr int32_t const& __get__cordl_ID() const;
+  constexpr int32_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(int32_t value);
+  constexpr void __cordl_internal_set__cordl_ID(int32_t value);
 
   static inline void setStaticF_nextId(int32_t value);
 

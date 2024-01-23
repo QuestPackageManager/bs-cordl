@@ -51,14 +51,14 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_dateTimeBase);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624)), TypeDefinitionIndex(TypeDefinitionIndex(11759))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11624)), TypeDefinitionIndex(TypeDefinitionIndex(11759))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11635))
 // CS Name: ::System.Xml.Schema::Datatype_dateTimeBase*
 class CORDL_TYPE Datatype_dateTimeBase : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
   /// @brief Field dateTimeFlags, offset 0x38, size 0x4
-  __declspec(property(get = __get_dateTimeFlags, put = __set_dateTimeFlags))::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags;
+  __declspec(property(get = __cordl_internal_get_dateTimeFlags, put = __cordl_internal_set_dateTimeFlags))::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags;
 
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType))::System::Type* atomicValueType;
@@ -76,11 +76,11 @@ public:
 
   __declspec(property(get = get_BuiltInWhitespaceFacet))::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
 
-  constexpr ::System::Xml::Schema::XsdDateTimeFlags& __get_dateTimeFlags();
+  constexpr ::System::Xml::Schema::XsdDateTimeFlags& __cordl_internal_get_dateTimeFlags();
 
-  constexpr ::System::Xml::Schema::XsdDateTimeFlags const& __get_dateTimeFlags() const;
+  constexpr ::System::Xml::Schema::XsdDateTimeFlags const& __cordl_internal_get_dateTimeFlags() const;
 
-  constexpr void __set_dateTimeFlags(::System::Xml::Schema::XsdDateTimeFlags value);
+  constexpr void __cordl_internal_set_dateTimeFlags(::System::Xml::Schema::XsdDateTimeFlags value);
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
 

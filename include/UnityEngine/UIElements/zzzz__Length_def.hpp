@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Length);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7312))
 // CS Name: ::Length::Unit
 struct CORDL_TYPE __Length__Unit {
@@ -92,7 +92,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__Length__Unit, value__) == 0x
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7312))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7312))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7313))
 // CS Name: ::UnityEngine.UIElements::Length
 struct CORDL_TYPE Length {

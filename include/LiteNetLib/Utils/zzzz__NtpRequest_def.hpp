@@ -38,20 +38,20 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::NtpRequest);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14240))
 // CS Name: ::LiteNetLib.Utils::NtpRequest*
 class CORDL_TYPE NtpRequest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _socket, offset 0x10, size 0x8
-  __declspec(property(get = __get__socket, put = __set__socket))::LiteNetLib::NetSocket* _socket;
+  __declspec(property(get = __cordl_internal_get__socket, put = __cordl_internal_set__socket))::LiteNetLib::NetSocket* _socket;
 
   /// @brief Field _onRequestComplete, offset 0x18, size 0x8
-  __declspec(property(get = __get__onRequestComplete, put = __set__onRequestComplete))::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* _onRequestComplete;
+  __declspec(property(get = __cordl_internal_get__onRequestComplete, put = __cordl_internal_set__onRequestComplete))::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* _onRequestComplete;
 
   /// @brief Field _ntpEndPoint, offset 0x20, size 0x8
-  __declspec(property(get = __get__ntpEndPoint, put = __set__ntpEndPoint))::System::Net::IPEndPoint* _ntpEndPoint;
+  __declspec(property(get = __cordl_internal_get__ntpEndPoint, put = __cordl_internal_set__ntpEndPoint))::System::Net::IPEndPoint* _ntpEndPoint;
 
   /// @brief Convert operator to "::LiteNetLib::INetSocketListener"
   constexpr operator ::LiteNetLib::INetSocketListener*() noexcept;
@@ -59,23 +59,23 @@ public:
   /// @brief Convert to "::LiteNetLib::INetSocketListener"
   constexpr ::LiteNetLib::INetSocketListener* i___LiteNetLib__INetSocketListener() noexcept;
 
-  constexpr ::LiteNetLib::NetSocket*& __get__socket();
+  constexpr ::LiteNetLib::NetSocket*& __cordl_internal_get__socket();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& __get__socket() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& __cordl_internal_get__socket() const;
 
-  constexpr void __set__socket(::LiteNetLib::NetSocket* value);
+  constexpr void __cordl_internal_set__socket(::LiteNetLib::NetSocket* value);
 
-  constexpr ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*& __get__onRequestComplete();
+  constexpr ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*& __cordl_internal_get__onRequestComplete();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*> const& __get__onRequestComplete() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*> const& __cordl_internal_get__onRequestComplete() const;
 
-  constexpr void __set__onRequestComplete(::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* value);
+  constexpr void __cordl_internal_set__onRequestComplete(::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* value);
 
-  constexpr ::System::Net::IPEndPoint*& __get__ntpEndPoint();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__ntpEndPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get__ntpEndPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__ntpEndPoint() const;
 
-  constexpr void __set__ntpEndPoint(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set__ntpEndPoint(::System::Net::IPEndPoint* value);
 
   static inline ::LiteNetLib::Utils::NtpRequest* New_ctor(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 

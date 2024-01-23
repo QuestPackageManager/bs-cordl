@@ -15,47 +15,47 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::TailoringInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2259))
 // CS Name: ::Mono.Globalization.Unicode::TailoringInfo*
 class CORDL_TYPE TailoringInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field LCID, offset 0x10, size 0x4
-  __declspec(property(get = __get_LCID, put = __set_LCID)) int32_t LCID;
+  __declspec(property(get = __cordl_internal_get_LCID, put = __cordl_internal_set_LCID)) int32_t LCID;
 
   /// @brief Field TailoringIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get_TailoringIndex, put = __set_TailoringIndex)) int32_t TailoringIndex;
+  __declspec(property(get = __cordl_internal_get_TailoringIndex, put = __cordl_internal_set_TailoringIndex)) int32_t TailoringIndex;
 
   /// @brief Field TailoringCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_TailoringCount, put = __set_TailoringCount)) int32_t TailoringCount;
+  __declspec(property(get = __cordl_internal_get_TailoringCount, put = __cordl_internal_set_TailoringCount)) int32_t TailoringCount;
 
   /// @brief Field FrenchSort, offset 0x1c, size 0x1
-  __declspec(property(get = __get_FrenchSort, put = __set_FrenchSort)) bool FrenchSort;
+  __declspec(property(get = __cordl_internal_get_FrenchSort, put = __cordl_internal_set_FrenchSort)) bool FrenchSort;
 
-  constexpr int32_t& __get_LCID();
+  constexpr int32_t& __cordl_internal_get_LCID();
 
-  constexpr int32_t const& __get_LCID() const;
+  constexpr int32_t const& __cordl_internal_get_LCID() const;
 
-  constexpr void __set_LCID(int32_t value);
+  constexpr void __cordl_internal_set_LCID(int32_t value);
 
-  constexpr int32_t& __get_TailoringIndex();
+  constexpr int32_t& __cordl_internal_get_TailoringIndex();
 
-  constexpr int32_t const& __get_TailoringIndex() const;
+  constexpr int32_t const& __cordl_internal_get_TailoringIndex() const;
 
-  constexpr void __set_TailoringIndex(int32_t value);
+  constexpr void __cordl_internal_set_TailoringIndex(int32_t value);
 
-  constexpr int32_t& __get_TailoringCount();
+  constexpr int32_t& __cordl_internal_get_TailoringCount();
 
-  constexpr int32_t const& __get_TailoringCount() const;
+  constexpr int32_t const& __cordl_internal_get_TailoringCount() const;
 
-  constexpr void __set_TailoringCount(int32_t value);
+  constexpr void __cordl_internal_set_TailoringCount(int32_t value);
 
-  constexpr bool& __get_FrenchSort();
+  constexpr bool& __cordl_internal_get_FrenchSort();
 
-  constexpr bool const& __get_FrenchSort() const;
+  constexpr bool const& __cordl_internal_get_FrenchSort() const;
 
-  constexpr void __set_FrenchSort(bool value);
+  constexpr void __cordl_internal_set_FrenchSort(bool value);
 
   static inline ::Mono::Globalization::Unicode::TailoringInfo* New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 

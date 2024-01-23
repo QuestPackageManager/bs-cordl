@@ -33,96 +33,99 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5582))
 // CS Name: ::MultiplayerLobbyController*
 class CORDL_TYPE MultiplayerLobbyController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _innerCircleRadius, offset 0x18, size 0x4
-  __declspec(property(get = __get__innerCircleRadius, put = __set__innerCircleRadius)) float_t _innerCircleRadius;
+  __declspec(property(get = __cordl_internal_get__innerCircleRadius, put = __cordl_internal_set__innerCircleRadius)) float_t _innerCircleRadius;
 
   /// @brief Field _minOuterCircleRadius, offset 0x1c, size 0x4
-  __declspec(property(get = __get__minOuterCircleRadius, put = __set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
+  __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
   /// @brief Field _multiplayerLobbyAvatarManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerLobbyAvatarManager, put = __set__multiplayerLobbyAvatarManager))::GlobalNamespace::MultiplayerLobbyAvatarManager* _multiplayerLobbyAvatarManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerLobbyAvatarManager,
+                      put = __cordl_internal_set__multiplayerLobbyAvatarManager))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> _multiplayerLobbyAvatarManager;
 
   /// @brief Field _multiplayerLobbyCenterStageManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerLobbyCenterStageManager,
-                      put = __set__multiplayerLobbyCenterStageManager))::GlobalNamespace::MultiplayerLobbyCenterStageManager* _multiplayerLobbyCenterStageManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerLobbyCenterStageManager,
+                      put = __cordl_internal_set__multiplayerLobbyCenterStageManager))::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager> _multiplayerLobbyCenterStageManager;
 
   /// @brief Field _multiplayerLobbyAvatarPlaceManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__multiplayerLobbyAvatarPlaceManager,
-                      put = __set__multiplayerLobbyAvatarPlaceManager))::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* _multiplayerLobbyAvatarPlaceManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerLobbyAvatarPlaceManager,
+                      put = __cordl_internal_set__multiplayerLobbyAvatarPlaceManager))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager> _multiplayerLobbyAvatarPlaceManager;
 
   /// @brief Field _menuEnvironmentManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__menuEnvironmentManager, put = __set__menuEnvironmentManager))::GlobalNamespace::MenuEnvironmentManager* _menuEnvironmentManager;
+  __declspec(property(get = __cordl_internal_get__menuEnvironmentManager,
+                      put = __cordl_internal_set__menuEnvironmentManager))::UnityW<::GlobalNamespace::MenuEnvironmentManager> _menuEnvironmentManager;
 
   /// @brief Field _playerDataModel, offset 0x40, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _optionalAvatarDataSender, offset 0x48, size 0x8
-  __declspec(property(get = __get__optionalAvatarDataSender, put = __set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
+  __declspec(property(get = __cordl_internal_get__optionalAvatarDataSender,
+                      put = __cordl_internal_set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
 
   /// @brief Field <lobbyActivated>k__BackingField, offset 0x50, size 0x1
-  __declspec(property(get = __get__lobbyActivated_k__BackingField, put = __set__lobbyActivated_k__BackingField)) bool _lobbyActivated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lobbyActivated_k__BackingField, put = __cordl_internal_set__lobbyActivated_k__BackingField)) bool _lobbyActivated_k__BackingField;
 
   __declspec(property(get = get_lobbyActivated, put = set_lobbyActivated)) bool lobbyActivated;
 
-  constexpr float_t& __get__innerCircleRadius();
+  constexpr float_t& __cordl_internal_get__innerCircleRadius();
 
-  constexpr float_t const& __get__innerCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__innerCircleRadius() const;
 
-  constexpr void __set__innerCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__innerCircleRadius(float_t value);
 
-  constexpr float_t& __get__minOuterCircleRadius();
+  constexpr float_t& __cordl_internal_get__minOuterCircleRadius();
 
-  constexpr float_t const& __get__minOuterCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__minOuterCircleRadius() const;
 
-  constexpr void __set__minOuterCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarManager*& __get__multiplayerLobbyAvatarManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager>& __cordl_internal_get__multiplayerLobbyAvatarManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarManager*> const& __get__multiplayerLobbyAvatarManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> const& __cordl_internal_get__multiplayerLobbyAvatarManager() const;
 
-  constexpr void __set__multiplayerLobbyAvatarManager(::GlobalNamespace::MultiplayerLobbyAvatarManager* value);
+  constexpr void __cordl_internal_set__multiplayerLobbyAvatarManager(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyCenterStageManager*& __get__multiplayerLobbyCenterStageManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager>& __cordl_internal_get__multiplayerLobbyCenterStageManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyCenterStageManager*> const& __get__multiplayerLobbyCenterStageManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager> const& __cordl_internal_get__multiplayerLobbyCenterStageManager() const;
 
-  constexpr void __set__multiplayerLobbyCenterStageManager(::GlobalNamespace::MultiplayerLobbyCenterStageManager* value);
+  constexpr void __cordl_internal_set__multiplayerLobbyCenterStageManager(::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*& __get__multiplayerLobbyAvatarPlaceManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager>& __cordl_internal_get__multiplayerLobbyAvatarPlaceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*> const& __get__multiplayerLobbyAvatarPlaceManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager> const& __cordl_internal_get__multiplayerLobbyAvatarPlaceManager() const;
 
-  constexpr void __set__multiplayerLobbyAvatarPlaceManager(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* value);
+  constexpr void __cordl_internal_set__multiplayerLobbyAvatarPlaceManager(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager> value);
 
-  constexpr ::GlobalNamespace::MenuEnvironmentManager*& __get__menuEnvironmentManager();
+  constexpr ::UnityW<::GlobalNamespace::MenuEnvironmentManager>& __cordl_internal_get__menuEnvironmentManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuEnvironmentManager*> const& __get__menuEnvironmentManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuEnvironmentManager> const& __cordl_internal_get__menuEnvironmentManager() const;
 
-  constexpr void __set__menuEnvironmentManager(::GlobalNamespace::MenuEnvironmentManager* value);
+  constexpr void __cordl_internal_set__menuEnvironmentManager(::UnityW<::GlobalNamespace::MenuEnvironmentManager> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __get__optionalAvatarDataSender();
+  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __cordl_internal_get__optionalAvatarDataSender();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const& __get__optionalAvatarDataSender() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const& __cordl_internal_get__optionalAvatarDataSender() const;
 
-  constexpr void __set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
+  constexpr void __cordl_internal_set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
 
-  constexpr bool& __get__lobbyActivated_k__BackingField();
+  constexpr bool& __cordl_internal_get__lobbyActivated_k__BackingField();
 
-  constexpr bool const& __get__lobbyActivated_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__lobbyActivated_k__BackingField() const;
 
-  constexpr void __set__lobbyActivated_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__lobbyActivated_k__BackingField(bool value);
 
   /// @brief Method get_lobbyActivated, addr 0x22a736c, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
@@ -162,19 +165,19 @@ public:
   float_t ____minOuterCircleRadius;
 
   /// @brief Field _multiplayerLobbyAvatarManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarManager* ____multiplayerLobbyAvatarManager;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> ____multiplayerLobbyAvatarManager;
 
   /// @brief Field _multiplayerLobbyCenterStageManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyCenterStageManager* ____multiplayerLobbyCenterStageManager;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager> ____multiplayerLobbyCenterStageManager;
 
   /// @brief Field _multiplayerLobbyAvatarPlaceManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* ____multiplayerLobbyAvatarPlaceManager;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager> ____multiplayerLobbyAvatarPlaceManager;
 
   /// @brief Field _menuEnvironmentManager, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MenuEnvironmentManager* ____menuEnvironmentManager;
+  ::UnityW<::GlobalNamespace::MenuEnvironmentManager> ____menuEnvironmentManager;
 
   /// @brief Field _playerDataModel, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _optionalAvatarDataSender, offset: 0x48, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;

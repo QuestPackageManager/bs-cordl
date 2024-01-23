@@ -41,56 +41,56 @@ MARK_REF_PTR_T(::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14431))
 // CS Name: ::RumbleHapticFeedbackPlayer::RumbleData*
 class CORDL_TYPE __RumbleHapticFeedbackPlayer__RumbleData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field active, offset 0x10, size 0x1
-  __declspec(property(get = __get_active, put = __set_active)) bool active;
+  __declspec(property(get = __cordl_internal_get_active, put = __cordl_internal_set_active)) bool active;
 
   /// @brief Field continuous, offset 0x11, size 0x1
-  __declspec(property(get = __get_continuous, put = __set_continuous)) bool continuous;
+  __declspec(property(get = __cordl_internal_get_continuous, put = __cordl_internal_set_continuous)) bool continuous;
 
   /// @brief Field strength, offset 0x14, size 0x4
-  __declspec(property(get = __get_strength, put = __set_strength)) float_t strength;
+  __declspec(property(get = __cordl_internal_get_strength, put = __cordl_internal_set_strength)) float_t strength;
 
   /// @brief Field endTime, offset 0x18, size 0x4
-  __declspec(property(get = __get_endTime, put = __set_endTime)) float_t endTime;
+  __declspec(property(get = __cordl_internal_get_endTime, put = __cordl_internal_set_endTime)) float_t endTime;
 
   /// @brief Field frequency, offset 0x1c, size 0x4
-  __declspec(property(get = __get_frequency, put = __set_frequency)) float_t frequency;
+  __declspec(property(get = __cordl_internal_get_frequency, put = __cordl_internal_set_frequency)) float_t frequency;
 
-  constexpr bool& __get_active();
+  constexpr bool& __cordl_internal_get_active();
 
-  constexpr bool const& __get_active() const;
+  constexpr bool const& __cordl_internal_get_active() const;
 
-  constexpr void __set_active(bool value);
+  constexpr void __cordl_internal_set_active(bool value);
 
-  constexpr bool& __get_continuous();
+  constexpr bool& __cordl_internal_get_continuous();
 
-  constexpr bool const& __get_continuous() const;
+  constexpr bool const& __cordl_internal_get_continuous() const;
 
-  constexpr void __set_continuous(bool value);
+  constexpr void __cordl_internal_set_continuous(bool value);
 
-  constexpr float_t& __get_strength();
+  constexpr float_t& __cordl_internal_get_strength();
 
-  constexpr float_t const& __get_strength() const;
+  constexpr float_t const& __cordl_internal_get_strength() const;
 
-  constexpr void __set_strength(float_t value);
+  constexpr void __cordl_internal_set_strength(float_t value);
 
-  constexpr float_t& __get_endTime();
+  constexpr float_t& __cordl_internal_get_endTime();
 
-  constexpr float_t const& __get_endTime() const;
+  constexpr float_t const& __cordl_internal_get_endTime() const;
 
-  constexpr void __set_endTime(float_t value);
+  constexpr void __cordl_internal_set_endTime(float_t value);
 
-  constexpr float_t& __get_frequency();
+  constexpr float_t& __cordl_internal_get_frequency();
 
-  constexpr float_t const& __get_frequency() const;
+  constexpr float_t const& __cordl_internal_get_frequency() const;
 
-  constexpr void __set_frequency(float_t value);
+  constexpr void __cordl_internal_set_frequency(float_t value);
 
   static inline ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData* New_ctor();
 
@@ -146,7 +146,7 @@ static_assert(offsetof(::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleDa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14432))
 // CS Name: ::RumbleHapticFeedbackPlayer*
 class CORDL_TYPE RumbleHapticFeedbackPlayer : public ::UnityEngine::MonoBehaviour {
@@ -155,10 +155,10 @@ public:
   using RumbleData = ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData;
 
   /// @brief Field _vrPlatformHelper, offset 0x18, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Field _rumblesByNode, offset 0x20, size 0x8
-  __declspec(property(get = __get__rumblesByNode, put = __set__rumblesByNode))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__rumblesByNode, put = __cordl_internal_set__rumblesByNode))::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::XR::XRNode, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>* _rumblesByNode;
 
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -167,21 +167,21 @@ public:
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr ::GlobalNamespace::IHapticFeedbackPlayer* i___GlobalNamespace__IHapticFeedbackPlayer() noexcept;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
                                                          ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>*&
-  __get__rumblesByNode();
+  __cordl_internal_get__rumblesByNode();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::XR::XRNode, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>*> const&
-  __get__rumblesByNode() const;
+  __cordl_internal_get__rumblesByNode() const;
 
-  constexpr void __set__rumblesByNode(
+  constexpr void __cordl_internal_set__rumblesByNode(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
                                                    ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>* value);
 

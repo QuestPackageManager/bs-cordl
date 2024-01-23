@@ -18,17 +18,17 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5800))
 // CS Name: ::ObjectiveListItem*
 class CORDL_TYPE ObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _titleText, offset 0x18, size 0x8
-  __declspec(property(get = __get__titleText, put = __set__titleText))::TMPro::TextMeshProUGUI* _titleText;
+  __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText))::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
   /// @brief Field _conditionText, offset 0x20, size 0x8
-  __declspec(property(get = __get__conditionText, put = __set__conditionText))::TMPro::TextMeshProUGUI* _conditionText;
+  __declspec(property(get = __cordl_internal_get__conditionText, put = __cordl_internal_set__conditionText))::UnityW<::TMPro::TextMeshProUGUI> _conditionText;
 
   __declspec(property(put = set_title))::StringW title;
 
@@ -36,17 +36,17 @@ public:
 
   __declspec(property(put = set_hideCondition)) bool hideCondition;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__titleText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__titleText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
 
-  constexpr void __set__titleText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__conditionText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__conditionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__conditionText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__conditionText() const;
 
-  constexpr void __set__conditionText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__conditionText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   /// @brief Method set_title, addr 0x22e78d8, size 0x24, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
@@ -77,10 +77,10 @@ protected:
 
 public:
   /// @brief Field _titleText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____titleText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
   /// @brief Field _conditionText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____conditionText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

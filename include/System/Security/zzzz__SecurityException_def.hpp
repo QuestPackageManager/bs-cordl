@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Security::SecurityException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2889))
 // CS Name: ::System.Security::SecurityException*
 class CORDL_TYPE SecurityException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field permissionState, offset 0x90, size 0x8
-  __declspec(property(get = __get_permissionState, put = __set_permissionState))::StringW permissionState;
+  __declspec(property(get = __cordl_internal_get_permissionState, put = __cordl_internal_set_permissionState))::StringW permissionState;
 
-  constexpr ::StringW& __get_permissionState();
+  constexpr ::StringW& __cordl_internal_get_permissionState();
 
-  constexpr ::StringW const& __get_permissionState() const;
+  constexpr ::StringW const& __cordl_internal_get_permissionState() const;
 
-  constexpr void __set_permissionState(::StringW value);
+  constexpr void __cordl_internal_set_permissionState(::StringW value);
 
   static inline ::System::Security::SecurityException* New_ctor();
 

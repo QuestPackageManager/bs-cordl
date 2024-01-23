@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureDispatchingStrategy);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7175))
 // CS Name: ::MouseCaptureDispatchingStrategy::EventBehavior
 struct CORDL_TYPE __MouseCaptureDispatchingStrategy__EventBehavior {
@@ -86,7 +86,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__MouseCaptureDispatchingStrat
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7176))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureDispatchingStrategy*
 class CORDL_TYPE MouseCaptureDispatchingStrategy : public ::System::Object {

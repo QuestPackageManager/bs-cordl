@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::FrameRateFieldAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13923))
 // CS Name: ::UnityEngine.Timeline::FrameRateFieldAttribute*
 class CORDL_TYPE FrameRateFieldAttribute : public ::UnityEngine::PropertyAttribute {

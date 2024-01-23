@@ -21,34 +21,34 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14562))
 // CS Name: ::MaterialController*
 class CORDL_TYPE MaterialController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _material, offset 0x18, size 0x8
-  __declspec(property(get = __get__material, put = __set__material))::UnityEngine::Material* _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _renderers, offset 0x20, size 0x8
-  __declspec(property(get = __get__renderers, put = __set__renderers))::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> _renderers;
+  __declspec(property(get = __cordl_internal_get__renderers, put = __cordl_internal_set__renderers))::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> _renderers;
 
-  __declspec(property(get = get_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material))::UnityW<::UnityEngine::Material> material;
 
-  constexpr ::UnityEngine::Material*& __get__material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __set__material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*>& __get__renderers();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>& __cordl_internal_get__renderers();
 
-  constexpr ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> const& __get__renderers() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> const& __cordl_internal_get__renderers() const;
 
-  constexpr void __set__renderers(::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> value);
+  constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
   /// @brief Method get_material, addr 0x2114950, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Method OnValidate, addr 0x2114958, size 0x2c, virtual false, abstract: false, final false
   inline void OnValidate();
@@ -73,10 +73,10 @@ protected:
 
 public:
   /// @brief Field _material, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material;
+  ::UnityW<::UnityEngine::Material> ____material;
 
   /// @brief Field _renderers, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> ____renderers;
+  ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> ____renderers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

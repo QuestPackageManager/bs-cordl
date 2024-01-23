@@ -16,7 +16,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2774))
 // CS Name: ::System.Threading.Tasks::SystemThreadingTasks_FutureDebugView`1<TResult>*
 class CORDL_TYPE SystemThreadingTasks_FutureDebugView_1 : public ::System::Object {

@@ -34,92 +34,95 @@ MARK_REF_PTR_T(::GlobalNamespace::SceneStartSyncController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14976))
 // CS Name: ::SceneStartSyncController*
 class CORDL_TYPE SceneStartSyncController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _gameplayRpcManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameplayRpcManager, put = __set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
   /// @brief Field syncStartDidSuccessEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_syncStartDidSuccessEvent, put = __set_syncStartDidSuccessEvent))::System::Action_1<::StringW>* syncStartDidSuccessEvent;
+  __declspec(property(get = __cordl_internal_get_syncStartDidSuccessEvent, put = __cordl_internal_set_syncStartDidSuccessEvent))::System::Action_1<::StringW>* syncStartDidSuccessEvent;
 
   /// @brief Field syncStartDidReceiveTooLateEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_syncStartDidReceiveTooLateEvent, put = __set_syncStartDidReceiveTooLateEvent))::System::Action_1<::StringW>* syncStartDidReceiveTooLateEvent;
+  __declspec(property(get = __cordl_internal_get_syncStartDidReceiveTooLateEvent,
+                      put = __cordl_internal_set_syncStartDidReceiveTooLateEvent))::System::Action_1<::StringW>* syncStartDidReceiveTooLateEvent;
 
   /// @brief Field syncStartDidFailEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_syncStartDidFailEvent, put = __set_syncStartDidFailEvent))::System::Action* syncStartDidFailEvent;
+  __declspec(property(get = __cordl_internal_get_syncStartDidFailEvent, put = __cordl_internal_set_syncStartDidFailEvent))::System::Action* syncStartDidFailEvent;
 
   /// @brief Field _sceneStartHandler, offset 0x40, size 0x8
-  __declspec(property(get = __get__sceneStartHandler, put = __set__sceneStartHandler))::GlobalNamespace::SceneStartHandler* _sceneStartHandler;
+  __declspec(property(get = __cordl_internal_get__sceneStartHandler, put = __cordl_internal_set__sceneStartHandler))::GlobalNamespace::SceneStartHandler* _sceneStartHandler;
 
   /// @brief Field _playersAtGameStartModel, offset 0x48, size 0x8
-  __declspec(property(get = __get__playersAtGameStartModel, put = __set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
+  __declspec(property(get = __cordl_internal_get__playersAtGameStartModel,
+                      put = __cordl_internal_set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
 
   /// @brief Field _waitStartTime, offset 0x50, size 0x4
-  __declspec(property(get = __get__waitStartTime, put = __set__waitStartTime)) float_t _waitStartTime;
+  __declspec(property(get = __cordl_internal_get__waitStartTime, put = __cordl_internal_set__waitStartTime)) float_t _waitStartTime;
 
   /// @brief Field _sceneSyncStarted, offset 0x54, size 0x1
-  __declspec(property(get = __get__sceneSyncStarted, put = __set__sceneSyncStarted)) bool _sceneSyncStarted;
+  __declspec(property(get = __cordl_internal_get__sceneSyncStarted, put = __cordl_internal_set__sceneSyncStarted)) bool _sceneSyncStarted;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__gameplayRpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__gameplayRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
 
-  constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_syncStartDidSuccessEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_syncStartDidSuccessEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_syncStartDidSuccessEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_syncStartDidSuccessEvent() const;
 
-  constexpr void __set_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_syncStartDidReceiveTooLateEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_syncStartDidReceiveTooLateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_syncStartDidReceiveTooLateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_syncStartDidReceiveTooLateEvent() const;
 
-  constexpr void __set_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action*& __get_syncStartDidFailEvent();
+  constexpr ::System::Action*& __cordl_internal_get_syncStartDidFailEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_syncStartDidFailEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_syncStartDidFailEvent() const;
 
-  constexpr void __set_syncStartDidFailEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_syncStartDidFailEvent(::System::Action* value);
 
-  constexpr ::GlobalNamespace::SceneStartHandler*& __get__sceneStartHandler();
+  constexpr ::GlobalNamespace::SceneStartHandler*& __cordl_internal_get__sceneStartHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneStartHandler*> const& __get__sceneStartHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneStartHandler*> const& __cordl_internal_get__sceneStartHandler() const;
 
-  constexpr void __set__sceneStartHandler(::GlobalNamespace::SceneStartHandler* value);
+  constexpr void __cordl_internal_set__sceneStartHandler(::GlobalNamespace::SceneStartHandler* value);
 
-  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __get__playersAtGameStartModel();
+  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __cordl_internal_get__playersAtGameStartModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __get__playersAtGameStartModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __cordl_internal_get__playersAtGameStartModel() const;
 
-  constexpr void __set__playersAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
+  constexpr void __cordl_internal_set__playersAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  constexpr float_t& __get__waitStartTime();
+  constexpr float_t& __cordl_internal_get__waitStartTime();
 
-  constexpr float_t const& __get__waitStartTime() const;
+  constexpr float_t const& __cordl_internal_get__waitStartTime() const;
 
-  constexpr void __set__waitStartTime(float_t value);
+  constexpr void __cordl_internal_set__waitStartTime(float_t value);
 
-  constexpr bool& __get__sceneSyncStarted();
+  constexpr bool& __cordl_internal_get__sceneSyncStarted();
 
-  constexpr bool const& __get__sceneSyncStarted() const;
+  constexpr bool const& __cordl_internal_get__sceneSyncStarted() const;
 
-  constexpr void __set__sceneSyncStarted(bool value);
+  constexpr void __cordl_internal_set__sceneSyncStarted(bool value);
 
   /// @brief Method add_syncStartDidSuccessEvent, addr 0x2638d08, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);

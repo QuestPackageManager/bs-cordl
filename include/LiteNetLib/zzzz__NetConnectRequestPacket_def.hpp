@@ -28,47 +28,47 @@ MARK_REF_PTR_T(::LiteNetLib::NetConnectRequestPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14170))
 // CS Name: ::LiteNetLib::NetConnectRequestPacket*
 class CORDL_TYPE NetConnectRequestPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ConnectionTime, offset 0x10, size 0x8
-  __declspec(property(get = __get_ConnectionTime, put = __set_ConnectionTime)) int64_t ConnectionTime;
+  __declspec(property(get = __cordl_internal_get_ConnectionTime, put = __cordl_internal_set_ConnectionTime)) int64_t ConnectionTime;
 
   /// @brief Field ConnectionNumber, offset 0x18, size 0x1
-  __declspec(property(get = __get_ConnectionNumber, put = __set_ConnectionNumber)) uint8_t ConnectionNumber;
+  __declspec(property(get = __cordl_internal_get_ConnectionNumber, put = __cordl_internal_set_ConnectionNumber)) uint8_t ConnectionNumber;
 
   /// @brief Field TargetAddress, offset 0x20, size 0x8
-  __declspec(property(get = __get_TargetAddress, put = __set_TargetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
+  __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
 
   /// @brief Field Data, offset 0x28, size 0x8
-  __declspec(property(get = __get_Data, put = __set_Data))::LiteNetLib::Utils::NetDataReader* Data;
+  __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data))::LiteNetLib::Utils::NetDataReader* Data;
 
-  constexpr int64_t& __get_ConnectionTime();
+  constexpr int64_t& __cordl_internal_get_ConnectionTime();
 
-  constexpr int64_t const& __get_ConnectionTime() const;
+  constexpr int64_t const& __cordl_internal_get_ConnectionTime() const;
 
-  constexpr void __set_ConnectionTime(int64_t value);
+  constexpr void __cordl_internal_set_ConnectionTime(int64_t value);
 
-  constexpr uint8_t& __get_ConnectionNumber();
+  constexpr uint8_t& __cordl_internal_get_ConnectionNumber();
 
-  constexpr uint8_t const& __get_ConnectionNumber() const;
+  constexpr uint8_t const& __cordl_internal_get_ConnectionNumber() const;
 
-  constexpr void __set_ConnectionNumber(uint8_t value);
+  constexpr void __cordl_internal_set_ConnectionNumber(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_TargetAddress();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_TargetAddress();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_TargetAddress() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_TargetAddress() const;
 
-  constexpr void __set_TargetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_TargetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::LiteNetLib::Utils::NetDataReader*& __get_Data();
+  constexpr ::LiteNetLib::Utils::NetDataReader*& __cordl_internal_get_Data();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __get_Data() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __cordl_internal_get_Data() const;
 
-  constexpr void __set_Data(::LiteNetLib::Utils::NetDataReader* value);
+  constexpr void __cordl_internal_set_Data(::LiteNetLib::Utils::NetDataReader* value);
 
   static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
                                                                 ::LiteNetLib::Utils::NetDataReader* data);

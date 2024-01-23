@@ -72,7 +72,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__TimelineClip__TimelineClipUpgrade);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13845))
 // CS Name: ::TimelineClip::Versions
 struct CORDL_TYPE __TimelineClip__Versions {
@@ -122,7 +122,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineClip__Versions, value_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13846))
 // CS Name: ::TimelineClip::TimelineClipUpgrade*
 class CORDL_TYPE __TimelineClip__TimelineClipUpgrade : public ::System::Object {
@@ -155,7 +155,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Timelin
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13847))
 // CS Name: ::TimelineClip::ClipExtrapolation
 struct CORDL_TYPE __TimelineClip__ClipExtrapolation {
@@ -217,7 +217,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolatio
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13848))
 // CS Name: ::TimelineClip::BlendCurveMode
 struct CORDL_TYPE __TimelineClip__BlendCurveMode {
@@ -267,8 +267,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode, 
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13871)), TypeDefinitionIndex(TypeDefinitionIndex(13848)), TypeDefinitionIndex(TypeDefinitionIndex(13847)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13849)) CS Name: ::UnityEngine.Timeline::TimelineClip*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13847)), TypeDefinitionIndex(TypeDefinitionIndex(13848)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13871))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13849)) CS Name: ::UnityEngine.Timeline::TimelineClip*
 class CORDL_TYPE TimelineClip : public ::System::Object {
 public:
   // Declarations
@@ -281,73 +281,76 @@ public:
   using Versions = ::UnityEngine::Timeline::__TimelineClip__Versions;
 
   /// @brief Field m_Version, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Version, put = __set_m_Version)) int32_t m_Version;
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) int32_t m_Version;
 
   /// @brief Field m_Start, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Start, put = __set_m_Start)) double_t m_Start;
+  __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start)) double_t m_Start;
 
   /// @brief Field m_ClipIn, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ClipIn, put = __set_m_ClipIn)) double_t m_ClipIn;
+  __declspec(property(get = __cordl_internal_get_m_ClipIn, put = __cordl_internal_set_m_ClipIn)) double_t m_ClipIn;
 
   /// @brief Field m_Asset, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Asset, put = __set_m_Asset))::UnityEngine::Object* m_Asset;
+  __declspec(property(get = __cordl_internal_get_m_Asset, put = __cordl_internal_set_m_Asset))::UnityW<::UnityEngine::Object> m_Asset;
 
   /// @brief Field m_Duration, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Duration, put = __set_m_Duration)) double_t m_Duration;
+  __declspec(property(get = __cordl_internal_get_m_Duration, put = __cordl_internal_set_m_Duration)) double_t m_Duration;
 
   /// @brief Field m_TimeScale, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_TimeScale, put = __set_m_TimeScale)) double_t m_TimeScale;
+  __declspec(property(get = __cordl_internal_get_m_TimeScale, put = __cordl_internal_set_m_TimeScale)) double_t m_TimeScale;
 
   /// @brief Field m_ParentTrack, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_ParentTrack, put = __set_m_ParentTrack))::UnityEngine::Timeline::TrackAsset* m_ParentTrack;
+  __declspec(property(get = __cordl_internal_get_m_ParentTrack, put = __cordl_internal_set_m_ParentTrack))::UnityW<::UnityEngine::Timeline::TrackAsset> m_ParentTrack;
 
   /// @brief Field m_EaseInDuration, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_EaseInDuration, put = __set_m_EaseInDuration)) double_t m_EaseInDuration;
+  __declspec(property(get = __cordl_internal_get_m_EaseInDuration, put = __cordl_internal_set_m_EaseInDuration)) double_t m_EaseInDuration;
 
   /// @brief Field m_EaseOutDuration, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_EaseOutDuration, put = __set_m_EaseOutDuration)) double_t m_EaseOutDuration;
+  __declspec(property(get = __cordl_internal_get_m_EaseOutDuration, put = __cordl_internal_set_m_EaseOutDuration)) double_t m_EaseOutDuration;
 
   /// @brief Field m_BlendInDuration, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_BlendInDuration, put = __set_m_BlendInDuration)) double_t m_BlendInDuration;
+  __declspec(property(get = __cordl_internal_get_m_BlendInDuration, put = __cordl_internal_set_m_BlendInDuration)) double_t m_BlendInDuration;
 
   /// @brief Field m_BlendOutDuration, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_BlendOutDuration, put = __set_m_BlendOutDuration)) double_t m_BlendOutDuration;
+  __declspec(property(get = __cordl_internal_get_m_BlendOutDuration, put = __cordl_internal_set_m_BlendOutDuration)) double_t m_BlendOutDuration;
 
   /// @brief Field m_MixInCurve, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_MixInCurve, put = __set_m_MixInCurve))::UnityEngine::AnimationCurve* m_MixInCurve;
+  __declspec(property(get = __cordl_internal_get_m_MixInCurve, put = __cordl_internal_set_m_MixInCurve))::UnityEngine::AnimationCurve* m_MixInCurve;
 
   /// @brief Field m_MixOutCurve, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_MixOutCurve, put = __set_m_MixOutCurve))::UnityEngine::AnimationCurve* m_MixOutCurve;
+  __declspec(property(get = __cordl_internal_get_m_MixOutCurve, put = __cordl_internal_set_m_MixOutCurve))::UnityEngine::AnimationCurve* m_MixOutCurve;
 
   /// @brief Field m_BlendInCurveMode, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_BlendInCurveMode, put = __set_m_BlendInCurveMode))::UnityEngine::Timeline::__TimelineClip__BlendCurveMode m_BlendInCurveMode;
+  __declspec(property(get = __cordl_internal_get_m_BlendInCurveMode, put = __cordl_internal_set_m_BlendInCurveMode))::UnityEngine::Timeline::__TimelineClip__BlendCurveMode m_BlendInCurveMode;
 
   /// @brief Field m_BlendOutCurveMode, offset 0x7c, size 0x4
-  __declspec(property(get = __get_m_BlendOutCurveMode, put = __set_m_BlendOutCurveMode))::UnityEngine::Timeline::__TimelineClip__BlendCurveMode m_BlendOutCurveMode;
+  __declspec(property(get = __cordl_internal_get_m_BlendOutCurveMode, put = __cordl_internal_set_m_BlendOutCurveMode))::UnityEngine::Timeline::__TimelineClip__BlendCurveMode m_BlendOutCurveMode;
 
   /// @brief Field m_ExposedParameterNames, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_ExposedParameterNames, put = __set_m_ExposedParameterNames))::System::Collections::Generic::List_1<::StringW>* m_ExposedParameterNames;
+  __declspec(property(get = __cordl_internal_get_m_ExposedParameterNames,
+                      put = __cordl_internal_set_m_ExposedParameterNames))::System::Collections::Generic::List_1<::StringW>* m_ExposedParameterNames;
 
   /// @brief Field m_AnimationCurves, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_AnimationCurves, put = __set_m_AnimationCurves))::UnityEngine::AnimationClip* m_AnimationCurves;
+  __declspec(property(get = __cordl_internal_get_m_AnimationCurves, put = __cordl_internal_set_m_AnimationCurves))::UnityW<::UnityEngine::AnimationClip> m_AnimationCurves;
 
   /// @brief Field m_Recordable, offset 0x90, size 0x1
-  __declspec(property(get = __get_m_Recordable, put = __set_m_Recordable)) bool m_Recordable;
+  __declspec(property(get = __cordl_internal_get_m_Recordable, put = __cordl_internal_set_m_Recordable)) bool m_Recordable;
 
   /// @brief Field m_PostExtrapolationMode, offset 0x94, size 0x4
-  __declspec(property(get = __get_m_PostExtrapolationMode, put = __set_m_PostExtrapolationMode))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_PostExtrapolationMode;
+  __declspec(property(get = __cordl_internal_get_m_PostExtrapolationMode,
+                      put = __cordl_internal_set_m_PostExtrapolationMode))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_PostExtrapolationMode;
 
   /// @brief Field m_PreExtrapolationMode, offset 0x98, size 0x4
-  __declspec(property(get = __get_m_PreExtrapolationMode, put = __set_m_PreExtrapolationMode))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_PreExtrapolationMode;
+  __declspec(property(get = __cordl_internal_get_m_PreExtrapolationMode,
+                      put = __cordl_internal_set_m_PreExtrapolationMode))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_PreExtrapolationMode;
 
   /// @brief Field m_PostExtrapolationTime, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_PostExtrapolationTime, put = __set_m_PostExtrapolationTime)) double_t m_PostExtrapolationTime;
+  __declspec(property(get = __cordl_internal_get_m_PostExtrapolationTime, put = __cordl_internal_set_m_PostExtrapolationTime)) double_t m_PostExtrapolationTime;
 
   /// @brief Field m_PreExtrapolationTime, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_PreExtrapolationTime, put = __set_m_PreExtrapolationTime)) double_t m_PreExtrapolationTime;
+  __declspec(property(get = __cordl_internal_get_m_PreExtrapolationTime, put = __cordl_internal_set_m_PreExtrapolationTime)) double_t m_PreExtrapolationTime;
 
   /// @brief Field m_DisplayName, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_DisplayName, put = __set_m_DisplayName))::StringW m_DisplayName;
+  __declspec(property(get = __cordl_internal_get_m_DisplayName, put = __cordl_internal_set_m_DisplayName))::StringW m_DisplayName;
 
   /// @brief Field kDefaultClipCaps, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_kDefaultClipCaps, put = setStaticF_kDefaultClipCaps))::UnityEngine::Timeline::ClipCaps kDefaultClipCaps;
@@ -388,21 +391,21 @@ public:
 
   __declspec(property(get = get_clipAssetDuration)) double_t clipAssetDuration;
 
-  __declspec(property(get = get_curves, put = set_curves))::UnityEngine::AnimationClip* curves;
+  __declspec(property(get = get_curves, put = set_curves))::UnityW<::UnityEngine::AnimationClip> curves;
 
   __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName))::StringW UnityEngine_Timeline_ICurvesOwner_defaultCurvesName;
 
   __declspec(property(get = get_hasCurves)) bool hasCurves;
 
-  __declspec(property(get = get_asset, put = set_asset))::UnityEngine::Object* asset;
+  __declspec(property(get = get_asset, put = set_asset))::UnityW<::UnityEngine::Object> asset;
 
-  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_assetOwner))::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_assetOwner;
+  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_assetOwner))::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_assetOwner;
 
-  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_targetTrack))::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_targetTrack;
+  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_targetTrack))::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_targetTrack;
 
-  __declspec(property(get = get_underlyingAsset, put = set_underlyingAsset))::UnityEngine::Object* underlyingAsset;
+  __declspec(property(get = get_underlyingAsset, put = set_underlyingAsset))::UnityW<::UnityEngine::Object> underlyingAsset;
 
-  __declspec(property(get = get_parentTrack, put = set_parentTrack))::UnityEngine::Timeline::TrackAsset* parentTrack;
+  __declspec(property(get = get_parentTrack, put = set_parentTrack))::UnityW<::UnityEngine::Timeline::TrackAsset> parentTrack;
 
   __declspec(property(get = get_easeInDuration, put = set_easeInDuration)) double_t easeInDuration;
 
@@ -444,7 +447,7 @@ public:
 
   __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
 
-  __declspec(property(get = get_animationClip))::UnityEngine::AnimationClip* animationClip;
+  __declspec(property(get = get_animationClip))::UnityW<::UnityEngine::AnimationClip> animationClip;
 
   __declspec(property(get = get_postExtrapolationMode, put = set_postExtrapolationMode))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation postExtrapolationMode;
 
@@ -466,143 +469,143 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr int32_t& __get_m_Version();
+  constexpr int32_t& __cordl_internal_get_m_Version();
 
-  constexpr int32_t const& __get_m_Version() const;
+  constexpr int32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr void __set_m_Version(int32_t value);
+  constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  constexpr double_t& __get_m_Start();
+  constexpr double_t& __cordl_internal_get_m_Start();
 
-  constexpr double_t const& __get_m_Start() const;
+  constexpr double_t const& __cordl_internal_get_m_Start() const;
 
-  constexpr void __set_m_Start(double_t value);
+  constexpr void __cordl_internal_set_m_Start(double_t value);
 
-  constexpr double_t& __get_m_ClipIn();
+  constexpr double_t& __cordl_internal_get_m_ClipIn();
 
-  constexpr double_t const& __get_m_ClipIn() const;
+  constexpr double_t const& __cordl_internal_get_m_ClipIn() const;
 
-  constexpr void __set_m_ClipIn(double_t value);
+  constexpr void __cordl_internal_set_m_ClipIn(double_t value);
 
-  constexpr ::UnityEngine::Object*& __get_m_Asset();
+  constexpr ::UnityW<::UnityEngine::Object>& __cordl_internal_get_m_Asset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& __get_m_Asset() const;
+  constexpr ::UnityW<::UnityEngine::Object> const& __cordl_internal_get_m_Asset() const;
 
-  constexpr void __set_m_Asset(::UnityEngine::Object* value);
+  constexpr void __cordl_internal_set_m_Asset(::UnityW<::UnityEngine::Object> value);
 
-  constexpr double_t& __get_m_Duration();
+  constexpr double_t& __cordl_internal_get_m_Duration();
 
-  constexpr double_t const& __get_m_Duration() const;
+  constexpr double_t const& __cordl_internal_get_m_Duration() const;
 
-  constexpr void __set_m_Duration(double_t value);
+  constexpr void __cordl_internal_set_m_Duration(double_t value);
 
-  constexpr double_t& __get_m_TimeScale();
+  constexpr double_t& __cordl_internal_get_m_TimeScale();
 
-  constexpr double_t const& __get_m_TimeScale() const;
+  constexpr double_t const& __cordl_internal_get_m_TimeScale() const;
 
-  constexpr void __set_m_TimeScale(double_t value);
+  constexpr void __cordl_internal_set_m_TimeScale(double_t value);
 
-  constexpr ::UnityEngine::Timeline::TrackAsset*& __get_m_ParentTrack();
+  constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset>& __cordl_internal_get_m_ParentTrack();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::TrackAsset*> const& __get_m_ParentTrack() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset> const& __cordl_internal_get_m_ParentTrack() const;
 
-  constexpr void __set_m_ParentTrack(::UnityEngine::Timeline::TrackAsset* value);
+  constexpr void __cordl_internal_set_m_ParentTrack(::UnityW<::UnityEngine::Timeline::TrackAsset> value);
 
-  constexpr double_t& __get_m_EaseInDuration();
+  constexpr double_t& __cordl_internal_get_m_EaseInDuration();
 
-  constexpr double_t const& __get_m_EaseInDuration() const;
+  constexpr double_t const& __cordl_internal_get_m_EaseInDuration() const;
 
-  constexpr void __set_m_EaseInDuration(double_t value);
+  constexpr void __cordl_internal_set_m_EaseInDuration(double_t value);
 
-  constexpr double_t& __get_m_EaseOutDuration();
+  constexpr double_t& __cordl_internal_get_m_EaseOutDuration();
 
-  constexpr double_t const& __get_m_EaseOutDuration() const;
+  constexpr double_t const& __cordl_internal_get_m_EaseOutDuration() const;
 
-  constexpr void __set_m_EaseOutDuration(double_t value);
+  constexpr void __cordl_internal_set_m_EaseOutDuration(double_t value);
 
-  constexpr double_t& __get_m_BlendInDuration();
+  constexpr double_t& __cordl_internal_get_m_BlendInDuration();
 
-  constexpr double_t const& __get_m_BlendInDuration() const;
+  constexpr double_t const& __cordl_internal_get_m_BlendInDuration() const;
 
-  constexpr void __set_m_BlendInDuration(double_t value);
+  constexpr void __cordl_internal_set_m_BlendInDuration(double_t value);
 
-  constexpr double_t& __get_m_BlendOutDuration();
+  constexpr double_t& __cordl_internal_get_m_BlendOutDuration();
 
-  constexpr double_t const& __get_m_BlendOutDuration() const;
+  constexpr double_t const& __cordl_internal_get_m_BlendOutDuration() const;
 
-  constexpr void __set_m_BlendOutDuration(double_t value);
+  constexpr void __cordl_internal_set_m_BlendOutDuration(double_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_m_MixInCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_m_MixInCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_m_MixInCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_m_MixInCurve() const;
 
-  constexpr void __set_m_MixInCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_m_MixInCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_m_MixOutCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_m_MixOutCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_m_MixOutCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_m_MixOutCurve() const;
 
-  constexpr void __set_m_MixOutCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_m_MixOutCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode& __get_m_BlendInCurveMode();
+  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode& __cordl_internal_get_m_BlendInCurveMode();
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode const& __get_m_BlendInCurveMode() const;
+  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode const& __cordl_internal_get_m_BlendInCurveMode() const;
 
-  constexpr void __set_m_BlendInCurveMode(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode value);
+  constexpr void __cordl_internal_set_m_BlendInCurveMode(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode value);
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode& __get_m_BlendOutCurveMode();
+  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode& __cordl_internal_get_m_BlendOutCurveMode();
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode const& __get_m_BlendOutCurveMode() const;
+  constexpr ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode const& __cordl_internal_get_m_BlendOutCurveMode() const;
 
-  constexpr void __set_m_BlendOutCurveMode(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode value);
+  constexpr void __cordl_internal_set_m_BlendOutCurveMode(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_ExposedParameterNames();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_ExposedParameterNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_ExposedParameterNames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_ExposedParameterNames() const;
 
-  constexpr void __set_m_ExposedParameterNames(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_ExposedParameterNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get_m_AnimationCurves();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get_m_AnimationCurves();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get_m_AnimationCurves() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get_m_AnimationCurves() const;
 
-  constexpr void __set_m_AnimationCurves(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set_m_AnimationCurves(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr bool& __get_m_Recordable();
+  constexpr bool& __cordl_internal_get_m_Recordable();
 
-  constexpr bool const& __get_m_Recordable() const;
+  constexpr bool const& __cordl_internal_get_m_Recordable() const;
 
-  constexpr void __set_m_Recordable(bool value);
+  constexpr void __cordl_internal_set_m_Recordable(bool value);
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __get_m_PostExtrapolationMode();
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __cordl_internal_get_m_PostExtrapolationMode();
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __get_m_PostExtrapolationMode() const;
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __cordl_internal_get_m_PostExtrapolationMode() const;
 
-  constexpr void __set_m_PostExtrapolationMode(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
+  constexpr void __cordl_internal_set_m_PostExtrapolationMode(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __get_m_PreExtrapolationMode();
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __cordl_internal_get_m_PreExtrapolationMode();
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __get_m_PreExtrapolationMode() const;
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __cordl_internal_get_m_PreExtrapolationMode() const;
 
-  constexpr void __set_m_PreExtrapolationMode(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
+  constexpr void __cordl_internal_set_m_PreExtrapolationMode(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
 
-  constexpr double_t& __get_m_PostExtrapolationTime();
+  constexpr double_t& __cordl_internal_get_m_PostExtrapolationTime();
 
-  constexpr double_t const& __get_m_PostExtrapolationTime() const;
+  constexpr double_t const& __cordl_internal_get_m_PostExtrapolationTime() const;
 
-  constexpr void __set_m_PostExtrapolationTime(double_t value);
+  constexpr void __cordl_internal_set_m_PostExtrapolationTime(double_t value);
 
-  constexpr double_t& __get_m_PreExtrapolationTime();
+  constexpr double_t& __cordl_internal_get_m_PreExtrapolationTime();
 
-  constexpr double_t const& __get_m_PreExtrapolationTime() const;
+  constexpr double_t const& __cordl_internal_get_m_PreExtrapolationTime() const;
 
-  constexpr void __set_m_PreExtrapolationTime(double_t value);
+  constexpr void __cordl_internal_set_m_PreExtrapolationTime(double_t value);
 
-  constexpr ::StringW& __get_m_DisplayName();
+  constexpr ::StringW& __cordl_internal_get_m_DisplayName();
 
-  constexpr ::StringW const& __get_m_DisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DisplayName() const;
 
-  constexpr void __set_m_DisplayName(::StringW value);
+  constexpr void __cordl_internal_set_m_DisplayName(::StringW value);
 
   static inline void setStaticF_kDefaultClipCaps(::UnityEngine::Timeline::ClipCaps value);
 
@@ -683,7 +686,7 @@ public:
   inline double_t get_clipAssetDuration();
 
   /// @brief Method get_curves, addr 0x2c55aa4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::AnimationClip* get_curves();
+  inline ::UnityW<::UnityEngine::AnimationClip> get_curves();
 
   /// @brief Method set_curves, addr 0x2c55aac, size 0x8, virtual false, abstract: false, final false
   inline void set_curves(::UnityEngine::AnimationClip* value);
@@ -695,31 +698,31 @@ public:
   inline bool get_hasCurves();
 
   /// @brief Method get_asset, addr 0x2c55b98, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Object* get_asset();
+  inline ::UnityW<::UnityEngine::Object> get_asset();
 
   /// @brief Method set_asset, addr 0x2c55ba0, size 0x8, virtual false, abstract: false, final false
   inline void set_asset(::UnityEngine::Object* value);
 
   /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_assetOwner, addr 0x2c55ba8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
+  inline ::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
 
   /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack, addr 0x2c55bb0, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
+  inline ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
 
   /// @brief Method get_underlyingAsset, addr 0x2c55bb8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* get_underlyingAsset();
+  inline ::UnityW<::UnityEngine::Object> get_underlyingAsset();
 
   /// @brief Method set_underlyingAsset, addr 0x2c55bc0, size 0x4, virtual false, abstract: false, final false
   inline void set_underlyingAsset(::UnityEngine::Object* value);
 
   /// @brief Method get_parentTrack, addr 0x2c55bc4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Timeline::TrackAsset* get_parentTrack();
+  inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parentTrack();
 
   /// @brief Method set_parentTrack, addr 0x2c55bcc, size 0x4, virtual false, abstract: false, final false
   inline void set_parentTrack(::UnityEngine::Timeline::TrackAsset* value);
 
   /// @brief Method GetParentTrack, addr 0x2c55bd0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Timeline::TrackAsset* GetParentTrack();
+  inline ::UnityW<::UnityEngine::Timeline::TrackAsset> GetParentTrack();
 
   /// @brief Method SetParentTrack_Internal, addr 0x2c55340, size 0xf4, virtual false, abstract: false, final false
   inline void SetParentTrack_Internal(::UnityEngine::Timeline::TrackAsset* newParentTrack);
@@ -836,7 +839,7 @@ public:
   inline double_t FromLocalTimeUnbound(double_t time);
 
   /// @brief Method get_animationClip, addr 0x2c56c68, size 0xf8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AnimationClip* get_animationClip();
+  inline ::UnityW<::UnityEngine::AnimationClip> get_animationClip();
 
   /// @brief Method SanitizeTimeValue, addr 0x2c55724, size 0x198, virtual false, abstract: false, final false
   static inline double_t SanitizeTimeValue(double_t value, double_t defaultValue);
@@ -922,7 +925,7 @@ public:
   double_t ___m_ClipIn;
 
   /// @brief Field m_Asset, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Object* ___m_Asset;
+  ::UnityW<::UnityEngine::Object> ___m_Asset;
 
   /// @brief Field m_Duration, offset: 0x30, size: 0x8, def value: None
   double_t ___m_Duration;
@@ -931,7 +934,7 @@ public:
   double_t ___m_TimeScale;
 
   /// @brief Field m_ParentTrack, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Timeline::TrackAsset* ___m_ParentTrack;
+  ::UnityW<::UnityEngine::Timeline::TrackAsset> ___m_ParentTrack;
 
   /// @brief Field m_EaseInDuration, offset: 0x48, size: 0x8, def value: None
   double_t ___m_EaseInDuration;
@@ -961,7 +964,7 @@ public:
   ::System::Collections::Generic::List_1<::StringW>* ___m_ExposedParameterNames;
 
   /// @brief Field m_AnimationCurves, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ___m_AnimationCurves;
+  ::UnityW<::UnityEngine::AnimationClip> ___m_AnimationCurves;
 
   /// @brief Field m_Recordable, offset: 0x90, size: 0x1, def value: None
   bool ___m_Recordable;

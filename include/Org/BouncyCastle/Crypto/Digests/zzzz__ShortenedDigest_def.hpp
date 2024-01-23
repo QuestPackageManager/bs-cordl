@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(775))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::ShortenedDigest*
 class CORDL_TYPE ShortenedDigest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field baseDigest, offset 0x10, size 0x8
-  __declspec(property(get = __get_baseDigest, put = __set_baseDigest))::Org::BouncyCastle::Crypto::IDigest* baseDigest;
+  __declspec(property(get = __cordl_internal_get_baseDigest, put = __cordl_internal_set_baseDigest))::Org::BouncyCastle::Crypto::IDigest* baseDigest;
 
   /// @brief Field length, offset 0x18, size 0x4
-  __declspec(property(get = __get_length, put = __set_length)) int32_t length;
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -40,17 +40,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_baseDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_baseDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_baseDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_baseDigest() const;
 
-  constexpr void __set_baseDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_baseDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr int32_t& __get_length();
+  constexpr int32_t& __cordl_internal_get_length();
 
-  constexpr int32_t const& __get_length() const;
+  constexpr int32_t const& __cordl_internal_get_length() const;
 
-  constexpr void __set_length(int32_t value);
+  constexpr void __cordl_internal_set_length(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::ShortenedDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest, int32_t length);
 

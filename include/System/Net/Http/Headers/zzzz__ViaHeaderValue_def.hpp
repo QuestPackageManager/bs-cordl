@@ -32,23 +32,23 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ViaHeaderValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14710))
 // CS Name: ::System.Net.Http.Headers::ViaHeaderValue*
 class CORDL_TYPE ViaHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Comment>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Comment_k__BackingField, put = __set__Comment_k__BackingField))::StringW _Comment_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Comment_k__BackingField, put = __cordl_internal_set__Comment_k__BackingField))::StringW _Comment_k__BackingField;
 
   /// @brief Field <ProtocolName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__ProtocolName_k__BackingField, put = __set__ProtocolName_k__BackingField))::StringW _ProtocolName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ProtocolName_k__BackingField, put = __cordl_internal_set__ProtocolName_k__BackingField))::StringW _ProtocolName_k__BackingField;
 
   /// @brief Field <ProtocolVersion>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__ProtocolVersion_k__BackingField, put = __set__ProtocolVersion_k__BackingField))::StringW _ProtocolVersion_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ProtocolVersion_k__BackingField, put = __cordl_internal_set__ProtocolVersion_k__BackingField))::StringW _ProtocolVersion_k__BackingField;
 
   /// @brief Field <ReceivedBy>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__ReceivedBy_k__BackingField, put = __set__ReceivedBy_k__BackingField))::StringW _ReceivedBy_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReceivedBy_k__BackingField, put = __cordl_internal_set__ReceivedBy_k__BackingField))::StringW _ReceivedBy_k__BackingField;
 
   __declspec(property(get = get_Comment, put = set_Comment))::StringW Comment;
 
@@ -64,29 +64,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::StringW& __get__Comment_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Comment_k__BackingField();
 
-  constexpr ::StringW const& __get__Comment_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
 
-  constexpr void __set__Comment_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Comment_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__ProtocolName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__ProtocolName_k__BackingField();
 
-  constexpr ::StringW const& __get__ProtocolName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__ProtocolName_k__BackingField() const;
 
-  constexpr void __set__ProtocolName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__ProtocolName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__ProtocolVersion_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__ProtocolVersion_k__BackingField();
 
-  constexpr ::StringW const& __get__ProtocolVersion_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__ProtocolVersion_k__BackingField() const;
 
-  constexpr void __set__ProtocolVersion_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__ProtocolVersion_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__ReceivedBy_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__ReceivedBy_k__BackingField();
 
-  constexpr ::StringW const& __get__ReceivedBy_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__ReceivedBy_k__BackingField() const;
 
-  constexpr void __set__ReceivedBy_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__ReceivedBy_k__BackingField(::StringW value);
 
   static inline ::System::Net::Http::Headers::ViaHeaderValue* New_ctor();
 

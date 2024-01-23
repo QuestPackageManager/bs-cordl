@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(693))
 // CS Name: ::Org.BouncyCastle.Cms::SimpleAttributeTableGenerator*
 class CORDL_TYPE SimpleAttributeTableGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributes, offset 0x10, size 0x8
-  __declspec(property(get = __get_attributes, put = __set_attributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes;
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* i___Org__BouncyCastle__Cms__CmsAttributeTableGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __get_attributes();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __get_attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get_attributes() const;
 
-  constexpr void __set_attributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr void __cordl_internal_set_attributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
   static inline ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
 

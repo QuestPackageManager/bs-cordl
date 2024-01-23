@@ -26,83 +26,85 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputPreset);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9642))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9642))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9608))
 // CS Name: ::HoudiniEngineUnity::HEU_InputPreset*
 class CORDL_TYPE HEU_InputPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _inputObjectType, offset 0x10, size 0x4
-  __declspec(property(get = __get__inputObjectType, put = __set__inputObjectType))::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _inputObjectType;
+  __declspec(property(get = __cordl_internal_get__inputObjectType, put = __cordl_internal_set__inputObjectType))::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _inputObjectType;
 
   /// @brief Field _inputObjectPresets, offset 0x18, size 0x8
-  __declspec(property(get = __get__inputObjectPresets, put = __set__inputObjectPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* _inputObjectPresets;
+  __declspec(property(get = __cordl_internal_get__inputObjectPresets,
+                      put = __cordl_internal_set__inputObjectPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* _inputObjectPresets;
 
   /// @brief Field _inputAssetName, offset 0x20, size 0x8
-  __declspec(property(get = __get__inputAssetName, put = __set__inputAssetName))::StringW _inputAssetName;
+  __declspec(property(get = __cordl_internal_get__inputAssetName, put = __cordl_internal_set__inputAssetName))::StringW _inputAssetName;
 
   /// @brief Field _inputIndex, offset 0x28, size 0x4
-  __declspec(property(get = __get__inputIndex, put = __set__inputIndex)) int32_t _inputIndex;
+  __declspec(property(get = __cordl_internal_get__inputIndex, put = __cordl_internal_set__inputIndex)) int32_t _inputIndex;
 
   /// @brief Field _inputName, offset 0x30, size 0x8
-  __declspec(property(get = __get__inputName, put = __set__inputName))::StringW _inputName;
+  __declspec(property(get = __cordl_internal_get__inputName, put = __cordl_internal_set__inputName))::StringW _inputName;
 
   /// @brief Field _keepWorldTransform, offset 0x38, size 0x1
-  __declspec(property(get = __get__keepWorldTransform, put = __set__keepWorldTransform)) bool _keepWorldTransform;
+  __declspec(property(get = __cordl_internal_get__keepWorldTransform, put = __cordl_internal_set__keepWorldTransform)) bool _keepWorldTransform;
 
   /// @brief Field _packGeometryBeforeMerging, offset 0x39, size 0x1
-  __declspec(property(get = __get__packGeometryBeforeMerging, put = __set__packGeometryBeforeMerging)) bool _packGeometryBeforeMerging;
+  __declspec(property(get = __cordl_internal_get__packGeometryBeforeMerging, put = __cordl_internal_set__packGeometryBeforeMerging)) bool _packGeometryBeforeMerging;
 
   /// @brief Field _inputAssetPresets, offset 0x40, size 0x8
-  __declspec(property(get = __get__inputAssetPresets, put = __set__inputAssetPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* _inputAssetPresets;
+  __declspec(property(get = __cordl_internal_get__inputAssetPresets,
+                      put = __cordl_internal_set__inputAssetPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* _inputAssetPresets;
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __get__inputObjectType();
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __cordl_internal_get__inputObjectType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __get__inputObjectType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __cordl_internal_get__inputObjectType() const;
 
-  constexpr void __set__inputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
+  constexpr void __cordl_internal_set__inputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*& __get__inputObjectPresets();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*& __cordl_internal_get__inputObjectPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*> const& __get__inputObjectPresets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*> const& __cordl_internal_get__inputObjectPresets() const;
 
-  constexpr void __set__inputObjectPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* value);
+  constexpr void __cordl_internal_set__inputObjectPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* value);
 
-  constexpr ::StringW& __get__inputAssetName();
+  constexpr ::StringW& __cordl_internal_get__inputAssetName();
 
-  constexpr ::StringW const& __get__inputAssetName() const;
+  constexpr ::StringW const& __cordl_internal_get__inputAssetName() const;
 
-  constexpr void __set__inputAssetName(::StringW value);
+  constexpr void __cordl_internal_set__inputAssetName(::StringW value);
 
-  constexpr int32_t& __get__inputIndex();
+  constexpr int32_t& __cordl_internal_get__inputIndex();
 
-  constexpr int32_t const& __get__inputIndex() const;
+  constexpr int32_t const& __cordl_internal_get__inputIndex() const;
 
-  constexpr void __set__inputIndex(int32_t value);
+  constexpr void __cordl_internal_set__inputIndex(int32_t value);
 
-  constexpr ::StringW& __get__inputName();
+  constexpr ::StringW& __cordl_internal_get__inputName();
 
-  constexpr ::StringW const& __get__inputName() const;
+  constexpr ::StringW const& __cordl_internal_get__inputName() const;
 
-  constexpr void __set__inputName(::StringW value);
+  constexpr void __cordl_internal_set__inputName(::StringW value);
 
-  constexpr bool& __get__keepWorldTransform();
+  constexpr bool& __cordl_internal_get__keepWorldTransform();
 
-  constexpr bool const& __get__keepWorldTransform() const;
+  constexpr bool const& __cordl_internal_get__keepWorldTransform() const;
 
-  constexpr void __set__keepWorldTransform(bool value);
+  constexpr void __cordl_internal_set__keepWorldTransform(bool value);
 
-  constexpr bool& __get__packGeometryBeforeMerging();
+  constexpr bool& __cordl_internal_get__packGeometryBeforeMerging();
 
-  constexpr bool const& __get__packGeometryBeforeMerging() const;
+  constexpr bool const& __cordl_internal_get__packGeometryBeforeMerging() const;
 
-  constexpr void __set__packGeometryBeforeMerging(bool value);
+  constexpr void __cordl_internal_set__packGeometryBeforeMerging(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& __get__inputAssetPresets();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& __cordl_internal_get__inputAssetPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*> const& __get__inputAssetPresets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*> const& __cordl_internal_get__inputAssetPresets() const;
 
-  constexpr void __set__inputAssetPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* value);
+  constexpr void __cordl_internal_set__inputAssetPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* value);
 
   static inline ::HoudiniEngineUnity::HEU_InputPreset* New_ctor();
 

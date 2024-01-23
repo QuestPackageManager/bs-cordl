@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::ModestTree::__TypeStringFormatter____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10622))
 // CS Name: ::TypeStringFormatter::<>c*
 class CORDL_TYPE __TypeStringFormatter____c : public ::System::Object {
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeStringFormatte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10623))
 // CS Name: ::ModestTree::TypeStringFormatter*
 class CORDL_TYPE TypeStringFormatter : public ::System::Object {

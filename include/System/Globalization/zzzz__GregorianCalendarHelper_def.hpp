@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::System::Globalization::GregorianCalendarHelper);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3700))
 // CS Name: ::System.Globalization::GregorianCalendarHelper*
 class CORDL_TYPE GregorianCalendarHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_maxYear, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_maxYear, put = __set_m_maxYear)) int32_t m_maxYear;
+  __declspec(property(get = __cordl_internal_get_m_maxYear, put = __cordl_internal_set_m_maxYear)) int32_t m_maxYear;
 
   /// @brief Field m_minYear, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_minYear, put = __set_m_minYear)) int32_t m_minYear;
+  __declspec(property(get = __cordl_internal_get_m_minYear, put = __cordl_internal_set_m_minYear)) int32_t m_minYear;
 
   /// @brief Field m_Cal, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Cal, put = __set_m_Cal))::System::Globalization::Calendar* m_Cal;
+  __declspec(property(get = __cordl_internal_get_m_Cal, put = __cordl_internal_set_m_Cal))::System::Globalization::Calendar* m_Cal;
 
   /// @brief Field m_EraInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_EraInfo, put = __set_m_EraInfo))::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> m_EraInfo;
+  __declspec(property(get = __cordl_internal_get_m_EraInfo, put = __cordl_internal_set_m_EraInfo))::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> m_EraInfo;
 
   /// @brief Field m_eras, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_eras, put = __set_m_eras))::ArrayW<int32_t, ::Array<int32_t>*> m_eras;
+  __declspec(property(get = __cordl_internal_get_m_eras, put = __cordl_internal_set_m_eras))::ArrayW<int32_t, ::Array<int32_t>*> m_eras;
 
   /// @brief Field m_minDate, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_minDate, put = __set_m_minDate))::System::DateTime m_minDate;
+  __declspec(property(get = __cordl_internal_get_m_minDate, put = __cordl_internal_set_m_minDate))::System::DateTime m_minDate;
 
   /// @brief Field DaysToMonth365, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DaysToMonth365, put = setStaticF_DaysToMonth365))::ArrayW<int32_t, ::Array<int32_t>*> DaysToMonth365;
@@ -63,41 +63,41 @@ public:
 
   __declspec(property(get = get_Eras))::ArrayW<int32_t, ::Array<int32_t>*> Eras;
 
-  constexpr int32_t& __get_m_maxYear();
+  constexpr int32_t& __cordl_internal_get_m_maxYear();
 
-  constexpr int32_t const& __get_m_maxYear() const;
+  constexpr int32_t const& __cordl_internal_get_m_maxYear() const;
 
-  constexpr void __set_m_maxYear(int32_t value);
+  constexpr void __cordl_internal_set_m_maxYear(int32_t value);
 
-  constexpr int32_t& __get_m_minYear();
+  constexpr int32_t& __cordl_internal_get_m_minYear();
 
-  constexpr int32_t const& __get_m_minYear() const;
+  constexpr int32_t const& __cordl_internal_get_m_minYear() const;
 
-  constexpr void __set_m_minYear(int32_t value);
+  constexpr void __cordl_internal_set_m_minYear(int32_t value);
 
-  constexpr ::System::Globalization::Calendar*& __get_m_Cal();
+  constexpr ::System::Globalization::Calendar*& __cordl_internal_get_m_Cal();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Calendar*> const& __get_m_Cal() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Calendar*> const& __cordl_internal_get_m_Cal() const;
 
-  constexpr void __set_m_Cal(::System::Globalization::Calendar* value);
+  constexpr void __cordl_internal_set_m_Cal(::System::Globalization::Calendar* value);
 
-  constexpr ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*>& __get_m_EraInfo();
+  constexpr ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*>& __cordl_internal_get_m_EraInfo();
 
-  constexpr ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> const& __get_m_EraInfo() const;
+  constexpr ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> const& __cordl_internal_get_m_EraInfo() const;
 
-  constexpr void __set_m_EraInfo(::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> value);
+  constexpr void __cordl_internal_set_m_EraInfo(::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_eras();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_eras();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_eras() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_eras() const;
 
-  constexpr void __set_m_eras(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_eras(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::System::DateTime& __get_m_minDate();
+  constexpr ::System::DateTime& __cordl_internal_get_m_minDate();
 
-  constexpr ::System::DateTime const& __get_m_minDate() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_m_minDate() const;
 
-  constexpr void __set_m_minDate(::System::DateTime value);
+  constexpr void __cordl_internal_set_m_minDate(::System::DateTime value);
 
   static inline void setStaticF_DaysToMonth365(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

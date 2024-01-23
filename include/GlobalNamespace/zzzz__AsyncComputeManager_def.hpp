@@ -35,21 +35,21 @@ MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12678))
 // CS Name: ::AsyncComputeManager*
 class CORDL_TYPE AsyncComputeManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _asyncComputeRequests, offset 0x10, size 0x8
-  __declspec(property(get = __get__asyncComputeRequests,
-                      put = __set__asyncComputeRequests))::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* _asyncComputeRequests;
+  __declspec(property(get = __cordl_internal_get__asyncComputeRequests,
+                      put = __cordl_internal_set__asyncComputeRequests))::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* _asyncComputeRequests;
 
   /// @brief Field _computeThread, offset 0x18, size 0x8
-  __declspec(property(get = __get__computeThread, put = __set__computeThread))::System::Threading::Thread* _computeThread;
+  __declspec(property(get = __cordl_internal_get__computeThread, put = __cordl_internal_set__computeThread))::System::Threading::Thread* _computeThread;
 
   /// @brief Field _disposed, offset 0x20, size 0x1
-  __declspec(property(get = __get__disposed, put = __set__disposed)) bool _disposed;
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   /// @brief Convert operator to "::GlobalNamespace::IAsyncComputeManager"
   constexpr operator ::GlobalNamespace::IAsyncComputeManager*() noexcept;
@@ -63,23 +63,24 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& __get__asyncComputeRequests();
+  constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& __cordl_internal_get__asyncComputeRequests();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*> const& __get__asyncComputeRequests() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*> const&
+  __cordl_internal_get__asyncComputeRequests() const;
 
-  constexpr void __set__asyncComputeRequests(::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* value);
+  constexpr void __cordl_internal_set__asyncComputeRequests(::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* value);
 
-  constexpr ::System::Threading::Thread*& __get__computeThread();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__computeThread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get__computeThread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__computeThread() const;
 
-  constexpr void __set__computeThread(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set__computeThread(::System::Threading::Thread* value);
 
-  constexpr bool& __get__disposed();
+  constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-  constexpr void __set__disposed(bool value);
+  constexpr void __cordl_internal_set__disposed(bool value);
 
   static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
 

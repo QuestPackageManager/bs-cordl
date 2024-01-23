@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::OperationalStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9254))
 // CS Name: ::System.Net.NetworkInformation::OperationalStatus
 struct CORDL_TYPE OperationalStatus {

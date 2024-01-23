@@ -59,50 +59,50 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ReturnMessage);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3186))
 // CS Name: ::System.Runtime.Remoting.Messaging::ReturnMessage*
 class CORDL_TYPE ReturnMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _outArgs, offset 0x10, size 0x8
-  __declspec(property(get = __get__outArgs, put = __set__outArgs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _outArgs;
+  __declspec(property(get = __cordl_internal_get__outArgs, put = __cordl_internal_set__outArgs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _outArgs;
 
   /// @brief Field _args, offset 0x18, size 0x8
-  __declspec(property(get = __get__args, put = __set__args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _args;
+  __declspec(property(get = __cordl_internal_get__args, put = __cordl_internal_set__args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _args;
 
   /// @brief Field _callCtx, offset 0x20, size 0x8
-  __declspec(property(get = __get__callCtx, put = __set__callCtx))::System::Runtime::Remoting::Messaging::LogicalCallContext* _callCtx;
+  __declspec(property(get = __cordl_internal_get__callCtx, put = __cordl_internal_set__callCtx))::System::Runtime::Remoting::Messaging::LogicalCallContext* _callCtx;
 
   /// @brief Field _returnValue, offset 0x28, size 0x8
-  __declspec(property(get = __get__returnValue, put = __set__returnValue))::System::Object* _returnValue;
+  __declspec(property(get = __cordl_internal_get__returnValue, put = __cordl_internal_set__returnValue))::System::Object* _returnValue;
 
   /// @brief Field _uri, offset 0x30, size 0x8
-  __declspec(property(get = __get__uri, put = __set__uri))::StringW _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::StringW _uri;
 
   /// @brief Field _exception, offset 0x38, size 0x8
-  __declspec(property(get = __get__exception, put = __set__exception))::System::Exception* _exception;
+  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception))::System::Exception* _exception;
 
   /// @brief Field _methodBase, offset 0x40, size 0x8
-  __declspec(property(get = __get__methodBase, put = __set__methodBase))::System::Reflection::MethodBase* _methodBase;
+  __declspec(property(get = __cordl_internal_get__methodBase, put = __cordl_internal_set__methodBase))::System::Reflection::MethodBase* _methodBase;
 
   /// @brief Field _methodName, offset 0x48, size 0x8
-  __declspec(property(get = __get__methodName, put = __set__methodName))::StringW _methodName;
+  __declspec(property(get = __cordl_internal_get__methodName, put = __cordl_internal_set__methodName))::StringW _methodName;
 
   /// @brief Field _methodSignature, offset 0x50, size 0x8
-  __declspec(property(get = __get__methodSignature, put = __set__methodSignature))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _methodSignature;
+  __declspec(property(get = __cordl_internal_get__methodSignature, put = __cordl_internal_set__methodSignature))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _methodSignature;
 
   /// @brief Field _typeName, offset 0x58, size 0x8
-  __declspec(property(get = __get__typeName, put = __set__typeName))::StringW _typeName;
+  __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName))::StringW _typeName;
 
   /// @brief Field _properties, offset 0x60, size 0x8
-  __declspec(property(get = __get__properties, put = __set__properties))::System::Runtime::Remoting::Messaging::MethodReturnDictionary* _properties;
+  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties))::System::Runtime::Remoting::Messaging::MethodReturnDictionary* _properties;
 
   /// @brief Field _targetIdentity, offset 0x68, size 0x8
-  __declspec(property(get = __get__targetIdentity, put = __set__targetIdentity))::System::Runtime::Remoting::Identity* _targetIdentity;
+  __declspec(property(get = __cordl_internal_get__targetIdentity, put = __cordl_internal_set__targetIdentity))::System::Runtime::Remoting::Identity* _targetIdentity;
 
   /// @brief Field _inArgInfo, offset 0x70, size 0x8
-  __declspec(property(get = __get__inArgInfo, put = __set__inArgInfo))::System::Runtime::Remoting::Messaging::ArgInfo* _inArgInfo;
+  __declspec(property(get = __cordl_internal_get__inArgInfo, put = __cordl_internal_set__inArgInfo))::System::Runtime::Remoting::Messaging::ArgInfo* _inArgInfo;
 
   __declspec(property(get = get_ArgCount)) int32_t ArgCount;
 
@@ -159,83 +159,83 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IInternalMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IInternalMessage* i___System__Runtime__Remoting__Messaging__IInternalMessage() noexcept;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__outArgs();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__outArgs();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__outArgs() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__outArgs() const;
 
-  constexpr void __set__outArgs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__outArgs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__args();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__args();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__args() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__args() const;
 
-  constexpr void __set__args(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__args(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& __get__callCtx();
+  constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& __cordl_internal_get__callCtx();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const& __get__callCtx() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const& __cordl_internal_get__callCtx() const;
 
-  constexpr void __set__callCtx(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
+  constexpr void __cordl_internal_set__callCtx(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
 
-  constexpr ::System::Object*& __get__returnValue();
+  constexpr ::System::Object*& __cordl_internal_get__returnValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__returnValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__returnValue() const;
 
-  constexpr void __set__returnValue(::System::Object* value);
+  constexpr void __cordl_internal_set__returnValue(::System::Object* value);
 
-  constexpr ::StringW& __get__uri();
+  constexpr ::StringW& __cordl_internal_get__uri();
 
-  constexpr ::StringW const& __get__uri() const;
+  constexpr ::StringW const& __cordl_internal_get__uri() const;
 
-  constexpr void __set__uri(::StringW value);
+  constexpr void __cordl_internal_set__uri(::StringW value);
 
-  constexpr ::System::Exception*& __get__exception();
+  constexpr ::System::Exception*& __cordl_internal_get__exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get__exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get__exception() const;
 
-  constexpr void __set__exception(::System::Exception* value);
+  constexpr void __cordl_internal_set__exception(::System::Exception* value);
 
-  constexpr ::System::Reflection::MethodBase*& __get__methodBase();
+  constexpr ::System::Reflection::MethodBase*& __cordl_internal_get__methodBase();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __get__methodBase() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __cordl_internal_get__methodBase() const;
 
-  constexpr void __set__methodBase(::System::Reflection::MethodBase* value);
+  constexpr void __cordl_internal_set__methodBase(::System::Reflection::MethodBase* value);
 
-  constexpr ::StringW& __get__methodName();
+  constexpr ::StringW& __cordl_internal_get__methodName();
 
-  constexpr ::StringW const& __get__methodName() const;
+  constexpr ::StringW const& __cordl_internal_get__methodName() const;
 
-  constexpr void __set__methodName(::StringW value);
+  constexpr void __cordl_internal_set__methodName(::StringW value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__methodSignature();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__methodSignature();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get__methodSignature() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__methodSignature() const;
 
-  constexpr void __set__methodSignature(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set__methodSignature(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  constexpr ::StringW& __get__typeName();
+  constexpr ::StringW& __cordl_internal_get__typeName();
 
-  constexpr ::StringW const& __get__typeName() const;
+  constexpr ::StringW const& __cordl_internal_get__typeName() const;
 
-  constexpr void __set__typeName(::StringW value);
+  constexpr void __cordl_internal_set__typeName(::StringW value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::MethodReturnDictionary*& __get__properties();
+  constexpr ::System::Runtime::Remoting::Messaging::MethodReturnDictionary*& __cordl_internal_get__properties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MethodReturnDictionary*> const& __get__properties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MethodReturnDictionary*> const& __cordl_internal_get__properties() const;
 
-  constexpr void __set__properties(::System::Runtime::Remoting::Messaging::MethodReturnDictionary* value);
+  constexpr void __cordl_internal_set__properties(::System::Runtime::Remoting::Messaging::MethodReturnDictionary* value);
 
-  constexpr ::System::Runtime::Remoting::Identity*& __get__targetIdentity();
+  constexpr ::System::Runtime::Remoting::Identity*& __cordl_internal_get__targetIdentity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Identity*> const& __get__targetIdentity() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Identity*> const& __cordl_internal_get__targetIdentity() const;
 
-  constexpr void __set__targetIdentity(::System::Runtime::Remoting::Identity* value);
+  constexpr void __cordl_internal_set__targetIdentity(::System::Runtime::Remoting::Identity* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::ArgInfo*& __get__inArgInfo();
+  constexpr ::System::Runtime::Remoting::Messaging::ArgInfo*& __cordl_internal_get__inArgInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::ArgInfo*> const& __get__inArgInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::ArgInfo*> const& __cordl_internal_get__inArgInfo() const;
 
-  constexpr void __set__inArgInfo(::System::Runtime::Remoting::Messaging::ArgInfo* value);
+  constexpr void __cordl_internal_set__inArgInfo(::System::Runtime::Remoting::Messaging::ArgInfo* value);
 
   static inline ::System::Runtime::Remoting::Messaging::ReturnMessage* New_ctor(::System::Object* ret, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> outArgs, int32_t outArgsCount,
                                                                                 ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,

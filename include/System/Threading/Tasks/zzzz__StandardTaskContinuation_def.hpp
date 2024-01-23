@@ -24,38 +24,38 @@ MARK_REF_PTR_T(::System::Threading::Tasks::StandardTaskContinuation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2801)), TypeDefinitionIndex(TypeDefinitionIndex(2792))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2792)), TypeDefinitionIndex(TypeDefinitionIndex(2801))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2802))
 // CS Name: ::System.Threading.Tasks::StandardTaskContinuation*
 class CORDL_TYPE StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {
 public:
   // Declarations
   /// @brief Field m_task, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_task, put = __set_m_task))::System::Threading::Tasks::Task* m_task;
+  __declspec(property(get = __cordl_internal_get_m_task, put = __cordl_internal_set_m_task))::System::Threading::Tasks::Task* m_task;
 
   /// @brief Field m_options, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_options, put = __set_m_options))::System::Threading::Tasks::TaskContinuationOptions m_options;
+  __declspec(property(get = __cordl_internal_get_m_options, put = __cordl_internal_set_m_options))::System::Threading::Tasks::TaskContinuationOptions m_options;
 
   /// @brief Field m_taskScheduler, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_taskScheduler, put = __set_m_taskScheduler))::System::Threading::Tasks::TaskScheduler* m_taskScheduler;
+  __declspec(property(get = __cordl_internal_get_m_taskScheduler, put = __cordl_internal_set_m_taskScheduler))::System::Threading::Tasks::TaskScheduler* m_taskScheduler;
 
-  constexpr ::System::Threading::Tasks::Task*& __get_m_task();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_task();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_m_task() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_m_task() const;
 
-  constexpr void __set_m_task(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_m_task(::System::Threading::Tasks::Task* value);
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions& __get_m_options();
+  constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_options();
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __get_m_options() const;
+  constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_options() const;
 
-  constexpr void __set_m_options(::System::Threading::Tasks::TaskContinuationOptions value);
+  constexpr void __cordl_internal_set_m_options(::System::Threading::Tasks::TaskContinuationOptions value);
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __get_m_taskScheduler();
+  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_taskScheduler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __get_m_taskScheduler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __cordl_internal_get_m_taskScheduler() const;
 
-  constexpr void __set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
+  constexpr void __cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
 
   static inline ::System::Threading::Tasks::StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options,
                                                                                ::System::Threading::Tasks::TaskScheduler* scheduler);

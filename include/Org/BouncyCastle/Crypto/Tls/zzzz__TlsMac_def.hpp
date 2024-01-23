@@ -25,69 +25,69 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsMac);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1311))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsMac*
 class CORDL_TYPE TlsMac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field secret, offset 0x18, size 0x8
-  __declspec(property(get = __get_secret, put = __set_secret))::ArrayW<uint8_t, ::Array<uint8_t>*> secret;
+  __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret))::ArrayW<uint8_t, ::Array<uint8_t>*> secret;
 
   /// @brief Field mac, offset 0x20, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
 
   /// @brief Field digestBlockSize, offset 0x28, size 0x4
-  __declspec(property(get = __get_digestBlockSize, put = __set_digestBlockSize)) int32_t digestBlockSize;
+  __declspec(property(get = __cordl_internal_get_digestBlockSize, put = __cordl_internal_set_digestBlockSize)) int32_t digestBlockSize;
 
   /// @brief Field digestOverhead, offset 0x2c, size 0x4
-  __declspec(property(get = __get_digestOverhead, put = __set_digestOverhead)) int32_t digestOverhead;
+  __declspec(property(get = __cordl_internal_get_digestOverhead, put = __cordl_internal_set_digestOverhead)) int32_t digestOverhead;
 
   /// @brief Field macLength, offset 0x30, size 0x4
-  __declspec(property(get = __get_macLength, put = __set_macLength)) int32_t macLength;
+  __declspec(property(get = __cordl_internal_get_macLength, put = __cordl_internal_set_macLength)) int32_t macLength;
 
   __declspec(property(get = get_MacSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> MacSecret;
 
   __declspec(property(get = get_Size)) int32_t Size;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_context();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_secret();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_secret();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_secret() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_secret() const;
 
-  constexpr void __set_secret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_secret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr int32_t& __get_digestBlockSize();
+  constexpr int32_t& __cordl_internal_get_digestBlockSize();
 
-  constexpr int32_t const& __get_digestBlockSize() const;
+  constexpr int32_t const& __cordl_internal_get_digestBlockSize() const;
 
-  constexpr void __set_digestBlockSize(int32_t value);
+  constexpr void __cordl_internal_set_digestBlockSize(int32_t value);
 
-  constexpr int32_t& __get_digestOverhead();
+  constexpr int32_t& __cordl_internal_get_digestOverhead();
 
-  constexpr int32_t const& __get_digestOverhead() const;
+  constexpr int32_t const& __cordl_internal_get_digestOverhead() const;
 
-  constexpr void __set_digestOverhead(int32_t value);
+  constexpr void __cordl_internal_set_digestOverhead(int32_t value);
 
-  constexpr int32_t& __get_macLength();
+  constexpr int32_t& __cordl_internal_get_macLength();
 
-  constexpr int32_t const& __get_macLength() const;
+  constexpr int32_t const& __cordl_internal_get_macLength() const;
 
-  constexpr void __set_macLength(int32_t value);
+  constexpr void __cordl_internal_set_macLength(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);

@@ -15,31 +15,31 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::InternalsVisibleToAttribute)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3415))
 // CS Name: ::System.Runtime.CompilerServices::InternalsVisibleToAttribute*
 class CORDL_TYPE InternalsVisibleToAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _assemblyName, offset 0x10, size 0x8
-  __declspec(property(get = __get__assemblyName, put = __set__assemblyName))::StringW _assemblyName;
+  __declspec(property(get = __cordl_internal_get__assemblyName, put = __cordl_internal_set__assemblyName))::StringW _assemblyName;
 
   /// @brief Field _allInternalsVisible, offset 0x18, size 0x1
-  __declspec(property(get = __get__allInternalsVisible, put = __set__allInternalsVisible)) bool _allInternalsVisible;
+  __declspec(property(get = __cordl_internal_get__allInternalsVisible, put = __cordl_internal_set__allInternalsVisible)) bool _allInternalsVisible;
 
   __declspec(property(put = set_AllInternalsVisible)) bool AllInternalsVisible;
 
-  constexpr ::StringW& __get__assemblyName();
+  constexpr ::StringW& __cordl_internal_get__assemblyName();
 
-  constexpr ::StringW const& __get__assemblyName() const;
+  constexpr ::StringW const& __cordl_internal_get__assemblyName() const;
 
-  constexpr void __set__assemblyName(::StringW value);
+  constexpr void __cordl_internal_set__assemblyName(::StringW value);
 
-  constexpr bool& __get__allInternalsVisible();
+  constexpr bool& __cordl_internal_get__allInternalsVisible();
 
-  constexpr bool const& __get__allInternalsVisible() const;
+  constexpr bool const& __cordl_internal_get__allInternalsVisible() const;
 
-  constexpr void __set__allInternalsVisible(bool value);
+  constexpr void __cordl_internal_set__allInternalsVisible(bool value);
 
   static inline ::System::Runtime::CompilerServices::InternalsVisibleToAttribute* New_ctor(::StringW assemblyName);
 

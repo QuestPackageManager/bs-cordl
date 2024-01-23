@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassNonLightPass);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14477))
 // CS Name: ::BloomPrePassNonLightPass::ExecutionTimeType
 struct CORDL_TYPE __BloomPrePassNonLightPass__ExecutionTimeType {
@@ -87,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionT
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14477)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14477))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14478))
 // CS Name: ::BloomPrePassNonLightPass*
 class CORDL_TYPE BloomPrePassNonLightPass : public ::UnityEngine::MonoBehaviour {
@@ -96,49 +96,50 @@ public:
   using ExecutionTimeType = ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType;
 
   /// @brief Field _executionTimeType, offset 0x18, size 0x4
-  __declspec(property(get = __get__executionTimeType, put = __set__executionTimeType))::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType _executionTimeType;
+  __declspec(property(get = __cordl_internal_get__executionTimeType, put = __cordl_internal_set__executionTimeType))::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType _executionTimeType;
 
   /// @brief Field _registeredExecutionTimeType, offset 0x1c, size 0x4
-  __declspec(property(get = __get__registeredExecutionTimeType, put = __set__registeredExecutionTimeType))::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType _registeredExecutionTimeType;
+  __declspec(property(get = __cordl_internal_get__registeredExecutionTimeType,
+                      put = __cordl_internal_set__registeredExecutionTimeType))::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType _registeredExecutionTimeType;
 
   /// @brief Field _bloomPrePassAfterBlurList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__bloomPrePassAfterBlurList,
-                             put = setStaticF__bloomPrePassAfterBlurList))::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* _bloomPrePassAfterBlurList;
+                             put = setStaticF__bloomPrePassAfterBlurList))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* _bloomPrePassAfterBlurList;
 
   /// @brief Field _bloomPrePassBeforeBlurList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__bloomPrePassBeforeBlurList,
-                             put = setStaticF__bloomPrePassBeforeBlurList))::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* _bloomPrePassBeforeBlurList;
+                             put = setStaticF__bloomPrePassBeforeBlurList))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* _bloomPrePassBeforeBlurList;
 
   __declspec(property(get = get_executionTimeType))::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType executionTimeType;
 
-  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType& __get__executionTimeType();
+  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType& __cordl_internal_get__executionTimeType();
 
-  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const& __get__executionTimeType() const;
+  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const& __cordl_internal_get__executionTimeType() const;
 
-  constexpr void __set__executionTimeType(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType value);
+  constexpr void __cordl_internal_set__executionTimeType(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType value);
 
-  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType& __get__registeredExecutionTimeType();
+  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType& __cordl_internal_get__registeredExecutionTimeType();
 
-  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const& __get__registeredExecutionTimeType() const;
+  constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const& __cordl_internal_get__registeredExecutionTimeType() const;
 
-  constexpr void __set__registeredExecutionTimeType(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType value);
+  constexpr void __cordl_internal_set__registeredExecutionTimeType(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType value);
 
-  static inline void setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value);
+  static inline void setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* getStaticF__bloomPrePassAfterBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassAfterBlurList();
 
-  static inline void setStaticF__bloomPrePassBeforeBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value);
+  static inline void setStaticF__bloomPrePassBeforeBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* getStaticF__bloomPrePassBeforeBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassBeforeBlurList();
 
   /// @brief Method get_executionTimeType, addr 0x2107188, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType get_executionTimeType();
 
   /// @brief Method get_bloomPrePassAfterBlurList, addr 0x2107190, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassAfterBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassAfterBlurList();
 
   /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x21071e8, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassBeforeBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassBeforeBlurList();
 
   /// @brief Method OnEnable, addr 0x2105a84, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();

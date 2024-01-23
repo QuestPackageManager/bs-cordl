@@ -47,23 +47,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__VRsenalScoreLogger___Start_d__3);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4015))
 // CS Name: ::VRsenalScoreLogger::<Start>d__3*
 class CORDL_TYPE __VRsenalScoreLogger___Start_d__3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::VRsenalScoreLogger* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::VRsenalScoreLogger> __4__this;
 
   /// @brief Field <yieldInstruction>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __get__yieldInstruction_5__2, put = __set__yieldInstruction_5__2))::UnityEngine::YieldInstruction* _yieldInstruction_5__2;
+  __declspec(property(get = __cordl_internal_get__yieldInstruction_5__2, put = __cordl_internal_set__yieldInstruction_5__2))::UnityEngine::YieldInstruction* _yieldInstruction_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -87,29 +87,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::VRsenalScoreLogger*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::VRsenalScoreLogger>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRsenalScoreLogger*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::VRsenalScoreLogger> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::VRsenalScoreLogger* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::VRsenalScoreLogger> value);
 
-  constexpr ::UnityEngine::YieldInstruction*& __get__yieldInstruction_5__2();
+  constexpr ::UnityEngine::YieldInstruction*& __cordl_internal_get__yieldInstruction_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::YieldInstruction*> const& __get__yieldInstruction_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::YieldInstruction*> const& __cordl_internal_get__yieldInstruction_5__2() const;
 
-  constexpr void __set__yieldInstruction_5__2(::UnityEngine::YieldInstruction* value);
+  constexpr void __cordl_internal_set__yieldInstruction_5__2(::UnityEngine::YieldInstruction* value);
 
   static inline ::GlobalNamespace::__VRsenalScoreLogger___Start_d__3* New_ctor(int32_t __1__state);
 
@@ -152,7 +152,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::VRsenalScoreLogger* _____4__this;
+  ::UnityW<::GlobalNamespace::VRsenalScoreLogger> _____4__this;
 
   /// @brief Field <yieldInstruction>5__2, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::YieldInstruction* ____yieldInstruction_5__2;
@@ -175,7 +175,7 @@ static_assert(offsetof(::GlobalNamespace::__VRsenalScoreLogger___Start_d__3, ___
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4016))
 // CS Name: ::VRsenalScoreLogger*
 class CORDL_TYPE VRsenalScoreLogger : public ::UnityEngine::MonoBehaviour {
@@ -184,31 +184,31 @@ public:
   using _Start_d__3 = ::GlobalNamespace::__VRsenalScoreLogger___Start_d__3;
 
   /// @brief Field _scoreController, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _difficultyBeatmap, offset 0x20, size 0x8
-  __declspec(property(get = __get__difficultyBeatmap, put = __set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmap, put = __cordl_internal_set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
 
   /// @brief Field _levelEndActions, offset 0x28, size 0x8
-  __declspec(property(get = __get__levelEndActions, put = __set__levelEndActions))::GlobalNamespace::ILevelEndActions* _levelEndActions;
+  __declspec(property(get = __cordl_internal_get__levelEndActions, put = __cordl_internal_set__levelEndActions))::GlobalNamespace::ILevelEndActions* _levelEndActions;
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap() const;
 
-  constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __get__levelEndActions();
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __get__levelEndActions() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__levelEndActions() const;
 
-  constexpr void __set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
+  constexpr void __cordl_internal_set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
 
   /// @brief Method Start, addr 0x2222f74, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();

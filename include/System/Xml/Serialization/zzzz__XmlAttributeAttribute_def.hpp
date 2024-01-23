@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlAttributeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11586))
 // CS Name: ::System.Xml.Serialization::XmlAttributeAttribute*
 class CORDL_TYPE XmlAttributeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field attributeName, offset 0x10, size 0x8
-  __declspec(property(get = __get_attributeName, put = __set_attributeName))::StringW attributeName;
+  __declspec(property(get = __cordl_internal_get_attributeName, put = __cordl_internal_set_attributeName))::StringW attributeName;
 
-  constexpr ::StringW& __get_attributeName();
+  constexpr ::StringW& __cordl_internal_get_attributeName();
 
-  constexpr ::StringW const& __get_attributeName() const;
+  constexpr ::StringW const& __cordl_internal_get_attributeName() const;
 
-  constexpr void __set_attributeName(::StringW value);
+  constexpr void __cordl_internal_set_attributeName(::StringW value);
 
   static inline ::System::Xml::Serialization::XmlAttributeAttribute* New_ctor(::StringW attributeName);
 

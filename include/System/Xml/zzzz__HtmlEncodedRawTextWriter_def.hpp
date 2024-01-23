@@ -37,32 +37,32 @@ MARK_REF_PTR_T(::System::Xml::HtmlEncodedRawTextWriter);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11449)), TypeDefinitionIndex(TypeDefinitionIndex(11438)), TypeDefinitionIndex(TypeDefinitionIndex(11437))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11437)), TypeDefinitionIndex(TypeDefinitionIndex(11438)), TypeDefinitionIndex(TypeDefinitionIndex(11449))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11416))
 // CS Name: ::System.Xml::HtmlEncodedRawTextWriter*
 class CORDL_TYPE HtmlEncodedRawTextWriter : public ::System::Xml::XmlEncodedRawTextWriter {
 public:
   // Declarations
   /// @brief Field elementScope, offset 0xb8, size 0x8
-  __declspec(property(get = __get_elementScope, put = __set_elementScope))::System::Xml::ByteStack* elementScope;
+  __declspec(property(get = __cordl_internal_get_elementScope, put = __cordl_internal_set_elementScope))::System::Xml::ByteStack* elementScope;
 
   /// @brief Field currentElementProperties, offset 0xc0, size 0x4
-  __declspec(property(get = __get_currentElementProperties, put = __set_currentElementProperties))::System::Xml::ElementProperties currentElementProperties;
+  __declspec(property(get = __cordl_internal_get_currentElementProperties, put = __cordl_internal_set_currentElementProperties))::System::Xml::ElementProperties currentElementProperties;
 
   /// @brief Field currentAttributeProperties, offset 0xc4, size 0x4
-  __declspec(property(get = __get_currentAttributeProperties, put = __set_currentAttributeProperties))::System::Xml::AttributeProperties currentAttributeProperties;
+  __declspec(property(get = __cordl_internal_get_currentAttributeProperties, put = __cordl_internal_set_currentAttributeProperties))::System::Xml::AttributeProperties currentAttributeProperties;
 
   /// @brief Field endsWithAmpersand, offset 0xc8, size 0x1
-  __declspec(property(get = __get_endsWithAmpersand, put = __set_endsWithAmpersand)) bool endsWithAmpersand;
+  __declspec(property(get = __cordl_internal_get_endsWithAmpersand, put = __cordl_internal_set_endsWithAmpersand)) bool endsWithAmpersand;
 
   /// @brief Field uriEscapingBuffer, offset 0xd0, size 0x8
-  __declspec(property(get = __get_uriEscapingBuffer, put = __set_uriEscapingBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> uriEscapingBuffer;
+  __declspec(property(get = __cordl_internal_get_uriEscapingBuffer, put = __cordl_internal_set_uriEscapingBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> uriEscapingBuffer;
 
   /// @brief Field mediaType, offset 0xd8, size 0x8
-  __declspec(property(get = __get_mediaType, put = __set_mediaType))::StringW mediaType;
+  __declspec(property(get = __cordl_internal_get_mediaType, put = __cordl_internal_set_mediaType))::StringW mediaType;
 
   /// @brief Field doNotEscapeUriAttributes, offset 0xe0, size 0x1
-  __declspec(property(get = __get_doNotEscapeUriAttributes, put = __set_doNotEscapeUriAttributes)) bool doNotEscapeUriAttributes;
+  __declspec(property(get = __cordl_internal_get_doNotEscapeUriAttributes, put = __cordl_internal_set_doNotEscapeUriAttributes)) bool doNotEscapeUriAttributes;
 
   /// @brief Field elementPropertySearch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_elementPropertySearch, put = setStaticF_elementPropertySearch))::System::Xml::TernaryTreeReadOnly* elementPropertySearch;
@@ -70,47 +70,47 @@ public:
   /// @brief Field attributePropertySearch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_attributePropertySearch, put = setStaticF_attributePropertySearch))::System::Xml::TernaryTreeReadOnly* attributePropertySearch;
 
-  constexpr ::System::Xml::ByteStack*& __get_elementScope();
+  constexpr ::System::Xml::ByteStack*& __cordl_internal_get_elementScope();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::ByteStack*> const& __get_elementScope() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::ByteStack*> const& __cordl_internal_get_elementScope() const;
 
-  constexpr void __set_elementScope(::System::Xml::ByteStack* value);
+  constexpr void __cordl_internal_set_elementScope(::System::Xml::ByteStack* value);
 
-  constexpr ::System::Xml::ElementProperties& __get_currentElementProperties();
+  constexpr ::System::Xml::ElementProperties& __cordl_internal_get_currentElementProperties();
 
-  constexpr ::System::Xml::ElementProperties const& __get_currentElementProperties() const;
+  constexpr ::System::Xml::ElementProperties const& __cordl_internal_get_currentElementProperties() const;
 
-  constexpr void __set_currentElementProperties(::System::Xml::ElementProperties value);
+  constexpr void __cordl_internal_set_currentElementProperties(::System::Xml::ElementProperties value);
 
-  constexpr ::System::Xml::AttributeProperties& __get_currentAttributeProperties();
+  constexpr ::System::Xml::AttributeProperties& __cordl_internal_get_currentAttributeProperties();
 
-  constexpr ::System::Xml::AttributeProperties const& __get_currentAttributeProperties() const;
+  constexpr ::System::Xml::AttributeProperties const& __cordl_internal_get_currentAttributeProperties() const;
 
-  constexpr void __set_currentAttributeProperties(::System::Xml::AttributeProperties value);
+  constexpr void __cordl_internal_set_currentAttributeProperties(::System::Xml::AttributeProperties value);
 
-  constexpr bool& __get_endsWithAmpersand();
+  constexpr bool& __cordl_internal_get_endsWithAmpersand();
 
-  constexpr bool const& __get_endsWithAmpersand() const;
+  constexpr bool const& __cordl_internal_get_endsWithAmpersand() const;
 
-  constexpr void __set_endsWithAmpersand(bool value);
+  constexpr void __cordl_internal_set_endsWithAmpersand(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_uriEscapingBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_uriEscapingBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_uriEscapingBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_uriEscapingBuffer() const;
 
-  constexpr void __set_uriEscapingBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_uriEscapingBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get_mediaType();
+  constexpr ::StringW& __cordl_internal_get_mediaType();
 
-  constexpr ::StringW const& __get_mediaType() const;
+  constexpr ::StringW const& __cordl_internal_get_mediaType() const;
 
-  constexpr void __set_mediaType(::StringW value);
+  constexpr void __cordl_internal_set_mediaType(::StringW value);
 
-  constexpr bool& __get_doNotEscapeUriAttributes();
+  constexpr bool& __cordl_internal_get_doNotEscapeUriAttributes();
 
-  constexpr bool const& __get_doNotEscapeUriAttributes() const;
+  constexpr bool const& __cordl_internal_get_doNotEscapeUriAttributes() const;
 
-  constexpr void __set_doNotEscapeUriAttributes(bool value);
+  constexpr void __cordl_internal_set_doNotEscapeUriAttributes(bool value);
 
   static inline void setStaticF_elementPropertySearch(::System::Xml::TernaryTreeReadOnly* value);
 

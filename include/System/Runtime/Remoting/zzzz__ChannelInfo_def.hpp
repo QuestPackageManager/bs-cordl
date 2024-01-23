@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelInfo);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3052))
 // CS Name: ::System.Runtime.Remoting::ChannelInfo*
 class CORDL_TYPE ChannelInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field channelData, offset 0x10, size 0x8
-  __declspec(property(get = __get_channelData, put = __set_channelData))::ArrayW<::System::Object*, ::Array<::System::Object*>*> channelData;
+  __declspec(property(get = __cordl_internal_get_channelData, put = __cordl_internal_set_channelData))::ArrayW<::System::Object*, ::Array<::System::Object*>*> channelData;
 
   __declspec(property(get = get_ChannelData))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ChannelData;
 
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::IChannelInfo"
   constexpr ::System::Runtime::Remoting::IChannelInfo* i___System__Runtime__Remoting__IChannelInfo() noexcept;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_channelData();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_channelData();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_channelData() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_channelData() const;
 
-  constexpr void __set_channelData(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_channelData(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   static inline ::System::Runtime::Remoting::ChannelInfo* New_ctor();
 

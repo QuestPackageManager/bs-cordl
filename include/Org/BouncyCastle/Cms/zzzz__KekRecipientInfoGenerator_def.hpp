@@ -36,23 +36,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(670))
 // CS Name: ::Org.BouncyCastle.Cms::KekRecipientInfoGenerator*
 class CORDL_TYPE KekRecipientInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field keyEncryptionKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyEncryptionKey, put = __set_keyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKey, put = __cordl_internal_set_keyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
 
   /// @brief Field keyEncryptionKeyOID, offset 0x18, size 0x8
-  __declspec(property(get = __get_keyEncryptionKeyOID, put = __set_keyEncryptionKeyOID))::StringW keyEncryptionKeyOID;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKeyOID, put = __cordl_internal_set_keyEncryptionKeyOID))::StringW keyEncryptionKeyOID;
 
   /// @brief Field kekIdentifier, offset 0x20, size 0x8
-  __declspec(property(get = __get_kekIdentifier, put = __set_kekIdentifier))::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekIdentifier;
+  __declspec(property(get = __cordl_internal_get_kekIdentifier, put = __cordl_internal_set_kekIdentifier))::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekIdentifier;
 
   /// @brief Field keyEncryptionAlgorithm, offset 0x28, size 0x8
-  __declspec(property(get = __get_keyEncryptionAlgorithm, put = __set_keyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionAlgorithm,
+                      put = __cordl_internal_set_keyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
@@ -69,29 +70,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr ::Org::BouncyCastle::Cms::RecipientInfoGenerator* i___Org__BouncyCastle__Cms__RecipientInfoGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __get_keyEncryptionKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __cordl_internal_get_keyEncryptionKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __get_keyEncryptionKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __cordl_internal_get_keyEncryptionKey() const;
 
-  constexpr void __set_keyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
+  constexpr void __cordl_internal_set_keyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  constexpr ::StringW& __get_keyEncryptionKeyOID();
+  constexpr ::StringW& __cordl_internal_get_keyEncryptionKeyOID();
 
-  constexpr ::StringW const& __get_keyEncryptionKeyOID() const;
+  constexpr ::StringW const& __cordl_internal_get_keyEncryptionKeyOID() const;
 
-  constexpr void __set_keyEncryptionKeyOID(::StringW value);
+  constexpr void __cordl_internal_set_keyEncryptionKeyOID(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::KekIdentifier*& __get_kekIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::KekIdentifier*& __cordl_internal_get_kekIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*> const& __get_kekIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*> const& __cordl_internal_get_kekIdentifier() const;
 
-  constexpr void __set_kekIdentifier(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* value);
+  constexpr void __cordl_internal_set_kekIdentifier(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_keyEncryptionAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncryptionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_keyEncryptionAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncryptionAlgorithm() const;
 
-  constexpr void __set_keyEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_keyEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 

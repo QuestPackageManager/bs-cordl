@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSessionsChangedNotification);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13461))
 // CS Name: ::Oculus.Platform.Models::NetSyncSessionsChangedNotification*
 class CORDL_TYPE NetSyncSessionsChangedNotification : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ConnectionId, offset 0x10, size 0x8
-  __declspec(property(get = __get_ConnectionId, put = __set_ConnectionId)) int64_t ConnectionId;
+  __declspec(property(get = __cordl_internal_get_ConnectionId, put = __cordl_internal_set_ConnectionId)) int64_t ConnectionId;
 
   /// @brief Field Sessions, offset 0x18, size 0x8
-  __declspec(property(get = __get_Sessions, put = __set_Sessions))::Oculus::Platform::Models::NetSyncSessionList* Sessions;
+  __declspec(property(get = __cordl_internal_get_Sessions, put = __cordl_internal_set_Sessions))::Oculus::Platform::Models::NetSyncSessionList* Sessions;
 
-  constexpr int64_t& __get_ConnectionId();
+  constexpr int64_t& __cordl_internal_get_ConnectionId();
 
-  constexpr int64_t const& __get_ConnectionId() const;
+  constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
-  constexpr void __set_ConnectionId(int64_t value);
+  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
 
-  constexpr ::Oculus::Platform::Models::NetSyncSessionList*& __get_Sessions();
+  constexpr ::Oculus::Platform::Models::NetSyncSessionList*& __cordl_internal_get_Sessions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::NetSyncSessionList*> const& __get_Sessions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::NetSyncSessionList*> const& __cordl_internal_get_Sessions() const;
 
-  constexpr void __set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value);
+  constexpr void __cordl_internal_set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value);
 
   static inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* New_ctor(void* o);
 

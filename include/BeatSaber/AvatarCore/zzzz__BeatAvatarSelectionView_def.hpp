@@ -29,47 +29,49 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::BeatAvatarSelectionView);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15177))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15177))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15255))
 // CS Name: ::BeatSaber.AvatarCore::BeatAvatarSelectionView*
 class CORDL_TYPE BeatAvatarSelectionView : public ::BeatSaber::AvatarCore::AvatarSelectionView {
 public:
   // Declarations
   /// @brief Field _avatarContainer, offset 0x88, size 0x8
-  __declspec(property(get = __get__avatarContainer, put = __set__avatarContainer))::UnityEngine::GameObject* _avatarContainer;
+  __declspec(property(get = __cordl_internal_get__avatarContainer, put = __cordl_internal_set__avatarContainer))::UnityW<::UnityEngine::GameObject> _avatarContainer;
 
   /// @brief Field _beatAvatarVisualController, offset 0x90, size 0x8
-  __declspec(property(get = __get__beatAvatarVisualController, put = __set__beatAvatarVisualController))::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* _beatAvatarVisualController;
+  __declspec(property(get = __cordl_internal_get__beatAvatarVisualController,
+                      put = __cordl_internal_set__beatAvatarVisualController))::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> _beatAvatarVisualController;
 
   /// @brief Field _avatarTweenController, offset 0x98, size 0x8
-  __declspec(property(get = __get__avatarTweenController, put = __set__avatarTweenController))::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* _avatarTweenController;
+  __declspec(property(get = __cordl_internal_get__avatarTweenController,
+                      put = __cordl_internal_set__avatarTweenController))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> _avatarTweenController;
 
   /// @brief Field _avatarDataModel, offset 0xa0, size 0x8
-  __declspec(property(get = __get__avatarDataModel, put = __set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
+  __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
 
-  constexpr ::UnityEngine::GameObject*& __get__avatarContainer();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__avatarContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__avatarContainer() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__avatarContainer() const;
 
-  constexpr void __set__avatarContainer(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__avatarContainer(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*& __get__beatAvatarVisualController();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>& __cordl_internal_get__beatAvatarVisualController();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*> const& __get__beatAvatarVisualController() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> const& __cordl_internal_get__beatAvatarVisualController() const;
 
-  constexpr void __set__beatAvatarVisualController(::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* value);
+  constexpr void __cordl_internal_set__beatAvatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*& __get__avatarTweenController();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>& __cordl_internal_get__avatarTweenController();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*> const& __get__avatarTweenController() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> const& __cordl_internal_get__avatarTweenController() const;
 
-  constexpr void __set__avatarTweenController(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* value);
+  constexpr void __cordl_internal_set__avatarTweenController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __get__avatarDataModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __get__avatarDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
 
-  constexpr void __set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
 
   /// @brief Method Init, addr 0xe13518, size 0x94, virtual false, abstract: false, final false
   inline void Init();
@@ -112,13 +114,13 @@ protected:
 
 public:
   /// @brief Field _avatarContainer, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____avatarContainer;
+  ::UnityW<::UnityEngine::GameObject> ____avatarContainer;
 
   /// @brief Field _beatAvatarVisualController, offset: 0x90, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* ____beatAvatarVisualController;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> ____beatAvatarVisualController;
 
   /// @brief Field _avatarTweenController, offset: 0x98, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* ____avatarTweenController;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> ____avatarTweenController;
 
   /// @brief Field _avatarDataModel, offset: 0xa0, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarDataModel* ____avatarDataModel;

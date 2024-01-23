@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalLeaderboardsModel____c);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4214))
 // CS Name: ::LocalLeaderboardsModel::LeaderboardType
 struct CORDL_TYPE __LocalLeaderboardsModel__LeaderboardType {
@@ -125,47 +125,47 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardT
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4215))
 // CS Name: ::LocalLeaderboardsModel::ScoreData*
 class CORDL_TYPE __LocalLeaderboardsModel__ScoreData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _score, offset 0x10, size 0x4
-  __declspec(property(get = __get__score, put = __set__score)) int32_t _score;
+  __declspec(property(get = __cordl_internal_get__score, put = __cordl_internal_set__score)) int32_t _score;
 
   /// @brief Field _playerName, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerName, put = __set__playerName))::StringW _playerName;
+  __declspec(property(get = __cordl_internal_get__playerName, put = __cordl_internal_set__playerName))::StringW _playerName;
 
   /// @brief Field _fullCombo, offset 0x20, size 0x1
-  __declspec(property(get = __get__fullCombo, put = __set__fullCombo)) bool _fullCombo;
+  __declspec(property(get = __cordl_internal_get__fullCombo, put = __cordl_internal_set__fullCombo)) bool _fullCombo;
 
   /// @brief Field _timestamp, offset 0x28, size 0x8
-  __declspec(property(get = __get__timestamp, put = __set__timestamp)) int64_t _timestamp;
+  __declspec(property(get = __cordl_internal_get__timestamp, put = __cordl_internal_set__timestamp)) int64_t _timestamp;
 
-  constexpr int32_t& __get__score();
+  constexpr int32_t& __cordl_internal_get__score();
 
-  constexpr int32_t const& __get__score() const;
+  constexpr int32_t const& __cordl_internal_get__score() const;
 
-  constexpr void __set__score(int32_t value);
+  constexpr void __cordl_internal_set__score(int32_t value);
 
-  constexpr ::StringW& __get__playerName();
+  constexpr ::StringW& __cordl_internal_get__playerName();
 
-  constexpr ::StringW const& __get__playerName() const;
+  constexpr ::StringW const& __cordl_internal_get__playerName() const;
 
-  constexpr void __set__playerName(::StringW value);
+  constexpr void __cordl_internal_set__playerName(::StringW value);
 
-  constexpr bool& __get__fullCombo();
+  constexpr bool& __cordl_internal_get__fullCombo();
 
-  constexpr bool const& __get__fullCombo() const;
+  constexpr bool const& __cordl_internal_get__fullCombo() const;
 
-  constexpr void __set__fullCombo(bool value);
+  constexpr void __cordl_internal_set__fullCombo(bool value);
 
-  constexpr int64_t& __get__timestamp();
+  constexpr int64_t& __cordl_internal_get__timestamp();
 
-  constexpr int64_t const& __get__timestamp() const;
+  constexpr int64_t const& __cordl_internal_get__timestamp() const;
 
-  constexpr void __set__timestamp(int64_t value);
+  constexpr void __cordl_internal_set__timestamp(int64_t value);
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* New_ctor();
 
@@ -216,29 +216,29 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData, _
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4216))
 // CS Name: ::LocalLeaderboardsModel::LeaderboardData*
 class CORDL_TYPE __LocalLeaderboardsModel__LeaderboardData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _leaderboardId, offset 0x10, size 0x8
-  __declspec(property(get = __get__leaderboardId, put = __set__leaderboardId))::StringW _leaderboardId;
+  __declspec(property(get = __cordl_internal_get__leaderboardId, put = __cordl_internal_set__leaderboardId))::StringW _leaderboardId;
 
   /// @brief Field _scores, offset 0x18, size 0x8
-  __declspec(property(get = __get__scores, put = __set__scores))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* _scores;
+  __declspec(property(get = __cordl_internal_get__scores, put = __cordl_internal_set__scores))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* _scores;
 
-  constexpr ::StringW& __get__leaderboardId();
+  constexpr ::StringW& __cordl_internal_get__leaderboardId();
 
-  constexpr ::StringW const& __get__leaderboardId() const;
+  constexpr ::StringW const& __cordl_internal_get__leaderboardId() const;
 
-  constexpr void __set__leaderboardId(::StringW value);
+  constexpr void __cordl_internal_set__leaderboardId(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>*& __get__scores();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>*& __cordl_internal_get__scores();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>*> const& __get__scores() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>*> const& __cordl_internal_get__scores() const;
 
-  constexpr void __set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* value);
+  constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* value);
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* New_ctor();
 
@@ -279,21 +279,22 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardD
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4217))
 // CS Name: ::LocalLeaderboardsModel::SavedLeaderboardsData*
 class CORDL_TYPE __LocalLeaderboardsModel__SavedLeaderboardsData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _leaderboardsData, offset 0x10, size 0x8
-  __declspec(property(get = __get__leaderboardsData,
-                      put = __set__leaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
+  __declspec(property(get = __cordl_internal_get__leaderboardsData,
+                      put = __cordl_internal_set__leaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __get__leaderboardsData();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __cordl_internal_get__leaderboardsData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> const& __get__leaderboardsData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> const&
+  __cordl_internal_get__leaderboardsData() const;
 
-  constexpr void __set__leaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
+  constexpr void __cordl_internal_set__leaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData* New_ctor();
 
@@ -329,7 +330,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderb
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4218))
 // CS Name: ::LocalLeaderboardsModel::<>c*
 class CORDL_TYPE __LocalLeaderboardsModel____c : public ::System::Object {
@@ -401,7 +402,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderbo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4219))
 // CS Name: ::LocalLeaderboardsModel*
 class CORDL_TYPE LocalLeaderboardsModel : public ::GlobalNamespace::PersistentScriptableObject {
@@ -418,63 +419,68 @@ public:
   using LeaderboardType = ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType;
 
   /// @brief Field _maxNumberOfScoresInLeaderboard, offset 0x18, size 0x4
-  __declspec(property(get = __get__maxNumberOfScoresInLeaderboard, put = __set__maxNumberOfScoresInLeaderboard)) int32_t _maxNumberOfScoresInLeaderboard;
+  __declspec(property(get = __cordl_internal_get__maxNumberOfScoresInLeaderboard, put = __cordl_internal_set__maxNumberOfScoresInLeaderboard)) int32_t _maxNumberOfScoresInLeaderboard;
 
   /// @brief Field newScoreWasAddedToLeaderboardEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_newScoreWasAddedToLeaderboardEvent,
-                      put = __set_newScoreWasAddedToLeaderboardEvent))::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* newScoreWasAddedToLeaderboardEvent;
+  __declspec(property(
+      get = __cordl_internal_get_newScoreWasAddedToLeaderboardEvent,
+      put = __cordl_internal_set_newScoreWasAddedToLeaderboardEvent))::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* newScoreWasAddedToLeaderboardEvent;
 
   /// @brief Field _lastScorePositions, offset 0x28, size 0x8
-  __declspec(property(get = __get__lastScorePositions,
-                      put = __set__lastScorePositions))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>* _lastScorePositions;
+  __declspec(
+      property(get = __cordl_internal_get__lastScorePositions,
+               put = __cordl_internal_set__lastScorePositions))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>* _lastScorePositions;
 
   /// @brief Field _lastScoreLeaderboardId, offset 0x30, size 0x8
-  __declspec(property(get = __get__lastScoreLeaderboardId, put = __set__lastScoreLeaderboardId))::StringW _lastScoreLeaderboardId;
+  __declspec(property(get = __cordl_internal_get__lastScoreLeaderboardId, put = __cordl_internal_set__lastScoreLeaderboardId))::StringW _lastScoreLeaderboardId;
 
   /// @brief Field _leaderboardsData, offset 0x38, size 0x8
-  __declspec(property(get = __get__leaderboardsData,
-                      put = __set__leaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
+  __declspec(property(get = __cordl_internal_get__leaderboardsData,
+                      put = __cordl_internal_set__leaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
 
   /// @brief Field _dailyLeaderboardsData, offset 0x40, size 0x8
-  __declspec(property(get = __get__dailyLeaderboardsData,
-                      put = __set__dailyLeaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _dailyLeaderboardsData;
+  __declspec(property(get = __cordl_internal_get__dailyLeaderboardsData,
+                      put = __cordl_internal_set__dailyLeaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _dailyLeaderboardsData;
 
-  constexpr int32_t& __get__maxNumberOfScoresInLeaderboard();
+  constexpr int32_t& __cordl_internal_get__maxNumberOfScoresInLeaderboard();
 
-  constexpr int32_t const& __get__maxNumberOfScoresInLeaderboard() const;
+  constexpr int32_t const& __cordl_internal_get__maxNumberOfScoresInLeaderboard() const;
 
-  constexpr void __set__maxNumberOfScoresInLeaderboard(int32_t value);
+  constexpr void __cordl_internal_set__maxNumberOfScoresInLeaderboard(int32_t value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>*& __get_newScoreWasAddedToLeaderboardEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>*& __cordl_internal_get_newScoreWasAddedToLeaderboardEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>*> const& __get_newScoreWasAddedToLeaderboardEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>*> const&
+  __cordl_internal_get_newScoreWasAddedToLeaderboardEvent() const;
 
-  constexpr void __set_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
+  constexpr void __cordl_internal_set_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>*& __get__lastScorePositions();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>*& __cordl_internal_get__lastScorePositions();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>*> const&
-  __get__lastScorePositions() const;
+  __cordl_internal_get__lastScorePositions() const;
 
-  constexpr void __set__lastScorePositions(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>* value);
+  constexpr void __cordl_internal_set__lastScorePositions(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>* value);
 
-  constexpr ::StringW& __get__lastScoreLeaderboardId();
+  constexpr ::StringW& __cordl_internal_get__lastScoreLeaderboardId();
 
-  constexpr ::StringW const& __get__lastScoreLeaderboardId() const;
+  constexpr ::StringW const& __cordl_internal_get__lastScoreLeaderboardId() const;
 
-  constexpr void __set__lastScoreLeaderboardId(::StringW value);
+  constexpr void __cordl_internal_set__lastScoreLeaderboardId(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __get__leaderboardsData();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __cordl_internal_get__leaderboardsData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> const& __get__leaderboardsData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> const&
+  __cordl_internal_get__leaderboardsData() const;
 
-  constexpr void __set__leaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
+  constexpr void __cordl_internal_set__leaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __get__dailyLeaderboardsData();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __cordl_internal_get__dailyLeaderboardsData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> const& __get__dailyLeaderboardsData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> const&
+  __cordl_internal_get__dailyLeaderboardsData() const;
 
-  constexpr void __set__dailyLeaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
+  constexpr void __cordl_internal_set__dailyLeaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
 
   /// @brief Method add_newScoreWasAddedToLeaderboardEvent, addr 0x2328a50, size 0xb0, virtual false, abstract: false, final false
   inline void add_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);

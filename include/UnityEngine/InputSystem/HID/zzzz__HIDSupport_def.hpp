@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6400))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6411))
 // CS Name: ::HIDSupport::HIDPageUsage
 struct CORDL_TYPE __HIDSupport__HIDPageUsage {
@@ -77,7 +77,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6412))
 // CS Name: ::UnityEngine.InputSystem.HID::HIDSupport*
 class CORDL_TYPE HIDSupport : public ::System::Object {

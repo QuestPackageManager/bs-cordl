@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(612))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(612))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(613))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAttributeTableGenerationException*
 class CORDL_TYPE CmsAttributeTableGenerationException : public ::Org::BouncyCastle::Cms::CmsException {

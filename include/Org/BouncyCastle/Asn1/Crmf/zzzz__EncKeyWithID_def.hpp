@@ -35,17 +35,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(111))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::EncKeyWithID*
 class CORDL_TYPE EncKeyWithID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field privKeyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_privKeyInfo, put = __set_privKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo;
+  __declspec(property(get = __cordl_internal_get_privKeyInfo, put = __cordl_internal_set_privKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo;
 
   /// @brief Field identifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_identifier, put = __set_identifier))::Org::BouncyCastle::Asn1::Asn1Encodable* identifier;
+  __declspec(property(get = __cordl_internal_get_identifier, put = __cordl_internal_set_identifier))::Org::BouncyCastle::Asn1::Asn1Encodable* identifier;
 
   __declspec(property(get = get_PrivateKey))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* PrivateKey;
 
@@ -55,17 +55,17 @@ public:
 
   __declspec(property(get = get_Identifier))::Org::BouncyCastle::Asn1::Asn1Encodable* Identifier;
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*& __get_privKeyInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*& __cordl_internal_get_privKeyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*> const& __get_privKeyInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*> const& __cordl_internal_get_privKeyInfo() const;
 
-  constexpr void __set_privKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
+  constexpr void __cordl_internal_set_privKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_identifier();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __get_identifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_identifier() const;
 
-  constexpr void __set_identifier(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  constexpr void __cordl_internal_set_identifier(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   /// @brief Method GetInstance, addr 0xe85b38, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* GetInstance(::System::Object* obj);

@@ -21,7 +21,7 @@ MARK_VAL_T(::System::Threading::CancellationCallbackCoreWorkArguments);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2689))
 // CS Name: ::System.Threading::CancellationCallbackCoreWorkArguments
 struct CORDL_TYPE CancellationCallbackCoreWorkArguments {

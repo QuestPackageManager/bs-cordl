@@ -29,67 +29,67 @@ MARK_REF_PTR_T(::HMUI::HoverHintPanel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13536))
 // CS Name: ::HMUI::HoverHintPanel*
 class CORDL_TYPE HoverHintPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _padding, offset 0x20, size 0x8
-  __declspec(property(get = __get__padding, put = __set__padding))::UnityEngine::Vector2 _padding;
+  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding))::UnityEngine::Vector2 _padding;
 
   /// @brief Field _containerPadding, offset 0x28, size 0x8
-  __declspec(property(get = __get__containerPadding, put = __set__containerPadding))::UnityEngine::Vector2 _containerPadding;
+  __declspec(property(get = __cordl_internal_get__containerPadding, put = __cordl_internal_set__containerPadding))::UnityEngine::Vector2 _containerPadding;
 
   /// @brief Field _separator, offset 0x30, size 0x4
-  __declspec(property(get = __get__separator, put = __set__separator)) float_t _separator;
+  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
 
   /// @brief Field _zOffset, offset 0x34, size 0x4
-  __declspec(property(get = __get__zOffset, put = __set__zOffset)) float_t _zOffset;
+  __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
   /// @brief Field <isShown>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__isShown_k__BackingField, put = __set__isShown_k__BackingField)) bool _isShown_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isShown_k__BackingField, put = __cordl_internal_set__isShown_k__BackingField)) bool _isShown_k__BackingField;
 
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::Vector2& __get__padding();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__padding();
 
-  constexpr ::UnityEngine::Vector2 const& __get__padding() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__padding() const;
 
-  constexpr void __set__padding(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__padding(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__containerPadding();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__containerPadding();
 
-  constexpr ::UnityEngine::Vector2 const& __get__containerPadding() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
 
-  constexpr void __set__containerPadding(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__containerPadding(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get__separator();
+  constexpr float_t& __cordl_internal_get__separator();
 
-  constexpr float_t const& __get__separator() const;
+  constexpr float_t const& __cordl_internal_get__separator() const;
 
-  constexpr void __set__separator(float_t value);
+  constexpr void __cordl_internal_set__separator(float_t value);
 
-  constexpr float_t& __get__zOffset();
+  constexpr float_t& __cordl_internal_get__zOffset();
 
-  constexpr float_t const& __get__zOffset() const;
+  constexpr float_t const& __cordl_internal_get__zOffset() const;
 
-  constexpr void __set__zOffset(float_t value);
+  constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  constexpr bool& __get__isShown_k__BackingField();
+  constexpr bool& __cordl_internal_get__isShown_k__BackingField();
 
-  constexpr bool const& __get__isShown_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isShown_k__BackingField() const;
 
-  constexpr void __set__isShown_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isShown_k__BackingField(bool value);
 
   /// @brief Method get_isShown, addr 0x211d7b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
@@ -129,7 +129,7 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _padding, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____padding;

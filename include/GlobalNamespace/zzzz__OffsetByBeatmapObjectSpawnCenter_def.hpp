@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4694))
 // CS Name: ::OffsetByBeatmapObjectSpawnCenter*
 class CORDL_TYPE OffsetByBeatmapObjectSpawnCenter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _spawnCenter, offset 0x18, size 0x8
-  __declspec(property(get = __get__spawnCenter, put = __set__spawnCenter))::GlobalNamespace::BeatmapObjectSpawnCenter* _spawnCenter;
+  __declspec(property(get = __cordl_internal_get__spawnCenter, put = __cordl_internal_set__spawnCenter))::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> _spawnCenter;
 
-  constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter*& __get__spawnCenter();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter>& __cordl_internal_get__spawnCenter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectSpawnCenter*> const& __get__spawnCenter() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__spawnCenter() const;
 
-  constexpr void __set__spawnCenter(::GlobalNamespace::BeatmapObjectSpawnCenter* value);
+  constexpr void __cordl_internal_set__spawnCenter(::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> value);
 
   /// @brief Method Start, addr 0x2376610, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
@@ -59,7 +59,7 @@ protected:
 
 public:
   /// @brief Field _spawnCenter, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapObjectSpawnCenter* ____spawnCenter;
+  ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> ____spawnCenter;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchVisibility);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10364))
 // CS Name: ::UnityEngine.Rendering::BatchVisibility
 struct CORDL_TYPE BatchVisibility {

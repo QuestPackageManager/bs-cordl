@@ -34,7 +34,7 @@ MARK_VAL_T(::GlobalNamespace::AuthenticationToken);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12681))
 // CS Name: ::AuthenticationToken::Platform
 struct CORDL_TYPE __AuthenticationToken__Platform {
@@ -120,7 +120,7 @@ static_assert(offsetof(::GlobalNamespace::__AuthenticationToken__Platform, value
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12681))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12681))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12682))
 // CS Name: ::AuthenticationToken
 struct CORDL_TYPE AuthenticationToken {

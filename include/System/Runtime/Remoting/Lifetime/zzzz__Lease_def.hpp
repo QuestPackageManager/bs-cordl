@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3092))
 // CS Name: ::Lease::RenewalDelegate*
 class CORDL_TYPE __Lease__RenewalDelegate : public ::System::MulticastDelegate {
@@ -97,36 +97,36 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifet
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3096)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2605))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3093)) CS Name: ::System.Runtime.Remoting.Lifetime::Lease*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2605)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3096))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3093)) CS Name: ::System.Runtime.Remoting.Lifetime::Lease*
 class CORDL_TYPE Lease : public ::System::MarshalByRefObject {
 public:
   // Declarations
   using RenewalDelegate = ::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate;
 
   /// @brief Field _leaseExpireTime, offset 0x18, size 0x8
-  __declspec(property(get = __get__leaseExpireTime, put = __set__leaseExpireTime))::System::DateTime _leaseExpireTime;
+  __declspec(property(get = __cordl_internal_get__leaseExpireTime, put = __cordl_internal_set__leaseExpireTime))::System::DateTime _leaseExpireTime;
 
   /// @brief Field _currentState, offset 0x20, size 0x4
-  __declspec(property(get = __get__currentState, put = __set__currentState))::System::Runtime::Remoting::Lifetime::LeaseState _currentState;
+  __declspec(property(get = __cordl_internal_get__currentState, put = __cordl_internal_set__currentState))::System::Runtime::Remoting::Lifetime::LeaseState _currentState;
 
   /// @brief Field _initialLeaseTime, offset 0x28, size 0x8
-  __declspec(property(get = __get__initialLeaseTime, put = __set__initialLeaseTime))::System::TimeSpan _initialLeaseTime;
+  __declspec(property(get = __cordl_internal_get__initialLeaseTime, put = __cordl_internal_set__initialLeaseTime))::System::TimeSpan _initialLeaseTime;
 
   /// @brief Field _renewOnCallTime, offset 0x30, size 0x8
-  __declspec(property(get = __get__renewOnCallTime, put = __set__renewOnCallTime))::System::TimeSpan _renewOnCallTime;
+  __declspec(property(get = __cordl_internal_get__renewOnCallTime, put = __cordl_internal_set__renewOnCallTime))::System::TimeSpan _renewOnCallTime;
 
   /// @brief Field _sponsorshipTimeout, offset 0x38, size 0x8
-  __declspec(property(get = __get__sponsorshipTimeout, put = __set__sponsorshipTimeout))::System::TimeSpan _sponsorshipTimeout;
+  __declspec(property(get = __cordl_internal_get__sponsorshipTimeout, put = __cordl_internal_set__sponsorshipTimeout))::System::TimeSpan _sponsorshipTimeout;
 
   /// @brief Field _sponsors, offset 0x40, size 0x8
-  __declspec(property(get = __get__sponsors, put = __set__sponsors))::System::Collections::ArrayList* _sponsors;
+  __declspec(property(get = __cordl_internal_get__sponsors, put = __cordl_internal_set__sponsors))::System::Collections::ArrayList* _sponsors;
 
   /// @brief Field _renewingSponsors, offset 0x48, size 0x8
-  __declspec(property(get = __get__renewingSponsors, put = __set__renewingSponsors))::System::Collections::Queue* _renewingSponsors;
+  __declspec(property(get = __cordl_internal_get__renewingSponsors, put = __cordl_internal_set__renewingSponsors))::System::Collections::Queue* _renewingSponsors;
 
   /// @brief Field _renewalDelegate, offset 0x50, size 0x8
-  __declspec(property(get = __get__renewalDelegate, put = __set__renewalDelegate))::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate* _renewalDelegate;
+  __declspec(property(get = __cordl_internal_get__renewalDelegate, put = __cordl_internal_set__renewalDelegate))::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate* _renewalDelegate;
 
   __declspec(property(get = get_CurrentLeaseTime))::System::TimeSpan CurrentLeaseTime;
 
@@ -140,53 +140,53 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Lifetime::ILease"
   constexpr ::System::Runtime::Remoting::Lifetime::ILease* i___System__Runtime__Remoting__Lifetime__ILease() noexcept;
 
-  constexpr ::System::DateTime& __get__leaseExpireTime();
+  constexpr ::System::DateTime& __cordl_internal_get__leaseExpireTime();
 
-  constexpr ::System::DateTime const& __get__leaseExpireTime() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__leaseExpireTime() const;
 
-  constexpr void __set__leaseExpireTime(::System::DateTime value);
+  constexpr void __cordl_internal_set__leaseExpireTime(::System::DateTime value);
 
-  constexpr ::System::Runtime::Remoting::Lifetime::LeaseState& __get__currentState();
+  constexpr ::System::Runtime::Remoting::Lifetime::LeaseState& __cordl_internal_get__currentState();
 
-  constexpr ::System::Runtime::Remoting::Lifetime::LeaseState const& __get__currentState() const;
+  constexpr ::System::Runtime::Remoting::Lifetime::LeaseState const& __cordl_internal_get__currentState() const;
 
-  constexpr void __set__currentState(::System::Runtime::Remoting::Lifetime::LeaseState value);
+  constexpr void __cordl_internal_set__currentState(::System::Runtime::Remoting::Lifetime::LeaseState value);
 
-  constexpr ::System::TimeSpan& __get__initialLeaseTime();
+  constexpr ::System::TimeSpan& __cordl_internal_get__initialLeaseTime();
 
-  constexpr ::System::TimeSpan const& __get__initialLeaseTime() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__initialLeaseTime() const;
 
-  constexpr void __set__initialLeaseTime(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__initialLeaseTime(::System::TimeSpan value);
 
-  constexpr ::System::TimeSpan& __get__renewOnCallTime();
+  constexpr ::System::TimeSpan& __cordl_internal_get__renewOnCallTime();
 
-  constexpr ::System::TimeSpan const& __get__renewOnCallTime() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__renewOnCallTime() const;
 
-  constexpr void __set__renewOnCallTime(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__renewOnCallTime(::System::TimeSpan value);
 
-  constexpr ::System::TimeSpan& __get__sponsorshipTimeout();
+  constexpr ::System::TimeSpan& __cordl_internal_get__sponsorshipTimeout();
 
-  constexpr ::System::TimeSpan const& __get__sponsorshipTimeout() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__sponsorshipTimeout() const;
 
-  constexpr void __set__sponsorshipTimeout(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__sponsorshipTimeout(::System::TimeSpan value);
 
-  constexpr ::System::Collections::ArrayList*& __get__sponsors();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__sponsors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__sponsors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__sponsors() const;
 
-  constexpr void __set__sponsors(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__sponsors(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::Queue*& __get__renewingSponsors();
+  constexpr ::System::Collections::Queue*& __cordl_internal_get__renewingSponsors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Queue*> const& __get__renewingSponsors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Queue*> const& __cordl_internal_get__renewingSponsors() const;
 
-  constexpr void __set__renewingSponsors(::System::Collections::Queue* value);
+  constexpr void __cordl_internal_set__renewingSponsors(::System::Collections::Queue* value);
 
-  constexpr ::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate*& __get__renewalDelegate();
+  constexpr ::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate*& __cordl_internal_get__renewalDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate*> const& __get__renewalDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate*> const& __cordl_internal_get__renewalDelegate() const;
 
-  constexpr void __set__renewalDelegate(::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate* value);
+  constexpr void __cordl_internal_set__renewalDelegate(::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate* value);
 
   static inline ::System::Runtime::Remoting::Lifetime::Lease* New_ctor();
 

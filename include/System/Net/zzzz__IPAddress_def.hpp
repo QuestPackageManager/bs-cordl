@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::IPAddress);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9030))
 // CS Name: ::System.Net::IPAddress*
 class CORDL_TYPE IPAddress : public ::System::Object {
@@ -42,16 +42,16 @@ public:
   using ReadOnlyIPAddress = ::System::Net::__IPAddress__ReadOnlyIPAddress;
 
   /// @brief Field _addressOrScopeId, offset 0x10, size 0x4
-  __declspec(property(get = __get__addressOrScopeId, put = __set__addressOrScopeId)) uint32_t _addressOrScopeId;
+  __declspec(property(get = __cordl_internal_get__addressOrScopeId, put = __cordl_internal_set__addressOrScopeId)) uint32_t _addressOrScopeId;
 
   /// @brief Field _numbers, offset 0x18, size 0x8
-  __declspec(property(get = __get__numbers, put = __set__numbers))::ArrayW<uint16_t, ::Array<uint16_t>*> _numbers;
+  __declspec(property(get = __cordl_internal_get__numbers, put = __cordl_internal_set__numbers))::ArrayW<uint16_t, ::Array<uint16_t>*> _numbers;
 
   /// @brief Field _toString, offset 0x20, size 0x8
-  __declspec(property(get = __get__toString, put = __set__toString))::StringW _toString;
+  __declspec(property(get = __cordl_internal_get__toString, put = __cordl_internal_set__toString))::StringW _toString;
 
   /// @brief Field _hashCode, offset 0x28, size 0x4
-  __declspec(property(get = __get__hashCode, put = __set__hashCode)) int32_t _hashCode;
+  __declspec(property(get = __cordl_internal_get__hashCode, put = __cordl_internal_set__hashCode)) int32_t _hashCode;
 
   /// @brief Field Any, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Any, put = setStaticF_Any))::System::Net::IPAddress* Any;
@@ -88,29 +88,29 @@ public:
 
   __declspec(property(get = get_IsIPv6Multicast)) bool IsIPv6Multicast;
 
-  constexpr uint32_t& __get__addressOrScopeId();
+  constexpr uint32_t& __cordl_internal_get__addressOrScopeId();
 
-  constexpr uint32_t const& __get__addressOrScopeId() const;
+  constexpr uint32_t const& __cordl_internal_get__addressOrScopeId() const;
 
-  constexpr void __set__addressOrScopeId(uint32_t value);
+  constexpr void __cordl_internal_set__addressOrScopeId(uint32_t value);
 
-  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& __get__numbers();
+  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& __cordl_internal_get__numbers();
 
-  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*> const& __get__numbers() const;
+  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*> const& __cordl_internal_get__numbers() const;
 
-  constexpr void __set__numbers(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
+  constexpr void __cordl_internal_set__numbers(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
 
-  constexpr ::StringW& __get__toString();
+  constexpr ::StringW& __cordl_internal_get__toString();
 
-  constexpr ::StringW const& __get__toString() const;
+  constexpr ::StringW const& __cordl_internal_get__toString() const;
 
-  constexpr void __set__toString(::StringW value);
+  constexpr void __cordl_internal_set__toString(::StringW value);
 
-  constexpr int32_t& __get__hashCode();
+  constexpr int32_t& __cordl_internal_get__hashCode();
 
-  constexpr int32_t const& __get__hashCode() const;
+  constexpr int32_t const& __cordl_internal_get__hashCode() const;
 
-  constexpr void __set__hashCode(int32_t value);
+  constexpr void __cordl_internal_set__hashCode(int32_t value);
 
   static inline void setStaticF_Any(::System::Net::IPAddress* value);
 

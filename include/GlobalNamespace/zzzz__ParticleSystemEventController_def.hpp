@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ParticleSystemEventController__Pool);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4966))
 // CS Name: ::ParticleSystemEventController*
 class CORDL_TYPE ParticleSystemEventController : public ::UnityEngine::MonoBehaviour {
@@ -35,35 +35,35 @@ public:
   using Pool = ::GlobalNamespace::__ParticleSystemEventController__Pool;
 
   /// @brief Field _particleSystem, offset 0x18, size 0x8
-  __declspec(property(get = __get__particleSystem, put = __set__particleSystem))::UnityEngine::ParticleSystem* _particleSystem;
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
   /// @brief Field _particleSystemFullDuration, offset 0x20, size 0x4
-  __declspec(property(get = __get__particleSystemFullDuration, put = __set__particleSystemFullDuration)) float_t _particleSystemFullDuration;
+  __declspec(property(get = __cordl_internal_get__particleSystemFullDuration, put = __cordl_internal_set__particleSystemFullDuration)) float_t _particleSystemFullDuration;
 
   /// @brief Field <startTime>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__startTime_k__BackingField, put = __set__startTime_k__BackingField)) float_t _startTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__startTime_k__BackingField, put = __cordl_internal_set__startTime_k__BackingField)) float_t _startTime_k__BackingField;
 
   __declspec(property(get = get_startTime, put = set_startTime)) float_t startTime;
 
   __declspec(property(get = get_endTime)) float_t endTime;
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__particleSystem();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__particleSystem() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
 
-  constexpr void __set__particleSystem(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr float_t& __get__particleSystemFullDuration();
+  constexpr float_t& __cordl_internal_get__particleSystemFullDuration();
 
-  constexpr float_t const& __get__particleSystemFullDuration() const;
+  constexpr float_t const& __cordl_internal_get__particleSystemFullDuration() const;
 
-  constexpr void __set__particleSystemFullDuration(float_t value);
+  constexpr void __cordl_internal_set__particleSystemFullDuration(float_t value);
 
-  constexpr float_t& __get__startTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__startTime_k__BackingField();
 
-  constexpr float_t const& __get__startTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__startTime_k__BackingField() const;
 
-  constexpr void __set__startTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__startTime_k__BackingField(float_t value);
 
   /// @brief Method get_startTime, addr 0x23b02c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
@@ -112,7 +112,7 @@ protected:
 
 public:
   /// @brief Field _particleSystem, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____particleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
   /// @brief Field _particleSystemFullDuration, offset: 0x20, size: 0x4, def value: None
   float_t ____particleSystemFullDuration;
@@ -139,9 +139,9 @@ static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____sta
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2825 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4965)) CS Name: ::ParticleSystemEventController::Pool*
-class CORDL_TYPE __ParticleSystemEventController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ParticleSystemEventController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4966)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2825 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4965)) CS Name: ::ParticleSystemEventController::Pool*
+class CORDL_TYPE __ParticleSystemEventController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__ParticleSystemEventController__Pool* New_ctor();

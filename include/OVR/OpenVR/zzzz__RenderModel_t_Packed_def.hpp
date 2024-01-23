@@ -20,7 +20,7 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t_Packed);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8716))
 // CS Name: ::OVR.OpenVR::RenderModel_t_Packed
 #pragma pack(push, 4)

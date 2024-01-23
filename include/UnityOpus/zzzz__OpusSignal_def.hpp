@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityOpus::OpusSignal);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16217))
 // CS Name: ::UnityOpus::OpusSignal
 struct CORDL_TYPE OpusSignal {

@@ -41,35 +41,35 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5380))
 // CS Name: ::SongProfilingController::<ProfileCoroutine>d__8*
 class CORDL_TYPE __SongProfilingController___ProfileCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::SongProfilingController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SongProfilingController> __4__this;
 
   /// @brief Field folderName, offset 0x28, size 0x8
-  __declspec(property(get = __get_folderName, put = __set_folderName))::StringW folderName;
+  __declspec(property(get = __cordl_internal_get_folderName, put = __cordl_internal_set_folderName))::StringW folderName;
 
   /// @brief Field <startTime>5__2, offset 0x30, size 0x4
-  __declspec(property(get = __get__startTime_5__2, put = __set__startTime_5__2)) float_t _startTime_5__2;
+  __declspec(property(get = __cordl_internal_get__startTime_5__2, put = __cordl_internal_set__startTime_5__2)) float_t _startTime_5__2;
 
   /// @brief Field <lastFileName>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __get__lastFileName_5__3, put = __set__lastFileName_5__3))::StringW _lastFileName_5__3;
+  __declspec(property(get = __cordl_internal_get__lastFileName_5__3, put = __cordl_internal_set__lastFileName_5__3))::StringW _lastFileName_5__3;
 
   /// @brief Field <lowFPSCount>5__4, offset 0x40, size 0x4
-  __declspec(property(get = __get__lowFPSCount_5__4, put = __set__lowFPSCount_5__4)) int32_t _lowFPSCount_5__4;
+  __declspec(property(get = __cordl_internal_get__lowFPSCount_5__4, put = __cordl_internal_set__lowFPSCount_5__4)) int32_t _lowFPSCount_5__4;
 
   /// @brief Field <i>5__5, offset 0x44, size 0x4
-  __declspec(property(get = __get__i_5__5, put = __set__i_5__5)) int32_t _i_5__5;
+  __declspec(property(get = __cordl_internal_get__i_5__5, put = __cordl_internal_set__i_5__5)) int32_t _i_5__5;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -93,53 +93,53 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::SongProfilingController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::SongProfilingController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongProfilingController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::SongProfilingController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::SongProfilingController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongProfilingController> value);
 
-  constexpr ::StringW& __get_folderName();
+  constexpr ::StringW& __cordl_internal_get_folderName();
 
-  constexpr ::StringW const& __get_folderName() const;
+  constexpr ::StringW const& __cordl_internal_get_folderName() const;
 
-  constexpr void __set_folderName(::StringW value);
+  constexpr void __cordl_internal_set_folderName(::StringW value);
 
-  constexpr float_t& __get__startTime_5__2();
+  constexpr float_t& __cordl_internal_get__startTime_5__2();
 
-  constexpr float_t const& __get__startTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__startTime_5__2() const;
 
-  constexpr void __set__startTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__startTime_5__2(float_t value);
 
-  constexpr ::StringW& __get__lastFileName_5__3();
+  constexpr ::StringW& __cordl_internal_get__lastFileName_5__3();
 
-  constexpr ::StringW const& __get__lastFileName_5__3() const;
+  constexpr ::StringW const& __cordl_internal_get__lastFileName_5__3() const;
 
-  constexpr void __set__lastFileName_5__3(::StringW value);
+  constexpr void __cordl_internal_set__lastFileName_5__3(::StringW value);
 
-  constexpr int32_t& __get__lowFPSCount_5__4();
+  constexpr int32_t& __cordl_internal_get__lowFPSCount_5__4();
 
-  constexpr int32_t const& __get__lowFPSCount_5__4() const;
+  constexpr int32_t const& __cordl_internal_get__lowFPSCount_5__4() const;
 
-  constexpr void __set__lowFPSCount_5__4(int32_t value);
+  constexpr void __cordl_internal_set__lowFPSCount_5__4(int32_t value);
 
-  constexpr int32_t& __get__i_5__5();
+  constexpr int32_t& __cordl_internal_get__i_5__5();
 
-  constexpr int32_t const& __get__i_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__5() const;
 
-  constexpr void __set__i_5__5(int32_t value);
+  constexpr void __cordl_internal_set__i_5__5(int32_t value);
 
   static inline ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8* New_ctor(int32_t __1__state);
 
@@ -182,7 +182,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SongProfilingController* _____4__this;
+  ::UnityW<::GlobalNamespace::SongProfilingController> _____4__this;
 
   /// @brief Field folderName, offset: 0x28, size: 0x8, def value: None
   ::StringW ___folderName;
@@ -225,7 +225,7 @@ static_assert(offsetof(::GlobalNamespace::__SongProfilingController___ProfileCor
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5381))
 // CS Name: ::SongProfilingController*
 class CORDL_TYPE SongProfilingController : public ::UnityEngine::MonoBehaviour {
@@ -234,22 +234,22 @@ public:
   using _ProfileCoroutine_d__8 = ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8;
 
   /// @brief Field _sceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
   /// @brief Field _fps, offset 0x20, size 0x8
-  __declspec(property(get = __get__fps, put = __set__fps))::ArrayW<int32_t, ::Array<int32_t>*> _fps;
+  __declspec(property(get = __cordl_internal_get__fps, put = __cordl_internal_set__fps))::ArrayW<int32_t, ::Array<int32_t>*> _fps;
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __get__sceneSetupData();
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __get__sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__fps();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__fps();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__fps() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__fps() const;
 
-  constexpr void __set__fps(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__fps(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method FinishProfiling, addr 0x226dbb0, size 0x9c, virtual false, abstract: false, final false
   inline void FinishProfiling();

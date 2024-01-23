@@ -77,14 +77,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5010))
 // CS Name: ::EventsTestGameplayManager::MockBeatToTimeConvertor*
 class CORDL_TYPE __EventsTestGameplayManager__MockBeatToTimeConvertor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bpm, offset 0x10, size 0x4
-  __declspec(property(get = __get__bpm, put = __set__bpm)) float_t _bpm;
+  __declspec(property(get = __cordl_internal_get__bpm, put = __cordl_internal_set__bpm)) float_t _bpm;
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConvertor"
   constexpr operator ::GlobalNamespace::IBeatToTimeConvertor*() noexcept;
@@ -92,11 +92,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatToTimeConvertor"
   constexpr ::GlobalNamespace::IBeatToTimeConvertor* i___GlobalNamespace__IBeatToTimeConvertor() noexcept;
 
-  constexpr float_t& __get__bpm();
+  constexpr float_t& __cordl_internal_get__bpm();
 
-  constexpr float_t const& __get__bpm() const;
+  constexpr float_t const& __cordl_internal_get__bpm() const;
 
-  constexpr void __set__bpm(float_t value);
+  constexpr void __cordl_internal_set__bpm(float_t value);
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor* New_ctor(float_t bpm);
 
@@ -135,20 +135,20 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager__MockBeatT
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5011))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass18_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightGroupId, offset 0x10, size 0x4
-  __declspec(property(get = __get_lightGroupId, put = __set_lightGroupId)) int32_t lightGroupId;
+  __declspec(property(get = __cordl_internal_get_lightGroupId, put = __cordl_internal_set_lightGroupId)) int32_t lightGroupId;
 
-  constexpr int32_t& __get_lightGroupId();
+  constexpr int32_t& __cordl_internal_get_lightGroupId();
 
-  constexpr int32_t const& __get_lightGroupId() const;
+  constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
 
-  constexpr void __set_lightGroupId(int32_t value);
+  constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0* New_ctor();
 
@@ -187,20 +187,20 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__Disp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5012))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass19_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightGroupId, offset 0x10, size 0x4
-  __declspec(property(get = __get_lightGroupId, put = __set_lightGroupId)) int32_t lightGroupId;
+  __declspec(property(get = __cordl_internal_get_lightGroupId, put = __cordl_internal_set_lightGroupId)) int32_t lightGroupId;
 
-  constexpr int32_t& __get_lightGroupId();
+  constexpr int32_t& __cordl_internal_get_lightGroupId();
 
-  constexpr int32_t const& __get_lightGroupId() const;
+  constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
 
-  constexpr void __set_lightGroupId(int32_t value);
+  constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0* New_ctor();
 
@@ -239,20 +239,20 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__Disp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5013))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass20_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass20_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightGroupId, offset 0x10, size 0x4
-  __declspec(property(get = __get_lightGroupId, put = __set_lightGroupId)) int32_t lightGroupId;
+  __declspec(property(get = __cordl_internal_get_lightGroupId, put = __cordl_internal_set_lightGroupId)) int32_t lightGroupId;
 
-  constexpr int32_t& __get_lightGroupId();
+  constexpr int32_t& __cordl_internal_get_lightGroupId();
 
-  constexpr int32_t const& __get_lightGroupId() const;
+  constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
 
-  constexpr void __set_lightGroupId(int32_t value);
+  constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0* New_ctor();
 
@@ -291,7 +291,7 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__Disp
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5014))
 // CS Name: ::EventsTestGameplayManager*
 class CORDL_TYPE EventsTestGameplayManager : public ::UnityEngine::MonoBehaviour {
@@ -306,134 +306,138 @@ public:
   using MockBeatToTimeConvertor = ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor;
 
   /// @brief Field _moveTime, offset 0x18, size 0x1
-  __declspec(property(get = __get__moveTime, put = __set__moveTime)) bool _moveTime;
+  __declspec(property(get = __cordl_internal_get__moveTime, put = __cordl_internal_set__moveTime)) bool _moveTime;
 
   /// @brief Field _spawnTestBox, offset 0x19, size 0x1
-  __declspec(property(get = __get__spawnTestBox, put = __set__spawnTestBox)) bool _spawnTestBox;
+  __declspec(property(get = __cordl_internal_get__spawnTestBox, put = __cordl_internal_set__spawnTestBox)) bool _spawnTestBox;
 
   /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _beatmapData, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapData, put = __set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
 
   /// @brief Field _audioTimeSource, offset 0x30, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _basicBeatmapEventType, offset 0x38, size 0x4
-  __declspec(property(get = __get__basicBeatmapEventType, put = __set__basicBeatmapEventType))::GlobalNamespace::BasicBeatmapEventType _basicBeatmapEventType;
+  __declspec(property(get = __cordl_internal_get__basicBeatmapEventType, put = __cordl_internal_set__basicBeatmapEventType))::GlobalNamespace::BasicBeatmapEventType _basicBeatmapEventType;
 
   /// @brief Field _floatValue, offset 0x3c, size 0x4
-  __declspec(property(get = __get__floatValue, put = __set__floatValue)) float_t _floatValue;
+  __declspec(property(get = __cordl_internal_get__floatValue, put = __cordl_internal_set__floatValue)) float_t _floatValue;
 
   /// @brief Field _beatmapEventDataBoxGroupLists, offset 0x40, size 0x8
-  __declspec(property(
-      get = __get__beatmapEventDataBoxGroupLists,
-      put = __set__beatmapEventDataBoxGroupLists))::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> _beatmapEventDataBoxGroupLists;
+  __declspec(property(get = __cordl_internal_get__beatmapEventDataBoxGroupLists,
+                      put = __cordl_internal_set__beatmapEventDataBoxGroupLists))::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*,
+                                                                                          ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> _beatmapEventDataBoxGroupLists;
 
   /// @brief Field groupState, offset 0x48, size 0x8
-  __declspec(property(get = __get_groupState, put = __set_groupState))::ArrayW<bool, ::Array<bool>*> groupState;
+  __declspec(property(get = __cordl_internal_get_groupState, put = __cordl_internal_set_groupState))::ArrayW<bool, ::Array<bool>*> groupState;
 
   /// @brief Field _beatmapEventTypeBindings, offset 0x50, size 0x8
-  __declspec(property(get = __get__beatmapEventTypeBindings,
-                      put = __set__beatmapEventTypeBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>* _beatmapEventTypeBindings;
+  __declspec(property(
+      get = __cordl_internal_get__beatmapEventTypeBindings,
+      put = __cordl_internal_set__beatmapEventTypeBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>* _beatmapEventTypeBindings;
 
   /// @brief Field _intBindings, offset 0x58, size 0x8
-  __declspec(property(get = __get__intBindings, put = __set__intBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* _intBindings;
+  __declspec(property(get = __cordl_internal_get__intBindings, put = __cordl_internal_set__intBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* _intBindings;
 
   /// @brief Field _beatmapValuesBindings, offset 0x60, size 0x8
-  __declspec(property(get = __get__beatmapValuesBindings, put = __set__beatmapValuesBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* _beatmapValuesBindings;
+  __declspec(property(get = __cordl_internal_get__beatmapValuesBindings,
+                      put = __cordl_internal_set__beatmapValuesBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* _beatmapValuesBindings;
 
   /// @brief Field _floatValuesBindings, offset 0x68, size 0x8
-  __declspec(property(get = __get__floatValuesBindings, put = __set__floatValuesBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>* _floatValuesBindings;
+  __declspec(property(get = __cordl_internal_get__floatValuesBindings,
+                      put = __cordl_internal_set__floatValuesBindings))::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>* _floatValuesBindings;
 
   /// @brief Field _rotatingLasers, offset 0x70, size 0x1
-  __declspec(property(get = __get__rotatingLasers, put = __set__rotatingLasers)) bool _rotatingLasers;
+  __declspec(property(get = __cordl_internal_get__rotatingLasers, put = __cordl_internal_set__rotatingLasers)) bool _rotatingLasers;
 
-  constexpr bool& __get__moveTime();
+  constexpr bool& __cordl_internal_get__moveTime();
 
-  constexpr bool const& __get__moveTime() const;
+  constexpr bool const& __cordl_internal_get__moveTime() const;
 
-  constexpr void __set__moveTime(bool value);
+  constexpr void __cordl_internal_set__moveTime(bool value);
 
-  constexpr bool& __get__spawnTestBox();
+  constexpr bool& __cordl_internal_get__spawnTestBox();
 
-  constexpr bool const& __get__spawnTestBox() const;
+  constexpr bool const& __cordl_internal_get__spawnTestBox() const;
 
-  constexpr void __set__spawnTestBox(bool value);
+  constexpr void __cordl_internal_set__spawnTestBox(bool value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::GlobalNamespace::BeatmapData*& __get__beatmapData();
+  constexpr ::GlobalNamespace::BeatmapData*& __cordl_internal_get__beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __get__beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
-  constexpr void __set__beatmapData(::GlobalNamespace::BeatmapData* value);
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::BeatmapData* value);
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __get__basicBeatmapEventType();
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__basicBeatmapEventType();
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __get__basicBeatmapEventType() const;
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__basicBeatmapEventType() const;
 
-  constexpr void __set__basicBeatmapEventType(::GlobalNamespace::BasicBeatmapEventType value);
+  constexpr void __cordl_internal_set__basicBeatmapEventType(::GlobalNamespace::BasicBeatmapEventType value);
 
-  constexpr float_t& __get__floatValue();
+  constexpr float_t& __cordl_internal_get__floatValue();
 
-  constexpr float_t const& __get__floatValue() const;
+  constexpr float_t const& __cordl_internal_get__floatValue() const;
 
-  constexpr void __set__floatValue(float_t value);
+  constexpr void __cordl_internal_set__floatValue(float_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*>& __get__beatmapEventDataBoxGroupLists();
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*>& __cordl_internal_get__beatmapEventDataBoxGroupLists();
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> const& __get__beatmapEventDataBoxGroupLists() const;
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> const& __cordl_internal_get__beatmapEventDataBoxGroupLists() const;
 
-  constexpr void __set__beatmapEventDataBoxGroupLists(::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> value);
+  constexpr void __cordl_internal_set__beatmapEventDataBoxGroupLists(::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_groupState();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_groupState();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_groupState() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_groupState() const;
 
-  constexpr void __set_groupState(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_groupState(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>*& __get__beatmapEventTypeBindings();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>*& __cordl_internal_get__beatmapEventTypeBindings();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>*> const&
-  __get__beatmapEventTypeBindings() const;
+  __cordl_internal_get__beatmapEventTypeBindings() const;
 
-  constexpr void __set__beatmapEventTypeBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>* value);
+  constexpr void __cordl_internal_set__beatmapEventTypeBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*& __get__intBindings();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*& __cordl_internal_get__intBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*> const& __get__intBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*> const& __cordl_internal_get__intBindings() const;
 
-  constexpr void __set__intBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* value);
+  constexpr void __cordl_internal_set__intBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*& __get__beatmapValuesBindings();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*& __cordl_internal_get__beatmapValuesBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*> const& __get__beatmapValuesBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*> const& __cordl_internal_get__beatmapValuesBindings() const;
 
-  constexpr void __set__beatmapValuesBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* value);
+  constexpr void __cordl_internal_set__beatmapValuesBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>*& __get__floatValuesBindings();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>*& __cordl_internal_get__floatValuesBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>*> const& __get__floatValuesBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>*> const& __cordl_internal_get__floatValuesBindings() const;
 
-  constexpr void __set__floatValuesBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>* value);
+  constexpr void __cordl_internal_set__floatValuesBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>* value);
 
-  constexpr bool& __get__rotatingLasers();
+  constexpr bool& __cordl_internal_get__rotatingLasers();
 
-  constexpr bool const& __get__rotatingLasers() const;
+  constexpr bool const& __cordl_internal_get__rotatingLasers() const;
 
-  constexpr void __set__rotatingLasers(bool value);
+  constexpr void __cordl_internal_set__rotatingLasers(bool value);
 
   /// @brief Method Start, addr 0x23b8a0c, size 0x118, virtual false, abstract: false, final false
   inline void Start();

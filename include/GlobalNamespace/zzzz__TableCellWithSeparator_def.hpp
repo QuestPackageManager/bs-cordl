@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::TableCellWithSeparator);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13502))
 // CS Name: ::TableCellWithSeparator*
 class CORDL_TYPE TableCellWithSeparator : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _separator, offset 0x58, size 0x8
-  __declspec(property(get = __get__separator, put = __set__separator))::UnityEngine::GameObject* _separator;
+  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator))::UnityW<::UnityEngine::GameObject> _separator;
 
-  constexpr ::UnityEngine::GameObject*& __get__separator();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__separator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__separator() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
 
-  constexpr void __set__separator(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method TableViewSetup, addr 0x2116274, size 0xe4, virtual true, abstract: false, final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
@@ -59,7 +59,7 @@ protected:
 
 public:
   /// @brief Field _separator, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____separator;
+  ::UnityW<::UnityEngine::GameObject> ____separator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

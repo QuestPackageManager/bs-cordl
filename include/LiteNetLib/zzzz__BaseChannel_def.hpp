@@ -24,40 +24,40 @@ MARK_REF_PTR_T(::LiteNetLib::BaseChannel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14127))
 // CS Name: ::LiteNetLib::BaseChannel*
 class CORDL_TYPE BaseChannel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Next, offset 0x10, size 0x8
-  __declspec(property(get = __get_Next, put = __set_Next))::LiteNetLib::BaseChannel* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::LiteNetLib::BaseChannel* Next;
 
   /// @brief Field Peer, offset 0x18, size 0x8
-  __declspec(property(get = __get_Peer, put = __set_Peer))::LiteNetLib::NetPeer* Peer;
+  __declspec(property(get = __cordl_internal_get_Peer, put = __cordl_internal_set_Peer))::LiteNetLib::NetPeer* Peer;
 
   /// @brief Field OutgoingQueue, offset 0x20, size 0x8
-  __declspec(property(get = __get_OutgoingQueue, put = __set_OutgoingQueue))::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* OutgoingQueue;
+  __declspec(property(get = __cordl_internal_get_OutgoingQueue, put = __cordl_internal_set_OutgoingQueue))::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* OutgoingQueue;
 
   __declspec(property(get = get_PacketsInQueue)) int32_t PacketsInQueue;
 
-  constexpr ::LiteNetLib::BaseChannel*& __get_Next();
+  constexpr ::LiteNetLib::BaseChannel*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::BaseChannel*> const& __get_Next() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::BaseChannel*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __set_Next(::LiteNetLib::BaseChannel* value);
+  constexpr void __cordl_internal_set_Next(::LiteNetLib::BaseChannel* value);
 
-  constexpr ::LiteNetLib::NetPeer*& __get_Peer();
+  constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_Peer();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __get_Peer() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get_Peer() const;
 
-  constexpr void __set_Peer(::LiteNetLib::NetPeer* value);
+  constexpr void __cordl_internal_set_Peer(::LiteNetLib::NetPeer* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& __get_OutgoingQueue();
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& __cordl_internal_get_OutgoingQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*> const& __get_OutgoingQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get_OutgoingQueue() const;
 
-  constexpr void __set_OutgoingQueue(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value);
+  constexpr void __cordl_internal_set_OutgoingQueue(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value);
 
   static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 

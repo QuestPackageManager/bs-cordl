@@ -26,7 +26,7 @@ MARK_VAL_T(::System::Threading::Tasks::ForceAsyncAwaiter);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2769))
 // CS Name: ::System.Threading.Tasks::ForceAsyncAwaiter
 struct CORDL_TYPE ForceAsyncAwaiter {

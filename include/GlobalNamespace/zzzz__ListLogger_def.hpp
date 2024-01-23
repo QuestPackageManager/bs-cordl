@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ListLogger__LogMessage);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5878))
 // CS Name: ::ListLogger::LogType
 struct CORDL_TYPE __ListLogger__LogType {
@@ -102,38 +102,38 @@ static_assert(offsetof(::GlobalNamespace::__ListLogger__LogType, value__) == 0x0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5878))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5878))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5879))
 // CS Name: ::ListLogger::LogMessage*
 class CORDL_TYPE __ListLogger__LogMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::GlobalNamespace::__ListLogger__LogType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__ListLogger__LogType type;
 
   /// @brief Field message, offset 0x18, size 0x8
-  __declspec(property(get = __get_message, put = __set_message))::StringW message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::StringW message;
 
   /// @brief Field context, offset 0x20, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::System::Object* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Object* context;
 
-  constexpr ::GlobalNamespace::__ListLogger__LogType& __get_type();
+  constexpr ::GlobalNamespace::__ListLogger__LogType& __cordl_internal_get_type();
 
-  constexpr ::GlobalNamespace::__ListLogger__LogType const& __get_type() const;
+  constexpr ::GlobalNamespace::__ListLogger__LogType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::GlobalNamespace::__ListLogger__LogType value);
+  constexpr void __cordl_internal_set_type(::GlobalNamespace::__ListLogger__LogType value);
 
-  constexpr ::StringW& __get_message();
+  constexpr ::StringW& __cordl_internal_get_message();
 
-  constexpr ::StringW const& __get_message() const;
+  constexpr ::StringW const& __cordl_internal_get_message() const;
 
-  constexpr void __set_message(::StringW value);
+  constexpr void __cordl_internal_set_message(::StringW value);
 
-  constexpr ::System::Object*& __get_context();
+  constexpr ::System::Object*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::System::Object* value);
+  constexpr void __cordl_internal_set_context(::System::Object* value);
 
   static inline ::GlobalNamespace::__ListLogger__LogMessage* New_ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context);
 
@@ -182,7 +182,7 @@ static_assert(offsetof(::GlobalNamespace::__ListLogger__LogMessage, ___context) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5880))
 // CS Name: ::ListLogger*
 class CORDL_TYPE ListLogger : public ::System::Object {
@@ -193,7 +193,7 @@ public:
   using LogType = ::GlobalNamespace::__ListLogger__LogType;
 
   /// @brief Field _messages, offset 0x10, size 0x8
-  __declspec(property(get = __get__messages, put = __set__messages))::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* _messages;
+  __declspec(property(get = __cordl_internal_get__messages, put = __cordl_internal_set__messages))::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* _messages;
 
   __declspec(property(get = get_messages))::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* messages;
 
@@ -203,11 +203,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
   constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*& __get__messages();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*& __cordl_internal_get__messages();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*> const& __get__messages() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*> const& __cordl_internal_get__messages() const;
 
-  constexpr void __set__messages(::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* value);
+  constexpr void __cordl_internal_set__messages(::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* value);
 
   /// @brief Method get_messages, addr 0x22f98a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* get_messages();

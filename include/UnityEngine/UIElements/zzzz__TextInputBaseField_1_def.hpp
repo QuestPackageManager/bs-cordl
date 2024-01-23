@@ -119,64 +119,64 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6984)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 917 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7131))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7096)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6984)), TypeDefinitionIndex(TypeDefinitionIndex(7131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 917
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7096)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<::StringW, ::UnityEngine::UIElements::UxmlStringAttributeDescription*> {
 public:
   // Declarations
   /// @brief Field m_MaxLength, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_MaxLength, put = __set_m_MaxLength))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_MaxLength;
+  __declspec(property(get = __cordl_internal_get_m_MaxLength, put = __cordl_internal_set_m_MaxLength))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_MaxLength;
 
   /// @brief Field m_Password, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_Password, put = __set_m_Password))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Password;
+  __declspec(property(get = __cordl_internal_get_m_Password, put = __cordl_internal_set_m_Password))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Password;
 
   /// @brief Field m_MaskCharacter, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_MaskCharacter, put = __set_m_MaskCharacter))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_MaskCharacter;
+  __declspec(property(get = __cordl_internal_get_m_MaskCharacter, put = __cordl_internal_set_m_MaskCharacter))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_MaskCharacter;
 
   /// @brief Field m_Text, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
   /// @brief Field m_IsReadOnly, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_IsReadOnly, put = __set_m_IsReadOnly))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_IsReadOnly;
+  __declspec(property(get = __cordl_internal_get_m_IsReadOnly, put = __cordl_internal_set_m_IsReadOnly))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_IsReadOnly;
 
   /// @brief Field m_IsDelayed, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_IsDelayed, put = __set_m_IsDelayed))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_IsDelayed;
+  __declspec(property(get = __cordl_internal_get_m_IsDelayed, put = __cordl_internal_set_m_IsDelayed))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_IsDelayed;
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get_m_MaxLength();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_MaxLength();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get_m_MaxLength() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get_m_MaxLength() const;
 
-  constexpr void __set_m_MaxLength(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_MaxLength(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_Password();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Password();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_Password() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_Password() const;
 
-  constexpr void __set_m_Password(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Password(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_MaskCharacter();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_MaskCharacter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_MaskCharacter() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_MaskCharacter() const;
 
-  constexpr void __set_m_MaskCharacter(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_MaskCharacter(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Text();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Text() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_IsReadOnly();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_IsReadOnly();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_IsReadOnly() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_IsReadOnly() const;
 
-  constexpr void __set_m_IsReadOnly(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_IsReadOnly(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_IsDelayed();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_IsDelayed();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_IsDelayed() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_IsDelayed() const;
 
-  constexpr void __set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -228,63 +228,67 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7097))
 // CS Name: ::TextInputBaseField`1::TextInputBase<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__TextInputBase : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
   /// @brief Field m_OriginalText, offset 0x3b0, size 0x8
-  __declspec(property(get = __get_m_OriginalText, put = __set_m_OriginalText))::StringW m_OriginalText;
+  __declspec(property(get = __cordl_internal_get_m_OriginalText, put = __cordl_internal_set_m_OriginalText))::StringW m_OriginalText;
 
   /// @brief Field <isReadOnly>k__BackingField, offset 0x3b8, size 0x1
-  __declspec(property(get = __get__isReadOnly_k__BackingField, put = __set__isReadOnly_k__BackingField)) bool _isReadOnly_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isReadOnly_k__BackingField, put = __cordl_internal_set__isReadOnly_k__BackingField)) bool _isReadOnly_k__BackingField;
 
   /// @brief Field <maxLength>k__BackingField, offset 0x3bc, size 0x4
-  __declspec(property(get = __get__maxLength_k__BackingField, put = __set__maxLength_k__BackingField)) int32_t _maxLength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxLength_k__BackingField, put = __cordl_internal_set__maxLength_k__BackingField)) int32_t _maxLength_k__BackingField;
 
   /// @brief Field <maskChar>k__BackingField, offset 0x3c0, size 0x2
-  __declspec(property(get = __get__maskChar_k__BackingField, put = __set__maskChar_k__BackingField)) char16_t _maskChar_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maskChar_k__BackingField, put = __cordl_internal_set__maskChar_k__BackingField)) char16_t _maskChar_k__BackingField;
 
   /// @brief Field <isPasswordField>k__BackingField, offset 0x3c2, size 0x1
-  __declspec(property(get = __get__isPasswordField_k__BackingField, put = __set__isPasswordField_k__BackingField)) bool _isPasswordField_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isPasswordField_k__BackingField, put = __cordl_internal_set__isPasswordField_k__BackingField)) bool _isPasswordField_k__BackingField;
 
   /// @brief Field <doubleClickSelectsWord>k__BackingField, offset 0x3c3, size 0x1
-  __declspec(property(get = __get__doubleClickSelectsWord_k__BackingField, put = __set__doubleClickSelectsWord_k__BackingField)) bool _doubleClickSelectsWord_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__doubleClickSelectsWord_k__BackingField,
+                      put = __cordl_internal_set__doubleClickSelectsWord_k__BackingField)) bool _doubleClickSelectsWord_k__BackingField;
 
   /// @brief Field <tripleClickSelectsLine>k__BackingField, offset 0x3c4, size 0x1
-  __declspec(property(get = __get__tripleClickSelectsLine_k__BackingField, put = __set__tripleClickSelectsLine_k__BackingField)) bool _tripleClickSelectsLine_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__tripleClickSelectsLine_k__BackingField,
+                      put = __cordl_internal_set__tripleClickSelectsLine_k__BackingField)) bool _tripleClickSelectsLine_k__BackingField;
 
   /// @brief Field <isDelayed>k__BackingField, offset 0x3c5, size 0x1
-  __declspec(property(get = __get__isDelayed_k__BackingField, put = __set__isDelayed_k__BackingField)) bool _isDelayed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isDelayed_k__BackingField, put = __cordl_internal_set__isDelayed_k__BackingField)) bool _isDelayed_k__BackingField;
 
   /// @brief Field <isDragging>k__BackingField, offset 0x3c6, size 0x1
-  __declspec(property(get = __get__isDragging_k__BackingField, put = __set__isDragging_k__BackingField)) bool _isDragging_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isDragging_k__BackingField, put = __cordl_internal_set__isDragging_k__BackingField)) bool _isDragging_k__BackingField;
 
   /// @brief Field m_TouchScreenTextFieldInitialized, offset 0x3c7, size 0x1
-  __declspec(property(get = __get_m_TouchScreenTextFieldInitialized, put = __set_m_TouchScreenTextFieldInitialized)) bool m_TouchScreenTextFieldInitialized;
+  __declspec(property(get = __cordl_internal_get_m_TouchScreenTextFieldInitialized, put = __cordl_internal_set_m_TouchScreenTextFieldInitialized)) bool m_TouchScreenTextFieldInitialized;
 
   /// @brief Field m_HardwareKeyboardPoller, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_m_HardwareKeyboardPoller, put = __set_m_HardwareKeyboardPoller))::UnityEngine::UIElements::IVisualElementScheduledItem* m_HardwareKeyboardPoller;
+  __declspec(property(get = __cordl_internal_get_m_HardwareKeyboardPoller,
+                      put = __cordl_internal_set_m_HardwareKeyboardPoller))::UnityEngine::UIElements::IVisualElementScheduledItem* m_HardwareKeyboardPoller;
 
   /// @brief Field m_SelectionColor, offset 0x3d0, size 0x10
-  __declspec(property(get = __get_m_SelectionColor, put = __set_m_SelectionColor))::UnityEngine::Color m_SelectionColor;
+  __declspec(property(get = __cordl_internal_get_m_SelectionColor, put = __cordl_internal_set_m_SelectionColor))::UnityEngine::Color m_SelectionColor;
 
   /// @brief Field m_CursorColor, offset 0x3e0, size 0x10
-  __declspec(property(get = __get_m_CursorColor, put = __set_m_CursorColor))::UnityEngine::Color m_CursorColor;
+  __declspec(property(get = __cordl_internal_get_m_CursorColor, put = __cordl_internal_set_m_CursorColor))::UnityEngine::Color m_CursorColor;
 
   /// @brief Field <editorEventHandler>k__BackingField, offset 0x3f0, size 0x8
-  __declspec(property(get = __get__editorEventHandler_k__BackingField,
-                      put = __set__editorEventHandler_k__BackingField))::UnityEngine::UIElements::TextEditorEventHandler* _editorEventHandler_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__editorEventHandler_k__BackingField,
+                      put = __cordl_internal_set__editorEventHandler_k__BackingField))::UnityEngine::UIElements::TextEditorEventHandler* _editorEventHandler_k__BackingField;
 
   /// @brief Field <editorEngine>k__BackingField, offset 0x3f8, size 0x8
-  __declspec(property(get = __get__editorEngine_k__BackingField, put = __set__editorEngine_k__BackingField))::UnityEngine::UIElements::TextEditorEngine* _editorEngine_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__editorEngine_k__BackingField,
+                      put = __cordl_internal_set__editorEngine_k__BackingField))::UnityEngine::UIElements::TextEditorEngine* _editorEngine_k__BackingField;
 
   /// @brief Field m_TextHandle, offset 0x400, size 0x8
-  __declspec(property(get = __get_m_TextHandle, put = __set_m_TextHandle))::UnityEngine::UIElements::ITextHandle* m_TextHandle;
+  __declspec(property(get = __cordl_internal_get_m_TextHandle, put = __cordl_internal_set_m_TextHandle))::UnityEngine::UIElements::ITextHandle* m_TextHandle;
 
   /// @brief Field m_Text, offset 0x408, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::StringW m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::StringW m_Text;
 
   __declspec(property(get = UnityEngine_UIElements_ITextInputField_get_isReadOnly)) bool UnityEngine_UIElements_ITextInputField_isReadOnly;
 
@@ -344,107 +348,107 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::ITextElement"
   constexpr ::UnityEngine::UIElements::ITextElement* i___UnityEngine__UIElements__ITextElement() noexcept;
 
-  constexpr ::StringW& __get_m_OriginalText();
+  constexpr ::StringW& __cordl_internal_get_m_OriginalText();
 
-  constexpr ::StringW const& __get_m_OriginalText() const;
+  constexpr ::StringW const& __cordl_internal_get_m_OriginalText() const;
 
-  constexpr void __set_m_OriginalText(::StringW value);
+  constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
-  constexpr bool& __get__isReadOnly_k__BackingField();
+  constexpr bool& __cordl_internal_get__isReadOnly_k__BackingField();
 
-  constexpr bool const& __get__isReadOnly_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isReadOnly_k__BackingField() const;
 
-  constexpr void __set__isReadOnly_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isReadOnly_k__BackingField(bool value);
 
-  constexpr int32_t& __get__maxLength_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__maxLength_k__BackingField();
 
-  constexpr int32_t const& __get__maxLength_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__maxLength_k__BackingField() const;
 
-  constexpr void __set__maxLength_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__maxLength_k__BackingField(int32_t value);
 
-  constexpr char16_t& __get__maskChar_k__BackingField();
+  constexpr char16_t& __cordl_internal_get__maskChar_k__BackingField();
 
-  constexpr char16_t const& __get__maskChar_k__BackingField() const;
+  constexpr char16_t const& __cordl_internal_get__maskChar_k__BackingField() const;
 
-  constexpr void __set__maskChar_k__BackingField(char16_t value);
+  constexpr void __cordl_internal_set__maskChar_k__BackingField(char16_t value);
 
-  constexpr bool& __get__isPasswordField_k__BackingField();
+  constexpr bool& __cordl_internal_get__isPasswordField_k__BackingField();
 
-  constexpr bool const& __get__isPasswordField_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isPasswordField_k__BackingField() const;
 
-  constexpr void __set__isPasswordField_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isPasswordField_k__BackingField(bool value);
 
-  constexpr bool& __get__doubleClickSelectsWord_k__BackingField();
+  constexpr bool& __cordl_internal_get__doubleClickSelectsWord_k__BackingField();
 
-  constexpr bool const& __get__doubleClickSelectsWord_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__doubleClickSelectsWord_k__BackingField() const;
 
-  constexpr void __set__doubleClickSelectsWord_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__doubleClickSelectsWord_k__BackingField(bool value);
 
-  constexpr bool& __get__tripleClickSelectsLine_k__BackingField();
+  constexpr bool& __cordl_internal_get__tripleClickSelectsLine_k__BackingField();
 
-  constexpr bool const& __get__tripleClickSelectsLine_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__tripleClickSelectsLine_k__BackingField() const;
 
-  constexpr void __set__tripleClickSelectsLine_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__tripleClickSelectsLine_k__BackingField(bool value);
 
-  constexpr bool& __get__isDelayed_k__BackingField();
+  constexpr bool& __cordl_internal_get__isDelayed_k__BackingField();
 
-  constexpr bool const& __get__isDelayed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isDelayed_k__BackingField() const;
 
-  constexpr void __set__isDelayed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isDelayed_k__BackingField(bool value);
 
-  constexpr bool& __get__isDragging_k__BackingField();
+  constexpr bool& __cordl_internal_get__isDragging_k__BackingField();
 
-  constexpr bool const& __get__isDragging_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isDragging_k__BackingField() const;
 
-  constexpr void __set__isDragging_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isDragging_k__BackingField(bool value);
 
-  constexpr bool& __get_m_TouchScreenTextFieldInitialized();
+  constexpr bool& __cordl_internal_get_m_TouchScreenTextFieldInitialized();
 
-  constexpr bool const& __get_m_TouchScreenTextFieldInitialized() const;
+  constexpr bool const& __cordl_internal_get_m_TouchScreenTextFieldInitialized() const;
 
-  constexpr void __set_m_TouchScreenTextFieldInitialized(bool value);
+  constexpr void __cordl_internal_set_m_TouchScreenTextFieldInitialized(bool value);
 
-  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __get_m_HardwareKeyboardPoller();
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_HardwareKeyboardPoller();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __get_m_HardwareKeyboardPoller() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_HardwareKeyboardPoller() const;
 
-  constexpr void __set_m_HardwareKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
+  constexpr void __cordl_internal_set_m_HardwareKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
-  constexpr ::UnityEngine::Color& __get_m_SelectionColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_SelectionColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_SelectionColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_SelectionColor() const;
 
-  constexpr void __set_m_SelectionColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_SelectionColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_m_CursorColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_CursorColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_CursorColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_CursorColor() const;
 
-  constexpr void __set_m_CursorColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_CursorColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::UIElements::TextEditorEventHandler*& __get__editorEventHandler_k__BackingField();
+  constexpr ::UnityEngine::UIElements::TextEditorEventHandler*& __cordl_internal_get__editorEventHandler_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEventHandler*> const& __get__editorEventHandler_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEventHandler*> const& __cordl_internal_get__editorEventHandler_k__BackingField() const;
 
-  constexpr void __set__editorEventHandler_k__BackingField(::UnityEngine::UIElements::TextEditorEventHandler* value);
+  constexpr void __cordl_internal_set__editorEventHandler_k__BackingField(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
-  constexpr ::UnityEngine::UIElements::TextEditorEngine*& __get__editorEngine_k__BackingField();
+  constexpr ::UnityEngine::UIElements::TextEditorEngine*& __cordl_internal_get__editorEngine_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEngine*> const& __get__editorEngine_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEngine*> const& __cordl_internal_get__editorEngine_k__BackingField() const;
 
-  constexpr void __set__editorEngine_k__BackingField(::UnityEngine::UIElements::TextEditorEngine* value);
+  constexpr void __cordl_internal_set__editorEngine_k__BackingField(::UnityEngine::UIElements::TextEditorEngine* value);
 
-  constexpr ::UnityEngine::UIElements::ITextHandle*& __get_m_TextHandle();
+  constexpr ::UnityEngine::UIElements::ITextHandle*& __cordl_internal_get_m_TextHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& __get_m_TextHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& __cordl_internal_get_m_TextHandle() const;
 
-  constexpr void __set_m_TextHandle(::UnityEngine::UIElements::ITextHandle* value);
+  constexpr void __cordl_internal_set_m_TextHandle(::UnityEngine::UIElements::ITextHandle* value);
 
-  constexpr ::StringW& __get_m_Text();
+  constexpr ::StringW& __cordl_internal_get_m_Text();
 
-  constexpr ::StringW const& __get_m_Text() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::StringW value);
+  constexpr void __cordl_internal_set_m_Text(::StringW value);
 
   /// @brief Method ResetValueAndText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ResetValueAndText();
@@ -737,8 +741,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7306)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 919 }), TypeDefinitionIndex(TypeDefinitionIndex(7130))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 919 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7098)) CS Name: ::UnityEngine.UIElements::TextInputBaseField`1<TValueType>*
 class CORDL_TYPE TextInputBaseField_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
@@ -748,16 +752,18 @@ public:
   using UxmlTraits = ::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>;
 
   /// @brief Field m_VisualInputTabIndex, offset 0x404, size 0x4
-  __declspec(property(get = __get_m_VisualInputTabIndex, put = __set_m_VisualInputTabIndex)) int32_t m_VisualInputTabIndex;
+  __declspec(property(get = __cordl_internal_get_m_VisualInputTabIndex, put = __cordl_internal_set_m_VisualInputTabIndex)) int32_t m_VisualInputTabIndex;
 
   /// @brief Field m_TextInputBase, offset 0x408, size 0x8
-  __declspec(property(get = __get_m_TextInputBase, put = __set_m_TextInputBase))::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* m_TextInputBase;
+  __declspec(property(get = __cordl_internal_get_m_TextInputBase,
+                      put = __cordl_internal_set_m_TextInputBase))::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* m_TextInputBase;
 
   /// @brief Field <iTextHandle>k__BackingField, offset 0x410, size 0x8
-  __declspec(property(get = __get__iTextHandle_k__BackingField, put = __set__iTextHandle_k__BackingField))::UnityEngine::UIElements::ITextHandle* _iTextHandle_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__iTextHandle_k__BackingField,
+                      put = __cordl_internal_set__iTextHandle_k__BackingField))::UnityEngine::UIElements::ITextHandle* _iTextHandle_k__BackingField;
 
   /// @brief Field onIsReadOnlyChanged, offset 0x418, size 0x8
-  __declspec(property(get = __get_onIsReadOnlyChanged, put = __set_onIsReadOnlyChanged))::System::Action_1<bool>* onIsReadOnlyChanged;
+  __declspec(property(get = __cordl_internal_get_onIsReadOnlyChanged, put = __cordl_internal_set_onIsReadOnlyChanged))::System::Action_1<bool>* onIsReadOnlyChanged;
 
   /// @brief Field s_SelectionColorProperty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_SelectionColorProperty,
@@ -801,29 +807,29 @@ public:
 
   __declspec(property(put = set_maskChar)) char16_t maskChar;
 
-  constexpr int32_t& __get_m_VisualInputTabIndex();
+  constexpr int32_t& __cordl_internal_get_m_VisualInputTabIndex();
 
-  constexpr int32_t const& __get_m_VisualInputTabIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_VisualInputTabIndex() const;
 
-  constexpr void __set_m_VisualInputTabIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_VisualInputTabIndex(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*& __get_m_TextInputBase();
+  constexpr ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*& __cordl_internal_get_m_TextInputBase();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*> const& __get_m_TextInputBase() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*> const& __cordl_internal_get_m_TextInputBase() const;
 
-  constexpr void __set_m_TextInputBase(::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* value);
+  constexpr void __cordl_internal_set_m_TextInputBase(::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* value);
 
-  constexpr ::UnityEngine::UIElements::ITextHandle*& __get__iTextHandle_k__BackingField();
+  constexpr ::UnityEngine::UIElements::ITextHandle*& __cordl_internal_get__iTextHandle_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& __get__iTextHandle_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& __cordl_internal_get__iTextHandle_k__BackingField() const;
 
-  constexpr void __set__iTextHandle_k__BackingField(::UnityEngine::UIElements::ITextHandle* value);
+  constexpr void __cordl_internal_set__iTextHandle_k__BackingField(::UnityEngine::UIElements::ITextHandle* value);
 
-  constexpr ::System::Action_1<bool>*& __get_onIsReadOnlyChanged();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_onIsReadOnlyChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_onIsReadOnlyChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_onIsReadOnlyChanged() const;
 
-  constexpr void __set_onIsReadOnlyChanged(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_onIsReadOnlyChanged(::System::Action_1<bool>* value);
 
   static inline void setStaticF_s_SelectionColorProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> value);
 

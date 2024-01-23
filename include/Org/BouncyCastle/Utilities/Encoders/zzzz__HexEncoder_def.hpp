@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::HexEncoder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1799))
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::HexEncoder*
 class CORDL_TYPE HexEncoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encodingTable, offset 0x10, size 0x8
-  __declspec(property(get = __get_encodingTable, put = __set_encodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> encodingTable;
+  __declspec(property(get = __cordl_internal_get_encodingTable, put = __cordl_internal_set_encodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> encodingTable;
 
   /// @brief Field decodingTable, offset 0x18, size 0x8
-  __declspec(property(get = __get_decodingTable, put = __set_decodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
+  __declspec(property(get = __cordl_internal_get_decodingTable, put = __cordl_internal_set_decodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
@@ -41,17 +41,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_encodingTable();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encodingTable();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_encodingTable() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encodingTable() const;
 
-  constexpr void __set_encodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_encodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_decodingTable();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_decodingTable();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_decodingTable() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_decodingTable() const;
 
-  constexpr void __set_decodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_decodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method InitialiseDecodingTable, addr 0x115e888, size 0x164, virtual false, abstract: false, final false
   inline void InitialiseDecodingTable();

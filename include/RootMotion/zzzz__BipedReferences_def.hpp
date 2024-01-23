@@ -44,7 +44,7 @@ MARK_VAL_T(::RootMotion::__BipedReferences__AutoDetectParams);
 // SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12487))
 // CS Name: ::BipedReferences::AutoDetectParams
 struct CORDL_TYPE __BipedReferences__AutoDetectParams {
@@ -86,7 +86,7 @@ static_assert(offsetof(::RootMotion::__BipedReferences__AutoDetectParams, includ
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12488))
 // CS Name: ::RootMotion::BipedReferences*
 class CORDL_TYPE BipedReferences : public ::System::Object {
@@ -95,161 +95,161 @@ public:
   using AutoDetectParams = ::RootMotion::__BipedReferences__AutoDetectParams;
 
   /// @brief Field root, offset 0x10, size 0x8
-  __declspec(property(get = __get_root, put = __set_root))::UnityEngine::Transform* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityW<::UnityEngine::Transform> root;
 
   /// @brief Field pelvis, offset 0x18, size 0x8
-  __declspec(property(get = __get_pelvis, put = __set_pelvis))::UnityEngine::Transform* pelvis;
+  __declspec(property(get = __cordl_internal_get_pelvis, put = __cordl_internal_set_pelvis))::UnityW<::UnityEngine::Transform> pelvis;
 
   /// @brief Field leftThigh, offset 0x20, size 0x8
-  __declspec(property(get = __get_leftThigh, put = __set_leftThigh))::UnityEngine::Transform* leftThigh;
+  __declspec(property(get = __cordl_internal_get_leftThigh, put = __cordl_internal_set_leftThigh))::UnityW<::UnityEngine::Transform> leftThigh;
 
   /// @brief Field leftCalf, offset 0x28, size 0x8
-  __declspec(property(get = __get_leftCalf, put = __set_leftCalf))::UnityEngine::Transform* leftCalf;
+  __declspec(property(get = __cordl_internal_get_leftCalf, put = __cordl_internal_set_leftCalf))::UnityW<::UnityEngine::Transform> leftCalf;
 
   /// @brief Field leftFoot, offset 0x30, size 0x8
-  __declspec(property(get = __get_leftFoot, put = __set_leftFoot))::UnityEngine::Transform* leftFoot;
+  __declspec(property(get = __cordl_internal_get_leftFoot, put = __cordl_internal_set_leftFoot))::UnityW<::UnityEngine::Transform> leftFoot;
 
   /// @brief Field rightThigh, offset 0x38, size 0x8
-  __declspec(property(get = __get_rightThigh, put = __set_rightThigh))::UnityEngine::Transform* rightThigh;
+  __declspec(property(get = __cordl_internal_get_rightThigh, put = __cordl_internal_set_rightThigh))::UnityW<::UnityEngine::Transform> rightThigh;
 
   /// @brief Field rightCalf, offset 0x40, size 0x8
-  __declspec(property(get = __get_rightCalf, put = __set_rightCalf))::UnityEngine::Transform* rightCalf;
+  __declspec(property(get = __cordl_internal_get_rightCalf, put = __cordl_internal_set_rightCalf))::UnityW<::UnityEngine::Transform> rightCalf;
 
   /// @brief Field rightFoot, offset 0x48, size 0x8
-  __declspec(property(get = __get_rightFoot, put = __set_rightFoot))::UnityEngine::Transform* rightFoot;
+  __declspec(property(get = __cordl_internal_get_rightFoot, put = __cordl_internal_set_rightFoot))::UnityW<::UnityEngine::Transform> rightFoot;
 
   /// @brief Field leftUpperArm, offset 0x50, size 0x8
-  __declspec(property(get = __get_leftUpperArm, put = __set_leftUpperArm))::UnityEngine::Transform* leftUpperArm;
+  __declspec(property(get = __cordl_internal_get_leftUpperArm, put = __cordl_internal_set_leftUpperArm))::UnityW<::UnityEngine::Transform> leftUpperArm;
 
   /// @brief Field leftForearm, offset 0x58, size 0x8
-  __declspec(property(get = __get_leftForearm, put = __set_leftForearm))::UnityEngine::Transform* leftForearm;
+  __declspec(property(get = __cordl_internal_get_leftForearm, put = __cordl_internal_set_leftForearm))::UnityW<::UnityEngine::Transform> leftForearm;
 
   /// @brief Field leftHand, offset 0x60, size 0x8
-  __declspec(property(get = __get_leftHand, put = __set_leftHand))::UnityEngine::Transform* leftHand;
+  __declspec(property(get = __cordl_internal_get_leftHand, put = __cordl_internal_set_leftHand))::UnityW<::UnityEngine::Transform> leftHand;
 
   /// @brief Field rightUpperArm, offset 0x68, size 0x8
-  __declspec(property(get = __get_rightUpperArm, put = __set_rightUpperArm))::UnityEngine::Transform* rightUpperArm;
+  __declspec(property(get = __cordl_internal_get_rightUpperArm, put = __cordl_internal_set_rightUpperArm))::UnityW<::UnityEngine::Transform> rightUpperArm;
 
   /// @brief Field rightForearm, offset 0x70, size 0x8
-  __declspec(property(get = __get_rightForearm, put = __set_rightForearm))::UnityEngine::Transform* rightForearm;
+  __declspec(property(get = __cordl_internal_get_rightForearm, put = __cordl_internal_set_rightForearm))::UnityW<::UnityEngine::Transform> rightForearm;
 
   /// @brief Field rightHand, offset 0x78, size 0x8
-  __declspec(property(get = __get_rightHand, put = __set_rightHand))::UnityEngine::Transform* rightHand;
+  __declspec(property(get = __cordl_internal_get_rightHand, put = __cordl_internal_set_rightHand))::UnityW<::UnityEngine::Transform> rightHand;
 
   /// @brief Field head, offset 0x80, size 0x8
-  __declspec(property(get = __get_head, put = __set_head))::UnityEngine::Transform* head;
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::UnityW<::UnityEngine::Transform> head;
 
   /// @brief Field spine, offset 0x88, size 0x8
-  __declspec(property(get = __get_spine, put = __set_spine))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spine;
+  __declspec(property(get = __cordl_internal_get_spine, put = __cordl_internal_set_spine))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> spine;
 
   /// @brief Field eyes, offset 0x90, size 0x8
-  __declspec(property(get = __get_eyes, put = __set_eyes))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> eyes;
+  __declspec(property(get = __cordl_internal_get_eyes, put = __cordl_internal_set_eyes))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> eyes;
 
   __declspec(property(get = get_isFilled)) bool isFilled;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
-  constexpr ::UnityEngine::Transform*& __get_root();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_root();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_root() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_root() const;
 
-  constexpr void __set_root(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_root(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_pelvis();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_pelvis();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_pelvis() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_pelvis() const;
 
-  constexpr void __set_pelvis(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_pelvis(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftThigh();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftThigh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftThigh() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftThigh() const;
 
-  constexpr void __set_leftThigh(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftThigh(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftCalf();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftCalf();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftCalf() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftCalf() const;
 
-  constexpr void __set_leftCalf(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftCalf(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftFoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftFoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftFoot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftFoot() const;
 
-  constexpr void __set_leftFoot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftFoot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightThigh();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightThigh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightThigh() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightThigh() const;
 
-  constexpr void __set_rightThigh(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightThigh(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightCalf();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightCalf();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightCalf() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightCalf() const;
 
-  constexpr void __set_rightCalf(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightCalf(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightFoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightFoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightFoot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightFoot() const;
 
-  constexpr void __set_rightFoot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightFoot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftUpperArm();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftUpperArm();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftUpperArm() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftUpperArm() const;
 
-  constexpr void __set_leftUpperArm(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftUpperArm(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftForearm();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftForearm();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftForearm() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftForearm() const;
 
-  constexpr void __set_leftForearm(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftForearm(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftHand();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftHand();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftHand() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftHand() const;
 
-  constexpr void __set_leftHand(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftHand(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightUpperArm();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightUpperArm();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightUpperArm() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightUpperArm() const;
 
-  constexpr void __set_rightUpperArm(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightUpperArm(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightForearm();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightForearm();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightForearm() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightForearm() const;
 
-  constexpr void __set_rightForearm(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightForearm(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightHand();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightHand();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightHand() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightHand() const;
 
-  constexpr void __set_rightHand(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightHand(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_head();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_head();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_head() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_head() const;
 
-  constexpr void __set_head(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_head(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_spine();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_spine();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_spine() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_spine() const;
 
-  constexpr void __set_spine(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_spine(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_eyes();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_eyes();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_eyes() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_eyes() const;
 
-  constexpr void __set_eyes(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_eyes(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
   /// @brief Method get_isFilled, addr 0x12393b4, size 0x35c, virtual true, abstract: false, final false
   inline bool get_isFilled();
@@ -342,55 +342,55 @@ protected:
 
 public:
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___root;
+  ::UnityW<::UnityEngine::Transform> ___root;
 
   /// @brief Field pelvis, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___pelvis;
+  ::UnityW<::UnityEngine::Transform> ___pelvis;
 
   /// @brief Field leftThigh, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftThigh;
+  ::UnityW<::UnityEngine::Transform> ___leftThigh;
 
   /// @brief Field leftCalf, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftCalf;
+  ::UnityW<::UnityEngine::Transform> ___leftCalf;
 
   /// @brief Field leftFoot, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftFoot;
+  ::UnityW<::UnityEngine::Transform> ___leftFoot;
 
   /// @brief Field rightThigh, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightThigh;
+  ::UnityW<::UnityEngine::Transform> ___rightThigh;
 
   /// @brief Field rightCalf, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightCalf;
+  ::UnityW<::UnityEngine::Transform> ___rightCalf;
 
   /// @brief Field rightFoot, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightFoot;
+  ::UnityW<::UnityEngine::Transform> ___rightFoot;
 
   /// @brief Field leftUpperArm, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftUpperArm;
+  ::UnityW<::UnityEngine::Transform> ___leftUpperArm;
 
   /// @brief Field leftForearm, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftForearm;
+  ::UnityW<::UnityEngine::Transform> ___leftForearm;
 
   /// @brief Field leftHand, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftHand;
+  ::UnityW<::UnityEngine::Transform> ___leftHand;
 
   /// @brief Field rightUpperArm, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightUpperArm;
+  ::UnityW<::UnityEngine::Transform> ___rightUpperArm;
 
   /// @brief Field rightForearm, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightForearm;
+  ::UnityW<::UnityEngine::Transform> ___rightForearm;
 
   /// @brief Field rightHand, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightHand;
+  ::UnityW<::UnityEngine::Transform> ___rightHand;
 
   /// @brief Field head, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___head;
+  ::UnityW<::UnityEngine::Transform> ___head;
 
   /// @brief Field spine, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___spine;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___spine;
 
   /// @brief Field eyes, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___eyes;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___eyes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

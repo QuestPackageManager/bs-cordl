@@ -33,20 +33,20 @@ MARK_REF_PTR_T(::System::Threading::ManualResetEventSlim);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2678))
 // CS Name: ::System.Threading::ManualResetEventSlim*
 class CORDL_TYPE ManualResetEventSlim : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_lock, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_lock, put = __set_m_lock))::System::Object* m_lock;
+  __declspec(property(get = __cordl_internal_get_m_lock, put = __cordl_internal_set_m_lock))::System::Object* m_lock;
 
   /// @brief Field m_eventObj, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_eventObj, put = __set_m_eventObj))::System::Threading::ManualResetEvent* m_eventObj;
+  __declspec(property(get = __cordl_internal_get_m_eventObj, put = __cordl_internal_set_m_eventObj))::System::Threading::ManualResetEvent* m_eventObj;
 
   /// @brief Field m_combinedState, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_combinedState, put = __set_m_combinedState)) int32_t m_combinedState;
+  __declspec(property(get = __cordl_internal_get_m_combinedState, put = __cordl_internal_set_m_combinedState)) int32_t m_combinedState;
 
   /// @brief Field s_cancellationTokenCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cancellationTokenCallback, put = setStaticF_s_cancellationTokenCallback))::System::Action_1<::System::Object*>* s_cancellationTokenCallback;
@@ -65,23 +65,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Object*& __get_m_lock();
+  constexpr ::System::Object*& __cordl_internal_get_m_lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_lock() const;
 
-  constexpr void __set_m_lock(::System::Object* value);
+  constexpr void __cordl_internal_set_m_lock(::System::Object* value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_m_eventObj();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_m_eventObj();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_m_eventObj() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_m_eventObj() const;
 
-  constexpr void __set_m_eventObj(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_m_eventObj(::System::Threading::ManualResetEvent* value);
 
-  constexpr int32_t& __get_m_combinedState();
+  constexpr int32_t& __cordl_internal_get_m_combinedState();
 
-  constexpr int32_t const& __get_m_combinedState() const;
+  constexpr int32_t const& __cordl_internal_get_m_combinedState() const;
 
-  constexpr void __set_m_combinedState(int32_t value);
+  constexpr void __cordl_internal_set_m_combinedState(int32_t value);
 
   static inline void setStaticF_s_cancellationTokenCallback(::System::Action_1<::System::Object*>* value);
 

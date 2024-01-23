@@ -43,31 +43,34 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::ExtendedPointerEventData);
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(13168)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6372))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6371)) CS Name: ::UnityEngine.InputSystem.UI::ExtendedPointerEventData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6372)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13168))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6371)) CS Name: ::UnityEngine.InputSystem.UI::ExtendedPointerEventData*
 class CORDL_TYPE ExtendedPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
 public:
   // Declarations
   /// @brief Field <control>k__BackingField, offset 0x160, size 0x8
-  __declspec(property(get = __get__control_k__BackingField, put = __set__control_k__BackingField))::UnityEngine::InputSystem::InputControl* _control_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__control_k__BackingField, put = __cordl_internal_set__control_k__BackingField))::UnityEngine::InputSystem::InputControl* _control_k__BackingField;
 
   /// @brief Field <device>k__BackingField, offset 0x168, size 0x8
-  __declspec(property(get = __get__device_k__BackingField, put = __set__device_k__BackingField))::UnityEngine::InputSystem::InputDevice* _device_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__device_k__BackingField, put = __cordl_internal_set__device_k__BackingField))::UnityEngine::InputSystem::InputDevice* _device_k__BackingField;
 
   /// @brief Field <touchId>k__BackingField, offset 0x170, size 0x4
-  __declspec(property(get = __get__touchId_k__BackingField, put = __set__touchId_k__BackingField)) int32_t _touchId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__touchId_k__BackingField, put = __cordl_internal_set__touchId_k__BackingField)) int32_t _touchId_k__BackingField;
 
   /// @brief Field <pointerType>k__BackingField, offset 0x174, size 0x4
-  __declspec(property(get = __get__pointerType_k__BackingField, put = __set__pointerType_k__BackingField))::UnityEngine::InputSystem::UI::UIPointerType _pointerType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pointerType_k__BackingField,
+                      put = __cordl_internal_set__pointerType_k__BackingField))::UnityEngine::InputSystem::UI::UIPointerType _pointerType_k__BackingField;
 
   /// @brief Field <uiToolkitPointerId>k__BackingField, offset 0x178, size 0x4
-  __declspec(property(get = __get__uiToolkitPointerId_k__BackingField, put = __set__uiToolkitPointerId_k__BackingField)) int32_t _uiToolkitPointerId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__uiToolkitPointerId_k__BackingField, put = __cordl_internal_set__uiToolkitPointerId_k__BackingField)) int32_t _uiToolkitPointerId_k__BackingField;
 
   /// @brief Field <trackedDevicePosition>k__BackingField, offset 0x17c, size 0xc
-  __declspec(property(get = __get__trackedDevicePosition_k__BackingField, put = __set__trackedDevicePosition_k__BackingField))::UnityEngine::Vector3 _trackedDevicePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__trackedDevicePosition_k__BackingField,
+                      put = __cordl_internal_set__trackedDevicePosition_k__BackingField))::UnityEngine::Vector3 _trackedDevicePosition_k__BackingField;
 
   /// @brief Field <trackedDeviceOrientation>k__BackingField, offset 0x188, size 0x10
-  __declspec(property(get = __get__trackedDeviceOrientation_k__BackingField, put = __set__trackedDeviceOrientation_k__BackingField))::UnityEngine::Quaternion _trackedDeviceOrientation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__trackedDeviceOrientation_k__BackingField,
+                      put = __cordl_internal_set__trackedDeviceOrientation_k__BackingField))::UnityEngine::Quaternion _trackedDeviceOrientation_k__BackingField;
 
   __declspec(property(get = get_control, put = set_control))::UnityEngine::InputSystem::InputControl* control;
 
@@ -83,47 +86,47 @@ public:
 
   __declspec(property(get = get_trackedDeviceOrientation, put = set_trackedDeviceOrientation))::UnityEngine::Quaternion trackedDeviceOrientation;
 
-  constexpr ::UnityEngine::InputSystem::InputControl*& __get__control_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get__control_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __get__control_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __cordl_internal_get__control_k__BackingField() const;
 
-  constexpr void __set__control_k__BackingField(::UnityEngine::InputSystem::InputControl* value);
+  constexpr void __cordl_internal_set__control_k__BackingField(::UnityEngine::InputSystem::InputControl* value);
 
-  constexpr ::UnityEngine::InputSystem::InputDevice*& __get__device_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get__device_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __get__device_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __cordl_internal_get__device_k__BackingField() const;
 
-  constexpr void __set__device_k__BackingField(::UnityEngine::InputSystem::InputDevice* value);
+  constexpr void __cordl_internal_set__device_k__BackingField(::UnityEngine::InputSystem::InputDevice* value);
 
-  constexpr int32_t& __get__touchId_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__touchId_k__BackingField();
 
-  constexpr int32_t const& __get__touchId_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__touchId_k__BackingField() const;
 
-  constexpr void __set__touchId_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__touchId_k__BackingField(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::UI::UIPointerType& __get__pointerType_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::UI::UIPointerType& __cordl_internal_get__pointerType_k__BackingField();
 
-  constexpr ::UnityEngine::InputSystem::UI::UIPointerType const& __get__pointerType_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::UI::UIPointerType const& __cordl_internal_get__pointerType_k__BackingField() const;
 
-  constexpr void __set__pointerType_k__BackingField(::UnityEngine::InputSystem::UI::UIPointerType value);
+  constexpr void __cordl_internal_set__pointerType_k__BackingField(::UnityEngine::InputSystem::UI::UIPointerType value);
 
-  constexpr int32_t& __get__uiToolkitPointerId_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__uiToolkitPointerId_k__BackingField();
 
-  constexpr int32_t const& __get__uiToolkitPointerId_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__uiToolkitPointerId_k__BackingField() const;
 
-  constexpr void __set__uiToolkitPointerId_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__uiToolkitPointerId_k__BackingField(int32_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__trackedDevicePosition_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__trackedDevicePosition_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__trackedDevicePosition_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__trackedDevicePosition_k__BackingField() const;
 
-  constexpr void __set__trackedDevicePosition_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__trackedDevicePosition_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__trackedDeviceOrientation_k__BackingField();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__trackedDeviceOrientation_k__BackingField();
 
-  constexpr ::UnityEngine::Quaternion const& __get__trackedDeviceOrientation_k__BackingField() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__trackedDeviceOrientation_k__BackingField() const;
 
-  constexpr void __set__trackedDeviceOrientation_k__BackingField(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__trackedDeviceOrientation_k__BackingField(::UnityEngine::Quaternion value);
 
   static inline ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 

@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::System::Globalization::HijriCalendar);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3702))
 // CS Name: ::System.Globalization::HijriCalendar*
 class CORDL_TYPE HijriCalendar : public ::System::Globalization::Calendar {
 public:
   // Declarations
   /// @brief Field m_HijriAdvance, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_HijriAdvance, put = __set_m_HijriAdvance)) int32_t m_HijriAdvance;
+  __declspec(property(get = __cordl_internal_get_m_HijriAdvance, put = __cordl_internal_set_m_HijriAdvance)) int32_t m_HijriAdvance;
 
   /// @brief Field HijriEra, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_HijriEra, put = setStaticF_HijriEra)) int32_t HijriEra;
@@ -56,11 +56,11 @@ public:
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
 
-  constexpr int32_t& __get_m_HijriAdvance();
+  constexpr int32_t& __cordl_internal_get_m_HijriAdvance();
 
-  constexpr int32_t const& __get_m_HijriAdvance() const;
+  constexpr int32_t const& __cordl_internal_get_m_HijriAdvance() const;
 
-  constexpr void __set_m_HijriAdvance(int32_t value);
+  constexpr void __cordl_internal_set_m_HijriAdvance(int32_t value);
 
   static inline void setStaticF_HijriEra(int32_t value);
 

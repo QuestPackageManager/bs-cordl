@@ -28,14 +28,14 @@ MARK_REF_PTR_T(::System::Net::Sockets::SocketException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9492))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9492))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9336))
 // CS Name: ::System.Net.Sockets::SocketException*
 class CORDL_TYPE SocketException : public ::System::ComponentModel::Win32Exception {
 public:
   // Declarations
   /// @brief Field m_EndPoint, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_EndPoint, put = __set_m_EndPoint))::System::Net::EndPoint* m_EndPoint;
+  __declspec(property(get = __cordl_internal_get_m_EndPoint, put = __cordl_internal_set_m_EndPoint))::System::Net::EndPoint* m_EndPoint;
 
   __declspec(property(get = get_ErrorCode)) int32_t ErrorCode;
 
@@ -43,11 +43,11 @@ public:
 
   __declspec(property(get = get_SocketErrorCode))::System::Net::Sockets::SocketError SocketErrorCode;
 
-  constexpr ::System::Net::EndPoint*& __get_m_EndPoint();
+  constexpr ::System::Net::EndPoint*& __cordl_internal_get_m_EndPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __get_m_EndPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __cordl_internal_get_m_EndPoint() const;
 
-  constexpr void __set_m_EndPoint(::System::Net::EndPoint* value);
+  constexpr void __cordl_internal_set_m_EndPoint(::System::Net::EndPoint* value);
 
   /// @brief Method WSAGetLastError_icall, addr 0x28fc484, size 0x4, virtual false, abstract: false, final false
   static inline int32_t WSAGetLastError_icall();

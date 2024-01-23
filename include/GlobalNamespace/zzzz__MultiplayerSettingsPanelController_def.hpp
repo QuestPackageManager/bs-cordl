@@ -36,35 +36,35 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerSettingsPanelController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5639))
 // CS Name: ::MultiplayerSettingsPanelController*
 class CORDL_TYPE MultiplayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _serverCodeView, offset 0x18, size 0x8
-  __declspec(property(get = __get__serverCodeView, put = __set__serverCodeView))::GlobalNamespace::ServerCodeView* _serverCodeView;
+  __declspec(property(get = __cordl_internal_get__serverCodeView, put = __cordl_internal_set__serverCodeView))::UnityW<::GlobalNamespace::ServerCodeView> _serverCodeView;
 
   /// @brief Field _spectateToggle, offset 0x20, size 0x8
-  __declspec(property(get = __get__spectateToggle, put = __set__spectateToggle))::UnityEngine::UI::Toggle* _spectateToggle;
+  __declspec(property(get = __cordl_internal_get__spectateToggle, put = __cordl_internal_set__spectateToggle))::UnityW<::UnityEngine::UI::Toggle> _spectateToggle;
 
   /// @brief Field _connectionSettingsWrapper, offset 0x28, size 0x8
-  __declspec(property(get = __get__connectionSettingsWrapper, put = __set__connectionSettingsWrapper))::UnityEngine::GameObject* _connectionSettingsWrapper;
+  __declspec(property(get = __cordl_internal_get__connectionSettingsWrapper, put = __cordl_internal_set__connectionSettingsWrapper))::UnityW<::UnityEngine::GameObject> _connectionSettingsWrapper;
 
   /// @brief Field _spectateSettingsWrapper, offset 0x30, size 0x8
-  __declspec(property(get = __get__spectateSettingsWrapper, put = __set__spectateSettingsWrapper))::UnityEngine::GameObject* _spectateSettingsWrapper;
+  __declspec(property(get = __cordl_internal_get__spectateSettingsWrapper, put = __cordl_internal_set__spectateSettingsWrapper))::UnityW<::UnityEngine::GameObject> _spectateSettingsWrapper;
 
   /// @brief Field _toggleBinder, offset 0x38, size 0x8
-  __declspec(property(get = __get__toggleBinder, put = __set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field _lobbyPlayerData, offset 0x40, size 0x8
-  __declspec(property(get = __get__lobbyPlayerData, put = __set__lobbyPlayerData))::GlobalNamespace::ILobbyPlayerData* _lobbyPlayerData;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayerData, put = __cordl_internal_set__lobbyPlayerData))::GlobalNamespace::ILobbyPlayerData* _lobbyPlayerData;
 
   /// @brief Field _refreshed, offset 0x48, size 0x1
-  __declspec(property(get = __get__refreshed, put = __set__refreshed)) bool _refreshed;
+  __declspec(property(get = __cordl_internal_get__refreshed, put = __cordl_internal_set__refreshed)) bool _refreshed;
 
   /// @brief Field playerActiveStateChangedEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_playerActiveStateChangedEvent, put = __set_playerActiveStateChangedEvent))::System::Action_1<bool>* playerActiveStateChangedEvent;
+  __declspec(property(get = __cordl_internal_get_playerActiveStateChangedEvent, put = __cordl_internal_set_playerActiveStateChangedEvent))::System::Action_1<bool>* playerActiveStateChangedEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
@@ -72,53 +72,53 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  constexpr ::GlobalNamespace::ServerCodeView*& __get__serverCodeView();
+  constexpr ::UnityW<::GlobalNamespace::ServerCodeView>& __cordl_internal_get__serverCodeView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ServerCodeView*> const& __get__serverCodeView() const;
+  constexpr ::UnityW<::GlobalNamespace::ServerCodeView> const& __cordl_internal_get__serverCodeView() const;
 
-  constexpr void __set__serverCodeView(::GlobalNamespace::ServerCodeView* value);
+  constexpr void __cordl_internal_set__serverCodeView(::UnityW<::GlobalNamespace::ServerCodeView> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__spectateToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__spectateToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__spectateToggle() const;
 
-  constexpr void __set__spectateToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__spectateToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__connectionSettingsWrapper();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectionSettingsWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__connectionSettingsWrapper() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectionSettingsWrapper() const;
 
-  constexpr void __set__connectionSettingsWrapper(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__connectionSettingsWrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__spectateSettingsWrapper();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__spectateSettingsWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__spectateSettingsWrapper() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__spectateSettingsWrapper() const;
 
-  constexpr void __set__spectateSettingsWrapper(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__spectateSettingsWrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::HMUI::ToggleBinder*& __get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __get__toggleBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  constexpr ::GlobalNamespace::ILobbyPlayerData*& __get__lobbyPlayerData();
+  constexpr ::GlobalNamespace::ILobbyPlayerData*& __cordl_internal_get__lobbyPlayerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayerData*> const& __get__lobbyPlayerData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayerData*> const& __cordl_internal_get__lobbyPlayerData() const;
 
-  constexpr void __set__lobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* value);
+  constexpr void __cordl_internal_set__lobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* value);
 
-  constexpr bool& __get__refreshed();
+  constexpr bool& __cordl_internal_get__refreshed();
 
-  constexpr bool const& __get__refreshed() const;
+  constexpr bool const& __cordl_internal_get__refreshed() const;
 
-  constexpr void __set__refreshed(bool value);
+  constexpr void __cordl_internal_set__refreshed(bool value);
 
-  constexpr ::System::Action_1<bool>*& __get_playerActiveStateChangedEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_playerActiveStateChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_playerActiveStateChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_playerActiveStateChangedEvent() const;
 
-  constexpr void __set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
   /// @brief Method add_playerActiveStateChangedEvent, addr 0x22b3170, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
@@ -173,16 +173,16 @@ protected:
 
 public:
   /// @brief Field _serverCodeView, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ServerCodeView* ____serverCodeView;
+  ::UnityW<::GlobalNamespace::ServerCodeView> ____serverCodeView;
 
   /// @brief Field _spectateToggle, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____spectateToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____spectateToggle;
 
   /// @brief Field _connectionSettingsWrapper, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____connectionSettingsWrapper;
+  ::UnityW<::UnityEngine::GameObject> ____connectionSettingsWrapper;
 
   /// @brief Field _spectateSettingsWrapper, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____spectateSettingsWrapper;
+  ::UnityW<::UnityEngine::GameObject> ____spectateSettingsWrapper;
 
   /// @brief Field _toggleBinder, offset: 0x38, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;

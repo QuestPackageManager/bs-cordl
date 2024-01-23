@@ -46,20 +46,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8180))
 // CS Name: ::OVRSpectatorModeDomeTest::<TimerCoroutine>d__20*
 class CORDL_TYPE __OVRSpectatorModeDomeTest___TimerCoroutine_d__20 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OVRSpectatorModeDomeTest* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -83,23 +83,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::OVRSpectatorModeDomeTest*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSpectatorModeDomeTest*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OVRSpectatorModeDomeTest* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> value);
 
   static inline ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20* New_ctor(int32_t __1__state);
 
@@ -142,7 +142,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSpectatorModeDomeTest* _____4__this;
+  ::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -160,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoro
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7847)), TypeDefinitionIndex(TypeDefinitionIndex(7756))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7847)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8181))
 // CS Name: ::OVRSpectatorModeDomeTest*
 class CORDL_TYPE OVRSpectatorModeDomeTest : public ::UnityEngine::MonoBehaviour {
@@ -169,103 +169,103 @@ public:
   using _TimerCoroutine_d__20 = ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 
   /// @brief Field inited, offset 0x18, size 0x1
-  __declspec(property(get = __get_inited, put = __set_inited)) bool inited;
+  __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
 
   /// @brief Field defaultExternalCamera, offset 0x20, size 0x8
-  __declspec(property(get = __get_defaultExternalCamera, put = __set_defaultExternalCamera))::UnityEngine::Camera* defaultExternalCamera;
+  __declspec(property(get = __cordl_internal_get_defaultExternalCamera, put = __cordl_internal_set_defaultExternalCamera))::UnityW<::UnityEngine::Camera> defaultExternalCamera;
 
   /// @brief Field defaultFov, offset 0x28, size 0x10
-  __declspec(property(get = __get_defaultFov, put = __set_defaultFov))::GlobalNamespace::__OVRPlugin__Fovf defaultFov;
+  __declspec(property(get = __cordl_internal_get_defaultFov, put = __cordl_internal_set_defaultFov))::GlobalNamespace::__OVRPlugin__Fovf defaultFov;
 
   /// @brief Field SpectatorAnchor, offset 0x38, size 0x8
-  __declspec(property(get = __get_SpectatorAnchor, put = __set_SpectatorAnchor))::UnityEngine::Transform* SpectatorAnchor;
+  __declspec(property(get = __cordl_internal_get_SpectatorAnchor, put = __cordl_internal_set_SpectatorAnchor))::UnityW<::UnityEngine::Transform> SpectatorAnchor;
 
   /// @brief Field Head, offset 0x40, size 0x8
-  __declspec(property(get = __get_Head, put = __set_Head))::UnityEngine::Transform* Head;
+  __declspec(property(get = __cordl_internal_get_Head, put = __cordl_internal_set_Head))::UnityW<::UnityEngine::Transform> Head;
 
   /// @brief Field camMode, offset 0x48, size 0x4
-  __declspec(property(get = __get_camMode, put = __set_camMode))::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode camMode;
+  __declspec(property(get = __cordl_internal_get_camMode, put = __cordl_internal_set_camMode))::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode camMode;
 
   /// @brief Field readyToSwitch, offset 0x4c, size 0x1
-  __declspec(property(get = __get_readyToSwitch, put = __set_readyToSwitch)) bool readyToSwitch;
+  __declspec(property(get = __cordl_internal_get_readyToSwitch, put = __cordl_internal_set_readyToSwitch)) bool readyToSwitch;
 
   /// @brief Field SpectatorCamera, offset 0x50, size 0x8
-  __declspec(property(get = __get_SpectatorCamera, put = __set_SpectatorCamera))::UnityEngine::Transform* SpectatorCamera;
+  __declspec(property(get = __cordl_internal_get_SpectatorCamera, put = __cordl_internal_set_SpectatorCamera))::UnityW<::UnityEngine::Transform> SpectatorCamera;
 
   /// @brief Field distance, offset 0x58, size 0x4
-  __declspec(property(get = __get_distance, put = __set_distance)) float_t distance;
+  __declspec(property(get = __cordl_internal_get_distance, put = __cordl_internal_set_distance)) float_t distance;
 
   /// @brief Field elevation, offset 0x5c, size 0x4
-  __declspec(property(get = __get_elevation, put = __set_elevation)) float_t elevation;
+  __declspec(property(get = __cordl_internal_get_elevation, put = __cordl_internal_set_elevation)) float_t elevation;
 
   /// @brief Field polar, offset 0x60, size 0x4
-  __declspec(property(get = __get_polar, put = __set_polar)) float_t polar;
+  __declspec(property(get = __cordl_internal_get_polar, put = __cordl_internal_set_polar)) float_t polar;
 
-  constexpr bool& __get_inited();
+  constexpr bool& __cordl_internal_get_inited();
 
-  constexpr bool const& __get_inited() const;
+  constexpr bool const& __cordl_internal_get_inited() const;
 
-  constexpr void __set_inited(bool value);
+  constexpr void __cordl_internal_set_inited(bool value);
 
-  constexpr ::UnityEngine::Camera*& __get_defaultExternalCamera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_defaultExternalCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get_defaultExternalCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_defaultExternalCamera() const;
 
-  constexpr void __set_defaultExternalCamera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set_defaultExternalCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Fovf& __get_defaultFov();
+  constexpr ::GlobalNamespace::__OVRPlugin__Fovf& __cordl_internal_get_defaultFov();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& __get_defaultFov() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& __cordl_internal_get_defaultFov() const;
 
-  constexpr void __set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value);
+  constexpr void __cordl_internal_set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value);
 
-  constexpr ::UnityEngine::Transform*& __get_SpectatorAnchor();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_SpectatorAnchor();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_SpectatorAnchor() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_SpectatorAnchor() const;
 
-  constexpr void __set_SpectatorAnchor(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_SpectatorAnchor(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_Head();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_Head();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_Head() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_Head() const;
 
-  constexpr void __set_Head(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_Head(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode& __get_camMode();
+  constexpr ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode& __cordl_internal_get_camMode();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode const& __get_camMode() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode const& __cordl_internal_get_camMode() const;
 
-  constexpr void __set_camMode(::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode value);
+  constexpr void __cordl_internal_set_camMode(::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode value);
 
-  constexpr bool& __get_readyToSwitch();
+  constexpr bool& __cordl_internal_get_readyToSwitch();
 
-  constexpr bool const& __get_readyToSwitch() const;
+  constexpr bool const& __cordl_internal_get_readyToSwitch() const;
 
-  constexpr void __set_readyToSwitch(bool value);
+  constexpr void __cordl_internal_set_readyToSwitch(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_SpectatorCamera();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_SpectatorCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_SpectatorCamera() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_SpectatorCamera() const;
 
-  constexpr void __set_SpectatorCamera(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_SpectatorCamera(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_distance();
+  constexpr float_t& __cordl_internal_get_distance();
 
-  constexpr float_t const& __get_distance() const;
+  constexpr float_t const& __cordl_internal_get_distance() const;
 
-  constexpr void __set_distance(float_t value);
+  constexpr void __cordl_internal_set_distance(float_t value);
 
-  constexpr float_t& __get_elevation();
+  constexpr float_t& __cordl_internal_get_elevation();
 
-  constexpr float_t const& __get_elevation() const;
+  constexpr float_t const& __cordl_internal_get_elevation() const;
 
-  constexpr void __set_elevation(float_t value);
+  constexpr void __cordl_internal_set_elevation(float_t value);
 
-  constexpr float_t& __get_polar();
+  constexpr float_t& __cordl_internal_get_polar();
 
-  constexpr float_t const& __get_polar() const;
+  constexpr float_t const& __cordl_internal_get_polar() const;
 
-  constexpr void __set_polar(float_t value);
+  constexpr void __cordl_internal_set_polar(float_t value);
 
   /// @brief Method Awake, addr 0x27c1648, size 0x3c, virtual false, abstract: false, final false
   inline void Awake();
@@ -320,16 +320,16 @@ public:
   bool ___inited;
 
   /// @brief Field defaultExternalCamera, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Camera* ___defaultExternalCamera;
+  ::UnityW<::UnityEngine::Camera> ___defaultExternalCamera;
 
   /// @brief Field defaultFov, offset: 0x28, size: 0x10, def value: None
   ::GlobalNamespace::__OVRPlugin__Fovf ___defaultFov;
 
   /// @brief Field SpectatorAnchor, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___SpectatorAnchor;
+  ::UnityW<::UnityEngine::Transform> ___SpectatorAnchor;
 
   /// @brief Field Head, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___Head;
+  ::UnityW<::UnityEngine::Transform> ___Head;
 
   /// @brief Field camMode, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode ___camMode;
@@ -338,7 +338,7 @@ public:
   bool ___readyToSwitch;
 
   /// @brief Field SpectatorCamera, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___SpectatorCamera;
+  ::UnityW<::UnityEngine::Transform> ___SpectatorCamera;
 
   /// @brief Field distance, offset: 0x58, size: 0x4, def value: None
   float_t ___distance;

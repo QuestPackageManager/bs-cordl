@@ -70,23 +70,23 @@ MARK_REF_PTR_T(::System::Collections::Specialized::__ListDictionary__NodeKeyValu
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9508))
 // CS Name: ::ListDictionary::NodeEnumerator*
 class CORDL_TYPE __ListDictionary__NodeEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::Specialized::ListDictionary* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Specialized::ListDictionary* _list;
 
   /// @brief Field _current, offset 0x18, size 0x8
-  __declspec(property(get = __get__current, put = __set__current))::System::Collections::Specialized::__ListDictionary__DictionaryNode* _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::System::Collections::Specialized::__ListDictionary__DictionaryNode* _current;
 
   /// @brief Field _version, offset 0x20, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _start, offset 0x24, size 0x1
-  __declspec(property(get = __get__start, put = __set__start)) bool _start;
+  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start)) bool _start;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -108,29 +108,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Collections::Specialized::ListDictionary*& __get__list();
+  constexpr ::System::Collections::Specialized::ListDictionary*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::Specialized::ListDictionary* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value);
 
-  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __get__current();
+  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __cordl_internal_get__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __get__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
+  constexpr void __cordl_internal_set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr bool& __get__start();
+  constexpr bool& __cordl_internal_get__start();
 
-  constexpr bool const& __get__start() const;
+  constexpr bool const& __cordl_internal_get__start() const;
 
-  constexpr void __set__start(bool value);
+  constexpr void __cordl_internal_set__start(bool value);
 
   static inline ::System::Collections::Specialized::__ListDictionary__NodeEnumerator* New_ctor(::System::Collections::Specialized::ListDictionary* list);
 
@@ -199,26 +199,26 @@ static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__Nod
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 38, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9509))
 // CS Name: ::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator*
 class CORDL_TYPE __ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::Specialized::ListDictionary* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Specialized::ListDictionary* _list;
 
   /// @brief Field _current, offset 0x18, size 0x8
-  __declspec(property(get = __get__current, put = __set__current))::System::Collections::Specialized::__ListDictionary__DictionaryNode* _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::System::Collections::Specialized::__ListDictionary__DictionaryNode* _current;
 
   /// @brief Field _version, offset 0x20, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _isKeys, offset 0x24, size 0x1
-  __declspec(property(get = __get__isKeys, put = __set__isKeys)) bool _isKeys;
+  __declspec(property(get = __cordl_internal_get__isKeys, put = __cordl_internal_set__isKeys)) bool _isKeys;
 
   /// @brief Field _start, offset 0x25, size 0x1
-  __declspec(property(get = __get__start, put = __set__start)) bool _start;
+  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start)) bool _start;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -228,35 +228,35 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Collections::Specialized::ListDictionary*& __get__list();
+  constexpr ::System::Collections::Specialized::ListDictionary*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::Specialized::ListDictionary* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value);
 
-  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __get__current();
+  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __cordl_internal_get__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __get__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
+  constexpr void __cordl_internal_set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr bool& __get__isKeys();
+  constexpr bool& __cordl_internal_get__isKeys();
 
-  constexpr bool const& __get__isKeys() const;
+  constexpr bool const& __cordl_internal_get__isKeys() const;
 
-  constexpr void __set__isKeys(bool value);
+  constexpr void __cordl_internal_set__isKeys(bool value);
 
-  constexpr bool& __get__start();
+  constexpr bool& __cordl_internal_get__start();
 
-  constexpr bool const& __get__start() const;
+  constexpr bool const& __cordl_internal_get__start() const;
 
-  constexpr void __set__start(bool value);
+  constexpr void __cordl_internal_set__start(bool value);
 
   static inline ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator* New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
@@ -321,7 +321,7 @@ static_assert(offsetof(::GlobalNamespace::__ListDictionary__NodeKeyValueCollecti
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9510))
 // CS Name: ::ListDictionary::NodeKeyValueCollection*
 class CORDL_TYPE __ListDictionary__NodeKeyValueCollection : public ::System::Object {
@@ -330,10 +330,10 @@ public:
   using NodeKeyValueEnumerator = ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator;
 
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::Specialized::ListDictionary* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Specialized::ListDictionary* _list;
 
   /// @brief Field _isKeys, offset 0x18, size 0x1
-  __declspec(property(get = __get__isKeys, put = __set__isKeys)) bool _isKeys;
+  __declspec(property(get = __cordl_internal_get__isKeys, put = __cordl_internal_set__isKeys)) bool _isKeys;
 
   __declspec(property(get = System_Collections_ICollection_get_Count)) int32_t System_Collections_ICollection_Count;
 
@@ -353,17 +353,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Specialized::ListDictionary*& __get__list();
+  constexpr ::System::Collections::Specialized::ListDictionary*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::Specialized::ListDictionary* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value);
 
-  constexpr bool& __get__isKeys();
+  constexpr bool& __cordl_internal_get__isKeys();
 
-  constexpr bool const& __get__isKeys() const;
+  constexpr bool const& __cordl_internal_get__isKeys() const;
 
-  constexpr void __set__isKeys(bool value);
+  constexpr void __cordl_internal_set__isKeys(bool value);
 
   static inline ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection* New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
@@ -419,38 +419,38 @@ static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__Nod
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9511))
 // CS Name: ::ListDictionary::DictionaryNode*
 class CORDL_TYPE __ListDictionary__DictionaryNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::System::Object* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
 
   /// @brief Field next, offset 0x20, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Collections::Specialized::__ListDictionary__DictionaryNode* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Collections::Specialized::__ListDictionary__DictionaryNode* next;
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  constexpr ::System::Object*& __get_value();
+  constexpr ::System::Object*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::System::Object* value);
+  constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __get_next();
+  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
+  constexpr void __cordl_internal_set_next(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
 
   static inline ::System::Collections::Specialized::__ListDictionary__DictionaryNode* New_ctor();
 
@@ -496,7 +496,7 @@ static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__Dic
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9512))
 // CS Name: ::System.Collections.Specialized::ListDictionary*
 class CORDL_TYPE ListDictionary : public ::System::Object {
@@ -509,19 +509,19 @@ public:
   using NodeEnumerator = ::System::Collections::Specialized::__ListDictionary__NodeEnumerator;
 
   /// @brief Field head, offset 0x10, size 0x8
-  __declspec(property(get = __get_head, put = __set_head))::System::Collections::Specialized::__ListDictionary__DictionaryNode* head;
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::System::Collections::Specialized::__ListDictionary__DictionaryNode* head;
 
   /// @brief Field version, offset 0x18, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field count, offset 0x1c, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field comparer, offset 0x20, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::IComparer* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::IComparer* comparer;
 
   /// @brief Field _syncRoot, offset 0x28, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
 
@@ -557,35 +557,35 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __get_head();
+  constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __cordl_internal_get_head();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __get_head() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& __cordl_internal_get_head() const;
 
-  constexpr void __set_head(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
+  constexpr void __cordl_internal_set_head(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value);
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr ::System::Collections::IComparer*& __get_comparer();
+  constexpr ::System::Collections::IComparer*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::IComparer* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::IComparer* value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::System::Collections::Specialized::ListDictionary* New_ctor();
 

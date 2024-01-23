@@ -16,68 +16,68 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MibIPGlobalProperties);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9286))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9286))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9288))
 // CS Name: ::System.Net.NetworkInformation::MibIPGlobalProperties*
 class CORDL_TYPE MibIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties {
 public:
   // Declarations
   /// @brief Field StatisticsFile, offset 0x10, size 0x8
-  __declspec(property(get = __get_StatisticsFile, put = __set_StatisticsFile))::StringW StatisticsFile;
+  __declspec(property(get = __cordl_internal_get_StatisticsFile, put = __cordl_internal_set_StatisticsFile))::StringW StatisticsFile;
 
   /// @brief Field StatisticsFileIPv6, offset 0x18, size 0x8
-  __declspec(property(get = __get_StatisticsFileIPv6, put = __set_StatisticsFileIPv6))::StringW StatisticsFileIPv6;
+  __declspec(property(get = __cordl_internal_get_StatisticsFileIPv6, put = __cordl_internal_set_StatisticsFileIPv6))::StringW StatisticsFileIPv6;
 
   /// @brief Field TcpFile, offset 0x20, size 0x8
-  __declspec(property(get = __get_TcpFile, put = __set_TcpFile))::StringW TcpFile;
+  __declspec(property(get = __cordl_internal_get_TcpFile, put = __cordl_internal_set_TcpFile))::StringW TcpFile;
 
   /// @brief Field Tcp6File, offset 0x28, size 0x8
-  __declspec(property(get = __get_Tcp6File, put = __set_Tcp6File))::StringW Tcp6File;
+  __declspec(property(get = __cordl_internal_get_Tcp6File, put = __cordl_internal_set_Tcp6File))::StringW Tcp6File;
 
   /// @brief Field UdpFile, offset 0x30, size 0x8
-  __declspec(property(get = __get_UdpFile, put = __set_UdpFile))::StringW UdpFile;
+  __declspec(property(get = __cordl_internal_get_UdpFile, put = __cordl_internal_set_UdpFile))::StringW UdpFile;
 
   /// @brief Field Udp6File, offset 0x38, size 0x8
-  __declspec(property(get = __get_Udp6File, put = __set_Udp6File))::StringW Udp6File;
+  __declspec(property(get = __cordl_internal_get_Udp6File, put = __cordl_internal_set_Udp6File))::StringW Udp6File;
 
   /// @brief Field wsChars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_wsChars, put = setStaticF_wsChars))::ArrayW<char16_t, ::Array<char16_t>*> wsChars;
 
-  constexpr ::StringW& __get_StatisticsFile();
+  constexpr ::StringW& __cordl_internal_get_StatisticsFile();
 
-  constexpr ::StringW const& __get_StatisticsFile() const;
+  constexpr ::StringW const& __cordl_internal_get_StatisticsFile() const;
 
-  constexpr void __set_StatisticsFile(::StringW value);
+  constexpr void __cordl_internal_set_StatisticsFile(::StringW value);
 
-  constexpr ::StringW& __get_StatisticsFileIPv6();
+  constexpr ::StringW& __cordl_internal_get_StatisticsFileIPv6();
 
-  constexpr ::StringW const& __get_StatisticsFileIPv6() const;
+  constexpr ::StringW const& __cordl_internal_get_StatisticsFileIPv6() const;
 
-  constexpr void __set_StatisticsFileIPv6(::StringW value);
+  constexpr void __cordl_internal_set_StatisticsFileIPv6(::StringW value);
 
-  constexpr ::StringW& __get_TcpFile();
+  constexpr ::StringW& __cordl_internal_get_TcpFile();
 
-  constexpr ::StringW const& __get_TcpFile() const;
+  constexpr ::StringW const& __cordl_internal_get_TcpFile() const;
 
-  constexpr void __set_TcpFile(::StringW value);
+  constexpr void __cordl_internal_set_TcpFile(::StringW value);
 
-  constexpr ::StringW& __get_Tcp6File();
+  constexpr ::StringW& __cordl_internal_get_Tcp6File();
 
-  constexpr ::StringW const& __get_Tcp6File() const;
+  constexpr ::StringW const& __cordl_internal_get_Tcp6File() const;
 
-  constexpr void __set_Tcp6File(::StringW value);
+  constexpr void __cordl_internal_set_Tcp6File(::StringW value);
 
-  constexpr ::StringW& __get_UdpFile();
+  constexpr ::StringW& __cordl_internal_get_UdpFile();
 
-  constexpr ::StringW const& __get_UdpFile() const;
+  constexpr ::StringW const& __cordl_internal_get_UdpFile() const;
 
-  constexpr void __set_UdpFile(::StringW value);
+  constexpr void __cordl_internal_set_UdpFile(::StringW value);
 
-  constexpr ::StringW& __get_Udp6File();
+  constexpr ::StringW& __cordl_internal_get_Udp6File();
 
-  constexpr ::StringW const& __get_Udp6File() const;
+  constexpr ::StringW const& __cordl_internal_get_Udp6File() const;
 
-  constexpr void __set_Udp6File(::StringW value);
+  constexpr void __cordl_internal_set_Udp6File(::StringW value);
 
   static inline void setStaticF_wsChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 

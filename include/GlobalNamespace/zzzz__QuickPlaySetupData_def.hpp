@@ -48,29 +48,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverri
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4476))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x8
-  __declspec(property(get = __get_language, put = __set_language))::StringW language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::StringW language;
 
   /// @brief Field packName, offset 0x18, size 0x8
-  __declspec(property(get = __get_packName, put = __set_packName))::StringW packName;
+  __declspec(property(get = __cordl_internal_get_packName, put = __cordl_internal_set_packName))::StringW packName;
 
-  constexpr ::StringW& __get_language();
+  constexpr ::StringW& __cordl_internal_get_language();
 
-  constexpr ::StringW const& __get_language() const;
+  constexpr ::StringW const& __cordl_internal_get_language() const;
 
-  constexpr void __set_language(::StringW value);
+  constexpr void __cordl_internal_set_language(::StringW value);
 
-  constexpr ::StringW& __get_packName();
+  constexpr ::StringW& __cordl_internal_get_packName();
 
-  constexpr ::StringW const& __get_packName() const;
+  constexpr ::StringW const& __cordl_internal_get_packName() const;
 
-  constexpr void __set_packName(::StringW value);
+  constexpr void __cordl_internal_set_packName(::StringW value);
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName* New_ctor();
 
@@ -111,55 +111,55 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4477))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field serializedName, offset 0x10, size 0x8
-  __declspec(property(get = __get_serializedName, put = __set_serializedName))::StringW serializedName;
+  __declspec(property(get = __cordl_internal_get_serializedName, put = __cordl_internal_set_serializedName))::StringW serializedName;
 
   /// @brief Field order, offset 0x18, size 0x4
-  __declspec(property(get = __get_order, put = __set_order)) int32_t order;
+  __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
   /// @brief Field localizedNames, offset 0x20, size 0x8
-  __declspec(property(get = __get_localizedNames,
-                      put = __set_localizedNames))::ArrayW<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*,
-                                                           ::Array<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*>*> localizedNames;
+  __declspec(property(get = __cordl_internal_get_localizedNames,
+                      put = __cordl_internal_set_localizedNames))::ArrayW<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*,
+                                                                          ::Array<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*>*> localizedNames;
 
   /// @brief Field packIds, offset 0x28, size 0x8
-  __declspec(property(get = __get_packIds, put = __set_packIds))::System::Collections::Generic::List_1<::StringW>* packIds;
+  __declspec(property(get = __cordl_internal_get_packIds, put = __cordl_internal_set_packIds))::System::Collections::Generic::List_1<::StringW>* packIds;
 
-  constexpr ::StringW& __get_serializedName();
+  constexpr ::StringW& __cordl_internal_get_serializedName();
 
-  constexpr ::StringW const& __get_serializedName() const;
+  constexpr ::StringW const& __cordl_internal_get_serializedName() const;
 
-  constexpr void __set_serializedName(::StringW value);
+  constexpr void __cordl_internal_set_serializedName(::StringW value);
 
-  constexpr int32_t& __get_order();
+  constexpr int32_t& __cordl_internal_get_order();
 
-  constexpr int32_t const& __get_order() const;
+  constexpr int32_t const& __cordl_internal_get_order() const;
 
-  constexpr void __set_order(int32_t value);
+  constexpr void __cordl_internal_set_order(int32_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*,
                      ::Array<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*>*>&
-  __get_localizedNames();
+  __cordl_internal_get_localizedNames();
 
   constexpr ::ArrayW<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*,
                      ::Array<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*>*> const&
-  __get_localizedNames() const;
+  __cordl_internal_get_localizedNames() const;
 
-  constexpr void __set_localizedNames(::ArrayW<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*,
-                                               ::Array<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*>*>
-                                          value);
+  constexpr void __cordl_internal_set_localizedNames(::ArrayW<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*,
+                                                              ::Array<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName*>*>
+                                                         value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_packIds();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_packIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_packIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_packIds() const;
 
-  constexpr void __set_packIds(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_packIds(::System::Collections::Generic::List_1<::StringW>* value);
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack* New_ctor();
 
@@ -212,29 +212,29 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4478))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field order, offset 0x10, size 0x4
-  __declspec(property(get = __get_order, put = __set_order)) int32_t order;
+  __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
   /// @brief Field packId, offset 0x18, size 0x8
-  __declspec(property(get = __get_packId, put = __set_packId))::StringW packId;
+  __declspec(property(get = __cordl_internal_get_packId, put = __cordl_internal_set_packId))::StringW packId;
 
-  constexpr int32_t& __get_order();
+  constexpr int32_t& __cordl_internal_get_order();
 
-  constexpr int32_t const& __get_order() const;
+  constexpr int32_t const& __cordl_internal_get_order() const;
 
-  constexpr void __set_order(int32_t value);
+  constexpr void __cordl_internal_set_order(int32_t value);
 
-  constexpr ::StringW& __get_packId();
+  constexpr ::StringW& __cordl_internal_get_packId();
 
-  constexpr ::StringW const& __get_packId() const;
+  constexpr ::StringW const& __cordl_internal_get_packId() const;
 
-  constexpr void __set_packId(::StringW value);
+  constexpr void __cordl_internal_set_packId(::StringW value);
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack* New_ctor();
 
@@ -275,7 +275,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4479))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride : public ::System::Object {
@@ -288,27 +288,27 @@ public:
   using LocalizedCustomPackName = ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
 
   /// @brief Field predefinedPackIds, offset 0x10, size 0x8
-  __declspec(property(get = __get_predefinedPackIds,
-                      put = __set_predefinedPackIds))::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>* predefinedPackIds;
+  __declspec(property(
+      get = __cordl_internal_get_predefinedPackIds,
+      put = __cordl_internal_set_predefinedPackIds))::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>* predefinedPackIds;
 
   /// @brief Field localizedCustomPacks, offset 0x18, size 0x8
-  __declspec(property(
-      get = __get_localizedCustomPacks,
-      put = __set_localizedCustomPacks))::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>* localizedCustomPacks;
+  __declspec(property(get = __cordl_internal_get_localizedCustomPacks, put = __cordl_internal_set_localizedCustomPacks))::System::Collections::Generic::List_1<
+      ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>* localizedCustomPacks;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>*& __get_predefinedPackIds();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>*& __cordl_internal_get_predefinedPackIds();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>*> const&
-  __get_predefinedPackIds() const;
+  __cordl_internal_get_predefinedPackIds() const;
 
-  constexpr void __set_predefinedPackIds(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>* value);
+  constexpr void __cordl_internal_set_predefinedPackIds(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>*& __get_localizedCustomPacks();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>*& __cordl_internal_get_localizedCustomPacks();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>*> const&
-  __get_localizedCustomPacks() const;
+  __cordl_internal_get_localizedCustomPacks() const;
 
-  constexpr void __set_localizedCustomPacks(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>* value);
+  constexpr void __cordl_internal_set_localizedCustomPacks(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>* value);
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* New_ctor();
 
@@ -349,7 +349,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4480))
 // CS Name: ::QuickPlaySetupData*
 class CORDL_TYPE QuickPlaySetupData : public ::System::Object {
@@ -358,16 +358,16 @@ public:
   using QuickPlaySongPacksOverride = ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride;
 
   /// @brief Field quickPlayAvailablePacksOverride, offset 0x10, size 0x8
-  __declspec(property(get = __get_quickPlayAvailablePacksOverride,
-                      put = __set_quickPlayAvailablePacksOverride))::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* quickPlayAvailablePacksOverride;
+  __declspec(property(get = __cordl_internal_get_quickPlayAvailablePacksOverride,
+                      put = __cordl_internal_set_quickPlayAvailablePacksOverride))::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* quickPlayAvailablePacksOverride;
 
   __declspec(property(get = get_hasOverride)) bool hasOverride;
 
-  constexpr ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride*& __get_quickPlayAvailablePacksOverride();
+  constexpr ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride*& __cordl_internal_get_quickPlayAvailablePacksOverride();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride*> const& __get_quickPlayAvailablePacksOverride() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride*> const& __cordl_internal_get_quickPlayAvailablePacksOverride() const;
 
-  constexpr void __set_quickPlayAvailablePacksOverride(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* value);
+  constexpr void __cordl_internal_set_quickPlayAvailablePacksOverride(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* value);
 
   /// @brief Method get_hasOverride, addr 0x2353a84, size 0x88, virtual false, abstract: false, final false
   inline bool get_hasOverride();

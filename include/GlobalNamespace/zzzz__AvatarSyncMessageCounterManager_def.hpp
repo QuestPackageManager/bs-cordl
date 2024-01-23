@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarSyncMessageCounterManager);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14935))
 // CS Name: ::AvatarSyncMessageCounterManager::MessageType
 struct CORDL_TYPE __AvatarSyncMessageCounterManager__MessageType {
@@ -83,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::__AvatarSyncMessageCounterManager__Mes
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14936))
 // CS Name: ::AvatarSyncMessageCounterManager*
 class CORDL_TYPE AvatarSyncMessageCounterManager : public ::System::Object {
@@ -92,35 +92,35 @@ public:
   using MessageType = ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType;
 
   /// @brief Field userMessageCounters, offset 0x10, size 0x8
-  __declspec(property(get = __get_userMessageCounters, put = __set_userMessageCounters))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get_userMessageCounters, put = __cordl_internal_set_userMessageCounters))::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>* userMessageCounters;
 
   /// @brief Field messageTypePeriods, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get_messageTypePeriods,
-               put = __set_messageTypePeriods))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>* messageTypePeriods;
+  __declspec(property(get = __cordl_internal_get_messageTypePeriods,
+                      put = __cordl_internal_set_messageTypePeriods))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType,
+                                                                                                                  ::System::TimeSpan>* messageTypePeriods;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::GlobalNamespace::AvatarSyncMessageCounterManager* _instance;
 
   constexpr ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>*&
-  __get_userMessageCounters();
+  __cordl_internal_get_userMessageCounters();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>*> const&
-  __get_userMessageCounters() const;
+  __cordl_internal_get_userMessageCounters() const;
 
-  constexpr void __set_userMessageCounters(
+  constexpr void __cordl_internal_set_userMessageCounters(
       ::System::Collections::Generic::Dictionary_2<
           ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*& __get_messageTypePeriods();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*& __cordl_internal_get_messageTypePeriods();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*> const&
-  __get_messageTypePeriods() const;
+  __cordl_internal_get_messageTypePeriods() const;
 
-  constexpr void __set_messageTypePeriods(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>* value);
+  constexpr void __cordl_internal_set_messageTypePeriods(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>* value);
 
   static inline void setStaticF__instance(::GlobalNamespace::AvatarSyncMessageCounterManager* value);
 

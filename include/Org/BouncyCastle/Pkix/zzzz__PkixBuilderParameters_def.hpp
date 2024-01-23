@@ -28,31 +28,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixBuilderParameters);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1713))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1713))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1714))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixBuilderParameters*
 class CORDL_TYPE PkixBuilderParameters : public ::Org::BouncyCastle::Pkix::PkixParameters {
 public:
   // Declarations
   /// @brief Field maxPathLength, offset 0x90, size 0x4
-  __declspec(property(get = __get_maxPathLength, put = __set_maxPathLength)) int32_t maxPathLength;
+  __declspec(property(get = __cordl_internal_get_maxPathLength, put = __cordl_internal_set_maxPathLength)) int32_t maxPathLength;
 
   /// @brief Field excludedCerts, offset 0x98, size 0x8
-  __declspec(property(get = __get_excludedCerts, put = __set_excludedCerts))::Org::BouncyCastle::Utilities::Collections::ISet* excludedCerts;
+  __declspec(property(get = __cordl_internal_get_excludedCerts, put = __cordl_internal_set_excludedCerts))::Org::BouncyCastle::Utilities::Collections::ISet* excludedCerts;
 
   __declspec(property(get = get_MaxPathLength, put = set_MaxPathLength)) int32_t MaxPathLength;
 
-  constexpr int32_t& __get_maxPathLength();
+  constexpr int32_t& __cordl_internal_get_maxPathLength();
 
-  constexpr int32_t const& __get_maxPathLength() const;
+  constexpr int32_t const& __cordl_internal_get_maxPathLength() const;
 
-  constexpr void __set_maxPathLength(int32_t value);
+  constexpr void __cordl_internal_set_maxPathLength(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_excludedCerts();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_excludedCerts() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedCerts() const;
 
-  constexpr void __set_excludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_excludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
   /// @brief Method GetInstance, addr 0x10ef8d8, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* GetInstance(::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);

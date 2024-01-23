@@ -21,23 +21,23 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13733))
 // CS Name: ::UnityEngine.TextCore.Text::UnicodeLineBreakingRules*
 class CORDL_TYPE UnicodeLineBreakingRules : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_UnicodeLineBreakingRules, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_UnicodeLineBreakingRules, put = __set_m_UnicodeLineBreakingRules))::UnityEngine::TextAsset* m_UnicodeLineBreakingRules;
+  __declspec(property(get = __cordl_internal_get_m_UnicodeLineBreakingRules, put = __cordl_internal_set_m_UnicodeLineBreakingRules))::UnityW<::UnityEngine::TextAsset> m_UnicodeLineBreakingRules;
 
   /// @brief Field m_LeadingCharacters, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_LeadingCharacters, put = __set_m_LeadingCharacters))::UnityEngine::TextAsset* m_LeadingCharacters;
+  __declspec(property(get = __cordl_internal_get_m_LeadingCharacters, put = __cordl_internal_set_m_LeadingCharacters))::UnityW<::UnityEngine::TextAsset> m_LeadingCharacters;
 
   /// @brief Field m_FollowingCharacters, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_FollowingCharacters, put = __set_m_FollowingCharacters))::UnityEngine::TextAsset* m_FollowingCharacters;
+  __declspec(property(get = __cordl_internal_get_m_FollowingCharacters, put = __cordl_internal_set_m_FollowingCharacters))::UnityW<::UnityEngine::TextAsset> m_FollowingCharacters;
 
   /// @brief Field m_UseModernHangulLineBreakingRules, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_UseModernHangulLineBreakingRules, put = __set_m_UseModernHangulLineBreakingRules)) bool m_UseModernHangulLineBreakingRules;
+  __declspec(property(get = __cordl_internal_get_m_UseModernHangulLineBreakingRules, put = __cordl_internal_set_m_UseModernHangulLineBreakingRules)) bool m_UseModernHangulLineBreakingRules;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* s_Instance;
@@ -53,29 +53,29 @@ public:
 
   __declspec(property(get = get_followingCharactersLookup))::System::Collections::Generic::HashSet_1<uint32_t>* followingCharactersLookup;
 
-  constexpr ::UnityEngine::TextAsset*& __get_m_UnicodeLineBreakingRules();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_UnicodeLineBreakingRules();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get_m_UnicodeLineBreakingRules() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_UnicodeLineBreakingRules() const;
 
-  constexpr void __set_m_UnicodeLineBreakingRules(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set_m_UnicodeLineBreakingRules(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr ::UnityEngine::TextAsset*& __get_m_LeadingCharacters();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_LeadingCharacters();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get_m_LeadingCharacters() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_LeadingCharacters() const;
 
-  constexpr void __set_m_LeadingCharacters(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set_m_LeadingCharacters(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr ::UnityEngine::TextAsset*& __get_m_FollowingCharacters();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_FollowingCharacters();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get_m_FollowingCharacters() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_FollowingCharacters() const;
 
-  constexpr void __set_m_FollowingCharacters(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set_m_FollowingCharacters(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr bool& __get_m_UseModernHangulLineBreakingRules();
+  constexpr bool& __cordl_internal_get_m_UseModernHangulLineBreakingRules();
 
-  constexpr bool const& __get_m_UseModernHangulLineBreakingRules() const;
+  constexpr bool const& __cordl_internal_get_m_UseModernHangulLineBreakingRules() const;
 
-  constexpr void __set_m_UseModernHangulLineBreakingRules(bool value);
+  constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value);
 
   static inline void setStaticF_s_Instance(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* value);
 
@@ -121,13 +121,13 @@ protected:
 
 public:
   /// @brief Field m_UnicodeLineBreakingRules, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ___m_UnicodeLineBreakingRules;
+  ::UnityW<::UnityEngine::TextAsset> ___m_UnicodeLineBreakingRules;
 
   /// @brief Field m_LeadingCharacters, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ___m_LeadingCharacters;
+  ::UnityW<::UnityEngine::TextAsset> ___m_LeadingCharacters;
 
   /// @brief Field m_FollowingCharacters, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ___m_FollowingCharacters;
+  ::UnityW<::UnityEngine::TextAsset> ___m_FollowingCharacters;
 
   /// @brief Field m_UseModernHangulLineBreakingRules, offset: 0x28, size: 0x1, def value: None
   bool ___m_UseModernHangulLineBreakingRules;

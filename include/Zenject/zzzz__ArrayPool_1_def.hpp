@@ -21,23 +21,23 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11084), inst: 2805 }), TypeDefinitionIndex(TypeDefinitionIndex(11084))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11084)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11084), inst: 2805 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11094))
 // CS Name: ::Zenject::ArrayPool`1<T>*
 class CORDL_TYPE ArrayPool_1 : public ::Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T, ::Array<T>*>> {
 public:
   // Declarations
   /// @brief Field _length, offset 0x24, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) int32_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   /// @brief Field _pools, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__pools, put = setStaticF__pools))::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* _pools;
 
-  constexpr int32_t& __get__length();
+  constexpr int32_t& __cordl_internal_get__length();
 
-  constexpr int32_t const& __get__length() const;
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int32_t value);
+  constexpr void __cordl_internal_set__length(int32_t value);
 
   static inline void setStaticF__pools(::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* value);
 

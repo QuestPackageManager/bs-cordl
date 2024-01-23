@@ -20,74 +20,74 @@ MARK_REF_PTR_T(::System::Reflection::ExceptionHandlingClause);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3467))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3467))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3515))
 // CS Name: ::System.Reflection::ExceptionHandlingClause*
 class CORDL_TYPE ExceptionHandlingClause : public ::System::Object {
 public:
   // Declarations
   /// @brief Field catch_type, offset 0x10, size 0x8
-  __declspec(property(get = __get_catch_type, put = __set_catch_type))::System::Type* catch_type;
+  __declspec(property(get = __cordl_internal_get_catch_type, put = __cordl_internal_set_catch_type))::System::Type* catch_type;
 
   /// @brief Field filter_offset, offset 0x18, size 0x4
-  __declspec(property(get = __get_filter_offset, put = __set_filter_offset)) int32_t filter_offset;
+  __declspec(property(get = __cordl_internal_get_filter_offset, put = __cordl_internal_set_filter_offset)) int32_t filter_offset;
 
   /// @brief Field flags, offset 0x1c, size 0x4
-  __declspec(property(get = __get_flags, put = __set_flags))::System::Reflection::ExceptionHandlingClauseOptions flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Reflection::ExceptionHandlingClauseOptions flags;
 
   /// @brief Field try_offset, offset 0x20, size 0x4
-  __declspec(property(get = __get_try_offset, put = __set_try_offset)) int32_t try_offset;
+  __declspec(property(get = __cordl_internal_get_try_offset, put = __cordl_internal_set_try_offset)) int32_t try_offset;
 
   /// @brief Field try_length, offset 0x24, size 0x4
-  __declspec(property(get = __get_try_length, put = __set_try_length)) int32_t try_length;
+  __declspec(property(get = __cordl_internal_get_try_length, put = __cordl_internal_set_try_length)) int32_t try_length;
 
   /// @brief Field handler_offset, offset 0x28, size 0x4
-  __declspec(property(get = __get_handler_offset, put = __set_handler_offset)) int32_t handler_offset;
+  __declspec(property(get = __cordl_internal_get_handler_offset, put = __cordl_internal_set_handler_offset)) int32_t handler_offset;
 
   /// @brief Field handler_length, offset 0x2c, size 0x4
-  __declspec(property(get = __get_handler_length, put = __set_handler_length)) int32_t handler_length;
+  __declspec(property(get = __cordl_internal_get_handler_length, put = __cordl_internal_set_handler_length)) int32_t handler_length;
 
-  constexpr ::System::Type*& __get_catch_type();
+  constexpr ::System::Type*& __cordl_internal_get_catch_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_catch_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_catch_type() const;
 
-  constexpr void __set_catch_type(::System::Type* value);
+  constexpr void __cordl_internal_set_catch_type(::System::Type* value);
 
-  constexpr int32_t& __get_filter_offset();
+  constexpr int32_t& __cordl_internal_get_filter_offset();
 
-  constexpr int32_t const& __get_filter_offset() const;
+  constexpr int32_t const& __cordl_internal_get_filter_offset() const;
 
-  constexpr void __set_filter_offset(int32_t value);
+  constexpr void __cordl_internal_set_filter_offset(int32_t value);
 
-  constexpr ::System::Reflection::ExceptionHandlingClauseOptions& __get_flags();
+  constexpr ::System::Reflection::ExceptionHandlingClauseOptions& __cordl_internal_get_flags();
 
-  constexpr ::System::Reflection::ExceptionHandlingClauseOptions const& __get_flags() const;
+  constexpr ::System::Reflection::ExceptionHandlingClauseOptions const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(::System::Reflection::ExceptionHandlingClauseOptions value);
+  constexpr void __cordl_internal_set_flags(::System::Reflection::ExceptionHandlingClauseOptions value);
 
-  constexpr int32_t& __get_try_offset();
+  constexpr int32_t& __cordl_internal_get_try_offset();
 
-  constexpr int32_t const& __get_try_offset() const;
+  constexpr int32_t const& __cordl_internal_get_try_offset() const;
 
-  constexpr void __set_try_offset(int32_t value);
+  constexpr void __cordl_internal_set_try_offset(int32_t value);
 
-  constexpr int32_t& __get_try_length();
+  constexpr int32_t& __cordl_internal_get_try_length();
 
-  constexpr int32_t const& __get_try_length() const;
+  constexpr int32_t const& __cordl_internal_get_try_length() const;
 
-  constexpr void __set_try_length(int32_t value);
+  constexpr void __cordl_internal_set_try_length(int32_t value);
 
-  constexpr int32_t& __get_handler_offset();
+  constexpr int32_t& __cordl_internal_get_handler_offset();
 
-  constexpr int32_t const& __get_handler_offset() const;
+  constexpr int32_t const& __cordl_internal_get_handler_offset() const;
 
-  constexpr void __set_handler_offset(int32_t value);
+  constexpr void __cordl_internal_set_handler_offset(int32_t value);
 
-  constexpr int32_t& __get_handler_length();
+  constexpr int32_t& __cordl_internal_get_handler_length();
 
-  constexpr int32_t const& __get_handler_length() const;
+  constexpr int32_t const& __cordl_internal_get_handler_length() const;
 
-  constexpr void __set_handler_length(int32_t value);
+  constexpr void __cordl_internal_set_handler_length(int32_t value);
 
   static inline ::System::Reflection::ExceptionHandlingClause* New_ctor();
 

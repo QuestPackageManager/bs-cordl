@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::LiteNetLib::Layers::PacketLayerBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LiteNetLib::Layers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14242))
 // CS Name: ::LiteNetLib.Layers::PacketLayerBase*
 class CORDL_TYPE PacketLayerBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ExtraPacketSizeForLayer, offset 0x10, size 0x4
-  __declspec(property(get = __get_ExtraPacketSizeForLayer, put = __set_ExtraPacketSizeForLayer)) int32_t ExtraPacketSizeForLayer;
+  __declspec(property(get = __cordl_internal_get_ExtraPacketSizeForLayer, put = __cordl_internal_set_ExtraPacketSizeForLayer)) int32_t ExtraPacketSizeForLayer;
 
-  constexpr int32_t& __get_ExtraPacketSizeForLayer();
+  constexpr int32_t& __cordl_internal_get_ExtraPacketSizeForLayer();
 
-  constexpr int32_t const& __get_ExtraPacketSizeForLayer() const;
+  constexpr int32_t const& __cordl_internal_get_ExtraPacketSizeForLayer() const;
 
-  constexpr void __set_ExtraPacketSizeForLayer(int32_t value);
+  constexpr void __cordl_internal_set_ExtraPacketSizeForLayer(int32_t value);
 
   static inline ::LiteNetLib::Layers::PacketLayerBase* New_ctor(int32_t extraPacketSizeForLayer);
 

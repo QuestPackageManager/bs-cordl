@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7572))
 // CS Name: ::OVRHaptics::Config*
 class CORDL_TYPE __OVRHaptics__Config : public ::System::Object {
@@ -168,20 +168,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHaptics__C
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7573))
 // CS Name: ::OVRHaptics::OVRHapticsChannel*
 class CORDL_TYPE __OVRHaptics__OVRHapticsChannel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_output, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_output, put = __set_m_output))::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* m_output;
+  __declspec(property(get = __cordl_internal_get_m_output, put = __cordl_internal_set_m_output))::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* m_output;
 
-  constexpr ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*& __get_m_output();
+  constexpr ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*& __cordl_internal_get_m_output();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*> const& __get_m_output() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*> const& __cordl_internal_get_m_output() const;
 
-  constexpr void __set_m_output(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* value);
+  constexpr void __cordl_internal_set_m_output(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* value);
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* New_ctor(uint32_t outputIndex);
 
@@ -229,33 +229,33 @@ static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsChannel, ___m_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7574))
 // CS Name: ::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*
 class CORDL_TYPE __OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <ReadCount>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__ReadCount_k__BackingField, put = __set__ReadCount_k__BackingField)) int32_t _ReadCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReadCount_k__BackingField, put = __cordl_internal_set__ReadCount_k__BackingField)) int32_t _ReadCount_k__BackingField;
 
   /// @brief Field <Clip>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Clip_k__BackingField, put = __set__Clip_k__BackingField))::GlobalNamespace::OVRHapticsClip* _Clip_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Clip_k__BackingField, put = __cordl_internal_set__Clip_k__BackingField))::GlobalNamespace::OVRHapticsClip* _Clip_k__BackingField;
 
   __declspec(property(get = get_ReadCount, put = set_ReadCount)) int32_t ReadCount;
 
   __declspec(property(get = get_Clip, put = set_Clip))::GlobalNamespace::OVRHapticsClip* Clip;
 
-  constexpr int32_t& __get__ReadCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__ReadCount_k__BackingField();
 
-  constexpr int32_t const& __get__ReadCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__ReadCount_k__BackingField() const;
 
-  constexpr void __set__ReadCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__ReadCount_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::OVRHapticsClip*& __get__Clip_k__BackingField();
+  constexpr ::GlobalNamespace::OVRHapticsClip*& __cordl_internal_get__Clip_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHapticsClip*> const& __get__Clip_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHapticsClip*> const& __cordl_internal_get__Clip_k__BackingField() const;
 
-  constexpr void __set__Clip_k__BackingField(::GlobalNamespace::OVRHapticsClip* value);
+  constexpr void __cordl_internal_set__Clip_k__BackingField(::GlobalNamespace::OVRHapticsClip* value);
 
   /// @brief Method get_ReadCount, addr 0x2729834, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ReadCount();
@@ -308,7 +308,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPl
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7575))
 // CS Name: ::OVRHaptics::OVRHapticsOutput*
 class CORDL_TYPE __OVRHaptics__OVRHapticsOutput : public ::System::Object {
@@ -317,113 +317,114 @@ public:
   using ClipPlaybackTracker = ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
 
   /// @brief Field m_lowLatencyMode, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_lowLatencyMode, put = __set_m_lowLatencyMode)) bool m_lowLatencyMode;
+  __declspec(property(get = __cordl_internal_get_m_lowLatencyMode, put = __cordl_internal_set_m_lowLatencyMode)) bool m_lowLatencyMode;
 
   /// @brief Field m_paddingEnabled, offset 0x11, size 0x1
-  __declspec(property(get = __get_m_paddingEnabled, put = __set_m_paddingEnabled)) bool m_paddingEnabled;
+  __declspec(property(get = __cordl_internal_get_m_paddingEnabled, put = __cordl_internal_set_m_paddingEnabled)) bool m_paddingEnabled;
 
   /// @brief Field m_prevSamplesQueued, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_prevSamplesQueued, put = __set_m_prevSamplesQueued)) int32_t m_prevSamplesQueued;
+  __declspec(property(get = __cordl_internal_get_m_prevSamplesQueued, put = __cordl_internal_set_m_prevSamplesQueued)) int32_t m_prevSamplesQueued;
 
   /// @brief Field m_prevSamplesQueuedTime, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_prevSamplesQueuedTime, put = __set_m_prevSamplesQueuedTime)) float_t m_prevSamplesQueuedTime;
+  __declspec(property(get = __cordl_internal_get_m_prevSamplesQueuedTime, put = __cordl_internal_set_m_prevSamplesQueuedTime)) float_t m_prevSamplesQueuedTime;
 
   /// @brief Field m_numPredictionHits, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_numPredictionHits, put = __set_m_numPredictionHits)) int32_t m_numPredictionHits;
+  __declspec(property(get = __cordl_internal_get_m_numPredictionHits, put = __cordl_internal_set_m_numPredictionHits)) int32_t m_numPredictionHits;
 
   /// @brief Field m_numPredictionMisses, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_numPredictionMisses, put = __set_m_numPredictionMisses)) int32_t m_numPredictionMisses;
+  __declspec(property(get = __cordl_internal_get_m_numPredictionMisses, put = __cordl_internal_set_m_numPredictionMisses)) int32_t m_numPredictionMisses;
 
   /// @brief Field m_numUnderruns, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_numUnderruns, put = __set_m_numUnderruns)) int32_t m_numUnderruns;
+  __declspec(property(get = __cordl_internal_get_m_numUnderruns, put = __cordl_internal_set_m_numUnderruns)) int32_t m_numUnderruns;
 
   /// @brief Field m_pendingClips, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_pendingClips,
-                      put = __set_m_pendingClips))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>* m_pendingClips;
+  __declspec(property(get = __cordl_internal_get_m_pendingClips,
+                      put = __cordl_internal_set_m_pendingClips))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>* m_pendingClips;
 
   /// @brief Field m_controller, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_controller, put = __set_m_controller)) uint32_t m_controller;
+  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller)) uint32_t m_controller;
 
   /// @brief Field m_nativeBuffer, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_nativeBuffer, put = __set_m_nativeBuffer))::GlobalNamespace::OVRNativeBuffer* m_nativeBuffer;
+  __declspec(property(get = __cordl_internal_get_m_nativeBuffer, put = __cordl_internal_set_m_nativeBuffer))::GlobalNamespace::OVRNativeBuffer* m_nativeBuffer;
 
   /// @brief Field m_paddingClip, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_paddingClip, put = __set_m_paddingClip))::GlobalNamespace::OVRHapticsClip* m_paddingClip;
+  __declspec(property(get = __cordl_internal_get_m_paddingClip, put = __cordl_internal_set_m_paddingClip))::GlobalNamespace::OVRHapticsClip* m_paddingClip;
 
   /// @brief Field PrevSampleRateHz, offset 0x48, size 0x4
-  __declspec(property(get = __get_PrevSampleRateHz, put = __set_PrevSampleRateHz)) int32_t PrevSampleRateHz;
+  __declspec(property(get = __cordl_internal_get_PrevSampleRateHz, put = __cordl_internal_set_PrevSampleRateHz)) int32_t PrevSampleRateHz;
 
-  constexpr bool& __get_m_lowLatencyMode();
+  constexpr bool& __cordl_internal_get_m_lowLatencyMode();
 
-  constexpr bool const& __get_m_lowLatencyMode() const;
+  constexpr bool const& __cordl_internal_get_m_lowLatencyMode() const;
 
-  constexpr void __set_m_lowLatencyMode(bool value);
+  constexpr void __cordl_internal_set_m_lowLatencyMode(bool value);
 
-  constexpr bool& __get_m_paddingEnabled();
+  constexpr bool& __cordl_internal_get_m_paddingEnabled();
 
-  constexpr bool const& __get_m_paddingEnabled() const;
+  constexpr bool const& __cordl_internal_get_m_paddingEnabled() const;
 
-  constexpr void __set_m_paddingEnabled(bool value);
+  constexpr void __cordl_internal_set_m_paddingEnabled(bool value);
 
-  constexpr int32_t& __get_m_prevSamplesQueued();
+  constexpr int32_t& __cordl_internal_get_m_prevSamplesQueued();
 
-  constexpr int32_t const& __get_m_prevSamplesQueued() const;
+  constexpr int32_t const& __cordl_internal_get_m_prevSamplesQueued() const;
 
-  constexpr void __set_m_prevSamplesQueued(int32_t value);
+  constexpr void __cordl_internal_set_m_prevSamplesQueued(int32_t value);
 
-  constexpr float_t& __get_m_prevSamplesQueuedTime();
+  constexpr float_t& __cordl_internal_get_m_prevSamplesQueuedTime();
 
-  constexpr float_t const& __get_m_prevSamplesQueuedTime() const;
+  constexpr float_t const& __cordl_internal_get_m_prevSamplesQueuedTime() const;
 
-  constexpr void __set_m_prevSamplesQueuedTime(float_t value);
+  constexpr void __cordl_internal_set_m_prevSamplesQueuedTime(float_t value);
 
-  constexpr int32_t& __get_m_numPredictionHits();
+  constexpr int32_t& __cordl_internal_get_m_numPredictionHits();
 
-  constexpr int32_t const& __get_m_numPredictionHits() const;
+  constexpr int32_t const& __cordl_internal_get_m_numPredictionHits() const;
 
-  constexpr void __set_m_numPredictionHits(int32_t value);
+  constexpr void __cordl_internal_set_m_numPredictionHits(int32_t value);
 
-  constexpr int32_t& __get_m_numPredictionMisses();
+  constexpr int32_t& __cordl_internal_get_m_numPredictionMisses();
 
-  constexpr int32_t const& __get_m_numPredictionMisses() const;
+  constexpr int32_t const& __cordl_internal_get_m_numPredictionMisses() const;
 
-  constexpr void __set_m_numPredictionMisses(int32_t value);
+  constexpr void __cordl_internal_set_m_numPredictionMisses(int32_t value);
 
-  constexpr int32_t& __get_m_numUnderruns();
+  constexpr int32_t& __cordl_internal_get_m_numUnderruns();
 
-  constexpr int32_t const& __get_m_numUnderruns() const;
+  constexpr int32_t const& __cordl_internal_get_m_numUnderruns() const;
 
-  constexpr void __set_m_numUnderruns(int32_t value);
+  constexpr void __cordl_internal_set_m_numUnderruns(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>*& __get_m_pendingClips();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>*& __cordl_internal_get_m_pendingClips();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>*> const& __get_m_pendingClips() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>*> const&
+  __cordl_internal_get_m_pendingClips() const;
 
-  constexpr void __set_m_pendingClips(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>* value);
+  constexpr void __cordl_internal_set_m_pendingClips(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>* value);
 
-  constexpr uint32_t& __get_m_controller();
+  constexpr uint32_t& __cordl_internal_get_m_controller();
 
-  constexpr uint32_t const& __get_m_controller() const;
+  constexpr uint32_t const& __cordl_internal_get_m_controller() const;
 
-  constexpr void __set_m_controller(uint32_t value);
+  constexpr void __cordl_internal_set_m_controller(uint32_t value);
 
-  constexpr ::GlobalNamespace::OVRNativeBuffer*& __get_m_nativeBuffer();
+  constexpr ::GlobalNamespace::OVRNativeBuffer*& __cordl_internal_get_m_nativeBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRNativeBuffer*> const& __get_m_nativeBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRNativeBuffer*> const& __cordl_internal_get_m_nativeBuffer() const;
 
-  constexpr void __set_m_nativeBuffer(::GlobalNamespace::OVRNativeBuffer* value);
+  constexpr void __cordl_internal_set_m_nativeBuffer(::GlobalNamespace::OVRNativeBuffer* value);
 
-  constexpr ::GlobalNamespace::OVRHapticsClip*& __get_m_paddingClip();
+  constexpr ::GlobalNamespace::OVRHapticsClip*& __cordl_internal_get_m_paddingClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHapticsClip*> const& __get_m_paddingClip() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHapticsClip*> const& __cordl_internal_get_m_paddingClip() const;
 
-  constexpr void __set_m_paddingClip(::GlobalNamespace::OVRHapticsClip* value);
+  constexpr void __cordl_internal_set_m_paddingClip(::GlobalNamespace::OVRHapticsClip* value);
 
-  constexpr int32_t& __get_PrevSampleRateHz();
+  constexpr int32_t& __cordl_internal_get_PrevSampleRateHz();
 
-  constexpr int32_t const& __get_PrevSampleRateHz() const;
+  constexpr int32_t const& __cordl_internal_get_PrevSampleRateHz() const;
 
-  constexpr void __set_PrevSampleRateHz(int32_t value);
+  constexpr void __cordl_internal_set_PrevSampleRateHz(int32_t value);
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* New_ctor(uint32_t controller);
 
@@ -529,7 +530,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___Pre
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7576))
 // CS Name: ::OVRHaptics*
 class CORDL_TYPE OVRHaptics : public ::System::Object {

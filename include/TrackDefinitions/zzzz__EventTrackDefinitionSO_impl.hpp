@@ -33,9 +33,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a0b030;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(),
-                                                                               "get_visible", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_visible", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -47,9 +47,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a0b038;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(),
-                                                                               "get_dataTransformation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_dataTransformation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -61,9 +61,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a0b040;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(),
-                                                                               "get_markerType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_markerType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -75,9 +75,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a0b048;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(),
-                                                                               "get_needsFiltering", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_needsFiltering", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -88,86 +88,86 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a0b050;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType& TrackDefinitions::EventTrackDefinitionSO::__get__dataTransformationType() {
+constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__dataTransformationType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataTransformationType;
 }
-constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const& TrackDefinitions::EventTrackDefinitionSO::__get__dataTransformationType() const {
+constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__dataTransformationType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataTransformationType;
 }
-constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__dataTransformationType(::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType value) {
+constexpr void TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_set__dataTransformationType(::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dataTransformationType = value;
 }
-constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType& TrackDefinitions::EventTrackDefinitionSO::__get__markerType() {
+constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__markerType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____markerType;
 }
-constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const& TrackDefinitions::EventTrackDefinitionSO::__get__markerType() const {
+constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__markerType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____markerType;
 }
-constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__markerType(::TrackDefinitions::__EventTrackDefinitionSO__MarkerType value) {
+constexpr void TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_set__markerType(::TrackDefinitions::__EventTrackDefinitionSO__MarkerType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____markerType = value;
 }
-constexpr bool& TrackDefinitions::EventTrackDefinitionSO::__get__visible() {
+constexpr bool& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__visible() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visible;
 }
-constexpr bool const& TrackDefinitions::EventTrackDefinitionSO::__get__visible() const {
+constexpr bool const& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__visible() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visible;
 }
-constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__visible(bool value) {
+constexpr void TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_set__visible(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____visible = value;
 }
-constexpr bool& TrackDefinitions::EventTrackDefinitionSO::__get__needsFiltering() {
+constexpr bool& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__needsFiltering() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____needsFiltering;
 }
-constexpr bool const& TrackDefinitions::EventTrackDefinitionSO::__get__needsFiltering() const {
+constexpr bool const& TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_get__needsFiltering() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____needsFiltering;
 }
-constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__needsFiltering(bool value) {
+constexpr void TrackDefinitions::EventTrackDefinitionSO::__cordl_internal_set__needsFiltering(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____needsFiltering = value;
 }
 inline bool TrackDefinitions::EventTrackDefinitionSO::get_visible() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(), "get_visible",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType TrackDefinitions::EventTrackDefinitionSO::get_dataTransformation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(),
-                                                                             "get_dataTransformation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_dataTransformation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType, false>(this, ___internal_method);
 }
 inline ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType TrackDefinitions::EventTrackDefinitionSO::get_markerType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(),
-                                                                             "get_markerType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_markerType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::TrackDefinitions::__EventTrackDefinitionSO__MarkerType, false>(this, ___internal_method);
 }
 inline bool TrackDefinitions::EventTrackDefinitionSO::get_needsFiltering() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(),
-                                                                             "get_needsFiltering", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_needsFiltering", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::TrackDefinitions::EventTrackDefinitionSO* TrackDefinitions::EventTrackDefinitionSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::TrackDefinitions::EventTrackDefinitionSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TrackDefinitions::EventTrackDefinitionSO*>());
 }
 inline void TrackDefinitions::EventTrackDefinitionSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrackDefinitions::EventTrackDefinitionSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

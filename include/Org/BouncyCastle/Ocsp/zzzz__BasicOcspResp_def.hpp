@@ -53,17 +53,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::BasicOcspResp);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1607))
 // CS Name: ::Org.BouncyCastle.Ocsp::BasicOcspResp*
 class CORDL_TYPE BasicOcspResp : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field resp, offset 0x10, size 0x8
-  __declspec(property(get = __get_resp, put = __set_resp))::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* resp;
+  __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp))::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* resp;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -79,17 +79,17 @@ public:
 
   __declspec(property(get = get_SignatureAlgOid))::StringW SignatureAlgOid;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*& __get_resp();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*& __cordl_internal_get_resp();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*> const& __get_resp() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*> const& __cordl_internal_get_resp() const;
 
-  constexpr void __set_resp(::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* value);
+  constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseData*& __get_data();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseData*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseData*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseData*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
+  constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
 
   static inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* resp);
 

@@ -39,113 +39,113 @@ MARK_REF_PTR_T(::System::Globalization::NumberFormatInfo);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 213, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3679))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3679))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3704))
 // CS Name: ::System.Globalization::NumberFormatInfo*
 class CORDL_TYPE NumberFormatInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field numberGroupSizes, offset 0x10, size 0x8
-  __declspec(property(get = __get_numberGroupSizes, put = __set_numberGroupSizes))::ArrayW<int32_t, ::Array<int32_t>*> numberGroupSizes;
+  __declspec(property(get = __cordl_internal_get_numberGroupSizes, put = __cordl_internal_set_numberGroupSizes))::ArrayW<int32_t, ::Array<int32_t>*> numberGroupSizes;
 
   /// @brief Field currencyGroupSizes, offset 0x18, size 0x8
-  __declspec(property(get = __get_currencyGroupSizes, put = __set_currencyGroupSizes))::ArrayW<int32_t, ::Array<int32_t>*> currencyGroupSizes;
+  __declspec(property(get = __cordl_internal_get_currencyGroupSizes, put = __cordl_internal_set_currencyGroupSizes))::ArrayW<int32_t, ::Array<int32_t>*> currencyGroupSizes;
 
   /// @brief Field percentGroupSizes, offset 0x20, size 0x8
-  __declspec(property(get = __get_percentGroupSizes, put = __set_percentGroupSizes))::ArrayW<int32_t, ::Array<int32_t>*> percentGroupSizes;
+  __declspec(property(get = __cordl_internal_get_percentGroupSizes, put = __cordl_internal_set_percentGroupSizes))::ArrayW<int32_t, ::Array<int32_t>*> percentGroupSizes;
 
   /// @brief Field positiveSign, offset 0x28, size 0x8
-  __declspec(property(get = __get_positiveSign, put = __set_positiveSign))::StringW positiveSign;
+  __declspec(property(get = __cordl_internal_get_positiveSign, put = __cordl_internal_set_positiveSign))::StringW positiveSign;
 
   /// @brief Field negativeSign, offset 0x30, size 0x8
-  __declspec(property(get = __get_negativeSign, put = __set_negativeSign))::StringW negativeSign;
+  __declspec(property(get = __cordl_internal_get_negativeSign, put = __cordl_internal_set_negativeSign))::StringW negativeSign;
 
   /// @brief Field numberDecimalSeparator, offset 0x38, size 0x8
-  __declspec(property(get = __get_numberDecimalSeparator, put = __set_numberDecimalSeparator))::StringW numberDecimalSeparator;
+  __declspec(property(get = __cordl_internal_get_numberDecimalSeparator, put = __cordl_internal_set_numberDecimalSeparator))::StringW numberDecimalSeparator;
 
   /// @brief Field numberGroupSeparator, offset 0x40, size 0x8
-  __declspec(property(get = __get_numberGroupSeparator, put = __set_numberGroupSeparator))::StringW numberGroupSeparator;
+  __declspec(property(get = __cordl_internal_get_numberGroupSeparator, put = __cordl_internal_set_numberGroupSeparator))::StringW numberGroupSeparator;
 
   /// @brief Field currencyGroupSeparator, offset 0x48, size 0x8
-  __declspec(property(get = __get_currencyGroupSeparator, put = __set_currencyGroupSeparator))::StringW currencyGroupSeparator;
+  __declspec(property(get = __cordl_internal_get_currencyGroupSeparator, put = __cordl_internal_set_currencyGroupSeparator))::StringW currencyGroupSeparator;
 
   /// @brief Field currencyDecimalSeparator, offset 0x50, size 0x8
-  __declspec(property(get = __get_currencyDecimalSeparator, put = __set_currencyDecimalSeparator))::StringW currencyDecimalSeparator;
+  __declspec(property(get = __cordl_internal_get_currencyDecimalSeparator, put = __cordl_internal_set_currencyDecimalSeparator))::StringW currencyDecimalSeparator;
 
   /// @brief Field currencySymbol, offset 0x58, size 0x8
-  __declspec(property(get = __get_currencySymbol, put = __set_currencySymbol))::StringW currencySymbol;
+  __declspec(property(get = __cordl_internal_get_currencySymbol, put = __cordl_internal_set_currencySymbol))::StringW currencySymbol;
 
   /// @brief Field ansiCurrencySymbol, offset 0x60, size 0x8
-  __declspec(property(get = __get_ansiCurrencySymbol, put = __set_ansiCurrencySymbol))::StringW ansiCurrencySymbol;
+  __declspec(property(get = __cordl_internal_get_ansiCurrencySymbol, put = __cordl_internal_set_ansiCurrencySymbol))::StringW ansiCurrencySymbol;
 
   /// @brief Field nanSymbol, offset 0x68, size 0x8
-  __declspec(property(get = __get_nanSymbol, put = __set_nanSymbol))::StringW nanSymbol;
+  __declspec(property(get = __cordl_internal_get_nanSymbol, put = __cordl_internal_set_nanSymbol))::StringW nanSymbol;
 
   /// @brief Field positiveInfinitySymbol, offset 0x70, size 0x8
-  __declspec(property(get = __get_positiveInfinitySymbol, put = __set_positiveInfinitySymbol))::StringW positiveInfinitySymbol;
+  __declspec(property(get = __cordl_internal_get_positiveInfinitySymbol, put = __cordl_internal_set_positiveInfinitySymbol))::StringW positiveInfinitySymbol;
 
   /// @brief Field negativeInfinitySymbol, offset 0x78, size 0x8
-  __declspec(property(get = __get_negativeInfinitySymbol, put = __set_negativeInfinitySymbol))::StringW negativeInfinitySymbol;
+  __declspec(property(get = __cordl_internal_get_negativeInfinitySymbol, put = __cordl_internal_set_negativeInfinitySymbol))::StringW negativeInfinitySymbol;
 
   /// @brief Field percentDecimalSeparator, offset 0x80, size 0x8
-  __declspec(property(get = __get_percentDecimalSeparator, put = __set_percentDecimalSeparator))::StringW percentDecimalSeparator;
+  __declspec(property(get = __cordl_internal_get_percentDecimalSeparator, put = __cordl_internal_set_percentDecimalSeparator))::StringW percentDecimalSeparator;
 
   /// @brief Field percentGroupSeparator, offset 0x88, size 0x8
-  __declspec(property(get = __get_percentGroupSeparator, put = __set_percentGroupSeparator))::StringW percentGroupSeparator;
+  __declspec(property(get = __cordl_internal_get_percentGroupSeparator, put = __cordl_internal_set_percentGroupSeparator))::StringW percentGroupSeparator;
 
   /// @brief Field percentSymbol, offset 0x90, size 0x8
-  __declspec(property(get = __get_percentSymbol, put = __set_percentSymbol))::StringW percentSymbol;
+  __declspec(property(get = __cordl_internal_get_percentSymbol, put = __cordl_internal_set_percentSymbol))::StringW percentSymbol;
 
   /// @brief Field perMilleSymbol, offset 0x98, size 0x8
-  __declspec(property(get = __get_perMilleSymbol, put = __set_perMilleSymbol))::StringW perMilleSymbol;
+  __declspec(property(get = __cordl_internal_get_perMilleSymbol, put = __cordl_internal_set_perMilleSymbol))::StringW perMilleSymbol;
 
   /// @brief Field nativeDigits, offset 0xa0, size 0x8
-  __declspec(property(get = __get_nativeDigits, put = __set_nativeDigits))::ArrayW<::StringW, ::Array<::StringW>*> nativeDigits;
+  __declspec(property(get = __cordl_internal_get_nativeDigits, put = __cordl_internal_set_nativeDigits))::ArrayW<::StringW, ::Array<::StringW>*> nativeDigits;
 
   /// @brief Field m_dataItem, offset 0xa8, size 0x4
-  __declspec(property(get = __get_m_dataItem, put = __set_m_dataItem)) int32_t m_dataItem;
+  __declspec(property(get = __cordl_internal_get_m_dataItem, put = __cordl_internal_set_m_dataItem)) int32_t m_dataItem;
 
   /// @brief Field numberDecimalDigits, offset 0xac, size 0x4
-  __declspec(property(get = __get_numberDecimalDigits, put = __set_numberDecimalDigits)) int32_t numberDecimalDigits;
+  __declspec(property(get = __cordl_internal_get_numberDecimalDigits, put = __cordl_internal_set_numberDecimalDigits)) int32_t numberDecimalDigits;
 
   /// @brief Field currencyDecimalDigits, offset 0xb0, size 0x4
-  __declspec(property(get = __get_currencyDecimalDigits, put = __set_currencyDecimalDigits)) int32_t currencyDecimalDigits;
+  __declspec(property(get = __cordl_internal_get_currencyDecimalDigits, put = __cordl_internal_set_currencyDecimalDigits)) int32_t currencyDecimalDigits;
 
   /// @brief Field currencyPositivePattern, offset 0xb4, size 0x4
-  __declspec(property(get = __get_currencyPositivePattern, put = __set_currencyPositivePattern)) int32_t currencyPositivePattern;
+  __declspec(property(get = __cordl_internal_get_currencyPositivePattern, put = __cordl_internal_set_currencyPositivePattern)) int32_t currencyPositivePattern;
 
   /// @brief Field currencyNegativePattern, offset 0xb8, size 0x4
-  __declspec(property(get = __get_currencyNegativePattern, put = __set_currencyNegativePattern)) int32_t currencyNegativePattern;
+  __declspec(property(get = __cordl_internal_get_currencyNegativePattern, put = __cordl_internal_set_currencyNegativePattern)) int32_t currencyNegativePattern;
 
   /// @brief Field numberNegativePattern, offset 0xbc, size 0x4
-  __declspec(property(get = __get_numberNegativePattern, put = __set_numberNegativePattern)) int32_t numberNegativePattern;
+  __declspec(property(get = __cordl_internal_get_numberNegativePattern, put = __cordl_internal_set_numberNegativePattern)) int32_t numberNegativePattern;
 
   /// @brief Field percentPositivePattern, offset 0xc0, size 0x4
-  __declspec(property(get = __get_percentPositivePattern, put = __set_percentPositivePattern)) int32_t percentPositivePattern;
+  __declspec(property(get = __cordl_internal_get_percentPositivePattern, put = __cordl_internal_set_percentPositivePattern)) int32_t percentPositivePattern;
 
   /// @brief Field percentNegativePattern, offset 0xc4, size 0x4
-  __declspec(property(get = __get_percentNegativePattern, put = __set_percentNegativePattern)) int32_t percentNegativePattern;
+  __declspec(property(get = __cordl_internal_get_percentNegativePattern, put = __cordl_internal_set_percentNegativePattern)) int32_t percentNegativePattern;
 
   /// @brief Field percentDecimalDigits, offset 0xc8, size 0x4
-  __declspec(property(get = __get_percentDecimalDigits, put = __set_percentDecimalDigits)) int32_t percentDecimalDigits;
+  __declspec(property(get = __cordl_internal_get_percentDecimalDigits, put = __cordl_internal_set_percentDecimalDigits)) int32_t percentDecimalDigits;
 
   /// @brief Field digitSubstitution, offset 0xcc, size 0x4
-  __declspec(property(get = __get_digitSubstitution, put = __set_digitSubstitution)) int32_t digitSubstitution;
+  __declspec(property(get = __cordl_internal_get_digitSubstitution, put = __cordl_internal_set_digitSubstitution)) int32_t digitSubstitution;
 
   /// @brief Field isReadOnly, offset 0xd0, size 0x1
-  __declspec(property(get = __get_isReadOnly, put = __set_isReadOnly)) bool isReadOnly;
+  __declspec(property(get = __cordl_internal_get_isReadOnly, put = __cordl_internal_set_isReadOnly)) bool isReadOnly;
 
   /// @brief Field m_useUserOverride, offset 0xd1, size 0x1
-  __declspec(property(get = __get_m_useUserOverride, put = __set_m_useUserOverride)) bool m_useUserOverride;
+  __declspec(property(get = __cordl_internal_get_m_useUserOverride, put = __cordl_internal_set_m_useUserOverride)) bool m_useUserOverride;
 
   /// @brief Field m_isInvariant, offset 0xd2, size 0x1
-  __declspec(property(get = __get_m_isInvariant, put = __set_m_isInvariant)) bool m_isInvariant;
+  __declspec(property(get = __cordl_internal_get_m_isInvariant, put = __cordl_internal_set_m_isInvariant)) bool m_isInvariant;
 
   /// @brief Field validForParseAsNumber, offset 0xd3, size 0x1
-  __declspec(property(get = __get_validForParseAsNumber, put = __set_validForParseAsNumber)) bool validForParseAsNumber;
+  __declspec(property(get = __cordl_internal_get_validForParseAsNumber, put = __cordl_internal_set_validForParseAsNumber)) bool validForParseAsNumber;
 
   /// @brief Field validForParseAsCurrency, offset 0xd4, size 0x1
-  __declspec(property(get = __get_validForParseAsCurrency, put = __set_validForParseAsCurrency)) bool validForParseAsCurrency;
+  __declspec(property(get = __cordl_internal_get_validForParseAsCurrency, put = __cordl_internal_set_validForParseAsCurrency)) bool validForParseAsCurrency;
 
   /// @brief Field invariantInfo, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_invariantInfo, put = setStaticF_invariantInfo))::System::Globalization::NumberFormatInfo* invariantInfo;
@@ -214,209 +214,209 @@ public:
   /// @brief Convert to "::System::IFormatProvider"
   constexpr ::System::IFormatProvider* i___System__IFormatProvider() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_numberGroupSizes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_numberGroupSizes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_numberGroupSizes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_numberGroupSizes() const;
 
-  constexpr void __set_numberGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_numberGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_currencyGroupSizes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_currencyGroupSizes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_currencyGroupSizes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_currencyGroupSizes() const;
 
-  constexpr void __set_currencyGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_currencyGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_percentGroupSizes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_percentGroupSizes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_percentGroupSizes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_percentGroupSizes() const;
 
-  constexpr void __set_percentGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_percentGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::StringW& __get_positiveSign();
+  constexpr ::StringW& __cordl_internal_get_positiveSign();
 
-  constexpr ::StringW const& __get_positiveSign() const;
+  constexpr ::StringW const& __cordl_internal_get_positiveSign() const;
 
-  constexpr void __set_positiveSign(::StringW value);
+  constexpr void __cordl_internal_set_positiveSign(::StringW value);
 
-  constexpr ::StringW& __get_negativeSign();
+  constexpr ::StringW& __cordl_internal_get_negativeSign();
 
-  constexpr ::StringW const& __get_negativeSign() const;
+  constexpr ::StringW const& __cordl_internal_get_negativeSign() const;
 
-  constexpr void __set_negativeSign(::StringW value);
+  constexpr void __cordl_internal_set_negativeSign(::StringW value);
 
-  constexpr ::StringW& __get_numberDecimalSeparator();
+  constexpr ::StringW& __cordl_internal_get_numberDecimalSeparator();
 
-  constexpr ::StringW const& __get_numberDecimalSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_numberDecimalSeparator() const;
 
-  constexpr void __set_numberDecimalSeparator(::StringW value);
+  constexpr void __cordl_internal_set_numberDecimalSeparator(::StringW value);
 
-  constexpr ::StringW& __get_numberGroupSeparator();
+  constexpr ::StringW& __cordl_internal_get_numberGroupSeparator();
 
-  constexpr ::StringW const& __get_numberGroupSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_numberGroupSeparator() const;
 
-  constexpr void __set_numberGroupSeparator(::StringW value);
+  constexpr void __cordl_internal_set_numberGroupSeparator(::StringW value);
 
-  constexpr ::StringW& __get_currencyGroupSeparator();
+  constexpr ::StringW& __cordl_internal_get_currencyGroupSeparator();
 
-  constexpr ::StringW const& __get_currencyGroupSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_currencyGroupSeparator() const;
 
-  constexpr void __set_currencyGroupSeparator(::StringW value);
+  constexpr void __cordl_internal_set_currencyGroupSeparator(::StringW value);
 
-  constexpr ::StringW& __get_currencyDecimalSeparator();
+  constexpr ::StringW& __cordl_internal_get_currencyDecimalSeparator();
 
-  constexpr ::StringW const& __get_currencyDecimalSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_currencyDecimalSeparator() const;
 
-  constexpr void __set_currencyDecimalSeparator(::StringW value);
+  constexpr void __cordl_internal_set_currencyDecimalSeparator(::StringW value);
 
-  constexpr ::StringW& __get_currencySymbol();
+  constexpr ::StringW& __cordl_internal_get_currencySymbol();
 
-  constexpr ::StringW const& __get_currencySymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_currencySymbol() const;
 
-  constexpr void __set_currencySymbol(::StringW value);
+  constexpr void __cordl_internal_set_currencySymbol(::StringW value);
 
-  constexpr ::StringW& __get_ansiCurrencySymbol();
+  constexpr ::StringW& __cordl_internal_get_ansiCurrencySymbol();
 
-  constexpr ::StringW const& __get_ansiCurrencySymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_ansiCurrencySymbol() const;
 
-  constexpr void __set_ansiCurrencySymbol(::StringW value);
+  constexpr void __cordl_internal_set_ansiCurrencySymbol(::StringW value);
 
-  constexpr ::StringW& __get_nanSymbol();
+  constexpr ::StringW& __cordl_internal_get_nanSymbol();
 
-  constexpr ::StringW const& __get_nanSymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_nanSymbol() const;
 
-  constexpr void __set_nanSymbol(::StringW value);
+  constexpr void __cordl_internal_set_nanSymbol(::StringW value);
 
-  constexpr ::StringW& __get_positiveInfinitySymbol();
+  constexpr ::StringW& __cordl_internal_get_positiveInfinitySymbol();
 
-  constexpr ::StringW const& __get_positiveInfinitySymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_positiveInfinitySymbol() const;
 
-  constexpr void __set_positiveInfinitySymbol(::StringW value);
+  constexpr void __cordl_internal_set_positiveInfinitySymbol(::StringW value);
 
-  constexpr ::StringW& __get_negativeInfinitySymbol();
+  constexpr ::StringW& __cordl_internal_get_negativeInfinitySymbol();
 
-  constexpr ::StringW const& __get_negativeInfinitySymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_negativeInfinitySymbol() const;
 
-  constexpr void __set_negativeInfinitySymbol(::StringW value);
+  constexpr void __cordl_internal_set_negativeInfinitySymbol(::StringW value);
 
-  constexpr ::StringW& __get_percentDecimalSeparator();
+  constexpr ::StringW& __cordl_internal_get_percentDecimalSeparator();
 
-  constexpr ::StringW const& __get_percentDecimalSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_percentDecimalSeparator() const;
 
-  constexpr void __set_percentDecimalSeparator(::StringW value);
+  constexpr void __cordl_internal_set_percentDecimalSeparator(::StringW value);
 
-  constexpr ::StringW& __get_percentGroupSeparator();
+  constexpr ::StringW& __cordl_internal_get_percentGroupSeparator();
 
-  constexpr ::StringW const& __get_percentGroupSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_percentGroupSeparator() const;
 
-  constexpr void __set_percentGroupSeparator(::StringW value);
+  constexpr void __cordl_internal_set_percentGroupSeparator(::StringW value);
 
-  constexpr ::StringW& __get_percentSymbol();
+  constexpr ::StringW& __cordl_internal_get_percentSymbol();
 
-  constexpr ::StringW const& __get_percentSymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_percentSymbol() const;
 
-  constexpr void __set_percentSymbol(::StringW value);
+  constexpr void __cordl_internal_set_percentSymbol(::StringW value);
 
-  constexpr ::StringW& __get_perMilleSymbol();
+  constexpr ::StringW& __cordl_internal_get_perMilleSymbol();
 
-  constexpr ::StringW const& __get_perMilleSymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_perMilleSymbol() const;
 
-  constexpr void __set_perMilleSymbol(::StringW value);
+  constexpr void __cordl_internal_set_perMilleSymbol(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_nativeDigits();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_nativeDigits();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_nativeDigits() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_nativeDigits() const;
 
-  constexpr void __set_nativeDigits(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_nativeDigits(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get_m_dataItem();
+  constexpr int32_t& __cordl_internal_get_m_dataItem();
 
-  constexpr int32_t const& __get_m_dataItem() const;
+  constexpr int32_t const& __cordl_internal_get_m_dataItem() const;
 
-  constexpr void __set_m_dataItem(int32_t value);
+  constexpr void __cordl_internal_set_m_dataItem(int32_t value);
 
-  constexpr int32_t& __get_numberDecimalDigits();
+  constexpr int32_t& __cordl_internal_get_numberDecimalDigits();
 
-  constexpr int32_t const& __get_numberDecimalDigits() const;
+  constexpr int32_t const& __cordl_internal_get_numberDecimalDigits() const;
 
-  constexpr void __set_numberDecimalDigits(int32_t value);
+  constexpr void __cordl_internal_set_numberDecimalDigits(int32_t value);
 
-  constexpr int32_t& __get_currencyDecimalDigits();
+  constexpr int32_t& __cordl_internal_get_currencyDecimalDigits();
 
-  constexpr int32_t const& __get_currencyDecimalDigits() const;
+  constexpr int32_t const& __cordl_internal_get_currencyDecimalDigits() const;
 
-  constexpr void __set_currencyDecimalDigits(int32_t value);
+  constexpr void __cordl_internal_set_currencyDecimalDigits(int32_t value);
 
-  constexpr int32_t& __get_currencyPositivePattern();
+  constexpr int32_t& __cordl_internal_get_currencyPositivePattern();
 
-  constexpr int32_t const& __get_currencyPositivePattern() const;
+  constexpr int32_t const& __cordl_internal_get_currencyPositivePattern() const;
 
-  constexpr void __set_currencyPositivePattern(int32_t value);
+  constexpr void __cordl_internal_set_currencyPositivePattern(int32_t value);
 
-  constexpr int32_t& __get_currencyNegativePattern();
+  constexpr int32_t& __cordl_internal_get_currencyNegativePattern();
 
-  constexpr int32_t const& __get_currencyNegativePattern() const;
+  constexpr int32_t const& __cordl_internal_get_currencyNegativePattern() const;
 
-  constexpr void __set_currencyNegativePattern(int32_t value);
+  constexpr void __cordl_internal_set_currencyNegativePattern(int32_t value);
 
-  constexpr int32_t& __get_numberNegativePattern();
+  constexpr int32_t& __cordl_internal_get_numberNegativePattern();
 
-  constexpr int32_t const& __get_numberNegativePattern() const;
+  constexpr int32_t const& __cordl_internal_get_numberNegativePattern() const;
 
-  constexpr void __set_numberNegativePattern(int32_t value);
+  constexpr void __cordl_internal_set_numberNegativePattern(int32_t value);
 
-  constexpr int32_t& __get_percentPositivePattern();
+  constexpr int32_t& __cordl_internal_get_percentPositivePattern();
 
-  constexpr int32_t const& __get_percentPositivePattern() const;
+  constexpr int32_t const& __cordl_internal_get_percentPositivePattern() const;
 
-  constexpr void __set_percentPositivePattern(int32_t value);
+  constexpr void __cordl_internal_set_percentPositivePattern(int32_t value);
 
-  constexpr int32_t& __get_percentNegativePattern();
+  constexpr int32_t& __cordl_internal_get_percentNegativePattern();
 
-  constexpr int32_t const& __get_percentNegativePattern() const;
+  constexpr int32_t const& __cordl_internal_get_percentNegativePattern() const;
 
-  constexpr void __set_percentNegativePattern(int32_t value);
+  constexpr void __cordl_internal_set_percentNegativePattern(int32_t value);
 
-  constexpr int32_t& __get_percentDecimalDigits();
+  constexpr int32_t& __cordl_internal_get_percentDecimalDigits();
 
-  constexpr int32_t const& __get_percentDecimalDigits() const;
+  constexpr int32_t const& __cordl_internal_get_percentDecimalDigits() const;
 
-  constexpr void __set_percentDecimalDigits(int32_t value);
+  constexpr void __cordl_internal_set_percentDecimalDigits(int32_t value);
 
-  constexpr int32_t& __get_digitSubstitution();
+  constexpr int32_t& __cordl_internal_get_digitSubstitution();
 
-  constexpr int32_t const& __get_digitSubstitution() const;
+  constexpr int32_t const& __cordl_internal_get_digitSubstitution() const;
 
-  constexpr void __set_digitSubstitution(int32_t value);
+  constexpr void __cordl_internal_set_digitSubstitution(int32_t value);
 
-  constexpr bool& __get_isReadOnly();
+  constexpr bool& __cordl_internal_get_isReadOnly();
 
-  constexpr bool const& __get_isReadOnly() const;
+  constexpr bool const& __cordl_internal_get_isReadOnly() const;
 
-  constexpr void __set_isReadOnly(bool value);
+  constexpr void __cordl_internal_set_isReadOnly(bool value);
 
-  constexpr bool& __get_m_useUserOverride();
+  constexpr bool& __cordl_internal_get_m_useUserOverride();
 
-  constexpr bool const& __get_m_useUserOverride() const;
+  constexpr bool const& __cordl_internal_get_m_useUserOverride() const;
 
-  constexpr void __set_m_useUserOverride(bool value);
+  constexpr void __cordl_internal_set_m_useUserOverride(bool value);
 
-  constexpr bool& __get_m_isInvariant();
+  constexpr bool& __cordl_internal_get_m_isInvariant();
 
-  constexpr bool const& __get_m_isInvariant() const;
+  constexpr bool const& __cordl_internal_get_m_isInvariant() const;
 
-  constexpr void __set_m_isInvariant(bool value);
+  constexpr void __cordl_internal_set_m_isInvariant(bool value);
 
-  constexpr bool& __get_validForParseAsNumber();
+  constexpr bool& __cordl_internal_get_validForParseAsNumber();
 
-  constexpr bool const& __get_validForParseAsNumber() const;
+  constexpr bool const& __cordl_internal_get_validForParseAsNumber() const;
 
-  constexpr void __set_validForParseAsNumber(bool value);
+  constexpr void __cordl_internal_set_validForParseAsNumber(bool value);
 
-  constexpr bool& __get_validForParseAsCurrency();
+  constexpr bool& __cordl_internal_get_validForParseAsCurrency();
 
-  constexpr bool const& __get_validForParseAsCurrency() const;
+  constexpr bool const& __cordl_internal_get_validForParseAsCurrency() const;
 
-  constexpr void __set_validForParseAsCurrency(bool value);
+  constexpr void __cordl_internal_set_validForParseAsCurrency(bool value);
 
   static inline void setStaticF_invariantInfo(::System::Globalization::NumberFormatInfo* value);
 

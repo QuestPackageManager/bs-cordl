@@ -34,20 +34,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(383))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::SubjectKeyIdentifier*
 class CORDL_TYPE SubjectKeyIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field keyIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyIdentifier, put = __set_keyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier;
+  __declspec(property(get = __cordl_internal_get_keyIdentifier, put = __cordl_internal_set_keyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_keyIdentifier();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keyIdentifier();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_keyIdentifier() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_keyIdentifier() const;
 
-  constexpr void __set_keyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_keyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method GetInstance, addr 0x1196f1c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

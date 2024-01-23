@@ -58,87 +58,90 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectManager);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3217))
 // CS Name: ::System.Runtime.Serialization::ObjectManager*
 class CORDL_TYPE ObjectManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_onDeserializationHandler, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_onDeserializationHandler, put = __set_m_onDeserializationHandler))::System::Runtime::Serialization::DeserializationEventHandler* m_onDeserializationHandler;
+  __declspec(property(get = __cordl_internal_get_m_onDeserializationHandler,
+                      put = __cordl_internal_set_m_onDeserializationHandler))::System::Runtime::Serialization::DeserializationEventHandler* m_onDeserializationHandler;
 
   /// @brief Field m_onDeserializedHandler, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_onDeserializedHandler, put = __set_m_onDeserializedHandler))::System::Runtime::Serialization::SerializationEventHandler* m_onDeserializedHandler;
+  __declspec(property(get = __cordl_internal_get_m_onDeserializedHandler,
+                      put = __cordl_internal_set_m_onDeserializedHandler))::System::Runtime::Serialization::SerializationEventHandler* m_onDeserializedHandler;
 
   /// @brief Field m_objects, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_objects, put = __set_m_objects))::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> m_objects;
+  __declspec(property(get = __cordl_internal_get_m_objects,
+                      put = __cordl_internal_set_m_objects))::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> m_objects;
 
   /// @brief Field m_topObject, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_topObject, put = __set_m_topObject))::System::Object* m_topObject;
+  __declspec(property(get = __cordl_internal_get_m_topObject, put = __cordl_internal_set_m_topObject))::System::Object* m_topObject;
 
   /// @brief Field m_specialFixupObjects, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_specialFixupObjects, put = __set_m_specialFixupObjects))::System::Runtime::Serialization::ObjectHolderList* m_specialFixupObjects;
+  __declspec(property(get = __cordl_internal_get_m_specialFixupObjects, put = __cordl_internal_set_m_specialFixupObjects))::System::Runtime::Serialization::ObjectHolderList* m_specialFixupObjects;
 
   /// @brief Field m_fixupCount, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_fixupCount, put = __set_m_fixupCount)) int64_t m_fixupCount;
+  __declspec(property(get = __cordl_internal_get_m_fixupCount, put = __cordl_internal_set_m_fixupCount)) int64_t m_fixupCount;
 
   /// @brief Field m_selector, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_selector, put = __set_m_selector))::System::Runtime::Serialization::ISurrogateSelector* m_selector;
+  __declspec(property(get = __cordl_internal_get_m_selector, put = __cordl_internal_set_m_selector))::System::Runtime::Serialization::ISurrogateSelector* m_selector;
 
   /// @brief Field m_context, offset 0x48, size 0x10
-  __declspec(property(get = __get_m_context, put = __set_m_context))::System::Runtime::Serialization::StreamingContext m_context;
+  __declspec(property(get = __cordl_internal_get_m_context, put = __cordl_internal_set_m_context))::System::Runtime::Serialization::StreamingContext m_context;
 
   __declspec(property(get = get_TopObject, put = set_TopObject))::System::Object* TopObject;
 
   __declspec(property(get = get_SpecialFixupObjects))::System::Runtime::Serialization::ObjectHolderList* SpecialFixupObjects;
 
-  constexpr ::System::Runtime::Serialization::DeserializationEventHandler*& __get_m_onDeserializationHandler();
+  constexpr ::System::Runtime::Serialization::DeserializationEventHandler*& __cordl_internal_get_m_onDeserializationHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::DeserializationEventHandler*> const& __get_m_onDeserializationHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::DeserializationEventHandler*> const& __cordl_internal_get_m_onDeserializationHandler() const;
 
-  constexpr void __set_m_onDeserializationHandler(::System::Runtime::Serialization::DeserializationEventHandler* value);
+  constexpr void __cordl_internal_set_m_onDeserializationHandler(::System::Runtime::Serialization::DeserializationEventHandler* value);
 
-  constexpr ::System::Runtime::Serialization::SerializationEventHandler*& __get_m_onDeserializedHandler();
+  constexpr ::System::Runtime::Serialization::SerializationEventHandler*& __cordl_internal_get_m_onDeserializedHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationEventHandler*> const& __get_m_onDeserializedHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationEventHandler*> const& __cordl_internal_get_m_onDeserializedHandler() const;
 
-  constexpr void __set_m_onDeserializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value);
+  constexpr void __cordl_internal_set_m_onDeserializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value);
 
-  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*>& __get_m_objects();
+  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*>& __cordl_internal_get_m_objects();
 
-  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> const& __get_m_objects() const;
+  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> const& __cordl_internal_get_m_objects() const;
 
-  constexpr void __set_m_objects(::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> value);
+  constexpr void __cordl_internal_set_m_objects(::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> value);
 
-  constexpr ::System::Object*& __get_m_topObject();
+  constexpr ::System::Object*& __cordl_internal_get_m_topObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_topObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_topObject() const;
 
-  constexpr void __set_m_topObject(::System::Object* value);
+  constexpr void __cordl_internal_set_m_topObject(::System::Object* value);
 
-  constexpr ::System::Runtime::Serialization::ObjectHolderList*& __get_m_specialFixupObjects();
+  constexpr ::System::Runtime::Serialization::ObjectHolderList*& __cordl_internal_get_m_specialFixupObjects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectHolderList*> const& __get_m_specialFixupObjects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectHolderList*> const& __cordl_internal_get_m_specialFixupObjects() const;
 
-  constexpr void __set_m_specialFixupObjects(::System::Runtime::Serialization::ObjectHolderList* value);
+  constexpr void __cordl_internal_set_m_specialFixupObjects(::System::Runtime::Serialization::ObjectHolderList* value);
 
-  constexpr int64_t& __get_m_fixupCount();
+  constexpr int64_t& __cordl_internal_get_m_fixupCount();
 
-  constexpr int64_t const& __get_m_fixupCount() const;
+  constexpr int64_t const& __cordl_internal_get_m_fixupCount() const;
 
-  constexpr void __set_m_fixupCount(int64_t value);
+  constexpr void __cordl_internal_set_m_fixupCount(int64_t value);
 
-  constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __get_m_selector();
+  constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __cordl_internal_get_m_selector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const& __get_m_selector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const& __cordl_internal_get_m_selector() const;
 
-  constexpr void __set_m_selector(::System::Runtime::Serialization::ISurrogateSelector* value);
+  constexpr void __cordl_internal_set_m_selector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __get_m_context();
+  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_m_context();
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __get_m_context() const;
+  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_context() const;
 
-  constexpr void __set_m_context(::System::Runtime::Serialization::StreamingContext value);
+  constexpr void __cordl_internal_set_m_context(::System::Runtime::Serialization::StreamingContext value);
 
   static inline ::System::Runtime::Serialization::ObjectManager* New_ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context,
                                                                           bool checkSecurity, bool isCrossAppDomain);

@@ -87,7 +87,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8173))
 // CS Name: ::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*
 class CORDL_TYPE __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider {
@@ -112,7 +112,7 @@ public:
 // SizeInfo { instance_size: 8, native_size: 16, calculated_instance_size: 8, calculated_native_size: 23, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8174))
 // CS Name: ::OVRSkeletonRenderer::SkeletonRendererData
 struct CORDL_TYPE __OVRSkeletonRenderer__SkeletonRendererData {
@@ -193,7 +193,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendere
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8175))
 // CS Name: ::OVRSkeletonRenderer::ConfidenceBehavior
 struct CORDL_TYPE __OVRSkeletonRenderer__ConfidenceBehavior {
@@ -243,7 +243,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehav
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8176))
 // CS Name: ::OVRSkeletonRenderer::SystemGestureBehavior
 struct CORDL_TYPE __OVRSkeletonRenderer__SystemGestureBehavior {
@@ -293,65 +293,65 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8177))
 // CS Name: ::OVRSkeletonRenderer::BoneVisualization*
 class CORDL_TYPE __OVRSkeletonRenderer__BoneVisualization : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BoneGO, offset 0x10, size 0x8
-  __declspec(property(get = __get_BoneGO, put = __set_BoneGO))::UnityEngine::GameObject* BoneGO;
+  __declspec(property(get = __cordl_internal_get_BoneGO, put = __cordl_internal_set_BoneGO))::UnityW<::UnityEngine::GameObject> BoneGO;
 
   /// @brief Field BoneBegin, offset 0x18, size 0x8
-  __declspec(property(get = __get_BoneBegin, put = __set_BoneBegin))::UnityEngine::Transform* BoneBegin;
+  __declspec(property(get = __cordl_internal_get_BoneBegin, put = __cordl_internal_set_BoneBegin))::UnityW<::UnityEngine::Transform> BoneBegin;
 
   /// @brief Field BoneEnd, offset 0x20, size 0x8
-  __declspec(property(get = __get_BoneEnd, put = __set_BoneEnd))::UnityEngine::Transform* BoneEnd;
+  __declspec(property(get = __cordl_internal_get_BoneEnd, put = __cordl_internal_set_BoneEnd))::UnityW<::UnityEngine::Transform> BoneEnd;
 
   /// @brief Field Line, offset 0x28, size 0x8
-  __declspec(property(get = __get_Line, put = __set_Line))::UnityEngine::LineRenderer* Line;
+  __declspec(property(get = __cordl_internal_get_Line, put = __cordl_internal_set_Line))::UnityW<::UnityEngine::LineRenderer> Line;
 
   /// @brief Field RenderMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __get_RenderMaterial, put = __set_RenderMaterial))::UnityEngine::Material* RenderMaterial;
+  __declspec(property(get = __cordl_internal_get_RenderMaterial, put = __cordl_internal_set_RenderMaterial))::UnityW<::UnityEngine::Material> RenderMaterial;
 
   /// @brief Field SystemGestureMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __get_SystemGestureMaterial, put = __set_SystemGestureMaterial))::UnityEngine::Material* SystemGestureMaterial;
+  __declspec(property(get = __cordl_internal_get_SystemGestureMaterial, put = __cordl_internal_set_SystemGestureMaterial))::UnityW<::UnityEngine::Material> SystemGestureMaterial;
 
-  constexpr ::UnityEngine::GameObject*& __get_BoneGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_BoneGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_BoneGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_BoneGO() const;
 
-  constexpr void __set_BoneGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_BoneGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Transform*& __get_BoneBegin();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_BoneBegin();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_BoneBegin() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_BoneBegin() const;
 
-  constexpr void __set_BoneBegin(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_BoneBegin(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_BoneEnd();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_BoneEnd();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_BoneEnd() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_BoneEnd() const;
 
-  constexpr void __set_BoneEnd(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_BoneEnd(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::LineRenderer*& __get_Line();
+  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_Line();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::LineRenderer*> const& __get_Line() const;
+  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_Line() const;
 
-  constexpr void __set_Line(::UnityEngine::LineRenderer* value);
+  constexpr void __cordl_internal_set_Line(::UnityW<::UnityEngine::LineRenderer> value);
 
-  constexpr ::UnityEngine::Material*& __get_RenderMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_RenderMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_RenderMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_RenderMaterial() const;
 
-  constexpr void __set_RenderMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_SystemGestureMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_SystemGestureMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_SystemGestureMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_SystemGestureMaterial() const;
 
-  constexpr void __set_SystemGestureMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
                                                                                       float_t scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end);
@@ -379,22 +379,22 @@ protected:
 
 public:
   /// @brief Field BoneGO, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___BoneGO;
+  ::UnityW<::UnityEngine::GameObject> ___BoneGO;
 
   /// @brief Field BoneBegin, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___BoneBegin;
+  ::UnityW<::UnityEngine::Transform> ___BoneBegin;
 
   /// @brief Field BoneEnd, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___BoneEnd;
+  ::UnityW<::UnityEngine::Transform> ___BoneEnd;
 
   /// @brief Field Line, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::LineRenderer* ___Line;
+  ::UnityW<::UnityEngine::LineRenderer> ___Line;
 
   /// @brief Field RenderMaterial, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* ___RenderMaterial;
+  ::UnityW<::UnityEngine::Material> ___RenderMaterial;
 
   /// @brief Field SystemGestureMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ___SystemGestureMaterial;
+  ::UnityW<::UnityEngine::Material> ___SystemGestureMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -418,65 +418,65 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualizati
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8178))
 // CS Name: ::OVRSkeletonRenderer::CapsuleVisualization*
 class CORDL_TYPE __OVRSkeletonRenderer__CapsuleVisualization : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CapsuleGO, offset 0x10, size 0x8
-  __declspec(property(get = __get_CapsuleGO, put = __set_CapsuleGO))::UnityEngine::GameObject* CapsuleGO;
+  __declspec(property(get = __cordl_internal_get_CapsuleGO, put = __cordl_internal_set_CapsuleGO))::UnityW<::UnityEngine::GameObject> CapsuleGO;
 
   /// @brief Field BoneCapsule, offset 0x18, size 0x8
-  __declspec(property(get = __get_BoneCapsule, put = __set_BoneCapsule))::GlobalNamespace::OVRBoneCapsule* BoneCapsule;
+  __declspec(property(get = __cordl_internal_get_BoneCapsule, put = __cordl_internal_set_BoneCapsule))::GlobalNamespace::OVRBoneCapsule* BoneCapsule;
 
   /// @brief Field capsuleScale, offset 0x20, size 0xc
-  __declspec(property(get = __get_capsuleScale, put = __set_capsuleScale))::UnityEngine::Vector3 capsuleScale;
+  __declspec(property(get = __cordl_internal_get_capsuleScale, put = __cordl_internal_set_capsuleScale))::UnityEngine::Vector3 capsuleScale;
 
   /// @brief Field Renderer, offset 0x30, size 0x8
-  __declspec(property(get = __get_Renderer, put = __set_Renderer))::UnityEngine::MeshRenderer* Renderer;
+  __declspec(property(get = __cordl_internal_get_Renderer, put = __cordl_internal_set_Renderer))::UnityW<::UnityEngine::MeshRenderer> Renderer;
 
   /// @brief Field RenderMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __get_RenderMaterial, put = __set_RenderMaterial))::UnityEngine::Material* RenderMaterial;
+  __declspec(property(get = __cordl_internal_get_RenderMaterial, put = __cordl_internal_set_RenderMaterial))::UnityW<::UnityEngine::Material> RenderMaterial;
 
   /// @brief Field SystemGestureMaterial, offset 0x40, size 0x8
-  __declspec(property(get = __get_SystemGestureMaterial, put = __set_SystemGestureMaterial))::UnityEngine::Material* SystemGestureMaterial;
+  __declspec(property(get = __cordl_internal_get_SystemGestureMaterial, put = __cordl_internal_set_SystemGestureMaterial))::UnityW<::UnityEngine::Material> SystemGestureMaterial;
 
-  constexpr ::UnityEngine::GameObject*& __get_CapsuleGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_CapsuleGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_CapsuleGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_CapsuleGO() const;
 
-  constexpr void __set_CapsuleGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_CapsuleGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::OVRBoneCapsule*& __get_BoneCapsule();
+  constexpr ::GlobalNamespace::OVRBoneCapsule*& __cordl_internal_get_BoneCapsule();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRBoneCapsule*> const& __get_BoneCapsule() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRBoneCapsule*> const& __cordl_internal_get_BoneCapsule() const;
 
-  constexpr void __set_BoneCapsule(::GlobalNamespace::OVRBoneCapsule* value);
+  constexpr void __cordl_internal_set_BoneCapsule(::GlobalNamespace::OVRBoneCapsule* value);
 
-  constexpr ::UnityEngine::Vector3& __get_capsuleScale();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_capsuleScale();
 
-  constexpr ::UnityEngine::Vector3 const& __get_capsuleScale() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_capsuleScale() const;
 
-  constexpr void __set_capsuleScale(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_capsuleScale(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::MeshRenderer*& __get_Renderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_Renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get_Renderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_Renderer() const;
 
-  constexpr void __set_Renderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set_Renderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr ::UnityEngine::Material*& __get_RenderMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_RenderMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_RenderMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_RenderMaterial() const;
 
-  constexpr void __set_RenderMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_SystemGestureMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_SystemGestureMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_SystemGestureMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_SystemGestureMaterial() const;
 
-  constexpr void __set_SystemGestureMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat,
                                                                                          ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
@@ -503,7 +503,7 @@ protected:
 
 public:
   /// @brief Field CapsuleGO, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___CapsuleGO;
+  ::UnityW<::UnityEngine::GameObject> ___CapsuleGO;
 
   /// @brief Field BoneCapsule, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::OVRBoneCapsule* ___BoneCapsule;
@@ -512,13 +512,13 @@ public:
   ::UnityEngine::Vector3 ___capsuleScale;
 
   /// @brief Field Renderer, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ___Renderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ___Renderer;
 
   /// @brief Field RenderMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ___RenderMaterial;
+  ::UnityW<::UnityEngine::Material> ___RenderMaterial;
 
   /// @brief Field SystemGestureMaterial, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Material* ___SystemGestureMaterial;
+  ::UnityW<::UnityEngine::Material> ___SystemGestureMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -542,8 +542,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualiz
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8175)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8179)) CS Name: ::OVRSkeletonRenderer*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8175)), TypeDefinitionIndex(TypeDefinitionIndex(8176)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8179)) CS Name: ::OVRSkeletonRenderer*
 class CORDL_TYPE OVRSkeletonRenderer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -560,63 +560,67 @@ public:
   using IOVRSkeletonRendererDataProvider = ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
 
   /// @brief Field _dataProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get__dataProvider, put = __set__dataProvider))::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* _dataProvider;
+  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider))::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* _dataProvider;
 
   /// @brief Field _confidenceBehavior, offset 0x20, size 0x4
-  __declspec(property(get = __get__confidenceBehavior, put = __set__confidenceBehavior))::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior _confidenceBehavior;
+  __declspec(property(get = __cordl_internal_get__confidenceBehavior, put = __cordl_internal_set__confidenceBehavior))::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior _confidenceBehavior;
 
   /// @brief Field _systemGestureBehavior, offset 0x24, size 0x4
-  __declspec(property(get = __get__systemGestureBehavior, put = __set__systemGestureBehavior))::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior _systemGestureBehavior;
+  __declspec(property(get = __cordl_internal_get__systemGestureBehavior,
+                      put = __cordl_internal_set__systemGestureBehavior))::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior _systemGestureBehavior;
 
   /// @brief Field _renderPhysicsCapsules, offset 0x28, size 0x1
-  __declspec(property(get = __get__renderPhysicsCapsules, put = __set__renderPhysicsCapsules)) bool _renderPhysicsCapsules;
+  __declspec(property(get = __cordl_internal_get__renderPhysicsCapsules, put = __cordl_internal_set__renderPhysicsCapsules)) bool _renderPhysicsCapsules;
 
   /// @brief Field _skeletonMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __get__skeletonMaterial, put = __set__skeletonMaterial))::UnityEngine::Material* _skeletonMaterial;
+  __declspec(property(get = __cordl_internal_get__skeletonMaterial, put = __cordl_internal_set__skeletonMaterial))::UnityW<::UnityEngine::Material> _skeletonMaterial;
 
   /// @brief Field _skeletonDefaultMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __get__skeletonDefaultMaterial, put = __set__skeletonDefaultMaterial))::UnityEngine::Material* _skeletonDefaultMaterial;
+  __declspec(property(get = __cordl_internal_get__skeletonDefaultMaterial, put = __cordl_internal_set__skeletonDefaultMaterial))::UnityW<::UnityEngine::Material> _skeletonDefaultMaterial;
 
   /// @brief Field _capsuleMaterial, offset 0x40, size 0x8
-  __declspec(property(get = __get__capsuleMaterial, put = __set__capsuleMaterial))::UnityEngine::Material* _capsuleMaterial;
+  __declspec(property(get = __cordl_internal_get__capsuleMaterial, put = __cordl_internal_set__capsuleMaterial))::UnityW<::UnityEngine::Material> _capsuleMaterial;
 
   /// @brief Field _capsuleDefaultMaterial, offset 0x48, size 0x8
-  __declspec(property(get = __get__capsuleDefaultMaterial, put = __set__capsuleDefaultMaterial))::UnityEngine::Material* _capsuleDefaultMaterial;
+  __declspec(property(get = __cordl_internal_get__capsuleDefaultMaterial, put = __cordl_internal_set__capsuleDefaultMaterial))::UnityW<::UnityEngine::Material> _capsuleDefaultMaterial;
 
   /// @brief Field _systemGestureMaterial, offset 0x50, size 0x8
-  __declspec(property(get = __get__systemGestureMaterial, put = __set__systemGestureMaterial))::UnityEngine::Material* _systemGestureMaterial;
+  __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial))::UnityW<::UnityEngine::Material> _systemGestureMaterial;
 
   /// @brief Field _systemGestureDefaultMaterial, offset 0x58, size 0x8
-  __declspec(property(get = __get__systemGestureDefaultMaterial, put = __set__systemGestureDefaultMaterial))::UnityEngine::Material* _systemGestureDefaultMaterial;
+  __declspec(property(get = __cordl_internal_get__systemGestureDefaultMaterial,
+                      put = __cordl_internal_set__systemGestureDefaultMaterial))::UnityW<::UnityEngine::Material> _systemGestureDefaultMaterial;
 
   /// @brief Field _boneVisualizations, offset 0x60, size 0x8
-  __declspec(property(get = __get__boneVisualizations,
-                      put = __set__boneVisualizations))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* _boneVisualizations;
+  __declspec(property(get = __cordl_internal_get__boneVisualizations,
+                      put = __cordl_internal_set__boneVisualizations))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* _boneVisualizations;
 
   /// @brief Field _capsuleVisualizations, offset 0x68, size 0x8
-  __declspec(property(get = __get__capsuleVisualizations,
-                      put = __set__capsuleVisualizations))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* _capsuleVisualizations;
+  __declspec(
+      property(get = __cordl_internal_get__capsuleVisualizations,
+               put = __cordl_internal_set__capsuleVisualizations))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* _capsuleVisualizations;
 
   /// @brief Field _ovrSkeleton, offset 0x70, size 0x8
-  __declspec(property(get = __get__ovrSkeleton, put = __set__ovrSkeleton))::GlobalNamespace::OVRSkeleton* _ovrSkeleton;
+  __declspec(property(get = __cordl_internal_get__ovrSkeleton, put = __cordl_internal_set__ovrSkeleton))::UnityW<::GlobalNamespace::OVRSkeleton> _ovrSkeleton;
 
   /// @brief Field _skeletonGO, offset 0x78, size 0x8
-  __declspec(property(get = __get__skeletonGO, put = __set__skeletonGO))::UnityEngine::GameObject* _skeletonGO;
+  __declspec(property(get = __cordl_internal_get__skeletonGO, put = __cordl_internal_set__skeletonGO))::UnityW<::UnityEngine::GameObject> _skeletonGO;
 
   /// @brief Field _scale, offset 0x80, size 0x4
-  __declspec(property(get = __get__scale, put = __set__scale)) float_t _scale;
+  __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
 
   /// @brief Field <IsInitialized>k__BackingField, offset 0x84, size 0x1
-  __declspec(property(get = __get__IsInitialized_k__BackingField, put = __set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
   /// @brief Field <IsDataValid>k__BackingField, offset 0x85, size 0x1
-  __declspec(property(get = __get__IsDataValid_k__BackingField, put = __set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataValid_k__BackingField, put = __cordl_internal_set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
 
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0x86, size 0x1
-  __declspec(property(get = __get__IsDataHighConfidence_k__BackingField, put = __set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataHighConfidence_k__BackingField, put = __cordl_internal_set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
 
   /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset 0x87, size 0x1
-  __declspec(property(get = __get__ShouldUseSystemGestureMaterial_k__BackingField, put = __set__ShouldUseSystemGestureMaterial_k__BackingField)) bool _ShouldUseSystemGestureMaterial_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField,
+                      put = __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField)) bool _ShouldUseSystemGestureMaterial_k__BackingField;
 
   /// @brief Field _capsuleRotationOffset, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF__capsuleRotationOffset, put = setStaticF__capsuleRotationOffset))::UnityEngine::Quaternion _capsuleRotationOffset;
@@ -629,119 +633,121 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*& __get__dataProvider();
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*& __cordl_internal_get__dataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*> const& __get__dataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*> const& __cordl_internal_get__dataProvider() const;
 
-  constexpr void __set__dataProvider(::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* value);
+  constexpr void __cordl_internal_set__dataProvider(::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* value);
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior& __get__confidenceBehavior();
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior& __cordl_internal_get__confidenceBehavior();
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior const& __get__confidenceBehavior() const;
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior const& __cordl_internal_get__confidenceBehavior() const;
 
-  constexpr void __set__confidenceBehavior(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior value);
+  constexpr void __cordl_internal_set__confidenceBehavior(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior value);
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior& __get__systemGestureBehavior();
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior& __cordl_internal_get__systemGestureBehavior();
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior const& __get__systemGestureBehavior() const;
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior const& __cordl_internal_get__systemGestureBehavior() const;
 
-  constexpr void __set__systemGestureBehavior(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior value);
+  constexpr void __cordl_internal_set__systemGestureBehavior(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior value);
 
-  constexpr bool& __get__renderPhysicsCapsules();
+  constexpr bool& __cordl_internal_get__renderPhysicsCapsules();
 
-  constexpr bool const& __get__renderPhysicsCapsules() const;
+  constexpr bool const& __cordl_internal_get__renderPhysicsCapsules() const;
 
-  constexpr void __set__renderPhysicsCapsules(bool value);
+  constexpr void __cordl_internal_set__renderPhysicsCapsules(bool value);
 
-  constexpr ::UnityEngine::Material*& __get__skeletonMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__skeletonMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__skeletonMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__skeletonMaterial() const;
 
-  constexpr void __set__skeletonMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__skeletonMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__skeletonDefaultMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__skeletonDefaultMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__skeletonDefaultMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__skeletonDefaultMaterial() const;
 
-  constexpr void __set__skeletonDefaultMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__skeletonDefaultMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__capsuleMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__capsuleMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__capsuleMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__capsuleMaterial() const;
 
-  constexpr void __set__capsuleMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__capsuleMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__capsuleDefaultMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__capsuleDefaultMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__capsuleDefaultMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__capsuleDefaultMaterial() const;
 
-  constexpr void __set__capsuleDefaultMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__capsuleDefaultMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__systemGestureMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__systemGestureMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__systemGestureMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__systemGestureMaterial() const;
 
-  constexpr void __set__systemGestureMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__systemGestureDefaultMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__systemGestureDefaultMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__systemGestureDefaultMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__systemGestureDefaultMaterial() const;
 
-  constexpr void __set__systemGestureDefaultMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__systemGestureDefaultMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*& __get__boneVisualizations();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*& __cordl_internal_get__boneVisualizations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*> const& __get__boneVisualizations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*> const&
+  __cordl_internal_get__boneVisualizations() const;
 
-  constexpr void __set__boneVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* value);
+  constexpr void __cordl_internal_set__boneVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*& __get__capsuleVisualizations();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*& __cordl_internal_get__capsuleVisualizations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*> const& __get__capsuleVisualizations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*> const&
+  __cordl_internal_get__capsuleVisualizations() const;
 
-  constexpr void __set__capsuleVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* value);
+  constexpr void __cordl_internal_set__capsuleVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* value);
 
-  constexpr ::GlobalNamespace::OVRSkeleton*& __get__ovrSkeleton();
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton>& __cordl_internal_get__ovrSkeleton();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& __get__ovrSkeleton() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton> const& __cordl_internal_get__ovrSkeleton() const;
 
-  constexpr void __set__ovrSkeleton(::GlobalNamespace::OVRSkeleton* value);
+  constexpr void __cordl_internal_set__ovrSkeleton(::UnityW<::GlobalNamespace::OVRSkeleton> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__skeletonGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__skeletonGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__skeletonGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__skeletonGO() const;
 
-  constexpr void __set__skeletonGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__skeletonGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr float_t& __get__scale();
+  constexpr float_t& __cordl_internal_get__scale();
 
-  constexpr float_t const& __get__scale() const;
+  constexpr float_t const& __cordl_internal_get__scale() const;
 
-  constexpr void __set__scale(float_t value);
+  constexpr void __cordl_internal_set__scale(float_t value);
 
-  constexpr bool& __get__IsInitialized_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
 
-  constexpr bool const& __get__IsInitialized_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
 
-  constexpr void __set__IsInitialized_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
 
-  constexpr bool& __get__IsDataValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataValid_k__BackingField();
 
-  constexpr bool const& __get__IsDataValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataValid_k__BackingField() const;
 
-  constexpr void __set__IsDataValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataValid_k__BackingField(bool value);
 
-  constexpr bool& __get__IsDataHighConfidence_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataHighConfidence_k__BackingField();
 
-  constexpr bool const& __get__IsDataHighConfidence_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
 
-  constexpr void __set__IsDataHighConfidence_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataHighConfidence_k__BackingField(bool value);
 
-  constexpr bool& __get__ShouldUseSystemGestureMaterial_k__BackingField();
+  constexpr bool& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField();
 
-  constexpr bool const& __get__ShouldUseSystemGestureMaterial_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField() const;
 
-  constexpr void __set__ShouldUseSystemGestureMaterial_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField(bool value);
 
   static inline void setStaticF__capsuleRotationOffset(::UnityEngine::Quaternion value);
 
@@ -821,22 +827,22 @@ public:
   bool ____renderPhysicsCapsules;
 
   /// @brief Field _skeletonMaterial, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* ____skeletonMaterial;
+  ::UnityW<::UnityEngine::Material> ____skeletonMaterial;
 
   /// @brief Field _skeletonDefaultMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ____skeletonDefaultMaterial;
+  ::UnityW<::UnityEngine::Material> ____skeletonDefaultMaterial;
 
   /// @brief Field _capsuleMaterial, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Material* ____capsuleMaterial;
+  ::UnityW<::UnityEngine::Material> ____capsuleMaterial;
 
   /// @brief Field _capsuleDefaultMaterial, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Material* ____capsuleDefaultMaterial;
+  ::UnityW<::UnityEngine::Material> ____capsuleDefaultMaterial;
 
   /// @brief Field _systemGestureMaterial, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Material* ____systemGestureMaterial;
+  ::UnityW<::UnityEngine::Material> ____systemGestureMaterial;
 
   /// @brief Field _systemGestureDefaultMaterial, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Material* ____systemGestureDefaultMaterial;
+  ::UnityW<::UnityEngine::Material> ____systemGestureDefaultMaterial;
 
   /// @brief Field _boneVisualizations, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* ____boneVisualizations;
@@ -845,10 +851,10 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* ____capsuleVisualizations;
 
   /// @brief Field _ovrSkeleton, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSkeleton* ____ovrSkeleton;
+  ::UnityW<::GlobalNamespace::OVRSkeleton> ____ovrSkeleton;
 
   /// @brief Field _skeletonGO, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____skeletonGO;
+  ::UnityW<::UnityEngine::GameObject> ____skeletonGO;
 
   /// @brief Field _scale, offset: 0x80, size: 0x4, def value: None
   float_t ____scale;

@@ -23,45 +23,53 @@ MARK_REF_PTR_T(::Unity::XR::GoogleVr::DaydreamController);
 // SizeInfo { instance_size: 464, native_size: -1, calculated_instance_size: 464, calculated_native_size: 464, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::GoogleVr {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6325))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6123))
 // CS Name: ::Unity.XR.GoogleVr::DaydreamController*
 class CORDL_TYPE DaydreamController : public ::UnityEngine::InputSystem::XR::XRController {
 public:
   // Declarations
   /// @brief Field <touchpad>k__BackingField, offset 0x178, size 0x8
-  __declspec(property(get = __get__touchpad_k__BackingField, put = __set__touchpad_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__touchpad_k__BackingField,
+                      put = __cordl_internal_set__touchpad_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField;
 
   /// @brief Field <volumeUp>k__BackingField, offset 0x180, size 0x8
-  __declspec(property(get = __get__volumeUp_k__BackingField, put = __set__volumeUp_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _volumeUp_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__volumeUp_k__BackingField,
+                      put = __cordl_internal_set__volumeUp_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _volumeUp_k__BackingField;
 
   /// @brief Field <recentered>k__BackingField, offset 0x188, size 0x8
-  __declspec(property(get = __get__recentered_k__BackingField, put = __set__recentered_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _recentered_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__recentered_k__BackingField,
+                      put = __cordl_internal_set__recentered_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _recentered_k__BackingField;
 
   /// @brief Field <volumeDown>k__BackingField, offset 0x190, size 0x8
-  __declspec(property(get = __get__volumeDown_k__BackingField, put = __set__volumeDown_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _volumeDown_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__volumeDown_k__BackingField,
+                      put = __cordl_internal_set__volumeDown_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _volumeDown_k__BackingField;
 
   /// @brief Field <recentering>k__BackingField, offset 0x198, size 0x8
-  __declspec(property(get = __get__recentering_k__BackingField, put = __set__recentering_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _recentering_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__recentering_k__BackingField,
+                      put = __cordl_internal_set__recentering_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _recentering_k__BackingField;
 
   /// @brief Field <app>k__BackingField, offset 0x1a0, size 0x8
-  __declspec(property(get = __get__app_k__BackingField, put = __set__app_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _app_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__app_k__BackingField, put = __cordl_internal_set__app_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _app_k__BackingField;
 
   /// @brief Field <home>k__BackingField, offset 0x1a8, size 0x8
-  __declspec(property(get = __get__home_k__BackingField, put = __set__home_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _home_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__home_k__BackingField, put = __cordl_internal_set__home_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _home_k__BackingField;
 
   /// @brief Field <touchpadClicked>k__BackingField, offset 0x1b0, size 0x8
-  __declspec(property(get = __get__touchpadClicked_k__BackingField, put = __set__touchpadClicked_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadClicked_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__touchpadClicked_k__BackingField,
+                      put = __cordl_internal_set__touchpadClicked_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadClicked_k__BackingField;
 
   /// @brief Field <touchpadTouched>k__BackingField, offset 0x1b8, size 0x8
-  __declspec(property(get = __get__touchpadTouched_k__BackingField, put = __set__touchpadTouched_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadTouched_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__touchpadTouched_k__BackingField,
+                      put = __cordl_internal_set__touchpadTouched_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadTouched_k__BackingField;
 
   /// @brief Field <deviceVelocity>k__BackingField, offset 0x1c0, size 0x8
-  __declspec(property(get = __get__deviceVelocity_k__BackingField, put = __set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
+                      put = __cordl_internal_set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
 
   /// @brief Field <deviceAcceleration>k__BackingField, offset 0x1c8, size 0x8
-  __declspec(property(get = __get__deviceAcceleration_k__BackingField,
-                      put = __set__deviceAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deviceAcceleration_k__BackingField,
+                      put = __cordl_internal_set__deviceAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAcceleration_k__BackingField;
 
   __declspec(property(get = get_touchpad, put = set_touchpad))::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
@@ -85,71 +93,71 @@ public:
 
   __declspec(property(get = get_deviceAcceleration, put = set_deviceAcceleration))::UnityEngine::InputSystem::Controls::Vector3Control* deviceAcceleration;
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__touchpad_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__touchpad_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __get__touchpad_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__touchpad_k__BackingField() const;
 
-  constexpr void __set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+  constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__volumeUp_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__volumeUp_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__volumeUp_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__volumeUp_k__BackingField() const;
 
-  constexpr void __set__volumeUp_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__volumeUp_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__recentered_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__recentered_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__recentered_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__recentered_k__BackingField() const;
 
-  constexpr void __set__recentered_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__recentered_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__volumeDown_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__volumeDown_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__volumeDown_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__volumeDown_k__BackingField() const;
 
-  constexpr void __set__volumeDown_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__volumeDown_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__recentering_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__recentering_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__recentering_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__recentering_k__BackingField() const;
 
-  constexpr void __set__recentering_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__recentering_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__app_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__app_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__app_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__app_k__BackingField() const;
 
-  constexpr void __set__app_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__app_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__home_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__home_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__home_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__home_k__BackingField() const;
 
-  constexpr void __set__home_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__home_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__touchpadClicked_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__touchpadClicked_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__touchpadClicked_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__touchpadClicked_k__BackingField() const;
 
-  constexpr void __set__touchpadClicked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__touchpadClicked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__touchpadTouched_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__touchpadTouched_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__touchpadTouched_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__touchpadTouched_k__BackingField() const;
 
-  constexpr void __set__touchpadTouched_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__touchpadTouched_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__deviceVelocity_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceVelocity_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__deviceVelocity_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceVelocity_k__BackingField() const;
 
-  constexpr void __set__deviceVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__deviceVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__deviceAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__deviceAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceAcceleration_k__BackingField() const;
 
-  constexpr void __set__deviceAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__deviceAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// @brief Method get_touchpad, addr 0x2a34b40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();

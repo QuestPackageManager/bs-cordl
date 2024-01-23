@@ -36,29 +36,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(336))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::PersonalData*
 class CORDL_TYPE PersonalData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field nameOrPseudonym, offset 0x10, size 0x8
-  __declspec(property(get = __get_nameOrPseudonym, put = __set_nameOrPseudonym))::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym;
+  __declspec(property(get = __cordl_internal_get_nameOrPseudonym, put = __cordl_internal_set_nameOrPseudonym))::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym;
 
   /// @brief Field nameDistinguisher, offset 0x18, size 0x8
-  __declspec(property(get = __get_nameDistinguisher, put = __set_nameDistinguisher))::Org::BouncyCastle::Math::BigInteger* nameDistinguisher;
+  __declspec(property(get = __cordl_internal_get_nameDistinguisher, put = __cordl_internal_set_nameDistinguisher))::Org::BouncyCastle::Math::BigInteger* nameDistinguisher;
 
   /// @brief Field dateOfBirth, offset 0x20, size 0x8
-  __declspec(property(get = __get_dateOfBirth, put = __set_dateOfBirth))::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth;
+  __declspec(property(get = __cordl_internal_get_dateOfBirth, put = __cordl_internal_set_dateOfBirth))::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth;
 
   /// @brief Field placeOfBirth, offset 0x28, size 0x8
-  __declspec(property(get = __get_placeOfBirth, put = __set_placeOfBirth))::Org::BouncyCastle::Asn1::X500::DirectoryString* placeOfBirth;
+  __declspec(property(get = __cordl_internal_get_placeOfBirth, put = __cordl_internal_set_placeOfBirth))::Org::BouncyCastle::Asn1::X500::DirectoryString* placeOfBirth;
 
   /// @brief Field gender, offset 0x30, size 0x8
-  __declspec(property(get = __get_gender, put = __set_gender))::StringW gender;
+  __declspec(property(get = __cordl_internal_get_gender, put = __cordl_internal_set_gender))::StringW gender;
 
   /// @brief Field postalAddress, offset 0x38, size 0x8
-  __declspec(property(get = __get_postalAddress, put = __set_postalAddress))::Org::BouncyCastle::Asn1::X500::DirectoryString* postalAddress;
+  __declspec(property(get = __cordl_internal_get_postalAddress, put = __cordl_internal_set_postalAddress))::Org::BouncyCastle::Asn1::X500::DirectoryString* postalAddress;
 
   __declspec(property(get = get_NameOrPseudonym))::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* NameOrPseudonym;
 
@@ -72,41 +72,41 @@ public:
 
   __declspec(property(get = get_PostalAddress))::Org::BouncyCastle::Asn1::X500::DirectoryString* PostalAddress;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*& __get_nameOrPseudonym();
+  constexpr ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*& __cordl_internal_get_nameOrPseudonym();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*> const& __get_nameOrPseudonym() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*> const& __cordl_internal_get_nameOrPseudonym() const;
 
-  constexpr void __set_nameOrPseudonym(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* value);
+  constexpr void __cordl_internal_set_nameOrPseudonym(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_nameDistinguisher();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_nameDistinguisher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_nameDistinguisher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_nameDistinguisher() const;
 
-  constexpr void __set_nameDistinguisher(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_nameDistinguisher(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_dateOfBirth();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_dateOfBirth();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_dateOfBirth() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_dateOfBirth() const;
 
-  constexpr void __set_dateOfBirth(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_dateOfBirth(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_placeOfBirth();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_placeOfBirth();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_placeOfBirth() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_placeOfBirth() const;
 
-  constexpr void __set_placeOfBirth(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_placeOfBirth(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  constexpr ::StringW& __get_gender();
+  constexpr ::StringW& __cordl_internal_get_gender();
 
-  constexpr ::StringW const& __get_gender() const;
+  constexpr ::StringW const& __cordl_internal_get_gender() const;
 
-  constexpr void __set_gender(::StringW value);
+  constexpr void __cordl_internal_set_gender(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_postalAddress();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_postalAddress();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_postalAddress() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_postalAddress() const;
 
-  constexpr void __set_postalAddress(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_postalAddress(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
   /// @brief Method GetInstance, addr 0x1082cd0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* GetInstance(::System::Object* obj);

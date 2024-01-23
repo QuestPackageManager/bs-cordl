@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7380))
 // CS Name: ::UnityEngine.UIElements.UIR::BaseShaderInfoStorage*
 class CORDL_TYPE BaseShaderInfoStorage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <disposed>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field s_TextureCounter, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_TextureCounter, put = setStaticF_s_TextureCounter)) int32_t s_TextureCounter;
@@ -50,7 +50,7 @@ public:
   /// @brief Field s_MarkerUpdateTexture, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_MarkerUpdateTexture, put = setStaticF_s_MarkerUpdateTexture))::Unity::Profiling::ProfilerMarker s_MarkerUpdateTexture;
 
-  __declspec(property(get = get_texture))::UnityEngine::Texture2D* texture;
+  __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture2D> texture;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
@@ -60,11 +60,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
@@ -83,7 +83,7 @@ public:
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerUpdateTexture();
 
   /// @brief Method get_texture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Texture2D* get_texture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
   /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs);

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRDisplaySubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15960), inst: 3914 }), TypeDefinitionIndex(TypeDefinitionIndex(15960))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15960)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15960), inst: 3914 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15640))
 // CS Name: ::UnityEngine.XR::XRDisplaySubsystemDescriptor*
 class CORDL_TYPE XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<Il2CppObject*> {

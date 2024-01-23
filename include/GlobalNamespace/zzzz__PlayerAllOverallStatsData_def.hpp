@@ -38,44 +38,45 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStat
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4625))
 // CS Name: ::PlayerAllOverallStatsData::PlayerOverallStatsData*
 class CORDL_TYPE __PlayerAllOverallStatsData__PlayerOverallStatsData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <goodCutsCount>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__goodCutsCount_k__BackingField, put = __set__goodCutsCount_k__BackingField)) int32_t _goodCutsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__goodCutsCount_k__BackingField, put = __cordl_internal_set__goodCutsCount_k__BackingField)) int32_t _goodCutsCount_k__BackingField;
 
   /// @brief Field <badCutsCount>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__badCutsCount_k__BackingField, put = __set__badCutsCount_k__BackingField)) int32_t _badCutsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__badCutsCount_k__BackingField, put = __cordl_internal_set__badCutsCount_k__BackingField)) int32_t _badCutsCount_k__BackingField;
 
   /// @brief Field <missedCutsCount>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__missedCutsCount_k__BackingField, put = __set__missedCutsCount_k__BackingField)) int32_t _missedCutsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__missedCutsCount_k__BackingField, put = __cordl_internal_set__missedCutsCount_k__BackingField)) int32_t _missedCutsCount_k__BackingField;
 
   /// @brief Field <totalScore>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__totalScore_k__BackingField, put = __set__totalScore_k__BackingField)) int64_t _totalScore_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__totalScore_k__BackingField, put = __cordl_internal_set__totalScore_k__BackingField)) int64_t _totalScore_k__BackingField;
 
   /// @brief Field <playedLevelsCount>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__playedLevelsCount_k__BackingField, put = __set__playedLevelsCount_k__BackingField)) int32_t _playedLevelsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playedLevelsCount_k__BackingField, put = __cordl_internal_set__playedLevelsCount_k__BackingField)) int32_t _playedLevelsCount_k__BackingField;
 
   /// @brief Field <clearedLevelsCount>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__clearedLevelsCount_k__BackingField, put = __set__clearedLevelsCount_k__BackingField)) int32_t _clearedLevelsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clearedLevelsCount_k__BackingField, put = __cordl_internal_set__clearedLevelsCount_k__BackingField)) int32_t _clearedLevelsCount_k__BackingField;
 
   /// @brief Field <failedLevelsCount>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__failedLevelsCount_k__BackingField, put = __set__failedLevelsCount_k__BackingField)) int32_t _failedLevelsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__failedLevelsCount_k__BackingField, put = __cordl_internal_set__failedLevelsCount_k__BackingField)) int32_t _failedLevelsCount_k__BackingField;
 
   /// @brief Field <fullComboCount>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__fullComboCount_k__BackingField, put = __set__fullComboCount_k__BackingField)) int32_t _fullComboCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__fullComboCount_k__BackingField, put = __cordl_internal_set__fullComboCount_k__BackingField)) int32_t _fullComboCount_k__BackingField;
 
   /// @brief Field <timePlayed>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__timePlayed_k__BackingField, put = __set__timePlayed_k__BackingField)) float_t _timePlayed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__timePlayed_k__BackingField, put = __cordl_internal_set__timePlayed_k__BackingField)) float_t _timePlayed_k__BackingField;
 
   /// @brief Field <handDistanceTravelled>k__BackingField, offset 0x3c, size 0x4
-  __declspec(property(get = __get__handDistanceTravelled_k__BackingField, put = __set__handDistanceTravelled_k__BackingField)) int32_t _handDistanceTravelled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__handDistanceTravelled_k__BackingField,
+                      put = __cordl_internal_set__handDistanceTravelled_k__BackingField)) int32_t _handDistanceTravelled_k__BackingField;
 
   /// @brief Field <totalCutScore>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__totalCutScore_k__BackingField, put = __set__totalCutScore_k__BackingField)) int64_t _totalCutScore_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__totalCutScore_k__BackingField, put = __cordl_internal_set__totalCutScore_k__BackingField)) int64_t _totalCutScore_k__BackingField;
 
   __declspec(property(get = get_goodCutsCount, put = set_goodCutsCount)) int32_t goodCutsCount;
 
@@ -99,71 +100,71 @@ public:
 
   __declspec(property(get = get_totalCutScore, put = set_totalCutScore)) int64_t totalCutScore;
 
-  constexpr int32_t& __get__goodCutsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__goodCutsCount_k__BackingField();
 
-  constexpr int32_t const& __get__goodCutsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__goodCutsCount_k__BackingField() const;
 
-  constexpr void __set__goodCutsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__goodCutsCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__badCutsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__badCutsCount_k__BackingField();
 
-  constexpr int32_t const& __get__badCutsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__badCutsCount_k__BackingField() const;
 
-  constexpr void __set__badCutsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__badCutsCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__missedCutsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__missedCutsCount_k__BackingField();
 
-  constexpr int32_t const& __get__missedCutsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__missedCutsCount_k__BackingField() const;
 
-  constexpr void __set__missedCutsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__missedCutsCount_k__BackingField(int32_t value);
 
-  constexpr int64_t& __get__totalScore_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__totalScore_k__BackingField();
 
-  constexpr int64_t const& __get__totalScore_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__totalScore_k__BackingField() const;
 
-  constexpr void __set__totalScore_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__totalScore_k__BackingField(int64_t value);
 
-  constexpr int32_t& __get__playedLevelsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__playedLevelsCount_k__BackingField();
 
-  constexpr int32_t const& __get__playedLevelsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__playedLevelsCount_k__BackingField() const;
 
-  constexpr void __set__playedLevelsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__playedLevelsCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__clearedLevelsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__clearedLevelsCount_k__BackingField();
 
-  constexpr int32_t const& __get__clearedLevelsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__clearedLevelsCount_k__BackingField() const;
 
-  constexpr void __set__clearedLevelsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__clearedLevelsCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__failedLevelsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__failedLevelsCount_k__BackingField();
 
-  constexpr int32_t const& __get__failedLevelsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__failedLevelsCount_k__BackingField() const;
 
-  constexpr void __set__failedLevelsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__failedLevelsCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__fullComboCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__fullComboCount_k__BackingField();
 
-  constexpr int32_t const& __get__fullComboCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__fullComboCount_k__BackingField() const;
 
-  constexpr void __set__fullComboCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__fullComboCount_k__BackingField(int32_t value);
 
-  constexpr float_t& __get__timePlayed_k__BackingField();
+  constexpr float_t& __cordl_internal_get__timePlayed_k__BackingField();
 
-  constexpr float_t const& __get__timePlayed_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__timePlayed_k__BackingField() const;
 
-  constexpr void __set__timePlayed_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__timePlayed_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__handDistanceTravelled_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__handDistanceTravelled_k__BackingField();
 
-  constexpr int32_t const& __get__handDistanceTravelled_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__handDistanceTravelled_k__BackingField() const;
 
-  constexpr void __set__handDistanceTravelled_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__handDistanceTravelled_k__BackingField(int32_t value);
 
-  constexpr int64_t& __get__totalCutScore_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__totalCutScore_k__BackingField();
 
-  constexpr int64_t const& __get__totalCutScore_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__totalCutScore_k__BackingField() const;
 
-  constexpr void __set__totalCutScore_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__totalCutScore_k__BackingField(int64_t value);
 
   /// @brief Method get_goodCutsCount, addr 0x236ba74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_goodCutsCount();
@@ -330,7 +331,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOve
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4626))
 // CS Name: ::PlayerAllOverallStatsData*
 class CORDL_TYPE PlayerAllOverallStatsData : public ::System::Object {
@@ -339,36 +340,39 @@ public:
   using PlayerOverallStatsData = ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData;
 
   /// @brief Field <campaignOverallStatsData>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__campaignOverallStatsData_k__BackingField,
-                      put = __set__campaignOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _campaignOverallStatsData_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__campaignOverallStatsData_k__BackingField,
+               put = __cordl_internal_set__campaignOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _campaignOverallStatsData_k__BackingField;
 
   /// @brief Field <soloFreePlayOverallStatsData>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__soloFreePlayOverallStatsData_k__BackingField,
-                      put = __set__soloFreePlayOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _soloFreePlayOverallStatsData_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField,
+      put = __cordl_internal_set__soloFreePlayOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _soloFreePlayOverallStatsData_k__BackingField;
 
   /// @brief Field <partyFreePlayOverallStatsData>k__BackingField, offset 0x20, size 0x8
-  __declspec(
-      property(get = __get__partyFreePlayOverallStatsData_k__BackingField,
-               put = __set__partyFreePlayOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _partyFreePlayOverallStatsData_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField,
+      put = __cordl_internal_set__partyFreePlayOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _partyFreePlayOverallStatsData_k__BackingField;
 
   /// @brief Field <onlinePlayOverallStatsData>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__onlinePlayOverallStatsData_k__BackingField,
-                      put = __set__onlinePlayOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _onlinePlayOverallStatsData_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField,
+      put = __cordl_internal_set__onlinePlayOverallStatsData_k__BackingField))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _onlinePlayOverallStatsData_k__BackingField;
 
   /// @brief Field didUpdateSoloFreePlayOverallStatsDataEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_didUpdateSoloFreePlayOverallStatsDataEvent,
-                      put = __set_didUpdateSoloFreePlayOverallStatsDataEvent))::System::Action_2<::GlobalNamespace::LevelCompletionResults*,
-                                                                                                 ::GlobalNamespace::IDifficultyBeatmap*>* didUpdateSoloFreePlayOverallStatsDataEvent;
+  __declspec(property(get = __cordl_internal_get_didUpdateSoloFreePlayOverallStatsDataEvent,
+                      put = __cordl_internal_set_didUpdateSoloFreePlayOverallStatsDataEvent))::System::Action_2<::GlobalNamespace::LevelCompletionResults*,
+                                                                                                                ::GlobalNamespace::IDifficultyBeatmap*>* didUpdateSoloFreePlayOverallStatsDataEvent;
 
   /// @brief Field didUpdatePartyFreePlayOverallStatsDataEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_didUpdatePartyFreePlayOverallStatsDataEvent,
-                      put = __set_didUpdatePartyFreePlayOverallStatsDataEvent))::System::Action_2<::GlobalNamespace::LevelCompletionResults*,
-                                                                                                  ::GlobalNamespace::IDifficultyBeatmap*>* didUpdatePartyFreePlayOverallStatsDataEvent;
+  __declspec(property(get = __cordl_internal_get_didUpdatePartyFreePlayOverallStatsDataEvent,
+                      put = __cordl_internal_set_didUpdatePartyFreePlayOverallStatsDataEvent))::System::Action_2<::GlobalNamespace::LevelCompletionResults*,
+                                                                                                                 ::GlobalNamespace::IDifficultyBeatmap*>* didUpdatePartyFreePlayOverallStatsDataEvent;
 
   /// @brief Field didUpdateCampaignOverallStatsDataEvent, offset 0x40, size 0x8
-  __declspec(property(
-      get = __get_didUpdateCampaignOverallStatsDataEvent,
-      put = __set_didUpdateCampaignOverallStatsDataEvent))::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* didUpdateCampaignOverallStatsDataEvent;
+  __declspec(property(get = __cordl_internal_get_didUpdateCampaignOverallStatsDataEvent,
+                      put = __cordl_internal_set_didUpdateCampaignOverallStatsDataEvent))::System::Action_2<::GlobalNamespace::MissionCompletionResults*,
+                                                                                                            ::UnityW<::GlobalNamespace::MissionNode>>* didUpdateCampaignOverallStatsDataEvent;
 
   __declspec(property(get = get_allOverallStatsData))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* allOverallStatsData;
 
@@ -382,50 +386,53 @@ public:
 
   __declspec(property(get = get_onlinePlayOverallStatsData, put = set_onlinePlayOverallStatsData))::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* onlinePlayOverallStatsData;
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __get__campaignOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__campaignOverallStatsData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const& __get__campaignOverallStatsData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const& __cordl_internal_get__campaignOverallStatsData_k__BackingField() const;
 
-  constexpr void __set__campaignOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
+  constexpr void __cordl_internal_set__campaignOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __get__soloFreePlayOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const& __get__soloFreePlayOverallStatsData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
+  __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField() const;
 
-  constexpr void __set__soloFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
+  constexpr void __cordl_internal_set__soloFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __get__partyFreePlayOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const& __get__partyFreePlayOverallStatsData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
+  __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField() const;
 
-  constexpr void __set__partyFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
+  constexpr void __cordl_internal_set__partyFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __get__onlinePlayOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const& __get__onlinePlayOverallStatsData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
+  __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField() const;
 
-  constexpr void __set__onlinePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
+  constexpr void __cordl_internal_set__onlinePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*& __get_didUpdateSoloFreePlayOverallStatsDataEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*> const&
-  __get_didUpdateSoloFreePlayOverallStatsDataEvent() const;
-
-  constexpr void __set_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*& __get_didUpdatePartyFreePlayOverallStatsDataEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*& __cordl_internal_get_didUpdateSoloFreePlayOverallStatsDataEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*> const&
-  __get_didUpdatePartyFreePlayOverallStatsDataEvent() const;
+  __cordl_internal_get_didUpdateSoloFreePlayOverallStatsDataEvent() const;
 
-  constexpr void __set_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
+  constexpr void __cordl_internal_set_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>*& __get_didUpdateCampaignOverallStatsDataEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*& __cordl_internal_get_didUpdatePartyFreePlayOverallStatsDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>*> const&
-  __get_didUpdateCampaignOverallStatsDataEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*> const&
+  __cordl_internal_get_didUpdatePartyFreePlayOverallStatsDataEvent() const;
 
-  constexpr void __set_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* value);
+  constexpr void __cordl_internal_set_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
+
+  constexpr ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::UnityW<::GlobalNamespace::MissionNode>>*& __cordl_internal_get_didUpdateCampaignOverallStatsDataEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::UnityW<::GlobalNamespace::MissionNode>>*> const&
+  __cordl_internal_get_didUpdateCampaignOverallStatsDataEvent() const;
+
+  constexpr void __cordl_internal_set_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
   /// @brief Method get_allOverallStatsData, addr 0x236b188, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* get_allOverallStatsData();
@@ -467,10 +474,10 @@ public:
   inline void remove_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
   /// @brief Method add_didUpdateCampaignOverallStatsDataEvent, addr 0x236b5d0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* value);
+  inline void add_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
   /// @brief Method remove_didUpdateCampaignOverallStatsDataEvent, addr 0x236b680, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* value);
+  inline void remove_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* New_ctor();
 
@@ -533,7 +540,7 @@ public:
   ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* ___didUpdatePartyFreePlayOverallStatsDataEvent;
 
   /// @brief Field didUpdateCampaignOverallStatsDataEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* ___didUpdateCampaignOverallStatsDataEvent;
+  ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::UnityW<::GlobalNamespace::MissionNode>>* ___didUpdateCampaignOverallStatsDataEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

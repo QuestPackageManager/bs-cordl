@@ -98,7 +98,7 @@ MARK_GEN_REF_PTR_T(::Zenject::__SignalBus____c__DisplayClass27_0_1);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10663))
 // CS Name: ::SignalBus::<>c*
 class CORDL_TYPE __SignalBus____c : public ::System::Object {
@@ -178,20 +178,20 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10664))
 // CS Name: ::SignalBus::<>c__DisplayClass25_0`1<TSignal>*
 class CORDL_TYPE __SignalBus____c__DisplayClass25_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action* callback;
 
-  constexpr ::System::Action*& __get_callback();
+  constexpr ::System::Action*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action* value);
+  constexpr void __cordl_internal_set_callback(::System::Action* value);
 
   static inline ::Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>* New_ctor();
 
@@ -234,20 +234,20 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10665))
 // CS Name: ::SignalBus::<>c__DisplayClass27_0`1<TSignal>*
 class CORDL_TYPE __SignalBus____c__DisplayClass27_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action_1<TSignal>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<TSignal>* callback;
 
-  constexpr ::System::Action_1<TSignal>*& __get_callback();
+  constexpr ::System::Action_1<TSignal>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TSignal>*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TSignal>*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action_1<TSignal>* value);
+  constexpr void __cordl_internal_set_callback(::System::Action_1<TSignal>* value);
 
   static inline ::Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>* New_ctor();
 
@@ -288,7 +288,7 @@ public:
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10666))
 // CS Name: ::Zenject::SignalBus*
 class CORDL_TYPE SignalBus : public ::System::Object {
@@ -301,27 +301,27 @@ public:
   using __c = ::Zenject::__SignalBus____c;
 
   /// @brief Field _subscriptionPool, offset 0x10, size 0x8
-  __declspec(property(get = __get__subscriptionPool, put = __set__subscriptionPool))::Zenject::__SignalSubscription__Pool* _subscriptionPool;
+  __declspec(property(get = __cordl_internal_get__subscriptionPool, put = __cordl_internal_set__subscriptionPool))::Zenject::__SignalSubscription__Pool* _subscriptionPool;
 
   /// @brief Field _localDeclarationMap, offset 0x18, size 0x8
-  __declspec(property(get = __get__localDeclarationMap,
-                      put = __set__localDeclarationMap))::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>* _localDeclarationMap;
+  __declspec(property(get = __cordl_internal_get__localDeclarationMap,
+                      put = __cordl_internal_set__localDeclarationMap))::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>* _localDeclarationMap;
 
   /// @brief Field _parentBus, offset 0x20, size 0x8
-  __declspec(property(get = __get__parentBus, put = __set__parentBus))::Zenject::SignalBus* _parentBus;
+  __declspec(property(get = __cordl_internal_get__parentBus, put = __cordl_internal_set__parentBus))::Zenject::SignalBus* _parentBus;
 
   /// @brief Field _subscriptionMap, offset 0x28, size 0x8
-  __declspec(property(get = __get__subscriptionMap,
-                      put = __set__subscriptionMap))::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* _subscriptionMap;
+  __declspec(property(get = __cordl_internal_get__subscriptionMap,
+                      put = __cordl_internal_set__subscriptionMap))::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* _subscriptionMap;
 
   /// @brief Field _settings, offset 0x30, size 0x8
-  __declspec(property(get = __get__settings, put = __set__settings))::Zenject::__ZenjectSettings__SignalSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::Zenject::__ZenjectSettings__SignalSettings* _settings;
 
   /// @brief Field _signalDeclarationFactory, offset 0x38, size 0x8
-  __declspec(property(get = __get__signalDeclarationFactory, put = __set__signalDeclarationFactory))::Zenject::__SignalDeclaration__Factory* _signalDeclarationFactory;
+  __declspec(property(get = __cordl_internal_get__signalDeclarationFactory, put = __cordl_internal_set__signalDeclarationFactory))::Zenject::__SignalDeclaration__Factory* _signalDeclarationFactory;
 
   /// @brief Field _container, offset 0x40, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   __declspec(property(get = get_ParentBus))::Zenject::SignalBus* ParentBus;
 
@@ -333,47 +333,49 @@ public:
   /// @brief Convert to "::Zenject::ILateDisposable"
   constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
 
-  constexpr ::Zenject::__SignalSubscription__Pool*& __get__subscriptionPool();
+  constexpr ::Zenject::__SignalSubscription__Pool*& __cordl_internal_get__subscriptionPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& __get__subscriptionPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& __cordl_internal_get__subscriptionPool() const;
 
-  constexpr void __set__subscriptionPool(::Zenject::__SignalSubscription__Pool* value);
+  constexpr void __cordl_internal_set__subscriptionPool(::Zenject::__SignalSubscription__Pool* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*& __get__localDeclarationMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*& __cordl_internal_get__localDeclarationMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*> const& __get__localDeclarationMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*> const&
+  __cordl_internal_get__localDeclarationMap() const;
 
-  constexpr void __set__localDeclarationMap(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>* value);
+  constexpr void __cordl_internal_set__localDeclarationMap(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>* value);
 
-  constexpr ::Zenject::SignalBus*& __get__parentBus();
+  constexpr ::Zenject::SignalBus*& __cordl_internal_get__parentBus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBus*> const& __get__parentBus() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBus*> const& __cordl_internal_get__parentBus() const;
 
-  constexpr void __set__parentBus(::Zenject::SignalBus* value);
+  constexpr void __cordl_internal_set__parentBus(::Zenject::SignalBus* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*& __get__subscriptionMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*& __cordl_internal_get__subscriptionMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*> const& __get__subscriptionMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*> const&
+  __cordl_internal_get__subscriptionMap() const;
 
-  constexpr void __set__subscriptionMap(::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* value);
+  constexpr void __cordl_internal_set__subscriptionMap(::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* value);
 
-  constexpr ::Zenject::__ZenjectSettings__SignalSettings*& __get__settings();
+  constexpr ::Zenject::__ZenjectSettings__SignalSettings*& __cordl_internal_get__settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& __get__settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__settings(::Zenject::__ZenjectSettings__SignalSettings* value);
+  constexpr void __cordl_internal_set__settings(::Zenject::__ZenjectSettings__SignalSettings* value);
 
-  constexpr ::Zenject::__SignalDeclaration__Factory*& __get__signalDeclarationFactory();
+  constexpr ::Zenject::__SignalDeclaration__Factory*& __cordl_internal_get__signalDeclarationFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalDeclaration__Factory*> const& __get__signalDeclarationFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalDeclaration__Factory*> const& __cordl_internal_get__signalDeclarationFactory() const;
 
-  constexpr void __set__signalDeclarationFactory(::Zenject::__SignalDeclaration__Factory* value);
+  constexpr void __cordl_internal_set__signalDeclarationFactory(::Zenject::__SignalDeclaration__Factory* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   static inline ::Zenject::SignalBus* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus,
                                                ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::__SignalSubscription__Pool* subscriptionPool,

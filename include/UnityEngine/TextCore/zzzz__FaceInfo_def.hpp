@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::TextCore::FaceInfo);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15526))
 // CS Name: ::UnityEngine.TextCore::FaceInfo
 struct CORDL_TYPE FaceInfo {

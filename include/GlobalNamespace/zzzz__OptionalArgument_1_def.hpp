@@ -17,17 +17,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5978))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5978))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5980))
 // CS Name: ::OptionalArgument`1<T>*
 class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::ArgumentBase {
 public:
   // Declarations
   /// @brief Field <hasValue>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__hasValue_k__BackingField, put = __set__hasValue_k__BackingField)) bool _hasValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hasValue_k__BackingField, put = __cordl_internal_set__hasValue_k__BackingField)) bool _hasValue_k__BackingField;
 
   /// @brief Field _value, offset 0x30, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) T _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
   __declspec(property(get = get_value)) T value;
 
@@ -35,17 +35,17 @@ public:
 
   __declspec(property(get = get_hasValue, put = set_hasValue)) bool hasValue;
 
-  constexpr bool& __get__hasValue_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasValue_k__BackingField();
 
-  constexpr bool const& __get__hasValue_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasValue_k__BackingField() const;
 
-  constexpr void __set__hasValue_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasValue_k__BackingField(bool value);
 
-  constexpr T& __get__value();
+  constexpr T& __cordl_internal_get__value();
 
-  constexpr T const& __get__value() const;
+  constexpr T const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(T value);
+  constexpr void __cordl_internal_set__value(T value);
 
   /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_value();

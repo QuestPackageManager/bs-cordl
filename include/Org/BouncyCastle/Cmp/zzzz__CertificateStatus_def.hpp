@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::CertificateStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(603))
 // CS Name: ::Org.BouncyCastle.Cmp::CertificateStatus*
 class CORDL_TYPE CertificateStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digestAlgFinder, offset 0x10, size 0x8
-  __declspec(property(get = __get_digestAlgFinder, put = __set_digestAlgFinder))::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
+  __declspec(property(get = __cordl_internal_get_digestAlgFinder, put = __cordl_internal_set_digestAlgFinder))::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
 
   /// @brief Field certStatus, offset 0x18, size 0x8
-  __declspec(property(get = __get_certStatus, put = __set_certStatus))::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus;
+  __declspec(property(get = __cordl_internal_get_certStatus, put = __cordl_internal_set_certStatus))::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus;
 
   /// @brief Field sigAlgFinder, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sigAlgFinder, put = setStaticF_sigAlgFinder))::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* sigAlgFinder;
@@ -51,17 +51,17 @@ public:
 
   __declspec(property(get = get_CertRequestId))::Org::BouncyCastle::Math::BigInteger* CertRequestId;
 
-  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __get_digestAlgFinder();
+  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __cordl_internal_get_digestAlgFinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const& __get_digestAlgFinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const& __cordl_internal_get_digestAlgFinder() const;
 
-  constexpr void __set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
+  constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertStatus*& __get_certStatus();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertStatus*& __cordl_internal_get_certStatus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertStatus*> const& __get_certStatus() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertStatus*> const& __cordl_internal_get_certStatus() const;
 
-  constexpr void __set_certStatus(::Org::BouncyCastle::Asn1::Cmp::CertStatus* value);
+  constexpr void __cordl_internal_set_certStatus(::Org::BouncyCastle::Asn1::Cmp::CertStatus* value);
 
   static inline void setStaticF_sigAlgFinder(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* value);
 

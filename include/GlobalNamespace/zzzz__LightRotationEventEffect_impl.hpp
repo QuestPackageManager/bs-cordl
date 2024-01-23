@@ -16,9 +16,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x23ad5a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -29,9 +29,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x23ad6f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,9 +42,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x23ad7e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "OnDestroy",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -56,10 +56,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x23ad7fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "HandleBeatmapEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "HandleBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
     return ___internal_method;
   }
 };
@@ -70,147 +70,149 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x23ad920;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::LightRotationEventEffect::__get__event() {
+constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__event() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____event;
 }
-constexpr ::GlobalNamespace::BasicBeatmapEventType const& GlobalNamespace::LightRotationEventEffect::__get__event() const {
+constexpr ::GlobalNamespace::BasicBeatmapEventType const& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__event() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____event;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__event(::GlobalNamespace::BasicBeatmapEventType value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____event = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::LightRotationEventEffect::__get__rotationVector() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__rotationVector() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationVector;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightRotationEventEffect::__get__rotationVector() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__rotationVector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationVector;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__rotationVector(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__rotationVector(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationVector = value;
 }
-constexpr float_t& GlobalNamespace::LightRotationEventEffect::__get__rotationSpeedMultiplier() {
+constexpr float_t& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__rotationSpeedMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationSpeedMultiplier;
 }
-constexpr float_t const& GlobalNamespace::LightRotationEventEffect::__get__rotationSpeedMultiplier() const {
+constexpr float_t const& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__rotationSpeedMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationSpeedMultiplier;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__rotationSpeedMultiplier(float_t value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__rotationSpeedMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationSpeedMultiplier = value;
 }
-constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::LightRotationEventEffect::__get__beatmapCallbacksController() {
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__beatmapCallbacksController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& GlobalNamespace::LightRotationEventEffect::__get__beatmapCallbacksController() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
+GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::LightRotationEventEffect::__get__audioTimeSource() {
+constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__audioTimeSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::LightRotationEventEffect::__get__audioTimeSource() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& GlobalNamespace::LightRotationEventEffect::__get__transform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__transform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::LightRotationEventEffect::__get__transform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__transform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__transform(::UnityEngine::Transform* value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::LightRotationEventEffect::__get__startRotation() {
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__startRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotation;
 }
-constexpr ::UnityEngine::Quaternion const& GlobalNamespace::LightRotationEventEffect::__get__startRotation() const {
+constexpr ::UnityEngine::Quaternion const& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__startRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotation;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__startRotation(::UnityEngine::Quaternion value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__startRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startRotation = value;
 }
-constexpr float_t& GlobalNamespace::LightRotationEventEffect::__get__rotationSpeed() {
+constexpr float_t& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__rotationSpeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationSpeed;
 }
-constexpr float_t const& GlobalNamespace::LightRotationEventEffect::__get__rotationSpeed() const {
+constexpr float_t const& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__rotationSpeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationSpeed;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__rotationSpeed(float_t value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__rotationSpeed(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationSpeed = value;
 }
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::LightRotationEventEffect::__get__beatmapDataCallbackWrapper() {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& GlobalNamespace::LightRotationEventEffect::__get__beatmapDataCallbackWrapper() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
+GlobalNamespace::LightRotationEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
-constexpr void GlobalNamespace::LightRotationEventEffect::__set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value) {
+constexpr void GlobalNamespace::LightRotationEventEffect::__cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LightRotationEventEffect::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightRotationEventEffect::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightRotationEventEffect::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "OnDestroy",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightRotationEventEffect::HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "HandleBeatmapEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), "HandleBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
 }
 inline ::GlobalNamespace::LightRotationEventEffect* GlobalNamespace::LightRotationEventEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LightRotationEventEffect*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightRotationEventEffect*>());
 }
 inline void GlobalNamespace::LightRotationEventEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationEventEffect*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

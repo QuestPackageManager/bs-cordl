@@ -77,12 +77,12 @@ MARK_VAL_T(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10134)), TypeDefinitionIndex(TypeDefinitionIndex(7723)), TypeDefinitionIndex(TypeDefinitionIndex(7722)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 739 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 759 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7724)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 762 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 761 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 760 }), TypeDefinitionIndex(TypeDefinitionIndex(7721)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9999), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8124)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7721)), TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7723)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7724)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10134)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 739 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 759 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 760 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 761 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 762 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8124)) CS Name:
 // ::OVRMeshJobs::TransformToUnitySpaceJob
 struct CORDL_TYPE __OVRMeshJobs__TransformToUnitySpaceJob {
 public:
@@ -174,8 +174,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJo
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 745 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 753 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8125)) CS Name: ::OVRMeshJobs::TransformTrianglesJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 745 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(9999), inst: 753 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8125)) CS Name: ::OVRMeshJobs::TransformTrianglesJob
 struct CORDL_TYPE __OVRMeshJobs__TransformTrianglesJob {
 public:
   // Declarations
@@ -226,8 +226,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4693 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3336))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8126)) CS Name: ::OVRMeshJobs::NativeArrayHelper`1<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4693
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8126)) CS Name: ::OVRMeshJobs::NativeArrayHelper`1<T>
 struct CORDL_TYPE __OVRMeshJobs__NativeArrayHelper_1 {
 public:
   // Declarations
@@ -268,7 +268,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8127))
 // CS Name: ::OVRMeshJobs*
 class CORDL_TYPE OVRMeshJobs : public ::System::Object {

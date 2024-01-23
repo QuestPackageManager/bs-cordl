@@ -41,92 +41,94 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6039))
 // CS Name: ::MissionLevelNoTransitionInstaller*
 class CORDL_TYPE MissionLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
   /// @brief Field _beatmapLevel, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapLevel, put = __set__beatmapLevel))::GlobalNamespace::BeatmapLevelSO* _beatmapLevel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::UnityW<::GlobalNamespace::BeatmapLevelSO> _beatmapLevel;
 
   /// @brief Field _beatmapCharacteristic, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristic, put = __set__beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset 0x28, size 0x4
-  __declspec(property(get = __get__beatmapDifficulty, put = __set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
 
   /// @brief Field _colorScheme, offset 0x30, size 0x8
-  __declspec(property(get = __get__colorScheme, put = __set__colorScheme))::GlobalNamespace::ColorSchemeSO* _colorScheme;
+  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _colorScheme;
 
   /// @brief Field _missionObjectives, offset 0x38, size 0x8
-  __declspec(property(get = __get__missionObjectives, put = __set__missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> _missionObjectives;
+  __declspec(property(get = __cordl_internal_get__missionObjectives,
+                      put = __cordl_internal_set__missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> _missionObjectives;
 
   /// @brief Field _gameplayModifiers, offset 0x40, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   /// @brief Field _playerSpecificSettings, offset 0x48, size 0x8
-  __declspec(property(get = __get__playerSpecificSettings, put = __set__playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
+  __declspec(property(get = __cordl_internal_get__playerSpecificSettings, put = __cordl_internal_set__playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
 
   /// @brief Field _backButtonText, offset 0x50, size 0x8
-  __declspec(property(get = __get__backButtonText, put = __set__backButtonText))::StringW _backButtonText;
+  __declspec(property(get = __cordl_internal_get__backButtonText, put = __cordl_internal_set__backButtonText))::StringW _backButtonText;
 
   /// @brief Field _scenesTransitionSetupData, offset 0x58, size 0x8
-  __declspec(property(get = __get__scenesTransitionSetupData, put = __set__scenesTransitionSetupData))::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
+                      put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__beatmapLevel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& __get__beatmapLevel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __set__beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__beatmapLevel(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
-  constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__beatmapDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__beatmapDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
 
-  constexpr void __set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr ::GlobalNamespace::ColorSchemeSO*& __get__colorScheme();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& __get__colorScheme() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__colorScheme() const;
 
-  constexpr void __set__colorScheme(::GlobalNamespace::ColorSchemeSO* value);
+  constexpr void __cordl_internal_set__colorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __get__missionObjectives();
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get__missionObjectives();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __get__missionObjectives() const;
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get__missionObjectives() const;
 
-  constexpr void __set__missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
+  constexpr void __cordl_internal_set__missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __get__playerSpecificSettings();
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __get__playerSpecificSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings() const;
 
-  constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+  constexpr void __cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  constexpr ::StringW& __get__backButtonText();
+  constexpr ::StringW& __cordl_internal_get__backButtonText();
 
-  constexpr ::StringW const& __get__backButtonText() const;
+  constexpr ::StringW const& __cordl_internal_get__backButtonText() const;
 
-  constexpr void __set__backButtonText(::StringW value);
+  constexpr void __cordl_internal_set__backButtonText(::StringW value);
 
-  constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& __get__scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*> const& __get__scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
 
-  constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
   /// @brief Method InstallBindings, addr 0x231b0f0, size 0xc4, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
@@ -151,16 +153,16 @@ protected:
 
 public:
   /// @brief Field _beatmapLevel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelSO* ____beatmapLevel;
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____beatmapLevel;
 
   /// @brief Field _beatmapCharacteristic, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
 
   /// @brief Field _colorScheme, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeSO* ____colorScheme;
+  ::UnityW<::GlobalNamespace::ColorSchemeSO> ____colorScheme;
 
   /// @brief Field _missionObjectives, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ____missionObjectives;
@@ -175,7 +177,7 @@ public:
   ::StringW ____backButtonText;
 
   /// @brief Field _scenesTransitionSetupData, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* ____scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,9 +16,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2375d98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(),
-                                                                               "get_maxCutScore", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_maxCutScore", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -30,9 +30,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x237618c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(),
-                                                                               "get_executionOrder", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_executionOrder", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -44,110 +44,110 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x2376138;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxCenterDistanceCutScore() {
+constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_maxCenterDistanceCutScore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCenterDistanceCutScore;
 }
-constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxCenterDistanceCutScore() const {
+constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_maxCenterDistanceCutScore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCenterDistanceCutScore;
 }
-constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_maxCenterDistanceCutScore(int32_t value) {
+constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_set_maxCenterDistanceCutScore(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCenterDistanceCutScore = value;
 }
-constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minBeforeCutScore() {
+constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_minBeforeCutScore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minBeforeCutScore;
 }
-constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minBeforeCutScore() const {
+constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_minBeforeCutScore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minBeforeCutScore;
 }
-constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_minBeforeCutScore(int32_t value) {
+constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_set_minBeforeCutScore(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minBeforeCutScore = value;
 }
-constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxBeforeCutScore() {
+constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_maxBeforeCutScore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxBeforeCutScore;
 }
-constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxBeforeCutScore() const {
+constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_maxBeforeCutScore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxBeforeCutScore;
 }
-constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_maxBeforeCutScore(int32_t value) {
+constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_set_maxBeforeCutScore(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxBeforeCutScore = value;
 }
-constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minAfterCutScore() {
+constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_minAfterCutScore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minAfterCutScore;
 }
-constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minAfterCutScore() const {
+constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_minAfterCutScore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minAfterCutScore;
 }
-constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_minAfterCutScore(int32_t value) {
+constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_set_minAfterCutScore(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minAfterCutScore = value;
 }
-constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxAfterCutScore() {
+constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_maxAfterCutScore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAfterCutScore;
 }
-constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxAfterCutScore() const {
+constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_maxAfterCutScore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAfterCutScore;
 }
-constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_maxAfterCutScore(int32_t value) {
+constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_set_maxAfterCutScore(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxAfterCutScore = value;
 }
-constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_fixedCutScore() {
+constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_fixedCutScore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedCutScore;
 }
-constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_fixedCutScore() const {
+constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_get_fixedCutScore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedCutScore;
 }
-constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_fixedCutScore(int32_t value) {
+constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__cordl_internal_set_fixedCutScore(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fixedCutScore = value;
 }
 inline int32_t GlobalNamespace::__ScoreModel__NoteScoreDefinition::get_maxCutScore() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(),
-                                                                             "get_maxCutScore", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_maxCutScore", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::__ScoreModel__NoteScoreDefinition::get_executionOrder() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(),
-                                                                             "get_executionOrder", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_executionOrder", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__ScoreModel__NoteScoreDefinition* GlobalNamespace::__ScoreModel__NoteScoreDefinition::New_ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore,
                                                                                                                           int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore,
                                                                                                                           int32_t fixedCutScore) {
-  return THROW_UNLESS(
-      ::il2cpp_utils::New<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>(maxCenterDistanceCutScore, minBeforeCutScore, maxBeforeCutScore, minAfterCutScore, maxAfterCutScore, fixedCutScore));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>(maxCenterDistanceCutScore, minBeforeCutScore, maxBeforeCutScore, minAfterCutScore,
+                                                                                                         maxAfterCutScore, fixedCutScore));
 }
 inline void GlobalNamespace::__ScoreModel__NoteScoreDefinition::_ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore,
                                                                       int32_t maxAfterCutScore, int32_t fixedCutScore) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, maxCenterDistanceCutScore, minBeforeCutScore, maxBeforeCutScore, minAfterCutScore, maxAfterCutScore, fixedCutScore);
 }
 // Ctor Parameters []
@@ -160,11 +160,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x2375d14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -176,10 +176,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x23761a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), "CompareTo", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get() })));
     return ___internal_method;
   }
 };
@@ -192,44 +192,45 @@ constexpr ::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCount
 GlobalNamespace::__ScoreModel__MaxScoreCounterElement::i___System__IComparable_1___GlobalNamespace____ScoreModel__MaxScoreCounterElement__() noexcept {
   return static_cast<::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>*>(static_cast<void*>(this));
 }
-constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_noteScoreDefinition() {
+constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__cordl_internal_get_noteScoreDefinition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteScoreDefinition;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*> const& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_noteScoreDefinition() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*> const&
+GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__cordl_internal_get_noteScoreDefinition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteScoreDefinition;
 }
-constexpr void GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__set_noteScoreDefinition(::GlobalNamespace::__ScoreModel__NoteScoreDefinition* value) {
+constexpr void GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__cordl_internal_set_noteScoreDefinition(::GlobalNamespace::__ScoreModel__NoteScoreDefinition* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteScoreDefinition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_time() {
+constexpr float_t& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__cordl_internal_get_time() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
-constexpr float_t const& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_time() const {
+constexpr float_t const& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__cordl_internal_get_time() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
-constexpr void GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__set_time(float_t value) {
+constexpr void GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__cordl_internal_set_time(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___time = value;
 }
 inline ::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* GlobalNamespace::__ScoreModel__MaxScoreCounterElement::New_ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>(scoringType, time));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>(scoringType, time));
 }
 inline void GlobalNamespace::__ScoreModel__MaxScoreCounterElement::_ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scoringType, time);
 }
 inline int32_t GlobalNamespace::__ScoreModel__MaxScoreCounterElement::CompareTo(::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* other) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), "CompareTo", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, other);
 }
 // Ctor Parameters []
@@ -242,10 +243,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x237522c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetNoteScoreDefinition", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetNoteScoreDefinition", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get() })));
     return ___internal_method;
   }
 };
@@ -257,10 +258,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa68;
   constexpr static std::size_t addrs = 0x23752ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "ComputeMaxMultipliedScoreForBeatmap", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "ComputeMaxMultipliedScoreForBeatmap", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get() })));
     return ___internal_method;
   }
 };
@@ -271,10 +272,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x2375db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetModifiedScoreForGameplayModifiersScoreMultiplier", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetModifiedScoreForGameplayModifiersScoreMultiplier", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -285,9 +286,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2375e28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -320,29 +321,29 @@ inline ::GlobalNamespace::ScoreMultiplierCounter* GlobalNamespace::ScoreModel::g
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get>();
 }
 inline ::GlobalNamespace::__ScoreModel__NoteScoreDefinition* GlobalNamespace::ScoreModel::GetNoteScoreDefinition(::GlobalNamespace::__NoteData__ScoringType scoringType) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetNoteScoreDefinition", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetNoteScoreDefinition", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__ScoringType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*, false>(nullptr, ___internal_method, scoringType);
 }
 inline int32_t GlobalNamespace::ScoreModel::ComputeMaxMultipliedScoreForBeatmap(::GlobalNamespace::IReadonlyBeatmapData* beatmapData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "ComputeMaxMultipliedScoreForBeatmap", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "ComputeMaxMultipliedScoreForBeatmap", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, beatmapData);
 }
 inline int32_t GlobalNamespace::ScoreModel::GetModifiedScoreForGameplayModifiersScoreMultiplier(int32_t multipliedScore, float_t gameplayModifiersScoreMultiplier) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetModifiedScoreForGameplayModifiersScoreMultiplier", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), "GetModifiedScoreForGameplayModifiersScoreMultiplier", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, multipliedScore, gameplayModifiersScoreMultiplier);
 }
 inline ::GlobalNamespace::ScoreModel* GlobalNamespace::ScoreModel::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ScoreModel*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreModel*>());
 }
 inline void GlobalNamespace::ScoreModel::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

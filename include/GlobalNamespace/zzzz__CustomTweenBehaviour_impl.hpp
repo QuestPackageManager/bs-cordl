@@ -18,9 +18,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2316224;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -32,10 +32,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x231622c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), "<OnBehaviourPlay>b__21_0",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), "<OnBehaviourPlay>b__21_0",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -57,17 +57,17 @@ inline ::System::Func_2<int32_t, float_t>* GlobalNamespace::__CustomTweenBehavio
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get>();
 }
 inline ::GlobalNamespace::__CustomTweenBehaviour____c* GlobalNamespace::__CustomTweenBehaviour____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__CustomTweenBehaviour____c*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__CustomTweenBehaviour____c*>());
 }
 inline void GlobalNamespace::__CustomTweenBehaviour____c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::__CustomTweenBehaviour____c::_OnBehaviourPlay_b__21_0(int32_t i) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), "<OnBehaviourPlay>b__21_0",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, i);
 }
 // Ctor Parameters []
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x231599c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), 13));
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3e0;
   constexpr static std::size_t addrs = 0x2315ad8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), 20));
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x2315eb8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), 16));
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x2315fbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), 17));
@@ -139,225 +139,225 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x23161a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& GlobalNamespace::CustomTweenBehaviour::__get__transforms() {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__transforms() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transforms;
 }
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& GlobalNamespace::CustomTweenBehaviour::__get__transforms() const {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__transforms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transforms;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__transforms(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::CustomTweenBehaviour::__get_startLocationCurrentPosition() {
+constexpr bool& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_startLocationCurrentPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startLocationCurrentPosition;
 }
-constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__get_startLocationCurrentPosition() const {
+constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_startLocationCurrentPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startLocationCurrentPosition;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set_startLocationCurrentPosition(bool value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set_startLocationCurrentPosition(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startLocationCurrentPosition = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomTweenBehaviour::__get_startLocalPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_startLocalPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startLocalPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomTweenBehaviour::__get_startLocalPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_startLocalPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startLocalPos;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set_startLocalPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set_startLocalPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startLocalPos = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomTweenBehaviour::__get_endLocalPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_endLocalPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endLocalPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomTweenBehaviour::__get_endLocalPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_endLocalPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endLocalPos;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set_endLocalPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set_endLocalPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endLocalPos = value;
 }
-constexpr ::GlobalNamespace::EaseType& GlobalNamespace::CustomTweenBehaviour::__get_easeType() {
+constexpr ::GlobalNamespace::EaseType& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_easeType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
-constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::CustomTweenBehaviour::__get_easeType() const {
+constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_easeType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set_easeType(::GlobalNamespace::EaseType value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set_easeType(::GlobalNamespace::EaseType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___easeType = value;
 }
-constexpr bool& GlobalNamespace::CustomTweenBehaviour::__get_endXRelativeToSelfRotation() {
+constexpr bool& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_endXRelativeToSelfRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endXRelativeToSelfRotation;
 }
-constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__get_endXRelativeToSelfRotation() const {
+constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_endXRelativeToSelfRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endXRelativeToSelfRotation;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set_endXRelativeToSelfRotation(bool value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set_endXRelativeToSelfRotation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endXRelativeToSelfRotation = value;
 }
-constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__get_elementDelay() {
+constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_elementDelay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementDelay;
 }
-constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__get_elementDelay() const {
+constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get_elementDelay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementDelay;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set_elementDelay(float_t value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set_elementDelay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementDelay = value;
 }
-constexpr bool& GlobalNamespace::CustomTweenBehaviour::__get__lockX() {
+constexpr bool& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__lockX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockX;
 }
-constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__get__lockX() const {
+constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__lockX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockX;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__lockX(bool value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__lockX(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lockX = value;
 }
-constexpr bool& GlobalNamespace::CustomTweenBehaviour::__get__lockY() {
+constexpr bool& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__lockY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockY;
 }
-constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__get__lockY() const {
+constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__lockY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockY;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__lockY(bool value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__lockY(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lockY = value;
 }
-constexpr bool& GlobalNamespace::CustomTweenBehaviour::__get__lockZ() {
+constexpr bool& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__lockZ() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockZ;
 }
-constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__get__lockZ() const {
+constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__lockZ() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockZ;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__lockZ(bool value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__lockZ(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lockZ = value;
 }
-constexpr bool& GlobalNamespace::CustomTweenBehaviour::__get__randomizeOrder() {
+constexpr bool& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizeOrder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeOrder;
 }
-constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__get__randomizeOrder() const {
+constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizeOrder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeOrder;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__randomizeOrder(bool value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__randomizeOrder(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomizeOrder = value;
 }
-constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__get__randomizedMinDurationMultiplier() {
+constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizedMinDurationMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedMinDurationMultiplier;
 }
-constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__get__randomizedMinDurationMultiplier() const {
+constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizedMinDurationMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedMinDurationMultiplier;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__randomizedMinDurationMultiplier(float_t value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__randomizedMinDurationMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomizedMinDurationMultiplier = value;
 }
-constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__get__duration() {
+constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__duration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
-constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__get__duration() const {
+constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__duration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__duration(float_t value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__duration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration = value;
 }
-constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__get__perItemDuration() {
+constexpr float_t& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__perItemDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perItemDuration;
 }
-constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__get__perItemDuration() const {
+constexpr float_t const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__perItemDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perItemDuration;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__perItemDuration(float_t value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__perItemDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____perItemDuration = value;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& GlobalNamespace::CustomTweenBehaviour::__get__originalLocalPos() {
+constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__originalLocalPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalLocalPos;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& GlobalNamespace::CustomTweenBehaviour::__get__originalLocalPos() const {
+constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__originalLocalPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalLocalPos;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__originalLocalPos(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__originalLocalPos(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originalLocalPos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::CustomTweenBehaviour::__get__initialized() {
+constexpr bool& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__initialized() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
-constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__get__initialized() const {
+constexpr bool const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__initialized() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__initialized(bool value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__initialized(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::CustomTweenBehaviour::__get__randomizedOrder() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizedOrder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedOrder;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::CustomTweenBehaviour::__get__randomizedOrder() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizedOrder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedOrder;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__randomizedOrder(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__randomizedOrder(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomizedOrder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::CustomTweenBehaviour::__get__randomizedDuration() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizedDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedDuration;
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::CustomTweenBehaviour::__get__randomizedDuration() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::CustomTweenBehaviour::__cordl_internal_get__randomizedDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedDuration;
 }
-constexpr void GlobalNamespace::CustomTweenBehaviour::__set__randomizedDuration(::ArrayW<float_t, ::Array<float_t>*> value) {
+constexpr void GlobalNamespace::CustomTweenBehaviour::__cordl_internal_set__randomizedDuration(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomizedDuration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -382,11 +382,11 @@ inline void GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay(::UnityEngine
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playable, info);
 }
 inline ::GlobalNamespace::CustomTweenBehaviour* GlobalNamespace::CustomTweenBehaviour::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::CustomTweenBehaviour*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CustomTweenBehaviour*>());
 }
 inline void GlobalNamespace::CustomTweenBehaviour::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::AnimationState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10209))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10209))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14866))
 // CS Name: ::UnityEngine::AnimationState*
 class CORDL_TYPE AnimationState : public ::UnityEngine::TrackedReference {
@@ -33,7 +33,7 @@ public:
 
   __declspec(property(put = set_layer)) int32_t layer;
 
-  __declspec(property(get = get_clip))::UnityEngine::AnimationClip* clip;
+  __declspec(property(get = get_clip))::UnityW<::UnityEngine::AnimationClip> clip;
 
   /// @brief Method set_time, addr 0x2c904a0, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
@@ -48,7 +48,7 @@ public:
   inline void set_layer(int32_t value);
 
   /// @brief Method get_clip, addr 0x2c900f0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AnimationClip* get_clip();
+  inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 

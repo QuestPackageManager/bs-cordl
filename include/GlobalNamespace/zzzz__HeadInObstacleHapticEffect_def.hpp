@@ -33,112 +33,112 @@ MARK_REF_PTR_T(::GlobalNamespace::HeadInObstacleHapticEffect);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4863))
 // CS Name: ::HeadInObstacleHapticEffect*
 class CORDL_TYPE HeadInObstacleHapticEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _headHapticPreset, offset 0x18, size 0x8
-  __declspec(property(get = __get__headHapticPreset, put = __set__headHapticPreset))::Libraries::HM::HMLib::VR::HapticPresetSO* _headHapticPreset;
+  __declspec(property(get = __cordl_internal_get__headHapticPreset, put = __cordl_internal_set__headHapticPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _headHapticPreset;
 
   /// @brief Field _minimalHapticDuration, offset 0x20, size 0x4
-  __declspec(property(get = __get__minimalHapticDuration, put = __set__minimalHapticDuration)) float_t _minimalHapticDuration;
+  __declspec(property(get = __cordl_internal_get__minimalHapticDuration, put = __cordl_internal_set__minimalHapticDuration)) float_t _minimalHapticDuration;
 
   /// @brief Field _hapticFeedbackManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__hapticFeedbackManager, put = __set__hapticFeedbackManager))::GlobalNamespace::HapticFeedbackManager* _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset 0x30, size 0x8
-  __declspec(property(get = __get__playerHeadAndObstacleInteraction,
-                      put = __set__playerHeadAndObstacleInteraction))::GlobalNamespace::PlayerHeadAndObstacleInteraction* _playerHeadAndObstacleInteraction;
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
 
   /// @brief Field _gamePause, offset 0x38, size 0x8
-  __declspec(property(get = __get__gamePause, put = __set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
 
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset 0x40, size 0x8
-  __declspec(property(get = __get__gameplayLevelSceneTransitionEvents,
-                      put = __set__gameplayLevelSceneTransitionEvents))::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
+  __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
+                      put = __cordl_internal_set__gameplayLevelSceneTransitionEvents))::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
   /// @brief Field _playerDataModel, offset 0x48, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _isGamePaused, offset 0x50, size 0x1
-  __declspec(property(get = __get__isGamePaused, put = __set__isGamePaused)) bool _isGamePaused;
+  __declspec(property(get = __cordl_internal_get__isGamePaused, put = __cordl_internal_set__isGamePaused)) bool _isGamePaused;
 
   /// @brief Field _isLevelFinished, offset 0x51, size 0x1
-  __declspec(property(get = __get__isLevelFinished, put = __set__isLevelFinished)) bool _isLevelFinished;
+  __declspec(property(get = __cordl_internal_get__isLevelFinished, put = __cordl_internal_set__isLevelFinished)) bool _isLevelFinished;
 
   /// @brief Field _minimumTimeUntilHapticEnd, offset 0x54, size 0x4
-  __declspec(property(get = __get__minimumTimeUntilHapticEnd, put = __set__minimumTimeUntilHapticEnd)) float_t _minimumTimeUntilHapticEnd;
+  __declspec(property(get = __cordl_internal_get__minimumTimeUntilHapticEnd, put = __cordl_internal_set__minimumTimeUntilHapticEnd)) float_t _minimumTimeUntilHapticEnd;
 
   /// @brief Field _wasHeadInWallLastFrame, offset 0x58, size 0x1
-  __declspec(property(get = __get__wasHeadInWallLastFrame, put = __set__wasHeadInWallLastFrame)) bool _wasHeadInWallLastFrame;
+  __declspec(property(get = __cordl_internal_get__wasHeadInWallLastFrame, put = __cordl_internal_set__wasHeadInWallLastFrame)) bool _wasHeadInWallLastFrame;
 
-  constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& __get__headHapticPreset();
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__headHapticPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& __get__headHapticPreset() const;
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__headHapticPreset() const;
 
-  constexpr void __set__headHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value);
+  constexpr void __cordl_internal_set__headHapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  constexpr float_t& __get__minimalHapticDuration();
+  constexpr float_t& __cordl_internal_get__minimalHapticDuration();
 
-  constexpr float_t const& __get__minimalHapticDuration() const;
+  constexpr float_t const& __cordl_internal_get__minimalHapticDuration() const;
 
-  constexpr void __set__minimalHapticDuration(float_t value);
+  constexpr void __cordl_internal_set__minimalHapticDuration(float_t value);
 
-  constexpr ::GlobalNamespace::HapticFeedbackManager*& __get__hapticFeedbackManager();
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& __get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr void __set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
 
-  constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& __get__playerHeadAndObstacleInteraction();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeadAndObstacleInteraction*> const& __get__playerHeadAndObstacleInteraction() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
 
-  constexpr void __set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  constexpr ::GlobalNamespace::IGamePause*& __get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __get__gamePause() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
 
-  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __get__gameplayLevelSceneTransitionEvents();
+  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __cordl_internal_get__gameplayLevelSceneTransitionEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& __get__gameplayLevelSceneTransitionEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& __cordl_internal_get__gameplayLevelSceneTransitionEvents() const;
 
-  constexpr void __set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
+  constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr bool& __get__isGamePaused();
+  constexpr bool& __cordl_internal_get__isGamePaused();
 
-  constexpr bool const& __get__isGamePaused() const;
+  constexpr bool const& __cordl_internal_get__isGamePaused() const;
 
-  constexpr void __set__isGamePaused(bool value);
+  constexpr void __cordl_internal_set__isGamePaused(bool value);
 
-  constexpr bool& __get__isLevelFinished();
+  constexpr bool& __cordl_internal_get__isLevelFinished();
 
-  constexpr bool const& __get__isLevelFinished() const;
+  constexpr bool const& __cordl_internal_get__isLevelFinished() const;
 
-  constexpr void __set__isLevelFinished(bool value);
+  constexpr void __cordl_internal_set__isLevelFinished(bool value);
 
-  constexpr float_t& __get__minimumTimeUntilHapticEnd();
+  constexpr float_t& __cordl_internal_get__minimumTimeUntilHapticEnd();
 
-  constexpr float_t const& __get__minimumTimeUntilHapticEnd() const;
+  constexpr float_t const& __cordl_internal_get__minimumTimeUntilHapticEnd() const;
 
-  constexpr void __set__minimumTimeUntilHapticEnd(float_t value);
+  constexpr void __cordl_internal_set__minimumTimeUntilHapticEnd(float_t value);
 
-  constexpr bool& __get__wasHeadInWallLastFrame();
+  constexpr bool& __cordl_internal_get__wasHeadInWallLastFrame();
 
-  constexpr bool const& __get__wasHeadInWallLastFrame() const;
+  constexpr bool const& __cordl_internal_get__wasHeadInWallLastFrame() const;
 
-  constexpr void __set__wasHeadInWallLastFrame(bool value);
+  constexpr void __cordl_internal_set__wasHeadInWallLastFrame(bool value);
 
   /// @brief Method Start, addr 0x2399d04, size 0x20c, virtual false, abstract: false, final false
   inline void Start();
@@ -178,16 +178,16 @@ protected:
 
 public:
   /// @brief Field _headHapticPreset, offset: 0x18, size: 0x8, def value: None
-  ::Libraries::HM::HMLib::VR::HapticPresetSO* ____headHapticPreset;
+  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____headHapticPreset;
 
   /// @brief Field _minimalHapticDuration, offset: 0x20, size: 0x4, def value: None
   float_t ____minimalHapticDuration;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::HapticFeedbackManager* ____hapticFeedbackManager;
+  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeadAndObstacleInteraction* ____playerHeadAndObstacleInteraction;
+  ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
   /// @brief Field _gamePause, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
@@ -196,7 +196,7 @@ public:
   ::GlobalNamespace::GameplayLevelSceneTransitionEvents* ____gameplayLevelSceneTransitionEvents;
 
   /// @brief Field _playerDataModel, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _isGamePaused, offset: 0x50, size: 0x1, def value: None
   bool ____isGamePaused;

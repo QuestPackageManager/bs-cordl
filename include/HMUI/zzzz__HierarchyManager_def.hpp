@@ -29,38 +29,38 @@ MARK_REF_PTR_T(::HMUI::HierarchyManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13583))
 // CS Name: ::HMUI::HierarchyManager*
 class CORDL_TYPE HierarchyManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _screenSystem, offset 0x18, size 0x8
-  __declspec(property(get = __get__screenSystem, put = __set__screenSystem))::HMUI::ScreenSystem* _screenSystem;
+  __declspec(property(get = __cordl_internal_get__screenSystem, put = __cordl_internal_set__screenSystem))::UnityW<::HMUI::ScreenSystem> _screenSystem;
 
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _rootFlowCoordinator, offset 0x28, size 0x8
-  __declspec(property(get = __get__rootFlowCoordinator, put = __set__rootFlowCoordinator))::HMUI::FlowCoordinator* _rootFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__rootFlowCoordinator, put = __cordl_internal_set__rootFlowCoordinator))::UnityW<::HMUI::FlowCoordinator> _rootFlowCoordinator;
 
-  constexpr ::HMUI::ScreenSystem*& __get__screenSystem();
+  constexpr ::UnityW<::HMUI::ScreenSystem>& __cordl_internal_get__screenSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ScreenSystem*> const& __get__screenSystem() const;
+  constexpr ::UnityW<::HMUI::ScreenSystem> const& __cordl_internal_get__screenSystem() const;
 
-  constexpr void __set__screenSystem(::HMUI::ScreenSystem* value);
+  constexpr void __cordl_internal_set__screenSystem(::UnityW<::HMUI::ScreenSystem> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::HMUI::FlowCoordinator*& __get__rootFlowCoordinator();
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__rootFlowCoordinator();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::FlowCoordinator*> const& __get__rootFlowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__rootFlowCoordinator() const;
 
-  constexpr void __set__rootFlowCoordinator(::HMUI::FlowCoordinator* value);
+  constexpr void __cordl_internal_set__rootFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
   /// @brief Method Start, addr 0x212a800, size 0x11c, virtual false, abstract: false, final false
   inline void Start();
@@ -97,13 +97,13 @@ protected:
 
 public:
   /// @brief Field _screenSystem, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::ScreenSystem* ____screenSystem;
+  ::UnityW<::HMUI::ScreenSystem> ____screenSystem;
 
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _rootFlowCoordinator, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::FlowCoordinator* ____rootFlowCoordinator;
+  ::UnityW<::HMUI::FlowCoordinator> ____rootFlowCoordinator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

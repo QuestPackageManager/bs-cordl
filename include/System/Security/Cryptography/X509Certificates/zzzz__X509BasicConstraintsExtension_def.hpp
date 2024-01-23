@@ -24,23 +24,23 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509BasicCons
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8992))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509BasicConstraintsExtension*
 class CORDL_TYPE X509BasicConstraintsExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
   // Declarations
   /// @brief Field _certificateAuthority, offset 0x21, size 0x1
-  __declspec(property(get = __get__certificateAuthority, put = __set__certificateAuthority)) bool _certificateAuthority;
+  __declspec(property(get = __cordl_internal_get__certificateAuthority, put = __cordl_internal_set__certificateAuthority)) bool _certificateAuthority;
 
   /// @brief Field _hasPathLengthConstraint, offset 0x22, size 0x1
-  __declspec(property(get = __get__hasPathLengthConstraint, put = __set__hasPathLengthConstraint)) bool _hasPathLengthConstraint;
+  __declspec(property(get = __cordl_internal_get__hasPathLengthConstraint, put = __cordl_internal_set__hasPathLengthConstraint)) bool _hasPathLengthConstraint;
 
   /// @brief Field _pathLengthConstraint, offset 0x24, size 0x4
-  __declspec(property(get = __get__pathLengthConstraint, put = __set__pathLengthConstraint)) int32_t _pathLengthConstraint;
+  __declspec(property(get = __cordl_internal_get__pathLengthConstraint, put = __cordl_internal_set__pathLengthConstraint)) int32_t _pathLengthConstraint;
 
   /// @brief Field _status, offset 0x28, size 0x4
-  __declspec(property(get = __get__status, put = __set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
 
   __declspec(property(get = get_CertificateAuthority)) bool CertificateAuthority;
 
@@ -48,29 +48,29 @@ public:
 
   __declspec(property(get = get_PathLengthConstraint)) int32_t PathLengthConstraint;
 
-  constexpr bool& __get__certificateAuthority();
+  constexpr bool& __cordl_internal_get__certificateAuthority();
 
-  constexpr bool const& __get__certificateAuthority() const;
+  constexpr bool const& __cordl_internal_get__certificateAuthority() const;
 
-  constexpr void __set__certificateAuthority(bool value);
+  constexpr void __cordl_internal_set__certificateAuthority(bool value);
 
-  constexpr bool& __get__hasPathLengthConstraint();
+  constexpr bool& __cordl_internal_get__hasPathLengthConstraint();
 
-  constexpr bool const& __get__hasPathLengthConstraint() const;
+  constexpr bool const& __cordl_internal_get__hasPathLengthConstraint() const;
 
-  constexpr void __set__hasPathLengthConstraint(bool value);
+  constexpr void __cordl_internal_set__hasPathLengthConstraint(bool value);
 
-  constexpr int32_t& __get__pathLengthConstraint();
+  constexpr int32_t& __cordl_internal_get__pathLengthConstraint();
 
-  constexpr int32_t const& __get__pathLengthConstraint() const;
+  constexpr int32_t const& __cordl_internal_get__pathLengthConstraint() const;
 
-  constexpr void __set__pathLengthConstraint(int32_t value);
+  constexpr void __cordl_internal_set__pathLengthConstraint(int32_t value);
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __get__status();
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __cordl_internal_get__status();
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __get__status() const;
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(::System::Security::Cryptography::AsnDecodeStatus value);
+  constexpr void __cordl_internal_set__status(::System::Security::Cryptography::AsnDecodeStatus value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension* New_ctor();
 

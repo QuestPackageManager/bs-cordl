@@ -18,47 +18,47 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::Header);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3165))
 // CS Name: ::System.Runtime.Remoting.Messaging::Header*
 class CORDL_TYPE Header : public ::System::Object {
 public:
   // Declarations
   /// @brief Field HeaderNamespace, offset 0x10, size 0x8
-  __declspec(property(get = __get_HeaderNamespace, put = __set_HeaderNamespace))::StringW HeaderNamespace;
+  __declspec(property(get = __cordl_internal_get_HeaderNamespace, put = __cordl_internal_set_HeaderNamespace))::StringW HeaderNamespace;
 
   /// @brief Field MustUnderstand, offset 0x18, size 0x1
-  __declspec(property(get = __get_MustUnderstand, put = __set_MustUnderstand)) bool MustUnderstand;
+  __declspec(property(get = __cordl_internal_get_MustUnderstand, put = __cordl_internal_set_MustUnderstand)) bool MustUnderstand;
 
   /// @brief Field Name, offset 0x20, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field Value, offset 0x28, size 0x8
-  __declspec(property(get = __get_Value, put = __set_Value))::System::Object* Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::System::Object* Value;
 
-  constexpr ::StringW& __get_HeaderNamespace();
+  constexpr ::StringW& __cordl_internal_get_HeaderNamespace();
 
-  constexpr ::StringW const& __get_HeaderNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get_HeaderNamespace() const;
 
-  constexpr void __set_HeaderNamespace(::StringW value);
+  constexpr void __cordl_internal_set_HeaderNamespace(::StringW value);
 
-  constexpr bool& __get_MustUnderstand();
+  constexpr bool& __cordl_internal_get_MustUnderstand();
 
-  constexpr bool const& __get_MustUnderstand() const;
+  constexpr bool const& __cordl_internal_get_MustUnderstand() const;
 
-  constexpr void __set_MustUnderstand(bool value);
+  constexpr void __cordl_internal_set_MustUnderstand(bool value);
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr ::System::Object*& __get_Value();
+  constexpr ::System::Object*& __cordl_internal_get_Value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_Value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Value() const;
 
-  constexpr void __set_Value(::System::Object* value);
+  constexpr void __cordl_internal_set_Value(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "Header", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

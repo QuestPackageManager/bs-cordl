@@ -118,7 +118,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputControlExtensions__InputEventContr
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6217))
 // CS Name: ::InputControlExtensions::Enumerate
 struct CORDL_TYPE __InputControlExtensions__Enumerate {
@@ -180,7 +180,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions__Enu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6217))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6217)), TypeDefinitionIndex(TypeDefinitionIndex(6536))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6218))
 // CS Name: ::InputControlExtensions::InputEventControlCollection
 struct CORDL_TYPE __InputControlExtensions__InputEventControlCollection {
@@ -255,7 +255,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions__Inp
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6217))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6217)), TypeDefinitionIndex(TypeDefinitionIndex(6536))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6219))
 // CS Name: ::InputControlExtensions::InputEventControlEnumerator
 struct CORDL_TYPE __InputControlExtensions__InputEventControlEnumerator {
@@ -424,7 +424,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions__Inp
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6220))
 // CS Name: ::InputControlExtensions::ControlBuilder
 struct CORDL_TYPE __InputControlExtensions__ControlBuilder {
@@ -518,7 +518,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions__Con
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6221))
 // CS Name: ::InputControlExtensions::DeviceBuilder
 struct CORDL_TYPE __InputControlExtensions__DeviceBuilder {
@@ -591,41 +591,41 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions__Dev
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6219)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6219)), TypeDefinitionIndex(TypeDefinitionIndex(6536))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6222))
 // CS Name: ::InputControlExtensions::<GetAllButtonPresses>d__43*
 class CORDL_TYPE __InputControlExtensions___GetAllButtonPresses_d__43 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::InputSystem::InputControl* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::InputSystem::InputControl* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field eventPtr, offset 0x28, size 0x8
-  __declspec(property(get = __get_eventPtr, put = __set_eventPtr))::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr;
+  __declspec(property(get = __cordl_internal_get_eventPtr, put = __cordl_internal_set_eventPtr))::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr;
 
   /// @brief Field <>3__eventPtr, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__eventPtr, put = __set___3__eventPtr))::UnityEngine::InputSystem::LowLevel::InputEventPtr __3__eventPtr;
+  __declspec(property(get = __cordl_internal_get___3__eventPtr, put = __cordl_internal_set___3__eventPtr))::UnityEngine::InputSystem::LowLevel::InputEventPtr __3__eventPtr;
 
   /// @brief Field magnitude, offset 0x38, size 0x4
-  __declspec(property(get = __get_magnitude, put = __set_magnitude)) float_t magnitude;
+  __declspec(property(get = __cordl_internal_get_magnitude, put = __cordl_internal_set_magnitude)) float_t magnitude;
 
   /// @brief Field <>3__magnitude, offset 0x3c, size 0x4
-  __declspec(property(get = __get___3__magnitude, put = __set___3__magnitude)) float_t __3__magnitude;
+  __declspec(property(get = __cordl_internal_get___3__magnitude, put = __cordl_internal_set___3__magnitude)) float_t __3__magnitude;
 
   /// @brief Field buttonControlsOnly, offset 0x40, size 0x1
-  __declspec(property(get = __get_buttonControlsOnly, put = __set_buttonControlsOnly)) bool buttonControlsOnly;
+  __declspec(property(get = __cordl_internal_get_buttonControlsOnly, put = __cordl_internal_set_buttonControlsOnly)) bool buttonControlsOnly;
 
   /// @brief Field <>3__buttonControlsOnly, offset 0x41, size 0x1
-  __declspec(property(get = __get___3__buttonControlsOnly, put = __set___3__buttonControlsOnly)) bool __3__buttonControlsOnly;
+  __declspec(property(get = __cordl_internal_get___3__buttonControlsOnly, put = __cordl_internal_set___3__buttonControlsOnly)) bool __3__buttonControlsOnly;
 
   /// @brief Field <>7__wrap1, offset 0x48, size 0x70
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputControl__get_Current))::UnityEngine::InputSystem::
       InputControl* System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputControl__Current;
@@ -664,65 +664,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::InputControl*& __get___2__current();
+  constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::InputSystem::InputControl* value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::InputControl* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __get_eventPtr();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __cordl_internal_get_eventPtr();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __get_eventPtr() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __cordl_internal_get_eventPtr() const;
 
-  constexpr void __set_eventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
+  constexpr void __cordl_internal_set_eventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __get___3__eventPtr();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __cordl_internal_get___3__eventPtr();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __get___3__eventPtr() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __cordl_internal_get___3__eventPtr() const;
 
-  constexpr void __set___3__eventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
+  constexpr void __cordl_internal_set___3__eventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
-  constexpr float_t& __get_magnitude();
+  constexpr float_t& __cordl_internal_get_magnitude();
 
-  constexpr float_t const& __get_magnitude() const;
+  constexpr float_t const& __cordl_internal_get_magnitude() const;
 
-  constexpr void __set_magnitude(float_t value);
+  constexpr void __cordl_internal_set_magnitude(float_t value);
 
-  constexpr float_t& __get___3__magnitude();
+  constexpr float_t& __cordl_internal_get___3__magnitude();
 
-  constexpr float_t const& __get___3__magnitude() const;
+  constexpr float_t const& __cordl_internal_get___3__magnitude() const;
 
-  constexpr void __set___3__magnitude(float_t value);
+  constexpr void __cordl_internal_set___3__magnitude(float_t value);
 
-  constexpr bool& __get_buttonControlsOnly();
+  constexpr bool& __cordl_internal_get_buttonControlsOnly();
 
-  constexpr bool const& __get_buttonControlsOnly() const;
+  constexpr bool const& __cordl_internal_get_buttonControlsOnly() const;
 
-  constexpr void __set_buttonControlsOnly(bool value);
+  constexpr void __cordl_internal_set_buttonControlsOnly(bool value);
 
-  constexpr bool& __get___3__buttonControlsOnly();
+  constexpr bool& __cordl_internal_get___3__buttonControlsOnly();
 
-  constexpr bool const& __get___3__buttonControlsOnly() const;
+  constexpr bool const& __cordl_internal_get___3__buttonControlsOnly() const;
 
-  constexpr void __set___3__buttonControlsOnly(bool value);
+  constexpr void __cordl_internal_set___3__buttonControlsOnly(bool value);
 
-  constexpr ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator& __get___7__wrap1();
+  constexpr ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator& __cordl_internal_get___7__wrap1();
 
-  constexpr ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator const& __get___7__wrap1() const;
+  constexpr ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator value);
+  constexpr void __cordl_internal_set___7__wrap1(::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator value);
 
   static inline ::UnityEngine::InputSystem::__InputControlExtensions___GetAllButtonPresses_d__43* New_ctor(int32_t __1__state);
 
@@ -827,7 +827,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions___Ge
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6223))
 // CS Name: ::UnityEngine.InputSystem::InputControlExtensions*
 class CORDL_TYPE InputControlExtensions : public ::System::Object {

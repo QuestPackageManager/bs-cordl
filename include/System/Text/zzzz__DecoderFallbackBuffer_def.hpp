@@ -17,31 +17,31 @@ MARK_REF_PTR_T(::System::Text::DecoderFallbackBuffer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2834))
 // CS Name: ::System.Text::DecoderFallbackBuffer*
 class CORDL_TYPE DecoderFallbackBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field byteStart, offset 0x10, size 0x8
-  __declspec(property(get = __get_byteStart, put = __set_byteStart))::cordl_internals::Ptr<uint8_t> byteStart;
+  __declspec(property(get = __cordl_internal_get_byteStart, put = __cordl_internal_set_byteStart))::cordl_internals::Ptr<uint8_t> byteStart;
 
   /// @brief Field charEnd, offset 0x18, size 0x8
-  __declspec(property(get = __get_charEnd, put = __set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
+  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_byteStart();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_byteStart();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_byteStart() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_byteStart() const;
 
-  constexpr void __set_byteStart(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_byteStart(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_charEnd();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charEnd();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_charEnd() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charEnd() const;
 
-  constexpr void __set_charEnd(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value);
 
   /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);

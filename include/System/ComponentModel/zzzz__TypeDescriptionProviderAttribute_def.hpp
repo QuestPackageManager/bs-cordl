@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::System::ComponentModel::TypeDescriptionProviderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9461))
 // CS Name: ::System.ComponentModel::TypeDescriptionProviderAttribute*
 class CORDL_TYPE TypeDescriptionProviderAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <TypeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__TypeName_k__BackingField, put = __set__TypeName_k__BackingField))::StringW _TypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TypeName_k__BackingField, put = __cordl_internal_set__TypeName_k__BackingField))::StringW _TypeName_k__BackingField;
 
   __declspec(property(get = get_TypeName))::StringW TypeName;
 
-  constexpr ::StringW& __get__TypeName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__TypeName_k__BackingField();
 
-  constexpr ::StringW const& __get__TypeName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__TypeName_k__BackingField() const;
 
-  constexpr void __set__TypeName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
   static inline ::System::ComponentModel::TypeDescriptionProviderAttribute* New_ctor(::StringW typeName);
 

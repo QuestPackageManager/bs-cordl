@@ -58,7 +58,7 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10003))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10003))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9999))
 // CS Name: ::Unity.Collections::NativeArray`1<T>
 struct CORDL_TYPE NativeArray_1 {
@@ -210,7 +210,7 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 3160 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 3160 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9998))
 // CS Name: ::NativeArray`1::Enumerator<T>
 struct CORDL_TYPE __NativeArray_1__Enumerator {

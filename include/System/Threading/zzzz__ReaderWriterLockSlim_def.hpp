@@ -36,7 +36,7 @@ MARK_VAL_T(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14319))
 // CS Name: ::ReaderWriterLockSlim::TimeoutTracker
 struct CORDL_TYPE __ReaderWriterLockSlim__TimeoutTracker {
@@ -85,7 +85,7 @@ static_assert(offsetof(::System::Threading::__ReaderWriterLockSlim__TimeoutTrack
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14320))
 // CS Name: ::System.Threading::ReaderWriterLockSlim*
 class CORDL_TYPE ReaderWriterLockSlim : public ::System::Object {
@@ -94,55 +94,55 @@ public:
   using TimeoutTracker = ::System::Threading::__ReaderWriterLockSlim__TimeoutTracker;
 
   /// @brief Field fIsReentrant, offset 0x10, size 0x1
-  __declspec(property(get = __get_fIsReentrant, put = __set_fIsReentrant)) bool fIsReentrant;
+  __declspec(property(get = __cordl_internal_get_fIsReentrant, put = __cordl_internal_set_fIsReentrant)) bool fIsReentrant;
 
   /// @brief Field myLock, offset 0x14, size 0x4
-  __declspec(property(get = __get_myLock, put = __set_myLock)) int32_t myLock;
+  __declspec(property(get = __cordl_internal_get_myLock, put = __cordl_internal_set_myLock)) int32_t myLock;
 
   /// @brief Field numWriteWaiters, offset 0x18, size 0x4
-  __declspec(property(get = __get_numWriteWaiters, put = __set_numWriteWaiters)) uint32_t numWriteWaiters;
+  __declspec(property(get = __cordl_internal_get_numWriteWaiters, put = __cordl_internal_set_numWriteWaiters)) uint32_t numWriteWaiters;
 
   /// @brief Field numReadWaiters, offset 0x1c, size 0x4
-  __declspec(property(get = __get_numReadWaiters, put = __set_numReadWaiters)) uint32_t numReadWaiters;
+  __declspec(property(get = __cordl_internal_get_numReadWaiters, put = __cordl_internal_set_numReadWaiters)) uint32_t numReadWaiters;
 
   /// @brief Field numWriteUpgradeWaiters, offset 0x20, size 0x4
-  __declspec(property(get = __get_numWriteUpgradeWaiters, put = __set_numWriteUpgradeWaiters)) uint32_t numWriteUpgradeWaiters;
+  __declspec(property(get = __cordl_internal_get_numWriteUpgradeWaiters, put = __cordl_internal_set_numWriteUpgradeWaiters)) uint32_t numWriteUpgradeWaiters;
 
   /// @brief Field numUpgradeWaiters, offset 0x24, size 0x4
-  __declspec(property(get = __get_numUpgradeWaiters, put = __set_numUpgradeWaiters)) uint32_t numUpgradeWaiters;
+  __declspec(property(get = __cordl_internal_get_numUpgradeWaiters, put = __cordl_internal_set_numUpgradeWaiters)) uint32_t numUpgradeWaiters;
 
   /// @brief Field fNoWaiters, offset 0x28, size 0x1
-  __declspec(property(get = __get_fNoWaiters, put = __set_fNoWaiters)) bool fNoWaiters;
+  __declspec(property(get = __cordl_internal_get_fNoWaiters, put = __cordl_internal_set_fNoWaiters)) bool fNoWaiters;
 
   /// @brief Field upgradeLockOwnerId, offset 0x2c, size 0x4
-  __declspec(property(get = __get_upgradeLockOwnerId, put = __set_upgradeLockOwnerId)) int32_t upgradeLockOwnerId;
+  __declspec(property(get = __cordl_internal_get_upgradeLockOwnerId, put = __cordl_internal_set_upgradeLockOwnerId)) int32_t upgradeLockOwnerId;
 
   /// @brief Field writeLockOwnerId, offset 0x30, size 0x4
-  __declspec(property(get = __get_writeLockOwnerId, put = __set_writeLockOwnerId)) int32_t writeLockOwnerId;
+  __declspec(property(get = __cordl_internal_get_writeLockOwnerId, put = __cordl_internal_set_writeLockOwnerId)) int32_t writeLockOwnerId;
 
   /// @brief Field writeEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_writeEvent, put = __set_writeEvent))::System::Threading::EventWaitHandle* writeEvent;
+  __declspec(property(get = __cordl_internal_get_writeEvent, put = __cordl_internal_set_writeEvent))::System::Threading::EventWaitHandle* writeEvent;
 
   /// @brief Field readEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_readEvent, put = __set_readEvent))::System::Threading::EventWaitHandle* readEvent;
+  __declspec(property(get = __cordl_internal_get_readEvent, put = __cordl_internal_set_readEvent))::System::Threading::EventWaitHandle* readEvent;
 
   /// @brief Field upgradeEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_upgradeEvent, put = __set_upgradeEvent))::System::Threading::EventWaitHandle* upgradeEvent;
+  __declspec(property(get = __cordl_internal_get_upgradeEvent, put = __cordl_internal_set_upgradeEvent))::System::Threading::EventWaitHandle* upgradeEvent;
 
   /// @brief Field waitUpgradeEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_waitUpgradeEvent, put = __set_waitUpgradeEvent))::System::Threading::EventWaitHandle* waitUpgradeEvent;
+  __declspec(property(get = __cordl_internal_get_waitUpgradeEvent, put = __cordl_internal_set_waitUpgradeEvent))::System::Threading::EventWaitHandle* waitUpgradeEvent;
 
   /// @brief Field lockID, offset 0x58, size 0x8
-  __declspec(property(get = __get_lockID, put = __set_lockID)) int64_t lockID;
+  __declspec(property(get = __cordl_internal_get_lockID, put = __cordl_internal_set_lockID)) int64_t lockID;
 
   /// @brief Field fUpgradeThreadHoldingRead, offset 0x60, size 0x1
-  __declspec(property(get = __get_fUpgradeThreadHoldingRead, put = __set_fUpgradeThreadHoldingRead)) bool fUpgradeThreadHoldingRead;
+  __declspec(property(get = __cordl_internal_get_fUpgradeThreadHoldingRead, put = __cordl_internal_set_fUpgradeThreadHoldingRead)) bool fUpgradeThreadHoldingRead;
 
   /// @brief Field owners, offset 0x64, size 0x4
-  __declspec(property(get = __get_owners, put = __set_owners)) uint32_t owners;
+  __declspec(property(get = __cordl_internal_get_owners, put = __cordl_internal_set_owners)) uint32_t owners;
 
   /// @brief Field fDisposed, offset 0x68, size 0x1
-  __declspec(property(get = __get_fDisposed, put = __set_fDisposed)) bool fDisposed;
+  __declspec(property(get = __cordl_internal_get_fDisposed, put = __cordl_internal_set_fDisposed)) bool fDisposed;
 
   /// @brief Field s_nextLockID, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_nextLockID, put = setStaticF_s_nextLockID)) int64_t s_nextLockID;
@@ -174,107 +174,107 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_fIsReentrant();
+  constexpr bool& __cordl_internal_get_fIsReentrant();
 
-  constexpr bool const& __get_fIsReentrant() const;
+  constexpr bool const& __cordl_internal_get_fIsReentrant() const;
 
-  constexpr void __set_fIsReentrant(bool value);
+  constexpr void __cordl_internal_set_fIsReentrant(bool value);
 
-  constexpr int32_t& __get_myLock();
+  constexpr int32_t& __cordl_internal_get_myLock();
 
-  constexpr int32_t const& __get_myLock() const;
+  constexpr int32_t const& __cordl_internal_get_myLock() const;
 
-  constexpr void __set_myLock(int32_t value);
+  constexpr void __cordl_internal_set_myLock(int32_t value);
 
-  constexpr uint32_t& __get_numWriteWaiters();
+  constexpr uint32_t& __cordl_internal_get_numWriteWaiters();
 
-  constexpr uint32_t const& __get_numWriteWaiters() const;
+  constexpr uint32_t const& __cordl_internal_get_numWriteWaiters() const;
 
-  constexpr void __set_numWriteWaiters(uint32_t value);
+  constexpr void __cordl_internal_set_numWriteWaiters(uint32_t value);
 
-  constexpr uint32_t& __get_numReadWaiters();
+  constexpr uint32_t& __cordl_internal_get_numReadWaiters();
 
-  constexpr uint32_t const& __get_numReadWaiters() const;
+  constexpr uint32_t const& __cordl_internal_get_numReadWaiters() const;
 
-  constexpr void __set_numReadWaiters(uint32_t value);
+  constexpr void __cordl_internal_set_numReadWaiters(uint32_t value);
 
-  constexpr uint32_t& __get_numWriteUpgradeWaiters();
+  constexpr uint32_t& __cordl_internal_get_numWriteUpgradeWaiters();
 
-  constexpr uint32_t const& __get_numWriteUpgradeWaiters() const;
+  constexpr uint32_t const& __cordl_internal_get_numWriteUpgradeWaiters() const;
 
-  constexpr void __set_numWriteUpgradeWaiters(uint32_t value);
+  constexpr void __cordl_internal_set_numWriteUpgradeWaiters(uint32_t value);
 
-  constexpr uint32_t& __get_numUpgradeWaiters();
+  constexpr uint32_t& __cordl_internal_get_numUpgradeWaiters();
 
-  constexpr uint32_t const& __get_numUpgradeWaiters() const;
+  constexpr uint32_t const& __cordl_internal_get_numUpgradeWaiters() const;
 
-  constexpr void __set_numUpgradeWaiters(uint32_t value);
+  constexpr void __cordl_internal_set_numUpgradeWaiters(uint32_t value);
 
-  constexpr bool& __get_fNoWaiters();
+  constexpr bool& __cordl_internal_get_fNoWaiters();
 
-  constexpr bool const& __get_fNoWaiters() const;
+  constexpr bool const& __cordl_internal_get_fNoWaiters() const;
 
-  constexpr void __set_fNoWaiters(bool value);
+  constexpr void __cordl_internal_set_fNoWaiters(bool value);
 
-  constexpr int32_t& __get_upgradeLockOwnerId();
+  constexpr int32_t& __cordl_internal_get_upgradeLockOwnerId();
 
-  constexpr int32_t const& __get_upgradeLockOwnerId() const;
+  constexpr int32_t const& __cordl_internal_get_upgradeLockOwnerId() const;
 
-  constexpr void __set_upgradeLockOwnerId(int32_t value);
+  constexpr void __cordl_internal_set_upgradeLockOwnerId(int32_t value);
 
-  constexpr int32_t& __get_writeLockOwnerId();
+  constexpr int32_t& __cordl_internal_get_writeLockOwnerId();
 
-  constexpr int32_t const& __get_writeLockOwnerId() const;
+  constexpr int32_t const& __cordl_internal_get_writeLockOwnerId() const;
 
-  constexpr void __set_writeLockOwnerId(int32_t value);
+  constexpr void __cordl_internal_set_writeLockOwnerId(int32_t value);
 
-  constexpr ::System::Threading::EventWaitHandle*& __get_writeEvent();
+  constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_writeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __get_writeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_writeEvent() const;
 
-  constexpr void __set_writeEvent(::System::Threading::EventWaitHandle* value);
+  constexpr void __cordl_internal_set_writeEvent(::System::Threading::EventWaitHandle* value);
 
-  constexpr ::System::Threading::EventWaitHandle*& __get_readEvent();
+  constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_readEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __get_readEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_readEvent() const;
 
-  constexpr void __set_readEvent(::System::Threading::EventWaitHandle* value);
+  constexpr void __cordl_internal_set_readEvent(::System::Threading::EventWaitHandle* value);
 
-  constexpr ::System::Threading::EventWaitHandle*& __get_upgradeEvent();
+  constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_upgradeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __get_upgradeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_upgradeEvent() const;
 
-  constexpr void __set_upgradeEvent(::System::Threading::EventWaitHandle* value);
+  constexpr void __cordl_internal_set_upgradeEvent(::System::Threading::EventWaitHandle* value);
 
-  constexpr ::System::Threading::EventWaitHandle*& __get_waitUpgradeEvent();
+  constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_waitUpgradeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __get_waitUpgradeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_waitUpgradeEvent() const;
 
-  constexpr void __set_waitUpgradeEvent(::System::Threading::EventWaitHandle* value);
+  constexpr void __cordl_internal_set_waitUpgradeEvent(::System::Threading::EventWaitHandle* value);
 
-  constexpr int64_t& __get_lockID();
+  constexpr int64_t& __cordl_internal_get_lockID();
 
-  constexpr int64_t const& __get_lockID() const;
+  constexpr int64_t const& __cordl_internal_get_lockID() const;
 
-  constexpr void __set_lockID(int64_t value);
+  constexpr void __cordl_internal_set_lockID(int64_t value);
 
-  constexpr bool& __get_fUpgradeThreadHoldingRead();
+  constexpr bool& __cordl_internal_get_fUpgradeThreadHoldingRead();
 
-  constexpr bool const& __get_fUpgradeThreadHoldingRead() const;
+  constexpr bool const& __cordl_internal_get_fUpgradeThreadHoldingRead() const;
 
-  constexpr void __set_fUpgradeThreadHoldingRead(bool value);
+  constexpr void __cordl_internal_set_fUpgradeThreadHoldingRead(bool value);
 
-  constexpr uint32_t& __get_owners();
+  constexpr uint32_t& __cordl_internal_get_owners();
 
-  constexpr uint32_t const& __get_owners() const;
+  constexpr uint32_t const& __cordl_internal_get_owners() const;
 
-  constexpr void __set_owners(uint32_t value);
+  constexpr void __cordl_internal_set_owners(uint32_t value);
 
-  constexpr bool& __get_fDisposed();
+  constexpr bool& __cordl_internal_get_fDisposed();
 
-  constexpr bool const& __get_fDisposed() const;
+  constexpr bool const& __cordl_internal_get_fDisposed() const;
 
-  constexpr void __set_fDisposed(bool value);
+  constexpr void __cordl_internal_set_fDisposed(bool value);
 
   static inline void setStaticF_s_nextLockID(int64_t value);
 

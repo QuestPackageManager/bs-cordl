@@ -32,24 +32,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerGeneralizedTime);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(506))
 // CS Name: ::Org.BouncyCastle.Asn1::DerGeneralizedTime*
 class CORDL_TYPE DerGeneralizedTime : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   /// @brief Field time, offset 0x10, size 0x8
-  __declspec(property(get = __get_time, put = __set_time))::StringW time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time))::StringW time;
 
   __declspec(property(get = get_TimeString))::StringW TimeString;
 
   __declspec(property(get = get_HasFractionalSeconds)) bool HasFractionalSeconds;
 
-  constexpr ::StringW& __get_time();
+  constexpr ::StringW& __cordl_internal_get_time();
 
-  constexpr ::StringW const& __get_time() const;
+  constexpr ::StringW const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(::StringW value);
+  constexpr void __cordl_internal_set_time(::StringW value);
 
   /// @brief Method GetInstance, addr 0x11c171c, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* GetInstance(::System::Object* obj);

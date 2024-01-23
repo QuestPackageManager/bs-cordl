@@ -68,17 +68,17 @@ MARK_REF_PTR_T(::System::ComponentModel::__TypeConverter__StandardValuesCollecti
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9444))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9444))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9478))
 // CS Name: ::TypeConverter::SimplePropertyDescriptor*
 class CORDL_TYPE __TypeConverter__SimplePropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
   /// @brief Field componentType, offset 0x88, size 0x8
-  __declspec(property(get = __get_componentType, put = __set_componentType))::System::Type* componentType;
+  __declspec(property(get = __cordl_internal_get_componentType, put = __cordl_internal_set_componentType))::System::Type* componentType;
 
   /// @brief Field propertyType, offset 0x90, size 0x8
-  __declspec(property(get = __get_propertyType, put = __set_propertyType))::System::Type* propertyType;
+  __declspec(property(get = __cordl_internal_get_propertyType, put = __cordl_internal_set_propertyType))::System::Type* propertyType;
 
   __declspec(property(get = get_ComponentType))::System::Type* ComponentType;
 
@@ -86,17 +86,17 @@ public:
 
   __declspec(property(get = get_PropertyType))::System::Type* PropertyType;
 
-  constexpr ::System::Type*& __get_componentType();
+  constexpr ::System::Type*& __cordl_internal_get_componentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_componentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_componentType() const;
 
-  constexpr void __set_componentType(::System::Type* value);
+  constexpr void __cordl_internal_set_componentType(::System::Type* value);
 
-  constexpr ::System::Type*& __get_propertyType();
+  constexpr ::System::Type*& __cordl_internal_get_propertyType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_propertyType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_propertyType() const;
 
-  constexpr void __set_propertyType(::System::Type* value);
+  constexpr void __cordl_internal_set_propertyType(::System::Type* value);
 
   static inline ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor* New_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType,
                                                                                               ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
@@ -156,17 +156,17 @@ static_assert(offsetof(::System::ComponentModel::__TypeConverter__SimpleProperty
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9479))
 // CS Name: ::TypeConverter::StandardValuesCollection*
 class CORDL_TYPE __TypeConverter__StandardValuesCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field values, offset 0x10, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::System::Collections::ICollection* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::Collections::ICollection* values;
 
   /// @brief Field valueArray, offset 0x18, size 0x8
-  __declspec(property(get = __get_valueArray, put = __set_valueArray))::System::Array* valueArray;
+  __declspec(property(get = __cordl_internal_get_valueArray, put = __cordl_internal_set_valueArray))::System::Array* valueArray;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -188,17 +188,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::ICollection*& __get_values();
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __get_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::System::Collections::ICollection* value);
+  constexpr void __cordl_internal_set_values(::System::Collections::ICollection* value);
 
-  constexpr ::System::Array*& __get_valueArray();
+  constexpr ::System::Array*& __cordl_internal_get_valueArray();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __get_valueArray() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __cordl_internal_get_valueArray() const;
 
-  constexpr void __set_valueArray(::System::Array* value);
+  constexpr void __cordl_internal_set_valueArray(::System::Array* value);
 
   static inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* New_ctor(::System::Collections::ICollection* values);
 
@@ -263,7 +263,7 @@ static_assert(offsetof(::System::ComponentModel::__TypeConverter__StandardValues
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9480))
 // CS Name: ::System.ComponentModel::TypeConverter*
 class CORDL_TYPE TypeConverter : public ::System::Object {

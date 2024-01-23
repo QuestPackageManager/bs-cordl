@@ -19,50 +19,50 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_CookLogs);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9818))
 // CS Name: ::HoudiniEngineUnity::HEU_CookLogs*
 class CORDL_TYPE HEU_CookLogs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cookLogs, offset 0x10, size 0x8
-  __declspec(property(get = __get__cookLogs, put = __set__cookLogs))::System::Text::StringBuilder* _cookLogs;
+  __declspec(property(get = __cordl_internal_get__cookLogs, put = __cordl_internal_set__cookLogs))::System::Text::StringBuilder* _cookLogs;
 
   /// @brief Field _currentCookLogCount, offset 0x18, size 0x4
-  __declspec(property(get = __get__currentCookLogCount, put = __set__currentCookLogCount)) int32_t _currentCookLogCount;
+  __declspec(property(get = __cordl_internal_get__currentCookLogCount, put = __cordl_internal_set__currentCookLogCount)) int32_t _currentCookLogCount;
 
   /// @brief Field _lastLogStr, offset 0x20, size 0x8
-  __declspec(property(get = __get__lastLogStr, put = __set__lastLogStr))::StringW _lastLogStr;
+  __declspec(property(get = __cordl_internal_get__lastLogStr, put = __cordl_internal_set__lastLogStr))::StringW _lastLogStr;
 
   /// @brief Field _uniqueStrOnly, offset 0x28, size 0x1
-  __declspec(property(get = __get__uniqueStrOnly, put = __set__uniqueStrOnly)) bool _uniqueStrOnly;
+  __declspec(property(get = __cordl_internal_get__uniqueStrOnly, put = __cordl_internal_set__uniqueStrOnly)) bool _uniqueStrOnly;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::HoudiniEngineUnity::HEU_CookLogs* _instance;
 
-  constexpr ::System::Text::StringBuilder*& __get__cookLogs();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__cookLogs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__cookLogs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__cookLogs() const;
 
-  constexpr void __set__cookLogs(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__cookLogs(::System::Text::StringBuilder* value);
 
-  constexpr int32_t& __get__currentCookLogCount();
+  constexpr int32_t& __cordl_internal_get__currentCookLogCount();
 
-  constexpr int32_t const& __get__currentCookLogCount() const;
+  constexpr int32_t const& __cordl_internal_get__currentCookLogCount() const;
 
-  constexpr void __set__currentCookLogCount(int32_t value);
+  constexpr void __cordl_internal_set__currentCookLogCount(int32_t value);
 
-  constexpr ::StringW& __get__lastLogStr();
+  constexpr ::StringW& __cordl_internal_get__lastLogStr();
 
-  constexpr ::StringW const& __get__lastLogStr() const;
+  constexpr ::StringW const& __cordl_internal_get__lastLogStr() const;
 
-  constexpr void __set__lastLogStr(::StringW value);
+  constexpr void __cordl_internal_set__lastLogStr(::StringW value);
 
-  constexpr bool& __get__uniqueStrOnly();
+  constexpr bool& __cordl_internal_get__uniqueStrOnly();
 
-  constexpr bool const& __get__uniqueStrOnly() const;
+  constexpr bool const& __cordl_internal_get__uniqueStrOnly() const;
 
-  constexpr void __set__uniqueStrOnly(bool value);
+  constexpr void __cordl_internal_set__uniqueStrOnly(bool value);
 
   static inline void setStaticF__instance(::HoudiniEngineUnity::HEU_CookLogs* value);
 

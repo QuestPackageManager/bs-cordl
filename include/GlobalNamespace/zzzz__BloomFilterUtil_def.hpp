@@ -35,29 +35,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14994))
 // CS Name: ::BloomFilterUtil::<>c__DisplayClass1_0`1<T>*
 class CORDL_TYPE __BloomFilterUtil____c__DisplayClass1_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hashCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_hashCount, put = __set_hashCount)) int32_t hashCount;
+  __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
 
   /// @brief Field hashBits, offset 0x14, size 0x4
-  __declspec(property(get = __get_hashBits, put = __set_hashBits)) int32_t hashBits;
+  __declspec(property(get = __cordl_internal_get_hashBits, put = __cordl_internal_set_hashBits)) int32_t hashBits;
 
-  constexpr int32_t& __get_hashCount();
+  constexpr int32_t& __cordl_internal_get_hashCount();
 
-  constexpr int32_t const& __get_hashCount() const;
+  constexpr int32_t const& __cordl_internal_get_hashCount() const;
 
-  constexpr void __set_hashCount(int32_t value);
+  constexpr void __cordl_internal_set_hashCount(int32_t value);
 
-  constexpr int32_t& __get_hashBits();
+  constexpr int32_t& __cordl_internal_get_hashBits();
 
-  constexpr int32_t const& __get_hashBits() const;
+  constexpr int32_t const& __cordl_internal_get_hashBits() const;
 
-  constexpr void __set_hashBits(int32_t value);
+  constexpr void __cordl_internal_set_hashBits(int32_t value);
 
   static inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>* New_ctor();
 
@@ -97,29 +97,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14995))
 // CS Name: ::BloomFilterUtil::<>c__DisplayClass2_0`1<T>*
 class CORDL_TYPE __BloomFilterUtil____c__DisplayClass2_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hashCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_hashCount, put = __set_hashCount)) int32_t hashCount;
+  __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
 
   /// @brief Field hashBits, offset 0x14, size 0x4
-  __declspec(property(get = __get_hashBits, put = __set_hashBits)) int32_t hashBits;
+  __declspec(property(get = __cordl_internal_get_hashBits, put = __cordl_internal_set_hashBits)) int32_t hashBits;
 
-  constexpr int32_t& __get_hashCount();
+  constexpr int32_t& __cordl_internal_get_hashCount();
 
-  constexpr int32_t const& __get_hashCount() const;
+  constexpr int32_t const& __cordl_internal_get_hashCount() const;
 
-  constexpr void __set_hashCount(int32_t value);
+  constexpr void __cordl_internal_set_hashCount(int32_t value);
 
-  constexpr int32_t& __get_hashBits();
+  constexpr int32_t& __cordl_internal_get_hashBits();
 
-  constexpr int32_t const& __get_hashBits() const;
+  constexpr int32_t const& __cordl_internal_get_hashBits() const;
 
-  constexpr void __set_hashBits(int32_t value);
+  constexpr void __cordl_internal_set_hashBits(int32_t value);
 
   static inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>* New_ctor();
 
@@ -157,7 +157,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14996))
 // CS Name: ::BloomFilterUtil*
 class CORDL_TYPE BloomFilterUtil : public ::System::Object {

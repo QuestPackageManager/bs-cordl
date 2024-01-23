@@ -24,23 +24,23 @@ MARK_REF_PTR_T(::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBin
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10926))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10702))
 // CS Name: ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   /// @brief Field <SubContainerCreatorBindInfo>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__SubContainerCreatorBindInfo_k__BackingField,
-                      put = __set__SubContainerCreatorBindInfo_k__BackingField))::Zenject::SubContainerCreatorBindInfo* _SubContainerCreatorBindInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField,
+                      put = __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField))::Zenject::SubContainerCreatorBindInfo* _SubContainerCreatorBindInfo_k__BackingField;
 
   __declspec(property(get = get_SubContainerCreatorBindInfo, put = set_SubContainerCreatorBindInfo))::Zenject::SubContainerCreatorBindInfo* SubContainerCreatorBindInfo;
 
-  constexpr ::Zenject::SubContainerCreatorBindInfo*& __get__SubContainerCreatorBindInfo_k__BackingField();
+  constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __get__SubContainerCreatorBindInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField() const;
 
-  constexpr void __set__SubContainerCreatorBindInfo_k__BackingField(::Zenject::SubContainerCreatorBindInfo* value);
+  constexpr void __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField(::Zenject::SubContainerCreatorBindInfo* value);
 
   static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 

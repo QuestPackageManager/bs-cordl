@@ -35,29 +35,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionHelpViewController__MissionHelpGameOb
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5694))
 // CS Name: ::MissionHelpViewController::MissionHelpGameObjectPair*
 class CORDL_TYPE __MissionHelpViewController__MissionHelpGameObjectPair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field missionHelp, offset 0x10, size 0x8
-  __declspec(property(get = __get_missionHelp, put = __set_missionHelp))::GlobalNamespace::MissionHelpSO* missionHelp;
+  __declspec(property(get = __cordl_internal_get_missionHelp, put = __cordl_internal_set_missionHelp))::UnityW<::GlobalNamespace::MissionHelpSO> missionHelp;
 
   /// @brief Field gameObject, offset 0x18, size 0x8
-  __declspec(property(get = __get_gameObject, put = __set_gameObject))::UnityEngine::GameObject* gameObject;
+  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
 
-  constexpr ::GlobalNamespace::MissionHelpSO*& __get_missionHelp();
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpSO>& __cordl_internal_get_missionHelp();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionHelpSO*> const& __get_missionHelp() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& __cordl_internal_get_missionHelp() const;
 
-  constexpr void __set_missionHelp(::GlobalNamespace::MissionHelpSO* value);
+  constexpr void __cordl_internal_set_missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_gameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_gameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_gameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
 
-  constexpr void __set_gameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value);
 
   static inline ::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair* New_ctor();
 
@@ -79,10 +79,10 @@ protected:
 
 public:
   /// @brief Field missionHelp, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MissionHelpSO* ___missionHelp;
+  ::UnityW<::GlobalNamespace::MissionHelpSO> ___missionHelp;
 
   /// @brief Field gameObject, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___gameObject;
+  ::UnityW<::UnityEngine::GameObject> ___gameObject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionHelpViewController__MissionHe
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5695))
 // CS Name: ::MissionHelpViewController*
 class CORDL_TYPE MissionHelpViewController : public ::HMUI::ViewController {
@@ -107,51 +107,50 @@ public:
   using MissionHelpGameObjectPair = ::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair;
 
   /// @brief Field _okButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__okButton, put = __set__okButton))::UnityEngine::UI::Button* _okButton;
+  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
 
   /// @brief Field _missionHelpGameObjectPairs, offset 0x78, size 0x8
-  __declspec(property(get = __get__missionHelpGameObjectPairs,
-                      put = __set__missionHelpGameObjectPairs))::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*,
-                                                                        ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*> _missionHelpGameObjectPairs;
+  __declspec(property(get = __cordl_internal_get__missionHelpGameObjectPairs, put = __cordl_internal_set__missionHelpGameObjectPairs))::ArrayW<
+      ::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*> _missionHelpGameObjectPairs;
 
   /// @brief Field didFinishEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* didFinishEvent;
 
   /// @brief Field _missionHelp, offset 0x88, size 0x8
-  __declspec(property(get = __get__missionHelp, put = __set__missionHelp))::GlobalNamespace::MissionHelpSO* _missionHelp;
+  __declspec(property(get = __cordl_internal_get__missionHelp, put = __cordl_internal_set__missionHelp))::UnityW<::GlobalNamespace::MissionHelpSO> _missionHelp;
 
-  constexpr ::UnityEngine::UI::Button*& __get__okButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__okButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
-  constexpr void __set__okButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*>&
-  __get__missionHelpGameObjectPairs();
+  __cordl_internal_get__missionHelpGameObjectPairs();
 
   constexpr ::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*> const&
-  __get__missionHelpGameObjectPairs() const;
+  __cordl_internal_get__missionHelpGameObjectPairs() const;
 
-  constexpr void __set__missionHelpGameObjectPairs(
+  constexpr void __cordl_internal_set__missionHelpGameObjectPairs(
       ::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  constexpr ::GlobalNamespace::MissionHelpSO*& __get__missionHelp();
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpSO>& __cordl_internal_get__missionHelp();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionHelpSO*> const& __get__missionHelp() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& __cordl_internal_get__missionHelp() const;
 
-  constexpr void __set__missionHelp(::GlobalNamespace::MissionHelpSO* value);
+  constexpr void __cordl_internal_set__missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
   /// @brief Method add_didFinishEvent, addr 0x22c991c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x22c99cc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
   /// @brief Method Setup, addr 0x22c9a7c, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
@@ -185,17 +184,17 @@ protected:
 
 public:
   /// @brief Field _okButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____okButton;
+  ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
   /// @brief Field _missionHelpGameObjectPairs, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*>
       ____missionHelpGameObjectPairs;
 
   /// @brief Field didFinishEvent, offset: 0x80, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* ___didFinishEvent;
 
   /// @brief Field _missionHelp, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::MissionHelpSO* ____missionHelp;
+  ::UnityW<::GlobalNamespace::MissionHelpSO> ____missionHelp;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

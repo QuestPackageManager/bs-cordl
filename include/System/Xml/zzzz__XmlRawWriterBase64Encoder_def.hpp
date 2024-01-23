@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::System::Xml::XmlRawWriterBase64Encoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11404))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11404))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11405))
 // CS Name: ::System.Xml::XmlRawWriterBase64Encoder*
 class CORDL_TYPE XmlRawWriterBase64Encoder : public ::System::Xml::Base64Encoder {
 public:
   // Declarations
   /// @brief Field rawWriter, offset 0x28, size 0x8
-  __declspec(property(get = __get_rawWriter, put = __set_rawWriter))::System::Xml::XmlRawWriter* rawWriter;
+  __declspec(property(get = __cordl_internal_get_rawWriter, put = __cordl_internal_set_rawWriter))::System::Xml::XmlRawWriter* rawWriter;
 
-  constexpr ::System::Xml::XmlRawWriter*& __get_rawWriter();
+  constexpr ::System::Xml::XmlRawWriter*& __cordl_internal_get_rawWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __get_rawWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __cordl_internal_get_rawWriter() const;
 
-  constexpr void __set_rawWriter(::System::Xml::XmlRawWriter* value);
+  constexpr void __cordl_internal_set_rawWriter(::System::Xml::XmlRawWriter* value);
 
   static inline ::System::Xml::XmlRawWriterBase64Encoder* New_ctor(::System::Xml::XmlRawWriter* rawWriter);
 

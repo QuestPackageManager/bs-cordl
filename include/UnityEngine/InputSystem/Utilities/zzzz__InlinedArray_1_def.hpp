@@ -50,7 +50,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6669))
 // CS Name: ::UnityEngine.InputSystem.Utilities::InlinedArray`1<TValue>
 struct CORDL_TYPE InlinedArray_1 {
@@ -182,7 +182,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3155 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3155 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6668))
 // CS Name: ::InlinedArray`1::Enumerator<TValue>
 struct CORDL_TYPE __InlinedArray_1__Enumerator {

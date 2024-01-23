@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::MaskUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13100))
 // CS Name: ::UnityEngine.UI::MaskUtilities*
 class CORDL_TYPE MaskUtilities : public ::System::Object {
@@ -43,7 +43,7 @@ public:
   static inline void NotifyStencilStateChanged(::UnityEngine::Component* mask);
 
   /// @brief Method FindRootSortOverrideCanvas, addr 0x2d7b0c8, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
+  static inline ::UnityW<::UnityEngine::Transform> FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
 
   /// @brief Method GetStencilDepth, addr 0x2d7b268, size 0x288, virtual false, abstract: false, final false
   static inline int32_t GetStencilDepth(::UnityEngine::Transform* transform, ::UnityEngine::Transform* stopAfter);
@@ -52,10 +52,10 @@ public:
   static inline bool IsDescendantOrSelf(::UnityEngine::Transform* father, ::UnityEngine::Transform* child);
 
   /// @brief Method GetRectMaskForClippable, addr 0x2d7bcec, size 0x41c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UI::RectMask2D* GetRectMaskForClippable(::UnityEngine::UI::IClippable* clippable);
+  static inline ::UnityW<::UnityEngine::UI::RectMask2D> GetRectMaskForClippable(::UnityEngine::UI::IClippable* clippable);
 
   /// @brief Method GetRectMasksForClip, addr 0x2d7c648, size 0x364, virtual false, abstract: false, final false
-  static inline void GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* masks);
+  static inline void GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* masks);
 
   static inline ::UnityEngine::UI::MaskUtilities* New_ctor();
 

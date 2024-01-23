@@ -49,7 +49,7 @@ MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9977))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9977))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9981))
 // CS Name: ::JobsUtility::JobScheduleParameters
 struct CORDL_TYPE __JobsUtility__JobScheduleParameters {
@@ -99,7 +99,7 @@ static_assert(offsetof(::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobSchedu
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9982))
 // CS Name: ::JobsUtility::PanicFunction_*
 class CORDL_TYPE __JobsUtility__PanicFunction_ : public ::System::MulticastDelegate {
@@ -137,7 +137,7 @@ static_assert(::cordl_internals::size_check_v<::Unity::Jobs::LowLevel::Unsafe::_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9983))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::JobsUtility*
 class CORDL_TYPE JobsUtility : public ::System::Object {

@@ -35,20 +35,20 @@ MARK_REF_PTR_T(::UnityEngine::Logger);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10036)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10056))
 // CS Name: ::UnityEngine::Logger*
 class CORDL_TYPE Logger : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <logHandler>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__logHandler_k__BackingField, put = __set__logHandler_k__BackingField))::UnityEngine::ILogHandler* _logHandler_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__logHandler_k__BackingField, put = __cordl_internal_set__logHandler_k__BackingField))::UnityEngine::ILogHandler* _logHandler_k__BackingField;
 
   /// @brief Field <logEnabled>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__logEnabled_k__BackingField, put = __set__logEnabled_k__BackingField)) bool _logEnabled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__logEnabled_k__BackingField, put = __cordl_internal_set__logEnabled_k__BackingField)) bool _logEnabled_k__BackingField;
 
   /// @brief Field <filterLogType>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__filterLogType_k__BackingField, put = __set__filterLogType_k__BackingField))::UnityEngine::LogType _filterLogType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__filterLogType_k__BackingField, put = __cordl_internal_set__filterLogType_k__BackingField))::UnityEngine::LogType _filterLogType_k__BackingField;
 
   __declspec(property(get = get_logHandler, put = set_logHandler))::UnityEngine::ILogHandler* logHandler;
 
@@ -68,23 +68,23 @@ public:
   /// @brief Convert to "::UnityEngine::ILogHandler"
   constexpr ::UnityEngine::ILogHandler* i___UnityEngine__ILogHandler() noexcept;
 
-  constexpr ::UnityEngine::ILogHandler*& __get__logHandler_k__BackingField();
+  constexpr ::UnityEngine::ILogHandler*& __cordl_internal_get__logHandler_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ILogHandler*> const& __get__logHandler_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ILogHandler*> const& __cordl_internal_get__logHandler_k__BackingField() const;
 
-  constexpr void __set__logHandler_k__BackingField(::UnityEngine::ILogHandler* value);
+  constexpr void __cordl_internal_set__logHandler_k__BackingField(::UnityEngine::ILogHandler* value);
 
-  constexpr bool& __get__logEnabled_k__BackingField();
+  constexpr bool& __cordl_internal_get__logEnabled_k__BackingField();
 
-  constexpr bool const& __get__logEnabled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__logEnabled_k__BackingField() const;
 
-  constexpr void __set__logEnabled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__logEnabled_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::LogType& __get__filterLogType_k__BackingField();
+  constexpr ::UnityEngine::LogType& __cordl_internal_get__filterLogType_k__BackingField();
 
-  constexpr ::UnityEngine::LogType const& __get__filterLogType_k__BackingField() const;
+  constexpr ::UnityEngine::LogType const& __cordl_internal_get__filterLogType_k__BackingField() const;
 
-  constexpr void __set__filterLogType_k__BackingField(::UnityEngine::LogType value);
+  constexpr void __cordl_internal_set__filterLogType_k__BackingField(::UnityEngine::LogType value);
 
   static inline ::UnityEngine::Logger* New_ctor(::UnityEngine::ILogHandler* logHandler);
 

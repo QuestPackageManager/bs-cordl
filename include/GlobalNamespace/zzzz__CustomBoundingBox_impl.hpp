@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x20f1db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBoundingBox*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -23,59 +23,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x20f1e20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBoundingBox*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomBoundingBox::__get__boundingBoxCenter() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomBoundingBox::__cordl_internal_get__boundingBoxCenter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxCenter;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomBoundingBox::__get__boundingBoxCenter() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomBoundingBox::__cordl_internal_get__boundingBoxCenter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxCenter;
 }
-constexpr void GlobalNamespace::CustomBoundingBox::__set__boundingBoxCenter(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::CustomBoundingBox::__cordl_internal_set__boundingBoxCenter(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____boundingBoxCenter = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomBoundingBox::__get__boundingBoxSize() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomBoundingBox::__cordl_internal_get__boundingBoxSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxSize;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomBoundingBox::__get__boundingBoxSize() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomBoundingBox::__cordl_internal_get__boundingBoxSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxSize;
 }
-constexpr void GlobalNamespace::CustomBoundingBox::__set__boundingBoxSize(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::CustomBoundingBox::__cordl_internal_set__boundingBoxSize(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____boundingBoxSize = value;
 }
-constexpr ::UnityEngine::MeshRenderer*& GlobalNamespace::CustomBoundingBox::__get__meshRenderer() {
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::CustomBoundingBox::__cordl_internal_get__meshRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderer;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& GlobalNamespace::CustomBoundingBox::__get__meshRenderer() const {
+constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::CustomBoundingBox::__cordl_internal_get__meshRenderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderer;
 }
-constexpr void GlobalNamespace::CustomBoundingBox::__set__meshRenderer(::UnityEngine::MeshRenderer* value) {
+constexpr void GlobalNamespace::CustomBoundingBox::__cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::CustomBoundingBox::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBoundingBox*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::CustomBoundingBox* GlobalNamespace::CustomBoundingBox::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::CustomBoundingBox*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CustomBoundingBox*>());
 }
 inline void GlobalNamespace::CustomBoundingBox::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBoundingBox*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

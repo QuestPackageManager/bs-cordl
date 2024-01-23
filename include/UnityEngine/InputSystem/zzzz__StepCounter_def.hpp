@@ -17,25 +17,26 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::StepCounter);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6286))
 // CS Name: ::UnityEngine.InputSystem::StepCounter*
 class CORDL_TYPE StepCounter : public ::UnityEngine::InputSystem::Sensor {
 public:
   // Declarations
   /// @brief Field <stepCounter>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __get__stepCounter_k__BackingField, put = __set__stepCounter_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _stepCounter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__stepCounter_k__BackingField,
+                      put = __cordl_internal_set__stepCounter_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _stepCounter_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::StepCounter* _current_k__BackingField;
 
   __declspec(property(get = get_stepCounter, put = set_stepCounter))::UnityEngine::InputSystem::Controls::IntegerControl* stepCounter;
 
-  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __get__stepCounter_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__stepCounter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __get__stepCounter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__stepCounter_k__BackingField() const;
 
-  constexpr void __set__stepCounter_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+  constexpr void __cordl_internal_set__stepCounter_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::StepCounter* value);
 

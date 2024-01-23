@@ -83,14 +83,14 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__BeatmapData____c__DisplayClass45_0_1);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4243))
 // CS Name: ::BeatmapData::BeatmapDataBinaryHeapItem*
 class CORDL_TYPE __BeatmapData__BeatmapDataBinaryHeapItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field node, offset 0x10, size 0x8
-  __declspec(property(get = __get_node, put = __set_node))::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node;
+  __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node))::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node;
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>*() noexcept;
@@ -98,11 +98,11 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>* i___System__IComparable_1___GlobalNamespace____BeatmapData__BeatmapDataBinaryHeapItem__() noexcept;
 
-  constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& __get_node();
+  constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get_node();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*> const& __get_node() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*> const& __cordl_internal_get_node() const;
 
-  constexpr void __set_node(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
+  constexpr void __cordl_internal_set_node(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
   static inline ::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem* New_ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
 
@@ -143,20 +143,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4244))
 // CS Name: ::BeatmapData::<>c__DisplayClass45_0`1<T>*
 class CORDL_TYPE __BeatmapData____c__DisplayClass45_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subtypeGroupIdentifiers, offset 0x10, size 0x8
-  __declspec(property(get = __get_subtypeGroupIdentifiers, put = __set_subtypeGroupIdentifiers))::ArrayW<int32_t, ::Array<int32_t>*> subtypeGroupIdentifiers;
+  __declspec(property(get = __cordl_internal_get_subtypeGroupIdentifiers, put = __cordl_internal_set_subtypeGroupIdentifiers))::ArrayW<int32_t, ::Array<int32_t>*> subtypeGroupIdentifiers;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_subtypeGroupIdentifiers();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_subtypeGroupIdentifiers();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_subtypeGroupIdentifiers() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_subtypeGroupIdentifiers() const;
 
-  constexpr void __set_subtypeGroupIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_subtypeGroupIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline ::GlobalNamespace::__BeatmapData____c__DisplayClass45_0_1<T>* New_ctor();
 
@@ -191,7 +191,7 @@ public:
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4245))
 // CS Name: ::BeatmapData*
 class CORDL_TYPE BeatmapData : public ::System::Object {
@@ -202,56 +202,58 @@ public:
   using BeatmapDataBinaryHeapItem = ::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem;
 
   /// @brief Field <updateAllBeatmapDataOnInsert>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__updateAllBeatmapDataOnInsert_k__BackingField, put = __set__updateAllBeatmapDataOnInsert_k__BackingField)) bool _updateAllBeatmapDataOnInsert_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__updateAllBeatmapDataOnInsert_k__BackingField,
+                      put = __cordl_internal_set__updateAllBeatmapDataOnInsert_k__BackingField)) bool _updateAllBeatmapDataOnInsert_k__BackingField;
 
   /// @brief Field <cuttableNotesCount>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__cuttableNotesCount_k__BackingField, put = __set__cuttableNotesCount_k__BackingField)) int32_t _cuttableNotesCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cuttableNotesCount_k__BackingField, put = __cordl_internal_set__cuttableNotesCount_k__BackingField)) int32_t _cuttableNotesCount_k__BackingField;
 
   /// @brief Field <obstaclesCount>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__obstaclesCount_k__BackingField, put = __set__obstaclesCount_k__BackingField)) int32_t _obstaclesCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__obstaclesCount_k__BackingField, put = __cordl_internal_set__obstaclesCount_k__BackingField)) int32_t _obstaclesCount_k__BackingField;
 
   /// @brief Field <bombsCount>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__bombsCount_k__BackingField, put = __set__bombsCount_k__BackingField)) int32_t _bombsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bombsCount_k__BackingField, put = __cordl_internal_set__bombsCount_k__BackingField)) int32_t _bombsCount_k__BackingField;
 
   /// @brief Field beatmapEventDataWasInsertedEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_beatmapEventDataWasInsertedEvent, put = __set_beatmapEventDataWasInsertedEvent))::System::Action_2<
+  __declspec(property(get = __cordl_internal_get_beatmapEventDataWasInsertedEvent, put = __cordl_internal_set_beatmapEventDataWasInsertedEvent))::System::Action_2<
       ::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* beatmapEventDataWasInsertedEvent;
 
   /// @brief Field beatmapEventDataWillBeRemovedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_beatmapEventDataWillBeRemovedEvent, put = __set_beatmapEventDataWillBeRemovedEvent))::System::Action_2<
+  __declspec(property(get = __cordl_internal_get_beatmapEventDataWillBeRemovedEvent, put = __cordl_internal_set_beatmapEventDataWillBeRemovedEvent))::System::Action_2<
       ::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* beatmapEventDataWillBeRemovedEvent;
 
   /// @brief Field beatmapEventDataWasRemovedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_beatmapEventDataWasRemovedEvent,
-                      put = __set_beatmapEventDataWasRemovedEvent))::System::Action_1<::GlobalNamespace::BeatmapEventData*>* beatmapEventDataWasRemovedEvent;
+  __declspec(property(get = __cordl_internal_get_beatmapEventDataWasRemovedEvent,
+                      put = __cordl_internal_set_beatmapEventDataWasRemovedEvent))::System::Action_1<::GlobalNamespace::BeatmapEventData*>* beatmapEventDataWasRemovedEvent;
 
   /// @brief Field _allBeatmapData, offset 0x38, size 0x8
-  __declspec(property(get = __get__allBeatmapData, put = __set__allBeatmapData))::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* _allBeatmapData;
+  __declspec(property(get = __cordl_internal_get__allBeatmapData, put = __cordl_internal_set__allBeatmapData))::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* _allBeatmapData;
 
   /// @brief Field _allBeatmapDataItemToNodeMap, offset 0x40, size 0x8
-  __declspec(property(get = __get__allBeatmapDataItemToNodeMap, put = __set__allBeatmapDataItemToNodeMap))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__allBeatmapDataItemToNodeMap, put = __cordl_internal_set__allBeatmapDataItemToNodeMap))::System::Collections::Generic::Dictionary_2<
       ::GlobalNamespace::BeatmapDataItem*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* _allBeatmapDataItemToNodeMap;
 
   /// @brief Field _beatmapDataItemsPerTypeAndId, offset 0x48, size 0x8
-  __declspec(property(get = __get__beatmapDataItemsPerTypeAndId,
-                      put = __set__beatmapDataItemsPerTypeAndId))::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>* _beatmapDataItemsPerTypeAndId;
+  __declspec(
+      property(get = __cordl_internal_get__beatmapDataItemsPerTypeAndId,
+               put = __cordl_internal_set__beatmapDataItemsPerTypeAndId))::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>* _beatmapDataItemsPerTypeAndId;
 
   /// @brief Field _numberOfLines, offset 0x50, size 0x4
-  __declspec(property(get = __get__numberOfLines, put = __set__numberOfLines)) int32_t _numberOfLines;
+  __declspec(property(get = __cordl_internal_get__numberOfLines, put = __cordl_internal_set__numberOfLines)) int32_t _numberOfLines;
 
   /// @brief Field _specialBasicBeatmapEventKeywords, offset 0x58, size 0x8
-  __declspec(property(get = __get__specialBasicBeatmapEventKeywords,
-                      put = __set__specialBasicBeatmapEventKeywords))::System::Collections::Generic::HashSet_1<::StringW>* _specialBasicBeatmapEventKeywords;
+  __declspec(property(get = __cordl_internal_get__specialBasicBeatmapEventKeywords,
+                      put = __cordl_internal_set__specialBasicBeatmapEventKeywords))::System::Collections::Generic::HashSet_1<::StringW>* _specialBasicBeatmapEventKeywords;
 
   /// @brief Field _beatmapObjectsInTimeRowProcessor, offset 0x60, size 0x8
-  __declspec(property(get = __get__beatmapObjectsInTimeRowProcessor,
-                      put = __set__beatmapObjectsInTimeRowProcessor))::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* _beatmapObjectsInTimeRowProcessor;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectsInTimeRowProcessor,
+                      put = __cordl_internal_set__beatmapObjectsInTimeRowProcessor))::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* _beatmapObjectsInTimeRowProcessor;
 
   /// @brief Field _prevAddedBeatmapObjectDataTime, offset 0x68, size 0x4
-  __declspec(property(get = __get__prevAddedBeatmapObjectDataTime, put = __set__prevAddedBeatmapObjectDataTime)) float_t _prevAddedBeatmapObjectDataTime;
+  __declspec(property(get = __cordl_internal_get__prevAddedBeatmapObjectDataTime, put = __cordl_internal_set__prevAddedBeatmapObjectDataTime)) float_t _prevAddedBeatmapObjectDataTime;
 
   /// @brief Field _isCreatingFilteredCopy, offset 0x6c, size 0x1
-  __declspec(property(get = __get__isCreatingFilteredCopy, put = __set__isCreatingFilteredCopy)) bool _isCreatingFilteredCopy;
+  __declspec(property(get = __cordl_internal_get__isCreatingFilteredCopy, put = __cordl_internal_set__isCreatingFilteredCopy)) bool _isCreatingFilteredCopy;
 
   __declspec(property(get = get_updateAllBeatmapDataOnInsert, put = set_updateAllBeatmapDataOnInsert)) bool updateAllBeatmapDataOnInsert;
 
@@ -281,106 +283,108 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataBasicInfo"
   constexpr ::GlobalNamespace::IBeatmapDataBasicInfo* i___GlobalNamespace__IBeatmapDataBasicInfo() noexcept;
 
-  constexpr bool& __get__updateAllBeatmapDataOnInsert_k__BackingField();
+  constexpr bool& __cordl_internal_get__updateAllBeatmapDataOnInsert_k__BackingField();
 
-  constexpr bool const& __get__updateAllBeatmapDataOnInsert_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__updateAllBeatmapDataOnInsert_k__BackingField() const;
 
-  constexpr void __set__updateAllBeatmapDataOnInsert_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__updateAllBeatmapDataOnInsert_k__BackingField(bool value);
 
-  constexpr int32_t& __get__cuttableNotesCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__cuttableNotesCount_k__BackingField();
 
-  constexpr int32_t const& __get__cuttableNotesCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__cuttableNotesCount_k__BackingField() const;
 
-  constexpr void __set__cuttableNotesCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__cuttableNotesCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__obstaclesCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__obstaclesCount_k__BackingField();
 
-  constexpr int32_t const& __get__obstaclesCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__obstaclesCount_k__BackingField() const;
 
-  constexpr void __set__obstaclesCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__bombsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__bombsCount_k__BackingField();
 
-  constexpr int32_t const& __get__bombsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__bombsCount_k__BackingField() const;
 
-  constexpr void __set__bombsCount_k__BackingField(int32_t value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*& __get_beatmapEventDataWasInsertedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*> const&
-  __get_beatmapEventDataWasInsertedEvent() const;
-
-  constexpr void
-  __set_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
+  constexpr void __cordl_internal_set__bombsCount_k__BackingField(int32_t value);
 
   constexpr ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*&
-  __get_beatmapEventDataWillBeRemovedEvent();
+  __cordl_internal_get_beatmapEventDataWasInsertedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*> const&
-  __get_beatmapEventDataWillBeRemovedEvent() const;
+  __cordl_internal_get_beatmapEventDataWasInsertedEvent() const;
 
-  constexpr void
-  __set_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
+  constexpr void __cordl_internal_set_beatmapEventDataWasInsertedEvent(
+      ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::BeatmapEventData*>*& __get_beatmapEventDataWasRemovedEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*&
+  __cordl_internal_get_beatmapEventDataWillBeRemovedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapEventData*>*> const& __get_beatmapEventDataWasRemovedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<
+      ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*> const&
+  __cordl_internal_get_beatmapEventDataWillBeRemovedEvent() const;
 
-  constexpr void __set_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
+  constexpr void __cordl_internal_set_beatmapEventDataWillBeRemovedEvent(
+      ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  constexpr ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*& __get__allBeatmapData();
+  constexpr ::System::Action_1<::GlobalNamespace::BeatmapEventData*>*& __cordl_internal_get_beatmapEventDataWasRemovedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*> const& __get__allBeatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapEventData*>*> const& __cordl_internal_get_beatmapEventDataWasRemovedEvent() const;
 
-  constexpr void __set__allBeatmapData(::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* value);
+  constexpr void __cordl_internal_set_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
+
+  constexpr ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get__allBeatmapData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*> const& __cordl_internal_get__allBeatmapData() const;
+
+  constexpr void __cordl_internal_set__allBeatmapData(::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapDataItem*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*&
-  __get__allBeatmapDataItemToNodeMap();
+  __cordl_internal_get__allBeatmapDataItemToNodeMap();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapDataItem*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*> const&
-  __get__allBeatmapDataItemToNodeMap() const;
+  __cordl_internal_get__allBeatmapDataItemToNodeMap() const;
 
-  constexpr void __set__allBeatmapDataItemToNodeMap(
+  constexpr void __cordl_internal_set__allBeatmapDataItemToNodeMap(
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapDataItem*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>*& __get__beatmapDataItemsPerTypeAndId();
+  constexpr ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get__beatmapDataItemsPerTypeAndId();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>*> const& __get__beatmapDataItemsPerTypeAndId() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>*> const&
+  __cordl_internal_get__beatmapDataItemsPerTypeAndId() const;
 
-  constexpr void __set__beatmapDataItemsPerTypeAndId(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>* value);
+  constexpr void __cordl_internal_set__beatmapDataItemsPerTypeAndId(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
-  constexpr int32_t& __get__numberOfLines();
+  constexpr int32_t& __cordl_internal_get__numberOfLines();
 
-  constexpr int32_t const& __get__numberOfLines() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfLines() const;
 
-  constexpr void __set__numberOfLines(int32_t value);
+  constexpr void __cordl_internal_set__numberOfLines(int32_t value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__specialBasicBeatmapEventKeywords();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__specialBasicBeatmapEventKeywords();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__specialBasicBeatmapEventKeywords() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__specialBasicBeatmapEventKeywords() const;
 
-  constexpr void __set__specialBasicBeatmapEventKeywords(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__specialBasicBeatmapEventKeywords(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*& __get__beatmapObjectsInTimeRowProcessor();
+  constexpr ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*& __cordl_internal_get__beatmapObjectsInTimeRowProcessor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*> const& __get__beatmapObjectsInTimeRowProcessor() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*> const& __cordl_internal_get__beatmapObjectsInTimeRowProcessor() const;
 
-  constexpr void __set__beatmapObjectsInTimeRowProcessor(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* value);
+  constexpr void __cordl_internal_set__beatmapObjectsInTimeRowProcessor(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* value);
 
-  constexpr float_t& __get__prevAddedBeatmapObjectDataTime();
+  constexpr float_t& __cordl_internal_get__prevAddedBeatmapObjectDataTime();
 
-  constexpr float_t const& __get__prevAddedBeatmapObjectDataTime() const;
+  constexpr float_t const& __cordl_internal_get__prevAddedBeatmapObjectDataTime() const;
 
-  constexpr void __set__prevAddedBeatmapObjectDataTime(float_t value);
+  constexpr void __cordl_internal_set__prevAddedBeatmapObjectDataTime(float_t value);
 
-  constexpr bool& __get__isCreatingFilteredCopy();
+  constexpr bool& __cordl_internal_get__isCreatingFilteredCopy();
 
-  constexpr bool const& __get__isCreatingFilteredCopy() const;
+  constexpr bool const& __cordl_internal_get__isCreatingFilteredCopy() const;
 
-  constexpr void __set__isCreatingFilteredCopy(bool value);
+  constexpr void __cordl_internal_set__isCreatingFilteredCopy(bool value);
 
   /// @brief Method get_updateAllBeatmapDataOnInsert, addr 0x232d3d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_updateAllBeatmapDataOnInsert();

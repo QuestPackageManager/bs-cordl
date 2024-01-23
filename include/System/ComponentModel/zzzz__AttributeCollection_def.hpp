@@ -48,7 +48,7 @@ MARK_VAL_T(::System::ComponentModel::__AttributeCollection__AttributeEntry);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9404))
 // CS Name: ::AttributeCollection::AttributeEntry
 struct CORDL_TYPE __AttributeCollection__AttributeEntry {
@@ -84,7 +84,7 @@ static_assert(offsetof(::System::ComponentModel::__AttributeCollection__Attribut
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9405))
 // CS Name: ::System.ComponentModel::AttributeCollection*
 class CORDL_TYPE AttributeCollection : public ::System::Object {
@@ -93,14 +93,15 @@ public:
   using AttributeEntry = ::System::ComponentModel::__AttributeCollection__AttributeEntry;
 
   /// @brief Field _attributes, offset 0x10, size 0x8
-  __declspec(property(get = __get__attributes, put = __set__attributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> _attributes;
+  __declspec(property(get = __cordl_internal_get__attributes, put = __cordl_internal_set__attributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> _attributes;
 
   /// @brief Field _foundAttributeTypes, offset 0x18, size 0x8
-  __declspec(property(get = __get__foundAttributeTypes, put = __set__foundAttributeTypes))::ArrayW<::System::ComponentModel::__AttributeCollection__AttributeEntry,
-                                                                                                   ::Array<::System::ComponentModel::__AttributeCollection__AttributeEntry>*> _foundAttributeTypes;
+  __declspec(property(get = __cordl_internal_get__foundAttributeTypes,
+                      put = __cordl_internal_set__foundAttributeTypes))::ArrayW<::System::ComponentModel::__AttributeCollection__AttributeEntry,
+                                                                                ::Array<::System::ComponentModel::__AttributeCollection__AttributeEntry>*> _foundAttributeTypes;
 
   /// @brief Field _index, offset 0x20, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::ComponentModel::AttributeCollection* Empty;
@@ -135,24 +136,26 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __get__attributes();
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __cordl_internal_get__attributes();
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __get__attributes() const;
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __cordl_internal_get__attributes() const;
 
-  constexpr void __set__attributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
+  constexpr void __cordl_internal_set__attributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  constexpr ::ArrayW<::System::ComponentModel::__AttributeCollection__AttributeEntry, ::Array<::System::ComponentModel::__AttributeCollection__AttributeEntry>*>& __get__foundAttributeTypes();
+  constexpr ::ArrayW<::System::ComponentModel::__AttributeCollection__AttributeEntry, ::Array<::System::ComponentModel::__AttributeCollection__AttributeEntry>*>&
+  __cordl_internal_get__foundAttributeTypes();
 
   constexpr ::ArrayW<::System::ComponentModel::__AttributeCollection__AttributeEntry, ::Array<::System::ComponentModel::__AttributeCollection__AttributeEntry>*> const&
-  __get__foundAttributeTypes() const;
+  __cordl_internal_get__foundAttributeTypes() const;
 
-  constexpr void __set__foundAttributeTypes(::ArrayW<::System::ComponentModel::__AttributeCollection__AttributeEntry, ::Array<::System::ComponentModel::__AttributeCollection__AttributeEntry>*> value);
+  constexpr void
+  __cordl_internal_set__foundAttributeTypes(::ArrayW<::System::ComponentModel::__AttributeCollection__AttributeEntry, ::Array<::System::ComponentModel::__AttributeCollection__AttributeEntry>*> value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline void setStaticF_Empty(::System::ComponentModel::AttributeCollection* value);
 

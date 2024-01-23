@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputNode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9641))
 // CS Name: ::HEU_InputNode::InputNodeType
 struct CORDL_TYPE __HEU_InputNode__InputNodeType {
@@ -131,7 +131,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InputNodeType, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9642))
 // CS Name: ::HEU_InputNode::InputObjectType
 struct CORDL_TYPE __HEU_InputNode__InputObjectType {
@@ -197,7 +197,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType, v
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9643))
 // CS Name: ::HEU_InputNode::InternalObjectType
 struct CORDL_TYPE __HEU_InputNode__InternalObjectType {
@@ -251,7 +251,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9644))
 // CS Name: ::HEU_InputNode::InputActions
 struct CORDL_TYPE __HEU_InputNode__InputActions {
@@ -305,7 +305,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InputActions, valu
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9641)), TypeDefinitionIndex(TypeDefinitionIndex(9642)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9641)), TypeDefinitionIndex(TypeDefinitionIndex(9642)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9645))
 // CS Name: ::HoudiniEngineUnity::HEU_InputNode*
 class CORDL_TYPE HEU_InputNode : public ::UnityEngine::ScriptableObject {
@@ -320,67 +320,71 @@ public:
   using InputNodeType = ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType;
 
   /// @brief Field _inputNodeType, offset 0x18, size 0x4
-  __declspec(property(get = __get__inputNodeType, put = __set__inputNodeType))::HoudiniEngineUnity::__HEU_InputNode__InputNodeType _inputNodeType;
+  __declspec(property(get = __cordl_internal_get__inputNodeType, put = __cordl_internal_set__inputNodeType))::HoudiniEngineUnity::__HEU_InputNode__InputNodeType _inputNodeType;
 
   /// @brief Field _inputObjectType, offset 0x1c, size 0x4
-  __declspec(property(get = __get__inputObjectType, put = __set__inputObjectType))::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _inputObjectType;
+  __declspec(property(get = __cordl_internal_get__inputObjectType, put = __cordl_internal_set__inputObjectType))::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _inputObjectType;
 
   /// @brief Field _pendingInputObjectType, offset 0x20, size 0x4
-  __declspec(property(get = __get__pendingInputObjectType, put = __set__pendingInputObjectType))::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _pendingInputObjectType;
+  __declspec(property(get = __cordl_internal_get__pendingInputObjectType,
+                      put = __cordl_internal_set__pendingInputObjectType))::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _pendingInputObjectType;
 
   /// @brief Field _inputObjects, offset 0x28, size 0x8
-  __declspec(property(get = __get__inputObjects, put = __set__inputObjects))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* _inputObjects;
+  __declspec(property(get = __cordl_internal_get__inputObjects,
+                      put = __cordl_internal_set__inputObjects))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* _inputObjects;
 
   /// @brief Field _inputObjectsConnectedAssetIDs, offset 0x30, size 0x8
-  __declspec(property(get = __get__inputObjectsConnectedAssetIDs, put = __set__inputObjectsConnectedAssetIDs))::System::Collections::Generic::List_1<int32_t>* _inputObjectsConnectedAssetIDs;
+  __declspec(property(get = __cordl_internal_get__inputObjectsConnectedAssetIDs,
+                      put = __cordl_internal_set__inputObjectsConnectedAssetIDs))::System::Collections::Generic::List_1<int32_t>* _inputObjectsConnectedAssetIDs;
 
   /// @brief Field _inputAsset, offset 0x38, size 0x8
-  __declspec(property(get = __get__inputAsset, put = __set__inputAsset))::UnityEngine::GameObject* _inputAsset;
+  __declspec(property(get = __cordl_internal_get__inputAsset, put = __cordl_internal_set__inputAsset))::UnityW<::UnityEngine::GameObject> _inputAsset;
 
   /// @brief Field _connectedInputAsset, offset 0x40, size 0x8
-  __declspec(property(get = __get__connectedInputAsset, put = __set__connectedInputAsset))::UnityEngine::GameObject* _connectedInputAsset;
+  __declspec(property(get = __cordl_internal_get__connectedInputAsset, put = __cordl_internal_set__connectedInputAsset))::UnityW<::UnityEngine::GameObject> _connectedInputAsset;
 
   /// @brief Field _inputAssetInfos, offset 0x48, size 0x8
-  __declspec(property(get = __get__inputAssetInfos, put = __set__inputAssetInfos))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* _inputAssetInfos;
+  __declspec(property(get = __cordl_internal_get__inputAssetInfos,
+                      put = __cordl_internal_set__inputAssetInfos))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* _inputAssetInfos;
 
   /// @brief Field _nodeID, offset 0x50, size 0x4
-  __declspec(property(get = __get__nodeID, put = __set__nodeID)) int32_t _nodeID;
+  __declspec(property(get = __cordl_internal_get__nodeID, put = __cordl_internal_set__nodeID)) int32_t _nodeID;
 
   /// @brief Field _inputIndex, offset 0x54, size 0x4
-  __declspec(property(get = __get__inputIndex, put = __set__inputIndex)) int32_t _inputIndex;
+  __declspec(property(get = __cordl_internal_get__inputIndex, put = __cordl_internal_set__inputIndex)) int32_t _inputIndex;
 
   /// @brief Field _requiresCook, offset 0x58, size 0x1
-  __declspec(property(get = __get__requiresCook, put = __set__requiresCook)) bool _requiresCook;
+  __declspec(property(get = __cordl_internal_get__requiresCook, put = __cordl_internal_set__requiresCook)) bool _requiresCook;
 
   /// @brief Field _requiresUpload, offset 0x59, size 0x1
-  __declspec(property(get = __get__requiresUpload, put = __set__requiresUpload)) bool _requiresUpload;
+  __declspec(property(get = __cordl_internal_get__requiresUpload, put = __cordl_internal_set__requiresUpload)) bool _requiresUpload;
 
   /// @brief Field _inputName, offset 0x60, size 0x8
-  __declspec(property(get = __get__inputName, put = __set__inputName))::StringW _inputName;
+  __declspec(property(get = __cordl_internal_get__inputName, put = __cordl_internal_set__inputName))::StringW _inputName;
 
   /// @brief Field _labelName, offset 0x68, size 0x8
-  __declspec(property(get = __get__labelName, put = __set__labelName))::StringW _labelName;
+  __declspec(property(get = __cordl_internal_get__labelName, put = __cordl_internal_set__labelName))::StringW _labelName;
 
   /// @brief Field _paramName, offset 0x70, size 0x8
-  __declspec(property(get = __get__paramName, put = __set__paramName))::StringW _paramName;
+  __declspec(property(get = __cordl_internal_get__paramName, put = __cordl_internal_set__paramName))::StringW _paramName;
 
   /// @brief Field _connectedNodeID, offset 0x78, size 0x4
-  __declspec(property(get = __get__connectedNodeID, put = __set__connectedNodeID)) int32_t _connectedNodeID;
+  __declspec(property(get = __cordl_internal_get__connectedNodeID, put = __cordl_internal_set__connectedNodeID)) int32_t _connectedNodeID;
 
   /// @brief Field _keepWorldTransform, offset 0x7c, size 0x1
-  __declspec(property(get = __get__keepWorldTransform, put = __set__keepWorldTransform)) bool _keepWorldTransform;
+  __declspec(property(get = __cordl_internal_get__keepWorldTransform, put = __cordl_internal_set__keepWorldTransform)) bool _keepWorldTransform;
 
   /// @brief Field _packGeometryBeforeMerging, offset 0x7d, size 0x1
-  __declspec(property(get = __get__packGeometryBeforeMerging, put = __set__packGeometryBeforeMerging)) bool _packGeometryBeforeMerging;
+  __declspec(property(get = __cordl_internal_get__packGeometryBeforeMerging, put = __cordl_internal_set__packGeometryBeforeMerging)) bool _packGeometryBeforeMerging;
 
   /// @brief Field _parentAsset, offset 0x80, size 0x8
-  __declspec(property(get = __get__parentAsset, put = __set__parentAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* _parentAsset;
+  __declspec(property(get = __cordl_internal_get__parentAsset, put = __cordl_internal_set__parentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _parentAsset;
 
   /// @brief Field _tilemapSettings, offset 0x88, size 0x8
-  __declspec(property(get = __get__tilemapSettings, put = __set__tilemapSettings))::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* _tilemapSettings;
+  __declspec(property(get = __cordl_internal_get__tilemapSettings, put = __cordl_internal_set__tilemapSettings))::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* _tilemapSettings;
 
   /// @brief Field _uiCache, offset 0x90, size 0x8
-  __declspec(property(get = __get__uiCache, put = __set__uiCache))::HoudiniEngineUnity::HEU_InputNodeUICache* _uiCache;
+  __declspec(property(get = __cordl_internal_get__uiCache, put = __cordl_internal_set__uiCache))::HoudiniEngineUnity::HEU_InputNodeUICache* _uiCache;
 
   __declspec(property(get = get_InputType))::HoudiniEngineUnity::__HEU_InputNode__InputNodeType InputType;
 
@@ -406,141 +410,141 @@ public:
 
   __declspec(property(get = get_PackGeometryBeforeMerging, put = set_PackGeometryBeforeMerging)) bool PackGeometryBeforeMerging;
 
-  __declspec(property(get = get_ParentAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* ParentAsset;
+  __declspec(property(get = get_ParentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ParentAsset;
 
   __declspec(property(get = get_TilemapSettings))::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* TilemapSettings;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InputNode__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InputNode__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType& __get__inputNodeType();
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType& __cordl_internal_get__inputNodeType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType const& __get__inputNodeType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType const& __cordl_internal_get__inputNodeType() const;
 
-  constexpr void __set__inputNodeType(::HoudiniEngineUnity::__HEU_InputNode__InputNodeType value);
+  constexpr void __cordl_internal_set__inputNodeType(::HoudiniEngineUnity::__HEU_InputNode__InputNodeType value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __get__inputObjectType();
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __cordl_internal_get__inputObjectType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __get__inputObjectType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __cordl_internal_get__inputObjectType() const;
 
-  constexpr void __set__inputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
+  constexpr void __cordl_internal_set__inputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __get__pendingInputObjectType();
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __cordl_internal_get__pendingInputObjectType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __get__pendingInputObjectType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __cordl_internal_get__pendingInputObjectType() const;
 
-  constexpr void __set__pendingInputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
+  constexpr void __cordl_internal_set__pendingInputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*& __get__inputObjects();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*& __cordl_internal_get__inputObjects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*> const& __get__inputObjects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*> const& __cordl_internal_get__inputObjects() const;
 
-  constexpr void __set__inputObjects(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* value);
+  constexpr void __cordl_internal_set__inputObjects(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get__inputObjectsConnectedAssetIDs();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__inputObjectsConnectedAssetIDs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get__inputObjectsConnectedAssetIDs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__inputObjectsConnectedAssetIDs() const;
 
-  constexpr void __set__inputObjectsConnectedAssetIDs(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set__inputObjectsConnectedAssetIDs(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::UnityEngine::GameObject*& __get__inputAsset();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__inputAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__inputAsset() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__inputAsset() const;
 
-  constexpr void __set__inputAsset(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__inputAsset(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__connectedInputAsset();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectedInputAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__connectedInputAsset() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectedInputAsset() const;
 
-  constexpr void __set__connectedInputAsset(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__connectedInputAsset(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*& __get__inputAssetInfos();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*& __cordl_internal_get__inputAssetInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*> const& __get__inputAssetInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*> const& __cordl_internal_get__inputAssetInfos() const;
 
-  constexpr void __set__inputAssetInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* value);
+  constexpr void __cordl_internal_set__inputAssetInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* value);
 
-  constexpr int32_t& __get__nodeID();
+  constexpr int32_t& __cordl_internal_get__nodeID();
 
-  constexpr int32_t const& __get__nodeID() const;
+  constexpr int32_t const& __cordl_internal_get__nodeID() const;
 
-  constexpr void __set__nodeID(int32_t value);
+  constexpr void __cordl_internal_set__nodeID(int32_t value);
 
-  constexpr int32_t& __get__inputIndex();
+  constexpr int32_t& __cordl_internal_get__inputIndex();
 
-  constexpr int32_t const& __get__inputIndex() const;
+  constexpr int32_t const& __cordl_internal_get__inputIndex() const;
 
-  constexpr void __set__inputIndex(int32_t value);
+  constexpr void __cordl_internal_set__inputIndex(int32_t value);
 
-  constexpr bool& __get__requiresCook();
+  constexpr bool& __cordl_internal_get__requiresCook();
 
-  constexpr bool const& __get__requiresCook() const;
+  constexpr bool const& __cordl_internal_get__requiresCook() const;
 
-  constexpr void __set__requiresCook(bool value);
+  constexpr void __cordl_internal_set__requiresCook(bool value);
 
-  constexpr bool& __get__requiresUpload();
+  constexpr bool& __cordl_internal_get__requiresUpload();
 
-  constexpr bool const& __get__requiresUpload() const;
+  constexpr bool const& __cordl_internal_get__requiresUpload() const;
 
-  constexpr void __set__requiresUpload(bool value);
+  constexpr void __cordl_internal_set__requiresUpload(bool value);
 
-  constexpr ::StringW& __get__inputName();
+  constexpr ::StringW& __cordl_internal_get__inputName();
 
-  constexpr ::StringW const& __get__inputName() const;
+  constexpr ::StringW const& __cordl_internal_get__inputName() const;
 
-  constexpr void __set__inputName(::StringW value);
+  constexpr void __cordl_internal_set__inputName(::StringW value);
 
-  constexpr ::StringW& __get__labelName();
+  constexpr ::StringW& __cordl_internal_get__labelName();
 
-  constexpr ::StringW const& __get__labelName() const;
+  constexpr ::StringW const& __cordl_internal_get__labelName() const;
 
-  constexpr void __set__labelName(::StringW value);
+  constexpr void __cordl_internal_set__labelName(::StringW value);
 
-  constexpr ::StringW& __get__paramName();
+  constexpr ::StringW& __cordl_internal_get__paramName();
 
-  constexpr ::StringW const& __get__paramName() const;
+  constexpr ::StringW const& __cordl_internal_get__paramName() const;
 
-  constexpr void __set__paramName(::StringW value);
+  constexpr void __cordl_internal_set__paramName(::StringW value);
 
-  constexpr int32_t& __get__connectedNodeID();
+  constexpr int32_t& __cordl_internal_get__connectedNodeID();
 
-  constexpr int32_t const& __get__connectedNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__connectedNodeID() const;
 
-  constexpr void __set__connectedNodeID(int32_t value);
+  constexpr void __cordl_internal_set__connectedNodeID(int32_t value);
 
-  constexpr bool& __get__keepWorldTransform();
+  constexpr bool& __cordl_internal_get__keepWorldTransform();
 
-  constexpr bool const& __get__keepWorldTransform() const;
+  constexpr bool const& __cordl_internal_get__keepWorldTransform() const;
 
-  constexpr void __set__keepWorldTransform(bool value);
+  constexpr void __cordl_internal_set__keepWorldTransform(bool value);
 
-  constexpr bool& __get__packGeometryBeforeMerging();
+  constexpr bool& __cordl_internal_get__packGeometryBeforeMerging();
 
-  constexpr bool const& __get__packGeometryBeforeMerging() const;
+  constexpr bool const& __cordl_internal_get__packGeometryBeforeMerging() const;
 
-  constexpr void __set__packGeometryBeforeMerging(bool value);
+  constexpr void __cordl_internal_set__packGeometryBeforeMerging(bool value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& __get__parentAsset();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__parentAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& __get__parentAsset() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__parentAsset() const;
 
-  constexpr void __set__parentAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* value);
+  constexpr void __cordl_internal_set__parentAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& __get__tilemapSettings();
+  constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& __cordl_internal_get__tilemapSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*> const& __get__tilemapSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*> const& __cordl_internal_get__tilemapSettings() const;
 
-  constexpr void __set__tilemapSettings(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* value);
+  constexpr void __cordl_internal_set__tilemapSettings(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_InputNodeUICache*& __get__uiCache();
+  constexpr ::HoudiniEngineUnity::HEU_InputNodeUICache*& __cordl_internal_get__uiCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputNodeUICache*> const& __get__uiCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputNodeUICache*> const& __cordl_internal_get__uiCache() const;
 
-  constexpr void __set__uiCache(::HoudiniEngineUnity::HEU_InputNodeUICache* value);
+  constexpr void __cordl_internal_set__uiCache(::HoudiniEngineUnity::HEU_InputNodeUICache* value);
 
   /// @brief Method get_InputType, addr 0x216d914, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType get_InputType();
@@ -597,7 +601,7 @@ public:
   inline void set_PackGeometryBeforeMerging(bool value);
 
   /// @brief Method get_ParentAsset, addr 0x216d9b4, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
+  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
   /// @brief Method IsAssetInput, addr 0x216d9bc, size 0x10, virtual false, abstract: false, final false
   inline bool IsAssetInput();
@@ -606,8 +610,8 @@ public:
   inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* get_TilemapSettings();
 
   /// @brief Method CreateSetupInput, addr 0x216d9d4, size 0x90, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(int32_t nodeID, int32_t inputIndex, ::StringW inputName, ::StringW labelName,
-                                                                      ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> CreateSetupInput(int32_t nodeID, int32_t inputIndex, ::StringW inputName, ::StringW labelName,
+                                                                               ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
   /// @brief Method SetInputNodeID, addr 0x216da64, size 0x8, virtual false, abstract: false, final false
   inline void SetInputNodeID(int32_t nodeID);
@@ -625,7 +629,7 @@ public:
   inline void InsertInputEntry(int32_t index, ::UnityEngine::GameObject* newInputGameObject);
 
   /// @brief Method GetInputEntryGameObject, addr 0x216e270, size 0x23c, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* GetInputEntryGameObject(int32_t index);
+  inline ::UnityW<::UnityEngine::GameObject> GetInputEntryGameObject(int32_t index);
 
   /// @brief Method AddInputEntryAtEnd, addr 0x216e4ac, size 0x8c, virtual false, abstract: false, final false
   inline void AddInputEntryAtEnd(::UnityEngine::GameObject* newEntryGameObject);
@@ -770,10 +774,10 @@ public:
   ::System::Collections::Generic::List_1<int32_t>* ____inputObjectsConnectedAssetIDs;
 
   /// @brief Field _inputAsset, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____inputAsset;
+  ::UnityW<::UnityEngine::GameObject> ____inputAsset;
 
   /// @brief Field _connectedInputAsset, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____connectedInputAsset;
+  ::UnityW<::UnityEngine::GameObject> ____connectedInputAsset;
 
   /// @brief Field _inputAssetInfos, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* ____inputAssetInfos;
@@ -809,7 +813,7 @@ public:
   bool ____packGeometryBeforeMerging;
 
   /// @brief Field _parentAsset, offset: 0x80, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_HoudiniAsset* ____parentAsset;
+  ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____parentAsset;
 
   /// @brief Field _tilemapSettings, offset: 0x88, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* ____tilemapSettings;

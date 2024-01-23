@@ -125,9 +125,9 @@ MARK_VAL_T(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
 struct CORDL_TYPE __CryptoStream___ReadAsyncInternal_d__37 {
 public:
   // Declarations
@@ -222,9 +222,9 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS
-// Name: ::CryptoStream::<ReadAsyncCore>d__42
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS Name: ::CryptoStream::<ReadAsyncCore>d__42
 struct CORDL_TYPE __CryptoStream___ReadAsyncCore_d__42 {
 public:
   // Declarations
@@ -342,8 +342,8 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
 struct CORDL_TYPE __CryptoStream___WriteAsyncInternal_d__46 {
 public:
   // Declarations
@@ -438,7 +438,7 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteA
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2911))
 // CS Name: ::CryptoStream::<WriteAsyncCore>d__49
 struct CORDL_TYPE __CryptoStream___WriteAsyncCore_d__49 {
@@ -557,7 +557,7 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteA
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2912))
 // CS Name: ::CryptoStream::<>c*
 class CORDL_TYPE __CryptoStream____c : public ::System::Object {
@@ -609,7 +609,7 @@ static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(2914))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2914)), TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2913))
 // CS Name: ::System.Security.Cryptography::CryptoStream*
 class CORDL_TYPE CryptoStream : public ::System::IO::Stream {
@@ -626,46 +626,46 @@ public:
   using _ReadAsyncInternal_d__37 = ::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37;
 
   /// @brief Field _stream, offset 0x28, size 0x8
-  __declspec(property(get = __get__stream, put = __set__stream))::System::IO::Stream* _stream;
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
 
   /// @brief Field _transform, offset 0x30, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::System::Security::Cryptography::ICryptoTransform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::System::Security::Cryptography::ICryptoTransform* _transform;
 
   /// @brief Field _transformMode, offset 0x38, size 0x4
-  __declspec(property(get = __get__transformMode, put = __set__transformMode))::System::Security::Cryptography::CryptoStreamMode _transformMode;
+  __declspec(property(get = __cordl_internal_get__transformMode, put = __cordl_internal_set__transformMode))::System::Security::Cryptography::CryptoStreamMode _transformMode;
 
   /// @brief Field _inputBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __get__inputBuffer, put = __set__inputBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _inputBuffer;
+  __declspec(property(get = __cordl_internal_get__inputBuffer, put = __cordl_internal_set__inputBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _inputBuffer;
 
   /// @brief Field _inputBufferIndex, offset 0x48, size 0x4
-  __declspec(property(get = __get__inputBufferIndex, put = __set__inputBufferIndex)) int32_t _inputBufferIndex;
+  __declspec(property(get = __cordl_internal_get__inputBufferIndex, put = __cordl_internal_set__inputBufferIndex)) int32_t _inputBufferIndex;
 
   /// @brief Field _inputBlockSize, offset 0x4c, size 0x4
-  __declspec(property(get = __get__inputBlockSize, put = __set__inputBlockSize)) int32_t _inputBlockSize;
+  __declspec(property(get = __cordl_internal_get__inputBlockSize, put = __cordl_internal_set__inputBlockSize)) int32_t _inputBlockSize;
 
   /// @brief Field _outputBuffer, offset 0x50, size 0x8
-  __declspec(property(get = __get__outputBuffer, put = __set__outputBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _outputBuffer;
+  __declspec(property(get = __cordl_internal_get__outputBuffer, put = __cordl_internal_set__outputBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _outputBuffer;
 
   /// @brief Field _outputBufferIndex, offset 0x58, size 0x4
-  __declspec(property(get = __get__outputBufferIndex, put = __set__outputBufferIndex)) int32_t _outputBufferIndex;
+  __declspec(property(get = __cordl_internal_get__outputBufferIndex, put = __cordl_internal_set__outputBufferIndex)) int32_t _outputBufferIndex;
 
   /// @brief Field _outputBlockSize, offset 0x5c, size 0x4
-  __declspec(property(get = __get__outputBlockSize, put = __set__outputBlockSize)) int32_t _outputBlockSize;
+  __declspec(property(get = __cordl_internal_get__outputBlockSize, put = __cordl_internal_set__outputBlockSize)) int32_t _outputBlockSize;
 
   /// @brief Field _canRead, offset 0x60, size 0x1
-  __declspec(property(get = __get__canRead, put = __set__canRead)) bool _canRead;
+  __declspec(property(get = __cordl_internal_get__canRead, put = __cordl_internal_set__canRead)) bool _canRead;
 
   /// @brief Field _canWrite, offset 0x61, size 0x1
-  __declspec(property(get = __get__canWrite, put = __set__canWrite)) bool _canWrite;
+  __declspec(property(get = __cordl_internal_get__canWrite, put = __cordl_internal_set__canWrite)) bool _canWrite;
 
   /// @brief Field _finalBlockTransformed, offset 0x62, size 0x1
-  __declspec(property(get = __get__finalBlockTransformed, put = __set__finalBlockTransformed)) bool _finalBlockTransformed;
+  __declspec(property(get = __cordl_internal_get__finalBlockTransformed, put = __cordl_internal_set__finalBlockTransformed)) bool _finalBlockTransformed;
 
   /// @brief Field _lazyAsyncActiveSemaphore, offset 0x68, size 0x8
-  __declspec(property(get = __get__lazyAsyncActiveSemaphore, put = __set__lazyAsyncActiveSemaphore))::System::Threading::SemaphoreSlim* _lazyAsyncActiveSemaphore;
+  __declspec(property(get = __cordl_internal_get__lazyAsyncActiveSemaphore, put = __cordl_internal_set__lazyAsyncActiveSemaphore))::System::Threading::SemaphoreSlim* _lazyAsyncActiveSemaphore;
 
   /// @brief Field _leaveOpen, offset 0x70, size 0x1
-  __declspec(property(get = __get__leaveOpen, put = __set__leaveOpen)) bool _leaveOpen;
+  __declspec(property(get = __cordl_internal_get__leaveOpen, put = __cordl_internal_set__leaveOpen)) bool _leaveOpen;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -687,89 +687,89 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::IO::Stream*& __get__stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __set__stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  constexpr ::System::Security::Cryptography::ICryptoTransform*& __get__transform();
+  constexpr ::System::Security::Cryptography::ICryptoTransform*& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::ICryptoTransform*> const& __get__transform() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::ICryptoTransform*> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::System::Security::Cryptography::ICryptoTransform* value);
+  constexpr void __cordl_internal_set__transform(::System::Security::Cryptography::ICryptoTransform* value);
 
-  constexpr ::System::Security::Cryptography::CryptoStreamMode& __get__transformMode();
+  constexpr ::System::Security::Cryptography::CryptoStreamMode& __cordl_internal_get__transformMode();
 
-  constexpr ::System::Security::Cryptography::CryptoStreamMode const& __get__transformMode() const;
+  constexpr ::System::Security::Cryptography::CryptoStreamMode const& __cordl_internal_get__transformMode() const;
 
-  constexpr void __set__transformMode(::System::Security::Cryptography::CryptoStreamMode value);
+  constexpr void __cordl_internal_set__transformMode(::System::Security::Cryptography::CryptoStreamMode value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__inputBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__inputBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__inputBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__inputBuffer() const;
 
-  constexpr void __set__inputBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__inputBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__inputBufferIndex();
+  constexpr int32_t& __cordl_internal_get__inputBufferIndex();
 
-  constexpr int32_t const& __get__inputBufferIndex() const;
+  constexpr int32_t const& __cordl_internal_get__inputBufferIndex() const;
 
-  constexpr void __set__inputBufferIndex(int32_t value);
+  constexpr void __cordl_internal_set__inputBufferIndex(int32_t value);
 
-  constexpr int32_t& __get__inputBlockSize();
+  constexpr int32_t& __cordl_internal_get__inputBlockSize();
 
-  constexpr int32_t const& __get__inputBlockSize() const;
+  constexpr int32_t const& __cordl_internal_get__inputBlockSize() const;
 
-  constexpr void __set__inputBlockSize(int32_t value);
+  constexpr void __cordl_internal_set__inputBlockSize(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__outputBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__outputBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__outputBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__outputBuffer() const;
 
-  constexpr void __set__outputBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__outputBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__outputBufferIndex();
+  constexpr int32_t& __cordl_internal_get__outputBufferIndex();
 
-  constexpr int32_t const& __get__outputBufferIndex() const;
+  constexpr int32_t const& __cordl_internal_get__outputBufferIndex() const;
 
-  constexpr void __set__outputBufferIndex(int32_t value);
+  constexpr void __cordl_internal_set__outputBufferIndex(int32_t value);
 
-  constexpr int32_t& __get__outputBlockSize();
+  constexpr int32_t& __cordl_internal_get__outputBlockSize();
 
-  constexpr int32_t const& __get__outputBlockSize() const;
+  constexpr int32_t const& __cordl_internal_get__outputBlockSize() const;
 
-  constexpr void __set__outputBlockSize(int32_t value);
+  constexpr void __cordl_internal_set__outputBlockSize(int32_t value);
 
-  constexpr bool& __get__canRead();
+  constexpr bool& __cordl_internal_get__canRead();
 
-  constexpr bool const& __get__canRead() const;
+  constexpr bool const& __cordl_internal_get__canRead() const;
 
-  constexpr void __set__canRead(bool value);
+  constexpr void __cordl_internal_set__canRead(bool value);
 
-  constexpr bool& __get__canWrite();
+  constexpr bool& __cordl_internal_get__canWrite();
 
-  constexpr bool const& __get__canWrite() const;
+  constexpr bool const& __cordl_internal_get__canWrite() const;
 
-  constexpr void __set__canWrite(bool value);
+  constexpr void __cordl_internal_set__canWrite(bool value);
 
-  constexpr bool& __get__finalBlockTransformed();
+  constexpr bool& __cordl_internal_get__finalBlockTransformed();
 
-  constexpr bool const& __get__finalBlockTransformed() const;
+  constexpr bool const& __cordl_internal_get__finalBlockTransformed() const;
 
-  constexpr void __set__finalBlockTransformed(bool value);
+  constexpr void __cordl_internal_set__finalBlockTransformed(bool value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__lazyAsyncActiveSemaphore();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__lazyAsyncActiveSemaphore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__lazyAsyncActiveSemaphore() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__lazyAsyncActiveSemaphore() const;
 
-  constexpr void __set__lazyAsyncActiveSemaphore(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__lazyAsyncActiveSemaphore(::System::Threading::SemaphoreSlim* value);
 
-  constexpr bool& __get__leaveOpen();
+  constexpr bool& __cordl_internal_get__leaveOpen();
 
-  constexpr bool const& __get__leaveOpen() const;
+  constexpr bool const& __cordl_internal_get__leaveOpen() const;
 
-  constexpr void __set__leaveOpen(bool value);
+  constexpr void __cordl_internal_set__leaveOpen(bool value);
 
   static inline ::System::Security::Cryptography::CryptoStream* New_ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform,
                                                                          ::System::Security::Cryptography::CryptoStreamMode mode);

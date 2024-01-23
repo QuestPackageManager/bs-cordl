@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::ChainBuilderStats);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7388))
 // CS Name: ::UnityEngine.UIElements.UIR::ChainBuilderStats
 struct CORDL_TYPE ChainBuilderStats {

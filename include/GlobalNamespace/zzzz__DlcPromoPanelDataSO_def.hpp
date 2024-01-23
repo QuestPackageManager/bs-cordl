@@ -42,83 +42,83 @@ MARK_REF_PTR_T(::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5831))
 // CS Name: ::DlcPromoPanelDataSO::MusicPackPromoInfo*
 class CORDL_TYPE __DlcPromoPanelDataSO__MusicPackPromoInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapLevelPack, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevelPack, put = __set__beatmapLevelPack))::GlobalNamespace::PreviewBeatmapLevelPackSO* _beatmapLevelPack;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPack, put = __cordl_internal_set__beatmapLevelPack))::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> _beatmapLevelPack;
 
   /// @brief Field _beatmapLevel, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapLevel, put = __set__beatmapLevel))::GlobalNamespace::BeatmapLevelSO* _beatmapLevel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::UnityW<::GlobalNamespace::BeatmapLevelSO> _beatmapLevel;
 
   /// @brief Field _bannerImage, offset 0x20, size 0x8
-  __declspec(property(get = __get__bannerImage, put = __set__bannerImage))::UnityEngine::Sprite* _bannerImage;
+  __declspec(property(get = __cordl_internal_get__bannerImage, put = __cordl_internal_set__bannerImage))::UnityW<::UnityEngine::Sprite> _bannerImage;
 
   /// @brief Field _bannerPromoText, offset 0x28, size 0x8
-  __declspec(property(get = __get__bannerPromoText, put = __set__bannerPromoText))::StringW _bannerPromoText;
+  __declspec(property(get = __cordl_internal_get__bannerPromoText, put = __cordl_internal_set__bannerPromoText))::StringW _bannerPromoText;
 
   /// @brief Field _bannerPromoTextPosition, offset 0x30, size 0x4
-  __declspec(property(get = __get__bannerPromoTextPosition, put = __set__bannerPromoTextPosition)) float_t _bannerPromoTextPosition;
+  __declspec(property(get = __cordl_internal_get__bannerPromoTextPosition, put = __cordl_internal_set__bannerPromoTextPosition)) float_t _bannerPromoTextPosition;
 
   /// @brief Field _contentRating, offset 0x34, size 0x4
-  __declspec(property(get = __get__contentRating, put = __set__contentRating))::GlobalNamespace::PlayerSensitivityFlag _contentRating;
+  __declspec(property(get = __cordl_internal_get__contentRating, put = __cordl_internal_set__contentRating))::GlobalNamespace::PlayerSensitivityFlag _contentRating;
 
   __declspec(property(get = get_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
 
-  __declspec(property(get = get_bannerImage))::UnityEngine::Sprite* bannerImage;
+  __declspec(property(get = get_bannerImage))::UnityW<::UnityEngine::Sprite> bannerImage;
 
   __declspec(property(get = get_bannerPromoText))::StringW bannerPromoText;
 
   __declspec(property(get = get_bannerPromoTextPosition)) float_t bannerPromoTextPosition;
 
-  __declspec(property(get = get_beatmapLevelPack))::GlobalNamespace::PreviewBeatmapLevelPackSO* beatmapLevelPack;
+  __declspec(property(get = get_beatmapLevelPack))::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> beatmapLevelPack;
 
   __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
 
-  constexpr ::GlobalNamespace::PreviewBeatmapLevelPackSO*& __get__beatmapLevelPack();
+  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>& __cordl_internal_get__beatmapLevelPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelPackSO*> const& __get__beatmapLevelPack() const;
+  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> const& __cordl_internal_get__beatmapLevelPack() const;
 
-  constexpr void __set__beatmapLevelPack(::GlobalNamespace::PreviewBeatmapLevelPackSO* value);
+  constexpr void __cordl_internal_set__beatmapLevelPack(::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__beatmapLevel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& __get__beatmapLevel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __set__beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__beatmapLevel(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__bannerImage();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__bannerImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__bannerImage() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__bannerImage() const;
 
-  constexpr void __set__bannerImage(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__bannerImage(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::StringW& __get__bannerPromoText();
+  constexpr ::StringW& __cordl_internal_get__bannerPromoText();
 
-  constexpr ::StringW const& __get__bannerPromoText() const;
+  constexpr ::StringW const& __cordl_internal_get__bannerPromoText() const;
 
-  constexpr void __set__bannerPromoText(::StringW value);
+  constexpr void __cordl_internal_set__bannerPromoText(::StringW value);
 
-  constexpr float_t& __get__bannerPromoTextPosition();
+  constexpr float_t& __cordl_internal_get__bannerPromoTextPosition();
 
-  constexpr float_t const& __get__bannerPromoTextPosition() const;
+  constexpr float_t const& __cordl_internal_get__bannerPromoTextPosition() const;
 
-  constexpr void __set__bannerPromoTextPosition(float_t value);
+  constexpr void __cordl_internal_set__bannerPromoTextPosition(float_t value);
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __get__contentRating();
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get__contentRating();
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __get__contentRating() const;
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get__contentRating() const;
 
-  constexpr void __set__contentRating(::GlobalNamespace::PlayerSensitivityFlag value);
+  constexpr void __cordl_internal_set__contentRating(::GlobalNamespace::PlayerSensitivityFlag value);
 
   /// @brief Method get_previewBeatmapLevel, addr 0x22ed7e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
 
   /// @brief Method get_bannerImage, addr 0x22ed7f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_bannerImage();
+  inline ::UnityW<::UnityEngine::Sprite> get_bannerImage();
 
   /// @brief Method get_bannerPromoText, addr 0x22ed7f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_bannerPromoText();
@@ -127,7 +127,7 @@ public:
   inline float_t get_bannerPromoTextPosition();
 
   /// @brief Method get_beatmapLevelPack, addr 0x22ed808, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PreviewBeatmapLevelPackSO* get_beatmapLevelPack();
+  inline ::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> get_beatmapLevelPack();
 
   /// @brief Method get_contentRating, addr 0x22ed810, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
@@ -152,13 +152,13 @@ protected:
 
 public:
   /// @brief Field _beatmapLevelPack, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::PreviewBeatmapLevelPackSO* ____beatmapLevelPack;
+  ::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> ____beatmapLevelPack;
 
   /// @brief Field _beatmapLevel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelSO* ____beatmapLevel;
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____beatmapLevel;
 
   /// @brief Field _bannerImage, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____bannerImage;
+  ::UnityW<::UnityEngine::Sprite> ____bannerImage;
 
   /// @brief Field _bannerPromoText, offset: 0x28, size: 0x8, def value: None
   ::StringW ____bannerPromoText;
@@ -191,7 +191,7 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoI
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5832))
 // CS Name: ::DlcPromoPanelDataSO*
 class CORDL_TYPE DlcPromoPanelDataSO : public ::UnityEngine::ScriptableObject {
@@ -200,17 +200,18 @@ public:
   using MusicPackPromoInfo = ::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo;
 
   /// @brief Field _defaultMusicPackPromoIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get__defaultMusicPackPromoIndex, put = __set__defaultMusicPackPromoIndex)) int32_t _defaultMusicPackPromoIndex;
+  __declspec(property(get = __cordl_internal_get__defaultMusicPackPromoIndex, put = __cordl_internal_set__defaultMusicPackPromoIndex)) int32_t _defaultMusicPackPromoIndex;
 
   /// @brief Field _musicPackPromoInfos, offset 0x20, size 0x8
-  __declspec(property(get = __get__musicPackPromoInfos, put = __set__musicPackPromoInfos))::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*,
-                                                                                                   ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> _musicPackPromoInfos;
+  __declspec(property(get = __cordl_internal_get__musicPackPromoInfos,
+                      put = __cordl_internal_set__musicPackPromoInfos))::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*,
+                                                                                ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> _musicPackPromoInfos;
 
   /// @brief Field _cutOffTest, offset 0x28, size 0x4
-  __declspec(property(get = __get__cutOffTest, put = __set__cutOffTest)) int32_t _cutOffTest;
+  __declspec(property(get = __cordl_internal_get__cutOffTest, put = __cordl_internal_set__cutOffTest)) int32_t _cutOffTest;
 
   /// @brief Field _minNumberOfNotOwnedPacks, offset 0x2c, size 0x4
-  __declspec(property(get = __get__minNumberOfNotOwnedPacks, put = __set__minNumberOfNotOwnedPacks)) int32_t _minNumberOfNotOwnedPacks;
+  __declspec(property(get = __cordl_internal_get__minNumberOfNotOwnedPacks, put = __cordl_internal_set__minNumberOfNotOwnedPacks)) int32_t _minNumberOfNotOwnedPacks;
 
   __declspec(property(get = get_defaultMusicPackPromo))::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo* defaultMusicPackPromo;
 
@@ -221,29 +222,32 @@ public:
 
   __declspec(property(get = get_minNumberOfNotOwnedPacks)) int32_t minNumberOfNotOwnedPacks;
 
-  constexpr int32_t& __get__defaultMusicPackPromoIndex();
+  constexpr int32_t& __cordl_internal_get__defaultMusicPackPromoIndex();
 
-  constexpr int32_t const& __get__defaultMusicPackPromoIndex() const;
+  constexpr int32_t const& __cordl_internal_get__defaultMusicPackPromoIndex() const;
 
-  constexpr void __set__defaultMusicPackPromoIndex(int32_t value);
+  constexpr void __cordl_internal_set__defaultMusicPackPromoIndex(int32_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*>& __get__musicPackPromoInfos();
+  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*>&
+  __cordl_internal_get__musicPackPromoInfos();
 
-  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> const& __get__musicPackPromoInfos() const;
+  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> const&
+  __cordl_internal_get__musicPackPromoInfos() const;
 
-  constexpr void __set__musicPackPromoInfos(::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> value);
+  constexpr void
+  __cordl_internal_set__musicPackPromoInfos(::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> value);
 
-  constexpr int32_t& __get__cutOffTest();
+  constexpr int32_t& __cordl_internal_get__cutOffTest();
 
-  constexpr int32_t const& __get__cutOffTest() const;
+  constexpr int32_t const& __cordl_internal_get__cutOffTest() const;
 
-  constexpr void __set__cutOffTest(int32_t value);
+  constexpr void __cordl_internal_set__cutOffTest(int32_t value);
 
-  constexpr int32_t& __get__minNumberOfNotOwnedPacks();
+  constexpr int32_t& __cordl_internal_get__minNumberOfNotOwnedPacks();
 
-  constexpr int32_t const& __get__minNumberOfNotOwnedPacks() const;
+  constexpr int32_t const& __cordl_internal_get__minNumberOfNotOwnedPacks() const;
 
-  constexpr void __set__minNumberOfNotOwnedPacks(int32_t value);
+  constexpr void __cordl_internal_set__minNumberOfNotOwnedPacks(int32_t value);
 
   /// @brief Method get_defaultMusicPackPromo, addr 0x22ed78c, size 0x34, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo* get_defaultMusicPackPromo();

@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::System::Reflection::LocalVariableInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3516))
 // CS Name: ::System.Reflection::LocalVariableInfo*
 class CORDL_TYPE LocalVariableInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   /// @brief Field is_pinned, offset 0x18, size 0x1
-  __declspec(property(get = __get_is_pinned, put = __set_is_pinned)) bool is_pinned;
+  __declspec(property(get = __cordl_internal_get_is_pinned, put = __cordl_internal_set_is_pinned)) bool is_pinned;
 
   /// @brief Field position, offset 0x1a, size 0x2
-  __declspec(property(get = __get_position, put = __set_position)) uint16_t position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) uint16_t position;
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  constexpr bool& __get_is_pinned();
+  constexpr bool& __cordl_internal_get_is_pinned();
 
-  constexpr bool const& __get_is_pinned() const;
+  constexpr bool const& __cordl_internal_get_is_pinned() const;
 
-  constexpr void __set_is_pinned(bool value);
+  constexpr void __cordl_internal_set_is_pinned(bool value);
 
-  constexpr uint16_t& __get_position();
+  constexpr uint16_t& __cordl_internal_get_position();
 
-  constexpr uint16_t const& __get_position() const;
+  constexpr uint16_t const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(uint16_t value);
+  constexpr void __cordl_internal_set_position(uint16_t value);
 
   static inline ::System::Reflection::LocalVariableInfo* New_ctor();
 

@@ -36,14 +36,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::HashSet);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1782))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::HashSet*
 class CORDL_TYPE HashSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field impl, offset 0x10, size 0x8
-  __declspec(property(get = __get_impl, put = __set_impl))::System::Collections::IDictionary* impl;
+  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl))::System::Collections::IDictionary* impl;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -75,11 +75,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::IDictionary*& __get_impl();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_impl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_impl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_impl() const;
 
-  constexpr void __set_impl(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_impl(::System::Collections::IDictionary* value);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::HashSet* New_ctor();
 

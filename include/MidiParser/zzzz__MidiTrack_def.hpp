@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::MidiParser::MidiTrack);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16229))
 // CS Name: ::MidiParser::MidiTrack*
 class CORDL_TYPE MidiTrack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Index, offset 0x10, size 0x4
-  __declspec(property(get = __get_Index, put = __set_Index)) int32_t Index;
+  __declspec(property(get = __cordl_internal_get_Index, put = __cordl_internal_set_Index)) int32_t Index;
 
   /// @brief Field MidiEvents, offset 0x18, size 0x8
-  __declspec(property(get = __get_MidiEvents, put = __set_MidiEvents))::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* MidiEvents;
+  __declspec(property(get = __cordl_internal_get_MidiEvents, put = __cordl_internal_set_MidiEvents))::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* MidiEvents;
 
-  constexpr int32_t& __get_Index();
+  constexpr int32_t& __cordl_internal_get_Index();
 
-  constexpr int32_t const& __get_Index() const;
+  constexpr int32_t const& __cordl_internal_get_Index() const;
 
-  constexpr void __set_Index(int32_t value);
+  constexpr void __cordl_internal_set_Index(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& __get_MidiEvents();
+  constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& __cordl_internal_get_MidiEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*> const& __get_MidiEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*> const& __cordl_internal_get_MidiEvents() const;
 
-  constexpr void __set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value);
+  constexpr void __cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value);
 
   static inline ::MidiParser::MidiTrack* New_ctor();
 

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScreenBackButtonAnimationController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13498))
 // CS Name: ::ScreenBackButtonAnimationController::AnimationType
 struct CORDL_TYPE __ScreenBackButtonAnimationController__AnimationType {
@@ -95,7 +95,7 @@ static_assert(offsetof(::GlobalNamespace::__ScreenBackButtonAnimationController_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13499))
 // CS Name: ::ScreenBackButtonAnimationController*
 class CORDL_TYPE ScreenBackButtonAnimationController : public ::UnityEngine::MonoBehaviour {
@@ -104,24 +104,25 @@ public:
   using AnimationType = ::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType;
 
   /// @brief Field _animator, offset 0x18, size 0x8
-  __declspec(property(get = __get__animator, put = __set__animator))::UnityEngine::Animator* _animator;
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
   /// @brief Field _animationHashes, offset 0x20, size 0x8
-  __declspec(property(get = __get__animationHashes,
-                      put = __set__animationHashes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* _animationHashes;
+  __declspec(property(
+      get = __cordl_internal_get__animationHashes,
+      put = __cordl_internal_set__animationHashes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* _animationHashes;
 
-  constexpr ::UnityEngine::Animator*& __get__animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get__animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
-  constexpr void __set__animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>*& __get__animationHashes();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>*& __cordl_internal_get__animationHashes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>*> const&
-  __get__animationHashes() const;
+  __cordl_internal_get__animationHashes() const;
 
-  constexpr void __set__animationHashes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* value);
+  constexpr void __cordl_internal_set__animationHashes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* value);
 
   /// @brief Method Awake, addr 0x2115f54, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
@@ -149,7 +150,7 @@ protected:
 
 public:
   /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Animator* ____animator;
+  ::UnityW<::UnityEngine::Animator> ____animator;
 
   /// @brief Field _animationHashes, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* ____animationHashes;

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::ReasonFlags);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(34))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(34))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(379))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::ReasonFlags*
 class CORDL_TYPE ReasonFlags : public ::Org::BouncyCastle::Asn1::DerBitString {

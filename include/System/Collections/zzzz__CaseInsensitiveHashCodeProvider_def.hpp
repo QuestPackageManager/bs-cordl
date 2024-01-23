@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::System::Collections::CaseInsensitiveHashCodeProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3772))
 // CS Name: ::System.Collections::CaseInsensitiveHashCodeProvider*
 class CORDL_TYPE CaseInsensitiveHashCodeProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get__compareInfo, put = __set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
 
   /// @brief Convert operator to "::System::Collections::IHashCodeProvider"
   constexpr operator ::System::Collections::IHashCodeProvider*() noexcept;
@@ -42,11 +42,11 @@ public:
   /// @brief Convert to "::System::Collections::IHashCodeProvider"
   constexpr ::System::Collections::IHashCodeProvider* i___System__Collections__IHashCodeProvider() noexcept;
 
-  constexpr ::System::Globalization::CompareInfo*& __get__compareInfo();
+  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __get__compareInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
 
-  constexpr void __set__compareInfo(::System::Globalization::CompareInfo* value);
+  constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
   static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor();
 

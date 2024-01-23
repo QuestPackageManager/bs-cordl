@@ -24,20 +24,21 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::TransformUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12208))
 // CS Name: ::UnityEngine.ProBuilder::TransformUtility*
 class CORDL_TYPE TransformUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_ChildStack, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_s_ChildStack,
-      put = setStaticF_s_ChildStack))::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>* s_ChildStack;
+  static __declspec(property(get = getStaticF_s_ChildStack, put = setStaticF_s_ChildStack))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>* s_ChildStack;
 
-  static inline void setStaticF_s_ChildStack(::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>* value);
+  static inline void setStaticF_s_ChildStack(
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>* getStaticF_s_ChildStack();
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>*
+  getStaticF_s_ChildStack();
 
   /// @brief Method UnparentChildren, addr 0x2b7c2e4, size 0x150, virtual false, abstract: false, final false
   static inline void UnparentChildren(::UnityEngine::Transform* t);

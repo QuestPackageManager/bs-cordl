@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::__HttpRequestHeaders____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14678))
 // CS Name: ::HttpRequestHeaders::<>c*
 class CORDL_TYPE __HttpRequestHeaders____c : public ::System::Object {
@@ -111,15 +111,15 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Ht
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14679)) CS Name: ::System.Net.Http.Headers::HttpRequestHeaders*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(14677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14679)) CS Name: ::System.Net.Http.Headers::HttpRequestHeaders*
 class CORDL_TYPE HttpRequestHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations
   using __c = ::System::Net::Http::Headers::__HttpRequestHeaders____c;
 
   /// @brief Field expectContinue, offset 0x20, size 0x2
-  __declspec(property(get = __get_expectContinue, put = __set_expectContinue))::System::Nullable_1<bool> expectContinue;
+  __declspec(property(get = __cordl_internal_get_expectContinue, put = __cordl_internal_set_expectContinue))::System::Nullable_1<bool> expectContinue;
 
   __declspec(property(put = set_Authorization))::System::Net::Http::Headers::AuthenticationHeaderValue* Authorization;
 
@@ -135,11 +135,11 @@ public:
 
   __declspec(property(get = get_TransferEncodingChunked))::System::Nullable_1<bool> TransferEncodingChunked;
 
-  constexpr ::System::Nullable_1<bool>& __get_expectContinue();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get_expectContinue();
 
-  constexpr ::System::Nullable_1<bool> const& __get_expectContinue() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_expectContinue() const;
 
-  constexpr void __set_expectContinue(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set_expectContinue(::System::Nullable_1<bool> value);
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders* New_ctor();
 

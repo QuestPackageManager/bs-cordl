@@ -54,17 +54,17 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3815))
 // CS Name: ::System.Collections.ObjectModel::ReadOnlyCollection`1<T>*
 class CORDL_TYPE ReadOnlyCollection_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::Generic::IList_1<T>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::IList_1<T>* list;
 
   /// @brief Field _syncRoot, offset 0x18, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -132,17 +132,17 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
-  constexpr ::System::Collections::Generic::IList_1<T>*& __get_list();
+  constexpr ::System::Collections::Generic::IList_1<T>*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<T>*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<T>*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::Generic::IList_1<T>* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::Generic::IList_1<T>* value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* New_ctor(::System::Collections::Generic::IList_1<T>* list);
 

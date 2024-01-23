@@ -69,7 +69,7 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5027 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5027 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9209))
 // CS Name: ::WebCompletionSource`1::Status<T>
 struct CORDL_TYPE __WebCompletionSource_1__Status {
@@ -125,19 +125,20 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5026 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9210)) CS Name: ::WebCompletionSource`1::Result<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5026
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9210)) CS Name: ::WebCompletionSource`1::Result<T>*
 class CORDL_TYPE __WebCompletionSource_1__Result : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Status>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__Status_k__BackingField, put = __set__Status_k__BackingField))::System::Net::__WebCompletionSource_1__Status<T> _Status_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Status_k__BackingField, put = __cordl_internal_set__Status_k__BackingField))::System::Net::__WebCompletionSource_1__Status<T> _Status_k__BackingField;
 
   /// @brief Field <Error>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Error_k__BackingField, put = __set__Error_k__BackingField))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Error_k__BackingField,
+                      put = __cordl_internal_set__Error_k__BackingField))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField;
 
   /// @brief Field <Argument>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Argument_k__BackingField, put = __set__Argument_k__BackingField)) T _Argument_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Argument_k__BackingField, put = __cordl_internal_set__Argument_k__BackingField)) T _Argument_k__BackingField;
 
   __declspec(property(get = get_Status))::System::Net::__WebCompletionSource_1__Status<T> Status;
 
@@ -147,23 +148,23 @@ public:
 
   __declspec(property(get = get_Argument)) T Argument;
 
-  constexpr ::System::Net::__WebCompletionSource_1__Status<T>& __get__Status_k__BackingField();
+  constexpr ::System::Net::__WebCompletionSource_1__Status<T>& __cordl_internal_get__Status_k__BackingField();
 
-  constexpr ::System::Net::__WebCompletionSource_1__Status<T> const& __get__Status_k__BackingField() const;
+  constexpr ::System::Net::__WebCompletionSource_1__Status<T> const& __cordl_internal_get__Status_k__BackingField() const;
 
-  constexpr void __set__Status_k__BackingField(::System::Net::__WebCompletionSource_1__Status<T> value);
+  constexpr void __cordl_internal_set__Status_k__BackingField(::System::Net::__WebCompletionSource_1__Status<T> value);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __get__Error_k__BackingField();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__Error_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __get__Error_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get__Error_k__BackingField() const;
 
-  constexpr void __set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr void __cordl_internal_set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  constexpr T& __get__Argument_k__BackingField();
+  constexpr T& __cordl_internal_get__Argument_k__BackingField();
 
-  constexpr T const& __get__Argument_k__BackingField() const;
+  constexpr T const& __cordl_internal_get__Argument_k__BackingField() const;
 
-  constexpr void __set__Argument_k__BackingField(T value);
+  constexpr void __cordl_internal_set__Argument_k__BackingField(T value);
 
   /// @brief Method get_Status, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Net::__WebCompletionSource_1__Status<T> get_Status();
@@ -221,9 +222,10 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9210)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9210), inst: 101
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 101 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 1122 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9211)) CS Name: ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9210)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1122 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 101 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9210), inst: 101 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9211)) CS Name:
+// ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
 struct CORDL_TYPE __WebCompletionSource_1___WaitForCompletion_d__15 {
 public:
   // Declarations
@@ -276,7 +278,7 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9212))
 // CS Name: ::System.Net::WebCompletionSource`1<T>*
 class CORDL_TYPE WebCompletionSource_1 : public ::System::Object {
@@ -289,26 +291,27 @@ public:
   using Status = ::System::Net::__WebCompletionSource_1__Status<T>;
 
   /// @brief Field completion, offset 0x10, size 0x8
-  __declspec(property(get = __get_completion, put = __set_completion))::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>* completion;
+  __declspec(property(get = __cordl_internal_get_completion,
+                      put = __cordl_internal_set_completion))::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>* completion;
 
   /// @brief Field currentResult, offset 0x18, size 0x8
-  __declspec(property(get = __get_currentResult, put = __set_currentResult))::System::Net::__WebCompletionSource_1__Result<T>* currentResult;
+  __declspec(property(get = __cordl_internal_get_currentResult, put = __cordl_internal_set_currentResult))::System::Net::__WebCompletionSource_1__Result<T>* currentResult;
 
   __declspec(property(get = get_CurrentResult))::System::Net::__WebCompletionSource_1__Result<T>* CurrentResult;
 
   __declspec(property(get = get_Task))::System::Threading::Tasks::Task* Task;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>*& __get_completion();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>*& __cordl_internal_get_completion();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>*> const& __get_completion() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>*> const& __cordl_internal_get_completion() const;
 
-  constexpr void __set_completion(::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>* value);
+  constexpr void __cordl_internal_set_completion(::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>* value);
 
-  constexpr ::System::Net::__WebCompletionSource_1__Result<T>*& __get_currentResult();
+  constexpr ::System::Net::__WebCompletionSource_1__Result<T>*& __cordl_internal_get_currentResult();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__WebCompletionSource_1__Result<T>*> const& __get_currentResult() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__WebCompletionSource_1__Result<T>*> const& __cordl_internal_get_currentResult() const;
 
-  constexpr void __set_currentResult(::System::Net::__WebCompletionSource_1__Result<T>* value);
+  constexpr void __cordl_internal_set_currentResult(::System::Net::__WebCompletionSource_1__Result<T>* value);
 
   static inline ::System::Net::WebCompletionSource_1<T>* New_ctor(bool runAsync);
 

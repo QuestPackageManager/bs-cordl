@@ -19,15 +19,15 @@ constexpr ::UnityEngine::__GraphicsBuffer__Target UnityEngine::__GraphicsBuffer_
 constexpr ::UnityEngine::__GraphicsBuffer__Target UnityEngine::__GraphicsBuffer__Target::Counter{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::__GraphicsBuffer__Target UnityEngine::__GraphicsBuffer__Target::IndirectArguments{ static_cast<int32_t>(0x100) };
 constexpr ::UnityEngine::__GraphicsBuffer__Target UnityEngine::__GraphicsBuffer__Target::Constant{ static_cast<int32_t>(0x200) };
-constexpr void*& UnityEngine::GraphicsBuffer::__get_m_Ptr() {
+constexpr void*& UnityEngine::GraphicsBuffer::__cordl_internal_get_m_Ptr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
-constexpr void* const& UnityEngine::GraphicsBuffer::__get_m_Ptr() const {
+constexpr void* const& UnityEngine::GraphicsBuffer::__cordl_internal_get_m_Ptr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
-constexpr void UnityEngine::GraphicsBuffer::__set_m_Ptr(void* value) {
+constexpr void UnityEngine::GraphicsBuffer::__cordl_internal_set_m_Ptr(void* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }

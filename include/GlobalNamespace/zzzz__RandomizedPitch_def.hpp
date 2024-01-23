@@ -49,23 +49,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__1
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14327))
 // CS Name: ::RandomizedPitch::<PlayDelayedCoroutine>d__9*
 class CORDL_TYPE __RandomizedPitch___PlayDelayedCoroutine_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::RandomizedPitch* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::RandomizedPitch> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -89,29 +89,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::GlobalNamespace::RandomizedPitch*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::RandomizedPitch>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomizedPitch*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::RandomizedPitch> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::RandomizedPitch* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::RandomizedPitch> value);
 
   static inline ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9* New_ctor(int32_t __1__state);
 
@@ -157,7 +157,7 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::RandomizedPitch* _____4__this;
+  ::UnityW<::GlobalNamespace::RandomizedPitch> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -177,23 +177,23 @@ static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___PlayDelayedCorouti
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14328))
 // CS Name: ::RandomizedPitch::<RestorePitchWithDelay>d__10*
 class CORDL_TYPE __RandomizedPitch___RestorePitchWithDelay_d__10 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::RandomizedPitch* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::RandomizedPitch> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -217,29 +217,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::GlobalNamespace::RandomizedPitch*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::RandomizedPitch>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomizedPitch*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::RandomizedPitch> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::RandomizedPitch* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::RandomizedPitch> value);
 
   static inline ::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10* New_ctor(int32_t __1__state);
 
@@ -285,7 +285,7 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::RandomizedPitch* _____4__this;
+  ::UnityW<::GlobalNamespace::RandomizedPitch> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -305,7 +305,7 @@ static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDe
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14329))
 // CS Name: ::RandomizedPitch*
 class CORDL_TYPE RandomizedPitch : public ::UnityEngine::MonoBehaviour {
@@ -316,58 +316,58 @@ public:
   using _PlayDelayedCoroutine_d__9 = ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9;
 
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _minPitchMultiplier, offset 0x20, size 0x4
-  __declspec(property(get = __get__minPitchMultiplier, put = __set__minPitchMultiplier)) float_t _minPitchMultiplier;
+  __declspec(property(get = __cordl_internal_get__minPitchMultiplier, put = __cordl_internal_set__minPitchMultiplier)) float_t _minPitchMultiplier;
 
   /// @brief Field _maxPitchMultiplier, offset 0x24, size 0x4
-  __declspec(property(get = __get__maxPitchMultiplier, put = __set__maxPitchMultiplier)) float_t _maxPitchMultiplier;
+  __declspec(property(get = __cordl_internal_get__maxPitchMultiplier, put = __cordl_internal_set__maxPitchMultiplier)) float_t _maxPitchMultiplier;
 
   /// @brief Field _playOnAwake, offset 0x28, size 0x1
-  __declspec(property(get = __get__playOnAwake, put = __set__playOnAwake)) bool _playOnAwake;
+  __declspec(property(get = __cordl_internal_get__playOnAwake, put = __cordl_internal_set__playOnAwake)) bool _playOnAwake;
 
   /// @brief Field _originalPitch, offset 0x2c, size 0x4
-  __declspec(property(get = __get__originalPitch, put = __set__originalPitch)) float_t _originalPitch;
+  __declspec(property(get = __cordl_internal_get__originalPitch, put = __cordl_internal_set__originalPitch)) float_t _originalPitch;
 
   /// @brief Field _restoringCoroutine, offset 0x30, size 0x8
-  __declspec(property(get = __get__restoringCoroutine, put = __set__restoringCoroutine))::UnityEngine::Coroutine* _restoringCoroutine;
+  __declspec(property(get = __cordl_internal_get__restoringCoroutine, put = __cordl_internal_set__restoringCoroutine))::UnityEngine::Coroutine* _restoringCoroutine;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get__minPitchMultiplier();
+  constexpr float_t& __cordl_internal_get__minPitchMultiplier();
 
-  constexpr float_t const& __get__minPitchMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__minPitchMultiplier() const;
 
-  constexpr void __set__minPitchMultiplier(float_t value);
+  constexpr void __cordl_internal_set__minPitchMultiplier(float_t value);
 
-  constexpr float_t& __get__maxPitchMultiplier();
+  constexpr float_t& __cordl_internal_get__maxPitchMultiplier();
 
-  constexpr float_t const& __get__maxPitchMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__maxPitchMultiplier() const;
 
-  constexpr void __set__maxPitchMultiplier(float_t value);
+  constexpr void __cordl_internal_set__maxPitchMultiplier(float_t value);
 
-  constexpr bool& __get__playOnAwake();
+  constexpr bool& __cordl_internal_get__playOnAwake();
 
-  constexpr bool const& __get__playOnAwake() const;
+  constexpr bool const& __cordl_internal_get__playOnAwake() const;
 
-  constexpr void __set__playOnAwake(bool value);
+  constexpr void __cordl_internal_set__playOnAwake(bool value);
 
-  constexpr float_t& __get__originalPitch();
+  constexpr float_t& __cordl_internal_get__originalPitch();
 
-  constexpr float_t const& __get__originalPitch() const;
+  constexpr float_t const& __cordl_internal_get__originalPitch() const;
 
-  constexpr void __set__originalPitch(float_t value);
+  constexpr void __cordl_internal_set__originalPitch(float_t value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__restoringCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__restoringCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__restoringCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__restoringCoroutine() const;
 
-  constexpr void __set__restoringCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__restoringCoroutine(::UnityEngine::Coroutine* value);
 
   /// @brief Method OnEnable, addr 0x20ee238, size 0x58, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -404,7 +404,7 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _minPitchMultiplier, offset: 0x20, size: 0x4, def value: None
   float_t ____minPitchMultiplier;

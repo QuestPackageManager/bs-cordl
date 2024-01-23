@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::MemberHolder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3205))
 // CS Name: ::System.Runtime.Serialization::MemberHolder*
 class CORDL_TYPE MemberHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _memberType, offset 0x10, size 0x8
-  __declspec(property(get = __get__memberType, put = __set__memberType))::System::Type* _memberType;
+  __declspec(property(get = __cordl_internal_get__memberType, put = __cordl_internal_set__memberType))::System::Type* _memberType;
 
   /// @brief Field _context, offset 0x18, size 0x10
-  __declspec(property(get = __get__context, put = __set__context))::System::Runtime::Serialization::StreamingContext _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Serialization::StreamingContext _context;
 
-  constexpr ::System::Type*& __get__memberType();
+  constexpr ::System::Type*& __cordl_internal_get__memberType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__memberType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__memberType() const;
 
-  constexpr void __set__memberType(::System::Type* value);
+  constexpr void __cordl_internal_set__memberType(::System::Type* value);
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __get__context();
+  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get__context();
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __get__context() const;
+  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Runtime::Serialization::StreamingContext value);
+  constexpr void __cordl_internal_set__context(::System::Runtime::Serialization::StreamingContext value);
 
   static inline ::System::Runtime::Serialization::MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
 

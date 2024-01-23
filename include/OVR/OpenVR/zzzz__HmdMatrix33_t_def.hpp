@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdMatrix33_t);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8645))
 // CS Name: ::OVR.OpenVR::HmdMatrix33_t
 struct CORDL_TYPE HmdMatrix33_t {

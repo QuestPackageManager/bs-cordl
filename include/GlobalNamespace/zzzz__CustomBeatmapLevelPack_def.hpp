@@ -34,33 +34,35 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomBeatmapLevelPack);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4376))
 // CS Name: ::CustomBeatmapLevelPack*
 class CORDL_TYPE CustomBeatmapLevelPack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <packID>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__packID_k__BackingField, put = __set__packID_k__BackingField))::StringW _packID_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__packID_k__BackingField, put = __cordl_internal_set__packID_k__BackingField))::StringW _packID_k__BackingField;
 
   /// @brief Field <packName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__packName_k__BackingField, put = __set__packName_k__BackingField))::StringW _packName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__packName_k__BackingField, put = __cordl_internal_set__packName_k__BackingField))::StringW _packName_k__BackingField;
 
   /// @brief Field <shortPackName>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__shortPackName_k__BackingField, put = __set__shortPackName_k__BackingField))::StringW _shortPackName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__shortPackName_k__BackingField, put = __cordl_internal_set__shortPackName_k__BackingField))::StringW _shortPackName_k__BackingField;
 
   /// @brief Field <coverImage>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__coverImage_k__BackingField, put = __set__coverImage_k__BackingField))::UnityEngine::Sprite* _coverImage_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__coverImage_k__BackingField, put = __cordl_internal_set__coverImage_k__BackingField))::UnityW<::UnityEngine::Sprite> _coverImage_k__BackingField;
 
   /// @brief Field <smallCoverImage>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__smallCoverImage_k__BackingField, put = __set__smallCoverImage_k__BackingField))::UnityEngine::Sprite* _smallCoverImage_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__smallCoverImage_k__BackingField,
+                      put = __cordl_internal_set__smallCoverImage_k__BackingField))::UnityW<::UnityEngine::Sprite> _smallCoverImage_k__BackingField;
 
   /// @brief Field <beatmapLevelCollection>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapLevelCollection_k__BackingField,
-                      put = __set__beatmapLevelCollection_k__BackingField))::GlobalNamespace::IBeatmapLevelCollection* _beatmapLevelCollection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelCollection_k__BackingField,
+                      put = __cordl_internal_set__beatmapLevelCollection_k__BackingField))::GlobalNamespace::IBeatmapLevelCollection* _beatmapLevelCollection_k__BackingField;
 
   /// @brief Field <contentRating>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__contentRating_k__BackingField, put = __set__contentRating_k__BackingField))::GlobalNamespace::PlayerSensitivityFlag _contentRating_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__contentRating_k__BackingField,
+                      put = __cordl_internal_set__contentRating_k__BackingField))::GlobalNamespace::PlayerSensitivityFlag _contentRating_k__BackingField;
 
   __declspec(property(get = get_packID))::StringW packID;
 
@@ -70,9 +72,9 @@ public:
 
   __declspec(property(get = get_collectionName))::StringW collectionName;
 
-  __declspec(property(get = get_coverImage))::UnityEngine::Sprite* coverImage;
+  __declspec(property(get = get_coverImage))::UnityW<::UnityEngine::Sprite> coverImage;
 
-  __declspec(property(get = get_smallCoverImage))::UnityEngine::Sprite* smallCoverImage;
+  __declspec(property(get = get_smallCoverImage))::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
   __declspec(property(get = get_beatmapLevelCollection))::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
 
@@ -92,47 +94,47 @@ public:
   /// @brief Convert to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
   constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* i___GlobalNamespace__IAnnotatedBeatmapLevelCollection() noexcept;
 
-  constexpr ::StringW& __get__packID_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__packID_k__BackingField();
 
-  constexpr ::StringW const& __get__packID_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__packID_k__BackingField() const;
 
-  constexpr void __set__packID_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__packID_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__packName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__packName_k__BackingField();
 
-  constexpr ::StringW const& __get__packName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__packName_k__BackingField() const;
 
-  constexpr void __set__packName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__packName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__shortPackName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__shortPackName_k__BackingField();
 
-  constexpr ::StringW const& __get__shortPackName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__shortPackName_k__BackingField() const;
 
-  constexpr void __set__shortPackName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__shortPackName_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::Sprite*& __get__coverImage_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__coverImage_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__coverImage_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverImage_k__BackingField() const;
 
-  constexpr void __set__coverImage_k__BackingField(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__coverImage_k__BackingField(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__smallCoverImage_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__smallCoverImage_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__smallCoverImage_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__smallCoverImage_k__BackingField() const;
 
-  constexpr void __set__smallCoverImage_k__BackingField(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__smallCoverImage_k__BackingField(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelCollection*& __get__beatmapLevelCollection_k__BackingField();
+  constexpr ::GlobalNamespace::IBeatmapLevelCollection*& __cordl_internal_get__beatmapLevelCollection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelCollection*> const& __get__beatmapLevelCollection_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelCollection*> const& __cordl_internal_get__beatmapLevelCollection_k__BackingField() const;
 
-  constexpr void __set__beatmapLevelCollection_k__BackingField(::GlobalNamespace::IBeatmapLevelCollection* value);
+  constexpr void __cordl_internal_set__beatmapLevelCollection_k__BackingField(::GlobalNamespace::IBeatmapLevelCollection* value);
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __get__contentRating_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get__contentRating_k__BackingField();
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __get__contentRating_k__BackingField() const;
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get__contentRating_k__BackingField() const;
 
-  constexpr void __set__contentRating_k__BackingField(::GlobalNamespace::PlayerSensitivityFlag value);
+  constexpr void __cordl_internal_set__contentRating_k__BackingField(::GlobalNamespace::PlayerSensitivityFlag value);
 
   /// @brief Method get_packID, addr 0x23469d0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_packID();
@@ -147,10 +149,10 @@ public:
   inline ::StringW get_collectionName();
 
   /// @brief Method get_coverImage, addr 0x23469f0, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Sprite* get_coverImage();
+  inline ::UnityW<::UnityEngine::Sprite> get_coverImage();
 
   /// @brief Method get_smallCoverImage, addr 0x23469f8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Sprite* get_smallCoverImage();
+  inline ::UnityW<::UnityEngine::Sprite> get_smallCoverImage();
 
   /// @brief Method get_beatmapLevelCollection, addr 0x2346a00, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
@@ -193,10 +195,10 @@ public:
   ::StringW ____shortPackName_k__BackingField;
 
   /// @brief Field <coverImage>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____coverImage_k__BackingField;
+  ::UnityW<::UnityEngine::Sprite> ____coverImage_k__BackingField;
 
   /// @brief Field <smallCoverImage>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____smallCoverImage_k__BackingField;
+  ::UnityW<::UnityEngine::Sprite> ____smallCoverImage_k__BackingField;
 
   /// @brief Field <beatmapLevelCollection>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelCollection* ____beatmapLevelCollection_k__BackingField;

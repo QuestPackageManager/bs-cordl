@@ -14,22 +14,22 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::AbstractEventData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13164))
 // CS Name: ::UnityEngine.EventSystems::AbstractEventData*
 class CORDL_TYPE AbstractEventData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Used, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_Used, put = __set_m_Used)) bool m_Used;
+  __declspec(property(get = __cordl_internal_get_m_Used, put = __cordl_internal_set_m_Used)) bool m_Used;
 
   __declspec(property(get = get_used)) bool used;
 
-  constexpr bool& __get_m_Used();
+  constexpr bool& __cordl_internal_get_m_Used();
 
-  constexpr bool const& __get_m_Used() const;
+  constexpr bool const& __cordl_internal_get_m_Used() const;
 
-  constexpr void __set_m_Used(bool value);
+  constexpr void __cordl_internal_set_m_Used(bool value);
 
   /// @brief Method Reset, addr 0x2d95428, size 0x8, virtual true, abstract: false, final false
   inline void Reset();

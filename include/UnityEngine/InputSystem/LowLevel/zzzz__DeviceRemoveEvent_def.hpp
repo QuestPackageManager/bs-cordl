@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6530))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6523))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeviceRemoveEvent
 #pragma pack(push, 0)
@@ -37,7 +37,7 @@ struct CORDL_TYPE DeviceRemoveEvent {
 public:
   // Declarations
   /// @brief Field baseEvent, offset 0x0, size 0x14
-  __declspec(property(get = __get_baseEvent, put = __set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
+  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -47,11 +47,11 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __get_baseEvent() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
   /// @brief Method get_typeStatic, addr 0x2ae9bbc, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();

@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::GlobalNamespace::NamedPreset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4440))
 // CS Name: ::NamedPreset*
 class CORDL_TYPE NamedPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _presetNameLocalizationKey, offset 0x10, size 0x8
-  __declspec(property(get = __get__presetNameLocalizationKey, put = __set__presetNameLocalizationKey))::StringW _presetNameLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__presetNameLocalizationKey, put = __cordl_internal_set__presetNameLocalizationKey))::StringW _presetNameLocalizationKey;
 
   __declspec(property(get = get_presetNameLocalizationKey))::StringW presetNameLocalizationKey;
 
-  constexpr ::StringW& __get__presetNameLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__presetNameLocalizationKey();
 
-  constexpr ::StringW const& __get__presetNameLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__presetNameLocalizationKey() const;
 
-  constexpr void __set__presetNameLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__presetNameLocalizationKey(::StringW value);
 
   /// @brief Method get_presetNameLocalizationKey, addr 0x23503e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_presetNameLocalizationKey();

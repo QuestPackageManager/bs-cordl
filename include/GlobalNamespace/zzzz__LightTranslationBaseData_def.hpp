@@ -19,47 +19,47 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBaseData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4325))
 // CS Name: ::LightTranslationBaseData*
 class CORDL_TYPE LightTranslationBaseData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field beat, offset 0x10, size 0x4
-  __declspec(property(get = __get_beat, put = __set_beat)) float_t beat;
+  __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
   /// @brief Field usePreviousEventTranslationValue, offset 0x14, size 0x1
-  __declspec(property(get = __get_usePreviousEventTranslationValue, put = __set_usePreviousEventTranslationValue)) bool usePreviousEventTranslationValue;
+  __declspec(property(get = __cordl_internal_get_usePreviousEventTranslationValue, put = __cordl_internal_set_usePreviousEventTranslationValue)) bool usePreviousEventTranslationValue;
 
   /// @brief Field easeType, offset 0x18, size 0x4
-  __declspec(property(get = __get_easeType, put = __set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
 
   /// @brief Field translation, offset 0x1c, size 0x4
-  __declspec(property(get = __get_translation, put = __set_translation)) float_t translation;
+  __declspec(property(get = __cordl_internal_get_translation, put = __cordl_internal_set_translation)) float_t translation;
 
-  constexpr float_t& __get_beat();
+  constexpr float_t& __cordl_internal_get_beat();
 
-  constexpr float_t const& __get_beat() const;
+  constexpr float_t const& __cordl_internal_get_beat() const;
 
-  constexpr void __set_beat(float_t value);
+  constexpr void __cordl_internal_set_beat(float_t value);
 
-  constexpr bool& __get_usePreviousEventTranslationValue();
+  constexpr bool& __cordl_internal_get_usePreviousEventTranslationValue();
 
-  constexpr bool const& __get_usePreviousEventTranslationValue() const;
+  constexpr bool const& __cordl_internal_get_usePreviousEventTranslationValue() const;
 
-  constexpr void __set_usePreviousEventTranslationValue(bool value);
+  constexpr void __cordl_internal_set_usePreviousEventTranslationValue(bool value);
 
-  constexpr ::GlobalNamespace::EaseType& __get_easeType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get_easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
 
-  constexpr void __set_easeType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
 
-  constexpr float_t& __get_translation();
+  constexpr float_t& __cordl_internal_get_translation();
 
-  constexpr float_t const& __get_translation() const;
+  constexpr float_t const& __cordl_internal_get_translation() const;
 
-  constexpr void __set_translation(float_t value);
+  constexpr void __cordl_internal_set_translation(float_t value);
 
   static inline ::GlobalNamespace::LightTranslationBaseData* New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation);
 

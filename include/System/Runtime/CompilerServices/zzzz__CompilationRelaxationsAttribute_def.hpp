@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CompilationRelaxationsAttrib
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3414))
 // CS Name: ::System.Runtime.CompilerServices::CompilationRelaxationsAttribute*
 class CORDL_TYPE CompilationRelaxationsAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_relaxations, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_relaxations, put = __set_m_relaxations)) int32_t m_relaxations;
+  __declspec(property(get = __cordl_internal_get_m_relaxations, put = __cordl_internal_set_m_relaxations)) int32_t m_relaxations;
 
   __declspec(property(get = get_CompilationRelaxations)) int32_t CompilationRelaxations;
 
-  constexpr int32_t& __get_m_relaxations();
+  constexpr int32_t& __cordl_internal_get_m_relaxations();
 
-  constexpr int32_t const& __get_m_relaxations() const;
+  constexpr int32_t const& __cordl_internal_get_m_relaxations() const;
 
-  constexpr void __set_m_relaxations(int32_t value);
+  constexpr void __cordl_internal_set_m_relaxations(int32_t value);
 
   static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(int32_t relaxations);
 

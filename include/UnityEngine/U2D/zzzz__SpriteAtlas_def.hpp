@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::U2D::SpriteAtlas);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::U2D {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10296))
 // CS Name: ::UnityEngine.U2D::SpriteAtlas*
 class CORDL_TYPE SpriteAtlas : public ::UnityEngine::Object {
@@ -45,7 +45,7 @@ public:
   inline bool CanBindTo(::UnityEngine::Sprite* sprite);
 
   /// @brief Method GetSprite, addr 0x2ce6974, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* GetSprite(::StringW name);
+  inline ::UnityW<::UnityEngine::Sprite> GetSprite(::StringW name);
 
   /// @brief Method GetSprites, addr 0x2ce69b8, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetSprites(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);

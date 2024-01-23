@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_LODGroup_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9905))
 // CS Name: ::Test_LODGroup_Extensions::<>c*
 class CORDL_TYPE __Test_LODGroup_Extensions____c : public ::System::Object {
@@ -44,22 +44,22 @@ public:
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* __9__1_0;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* __9__2_0;
 
   static inline void setStaticF___9(::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* value);
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>* value);
+  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* value);
 
-  static inline ::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>* getStaticF___9__1_0();
+  static inline ::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* getStaticF___9__1_0();
 
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>* value);
+  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* value);
 
-  static inline ::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>* getStaticF___9__2_0();
+  static inline ::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* getStaticF___9__2_0();
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* New_ctor();
 
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_LODGr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9906))
 // CS Name: ::HoudiniEngineUnity::Test_LODGroup_Extensions*
 class CORDL_TYPE Test_LODGroup_Extensions : public ::System::Object {
@@ -112,7 +112,7 @@ public:
   ToTestObject(::ArrayW<::UnityEngine::LODGroup*, ::Array<::UnityEngine::LODGroup*>*> self);
 
   /// @brief Method ToTestObject, addr 0x21e4638, size 0xfc, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::LODGroup*>* self);
+  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_LODGroup_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

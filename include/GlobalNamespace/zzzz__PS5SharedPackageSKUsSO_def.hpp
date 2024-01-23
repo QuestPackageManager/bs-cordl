@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4566))
 // CS Name: ::PS5SharedPackageSKUsSO::BuildType
 struct CORDL_TYPE __PS5SharedPackageSKUsSO__BuildType {
@@ -87,33 +87,33 @@ static_assert(offsetof(::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType, v
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4567))
 // CS Name: ::PS5SharedPackageSKUsSO::PS5BuildVersion*
 class CORDL_TYPE __PS5SharedPackageSKUsSO__PS5BuildVersion : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _masterVersion, offset 0x10, size 0x8
-  __declspec(property(get = __get__masterVersion, put = __set__masterVersion))::StringW _masterVersion;
+  __declspec(property(get = __cordl_internal_get__masterVersion, put = __cordl_internal_set__masterVersion))::StringW _masterVersion;
 
   /// @brief Field _contentVersion, offset 0x18, size 0x8
-  __declspec(property(get = __get__contentVersion, put = __set__contentVersion))::StringW _contentVersion;
+  __declspec(property(get = __cordl_internal_get__contentVersion, put = __cordl_internal_set__contentVersion))::StringW _contentVersion;
 
   __declspec(property(get = get_masterVersion))::StringW masterVersion;
 
   __declspec(property(get = get_contentVersion))::StringW contentVersion;
 
-  constexpr ::StringW& __get__masterVersion();
+  constexpr ::StringW& __cordl_internal_get__masterVersion();
 
-  constexpr ::StringW const& __get__masterVersion() const;
+  constexpr ::StringW const& __cordl_internal_get__masterVersion() const;
 
-  constexpr void __set__masterVersion(::StringW value);
+  constexpr void __cordl_internal_set__masterVersion(::StringW value);
 
-  constexpr ::StringW& __get__contentVersion();
+  constexpr ::StringW& __cordl_internal_get__contentVersion();
 
-  constexpr ::StringW const& __get__contentVersion() const;
+  constexpr ::StringW const& __cordl_internal_get__contentVersion() const;
 
-  constexpr void __set__contentVersion(::StringW value);
+  constexpr void __cordl_internal_set__contentVersion(::StringW value);
 
   /// @brief Method get_masterVersion, addr 0x2368390, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_masterVersion();
@@ -160,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVers
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4566)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4568))
 // CS Name: ::PS5SharedPackageSKUsSO*
 class CORDL_TYPE PS5SharedPackageSKUsSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -171,22 +171,23 @@ public:
   using BuildType = ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType;
 
   /// @brief Field _availableSKUs, offset 0x18, size 0x8
-  __declspec(property(get = __get__availableSKUs,
-                      put = __set__availableSKUs))::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> _availableSKUs;
+  __declspec(property(
+      get = __cordl_internal_get__availableSKUs,
+      put = __cordl_internal_set__availableSKUs))::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> _availableSKUs;
 
   /// @brief Field _conceptId, offset 0x20, size 0x8
-  __declspec(property(get = __get__conceptId, put = __set__conceptId))::StringW _conceptId;
+  __declspec(property(get = __cordl_internal_get__conceptId, put = __cordl_internal_set__conceptId))::StringW _conceptId;
 
   /// @brief Field _buildType, offset 0x28, size 0x4
-  __declspec(property(get = __get__buildType, put = __set__buildType))::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType _buildType;
+  __declspec(property(get = __cordl_internal_get__buildType, put = __cordl_internal_set__buildType))::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType _buildType;
 
   /// @brief Field _buildVersion, offset 0x30, size 0x8
-  __declspec(property(get = __get__buildVersion, put = __set__buildVersion))::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* _buildVersion;
+  __declspec(property(get = __cordl_internal_get__buildVersion, put = __cordl_internal_set__buildVersion))::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* _buildVersion;
 
   /// @brief Field _latestBuildVersion, offset 0x38, size 0x8
-  __declspec(property(get = __get__latestBuildVersion, put = __set__latestBuildVersion))::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* _latestBuildVersion;
+  __declspec(property(get = __cordl_internal_get__latestBuildVersion, put = __cordl_internal_set__latestBuildVersion))::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* _latestBuildVersion;
 
-  __declspec(property(get = get_availableSKUs))::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> availableSKUs;
+  __declspec(property(get = get_availableSKUs))::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> availableSKUs;
 
   __declspec(property(get = get_conceptId))::StringW conceptId;
 
@@ -196,38 +197,38 @@ public:
 
   __declspec(property(get = get_latestBuildVersion))::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* latestBuildVersion;
 
-  constexpr ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*>& __get__availableSKUs();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*>& __cordl_internal_get__availableSKUs();
 
-  constexpr ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> const& __get__availableSKUs() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> const& __cordl_internal_get__availableSKUs() const;
 
-  constexpr void __set__availableSKUs(::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> value);
+  constexpr void __cordl_internal_set__availableSKUs(::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> value);
 
-  constexpr ::StringW& __get__conceptId();
+  constexpr ::StringW& __cordl_internal_get__conceptId();
 
-  constexpr ::StringW const& __get__conceptId() const;
+  constexpr ::StringW const& __cordl_internal_get__conceptId() const;
 
-  constexpr void __set__conceptId(::StringW value);
+  constexpr void __cordl_internal_set__conceptId(::StringW value);
 
-  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType& __get__buildType();
+  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType& __cordl_internal_get__buildType();
 
-  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType const& __get__buildType() const;
+  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType const& __cordl_internal_get__buildType() const;
 
-  constexpr void __set__buildType(::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType value);
+  constexpr void __cordl_internal_set__buildType(::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType value);
 
-  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*& __get__buildVersion();
+  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*& __cordl_internal_get__buildVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*> const& __get__buildVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*> const& __cordl_internal_get__buildVersion() const;
 
-  constexpr void __set__buildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value);
+  constexpr void __cordl_internal_set__buildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value);
 
-  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*& __get__latestBuildVersion();
+  constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*& __cordl_internal_get__latestBuildVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*> const& __get__latestBuildVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*> const& __cordl_internal_get__latestBuildVersion() const;
 
-  constexpr void __set__latestBuildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value);
+  constexpr void __cordl_internal_set__latestBuildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value);
 
   /// @brief Method get_availableSKUs, addr 0x236833c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> get_availableSKUs();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> get_availableSKUs();
 
   /// @brief Method get_conceptId, addr 0x2368344, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_conceptId();
@@ -242,7 +243,7 @@ public:
   inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* get_latestBuildVersion();
 
   /// @brief Method GetPrimarySKU, addr 0x2368364, size 0x24, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PS5PublisherSKUSettingsSO* GetPrimarySKU();
+  inline ::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO> GetPrimarySKU();
 
   static inline ::GlobalNamespace::PS5SharedPackageSKUsSO* New_ctor();
 
@@ -264,7 +265,7 @@ protected:
 
 public:
   /// @brief Field _availableSKUs, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> ____availableSKUs;
+  ::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> ____availableSKUs;
 
   /// @brief Field _conceptId, offset: 0x20, size: 0x8, def value: None
   ::StringW ____conceptId;

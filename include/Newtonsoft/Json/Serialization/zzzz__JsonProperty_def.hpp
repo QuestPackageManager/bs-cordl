@@ -71,123 +71,131 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonProperty);
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 244, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11839)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 4750 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }), TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }), TypeDefinitionIndex(TypeDefinitionIndex(11822)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }), TypeDefinitionIndex(TypeDefinitionIndex(11838)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4762 }), TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(11816))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11945)) CS Name: ::Newtonsoft.Json.Serialization::JsonProperty*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11811)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11816)), TypeDefinitionIndex(TypeDefinitionIndex(11822)), TypeDefinitionIndex(TypeDefinitionIndex(11838)), TypeDefinitionIndex(TypeDefinitionIndex(11839)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4750 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4762 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11945)) CS Name: ::Newtonsoft.Json.Serialization::JsonProperty*
 class CORDL_TYPE JsonProperty : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _required, offset 0x10, size 0x8
-  __declspec(property(get = __get__required, put = __set__required))::System::Nullable_1<::Newtonsoft::Json::Required> _required;
+  __declspec(property(get = __cordl_internal_get__required, put = __cordl_internal_set__required))::System::Nullable_1<::Newtonsoft::Json::Required> _required;
 
   /// @brief Field _hasExplicitDefaultValue, offset 0x18, size 0x1
-  __declspec(property(get = __get__hasExplicitDefaultValue, put = __set__hasExplicitDefaultValue)) bool _hasExplicitDefaultValue;
+  __declspec(property(get = __cordl_internal_get__hasExplicitDefaultValue, put = __cordl_internal_set__hasExplicitDefaultValue)) bool _hasExplicitDefaultValue;
 
   /// @brief Field _defaultValue, offset 0x20, size 0x8
-  __declspec(property(get = __get__defaultValue, put = __set__defaultValue))::System::Object* _defaultValue;
+  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue))::System::Object* _defaultValue;
 
   /// @brief Field _hasGeneratedDefaultValue, offset 0x28, size 0x1
-  __declspec(property(get = __get__hasGeneratedDefaultValue, put = __set__hasGeneratedDefaultValue)) bool _hasGeneratedDefaultValue;
+  __declspec(property(get = __cordl_internal_get__hasGeneratedDefaultValue, put = __cordl_internal_set__hasGeneratedDefaultValue)) bool _hasGeneratedDefaultValue;
 
   /// @brief Field _propertyName, offset 0x30, size 0x8
-  __declspec(property(get = __get__propertyName, put = __set__propertyName))::StringW _propertyName;
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
   /// @brief Field _skipPropertyNameEscape, offset 0x38, size 0x1
-  __declspec(property(get = __get__skipPropertyNameEscape, put = __set__skipPropertyNameEscape)) bool _skipPropertyNameEscape;
+  __declspec(property(get = __cordl_internal_get__skipPropertyNameEscape, put = __cordl_internal_set__skipPropertyNameEscape)) bool _skipPropertyNameEscape;
 
   /// @brief Field _propertyType, offset 0x40, size 0x8
-  __declspec(property(get = __get__propertyType, put = __set__propertyType))::System::Type* _propertyType;
+  __declspec(property(get = __cordl_internal_get__propertyType, put = __cordl_internal_set__propertyType))::System::Type* _propertyType;
 
   /// @brief Field <PropertyContract>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__PropertyContract_k__BackingField, put = __set__PropertyContract_k__BackingField))::Newtonsoft::Json::Serialization::JsonContract* _PropertyContract_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__PropertyContract_k__BackingField,
+                      put = __cordl_internal_set__PropertyContract_k__BackingField))::Newtonsoft::Json::Serialization::JsonContract* _PropertyContract_k__BackingField;
 
   /// @brief Field <DeclaringType>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__DeclaringType_k__BackingField, put = __set__DeclaringType_k__BackingField))::System::Type* _DeclaringType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DeclaringType_k__BackingField, put = __cordl_internal_set__DeclaringType_k__BackingField))::System::Type* _DeclaringType_k__BackingField;
 
   /// @brief Field <Order>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__Order_k__BackingField, put = __set__Order_k__BackingField))::System::Nullable_1<int32_t> _Order_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Order_k__BackingField, put = __cordl_internal_set__Order_k__BackingField))::System::Nullable_1<int32_t> _Order_k__BackingField;
 
   /// @brief Field <UnderlyingName>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__UnderlyingName_k__BackingField, put = __set__UnderlyingName_k__BackingField))::StringW _UnderlyingName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UnderlyingName_k__BackingField, put = __cordl_internal_set__UnderlyingName_k__BackingField))::StringW _UnderlyingName_k__BackingField;
 
   /// @brief Field <ValueProvider>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __get__ValueProvider_k__BackingField, put = __set__ValueProvider_k__BackingField))::Newtonsoft::Json::Serialization::IValueProvider* _ValueProvider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ValueProvider_k__BackingField,
+                      put = __cordl_internal_set__ValueProvider_k__BackingField))::Newtonsoft::Json::Serialization::IValueProvider* _ValueProvider_k__BackingField;
 
   /// @brief Field <AttributeProvider>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __get__AttributeProvider_k__BackingField,
-                      put = __set__AttributeProvider_k__BackingField))::Newtonsoft::Json::Serialization::IAttributeProvider* _AttributeProvider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AttributeProvider_k__BackingField,
+                      put = __cordl_internal_set__AttributeProvider_k__BackingField))::Newtonsoft::Json::Serialization::IAttributeProvider* _AttributeProvider_k__BackingField;
 
   /// @brief Field <Converter>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __get__Converter_k__BackingField, put = __set__Converter_k__BackingField))::Newtonsoft::Json::JsonConverter* _Converter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Converter_k__BackingField, put = __cordl_internal_set__Converter_k__BackingField))::Newtonsoft::Json::JsonConverter* _Converter_k__BackingField;
 
   /// @brief Field <MemberConverter>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__MemberConverter_k__BackingField, put = __set__MemberConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _MemberConverter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MemberConverter_k__BackingField,
+                      put = __cordl_internal_set__MemberConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _MemberConverter_k__BackingField;
 
   /// @brief Field <Ignored>k__BackingField, offset 0x88, size 0x1
-  __declspec(property(get = __get__Ignored_k__BackingField, put = __set__Ignored_k__BackingField)) bool _Ignored_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Ignored_k__BackingField, put = __cordl_internal_set__Ignored_k__BackingField)) bool _Ignored_k__BackingField;
 
   /// @brief Field <Readable>k__BackingField, offset 0x89, size 0x1
-  __declspec(property(get = __get__Readable_k__BackingField, put = __set__Readable_k__BackingField)) bool _Readable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Readable_k__BackingField, put = __cordl_internal_set__Readable_k__BackingField)) bool _Readable_k__BackingField;
 
   /// @brief Field <Writable>k__BackingField, offset 0x8a, size 0x1
-  __declspec(property(get = __get__Writable_k__BackingField, put = __set__Writable_k__BackingField)) bool _Writable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Writable_k__BackingField, put = __cordl_internal_set__Writable_k__BackingField)) bool _Writable_k__BackingField;
 
   /// @brief Field <HasMemberAttribute>k__BackingField, offset 0x8b, size 0x1
-  __declspec(property(get = __get__HasMemberAttribute_k__BackingField, put = __set__HasMemberAttribute_k__BackingField)) bool _HasMemberAttribute_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__HasMemberAttribute_k__BackingField, put = __cordl_internal_set__HasMemberAttribute_k__BackingField)) bool _HasMemberAttribute_k__BackingField;
 
   /// @brief Field <IsReference>k__BackingField, offset 0x8c, size 0x2
-  __declspec(property(get = __get__IsReference_k__BackingField, put = __set__IsReference_k__BackingField))::System::Nullable_1<bool> _IsReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsReference_k__BackingField, put = __cordl_internal_set__IsReference_k__BackingField))::System::Nullable_1<bool> _IsReference_k__BackingField;
 
   /// @brief Field <NullValueHandling>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__NullValueHandling_k__BackingField,
-                      put = __set__NullValueHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _NullValueHandling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NullValueHandling_k__BackingField,
+                      put = __cordl_internal_set__NullValueHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _NullValueHandling_k__BackingField;
 
   /// @brief Field <DefaultValueHandling>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__DefaultValueHandling_k__BackingField,
-                      put = __set__DefaultValueHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _DefaultValueHandling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DefaultValueHandling_k__BackingField,
+                      put = __cordl_internal_set__DefaultValueHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _DefaultValueHandling_k__BackingField;
 
   /// @brief Field <ReferenceLoopHandling>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__ReferenceLoopHandling_k__BackingField,
-                      put = __set__ReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ReferenceLoopHandling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReferenceLoopHandling_k__BackingField,
+                      put = __cordl_internal_set__ReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ReferenceLoopHandling_k__BackingField;
 
   /// @brief Field <ObjectCreationHandling>k__BackingField, offset 0xa8, size 0x8
-  __declspec(property(get = __get__ObjectCreationHandling_k__BackingField,
-                      put = __set__ObjectCreationHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _ObjectCreationHandling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ObjectCreationHandling_k__BackingField,
+                      put = __cordl_internal_set__ObjectCreationHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _ObjectCreationHandling_k__BackingField;
 
   /// @brief Field <TypeNameHandling>k__BackingField, offset 0xb0, size 0x8
-  __declspec(property(get = __get__TypeNameHandling_k__BackingField,
-                      put = __set__TypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _TypeNameHandling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TypeNameHandling_k__BackingField,
+                      put = __cordl_internal_set__TypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _TypeNameHandling_k__BackingField;
 
   /// @brief Field <ShouldSerialize>k__BackingField, offset 0xb8, size 0x8
-  __declspec(property(get = __get__ShouldSerialize_k__BackingField, put = __set__ShouldSerialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldSerialize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ShouldSerialize_k__BackingField,
+                      put = __cordl_internal_set__ShouldSerialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldSerialize_k__BackingField;
 
   /// @brief Field <ShouldDeserialize>k__BackingField, offset 0xc0, size 0x8
-  __declspec(property(get = __get__ShouldDeserialize_k__BackingField, put = __set__ShouldDeserialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldDeserialize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ShouldDeserialize_k__BackingField,
+                      put = __cordl_internal_set__ShouldDeserialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldDeserialize_k__BackingField;
 
   /// @brief Field <GetIsSpecified>k__BackingField, offset 0xc8, size 0x8
-  __declspec(property(get = __get__GetIsSpecified_k__BackingField, put = __set__GetIsSpecified_k__BackingField))::System::Predicate_1<::System::Object*>* _GetIsSpecified_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__GetIsSpecified_k__BackingField,
+                      put = __cordl_internal_set__GetIsSpecified_k__BackingField))::System::Predicate_1<::System::Object*>* _GetIsSpecified_k__BackingField;
 
   /// @brief Field <SetIsSpecified>k__BackingField, offset 0xd0, size 0x8
-  __declspec(property(get = __get__SetIsSpecified_k__BackingField,
-                      put = __set__SetIsSpecified_k__BackingField))::System::Action_2<::System::Object*, ::System::Object*>* _SetIsSpecified_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SetIsSpecified_k__BackingField,
+                      put = __cordl_internal_set__SetIsSpecified_k__BackingField))::System::Action_2<::System::Object*, ::System::Object*>* _SetIsSpecified_k__BackingField;
 
   /// @brief Field <ItemConverter>k__BackingField, offset 0xd8, size 0x8
-  __declspec(property(get = __get__ItemConverter_k__BackingField, put = __set__ItemConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _ItemConverter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ItemConverter_k__BackingField,
+                      put = __cordl_internal_set__ItemConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _ItemConverter_k__BackingField;
 
   /// @brief Field <ItemIsReference>k__BackingField, offset 0xe0, size 0x2
-  __declspec(property(get = __get__ItemIsReference_k__BackingField, put = __set__ItemIsReference_k__BackingField))::System::Nullable_1<bool> _ItemIsReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ItemIsReference_k__BackingField,
+                      put = __cordl_internal_set__ItemIsReference_k__BackingField))::System::Nullable_1<bool> _ItemIsReference_k__BackingField;
 
   /// @brief Field <ItemTypeNameHandling>k__BackingField, offset 0xe4, size 0x8
-  __declspec(property(get = __get__ItemTypeNameHandling_k__BackingField,
-                      put = __set__ItemTypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _ItemTypeNameHandling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ItemTypeNameHandling_k__BackingField,
+                      put = __cordl_internal_set__ItemTypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _ItemTypeNameHandling_k__BackingField;
 
   /// @brief Field <ItemReferenceLoopHandling>k__BackingField, offset 0xec, size 0x8
-  __declspec(property(get = __get__ItemReferenceLoopHandling_k__BackingField,
-                      put = __set__ItemReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ItemReferenceLoopHandling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField,
+                      put = __cordl_internal_set__ItemReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ItemReferenceLoopHandling_k__BackingField;
 
   __declspec(property(get = get_PropertyContract, put = set_PropertyContract))::Newtonsoft::Json::Serialization::JsonContract* PropertyContract;
 
@@ -249,203 +257,203 @@ public:
 
   __declspec(property(get = get_ItemReferenceLoopHandling, put = set_ItemReferenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ItemReferenceLoopHandling;
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __get__required();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __cordl_internal_get__required();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __get__required() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __cordl_internal_get__required() const;
 
-  constexpr void __set__required(::System::Nullable_1<::Newtonsoft::Json::Required> value);
+  constexpr void __cordl_internal_set__required(::System::Nullable_1<::Newtonsoft::Json::Required> value);
 
-  constexpr bool& __get__hasExplicitDefaultValue();
+  constexpr bool& __cordl_internal_get__hasExplicitDefaultValue();
 
-  constexpr bool const& __get__hasExplicitDefaultValue() const;
+  constexpr bool const& __cordl_internal_get__hasExplicitDefaultValue() const;
 
-  constexpr void __set__hasExplicitDefaultValue(bool value);
+  constexpr void __cordl_internal_set__hasExplicitDefaultValue(bool value);
 
-  constexpr ::System::Object*& __get__defaultValue();
+  constexpr ::System::Object*& __cordl_internal_get__defaultValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__defaultValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__defaultValue() const;
 
-  constexpr void __set__defaultValue(::System::Object* value);
+  constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
 
-  constexpr bool& __get__hasGeneratedDefaultValue();
+  constexpr bool& __cordl_internal_get__hasGeneratedDefaultValue();
 
-  constexpr bool const& __get__hasGeneratedDefaultValue() const;
+  constexpr bool const& __cordl_internal_get__hasGeneratedDefaultValue() const;
 
-  constexpr void __set__hasGeneratedDefaultValue(bool value);
+  constexpr void __cordl_internal_set__hasGeneratedDefaultValue(bool value);
 
-  constexpr ::StringW& __get__propertyName();
+  constexpr ::StringW& __cordl_internal_get__propertyName();
 
-  constexpr ::StringW const& __get__propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
-  constexpr void __set__propertyName(::StringW value);
+  constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  constexpr bool& __get__skipPropertyNameEscape();
+  constexpr bool& __cordl_internal_get__skipPropertyNameEscape();
 
-  constexpr bool const& __get__skipPropertyNameEscape() const;
+  constexpr bool const& __cordl_internal_get__skipPropertyNameEscape() const;
 
-  constexpr void __set__skipPropertyNameEscape(bool value);
+  constexpr void __cordl_internal_set__skipPropertyNameEscape(bool value);
 
-  constexpr ::System::Type*& __get__propertyType();
+  constexpr ::System::Type*& __cordl_internal_get__propertyType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__propertyType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__propertyType() const;
 
-  constexpr void __set__propertyType(::System::Type* value);
+  constexpr void __cordl_internal_set__propertyType(::System::Type* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __get__PropertyContract_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __cordl_internal_get__PropertyContract_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __get__PropertyContract_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __cordl_internal_get__PropertyContract_k__BackingField() const;
 
-  constexpr void __set__PropertyContract_k__BackingField(::Newtonsoft::Json::Serialization::JsonContract* value);
+  constexpr void __cordl_internal_set__PropertyContract_k__BackingField(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  constexpr ::System::Type*& __get__DeclaringType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__DeclaringType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__DeclaringType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__DeclaringType_k__BackingField() const;
 
-  constexpr void __set__DeclaringType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__DeclaringType_k__BackingField(::System::Type* value);
 
-  constexpr ::System::Nullable_1<int32_t>& __get__Order_k__BackingField();
+  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get__Order_k__BackingField();
 
-  constexpr ::System::Nullable_1<int32_t> const& __get__Order_k__BackingField() const;
+  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get__Order_k__BackingField() const;
 
-  constexpr void __set__Order_k__BackingField(::System::Nullable_1<int32_t> value);
+  constexpr void __cordl_internal_set__Order_k__BackingField(::System::Nullable_1<int32_t> value);
 
-  constexpr ::StringW& __get__UnderlyingName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__UnderlyingName_k__BackingField();
 
-  constexpr ::StringW const& __get__UnderlyingName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__UnderlyingName_k__BackingField() const;
 
-  constexpr void __set__UnderlyingName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__UnderlyingName_k__BackingField(::StringW value);
 
-  constexpr ::Newtonsoft::Json::Serialization::IValueProvider*& __get__ValueProvider_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::IValueProvider*& __cordl_internal_get__ValueProvider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IValueProvider*> const& __get__ValueProvider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IValueProvider*> const& __cordl_internal_get__ValueProvider_k__BackingField() const;
 
-  constexpr void __set__ValueProvider_k__BackingField(::Newtonsoft::Json::Serialization::IValueProvider* value);
+  constexpr void __cordl_internal_set__ValueProvider_k__BackingField(::Newtonsoft::Json::Serialization::IValueProvider* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::IAttributeProvider*& __get__AttributeProvider_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::IAttributeProvider*& __cordl_internal_get__AttributeProvider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IAttributeProvider*> const& __get__AttributeProvider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IAttributeProvider*> const& __cordl_internal_get__AttributeProvider_k__BackingField() const;
 
-  constexpr void __set__AttributeProvider_k__BackingField(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
+  constexpr void __cordl_internal_set__AttributeProvider_k__BackingField(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
 
-  constexpr ::Newtonsoft::Json::JsonConverter*& __get__Converter_k__BackingField();
+  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__Converter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __get__Converter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__Converter_k__BackingField() const;
 
-  constexpr void __set__Converter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+  constexpr void __cordl_internal_set__Converter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
 
-  constexpr ::Newtonsoft::Json::JsonConverter*& __get__MemberConverter_k__BackingField();
+  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__MemberConverter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __get__MemberConverter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__MemberConverter_k__BackingField() const;
 
-  constexpr void __set__MemberConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+  constexpr void __cordl_internal_set__MemberConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
 
-  constexpr bool& __get__Ignored_k__BackingField();
+  constexpr bool& __cordl_internal_get__Ignored_k__BackingField();
 
-  constexpr bool const& __get__Ignored_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Ignored_k__BackingField() const;
 
-  constexpr void __set__Ignored_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Ignored_k__BackingField(bool value);
 
-  constexpr bool& __get__Readable_k__BackingField();
+  constexpr bool& __cordl_internal_get__Readable_k__BackingField();
 
-  constexpr bool const& __get__Readable_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Readable_k__BackingField() const;
 
-  constexpr void __set__Readable_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Readable_k__BackingField(bool value);
 
-  constexpr bool& __get__Writable_k__BackingField();
+  constexpr bool& __cordl_internal_get__Writable_k__BackingField();
 
-  constexpr bool const& __get__Writable_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Writable_k__BackingField() const;
 
-  constexpr void __set__Writable_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Writable_k__BackingField(bool value);
 
-  constexpr bool& __get__HasMemberAttribute_k__BackingField();
+  constexpr bool& __cordl_internal_get__HasMemberAttribute_k__BackingField();
 
-  constexpr bool const& __get__HasMemberAttribute_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__HasMemberAttribute_k__BackingField() const;
 
-  constexpr void __set__HasMemberAttribute_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__HasMemberAttribute_k__BackingField(bool value);
 
-  constexpr ::System::Nullable_1<bool>& __get__IsReference_k__BackingField();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__IsReference_k__BackingField();
 
-  constexpr ::System::Nullable_1<bool> const& __get__IsReference_k__BackingField() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__IsReference_k__BackingField() const;
 
-  constexpr void __set__IsReference_k__BackingField(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set__IsReference_k__BackingField(::System::Nullable_1<bool> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& __get__NullValueHandling_k__BackingField();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& __cordl_internal_get__NullValueHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& __get__NullValueHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& __cordl_internal_get__NullValueHandling_k__BackingField() const;
 
-  constexpr void __set__NullValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
+  constexpr void __cordl_internal_set__NullValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& __get__DefaultValueHandling_k__BackingField();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& __cordl_internal_get__DefaultValueHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> const& __get__DefaultValueHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> const& __cordl_internal_get__DefaultValueHandling_k__BackingField() const;
 
-  constexpr void __set__DefaultValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
+  constexpr void __cordl_internal_set__DefaultValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __get__ReferenceLoopHandling_k__BackingField();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__ReferenceLoopHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __get__ReferenceLoopHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__ReferenceLoopHandling_k__BackingField() const;
 
-  constexpr void __set__ReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
+  constexpr void __cordl_internal_set__ReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& __get__ObjectCreationHandling_k__BackingField();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& __cordl_internal_get__ObjectCreationHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& __get__ObjectCreationHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& __cordl_internal_get__ObjectCreationHandling_k__BackingField() const;
 
-  constexpr void __set__ObjectCreationHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
+  constexpr void __cordl_internal_set__ObjectCreationHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __get__TypeNameHandling_k__BackingField();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__TypeNameHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __get__TypeNameHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__TypeNameHandling_k__BackingField() const;
 
-  constexpr void __set__TypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
+  constexpr void __cordl_internal_set__TypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  constexpr ::System::Predicate_1<::System::Object*>*& __get__ShouldSerialize_k__BackingField();
+  constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__ShouldSerialize_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __get__ShouldSerialize_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__ShouldSerialize_k__BackingField() const;
 
-  constexpr void __set__ShouldSerialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__ShouldSerialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
 
-  constexpr ::System::Predicate_1<::System::Object*>*& __get__ShouldDeserialize_k__BackingField();
+  constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__ShouldDeserialize_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __get__ShouldDeserialize_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__ShouldDeserialize_k__BackingField() const;
 
-  constexpr void __set__ShouldDeserialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__ShouldDeserialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
 
-  constexpr ::System::Predicate_1<::System::Object*>*& __get__GetIsSpecified_k__BackingField();
+  constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__GetIsSpecified_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __get__GetIsSpecified_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__GetIsSpecified_k__BackingField() const;
 
-  constexpr void __set__GetIsSpecified_k__BackingField(::System::Predicate_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__GetIsSpecified_k__BackingField(::System::Predicate_1<::System::Object*>* value);
 
-  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __get__SetIsSpecified_k__BackingField();
+  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__SetIsSpecified_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __get__SetIsSpecified_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__SetIsSpecified_k__BackingField() const;
 
-  constexpr void __set__SetIsSpecified_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set__SetIsSpecified_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  constexpr ::Newtonsoft::Json::JsonConverter*& __get__ItemConverter_k__BackingField();
+  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__ItemConverter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __get__ItemConverter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__ItemConverter_k__BackingField() const;
 
-  constexpr void __set__ItemConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+  constexpr void __cordl_internal_set__ItemConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
 
-  constexpr ::System::Nullable_1<bool>& __get__ItemIsReference_k__BackingField();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__ItemIsReference_k__BackingField();
 
-  constexpr ::System::Nullable_1<bool> const& __get__ItemIsReference_k__BackingField() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__ItemIsReference_k__BackingField() const;
 
-  constexpr void __set__ItemIsReference_k__BackingField(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set__ItemIsReference_k__BackingField(::System::Nullable_1<bool> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __get__ItemTypeNameHandling_k__BackingField();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__ItemTypeNameHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __get__ItemTypeNameHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__ItemTypeNameHandling_k__BackingField() const;
 
-  constexpr void __set__ItemTypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
+  constexpr void __cordl_internal_set__ItemTypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __get__ItemReferenceLoopHandling_k__BackingField();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __get__ItemReferenceLoopHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField() const;
 
-  constexpr void __set__ItemReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
+  constexpr void __cordl_internal_set__ItemReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
   /// @brief Method get_PropertyContract, addr 0x267a7c0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_PropertyContract();

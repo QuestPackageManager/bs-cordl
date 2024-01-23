@@ -29,44 +29,44 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ArmoredOutputStream);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(551))
 // CS Name: ::Org.BouncyCastle.Bcpg::ArmoredOutputStream*
 class CORDL_TYPE ArmoredOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field outStream, offset 0x30, size 0x8
-  __declspec(property(get = __get_outStream, put = __set_outStream))::System::IO::Stream* outStream;
+  __declspec(property(get = __cordl_internal_get_outStream, put = __cordl_internal_set_outStream))::System::IO::Stream* outStream;
 
   /// @brief Field buf, offset 0x38, size 0x8
-  __declspec(property(get = __get_buf, put = __set_buf))::ArrayW<int32_t, ::Array<int32_t>*> buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<int32_t, ::Array<int32_t>*> buf;
 
   /// @brief Field bufPtr, offset 0x40, size 0x4
-  __declspec(property(get = __get_bufPtr, put = __set_bufPtr)) int32_t bufPtr;
+  __declspec(property(get = __cordl_internal_get_bufPtr, put = __cordl_internal_set_bufPtr)) int32_t bufPtr;
 
   /// @brief Field crc, offset 0x48, size 0x8
-  __declspec(property(get = __get_crc, put = __set_crc))::Org::BouncyCastle::Bcpg::Crc24* crc;
+  __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc))::Org::BouncyCastle::Bcpg::Crc24* crc;
 
   /// @brief Field chunkCount, offset 0x50, size 0x4
-  __declspec(property(get = __get_chunkCount, put = __set_chunkCount)) int32_t chunkCount;
+  __declspec(property(get = __cordl_internal_get_chunkCount, put = __cordl_internal_set_chunkCount)) int32_t chunkCount;
 
   /// @brief Field lastb, offset 0x54, size 0x4
-  __declspec(property(get = __get_lastb, put = __set_lastb)) int32_t lastb;
+  __declspec(property(get = __cordl_internal_get_lastb, put = __cordl_internal_set_lastb)) int32_t lastb;
 
   /// @brief Field start, offset 0x58, size 0x1
-  __declspec(property(get = __get_start, put = __set_start)) bool start;
+  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) bool start;
 
   /// @brief Field clearText, offset 0x59, size 0x1
-  __declspec(property(get = __get_clearText, put = __set_clearText)) bool clearText;
+  __declspec(property(get = __cordl_internal_get_clearText, put = __cordl_internal_set_clearText)) bool clearText;
 
   /// @brief Field newLine, offset 0x5a, size 0x1
-  __declspec(property(get = __get_newLine, put = __set_newLine)) bool newLine;
+  __declspec(property(get = __cordl_internal_get_newLine, put = __cordl_internal_set_newLine)) bool newLine;
 
   /// @brief Field type, offset 0x60, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::StringW type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
 
   /// @brief Field headers, offset 0x68, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Collections::IDictionary* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Collections::IDictionary* headers;
 
   /// @brief Field HeaderVersion, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_HeaderVersion, put = setStaticF_HeaderVersion))::StringW HeaderVersion;
@@ -92,71 +92,71 @@ public:
   /// @brief Field Version, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Version, put = setStaticF_Version))::StringW Version;
 
-  constexpr ::System::IO::Stream*& __get_outStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_outStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_outStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_outStream() const;
 
-  constexpr void __set_outStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_outStream(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_buf();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_buf();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_buf() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_buf(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_bufPtr();
+  constexpr int32_t& __cordl_internal_get_bufPtr();
 
-  constexpr int32_t const& __get_bufPtr() const;
+  constexpr int32_t const& __cordl_internal_get_bufPtr() const;
 
-  constexpr void __set_bufPtr(int32_t value);
+  constexpr void __cordl_internal_set_bufPtr(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::Crc24*& __get_crc();
+  constexpr ::Org::BouncyCastle::Bcpg::Crc24*& __cordl_internal_get_crc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::Crc24*> const& __get_crc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::Crc24*> const& __cordl_internal_get_crc() const;
 
-  constexpr void __set_crc(::Org::BouncyCastle::Bcpg::Crc24* value);
+  constexpr void __cordl_internal_set_crc(::Org::BouncyCastle::Bcpg::Crc24* value);
 
-  constexpr int32_t& __get_chunkCount();
+  constexpr int32_t& __cordl_internal_get_chunkCount();
 
-  constexpr int32_t const& __get_chunkCount() const;
+  constexpr int32_t const& __cordl_internal_get_chunkCount() const;
 
-  constexpr void __set_chunkCount(int32_t value);
+  constexpr void __cordl_internal_set_chunkCount(int32_t value);
 
-  constexpr int32_t& __get_lastb();
+  constexpr int32_t& __cordl_internal_get_lastb();
 
-  constexpr int32_t const& __get_lastb() const;
+  constexpr int32_t const& __cordl_internal_get_lastb() const;
 
-  constexpr void __set_lastb(int32_t value);
+  constexpr void __cordl_internal_set_lastb(int32_t value);
 
-  constexpr bool& __get_start();
+  constexpr bool& __cordl_internal_get_start();
 
-  constexpr bool const& __get_start() const;
+  constexpr bool const& __cordl_internal_get_start() const;
 
-  constexpr void __set_start(bool value);
+  constexpr void __cordl_internal_set_start(bool value);
 
-  constexpr bool& __get_clearText();
+  constexpr bool& __cordl_internal_get_clearText();
 
-  constexpr bool const& __get_clearText() const;
+  constexpr bool const& __cordl_internal_get_clearText() const;
 
-  constexpr void __set_clearText(bool value);
+  constexpr void __cordl_internal_set_clearText(bool value);
 
-  constexpr bool& __get_newLine();
+  constexpr bool& __cordl_internal_get_newLine();
 
-  constexpr bool const& __get_newLine() const;
+  constexpr bool const& __cordl_internal_get_newLine() const;
 
-  constexpr void __set_newLine(bool value);
+  constexpr void __cordl_internal_set_newLine(bool value);
 
-  constexpr ::StringW& __get_type();
+  constexpr ::StringW& __cordl_internal_get_type();
 
-  constexpr ::StringW const& __get_type() const;
+  constexpr ::StringW const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::StringW value);
+  constexpr void __cordl_internal_set_type(::StringW value);
 
-  constexpr ::System::Collections::IDictionary*& __get_headers();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_headers(::System::Collections::IDictionary* value);
 
   static inline void setStaticF_HeaderVersion(::StringW value);
 

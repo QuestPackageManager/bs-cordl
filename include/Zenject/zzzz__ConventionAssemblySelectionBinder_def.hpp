@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::Zenject::__ConventionAssemblySelectionBinder____c__DisplayClass
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10682))
 // CS Name: ::ConventionAssemblySelectionBinder::<>c*
 class CORDL_TYPE __ConventionAssemblySelectionBinder____c : public ::System::Object {
@@ -108,20 +108,20 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__ConventionAssemblySel
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10683))
 // CS Name: ::ConventionAssemblySelectionBinder::<>c__DisplayClass12_0*
 class CORDL_TYPE __ConventionAssemblySelectionBinder____c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assemblies, offset 0x10, size 0x8
-  __declspec(property(get = __get_assemblies, put = __set_assemblies))::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* assemblies;
+  __declspec(property(get = __cordl_internal_get_assemblies, put = __cordl_internal_set_assemblies))::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* assemblies;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*& __get_assemblies();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*& __cordl_internal_get_assemblies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*> const& __get_assemblies() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*> const& __cordl_internal_get_assemblies() const;
 
-  constexpr void __set_assemblies(::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* value);
+  constexpr void __cordl_internal_set_assemblies(::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* value);
 
   static inline ::Zenject::__ConventionAssemblySelectionBinder____c__DisplayClass12_0* New_ctor();
 
@@ -166,7 +166,7 @@ static_assert(offsetof(::Zenject::__ConventionAssemblySelectionBinder____c__Disp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10684))
 // CS Name: ::Zenject::ConventionAssemblySelectionBinder*
 class CORDL_TYPE ConventionAssemblySelectionBinder : public ::System::Object {
@@ -177,15 +177,15 @@ public:
   using __c = ::Zenject::__ConventionAssemblySelectionBinder____c;
 
   /// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__BindInfo_k__BackingField, put = __set__BindInfo_k__BackingField))::Zenject::ConventionBindInfo* _BindInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField))::Zenject::ConventionBindInfo* _BindInfo_k__BackingField;
 
   __declspec(property(get = get_BindInfo, put = set_BindInfo))::Zenject::ConventionBindInfo* BindInfo;
 
-  constexpr ::Zenject::ConventionBindInfo*& __get__BindInfo_k__BackingField();
+  constexpr ::Zenject::ConventionBindInfo*& __cordl_internal_get__BindInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ConventionBindInfo*> const& __get__BindInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ConventionBindInfo*> const& __cordl_internal_get__BindInfo_k__BackingField() const;
 
-  constexpr void __set__BindInfo_k__BackingField(::Zenject::ConventionBindInfo* value);
+  constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::ConventionBindInfo* value);
 
   static inline ::Zenject::ConventionAssemblySelectionBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo);
 

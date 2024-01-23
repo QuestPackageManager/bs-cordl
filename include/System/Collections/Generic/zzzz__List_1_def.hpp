@@ -83,7 +83,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3842))
 // CS Name: ::List`1::Enumerator<T>
 struct CORDL_TYPE __List_1__Enumerator {
@@ -165,7 +165,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3843))
 // CS Name: ::System.Collections.Generic::List`1<T>*
 class CORDL_TYPE List_1 : public ::System::Object {
@@ -174,16 +174,16 @@ public:
   using Enumerator = ::System::Collections::Generic::__List_1__Enumerator<T>;
 
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::ArrayW<T, ::Array<T>*> _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::ArrayW<T, ::Array<T>*> _items;
 
   /// @brief Field _size, offset 0x18, size 0x4
-  __declspec(property(get = __get__size, put = __set__size)) int32_t _size;
+  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   /// @brief Field s_emptyArray, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_emptyArray, put = setStaticF_s_emptyArray))::ArrayW<T, ::Array<T>*> s_emptyArray;
@@ -254,29 +254,29 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__items();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__items();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__items() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__items(::ArrayW<T, ::Array<T>*> value);
 
-  constexpr int32_t& __get__size();
+  constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr int32_t const& __get__size() const;
+  constexpr int32_t const& __cordl_internal_get__size() const;
 
-  constexpr void __set__size(int32_t value);
+  constexpr void __cordl_internal_set__size(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline void setStaticF_s_emptyArray(::ArrayW<T, ::Array<T>*> value);
 

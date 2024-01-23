@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Log);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12136)), TypeDefinitionIndex(TypeDefinitionIndex(12135))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12135)), TypeDefinitionIndex(TypeDefinitionIndex(12136))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12137))
 // CS Name: ::UnityEngine.ProBuilder::Log*
 class CORDL_TYPE Log : public ::System::Object {

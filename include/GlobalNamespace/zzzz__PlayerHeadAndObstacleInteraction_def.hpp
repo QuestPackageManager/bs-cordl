@@ -36,76 +36,79 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerHeadAndObstacleInteraction);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5272))
 // CS Name: ::PlayerHeadAndObstacleInteraction*
 class CORDL_TYPE PlayerHeadAndObstacleInteraction : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _playerTransforms, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerTransforms, put = __set__playerTransforms))::GlobalNamespace::PlayerTransforms* _playerTransforms;
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
   /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field headDidEnterObstaclesEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_headDidEnterObstaclesEvent, put = __set_headDidEnterObstaclesEvent))::System::Action* headDidEnterObstaclesEvent;
+  __declspec(property(get = __cordl_internal_get_headDidEnterObstaclesEvent, put = __cordl_internal_set_headDidEnterObstaclesEvent))::System::Action* headDidEnterObstaclesEvent;
 
   /// @brief Field headDidEnterObstacleEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_headDidEnterObstacleEvent, put = __set_headDidEnterObstacleEvent))::System::Action_1<::GlobalNamespace::ObstacleController*>* headDidEnterObstacleEvent;
+  __declspec(property(get = __cordl_internal_get_headDidEnterObstacleEvent,
+                      put = __cordl_internal_set_headDidEnterObstacleEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* headDidEnterObstacleEvent;
 
   /// @brief Field _lastFrameNumCheck, offset 0x38, size 0x4
-  __declspec(property(get = __get__lastFrameNumCheck, put = __set__lastFrameNumCheck)) int32_t _lastFrameNumCheck;
+  __declspec(property(get = __cordl_internal_get__lastFrameNumCheck, put = __cordl_internal_set__lastFrameNumCheck)) int32_t _lastFrameNumCheck;
 
   /// @brief Field _intersectingObstacles, offset 0x40, size 0x8
-  __declspec(property(get = __get__intersectingObstacles, put = __set__intersectingObstacles))::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>* _intersectingObstacles;
+  __declspec(property(get = __cordl_internal_get__intersectingObstacles,
+                      put = __cordl_internal_set__intersectingObstacles))::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* _intersectingObstacles;
 
   /// @brief Field _prevFrameNumberOfIntersectingObstaclesCount, offset 0x48, size 0x4
-  __declspec(property(get = __get__prevFrameNumberOfIntersectingObstaclesCount, put = __set__prevFrameNumberOfIntersectingObstaclesCount)) int32_t _prevFrameNumberOfIntersectingObstaclesCount;
+  __declspec(property(get = __cordl_internal_get__prevFrameNumberOfIntersectingObstaclesCount,
+                      put = __cordl_internal_set__prevFrameNumberOfIntersectingObstaclesCount)) int32_t _prevFrameNumberOfIntersectingObstaclesCount;
 
   __declspec(property(get = get_playerHeadIsInObstacle)) bool playerHeadIsInObstacle;
 
-  constexpr ::GlobalNamespace::PlayerTransforms*& __get__playerTransforms();
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerTransforms*> const& __get__playerTransforms() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
 
-  constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms* value);
+  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::System::Action*& __get_headDidEnterObstaclesEvent();
+  constexpr ::System::Action*& __cordl_internal_get_headDidEnterObstaclesEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_headDidEnterObstaclesEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_headDidEnterObstaclesEvent() const;
 
-  constexpr void __set_headDidEnterObstaclesEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_headDidEnterObstaclesEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_headDidEnterObstacleEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_headDidEnterObstacleEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_headDidEnterObstacleEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_headDidEnterObstacleEvent() const;
 
-  constexpr void __set_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr int32_t& __get__lastFrameNumCheck();
+  constexpr int32_t& __cordl_internal_get__lastFrameNumCheck();
 
-  constexpr int32_t const& __get__lastFrameNumCheck() const;
+  constexpr int32_t const& __cordl_internal_get__lastFrameNumCheck() const;
 
-  constexpr void __set__lastFrameNumCheck(int32_t value);
+  constexpr void __cordl_internal_set__lastFrameNumCheck(int32_t value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*& __get__intersectingObstacles();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get__intersectingObstacles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*> const& __get__intersectingObstacles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get__intersectingObstacles() const;
 
-  constexpr void __set__intersectingObstacles(::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set__intersectingObstacles(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr int32_t& __get__prevFrameNumberOfIntersectingObstaclesCount();
+  constexpr int32_t& __cordl_internal_get__prevFrameNumberOfIntersectingObstaclesCount();
 
-  constexpr int32_t const& __get__prevFrameNumberOfIntersectingObstaclesCount() const;
+  constexpr int32_t const& __cordl_internal_get__prevFrameNumberOfIntersectingObstaclesCount() const;
 
-  constexpr void __set__prevFrameNumberOfIntersectingObstaclesCount(int32_t value);
+  constexpr void __cordl_internal_set__prevFrameNumberOfIntersectingObstaclesCount(int32_t value);
 
   /// @brief Method add_headDidEnterObstaclesEvent, addr 0x2260110, size 0x9c, virtual false, abstract: false, final false
   inline void add_headDidEnterObstaclesEvent(::System::Action* value);
@@ -114,10 +117,10 @@ public:
   inline void remove_headDidEnterObstaclesEvent(::System::Action* value);
 
   /// @brief Method add_headDidEnterObstacleEvent, addr 0x2260248, size 0xb0, virtual false, abstract: false, final false
-  inline void add_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_headDidEnterObstacleEvent, addr 0x22602f8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method get_playerHeadIsInObstacle, addr 0x225f81c, size 0x50, virtual false, abstract: false, final false
   inline bool get_playerHeadIsInObstacle();
@@ -148,7 +151,7 @@ protected:
 
 public:
   /// @brief Field _playerTransforms, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerTransforms* ____playerTransforms;
+  ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
   /// @brief Field _beatmapObjectManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
@@ -157,13 +160,13 @@ public:
   ::System::Action* ___headDidEnterObstaclesEvent;
 
   /// @brief Field headDidEnterObstacleEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___headDidEnterObstacleEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___headDidEnterObstacleEvent;
 
   /// @brief Field _lastFrameNumCheck, offset: 0x38, size: 0x4, def value: None
   int32_t ____lastFrameNumCheck;
 
   /// @brief Field _intersectingObstacles, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>* ____intersectingObstacles;
+  ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* ____intersectingObstacles;
 
   /// @brief Field _prevFrameNumberOfIntersectingObstaclesCount, offset: 0x48, size: 0x4, def value: None
   int32_t ____prevFrameNumberOfIntersectingObstaclesCount;

@@ -40,47 +40,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1171))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1171))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1318))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsRsaKeyExchange*
 class CORDL_TYPE TlsRsaKeyExchange : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange {
 public:
   // Declarations
   /// @brief Field mServerPublicKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_mServerPublicKey, put = __set_mServerPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
+  __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
 
   /// @brief Field mRsaServerPublicKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_mRsaServerPublicKey, put = __set_mRsaServerPublicKey))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* mRsaServerPublicKey;
+  __declspec(property(get = __cordl_internal_get_mRsaServerPublicKey, put = __cordl_internal_set_mRsaServerPublicKey))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* mRsaServerPublicKey;
 
   /// @brief Field mServerCredentials, offset 0x38, size 0x8
-  __declspec(property(get = __get_mServerCredentials, put = __set_mServerCredentials))::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* mServerCredentials;
+  __declspec(property(get = __cordl_internal_get_mServerCredentials, put = __cordl_internal_set_mServerCredentials))::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* mServerCredentials;
 
   /// @brief Field mPremasterSecret, offset 0x40, size 0x8
-  __declspec(property(get = __get_mPremasterSecret, put = __set_mPremasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> mPremasterSecret;
+  __declspec(property(get = __cordl_internal_get_mPremasterSecret, put = __cordl_internal_set_mPremasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> mPremasterSecret;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_mServerPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_mServerPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_mServerPublicKey() const;
 
-  constexpr void __set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __get_mRsaServerPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_mRsaServerPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __get_mRsaServerPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_mRsaServerPublicKey() const;
 
-  constexpr void __set_mRsaServerPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+  constexpr void __cordl_internal_set_mRsaServerPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*& __get_mServerCredentials();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*& __cordl_internal_get_mServerCredentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*> const& __get_mServerCredentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*> const& __cordl_internal_get_mServerCredentials() const;
 
-  constexpr void __set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* value);
+  constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPremasterSecret();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPremasterSecret();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPremasterSecret() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPremasterSecret() const;
 
-  constexpr void __set_mPremasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPremasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange* New_ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 

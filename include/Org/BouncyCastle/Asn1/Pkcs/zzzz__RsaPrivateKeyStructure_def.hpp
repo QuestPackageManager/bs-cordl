@@ -29,35 +29,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(249))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::RsaPrivateKeyStructure*
 class CORDL_TYPE RsaPrivateKeyStructure : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field modulus, offset 0x10, size 0x8
-  __declspec(property(get = __get_modulus, put = __set_modulus))::Org::BouncyCastle::Math::BigInteger* modulus;
+  __declspec(property(get = __cordl_internal_get_modulus, put = __cordl_internal_set_modulus))::Org::BouncyCastle::Math::BigInteger* modulus;
 
   /// @brief Field publicExponent, offset 0x18, size 0x8
-  __declspec(property(get = __get_publicExponent, put = __set_publicExponent))::Org::BouncyCastle::Math::BigInteger* publicExponent;
+  __declspec(property(get = __cordl_internal_get_publicExponent, put = __cordl_internal_set_publicExponent))::Org::BouncyCastle::Math::BigInteger* publicExponent;
 
   /// @brief Field privateExponent, offset 0x20, size 0x8
-  __declspec(property(get = __get_privateExponent, put = __set_privateExponent))::Org::BouncyCastle::Math::BigInteger* privateExponent;
+  __declspec(property(get = __cordl_internal_get_privateExponent, put = __cordl_internal_set_privateExponent))::Org::BouncyCastle::Math::BigInteger* privateExponent;
 
   /// @brief Field prime1, offset 0x28, size 0x8
-  __declspec(property(get = __get_prime1, put = __set_prime1))::Org::BouncyCastle::Math::BigInteger* prime1;
+  __declspec(property(get = __cordl_internal_get_prime1, put = __cordl_internal_set_prime1))::Org::BouncyCastle::Math::BigInteger* prime1;
 
   /// @brief Field prime2, offset 0x30, size 0x8
-  __declspec(property(get = __get_prime2, put = __set_prime2))::Org::BouncyCastle::Math::BigInteger* prime2;
+  __declspec(property(get = __cordl_internal_get_prime2, put = __cordl_internal_set_prime2))::Org::BouncyCastle::Math::BigInteger* prime2;
 
   /// @brief Field exponent1, offset 0x38, size 0x8
-  __declspec(property(get = __get_exponent1, put = __set_exponent1))::Org::BouncyCastle::Math::BigInteger* exponent1;
+  __declspec(property(get = __cordl_internal_get_exponent1, put = __cordl_internal_set_exponent1))::Org::BouncyCastle::Math::BigInteger* exponent1;
 
   /// @brief Field exponent2, offset 0x40, size 0x8
-  __declspec(property(get = __get_exponent2, put = __set_exponent2))::Org::BouncyCastle::Math::BigInteger* exponent2;
+  __declspec(property(get = __cordl_internal_get_exponent2, put = __cordl_internal_set_exponent2))::Org::BouncyCastle::Math::BigInteger* exponent2;
 
   /// @brief Field coefficient, offset 0x48, size 0x8
-  __declspec(property(get = __get_coefficient, put = __set_coefficient))::Org::BouncyCastle::Math::BigInteger* coefficient;
+  __declspec(property(get = __cordl_internal_get_coefficient, put = __cordl_internal_set_coefficient))::Org::BouncyCastle::Math::BigInteger* coefficient;
 
   __declspec(property(get = get_Modulus))::Org::BouncyCastle::Math::BigInteger* Modulus;
 
@@ -75,53 +75,53 @@ public:
 
   __declspec(property(get = get_Coefficient))::Org::BouncyCastle::Math::BigInteger* Coefficient;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_modulus();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_modulus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_modulus() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_modulus() const;
 
-  constexpr void __set_modulus(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_modulus(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_publicExponent();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_publicExponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_publicExponent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_publicExponent() const;
 
-  constexpr void __set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_privateExponent();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_privateExponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_privateExponent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_privateExponent() const;
 
-  constexpr void __set_privateExponent(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_privateExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_prime1();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_prime1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_prime1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_prime1() const;
 
-  constexpr void __set_prime1(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_prime1(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_prime2();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_prime2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_prime2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_prime2() const;
 
-  constexpr void __set_prime2(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_prime2(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_exponent1();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_exponent1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_exponent1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_exponent1() const;
 
-  constexpr void __set_exponent1(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_exponent1(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_exponent2();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_exponent2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_exponent2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_exponent2() const;
 
-  constexpr void __set_exponent2(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_exponent2(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_coefficient();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_coefficient();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_coefficient() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_coefficient() const;
 
-  constexpr void __set_coefficient(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_coefficient(::Org::BouncyCastle::Math::BigInteger* value);
 
   /// @brief Method GetInstance, addr 0xf8e34c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);

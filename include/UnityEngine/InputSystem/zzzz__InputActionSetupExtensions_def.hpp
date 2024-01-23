@@ -74,7 +74,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSche
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6166))
 // CS Name: ::InputActionSetupExtensions::BindingSyntax
 struct CORDL_TYPE __InputActionSetupExtensions__BindingSyntax {
@@ -204,7 +204,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionSetupExtensions_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6167))
 // CS Name: ::InputActionSetupExtensions::CompositeSyntax
 struct CORDL_TYPE __InputActionSetupExtensions__CompositeSyntax {
@@ -258,7 +258,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionSetupExtensions_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6204))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6204))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6168))
 // CS Name: ::InputActionSetupExtensions::ControlSchemeSyntax
 struct CORDL_TYPE __InputActionSetupExtensions__ControlSchemeSyntax {
@@ -306,9 +306,9 @@ public:
   /// @brief Method AddDeviceEntry, addr 0x2a4d020, size 0x20c, virtual false, abstract: false, final false
   inline void AddDeviceEntry(::StringW controlPath, ::GlobalNamespace::__InputControlScheme__DeviceRequirement__Flags flags);
 
-  // Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityEngine::InputSystem::InputActionAsset*", modifiers: "", def_value: None }, CppParam { name: "m_ControlSchemeIndex", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_ControlScheme", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers: "", def_value: None }]
-  constexpr __InputActionSetupExtensions__ControlSchemeSyntax(::UnityEngine::InputSystem::InputActionAsset* m_Asset, int32_t m_ControlSchemeIndex,
+  // Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: None }, CppParam { name: "m_ControlSchemeIndex", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ControlScheme", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers: "", def_value: None }]
+  constexpr __InputActionSetupExtensions__ControlSchemeSyntax(::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset, int32_t m_ControlSchemeIndex,
                                                               ::UnityEngine::InputSystem::InputControlScheme m_ControlScheme) noexcept;
 
   // Ctor Parameters []
@@ -316,7 +316,7 @@ public:
   constexpr __InputActionSetupExtensions__ControlSchemeSyntax();
 
   /// @brief Field m_Asset, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionAsset* m_Asset;
+  ::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset;
 
   /// @brief Field m_ControlSchemeIndex, offset: 0x8, size: 0x4, def value: None
   int32_t m_ControlSchemeIndex;
@@ -343,20 +343,20 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionSetupExtensions_
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6169))
 // CS Name: ::InputActionSetupExtensions::<>c__DisplayClass5_0*
 class CORDL_TYPE __InputActionSetupExtensions____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field binding, offset 0x10, size 0x58
-  __declspec(property(get = __get_binding, put = __set_binding))::UnityEngine::InputSystem::InputBinding binding;
+  __declspec(property(get = __cordl_internal_get_binding, put = __cordl_internal_set_binding))::UnityEngine::InputSystem::InputBinding binding;
 
-  constexpr ::UnityEngine::InputSystem::InputBinding& __get_binding();
+  constexpr ::UnityEngine::InputSystem::InputBinding& __cordl_internal_get_binding();
 
-  constexpr ::UnityEngine::InputSystem::InputBinding const& __get_binding() const;
+  constexpr ::UnityEngine::InputSystem::InputBinding const& __cordl_internal_get_binding() const;
 
-  constexpr void __set_binding(::UnityEngine::InputSystem::InputBinding value);
+  constexpr void __cordl_internal_set_binding(::UnityEngine::InputSystem::InputBinding value);
 
   static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0* New_ctor();
 
@@ -395,7 +395,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionSetupExtensions_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6170))
 // CS Name: ::UnityEngine.InputSystem::InputActionSetupExtensions*
 class CORDL_TYPE InputActionSetupExtensions : public ::System::Object {

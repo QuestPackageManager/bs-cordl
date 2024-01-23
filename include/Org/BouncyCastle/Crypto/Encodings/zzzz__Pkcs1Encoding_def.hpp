@@ -26,35 +26,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Encodings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(821))
 // CS Name: ::Org.BouncyCastle.Crypto.Encodings::Pkcs1Encoding*
 class CORDL_TYPE Pkcs1Encoding : public ::System::Object {
 public:
   // Declarations
   /// @brief Field random, offset 0x10, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field engine, offset 0x18, size 0x8
-  __declspec(property(get = __get_engine, put = __set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
 
   /// @brief Field forEncryption, offset 0x20, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field forPrivateKey, offset 0x21, size 0x1
-  __declspec(property(get = __get_forPrivateKey, put = __set_forPrivateKey)) bool forPrivateKey;
+  __declspec(property(get = __cordl_internal_get_forPrivateKey, put = __cordl_internal_set_forPrivateKey)) bool forPrivateKey;
 
   /// @brief Field useStrictLength, offset 0x22, size 0x1
-  __declspec(property(get = __get_useStrictLength, put = __set_useStrictLength)) bool useStrictLength;
+  __declspec(property(get = __cordl_internal_get_useStrictLength, put = __cordl_internal_set_useStrictLength)) bool useStrictLength;
 
   /// @brief Field pLen, offset 0x24, size 0x4
-  __declspec(property(get = __get_pLen, put = __set_pLen)) int32_t pLen;
+  __declspec(property(get = __cordl_internal_get_pLen, put = __cordl_internal_set_pLen)) int32_t pLen;
 
   /// @brief Field fallback, offset 0x28, size 0x8
-  __declspec(property(get = __get_fallback, put = __set_fallback))::ArrayW<uint8_t, ::Array<uint8_t>*> fallback;
+  __declspec(property(get = __cordl_internal_get_fallback, put = __cordl_internal_set_fallback))::ArrayW<uint8_t, ::Array<uint8_t>*> fallback;
 
   /// @brief Field blockBuffer, offset 0x30, size 0x8
-  __declspec(property(get = __get_blockBuffer, put = __set_blockBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> blockBuffer;
+  __declspec(property(get = __cordl_internal_get_blockBuffer, put = __cordl_internal_set_blockBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> blockBuffer;
 
   /// @brief Field strictLengthEnabled, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_strictLengthEnabled, put = setStaticF_strictLengthEnabled))::ArrayW<bool, ::Array<bool>*> strictLengthEnabled;
@@ -67,53 +67,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __cordl_internal_get_engine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __get_engine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr bool& __get_forPrivateKey();
+  constexpr bool& __cordl_internal_get_forPrivateKey();
 
-  constexpr bool const& __get_forPrivateKey() const;
+  constexpr bool const& __cordl_internal_get_forPrivateKey() const;
 
-  constexpr void __set_forPrivateKey(bool value);
+  constexpr void __cordl_internal_set_forPrivateKey(bool value);
 
-  constexpr bool& __get_useStrictLength();
+  constexpr bool& __cordl_internal_get_useStrictLength();
 
-  constexpr bool const& __get_useStrictLength() const;
+  constexpr bool const& __cordl_internal_get_useStrictLength() const;
 
-  constexpr void __set_useStrictLength(bool value);
+  constexpr void __cordl_internal_set_useStrictLength(bool value);
 
-  constexpr int32_t& __get_pLen();
+  constexpr int32_t& __cordl_internal_get_pLen();
 
-  constexpr int32_t const& __get_pLen() const;
+  constexpr int32_t const& __cordl_internal_get_pLen() const;
 
-  constexpr void __set_pLen(int32_t value);
+  constexpr void __cordl_internal_set_pLen(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fallback();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fallback();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fallback() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fallback() const;
 
-  constexpr void __set_fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_blockBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_blockBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_blockBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_blockBuffer() const;
 
-  constexpr void __set_blockBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_blockBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_strictLengthEnabled(::ArrayW<bool, ::Array<bool>*> value);
 

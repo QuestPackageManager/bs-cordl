@@ -31,101 +31,101 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsGraph);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15080))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15080))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15081))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsGraph*
 class CORDL_TYPE G_FpsGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
   // Declarations
   /// @brief Field m_imageGraph, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_imageGraph, put = __set_m_imageGraph))::UnityEngine::UI::Image* m_imageGraph;
+  __declspec(property(get = __cordl_internal_get_m_imageGraph, put = __cordl_internal_set_m_imageGraph))::UnityW<::UnityEngine::UI::Image> m_imageGraph;
 
   /// @brief Field ShaderFull, offset 0x20, size 0x8
-  __declspec(property(get = __get_ShaderFull, put = __set_ShaderFull))::UnityEngine::Shader* ShaderFull;
+  __declspec(property(get = __cordl_internal_get_ShaderFull, put = __cordl_internal_set_ShaderFull))::UnityW<::UnityEngine::Shader> ShaderFull;
 
   /// @brief Field ShaderLight, offset 0x28, size 0x8
-  __declspec(property(get = __get_ShaderLight, put = __set_ShaderLight))::UnityEngine::Shader* ShaderLight;
+  __declspec(property(get = __cordl_internal_get_ShaderLight, put = __cordl_internal_set_ShaderLight))::UnityW<::UnityEngine::Shader> ShaderLight;
 
   /// @brief Field m_isInitialized, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_isInitialized, put = __set_m_isInitialized)) bool m_isInitialized;
+  __declspec(property(get = __cordl_internal_get_m_isInitialized, put = __cordl_internal_set_m_isInitialized)) bool m_isInitialized;
 
   /// @brief Field m_graphyManager, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_graphyManager, put = __set_m_graphyManager))::Tayx::Graphy::GraphyManager* m_graphyManager;
+  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
 
   /// @brief Field m_fpsMonitor, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_fpsMonitor, put = __set_m_fpsMonitor))::Tayx::Graphy::Fps::G_FpsMonitor* m_fpsMonitor;
+  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor))::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
 
   /// @brief Field m_resolution, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_resolution, put = __set_m_resolution)) int32_t m_resolution;
+  __declspec(property(get = __cordl_internal_get_m_resolution, put = __cordl_internal_set_m_resolution)) int32_t m_resolution;
 
   /// @brief Field m_shaderGraph, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_shaderGraph, put = __set_m_shaderGraph))::Tayx::Graphy::G_GraphShader* m_shaderGraph;
+  __declspec(property(get = __cordl_internal_get_m_shaderGraph, put = __cordl_internal_set_m_shaderGraph))::Tayx::Graphy::G_GraphShader* m_shaderGraph;
 
   /// @brief Field m_fpsArray, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_fpsArray, put = __set_m_fpsArray))::ArrayW<int32_t, ::Array<int32_t>*> m_fpsArray;
+  __declspec(property(get = __cordl_internal_get_m_fpsArray, put = __cordl_internal_set_m_fpsArray))::ArrayW<int32_t, ::Array<int32_t>*> m_fpsArray;
 
   /// @brief Field m_highestFps, offset 0x60, size 0x4
-  __declspec(property(get = __get_m_highestFps, put = __set_m_highestFps)) int32_t m_highestFps;
+  __declspec(property(get = __cordl_internal_get_m_highestFps, put = __cordl_internal_set_m_highestFps)) int32_t m_highestFps;
 
-  constexpr ::UnityEngine::UI::Image*& __get_m_imageGraph();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_m_imageGraph();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get_m_imageGraph() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_imageGraph() const;
 
-  constexpr void __set_m_imageGraph(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set_m_imageGraph(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::Shader*& __get_ShaderFull();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_ShaderFull();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_ShaderFull() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
 
-  constexpr void __set_ShaderFull(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_ShaderFull(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Shader*& __get_ShaderLight();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_ShaderLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_ShaderLight() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderLight() const;
 
-  constexpr void __set_ShaderLight(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_ShaderLight(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr bool& __get_m_isInitialized();
+  constexpr bool& __cordl_internal_get_m_isInitialized();
 
-  constexpr bool const& __get_m_isInitialized() const;
+  constexpr bool const& __cordl_internal_get_m_isInitialized() const;
 
-  constexpr void __set_m_isInitialized(bool value);
+  constexpr void __cordl_internal_set_m_isInitialized(bool value);
 
-  constexpr ::Tayx::Graphy::GraphyManager*& __get_m_graphyManager();
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::GraphyManager*> const& __get_m_graphyManager() const;
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
 
-  constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager* value);
+  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
 
-  constexpr ::Tayx::Graphy::Fps::G_FpsMonitor*& __get_m_fpsMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>& __cordl_internal_get_m_fpsMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Fps::G_FpsMonitor*> const& __get_m_fpsMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
 
-  constexpr void __set_m_fpsMonitor(::Tayx::Graphy::Fps::G_FpsMonitor* value);
+  constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> value);
 
-  constexpr int32_t& __get_m_resolution();
+  constexpr int32_t& __cordl_internal_get_m_resolution();
 
-  constexpr int32_t const& __get_m_resolution() const;
+  constexpr int32_t const& __cordl_internal_get_m_resolution() const;
 
-  constexpr void __set_m_resolution(int32_t value);
+  constexpr void __cordl_internal_set_m_resolution(int32_t value);
 
-  constexpr ::Tayx::Graphy::G_GraphShader*& __get_m_shaderGraph();
+  constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraph();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __get_m_shaderGraph() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraph() const;
 
-  constexpr void __set_m_shaderGraph(::Tayx::Graphy::G_GraphShader* value);
+  constexpr void __cordl_internal_set_m_shaderGraph(::Tayx::Graphy::G_GraphShader* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_fpsArray();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_fpsArray();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_fpsArray() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_fpsArray() const;
 
-  constexpr void __set_m_fpsArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_fpsArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_m_highestFps();
+  constexpr int32_t& __cordl_internal_get_m_highestFps();
 
-  constexpr int32_t const& __get_m_highestFps() const;
+  constexpr int32_t const& __cordl_internal_get_m_highestFps() const;
 
-  constexpr void __set_m_highestFps(int32_t value);
+  constexpr void __cordl_internal_set_m_highestFps(int32_t value);
 
   /// @brief Method Update, addr 0x2a08444, size 0xc, virtual false, abstract: false, final false
   inline void Update();
@@ -162,22 +162,22 @@ protected:
 
 public:
   /// @brief Field m_imageGraph, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ___m_imageGraph;
+  ::UnityW<::UnityEngine::UI::Image> ___m_imageGraph;
 
   /// @brief Field ShaderFull, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___ShaderFull;
+  ::UnityW<::UnityEngine::Shader> ___ShaderFull;
 
   /// @brief Field ShaderLight, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___ShaderLight;
+  ::UnityW<::UnityEngine::Shader> ___ShaderLight;
 
   /// @brief Field m_isInitialized, offset: 0x30, size: 0x1, def value: None
   bool ___m_isInitialized;
 
   /// @brief Field m_graphyManager, offset: 0x38, size: 0x8, def value: None
-  ::Tayx::Graphy::GraphyManager* ___m_graphyManager;
+  ::UnityW<::Tayx::Graphy::GraphyManager> ___m_graphyManager;
 
   /// @brief Field m_fpsMonitor, offset: 0x40, size: 0x8, def value: None
-  ::Tayx::Graphy::Fps::G_FpsMonitor* ___m_fpsMonitor;
+  ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> ___m_fpsMonitor;
 
   /// @brief Field m_resolution, offset: 0x48, size: 0x4, def value: None
   int32_t ___m_resolution;

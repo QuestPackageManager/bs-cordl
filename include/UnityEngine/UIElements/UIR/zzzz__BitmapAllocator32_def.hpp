@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7375))
 // CS Name: ::BitmapAllocator32::Page
 struct CORDL_TYPE __BitmapAllocator32__Page {
@@ -74,7 +74,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7376))
 // CS Name: ::UnityEngine.UIElements.UIR::BitmapAllocator32
 struct CORDL_TYPE BitmapAllocator32 {

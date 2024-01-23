@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6236))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6580))
 // CS Name: ::UnityEngine.InputSystem.Processors::AxisDeadzoneProcessor*
 class CORDL_TYPE AxisDeadzoneProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
   /// @brief Field min, offset 0x10, size 0x4
-  __declspec(property(get = __get_min, put = __set_min)) float_t min;
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   /// @brief Field max, offset 0x14, size 0x4
-  __declspec(property(get = __get_max, put = __set_max)) float_t max;
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
   __declspec(property(get = get_minOrDefault)) float_t minOrDefault;
 
   __declspec(property(get = get_maxOrDefault)) float_t maxOrDefault;
 
-  constexpr float_t& __get_min();
+  constexpr float_t& __cordl_internal_get_min();
 
-  constexpr float_t const& __get_min() const;
+  constexpr float_t const& __cordl_internal_get_min() const;
 
-  constexpr void __set_min(float_t value);
+  constexpr void __cordl_internal_set_min(float_t value);
 
-  constexpr float_t& __get_max();
+  constexpr float_t& __cordl_internal_get_max();
 
-  constexpr float_t const& __get_max() const;
+  constexpr float_t const& __cordl_internal_get_max() const;
 
-  constexpr void __set_max(float_t value);
+  constexpr void __cordl_internal_set_max(float_t value);
 
   /// @brief Method get_minOrDefault, addr 0x2af8b0c, size 0x70, virtual false, abstract: false, final false
   inline float_t get_minOrDefault();

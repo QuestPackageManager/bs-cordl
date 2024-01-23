@@ -45,40 +45,40 @@ MARK_REF_PTR_T(::System::Globalization::TextInfo);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3706)) CS Name: ::System.Globalization::TextInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3706)) CS Name: ::System.Globalization::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_listSeparator, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_listSeparator, put = __set_m_listSeparator))::StringW m_listSeparator;
+  __declspec(property(get = __cordl_internal_get_m_listSeparator, put = __cordl_internal_set_m_listSeparator))::StringW m_listSeparator;
 
   /// @brief Field m_isReadOnly, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_isReadOnly, put = __set_m_isReadOnly)) bool m_isReadOnly;
+  __declspec(property(get = __cordl_internal_get_m_isReadOnly, put = __cordl_internal_set_m_isReadOnly)) bool m_isReadOnly;
 
   /// @brief Field m_cultureName, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_cultureName, put = __set_m_cultureName))::StringW m_cultureName;
+  __declspec(property(get = __cordl_internal_get_m_cultureName, put = __cordl_internal_set_m_cultureName))::StringW m_cultureName;
 
   /// @brief Field m_cultureData, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_cultureData, put = __set_m_cultureData))::System::Globalization::CultureData* m_cultureData;
+  __declspec(property(get = __cordl_internal_get_m_cultureData, put = __cordl_internal_set_m_cultureData))::System::Globalization::CultureData* m_cultureData;
 
   /// @brief Field m_textInfoName, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_textInfoName, put = __set_m_textInfoName))::StringW m_textInfoName;
+  __declspec(property(get = __cordl_internal_get_m_textInfoName, put = __cordl_internal_set_m_textInfoName))::StringW m_textInfoName;
 
   /// @brief Field m_IsAsciiCasingSameAsInvariant, offset 0x38, size 0x2
-  __declspec(property(get = __get_m_IsAsciiCasingSameAsInvariant, put = __set_m_IsAsciiCasingSameAsInvariant))::System::Nullable_1<bool> m_IsAsciiCasingSameAsInvariant;
+  __declspec(property(get = __cordl_internal_get_m_IsAsciiCasingSameAsInvariant, put = __cordl_internal_set_m_IsAsciiCasingSameAsInvariant))::System::Nullable_1<bool> m_IsAsciiCasingSameAsInvariant;
 
   /// @brief Field customCultureName, offset 0x40, size 0x8
-  __declspec(property(get = __get_customCultureName, put = __set_customCultureName))::StringW customCultureName;
+  __declspec(property(get = __cordl_internal_get_customCultureName, put = __cordl_internal_set_customCultureName))::StringW customCultureName;
 
   /// @brief Field m_nDataItem, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_nDataItem, put = __set_m_nDataItem)) int32_t m_nDataItem;
+  __declspec(property(get = __cordl_internal_get_m_nDataItem, put = __cordl_internal_set_m_nDataItem)) int32_t m_nDataItem;
 
   /// @brief Field m_useUserOverride, offset 0x4c, size 0x1
-  __declspec(property(get = __get_m_useUserOverride, put = __set_m_useUserOverride)) bool m_useUserOverride;
+  __declspec(property(get = __cordl_internal_get_m_useUserOverride, put = __cordl_internal_set_m_useUserOverride)) bool m_useUserOverride;
 
   /// @brief Field m_win32LangID, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_win32LangID, put = __set_m_win32LangID)) int32_t m_win32LangID;
+  __declspec(property(get = __cordl_internal_get_m_win32LangID, put = __cordl_internal_set_m_win32LangID)) int32_t m_win32LangID;
 
   /// @brief Field s_Invariant, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Invariant, put = setStaticF_s_Invariant))::System::Globalization::TextInfo* s_Invariant;
@@ -99,65 +99,65 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::StringW& __get_m_listSeparator();
+  constexpr ::StringW& __cordl_internal_get_m_listSeparator();
 
-  constexpr ::StringW const& __get_m_listSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_m_listSeparator() const;
 
-  constexpr void __set_m_listSeparator(::StringW value);
+  constexpr void __cordl_internal_set_m_listSeparator(::StringW value);
 
-  constexpr bool& __get_m_isReadOnly();
+  constexpr bool& __cordl_internal_get_m_isReadOnly();
 
-  constexpr bool const& __get_m_isReadOnly() const;
+  constexpr bool const& __cordl_internal_get_m_isReadOnly() const;
 
-  constexpr void __set_m_isReadOnly(bool value);
+  constexpr void __cordl_internal_set_m_isReadOnly(bool value);
 
-  constexpr ::StringW& __get_m_cultureName();
+  constexpr ::StringW& __cordl_internal_get_m_cultureName();
 
-  constexpr ::StringW const& __get_m_cultureName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_cultureName() const;
 
-  constexpr void __set_m_cultureName(::StringW value);
+  constexpr void __cordl_internal_set_m_cultureName(::StringW value);
 
-  constexpr ::System::Globalization::CultureData*& __get_m_cultureData();
+  constexpr ::System::Globalization::CultureData*& __cordl_internal_get_m_cultureData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureData*> const& __get_m_cultureData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureData*> const& __cordl_internal_get_m_cultureData() const;
 
-  constexpr void __set_m_cultureData(::System::Globalization::CultureData* value);
+  constexpr void __cordl_internal_set_m_cultureData(::System::Globalization::CultureData* value);
 
-  constexpr ::StringW& __get_m_textInfoName();
+  constexpr ::StringW& __cordl_internal_get_m_textInfoName();
 
-  constexpr ::StringW const& __get_m_textInfoName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_textInfoName() const;
 
-  constexpr void __set_m_textInfoName(::StringW value);
+  constexpr void __cordl_internal_set_m_textInfoName(::StringW value);
 
-  constexpr ::System::Nullable_1<bool>& __get_m_IsAsciiCasingSameAsInvariant();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get_m_IsAsciiCasingSameAsInvariant();
 
-  constexpr ::System::Nullable_1<bool> const& __get_m_IsAsciiCasingSameAsInvariant() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_m_IsAsciiCasingSameAsInvariant() const;
 
-  constexpr void __set_m_IsAsciiCasingSameAsInvariant(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set_m_IsAsciiCasingSameAsInvariant(::System::Nullable_1<bool> value);
 
-  constexpr ::StringW& __get_customCultureName();
+  constexpr ::StringW& __cordl_internal_get_customCultureName();
 
-  constexpr ::StringW const& __get_customCultureName() const;
+  constexpr ::StringW const& __cordl_internal_get_customCultureName() const;
 
-  constexpr void __set_customCultureName(::StringW value);
+  constexpr void __cordl_internal_set_customCultureName(::StringW value);
 
-  constexpr int32_t& __get_m_nDataItem();
+  constexpr int32_t& __cordl_internal_get_m_nDataItem();
 
-  constexpr int32_t const& __get_m_nDataItem() const;
+  constexpr int32_t const& __cordl_internal_get_m_nDataItem() const;
 
-  constexpr void __set_m_nDataItem(int32_t value);
+  constexpr void __cordl_internal_set_m_nDataItem(int32_t value);
 
-  constexpr bool& __get_m_useUserOverride();
+  constexpr bool& __cordl_internal_get_m_useUserOverride();
 
-  constexpr bool const& __get_m_useUserOverride() const;
+  constexpr bool const& __cordl_internal_get_m_useUserOverride() const;
 
-  constexpr void __set_m_useUserOverride(bool value);
+  constexpr void __cordl_internal_set_m_useUserOverride(bool value);
 
-  constexpr int32_t& __get_m_win32LangID();
+  constexpr int32_t& __cordl_internal_get_m_win32LangID();
 
-  constexpr int32_t const& __get_m_win32LangID() const;
+  constexpr int32_t const& __cordl_internal_get_m_win32LangID() const;
 
-  constexpr void __set_m_win32LangID(int32_t value);
+  constexpr void __cordl_internal_set_m_win32LangID(int32_t value);
 
   static inline void setStaticF_s_Invariant(::System::Globalization::TextInfo* value);
 

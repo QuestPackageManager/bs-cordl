@@ -60,7 +60,7 @@ MARK_VAL_T(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize)
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12461))
 // CS Name: ::TexturePacker_JsonArray::SpriteFrame
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteFrame {
@@ -110,7 +110,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12462))
 // CS Name: ::TexturePacker_JsonArray::SpriteSize
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteSize {
@@ -149,7 +149,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12461)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12462))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12461)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12463))
 // CS Name: ::TexturePacker_JsonArray::Frame
 struct CORDL_TYPE __TexturePacker_JsonArray__Frame {
@@ -216,7 +216,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12462))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12462))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12464))
 // CS Name: ::TexturePacker_JsonArray::Meta
 struct CORDL_TYPE __TexturePacker_JsonArray__Meta {
@@ -281,29 +281,30 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12464))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12464))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12465))
 // CS Name: ::TexturePacker_JsonArray::SpriteDataObject*
 class CORDL_TYPE __TexturePacker_JsonArray__SpriteDataObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field frames, offset 0x10, size 0x8
-  __declspec(property(get = __get_frames, put = __set_frames))::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* frames;
+  __declspec(property(get = __cordl_internal_get_frames,
+                      put = __cordl_internal_set_frames))::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* frames;
 
   /// @brief Field meta, offset 0x18, size 0x38
-  __declspec(property(get = __get_meta, put = __set_meta))::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta meta;
+  __declspec(property(get = __cordl_internal_get_meta, put = __cordl_internal_set_meta))::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta meta;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*& __get_frames();
+  constexpr ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*& __cordl_internal_get_frames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*> const& __get_frames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*> const& __cordl_internal_get_frames() const;
 
-  constexpr void __set_frames(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* value);
+  constexpr void __cordl_internal_set_frames(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* value);
 
-  constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta& __get_meta();
+  constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta& __cordl_internal_get_meta();
 
-  constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta const& __get_meta() const;
+  constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta const& __cordl_internal_get_meta() const;
 
-  constexpr void __set_meta(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta value);
+  constexpr void __cordl_internal_set_meta(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta value);
 
   static inline ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject* New_ctor();
 
@@ -344,7 +345,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12466))
 // CS Name: ::TMPro.SpriteAssetUtilities::TexturePacker_JsonArray*
 class CORDL_TYPE TexturePacker_JsonArray : public ::System::Object {

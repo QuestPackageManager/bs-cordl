@@ -36,7 +36,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5302 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5302 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3363))
 // CS Name: ::ConfiguredValueTaskAwaitable`1::ConfiguredValueTaskAwaiter<TResult>
 struct CORDL_TYPE __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter {
@@ -94,7 +94,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 1127 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 1127 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3364))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable`1<TResult>
 struct CORDL_TYPE ConfiguredValueTaskAwaitable_1 {

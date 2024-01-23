@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::PbeParametersGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(916))
 // CS Name: ::Org.BouncyCastle.Crypto::PbeParametersGenerator*
 class CORDL_TYPE PbeParametersGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mPassword, offset 0x10, size 0x8
-  __declspec(property(get = __get_mPassword, put = __set_mPassword))::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
+  __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword))::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
 
   /// @brief Field mSalt, offset 0x18, size 0x8
-  __declspec(property(get = __get_mSalt, put = __set_mSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> mSalt;
+  __declspec(property(get = __cordl_internal_get_mSalt, put = __cordl_internal_set_mSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> mSalt;
 
   /// @brief Field mIterationCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_mIterationCount, put = __set_mIterationCount)) int32_t mIterationCount;
+  __declspec(property(get = __cordl_internal_get_mIterationCount, put = __cordl_internal_set_mIterationCount)) int32_t mIterationCount;
 
   __declspec(property(get = get_Password))::ArrayW<uint8_t, ::Array<uint8_t>*> Password;
 
@@ -41,23 +41,23 @@ public:
 
   __declspec(property(get = get_IterationCount)) int32_t IterationCount;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPassword();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPassword();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPassword() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPassword() const;
 
-  constexpr void __set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSalt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSalt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSalt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSalt() const;
 
-  constexpr void __set_mSalt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSalt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mIterationCount();
+  constexpr int32_t& __cordl_internal_get_mIterationCount();
 
-  constexpr int32_t const& __get_mIterationCount() const;
+  constexpr int32_t const& __cordl_internal_get_mIterationCount() const;
 
-  constexpr void __set_mIterationCount(int32_t value);
+  constexpr void __cordl_internal_set_mIterationCount(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::PbeParametersGenerator* New_ctor();
 

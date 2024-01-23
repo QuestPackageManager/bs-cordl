@@ -80,7 +80,7 @@ MARK_VAL_T(::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8856))
 // CS Name: ::CertificateData::AlgorithmIdentifier
 struct CORDL_TYPE __CertificateData__AlgorithmIdentifier {
@@ -117,31 +117,32 @@ static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData__Algorit
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 608 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 608
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
 class CORDL_TYPE __CertificateData___ReadReverseRdns_d__21 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name;
 
   /// @brief Field <>3__name, offset 0x38, size 0x8
-  __declspec(property(get = __get___3__name, put = __set___3__name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* __3__name;
+  __declspec(property(get = __cordl_internal_get___3__name, put = __cordl_internal_set___3__name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* __3__name;
 
   /// @brief Field <rdnReaders>5__2, offset 0x40, size 0x8
-  __declspec(property(get = __get__rdnReaders_5__2, put = __set__rdnReaders_5__2))::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* _rdnReaders_5__2;
+  __declspec(property(get = __cordl_internal_get__rdnReaders_5__2,
+                      put = __cordl_internal_set__rdnReaders_5__2))::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* _rdnReaders_5__2;
 
   /// @brief Field <rdnReader>5__3, offset 0x48, size 0x8
-  __declspec(property(get = __get__rdnReader_5__3, put = __set__rdnReader_5__3))::System::Security::Cryptography::DerSequenceReader* _rdnReader_5__3;
+  __declspec(property(get = __cordl_internal_get__rdnReader_5__3, put = __cordl_internal_set__rdnReader_5__3))::System::Security::Cryptography::DerSequenceReader* _rdnReader_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current))::System::Collections::Generic::KeyValuePair_2<
       ::StringW, ::StringW> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___Current;
@@ -180,47 +181,47 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>& __get___2__current();
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> const& __get___2__current() const;
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> value);
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __get_name();
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
+  constexpr void __cordl_internal_set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __get___3__name();
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get___3__name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __get___3__name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __cordl_internal_get___3__name() const;
 
-  constexpr void __set___3__name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
+  constexpr void __cordl_internal_set___3__name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  constexpr ::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*& __get__rdnReaders_5__2();
+  constexpr ::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*& __cordl_internal_get__rdnReaders_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*> const& __get__rdnReaders_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*> const& __cordl_internal_get__rdnReaders_5__2() const;
 
-  constexpr void __set__rdnReaders_5__2(::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* value);
+  constexpr void __cordl_internal_set__rdnReaders_5__2(::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* value);
 
-  constexpr ::System::Security::Cryptography::DerSequenceReader*& __get__rdnReader_5__3();
+  constexpr ::System::Security::Cryptography::DerSequenceReader*& __cordl_internal_get__rdnReader_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DerSequenceReader*> const& __get__rdnReader_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DerSequenceReader*> const& __cordl_internal_get__rdnReader_5__3() const;
 
-  constexpr void __set__rdnReader_5__3(::System::Security::Cryptography::DerSequenceReader* value);
+  constexpr void __cordl_internal_set__rdnReader_5__3(::System::Security::Cryptography::DerSequenceReader* value);
 
   static inline ::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
 
@@ -311,7 +312,7 @@ static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadRe
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8856)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(8856))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8858))
 // CS Name: ::Internal.Cryptography.Pal::CertificateData
 struct CORDL_TYPE CertificateData {

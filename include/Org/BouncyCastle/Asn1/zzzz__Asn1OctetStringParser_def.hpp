@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1OctetStringParser);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(455))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1OctetStringParser*
 class CORDL_TYPE Asn1OctetStringParser {

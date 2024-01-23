@@ -45,7 +45,7 @@ MARK_VAL_T(::Mono::__RuntimeStructs__RemoteClass);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2235))
 // CS Name: ::RuntimeStructs::RemoteClass
 struct CORDL_TYPE __RuntimeStructs__RemoteClass {
@@ -99,7 +99,7 @@ static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, interface_count) =
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace Mono {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2236))
 // CS Name: ::RuntimeStructs::MonoClass
 #pragma pack(push, 0)
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__MonoClas
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2237))
 // CS Name: ::RuntimeStructs::GenericParamInfo
 struct CORDL_TYPE __RuntimeStructs__GenericParamInfo {
@@ -181,7 +181,7 @@ static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, constraints) 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2238))
 // CS Name: ::RuntimeStructs::GPtrArray
 struct CORDL_TYPE __RuntimeStructs__GPtrArray {
@@ -217,7 +217,7 @@ static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, len) == 0x8, "Offset
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2239))
 // CS Name: ::Mono::RuntimeStructs*
 class CORDL_TYPE RuntimeStructs : public ::System::Object {

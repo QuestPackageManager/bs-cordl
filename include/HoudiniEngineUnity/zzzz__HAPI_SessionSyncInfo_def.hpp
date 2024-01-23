@@ -14,7 +14,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SessionSyncInfo);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9756))
 // CS Name: ::HoudiniEngineUnity::HAPI_SessionSyncInfo
 struct CORDL_TYPE HAPI_SessionSyncInfo {

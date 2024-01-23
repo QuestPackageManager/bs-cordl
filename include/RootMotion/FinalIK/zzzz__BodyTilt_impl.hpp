@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x1294a2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BodyTilt*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BodyTilt*>::get(), 5));
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x1294a94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BodyTilt*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BodyTilt*>::get(), 4));
@@ -38,81 +38,81 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x1294d34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BodyTilt*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& RootMotion::FinalIK::BodyTilt::__get_tiltSpeed() {
+constexpr float_t& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_tiltSpeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSpeed;
 }
-constexpr float_t const& RootMotion::FinalIK::BodyTilt::__get_tiltSpeed() const {
+constexpr float_t const& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_tiltSpeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSpeed;
 }
-constexpr void RootMotion::FinalIK::BodyTilt::__set_tiltSpeed(float_t value) {
+constexpr void RootMotion::FinalIK::BodyTilt::__cordl_internal_set_tiltSpeed(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tiltSpeed = value;
 }
-constexpr float_t& RootMotion::FinalIK::BodyTilt::__get_tiltSensitivity() {
+constexpr float_t& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_tiltSensitivity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSensitivity;
 }
-constexpr float_t const& RootMotion::FinalIK::BodyTilt::__get_tiltSensitivity() const {
+constexpr float_t const& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_tiltSensitivity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSensitivity;
 }
-constexpr void RootMotion::FinalIK::BodyTilt::__set_tiltSensitivity(float_t value) {
+constexpr void RootMotion::FinalIK::BodyTilt::__cordl_internal_set_tiltSensitivity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tiltSensitivity = value;
 }
-constexpr ::RootMotion::FinalIK::OffsetPose*& RootMotion::FinalIK::BodyTilt::__get_poseLeft() {
+constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_poseLeft() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseLeft;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetPose*> const& RootMotion::FinalIK::BodyTilt::__get_poseLeft() const {
+constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_poseLeft() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseLeft;
 }
-constexpr void RootMotion::FinalIK::BodyTilt::__set_poseLeft(::RootMotion::FinalIK::OffsetPose* value) {
+constexpr void RootMotion::FinalIK::BodyTilt::__cordl_internal_set_poseLeft(::UnityW<::RootMotion::FinalIK::OffsetPose> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poseLeft)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::RootMotion::FinalIK::OffsetPose*& RootMotion::FinalIK::BodyTilt::__get_poseRight() {
+constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_poseRight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseRight;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetPose*> const& RootMotion::FinalIK::BodyTilt::__get_poseRight() const {
+constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_poseRight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseRight;
 }
-constexpr void RootMotion::FinalIK::BodyTilt::__set_poseRight(::RootMotion::FinalIK::OffsetPose* value) {
+constexpr void RootMotion::FinalIK::BodyTilt::__cordl_internal_set_poseRight(::UnityW<::RootMotion::FinalIK::OffsetPose> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poseRight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& RootMotion::FinalIK::BodyTilt::__get_tiltAngle() {
+constexpr float_t& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_tiltAngle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltAngle;
 }
-constexpr float_t const& RootMotion::FinalIK::BodyTilt::__get_tiltAngle() const {
+constexpr float_t const& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_tiltAngle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltAngle;
 }
-constexpr void RootMotion::FinalIK::BodyTilt::__set_tiltAngle(float_t value) {
+constexpr void RootMotion::FinalIK::BodyTilt::__cordl_internal_set_tiltAngle(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tiltAngle = value;
 }
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::BodyTilt::__get_lastForward() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_lastForward() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastForward;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::BodyTilt::__get_lastForward() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::BodyTilt::__cordl_internal_get_lastForward() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastForward;
 }
-constexpr void RootMotion::FinalIK::BodyTilt::__set_lastForward(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::BodyTilt::__cordl_internal_set_lastForward(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastForward = value;
 }
@@ -127,11 +127,11 @@ inline void RootMotion::FinalIK::BodyTilt::OnModifyOffset() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::RootMotion::FinalIK::BodyTilt* RootMotion::FinalIK::BodyTilt::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::BodyTilt*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::BodyTilt*>());
 }
 inline void RootMotion::FinalIK::BodyTilt::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BodyTilt*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

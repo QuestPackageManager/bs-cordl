@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::AxisComposite);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6713))
 // CS Name: ::AxisComposite::WhichSideWins
 struct CORDL_TYPE __AxisComposite__WhichSideWins {
@@ -83,59 +83,59 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__AxisComposite__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6190)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6713))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6714)) CS Name: ::UnityEngine.InputSystem.Composites::AxisComposite*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6713)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6714)) CS Name: ::UnityEngine.InputSystem.Composites::AxisComposite*
 class CORDL_TYPE AxisComposite : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
   // Declarations
   using WhichSideWins = ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins;
 
   /// @brief Field negative, offset 0x10, size 0x4
-  __declspec(property(get = __get_negative, put = __set_negative)) int32_t negative;
+  __declspec(property(get = __cordl_internal_get_negative, put = __cordl_internal_set_negative)) int32_t negative;
 
   /// @brief Field positive, offset 0x14, size 0x4
-  __declspec(property(get = __get_positive, put = __set_positive)) int32_t positive;
+  __declspec(property(get = __cordl_internal_get_positive, put = __cordl_internal_set_positive)) int32_t positive;
 
   /// @brief Field minValue, offset 0x18, size 0x4
-  __declspec(property(get = __get_minValue, put = __set_minValue)) float_t minValue;
+  __declspec(property(get = __cordl_internal_get_minValue, put = __cordl_internal_set_minValue)) float_t minValue;
 
   /// @brief Field maxValue, offset 0x1c, size 0x4
-  __declspec(property(get = __get_maxValue, put = __set_maxValue)) float_t maxValue;
+  __declspec(property(get = __cordl_internal_get_maxValue, put = __cordl_internal_set_maxValue)) float_t maxValue;
 
   /// @brief Field whichSideWins, offset 0x20, size 0x4
-  __declspec(property(get = __get_whichSideWins, put = __set_whichSideWins))::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins whichSideWins;
+  __declspec(property(get = __cordl_internal_get_whichSideWins, put = __cordl_internal_set_whichSideWins))::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins whichSideWins;
 
   __declspec(property(get = get_midPoint)) float_t midPoint;
 
-  constexpr int32_t& __get_negative();
+  constexpr int32_t& __cordl_internal_get_negative();
 
-  constexpr int32_t const& __get_negative() const;
+  constexpr int32_t const& __cordl_internal_get_negative() const;
 
-  constexpr void __set_negative(int32_t value);
+  constexpr void __cordl_internal_set_negative(int32_t value);
 
-  constexpr int32_t& __get_positive();
+  constexpr int32_t& __cordl_internal_get_positive();
 
-  constexpr int32_t const& __get_positive() const;
+  constexpr int32_t const& __cordl_internal_get_positive() const;
 
-  constexpr void __set_positive(int32_t value);
+  constexpr void __cordl_internal_set_positive(int32_t value);
 
-  constexpr float_t& __get_minValue();
+  constexpr float_t& __cordl_internal_get_minValue();
 
-  constexpr float_t const& __get_minValue() const;
+  constexpr float_t const& __cordl_internal_get_minValue() const;
 
-  constexpr void __set_minValue(float_t value);
+  constexpr void __cordl_internal_set_minValue(float_t value);
 
-  constexpr float_t& __get_maxValue();
+  constexpr float_t& __cordl_internal_get_maxValue();
 
-  constexpr float_t const& __get_maxValue() const;
+  constexpr float_t const& __cordl_internal_get_maxValue() const;
 
-  constexpr void __set_maxValue(float_t value);
+  constexpr void __cordl_internal_set_maxValue(float_t value);
 
-  constexpr ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins& __get_whichSideWins();
+  constexpr ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins& __cordl_internal_get_whichSideWins();
 
-  constexpr ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins const& __get_whichSideWins() const;
+  constexpr ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins const& __cordl_internal_get_whichSideWins() const;
 
-  constexpr void __set_whichSideWins(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins value);
+  constexpr void __cordl_internal_set_whichSideWins(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins value);
 
   /// @brief Method get_midPoint, addr 0x2a5aabc, size 0x14, virtual false, abstract: false, final false
   inline float_t get_midPoint();

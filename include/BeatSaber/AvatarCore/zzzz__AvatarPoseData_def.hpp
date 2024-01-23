@@ -18,7 +18,7 @@ MARK_VAL_T(::BeatSaber::AvatarCore::AvatarPoseData);
 // SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10057))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15174))
 // CS Name: ::BeatSaber.AvatarCore::AvatarPoseData
 struct CORDL_TYPE AvatarPoseData {

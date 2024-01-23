@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::System::Net::HttpListenerRequestUriBuilder);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9064))
 // CS Name: ::HttpListenerRequestUriBuilder::ParsingResult
 struct CORDL_TYPE __HttpListenerRequestUriBuilder__ParsingResult {
@@ -104,7 +104,7 @@ static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__ParsingRe
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9065))
 // CS Name: ::HttpListenerRequestUriBuilder::EncodingType
 struct CORDL_TYPE __HttpListenerRequestUriBuilder__EncodingType {
@@ -154,7 +154,7 @@ static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__EncodingT
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9066))
 // CS Name: ::System.Net::HttpListenerRequestUriBuilder*
 class CORDL_TYPE HttpListenerRequestUriBuilder : public ::System::Object {
@@ -165,31 +165,31 @@ public:
   using ParsingResult = ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult;
 
   /// @brief Field rawUri, offset 0x10, size 0x8
-  __declspec(property(get = __get_rawUri, put = __set_rawUri))::StringW rawUri;
+  __declspec(property(get = __cordl_internal_get_rawUri, put = __cordl_internal_set_rawUri))::StringW rawUri;
 
   /// @brief Field cookedUriScheme, offset 0x18, size 0x8
-  __declspec(property(get = __get_cookedUriScheme, put = __set_cookedUriScheme))::StringW cookedUriScheme;
+  __declspec(property(get = __cordl_internal_get_cookedUriScheme, put = __cordl_internal_set_cookedUriScheme))::StringW cookedUriScheme;
 
   /// @brief Field cookedUriHost, offset 0x20, size 0x8
-  __declspec(property(get = __get_cookedUriHost, put = __set_cookedUriHost))::StringW cookedUriHost;
+  __declspec(property(get = __cordl_internal_get_cookedUriHost, put = __cordl_internal_set_cookedUriHost))::StringW cookedUriHost;
 
   /// @brief Field cookedUriPath, offset 0x28, size 0x8
-  __declspec(property(get = __get_cookedUriPath, put = __set_cookedUriPath))::StringW cookedUriPath;
+  __declspec(property(get = __cordl_internal_get_cookedUriPath, put = __cordl_internal_set_cookedUriPath))::StringW cookedUriPath;
 
   /// @brief Field cookedUriQuery, offset 0x30, size 0x8
-  __declspec(property(get = __get_cookedUriQuery, put = __set_cookedUriQuery))::StringW cookedUriQuery;
+  __declspec(property(get = __cordl_internal_get_cookedUriQuery, put = __cordl_internal_set_cookedUriQuery))::StringW cookedUriQuery;
 
   /// @brief Field requestUriString, offset 0x38, size 0x8
-  __declspec(property(get = __get_requestUriString, put = __set_requestUriString))::System::Text::StringBuilder* requestUriString;
+  __declspec(property(get = __cordl_internal_get_requestUriString, put = __cordl_internal_set_requestUriString))::System::Text::StringBuilder* requestUriString;
 
   /// @brief Field rawOctets, offset 0x40, size 0x8
-  __declspec(property(get = __get_rawOctets, put = __set_rawOctets))::System::Collections::Generic::List_1<uint8_t>* rawOctets;
+  __declspec(property(get = __cordl_internal_get_rawOctets, put = __cordl_internal_set_rawOctets))::System::Collections::Generic::List_1<uint8_t>* rawOctets;
 
   /// @brief Field rawPath, offset 0x48, size 0x8
-  __declspec(property(get = __get_rawPath, put = __set_rawPath))::StringW rawPath;
+  __declspec(property(get = __cordl_internal_get_rawPath, put = __cordl_internal_set_rawPath))::StringW rawPath;
 
   /// @brief Field requestUri, offset 0x50, size 0x8
-  __declspec(property(get = __get_requestUri, put = __set_requestUri))::System::Uri* requestUri;
+  __declspec(property(get = __cordl_internal_get_requestUri, put = __cordl_internal_set_requestUri))::System::Uri* requestUri;
 
   /// @brief Field useCookedRequestUrl, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_useCookedRequestUrl, put = setStaticF_useCookedRequestUrl)) bool useCookedRequestUrl;
@@ -200,59 +200,59 @@ public:
   /// @brief Field ansiEncoding, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ansiEncoding, put = setStaticF_ansiEncoding))::System::Text::Encoding* ansiEncoding;
 
-  constexpr ::StringW& __get_rawUri();
+  constexpr ::StringW& __cordl_internal_get_rawUri();
 
-  constexpr ::StringW const& __get_rawUri() const;
+  constexpr ::StringW const& __cordl_internal_get_rawUri() const;
 
-  constexpr void __set_rawUri(::StringW value);
+  constexpr void __cordl_internal_set_rawUri(::StringW value);
 
-  constexpr ::StringW& __get_cookedUriScheme();
+  constexpr ::StringW& __cordl_internal_get_cookedUriScheme();
 
-  constexpr ::StringW const& __get_cookedUriScheme() const;
+  constexpr ::StringW const& __cordl_internal_get_cookedUriScheme() const;
 
-  constexpr void __set_cookedUriScheme(::StringW value);
+  constexpr void __cordl_internal_set_cookedUriScheme(::StringW value);
 
-  constexpr ::StringW& __get_cookedUriHost();
+  constexpr ::StringW& __cordl_internal_get_cookedUriHost();
 
-  constexpr ::StringW const& __get_cookedUriHost() const;
+  constexpr ::StringW const& __cordl_internal_get_cookedUriHost() const;
 
-  constexpr void __set_cookedUriHost(::StringW value);
+  constexpr void __cordl_internal_set_cookedUriHost(::StringW value);
 
-  constexpr ::StringW& __get_cookedUriPath();
+  constexpr ::StringW& __cordl_internal_get_cookedUriPath();
 
-  constexpr ::StringW const& __get_cookedUriPath() const;
+  constexpr ::StringW const& __cordl_internal_get_cookedUriPath() const;
 
-  constexpr void __set_cookedUriPath(::StringW value);
+  constexpr void __cordl_internal_set_cookedUriPath(::StringW value);
 
-  constexpr ::StringW& __get_cookedUriQuery();
+  constexpr ::StringW& __cordl_internal_get_cookedUriQuery();
 
-  constexpr ::StringW const& __get_cookedUriQuery() const;
+  constexpr ::StringW const& __cordl_internal_get_cookedUriQuery() const;
 
-  constexpr void __set_cookedUriQuery(::StringW value);
+  constexpr void __cordl_internal_set_cookedUriQuery(::StringW value);
 
-  constexpr ::System::Text::StringBuilder*& __get_requestUriString();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_requestUriString();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_requestUriString() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_requestUriString() const;
 
-  constexpr void __set_requestUriString(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_requestUriString(::System::Text::StringBuilder* value);
 
-  constexpr ::System::Collections::Generic::List_1<uint8_t>*& __get_rawOctets();
+  constexpr ::System::Collections::Generic::List_1<uint8_t>*& __cordl_internal_get_rawOctets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint8_t>*> const& __get_rawOctets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint8_t>*> const& __cordl_internal_get_rawOctets() const;
 
-  constexpr void __set_rawOctets(::System::Collections::Generic::List_1<uint8_t>* value);
+  constexpr void __cordl_internal_set_rawOctets(::System::Collections::Generic::List_1<uint8_t>* value);
 
-  constexpr ::StringW& __get_rawPath();
+  constexpr ::StringW& __cordl_internal_get_rawPath();
 
-  constexpr ::StringW const& __get_rawPath() const;
+  constexpr ::StringW const& __cordl_internal_get_rawPath() const;
 
-  constexpr void __set_rawPath(::StringW value);
+  constexpr void __cordl_internal_set_rawPath(::StringW value);
 
-  constexpr ::System::Uri*& __get_requestUri();
+  constexpr ::System::Uri*& __cordl_internal_get_requestUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_requestUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_requestUri() const;
 
-  constexpr void __set_requestUri(::System::Uri* value);
+  constexpr void __cordl_internal_set_requestUri(::System::Uri* value);
 
   static inline void setStaticF_useCookedRequestUrl(bool value);
 

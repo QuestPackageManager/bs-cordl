@@ -85,7 +85,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8145))
 // CS Name: ::OVRObjectPool::Storage`1<T>*
 class CORDL_TYPE __OVRObjectPool__Storage_1 : public ::System::Object {
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8146))
 // CS Name: ::OVRObjectPool::ListScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__ListScope_1 {
@@ -163,7 +163,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8147))
 // CS Name: ::OVRObjectPool::DictionaryScope`2<TKey,TValue>
 struct CORDL_TYPE __OVRObjectPool__DictionaryScope_2 {
@@ -204,7 +204,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8148))
 // CS Name: ::OVRObjectPool::HashSetScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__HashSetScope_1 {
@@ -245,7 +245,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8149))
 // CS Name: ::OVRObjectPool::StackScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__StackScope_1 {
@@ -286,7 +286,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8150))
 // CS Name: ::OVRObjectPool::QueueScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__QueueScope_1 {
@@ -327,7 +327,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8151))
 // CS Name: ::OVRObjectPool::ItemScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__ItemScope_1 {
@@ -366,7 +366,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8152))
 // CS Name: ::OVRObjectPool*
 class CORDL_TYPE OVRObjectPool : public ::System::Object {

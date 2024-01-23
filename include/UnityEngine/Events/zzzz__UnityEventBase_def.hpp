@@ -47,20 +47,20 @@ MARK_REF_PTR_T(::UnityEngine::Events::UnityEventBase);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10461))
 // CS Name: ::UnityEngine.Events::UnityEventBase*
 class CORDL_TYPE UnityEventBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Calls, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Calls, put = __set_m_Calls))::UnityEngine::Events::InvokableCallList* m_Calls;
+  __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls))::UnityEngine::Events::InvokableCallList* m_Calls;
 
   /// @brief Field m_PersistentCalls, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_PersistentCalls, put = __set_m_PersistentCalls))::UnityEngine::Events::PersistentCallGroup* m_PersistentCalls;
+  __declspec(property(get = __cordl_internal_get_m_PersistentCalls, put = __cordl_internal_set_m_PersistentCalls))::UnityEngine::Events::PersistentCallGroup* m_PersistentCalls;
 
   /// @brief Field m_CallsDirty, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_CallsDirty, put = __set_m_CallsDirty)) bool m_CallsDirty;
+  __declspec(property(get = __cordl_internal_get_m_CallsDirty, put = __cordl_internal_set_m_CallsDirty)) bool m_CallsDirty;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
@@ -68,23 +68,23 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr ::UnityEngine::Events::InvokableCallList*& __get_m_Calls();
+  constexpr ::UnityEngine::Events::InvokableCallList*& __cordl_internal_get_m_Calls();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::InvokableCallList*> const& __get_m_Calls() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::InvokableCallList*> const& __cordl_internal_get_m_Calls() const;
 
-  constexpr void __set_m_Calls(::UnityEngine::Events::InvokableCallList* value);
+  constexpr void __cordl_internal_set_m_Calls(::UnityEngine::Events::InvokableCallList* value);
 
-  constexpr ::UnityEngine::Events::PersistentCallGroup*& __get_m_PersistentCalls();
+  constexpr ::UnityEngine::Events::PersistentCallGroup*& __cordl_internal_get_m_PersistentCalls();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::PersistentCallGroup*> const& __get_m_PersistentCalls() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::PersistentCallGroup*> const& __cordl_internal_get_m_PersistentCalls() const;
 
-  constexpr void __set_m_PersistentCalls(::UnityEngine::Events::PersistentCallGroup* value);
+  constexpr void __cordl_internal_set_m_PersistentCalls(::UnityEngine::Events::PersistentCallGroup* value);
 
-  constexpr bool& __get_m_CallsDirty();
+  constexpr bool& __cordl_internal_get_m_CallsDirty();
 
-  constexpr bool const& __get_m_CallsDirty() const;
+  constexpr bool const& __cordl_internal_get_m_CallsDirty() const;
 
-  constexpr void __set_m_CallsDirty(bool value);
+  constexpr void __cordl_internal_set_m_CallsDirty(bool value);
 
   static inline ::UnityEngine::Events::UnityEventBase* New_ctor();
 

@@ -37,7 +37,7 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapEventDataBoxGroupFactory____c__DisplayCla
 // SizeInfo { instance_size: 4, native_size: -1, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4304))
 // CS Name: ::BeatmapEventDataBoxGroupFactory::<>c__DisplayClass2_0
 struct CORDL_TYPE __BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 {
@@ -68,7 +68,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapEventDataBoxGroupFactory____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4305))
 // CS Name: ::BeatmapEventDataBoxGroupFactory*
 class CORDL_TYPE BeatmapEventDataBoxGroupFactory : public ::System::Object {

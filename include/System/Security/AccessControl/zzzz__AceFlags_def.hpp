@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Security::AccessControl::AceFlags);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3017))
 // CS Name: ::System.Security.AccessControl::AceFlags
 struct CORDL_TYPE AceFlags {

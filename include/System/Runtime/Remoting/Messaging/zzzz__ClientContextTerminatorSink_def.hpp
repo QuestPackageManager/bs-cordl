@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ClientContextTerminatorSi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3158))
 // CS Name: ::System.Runtime.Remoting.Messaging::ClientContextTerminatorSink*
 class CORDL_TYPE ClientContextTerminatorSink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _context, offset 0x10, size 0x8
-  __declspec(property(get = __get__context, put = __set__context))::System::Runtime::Remoting::Contexts::Context* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Remoting::Contexts::Context* _context;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
@@ -41,11 +41,11 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Contexts::Context*& __get__context();
+  constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __get__context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Runtime::Remoting::Contexts::Context* value);
+  constexpr void __cordl_internal_set__context(::System::Runtime::Remoting::Contexts::Context* value);
 
   static inline ::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
 

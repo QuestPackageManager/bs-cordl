@@ -34,49 +34,51 @@ MARK_REF_PTR_T(::GlobalNamespace::HSVPanelController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16177))
 // CS Name: ::HSVPanelController*
 class CORDL_TYPE HSVPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _colorSaturationValueSlider, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorSaturationValueSlider, put = __set__colorSaturationValueSlider))::GlobalNamespace::ColorSaturationValueSlider* _colorSaturationValueSlider;
+  __declspec(property(get = __cordl_internal_get__colorSaturationValueSlider,
+                      put = __cordl_internal_set__colorSaturationValueSlider))::UnityW<::GlobalNamespace::ColorSaturationValueSlider> _colorSaturationValueSlider;
 
   /// @brief Field _colorHueSlider, offset 0x20, size 0x8
-  __declspec(property(get = __get__colorHueSlider, put = __set__colorHueSlider))::GlobalNamespace::ColorHueSlider* _colorHueSlider;
+  __declspec(property(get = __cordl_internal_get__colorHueSlider, put = __cordl_internal_set__colorHueSlider))::UnityW<::GlobalNamespace::ColorHueSlider> _colorHueSlider;
 
   /// @brief Field colorDidChangeEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_colorDidChangeEvent, put = __set_colorDidChangeEvent))::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_colorDidChangeEvent,
+                      put = __cordl_internal_set_colorDidChangeEvent))::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
 
   /// @brief Field _hsvColor, offset 0x30, size 0xc
-  __declspec(property(get = __get__hsvColor, put = __set__hsvColor))::UnityEngine::Vector3 _hsvColor;
+  __declspec(property(get = __cordl_internal_get__hsvColor, put = __cordl_internal_set__hsvColor))::UnityEngine::Vector3 _hsvColor;
 
   __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
 
-  constexpr ::GlobalNamespace::ColorSaturationValueSlider*& __get__colorSaturationValueSlider();
+  constexpr ::UnityW<::GlobalNamespace::ColorSaturationValueSlider>& __cordl_internal_get__colorSaturationValueSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSaturationValueSlider*> const& __get__colorSaturationValueSlider() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSaturationValueSlider> const& __cordl_internal_get__colorSaturationValueSlider() const;
 
-  constexpr void __set__colorSaturationValueSlider(::GlobalNamespace::ColorSaturationValueSlider* value);
+  constexpr void __cordl_internal_set__colorSaturationValueSlider(::UnityW<::GlobalNamespace::ColorSaturationValueSlider> value);
 
-  constexpr ::GlobalNamespace::ColorHueSlider*& __get__colorHueSlider();
+  constexpr ::UnityW<::GlobalNamespace::ColorHueSlider>& __cordl_internal_get__colorHueSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorHueSlider*> const& __get__colorHueSlider() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorHueSlider> const& __cordl_internal_get__colorHueSlider() const;
 
-  constexpr void __set__colorHueSlider(::GlobalNamespace::ColorHueSlider* value);
+  constexpr void __cordl_internal_set__colorHueSlider(::UnityW<::GlobalNamespace::ColorHueSlider> value);
 
-  constexpr ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& __get_colorDidChangeEvent();
+  constexpr ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& __cordl_internal_get_colorDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*> const& __get_colorDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*> const& __cordl_internal_get_colorDidChangeEvent() const;
 
-  constexpr void __set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  constexpr ::UnityEngine::Vector3& __get__hsvColor();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__hsvColor();
 
-  constexpr ::UnityEngine::Vector3 const& __get__hsvColor() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__hsvColor() const;
 
-  constexpr void __set__hsvColor(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__hsvColor(::UnityEngine::Vector3 value);
 
   /// @brief Method add_colorDidChangeEvent, addr 0x23e32ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
@@ -129,10 +131,10 @@ protected:
 
 public:
   /// @brief Field _colorSaturationValueSlider, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSaturationValueSlider* ____colorSaturationValueSlider;
+  ::UnityW<::GlobalNamespace::ColorSaturationValueSlider> ____colorSaturationValueSlider;
 
   /// @brief Field _colorHueSlider, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ColorHueSlider* ____colorHueSlider;
+  ::UnityW<::GlobalNamespace::ColorHueSlider> ____colorHueSlider;
 
   /// @brief Field colorDidChangeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;

@@ -33,49 +33,49 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseBoolField);
 // SizeInfo { instance_size: 1064, native_size: -1, calculated_instance_size: 1064, calculated_native_size: 1064, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(7130))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7067))
 // CS Name: ::UnityEngine.UIElements::BaseBoolField*
 class CORDL_TYPE BaseBoolField : public ::UnityEngine::UIElements::BaseField_1<bool> {
 public:
   // Declarations
   /// @brief Field m_Label, offset 0x408, size 0x8
-  __declspec(property(get = __get_m_Label, put = __set_m_Label))::UnityEngine::UIElements::Label* m_Label;
+  __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label))::UnityEngine::UIElements::Label* m_Label;
 
   /// @brief Field m_CheckMark, offset 0x410, size 0x8
-  __declspec(property(get = __get_m_CheckMark, put = __set_m_CheckMark))::UnityEngine::UIElements::VisualElement* m_CheckMark;
+  __declspec(property(get = __cordl_internal_get_m_CheckMark, put = __cordl_internal_set_m_CheckMark))::UnityEngine::UIElements::VisualElement* m_CheckMark;
 
   /// @brief Field m_Clickable, offset 0x418, size 0x8
-  __declspec(property(get = __get_m_Clickable, put = __set_m_Clickable))::UnityEngine::UIElements::Clickable* m_Clickable;
+  __declspec(property(get = __cordl_internal_get_m_Clickable, put = __cordl_internal_set_m_Clickable))::UnityEngine::UIElements::Clickable* m_Clickable;
 
   /// @brief Field m_OriginalText, offset 0x420, size 0x8
-  __declspec(property(get = __get_m_OriginalText, put = __set_m_OriginalText))::StringW m_OriginalText;
+  __declspec(property(get = __cordl_internal_get_m_OriginalText, put = __cordl_internal_set_m_OriginalText))::StringW m_OriginalText;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::UnityEngine::UIElements::Label*& __get_m_Label();
+  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_Label();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __get_m_Label() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_Label() const;
 
-  constexpr void __set_m_Label(::UnityEngine::UIElements::Label* value);
+  constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::Label* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_CheckMark();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckMark();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_CheckMark() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CheckMark() const;
 
-  constexpr void __set_m_CheckMark(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_CheckMark(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::Clickable*& __get_m_Clickable();
+  constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __get_m_Clickable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __cordl_internal_get_m_Clickable() const;
 
-  constexpr void __set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
+  constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  constexpr ::StringW& __get_m_OriginalText();
+  constexpr ::StringW& __cordl_internal_get_m_OriginalText();
 
-  constexpr ::StringW const& __get_m_OriginalText() const;
+  constexpr ::StringW const& __cordl_internal_get_m_OriginalText() const;
 
-  constexpr void __set_m_OriginalText(::StringW value);
+  constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
   static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
 

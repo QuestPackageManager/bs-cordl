@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XCData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15459))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15459))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15433))
 // CS Name: ::System.Xml.Linq::XCData*
 class CORDL_TYPE XCData : public ::System::Xml::Linq::XText {

@@ -24,17 +24,17 @@ MARK_REF_PTR_T(::System::Xml::XmlProcessingInstruction);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11513))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11525))
 // CS Name: ::System.Xml::XmlProcessingInstruction*
 class CORDL_TYPE XmlProcessingInstruction : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
   /// @brief Field target, offset 0x20, size 0x8
-  __declspec(property(get = __get_target, put = __set_target))::StringW target;
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::StringW target;
 
   /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::StringW data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -48,17 +48,17 @@ public:
 
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
-  constexpr ::StringW& __get_target();
+  constexpr ::StringW& __cordl_internal_get_target();
 
-  constexpr ::StringW const& __get_target() const;
+  constexpr ::StringW const& __cordl_internal_get_target() const;
 
-  constexpr void __set_target(::StringW value);
+  constexpr void __cordl_internal_set_target(::StringW value);
 
-  constexpr ::StringW& __get_data();
+  constexpr ::StringW& __cordl_internal_get_data();
 
-  constexpr ::StringW const& __get_data() const;
+  constexpr ::StringW const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::StringW value);
+  constexpr void __cordl_internal_set_data(::StringW value);
 
   static inline ::System::Xml::XmlProcessingInstruction* New_ctor(::StringW target, ::StringW data, ::System::Xml::XmlDocument* doc);
 

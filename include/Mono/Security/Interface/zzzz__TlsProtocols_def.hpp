@@ -15,7 +15,7 @@ MARK_VAL_T(::Mono::Security::Interface::TlsProtocols);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13786))
 // CS Name: ::Mono.Security.Interface::TlsProtocols
 struct CORDL_TYPE TlsProtocols {

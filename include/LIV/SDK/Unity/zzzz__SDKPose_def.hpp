@@ -29,7 +29,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPose);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15111)), TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15109))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15111))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15122))
 // CS Name: ::LIV.SDK.Unity::SDKPose
 struct CORDL_TYPE SDKPose {

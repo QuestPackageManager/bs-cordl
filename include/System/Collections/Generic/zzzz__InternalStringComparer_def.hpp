@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Collections::Generic::InternalStringComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3869))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3878))
 // CS Name: ::System.Collections.Generic::InternalStringComparer*
 class CORDL_TYPE InternalStringComparer : public ::System::Collections::Generic::EqualityComparer_1<::StringW> {

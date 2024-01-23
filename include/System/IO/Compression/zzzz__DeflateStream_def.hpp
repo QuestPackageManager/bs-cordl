@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::System::IO::Compression::__DeflateStream__WriteMethod);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9548))
 // CS Name: ::DeflateStream::ReadMethod*
 class CORDL_TYPE __DeflateStream__ReadMethod : public ::System::MulticastDelegate {
@@ -121,7 +121,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Compression::__Defla
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9549))
 // CS Name: ::DeflateStream::WriteMethod*
 class CORDL_TYPE __DeflateStream__WriteMethod : public ::System::MulticastDelegate {
@@ -165,7 +165,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Compression::__Defla
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9546)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(9546))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9550))
 // CS Name: ::System.IO.Compression::DeflateStream*
 class CORDL_TYPE DeflateStream : public ::System::IO::Stream {
@@ -176,19 +176,19 @@ public:
   using ReadMethod = ::System::IO::Compression::__DeflateStream__ReadMethod;
 
   /// @brief Field base_stream, offset 0x28, size 0x8
-  __declspec(property(get = __get_base_stream, put = __set_base_stream))::System::IO::Stream* base_stream;
+  __declspec(property(get = __cordl_internal_get_base_stream, put = __cordl_internal_set_base_stream))::System::IO::Stream* base_stream;
 
   /// @brief Field mode, offset 0x30, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::System::IO::Compression::CompressionMode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::System::IO::Compression::CompressionMode mode;
 
   /// @brief Field leaveOpen, offset 0x34, size 0x1
-  __declspec(property(get = __get_leaveOpen, put = __set_leaveOpen)) bool leaveOpen;
+  __declspec(property(get = __cordl_internal_get_leaveOpen, put = __cordl_internal_set_leaveOpen)) bool leaveOpen;
 
   /// @brief Field disposed, offset 0x35, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field native, offset 0x38, size 0x8
-  __declspec(property(get = __get_native, put = __set_native))::System::IO::Compression::DeflateStreamNative* native;
+  __declspec(property(get = __cordl_internal_get_native, put = __cordl_internal_set_native))::System::IO::Compression::DeflateStreamNative* native;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -200,35 +200,35 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __get_base_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_base_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_base_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_base_stream() const;
 
-  constexpr void __set_base_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_base_stream(::System::IO::Stream* value);
 
-  constexpr ::System::IO::Compression::CompressionMode& __get_mode();
+  constexpr ::System::IO::Compression::CompressionMode& __cordl_internal_get_mode();
 
-  constexpr ::System::IO::Compression::CompressionMode const& __get_mode() const;
+  constexpr ::System::IO::Compression::CompressionMode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::System::IO::Compression::CompressionMode value);
+  constexpr void __cordl_internal_set_mode(::System::IO::Compression::CompressionMode value);
 
-  constexpr bool& __get_leaveOpen();
+  constexpr bool& __cordl_internal_get_leaveOpen();
 
-  constexpr bool const& __get_leaveOpen() const;
+  constexpr bool const& __cordl_internal_get_leaveOpen() const;
 
-  constexpr void __set_leaveOpen(bool value);
+  constexpr void __cordl_internal_set_leaveOpen(bool value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::IO::Compression::DeflateStreamNative*& __get_native();
+  constexpr ::System::IO::Compression::DeflateStreamNative*& __cordl_internal_get_native();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::DeflateStreamNative*> const& __get_native() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::DeflateStreamNative*> const& __cordl_internal_get_native() const;
 
-  constexpr void __set_native(::System::IO::Compression::DeflateStreamNative* value);
+  constexpr void __cordl_internal_set_native(::System::IO::Compression::DeflateStreamNative* value);
 
   static inline ::System::IO::Compression::DeflateStream* New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode);
 

@@ -39,23 +39,23 @@ MARK_REF_PTR_T(::System::IO::FileSystemInfo);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3594)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(3594))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3596))
 // CS Name: ::System.IO::FileSystemInfo*
 class CORDL_TYPE FileSystemInfo : public ::System::MarshalByRefObject {
 public:
   // Declarations
   /// @brief Field _fileStatus, offset 0x18, size 0x78
-  __declspec(property(get = __get__fileStatus, put = __set__fileStatus))::System::IO::FileStatus _fileStatus;
+  __declspec(property(get = __cordl_internal_get__fileStatus, put = __cordl_internal_set__fileStatus))::System::IO::FileStatus _fileStatus;
 
   /// @brief Field FullPath, offset 0x90, size 0x8
-  __declspec(property(get = __get_FullPath, put = __set_FullPath))::StringW FullPath;
+  __declspec(property(get = __cordl_internal_get_FullPath, put = __cordl_internal_set_FullPath))::StringW FullPath;
 
   /// @brief Field OriginalPath, offset 0x98, size 0x8
-  __declspec(property(get = __get_OriginalPath, put = __set_OriginalPath))::StringW OriginalPath;
+  __declspec(property(get = __cordl_internal_get_OriginalPath, put = __cordl_internal_set_OriginalPath))::StringW OriginalPath;
 
   /// @brief Field _name, offset 0xa0, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   __declspec(property(get = get_Attributes))::System::IO::FileAttributes Attributes;
 
@@ -83,29 +83,29 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::IO::FileStatus& __get__fileStatus();
+  constexpr ::System::IO::FileStatus& __cordl_internal_get__fileStatus();
 
-  constexpr ::System::IO::FileStatus const& __get__fileStatus() const;
+  constexpr ::System::IO::FileStatus const& __cordl_internal_get__fileStatus() const;
 
-  constexpr void __set__fileStatus(::System::IO::FileStatus value);
+  constexpr void __cordl_internal_set__fileStatus(::System::IO::FileStatus value);
 
-  constexpr ::StringW& __get_FullPath();
+  constexpr ::StringW& __cordl_internal_get_FullPath();
 
-  constexpr ::StringW const& __get_FullPath() const;
+  constexpr ::StringW const& __cordl_internal_get_FullPath() const;
 
-  constexpr void __set_FullPath(::StringW value);
+  constexpr void __cordl_internal_set_FullPath(::StringW value);
 
-  constexpr ::StringW& __get_OriginalPath();
+  constexpr ::StringW& __cordl_internal_get_OriginalPath();
 
-  constexpr ::StringW const& __get_OriginalPath() const;
+  constexpr ::StringW const& __cordl_internal_get_OriginalPath() const;
 
-  constexpr void __set_OriginalPath(::StringW value);
+  constexpr void __cordl_internal_set_OriginalPath(::StringW value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
   static inline ::System::IO::FileSystemInfo* New_ctor();
 

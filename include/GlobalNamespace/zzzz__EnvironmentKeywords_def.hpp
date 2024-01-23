@@ -21,31 +21,33 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentKeywords);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4174))
 // CS Name: ::EnvironmentKeywords*
 class CORDL_TYPE EnvironmentKeywords : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _environmentKeywords, offset 0x10, size 0x8
-  __declspec(property(get = __get__environmentKeywords, put = __set__environmentKeywords))::System::Collections::Generic::IReadOnlyList_1<::StringW>* _environmentKeywords;
+  __declspec(property(get = __cordl_internal_get__environmentKeywords,
+                      put = __cordl_internal_set__environmentKeywords))::System::Collections::Generic::IReadOnlyList_1<::StringW>* _environmentKeywords;
 
   /// @brief Field _environmentKeywordsSet, offset 0x18, size 0x8
-  __declspec(property(get = __get__environmentKeywordsSet, put = __set__environmentKeywordsSet))::System::Collections::Generic::HashSet_1<::StringW>* _environmentKeywordsSet;
+  __declspec(property(get = __cordl_internal_get__environmentKeywordsSet,
+                      put = __cordl_internal_set__environmentKeywordsSet))::System::Collections::Generic::HashSet_1<::StringW>* _environmentKeywordsSet;
 
   __declspec(property(get = get_environmentKeywords))::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __get__environmentKeywords();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __cordl_internal_get__environmentKeywords();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __get__environmentKeywords() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __cordl_internal_get__environmentKeywords() const;
 
-  constexpr void __set__environmentKeywords(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
+  constexpr void __cordl_internal_set__environmentKeywords(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__environmentKeywordsSet();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__environmentKeywordsSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__environmentKeywordsSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__environmentKeywordsSet() const;
 
-  constexpr void __set__environmentKeywordsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__environmentKeywordsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
   /// @brief Method get_environmentKeywords, addr 0x22403a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();

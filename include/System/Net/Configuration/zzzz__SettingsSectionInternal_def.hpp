@@ -15,34 +15,34 @@ MARK_REF_PTR_T(::System::Net::Configuration::SettingsSectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9340))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9340))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9315))
 // CS Name: ::System.Net.Configuration::SettingsSectionInternal*
 class CORDL_TYPE SettingsSectionInternal : public ::System::Object {
 public:
   // Declarations
   /// @brief Field HttpListenerUnescapeRequestUrl, offset 0x10, size 0x1
-  __declspec(property(get = __get_HttpListenerUnescapeRequestUrl, put = __set_HttpListenerUnescapeRequestUrl)) bool HttpListenerUnescapeRequestUrl;
+  __declspec(property(get = __cordl_internal_get_HttpListenerUnescapeRequestUrl, put = __cordl_internal_set_HttpListenerUnescapeRequestUrl)) bool HttpListenerUnescapeRequestUrl;
 
   /// @brief Field IPProtectionLevel, offset 0x14, size 0x4
-  __declspec(property(get = __get_IPProtectionLevel, put = __set_IPProtectionLevel))::System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
+  __declspec(property(get = __cordl_internal_get_IPProtectionLevel, put = __cordl_internal_set_IPProtectionLevel))::System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::System::Net::Configuration::SettingsSectionInternal* instance;
 
   __declspec(property(get = get_Ipv6Enabled)) bool Ipv6Enabled;
 
-  constexpr bool& __get_HttpListenerUnescapeRequestUrl();
+  constexpr bool& __cordl_internal_get_HttpListenerUnescapeRequestUrl();
 
-  constexpr bool const& __get_HttpListenerUnescapeRequestUrl() const;
+  constexpr bool const& __cordl_internal_get_HttpListenerUnescapeRequestUrl() const;
 
-  constexpr void __set_HttpListenerUnescapeRequestUrl(bool value);
+  constexpr void __cordl_internal_set_HttpListenerUnescapeRequestUrl(bool value);
 
-  constexpr ::System::Net::Sockets::IPProtectionLevel& __get_IPProtectionLevel();
+  constexpr ::System::Net::Sockets::IPProtectionLevel& __cordl_internal_get_IPProtectionLevel();
 
-  constexpr ::System::Net::Sockets::IPProtectionLevel const& __get_IPProtectionLevel() const;
+  constexpr ::System::Net::Sockets::IPProtectionLevel const& __cordl_internal_get_IPProtectionLevel() const;
 
-  constexpr void __set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value);
+  constexpr void __cordl_internal_set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value);
 
   static inline void setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value);
 

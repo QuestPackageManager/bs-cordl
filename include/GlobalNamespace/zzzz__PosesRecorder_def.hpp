@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecorder____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5930))
 // CS Name: ::PosesRecorder::<>c*
 class CORDL_TYPE __PosesRecorder____c : public ::System::Object {
@@ -53,7 +53,7 @@ public:
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__PosesRecorder____c* __9;
 
   /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0))::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityEngine::Transform*>* __9__6_0;
+  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0))::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityW<::UnityEngine::Transform>>* __9__6_0;
 
   /// @brief Field <>9__6_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__6_1, put = setStaticF___9__6_1))::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* __9__6_1;
@@ -62,9 +62,9 @@ public:
 
   static inline ::GlobalNamespace::__PosesRecorder____c* getStaticF___9();
 
-  static inline void setStaticF___9__6_0(::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityEngine::Transform*>* value);
+  static inline void setStaticF___9__6_0(::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityW<::UnityEngine::Transform>>* value);
 
-  static inline ::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityEngine::Transform*>* getStaticF___9__6_0();
+  static inline ::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityW<::UnityEngine::Transform>>* getStaticF___9__6_0();
 
   static inline void setStaticF___9__6_1(::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* value);
 
@@ -76,7 +76,7 @@ public:
   inline void _ctor();
 
   /// @brief Method <Init>b__6_0, addr 0x2301f58, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* _Init_b__6_0(::GlobalNamespace::PoseObject* ro);
+  inline ::UnityW<::UnityEngine::Transform> _Init_b__6_0(::GlobalNamespace::PoseObject* ro);
 
   /// @brief Method <Init>b__6_1, addr 0x2301f70, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _Init_b__6_1(::GlobalNamespace::PoseObject* ro);
@@ -105,7 +105,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PosesRecorder
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5931))
 // CS Name: ::PosesRecorder*
 class CORDL_TYPE PosesRecorder : public ::UnityEngine::MonoBehaviour {
@@ -114,33 +114,35 @@ public:
   using __c = ::GlobalNamespace::__PosesRecorder____c;
 
   /// @brief Field _audioTimeSyncController, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _transforms, offset 0x20, size 0x8
-  __declspec(property(get = __get__transforms, put = __set__transforms))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> _transforms;
+  __declspec(property(get = __cordl_internal_get__transforms,
+                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
 
   /// @brief Field _data, offset 0x28, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::GlobalNamespace::PosesRecordingData* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::GlobalNamespace::PosesRecordingData* _data;
 
   __declspec(property(get = get_data))::GlobalNamespace::PosesRecordingData* data;
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get__transforms();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get__transforms() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
 
-  constexpr void __set__transforms(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::GlobalNamespace::PosesRecordingData*& __get__data();
+  constexpr ::GlobalNamespace::PosesRecordingData*& __cordl_internal_get__data();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PosesRecordingData*> const& __get__data() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PosesRecordingData*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::GlobalNamespace::PosesRecordingData* value);
+  constexpr void __cordl_internal_set__data(::GlobalNamespace::PosesRecordingData* value);
 
   /// @brief Method get_data, addr 0x2301b84, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingData* get_data();
@@ -181,10 +183,10 @@ protected:
 
 public:
   /// @brief Field _audioTimeSyncController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _transforms, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ____transforms;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
 
   /// @brief Field _data, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::PosesRecordingData* ____data;

@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::GlobalNamespace::__GenericLogger__ScopedStopwatch);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14336))
 // CS Name: ::GenericLogger::ScopedStopwatch*
 class CORDL_TYPE __GenericLogger__ScopedStopwatch : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _processName, offset 0x10, size 0x8
-  __declspec(property(get = __get__processName, put = __set__processName))::StringW _processName;
+  __declspec(property(get = __cordl_internal_get__processName, put = __cordl_internal_set__processName))::StringW _processName;
 
   /// @brief Field _stopwatch, offset 0x18, size 0x8
-  __declspec(property(get = __get__stopwatch, put = __set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
+  __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -49,17 +49,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::StringW& __get__processName();
+  constexpr ::StringW& __cordl_internal_get__processName();
 
-  constexpr ::StringW const& __get__processName() const;
+  constexpr ::StringW const& __cordl_internal_get__processName() const;
 
-  constexpr void __set__processName(::StringW value);
+  constexpr void __cordl_internal_set__processName(::StringW value);
 
-  constexpr ::System::Diagnostics::Stopwatch*& __get__stopwatch();
+  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __get__stopwatch() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__stopwatch() const;
 
-  constexpr void __set__stopwatch(::System::Diagnostics::Stopwatch* value);
+  constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
   static inline ::GlobalNamespace::__GenericLogger__ScopedStopwatch* New_ctor(::StringW processName);
 
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__GenericLogger__ScopedStopwatch, ____
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14337))
 // CS Name: ::GenericLogger*
 class CORDL_TYPE GenericLogger : public ::System::Object {

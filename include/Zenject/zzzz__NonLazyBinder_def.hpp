@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Zenject::NonLazyBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10922))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10922))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10925))
 // CS Name: ::Zenject::NonLazyBinder*
 class CORDL_TYPE NonLazyBinder : public ::Zenject::IfNotBoundBinder {

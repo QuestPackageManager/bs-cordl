@@ -24,17 +24,17 @@ MARK_REF_PTR_T(::GlobalNamespace::MockComboController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5317))
 // CS Name: ::MockComboController*
 class CORDL_TYPE MockComboController : public ::System::Object {
 public:
   // Declarations
   /// @brief Field comboDidChangeEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_comboDidChangeEvent, put = __set_comboDidChangeEvent))::System::Action_1<int32_t>* comboDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_comboDidChangeEvent, put = __cordl_internal_set_comboDidChangeEvent))::System::Action_1<int32_t>* comboDidChangeEvent;
 
   /// @brief Field comboBreakingEventHappenedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_comboBreakingEventHappenedEvent, put = __set_comboBreakingEventHappenedEvent))::System::Action* comboBreakingEventHappenedEvent;
+  __declspec(property(get = __cordl_internal_get_comboBreakingEventHappenedEvent, put = __cordl_internal_set_comboBreakingEventHappenedEvent))::System::Action* comboBreakingEventHappenedEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IComboController"
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
@@ -42,17 +42,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  constexpr ::System::Action_1<int32_t>*& __get_comboDidChangeEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_comboDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_comboDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_comboDidChangeEvent() const;
 
-  constexpr void __set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::System::Action*& __get_comboBreakingEventHappenedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_comboBreakingEventHappenedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_comboBreakingEventHappenedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_comboBreakingEventHappenedEvent() const;
 
-  constexpr void __set_comboBreakingEventHappenedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_comboBreakingEventHappenedEvent(::System::Action* value);
 
   /// @brief Method add_comboDidChangeEvent, addr 0x2266084, size 0xb0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);

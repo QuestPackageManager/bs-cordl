@@ -26,65 +26,66 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserViewController);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5713))
 // CS Name: ::GameServerBrowserViewController*
 class CORDL_TYPE GameServerBrowserViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _filterServersButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__filterServersButton, put = __set__filterServersButton))::UnityEngine::UI::Button* _filterServersButton;
+  __declspec(property(get = __cordl_internal_get__filterServersButton, put = __cordl_internal_set__filterServersButton))::UnityW<::UnityEngine::UI::Button> _filterServersButton;
 
   /// @brief Field _filterText, offset 0x78, size 0x8
-  __declspec(property(get = __get__filterText, put = __set__filterText))::GlobalNamespace::GameServersFilterText* _filterText;
+  __declspec(property(get = __cordl_internal_get__filterText, put = __cordl_internal_set__filterText))::UnityW<::GlobalNamespace::GameServersFilterText> _filterText;
 
   /// @brief Field _createServerButton, offset 0x80, size 0x8
-  __declspec(property(get = __get__createServerButton, put = __set__createServerButton))::UnityEngine::UI::Button* _createServerButton;
+  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton))::UnityW<::UnityEngine::UI::Button> _createServerButton;
 
   /// @brief Field _gameServersListTableView, offset 0x88, size 0x8
-  __declspec(property(get = __get__gameServersListTableView, put = __set__gameServersListTableView))::GlobalNamespace::GameServersListTableView* _gameServersListTableView;
+  __declspec(property(get = __cordl_internal_get__gameServersListTableView,
+                      put = __cordl_internal_set__gameServersListTableView))::UnityW<::GlobalNamespace::GameServersListTableView> _gameServersListTableView;
 
   /// @brief Field _mainLoadingControl, offset 0x90, size 0x8
-  __declspec(property(get = __get__mainLoadingControl, put = __set__mainLoadingControl))::GlobalNamespace::LoadingControl* _mainLoadingControl;
+  __declspec(property(get = __cordl_internal_get__mainLoadingControl, put = __cordl_internal_set__mainLoadingControl))::UnityW<::GlobalNamespace::LoadingControl> _mainLoadingControl;
 
   /// @brief Field _smallLoadingControl, offset 0x98, size 0x8
-  __declspec(property(get = __get__smallLoadingControl, put = __set__smallLoadingControl))::GlobalNamespace::LoadingControl* _smallLoadingControl;
+  __declspec(property(get = __cordl_internal_get__smallLoadingControl, put = __cordl_internal_set__smallLoadingControl))::UnityW<::GlobalNamespace::LoadingControl> _smallLoadingControl;
 
-  constexpr ::UnityEngine::UI::Button*& __get__filterServersButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterServersButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__filterServersButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterServersButton() const;
 
-  constexpr void __set__filterServersButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__filterServersButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::GameServersFilterText*& __get__filterText();
+  constexpr ::UnityW<::GlobalNamespace::GameServersFilterText>& __cordl_internal_get__filterText();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServersFilterText*> const& __get__filterText() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServersFilterText> const& __cordl_internal_get__filterText() const;
 
-  constexpr void __set__filterText(::GlobalNamespace::GameServersFilterText* value);
+  constexpr void __cordl_internal_set__filterText(::UnityW<::GlobalNamespace::GameServersFilterText> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__createServerButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__createServerButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__createServerButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createServerButton() const;
 
-  constexpr void __set__createServerButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__createServerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::GameServersListTableView*& __get__gameServersListTableView();
+  constexpr ::UnityW<::GlobalNamespace::GameServersListTableView>& __cordl_internal_get__gameServersListTableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServersListTableView*> const& __get__gameServersListTableView() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServersListTableView> const& __cordl_internal_get__gameServersListTableView() const;
 
-  constexpr void __set__gameServersListTableView(::GlobalNamespace::GameServersListTableView* value);
+  constexpr void __cordl_internal_set__gameServersListTableView(::UnityW<::GlobalNamespace::GameServersListTableView> value);
 
-  constexpr ::GlobalNamespace::LoadingControl*& __get__mainLoadingControl();
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__mainLoadingControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadingControl*> const& __get__mainLoadingControl() const;
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& __cordl_internal_get__mainLoadingControl() const;
 
-  constexpr void __set__mainLoadingControl(::GlobalNamespace::LoadingControl* value);
+  constexpr void __cordl_internal_set__mainLoadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
-  constexpr ::GlobalNamespace::LoadingControl*& __get__smallLoadingControl();
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__smallLoadingControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadingControl*> const& __get__smallLoadingControl() const;
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& __cordl_internal_get__smallLoadingControl() const;
 
-  constexpr void __set__smallLoadingControl(::GlobalNamespace::LoadingControl* value);
+  constexpr void __cordl_internal_set__smallLoadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
   static inline ::GlobalNamespace::GameServerBrowserViewController* New_ctor();
 
@@ -106,22 +107,22 @@ protected:
 
 public:
   /// @brief Field _filterServersButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____filterServersButton;
+  ::UnityW<::UnityEngine::UI::Button> ____filterServersButton;
 
   /// @brief Field _filterText, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::GameServersFilterText* ____filterText;
+  ::UnityW<::GlobalNamespace::GameServersFilterText> ____filterText;
 
   /// @brief Field _createServerButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____createServerButton;
+  ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
   /// @brief Field _gameServersListTableView, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::GameServersListTableView* ____gameServersListTableView;
+  ::UnityW<::GlobalNamespace::GameServersListTableView> ____gameServersListTableView;
 
   /// @brief Field _mainLoadingControl, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::LoadingControl* ____mainLoadingControl;
+  ::UnityW<::GlobalNamespace::LoadingControl> ____mainLoadingControl;
 
   /// @brief Field _smallLoadingControl, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::LoadingControl* ____smallLoadingControl;
+  ::UnityW<::GlobalNamespace::LoadingControl> ____smallLoadingControl;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

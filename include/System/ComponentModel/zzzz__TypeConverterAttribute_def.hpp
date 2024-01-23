@@ -22,25 +22,25 @@ MARK_REF_PTR_T(::System::ComponentModel::TypeConverterAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9458))
 // CS Name: ::System.ComponentModel::TypeConverterAttribute*
 class CORDL_TYPE TypeConverterAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <ConverterTypeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__ConverterTypeName_k__BackingField, put = __set__ConverterTypeName_k__BackingField))::StringW _ConverterTypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ConverterTypeName_k__BackingField, put = __cordl_internal_set__ConverterTypeName_k__BackingField))::StringW _ConverterTypeName_k__BackingField;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::ComponentModel::TypeConverterAttribute* Default;
 
   __declspec(property(get = get_ConverterTypeName))::StringW ConverterTypeName;
 
-  constexpr ::StringW& __get__ConverterTypeName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__ConverterTypeName_k__BackingField();
 
-  constexpr ::StringW const& __get__ConverterTypeName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__ConverterTypeName_k__BackingField() const;
 
-  constexpr void __set__ConverterTypeName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__ConverterTypeName_k__BackingField(::StringW value);
 
   static inline void setStaticF_Default(::System::ComponentModel::TypeConverterAttribute* value);
 

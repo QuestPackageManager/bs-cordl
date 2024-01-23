@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateHashtable);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3798))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3798))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3239))
 // CS Name: ::System.Runtime.Serialization::SurrogateHashtable*
 class CORDL_TYPE SurrogateHashtable : public ::System::Collections::Hashtable {

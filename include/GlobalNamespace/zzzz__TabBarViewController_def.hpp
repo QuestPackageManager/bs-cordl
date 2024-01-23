@@ -37,29 +37,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__TabBarViewController__TabBarItem);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5766))
 // CS Name: ::TabBarViewController::TabBarItem*
 class CORDL_TYPE __TabBarViewController__TabBarItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __get_title, put = __set_title))::StringW title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
 
   /// @brief Field action, offset 0x18, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action* action;
 
-  constexpr ::StringW& __get_title();
+  constexpr ::StringW& __cordl_internal_get_title();
 
-  constexpr ::StringW const& __get_title() const;
+  constexpr ::StringW const& __cordl_internal_get_title() const;
 
-  constexpr void __set_title(::StringW value);
+  constexpr void __cordl_internal_set_title(::StringW value);
 
-  constexpr ::System::Action*& __get_action();
+  constexpr ::System::Action*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action* value);
+  constexpr void __cordl_internal_set_action(::System::Action* value);
 
   static inline ::GlobalNamespace::__TabBarViewController__TabBarItem* New_ctor(::StringW title, ::System::Action* action);
 
@@ -100,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__TabBarViewController__TabBarItem, __
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5767))
 // CS Name: ::TabBarViewController*
 class CORDL_TYPE TabBarViewController : public ::HMUI::ViewController {
@@ -109,53 +109,54 @@ public:
   using TabBarItem = ::GlobalNamespace::__TabBarViewController__TabBarItem;
 
   /// @brief Field _segmentedControll, offset 0x70, size 0x8
-  __declspec(property(get = __get__segmentedControll, put = __set__segmentedControll))::HMUI::TextSegmentedControl* _segmentedControll;
+  __declspec(property(get = __cordl_internal_get__segmentedControll, put = __cordl_internal_set__segmentedControll))::UnityW<::HMUI::TextSegmentedControl> _segmentedControll;
 
   /// @brief Field _contentSizeFilter, offset 0x78, size 0x8
-  __declspec(property(get = __get__contentSizeFilter, put = __set__contentSizeFilter))::UnityEngine::UI::ContentSizeFitter* _contentSizeFilter;
+  __declspec(property(get = __cordl_internal_get__contentSizeFilter, put = __cordl_internal_set__contentSizeFilter))::UnityW<::UnityEngine::UI::ContentSizeFitter> _contentSizeFilter;
 
   /// @brief Field _labels, offset 0x80, size 0x8
-  __declspec(property(get = __get__labels, put = __set__labels))::ArrayW<::StringW, ::Array<::StringW>*> _labels;
+  __declspec(property(get = __cordl_internal_get__labels, put = __cordl_internal_set__labels))::ArrayW<::StringW, ::Array<::StringW>*> _labels;
 
   /// @brief Field _items, offset 0x88, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> _items;
+  __declspec(property(get = __cordl_internal_get__items,
+                      put = __cordl_internal_set__items))::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> _items;
 
   /// @brief Field _shouldReloadData, offset 0x90, size 0x1
-  __declspec(property(get = __get__shouldReloadData, put = __set__shouldReloadData)) bool _shouldReloadData;
+  __declspec(property(get = __cordl_internal_get__shouldReloadData, put = __cordl_internal_set__shouldReloadData)) bool _shouldReloadData;
 
   __declspec(property(get = get_sizeToFit, put = set_sizeToFit)) bool sizeToFit;
 
   __declspec(property(get = get_selectedCellNumber)) int32_t selectedCellNumber;
 
-  constexpr ::HMUI::TextSegmentedControl*& __get__segmentedControll();
+  constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__segmentedControll();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TextSegmentedControl*> const& __get__segmentedControll() const;
+  constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__segmentedControll() const;
 
-  constexpr void __set__segmentedControll(::HMUI::TextSegmentedControl* value);
+  constexpr void __cordl_internal_set__segmentedControll(::UnityW<::HMUI::TextSegmentedControl> value);
 
-  constexpr ::UnityEngine::UI::ContentSizeFitter*& __get__contentSizeFilter();
+  constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter>& __cordl_internal_get__contentSizeFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::ContentSizeFitter*> const& __get__contentSizeFilter() const;
+  constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter> const& __cordl_internal_get__contentSizeFilter() const;
 
-  constexpr void __set__contentSizeFilter(::UnityEngine::UI::ContentSizeFitter* value);
+  constexpr void __cordl_internal_set__contentSizeFilter(::UnityW<::UnityEngine::UI::ContentSizeFitter> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__labels();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__labels();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__labels() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__labels() const;
 
-  constexpr void __set__labels(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__labels(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*>& __get__items();
+  constexpr ::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*>& __cordl_internal_get__items();
 
-  constexpr ::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> const& __get__items() const;
+  constexpr ::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> value);
+  constexpr void __cordl_internal_set__items(::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> value);
 
-  constexpr bool& __get__shouldReloadData();
+  constexpr bool& __cordl_internal_get__shouldReloadData();
 
-  constexpr bool const& __get__shouldReloadData() const;
+  constexpr bool const& __cordl_internal_get__shouldReloadData() const;
 
-  constexpr void __set__shouldReloadData(bool value);
+  constexpr void __cordl_internal_set__shouldReloadData(bool value);
 
   /// @brief Method set_sizeToFit, addr 0x22dc008, size 0x20, virtual false, abstract: false, final false
   inline void set_sizeToFit(bool value);
@@ -204,10 +205,10 @@ protected:
 
 public:
   /// @brief Field _segmentedControll, offset: 0x70, size: 0x8, def value: None
-  ::HMUI::TextSegmentedControl* ____segmentedControll;
+  ::UnityW<::HMUI::TextSegmentedControl> ____segmentedControll;
 
   /// @brief Field _contentSizeFilter, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::ContentSizeFitter* ____contentSizeFilter;
+  ::UnityW<::UnityEngine::UI::ContentSizeFitter> ____contentSizeFilter;
 
   /// @brief Field _labels, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____labels;

@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0xf94c8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94cf8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d00;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d18;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d30;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d38;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d40;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -185,7 +185,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -201,7 +201,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf94d50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
@@ -217,189 +217,189 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0xf94d58;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_entity() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_entity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entity;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_entity() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_entity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entity;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_entity(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_entity(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___entity = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_cipherSuite() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_cipherSuite() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipherSuite;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_cipherSuite() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_cipherSuite() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipherSuite;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_cipherSuite(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_cipherSuite(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cipherSuite = value;
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_compressionAlgorithm() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_compressionAlgorithm() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compressionAlgorithm;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_compressionAlgorithm() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_compressionAlgorithm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compressionAlgorithm;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_compressionAlgorithm(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_compressionAlgorithm(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___compressionAlgorithm = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_prfAlgorithm() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_prfAlgorithm() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prfAlgorithm;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_prfAlgorithm() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_prfAlgorithm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prfAlgorithm;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_prfAlgorithm(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_prfAlgorithm(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prfAlgorithm = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_verifyDataLength() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_verifyDataLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verifyDataLength;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_verifyDataLength() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_verifyDataLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verifyDataLength;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_verifyDataLength(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_verifyDataLength(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___verifyDataLength = value;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_masterSecret() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_masterSecret() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___masterSecret;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_masterSecret() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_masterSecret() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___masterSecret;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_masterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_masterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___masterSecret)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_clientRandom() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_clientRandom() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientRandom;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_clientRandom() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_clientRandom() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientRandom;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_clientRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_clientRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientRandom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_serverRandom() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_serverRandom() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverRandom;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_serverRandom() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_serverRandom() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverRandom;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_serverRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_serverRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverRandom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_sessionHash() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_sessionHash() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sessionHash;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_sessionHash() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_sessionHash() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sessionHash;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_sessionHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_sessionHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sessionHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_pskIdentity() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_pskIdentity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pskIdentity;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_pskIdentity() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_pskIdentity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pskIdentity;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_pskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_pskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pskIdentity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_srpIdentity() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_srpIdentity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___srpIdentity;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_srpIdentity() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_srpIdentity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___srpIdentity;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_srpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_srpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___srpIdentity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int16_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_maxFragmentLength() {
+constexpr int16_t& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_maxFragmentLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxFragmentLength;
 }
-constexpr int16_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_maxFragmentLength() const {
+constexpr int16_t const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_maxFragmentLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxFragmentLength;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_maxFragmentLength(int16_t value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_maxFragmentLength(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxFragmentLength = value;
 }
-constexpr bool& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_truncatedHMac() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_truncatedHMac() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___truncatedHMac;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_truncatedHMac() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_truncatedHMac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___truncatedHMac;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_truncatedHMac(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_truncatedHMac(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___truncatedHMac = value;
 }
-constexpr bool& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_encryptThenMac() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_encryptThenMac() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptThenMac;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_encryptThenMac() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_encryptThenMac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptThenMac;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_encryptThenMac(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_encryptThenMac(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___encryptThenMac = value;
 }
-constexpr bool& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_extendedMasterSecret() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_extendedMasterSecret() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extendedMasterSecret;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__get_extendedMasterSecret() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_get_extendedMasterSecret() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extendedMasterSecret;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__set_extendedMasterSecret(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::SecurityParameters::__cordl_internal_set_extendedMasterSecret(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extendedMasterSecret = value;
 }
@@ -476,11 +476,11 @@ inline bool Org::BouncyCastle::Crypto::Tls::SecurityParameters::get_IsExtendedMa
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* Org::BouncyCastle::Crypto::Tls::SecurityParameters::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>());
 }
 inline void Org::BouncyCastle::Crypto::Tls::SecurityParameters::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

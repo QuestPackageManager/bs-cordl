@@ -36,32 +36,32 @@ MARK_REF_PTR_T(::System::IO::BinaryWriter);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3622))
 // CS Name: ::System.IO::BinaryWriter*
 class CORDL_TYPE BinaryWriter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field OutStream, offset 0x10, size 0x8
-  __declspec(property(get = __get_OutStream, put = __set_OutStream))::System::IO::Stream* OutStream;
+  __declspec(property(get = __cordl_internal_get_OutStream, put = __cordl_internal_set_OutStream))::System::IO::Stream* OutStream;
 
   /// @brief Field _buffer, offset 0x18, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _encoding, offset 0x20, size 0x8
-  __declspec(property(get = __get__encoding, put = __set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
   /// @brief Field _encoder, offset 0x28, size 0x8
-  __declspec(property(get = __get__encoder, put = __set__encoder))::System::Text::Encoder* _encoder;
+  __declspec(property(get = __cordl_internal_get__encoder, put = __cordl_internal_set__encoder))::System::Text::Encoder* _encoder;
 
   /// @brief Field _leaveOpen, offset 0x30, size 0x1
-  __declspec(property(get = __get__leaveOpen, put = __set__leaveOpen)) bool _leaveOpen;
+  __declspec(property(get = __cordl_internal_get__leaveOpen, put = __cordl_internal_set__leaveOpen)) bool _leaveOpen;
 
   /// @brief Field _largeByteBuffer, offset 0x38, size 0x8
-  __declspec(property(get = __get__largeByteBuffer, put = __set__largeByteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _largeByteBuffer;
+  __declspec(property(get = __cordl_internal_get__largeByteBuffer, put = __cordl_internal_set__largeByteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _largeByteBuffer;
 
   /// @brief Field _maxChars, offset 0x40, size 0x4
-  __declspec(property(get = __get__maxChars, put = __set__maxChars)) int32_t _maxChars;
+  __declspec(property(get = __cordl_internal_get__maxChars, put = __cordl_internal_set__maxChars)) int32_t _maxChars;
 
   /// @brief Field Null, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::BinaryWriter* Null;
@@ -78,47 +78,47 @@ public:
   /// @brief Convert to "::System::IAsyncDisposable"
   constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
 
-  constexpr ::System::IO::Stream*& __get_OutStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_OutStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_OutStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_OutStream() const;
 
-  constexpr void __set_OutStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_OutStream(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Text::Encoding*& __get__encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  constexpr ::System::Text::Encoder*& __get__encoder();
+  constexpr ::System::Text::Encoder*& __cordl_internal_get__encoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& __get__encoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& __cordl_internal_get__encoder() const;
 
-  constexpr void __set__encoder(::System::Text::Encoder* value);
+  constexpr void __cordl_internal_set__encoder(::System::Text::Encoder* value);
 
-  constexpr bool& __get__leaveOpen();
+  constexpr bool& __cordl_internal_get__leaveOpen();
 
-  constexpr bool const& __get__leaveOpen() const;
+  constexpr bool const& __cordl_internal_get__leaveOpen() const;
 
-  constexpr void __set__leaveOpen(bool value);
+  constexpr void __cordl_internal_set__leaveOpen(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__largeByteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__largeByteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__largeByteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__largeByteBuffer() const;
 
-  constexpr void __set__largeByteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__largeByteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__maxChars();
+  constexpr int32_t& __cordl_internal_get__maxChars();
 
-  constexpr int32_t const& __get__maxChars() const;
+  constexpr int32_t const& __cordl_internal_get__maxChars() const;
 
-  constexpr void __set__maxChars(int32_t value);
+  constexpr void __cordl_internal_set__maxChars(int32_t value);
 
   static inline void setStaticF_Null(::System::IO::BinaryWriter* value);
 

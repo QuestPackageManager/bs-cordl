@@ -50,8 +50,8 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapDataCache___GetBeatmapData_d__4);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(5819)) CS Name: ::BeatmapDataCache::<GetBeatmapData>d__4
 struct CORDL_TYPE __BeatmapDataCache___GetBeatmapData_d__4 {
 public:
@@ -71,12 +71,12 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmap", ty:
   // "::GlobalNamespace::IDifficultyBeatmap*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapDataCache*", modifiers: "", def_value: None }, CppParam {
-  // name: "environmentInfo", ty: "::GlobalNamespace::EnvironmentInfoSO*", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty:
+  // name: "environmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty:
   // "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }]
   constexpr __BeatmapDataCache___GetBeatmapData_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
                                                      ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::BeatmapDataCache* __4__this,
-                                                     ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+                                                     ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__1) noexcept;
 
   // Ctor Parameters []
@@ -96,7 +96,7 @@ public:
   ::GlobalNamespace::BeatmapDataCache* __4__this;
 
   /// @brief Field environmentInfo, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   /// @brief Field playerSpecificSettings, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
@@ -131,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataCache___GetBeatmapData_d_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5820))
 // CS Name: ::BeatmapDataCache*
 class CORDL_TYPE BeatmapDataCache : public ::System::Object {
@@ -140,40 +140,40 @@ public:
   using _GetBeatmapData_d__4 = ::GlobalNamespace::__BeatmapDataCache___GetBeatmapData_d__4;
 
   /// @brief Field difficultyBeatmap, offset 0x10, size 0x8
-  __declspec(property(get = __get_difficultyBeatmap, put = __set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get_difficultyBeatmap, put = __cordl_internal_set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
 
   /// @brief Field environmentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_environmentInfo, put = __set_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   /// @brief Field playerSpecificSettings, offset 0x20, size 0x8
-  __declspec(property(get = __get_playerSpecificSettings, put = __set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
+  __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
   /// @brief Field cachedMap, offset 0x28, size 0x8
-  __declspec(property(get = __get_cachedMap, put = __set_cachedMap))::GlobalNamespace::IReadonlyBeatmapData* cachedMap;
+  __declspec(property(get = __cordl_internal_get_cachedMap, put = __cordl_internal_set_cachedMap))::GlobalNamespace::IReadonlyBeatmapData* cachedMap;
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get_difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get_difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get_difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get_difficultyBeatmap() const;
 
-  constexpr void __set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr ::GlobalNamespace::EnvironmentInfoSO*& __get_environmentInfo();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get_environmentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& __get_environmentInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get_environmentInfo() const;
 
-  constexpr void __set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
+  constexpr void __cordl_internal_set_environmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __get_playerSpecificSettings();
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __get_playerSpecificSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
 
-  constexpr void __set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+  constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get_cachedMap();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get_cachedMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get_cachedMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get_cachedMap() const;
 
-  constexpr void __set_cachedMap(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set_cachedMap(::GlobalNamespace::IReadonlyBeatmapData* value);
 
   /// @brief Method GetBeatmapData, addr 0x22eb0c4, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
@@ -202,7 +202,7 @@ public:
   ::GlobalNamespace::IDifficultyBeatmap* ___difficultyBeatmap;
 
   /// @brief Field environmentInfo, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* ___environmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ___environmentInfo;
 
   /// @brief Field playerSpecificSettings, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ___playerSpecificSettings;

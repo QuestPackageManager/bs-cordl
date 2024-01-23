@@ -50,23 +50,23 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6091))
 // CS Name: ::FastPriorityQueue`1::<GetEnumerator>d__22<T>*
 class CORDL_TYPE __FastPriorityQueue_1___GetEnumerator_d__22 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Priority_Queue::FastPriorityQueue_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Priority_Queue::FastPriorityQueue_1<T>* __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -90,29 +90,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr ::Priority_Queue::FastPriorityQueue_1<T>*& __get___4__this();
+  constexpr ::Priority_Queue::FastPriorityQueue_1<T>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::FastPriorityQueue_1<T>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::FastPriorityQueue_1<T>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Priority_Queue::FastPriorityQueue_1<T>* value);
+  constexpr void __cordl_internal_set___4__this(::Priority_Queue::FastPriorityQueue_1<T>* value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::Priority_Queue::__FastPriorityQueue_1___GetEnumerator_d__22<T>* New_ctor(int32_t __1__state);
 
@@ -170,7 +170,7 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6092))
 // CS Name: ::Priority_Queue::FastPriorityQueue`1<T>*
 class CORDL_TYPE FastPriorityQueue_1 : public ::System::Object {
@@ -179,10 +179,10 @@ public:
   using _GetEnumerator_d__22 = ::Priority_Queue::__FastPriorityQueue_1___GetEnumerator_d__22<T>;
 
   /// @brief Field _numNodes, offset 0x10, size 0x4
-  __declspec(property(get = __get__numNodes, put = __set__numNodes)) int32_t _numNodes;
+  __declspec(property(get = __cordl_internal_get__numNodes, put = __cordl_internal_set__numNodes)) int32_t _numNodes;
 
   /// @brief Field _nodes, offset 0x18, size 0x8
-  __declspec(property(get = __get__nodes, put = __set__nodes))::ArrayW<T, ::Array<T>*> _nodes;
+  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes))::ArrayW<T, ::Array<T>*> _nodes;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -214,17 +214,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr int32_t& __get__numNodes();
+  constexpr int32_t& __cordl_internal_get__numNodes();
 
-  constexpr int32_t const& __get__numNodes() const;
+  constexpr int32_t const& __cordl_internal_get__numNodes() const;
 
-  constexpr void __set__numNodes(int32_t value);
+  constexpr void __cordl_internal_set__numNodes(int32_t value);
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__nodes();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__nodes();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__nodes() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__nodes() const;
 
-  constexpr void __set__nodes(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__nodes(::ArrayW<T, ::Array<T>*> value);
 
   static inline ::Priority_Queue::FastPriorityQueue_1<T>* New_ctor(int32_t maxNodes);
 

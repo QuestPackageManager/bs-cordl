@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjective);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4459))
 // CS Name: ::MissionObjective::ReferenceValueComparisonType
 struct CORDL_TYPE __MissionObjective__ReferenceValueComparisonType {
@@ -88,7 +88,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionObjective__ReferenceValueComp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4459))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4459))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4460))
 // CS Name: ::MissionObjective*
 class CORDL_TYPE MissionObjective : public ::System::Object {
@@ -97,41 +97,41 @@ public:
   using ReferenceValueComparisonType = ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType;
 
   /// @brief Field _type, offset 0x10, size 0x8
-  __declspec(property(get = __get__type, put = __set__type))::GlobalNamespace::MissionObjectiveTypeSO* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> _type;
 
   /// @brief Field _referenceValueComparisonType, offset 0x18, size 0x4
-  __declspec(property(get = __get__referenceValueComparisonType,
-                      put = __set__referenceValueComparisonType))::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType _referenceValueComparisonType;
+  __declspec(property(get = __cordl_internal_get__referenceValueComparisonType,
+                      put = __cordl_internal_set__referenceValueComparisonType))::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType _referenceValueComparisonType;
 
   /// @brief Field _referenceValue, offset 0x1c, size 0x4
-  __declspec(property(get = __get__referenceValue, put = __set__referenceValue)) int32_t _referenceValue;
+  __declspec(property(get = __cordl_internal_get__referenceValue, put = __cordl_internal_set__referenceValue)) int32_t _referenceValue;
 
-  __declspec(property(get = get_type))::GlobalNamespace::MissionObjectiveTypeSO* type;
+  __declspec(property(get = get_type))::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> type;
 
   __declspec(property(get = get_referenceValueComparisonType))::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType referenceValueComparisonType;
 
   __declspec(property(get = get_referenceValue)) int32_t referenceValue;
 
-  constexpr ::GlobalNamespace::MissionObjectiveTypeSO*& __get__type();
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>& __cordl_internal_get__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjectiveTypeSO*> const& __get__type() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::GlobalNamespace::MissionObjectiveTypeSO* value);
+  constexpr void __cordl_internal_set__type(::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> value);
 
-  constexpr ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType& __get__referenceValueComparisonType();
+  constexpr ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType& __cordl_internal_get__referenceValueComparisonType();
 
-  constexpr ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType const& __get__referenceValueComparisonType() const;
+  constexpr ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType const& __cordl_internal_get__referenceValueComparisonType() const;
 
-  constexpr void __set__referenceValueComparisonType(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType value);
+  constexpr void __cordl_internal_set__referenceValueComparisonType(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType value);
 
-  constexpr int32_t& __get__referenceValue();
+  constexpr int32_t& __cordl_internal_get__referenceValue();
 
-  constexpr int32_t const& __get__referenceValue() const;
+  constexpr int32_t const& __cordl_internal_get__referenceValue() const;
 
-  constexpr void __set__referenceValue(int32_t value);
+  constexpr void __cordl_internal_set__referenceValue(int32_t value);
 
   /// @brief Method get_type, addr 0x2352ae8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionObjectiveTypeSO* get_type();
+  inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> get_type();
 
   /// @brief Method get_referenceValueComparisonType, addr 0x2352af0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType get_referenceValueComparisonType();
@@ -171,7 +171,7 @@ protected:
 
 public:
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MissionObjectiveTypeSO* ____type;
+  ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> ____type;
 
   /// @brief Field _referenceValueComparisonType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType ____referenceValueComparisonType;

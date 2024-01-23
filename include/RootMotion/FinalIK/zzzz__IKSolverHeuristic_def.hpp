@@ -32,35 +32,35 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverHeuristic);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12574))
 // CS Name: ::RootMotion.FinalIK::IKSolverHeuristic*
 class CORDL_TYPE IKSolverHeuristic : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
   /// @brief Field target, offset 0x58, size 0x8
-  __declspec(property(get = __get_target, put = __set_target))::UnityEngine::Transform* target;
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
   /// @brief Field tolerance, offset 0x60, size 0x4
-  __declspec(property(get = __get_tolerance, put = __set_tolerance)) float_t tolerance;
+  __declspec(property(get = __cordl_internal_get_tolerance, put = __cordl_internal_set_tolerance)) float_t tolerance;
 
   /// @brief Field maxIterations, offset 0x64, size 0x4
-  __declspec(property(get = __get_maxIterations, put = __set_maxIterations)) int32_t maxIterations;
+  __declspec(property(get = __cordl_internal_get_maxIterations, put = __cordl_internal_set_maxIterations)) int32_t maxIterations;
 
   /// @brief Field useRotationLimits, offset 0x68, size 0x1
-  __declspec(property(get = __get_useRotationLimits, put = __set_useRotationLimits)) bool useRotationLimits;
+  __declspec(property(get = __cordl_internal_get_useRotationLimits, put = __cordl_internal_set_useRotationLimits)) bool useRotationLimits;
 
   /// @brief Field XY, offset 0x69, size 0x1
-  __declspec(property(get = __get_XY, put = __set_XY)) bool XY;
+  __declspec(property(get = __cordl_internal_get_XY, put = __cordl_internal_set_XY)) bool XY;
 
   /// @brief Field bones, offset 0x70, size 0x8
-  __declspec(property(get = __get_bones, put = __set_bones))::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones;
+  __declspec(property(get = __cordl_internal_get_bones, put = __cordl_internal_set_bones))::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones;
 
   /// @brief Field lastLocalDirection, offset 0x78, size 0xc
-  __declspec(property(get = __get_lastLocalDirection, put = __set_lastLocalDirection))::UnityEngine::Vector3 lastLocalDirection;
+  __declspec(property(get = __cordl_internal_get_lastLocalDirection, put = __cordl_internal_set_lastLocalDirection))::UnityEngine::Vector3 lastLocalDirection;
 
   /// @brief Field chainLength, offset 0x84, size 0x4
-  __declspec(property(get = __get_chainLength, put = __set_chainLength)) float_t chainLength;
+  __declspec(property(get = __cordl_internal_get_chainLength, put = __cordl_internal_set_chainLength)) float_t chainLength;
 
   __declspec(property(get = get_minBones)) int32_t minBones;
 
@@ -72,53 +72,53 @@ public:
 
   __declspec(property(get = get_positionOffset)) float_t positionOffset;
 
-  constexpr ::UnityEngine::Transform*& __get_target();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_target() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr void __set_target(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_tolerance();
+  constexpr float_t& __cordl_internal_get_tolerance();
 
-  constexpr float_t const& __get_tolerance() const;
+  constexpr float_t const& __cordl_internal_get_tolerance() const;
 
-  constexpr void __set_tolerance(float_t value);
+  constexpr void __cordl_internal_set_tolerance(float_t value);
 
-  constexpr int32_t& __get_maxIterations();
+  constexpr int32_t& __cordl_internal_get_maxIterations();
 
-  constexpr int32_t const& __get_maxIterations() const;
+  constexpr int32_t const& __cordl_internal_get_maxIterations() const;
 
-  constexpr void __set_maxIterations(int32_t value);
+  constexpr void __cordl_internal_set_maxIterations(int32_t value);
 
-  constexpr bool& __get_useRotationLimits();
+  constexpr bool& __cordl_internal_get_useRotationLimits();
 
-  constexpr bool const& __get_useRotationLimits() const;
+  constexpr bool const& __cordl_internal_get_useRotationLimits() const;
 
-  constexpr void __set_useRotationLimits(bool value);
+  constexpr void __cordl_internal_set_useRotationLimits(bool value);
 
-  constexpr bool& __get_XY();
+  constexpr bool& __cordl_internal_get_XY();
 
-  constexpr bool const& __get_XY() const;
+  constexpr bool const& __cordl_internal_get_XY() const;
 
-  constexpr void __set_XY(bool value);
+  constexpr void __cordl_internal_set_XY(bool value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*>& __get_bones();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*>& __cordl_internal_get_bones();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> const& __get_bones() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> const& __cordl_internal_get_bones() const;
 
-  constexpr void __set_bones(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> value);
+  constexpr void __cordl_internal_set_bones(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> value);
 
-  constexpr ::UnityEngine::Vector3& __get_lastLocalDirection();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastLocalDirection();
 
-  constexpr ::UnityEngine::Vector3 const& __get_lastLocalDirection() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastLocalDirection() const;
 
-  constexpr void __set_lastLocalDirection(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_lastLocalDirection(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_chainLength();
+  constexpr float_t& __cordl_internal_get_chainLength();
 
-  constexpr float_t const& __get_chainLength() const;
+  constexpr float_t const& __cordl_internal_get_chainLength() const;
 
-  constexpr void __set_chainLength(float_t value);
+  constexpr void __cordl_internal_set_chainLength(float_t value);
 
   /// @brief Method SetChain, addr 0x1269d2c, size 0x17c, virtual false, abstract: false, final false
   inline bool SetChain(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> hierarchy, ::UnityEngine::Transform* root);
@@ -191,7 +191,7 @@ protected:
 
 public:
   /// @brief Field target, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___target;
+  ::UnityW<::UnityEngine::Transform> ___target;
 
   /// @brief Field tolerance, offset: 0x60, size: 0x4, def value: None
   float_t ___tolerance;

@@ -38,26 +38,27 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(78))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::KeyAgreeRecipientInfo*
 class CORDL_TYPE KeyAgreeRecipientInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field originator, offset 0x18, size 0x8
-  __declspec(property(get = __get_originator, put = __set_originator))::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator;
+  __declspec(property(get = __cordl_internal_get_originator, put = __cordl_internal_set_originator))::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator;
 
   /// @brief Field ukm, offset 0x20, size 0x8
-  __declspec(property(get = __get_ukm, put = __set_ukm))::Org::BouncyCastle::Asn1::Asn1OctetString* ukm;
+  __declspec(property(get = __cordl_internal_get_ukm, put = __cordl_internal_set_ukm))::Org::BouncyCastle::Asn1::Asn1OctetString* ukm;
 
   /// @brief Field keyEncryptionAlgorithm, offset 0x28, size 0x8
-  __declspec(property(get = __get_keyEncryptionAlgorithm, put = __set_keyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionAlgorithm,
+                      put = __cordl_internal_set_keyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm;
 
   /// @brief Field recipientEncryptedKeys, offset 0x30, size 0x8
-  __declspec(property(get = __get_recipientEncryptedKeys, put = __set_recipientEncryptedKeys))::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys;
+  __declspec(property(get = __cordl_internal_get_recipientEncryptedKeys, put = __cordl_internal_set_recipientEncryptedKeys))::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
@@ -69,35 +70,35 @@ public:
 
   __declspec(property(get = get_RecipientEncryptedKeys))::Org::BouncyCastle::Asn1::Asn1Sequence* RecipientEncryptedKeys;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*& __get_originator();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*& __cordl_internal_get_originator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*> const& __get_originator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*> const& __cordl_internal_get_originator() const;
 
-  constexpr void __set_originator(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* value);
+  constexpr void __cordl_internal_set_originator(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_ukm();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_ukm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_ukm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_ukm() const;
 
-  constexpr void __set_ukm(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_ukm(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_keyEncryptionAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncryptionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_keyEncryptionAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncryptionAlgorithm() const;
 
-  constexpr void __set_keyEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_keyEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_recipientEncryptedKeys();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_recipientEncryptedKeys();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_recipientEncryptedKeys() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_recipientEncryptedKeys() const;
 
-  constexpr void __set_recipientEncryptedKeys(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_recipientEncryptedKeys(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1167))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1167))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1290))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsClientContextImpl*
 class CORDL_TYPE TlsClientContextImpl : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext {

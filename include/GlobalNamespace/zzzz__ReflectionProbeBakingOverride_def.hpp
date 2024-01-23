@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeBakingOverride);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5865))
 // CS Name: ::ReflectionProbeBakingOverride::ActiveStateHandling
 struct CORDL_TYPE __ReflectionProbeBakingOverride__ActiveStateHandling {
@@ -79,7 +79,7 @@ static_assert(offsetof(::GlobalNamespace::__ReflectionProbeBakingOverride__Activ
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5865))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5865)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5866))
 // CS Name: ::ReflectionProbeBakingOverride*
 class CORDL_TYPE ReflectionProbeBakingOverride : public ::UnityEngine::MonoBehaviour {
@@ -88,67 +88,67 @@ public:
   using ActiveStateHandling = ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling;
 
   /// @brief Field _stateHandling, offset 0x18, size 0x4
-  __declspec(property(get = __get__stateHandling, put = __set__stateHandling))::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling _stateHandling;
+  __declspec(property(get = __cordl_internal_get__stateHandling, put = __cordl_internal_set__stateHandling))::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling _stateHandling;
 
   /// @brief Field _setPosition, offset 0x1c, size 0x1
-  __declspec(property(get = __get__setPosition, put = __set__setPosition)) bool _setPosition;
+  __declspec(property(get = __cordl_internal_get__setPosition, put = __cordl_internal_set__setPosition)) bool _setPosition;
 
   /// @brief Field _localPosition, offset 0x20, size 0xc
-  __declspec(property(get = __get__localPosition, put = __set__localPosition))::UnityEngine::Vector3 _localPosition;
+  __declspec(property(get = __cordl_internal_get__localPosition, put = __cordl_internal_set__localPosition))::UnityEngine::Vector3 _localPosition;
 
   /// @brief Field _setRotation, offset 0x2c, size 0x1
-  __declspec(property(get = __get__setRotation, put = __set__setRotation)) bool _setRotation;
+  __declspec(property(get = __cordl_internal_get__setRotation, put = __cordl_internal_set__setRotation)) bool _setRotation;
 
   /// @brief Field _localRotation, offset 0x30, size 0xc
-  __declspec(property(get = __get__localRotation, put = __set__localRotation))::UnityEngine::Vector3 _localRotation;
+  __declspec(property(get = __cordl_internal_get__localRotation, put = __cordl_internal_set__localRotation))::UnityEngine::Vector3 _localRotation;
 
   /// @brief Field _setScale, offset 0x3c, size 0x1
-  __declspec(property(get = __get__setScale, put = __set__setScale)) bool _setScale;
+  __declspec(property(get = __cordl_internal_get__setScale, put = __cordl_internal_set__setScale)) bool _setScale;
 
   /// @brief Field _localScale, offset 0x40, size 0xc
-  __declspec(property(get = __get__localScale, put = __set__localScale))::UnityEngine::Vector3 _localScale;
+  __declspec(property(get = __cordl_internal_get__localScale, put = __cordl_internal_set__localScale))::UnityEngine::Vector3 _localScale;
 
-  constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling& __get__stateHandling();
+  constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling& __cordl_internal_get__stateHandling();
 
-  constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling const& __get__stateHandling() const;
+  constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling const& __cordl_internal_get__stateHandling() const;
 
-  constexpr void __set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value);
+  constexpr void __cordl_internal_set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value);
 
-  constexpr bool& __get__setPosition();
+  constexpr bool& __cordl_internal_get__setPosition();
 
-  constexpr bool const& __get__setPosition() const;
+  constexpr bool const& __cordl_internal_get__setPosition() const;
 
-  constexpr void __set__setPosition(bool value);
+  constexpr void __cordl_internal_set__setPosition(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__localPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__localPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__localPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition() const;
 
-  constexpr void __set__localPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__localPosition(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__setRotation();
+  constexpr bool& __cordl_internal_get__setRotation();
 
-  constexpr bool const& __get__setRotation() const;
+  constexpr bool const& __cordl_internal_get__setRotation() const;
 
-  constexpr void __set__setRotation(bool value);
+  constexpr void __cordl_internal_set__setRotation(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__localRotation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__localRotation();
 
-  constexpr ::UnityEngine::Vector3 const& __get__localRotation() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localRotation() const;
 
-  constexpr void __set__localRotation(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__localRotation(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__setScale();
+  constexpr bool& __cordl_internal_get__setScale();
 
-  constexpr bool const& __get__setScale() const;
+  constexpr bool const& __cordl_internal_get__setScale() const;
 
-  constexpr void __set__setScale(bool value);
+  constexpr void __cordl_internal_set__setScale(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__localScale();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__localScale();
 
-  constexpr ::UnityEngine::Vector3 const& __get__localScale() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localScale() const;
 
-  constexpr void __set__localScale(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__localScale(::UnityEngine::Vector3 value);
 
   /// @brief Method UpdateForProbeBaking, addr 0x22f82f8, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateForProbeBaking();

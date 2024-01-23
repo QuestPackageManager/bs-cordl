@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::GlobalNamespace::DeterministicHitChanceScoreCalculator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5169))
 // CS Name: ::DeterministicHitChanceScoreCalculator*
 class CORDL_TYPE DeterministicHitChanceScoreCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _hitChance, offset 0x10, size 0x4
-  __declspec(property(get = __get__hitChance, put = __set__hitChance)) float_t _hitChance;
+  __declspec(property(get = __cordl_internal_get__hitChance, put = __cordl_internal_set__hitChance)) float_t _hitChance;
 
   /// @brief Field _chanceAggregated, offset 0x14, size 0x4
-  __declspec(property(get = __get__chanceAggregated, put = __set__chanceAggregated)) float_t _chanceAggregated;
+  __declspec(property(get = __cordl_internal_get__chanceAggregated, put = __cordl_internal_set__chanceAggregated)) float_t _chanceAggregated;
 
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
@@ -40,17 +40,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
 
-  constexpr float_t& __get__hitChance();
+  constexpr float_t& __cordl_internal_get__hitChance();
 
-  constexpr float_t const& __get__hitChance() const;
+  constexpr float_t const& __cordl_internal_get__hitChance() const;
 
-  constexpr void __set__hitChance(float_t value);
+  constexpr void __cordl_internal_set__hitChance(float_t value);
 
-  constexpr float_t& __get__chanceAggregated();
+  constexpr float_t& __cordl_internal_get__chanceAggregated();
 
-  constexpr float_t const& __get__chanceAggregated() const;
+  constexpr float_t const& __cordl_internal_get__chanceAggregated() const;
 
-  constexpr void __set__chanceAggregated(float_t value);
+  constexpr void __cordl_internal_set__chanceAggregated(float_t value);
 
   static inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* New_ctor(float_t hitChance);
 

@@ -38,26 +38,26 @@ MARK_REF_PTR_T(::HMUI::SimpleTextDropdown);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13624))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13624))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13656))
 // CS Name: ::HMUI::SimpleTextDropdown*
 class CORDL_TYPE SimpleTextDropdown : public ::HMUI::DropdownWithTableView {
 public:
   // Declarations
   /// @brief Field _text, offset 0x48, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _cellPrefab, offset 0x50, size 0x8
-  __declspec(property(get = __get__cellPrefab, put = __set__cellPrefab))::GlobalNamespace::SimpleTextTableCell* _cellPrefab;
+  __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::SimpleTextTableCell> _cellPrefab;
 
   /// @brief Field _cellSize, offset 0x58, size 0x4
-  __declspec(property(get = __get__cellSize, put = __set__cellSize)) float_t _cellSize;
+  __declspec(property(get = __cordl_internal_get__cellSize, put = __cordl_internal_set__cellSize)) float_t _cellSize;
 
   /// @brief Field _texts, offset 0x60, size 0x8
-  __declspec(property(get = __get__texts, put = __set__texts))::System::Collections::Generic::IReadOnlyList_1<::StringW>* _texts;
+  __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts))::System::Collections::Generic::IReadOnlyList_1<::StringW>* _texts;
 
   /// @brief Field _initialized, offset 0x68, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
@@ -65,35 +65,35 @@ public:
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::SimpleTextTableCell*& __get__cellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SimpleTextTableCell>& __cordl_internal_get__cellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleTextTableCell*> const& __get__cellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleTextTableCell> const& __cordl_internal_get__cellPrefab() const;
 
-  constexpr void __set__cellPrefab(::GlobalNamespace::SimpleTextTableCell* value);
+  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::SimpleTextTableCell> value);
 
-  constexpr float_t& __get__cellSize();
+  constexpr float_t& __cordl_internal_get__cellSize();
 
-  constexpr float_t const& __get__cellSize() const;
+  constexpr float_t const& __cordl_internal_get__cellSize() const;
 
-  constexpr void __set__cellSize(float_t value);
+  constexpr void __cordl_internal_set__cellSize(float_t value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __get__texts();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __cordl_internal_get__texts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __get__texts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __cordl_internal_get__texts() const;
 
-  constexpr void __set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
+  constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
   /// @brief Method LazyInit, addr 0x21460b8, size 0xb0, virtual false, abstract: false, final false
   inline void LazyInit();
@@ -117,7 +117,7 @@ public:
   inline int32_t NumberOfCells();
 
   /// @brief Method CellForIdx, addr 0x2146678, size 0x1bc, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t idx);
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
   /// @brief Method HandleDidSelectCellWithIdx, addr 0x2146920, size 0x14c, virtual false, abstract: false, final false
   inline void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
@@ -142,10 +142,10 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x48, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _cellPrefab, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleTextTableCell* ____cellPrefab;
+  ::UnityW<::GlobalNamespace::SimpleTextTableCell> ____cellPrefab;
 
   /// @brief Field _cellSize, offset: 0x58, size: 0x4, def value: None
   float_t ____cellSize;

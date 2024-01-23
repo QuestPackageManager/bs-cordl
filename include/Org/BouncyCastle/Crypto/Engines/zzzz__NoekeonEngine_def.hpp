@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::NoekeonEngine);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(852))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::NoekeonEngine*
 class CORDL_TYPE NoekeonEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field k, offset 0x10, size 0x8
-  __declspec(property(get = __get_k, put = __set_k))::ArrayW<uint32_t, ::Array<uint32_t>*> k;
+  __declspec(property(get = __cordl_internal_get_k, put = __cordl_internal_set_k))::ArrayW<uint32_t, ::Array<uint32_t>*> k;
 
   /// @brief Field _initialised, offset 0x18, size 0x1
-  __declspec(property(get = __get__initialised, put = __set__initialised)) bool _initialised;
+  __declspec(property(get = __cordl_internal_get__initialised, put = __cordl_internal_set__initialised)) bool _initialised;
 
   /// @brief Field _forEncryption, offset 0x19, size 0x1
-  __declspec(property(get = __get__forEncryption, put = __set__forEncryption)) bool _forEncryption;
+  __declspec(property(get = __cordl_internal_get__forEncryption, put = __cordl_internal_set__forEncryption)) bool _forEncryption;
 
   /// @brief Field RoundConstants, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RoundConstants, put = setStaticF_RoundConstants))::ArrayW<uint8_t, ::Array<uint8_t>*> RoundConstants;
@@ -51,23 +51,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_k();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_k();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_k() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_k() const;
 
-  constexpr void __set_k(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_k(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr bool& __get__initialised();
+  constexpr bool& __cordl_internal_get__initialised();
 
-  constexpr bool const& __get__initialised() const;
+  constexpr bool const& __cordl_internal_get__initialised() const;
 
-  constexpr void __set__initialised(bool value);
+  constexpr void __cordl_internal_set__initialised(bool value);
 
-  constexpr bool& __get__forEncryption();
+  constexpr bool& __cordl_internal_get__forEncryption();
 
-  constexpr bool const& __get__forEncryption() const;
+  constexpr bool const& __cordl_internal_get__forEncryption() const;
 
-  constexpr void __set__forEncryption(bool value);
+  constexpr void __cordl_internal_set__forEncryption(bool value);
 
   static inline void setStaticF_RoundConstants(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

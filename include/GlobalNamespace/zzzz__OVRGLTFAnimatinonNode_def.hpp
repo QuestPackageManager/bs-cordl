@@ -85,7 +85,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7555))
 // CS Name: ::OVRGLTFAnimatinonNode::ThumbstickDirection
 struct CORDL_TYPE __OVRGLTFAnimatinonNode__ThumbstickDirection {
@@ -163,7 +163,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRGLTFAnimatinonNode__ThumbstickDir
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7556))
 // CS Name: ::OVRGLTFAnimatinonNode::OVRGLTFTransformType
 struct CORDL_TYPE __OVRGLTFAnimatinonNode__OVRGLTFTransformType {
@@ -225,7 +225,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRGLTFAnimatinonNode__OVRGLTFTransf
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7557))
 // CS Name: ::OVRGLTFAnimatinonNode::OVRInterpolationType
 struct CORDL_TYPE __OVRGLTFAnimatinonNode__OVRInterpolationType {
@@ -283,7 +283,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRGLTFAnimatinonNode__OVRInterpolat
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7558))
 // CS Name: ::OVRGLTFAnimatinonNode::InputNodeState
 struct CORDL_TYPE __OVRGLTFAnimatinonNode__InputNodeState {
@@ -325,8 +325,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeStat
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7564)), TypeDefinitionIndex(TypeDefinitionIndex(7554)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7558))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7559)) CS Name: ::OVRGLTFAnimatinonNode*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7554)), TypeDefinitionIndex(TypeDefinitionIndex(7558)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7564))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7559)) CS Name: ::OVRGLTFAnimatinonNode*
 class CORDL_TYPE OVRGLTFAnimatinonNode : public ::System::Object {
 public:
   // Declarations
@@ -339,37 +339,37 @@ public:
   using ThumbstickDirection = ::GlobalNamespace::__OVRGLTFAnimatinonNode__ThumbstickDirection;
 
   /// @brief Field m_intputNodeType, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_intputNodeType, put = __set_m_intputNodeType))::GlobalNamespace::OVRGLTFInputNode m_intputNodeType;
+  __declspec(property(get = __cordl_internal_get_m_intputNodeType, put = __cordl_internal_set_m_intputNodeType))::GlobalNamespace::OVRGLTFInputNode m_intputNodeType;
 
   /// @brief Field m_jsonData, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_jsonData, put = __set_m_jsonData))::OVRSimpleJSON::JSONNode* m_jsonData;
+  __declspec(property(get = __cordl_internal_get_m_jsonData, put = __cordl_internal_set_m_jsonData))::OVRSimpleJSON::JSONNode* m_jsonData;
 
   /// @brief Field m_binaryChunk, offset 0x20, size 0x18
-  __declspec(property(get = __get_m_binaryChunk, put = __set_m_binaryChunk))::GlobalNamespace::OVRBinaryChunk m_binaryChunk;
+  __declspec(property(get = __cordl_internal_get_m_binaryChunk, put = __cordl_internal_set_m_binaryChunk))::GlobalNamespace::OVRBinaryChunk m_binaryChunk;
 
   /// @brief Field m_gameObj, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_gameObj, put = __set_m_gameObj))::UnityEngine::GameObject* m_gameObj;
+  __declspec(property(get = __cordl_internal_get_m_gameObj, put = __cordl_internal_set_m_gameObj))::UnityW<::UnityEngine::GameObject> m_gameObj;
 
   /// @brief Field m_inputNodeState, offset 0x40, size 0x10
-  __declspec(property(get = __get_m_inputNodeState, put = __set_m_inputNodeState))::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState m_inputNodeState;
+  __declspec(property(get = __cordl_internal_get_m_inputNodeState, put = __cordl_internal_set_m_inputNodeState))::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState m_inputNodeState;
 
   /// @brief Field m_morphTargetHandler, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_morphTargetHandler, put = __set_m_morphTargetHandler))::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* m_morphTargetHandler;
+  __declspec(property(get = __cordl_internal_get_m_morphTargetHandler, put = __cordl_internal_set_m_morphTargetHandler))::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* m_morphTargetHandler;
 
   /// @brief Field m_translations, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_translations, put = __set_m_translations))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_translations;
+  __declspec(property(get = __cordl_internal_get_m_translations, put = __cordl_internal_set_m_translations))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_translations;
 
   /// @brief Field m_rotations, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_rotations, put = __set_m_rotations))::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* m_rotations;
+  __declspec(property(get = __cordl_internal_get_m_rotations, put = __cordl_internal_set_m_rotations))::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* m_rotations;
 
   /// @brief Field m_scales, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_scales, put = __set_m_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_scales;
+  __declspec(property(get = __cordl_internal_get_m_scales, put = __cordl_internal_set_m_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_scales;
 
   /// @brief Field m_weights, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_weights, put = __set_m_weights))::System::Collections::Generic::List_1<float_t>* m_weights;
+  __declspec(property(get = __cordl_internal_get_m_weights, put = __cordl_internal_set_m_weights))::System::Collections::Generic::List_1<float_t>* m_weights;
 
   /// @brief Field m_additiveWeightIndex, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_additiveWeightIndex, put = __set_m_additiveWeightIndex)) int32_t m_additiveWeightIndex;
+  __declspec(property(get = __cordl_internal_get_m_additiveWeightIndex, put = __cordl_internal_set_m_additiveWeightIndex)) int32_t m_additiveWeightIndex;
 
   /// @brief Field InputNodeKeyFrames, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InputNodeKeyFrames,
@@ -381,71 +381,71 @@ public:
   /// @brief Field CardDirections, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_CardDirections, put = setStaticF_CardDirections))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> CardDirections;
 
-  constexpr ::GlobalNamespace::OVRGLTFInputNode& __get_m_intputNodeType();
+  constexpr ::GlobalNamespace::OVRGLTFInputNode& __cordl_internal_get_m_intputNodeType();
 
-  constexpr ::GlobalNamespace::OVRGLTFInputNode const& __get_m_intputNodeType() const;
+  constexpr ::GlobalNamespace::OVRGLTFInputNode const& __cordl_internal_get_m_intputNodeType() const;
 
-  constexpr void __set_m_intputNodeType(::GlobalNamespace::OVRGLTFInputNode value);
+  constexpr void __cordl_internal_set_m_intputNodeType(::GlobalNamespace::OVRGLTFInputNode value);
 
-  constexpr ::OVRSimpleJSON::JSONNode*& __get_m_jsonData();
+  constexpr ::OVRSimpleJSON::JSONNode*& __cordl_internal_get_m_jsonData();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONNode*> const& __get_m_jsonData() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONNode*> const& __cordl_internal_get_m_jsonData() const;
 
-  constexpr void __set_m_jsonData(::OVRSimpleJSON::JSONNode* value);
+  constexpr void __cordl_internal_set_m_jsonData(::OVRSimpleJSON::JSONNode* value);
 
-  constexpr ::GlobalNamespace::OVRBinaryChunk& __get_m_binaryChunk();
+  constexpr ::GlobalNamespace::OVRBinaryChunk& __cordl_internal_get_m_binaryChunk();
 
-  constexpr ::GlobalNamespace::OVRBinaryChunk const& __get_m_binaryChunk() const;
+  constexpr ::GlobalNamespace::OVRBinaryChunk const& __cordl_internal_get_m_binaryChunk() const;
 
-  constexpr void __set_m_binaryChunk(::GlobalNamespace::OVRBinaryChunk value);
+  constexpr void __cordl_internal_set_m_binaryChunk(::GlobalNamespace::OVRBinaryChunk value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_gameObj();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_gameObj();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_gameObj() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_gameObj() const;
 
-  constexpr void __set_m_gameObj(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_gameObj(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState& __get_m_inputNodeState();
+  constexpr ::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState& __cordl_internal_get_m_inputNodeState();
 
-  constexpr ::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState const& __get_m_inputNodeState() const;
+  constexpr ::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState const& __cordl_internal_get_m_inputNodeState() const;
 
-  constexpr void __set_m_inputNodeState(::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState value);
+  constexpr void __cordl_internal_set_m_inputNodeState(::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState value);
 
-  constexpr ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*& __get_m_morphTargetHandler();
+  constexpr ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*& __cordl_internal_get_m_morphTargetHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*> const& __get_m_morphTargetHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*> const& __cordl_internal_get_m_morphTargetHandler() const;
 
-  constexpr void __set_m_morphTargetHandler(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* value);
+  constexpr void __cordl_internal_set_m_morphTargetHandler(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_m_translations();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_translations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_m_translations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_translations() const;
 
-  constexpr void __set_m_translations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_m_translations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& __get_m_rotations();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& __cordl_internal_get_m_rotations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*> const& __get_m_rotations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*> const& __cordl_internal_get_m_rotations() const;
 
-  constexpr void __set_m_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value);
+  constexpr void __cordl_internal_set_m_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_m_scales();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_scales();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_m_scales() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_scales() const;
 
-  constexpr void __set_m_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_m_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __get_m_weights();
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_m_weights();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __get_m_weights() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get_m_weights() const;
 
-  constexpr void __set_m_weights(::System::Collections::Generic::List_1<float_t>* value);
+  constexpr void __cordl_internal_set_m_weights(::System::Collections::Generic::List_1<float_t>* value);
 
-  constexpr int32_t& __get_m_additiveWeightIndex();
+  constexpr int32_t& __cordl_internal_get_m_additiveWeightIndex();
 
-  constexpr int32_t const& __get_m_additiveWeightIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_additiveWeightIndex() const;
 
-  constexpr void __set_m_additiveWeightIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_additiveWeightIndex(int32_t value);
 
   static inline void setStaticF_InputNodeKeyFrames(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, int32_t>* value);
 
@@ -531,7 +531,7 @@ public:
   ::GlobalNamespace::OVRBinaryChunk ___m_binaryChunk;
 
   /// @brief Field m_gameObj, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_gameObj;
+  ::UnityW<::UnityEngine::GameObject> ___m_gameObj;
 
   /// @brief Field m_inputNodeState, offset: 0x40, size: 0x10, def value: None
   ::GlobalNamespace::__OVRGLTFAnimatinonNode__InputNodeState ___m_inputNodeState;

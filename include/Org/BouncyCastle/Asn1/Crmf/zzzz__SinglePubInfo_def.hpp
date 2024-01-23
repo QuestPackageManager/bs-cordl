@@ -29,31 +29,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(122))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::SinglePubInfo*
 class CORDL_TYPE SinglePubInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field pubMethod, offset 0x10, size 0x8
-  __declspec(property(get = __get_pubMethod, put = __set_pubMethod))::Org::BouncyCastle::Asn1::DerInteger* pubMethod;
+  __declspec(property(get = __cordl_internal_get_pubMethod, put = __cordl_internal_set_pubMethod))::Org::BouncyCastle::Asn1::DerInteger* pubMethod;
 
   /// @brief Field pubLocation, offset 0x18, size 0x8
-  __declspec(property(get = __get_pubLocation, put = __set_pubLocation))::Org::BouncyCastle::Asn1::X509::GeneralName* pubLocation;
+  __declspec(property(get = __cordl_internal_get_pubLocation, put = __cordl_internal_set_pubLocation))::Org::BouncyCastle::Asn1::X509::GeneralName* pubLocation;
 
   __declspec(property(get = get_PubLocation))::Org::BouncyCastle::Asn1::X509::GeneralName* PubLocation;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_pubMethod();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_pubMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_pubMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_pubMethod() const;
 
-  constexpr void __set_pubMethod(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_pubMethod(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_pubLocation();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_pubLocation();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_pubLocation() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_pubLocation() const;
 
-  constexpr void __set_pubLocation(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_pubLocation(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

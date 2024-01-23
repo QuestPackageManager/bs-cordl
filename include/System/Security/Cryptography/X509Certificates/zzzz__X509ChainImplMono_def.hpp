@@ -60,58 +60,58 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainImpl
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9006)), TypeDefinitionIndex(TypeDefinitionIndex(8979))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8979)), TypeDefinitionIndex(TypeDefinitionIndex(9006))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9007))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainImplMono*
 class CORDL_TYPE X509ChainImplMono : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {
 public:
   // Declarations
   /// @brief Field location, offset 0x10, size 0x4
-  __declspec(property(get = __get_location, put = __set_location))::System::Security::Cryptography::X509Certificates::StoreLocation location;
+  __declspec(property(get = __cordl_internal_get_location, put = __cordl_internal_set_location))::System::Security::Cryptography::X509Certificates::StoreLocation location;
 
   /// @brief Field elements, offset 0x18, size 0x8
-  __declspec(property(get = __get_elements, put = __set_elements))::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* elements;
+  __declspec(property(get = __cordl_internal_get_elements, put = __cordl_internal_set_elements))::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* elements;
 
   /// @brief Field policy, offset 0x20, size 0x8
-  __declspec(property(get = __get_policy, put = __set_policy))::System::Security::Cryptography::X509Certificates::X509ChainPolicy* policy;
+  __declspec(property(get = __cordl_internal_get_policy, put = __cordl_internal_set_policy))::System::Security::Cryptography::X509Certificates::X509ChainPolicy* policy;
 
   /// @brief Field status, offset 0x28, size 0x8
-  __declspec(
-      property(get = __get_status,
-               put = __set_status))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus,
+                                                                                                     ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status;
 
   /// @brief Field max_path_length, offset 0x30, size 0x4
-  __declspec(property(get = __get_max_path_length, put = __set_max_path_length)) int32_t max_path_length;
+  __declspec(property(get = __cordl_internal_get_max_path_length, put = __cordl_internal_set_max_path_length)) int32_t max_path_length;
 
   /// @brief Field working_issuer_name, offset 0x38, size 0x8
-  __declspec(property(get = __get_working_issuer_name, put = __set_working_issuer_name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* working_issuer_name;
+  __declspec(property(get = __cordl_internal_get_working_issuer_name,
+                      put = __cordl_internal_set_working_issuer_name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* working_issuer_name;
 
   /// @brief Field working_public_key, offset 0x40, size 0x8
-  __declspec(property(get = __get_working_public_key, put = __set_working_public_key))::System::Security::Cryptography::AsymmetricAlgorithm* working_public_key;
+  __declspec(property(get = __cordl_internal_get_working_public_key, put = __cordl_internal_set_working_public_key))::System::Security::Cryptography::AsymmetricAlgorithm* working_public_key;
 
   /// @brief Field bce_restriction, offset 0x48, size 0x8
-  __declspec(property(get = __get_bce_restriction, put = __set_bce_restriction))::System::Security::Cryptography::X509Certificates::X509ChainElement* bce_restriction;
+  __declspec(property(get = __cordl_internal_get_bce_restriction, put = __cordl_internal_set_bce_restriction))::System::Security::Cryptography::X509Certificates::X509ChainElement* bce_restriction;
 
   /// @brief Field roots, offset 0x50, size 0x8
-  __declspec(property(get = __get_roots, put = __set_roots))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* roots;
+  __declspec(property(get = __cordl_internal_get_roots, put = __cordl_internal_set_roots))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* roots;
 
   /// @brief Field cas, offset 0x58, size 0x8
-  __declspec(property(get = __get_cas, put = __set_cas))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* cas;
+  __declspec(property(get = __cordl_internal_get_cas, put = __cordl_internal_set_cas))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* cas;
 
   /// @brief Field root_store, offset 0x60, size 0x8
-  __declspec(property(get = __get_root_store, put = __set_root_store))::System::Security::Cryptography::X509Certificates::X509Store* root_store;
+  __declspec(property(get = __cordl_internal_get_root_store, put = __cordl_internal_set_root_store))::System::Security::Cryptography::X509Certificates::X509Store* root_store;
 
   /// @brief Field ca_store, offset 0x68, size 0x8
-  __declspec(property(get = __get_ca_store, put = __set_ca_store))::System::Security::Cryptography::X509Certificates::X509Store* ca_store;
+  __declspec(property(get = __cordl_internal_get_ca_store, put = __cordl_internal_set_ca_store))::System::Security::Cryptography::X509Certificates::X509Store* ca_store;
 
   /// @brief Field user_root_store, offset 0x70, size 0x8
-  __declspec(property(get = __get_user_root_store, put = __set_user_root_store))::System::Security::Cryptography::X509Certificates::X509Store* user_root_store;
+  __declspec(property(get = __cordl_internal_get_user_root_store, put = __cordl_internal_set_user_root_store))::System::Security::Cryptography::X509Certificates::X509Store* user_root_store;
 
   /// @brief Field user_ca_store, offset 0x78, size 0x8
-  __declspec(property(get = __get_user_ca_store, put = __set_user_ca_store))::System::Security::Cryptography::X509Certificates::X509Store* user_ca_store;
+  __declspec(property(get = __cordl_internal_get_user_ca_store, put = __cordl_internal_set_user_ca_store))::System::Security::Cryptography::X509Certificates::X509Store* user_ca_store;
 
   /// @brief Field collection, offset 0x80, size 0x8
-  __declspec(property(get = __get_collection, put = __set_collection))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection;
+  __declspec(property(get = __cordl_internal_get_collection, put = __cordl_internal_set_collection))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(
@@ -141,95 +141,97 @@ public:
 
   __declspec(property(get = get_CertificateCollection))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* CertificateCollection;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation& __get_location();
+  constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation& __cordl_internal_get_location();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation const& __get_location() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation const& __cordl_internal_get_location() const;
 
-  constexpr void __set_location(::System::Security::Cryptography::X509Certificates::StoreLocation value);
+  constexpr void __cordl_internal_set_location(::System::Security::Cryptography::X509Certificates::StoreLocation value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& __get_elements();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& __cordl_internal_get_elements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*> const& __get_elements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*> const& __cordl_internal_get_elements() const;
 
-  constexpr void __set_elements(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value);
+  constexpr void __cordl_internal_set_elements(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& __get_policy();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& __cordl_internal_get_policy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*> const& __get_policy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*> const& __cordl_internal_get_policy() const;
 
-  constexpr void __set_policy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
+  constexpr void __cordl_internal_set_policy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
 
-  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>& __get_status();
+  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>& __cordl_internal_get_status();
 
-  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const& __get_status() const;
+  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const&
+  __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);
+  constexpr void
+  __cordl_internal_set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);
 
-  constexpr int32_t& __get_max_path_length();
+  constexpr int32_t& __cordl_internal_get_max_path_length();
 
-  constexpr int32_t const& __get_max_path_length() const;
+  constexpr int32_t const& __cordl_internal_get_max_path_length() const;
 
-  constexpr void __set_max_path_length(int32_t value);
+  constexpr void __cordl_internal_set_max_path_length(int32_t value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __get_working_issuer_name();
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get_working_issuer_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __get_working_issuer_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __cordl_internal_get_working_issuer_name() const;
 
-  constexpr void __set_working_issuer_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
+  constexpr void __cordl_internal_set_working_issuer_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  constexpr ::System::Security::Cryptography::AsymmetricAlgorithm*& __get_working_public_key();
+  constexpr ::System::Security::Cryptography::AsymmetricAlgorithm*& __cordl_internal_get_working_public_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsymmetricAlgorithm*> const& __get_working_public_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsymmetricAlgorithm*> const& __cordl_internal_get_working_public_key() const;
 
-  constexpr void __set_working_public_key(::System::Security::Cryptography::AsymmetricAlgorithm* value);
+  constexpr void __cordl_internal_set_working_public_key(::System::Security::Cryptography::AsymmetricAlgorithm* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElement*& __get_bce_restriction();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElement*& __cordl_internal_get_bce_restriction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElement*> const& __get_bce_restriction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElement*> const& __cordl_internal_get_bce_restriction() const;
 
-  constexpr void __set_bce_restriction(::System::Security::Cryptography::X509Certificates::X509ChainElement* value);
+  constexpr void __cordl_internal_set_bce_restriction(::System::Security::Cryptography::X509Certificates::X509ChainElement* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __get_roots();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __cordl_internal_get_roots();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __get_roots() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __cordl_internal_get_roots() const;
 
-  constexpr void __set_roots(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
+  constexpr void __cordl_internal_set_roots(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __get_cas();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __cordl_internal_get_cas();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __get_cas() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __cordl_internal_get_cas() const;
 
-  constexpr void __set_cas(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
+  constexpr void __cordl_internal_set_cas(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __get_root_store();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __cordl_internal_get_root_store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __get_root_store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __cordl_internal_get_root_store() const;
 
-  constexpr void __set_root_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
+  constexpr void __cordl_internal_set_root_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __get_ca_store();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __cordl_internal_get_ca_store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __get_ca_store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __cordl_internal_get_ca_store() const;
 
-  constexpr void __set_ca_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
+  constexpr void __cordl_internal_set_ca_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __get_user_root_store();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __cordl_internal_get_user_root_store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __get_user_root_store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __cordl_internal_get_user_root_store() const;
 
-  constexpr void __set_user_root_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
+  constexpr void __cordl_internal_set_user_root_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __get_user_ca_store();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Store*& __cordl_internal_get_user_ca_store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __get_user_ca_store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Store*> const& __cordl_internal_get_user_ca_store() const;
 
-  constexpr void __set_user_ca_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
+  constexpr void __cordl_internal_set_user_ca_store(::System::Security::Cryptography::X509Certificates::X509Store* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __get_collection();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __cordl_internal_get_collection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __get_collection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __cordl_internal_get_collection() const;
 
-  constexpr void __set_collection(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
+  constexpr void __cordl_internal_set_collection(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
 
   static inline void
   setStaticF_Empty(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);

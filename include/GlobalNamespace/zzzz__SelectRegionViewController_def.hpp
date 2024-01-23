@@ -56,7 +56,7 @@ MARK_VAL_T(::GlobalNamespace::__SelectRegionViewController__RegionToLocalization
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5749))
 // CS Name: ::SelectRegionViewController::Region
 struct CORDL_TYPE __SelectRegionViewController__Region {
@@ -122,7 +122,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectRegionViewController__Region, 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5749))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5749))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5750))
 // CS Name: ::SelectRegionViewController::RegionToLocalizationKeyPair
 struct CORDL_TYPE __SelectRegionViewController__RegionToLocalizationKeyPair {
@@ -162,7 +162,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectRegionViewController__RegionTo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5751))
 // CS Name: ::SelectRegionViewController::<>c*
 class CORDL_TYPE __SelectRegionViewController____c : public ::System::Object {
@@ -214,7 +214,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectRegionV
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5752))
 // CS Name: ::SelectRegionViewController*
 class CORDL_TYPE SelectRegionViewController : public ::HMUI::ViewController {
@@ -227,46 +227,46 @@ public:
   using Region = ::GlobalNamespace::__SelectRegionViewController__Region;
 
   /// @brief Field _continueButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__continueButton, put = __set__continueButton))::UnityEngine::UI::Button* _continueButton;
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
 
   /// @brief Field _regionSelectionDropdown, offset 0x78, size 0x8
-  __declspec(property(get = __get__regionSelectionDropdown, put = __set__regionSelectionDropdown))::HMUI::SimpleTextDropdown* _regionSelectionDropdown;
+  __declspec(property(get = __cordl_internal_get__regionSelectionDropdown, put = __cordl_internal_set__regionSelectionDropdown))::UnityW<::HMUI::SimpleTextDropdown> _regionSelectionDropdown;
 
   /// @brief Field _regionLocalizationKeys, offset 0x80, size 0x8
-  __declspec(property(get = __get__regionLocalizationKeys,
-                      put = __set__regionLocalizationKeys))::ArrayW<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair,
-                                                                    ::Array<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair>*> _regionLocalizationKeys;
+  __declspec(property(get = __cordl_internal_get__regionLocalizationKeys,
+                      put = __cordl_internal_set__regionLocalizationKeys))::ArrayW<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair,
+                                                                                   ::Array<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair>*> _regionLocalizationKeys;
 
   /// @brief Field didPressContinueButtonEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didPressContinueButtonEvent,
-                      put = __set_didPressContinueButtonEvent))::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* didPressContinueButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent,
+                      put = __cordl_internal_set_didPressContinueButtonEvent))::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* didPressContinueButtonEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__continueButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__continueButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __set__continueButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::SimpleTextDropdown*& __get__regionSelectionDropdown();
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__regionSelectionDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& __get__regionSelectionDropdown() const;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__regionSelectionDropdown() const;
 
-  constexpr void __set__regionSelectionDropdown(::HMUI::SimpleTextDropdown* value);
+  constexpr void __cordl_internal_set__regionSelectionDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair, ::Array<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair>*>&
-  __get__regionLocalizationKeys();
+  __cordl_internal_get__regionLocalizationKeys();
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair, ::Array<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair>*> const&
-  __get__regionLocalizationKeys() const;
+  __cordl_internal_get__regionLocalizationKeys() const;
 
-  constexpr void __set__regionLocalizationKeys(
+  constexpr void __cordl_internal_set__regionLocalizationKeys(
       ::ArrayW<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair, ::Array<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair>*> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>*& __get_didPressContinueButtonEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>*& __cordl_internal_get_didPressContinueButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>*> const& __get_didPressContinueButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>*> const& __cordl_internal_get_didPressContinueButtonEvent() const;
 
-  constexpr void __set_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
+  constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
 
   /// @brief Method add_didPressContinueButtonEvent, addr 0x22d9d54, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
@@ -306,10 +306,10 @@ protected:
 
 public:
   /// @brief Field _continueButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____continueButton;
+  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
   /// @brief Field _regionSelectionDropdown, offset: 0x78, size: 0x8, def value: None
-  ::HMUI::SimpleTextDropdown* ____regionSelectionDropdown;
+  ::UnityW<::HMUI::SimpleTextDropdown> ____regionSelectionDropdown;
 
   /// @brief Field _regionLocalizationKeys, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair, ::Array<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair>*>

@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeviceResetEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6530))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6524))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeviceResetEvent
 #pragma pack(push, 0)
@@ -34,10 +34,10 @@ struct CORDL_TYPE DeviceResetEvent {
 public:
   // Declarations
   /// @brief Field baseEvent, offset 0x0, size 0x14
-  __declspec(property(get = __get_baseEvent, put = __set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
+  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
   /// @brief Field hardReset, offset 0x8, size 0x1
-  __declspec(property(get = __get_hardReset, put = __set_hardReset)) bool hardReset;
+  __declspec(property(get = __cordl_internal_get_hardReset, put = __cordl_internal_set_hardReset)) bool hardReset;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -47,17 +47,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __get_baseEvent() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  constexpr bool& __get_hardReset();
+  constexpr bool& __cordl_internal_get_hardReset();
 
-  constexpr bool const& __get_hardReset() const;
+  constexpr bool const& __cordl_internal_get_hardReset() const;
 
-  constexpr void __set_hardReset(bool value);
+  constexpr void __cordl_internal_set_hardReset(bool value);
 
   /// @brief Method get_typeStatic, addr 0x2ae9c70, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();

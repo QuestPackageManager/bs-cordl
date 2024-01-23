@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceJoinIntent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13434))
 // CS Name: ::Oculus.Platform.Models::GroupPresenceJoinIntent*
 class CORDL_TYPE GroupPresenceJoinIntent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DeeplinkMessage, offset 0x10, size 0x8
-  __declspec(property(get = __get_DeeplinkMessage, put = __set_DeeplinkMessage))::StringW DeeplinkMessage;
+  __declspec(property(get = __cordl_internal_get_DeeplinkMessage, put = __cordl_internal_set_DeeplinkMessage))::StringW DeeplinkMessage;
 
   /// @brief Field DestinationApiName, offset 0x18, size 0x8
-  __declspec(property(get = __get_DestinationApiName, put = __set_DestinationApiName))::StringW DestinationApiName;
+  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName))::StringW DestinationApiName;
 
   /// @brief Field LobbySessionId, offset 0x20, size 0x8
-  __declspec(property(get = __get_LobbySessionId, put = __set_LobbySessionId))::StringW LobbySessionId;
+  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId))::StringW LobbySessionId;
 
   /// @brief Field MatchSessionId, offset 0x28, size 0x8
-  __declspec(property(get = __get_MatchSessionId, put = __set_MatchSessionId))::StringW MatchSessionId;
+  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId))::StringW MatchSessionId;
 
-  constexpr ::StringW& __get_DeeplinkMessage();
+  constexpr ::StringW& __cordl_internal_get_DeeplinkMessage();
 
-  constexpr ::StringW const& __get_DeeplinkMessage() const;
+  constexpr ::StringW const& __cordl_internal_get_DeeplinkMessage() const;
 
-  constexpr void __set_DeeplinkMessage(::StringW value);
+  constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
 
-  constexpr ::StringW& __get_DestinationApiName();
+  constexpr ::StringW& __cordl_internal_get_DestinationApiName();
 
-  constexpr ::StringW const& __get_DestinationApiName() const;
+  constexpr ::StringW const& __cordl_internal_get_DestinationApiName() const;
 
-  constexpr void __set_DestinationApiName(::StringW value);
+  constexpr void __cordl_internal_set_DestinationApiName(::StringW value);
 
-  constexpr ::StringW& __get_LobbySessionId();
+  constexpr ::StringW& __cordl_internal_get_LobbySessionId();
 
-  constexpr ::StringW const& __get_LobbySessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_LobbySessionId() const;
 
-  constexpr void __set_LobbySessionId(::StringW value);
+  constexpr void __cordl_internal_set_LobbySessionId(::StringW value);
 
-  constexpr ::StringW& __get_MatchSessionId();
+  constexpr ::StringW& __cordl_internal_get_MatchSessionId();
 
-  constexpr ::StringW const& __get_MatchSessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_MatchSessionId() const;
 
-  constexpr void __set_MatchSessionId(::StringW value);
+  constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
   static inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* New_ctor(void* o);
 

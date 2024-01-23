@@ -31,20 +31,20 @@ MARK_REF_PTR_T(::System::CharEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2363))
 // CS Name: ::System::CharEnumerator*
 class CORDL_TYPE CharEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _str, offset 0x10, size 0x8
-  __declspec(property(get = __get__str, put = __set__str))::StringW _str;
+  __declspec(property(get = __cordl_internal_get__str, put = __cordl_internal_set__str))::StringW _str;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _currentElement, offset 0x1c, size 0x2
-  __declspec(property(get = __get__currentElement, put = __set__currentElement)) char16_t _currentElement;
+  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement)) char16_t _currentElement;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
@@ -74,23 +74,23 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::StringW& __get__str();
+  constexpr ::StringW& __cordl_internal_get__str();
 
-  constexpr ::StringW const& __get__str() const;
+  constexpr ::StringW const& __cordl_internal_get__str() const;
 
-  constexpr void __set__str(::StringW value);
+  constexpr void __cordl_internal_set__str(::StringW value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr char16_t& __get__currentElement();
+  constexpr char16_t& __cordl_internal_get__currentElement();
 
-  constexpr char16_t const& __get__currentElement() const;
+  constexpr char16_t const& __cordl_internal_get__currentElement() const;
 
-  constexpr void __set__currentElement(char16_t value);
+  constexpr void __cordl_internal_set__currentElement(char16_t value);
 
   static inline ::System::CharEnumerator* New_ctor(::StringW str);
 

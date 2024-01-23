@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x23883f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(), 4));
@@ -27,9 +27,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x2388414;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(),
-                                                                               "FixedUpdate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "FixedUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x238845c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(), 5));
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x2388520;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(), 6));
@@ -70,45 +70,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2388580;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rigidbody*& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__rigidbody() {
+constexpr ::UnityW<::UnityEngine::Rigidbody>& GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_get__rigidbody() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rigidbody;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__rigidbody() const {
+constexpr ::UnityW<::UnityEngine::Rigidbody> const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_get__rigidbody() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rigidbody;
 }
-constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__set__rigidbody(::UnityEngine::Rigidbody* value) {
+constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rigidbody)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::NoteDebrisSimplePhysics*& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__simplePhysics() {
+constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics>& GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_get__simplePhysics() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simplePhysics;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebrisSimplePhysics*> const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__simplePhysics() const {
+constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_get__simplePhysics() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simplePhysics;
 }
-constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__set__simplePhysics(::GlobalNamespace::NoteDebrisSimplePhysics* value) {
+constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_set__simplePhysics(::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____simplePhysics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__firstUpdate() {
+constexpr bool& GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_get__firstUpdate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstUpdate;
 }
-constexpr bool const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__firstUpdate() const {
+constexpr bool const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_get__firstUpdate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstUpdate;
 }
-constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__set__firstUpdate(bool value) {
+constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__cordl_internal_set__firstUpdate(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstUpdate = value;
 }
@@ -119,7 +119,7 @@ inline ::UnityEngine::Vector3 GlobalNamespace::NoteDebrisRigidbodyPhysics::get_p
 }
 inline void GlobalNamespace::NoteDebrisRigidbodyPhysics::FixedUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(),
-                                                                             "FixedUpdate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "FixedUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::NoteDebrisRigidbodyPhysics::Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque) {
@@ -133,11 +133,11 @@ inline void GlobalNamespace::NoteDebrisRigidbodyPhysics::AddVelocity(::UnityEngi
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, force);
 }
 inline ::GlobalNamespace::NoteDebrisRigidbodyPhysics* GlobalNamespace::NoteDebrisRigidbodyPhysics::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>());
 }
 inline void GlobalNamespace::NoteDebrisRigidbodyPhysics::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisRigidbodyPhysics*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

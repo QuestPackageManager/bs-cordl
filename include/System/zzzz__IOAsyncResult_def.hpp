@@ -29,26 +29,26 @@ MARK_REF_PTR_T(::System::IOAsyncResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8895))
 // CS Name: ::System::IOAsyncResult*
 class CORDL_TYPE IOAsyncResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field async_callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_async_callback, put = __set_async_callback))::System::AsyncCallback* async_callback;
+  __declspec(property(get = __cordl_internal_get_async_callback, put = __cordl_internal_set_async_callback))::System::AsyncCallback* async_callback;
 
   /// @brief Field async_state, offset 0x18, size 0x8
-  __declspec(property(get = __get_async_state, put = __set_async_state))::System::Object* async_state;
+  __declspec(property(get = __cordl_internal_get_async_state, put = __cordl_internal_set_async_state))::System::Object* async_state;
 
   /// @brief Field wait_handle, offset 0x20, size 0x8
-  __declspec(property(get = __get_wait_handle, put = __set_wait_handle))::System::Threading::ManualResetEvent* wait_handle;
+  __declspec(property(get = __cordl_internal_get_wait_handle, put = __cordl_internal_set_wait_handle))::System::Threading::ManualResetEvent* wait_handle;
 
   /// @brief Field completed_synchronously, offset 0x28, size 0x1
-  __declspec(property(get = __get_completed_synchronously, put = __set_completed_synchronously)) bool completed_synchronously;
+  __declspec(property(get = __cordl_internal_get_completed_synchronously, put = __cordl_internal_set_completed_synchronously)) bool completed_synchronously;
 
   /// @brief Field completed, offset 0x29, size 0x1
-  __declspec(property(get = __get_completed, put = __set_completed)) bool completed;
+  __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed)) bool completed;
 
   __declspec(property(get = get_AsyncCallback))::System::AsyncCallback* AsyncCallback;
 
@@ -66,35 +66,35 @@ public:
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  constexpr ::System::AsyncCallback*& __get_async_callback();
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_async_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __get_async_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_async_callback() const;
 
-  constexpr void __set_async_callback(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set_async_callback(::System::AsyncCallback* value);
 
-  constexpr ::System::Object*& __get_async_state();
+  constexpr ::System::Object*& __cordl_internal_get_async_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_async_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_async_state() const;
 
-  constexpr void __set_async_state(::System::Object* value);
+  constexpr void __cordl_internal_set_async_state(::System::Object* value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_wait_handle();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_wait_handle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_wait_handle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_wait_handle() const;
 
-  constexpr void __set_wait_handle(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_wait_handle(::System::Threading::ManualResetEvent* value);
 
-  constexpr bool& __get_completed_synchronously();
+  constexpr bool& __cordl_internal_get_completed_synchronously();
 
-  constexpr bool const& __get_completed_synchronously() const;
+  constexpr bool const& __cordl_internal_get_completed_synchronously() const;
 
-  constexpr void __set_completed_synchronously(bool value);
+  constexpr void __cordl_internal_set_completed_synchronously(bool value);
 
-  constexpr bool& __get_completed();
+  constexpr bool& __cordl_internal_get_completed();
 
-  constexpr bool const& __get_completed() const;
+  constexpr bool const& __cordl_internal_get_completed() const;
 
-  constexpr void __set_completed(bool value);
+  constexpr void __cordl_internal_set_completed(bool value);
 
   static inline ::System::IOAsyncResult* New_ctor();
 

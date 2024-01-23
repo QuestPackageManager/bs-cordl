@@ -94,80 +94,85 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::__BinaryPar
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3244)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3244))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3290))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::__BinaryParser*
 class CORDL_TYPE __BinaryParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objectReader, offset 0x10, size 0x8
-  __declspec(property(get = __get_objectReader, put = __set_objectReader))::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader;
+  __declspec(property(get = __cordl_internal_get_objectReader, put = __cordl_internal_set_objectReader))::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader;
 
   /// @brief Field input, offset 0x18, size 0x8
-  __declspec(property(get = __get_input, put = __set_input))::System::IO::Stream* input;
+  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
 
   /// @brief Field topId, offset 0x20, size 0x8
-  __declspec(property(get = __get_topId, put = __set_topId)) int64_t topId;
+  __declspec(property(get = __cordl_internal_get_topId, put = __cordl_internal_set_topId)) int64_t topId;
 
   /// @brief Field headerId, offset 0x28, size 0x8
-  __declspec(property(get = __get_headerId, put = __set_headerId)) int64_t headerId;
+  __declspec(property(get = __cordl_internal_get_headerId, put = __cordl_internal_set_headerId)) int64_t headerId;
 
   /// @brief Field objectMapIdTable, offset 0x30, size 0x8
-  __declspec(property(get = __get_objectMapIdTable, put = __set_objectMapIdTable))::System::Runtime::Serialization::Formatters::Binary::SizedArray* objectMapIdTable;
+  __declspec(property(get = __cordl_internal_get_objectMapIdTable, put = __cordl_internal_set_objectMapIdTable))::System::Runtime::Serialization::Formatters::Binary::SizedArray* objectMapIdTable;
 
   /// @brief Field assemIdToAssemblyTable, offset 0x38, size 0x8
-  __declspec(property(get = __get_assemIdToAssemblyTable, put = __set_assemIdToAssemblyTable))::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable;
+  __declspec(property(get = __cordl_internal_get_assemIdToAssemblyTable,
+                      put = __cordl_internal_set_assemIdToAssemblyTable))::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable;
 
   /// @brief Field stack, offset 0x40, size 0x8
-  __declspec(property(get = __get_stack, put = __set_stack))::System::Runtime::Serialization::Formatters::Binary::SerStack* stack;
+  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack))::System::Runtime::Serialization::Formatters::Binary::SerStack* stack;
 
   /// @brief Field expectedType, offset 0x48, size 0x4
-  __declspec(property(get = __get_expectedType, put = __set_expectedType))::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType;
+  __declspec(property(get = __cordl_internal_get_expectedType, put = __cordl_internal_set_expectedType))::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType;
 
   /// @brief Field expectedTypeInformation, offset 0x50, size 0x8
-  __declspec(property(get = __get_expectedTypeInformation, put = __set_expectedTypeInformation))::System::Object* expectedTypeInformation;
+  __declspec(property(get = __cordl_internal_get_expectedTypeInformation, put = __cordl_internal_set_expectedTypeInformation))::System::Object* expectedTypeInformation;
 
   /// @brief Field PRS, offset 0x58, size 0x8
-  __declspec(property(get = __get_PRS, put = __set_PRS))::System::Runtime::Serialization::Formatters::Binary::ParseRecord* PRS;
+  __declspec(property(get = __cordl_internal_get_PRS, put = __cordl_internal_set_PRS))::System::Runtime::Serialization::Formatters::Binary::ParseRecord* PRS;
 
   /// @brief Field systemAssemblyInfo, offset 0x60, size 0x8
-  __declspec(property(get = __get_systemAssemblyInfo, put = __set_systemAssemblyInfo))::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* systemAssemblyInfo;
+  __declspec(property(get = __cordl_internal_get_systemAssemblyInfo,
+                      put = __cordl_internal_set_systemAssemblyInfo))::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* systemAssemblyInfo;
 
   /// @brief Field dataReader, offset 0x68, size 0x8
-  __declspec(property(get = __get_dataReader, put = __set_dataReader))::System::IO::BinaryReader* dataReader;
+  __declspec(property(get = __cordl_internal_get_dataReader, put = __cordl_internal_set_dataReader))::System::IO::BinaryReader* dataReader;
 
   /// @brief Field opPool, offset 0x70, size 0x8
-  __declspec(property(get = __get_opPool, put = __set_opPool))::System::Runtime::Serialization::Formatters::Binary::SerStack* opPool;
+  __declspec(property(get = __cordl_internal_get_opPool, put = __cordl_internal_set_opPool))::System::Runtime::Serialization::Formatters::Binary::SerStack* opPool;
 
   /// @brief Field binaryObject, offset 0x78, size 0x8
-  __declspec(property(get = __get_binaryObject, put = __set_binaryObject))::System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject;
+  __declspec(property(get = __cordl_internal_get_binaryObject, put = __cordl_internal_set_binaryObject))::System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject;
 
   /// @brief Field bowm, offset 0x80, size 0x8
-  __declspec(property(get = __get_bowm, put = __set_bowm))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* bowm;
+  __declspec(property(get = __cordl_internal_get_bowm, put = __cordl_internal_set_bowm))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* bowm;
 
   /// @brief Field bowmt, offset 0x88, size 0x8
-  __declspec(property(get = __get_bowmt, put = __set_bowmt))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* bowmt;
+  __declspec(property(get = __cordl_internal_get_bowmt, put = __cordl_internal_set_bowmt))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* bowmt;
 
   /// @brief Field objectString, offset 0x90, size 0x8
-  __declspec(property(get = __get_objectString, put = __set_objectString))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* objectString;
+  __declspec(property(get = __cordl_internal_get_objectString, put = __cordl_internal_set_objectString))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* objectString;
 
   /// @brief Field crossAppDomainString, offset 0x98, size 0x8
-  __declspec(property(get = __get_crossAppDomainString, put = __set_crossAppDomainString))::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* crossAppDomainString;
+  __declspec(property(get = __cordl_internal_get_crossAppDomainString,
+                      put = __cordl_internal_set_crossAppDomainString))::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* crossAppDomainString;
 
   /// @brief Field memberPrimitiveTyped, offset 0xa0, size 0x8
-  __declspec(property(get = __get_memberPrimitiveTyped, put = __set_memberPrimitiveTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped;
+  __declspec(property(get = __cordl_internal_get_memberPrimitiveTyped,
+                      put = __cordl_internal_set_memberPrimitiveTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped;
 
   /// @brief Field byteBuffer, offset 0xa8, size 0x8
-  __declspec(property(get = __get_byteBuffer, put = __set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
+  __declspec(property(get = __cordl_internal_get_byteBuffer, put = __cordl_internal_set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
 
   /// @brief Field memberPrimitiveUnTyped, offset 0xb0, size 0x8
-  __declspec(property(get = __get_memberPrimitiveUnTyped, put = __set_memberPrimitiveUnTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped;
+  __declspec(property(get = __cordl_internal_get_memberPrimitiveUnTyped,
+                      put = __cordl_internal_set_memberPrimitiveUnTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped;
 
   /// @brief Field memberReference, offset 0xb8, size 0x8
-  __declspec(property(get = __get_memberReference, put = __set_memberReference))::System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference;
+  __declspec(property(get = __cordl_internal_get_memberReference, put = __cordl_internal_set_memberReference))::System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference;
 
   /// @brief Field objectNull, offset 0xc0, size 0x8
-  __declspec(property(get = __get_objectNull, put = __set_objectNull))::System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull;
+  __declspec(property(get = __cordl_internal_get_objectNull, put = __cordl_internal_set_objectNull))::System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull;
 
   /// @brief Field encoding, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_encoding, put = setStaticF_encoding))::System::Text::Encoding* encoding;
@@ -183,143 +188,143 @@ public:
 
   __declspec(property(get = get_prs))::System::Runtime::Serialization::Formatters::Binary::ParseRecord* prs;
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*& __get_objectReader();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*& __cordl_internal_get_objectReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectReader*> const& __get_objectReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectReader*> const& __cordl_internal_get_objectReader() const;
 
-  constexpr void __set_objectReader(::System::Runtime::Serialization::Formatters::Binary::ObjectReader* value);
+  constexpr void __cordl_internal_set_objectReader(::System::Runtime::Serialization::Formatters::Binary::ObjectReader* value);
 
-  constexpr ::System::IO::Stream*& __get_input();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_input();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_input() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_input() const;
 
-  constexpr void __set_input(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  constexpr int64_t& __get_topId();
+  constexpr int64_t& __cordl_internal_get_topId();
 
-  constexpr int64_t const& __get_topId() const;
+  constexpr int64_t const& __cordl_internal_get_topId() const;
 
-  constexpr void __set_topId(int64_t value);
+  constexpr void __cordl_internal_set_topId(int64_t value);
 
-  constexpr int64_t& __get_headerId();
+  constexpr int64_t& __cordl_internal_get_headerId();
 
-  constexpr int64_t const& __get_headerId() const;
+  constexpr int64_t const& __cordl_internal_get_headerId() const;
 
-  constexpr void __set_headerId(int64_t value);
+  constexpr void __cordl_internal_set_headerId(int64_t value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SizedArray*& __get_objectMapIdTable();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::SizedArray*& __cordl_internal_get_objectMapIdTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SizedArray*> const& __get_objectMapIdTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SizedArray*> const& __cordl_internal_get_objectMapIdTable() const;
 
-  constexpr void __set_objectMapIdTable(::System::Runtime::Serialization::Formatters::Binary::SizedArray* value);
+  constexpr void __cordl_internal_set_objectMapIdTable(::System::Runtime::Serialization::Formatters::Binary::SizedArray* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SizedArray*& __get_assemIdToAssemblyTable();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::SizedArray*& __cordl_internal_get_assemIdToAssemblyTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SizedArray*> const& __get_assemIdToAssemblyTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SizedArray*> const& __cordl_internal_get_assemIdToAssemblyTable() const;
 
-  constexpr void __set_assemIdToAssemblyTable(::System::Runtime::Serialization::Formatters::Binary::SizedArray* value);
+  constexpr void __cordl_internal_set_assemIdToAssemblyTable(::System::Runtime::Serialization::Formatters::Binary::SizedArray* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack*& __get_stack();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack*& __cordl_internal_get_stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerStack*> const& __get_stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerStack*> const& __cordl_internal_get_stack() const;
 
-  constexpr void __set_stack(::System::Runtime::Serialization::Formatters::Binary::SerStack* value);
+  constexpr void __cordl_internal_set_stack(::System::Runtime::Serialization::Formatters::Binary::SerStack* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& __get_expectedType();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& __cordl_internal_get_expectedType();
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const& __get_expectedType() const;
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const& __cordl_internal_get_expectedType() const;
 
-  constexpr void __set_expectedType(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
+  constexpr void __cordl_internal_set_expectedType(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
 
-  constexpr ::System::Object*& __get_expectedTypeInformation();
+  constexpr ::System::Object*& __cordl_internal_get_expectedTypeInformation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_expectedTypeInformation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_expectedTypeInformation() const;
 
-  constexpr void __set_expectedTypeInformation(::System::Object* value);
+  constexpr void __cordl_internal_set_expectedTypeInformation(::System::Object* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*& __get_PRS();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*& __cordl_internal_get_PRS();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*> const& __get_PRS() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*> const& __cordl_internal_get_PRS() const;
 
-  constexpr void __set_PRS(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* value);
+  constexpr void __cordl_internal_set_PRS(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*& __get_systemAssemblyInfo();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*& __cordl_internal_get_systemAssemblyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*> const& __get_systemAssemblyInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*> const& __cordl_internal_get_systemAssemblyInfo() const;
 
-  constexpr void __set_systemAssemblyInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* value);
+  constexpr void __cordl_internal_set_systemAssemblyInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* value);
 
-  constexpr ::System::IO::BinaryReader*& __get_dataReader();
+  constexpr ::System::IO::BinaryReader*& __cordl_internal_get_dataReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __get_dataReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __cordl_internal_get_dataReader() const;
 
-  constexpr void __set_dataReader(::System::IO::BinaryReader* value);
+  constexpr void __cordl_internal_set_dataReader(::System::IO::BinaryReader* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack*& __get_opPool();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack*& __cordl_internal_get_opPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerStack*> const& __get_opPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerStack*> const& __cordl_internal_get_opPool() const;
 
-  constexpr void __set_opPool(::System::Runtime::Serialization::Formatters::Binary::SerStack* value);
+  constexpr void __cordl_internal_set_opPool(::System::Runtime::Serialization::Formatters::Binary::SerStack* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObject*& __get_binaryObject();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObject*& __cordl_internal_get_binaryObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObject*> const& __get_binaryObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObject*> const& __cordl_internal_get_binaryObject() const;
 
-  constexpr void __set_binaryObject(::System::Runtime::Serialization::Formatters::Binary::BinaryObject* value);
+  constexpr void __cordl_internal_set_binaryObject(::System::Runtime::Serialization::Formatters::Binary::BinaryObject* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*& __get_bowm();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*& __cordl_internal_get_bowm();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*> const& __get_bowm() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*> const& __cordl_internal_get_bowm() const;
 
-  constexpr void __set_bowm(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* value);
+  constexpr void __cordl_internal_set_bowm(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*& __get_bowmt();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*& __cordl_internal_get_bowmt();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*> const& __get_bowmt() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*> const& __cordl_internal_get_bowmt() const;
 
-  constexpr void __set_bowmt(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* value);
+  constexpr void __cordl_internal_set_bowmt(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*& __get_objectString();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*& __cordl_internal_get_objectString();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*> const& __get_objectString() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*> const& __cordl_internal_get_objectString() const;
 
-  constexpr void __set_objectString(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* value);
+  constexpr void __cordl_internal_set_objectString(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString*& __get_crossAppDomainString();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString*& __cordl_internal_get_crossAppDomainString();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString*> const& __get_crossAppDomainString() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString*> const& __cordl_internal_get_crossAppDomainString() const;
 
-  constexpr void __set_crossAppDomainString(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* value);
+  constexpr void __cordl_internal_set_crossAppDomainString(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*& __get_memberPrimitiveTyped();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*& __cordl_internal_get_memberPrimitiveTyped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*> const& __get_memberPrimitiveTyped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*> const& __cordl_internal_get_memberPrimitiveTyped() const;
 
-  constexpr void __set_memberPrimitiveTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* value);
+  constexpr void __cordl_internal_set_memberPrimitiveTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_byteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_byteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_byteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_byteBuffer() const;
 
-  constexpr void __set_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*& __get_memberPrimitiveUnTyped();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*& __cordl_internal_get_memberPrimitiveUnTyped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*> const& __get_memberPrimitiveUnTyped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*> const& __cordl_internal_get_memberPrimitiveUnTyped() const;
 
-  constexpr void __set_memberPrimitiveUnTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* value);
+  constexpr void __cordl_internal_set_memberPrimitiveUnTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberReference*& __get_memberReference();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberReference*& __cordl_internal_get_memberReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberReference*> const& __get_memberReference() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberReference*> const& __cordl_internal_get_memberReference() const;
 
-  constexpr void __set_memberReference(::System::Runtime::Serialization::Formatters::Binary::MemberReference* value);
+  constexpr void __cordl_internal_set_memberReference(::System::Runtime::Serialization::Formatters::Binary::MemberReference* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull*& __get_objectNull();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull*& __cordl_internal_get_objectNull();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*> const& __get_objectNull() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*> const& __cordl_internal_get_objectNull() const;
 
-  constexpr void __set_objectNull(::System::Runtime::Serialization::Formatters::Binary::ObjectNull* value);
+  constexpr void __cordl_internal_set_objectNull(::System::Runtime::Serialization::Formatters::Binary::ObjectNull* value);
 
   static inline void setStaticF_encoding(::System::Text::Encoding* value);
 

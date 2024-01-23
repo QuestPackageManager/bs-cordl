@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::GenTimeAccuracy);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1763))
 // CS Name: ::Org.BouncyCastle.Tsp::GenTimeAccuracy*
 class CORDL_TYPE GenTimeAccuracy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field accuracy, offset 0x10, size 0x8
-  __declspec(property(get = __get_accuracy, put = __set_accuracy))::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy;
+  __declspec(property(get = __cordl_internal_get_accuracy, put = __cordl_internal_set_accuracy))::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy;
 
   __declspec(property(get = get_Seconds)) int32_t Seconds;
 
@@ -37,11 +37,11 @@ public:
 
   __declspec(property(get = get_Micros)) int32_t Micros;
 
-  constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& __get_accuracy();
+  constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& __cordl_internal_get_accuracy();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::Accuracy*> const& __get_accuracy() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::Accuracy*> const& __cordl_internal_get_accuracy() const;
 
-  constexpr void __set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy* value);
+  constexpr void __cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy* value);
 
   static inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 

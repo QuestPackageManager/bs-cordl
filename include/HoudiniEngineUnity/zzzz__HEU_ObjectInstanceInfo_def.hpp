@@ -31,62 +31,64 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ObjectInstanceInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9652))
 // CS Name: ::HoudiniEngineUnity::HEU_ObjectInstanceInfo*
 class CORDL_TYPE HEU_ObjectInstanceInfo : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _instancedInputs, offset 0x18, size 0x8
-  __declspec(property(get = __get__instancedInputs, put = __set__instancedInputs))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>* _instancedInputs;
+  __declspec(property(get = __cordl_internal_get__instancedInputs,
+                      put = __cordl_internal_set__instancedInputs))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>* _instancedInputs;
 
   /// @brief Field _partTarget, offset 0x20, size 0x8
-  __declspec(property(get = __get__partTarget, put = __set__partTarget))::HoudiniEngineUnity::HEU_PartData* _partTarget;
+  __declspec(property(get = __cordl_internal_get__partTarget, put = __cordl_internal_set__partTarget))::UnityW<::HoudiniEngineUnity::HEU_PartData> _partTarget;
 
   /// @brief Field _instancedObjectNodeID, offset 0x28, size 0x4
-  __declspec(property(get = __get__instancedObjectNodeID, put = __set__instancedObjectNodeID)) int32_t _instancedObjectNodeID;
+  __declspec(property(get = __cordl_internal_get__instancedObjectNodeID, put = __cordl_internal_set__instancedObjectNodeID)) int32_t _instancedObjectNodeID;
 
   /// @brief Field _instancedObjectPath, offset 0x30, size 0x8
-  __declspec(property(get = __get__instancedObjectPath, put = __set__instancedObjectPath))::StringW _instancedObjectPath;
+  __declspec(property(get = __cordl_internal_get__instancedObjectPath, put = __cordl_internal_set__instancedObjectPath))::StringW _instancedObjectPath;
 
   /// @brief Field _instances, offset 0x38, size 0x8
-  __declspec(property(get = __get__instances, put = __set__instances))::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _instances;
+  __declspec(property(get = __cordl_internal_get__instances, put = __cordl_internal_set__instances))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _instances;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ObjectInstanceInfo__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ObjectInstanceInfo__() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*& __get__instancedInputs();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*& __cordl_internal_get__instancedInputs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*> const& __get__instancedInputs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*> const& __cordl_internal_get__instancedInputs() const;
 
-  constexpr void __set__instancedInputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>* value);
+  constexpr void __cordl_internal_set__instancedInputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_PartData*& __get__partTarget();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_PartData>& __cordl_internal_get__partTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_PartData*> const& __get__partTarget() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_PartData> const& __cordl_internal_get__partTarget() const;
 
-  constexpr void __set__partTarget(::HoudiniEngineUnity::HEU_PartData* value);
+  constexpr void __cordl_internal_set__partTarget(::UnityW<::HoudiniEngineUnity::HEU_PartData> value);
 
-  constexpr int32_t& __get__instancedObjectNodeID();
+  constexpr int32_t& __cordl_internal_get__instancedObjectNodeID();
 
-  constexpr int32_t const& __get__instancedObjectNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__instancedObjectNodeID() const;
 
-  constexpr void __set__instancedObjectNodeID(int32_t value);
+  constexpr void __cordl_internal_set__instancedObjectNodeID(int32_t value);
 
-  constexpr ::StringW& __get__instancedObjectPath();
+  constexpr ::StringW& __cordl_internal_get__instancedObjectPath();
 
-  constexpr ::StringW const& __get__instancedObjectPath() const;
+  constexpr ::StringW const& __cordl_internal_get__instancedObjectPath() const;
 
-  constexpr void __set__instancedObjectPath(::StringW value);
+  constexpr void __cordl_internal_set__instancedObjectPath(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& __get__instances();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__instances();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> const& __get__instances() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__instances() const;
 
-  constexpr void __set__instances(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* value);
+  constexpr void __cordl_internal_set__instances(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method IsEquivalentTo, addr 0x217268c, size 0x148, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
@@ -114,7 +116,7 @@ public:
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>* ____instancedInputs;
 
   /// @brief Field _partTarget, offset: 0x20, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_PartData* ____partTarget;
+  ::UnityW<::HoudiniEngineUnity::HEU_PartData> ____partTarget;
 
   /// @brief Field _instancedObjectNodeID, offset: 0x28, size: 0x4, def value: None
   int32_t ____instancedObjectNodeID;
@@ -123,7 +125,7 @@ public:
   ::StringW ____instancedObjectPath;
 
   /// @brief Field _instances, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* ____instances;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ____instances;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

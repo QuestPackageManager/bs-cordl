@@ -56,7 +56,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 }), TypeDefinitionIndex(TypeDefinitionIndex(7100))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7100))
 // CS Name: ::BaseSlider`1::SliderKey<TValueType>
 struct CORDL_TYPE __BaseSlider_1__SliderKey {
@@ -124,52 +124,57 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(7099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918
-// }), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name: ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7099)), TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name:
+// ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
 class CORDL_TYPE BaseSlider_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
   // Declarations
   using SliderKey = ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>;
 
   /// @brief Field <dragContainer>k__BackingField, offset 0x408, size 0x8
-  __declspec(property(get = __get__dragContainer_k__BackingField, put = __set__dragContainer_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragContainer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dragContainer_k__BackingField,
+                      put = __cordl_internal_set__dragContainer_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragContainer_k__BackingField;
 
   /// @brief Field <dragElement>k__BackingField, offset 0x410, size 0x8
-  __declspec(property(get = __get__dragElement_k__BackingField, put = __set__dragElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragElement_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dragElement_k__BackingField,
+                      put = __cordl_internal_set__dragElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragElement_k__BackingField;
 
   /// @brief Field <dragBorderElement>k__BackingField, offset 0x418, size 0x8
-  __declspec(property(get = __get__dragBorderElement_k__BackingField, put = __set__dragBorderElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragBorderElement_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dragBorderElement_k__BackingField,
+                      put = __cordl_internal_set__dragBorderElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragBorderElement_k__BackingField;
 
   /// @brief Field <inputTextField>k__BackingField, offset 0x420, size 0x8
-  __declspec(property(get = __get__inputTextField_k__BackingField, put = __set__inputTextField_k__BackingField))::UnityEngine::UIElements::TextField* _inputTextField_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__inputTextField_k__BackingField,
+                      put = __cordl_internal_set__inputTextField_k__BackingField))::UnityEngine::UIElements::TextField* _inputTextField_k__BackingField;
 
   /// @brief Field m_LowValue, offset 0x428, size 0x8
-  __declspec(property(get = __get_m_LowValue, put = __set_m_LowValue)) TValueType m_LowValue;
+  __declspec(property(get = __cordl_internal_get_m_LowValue, put = __cordl_internal_set_m_LowValue)) TValueType m_LowValue;
 
   /// @brief Field m_HighValue, offset 0x430, size 0x8
-  __declspec(property(get = __get_m_HighValue, put = __set_m_HighValue)) TValueType m_HighValue;
+  __declspec(property(get = __cordl_internal_get_m_HighValue, put = __cordl_internal_set_m_HighValue)) TValueType m_HighValue;
 
   /// @brief Field m_PageSize, offset 0x438, size 0x4
-  __declspec(property(get = __get_m_PageSize, put = __set_m_PageSize)) float_t m_PageSize;
+  __declspec(property(get = __cordl_internal_get_m_PageSize, put = __cordl_internal_set_m_PageSize)) float_t m_PageSize;
 
   /// @brief Field m_ShowInputField, offset 0x43c, size 0x1
-  __declspec(property(get = __get_m_ShowInputField, put = __set_m_ShowInputField)) bool m_ShowInputField;
+  __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField)) bool m_ShowInputField;
 
   /// @brief Field <clamped>k__BackingField, offset 0x43d, size 0x1
-  __declspec(property(get = __get__clamped_k__BackingField, put = __set__clamped_k__BackingField)) bool _clamped_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clamped_k__BackingField, put = __cordl_internal_set__clamped_k__BackingField)) bool _clamped_k__BackingField;
 
   /// @brief Field <clampedDragger>k__BackingField, offset 0x440, size 0x8
-  __declspec(property(get = __get__clampedDragger_k__BackingField,
-                      put = __set__clampedDragger_k__BackingField))::UnityEngine::UIElements::ClampedDragger_1<TValueType>* _clampedDragger_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clampedDragger_k__BackingField,
+                      put = __cordl_internal_set__clampedDragger_k__BackingField))::UnityEngine::UIElements::ClampedDragger_1<TValueType>* _clampedDragger_k__BackingField;
 
   /// @brief Field m_DragElementStartPos, offset 0x448, size 0x10
-  __declspec(property(get = __get_m_DragElementStartPos, put = __set_m_DragElementStartPos))::UnityEngine::Rect m_DragElementStartPos;
+  __declspec(property(get = __cordl_internal_get_m_DragElementStartPos, put = __cordl_internal_set_m_DragElementStartPos))::UnityEngine::Rect m_DragElementStartPos;
 
   /// @brief Field m_Direction, offset 0x458, size 0x4
-  __declspec(property(get = __get_m_Direction, put = __set_m_Direction))::UnityEngine::UIElements::SliderDirection m_Direction;
+  __declspec(property(get = __cordl_internal_get_m_Direction, put = __cordl_internal_set_m_Direction))::UnityEngine::UIElements::SliderDirection m_Direction;
 
   /// @brief Field m_Inverted, offset 0x45c, size 0x1
-  __declspec(property(get = __get_m_Inverted, put = __set_m_Inverted)) bool m_Inverted;
+  __declspec(property(get = __cordl_internal_get_m_Inverted, put = __cordl_internal_set_m_Inverted)) bool m_Inverted;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -227,83 +232,83 @@ public:
 
   __declspec(property(get = get_inverted, put = set_inverted)) bool inverted;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__dragContainer_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragContainer_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__dragContainer_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__dragContainer_k__BackingField() const;
 
-  constexpr void __set__dragContainer_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__dragContainer_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__dragElement_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragElement_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__dragElement_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__dragElement_k__BackingField() const;
 
-  constexpr void __set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__dragBorderElement_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragBorderElement_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__dragBorderElement_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__dragBorderElement_k__BackingField() const;
 
-  constexpr void __set__dragBorderElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__dragBorderElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::TextField*& __get__inputTextField_k__BackingField();
+  constexpr ::UnityEngine::UIElements::TextField*& __cordl_internal_get__inputTextField_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextField*> const& __get__inputTextField_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextField*> const& __cordl_internal_get__inputTextField_k__BackingField() const;
 
-  constexpr void __set__inputTextField_k__BackingField(::UnityEngine::UIElements::TextField* value);
+  constexpr void __cordl_internal_set__inputTextField_k__BackingField(::UnityEngine::UIElements::TextField* value);
 
-  constexpr TValueType& __get_m_LowValue();
+  constexpr TValueType& __cordl_internal_get_m_LowValue();
 
-  constexpr TValueType const& __get_m_LowValue() const;
+  constexpr TValueType const& __cordl_internal_get_m_LowValue() const;
 
-  constexpr void __set_m_LowValue(TValueType value);
+  constexpr void __cordl_internal_set_m_LowValue(TValueType value);
 
-  constexpr TValueType& __get_m_HighValue();
+  constexpr TValueType& __cordl_internal_get_m_HighValue();
 
-  constexpr TValueType const& __get_m_HighValue() const;
+  constexpr TValueType const& __cordl_internal_get_m_HighValue() const;
 
-  constexpr void __set_m_HighValue(TValueType value);
+  constexpr void __cordl_internal_set_m_HighValue(TValueType value);
 
-  constexpr float_t& __get_m_PageSize();
+  constexpr float_t& __cordl_internal_get_m_PageSize();
 
-  constexpr float_t const& __get_m_PageSize() const;
+  constexpr float_t const& __cordl_internal_get_m_PageSize() const;
 
-  constexpr void __set_m_PageSize(float_t value);
+  constexpr void __cordl_internal_set_m_PageSize(float_t value);
 
-  constexpr bool& __get_m_ShowInputField();
+  constexpr bool& __cordl_internal_get_m_ShowInputField();
 
-  constexpr bool const& __get_m_ShowInputField() const;
+  constexpr bool const& __cordl_internal_get_m_ShowInputField() const;
 
-  constexpr void __set_m_ShowInputField(bool value);
+  constexpr void __cordl_internal_set_m_ShowInputField(bool value);
 
-  constexpr bool& __get__clamped_k__BackingField();
+  constexpr bool& __cordl_internal_get__clamped_k__BackingField();
 
-  constexpr bool const& __get__clamped_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__clamped_k__BackingField() const;
 
-  constexpr void __set__clamped_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__clamped_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::ClampedDragger_1<TValueType>*& __get__clampedDragger_k__BackingField();
+  constexpr ::UnityEngine::UIElements::ClampedDragger_1<TValueType>*& __cordl_internal_get__clampedDragger_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClampedDragger_1<TValueType>*> const& __get__clampedDragger_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClampedDragger_1<TValueType>*> const& __cordl_internal_get__clampedDragger_k__BackingField() const;
 
-  constexpr void __set__clampedDragger_k__BackingField(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value);
+  constexpr void __cordl_internal_set__clampedDragger_k__BackingField(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value);
 
-  constexpr ::UnityEngine::Rect& __get_m_DragElementStartPos();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DragElementStartPos();
 
-  constexpr ::UnityEngine::Rect const& __get_m_DragElementStartPos() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DragElementStartPos() const;
 
-  constexpr void __set_m_DragElementStartPos(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_DragElementStartPos(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::UIElements::SliderDirection& __get_m_Direction();
+  constexpr ::UnityEngine::UIElements::SliderDirection& __cordl_internal_get_m_Direction();
 
-  constexpr ::UnityEngine::UIElements::SliderDirection const& __get_m_Direction() const;
+  constexpr ::UnityEngine::UIElements::SliderDirection const& __cordl_internal_get_m_Direction() const;
 
-  constexpr void __set_m_Direction(::UnityEngine::UIElements::SliderDirection value);
+  constexpr void __cordl_internal_set_m_Direction(::UnityEngine::UIElements::SliderDirection value);
 
-  constexpr bool& __get_m_Inverted();
+  constexpr bool& __cordl_internal_get_m_Inverted();
 
-  constexpr bool const& __get_m_Inverted() const;
+  constexpr bool const& __cordl_internal_get_m_Inverted() const;
 
-  constexpr void __set_m_Inverted(bool value);
+  constexpr void __cordl_internal_set_m_Inverted(bool value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 

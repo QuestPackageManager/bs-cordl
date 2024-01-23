@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::MatchResultInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6821))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6821))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7468))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::MatchResultInfo
 struct CORDL_TYPE MatchResultInfo {

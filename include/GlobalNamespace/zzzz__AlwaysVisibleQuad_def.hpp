@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::AlwaysVisibleQuad);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15273))
 // CS Name: ::AlwaysVisibleQuad*
 class CORDL_TYPE AlwaysVisibleQuad : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _mesh, offset 0x18, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
   /// @brief Method OnEnable, addr 0x28061a8, size 0x224, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -58,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _mesh, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

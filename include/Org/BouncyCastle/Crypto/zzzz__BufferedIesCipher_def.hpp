@@ -26,40 +26,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::BufferedIesCipher);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(965))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(965))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1344))
 // CS Name: ::Org.BouncyCastle.Crypto::BufferedIesCipher*
 class CORDL_TYPE BufferedIesCipher : public ::Org::BouncyCastle::Crypto::BufferedCipherBase {
 public:
   // Declarations
   /// @brief Field engine, offset 0x10, size 0x8
-  __declspec(property(get = __get_engine, put = __set_engine))::Org::BouncyCastle::Crypto::Engines::IesEngine* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::Engines::IesEngine* engine;
 
   /// @brief Field forEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field buffer, offset 0x20, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::System::IO::MemoryStream* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::IO::MemoryStream* buffer;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr ::Org::BouncyCastle::Crypto::Engines::IesEngine*& __get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::Engines::IesEngine*& __cordl_internal_get_engine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::IesEngine*> const& __get_engine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::IesEngine*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __set_engine(::Org::BouncyCastle::Crypto::Engines::IesEngine* value);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Engines::IesEngine* value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr ::System::IO::MemoryStream*& __get_buffer();
+  constexpr ::System::IO::MemoryStream*& __cordl_internal_get_buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __get_buffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::System::IO::MemoryStream* value);
+  constexpr void __cordl_internal_set_buffer(::System::IO::MemoryStream* value);
 
   static inline ::Org::BouncyCastle::Crypto::BufferedIesCipher* New_ctor(::Org::BouncyCastle::Crypto::Engines::IesEngine* engine);
 

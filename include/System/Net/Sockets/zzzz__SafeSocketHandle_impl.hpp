@@ -12,10 +12,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x28fdcfc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5cc;
   constexpr static std::size_t addrs = 0x28fddc8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(), 7));
@@ -41,9 +41,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x28fe394;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(),
-                                                                               "RegisterForBlockingSyscall", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "RegisterForBlockingSyscall", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -55,47 +55,49 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x28fe4dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(),
-                                                                               "UnRegisterForBlockingSyscall", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "UnRegisterForBlockingSyscall", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>*& System::Net::Sockets::SafeSocketHandle::__get_blocking_threads() {
+constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>*& System::Net::Sockets::SafeSocketHandle::__cordl_internal_get_blocking_threads() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blocking_threads;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::Thread*>*> const& System::Net::Sockets::SafeSocketHandle::__get_blocking_threads() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::Thread*>*> const&
+System::Net::Sockets::SafeSocketHandle::__cordl_internal_get_blocking_threads() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blocking_threads;
 }
-constexpr void System::Net::Sockets::SafeSocketHandle::__set_blocking_threads(::System::Collections::Generic::List_1<::System::Threading::Thread*>* value) {
+constexpr void System::Net::Sockets::SafeSocketHandle::__cordl_internal_set_blocking_threads(::System::Collections::Generic::List_1<::System::Threading::Thread*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___blocking_threads)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*& System::Net::Sockets::SafeSocketHandle::__get_threads_stacktraces() {
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*&
+System::Net::Sockets::SafeSocketHandle::__cordl_internal_get_threads_stacktraces() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threads_stacktraces;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*> const&
-System::Net::Sockets::SafeSocketHandle::__get_threads_stacktraces() const {
+System::Net::Sockets::SafeSocketHandle::__cordl_internal_get_threads_stacktraces() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threads_stacktraces;
 }
-constexpr void
-System::Net::Sockets::SafeSocketHandle::__set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value) {
+constexpr void System::Net::Sockets::SafeSocketHandle::__cordl_internal_set_threads_stacktraces(
+    ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___threads_stacktraces)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Net::Sockets::SafeSocketHandle::__get_in_cleanup() {
+constexpr bool& System::Net::Sockets::SafeSocketHandle::__cordl_internal_get_in_cleanup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___in_cleanup;
 }
-constexpr bool const& System::Net::Sockets::SafeSocketHandle::__get_in_cleanup() const {
+constexpr bool const& System::Net::Sockets::SafeSocketHandle::__cordl_internal_get_in_cleanup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___in_cleanup;
 }
-constexpr void System::Net::Sockets::SafeSocketHandle::__set_in_cleanup(bool value) {
+constexpr void System::Net::Sockets::SafeSocketHandle::__cordl_internal_set_in_cleanup(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___in_cleanup = value;
 }
@@ -106,12 +108,12 @@ inline bool System::Net::Sockets::SafeSocketHandle::getStaticF_THROW_ON_ABORT_RE
   return ::cordl_internals::getStaticField<bool, "THROW_ON_ABORT_RETRIES", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get>();
 }
 inline ::System::Net::Sockets::SafeSocketHandle* System::Net::Sockets::SafeSocketHandle::New_ctor(void* preexistingHandle, bool ownsHandle) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Net::Sockets::SafeSocketHandle*>(preexistingHandle, ownsHandle));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SafeSocketHandle*>(preexistingHandle, ownsHandle));
 }
 inline void System::Net::Sockets::SafeSocketHandle::_ctor(void* preexistingHandle, bool ownsHandle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, preexistingHandle, ownsHandle);
 }
 inline bool System::Net::Sockets::SafeSocketHandle::ReleaseHandle() {
@@ -121,12 +123,12 @@ inline bool System::Net::Sockets::SafeSocketHandle::ReleaseHandle() {
 }
 inline void System::Net::Sockets::SafeSocketHandle::RegisterForBlockingSyscall() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(),
-                                                                             "RegisterForBlockingSyscall", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "RegisterForBlockingSyscall", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Net::Sockets::SafeSocketHandle::UnRegisterForBlockingSyscall() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(),
-                                                                             "UnRegisterForBlockingSyscall", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "UnRegisterForBlockingSyscall", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

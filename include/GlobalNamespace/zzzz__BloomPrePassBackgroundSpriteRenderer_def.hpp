@@ -20,25 +20,25 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14465))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14465))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14467))
 // CS Name: ::BloomPrePassBackgroundSpriteRenderer*
 class CORDL_TYPE BloomPrePassBackgroundSpriteRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
   // Declarations
   /// @brief Field _spriteRenderer, offset 0x48, size 0x8
-  __declspec(property(get = __get__spriteRenderer, put = __set__spriteRenderer))::UnityEngine::SpriteRenderer* _spriteRenderer;
+  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  __declspec(property(get = get_renderer))::UnityEngine::Renderer* renderer;
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__spriteRenderer();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__spriteRenderer() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
-  constexpr void __set__spriteRenderer(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
   /// @brief Method get_renderer, addr 0x21061f0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Renderer* get_renderer();
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer* New_ctor();
 
@@ -60,7 +60,7 @@ protected:
 
 public:
   /// @brief Field _spriteRenderer, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____spriteRenderer;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,52 +21,52 @@ MARK_REF_PTR_T(::GlobalNamespace::PageControlElement);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5803))
 // CS Name: ::PageControlElement*
 class CORDL_TYPE PageControlElement : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _rectTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _imageView, offset 0x20, size 0x8
-  __declspec(property(get = __get__imageView, put = __set__imageView))::HMUI::ImageView* _imageView;
+  __declspec(property(get = __cordl_internal_get__imageView, put = __cordl_internal_set__imageView))::UnityW<::HMUI::ImageView> _imageView;
 
   /// @brief Field _selectedColor, offset 0x28, size 0x10
-  __declspec(property(get = __get__selectedColor, put = __set__selectedColor))::UnityEngine::Color _selectedColor;
+  __declspec(property(get = __cordl_internal_get__selectedColor, put = __cordl_internal_set__selectedColor))::UnityEngine::Color _selectedColor;
 
   /// @brief Field _unselectedColor, offset 0x38, size 0x10
-  __declspec(property(get = __get__unselectedColor, put = __set__unselectedColor))::UnityEngine::Color _unselectedColor;
+  __declspec(property(get = __cordl_internal_get__unselectedColor, put = __cordl_internal_set__unselectedColor))::UnityEngine::Color _unselectedColor;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::HMUI::ImageView*& __get__imageView();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__imageView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__imageView() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__imageView() const;
 
-  constexpr void __set__imageView(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__imageView(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::UnityEngine::Color& __get__selectedColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedColor();
 
-  constexpr ::UnityEngine::Color const& __get__selectedColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedColor() const;
 
-  constexpr void __set__selectedColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__selectedColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__unselectedColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__unselectedColor();
 
-  constexpr ::UnityEngine::Color const& __get__unselectedColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__unselectedColor() const;
 
-  constexpr void __set__unselectedColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__unselectedColor(::UnityEngine::Color value);
 
   /// @brief Method get_rectTransform, addr 0x22e7fa0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method SetSelected, addr 0x22e7d74, size 0x64, virtual false, abstract: false, final false
   inline void SetSelected(bool isSelected);
@@ -91,10 +91,10 @@ protected:
 
 public:
   /// @brief Field _rectTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _imageView, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ImageView* ____imageView;
+  ::UnityW<::HMUI::ImageView> ____imageView;
 
   /// @brief Field _selectedColor, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedColor;

@@ -37,20 +37,20 @@ MARK_REF_PTR_T(::Zenject::CachedProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11179))
 // CS Name: ::Zenject::CachedProvider*
 class CORDL_TYPE CachedProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _creator, offset 0x10, size 0x8
-  __declspec(property(get = __get__creator, put = __set__creator))::Zenject::IProvider* _creator;
+  __declspec(property(get = __cordl_internal_get__creator, put = __cordl_internal_set__creator))::Zenject::IProvider* _creator;
 
   /// @brief Field _instances, offset 0x18, size 0x8
-  __declspec(property(get = __get__instances, put = __set__instances))::System::Collections::Generic::List_1<::System::Object*>* _instances;
+  __declspec(property(get = __cordl_internal_get__instances, put = __cordl_internal_set__instances))::System::Collections::Generic::List_1<::System::Object*>* _instances;
 
   /// @brief Field _isCreatingInstance, offset 0x20, size 0x1
-  __declspec(property(get = __get__isCreatingInstance, put = __set__isCreatingInstance)) bool _isCreatingInstance;
+  __declspec(property(get = __cordl_internal_get__isCreatingInstance, put = __cordl_internal_set__isCreatingInstance)) bool _isCreatingInstance;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -64,23 +64,23 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::Zenject::IProvider*& __get__creator();
+  constexpr ::Zenject::IProvider*& __cordl_internal_get__creator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __get__creator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __cordl_internal_get__creator() const;
 
-  constexpr void __set__creator(::Zenject::IProvider* value);
+  constexpr void __cordl_internal_set__creator(::Zenject::IProvider* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get__instances();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__instances();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get__instances() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__instances() const;
 
-  constexpr void __set__instances(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__instances(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  constexpr bool& __get__isCreatingInstance();
+  constexpr bool& __cordl_internal_get__isCreatingInstance();
 
-  constexpr bool const& __get__isCreatingInstance() const;
+  constexpr bool const& __cordl_internal_get__isCreatingInstance() const;
 
-  constexpr void __set__isCreatingInstance(bool value);
+  constexpr void __cordl_internal_set__isCreatingInstance(bool value);
 
   static inline ::Zenject::CachedProvider* New_ctor(::Zenject::IProvider* creator);
 

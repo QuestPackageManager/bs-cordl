@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::SkinColorSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15702))
 // CS Name: ::BeatSaber.BeatAvatarSDK::SkinColorSO*
 class CORDL_TYPE SkinColorSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _id, offset 0x18, size 0x8
-  __declspec(property(get = __get__id, put = __set__id))::StringW _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::StringW _id;
 
   /// @brief Field _color, offset 0x20, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   __declspec(property(get = get_id))::StringW id;
 
   __declspec(property(get = get_Color))::UnityEngine::Color Color;
 
-  constexpr ::StringW& __get__id();
+  constexpr ::StringW& __cordl_internal_get__id();
 
-  constexpr ::StringW const& __get__id() const;
+  constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(::StringW value);
+  constexpr void __cordl_internal_set__id(::StringW value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
   /// @brief Method get_id, addr 0xe1c560, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();

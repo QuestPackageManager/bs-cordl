@@ -20,49 +20,49 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::DesEdeEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(839))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(839))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(840))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::DesEdeEngine*
 class CORDL_TYPE DesEdeEngine : public ::Org::BouncyCastle::Crypto::Engines::DesEngine {
 public:
   // Declarations
   /// @brief Field workingKey1, offset 0x18, size 0x8
-  __declspec(property(get = __get_workingKey1, put = __set_workingKey1))::ArrayW<int32_t, ::Array<int32_t>*> workingKey1;
+  __declspec(property(get = __cordl_internal_get_workingKey1, put = __cordl_internal_set_workingKey1))::ArrayW<int32_t, ::Array<int32_t>*> workingKey1;
 
   /// @brief Field workingKey2, offset 0x20, size 0x8
-  __declspec(property(get = __get_workingKey2, put = __set_workingKey2))::ArrayW<int32_t, ::Array<int32_t>*> workingKey2;
+  __declspec(property(get = __cordl_internal_get_workingKey2, put = __cordl_internal_set_workingKey2))::ArrayW<int32_t, ::Array<int32_t>*> workingKey2;
 
   /// @brief Field workingKey3, offset 0x28, size 0x8
-  __declspec(property(get = __get_workingKey3, put = __set_workingKey3))::ArrayW<int32_t, ::Array<int32_t>*> workingKey3;
+  __declspec(property(get = __cordl_internal_get_workingKey3, put = __cordl_internal_set_workingKey3))::ArrayW<int32_t, ::Array<int32_t>*> workingKey3;
 
   /// @brief Field forEncryption, offset 0x30, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_workingKey1();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey1();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_workingKey1() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey1() const;
 
-  constexpr void __set_workingKey1(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_workingKey1(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_workingKey2();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey2();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_workingKey2() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey2() const;
 
-  constexpr void __set_workingKey2(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_workingKey2(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_workingKey3();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey3();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_workingKey3() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey3() const;
 
-  constexpr void __set_workingKey3(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_workingKey3(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
   /// @brief Method Init, addr 0xeca540, size 0x2a4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Tweening::TimeTweeningManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16100))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16100))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16097))
 // CS Name: ::Tweening::TimeTweeningManager*
 class CORDL_TYPE TimeTweeningManager : public ::Tweening::TweeningManager {

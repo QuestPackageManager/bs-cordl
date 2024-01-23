@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__Highlig
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15694))
 // CS Name: ::BeatAvatarVisualController::HighlighterDelegate*
 class CORDL_TYPE __BeatAvatarVisualController__HighlighterDelegate : public ::System::MulticastDelegate {
@@ -104,7 +104,7 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::__Beat
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15695))
 // CS Name: ::BeatSaber.BeatAvatarSDK::BeatAvatarVisualController*
 class CORDL_TYPE BeatAvatarVisualController : public ::UnityEngine::MonoBehaviour {
@@ -113,195 +113,197 @@ public:
   using HighlighterDelegate = ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate;
 
   /// @brief Field _headTopMeshFilter, offset 0x18, size 0x8
-  __declspec(property(get = __get__headTopMeshFilter, put = __set__headTopMeshFilter))::UnityEngine::MeshFilter* _headTopMeshFilter;
+  __declspec(property(get = __cordl_internal_get__headTopMeshFilter, put = __cordl_internal_set__headTopMeshFilter))::UnityW<::UnityEngine::MeshFilter> _headTopMeshFilter;
 
   /// @brief Field _glassesMeshFilter, offset 0x20, size 0x8
-  __declspec(property(get = __get__glassesMeshFilter, put = __set__glassesMeshFilter))::UnityEngine::MeshFilter* _glassesMeshFilter;
+  __declspec(property(get = __cordl_internal_get__glassesMeshFilter, put = __cordl_internal_set__glassesMeshFilter))::UnityW<::UnityEngine::MeshFilter> _glassesMeshFilter;
 
   /// @brief Field _facialHairMeshFilter, offset 0x28, size 0x8
-  __declspec(property(get = __get__facialHairMeshFilter, put = __set__facialHairMeshFilter))::UnityEngine::MeshFilter* _facialHairMeshFilter;
+  __declspec(property(get = __cordl_internal_get__facialHairMeshFilter, put = __cordl_internal_set__facialHairMeshFilter))::UnityW<::UnityEngine::MeshFilter> _facialHairMeshFilter;
 
   /// @brief Field _leftHandsHairMeshFilter, offset 0x30, size 0x8
-  __declspec(property(get = __get__leftHandsHairMeshFilter, put = __set__leftHandsHairMeshFilter))::UnityEngine::MeshFilter* _leftHandsHairMeshFilter;
+  __declspec(property(get = __cordl_internal_get__leftHandsHairMeshFilter, put = __cordl_internal_set__leftHandsHairMeshFilter))::UnityW<::UnityEngine::MeshFilter> _leftHandsHairMeshFilter;
 
   /// @brief Field _rightHandsHairMeshFilter, offset 0x38, size 0x8
-  __declspec(property(get = __get__rightHandsHairMeshFilter, put = __set__rightHandsHairMeshFilter))::UnityEngine::MeshFilter* _rightHandsHairMeshFilter;
+  __declspec(property(get = __cordl_internal_get__rightHandsHairMeshFilter, put = __cordl_internal_set__rightHandsHairMeshFilter))::UnityW<::UnityEngine::MeshFilter> _rightHandsHairMeshFilter;
 
   /// @brief Field _eyesSprite, offset 0x40, size 0x8
-  __declspec(property(get = __get__eyesSprite, put = __set__eyesSprite))::UnityEngine::SpriteRenderer* _eyesSprite;
+  __declspec(property(get = __cordl_internal_get__eyesSprite, put = __cordl_internal_set__eyesSprite))::UnityW<::UnityEngine::SpriteRenderer> _eyesSprite;
 
   /// @brief Field _mouthSprite, offset 0x48, size 0x8
-  __declspec(property(get = __get__mouthSprite, put = __set__mouthSprite))::UnityEngine::SpriteRenderer* _mouthSprite;
+  __declspec(property(get = __cordl_internal_get__mouthSprite, put = __cordl_internal_set__mouthSprite))::UnityW<::UnityEngine::SpriteRenderer> _mouthSprite;
 
   /// @brief Field _bodyMeshFilter, offset 0x50, size 0x8
-  __declspec(property(get = __get__bodyMeshFilter, put = __set__bodyMeshFilter))::UnityEngine::MeshFilter* _bodyMeshFilter;
+  __declspec(property(get = __cordl_internal_get__bodyMeshFilter, put = __cordl_internal_set__bodyMeshFilter))::UnityW<::UnityEngine::MeshFilter> _bodyMeshFilter;
 
   /// @brief Field _headTopPropertyBlockColorSetter, offset 0x58, size 0x8
-  __declspec(property(get = __get__headTopPropertyBlockColorSetter,
-                      put = __set__headTopPropertyBlockColorSetter))::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* _headTopPropertyBlockColorSetter;
+  __declspec(property(get = __cordl_internal_get__headTopPropertyBlockColorSetter,
+                      put = __cordl_internal_set__headTopPropertyBlockColorSetter))::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> _headTopPropertyBlockColorSetter;
 
   /// @brief Field _glassesPropertyBlockColorSetter, offset 0x60, size 0x8
-  __declspec(property(get = __get__glassesPropertyBlockColorSetter,
-                      put = __set__glassesPropertyBlockColorSetter))::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* _glassesPropertyBlockColorSetter;
+  __declspec(property(get = __cordl_internal_get__glassesPropertyBlockColorSetter,
+                      put = __cordl_internal_set__glassesPropertyBlockColorSetter))::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> _glassesPropertyBlockColorSetter;
 
   /// @brief Field _facialHairPropertyBlockColorSetter, offset 0x68, size 0x8
-  __declspec(property(get = __get__facialHairPropertyBlockColorSetter,
-                      put = __set__facialHairPropertyBlockColorSetter))::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* _facialHairPropertyBlockColorSetter;
+  __declspec(property(get = __cordl_internal_get__facialHairPropertyBlockColorSetter,
+                      put = __cordl_internal_set__facialHairPropertyBlockColorSetter))::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> _facialHairPropertyBlockColorSetter;
 
   /// @brief Field _skinPropertyBlockColorSetter, offset 0x70, size 0x8
-  __declspec(property(get = __get__skinPropertyBlockColorSetter, put = __set__skinPropertyBlockColorSetter))::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* _skinPropertyBlockColorSetter;
+  __declspec(property(get = __cordl_internal_get__skinPropertyBlockColorSetter,
+                      put = __cordl_internal_set__skinPropertyBlockColorSetter))::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> _skinPropertyBlockColorSetter;
 
   /// @brief Field _clothesPropertyBlockSetter, offset 0x78, size 0x8
-  __declspec(property(get = __get__clothesPropertyBlockSetter,
-                      put = __set__clothesPropertyBlockSetter))::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* _clothesPropertyBlockSetter;
+  __declspec(property(get = __cordl_internal_get__clothesPropertyBlockSetter,
+                      put = __cordl_internal_set__clothesPropertyBlockSetter))::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> _clothesPropertyBlockSetter;
 
   /// @brief Field _leftHandPropertyBlockSetter, offset 0x80, size 0x8
-  __declspec(property(get = __get__leftHandPropertyBlockSetter,
-                      put = __set__leftHandPropertyBlockSetter))::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* _leftHandPropertyBlockSetter;
+  __declspec(property(get = __cordl_internal_get__leftHandPropertyBlockSetter,
+                      put = __cordl_internal_set__leftHandPropertyBlockSetter))::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> _leftHandPropertyBlockSetter;
 
   /// @brief Field _rightHandPropertyBlockSetter, offset 0x88, size 0x8
-  __declspec(property(get = __get__rightHandPropertyBlockSetter,
-                      put = __set__rightHandPropertyBlockSetter))::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* _rightHandPropertyBlockSetter;
+  __declspec(property(get = __cordl_internal_get__rightHandPropertyBlockSetter,
+                      put = __cordl_internal_set__rightHandPropertyBlockSetter))::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> _rightHandPropertyBlockSetter;
 
   /// @brief Field _avatarPartsModel, offset 0x90, size 0x8
-  __declspec(property(get = __get__avatarPartsModel, put = __set__avatarPartsModel))::BeatSaber::BeatAvatarSDK::AvatarPartsModel* _avatarPartsModel;
+  __declspec(property(get = __cordl_internal_get__avatarPartsModel, put = __cordl_internal_set__avatarPartsModel))::BeatSaber::BeatAvatarSDK::AvatarPartsModel* _avatarPartsModel;
 
   /// @brief Field _avatarPartHighlightSetters, offset 0x98, size 0x8
-  __declspec(property(get = __get__avatarPartHighlightSetters, put = __set__avatarPartHighlightSetters))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__avatarPartHighlightSetters, put = __cordl_internal_set__avatarPartHighlightSetters))::System::Collections::Generic::Dictionary_2<
       ::BeatSaber::BeatAvatarSDK::AvatarPart, ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*>* _avatarPartHighlightSetters;
 
   /// @brief Field _lightColor, offset 0xa0, size 0x10
-  __declspec(property(get = __get__lightColor, put = __set__lightColor))::UnityEngine::Color _lightColor;
+  __declspec(property(get = __cordl_internal_get__lightColor, put = __cordl_internal_set__lightColor))::UnityEngine::Color _lightColor;
 
   /// @brief Field _avatarData, offset 0xb0, size 0x8
-  __declspec(property(get = __get__avatarData, put = __set__avatarData))::BeatSaber::BeatAvatarSDK::AvatarData* _avatarData;
+  __declspec(property(get = __cordl_internal_get__avatarData, put = __cordl_internal_set__avatarData))::BeatSaber::BeatAvatarSDK::AvatarData* _avatarData;
 
   /// @brief Field _currentHighlighter, offset 0xb8, size 0x8
-  __declspec(property(get = __get__currentHighlighter, put = __set__currentHighlighter))::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate* _currentHighlighter;
+  __declspec(property(get = __cordl_internal_get__currentHighlighter,
+                      put = __cordl_internal_set__currentHighlighter))::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate* _currentHighlighter;
 
-  constexpr ::UnityEngine::MeshFilter*& __get__headTopMeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__headTopMeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__headTopMeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__headTopMeshFilter() const;
 
-  constexpr void __set__headTopMeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__headTopMeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__glassesMeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__glassesMeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__glassesMeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__glassesMeshFilter() const;
 
-  constexpr void __set__glassesMeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__glassesMeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__facialHairMeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__facialHairMeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__facialHairMeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__facialHairMeshFilter() const;
 
-  constexpr void __set__facialHairMeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__facialHairMeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__leftHandsHairMeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__leftHandsHairMeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__leftHandsHairMeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__leftHandsHairMeshFilter() const;
 
-  constexpr void __set__leftHandsHairMeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__leftHandsHairMeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__rightHandsHairMeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__rightHandsHairMeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__rightHandsHairMeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__rightHandsHairMeshFilter() const;
 
-  constexpr void __set__rightHandsHairMeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__rightHandsHairMeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__eyesSprite();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__eyesSprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__eyesSprite() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__eyesSprite() const;
 
-  constexpr void __set__eyesSprite(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__eyesSprite(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__mouthSprite();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__mouthSprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__mouthSprite() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__mouthSprite() const;
 
-  constexpr void __set__mouthSprite(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__mouthSprite(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__bodyMeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__bodyMeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__bodyMeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__bodyMeshFilter() const;
 
-  constexpr void __set__bodyMeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__bodyMeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*& __get__headTopPropertyBlockColorSetter();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter>& __cordl_internal_get__headTopPropertyBlockColorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*> const& __get__headTopPropertyBlockColorSetter() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> const& __cordl_internal_get__headTopPropertyBlockColorSetter() const;
 
-  constexpr void __set__headTopPropertyBlockColorSetter(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* value);
+  constexpr void __cordl_internal_set__headTopPropertyBlockColorSetter(::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*& __get__glassesPropertyBlockColorSetter();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter>& __cordl_internal_get__glassesPropertyBlockColorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*> const& __get__glassesPropertyBlockColorSetter() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> const& __cordl_internal_get__glassesPropertyBlockColorSetter() const;
 
-  constexpr void __set__glassesPropertyBlockColorSetter(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* value);
+  constexpr void __cordl_internal_set__glassesPropertyBlockColorSetter(::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*& __get__facialHairPropertyBlockColorSetter();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter>& __cordl_internal_get__facialHairPropertyBlockColorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*> const& __get__facialHairPropertyBlockColorSetter() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> const& __cordl_internal_get__facialHairPropertyBlockColorSetter() const;
 
-  constexpr void __set__facialHairPropertyBlockColorSetter(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* value);
+  constexpr void __cordl_internal_set__facialHairPropertyBlockColorSetter(::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*& __get__skinPropertyBlockColorSetter();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter>& __cordl_internal_get__skinPropertyBlockColorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*> const& __get__skinPropertyBlockColorSetter() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> const& __cordl_internal_get__skinPropertyBlockColorSetter() const;
 
-  constexpr void __set__skinPropertyBlockColorSetter(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* value);
+  constexpr void __cordl_internal_set__skinPropertyBlockColorSetter(::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*& __get__clothesPropertyBlockSetter();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter>& __cordl_internal_get__clothesPropertyBlockSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*> const& __get__clothesPropertyBlockSetter() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> const& __cordl_internal_get__clothesPropertyBlockSetter() const;
 
-  constexpr void __set__clothesPropertyBlockSetter(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* value);
+  constexpr void __cordl_internal_set__clothesPropertyBlockSetter(::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*& __get__leftHandPropertyBlockSetter();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter>& __cordl_internal_get__leftHandPropertyBlockSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*> const& __get__leftHandPropertyBlockSetter() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> const& __cordl_internal_get__leftHandPropertyBlockSetter() const;
 
-  constexpr void __set__leftHandPropertyBlockSetter(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* value);
+  constexpr void __cordl_internal_set__leftHandPropertyBlockSetter(::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*& __get__rightHandPropertyBlockSetter();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter>& __cordl_internal_get__rightHandPropertyBlockSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*> const& __get__rightHandPropertyBlockSetter() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> const& __cordl_internal_get__rightHandPropertyBlockSetter() const;
 
-  constexpr void __set__rightHandPropertyBlockSetter(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* value);
+  constexpr void __cordl_internal_set__rightHandPropertyBlockSetter(::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& __get__avatarPartsModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& __cordl_internal_get__avatarPartsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& __get__avatarPartsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& __cordl_internal_get__avatarPartsModel() const;
 
-  constexpr void __set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModel* value);
+  constexpr void __cordl_internal_set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModel* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*>*&
-  __get__avatarPartHighlightSetters();
+  __cordl_internal_get__avatarPartHighlightSetters();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*>*> const&
-  __get__avatarPartHighlightSetters() const;
+  __cordl_internal_get__avatarPartHighlightSetters() const;
 
-  constexpr void __set__avatarPartHighlightSetters(
+  constexpr void __cordl_internal_set__avatarPartHighlightSetters(
       ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*>* value);
 
-  constexpr ::UnityEngine::Color& __get__lightColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__lightColor();
 
-  constexpr ::UnityEngine::Color const& __get__lightColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__lightColor() const;
 
-  constexpr void __set__lightColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__lightColor(::UnityEngine::Color value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarData*& __get__avatarData();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarData*& __cordl_internal_get__avatarData();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarData*> const& __get__avatarData() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarData*> const& __cordl_internal_get__avatarData() const;
 
-  constexpr void __set__avatarData(::BeatSaber::BeatAvatarSDK::AvatarData* value);
+  constexpr void __cordl_internal_set__avatarData(::BeatSaber::BeatAvatarSDK::AvatarData* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*& __get__currentHighlighter();
+  constexpr ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*& __cordl_internal_get__currentHighlighter();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*> const& __get__currentHighlighter() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate*> const& __cordl_internal_get__currentHighlighter() const;
 
-  constexpr void __set__currentHighlighter(::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate* value);
+  constexpr void __cordl_internal_set__currentHighlighter(::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate* value);
 
   /// @brief Method Awake, addr 0xe1b2fc, size 0x28c, virtual false, abstract: false, final false
   inline void Awake();
@@ -344,49 +346,49 @@ protected:
 
 public:
   /// @brief Field _headTopMeshFilter, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____headTopMeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____headTopMeshFilter;
 
   /// @brief Field _glassesMeshFilter, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____glassesMeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____glassesMeshFilter;
 
   /// @brief Field _facialHairMeshFilter, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____facialHairMeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____facialHairMeshFilter;
 
   /// @brief Field _leftHandsHairMeshFilter, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____leftHandsHairMeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____leftHandsHairMeshFilter;
 
   /// @brief Field _rightHandsHairMeshFilter, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____rightHandsHairMeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____rightHandsHairMeshFilter;
 
   /// @brief Field _eyesSprite, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____eyesSprite;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____eyesSprite;
 
   /// @brief Field _mouthSprite, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____mouthSprite;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____mouthSprite;
 
   /// @brief Field _bodyMeshFilter, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____bodyMeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____bodyMeshFilter;
 
   /// @brief Field _headTopPropertyBlockColorSetter, offset: 0x58, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* ____headTopPropertyBlockColorSetter;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____headTopPropertyBlockColorSetter;
 
   /// @brief Field _glassesPropertyBlockColorSetter, offset: 0x60, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* ____glassesPropertyBlockColorSetter;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> ____glassesPropertyBlockColorSetter;
 
   /// @brief Field _facialHairPropertyBlockColorSetter, offset: 0x68, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* ____facialHairPropertyBlockColorSetter;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> ____facialHairPropertyBlockColorSetter;
 
   /// @brief Field _skinPropertyBlockColorSetter, offset: 0x70, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* ____skinPropertyBlockColorSetter;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> ____skinPropertyBlockColorSetter;
 
   /// @brief Field _clothesPropertyBlockSetter, offset: 0x78, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* ____clothesPropertyBlockSetter;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____clothesPropertyBlockSetter;
 
   /// @brief Field _leftHandPropertyBlockSetter, offset: 0x80, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* ____leftHandPropertyBlockSetter;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____leftHandPropertyBlockSetter;
 
   /// @brief Field _rightHandPropertyBlockSetter, offset: 0x88, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* ____rightHandPropertyBlockSetter;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____rightHandPropertyBlockSetter;
 
   /// @brief Field _avatarPartsModel, offset: 0x90, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* ____avatarPartsModel;

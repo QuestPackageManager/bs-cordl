@@ -30,29 +30,29 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Plane);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12230))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Plane*
 class CORDL_TYPE Plane : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field m_HeightSegments, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_HeightSegments, put = __set_m_HeightSegments)) int32_t m_HeightSegments;
+  __declspec(property(get = __cordl_internal_get_m_HeightSegments, put = __cordl_internal_set_m_HeightSegments)) int32_t m_HeightSegments;
 
   /// @brief Field m_WidthSegments, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_WidthSegments, put = __set_m_WidthSegments)) int32_t m_WidthSegments;
+  __declspec(property(get = __cordl_internal_get_m_WidthSegments, put = __cordl_internal_set_m_WidthSegments)) int32_t m_WidthSegments;
 
-  constexpr int32_t& __get_m_HeightSegments();
+  constexpr int32_t& __cordl_internal_get_m_HeightSegments();
 
-  constexpr int32_t const& __get_m_HeightSegments() const;
+  constexpr int32_t const& __cordl_internal_get_m_HeightSegments() const;
 
-  constexpr void __set_m_HeightSegments(int32_t value);
+  constexpr void __cordl_internal_set_m_HeightSegments(int32_t value);
 
-  constexpr int32_t& __get_m_WidthSegments();
+  constexpr int32_t& __cordl_internal_get_m_WidthSegments();
 
-  constexpr int32_t const& __get_m_WidthSegments() const;
+  constexpr int32_t const& __cordl_internal_get_m_WidthSegments() const;
 
-  constexpr void __set_m_WidthSegments(int32_t value);
+  constexpr void __cordl_internal_set_m_WidthSegments(int32_t value);
 
   /// @brief Method CopyShape, addr 0x2b8c09c, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);

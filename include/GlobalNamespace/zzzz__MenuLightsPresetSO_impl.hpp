@@ -13,10 +13,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x23524dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>::get(), "get_lightColor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -28,60 +28,60 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2352508;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__get_lightId() {
+constexpr int32_t& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_get_lightId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightId;
 }
-constexpr int32_t const& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__get_lightId() const {
+constexpr int32_t const& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_get_lightId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightId;
 }
-constexpr void GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__set_lightId(int32_t value) {
+constexpr void GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_set_lightId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lightId = value;
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__get_baseColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_get_baseColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__get_baseColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_get_baseColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseColor;
 }
-constexpr void GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__set_baseColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_set_baseColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___baseColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__get_intensity() {
+constexpr float_t& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_get_intensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intensity;
 }
-constexpr float_t const& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__get_intensity() const {
+constexpr float_t const& GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_get_intensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intensity;
 }
-constexpr void GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__set_intensity(float_t value) {
+constexpr void GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__cordl_internal_set_intensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___intensity = value;
 }
 inline ::UnityEngine::Color GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::get_lightColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>::get(),
-                                                                             "get_lightColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_lightColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair* GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>());
 }
 inline void GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -89,14 +89,14 @@ constexpr ::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair::__MenuLight
 //  Writing Method size for method: ::GlobalNamespace::MenuLightsPresetSO.get_playersPlaceNeonsColor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorSO* (::GlobalNamespace::MenuLightsPresetSO::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ColorSO> (::GlobalNamespace::MenuLightsPresetSO::*)()>(
     &::GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23524b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(),
-                                                                               "get_playersPlaceNeonsColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_playersPlaceNeonsColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -108,9 +108,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23524bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(),
-                                                                               "get_playersPlaceNeonsIntensity", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_playersPlaceNeonsIntensity", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -123,9 +123,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23524c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(),
-                                                                               "get_lightIdColorPairs", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_lightIdColorPairs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -136,74 +136,74 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x23524cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::MenuLightsPresetSO::__get__playersPlaceNeonsColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::MenuLightsPresetSO::__cordl_internal_get__playersPlaceNeonsColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersPlaceNeonsColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::MenuLightsPresetSO::__get__playersPlaceNeonsColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::MenuLightsPresetSO::__cordl_internal_get__playersPlaceNeonsColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersPlaceNeonsColor;
 }
-constexpr void GlobalNamespace::MenuLightsPresetSO::__set__playersPlaceNeonsColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::MenuLightsPresetSO::__cordl_internal_set__playersPlaceNeonsColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersPlaceNeonsColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::MenuLightsPresetSO::__get__playersPlaceNeonsIntensity() {
+constexpr float_t& GlobalNamespace::MenuLightsPresetSO::__cordl_internal_get__playersPlaceNeonsIntensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersPlaceNeonsIntensity;
 }
-constexpr float_t const& GlobalNamespace::MenuLightsPresetSO::__get__playersPlaceNeonsIntensity() const {
+constexpr float_t const& GlobalNamespace::MenuLightsPresetSO::__cordl_internal_get__playersPlaceNeonsIntensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersPlaceNeonsIntensity;
 }
-constexpr void GlobalNamespace::MenuLightsPresetSO::__set__playersPlaceNeonsIntensity(float_t value) {
+constexpr void GlobalNamespace::MenuLightsPresetSO::__cordl_internal_set__playersPlaceNeonsIntensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playersPlaceNeonsIntensity = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*>&
-GlobalNamespace::MenuLightsPresetSO::__get__lightIdColorPairs() {
+GlobalNamespace::MenuLightsPresetSO::__cordl_internal_get__lightIdColorPairs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIdColorPairs;
 }
 constexpr ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> const&
-GlobalNamespace::MenuLightsPresetSO::__get__lightIdColorPairs() const {
+GlobalNamespace::MenuLightsPresetSO::__cordl_internal_get__lightIdColorPairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIdColorPairs;
 }
-constexpr void GlobalNamespace::MenuLightsPresetSO::__set__lightIdColorPairs(
+constexpr void GlobalNamespace::MenuLightsPresetSO::__cordl_internal_set__lightIdColorPairs(
     ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightIdColorPairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::ColorSO* GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor() {
+inline ::UnityW<::GlobalNamespace::ColorSO> GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(),
-                                                                             "get_playersPlaceNeonsColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ColorSO*, false>(this, ___internal_method);
+                                                                             "get_playersPlaceNeonsColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::ColorSO>, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsIntensity() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(),
-                                                                             "get_playersPlaceNeonsIntensity", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_playersPlaceNeonsIntensity", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*>
 GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(),
-                                                                             "get_lightIdColorPairs", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_lightIdColorPairs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*>, false>(
       this, ___internal_method);
 }
 inline ::GlobalNamespace::MenuLightsPresetSO* GlobalNamespace::MenuLightsPresetSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MenuLightsPresetSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MenuLightsPresetSO*>());
 }
 inline void GlobalNamespace::MenuLightsPresetSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

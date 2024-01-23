@@ -22,65 +22,65 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexInterpreter);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 154, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8929))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8929))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8922))
 // CS Name: ::System.Text.RegularExpressions::RegexInterpreter*
 class CORDL_TYPE RegexInterpreter : public ::System::Text::RegularExpressions::RegexRunner {
 public:
   // Declarations
   /// @brief Field _code, offset 0x80, size 0x8
-  __declspec(property(get = __get__code, put = __set__code))::System::Text::RegularExpressions::RegexCode* _code;
+  __declspec(property(get = __cordl_internal_get__code, put = __cordl_internal_set__code))::System::Text::RegularExpressions::RegexCode* _code;
 
   /// @brief Field _culture, offset 0x88, size 0x8
-  __declspec(property(get = __get__culture, put = __set__culture))::System::Globalization::CultureInfo* _culture;
+  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture))::System::Globalization::CultureInfo* _culture;
 
   /// @brief Field _operator, offset 0x90, size 0x4
-  __declspec(property(get = __get__operator, put = __set__operator)) int32_t _operator;
+  __declspec(property(get = __cordl_internal_get__operator, put = __cordl_internal_set__operator)) int32_t _operator;
 
   /// @brief Field _codepos, offset 0x94, size 0x4
-  __declspec(property(get = __get__codepos, put = __set__codepos)) int32_t _codepos;
+  __declspec(property(get = __cordl_internal_get__codepos, put = __cordl_internal_set__codepos)) int32_t _codepos;
 
   /// @brief Field _rightToLeft, offset 0x98, size 0x1
-  __declspec(property(get = __get__rightToLeft, put = __set__rightToLeft)) bool _rightToLeft;
+  __declspec(property(get = __cordl_internal_get__rightToLeft, put = __cordl_internal_set__rightToLeft)) bool _rightToLeft;
 
   /// @brief Field _caseInsensitive, offset 0x99, size 0x1
-  __declspec(property(get = __get__caseInsensitive, put = __set__caseInsensitive)) bool _caseInsensitive;
+  __declspec(property(get = __cordl_internal_get__caseInsensitive, put = __cordl_internal_set__caseInsensitive)) bool _caseInsensitive;
 
-  constexpr ::System::Text::RegularExpressions::RegexCode*& __get__code();
+  constexpr ::System::Text::RegularExpressions::RegexCode*& __cordl_internal_get__code();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& __get__code() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& __cordl_internal_get__code() const;
 
-  constexpr void __set__code(::System::Text::RegularExpressions::RegexCode* value);
+  constexpr void __cordl_internal_set__code(::System::Text::RegularExpressions::RegexCode* value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get__culture();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get__culture() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__culture() const;
 
-  constexpr void __set__culture(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  constexpr int32_t& __get__operator();
+  constexpr int32_t& __cordl_internal_get__operator();
 
-  constexpr int32_t const& __get__operator() const;
+  constexpr int32_t const& __cordl_internal_get__operator() const;
 
-  constexpr void __set__operator(int32_t value);
+  constexpr void __cordl_internal_set__operator(int32_t value);
 
-  constexpr int32_t& __get__codepos();
+  constexpr int32_t& __cordl_internal_get__codepos();
 
-  constexpr int32_t const& __get__codepos() const;
+  constexpr int32_t const& __cordl_internal_get__codepos() const;
 
-  constexpr void __set__codepos(int32_t value);
+  constexpr void __cordl_internal_set__codepos(int32_t value);
 
-  constexpr bool& __get__rightToLeft();
+  constexpr bool& __cordl_internal_get__rightToLeft();
 
-  constexpr bool const& __get__rightToLeft() const;
+  constexpr bool const& __cordl_internal_get__rightToLeft() const;
 
-  constexpr void __set__rightToLeft(bool value);
+  constexpr void __cordl_internal_set__rightToLeft(bool value);
 
-  constexpr bool& __get__caseInsensitive();
+  constexpr bool& __cordl_internal_get__caseInsensitive();
 
-  constexpr bool const& __get__caseInsensitive() const;
+  constexpr bool const& __cordl_internal_get__caseInsensitive() const;
 
-  constexpr void __set__caseInsensitive(bool value);
+  constexpr void __cordl_internal_set__caseInsensitive(bool value);
 
   static inline ::System::Text::RegularExpressions::RegexInterpreter* New_ctor(::System::Text::RegularExpressions::RegexCode* code, ::System::Globalization::CultureInfo* culture);
 

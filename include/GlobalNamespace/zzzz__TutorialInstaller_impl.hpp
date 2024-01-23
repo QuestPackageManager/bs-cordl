@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd08;
   constexpr static std::size_t addrs = 0x2273700;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), 8));
@@ -26,69 +26,69 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2274408;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AudioClip*& GlobalNamespace::TutorialInstaller::__get__audioClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::TutorialInstaller::__cordl_internal_get__audioClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::TutorialInstaller::__get__audioClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__audioClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClip;
 }
-constexpr void GlobalNamespace::TutorialInstaller::__set__audioClip(::UnityEngine::AudioClip* value) {
+constexpr void GlobalNamespace::TutorialInstaller::__cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::TutorialInstaller::__get__songBPM() {
+constexpr float_t& GlobalNamespace::TutorialInstaller::__cordl_internal_get__songBPM() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songBPM;
 }
-constexpr float_t const& GlobalNamespace::TutorialInstaller::__get__songBPM() const {
+constexpr float_t const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__songBPM() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songBPM;
 }
-constexpr void GlobalNamespace::TutorialInstaller::__set__songBPM(float_t value) {
+constexpr void GlobalNamespace::TutorialInstaller::__cordl_internal_set__songBPM(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songBPM = value;
 }
-constexpr ::GlobalNamespace::PlayerHeightDetector*& GlobalNamespace::TutorialInstaller::__get__playerHeightDetectorPrefab() {
+constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector>& GlobalNamespace::TutorialInstaller::__cordl_internal_get__playerHeightDetectorPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightDetectorPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeightDetector*> const& GlobalNamespace::TutorialInstaller::__get__playerHeightDetectorPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector> const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__playerHeightDetectorPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightDetectorPrefab;
 }
-constexpr void GlobalNamespace::TutorialInstaller::__set__playerHeightDetectorPrefab(::GlobalNamespace::PlayerHeightDetector* value) {
+constexpr void GlobalNamespace::TutorialInstaller::__cordl_internal_set__playerHeightDetectorPrefab(::UnityW<::GlobalNamespace::PlayerHeightDetector> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerHeightDetectorPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EffectPoolsManualInstaller*& GlobalNamespace::TutorialInstaller::__get__effectPoolsManualInstaller() {
+constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>& GlobalNamespace::TutorialInstaller::__cordl_internal_get__effectPoolsManualInstaller() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____effectPoolsManualInstaller;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EffectPoolsManualInstaller*> const& GlobalNamespace::TutorialInstaller::__get__effectPoolsManualInstaller() const {
+constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__effectPoolsManualInstaller() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____effectPoolsManualInstaller;
 }
-constexpr void GlobalNamespace::TutorialInstaller::__set__effectPoolsManualInstaller(::GlobalNamespace::EffectPoolsManualInstaller* value) {
+constexpr void GlobalNamespace::TutorialInstaller::__cordl_internal_set__effectPoolsManualInstaller(::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____effectPoolsManualInstaller)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::TutorialSceneSetupData*& GlobalNamespace::TutorialInstaller::__get__sceneSetupData() {
+constexpr ::GlobalNamespace::TutorialSceneSetupData*& GlobalNamespace::TutorialInstaller::__cordl_internal_get__sceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSceneSetupData*> const& GlobalNamespace::TutorialInstaller::__get__sceneSetupData() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSceneSetupData*> const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr void GlobalNamespace::TutorialInstaller::__set__sceneSetupData(::GlobalNamespace::TutorialSceneSetupData* value) {
+constexpr void GlobalNamespace::TutorialInstaller::__cordl_internal_set__sceneSetupData(::GlobalNamespace::TutorialSceneSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -98,11 +98,11 @@ inline void GlobalNamespace::TutorialInstaller::InstallBindings() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::TutorialInstaller* GlobalNamespace::TutorialInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::TutorialInstaller*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TutorialInstaller*>());
 }
 inline void GlobalNamespace::TutorialInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

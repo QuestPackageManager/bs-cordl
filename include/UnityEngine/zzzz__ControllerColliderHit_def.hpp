@@ -23,74 +23,74 @@ MARK_REF_PTR_T(::UnityEngine::ControllerColliderHit);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15501))
 // CS Name: ::UnityEngine::ControllerColliderHit*
 class CORDL_TYPE ControllerColliderHit : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Controller, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Controller, put = __set_m_Controller))::UnityEngine::CharacterController* m_Controller;
+  __declspec(property(get = __cordl_internal_get_m_Controller, put = __cordl_internal_set_m_Controller))::UnityW<::UnityEngine::CharacterController> m_Controller;
 
   /// @brief Field m_Collider, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Collider, put = __set_m_Collider))::UnityEngine::Collider* m_Collider;
+  __declspec(property(get = __cordl_internal_get_m_Collider, put = __cordl_internal_set_m_Collider))::UnityW<::UnityEngine::Collider> m_Collider;
 
   /// @brief Field m_Point, offset 0x20, size 0xc
-  __declspec(property(get = __get_m_Point, put = __set_m_Point))::UnityEngine::Vector3 m_Point;
+  __declspec(property(get = __cordl_internal_get_m_Point, put = __cordl_internal_set_m_Point))::UnityEngine::Vector3 m_Point;
 
   /// @brief Field m_Normal, offset 0x2c, size 0xc
-  __declspec(property(get = __get_m_Normal, put = __set_m_Normal))::UnityEngine::Vector3 m_Normal;
+  __declspec(property(get = __cordl_internal_get_m_Normal, put = __cordl_internal_set_m_Normal))::UnityEngine::Vector3 m_Normal;
 
   /// @brief Field m_MoveDirection, offset 0x38, size 0xc
-  __declspec(property(get = __get_m_MoveDirection, put = __set_m_MoveDirection))::UnityEngine::Vector3 m_MoveDirection;
+  __declspec(property(get = __cordl_internal_get_m_MoveDirection, put = __cordl_internal_set_m_MoveDirection))::UnityEngine::Vector3 m_MoveDirection;
 
   /// @brief Field m_MoveLength, offset 0x44, size 0x4
-  __declspec(property(get = __get_m_MoveLength, put = __set_m_MoveLength)) float_t m_MoveLength;
+  __declspec(property(get = __cordl_internal_get_m_MoveLength, put = __cordl_internal_set_m_MoveLength)) float_t m_MoveLength;
 
   /// @brief Field m_Push, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_Push, put = __set_m_Push)) int32_t m_Push;
+  __declspec(property(get = __cordl_internal_get_m_Push, put = __cordl_internal_set_m_Push)) int32_t m_Push;
 
-  constexpr ::UnityEngine::CharacterController*& __get_m_Controller();
+  constexpr ::UnityW<::UnityEngine::CharacterController>& __cordl_internal_get_m_Controller();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CharacterController*> const& __get_m_Controller() const;
+  constexpr ::UnityW<::UnityEngine::CharacterController> const& __cordl_internal_get_m_Controller() const;
 
-  constexpr void __set_m_Controller(::UnityEngine::CharacterController* value);
+  constexpr void __cordl_internal_set_m_Controller(::UnityW<::UnityEngine::CharacterController> value);
 
-  constexpr ::UnityEngine::Collider*& __get_m_Collider();
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_m_Collider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Collider*> const& __get_m_Collider() const;
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_m_Collider() const;
 
-  constexpr void __set_m_Collider(::UnityEngine::Collider* value);
+  constexpr void __cordl_internal_set_m_Collider(::UnityW<::UnityEngine::Collider> value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Point();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Point();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Point() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Point() const;
 
-  constexpr void __set_m_Point(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Point(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Normal();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Normal();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Normal() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Normal() const;
 
-  constexpr void __set_m_Normal(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Normal(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_MoveDirection();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_MoveDirection();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_MoveDirection() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_MoveDirection() const;
 
-  constexpr void __set_m_MoveDirection(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_MoveDirection(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_m_MoveLength();
+  constexpr float_t& __cordl_internal_get_m_MoveLength();
 
-  constexpr float_t const& __get_m_MoveLength() const;
+  constexpr float_t const& __cordl_internal_get_m_MoveLength() const;
 
-  constexpr void __set_m_MoveLength(float_t value);
+  constexpr void __cordl_internal_set_m_MoveLength(float_t value);
 
-  constexpr int32_t& __get_m_Push();
+  constexpr int32_t& __cordl_internal_get_m_Push();
 
-  constexpr int32_t const& __get_m_Push() const;
+  constexpr int32_t const& __cordl_internal_get_m_Push() const;
 
-  constexpr void __set_m_Push(int32_t value);
+  constexpr void __cordl_internal_set_m_Push(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllerColliderHit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -107,10 +107,10 @@ protected:
 
 public:
   /// @brief Field m_Controller, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::CharacterController* ___m_Controller;
+  ::UnityW<::UnityEngine::CharacterController> ___m_Controller;
 
   /// @brief Field m_Collider, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Collider* ___m_Collider;
+  ::UnityW<::UnityEngine::Collider> ___m_Collider;
 
   /// @brief Field m_Point, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_Point;

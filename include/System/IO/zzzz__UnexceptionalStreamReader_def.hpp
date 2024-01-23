@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::IO::UnexceptionalStreamReader);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3575))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3575))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3635))
 // CS Name: ::System.IO::UnexceptionalStreamReader*
 class CORDL_TYPE UnexceptionalStreamReader : public ::System::IO::StreamReader {

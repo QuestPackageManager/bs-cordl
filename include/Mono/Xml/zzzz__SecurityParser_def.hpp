@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::Mono::Xml::SecurityParser);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2254))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2254))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2250))
 // CS Name: ::Mono.Xml::SecurityParser*
 class CORDL_TYPE SecurityParser : public ::Mono::Xml::SmallXmlParser {
 public:
   // Declarations
   /// @brief Field root, offset 0x68, size 0x8
-  __declspec(property(get = __get_root, put = __set_root))::System::Security::SecurityElement* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::System::Security::SecurityElement* root;
 
   /// @brief Field current, offset 0x70, size 0x8
-  __declspec(property(get = __get_current, put = __set_current))::System::Security::SecurityElement* current;
+  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::System::Security::SecurityElement* current;
 
   /// @brief Field stack, offset 0x78, size 0x8
-  __declspec(property(get = __get_stack, put = __set_stack))::System::Collections::Stack* stack;
+  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack))::System::Collections::Stack* stack;
 
   /// @brief Convert operator to "::Mono::Xml::__SmallXmlParser__IContentHandler"
   constexpr operator ::Mono::Xml::__SmallXmlParser__IContentHandler*() noexcept;
@@ -51,23 +51,23 @@ public:
   /// @brief Convert to "::Mono::Xml::__SmallXmlParser__IContentHandler"
   constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler* i___Mono__Xml____SmallXmlParser__IContentHandler() noexcept;
 
-  constexpr ::System::Security::SecurityElement*& __get_root();
+  constexpr ::System::Security::SecurityElement*& __cordl_internal_get_root();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& __get_root() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& __cordl_internal_get_root() const;
 
-  constexpr void __set_root(::System::Security::SecurityElement* value);
+  constexpr void __cordl_internal_set_root(::System::Security::SecurityElement* value);
 
-  constexpr ::System::Security::SecurityElement*& __get_current();
+  constexpr ::System::Security::SecurityElement*& __cordl_internal_get_current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& __get_current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& __cordl_internal_get_current() const;
 
-  constexpr void __set_current(::System::Security::SecurityElement* value);
+  constexpr void __cordl_internal_set_current(::System::Security::SecurityElement* value);
 
-  constexpr ::System::Collections::Stack*& __get_stack();
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __get_stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __cordl_internal_get_stack() const;
 
-  constexpr void __set_stack(::System::Collections::Stack* value);
+  constexpr void __cordl_internal_set_stack(::System::Collections::Stack* value);
 
   static inline ::Mono::Xml::SecurityParser* New_ctor();
 

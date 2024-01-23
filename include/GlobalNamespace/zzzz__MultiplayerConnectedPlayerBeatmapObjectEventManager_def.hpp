@@ -61,7 +61,7 @@ MARK_VAL_T(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventMana
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5116))
 // CS Name: ::MultiplayerConnectedPlayerBeatmapObjectEventManager::TimestampedBeatmapObjectEventData
 struct CORDL_TYPE __MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData {
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObj
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5117))
 // CS Name: ::MultiplayerConnectedPlayerBeatmapObjectEventManager*
 class CORDL_TYPE MultiplayerConnectedPlayerBeatmapObjectEventManager : public ::UnityEngine::MonoBehaviour {
@@ -110,40 +110,42 @@ public:
   using TimestampedBeatmapObjectEventData = ::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData;
 
   /// @brief Field _connectedPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _gameplayRpcManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameplayRpcManager, put = __set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
   /// @brief Field _songTimeController, offset 0x28, size 0x8
-  __declspec(property(get = __get__songTimeController, put = __set__songTimeController))::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* _songTimeController;
+  __declspec(property(get = __cordl_internal_get__songTimeController,
+                      put = __cordl_internal_set__songTimeController))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> _songTimeController;
 
   /// @brief Field connectedPlayerNoteWasSpawnedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_connectedPlayerNoteWasSpawnedEvent,
-                      put = __set_connectedPlayerNoteWasSpawnedEvent))::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* connectedPlayerNoteWasSpawnedEvent;
+  __declspec(property(get = __cordl_internal_get_connectedPlayerNoteWasSpawnedEvent,
+                      put = __cordl_internal_set_connectedPlayerNoteWasSpawnedEvent))::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* connectedPlayerNoteWasSpawnedEvent;
 
   /// @brief Field connectedPlayerObstacleWasSpawnedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_connectedPlayerObstacleWasSpawnedEvent,
-                      put = __set_connectedPlayerObstacleWasSpawnedEvent))::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* connectedPlayerObstacleWasSpawnedEvent;
+  __declspec(
+      property(get = __cordl_internal_get_connectedPlayerObstacleWasSpawnedEvent,
+               put = __cordl_internal_set_connectedPlayerObstacleWasSpawnedEvent))::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* connectedPlayerObstacleWasSpawnedEvent;
 
   /// @brief Field connectedPlayerSliderWasSpawnedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_connectedPlayerSliderWasSpawnedEvent,
-                      put = __set_connectedPlayerSliderWasSpawnedEvent))::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* connectedPlayerSliderWasSpawnedEvent;
+  __declspec(property(get = __cordl_internal_get_connectedPlayerSliderWasSpawnedEvent,
+                      put = __cordl_internal_set_connectedPlayerSliderWasSpawnedEvent))::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* connectedPlayerSliderWasSpawnedEvent;
 
   /// @brief Field connectedPlayerNoteWasCutEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_connectedPlayerNoteWasCutEvent,
-                      put = __set_connectedPlayerNoteWasCutEvent))::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* connectedPlayerNoteWasCutEvent;
+  __declspec(property(get = __cordl_internal_get_connectedPlayerNoteWasCutEvent,
+                      put = __cordl_internal_set_connectedPlayerNoteWasCutEvent))::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* connectedPlayerNoteWasCutEvent;
 
   /// @brief Field connectedPlayerNoteWasMissedEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_connectedPlayerNoteWasMissedEvent,
-                      put = __set_connectedPlayerNoteWasMissedEvent))::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* connectedPlayerNoteWasMissedEvent;
+  __declspec(property(get = __cordl_internal_get_connectedPlayerNoteWasMissedEvent,
+                      put = __cordl_internal_set_connectedPlayerNoteWasMissedEvent))::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* connectedPlayerNoteWasMissedEvent;
 
   /// @brief Field _beatmapObjectEventQueue, offset 0x58, size 0x8
-  __declspec(property(get = __get__beatmapObjectEventQueue, put = __set__beatmapObjectEventQueue))::System::Collections::Generic::Queue_1<
+  __declspec(property(get = __cordl_internal_get__beatmapObjectEventQueue, put = __cordl_internal_set__beatmapObjectEventQueue))::System::Collections::Generic::Queue_1<
       ::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData>* _beatmapObjectEventQueue;
 
   /// @brief Field _paused, offset 0x60, size 0x1
-  __declspec(property(get = __get__paused, put = __set__paused)) bool _paused;
+  __declspec(property(get = __cordl_internal_get__paused, put = __cordl_internal_set__paused)) bool _paused;
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager"
   constexpr operator ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*() noexcept;
@@ -151,68 +153,69 @@ public:
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager"
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* i___GlobalNamespace__IConnectedPlayerBeatmapObjectEventManager() noexcept;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__gameplayRpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__gameplayRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
 
-  constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& __get__songTimeController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController>& __cordl_internal_get__songTimeController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*> const& __get__songTimeController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> const& __cordl_internal_get__songTimeController() const;
 
-  constexpr void __set__songTimeController(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* value);
+  constexpr void __cordl_internal_set__songTimeController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>*& __get_connectedPlayerNoteWasSpawnedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>*& __cordl_internal_get_connectedPlayerNoteWasSpawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>*> const& __get_connectedPlayerNoteWasSpawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>*> const& __cordl_internal_get_connectedPlayerNoteWasSpawnedEvent() const;
 
-  constexpr void __set_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
+  constexpr void __cordl_internal_set_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*& __get_connectedPlayerObstacleWasSpawnedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*& __cordl_internal_get_connectedPlayerObstacleWasSpawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*> const& __get_connectedPlayerObstacleWasSpawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*> const& __cordl_internal_get_connectedPlayerObstacleWasSpawnedEvent() const;
 
-  constexpr void __set_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
+  constexpr void __cordl_internal_set_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>*& __get_connectedPlayerSliderWasSpawnedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>*& __cordl_internal_get_connectedPlayerSliderWasSpawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>*> const& __get_connectedPlayerSliderWasSpawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>*> const& __cordl_internal_get_connectedPlayerSliderWasSpawnedEvent() const;
 
-  constexpr void __set_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
+  constexpr void __cordl_internal_set_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>*& __get_connectedPlayerNoteWasCutEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>*& __cordl_internal_get_connectedPlayerNoteWasCutEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>*> const& __get_connectedPlayerNoteWasCutEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>*> const& __cordl_internal_get_connectedPlayerNoteWasCutEvent() const;
 
-  constexpr void __set_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
+  constexpr void __cordl_internal_set_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>*& __get_connectedPlayerNoteWasMissedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>*& __cordl_internal_get_connectedPlayerNoteWasMissedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>*> const& __get_connectedPlayerNoteWasMissedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>*> const& __cordl_internal_get_connectedPlayerNoteWasMissedEvent() const;
 
-  constexpr void __set_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
+  constexpr void __cordl_internal_set_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData>*& __get__beatmapObjectEventQueue();
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData>*&
+  __cordl_internal_get__beatmapObjectEventQueue();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Queue_1<::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData>*> const&
-  __get__beatmapObjectEventQueue() const;
+  __cordl_internal_get__beatmapObjectEventQueue() const;
 
-  constexpr void
-  __set__beatmapObjectEventQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData>* value);
+  constexpr void __cordl_internal_set__beatmapObjectEventQueue(
+      ::System::Collections::Generic::Queue_1<::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData>* value);
 
-  constexpr bool& __get__paused();
+  constexpr bool& __cordl_internal_get__paused();
 
-  constexpr bool const& __get__paused() const;
+  constexpr bool const& __cordl_internal_get__paused() const;
 
-  constexpr void __set__paused(bool value);
+  constexpr void __cordl_internal_set__paused(bool value);
 
   /// @brief Method add_connectedPlayerNoteWasSpawnedEvent, addr 0x23d19f0, size 0xb0, virtual true, abstract: false, final true
   inline void add_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
@@ -291,7 +294,7 @@ public:
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;
 
   /// @brief Field _songTimeController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* ____songTimeController;
+  ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> ____songTimeController;
 
   /// @brief Field connectedPlayerNoteWasSpawnedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* ___connectedPlayerNoteWasSpawnedEvent;

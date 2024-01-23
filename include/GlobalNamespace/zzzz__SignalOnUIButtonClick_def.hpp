@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::SignalOnUIButtonClick);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14398))
 // CS Name: ::SignalOnUIButtonClick*
 class CORDL_TYPE SignalOnUIButtonClick : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _buttonClickedSignal, offset 0x18, size 0x8
-  __declspec(property(get = __get__buttonClickedSignal, put = __set__buttonClickedSignal))::GlobalNamespace::Signal* _buttonClickedSignal;
+  __declspec(property(get = __cordl_internal_get__buttonClickedSignal, put = __cordl_internal_set__buttonClickedSignal))::UnityW<::GlobalNamespace::Signal> _buttonClickedSignal;
 
   /// @brief Field _button, offset 0x20, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
-  constexpr ::GlobalNamespace::Signal*& __get__buttonClickedSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__buttonClickedSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__buttonClickedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__buttonClickedSignal() const;
 
-  constexpr void __set__buttonClickedSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__buttonClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__button();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
   /// @brief Method OnReset, addr 0x20f5934, size 0x50, virtual false, abstract: false, final false
   inline void OnReset();
@@ -73,10 +73,10 @@ protected:
 
 public:
   /// @brief Field _buttonClickedSignal, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____buttonClickedSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____buttonClickedSignal;
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____button;
+  ::UnityW<::UnityEngine::UI::Button> ____button;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

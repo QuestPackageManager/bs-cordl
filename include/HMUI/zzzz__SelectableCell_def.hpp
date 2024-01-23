@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::HMUI::SelectableCell);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13652))
 // CS Name: ::SelectableCell::TransitionType
 struct CORDL_TYPE __SelectableCell__TransitionType {
@@ -106,7 +106,7 @@ static_assert(offsetof(::HMUI::__SelectableCell__TransitionType, value__) == 0x0
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13537))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13537))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13653))
 // CS Name: ::HMUI::SelectableCell*
 class CORDL_TYPE SelectableCell : public ::HMUI::Interactable {
@@ -115,21 +115,22 @@ public:
   using TransitionType = ::HMUI::__SelectableCell__TransitionType;
 
   /// @brief Field _wasPressedSignal, offset 0x28, size 0x8
-  __declspec(property(get = __get__wasPressedSignal, put = __set__wasPressedSignal))::GlobalNamespace::Signal* _wasPressedSignal;
+  __declspec(property(get = __cordl_internal_get__wasPressedSignal, put = __cordl_internal_set__wasPressedSignal))::UnityW<::GlobalNamespace::Signal> _wasPressedSignal;
 
   /// @brief Field selectionDidChangeEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_selectionDidChangeEvent,
-                      put = __set_selectionDidChangeEvent))::System::Action_3<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* selectionDidChangeEvent;
+  __declspec(property(
+      get = __cordl_internal_get_selectionDidChangeEvent,
+      put = __cordl_internal_set_selectionDidChangeEvent))::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* selectionDidChangeEvent;
 
   /// @brief Field highlightDidChangeEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_highlightDidChangeEvent,
-                      put = __set_highlightDidChangeEvent))::System::Action_2<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType>* highlightDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_highlightDidChangeEvent,
+                      put = __cordl_internal_set_highlightDidChangeEvent))::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType>* highlightDidChangeEvent;
 
   /// @brief Field <highlighted>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__highlighted_k__BackingField, put = __set__highlighted_k__BackingField)) bool _highlighted_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__highlighted_k__BackingField, put = __cordl_internal_set__highlighted_k__BackingField)) bool _highlighted_k__BackingField;
 
   /// @brief Field <selected>k__BackingField, offset 0x41, size 0x1
-  __declspec(property(get = __get__selected_k__BackingField, put = __set__selected_k__BackingField)) bool _selected_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__selected_k__BackingField, put = __cordl_internal_set__selected_k__BackingField)) bool _selected_k__BackingField;
 
   __declspec(property(get = get_highlighted, put = set_highlighted)) bool highlighted;
 
@@ -165,47 +166,49 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  constexpr ::GlobalNamespace::Signal*& __get__wasPressedSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__wasPressedSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__wasPressedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__wasPressedSignal() const;
 
-  constexpr void __set__wasPressedSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__wasPressedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::System::Action_3<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>*& __get_selectionDidChangeEvent();
+  constexpr ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>*& __cordl_internal_get_selectionDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>*> const& __get_selectionDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>*> const&
+  __cordl_internal_get_selectionDidChangeEvent() const;
 
-  constexpr void __set_selectionDidChangeEvent(::System::Action_3<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* value);
 
-  constexpr ::System::Action_2<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType>*& __get_highlightDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType>*& __cordl_internal_get_highlightDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType>*> const& __get_highlightDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType>*> const&
+  __cordl_internal_get_highlightDidChangeEvent() const;
 
-  constexpr void __set_highlightDidChangeEvent(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType>* value);
+  constexpr void __cordl_internal_set_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType>* value);
 
-  constexpr bool& __get__highlighted_k__BackingField();
+  constexpr bool& __cordl_internal_get__highlighted_k__BackingField();
 
-  constexpr bool const& __get__highlighted_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__highlighted_k__BackingField() const;
 
-  constexpr void __set__highlighted_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__highlighted_k__BackingField(bool value);
 
-  constexpr bool& __get__selected_k__BackingField();
+  constexpr bool& __cordl_internal_get__selected_k__BackingField();
 
-  constexpr bool const& __get__selected_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__selected_k__BackingField() const;
 
-  constexpr void __set__selected_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__selected_k__BackingField(bool value);
 
   /// @brief Method add_selectionDidChangeEvent, addr 0x2145880, size 0xb0, virtual false, abstract: false, final false
-  inline void add_selectionDidChangeEvent(::System::Action_3<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* value);
+  inline void add_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* value);
 
   /// @brief Method remove_selectionDidChangeEvent, addr 0x2145930, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_selectionDidChangeEvent(::System::Action_3<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* value);
+  inline void remove_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* value);
 
   /// @brief Method add_highlightDidChangeEvent, addr 0x21459e0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_highlightDidChangeEvent(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType>* value);
+  inline void add_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType>* value);
 
   /// @brief Method remove_highlightDidChangeEvent, addr 0x2145a90, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_highlightDidChangeEvent(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType>* value);
+  inline void remove_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType>* value);
 
   /// @brief Method get_highlighted, addr 0x2145b40, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
@@ -272,13 +275,13 @@ protected:
 
 public:
   /// @brief Field _wasPressedSignal, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____wasPressedSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____wasPressedSignal;
 
   /// @brief Field selectionDidChangeEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_3<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* ___selectionDidChangeEvent;
+  ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType, ::System::Object*>* ___selectionDidChangeEvent;
 
   /// @brief Field highlightDidChangeEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType>* ___highlightDidChangeEvent;
+  ::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::__SelectableCell__TransitionType>* ___highlightDidChangeEvent;
 
   /// @brief Field <highlighted>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____highlighted_k__BackingField;

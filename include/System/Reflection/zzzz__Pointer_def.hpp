@@ -29,17 +29,17 @@ MARK_REF_PTR_T(::System::Reflection::Pointer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3485))
 // CS Name: ::System.Reflection::Pointer*
 class CORDL_TYPE Pointer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get__ptr, put = __set__ptr))::cordl_internals::Ptr<void> _ptr;
+  __declspec(property(get = __cordl_internal_get__ptr, put = __cordl_internal_set__ptr))::cordl_internals::Ptr<void> _ptr;
 
   /// @brief Field _ptrType, offset 0x18, size 0x8
-  __declspec(property(get = __get__ptrType, put = __set__ptrType))::System::Type* _ptrType;
+  __declspec(property(get = __cordl_internal_get__ptrType, put = __cordl_internal_set__ptrType))::System::Type* _ptrType;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -47,17 +47,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::cordl_internals::Ptr<void>& __get__ptr();
+  constexpr ::cordl_internals::Ptr<void>& __cordl_internal_get__ptr();
 
-  constexpr ::cordl_internals::Ptr<void> const& __get__ptr() const;
+  constexpr ::cordl_internals::Ptr<void> const& __cordl_internal_get__ptr() const;
 
-  constexpr void __set__ptr(::cordl_internals::Ptr<void> value);
+  constexpr void __cordl_internal_set__ptr(::cordl_internals::Ptr<void> value);
 
-  constexpr ::System::Type*& __get__ptrType();
+  constexpr ::System::Type*& __cordl_internal_get__ptrType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__ptrType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ptrType() const;
 
-  constexpr void __set__ptrType(::System::Type* value);
+  constexpr void __cordl_internal_set__ptrType(::System::Type* value);
 
   static inline ::System::Reflection::Pointer* New_ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
 

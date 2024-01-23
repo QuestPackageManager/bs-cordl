@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::__CullingGroup__StateChanged);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10147))
 // CS Name: ::CullingGroup::StateChanged*
 class CORDL_TYPE __CullingGroup__StateChanged : public ::System::MulticastDelegate {
@@ -68,7 +68,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__CullingGroup__Sta
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10148))
 // CS Name: ::UnityEngine::CullingGroup*
 class CORDL_TYPE CullingGroup : public ::System::Object {
@@ -77,22 +77,22 @@ public:
   using StateChanged = ::UnityEngine::__CullingGroup__StateChanged;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Field m_OnStateChanged, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_OnStateChanged, put = __set_m_OnStateChanged))::UnityEngine::__CullingGroup__StateChanged* m_OnStateChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnStateChanged, put = __cordl_internal_set_m_OnStateChanged))::UnityEngine::__CullingGroup__StateChanged* m_OnStateChanged;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  constexpr ::UnityEngine::__CullingGroup__StateChanged*& __get_m_OnStateChanged();
+  constexpr ::UnityEngine::__CullingGroup__StateChanged*& __cordl_internal_get_m_OnStateChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__CullingGroup__StateChanged*> const& __get_m_OnStateChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__CullingGroup__StateChanged*> const& __cordl_internal_get_m_OnStateChanged() const;
 
-  constexpr void __set_m_OnStateChanged(::UnityEngine::__CullingGroup__StateChanged* value);
+  constexpr void __cordl_internal_set_m_OnStateChanged(::UnityEngine::__CullingGroup__StateChanged* value);
 
   /// @brief Method SendEvents, addr 0x2cc6794, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, void* eventsPtr, int32_t count);

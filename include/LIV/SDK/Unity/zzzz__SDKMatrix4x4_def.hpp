@@ -25,7 +25,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKMatrix4x4);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15111))
 // CS Name: ::LIV.SDK.Unity::SDKMatrix4x4
 struct CORDL_TYPE SDKMatrix4x4 {

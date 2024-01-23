@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMonoscopic);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8139))
 // CS Name: ::OVRMonoscopic*
 class CORDL_TYPE OVRMonoscopic : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field toggleButton, offset 0x18, size 0x4
-  __declspec(property(get = __get_toggleButton, put = __set_toggleButton))::GlobalNamespace::__OVRInput__RawButton toggleButton;
+  __declspec(property(get = __cordl_internal_get_toggleButton, put = __cordl_internal_set_toggleButton))::GlobalNamespace::__OVRInput__RawButton toggleButton;
 
   /// @brief Field monoscopic, offset 0x1c, size 0x1
-  __declspec(property(get = __get_monoscopic, put = __set_monoscopic)) bool monoscopic;
+  __declspec(property(get = __cordl_internal_get_monoscopic, put = __cordl_internal_set_monoscopic)) bool monoscopic;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __get_toggleButton();
+  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_toggleButton();
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __get_toggleButton() const;
+  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_toggleButton() const;
 
-  constexpr void __set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
+  constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  constexpr bool& __get_monoscopic();
+  constexpr bool& __cordl_internal_get_monoscopic();
 
-  constexpr bool const& __get_monoscopic() const;
+  constexpr bool const& __cordl_internal_get_monoscopic() const;
 
-  constexpr void __set_monoscopic(bool value);
+  constexpr void __cordl_internal_set_monoscopic(bool value);
 
   /// @brief Method Update, addr 0x27b469c, size 0xf0, virtual false, abstract: false, final false
   inline void Update();

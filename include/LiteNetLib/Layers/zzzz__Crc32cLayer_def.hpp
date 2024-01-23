@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::LiteNetLib::Layers::Crc32cLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Layers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14242))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14242))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14241))
 // CS Name: ::LiteNetLib.Layers::Crc32cLayer*
 class CORDL_TYPE Crc32cLayer : public ::LiteNetLib::Layers::PacketLayerBase {

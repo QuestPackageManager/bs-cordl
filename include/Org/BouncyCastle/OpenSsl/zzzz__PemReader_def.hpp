@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::PemReader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1685))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1685))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1686))
 // CS Name: ::Org.BouncyCastle.OpenSsl::PemReader*
 class CORDL_TYPE PemReader : public ::Org::BouncyCastle::Utilities::IO::Pem::PemReader {
 public:
   // Declarations
   /// @brief Field pFinder, offset 0x18, size 0x8
-  __declspec(property(get = __get_pFinder, put = __set_pFinder))::Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder;
+  __declspec(property(get = __cordl_internal_get_pFinder, put = __cordl_internal_set_pFinder))::Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder;
 
-  constexpr ::Org::BouncyCastle::OpenSsl::IPasswordFinder*& __get_pFinder();
+  constexpr ::Org::BouncyCastle::OpenSsl::IPasswordFinder*& __cordl_internal_get_pFinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::OpenSsl::IPasswordFinder*> const& __get_pFinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::OpenSsl::IPasswordFinder*> const& __cordl_internal_get_pFinder() const;
 
-  constexpr void __set_pFinder(::Org::BouncyCastle::OpenSsl::IPasswordFinder* value);
+  constexpr void __cordl_internal_set_pFinder(::Org::BouncyCastle::OpenSsl::IPasswordFinder* value);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemReader* New_ctor(::System::IO::TextReader* reader);
 

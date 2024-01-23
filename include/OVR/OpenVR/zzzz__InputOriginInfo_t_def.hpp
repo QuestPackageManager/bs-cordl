@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::InputOriginInfo_t);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8724))
 // CS Name: ::OVR.OpenVR::InputOriginInfo_t
 struct CORDL_TYPE InputOriginInfo_t {

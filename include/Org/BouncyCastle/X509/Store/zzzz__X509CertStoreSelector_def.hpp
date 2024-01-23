@@ -47,56 +47,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CertStoreSelector);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(678))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CertStoreSelector*
 class CORDL_TYPE X509CertStoreSelector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field authorityKeyIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_authorityKeyIdentifier, put = __set_authorityKeyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> authorityKeyIdentifier;
+  __declspec(property(get = __cordl_internal_get_authorityKeyIdentifier, put = __cordl_internal_set_authorityKeyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> authorityKeyIdentifier;
 
   /// @brief Field basicConstraints, offset 0x18, size 0x4
-  __declspec(property(get = __get_basicConstraints, put = __set_basicConstraints)) int32_t basicConstraints;
+  __declspec(property(get = __cordl_internal_get_basicConstraints, put = __cordl_internal_set_basicConstraints)) int32_t basicConstraints;
 
   /// @brief Field certificate, offset 0x20, size 0x8
-  __declspec(property(get = __get_certificate, put = __set_certificate))::Org::BouncyCastle::X509::X509Certificate* certificate;
+  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate))::Org::BouncyCastle::X509::X509Certificate* certificate;
 
   /// @brief Field certificateValid, offset 0x28, size 0x8
-  __declspec(property(get = __get_certificateValid, put = __set_certificateValid))::Org::BouncyCastle::Utilities::Date::DateTimeObject* certificateValid;
+  __declspec(property(get = __cordl_internal_get_certificateValid, put = __cordl_internal_set_certificateValid))::Org::BouncyCastle::Utilities::Date::DateTimeObject* certificateValid;
 
   /// @brief Field extendedKeyUsage, offset 0x30, size 0x8
-  __declspec(property(get = __get_extendedKeyUsage, put = __set_extendedKeyUsage))::Org::BouncyCastle::Utilities::Collections::ISet* extendedKeyUsage;
+  __declspec(property(get = __cordl_internal_get_extendedKeyUsage, put = __cordl_internal_set_extendedKeyUsage))::Org::BouncyCastle::Utilities::Collections::ISet* extendedKeyUsage;
 
   /// @brief Field ignoreX509NameOrdering, offset 0x38, size 0x1
-  __declspec(property(get = __get_ignoreX509NameOrdering, put = __set_ignoreX509NameOrdering)) bool ignoreX509NameOrdering;
+  __declspec(property(get = __cordl_internal_get_ignoreX509NameOrdering, put = __cordl_internal_set_ignoreX509NameOrdering)) bool ignoreX509NameOrdering;
 
   /// @brief Field issuer, offset 0x40, size 0x8
-  __declspec(property(get = __get_issuer, put = __set_issuer))::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
+  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
 
   /// @brief Field keyUsage, offset 0x48, size 0x8
-  __declspec(property(get = __get_keyUsage, put = __set_keyUsage))::ArrayW<bool, ::Array<bool>*> keyUsage;
+  __declspec(property(get = __cordl_internal_get_keyUsage, put = __cordl_internal_set_keyUsage))::ArrayW<bool, ::Array<bool>*> keyUsage;
 
   /// @brief Field policy, offset 0x50, size 0x8
-  __declspec(property(get = __get_policy, put = __set_policy))::Org::BouncyCastle::Utilities::Collections::ISet* policy;
+  __declspec(property(get = __cordl_internal_get_policy, put = __cordl_internal_set_policy))::Org::BouncyCastle::Utilities::Collections::ISet* policy;
 
   /// @brief Field privateKeyValid, offset 0x58, size 0x8
-  __declspec(property(get = __get_privateKeyValid, put = __set_privateKeyValid))::Org::BouncyCastle::Utilities::Date::DateTimeObject* privateKeyValid;
+  __declspec(property(get = __cordl_internal_get_privateKeyValid, put = __cordl_internal_set_privateKeyValid))::Org::BouncyCastle::Utilities::Date::DateTimeObject* privateKeyValid;
 
   /// @brief Field serialNumber, offset 0x60, size 0x8
-  __declspec(property(get = __get_serialNumber, put = __set_serialNumber))::Org::BouncyCastle::Math::BigInteger* serialNumber;
+  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::Org::BouncyCastle::Math::BigInteger* serialNumber;
 
   /// @brief Field subject, offset 0x68, size 0x8
-  __declspec(property(get = __get_subject, put = __set_subject))::Org::BouncyCastle::Asn1::X509::X509Name* subject;
+  __declspec(property(get = __cordl_internal_get_subject, put = __cordl_internal_set_subject))::Org::BouncyCastle::Asn1::X509::X509Name* subject;
 
   /// @brief Field subjectKeyIdentifier, offset 0x70, size 0x8
-  __declspec(property(get = __get_subjectKeyIdentifier, put = __set_subjectKeyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier;
+  __declspec(property(get = __cordl_internal_get_subjectKeyIdentifier, put = __cordl_internal_set_subjectKeyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier;
 
   /// @brief Field subjectPublicKey, offset 0x78, size 0x8
-  __declspec(property(get = __get_subjectPublicKey, put = __set_subjectPublicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* subjectPublicKey;
+  __declspec(property(get = __cordl_internal_get_subjectPublicKey, put = __cordl_internal_set_subjectPublicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* subjectPublicKey;
 
   /// @brief Field subjectPublicKeyAlgID, offset 0x80, size 0x8
-  __declspec(property(get = __get_subjectPublicKeyAlgID, put = __set_subjectPublicKeyAlgID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* subjectPublicKeyAlgID;
+  __declspec(property(get = __cordl_internal_get_subjectPublicKeyAlgID, put = __cordl_internal_set_subjectPublicKeyAlgID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* subjectPublicKeyAlgID;
 
   __declspec(property(get = get_AuthorityKeyIdentifier, put = set_AuthorityKeyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> AuthorityKeyIdentifier;
 
@@ -144,95 +144,95 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_authorityKeyIdentifier();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_authorityKeyIdentifier();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_authorityKeyIdentifier() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_authorityKeyIdentifier() const;
 
-  constexpr void __set_authorityKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_authorityKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_basicConstraints();
+  constexpr int32_t& __cordl_internal_get_basicConstraints();
 
-  constexpr int32_t const& __get_basicConstraints() const;
+  constexpr int32_t const& __cordl_internal_get_basicConstraints() const;
 
-  constexpr void __set_basicConstraints(int32_t value);
+  constexpr void __cordl_internal_set_basicConstraints(int32_t value);
 
-  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __get_certificate();
+  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_certificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __get_certificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_certificate() const;
 
-  constexpr void __set_certificate(::Org::BouncyCastle::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set_certificate(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __get_certificateValid();
+  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_certificateValid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __get_certificateValid() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_certificateValid() const;
 
-  constexpr void __set_certificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+  constexpr void __cordl_internal_set_certificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_extendedKeyUsage();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_extendedKeyUsage();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_extendedKeyUsage() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_extendedKeyUsage() const;
 
-  constexpr void __set_extendedKeyUsage(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_extendedKeyUsage(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr bool& __get_ignoreX509NameOrdering();
+  constexpr bool& __cordl_internal_get_ignoreX509NameOrdering();
 
-  constexpr bool const& __get_ignoreX509NameOrdering() const;
+  constexpr bool const& __cordl_internal_get_ignoreX509NameOrdering() const;
 
-  constexpr void __set_ignoreX509NameOrdering(bool value);
+  constexpr void __cordl_internal_set_ignoreX509NameOrdering(bool value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __get_issuer();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_issuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __get_issuer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_issuer() const;
 
-  constexpr void __set_issuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+  constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_keyUsage();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_keyUsage();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_keyUsage() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_keyUsage() const;
 
-  constexpr void __set_keyUsage(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_keyUsage(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_policy();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_policy();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_policy() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_policy() const;
 
-  constexpr void __set_policy(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_policy(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __get_privateKeyValid();
+  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_privateKeyValid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __get_privateKeyValid() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_privateKeyValid() const;
 
-  constexpr void __set_privateKeyValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+  constexpr void __cordl_internal_set_privateKeyValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_serialNumber();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_serialNumber();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_serialNumber() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_serialNumber() const;
 
-  constexpr void __set_serialNumber(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __get_subject();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_subject();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __get_subject() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_subject() const;
 
-  constexpr void __set_subject(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+  constexpr void __cordl_internal_set_subject(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_subjectKeyIdentifier();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_subjectKeyIdentifier();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_subjectKeyIdentifier() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_subjectKeyIdentifier() const;
 
-  constexpr void __set_subjectKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_subjectKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __get_subjectPublicKey();
+  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __cordl_internal_get_subjectPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __get_subjectPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __cordl_internal_get_subjectPublicKey() const;
 
-  constexpr void __set_subjectPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
+  constexpr void __cordl_internal_set_subjectPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_subjectPublicKeyAlgID();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_subjectPublicKeyAlgID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_subjectPublicKeyAlgID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_subjectPublicKeyAlgID() const;
 
-  constexpr void __set_subjectPublicKeyAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_subjectPublicKeyAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* New_ctor();
 

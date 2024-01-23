@@ -39,29 +39,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4087))
 // CS Name: ::AchievementsModelSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __AchievementsModelSO____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::AchievementsModelSO* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::AchievementsModelSO> __4__this;
 
   /// @brief Field achievementId, offset 0x18, size 0x8
-  __declspec(property(get = __get_achievementId, put = __set_achievementId))::StringW achievementId;
+  __declspec(property(get = __cordl_internal_get_achievementId, put = __cordl_internal_set_achievementId))::StringW achievementId;
 
-  constexpr ::GlobalNamespace::AchievementsModelSO*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementsModelSO*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::AchievementsModelSO* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::AchievementsModelSO> value);
 
-  constexpr ::StringW& __get_achievementId();
+  constexpr ::StringW& __cordl_internal_get_achievementId();
 
-  constexpr ::StringW const& __get_achievementId() const;
+  constexpr ::StringW const& __cordl_internal_get_achievementId() const;
 
-  constexpr void __set_achievementId(::StringW value);
+  constexpr void __cordl_internal_set_achievementId(::StringW value);
 
   static inline ::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0* New_ctor();
 
@@ -86,7 +86,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementsModelSO* _____4__this;
+  ::UnityW<::GlobalNamespace::AchievementsModelSO> _____4__this;
 
   /// @brief Field achievementId, offset: 0x18, size: 0x8, def value: None
   ::StringW ___achievementId;
@@ -105,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__AchievementsModelSO____c__DisplayCla
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4088))
 // CS Name: ::AchievementsModelSO*
 class CORDL_TYPE AchievementsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -114,31 +114,33 @@ public:
   using __c__DisplayClass4_0 = ::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0;
 
   /// @brief Field _platformAchievementsHandler, offset 0x18, size 0x8
-  __declspec(property(get = __get__platformAchievementsHandler, put = __set__platformAchievementsHandler))::GlobalNamespace::IPlatformAchievementsHandler* _platformAchievementsHandler;
+  __declspec(property(get = __cordl_internal_get__platformAchievementsHandler,
+                      put = __cordl_internal_set__platformAchievementsHandler))::GlobalNamespace::IPlatformAchievementsHandler* _platformAchievementsHandler;
 
   /// @brief Field _unlockedAchievementIds, offset 0x20, size 0x8
-  __declspec(property(get = __get__unlockedAchievementIds, put = __set__unlockedAchievementIds))::System::Collections::Generic::HashSet_1<::StringW>* _unlockedAchievementIds;
+  __declspec(property(get = __cordl_internal_get__unlockedAchievementIds,
+                      put = __cordl_internal_set__unlockedAchievementIds))::System::Collections::Generic::HashSet_1<::StringW>* _unlockedAchievementIds;
 
   /// @brief Field _initialized, offset 0x28, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  constexpr ::GlobalNamespace::IPlatformAchievementsHandler*& __get__platformAchievementsHandler();
+  constexpr ::GlobalNamespace::IPlatformAchievementsHandler*& __cordl_internal_get__platformAchievementsHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformAchievementsHandler*> const& __get__platformAchievementsHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformAchievementsHandler*> const& __cordl_internal_get__platformAchievementsHandler() const;
 
-  constexpr void __set__platformAchievementsHandler(::GlobalNamespace::IPlatformAchievementsHandler* value);
+  constexpr void __cordl_internal_set__platformAchievementsHandler(::GlobalNamespace::IPlatformAchievementsHandler* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__unlockedAchievementIds();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__unlockedAchievementIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__unlockedAchievementIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__unlockedAchievementIds() const;
 
-  constexpr void __set__unlockedAchievementIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__unlockedAchievementIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
   /// @brief Method Initialize, addr 0x2231cc4, size 0x174, virtual false, abstract: false, final false
   inline void Initialize();

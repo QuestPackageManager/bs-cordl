@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeNameGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5546))
 // CS Name: ::MissionNodeNameGenerator*
 class CORDL_TYPE MissionNodeNameGenerator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _missionNodesManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__missionNodesManager, put = __set__missionNodesManager))::GlobalNamespace::MissionNodesManager* _missionNodesManager;
+  __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager))::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
-  constexpr ::GlobalNamespace::MissionNodesManager*& __get__missionNodesManager();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodesManager*> const& __get__missionNodesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager> const& __cordl_internal_get__missionNodesManager() const;
 
-  constexpr void __set__missionNodesManager(::GlobalNamespace::MissionNodesManager* value);
+  constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
   static inline ::GlobalNamespace::MissionNodeNameGenerator* New_ctor();
 
@@ -52,7 +52,7 @@ protected:
 
 public:
   /// @brief Field _missionNodesManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodesManager* ____missionNodesManager;
+  ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

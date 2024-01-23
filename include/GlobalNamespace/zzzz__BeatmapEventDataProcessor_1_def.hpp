@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14741))
 // CS Name: ::BeatmapEventDataProcessor`1<T>*
 class CORDL_TYPE BeatmapEventDataProcessor_1 : public ::System::Object {

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2Point);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1375))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1375))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1399))
 // CS Name: ::Org.BouncyCastle.Math.EC.Custom.Sec::SecP160R2Point*
 class CORDL_TYPE SecP160R2Point : public ::Org::BouncyCastle::Math::EC::AbstractFpPoint {

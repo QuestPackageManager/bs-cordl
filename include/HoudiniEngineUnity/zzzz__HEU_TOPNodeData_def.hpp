@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNodeData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9771))
 // CS Name: ::HEU_TOPNodeData::PDGState
 struct CORDL_TYPE __HEU_TOPNodeData__PDGState {
@@ -106,7 +106,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState, value_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9771)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9771))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9772))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNodeData*
 class CORDL_TYPE HEU_TOPNodeData : public ::System::Object {
@@ -115,85 +115,85 @@ public:
   using PDGState = ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState;
 
   /// @brief Field _nodeID, offset 0x10, size 0x4
-  __declspec(property(get = __get__nodeID, put = __set__nodeID)) int32_t _nodeID;
+  __declspec(property(get = __cordl_internal_get__nodeID, put = __cordl_internal_set__nodeID)) int32_t _nodeID;
 
   /// @brief Field _nodeName, offset 0x18, size 0x8
-  __declspec(property(get = __get__nodeName, put = __set__nodeName))::StringW _nodeName;
+  __declspec(property(get = __cordl_internal_get__nodeName, put = __cordl_internal_set__nodeName))::StringW _nodeName;
 
   /// @brief Field _parentName, offset 0x20, size 0x8
-  __declspec(property(get = __get__parentName, put = __set__parentName))::StringW _parentName;
+  __declspec(property(get = __cordl_internal_get__parentName, put = __cordl_internal_set__parentName))::StringW _parentName;
 
   /// @brief Field _workResultParentGO, offset 0x28, size 0x8
-  __declspec(property(get = __get__workResultParentGO, put = __set__workResultParentGO))::UnityEngine::GameObject* _workResultParentGO;
+  __declspec(property(get = __cordl_internal_get__workResultParentGO, put = __cordl_internal_set__workResultParentGO))::UnityW<::UnityEngine::GameObject> _workResultParentGO;
 
   /// @brief Field _workResults, offset 0x30, size 0x8
-  __declspec(property(get = __get__workResults, put = __set__workResults))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults;
+  __declspec(property(get = __cordl_internal_get__workResults, put = __cordl_internal_set__workResults))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults;
 
   /// @brief Field _tags, offset 0x38, size 0x8
-  __declspec(property(get = __get__tags, put = __set__tags))::HoudiniEngineUnity::TOPNodeTags* _tags;
+  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags))::HoudiniEngineUnity::TOPNodeTags* _tags;
 
   /// @brief Field _showResults, offset 0x40, size 0x1
-  __declspec(property(get = __get__showResults, put = __set__showResults)) bool _showResults;
+  __declspec(property(get = __cordl_internal_get__showResults, put = __cordl_internal_set__showResults)) bool _showResults;
 
   /// @brief Field _pdgState, offset 0x44, size 0x4
-  __declspec(property(get = __get__pdgState, put = __set__pdgState))::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState _pdgState;
+  __declspec(property(get = __cordl_internal_get__pdgState, put = __cordl_internal_set__pdgState))::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState _pdgState;
 
   /// @brief Field _workItemTally, offset 0x48, size 0x8
-  __declspec(property(get = __get__workItemTally, put = __set__workItemTally))::HoudiniEngineUnity::HEU_WorkItemTally* _workItemTally;
+  __declspec(property(get = __cordl_internal_get__workItemTally, put = __cordl_internal_set__workItemTally))::HoudiniEngineUnity::HEU_WorkItemTally* _workItemTally;
 
-  constexpr int32_t& __get__nodeID();
+  constexpr int32_t& __cordl_internal_get__nodeID();
 
-  constexpr int32_t const& __get__nodeID() const;
+  constexpr int32_t const& __cordl_internal_get__nodeID() const;
 
-  constexpr void __set__nodeID(int32_t value);
+  constexpr void __cordl_internal_set__nodeID(int32_t value);
 
-  constexpr ::StringW& __get__nodeName();
+  constexpr ::StringW& __cordl_internal_get__nodeName();
 
-  constexpr ::StringW const& __get__nodeName() const;
+  constexpr ::StringW const& __cordl_internal_get__nodeName() const;
 
-  constexpr void __set__nodeName(::StringW value);
+  constexpr void __cordl_internal_set__nodeName(::StringW value);
 
-  constexpr ::StringW& __get__parentName();
+  constexpr ::StringW& __cordl_internal_get__parentName();
 
-  constexpr ::StringW const& __get__parentName() const;
+  constexpr ::StringW const& __cordl_internal_get__parentName() const;
 
-  constexpr void __set__parentName(::StringW value);
+  constexpr void __cordl_internal_set__parentName(::StringW value);
 
-  constexpr ::UnityEngine::GameObject*& __get__workResultParentGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__workResultParentGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__workResultParentGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__workResultParentGO() const;
 
-  constexpr void __set__workResultParentGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__workResultParentGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*& __get__workResults();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*& __cordl_internal_get__workResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*> const& __get__workResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*> const& __cordl_internal_get__workResults() const;
 
-  constexpr void __set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value);
+  constexpr void __cordl_internal_set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value);
 
-  constexpr ::HoudiniEngineUnity::TOPNodeTags*& __get__tags();
+  constexpr ::HoudiniEngineUnity::TOPNodeTags*& __cordl_internal_get__tags();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& __get__tags() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& __cordl_internal_get__tags() const;
 
-  constexpr void __set__tags(::HoudiniEngineUnity::TOPNodeTags* value);
+  constexpr void __cordl_internal_set__tags(::HoudiniEngineUnity::TOPNodeTags* value);
 
-  constexpr bool& __get__showResults();
+  constexpr bool& __cordl_internal_get__showResults();
 
-  constexpr bool const& __get__showResults() const;
+  constexpr bool const& __cordl_internal_get__showResults() const;
 
-  constexpr void __set__showResults(bool value);
+  constexpr void __cordl_internal_set__showResults(bool value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState& __get__pdgState();
+  constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState& __cordl_internal_get__pdgState();
 
-  constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState const& __get__pdgState() const;
+  constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState const& __cordl_internal_get__pdgState() const;
 
-  constexpr void __set__pdgState(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState value);
+  constexpr void __cordl_internal_set__pdgState(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState value);
 
-  constexpr ::HoudiniEngineUnity::HEU_WorkItemTally*& __get__workItemTally();
+  constexpr ::HoudiniEngineUnity::HEU_WorkItemTally*& __cordl_internal_get__workItemTally();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_WorkItemTally*> const& __get__workItemTally() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_WorkItemTally*> const& __cordl_internal_get__workItemTally() const;
 
-  constexpr void __set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value);
+  constexpr void __cordl_internal_set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value);
 
   /// @brief Method Reset, addr 0x219c938, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
@@ -236,7 +236,7 @@ public:
   ::StringW ____parentName;
 
   /// @brief Field _workResultParentGO, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____workResultParentGO;
+  ::UnityW<::UnityEngine::GameObject> ____workResultParentGO;
 
   /// @brief Field _workResults, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* ____workResults;

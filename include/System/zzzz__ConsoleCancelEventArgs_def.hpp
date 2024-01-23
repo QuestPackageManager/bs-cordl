@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::System::ConsoleCancelEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(2522))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(2522))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2517))
 // CS Name: ::System::ConsoleCancelEventArgs*
 class CORDL_TYPE ConsoleCancelEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field _type, offset 0x10, size 0x4
-  __declspec(property(get = __get__type, put = __set__type))::System::ConsoleSpecialKey _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::ConsoleSpecialKey _type;
 
   /// @brief Field <Cancel>k__BackingField, offset 0x14, size 0x1
-  __declspec(property(get = __get__Cancel_k__BackingField, put = __set__Cancel_k__BackingField)) bool _Cancel_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Cancel_k__BackingField, put = __cordl_internal_set__Cancel_k__BackingField)) bool _Cancel_k__BackingField;
 
   __declspec(property(get = get_Cancel)) bool Cancel;
 
-  constexpr ::System::ConsoleSpecialKey& __get__type();
+  constexpr ::System::ConsoleSpecialKey& __cordl_internal_get__type();
 
-  constexpr ::System::ConsoleSpecialKey const& __get__type() const;
+  constexpr ::System::ConsoleSpecialKey const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::System::ConsoleSpecialKey value);
+  constexpr void __cordl_internal_set__type(::System::ConsoleSpecialKey value);
 
-  constexpr bool& __get__Cancel_k__BackingField();
+  constexpr bool& __cordl_internal_get__Cancel_k__BackingField();
 
-  constexpr bool const& __get__Cancel_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Cancel_k__BackingField() const;
 
-  constexpr void __set__Cancel_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Cancel_k__BackingField(bool value);
 
   static inline ::System::ConsoleCancelEventArgs* New_ctor(::System::ConsoleSpecialKey type);
 

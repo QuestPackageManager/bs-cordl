@@ -21,38 +21,39 @@ MARK_REF_PTR_T(::GlobalNamespace::ResetLocalLeaderboardOnKey);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4667))
 // CS Name: ::ResetLocalLeaderboardOnKey*
 class CORDL_TYPE ResetLocalLeaderboardOnKey : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _localLeaderboardsModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__localLeaderboardsModel, put = __set__localLeaderboardsModel))::GlobalNamespace::LocalLeaderboardsModel* _localLeaderboardsModel;
+  __declspec(property(get = __cordl_internal_get__localLeaderboardsModel,
+                      put = __cordl_internal_set__localLeaderboardsModel))::UnityW<::GlobalNamespace::LocalLeaderboardsModel> _localLeaderboardsModel;
 
   /// @brief Field _keyCode, offset 0x20, size 0x4
-  __declspec(property(get = __get__keyCode, put = __set__keyCode))::UnityEngine::KeyCode _keyCode;
+  __declspec(property(get = __cordl_internal_get__keyCode, put = __cordl_internal_set__keyCode))::UnityEngine::KeyCode _keyCode;
 
   /// @brief Field _saveData, offset 0x28, size 0x8
-  __declspec(property(get = __get__saveData, put = __set__saveData))::GlobalNamespace::ISaveData* _saveData;
+  __declspec(property(get = __cordl_internal_get__saveData, put = __cordl_internal_set__saveData))::GlobalNamespace::ISaveData* _saveData;
 
-  constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __get__localLeaderboardsModel();
+  constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardsModel>& __cordl_internal_get__localLeaderboardsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalLeaderboardsModel*> const& __get__localLeaderboardsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardsModel> const& __cordl_internal_get__localLeaderboardsModel() const;
 
-  constexpr void __set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value);
+  constexpr void __cordl_internal_set__localLeaderboardsModel(::UnityW<::GlobalNamespace::LocalLeaderboardsModel> value);
 
-  constexpr ::UnityEngine::KeyCode& __get__keyCode();
+  constexpr ::UnityEngine::KeyCode& __cordl_internal_get__keyCode();
 
-  constexpr ::UnityEngine::KeyCode const& __get__keyCode() const;
+  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get__keyCode() const;
 
-  constexpr void __set__keyCode(::UnityEngine::KeyCode value);
+  constexpr void __cordl_internal_set__keyCode(::UnityEngine::KeyCode value);
 
-  constexpr ::GlobalNamespace::ISaveData*& __get__saveData();
+  constexpr ::GlobalNamespace::ISaveData*& __cordl_internal_get__saveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __get__saveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __cordl_internal_get__saveData() const;
 
-  constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
+  constexpr void __cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value);
 
   /// @brief Method Update, addr 0x2373554, size 0x40, virtual false, abstract: false, final false
   inline void Update();
@@ -77,7 +78,7 @@ protected:
 
 public:
   /// @brief Field _localLeaderboardsModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LocalLeaderboardsModel* ____localLeaderboardsModel;
+  ::UnityW<::GlobalNamespace::LocalLeaderboardsModel> ____localLeaderboardsModel;
 
   /// @brief Field _keyCode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;

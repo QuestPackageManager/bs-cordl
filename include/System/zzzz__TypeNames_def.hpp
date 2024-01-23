@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::__TypeNames__ATypeName);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2629))
 // CS Name: ::TypeNames::ATypeName*
 class CORDL_TYPE __TypeNames__ATypeName : public ::System::Object {
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::System::__TypeNames__ATypeName, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2630))
 // CS Name: ::System::TypeNames*
 class CORDL_TYPE TypeNames : public ::System::Object {

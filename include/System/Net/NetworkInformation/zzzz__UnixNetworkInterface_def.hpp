@@ -30,60 +30,60 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterface);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9252)), TypeDefinitionIndex(TypeDefinitionIndex(9258))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9252)), TypeDefinitionIndex(TypeDefinitionIndex(9258))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9292))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterface*
 class CORDL_TYPE UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface {
 public:
   // Declarations
   /// @brief Field ipproperties, offset 0x10, size 0x8
-  __declspec(property(get = __get_ipproperties, put = __set_ipproperties))::System::Net::NetworkInformation::IPInterfaceProperties* ipproperties;
+  __declspec(property(get = __cordl_internal_get_ipproperties, put = __cordl_internal_set_ipproperties))::System::Net::NetworkInformation::IPInterfaceProperties* ipproperties;
 
   /// @brief Field name, offset 0x18, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field addresses, offset 0x20, size 0x8
-  __declspec(property(get = __get_addresses, put = __set_addresses))::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
+  __declspec(property(get = __cordl_internal_get_addresses, put = __cordl_internal_set_addresses))::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
 
   /// @brief Field macAddress, offset 0x28, size 0x8
-  __declspec(property(get = __get_macAddress, put = __set_macAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress;
+  __declspec(property(get = __cordl_internal_get_macAddress, put = __cordl_internal_set_macAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress;
 
   /// @brief Field type, offset 0x30, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::System::Net::NetworkInformation::NetworkInterfaceType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Net::NetworkInformation::NetworkInterfaceType type;
 
   __declspec(property(get = get_Name))::StringW Name;
 
   __declspec(property(get = get_NetworkInterfaceType))::System::Net::NetworkInformation::NetworkInterfaceType NetworkInterfaceType;
 
-  constexpr ::System::Net::NetworkInformation::IPInterfaceProperties*& __get_ipproperties();
+  constexpr ::System::Net::NetworkInformation::IPInterfaceProperties*& __cordl_internal_get_ipproperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkInformation::IPInterfaceProperties*> const& __get_ipproperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkInformation::IPInterfaceProperties*> const& __cordl_internal_get_ipproperties() const;
 
-  constexpr void __set_ipproperties(::System::Net::NetworkInformation::IPInterfaceProperties* value);
+  constexpr void __cordl_internal_set_ipproperties(::System::Net::NetworkInformation::IPInterfaceProperties* value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& __get_addresses();
+  constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& __cordl_internal_get_addresses();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::IPAddress*>*> const& __get_addresses() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::IPAddress*>*> const& __cordl_internal_get_addresses() const;
 
-  constexpr void __set_addresses(::System::Collections::Generic::List_1<::System::Net::IPAddress*>* value);
+  constexpr void __cordl_internal_set_addresses(::System::Collections::Generic::List_1<::System::Net::IPAddress*>* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_macAddress();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_macAddress();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_macAddress() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_macAddress() const;
 
-  constexpr void __set_macAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_macAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Net::NetworkInformation::NetworkInterfaceType& __get_type();
+  constexpr ::System::Net::NetworkInformation::NetworkInterfaceType& __cordl_internal_get_type();
 
-  constexpr ::System::Net::NetworkInformation::NetworkInterfaceType const& __get_type() const;
+  constexpr ::System::Net::NetworkInformation::NetworkInterfaceType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Net::NetworkInformation::NetworkInterfaceType value);
+  constexpr void __cordl_internal_set_type(::System::Net::NetworkInformation::NetworkInterfaceType value);
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterface* New_ctor(::StringW name);
 

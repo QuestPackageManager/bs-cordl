@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseMoveEvent);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4646 }), TypeDefinitionIndex(TypeDefinitionIndex(7215))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4646 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7218))
 // CS Name: ::UnityEngine.UIElements::MouseMoveEvent*
 class CORDL_TYPE MouseMoveEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseMoveEvent*> {

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::TMPro::TMP_Compatibility);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12335))
 // CS Name: ::TMP_Compatibility::AnchorPositions
 struct CORDL_TYPE __TMP_Compatibility__AnchorPositions {
@@ -112,7 +112,7 @@ static_assert(offsetof(::TMPro::__TMP_Compatibility__AnchorPositions, value__) =
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12336))
 // CS Name: ::TMPro::TMP_Compatibility*
 class CORDL_TYPE TMP_Compatibility : public ::System::Object {

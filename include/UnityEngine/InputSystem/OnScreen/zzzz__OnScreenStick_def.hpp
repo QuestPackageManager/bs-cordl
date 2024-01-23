@@ -33,23 +33,23 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6388))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6388)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6389))
 // CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenStick*
 class CORDL_TYPE OnScreenStick : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
   // Declarations
   /// @brief Field m_MovementRange, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_MovementRange, put = __set_m_MovementRange)) float_t m_MovementRange;
+  __declspec(property(get = __cordl_internal_get_m_MovementRange, put = __cordl_internal_set_m_MovementRange)) float_t m_MovementRange;
 
   /// @brief Field m_ControlPath, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_ControlPath, put = __set_m_ControlPath))::StringW m_ControlPath;
+  __declspec(property(get = __cordl_internal_get_m_ControlPath, put = __cordl_internal_set_m_ControlPath))::StringW m_ControlPath;
 
   /// @brief Field m_StartPos, offset 0x40, size 0xc
-  __declspec(property(get = __get_m_StartPos, put = __set_m_StartPos))::UnityEngine::Vector3 m_StartPos;
+  __declspec(property(get = __cordl_internal_get_m_StartPos, put = __cordl_internal_set_m_StartPos))::UnityEngine::Vector3 m_StartPos;
 
   /// @brief Field m_PointerDownPos, offset 0x4c, size 0x8
-  __declspec(property(get = __get_m_PointerDownPos, put = __set_m_PointerDownPos))::UnityEngine::Vector2 m_PointerDownPos;
+  __declspec(property(get = __cordl_internal_get_m_PointerDownPos, put = __cordl_internal_set_m_PointerDownPos))::UnityEngine::Vector2 m_PointerDownPos;
 
   __declspec(property(get = get_movementRange, put = set_movementRange)) float_t movementRange;
 
@@ -79,29 +79,29 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
   constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
 
-  constexpr float_t& __get_m_MovementRange();
+  constexpr float_t& __cordl_internal_get_m_MovementRange();
 
-  constexpr float_t const& __get_m_MovementRange() const;
+  constexpr float_t const& __cordl_internal_get_m_MovementRange() const;
 
-  constexpr void __set_m_MovementRange(float_t value);
+  constexpr void __cordl_internal_set_m_MovementRange(float_t value);
 
-  constexpr ::StringW& __get_m_ControlPath();
+  constexpr ::StringW& __cordl_internal_get_m_ControlPath();
 
-  constexpr ::StringW const& __get_m_ControlPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
 
-  constexpr void __set_m_ControlPath(::StringW value);
+  constexpr void __cordl_internal_set_m_ControlPath(::StringW value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_StartPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_StartPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_StartPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_StartPos() const;
 
-  constexpr void __set_m_StartPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_StartPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_PointerDownPos();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_PointerDownPos();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_PointerDownPos() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_PointerDownPos() const;
 
-  constexpr void __set_m_PointerDownPos(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_PointerDownPos(::UnityEngine::Vector2 value);
 
   /// @brief Method OnPointerDown, addr 0x2ad99f8, size 0x124, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);

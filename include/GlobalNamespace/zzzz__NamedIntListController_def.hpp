@@ -32,31 +32,31 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedIntListController__TextValuePair);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16152))
 // CS Name: ::NamedIntListController::TextValuePair*
 class CORDL_TYPE __NamedIntListController__TextValuePair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field localizationKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_localizationKey, put = __set_localizationKey))::StringW localizationKey;
+  __declspec(property(get = __cordl_internal_get_localizationKey, put = __cordl_internal_set_localizationKey))::StringW localizationKey;
 
   /// @brief Field value, offset 0x18, size 0x4
-  __declspec(property(get = __get_value, put = __set_value)) int32_t value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
   __declspec(property(get = get_localizedText))::StringW localizedText;
 
-  constexpr ::StringW& __get_localizationKey();
+  constexpr ::StringW& __cordl_internal_get_localizationKey();
 
-  constexpr ::StringW const& __get_localizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get_localizationKey() const;
 
-  constexpr void __set_localizationKey(::StringW value);
+  constexpr void __cordl_internal_set_localizationKey(::StringW value);
 
-  constexpr int32_t& __get_value();
+  constexpr int32_t& __cordl_internal_get_value();
 
-  constexpr int32_t const& __get_value() const;
+  constexpr int32_t const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(int32_t value);
+  constexpr void __cordl_internal_set_value(int32_t value);
 
   /// @brief Method get_localizedText, addr 0x23e5724, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
@@ -100,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__NamedIntListController__TextValuePai
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16149))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16153))
 // CS Name: ::NamedIntListController*
 class CORDL_TYPE NamedIntListController : public ::GlobalNamespace::ListSettingsController {
@@ -109,15 +109,15 @@ public:
   using TextValuePair = ::GlobalNamespace::__NamedIntListController__TextValuePair;
 
   /// @brief Field _textValuePairs, offset 0x28, size 0x8
-  __declspec(property(
-      get = __get__textValuePairs,
-      put = __set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> _textValuePairs;
+  __declspec(property(get = __cordl_internal_get__textValuePairs,
+                      put = __cordl_internal_set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*,
+                                                                           ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> _textValuePairs;
 
   /// @brief Field _value, offset 0x30, size 0x4
-  __declspec(property(get = __get__value, put = __set__value)) int32_t _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int32_t _value;
 
   /// @brief Field valueChangedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_valueChangedEvent, put = __set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
+  __declspec(property(get = __cordl_internal_get_valueChangedEvent, put = __cordl_internal_set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
 
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
@@ -125,23 +125,25 @@ public:
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
-  constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>& __get__textValuePairs();
+  constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>& __cordl_internal_get__textValuePairs();
 
-  constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> const& __get__textValuePairs() const;
+  constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> const&
+  __cordl_internal_get__textValuePairs() const;
 
-  constexpr void __set__textValuePairs(::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> value);
+  constexpr void
+  __cordl_internal_set__textValuePairs(::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> value);
 
-  constexpr int32_t& __get__value();
+  constexpr int32_t& __cordl_internal_get__value();
 
-  constexpr int32_t const& __get__value() const;
+  constexpr int32_t const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(int32_t value);
+  constexpr void __cordl_internal_set__value(int32_t value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_valueChangedEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_valueChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_valueChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_valueChangedEvent() const;
 
-  constexpr void __set_valueChangedEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Method add_valueChangedEvent, addr 0x23e5484, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);

@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::System::Threading::__CancellationCallbackInfo__WithSyncContext)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2691))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2691))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2690))
 // CS Name: ::CancellationCallbackInfo::WithSyncContext*
 class CORDL_TYPE __CancellationCallbackInfo__WithSyncContext : public ::System::Threading::CancellationCallbackInfo {
 public:
   // Declarations
   /// @brief Field TargetSyncContext, offset 0x30, size 0x8
-  __declspec(property(get = __get_TargetSyncContext, put = __set_TargetSyncContext))::System::Threading::SynchronizationContext* TargetSyncContext;
+  __declspec(property(get = __cordl_internal_get_TargetSyncContext, put = __cordl_internal_set_TargetSyncContext))::System::Threading::SynchronizationContext* TargetSyncContext;
 
-  constexpr ::System::Threading::SynchronizationContext*& __get_TargetSyncContext();
+  constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get_TargetSyncContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __get_TargetSyncContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __cordl_internal_get_TargetSyncContext() const;
 
-  constexpr void __set_TargetSyncContext(::System::Threading::SynchronizationContext* value);
+  constexpr void __cordl_internal_set_TargetSyncContext(::System::Threading::SynchronizationContext* value);
 
   static inline ::System::Threading::__CancellationCallbackInfo__WithSyncContext* New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
                                                                                            ::System::Threading::ExecutionContext* targetExecutionContext,

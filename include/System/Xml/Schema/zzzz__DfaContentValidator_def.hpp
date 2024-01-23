@@ -22,29 +22,30 @@ MARK_REF_PTR_T(::System::Xml::Schema::DfaContentValidator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11610))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11610))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11612))
 // CS Name: ::System.Xml.Schema::DfaContentValidator*
 class CORDL_TYPE DfaContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
   // Declarations
   /// @brief Field transitionTable, offset 0x18, size 0x8
-  __declspec(property(get = __get_transitionTable, put = __set_transitionTable))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable;
+  __declspec(property(get = __cordl_internal_get_transitionTable,
+                      put = __cordl_internal_set_transitionTable))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable;
 
   /// @brief Field symbols, offset 0x20, size 0x8
-  __declspec(property(get = __get_symbols, put = __set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
+  __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
 
-  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& __get_transitionTable();
+  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& __cordl_internal_get_transitionTable();
 
-  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& __get_transitionTable() const;
+  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& __cordl_internal_get_transitionTable() const;
 
-  constexpr void __set_transitionTable(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
+  constexpr void __cordl_internal_set_transitionTable(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
 
-  constexpr ::System::Xml::Schema::SymbolsDictionary*& __get_symbols();
+  constexpr ::System::Xml::Schema::SymbolsDictionary*& __cordl_internal_get_symbols();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __get_symbols() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __cordl_internal_get_symbols() const;
 
-  constexpr void __set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
+  constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
   static inline ::System::Xml::Schema::DfaContentValidator* New_ctor(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable,
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen,

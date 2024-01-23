@@ -59,47 +59,47 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15306))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15306))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15303))
 // CS Name: ::ScreenCaptureAfterDelay::InitData*
 class CORDL_TYPE __ScreenCaptureAfterDelay__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field screenshotType, offset 0x10, size 0x4
-  __declspec(property(get = __get_screenshotType, put = __set_screenshotType))::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType;
+  __declspec(property(get = __cordl_internal_get_screenshotType, put = __cordl_internal_set_screenshotType))::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType;
 
   /// @brief Field screenCaptureTime, offset 0x14, size 0x4
-  __declspec(property(get = __get_screenCaptureTime, put = __set_screenCaptureTime)) float_t screenCaptureTime;
+  __declspec(property(get = __cordl_internal_get_screenCaptureTime, put = __cordl_internal_set_screenCaptureTime)) float_t screenCaptureTime;
 
   /// @brief Field pixelsWidth, offset 0x18, size 0x4
-  __declspec(property(get = __get_pixelsWidth, put = __set_pixelsWidth)) int32_t pixelsWidth;
+  __declspec(property(get = __cordl_internal_get_pixelsWidth, put = __cordl_internal_set_pixelsWidth)) int32_t pixelsWidth;
 
   /// @brief Field pixelsHeight, offset 0x1c, size 0x4
-  __declspec(property(get = __get_pixelsHeight, put = __set_pixelsHeight)) int32_t pixelsHeight;
+  __declspec(property(get = __cordl_internal_get_pixelsHeight, put = __cordl_internal_set_pixelsHeight)) int32_t pixelsHeight;
 
-  constexpr ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType& __get_screenshotType();
+  constexpr ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType& __cordl_internal_get_screenshotType();
 
-  constexpr ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType const& __get_screenshotType() const;
+  constexpr ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType const& __cordl_internal_get_screenshotType() const;
 
-  constexpr void __set_screenshotType(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType value);
+  constexpr void __cordl_internal_set_screenshotType(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType value);
 
-  constexpr float_t& __get_screenCaptureTime();
+  constexpr float_t& __cordl_internal_get_screenCaptureTime();
 
-  constexpr float_t const& __get_screenCaptureTime() const;
+  constexpr float_t const& __cordl_internal_get_screenCaptureTime() const;
 
-  constexpr void __set_screenCaptureTime(float_t value);
+  constexpr void __cordl_internal_set_screenCaptureTime(float_t value);
 
-  constexpr int32_t& __get_pixelsWidth();
+  constexpr int32_t& __cordl_internal_get_pixelsWidth();
 
-  constexpr int32_t const& __get_pixelsWidth() const;
+  constexpr int32_t const& __cordl_internal_get_pixelsWidth() const;
 
-  constexpr void __set_pixelsWidth(int32_t value);
+  constexpr void __cordl_internal_set_pixelsWidth(int32_t value);
 
-  constexpr int32_t& __get_pixelsHeight();
+  constexpr int32_t& __cordl_internal_get_pixelsHeight();
 
-  constexpr int32_t const& __get_pixelsHeight() const;
+  constexpr int32_t const& __cordl_internal_get_pixelsHeight() const;
 
-  constexpr void __set_pixelsHeight(int32_t value);
+  constexpr void __cordl_internal_set_pixelsHeight(int32_t value);
 
   static inline ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* New_ctor(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth,
                                                                                  int32_t pixelsHeight);
@@ -151,20 +151,20 @@ static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData, _
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15304))
 // CS Name: ::ScreenCaptureAfterDelay::<Start>d__6*
 class CORDL_TYPE __ScreenCaptureAfterDelay___Start_d__6 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::ScreenCaptureAfterDelay* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -188,23 +188,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::ScreenCaptureAfterDelay*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScreenCaptureAfterDelay*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::ScreenCaptureAfterDelay* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> value);
 
   static inline ::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6* New_ctor(int32_t __1__state);
 
@@ -247,7 +247,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ScreenCaptureAfterDelay* _____4__this;
+  ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -265,7 +265,7 @@ static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15305))
 // CS Name: ::ScreenCaptureAfterDelay*
 class CORDL_TYPE ScreenCaptureAfterDelay : public ::UnityEngine::MonoBehaviour {
@@ -276,49 +276,49 @@ public:
   using InitData = ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData;
 
   /// @brief Field _mainEffectController, offset 0x18, size 0x8
-  __declspec(property(get = __get__mainEffectController, put = __set__mainEffectController))::GlobalNamespace::MainEffectController* _mainEffectController;
+  __declspec(property(get = __cordl_internal_get__mainEffectController, put = __cordl_internal_set__mainEffectController))::UnityW<::GlobalNamespace::MainEffectController> _mainEffectController;
 
   /// @brief Field _screenCaptureCache, offset 0x20, size 0x8
-  __declspec(property(get = __get__screenCaptureCache, put = __set__screenCaptureCache))::GlobalNamespace::ScreenCaptureCache* _screenCaptureCache;
+  __declspec(property(get = __cordl_internal_get__screenCaptureCache, put = __cordl_internal_set__screenCaptureCache))::GlobalNamespace::ScreenCaptureCache* _screenCaptureCache;
 
   /// @brief Field _initData, offset 0x28, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* _initData;
 
   /// @brief Field _captureTexture, offset 0x30, size 0x8
-  __declspec(property(get = __get__captureTexture, put = __set__captureTexture))::UnityEngine::Texture2D* _captureTexture;
+  __declspec(property(get = __cordl_internal_get__captureTexture, put = __cordl_internal_set__captureTexture))::UnityW<::UnityEngine::Texture2D> _captureTexture;
 
   /// @brief Field _captureRenderTexture, offset 0x38, size 0x8
-  __declspec(property(get = __get__captureRenderTexture, put = __set__captureRenderTexture))::UnityEngine::RenderTexture* _captureRenderTexture;
+  __declspec(property(get = __cordl_internal_get__captureRenderTexture, put = __cordl_internal_set__captureRenderTexture))::UnityW<::UnityEngine::RenderTexture> _captureRenderTexture;
 
-  constexpr ::GlobalNamespace::MainEffectController*& __get__mainEffectController();
+  constexpr ::UnityW<::GlobalNamespace::MainEffectController>& __cordl_internal_get__mainEffectController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectController*> const& __get__mainEffectController() const;
+  constexpr ::UnityW<::GlobalNamespace::MainEffectController> const& __cordl_internal_get__mainEffectController() const;
 
-  constexpr void __set__mainEffectController(::GlobalNamespace::MainEffectController* value);
+  constexpr void __cordl_internal_set__mainEffectController(::UnityW<::GlobalNamespace::MainEffectController> value);
 
-  constexpr ::GlobalNamespace::ScreenCaptureCache*& __get__screenCaptureCache();
+  constexpr ::GlobalNamespace::ScreenCaptureCache*& __cordl_internal_get__screenCaptureCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScreenCaptureCache*> const& __get__screenCaptureCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScreenCaptureCache*> const& __cordl_internal_get__screenCaptureCache() const;
 
-  constexpr void __set__screenCaptureCache(::GlobalNamespace::ScreenCaptureCache* value);
+  constexpr void __cordl_internal_set__screenCaptureCache(::GlobalNamespace::ScreenCaptureCache* value);
 
-  constexpr ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScreenCaptureAfterDelay__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScreenCaptureAfterDelay__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* value);
 
-  constexpr ::UnityEngine::Texture2D*& __get__captureTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__captureTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__captureTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__captureTexture() const;
 
-  constexpr void __set__captureTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__captureTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__captureRenderTexture();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__captureRenderTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__captureRenderTexture() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__captureRenderTexture() const;
 
-  constexpr void __set__captureRenderTexture(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__captureRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
   /// @brief Method Start, addr 0x280b4e8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -349,7 +349,7 @@ protected:
 
 public:
   /// @brief Field _mainEffectController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MainEffectController* ____mainEffectController;
+  ::UnityW<::GlobalNamespace::MainEffectController> ____mainEffectController;
 
   /// @brief Field _screenCaptureCache, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ScreenCaptureCache* ____screenCaptureCache;
@@ -358,10 +358,10 @@ public:
   ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* ____initData;
 
   /// @brief Field _captureTexture, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____captureTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____captureTexture;
 
   /// @brief Field _captureRenderTexture, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____captureRenderTexture;
+  ::UnityW<::UnityEngine::RenderTexture> ____captureRenderTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

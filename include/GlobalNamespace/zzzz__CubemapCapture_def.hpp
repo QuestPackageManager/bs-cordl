@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CubemapCapture);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5829))
 // CS Name: ::CubemapCapture::ImageType
 struct CORDL_TYPE __CubemapCapture__ImageType {
@@ -101,93 +101,93 @@ static_assert(offsetof(::GlobalNamespace::__CubemapCapture__ImageType, value__) 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(10072)), TypeDefinitionIndex(TypeDefinitionIndex(5829)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5830)) CS Name: ::CubemapCapture*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5829)), TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(10072)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5830)) CS Name: ::CubemapCapture*
 class CORDL_TYPE CubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using ImageType = ::GlobalNamespace::__CubemapCapture__ImageType;
 
   /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _triggerKey, offset 0x20, size 0x4
-  __declspec(property(get = __get__triggerKey, put = __set__triggerKey))::UnityEngine::InputSystem::Key _triggerKey;
+  __declspec(property(get = __cordl_internal_get__triggerKey, put = __cordl_internal_set__triggerKey))::UnityEngine::InputSystem::Key _triggerKey;
 
   /// @brief Field _cubemapSize, offset 0x24, size 0x4
-  __declspec(property(get = __get__cubemapSize, put = __set__cubemapSize)) int32_t _cubemapSize;
+  __declspec(property(get = __cordl_internal_get__cubemapSize, put = __cordl_internal_set__cubemapSize)) int32_t _cubemapSize;
 
   /// @brief Field _saveDirectoryAbsolutePath, offset 0x28, size 0x8
-  __declspec(property(get = __get__saveDirectoryAbsolutePath, put = __set__saveDirectoryAbsolutePath))::StringW _saveDirectoryAbsolutePath;
+  __declspec(property(get = __cordl_internal_get__saveDirectoryAbsolutePath, put = __cordl_internal_set__saveDirectoryAbsolutePath))::StringW _saveDirectoryAbsolutePath;
 
   /// @brief Field _imageType, offset 0x30, size 0x4
-  __declspec(property(get = __get__imageType, put = __set__imageType))::GlobalNamespace::__CubemapCapture__ImageType _imageType;
+  __declspec(property(get = __cordl_internal_get__imageType, put = __cordl_internal_set__imageType))::GlobalNamespace::__CubemapCapture__ImageType _imageType;
 
   /// @brief Field _jpegCompression, offset 0x34, size 0x4
-  __declspec(property(get = __get__jpegCompression, put = __set__jpegCompression)) int32_t _jpegCompression;
+  __declspec(property(get = __cordl_internal_get__jpegCompression, put = __cordl_internal_set__jpegCompression)) int32_t _jpegCompression;
 
   /// @brief Field _exrFlags, offset 0x38, size 0x4
-  __declspec(property(get = __get__exrFlags, put = __set__exrFlags))::UnityEngine::__Texture2D__EXRFlags _exrFlags;
+  __declspec(property(get = __cordl_internal_get__exrFlags, put = __cordl_internal_set__exrFlags))::UnityEngine::__Texture2D__EXRFlags _exrFlags;
 
   /// @brief Field _faces, offset 0x40, size 0x8
-  __declspec(property(get = __get__faces, put = __set__faces))::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> _faces;
+  __declspec(property(get = __cordl_internal_get__faces, put = __cordl_internal_set__faces))::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> _faces;
 
   /// @brief Field _faceAngles, offset 0x48, size 0x8
-  __declspec(property(get = __get__faceAngles, put = __set__faceAngles))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _faceAngles;
+  __declspec(property(get = __cordl_internal_get__faceAngles, put = __cordl_internal_set__faceAngles))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _faceAngles;
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::UnityEngine::InputSystem::Key& __get__triggerKey();
+  constexpr ::UnityEngine::InputSystem::Key& __cordl_internal_get__triggerKey();
 
-  constexpr ::UnityEngine::InputSystem::Key const& __get__triggerKey() const;
+  constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get__triggerKey() const;
 
-  constexpr void __set__triggerKey(::UnityEngine::InputSystem::Key value);
+  constexpr void __cordl_internal_set__triggerKey(::UnityEngine::InputSystem::Key value);
 
-  constexpr int32_t& __get__cubemapSize();
+  constexpr int32_t& __cordl_internal_get__cubemapSize();
 
-  constexpr int32_t const& __get__cubemapSize() const;
+  constexpr int32_t const& __cordl_internal_get__cubemapSize() const;
 
-  constexpr void __set__cubemapSize(int32_t value);
+  constexpr void __cordl_internal_set__cubemapSize(int32_t value);
 
-  constexpr ::StringW& __get__saveDirectoryAbsolutePath();
+  constexpr ::StringW& __cordl_internal_get__saveDirectoryAbsolutePath();
 
-  constexpr ::StringW const& __get__saveDirectoryAbsolutePath() const;
+  constexpr ::StringW const& __cordl_internal_get__saveDirectoryAbsolutePath() const;
 
-  constexpr void __set__saveDirectoryAbsolutePath(::StringW value);
+  constexpr void __cordl_internal_set__saveDirectoryAbsolutePath(::StringW value);
 
-  constexpr ::GlobalNamespace::__CubemapCapture__ImageType& __get__imageType();
+  constexpr ::GlobalNamespace::__CubemapCapture__ImageType& __cordl_internal_get__imageType();
 
-  constexpr ::GlobalNamespace::__CubemapCapture__ImageType const& __get__imageType() const;
+  constexpr ::GlobalNamespace::__CubemapCapture__ImageType const& __cordl_internal_get__imageType() const;
 
-  constexpr void __set__imageType(::GlobalNamespace::__CubemapCapture__ImageType value);
+  constexpr void __cordl_internal_set__imageType(::GlobalNamespace::__CubemapCapture__ImageType value);
 
-  constexpr int32_t& __get__jpegCompression();
+  constexpr int32_t& __cordl_internal_get__jpegCompression();
 
-  constexpr int32_t const& __get__jpegCompression() const;
+  constexpr int32_t const& __cordl_internal_get__jpegCompression() const;
 
-  constexpr void __set__jpegCompression(int32_t value);
+  constexpr void __cordl_internal_set__jpegCompression(int32_t value);
 
-  constexpr ::UnityEngine::__Texture2D__EXRFlags& __get__exrFlags();
+  constexpr ::UnityEngine::__Texture2D__EXRFlags& __cordl_internal_get__exrFlags();
 
-  constexpr ::UnityEngine::__Texture2D__EXRFlags const& __get__exrFlags() const;
+  constexpr ::UnityEngine::__Texture2D__EXRFlags const& __cordl_internal_get__exrFlags() const;
 
-  constexpr void __set__exrFlags(::UnityEngine::__Texture2D__EXRFlags value);
+  constexpr void __cordl_internal_set__exrFlags(::UnityEngine::__Texture2D__EXRFlags value);
 
-  constexpr ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*>& __get__faces();
+  constexpr ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*>& __cordl_internal_get__faces();
 
-  constexpr ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> const& __get__faces() const;
+  constexpr ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> const& __cordl_internal_get__faces() const;
 
-  constexpr void __set__faces(::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> value);
+  constexpr void __cordl_internal_set__faces(::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get__faceAngles();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__faceAngles();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get__faceAngles() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__faceAngles() const;
 
-  constexpr void __set__faceAngles(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set__faceAngles(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
   /// @brief Method Update, addr 0x22ec768, size 0x80, virtual false, abstract: false, final false
   inline void Update();
@@ -224,7 +224,7 @@ protected:
 
 public:
   /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _triggerKey, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ____triggerKey;

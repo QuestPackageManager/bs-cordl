@@ -90,38 +90,38 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11950))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11950))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11956))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonSerializerInternalWriter*
 class CORDL_TYPE JsonSerializerInternalWriter : public ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase {
 public:
   // Declarations
   /// @brief Field _rootType, offset 0x38, size 0x8
-  __declspec(property(get = __get__rootType, put = __set__rootType))::System::Type* _rootType;
+  __declspec(property(get = __cordl_internal_get__rootType, put = __cordl_internal_set__rootType))::System::Type* _rootType;
 
   /// @brief Field _rootLevel, offset 0x40, size 0x4
-  __declspec(property(get = __get__rootLevel, put = __set__rootLevel)) int32_t _rootLevel;
+  __declspec(property(get = __cordl_internal_get__rootLevel, put = __cordl_internal_set__rootLevel)) int32_t _rootLevel;
 
   /// @brief Field _serializeStack, offset 0x48, size 0x8
-  __declspec(property(get = __get__serializeStack, put = __set__serializeStack))::System::Collections::Generic::List_1<::System::Object*>* _serializeStack;
+  __declspec(property(get = __cordl_internal_get__serializeStack, put = __cordl_internal_set__serializeStack))::System::Collections::Generic::List_1<::System::Object*>* _serializeStack;
 
-  constexpr ::System::Type*& __get__rootType();
+  constexpr ::System::Type*& __cordl_internal_get__rootType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__rootType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__rootType() const;
 
-  constexpr void __set__rootType(::System::Type* value);
+  constexpr void __cordl_internal_set__rootType(::System::Type* value);
 
-  constexpr int32_t& __get__rootLevel();
+  constexpr int32_t& __cordl_internal_get__rootLevel();
 
-  constexpr int32_t const& __get__rootLevel() const;
+  constexpr int32_t const& __cordl_internal_get__rootLevel() const;
 
-  constexpr void __set__rootLevel(int32_t value);
+  constexpr void __cordl_internal_set__rootLevel(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get__serializeStack();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__serializeStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get__serializeStack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__serializeStack() const;
 
-  constexpr void __set__serializeStack(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__serializeStack(::System::Collections::Generic::List_1<::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 

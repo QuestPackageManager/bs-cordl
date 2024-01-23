@@ -16,65 +16,65 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationVersion);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13416))
 // CS Name: ::Oculus.Platform.Models::ApplicationVersion*
 class CORDL_TYPE ApplicationVersion : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CurrentCode, offset 0x10, size 0x4
-  __declspec(property(get = __get_CurrentCode, put = __set_CurrentCode)) int32_t CurrentCode;
+  __declspec(property(get = __cordl_internal_get_CurrentCode, put = __cordl_internal_set_CurrentCode)) int32_t CurrentCode;
 
   /// @brief Field CurrentName, offset 0x18, size 0x8
-  __declspec(property(get = __get_CurrentName, put = __set_CurrentName))::StringW CurrentName;
+  __declspec(property(get = __cordl_internal_get_CurrentName, put = __cordl_internal_set_CurrentName))::StringW CurrentName;
 
   /// @brief Field LatestCode, offset 0x20, size 0x4
-  __declspec(property(get = __get_LatestCode, put = __set_LatestCode)) int32_t LatestCode;
+  __declspec(property(get = __cordl_internal_get_LatestCode, put = __cordl_internal_set_LatestCode)) int32_t LatestCode;
 
   /// @brief Field LatestName, offset 0x28, size 0x8
-  __declspec(property(get = __get_LatestName, put = __set_LatestName))::StringW LatestName;
+  __declspec(property(get = __cordl_internal_get_LatestName, put = __cordl_internal_set_LatestName))::StringW LatestName;
 
   /// @brief Field ReleaseDate, offset 0x30, size 0x8
-  __declspec(property(get = __get_ReleaseDate, put = __set_ReleaseDate)) int64_t ReleaseDate;
+  __declspec(property(get = __cordl_internal_get_ReleaseDate, put = __cordl_internal_set_ReleaseDate)) int64_t ReleaseDate;
 
   /// @brief Field Size, offset 0x38, size 0x8
-  __declspec(property(get = __get_Size, put = __set_Size))::StringW Size;
+  __declspec(property(get = __cordl_internal_get_Size, put = __cordl_internal_set_Size))::StringW Size;
 
-  constexpr int32_t& __get_CurrentCode();
+  constexpr int32_t& __cordl_internal_get_CurrentCode();
 
-  constexpr int32_t const& __get_CurrentCode() const;
+  constexpr int32_t const& __cordl_internal_get_CurrentCode() const;
 
-  constexpr void __set_CurrentCode(int32_t value);
+  constexpr void __cordl_internal_set_CurrentCode(int32_t value);
 
-  constexpr ::StringW& __get_CurrentName();
+  constexpr ::StringW& __cordl_internal_get_CurrentName();
 
-  constexpr ::StringW const& __get_CurrentName() const;
+  constexpr ::StringW const& __cordl_internal_get_CurrentName() const;
 
-  constexpr void __set_CurrentName(::StringW value);
+  constexpr void __cordl_internal_set_CurrentName(::StringW value);
 
-  constexpr int32_t& __get_LatestCode();
+  constexpr int32_t& __cordl_internal_get_LatestCode();
 
-  constexpr int32_t const& __get_LatestCode() const;
+  constexpr int32_t const& __cordl_internal_get_LatestCode() const;
 
-  constexpr void __set_LatestCode(int32_t value);
+  constexpr void __cordl_internal_set_LatestCode(int32_t value);
 
-  constexpr ::StringW& __get_LatestName();
+  constexpr ::StringW& __cordl_internal_get_LatestName();
 
-  constexpr ::StringW const& __get_LatestName() const;
+  constexpr ::StringW const& __cordl_internal_get_LatestName() const;
 
-  constexpr void __set_LatestName(::StringW value);
+  constexpr void __cordl_internal_set_LatestName(::StringW value);
 
-  constexpr int64_t& __get_ReleaseDate();
+  constexpr int64_t& __cordl_internal_get_ReleaseDate();
 
-  constexpr int64_t const& __get_ReleaseDate() const;
+  constexpr int64_t const& __cordl_internal_get_ReleaseDate() const;
 
-  constexpr void __set_ReleaseDate(int64_t value);
+  constexpr void __cordl_internal_set_ReleaseDate(int64_t value);
 
-  constexpr ::StringW& __get_Size();
+  constexpr ::StringW& __cordl_internal_get_Size();
 
-  constexpr ::StringW const& __get_Size() const;
+  constexpr ::StringW const& __cordl_internal_get_Size() const;
 
-  constexpr void __set_Size(::StringW value);
+  constexpr void __cordl_internal_set_Size(::StringW value);
 
   static inline ::Oculus::Platform::Models::ApplicationVersion* New_ctor(void* o);
 

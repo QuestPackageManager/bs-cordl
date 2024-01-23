@@ -26,42 +26,43 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ContextualMenuPopulateEvent);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4640 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4640 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7227))
 // CS Name: ::UnityEngine.UIElements::ContextualMenuPopulateEvent*
 class CORDL_TYPE ContextualMenuPopulateEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*> {
 public:
   // Declarations
   /// @brief Field <menu>k__BackingField, offset 0xb0, size 0x8
-  __declspec(property(get = __get__menu_k__BackingField, put = __set__menu_k__BackingField))::UnityEngine::UIElements::DropdownMenu* _menu_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__menu_k__BackingField, put = __cordl_internal_set__menu_k__BackingField))::UnityEngine::UIElements::DropdownMenu* _menu_k__BackingField;
 
   /// @brief Field <triggerEvent>k__BackingField, offset 0xb8, size 0x8
-  __declspec(property(get = __get__triggerEvent_k__BackingField, put = __set__triggerEvent_k__BackingField))::UnityEngine::UIElements::EventBase* _triggerEvent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__triggerEvent_k__BackingField,
+                      put = __cordl_internal_set__triggerEvent_k__BackingField))::UnityEngine::UIElements::EventBase* _triggerEvent_k__BackingField;
 
   /// @brief Field m_ContextualMenuManager, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_ContextualMenuManager, put = __set_m_ContextualMenuManager))::UnityEngine::UIElements::ContextualMenuManager* m_ContextualMenuManager;
+  __declspec(property(get = __cordl_internal_get_m_ContextualMenuManager, put = __cordl_internal_set_m_ContextualMenuManager))::UnityEngine::UIElements::ContextualMenuManager* m_ContextualMenuManager;
 
   __declspec(property(get = get_menu, put = set_menu))::UnityEngine::UIElements::DropdownMenu* menu;
 
   __declspec(property(get = get_triggerEvent, put = set_triggerEvent))::UnityEngine::UIElements::EventBase* triggerEvent;
 
-  constexpr ::UnityEngine::UIElements::DropdownMenu*& __get__menu_k__BackingField();
+  constexpr ::UnityEngine::UIElements::DropdownMenu*& __cordl_internal_get__menu_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownMenu*> const& __get__menu_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownMenu*> const& __cordl_internal_get__menu_k__BackingField() const;
 
-  constexpr void __set__menu_k__BackingField(::UnityEngine::UIElements::DropdownMenu* value);
+  constexpr void __cordl_internal_set__menu_k__BackingField(::UnityEngine::UIElements::DropdownMenu* value);
 
-  constexpr ::UnityEngine::UIElements::EventBase*& __get__triggerEvent_k__BackingField();
+  constexpr ::UnityEngine::UIElements::EventBase*& __cordl_internal_get__triggerEvent_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventBase*> const& __get__triggerEvent_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventBase*> const& __cordl_internal_get__triggerEvent_k__BackingField() const;
 
-  constexpr void __set__triggerEvent_k__BackingField(::UnityEngine::UIElements::EventBase* value);
+  constexpr void __cordl_internal_set__triggerEvent_k__BackingField(::UnityEngine::UIElements::EventBase* value);
 
-  constexpr ::UnityEngine::UIElements::ContextualMenuManager*& __get_m_ContextualMenuManager();
+  constexpr ::UnityEngine::UIElements::ContextualMenuManager*& __cordl_internal_get_m_ContextualMenuManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ContextualMenuManager*> const& __get_m_ContextualMenuManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ContextualMenuManager*> const& __cordl_internal_get_m_ContextualMenuManager() const;
 
-  constexpr void __set_m_ContextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
+  constexpr void __cordl_internal_set_m_ContextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
 
   /// @brief Method get_menu, addr 0x2e51d18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenu* get_menu();

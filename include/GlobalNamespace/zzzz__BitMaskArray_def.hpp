@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::GlobalNamespace::BitMaskArray);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14991))
 // CS Name: ::BitMaskArray*
 class CORDL_TYPE BitMaskArray : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <bitCount>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__bitCount_k__BackingField, put = __set__bitCount_k__BackingField)) int32_t _bitCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bitCount_k__BackingField, put = __cordl_internal_set__bitCount_k__BackingField)) int32_t _bitCount_k__BackingField;
 
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<uint64_t, ::Array<uint64_t>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<uint64_t, ::Array<uint64_t>*> _data;
 
   __declspec(property(get = get_bitCount)) int32_t bitCount;
 
@@ -64,17 +64,17 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr int32_t& __get__bitCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__bitCount_k__BackingField();
 
-  constexpr int32_t const& __get__bitCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
 
-  constexpr void __set__bitCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__bitCount_k__BackingField(int32_t value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get__data();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get__data() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
   /// @brief Method get_bitCount, addr 0x12a173c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();

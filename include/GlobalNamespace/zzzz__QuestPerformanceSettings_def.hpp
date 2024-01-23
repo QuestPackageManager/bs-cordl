@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::QuestPerformanceSettings);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4444))
 // CS Name: ::QuestPerformanceSettings::ProcessorPerformanceLevel
 struct CORDL_TYPE __QuestPerformanceSettings__ProcessorPerformanceLevel {
@@ -86,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__QuestPerformanceSettings__ProcessorP
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4444))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4444))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4445))
 // CS Name: ::QuestPerformanceSettings*
 class CORDL_TYPE QuestPerformanceSettings : public ::System::Object {
@@ -95,13 +95,13 @@ public:
   using ProcessorPerformanceLevel = ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel;
 
   /// @brief Field gpuLevel, offset 0x10, size 0x4
-  __declspec(property(get = __get_gpuLevel, put = __set_gpuLevel))::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel gpuLevel;
+  __declspec(property(get = __cordl_internal_get_gpuLevel, put = __cordl_internal_set_gpuLevel))::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel gpuLevel;
 
   /// @brief Field cpuLevel, offset 0x14, size 0x4
-  __declspec(property(get = __get_cpuLevel, put = __set_cpuLevel))::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel cpuLevel;
+  __declspec(property(get = __cordl_internal_get_cpuLevel, put = __cordl_internal_set_cpuLevel))::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel cpuLevel;
 
   /// @brief Field foveatedRenderingLevel, offset 0x18, size 0x4
-  __declspec(property(get = __get_foveatedRenderingLevel, put = __set_foveatedRenderingLevel)) int32_t foveatedRenderingLevel;
+  __declspec(property(get = __cordl_internal_get_foveatedRenderingLevel, put = __cordl_internal_set_foveatedRenderingLevel)) int32_t foveatedRenderingLevel;
 
   __declspec(property(get = get_gpuPerformanceLevel))::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel gpuPerformanceLevel;
 
@@ -109,23 +109,23 @@ public:
 
   __declspec(property(get = get_useFoveatedRenderingDuringGameplay)) bool useFoveatedRenderingDuringGameplay;
 
-  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& __get_gpuLevel();
+  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& __cordl_internal_get_gpuLevel();
 
-  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& __get_gpuLevel() const;
+  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& __cordl_internal_get_gpuLevel() const;
 
-  constexpr void __set_gpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value);
+  constexpr void __cordl_internal_set_gpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value);
 
-  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& __get_cpuLevel();
+  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& __cordl_internal_get_cpuLevel();
 
-  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& __get_cpuLevel() const;
+  constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& __cordl_internal_get_cpuLevel() const;
 
-  constexpr void __set_cpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value);
+  constexpr void __cordl_internal_set_cpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value);
 
-  constexpr int32_t& __get_foveatedRenderingLevel();
+  constexpr int32_t& __cordl_internal_get_foveatedRenderingLevel();
 
-  constexpr int32_t const& __get_foveatedRenderingLevel() const;
+  constexpr int32_t const& __cordl_internal_get_foveatedRenderingLevel() const;
 
-  constexpr void __set_foveatedRenderingLevel(int32_t value);
+  constexpr void __cordl_internal_set_foveatedRenderingLevel(int32_t value);
 
   /// @brief Method get_gpuPerformanceLevel, addr 0x23503e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel get_gpuPerformanceLevel();

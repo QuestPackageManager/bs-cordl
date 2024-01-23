@@ -74,7 +74,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__IndexFilter___GetValues_d__24);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4315))
 // CS Name: ::IndexFilter::IndexFilterRandomType
 struct CORDL_TYPE __IndexFilter__IndexFilterRandomType {
@@ -128,7 +128,7 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter__IndexFilterRandomType, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4316))
 // CS Name: ::IndexFilter::IndexFilterLimitAlsoAffectType
 struct CORDL_TYPE __IndexFilter__IndexFilterLimitAlsoAffectType {
@@ -182,34 +182,34 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAff
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5323 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2508))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4317)) CS Name: ::IndexFilter::<GetEnumerator>d__23*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5323
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4317)) CS Name: ::IndexFilter::<GetEnumerator>d__23*
 class CORDL_TYPE __IndexFilter___GetEnumerator_d__23 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x14, size 0xc
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::ValueTuple_3<int32_t, int32_t, int32_t> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::ValueTuple_3<int32_t, int32_t, int32_t> __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::IndexFilter* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::IndexFilter* __4__this;
 
   /// @brief Field <limitedOrderIndex>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__limitedOrderIndex_5__2, put = __set__limitedOrderIndex_5__2)) int32_t _limitedOrderIndex_5__2;
+  __declspec(property(get = __cordl_internal_get__limitedOrderIndex_5__2, put = __cordl_internal_set__limitedOrderIndex_5__2)) int32_t _limitedOrderIndex_5__2;
 
   /// @brief Field <>7__wrap2, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* __7__wrap2;
 
   /// @brief Field <elementId>5__4, offset 0x38, size 0x4
-  __declspec(property(get = __get__elementId_5__4, put = __set__elementId_5__4)) int32_t _elementId_5__4;
+  __declspec(property(get = __cordl_internal_get__elementId_5__4, put = __cordl_internal_set__elementId_5__4)) int32_t _elementId_5__4;
 
   /// @brief Field <index>5__5, offset 0x3c, size 0x4
-  __declspec(property(get = __get__index_5__5, put = __set__index_5__5)) int32_t _index_5__5;
+  __declspec(property(get = __cordl_internal_get__index_5__5, put = __cordl_internal_set__index_5__5)) int32_t _index_5__5;
 
   /// @brief Field <localChunkIndex>5__6, offset 0x40, size 0x4
-  __declspec(property(get = __get__localChunkIndex_5__6, put = __set__localChunkIndex_5__6)) int32_t _localChunkIndex_5__6;
+  __declspec(property(get = __cordl_internal_get__localChunkIndex_5__6, put = __cordl_internal_set__localChunkIndex_5__6)) int32_t _localChunkIndex_5__6;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current))::System::ValueTuple_3<
       int32_t, int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___Current;
@@ -235,53 +235,53 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::ValueTuple_3<int32_t, int32_t, int32_t>& __get___2__current();
+  constexpr ::System::ValueTuple_3<int32_t, int32_t, int32_t>& __cordl_internal_get___2__current();
 
-  constexpr ::System::ValueTuple_3<int32_t, int32_t, int32_t> const& __get___2__current() const;
+  constexpr ::System::ValueTuple_3<int32_t, int32_t, int32_t> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::ValueTuple_3<int32_t, int32_t, int32_t> value);
+  constexpr void __cordl_internal_set___2__current(::System::ValueTuple_3<int32_t, int32_t, int32_t> value);
 
-  constexpr ::GlobalNamespace::IndexFilter*& __get___4__this();
+  constexpr ::GlobalNamespace::IndexFilter*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::IndexFilter* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::IndexFilter* value);
 
-  constexpr int32_t& __get__limitedOrderIndex_5__2();
+  constexpr int32_t& __cordl_internal_get__limitedOrderIndex_5__2();
 
-  constexpr int32_t const& __get__limitedOrderIndex_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__limitedOrderIndex_5__2() const;
 
-  constexpr void __set__limitedOrderIndex_5__2(int32_t value);
+  constexpr void __cordl_internal_set__limitedOrderIndex_5__2(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*& __get___7__wrap2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*& __cordl_internal_get___7__wrap2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*> const& __get___7__wrap2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*> const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr void __set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
+  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
-  constexpr int32_t& __get__elementId_5__4();
+  constexpr int32_t& __cordl_internal_get__elementId_5__4();
 
-  constexpr int32_t const& __get__elementId_5__4() const;
+  constexpr int32_t const& __cordl_internal_get__elementId_5__4() const;
 
-  constexpr void __set__elementId_5__4(int32_t value);
+  constexpr void __cordl_internal_set__elementId_5__4(int32_t value);
 
-  constexpr int32_t& __get__index_5__5();
+  constexpr int32_t& __cordl_internal_get__index_5__5();
 
-  constexpr int32_t const& __get__index_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__index_5__5() const;
 
-  constexpr void __set__index_5__5(int32_t value);
+  constexpr void __cordl_internal_set__index_5__5(int32_t value);
 
-  constexpr int32_t& __get__localChunkIndex_5__6();
+  constexpr int32_t& __cordl_internal_get__localChunkIndex_5__6();
 
-  constexpr int32_t const& __get__localChunkIndex_5__6() const;
+  constexpr int32_t const& __cordl_internal_get__localChunkIndex_5__6() const;
 
-  constexpr void __set__localChunkIndex_5__6(int32_t value);
+  constexpr void __cordl_internal_set__localChunkIndex_5__6(int32_t value);
 
   static inline ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23* New_ctor(int32_t __1__state);
 
@@ -371,29 +371,29 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, _
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4318))
 // CS Name: ::IndexFilter::<GetValues>d__24*
 class CORDL_TYPE __IndexFilter___GetValues_d__24 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x14, size 0x4
-  __declspec(property(get = __get___2__current, put = __set___2__current)) int32_t __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) int32_t __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x18, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::IndexFilter* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::IndexFilter* __4__this;
 
   /// @brief Field <value>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__value_5__2, put = __set__value_5__2)) int32_t _value_5__2;
+  __declspec(property(get = __cordl_internal_get__value_5__2, put = __cordl_internal_set__value_5__2)) int32_t _value_5__2;
 
   /// @brief Field <i>5__3, offset 0x2c, size 0x4
-  __declspec(property(get = __get__i_5__3, put = __set__i_5__3)) int32_t _i_5__3;
+  __declspec(property(get = __cordl_internal_get__i_5__3, put = __cordl_internal_set__i_5__3)) int32_t _i_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Int32__get_Current)) int32_t System_Collections_Generic_IEnumerator_System_Int32__Current;
 
@@ -429,41 +429,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr int32_t& __get___2__current();
+  constexpr int32_t& __cordl_internal_get___2__current();
 
-  constexpr int32_t const& __get___2__current() const;
+  constexpr int32_t const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(int32_t value);
+  constexpr void __cordl_internal_set___2__current(int32_t value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::GlobalNamespace::IndexFilter*& __get___4__this();
+  constexpr ::GlobalNamespace::IndexFilter*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::IndexFilter* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::IndexFilter* value);
 
-  constexpr int32_t& __get__value_5__2();
+  constexpr int32_t& __cordl_internal_get__value_5__2();
 
-  constexpr int32_t const& __get__value_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__value_5__2() const;
 
-  constexpr void __set__value_5__2(int32_t value);
+  constexpr void __cordl_internal_set__value_5__2(int32_t value);
 
-  constexpr int32_t& __get__i_5__3();
+  constexpr int32_t& __cordl_internal_get__i_5__3();
 
-  constexpr int32_t const& __get__i_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__3() const;
 
-  constexpr void __set__i_5__3(int32_t value);
+  constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
   static inline ::GlobalNamespace::__IndexFilter___GetValues_d__24* New_ctor(int32_t __1__state);
 
@@ -545,7 +545,7 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, ____i
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(4316))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4319))
 // CS Name: ::IndexFilter*
 class CORDL_TYPE IndexFilter : public ::System::Object {
@@ -560,31 +560,32 @@ public:
   using IndexFilterRandomType = ::GlobalNamespace::__IndexFilter__IndexFilterRandomType;
 
   /// @brief Field _random, offset 0x10, size 0x4
-  __declspec(property(get = __get__random, put = __set__random))::GlobalNamespace::__IndexFilter__IndexFilterRandomType _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random))::GlobalNamespace::__IndexFilter__IndexFilterRandomType _random;
 
   /// @brief Field _seed, offset 0x14, size 0x4
-  __declspec(property(get = __get__seed, put = __set__seed)) int32_t _seed;
+  __declspec(property(get = __cordl_internal_get__seed, put = __cordl_internal_set__seed)) int32_t _seed;
 
   /// @brief Field _groupSize, offset 0x18, size 0x4
-  __declspec(property(get = __get__groupSize, put = __set__groupSize)) int32_t _groupSize;
+  __declspec(property(get = __cordl_internal_get__groupSize, put = __cordl_internal_set__groupSize)) int32_t _groupSize;
 
   /// @brief Field _chunkSize, offset 0x1c, size 0x4
-  __declspec(property(get = __get__chunkSize, put = __set__chunkSize)) int32_t _chunkSize;
+  __declspec(property(get = __cordl_internal_get__chunkSize, put = __cordl_internal_set__chunkSize)) int32_t _chunkSize;
 
   /// @brief Field _visibleCount, offset 0x20, size 0x4
-  __declspec(property(get = __get__visibleCount, put = __set__visibleCount)) int32_t _visibleCount;
+  __declspec(property(get = __cordl_internal_get__visibleCount, put = __cordl_internal_set__visibleCount)) int32_t _visibleCount;
 
   /// @brief Field _limitAlsoAffectType, offset 0x24, size 0x4
-  __declspec(property(get = __get__limitAlsoAffectType, put = __set__limitAlsoAffectType))::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType _limitAlsoAffectType;
+  __declspec(property(get = __cordl_internal_get__limitAlsoAffectType,
+                      put = __cordl_internal_set__limitAlsoAffectType))::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType _limitAlsoAffectType;
 
   /// @brief Field _start, offset 0x28, size 0x4
-  __declspec(property(get = __get__start, put = __set__start)) int32_t _start;
+  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start)) int32_t _start;
 
   /// @brief Field _step, offset 0x2c, size 0x4
-  __declspec(property(get = __get__step, put = __set__step)) int32_t _step;
+  __declspec(property(get = __cordl_internal_get__step, put = __cordl_internal_set__step)) int32_t _step;
 
   /// @brief Field _count, offset 0x30, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -616,59 +617,59 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType& __get__random();
+  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType& __cordl_internal_get__random();
 
-  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType const& __get__random() const;
+  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType const& __cordl_internal_get__random() const;
 
-  constexpr void __set__random(::GlobalNamespace::__IndexFilter__IndexFilterRandomType value);
+  constexpr void __cordl_internal_set__random(::GlobalNamespace::__IndexFilter__IndexFilterRandomType value);
 
-  constexpr int32_t& __get__seed();
+  constexpr int32_t& __cordl_internal_get__seed();
 
-  constexpr int32_t const& __get__seed() const;
+  constexpr int32_t const& __cordl_internal_get__seed() const;
 
-  constexpr void __set__seed(int32_t value);
+  constexpr void __cordl_internal_set__seed(int32_t value);
 
-  constexpr int32_t& __get__groupSize();
+  constexpr int32_t& __cordl_internal_get__groupSize();
 
-  constexpr int32_t const& __get__groupSize() const;
+  constexpr int32_t const& __cordl_internal_get__groupSize() const;
 
-  constexpr void __set__groupSize(int32_t value);
+  constexpr void __cordl_internal_set__groupSize(int32_t value);
 
-  constexpr int32_t& __get__chunkSize();
+  constexpr int32_t& __cordl_internal_get__chunkSize();
 
-  constexpr int32_t const& __get__chunkSize() const;
+  constexpr int32_t const& __cordl_internal_get__chunkSize() const;
 
-  constexpr void __set__chunkSize(int32_t value);
+  constexpr void __cordl_internal_set__chunkSize(int32_t value);
 
-  constexpr int32_t& __get__visibleCount();
+  constexpr int32_t& __cordl_internal_get__visibleCount();
 
-  constexpr int32_t const& __get__visibleCount() const;
+  constexpr int32_t const& __cordl_internal_get__visibleCount() const;
 
-  constexpr void __set__visibleCount(int32_t value);
+  constexpr void __cordl_internal_set__visibleCount(int32_t value);
 
-  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType& __get__limitAlsoAffectType();
+  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType& __cordl_internal_get__limitAlsoAffectType();
 
-  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType const& __get__limitAlsoAffectType() const;
+  constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType const& __cordl_internal_get__limitAlsoAffectType() const;
 
-  constexpr void __set__limitAlsoAffectType(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType value);
+  constexpr void __cordl_internal_set__limitAlsoAffectType(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType value);
 
-  constexpr int32_t& __get__start();
+  constexpr int32_t& __cordl_internal_get__start();
 
-  constexpr int32_t const& __get__start() const;
+  constexpr int32_t const& __cordl_internal_get__start() const;
 
-  constexpr void __set__start(int32_t value);
+  constexpr void __cordl_internal_set__start(int32_t value);
 
-  constexpr int32_t& __get__step();
+  constexpr int32_t& __cordl_internal_get__step();
 
-  constexpr int32_t const& __get__step() const;
+  constexpr int32_t const& __cordl_internal_get__step() const;
 
-  constexpr void __set__step(int32_t value);
+  constexpr void __cordl_internal_set__step(int32_t value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
   /// @brief Method get_Count, addr 0x233aef0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();

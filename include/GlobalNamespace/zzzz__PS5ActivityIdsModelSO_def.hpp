@@ -21,41 +21,43 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5ActivityIdsModelSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4561))
 // CS Name: ::PS5ActivityIdsModelSO*
 class CORDL_TYPE PS5ActivityIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _progressActivities, offset 0x18, size 0x8
-  __declspec(property(get = __get__progressActivities,
-                      put = __set__progressActivities))::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> _progressActivities;
+  __declspec(
+      property(get = __cordl_internal_get__progressActivities,
+               put = __cordl_internal_set__progressActivities))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> _progressActivities;
 
   /// @brief Field _competetiveActivities, offset 0x20, size 0x8
-  __declspec(property(get = __get__competetiveActivities,
-                      put = __set__competetiveActivities))::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> _competetiveActivities;
+  __declspec(property(get = __cordl_internal_get__competetiveActivities,
+                      put = __cordl_internal_set__competetiveActivities))::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>,
+                                                                                  ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> _competetiveActivities;
 
-  __declspec(property(get = get_progressActivities))::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> progressActivities;
+  __declspec(property(get = get_progressActivities))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> progressActivities;
 
-  __declspec(property(get = get_competetiveActivities))::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> competetiveActivities;
+  __declspec(property(get = get_competetiveActivities))::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> competetiveActivities;
 
-  constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*>& __get__progressActivities();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*>& __cordl_internal_get__progressActivities();
 
-  constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> const& __get__progressActivities() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> const& __cordl_internal_get__progressActivities() const;
 
-  constexpr void __set__progressActivities(::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> value);
+  constexpr void __cordl_internal_set__progressActivities(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*>& __get__competetiveActivities();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*>& __cordl_internal_get__competetiveActivities();
 
-  constexpr ::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> const& __get__competetiveActivities() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> const& __cordl_internal_get__competetiveActivities() const;
 
-  constexpr void __set__competetiveActivities(::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> value);
+  constexpr void __cordl_internal_set__competetiveActivities(::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> value);
 
   /// @brief Method get_progressActivities, addr 0x2368298, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> get_progressActivities();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> get_progressActivities();
 
   /// @brief Method get_competetiveActivities, addr 0x23682a0, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> get_competetiveActivities();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> get_competetiveActivities();
 
   static inline ::GlobalNamespace::PS5ActivityIdsModelSO* New_ctor();
 
@@ -77,10 +79,10 @@ protected:
 
 public:
   /// @brief Field _progressActivities, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> ____progressActivities;
+  ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> ____progressActivities;
 
   /// @brief Field _competetiveActivities, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> ____competetiveActivities;
+  ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> ____competetiveActivities;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OutputStreamPacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(578))
 // CS Name: ::Org.BouncyCastle.Bcpg::OutputStreamPacket*
 class CORDL_TYPE OutputStreamPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bcpgOut, offset 0x10, size 0x8
-  __declspec(property(get = __get_bcpgOut, put = __set_bcpgOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut;
+  __declspec(property(get = __cordl_internal_get_bcpgOut, put = __cordl_internal_set_bcpgOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut;
 
-  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __get_bcpgOut();
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __cordl_internal_get_bcpgOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __get_bcpgOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __cordl_internal_get_bcpgOut() const;
 
-  constexpr void __set_bcpgOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
+  constexpr void __cordl_internal_set_bcpgOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OutputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 

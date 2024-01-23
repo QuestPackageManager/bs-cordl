@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::NoSuchStoreException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1844))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1844))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1845))
 // CS Name: ::Org.BouncyCastle.X509.Store::NoSuchStoreException*
 class CORDL_TYPE NoSuchStoreException : public ::Org::BouncyCastle::X509::Store::X509StoreException {

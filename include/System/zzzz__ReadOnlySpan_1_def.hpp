@@ -30,7 +30,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2537)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2537), inst: 964 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2537)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2537), inst: 964 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2464))
 // CS Name: ::System::ReadOnlySpan`1<T>
 struct CORDL_TYPE ReadOnlySpan_1 {

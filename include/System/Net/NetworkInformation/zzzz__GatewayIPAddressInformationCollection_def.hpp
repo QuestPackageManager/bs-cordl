@@ -37,14 +37,15 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::GatewayIPAddressInformationCol
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9246))
 // CS Name: ::System.Net.NetworkInformation::GatewayIPAddressInformationCollection*
 class CORDL_TYPE GatewayIPAddressInformationCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field addresses, offset 0x10, size 0x8
-  __declspec(property(get = __get_addresses, put = __set_addresses))::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* addresses;
+  __declspec(property(get = __cordl_internal_get_addresses,
+                      put = __cordl_internal_set_addresses))::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* addresses;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -70,11 +71,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*& __get_addresses();
+  constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*& __cordl_internal_get_addresses();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*> const& __get_addresses() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*> const&
+  __cordl_internal_get_addresses() const;
 
-  constexpr void __set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* value);
+  constexpr void __cordl_internal_set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* value);
 
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* New_ctor();
 

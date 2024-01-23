@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::KeyControl);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 292, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6629)), TypeDefinitionIndex(TypeDefinitionIndex(6242))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(6629))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6638))
 // CS Name: ::UnityEngine.InputSystem.Controls::KeyControl*
 class CORDL_TYPE KeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
   // Declarations
   /// @brief Field <keyCode>k__BackingField, offset 0x11c, size 0x4
-  __declspec(property(get = __get__keyCode_k__BackingField, put = __set__keyCode_k__BackingField))::UnityEngine::InputSystem::Key _keyCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__keyCode_k__BackingField, put = __cordl_internal_set__keyCode_k__BackingField))::UnityEngine::InputSystem::Key _keyCode_k__BackingField;
 
   /// @brief Field m_ScanCode, offset 0x120, size 0x4
-  __declspec(property(get = __get_m_ScanCode, put = __set_m_ScanCode)) int32_t m_ScanCode;
+  __declspec(property(get = __cordl_internal_get_m_ScanCode, put = __cordl_internal_set_m_ScanCode)) int32_t m_ScanCode;
 
   __declspec(property(get = get_keyCode, put = set_keyCode))::UnityEngine::InputSystem::Key keyCode;
 
   __declspec(property(get = get_scanCode)) int32_t scanCode;
 
-  constexpr ::UnityEngine::InputSystem::Key& __get__keyCode_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Key& __cordl_internal_get__keyCode_k__BackingField();
 
-  constexpr ::UnityEngine::InputSystem::Key const& __get__keyCode_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get__keyCode_k__BackingField() const;
 
-  constexpr void __set__keyCode_k__BackingField(::UnityEngine::InputSystem::Key value);
+  constexpr void __cordl_internal_set__keyCode_k__BackingField(::UnityEngine::InputSystem::Key value);
 
-  constexpr int32_t& __get_m_ScanCode();
+  constexpr int32_t& __cordl_internal_get_m_ScanCode();
 
-  constexpr int32_t const& __get_m_ScanCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_ScanCode() const;
 
-  constexpr void __set_m_ScanCode(int32_t value);
+  constexpr void __cordl_internal_set_m_ScanCode(int32_t value);
 
   /// @brief Method get_keyCode, addr 0x2b0b0b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Key get_keyCode();

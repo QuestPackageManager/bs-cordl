@@ -33,26 +33,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::BigInteger);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1601))
 // CS Name: ::Org.BouncyCastle.Math::BigInteger*
 class CORDL_TYPE BigInteger : public ::System::Object {
 public:
   // Declarations
   /// @brief Field magnitude, offset 0x10, size 0x8
-  __declspec(property(get = __get_magnitude, put = __set_magnitude))::ArrayW<int32_t, ::Array<int32_t>*> magnitude;
+  __declspec(property(get = __cordl_internal_get_magnitude, put = __cordl_internal_set_magnitude))::ArrayW<int32_t, ::Array<int32_t>*> magnitude;
 
   /// @brief Field sign, offset 0x18, size 0x4
-  __declspec(property(get = __get_sign, put = __set_sign)) int32_t sign;
+  __declspec(property(get = __cordl_internal_get_sign, put = __cordl_internal_set_sign)) int32_t sign;
 
   /// @brief Field nBits, offset 0x1c, size 0x4
-  __declspec(property(get = __get_nBits, put = __set_nBits)) int32_t nBits;
+  __declspec(property(get = __cordl_internal_get_nBits, put = __cordl_internal_set_nBits)) int32_t nBits;
 
   /// @brief Field nBitLength, offset 0x20, size 0x4
-  __declspec(property(get = __get_nBitLength, put = __set_nBitLength)) int32_t nBitLength;
+  __declspec(property(get = __cordl_internal_get_nBitLength, put = __cordl_internal_set_nBitLength)) int32_t nBitLength;
 
   /// @brief Field mQuote, offset 0x24, size 0x4
-  __declspec(property(get = __get_mQuote, put = __set_mQuote)) int32_t mQuote;
+  __declspec(property(get = __cordl_internal_get_mQuote, put = __cordl_internal_set_mQuote)) int32_t mQuote;
 
   /// @brief Field primeLists, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_primeLists, put = setStaticF_primeLists))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> primeLists;
@@ -135,35 +135,35 @@ public:
 
   __declspec(property(get = get_SignValue)) int32_t SignValue;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_magnitude();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_magnitude();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_magnitude() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_magnitude() const;
 
-  constexpr void __set_magnitude(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_magnitude(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_sign();
+  constexpr int32_t& __cordl_internal_get_sign();
 
-  constexpr int32_t const& __get_sign() const;
+  constexpr int32_t const& __cordl_internal_get_sign() const;
 
-  constexpr void __set_sign(int32_t value);
+  constexpr void __cordl_internal_set_sign(int32_t value);
 
-  constexpr int32_t& __get_nBits();
+  constexpr int32_t& __cordl_internal_get_nBits();
 
-  constexpr int32_t const& __get_nBits() const;
+  constexpr int32_t const& __cordl_internal_get_nBits() const;
 
-  constexpr void __set_nBits(int32_t value);
+  constexpr void __cordl_internal_set_nBits(int32_t value);
 
-  constexpr int32_t& __get_nBitLength();
+  constexpr int32_t& __cordl_internal_get_nBitLength();
 
-  constexpr int32_t const& __get_nBitLength() const;
+  constexpr int32_t const& __cordl_internal_get_nBitLength() const;
 
-  constexpr void __set_nBitLength(int32_t value);
+  constexpr void __cordl_internal_set_nBitLength(int32_t value);
 
-  constexpr int32_t& __get_mQuote();
+  constexpr int32_t& __cordl_internal_get_mQuote();
 
-  constexpr int32_t const& __get_mQuote() const;
+  constexpr int32_t const& __cordl_internal_get_mQuote() const;
 
-  constexpr void __set_mQuote(int32_t value);
+  constexpr void __cordl_internal_set_mQuote(int32_t value);
 
   static inline void setStaticF_primeLists(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
 

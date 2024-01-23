@@ -30,33 +30,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(333))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.Qualified::SemanticsInformation*
 class CORDL_TYPE SemanticsInformation : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field semanticsIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_semanticsIdentifier, put = __set_semanticsIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* semanticsIdentifier;
+  __declspec(property(get = __cordl_internal_get_semanticsIdentifier, put = __cordl_internal_set_semanticsIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* semanticsIdentifier;
 
   /// @brief Field nameRegistrationAuthorities, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get_nameRegistrationAuthorities,
-               put = __set_nameRegistrationAuthorities))::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> nameRegistrationAuthorities;
+  __declspec(property(get = __cordl_internal_get_nameRegistrationAuthorities,
+                      put = __cordl_internal_set_nameRegistrationAuthorities))::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,
+                                                                                       ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> nameRegistrationAuthorities;
 
   __declspec(property(get = get_SemanticsIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SemanticsIdentifier;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_semanticsIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_semanticsIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_semanticsIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_semanticsIdentifier() const;
 
-  constexpr void __set_semanticsIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_semanticsIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>& __get_nameRegistrationAuthorities();
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>& __cordl_internal_get_nameRegistrationAuthorities();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> const& __get_nameRegistrationAuthorities() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> const& __cordl_internal_get_nameRegistrationAuthorities() const;
 
-  constexpr void __set_nameRegistrationAuthorities(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> value);
+  constexpr void __cordl_internal_set_nameRegistrationAuthorities(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> value);
 
   /// @brief Method GetInstance, addr 0x1081ab0, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation* GetInstance(::System::Object* obj);

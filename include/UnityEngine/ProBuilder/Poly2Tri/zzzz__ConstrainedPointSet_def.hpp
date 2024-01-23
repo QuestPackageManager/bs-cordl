@@ -28,24 +28,24 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15338))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15338))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15337))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::ConstrainedPointSet*
 class CORDL_TYPE ConstrainedPointSet : public ::UnityEngine::ProBuilder::Poly2Tri::PointSet {
 public:
   // Declarations
   /// @brief Field <EdgeIndex>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__EdgeIndex_k__BackingField, put = __set__EdgeIndex_k__BackingField))::ArrayW<int32_t, ::Array<int32_t>*> _EdgeIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__EdgeIndex_k__BackingField, put = __cordl_internal_set__EdgeIndex_k__BackingField))::ArrayW<int32_t, ::Array<int32_t>*> _EdgeIndex_k__BackingField;
 
   __declspec(property(get = get_EdgeIndex, put = set_EdgeIndex))::ArrayW<int32_t, ::Array<int32_t>*> EdgeIndex;
 
   __declspec(property(get = get_TriangulationMode))::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode TriangulationMode;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__EdgeIndex_k__BackingField();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__EdgeIndex_k__BackingField();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__EdgeIndex_k__BackingField() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__EdgeIndex_k__BackingField() const;
 
-  constexpr void __set__EdgeIndex_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__EdgeIndex_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method get_EdgeIndex, addr 0x2b34d98, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_EdgeIndex();

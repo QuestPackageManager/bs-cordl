@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchFriendRequestFlowResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13443))
 // CS Name: ::Oculus.Platform.Models::LaunchFriendRequestFlowResult*
 class CORDL_TYPE LaunchFriendRequestFlowResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DidCancel, offset 0x10, size 0x1
-  __declspec(property(get = __get_DidCancel, put = __set_DidCancel)) bool DidCancel;
+  __declspec(property(get = __cordl_internal_get_DidCancel, put = __cordl_internal_set_DidCancel)) bool DidCancel;
 
   /// @brief Field DidSendRequest, offset 0x11, size 0x1
-  __declspec(property(get = __get_DidSendRequest, put = __set_DidSendRequest)) bool DidSendRequest;
+  __declspec(property(get = __cordl_internal_get_DidSendRequest, put = __cordl_internal_set_DidSendRequest)) bool DidSendRequest;
 
-  constexpr bool& __get_DidCancel();
+  constexpr bool& __cordl_internal_get_DidCancel();
 
-  constexpr bool const& __get_DidCancel() const;
+  constexpr bool const& __cordl_internal_get_DidCancel() const;
 
-  constexpr void __set_DidCancel(bool value);
+  constexpr void __cordl_internal_set_DidCancel(bool value);
 
-  constexpr bool& __get_DidSendRequest();
+  constexpr bool& __cordl_internal_get_DidSendRequest();
 
-  constexpr bool const& __get_DidSendRequest() const;
+  constexpr bool const& __cordl_internal_get_DidSendRequest() const;
 
-  constexpr void __set_DidSendRequest(bool value);
+  constexpr void __cordl_internal_set_DidSendRequest(bool value);
 
   static inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* New_ctor(void* o);
 

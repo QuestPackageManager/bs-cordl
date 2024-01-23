@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1696))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1696))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1697))
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs10CertificationRequestDelaySigned*
 class CORDL_TYPE Pkcs10CertificationRequestDelaySigned : public ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest {

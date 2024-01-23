@@ -18,39 +18,39 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassLightTypeSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14476))
 // CS Name: ::BloomPrePassLightTypeSO*
 class CORDL_TYPE BloomPrePassLightTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _renderingPriority, offset 0x18, size 0x4
-  __declspec(property(get = __get__renderingPriority, put = __set__renderingPriority)) int32_t _renderingPriority;
+  __declspec(property(get = __cordl_internal_get__renderingPriority, put = __cordl_internal_set__renderingPriority)) int32_t _renderingPriority;
 
   /// @brief Field _material, offset 0x20, size 0x8
-  __declspec(property(get = __get__material, put = __set__material))::UnityEngine::Material* _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
 
   __declspec(property(get = get_renderingPriority)) int32_t renderingPriority;
 
-  __declspec(property(get = get_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material))::UnityW<::UnityEngine::Material> material;
 
-  constexpr int32_t& __get__renderingPriority();
+  constexpr int32_t& __cordl_internal_get__renderingPriority();
 
-  constexpr int32_t const& __get__renderingPriority() const;
+  constexpr int32_t const& __cordl_internal_get__renderingPriority() const;
 
-  constexpr void __set__renderingPriority(int32_t value);
+  constexpr void __cordl_internal_set__renderingPriority(int32_t value);
 
-  constexpr ::UnityEngine::Material*& __get__material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __set__material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
   /// @brief Method get_renderingPriority, addr 0x2107170, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderingPriority();
 
   /// @brief Method get_material, addr 0x2107178, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   static inline ::GlobalNamespace::BloomPrePassLightTypeSO* New_ctor();
 
@@ -75,7 +75,7 @@ public:
   int32_t ____renderingPriority;
 
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material;
+  ::UnityW<::UnityEngine::Material> ____material;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -58,137 +58,139 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6085))
 // CS Name: ::SimpleLevelStarter*
 class CORDL_TYPE SimpleLevelStarter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _level, offset 0x18, size 0x8
-  __declspec(property(get = __get__level, put = __set__level))::GlobalNamespace::BeatmapLevelSO* _level;
+  __declspec(property(get = __cordl_internal_get__level, put = __cordl_internal_set__level))::UnityW<::GlobalNamespace::BeatmapLevelSO> _level;
 
   /// @brief Field _beatmapCharacteristic, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristic, put = __set__beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset 0x28, size 0x4
-  __declspec(property(get = __get__beatmapDifficulty, put = __set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
 
   /// @brief Field _useTestNoteCutSoundEffects, offset 0x2c, size 0x1
-  __declspec(property(get = __get__useTestNoteCutSoundEffects, put = __set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
+  __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
 
   /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset 0x2d, size 0x1
-  __declspec(property(get = __get__overrideStrobeFilterSettingsToAllEffects, put = __set__overrideStrobeFilterSettingsToAllEffects)) bool _overrideStrobeFilterSettingsToAllEffects;
+  __declspec(property(get = __cordl_internal_get__overrideStrobeFilterSettingsToAllEffects,
+                      put = __cordl_internal_set__overrideStrobeFilterSettingsToAllEffects)) bool _overrideStrobeFilterSettingsToAllEffects;
 
   /// @brief Field _recordingTextAsset, offset 0x30, size 0x8
-  __declspec(property(get = __get__recordingTextAsset, put = __set__recordingTextAsset))::UnityEngine::TextAsset* _recordingTextAsset;
+  __declspec(property(get = __cordl_internal_get__recordingTextAsset, put = __cordl_internal_set__recordingTextAsset))::UnityW<::UnityEngine::TextAsset> _recordingTextAsset;
 
   /// @brief Field _prefabBindings, offset 0x38, size 0x8
-  __declspec(property(get = __get__prefabBindings, put = __set__prefabBindings))::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> _prefabBindings;
+  __declspec(property(get = __cordl_internal_get__prefabBindings,
+                      put = __cordl_internal_set__prefabBindings))::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> _prefabBindings;
 
   /// @brief Field _forceOverrideEnvironment, offset 0x40, size 0x1
-  __declspec(property(get = __get__forceOverrideEnvironment, put = __set__forceOverrideEnvironment)) bool _forceOverrideEnvironment;
+  __declspec(property(get = __cordl_internal_get__forceOverrideEnvironment, put = __cordl_internal_set__forceOverrideEnvironment)) bool _forceOverrideEnvironment;
 
   /// @brief Field _button, offset 0x48, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field _menuTransitionsHelper, offset 0x50, size 0x8
-  __declspec(property(get = __get__menuTransitionsHelper, put = __set__menuTransitionsHelper))::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
+  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
   /// @brief Field _gameScenesManager, offset 0x58, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _playerDataModel, offset 0x60, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _buttonBinder, offset 0x68, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _gameplayModifiers, offset 0x70, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
-  constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__level();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__level();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& __get__level() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__level() const;
 
-  constexpr void __set__level(::GlobalNamespace::BeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__level(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
-  constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__beatmapDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__beatmapDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
 
-  constexpr void __set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr bool& __get__useTestNoteCutSoundEffects();
+  constexpr bool& __cordl_internal_get__useTestNoteCutSoundEffects();
 
-  constexpr bool const& __get__useTestNoteCutSoundEffects() const;
+  constexpr bool const& __cordl_internal_get__useTestNoteCutSoundEffects() const;
 
-  constexpr void __set__useTestNoteCutSoundEffects(bool value);
+  constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  constexpr bool& __get__overrideStrobeFilterSettingsToAllEffects();
+  constexpr bool& __cordl_internal_get__overrideStrobeFilterSettingsToAllEffects();
 
-  constexpr bool const& __get__overrideStrobeFilterSettingsToAllEffects() const;
+  constexpr bool const& __cordl_internal_get__overrideStrobeFilterSettingsToAllEffects() const;
 
-  constexpr void __set__overrideStrobeFilterSettingsToAllEffects(bool value);
+  constexpr void __cordl_internal_set__overrideStrobeFilterSettingsToAllEffects(bool value);
 
-  constexpr ::UnityEngine::TextAsset*& __get__recordingTextAsset();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get__recordingTextAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get__recordingTextAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get__recordingTextAsset() const;
 
-  constexpr void __set__recordingTextAsset(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set__recordingTextAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*>& __get__prefabBindings();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*>& __cordl_internal_get__prefabBindings();
 
-  constexpr ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> const& __get__prefabBindings() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> const& __cordl_internal_get__prefabBindings() const;
 
-  constexpr void __set__prefabBindings(::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> value);
+  constexpr void __cordl_internal_set__prefabBindings(::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> value);
 
-  constexpr bool& __get__forceOverrideEnvironment();
+  constexpr bool& __cordl_internal_get__forceOverrideEnvironment();
 
-  constexpr bool const& __get__forceOverrideEnvironment() const;
+  constexpr bool const& __cordl_internal_get__forceOverrideEnvironment() const;
 
-  constexpr void __set__forceOverrideEnvironment(bool value);
+  constexpr void __cordl_internal_set__forceOverrideEnvironment(bool value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__button();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get__menuTransitionsHelper();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get__menuTransitionsHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get__menuTransitionsHelper() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get__menuTransitionsHelper() const;
 
-  constexpr void __set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   /// @brief Method Awake, addr 0x23202d4, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
@@ -231,10 +233,10 @@ protected:
 
 public:
   /// @brief Field _level, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelSO* ____level;
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____level;
 
   /// @brief Field _beatmapCharacteristic, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
@@ -246,25 +248,25 @@ public:
   bool ____overrideStrobeFilterSettingsToAllEffects;
 
   /// @brief Field _recordingTextAsset, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ____recordingTextAsset;
+  ::UnityW<::UnityEngine::TextAsset> ____recordingTextAsset;
 
   /// @brief Field _prefabBindings, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> ____prefabBindings;
+  ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> ____prefabBindings;
 
   /// @brief Field _forceOverrideEnvironment, offset: 0x40, size: 0x1, def value: None
   bool ____forceOverrideEnvironment;
 
   /// @brief Field _button, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____button;
+  ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief Field _menuTransitionsHelper, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionsHelper;
 
   /// @brief Field _gameScenesManager, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _playerDataModel, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _buttonBinder, offset: 0x68, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;

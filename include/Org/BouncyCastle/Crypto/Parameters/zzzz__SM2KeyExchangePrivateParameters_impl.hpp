@@ -13,12 +13,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x274;
   constexpr static std::size_t addrs = 0xf3b494;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get() })));
     return ___internal_method;
   }
 };
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf3b708;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf3b710;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(),
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf3b718;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(),
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf3b720;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(),
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf3b728;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(),
@@ -110,81 +110,83 @@ constexpr Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters
 constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
 }
-constexpr bool& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mInitiator() {
+constexpr bool& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mInitiator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mInitiator;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mInitiator() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mInitiator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mInitiator;
 }
-constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__set_mInitiator(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_set_mInitiator(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mInitiator = value;
 }
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mStaticPrivateKey() {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mStaticPrivateKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticPrivateKey;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const&
-Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mStaticPrivateKey() const {
+Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mStaticPrivateKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticPrivateKey;
 }
-constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__set_mStaticPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value) {
+constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_set_mStaticPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mStaticPrivateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mStaticPublicPoint() {
+constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mStaticPublicPoint() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticPublicPoint;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mStaticPublicPoint() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const&
+Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mStaticPublicPoint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticPublicPoint;
 }
-constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__set_mStaticPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value) {
+constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_set_mStaticPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mStaticPublicPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mEphemeralPrivateKey() {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mEphemeralPrivateKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralPrivateKey;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const&
-Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mEphemeralPrivateKey() const {
+Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mEphemeralPrivateKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralPrivateKey;
 }
-constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__set_mEphemeralPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value) {
+constexpr void
+Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_set_mEphemeralPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mEphemeralPrivateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mEphemeralPublicPoint() {
+constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mEphemeralPublicPoint() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralPublicPoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const&
-Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mEphemeralPublicPoint() const {
+Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_get_mEphemeralPublicPoint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralPublicPoint;
 }
-constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__set_mEphemeralPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value) {
+constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__cordl_internal_set_mEphemeralPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mEphemeralPublicPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*
 Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::New_ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                                                                                  ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>(initiator, staticPrivateKey, ephemeralPrivateKey));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>(initiator, staticPrivateKey, ephemeralPrivateKey));
 }
 inline void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::_ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                                                                                           ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initiator, staticPrivateKey, ephemeralPrivateKey);
 }
 inline bool Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::get_IsInitiator() {

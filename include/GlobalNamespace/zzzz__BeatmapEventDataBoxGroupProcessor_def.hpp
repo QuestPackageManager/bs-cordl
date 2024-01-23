@@ -29,14 +29,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4308))
 // CS Name: ::BeatmapEventDataBoxGroupProcessor*
 class CORDL_TYPE BeatmapEventDataBoxGroupProcessor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _dirtyBoxGroups, offset 0x10, size 0x8
-  __declspec(property(get = __get__dirtyBoxGroups, put = __set__dirtyBoxGroups))::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* _dirtyBoxGroups;
+  __declspec(property(get = __cordl_internal_get__dirtyBoxGroups,
+                      put = __cordl_internal_set__dirtyBoxGroups))::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* _dirtyBoxGroups;
 
   __declspec(property(get = get_dirtyBoxGroups))::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* dirtyBoxGroups;
 
@@ -47,11 +48,11 @@ public:
   constexpr ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*
   i___GlobalNamespace__ISortedListItemProcessor_1___GlobalNamespace__BeatmapEventDataBoxGroup__() noexcept;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& __get__dirtyBoxGroups();
+  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& __cordl_internal_get__dirtyBoxGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*> const& __get__dirtyBoxGroups() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*> const& __cordl_internal_get__dirtyBoxGroups() const;
 
-  constexpr void __set__dirtyBoxGroups(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
+  constexpr void __cordl_internal_set__dirtyBoxGroups(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
 
   /// @brief Method get_dirtyBoxGroups, addr 0x233a468, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();

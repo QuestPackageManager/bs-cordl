@@ -64,7 +64,7 @@ MARK_VAL_T(::OVR::OpenVR::__CVRRenderModels__GetComponentStateUnion);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8568))
 // CS Name: ::CVRRenderModels::_GetComponentStatePacked*
 class CORDL_TYPE __CVRRenderModels___GetComponentStatePacked : public ::System::MulticastDelegate {
@@ -112,29 +112,30 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRRenderModels__
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8569))
 // CS Name: ::CVRRenderModels::GetComponentStateUnion
 struct CORDL_TYPE __CVRRenderModels__GetComponentStateUnion {
 public:
   // Declarations
   /// @brief Field pGetComponentState, offset 0x0, size 0x8
-  __declspec(property(get = __get_pGetComponentState, put = __set_pGetComponentState))::OVR::OpenVR::__IVRRenderModels___GetComponentState* pGetComponentState;
+  __declspec(property(get = __cordl_internal_get_pGetComponentState, put = __cordl_internal_set_pGetComponentState))::OVR::OpenVR::__IVRRenderModels___GetComponentState* pGetComponentState;
 
   /// @brief Field pGetComponentStatePacked, offset 0x0, size 0x8
-  __declspec(property(get = __get_pGetComponentStatePacked, put = __set_pGetComponentStatePacked))::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* pGetComponentStatePacked;
+  __declspec(property(get = __cordl_internal_get_pGetComponentStatePacked,
+                      put = __cordl_internal_set_pGetComponentStatePacked))::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* pGetComponentStatePacked;
 
-  constexpr ::OVR::OpenVR::__IVRRenderModels___GetComponentState*& __get_pGetComponentState();
+  constexpr ::OVR::OpenVR::__IVRRenderModels___GetComponentState*& __cordl_internal_get_pGetComponentState();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRRenderModels___GetComponentState*> const& __get_pGetComponentState() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRRenderModels___GetComponentState*> const& __cordl_internal_get_pGetComponentState() const;
 
-  constexpr void __set_pGetComponentState(::OVR::OpenVR::__IVRRenderModels___GetComponentState* value);
+  constexpr void __cordl_internal_set_pGetComponentState(::OVR::OpenVR::__IVRRenderModels___GetComponentState* value);
 
-  constexpr ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*& __get_pGetComponentStatePacked();
+  constexpr ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*& __cordl_internal_get_pGetComponentStatePacked();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*> const& __get_pGetComponentStatePacked() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*> const& __cordl_internal_get_pGetComponentStatePacked() const;
 
-  constexpr void __set_pGetComponentStatePacked(::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* value);
+  constexpr void __cordl_internal_set_pGetComponentStatePacked(::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* value);
 
   // Ctor Parameters [CppParam { name: "pGetComponentState", ty: "::OVR::OpenVR::__IVRRenderModels___GetComponentState*", modifiers: "", def_value: None }, CppParam { name: "pGetComponentStatePacked",
   // ty: "::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*", modifiers: "", def_value: None }]
@@ -192,7 +193,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRRenderModels__
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8490))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8490))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8570))
 // CS Name: ::OVR.OpenVR::CVRRenderModels*
 class CORDL_TYPE CVRRenderModels : public ::System::Object {
@@ -203,13 +204,13 @@ public:
   using _GetComponentStatePacked = ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked;
 
   /// @brief Field FnTable, offset 0x10, size 0x98
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRRenderModels FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRRenderModels FnTable;
 
-  constexpr ::OVR::OpenVR::IVRRenderModels& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRRenderModels& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRRenderModels const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRRenderModels const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRRenderModels value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRRenderModels value);
 
   static inline ::OVR::OpenVR::CVRRenderModels* New_ctor(void* pInterface);
 

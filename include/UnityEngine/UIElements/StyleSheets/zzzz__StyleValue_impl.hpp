@@ -10,58 +10,58 @@
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId& UnityEngine::UIElements::StyleSheets::StyleValue::__get_id() {
+constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_id() {
   return this->___id;
 }
-constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId const& UnityEngine::UIElements::StyleSheets::StyleValue::__get_id() const {
+constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId const& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_id() const {
   return this->___id;
 }
-constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__set_id(::UnityEngine::UIElements::StyleSheets::StylePropertyId value) {
+constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_set_id(::UnityEngine::UIElements::StyleSheets::StylePropertyId value) {
   this->___id = value;
 }
-constexpr ::UnityEngine::UIElements::StyleKeyword& UnityEngine::UIElements::StyleSheets::StyleValue::__get_keyword() {
+constexpr ::UnityEngine::UIElements::StyleKeyword& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_keyword() {
   return this->___keyword;
 }
-constexpr ::UnityEngine::UIElements::StyleKeyword const& UnityEngine::UIElements::StyleSheets::StyleValue::__get_keyword() const {
+constexpr ::UnityEngine::UIElements::StyleKeyword const& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_keyword() const {
   return this->___keyword;
 }
-constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__set_keyword(::UnityEngine::UIElements::StyleKeyword value) {
+constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_set_keyword(::UnityEngine::UIElements::StyleKeyword value) {
   this->___keyword = value;
 }
-constexpr float_t& UnityEngine::UIElements::StyleSheets::StyleValue::__get_number() {
+constexpr float_t& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_number() {
   return this->___number;
 }
-constexpr float_t const& UnityEngine::UIElements::StyleSheets::StyleValue::__get_number() const {
+constexpr float_t const& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_number() const {
   return this->___number;
 }
-constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__set_number(float_t value) {
+constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_set_number(float_t value) {
   this->___number = value;
 }
-constexpr ::UnityEngine::UIElements::Length& UnityEngine::UIElements::StyleSheets::StyleValue::__get_length() {
+constexpr ::UnityEngine::UIElements::Length& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_length() {
   return this->___length;
 }
-constexpr ::UnityEngine::UIElements::Length const& UnityEngine::UIElements::StyleSheets::StyleValue::__get_length() const {
+constexpr ::UnityEngine::UIElements::Length const& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_length() const {
   return this->___length;
 }
-constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__set_length(::UnityEngine::UIElements::Length value) {
+constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_set_length(::UnityEngine::UIElements::Length value) {
   this->___length = value;
 }
-constexpr ::UnityEngine::Color& UnityEngine::UIElements::StyleSheets::StyleValue::__get_color() {
+constexpr ::UnityEngine::Color& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_color() {
   return this->___color;
 }
-constexpr ::UnityEngine::Color const& UnityEngine::UIElements::StyleSheets::StyleValue::__get_color() const {
+constexpr ::UnityEngine::Color const& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_color() const {
   return this->___color;
 }
-constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__set_color(::UnityEngine::Color value) {
+constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_set_color(::UnityEngine::Color value) {
   this->___color = value;
 }
-constexpr ::System::Runtime::InteropServices::GCHandle& UnityEngine::UIElements::StyleSheets::StyleValue::__get_resource() {
+constexpr ::System::Runtime::InteropServices::GCHandle& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_resource() {
   return this->___resource;
 }
-constexpr ::System::Runtime::InteropServices::GCHandle const& UnityEngine::UIElements::StyleSheets::StyleValue::__get_resource() const {
+constexpr ::System::Runtime::InteropServices::GCHandle const& UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_get_resource() const {
   return this->___resource;
 }
-constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__set_resource(::System::Runtime::InteropServices::GCHandle value) {
+constexpr void UnityEngine::UIElements::StyleSheets::StyleValue::__cordl_internal_set_resource(::System::Runtime::InteropServices::GCHandle value) {
   this->___resource = value;
 }
 // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}") }, CppParam { name: "keyword", ty:

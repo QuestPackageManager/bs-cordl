@@ -23,47 +23,47 @@ MARK_REF_PTR_T(::GlobalNamespace::ReleaseInfoViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5741))
 // CS Name: ::ReleaseInfoViewController*
 class CORDL_TYPE ReleaseInfoViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _mainSettingsModel, offset 0x70, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _textPageScrollView, offset 0x78, size 0x8
-  __declspec(property(get = __get__textPageScrollView, put = __set__textPageScrollView))::HMUI::TextPageScrollView* _textPageScrollView;
+  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
 
   /// @brief Field _releaseNotesTextAsset, offset 0x80, size 0x8
-  __declspec(property(get = __get__releaseNotesTextAsset, put = __set__releaseNotesTextAsset))::UnityEngine::TextAsset* _releaseNotesTextAsset;
+  __declspec(property(get = __cordl_internal_get__releaseNotesTextAsset, put = __cordl_internal_set__releaseNotesTextAsset))::UnityW<::UnityEngine::TextAsset> _releaseNotesTextAsset;
 
   /// @brief Field _firstTextAsset, offset 0x88, size 0x8
-  __declspec(property(get = __get__firstTextAsset, put = __set__firstTextAsset))::UnityEngine::TextAsset* _firstTextAsset;
+  __declspec(property(get = __cordl_internal_get__firstTextAsset, put = __cordl_internal_set__firstTextAsset))::UnityW<::UnityEngine::TextAsset> _firstTextAsset;
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::HMUI::TextPageScrollView*& __get__textPageScrollView();
+  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TextPageScrollView*> const& __get__textPageScrollView() const;
+  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
 
-  constexpr void __set__textPageScrollView(::HMUI::TextPageScrollView* value);
+  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
 
-  constexpr ::UnityEngine::TextAsset*& __get__releaseNotesTextAsset();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get__releaseNotesTextAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get__releaseNotesTextAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get__releaseNotesTextAsset() const;
 
-  constexpr void __set__releaseNotesTextAsset(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set__releaseNotesTextAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr ::UnityEngine::TextAsset*& __get__firstTextAsset();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get__firstTextAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get__firstTextAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get__firstTextAsset() const;
 
-  constexpr void __set__firstTextAsset(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set__firstTextAsset(::UnityW<::UnityEngine::TextAsset> value);
 
   /// @brief Method DidActivate, addr 0x22d624c, size 0x5c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -88,16 +88,16 @@ protected:
 
 public:
   /// @brief Field _mainSettingsModel, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _textPageScrollView, offset: 0x78, size: 0x8, def value: None
-  ::HMUI::TextPageScrollView* ____textPageScrollView;
+  ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
   /// @brief Field _releaseNotesTextAsset, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ____releaseNotesTextAsset;
+  ::UnityW<::UnityEngine::TextAsset> ____releaseNotesTextAsset;
 
   /// @brief Field _firstTextAsset, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ____firstTextAsset;
+  ::UnityW<::UnityEngine::TextAsset> ____firstTextAsset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

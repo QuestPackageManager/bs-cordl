@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeWaitHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2300))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeWaitHandle*
 class CORDL_TYPE SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {

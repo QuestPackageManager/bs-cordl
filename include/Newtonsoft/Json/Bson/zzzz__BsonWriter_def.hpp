@@ -60,49 +60,49 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonWriter);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11843))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11843))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12083))
 // CS Name: ::Newtonsoft.Json.Bson::BsonWriter*
 class CORDL_TYPE BsonWriter : public ::Newtonsoft::Json::JsonWriter {
 public:
   // Declarations
   /// @brief Field _writer, offset 0x60, size 0x8
-  __declspec(property(get = __get__writer, put = __set__writer))::Newtonsoft::Json::Bson::BsonBinaryWriter* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::Newtonsoft::Json::Bson::BsonBinaryWriter* _writer;
 
   /// @brief Field _root, offset 0x68, size 0x8
-  __declspec(property(get = __get__root, put = __set__root))::Newtonsoft::Json::Bson::BsonToken* _root;
+  __declspec(property(get = __cordl_internal_get__root, put = __cordl_internal_set__root))::Newtonsoft::Json::Bson::BsonToken* _root;
 
   /// @brief Field _parent, offset 0x70, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::Newtonsoft::Json::Bson::BsonToken* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Bson::BsonToken* _parent;
 
   /// @brief Field _propertyName, offset 0x78, size 0x8
-  __declspec(property(get = __get__propertyName, put = __set__propertyName))::StringW _propertyName;
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
   __declspec(property(get = get_DateTimeKindHandling, put = set_DateTimeKindHandling))::System::DateTimeKind DateTimeKindHandling;
 
-  constexpr ::Newtonsoft::Json::Bson::BsonBinaryWriter*& __get__writer();
+  constexpr ::Newtonsoft::Json::Bson::BsonBinaryWriter*& __cordl_internal_get__writer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonBinaryWriter*> const& __get__writer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonBinaryWriter*> const& __cordl_internal_get__writer() const;
 
-  constexpr void __set__writer(::Newtonsoft::Json::Bson::BsonBinaryWriter* value);
+  constexpr void __cordl_internal_set__writer(::Newtonsoft::Json::Bson::BsonBinaryWriter* value);
 
-  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __get__root();
+  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __cordl_internal_get__root();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __get__root() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __cordl_internal_get__root() const;
 
-  constexpr void __set__root(::Newtonsoft::Json::Bson::BsonToken* value);
+  constexpr void __cordl_internal_set__root(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __get__parent();
+  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::Newtonsoft::Json::Bson::BsonToken* value);
+  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  constexpr ::StringW& __get__propertyName();
+  constexpr ::StringW& __cordl_internal_get__propertyName();
 
-  constexpr ::StringW const& __get__propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
-  constexpr void __set__propertyName(::StringW value);
+  constexpr void __cordl_internal_set__propertyName(::StringW value);
 
   /// @brief Method get_DateTimeKindHandling, addr 0x26c8578, size 0x1c, virtual false, abstract: false, final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();

@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::__SerializationEventsCache____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3208))
 // CS Name: ::SerializationEventsCache::<>c*
 class CORDL_TYPE __SerializationEventsCache____c : public ::System::Object {
@@ -85,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3209))
 // CS Name: ::System.Runtime.Serialization::SerializationEventsCache*
 class CORDL_TYPE SerializationEventsCache : public ::System::Object {

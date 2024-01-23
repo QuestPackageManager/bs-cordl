@@ -16,83 +16,83 @@ MARK_REF_PTR_T(::GlobalNamespace::Deeplink);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4148))
 // CS Name: ::Deeplink*
 class CORDL_TYPE Deeplink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Destination, offset 0x10, size 0x8
-  __declspec(property(get = __get_Destination, put = __set_Destination))::StringW Destination;
+  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination))::StringW Destination;
 
   /// @brief Field LevelID, offset 0x18, size 0x8
-  __declspec(property(get = __get_LevelID, put = __set_LevelID))::StringW LevelID;
+  __declspec(property(get = __cordl_internal_get_LevelID, put = __cordl_internal_set_LevelID))::StringW LevelID;
 
   /// @brief Field PackID, offset 0x20, size 0x8
-  __declspec(property(get = __get_PackID, put = __set_PackID))::StringW PackID;
+  __declspec(property(get = __cordl_internal_get_PackID, put = __cordl_internal_set_PackID))::StringW PackID;
 
   /// @brief Field Difficulty, offset 0x28, size 0x8
-  __declspec(property(get = __get_Difficulty, put = __set_Difficulty))::StringW Difficulty;
+  __declspec(property(get = __cordl_internal_get_Difficulty, put = __cordl_internal_set_Difficulty))::StringW Difficulty;
 
   /// @brief Field Characteristic, offset 0x30, size 0x8
-  __declspec(property(get = __get_Characteristic, put = __set_Characteristic))::StringW Characteristic;
+  __declspec(property(get = __cordl_internal_get_Characteristic, put = __cordl_internal_set_Characteristic))::StringW Characteristic;
 
   /// @brief Field MultiplayerLobbyCode, offset 0x38, size 0x8
-  __declspec(property(get = __get_MultiplayerLobbyCode, put = __set_MultiplayerLobbyCode))::StringW MultiplayerLobbyCode;
+  __declspec(property(get = __cordl_internal_get_MultiplayerLobbyCode, put = __cordl_internal_set_MultiplayerLobbyCode))::StringW MultiplayerLobbyCode;
 
   /// @brief Field MultiplayerSecret, offset 0x40, size 0x8
-  __declspec(property(get = __get_MultiplayerSecret, put = __set_MultiplayerSecret))::StringW MultiplayerSecret;
+  __declspec(property(get = __cordl_internal_get_MultiplayerSecret, put = __cordl_internal_set_MultiplayerSecret))::StringW MultiplayerSecret;
 
   /// @brief Field MultiplayerRoomId, offset 0x48, size 0x8
-  __declspec(property(get = __get_MultiplayerRoomId, put = __set_MultiplayerRoomId)) uint64_t MultiplayerRoomId;
+  __declspec(property(get = __cordl_internal_get_MultiplayerRoomId, put = __cordl_internal_set_MultiplayerRoomId)) uint64_t MultiplayerRoomId;
 
-  constexpr ::StringW& __get_Destination();
+  constexpr ::StringW& __cordl_internal_get_Destination();
 
-  constexpr ::StringW const& __get_Destination() const;
+  constexpr ::StringW const& __cordl_internal_get_Destination() const;
 
-  constexpr void __set_Destination(::StringW value);
+  constexpr void __cordl_internal_set_Destination(::StringW value);
 
-  constexpr ::StringW& __get_LevelID();
+  constexpr ::StringW& __cordl_internal_get_LevelID();
 
-  constexpr ::StringW const& __get_LevelID() const;
+  constexpr ::StringW const& __cordl_internal_get_LevelID() const;
 
-  constexpr void __set_LevelID(::StringW value);
+  constexpr void __cordl_internal_set_LevelID(::StringW value);
 
-  constexpr ::StringW& __get_PackID();
+  constexpr ::StringW& __cordl_internal_get_PackID();
 
-  constexpr ::StringW const& __get_PackID() const;
+  constexpr ::StringW const& __cordl_internal_get_PackID() const;
 
-  constexpr void __set_PackID(::StringW value);
+  constexpr void __cordl_internal_set_PackID(::StringW value);
 
-  constexpr ::StringW& __get_Difficulty();
+  constexpr ::StringW& __cordl_internal_get_Difficulty();
 
-  constexpr ::StringW const& __get_Difficulty() const;
+  constexpr ::StringW const& __cordl_internal_get_Difficulty() const;
 
-  constexpr void __set_Difficulty(::StringW value);
+  constexpr void __cordl_internal_set_Difficulty(::StringW value);
 
-  constexpr ::StringW& __get_Characteristic();
+  constexpr ::StringW& __cordl_internal_get_Characteristic();
 
-  constexpr ::StringW const& __get_Characteristic() const;
+  constexpr ::StringW const& __cordl_internal_get_Characteristic() const;
 
-  constexpr void __set_Characteristic(::StringW value);
+  constexpr void __cordl_internal_set_Characteristic(::StringW value);
 
-  constexpr ::StringW& __get_MultiplayerLobbyCode();
+  constexpr ::StringW& __cordl_internal_get_MultiplayerLobbyCode();
 
-  constexpr ::StringW const& __get_MultiplayerLobbyCode() const;
+  constexpr ::StringW const& __cordl_internal_get_MultiplayerLobbyCode() const;
 
-  constexpr void __set_MultiplayerLobbyCode(::StringW value);
+  constexpr void __cordl_internal_set_MultiplayerLobbyCode(::StringW value);
 
-  constexpr ::StringW& __get_MultiplayerSecret();
+  constexpr ::StringW& __cordl_internal_get_MultiplayerSecret();
 
-  constexpr ::StringW const& __get_MultiplayerSecret() const;
+  constexpr ::StringW const& __cordl_internal_get_MultiplayerSecret() const;
 
-  constexpr void __set_MultiplayerSecret(::StringW value);
+  constexpr void __cordl_internal_set_MultiplayerSecret(::StringW value);
 
-  constexpr uint64_t& __get_MultiplayerRoomId();
+  constexpr uint64_t& __cordl_internal_get_MultiplayerRoomId();
 
-  constexpr uint64_t const& __get_MultiplayerRoomId() const;
+  constexpr uint64_t const& __cordl_internal_get_MultiplayerRoomId() const;
 
-  constexpr void __set_MultiplayerRoomId(uint64_t value);
+  constexpr void __cordl_internal_set_MultiplayerRoomId(uint64_t value);
 
   static inline ::GlobalNamespace::Deeplink* New_ctor();
 

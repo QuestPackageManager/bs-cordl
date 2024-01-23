@@ -18,7 +18,7 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3880))
 // CS Name: ::System.Buffers::ArrayPool`1<T>*
 class CORDL_TYPE ArrayPool_1 : public ::System::Object {

@@ -15,23 +15,23 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyPublisherSKUSettingsSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4602))
 // CS Name: ::SonyPublisherSKUSettingsSO*
 class CORDL_TYPE SonyPublisherSKUSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _skuName, offset 0x18, size 0x8
-  __declspec(property(get = __get__skuName, put = __set__skuName))::StringW _skuName;
+  __declspec(property(get = __cordl_internal_get__skuName, put = __cordl_internal_set__skuName))::StringW _skuName;
 
   /// @brief Field _serviceIdPrefix, offset 0x20, size 0x8
-  __declspec(property(get = __get__serviceIdPrefix, put = __set__serviceIdPrefix))::StringW _serviceIdPrefix;
+  __declspec(property(get = __cordl_internal_get__serviceIdPrefix, put = __cordl_internal_set__serviceIdPrefix))::StringW _serviceIdPrefix;
 
   /// @brief Field _titleId, offset 0x28, size 0x8
-  __declspec(property(get = __get__titleId, put = __set__titleId))::StringW _titleId;
+  __declspec(property(get = __cordl_internal_get__titleId, put = __cordl_internal_set__titleId))::StringW _titleId;
 
   /// @brief Field _productLabel, offset 0x30, size 0x8
-  __declspec(property(get = __get__productLabel, put = __set__productLabel))::StringW _productLabel;
+  __declspec(property(get = __cordl_internal_get__productLabel, put = __cordl_internal_set__productLabel))::StringW _productLabel;
 
   __declspec(property(get = get_skuName))::StringW skuName;
 
@@ -41,29 +41,29 @@ public:
 
   __declspec(property(get = get_productLabel))::StringW productLabel;
 
-  constexpr ::StringW& __get__skuName();
+  constexpr ::StringW& __cordl_internal_get__skuName();
 
-  constexpr ::StringW const& __get__skuName() const;
+  constexpr ::StringW const& __cordl_internal_get__skuName() const;
 
-  constexpr void __set__skuName(::StringW value);
+  constexpr void __cordl_internal_set__skuName(::StringW value);
 
-  constexpr ::StringW& __get__serviceIdPrefix();
+  constexpr ::StringW& __cordl_internal_get__serviceIdPrefix();
 
-  constexpr ::StringW const& __get__serviceIdPrefix() const;
+  constexpr ::StringW const& __cordl_internal_get__serviceIdPrefix() const;
 
-  constexpr void __set__serviceIdPrefix(::StringW value);
+  constexpr void __cordl_internal_set__serviceIdPrefix(::StringW value);
 
-  constexpr ::StringW& __get__titleId();
+  constexpr ::StringW& __cordl_internal_get__titleId();
 
-  constexpr ::StringW const& __get__titleId() const;
+  constexpr ::StringW const& __cordl_internal_get__titleId() const;
 
-  constexpr void __set__titleId(::StringW value);
+  constexpr void __cordl_internal_set__titleId(::StringW value);
 
-  constexpr ::StringW& __get__productLabel();
+  constexpr ::StringW& __cordl_internal_get__productLabel();
 
-  constexpr ::StringW const& __get__productLabel() const;
+  constexpr ::StringW const& __cordl_internal_get__productLabel() const;
 
-  constexpr void __set__productLabel(::StringW value);
+  constexpr void __cordl_internal_set__productLabel(::StringW value);
 
   /// @brief Method get_skuName, addr 0x2369d84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_skuName();

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::RevocationKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(531))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(531))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(542))
 // CS Name: ::Org.BouncyCastle.Bcpg::RevocationKey*
 class CORDL_TYPE RevocationKey : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {

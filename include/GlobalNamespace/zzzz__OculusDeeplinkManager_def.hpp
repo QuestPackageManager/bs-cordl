@@ -33,20 +33,20 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusDeeplinkManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4159))
 // CS Name: ::OculusDeeplinkManager*
 class CORDL_TYPE OculusDeeplinkManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field didReceiveDeeplinkEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_didReceiveDeeplinkEvent, put = __set_didReceiveDeeplinkEvent))::System::Action_1<::GlobalNamespace::Deeplink*>* didReceiveDeeplinkEvent;
+  __declspec(property(get = __cordl_internal_get_didReceiveDeeplinkEvent, put = __cordl_internal_set_didReceiveDeeplinkEvent))::System::Action_1<::GlobalNamespace::Deeplink*>* didReceiveDeeplinkEvent;
 
   /// @brief Field _currentDeeplink, offset 0x18, size 0x8
-  __declspec(property(get = __get__currentDeeplink, put = __set__currentDeeplink))::GlobalNamespace::Deeplink* _currentDeeplink;
+  __declspec(property(get = __cordl_internal_get__currentDeeplink, put = __cordl_internal_set__currentDeeplink))::GlobalNamespace::Deeplink* _currentDeeplink;
 
   /// @brief Field _oculusPlatformWasInitialized, offset 0x20, size 0x1
-  __declspec(property(get = __get__oculusPlatformWasInitialized, put = __set__oculusPlatformWasInitialized)) bool _oculusPlatformWasInitialized;
+  __declspec(property(get = __cordl_internal_get__oculusPlatformWasInitialized, put = __cordl_internal_set__oculusPlatformWasInitialized)) bool _oculusPlatformWasInitialized;
 
   __declspec(property(get = get_currentDeeplink))::GlobalNamespace::Deeplink* currentDeeplink;
 
@@ -56,23 +56,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDeeplinkManager"
   constexpr ::GlobalNamespace::IDeeplinkManager* i___GlobalNamespace__IDeeplinkManager() noexcept;
 
-  constexpr ::System::Action_1<::GlobalNamespace::Deeplink*>*& __get_didReceiveDeeplinkEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::Deeplink*>*& __cordl_internal_get_didReceiveDeeplinkEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::Deeplink*>*> const& __get_didReceiveDeeplinkEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::Deeplink*>*> const& __cordl_internal_get_didReceiveDeeplinkEvent() const;
 
-  constexpr void __set_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
+  constexpr void __cordl_internal_set_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
-  constexpr ::GlobalNamespace::Deeplink*& __get__currentDeeplink();
+  constexpr ::GlobalNamespace::Deeplink*& __cordl_internal_get__currentDeeplink();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Deeplink*> const& __get__currentDeeplink() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Deeplink*> const& __cordl_internal_get__currentDeeplink() const;
 
-  constexpr void __set__currentDeeplink(::GlobalNamespace::Deeplink* value);
+  constexpr void __cordl_internal_set__currentDeeplink(::GlobalNamespace::Deeplink* value);
 
-  constexpr bool& __get__oculusPlatformWasInitialized();
+  constexpr bool& __cordl_internal_get__oculusPlatformWasInitialized();
 
-  constexpr bool const& __get__oculusPlatformWasInitialized() const;
+  constexpr bool const& __cordl_internal_get__oculusPlatformWasInitialized() const;
 
-  constexpr void __set__oculusPlatformWasInitialized(bool value);
+  constexpr void __cordl_internal_set__oculusPlatformWasInitialized(bool value);
 
   /// @brief Method add_didReceiveDeeplinkEvent, addr 0x223dde8, size 0xb0, virtual true, abstract: false, final true
   inline void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);

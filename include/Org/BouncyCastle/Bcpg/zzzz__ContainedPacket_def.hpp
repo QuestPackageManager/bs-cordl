@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ContainedPacket);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(556))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(556))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(560))
 // CS Name: ::Org.BouncyCastle.Bcpg::ContainedPacket*
 class CORDL_TYPE ContainedPacket : public ::Org::BouncyCastle::Bcpg::Packet {

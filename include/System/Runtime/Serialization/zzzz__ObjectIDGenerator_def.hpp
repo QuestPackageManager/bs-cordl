@@ -20,50 +20,50 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectIDGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3216))
 // CS Name: ::System.Runtime.Serialization::ObjectIDGenerator*
 class CORDL_TYPE ObjectIDGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_currentCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_currentCount, put = __set_m_currentCount)) int32_t m_currentCount;
+  __declspec(property(get = __cordl_internal_get_m_currentCount, put = __cordl_internal_set_m_currentCount)) int32_t m_currentCount;
 
   /// @brief Field m_currentSize, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_currentSize, put = __set_m_currentSize)) int32_t m_currentSize;
+  __declspec(property(get = __cordl_internal_get_m_currentSize, put = __cordl_internal_set_m_currentSize)) int32_t m_currentSize;
 
   /// @brief Field m_ids, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ids, put = __set_m_ids))::ArrayW<int64_t, ::Array<int64_t>*> m_ids;
+  __declspec(property(get = __cordl_internal_get_m_ids, put = __cordl_internal_set_m_ids))::ArrayW<int64_t, ::Array<int64_t>*> m_ids;
 
   /// @brief Field m_objs, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_objs, put = __set_m_objs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_objs;
+  __declspec(property(get = __cordl_internal_get_m_objs, put = __cordl_internal_set_m_objs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_objs;
 
   /// @brief Field sizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sizes, put = setStaticF_sizes))::ArrayW<int32_t, ::Array<int32_t>*> sizes;
 
-  constexpr int32_t& __get_m_currentCount();
+  constexpr int32_t& __cordl_internal_get_m_currentCount();
 
-  constexpr int32_t const& __get_m_currentCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_currentCount() const;
 
-  constexpr void __set_m_currentCount(int32_t value);
+  constexpr void __cordl_internal_set_m_currentCount(int32_t value);
 
-  constexpr int32_t& __get_m_currentSize();
+  constexpr int32_t& __cordl_internal_get_m_currentSize();
 
-  constexpr int32_t const& __get_m_currentSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_currentSize() const;
 
-  constexpr void __set_m_currentSize(int32_t value);
+  constexpr void __cordl_internal_set_m_currentSize(int32_t value);
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __get_m_ids();
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get_m_ids();
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __get_m_ids() const;
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get_m_ids() const;
 
-  constexpr void __set_m_ids(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr void __cordl_internal_set_m_ids(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_m_objs();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_m_objs();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_m_objs() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_m_objs() const;
 
-  constexpr void __set_m_objs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_m_objs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   static inline void setStaticF_sizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

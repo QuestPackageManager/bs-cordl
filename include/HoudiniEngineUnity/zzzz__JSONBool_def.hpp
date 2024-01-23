@@ -31,14 +31,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSONBool);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9869))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9877))
 // CS Name: ::HoudiniEngineUnity::JSONBool*
 class CORDL_TYPE JSONBool : public ::HoudiniEngineUnity::JSONNode {
 public:
   // Declarations
   /// @brief Field m_Data, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_Data, put = __set_m_Data)) bool m_Data;
+  __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data)) bool m_Data;
 
   __declspec(property(get = get_Tag))::HoudiniEngineUnity::JSONNodeType Tag;
 
@@ -48,11 +48,11 @@ public:
 
   __declspec(property(get = get_AsBool, put = set_AsBool)) bool AsBool;
 
-  constexpr bool& __get_m_Data();
+  constexpr bool& __cordl_internal_get_m_Data();
 
-  constexpr bool const& __get_m_Data() const;
+  constexpr bool const& __cordl_internal_get_m_Data() const;
 
-  constexpr void __set_m_Data(bool value);
+  constexpr void __cordl_internal_set_m_Data(bool value);
 
   /// @brief Method get_Tag, addr 0x21daebc, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();

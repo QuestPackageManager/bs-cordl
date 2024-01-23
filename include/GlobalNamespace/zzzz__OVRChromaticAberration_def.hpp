@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRChromaticAberration);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8078))
 // CS Name: ::OVRChromaticAberration*
 class CORDL_TYPE OVRChromaticAberration : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field toggleButton, offset 0x18, size 0x4
-  __declspec(property(get = __get_toggleButton, put = __set_toggleButton))::GlobalNamespace::__OVRInput__RawButton toggleButton;
+  __declspec(property(get = __cordl_internal_get_toggleButton, put = __cordl_internal_set_toggleButton))::GlobalNamespace::__OVRInput__RawButton toggleButton;
 
   /// @brief Field chromatic, offset 0x1c, size 0x1
-  __declspec(property(get = __get_chromatic, put = __set_chromatic)) bool chromatic;
+  __declspec(property(get = __cordl_internal_get_chromatic, put = __cordl_internal_set_chromatic)) bool chromatic;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __get_toggleButton();
+  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_toggleButton();
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __get_toggleButton() const;
+  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_toggleButton() const;
 
-  constexpr void __set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
+  constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  constexpr bool& __get_chromatic();
+  constexpr bool& __cordl_internal_get_chromatic();
 
-  constexpr bool const& __get_chromatic() const;
+  constexpr bool const& __cordl_internal_get_chromatic() const;
 
-  constexpr void __set_chromatic(bool value);
+  constexpr void __cordl_internal_set_chromatic(bool value);
 
   /// @brief Method Start, addr 0x27a2190, size 0x9c, virtual false, abstract: false, final false
   inline void Start();

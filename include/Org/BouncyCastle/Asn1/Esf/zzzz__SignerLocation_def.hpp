@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::SignerLocation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(158))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::SignerLocation*
 class CORDL_TYPE SignerLocation : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field countryName, offset 0x10, size 0x8
-  __declspec(property(get = __get_countryName, put = __set_countryName))::Org::BouncyCastle::Asn1::X500::DirectoryString* countryName;
+  __declspec(property(get = __cordl_internal_get_countryName, put = __cordl_internal_set_countryName))::Org::BouncyCastle::Asn1::X500::DirectoryString* countryName;
 
   /// @brief Field localityName, offset 0x18, size 0x8
-  __declspec(property(get = __get_localityName, put = __set_localityName))::Org::BouncyCastle::Asn1::X500::DirectoryString* localityName;
+  __declspec(property(get = __cordl_internal_get_localityName, put = __cordl_internal_set_localityName))::Org::BouncyCastle::Asn1::X500::DirectoryString* localityName;
 
   /// @brief Field postalAddress, offset 0x20, size 0x8
-  __declspec(property(get = __get_postalAddress, put = __set_postalAddress))::Org::BouncyCastle::Asn1::Asn1Sequence* postalAddress;
+  __declspec(property(get = __cordl_internal_get_postalAddress, put = __cordl_internal_set_postalAddress))::Org::BouncyCastle::Asn1::Asn1Sequence* postalAddress;
 
   __declspec(property(get = get_Country))::Org::BouncyCastle::Asn1::X500::DirectoryString* Country;
 
@@ -55,23 +55,23 @@ public:
 
   __declspec(property(get = get_PostalAddress))::Org::BouncyCastle::Asn1::Asn1Sequence* PostalAddress;
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_countryName();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_countryName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_countryName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_countryName() const;
 
-  constexpr void __set_countryName(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_countryName(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_localityName();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_localityName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_localityName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_localityName() const;
 
-  constexpr void __set_localityName(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_localityName(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_postalAddress();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_postalAddress();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_postalAddress() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_postalAddress() const;
 
-  constexpr void __set_postalAddress(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_postalAddress(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerLocation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

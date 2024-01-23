@@ -17,10 +17,10 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioReferenceCountingCache);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5912)), TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(15594)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 276 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5912), inst: 3826 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(5912)), TypeDefinitionIndex(TypeDefinitionIndex(15594)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 276 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5912), inst: 3826 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(5889)) CS Name: ::AudioReferenceCountingCache*
-class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*> {
+class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor();

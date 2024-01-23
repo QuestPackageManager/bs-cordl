@@ -24,7 +24,7 @@ MARK_VAL_T(::System::Net::Http::Headers::Token);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14681))
 // CS Name: ::Token::Type
 struct CORDL_TYPE __Token__Type {
@@ -106,7 +106,7 @@ static_assert(offsetof(::System::Net::Http::Headers::__Token__Type, value__) == 
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14681))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14681))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14682))
 // CS Name: ::System.Net.Http.Headers::Token
 struct CORDL_TYPE Token {

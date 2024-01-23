@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSONNull);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9869))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9878))
 // CS Name: ::HoudiniEngineUnity::JSONNull*
 class CORDL_TYPE JSONNull : public ::HoudiniEngineUnity::JSONNode {

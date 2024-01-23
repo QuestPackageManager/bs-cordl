@@ -23,9 +23,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x2314d38;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), "OnEnable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,9 +36,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2315038;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -49,9 +49,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x210;
   constexpr static std::size_t addrs = 0x2314e28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), "SetupOculus",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -62,106 +62,106 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x231503c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::VRRenderingParamsSetup::__get__vrResolutionScale() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__vrResolutionScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrResolutionScale;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::VRRenderingParamsSetup::__get__vrResolutionScale() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__vrResolutionScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrResolutionScale;
 }
-constexpr void GlobalNamespace::VRRenderingParamsSetup::__set__vrResolutionScale(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_set__vrResolutionScale(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrResolutionScale)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::VRRenderingParamsSetup::__get__menuVRResolutionScaleMultiplier() {
+constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__menuVRResolutionScaleMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuVRResolutionScaleMultiplier;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::VRRenderingParamsSetup::__get__menuVRResolutionScaleMultiplier() const {
+constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__menuVRResolutionScaleMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuVRResolutionScaleMultiplier;
 }
-constexpr void GlobalNamespace::VRRenderingParamsSetup::__set__menuVRResolutionScaleMultiplier(::GlobalNamespace::FloatSO* value) {
+constexpr void GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_set__menuVRResolutionScaleMultiplier(::UnityW<::GlobalNamespace::FloatSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuVRResolutionScaleMultiplier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::VRRenderingParamsSetup::__get__useFixedFoveatedRenderingDuringGameplay() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__useFixedFoveatedRenderingDuringGameplay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useFixedFoveatedRenderingDuringGameplay;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::VRRenderingParamsSetup::__get__useFixedFoveatedRenderingDuringGameplay() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__useFixedFoveatedRenderingDuringGameplay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useFixedFoveatedRenderingDuringGameplay;
 }
-constexpr void GlobalNamespace::VRRenderingParamsSetup::__set__useFixedFoveatedRenderingDuringGameplay(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_set__useFixedFoveatedRenderingDuringGameplay(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____useFixedFoveatedRenderingDuringGameplay)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType& GlobalNamespace::VRRenderingParamsSetup::__get__sceneType() {
+constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__sceneType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneType;
 }
-constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType const& GlobalNamespace::VRRenderingParamsSetup::__get__sceneType() const {
+constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__sceneType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneType;
 }
-constexpr void GlobalNamespace::VRRenderingParamsSetup::__set__sceneType(::GlobalNamespace::__VRRenderingParamsSetup__SceneType value) {
+constexpr void GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_set__sceneType(::GlobalNamespace::__VRRenderingParamsSetup__SceneType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sceneType = value;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::VRRenderingParamsSetup::__get__vrPlatformHelper() {
+constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__vrPlatformHelper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::VRRenderingParamsSetup::__get__vrPlatformHelper() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr void GlobalNamespace::VRRenderingParamsSetup::__set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
+constexpr void GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MainSettingsModelSO*& GlobalNamespace::VRRenderingParamsSetup::__get__mainSettingsModel() {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__mainSettingsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& GlobalNamespace::VRRenderingParamsSetup::__get__mainSettingsModel() const {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__mainSettingsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
-constexpr void GlobalNamespace::VRRenderingParamsSetup::__set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value) {
+constexpr void GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::VRRenderingParamsSetup::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), "OnEnable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::VRRenderingParamsSetup::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::VRRenderingParamsSetup::SetupOculus() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), "SetupOculus",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::VRRenderingParamsSetup* GlobalNamespace::VRRenderingParamsSetup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::VRRenderingParamsSetup*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::VRRenderingParamsSetup*>());
 }
 inline void GlobalNamespace::VRRenderingParamsSetup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

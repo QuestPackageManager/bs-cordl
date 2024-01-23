@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::Mono::Security::Interface::TlsException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13785))
 // CS Name: ::Mono.Security.Interface::TlsException*
 class CORDL_TYPE TlsException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field alert, offset 0x90, size 0x8
-  __declspec(property(get = __get_alert, put = __set_alert))::Mono::Security::Interface::Alert* alert;
+  __declspec(property(get = __cordl_internal_get_alert, put = __cordl_internal_set_alert))::Mono::Security::Interface::Alert* alert;
 
-  constexpr ::Mono::Security::Interface::Alert*& __get_alert();
+  constexpr ::Mono::Security::Interface::Alert*& __cordl_internal_get_alert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::Alert*> const& __get_alert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::Alert*> const& __cordl_internal_get_alert() const;
 
-  constexpr void __set_alert(::Mono::Security::Interface::Alert* value);
+  constexpr void __cordl_internal_set_alert(::Mono::Security::Interface::Alert* value);
 
   static inline ::Mono::Security::Interface::TlsException* New_ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 

@@ -29,38 +29,38 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKMappingBone);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12555))
 // CS Name: ::RootMotion.FinalIK::IKMappingBone*
 class CORDL_TYPE IKMappingBone : public ::RootMotion::FinalIK::IKMapping {
 public:
   // Declarations
   /// @brief Field bone, offset 0x10, size 0x8
-  __declspec(property(get = __get_bone, put = __set_bone))::UnityEngine::Transform* bone;
+  __declspec(property(get = __cordl_internal_get_bone, put = __cordl_internal_set_bone))::UnityW<::UnityEngine::Transform> bone;
 
   /// @brief Field maintainRotationWeight, offset 0x18, size 0x4
-  __declspec(property(get = __get_maintainRotationWeight, put = __set_maintainRotationWeight)) float_t maintainRotationWeight;
+  __declspec(property(get = __cordl_internal_get_maintainRotationWeight, put = __cordl_internal_set_maintainRotationWeight)) float_t maintainRotationWeight;
 
   /// @brief Field boneMap, offset 0x20, size 0x8
-  __declspec(property(get = __get_boneMap, put = __set_boneMap))::RootMotion::FinalIK::__IKMapping__BoneMap* boneMap;
+  __declspec(property(get = __cordl_internal_get_boneMap, put = __cordl_internal_set_boneMap))::RootMotion::FinalIK::__IKMapping__BoneMap* boneMap;
 
-  constexpr ::UnityEngine::Transform*& __get_bone();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_bone() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone() const;
 
-  constexpr void __set_bone(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_bone(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_maintainRotationWeight();
+  constexpr float_t& __cordl_internal_get_maintainRotationWeight();
 
-  constexpr float_t const& __get_maintainRotationWeight() const;
+  constexpr float_t const& __cordl_internal_get_maintainRotationWeight() const;
 
-  constexpr void __set_maintainRotationWeight(float_t value);
+  constexpr void __cordl_internal_set_maintainRotationWeight(float_t value);
 
-  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __get_boneMap();
+  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __cordl_internal_get_boneMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __get_boneMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __cordl_internal_get_boneMap() const;
 
-  constexpr void __set_boneMap(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
+  constexpr void __cordl_internal_set_boneMap(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
 
   /// @brief Method IsValid, addr 0x125c120, size 0x9c, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
@@ -105,7 +105,7 @@ protected:
 
 public:
   /// @brief Field bone, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___bone;
+  ::UnityW<::UnityEngine::Transform> ___bone;
 
   /// @brief Field maintainRotationWeight, offset: 0x18, size: 0x4, def value: None
   float_t ___maintainRotationWeight;

@@ -188,7 +188,7 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapLevelDataLoader___LoadBeatmapLevelFormAss
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4328))
 // CS Name: ::BeatmapLevelDataLoader::AssetBundleLevelInfo
 struct CORDL_TYPE __BeatmapLevelDataLoader__AssetBundleLevelInfo {
@@ -233,19 +233,20 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleL
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4329))
 // CS Name: ::BeatmapLevelDataLoader::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*
 class CORDL_TYPE __BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapCharacteristic, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristic, put = __set__beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
 
   /// @brief Field _difficultyBeatmapSet, offset 0x18, size 0x8
-  __declspec(property(get = __get__difficultyBeatmapSet, put = __set__difficultyBeatmapSet))::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet* _difficultyBeatmapSet;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmapSet,
+                      put = __cordl_internal_set__difficultyBeatmapSet))::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet* _difficultyBeatmapSet;
 
-  __declspec(property(get = get_beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
+  __declspec(property(get = get_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
   __declspec(property(get = get_difficultyBeatmaps))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps;
 
@@ -255,20 +256,20 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmapSet"
   constexpr ::GlobalNamespace::IDifficultyBeatmapSet* i___GlobalNamespace__IDifficultyBeatmapSet() noexcept;
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
-  constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*& __get__difficultyBeatmapSet();
+  constexpr ::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*& __cordl_internal_get__difficultyBeatmapSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*> const& __get__difficultyBeatmapSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*> const& __cordl_internal_get__difficultyBeatmapSet() const;
 
-  constexpr void __set__difficultyBeatmapSet(::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet* value);
+  constexpr void __cordl_internal_set__difficultyBeatmapSet(::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet* value);
 
   /// @brief Method get_beatmapCharacteristic, addr 0x233f390, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
   /// @brief Method get_difficultyBeatmaps, addr 0x233f398, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
@@ -296,7 +297,7 @@ protected:
 
 public:
   /// @brief Field _beatmapCharacteristic, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
   /// @brief Field _difficultyBeatmapSet, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet* ____difficultyBeatmapSet;
@@ -315,7 +316,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevel
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4330))
 // CS Name: ::BeatmapLevelDataLoader::BeatmapLevelFromPreview::BeatmapLevelData*
 class CORDL_TYPE __BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData : public ::System::Object {
@@ -324,13 +325,13 @@ public:
   using DifficultyBeatmapSet = ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet;
 
   /// @brief Field _audioClip, offset 0x10, size 0x8
-  __declspec(property(get = __get__audioClip, put = __set__audioClip))::UnityEngine::AudioClip* _audioClip;
+  __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip))::UnityW<::UnityEngine::AudioClip> _audioClip;
 
   /// @brief Field _difficultyBeatmapSets, offset 0x18, size 0x8
-  __declspec(property(get = __get__difficultyBeatmapSets, put = __set__difficultyBeatmapSets))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmapSets, put = __cordl_internal_set__difficultyBeatmapSets))::System::Collections::Generic::List_1<
       ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet*>* _difficultyBeatmapSets;
 
-  __declspec(property(get = get_audioClip))::UnityEngine::AudioClip* audioClip;
+  __declspec(property(get = get_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
 
   __declspec(property(get = get_difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
 
@@ -340,23 +341,24 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelData"
   constexpr ::GlobalNamespace::IBeatmapLevelData* i___GlobalNamespace__IBeatmapLevelData() noexcept;
 
-  constexpr ::UnityEngine::AudioClip*& __get__audioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__audioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
 
-  constexpr void __set__audioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet*>*& __get__difficultyBeatmapSets();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet*>*&
+  __cordl_internal_get__difficultyBeatmapSets();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet*>*> const&
-  __get__difficultyBeatmapSets() const;
+  __cordl_internal_get__difficultyBeatmapSets() const;
 
-  constexpr void
-  __set__difficultyBeatmapSets(::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet*>* value);
+  constexpr void __cordl_internal_set__difficultyBeatmapSets(
+      ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet*>* value);
 
   /// @brief Method get_audioClip, addr 0x233f30c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::AudioClip* get_audioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
 
   /// @brief Method get_difficultyBeatmapSets, addr 0x233f314, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
@@ -383,7 +385,7 @@ protected:
 
 public:
   /// @brief Field _audioClip, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____audioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
   /// @brief Field _difficultyBeatmapSets, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet*>* ____difficultyBeatmapSets;
@@ -402,9 +404,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevel
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4331)) CS Name: ::BeatmapLevelDataLoader::BeatmapLevelFromPreview::<GetCoverImageAsync>d__41
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 777 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4331)) CS Name: ::BeatmapLevelDataLoader::BeatmapLevelFromPreview::<GetCoverImageAsync>d__41
 struct CORDL_TYPE __BeatmapLevelDataLoader__BeatmapLevelFromPreview___GetCoverImageAsync_d__41 {
 public:
   // Declarations
@@ -421,14 +423,14 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*>", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
   constexpr __BeatmapLevelDataLoader__BeatmapLevelFromPreview___GetCoverImageAsync_d__41(int32_t __1__state,
-                                                                                         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*> __t__builder,
+                                                                                         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::UnityEngine::Sprite>> __t__builder,
                                                                                          ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview* __4__this,
                                                                                          ::System::Threading::CancellationToken cancellationToken,
-                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*> __u__1) noexcept;
+                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -438,7 +440,7 @@ public:
   int32_t __1__state;
 
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*> __t__builder;
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::UnityEngine::Sprite>> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview* __4__this;
@@ -447,7 +449,7 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -472,7 +474,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevel
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4332))
 // CS Name: ::BeatmapLevelDataLoader::BeatmapLevelFromPreview*
 class CORDL_TYPE __BeatmapLevelDataLoader__BeatmapLevelFromPreview : public ::System::Object {
@@ -483,10 +485,11 @@ public:
   using BeatmapLevelData = ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData;
 
   /// @brief Field _level, offset 0x10, size 0x8
-  __declspec(property(get = __get__level, put = __set__level))::GlobalNamespace::IPreviewBeatmapLevel* _level;
+  __declspec(property(get = __cordl_internal_get__level, put = __cordl_internal_set__level))::GlobalNamespace::IPreviewBeatmapLevel* _level;
 
   /// @brief Field _beatmapLevelData, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapLevelData, put = __set__beatmapLevelData))::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData* _beatmapLevelData;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelData,
+                      put = __cordl_internal_set__beatmapLevelData))::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData* _beatmapLevelData;
 
   __declspec(property(get = get_levelID))::StringW levelID;
 
@@ -512,11 +515,11 @@ public:
 
   __declspec(property(get = get_previewDuration)) float_t previewDuration;
 
-  __declspec(property(get = get_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = get_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
-  __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
+  __declspec(property(get = get_allDirectionsEnvironmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> allDirectionsEnvironmentInfo;
 
-  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
+  __declspec(property(get = get_environmentInfos))::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> environmentInfos;
 
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
 
@@ -524,7 +527,7 @@ public:
 
   __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
 
-  __declspec(property(get = get_songPreviewAudioClip))::UnityEngine::AudioClip* songPreviewAudioClip;
+  __declspec(property(get = get_songPreviewAudioClip))::UnityW<::UnityEngine::AudioClip> songPreviewAudioClip;
 
   __declspec(property(get = get_songPreviewAudioClipPath))::StringW songPreviewAudioClipPath;
 
@@ -552,17 +555,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IFilePathSongPreviewAudioClipProvider"
   constexpr ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* i___GlobalNamespace__IFilePathSongPreviewAudioClipProvider() noexcept;
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get__level();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get__level();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get__level() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get__level() const;
 
-  constexpr void __set__level(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set__level(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
-  constexpr ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData*& __get__beatmapLevelData();
+  constexpr ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData*> const& __get__beatmapLevelData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData*> const& __cordl_internal_get__beatmapLevelData() const;
 
-  constexpr void __set__beatmapLevelData(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData* value);
+  constexpr void __cordl_internal_set__beatmapLevelData(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData* value);
 
   /// @brief Method get_levelID, addr 0x233e33c, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_levelID();
@@ -601,13 +604,13 @@ public:
   inline float_t get_previewDuration();
 
   /// @brief Method get_environmentInfo, addr 0x233eae8, size 0xa4, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
   /// @brief Method get_allDirectionsEnvironmentInfo, addr 0x233eb8c, size 0xa4, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_allDirectionsEnvironmentInfo();
 
   /// @brief Method get_environmentInfos, addr 0x233ec30, size 0xa4, virtual true, abstract: false, final true
-  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> get_environmentInfos();
 
   /// @brief Method get_previewDifficultyBeatmapSets, addr 0x233ecd4, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
@@ -619,13 +622,13 @@ public:
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
   /// @brief Method get_songPreviewAudioClip, addr 0x233ee24, size 0xb4, virtual true, abstract: false, final true
-  inline ::UnityEngine::AudioClip* get_songPreviewAudioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_songPreviewAudioClip();
 
   /// @brief Method get_songPreviewAudioClipPath, addr 0x233eed8, size 0xd4, virtual true, abstract: false, final true
   inline ::StringW get_songPreviewAudioClipPath();
 
   /// @brief Method GetCoverImageAsync, addr 0x233efac, size 0xfc, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevelFromPreview* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewLevel);
 
@@ -669,9 +672,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevel
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4391)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 887 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 887 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4333)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelFormAssetBundleAsync>d__5
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 887 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 887 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4333)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelFormAssetBundleAsync>d__5
 struct CORDL_TYPE __BeatmapLevelDataLoader___LoadBeatmapLevelFormAssetBundleAsync_d__5 {
 public:
   // Declarations
@@ -762,9 +765,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader___LoadBeatmap
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 877 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4349)), TypeDefinitionIndex(TypeDefinitionIndex(4391)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 887 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4334)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelAsync>d__7
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4349)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 877 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 887 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4334)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelAsync>d__7
 struct CORDL_TYPE __BeatmapLevelDataLoader___LoadBeatmapLevelAsync_d__7 {
 public:
   // Declarations
@@ -783,10 +786,10 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevel*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::BeatmapLevelDataLoader*", modifiers: "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>", modifiers: "", def_value: None }]
   constexpr __BeatmapLevelDataLoader___LoadBeatmapLevelAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevel*> __t__builder,
                                                                   ::GlobalNamespace::BeatmapLevelDataLoader* __4__this, ::StringW levelID,
-                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*> __u__1) noexcept;
+                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -805,7 +808,7 @@ public:
   ::StringW levelID;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -830,38 +833,39 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader___LoadBeatmap
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4335))
 // CS Name: ::BeatmapLevelDataLoader::<>c__DisplayClass8_0*
 class CORDL_TYPE __BeatmapLevelDataLoader____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assetBundleCreateRequest, offset 0x10, size 0x8
-  __declspec(property(get = __get_assetBundleCreateRequest, put = __set_assetBundleCreateRequest))::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest;
+  __declspec(property(get = __cordl_internal_get_assetBundleCreateRequest, put = __cordl_internal_set_assetBundleCreateRequest))::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest;
 
   /// @brief Field levelDataAssetName, offset 0x18, size 0x8
-  __declspec(property(get = __get_levelDataAssetName, put = __set_levelDataAssetName))::StringW levelDataAssetName;
+  __declspec(property(get = __cordl_internal_get_levelDataAssetName, put = __cordl_internal_set_levelDataAssetName))::StringW levelDataAssetName;
 
   /// @brief Field taskSource, offset 0x20, size 0x8
-  __declspec(property(get = __get_taskSource, put = __set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>* taskSource;
+  __declspec(property(get = __cordl_internal_get_taskSource,
+                      put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>* taskSource;
 
-  constexpr ::UnityEngine::AssetBundleCreateRequest*& __get_assetBundleCreateRequest();
+  constexpr ::UnityEngine::AssetBundleCreateRequest*& __cordl_internal_get_assetBundleCreateRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleCreateRequest*> const& __get_assetBundleCreateRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleCreateRequest*> const& __cordl_internal_get_assetBundleCreateRequest() const;
 
-  constexpr void __set_assetBundleCreateRequest(::UnityEngine::AssetBundleCreateRequest* value);
+  constexpr void __cordl_internal_set_assetBundleCreateRequest(::UnityEngine::AssetBundleCreateRequest* value);
 
-  constexpr ::StringW& __get_levelDataAssetName();
+  constexpr ::StringW& __cordl_internal_get_levelDataAssetName();
 
-  constexpr ::StringW const& __get_levelDataAssetName() const;
+  constexpr ::StringW const& __cordl_internal_get_levelDataAssetName() const;
 
-  constexpr void __set_levelDataAssetName(::StringW value);
+  constexpr void __cordl_internal_set_levelDataAssetName(::StringW value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*& __get_taskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>*& __cordl_internal_get_taskSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*> const& __get_taskSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>*> const& __cordl_internal_get_taskSource() const;
 
-  constexpr void __set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>* value);
+  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>* value);
 
   static inline ::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0* New_ctor();
 
@@ -892,7 +896,7 @@ public:
   ::StringW ___levelDataAssetName;
 
   /// @brief Field taskSource, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>* ___taskSource;
+  ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>* ___taskSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -910,38 +914,38 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader____c__Display
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4336))
 // CS Name: ::BeatmapLevelDataLoader::<>c__DisplayClass8_1*
 class CORDL_TYPE __BeatmapLevelDataLoader____c__DisplayClass8_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assetBundle, offset 0x10, size 0x8
-  __declspec(property(get = __get_assetBundle, put = __set_assetBundle))::UnityEngine::AssetBundle* assetBundle;
+  __declspec(property(get = __cordl_internal_get_assetBundle, put = __cordl_internal_set_assetBundle))::UnityW<::UnityEngine::AssetBundle> assetBundle;
 
   /// @brief Field assetBundleRequest, offset 0x18, size 0x8
-  __declspec(property(get = __get_assetBundleRequest, put = __set_assetBundleRequest))::UnityEngine::AssetBundleRequest* assetBundleRequest;
+  __declspec(property(get = __cordl_internal_get_assetBundleRequest, put = __cordl_internal_set_assetBundleRequest))::UnityEngine::AssetBundleRequest* assetBundleRequest;
 
   /// @brief Field CS$<>8__locals1, offset 0x20, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0* CS$__8__locals1;
 
-  constexpr ::UnityEngine::AssetBundle*& __get_assetBundle();
+  constexpr ::UnityW<::UnityEngine::AssetBundle>& __cordl_internal_get_assetBundle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundle*> const& __get_assetBundle() const;
+  constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_assetBundle() const;
 
-  constexpr void __set_assetBundle(::UnityEngine::AssetBundle* value);
+  constexpr void __cordl_internal_set_assetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  constexpr ::UnityEngine::AssetBundleRequest*& __get_assetBundleRequest();
+  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_assetBundleRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __get_assetBundleRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __cordl_internal_get_assetBundleRequest() const;
 
-  constexpr void __set_assetBundleRequest(::UnityEngine::AssetBundleRequest* value);
+  constexpr void __cordl_internal_set_assetBundleRequest(::UnityEngine::AssetBundleRequest* value);
 
-  constexpr ::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0*& __get_CS$__8__locals1();
+  constexpr ::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_0* value);
 
   static inline ::GlobalNamespace::__BeatmapLevelDataLoader____c__DisplayClass8_1* New_ctor();
 
@@ -966,7 +970,7 @@ protected:
 
 public:
   /// @brief Field assetBundle, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AssetBundle* ___assetBundle;
+  ::UnityW<::UnityEngine::AssetBundle> ___assetBundle;
 
   /// @brief Field assetBundleRequest, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AssetBundleRequest* ___assetBundleRequest;
@@ -990,9 +994,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader____c__Display
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 877 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 877 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4349))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4337)) CS
-// Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelDataAsync>d__8
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4349)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 877 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 877 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4337)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelDataAsync>d__8
 struct CORDL_TYPE __BeatmapLevelDataLoader___LoadBeatmapLevelDataAsync_d__8 {
 public:
   // Declarations
@@ -1009,13 +1013,13 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataSO*>", modifiers: "", def_value: None }, CppParam { name: "levelDataAssetName", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>", modifiers: "", def_value: None }, CppParam { name: "levelDataAssetName", ty:
+  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>", modifiers: "", def_value: None }]
   constexpr __BeatmapLevelDataLoader___LoadBeatmapLevelDataAsync_d__8(int32_t __1__state,
-                                                                      ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataSO*> __t__builder,
+                                                                      ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __t__builder,
                                                                       ::StringW levelDataAssetName, ::StringW assetBundlePath,
-                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*> __u__1) noexcept;
+                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -1025,7 +1029,7 @@ public:
   int32_t __1__state;
 
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataSO*> __t__builder;
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __t__builder;
 
   /// @brief Field levelDataAssetName, offset: 0x20, size: 0x8, def value: None
   ::StringW levelDataAssetName;
@@ -1034,7 +1038,7 @@ public:
   ::StringW assetBundlePath;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1059,7 +1063,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader___LoadBeatmap
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4338))
 // CS Name: ::BeatmapLevelDataLoader*
 class CORDL_TYPE BeatmapLevelDataLoader : public ::System::Object {
@@ -1080,16 +1084,17 @@ public:
   using AssetBundleLevelInfo = ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo;
 
   /// @brief Field _beatmapLevelsAsyncCache, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevelsAsyncCache,
-                      put = __set__beatmapLevelsAsyncCache))::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* _beatmapLevelsAsyncCache;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsAsyncCache,
+                      put = __cordl_internal_set__beatmapLevelsAsyncCache))::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* _beatmapLevelsAsyncCache;
 
   /// @brief Field _bundleLevelInfos, offset 0x18, size 0x8
-  __declspec(property(get = __get__bundleLevelInfos,
-                      put = __set__bundleLevelInfos))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo>* _bundleLevelInfos;
+  __declspec(property(
+      get = __cordl_internal_get__bundleLevelInfos,
+      put = __cordl_internal_set__bundleLevelInfos))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo>* _bundleLevelInfos;
 
   /// @brief Field _allBeatmapCharacteristicCollection, offset 0x20, size 0x8
-  __declspec(property(get = __get__allBeatmapCharacteristicCollection,
-                      put = __set__allBeatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _allBeatmapCharacteristicCollection;
+  __declspec(property(get = __cordl_internal_get__allBeatmapCharacteristicCollection,
+                      put = __cordl_internal_set__allBeatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _allBeatmapCharacteristicCollection;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -1097,24 +1102,24 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*& __get__beatmapLevelsAsyncCache();
+  constexpr ::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*& __cordl_internal_get__beatmapLevelsAsyncCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*> const& __get__beatmapLevelsAsyncCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*> const& __cordl_internal_get__beatmapLevelsAsyncCache() const;
 
-  constexpr void __set__beatmapLevelsAsyncCache(::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* value);
+  constexpr void __cordl_internal_set__beatmapLevelsAsyncCache(::GlobalNamespace::AsyncCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo>*& __get__bundleLevelInfos();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo>*& __cordl_internal_get__bundleLevelInfos();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo>*> const&
-  __get__bundleLevelInfos() const;
+  __cordl_internal_get__bundleLevelInfos() const;
 
-  constexpr void __set__bundleLevelInfos(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo>* value);
+  constexpr void __cordl_internal_set__bundleLevelInfos(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__BeatmapLevelDataLoader__AssetBundleLevelInfo>* value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __get__allBeatmapCharacteristicCollection();
+  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__allBeatmapCharacteristicCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __get__allBeatmapCharacteristicCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__allBeatmapCharacteristicCollection() const;
 
-  constexpr void __set__allBeatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr void __cordl_internal_set__allBeatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
   static inline ::GlobalNamespace::BeatmapLevelDataLoader* New_ctor(::GlobalNamespace::BeatmapCharacteristicCollection* allBeatmapCharacteristicCollection);
 
@@ -1133,7 +1138,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelAsync(::StringW levelID);
 
   /// @brief Method LoadBeatmapLevelDataAsync, addr 0x233e234, size 0xfc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataSO*>* LoadBeatmapLevelDataAsync(::StringW assetBundlePath, ::StringW levelDataAssetName);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>* LoadBeatmapLevelDataAsync(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

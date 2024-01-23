@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::UnityEngine::Light);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10063))
 // CS Name: ::UnityEngine::Light*
 class CORDL_TYPE Light : public ::UnityEngine::Behaviour {
 public:
   // Declarations
   /// @brief Field m_BakedIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_BakedIndex, put = __set_m_BakedIndex)) int32_t m_BakedIndex;
+  __declspec(property(get = __cordl_internal_get_m_BakedIndex, put = __cordl_internal_set_m_BakedIndex)) int32_t m_BakedIndex;
 
   __declspec(property(get = get_shadows))::UnityEngine::LightShadows shadows;
 
   __declspec(property(get = get_cookieSize)) float_t cookieSize;
 
-  __declspec(property(get = get_cookie))::UnityEngine::Texture* cookie;
+  __declspec(property(get = get_cookie))::UnityW<::UnityEngine::Texture> cookie;
 
   __declspec(property(get = get_type))::UnityEngine::LightType type;
 
@@ -65,11 +65,11 @@ public:
 
   __declspec(property(get = get_bakingOutput))::UnityEngine::LightBakingOutput bakingOutput;
 
-  constexpr int32_t& __get_m_BakedIndex();
+  constexpr int32_t& __cordl_internal_get_m_BakedIndex();
 
-  constexpr int32_t const& __get_m_BakedIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_BakedIndex() const;
 
-  constexpr void __set_m_BakedIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_BakedIndex(int32_t value);
 
   /// @brief Method get_shadows, addr 0x2ca2614, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::LightShadows get_shadows();
@@ -78,7 +78,7 @@ public:
   inline float_t get_cookieSize();
 
   /// @brief Method get_cookie, addr 0x2ca268c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* get_cookie();
+  inline ::UnityW<::UnityEngine::Texture> get_cookie();
 
   /// @brief Method get_type, addr 0x2ca26c8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::LightType get_type();

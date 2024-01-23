@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1330))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsStream*
 class CORDL_TYPE TlsStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field handler, offset 0x28, size 0x8
-  __declspec(property(get = __get_handler, put = __set_handler))::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler;
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -41,11 +41,11 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*& __get_handler();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*& __cordl_internal_get_handler();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsProtocol*> const& __get_handler() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsProtocol*> const& __cordl_internal_get_handler() const;
 
-  constexpr void __set_handler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* value);
+  constexpr void __cordl_internal_set_handler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
 

@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::System::Exception);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2560))
 // CS Name: ::Exception::ExceptionMessageKind
 struct CORDL_TYPE __Exception__ExceptionMessageKind {
@@ -106,7 +106,7 @@ static_assert(offsetof(::System::__Exception__ExceptionMessageKind, value__) == 
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2561))
 // CS Name: ::System::Exception*
 class CORDL_TYPE Exception : public ::System::Object {
@@ -115,52 +115,54 @@ public:
   using ExceptionMessageKind = ::System::__Exception__ExceptionMessageKind;
 
   /// @brief Field _className, offset 0x10, size 0x8
-  __declspec(property(get = __get__className, put = __set__className))::StringW _className;
+  __declspec(property(get = __cordl_internal_get__className, put = __cordl_internal_set__className))::StringW _className;
 
   /// @brief Field _message, offset 0x18, size 0x8
-  __declspec(property(get = __get__message, put = __set__message))::StringW _message;
+  __declspec(property(get = __cordl_internal_get__message, put = __cordl_internal_set__message))::StringW _message;
 
   /// @brief Field _data, offset 0x20, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::System::Collections::IDictionary* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::System::Collections::IDictionary* _data;
 
   /// @brief Field _innerException, offset 0x28, size 0x8
-  __declspec(property(get = __get__innerException, put = __set__innerException))::System::Exception* _innerException;
+  __declspec(property(get = __cordl_internal_get__innerException, put = __cordl_internal_set__innerException))::System::Exception* _innerException;
 
   /// @brief Field _helpURL, offset 0x30, size 0x8
-  __declspec(property(get = __get__helpURL, put = __set__helpURL))::StringW _helpURL;
+  __declspec(property(get = __cordl_internal_get__helpURL, put = __cordl_internal_set__helpURL))::StringW _helpURL;
 
   /// @brief Field _stackTrace, offset 0x38, size 0x8
-  __declspec(property(get = __get__stackTrace, put = __set__stackTrace))::System::Object* _stackTrace;
+  __declspec(property(get = __cordl_internal_get__stackTrace, put = __cordl_internal_set__stackTrace))::System::Object* _stackTrace;
 
   /// @brief Field _stackTraceString, offset 0x40, size 0x8
-  __declspec(property(get = __get__stackTraceString, put = __set__stackTraceString))::StringW _stackTraceString;
+  __declspec(property(get = __cordl_internal_get__stackTraceString, put = __cordl_internal_set__stackTraceString))::StringW _stackTraceString;
 
   /// @brief Field _remoteStackTraceString, offset 0x48, size 0x8
-  __declspec(property(get = __get__remoteStackTraceString, put = __set__remoteStackTraceString))::StringW _remoteStackTraceString;
+  __declspec(property(get = __cordl_internal_get__remoteStackTraceString, put = __cordl_internal_set__remoteStackTraceString))::StringW _remoteStackTraceString;
 
   /// @brief Field _remoteStackIndex, offset 0x50, size 0x4
-  __declspec(property(get = __get__remoteStackIndex, put = __set__remoteStackIndex)) int32_t _remoteStackIndex;
+  __declspec(property(get = __cordl_internal_get__remoteStackIndex, put = __cordl_internal_set__remoteStackIndex)) int32_t _remoteStackIndex;
 
   /// @brief Field _dynamicMethods, offset 0x58, size 0x8
-  __declspec(property(get = __get__dynamicMethods, put = __set__dynamicMethods))::System::Object* _dynamicMethods;
+  __declspec(property(get = __cordl_internal_get__dynamicMethods, put = __cordl_internal_set__dynamicMethods))::System::Object* _dynamicMethods;
 
   /// @brief Field _HResult, offset 0x60, size 0x4
-  __declspec(property(get = __get__HResult, put = __set__HResult)) int32_t _HResult;
+  __declspec(property(get = __cordl_internal_get__HResult, put = __cordl_internal_set__HResult)) int32_t _HResult;
 
   /// @brief Field _source, offset 0x68, size 0x8
-  __declspec(property(get = __get__source, put = __set__source))::StringW _source;
+  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source))::StringW _source;
 
   /// @brief Field _safeSerializationManager, offset 0x70, size 0x8
-  __declspec(property(get = __get__safeSerializationManager, put = __set__safeSerializationManager))::System::Runtime::Serialization::SafeSerializationManager* _safeSerializationManager;
+  __declspec(property(get = __cordl_internal_get__safeSerializationManager,
+                      put = __cordl_internal_set__safeSerializationManager))::System::Runtime::Serialization::SafeSerializationManager* _safeSerializationManager;
 
   /// @brief Field captured_traces, offset 0x78, size 0x8
-  __declspec(property(get = __get_captured_traces, put = __set_captured_traces))::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> captured_traces;
+  __declspec(property(get = __cordl_internal_get_captured_traces,
+                      put = __cordl_internal_set_captured_traces))::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> captured_traces;
 
   /// @brief Field native_trace_ips, offset 0x80, size 0x8
-  __declspec(property(get = __get_native_trace_ips, put = __set_native_trace_ips))::ArrayW<void*, ::Array<void*>*> native_trace_ips;
+  __declspec(property(get = __cordl_internal_get_native_trace_ips, put = __cordl_internal_set_native_trace_ips))::ArrayW<void*, ::Array<void*>*> native_trace_ips;
 
   /// @brief Field caught_in_unmanaged, offset 0x88, size 0x4
-  __declspec(property(get = __get_caught_in_unmanaged, put = __set_caught_in_unmanaged)) int32_t caught_in_unmanaged;
+  __declspec(property(get = __cordl_internal_get_caught_in_unmanaged, put = __cordl_internal_set_caught_in_unmanaged)) int32_t caught_in_unmanaged;
 
   /// @brief Field s_EDILock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_EDILock, put = setStaticF_s_EDILock))::System::Object* s_EDILock;
@@ -183,101 +185,101 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::StringW& __get__className();
+  constexpr ::StringW& __cordl_internal_get__className();
 
-  constexpr ::StringW const& __get__className() const;
+  constexpr ::StringW const& __cordl_internal_get__className() const;
 
-  constexpr void __set__className(::StringW value);
+  constexpr void __cordl_internal_set__className(::StringW value);
 
-  constexpr ::StringW& __get__message();
+  constexpr ::StringW& __cordl_internal_get__message();
 
-  constexpr ::StringW const& __get__message() const;
+  constexpr ::StringW const& __cordl_internal_get__message() const;
 
-  constexpr void __set__message(::StringW value);
+  constexpr void __cordl_internal_set__message(::StringW value);
 
-  constexpr ::System::Collections::IDictionary*& __get__data();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get__data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get__data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set__data(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Exception*& __get__innerException();
+  constexpr ::System::Exception*& __cordl_internal_get__innerException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get__innerException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get__innerException() const;
 
-  constexpr void __set__innerException(::System::Exception* value);
+  constexpr void __cordl_internal_set__innerException(::System::Exception* value);
 
-  constexpr ::StringW& __get__helpURL();
+  constexpr ::StringW& __cordl_internal_get__helpURL();
 
-  constexpr ::StringW const& __get__helpURL() const;
+  constexpr ::StringW const& __cordl_internal_get__helpURL() const;
 
-  constexpr void __set__helpURL(::StringW value);
+  constexpr void __cordl_internal_set__helpURL(::StringW value);
 
-  constexpr ::System::Object*& __get__stackTrace();
+  constexpr ::System::Object*& __cordl_internal_get__stackTrace();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__stackTrace() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__stackTrace() const;
 
-  constexpr void __set__stackTrace(::System::Object* value);
+  constexpr void __cordl_internal_set__stackTrace(::System::Object* value);
 
-  constexpr ::StringW& __get__stackTraceString();
+  constexpr ::StringW& __cordl_internal_get__stackTraceString();
 
-  constexpr ::StringW const& __get__stackTraceString() const;
+  constexpr ::StringW const& __cordl_internal_get__stackTraceString() const;
 
-  constexpr void __set__stackTraceString(::StringW value);
+  constexpr void __cordl_internal_set__stackTraceString(::StringW value);
 
-  constexpr ::StringW& __get__remoteStackTraceString();
+  constexpr ::StringW& __cordl_internal_get__remoteStackTraceString();
 
-  constexpr ::StringW const& __get__remoteStackTraceString() const;
+  constexpr ::StringW const& __cordl_internal_get__remoteStackTraceString() const;
 
-  constexpr void __set__remoteStackTraceString(::StringW value);
+  constexpr void __cordl_internal_set__remoteStackTraceString(::StringW value);
 
-  constexpr int32_t& __get__remoteStackIndex();
+  constexpr int32_t& __cordl_internal_get__remoteStackIndex();
 
-  constexpr int32_t const& __get__remoteStackIndex() const;
+  constexpr int32_t const& __cordl_internal_get__remoteStackIndex() const;
 
-  constexpr void __set__remoteStackIndex(int32_t value);
+  constexpr void __cordl_internal_set__remoteStackIndex(int32_t value);
 
-  constexpr ::System::Object*& __get__dynamicMethods();
+  constexpr ::System::Object*& __cordl_internal_get__dynamicMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__dynamicMethods() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__dynamicMethods() const;
 
-  constexpr void __set__dynamicMethods(::System::Object* value);
+  constexpr void __cordl_internal_set__dynamicMethods(::System::Object* value);
 
-  constexpr int32_t& __get__HResult();
+  constexpr int32_t& __cordl_internal_get__HResult();
 
-  constexpr int32_t const& __get__HResult() const;
+  constexpr int32_t const& __cordl_internal_get__HResult() const;
 
-  constexpr void __set__HResult(int32_t value);
+  constexpr void __cordl_internal_set__HResult(int32_t value);
 
-  constexpr ::StringW& __get__source();
+  constexpr ::StringW& __cordl_internal_get__source();
 
-  constexpr ::StringW const& __get__source() const;
+  constexpr ::StringW const& __cordl_internal_get__source() const;
 
-  constexpr void __set__source(::StringW value);
+  constexpr void __cordl_internal_set__source(::StringW value);
 
-  constexpr ::System::Runtime::Serialization::SafeSerializationManager*& __get__safeSerializationManager();
+  constexpr ::System::Runtime::Serialization::SafeSerializationManager*& __cordl_internal_get__safeSerializationManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SafeSerializationManager*> const& __get__safeSerializationManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SafeSerializationManager*> const& __cordl_internal_get__safeSerializationManager() const;
 
-  constexpr void __set__safeSerializationManager(::System::Runtime::Serialization::SafeSerializationManager* value);
+  constexpr void __cordl_internal_set__safeSerializationManager(::System::Runtime::Serialization::SafeSerializationManager* value);
 
-  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*>& __get_captured_traces();
+  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*>& __cordl_internal_get_captured_traces();
 
-  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> const& __get_captured_traces() const;
+  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> const& __cordl_internal_get_captured_traces() const;
 
-  constexpr void __set_captured_traces(::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> value);
+  constexpr void __cordl_internal_set_captured_traces(::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> value);
 
-  constexpr ::ArrayW<void*, ::Array<void*>*>& __get_native_trace_ips();
+  constexpr ::ArrayW<void*, ::Array<void*>*>& __cordl_internal_get_native_trace_ips();
 
-  constexpr ::ArrayW<void*, ::Array<void*>*> const& __get_native_trace_ips() const;
+  constexpr ::ArrayW<void*, ::Array<void*>*> const& __cordl_internal_get_native_trace_ips() const;
 
-  constexpr void __set_native_trace_ips(::ArrayW<void*, ::Array<void*>*> value);
+  constexpr void __cordl_internal_set_native_trace_ips(::ArrayW<void*, ::Array<void*>*> value);
 
-  constexpr int32_t& __get_caught_in_unmanaged();
+  constexpr int32_t& __cordl_internal_get_caught_in_unmanaged();
 
-  constexpr int32_t const& __get_caught_in_unmanaged() const;
+  constexpr int32_t const& __cordl_internal_get_caught_in_unmanaged() const;
 
-  constexpr void __set_caught_in_unmanaged(int32_t value);
+  constexpr void __cordl_internal_set_caught_in_unmanaged(int32_t value);
 
   static inline void setStaticF_s_EDILock(::System::Object* value);
 

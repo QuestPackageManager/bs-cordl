@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenera
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(905))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Gost3410ParametersGenerator*
 class CORDL_TYPE Gost3410ParametersGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field size, offset 0x10, size 0x4
-  __declspec(property(get = __get_size, put = __set_size)) int32_t size;
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
   /// @brief Field typeproc, offset 0x14, size 0x4
-  __declspec(property(get = __get_typeproc, put = __set_typeproc)) int32_t typeproc;
+  __declspec(property(get = __cordl_internal_get_typeproc, put = __cordl_internal_set_typeproc)) int32_t typeproc;
 
   /// @brief Field init_random, offset 0x18, size 0x8
-  __declspec(property(get = __get_init_random, put = __set_init_random))::Org::BouncyCastle::Security::SecureRandom* init_random;
+  __declspec(property(get = __cordl_internal_get_init_random, put = __cordl_internal_set_init_random))::Org::BouncyCastle::Security::SecureRandom* init_random;
 
-  constexpr int32_t& __get_size();
+  constexpr int32_t& __cordl_internal_get_size();
 
-  constexpr int32_t const& __get_size() const;
+  constexpr int32_t const& __cordl_internal_get_size() const;
 
-  constexpr void __set_size(int32_t value);
+  constexpr void __cordl_internal_set_size(int32_t value);
 
-  constexpr int32_t& __get_typeproc();
+  constexpr int32_t& __cordl_internal_get_typeproc();
 
-  constexpr int32_t const& __get_typeproc() const;
+  constexpr int32_t const& __cordl_internal_get_typeproc() const;
 
-  constexpr void __set_typeproc(int32_t value);
+  constexpr void __cordl_internal_set_typeproc(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_init_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_init_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_init_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_init_random() const;
 
-  constexpr void __set_init_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_init_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
   /// @brief Method Init, addr 0xefa9d4, size 0xc, virtual false, abstract: false, final false
   inline void Init(int32_t size, int32_t typeProcedure, ::Org::BouncyCastle::Security::SecureRandom* random);

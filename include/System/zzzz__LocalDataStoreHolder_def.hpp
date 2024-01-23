@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::System::LocalDataStoreHolder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2541))
 // CS Name: ::System::LocalDataStoreHolder*
 class CORDL_TYPE LocalDataStoreHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Store, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Store, put = __set_m_Store))::System::LocalDataStore* m_Store;
+  __declspec(property(get = __cordl_internal_get_m_Store, put = __cordl_internal_set_m_Store))::System::LocalDataStore* m_Store;
 
   __declspec(property(get = get_Store))::System::LocalDataStore* Store;
 
-  constexpr ::System::LocalDataStore*& __get_m_Store();
+  constexpr ::System::LocalDataStore*& __cordl_internal_get_m_Store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStore*> const& __get_m_Store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStore*> const& __cordl_internal_get_m_Store() const;
 
-  constexpr void __set_m_Store(::System::LocalDataStore* value);
+  constexpr void __cordl_internal_set_m_Store(::System::LocalDataStore* value);
 
   static inline ::System::LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store);
 

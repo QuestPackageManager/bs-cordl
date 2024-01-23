@@ -28,40 +28,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerApplicationSpecific);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(471))
 // CS Name: ::Org.BouncyCastle.Asn1::DerApplicationSpecific*
 class CORDL_TYPE DerApplicationSpecific : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   /// @brief Field isConstructed, offset 0x10, size 0x1
-  __declspec(property(get = __get_isConstructed, put = __set_isConstructed)) bool isConstructed;
+  __declspec(property(get = __cordl_internal_get_isConstructed, put = __cordl_internal_set_isConstructed)) bool isConstructed;
 
   /// @brief Field tag, offset 0x14, size 0x4
-  __declspec(property(get = __get_tag, put = __set_tag)) int32_t tag;
+  __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag)) int32_t tag;
 
   /// @brief Field octets, offset 0x18, size 0x8
-  __declspec(property(get = __get_octets, put = __set_octets))::ArrayW<uint8_t, ::Array<uint8_t>*> octets;
+  __declspec(property(get = __cordl_internal_get_octets, put = __cordl_internal_set_octets))::ArrayW<uint8_t, ::Array<uint8_t>*> octets;
 
   __declspec(property(get = get_ApplicationTag)) int32_t ApplicationTag;
 
-  constexpr bool& __get_isConstructed();
+  constexpr bool& __cordl_internal_get_isConstructed();
 
-  constexpr bool const& __get_isConstructed() const;
+  constexpr bool const& __cordl_internal_get_isConstructed() const;
 
-  constexpr void __set_isConstructed(bool value);
+  constexpr void __cordl_internal_set_isConstructed(bool value);
 
-  constexpr int32_t& __get_tag();
+  constexpr int32_t& __cordl_internal_get_tag();
 
-  constexpr int32_t const& __get_tag() const;
+  constexpr int32_t const& __cordl_internal_get_tag() const;
 
-  constexpr void __set_tag(int32_t value);
+  constexpr void __cordl_internal_set_tag(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_octets();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_octets();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_octets() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_octets() const;
 
-  constexpr void __set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(bool isConstructed, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 

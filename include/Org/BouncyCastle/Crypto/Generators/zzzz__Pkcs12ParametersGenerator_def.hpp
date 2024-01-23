@@ -23,38 +23,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerato
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(916))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(916))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(918))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Pkcs12ParametersGenerator*
 class CORDL_TYPE Pkcs12ParametersGenerator : public ::Org::BouncyCastle::Crypto::PbeParametersGenerator {
 public:
   // Declarations
   /// @brief Field digest, offset 0x28, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field u, offset 0x30, size 0x4
-  __declspec(property(get = __get_u, put = __set_u)) int32_t u;
+  __declspec(property(get = __cordl_internal_get_u, put = __cordl_internal_set_u)) int32_t u;
 
   /// @brief Field v, offset 0x34, size 0x4
-  __declspec(property(get = __get_v, put = __set_v)) int32_t v;
+  __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) int32_t v;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr int32_t& __get_u();
+  constexpr int32_t& __cordl_internal_get_u();
 
-  constexpr int32_t const& __get_u() const;
+  constexpr int32_t const& __cordl_internal_get_u() const;
 
-  constexpr void __set_u(int32_t value);
+  constexpr void __cordl_internal_set_u(int32_t value);
 
-  constexpr int32_t& __get_v();
+  constexpr int32_t& __cordl_internal_get_v();
 
-  constexpr int32_t const& __get_v() const;
+  constexpr int32_t const& __cordl_internal_get_v() const;
 
-  constexpr void __set_v(int32_t value);
+  constexpr void __cordl_internal_set_v(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 

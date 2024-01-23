@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::ConstructedOctetStream);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(498))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(499))
 // CS Name: ::Org.BouncyCastle.Asn1::ConstructedOctetStream*
 class CORDL_TYPE ConstructedOctetStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
   /// @brief Field _parser, offset 0x30, size 0x8
-  __declspec(property(get = __get__parser, put = __set__parser))::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
+  __declspec(property(get = __cordl_internal_get__parser, put = __cordl_internal_set__parser))::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
 
   /// @brief Field _first, offset 0x38, size 0x1
-  __declspec(property(get = __get__first, put = __set__first)) bool _first;
+  __declspec(property(get = __cordl_internal_get__first, put = __cordl_internal_set__first)) bool _first;
 
   /// @brief Field _currentStream, offset 0x40, size 0x8
-  __declspec(property(get = __get__currentStream, put = __set__currentStream))::System::IO::Stream* _currentStream;
+  __declspec(property(get = __cordl_internal_get__currentStream, put = __cordl_internal_set__currentStream))::System::IO::Stream* _currentStream;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __get__parser();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get__parser();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1StreamParser*> const& __get__parser() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1StreamParser*> const& __cordl_internal_get__parser() const;
 
-  constexpr void __set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
+  constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
-  constexpr bool& __get__first();
+  constexpr bool& __cordl_internal_get__first();
 
-  constexpr bool const& __get__first() const;
+  constexpr bool const& __cordl_internal_get__first() const;
 
-  constexpr void __set__first(bool value);
+  constexpr void __cordl_internal_set__first(bool value);
 
-  constexpr ::System::IO::Stream*& __get__currentStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__currentStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__currentStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__currentStream() const;
 
-  constexpr void __set__currentStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__currentStream(::System::IO::Stream* value);
 
   static inline ::Org::BouncyCastle::Asn1::ConstructedOctetStream* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 

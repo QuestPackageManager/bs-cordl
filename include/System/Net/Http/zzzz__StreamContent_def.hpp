@@ -29,56 +29,56 @@ MARK_REF_PTR_T(::System::Net::Http::StreamContent);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14649))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14649))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14656))
 // CS Name: ::System.Net.Http::StreamContent*
 class CORDL_TYPE StreamContent : public ::System::Net::Http::HttpContent {
 public:
   // Declarations
   /// @brief Field content, offset 0x28, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::System::IO::Stream* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::IO::Stream* content;
 
   /// @brief Field bufferSize, offset 0x30, size 0x4
-  __declspec(property(get = __get_bufferSize, put = __set_bufferSize)) int32_t bufferSize;
+  __declspec(property(get = __cordl_internal_get_bufferSize, put = __cordl_internal_set_bufferSize)) int32_t bufferSize;
 
   /// @brief Field cancellationToken, offset 0x38, size 0x8
-  __declspec(property(get = __get_cancellationToken, put = __set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field startPosition, offset 0x40, size 0x8
-  __declspec(property(get = __get_startPosition, put = __set_startPosition)) int64_t startPosition;
+  __declspec(property(get = __cordl_internal_get_startPosition, put = __cordl_internal_set_startPosition)) int64_t startPosition;
 
   /// @brief Field contentCopied, offset 0x48, size 0x1
-  __declspec(property(get = __get_contentCopied, put = __set_contentCopied)) bool contentCopied;
+  __declspec(property(get = __cordl_internal_get_contentCopied, put = __cordl_internal_set_contentCopied)) bool contentCopied;
 
-  constexpr ::System::IO::Stream*& __get_content();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_content(::System::IO::Stream* value);
 
-  constexpr int32_t& __get_bufferSize();
+  constexpr int32_t& __cordl_internal_get_bufferSize();
 
-  constexpr int32_t const& __get_bufferSize() const;
+  constexpr int32_t const& __cordl_internal_get_bufferSize() const;
 
-  constexpr void __set_bufferSize(int32_t value);
+  constexpr void __cordl_internal_set_bufferSize(int32_t value);
 
-  constexpr ::System::Threading::CancellationToken& __get_cancellationToken();
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __get_cancellationToken() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
-  constexpr void __set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr int64_t& __get_startPosition();
+  constexpr int64_t& __cordl_internal_get_startPosition();
 
-  constexpr int64_t const& __get_startPosition() const;
+  constexpr int64_t const& __cordl_internal_get_startPosition() const;
 
-  constexpr void __set_startPosition(int64_t value);
+  constexpr void __cordl_internal_set_startPosition(int64_t value);
 
-  constexpr bool& __get_contentCopied();
+  constexpr bool& __cordl_internal_get_contentCopied();
 
-  constexpr bool const& __get_contentCopied() const;
+  constexpr bool const& __cordl_internal_get_contentCopied() const;
 
-  constexpr void __set_contentCopied(bool value);
+  constexpr void __cordl_internal_set_contentCopied(bool value);
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content);
 

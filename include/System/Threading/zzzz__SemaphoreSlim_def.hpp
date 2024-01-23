@@ -75,17 +75,17 @@ MARK_VAL_T(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 105 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2697))
 // CS Name: ::SemaphoreSlim::TaskNode*
 class CORDL_TYPE __SemaphoreSlim__TaskNode : public ::System::Threading::Tasks::Task_1<bool> {
 public:
   // Declarations
   /// @brief Field Prev, offset 0x58, size 0x8
-  __declspec(property(get = __get_Prev, put = __set_Prev))::System::Threading::__SemaphoreSlim__TaskNode* Prev;
+  __declspec(property(get = __cordl_internal_get_Prev, put = __cordl_internal_set_Prev))::System::Threading::__SemaphoreSlim__TaskNode* Prev;
 
   /// @brief Field Next, offset 0x60, size 0x8
-  __declspec(property(get = __get_Next, put = __set_Next))::System::Threading::__SemaphoreSlim__TaskNode* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::Threading::__SemaphoreSlim__TaskNode* Next;
 
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
@@ -93,17 +93,17 @@ public:
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
   constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __get_Prev();
+  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __cordl_internal_get_Prev();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __get_Prev() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __cordl_internal_get_Prev() const;
 
-  constexpr void __set_Prev(::System::Threading::__SemaphoreSlim__TaskNode* value);
+  constexpr void __cordl_internal_set_Prev(::System::Threading::__SemaphoreSlim__TaskNode* value);
 
-  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __get_Next();
+  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __get_Next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __set_Next(::System::Threading::__SemaphoreSlim__TaskNode* value);
+  constexpr void __cordl_internal_set_Next(::System::Threading::__SemaphoreSlim__TaskNode* value);
 
   static inline ::System::Threading::__SemaphoreSlim__TaskNode* New_ctor();
 
@@ -150,10 +150,10 @@ static_assert(offsetof(::System::Threading::__SemaphoreSlim__TaskNode, ___Next) 
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2698)) CS
-// Name: ::SemaphoreSlim::<WaitUntilCountOrTimeoutAsync>d__32
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 400 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2698)) CS Name:
+// ::SemaphoreSlim::<WaitUntilCountOrTimeoutAsync>d__32
 struct CORDL_TYPE __SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32 {
 public:
   // Declarations
@@ -250,7 +250,7 @@ static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTi
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2699))
 // CS Name: ::System.Threading::SemaphoreSlim*
 class CORDL_TYPE SemaphoreSlim : public ::System::Object {
@@ -261,25 +261,25 @@ public:
   using TaskNode = ::System::Threading::__SemaphoreSlim__TaskNode;
 
   /// @brief Field m_currentCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_currentCount, put = __set_m_currentCount)) int32_t m_currentCount;
+  __declspec(property(get = __cordl_internal_get_m_currentCount, put = __cordl_internal_set_m_currentCount)) int32_t m_currentCount;
 
   /// @brief Field m_maxCount, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_maxCount, put = __set_m_maxCount)) int32_t m_maxCount;
+  __declspec(property(get = __cordl_internal_get_m_maxCount, put = __cordl_internal_set_m_maxCount)) int32_t m_maxCount;
 
   /// @brief Field m_waitCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_waitCount, put = __set_m_waitCount)) int32_t m_waitCount;
+  __declspec(property(get = __cordl_internal_get_m_waitCount, put = __cordl_internal_set_m_waitCount)) int32_t m_waitCount;
 
   /// @brief Field m_lockObj, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_lockObj, put = __set_m_lockObj))::System::Object* m_lockObj;
+  __declspec(property(get = __cordl_internal_get_m_lockObj, put = __cordl_internal_set_m_lockObj))::System::Object* m_lockObj;
 
   /// @brief Field m_waitHandle, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_waitHandle, put = __set_m_waitHandle))::System::Threading::ManualResetEvent* m_waitHandle;
+  __declspec(property(get = __cordl_internal_get_m_waitHandle, put = __cordl_internal_set_m_waitHandle))::System::Threading::ManualResetEvent* m_waitHandle;
 
   /// @brief Field m_asyncHead, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_asyncHead, put = __set_m_asyncHead))::System::Threading::__SemaphoreSlim__TaskNode* m_asyncHead;
+  __declspec(property(get = __cordl_internal_get_m_asyncHead, put = __cordl_internal_set_m_asyncHead))::System::Threading::__SemaphoreSlim__TaskNode* m_asyncHead;
 
   /// @brief Field m_asyncTail, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_asyncTail, put = __set_m_asyncTail))::System::Threading::__SemaphoreSlim__TaskNode* m_asyncTail;
+  __declspec(property(get = __cordl_internal_get_m_asyncTail, put = __cordl_internal_set_m_asyncTail))::System::Threading::__SemaphoreSlim__TaskNode* m_asyncTail;
 
   /// @brief Field s_trueTask, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_trueTask, put = setStaticF_s_trueTask))::System::Threading::Tasks::Task_1<bool>* s_trueTask;
@@ -299,47 +299,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_m_currentCount();
+  constexpr int32_t& __cordl_internal_get_m_currentCount();
 
-  constexpr int32_t const& __get_m_currentCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_currentCount() const;
 
-  constexpr void __set_m_currentCount(int32_t value);
+  constexpr void __cordl_internal_set_m_currentCount(int32_t value);
 
-  constexpr int32_t& __get_m_maxCount();
+  constexpr int32_t& __cordl_internal_get_m_maxCount();
 
-  constexpr int32_t const& __get_m_maxCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_maxCount() const;
 
-  constexpr void __set_m_maxCount(int32_t value);
+  constexpr void __cordl_internal_set_m_maxCount(int32_t value);
 
-  constexpr int32_t& __get_m_waitCount();
+  constexpr int32_t& __cordl_internal_get_m_waitCount();
 
-  constexpr int32_t const& __get_m_waitCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_waitCount() const;
 
-  constexpr void __set_m_waitCount(int32_t value);
+  constexpr void __cordl_internal_set_m_waitCount(int32_t value);
 
-  constexpr ::System::Object*& __get_m_lockObj();
+  constexpr ::System::Object*& __cordl_internal_get_m_lockObj();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_lockObj() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_lockObj() const;
 
-  constexpr void __set_m_lockObj(::System::Object* value);
+  constexpr void __cordl_internal_set_m_lockObj(::System::Object* value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_m_waitHandle();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_m_waitHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_m_waitHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_m_waitHandle() const;
 
-  constexpr void __set_m_waitHandle(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_m_waitHandle(::System::Threading::ManualResetEvent* value);
 
-  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __get_m_asyncHead();
+  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __cordl_internal_get_m_asyncHead();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __get_m_asyncHead() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __cordl_internal_get_m_asyncHead() const;
 
-  constexpr void __set_m_asyncHead(::System::Threading::__SemaphoreSlim__TaskNode* value);
+  constexpr void __cordl_internal_set_m_asyncHead(::System::Threading::__SemaphoreSlim__TaskNode* value);
 
-  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __get_m_asyncTail();
+  constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __cordl_internal_get_m_asyncTail();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __get_m_asyncTail() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& __cordl_internal_get_m_asyncTail() const;
 
-  constexpr void __set_m_asyncTail(::System::Threading::__SemaphoreSlim__TaskNode* value);
+  constexpr void __cordl_internal_set_m_asyncTail(::System::Threading::__SemaphoreSlim__TaskNode* value);
 
   static inline void setStaticF_s_trueTask(::System::Threading::Tasks::Task_1<bool>* value);
 

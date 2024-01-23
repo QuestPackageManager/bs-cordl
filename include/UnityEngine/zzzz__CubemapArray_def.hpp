@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::CubemapArray);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10071))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10071))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10077))
 // CS Name: ::UnityEngine::CubemapArray*
 class CORDL_TYPE CubemapArray : public ::UnityEngine::Texture {

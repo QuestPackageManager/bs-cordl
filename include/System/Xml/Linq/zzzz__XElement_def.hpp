@@ -63,32 +63,32 @@ MARK_REF_PTR_T(::System::Xml::Linq::__XElement___GetAttributes_d__116);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15440))
 // CS Name: ::XElement::<GetAttributes>d__116*
 class CORDL_TYPE __XElement___GetAttributes_d__116 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Xml::Linq::XAttribute* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Xml::Linq::XAttribute* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Xml::Linq::XElement* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Xml::Linq::XElement* __4__this;
 
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::Xml::Linq::XName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::Linq::XName* name;
 
   /// @brief Field <>3__name, offset 0x38, size 0x8
-  __declspec(property(get = __get___3__name, put = __set___3__name))::System::Xml::Linq::XName* __3__name;
+  __declspec(property(get = __cordl_internal_get___3__name, put = __cordl_internal_set___3__name))::System::Xml::Linq::XName* __3__name;
 
   /// @brief Field <a>5__2, offset 0x40, size 0x8
-  __declspec(property(get = __get__a_5__2, put = __set__a_5__2))::System::Xml::Linq::XAttribute* _a_5__2;
+  __declspec(property(get = __cordl_internal_get__a_5__2, put = __cordl_internal_set__a_5__2))::System::Xml::Linq::XAttribute* _a_5__2;
 
   __declspec(property(
       get = System_Collections_Generic_IEnumerator_System_Xml_Linq_XAttribute__get_Current))::System::Xml::Linq::XAttribute* System_Collections_Generic_IEnumerator_System_Xml_Linq_XAttribute__Current;
@@ -125,47 +125,47 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Xml::Linq::XAttribute*& __get___2__current();
+  constexpr ::System::Xml::Linq::XAttribute*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Xml::Linq::XAttribute* value);
+  constexpr void __cordl_internal_set___2__current(::System::Xml::Linq::XAttribute* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Xml::Linq::XElement*& __get___4__this();
+  constexpr ::System::Xml::Linq::XElement*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XElement*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XElement*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Xml::Linq::XElement* value);
+  constexpr void __cordl_internal_set___4__this(::System::Xml::Linq::XElement* value);
 
-  constexpr ::System::Xml::Linq::XName*& __get_name();
+  constexpr ::System::Xml::Linq::XName*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::Xml::Linq::XName* value);
+  constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
 
-  constexpr ::System::Xml::Linq::XName*& __get___3__name();
+  constexpr ::System::Xml::Linq::XName*& __cordl_internal_get___3__name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __get___3__name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __cordl_internal_get___3__name() const;
 
-  constexpr void __set___3__name(::System::Xml::Linq::XName* value);
+  constexpr void __cordl_internal_set___3__name(::System::Xml::Linq::XName* value);
 
-  constexpr ::System::Xml::Linq::XAttribute*& __get__a_5__2();
+  constexpr ::System::Xml::Linq::XAttribute*& __cordl_internal_get__a_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __get__a_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __cordl_internal_get__a_5__2() const;
 
-  constexpr void __set__a_5__2(::System::Xml::Linq::XAttribute* value);
+  constexpr void __cordl_internal_set__a_5__2(::System::Xml::Linq::XAttribute* value);
 
   static inline ::System::Xml::Linq::__XElement___GetAttributes_d__116* New_ctor(int32_t __1__state);
 
@@ -252,7 +252,7 @@ static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, _
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15436))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15436))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15441))
 // CS Name: ::System.Xml.Linq::XElement*
 class CORDL_TYPE XElement : public ::System::Xml::Linq::XContainer {
@@ -261,10 +261,10 @@ public:
   using _GetAttributes_d__116 = ::System::Xml::Linq::__XElement___GetAttributes_d__116;
 
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::Xml::Linq::XName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::Linq::XName* name;
 
   /// @brief Field lastAttr, offset 0x38, size 0x8
-  __declspec(property(get = __get_lastAttr, put = __set_lastAttr))::System::Xml::Linq::XAttribute* lastAttr;
+  __declspec(property(get = __cordl_internal_get_lastAttr, put = __cordl_internal_set_lastAttr))::System::Xml::Linq::XAttribute* lastAttr;
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
@@ -274,17 +274,17 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  constexpr ::System::Xml::Linq::XName*& __get_name();
+  constexpr ::System::Xml::Linq::XName*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::Xml::Linq::XName* value);
+  constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
 
-  constexpr ::System::Xml::Linq::XAttribute*& __get_lastAttr();
+  constexpr ::System::Xml::Linq::XAttribute*& __cordl_internal_get_lastAttr();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __get_lastAttr() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __cordl_internal_get_lastAttr() const;
 
-  constexpr void __set_lastAttr(::System::Xml::Linq::XAttribute* value);
+  constexpr void __cordl_internal_set_lastAttr(::System::Xml::Linq::XAttribute* value);
 
   static inline ::System::Xml::Linq::XElement* New_ctor(::System::Xml::Linq::XName* name);
 

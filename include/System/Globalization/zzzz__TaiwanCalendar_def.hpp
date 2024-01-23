@@ -32,14 +32,14 @@ MARK_REF_PTR_T(::System::Globalization::TaiwanCalendar);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3705))
 // CS Name: ::System.Globalization::TaiwanCalendar*
 class CORDL_TYPE TaiwanCalendar : public ::System::Globalization::Calendar {
 public:
   // Declarations
   /// @brief Field helper, offset 0x20, size 0x8
-  __declspec(property(get = __get_helper, put = __set_helper))::System::Globalization::GregorianCalendarHelper* helper;
+  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper))::System::Globalization::GregorianCalendarHelper* helper;
 
   /// @brief Field taiwanEraInfo, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_taiwanEraInfo, put = setStaticF_taiwanEraInfo))::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> taiwanEraInfo;
@@ -60,11 +60,11 @@ public:
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
 
-  constexpr ::System::Globalization::GregorianCalendarHelper*& __get_helper();
+  constexpr ::System::Globalization::GregorianCalendarHelper*& __cordl_internal_get_helper();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::GregorianCalendarHelper*> const& __get_helper() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::GregorianCalendarHelper*> const& __cordl_internal_get_helper() const;
 
-  constexpr void __set_helper(::System::Globalization::GregorianCalendarHelper* value);
+  constexpr void __cordl_internal_set_helper(::System::Globalization::GregorianCalendarHelper* value);
 
   static inline void setStaticF_taiwanEraInfo(::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> value);
 

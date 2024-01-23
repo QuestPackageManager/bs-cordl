@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Task__TaskCallback);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9797))
 // CS Name: ::HEU_Task::TaskStatus
 struct CORDL_TYPE __HEU_Task__TaskStatus {
@@ -122,7 +122,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskStatus, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9798))
 // CS Name: ::HEU_Task::TaskResult
 struct CORDL_TYPE __HEU_Task__TaskResult {
@@ -180,7 +180,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskResult, value__) ==
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9799))
 // CS Name: ::HEU_Task::TaskCallback*
 class CORDL_TYPE __HEU_Task__TaskCallback : public ::System::MulticastDelegate {
@@ -224,8 +224,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9797)), TypeDefinitionIndex(TypeDefinitionIndex(9798)), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9800)) CS Name: ::HoudiniEngineUnity::HEU_Task*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9797)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9798))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9800)) CS Name: ::HoudiniEngineUnity::HEU_Task*
 class CORDL_TYPE HEU_Task : public ::System::Object {
 public:
   // Declarations
@@ -236,42 +236,42 @@ public:
   using TaskStatus = ::HoudiniEngineUnity::__HEU_Task__TaskStatus;
 
   /// @brief Field _status, offset 0x10, size 0x4
-  __declspec(property(get = __get__status, put = __set__status))::HoudiniEngineUnity::__HEU_Task__TaskStatus _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::HoudiniEngineUnity::__HEU_Task__TaskStatus _status;
 
   /// @brief Field _result, offset 0x14, size 0x4
-  __declspec(property(get = __get__result, put = __set__result))::HoudiniEngineUnity::__HEU_Task__TaskResult _result;
+  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result))::HoudiniEngineUnity::__HEU_Task__TaskResult _result;
 
   /// @brief Field _guid, offset 0x18, size 0x10
-  __declspec(property(get = __get__guid, put = __set__guid))::System::Guid _guid;
+  __declspec(property(get = __cordl_internal_get__guid, put = __cordl_internal_set__guid))::System::Guid _guid;
 
   /// @brief Field _taskCompletedDelegate, offset 0x28, size 0x8
-  __declspec(property(get = __get__taskCompletedDelegate, put = __set__taskCompletedDelegate))::HoudiniEngineUnity::__HEU_Task__TaskCallback* _taskCompletedDelegate;
+  __declspec(property(get = __cordl_internal_get__taskCompletedDelegate, put = __cordl_internal_set__taskCompletedDelegate))::HoudiniEngineUnity::__HEU_Task__TaskCallback* _taskCompletedDelegate;
 
   __declspec(property(get = get_TaskGuid))::System::Guid TaskGuid;
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus& __get__status();
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus& __cordl_internal_get__status();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus const& __get__status() const;
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(::HoudiniEngineUnity::__HEU_Task__TaskStatus value);
+  constexpr void __cordl_internal_set__status(::HoudiniEngineUnity::__HEU_Task__TaskStatus value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult& __get__result();
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult& __cordl_internal_get__result();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult const& __get__result() const;
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult const& __cordl_internal_get__result() const;
 
-  constexpr void __set__result(::HoudiniEngineUnity::__HEU_Task__TaskResult value);
+  constexpr void __cordl_internal_set__result(::HoudiniEngineUnity::__HEU_Task__TaskResult value);
 
-  constexpr ::System::Guid& __get__guid();
+  constexpr ::System::Guid& __cordl_internal_get__guid();
 
-  constexpr ::System::Guid const& __get__guid() const;
+  constexpr ::System::Guid const& __cordl_internal_get__guid() const;
 
-  constexpr void __set__guid(::System::Guid value);
+  constexpr void __cordl_internal_set__guid(::System::Guid value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskCallback*& __get__taskCompletedDelegate();
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskCallback*& __cordl_internal_get__taskCompletedDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_Task__TaskCallback*> const& __get__taskCompletedDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_Task__TaskCallback*> const& __cordl_internal_get__taskCompletedDelegate() const;
 
-  constexpr void __set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
+  constexpr void __cordl_internal_set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
 
   /// @brief Method get_TaskGuid, addr 0x21aa6a8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_TaskGuid();

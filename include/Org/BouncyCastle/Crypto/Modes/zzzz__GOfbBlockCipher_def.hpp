@@ -23,35 +23,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(971))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::GOfbBlockCipher*
 class CORDL_TYPE GOfbBlockCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IV, offset 0x10, size 0x8
-  __declspec(property(get = __get_IV, put = __set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+  __declspec(property(get = __cordl_internal_get_IV, put = __cordl_internal_set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
   /// @brief Field ofbV, offset 0x18, size 0x8
-  __declspec(property(get = __get_ofbV, put = __set_ofbV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbV;
+  __declspec(property(get = __cordl_internal_get_ofbV, put = __cordl_internal_set_ofbV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbV;
 
   /// @brief Field ofbOutV, offset 0x20, size 0x8
-  __declspec(property(get = __get_ofbOutV, put = __set_ofbOutV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbOutV;
+  __declspec(property(get = __cordl_internal_get_ofbOutV, put = __cordl_internal_set_ofbOutV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbOutV;
 
   /// @brief Field blockSize, offset 0x28, size 0x4
-  __declspec(property(get = __get_blockSize, put = __set_blockSize)) int32_t blockSize;
+  __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
   /// @brief Field cipher, offset 0x30, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field firstStep, offset 0x38, size 0x1
-  __declspec(property(get = __get_firstStep, put = __set_firstStep)) bool firstStep;
+  __declspec(property(get = __cordl_internal_get_firstStep, put = __cordl_internal_set_firstStep)) bool firstStep;
 
   /// @brief Field N3, offset 0x3c, size 0x4
-  __declspec(property(get = __get_N3, put = __set_N3)) int32_t N3;
+  __declspec(property(get = __cordl_internal_get_N3, put = __cordl_internal_set_N3)) int32_t N3;
 
   /// @brief Field N4, offset 0x40, size 0x4
-  __declspec(property(get = __get_N4, put = __set_N4)) int32_t N4;
+  __declspec(property(get = __cordl_internal_get_N4, put = __cordl_internal_set_N4)) int32_t N4;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -63,53 +63,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_IV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_IV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_IV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_IV() const;
 
-  constexpr void __set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ofbV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ofbV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ofbV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ofbV() const;
 
-  constexpr void __set_ofbV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ofbV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ofbOutV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ofbOutV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ofbOutV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ofbOutV() const;
 
-  constexpr void __set_ofbOutV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ofbOutV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_blockSize();
+  constexpr int32_t& __cordl_internal_get_blockSize();
 
-  constexpr int32_t const& __get_blockSize() const;
+  constexpr int32_t const& __cordl_internal_get_blockSize() const;
 
-  constexpr void __set_blockSize(int32_t value);
+  constexpr void __cordl_internal_set_blockSize(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr bool& __get_firstStep();
+  constexpr bool& __cordl_internal_get_firstStep();
 
-  constexpr bool const& __get_firstStep() const;
+  constexpr bool const& __cordl_internal_get_firstStep() const;
 
-  constexpr void __set_firstStep(bool value);
+  constexpr void __cordl_internal_set_firstStep(bool value);
 
-  constexpr int32_t& __get_N3();
+  constexpr int32_t& __cordl_internal_get_N3();
 
-  constexpr int32_t const& __get_N3() const;
+  constexpr int32_t const& __cordl_internal_get_N3() const;
 
-  constexpr void __set_N3(int32_t value);
+  constexpr void __cordl_internal_set_N3(int32_t value);
 
-  constexpr int32_t& __get_N4();
+  constexpr int32_t& __cordl_internal_get_N4();
 
-  constexpr int32_t const& __get_N4() const;
+  constexpr int32_t const& __cordl_internal_get_N4() const;
 
-  constexpr void __set_N4(int32_t value);
+  constexpr void __cordl_internal_set_N4(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 

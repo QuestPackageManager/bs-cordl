@@ -26,99 +26,103 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusHMD);
 // SizeInfo { instance_size: 608, native_size: -1, calculated_instance_size: 608, calculated_native_size: 608, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6324))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6324))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15153))
 // CS Name: ::Unity.XR.Oculus.Input::OculusHMD*
 class CORDL_TYPE OculusHMD : public ::UnityEngine::InputSystem::XR::XRHMD {
 public:
   // Declarations
   /// @brief Field <userPresence>k__BackingField, offset 0x1a8, size 0x8
-  __declspec(property(get = __get__userPresence_k__BackingField, put = __set__userPresence_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _userPresence_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userPresence_k__BackingField,
+                      put = __cordl_internal_set__userPresence_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _userPresence_k__BackingField;
 
   /// @brief Field <trackingState>k__BackingField, offset 0x1b0, size 0x8
-  __declspec(property(get = __get__trackingState_k__BackingField, put = __set__trackingState_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__trackingState_k__BackingField,
+                      put = __cordl_internal_set__trackingState_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
 
   /// @brief Field <isTracked>k__BackingField, offset 0x1b8, size 0x8
-  __declspec(property(get = __get__isTracked_k__BackingField, put = __set__isTracked_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _isTracked_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isTracked_k__BackingField,
+                      put = __cordl_internal_set__isTracked_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _isTracked_k__BackingField;
 
   /// @brief Field <devicePosition>k__BackingField, offset 0x1c0, size 0x8
-  __declspec(property(get = __get__devicePosition_k__BackingField, put = __set__devicePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _devicePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__devicePosition_k__BackingField,
+                      put = __cordl_internal_set__devicePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _devicePosition_k__BackingField;
 
   /// @brief Field <deviceRotation>k__BackingField, offset 0x1c8, size 0x8
-  __declspec(property(get = __get__deviceRotation_k__BackingField,
-                      put = __set__deviceRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _deviceRotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deviceRotation_k__BackingField,
+                      put = __cordl_internal_set__deviceRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _deviceRotation_k__BackingField;
 
   /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x1d0, size 0x8
-  __declspec(property(get = __get__deviceAngularVelocity_k__BackingField,
-                      put = __set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deviceAngularVelocity_k__BackingField,
+                      put = __cordl_internal_set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
 
   /// @brief Field <deviceAcceleration>k__BackingField, offset 0x1d8, size 0x8
-  __declspec(property(get = __get__deviceAcceleration_k__BackingField,
-                      put = __set__deviceAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deviceAcceleration_k__BackingField,
+                      put = __cordl_internal_set__deviceAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAcceleration_k__BackingField;
 
   /// @brief Field <deviceAngularAcceleration>k__BackingField, offset 0x1e0, size 0x8
-  __declspec(property(get = __get__deviceAngularAcceleration_k__BackingField,
-                      put = __set__deviceAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deviceAngularAcceleration_k__BackingField,
+                      put = __cordl_internal_set__deviceAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularAcceleration_k__BackingField;
 
   /// @brief Field <leftEyePosition>k__BackingField, offset 0x1e8, size 0x8
-  __declspec(property(get = __get__leftEyePosition_k__BackingField,
-                      put = __set__leftEyePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftEyePosition_k__BackingField,
+                      put = __cordl_internal_set__leftEyePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyePosition_k__BackingField;
 
   /// @brief Field <leftEyeRotation>k__BackingField, offset 0x1f0, size 0x8
-  __declspec(property(get = __get__leftEyeRotation_k__BackingField,
-                      put = __set__leftEyeRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _leftEyeRotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftEyeRotation_k__BackingField,
+                      put = __cordl_internal_set__leftEyeRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _leftEyeRotation_k__BackingField;
 
   /// @brief Field <leftEyeAngularVelocity>k__BackingField, offset 0x1f8, size 0x8
-  __declspec(property(get = __get__leftEyeAngularVelocity_k__BackingField,
-                      put = __set__leftEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAngularVelocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftEyeAngularVelocity_k__BackingField,
+                      put = __cordl_internal_set__leftEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAngularVelocity_k__BackingField;
 
   /// @brief Field <leftEyeAcceleration>k__BackingField, offset 0x200, size 0x8
-  __declspec(property(get = __get__leftEyeAcceleration_k__BackingField,
-                      put = __set__leftEyeAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftEyeAcceleration_k__BackingField,
+                      put = __cordl_internal_set__leftEyeAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAcceleration_k__BackingField;
 
   /// @brief Field <leftEyeAngularAcceleration>k__BackingField, offset 0x208, size 0x8
-  __declspec(property(get = __get__leftEyeAngularAcceleration_k__BackingField,
-                      put = __set__leftEyeAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAngularAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftEyeAngularAcceleration_k__BackingField,
+                      put = __cordl_internal_set__leftEyeAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAngularAcceleration_k__BackingField;
 
   /// @brief Field <rightEyePosition>k__BackingField, offset 0x210, size 0x8
-  __declspec(property(get = __get__rightEyePosition_k__BackingField,
-                      put = __set__rightEyePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightEyePosition_k__BackingField,
+                      put = __cordl_internal_set__rightEyePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyePosition_k__BackingField;
 
   /// @brief Field <rightEyeRotation>k__BackingField, offset 0x218, size 0x8
-  __declspec(property(get = __get__rightEyeRotation_k__BackingField,
-                      put = __set__rightEyeRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _rightEyeRotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightEyeRotation_k__BackingField,
+                      put = __cordl_internal_set__rightEyeRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _rightEyeRotation_k__BackingField;
 
   /// @brief Field <rightEyeAngularVelocity>k__BackingField, offset 0x220, size 0x8
-  __declspec(property(get = __get__rightEyeAngularVelocity_k__BackingField,
-                      put = __set__rightEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAngularVelocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightEyeAngularVelocity_k__BackingField,
+                      put = __cordl_internal_set__rightEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAngularVelocity_k__BackingField;
 
   /// @brief Field <rightEyeAcceleration>k__BackingField, offset 0x228, size 0x8
-  __declspec(property(get = __get__rightEyeAcceleration_k__BackingField,
-                      put = __set__rightEyeAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightEyeAcceleration_k__BackingField,
+                      put = __cordl_internal_set__rightEyeAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAcceleration_k__BackingField;
 
   /// @brief Field <rightEyeAngularAcceleration>k__BackingField, offset 0x230, size 0x8
-  __declspec(property(get = __get__rightEyeAngularAcceleration_k__BackingField,
-                      put = __set__rightEyeAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAngularAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightEyeAngularAcceleration_k__BackingField,
+                      put = __cordl_internal_set__rightEyeAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAngularAcceleration_k__BackingField;
 
   /// @brief Field <centerEyePosition>k__BackingField, offset 0x238, size 0x8
-  __declspec(property(get = __get__centerEyePosition_k__BackingField,
-                      put = __set__centerEyePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__centerEyePosition_k__BackingField,
+                      put = __cordl_internal_set__centerEyePosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyePosition_k__BackingField;
 
   /// @brief Field <centerEyeRotation>k__BackingField, offset 0x240, size 0x8
-  __declspec(property(get = __get__centerEyeRotation_k__BackingField,
-                      put = __set__centerEyeRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _centerEyeRotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__centerEyeRotation_k__BackingField,
+                      put = __cordl_internal_set__centerEyeRotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _centerEyeRotation_k__BackingField;
 
   /// @brief Field <centerEyeAngularVelocity>k__BackingField, offset 0x248, size 0x8
-  __declspec(property(get = __get__centerEyeAngularVelocity_k__BackingField,
-                      put = __set__centerEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAngularVelocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__centerEyeAngularVelocity_k__BackingField,
+                      put = __cordl_internal_set__centerEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAngularVelocity_k__BackingField;
 
   /// @brief Field <centerEyeAcceleration>k__BackingField, offset 0x250, size 0x8
-  __declspec(property(get = __get__centerEyeAcceleration_k__BackingField,
-                      put = __set__centerEyeAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__centerEyeAcceleration_k__BackingField,
+                      put = __cordl_internal_set__centerEyeAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAcceleration_k__BackingField;
 
   /// @brief Field <centerEyeAngularAcceleration>k__BackingField, offset 0x258, size 0x8
-  __declspec(property(get = __get__centerEyeAngularAcceleration_k__BackingField,
-                      put = __set__centerEyeAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAngularAcceleration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__centerEyeAngularAcceleration_k__BackingField,
+                      put = __cordl_internal_set__centerEyeAngularAcceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAngularAcceleration_k__BackingField;
 
   __declspec(property(get = get_userPresence, put = set_userPresence))::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
@@ -166,143 +170,143 @@ public:
 
   __declspec(property(get = get_centerEyeAngularAcceleration, put = set_centerEyeAngularAcceleration))::UnityEngine::InputSystem::Controls::Vector3Control* centerEyeAngularAcceleration;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__userPresence_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__userPresence_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__userPresence_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__userPresence_k__BackingField() const;
 
-  constexpr void __set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __get__trackingState_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__trackingState_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __get__trackingState_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__trackingState_k__BackingField() const;
 
-  constexpr void __set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+  constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__isTracked_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__isTracked_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__isTracked_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__isTracked_k__BackingField() const;
 
-  constexpr void __set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__devicePosition_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__devicePosition_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__devicePosition_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__devicePosition_k__BackingField() const;
 
-  constexpr void __set__devicePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__devicePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __get__deviceRotation_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__deviceRotation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __get__deviceRotation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __cordl_internal_get__deviceRotation_k__BackingField() const;
 
-  constexpr void __set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
+  constexpr void __cordl_internal_set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__deviceAngularVelocity_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceAngularVelocity_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__deviceAngularVelocity_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceAngularVelocity_k__BackingField() const;
 
-  constexpr void __set__deviceAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__deviceAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__deviceAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__deviceAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceAcceleration_k__BackingField() const;
 
-  constexpr void __set__deviceAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__deviceAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__deviceAngularAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceAngularAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__deviceAngularAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceAngularAcceleration_k__BackingField() const;
 
-  constexpr void __set__deviceAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__deviceAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__leftEyePosition_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__leftEyePosition_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__leftEyePosition_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__leftEyePosition_k__BackingField() const;
 
-  constexpr void __set__leftEyePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__leftEyePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __get__leftEyeRotation_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__leftEyeRotation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __get__leftEyeRotation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __cordl_internal_get__leftEyeRotation_k__BackingField() const;
 
-  constexpr void __set__leftEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
+  constexpr void __cordl_internal_set__leftEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__leftEyeAngularVelocity_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__leftEyeAngularVelocity_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__leftEyeAngularVelocity_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__leftEyeAngularVelocity_k__BackingField() const;
 
-  constexpr void __set__leftEyeAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__leftEyeAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__leftEyeAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__leftEyeAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__leftEyeAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__leftEyeAcceleration_k__BackingField() const;
 
-  constexpr void __set__leftEyeAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__leftEyeAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__leftEyeAngularAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__leftEyeAngularAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__leftEyeAngularAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__leftEyeAngularAcceleration_k__BackingField() const;
 
-  constexpr void __set__leftEyeAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__leftEyeAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__rightEyePosition_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__rightEyePosition_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__rightEyePosition_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__rightEyePosition_k__BackingField() const;
 
-  constexpr void __set__rightEyePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__rightEyePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __get__rightEyeRotation_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__rightEyeRotation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __get__rightEyeRotation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __cordl_internal_get__rightEyeRotation_k__BackingField() const;
 
-  constexpr void __set__rightEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
+  constexpr void __cordl_internal_set__rightEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__rightEyeAngularVelocity_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__rightEyeAngularVelocity_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__rightEyeAngularVelocity_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__rightEyeAngularVelocity_k__BackingField() const;
 
-  constexpr void __set__rightEyeAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__rightEyeAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__rightEyeAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__rightEyeAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__rightEyeAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__rightEyeAcceleration_k__BackingField() const;
 
-  constexpr void __set__rightEyeAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__rightEyeAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__rightEyeAngularAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__rightEyeAngularAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__rightEyeAngularAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__rightEyeAngularAcceleration_k__BackingField() const;
 
-  constexpr void __set__rightEyeAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__rightEyeAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__centerEyePosition_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__centerEyePosition_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__centerEyePosition_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__centerEyePosition_k__BackingField() const;
 
-  constexpr void __set__centerEyePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__centerEyePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __get__centerEyeRotation_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__centerEyeRotation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __get__centerEyeRotation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __cordl_internal_get__centerEyeRotation_k__BackingField() const;
 
-  constexpr void __set__centerEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
+  constexpr void __cordl_internal_set__centerEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__centerEyeAngularVelocity_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__centerEyeAngularVelocity_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__centerEyeAngularVelocity_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__centerEyeAngularVelocity_k__BackingField() const;
 
-  constexpr void __set__centerEyeAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__centerEyeAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__centerEyeAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__centerEyeAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__centerEyeAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__centerEyeAcceleration_k__BackingField() const;
 
-  constexpr void __set__centerEyeAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__centerEyeAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__centerEyeAngularAcceleration_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__centerEyeAngularAcceleration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__centerEyeAngularAcceleration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__centerEyeAngularAcceleration_k__BackingField() const;
 
-  constexpr void __set__centerEyeAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__centerEyeAngularAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// @brief Method get_userPresence, addr 0x2c7bda0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();

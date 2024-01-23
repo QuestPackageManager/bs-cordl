@@ -30,18 +30,18 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfi
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14937))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14937))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14972))
 // CS Name: ::PlatformNetworkPlayerModel::CreatePartyConfig*
 class CORDL_TYPE __PlatformNetworkPlayerModel__CreatePartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
   // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*
-  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__PlatformNetworkPlayerModel__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*
+  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW___GlobalNamespace__PlatformNetworkPlayerModel__() noexcept;
 
   static inline ::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfig* New_ctor();
 
@@ -72,7 +72,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformNetwo
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14940))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14940))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14973))
 // CS Name: ::PlatformNetworkPlayerModel*
 class CORDL_TYPE PlatformNetworkPlayerModel : public ::GlobalNamespace::BaseNetworkPlayerModel {

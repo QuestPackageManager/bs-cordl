@@ -29,28 +29,28 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonPropertyCollection);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3816)), TypeDefinitionIndex(TypeDefinitionIndex(11945)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3816), inst:
-// 3945 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11946)) CS Name: ::Newtonsoft.Json.Serialization::JsonPropertyCollection*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3816)), TypeDefinitionIndex(TypeDefinitionIndex(11945)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3816), inst:
+// 3945 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11946)) CS Name: ::Newtonsoft.Json.Serialization::JsonPropertyCollection*
 class CORDL_TYPE JsonPropertyCollection : public ::System::Collections::ObjectModel::KeyedCollection_2<::StringW, ::Newtonsoft::Json::Serialization::JsonProperty*> {
 public:
   // Declarations
   /// @brief Field _type, offset 0x30, size 0x8
-  __declspec(property(get = __get__type, put = __set__type))::System::Type* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
   /// @brief Field _list, offset 0x38, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>* _list;
 
-  constexpr ::System::Type*& __get__type();
+  constexpr ::System::Type*& __cordl_internal_get__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::System::Type* value);
+  constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>*& __get__list();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>* value);
 
   static inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* New_ctor(::System::Type* type);
 

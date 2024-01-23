@@ -26,32 +26,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(973))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::KCtrBlockCipher*
 class CORDL_TYPE KCtrBlockCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IV, offset 0x10, size 0x8
-  __declspec(property(get = __get_IV, put = __set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+  __declspec(property(get = __cordl_internal_get_IV, put = __cordl_internal_set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
   /// @brief Field ofbV, offset 0x18, size 0x8
-  __declspec(property(get = __get_ofbV, put = __set_ofbV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbV;
+  __declspec(property(get = __cordl_internal_get_ofbV, put = __cordl_internal_set_ofbV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbV;
 
   /// @brief Field ofbOutV, offset 0x20, size 0x8
-  __declspec(property(get = __get_ofbOutV, put = __set_ofbOutV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbOutV;
+  __declspec(property(get = __cordl_internal_get_ofbOutV, put = __cordl_internal_set_ofbOutV))::ArrayW<uint8_t, ::Array<uint8_t>*> ofbOutV;
 
   /// @brief Field initialised, offset 0x28, size 0x1
-  __declspec(property(get = __get_initialised, put = __set_initialised)) bool initialised;
+  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
 
   /// @brief Field byteCount, offset 0x2c, size 0x4
-  __declspec(property(get = __get_byteCount, put = __set_byteCount)) int32_t byteCount;
+  __declspec(property(get = __cordl_internal_get_byteCount, put = __cordl_internal_set_byteCount)) int32_t byteCount;
 
   /// @brief Field blockSize, offset 0x30, size 0x4
-  __declspec(property(get = __get_blockSize, put = __set_blockSize)) int32_t blockSize;
+  __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
   /// @brief Field cipher, offset 0x38, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -69,47 +69,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_IV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_IV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_IV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_IV() const;
 
-  constexpr void __set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ofbV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ofbV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ofbV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ofbV() const;
 
-  constexpr void __set_ofbV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ofbV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ofbOutV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ofbOutV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ofbOutV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ofbOutV() const;
 
-  constexpr void __set_ofbOutV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ofbOutV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_initialised();
+  constexpr bool& __cordl_internal_get_initialised();
 
-  constexpr bool const& __get_initialised() const;
+  constexpr bool const& __cordl_internal_get_initialised() const;
 
-  constexpr void __set_initialised(bool value);
+  constexpr void __cordl_internal_set_initialised(bool value);
 
-  constexpr int32_t& __get_byteCount();
+  constexpr int32_t& __cordl_internal_get_byteCount();
 
-  constexpr int32_t const& __get_byteCount() const;
+  constexpr int32_t const& __cordl_internal_get_byteCount() const;
 
-  constexpr void __set_byteCount(int32_t value);
+  constexpr void __cordl_internal_set_byteCount(int32_t value);
 
-  constexpr int32_t& __get_blockSize();
+  constexpr int32_t& __cordl_internal_get_blockSize();
 
-  constexpr int32_t const& __get_blockSize() const;
+  constexpr int32_t const& __cordl_internal_get_blockSize() const;
 
-  constexpr void __set_blockSize(int32_t value);
+  constexpr void __cordl_internal_set_blockSize(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 

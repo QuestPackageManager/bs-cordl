@@ -17,20 +17,21 @@ MARK_REF_PTR_T(::System::AssemblyLoadEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2351))
 // CS Name: ::System::AssemblyLoadEventArgs*
 class CORDL_TYPE AssemblyLoadEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field <LoadedAssembly>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__LoadedAssembly_k__BackingField, put = __set__LoadedAssembly_k__BackingField))::System::Reflection::Assembly* _LoadedAssembly_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LoadedAssembly_k__BackingField,
+                      put = __cordl_internal_set__LoadedAssembly_k__BackingField))::System::Reflection::Assembly* _LoadedAssembly_k__BackingField;
 
-  constexpr ::System::Reflection::Assembly*& __get__LoadedAssembly_k__BackingField();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__LoadedAssembly_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get__LoadedAssembly_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get__LoadedAssembly_k__BackingField() const;
 
-  constexpr void __set__LoadedAssembly_k__BackingField(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set__LoadedAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
   static inline ::System::AssemblyLoadEventArgs* New_ctor(::System::Reflection::Assembly* loadedAssembly);
 

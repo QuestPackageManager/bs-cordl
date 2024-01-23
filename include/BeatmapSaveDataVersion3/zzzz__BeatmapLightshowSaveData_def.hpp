@@ -38,88 +38,91 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BeatmapLightshowSaveData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14782))
 // CS Name: ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*
 class CORDL_TYPE BeatmapLightshowSaveData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field basicBeatmapEvents, offset 0x10, size 0x8
-  __declspec(property(get = __get_basicBeatmapEvents,
-                      put = __set_basicBeatmapEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>* basicBeatmapEvents;
+  __declspec(property(get = __cordl_internal_get_basicBeatmapEvents,
+                      put = __cordl_internal_set_basicBeatmapEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>* basicBeatmapEvents;
 
   /// @brief Field colorBoostBeatmapEvents, offset 0x18, size 0x8
-  __declspec(property(get = __get_colorBoostBeatmapEvents,
-                      put = __set_colorBoostBeatmapEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>* colorBoostBeatmapEvents;
+  __declspec(
+      property(get = __cordl_internal_get_colorBoostBeatmapEvents,
+               put = __cordl_internal_set_colorBoostBeatmapEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>* colorBoostBeatmapEvents;
 
   /// @brief Field lightColorEventBoxGroups, offset 0x20, size 0x8
-  __declspec(property(get = __get_lightColorEventBoxGroups,
-                      put = __set_lightColorEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>* lightColorEventBoxGroups;
+  __declspec(property(
+      get = __cordl_internal_get_lightColorEventBoxGroups,
+      put = __cordl_internal_set_lightColorEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>* lightColorEventBoxGroups;
 
   /// @brief Field lightRotationEventBoxGroups, offset 0x28, size 0x8
-  __declspec(
-      property(get = __get_lightRotationEventBoxGroups,
-               put = __set_lightRotationEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>* lightRotationEventBoxGroups;
+  __declspec(property(get = __cordl_internal_get_lightRotationEventBoxGroups, put = __cordl_internal_set_lightRotationEventBoxGroups))::System::Collections::Generic::List_1<
+      ::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>* lightRotationEventBoxGroups;
 
   /// @brief Field lightTranslationEventBoxGroups, offset 0x30, size 0x8
-  __declspec(property(
-      get = __get_lightTranslationEventBoxGroups,
-      put = __set_lightTranslationEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>* lightTranslationEventBoxGroups;
+  __declspec(property(get = __cordl_internal_get_lightTranslationEventBoxGroups, put = __cordl_internal_set_lightTranslationEventBoxGroups))::System::Collections::Generic::List_1<
+      ::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>* lightTranslationEventBoxGroups;
 
   /// @brief Field vfxEventBoxGroups, offset 0x38, size 0x8
-  __declspec(property(get = __get_vfxEventBoxGroups,
-                      put = __set_vfxEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>* vfxEventBoxGroups;
+  __declspec(property(get = __cordl_internal_get_vfxEventBoxGroups,
+                      put = __cordl_internal_set_vfxEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>* vfxEventBoxGroups;
 
   /// @brief Field _fxEventsCollection, offset 0x40, size 0x8
-  __declspec(property(get = __get__fxEventsCollection, put = __set__fxEventsCollection))::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection* _fxEventsCollection;
+  __declspec(property(get = __cordl_internal_get__fxEventsCollection,
+                      put = __cordl_internal_set__fxEventsCollection))::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection* _fxEventsCollection;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*& __get_basicBeatmapEvents();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*& __cordl_internal_get_basicBeatmapEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*> const& __get_basicBeatmapEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*> const&
+  __cordl_internal_get_basicBeatmapEvents() const;
 
-  constexpr void __set_basicBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>* value);
+  constexpr void __cordl_internal_set_basicBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>*& __get_colorBoostBeatmapEvents();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>*& __cordl_internal_get_colorBoostBeatmapEvents();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>*> const&
-  __get_colorBoostBeatmapEvents() const;
+  __cordl_internal_get_colorBoostBeatmapEvents() const;
 
-  constexpr void __set_colorBoostBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>* value);
+  constexpr void __cordl_internal_set_colorBoostBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>*& __get_lightColorEventBoxGroups();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>*& __cordl_internal_get_lightColorEventBoxGroups();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>*> const&
-  __get_lightColorEventBoxGroups() const;
+  __cordl_internal_get_lightColorEventBoxGroups() const;
 
-  constexpr void __set_lightColorEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>* value);
+  constexpr void __cordl_internal_set_lightColorEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>*& __get_lightRotationEventBoxGroups();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>*& __cordl_internal_get_lightRotationEventBoxGroups();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>*> const&
-  __get_lightRotationEventBoxGroups() const;
+  __cordl_internal_get_lightRotationEventBoxGroups() const;
 
-  constexpr void __set_lightRotationEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>* value);
+  constexpr void __cordl_internal_set_lightRotationEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>*& __get_lightTranslationEventBoxGroups();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>*& __cordl_internal_get_lightTranslationEventBoxGroups();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>*> const&
-  __get_lightTranslationEventBoxGroups() const;
+  __cordl_internal_get_lightTranslationEventBoxGroups() const;
 
-  constexpr void __set_lightTranslationEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>* value);
+  constexpr void __cordl_internal_set_lightTranslationEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*& __get_vfxEventBoxGroups();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*& __cordl_internal_get_vfxEventBoxGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*> const& __get_vfxEventBoxGroups() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*> const&
+  __cordl_internal_get_vfxEventBoxGroups() const;
 
-  constexpr void __set_vfxEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>* value);
+  constexpr void __cordl_internal_set_vfxEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>* value);
 
-  constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*& __get__fxEventsCollection();
+  constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*& __cordl_internal_get__fxEventsCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*> const& __get__fxEventsCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*> const& __cordl_internal_get__fxEventsCollection() const;
 
-  constexpr void __set__fxEventsCollection(::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection* value);
+  constexpr void __cordl_internal_set__fxEventsCollection(::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection* value);
 
   /// @brief Method get_isEmpty, addr 0xe05298, size 0xe8, virtual false, abstract: false, final false
   inline bool get_isEmpty();

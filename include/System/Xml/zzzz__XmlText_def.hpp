@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Xml::XmlText);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11500))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11500))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11527))
 // CS Name: ::System.Xml::XmlText*
 class CORDL_TYPE XmlText : public ::System::Xml::XmlCharacterData {

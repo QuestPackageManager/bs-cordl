@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewGameObjectMethod);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11258))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:
   // Declarations
   /// @brief Field _installerMethod, offset 0x20, size 0x8
-  __declspec(property(get = __get__installerMethod, put = __set__installerMethod))::System::Action_1<::Zenject::DiContainer*>* _installerMethod;
+  __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod))::System::Action_1<::Zenject::DiContainer*>* _installerMethod;
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get__installerMethod();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get__installerMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get__installerMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get__installerMethod() const;
 
-  constexpr void __set__installerMethod(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set__installerMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                                                                               ::System::Action_1<::Zenject::DiContainer*>* installerMethod);

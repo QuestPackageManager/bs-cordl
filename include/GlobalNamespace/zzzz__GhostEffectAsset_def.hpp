@@ -35,20 +35,21 @@ MARK_REF_PTR_T(::GlobalNamespace::GhostEffectAsset);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6015)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 1763 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10046)), TypeDefinitionIndex(TypeDefinitionIndex(6019)), TypeDefinitionIndex(TypeDefinitionIndex(10422))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6013)) CS Name: ::GhostEffectAsset*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6015)), TypeDefinitionIndex(TypeDefinitionIndex(6019)), TypeDefinitionIndex(TypeDefinitionIndex(10046)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10422)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 1763 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6013)) CS
+// Name: ::GhostEffectAsset*
 class CORDL_TYPE GhostEffectAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
   /// @brief Field _ghostEffectType, offset 0x18, size 0x4
-  __declspec(property(get = __get__ghostEffectType, put = __set__ghostEffectType))::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType _ghostEffectType;
+  __declspec(property(get = __cordl_internal_get__ghostEffectType, put = __cordl_internal_set__ghostEffectType))::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType _ghostEffectType;
 
   /// @brief Field arrayReference, offset 0x20, size 0x10
-  __declspec(property(get = __get_arrayReference, put = __set_arrayReference))::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> arrayReference;
+  __declspec(property(get = __cordl_internal_get_arrayReference,
+                      put = __cordl_internal_set_arrayReference))::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> arrayReference;
 
   /// @brief Field template, offset 0x30, size 0x8
-  __declspec(property(get = __get__cordl_template, put = __set__cordl_template))::GlobalNamespace::GhostEffectBehaviour* _cordl_template;
+  __declspec(property(get = __cordl_internal_get__cordl_template, put = __cordl_internal_set__cordl_template))::GlobalNamespace::GhostEffectBehaviour* _cordl_template;
 
   __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
 
@@ -58,23 +59,23 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& __get__ghostEffectType();
+  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& __cordl_internal_get__ghostEffectType();
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& __get__ghostEffectType() const;
+  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& __cordl_internal_get__ghostEffectType() const;
 
-  constexpr void __set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value);
+  constexpr void __cordl_internal_set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value);
 
-  constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& __get_arrayReference();
+  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>>& __cordl_internal_get_arrayReference();
 
-  constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> const& __get_arrayReference() const;
+  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> const& __cordl_internal_get_arrayReference() const;
 
-  constexpr void __set_arrayReference(::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> value);
+  constexpr void __cordl_internal_set_arrayReference(::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> value);
 
-  constexpr ::GlobalNamespace::GhostEffectBehaviour*& __get__cordl_template();
+  constexpr ::GlobalNamespace::GhostEffectBehaviour*& __cordl_internal_get__cordl_template();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostEffectBehaviour*> const& __get__cordl_template() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostEffectBehaviour*> const& __cordl_internal_get__cordl_template() const;
 
-  constexpr void __set__cordl_template(::GlobalNamespace::GhostEffectBehaviour* value);
+  constexpr void __cordl_internal_set__cordl_template(::GlobalNamespace::GhostEffectBehaviour* value);
 
   /// @brief Method get_clipCaps, addr 0x2316234, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
@@ -105,7 +106,7 @@ public:
   ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType ____ghostEffectType;
 
   /// @brief Field arrayReference, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> ___arrayReference;
+  ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> ___arrayReference;
 
   /// @brief Field template, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GhostEffectBehaviour* ____cordl_template;

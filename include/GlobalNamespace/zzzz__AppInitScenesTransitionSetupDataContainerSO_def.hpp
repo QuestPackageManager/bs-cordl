@@ -17,21 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6060))
 // CS Name: ::AppInitScenesTransitionSetupDataContainerSO*
 class CORDL_TYPE AppInitScenesTransitionSetupDataContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field appInitScenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_appInitScenesTransitionSetupData,
-                      put = __set_appInitScenesTransitionSetupData))::GlobalNamespace::AppInitScenesTransitionSetupDataSO* appInitScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_appInitScenesTransitionSetupData,
+                      put = __cordl_internal_set_appInitScenesTransitionSetupData))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> appInitScenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO*& __get_appInitScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO>& __cordl_internal_get_appInitScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*> const& __get_appInitScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> const& __cordl_internal_get_appInitScenesTransitionSetupData() const;
 
-  constexpr void __set_appInitScenesTransitionSetupData(::GlobalNamespace::AppInitScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_appInitScenesTransitionSetupData(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> value);
 
   static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* New_ctor();
 
@@ -53,7 +53,7 @@ protected:
 
 public:
   /// @brief Field appInitScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AppInitScenesTransitionSetupDataSO* ___appInitScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> ___appInitScenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

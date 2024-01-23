@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyPublishingHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4603))
 // CS Name: ::SonyPublishingHelper*
 class CORDL_TYPE SonyPublishingHelper : public ::System::Object {

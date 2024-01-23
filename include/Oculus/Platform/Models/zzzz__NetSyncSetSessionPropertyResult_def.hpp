@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSetSessionPropertyResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13462))
 // CS Name: ::Oculus.Platform.Models::NetSyncSetSessionPropertyResult*
 class CORDL_TYPE NetSyncSetSessionPropertyResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Session, offset 0x10, size 0x8
-  __declspec(property(get = __get_Session, put = __set_Session))::Oculus::Platform::Models::NetSyncSession* Session;
+  __declspec(property(get = __cordl_internal_get_Session, put = __cordl_internal_set_Session))::Oculus::Platform::Models::NetSyncSession* Session;
 
-  constexpr ::Oculus::Platform::Models::NetSyncSession*& __get_Session();
+  constexpr ::Oculus::Platform::Models::NetSyncSession*& __cordl_internal_get_Session();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::NetSyncSession*> const& __get_Session() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::NetSyncSession*> const& __cordl_internal_get_Session() const;
 
-  constexpr void __set_Session(::Oculus::Platform::Models::NetSyncSession* value);
+  constexpr void __cordl_internal_set_Session(::Oculus::Platform::Models::NetSyncSession* value);
 
   static inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* New_ctor(void* o);
 

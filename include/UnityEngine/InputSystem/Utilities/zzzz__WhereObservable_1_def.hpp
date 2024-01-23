@@ -38,17 +38,17 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6694))
 // CS Name: ::WhereObservable`1::Where<TValue>*
 class CORDL_TYPE __WhereObservable_1__Where : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Observable, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Observable, put = __set_m_Observable))::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* m_Observable;
+  __declspec(property(get = __cordl_internal_get_m_Observable, put = __cordl_internal_set_m_Observable))::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* m_Observable;
 
   /// @brief Field m_Observer, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Observer, put = __set_m_Observer))::System::IObserver_1<TValue>* m_Observer;
+  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer))::System::IObserver_1<TValue>* m_Observer;
 
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
@@ -56,17 +56,17 @@ public:
   /// @brief Convert to "::System::IObserver_1<TValue>"
   constexpr ::System::IObserver_1<TValue>* i___System__IObserver_1_TValue_() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*& __get_m_Observable();
+  constexpr ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*& __cordl_internal_get_m_Observable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*> const& __get_m_Observable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*> const& __cordl_internal_get_m_Observable() const;
 
-  constexpr void __set_m_Observable(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* value);
+  constexpr void __cordl_internal_set_m_Observable(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* value);
 
-  constexpr ::System::IObserver_1<TValue>*& __get_m_Observer();
+  constexpr ::System::IObserver_1<TValue>*& __cordl_internal_get_m_Observer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& __get_m_Observer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& __cordl_internal_get_m_Observer() const;
 
-  constexpr void __set_m_Observer(::System::IObserver_1<TValue>* value);
+  constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<TValue>* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>* New_ctor(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* observable,
                                                                                                     ::System::IObserver_1<TValue>* observer);
@@ -113,7 +113,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6695))
 // CS Name: ::UnityEngine.InputSystem.Utilities::WhereObservable`1<TValue>*
 class CORDL_TYPE WhereObservable_1 : public ::System::Object {
@@ -122,10 +122,10 @@ public:
   using Where = ::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>;
 
   /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Source, put = __set_m_Source))::System::IObservable_1<TValue>* m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<TValue>* m_Source;
 
   /// @brief Field m_Predicate, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Predicate, put = __set_m_Predicate))::System::Func_2<TValue, bool>* m_Predicate;
+  __declspec(property(get = __cordl_internal_get_m_Predicate, put = __cordl_internal_set_m_Predicate))::System::Func_2<TValue, bool>* m_Predicate;
 
   /// @brief Convert operator to "::System::IObservable_1<TValue>"
   constexpr operator ::System::IObservable_1<TValue>*() noexcept;
@@ -133,17 +133,17 @@ public:
   /// @brief Convert to "::System::IObservable_1<TValue>"
   constexpr ::System::IObservable_1<TValue>* i___System__IObservable_1_TValue_() noexcept;
 
-  constexpr ::System::IObservable_1<TValue>*& __get_m_Source();
+  constexpr ::System::IObservable_1<TValue>*& __cordl_internal_get_m_Source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> const& __get_m_Source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> const& __cordl_internal_get_m_Source() const;
 
-  constexpr void __set_m_Source(::System::IObservable_1<TValue>* value);
+  constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<TValue>* value);
 
-  constexpr ::System::Func_2<TValue, bool>*& __get_m_Predicate();
+  constexpr ::System::Func_2<TValue, bool>*& __cordl_internal_get_m_Predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TValue, bool>*> const& __get_m_Predicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TValue, bool>*> const& __cordl_internal_get_m_Predicate() const;
 
-  constexpr void __set_m_Predicate(::System::Func_2<TValue, bool>* value);
+  constexpr void __cordl_internal_set_m_Predicate(::System::Func_2<TValue, bool>* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* New_ctor(::System::IObservable_1<TValue>* source, ::System::Func_2<TValue, bool>* predicate);
 

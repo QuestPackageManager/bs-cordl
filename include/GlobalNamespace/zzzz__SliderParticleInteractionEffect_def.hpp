@@ -32,56 +32,57 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderParticleInteractionEffect);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4819))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4825))
 // CS Name: ::SliderParticleInteractionEffect*
 class CORDL_TYPE SliderParticleInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
   // Declarations
   /// @brief Field _particleSystems, offset 0x20, size 0x8
-  __declspec(property(get = __get__particleSystems, put = __set__particleSystems))::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> _particleSystems;
+  __declspec(property(get = __cordl_internal_get__particleSystems,
+                      put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
 
   /// @brief Field _colorManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _saberManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__saberManager, put = __set__saberManager))::GlobalNamespace::SaberManager* _saberManager;
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
   /// @brief Field _startColor, offset 0x38, size 0x10
-  __declspec(property(get = __get__startColor, put = __set__startColor))::UnityEngine::Color _startColor;
+  __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor))::UnityEngine::Color _startColor;
 
   /// @brief Field _saber, offset 0x48, size 0x8
-  __declspec(property(get = __get__saber, put = __set__saber))::GlobalNamespace::Saber* _saber;
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::Saber> _saber;
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*>& __get__particleSystems();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>& __cordl_internal_get__particleSystems();
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> const& __get__particleSystems() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> const& __cordl_internal_get__particleSystems() const;
 
-  constexpr void __set__particleSystems(::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> value);
+  constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr ::GlobalNamespace::SaberManager*& __get__saberManager();
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberManager*> const& __get__saberManager() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
-  constexpr void __set__saberManager(::GlobalNamespace::SaberManager* value);
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  constexpr ::UnityEngine::Color& __get__startColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__startColor();
 
-  constexpr ::UnityEngine::Color const& __get__startColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__startColor() const;
 
-  constexpr void __set__startColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::Saber*& __get__saber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__saber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
 
-  constexpr void __set__saber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
   /// @brief Method Start, addr 0x2394f4c, size 0x98, virtual true, abstract: false, final false
   inline void Start();
@@ -118,19 +119,19 @@ protected:
 
 public:
   /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> ____particleSystems;
+  ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;
 
   /// @brief Field _colorManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field _saberManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::SaberManager* ____saberManager;
+  ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _startColor, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____startColor;
 
   /// @brief Field _saber, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____saber;
+  ::UnityW<::GlobalNamespace::Saber> ____saber;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

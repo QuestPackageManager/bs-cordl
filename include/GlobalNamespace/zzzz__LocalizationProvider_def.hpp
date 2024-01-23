@@ -17,35 +17,35 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizationProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15545))
 // CS Name: ::LocalizationProvider*
 class CORDL_TYPE LocalizationProvider : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _localization, offset 0x18, size 0x8
-  __declspec(property(get = __get__localization, put = __set__localization))::Polyglot::Localization* _localization;
+  __declspec(property(get = __cordl_internal_get__localization, put = __cordl_internal_set__localization))::UnityW<::Polyglot::Localization> _localization;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::GlobalNamespace::LocalizationProvider* _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::UnityW<::GlobalNamespace::LocalizationProvider> _instance;
 
-  __declspec(property(get = get_localization))::Polyglot::Localization* localization;
+  __declspec(property(get = get_localization))::UnityW<::Polyglot::Localization> localization;
 
-  constexpr ::Polyglot::Localization*& __get__localization();
+  constexpr ::UnityW<::Polyglot::Localization>& __cordl_internal_get__localization();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::Localization*> const& __get__localization() const;
+  constexpr ::UnityW<::Polyglot::Localization> const& __cordl_internal_get__localization() const;
 
-  constexpr void __set__localization(::Polyglot::Localization* value);
+  constexpr void __cordl_internal_set__localization(::UnityW<::Polyglot::Localization> value);
 
-  static inline void setStaticF__instance(::GlobalNamespace::LocalizationProvider* value);
+  static inline void setStaticF__instance(::UnityW<::GlobalNamespace::LocalizationProvider> value);
 
-  static inline ::GlobalNamespace::LocalizationProvider* getStaticF__instance();
+  static inline ::UnityW<::GlobalNamespace::LocalizationProvider> getStaticF__instance();
 
   /// @brief Method get_localization, addr 0x28008ac, size 0x8, virtual false, abstract: false, final false
-  inline ::Polyglot::Localization* get_localization();
+  inline ::UnityW<::Polyglot::Localization> get_localization();
 
   /// @brief Method get_Instance, addr 0x28008b4, size 0x94, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::LocalizationProvider* get_Instance();
+  static inline ::UnityW<::GlobalNamespace::LocalizationProvider> get_Instance();
 
   /// @brief Method set_Instance, addr 0x2800a30, size 0x4c, virtual false, abstract: false, final false
   static inline void set_Instance(::GlobalNamespace::LocalizationProvider* value);
@@ -73,7 +73,7 @@ protected:
 
 public:
   /// @brief Field _localization, offset: 0x18, size: 0x8, def value: None
-  ::Polyglot::Localization* ____localization;
+  ::UnityW<::Polyglot::Localization> ____localization;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

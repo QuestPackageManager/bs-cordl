@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierInfoListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5419))
 // CS Name: ::GameplayModifierInfoListItem*
 class CORDL_TYPE GameplayModifierInfoListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _hoverHint, offset 0x18, size 0x8
-  __declspec(property(get = __get__hoverHint, put = __set__hoverHint))::HMUI::HoverHint* _hoverHint;
+  __declspec(property(get = __cordl_internal_get__hoverHint, put = __cordl_internal_set__hoverHint))::UnityW<::HMUI::HoverHint> _hoverHint;
 
   /// @brief Field _iconImage, offset 0x20, size 0x8
-  __declspec(property(get = __get__iconImage, put = __set__iconImage))::UnityEngine::UI::Image* _iconImage;
+  __declspec(property(get = __cordl_internal_get__iconImage, put = __cordl_internal_set__iconImage))::UnityW<::UnityEngine::UI::Image> _iconImage;
 
-  constexpr ::HMUI::HoverHint*& __get__hoverHint();
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& __get__hoverHint() const;
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
 
-  constexpr void __set__hoverHint(::HMUI::HoverHint* value);
+  constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__iconImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__iconImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__iconImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__iconImage() const;
 
-  constexpr void __set__iconImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__iconImage(::UnityW<::UnityEngine::UI::Image> value);
 
   /// @brief Method SetModifier, addr 0x2278a9c, size 0x224, virtual false, abstract: false, final false
   inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
@@ -70,10 +70,10 @@ protected:
 
 public:
   /// @brief Field _hoverHint, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::HoverHint* ____hoverHint;
+  ::UnityW<::HMUI::HoverHint> ____hoverHint;
 
   /// @brief Field _iconImage, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____iconImage;
+  ::UnityW<::UnityEngine::UI::Image> ____iconImage;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::JumpDestinationMarker);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13888))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13888))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14403))
 // CS Name: ::JumpDestinationMarker*
 class CORDL_TYPE JumpDestinationMarker : public ::UnityEngine::Timeline::Marker {

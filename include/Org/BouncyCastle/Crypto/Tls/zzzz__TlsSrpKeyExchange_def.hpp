@@ -70,121 +70,121 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1171))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1171))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1326))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSrpKeyExchange*
 class CORDL_TYPE TlsSrpKeyExchange : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange {
 public:
   // Declarations
   /// @brief Field mTlsSigner, offset 0x28, size 0x8
-  __declspec(property(get = __get_mTlsSigner, put = __set_mTlsSigner))::Org::BouncyCastle::Crypto::Tls::TlsSigner* mTlsSigner;
+  __declspec(property(get = __cordl_internal_get_mTlsSigner, put = __cordl_internal_set_mTlsSigner))::Org::BouncyCastle::Crypto::Tls::TlsSigner* mTlsSigner;
 
   /// @brief Field mGroupVerifier, offset 0x30, size 0x8
-  __declspec(property(get = __get_mGroupVerifier, put = __set_mGroupVerifier))::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* mGroupVerifier;
+  __declspec(property(get = __cordl_internal_get_mGroupVerifier, put = __cordl_internal_set_mGroupVerifier))::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* mGroupVerifier;
 
   /// @brief Field mIdentity, offset 0x38, size 0x8
-  __declspec(property(get = __get_mIdentity, put = __set_mIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
+  __declspec(property(get = __cordl_internal_get_mIdentity, put = __cordl_internal_set_mIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
 
   /// @brief Field mPassword, offset 0x40, size 0x8
-  __declspec(property(get = __get_mPassword, put = __set_mPassword))::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
+  __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword))::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
 
   /// @brief Field mServerPublicKey, offset 0x48, size 0x8
-  __declspec(property(get = __get_mServerPublicKey, put = __set_mServerPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
+  __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
 
   /// @brief Field mSrpGroup, offset 0x50, size 0x8
-  __declspec(property(get = __get_mSrpGroup, put = __set_mSrpGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mSrpGroup;
+  __declspec(property(get = __cordl_internal_get_mSrpGroup, put = __cordl_internal_set_mSrpGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mSrpGroup;
 
   /// @brief Field mSrpClient, offset 0x58, size 0x8
-  __declspec(property(get = __get_mSrpClient, put = __set_mSrpClient))::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client* mSrpClient;
+  __declspec(property(get = __cordl_internal_get_mSrpClient, put = __cordl_internal_set_mSrpClient))::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client* mSrpClient;
 
   /// @brief Field mSrpServer, offset 0x60, size 0x8
-  __declspec(property(get = __get_mSrpServer, put = __set_mSrpServer))::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server* mSrpServer;
+  __declspec(property(get = __cordl_internal_get_mSrpServer, put = __cordl_internal_set_mSrpServer))::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server* mSrpServer;
 
   /// @brief Field mSrpPeerCredentials, offset 0x68, size 0x8
-  __declspec(property(get = __get_mSrpPeerCredentials, put = __set_mSrpPeerCredentials))::Org::BouncyCastle::Math::BigInteger* mSrpPeerCredentials;
+  __declspec(property(get = __cordl_internal_get_mSrpPeerCredentials, put = __cordl_internal_set_mSrpPeerCredentials))::Org::BouncyCastle::Math::BigInteger* mSrpPeerCredentials;
 
   /// @brief Field mSrpVerifier, offset 0x70, size 0x8
-  __declspec(property(get = __get_mSrpVerifier, put = __set_mSrpVerifier))::Org::BouncyCastle::Math::BigInteger* mSrpVerifier;
+  __declspec(property(get = __cordl_internal_get_mSrpVerifier, put = __cordl_internal_set_mSrpVerifier))::Org::BouncyCastle::Math::BigInteger* mSrpVerifier;
 
   /// @brief Field mSrpSalt, offset 0x78, size 0x8
-  __declspec(property(get = __get_mSrpSalt, put = __set_mSrpSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpSalt;
+  __declspec(property(get = __cordl_internal_get_mSrpSalt, put = __cordl_internal_set_mSrpSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpSalt;
 
   /// @brief Field mServerCredentials, offset 0x80, size 0x8
-  __declspec(property(get = __get_mServerCredentials, put = __set_mServerCredentials))::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* mServerCredentials;
+  __declspec(property(get = __cordl_internal_get_mServerCredentials, put = __cordl_internal_set_mServerCredentials))::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* mServerCredentials;
 
   __declspec(property(get = get_RequiresServerKeyExchange)) bool RequiresServerKeyExchange;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner*& __get_mTlsSigner();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner*& __cordl_internal_get_mTlsSigner();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSigner*> const& __get_mTlsSigner() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSigner*> const& __cordl_internal_get_mTlsSigner() const;
 
-  constexpr void __set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
+  constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*& __get_mGroupVerifier();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*& __cordl_internal_get_mGroupVerifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*> const& __get_mGroupVerifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*> const& __cordl_internal_get_mGroupVerifier() const;
 
-  constexpr void __set_mGroupVerifier(::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* value);
+  constexpr void __cordl_internal_set_mGroupVerifier(::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mIdentity() const;
 
-  constexpr void __set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPassword();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPassword();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPassword() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPassword() const;
 
-  constexpr void __set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_mServerPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_mServerPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_mServerPublicKey() const;
 
-  constexpr void __set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*& __get_mSrpGroup();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*& __cordl_internal_get_mSrpGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*> const& __get_mSrpGroup() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*> const& __cordl_internal_get_mSrpGroup() const;
 
-  constexpr void __set_mSrpGroup(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+  constexpr void __cordl_internal_set_mSrpGroup(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client*& __get_mSrpClient();
+  constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client*& __cordl_internal_get_mSrpClient();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client*> const& __get_mSrpClient() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client*> const& __cordl_internal_get_mSrpClient() const;
 
-  constexpr void __set_mSrpClient(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client* value);
+  constexpr void __cordl_internal_set_mSrpClient(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server*& __get_mSrpServer();
+  constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server*& __cordl_internal_get_mSrpServer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server*> const& __get_mSrpServer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server*> const& __cordl_internal_get_mSrpServer() const;
 
-  constexpr void __set_mSrpServer(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server* value);
+  constexpr void __cordl_internal_set_mSrpServer(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_mSrpPeerCredentials();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_mSrpPeerCredentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_mSrpPeerCredentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_mSrpPeerCredentials() const;
 
-  constexpr void __set_mSrpPeerCredentials(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_mSrpPeerCredentials(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_mSrpVerifier();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_mSrpVerifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_mSrpVerifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_mSrpVerifier() const;
 
-  constexpr void __set_mSrpVerifier(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_mSrpVerifier(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSrpSalt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSrpSalt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSrpSalt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSrpSalt() const;
 
-  constexpr void __set_mSrpSalt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSrpSalt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*& __get_mServerCredentials();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*& __cordl_internal_get_mServerCredentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*> const& __get_mServerCredentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*> const& __cordl_internal_get_mServerCredentials() const;
 
-  constexpr void __set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* value);
+  constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* value);
 
   /// @brief Method CreateSigner, addr 0xfb7004, size 0xfc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSigner* CreateSigner(int32_t keyExchange);

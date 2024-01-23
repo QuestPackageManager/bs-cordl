@@ -28,33 +28,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4555))
 // CS Name: ::PS4PublisherSKUSettingsSO::PS4BuildVersion*
 class CORDL_TYPE __PS4PublisherSKUSettingsSO__PS4BuildVersion : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _masterVersion, offset 0x10, size 0x8
-  __declspec(property(get = __get__masterVersion, put = __set__masterVersion))::StringW _masterVersion;
+  __declspec(property(get = __cordl_internal_get__masterVersion, put = __cordl_internal_set__masterVersion))::StringW _masterVersion;
 
   /// @brief Field _applicationVersion, offset 0x18, size 0x8
-  __declspec(property(get = __get__applicationVersion, put = __set__applicationVersion))::StringW _applicationVersion;
+  __declspec(property(get = __cordl_internal_get__applicationVersion, put = __cordl_internal_set__applicationVersion))::StringW _applicationVersion;
 
   __declspec(property(get = get_masterVersion))::StringW masterVersion;
 
   __declspec(property(get = get_applicationVersion))::StringW applicationVersion;
 
-  constexpr ::StringW& __get__masterVersion();
+  constexpr ::StringW& __cordl_internal_get__masterVersion();
 
-  constexpr ::StringW const& __get__masterVersion() const;
+  constexpr ::StringW const& __cordl_internal_get__masterVersion() const;
 
-  constexpr void __set__masterVersion(::StringW value);
+  constexpr void __cordl_internal_set__masterVersion(::StringW value);
 
-  constexpr ::StringW& __get__applicationVersion();
+  constexpr ::StringW& __cordl_internal_get__applicationVersion();
 
-  constexpr ::StringW const& __get__applicationVersion() const;
+  constexpr ::StringW const& __cordl_internal_get__applicationVersion() const;
 
-  constexpr void __set__applicationVersion(::StringW value);
+  constexpr void __cordl_internal_set__applicationVersion(::StringW value);
 
   /// @brief Method get_masterVersion, addr 0x2368250, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_masterVersion();
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildV
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4554)), TypeDefinitionIndex(TypeDefinitionIndex(4602))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4554)), TypeDefinitionIndex(TypeDefinitionIndex(4602))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4556))
 // CS Name: ::PS4PublisherSKUSettingsSO*
 class CORDL_TYPE PS4PublisherSKUSettingsSO : public ::GlobalNamespace::SonyPublisherSKUSettingsSO {
@@ -110,22 +110,23 @@ public:
   using PS4BuildVersion = ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion;
 
   /// @brief Field _buildVersion, offset 0x38, size 0x8
-  __declspec(property(get = __get__buildVersion, put = __set__buildVersion))::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* _buildVersion;
+  __declspec(property(get = __cordl_internal_get__buildVersion, put = __cordl_internal_set__buildVersion))::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* _buildVersion;
 
   /// @brief Field _latestBuildVersion, offset 0x40, size 0x8
-  __declspec(property(get = __get__latestBuildVersion, put = __set__latestBuildVersion))::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* _latestBuildVersion;
+  __declspec(property(get = __cordl_internal_get__latestBuildVersion,
+                      put = __cordl_internal_set__latestBuildVersion))::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* _latestBuildVersion;
 
   /// @brief Field _parentalLockLevel, offset 0x48, size 0x4
-  __declspec(property(get = __get__parentalLockLevel, put = __set__parentalLockLevel)) int32_t _parentalLockLevel;
+  __declspec(property(get = __cordl_internal_get__parentalLockLevel, put = __cordl_internal_set__parentalLockLevel)) int32_t _parentalLockLevel;
 
   /// @brief Field _npTitleFilenamePath, offset 0x50, size 0x8
-  __declspec(property(get = __get__npTitleFilenamePath, put = __set__npTitleFilenamePath))::StringW _npTitleFilenamePath;
+  __declspec(property(get = __cordl_internal_get__npTitleFilenamePath, put = __cordl_internal_set__npTitleFilenamePath))::StringW _npTitleFilenamePath;
 
   /// @brief Field _defaultAgeRestriction, offset 0x58, size 0x4
-  __declspec(property(get = __get__defaultAgeRestriction, put = __set__defaultAgeRestriction)) int32_t _defaultAgeRestriction;
+  __declspec(property(get = __cordl_internal_get__defaultAgeRestriction, put = __cordl_internal_set__defaultAgeRestriction)) int32_t _defaultAgeRestriction;
 
   /// @brief Field _applicationCategory, offset 0x5c, size 0x4
-  __declspec(property(get = __get__applicationCategory, put = __set__applicationCategory))::GlobalNamespace::PS4ApplicationCategory _applicationCategory;
+  __declspec(property(get = __cordl_internal_get__applicationCategory, put = __cordl_internal_set__applicationCategory))::GlobalNamespace::PS4ApplicationCategory _applicationCategory;
 
   __declspec(property(get = get_buildVersion))::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* buildVersion;
 
@@ -139,41 +140,41 @@ public:
 
   __declspec(property(get = get_applicationCategory))::GlobalNamespace::PS4ApplicationCategory applicationCategory;
 
-  constexpr ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*& __get__buildVersion();
+  constexpr ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*& __cordl_internal_get__buildVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*> const& __get__buildVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*> const& __cordl_internal_get__buildVersion() const;
 
-  constexpr void __set__buildVersion(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* value);
+  constexpr void __cordl_internal_set__buildVersion(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* value);
 
-  constexpr ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*& __get__latestBuildVersion();
+  constexpr ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*& __cordl_internal_get__latestBuildVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*> const& __get__latestBuildVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*> const& __cordl_internal_get__latestBuildVersion() const;
 
-  constexpr void __set__latestBuildVersion(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* value);
+  constexpr void __cordl_internal_set__latestBuildVersion(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* value);
 
-  constexpr int32_t& __get__parentalLockLevel();
+  constexpr int32_t& __cordl_internal_get__parentalLockLevel();
 
-  constexpr int32_t const& __get__parentalLockLevel() const;
+  constexpr int32_t const& __cordl_internal_get__parentalLockLevel() const;
 
-  constexpr void __set__parentalLockLevel(int32_t value);
+  constexpr void __cordl_internal_set__parentalLockLevel(int32_t value);
 
-  constexpr ::StringW& __get__npTitleFilenamePath();
+  constexpr ::StringW& __cordl_internal_get__npTitleFilenamePath();
 
-  constexpr ::StringW const& __get__npTitleFilenamePath() const;
+  constexpr ::StringW const& __cordl_internal_get__npTitleFilenamePath() const;
 
-  constexpr void __set__npTitleFilenamePath(::StringW value);
+  constexpr void __cordl_internal_set__npTitleFilenamePath(::StringW value);
 
-  constexpr int32_t& __get__defaultAgeRestriction();
+  constexpr int32_t& __cordl_internal_get__defaultAgeRestriction();
 
-  constexpr int32_t const& __get__defaultAgeRestriction() const;
+  constexpr int32_t const& __cordl_internal_get__defaultAgeRestriction() const;
 
-  constexpr void __set__defaultAgeRestriction(int32_t value);
+  constexpr void __cordl_internal_set__defaultAgeRestriction(int32_t value);
 
-  constexpr ::GlobalNamespace::PS4ApplicationCategory& __get__applicationCategory();
+  constexpr ::GlobalNamespace::PS4ApplicationCategory& __cordl_internal_get__applicationCategory();
 
-  constexpr ::GlobalNamespace::PS4ApplicationCategory const& __get__applicationCategory() const;
+  constexpr ::GlobalNamespace::PS4ApplicationCategory const& __cordl_internal_get__applicationCategory() const;
 
-  constexpr void __set__applicationCategory(::GlobalNamespace::PS4ApplicationCategory value);
+  constexpr void __cordl_internal_set__applicationCategory(::GlobalNamespace::PS4ApplicationCategory value);
 
   /// @brief Method get_buildVersion, addr 0x2368210, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* get_buildVersion();

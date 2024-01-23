@@ -90,7 +90,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRScreenshots);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8507))
 // CS Name: ::IVRScreenshots::_RequestScreenshot*
 class CORDL_TYPE __IVRScreenshots___RequestScreenshot : public ::System::MulticastDelegate {
@@ -135,7 +135,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8508))
 // CS Name: ::IVRScreenshots::_HookScreenshot*
 class CORDL_TYPE __IVRScreenshots___HookScreenshot : public ::System::MulticastDelegate {
@@ -180,7 +180,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8509))
 // CS Name: ::IVRScreenshots::_GetScreenshotPropertyType*
 class CORDL_TYPE __IVRScreenshots___GetScreenshotPropertyType : public ::System::MulticastDelegate {
@@ -224,7 +224,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8510))
 // CS Name: ::IVRScreenshots::_GetScreenshotPropertyFilename*
 class CORDL_TYPE __IVRScreenshots___GetScreenshotPropertyFilename : public ::System::MulticastDelegate {
@@ -270,7 +270,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8511))
 // CS Name: ::IVRScreenshots::_UpdateScreenshotProgress*
 class CORDL_TYPE __IVRScreenshots___UpdateScreenshotProgress : public ::System::MulticastDelegate {
@@ -314,7 +314,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8512))
 // CS Name: ::IVRScreenshots::_TakeStereoScreenshot*
 class CORDL_TYPE __IVRScreenshots___TakeStereoScreenshot : public ::System::MulticastDelegate {
@@ -358,7 +358,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8513))
 // CS Name: ::IVRScreenshots::_SubmitScreenshot*
 class CORDL_TYPE __IVRScreenshots___SubmitScreenshot : public ::System::MulticastDelegate {
@@ -403,7 +403,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8514))
 // CS Name: ::OVR.OpenVR::IVRScreenshots
 struct CORDL_TYPE IVRScreenshots {

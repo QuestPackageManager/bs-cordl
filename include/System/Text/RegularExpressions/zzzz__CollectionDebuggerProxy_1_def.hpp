@@ -16,7 +16,7 @@ namespace System::Text::RegularExpressions {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8902))
 // CS Name: ::System.Text.RegularExpressions::CollectionDebuggerProxy`1<T>*
 class CORDL_TYPE CollectionDebuggerProxy_1 : public ::System::Object {

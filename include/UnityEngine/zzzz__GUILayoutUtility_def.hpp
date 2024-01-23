@@ -47,49 +47,49 @@ MARK_REF_PTR_T(::UnityEngine::__GUILayoutUtility__LayoutCache);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14606))
 // CS Name: ::GUILayoutUtility::LayoutCache*
 class CORDL_TYPE __GUILayoutUtility__LayoutCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <id>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__id_k__BackingField, put = __set__id_k__BackingField)) int32_t _id_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__id_k__BackingField, put = __cordl_internal_set__id_k__BackingField)) int32_t _id_k__BackingField;
 
   /// @brief Field topLevel, offset 0x18, size 0x8
-  __declspec(property(get = __get_topLevel, put = __set_topLevel))::UnityEngine::GUILayoutGroup* topLevel;
+  __declspec(property(get = __cordl_internal_get_topLevel, put = __cordl_internal_set_topLevel))::UnityEngine::GUILayoutGroup* topLevel;
 
   /// @brief Field layoutGroups, offset 0x20, size 0x8
-  __declspec(property(get = __get_layoutGroups, put = __set_layoutGroups))::UnityEngineInternal::GenericStack* layoutGroups;
+  __declspec(property(get = __cordl_internal_get_layoutGroups, put = __cordl_internal_set_layoutGroups))::UnityEngineInternal::GenericStack* layoutGroups;
 
   /// @brief Field windows, offset 0x28, size 0x8
-  __declspec(property(get = __get_windows, put = __set_windows))::UnityEngine::GUILayoutGroup* windows;
+  __declspec(property(get = __cordl_internal_get_windows, put = __cordl_internal_set_windows))::UnityEngine::GUILayoutGroup* windows;
 
   __declspec(property(put = set_id)) int32_t id;
 
-  constexpr int32_t& __get__id_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__id_k__BackingField();
 
-  constexpr int32_t const& __get__id_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__id_k__BackingField() const;
 
-  constexpr void __set__id_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__id_k__BackingField(int32_t value);
 
-  constexpr ::UnityEngine::GUILayoutGroup*& __get_topLevel();
+  constexpr ::UnityEngine::GUILayoutGroup*& __cordl_internal_get_topLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUILayoutGroup*> const& __get_topLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUILayoutGroup*> const& __cordl_internal_get_topLevel() const;
 
-  constexpr void __set_topLevel(::UnityEngine::GUILayoutGroup* value);
+  constexpr void __cordl_internal_set_topLevel(::UnityEngine::GUILayoutGroup* value);
 
-  constexpr ::UnityEngineInternal::GenericStack*& __get_layoutGroups();
+  constexpr ::UnityEngineInternal::GenericStack*& __cordl_internal_get_layoutGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngineInternal::GenericStack*> const& __get_layoutGroups() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngineInternal::GenericStack*> const& __cordl_internal_get_layoutGroups() const;
 
-  constexpr void __set_layoutGroups(::UnityEngineInternal::GenericStack* value);
+  constexpr void __cordl_internal_set_layoutGroups(::UnityEngineInternal::GenericStack* value);
 
-  constexpr ::UnityEngine::GUILayoutGroup*& __get_windows();
+  constexpr ::UnityEngine::GUILayoutGroup*& __cordl_internal_get_windows();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUILayoutGroup*> const& __get_windows() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUILayoutGroup*> const& __cordl_internal_get_windows() const;
 
-  constexpr void __set_windows(::UnityEngine::GUILayoutGroup* value);
+  constexpr void __cordl_internal_set_windows(::UnityEngine::GUILayoutGroup* value);
 
   /// @brief Method set_id, addr 0x2d03288, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
@@ -146,7 +146,7 @@ static_assert(offsetof(::UnityEngine::__GUILayoutUtility__LayoutCache, ___window
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14607))
 // CS Name: ::UnityEngine::GUILayoutUtility*
 class CORDL_TYPE GUILayoutUtility : public ::System::Object {

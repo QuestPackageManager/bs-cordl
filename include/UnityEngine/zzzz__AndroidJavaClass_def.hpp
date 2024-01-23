@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaClass);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14913))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14913))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14914))
 // CS Name: ::UnityEngine::AndroidJavaClass*
 class CORDL_TYPE AndroidJavaClass : public ::UnityEngine::AndroidJavaObject {

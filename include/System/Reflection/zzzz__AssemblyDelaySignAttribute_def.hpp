@@ -14,20 +14,20 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyDelaySignAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3449))
 // CS Name: ::System.Reflection::AssemblyDelaySignAttribute*
 class CORDL_TYPE AssemblyDelaySignAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <DelaySign>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__DelaySign_k__BackingField, put = __set__DelaySign_k__BackingField)) bool _DelaySign_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DelaySign_k__BackingField, put = __cordl_internal_set__DelaySign_k__BackingField)) bool _DelaySign_k__BackingField;
 
-  constexpr bool& __get__DelaySign_k__BackingField();
+  constexpr bool& __cordl_internal_get__DelaySign_k__BackingField();
 
-  constexpr bool const& __get__DelaySign_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__DelaySign_k__BackingField() const;
 
-  constexpr void __set__DelaySign_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__DelaySign_k__BackingField(bool value);
 
   static inline ::System::Reflection::AssemblyDelaySignAttribute* New_ctor(bool delaySign);
 

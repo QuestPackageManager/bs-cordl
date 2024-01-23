@@ -18,40 +18,40 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Stores);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13760))
 // CS Name: ::Mono.Security.X509::X509Stores*
 class CORDL_TYPE X509Stores : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _storePath, offset 0x10, size 0x8
-  __declspec(property(get = __get__storePath, put = __set__storePath))::StringW _storePath;
+  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath))::StringW _storePath;
 
   /// @brief Field _newFormat, offset 0x18, size 0x1
-  __declspec(property(get = __get__newFormat, put = __set__newFormat)) bool _newFormat;
+  __declspec(property(get = __cordl_internal_get__newFormat, put = __cordl_internal_set__newFormat)) bool _newFormat;
 
   /// @brief Field _trusted, offset 0x20, size 0x8
-  __declspec(property(get = __get__trusted, put = __set__trusted))::Mono::Security::X509::X509Store* _trusted;
+  __declspec(property(get = __cordl_internal_get__trusted, put = __cordl_internal_set__trusted))::Mono::Security::X509::X509Store* _trusted;
 
   __declspec(property(get = get_TrustedRoot))::Mono::Security::X509::X509Store* TrustedRoot;
 
-  constexpr ::StringW& __get__storePath();
+  constexpr ::StringW& __cordl_internal_get__storePath();
 
-  constexpr ::StringW const& __get__storePath() const;
+  constexpr ::StringW const& __cordl_internal_get__storePath() const;
 
-  constexpr void __set__storePath(::StringW value);
+  constexpr void __cordl_internal_set__storePath(::StringW value);
 
-  constexpr bool& __get__newFormat();
+  constexpr bool& __cordl_internal_get__newFormat();
 
-  constexpr bool const& __get__newFormat() const;
+  constexpr bool const& __cordl_internal_get__newFormat() const;
 
-  constexpr void __set__newFormat(bool value);
+  constexpr void __cordl_internal_set__newFormat(bool value);
 
-  constexpr ::Mono::Security::X509::X509Store*& __get__trusted();
+  constexpr ::Mono::Security::X509::X509Store*& __cordl_internal_get__trusted();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Store*> const& __get__trusted() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Store*> const& __cordl_internal_get__trusted() const;
 
-  constexpr void __set__trusted(::Mono::Security::X509::X509Store* value);
+  constexpr void __cordl_internal_set__trusted(::Mono::Security::X509::X509Store* value);
 
   static inline ::Mono::Security::X509::X509Stores* New_ctor(::StringW path, bool newFormat);
 

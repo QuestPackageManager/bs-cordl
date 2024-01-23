@@ -33,17 +33,17 @@ MARK_REF_PTR_T(::System::ComponentModel::Component);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9469))
 // CS Name: ::System.ComponentModel::Component*
 class CORDL_TYPE Component : public ::System::MarshalByRefObject {
 public:
   // Declarations
   /// @brief Field site, offset 0x18, size 0x8
-  __declspec(property(get = __get_site, put = __set_site))::System::ComponentModel::ISite* site;
+  __declspec(property(get = __cordl_internal_get_site, put = __cordl_internal_set_site))::System::ComponentModel::ISite* site;
 
   /// @brief Field events, offset 0x20, size 0x8
-  __declspec(property(get = __get_events, put = __set_events))::System::ComponentModel::EventHandlerList* events;
+  __declspec(property(get = __cordl_internal_get_events, put = __cordl_internal_set_events))::System::ComponentModel::EventHandlerList* events;
 
   /// @brief Field EventDisposed, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EventDisposed, put = setStaticF_EventDisposed))::System::Object* EventDisposed;
@@ -68,17 +68,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::ComponentModel::ISite*& __get_site();
+  constexpr ::System::ComponentModel::ISite*& __cordl_internal_get_site();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ISite*> const& __get_site() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ISite*> const& __cordl_internal_get_site() const;
 
-  constexpr void __set_site(::System::ComponentModel::ISite* value);
+  constexpr void __cordl_internal_set_site(::System::ComponentModel::ISite* value);
 
-  constexpr ::System::ComponentModel::EventHandlerList*& __get_events();
+  constexpr ::System::ComponentModel::EventHandlerList*& __cordl_internal_get_events();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventHandlerList*> const& __get_events() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventHandlerList*> const& __cordl_internal_get_events() const;
 
-  constexpr void __set_events(::System::ComponentModel::EventHandlerList* value);
+  constexpr void __cordl_internal_set_events(::System::ComponentModel::EventHandlerList* value);
 
   static inline void setStaticF_EventDisposed(::System::Object* value);
 

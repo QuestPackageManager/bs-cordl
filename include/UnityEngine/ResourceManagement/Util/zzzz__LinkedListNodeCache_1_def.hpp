@@ -23,33 +23,33 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13981))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LinkedListNodeCache`1<T>*
 class CORDL_TYPE LinkedListNodeCache_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_NodesCreated, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_NodesCreated, put = __set_m_NodesCreated)) int32_t m_NodesCreated;
+  __declspec(property(get = __cordl_internal_get_m_NodesCreated, put = __cordl_internal_set_m_NodesCreated)) int32_t m_NodesCreated;
 
   /// @brief Field m_NodeCache, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_NodeCache, put = __set_m_NodeCache))::System::Collections::Generic::LinkedList_1<T>* m_NodeCache;
+  __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache))::System::Collections::Generic::LinkedList_1<T>* m_NodeCache;
 
   __declspec(property(get = get_CreatedNodeCount)) int32_t CreatedNodeCount;
 
   __declspec(property(get = get_CachedNodeCount)) int32_t CachedNodeCount;
 
-  constexpr int32_t& __get_m_NodesCreated();
+  constexpr int32_t& __cordl_internal_get_m_NodesCreated();
 
-  constexpr int32_t const& __get_m_NodesCreated() const;
+  constexpr int32_t const& __cordl_internal_get_m_NodesCreated() const;
 
-  constexpr void __set_m_NodesCreated(int32_t value);
+  constexpr void __cordl_internal_set_m_NodesCreated(int32_t value);
 
-  constexpr ::System::Collections::Generic::LinkedList_1<T>*& __get_m_NodeCache();
+  constexpr ::System::Collections::Generic::LinkedList_1<T>*& __cordl_internal_get_m_NodeCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __get_m_NodeCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __cordl_internal_get_m_NodeCache() const;
 
-  constexpr void __set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T>* value);
+  constexpr void __cordl_internal_set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T>* value);
 
   /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);

@@ -23,29 +23,30 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5207))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5207))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5129))
 // CS Name: ::MultiplayerDuelConnectedPlayerGameplayAnimator*
 class CORDL_TYPE MultiplayerDuelConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
 public:
   // Declarations
   /// @brief Field _avatarScaleAnimator, offset 0x68, size 0x8
-  __declspec(property(get = __get__avatarScaleAnimator, put = __set__avatarScaleAnimator))::GlobalNamespace::ScaleAnimator* _avatarScaleAnimator;
+  __declspec(property(get = __cordl_internal_get__avatarScaleAnimator, put = __cordl_internal_set__avatarScaleAnimator))::UnityW<::GlobalNamespace::ScaleAnimator> _avatarScaleAnimator;
 
   /// @brief Field _failController, offset 0x70, size 0x8
-  __declspec(property(get = __get__failController, put = __set__failController))::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* _failController;
+  __declspec(property(get = __cordl_internal_get__failController,
+                      put = __cordl_internal_set__failController))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> _failController;
 
-  constexpr ::GlobalNamespace::ScaleAnimator*& __get__avatarScaleAnimator();
+  constexpr ::UnityW<::GlobalNamespace::ScaleAnimator>& __cordl_internal_get__avatarScaleAnimator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScaleAnimator*> const& __get__avatarScaleAnimator() const;
+  constexpr ::UnityW<::GlobalNamespace::ScaleAnimator> const& __cordl_internal_get__avatarScaleAnimator() const;
 
-  constexpr void __set__avatarScaleAnimator(::GlobalNamespace::ScaleAnimator* value);
+  constexpr void __cordl_internal_set__avatarScaleAnimator(::UnityW<::GlobalNamespace::ScaleAnimator> value);
 
-  constexpr ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*& __get__failController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController>& __cordl_internal_get__failController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*> const& __get__failController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> const& __cordl_internal_get__failController() const;
 
-  constexpr void __set__failController(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* value);
+  constexpr void __cordl_internal_set__failController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> value);
 
   /// @brief Method OnDestroy, addr 0x23d6c40, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
@@ -82,10 +83,10 @@ protected:
 
 public:
   /// @brief Field _avatarScaleAnimator, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::ScaleAnimator* ____avatarScaleAnimator;
+  ::UnityW<::GlobalNamespace::ScaleAnimator> ____avatarScaleAnimator;
 
   /// @brief Field _failController, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* ____failController;
+  ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> ____failController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

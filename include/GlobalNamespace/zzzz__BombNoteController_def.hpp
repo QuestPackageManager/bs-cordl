@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BombNoteController__Pool);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4761))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4761))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4736))
 // CS Name: ::BombNoteController*
 class CORDL_TYPE BombNoteController : public ::GlobalNamespace::NoteController {
@@ -50,22 +50,22 @@ public:
   using Pool = ::GlobalNamespace::__BombNoteController__Pool;
 
   /// @brief Field _cuttableBySaber, offset 0x80, size 0x8
-  __declspec(property(get = __get__cuttableBySaber, put = __set__cuttableBySaber))::GlobalNamespace::CuttableBySaber* _cuttableBySaber;
+  __declspec(property(get = __cordl_internal_get__cuttableBySaber, put = __cordl_internal_set__cuttableBySaber))::UnityW<::GlobalNamespace::CuttableBySaber> _cuttableBySaber;
 
   /// @brief Field _wrapperGO, offset 0x88, size 0x8
-  __declspec(property(get = __get__wrapperGO, put = __set__wrapperGO))::UnityEngine::GameObject* _wrapperGO;
+  __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO))::UnityW<::UnityEngine::GameObject> _wrapperGO;
 
-  constexpr ::GlobalNamespace::CuttableBySaber*& __get__cuttableBySaber();
+  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber>& __cordl_internal_get__cuttableBySaber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CuttableBySaber*> const& __get__cuttableBySaber() const;
+  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber> const& __cordl_internal_get__cuttableBySaber() const;
 
-  constexpr void __set__cuttableBySaber(::GlobalNamespace::CuttableBySaber* value);
+  constexpr void __cordl_internal_set__cuttableBySaber(::UnityW<::GlobalNamespace::CuttableBySaber> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__wrapperGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__wrapperGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__wrapperGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__wrapperGO() const;
 
-  constexpr void __set__wrapperGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method Init, addr 0x2378ab8, size 0xd0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
@@ -115,10 +115,10 @@ protected:
 
 public:
   /// @brief Field _cuttableBySaber, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::CuttableBySaber* ____cuttableBySaber;
+  ::UnityW<::GlobalNamespace::CuttableBySaber> ____cuttableBySaber;
 
   /// @brief Field _wrapperGO, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____wrapperGO;
+  ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -134,9 +134,9 @@ static_assert(offsetof(::GlobalNamespace::BombNoteController, ____wrapperGO) == 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2810 }), TypeDefinitionIndex(TypeDefinitionIndex(4736)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4735)) CS Name: ::BombNoteController::Pool*
-class CORDL_TYPE __BombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BombNoteController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4736)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2810 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4735)) CS Name: ::BombNoteController::Pool*
+class CORDL_TYPE __BombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BombNoteController__Pool* New_ctor();

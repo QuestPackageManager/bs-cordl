@@ -35,14 +35,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CallbackEventHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7211))
 // CS Name: ::UnityEngine.UIElements::CallbackEventHandler*
 class CORDL_TYPE CallbackEventHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_CallbackRegistry, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_CallbackRegistry, put = __set_m_CallbackRegistry))::UnityEngine::UIElements::EventCallbackRegistry* m_CallbackRegistry;
+  __declspec(property(get = __cordl_internal_get_m_CallbackRegistry, put = __cordl_internal_set_m_CallbackRegistry))::UnityEngine::UIElements::EventCallbackRegistry* m_CallbackRegistry;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventHandler"
   constexpr operator ::UnityEngine::UIElements::IEventHandler*() noexcept;
@@ -50,11 +50,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
   constexpr ::UnityEngine::UIElements::IEventHandler* i___UnityEngine__UIElements__IEventHandler() noexcept;
 
-  constexpr ::UnityEngine::UIElements::EventCallbackRegistry*& __get_m_CallbackRegistry();
+  constexpr ::UnityEngine::UIElements::EventCallbackRegistry*& __cordl_internal_get_m_CallbackRegistry();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackRegistry*> const& __get_m_CallbackRegistry() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackRegistry*> const& __cordl_internal_get_m_CallbackRegistry() const;
 
-  constexpr void __set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry* value);
+  constexpr void __cordl_internal_set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry* value);
 
   /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEventType> inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);

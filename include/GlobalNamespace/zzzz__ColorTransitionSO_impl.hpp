@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x227d2f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), "get_normalColor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,9 +25,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x227d560;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(),
-                                                                               "get_highlightedColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_highlightedColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -39,9 +39,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x227d598;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), "get_pressedColor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -53,9 +53,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x227d5d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(),
-                                                                               "get_disabledColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_disabledColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -67,9 +67,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x227d608;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(),
-                                                                               "get_selectedColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_selectedColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -81,9 +81,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x227d640;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(),
-                                                                               "get_selectedAndHighlightedColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), "get_selectedAndHighlightedColor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -94,120 +95,120 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227de4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::ColorTransitionSO::__get__normalColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__normalColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::ColorTransitionSO::__get__normalColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__normalColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalColor;
 }
-constexpr void GlobalNamespace::ColorTransitionSO::__set__normalColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::ColorTransitionSO::__cordl_internal_set__normalColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::ColorTransitionSO::__get__highlightedColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__highlightedColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::ColorTransitionSO::__get__highlightedColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__highlightedColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedColor;
 }
-constexpr void GlobalNamespace::ColorTransitionSO::__set__highlightedColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::ColorTransitionSO::__cordl_internal_set__highlightedColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____highlightedColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::ColorTransitionSO::__get__pressedColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__pressedColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::ColorTransitionSO::__get__pressedColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__pressedColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedColor;
 }
-constexpr void GlobalNamespace::ColorTransitionSO::__set__pressedColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::ColorTransitionSO::__cordl_internal_set__pressedColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pressedColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::ColorTransitionSO::__get__disabledColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__disabledColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::ColorTransitionSO::__get__disabledColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__disabledColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledColor;
 }
-constexpr void GlobalNamespace::ColorTransitionSO::__set__disabledColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::ColorTransitionSO::__cordl_internal_set__disabledColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disabledColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::ColorTransitionSO::__get__selectedColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__selectedColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::ColorTransitionSO::__get__selectedColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__selectedColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedColor;
 }
-constexpr void GlobalNamespace::ColorTransitionSO::__set__selectedColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::ColorTransitionSO::__cordl_internal_set__selectedColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::ColorTransitionSO::__get__selectedAndHighlightedColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__selectedAndHighlightedColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::ColorTransitionSO::__get__selectedAndHighlightedColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::ColorTransitionSO::__cordl_internal_get__selectedAndHighlightedColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedColor;
 }
-constexpr void GlobalNamespace::ColorTransitionSO::__set__selectedAndHighlightedColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::ColorTransitionSO::__cordl_internal_set__selectedAndHighlightedColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedAndHighlightedColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Color GlobalNamespace::ColorTransitionSO::get_normalColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), "get_normalColor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Color GlobalNamespace::ColorTransitionSO::get_highlightedColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(),
-                                                                             "get_highlightedColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_highlightedColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Color GlobalNamespace::ColorTransitionSO::get_pressedColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), "get_pressedColor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Color GlobalNamespace::ColorTransitionSO::get_disabledColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), "get_disabledColor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Color GlobalNamespace::ColorTransitionSO::get_selectedColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), "get_selectedColor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Color GlobalNamespace::ColorTransitionSO::get_selectedAndHighlightedColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(),
-                                                                             "get_selectedAndHighlightedColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_selectedAndHighlightedColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ColorTransitionSO* GlobalNamespace::ColorTransitionSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ColorTransitionSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorTransitionSO*>());
 }
 inline void GlobalNamespace::ColorTransitionSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorTransitionSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

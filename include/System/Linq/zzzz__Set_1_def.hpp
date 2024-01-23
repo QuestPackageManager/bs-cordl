@@ -29,7 +29,7 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14287))
 // CS Name: ::Set`1::Slot<TElement>
 struct CORDL_TYPE __Set_1__Slot {
@@ -65,7 +65,7 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14288))
 // CS Name: ::System.Linq::Set`1<TElement>*
 class CORDL_TYPE Set_1 : public ::System::Object {
@@ -74,49 +74,49 @@ public:
   using Slot = ::System::Linq::__Set_1__Slot<TElement>;
 
   /// @brief Field buckets, offset 0x10, size 0x8
-  __declspec(property(get = __get_buckets, put = __set_buckets))::ArrayW<int32_t, ::Array<int32_t>*> buckets;
+  __declspec(property(get = __cordl_internal_get_buckets, put = __cordl_internal_set_buckets))::ArrayW<int32_t, ::Array<int32_t>*> buckets;
 
   /// @brief Field slots, offset 0x18, size 0x8
-  __declspec(property(get = __get_slots, put = __set_slots))::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> slots;
+  __declspec(property(get = __cordl_internal_get_slots, put = __cordl_internal_set_slots))::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> slots;
 
   /// @brief Field count, offset 0x20, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field freeList, offset 0x24, size 0x4
-  __declspec(property(get = __get_freeList, put = __set_freeList)) int32_t freeList;
+  __declspec(property(get = __cordl_internal_get_freeList, put = __cordl_internal_set_freeList)) int32_t freeList;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_buckets();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_buckets();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_buckets() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_buckets() const;
 
-  constexpr void __set_buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*>& __get_slots();
+  constexpr ::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*>& __cordl_internal_get_slots();
 
-  constexpr ::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> const& __get_slots() const;
+  constexpr ::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> const& __cordl_internal_get_slots() const;
 
-  constexpr void __set_slots(::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> value);
+  constexpr void __cordl_internal_set_slots(::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr int32_t& __get_freeList();
+  constexpr int32_t& __cordl_internal_get_freeList();
 
-  constexpr int32_t const& __get_freeList() const;
+  constexpr int32_t const& __cordl_internal_get_freeList() const;
 
-  constexpr void __set_freeList(int32_t value);
+  constexpr void __cordl_internal_set_freeList(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TElement>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TElement>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TElement>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TElement>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TElement>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TElement>* value);
 
   static inline ::System::Linq::Set_1<TElement>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer);
 

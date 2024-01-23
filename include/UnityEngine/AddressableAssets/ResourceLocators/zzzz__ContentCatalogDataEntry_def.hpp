@@ -27,29 +27,31 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14108))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogDataEntry*
 class CORDL_TYPE ContentCatalogDataEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <InternalId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__InternalId_k__BackingField, put = __set__InternalId_k__BackingField))::StringW _InternalId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InternalId_k__BackingField, put = __cordl_internal_set__InternalId_k__BackingField))::StringW _InternalId_k__BackingField;
 
   /// @brief Field <Provider>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Provider_k__BackingField, put = __set__Provider_k__BackingField))::StringW _Provider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Provider_k__BackingField, put = __cordl_internal_set__Provider_k__BackingField))::StringW _Provider_k__BackingField;
 
   /// @brief Field <Keys>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Keys_k__BackingField, put = __set__Keys_k__BackingField))::System::Collections::Generic::List_1<::System::Object*>* _Keys_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Keys_k__BackingField,
+                      put = __cordl_internal_set__Keys_k__BackingField))::System::Collections::Generic::List_1<::System::Object*>* _Keys_k__BackingField;
 
   /// @brief Field <Dependencies>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__Dependencies_k__BackingField, put = __set__Dependencies_k__BackingField))::System::Collections::Generic::List_1<::System::Object*>* _Dependencies_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Dependencies_k__BackingField,
+                      put = __cordl_internal_set__Dependencies_k__BackingField))::System::Collections::Generic::List_1<::System::Object*>* _Dependencies_k__BackingField;
 
   /// @brief Field <Data>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__Data_k__BackingField, put = __set__Data_k__BackingField))::System::Object* _Data_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField))::System::Object* _Data_k__BackingField;
 
   /// @brief Field <ResourceType>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__ResourceType_k__BackingField, put = __set__ResourceType_k__BackingField))::System::Type* _ResourceType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ResourceType_k__BackingField, put = __cordl_internal_set__ResourceType_k__BackingField))::System::Type* _ResourceType_k__BackingField;
 
   __declspec(property(get = get_InternalId, put = set_InternalId))::StringW InternalId;
 
@@ -63,41 +65,41 @@ public:
 
   __declspec(property(get = get_ResourceType, put = set_ResourceType))::System::Type* ResourceType;
 
-  constexpr ::StringW& __get__InternalId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__InternalId_k__BackingField();
 
-  constexpr ::StringW const& __get__InternalId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__InternalId_k__BackingField() const;
 
-  constexpr void __set__InternalId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__InternalId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__Provider_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Provider_k__BackingField();
 
-  constexpr ::StringW const& __get__Provider_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Provider_k__BackingField() const;
 
-  constexpr void __set__Provider_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Provider_k__BackingField(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get__Keys_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__Keys_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get__Keys_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__Keys_k__BackingField() const;
 
-  constexpr void __set__Keys_k__BackingField(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__Keys_k__BackingField(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get__Dependencies_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__Dependencies_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get__Dependencies_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__Dependencies_k__BackingField() const;
 
-  constexpr void __set__Dependencies_k__BackingField(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__Dependencies_k__BackingField(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  constexpr ::System::Object*& __get__Data_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__Data_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__Data_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Data_k__BackingField() const;
 
-  constexpr void __set__Data_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__Data_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Type*& __get__ResourceType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__ResourceType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__ResourceType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ResourceType_k__BackingField() const;
 
-  constexpr void __set__ResourceType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__ResourceType_k__BackingField(::System::Type* value);
 
   /// @brief Method get_InternalId, addr 0x2a2cfe0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();

@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateSelector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3237))
 // CS Name: ::System.Runtime.Serialization::SurrogateSelector*
 class CORDL_TYPE SurrogateSelector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_surrogates, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_surrogates, put = __set_m_surrogates))::System::Runtime::Serialization::SurrogateHashtable* m_surrogates;
+  __declspec(property(get = __cordl_internal_get_m_surrogates, put = __cordl_internal_set_m_surrogates))::System::Runtime::Serialization::SurrogateHashtable* m_surrogates;
 
   /// @brief Field m_nextSelector, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_nextSelector, put = __set_m_nextSelector))::System::Runtime::Serialization::ISurrogateSelector* m_nextSelector;
+  __declspec(property(get = __cordl_internal_get_m_nextSelector, put = __cordl_internal_set_m_nextSelector))::System::Runtime::Serialization::ISurrogateSelector* m_nextSelector;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
@@ -48,17 +48,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr ::System::Runtime::Serialization::ISurrogateSelector* i___System__Runtime__Serialization__ISurrogateSelector() noexcept;
 
-  constexpr ::System::Runtime::Serialization::SurrogateHashtable*& __get_m_surrogates();
+  constexpr ::System::Runtime::Serialization::SurrogateHashtable*& __cordl_internal_get_m_surrogates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SurrogateHashtable*> const& __get_m_surrogates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SurrogateHashtable*> const& __cordl_internal_get_m_surrogates() const;
 
-  constexpr void __set_m_surrogates(::System::Runtime::Serialization::SurrogateHashtable* value);
+  constexpr void __cordl_internal_set_m_surrogates(::System::Runtime::Serialization::SurrogateHashtable* value);
 
-  constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __get_m_nextSelector();
+  constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __cordl_internal_get_m_nextSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const& __get_m_nextSelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const& __cordl_internal_get_m_nextSelector() const;
 
-  constexpr void __set_m_nextSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
+  constexpr void __cordl_internal_set_m_nextSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
   static inline ::System::Runtime::Serialization::SurrogateSelector* New_ctor();
 

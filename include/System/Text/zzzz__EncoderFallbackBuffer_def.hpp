@@ -19,76 +19,76 @@ MARK_REF_PTR_T(::System::Text::EncoderFallbackBuffer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2845))
 // CS Name: ::System.Text::EncoderFallbackBuffer*
 class CORDL_TYPE EncoderFallbackBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field charStart, offset 0x10, size 0x8
-  __declspec(property(get = __get_charStart, put = __set_charStart))::cordl_internals::Ptr<char16_t> charStart;
+  __declspec(property(get = __cordl_internal_get_charStart, put = __cordl_internal_set_charStart))::cordl_internals::Ptr<char16_t> charStart;
 
   /// @brief Field charEnd, offset 0x18, size 0x8
-  __declspec(property(get = __get_charEnd, put = __set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
+  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
 
   /// @brief Field encoder, offset 0x20, size 0x8
-  __declspec(property(get = __get_encoder, put = __set_encoder))::System::Text::EncoderNLS* encoder;
+  __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder))::System::Text::EncoderNLS* encoder;
 
   /// @brief Field setEncoder, offset 0x28, size 0x1
-  __declspec(property(get = __get_setEncoder, put = __set_setEncoder)) bool setEncoder;
+  __declspec(property(get = __cordl_internal_get_setEncoder, put = __cordl_internal_set_setEncoder)) bool setEncoder;
 
   /// @brief Field bUsedEncoder, offset 0x29, size 0x1
-  __declspec(property(get = __get_bUsedEncoder, put = __set_bUsedEncoder)) bool bUsedEncoder;
+  __declspec(property(get = __cordl_internal_get_bUsedEncoder, put = __cordl_internal_set_bUsedEncoder)) bool bUsedEncoder;
 
   /// @brief Field bFallingBack, offset 0x2a, size 0x1
-  __declspec(property(get = __get_bFallingBack, put = __set_bFallingBack)) bool bFallingBack;
+  __declspec(property(get = __cordl_internal_get_bFallingBack, put = __cordl_internal_set_bFallingBack)) bool bFallingBack;
 
   /// @brief Field iRecursionCount, offset 0x2c, size 0x4
-  __declspec(property(get = __get_iRecursionCount, put = __set_iRecursionCount)) int32_t iRecursionCount;
+  __declspec(property(get = __cordl_internal_get_iRecursionCount, put = __cordl_internal_set_iRecursionCount)) int32_t iRecursionCount;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_charStart();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charStart();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_charStart() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charStart() const;
 
-  constexpr void __set_charStart(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charStart(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_charEnd();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charEnd();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_charEnd() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charEnd() const;
 
-  constexpr void __set_charEnd(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr ::System::Text::EncoderNLS*& __get_encoder();
+  constexpr ::System::Text::EncoderNLS*& __cordl_internal_get_encoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderNLS*> const& __get_encoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderNLS*> const& __cordl_internal_get_encoder() const;
 
-  constexpr void __set_encoder(::System::Text::EncoderNLS* value);
+  constexpr void __cordl_internal_set_encoder(::System::Text::EncoderNLS* value);
 
-  constexpr bool& __get_setEncoder();
+  constexpr bool& __cordl_internal_get_setEncoder();
 
-  constexpr bool const& __get_setEncoder() const;
+  constexpr bool const& __cordl_internal_get_setEncoder() const;
 
-  constexpr void __set_setEncoder(bool value);
+  constexpr void __cordl_internal_set_setEncoder(bool value);
 
-  constexpr bool& __get_bUsedEncoder();
+  constexpr bool& __cordl_internal_get_bUsedEncoder();
 
-  constexpr bool const& __get_bUsedEncoder() const;
+  constexpr bool const& __cordl_internal_get_bUsedEncoder() const;
 
-  constexpr void __set_bUsedEncoder(bool value);
+  constexpr void __cordl_internal_set_bUsedEncoder(bool value);
 
-  constexpr bool& __get_bFallingBack();
+  constexpr bool& __cordl_internal_get_bFallingBack();
 
-  constexpr bool const& __get_bFallingBack() const;
+  constexpr bool const& __cordl_internal_get_bFallingBack() const;
 
-  constexpr void __set_bFallingBack(bool value);
+  constexpr void __cordl_internal_set_bFallingBack(bool value);
 
-  constexpr int32_t& __get_iRecursionCount();
+  constexpr int32_t& __cordl_internal_get_iRecursionCount();
 
-  constexpr int32_t const& __get_iRecursionCount() const;
+  constexpr int32_t const& __cordl_internal_get_iRecursionCount() const;
 
-  constexpr void __set_iRecursionCount(int32_t value);
+  constexpr void __cordl_internal_set_iRecursionCount(int32_t value);
 
   /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);

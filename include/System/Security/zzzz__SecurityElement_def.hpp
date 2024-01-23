@@ -31,33 +31,33 @@ MARK_REF_PTR_T(::System::Security::__SecurityElement__SecurityAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2887))
 // CS Name: ::SecurityElement::SecurityAttribute*
 class CORDL_TYPE __SecurityElement__SecurityAttribute : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::StringW _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::StringW _value;
 
   __declspec(property(get = get_Name))::StringW Name;
 
   __declspec(property(get = get_Value))::StringW Value;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::StringW& __get__value();
+  constexpr ::StringW& __cordl_internal_get__value();
 
-  constexpr ::StringW const& __get__value() const;
+  constexpr ::StringW const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::StringW value);
+  constexpr void __cordl_internal_set__value(::StringW value);
 
   static inline ::System::Security::__SecurityElement__SecurityAttribute* New_ctor(::StringW name, ::StringW value);
 
@@ -104,7 +104,7 @@ static_assert(offsetof(::System::Security::__SecurityElement__SecurityAttribute,
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2888))
 // CS Name: ::System.Security::SecurityElement*
 class CORDL_TYPE SecurityElement : public ::System::Object {
@@ -113,16 +113,16 @@ public:
   using SecurityAttribute = ::System::Security::__SecurityElement__SecurityAttribute;
 
   /// @brief Field text, offset 0x10, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::StringW text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   /// @brief Field tag, offset 0x18, size 0x8
-  __declspec(property(get = __get_tag, put = __set_tag))::StringW tag;
+  __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag))::StringW tag;
 
   /// @brief Field attributes, offset 0x20, size 0x8
-  __declspec(property(get = __get_attributes, put = __set_attributes))::System::Collections::ArrayList* attributes;
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::System::Collections::ArrayList* attributes;
 
   /// @brief Field children, offset 0x28, size 0x8
-  __declspec(property(get = __get_children, put = __set_children))::System::Collections::ArrayList* children;
+  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::System::Collections::ArrayList* children;
 
   /// @brief Field invalid_tag_chars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_invalid_tag_chars, put = setStaticF_invalid_tag_chars))::ArrayW<char16_t, ::Array<char16_t>*> invalid_tag_chars;
@@ -147,29 +147,29 @@ public:
 
   __declspec(property(put = set_m_strText))::StringW m_strText;
 
-  constexpr ::StringW& __get_text();
+  constexpr ::StringW& __cordl_internal_get_text();
 
-  constexpr ::StringW const& __get_text() const;
+  constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::StringW value);
+  constexpr void __cordl_internal_set_text(::StringW value);
 
-  constexpr ::StringW& __get_tag();
+  constexpr ::StringW& __cordl_internal_get_tag();
 
-  constexpr ::StringW const& __get_tag() const;
+  constexpr ::StringW const& __cordl_internal_get_tag() const;
 
-  constexpr void __set_tag(::StringW value);
+  constexpr void __cordl_internal_set_tag(::StringW value);
 
-  constexpr ::System::Collections::ArrayList*& __get_attributes();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_attributes() const;
 
-  constexpr void __set_attributes(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_attributes(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::ArrayList*& __get_children();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_children() const;
 
-  constexpr void __set_children(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_children(::System::Collections::ArrayList* value);
 
   static inline void setStaticF_invalid_tag_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 

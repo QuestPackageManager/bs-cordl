@@ -193,7 +193,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverr
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8046))
 // CS Name: ::OVRVirtualKeyboard::KeyboardPosition
 struct CORDL_TYPE __OVRVirtualKeyboard__KeyboardPosition {
@@ -251,15 +251,15 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7535))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7535))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8047))
 // CS Name: ::OVRVirtualKeyboard::InteractorRootTransformOverride::InteractorRootOverrideData
 struct CORDL_TYPE __OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "root", ty: "::UnityEngine::Transform*", modifiers: "", def_value: None }, CppParam { name: "originalPose", ty: "::GlobalNamespace::OVRPose", modifiers: "",
-  // def_value: None }, CppParam { name: "targetPose", ty: "::GlobalNamespace::OVRPose", modifiers: "", def_value: None }]
-  constexpr __OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData(::UnityEngine::Transform* root, ::GlobalNamespace::OVRPose originalPose,
+  // Ctor Parameters [CppParam { name: "root", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "originalPose", ty: "::GlobalNamespace::OVRPose", modifiers:
+  // "", def_value: None }, CppParam { name: "targetPose", ty: "::GlobalNamespace::OVRPose", modifiers: "", def_value: None }]
+  constexpr __OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData(::UnityW<::UnityEngine::Transform> root, ::GlobalNamespace::OVRPose originalPose,
                                                                                               ::GlobalNamespace::OVRPose targetPose) noexcept;
 
   // Ctor Parameters []
@@ -267,7 +267,7 @@ public:
   constexpr __OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData();
 
   /// @brief Field root, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Transform* root;
+  ::UnityW<::UnityEngine::Transform> root;
 
   /// @brief Field originalPose, offset: 0x8, size: 0x1c, def value: None
   ::GlobalNamespace::OVRPose originalPose;
@@ -294,20 +294,20 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTr
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8048))
 // CS Name: ::OVRVirtualKeyboard::InteractorRootTransformOverride::<RevertInteractorOverrides>d__6*
 class CORDL_TYPE __OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -331,23 +331,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*& __get___4__this();
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* value);
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6* New_ctor(int32_t __1__state);
 
@@ -408,7 +408,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8049))
 // CS Name: ::OVRVirtualKeyboard::InteractorRootTransformOverride*
 class CORDL_TYPE __OVRVirtualKeyboard__InteractorRootTransformOverride : public ::System::Object {
@@ -419,27 +419,27 @@ public:
   using InteractorRootOverrideData = ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData;
 
   /// @brief Field applyQueue, offset 0x10, size 0x8
-  __declspec(property(get = __get_applyQueue,
-                      put = __set_applyQueue))::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* applyQueue;
+  __declspec(property(
+      get = __cordl_internal_get_applyQueue,
+      put = __cordl_internal_set_applyQueue))::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* applyQueue;
 
   /// @brief Field revertQueue, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get_revertQueue,
-               put = __set_revertQueue))::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* revertQueue;
+  __declspec(property(get = __cordl_internal_get_revertQueue, put = __cordl_internal_set_revertQueue))::System::Collections::Generic::Queue_1<
+      ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* revertQueue;
 
-  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*& __get_applyQueue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*> const&
-  __get_applyQueue() const;
-
-  constexpr void __set_applyQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* value);
-
-  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*& __get_revertQueue();
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*& __cordl_internal_get_applyQueue();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*> const&
-  __get_revertQueue() const;
+  __cordl_internal_get_applyQueue() const;
 
-  constexpr void __set_revertQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* value);
+  constexpr void __cordl_internal_set_applyQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* value);
+
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*& __cordl_internal_get_revertQueue();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*> const&
+  __cordl_internal_get_revertQueue() const;
+
+  constexpr void __cordl_internal_set_revertQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* value);
 
   /// @brief Method Enqueue, addr 0x279d634, size 0x1cc, virtual false, abstract: false, final false
   inline void Enqueue(::UnityEngine::Transform* interactorRootTransform, ::GlobalNamespace::__OVRPlugin__Posef interactorRootPose);
@@ -495,7 +495,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTr
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8050))
 // CS Name: ::OVRVirtualKeyboard::InputSource
 struct CORDL_TYPE __OVRVirtualKeyboard__InputSource {
@@ -553,7 +553,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__InputSource, val
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8051))
 // CS Name: ::OVRVirtualKeyboard::IInputSource*
 class CORDL_TYPE __OVRVirtualKeyboard__IInputSource {
@@ -578,17 +578,17 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8052))
 // CS Name: ::OVRVirtualKeyboard::BaseInputSource*
 class CORDL_TYPE __OVRVirtualKeyboard__BaseInputSource : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _operatingWithoutOVRCameraRig, offset 0x10, size 0x1
-  __declspec(property(get = __get__operatingWithoutOVRCameraRig, put = __set__operatingWithoutOVRCameraRig)) bool _operatingWithoutOVRCameraRig;
+  __declspec(property(get = __cordl_internal_get__operatingWithoutOVRCameraRig, put = __cordl_internal_set__operatingWithoutOVRCameraRig)) bool _operatingWithoutOVRCameraRig;
 
   /// @brief Field _rig, offset 0x18, size 0x8
-  __declspec(property(get = __get__rig, put = __set__rig))::GlobalNamespace::OVRCameraRig* _rig;
+  __declspec(property(get = __cordl_internal_get__rig, put = __cordl_internal_set__rig))::UnityW<::GlobalNamespace::OVRCameraRig> _rig;
 
   /// @brief Convert operator to "::GlobalNamespace::__OVRVirtualKeyboard__IInputSource"
   constexpr operator ::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*() noexcept;
@@ -602,17 +602,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get__operatingWithoutOVRCameraRig();
+  constexpr bool& __cordl_internal_get__operatingWithoutOVRCameraRig();
 
-  constexpr bool const& __get__operatingWithoutOVRCameraRig() const;
+  constexpr bool const& __cordl_internal_get__operatingWithoutOVRCameraRig() const;
 
-  constexpr void __set__operatingWithoutOVRCameraRig(bool value);
+  constexpr void __cordl_internal_set__operatingWithoutOVRCameraRig(bool value);
 
-  constexpr ::GlobalNamespace::OVRCameraRig*& __get__rig();
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get__rig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& __get__rig() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get__rig() const;
 
-  constexpr void __set__rig(::GlobalNamespace::OVRCameraRig* value);
+  constexpr void __cordl_internal_set__rig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource* New_ctor();
 
@@ -649,7 +649,7 @@ public:
   bool ____operatingWithoutOVRCameraRig;
 
   /// @brief Field _rig, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::OVRCameraRig* ____rig;
+  ::UnityW<::GlobalNamespace::OVRCameraRig> ____rig;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -665,75 +665,75 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource,
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8050)), TypeDefinitionIndex(TypeDefinitionIndex(8052)), TypeDefinitionIndex(TypeDefinitionIndex(7598)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7588))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8053)) CS Name: ::OVRVirtualKeyboard::ControllerInputSource*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(8050)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8052))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8053)) CS Name: ::OVRVirtualKeyboard::ControllerInputSource*
 class CORDL_TYPE __OVRVirtualKeyboard__ControllerInputSource : public ::GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource {
 public:
   // Declarations
   /// @brief Field _rootTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__rootTransform, put = __set__rootTransform))::UnityEngine::Transform* _rootTransform;
+  __declspec(property(get = __cordl_internal_get__rootTransform, put = __cordl_internal_set__rootTransform))::UnityW<::UnityEngine::Transform> _rootTransform;
 
   /// @brief Field _directTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get__directTransform, put = __set__directTransform))::UnityEngine::Transform* _directTransform;
+  __declspec(property(get = __cordl_internal_get__directTransform, put = __cordl_internal_set__directTransform))::UnityW<::UnityEngine::Transform> _directTransform;
 
   /// @brief Field _inputSource, offset 0x30, size 0x4
-  __declspec(property(get = __get__inputSource, put = __set__inputSource))::GlobalNamespace::__OVRVirtualKeyboard__InputSource _inputSource;
+  __declspec(property(get = __cordl_internal_get__inputSource, put = __cordl_internal_set__inputSource))::GlobalNamespace::__OVRVirtualKeyboard__InputSource _inputSource;
 
   /// @brief Field _controllerType, offset 0x34, size 0x4
-  __declspec(property(get = __get__controllerType, put = __set__controllerType))::GlobalNamespace::__OVRInput__Controller _controllerType;
+  __declspec(property(get = __cordl_internal_get__controllerType, put = __cordl_internal_set__controllerType))::GlobalNamespace::__OVRInput__Controller _controllerType;
 
   /// @brief Field _keyboard, offset 0x38, size 0x8
-  __declspec(property(get = __get__keyboard, put = __set__keyboard))::GlobalNamespace::OVRVirtualKeyboard* _keyboard;
+  __declspec(property(get = __cordl_internal_get__keyboard, put = __cordl_internal_set__keyboard))::UnityW<::GlobalNamespace::OVRVirtualKeyboard> _keyboard;
 
   /// @brief Field _lastFrameCount, offset 0x40, size 0x4
-  __declspec(property(get = __get__lastFrameCount, put = __set__lastFrameCount)) int32_t _lastFrameCount;
+  __declspec(property(get = __cordl_internal_get__lastFrameCount, put = __cordl_internal_set__lastFrameCount)) int32_t _lastFrameCount;
 
   /// @brief Field _triggerButton, offset 0x44, size 0x4
-  __declspec(property(get = __get__triggerButton, put = __set__triggerButton))::GlobalNamespace::__OVRInput__RawButton _triggerButton;
+  __declspec(property(get = __cordl_internal_get__triggerButton, put = __cordl_internal_set__triggerButton))::GlobalNamespace::__OVRInput__RawButton _triggerButton;
 
   __declspec(property(get = get_TriggerIsPressed)) bool TriggerIsPressed;
 
-  constexpr ::UnityEngine::Transform*& __get__rootTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rootTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__rootTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rootTransform() const;
 
-  constexpr void __set__rootTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__rootTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__directTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__directTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__directTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__directTransform() const;
 
-  constexpr void __set__directTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__directTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource& __get__inputSource();
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource& __cordl_internal_get__inputSource();
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource const& __get__inputSource() const;
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource const& __cordl_internal_get__inputSource() const;
 
-  constexpr void __set__inputSource(::GlobalNamespace::__OVRVirtualKeyboard__InputSource value);
+  constexpr void __cordl_internal_set__inputSource(::GlobalNamespace::__OVRVirtualKeyboard__InputSource value);
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller& __get__controllerType();
+  constexpr ::GlobalNamespace::__OVRInput__Controller& __cordl_internal_get__controllerType();
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller const& __get__controllerType() const;
+  constexpr ::GlobalNamespace::__OVRInput__Controller const& __cordl_internal_get__controllerType() const;
 
-  constexpr void __set__controllerType(::GlobalNamespace::__OVRInput__Controller value);
+  constexpr void __cordl_internal_set__controllerType(::GlobalNamespace::__OVRInput__Controller value);
 
-  constexpr ::GlobalNamespace::OVRVirtualKeyboard*& __get__keyboard();
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>& __cordl_internal_get__keyboard();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRVirtualKeyboard*> const& __get__keyboard() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> const& __cordl_internal_get__keyboard() const;
 
-  constexpr void __set__keyboard(::GlobalNamespace::OVRVirtualKeyboard* value);
+  constexpr void __cordl_internal_set__keyboard(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
 
-  constexpr int32_t& __get__lastFrameCount();
+  constexpr int32_t& __cordl_internal_get__lastFrameCount();
 
-  constexpr int32_t const& __get__lastFrameCount() const;
+  constexpr int32_t const& __cordl_internal_get__lastFrameCount() const;
 
-  constexpr void __set__lastFrameCount(int32_t value);
+  constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __get__triggerButton();
+  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get__triggerButton();
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __get__triggerButton() const;
+  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get__triggerButton() const;
 
-  constexpr void __set__triggerButton(::GlobalNamespace::__OVRInput__RawButton value);
+  constexpr void __cordl_internal_set__triggerButton(::GlobalNamespace::__OVRInput__RawButton value);
 
   /// @brief Method get_TriggerIsPressed, addr 0x279e7f4, size 0x60, virtual false, abstract: false, final false
   inline bool get_TriggerIsPressed();
@@ -765,10 +765,10 @@ protected:
 
 public:
   /// @brief Field _rootTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____rootTransform;
+  ::UnityW<::UnityEngine::Transform> ____rootTransform;
 
   /// @brief Field _directTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____directTransform;
+  ::UnityW<::UnityEngine::Transform> ____directTransform;
 
   /// @brief Field _inputSource, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::__OVRVirtualKeyboard__InputSource ____inputSource;
@@ -777,7 +777,7 @@ public:
   ::GlobalNamespace::__OVRInput__Controller ____controllerType;
 
   /// @brief Field _keyboard, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::OVRVirtualKeyboard* ____keyboard;
+  ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> ____keyboard;
 
   /// @brief Field _lastFrameCount, offset: 0x40, size: 0x4, def value: None
   int32_t ____lastFrameCount;
@@ -809,7 +809,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__ControllerInputS
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8054))
 // CS Name: ::OVRVirtualKeyboard::HandInputSource::<>c*
 class CORDL_TYPE __OVRVirtualKeyboard__HandInputSource____c : public ::System::Object {
@@ -871,7 +871,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRVirtualKey
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8050)), TypeDefinitionIndex(TypeDefinitionIndex(8052))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8050)), TypeDefinitionIndex(TypeDefinitionIndex(8052))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8055))
 // CS Name: ::OVRVirtualKeyboard::HandInputSource*
 class CORDL_TYPE __OVRVirtualKeyboard__HandInputSource : public ::GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource {
@@ -880,49 +880,49 @@ public:
   using __c = ::GlobalNamespace::__OVRVirtualKeyboard__HandInputSource____c;
 
   /// @brief Field _hand, offset 0x20, size 0x8
-  __declspec(property(get = __get__hand, put = __set__hand))::GlobalNamespace::OVRHand* _hand;
+  __declspec(property(get = __cordl_internal_get__hand, put = __cordl_internal_set__hand))::UnityW<::GlobalNamespace::OVRHand> _hand;
 
   /// @brief Field _inputSource, offset 0x28, size 0x4
-  __declspec(property(get = __get__inputSource, put = __set__inputSource))::GlobalNamespace::__OVRVirtualKeyboard__InputSource _inputSource;
+  __declspec(property(get = __cordl_internal_get__inputSource, put = __cordl_internal_set__inputSource))::GlobalNamespace::__OVRVirtualKeyboard__InputSource _inputSource;
 
   /// @brief Field _keyboard, offset 0x30, size 0x8
-  __declspec(property(get = __get__keyboard, put = __set__keyboard))::GlobalNamespace::OVRVirtualKeyboard* _keyboard;
+  __declspec(property(get = __cordl_internal_get__keyboard, put = __cordl_internal_set__keyboard))::UnityW<::GlobalNamespace::OVRVirtualKeyboard> _keyboard;
 
   /// @brief Field _skeleton, offset 0x38, size 0x8
-  __declspec(property(get = __get__skeleton, put = __set__skeleton))::GlobalNamespace::OVRSkeleton* _skeleton;
+  __declspec(property(get = __cordl_internal_get__skeleton, put = __cordl_internal_set__skeleton))::UnityW<::GlobalNamespace::OVRSkeleton> _skeleton;
 
   /// @brief Field _lastFrameCount, offset 0x40, size 0x4
-  __declspec(property(get = __get__lastFrameCount, put = __set__lastFrameCount)) int32_t _lastFrameCount;
+  __declspec(property(get = __cordl_internal_get__lastFrameCount, put = __cordl_internal_set__lastFrameCount)) int32_t _lastFrameCount;
 
-  constexpr ::GlobalNamespace::OVRHand*& __get__hand();
+  constexpr ::UnityW<::GlobalNamespace::OVRHand>& __cordl_internal_get__hand();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& __get__hand() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRHand> const& __cordl_internal_get__hand() const;
 
-  constexpr void __set__hand(::GlobalNamespace::OVRHand* value);
+  constexpr void __cordl_internal_set__hand(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource& __get__inputSource();
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource& __cordl_internal_get__inputSource();
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource const& __get__inputSource() const;
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource const& __cordl_internal_get__inputSource() const;
 
-  constexpr void __set__inputSource(::GlobalNamespace::__OVRVirtualKeyboard__InputSource value);
+  constexpr void __cordl_internal_set__inputSource(::GlobalNamespace::__OVRVirtualKeyboard__InputSource value);
 
-  constexpr ::GlobalNamespace::OVRVirtualKeyboard*& __get__keyboard();
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>& __cordl_internal_get__keyboard();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRVirtualKeyboard*> const& __get__keyboard() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> const& __cordl_internal_get__keyboard() const;
 
-  constexpr void __set__keyboard(::GlobalNamespace::OVRVirtualKeyboard* value);
+  constexpr void __cordl_internal_set__keyboard(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
 
-  constexpr ::GlobalNamespace::OVRSkeleton*& __get__skeleton();
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton>& __cordl_internal_get__skeleton();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& __get__skeleton() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton> const& __cordl_internal_get__skeleton() const;
 
-  constexpr void __set__skeleton(::GlobalNamespace::OVRSkeleton* value);
+  constexpr void __cordl_internal_set__skeleton(::UnityW<::GlobalNamespace::OVRSkeleton> value);
 
-  constexpr int32_t& __get__lastFrameCount();
+  constexpr int32_t& __cordl_internal_get__lastFrameCount();
 
-  constexpr int32_t const& __get__lastFrameCount() const;
+  constexpr int32_t const& __cordl_internal_get__lastFrameCount() const;
 
-  constexpr void __set__lastFrameCount(int32_t value);
+  constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__HandInputSource* New_ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard, ::GlobalNamespace::__OVRVirtualKeyboard__InputSource inputSource,
                                                                                    ::GlobalNamespace::OVRHand* hand);
@@ -948,16 +948,16 @@ protected:
 
 public:
   /// @brief Field _hand, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRHand* ____hand;
+  ::UnityW<::GlobalNamespace::OVRHand> ____hand;
 
   /// @brief Field _inputSource, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__OVRVirtualKeyboard__InputSource ____inputSource;
 
   /// @brief Field _keyboard, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::OVRVirtualKeyboard* ____keyboard;
+  ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> ____keyboard;
 
   /// @brief Field _skeleton, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSkeleton* ____skeleton;
+  ::UnityW<::GlobalNamespace::OVRSkeleton> ____skeleton;
 
   /// @brief Field _lastFrameCount, offset: 0x40, size: 0x4, def value: None
   int32_t ____lastFrameCount;
@@ -982,7 +982,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboard__HandInputSource,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8056))
 // CS Name: ::OVRVirtualKeyboard::<>c*
 class CORDL_TYPE __OVRVirtualKeyboard____c : public ::System::Object {
@@ -995,7 +995,7 @@ public:
   static __declspec(property(get = getStaticF___9__68_0, put = setStaticF___9__68_0))::System::Func_2<::StringW, bool>* __9__68_0;
 
   /// @brief Field <>9__70_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__70_0, put = setStaticF___9__70_0))::System::Func_2<::UnityEngine::MeshFilter*, bool>* __9__70_0;
+  static __declspec(property(get = getStaticF___9__70_0, put = setStaticF___9__70_0))::System::Func_2<::UnityW<::UnityEngine::MeshFilter>, bool>* __9__70_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__OVRVirtualKeyboard____c* value);
 
@@ -1005,9 +1005,9 @@ public:
 
   static inline ::System::Func_2<::StringW, bool>* getStaticF___9__68_0();
 
-  static inline void setStaticF___9__70_0(::System::Func_2<::UnityEngine::MeshFilter*, bool>* value);
+  static inline void setStaticF___9__70_0(::System::Func_2<::UnityW<::UnityEngine::MeshFilter>, bool>* value);
 
-  static inline ::System::Func_2<::UnityEngine::MeshFilter*, bool>* getStaticF___9__70_0();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::MeshFilter>, bool>* getStaticF___9__70_0();
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard____c* New_ctor();
 
@@ -1044,7 +1044,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRVirtualKey
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8046)), TypeDefinitionIndex(TypeDefinitionIndex(7567)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7567)), TypeDefinitionIndex(TypeDefinitionIndex(8046)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8057))
 // CS Name: ::OVRVirtualKeyboard*
 class CORDL_TYPE OVRVirtualKeyboard : public ::UnityEngine::MonoBehaviour {
@@ -1067,119 +1067,121 @@ public:
   using KeyboardPosition = ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition;
 
   /// @brief Field CommitText, offset 0x18, size 0x8
-  __declspec(property(get = __get_CommitText, put = __set_CommitText))::System::Action_1<::StringW>* CommitText;
+  __declspec(property(get = __cordl_internal_get_CommitText, put = __cordl_internal_set_CommitText))::System::Action_1<::StringW>* CommitText;
 
   /// @brief Field Backspace, offset 0x20, size 0x8
-  __declspec(property(get = __get_Backspace, put = __set_Backspace))::System::Action* Backspace;
+  __declspec(property(get = __cordl_internal_get_Backspace, put = __cordl_internal_set_Backspace))::System::Action* Backspace;
 
   /// @brief Field Enter, offset 0x28, size 0x8
-  __declspec(property(get = __get_Enter, put = __set_Enter))::System::Action* Enter;
+  __declspec(property(get = __cordl_internal_get_Enter, put = __cordl_internal_set_Enter))::System::Action* Enter;
 
   /// @brief Field KeyboardShown, offset 0x30, size 0x8
-  __declspec(property(get = __get_KeyboardShown, put = __set_KeyboardShown))::System::Action* KeyboardShown;
+  __declspec(property(get = __cordl_internal_get_KeyboardShown, put = __cordl_internal_set_KeyboardShown))::System::Action* KeyboardShown;
 
   /// @brief Field KeyboardHidden, offset 0x38, size 0x8
-  __declspec(property(get = __get_KeyboardHidden, put = __set_KeyboardHidden))::System::Action* KeyboardHidden;
+  __declspec(property(get = __cordl_internal_get_KeyboardHidden, put = __cordl_internal_set_KeyboardHidden))::System::Action* KeyboardHidden;
 
   /// @brief Field <Collider>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__Collider_k__BackingField, put = __set__Collider_k__BackingField))::UnityEngine::Collider* _Collider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Collider_k__BackingField, put = __cordl_internal_set__Collider_k__BackingField))::UnityW<::UnityEngine::Collider> _Collider_k__BackingField;
 
   /// @brief Field InitialPosition, offset 0x48, size 0x4
-  __declspec(property(get = __get_InitialPosition, put = __set_InitialPosition))::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition InitialPosition;
+  __declspec(property(get = __cordl_internal_get_InitialPosition, put = __cordl_internal_set_InitialPosition))::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition InitialPosition;
 
   /// @brief Field textCommitField, offset 0x50, size 0x8
-  __declspec(property(get = __get_textCommitField, put = __set_textCommitField))::UnityEngine::UI::InputField* textCommitField;
+  __declspec(property(get = __cordl_internal_get_textCommitField, put = __cordl_internal_set_textCommitField))::UnityW<::UnityEngine::UI::InputField> textCommitField;
 
   /// @brief Field leftControllerRootTransform, offset 0x58, size 0x8
-  __declspec(property(get = __get_leftControllerRootTransform, put = __set_leftControllerRootTransform))::UnityEngine::Transform* leftControllerRootTransform;
+  __declspec(property(get = __cordl_internal_get_leftControllerRootTransform, put = __cordl_internal_set_leftControllerRootTransform))::UnityW<::UnityEngine::Transform> leftControllerRootTransform;
 
   /// @brief Field leftControllerDirectTransform, offset 0x60, size 0x8
-  __declspec(property(get = __get_leftControllerDirectTransform, put = __set_leftControllerDirectTransform))::UnityEngine::Transform* leftControllerDirectTransform;
+  __declspec(property(get = __cordl_internal_get_leftControllerDirectTransform,
+                      put = __cordl_internal_set_leftControllerDirectTransform))::UnityW<::UnityEngine::Transform> leftControllerDirectTransform;
 
   /// @brief Field rightControllerRootTransform, offset 0x68, size 0x8
-  __declspec(property(get = __get_rightControllerRootTransform, put = __set_rightControllerRootTransform))::UnityEngine::Transform* rightControllerRootTransform;
+  __declspec(property(get = __cordl_internal_get_rightControllerRootTransform, put = __cordl_internal_set_rightControllerRootTransform))::UnityW<::UnityEngine::Transform> rightControllerRootTransform;
 
   /// @brief Field rightControllerDirectTransform, offset 0x70, size 0x8
-  __declspec(property(get = __get_rightControllerDirectTransform, put = __set_rightControllerDirectTransform))::UnityEngine::Transform* rightControllerDirectTransform;
+  __declspec(property(get = __cordl_internal_get_rightControllerDirectTransform,
+                      put = __cordl_internal_set_rightControllerDirectTransform))::UnityW<::UnityEngine::Transform> rightControllerDirectTransform;
 
   /// @brief Field controllerDirectInteraction, offset 0x78, size 0x1
-  __declspec(property(get = __get_controllerDirectInteraction, put = __set_controllerDirectInteraction)) bool controllerDirectInteraction;
+  __declspec(property(get = __cordl_internal_get_controllerDirectInteraction, put = __cordl_internal_set_controllerDirectInteraction)) bool controllerDirectInteraction;
 
   /// @brief Field controllerRayInteraction, offset 0x79, size 0x1
-  __declspec(property(get = __get_controllerRayInteraction, put = __set_controllerRayInteraction)) bool controllerRayInteraction;
+  __declspec(property(get = __cordl_internal_get_controllerRayInteraction, put = __cordl_internal_set_controllerRayInteraction)) bool controllerRayInteraction;
 
   /// @brief Field controllerRaycaster, offset 0x80, size 0x8
-  __declspec(property(get = __get_controllerRaycaster, put = __set_controllerRaycaster))::UnityEngine::EventSystems::OVRPhysicsRaycaster* controllerRaycaster;
+  __declspec(property(get = __cordl_internal_get_controllerRaycaster, put = __cordl_internal_set_controllerRaycaster))::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> controllerRaycaster;
 
   /// @brief Field handLeft, offset 0x88, size 0x8
-  __declspec(property(get = __get_handLeft, put = __set_handLeft))::GlobalNamespace::OVRHand* handLeft;
+  __declspec(property(get = __cordl_internal_get_handLeft, put = __cordl_internal_set_handLeft))::UnityW<::GlobalNamespace::OVRHand> handLeft;
 
   /// @brief Field handRight, offset 0x90, size 0x8
-  __declspec(property(get = __get_handRight, put = __set_handRight))::GlobalNamespace::OVRHand* handRight;
+  __declspec(property(get = __cordl_internal_get_handRight, put = __cordl_internal_set_handRight))::UnityW<::GlobalNamespace::OVRHand> handRight;
 
   /// @brief Field handDirectInteraction, offset 0x98, size 0x1
-  __declspec(property(get = __get_handDirectInteraction, put = __set_handDirectInteraction)) bool handDirectInteraction;
+  __declspec(property(get = __cordl_internal_get_handDirectInteraction, put = __cordl_internal_set_handDirectInteraction)) bool handDirectInteraction;
 
   /// @brief Field handRayInteraction, offset 0x99, size 0x1
-  __declspec(property(get = __get_handRayInteraction, put = __set_handRayInteraction)) bool handRayInteraction;
+  __declspec(property(get = __cordl_internal_get_handRayInteraction, put = __cordl_internal_set_handRayInteraction)) bool handRayInteraction;
 
   /// @brief Field handRaycaster, offset 0xa0, size 0x8
-  __declspec(property(get = __get_handRaycaster, put = __set_handRaycaster))::UnityEngine::EventSystems::OVRPhysicsRaycaster* handRaycaster;
+  __declspec(property(get = __cordl_internal_get_handRaycaster, put = __cordl_internal_set_handRaycaster))::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> handRaycaster;
 
   /// @brief Field keyboardModelShader, offset 0xa8, size 0x8
-  __declspec(property(get = __get_keyboardModelShader, put = __set_keyboardModelShader))::UnityEngine::Shader* keyboardModelShader;
+  __declspec(property(get = __cordl_internal_get_keyboardModelShader, put = __cordl_internal_set_keyboardModelShader))::UnityW<::UnityEngine::Shader> keyboardModelShader;
 
   /// @brief Field keyboardModelAlphaBlendShader, offset 0xb0, size 0x8
-  __declspec(property(get = __get_keyboardModelAlphaBlendShader, put = __set_keyboardModelAlphaBlendShader))::UnityEngine::Shader* keyboardModelAlphaBlendShader;
+  __declspec(property(get = __cordl_internal_get_keyboardModelAlphaBlendShader, put = __cordl_internal_set_keyboardModelAlphaBlendShader))::UnityW<::UnityEngine::Shader> keyboardModelAlphaBlendShader;
 
   /// @brief Field InputEnabled, offset 0xb8, size 0x1
-  __declspec(property(get = __get_InputEnabled, put = __set_InputEnabled)) bool InputEnabled;
+  __declspec(property(get = __cordl_internal_get_InputEnabled, put = __cordl_internal_set_InputEnabled)) bool InputEnabled;
 
   /// @brief Field isKeyboardCreated_, offset 0xb9, size 0x1
-  __declspec(property(get = __get_isKeyboardCreated_, put = __set_isKeyboardCreated_)) bool isKeyboardCreated_;
+  __declspec(property(get = __cordl_internal_get_isKeyboardCreated_, put = __cordl_internal_set_isKeyboardCreated_)) bool isKeyboardCreated_;
 
   /// @brief Field keyboardSpace_, offset 0xc0, size 0x8
-  __declspec(property(get = __get_keyboardSpace_, put = __set_keyboardSpace_)) uint64_t keyboardSpace_;
+  __declspec(property(get = __cordl_internal_get_keyboardSpace_, put = __cordl_internal_set_keyboardSpace_)) uint64_t keyboardSpace_;
 
   /// @brief Field virtualKeyboardTextures_, offset 0xc8, size 0x8
-  __declspec(property(
-      get = __get_virtualKeyboardTextures_,
-      put = __set_virtualKeyboardTextures_))::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>* virtualKeyboardTextures_;
+  __declspec(property(get = __cordl_internal_get_virtualKeyboardTextures_, put = __cordl_internal_set_virtualKeyboardTextures_))::System::Collections::Generic::Dictionary_2<
+      uint64_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>* virtualKeyboardTextures_;
 
   /// @brief Field virtualKeyboardScene_, offset 0xd0, size 0x28
-  __declspec(property(get = __get_virtualKeyboardScene_, put = __set_virtualKeyboardScene_))::GlobalNamespace::OVRGLTFScene virtualKeyboardScene_;
+  __declspec(property(get = __cordl_internal_get_virtualKeyboardScene_, put = __cordl_internal_set_virtualKeyboardScene_))::GlobalNamespace::OVRGLTFScene virtualKeyboardScene_;
 
   /// @brief Field virtualKeyboardModelKey_, offset 0xf8, size 0x8
-  __declspec(property(get = __get_virtualKeyboardModelKey_, put = __set_virtualKeyboardModelKey_)) uint64_t virtualKeyboardModelKey_;
+  __declspec(property(get = __cordl_internal_get_virtualKeyboardModelKey_, put = __cordl_internal_set_virtualKeyboardModelKey_)) uint64_t virtualKeyboardModelKey_;
 
   /// @brief Field modelInitialized_, offset 0x100, size 0x1
-  __declspec(property(get = __get_modelInitialized_, put = __set_modelInitialized_)) bool modelInitialized_;
+  __declspec(property(get = __cordl_internal_get_modelInitialized_, put = __cordl_internal_set_modelInitialized_)) bool modelInitialized_;
 
   /// @brief Field modelAvailable_, offset 0x101, size 0x1
-  __declspec(property(get = __get_modelAvailable_, put = __set_modelAvailable_)) bool modelAvailable_;
+  __declspec(property(get = __cordl_internal_get_modelAvailable_, put = __cordl_internal_set_modelAvailable_)) bool modelAvailable_;
 
   /// @brief Field keyboardVisible_, offset 0x102, size 0x1
-  __declspec(property(get = __get_keyboardVisible_, put = __set_keyboardVisible_)) bool keyboardVisible_;
+  __declspec(property(get = __cordl_internal_get_keyboardVisible_, put = __cordl_internal_set_keyboardVisible_)) bool keyboardVisible_;
 
   /// @brief Field _interactorRootTransformOverride, offset 0x108, size 0x8
-  __declspec(property(get = __get__interactorRootTransformOverride,
-                      put = __set__interactorRootTransformOverride))::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* _interactorRootTransformOverride;
+  __declspec(property(get = __cordl_internal_get__interactorRootTransformOverride,
+                      put = __cordl_internal_set__interactorRootTransformOverride))::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* _interactorRootTransformOverride;
 
   /// @brief Field _inputSources, offset 0x110, size 0x8
-  __declspec(property(get = __get__inputSources, put = __set__inputSources))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>* _inputSources;
+  __declspec(property(get = __cordl_internal_get__inputSources,
+                      put = __cordl_internal_set__inputSources))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>* _inputSources;
 
   /// @brief Field ignoreTextCommmitFieldOnValueChanged_, offset 0x118, size 0x1
-  __declspec(property(get = __get_ignoreTextCommmitFieldOnValueChanged_, put = __set_ignoreTextCommmitFieldOnValueChanged_)) bool ignoreTextCommmitFieldOnValueChanged_;
+  __declspec(property(get = __cordl_internal_get_ignoreTextCommmitFieldOnValueChanged_, put = __cordl_internal_set_ignoreTextCommmitFieldOnValueChanged_)) bool ignoreTextCommmitFieldOnValueChanged_;
 
   /// @brief Field runtimeInputField_, offset 0x120, size 0x8
-  __declspec(property(get = __get_runtimeInputField_, put = __set_runtimeInputField_))::UnityEngine::UI::InputField* runtimeInputField_;
+  __declspec(property(get = __cordl_internal_get_runtimeInputField_, put = __cordl_internal_set_runtimeInputField_))::UnityW<::UnityEngine::UI::InputField> runtimeInputField_;
 
   /// @brief Field singleton_, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_singleton_, put = setStaticF_singleton_))::GlobalNamespace::OVRVirtualKeyboard* singleton_;
+  static __declspec(property(get = getStaticF_singleton_, put = setStaticF_singleton_))::UnityW<::GlobalNamespace::OVRVirtualKeyboard> singleton_;
 
-  __declspec(property(get = get_Collider, put = set_Collider))::UnityEngine::Collider* Collider;
+  __declspec(property(get = get_Collider, put = set_Collider))::UnityW<::UnityEngine::Collider> Collider;
 
-  __declspec(property(get = get_TextCommitField, put = set_TextCommitField))::UnityEngine::UI::InputField* TextCommitField;
+  __declspec(property(get = get_TextCommitField, put = set_TextCommitField))::UnityW<::UnityEngine::UI::InputField> TextCommitField;
 
   /// @brief Convert operator to "::GlobalNamespace::__OVRManager__EventListener"
   constexpr operator ::GlobalNamespace::__OVRManager__EventListener*() noexcept;
@@ -1187,220 +1189,221 @@ public:
   /// @brief Convert to "::GlobalNamespace::__OVRManager__EventListener"
   constexpr ::GlobalNamespace::__OVRManager__EventListener* i___GlobalNamespace____OVRManager__EventListener() noexcept;
 
-  constexpr ::System::Action_1<::StringW>*& __get_CommitText();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_CommitText();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_CommitText() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_CommitText() const;
 
-  constexpr void __set_CommitText(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_CommitText(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action*& __get_Backspace();
+  constexpr ::System::Action*& __cordl_internal_get_Backspace();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_Backspace() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_Backspace() const;
 
-  constexpr void __set_Backspace(::System::Action* value);
+  constexpr void __cordl_internal_set_Backspace(::System::Action* value);
 
-  constexpr ::System::Action*& __get_Enter();
+  constexpr ::System::Action*& __cordl_internal_get_Enter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_Enter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_Enter() const;
 
-  constexpr void __set_Enter(::System::Action* value);
+  constexpr void __cordl_internal_set_Enter(::System::Action* value);
 
-  constexpr ::System::Action*& __get_KeyboardShown();
+  constexpr ::System::Action*& __cordl_internal_get_KeyboardShown();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_KeyboardShown() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_KeyboardShown() const;
 
-  constexpr void __set_KeyboardShown(::System::Action* value);
+  constexpr void __cordl_internal_set_KeyboardShown(::System::Action* value);
 
-  constexpr ::System::Action*& __get_KeyboardHidden();
+  constexpr ::System::Action*& __cordl_internal_get_KeyboardHidden();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_KeyboardHidden() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_KeyboardHidden() const;
 
-  constexpr void __set_KeyboardHidden(::System::Action* value);
+  constexpr void __cordl_internal_set_KeyboardHidden(::System::Action* value);
 
-  constexpr ::UnityEngine::Collider*& __get__Collider_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get__Collider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Collider*> const& __get__Collider_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get__Collider_k__BackingField() const;
 
-  constexpr void __set__Collider_k__BackingField(::UnityEngine::Collider* value);
+  constexpr void __cordl_internal_set__Collider_k__BackingField(::UnityW<::UnityEngine::Collider> value);
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition& __get_InitialPosition();
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition& __cordl_internal_get_InitialPosition();
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition const& __get_InitialPosition() const;
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition const& __cordl_internal_get_InitialPosition() const;
 
-  constexpr void __set_InitialPosition(::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition value);
+  constexpr void __cordl_internal_set_InitialPosition(::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition value);
 
-  constexpr ::UnityEngine::UI::InputField*& __get_textCommitField();
+  constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_textCommitField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::InputField*> const& __get_textCommitField() const;
+  constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_textCommitField() const;
 
-  constexpr void __set_textCommitField(::UnityEngine::UI::InputField* value);
+  constexpr void __cordl_internal_set_textCommitField(::UnityW<::UnityEngine::UI::InputField> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftControllerRootTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftControllerRootTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftControllerRootTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftControllerRootTransform() const;
 
-  constexpr void __set_leftControllerRootTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftControllerRootTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftControllerDirectTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftControllerDirectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftControllerDirectTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftControllerDirectTransform() const;
 
-  constexpr void __set_leftControllerDirectTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftControllerDirectTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightControllerRootTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightControllerRootTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightControllerRootTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightControllerRootTransform() const;
 
-  constexpr void __set_rightControllerRootTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightControllerRootTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightControllerDirectTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightControllerDirectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightControllerDirectTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightControllerDirectTransform() const;
 
-  constexpr void __set_rightControllerDirectTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightControllerDirectTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get_controllerDirectInteraction();
+  constexpr bool& __cordl_internal_get_controllerDirectInteraction();
 
-  constexpr bool const& __get_controllerDirectInteraction() const;
+  constexpr bool const& __cordl_internal_get_controllerDirectInteraction() const;
 
-  constexpr void __set_controllerDirectInteraction(bool value);
+  constexpr void __cordl_internal_set_controllerDirectInteraction(bool value);
 
-  constexpr bool& __get_controllerRayInteraction();
+  constexpr bool& __cordl_internal_get_controllerRayInteraction();
 
-  constexpr bool const& __get_controllerRayInteraction() const;
+  constexpr bool const& __cordl_internal_get_controllerRayInteraction() const;
 
-  constexpr void __set_controllerRayInteraction(bool value);
+  constexpr void __cordl_internal_set_controllerRayInteraction(bool value);
 
-  constexpr ::UnityEngine::EventSystems::OVRPhysicsRaycaster*& __get_controllerRaycaster();
+  constexpr ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>& __cordl_internal_get_controllerRaycaster();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::OVRPhysicsRaycaster*> const& __get_controllerRaycaster() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> const& __cordl_internal_get_controllerRaycaster() const;
 
-  constexpr void __set_controllerRaycaster(::UnityEngine::EventSystems::OVRPhysicsRaycaster* value);
+  constexpr void __cordl_internal_set_controllerRaycaster(::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> value);
 
-  constexpr ::GlobalNamespace::OVRHand*& __get_handLeft();
+  constexpr ::UnityW<::GlobalNamespace::OVRHand>& __cordl_internal_get_handLeft();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& __get_handLeft() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRHand> const& __cordl_internal_get_handLeft() const;
 
-  constexpr void __set_handLeft(::GlobalNamespace::OVRHand* value);
+  constexpr void __cordl_internal_set_handLeft(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  constexpr ::GlobalNamespace::OVRHand*& __get_handRight();
+  constexpr ::UnityW<::GlobalNamespace::OVRHand>& __cordl_internal_get_handRight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& __get_handRight() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRHand> const& __cordl_internal_get_handRight() const;
 
-  constexpr void __set_handRight(::GlobalNamespace::OVRHand* value);
+  constexpr void __cordl_internal_set_handRight(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  constexpr bool& __get_handDirectInteraction();
+  constexpr bool& __cordl_internal_get_handDirectInteraction();
 
-  constexpr bool const& __get_handDirectInteraction() const;
+  constexpr bool const& __cordl_internal_get_handDirectInteraction() const;
 
-  constexpr void __set_handDirectInteraction(bool value);
+  constexpr void __cordl_internal_set_handDirectInteraction(bool value);
 
-  constexpr bool& __get_handRayInteraction();
+  constexpr bool& __cordl_internal_get_handRayInteraction();
 
-  constexpr bool const& __get_handRayInteraction() const;
+  constexpr bool const& __cordl_internal_get_handRayInteraction() const;
 
-  constexpr void __set_handRayInteraction(bool value);
+  constexpr void __cordl_internal_set_handRayInteraction(bool value);
 
-  constexpr ::UnityEngine::EventSystems::OVRPhysicsRaycaster*& __get_handRaycaster();
+  constexpr ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>& __cordl_internal_get_handRaycaster();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::OVRPhysicsRaycaster*> const& __get_handRaycaster() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> const& __cordl_internal_get_handRaycaster() const;
 
-  constexpr void __set_handRaycaster(::UnityEngine::EventSystems::OVRPhysicsRaycaster* value);
+  constexpr void __cordl_internal_set_handRaycaster(::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> value);
 
-  constexpr ::UnityEngine::Shader*& __get_keyboardModelShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_keyboardModelShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_keyboardModelShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_keyboardModelShader() const;
 
-  constexpr void __set_keyboardModelShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_keyboardModelShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Shader*& __get_keyboardModelAlphaBlendShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_keyboardModelAlphaBlendShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_keyboardModelAlphaBlendShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_keyboardModelAlphaBlendShader() const;
 
-  constexpr void __set_keyboardModelAlphaBlendShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_keyboardModelAlphaBlendShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr bool& __get_InputEnabled();
+  constexpr bool& __cordl_internal_get_InputEnabled();
 
-  constexpr bool const& __get_InputEnabled() const;
+  constexpr bool const& __cordl_internal_get_InputEnabled() const;
 
-  constexpr void __set_InputEnabled(bool value);
+  constexpr void __cordl_internal_set_InputEnabled(bool value);
 
-  constexpr bool& __get_isKeyboardCreated_();
+  constexpr bool& __cordl_internal_get_isKeyboardCreated_();
 
-  constexpr bool const& __get_isKeyboardCreated_() const;
+  constexpr bool const& __cordl_internal_get_isKeyboardCreated_() const;
 
-  constexpr void __set_isKeyboardCreated_(bool value);
+  constexpr void __cordl_internal_set_isKeyboardCreated_(bool value);
 
-  constexpr uint64_t& __get_keyboardSpace_();
+  constexpr uint64_t& __cordl_internal_get_keyboardSpace_();
 
-  constexpr uint64_t const& __get_keyboardSpace_() const;
+  constexpr uint64_t const& __cordl_internal_get_keyboardSpace_() const;
 
-  constexpr void __set_keyboardSpace_(uint64_t value);
+  constexpr void __cordl_internal_set_keyboardSpace_(uint64_t value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>*& __get_virtualKeyboardTextures_();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>*& __cordl_internal_get_virtualKeyboardTextures_();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>*> const&
-  __get_virtualKeyboardTextures_() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>*> const&
+  __cordl_internal_get_virtualKeyboardTextures_() const;
 
-  constexpr void __set_virtualKeyboardTextures_(::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>* value);
+  constexpr void
+  __cordl_internal_set_virtualKeyboardTextures_(::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>* value);
 
-  constexpr ::GlobalNamespace::OVRGLTFScene& __get_virtualKeyboardScene_();
+  constexpr ::GlobalNamespace::OVRGLTFScene& __cordl_internal_get_virtualKeyboardScene_();
 
-  constexpr ::GlobalNamespace::OVRGLTFScene const& __get_virtualKeyboardScene_() const;
+  constexpr ::GlobalNamespace::OVRGLTFScene const& __cordl_internal_get_virtualKeyboardScene_() const;
 
-  constexpr void __set_virtualKeyboardScene_(::GlobalNamespace::OVRGLTFScene value);
+  constexpr void __cordl_internal_set_virtualKeyboardScene_(::GlobalNamespace::OVRGLTFScene value);
 
-  constexpr uint64_t& __get_virtualKeyboardModelKey_();
+  constexpr uint64_t& __cordl_internal_get_virtualKeyboardModelKey_();
 
-  constexpr uint64_t const& __get_virtualKeyboardModelKey_() const;
+  constexpr uint64_t const& __cordl_internal_get_virtualKeyboardModelKey_() const;
 
-  constexpr void __set_virtualKeyboardModelKey_(uint64_t value);
+  constexpr void __cordl_internal_set_virtualKeyboardModelKey_(uint64_t value);
 
-  constexpr bool& __get_modelInitialized_();
+  constexpr bool& __cordl_internal_get_modelInitialized_();
 
-  constexpr bool const& __get_modelInitialized_() const;
+  constexpr bool const& __cordl_internal_get_modelInitialized_() const;
 
-  constexpr void __set_modelInitialized_(bool value);
+  constexpr void __cordl_internal_set_modelInitialized_(bool value);
 
-  constexpr bool& __get_modelAvailable_();
+  constexpr bool& __cordl_internal_get_modelAvailable_();
 
-  constexpr bool const& __get_modelAvailable_() const;
+  constexpr bool const& __cordl_internal_get_modelAvailable_() const;
 
-  constexpr void __set_modelAvailable_(bool value);
+  constexpr void __cordl_internal_set_modelAvailable_(bool value);
 
-  constexpr bool& __get_keyboardVisible_();
+  constexpr bool& __cordl_internal_get_keyboardVisible_();
 
-  constexpr bool const& __get_keyboardVisible_() const;
+  constexpr bool const& __cordl_internal_get_keyboardVisible_() const;
 
-  constexpr void __set_keyboardVisible_(bool value);
+  constexpr void __cordl_internal_set_keyboardVisible_(bool value);
 
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*& __get__interactorRootTransformOverride();
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*& __cordl_internal_get__interactorRootTransformOverride();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*> const& __get__interactorRootTransformOverride() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*> const& __cordl_internal_get__interactorRootTransformOverride() const;
 
-  constexpr void __set__interactorRootTransformOverride(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* value);
+  constexpr void __cordl_internal_set__interactorRootTransformOverride(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>*& __get__inputSources();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>*& __cordl_internal_get__inputSources();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>*> const& __get__inputSources() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>*> const& __cordl_internal_get__inputSources() const;
 
-  constexpr void __set__inputSources(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>* value);
+  constexpr void __cordl_internal_set__inputSources(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>* value);
 
-  constexpr bool& __get_ignoreTextCommmitFieldOnValueChanged_();
+  constexpr bool& __cordl_internal_get_ignoreTextCommmitFieldOnValueChanged_();
 
-  constexpr bool const& __get_ignoreTextCommmitFieldOnValueChanged_() const;
+  constexpr bool const& __cordl_internal_get_ignoreTextCommmitFieldOnValueChanged_() const;
 
-  constexpr void __set_ignoreTextCommmitFieldOnValueChanged_(bool value);
+  constexpr void __cordl_internal_set_ignoreTextCommmitFieldOnValueChanged_(bool value);
 
-  constexpr ::UnityEngine::UI::InputField*& __get_runtimeInputField_();
+  constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_runtimeInputField_();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::InputField*> const& __get_runtimeInputField_() const;
+  constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_runtimeInputField_() const;
 
-  constexpr void __set_runtimeInputField_(::UnityEngine::UI::InputField* value);
+  constexpr void __cordl_internal_set_runtimeInputField_(::UnityW<::UnityEngine::UI::InputField> value);
 
-  static inline void setStaticF_singleton_(::GlobalNamespace::OVRVirtualKeyboard* value);
+  static inline void setStaticF_singleton_(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
 
-  static inline ::GlobalNamespace::OVRVirtualKeyboard* getStaticF_singleton_();
+  static inline ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> getStaticF_singleton_();
 
   /// @brief Method add_CommitText, addr 0x2799bc4, size 0xb0, virtual false, abstract: false, final false
   inline void add_CommitText(::System::Action_1<::StringW>* value);
@@ -1433,13 +1436,13 @@ public:
   inline void remove_KeyboardHidden(::System::Action* value);
 
   /// @brief Method get_Collider, addr 0x279a204, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Collider* get_Collider();
+  inline ::UnityW<::UnityEngine::Collider> get_Collider();
 
   /// @brief Method set_Collider, addr 0x279a20c, size 0x8, virtual false, abstract: false, final false
   inline void set_Collider(::UnityEngine::Collider* value);
 
   /// @brief Method get_TextCommitField, addr 0x279a214, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::InputField* get_TextCommitField();
+  inline ::UnityW<::UnityEngine::UI::InputField> get_TextCommitField();
 
   /// @brief Method set_TextCommitField, addr 0x279a21c, size 0x1c4, virtual false, abstract: false, final false
   inline void set_TextCommitField(::UnityEngine::UI::InputField* value);
@@ -1548,7 +1551,7 @@ public:
   inline void _ctor();
 
   /// @brief Method <LoadRuntimeVirtualKeyboardMesh>b__68_1, addr 0x279e0dc, size 0x230, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* _LoadRuntimeVirtualKeyboardMesh_b__68_1(::StringW rawUri, ::UnityEngine::Material* mat);
+  inline ::UnityW<::UnityEngine::Texture2D> _LoadRuntimeVirtualKeyboardMesh_b__68_1(::StringW rawUri, ::UnityEngine::Material* mat);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -1580,25 +1583,25 @@ public:
   ::System::Action* ___KeyboardHidden;
 
   /// @brief Field <Collider>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Collider* ____Collider_k__BackingField;
+  ::UnityW<::UnityEngine::Collider> ____Collider_k__BackingField;
 
   /// @brief Field InitialPosition, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition ___InitialPosition;
 
   /// @brief Field textCommitField, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UI::InputField* ___textCommitField;
+  ::UnityW<::UnityEngine::UI::InputField> ___textCommitField;
 
   /// @brief Field leftControllerRootTransform, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftControllerRootTransform;
+  ::UnityW<::UnityEngine::Transform> ___leftControllerRootTransform;
 
   /// @brief Field leftControllerDirectTransform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftControllerDirectTransform;
+  ::UnityW<::UnityEngine::Transform> ___leftControllerDirectTransform;
 
   /// @brief Field rightControllerRootTransform, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightControllerRootTransform;
+  ::UnityW<::UnityEngine::Transform> ___rightControllerRootTransform;
 
   /// @brief Field rightControllerDirectTransform, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightControllerDirectTransform;
+  ::UnityW<::UnityEngine::Transform> ___rightControllerDirectTransform;
 
   /// @brief Field controllerDirectInteraction, offset: 0x78, size: 0x1, def value: None
   bool ___controllerDirectInteraction;
@@ -1607,13 +1610,13 @@ public:
   bool ___controllerRayInteraction;
 
   /// @brief Field controllerRaycaster, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::OVRPhysicsRaycaster* ___controllerRaycaster;
+  ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> ___controllerRaycaster;
 
   /// @brief Field handLeft, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::OVRHand* ___handLeft;
+  ::UnityW<::GlobalNamespace::OVRHand> ___handLeft;
 
   /// @brief Field handRight, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::OVRHand* ___handRight;
+  ::UnityW<::GlobalNamespace::OVRHand> ___handRight;
 
   /// @brief Field handDirectInteraction, offset: 0x98, size: 0x1, def value: None
   bool ___handDirectInteraction;
@@ -1622,13 +1625,13 @@ public:
   bool ___handRayInteraction;
 
   /// @brief Field handRaycaster, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::OVRPhysicsRaycaster* ___handRaycaster;
+  ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> ___handRaycaster;
 
   /// @brief Field keyboardModelShader, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___keyboardModelShader;
+  ::UnityW<::UnityEngine::Shader> ___keyboardModelShader;
 
   /// @brief Field keyboardModelAlphaBlendShader, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___keyboardModelAlphaBlendShader;
+  ::UnityW<::UnityEngine::Shader> ___keyboardModelAlphaBlendShader;
 
   /// @brief Field InputEnabled, offset: 0xb8, size: 0x1, def value: None
   bool ___InputEnabled;
@@ -1640,7 +1643,7 @@ public:
   uint64_t ___keyboardSpace_;
 
   /// @brief Field virtualKeyboardTextures_, offset: 0xc8, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>* ___virtualKeyboardTextures_;
+  ::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>* ___virtualKeyboardTextures_;
 
   /// @brief Field virtualKeyboardScene_, offset: 0xd0, size: 0x28, def value: None
   ::GlobalNamespace::OVRGLTFScene ___virtualKeyboardScene_;
@@ -1667,7 +1670,7 @@ public:
   bool ___ignoreTextCommmitFieldOnValueChanged_;
 
   /// @brief Field runtimeInputField_, offset: 0x120, size: 0x8, def value: None
-  ::UnityEngine::UI::InputField* ___runtimeInputField_;
+  ::UnityW<::UnityEngine::UI::InputField> ___runtimeInputField_;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

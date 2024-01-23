@@ -46,7 +46,7 @@ namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15442))
 // CS Name: ::XHashtable`1::ExtractKeyDelegate<TValue>*
 class CORDL_TYPE __XHashtable_1__ExtractKeyDelegate : public ::System::MulticastDelegate {
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15443))
 // CS Name: ::XHashtable`1::XHashtableState::Entry<TValue>
 struct CORDL_TYPE __XHashtable_1__XHashtableState__Entry {
@@ -120,7 +120,7 @@ namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15444))
 // CS Name: ::XHashtable`1::XHashtableState<TValue>*
 class CORDL_TYPE __XHashtable_1__XHashtableState : public ::System::Object {
@@ -129,42 +129,43 @@ public:
   using Entry = ::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __get__buckets, put = __set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
 
   /// @brief Field _entries, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get__entries,
-               put = __set__entries))::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> _entries;
+  __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries))::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>,
+                                                                                                         ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> _entries;
 
   /// @brief Field _numEntries, offset 0x20, size 0x4
-  __declspec(property(get = __get__numEntries, put = __set__numEntries)) int32_t _numEntries;
+  __declspec(property(get = __cordl_internal_get__numEntries, put = __cordl_internal_set__numEntries)) int32_t _numEntries;
 
   /// @brief Field _extractKey, offset 0x28, size 0x8
-  __declspec(property(get = __get__extractKey, put = __set__extractKey))::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* _extractKey;
+  __declspec(property(get = __cordl_internal_get__extractKey, put = __cordl_internal_set__extractKey))::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* _extractKey;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__buckets();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__buckets();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__buckets() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__buckets() const;
 
-  constexpr void __set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*>& __get__entries();
+  constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*>& __cordl_internal_get__entries();
 
-  constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> const& __get__entries() const;
+  constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> const&
+  __cordl_internal_get__entries() const;
 
-  constexpr void __set__entries(::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> value);
+  constexpr void
+  __cordl_internal_set__entries(::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> value);
 
-  constexpr int32_t& __get__numEntries();
+  constexpr int32_t& __cordl_internal_get__numEntries();
 
-  constexpr int32_t const& __get__numEntries() const;
+  constexpr int32_t const& __cordl_internal_get__numEntries() const;
 
-  constexpr void __set__numEntries(int32_t value);
+  constexpr void __cordl_internal_set__numEntries(int32_t value);
 
-  constexpr ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*& __get__extractKey();
+  constexpr ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*& __cordl_internal_get__extractKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*> const& __get__extractKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*> const& __cordl_internal_get__extractKey() const;
 
-  constexpr void __set__extractKey(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* value);
+  constexpr void __cordl_internal_set__extractKey(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* value);
 
   static inline ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* New_ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
 
@@ -222,7 +223,7 @@ namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15445))
 // CS Name: ::System.Xml.Linq::XHashtable`1<TValue>*
 class CORDL_TYPE XHashtable_1 : public ::System::Object {
@@ -233,13 +234,13 @@ public:
   using ExtractKeyDelegate = ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>;
 
   /// @brief Field _state, offset 0x10, size 0x8
-  __declspec(property(get = __get__state, put = __set__state))::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* _state;
 
-  constexpr ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*& __get__state();
+  constexpr ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*& __cordl_internal_get__state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*> const& __get__state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*> const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* value);
+  constexpr void __cordl_internal_set__state(::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* value);
 
   static inline ::System::Xml::Linq::XHashtable_1<TValue>* New_ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
 

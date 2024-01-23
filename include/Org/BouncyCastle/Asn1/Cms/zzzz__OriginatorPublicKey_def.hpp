@@ -34,33 +34,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(83))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::OriginatorPublicKey*
 class CORDL_TYPE OriginatorPublicKey : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field mAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get_mAlgorithm, put = __set_mAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mAlgorithm;
+  __declspec(property(get = __cordl_internal_get_mAlgorithm, put = __cordl_internal_set_mAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mAlgorithm;
 
   /// @brief Field mPublicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_mPublicKey, put = __set_mPublicKey))::Org::BouncyCastle::Asn1::DerBitString* mPublicKey;
+  __declspec(property(get = __cordl_internal_get_mPublicKey, put = __cordl_internal_set_mPublicKey))::Org::BouncyCastle::Asn1::DerBitString* mPublicKey;
 
   __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
 
   __declspec(property(get = get_PublicKey))::Org::BouncyCastle::Asn1::DerBitString* PublicKey;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_mAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_mAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_mAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_mAlgorithm() const;
 
-  constexpr void __set_mAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_mAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_mPublicKey();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_mPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_mPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_mPublicKey() const;
 
-  constexpr void __set_mPublicKey(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_mPublicKey(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 

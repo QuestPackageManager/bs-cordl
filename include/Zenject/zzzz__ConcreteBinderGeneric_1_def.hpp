@@ -61,20 +61,20 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10670))
 // CS Name: ::ConcreteBinderGeneric`1::<>c__DisplayClass5_0<TContract>*
 class CORDL_TYPE __ConcreteBinderGeneric_1____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field concreteType, offset 0x10, size 0x8
-  __declspec(property(get = __get_concreteType, put = __set_concreteType))::System::Type* concreteType;
+  __declspec(property(get = __cordl_internal_get_concreteType, put = __cordl_internal_set_concreteType))::System::Type* concreteType;
 
-  constexpr ::System::Type*& __get_concreteType();
+  constexpr ::System::Type*& __cordl_internal_get_concreteType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_concreteType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_concreteType() const;
 
-  constexpr void __set_concreteType(::System::Type* value);
+  constexpr void __cordl_internal_set_concreteType(::System::Type* value);
 
   static inline ::Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>* New_ctor();
 
@@ -117,7 +117,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10914), inst: 1990 }), TypeDefinitionIndex(TypeDefinitionIndex(10914))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10914)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10914), inst: 1990 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10671))
 // CS Name: ::Zenject::ConcreteBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteBinderGeneric_1 : public ::Zenject::FromBinderGeneric_1<TContract> {

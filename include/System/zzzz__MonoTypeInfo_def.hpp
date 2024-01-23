@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::System::MonoTypeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2580))
 // CS Name: ::System::MonoTypeInfo*
 class CORDL_TYPE MonoTypeInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field full_name, offset 0x10, size 0x8
-  __declspec(property(get = __get_full_name, put = __set_full_name))::StringW full_name;
+  __declspec(property(get = __cordl_internal_get_full_name, put = __cordl_internal_set_full_name))::StringW full_name;
 
   /// @brief Field default_ctor, offset 0x18, size 0x8
-  __declspec(property(get = __get_default_ctor, put = __set_default_ctor))::System::Reflection::RuntimeConstructorInfo* default_ctor;
+  __declspec(property(get = __cordl_internal_get_default_ctor, put = __cordl_internal_set_default_ctor))::System::Reflection::RuntimeConstructorInfo* default_ctor;
 
-  constexpr ::StringW& __get_full_name();
+  constexpr ::StringW& __cordl_internal_get_full_name();
 
-  constexpr ::StringW const& __get_full_name() const;
+  constexpr ::StringW const& __cordl_internal_get_full_name() const;
 
-  constexpr void __set_full_name(::StringW value);
+  constexpr void __cordl_internal_set_full_name(::StringW value);
 
-  constexpr ::System::Reflection::RuntimeConstructorInfo*& __get_default_ctor();
+  constexpr ::System::Reflection::RuntimeConstructorInfo*& __cordl_internal_get_default_ctor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeConstructorInfo*> const& __get_default_ctor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeConstructorInfo*> const& __cordl_internal_get_default_ctor() const;
 
-  constexpr void __set_default_ctor(::System::Reflection::RuntimeConstructorInfo* value);
+  constexpr void __cordl_internal_set_default_ctor(::System::Reflection::RuntimeConstructorInfo* value);
 
   static inline ::System::MonoTypeInfo* New_ctor();
 

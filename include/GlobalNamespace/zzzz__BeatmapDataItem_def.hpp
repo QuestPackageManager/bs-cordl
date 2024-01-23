@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataItem);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14715))
 // CS Name: ::BeatmapDataItem::BeatmapDataItemType
 struct CORDL_TYPE __BeatmapDataItem__BeatmapDataItemType {
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14715)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14715))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14716))
 // CS Name: ::BeatmapDataItem*
 class CORDL_TYPE BeatmapDataItem : public ::System::Object {
@@ -87,16 +87,16 @@ public:
   using BeatmapDataItemType = ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType;
 
   /// @brief Field <time>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__time_k__BackingField, put = __set__time_k__BackingField)) float_t _time_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) float_t _time_k__BackingField;
 
   /// @brief Field <executionOrder>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__executionOrder_k__BackingField, put = __set__executionOrder_k__BackingField)) int32_t _executionOrder_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__executionOrder_k__BackingField, put = __cordl_internal_set__executionOrder_k__BackingField)) int32_t _executionOrder_k__BackingField;
 
   /// @brief Field subtypeIdentifier, offset 0x18, size 0x4
-  __declspec(property(get = __get_subtypeIdentifier, put = __set_subtypeIdentifier)) int32_t subtypeIdentifier;
+  __declspec(property(get = __cordl_internal_get_subtypeIdentifier, put = __cordl_internal_set_subtypeIdentifier)) int32_t subtypeIdentifier;
 
   /// @brief Field type, offset 0x1c, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type;
 
   __declspec(property(get = get_time)) float_t time;
 
@@ -110,29 +110,29 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>* i___System__IComparable_1___GlobalNamespace__BeatmapDataItem__() noexcept;
 
-  constexpr float_t& __get__time_k__BackingField();
+  constexpr float_t& __cordl_internal_get__time_k__BackingField();
 
-  constexpr float_t const& __get__time_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__time_k__BackingField() const;
 
-  constexpr void __set__time_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__executionOrder_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__executionOrder_k__BackingField();
 
-  constexpr int32_t const& __get__executionOrder_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__executionOrder_k__BackingField() const;
 
-  constexpr void __set__executionOrder_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__executionOrder_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get_subtypeIdentifier();
+  constexpr int32_t& __cordl_internal_get_subtypeIdentifier();
 
-  constexpr int32_t const& __get_subtypeIdentifier() const;
+  constexpr int32_t const& __cordl_internal_get_subtypeIdentifier() const;
 
-  constexpr void __set_subtypeIdentifier(int32_t value);
+  constexpr void __cordl_internal_set_subtypeIdentifier(int32_t value);
 
-  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType& __get_type();
+  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType& __cordl_internal_get_type();
 
-  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType const& __get_type() const;
+  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value);
+  constexpr void __cordl_internal_set_type(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value);
 
   /// @brief Method get_time, addr 0xdfd538, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();

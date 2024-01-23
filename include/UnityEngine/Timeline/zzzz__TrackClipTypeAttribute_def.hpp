@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackClipTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13915))
 // CS Name: ::UnityEngine.Timeline::TrackClipTypeAttribute*
 class CORDL_TYPE TrackClipTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field inspectedType, offset 0x10, size 0x8
-  __declspec(property(get = __get_inspectedType, put = __set_inspectedType))::System::Type* inspectedType;
+  __declspec(property(get = __cordl_internal_get_inspectedType, put = __cordl_internal_set_inspectedType))::System::Type* inspectedType;
 
   /// @brief Field allowAutoCreate, offset 0x18, size 0x1
-  __declspec(property(get = __get_allowAutoCreate, put = __set_allowAutoCreate)) bool allowAutoCreate;
+  __declspec(property(get = __cordl_internal_get_allowAutoCreate, put = __cordl_internal_set_allowAutoCreate)) bool allowAutoCreate;
 
-  constexpr ::System::Type*& __get_inspectedType();
+  constexpr ::System::Type*& __cordl_internal_get_inspectedType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_inspectedType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_inspectedType() const;
 
-  constexpr void __set_inspectedType(::System::Type* value);
+  constexpr void __cordl_internal_set_inspectedType(::System::Type* value);
 
-  constexpr bool& __get_allowAutoCreate();
+  constexpr bool& __cordl_internal_get_allowAutoCreate();
 
-  constexpr bool const& __get_allowAutoCreate() const;
+  constexpr bool const& __cordl_internal_get_allowAutoCreate() const;
 
-  constexpr void __set_allowAutoCreate(bool value);
+  constexpr void __cordl_internal_set_allowAutoCreate(bool value);
 
   static inline ::UnityEngine::Timeline::TrackClipTypeAttribute* New_ctor(::System::Type* clipClass);
 

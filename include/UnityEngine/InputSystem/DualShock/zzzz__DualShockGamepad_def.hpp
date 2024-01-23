@@ -29,38 +29,41 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::DualShock::DualShockGamepad);
 // SizeInfo { instance_size: 544, native_size: -1, calculated_instance_size: 544, calculated_native_size: 544, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::DualShock {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6237))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6237))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6423))
 // CS Name: ::UnityEngine.InputSystem.DualShock::DualShockGamepad*
 class CORDL_TYPE DualShockGamepad : public ::UnityEngine::InputSystem::Gamepad {
 public:
   // Declarations
   /// @brief Field <touchpadButton>k__BackingField, offset 0x1d8, size 0x8
-  __declspec(property(get = __get__touchpadButton_k__BackingField, put = __set__touchpadButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__touchpadButton_k__BackingField,
+                      put = __cordl_internal_set__touchpadButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadButton_k__BackingField;
 
   /// @brief Field <optionsButton>k__BackingField, offset 0x1e0, size 0x8
-  __declspec(property(get = __get__optionsButton_k__BackingField, put = __set__optionsButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _optionsButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__optionsButton_k__BackingField,
+                      put = __cordl_internal_set__optionsButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _optionsButton_k__BackingField;
 
   /// @brief Field <shareButton>k__BackingField, offset 0x1e8, size 0x8
-  __declspec(property(get = __get__shareButton_k__BackingField, put = __set__shareButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _shareButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__shareButton_k__BackingField,
+                      put = __cordl_internal_set__shareButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _shareButton_k__BackingField;
 
   /// @brief Field <L1>k__BackingField, offset 0x1f0, size 0x8
-  __declspec(property(get = __get__L1_k__BackingField, put = __set__L1_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _L1_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__L1_k__BackingField, put = __cordl_internal_set__L1_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _L1_k__BackingField;
 
   /// @brief Field <R1>k__BackingField, offset 0x1f8, size 0x8
-  __declspec(property(get = __get__R1_k__BackingField, put = __set__R1_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _R1_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__R1_k__BackingField, put = __cordl_internal_set__R1_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _R1_k__BackingField;
 
   /// @brief Field <L2>k__BackingField, offset 0x200, size 0x8
-  __declspec(property(get = __get__L2_k__BackingField, put = __set__L2_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _L2_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__L2_k__BackingField, put = __cordl_internal_set__L2_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _L2_k__BackingField;
 
   /// @brief Field <R2>k__BackingField, offset 0x208, size 0x8
-  __declspec(property(get = __get__R2_k__BackingField, put = __set__R2_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _R2_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__R2_k__BackingField, put = __cordl_internal_set__R2_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _R2_k__BackingField;
 
   /// @brief Field <L3>k__BackingField, offset 0x210, size 0x8
-  __declspec(property(get = __get__L3_k__BackingField, put = __set__L3_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _L3_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__L3_k__BackingField, put = __cordl_internal_set__L3_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _L3_k__BackingField;
 
   /// @brief Field <R3>k__BackingField, offset 0x218, size 0x8
-  __declspec(property(get = __get__R3_k__BackingField, put = __set__R3_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _R3_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__R3_k__BackingField, put = __cordl_internal_set__R3_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _R3_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::DualShock::DualShockGamepad* _current_k__BackingField;
@@ -101,59 +104,59 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__touchpadButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__touchpadButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__touchpadButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__touchpadButton_k__BackingField() const;
 
-  constexpr void __set__touchpadButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__touchpadButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__optionsButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__optionsButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__optionsButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__optionsButton_k__BackingField() const;
 
-  constexpr void __set__optionsButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__optionsButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__shareButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__shareButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__shareButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__shareButton_k__BackingField() const;
 
-  constexpr void __set__shareButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__shareButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__L1_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__L1_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__L1_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__L1_k__BackingField() const;
 
-  constexpr void __set__L1_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__L1_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__R1_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__R1_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__R1_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__R1_k__BackingField() const;
 
-  constexpr void __set__R1_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__R1_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__L2_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__L2_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__L2_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__L2_k__BackingField() const;
 
-  constexpr void __set__L2_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__L2_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__R2_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__R2_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__R2_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__R2_k__BackingField() const;
 
-  constexpr void __set__R2_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__R2_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__L3_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__L3_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__L3_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__L3_k__BackingField() const;
 
-  constexpr void __set__L3_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__L3_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__R3_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__R3_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__R3_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__R3_k__BackingField() const;
 
-  constexpr void __set__R3_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__R3_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::DualShock::DualShockGamepad* value);
 

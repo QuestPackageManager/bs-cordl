@@ -24,22 +24,22 @@ MARK_REF_PTR_T(::System::Security::Permissions::ReflectionPermission);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Permissions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2882)), TypeDefinitionIndex(TypeDefinitionIndex(2903))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2882)), TypeDefinitionIndex(TypeDefinitionIndex(2903))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2904))
 // CS Name: ::System.Security.Permissions::ReflectionPermission*
 class CORDL_TYPE ReflectionPermission : public ::System::Security::CodeAccessPermission {
 public:
   // Declarations
   /// @brief Field flags, offset 0x10, size 0x4
-  __declspec(property(get = __get_flags, put = __set_flags))::System::Security::Permissions::ReflectionPermissionFlag flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Security::Permissions::ReflectionPermissionFlag flags;
 
   __declspec(property(get = get_Flags, put = set_Flags))::System::Security::Permissions::ReflectionPermissionFlag Flags;
 
-  constexpr ::System::Security::Permissions::ReflectionPermissionFlag& __get_flags();
+  constexpr ::System::Security::Permissions::ReflectionPermissionFlag& __cordl_internal_get_flags();
 
-  constexpr ::System::Security::Permissions::ReflectionPermissionFlag const& __get_flags() const;
+  constexpr ::System::Security::Permissions::ReflectionPermissionFlag const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(::System::Security::Permissions::ReflectionPermissionFlag value);
+  constexpr void __cordl_internal_set_flags(::System::Security::Permissions::ReflectionPermissionFlag value);
 
   static inline ::System::Security::Permissions::ReflectionPermission* New_ctor(::System::Security::Permissions::ReflectionPermissionFlag flag);
 

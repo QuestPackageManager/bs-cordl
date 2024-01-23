@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTypeObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5301))
 // CS Name: ::SaberTypeObject*
 class CORDL_TYPE SaberTypeObject : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _saberType, offset 0x18, size 0x4
-  __declspec(property(get = __get__saberType, put = __set__saberType))::GlobalNamespace::SaberType _saberType;
+  __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
 
   __declspec(property(get = get_saberType))::GlobalNamespace::SaberType saberType;
 
-  constexpr ::GlobalNamespace::SaberType& __get__saberType();
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
 
-  constexpr ::GlobalNamespace::SaberType const& __get__saberType() const;
+  constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
 
-  constexpr void __set__saberType(::GlobalNamespace::SaberType value);
+  constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
   /// @brief Method get_saberType, addr 0x2264798, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();

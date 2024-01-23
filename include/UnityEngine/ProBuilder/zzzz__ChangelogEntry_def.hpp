@@ -18,33 +18,33 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ChangelogEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12107))
 // CS Name: ::UnityEngine.ProBuilder::ChangelogEntry*
 class CORDL_TYPE ChangelogEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_VersionInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_VersionInfo, put = __set_m_VersionInfo))::UnityEngine::ProBuilder::SemVer* m_VersionInfo;
+  __declspec(property(get = __cordl_internal_get_m_VersionInfo, put = __cordl_internal_set_m_VersionInfo))::UnityEngine::ProBuilder::SemVer* m_VersionInfo;
 
   /// @brief Field m_ReleaseNotes, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ReleaseNotes, put = __set_m_ReleaseNotes))::StringW m_ReleaseNotes;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseNotes, put = __cordl_internal_set_m_ReleaseNotes))::StringW m_ReleaseNotes;
 
   __declspec(property(get = get_versionInfo))::UnityEngine::ProBuilder::SemVer* versionInfo;
 
   __declspec(property(get = get_releaseNotes))::StringW releaseNotes;
 
-  constexpr ::UnityEngine::ProBuilder::SemVer*& __get_m_VersionInfo();
+  constexpr ::UnityEngine::ProBuilder::SemVer*& __cordl_internal_get_m_VersionInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::SemVer*> const& __get_m_VersionInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::SemVer*> const& __cordl_internal_get_m_VersionInfo() const;
 
-  constexpr void __set_m_VersionInfo(::UnityEngine::ProBuilder::SemVer* value);
+  constexpr void __cordl_internal_set_m_VersionInfo(::UnityEngine::ProBuilder::SemVer* value);
 
-  constexpr ::StringW& __get_m_ReleaseNotes();
+  constexpr ::StringW& __cordl_internal_get_m_ReleaseNotes();
 
-  constexpr ::StringW const& __get_m_ReleaseNotes() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ReleaseNotes() const;
 
-  constexpr void __set_m_ReleaseNotes(::StringW value);
+  constexpr void __cordl_internal_set_m_ReleaseNotes(::StringW value);
 
   /// @brief Method get_versionInfo, addr 0x2b3bc7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::SemVer* get_versionInfo();

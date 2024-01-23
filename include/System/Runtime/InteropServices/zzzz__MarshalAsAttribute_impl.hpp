@@ -13,10 +13,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x24da4f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::UnmanagedType>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::UnmanagedType>::get() })));
     return ___internal_method;
   }
 };
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24da51c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(),
-                                                                               "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,149 +42,149 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x24da524;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(),
-                                                                               "Copy", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "Copy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalCookie() {
+constexpr ::StringW& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_MarshalCookie() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalCookie;
 }
-constexpr ::StringW const& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalCookie() const {
+constexpr ::StringW const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_MarshalCookie() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalCookie;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_MarshalCookie(::StringW value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_MarshalCookie(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MarshalCookie)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalType() {
+constexpr ::StringW& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_MarshalType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalType;
 }
-constexpr ::StringW const& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalType() const {
+constexpr ::StringW const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_MarshalType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalType;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_MarshalType(::StringW value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_MarshalType(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MarshalType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalTypeRef() {
+constexpr ::System::Type*& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_MarshalTypeRef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalTypeRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalTypeRef() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_MarshalTypeRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalTypeRef;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_MarshalTypeRef(::System::Type* value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_MarshalTypeRef(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MarshalTypeRef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArrayUserDefinedSubType() {
+constexpr ::System::Type*& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SafeArrayUserDefinedSubType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArrayUserDefinedSubType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArrayUserDefinedSubType() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SafeArrayUserDefinedSubType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArrayUserDefinedSubType;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SafeArrayUserDefinedSubType(::System::Type* value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_SafeArrayUserDefinedSubType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SafeArrayUserDefinedSubType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Runtime::InteropServices::UnmanagedType& System::Runtime::InteropServices::MarshalAsAttribute::__get_utype() {
+constexpr ::System::Runtime::InteropServices::UnmanagedType& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_utype() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___utype;
 }
-constexpr ::System::Runtime::InteropServices::UnmanagedType const& System::Runtime::InteropServices::MarshalAsAttribute::__get_utype() const {
+constexpr ::System::Runtime::InteropServices::UnmanagedType const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_utype() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___utype;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_utype(::System::Runtime::InteropServices::UnmanagedType value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_utype(::System::Runtime::InteropServices::UnmanagedType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___utype = value;
 }
-constexpr ::System::Runtime::InteropServices::UnmanagedType& System::Runtime::InteropServices::MarshalAsAttribute::__get_ArraySubType() {
+constexpr ::System::Runtime::InteropServices::UnmanagedType& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_ArraySubType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ArraySubType;
 }
-constexpr ::System::Runtime::InteropServices::UnmanagedType const& System::Runtime::InteropServices::MarshalAsAttribute::__get_ArraySubType() const {
+constexpr ::System::Runtime::InteropServices::UnmanagedType const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_ArraySubType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ArraySubType;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_ArraySubType(::System::Runtime::InteropServices::UnmanagedType value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_ArraySubType(::System::Runtime::InteropServices::UnmanagedType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ArraySubType = value;
 }
-constexpr ::System::Runtime::InteropServices::VarEnum& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArraySubType() {
+constexpr ::System::Runtime::InteropServices::VarEnum& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SafeArraySubType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArraySubType;
 }
-constexpr ::System::Runtime::InteropServices::VarEnum const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArraySubType() const {
+constexpr ::System::Runtime::InteropServices::VarEnum const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SafeArraySubType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArraySubType;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SafeArraySubType(::System::Runtime::InteropServices::VarEnum value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_SafeArraySubType(::System::Runtime::InteropServices::VarEnum value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SafeArraySubType = value;
 }
-constexpr int32_t& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeConst() {
+constexpr int32_t& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SizeConst() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeConst;
 }
-constexpr int32_t const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeConst() const {
+constexpr int32_t const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SizeConst() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeConst;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SizeConst(int32_t value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_SizeConst(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SizeConst = value;
 }
-constexpr int32_t& System::Runtime::InteropServices::MarshalAsAttribute::__get_IidParameterIndex() {
+constexpr int32_t& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_IidParameterIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IidParameterIndex;
 }
-constexpr int32_t const& System::Runtime::InteropServices::MarshalAsAttribute::__get_IidParameterIndex() const {
+constexpr int32_t const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_IidParameterIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IidParameterIndex;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_IidParameterIndex(int32_t value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_IidParameterIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IidParameterIndex = value;
 }
-constexpr int16_t& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeParamIndex() {
+constexpr int16_t& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SizeParamIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeParamIndex;
 }
-constexpr int16_t const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeParamIndex() const {
+constexpr int16_t const& System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_get_SizeParamIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeParamIndex;
 }
-constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SizeParamIndex(int16_t value) {
+constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__cordl_internal_set_SizeParamIndex(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SizeParamIndex = value;
 }
 inline ::System::Runtime::InteropServices::MarshalAsAttribute* System::Runtime::InteropServices::MarshalAsAttribute::New_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::InteropServices::MarshalAsAttribute*>(unmanagedType));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::InteropServices::MarshalAsAttribute*>(unmanagedType));
 }
 inline void System::Runtime::InteropServices::MarshalAsAttribute::_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::UnmanagedType>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::UnmanagedType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unmanagedType);
 }
 inline ::System::Runtime::InteropServices::UnmanagedType System::Runtime::InteropServices::MarshalAsAttribute::get_Value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(),
-                                                                             "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::InteropServices::UnmanagedType, false>(this, ___internal_method);
 }
 inline ::System::Runtime::InteropServices::MarshalAsAttribute* System::Runtime::InteropServices::MarshalAsAttribute::Copy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::MarshalAsAttribute*>::get(),
-                                                                             "Copy", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Copy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::InteropServices::MarshalAsAttribute*, false>(this, ___internal_method);
 }
 // Ctor Parameters []

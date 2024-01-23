@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ActionResult);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12092))
 // CS Name: ::ActionResult::Status
 struct CORDL_TYPE __ActionResult__Status {
@@ -83,7 +83,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ActionResult__Status, value_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12092))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12092))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12093))
 // CS Name: ::UnityEngine.ProBuilder::ActionResult*
 class CORDL_TYPE ActionResult : public ::System::Object {
@@ -92,26 +92,26 @@ public:
   using Status = ::UnityEngine::ProBuilder::__ActionResult__Status;
 
   /// @brief Field <status>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__status_k__BackingField, put = __set__status_k__BackingField))::UnityEngine::ProBuilder::__ActionResult__Status _status_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__status_k__BackingField, put = __cordl_internal_set__status_k__BackingField))::UnityEngine::ProBuilder::__ActionResult__Status _status_k__BackingField;
 
   /// @brief Field <notification>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__notification_k__BackingField, put = __set__notification_k__BackingField))::StringW _notification_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__notification_k__BackingField, put = __cordl_internal_set__notification_k__BackingField))::StringW _notification_k__BackingField;
 
   __declspec(property(get = get_status, put = set_status))::UnityEngine::ProBuilder::__ActionResult__Status status;
 
   __declspec(property(get = get_notification, put = set_notification))::StringW notification;
 
-  constexpr ::UnityEngine::ProBuilder::__ActionResult__Status& __get__status_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::__ActionResult__Status& __cordl_internal_get__status_k__BackingField();
 
-  constexpr ::UnityEngine::ProBuilder::__ActionResult__Status const& __get__status_k__BackingField() const;
+  constexpr ::UnityEngine::ProBuilder::__ActionResult__Status const& __cordl_internal_get__status_k__BackingField() const;
 
-  constexpr void __set__status_k__BackingField(::UnityEngine::ProBuilder::__ActionResult__Status value);
+  constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::ProBuilder::__ActionResult__Status value);
 
-  constexpr ::StringW& __get__notification_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__notification_k__BackingField();
 
-  constexpr ::StringW const& __get__notification_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__notification_k__BackingField() const;
 
-  constexpr void __set__notification_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__notification_k__BackingField(::StringW value);
 
   /// @brief Method get_status, addr 0x2b366fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::__ActionResult__Status get_status();

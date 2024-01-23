@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::UnityEngine::__RectTransform__ReapplyDrivenProperties);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10279))
 // CS Name: ::RectTransform::Edge
 struct CORDL_TYPE __RectTransform__Edge {
@@ -117,7 +117,7 @@ static_assert(offsetof(::UnityEngine::__RectTransform__Edge, value__) == 0x0, "O
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10280))
 // CS Name: ::RectTransform::Axis
 struct CORDL_TYPE __RectTransform__Axis {
@@ -167,7 +167,7 @@ static_assert(offsetof(::UnityEngine::__RectTransform__Axis, value__) == 0x0, "O
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10281))
 // CS Name: ::RectTransform::ReapplyDrivenProperties*
 class CORDL_TYPE __RectTransform__ReapplyDrivenProperties : public ::System::MulticastDelegate {
@@ -205,7 +205,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__RectTransform__Re
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10276))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10276))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10282))
 // CS Name: ::UnityEngine::RectTransform*
 class CORDL_TYPE RectTransform : public ::UnityEngine::Transform {
@@ -238,7 +238,7 @@ public:
 
   __declspec(property(get = get_offsetMax, put = set_offsetMax))::UnityEngine::Vector2 offsetMax;
 
-  __declspec(property(get = get_drivenByObject, put = set_drivenByObject))::UnityEngine::Object* drivenByObject;
+  __declspec(property(get = get_drivenByObject, put = set_drivenByObject))::UnityW<::UnityEngine::Object> drivenByObject;
 
   __declspec(property(get = get_drivenProperties, put = set_drivenProperties))::UnityEngine::DrivenTransformProperties drivenProperties;
 
@@ -304,7 +304,7 @@ public:
   inline void set_offsetMax(::UnityEngine::Vector2 value);
 
   /// @brief Method get_drivenByObject, addr 0x2ce3280, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* get_drivenByObject();
+  inline ::UnityW<::UnityEngine::Object> get_drivenByObject();
 
   /// @brief Method set_drivenByObject, addr 0x2ce32bc, size 0x44, virtual false, abstract: false, final false
   inline void set_drivenByObject(::UnityEngine::Object* value);

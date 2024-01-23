@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2805))
 // CS Name: ::TaskSchedulerAwaitTaskContinuation::<>c*
 class CORDL_TYPE __TaskSchedulerAwaitTaskContinuation____c : public ::System::Object {
@@ -89,7 +89,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2807))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2807))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2806))
 // CS Name: ::System.Threading.Tasks::TaskSchedulerAwaitTaskContinuation*
 class CORDL_TYPE TaskSchedulerAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation {
@@ -98,13 +98,13 @@ public:
   using __c = ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c;
 
   /// @brief Field m_scheduler, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_scheduler, put = __set_m_scheduler))::System::Threading::Tasks::TaskScheduler* m_scheduler;
+  __declspec(property(get = __cordl_internal_get_m_scheduler, put = __cordl_internal_set_m_scheduler))::System::Threading::Tasks::TaskScheduler* m_scheduler;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __get_m_scheduler();
+  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_scheduler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __get_m_scheduler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __cordl_internal_get_m_scheduler() const;
 
-  constexpr void __set_m_scheduler(::System::Threading::Tasks::TaskScheduler* value);
+  constexpr void __cordl_internal_set_m_scheduler(::System::Threading::Tasks::TaskScheduler* value);
 
   static inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation* New_ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 

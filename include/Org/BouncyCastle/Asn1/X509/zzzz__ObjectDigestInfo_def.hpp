@@ -41,23 +41,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(372))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::ObjectDigestInfo*
 class CORDL_TYPE ObjectDigestInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field digestedObjectType, offset 0x10, size 0x8
-  __declspec(property(get = __get_digestedObjectType, put = __set_digestedObjectType))::Org::BouncyCastle::Asn1::DerEnumerated* digestedObjectType;
+  __declspec(property(get = __cordl_internal_get_digestedObjectType, put = __cordl_internal_set_digestedObjectType))::Org::BouncyCastle::Asn1::DerEnumerated* digestedObjectType;
 
   /// @brief Field otherObjectTypeID, offset 0x18, size 0x8
-  __declspec(property(get = __get_otherObjectTypeID, put = __set_otherObjectTypeID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherObjectTypeID;
+  __declspec(property(get = __cordl_internal_get_otherObjectTypeID, put = __cordl_internal_set_otherObjectTypeID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherObjectTypeID;
 
   /// @brief Field digestAlgorithm, offset 0x20, size 0x8
-  __declspec(property(get = __get_digestAlgorithm, put = __set_digestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm;
+  __declspec(property(get = __cordl_internal_get_digestAlgorithm, put = __cordl_internal_set_digestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm;
 
   /// @brief Field objectDigest, offset 0x28, size 0x8
-  __declspec(property(get = __get_objectDigest, put = __set_objectDigest))::Org::BouncyCastle::Asn1::DerBitString* objectDigest;
+  __declspec(property(get = __cordl_internal_get_objectDigest, put = __cordl_internal_set_objectDigest))::Org::BouncyCastle::Asn1::DerBitString* objectDigest;
 
   __declspec(property(get = get_DigestedObjectType))::Org::BouncyCastle::Asn1::DerEnumerated* DigestedObjectType;
 
@@ -67,29 +67,29 @@ public:
 
   __declspec(property(get = get_ObjectDigest))::Org::BouncyCastle::Asn1::DerBitString* ObjectDigest;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerEnumerated*& __get_digestedObjectType();
+  constexpr ::Org::BouncyCastle::Asn1::DerEnumerated*& __cordl_internal_get_digestedObjectType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerEnumerated*> const& __get_digestedObjectType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerEnumerated*> const& __cordl_internal_get_digestedObjectType() const;
 
-  constexpr void __set_digestedObjectType(::Org::BouncyCastle::Asn1::DerEnumerated* value);
+  constexpr void __cordl_internal_set_digestedObjectType(::Org::BouncyCastle::Asn1::DerEnumerated* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_otherObjectTypeID();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_otherObjectTypeID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_otherObjectTypeID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_otherObjectTypeID() const;
 
-  constexpr void __set_otherObjectTypeID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_otherObjectTypeID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_digestAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_digestAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_digestAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_digestAlgorithm() const;
 
-  constexpr void __set_digestAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_digestAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_objectDigest();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_objectDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_objectDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_objectDigest() const;
 
-  constexpr void __set_objectDigest(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_objectDigest(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   /// @brief Method GetInstance, addr 0x1193800, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* GetInstance(::System::Object* obj);

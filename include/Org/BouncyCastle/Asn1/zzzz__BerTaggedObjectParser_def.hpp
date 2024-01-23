@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerTaggedObjectParser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(497))
 // CS Name: ::Org.BouncyCastle.Asn1::BerTaggedObjectParser*
 class CORDL_TYPE BerTaggedObjectParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _constructed, offset 0x10, size 0x1
-  __declspec(property(get = __get__constructed, put = __set__constructed)) bool _constructed;
+  __declspec(property(get = __cordl_internal_get__constructed, put = __cordl_internal_set__constructed)) bool _constructed;
 
   /// @brief Field _tagNumber, offset 0x14, size 0x4
-  __declspec(property(get = __get__tagNumber, put = __set__tagNumber)) int32_t _tagNumber;
+  __declspec(property(get = __cordl_internal_get__tagNumber, put = __cordl_internal_set__tagNumber)) int32_t _tagNumber;
 
   /// @brief Field _parser, offset 0x18, size 0x8
-  __declspec(property(get = __get__parser, put = __set__parser))::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
+  __declspec(property(get = __cordl_internal_get__parser, put = __cordl_internal_set__parser))::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
 
   __declspec(property(get = get_IsConstructed)) bool IsConstructed;
 
@@ -61,23 +61,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
-  constexpr bool& __get__constructed();
+  constexpr bool& __cordl_internal_get__constructed();
 
-  constexpr bool const& __get__constructed() const;
+  constexpr bool const& __cordl_internal_get__constructed() const;
 
-  constexpr void __set__constructed(bool value);
+  constexpr void __cordl_internal_set__constructed(bool value);
 
-  constexpr int32_t& __get__tagNumber();
+  constexpr int32_t& __cordl_internal_get__tagNumber();
 
-  constexpr int32_t const& __get__tagNumber() const;
+  constexpr int32_t const& __cordl_internal_get__tagNumber() const;
 
-  constexpr void __set__tagNumber(int32_t value);
+  constexpr void __cordl_internal_set__tagNumber(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __get__parser();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get__parser();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1StreamParser*> const& __get__parser() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1StreamParser*> const& __cordl_internal_get__parser() const;
 
-  constexpr void __set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
+  constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 

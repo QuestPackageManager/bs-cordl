@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::StackBuilderSink);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3190))
 // CS Name: ::System.Runtime.Remoting.Messaging::StackBuilderSink*
 class CORDL_TYPE StackBuilderSink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _target, offset 0x10, size 0x8
-  __declspec(property(get = __get__target, put = __set__target))::System::MarshalByRefObject* _target;
+  __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target))::System::MarshalByRefObject* _target;
 
   /// @brief Field _rp, offset 0x18, size 0x8
-  __declspec(property(get = __get__rp, put = __set__rp))::System::Runtime::Remoting::Proxies::RealProxy* _rp;
+  __declspec(property(get = __cordl_internal_get__rp, put = __cordl_internal_set__rp))::System::Runtime::Remoting::Proxies::RealProxy* _rp;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
@@ -50,17 +50,17 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  constexpr ::System::MarshalByRefObject*& __get__target();
+  constexpr ::System::MarshalByRefObject*& __cordl_internal_get__target();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __get__target() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __cordl_internal_get__target() const;
 
-  constexpr void __set__target(::System::MarshalByRefObject* value);
+  constexpr void __cordl_internal_set__target(::System::MarshalByRefObject* value);
 
-  constexpr ::System::Runtime::Remoting::Proxies::RealProxy*& __get__rp();
+  constexpr ::System::Runtime::Remoting::Proxies::RealProxy*& __cordl_internal_get__rp();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Proxies::RealProxy*> const& __get__rp() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Proxies::RealProxy*> const& __cordl_internal_get__rp() const;
 
-  constexpr void __set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value);
+  constexpr void __cordl_internal_set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value);
 
   static inline ::System::Runtime::Remoting::Messaging::StackBuilderSink* New_ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute);
 

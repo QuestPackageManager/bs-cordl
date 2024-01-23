@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunct
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7088))
 // CS Name: ::TextEditorEngine::OnDetectFocusChangeFunction*
 class CORDL_TYPE __TextEditorEngine__OnDetectFocusChangeFunction : public ::System::MulticastDelegate {
@@ -74,7 +74,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextE
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7089))
 // CS Name: ::TextEditorEngine::OnIndexChangeFunction*
 class CORDL_TYPE __TextEditorEngine__OnIndexChangeFunction : public ::System::MulticastDelegate {
@@ -112,7 +112,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextE
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14616))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14616))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7090))
 // CS Name: ::UnityEngine.UIElements::TextEditorEngine*
 class CORDL_TYPE TextEditorEngine : public ::UnityEngine::TextEditor {
@@ -123,25 +123,26 @@ public:
   using OnDetectFocusChangeFunction = ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction;
 
   /// @brief Field m_DetectFocusChangeFunction, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_DetectFocusChangeFunction,
-                      put = __set_m_DetectFocusChangeFunction))::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* m_DetectFocusChangeFunction;
+  __declspec(property(get = __cordl_internal_get_m_DetectFocusChangeFunction,
+                      put = __cordl_internal_set_m_DetectFocusChangeFunction))::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* m_DetectFocusChangeFunction;
 
   /// @brief Field m_IndexChangeFunction, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_IndexChangeFunction, put = __set_m_IndexChangeFunction))::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* m_IndexChangeFunction;
+  __declspec(property(get = __cordl_internal_get_m_IndexChangeFunction,
+                      put = __cordl_internal_set_m_IndexChangeFunction))::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* m_IndexChangeFunction;
 
   __declspec(property(get = get_localPosition))::UnityEngine::Rect localPosition;
 
-  constexpr ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*& __get_m_DetectFocusChangeFunction();
+  constexpr ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*& __cordl_internal_get_m_DetectFocusChangeFunction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*> const& __get_m_DetectFocusChangeFunction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*> const& __cordl_internal_get_m_DetectFocusChangeFunction() const;
 
-  constexpr void __set_m_DetectFocusChangeFunction(::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* value);
+  constexpr void __cordl_internal_set_m_DetectFocusChangeFunction(::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* value);
 
-  constexpr ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*& __get_m_IndexChangeFunction();
+  constexpr ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*& __cordl_internal_get_m_IndexChangeFunction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*> const& __get_m_IndexChangeFunction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*> const& __cordl_internal_get_m_IndexChangeFunction() const;
 
-  constexpr void __set_m_IndexChangeFunction(::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* value);
+  constexpr void __cordl_internal_set_m_IndexChangeFunction(::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* value);
 
   static inline ::UnityEngine::UIElements::TextEditorEngine* New_ctor(::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* detectFocusChange,
                                                                       ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* indexChangeFunction);

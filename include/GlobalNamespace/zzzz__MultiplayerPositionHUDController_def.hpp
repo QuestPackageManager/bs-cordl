@@ -34,85 +34,85 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionHUDController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5039))
 // CS Name: ::MultiplayerPositionHUDController*
 class CORDL_TYPE MultiplayerPositionHUDController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _playerCountText, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerCountText, put = __set__playerCountText))::TMPro::TextMeshProUGUI* _playerCountText;
+  __declspec(property(get = __cordl_internal_get__playerCountText, put = __cordl_internal_set__playerCountText))::UnityW<::TMPro::TextMeshProUGUI> _playerCountText;
 
   /// @brief Field _positionText, offset 0x20, size 0x8
-  __declspec(property(get = __get__positionText, put = __set__positionText))::TMPro::TextMeshProUGUI* _positionText;
+  __declspec(property(get = __cordl_internal_get__positionText, put = __cordl_internal_set__positionText))::UnityW<::TMPro::TextMeshProUGUI> _positionText;
 
   /// @brief Field _canvasGroup, offset 0x28, size 0x8
-  __declspec(property(get = __get__canvasGroup, put = __set__canvasGroup))::UnityEngine::CanvasGroup* _canvasGroup;
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
   /// @brief Field _firstPlayerAnimationGo, offset 0x30, size 0x8
-  __declspec(property(get = __get__firstPlayerAnimationGo, put = __set__firstPlayerAnimationGo))::UnityEngine::GameObject* _firstPlayerAnimationGo;
+  __declspec(property(get = __cordl_internal_get__firstPlayerAnimationGo, put = __cordl_internal_set__firstPlayerAnimationGo))::UnityW<::UnityEngine::GameObject> _firstPlayerAnimationGo;
 
   /// @brief Field _scoreProvider, offset 0x38, size 0x8
-  __declspec(property(get = __get__scoreProvider, put = __set__scoreProvider))::GlobalNamespace::MultiplayerScoreProvider* _scoreProvider;
+  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
   /// @brief Field _playersManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__playersManager, put = __set__playersManager))::GlobalNamespace::MultiplayerPlayersManager* _playersManager;
+  __declspec(property(get = __cordl_internal_get__playersManager, put = __cordl_internal_set__playersManager))::UnityW<::GlobalNamespace::MultiplayerPlayersManager> _playersManager;
 
   /// @brief Field _initData, offset 0x48, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__CoreGameHUDController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__CoreGameHUDController__InitData* _initData;
 
   /// @brief Field _prevPosition, offset 0x50, size 0x4
-  __declspec(property(get = __get__prevPosition, put = __set__prevPosition)) int32_t _prevPosition;
+  __declspec(property(get = __cordl_internal_get__prevPosition, put = __cordl_internal_set__prevPosition)) int32_t _prevPosition;
 
   __declspec(property(put = set_alpha)) float_t alpha;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__playerCountText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerCountText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__playerCountText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerCountText() const;
 
-  constexpr void __set__playerCountText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__playerCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__positionText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__positionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__positionText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__positionText() const;
 
-  constexpr void __set__positionText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__positionText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__canvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__canvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
-  constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__firstPlayerAnimationGo();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__firstPlayerAnimationGo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__firstPlayerAnimationGo() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__firstPlayerAnimationGo() const;
 
-  constexpr void __set__firstPlayerAnimationGo(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__firstPlayerAnimationGo(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::MultiplayerScoreProvider*& __get__scoreProvider();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreProvider*> const& __get__scoreProvider() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
 
-  constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider* value);
+  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayersManager*& __get__playersManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__playersManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayersManager*> const& __get__playersManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__playersManager() const;
 
-  constexpr void __set__playersManager(::GlobalNamespace::MultiplayerPlayersManager* value);
+  constexpr void __cordl_internal_set__playersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
 
-  constexpr int32_t& __get__prevPosition();
+  constexpr int32_t& __cordl_internal_get__prevPosition();
 
-  constexpr int32_t const& __get__prevPosition() const;
+  constexpr int32_t const& __cordl_internal_get__prevPosition() const;
 
-  constexpr void __set__prevPosition(int32_t value);
+  constexpr void __cordl_internal_set__prevPosition(int32_t value);
 
   /// @brief Method set_alpha, addr 0x23c1f00, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
@@ -143,22 +143,22 @@ protected:
 
 public:
   /// @brief Field _playerCountText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____playerCountText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____playerCountText;
 
   /// @brief Field _positionText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____positionText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____positionText;
 
   /// @brief Field _canvasGroup, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____canvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
   /// @brief Field _firstPlayerAnimationGo, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____firstPlayerAnimationGo;
+  ::UnityW<::UnityEngine::GameObject> ____firstPlayerAnimationGo;
 
   /// @brief Field _scoreProvider, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreProvider* ____scoreProvider;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
   /// @brief Field _playersManager, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerPlayersManager* ____playersManager;
+  ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____playersManager;
 
   /// @brief Field _initData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::__CoreGameHUDController__InitData* ____initData;

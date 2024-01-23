@@ -34,39 +34,40 @@ MARK_REF_PTR_T(::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4695))
 // CS Name: ::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*
 class CORDL_TYPE __ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _keyword, offset 0x10, size 0x8
-  __declspec(property(get = __get__keyword, put = __set__keyword))::StringW _keyword;
+  __declspec(property(get = __cordl_internal_get__keyword, put = __cordl_internal_set__keyword))::StringW _keyword;
 
   /// @brief Field _resultsEnvironmentController, offset 0x18, size 0x8
-  __declspec(property(get = __get__resultsEnvironmentController, put = __set__resultsEnvironmentController))::GlobalNamespace::BaseResultsEnvironmentController* _resultsEnvironmentController;
+  __declspec(property(get = __cordl_internal_get__resultsEnvironmentController,
+                      put = __cordl_internal_set__resultsEnvironmentController))::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> _resultsEnvironmentController;
 
   __declspec(property(get = get_keyword))::StringW keyword;
 
-  __declspec(property(get = get_resultsEnvironmentController))::GlobalNamespace::BaseResultsEnvironmentController* resultsEnvironmentController;
+  __declspec(property(get = get_resultsEnvironmentController))::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> resultsEnvironmentController;
 
-  constexpr ::StringW& __get__keyword();
+  constexpr ::StringW& __cordl_internal_get__keyword();
 
-  constexpr ::StringW const& __get__keyword() const;
+  constexpr ::StringW const& __cordl_internal_get__keyword() const;
 
-  constexpr void __set__keyword(::StringW value);
+  constexpr void __cordl_internal_set__keyword(::StringW value);
 
-  constexpr ::GlobalNamespace::BaseResultsEnvironmentController*& __get__resultsEnvironmentController();
+  constexpr ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>& __cordl_internal_get__resultsEnvironmentController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BaseResultsEnvironmentController*> const& __get__resultsEnvironmentController() const;
+  constexpr ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> const& __cordl_internal_get__resultsEnvironmentController() const;
 
-  constexpr void __set__resultsEnvironmentController(::GlobalNamespace::BaseResultsEnvironmentController* value);
+  constexpr void __cordl_internal_set__resultsEnvironmentController(::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> value);
 
   /// @brief Method get_keyword, addr 0x2376a00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
   /// @brief Method get_resultsEnvironmentController, addr 0x2376a08, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BaseResultsEnvironmentController* get_resultsEnvironmentController();
+  inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> get_resultsEnvironmentController();
 
   static inline ::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword* New_ctor();
 
@@ -91,7 +92,7 @@ public:
   ::StringW ____keyword;
 
   /// @brief Field _resultsEnvironmentController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BaseResultsEnvironmentController* ____resultsEnvironmentController;
+  ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> ____resultsEnvironmentController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,20 +108,20 @@ static_assert(offsetof(::GlobalNamespace::__ResultsEnvironmentManager__ResultEnv
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4696))
 // CS Name: ::ResultsEnvironmentManager::<>c__DisplayClass3_0*
 class CORDL_TYPE __ResultsEnvironmentManager____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field keyword, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyword, put = __set_keyword))::StringW keyword;
+  __declspec(property(get = __cordl_internal_get_keyword, put = __cordl_internal_set_keyword))::StringW keyword;
 
-  constexpr ::StringW& __get_keyword();
+  constexpr ::StringW& __cordl_internal_get_keyword();
 
-  constexpr ::StringW const& __get_keyword() const;
+  constexpr ::StringW const& __cordl_internal_get_keyword() const;
 
-  constexpr void __set_keyword(::StringW value);
+  constexpr void __cordl_internal_set_keyword(::StringW value);
 
   static inline ::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0* New_ctor();
 
@@ -159,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__ResultsEnvironmentManager____c__Disp
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4697))
 // CS Name: ::ResultsEnvironmentManager*
 class CORDL_TYPE ResultsEnvironmentManager : public ::UnityEngine::MonoBehaviour {
@@ -170,33 +171,33 @@ public:
   using ResultEnvironmentControllerWithKeyword = ::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword;
 
   /// @brief Field _resultEnvironmentControllersWithKeyword, offset 0x18, size 0x8
-  __declspec(property(get = __get__resultEnvironmentControllersWithKeyword, put = __set__resultEnvironmentControllersWithKeyword))::ArrayW<
+  __declspec(property(get = __cordl_internal_get__resultEnvironmentControllersWithKeyword, put = __cordl_internal_set__resultEnvironmentControllersWithKeyword))::ArrayW<
       ::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*,
       ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*> _resultEnvironmentControllersWithKeyword;
 
   /// @brief Field _currentShownKeyword, offset 0x20, size 0x8
-  __declspec(property(get = __get__currentShownKeyword, put = __set__currentShownKeyword))::StringW _currentShownKeyword;
+  __declspec(property(get = __cordl_internal_get__currentShownKeyword, put = __cordl_internal_set__currentShownKeyword))::StringW _currentShownKeyword;
 
   constexpr ::ArrayW<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*,
                      ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*>&
-  __get__resultEnvironmentControllersWithKeyword();
+  __cordl_internal_get__resultEnvironmentControllersWithKeyword();
 
   constexpr ::ArrayW<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*,
                      ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*> const&
-  __get__resultEnvironmentControllersWithKeyword() const;
+  __cordl_internal_get__resultEnvironmentControllersWithKeyword() const;
 
-  constexpr void __set__resultEnvironmentControllersWithKeyword(::ArrayW<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*,
-                                                                         ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*>
-                                                                    value);
+  constexpr void __cordl_internal_set__resultEnvironmentControllersWithKeyword(::ArrayW<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*,
+                                                                                        ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*>
+                                                                                   value);
 
-  constexpr ::StringW& __get__currentShownKeyword();
+  constexpr ::StringW& __cordl_internal_get__currentShownKeyword();
 
-  constexpr ::StringW const& __get__currentShownKeyword() const;
+  constexpr ::StringW const& __cordl_internal_get__currentShownKeyword() const;
 
-  constexpr void __set__currentShownKeyword(::StringW value);
+  constexpr void __cordl_internal_set__currentShownKeyword(::StringW value);
 
   /// @brief Method GetResultEnvironmentControllerForKeyword, addr 0x23767d4, size 0xe4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::StringW keyword);
+  inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> GetResultEnvironmentControllerForKeyword(::StringW keyword);
 
   /// @brief Method ShowResultForKeyword, addr 0x23768c0, size 0xa4, virtual false, abstract: false, final false
   inline void ShowResultForKeyword(::StringW keyword, bool immediately);

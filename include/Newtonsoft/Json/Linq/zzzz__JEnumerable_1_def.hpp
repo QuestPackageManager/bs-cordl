@@ -38,7 +38,7 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11989), inst: 2991 }), TypeDefinitionIndex(TypeDefinitionIndex(11989))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11989)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11989), inst: 2991 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11989))
 // CS Name: ::Newtonsoft.Json.Linq::JEnumerable`1<T>
 struct CORDL_TYPE JEnumerable_1 {

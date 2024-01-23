@@ -42,20 +42,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13947))
 // CS Name: ::ListWithEvents`1<T>*
 class CORDL_TYPE ListWithEvents_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_List, put = __set_m_List))::System::Collections::Generic::List_1<T>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::System::Collections::Generic::List_1<T>* m_List;
 
   /// @brief Field OnElementAdded, offset 0x18, size 0x8
-  __declspec(property(get = __get_OnElementAdded, put = __set_OnElementAdded))::System::Action_1<T>* OnElementAdded;
+  __declspec(property(get = __cordl_internal_get_OnElementAdded, put = __cordl_internal_set_OnElementAdded))::System::Action_1<T>* OnElementAdded;
 
   /// @brief Field OnElementRemoved, offset 0x20, size 0x8
-  __declspec(property(get = __get_OnElementRemoved, put = __set_OnElementRemoved))::System::Action_1<T>* OnElementRemoved;
+  __declspec(property(get = __cordl_internal_get_OnElementRemoved, put = __cordl_internal_set_OnElementRemoved))::System::Action_1<T>* OnElementRemoved;
 
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
@@ -87,23 +87,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get_m_List();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_List();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get_m_List() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_m_List() const;
 
-  constexpr void __set_m_List(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr ::System::Action_1<T>*& __get_OnElementAdded();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_OnElementAdded();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get_OnElementAdded() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_OnElementAdded() const;
 
-  constexpr void __set_OnElementAdded(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set_OnElementAdded(::System::Action_1<T>* value);
 
-  constexpr ::System::Action_1<T>*& __get_OnElementRemoved();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_OnElementRemoved();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get_OnElementRemoved() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_OnElementRemoved() const;
 
-  constexpr void __set_OnElementRemoved(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set_OnElementRemoved(::System::Action_1<T>* value);
 
   /// @brief Method add_OnElementAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_OnElementAdded(::System::Action_1<T>* value);

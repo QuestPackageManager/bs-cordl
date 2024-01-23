@@ -31,7 +31,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState__
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6456))
 // CS Name: ::AndroidSensorState::<data>e__FixedBuffer
 #pragma pack(push, 0)
@@ -67,7 +67,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidS
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6456))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6456)), TypeDefinitionIndex(TypeDefinitionIndex(6667))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6457))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorState
 struct CORDL_TYPE AndroidSensorState {

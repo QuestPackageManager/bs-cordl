@@ -36,15 +36,15 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Spline);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12205))
 // CS Name: ::UnityEngine.ProBuilder::Spline*
 class CORDL_TYPE Spline : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Extrude, addr 0x2b7978c, size 0x24, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
-                                                                   int32_t rows, bool closeLoop, bool smooth);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
+                                                                            int32_t rows, bool closeLoop, bool smooth);
 
   /// @brief Method Extrude, addr 0x2b797b0, size 0xd8, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float_t radius, int32_t columns, int32_t rows, bool closeLoop, bool smooth,

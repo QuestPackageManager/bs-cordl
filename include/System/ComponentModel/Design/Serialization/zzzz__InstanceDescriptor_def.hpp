@@ -23,42 +23,42 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::Serialization::InstanceDescript
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9504))
 // CS Name: ::System.ComponentModel.Design.Serialization::InstanceDescriptor*
 class CORDL_TYPE InstanceDescriptor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Arguments>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Arguments_k__BackingField, put = __set__Arguments_k__BackingField))::System::Collections::ICollection* _Arguments_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Arguments_k__BackingField, put = __cordl_internal_set__Arguments_k__BackingField))::System::Collections::ICollection* _Arguments_k__BackingField;
 
   /// @brief Field <IsComplete>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__IsComplete_k__BackingField, put = __set__IsComplete_k__BackingField)) bool _IsComplete_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsComplete_k__BackingField, put = __cordl_internal_set__IsComplete_k__BackingField)) bool _IsComplete_k__BackingField;
 
   /// @brief Field <MemberInfo>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__MemberInfo_k__BackingField, put = __set__MemberInfo_k__BackingField))::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField))::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
 
   __declspec(property(get = get_Arguments))::System::Collections::ICollection* Arguments;
 
   __declspec(property(get = get_MemberInfo))::System::Reflection::MemberInfo* MemberInfo;
 
-  constexpr ::System::Collections::ICollection*& __get__Arguments_k__BackingField();
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get__Arguments_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __get__Arguments_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get__Arguments_k__BackingField() const;
 
-  constexpr void __set__Arguments_k__BackingField(::System::Collections::ICollection* value);
+  constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::ICollection* value);
 
-  constexpr bool& __get__IsComplete_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsComplete_k__BackingField();
 
-  constexpr bool const& __get__IsComplete_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsComplete_k__BackingField() const;
 
-  constexpr void __set__IsComplete_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsComplete_k__BackingField(bool value);
 
-  constexpr ::System::Reflection::MemberInfo*& __get__MemberInfo_k__BackingField();
+  constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__MemberInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __get__MemberInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get__MemberInfo_k__BackingField() const;
 
-  constexpr void __set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
+  constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
 
   static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 

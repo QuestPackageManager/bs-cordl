@@ -26,74 +26,74 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::Serializati
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3258))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerializationHeaderRecord*
 class CORDL_TYPE SerializationHeaderRecord : public ::System::Object {
 public:
   // Declarations
   /// @brief Field binaryFormatterMajorVersion, offset 0x10, size 0x4
-  __declspec(property(get = __get_binaryFormatterMajorVersion, put = __set_binaryFormatterMajorVersion)) int32_t binaryFormatterMajorVersion;
+  __declspec(property(get = __cordl_internal_get_binaryFormatterMajorVersion, put = __cordl_internal_set_binaryFormatterMajorVersion)) int32_t binaryFormatterMajorVersion;
 
   /// @brief Field binaryFormatterMinorVersion, offset 0x14, size 0x4
-  __declspec(property(get = __get_binaryFormatterMinorVersion, put = __set_binaryFormatterMinorVersion)) int32_t binaryFormatterMinorVersion;
+  __declspec(property(get = __cordl_internal_get_binaryFormatterMinorVersion, put = __cordl_internal_set_binaryFormatterMinorVersion)) int32_t binaryFormatterMinorVersion;
 
   /// @brief Field binaryHeaderEnum, offset 0x18, size 0x4
-  __declspec(property(get = __get_binaryHeaderEnum, put = __set_binaryHeaderEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum;
+  __declspec(property(get = __cordl_internal_get_binaryHeaderEnum, put = __cordl_internal_set_binaryHeaderEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum;
 
   /// @brief Field topId, offset 0x1c, size 0x4
-  __declspec(property(get = __get_topId, put = __set_topId)) int32_t topId;
+  __declspec(property(get = __cordl_internal_get_topId, put = __cordl_internal_set_topId)) int32_t topId;
 
   /// @brief Field headerId, offset 0x20, size 0x4
-  __declspec(property(get = __get_headerId, put = __set_headerId)) int32_t headerId;
+  __declspec(property(get = __cordl_internal_get_headerId, put = __cordl_internal_set_headerId)) int32_t headerId;
 
   /// @brief Field majorVersion, offset 0x24, size 0x4
-  __declspec(property(get = __get_majorVersion, put = __set_majorVersion)) int32_t majorVersion;
+  __declspec(property(get = __cordl_internal_get_majorVersion, put = __cordl_internal_set_majorVersion)) int32_t majorVersion;
 
   /// @brief Field minorVersion, offset 0x28, size 0x4
-  __declspec(property(get = __get_minorVersion, put = __set_minorVersion)) int32_t minorVersion;
+  __declspec(property(get = __cordl_internal_get_minorVersion, put = __cordl_internal_set_minorVersion)) int32_t minorVersion;
 
-  constexpr int32_t& __get_binaryFormatterMajorVersion();
+  constexpr int32_t& __cordl_internal_get_binaryFormatterMajorVersion();
 
-  constexpr int32_t const& __get_binaryFormatterMajorVersion() const;
+  constexpr int32_t const& __cordl_internal_get_binaryFormatterMajorVersion() const;
 
-  constexpr void __set_binaryFormatterMajorVersion(int32_t value);
+  constexpr void __cordl_internal_set_binaryFormatterMajorVersion(int32_t value);
 
-  constexpr int32_t& __get_binaryFormatterMinorVersion();
+  constexpr int32_t& __cordl_internal_get_binaryFormatterMinorVersion();
 
-  constexpr int32_t const& __get_binaryFormatterMinorVersion() const;
+  constexpr int32_t const& __cordl_internal_get_binaryFormatterMinorVersion() const;
 
-  constexpr void __set_binaryFormatterMinorVersion(int32_t value);
+  constexpr void __cordl_internal_set_binaryFormatterMinorVersion(int32_t value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& __get_binaryHeaderEnum();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& __cordl_internal_get_binaryHeaderEnum();
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const& __get_binaryHeaderEnum() const;
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const& __cordl_internal_get_binaryHeaderEnum() const;
 
-  constexpr void __set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
+  constexpr void __cordl_internal_set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
 
-  constexpr int32_t& __get_topId();
+  constexpr int32_t& __cordl_internal_get_topId();
 
-  constexpr int32_t const& __get_topId() const;
+  constexpr int32_t const& __cordl_internal_get_topId() const;
 
-  constexpr void __set_topId(int32_t value);
+  constexpr void __cordl_internal_set_topId(int32_t value);
 
-  constexpr int32_t& __get_headerId();
+  constexpr int32_t& __cordl_internal_get_headerId();
 
-  constexpr int32_t const& __get_headerId() const;
+  constexpr int32_t const& __cordl_internal_get_headerId() const;
 
-  constexpr void __set_headerId(int32_t value);
+  constexpr void __cordl_internal_set_headerId(int32_t value);
 
-  constexpr int32_t& __get_majorVersion();
+  constexpr int32_t& __cordl_internal_get_majorVersion();
 
-  constexpr int32_t const& __get_majorVersion() const;
+  constexpr int32_t const& __cordl_internal_get_majorVersion() const;
 
-  constexpr void __set_majorVersion(int32_t value);
+  constexpr void __cordl_internal_set_majorVersion(int32_t value);
 
-  constexpr int32_t& __get_minorVersion();
+  constexpr int32_t& __cordl_internal_get_minorVersion();
 
-  constexpr int32_t const& __get_minorVersion() const;
+  constexpr int32_t const& __cordl_internal_get_minorVersion() const;
 
-  constexpr void __set_minorVersion(int32_t value);
+  constexpr void __cordl_internal_set_minorVersion(int32_t value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* New_ctor();
 

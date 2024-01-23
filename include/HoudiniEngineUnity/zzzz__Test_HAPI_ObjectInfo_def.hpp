@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_ObjectInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9738)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9738))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9892))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_ObjectInfo*
 class CORDL_TYPE Test_HAPI_ObjectInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x1c
-  __declspec(property(get = __get_self, put = __set_self))::HoudiniEngineUnity::HAPI_ObjectInfo self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::HoudiniEngineUnity::HAPI_ObjectInfo self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ObjectInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ObjectInfo*>*() noexcept;
@@ -36,11 +36,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ObjectInfo*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ObjectInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_ObjectInfo__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo& __get_self();
+  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo& __cordl_internal_get_self();
 
-  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo const& __get_self() const;
+  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::HoudiniEngineUnity::HAPI_ObjectInfo value);
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_ObjectInfo value);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_ObjectInfo* New_ctor(::HoudiniEngineUnity::HAPI_ObjectInfo self);
 

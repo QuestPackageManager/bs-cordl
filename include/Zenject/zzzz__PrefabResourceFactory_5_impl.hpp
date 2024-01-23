@@ -24,22 +24,23 @@ template <typename P1, typename P2, typename P3, typename P4, typename T> conste
 template <typename P1, typename P2, typename P3, typename P4, typename T> constexpr ::Zenject::IFactory* Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::i___Zenject__IFactory() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
-template <typename P1, typename P2, typename P3, typename P4, typename T> constexpr ::Zenject::DiContainer*& Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__get__container() {
+template <typename P1, typename P2, typename P3, typename P4, typename T> constexpr ::Zenject::DiContainer*& Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__get__container() const {
+constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-template <typename P1, typename P2, typename P3, typename P4, typename T> constexpr void Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__set__container(::Zenject::DiContainer* value) {
+template <typename P1, typename P2, typename P3, typename P4, typename T>
+constexpr void Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T> inline ::Zenject::DiContainer* Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::get_Container() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>::get(),
-                                                                             "get_Container", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Container", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method);
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T>
@@ -51,31 +52,31 @@ inline T Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::Create(::StringW p
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T>
 inline ::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>* Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>());
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T> inline void Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T>
 inline ::System::Object* Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T>
 inline void Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>::get(),
-                                                                             "__zenFieldSetter0", std::vector<Il2CppClass*>{},
-                                                                             ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                               ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+                                                                             "__zenFieldSetter0", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, P_0, P_1);
 }
 template <typename P1, typename P2, typename P3, typename P4, typename T> inline ::Zenject::InjectTypeInfo* Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>*>::get(),
-                                                                             "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []

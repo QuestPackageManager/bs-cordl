@@ -25,31 +25,31 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14774))
 // CS Name: ::BeatmapSaveDataHelpers::VersionSerializedData*
 class CORDL_TYPE __BeatmapSaveDataHelpers__VersionSerializedData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __get__version, put = __set__version))::StringW _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::StringW _version;
 
   /// @brief Field version, offset 0x18, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::StringW version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
 
   __declspec(property(get = get_v))::StringW v;
 
-  constexpr ::StringW& __get__version();
+  constexpr ::StringW& __cordl_internal_get__version();
 
-  constexpr ::StringW const& __get__version() const;
+  constexpr ::StringW const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(::StringW value);
+  constexpr void __cordl_internal_set__version(::StringW value);
 
-  constexpr ::StringW& __get_version();
+  constexpr ::StringW& __cordl_internal_get_version();
 
-  constexpr ::StringW const& __get_version() const;
+  constexpr ::StringW const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::StringW value);
+  constexpr void __cordl_internal_set_version(::StringW value);
 
   /// @brief Method get_v, addr 0xe05124, size 0x30, virtual false, abstract: false, final false
   inline ::StringW get_v();
@@ -93,7 +93,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSeria
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14775))
 // CS Name: ::BeatmapSaveDataHelpers*
 class CORDL_TYPE BeatmapSaveDataHelpers : public ::System::Object {

@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FormattedFloatListSettingsController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5591))
 // CS Name: ::FormattedFloatListSettingsController::ValueType
 struct CORDL_TYPE __FormattedFloatListSettingsController__ValueType {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__FormattedFloatListSettingsController
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5591)), TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5591)), TypeDefinitionIndex(TypeDefinitionIndex(16149))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5592))
 // CS Name: ::FormattedFloatListSettingsController*
 class CORDL_TYPE FormattedFloatListSettingsController : public ::GlobalNamespace::ListSettingsController {
@@ -94,86 +94,88 @@ public:
   using ValueType = ::GlobalNamespace::__FormattedFloatListSettingsController__ValueType;
 
   /// @brief Field _values, offset 0x28, size 0x8
-  __declspec(property(get = __get__values, put = __set__values))::ArrayW<float_t, ::Array<float_t>*> _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::ArrayW<float_t, ::Array<float_t>*> _values;
 
   /// @brief Field _formattingString, offset 0x30, size 0x8
-  __declspec(property(get = __get__formattingString, put = __set__formattingString))::StringW _formattingString;
+  __declspec(property(get = __cordl_internal_get__formattingString, put = __cordl_internal_set__formattingString))::StringW _formattingString;
 
   /// @brief Field valueType, offset 0x38, size 0x4
-  __declspec(property(get = __get_valueType, put = __set_valueType))::GlobalNamespace::__FormattedFloatListSettingsController__ValueType valueType;
+  __declspec(property(get = __cordl_internal_get_valueType, put = __cordl_internal_set_valueType))::GlobalNamespace::__FormattedFloatListSettingsController__ValueType valueType;
 
   /// @brief Field valueDidChangeEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_valueDidChangeEvent, put = __set_valueDidChangeEvent))::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* valueDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
+                      put = __cordl_internal_set_valueDidChangeEvent))::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* valueDidChangeEvent;
 
   /// @brief Field _value, offset 0x48, size 0x4
-  __declspec(property(get = __get__value, put = __set__value)) float_t _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) float_t _value;
 
   /// @brief Field _min, offset 0x4c, size 0x4
-  __declspec(property(get = __get__min, put = __set__min)) float_t _min;
+  __declspec(property(get = __cordl_internal_get__min, put = __cordl_internal_set__min)) float_t _min;
 
   /// @brief Field _max, offset 0x50, size 0x4
-  __declspec(property(get = __get__max, put = __set__max)) float_t _max;
+  __declspec(property(get = __cordl_internal_get__max, put = __cordl_internal_set__max)) float_t _max;
 
   /// @brief Field _hasValue, offset 0x54, size 0x1
-  __declspec(property(get = __get__hasValue, put = __set__hasValue)) bool _hasValue;
+  __declspec(property(get = __cordl_internal_get__hasValue, put = __cordl_internal_set__hasValue)) bool _hasValue;
 
   __declspec(property(get = get_value)) float_t value;
 
   __declspec(property(get = get_values, put = set_values))::ArrayW<float_t, ::Array<float_t>*> values;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__values();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__values();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__values() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__values() const;
 
-  constexpr void __set__values(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__values(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::StringW& __get__formattingString();
+  constexpr ::StringW& __cordl_internal_get__formattingString();
 
-  constexpr ::StringW const& __get__formattingString() const;
+  constexpr ::StringW const& __cordl_internal_get__formattingString() const;
 
-  constexpr void __set__formattingString(::StringW value);
+  constexpr void __cordl_internal_set__formattingString(::StringW value);
 
-  constexpr ::GlobalNamespace::__FormattedFloatListSettingsController__ValueType& __get_valueType();
+  constexpr ::GlobalNamespace::__FormattedFloatListSettingsController__ValueType& __cordl_internal_get_valueType();
 
-  constexpr ::GlobalNamespace::__FormattedFloatListSettingsController__ValueType const& __get_valueType() const;
+  constexpr ::GlobalNamespace::__FormattedFloatListSettingsController__ValueType const& __cordl_internal_get_valueType() const;
 
-  constexpr void __set_valueType(::GlobalNamespace::__FormattedFloatListSettingsController__ValueType value);
+  constexpr void __cordl_internal_set_valueType(::GlobalNamespace::__FormattedFloatListSettingsController__ValueType value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*& __get_valueDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*& __cordl_internal_get_valueDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*> const& __get_valueDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*> const&
+  __cordl_internal_get_valueDidChangeEvent() const;
 
-  constexpr void __set_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
+  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
-  constexpr float_t& __get__value();
+  constexpr float_t& __cordl_internal_get__value();
 
-  constexpr float_t const& __get__value() const;
+  constexpr float_t const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(float_t value);
+  constexpr void __cordl_internal_set__value(float_t value);
 
-  constexpr float_t& __get__min();
+  constexpr float_t& __cordl_internal_get__min();
 
-  constexpr float_t const& __get__min() const;
+  constexpr float_t const& __cordl_internal_get__min() const;
 
-  constexpr void __set__min(float_t value);
+  constexpr void __cordl_internal_set__min(float_t value);
 
-  constexpr float_t& __get__max();
+  constexpr float_t& __cordl_internal_get__max();
 
-  constexpr float_t const& __get__max() const;
+  constexpr float_t const& __cordl_internal_get__max() const;
 
-  constexpr void __set__max(float_t value);
+  constexpr void __cordl_internal_set__max(float_t value);
 
-  constexpr bool& __get__hasValue();
+  constexpr bool& __cordl_internal_get__hasValue();
 
-  constexpr bool const& __get__hasValue() const;
+  constexpr bool const& __cordl_internal_get__hasValue() const;
 
-  constexpr void __set__hasValue(bool value);
+  constexpr void __cordl_internal_set__hasValue(bool value);
 
   /// @brief Method add_valueDidChangeEvent, addr 0x22aa3b4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
+  inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
   /// @brief Method remove_valueDidChangeEvent, addr 0x22aa464, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
+  inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
   /// @brief Method get_value, addr 0x22aa514, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
@@ -225,7 +227,7 @@ public:
   ::GlobalNamespace::__FormattedFloatListSettingsController__ValueType ___valueType;
 
   /// @brief Field valueDidChangeEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* ___valueDidChangeEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* ___valueDidChangeEvent;
 
   /// @brief Field _value, offset: 0x48, size: 0x4, def value: None
   float_t ____value;

@@ -40,7 +40,7 @@ MARK_VAL_T(::GlobalNamespace::PlayerStateHash);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14989))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14989))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12930))
 // CS Name: ::PlayerStateHash
 struct CORDL_TYPE PlayerStateHash {

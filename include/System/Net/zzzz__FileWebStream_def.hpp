@@ -44,14 +44,14 @@ MARK_REF_PTR_T(::System::Net::FileWebStream);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3627))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3627))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9136))
 // CS Name: ::System.Net::FileWebStream*
 class CORDL_TYPE FileWebStream : public ::System::IO::FileStream {
 public:
   // Declarations
   /// @brief Field m_request, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_request, put = __set_m_request))::System::Net::FileWebRequest* m_request;
+  __declspec(property(get = __cordl_internal_get_m_request, put = __cordl_internal_set_m_request))::System::Net::FileWebRequest* m_request;
 
   /// @brief Convert operator to "::System::Net::ICloseEx"
   constexpr operator ::System::Net::ICloseEx*() noexcept;
@@ -59,11 +59,11 @@ public:
   /// @brief Convert to "::System::Net::ICloseEx"
   constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
-  constexpr ::System::Net::FileWebRequest*& __get_m_request();
+  constexpr ::System::Net::FileWebRequest*& __cordl_internal_get_m_request();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::FileWebRequest*> const& __get_m_request() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::FileWebRequest*> const& __cordl_internal_get_m_request() const;
 
-  constexpr void __set_m_request(::System::Net::FileWebRequest* value);
+  constexpr void __cordl_internal_set_m_request(::System::Net::FileWebRequest* value);
 
   static inline ::System::Net::FileWebStream* New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
                                                        ::System::IO::FileShare sharing);

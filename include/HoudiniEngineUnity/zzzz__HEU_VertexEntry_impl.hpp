@@ -9,58 +9,58 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x21c22b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VertexEntry*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VertexEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__get__meshKey() {
+constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_get__meshKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshKey;
 }
-constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__get__meshKey() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_get__meshKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshKey;
 }
-constexpr void HoudiniEngineUnity::HEU_VertexEntry::__set__meshKey(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_set__meshKey(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshKey = value;
 }
-constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__get__vertexIndex() {
+constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_get__vertexIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex;
 }
-constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__get__vertexIndex() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_get__vertexIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex;
 }
-constexpr void HoudiniEngineUnity::HEU_VertexEntry::__set__vertexIndex(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_set__vertexIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexIndex = value;
 }
-constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__get__normalIndex() {
+constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_get__normalIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalIndex;
 }
-constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__get__normalIndex() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_get__normalIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalIndex;
 }
-constexpr void HoudiniEngineUnity::HEU_VertexEntry::__set__normalIndex(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_VertexEntry::__cordl_internal_set__normalIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalIndex = value;
 }
 inline ::HoudiniEngineUnity::HEU_VertexEntry* HoudiniEngineUnity::HEU_VertexEntry::New_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex) {
-  return THROW_UNLESS(::il2cpp_utils::New<::HoudiniEngineUnity::HEU_VertexEntry*>(meshKey, vertexIndex, normalIndex));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_VertexEntry*>(meshKey, vertexIndex, normalIndex));
 }
 inline void HoudiniEngineUnity::HEU_VertexEntry::_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VertexEntry*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VertexEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, meshKey, vertexIndex, normalIndex);
 }
 // Ctor Parameters []

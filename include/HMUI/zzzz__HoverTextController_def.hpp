@@ -47,20 +47,20 @@ MARK_REF_PTR_T(::HMUI::__HoverTextController___ShowTextCoroutine_d__10);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13541))
 // CS Name: ::HoverTextController::<ShowTextCoroutine>d__10*
 class CORDL_TYPE __HoverTextController___ShowTextCoroutine_d__10 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::HoverTextController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::HoverTextController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -84,23 +84,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::HoverTextController*& __get___4__this();
+  constexpr ::UnityW<::HMUI::HoverTextController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverTextController*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::HoverTextController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::HoverTextController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
   static inline ::HMUI::__HoverTextController___ShowTextCoroutine_d__10* New_ctor(int32_t __1__state);
 
@@ -143,7 +143,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::HoverTextController* _____4__this;
+  ::UnityW<::HMUI::HoverTextController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,20 +161,20 @@ static_assert(offsetof(::HMUI::__HoverTextController___ShowTextCoroutine_d__10, 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13542))
 // CS Name: ::HoverTextController::<HideTextCoroutine>d__12*
 class CORDL_TYPE __HoverTextController___HideTextCoroutine_d__12 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::HoverTextController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::HoverTextController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -198,23 +198,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::HoverTextController*& __get___4__this();
+  constexpr ::UnityW<::HMUI::HoverTextController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverTextController*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::HoverTextController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::HoverTextController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
   static inline ::HMUI::__HoverTextController___HideTextCoroutine_d__12* New_ctor(int32_t __1__state);
 
@@ -257,7 +257,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::HoverTextController* _____4__this;
+  ::UnityW<::HMUI::HoverTextController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -275,7 +275,7 @@ static_assert(offsetof(::HMUI::__HoverTextController___HideTextCoroutine_d__12, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 46, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13543))
 // CS Name: ::HMUI::HoverTextController*
 class CORDL_TYPE HoverTextController : public ::UnityEngine::MonoBehaviour {
@@ -286,58 +286,58 @@ public:
   using _ShowTextCoroutine_d__10 = ::HMUI::__HoverTextController___ShowTextCoroutine_d__10;
 
   /// @brief Field _textMesh, offset 0x18, size 0x8
-  __declspec(property(get = __get__textMesh, put = __set__textMesh))::TMPro::TextMeshProUGUI* _textMesh;
+  __declspec(property(get = __cordl_internal_get__textMesh, put = __cordl_internal_set__textMesh))::UnityW<::TMPro::TextMeshProUGUI> _textMesh;
 
   /// @brief Field _fadeInDelay, offset 0x20, size 0x4
-  __declspec(property(get = __get__fadeInDelay, put = __set__fadeInDelay)) float_t _fadeInDelay;
+  __declspec(property(get = __cordl_internal_get__fadeInDelay, put = __cordl_internal_set__fadeInDelay)) float_t _fadeInDelay;
 
   /// @brief Field _fadeInSpeed, offset 0x24, size 0x4
-  __declspec(property(get = __get__fadeInSpeed, put = __set__fadeInSpeed)) float_t _fadeInSpeed;
+  __declspec(property(get = __cordl_internal_get__fadeInSpeed, put = __cordl_internal_set__fadeInSpeed)) float_t _fadeInSpeed;
 
   /// @brief Field _fadeOutSpeed, offset 0x28, size 0x4
-  __declspec(property(get = __get__fadeOutSpeed, put = __set__fadeOutSpeed)) float_t _fadeOutSpeed;
+  __declspec(property(get = __cordl_internal_get__fadeOutSpeed, put = __cordl_internal_set__fadeOutSpeed)) float_t _fadeOutSpeed;
 
   /// @brief Field _isFadingOut, offset 0x2c, size 0x1
-  __declspec(property(get = __get__isFadingOut, put = __set__isFadingOut)) bool _isFadingOut;
+  __declspec(property(get = __cordl_internal_get__isFadingOut, put = __cordl_internal_set__isFadingOut)) bool _isFadingOut;
 
   /// @brief Field _isFadingIn, offset 0x2d, size 0x1
-  __declspec(property(get = __get__isFadingIn, put = __set__isFadingIn)) bool _isFadingIn;
+  __declspec(property(get = __cordl_internal_get__isFadingIn, put = __cordl_internal_set__isFadingIn)) bool _isFadingIn;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__textMesh();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__textMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__textMesh() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__textMesh() const;
 
-  constexpr void __set__textMesh(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__textMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr float_t& __get__fadeInDelay();
+  constexpr float_t& __cordl_internal_get__fadeInDelay();
 
-  constexpr float_t const& __get__fadeInDelay() const;
+  constexpr float_t const& __cordl_internal_get__fadeInDelay() const;
 
-  constexpr void __set__fadeInDelay(float_t value);
+  constexpr void __cordl_internal_set__fadeInDelay(float_t value);
 
-  constexpr float_t& __get__fadeInSpeed();
+  constexpr float_t& __cordl_internal_get__fadeInSpeed();
 
-  constexpr float_t const& __get__fadeInSpeed() const;
+  constexpr float_t const& __cordl_internal_get__fadeInSpeed() const;
 
-  constexpr void __set__fadeInSpeed(float_t value);
+  constexpr void __cordl_internal_set__fadeInSpeed(float_t value);
 
-  constexpr float_t& __get__fadeOutSpeed();
+  constexpr float_t& __cordl_internal_get__fadeOutSpeed();
 
-  constexpr float_t const& __get__fadeOutSpeed() const;
+  constexpr float_t const& __cordl_internal_get__fadeOutSpeed() const;
 
-  constexpr void __set__fadeOutSpeed(float_t value);
+  constexpr void __cordl_internal_set__fadeOutSpeed(float_t value);
 
-  constexpr bool& __get__isFadingOut();
+  constexpr bool& __cordl_internal_get__isFadingOut();
 
-  constexpr bool const& __get__isFadingOut() const;
+  constexpr bool const& __cordl_internal_get__isFadingOut() const;
 
-  constexpr void __set__isFadingOut(bool value);
+  constexpr void __cordl_internal_set__isFadingOut(bool value);
 
-  constexpr bool& __get__isFadingIn();
+  constexpr bool& __cordl_internal_get__isFadingIn();
 
-  constexpr bool const& __get__isFadingIn() const;
+  constexpr bool const& __cordl_internal_get__isFadingIn() const;
 
-  constexpr void __set__isFadingIn(bool value);
+  constexpr void __cordl_internal_set__isFadingIn(bool value);
 
   /// @brief Method Awake, addr 0x211e6dc, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
@@ -380,7 +380,7 @@ protected:
 
 public:
   /// @brief Field _textMesh, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____textMesh;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____textMesh;
 
   /// @brief Field _fadeInDelay, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInDelay;

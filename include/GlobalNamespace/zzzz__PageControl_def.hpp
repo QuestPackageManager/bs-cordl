@@ -28,74 +28,76 @@ MARK_REF_PTR_T(::GlobalNamespace::PageControl);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5802))
 // CS Name: ::PageControl*
 class CORDL_TYPE PageControl : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _content, offset 0x18, size 0x8
-  __declspec(property(get = __get__content, put = __set__content))::UnityEngine::RectTransform* _content;
+  __declspec(property(get = __cordl_internal_get__content, put = __cordl_internal_set__content))::UnityW<::UnityEngine::RectTransform> _content;
 
   /// @brief Field _spacing, offset 0x20, size 0x4
-  __declspec(property(get = __get__spacing, put = __set__spacing)) float_t _spacing;
+  __declspec(property(get = __cordl_internal_get__spacing, put = __cordl_internal_set__spacing)) float_t _spacing;
 
   /// @brief Field _elementPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__elementPrefab, put = __set__elementPrefab))::GlobalNamespace::PageControlElement* _elementPrefab;
+  __declspec(property(get = __cordl_internal_get__elementPrefab, put = __cordl_internal_set__elementPrefab))::UnityW<::GlobalNamespace::PageControlElement> _elementPrefab;
 
   /// @brief Field _activeElements, offset 0x30, size 0x8
-  __declspec(property(get = __get__activeElements, put = __set__activeElements))::System::Collections::Generic::List_1<::GlobalNamespace::PageControlElement*>* _activeElements;
+  __declspec(property(get = __cordl_internal_get__activeElements,
+                      put = __cordl_internal_set__activeElements))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>* _activeElements;
 
   /// @brief Field _inactiveElements, offset 0x38, size 0x8
-  __declspec(property(get = __get__inactiveElements, put = __set__inactiveElements))::System::Collections::Generic::Queue_1<::GlobalNamespace::PageControlElement*>* _inactiveElements;
+  __declspec(property(get = __cordl_internal_get__inactiveElements,
+                      put = __cordl_internal_set__inactiveElements))::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::PageControlElement>>* _inactiveElements;
 
   /// @brief Field _selectedPage, offset 0x40, size 0x4
-  __declspec(property(get = __get__selectedPage, put = __set__selectedPage)) int32_t _selectedPage;
+  __declspec(property(get = __cordl_internal_get__selectedPage, put = __cordl_internal_set__selectedPage)) int32_t _selectedPage;
 
   /// @brief Field _pagesCount, offset 0x44, size 0x4
-  __declspec(property(get = __get__pagesCount, put = __set__pagesCount)) int32_t _pagesCount;
+  __declspec(property(get = __cordl_internal_get__pagesCount, put = __cordl_internal_set__pagesCount)) int32_t _pagesCount;
 
-  constexpr ::UnityEngine::RectTransform*& __get__content();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__content();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__content() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__content() const;
 
-  constexpr void __set__content(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__content(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr float_t& __get__spacing();
+  constexpr float_t& __cordl_internal_get__spacing();
 
-  constexpr float_t const& __get__spacing() const;
+  constexpr float_t const& __cordl_internal_get__spacing() const;
 
-  constexpr void __set__spacing(float_t value);
+  constexpr void __cordl_internal_set__spacing(float_t value);
 
-  constexpr ::GlobalNamespace::PageControlElement*& __get__elementPrefab();
+  constexpr ::UnityW<::GlobalNamespace::PageControlElement>& __cordl_internal_get__elementPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PageControlElement*> const& __get__elementPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::PageControlElement> const& __cordl_internal_get__elementPrefab() const;
 
-  constexpr void __set__elementPrefab(::GlobalNamespace::PageControlElement* value);
+  constexpr void __cordl_internal_set__elementPrefab(::UnityW<::GlobalNamespace::PageControlElement> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PageControlElement*>*& __get__activeElements();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>*& __cordl_internal_get__activeElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::PageControlElement*>*> const& __get__activeElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>*> const& __cordl_internal_get__activeElements() const;
 
-  constexpr void __set__activeElements(::System::Collections::Generic::List_1<::GlobalNamespace::PageControlElement*>* value);
+  constexpr void __cordl_internal_set__activeElements(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::PageControlElement*>*& __get__inactiveElements();
+  constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::PageControlElement>>*& __cordl_internal_get__inactiveElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::PageControlElement*>*> const& __get__inactiveElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::PageControlElement>>*> const& __cordl_internal_get__inactiveElements() const;
 
-  constexpr void __set__inactiveElements(::System::Collections::Generic::Queue_1<::GlobalNamespace::PageControlElement*>* value);
+  constexpr void __cordl_internal_set__inactiveElements(::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::PageControlElement>>* value);
 
-  constexpr int32_t& __get__selectedPage();
+  constexpr int32_t& __cordl_internal_get__selectedPage();
 
-  constexpr int32_t const& __get__selectedPage() const;
+  constexpr int32_t const& __cordl_internal_get__selectedPage() const;
 
-  constexpr void __set__selectedPage(int32_t value);
+  constexpr void __cordl_internal_set__selectedPage(int32_t value);
 
-  constexpr int32_t& __get__pagesCount();
+  constexpr int32_t& __cordl_internal_get__pagesCount();
 
-  constexpr int32_t const& __get__pagesCount() const;
+  constexpr int32_t const& __cordl_internal_get__pagesCount() const;
 
-  constexpr void __set__pagesCount(int32_t value);
+  constexpr void __cordl_internal_set__pagesCount(int32_t value);
 
   /// @brief Method SetPagesCount, addr 0x22e79a4, size 0x3d0, virtual false, abstract: false, final false
   inline void SetPagesCount(int32_t pagesCount);
@@ -126,19 +128,19 @@ protected:
 
 public:
   /// @brief Field _content, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____content;
+  ::UnityW<::UnityEngine::RectTransform> ____content;
 
   /// @brief Field _spacing, offset: 0x20, size: 0x4, def value: None
   float_t ____spacing;
 
   /// @brief Field _elementPrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PageControlElement* ____elementPrefab;
+  ::UnityW<::GlobalNamespace::PageControlElement> ____elementPrefab;
 
   /// @brief Field _activeElements, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::PageControlElement*>* ____activeElements;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>* ____activeElements;
 
   /// @brief Field _inactiveElements, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::Queue_1<::GlobalNamespace::PageControlElement*>* ____inactiveElements;
+  ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::PageControlElement>>* ____inactiveElements;
 
   /// @brief Field _selectedPage, offset: 0x40, size: 0x4, def value: None
   int32_t ____selectedPage;

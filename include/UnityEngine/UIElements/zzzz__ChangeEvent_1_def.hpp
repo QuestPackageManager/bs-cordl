@@ -16,33 +16,33 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1720 }), TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(7181), inst: 1012 }), TypeDefinitionIndex(TypeDefinitionIndex(7181))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7181)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(7181)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1720
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7181), inst: 1012 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7181)) CS Name:
 // ::UnityEngine.UIElements::ChangeEvent`1<T>*
 class CORDL_TYPE ChangeEvent_1 : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::ChangeEvent_1<T>*> {
 public:
   // Declarations
   /// @brief Field <previousValue>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__previousValue_k__BackingField, put = __set__previousValue_k__BackingField)) T _previousValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__previousValue_k__BackingField, put = __cordl_internal_set__previousValue_k__BackingField)) T _previousValue_k__BackingField;
 
   /// @brief Field <newValue>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__newValue_k__BackingField, put = __set__newValue_k__BackingField)) T _newValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__newValue_k__BackingField, put = __cordl_internal_set__newValue_k__BackingField)) T _newValue_k__BackingField;
 
   __declspec(property(get = get_previousValue, put = set_previousValue)) T previousValue;
 
   __declspec(property(get = get_newValue, put = set_newValue)) T newValue;
 
-  constexpr T& __get__previousValue_k__BackingField();
+  constexpr T& __cordl_internal_get__previousValue_k__BackingField();
 
-  constexpr T const& __get__previousValue_k__BackingField() const;
+  constexpr T const& __cordl_internal_get__previousValue_k__BackingField() const;
 
-  constexpr void __set__previousValue_k__BackingField(T value);
+  constexpr void __cordl_internal_set__previousValue_k__BackingField(T value);
 
-  constexpr T& __get__newValue_k__BackingField();
+  constexpr T& __cordl_internal_get__newValue_k__BackingField();
 
-  constexpr T const& __get__newValue_k__BackingField() const;
+  constexpr T const& __cordl_internal_get__newValue_k__BackingField() const;
 
-  constexpr void __set__newValue_k__BackingField(T value);
+  constexpr void __cordl_internal_set__newValue_k__BackingField(T value);
 
   /// @brief Method get_previousValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_previousValue();

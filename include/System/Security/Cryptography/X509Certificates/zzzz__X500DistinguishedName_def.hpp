@@ -20,31 +20,31 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X500Distingui
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8977))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8977))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8991))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X500DistinguishedName*
 class CORDL_TYPE X500DistinguishedName : public ::System::Security::Cryptography::AsnEncodedData {
 public:
   // Declarations
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field canonEncoding, offset 0x28, size 0x8
-  __declspec(property(get = __get_canonEncoding, put = __set_canonEncoding))::ArrayW<uint8_t, ::Array<uint8_t>*> canonEncoding;
+  __declspec(property(get = __cordl_internal_get_canonEncoding, put = __cordl_internal_set_canonEncoding))::ArrayW<uint8_t, ::Array<uint8_t>*> canonEncoding;
 
   __declspec(property(get = get_Name))::StringW Name;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_canonEncoding();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_canonEncoding();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_canonEncoding() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_canonEncoding() const;
 
-  constexpr void __set_canonEncoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_canonEncoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encodedDistinguishedName);
 

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ShelfToolData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9856))
 // CS Name: ::HEU_ShelfToolData::ToolType
 struct CORDL_TYPE __HEU_ShelfToolData__ToolType {
@@ -84,7 +84,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, valu
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9856)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9856))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9857))
 // CS Name: ::HoudiniEngineUnity::HEU_ShelfToolData*
 class CORDL_TYPE HEU_ShelfToolData : public ::System::Object {
@@ -93,76 +93,76 @@ public:
   using ToolType = ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType;
 
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _toolType, offset 0x18, size 0x4
-  __declspec(property(get = __get__toolType, put = __set__toolType))::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType _toolType;
+  __declspec(property(get = __cordl_internal_get__toolType, put = __cordl_internal_set__toolType))::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType _toolType;
 
   /// @brief Field _toolTip, offset 0x20, size 0x8
-  __declspec(property(get = __get__toolTip, put = __set__toolTip))::StringW _toolTip;
+  __declspec(property(get = __cordl_internal_get__toolTip, put = __cordl_internal_set__toolTip))::StringW _toolTip;
 
   /// @brief Field _iconPath, offset 0x28, size 0x8
-  __declspec(property(get = __get__iconPath, put = __set__iconPath))::StringW _iconPath;
+  __declspec(property(get = __cordl_internal_get__iconPath, put = __cordl_internal_set__iconPath))::StringW _iconPath;
 
   /// @brief Field _assetPath, offset 0x30, size 0x8
-  __declspec(property(get = __get__assetPath, put = __set__assetPath))::StringW _assetPath;
+  __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath))::StringW _assetPath;
 
   /// @brief Field _helpURL, offset 0x38, size 0x8
-  __declspec(property(get = __get__helpURL, put = __set__helpURL))::StringW _helpURL;
+  __declspec(property(get = __cordl_internal_get__helpURL, put = __cordl_internal_set__helpURL))::StringW _helpURL;
 
   /// @brief Field _targets, offset 0x40, size 0x8
-  __declspec(property(get = __get__targets, put = __set__targets))::ArrayW<::StringW, ::Array<::StringW>*> _targets;
+  __declspec(property(get = __cordl_internal_get__targets, put = __cordl_internal_set__targets))::ArrayW<::StringW, ::Array<::StringW>*> _targets;
 
   /// @brief Field _jsonPath, offset 0x48, size 0x8
-  __declspec(property(get = __get__jsonPath, put = __set__jsonPath))::StringW _jsonPath;
+  __declspec(property(get = __cordl_internal_get__jsonPath, put = __cordl_internal_set__jsonPath))::StringW _jsonPath;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType& __get__toolType();
+  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType& __cordl_internal_get__toolType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const& __get__toolType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const& __cordl_internal_get__toolType() const;
 
-  constexpr void __set__toolType(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType value);
+  constexpr void __cordl_internal_set__toolType(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType value);
 
-  constexpr ::StringW& __get__toolTip();
+  constexpr ::StringW& __cordl_internal_get__toolTip();
 
-  constexpr ::StringW const& __get__toolTip() const;
+  constexpr ::StringW const& __cordl_internal_get__toolTip() const;
 
-  constexpr void __set__toolTip(::StringW value);
+  constexpr void __cordl_internal_set__toolTip(::StringW value);
 
-  constexpr ::StringW& __get__iconPath();
+  constexpr ::StringW& __cordl_internal_get__iconPath();
 
-  constexpr ::StringW const& __get__iconPath() const;
+  constexpr ::StringW const& __cordl_internal_get__iconPath() const;
 
-  constexpr void __set__iconPath(::StringW value);
+  constexpr void __cordl_internal_set__iconPath(::StringW value);
 
-  constexpr ::StringW& __get__assetPath();
+  constexpr ::StringW& __cordl_internal_get__assetPath();
 
-  constexpr ::StringW const& __get__assetPath() const;
+  constexpr ::StringW const& __cordl_internal_get__assetPath() const;
 
-  constexpr void __set__assetPath(::StringW value);
+  constexpr void __cordl_internal_set__assetPath(::StringW value);
 
-  constexpr ::StringW& __get__helpURL();
+  constexpr ::StringW& __cordl_internal_get__helpURL();
 
-  constexpr ::StringW const& __get__helpURL() const;
+  constexpr ::StringW const& __cordl_internal_get__helpURL() const;
 
-  constexpr void __set__helpURL(::StringW value);
+  constexpr void __cordl_internal_set__helpURL(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__targets();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__targets();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__targets() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__targets() const;
 
-  constexpr void __set__targets(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__targets(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get__jsonPath();
+  constexpr ::StringW& __cordl_internal_get__jsonPath();
 
-  constexpr ::StringW const& __get__jsonPath() const;
+  constexpr ::StringW const& __cordl_internal_get__jsonPath() const;
 
-  constexpr void __set__jsonPath(::StringW value);
+  constexpr void __cordl_internal_set__jsonPath(::StringW value);
 
   static inline ::HoudiniEngineUnity::HEU_ShelfToolData* New_ctor();
 

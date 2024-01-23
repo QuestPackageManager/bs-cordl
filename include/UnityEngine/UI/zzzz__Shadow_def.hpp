@@ -36,20 +36,20 @@ MARK_REF_PTR_T(::UnityEngine::UI::Shadow);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13143))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13143))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13148))
 // CS Name: ::UnityEngine.UI::Shadow*
 class CORDL_TYPE Shadow : public ::UnityEngine::UI::BaseMeshEffect {
 public:
   // Declarations
   /// @brief Field m_EffectColor, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_EffectColor, put = __set_m_EffectColor))::UnityEngine::Color m_EffectColor;
+  __declspec(property(get = __cordl_internal_get_m_EffectColor, put = __cordl_internal_set_m_EffectColor))::UnityEngine::Color m_EffectColor;
 
   /// @brief Field m_EffectDistance, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_EffectDistance, put = __set_m_EffectDistance))::UnityEngine::Vector2 m_EffectDistance;
+  __declspec(property(get = __cordl_internal_get_m_EffectDistance, put = __cordl_internal_set_m_EffectDistance))::UnityEngine::Vector2 m_EffectDistance;
 
   /// @brief Field m_UseGraphicAlpha, offset 0x38, size 0x1
-  __declspec(property(get = __get_m_UseGraphicAlpha, put = __set_m_UseGraphicAlpha)) bool m_UseGraphicAlpha;
+  __declspec(property(get = __cordl_internal_get_m_UseGraphicAlpha, put = __cordl_internal_set_m_UseGraphicAlpha)) bool m_UseGraphicAlpha;
 
   __declspec(property(get = get_effectColor, put = set_effectColor))::UnityEngine::Color effectColor;
 
@@ -57,23 +57,23 @@ public:
 
   __declspec(property(get = get_useGraphicAlpha, put = set_useGraphicAlpha)) bool useGraphicAlpha;
 
-  constexpr ::UnityEngine::Color& __get_m_EffectColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_EffectColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_EffectColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_EffectColor() const;
 
-  constexpr void __set_m_EffectColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_EffectColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_EffectDistance();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_EffectDistance();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_EffectDistance() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_EffectDistance() const;
 
-  constexpr void __set_m_EffectDistance(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_EffectDistance(::UnityEngine::Vector2 value);
 
-  constexpr bool& __get_m_UseGraphicAlpha();
+  constexpr bool& __cordl_internal_get_m_UseGraphicAlpha();
 
-  constexpr bool const& __get_m_UseGraphicAlpha() const;
+  constexpr bool const& __cordl_internal_get_m_UseGraphicAlpha() const;
 
-  constexpr void __set_m_UseGraphicAlpha(bool value);
+  constexpr void __cordl_internal_set_m_UseGraphicAlpha(bool value);
 
   static inline ::UnityEngine::UI::Shadow* New_ctor();
 

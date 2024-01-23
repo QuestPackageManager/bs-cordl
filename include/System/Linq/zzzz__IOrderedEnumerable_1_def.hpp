@@ -27,7 +27,7 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14281))
 // CS Name: ::System.Linq::IOrderedEnumerable`1<TElement>*
 class CORDL_TYPE IOrderedEnumerable_1 {

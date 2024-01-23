@@ -18,34 +18,35 @@
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "stringLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "elementType", ty: "::TMPro::TMP_TextElementType", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "textElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "fontAsset", ty: "::TMPro::TMP_FontAsset*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "spriteAsset", ty: "::TMPro::TMP_SpriteAsset*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityEngine::Material*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "materialReferenceIndex", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "pointSize", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pageNumber", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertex_BL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "vertex_TL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertex_TR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "vertex_BR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") }, CppParam { name: "topLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "topRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "bottomRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "origin", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "xAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "baseLine", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "adjustedAscender", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "adjustedDescender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "aspectRatio", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "underlineColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "underlineVertexIndex", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "strikethroughVertexIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "highlightColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightState", ty: "::TMPro::HighlightState", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "style", ty: "::TMPro::FontStyles", modifiers: "", def_value: Some("{}") }, CppParam { name: "isVisible", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// name: "textElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value:
+// Some("nullptr") }, CppParam { name: "spriteAsset", ty: "::UnityW<::TMPro::TMP_SpriteAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "materialReferenceIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "pointSize", ty: "float_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pageNumber", ty: "int32_t", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertex_BL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "vertex_TL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertex_TR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "vertex_BR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: Some("{}") }, CppParam { name: "topLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "topRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "bottomRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "origin", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "xAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "baseLine", ty:
+// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "adjustedAscender", ty: "float_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "adjustedDescender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "aspectRatio", ty: "float_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "underlineColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "underlineVertexIndex", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "strikethroughVertexIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightState", ty:
+// "::TMPro::HighlightState", modifiers: "", def_value: Some("{}") }, CppParam { name: "style", ty: "::TMPro::FontStyles", modifiers: "", def_value: Some("{}") }, CppParam { name: "isVisible", ty:
+// "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::TMP_CharacterInfo::TMP_CharacterInfo(char16_t character, int32_t index, int32_t stringLength, ::TMPro::TMP_TextElementType elementType, ::TMPro::TMP_TextElement* textElement,
-                                                        ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t spriteIndex, ::UnityEngine::Material* material,
-                                                        int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex,
-                                                        ::TMPro::TMP_Vertex vertex_BL, ::TMPro::TMP_Vertex vertex_TL, ::TMPro::TMP_Vertex vertex_TR, ::TMPro::TMP_Vertex vertex_BR,
-                                                        ::UnityEngine::Vector3 topLeft, ::UnityEngine::Vector3 bottomLeft, ::UnityEngine::Vector3 topRight, ::UnityEngine::Vector3 bottomRight,
-                                                        float_t origin, float_t xAdvance, float_t ascender, float_t baseLine, float_t descender, float_t adjustedAscender, float_t adjustedDescender,
-                                                        float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color, ::UnityEngine::Color32 underlineColor, int32_t underlineVertexIndex,
-                                                        ::UnityEngine::Color32 strikethroughColor, int32_t strikethroughVertexIndex, ::UnityEngine::Color32 highlightColor,
-                                                        ::TMPro::HighlightState highlightState, ::TMPro::FontStyles style, bool isVisible) noexcept {
+                                                        ::UnityW<::TMPro::TMP_FontAsset> fontAsset, ::UnityW<::TMPro::TMP_SpriteAsset> spriteAsset, int32_t spriteIndex,
+                                                        ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize,
+                                                        int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex, ::TMPro::TMP_Vertex vertex_BL, ::TMPro::TMP_Vertex vertex_TL,
+                                                        ::TMPro::TMP_Vertex vertex_TR, ::TMPro::TMP_Vertex vertex_BR, ::UnityEngine::Vector3 topLeft, ::UnityEngine::Vector3 bottomLeft,
+                                                        ::UnityEngine::Vector3 topRight, ::UnityEngine::Vector3 bottomRight, float_t origin, float_t xAdvance, float_t ascender, float_t baseLine,
+                                                        float_t descender, float_t adjustedAscender, float_t adjustedDescender, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color,
+                                                        ::UnityEngine::Color32 underlineColor, int32_t underlineVertexIndex, ::UnityEngine::Color32 strikethroughColor,
+                                                        int32_t strikethroughVertexIndex, ::UnityEngine::Color32 highlightColor, ::TMPro::HighlightState highlightState, ::TMPro::FontStyles style,
+                                                        bool isVisible) noexcept {
   this->character = character;
   this->index = index;
   this->stringLength = stringLength;

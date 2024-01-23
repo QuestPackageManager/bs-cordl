@@ -28,22 +28,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1037))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1037))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1039))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECPublicKeyParameters*
 class CORDL_TYPE ECPublicKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters {
 public:
   // Declarations
   /// @brief Field q, offset 0x30, size 0x8
-  __declspec(property(get = __get_q, put = __set_q))::Org::BouncyCastle::Math::EC::ECPoint* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::EC::ECPoint* q;
 
   __declspec(property(get = get_Q))::Org::BouncyCastle::Math::EC::ECPoint* Q;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_q();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* q,
                                                                                          ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);

@@ -101,8 +101,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__EventTrigger__TriggerEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5235 }), TypeDefinitionIndex(TypeDefinitionIndex(10465)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13192)) CS Name: ::EventTrigger::TriggerEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(13165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 5235 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13192)) CS Name: ::EventTrigger::TriggerEvent*
 class CORDL_TYPE __EventTrigger__TriggerEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::BaseEventData*> {
 public:
   // Declarations
@@ -135,29 +135,29 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__Eve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13195)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13195))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13193))
 // CS Name: ::EventTrigger::Entry*
 class CORDL_TYPE __EventTrigger__Entry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field eventID, offset 0x10, size 0x4
-  __declspec(property(get = __get_eventID, put = __set_eventID))::UnityEngine::EventSystems::EventTriggerType eventID;
+  __declspec(property(get = __cordl_internal_get_eventID, put = __cordl_internal_set_eventID))::UnityEngine::EventSystems::EventTriggerType eventID;
 
   /// @brief Field callback, offset 0x18, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* callback;
 
-  constexpr ::UnityEngine::EventSystems::EventTriggerType& __get_eventID();
+  constexpr ::UnityEngine::EventSystems::EventTriggerType& __cordl_internal_get_eventID();
 
-  constexpr ::UnityEngine::EventSystems::EventTriggerType const& __get_eventID() const;
+  constexpr ::UnityEngine::EventSystems::EventTriggerType const& __cordl_internal_get_eventID() const;
 
-  constexpr void __set_eventID(::UnityEngine::EventSystems::EventTriggerType value);
+  constexpr void __cordl_internal_set_eventID(::UnityEngine::EventSystems::EventTriggerType value);
 
-  constexpr ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent*& __get_callback();
+  constexpr ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__EventTrigger__TriggerEvent*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__EventTrigger__TriggerEvent*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* value);
+  constexpr void __cordl_internal_set_callback(::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* value);
 
   static inline ::UnityEngine::EventSystems::__EventTrigger__Entry* New_ctor();
 
@@ -198,7 +198,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::__EventTrigger__Entry, ___ca
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13194))
 // CS Name: ::UnityEngine.EventSystems::EventTrigger*
 class CORDL_TYPE EventTrigger : public ::UnityEngine::MonoBehaviour {
@@ -209,7 +209,8 @@ public:
   using TriggerEvent = ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent;
 
   /// @brief Field m_Delegates, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Delegates, put = __set_m_Delegates))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* m_Delegates;
+  __declspec(property(get = __cordl_internal_get_m_Delegates,
+                      put = __cordl_internal_set_m_Delegates))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* m_Delegates;
 
   __declspec(property(get = get_delegates, put = set_delegates))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* delegates;
 
@@ -323,11 +324,11 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>*& __get_m_Delegates();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>*& __cordl_internal_get_m_Delegates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>*> const& __get_m_Delegates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>*> const& __cordl_internal_get_m_Delegates() const;
 
-  constexpr void __set_m_Delegates(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* value);
+  constexpr void __cordl_internal_set_m_Delegates(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* value);
 
   /// @brief Method get_delegates, addr 0x2d986b0, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* get_delegates();

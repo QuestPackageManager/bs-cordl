@@ -29,23 +29,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerUniversalString);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(33))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(33))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(518))
 // CS Name: ::Org.BouncyCastle.Asn1::DerUniversalString*
 class CORDL_TYPE DerUniversalString : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
   // Declarations
   /// @brief Field str, offset 0x10, size 0x8
-  __declspec(property(get = __get_str, put = __set_str))::ArrayW<uint8_t, ::Array<uint8_t>*> str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::ArrayW<uint8_t, ::Array<uint8_t>*> str;
 
   /// @brief Field table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_table, put = setStaticF_table))::ArrayW<char16_t, ::Array<char16_t>*> table;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_str();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_str();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_str() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_str() const;
 
-  constexpr void __set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_table(::ArrayW<char16_t, ::Array<char16_t>*> value);
 

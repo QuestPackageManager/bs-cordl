@@ -42,29 +42,29 @@ MARK_REF_PTR_T(::System::Reflection::ParameterInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3482)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3482))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3483))
 // CS Name: ::System.Reflection::ParameterInfo*
 class CORDL_TYPE ParameterInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AttrsImpl, offset 0x10, size 0x4
-  __declspec(property(get = __get_AttrsImpl, put = __set_AttrsImpl))::System::Reflection::ParameterAttributes AttrsImpl;
+  __declspec(property(get = __cordl_internal_get_AttrsImpl, put = __cordl_internal_set_AttrsImpl))::System::Reflection::ParameterAttributes AttrsImpl;
 
   /// @brief Field ClassImpl, offset 0x18, size 0x8
-  __declspec(property(get = __get_ClassImpl, put = __set_ClassImpl))::System::Type* ClassImpl;
+  __declspec(property(get = __cordl_internal_get_ClassImpl, put = __cordl_internal_set_ClassImpl))::System::Type* ClassImpl;
 
   /// @brief Field DefaultValueImpl, offset 0x20, size 0x8
-  __declspec(property(get = __get_DefaultValueImpl, put = __set_DefaultValueImpl))::System::Object* DefaultValueImpl;
+  __declspec(property(get = __cordl_internal_get_DefaultValueImpl, put = __cordl_internal_set_DefaultValueImpl))::System::Object* DefaultValueImpl;
 
   /// @brief Field MemberImpl, offset 0x28, size 0x8
-  __declspec(property(get = __get_MemberImpl, put = __set_MemberImpl))::System::Reflection::MemberInfo* MemberImpl;
+  __declspec(property(get = __cordl_internal_get_MemberImpl, put = __cordl_internal_set_MemberImpl))::System::Reflection::MemberInfo* MemberImpl;
 
   /// @brief Field NameImpl, offset 0x30, size 0x8
-  __declspec(property(get = __get_NameImpl, put = __set_NameImpl))::StringW NameImpl;
+  __declspec(property(get = __cordl_internal_get_NameImpl, put = __cordl_internal_set_NameImpl))::StringW NameImpl;
 
   /// @brief Field PositionImpl, offset 0x38, size 0x4
-  __declspec(property(get = __get_PositionImpl, put = __set_PositionImpl)) int32_t PositionImpl;
+  __declspec(property(get = __cordl_internal_get_PositionImpl, put = __cordl_internal_set_PositionImpl)) int32_t PositionImpl;
 
   __declspec(property(get = get_Attributes))::System::Reflection::ParameterAttributes Attributes;
 
@@ -102,41 +102,41 @@ public:
   /// @brief Convert to "::System::Runtime::InteropServices::_ParameterInfo"
   constexpr ::System::Runtime::InteropServices::_ParameterInfo* i___System__Runtime__InteropServices___ParameterInfo() noexcept;
 
-  constexpr ::System::Reflection::ParameterAttributes& __get_AttrsImpl();
+  constexpr ::System::Reflection::ParameterAttributes& __cordl_internal_get_AttrsImpl();
 
-  constexpr ::System::Reflection::ParameterAttributes const& __get_AttrsImpl() const;
+  constexpr ::System::Reflection::ParameterAttributes const& __cordl_internal_get_AttrsImpl() const;
 
-  constexpr void __set_AttrsImpl(::System::Reflection::ParameterAttributes value);
+  constexpr void __cordl_internal_set_AttrsImpl(::System::Reflection::ParameterAttributes value);
 
-  constexpr ::System::Type*& __get_ClassImpl();
+  constexpr ::System::Type*& __cordl_internal_get_ClassImpl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_ClassImpl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_ClassImpl() const;
 
-  constexpr void __set_ClassImpl(::System::Type* value);
+  constexpr void __cordl_internal_set_ClassImpl(::System::Type* value);
 
-  constexpr ::System::Object*& __get_DefaultValueImpl();
+  constexpr ::System::Object*& __cordl_internal_get_DefaultValueImpl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_DefaultValueImpl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_DefaultValueImpl() const;
 
-  constexpr void __set_DefaultValueImpl(::System::Object* value);
+  constexpr void __cordl_internal_set_DefaultValueImpl(::System::Object* value);
 
-  constexpr ::System::Reflection::MemberInfo*& __get_MemberImpl();
+  constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get_MemberImpl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __get_MemberImpl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get_MemberImpl() const;
 
-  constexpr void __set_MemberImpl(::System::Reflection::MemberInfo* value);
+  constexpr void __cordl_internal_set_MemberImpl(::System::Reflection::MemberInfo* value);
 
-  constexpr ::StringW& __get_NameImpl();
+  constexpr ::StringW& __cordl_internal_get_NameImpl();
 
-  constexpr ::StringW const& __get_NameImpl() const;
+  constexpr ::StringW const& __cordl_internal_get_NameImpl() const;
 
-  constexpr void __set_NameImpl(::StringW value);
+  constexpr void __cordl_internal_set_NameImpl(::StringW value);
 
-  constexpr int32_t& __get_PositionImpl();
+  constexpr int32_t& __cordl_internal_get_PositionImpl();
 
-  constexpr int32_t const& __get_PositionImpl() const;
+  constexpr int32_t const& __cordl_internal_get_PositionImpl() const;
 
-  constexpr void __set_PositionImpl(int32_t value);
+  constexpr void __cordl_internal_set_PositionImpl(int32_t value);
 
   static inline ::System::Reflection::ParameterInfo* New_ctor();
 

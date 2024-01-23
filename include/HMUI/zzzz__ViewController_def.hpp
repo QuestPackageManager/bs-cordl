@@ -109,7 +109,7 @@ MARK_REF_PTR_T(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13598))
 // CS Name: ::ViewController::DidActivateDelegate*
 class CORDL_TYPE __ViewController__DidActivateDelegate : public ::System::MulticastDelegate {
@@ -153,7 +153,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController__DidActiv
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13599))
 // CS Name: ::ViewController::DidDeactivateDelegate*
 class CORDL_TYPE __ViewController__DidDeactivateDelegate : public ::System::MulticastDelegate {
@@ -197,7 +197,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController__DidDeact
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13600))
 // CS Name: ::ViewController::AnimationType
 struct CORDL_TYPE __ViewController__AnimationType {
@@ -251,7 +251,7 @@ static_assert(offsetof(::HMUI::__ViewController__AnimationType, value__) == 0x0,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13601))
 // CS Name: ::ViewController::AnimationDirection
 struct CORDL_TYPE __ViewController__AnimationDirection {
@@ -301,32 +301,32 @@ static_assert(offsetof(::HMUI::__ViewController__AnimationDirection, value__) ==
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13602))
 // CS Name: ::ViewController::<PresentViewControllerCoroutine>d__58*
 class CORDL_TYPE __ViewController___PresentViewControllerCoroutine_d__58 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::ViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::ViewController> __4__this;
 
   /// @brief Field newViewController, offset 0x28, size 0x8
-  __declspec(property(get = __get_newViewController, put = __set_newViewController))::HMUI::ViewController* newViewController;
+  __declspec(property(get = __cordl_internal_get_newViewController, put = __cordl_internal_set_newViewController))::UnityW<::HMUI::ViewController> newViewController;
 
   /// @brief Field immediately, offset 0x30, size 0x1
-  __declspec(property(get = __get_immediately, put = __set_immediately)) bool immediately;
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
   /// @brief Field animationDirection, offset 0x34, size 0x4
-  __declspec(property(get = __get_animationDirection, put = __set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
+  __declspec(property(get = __cordl_internal_get_animationDirection, put = __cordl_internal_set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
 
   /// @brief Field finishedCallback, offset 0x38, size 0x8
-  __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -350,47 +350,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::ViewController*& __get___4__this();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get_newViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_newViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_newViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_newViewController() const;
 
-  constexpr void __set_newViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr bool& __get_immediately();
+  constexpr bool& __cordl_internal_get_immediately();
 
-  constexpr bool const& __get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-  constexpr void __set_immediately(bool value);
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-  constexpr ::HMUI::__ViewController__AnimationDirection& __get_animationDirection();
+  constexpr ::HMUI::__ViewController__AnimationDirection& __cordl_internal_get_animationDirection();
 
-  constexpr ::HMUI::__ViewController__AnimationDirection const& __get_animationDirection() const;
+  constexpr ::HMUI::__ViewController__AnimationDirection const& __cordl_internal_get_animationDirection() const;
 
-  constexpr void __set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
+  constexpr void __cordl_internal_set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
 
-  constexpr ::System::Action*& __get_finishedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_finishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __set_finishedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
   static inline ::HMUI::__ViewController___PresentViewControllerCoroutine_d__58* New_ctor(int32_t __1__state);
 
@@ -433,10 +433,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ViewController* _____4__this;
+  ::UnityW<::HMUI::ViewController> _____4__this;
 
   /// @brief Field newViewController, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ViewController* ___newViewController;
+  ::UnityW<::HMUI::ViewController> ___newViewController;
 
   /// @brief Field immediately, offset: 0x30, size: 0x1, def value: None
   bool ___immediately;
@@ -471,32 +471,32 @@ static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600)), TypeDefinitionIndex(TypeDefinitionIndex(13601))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13603))
 // CS Name: ::ViewController::<ReplaceViewControllerCoroutine>d__60*
 class CORDL_TYPE __ViewController___ReplaceViewControllerCoroutine_d__60 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::ViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::ViewController> __4__this;
 
   /// @brief Field newViewController, offset 0x28, size 0x8
-  __declspec(property(get = __get_newViewController, put = __set_newViewController))::HMUI::ViewController* newViewController;
+  __declspec(property(get = __cordl_internal_get_newViewController, put = __cordl_internal_set_newViewController))::UnityW<::HMUI::ViewController> newViewController;
 
   /// @brief Field animationType, offset 0x30, size 0x4
-  __declspec(property(get = __get_animationType, put = __set_animationType))::HMUI::__ViewController__AnimationType animationType;
+  __declspec(property(get = __cordl_internal_get_animationType, put = __cordl_internal_set_animationType))::HMUI::__ViewController__AnimationType animationType;
 
   /// @brief Field animationDirection, offset 0x34, size 0x4
-  __declspec(property(get = __get_animationDirection, put = __set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
+  __declspec(property(get = __cordl_internal_get_animationDirection, put = __cordl_internal_set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
 
   /// @brief Field finishedCallback, offset 0x38, size 0x8
-  __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -520,47 +520,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::ViewController*& __get___4__this();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get_newViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_newViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_newViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_newViewController() const;
 
-  constexpr void __set_newViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::__ViewController__AnimationType& __get_animationType();
+  constexpr ::HMUI::__ViewController__AnimationType& __cordl_internal_get_animationType();
 
-  constexpr ::HMUI::__ViewController__AnimationType const& __get_animationType() const;
+  constexpr ::HMUI::__ViewController__AnimationType const& __cordl_internal_get_animationType() const;
 
-  constexpr void __set_animationType(::HMUI::__ViewController__AnimationType value);
+  constexpr void __cordl_internal_set_animationType(::HMUI::__ViewController__AnimationType value);
 
-  constexpr ::HMUI::__ViewController__AnimationDirection& __get_animationDirection();
+  constexpr ::HMUI::__ViewController__AnimationDirection& __cordl_internal_get_animationDirection();
 
-  constexpr ::HMUI::__ViewController__AnimationDirection const& __get_animationDirection() const;
+  constexpr ::HMUI::__ViewController__AnimationDirection const& __cordl_internal_get_animationDirection() const;
 
-  constexpr void __set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
+  constexpr void __cordl_internal_set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
 
-  constexpr ::System::Action*& __get_finishedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_finishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __set_finishedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
   static inline ::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60* New_ctor(int32_t __1__state);
 
@@ -603,10 +603,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ViewController* _____4__this;
+  ::UnityW<::HMUI::ViewController> _____4__this;
 
   /// @brief Field newViewController, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ViewController* ___newViewController;
+  ::UnityW<::HMUI::ViewController> ___newViewController;
 
   /// @brief Field animationType, offset: 0x30, size: 0x4, def value: None
   ::HMUI::__ViewController__AnimationType ___animationType;
@@ -641,32 +641,32 @@ static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13604))
 // CS Name: ::ViewController::<DismissViewControllerCoroutine>d__62*
 class CORDL_TYPE __ViewController___DismissViewControllerCoroutine_d__62 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::ViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::ViewController> __4__this;
 
   /// @brief Field immediately, offset 0x28, size 0x1
-  __declspec(property(get = __get_immediately, put = __set_immediately)) bool immediately;
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
   /// @brief Field animationDirection, offset 0x2c, size 0x4
-  __declspec(property(get = __get_animationDirection, put = __set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
+  __declspec(property(get = __cordl_internal_get_animationDirection, put = __cordl_internal_set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
 
   /// @brief Field finishedCallback, offset 0x30, size 0x8
-  __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
   /// @brief Field <movingInViewController>5__2, offset 0x38, size 0x8
-  __declspec(property(get = __get__movingInViewController_5__2, put = __set__movingInViewController_5__2))::HMUI::ViewController* _movingInViewController_5__2;
+  __declspec(property(get = __cordl_internal_get__movingInViewController_5__2, put = __cordl_internal_set__movingInViewController_5__2))::UnityW<::HMUI::ViewController> _movingInViewController_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -690,47 +690,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::ViewController*& __get___4__this();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::ViewController> value);
 
-  constexpr bool& __get_immediately();
+  constexpr bool& __cordl_internal_get_immediately();
 
-  constexpr bool const& __get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-  constexpr void __set_immediately(bool value);
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-  constexpr ::HMUI::__ViewController__AnimationDirection& __get_animationDirection();
+  constexpr ::HMUI::__ViewController__AnimationDirection& __cordl_internal_get_animationDirection();
 
-  constexpr ::HMUI::__ViewController__AnimationDirection const& __get_animationDirection() const;
+  constexpr ::HMUI::__ViewController__AnimationDirection const& __cordl_internal_get_animationDirection() const;
 
-  constexpr void __set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
+  constexpr void __cordl_internal_set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
 
-  constexpr ::System::Action*& __get_finishedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_finishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __set_finishedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  constexpr ::HMUI::ViewController*& __get__movingInViewController_5__2();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__movingInViewController_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get__movingInViewController_5__2() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__movingInViewController_5__2() const;
 
-  constexpr void __set__movingInViewController_5__2(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__movingInViewController_5__2(::UnityW<::HMUI::ViewController> value);
 
   static inline ::HMUI::__ViewController___DismissViewControllerCoroutine_d__62* New_ctor(int32_t __1__state);
 
@@ -773,7 +773,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ViewController* _____4__this;
+  ::UnityW<::HMUI::ViewController> _____4__this;
 
   /// @brief Field immediately, offset: 0x28, size: 0x1, def value: None
   bool ___immediately;
@@ -785,7 +785,7 @@ public:
   ::System::Action* ___finishedCallback;
 
   /// @brief Field <movingInViewController>5__2, offset: 0x38, size: 0x8, def value: None
-  ::HMUI::ViewController* ____movingInViewController_5__2;
+  ::UnityW<::HMUI::ViewController> ____movingInViewController_5__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -811,7 +811,7 @@ static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13605))
 // CS Name: ::HMUI::ViewController*
 class CORDL_TYPE ViewController : public ::UnityEngine::MonoBehaviour {
@@ -832,51 +832,51 @@ public:
   using DidActivateDelegate = ::HMUI::__ViewController__DidActivateDelegate;
 
   /// @brief Field didActivateEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_didActivateEvent, put = __set_didActivateEvent))::HMUI::__ViewController__DidActivateDelegate* didActivateEvent;
+  __declspec(property(get = __cordl_internal_get_didActivateEvent, put = __cordl_internal_set_didActivateEvent))::HMUI::__ViewController__DidActivateDelegate* didActivateEvent;
 
   /// @brief Field didDeactivateEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didDeactivateEvent, put = __set_didDeactivateEvent))::HMUI::__ViewController__DidDeactivateDelegate* didDeactivateEvent;
+  __declspec(property(get = __cordl_internal_get_didDeactivateEvent, put = __cordl_internal_set_didDeactivateEvent))::HMUI::__ViewController__DidDeactivateDelegate* didDeactivateEvent;
 
   /// @brief Field <buttonBinder>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__buttonBinder_k__BackingField, put = __set__buttonBinder_k__BackingField))::HMUI::ButtonBinder* _buttonBinder_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__buttonBinder_k__BackingField, put = __cordl_internal_set__buttonBinder_k__BackingField))::HMUI::ButtonBinder* _buttonBinder_k__BackingField;
 
   /// @brief Field _containerViewController, offset 0x30, size 0x8
-  __declspec(property(get = __get__containerViewController, put = __set__containerViewController))::HMUI::ContainerViewController* _containerViewController;
+  __declspec(property(get = __cordl_internal_get__containerViewController, put = __cordl_internal_set__containerViewController))::UnityW<::HMUI::ContainerViewController> _containerViewController;
 
   /// @brief Field _parentViewController, offset 0x38, size 0x8
-  __declspec(property(get = __get__parentViewController, put = __set__parentViewController))::HMUI::ViewController* _parentViewController;
+  __declspec(property(get = __cordl_internal_get__parentViewController, put = __cordl_internal_set__parentViewController))::UnityW<::HMUI::ViewController> _parentViewController;
 
   /// @brief Field _childViewController, offset 0x40, size 0x8
-  __declspec(property(get = __get__childViewController, put = __set__childViewController))::HMUI::ViewController* _childViewController;
+  __declspec(property(get = __cordl_internal_get__childViewController, put = __cordl_internal_set__childViewController))::UnityW<::HMUI::ViewController> _childViewController;
 
   /// @brief Field _screen, offset 0x48, size 0x8
-  __declspec(property(get = __get__screen, put = __set__screen))::HMUI::Screen* _screen;
+  __declspec(property(get = __cordl_internal_get__screen, put = __cordl_internal_set__screen))::UnityW<::HMUI::Screen> _screen;
 
   /// @brief Field _rectTransform, offset 0x50, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _canvasGroup, offset 0x58, size 0x8
-  __declspec(property(get = __get__canvasGroup, put = __set__canvasGroup))::UnityEngine::CanvasGroup* _canvasGroup;
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
   /// @brief Field _wasActivatedBefore, offset 0x60, size 0x1
-  __declspec(property(get = __get__wasActivatedBefore, put = __set__wasActivatedBefore)) bool _wasActivatedBefore;
+  __declspec(property(get = __cordl_internal_get__wasActivatedBefore, put = __cordl_internal_set__wasActivatedBefore)) bool _wasActivatedBefore;
 
   /// @brief Field _isActivated, offset 0x61, size 0x1
-  __declspec(property(get = __get__isActivated, put = __set__isActivated)) bool _isActivated;
+  __declspec(property(get = __cordl_internal_get__isActivated, put = __cordl_internal_set__isActivated)) bool _isActivated;
 
   /// @brief Field _isInTransition, offset 0x62, size 0x1
-  __declspec(property(get = __get__isInTransition, put = __set__isInTransition)) bool _isInTransition;
+  __declspec(property(get = __cordl_internal_get__isInTransition, put = __cordl_internal_set__isInTransition)) bool _isInTransition;
 
   /// @brief Field _graphicRaycaster, offset 0x68, size 0x8
-  __declspec(property(get = __get__graphicRaycaster, put = __set__graphicRaycaster))::UnityEngine::EventSystems::BaseRaycaster* _graphicRaycaster;
+  __declspec(property(get = __cordl_internal_get__graphicRaycaster, put = __cordl_internal_set__graphicRaycaster))::UnityW<::UnityEngine::EventSystems::BaseRaycaster> _graphicRaycaster;
 
-  __declspec(property(get = get_containerViewController))::HMUI::ContainerViewController* containerViewController;
+  __declspec(property(get = get_containerViewController))::UnityW<::HMUI::ContainerViewController> containerViewController;
 
-  __declspec(property(get = get_screen))::HMUI::Screen* screen;
+  __declspec(property(get = get_screen))::UnityW<::HMUI::Screen> screen;
 
-  __declspec(property(get = get_parentViewController))::HMUI::ViewController* parentViewController;
+  __declspec(property(get = get_parentViewController))::UnityW<::HMUI::ViewController> parentViewController;
 
-  __declspec(property(get = get_childViewController))::HMUI::ViewController* childViewController;
+  __declspec(property(get = get_childViewController))::UnityW<::HMUI::ViewController> childViewController;
 
   __declspec(property(get = get_isInViewControllerHierarchy)) bool isInViewControllerHierarchy;
 
@@ -890,101 +890,101 @@ public:
 
   __declspec(property(get = get_buttonBinder, put = set_buttonBinder))::HMUI::ButtonBinder* buttonBinder;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  __declspec(property(get = get_canvasGroup))::UnityEngine::CanvasGroup* canvasGroup;
+  __declspec(property(get = get_canvasGroup))::UnityW<::UnityEngine::CanvasGroup> canvasGroup;
 
-  __declspec(property(get = get_graphicRaycaster))::UnityEngine::EventSystems::BaseRaycaster* graphicRaycaster;
+  __declspec(property(get = get_graphicRaycaster))::UnityW<::UnityEngine::EventSystems::BaseRaycaster> graphicRaycaster;
 
-  constexpr ::HMUI::__ViewController__DidActivateDelegate*& __get_didActivateEvent();
+  constexpr ::HMUI::__ViewController__DidActivateDelegate*& __cordl_internal_get_didActivateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewController__DidActivateDelegate*> const& __get_didActivateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewController__DidActivateDelegate*> const& __cordl_internal_get_didActivateEvent() const;
 
-  constexpr void __set_didActivateEvent(::HMUI::__ViewController__DidActivateDelegate* value);
+  constexpr void __cordl_internal_set_didActivateEvent(::HMUI::__ViewController__DidActivateDelegate* value);
 
-  constexpr ::HMUI::__ViewController__DidDeactivateDelegate*& __get_didDeactivateEvent();
+  constexpr ::HMUI::__ViewController__DidDeactivateDelegate*& __cordl_internal_get_didDeactivateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewController__DidDeactivateDelegate*> const& __get_didDeactivateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewController__DidDeactivateDelegate*> const& __cordl_internal_get_didDeactivateEvent() const;
 
-  constexpr void __set_didDeactivateEvent(::HMUI::__ViewController__DidDeactivateDelegate* value);
+  constexpr void __cordl_internal_set_didDeactivateEvent(::HMUI::__ViewController__DidDeactivateDelegate* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder_k__BackingField();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder_k__BackingField() const;
 
-  constexpr void __set__buttonBinder_k__BackingField(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder_k__BackingField(::HMUI::ButtonBinder* value);
 
-  constexpr ::HMUI::ContainerViewController*& __get__containerViewController();
+  constexpr ::UnityW<::HMUI::ContainerViewController>& __cordl_internal_get__containerViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ContainerViewController*> const& __get__containerViewController() const;
+  constexpr ::UnityW<::HMUI::ContainerViewController> const& __cordl_internal_get__containerViewController() const;
 
-  constexpr void __set__containerViewController(::HMUI::ContainerViewController* value);
+  constexpr void __cordl_internal_set__containerViewController(::UnityW<::HMUI::ContainerViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get__parentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__parentViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get__parentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__parentViewController() const;
 
-  constexpr void __set__parentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__parentViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get__childViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__childViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get__childViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__childViewController() const;
 
-  constexpr void __set__childViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__childViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::Screen*& __get__screen();
+  constexpr ::UnityW<::HMUI::Screen>& __cordl_internal_get__screen();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::Screen*> const& __get__screen() const;
+  constexpr ::UnityW<::HMUI::Screen> const& __cordl_internal_get__screen() const;
 
-  constexpr void __set__screen(::HMUI::Screen* value);
+  constexpr void __cordl_internal_set__screen(::UnityW<::HMUI::Screen> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__canvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__canvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
-  constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr bool& __get__wasActivatedBefore();
+  constexpr bool& __cordl_internal_get__wasActivatedBefore();
 
-  constexpr bool const& __get__wasActivatedBefore() const;
+  constexpr bool const& __cordl_internal_get__wasActivatedBefore() const;
 
-  constexpr void __set__wasActivatedBefore(bool value);
+  constexpr void __cordl_internal_set__wasActivatedBefore(bool value);
 
-  constexpr bool& __get__isActivated();
+  constexpr bool& __cordl_internal_get__isActivated();
 
-  constexpr bool const& __get__isActivated() const;
+  constexpr bool const& __cordl_internal_get__isActivated() const;
 
-  constexpr void __set__isActivated(bool value);
+  constexpr void __cordl_internal_set__isActivated(bool value);
 
-  constexpr bool& __get__isInTransition();
+  constexpr bool& __cordl_internal_get__isInTransition();
 
-  constexpr bool const& __get__isInTransition() const;
+  constexpr bool const& __cordl_internal_get__isInTransition() const;
 
-  constexpr void __set__isInTransition(bool value);
+  constexpr void __cordl_internal_set__isInTransition(bool value);
 
-  constexpr ::UnityEngine::EventSystems::BaseRaycaster*& __get__graphicRaycaster();
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster>& __cordl_internal_get__graphicRaycaster();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::BaseRaycaster*> const& __get__graphicRaycaster() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& __cordl_internal_get__graphicRaycaster() const;
 
-  constexpr void __set__graphicRaycaster(::UnityEngine::EventSystems::BaseRaycaster* value);
+  constexpr void __cordl_internal_set__graphicRaycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value);
 
   /// @brief Method get_containerViewController, addr 0x212ce90, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ContainerViewController* get_containerViewController();
+  inline ::UnityW<::HMUI::ContainerViewController> get_containerViewController();
 
   /// @brief Method get_screen, addr 0x212ce98, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::Screen* get_screen();
+  inline ::UnityW<::HMUI::Screen> get_screen();
 
   /// @brief Method get_parentViewController, addr 0x212cea0, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ViewController* get_parentViewController();
+  inline ::UnityW<::HMUI::ViewController> get_parentViewController();
 
   /// @brief Method get_childViewController, addr 0x212cea8, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ViewController* get_childViewController();
+  inline ::UnityW<::HMUI::ViewController> get_childViewController();
 
   /// @brief Method get_isInViewControllerHierarchy, addr 0x212ceb0, size 0x60, virtual false, abstract: false, final false
   inline bool get_isInViewControllerHierarchy();
@@ -1026,13 +1026,13 @@ public:
   inline void set_buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method get_rectTransform, addr 0x212b538, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method get_canvasGroup, addr 0x212c190, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::CanvasGroup* get_canvasGroup();
+  inline ::UnityW<::UnityEngine::CanvasGroup> get_canvasGroup();
 
   /// @brief Method get_graphicRaycaster, addr 0x212cf50, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::BaseRaycaster* get_graphicRaycaster();
+  inline ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> get_graphicRaycaster();
 
   /// @brief Method OnDestroy, addr 0x212d264, size 0x48, virtual true, abstract: false, final false
   inline void OnDestroy();
@@ -1114,22 +1114,22 @@ public:
   ::HMUI::ButtonBinder* ____buttonBinder_k__BackingField;
 
   /// @brief Field _containerViewController, offset: 0x30, size: 0x8, def value: None
-  ::HMUI::ContainerViewController* ____containerViewController;
+  ::UnityW<::HMUI::ContainerViewController> ____containerViewController;
 
   /// @brief Field _parentViewController, offset: 0x38, size: 0x8, def value: None
-  ::HMUI::ViewController* ____parentViewController;
+  ::UnityW<::HMUI::ViewController> ____parentViewController;
 
   /// @brief Field _childViewController, offset: 0x40, size: 0x8, def value: None
-  ::HMUI::ViewController* ____childViewController;
+  ::UnityW<::HMUI::ViewController> ____childViewController;
 
   /// @brief Field _screen, offset: 0x48, size: 0x8, def value: None
-  ::HMUI::Screen* ____screen;
+  ::UnityW<::HMUI::Screen> ____screen;
 
   /// @brief Field _rectTransform, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _canvasGroup, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____canvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
   /// @brief Field _wasActivatedBefore, offset: 0x60, size: 0x1, def value: None
   bool ____wasActivatedBefore;
@@ -1141,7 +1141,7 @@ public:
   bool ____isInTransition;
 
   /// @brief Field _graphicRaycaster, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::BaseRaycaster* ____graphicRaycaster;
+  ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> ____graphicRaycaster;
 
   /// @brief Field kTransitionDuration offset 0xffffffff size 0x4
   static constexpr float_t kTransitionDuration{ 0.4 };

@@ -85,8 +85,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 1 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15814)) CS Name: ::AsyncHelper::<>c__DisplayClass0_0`1::<<RunSync>b__0>d<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 1
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15814)) CS Name: ::AsyncHelper::<>c__DisplayClass0_0`1::<<RunSync>b__0>d<T>
 struct CORDL_TYPE __AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d {
 public:
   // Declarations
@@ -138,7 +138,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15815))
 // CS Name: ::AsyncHelper::<>c__DisplayClass0_0`1<T>*
 class CORDL_TYPE __AsyncHelper____c__DisplayClass0_0_1 : public ::System::Object {
@@ -147,22 +147,22 @@ public:
   using __RunSync_b__0_d = ::GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T>;
 
   /// @brief Field asyncTask, offset 0x10, size 0x8
-  __declspec(property(get = __get_asyncTask, put = __set_asyncTask))::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask;
+  __declspec(property(get = __cordl_internal_get_asyncTask, put = __cordl_internal_set_asyncTask))::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask;
 
   /// @brief Field result, offset 0x18, size 0x8
-  __declspec(property(get = __get_result, put = __set_result)) T result;
+  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result)) T result;
 
-  constexpr ::System::Func_1<::System::Threading::Tasks::Task_1<T>*>*& __get_asyncTask();
+  constexpr ::System::Func_1<::System::Threading::Tasks::Task_1<T>*>*& __cordl_internal_get_asyncTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Threading::Tasks::Task_1<T>*>*> const& __get_asyncTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Threading::Tasks::Task_1<T>*>*> const& __cordl_internal_get_asyncTask() const;
 
-  constexpr void __set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* value);
+  constexpr void __cordl_internal_set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* value);
 
-  constexpr T& __get_result();
+  constexpr T& __cordl_internal_get_result();
 
-  constexpr T const& __get_result() const;
+  constexpr T const& __cordl_internal_get_result() const;
 
-  constexpr void __set_result(T value);
+  constexpr void __cordl_internal_set_result(T value);
 
   static inline ::GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>* New_ctor();
 
@@ -200,7 +200,7 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15816))
 // CS Name: ::AsyncHelper::<>c__DisplayClass1_0::<<RunSync>b__0>d
 struct CORDL_TYPE __AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d {
@@ -261,7 +261,7 @@ static_assert(offsetof(::GlobalNamespace::__AsyncHelper____c__DisplayClass1_0___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15817))
 // CS Name: ::AsyncHelper::<>c__DisplayClass1_0*
 class CORDL_TYPE __AsyncHelper____c__DisplayClass1_0 : public ::System::Object {
@@ -270,13 +270,13 @@ public:
   using __RunSync_b__0_d = ::GlobalNamespace::__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d;
 
   /// @brief Field asyncTask, offset 0x10, size 0x8
-  __declspec(property(get = __get_asyncTask, put = __set_asyncTask))::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask;
+  __declspec(property(get = __cordl_internal_get_asyncTask, put = __cordl_internal_set_asyncTask))::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask;
 
-  constexpr ::System::Func_1<::System::Threading::Tasks::Task*>*& __get_asyncTask();
+  constexpr ::System::Func_1<::System::Threading::Tasks::Task*>*& __cordl_internal_get_asyncTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Threading::Tasks::Task*>*> const& __get_asyncTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Threading::Tasks::Task*>*> const& __cordl_internal_get_asyncTask() const;
 
-  constexpr void __set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task*>* value);
+  constexpr void __cordl_internal_set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task*>* value);
 
   static inline ::GlobalNamespace::__AsyncHelper____c__DisplayClass1_0* New_ctor();
 
@@ -315,9 +315,9 @@ static_assert(offsetof(::GlobalNamespace::__AsyncHelper____c__DisplayClass1_0, _
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 4099 }), TypeDefinitionIndex(TypeDefinitionIndex(2773)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15818)) CS Name: ::AsyncHelper::<AnyTaskTrueNonAlloc>d__2
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 4099 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15818)) CS Name: ::AsyncHelper::<AnyTaskTrueNonAlloc>d__2
 struct CORDL_TYPE __AsyncHelper___AnyTaskTrueNonAlloc_d__2 {
 public:
   // Declarations
@@ -378,7 +378,7 @@ static_assert(offsetof(::GlobalNamespace::__AsyncHelper___AnyTaskTrueNonAlloc_d_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15819))
 // CS Name: ::AsyncHelper*
 class CORDL_TYPE AsyncHelper : public ::System::Object {

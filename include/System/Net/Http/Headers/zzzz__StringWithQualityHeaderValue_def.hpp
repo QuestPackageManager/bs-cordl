@@ -37,16 +37,16 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::StringWithQualityHeaderValue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2704 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14707)) CS Name: ::System.Net.Http.Headers::StringWithQualityHeaderValue*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2704
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14707)) CS Name: ::System.Net.Http.Headers::StringWithQualityHeaderValue*
 class CORDL_TYPE StringWithQualityHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Quality>k__BackingField, offset 0x10, size 0x10
-  __declspec(property(get = __get__Quality_k__BackingField, put = __set__Quality_k__BackingField))::System::Nullable_1<double_t> _Quality_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Quality_k__BackingField, put = __cordl_internal_set__Quality_k__BackingField))::System::Nullable_1<double_t> _Quality_k__BackingField;
 
   /// @brief Field <Value>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Value_k__BackingField, put = __set__Value_k__BackingField))::StringW _Value_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField))::StringW _Value_k__BackingField;
 
   __declspec(property(get = get_Quality, put = set_Quality))::System::Nullable_1<double_t> Quality;
 
@@ -58,17 +58,17 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Nullable_1<double_t>& __get__Quality_k__BackingField();
+  constexpr ::System::Nullable_1<double_t>& __cordl_internal_get__Quality_k__BackingField();
 
-  constexpr ::System::Nullable_1<double_t> const& __get__Quality_k__BackingField() const;
+  constexpr ::System::Nullable_1<double_t> const& __cordl_internal_get__Quality_k__BackingField() const;
 
-  constexpr void __set__Quality_k__BackingField(::System::Nullable_1<double_t> value);
+  constexpr void __cordl_internal_set__Quality_k__BackingField(::System::Nullable_1<double_t> value);
 
-  constexpr ::StringW& __get__Value_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Value_k__BackingField();
 
-  constexpr ::StringW const& __get__Value_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
 
-  constexpr void __set__Value_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
   static inline ::System::Net::Http::Headers::StringWithQualityHeaderValue* New_ctor();
 

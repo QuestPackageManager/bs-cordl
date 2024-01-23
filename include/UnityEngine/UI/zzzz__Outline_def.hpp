@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::Outline);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13148))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13148))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13146))
 // CS Name: ::UnityEngine.UI::Outline*
 class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {

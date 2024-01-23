@@ -44,20 +44,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__DefaultSceneStart___Start_d__3);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6027))
 // CS Name: ::DefaultSceneStart::<Start>d__3*
 class CORDL_TYPE __DefaultSceneStart___Start_d__3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::DefaultSceneStart* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::DefaultSceneStart> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -81,23 +81,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::DefaultSceneStart*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::DefaultSceneStart>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultSceneStart*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::DefaultSceneStart> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::DefaultSceneStart* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::DefaultSceneStart> value);
 
   static inline ::GlobalNamespace::__DefaultSceneStart___Start_d__3* New_ctor(int32_t __1__state);
 
@@ -140,7 +140,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::DefaultSceneStart* _____4__this;
+  ::UnityW<::GlobalNamespace::DefaultSceneStart> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__DefaultSceneStart___Start_d__3, ____
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6028))
 // CS Name: ::DefaultSceneStart*
 class CORDL_TYPE DefaultSceneStart : public ::UnityEngine::MonoBehaviour {
@@ -167,31 +167,31 @@ public:
   using _Start_d__3 = ::GlobalNamespace::__DefaultSceneStart___Start_d__3;
 
   /// @brief Field _flowCoordinator, offset 0x18, size 0x8
-  __declspec(property(get = __get__flowCoordinator, put = __set__flowCoordinator))::HMUI::FlowCoordinator* _flowCoordinator;
+  __declspec(property(get = __cordl_internal_get__flowCoordinator, put = __cordl_internal_set__flowCoordinator))::UnityW<::HMUI::FlowCoordinator> _flowCoordinator;
 
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _hierarchyManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__hierarchyManager, put = __set__hierarchyManager))::HMUI::HierarchyManager* _hierarchyManager;
+  __declspec(property(get = __cordl_internal_get__hierarchyManager, put = __cordl_internal_set__hierarchyManager))::UnityW<::HMUI::HierarchyManager> _hierarchyManager;
 
-  constexpr ::HMUI::FlowCoordinator*& __get__flowCoordinator();
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__flowCoordinator();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::FlowCoordinator*> const& __get__flowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__flowCoordinator() const;
 
-  constexpr void __set__flowCoordinator(::HMUI::FlowCoordinator* value);
+  constexpr void __cordl_internal_set__flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::HMUI::HierarchyManager*& __get__hierarchyManager();
+  constexpr ::UnityW<::HMUI::HierarchyManager>& __cordl_internal_get__hierarchyManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HierarchyManager*> const& __get__hierarchyManager() const;
+  constexpr ::UnityW<::HMUI::HierarchyManager> const& __cordl_internal_get__hierarchyManager() const;
 
-  constexpr void __set__hierarchyManager(::HMUI::HierarchyManager* value);
+  constexpr void __cordl_internal_set__hierarchyManager(::UnityW<::HMUI::HierarchyManager> value);
 
   /// @brief Method Start, addr 0x231891c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -216,13 +216,13 @@ protected:
 
 public:
   /// @brief Field _flowCoordinator, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::FlowCoordinator* ____flowCoordinator;
+  ::UnityW<::HMUI::FlowCoordinator> ____flowCoordinator;
 
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _hierarchyManager, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::HierarchyManager* ____hierarchyManager;
+  ::UnityW<::HMUI::HierarchyManager> ____hierarchyManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

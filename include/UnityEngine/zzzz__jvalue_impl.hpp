@@ -1,85 +1,85 @@
 #pragma once
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__jvalue_def.hpp"
-constexpr bool& UnityEngine::jvalue::__get_z() {
+constexpr bool& UnityEngine::jvalue::__cordl_internal_get_z() {
   return this->___z;
 }
-constexpr bool const& UnityEngine::jvalue::__get_z() const {
+constexpr bool const& UnityEngine::jvalue::__cordl_internal_get_z() const {
   return this->___z;
 }
-constexpr void UnityEngine::jvalue::__set_z(bool value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_z(bool value) {
   this->___z = value;
 }
-constexpr int8_t& UnityEngine::jvalue::__get_b() {
+constexpr int8_t& UnityEngine::jvalue::__cordl_internal_get_b() {
   return this->___b;
 }
-constexpr int8_t const& UnityEngine::jvalue::__get_b() const {
+constexpr int8_t const& UnityEngine::jvalue::__cordl_internal_get_b() const {
   return this->___b;
 }
-constexpr void UnityEngine::jvalue::__set_b(int8_t value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_b(int8_t value) {
   this->___b = value;
 }
-constexpr char16_t& UnityEngine::jvalue::__get_c() {
+constexpr char16_t& UnityEngine::jvalue::__cordl_internal_get_c() {
   return this->___c;
 }
-constexpr char16_t const& UnityEngine::jvalue::__get_c() const {
+constexpr char16_t const& UnityEngine::jvalue::__cordl_internal_get_c() const {
   return this->___c;
 }
-constexpr void UnityEngine::jvalue::__set_c(char16_t value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_c(char16_t value) {
   this->___c = value;
 }
-constexpr int16_t& UnityEngine::jvalue::__get_s() {
+constexpr int16_t& UnityEngine::jvalue::__cordl_internal_get_s() {
   return this->___s;
 }
-constexpr int16_t const& UnityEngine::jvalue::__get_s() const {
+constexpr int16_t const& UnityEngine::jvalue::__cordl_internal_get_s() const {
   return this->___s;
 }
-constexpr void UnityEngine::jvalue::__set_s(int16_t value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_s(int16_t value) {
   this->___s = value;
 }
-constexpr int32_t& UnityEngine::jvalue::__get_i() {
+constexpr int32_t& UnityEngine::jvalue::__cordl_internal_get_i() {
   return this->___i;
 }
-constexpr int32_t const& UnityEngine::jvalue::__get_i() const {
+constexpr int32_t const& UnityEngine::jvalue::__cordl_internal_get_i() const {
   return this->___i;
 }
-constexpr void UnityEngine::jvalue::__set_i(int32_t value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_i(int32_t value) {
   this->___i = value;
 }
-constexpr int64_t& UnityEngine::jvalue::__get_j() {
+constexpr int64_t& UnityEngine::jvalue::__cordl_internal_get_j() {
   return this->___j;
 }
-constexpr int64_t const& UnityEngine::jvalue::__get_j() const {
+constexpr int64_t const& UnityEngine::jvalue::__cordl_internal_get_j() const {
   return this->___j;
 }
-constexpr void UnityEngine::jvalue::__set_j(int64_t value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_j(int64_t value) {
   this->___j = value;
 }
-constexpr float_t& UnityEngine::jvalue::__get_f() {
+constexpr float_t& UnityEngine::jvalue::__cordl_internal_get_f() {
   return this->___f;
 }
-constexpr float_t const& UnityEngine::jvalue::__get_f() const {
+constexpr float_t const& UnityEngine::jvalue::__cordl_internal_get_f() const {
   return this->___f;
 }
-constexpr void UnityEngine::jvalue::__set_f(float_t value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_f(float_t value) {
   this->___f = value;
 }
-constexpr double_t& UnityEngine::jvalue::__get_d() {
+constexpr double_t& UnityEngine::jvalue::__cordl_internal_get_d() {
   return this->___d;
 }
-constexpr double_t const& UnityEngine::jvalue::__get_d() const {
+constexpr double_t const& UnityEngine::jvalue::__cordl_internal_get_d() const {
   return this->___d;
 }
-constexpr void UnityEngine::jvalue::__set_d(double_t value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_d(double_t value) {
   this->___d = value;
 }
-constexpr void*& UnityEngine::jvalue::__get_l() {
+constexpr void*& UnityEngine::jvalue::__cordl_internal_get_l() {
   return this->___l;
 }
-constexpr void* const& UnityEngine::jvalue::__get_l() const {
+constexpr void* const& UnityEngine::jvalue::__cordl_internal_get_l() const {
   return this->___l;
 }
-constexpr void UnityEngine::jvalue::__set_l(void* value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_l(void* value) {
   this->___l = value;
 }
 // Ctor Parameters [CppParam { name: "z", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "b", ty: "int8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "c", ty:

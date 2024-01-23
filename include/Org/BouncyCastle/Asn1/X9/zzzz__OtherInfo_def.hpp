@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::OtherInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(416))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::OtherInfo*
 class CORDL_TYPE OtherInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field keyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyInfo, put = __set_keyInfo))::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo;
+  __declspec(property(get = __cordl_internal_get_keyInfo, put = __cordl_internal_set_keyInfo))::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo;
 
   /// @brief Field partyAInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_partyAInfo, put = __set_partyAInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo;
+  __declspec(property(get = __cordl_internal_get_partyAInfo, put = __cordl_internal_set_partyAInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo;
 
   /// @brief Field suppPubInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_suppPubInfo, put = __set_suppPubInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo;
+  __declspec(property(get = __cordl_internal_get_suppPubInfo, put = __cordl_internal_set_suppPubInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo;
 
   __declspec(property(get = get_KeyInfo))::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* KeyInfo;
 
@@ -47,23 +47,23 @@ public:
 
   __declspec(property(get = get_SuppPubInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* SuppPubInfo;
 
-  constexpr ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*& __get_keyInfo();
+  constexpr ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*& __cordl_internal_get_keyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*> const& __get_keyInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*> const& __cordl_internal_get_keyInfo() const;
 
-  constexpr void __set_keyInfo(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* value);
+  constexpr void __cordl_internal_set_keyInfo(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_partyAInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_partyAInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_partyAInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_partyAInfo() const;
 
-  constexpr void __set_partyAInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_partyAInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_suppPubInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_suppPubInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_suppPubInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_suppPubInfo() const;
 
-  constexpr void __set_suppPubInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_suppPubInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo,
                                                                    ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);

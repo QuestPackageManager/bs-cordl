@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ImageEffectController__RenderImageCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14500))
 // CS Name: ::ImageEffectController::RenderImageCallback*
 class CORDL_TYPE __ImageEffectController__RenderImageCallback : public ::System::MulticastDelegate {
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ImageEffectCo
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14501))
 // CS Name: ::ImageEffectController*
 class CORDL_TYPE ImageEffectController : public ::UnityEngine::MonoBehaviour {
@@ -88,13 +88,14 @@ public:
   using RenderImageCallback = ::GlobalNamespace::__ImageEffectController__RenderImageCallback;
 
   /// @brief Field _renderImageCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get__renderImageCallback, put = __set__renderImageCallback))::GlobalNamespace::__ImageEffectController__RenderImageCallback* _renderImageCallback;
+  __declspec(property(get = __cordl_internal_get__renderImageCallback,
+                      put = __cordl_internal_set__renderImageCallback))::GlobalNamespace::__ImageEffectController__RenderImageCallback* _renderImageCallback;
 
-  constexpr ::GlobalNamespace::__ImageEffectController__RenderImageCallback*& __get__renderImageCallback();
+  constexpr ::GlobalNamespace::__ImageEffectController__RenderImageCallback*& __cordl_internal_get__renderImageCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ImageEffectController__RenderImageCallback*> const& __get__renderImageCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ImageEffectController__RenderImageCallback*> const& __cordl_internal_get__renderImageCallback() const;
 
-  constexpr void __set__renderImageCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* value);
+  constexpr void __cordl_internal_set__renderImageCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* value);
 
   /// @brief Method SetCallback, addr 0x210c16c, size 0x8, virtual false, abstract: false, final false
   inline void SetCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* renderImageCallback);

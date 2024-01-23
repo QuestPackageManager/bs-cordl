@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaEngine);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(866))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaEngine*
 class CORDL_TYPE RsaEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field core, offset 0x10, size 0x8
-  __declspec(property(get = __get_core, put = __set_core))::Org::BouncyCastle::Crypto::IRsa* core;
+  __declspec(property(get = __cordl_internal_get_core, put = __cordl_internal_set_core))::Org::BouncyCastle::Crypto::IRsa* core;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -43,11 +43,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IRsa*& __get_core();
+  constexpr ::Org::BouncyCastle::Crypto::IRsa*& __cordl_internal_get_core();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IRsa*> const& __get_core() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IRsa*> const& __cordl_internal_get_core() const;
 
-  constexpr void __set_core(::Org::BouncyCastle::Crypto::IRsa* value);
+  constexpr void __cordl_internal_set_core(::Org::BouncyCastle::Crypto::IRsa* value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaEngine* New_ctor();
 

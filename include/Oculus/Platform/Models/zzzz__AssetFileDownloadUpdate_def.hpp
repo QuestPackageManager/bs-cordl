@@ -15,56 +15,56 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadUpdate);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13422))
 // CS Name: ::Oculus.Platform.Models::AssetFileDownloadUpdate*
 class CORDL_TYPE AssetFileDownloadUpdate : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AssetFileId, offset 0x10, size 0x8
-  __declspec(property(get = __get_AssetFileId, put = __set_AssetFileId)) uint64_t AssetFileId;
+  __declspec(property(get = __cordl_internal_get_AssetFileId, put = __cordl_internal_set_AssetFileId)) uint64_t AssetFileId;
 
   /// @brief Field AssetId, offset 0x18, size 0x8
-  __declspec(property(get = __get_AssetId, put = __set_AssetId)) uint64_t AssetId;
+  __declspec(property(get = __cordl_internal_get_AssetId, put = __cordl_internal_set_AssetId)) uint64_t AssetId;
 
   /// @brief Field BytesTotal, offset 0x20, size 0x8
-  __declspec(property(get = __get_BytesTotal, put = __set_BytesTotal)) uint64_t BytesTotal;
+  __declspec(property(get = __cordl_internal_get_BytesTotal, put = __cordl_internal_set_BytesTotal)) uint64_t BytesTotal;
 
   /// @brief Field BytesTransferred, offset 0x28, size 0x8
-  __declspec(property(get = __get_BytesTransferred, put = __set_BytesTransferred)) int64_t BytesTransferred;
+  __declspec(property(get = __cordl_internal_get_BytesTransferred, put = __cordl_internal_set_BytesTransferred)) int64_t BytesTransferred;
 
   /// @brief Field Completed, offset 0x30, size 0x1
-  __declspec(property(get = __get_Completed, put = __set_Completed)) bool Completed;
+  __declspec(property(get = __cordl_internal_get_Completed, put = __cordl_internal_set_Completed)) bool Completed;
 
-  constexpr uint64_t& __get_AssetFileId();
+  constexpr uint64_t& __cordl_internal_get_AssetFileId();
 
-  constexpr uint64_t const& __get_AssetFileId() const;
+  constexpr uint64_t const& __cordl_internal_get_AssetFileId() const;
 
-  constexpr void __set_AssetFileId(uint64_t value);
+  constexpr void __cordl_internal_set_AssetFileId(uint64_t value);
 
-  constexpr uint64_t& __get_AssetId();
+  constexpr uint64_t& __cordl_internal_get_AssetId();
 
-  constexpr uint64_t const& __get_AssetId() const;
+  constexpr uint64_t const& __cordl_internal_get_AssetId() const;
 
-  constexpr void __set_AssetId(uint64_t value);
+  constexpr void __cordl_internal_set_AssetId(uint64_t value);
 
-  constexpr uint64_t& __get_BytesTotal();
+  constexpr uint64_t& __cordl_internal_get_BytesTotal();
 
-  constexpr uint64_t const& __get_BytesTotal() const;
+  constexpr uint64_t const& __cordl_internal_get_BytesTotal() const;
 
-  constexpr void __set_BytesTotal(uint64_t value);
+  constexpr void __cordl_internal_set_BytesTotal(uint64_t value);
 
-  constexpr int64_t& __get_BytesTransferred();
+  constexpr int64_t& __cordl_internal_get_BytesTransferred();
 
-  constexpr int64_t const& __get_BytesTransferred() const;
+  constexpr int64_t const& __cordl_internal_get_BytesTransferred() const;
 
-  constexpr void __set_BytesTransferred(int64_t value);
+  constexpr void __cordl_internal_set_BytesTransferred(int64_t value);
 
-  constexpr bool& __get_Completed();
+  constexpr bool& __cordl_internal_get_Completed();
 
-  constexpr bool const& __get_Completed() const;
+  constexpr bool const& __cordl_internal_get_Completed() const;
 
-  constexpr void __set_Completed(bool value);
+  constexpr void __cordl_internal_set_Completed(bool value);
 
   static inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* New_ctor(void* o);
 

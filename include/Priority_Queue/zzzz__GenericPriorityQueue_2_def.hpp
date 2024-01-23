@@ -55,23 +55,23 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6094))
 // CS Name: ::GenericPriorityQueue`2::<GetEnumerator>d__25<TItem,TPriority>*
 class CORDL_TYPE __GenericPriorityQueue_2___GetEnumerator_d__25 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) TItem __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TItem __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_TItem__get_Current)) TItem System_Collections_Generic_IEnumerator_TItem__Current;
 
@@ -95,29 +95,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr TItem& __get___2__current();
+  constexpr TItem& __cordl_internal_get___2__current();
 
-  constexpr TItem const& __get___2__current() const;
+  constexpr TItem const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(TItem value);
+  constexpr void __cordl_internal_set___2__current(TItem value);
 
-  constexpr ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>*& __get___4__this();
+  constexpr ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* value);
+  constexpr void __cordl_internal_set___4__this(::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>* New_ctor(int32_t __1__state);
 
@@ -175,7 +175,7 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6095))
 // CS Name: ::Priority_Queue::GenericPriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE GenericPriorityQueue_2 : public ::System::Object {
@@ -184,16 +184,16 @@ public:
   using _GetEnumerator_d__25 = ::Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>;
 
   /// @brief Field _numNodes, offset 0x10, size 0x4
-  __declspec(property(get = __get__numNodes, put = __set__numNodes)) int32_t _numNodes;
+  __declspec(property(get = __cordl_internal_get__numNodes, put = __cordl_internal_set__numNodes)) int32_t _numNodes;
 
   /// @brief Field _nodes, offset 0x18, size 0x8
-  __declspec(property(get = __get__nodes, put = __set__nodes))::ArrayW<TItem, ::Array<TItem>*> _nodes;
+  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes))::ArrayW<TItem, ::Array<TItem>*> _nodes;
 
   /// @brief Field _numNodesEverEnqueued, offset 0x20, size 0x8
-  __declspec(property(get = __get__numNodesEverEnqueued, put = __set__numNodesEverEnqueued)) int64_t _numNodesEverEnqueued;
+  __declspec(property(get = __cordl_internal_get__numNodesEverEnqueued, put = __cordl_internal_set__numNodesEverEnqueued)) int64_t _numNodesEverEnqueued;
 
   /// @brief Field _comparer, offset 0x28, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Comparison_1<TPriority>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Comparison_1<TPriority>* _comparer;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -225,29 +225,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr int32_t& __get__numNodes();
+  constexpr int32_t& __cordl_internal_get__numNodes();
 
-  constexpr int32_t const& __get__numNodes() const;
+  constexpr int32_t const& __cordl_internal_get__numNodes() const;
 
-  constexpr void __set__numNodes(int32_t value);
+  constexpr void __cordl_internal_set__numNodes(int32_t value);
 
-  constexpr ::ArrayW<TItem, ::Array<TItem>*>& __get__nodes();
+  constexpr ::ArrayW<TItem, ::Array<TItem>*>& __cordl_internal_get__nodes();
 
-  constexpr ::ArrayW<TItem, ::Array<TItem>*> const& __get__nodes() const;
+  constexpr ::ArrayW<TItem, ::Array<TItem>*> const& __cordl_internal_get__nodes() const;
 
-  constexpr void __set__nodes(::ArrayW<TItem, ::Array<TItem>*> value);
+  constexpr void __cordl_internal_set__nodes(::ArrayW<TItem, ::Array<TItem>*> value);
 
-  constexpr int64_t& __get__numNodesEverEnqueued();
+  constexpr int64_t& __cordl_internal_get__numNodesEverEnqueued();
 
-  constexpr int64_t const& __get__numNodesEverEnqueued() const;
+  constexpr int64_t const& __cordl_internal_get__numNodesEverEnqueued() const;
 
-  constexpr void __set__numNodesEverEnqueued(int64_t value);
+  constexpr void __cordl_internal_set__numNodesEverEnqueued(int64_t value);
 
-  constexpr ::System::Comparison_1<TPriority>*& __get__comparer();
+  constexpr ::System::Comparison_1<TPriority>*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<TPriority>*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<TPriority>*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Comparison_1<TPriority>* value);
+  constexpr void __cordl_internal_set__comparer(::System::Comparison_1<TPriority>* value);
 
   static inline ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* New_ctor(int32_t maxNodes);
 

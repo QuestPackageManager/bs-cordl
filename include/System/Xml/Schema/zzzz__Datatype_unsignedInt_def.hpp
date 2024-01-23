@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_unsignedInt);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11672))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11672))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11673))
 // CS Name: ::System.Xml.Schema::Datatype_unsignedInt*
 class CORDL_TYPE Datatype_unsignedInt : public ::System::Xml::Schema::Datatype_unsignedLong {

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SoloModeSelectionViewController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5764))
 // CS Name: ::SoloModeSelectionViewController::MenuType
 struct CORDL_TYPE __SoloModeSelectionViewController__MenuType {
@@ -87,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__SoloModeSelectionViewController__Men
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5765))
 // CS Name: ::SoloModeSelectionViewController*
 class CORDL_TYPE SoloModeSelectionViewController : public ::HMUI::ViewController {
@@ -96,58 +96,60 @@ public:
   using MenuType = ::GlobalNamespace::__SoloModeSelectionViewController__MenuType;
 
   /// @brief Field _freePlayModeButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__freePlayModeButton, put = __set__freePlayModeButton))::UnityEngine::UI::Button* _freePlayModeButton;
+  __declspec(property(get = __cordl_internal_get__freePlayModeButton, put = __cordl_internal_set__freePlayModeButton))::UnityW<::UnityEngine::UI::Button> _freePlayModeButton;
 
   /// @brief Field _oneSaberModeButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__oneSaberModeButton, put = __set__oneSaberModeButton))::UnityEngine::UI::Button* _oneSaberModeButton;
+  __declspec(property(get = __cordl_internal_get__oneSaberModeButton, put = __cordl_internal_set__oneSaberModeButton))::UnityW<::UnityEngine::UI::Button> _oneSaberModeButton;
 
   /// @brief Field _noArrowsModeButton, offset 0x80, size 0x8
-  __declspec(property(get = __get__noArrowsModeButton, put = __set__noArrowsModeButton))::UnityEngine::UI::Button* _noArrowsModeButton;
+  __declspec(property(get = __cordl_internal_get__noArrowsModeButton, put = __cordl_internal_set__noArrowsModeButton))::UnityW<::UnityEngine::UI::Button> _noArrowsModeButton;
 
   /// @brief Field _dismissButton, offset 0x88, size 0x8
-  __declspec(property(get = __get__dismissButton, put = __set__dismissButton))::UnityEngine::UI::Button* _dismissButton;
+  __declspec(property(get = __cordl_internal_get__dismissButton, put = __cordl_internal_set__dismissButton))::UnityW<::UnityEngine::UI::Button> _dismissButton;
 
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
-  __declspec(
-      property(get = __get_didFinishEvent,
-               put = __set_didFinishEvent))::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>,
+                                                                                    ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* didFinishEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__freePlayModeButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__freePlayModeButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__freePlayModeButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__freePlayModeButton() const;
 
-  constexpr void __set__freePlayModeButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__freePlayModeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__oneSaberModeButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__oneSaberModeButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__oneSaberModeButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__oneSaberModeButton() const;
 
-  constexpr void __set__oneSaberModeButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__oneSaberModeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__noArrowsModeButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__noArrowsModeButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__noArrowsModeButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__noArrowsModeButton() const;
 
-  constexpr void __set__noArrowsModeButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__noArrowsModeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__dismissButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__dismissButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__dismissButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__dismissButton() const;
 
-  constexpr void __set__dismissButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__dismissButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*& __get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*> const&
-  __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<
+      ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*> const&
+  __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
+  constexpr void
+  __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22dbc38, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x22dbce8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
   /// @brief Method DidActivate, addr 0x22dbd98, size 0x1b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -187,19 +189,19 @@ protected:
 
 public:
   /// @brief Field _freePlayModeButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____freePlayModeButton;
+  ::UnityW<::UnityEngine::UI::Button> ____freePlayModeButton;
 
   /// @brief Field _oneSaberModeButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____oneSaberModeButton;
+  ::UnityW<::UnityEngine::UI::Button> ____oneSaberModeButton;
 
   /// @brief Field _noArrowsModeButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____noArrowsModeButton;
+  ::UnityW<::UnityEngine::UI::Button> ____noArrowsModeButton;
 
   /// @brief Field _dismissButton, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____dismissButton;
+  ::UnityW<::UnityEngine::UI::Button> ____dismissButton;
 
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

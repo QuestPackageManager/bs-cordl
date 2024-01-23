@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ManagedGameplayServerFiniteStateMachine);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12762))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12762))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12766))
 // CS Name: ::ManagedGameplayServerFiniteStateMachine*
 class CORDL_TYPE ManagedGameplayServerFiniteStateMachine : public ::GlobalNamespace::GameplayServerFiniteStateMachine {

@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::PemUtilities);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1687))
 // CS Name: ::PemUtilities::PemBaseAlg
 struct CORDL_TYPE __PemUtilities__PemBaseAlg {
@@ -118,7 +118,7 @@ static_assert(offsetof(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1688))
 // CS Name: ::PemUtilities::PemMode
 struct CORDL_TYPE __PemUtilities__PemMode {
@@ -176,7 +176,7 @@ static_assert(offsetof(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode, va
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1689))
 // CS Name: ::Org.BouncyCastle.OpenSsl::PemUtilities*
 class CORDL_TYPE PemUtilities : public ::System::Object {

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::VisibleToOtherModulesAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16012))
 // CS Name: ::UnityEngine.Bindings::VisibleToOtherModulesAttribute*
 class CORDL_TYPE VisibleToOtherModulesAttribute : public ::System::Attribute {

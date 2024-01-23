@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::System::Collections::Generic::BitHelper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14311))
 // CS Name: ::System.Collections.Generic::BitHelper*
 class CORDL_TYPE BitHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _length, offset 0x10, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) int32_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   /// @brief Field _arrayPtr, offset 0x18, size 0x8
-  __declspec(property(get = __get__arrayPtr, put = __set__arrayPtr))::cordl_internals::Ptr<int32_t> _arrayPtr;
+  __declspec(property(get = __cordl_internal_get__arrayPtr, put = __cordl_internal_set__arrayPtr))::cordl_internals::Ptr<int32_t> _arrayPtr;
 
   /// @brief Field _array, offset 0x20, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::ArrayW<int32_t, ::Array<int32_t>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<int32_t, ::Array<int32_t>*> _array;
 
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
-  __declspec(property(get = __get__useStackAlloc, put = __set__useStackAlloc)) bool _useStackAlloc;
+  __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  constexpr int32_t& __get__length();
+  constexpr int32_t& __cordl_internal_get__length();
 
-  constexpr int32_t const& __get__length() const;
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int32_t value);
+  constexpr void __cordl_internal_set__length(int32_t value);
 
-  constexpr ::cordl_internals::Ptr<int32_t>& __get__arrayPtr();
+  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__arrayPtr();
 
-  constexpr ::cordl_internals::Ptr<int32_t> const& __get__arrayPtr() const;
+  constexpr ::cordl_internals::Ptr<int32_t> const& __cordl_internal_get__arrayPtr() const;
 
-  constexpr void __set__arrayPtr(::cordl_internals::Ptr<int32_t> value);
+  constexpr void __cordl_internal_set__arrayPtr(::cordl_internals::Ptr<int32_t> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__array();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__array();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__array() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__array(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get__useStackAlloc();
+  constexpr bool& __cordl_internal_get__useStackAlloc();
 
-  constexpr bool const& __get__useStackAlloc() const;
+  constexpr bool const& __cordl_internal_get__useStackAlloc() const;
 
-  constexpr void __set__useStackAlloc(bool value);
+  constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 

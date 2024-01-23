@@ -25,20 +25,20 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10864))
 // CS Name: ::Zenject::PlaceholderFactoryBindingFinalizer`1<TContract>*
 class CORDL_TYPE PlaceholderFactoryBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:
   // Declarations
   /// @brief Field _factoryBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__factoryBindInfo, put = __set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
+  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
 
-  constexpr ::Zenject::FactoryBindInfo*& __get__factoryBindInfo();
+  constexpr ::Zenject::FactoryBindInfo*& __cordl_internal_get__factoryBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __get__factoryBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __cordl_internal_get__factoryBindInfo() const;
 
-  constexpr void __set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
+  constexpr void __cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
 
   static inline ::Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 

@@ -21,7 +21,7 @@ namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14282))
 // CS Name: ::System.Linq::IGrouping`2<TKey,TElement>*
 class CORDL_TYPE IGrouping_2 {

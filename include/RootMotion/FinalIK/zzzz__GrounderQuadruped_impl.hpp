@@ -18,26 +18,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x1249b74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolver*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolver*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
     return ___internal_method;
   }
 };
 inline void RootMotion::FinalIK::__GrounderQuadruped__Foot::_ctor(::RootMotion::FinalIK::IKSolver* solver, ::UnityEngine::Transform* transform) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolver*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolver*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, solver, transform);
 }
-// Ctor Parameters [CppParam { name: "solver", ty: "::RootMotion::FinalIK::IKSolver*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "transform", ty: "::UnityEngine::Transform*",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "leg", ty:
-// "::RootMotion::FinalIK::__Grounding__Leg*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::RootMotion::FinalIK::__GrounderQuadruped__Foot::__GrounderQuadruped__Foot(::RootMotion::FinalIK::IKSolver* solver, ::UnityEngine::Transform* transform, ::UnityEngine::Quaternion rotation,
-                                                                                      ::RootMotion::FinalIK::__Grounding__Leg* leg) noexcept {
+// Ctor Parameters [CppParam { name: "solver", ty: "::RootMotion::FinalIK::IKSolver*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "transform", ty:
+// "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "leg", ty: "::RootMotion::FinalIK::__Grounding__Leg*", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::RootMotion::FinalIK::__GrounderQuadruped__Foot::__GrounderQuadruped__Foot(::RootMotion::FinalIK::IKSolver* solver, ::UnityW<::UnityEngine::Transform> transform,
+                                                                                      ::UnityEngine::Quaternion rotation, ::RootMotion::FinalIK::__Grounding__Leg* leg) noexcept {
   this->solver = solver;
   this->transform = transform;
   this->rotation = rotation;
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x12490b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), 5));
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x12490fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), 6));
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x1249140;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), 4));
@@ -95,9 +95,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x1249168;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
-                                                                               "IsReadyToInitiate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "IsReadyToInitiate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -109,10 +109,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e4;
   constexpr static std::size_t addrs = 0x124926c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "IsReadyToInitiateLegs", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "IsReadyToInitiateLegs", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -123,9 +123,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x1249450;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "OnDisable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -136,9 +136,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x12494b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -149,26 +149,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x314;
   constexpr static std::size_t addrs = 0x124950c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "Initiate",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::RootMotion::FinalIK::GrounderQuadruped.InitiateFeet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> (
     ::RootMotion::FinalIK::GrounderQuadruped::*)(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>,
                                                  ByRef<::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>>, int32_t)>(
     &::RootMotion::FinalIK::GrounderQuadruped::InitiateFeet)> {
   constexpr static std::size_t size = 0x354;
   constexpr static std::size_t addrs = 0x1249820;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "InitiateFeet", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "InitiateFeet", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -182,9 +182,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x1249ba8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "LateUpdate",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -195,9 +195,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x450;
   constexpr static std::size_t addrs = 0x1249c38;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "RootRotation",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -208,9 +208,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c0;
   constexpr static std::size_t addrs = 0x124a088;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
-                                                                               "OnSolverUpdate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "OnSolverUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -222,9 +222,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2b8;
   constexpr static std::size_t addrs = 0x124a748;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
-                                                                               "UpdateForefeetRoot", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "UpdateForefeetRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -236,11 +236,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x124aa00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "SetFootIK", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "SetFootIK", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -252,9 +252,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c8;
   constexpr static std::size_t addrs = 0x124ab34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
-                                                                               "OnPostSolverUpdate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "OnPostSolverUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -265,9 +265,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x124adfc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "OnDestroy",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -279,10 +279,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x124ae2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "DestroyLegs", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "DestroyLegs", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -293,357 +293,359 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x124b028;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::RootMotion::FinalIK::Grounding*& RootMotion::FinalIK::GrounderQuadruped::__get_forelegSolver() {
+constexpr ::RootMotion::FinalIK::Grounding*& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_forelegSolver() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forelegSolver;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& RootMotion::FinalIK::GrounderQuadruped::__get_forelegSolver() const {
+constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_forelegSolver() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forelegSolver;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_forelegSolver(::RootMotion::FinalIK::Grounding* value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_forelegSolver(::RootMotion::FinalIK::Grounding* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___forelegSolver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_rootRotationWeight() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_rootRotationWeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootRotationWeight;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_rootRotationWeight() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_rootRotationWeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootRotationWeight;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_rootRotationWeight(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_rootRotationWeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootRotationWeight = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_minRootRotation() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_minRootRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minRootRotation;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_minRootRotation() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_minRootRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minRootRotation;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_minRootRotation(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_minRootRotation(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minRootRotation = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_maxRootRotation() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maxRootRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRootRotation;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_maxRootRotation() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maxRootRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRootRotation;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_maxRootRotation(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_maxRootRotation(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxRootRotation = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_rootRotationSpeed() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_rootRotationSpeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootRotationSpeed;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_rootRotationSpeed() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_rootRotationSpeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootRotationSpeed;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_rootRotationSpeed(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_rootRotationSpeed(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootRotationSpeed = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_maxLegOffset() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maxLegOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxLegOffset;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_maxLegOffset() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maxLegOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxLegOffset;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_maxLegOffset(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_maxLegOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxLegOffset = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_maxForeLegOffset() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maxForeLegOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxForeLegOffset;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_maxForeLegOffset() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maxForeLegOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxForeLegOffset;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_maxForeLegOffset(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_maxForeLegOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxForeLegOffset = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_maintainHeadRotationWeight() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maintainHeadRotationWeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainHeadRotationWeight;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_maintainHeadRotationWeight() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_maintainHeadRotationWeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainHeadRotationWeight;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_maintainHeadRotationWeight(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_maintainHeadRotationWeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainHeadRotationWeight = value;
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::GrounderQuadruped::__get_characterRoot() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_characterRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterRoot;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::GrounderQuadruped::__get_characterRoot() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_characterRoot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterRoot;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_characterRoot(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_characterRoot(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___characterRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::GrounderQuadruped::__get_pelvis() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_pelvis() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvis;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::GrounderQuadruped::__get_pelvis() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_pelvis() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvis;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_pelvis(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_pelvis(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pelvis)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::GrounderQuadruped::__get_lastSpineBone() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_lastSpineBone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSpineBone;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::GrounderQuadruped::__get_lastSpineBone() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_lastSpineBone() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSpineBone;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_lastSpineBone(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_lastSpineBone(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastSpineBone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::GrounderQuadruped::__get_head() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_head() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::GrounderQuadruped::__get_head() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_head() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_head(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_head(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>& RootMotion::FinalIK::GrounderQuadruped::__get_legs() {
+constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_legs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___legs;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> const& RootMotion::FinalIK::GrounderQuadruped::__get_legs() const {
+constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_legs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___legs;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_legs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_legs(::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___legs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>& RootMotion::FinalIK::GrounderQuadruped::__get_forelegs() {
+constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_forelegs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forelegs;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> const& RootMotion::FinalIK::GrounderQuadruped::__get_forelegs() const {
+constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_forelegs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forelegs;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_forelegs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_forelegs(::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___forelegs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::GrounderQuadruped::__get_gravity() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_gravity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gravity;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::GrounderQuadruped::__get_gravity() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_gravity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gravity;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_gravity(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_gravity(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gravity = value;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>& RootMotion::FinalIK::GrounderQuadruped::__get_feet() {
+constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_feet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___feet;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*> const& RootMotion::FinalIK::GrounderQuadruped::__get_feet() const {
+constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*> const&
+RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_feet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___feet;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_feet(::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*> value) {
+constexpr void
+RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_feet(::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___feet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::GrounderQuadruped::__get_animatedPelvisLocalPosition() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_animatedPelvisLocalPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedPelvisLocalPosition;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::GrounderQuadruped::__get_animatedPelvisLocalPosition() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_animatedPelvisLocalPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedPelvisLocalPosition;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___animatedPelvisLocalPosition = value;
 }
-constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__get_animatedPelvisLocalRotation() {
+constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_animatedPelvisLocalRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedPelvisLocalRotation;
 }
-constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__get_animatedPelvisLocalRotation() const {
+constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_animatedPelvisLocalRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedPelvisLocalRotation;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_animatedPelvisLocalRotation(::UnityEngine::Quaternion value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_animatedPelvisLocalRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___animatedPelvisLocalRotation = value;
 }
-constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__get_animatedHeadLocalRotation() {
+constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_animatedHeadLocalRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedHeadLocalRotation;
 }
-constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__get_animatedHeadLocalRotation() const {
+constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_animatedHeadLocalRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedHeadLocalRotation;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_animatedHeadLocalRotation(::UnityEngine::Quaternion value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_animatedHeadLocalRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___animatedHeadLocalRotation = value;
 }
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::GrounderQuadruped::__get_solvedPelvisLocalPosition() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedPelvisLocalPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedPelvisLocalPosition;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::GrounderQuadruped::__get_solvedPelvisLocalPosition() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedPelvisLocalPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedPelvisLocalPosition;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___solvedPelvisLocalPosition = value;
 }
-constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__get_solvedPelvisLocalRotation() {
+constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedPelvisLocalRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedPelvisLocalRotation;
 }
-constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__get_solvedPelvisLocalRotation() const {
+constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedPelvisLocalRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedPelvisLocalRotation;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_solvedPelvisLocalRotation(::UnityEngine::Quaternion value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_solvedPelvisLocalRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___solvedPelvisLocalRotation = value;
 }
-constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__get_solvedHeadLocalRotation() {
+constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedHeadLocalRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedHeadLocalRotation;
 }
-constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__get_solvedHeadLocalRotation() const {
+constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedHeadLocalRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedHeadLocalRotation;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_solvedHeadLocalRotation(::UnityEngine::Quaternion value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_solvedHeadLocalRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___solvedHeadLocalRotation = value;
 }
-constexpr int32_t& RootMotion::FinalIK::GrounderQuadruped::__get_solvedFeet() {
+constexpr int32_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedFeet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedFeet;
 }
-constexpr int32_t const& RootMotion::FinalIK::GrounderQuadruped::__get_solvedFeet() const {
+constexpr int32_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solvedFeet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedFeet;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_solvedFeet(int32_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_solvedFeet(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___solvedFeet = value;
 }
-constexpr bool& RootMotion::FinalIK::GrounderQuadruped::__get_solved() {
+constexpr bool& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solved() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solved;
 }
-constexpr bool const& RootMotion::FinalIK::GrounderQuadruped::__get_solved() const {
+constexpr bool const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_solved() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solved;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_solved(bool value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_solved(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___solved = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_angle() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_angle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angle;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_angle() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_angle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angle;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_angle(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_angle(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___angle = value;
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::GrounderQuadruped::__get_forefeetRoot() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_forefeetRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forefeetRoot;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::GrounderQuadruped::__get_forefeetRoot() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_forefeetRoot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forefeetRoot;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_forefeetRoot(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_forefeetRoot(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___forefeetRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__get_headRotation() {
+constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_headRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headRotation;
 }
-constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__get_headRotation() const {
+constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_headRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headRotation;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_headRotation(::UnityEngine::Quaternion value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_headRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headRotation = value;
 }
-constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__get_lastWeight() {
+constexpr float_t& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_lastWeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastWeight;
 }
-constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__get_lastWeight() const {
+constexpr float_t const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_lastWeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastWeight;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_lastWeight(float_t value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_lastWeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastWeight = value;
 }
-constexpr ::UnityEngine::Rigidbody*& RootMotion::FinalIK::GrounderQuadruped::__get_characterRootRigidbody() {
+constexpr ::UnityW<::UnityEngine::Rigidbody>& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_characterRootRigidbody() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterRootRigidbody;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& RootMotion::FinalIK::GrounderQuadruped::__get_characterRootRigidbody() const {
+constexpr ::UnityW<::UnityEngine::Rigidbody> const& RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_get_characterRootRigidbody() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterRootRigidbody;
 }
-constexpr void RootMotion::FinalIK::GrounderQuadruped::__set_characterRootRigidbody(::UnityEngine::Rigidbody* value) {
+constexpr void RootMotion::FinalIK::GrounderQuadruped::__cordl_internal_set_characterRootRigidbody(::UnityW<::UnityEngine::Rigidbody> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___characterRootRigidbody)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -664,91 +666,91 @@ inline void RootMotion::FinalIK::GrounderQuadruped::ResetPosition() {
 }
 inline bool RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
-                                                                             "IsReadyToInitiate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "IsReadyToInitiate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiateLegs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "IsReadyToInitiateLegs", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "IsReadyToInitiateLegs", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ikComponents);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "OnDisable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::Initiate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "Initiate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>
+inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
 RootMotion::FinalIK::GrounderQuadruped::InitiateFeet(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents,
                                                      ByRef<::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>> f,
                                                      int32_t indexOffset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "InitiateFeet", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "InitiateFeet", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>, false>(this, ___internal_method, ikComponents, f, indexOffset);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>, false>(this, ___internal_method, ikComponents, f, indexOffset);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::LateUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "LateUpdate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::RootRotation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "RootRotation",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::OnSolverUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "OnSolverUpdate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::UpdateForefeetRoot() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
-                                                                             "UpdateForefeetRoot", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "UpdateForefeetRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::SetFootIK(::RootMotion::FinalIK::__GrounderQuadruped__Foot foot, float_t maxOffset) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "SetFootIK", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "SetFootIK", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::__GrounderQuadruped__Foot>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, foot, maxOffset);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::OnPostSolverUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
-                                                                             "OnPostSolverUpdate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "OnPostSolverUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "OnDestroy",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::DestroyLegs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "DestroyLegs", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "DestroyLegs", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ikComponents);
 }
 inline ::RootMotion::FinalIK::GrounderQuadruped* RootMotion::FinalIK::GrounderQuadruped::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::GrounderQuadruped*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::GrounderQuadruped*>());
 }
 inline void RootMotion::FinalIK::GrounderQuadruped::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

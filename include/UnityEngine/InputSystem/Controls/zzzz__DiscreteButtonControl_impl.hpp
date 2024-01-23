@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x2b0a588;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>::get(),
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2b0a634;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>::get(),
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x2b0a6d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>::get(),
@@ -68,70 +68,70 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2b0a7c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_minValue() {
+constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_minValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
-constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_minValue() const {
+constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_minValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
-constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__set_minValue(int32_t value) {
+constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_set_minValue(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minValue = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_maxValue() {
+constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_maxValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
-constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_maxValue() const {
+constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_maxValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
-constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__set_maxValue(int32_t value) {
+constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_set_maxValue(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxValue = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_wrapAtValue() {
+constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_wrapAtValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapAtValue;
 }
-constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_wrapAtValue() const {
+constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_wrapAtValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapAtValue;
 }
-constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__set_wrapAtValue(int32_t value) {
+constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_set_wrapAtValue(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wrapAtValue = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_nullValue() {
+constexpr int32_t& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_nullValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nullValue;
 }
-constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_nullValue() const {
+constexpr int32_t const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_nullValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nullValue;
 }
-constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__set_nullValue(int32_t value) {
+constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_set_nullValue(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nullValue = value;
 }
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_writeMode() {
+constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_writeMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeMode;
 }
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__get_writeMode() const {
+constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_writeMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeMode;
 }
-constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value) {
+constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writeMode = value;
 }
@@ -154,12 +154,12 @@ inline void UnityEngine::InputSystem::Controls::DiscreteButtonControl::WriteValu
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, statePtr);
 }
 inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* UnityEngine::InputSystem::Controls::DiscreteButtonControl::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>());
 }
 inline void UnityEngine::InputSystem::Controls::DiscreteButtonControl::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementUpdate);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13411))
 // CS Name: ::Oculus.Platform.Models::AchievementUpdate*
 class CORDL_TYPE AchievementUpdate : public ::System::Object {
 public:
   // Declarations
   /// @brief Field JustUnlocked, offset 0x10, size 0x1
-  __declspec(property(get = __get_JustUnlocked, put = __set_JustUnlocked)) bool JustUnlocked;
+  __declspec(property(get = __cordl_internal_get_JustUnlocked, put = __cordl_internal_set_JustUnlocked)) bool JustUnlocked;
 
   /// @brief Field Name, offset 0x18, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
-  constexpr bool& __get_JustUnlocked();
+  constexpr bool& __cordl_internal_get_JustUnlocked();
 
-  constexpr bool const& __get_JustUnlocked() const;
+  constexpr bool const& __cordl_internal_get_JustUnlocked() const;
 
-  constexpr void __set_JustUnlocked(bool value);
+  constexpr void __cordl_internal_set_JustUnlocked(bool value);
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
   static inline ::Oculus::Platform::Models::AchievementUpdate* New_ctor(void* o);
 

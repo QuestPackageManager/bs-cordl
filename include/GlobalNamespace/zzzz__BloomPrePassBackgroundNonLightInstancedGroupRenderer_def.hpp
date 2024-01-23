@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroup
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14462))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer::PropertyType
 struct CORDL_TYPE __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType {
@@ -114,38 +114,39 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstan
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14462)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14462))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14461))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty*
 class CORDL_TYPE __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty : public ::System::Object {
 public:
   // Declarations
   /// @brief Field propertyType, offset 0x10, size 0x4
-  __declspec(property(get = __get_propertyType, put = __set_propertyType))::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType propertyType;
+  __declspec(property(get = __cordl_internal_get_propertyType,
+                      put = __cordl_internal_set_propertyType))::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType propertyType;
 
   /// @brief Field propertyName, offset 0x18, size 0x8
-  __declspec(property(get = __get_propertyName, put = __set_propertyName))::StringW propertyName;
+  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
   /// @brief Field propertyId, offset 0x20, size 0x4
-  __declspec(property(get = __get_propertyId, put = __set_propertyId)) int32_t propertyId;
+  __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  constexpr ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType& __get_propertyType();
+  constexpr ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType& __cordl_internal_get_propertyType();
 
-  constexpr ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType const& __get_propertyType() const;
+  constexpr ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType const& __cordl_internal_get_propertyType() const;
 
-  constexpr void __set_propertyType(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType value);
+  constexpr void __cordl_internal_set_propertyType(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType value);
 
-  constexpr ::StringW& __get_propertyName();
+  constexpr ::StringW& __cordl_internal_get_propertyName();
 
-  constexpr ::StringW const& __get_propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
 
-  constexpr void __set_propertyName(::StringW value);
+  constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  constexpr int32_t& __get_propertyId();
+  constexpr int32_t& __cordl_internal_get_propertyId();
 
-  constexpr int32_t const& __get_propertyId() const;
+  constexpr int32_t const& __cordl_internal_get_propertyId() const;
 
-  constexpr void __set_propertyId(int32_t value);
+  constexpr void __cordl_internal_set_propertyId(int32_t value);
 
   static inline ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty* New_ctor();
 
@@ -191,7 +192,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstan
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14478))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14478))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14463))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightInstancedGroupRenderer : public ::GlobalNamespace::BloomPrePassNonLightPass {
@@ -202,104 +203,109 @@ public:
   using SupportedProperty = ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
 
   /// @brief Field _renderers, offset 0x20, size 0x8
-  __declspec(property(get = __get__renderers,
-                      put = __set__renderers))::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*, ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>*> _renderers;
+  __declspec(property(get = __cordl_internal_get__renderers, put = __cordl_internal_set__renderers))::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>,
+                                                                                                             ::Array<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>>*> _renderers;
 
   /// @brief Field _supportedProperties, offset 0x28, size 0x8
-  __declspec(property(get = __get__supportedProperties,
-                      put = __set__supportedProperties))::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*,
-                                                                 ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*> _supportedProperties;
+  __declspec(
+      property(get = __cordl_internal_get__supportedProperties,
+               put = __cordl_internal_set__supportedProperties))::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*,
+                                                                         ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*> _supportedProperties;
 
   /// @brief Field _reusableFloatArrays, offset 0x30, size 0x8
-  __declspec(property(get = __get__reusableFloatArrays,
-                      put = __set__reusableFloatArrays))::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>* _reusableFloatArrays;
+  __declspec(property(get = __cordl_internal_get__reusableFloatArrays,
+                      put = __cordl_internal_set__reusableFloatArrays))::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>* _reusableFloatArrays;
 
   /// @brief Field _reusableVectorArrays, offset 0x38, size 0x8
-  __declspec(
-      property(get = __get__reusableVectorArrays,
-               put = __set__reusableVectorArrays))::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>* _reusableVectorArrays;
+  __declspec(property(get = __cordl_internal_get__reusableVectorArrays, put = __cordl_internal_set__reusableVectorArrays))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>* _reusableVectorArrays;
 
   /// @brief Field _reusableMatrixArrays, offset 0x40, size 0x8
-  __declspec(property(
-      get = __get__reusableMatrixArrays,
-      put = __set__reusableMatrixArrays))::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>* _reusableMatrixArrays;
+  __declspec(property(get = __cordl_internal_get__reusableMatrixArrays, put = __cordl_internal_set__reusableMatrixArrays))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>* _reusableMatrixArrays;
 
   /// @brief Field _reusableArraysSize, offset 0x48, size 0x4
-  __declspec(property(get = __get__reusableArraysSize, put = __set__reusableArraysSize)) int32_t _reusableArraysSize;
+  __declspec(property(get = __cordl_internal_get__reusableArraysSize, put = __cordl_internal_set__reusableArraysSize)) int32_t _reusableArraysSize;
 
   /// @brief Field _commandBuffer, offset 0x50, size 0x8
-  __declspec(property(get = __get__commandBuffer, put = __set__commandBuffer))::UnityEngine::Rendering::CommandBuffer* _commandBuffer;
+  __declspec(property(get = __cordl_internal_get__commandBuffer, put = __cordl_internal_set__commandBuffer))::UnityEngine::Rendering::CommandBuffer* _commandBuffer;
 
   /// @brief Field _reusableSetMaterialPropertyBlock, offset 0x58, size 0x8
-  __declspec(property(get = __get__reusableSetMaterialPropertyBlock, put = __set__reusableSetMaterialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _reusableSetMaterialPropertyBlock;
+  __declspec(property(get = __cordl_internal_get__reusableSetMaterialPropertyBlock,
+                      put = __cordl_internal_set__reusableSetMaterialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _reusableSetMaterialPropertyBlock;
 
   /// @brief Field _reusableGetMaterialPropertyBlock, offset 0x60, size 0x8
-  __declspec(property(get = __get__reusableGetMaterialPropertyBlock, put = __set__reusableGetMaterialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _reusableGetMaterialPropertyBlock;
+  __declspec(property(get = __cordl_internal_get__reusableGetMaterialPropertyBlock,
+                      put = __cordl_internal_set__reusableGetMaterialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _reusableGetMaterialPropertyBlock;
 
   /// @brief Field _worldSpaceCameraPosID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__worldSpaceCameraPosID, put = setStaticF__worldSpaceCameraPosID)) int32_t _worldSpaceCameraPosID;
 
-  constexpr ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*, ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>*>& __get__renderers();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>, ::Array<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>>*>&
+  __cordl_internal_get__renderers();
 
-  constexpr ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*, ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>*> const& __get__renderers() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>, ::Array<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>>*> const&
+  __cordl_internal_get__renderers() const;
 
-  constexpr void __set__renderers(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*, ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>*> value);
+  constexpr void
+  __cordl_internal_set__renderers(::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>, ::Array<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>>*> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*,
                      ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*>&
-  __get__supportedProperties();
+  __cordl_internal_get__supportedProperties();
 
   constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*,
                      ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*> const&
-  __get__supportedProperties() const;
+  __cordl_internal_get__supportedProperties() const;
 
-  constexpr void __set__supportedProperties(::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*,
-                                                     ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*>
-                                                value);
+  constexpr void __cordl_internal_set__supportedProperties(::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*,
+                                                                    ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*>
+                                                               value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>*& __get__reusableFloatArrays();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>*& __cordl_internal_get__reusableFloatArrays();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>*> const& __get__reusableFloatArrays() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>*> const&
+  __cordl_internal_get__reusableFloatArrays() const;
 
-  constexpr void __set__reusableFloatArrays(::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>* value);
+  constexpr void __cordl_internal_set__reusableFloatArrays(::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>*& __get__reusableVectorArrays();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>*& __cordl_internal_get__reusableVectorArrays();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>*> const&
-  __get__reusableVectorArrays() const;
+  __cordl_internal_get__reusableVectorArrays() const;
 
-  constexpr void __set__reusableVectorArrays(::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>* value);
+  constexpr void __cordl_internal_set__reusableVectorArrays(::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>*& __get__reusableMatrixArrays();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>*& __cordl_internal_get__reusableMatrixArrays();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>*> const&
-  __get__reusableMatrixArrays() const;
+  __cordl_internal_get__reusableMatrixArrays() const;
 
-  constexpr void __set__reusableMatrixArrays(::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>* value);
+  constexpr void __cordl_internal_set__reusableMatrixArrays(::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>* value);
 
-  constexpr int32_t& __get__reusableArraysSize();
+  constexpr int32_t& __cordl_internal_get__reusableArraysSize();
 
-  constexpr int32_t const& __get__reusableArraysSize() const;
+  constexpr int32_t const& __cordl_internal_get__reusableArraysSize() const;
 
-  constexpr void __set__reusableArraysSize(int32_t value);
+  constexpr void __cordl_internal_set__reusableArraysSize(int32_t value);
 
-  constexpr ::UnityEngine::Rendering::CommandBuffer*& __get__commandBuffer();
+  constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__commandBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& __get__commandBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& __cordl_internal_get__commandBuffer() const;
 
-  constexpr void __set__commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
+  constexpr void __cordl_internal_set__commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  constexpr ::UnityEngine::MaterialPropertyBlock*& __get__reusableSetMaterialPropertyBlock();
+  constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get__reusableSetMaterialPropertyBlock();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __get__reusableSetMaterialPropertyBlock() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get__reusableSetMaterialPropertyBlock() const;
 
-  constexpr void __set__reusableSetMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
+  constexpr void __cordl_internal_set__reusableSetMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
-  constexpr ::UnityEngine::MaterialPropertyBlock*& __get__reusableGetMaterialPropertyBlock();
+  constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get__reusableGetMaterialPropertyBlock();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __get__reusableGetMaterialPropertyBlock() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get__reusableGetMaterialPropertyBlock() const;
 
-  constexpr void __set__reusableGetMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
+  constexpr void __cordl_internal_set__reusableGetMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
   static inline void setStaticF__worldSpaceCameraPosID(int32_t value);
 
@@ -346,7 +352,7 @@ protected:
 
 public:
   /// @brief Field _renderers, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*, ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>*> ____renderers;
+  ::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>, ::Array<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>>*> ____renderers;
 
   /// @brief Field _supportedProperties, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*,

@@ -63,87 +63,90 @@ MARK_REF_PTR_T(::VRUIControls::VRInputModule);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13199))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13199))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15676))
 // CS Name: ::VRUIControls::VRInputModule*
 class CORDL_TYPE VRInputModule : public ::UnityEngine::EventSystems::BaseInputModule {
 public:
   // Declarations
   /// @brief Field _vrPointer, offset 0x50, size 0x8
-  __declspec(property(get = __get__vrPointer, put = __set__vrPointer))::VRUIControls::VRPointer* _vrPointer;
+  __declspec(property(get = __cordl_internal_get__vrPointer, put = __cordl_internal_set__vrPointer))::UnityW<::VRUIControls::VRPointer> _vrPointer;
 
   /// @brief Field _rumblePreset, offset 0x58, size 0x8
-  __declspec(property(get = __get__rumblePreset, put = __set__rumblePreset))::Libraries::HM::HMLib::VR::HapticPresetSO* _rumblePreset;
+  __declspec(property(get = __cordl_internal_get__rumblePreset, put = __cordl_internal_set__rumblePreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _rumblePreset;
 
   /// @brief Field _hapticFeedbackManager, offset 0x60, size 0x8
-  __declspec(property(get = __get__hapticFeedbackManager, put = __set__hapticFeedbackManager))::GlobalNamespace::HapticFeedbackManager* _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
 
   /// @brief Field onProcessMousePressEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_onProcessMousePressEvent, put = __set_onProcessMousePressEvent))::System::Action_1<::UnityEngine::GameObject*>* onProcessMousePressEvent;
+  __declspec(property(get = __cordl_internal_get_onProcessMousePressEvent,
+                      put = __cordl_internal_set_onProcessMousePressEvent))::System::Action_1<::UnityW<::UnityEngine::GameObject>>* onProcessMousePressEvent;
 
   /// @brief Field _pointerData, offset 0x70, size 0x8
-  __declspec(property(get = __get__pointerData, put = __set__pointerData))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* _pointerData;
+  __declspec(property(get = __cordl_internal_get__pointerData,
+                      put = __cordl_internal_set__pointerData))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* _pointerData;
 
   /// @brief Field _componentList, offset 0x78, size 0x8
-  __declspec(property(get = __get__componentList, put = __set__componentList))::System::Collections::Generic::List_1<::UnityEngine::Component*>* _componentList;
+  __declspec(property(get = __cordl_internal_get__componentList, put = __cordl_internal_set__componentList))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* _componentList;
 
   /// @brief Field _mouseState, offset 0x80, size 0x8
-  __declspec(property(get = __get__mouseState, put = __set__mouseState))::VRUIControls::MouseState* _mouseState;
+  __declspec(property(get = __cordl_internal_get__mouseState, put = __cordl_internal_set__mouseState))::VRUIControls::MouseState* _mouseState;
 
   /// @brief Field _raycastComparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__raycastComparer, put = setStaticF__raycastComparer))::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* _raycastComparer;
 
-  constexpr ::VRUIControls::VRPointer*& __get__vrPointer();
+  constexpr ::UnityW<::VRUIControls::VRPointer>& __cordl_internal_get__vrPointer();
 
-  constexpr ::cordl_internals::to_const_pointer<::VRUIControls::VRPointer*> const& __get__vrPointer() const;
+  constexpr ::UnityW<::VRUIControls::VRPointer> const& __cordl_internal_get__vrPointer() const;
 
-  constexpr void __set__vrPointer(::VRUIControls::VRPointer* value);
+  constexpr void __cordl_internal_set__vrPointer(::UnityW<::VRUIControls::VRPointer> value);
 
-  constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& __get__rumblePreset();
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__rumblePreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& __get__rumblePreset() const;
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__rumblePreset() const;
 
-  constexpr void __set__rumblePreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value);
+  constexpr void __cordl_internal_set__rumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  constexpr ::GlobalNamespace::HapticFeedbackManager*& __get__hapticFeedbackManager();
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& __get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr void __set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
 
-  constexpr ::System::Action_1<::UnityEngine::GameObject*>*& __get_onProcessMousePressEvent();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_onProcessMousePressEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::GameObject*>*> const& __get_onProcessMousePressEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_onProcessMousePressEvent() const;
 
-  constexpr void __set_onProcessMousePressEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  constexpr void __cordl_internal_set_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*& __get__pointerData();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get__pointerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*> const& __get__pointerData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*> const&
+  __cordl_internal_get__pointerData() const;
 
-  constexpr void __set__pointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* value);
+  constexpr void __cordl_internal_set__pointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Component*>*& __get__componentList();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*& __cordl_internal_get__componentList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Component*>*> const& __get__componentList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*> const& __cordl_internal_get__componentList() const;
 
-  constexpr void __set__componentList(::System::Collections::Generic::List_1<::UnityEngine::Component*>* value);
+  constexpr void __cordl_internal_set__componentList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* value);
 
-  constexpr ::VRUIControls::MouseState*& __get__mouseState();
+  constexpr ::VRUIControls::MouseState*& __cordl_internal_get__mouseState();
 
-  constexpr ::cordl_internals::to_const_pointer<::VRUIControls::MouseState*> const& __get__mouseState() const;
+  constexpr ::cordl_internals::to_const_pointer<::VRUIControls::MouseState*> const& __cordl_internal_get__mouseState() const;
 
-  constexpr void __set__mouseState(::VRUIControls::MouseState* value);
+  constexpr void __cordl_internal_set__mouseState(::VRUIControls::MouseState* value);
 
   static inline void setStaticF__raycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
   static inline ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* getStaticF__raycastComparer();
 
   /// @brief Method add_onProcessMousePressEvent, addr 0x2eb5fe8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_onProcessMousePressEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method remove_onProcessMousePressEvent, addr 0x2eb6098, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method OnDisable, addr 0x2eb6148, size 0x1c, virtual true, abstract: false, final false
   inline void OnDisable();
@@ -213,22 +216,22 @@ protected:
 
 public:
   /// @brief Field _vrPointer, offset: 0x50, size: 0x8, def value: None
-  ::VRUIControls::VRPointer* ____vrPointer;
+  ::UnityW<::VRUIControls::VRPointer> ____vrPointer;
 
   /// @brief Field _rumblePreset, offset: 0x58, size: 0x8, def value: None
-  ::Libraries::HM::HMLib::VR::HapticPresetSO* ____rumblePreset;
+  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____rumblePreset;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::HapticFeedbackManager* ____hapticFeedbackManager;
+  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief Field onProcessMousePressEvent, offset: 0x68, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::GameObject*>* ___onProcessMousePressEvent;
+  ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___onProcessMousePressEvent;
 
   /// @brief Field _pointerData, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* ____pointerData;
 
   /// @brief Field _componentList, offset: 0x78, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Component*>* ____componentList;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* ____componentList;
 
   /// @brief Field _mouseState, offset: 0x80, size: 0x8, def value: None
   ::VRUIControls::MouseState* ____mouseState;

@@ -99,8 +99,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRSceneVolumeMeshFilter__PopulateMeshDataJob);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7983)) CS Name: ::OVRSceneVolumeMeshFilter::GetTriangleMeshCountsJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7983)) CS Name: ::OVRSceneVolumeMeshFilter::GetTriangleMeshCountsJob
 struct CORDL_TYPE __OVRSceneVolumeMeshFilter__GetTriangleMeshCountsJob {
 public:
   // Declarations
@@ -144,8 +144,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter__GetTriangl
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7991)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7984)) CS Name: ::OVRSceneVolumeMeshFilter::GetTriangleMeshJob
 struct CORDL_TYPE __OVRSceneVolumeMeshFilter__GetTriangleMeshJob {
 public:
@@ -197,8 +197,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter__GetTriangl
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10069)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10069)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7985)) CS Name: ::OVRSceneVolumeMeshFilter::PopulateMeshDataJob
 struct CORDL_TYPE __OVRSceneVolumeMeshFilter__PopulateMeshDataJob {
 public:
@@ -249,7 +249,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter__PopulateMe
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 21, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7986))
 // CS Name: ::OVRSceneVolumeMeshFilter::BakeMeshJob
 struct CORDL_TYPE __OVRSceneVolumeMeshFilter__BakeMeshJob {
@@ -294,38 +294,38 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter__BakeMeshJo
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10068)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(9977))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7987)) CS Name:
-// ::OVRSceneVolumeMeshFilter::<CreateVolumeMesh>d__7*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10068)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7987)) CS
+// Name: ::OVRSceneVolumeMeshFilter::<CreateVolumeMesh>d__7*
 class CORDL_TYPE __OVRSceneVolumeMeshFilter___CreateVolumeMesh_d__7 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OVRSceneVolumeMeshFilter* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneVolumeMeshFilter> __4__this;
 
   /// @brief Field <sceneAnchor>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __get__sceneAnchor_5__2, put = __set__sceneAnchor_5__2))::GlobalNamespace::OVRSceneAnchor* _sceneAnchor_5__2;
+  __declspec(property(get = __cordl_internal_get__sceneAnchor_5__2, put = __cordl_internal_set__sceneAnchor_5__2))::UnityW<::GlobalNamespace::OVRSceneAnchor> _sceneAnchor_5__2;
 
   /// @brief Field <meshDataArray>5__3, offset 0x30, size 0x10
-  __declspec(property(get = __get__meshDataArray_5__3, put = __set__meshDataArray_5__3))::UnityEngine::__Mesh__MeshDataArray _meshDataArray_5__3;
+  __declspec(property(get = __cordl_internal_get__meshDataArray_5__3, put = __cordl_internal_set__meshDataArray_5__3))::UnityEngine::__Mesh__MeshDataArray _meshDataArray_5__3;
 
   /// @brief Field <disposeVerticesJob>5__4, offset 0x40, size 0x10
-  __declspec(property(get = __get__disposeVerticesJob_5__4, put = __set__disposeVerticesJob_5__4))::Unity::Jobs::JobHandle _disposeVerticesJob_5__4;
+  __declspec(property(get = __cordl_internal_get__disposeVerticesJob_5__4, put = __cordl_internal_set__disposeVerticesJob_5__4))::Unity::Jobs::JobHandle _disposeVerticesJob_5__4;
 
   /// @brief Field <collider>5__5, offset 0x50, size 0x8
-  __declspec(property(get = __get__collider_5__5, put = __set__collider_5__5))::UnityEngine::MeshCollider* _collider_5__5;
+  __declspec(property(get = __cordl_internal_get__collider_5__5, put = __cordl_internal_set__collider_5__5))::UnityW<::UnityEngine::MeshCollider> _collider_5__5;
 
   /// @brief Field <meshCountResults>5__6, offset 0x58, size 0x10
-  __declspec(property(get = __get__meshCountResults_5__6, put = __set__meshCountResults_5__6))::Unity::Collections::NativeArray_1<int32_t> _meshCountResults_5__6;
+  __declspec(property(get = __cordl_internal_get__meshCountResults_5__6, put = __cordl_internal_set__meshCountResults_5__6))::Unity::Collections::NativeArray_1<int32_t> _meshCountResults_5__6;
 
   /// @brief Field <job>5__7, offset 0x68, size 0x10
-  __declspec(property(get = __get__job_5__7, put = __set__job_5__7))::Unity::Jobs::JobHandle _job_5__7;
+  __declspec(property(get = __cordl_internal_get__job_5__7, put = __cordl_internal_set__job_5__7))::Unity::Jobs::JobHandle _job_5__7;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -349,59 +349,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::OVRSceneVolumeMeshFilter*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneVolumeMeshFilter>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneVolumeMeshFilter*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneVolumeMeshFilter> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OVRSceneVolumeMeshFilter* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneVolumeMeshFilter> value);
 
-  constexpr ::GlobalNamespace::OVRSceneAnchor*& __get__sceneAnchor_5__2();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get__sceneAnchor_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneAnchor*> const& __get__sceneAnchor_5__2() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get__sceneAnchor_5__2() const;
 
-  constexpr void __set__sceneAnchor_5__2(::GlobalNamespace::OVRSceneAnchor* value);
+  constexpr void __cordl_internal_set__sceneAnchor_5__2(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  constexpr ::UnityEngine::__Mesh__MeshDataArray& __get__meshDataArray_5__3();
+  constexpr ::UnityEngine::__Mesh__MeshDataArray& __cordl_internal_get__meshDataArray_5__3();
 
-  constexpr ::UnityEngine::__Mesh__MeshDataArray const& __get__meshDataArray_5__3() const;
+  constexpr ::UnityEngine::__Mesh__MeshDataArray const& __cordl_internal_get__meshDataArray_5__3() const;
 
-  constexpr void __set__meshDataArray_5__3(::UnityEngine::__Mesh__MeshDataArray value);
+  constexpr void __cordl_internal_set__meshDataArray_5__3(::UnityEngine::__Mesh__MeshDataArray value);
 
-  constexpr ::Unity::Jobs::JobHandle& __get__disposeVerticesJob_5__4();
+  constexpr ::Unity::Jobs::JobHandle& __cordl_internal_get__disposeVerticesJob_5__4();
 
-  constexpr ::Unity::Jobs::JobHandle const& __get__disposeVerticesJob_5__4() const;
+  constexpr ::Unity::Jobs::JobHandle const& __cordl_internal_get__disposeVerticesJob_5__4() const;
 
-  constexpr void __set__disposeVerticesJob_5__4(::Unity::Jobs::JobHandle value);
+  constexpr void __cordl_internal_set__disposeVerticesJob_5__4(::Unity::Jobs::JobHandle value);
 
-  constexpr ::UnityEngine::MeshCollider*& __get__collider_5__5();
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__collider_5__5();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshCollider*> const& __get__collider_5__5() const;
+  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__collider_5__5() const;
 
-  constexpr void __set__collider_5__5(::UnityEngine::MeshCollider* value);
+  constexpr void __cordl_internal_set__collider_5__5(::UnityW<::UnityEngine::MeshCollider> value);
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __get__meshCountResults_5__6();
+  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get__meshCountResults_5__6();
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __get__meshCountResults_5__6() const;
+  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get__meshCountResults_5__6() const;
 
-  constexpr void __set__meshCountResults_5__6(::Unity::Collections::NativeArray_1<int32_t> value);
+  constexpr void __cordl_internal_set__meshCountResults_5__6(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  constexpr ::Unity::Jobs::JobHandle& __get__job_5__7();
+  constexpr ::Unity::Jobs::JobHandle& __cordl_internal_get__job_5__7();
 
-  constexpr ::Unity::Jobs::JobHandle const& __get__job_5__7() const;
+  constexpr ::Unity::Jobs::JobHandle const& __cordl_internal_get__job_5__7() const;
 
-  constexpr void __set__job_5__7(::Unity::Jobs::JobHandle value);
+  constexpr void __cordl_internal_set__job_5__7(::Unity::Jobs::JobHandle value);
 
   static inline ::GlobalNamespace::__OVRSceneVolumeMeshFilter___CreateVolumeMesh_d__7* New_ctor(int32_t __1__state);
 
@@ -447,10 +447,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneVolumeMeshFilter* _____4__this;
+  ::UnityW<::GlobalNamespace::OVRSceneVolumeMeshFilter> _____4__this;
 
   /// @brief Field <sceneAnchor>5__2, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneAnchor* ____sceneAnchor_5__2;
+  ::UnityW<::GlobalNamespace::OVRSceneAnchor> ____sceneAnchor_5__2;
 
   /// @brief Field <meshDataArray>5__3, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::__Mesh__MeshDataArray ____meshDataArray_5__3;
@@ -459,7 +459,7 @@ public:
   ::Unity::Jobs::JobHandle ____disposeVerticesJob_5__4;
 
   /// @brief Field <collider>5__5, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::MeshCollider* ____collider_5__5;
+  ::UnityW<::UnityEngine::MeshCollider> ____collider_5__5;
 
   /// @brief Field <meshCountResults>5__6, offset: 0x58, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> ____meshCountResults_5__6;
@@ -495,7 +495,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter___CreateVol
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7988))
 // CS Name: ::OVRSceneVolumeMeshFilter*
 class CORDL_TYPE OVRSceneVolumeMeshFilter : public ::UnityEngine::MonoBehaviour {
@@ -512,33 +512,33 @@ public:
   using GetTriangleMeshCountsJob = ::GlobalNamespace::__OVRSceneVolumeMeshFilter__GetTriangleMeshCountsJob;
 
   /// @brief Field <IsCompleted>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__IsCompleted_k__BackingField, put = __set__IsCompleted_k__BackingField)) bool _IsCompleted_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsCompleted_k__BackingField, put = __cordl_internal_set__IsCompleted_k__BackingField)) bool _IsCompleted_k__BackingField;
 
   /// @brief Field _mesh, offset 0x20, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field _meshFilter, offset 0x28, size 0x8
-  __declspec(property(get = __get__meshFilter, put = __set__meshFilter))::UnityEngine::MeshFilter* _meshFilter;
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   __declspec(property(get = get_IsCompleted, put = set_IsCompleted)) bool IsCompleted;
 
-  constexpr bool& __get__IsCompleted_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsCompleted_k__BackingField();
 
-  constexpr bool const& __get__IsCompleted_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsCompleted_k__BackingField() const;
 
-  constexpr void __set__IsCompleted_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsCompleted_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
 
-  constexpr void __set__meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
   /// @brief Method get_IsCompleted, addr 0x278b508, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
@@ -578,10 +578,10 @@ public:
   bool ____IsCompleted_k__BackingField;
 
   /// @brief Field _mesh, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief Field _meshFilter, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

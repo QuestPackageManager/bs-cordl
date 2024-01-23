@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::DecimalConstantAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(2655))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(2655))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3367))
 // CS Name: ::System.Runtime.CompilerServices::DecimalConstantAttribute*
 class CORDL_TYPE DecimalConstantAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _dec, offset 0x10, size 0x10
-  __declspec(property(get = __get__dec, put = __set__dec))::System::Decimal _dec;
+  __declspec(property(get = __cordl_internal_get__dec, put = __cordl_internal_set__dec))::System::Decimal _dec;
 
   __declspec(property(get = get_Value))::System::Decimal Value;
 
-  constexpr ::System::Decimal& __get__dec();
+  constexpr ::System::Decimal& __cordl_internal_get__dec();
 
-  constexpr ::System::Decimal const& __get__dec() const;
+  constexpr ::System::Decimal const& __cordl_internal_get__dec() const;
 
-  constexpr void __set__dec(::System::Decimal value);
+  constexpr void __cordl_internal_set__dec(::System::Decimal value);
 
   static inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 

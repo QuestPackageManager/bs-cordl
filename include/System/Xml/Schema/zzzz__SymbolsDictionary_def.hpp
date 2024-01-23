@@ -34,69 +34,69 @@ MARK_REF_PTR_T(::System::Xml::Schema::SymbolsDictionary);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11596))
 // CS Name: ::System.Xml.Schema::SymbolsDictionary*
 class CORDL_TYPE SymbolsDictionary : public ::System::Object {
 public:
   // Declarations
   /// @brief Field last, offset 0x10, size 0x4
-  __declspec(property(get = __get_last, put = __set_last)) int32_t last;
+  __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) int32_t last;
 
   /// @brief Field names, offset 0x18, size 0x8
-  __declspec(property(get = __get_names, put = __set_names))::System::Collections::Hashtable* names;
+  __declspec(property(get = __cordl_internal_get_names, put = __cordl_internal_set_names))::System::Collections::Hashtable* names;
 
   /// @brief Field wildcards, offset 0x20, size 0x8
-  __declspec(property(get = __get_wildcards, put = __set_wildcards))::System::Collections::Hashtable* wildcards;
+  __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards))::System::Collections::Hashtable* wildcards;
 
   /// @brief Field particles, offset 0x28, size 0x8
-  __declspec(property(get = __get_particles, put = __set_particles))::System::Collections::ArrayList* particles;
+  __declspec(property(get = __cordl_internal_get_particles, put = __cordl_internal_set_particles))::System::Collections::ArrayList* particles;
 
   /// @brief Field particleLast, offset 0x30, size 0x8
-  __declspec(property(get = __get_particleLast, put = __set_particleLast))::System::Object* particleLast;
+  __declspec(property(get = __cordl_internal_get_particleLast, put = __cordl_internal_set_particleLast))::System::Object* particleLast;
 
   /// @brief Field isUpaEnforced, offset 0x38, size 0x1
-  __declspec(property(get = __get_isUpaEnforced, put = __set_isUpaEnforced)) bool isUpaEnforced;
+  __declspec(property(get = __cordl_internal_get_isUpaEnforced, put = __cordl_internal_set_isUpaEnforced)) bool isUpaEnforced;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_IsUpaEnforced, put = set_IsUpaEnforced)) bool IsUpaEnforced;
 
-  constexpr int32_t& __get_last();
+  constexpr int32_t& __cordl_internal_get_last();
 
-  constexpr int32_t const& __get_last() const;
+  constexpr int32_t const& __cordl_internal_get_last() const;
 
-  constexpr void __set_last(int32_t value);
+  constexpr void __cordl_internal_set_last(int32_t value);
 
-  constexpr ::System::Collections::Hashtable*& __get_names();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_names();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_names() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_names() const;
 
-  constexpr void __set_names(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_names(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_wildcards();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_wildcards();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_wildcards() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_wildcards() const;
 
-  constexpr void __set_wildcards(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::ArrayList*& __get_particles();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_particles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_particles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_particles() const;
 
-  constexpr void __set_particles(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_particles(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Object*& __get_particleLast();
+  constexpr ::System::Object*& __cordl_internal_get_particleLast();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_particleLast() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particleLast() const;
 
-  constexpr void __set_particleLast(::System::Object* value);
+  constexpr void __cordl_internal_set_particleLast(::System::Object* value);
 
-  constexpr bool& __get_isUpaEnforced();
+  constexpr bool& __cordl_internal_get_isUpaEnforced();
 
-  constexpr bool const& __get_isUpaEnforced() const;
+  constexpr bool const& __cordl_internal_get_isUpaEnforced() const;
 
-  constexpr void __set_isUpaEnforced(bool value);
+  constexpr void __cordl_internal_set_isUpaEnforced(bool value);
 
   static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
 

@@ -46,31 +46,31 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::CleanBundleCacheOperation);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14093)) CS
-// Name: ::UnityEngine.AddressableAssets::CleanBundleCacheOperation*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14032), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14093)) CS Name:
+// ::UnityEngine.AddressableAssets::CleanBundleCacheOperation*
 class CORDL_TYPE CleanBundleCacheOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
   // Declarations
   /// @brief Field m_Addressables, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Addressables, put = __set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
   /// @brief Field m_DepOp, offset 0x90, size 0x20
-  __declspec(property(get = __get_m_DepOp, put = __set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+  __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
 
   /// @brief Field m_CacheDirsForRemoval, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_CacheDirsForRemoval, put = __set_m_CacheDirsForRemoval))::System::Collections::Generic::List_1<::StringW>* m_CacheDirsForRemoval;
+  __declspec(property(get = __cordl_internal_get_m_CacheDirsForRemoval, put = __cordl_internal_set_m_CacheDirsForRemoval))::System::Collections::Generic::List_1<::StringW>* m_CacheDirsForRemoval;
 
   /// @brief Field m_EnumerationThread, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_EnumerationThread, put = __set_m_EnumerationThread))::System::Threading::Thread* m_EnumerationThread;
+  __declspec(property(get = __cordl_internal_get_m_EnumerationThread, put = __cordl_internal_set_m_EnumerationThread))::System::Threading::Thread* m_EnumerationThread;
 
   /// @brief Field m_BaseCachePath, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_BaseCachePath, put = __set_m_BaseCachePath))::StringW m_BaseCachePath;
+  __declspec(property(get = __cordl_internal_get_m_BaseCachePath, put = __cordl_internal_set_m_BaseCachePath))::StringW m_BaseCachePath;
 
   /// @brief Field m_UseMultiThreading, offset 0xc8, size 0x1
-  __declspec(property(get = __get_m_UseMultiThreading, put = __set_m_UseMultiThreading)) bool m_UseMultiThreading;
+  __declspec(property(get = __cordl_internal_get_m_UseMultiThreading, put = __cordl_internal_set_m_UseMultiThreading)) bool m_UseMultiThreading;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
@@ -78,47 +78,47 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr ::UnityEngine::ResourceManagement::IUpdateReceiver* i___UnityEngine__ResourceManagement__IUpdateReceiver() noexcept;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get_m_Addressables() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr void __set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>&
-  __get_m_DepOp();
+  __cordl_internal_get_m_DepOp();
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __get_m_DepOp() const;
+  __cordl_internal_get_m_DepOp() const;
 
-  constexpr void __set_m_DepOp(
+  constexpr void __cordl_internal_set_m_DepOp(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_CacheDirsForRemoval();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_CacheDirsForRemoval();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_CacheDirsForRemoval() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_CacheDirsForRemoval() const;
 
-  constexpr void __set_m_CacheDirsForRemoval(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_CacheDirsForRemoval(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Threading::Thread*& __get_m_EnumerationThread();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get_m_EnumerationThread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get_m_EnumerationThread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get_m_EnumerationThread() const;
 
-  constexpr void __set_m_EnumerationThread(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set_m_EnumerationThread(::System::Threading::Thread* value);
 
-  constexpr ::StringW& __get_m_BaseCachePath();
+  constexpr ::StringW& __cordl_internal_get_m_BaseCachePath();
 
-  constexpr ::StringW const& __get_m_BaseCachePath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_BaseCachePath() const;
 
-  constexpr void __set_m_BaseCachePath(::StringW value);
+  constexpr void __cordl_internal_set_m_BaseCachePath(::StringW value);
 
-  constexpr bool& __get_m_UseMultiThreading();
+  constexpr bool& __cordl_internal_get_m_UseMultiThreading();
 
-  constexpr bool const& __get_m_UseMultiThreading() const;
+  constexpr bool const& __cordl_internal_get_m_UseMultiThreading() const;
 
-  constexpr void __set_m_UseMultiThreading(bool value);
+  constexpr void __cordl_internal_set_m_UseMultiThreading(bool value);
 
   static inline ::UnityEngine::AddressableAssets::CleanBundleCacheOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa, bool forceSingleThreading);
 

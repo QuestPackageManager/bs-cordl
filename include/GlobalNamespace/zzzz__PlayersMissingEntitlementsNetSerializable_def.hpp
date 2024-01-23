@@ -27,22 +27,23 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15033))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15032))
 // CS Name: ::PlayersMissingEntitlementsNetSerializable*
 class CORDL_TYPE PlayersMissingEntitlementsNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
   /// @brief Field _playersWithoutEntitlements, offset 0x18, size 0x8
-  __declspec(property(get = __get__playersWithoutEntitlements, put = __set__playersWithoutEntitlements))::System::Collections::Generic::List_1<::StringW>* _playersWithoutEntitlements;
+  __declspec(property(get = __cordl_internal_get__playersWithoutEntitlements,
+                      put = __cordl_internal_set__playersWithoutEntitlements))::System::Collections::Generic::List_1<::StringW>* _playersWithoutEntitlements;
 
   __declspec(property(get = get_playersWithoutEntitlements))::System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__playersWithoutEntitlements();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__playersWithoutEntitlements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__playersWithoutEntitlements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__playersWithoutEntitlements() const;
 
-  constexpr void __set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value);
 
   /// @brief Method get_playersWithoutEntitlements, addr 0x12a5dbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();

@@ -28,17 +28,17 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6689))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observer`1<TValue>*
 class CORDL_TYPE Observer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_OnNext, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_OnNext, put = __set_m_OnNext))::System::Action_1<TValue>* m_OnNext;
+  __declspec(property(get = __cordl_internal_get_m_OnNext, put = __cordl_internal_set_m_OnNext))::System::Action_1<TValue>* m_OnNext;
 
   /// @brief Field m_OnCompleted, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_OnCompleted, put = __set_m_OnCompleted))::System::Action* m_OnCompleted;
+  __declspec(property(get = __cordl_internal_get_m_OnCompleted, put = __cordl_internal_set_m_OnCompleted))::System::Action* m_OnCompleted;
 
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
@@ -46,17 +46,17 @@ public:
   /// @brief Convert to "::System::IObserver_1<TValue>"
   constexpr ::System::IObserver_1<TValue>* i___System__IObserver_1_TValue_() noexcept;
 
-  constexpr ::System::Action_1<TValue>*& __get_m_OnNext();
+  constexpr ::System::Action_1<TValue>*& __cordl_internal_get_m_OnNext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __get_m_OnNext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __cordl_internal_get_m_OnNext() const;
 
-  constexpr void __set_m_OnNext(::System::Action_1<TValue>* value);
+  constexpr void __cordl_internal_set_m_OnNext(::System::Action_1<TValue>* value);
 
-  constexpr ::System::Action*& __get_m_OnCompleted();
+  constexpr ::System::Action*& __cordl_internal_get_m_OnCompleted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_OnCompleted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_OnCompleted() const;
 
-  constexpr void __set_m_OnCompleted(::System::Action* value);
+  constexpr void __cordl_internal_set_m_OnCompleted(::System::Action* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::Observer_1<TValue>* New_ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted);
 

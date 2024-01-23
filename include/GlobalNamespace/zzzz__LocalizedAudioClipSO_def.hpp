@@ -34,29 +34,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5869))
 // CS Name: ::LocalizedAudioClipSO::LocalizedAudioClipInfo*
 class CORDL_TYPE __LocalizedAudioClipSO__LocalizedAudioClipInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __get_language, put = __set_language))::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::Polyglot::Language language;
 
   /// @brief Field localizedAudioClip, offset 0x18, size 0x8
-  __declspec(property(get = __get_localizedAudioClip, put = __set_localizedAudioClip))::UnityEngine::AudioClip* localizedAudioClip;
+  __declspec(property(get = __cordl_internal_get_localizedAudioClip, put = __cordl_internal_set_localizedAudioClip))::UnityW<::UnityEngine::AudioClip> localizedAudioClip;
 
-  constexpr ::Polyglot::Language& __get_language();
+  constexpr ::Polyglot::Language& __cordl_internal_get_language();
 
-  constexpr ::Polyglot::Language const& __get_language() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get_language() const;
 
-  constexpr void __set_language(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::Polyglot::Language value);
 
-  constexpr ::UnityEngine::AudioClip*& __get_localizedAudioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get_localizedAudioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get_localizedAudioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_localizedAudioClip() const;
 
-  constexpr void __set_localizedAudioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set_localizedAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* New_ctor();
 
@@ -81,7 +81,7 @@ public:
   ::Polyglot::Language ___language;
 
   /// @brief Field localizedAudioClip, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ___localizedAudioClip;
+  ::UnityW<::UnityEngine::AudioClip> ___localizedAudioClip;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,20 +97,20 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5870))
 // CS Name: ::LocalizedAudioClipSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __LocalizedAudioClipSO____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __get_language, put = __set_language))::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::Polyglot::Language language;
 
-  constexpr ::Polyglot::Language& __get_language();
+  constexpr ::Polyglot::Language& __cordl_internal_get_language();
 
-  constexpr ::Polyglot::Language const& __get_language() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get_language() const;
 
-  constexpr void __set_language(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::Polyglot::Language value);
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0* New_ctor();
 
@@ -149,7 +149,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayCl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5871))
 // CS Name: ::LocalizedAudioClipSO*
 class CORDL_TYPE LocalizedAudioClipSO : public ::UnityEngine::ScriptableObject {
@@ -160,31 +160,33 @@ public:
   using LocalizedAudioClipInfo = ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo;
 
   /// @brief Field _localizedAudioClipInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__localizedAudioClipInfo,
-                      put = __set__localizedAudioClipInfo))::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*,
-                                                                    ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> _localizedAudioClipInfo;
+  __declspec(property(get = __cordl_internal_get__localizedAudioClipInfo,
+                      put = __cordl_internal_set__localizedAudioClipInfo))::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*,
+                                                                                   ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> _localizedAudioClipInfo;
 
   /// @brief Field _lastLocalizedAudioClipInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__lastLocalizedAudioClipInfo, put = __set__lastLocalizedAudioClipInfo))::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* _lastLocalizedAudioClipInfo;
+  __declspec(property(get = __cordl_internal_get__lastLocalizedAudioClipInfo,
+                      put = __cordl_internal_set__lastLocalizedAudioClipInfo))::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* _lastLocalizedAudioClipInfo;
 
-  __declspec(property(get = get_localizedAudioClip))::UnityEngine::AudioClip* localizedAudioClip;
+  __declspec(property(get = get_localizedAudioClip))::UnityW<::UnityEngine::AudioClip> localizedAudioClip;
 
-  constexpr ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*>& __get__localizedAudioClipInfo();
+  constexpr ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*>&
+  __cordl_internal_get__localizedAudioClipInfo();
 
   constexpr ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> const&
-  __get__localizedAudioClipInfo() const;
+  __cordl_internal_get__localizedAudioClipInfo() const;
 
-  constexpr void
-  __set__localizedAudioClipInfo(::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> value);
+  constexpr void __cordl_internal_set__localizedAudioClipInfo(
+      ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> value);
 
-  constexpr ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*& __get__lastLocalizedAudioClipInfo();
+  constexpr ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*& __cordl_internal_get__lastLocalizedAudioClipInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*> const& __get__lastLocalizedAudioClipInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*> const& __cordl_internal_get__lastLocalizedAudioClipInfo() const;
 
-  constexpr void __set__lastLocalizedAudioClipInfo(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* value);
+  constexpr void __cordl_internal_set__lastLocalizedAudioClipInfo(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* value);
 
   /// @brief Method get_localizedAudioClip, addr 0x22f84dc, size 0x108, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioClip* get_localizedAudioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_localizedAudioClip();
 
   static inline ::GlobalNamespace::LocalizedAudioClipSO* New_ctor();
 

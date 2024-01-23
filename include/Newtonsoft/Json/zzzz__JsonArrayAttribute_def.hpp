@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonArrayAttribute);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11815))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11815))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11814))
 // CS Name: ::Newtonsoft.Json::JsonArrayAttribute*
 class CORDL_TYPE JsonArrayAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
   // Declarations
   /// @brief Field _allowNullItems, offset 0x4c, size 0x1
-  __declspec(property(get = __get__allowNullItems, put = __set__allowNullItems)) bool _allowNullItems;
+  __declspec(property(get = __cordl_internal_get__allowNullItems, put = __cordl_internal_set__allowNullItems)) bool _allowNullItems;
 
   __declspec(property(get = get_AllowNullItems, put = set_AllowNullItems)) bool AllowNullItems;
 
-  constexpr bool& __get__allowNullItems();
+  constexpr bool& __cordl_internal_get__allowNullItems();
 
-  constexpr bool const& __get__allowNullItems() const;
+  constexpr bool const& __cordl_internal_get__allowNullItems() const;
 
-  constexpr void __set__allowNullItems(bool value);
+  constexpr void __cordl_internal_set__allowNullItems(bool value);
 
   /// @brief Method get_AllowNullItems, addr 0x263efb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowNullItems();

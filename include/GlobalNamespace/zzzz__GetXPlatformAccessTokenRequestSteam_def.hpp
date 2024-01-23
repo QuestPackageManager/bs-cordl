@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15998))
 // CS Name: ::GetXPlatformAccessTokenRequestSteam*
 class CORDL_TYPE GetXPlatformAccessTokenRequestSteam : public ::System::Object {
 public:
   // Declarations
   /// @brief Field platformToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_platformToken, put = __set_platformToken))::StringW platformToken;
+  __declspec(property(get = __cordl_internal_get_platformToken, put = __cordl_internal_set_platformToken))::StringW platformToken;
 
   /// @brief Field platformUserId, offset 0x18, size 0x8
-  __declspec(property(get = __get_platformUserId, put = __set_platformUserId)) int64_t platformUserId;
+  __declspec(property(get = __cordl_internal_get_platformUserId, put = __cordl_internal_set_platformUserId)) int64_t platformUserId;
 
-  constexpr ::StringW& __get_platformToken();
+  constexpr ::StringW& __cordl_internal_get_platformToken();
 
-  constexpr ::StringW const& __get_platformToken() const;
+  constexpr ::StringW const& __cordl_internal_get_platformToken() const;
 
-  constexpr void __set_platformToken(::StringW value);
+  constexpr void __cordl_internal_set_platformToken(::StringW value);
 
-  constexpr int64_t& __get_platformUserId();
+  constexpr int64_t& __cordl_internal_get_platformUserId();
 
-  constexpr int64_t const& __get_platformUserId() const;
+  constexpr int64_t const& __cordl_internal_get_platformUserId() const;
 
-  constexpr void __set_platformUserId(int64_t value);
+  constexpr void __cordl_internal_set_platformUserId(int64_t value);
 
   static inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSteam* New_ctor(::StringW platformToken, int64_t platformUserId);
 

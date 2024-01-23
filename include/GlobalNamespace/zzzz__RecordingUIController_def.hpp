@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingUIController__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5040))
 // CS Name: ::RecordingUIController::InitData*
 class CORDL_TYPE __RecordingUIController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field recordingEnabled, offset 0x10, size 0x1
-  __declspec(property(get = __get_recordingEnabled, put = __set_recordingEnabled)) bool recordingEnabled;
+  __declspec(property(get = __cordl_internal_get_recordingEnabled, put = __cordl_internal_set_recordingEnabled)) bool recordingEnabled;
 
-  constexpr bool& __get_recordingEnabled();
+  constexpr bool& __cordl_internal_get_recordingEnabled();
 
-  constexpr bool const& __get_recordingEnabled() const;
+  constexpr bool const& __cordl_internal_get_recordingEnabled() const;
 
-  constexpr void __set_recordingEnabled(bool value);
+  constexpr void __cordl_internal_set_recordingEnabled(bool value);
 
   static inline ::GlobalNamespace::__RecordingUIController__InitData* New_ctor(bool recordingEnabled);
 
@@ -75,7 +75,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingUIController__InitData, ___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5041))
 // CS Name: ::RecordingUIController*
 class CORDL_TYPE RecordingUIController : public ::UnityEngine::MonoBehaviour {
@@ -84,40 +84,40 @@ public:
   using InitData = ::GlobalNamespace::__RecordingUIController__InitData;
 
   /// @brief Field _circle, offset 0x18, size 0x8
-  __declspec(property(get = __get__circle, put = __set__circle))::UnityEngine::GameObject* _circle;
+  __declspec(property(get = __cordl_internal_get__circle, put = __cordl_internal_set__circle))::UnityW<::UnityEngine::GameObject> _circle;
 
   /// @brief Field _updateTimeSpan, offset 0x20, size 0x4
-  __declspec(property(get = __get__updateTimeSpan, put = __set__updateTimeSpan)) float_t _updateTimeSpan;
+  __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
 
   /// @brief Field _initData, offset 0x28, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__RecordingUIController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__RecordingUIController__InitData* _initData;
 
   /// @brief Field _lastUpdateTime, offset 0x30, size 0x4
-  __declspec(property(get = __get__lastUpdateTime, put = __set__lastUpdateTime)) float_t _lastUpdateTime;
+  __declspec(property(get = __cordl_internal_get__lastUpdateTime, put = __cordl_internal_set__lastUpdateTime)) float_t _lastUpdateTime;
 
-  constexpr ::UnityEngine::GameObject*& __get__circle();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__circle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__circle() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__circle() const;
 
-  constexpr void __set__circle(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__circle(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr float_t& __get__updateTimeSpan();
+  constexpr float_t& __cordl_internal_get__updateTimeSpan();
 
-  constexpr float_t const& __get__updateTimeSpan() const;
+  constexpr float_t const& __cordl_internal_get__updateTimeSpan() const;
 
-  constexpr void __set__updateTimeSpan(float_t value);
+  constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
 
-  constexpr ::GlobalNamespace::__RecordingUIController__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__RecordingUIController__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingUIController__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingUIController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__RecordingUIController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__RecordingUIController__InitData* value);
 
-  constexpr float_t& __get__lastUpdateTime();
+  constexpr float_t& __cordl_internal_get__lastUpdateTime();
 
-  constexpr float_t const& __get__lastUpdateTime() const;
+  constexpr float_t const& __cordl_internal_get__lastUpdateTime() const;
 
-  constexpr void __set__lastUpdateTime(float_t value);
+  constexpr void __cordl_internal_set__lastUpdateTime(float_t value);
 
   /// @brief Method Init, addr 0x23c2238, size 0x80, virtual false, abstract: false, final false
   inline void Init();
@@ -145,7 +145,7 @@ protected:
 
 public:
   /// @brief Field _circle, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____circle;
+  ::UnityW<::UnityEngine::GameObject> ____circle;
 
   /// @brief Field _updateTimeSpan, offset: 0x20, size: 0x4, def value: None
   float_t ____updateTimeSpan;

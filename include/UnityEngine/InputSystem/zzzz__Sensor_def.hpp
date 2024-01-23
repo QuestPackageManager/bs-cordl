@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Sensor);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6239))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6274))
 // CS Name: ::UnityEngine.InputSystem::Sensor*
 class CORDL_TYPE Sensor : public ::UnityEngine::InputSystem::InputDevice {

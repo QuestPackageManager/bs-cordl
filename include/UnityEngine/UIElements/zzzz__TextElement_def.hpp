@@ -75,38 +75,39 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TextElement__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6813))
 // CS Name: ::TextElement::UxmlTraits*
 class CORDL_TYPE __TextElement__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_Text, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
   /// @brief Field m_EnableRichText, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_EnableRichText, put = __set_m_EnableRichText))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_EnableRichText;
+  __declspec(property(get = __cordl_internal_get_m_EnableRichText, put = __cordl_internal_set_m_EnableRichText))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_EnableRichText;
 
   /// @brief Field m_DisplayTooltipWhenElided, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_DisplayTooltipWhenElided, put = __set_m_DisplayTooltipWhenElided))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_DisplayTooltipWhenElided;
+  __declspec(property(get = __cordl_internal_get_m_DisplayTooltipWhenElided,
+                      put = __cordl_internal_set_m_DisplayTooltipWhenElided))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_DisplayTooltipWhenElided;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Text();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Text() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_EnableRichText();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_EnableRichText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_EnableRichText() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_EnableRichText() const;
 
-  constexpr void __set_m_EnableRichText(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_EnableRichText(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_DisplayTooltipWhenElided();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_DisplayTooltipWhenElided();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_DisplayTooltipWhenElided() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_DisplayTooltipWhenElided() const;
 
-  constexpr void __set_m_DisplayTooltipWhenElided(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_DisplayTooltipWhenElided(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2dc07d8, size 0x18c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -155,7 +156,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TextElement__UxmlTraits, ___
 // SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7335))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7335))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6814))
 // CS Name: ::UnityEngine.UIElements::TextElement*
 class CORDL_TYPE TextElement : public ::UnityEngine::UIElements::BindableElement {
@@ -166,31 +167,31 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__TextElement__UxmlFactory;
 
   /// @brief Field m_TextHandle, offset 0x3c0, size 0x8
-  __declspec(property(get = __get_m_TextHandle, put = __set_m_TextHandle))::UnityEngine::UIElements::ITextHandle* m_TextHandle;
+  __declspec(property(get = __cordl_internal_get_m_TextHandle, put = __cordl_internal_set_m_TextHandle))::UnityEngine::UIElements::ITextHandle* m_TextHandle;
 
   /// @brief Field m_Text, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::StringW m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::StringW m_Text;
 
   /// @brief Field m_EnableRichText, offset 0x3d0, size 0x1
-  __declspec(property(get = __get_m_EnableRichText, put = __set_m_EnableRichText)) bool m_EnableRichText;
+  __declspec(property(get = __cordl_internal_get_m_EnableRichText, put = __cordl_internal_set_m_EnableRichText)) bool m_EnableRichText;
 
   /// @brief Field m_DisplayTooltipWhenElided, offset 0x3d1, size 0x1
-  __declspec(property(get = __get_m_DisplayTooltipWhenElided, put = __set_m_DisplayTooltipWhenElided)) bool m_DisplayTooltipWhenElided;
+  __declspec(property(get = __cordl_internal_get_m_DisplayTooltipWhenElided, put = __cordl_internal_set_m_DisplayTooltipWhenElided)) bool m_DisplayTooltipWhenElided;
 
   /// @brief Field <isElided>k__BackingField, offset 0x3d2, size 0x1
-  __declspec(property(get = __get__isElided_k__BackingField, put = __set__isElided_k__BackingField)) bool _isElided_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isElided_k__BackingField, put = __cordl_internal_set__isElided_k__BackingField)) bool _isElided_k__BackingField;
 
   /// @brief Field m_WasElided, offset 0x3d3, size 0x1
-  __declspec(property(get = __get_m_WasElided, put = __set_m_WasElided)) bool m_WasElided;
+  __declspec(property(get = __cordl_internal_get_m_WasElided, put = __cordl_internal_set_m_WasElided)) bool m_WasElided;
 
   /// @brief Field m_UpdateTextParams, offset 0x3d4, size 0x1
-  __declspec(property(get = __get_m_UpdateTextParams, put = __set_m_UpdateTextParams)) bool m_UpdateTextParams;
+  __declspec(property(get = __cordl_internal_get_m_UpdateTextParams, put = __cordl_internal_set_m_UpdateTextParams)) bool m_UpdateTextParams;
 
   /// @brief Field m_TextParams, offset 0x3d8, size 0x98
-  __declspec(property(get = __get_m_TextParams, put = __set_m_TextParams))::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams m_TextParams;
+  __declspec(property(get = __cordl_internal_get_m_TextParams, put = __cordl_internal_set_m_TextParams))::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams m_TextParams;
 
   /// @brief Field m_PreviousTextParamsHashCode, offset 0x470, size 0x4
-  __declspec(property(get = __get_m_PreviousTextParamsHashCode, put = __set_m_PreviousTextParamsHashCode)) int32_t m_PreviousTextParamsHashCode;
+  __declspec(property(get = __cordl_internal_get_m_PreviousTextParamsHashCode, put = __cordl_internal_set_m_PreviousTextParamsHashCode)) int32_t m_PreviousTextParamsHashCode;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -226,59 +227,59 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>"
   constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>* i___UnityEngine__UIElements__INotifyValueChanged_1___StringW_() noexcept;
 
-  constexpr ::UnityEngine::UIElements::ITextHandle*& __get_m_TextHandle();
+  constexpr ::UnityEngine::UIElements::ITextHandle*& __cordl_internal_get_m_TextHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& __get_m_TextHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& __cordl_internal_get_m_TextHandle() const;
 
-  constexpr void __set_m_TextHandle(::UnityEngine::UIElements::ITextHandle* value);
+  constexpr void __cordl_internal_set_m_TextHandle(::UnityEngine::UIElements::ITextHandle* value);
 
-  constexpr ::StringW& __get_m_Text();
+  constexpr ::StringW& __cordl_internal_get_m_Text();
 
-  constexpr ::StringW const& __get_m_Text() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::StringW value);
+  constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  constexpr bool& __get_m_EnableRichText();
+  constexpr bool& __cordl_internal_get_m_EnableRichText();
 
-  constexpr bool const& __get_m_EnableRichText() const;
+  constexpr bool const& __cordl_internal_get_m_EnableRichText() const;
 
-  constexpr void __set_m_EnableRichText(bool value);
+  constexpr void __cordl_internal_set_m_EnableRichText(bool value);
 
-  constexpr bool& __get_m_DisplayTooltipWhenElided();
+  constexpr bool& __cordl_internal_get_m_DisplayTooltipWhenElided();
 
-  constexpr bool const& __get_m_DisplayTooltipWhenElided() const;
+  constexpr bool const& __cordl_internal_get_m_DisplayTooltipWhenElided() const;
 
-  constexpr void __set_m_DisplayTooltipWhenElided(bool value);
+  constexpr void __cordl_internal_set_m_DisplayTooltipWhenElided(bool value);
 
-  constexpr bool& __get__isElided_k__BackingField();
+  constexpr bool& __cordl_internal_get__isElided_k__BackingField();
 
-  constexpr bool const& __get__isElided_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isElided_k__BackingField() const;
 
-  constexpr void __set__isElided_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isElided_k__BackingField(bool value);
 
-  constexpr bool& __get_m_WasElided();
+  constexpr bool& __cordl_internal_get_m_WasElided();
 
-  constexpr bool const& __get_m_WasElided() const;
+  constexpr bool const& __cordl_internal_get_m_WasElided() const;
 
-  constexpr void __set_m_WasElided(bool value);
+  constexpr void __cordl_internal_set_m_WasElided(bool value);
 
-  constexpr bool& __get_m_UpdateTextParams();
+  constexpr bool& __cordl_internal_get_m_UpdateTextParams();
 
-  constexpr bool const& __get_m_UpdateTextParams() const;
+  constexpr bool const& __cordl_internal_get_m_UpdateTextParams() const;
 
-  constexpr void __set_m_UpdateTextParams(bool value);
+  constexpr void __cordl_internal_set_m_UpdateTextParams(bool value);
 
-  constexpr ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams& __get_m_TextParams();
+  constexpr ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams& __cordl_internal_get_m_TextParams();
 
-  constexpr ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams const& __get_m_TextParams() const;
+  constexpr ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams const& __cordl_internal_get_m_TextParams() const;
 
-  constexpr void __set_m_TextParams(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams value);
+  constexpr void __cordl_internal_set_m_TextParams(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams value);
 
-  constexpr int32_t& __get_m_PreviousTextParamsHashCode();
+  constexpr int32_t& __cordl_internal_get_m_PreviousTextParamsHashCode();
 
-  constexpr int32_t const& __get_m_PreviousTextParamsHashCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_PreviousTextParamsHashCode() const;
 
-  constexpr void __set_m_PreviousTextParamsHashCode(int32_t value);
+  constexpr void __cordl_internal_set_m_PreviousTextParamsHashCode(int32_t value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -437,8 +438,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TextElement, ___m_PreviousText
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813)), TypeDefinitionIndex(TypeDefinitionIndex(6814)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5279 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6812)) CS Name: ::TextElement::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6813)), TypeDefinitionIndex(TypeDefinitionIndex(6814)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5279 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6812)) CS Name: ::TextElement::UxmlFactory*
 class CORDL_TYPE __TextElement__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextElement*, ::UnityEngine::UIElements::__TextElement__UxmlTraits*> {
 public:
   // Declarations

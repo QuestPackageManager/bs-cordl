@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::TypeLoadExceptionHolder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3224))
 // CS Name: ::System.Runtime.Serialization::TypeLoadExceptionHolder*
 class CORDL_TYPE TypeLoadExceptionHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_typeName, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_typeName, put = __set_m_typeName))::StringW m_typeName;
+  __declspec(property(get = __cordl_internal_get_m_typeName, put = __cordl_internal_set_m_typeName))::StringW m_typeName;
 
   __declspec(property(get = get_TypeName))::StringW TypeName;
 
-  constexpr ::StringW& __get_m_typeName();
+  constexpr ::StringW& __cordl_internal_get_m_typeName();
 
-  constexpr ::StringW const& __get_m_typeName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_typeName() const;
 
-  constexpr void __set_m_typeName(::StringW value);
+  constexpr void __cordl_internal_set_m_typeName(::StringW value);
 
   static inline ::System::Runtime::Serialization::TypeLoadExceptionHolder* New_ctor(::StringW typeName);
 

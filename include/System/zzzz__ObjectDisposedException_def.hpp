@@ -21,24 +21,24 @@ MARK_REF_PTR_T(::System::ObjectDisposedException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2427))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2427))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2453))
 // CS Name: ::System::ObjectDisposedException*
 class CORDL_TYPE ObjectDisposedException : public ::System::InvalidOperationException {
 public:
   // Declarations
   /// @brief Field _objectName, offset 0x90, size 0x8
-  __declspec(property(get = __get__objectName, put = __set__objectName))::StringW _objectName;
+  __declspec(property(get = __cordl_internal_get__objectName, put = __cordl_internal_set__objectName))::StringW _objectName;
 
   __declspec(property(get = get_Message))::StringW Message;
 
   __declspec(property(get = get_ObjectName))::StringW ObjectName;
 
-  constexpr ::StringW& __get__objectName();
+  constexpr ::StringW& __cordl_internal_get__objectName();
 
-  constexpr ::StringW const& __get__objectName() const;
+  constexpr ::StringW const& __cordl_internal_get__objectName() const;
 
-  constexpr void __set__objectName(::StringW value);
+  constexpr void __cordl_internal_set__objectName(::StringW value);
 
   static inline ::System::ObjectDisposedException* New_ctor();
 

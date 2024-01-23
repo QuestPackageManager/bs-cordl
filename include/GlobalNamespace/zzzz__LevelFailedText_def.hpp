@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelFailedText);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4864))
 // CS Name: ::LevelFailedText*
 class CORDL_TYPE LevelFailedText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TMP_Text* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TMP_Text> _text;
 
   /// @brief Field _localizedText, offset 0x20, size 0x8
-  __declspec(property(get = __get__localizedText, put = __set__localizedText))::Polyglot::LocalizedTextMeshPro* _localizedText;
+  __declspec(property(get = __cordl_internal_get__localizedText, put = __cordl_internal_set__localizedText))::UnityW<::Polyglot::LocalizedTextMeshPro> _localizedText;
 
-  constexpr ::TMPro::TMP_Text*& __get__text();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr ::Polyglot::LocalizedTextMeshPro*& __get__localizedText();
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshPro>& __cordl_internal_get__localizedText();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizedTextMeshPro*> const& __get__localizedText() const;
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshPro> const& __cordl_internal_get__localizedText() const;
 
-  constexpr void __set__localizedText(::Polyglot::LocalizedTextMeshPro* value);
+  constexpr void __cordl_internal_set__localizedText(::UnityW<::Polyglot::LocalizedTextMeshPro> value);
 
   /// @brief Method OverrideText, addr 0x239a1f4, size 0x4c, virtual false, abstract: false, final false
   inline void OverrideText(::StringW text);
@@ -68,10 +68,10 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ____text;
+  ::UnityW<::TMPro::TMP_Text> ____text;
 
   /// @brief Field _localizedText, offset: 0x20, size: 0x8, def value: None
-  ::Polyglot::LocalizedTextMeshPro* ____localizedText;
+  ::UnityW<::Polyglot::LocalizedTextMeshPro> ____localizedText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

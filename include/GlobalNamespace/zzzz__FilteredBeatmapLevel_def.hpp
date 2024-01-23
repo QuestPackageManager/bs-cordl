@@ -81,21 +81,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__FilteredBeatmapLevel__FilteredBeatmapLevelDa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5653))
 // CS Name: ::FilteredBeatmapLevel::FilteredBeatmapLevelData*
 class CORDL_TYPE __FilteredBeatmapLevel__FilteredBeatmapLevelData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <difficultyBeatmapSets>k__BackingField, offset 0x10, size 0x8
-  __declspec(
-      property(get = __get__difficultyBeatmapSets_k__BackingField,
-               put = __set__difficultyBeatmapSets_k__BackingField))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* _difficultyBeatmapSets_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmapSets_k__BackingField, put = __cordl_internal_set__difficultyBeatmapSets_k__BackingField))::System::Collections::Generic::
+      IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* _difficultyBeatmapSets_k__BackingField;
 
   /// @brief Field _beatmapLevelData, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapLevelData, put = __set__beatmapLevelData))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelData, put = __cordl_internal_set__beatmapLevelData))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData;
 
-  __declspec(property(get = get_audioClip))::UnityEngine::AudioClip* audioClip;
+  __declspec(property(get = get_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
 
   __declspec(property(get = get_difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
 
@@ -105,32 +104,32 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelData"
   constexpr ::GlobalNamespace::IBeatmapLevelData* i___GlobalNamespace__IBeatmapLevelData() noexcept;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& __get__difficultyBeatmapSets_k__BackingField();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& __cordl_internal_get__difficultyBeatmapSets_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*> const&
-  __get__difficultyBeatmapSets_k__BackingField() const;
+  __cordl_internal_get__difficultyBeatmapSets_k__BackingField() const;
 
-  constexpr void __set__difficultyBeatmapSets_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
+  constexpr void __cordl_internal_set__difficultyBeatmapSets_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelData*& __get__beatmapLevelData();
+  constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __get__beatmapLevelData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __cordl_internal_get__beatmapLevelData() const;
 
-  constexpr void __set__beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
+  constexpr void __cordl_internal_set__beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
   /// @brief Method get_audioClip, addr 0x22b89d8, size 0xa0, virtual true, abstract: false, final true
-  inline ::UnityEngine::AudioClip* get_audioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
 
   /// @brief Method get_difficultyBeatmapSets, addr 0x22b8a78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
 
   static inline ::GlobalNamespace::__FilteredBeatmapLevel__FilteredBeatmapLevelData*
   New_ctor(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
-           ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics);
+           ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics);
 
   /// @brief Method .ctor, addr 0x22b7f30, size 0xaa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
-                    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics);
+                    ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FilteredBeatmapLevel__FilteredBeatmapLevelData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -166,7 +165,7 @@ static_assert(offsetof(::GlobalNamespace::__FilteredBeatmapLevel__FilteredBeatma
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5654))
 // CS Name: ::FilteredBeatmapLevel*
 class CORDL_TYPE FilteredBeatmapLevel : public ::System::Object {
@@ -175,14 +174,15 @@ public:
   using FilteredBeatmapLevelData = ::GlobalNamespace::__FilteredBeatmapLevel__FilteredBeatmapLevelData;
 
   /// @brief Field <previewDifficultyBeatmapSets>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__previewDifficultyBeatmapSets_k__BackingField, put = __set__previewDifficultyBeatmapSets_k__BackingField))::System::Collections::Generic::IReadOnlyList_1<
-      ::GlobalNamespace::PreviewDifficultyBeatmapSet*>* _previewDifficultyBeatmapSets_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__previewDifficultyBeatmapSets_k__BackingField, put = __cordl_internal_set__previewDifficultyBeatmapSets_k__BackingField))::System::Collections::
+      Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* _previewDifficultyBeatmapSets_k__BackingField;
 
   /// @brief Field <beatmapLevelData>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapLevelData_k__BackingField, put = __set__beatmapLevelData_k__BackingField))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelData_k__BackingField,
+                      put = __cordl_internal_set__beatmapLevelData_k__BackingField))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData_k__BackingField;
 
   /// @brief Field _beatmapLevel, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapLevel, put = __set__beatmapLevel))::GlobalNamespace::IBeatmapLevel* _beatmapLevel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::IBeatmapLevel* _beatmapLevel;
 
   __declspec(property(get = get_levelID))::StringW levelID;
 
@@ -210,17 +210,17 @@ public:
 
   __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
 
-  __declspec(property(get = get_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = get_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
-  __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
+  __declspec(property(get = get_allDirectionsEnvironmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> allDirectionsEnvironmentInfo;
 
-  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
+  __declspec(property(get = get_environmentInfos))::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> environmentInfos;
 
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
 
-  __declspec(property(get = get_songPreviewAudioClip))::UnityEngine::AudioClip* songPreviewAudioClip;
+  __declspec(property(get = get_songPreviewAudioClip))::UnityW<::UnityEngine::AudioClip> songPreviewAudioClip;
 
-  __declspec(property(get = get_songAudioClip))::UnityEngine::AudioClip* songAudioClip;
+  __declspec(property(get = get_songAudioClip))::UnityW<::UnityEngine::AudioClip> songAudioClip;
 
   __declspec(property(get = get_songPreviewAudioClipPath))::StringW songPreviewAudioClipPath;
 
@@ -266,24 +266,24 @@ public:
   /// @brief Convert to "::GlobalNamespace::IFilePathSongAudioClipProvider"
   constexpr ::GlobalNamespace::IFilePathSongAudioClipProvider* i___GlobalNamespace__IFilePathSongAudioClipProvider() noexcept;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& __get__previewDifficultyBeatmapSets_k__BackingField();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& __cordl_internal_get__previewDifficultyBeatmapSets_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*> const&
-  __get__previewDifficultyBeatmapSets_k__BackingField() const;
+  __cordl_internal_get__previewDifficultyBeatmapSets_k__BackingField() const;
 
-  constexpr void __set__previewDifficultyBeatmapSets_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* value);
+  constexpr void __cordl_internal_set__previewDifficultyBeatmapSets_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelData*& __get__beatmapLevelData_k__BackingField();
+  constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __get__beatmapLevelData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __cordl_internal_get__beatmapLevelData_k__BackingField() const;
 
-  constexpr void __set__beatmapLevelData_k__BackingField(::GlobalNamespace::IBeatmapLevelData* value);
+  constexpr void __cordl_internal_set__beatmapLevelData_k__BackingField(::GlobalNamespace::IBeatmapLevelData* value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevel*& __get__beatmapLevel();
+  constexpr ::GlobalNamespace::IBeatmapLevel*& __cordl_internal_get__beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevel*> const& __get__beatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __set__beatmapLevel(::GlobalNamespace::IBeatmapLevel* value);
+  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::IBeatmapLevel* value);
 
   /// @brief Method get_levelID, addr 0x22b6e68, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_levelID();
@@ -325,22 +325,22 @@ public:
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
   /// @brief Method get_environmentInfo, addr 0x22b76b8, size 0xa4, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
   /// @brief Method get_allDirectionsEnvironmentInfo, addr 0x22b775c, size 0xa4, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_allDirectionsEnvironmentInfo();
 
   /// @brief Method get_environmentInfos, addr 0x22b7800, size 0xa4, virtual true, abstract: false, final true
-  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> get_environmentInfos();
 
   /// @brief Method get_previewDifficultyBeatmapSets, addr 0x22b78a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
 
   /// @brief Method get_songPreviewAudioClip, addr 0x22b78ac, size 0xb4, virtual true, abstract: false, final true
-  inline ::UnityEngine::AudioClip* get_songPreviewAudioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_songPreviewAudioClip();
 
   /// @brief Method get_songAudioClip, addr 0x22b7960, size 0xb4, virtual true, abstract: false, final true
-  inline ::UnityEngine::AudioClip* get_songAudioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_songAudioClip();
 
   /// @brief Method get_songPreviewAudioClipPath, addr 0x22b7a14, size 0xd4, virtual true, abstract: false, final true
   inline ::StringW get_songPreviewAudioClipPath();
@@ -349,7 +349,7 @@ public:
   inline ::StringW get_songAudioClipPath();
 
   /// @brief Method GetCoverImageAsync, addr 0x22b7bbc, size 0xac, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method get_beatmapLevelData, addr 0x22b7c68, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
@@ -358,11 +358,11 @@ public:
   inline bool get_isEmpty();
 
   static inline ::GlobalNamespace::FilteredBeatmapLevel* New_ctor(::GlobalNamespace::IBeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
-                                                                  ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics);
+                                                                  ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics);
 
   /// @brief Method .ctor, addr 0x22b7d94, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
-                    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics);
+                    ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics);
 
   // Ctor Parameters [CppParam { name: "", ty: "FilteredBeatmapLevel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

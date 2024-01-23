@@ -40,12 +40,12 @@ template <typename T> inline bool Newtonsoft::Json::Converters::CustomCreationCo
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename T> inline ::Newtonsoft::Json::Converters::CustomCreationConverter_1<T>* Newtonsoft::Json::Converters::CustomCreationConverter_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Newtonsoft::Json::Converters::CustomCreationConverter_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::CustomCreationConverter_1<T>*>());
 }
 template <typename T> inline void Newtonsoft::Json::Converters::CustomCreationConverter_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::CustomCreationConverter_1<T>*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

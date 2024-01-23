@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MainMenuViewController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5690))
 // CS Name: ::MainMenuViewController::MenuButton
 struct CORDL_TYPE __MainMenuViewController__MenuButton {
@@ -125,7 +125,7 @@ static_assert(offsetof(::GlobalNamespace::__MainMenuViewController__MenuButton, 
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5691))
 // CS Name: ::MainMenuViewController*
 class CORDL_TYPE MainMenuViewController : public ::HMUI::ViewController {
@@ -134,150 +134,151 @@ public:
   using MenuButton = ::GlobalNamespace::__MainMenuViewController__MenuButton;
 
   /// @brief Field _soloButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__soloButton, put = __set__soloButton))::UnityEngine::UI::Button* _soloButton;
+  __declspec(property(get = __cordl_internal_get__soloButton, put = __cordl_internal_set__soloButton))::UnityW<::UnityEngine::UI::Button> _soloButton;
 
   /// @brief Field _partyButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__partyButton, put = __set__partyButton))::UnityEngine::UI::Button* _partyButton;
+  __declspec(property(get = __cordl_internal_get__partyButton, put = __cordl_internal_set__partyButton))::UnityW<::UnityEngine::UI::Button> _partyButton;
 
   /// @brief Field _campaignButton, offset 0x80, size 0x8
-  __declspec(property(get = __get__campaignButton, put = __set__campaignButton))::UnityEngine::UI::Button* _campaignButton;
+  __declspec(property(get = __cordl_internal_get__campaignButton, put = __cordl_internal_set__campaignButton))::UnityW<::UnityEngine::UI::Button> _campaignButton;
 
   /// @brief Field _quitButton, offset 0x88, size 0x8
-  __declspec(property(get = __get__quitButton, put = __set__quitButton))::UnityEngine::UI::Button* _quitButton;
+  __declspec(property(get = __cordl_internal_get__quitButton, put = __cordl_internal_set__quitButton))::UnityW<::UnityEngine::UI::Button> _quitButton;
 
   /// @brief Field _howToPlayButton, offset 0x90, size 0x8
-  __declspec(property(get = __get__howToPlayButton, put = __set__howToPlayButton))::UnityEngine::UI::Button* _howToPlayButton;
+  __declspec(property(get = __cordl_internal_get__howToPlayButton, put = __cordl_internal_set__howToPlayButton))::UnityW<::UnityEngine::UI::Button> _howToPlayButton;
 
   /// @brief Field _beatmapEditorButton, offset 0x98, size 0x8
-  __declspec(property(get = __get__beatmapEditorButton, put = __set__beatmapEditorButton))::UnityEngine::UI::Button* _beatmapEditorButton;
+  __declspec(property(get = __cordl_internal_get__beatmapEditorButton, put = __cordl_internal_set__beatmapEditorButton))::UnityW<::UnityEngine::UI::Button> _beatmapEditorButton;
 
   /// @brief Field _multiplayerButton, offset 0xa0, size 0x8
-  __declspec(property(get = __get__multiplayerButton, put = __set__multiplayerButton))::UnityEngine::UI::Button* _multiplayerButton;
+  __declspec(property(get = __cordl_internal_get__multiplayerButton, put = __cordl_internal_set__multiplayerButton))::UnityW<::UnityEngine::UI::Button> _multiplayerButton;
 
   /// @brief Field _optionsButton, offset 0xa8, size 0x8
-  __declspec(property(get = __get__optionsButton, put = __set__optionsButton))::UnityEngine::UI::Button* _optionsButton;
+  __declspec(property(get = __cordl_internal_get__optionsButton, put = __cordl_internal_set__optionsButton))::UnityW<::UnityEngine::UI::Button> _optionsButton;
 
   /// @brief Field _musicPackPromoButton, offset 0xb0, size 0x8
-  __declspec(property(get = __get__musicPackPromoButton, put = __set__musicPackPromoButton))::UnityEngine::UI::Button* _musicPackPromoButton;
+  __declspec(property(get = __cordl_internal_get__musicPackPromoButton, put = __cordl_internal_set__musicPackPromoButton))::UnityW<::UnityEngine::UI::Button> _musicPackPromoButton;
 
   /// @brief Field _musicPackPromoBanner, offset 0xb8, size 0x8
-  __declspec(property(get = __get__musicPackPromoBanner, put = __set__musicPackPromoBanner))::GlobalNamespace::MusicPackPromoBanner* _musicPackPromoBanner;
+  __declspec(property(get = __cordl_internal_get__musicPackPromoBanner, put = __cordl_internal_set__musicPackPromoBanner))::UnityW<::GlobalNamespace::MusicPackPromoBanner> _musicPackPromoBanner;
 
   /// @brief Field _dlcPromoPanelModel, offset 0xc0, size 0x8
-  __declspec(property(get = __get__dlcPromoPanelModel, put = __set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
+  __declspec(property(get = __cordl_internal_get__dlcPromoPanelModel, put = __cordl_internal_set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
 
   /// @brief Field _appStaticSettings, offset 0xc8, size 0x8
-  __declspec(property(get = __get__appStaticSettings, put = __set__appStaticSettings))::GlobalNamespace::AppStaticSettingsSO* _appStaticSettings;
+  __declspec(property(get = __cordl_internal_get__appStaticSettings, put = __cordl_internal_set__appStaticSettings))::UnityW<::GlobalNamespace::AppStaticSettingsSO> _appStaticSettings;
 
   /// @brief Field _analyticsModel, offset 0xd0, size 0x8
-  __declspec(property(get = __get__analyticsModel, put = __set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
   /// @brief Field didFinishEvent, offset 0xd8, size 0x8
-  __declspec(property(get = __get_didFinishEvent,
-                      put = __set_didFinishEvent))::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton>* didFinishEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didFinishEvent,
+      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* didFinishEvent;
 
   /// @brief Field musicPackPromoButtonWasPressedEvent, offset 0xe0, size 0x8
-  __declspec(property(
-      get = __get_musicPackPromoButtonWasPressedEvent,
-      put = __set_musicPackPromoButtonWasPressedEvent))::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* musicPackPromoButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_musicPackPromoButtonWasPressedEvent,
+                      put = __cordl_internal_set_musicPackPromoButtonWasPressedEvent))::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*,
+                                                                                                         ::GlobalNamespace::IPreviewBeatmapLevel*>* musicPackPromoButtonWasPressedEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__soloButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__soloButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__soloButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__soloButton() const;
 
-  constexpr void __set__soloButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__soloButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__partyButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__partyButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__partyButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__partyButton() const;
 
-  constexpr void __set__partyButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__partyButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__campaignButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__campaignButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__campaignButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__campaignButton() const;
 
-  constexpr void __set__campaignButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__campaignButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__quitButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__quitButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__quitButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__quitButton() const;
 
-  constexpr void __set__quitButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__quitButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__howToPlayButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__howToPlayButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__howToPlayButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__howToPlayButton() const;
 
-  constexpr void __set__howToPlayButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__howToPlayButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__beatmapEditorButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__beatmapEditorButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__beatmapEditorButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__beatmapEditorButton() const;
 
-  constexpr void __set__beatmapEditorButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__beatmapEditorButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__multiplayerButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__multiplayerButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__multiplayerButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__multiplayerButton() const;
 
-  constexpr void __set__multiplayerButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__multiplayerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__optionsButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__optionsButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__optionsButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__optionsButton() const;
 
-  constexpr void __set__optionsButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__optionsButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__musicPackPromoButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__musicPackPromoButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__musicPackPromoButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__musicPackPromoButton() const;
 
-  constexpr void __set__musicPackPromoButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__musicPackPromoButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::MusicPackPromoBanner*& __get__musicPackPromoBanner();
+  constexpr ::UnityW<::GlobalNamespace::MusicPackPromoBanner>& __cordl_internal_get__musicPackPromoBanner();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MusicPackPromoBanner*> const& __get__musicPackPromoBanner() const;
+  constexpr ::UnityW<::GlobalNamespace::MusicPackPromoBanner> const& __cordl_internal_get__musicPackPromoBanner() const;
 
-  constexpr void __set__musicPackPromoBanner(::GlobalNamespace::MusicPackPromoBanner* value);
+  constexpr void __cordl_internal_set__musicPackPromoBanner(::UnityW<::GlobalNamespace::MusicPackPromoBanner> value);
 
-  constexpr ::GlobalNamespace::DlcPromoPanelModel*& __get__dlcPromoPanelModel();
+  constexpr ::GlobalNamespace::DlcPromoPanelModel*& __cordl_internal_get__dlcPromoPanelModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DlcPromoPanelModel*> const& __get__dlcPromoPanelModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DlcPromoPanelModel*> const& __cordl_internal_get__dlcPromoPanelModel() const;
 
-  constexpr void __set__dlcPromoPanelModel(::GlobalNamespace::DlcPromoPanelModel* value);
+  constexpr void __cordl_internal_set__dlcPromoPanelModel(::GlobalNamespace::DlcPromoPanelModel* value);
 
-  constexpr ::GlobalNamespace::AppStaticSettingsSO*& __get__appStaticSettings();
+  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO>& __cordl_internal_get__appStaticSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppStaticSettingsSO*> const& __get__appStaticSettings() const;
+  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO> const& __cordl_internal_get__appStaticSettings() const;
 
-  constexpr void __set__appStaticSettings(::GlobalNamespace::AppStaticSettingsSO* value);
+  constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __get__analyticsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton>*& __get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton>*> const&
-  __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>*> const&
+  __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& __get_musicPackPromoButtonWasPressedEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& __cordl_internal_get_musicPackPromoButtonWasPressedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*> const&
-  __get_musicPackPromoButtonWasPressedEvent() const;
+  __cordl_internal_get_musicPackPromoButtonWasPressedEvent() const;
 
-  constexpr void __set_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  constexpr void __cordl_internal_set_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22c8abc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x22c8b6c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
   /// @brief Method add_musicPackPromoButtonWasPressedEvent, addr 0x22c8c1c, size 0xb0, virtual false, abstract: false, final false
   inline void add_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
@@ -338,46 +339,46 @@ protected:
 
 public:
   /// @brief Field _soloButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____soloButton;
+  ::UnityW<::UnityEngine::UI::Button> ____soloButton;
 
   /// @brief Field _partyButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____partyButton;
+  ::UnityW<::UnityEngine::UI::Button> ____partyButton;
 
   /// @brief Field _campaignButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____campaignButton;
+  ::UnityW<::UnityEngine::UI::Button> ____campaignButton;
 
   /// @brief Field _quitButton, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____quitButton;
+  ::UnityW<::UnityEngine::UI::Button> ____quitButton;
 
   /// @brief Field _howToPlayButton, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____howToPlayButton;
+  ::UnityW<::UnityEngine::UI::Button> ____howToPlayButton;
 
   /// @brief Field _beatmapEditorButton, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____beatmapEditorButton;
+  ::UnityW<::UnityEngine::UI::Button> ____beatmapEditorButton;
 
   /// @brief Field _multiplayerButton, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____multiplayerButton;
+  ::UnityW<::UnityEngine::UI::Button> ____multiplayerButton;
 
   /// @brief Field _optionsButton, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____optionsButton;
+  ::UnityW<::UnityEngine::UI::Button> ____optionsButton;
 
   /// @brief Field _musicPackPromoButton, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____musicPackPromoButton;
+  ::UnityW<::UnityEngine::UI::Button> ____musicPackPromoButton;
 
   /// @brief Field _musicPackPromoBanner, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::MusicPackPromoBanner* ____musicPackPromoBanner;
+  ::UnityW<::GlobalNamespace::MusicPackPromoBanner> ____musicPackPromoBanner;
 
   /// @brief Field _dlcPromoPanelModel, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
 
   /// @brief Field _appStaticSettings, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::AppStaticSettingsSO* ____appStaticSettings;
+  ::UnityW<::GlobalNamespace::AppStaticSettingsSO> ____appStaticSettings;
 
   /// @brief Field _analyticsModel, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
   /// @brief Field didFinishEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* ___didFinishEvent;
 
   /// @brief Field musicPackPromoButtonWasPressedEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* ___musicPackPromoButtonWasPressedEvent;

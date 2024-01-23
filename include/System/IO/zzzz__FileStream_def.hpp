@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::System::IO::__FileStream__WriteDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3625))
 // CS Name: ::FileStream::ReadDelegate*
 class CORDL_TYPE __FileStream__ReadDelegate : public ::System::MulticastDelegate {
@@ -117,7 +117,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__FileStream__ReadDe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3626))
 // CS Name: ::FileStream::WriteDelegate*
 class CORDL_TYPE __FileStream__WriteDelegate : public ::System::MulticastDelegate {
@@ -161,7 +161,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__FileStream__WriteD
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3627))
 // CS Name: ::System.IO::FileStream*
 class CORDL_TYPE FileStream : public ::System::IO::Stream {
@@ -172,49 +172,49 @@ public:
   using ReadDelegate = ::System::IO::__FileStream__ReadDelegate;
 
   /// @brief Field buf, offset 0x28, size 0x8
-  __declspec(property(get = __get_buf, put = __set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
 
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field safeHandle, offset 0x38, size 0x8
-  __declspec(property(get = __get_safeHandle, put = __set_safeHandle))::Microsoft::Win32::SafeHandles::SafeFileHandle* safeHandle;
+  __declspec(property(get = __cordl_internal_get_safeHandle, put = __cordl_internal_set_safeHandle))::Microsoft::Win32::SafeHandles::SafeFileHandle* safeHandle;
 
   /// @brief Field isExposed, offset 0x40, size 0x1
-  __declspec(property(get = __get_isExposed, put = __set_isExposed)) bool isExposed;
+  __declspec(property(get = __cordl_internal_get_isExposed, put = __cordl_internal_set_isExposed)) bool isExposed;
 
   /// @brief Field append_startpos, offset 0x48, size 0x8
-  __declspec(property(get = __get_append_startpos, put = __set_append_startpos)) int64_t append_startpos;
+  __declspec(property(get = __cordl_internal_get_append_startpos, put = __cordl_internal_set_append_startpos)) int64_t append_startpos;
 
   /// @brief Field access, offset 0x50, size 0x4
-  __declspec(property(get = __get_access, put = __set_access))::System::IO::FileAccess access;
+  __declspec(property(get = __cordl_internal_get_access, put = __cordl_internal_set_access))::System::IO::FileAccess access;
 
   /// @brief Field owner, offset 0x54, size 0x1
-  __declspec(property(get = __get_owner, put = __set_owner)) bool owner;
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner)) bool owner;
 
   /// @brief Field async, offset 0x55, size 0x1
-  __declspec(property(get = __get_async, put = __set_async)) bool async;
+  __declspec(property(get = __cordl_internal_get_async, put = __cordl_internal_set_async)) bool async;
 
   /// @brief Field canseek, offset 0x56, size 0x1
-  __declspec(property(get = __get_canseek, put = __set_canseek)) bool canseek;
+  __declspec(property(get = __cordl_internal_get_canseek, put = __cordl_internal_set_canseek)) bool canseek;
 
   /// @brief Field anonymous, offset 0x57, size 0x1
-  __declspec(property(get = __get_anonymous, put = __set_anonymous)) bool anonymous;
+  __declspec(property(get = __cordl_internal_get_anonymous, put = __cordl_internal_set_anonymous)) bool anonymous;
 
   /// @brief Field buf_dirty, offset 0x58, size 0x1
-  __declspec(property(get = __get_buf_dirty, put = __set_buf_dirty)) bool buf_dirty;
+  __declspec(property(get = __cordl_internal_get_buf_dirty, put = __cordl_internal_set_buf_dirty)) bool buf_dirty;
 
   /// @brief Field buf_size, offset 0x5c, size 0x4
-  __declspec(property(get = __get_buf_size, put = __set_buf_size)) int32_t buf_size;
+  __declspec(property(get = __cordl_internal_get_buf_size, put = __cordl_internal_set_buf_size)) int32_t buf_size;
 
   /// @brief Field buf_length, offset 0x60, size 0x4
-  __declspec(property(get = __get_buf_length, put = __set_buf_length)) int32_t buf_length;
+  __declspec(property(get = __cordl_internal_get_buf_length, put = __cordl_internal_set_buf_length)) int32_t buf_length;
 
   /// @brief Field buf_offset, offset 0x64, size 0x4
-  __declspec(property(get = __get_buf_offset, put = __set_buf_offset)) int32_t buf_offset;
+  __declspec(property(get = __cordl_internal_get_buf_offset, put = __cordl_internal_set_buf_offset)) int32_t buf_offset;
 
   /// @brief Field buf_start, offset 0x68, size 0x8
-  __declspec(property(get = __get_buf_start, put = __set_buf_start)) int64_t buf_start;
+  __declspec(property(get = __cordl_internal_get_buf_start, put = __cordl_internal_set_buf_start)) int64_t buf_start;
 
   /// @brief Field buf_recycle, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_buf_recycle, put = setStaticF_buf_recycle))::ArrayW<uint8_t, ::Array<uint8_t>*> buf_recycle;
@@ -234,95 +234,95 @@ public:
 
   __declspec(property(get = get_SafeFileHandle))::Microsoft::Win32::SafeHandles::SafeFileHandle* SafeFileHandle;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::Microsoft::Win32::SafeHandles::SafeFileHandle*& __get_safeHandle();
+  constexpr ::Microsoft::Win32::SafeHandles::SafeFileHandle*& __cordl_internal_get_safeHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeFileHandle*> const& __get_safeHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeFileHandle*> const& __cordl_internal_get_safeHandle() const;
 
-  constexpr void __set_safeHandle(::Microsoft::Win32::SafeHandles::SafeFileHandle* value);
+  constexpr void __cordl_internal_set_safeHandle(::Microsoft::Win32::SafeHandles::SafeFileHandle* value);
 
-  constexpr bool& __get_isExposed();
+  constexpr bool& __cordl_internal_get_isExposed();
 
-  constexpr bool const& __get_isExposed() const;
+  constexpr bool const& __cordl_internal_get_isExposed() const;
 
-  constexpr void __set_isExposed(bool value);
+  constexpr void __cordl_internal_set_isExposed(bool value);
 
-  constexpr int64_t& __get_append_startpos();
+  constexpr int64_t& __cordl_internal_get_append_startpos();
 
-  constexpr int64_t const& __get_append_startpos() const;
+  constexpr int64_t const& __cordl_internal_get_append_startpos() const;
 
-  constexpr void __set_append_startpos(int64_t value);
+  constexpr void __cordl_internal_set_append_startpos(int64_t value);
 
-  constexpr ::System::IO::FileAccess& __get_access();
+  constexpr ::System::IO::FileAccess& __cordl_internal_get_access();
 
-  constexpr ::System::IO::FileAccess const& __get_access() const;
+  constexpr ::System::IO::FileAccess const& __cordl_internal_get_access() const;
 
-  constexpr void __set_access(::System::IO::FileAccess value);
+  constexpr void __cordl_internal_set_access(::System::IO::FileAccess value);
 
-  constexpr bool& __get_owner();
+  constexpr bool& __cordl_internal_get_owner();
 
-  constexpr bool const& __get_owner() const;
+  constexpr bool const& __cordl_internal_get_owner() const;
 
-  constexpr void __set_owner(bool value);
+  constexpr void __cordl_internal_set_owner(bool value);
 
-  constexpr bool& __get_async();
+  constexpr bool& __cordl_internal_get_async();
 
-  constexpr bool const& __get_async() const;
+  constexpr bool const& __cordl_internal_get_async() const;
 
-  constexpr void __set_async(bool value);
+  constexpr void __cordl_internal_set_async(bool value);
 
-  constexpr bool& __get_canseek();
+  constexpr bool& __cordl_internal_get_canseek();
 
-  constexpr bool const& __get_canseek() const;
+  constexpr bool const& __cordl_internal_get_canseek() const;
 
-  constexpr void __set_canseek(bool value);
+  constexpr void __cordl_internal_set_canseek(bool value);
 
-  constexpr bool& __get_anonymous();
+  constexpr bool& __cordl_internal_get_anonymous();
 
-  constexpr bool const& __get_anonymous() const;
+  constexpr bool const& __cordl_internal_get_anonymous() const;
 
-  constexpr void __set_anonymous(bool value);
+  constexpr void __cordl_internal_set_anonymous(bool value);
 
-  constexpr bool& __get_buf_dirty();
+  constexpr bool& __cordl_internal_get_buf_dirty();
 
-  constexpr bool const& __get_buf_dirty() const;
+  constexpr bool const& __cordl_internal_get_buf_dirty() const;
 
-  constexpr void __set_buf_dirty(bool value);
+  constexpr void __cordl_internal_set_buf_dirty(bool value);
 
-  constexpr int32_t& __get_buf_size();
+  constexpr int32_t& __cordl_internal_get_buf_size();
 
-  constexpr int32_t const& __get_buf_size() const;
+  constexpr int32_t const& __cordl_internal_get_buf_size() const;
 
-  constexpr void __set_buf_size(int32_t value);
+  constexpr void __cordl_internal_set_buf_size(int32_t value);
 
-  constexpr int32_t& __get_buf_length();
+  constexpr int32_t& __cordl_internal_get_buf_length();
 
-  constexpr int32_t const& __get_buf_length() const;
+  constexpr int32_t const& __cordl_internal_get_buf_length() const;
 
-  constexpr void __set_buf_length(int32_t value);
+  constexpr void __cordl_internal_set_buf_length(int32_t value);
 
-  constexpr int32_t& __get_buf_offset();
+  constexpr int32_t& __cordl_internal_get_buf_offset();
 
-  constexpr int32_t const& __get_buf_offset() const;
+  constexpr int32_t const& __cordl_internal_get_buf_offset() const;
 
-  constexpr void __set_buf_offset(int32_t value);
+  constexpr void __cordl_internal_set_buf_offset(int32_t value);
 
-  constexpr int64_t& __get_buf_start();
+  constexpr int64_t& __cordl_internal_get_buf_start();
 
-  constexpr int64_t const& __get_buf_start() const;
+  constexpr int64_t const& __cordl_internal_get_buf_start() const;
 
-  constexpr void __set_buf_start(int64_t value);
+  constexpr void __cordl_internal_set_buf_start(int64_t value);
 
   static inline void setStaticF_buf_recycle(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::GCHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3336))
 // CS Name: ::System.Runtime.InteropServices::GCHandle
 struct CORDL_TYPE GCHandle {

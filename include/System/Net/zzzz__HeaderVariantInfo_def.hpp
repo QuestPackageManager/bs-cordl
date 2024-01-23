@@ -19,7 +19,7 @@ MARK_VAL_T(::System::Net::HeaderVariantInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9119))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9129))
 // CS Name: ::System.Net::HeaderVariantInfo
 struct CORDL_TYPE HeaderVariantInfo {

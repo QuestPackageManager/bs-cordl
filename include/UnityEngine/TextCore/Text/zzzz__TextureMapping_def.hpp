@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextureMapping);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13688))
 // CS Name: ::UnityEngine.TextCore.Text::TextureMapping
 struct CORDL_TYPE TextureMapping {

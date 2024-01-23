@@ -30,33 +30,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Icao::DataGroupHash);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Icao {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(175))
 // CS Name: ::Org.BouncyCastle.Asn1.Icao::DataGroupHash*
 class CORDL_TYPE DataGroupHash : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field dataGroupNumber, offset 0x10, size 0x8
-  __declspec(property(get = __get_dataGroupNumber, put = __set_dataGroupNumber))::Org::BouncyCastle::Asn1::DerInteger* dataGroupNumber;
+  __declspec(property(get = __cordl_internal_get_dataGroupNumber, put = __cordl_internal_set_dataGroupNumber))::Org::BouncyCastle::Asn1::DerInteger* dataGroupNumber;
 
   /// @brief Field dataGroupHashValue, offset 0x18, size 0x8
-  __declspec(property(get = __get_dataGroupHashValue, put = __set_dataGroupHashValue))::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue;
+  __declspec(property(get = __cordl_internal_get_dataGroupHashValue, put = __cordl_internal_set_dataGroupHashValue))::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue;
 
   __declspec(property(get = get_DataGroupNumber)) int32_t DataGroupNumber;
 
   __declspec(property(get = get_DataGroupHashValue))::Org::BouncyCastle::Asn1::Asn1OctetString* DataGroupHashValue;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_dataGroupNumber();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_dataGroupNumber();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_dataGroupNumber() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_dataGroupNumber() const;
 
-  constexpr void __set_dataGroupNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_dataGroupNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_dataGroupHashValue();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_dataGroupHashValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_dataGroupHashValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_dataGroupHashValue() const;
 
-  constexpr void __set_dataGroupHashValue(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_dataGroupHashValue(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   /// @brief Method GetInstance, addr 0xf74820, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* GetInstance(::System::Object* obj);

@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10317)), TypeDefinitionIndex(TypeDefinitionIndex(10194))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10194)), TypeDefinitionIndex(TypeDefinitionIndex(10317))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10195))
 // CS Name: ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*
 class CORDL_TYPE RuntimeInitializeOnLoadMethodAttribute : public ::UnityEngine::Scripting::PreserveAttribute {
 public:
   // Declarations
   /// @brief Field m_LoadType, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_LoadType, put = __set_m_LoadType))::UnityEngine::RuntimeInitializeLoadType m_LoadType;
+  __declspec(property(get = __cordl_internal_get_m_LoadType, put = __cordl_internal_set_m_LoadType))::UnityEngine::RuntimeInitializeLoadType m_LoadType;
 
   __declspec(property(put = set_loadType))::UnityEngine::RuntimeInitializeLoadType loadType;
 
-  constexpr ::UnityEngine::RuntimeInitializeLoadType& __get_m_LoadType();
+  constexpr ::UnityEngine::RuntimeInitializeLoadType& __cordl_internal_get_m_LoadType();
 
-  constexpr ::UnityEngine::RuntimeInitializeLoadType const& __get_m_LoadType() const;
+  constexpr ::UnityEngine::RuntimeInitializeLoadType const& __cordl_internal_get_m_LoadType() const;
 
-  constexpr void __set_m_LoadType(::UnityEngine::RuntimeInitializeLoadType value);
+  constexpr void __cordl_internal_set_m_LoadType(::UnityEngine::RuntimeInitializeLoadType value);
 
   static inline ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute* New_ctor();
 

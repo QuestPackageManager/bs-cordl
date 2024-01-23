@@ -36,101 +36,102 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorView
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15270))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarColorViewController*
 class CORDL_TYPE EditAvatarColorViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _hsvPanelController, offset 0x70, size 0x8
-  __declspec(property(get = __get__hsvPanelController, put = __set__hsvPanelController))::GlobalNamespace::HSVPanelController* _hsvPanelController;
+  __declspec(property(get = __cordl_internal_get__hsvPanelController, put = __cordl_internal_set__hsvPanelController))::UnityW<::GlobalNamespace::HSVPanelController> _hsvPanelController;
 
   /// @brief Field _previousColorPanelController, offset 0x78, size 0x8
-  __declspec(property(get = __get__previousColorPanelController, put = __set__previousColorPanelController))::GlobalNamespace::PreviousColorPanelController* _previousColorPanelController;
+  __declspec(property(get = __cordl_internal_get__previousColorPanelController,
+                      put = __cordl_internal_set__previousColorPanelController))::UnityW<::GlobalNamespace::PreviousColorPanelController> _previousColorPanelController;
 
   /// @brief Field _cancelButton, offset 0x80, size 0x8
-  __declspec(property(get = __get__cancelButton, put = __set__cancelButton))::UnityEngine::UI::Button* _cancelButton;
+  __declspec(property(get = __cordl_internal_get__cancelButton, put = __cordl_internal_set__cancelButton))::UnityW<::UnityEngine::UI::Button> _cancelButton;
 
   /// @brief Field _applyButton, offset 0x88, size 0x8
-  __declspec(property(get = __get__applyButton, put = __set__applyButton))::UnityEngine::UI::Button* _applyButton;
+  __declspec(property(get = __cordl_internal_get__applyButton, put = __cordl_internal_set__applyButton))::UnityW<::UnityEngine::UI::Button> _applyButton;
 
   /// @brief Field didChangeColorEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_didChangeColorEvent, put = __set_didChangeColorEvent))::System::Action_1<::UnityEngine::Color>* didChangeColorEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeColorEvent, put = __cordl_internal_set_didChangeColorEvent))::System::Action_1<::UnityEngine::Color>* didChangeColorEvent;
 
   /// @brief Field didFinishEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<bool>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<bool>* didFinishEvent;
 
   /// @brief Field _colorCallback, offset 0xa0, size 0x8
-  __declspec(property(get = __get__colorCallback, put = __set__colorCallback))::System::Action_1<::UnityEngine::Color>* _colorCallback;
+  __declspec(property(get = __cordl_internal_get__colorCallback, put = __cordl_internal_set__colorCallback))::System::Action_1<::UnityEngine::Color>* _colorCallback;
 
   /// @brief Field _initialColor, offset 0xa8, size 0x10
-  __declspec(property(get = __get__initialColor, put = __set__initialColor))::UnityEngine::Color _initialColor;
+  __declspec(property(get = __cordl_internal_get__initialColor, put = __cordl_internal_set__initialColor))::UnityEngine::Color _initialColor;
 
   /// @brief Field _colorChanged, offset 0xb8, size 0x1
-  __declspec(property(get = __get__colorChanged, put = __set__colorChanged)) bool _colorChanged;
+  __declspec(property(get = __cordl_internal_get__colorChanged, put = __cordl_internal_set__colorChanged)) bool _colorChanged;
 
   /// @brief Field _buttonBinder, offset 0xc0, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  constexpr ::GlobalNamespace::HSVPanelController*& __get__hsvPanelController();
+  constexpr ::UnityW<::GlobalNamespace::HSVPanelController>& __cordl_internal_get__hsvPanelController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HSVPanelController*> const& __get__hsvPanelController() const;
+  constexpr ::UnityW<::GlobalNamespace::HSVPanelController> const& __cordl_internal_get__hsvPanelController() const;
 
-  constexpr void __set__hsvPanelController(::GlobalNamespace::HSVPanelController* value);
+  constexpr void __cordl_internal_set__hsvPanelController(::UnityW<::GlobalNamespace::HSVPanelController> value);
 
-  constexpr ::GlobalNamespace::PreviousColorPanelController*& __get__previousColorPanelController();
+  constexpr ::UnityW<::GlobalNamespace::PreviousColorPanelController>& __cordl_internal_get__previousColorPanelController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviousColorPanelController*> const& __get__previousColorPanelController() const;
+  constexpr ::UnityW<::GlobalNamespace::PreviousColorPanelController> const& __cordl_internal_get__previousColorPanelController() const;
 
-  constexpr void __set__previousColorPanelController(::GlobalNamespace::PreviousColorPanelController* value);
+  constexpr void __cordl_internal_set__previousColorPanelController(::UnityW<::GlobalNamespace::PreviousColorPanelController> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
-  constexpr void __set__cancelButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__applyButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__applyButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__applyButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
 
-  constexpr void __set__applyButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__applyButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __get_didChangeColorEvent();
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_didChangeColorEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __get_didChangeColorEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_didChangeColorEvent() const;
 
-  constexpr void __set_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  constexpr ::System::Action_1<bool>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<bool>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __get__colorCallback();
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get__colorCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __get__colorCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get__colorCallback() const;
 
-  constexpr void __set__colorCallback(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set__colorCallback(::System::Action_1<::UnityEngine::Color>* value);
 
-  constexpr ::UnityEngine::Color& __get__initialColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__initialColor();
 
-  constexpr ::UnityEngine::Color const& __get__initialColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__initialColor() const;
 
-  constexpr void __set__initialColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__initialColor(::UnityEngine::Color value);
 
-  constexpr bool& __get__colorChanged();
+  constexpr bool& __cordl_internal_get__colorChanged();
 
-  constexpr bool const& __get__colorChanged() const;
+  constexpr bool const& __cordl_internal_get__colorChanged() const;
 
-  constexpr void __set__colorChanged(bool value);
+  constexpr void __cordl_internal_set__colorChanged(bool value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method add_didChangeColorEvent, addr 0xe125d0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
@@ -191,16 +192,16 @@ protected:
 
 public:
   /// @brief Field _hsvPanelController, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::HSVPanelController* ____hsvPanelController;
+  ::UnityW<::GlobalNamespace::HSVPanelController> ____hsvPanelController;
 
   /// @brief Field _previousColorPanelController, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::PreviousColorPanelController* ____previousColorPanelController;
+  ::UnityW<::GlobalNamespace::PreviousColorPanelController> ____previousColorPanelController;
 
   /// @brief Field _cancelButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
   /// @brief Field _applyButton, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____applyButton;
+  ::UnityW<::UnityEngine::UI::Button> ____applyButton;
 
   /// @brief Field didChangeColorEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Color>* ___didChangeColorEvent;

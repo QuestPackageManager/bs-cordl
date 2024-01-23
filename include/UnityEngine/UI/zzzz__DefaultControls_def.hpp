@@ -60,14 +60,14 @@ MARK_VAL_T(::UnityEngine::UI::__DefaultControls__Resources);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13029))
 // CS Name: ::DefaultControls::IFactoryControls*
 class CORDL_TYPE __DefaultControls__IFactoryControls {
 public:
   // Declarations
   /// @brief Method CreateGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
+  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultControls__IFactoryControls", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -85,7 +85,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13030))
 // CS Name: ::DefaultControls::DefaultRuntimeFactory*
 class CORDL_TYPE __DefaultControls__DefaultRuntimeFactory : public ::System::Object {
@@ -105,7 +105,7 @@ public:
   static inline ::UnityEngine::UI::__DefaultControls__IFactoryControls* getStaticF_Default();
 
   /// @brief Method CreateGameObject, addr 0x2d58058, size 0x74, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
+  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
 
   static inline ::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory* New_ctor();
 
@@ -136,43 +136,44 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__DefaultContro
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13031))
 // CS Name: ::DefaultControls::Resources
 struct CORDL_TYPE __DefaultControls__Resources {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "standard", ty: "::UnityEngine::Sprite*", modifiers: "", def_value: None }, CppParam { name: "background", ty: "::UnityEngine::Sprite*", modifiers: "",
-  // def_value: None }, CppParam { name: "inputField", ty: "::UnityEngine::Sprite*", modifiers: "", def_value: None }, CppParam { name: "knob", ty: "::UnityEngine::Sprite*", modifiers: "", def_value:
-  // None }, CppParam { name: "checkmark", ty: "::UnityEngine::Sprite*", modifiers: "", def_value: None }, CppParam { name: "dropdown", ty: "::UnityEngine::Sprite*", modifiers: "", def_value: None },
-  // CppParam { name: "mask", ty: "::UnityEngine::Sprite*", modifiers: "", def_value: None }]
-  constexpr __DefaultControls__Resources(::UnityEngine::Sprite* standard, ::UnityEngine::Sprite* background, ::UnityEngine::Sprite* inputField, ::UnityEngine::Sprite* knob,
-                                         ::UnityEngine::Sprite* checkmark, ::UnityEngine::Sprite* dropdown, ::UnityEngine::Sprite* mask) noexcept;
+  // Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>",
+  // modifiers: "", def_value: None }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "knob", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name:
+  // "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
+  constexpr __DefaultControls__Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background, ::UnityW<::UnityEngine::Sprite> inputField,
+                                         ::UnityW<::UnityEngine::Sprite> knob, ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
+                                         ::UnityW<::UnityEngine::Sprite> mask) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __DefaultControls__Resources();
 
   /// @brief Field standard, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Sprite* standard;
+  ::UnityW<::UnityEngine::Sprite> standard;
 
   /// @brief Field background, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Sprite* background;
+  ::UnityW<::UnityEngine::Sprite> background;
 
   /// @brief Field inputField, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Sprite* inputField;
+  ::UnityW<::UnityEngine::Sprite> inputField;
 
   /// @brief Field knob, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Sprite* knob;
+  ::UnityW<::UnityEngine::Sprite> knob;
 
   /// @brief Field checkmark, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Sprite* checkmark;
+  ::UnityW<::UnityEngine::Sprite> checkmark;
 
   /// @brief Field dropdown, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Sprite* dropdown;
+  ::UnityW<::UnityEngine::Sprite> dropdown;
 
   /// @brief Field mask, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Sprite* mask;
+  ::UnityW<::UnityEngine::Sprite> mask;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -201,7 +202,7 @@ static_assert(offsetof(::UnityEngine::UI::__DefaultControls__Resources, mask) ==
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13032))
 // CS Name: ::UnityEngine.UI::DefaultControls*
 class CORDL_TYPE DefaultControls : public ::System::Object {
@@ -266,10 +267,10 @@ public:
   static inline ::UnityEngine::UI::__DefaultControls__IFactoryControls* get_factory();
 
   /// @brief Method CreateUIElementRoot, addr 0x2d537e8, size 0x160, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
 
   /// @brief Method CreateUIObject, addr 0x2d53948, size 0x128, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
 
   /// @brief Method SetDefaultTextValues, addr 0x2d53b70, size 0xdc, virtual false, abstract: false, final false
   static inline void SetDefaultTextValues(::UnityEngine::UI::Text* lbl);
@@ -284,37 +285,37 @@ public:
   static inline void SetLayerRecursively(::UnityEngine::GameObject* go, int32_t layer);
 
   /// @brief Method CreatePanel, addr 0x2d53d40, size 0x2bc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreatePanel(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreatePanel(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateButton, addr 0x2d54364, size 0x3ec, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateButton(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateButton(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateText, addr 0x2d54750, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateText(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateText(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateImage, addr 0x2d548f0, size 0x13c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateImage(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateImage(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateRawImage, addr 0x2d54a2c, size 0x13c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateRawImage(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateRawImage(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateSlider, addr 0x2d54b68, size 0x6b4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateSlider(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateSlider(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateScrollbar, addr 0x2d5521c, size 0x474, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateScrollbar(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateScrollbar(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateToggle, addr 0x2d55690, size 0x578, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateToggle(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateToggle(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateInputField, addr 0x2d55c08, size 0x620, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateInputField(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateInputField(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateDropdown, addr 0x2d56228, size 0x1258, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateDropdown(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateDropdown(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   /// @brief Method CreateScrollView, addr 0x2d57698, size 0x8e8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateScrollView(::UnityEngine::UI::__DefaultControls__Resources resources);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateScrollView(::UnityEngine::UI::__DefaultControls__Resources resources);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultControls", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13679))
 // CS Name: ::UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
 struct CORDL_TYPE FontAssetCreationEditorSettings {

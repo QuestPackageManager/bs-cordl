@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSizeData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4177))
 // CS Name: ::EnvironmentSizeData::FloorType
 struct CORDL_TYPE __EnvironmentSizeData__FloorType {
@@ -88,7 +88,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__FloorType, valu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4178))
 // CS Name: ::EnvironmentSizeData::CeilingType
 struct CORDL_TYPE __EnvironmentSizeData__CeilingType {
@@ -138,7 +138,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__CeilingType, va
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4179))
 // CS Name: ::EnvironmentSizeData::TrackLaneType
 struct CORDL_TYPE __EnvironmentSizeData__TrackLaneType {
@@ -188,8 +188,8 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4179)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4178)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4177))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4180)) CS Name: ::EnvironmentSizeData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4177)), TypeDefinitionIndex(TypeDefinitionIndex(4178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4179))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4180)) CS Name: ::EnvironmentSizeData*
 class CORDL_TYPE EnvironmentSizeData : public ::System::Object {
 public:
   // Declarations
@@ -200,13 +200,13 @@ public:
   using FloorType = ::GlobalNamespace::__EnvironmentSizeData__FloorType;
 
   /// @brief Field _floorType, offset 0x10, size 0x4
-  __declspec(property(get = __get__floorType, put = __set__floorType))::GlobalNamespace::__EnvironmentSizeData__FloorType _floorType;
+  __declspec(property(get = __cordl_internal_get__floorType, put = __cordl_internal_set__floorType))::GlobalNamespace::__EnvironmentSizeData__FloorType _floorType;
 
   /// @brief Field _ceilingType, offset 0x14, size 0x4
-  __declspec(property(get = __get__ceilingType, put = __set__ceilingType))::GlobalNamespace::__EnvironmentSizeData__CeilingType _ceilingType;
+  __declspec(property(get = __cordl_internal_get__ceilingType, put = __cordl_internal_set__ceilingType))::GlobalNamespace::__EnvironmentSizeData__CeilingType _ceilingType;
 
   /// @brief Field _trackLaneType, offset 0x18, size 0x4
-  __declspec(property(get = __get__trackLaneType, put = __set__trackLaneType))::GlobalNamespace::__EnvironmentSizeData__TrackLaneType _trackLaneType;
+  __declspec(property(get = __cordl_internal_get__trackLaneType, put = __cordl_internal_set__trackLaneType))::GlobalNamespace::__EnvironmentSizeData__TrackLaneType _trackLaneType;
 
   __declspec(property(get = get_floorType))::GlobalNamespace::__EnvironmentSizeData__FloorType floorType;
 
@@ -214,23 +214,23 @@ public:
 
   __declspec(property(get = get_trackLaneType))::GlobalNamespace::__EnvironmentSizeData__TrackLaneType trackLaneType;
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType& __get__floorType();
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType& __cordl_internal_get__floorType();
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType const& __get__floorType() const;
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType const& __cordl_internal_get__floorType() const;
 
-  constexpr void __set__floorType(::GlobalNamespace::__EnvironmentSizeData__FloorType value);
+  constexpr void __cordl_internal_set__floorType(::GlobalNamespace::__EnvironmentSizeData__FloorType value);
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType& __get__ceilingType();
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType& __cordl_internal_get__ceilingType();
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType const& __get__ceilingType() const;
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType const& __cordl_internal_get__ceilingType() const;
 
-  constexpr void __set__ceilingType(::GlobalNamespace::__EnvironmentSizeData__CeilingType value);
+  constexpr void __cordl_internal_set__ceilingType(::GlobalNamespace::__EnvironmentSizeData__CeilingType value);
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType& __get__trackLaneType();
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType& __cordl_internal_get__trackLaneType();
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType const& __get__trackLaneType() const;
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType const& __cordl_internal_get__trackLaneType() const;
 
-  constexpr void __set__trackLaneType(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType value);
+  constexpr void __cordl_internal_set__trackLaneType(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType value);
 
   /// @brief Method get_floorType, addr 0x2240908, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentSizeData__FloorType get_floorType();

@@ -36,32 +36,32 @@ MARK_REF_PTR_T(::GlobalNamespace::MusicPackPromoBanner);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5799))
 // CS Name: ::MusicPackPromoBanner*
 class CORDL_TYPE MusicPackPromoBanner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _promoBannerGo, offset 0x18, size 0x8
-  __declspec(property(get = __get__promoBannerGo, put = __set__promoBannerGo))::UnityEngine::GameObject* _promoBannerGo;
+  __declspec(property(get = __cordl_internal_get__promoBannerGo, put = __cordl_internal_set__promoBannerGo))::UnityW<::UnityEngine::GameObject> _promoBannerGo;
 
   /// @brief Field _promoBannerTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__promoBannerTransform, put = __set__promoBannerTransform))::UnityEngine::RectTransform* _promoBannerTransform;
+  __declspec(property(get = __cordl_internal_get__promoBannerTransform, put = __cordl_internal_set__promoBannerTransform))::UnityW<::UnityEngine::RectTransform> _promoBannerTransform;
 
   /// @brief Field _promoText, offset 0x28, size 0x8
-  __declspec(property(get = __get__promoText, put = __set__promoText))::TMPro::TextMeshProUGUI* _promoText;
+  __declspec(property(get = __cordl_internal_get__promoText, put = __cordl_internal_set__promoText))::UnityW<::TMPro::TextMeshProUGUI> _promoText;
 
   /// @brief Field _backgroundImage, offset 0x30, size 0x8
-  __declspec(property(get = __get__backgroundImage, put = __set__backgroundImage))::UnityEngine::UI::Image* _backgroundImage;
+  __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage))::UnityW<::UnityEngine::UI::Image> _backgroundImage;
 
   /// @brief Field _currentPromoMusicPack, offset 0x38, size 0x8
-  __declspec(property(get = __get__currentPromoMusicPack, put = __set__currentPromoMusicPack))::GlobalNamespace::IBeatmapLevelPack* _currentPromoMusicPack;
+  __declspec(property(get = __cordl_internal_get__currentPromoMusicPack, put = __cordl_internal_set__currentPromoMusicPack))::GlobalNamespace::IBeatmapLevelPack* _currentPromoMusicPack;
 
   /// @brief Field _currentPromoBeatmapLevel, offset 0x40, size 0x8
-  __declspec(property(get = __get__currentPromoBeatmapLevel, put = __set__currentPromoBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* _currentPromoBeatmapLevel;
+  __declspec(property(get = __cordl_internal_get__currentPromoBeatmapLevel, put = __cordl_internal_set__currentPromoBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* _currentPromoBeatmapLevel;
 
   /// @brief Field _text, offset 0x48, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::StringW _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::StringW _text;
 
   __declspec(property(get = get_currentPromoBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* currentPromoBeatmapLevel;
 
@@ -69,47 +69,47 @@ public:
 
   __declspec(property(get = get_promoButtonText))::StringW promoButtonText;
 
-  constexpr ::UnityEngine::GameObject*& __get__promoBannerGo();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promoBannerGo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__promoBannerGo() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__promoBannerGo() const;
 
-  constexpr void __set__promoBannerGo(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__promoBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__promoBannerTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__promoBannerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__promoBannerTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__promoBannerTransform() const;
 
-  constexpr void __set__promoBannerTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__promoBannerTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__promoText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__promoText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__promoText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__promoText() const;
 
-  constexpr void __set__promoText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__promoText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__backgroundImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__backgroundImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__backgroundImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
 
-  constexpr void __set__backgroundImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__backgroundImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __get__currentPromoMusicPack();
+  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __cordl_internal_get__currentPromoMusicPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __get__currentPromoMusicPack() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __cordl_internal_get__currentPromoMusicPack() const;
 
-  constexpr void __set__currentPromoMusicPack(::GlobalNamespace::IBeatmapLevelPack* value);
+  constexpr void __cordl_internal_set__currentPromoMusicPack(::GlobalNamespace::IBeatmapLevelPack* value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get__currentPromoBeatmapLevel();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get__currentPromoBeatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get__currentPromoBeatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get__currentPromoBeatmapLevel() const;
 
-  constexpr void __set__currentPromoBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set__currentPromoBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
-  constexpr ::StringW& __get__text();
+  constexpr ::StringW& __cordl_internal_get__text();
 
-  constexpr ::StringW const& __get__text() const;
+  constexpr ::StringW const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::StringW value);
+  constexpr void __cordl_internal_set__text(::StringW value);
 
   /// @brief Method get_currentPromoBeatmapLevel, addr 0x22e77a8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IPreviewBeatmapLevel* get_currentPromoBeatmapLevel();
@@ -143,16 +143,16 @@ protected:
 
 public:
   /// @brief Field _promoBannerGo, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____promoBannerGo;
+  ::UnityW<::UnityEngine::GameObject> ____promoBannerGo;
 
   /// @brief Field _promoBannerTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____promoBannerTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____promoBannerTransform;
 
   /// @brief Field _promoText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____promoText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____promoText;
 
   /// @brief Field _backgroundImage, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____backgroundImage;
+  ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
   /// @brief Field _currentPromoMusicPack, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelPack* ____currentPromoMusicPack;

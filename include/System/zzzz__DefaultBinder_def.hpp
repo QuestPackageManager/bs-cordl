@@ -74,38 +74,38 @@ MARK_REF_PTR_T(::System::__DefaultBinder____c);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2551))
 // CS Name: ::DefaultBinder::BinderState*
 class CORDL_TYPE __DefaultBinder__BinderState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_argsMap, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_argsMap, put = __set_m_argsMap))::ArrayW<int32_t, ::Array<int32_t>*> m_argsMap;
+  __declspec(property(get = __cordl_internal_get_m_argsMap, put = __cordl_internal_set_m_argsMap))::ArrayW<int32_t, ::Array<int32_t>*> m_argsMap;
 
   /// @brief Field m_originalSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_originalSize, put = __set_m_originalSize)) int32_t m_originalSize;
+  __declspec(property(get = __cordl_internal_get_m_originalSize, put = __cordl_internal_set_m_originalSize)) int32_t m_originalSize;
 
   /// @brief Field m_isParamArray, offset 0x1c, size 0x1
-  __declspec(property(get = __get_m_isParamArray, put = __set_m_isParamArray)) bool m_isParamArray;
+  __declspec(property(get = __cordl_internal_get_m_isParamArray, put = __cordl_internal_set_m_isParamArray)) bool m_isParamArray;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_argsMap();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_argsMap();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_argsMap() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_argsMap() const;
 
-  constexpr void __set_m_argsMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_argsMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_m_originalSize();
+  constexpr int32_t& __cordl_internal_get_m_originalSize();
 
-  constexpr int32_t const& __get_m_originalSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_originalSize() const;
 
-  constexpr void __set_m_originalSize(int32_t value);
+  constexpr void __cordl_internal_set_m_originalSize(int32_t value);
 
-  constexpr bool& __get_m_isParamArray();
+  constexpr bool& __cordl_internal_get_m_isParamArray();
 
-  constexpr bool const& __get_m_isParamArray() const;
+  constexpr bool const& __cordl_internal_get_m_isParamArray() const;
 
-  constexpr void __set_m_isParamArray(bool value);
+  constexpr void __cordl_internal_set_m_isParamArray(bool value);
 
   static inline ::System::__DefaultBinder__BinderState* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> argsMap, int32_t originalSize, bool isParamArray);
 
@@ -151,7 +151,7 @@ static_assert(offsetof(::System::__DefaultBinder__BinderState, ___m_isParamArray
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2552))
 // CS Name: ::DefaultBinder::Primitives
 struct CORDL_TYPE __DefaultBinder__Primitives {
@@ -253,7 +253,7 @@ static_assert(offsetof(::System::__DefaultBinder__Primitives, value__) == 0x0, "
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2553))
 // CS Name: ::DefaultBinder::<>c*
 class CORDL_TYPE __DefaultBinder____c : public ::System::Object {
@@ -305,7 +305,7 @@ static_assert(::cordl_internals::size_check_v<::System::__DefaultBinder____c, 0x
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3458))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3458))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2554))
 // CS Name: ::System::DefaultBinder*
 class CORDL_TYPE DefaultBinder : public ::System::Reflection::Binder {

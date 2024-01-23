@@ -26,14 +26,15 @@ MARK_REF_PTR_T(::GlobalNamespace::JumpReceiver);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14405))
 // CS Name: ::JumpReceiver*
 class CORDL_TYPE JumpReceiver : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field <jumpToDestinationValid>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__jumpToDestinationValid_k__BackingField, put = __set__jumpToDestinationValid_k__BackingField)) bool _jumpToDestinationValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__jumpToDestinationValid_k__BackingField,
+                      put = __cordl_internal_set__jumpToDestinationValid_k__BackingField)) bool _jumpToDestinationValid_k__BackingField;
 
   __declspec(property(get = get_jumpToDestinationValid, put = set_jumpToDestinationValid)) bool jumpToDestinationValid;
 
@@ -43,11 +44,11 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  constexpr bool& __get__jumpToDestinationValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__jumpToDestinationValid_k__BackingField();
 
-  constexpr bool const& __get__jumpToDestinationValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__jumpToDestinationValid_k__BackingField() const;
 
-  constexpr void __set__jumpToDestinationValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__jumpToDestinationValid_k__BackingField(bool value);
 
   /// @brief Method get_jumpToDestinationValid, addr 0x20f5bc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_jumpToDestinationValid();

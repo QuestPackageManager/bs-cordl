@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::InspectorNameAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10172))
 // CS Name: ::UnityEngine::InspectorNameAttribute*
 class CORDL_TYPE InspectorNameAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field displayName, offset 0x10, size 0x8
-  __declspec(property(get = __get_displayName, put = __set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
 
-  constexpr ::StringW& __get_displayName();
+  constexpr ::StringW& __cordl_internal_get_displayName();
 
-  constexpr ::StringW const& __get_displayName() const;
+  constexpr ::StringW const& __cordl_internal_get_displayName() const;
 
-  constexpr void __set_displayName(::StringW value);
+  constexpr void __cordl_internal_set_displayName(::StringW value);
 
   static inline ::UnityEngine::InspectorNameAttribute* New_ctor(::StringW displayName);
 

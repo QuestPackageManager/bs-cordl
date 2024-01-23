@@ -35,22 +35,22 @@ namespace Zenject {
 // cpp template
 template <typename P1, typename P2, typename P3, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11103))
 // CS Name: ::Zenject::PrefabFactory`4<P1,P2,P3,T>*
 class CORDL_TYPE PrefabFactory_4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
 
-  /// @brief Convert operator to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
-  constexpr operator ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*() noexcept;
+  /// @brief Convert operator to "::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>,P1,P2,P3,T>"
+  constexpr operator ::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>, P1, P2, P3, T>*() noexcept;
 
-  /// @brief Convert to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
-  constexpr ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>* i___Zenject__IFactory_5___UnityEngine__Object__P1_P2_P3_T_() noexcept;
+  /// @brief Convert to "::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>,P1,P2,P3,T>"
+  constexpr ::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>, P1, P2, P3, T>* i___Zenject__IFactory_5___UnityW___UnityEngine__Object__P1_P2_P3_T_() noexcept;
 
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::Zenject::IFactory"
   constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();

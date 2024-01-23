@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Zenject::TickablesTaskUpdater);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11337)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11337), inst: 3099 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15732))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11338)) CS Name: ::Zenject::TickablesTaskUpdater*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11337)), TypeDefinitionIndex(TypeDefinitionIndex(15732)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11337), inst:
+// 3099 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11338)) CS Name: ::Zenject::TickablesTaskUpdater*
 class CORDL_TYPE TickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ITickable*> {
 public:
   // Declarations

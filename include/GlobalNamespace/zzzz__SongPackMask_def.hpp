@@ -40,7 +40,7 @@ MARK_VAL_T(::GlobalNamespace::SongPackMask);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14990))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14990))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15047))
 // CS Name: ::SongPackMask
 struct CORDL_TYPE SongPackMask {

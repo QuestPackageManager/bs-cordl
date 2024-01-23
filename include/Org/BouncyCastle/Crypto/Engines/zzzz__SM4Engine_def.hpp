@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SM4Engine);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(873))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SM4Engine*
 class CORDL_TYPE SM4Engine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rk, offset 0x10, size 0x8
-  __declspec(property(get = __get_rk, put = __set_rk))::ArrayW<uint32_t, ::Array<uint32_t>*> rk;
+  __declspec(property(get = __cordl_internal_get_rk, put = __cordl_internal_set_rk))::ArrayW<uint32_t, ::Array<uint32_t>*> rk;
 
   /// @brief Field Sbox, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Sbox, put = setStaticF_Sbox))::ArrayW<uint8_t, ::Array<uint8_t>*> Sbox;
@@ -51,11 +51,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_rk();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_rk();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_rk() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_rk() const;
 
-  constexpr void __set_rk(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_rk(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline void setStaticF_Sbox(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

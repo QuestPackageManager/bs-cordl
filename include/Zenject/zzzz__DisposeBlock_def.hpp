@@ -70,7 +70,7 @@ MARK_VAL_T(::Zenject::__DisposeBlock__SpawnedObjectPoolPair);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11349))
 // CS Name: ::DisposeBlock::SpawnedObjectPoolPair
 struct CORDL_TYPE __DisposeBlock__SpawnedObjectPoolPair {
@@ -106,7 +106,7 @@ static_assert(offsetof(::Zenject::__DisposeBlock__SpawnedObjectPoolPair, Object)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11350))
 // CS Name: ::Zenject::DisposeBlock*
 class CORDL_TYPE DisposeBlock : public ::System::Object {
@@ -115,10 +115,11 @@ public:
   using SpawnedObjectPoolPair = ::Zenject::__DisposeBlock__SpawnedObjectPoolPair;
 
   /// @brief Field _disposables, offset 0x10, size 0x8
-  __declspec(property(get = __get__disposables, put = __set__disposables))::System::Collections::Generic::List_1<::System::IDisposable*>* _disposables;
+  __declspec(property(get = __cordl_internal_get__disposables, put = __cordl_internal_set__disposables))::System::Collections::Generic::List_1<::System::IDisposable*>* _disposables;
 
   /// @brief Field _objectPoolPairs, offset 0x18, size 0x8
-  __declspec(property(get = __get__objectPoolPairs, put = __set__objectPoolPairs))::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* _objectPoolPairs;
+  __declspec(property(get = __cordl_internal_get__objectPoolPairs,
+                      put = __cordl_internal_set__objectPoolPairs))::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* _objectPoolPairs;
 
   /// @brief Field _pool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__pool, put = setStaticF__pool))::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* _pool;
@@ -129,17 +130,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& __get__disposables();
+  constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& __cordl_internal_get__disposables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::IDisposable*>*> const& __get__disposables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::IDisposable*>*> const& __cordl_internal_get__disposables() const;
 
-  constexpr void __set__disposables(::System::Collections::Generic::List_1<::System::IDisposable*>* value);
+  constexpr void __cordl_internal_set__disposables(::System::Collections::Generic::List_1<::System::IDisposable*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*& __get__objectPoolPairs();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*& __cordl_internal_get__objectPoolPairs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*> const& __get__objectPoolPairs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*> const& __cordl_internal_get__objectPoolPairs() const;
 
-  constexpr void __set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* value);
+  constexpr void __cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* value);
 
   static inline void setStaticF__pool(::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* value);
 

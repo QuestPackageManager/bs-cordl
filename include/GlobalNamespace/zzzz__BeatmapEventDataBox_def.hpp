@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBox);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4300))
 // CS Name: ::BeatmapEventDataBox::DistributionParamType
 struct CORDL_TYPE __BeatmapEventDataBox__DistributionParamType {
@@ -91,7 +91,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapEventDataBox__DistributionPar
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4301))
 // CS Name: ::BeatmapEventDataBox*
 class CORDL_TYPE BeatmapEventDataBox : public ::System::Object {
@@ -100,28 +100,31 @@ public:
   using DistributionParamType = ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType;
 
   /// @brief Field <indexFilter>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__indexFilter_k__BackingField, put = __set__indexFilter_k__BackingField))::GlobalNamespace::IndexFilter* _indexFilter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__indexFilter_k__BackingField, put = __cordl_internal_set__indexFilter_k__BackingField))::GlobalNamespace::IndexFilter* _indexFilter_k__BackingField;
 
   /// @brief Field _beatDistributionParam, offset 0x18, size 0x4
-  __declspec(property(get = __get__beatDistributionParam, put = __set__beatDistributionParam)) float_t _beatDistributionParam;
+  __declspec(property(get = __cordl_internal_get__beatDistributionParam, put = __cordl_internal_set__beatDistributionParam)) float_t _beatDistributionParam;
 
   /// @brief Field _beatDistributionParamType, offset 0x1c, size 0x4
-  __declspec(property(get = __get__beatDistributionParamType, put = __set__beatDistributionParamType))::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _beatDistributionParamType;
+  __declspec(property(get = __cordl_internal_get__beatDistributionParamType,
+                      put = __cordl_internal_set__beatDistributionParamType))::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _beatDistributionParamType;
 
   /// @brief Field _eventDistributionCount, offset 0x20, size 0x4
-  __declspec(property(get = __get__eventDistributionCount, put = __set__eventDistributionCount)) int32_t _eventDistributionCount;
+  __declspec(property(get = __cordl_internal_get__eventDistributionCount, put = __cordl_internal_set__eventDistributionCount)) int32_t _eventDistributionCount;
 
   /// @brief Field _eventDistributionParamType, offset 0x24, size 0x4
-  __declspec(property(get = __get__eventDistributionParamType, put = __set__eventDistributionParamType))::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _eventDistributionParamType;
+  __declspec(property(get = __cordl_internal_get__eventDistributionParamType,
+                      put = __cordl_internal_set__eventDistributionParamType))::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _eventDistributionParamType;
 
   /// @brief Field _eventDistributionParam, offset 0x28, size 0x4
-  __declspec(property(get = __get__eventDistributionParam, put = __set__eventDistributionParam)) float_t _eventDistributionParam;
+  __declspec(property(get = __cordl_internal_get__eventDistributionParam, put = __cordl_internal_set__eventDistributionParam)) float_t _eventDistributionParam;
 
   /// @brief Field _eventDistributionShouldAffectFirstBaseEvent, offset 0x2c, size 0x1
-  __declspec(property(get = __get__eventDistributionShouldAffectFirstBaseEvent, put = __set__eventDistributionShouldAffectFirstBaseEvent)) bool _eventDistributionShouldAffectFirstBaseEvent;
+  __declspec(property(get = __cordl_internal_get__eventDistributionShouldAffectFirstBaseEvent,
+                      put = __cordl_internal_set__eventDistributionShouldAffectFirstBaseEvent)) bool _eventDistributionShouldAffectFirstBaseEvent;
 
   /// @brief Field _eventDistributionEaseType, offset 0x30, size 0x4
-  __declspec(property(get = __get__eventDistributionEaseType, put = __set__eventDistributionEaseType))::GlobalNamespace::EaseType _eventDistributionEaseType;
+  __declspec(property(get = __cordl_internal_get__eventDistributionEaseType, put = __cordl_internal_set__eventDistributionEaseType))::GlobalNamespace::EaseType _eventDistributionEaseType;
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
@@ -129,53 +132,53 @@ public:
 
   __declspec(property(get = get_indexFilter))::GlobalNamespace::IndexFilter* indexFilter;
 
-  constexpr ::GlobalNamespace::IndexFilter*& __get__indexFilter_k__BackingField();
+  constexpr ::GlobalNamespace::IndexFilter*& __cordl_internal_get__indexFilter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& __get__indexFilter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& __cordl_internal_get__indexFilter_k__BackingField() const;
 
-  constexpr void __set__indexFilter_k__BackingField(::GlobalNamespace::IndexFilter* value);
+  constexpr void __cordl_internal_set__indexFilter_k__BackingField(::GlobalNamespace::IndexFilter* value);
 
-  constexpr float_t& __get__beatDistributionParam();
+  constexpr float_t& __cordl_internal_get__beatDistributionParam();
 
-  constexpr float_t const& __get__beatDistributionParam() const;
+  constexpr float_t const& __cordl_internal_get__beatDistributionParam() const;
 
-  constexpr void __set__beatDistributionParam(float_t value);
+  constexpr void __cordl_internal_set__beatDistributionParam(float_t value);
 
-  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType& __get__beatDistributionParamType();
+  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType& __cordl_internal_get__beatDistributionParamType();
 
-  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const& __get__beatDistributionParamType() const;
+  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const& __cordl_internal_get__beatDistributionParamType() const;
 
-  constexpr void __set__beatDistributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value);
+  constexpr void __cordl_internal_set__beatDistributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value);
 
-  constexpr int32_t& __get__eventDistributionCount();
+  constexpr int32_t& __cordl_internal_get__eventDistributionCount();
 
-  constexpr int32_t const& __get__eventDistributionCount() const;
+  constexpr int32_t const& __cordl_internal_get__eventDistributionCount() const;
 
-  constexpr void __set__eventDistributionCount(int32_t value);
+  constexpr void __cordl_internal_set__eventDistributionCount(int32_t value);
 
-  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType& __get__eventDistributionParamType();
+  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType& __cordl_internal_get__eventDistributionParamType();
 
-  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const& __get__eventDistributionParamType() const;
+  constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const& __cordl_internal_get__eventDistributionParamType() const;
 
-  constexpr void __set__eventDistributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value);
+  constexpr void __cordl_internal_set__eventDistributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value);
 
-  constexpr float_t& __get__eventDistributionParam();
+  constexpr float_t& __cordl_internal_get__eventDistributionParam();
 
-  constexpr float_t const& __get__eventDistributionParam() const;
+  constexpr float_t const& __cordl_internal_get__eventDistributionParam() const;
 
-  constexpr void __set__eventDistributionParam(float_t value);
+  constexpr void __cordl_internal_set__eventDistributionParam(float_t value);
 
-  constexpr bool& __get__eventDistributionShouldAffectFirstBaseEvent();
+  constexpr bool& __cordl_internal_get__eventDistributionShouldAffectFirstBaseEvent();
 
-  constexpr bool const& __get__eventDistributionShouldAffectFirstBaseEvent() const;
+  constexpr bool const& __cordl_internal_get__eventDistributionShouldAffectFirstBaseEvent() const;
 
-  constexpr void __set__eventDistributionShouldAffectFirstBaseEvent(bool value);
+  constexpr void __cordl_internal_set__eventDistributionShouldAffectFirstBaseEvent(bool value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__eventDistributionEaseType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__eventDistributionEaseType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__eventDistributionEaseType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__eventDistributionEaseType() const;
 
-  constexpr void __set__eventDistributionEaseType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__eventDistributionEaseType(::GlobalNamespace::EaseType value);
 
   /// @brief Method get_subtypeIdentifier, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_subtypeIdentifier();

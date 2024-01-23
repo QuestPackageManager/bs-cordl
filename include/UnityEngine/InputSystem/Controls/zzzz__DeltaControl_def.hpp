@@ -17,23 +17,23 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DeltaControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6644))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6644))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6630))
 // CS Name: ::UnityEngine.InputSystem.Controls::DeltaControl*
 class CORDL_TYPE DeltaControl : public ::UnityEngine::InputSystem::Controls::Vector2Control {
 public:
   // Declarations
   /// @brief Field <up>k__BackingField, offset 0x100, size 0x8
-  __declspec(property(get = __get__up_k__BackingField, put = __set__up_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _up_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__up_k__BackingField, put = __cordl_internal_set__up_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _up_k__BackingField;
 
   /// @brief Field <down>k__BackingField, offset 0x108, size 0x8
-  __declspec(property(get = __get__down_k__BackingField, put = __set__down_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _down_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__down_k__BackingField, put = __cordl_internal_set__down_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _down_k__BackingField;
 
   /// @brief Field <left>k__BackingField, offset 0x110, size 0x8
-  __declspec(property(get = __get__left_k__BackingField, put = __set__left_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _left_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__left_k__BackingField, put = __cordl_internal_set__left_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _left_k__BackingField;
 
   /// @brief Field <right>k__BackingField, offset 0x118, size 0x8
-  __declspec(property(get = __get__right_k__BackingField, put = __set__right_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _right_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__right_k__BackingField, put = __cordl_internal_set__right_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _right_k__BackingField;
 
   __declspec(property(get = get_up, put = set_up))::UnityEngine::InputSystem::Controls::AxisControl* up;
 
@@ -43,29 +43,29 @@ public:
 
   __declspec(property(get = get_right, put = set_right))::UnityEngine::InputSystem::Controls::AxisControl* right;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__up_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__up_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__up_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__up_k__BackingField() const;
 
-  constexpr void __set__up_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__down_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__down_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__down_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__down_k__BackingField() const;
 
-  constexpr void __set__down_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__down_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__left_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__left_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__left_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__left_k__BackingField() const;
 
-  constexpr void __set__left_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__left_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__right_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__right_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__right_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__right_k__BackingField() const;
 
-  constexpr void __set__right_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__right_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// @brief Method get_up, addr 0x2b0a324, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_up();

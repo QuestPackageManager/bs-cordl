@@ -35,23 +35,25 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathDocumentNavigator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11767))
 // CS Name: ::MS.Internal.Xml.Cache::XPathDocumentNavigator*
 class CORDL_TYPE XPathDocumentNavigator : public ::System::Xml::XPath::XPathNavigator {
 public:
   // Declarations
   /// @brief Field _pageCurrent, offset 0x10, size 0x8
-  __declspec(property(get = __get__pageCurrent, put = __set__pageCurrent))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageCurrent;
+  __declspec(property(get = __cordl_internal_get__pageCurrent,
+                      put = __cordl_internal_set__pageCurrent))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageCurrent;
 
   /// @brief Field _pageParent, offset 0x18, size 0x8
-  __declspec(property(get = __get__pageParent, put = __set__pageParent))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageParent;
+  __declspec(property(get = __cordl_internal_get__pageParent,
+                      put = __cordl_internal_set__pageParent))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageParent;
 
   /// @brief Field _idxCurrent, offset 0x20, size 0x4
-  __declspec(property(get = __get__idxCurrent, put = __set__idxCurrent)) int32_t _idxCurrent;
+  __declspec(property(get = __cordl_internal_get__idxCurrent, put = __cordl_internal_set__idxCurrent)) int32_t _idxCurrent;
 
   /// @brief Field _idxParent, offset 0x24, size 0x4
-  __declspec(property(get = __get__idxParent, put = __set__idxParent)) int32_t _idxParent;
+  __declspec(property(get = __cordl_internal_get__idxParent, put = __cordl_internal_set__idxParent)) int32_t _idxParent;
 
   __declspec(property(get = get_Value))::StringW Value;
 
@@ -67,29 +69,29 @@ public:
 
   __declspec(property(get = get_UnderlyingObject))::System::Object* UnderlyingObject;
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __get__pageCurrent();
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __cordl_internal_get__pageCurrent();
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __get__pageCurrent() const;
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __cordl_internal_get__pageCurrent() const;
 
-  constexpr void __set__pageCurrent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
+  constexpr void __cordl_internal_set__pageCurrent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __get__pageParent();
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __cordl_internal_get__pageParent();
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __get__pageParent() const;
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __cordl_internal_get__pageParent() const;
 
-  constexpr void __set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
+  constexpr void __cordl_internal_set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  constexpr int32_t& __get__idxCurrent();
+  constexpr int32_t& __cordl_internal_get__idxCurrent();
 
-  constexpr int32_t const& __get__idxCurrent() const;
+  constexpr int32_t const& __cordl_internal_get__idxCurrent() const;
 
-  constexpr void __set__idxCurrent(int32_t value);
+  constexpr void __cordl_internal_set__idxCurrent(int32_t value);
 
-  constexpr int32_t& __get__idxParent();
+  constexpr int32_t& __cordl_internal_get__idxParent();
 
-  constexpr int32_t const& __get__idxParent() const;
+  constexpr int32_t const& __cordl_internal_get__idxParent() const;
 
-  constexpr void __set__idxParent(int32_t value);
+  constexpr void __cordl_internal_set__idxParent(int32_t value);
 
   static inline ::MS::Internal::Xml::Cache::XPathDocumentNavigator* New_ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageCurrent,
                                                                              int32_t idxCurrent,

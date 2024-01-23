@@ -26,31 +26,31 @@ MARK_REF_PTR_T(::System::Xml::XmlAsyncCheckWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11491))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11491))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11447))
 // CS Name: ::System.Xml::XmlAsyncCheckWriter*
 class CORDL_TYPE XmlAsyncCheckWriter : public ::System::Xml::XmlWriter {
 public:
   // Declarations
   /// @brief Field coreWriter, offset 0x10, size 0x8
-  __declspec(property(get = __get_coreWriter, put = __set_coreWriter))::System::Xml::XmlWriter* coreWriter;
+  __declspec(property(get = __cordl_internal_get_coreWriter, put = __cordl_internal_set_coreWriter))::System::Xml::XmlWriter* coreWriter;
 
   /// @brief Field lastTask, offset 0x18, size 0x8
-  __declspec(property(get = __get_lastTask, put = __set_lastTask))::System::Threading::Tasks::Task* lastTask;
+  __declspec(property(get = __cordl_internal_get_lastTask, put = __cordl_internal_set_lastTask))::System::Threading::Tasks::Task* lastTask;
 
   __declspec(property(get = get_WriteState))::System::Xml::WriteState WriteState;
 
-  constexpr ::System::Xml::XmlWriter*& __get_coreWriter();
+  constexpr ::System::Xml::XmlWriter*& __cordl_internal_get_coreWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& __get_coreWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& __cordl_internal_get_coreWriter() const;
 
-  constexpr void __set_coreWriter(::System::Xml::XmlWriter* value);
+  constexpr void __cordl_internal_set_coreWriter(::System::Xml::XmlWriter* value);
 
-  constexpr ::System::Threading::Tasks::Task*& __get_lastTask();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_lastTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_lastTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_lastTask() const;
 
-  constexpr void __set_lastTask(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_lastTask(::System::Threading::Tasks::Task* value);
 
   static inline ::System::Xml::XmlAsyncCheckWriter* New_ctor(::System::Xml::XmlWriter* writer);
 

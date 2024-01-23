@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Collider_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9914))
 // CS Name: ::Test_Collider_Extensions::<>c*
 class CORDL_TYPE __Test_Collider_Extensions____c : public ::System::Object {
@@ -44,22 +44,22 @@ public:
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::HoudiniEngineUnity::__Test_Collider_Extensions____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Converter_2<::UnityW<::UnityEngine::Collider>, ::HoudiniEngineUnity::Test_Collider*>* __9__1_0;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::Collider>, ::HoudiniEngineUnity::Test_Collider*>* __9__2_0;
 
   static inline void setStaticF___9(::HoudiniEngineUnity::__Test_Collider_Extensions____c* value);
 
   static inline ::HoudiniEngineUnity::__Test_Collider_Extensions____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>* value);
+  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Collider>, ::HoudiniEngineUnity::Test_Collider*>* value);
 
-  static inline ::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>* getStaticF___9__1_0();
+  static inline ::System::Converter_2<::UnityW<::UnityEngine::Collider>, ::HoudiniEngineUnity::Test_Collider*>* getStaticF___9__1_0();
 
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>* value);
+  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Collider>, ::HoudiniEngineUnity::Test_Collider*>* value);
 
-  static inline ::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>* getStaticF___9__2_0();
+  static inline ::System::Converter_2<::UnityW<::UnityEngine::Collider>, ::HoudiniEngineUnity::Test_Collider*>* getStaticF___9__2_0();
 
   static inline ::HoudiniEngineUnity::__Test_Collider_Extensions____c* New_ctor();
 
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Colli
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9915))
 // CS Name: ::HoudiniEngineUnity::Test_Collider_Extensions*
 class CORDL_TYPE Test_Collider_Extensions : public ::System::Object {
@@ -112,7 +112,7 @@ public:
   ToTestObject(::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> self);
 
   /// @brief Method ToTestObject, addr 0x21e54a4, size 0xfc, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Collider*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Collider*>* self);
+  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Collider*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Collider_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

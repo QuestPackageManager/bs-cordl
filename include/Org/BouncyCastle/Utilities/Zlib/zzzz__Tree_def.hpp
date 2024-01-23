@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Tree);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1826))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Tree*
 class CORDL_TYPE Tree : public ::System::Object {
 public:
   // Declarations
   /// @brief Field dyn_tree, offset 0x10, size 0x8
-  __declspec(property(get = __get_dyn_tree, put = __set_dyn_tree))::ArrayW<int16_t, ::Array<int16_t>*> dyn_tree;
+  __declspec(property(get = __cordl_internal_get_dyn_tree, put = __cordl_internal_set_dyn_tree))::ArrayW<int16_t, ::Array<int16_t>*> dyn_tree;
 
   /// @brief Field max_code, offset 0x18, size 0x4
-  __declspec(property(get = __get_max_code, put = __set_max_code)) int32_t max_code;
+  __declspec(property(get = __cordl_internal_get_max_code, put = __cordl_internal_set_max_code)) int32_t max_code;
 
   /// @brief Field stat_desc, offset 0x20, size 0x8
-  __declspec(property(get = __get_stat_desc, put = __set_stat_desc))::Org::BouncyCastle::Utilities::Zlib::StaticTree* stat_desc;
+  __declspec(property(get = __cordl_internal_get_stat_desc, put = __cordl_internal_set_stat_desc))::Org::BouncyCastle::Utilities::Zlib::StaticTree* stat_desc;
 
   /// @brief Field extra_lbits, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_extra_lbits, put = setStaticF_extra_lbits))::ArrayW<int32_t, ::Array<int32_t>*> extra_lbits;
@@ -61,23 +61,23 @@ public:
   /// @brief Field base_dist, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_base_dist, put = setStaticF_base_dist))::ArrayW<int32_t, ::Array<int32_t>*> base_dist;
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_dyn_tree();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_dyn_tree();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_dyn_tree() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_dyn_tree() const;
 
-  constexpr void __set_dyn_tree(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_dyn_tree(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr int32_t& __get_max_code();
+  constexpr int32_t& __cordl_internal_get_max_code();
 
-  constexpr int32_t const& __get_max_code() const;
+  constexpr int32_t const& __cordl_internal_get_max_code() const;
 
-  constexpr void __set_max_code(int32_t value);
+  constexpr void __cordl_internal_set_max_code(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::StaticTree*& __get_stat_desc();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::StaticTree*& __cordl_internal_get_stat_desc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::StaticTree*> const& __get_stat_desc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::StaticTree*> const& __cordl_internal_get_stat_desc() const;
 
-  constexpr void __set_stat_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree* value);
+  constexpr void __cordl_internal_set_stat_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree* value);
 
   static inline void setStaticF_extra_lbits(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

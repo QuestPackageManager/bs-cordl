@@ -35,14 +35,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonArray);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12074))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12074))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12076))
 // CS Name: ::Newtonsoft.Json.Bson::BsonArray*
 class CORDL_TYPE BsonArray : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
   // Declarations
   /// @brief Field _children, offset 0x20, size 0x8
-  __declspec(property(get = __get__children, put = __set__children))::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* _children;
+  __declspec(property(get = __cordl_internal_get__children, put = __cordl_internal_set__children))::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* _children;
 
   __declspec(property(get = get_Type))::Newtonsoft::Json::Bson::BsonType Type;
 
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>*& __get__children();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>*& __cordl_internal_get__children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>*> const& __get__children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>*> const& __cordl_internal_get__children() const;
 
-  constexpr void __set__children(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* value);
+  constexpr void __cordl_internal_set__children(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* value);
 
   /// @brief Method Add, addr 0x26c8290, size 0xb0, virtual false, abstract: false, final false
   inline void Add(::Newtonsoft::Json::Bson::BsonToken* token);

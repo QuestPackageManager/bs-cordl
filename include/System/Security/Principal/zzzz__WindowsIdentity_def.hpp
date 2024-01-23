@@ -48,29 +48,29 @@ MARK_REF_PTR_T(::System::Security::Principal::WindowsIdentity);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3005)), TypeDefinitionIndex(TypeDefinitionIndex(3010)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3005)), TypeDefinitionIndex(TypeDefinitionIndex(3010))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3006))
 // CS Name: ::System.Security.Principal::WindowsIdentity*
 class CORDL_TYPE WindowsIdentity : public ::System::Security::Claims::ClaimsIdentity {
 public:
   // Declarations
   /// @brief Field _token, offset 0x78, size 0x8
-  __declspec(property(get = __get__token, put = __set__token)) void* _token;
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) void* _token;
 
   /// @brief Field _type, offset 0x80, size 0x8
-  __declspec(property(get = __get__type, put = __set__type))::StringW _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::StringW _type;
 
   /// @brief Field _account, offset 0x88, size 0x4
-  __declspec(property(get = __get__account, put = __set__account))::System::Security::Principal::WindowsAccountType _account;
+  __declspec(property(get = __cordl_internal_get__account, put = __cordl_internal_set__account))::System::Security::Principal::WindowsAccountType _account;
 
   /// @brief Field _authenticated, offset 0x8c, size 0x1
-  __declspec(property(get = __get__authenticated, put = __set__authenticated)) bool _authenticated;
+  __declspec(property(get = __cordl_internal_get__authenticated, put = __cordl_internal_set__authenticated)) bool _authenticated;
 
   /// @brief Field _name, offset 0x90, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _info, offset 0x98, size 0x8
-  __declspec(property(get = __get__info, put = __set__info))::System::Runtime::Serialization::SerializationInfo* _info;
+  __declspec(property(get = __cordl_internal_get__info, put = __cordl_internal_set__info))::System::Runtime::Serialization::SerializationInfo* _info;
 
   /// @brief Field invalidWindows, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_invalidWindows, put = setStaticF_invalidWindows)) void* invalidWindows;
@@ -103,41 +103,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get__token();
+  constexpr void*& __cordl_internal_get__token();
 
-  constexpr void* const& __get__token() const;
+  constexpr void* const& __cordl_internal_get__token() const;
 
-  constexpr void __set__token(void* value);
+  constexpr void __cordl_internal_set__token(void* value);
 
-  constexpr ::StringW& __get__type();
+  constexpr ::StringW& __cordl_internal_get__type();
 
-  constexpr ::StringW const& __get__type() const;
+  constexpr ::StringW const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::StringW value);
+  constexpr void __cordl_internal_set__type(::StringW value);
 
-  constexpr ::System::Security::Principal::WindowsAccountType& __get__account();
+  constexpr ::System::Security::Principal::WindowsAccountType& __cordl_internal_get__account();
 
-  constexpr ::System::Security::Principal::WindowsAccountType const& __get__account() const;
+  constexpr ::System::Security::Principal::WindowsAccountType const& __cordl_internal_get__account() const;
 
-  constexpr void __set__account(::System::Security::Principal::WindowsAccountType value);
+  constexpr void __cordl_internal_set__account(::System::Security::Principal::WindowsAccountType value);
 
-  constexpr bool& __get__authenticated();
+  constexpr bool& __cordl_internal_get__authenticated();
 
-  constexpr bool const& __get__authenticated() const;
+  constexpr bool const& __cordl_internal_get__authenticated() const;
 
-  constexpr void __set__authenticated(bool value);
+  constexpr void __cordl_internal_set__authenticated(bool value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get__info();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__info();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get__info() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__info() const;
 
-  constexpr void __set__info(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set__info(::System::Runtime::Serialization::SerializationInfo* value);
 
   static inline void setStaticF_invalidWindows(void* value);
 

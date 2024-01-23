@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::Collider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15492))
 // CS Name: ::UnityEngine::Collider*
 class CORDL_TYPE Collider : public ::UnityEngine::Component {
@@ -39,7 +39,7 @@ public:
   // Declarations
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  __declspec(property(get = get_attachedRigidbody))::UnityEngine::Rigidbody* attachedRigidbody;
+  __declspec(property(get = get_attachedRigidbody))::UnityW<::UnityEngine::Rigidbody> attachedRigidbody;
 
   __declspec(property(get = get_isTrigger, put = set_isTrigger)) bool isTrigger;
 
@@ -52,7 +52,7 @@ public:
   inline void set_enabled(bool value);
 
   /// @brief Method get_attachedRigidbody, addr 0x2d168cc, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rigidbody* get_attachedRigidbody();
+  inline ::UnityW<::UnityEngine::Rigidbody> get_attachedRigidbody();
 
   /// @brief Method get_isTrigger, addr 0x2d16908, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isTrigger();

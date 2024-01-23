@@ -73,7 +73,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2771))
 // CS Name: ::Task`1::TaskWhenAnyCast::<>c<TResult>*
 class CORDL_TYPE __Task_1__TaskWhenAnyCast____c : public ::System::Object {
@@ -118,7 +118,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2772))
 // CS Name: ::Task`1::TaskWhenAnyCast<TResult>*
 class CORDL_TYPE __Task_1__TaskWhenAnyCast : public ::System::Object {
@@ -158,7 +158,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2787))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2773))
 // CS Name: ::System.Threading.Tasks::Task`1<TResult>*
 class CORDL_TYPE Task_1 : public ::System::Threading::Tasks::Task {
@@ -167,7 +167,7 @@ public:
   using TaskWhenAnyCast = ::System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>;
 
   /// @brief Field m_result, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_result, put = __set_m_result)) TResult m_result;
+  __declspec(property(get = __cordl_internal_get_m_result, put = __cordl_internal_set_m_result)) TResult m_result;
 
   /// @brief Field s_defaultFactory, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_defaultFactory, put = setStaticF_s_defaultFactory))::System::Threading::Tasks::TaskFactory_1<TResult>* s_defaultFactory;
@@ -176,11 +176,11 @@ public:
 
   __declspec(property(get = get_ResultOnSuccess)) TResult ResultOnSuccess;
 
-  constexpr TResult& __get_m_result();
+  constexpr TResult& __cordl_internal_get_m_result();
 
-  constexpr TResult const& __get_m_result() const;
+  constexpr TResult const& __cordl_internal_get_m_result() const;
 
-  constexpr void __set_m_result(TResult value);
+  constexpr void __cordl_internal_set_m_result(TResult value);
 
   static inline void setStaticF_s_defaultFactory(::System::Threading::Tasks::TaskFactory_1<TResult>* value);
 

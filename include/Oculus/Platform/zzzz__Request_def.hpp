@@ -21,31 +21,31 @@ MARK_REF_PTR_T(::Oculus::Platform::Request);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13381))
 // CS Name: ::Oculus.Platform::Request*
 class CORDL_TYPE Request : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback_, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback_, put = __set_callback_))::Oculus::Platform::__Message__Callback* callback_;
+  __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_))::Oculus::Platform::__Message__Callback* callback_;
 
   /// @brief Field <RequestID>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__RequestID_k__BackingField, put = __set__RequestID_k__BackingField)) uint64_t _RequestID_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__RequestID_k__BackingField, put = __cordl_internal_set__RequestID_k__BackingField)) uint64_t _RequestID_k__BackingField;
 
   __declspec(property(get = get_RequestID, put = set_RequestID)) uint64_t RequestID;
 
-  constexpr ::Oculus::Platform::__Message__Callback*& __get_callback_();
+  constexpr ::Oculus::Platform::__Message__Callback*& __cordl_internal_get_callback_();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message__Callback*> const& __get_callback_() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message__Callback*> const& __cordl_internal_get_callback_() const;
 
-  constexpr void __set_callback_(::Oculus::Platform::__Message__Callback* value);
+  constexpr void __cordl_internal_set_callback_(::Oculus::Platform::__Message__Callback* value);
 
-  constexpr uint64_t& __get__RequestID_k__BackingField();
+  constexpr uint64_t& __cordl_internal_get__RequestID_k__BackingField();
 
-  constexpr uint64_t const& __get__RequestID_k__BackingField() const;
+  constexpr uint64_t const& __cordl_internal_get__RequestID_k__BackingField() const;
 
-  constexpr void __set__RequestID_k__BackingField(uint64_t value);
+  constexpr void __cordl_internal_set__RequestID_k__BackingField(uint64_t value);
 
   static inline ::Oculus::Platform::Request* New_ctor(uint64_t requestID);
 

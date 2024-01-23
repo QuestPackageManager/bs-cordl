@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDeclarationWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12065))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12058))
 // CS Name: ::Newtonsoft.Json.Converters::XDeclarationWrapper*
 class CORDL_TYPE XDeclarationWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
   /// @brief Field <Declaration>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Declaration_k__BackingField, put = __set__Declaration_k__BackingField))::System::Xml::Linq::XDeclaration* _Declaration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Declaration_k__BackingField, put = __cordl_internal_set__Declaration_k__BackingField))::System::Xml::Linq::XDeclaration* _Declaration_k__BackingField;
 
   __declspec(property(get = get_Declaration, put = set_Declaration))::System::Xml::Linq::XDeclaration* Declaration;
 
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  constexpr ::System::Xml::Linq::XDeclaration*& __get__Declaration_k__BackingField();
+  constexpr ::System::Xml::Linq::XDeclaration*& __cordl_internal_get__Declaration_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDeclaration*> const& __get__Declaration_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDeclaration*> const& __cordl_internal_get__Declaration_k__BackingField() const;
 
-  constexpr void __set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
+  constexpr void __cordl_internal_set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
   /// @brief Method get_Declaration, addr 0x26bae44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();

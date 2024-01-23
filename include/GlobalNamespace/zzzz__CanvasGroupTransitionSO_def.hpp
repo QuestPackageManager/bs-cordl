@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::GlobalNamespace::CanvasGroupTransitionSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5443))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5443))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5445))
 // CS Name: ::CanvasGroupTransitionSO*
 class CORDL_TYPE CanvasGroupTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
   /// @brief Field _normalAlpha, offset 0x20, size 0x4
-  __declspec(property(get = __get__normalAlpha, put = __set__normalAlpha)) float_t _normalAlpha;
+  __declspec(property(get = __cordl_internal_get__normalAlpha, put = __cordl_internal_set__normalAlpha)) float_t _normalAlpha;
 
   /// @brief Field _highlightedAlpha, offset 0x24, size 0x4
-  __declspec(property(get = __get__highlightedAlpha, put = __set__highlightedAlpha)) float_t _highlightedAlpha;
+  __declspec(property(get = __cordl_internal_get__highlightedAlpha, put = __cordl_internal_set__highlightedAlpha)) float_t _highlightedAlpha;
 
   /// @brief Field _pressedAlpha, offset 0x28, size 0x4
-  __declspec(property(get = __get__pressedAlpha, put = __set__pressedAlpha)) float_t _pressedAlpha;
+  __declspec(property(get = __cordl_internal_get__pressedAlpha, put = __cordl_internal_set__pressedAlpha)) float_t _pressedAlpha;
 
   /// @brief Field _disabledAlpha, offset 0x2c, size 0x4
-  __declspec(property(get = __get__disabledAlpha, put = __set__disabledAlpha)) float_t _disabledAlpha;
+  __declspec(property(get = __cordl_internal_get__disabledAlpha, put = __cordl_internal_set__disabledAlpha)) float_t _disabledAlpha;
 
   /// @brief Field _selectedAlpha, offset 0x30, size 0x4
-  __declspec(property(get = __get__selectedAlpha, put = __set__selectedAlpha)) float_t _selectedAlpha;
+  __declspec(property(get = __cordl_internal_get__selectedAlpha, put = __cordl_internal_set__selectedAlpha)) float_t _selectedAlpha;
 
   /// @brief Field _selectedAndHighlightedAlpha, offset 0x34, size 0x4
-  __declspec(property(get = __get__selectedAndHighlightedAlpha, put = __set__selectedAndHighlightedAlpha)) float_t _selectedAndHighlightedAlpha;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedAlpha, put = __cordl_internal_set__selectedAndHighlightedAlpha)) float_t _selectedAndHighlightedAlpha;
 
   __declspec(property(get = get_normalAlpha)) float_t normalAlpha;
 
@@ -51,41 +51,41 @@ public:
 
   __declspec(property(get = get_selectedAndHighlightedAlpha)) float_t selectedAndHighlightedAlpha;
 
-  constexpr float_t& __get__normalAlpha();
+  constexpr float_t& __cordl_internal_get__normalAlpha();
 
-  constexpr float_t const& __get__normalAlpha() const;
+  constexpr float_t const& __cordl_internal_get__normalAlpha() const;
 
-  constexpr void __set__normalAlpha(float_t value);
+  constexpr void __cordl_internal_set__normalAlpha(float_t value);
 
-  constexpr float_t& __get__highlightedAlpha();
+  constexpr float_t& __cordl_internal_get__highlightedAlpha();
 
-  constexpr float_t const& __get__highlightedAlpha() const;
+  constexpr float_t const& __cordl_internal_get__highlightedAlpha() const;
 
-  constexpr void __set__highlightedAlpha(float_t value);
+  constexpr void __cordl_internal_set__highlightedAlpha(float_t value);
 
-  constexpr float_t& __get__pressedAlpha();
+  constexpr float_t& __cordl_internal_get__pressedAlpha();
 
-  constexpr float_t const& __get__pressedAlpha() const;
+  constexpr float_t const& __cordl_internal_get__pressedAlpha() const;
 
-  constexpr void __set__pressedAlpha(float_t value);
+  constexpr void __cordl_internal_set__pressedAlpha(float_t value);
 
-  constexpr float_t& __get__disabledAlpha();
+  constexpr float_t& __cordl_internal_get__disabledAlpha();
 
-  constexpr float_t const& __get__disabledAlpha() const;
+  constexpr float_t const& __cordl_internal_get__disabledAlpha() const;
 
-  constexpr void __set__disabledAlpha(float_t value);
+  constexpr void __cordl_internal_set__disabledAlpha(float_t value);
 
-  constexpr float_t& __get__selectedAlpha();
+  constexpr float_t& __cordl_internal_get__selectedAlpha();
 
-  constexpr float_t const& __get__selectedAlpha() const;
+  constexpr float_t const& __cordl_internal_get__selectedAlpha() const;
 
-  constexpr void __set__selectedAlpha(float_t value);
+  constexpr void __cordl_internal_set__selectedAlpha(float_t value);
 
-  constexpr float_t& __get__selectedAndHighlightedAlpha();
+  constexpr float_t& __cordl_internal_get__selectedAndHighlightedAlpha();
 
-  constexpr float_t const& __get__selectedAndHighlightedAlpha() const;
+  constexpr float_t const& __cordl_internal_get__selectedAndHighlightedAlpha() const;
 
-  constexpr void __set__selectedAndHighlightedAlpha(float_t value);
+  constexpr void __cordl_internal_set__selectedAndHighlightedAlpha(float_t value);
 
   /// @brief Method get_normalAlpha, addr 0x227d284, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalAlpha();

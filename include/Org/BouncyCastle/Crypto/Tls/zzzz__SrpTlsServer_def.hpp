@@ -37,38 +37,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SrpTlsServer);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1173))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1173))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1281))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SrpTlsServer*
 class CORDL_TYPE SrpTlsServer : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsServer {
 public:
   // Declarations
   /// @brief Field mSrpIdentityManager, offset 0x90, size 0x8
-  __declspec(property(get = __get_mSrpIdentityManager, put = __set_mSrpIdentityManager))::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* mSrpIdentityManager;
+  __declspec(property(get = __cordl_internal_get_mSrpIdentityManager, put = __cordl_internal_set_mSrpIdentityManager))::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* mSrpIdentityManager;
 
   /// @brief Field mSrpIdentity, offset 0x98, size 0x8
-  __declspec(property(get = __get_mSrpIdentity, put = __set_mSrpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpIdentity;
+  __declspec(property(get = __cordl_internal_get_mSrpIdentity, put = __cordl_internal_set_mSrpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpIdentity;
 
   /// @brief Field mLoginParameters, offset 0xa0, size 0x8
-  __declspec(property(get = __get_mLoginParameters, put = __set_mLoginParameters))::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* mLoginParameters;
+  __declspec(property(get = __cordl_internal_get_mLoginParameters, put = __cordl_internal_set_mLoginParameters))::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* mLoginParameters;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*& __get_mSrpIdentityManager();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*& __cordl_internal_get_mSrpIdentityManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*> const& __get_mSrpIdentityManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*> const& __cordl_internal_get_mSrpIdentityManager() const;
 
-  constexpr void __set_mSrpIdentityManager(::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* value);
+  constexpr void __cordl_internal_set_mSrpIdentityManager(::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSrpIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSrpIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSrpIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSrpIdentity() const;
 
-  constexpr void __set_mSrpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSrpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters*& __get_mLoginParameters();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters*& __cordl_internal_get_mLoginParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters*> const& __get_mLoginParameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters*> const& __cordl_internal_get_mLoginParameters() const;
 
-  constexpr void __set_mLoginParameters(::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* value);
+  constexpr void __cordl_internal_set_mLoginParameters(::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* srpIdentityManager);
 

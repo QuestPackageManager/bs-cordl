@@ -27,24 +27,24 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ClientIdentity);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3060))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3060))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3061))
 // CS Name: ::System.Runtime.Remoting::ClientIdentity*
 class CORDL_TYPE ClientIdentity : public ::System::Runtime::Remoting::Identity {
 public:
   // Declarations
   /// @brief Field _proxyReference, offset 0x48, size 0x8
-  __declspec(property(get = __get__proxyReference, put = __set__proxyReference))::System::WeakReference* _proxyReference;
+  __declspec(property(get = __cordl_internal_get__proxyReference, put = __cordl_internal_set__proxyReference))::System::WeakReference* _proxyReference;
 
   __declspec(property(get = get_ClientProxy, put = set_ClientProxy))::System::MarshalByRefObject* ClientProxy;
 
   __declspec(property(get = get_TargetUri))::StringW TargetUri;
 
-  constexpr ::System::WeakReference*& __get__proxyReference();
+  constexpr ::System::WeakReference*& __cordl_internal_get__proxyReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& __get__proxyReference() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& __cordl_internal_get__proxyReference() const;
 
-  constexpr void __set__proxyReference(::System::WeakReference* value);
+  constexpr void __cordl_internal_set__proxyReference(::System::WeakReference* value);
 
   static inline ::System::Runtime::Remoting::ClientIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
 

@@ -22,37 +22,37 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertVector3Processor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6236))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6586)) CS Name: ::UnityEngine.InputSystem.Processors::InvertVector3Processor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6586)) CS Name: ::UnityEngine.InputSystem.Processors::InvertVector3Processor*
 class CORDL_TYPE InvertVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
   /// @brief Field invertX, offset 0x10, size 0x1
-  __declspec(property(get = __get_invertX, put = __set_invertX)) bool invertX;
+  __declspec(property(get = __cordl_internal_get_invertX, put = __cordl_internal_set_invertX)) bool invertX;
 
   /// @brief Field invertY, offset 0x11, size 0x1
-  __declspec(property(get = __get_invertY, put = __set_invertY)) bool invertY;
+  __declspec(property(get = __cordl_internal_get_invertY, put = __cordl_internal_set_invertY)) bool invertY;
 
   /// @brief Field invertZ, offset 0x12, size 0x1
-  __declspec(property(get = __get_invertZ, put = __set_invertZ)) bool invertZ;
+  __declspec(property(get = __cordl_internal_get_invertZ, put = __cordl_internal_set_invertZ)) bool invertZ;
 
-  constexpr bool& __get_invertX();
+  constexpr bool& __cordl_internal_get_invertX();
 
-  constexpr bool const& __get_invertX() const;
+  constexpr bool const& __cordl_internal_get_invertX() const;
 
-  constexpr void __set_invertX(bool value);
+  constexpr void __cordl_internal_set_invertX(bool value);
 
-  constexpr bool& __get_invertY();
+  constexpr bool& __cordl_internal_get_invertY();
 
-  constexpr bool const& __get_invertY() const;
+  constexpr bool const& __cordl_internal_get_invertY() const;
 
-  constexpr void __set_invertY(bool value);
+  constexpr void __cordl_internal_set_invertY(bool value);
 
-  constexpr bool& __get_invertZ();
+  constexpr bool& __cordl_internal_get_invertZ();
 
-  constexpr bool const& __get_invertZ() const;
+  constexpr bool const& __cordl_internal_get_invertZ() const;
 
-  constexpr void __set_invertZ(bool value);
+  constexpr void __cordl_internal_set_invertZ(bool value);
 
   /// @brief Method Process, addr 0x2af94f8, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);

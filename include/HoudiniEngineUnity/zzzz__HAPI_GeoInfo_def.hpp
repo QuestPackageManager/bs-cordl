@@ -22,7 +22,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_GeoInfo);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9709))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9709))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9739))
 // CS Name: ::HoudiniEngineUnity::HAPI_GeoInfo
 struct CORDL_TYPE HAPI_GeoInfo {

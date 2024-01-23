@@ -33,20 +33,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(682))
 // CS Name: ::Org.BouncyCastle.Cms::PasswordRecipientInfoGenerator*
 class CORDL_TYPE PasswordRecipientInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field keyDerivationAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyDerivationAlgorithm, put = __set_keyDerivationAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm;
+  __declspec(property(get = __cordl_internal_get_keyDerivationAlgorithm,
+                      put = __cordl_internal_set_keyDerivationAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm;
 
   /// @brief Field keyEncryptionKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_keyEncryptionKey, put = __set_keyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKey, put = __cordl_internal_set_keyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
 
   /// @brief Field keyEncryptionKeyOID, offset 0x20, size 0x8
-  __declspec(property(get = __get_keyEncryptionKeyOID, put = __set_keyEncryptionKeyOID))::StringW keyEncryptionKeyOID;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKeyOID, put = __cordl_internal_set_keyEncryptionKeyOID))::StringW keyEncryptionKeyOID;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
@@ -63,23 +64,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr ::Org::BouncyCastle::Cms::RecipientInfoGenerator* i___Org__BouncyCastle__Cms__RecipientInfoGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_keyDerivationAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyDerivationAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_keyDerivationAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyDerivationAlgorithm() const;
 
-  constexpr void __set_keyDerivationAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_keyDerivationAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __get_keyEncryptionKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __cordl_internal_get_keyEncryptionKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __get_keyEncryptionKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __cordl_internal_get_keyEncryptionKey() const;
 
-  constexpr void __set_keyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
+  constexpr void __cordl_internal_set_keyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  constexpr ::StringW& __get_keyEncryptionKeyOID();
+  constexpr ::StringW& __cordl_internal_get_keyEncryptionKeyOID();
 
-  constexpr ::StringW const& __get_keyEncryptionKeyOID() const;
+  constexpr ::StringW const& __cordl_internal_get_keyEncryptionKeyOID() const;
 
-  constexpr void __set_keyEncryptionKeyOID(::StringW value);
+  constexpr void __cordl_internal_set_keyEncryptionKeyOID(::StringW value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 

@@ -13,11 +13,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x1164554;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -29,11 +29,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x11646bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "reset", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int64_t, ::Array<int64_t>*>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "reset", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int64_t, ::Array<int64_t>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -45,11 +45,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x10b0;
   constexpr static std::size_t addrs = 0x1164750;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "proc", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "proc", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -61,10 +61,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x11667dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "free", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "free", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get() })));
     return ___internal_method;
   }
 };
@@ -76,11 +76,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x11667f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "set_dictionary", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "set_dictionary", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -92,9 +92,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x1166838;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(),
-                                                                               "sync_point", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "sync_point", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -106,239 +106,239 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x180;
   constexpr static std::size_t addrs = 0x1165800;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "inflate_flush", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "inflate_flush", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_mode() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_mode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_mode() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_mode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_mode(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_mode(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_left() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_left() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___left;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_left() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_left() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___left;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_left(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_left(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___left = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_table() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_table() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___table;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_table() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___table;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_table(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_table(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___table = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_index() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_index() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_index(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_index(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___index = value;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_blens() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_blens() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blens;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_blens() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_blens() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blens;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_blens(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_blens(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___blens)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_bb() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_bb() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bb;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_bb() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_bb() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bb;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_bb(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_bb(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_tb() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_tb() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tb;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_tb() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_tb() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tb;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_tb(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_tb(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Utilities::Zlib::InfCodes*& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_codes() {
+constexpr ::Org::BouncyCastle::Utilities::Zlib::InfCodes*& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_codes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___codes;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfCodes*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_codes() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfCodes*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_codes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___codes;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_codes(::Org::BouncyCastle::Utilities::Zlib::InfCodes* value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_codes(::Org::BouncyCastle::Utilities::Zlib::InfCodes* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___codes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_last() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_last() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_last() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_last() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_last(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_last(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___last = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_bitk() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_bitk() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitk;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_bitk() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_bitk() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitk;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_bitk(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_bitk(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bitk = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_bitb() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_bitb() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitb;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_bitb() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_bitb() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitb;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_bitb(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_bitb(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bitb = value;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_hufts() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_hufts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hufts;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_hufts() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_hufts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hufts;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_hufts(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_hufts(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hufts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_window() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_window() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_window() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_window() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___window)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_end() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_end() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___end;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_end() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_end() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___end;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_end(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_end(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___end = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_read() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_read() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___read;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_read() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_read() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___read;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_read(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_read(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___read = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_write() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_write() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___write;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_write() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_write() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___write;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_write(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_write(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___write = value;
 }
-constexpr ::System::Object*& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_checkfn() {
+constexpr ::System::Object*& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_checkfn() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkfn;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_checkfn() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_checkfn() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkfn;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_checkfn(::System::Object* value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_checkfn(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___checkfn)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int64_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_check() {
+constexpr int64_t& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_check() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___check;
 }
-constexpr int64_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_check() const {
+constexpr int64_t const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_check() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___check;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_check(int64_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_check(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___check = value;
 }
-constexpr ::Org::BouncyCastle::Utilities::Zlib::InfTree*& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_inftree() {
+constexpr ::Org::BouncyCastle::Utilities::Zlib::InfTree*& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_inftree() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inftree;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfTree*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_inftree() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfTree*> const& Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_get_inftree() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inftree;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_inftree(::Org::BouncyCastle::Utilities::Zlib::InfTree* value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__cordl_internal_set_inftree(::Org::BouncyCastle::Utilities::Zlib::InfTree* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inftree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -361,52 +361,52 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> Org::BouncyCastle::Utilities::Zlib::
 }
 inline ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* Org::BouncyCastle::Utilities::Zlib::InfBlocks::New_ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn,
                                                                                                                 int32_t w) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>(z, checkfn, w));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>(z, checkfn, w));
 }
 inline void Org::BouncyCastle::Utilities::Zlib::InfBlocks::_ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, z, checkfn, w);
 }
 inline void Org::BouncyCastle::Utilities::Zlib::InfBlocks::reset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<int64_t, ::Array<int64_t>*> c) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "reset", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int64_t, ::Array<int64_t>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "reset", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int64_t, ::Array<int64_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, z, c);
 }
 inline int32_t Org::BouncyCastle::Utilities::Zlib::InfBlocks::proc(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "proc", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "proc", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, z, r);
 }
 inline void Org::BouncyCastle::Utilities::Zlib::InfBlocks::free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "free", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "free", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, z);
 }
 inline void Org::BouncyCastle::Utilities::Zlib::InfBlocks::set_dictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> d, int32_t start, int32_t n) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "set_dictionary", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "set_dictionary", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, d, start, n);
 }
 inline int32_t Org::BouncyCastle::Utilities::Zlib::InfBlocks::sync_point() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(),
-                                                                             "sync_point", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "sync_point", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline int32_t Org::BouncyCastle::Utilities::Zlib::InfBlocks::inflate_flush(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "inflate_flush", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*>::get(), "inflate_flush", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::Zlib::ZStream*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, z, r);
 }
 // Ctor Parameters []

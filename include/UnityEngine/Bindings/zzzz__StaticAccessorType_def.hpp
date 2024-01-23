@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Bindings::StaticAccessorType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16027))
 // CS Name: ::UnityEngine.Bindings::StaticAccessorType
 struct CORDL_TYPE StaticAccessorType {

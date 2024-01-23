@@ -44,20 +44,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__ExplicitContentWarningViewController___MainC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5631))
 // CS Name: ::ExplicitContentWarningViewController::<MainCoroutine>d__9*
 class CORDL_TYPE __ExplicitContentWarningViewController___MainCoroutine_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::ExplicitContentWarningViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -81,23 +81,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::ExplicitContentWarningViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExplicitContentWarningViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::ExplicitContentWarningViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> value);
 
   static inline ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9* New_ctor(int32_t __1__state);
 
@@ -140,7 +140,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ExplicitContentWarningViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__ExplicitContentWarningViewController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5632))
 // CS Name: ::ExplicitContentWarningViewController*
 class CORDL_TYPE ExplicitContentWarningViewController : public ::HMUI::ViewController {
@@ -167,49 +167,49 @@ public:
   using _MainCoroutine_d__9 = ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9;
 
   /// @brief Field _showButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__showButton, put = __set__showButton))::UnityEngine::UI::Button* _showButton;
+  __declspec(property(get = __cordl_internal_get__showButton, put = __cordl_internal_set__showButton))::UnityW<::UnityEngine::UI::Button> _showButton;
 
   /// @brief Field _hideButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__hideButton, put = __set__hideButton))::UnityEngine::UI::Button* _hideButton;
+  __declspec(property(get = __cordl_internal_get__hideButton, put = __cordl_internal_set__hideButton))::UnityW<::UnityEngine::UI::Button> _hideButton;
 
   /// @brief Field _playerDataModel, offset 0x80, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
 
   /// @brief Field _coroutineInProgress, offset 0x90, size 0x1
-  __declspec(property(get = __get__coroutineInProgress, put = __set__coroutineInProgress)) bool _coroutineInProgress;
+  __declspec(property(get = __cordl_internal_get__coroutineInProgress, put = __cordl_internal_set__coroutineInProgress)) bool _coroutineInProgress;
 
-  constexpr ::UnityEngine::UI::Button*& __get__showButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__showButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__showButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__showButton() const;
 
-  constexpr void __set__showButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__showButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__hideButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__hideButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__hideButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__hideButton() const;
 
-  constexpr void __set__hideButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__hideButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::System::Action*& __get_didFinishEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  constexpr bool& __get__coroutineInProgress();
+  constexpr bool& __cordl_internal_get__coroutineInProgress();
 
-  constexpr bool const& __get__coroutineInProgress() const;
+  constexpr bool const& __cordl_internal_get__coroutineInProgress() const;
 
-  constexpr void __set__coroutineInProgress(bool value);
+  constexpr void __cordl_internal_set__coroutineInProgress(bool value);
 
   /// @brief Method add_didFinishEvent, addr 0x22b0794, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
@@ -252,13 +252,13 @@ protected:
 
 public:
   /// @brief Field _showButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____showButton;
+  ::UnityW<::UnityEngine::UI::Button> ____showButton;
 
   /// @brief Field _hideButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____hideButton;
+  ::UnityW<::UnityEngine::UI::Button> ____hideButton;
 
   /// @brief Field _playerDataModel, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action* ___didFinishEvent;

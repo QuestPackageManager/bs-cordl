@@ -19,7 +19,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKVector3);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15109))
 // CS Name: ::LIV.SDK.Unity::SDKVector3
 struct CORDL_TYPE SDKVector3 {

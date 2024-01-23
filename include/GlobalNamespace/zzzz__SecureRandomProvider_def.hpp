@@ -26,47 +26,47 @@ MARK_REF_PTR_T(::GlobalNamespace::__SecureRandomProvider__SecureRandomState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12956))
 // CS Name: ::SecureRandomProvider::SecureRandomState*
 class CORDL_TYPE __SecureRandomProvider__SecureRandomState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _random, offset 0x10, size 0x8
-  __declspec(property(get = __get__random, put = __set__random))::System::Security::Cryptography::RNGCryptoServiceProvider* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random))::System::Security::Cryptography::RNGCryptoServiceProvider* _random;
 
   /// @brief Field _randomBuffer0, offset 0x18, size 0x8
-  __declspec(property(get = __get__randomBuffer0, put = __set__randomBuffer0))::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer0;
+  __declspec(property(get = __cordl_internal_get__randomBuffer0, put = __cordl_internal_set__randomBuffer0))::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer0;
 
   /// @brief Field _randomBuffer1, offset 0x20, size 0x8
-  __declspec(property(get = __get__randomBuffer1, put = __set__randomBuffer1))::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer1;
+  __declspec(property(get = __cordl_internal_get__randomBuffer1, put = __cordl_internal_set__randomBuffer1))::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer1;
 
   /// @brief Field _index, offset 0x28, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-  constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider*& __get__random();
+  constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider*& __cordl_internal_get__random();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RNGCryptoServiceProvider*> const& __get__random() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RNGCryptoServiceProvider*> const& __cordl_internal_get__random() const;
 
-  constexpr void __set__random(::System::Security::Cryptography::RNGCryptoServiceProvider* value);
+  constexpr void __cordl_internal_set__random(::System::Security::Cryptography::RNGCryptoServiceProvider* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__randomBuffer0();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__randomBuffer0();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__randomBuffer0() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__randomBuffer0() const;
 
-  constexpr void __set__randomBuffer0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__randomBuffer0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__randomBuffer1();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__randomBuffer1();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__randomBuffer1() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__randomBuffer1() const;
 
-  constexpr void __set__randomBuffer1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__randomBuffer1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   /// @brief Method GetBytes, addr 0xe567c8, size 0xb8, virtual false, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
@@ -129,7 +129,7 @@ static_assert(offsetof(::GlobalNamespace::__SecureRandomProvider__SecureRandomSt
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12957))
 // CS Name: ::SecureRandomProvider*
 class CORDL_TYPE SecureRandomProvider : public ::System::Object {

@@ -21,22 +21,23 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::QueryExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12021))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12021))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12022))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryExpression*
 class CORDL_TYPE QueryExpression : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Operator>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__Operator_k__BackingField, put = __set__Operator_k__BackingField))::Newtonsoft::Json::Linq::JsonPath::QueryOperator _Operator_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Operator_k__BackingField,
+                      put = __cordl_internal_set__Operator_k__BackingField))::Newtonsoft::Json::Linq::JsonPath::QueryOperator _Operator_k__BackingField;
 
   __declspec(property(get = get_Operator, put = set_Operator))::Newtonsoft::Json::Linq::JsonPath::QueryOperator Operator;
 
-  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator& __get__Operator_k__BackingField();
+  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator& __cordl_internal_get__Operator_k__BackingField();
 
-  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const& __get__Operator_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const& __cordl_internal_get__Operator_k__BackingField() const;
 
-  constexpr void __set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
+  constexpr void __cordl_internal_set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
   /// @brief Method get_Operator, addr 0x26b126c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::QueryOperator get_Operator();

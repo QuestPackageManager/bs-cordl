@@ -40,24 +40,25 @@ MARK_REF_PTR_T(::System::Resources::RuntimeResourceSet);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3442))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3442))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3429))
 // CS Name: ::System.Resources::RuntimeResourceSet*
 class CORDL_TYPE RuntimeResourceSet : public ::System::Resources::ResourceSet {
 public:
   // Declarations
   /// @brief Field _resCache, offset 0x28, size 0x8
-  __declspec(property(get = __get__resCache, put = __set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
+  __declspec(property(get = __cordl_internal_get__resCache,
+                      put = __cordl_internal_set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
 
   /// @brief Field _defaultReader, offset 0x30, size 0x8
-  __declspec(property(get = __get__defaultReader, put = __set__defaultReader))::System::Resources::ResourceReader* _defaultReader;
+  __declspec(property(get = __cordl_internal_get__defaultReader, put = __cordl_internal_set__defaultReader))::System::Resources::ResourceReader* _defaultReader;
 
   /// @brief Field _caseInsensitiveTable, offset 0x38, size 0x8
-  __declspec(property(get = __get__caseInsensitiveTable,
-                      put = __set__caseInsensitiveTable))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _caseInsensitiveTable;
+  __declspec(property(get = __cordl_internal_get__caseInsensitiveTable,
+                      put = __cordl_internal_set__caseInsensitiveTable))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _caseInsensitiveTable;
 
   /// @brief Field _haveReadFromReader, offset 0x40, size 0x1
-  __declspec(property(get = __get__haveReadFromReader, put = __set__haveReadFromReader)) bool _haveReadFromReader;
+  __declspec(property(get = __cordl_internal_get__haveReadFromReader, put = __cordl_internal_set__haveReadFromReader)) bool _haveReadFromReader;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -65,29 +66,30 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __get__resCache();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __get__resCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __cordl_internal_get__resCache() const;
 
-  constexpr void __set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+  constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
 
-  constexpr ::System::Resources::ResourceReader*& __get__defaultReader();
+  constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__defaultReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __get__defaultReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __cordl_internal_get__defaultReader() const;
 
-  constexpr void __set__defaultReader(::System::Resources::ResourceReader* value);
+  constexpr void __cordl_internal_set__defaultReader(::System::Resources::ResourceReader* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __get__caseInsensitiveTable();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__caseInsensitiveTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __get__caseInsensitiveTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const&
+  __cordl_internal_get__caseInsensitiveTable() const;
 
-  constexpr void __set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+  constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
 
-  constexpr bool& __get__haveReadFromReader();
+  constexpr bool& __cordl_internal_get__haveReadFromReader();
 
-  constexpr bool const& __get__haveReadFromReader() const;
+  constexpr bool const& __cordl_internal_get__haveReadFromReader() const;
 
-  constexpr void __set__haveReadFromReader(bool value);
+  constexpr void __cordl_internal_set__haveReadFromReader(bool value);
 
   static inline ::System::Resources::RuntimeResourceSet* New_ctor(::StringW fileName);
 

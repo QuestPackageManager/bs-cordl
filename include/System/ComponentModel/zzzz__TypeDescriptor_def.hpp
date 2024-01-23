@@ -161,29 +161,29 @@ MARK_VAL_T(::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultType
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9481))
 // CS Name: ::TypeDescriptor::AttributeFilterCacheItem*
 class CORDL_TYPE __TypeDescriptor__AttributeFilterCacheItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _filter, offset 0x10, size 0x8
-  __declspec(property(get = __get__filter, put = __set__filter))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> _filter;
+  __declspec(property(get = __cordl_internal_get__filter, put = __cordl_internal_set__filter))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> _filter;
 
   /// @brief Field FilteredMembers, offset 0x18, size 0x8
-  __declspec(property(get = __get_FilteredMembers, put = __set_FilteredMembers))::System::Collections::ICollection* FilteredMembers;
+  __declspec(property(get = __cordl_internal_get_FilteredMembers, put = __cordl_internal_set_FilteredMembers))::System::Collections::ICollection* FilteredMembers;
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __get__filter();
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __cordl_internal_get__filter();
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __get__filter() const;
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __cordl_internal_get__filter() const;
 
-  constexpr void __set__filter(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
+  constexpr void __cordl_internal_set__filter(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  constexpr ::System::Collections::ICollection*& __get_FilteredMembers();
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get_FilteredMembers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __get_FilteredMembers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get_FilteredMembers() const;
 
-  constexpr void __set_FilteredMembers(::System::Collections::ICollection* value);
+  constexpr void __cordl_internal_set_FilteredMembers(::System::Collections::ICollection* value);
 
   static inline ::System::ComponentModel::__TypeDescriptor__AttributeFilterCacheItem* New_ctor(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> filter,
                                                                                                ::System::Collections::ICollection* filteredMembers);
@@ -228,29 +228,29 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__AttributeFilt
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9482))
 // CS Name: ::TypeDescriptor::FilterCacheItem*
 class CORDL_TYPE __TypeDescriptor__FilterCacheItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _filterService, offset 0x10, size 0x8
-  __declspec(property(get = __get__filterService, put = __set__filterService))::System::ComponentModel::Design::ITypeDescriptorFilterService* _filterService;
+  __declspec(property(get = __cordl_internal_get__filterService, put = __cordl_internal_set__filterService))::System::ComponentModel::Design::ITypeDescriptorFilterService* _filterService;
 
   /// @brief Field FilteredMembers, offset 0x18, size 0x8
-  __declspec(property(get = __get_FilteredMembers, put = __set_FilteredMembers))::System::Collections::ICollection* FilteredMembers;
+  __declspec(property(get = __cordl_internal_get_FilteredMembers, put = __cordl_internal_set_FilteredMembers))::System::Collections::ICollection* FilteredMembers;
 
-  constexpr ::System::ComponentModel::Design::ITypeDescriptorFilterService*& __get__filterService();
+  constexpr ::System::ComponentModel::Design::ITypeDescriptorFilterService*& __cordl_internal_get__filterService();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::Design::ITypeDescriptorFilterService*> const& __get__filterService() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::Design::ITypeDescriptorFilterService*> const& __cordl_internal_get__filterService() const;
 
-  constexpr void __set__filterService(::System::ComponentModel::Design::ITypeDescriptorFilterService* value);
+  constexpr void __cordl_internal_set__filterService(::System::ComponentModel::Design::ITypeDescriptorFilterService* value);
 
-  constexpr ::System::Collections::ICollection*& __get_FilteredMembers();
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get_FilteredMembers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __get_FilteredMembers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get_FilteredMembers() const;
 
-  constexpr void __set_FilteredMembers(::System::Collections::ICollection* value);
+  constexpr void __cordl_internal_set_FilteredMembers(::System::Collections::ICollection* value);
 
   static inline ::System::ComponentModel::__TypeDescriptor__FilterCacheItem* New_ctor(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService,
                                                                                       ::System::Collections::ICollection* filteredMembers);
@@ -295,7 +295,7 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__FilterCacheIt
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9483))
 // CS Name: ::TypeDescriptor::IUnimplemented*
 class CORDL_TYPE __TypeDescriptor__IUnimplemented {
@@ -317,7 +317,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9484))
 // CS Name: ::TypeDescriptor::MemberDescriptorComparer*
 class CORDL_TYPE __TypeDescriptor__MemberDescriptorComparer : public ::System::Object {
@@ -368,17 +368,17 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__TypeDe
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9485))
 // CS Name: ::TypeDescriptor::MergedTypeDescriptor*
 class CORDL_TYPE __TypeDescriptor__MergedTypeDescriptor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _primary, offset 0x10, size 0x8
-  __declspec(property(get = __get__primary, put = __set__primary))::System::ComponentModel::ICustomTypeDescriptor* _primary;
+  __declspec(property(get = __cordl_internal_get__primary, put = __cordl_internal_set__primary))::System::ComponentModel::ICustomTypeDescriptor* _primary;
 
   /// @brief Field _secondary, offset 0x18, size 0x8
-  __declspec(property(get = __get__secondary, put = __set__secondary))::System::ComponentModel::ICustomTypeDescriptor* _secondary;
+  __declspec(property(get = __cordl_internal_get__secondary, put = __cordl_internal_set__secondary))::System::ComponentModel::ICustomTypeDescriptor* _secondary;
 
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*() noexcept;
@@ -386,17 +386,17 @@ public:
   /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr ::System::ComponentModel::ICustomTypeDescriptor* i___System__ComponentModel__ICustomTypeDescriptor() noexcept;
 
-  constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __get__primary();
+  constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __cordl_internal_get__primary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ICustomTypeDescriptor*> const& __get__primary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ICustomTypeDescriptor*> const& __cordl_internal_get__primary() const;
 
-  constexpr void __set__primary(::System::ComponentModel::ICustomTypeDescriptor* value);
+  constexpr void __cordl_internal_set__primary(::System::ComponentModel::ICustomTypeDescriptor* value);
 
-  constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __get__secondary();
+  constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __cordl_internal_get__secondary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ICustomTypeDescriptor*> const& __get__secondary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ICustomTypeDescriptor*> const& __cordl_internal_get__secondary() const;
 
-  constexpr void __set__secondary(::System::ComponentModel::ICustomTypeDescriptor* value);
+  constexpr void __cordl_internal_set__secondary(::System::ComponentModel::ICustomTypeDescriptor* value);
 
   static inline ::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor* New_ctor(::System::ComponentModel::ICustomTypeDescriptor* primary,
                                                                                            ::System::ComponentModel::ICustomTypeDescriptor* secondary);
@@ -474,7 +474,7 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__MergedTypeDes
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9486))
 // CS Name: ::TypeDescriptor::TypeDescriptionNode::DefaultExtendedTypeDescriptor
 struct CORDL_TYPE __TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor {
@@ -556,7 +556,7 @@ static_assert(offsetof(::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9487))
 // CS Name: ::TypeDescriptor::TypeDescriptionNode::DefaultTypeDescriptor
 struct CORDL_TYPE __TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor {
@@ -644,7 +644,7 @@ static_assert(offsetof(::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9460))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9460))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9488))
 // CS Name: ::TypeDescriptor::TypeDescriptionNode*
 class CORDL_TYPE __TypeDescriptor__TypeDescriptionNode : public ::System::ComponentModel::TypeDescriptionProvider {
@@ -655,22 +655,22 @@ public:
   using DefaultExtendedTypeDescriptor = ::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor;
 
   /// @brief Field Next, offset 0x20, size 0x8
-  __declspec(property(get = __get_Next, put = __set_Next))::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* Next;
 
   /// @brief Field Provider, offset 0x28, size 0x8
-  __declspec(property(get = __get_Provider, put = __set_Provider))::System::ComponentModel::TypeDescriptionProvider* Provider;
+  __declspec(property(get = __cordl_internal_get_Provider, put = __cordl_internal_set_Provider))::System::ComponentModel::TypeDescriptionProvider* Provider;
 
-  constexpr ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*& __get_Next();
+  constexpr ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*> const& __get_Next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __set_Next(::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* value);
+  constexpr void __cordl_internal_set_Next(::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* value);
 
-  constexpr ::System::ComponentModel::TypeDescriptionProvider*& __get_Provider();
+  constexpr ::System::ComponentModel::TypeDescriptionProvider*& __cordl_internal_get_Provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeDescriptionProvider*> const& __get_Provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeDescriptionProvider*> const& __cordl_internal_get_Provider() const;
 
-  constexpr void __set_Provider(::System::ComponentModel::TypeDescriptionProvider* value);
+  constexpr void __cordl_internal_set_Provider(::System::ComponentModel::TypeDescriptionProvider* value);
 
   static inline ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* New_ctor(::System::ComponentModel::TypeDescriptionProvider* provider);
 
@@ -726,7 +726,7 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__TypeDescripti
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9489))
 // CS Name: ::TypeDescriptor::TypeDescriptorComObject*
 class CORDL_TYPE __TypeDescriptor__TypeDescriptorComObject : public ::System::Object {
@@ -756,7 +756,7 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__TypeDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9490))
 // CS Name: ::TypeDescriptor::TypeDescriptorInterface*
 class CORDL_TYPE __TypeDescriptor__TypeDescriptorInterface : public ::System::Object {
@@ -786,7 +786,7 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__TypeDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9491))
 // CS Name: ::System.ComponentModel::TypeDescriptor*
 class CORDL_TYPE TypeDescriptor : public ::System::Object {

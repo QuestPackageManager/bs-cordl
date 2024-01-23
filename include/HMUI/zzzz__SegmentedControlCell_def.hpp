@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::HMUI::SegmentedControlCell);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13653))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13653))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13551))
 // CS Name: ::HMUI::SegmentedControlCell*
 class CORDL_TYPE SegmentedControlCell : public ::HMUI::SelectableCell {
 public:
   // Declarations
   /// @brief Field <cellNumber>k__BackingField, offset 0x44, size 0x4
-  __declspec(property(get = __get__cellNumber_k__BackingField, put = __set__cellNumber_k__BackingField)) int32_t _cellNumber_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cellNumber_k__BackingField, put = __cordl_internal_set__cellNumber_k__BackingField)) int32_t _cellNumber_k__BackingField;
 
   /// @brief Field _segmentedControl, offset 0x48, size 0x8
-  __declspec(property(get = __get__segmentedControl, put = __set__segmentedControl))::HMUI::SegmentedControl* _segmentedControl;
+  __declspec(property(get = __cordl_internal_get__segmentedControl, put = __cordl_internal_set__segmentedControl))::UnityW<::HMUI::SegmentedControl> _segmentedControl;
 
   __declspec(property(get = get_cellNumber, put = set_cellNumber)) int32_t cellNumber;
 
-  constexpr int32_t& __get__cellNumber_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__cellNumber_k__BackingField();
 
-  constexpr int32_t const& __get__cellNumber_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__cellNumber_k__BackingField() const;
 
-  constexpr void __set__cellNumber_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__cellNumber_k__BackingField(int32_t value);
 
-  constexpr ::HMUI::SegmentedControl*& __get__segmentedControl();
+  constexpr ::UnityW<::HMUI::SegmentedControl>& __cordl_internal_get__segmentedControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SegmentedControl*> const& __get__segmentedControl() const;
+  constexpr ::UnityW<::HMUI::SegmentedControl> const& __cordl_internal_get__segmentedControl() const;
 
-  constexpr void __set__segmentedControl(::HMUI::SegmentedControl* value);
+  constexpr void __cordl_internal_set__segmentedControl(::UnityW<::HMUI::SegmentedControl> value);
 
   /// @brief Method get_cellNumber, addr 0x2120268, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellNumber();
@@ -79,7 +79,7 @@ public:
   int32_t ____cellNumber_k__BackingField;
 
   /// @brief Field _segmentedControl, offset: 0x48, size: 0x8, def value: None
-  ::HMUI::SegmentedControl* ____segmentedControl;
+  ::UnityW<::HMUI::SegmentedControl> ____segmentedControl;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

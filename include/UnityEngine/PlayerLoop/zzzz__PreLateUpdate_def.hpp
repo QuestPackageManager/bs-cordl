@@ -112,7 +112,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10546))
 // CS Name: ::PreLateUpdate::Physics2DLateUpdate
 #pragma pack(push, 0)
@@ -140,7 +140,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10547))
 // CS Name: ::PreLateUpdate::AIUpdatePostScript
 #pragma pack(push, 0)
@@ -168,7 +168,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10548))
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationBegin
 #pragma pack(push, 0)
@@ -196,7 +196,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10549))
 // CS Name: ::PreLateUpdate::LegacyAnimationUpdate
 #pragma pack(push, 0)
@@ -224,7 +224,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10550))
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationEnd
 #pragma pack(push, 0)
@@ -252,7 +252,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10551))
 // CS Name: ::PreLateUpdate::DirectorDeferredEvaluate
 #pragma pack(push, 0)
@@ -280,7 +280,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10552))
 // CS Name: ::PreLateUpdate::UIElementsUpdatePanels
 #pragma pack(push, 0)
@@ -308,7 +308,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10553))
 // CS Name: ::PreLateUpdate::UpdateNetworkManager
 #pragma pack(push, 0)
@@ -336,7 +336,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10554))
 // CS Name: ::PreLateUpdate::UpdateMasterServerInterface
 #pragma pack(push, 0)
@@ -364,7 +364,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10555))
 // CS Name: ::PreLateUpdate::UNetUpdate
 #pragma pack(push, 0)
@@ -392,7 +392,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10556))
 // CS Name: ::PreLateUpdate::EndGraphicsJobsAfterScriptUpdate
 #pragma pack(push, 0)
@@ -420,7 +420,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10557))
 // CS Name: ::PreLateUpdate::ParticleSystemBeginUpdateAll
 #pragma pack(push, 0)
@@ -448,7 +448,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10558))
 // CS Name: ::PreLateUpdate::ScriptRunBehaviourLateUpdate
 #pragma pack(push, 0)
@@ -476,7 +476,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10559))
 // CS Name: ::PreLateUpdate::ConstraintManagerUpdate
 #pragma pack(push, 0)
@@ -504,7 +504,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10560))
 // CS Name: ::UnityEngine.PlayerLoop::PreLateUpdate
 #pragma pack(push, 0)

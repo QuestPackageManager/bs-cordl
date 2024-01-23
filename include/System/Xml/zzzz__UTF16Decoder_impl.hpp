@@ -8,10 +8,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x28a54c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x28a54f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), 5));
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x28a5504;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), 6));
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x238;
   constexpr static std::size_t addrs = 0x28a55f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), 8));
@@ -69,44 +69,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x298;
   constexpr static std::size_t addrs = 0x28a5828;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), 12));
     return ___internal_method;
   }
 };
-constexpr bool& System::Xml::UTF16Decoder::__get_bigEndian() {
+constexpr bool& System::Xml::UTF16Decoder::__cordl_internal_get_bigEndian() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigEndian;
 }
-constexpr bool const& System::Xml::UTF16Decoder::__get_bigEndian() const {
+constexpr bool const& System::Xml::UTF16Decoder::__cordl_internal_get_bigEndian() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigEndian;
 }
-constexpr void System::Xml::UTF16Decoder::__set_bigEndian(bool value) {
+constexpr void System::Xml::UTF16Decoder::__cordl_internal_set_bigEndian(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bigEndian = value;
 }
-constexpr int32_t& System::Xml::UTF16Decoder::__get_lastByte() {
+constexpr int32_t& System::Xml::UTF16Decoder::__cordl_internal_get_lastByte() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastByte;
 }
-constexpr int32_t const& System::Xml::UTF16Decoder::__get_lastByte() const {
+constexpr int32_t const& System::Xml::UTF16Decoder::__cordl_internal_get_lastByte() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastByte;
 }
-constexpr void System::Xml::UTF16Decoder::__set_lastByte(int32_t value) {
+constexpr void System::Xml::UTF16Decoder::__cordl_internal_set_lastByte(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastByte = value;
 }
 inline ::System::Xml::UTF16Decoder* System::Xml::UTF16Decoder::New_ctor(bool bigEndian) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Xml::UTF16Decoder*>(bigEndian));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::UTF16Decoder*>(bigEndian));
 }
 inline void System::Xml::UTF16Decoder::_ctor(bool bigEndian) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::UTF16Decoder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bigEndian);
 }
 inline int32_t System::Xml::UTF16Decoder::GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count) {

@@ -28,23 +28,25 @@ MARK_REF_PTR_T(::GlobalNamespace::Spectrogram);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4999))
 // CS Name: ::Spectrogram*
 class CORDL_TYPE Spectrogram : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _setAsGlobal, offset 0x18, size 0x1
-  __declspec(property(get = __get__setAsGlobal, put = __set__setAsGlobal)) bool _setAsGlobal;
+  __declspec(property(get = __cordl_internal_get__setAsGlobal, put = __cordl_internal_set__setAsGlobal)) bool _setAsGlobal;
 
   /// @brief Field _meshRenderers, offset 0x20, size 0x8
-  __declspec(property(get = __get__meshRenderers, put = __set__meshRenderers))::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> _meshRenderers;
+  __declspec(property(get = __cordl_internal_get__meshRenderers,
+                      put = __cordl_internal_set__meshRenderers))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> _meshRenderers;
 
   /// @brief Field _materialPropertyBlockController, offset 0x28, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _spectrogramData, offset 0x30, size 0x8
-  __declspec(property(get = __get__spectrogramData, put = __set__spectrogramData))::GlobalNamespace::BasicSpectrogramData* _spectrogramData;
+  __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData))::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
 
   /// @brief Field _spectrogramDataID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__spectrogramDataID, put = setStaticF__spectrogramDataID)) int32_t _spectrogramDataID;
@@ -54,29 +56,29 @@ public:
 
   __declspec(property(get = get_materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
 
-  constexpr bool& __get__setAsGlobal();
+  constexpr bool& __cordl_internal_get__setAsGlobal();
 
-  constexpr bool const& __get__setAsGlobal() const;
+  constexpr bool const& __cordl_internal_get__setAsGlobal() const;
 
-  constexpr void __set__setAsGlobal(bool value);
+  constexpr void __cordl_internal_set__setAsGlobal(bool value);
 
-  constexpr ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*>& __get__meshRenderers();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& __cordl_internal_get__meshRenderers();
 
-  constexpr ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> const& __get__meshRenderers() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__meshRenderers() const;
 
-  constexpr void __set__meshRenderers(::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> value);
+  constexpr void __cordl_internal_set__meshRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr ::GlobalNamespace::BasicSpectrogramData*& __get__spectrogramData();
+  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& __cordl_internal_get__spectrogramData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BasicSpectrogramData*> const& __get__spectrogramData() const;
+  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData> const& __cordl_internal_get__spectrogramData() const;
 
-  constexpr void __set__spectrogramData(::GlobalNamespace::BasicSpectrogramData* value);
+  constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
   static inline void setStaticF__spectrogramDataID(int32_t value);
 
@@ -118,13 +120,13 @@ public:
   bool ____setAsGlobal;
 
   /// @brief Field _meshRenderers, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> ____meshRenderers;
+  ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> ____meshRenderers;
 
   /// @brief Field _materialPropertyBlockController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief Field _spectrogramData, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BasicSpectrogramData* ____spectrogramData;
+  ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

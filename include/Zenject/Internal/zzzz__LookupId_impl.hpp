@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2f213bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,11 +25,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2f213c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IProvider*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IProvider*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
     return ___internal_method;
   }
 };
@@ -40,53 +40,53 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x2f21460;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), 2));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::IProvider*& Zenject::Internal::LookupId::__get_Provider() {
+constexpr ::Zenject::IProvider*& Zenject::Internal::LookupId::__cordl_internal_get_Provider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::Internal::LookupId::__get_Provider() const {
+constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::Internal::LookupId::__cordl_internal_get_Provider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
-constexpr void Zenject::Internal::LookupId::__set_Provider(::Zenject::IProvider* value) {
+constexpr void Zenject::Internal::LookupId::__cordl_internal_set_Provider(::Zenject::IProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Zenject::BindingId& Zenject::Internal::LookupId::__get_BindingId() {
+constexpr ::Zenject::BindingId& Zenject::Internal::LookupId::__cordl_internal_get_BindingId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BindingId;
 }
-constexpr ::Zenject::BindingId const& Zenject::Internal::LookupId::__get_BindingId() const {
+constexpr ::Zenject::BindingId const& Zenject::Internal::LookupId::__cordl_internal_get_BindingId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BindingId;
 }
-constexpr void Zenject::Internal::LookupId::__set_BindingId(::Zenject::BindingId value) {
+constexpr void Zenject::Internal::LookupId::__cordl_internal_set_BindingId(::Zenject::BindingId value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BindingId = value;
 }
 inline ::Zenject::Internal::LookupId* Zenject::Internal::LookupId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::Internal::LookupId*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::LookupId*>());
 }
 inline void Zenject::Internal::LookupId::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::Zenject::Internal::LookupId* Zenject::Internal::LookupId::New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::Internal::LookupId*>(provider, bindingId));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::LookupId*>(provider, bindingId));
 }
 inline void Zenject::Internal::LookupId::_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IProvider*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IProvider*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provider, bindingId);
 }
 inline int32_t Zenject::Internal::LookupId::GetHashCode() {

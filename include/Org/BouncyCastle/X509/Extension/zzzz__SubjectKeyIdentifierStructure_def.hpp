@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Extension {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(383))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(383))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1840))
 // CS Name: ::Org.BouncyCastle.X509.Extension::SubjectKeyIdentifierStructure*
 class CORDL_TYPE SubjectKeyIdentifierStructure : public ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier {

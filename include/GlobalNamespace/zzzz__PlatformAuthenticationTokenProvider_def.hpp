@@ -84,9 +84,9 @@ MARK_VAL_T(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPl
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12682)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 876 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 5067 }), TypeDefinitionIndex(TypeDefinitionIndex(15982)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14968)) CS Name: ::PlatformAuthenticationTokenProvider::<GetAuthenticationToken>d__16
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12682)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5067 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 876 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14968)) CS Name: ::PlatformAuthenticationTokenProvider::<GetAuthenticationToken>d__16
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16 {
 public:
   // Declarations
@@ -148,9 +148,9 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14969)) CS Name: ::PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__18
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 902 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14969)) CS Name: ::PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__18
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18 {
 public:
   // Declarations
@@ -223,9 +223,9 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14970)) CS Name: ::PlatformAuthenticationTokenProvider::<RequestXPlatformAccessToken>d__19
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 902 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14970)) CS Name: ::PlatformAuthenticationTokenProvider::<RequestXPlatformAccessToken>d__19
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19 {
 public:
   // Declarations
@@ -292,7 +292,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12681))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12681))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14971))
 // CS Name: ::PlatformAuthenticationTokenProvider*
 class CORDL_TYPE PlatformAuthenticationTokenProvider : public ::System::Object {
@@ -305,29 +305,30 @@ public:
   using _GetAuthenticationToken_d__16 = ::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16;
 
   /// @brief Field _platformUserModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__platformUserModel, put = __set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
+  __declspec(property(get = __cordl_internal_get__platformUserModel, put = __cordl_internal_set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
 
   /// @brief Field _userId, offset 0x18, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _userName, offset 0x20, size 0x8
-  __declspec(property(get = __get__userName, put = __set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
 
   /// @brief Field _hashedUserId, offset 0x28, size 0x8
-  __declspec(property(get = __get__hashedUserId, put = __set__hashedUserId))::StringW _hashedUserId;
+  __declspec(property(get = __cordl_internal_get__hashedUserId, put = __cordl_internal_set__hashedUserId))::StringW _hashedUserId;
 
   /// @brief Field _platform, offset 0x30, size 0x1
-  __declspec(property(get = __get__platform, put = __set__platform))::GlobalNamespace::__AuthenticationToken__Platform _platform;
+  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform))::GlobalNamespace::__AuthenticationToken__Platform _platform;
 
   /// @brief Field _cachedXPlatformAccessToken, offset 0x38, size 0x8
-  __declspec(property(get = __get__cachedXPlatformAccessToken, put = __set__cachedXPlatformAccessToken))::GlobalNamespace::XPlatformAccessTokenData* _cachedXPlatformAccessToken;
+  __declspec(property(get = __cordl_internal_get__cachedXPlatformAccessToken,
+                      put = __cordl_internal_set__cachedXPlatformAccessToken))::GlobalNamespace::XPlatformAccessTokenData* _cachedXPlatformAccessToken;
 
   /// @brief Field _xPlatformAccessTokenTask, offset 0x40, size 0x8
-  __declspec(property(get = __get__xPlatformAccessTokenTask,
-                      put = __set__xPlatformAccessTokenTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* _xPlatformAccessTokenTask;
+  __declspec(property(get = __cordl_internal_get__xPlatformAccessTokenTask,
+                      put = __cordl_internal_set__xPlatformAccessTokenTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* _xPlatformAccessTokenTask;
 
   /// @brief Field _xPlatformTokenRetryDelayExpiration, offset 0x48, size 0x4
-  __declspec(property(get = __get__xPlatformTokenRetryDelayExpiration, put = __set__xPlatformTokenRetryDelayExpiration)) float_t _xPlatformTokenRetryDelayExpiration;
+  __declspec(property(get = __cordl_internal_get__xPlatformTokenRetryDelayExpiration, put = __cordl_internal_set__xPlatformTokenRetryDelayExpiration)) float_t _xPlatformTokenRetryDelayExpiration;
 
   __declspec(property(get = get_hashedUserId))::StringW hashedUserId;
 
@@ -341,53 +342,53 @@ public:
   /// @brief Convert to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr ::GlobalNamespace::IAuthenticationTokenProvider* i___GlobalNamespace__IAuthenticationTokenProvider() noexcept;
 
-  constexpr ::GlobalNamespace::IPlatformUserModel*& __get__platformUserModel();
+  constexpr ::GlobalNamespace::IPlatformUserModel*& __cordl_internal_get__platformUserModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& __get__platformUserModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& __cordl_internal_get__platformUserModel() const;
 
-  constexpr void __set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
+  constexpr void __cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr ::StringW& __get__userName();
+  constexpr ::StringW& __cordl_internal_get__userName();
 
-  constexpr ::StringW const& __get__userName() const;
+  constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr void __set__userName(::StringW value);
+  constexpr void __cordl_internal_set__userName(::StringW value);
 
-  constexpr ::StringW& __get__hashedUserId();
+  constexpr ::StringW& __cordl_internal_get__hashedUserId();
 
-  constexpr ::StringW const& __get__hashedUserId() const;
+  constexpr ::StringW const& __cordl_internal_get__hashedUserId() const;
 
-  constexpr void __set__hashedUserId(::StringW value);
+  constexpr void __cordl_internal_set__hashedUserId(::StringW value);
 
-  constexpr ::GlobalNamespace::__AuthenticationToken__Platform& __get__platform();
+  constexpr ::GlobalNamespace::__AuthenticationToken__Platform& __cordl_internal_get__platform();
 
-  constexpr ::GlobalNamespace::__AuthenticationToken__Platform const& __get__platform() const;
+  constexpr ::GlobalNamespace::__AuthenticationToken__Platform const& __cordl_internal_get__platform() const;
 
-  constexpr void __set__platform(::GlobalNamespace::__AuthenticationToken__Platform value);
+  constexpr void __cordl_internal_set__platform(::GlobalNamespace::__AuthenticationToken__Platform value);
 
-  constexpr ::GlobalNamespace::XPlatformAccessTokenData*& __get__cachedXPlatformAccessToken();
+  constexpr ::GlobalNamespace::XPlatformAccessTokenData*& __cordl_internal_get__cachedXPlatformAccessToken();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAccessTokenData*> const& __get__cachedXPlatformAccessToken() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAccessTokenData*> const& __cordl_internal_get__cachedXPlatformAccessToken() const;
 
-  constexpr void __set__cachedXPlatformAccessToken(::GlobalNamespace::XPlatformAccessTokenData* value);
+  constexpr void __cordl_internal_set__cachedXPlatformAccessToken(::GlobalNamespace::XPlatformAccessTokenData* value);
 
-  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>*& __get__xPlatformAccessTokenTask();
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>*& __cordl_internal_get__xPlatformAccessTokenTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>*> const& __get__xPlatformAccessTokenTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>*> const& __cordl_internal_get__xPlatformAccessTokenTask() const;
 
-  constexpr void __set__xPlatformAccessTokenTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* value);
+  constexpr void __cordl_internal_set__xPlatformAccessTokenTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* value);
 
-  constexpr float_t& __get__xPlatformTokenRetryDelayExpiration();
+  constexpr float_t& __cordl_internal_get__xPlatformTokenRetryDelayExpiration();
 
-  constexpr float_t const& __get__xPlatformTokenRetryDelayExpiration() const;
+  constexpr float_t const& __cordl_internal_get__xPlatformTokenRetryDelayExpiration() const;
 
-  constexpr void __set__xPlatformTokenRetryDelayExpiration(float_t value);
+  constexpr void __cordl_internal_set__xPlatformTokenRetryDelayExpiration(float_t value);
 
   /// @brief Method get_hashedUserId, addr 0x2637d8c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();

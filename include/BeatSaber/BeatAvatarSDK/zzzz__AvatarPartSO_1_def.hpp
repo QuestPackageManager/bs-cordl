@@ -20,20 +20,20 @@ namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15687))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartSO`1<T>*
 class CORDL_TYPE AvatarPartSO_1 : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _id, offset 0x18, size 0x8
-  __declspec(property(get = __get__id, put = __set__id))::StringW _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::StringW _id;
 
   /// @brief Field _localizationKey, offset 0x20, size 0x8
-  __declspec(property(get = __get__localizationKey, put = __set__localizationKey))::StringW _localizationKey;
+  __declspec(property(get = __cordl_internal_get__localizationKey, put = __cordl_internal_set__localizationKey))::StringW _localizationKey;
 
   /// @brief Field _partAsset, offset 0x28, size 0x8
-  __declspec(property(get = __get__partAsset, put = __set__partAsset)) T _partAsset;
+  __declspec(property(get = __cordl_internal_get__partAsset, put = __cordl_internal_set__partAsset)) T _partAsset;
 
   __declspec(property(get = get_partAsset)) T partAsset;
 
@@ -49,23 +49,23 @@ public:
   /// @brief Convert to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
   constexpr ::BeatSaber::BeatAvatarSDK::IAvatarPart* i___BeatSaber__BeatAvatarSDK__IAvatarPart() noexcept;
 
-  constexpr ::StringW& __get__id();
+  constexpr ::StringW& __cordl_internal_get__id();
 
-  constexpr ::StringW const& __get__id() const;
+  constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(::StringW value);
+  constexpr void __cordl_internal_set__id(::StringW value);
 
-  constexpr ::StringW& __get__localizationKey();
+  constexpr ::StringW& __cordl_internal_get__localizationKey();
 
-  constexpr ::StringW const& __get__localizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__localizationKey() const;
 
-  constexpr void __set__localizationKey(::StringW value);
+  constexpr void __cordl_internal_set__localizationKey(::StringW value);
 
-  constexpr T& __get__partAsset();
+  constexpr T& __cordl_internal_get__partAsset();
 
-  constexpr T const& __get__partAsset() const;
+  constexpr T const& __cordl_internal_get__partAsset() const;
 
-  constexpr void __set__partAsset(T value);
+  constexpr void __cordl_internal_set__partAsset(T value);
 
   /// @brief Method get_partAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_partAsset();

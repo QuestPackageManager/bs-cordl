@@ -18,33 +18,33 @@ MARK_REF_PTR_T(::System::LocalDataStoreElement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2542))
 // CS Name: ::System::LocalDataStoreElement*
 class CORDL_TYPE LocalDataStoreElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_value, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_value, put = __set_m_value))::System::Object* m_value;
+  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::System::Object* m_value;
 
   /// @brief Field m_cookie, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_cookie, put = __set_m_cookie)) int64_t m_cookie;
+  __declspec(property(get = __cordl_internal_get_m_cookie, put = __cordl_internal_set_m_cookie)) int64_t m_cookie;
 
   __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
 
   __declspec(property(get = get_Cookie)) int64_t Cookie;
 
-  constexpr ::System::Object*& __get_m_value();
+  constexpr ::System::Object*& __cordl_internal_get_m_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_value() const;
 
-  constexpr void __set_m_value(::System::Object* value);
+  constexpr void __cordl_internal_set_m_value(::System::Object* value);
 
-  constexpr int64_t& __get_m_cookie();
+  constexpr int64_t& __cordl_internal_get_m_cookie();
 
-  constexpr int64_t const& __get_m_cookie() const;
+  constexpr int64_t const& __cordl_internal_get_m_cookie() const;
 
-  constexpr void __set_m_cookie(int64_t value);
+  constexpr void __cordl_internal_set_m_cookie(int64_t value);
 
   static inline ::System::LocalDataStoreElement* New_ctor(int64_t cookie);
 

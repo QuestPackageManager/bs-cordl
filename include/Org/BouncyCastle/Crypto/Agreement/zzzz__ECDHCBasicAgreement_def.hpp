@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(737))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::ECDHCBasicAgreement*
 class CORDL_TYPE ECDHCBasicAgreement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field privKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_privKey, put = __set_privKey))::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey;
+  __declspec(property(get = __cordl_internal_get_privKey, put = __cordl_internal_set_privKey))::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
@@ -42,11 +42,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __get_privKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_privKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const& __get_privKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const& __cordl_internal_get_privKey() const;
 
-  constexpr void __set_privKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
+  constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
   /// @brief Method Init, addr 0x121a80c, size 0xec, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);

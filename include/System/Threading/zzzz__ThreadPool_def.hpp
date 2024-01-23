@@ -52,20 +52,20 @@ namespace System::Threading {
 // cpp template
 template <typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2738))
 // CS Name: ::ThreadPool::<>c__DisplayClass17_0`1<TState>*
 class CORDL_TYPE __ThreadPool____c__DisplayClass17_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callBack, offset 0x10, size 0x8
-  __declspec(property(get = __get_callBack, put = __set_callBack))::System::Action_1<TState>* callBack;
+  __declspec(property(get = __cordl_internal_get_callBack, put = __cordl_internal_set_callBack))::System::Action_1<TState>* callBack;
 
-  constexpr ::System::Action_1<TState>*& __get_callBack();
+  constexpr ::System::Action_1<TState>*& __cordl_internal_get_callBack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TState>*> const& __get_callBack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TState>*> const& __cordl_internal_get_callBack() const;
 
-  constexpr void __set_callBack(::System::Action_1<TState>* value);
+  constexpr void __cordl_internal_set_callBack(::System::Action_1<TState>* value);
 
   static inline ::System::Threading::__ThreadPool____c__DisplayClass17_0_1<TState>* New_ctor();
 
@@ -100,7 +100,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2739))
 // CS Name: ::System.Threading::ThreadPool*
 class CORDL_TYPE ThreadPool : public ::System::Object {

@@ -46,20 +46,20 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::RemotingProxy);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3088))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3088))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3089))
 // CS Name: ::System.Runtime.Remoting.Proxies::RemotingProxy*
 class CORDL_TYPE RemotingProxy : public ::System::Runtime::Remoting::Proxies::RealProxy {
 public:
   // Declarations
   /// @brief Field _sink, offset 0x50, size 0x8
-  __declspec(property(get = __get__sink, put = __set__sink))::System::Runtime::Remoting::Messaging::IMessageSink* _sink;
+  __declspec(property(get = __cordl_internal_get__sink, put = __cordl_internal_set__sink))::System::Runtime::Remoting::Messaging::IMessageSink* _sink;
 
   /// @brief Field _hasEnvoySink, offset 0x58, size 0x1
-  __declspec(property(get = __get__hasEnvoySink, put = __set__hasEnvoySink)) bool _hasEnvoySink;
+  __declspec(property(get = __cordl_internal_get__hasEnvoySink, put = __cordl_internal_set__hasEnvoySink)) bool _hasEnvoySink;
 
   /// @brief Field _ctorCall, offset 0x60, size 0x8
-  __declspec(property(get = __get__ctorCall, put = __set__ctorCall))::System::Runtime::Remoting::Messaging::ConstructionCall* _ctorCall;
+  __declspec(property(get = __cordl_internal_get__ctorCall, put = __cordl_internal_set__ctorCall))::System::Runtime::Remoting::Messaging::ConstructionCall* _ctorCall;
 
   /// @brief Field _cache_GetTypeMethod, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__cache_GetTypeMethod, put = setStaticF__cache_GetTypeMethod))::System::Reflection::MethodInfo* _cache_GetTypeMethod;
@@ -75,23 +75,23 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
   constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__sink();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__sink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__sink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__sink() const;
 
-  constexpr void __set__sink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__sink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr bool& __get__hasEnvoySink();
+  constexpr bool& __cordl_internal_get__hasEnvoySink();
 
-  constexpr bool const& __get__hasEnvoySink() const;
+  constexpr bool const& __cordl_internal_get__hasEnvoySink() const;
 
-  constexpr void __set__hasEnvoySink(bool value);
+  constexpr void __cordl_internal_set__hasEnvoySink(bool value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall*& __get__ctorCall();
+  constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall*& __cordl_internal_get__ctorCall();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::ConstructionCall*> const& __get__ctorCall() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::ConstructionCall*> const& __cordl_internal_get__ctorCall() const;
 
-  constexpr void __set__ctorCall(::System::Runtime::Remoting::Messaging::ConstructionCall* value);
+  constexpr void __cordl_internal_set__ctorCall(::System::Runtime::Remoting::Messaging::ConstructionCall* value);
 
   static inline void setStaticF__cache_GetTypeMethod(::System::Reflection::MethodInfo* value);
 

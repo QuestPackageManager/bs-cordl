@@ -25,20 +25,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1EncodableVector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(449))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1EncodableVector*
 class CORDL_TYPE Asn1EncodableVector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field elements, offset 0x10, size 0x8
-  __declspec(property(get = __get_elements, put = __set_elements))::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements;
+  __declspec(property(get = __cordl_internal_get_elements,
+                      put = __cordl_internal_set_elements))::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements;
 
   /// @brief Field elementCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_elementCount, put = __set_elementCount)) int32_t elementCount;
+  __declspec(property(get = __cordl_internal_get_elementCount, put = __cordl_internal_set_elementCount)) int32_t elementCount;
 
   /// @brief Field copyOnWrite, offset 0x1c, size 0x1
-  __declspec(property(get = __get_copyOnWrite, put = __set_copyOnWrite)) bool copyOnWrite;
+  __declspec(property(get = __cordl_internal_get_copyOnWrite, put = __cordl_internal_set_copyOnWrite)) bool copyOnWrite;
 
   /// @brief Field EmptyElements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EmptyElements,
@@ -54,23 +55,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>& __get_elements();
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>& __cordl_internal_get_elements();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> const& __get_elements() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> const& __cordl_internal_get_elements() const;
 
-  constexpr void __set_elements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> value);
+  constexpr void __cordl_internal_set_elements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> value);
 
-  constexpr int32_t& __get_elementCount();
+  constexpr int32_t& __cordl_internal_get_elementCount();
 
-  constexpr int32_t const& __get_elementCount() const;
+  constexpr int32_t const& __cordl_internal_get_elementCount() const;
 
-  constexpr void __set_elementCount(int32_t value);
+  constexpr void __cordl_internal_set_elementCount(int32_t value);
 
-  constexpr bool& __get_copyOnWrite();
+  constexpr bool& __cordl_internal_get_copyOnWrite();
 
-  constexpr bool const& __get_copyOnWrite() const;
+  constexpr bool const& __cordl_internal_get_copyOnWrite() const;
 
-  constexpr void __set_copyOnWrite(bool value);
+  constexpr void __cordl_internal_set_copyOnWrite(bool value);
 
   static inline void setStaticF_EmptyElements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> value);
 

@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::EmitParticles);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4842))
 // CS Name: ::EmitParticles*
 class CORDL_TYPE EmitParticles : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _particleSystem, offset 0x18, size 0x8
-  __declspec(property(get = __get__particleSystem, put = __set__particleSystem))::UnityEngine::ParticleSystem* _particleSystem;
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__particleSystem();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__particleSystem() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
 
-  constexpr void __set__particleSystem(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
   /// @brief Method Emit, addr 0x2396db8, size 0x1c, virtual false, abstract: false, final false
   inline void Emit(int32_t count);
@@ -56,7 +56,7 @@ protected:
 
 public:
   /// @brief Field _particleSystem, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____particleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

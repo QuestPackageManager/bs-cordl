@@ -15,31 +15,31 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlSchemaProviderAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11590))
 // CS Name: ::System.Xml.Serialization::XmlSchemaProviderAttribute*
 class CORDL_TYPE XmlSchemaProviderAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _methodName, offset 0x10, size 0x8
-  __declspec(property(get = __get__methodName, put = __set__methodName))::StringW _methodName;
+  __declspec(property(get = __cordl_internal_get__methodName, put = __cordl_internal_set__methodName))::StringW _methodName;
 
   /// @brief Field _isAny, offset 0x18, size 0x1
-  __declspec(property(get = __get__isAny, put = __set__isAny)) bool _isAny;
+  __declspec(property(get = __cordl_internal_get__isAny, put = __cordl_internal_set__isAny)) bool _isAny;
 
   __declspec(property(put = set_IsAny)) bool IsAny;
 
-  constexpr ::StringW& __get__methodName();
+  constexpr ::StringW& __cordl_internal_get__methodName();
 
-  constexpr ::StringW const& __get__methodName() const;
+  constexpr ::StringW const& __cordl_internal_get__methodName() const;
 
-  constexpr void __set__methodName(::StringW value);
+  constexpr void __cordl_internal_set__methodName(::StringW value);
 
-  constexpr bool& __get__isAny();
+  constexpr bool& __cordl_internal_get__isAny();
 
-  constexpr bool const& __get__isAny() const;
+  constexpr bool const& __cordl_internal_get__isAny() const;
 
-  constexpr void __set__isAny(bool value);
+  constexpr void __cordl_internal_set__isAny(bool value);
 
   static inline ::System::Xml::Serialization::XmlSchemaProviderAttribute* New_ctor(::StringW methodName);
 

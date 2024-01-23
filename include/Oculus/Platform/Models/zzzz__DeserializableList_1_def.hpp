@@ -40,20 +40,20 @@ namespace Oculus::Platform::Models {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13430))
 // CS Name: ::Oculus.Platform.Models::DeserializableList`1<T>*
 class CORDL_TYPE DeserializableList_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _Data, offset 0x10, size 0x8
-  __declspec(property(get = __get__Data, put = __set__Data))::System::Collections::Generic::List_1<T>* _Data;
+  __declspec(property(get = __cordl_internal_get__Data, put = __cordl_internal_set__Data))::System::Collections::Generic::List_1<T>* _Data;
 
   /// @brief Field _NextUrl, offset 0x18, size 0x8
-  __declspec(property(get = __get__NextUrl, put = __set__NextUrl))::StringW _NextUrl;
+  __declspec(property(get = __cordl_internal_get__NextUrl, put = __cordl_internal_set__NextUrl))::StringW _NextUrl;
 
   /// @brief Field _PreviousUrl, offset 0x20, size 0x8
-  __declspec(property(get = __get__PreviousUrl, put = __set__PreviousUrl))::StringW _PreviousUrl;
+  __declspec(property(get = __cordl_internal_get__PreviousUrl, put = __cordl_internal_set__PreviousUrl))::StringW _PreviousUrl;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -95,23 +95,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get__Data();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__Data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get__Data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__Data() const;
 
-  constexpr void __set__Data(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set__Data(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr ::StringW& __get__NextUrl();
+  constexpr ::StringW& __cordl_internal_get__NextUrl();
 
-  constexpr ::StringW const& __get__NextUrl() const;
+  constexpr ::StringW const& __cordl_internal_get__NextUrl() const;
 
-  constexpr void __set__NextUrl(::StringW value);
+  constexpr void __cordl_internal_set__NextUrl(::StringW value);
 
-  constexpr ::StringW& __get__PreviousUrl();
+  constexpr ::StringW& __cordl_internal_get__PreviousUrl();
 
-  constexpr ::StringW const& __get__PreviousUrl() const;
+  constexpr ::StringW const& __cordl_internal_get__PreviousUrl() const;
 
-  constexpr void __set__PreviousUrl(::StringW value);
+  constexpr void __cordl_internal_set__PreviousUrl(::StringW value);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();

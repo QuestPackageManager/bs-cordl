@@ -14,22 +14,22 @@ MARK_REF_PTR_T(::UnityEngine::Motion);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14868))
 // CS Name: ::UnityEngine::Motion*
 class CORDL_TYPE Motion : public ::UnityEngine::Object {
 public:
   // Declarations
   /// @brief Field <isAnimatorMotion>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__isAnimatorMotion_k__BackingField, put = __set__isAnimatorMotion_k__BackingField)) bool _isAnimatorMotion_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isAnimatorMotion_k__BackingField, put = __cordl_internal_set__isAnimatorMotion_k__BackingField)) bool _isAnimatorMotion_k__BackingField;
 
   __declspec(property(get = get_isLooping)) bool isLooping;
 
-  constexpr bool& __get__isAnimatorMotion_k__BackingField();
+  constexpr bool& __cordl_internal_get__isAnimatorMotion_k__BackingField();
 
-  constexpr bool const& __get__isAnimatorMotion_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isAnimatorMotion_k__BackingField() const;
 
-  constexpr void __set__isAnimatorMotion_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isAnimatorMotion_k__BackingField(bool value);
 
   static inline ::UnityEngine::Motion* New_ctor();
 

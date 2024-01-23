@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::Playables::FrameRate);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10420))
 // CS Name: ::UnityEngine.Playables::FrameRate
 struct CORDL_TYPE FrameRate {

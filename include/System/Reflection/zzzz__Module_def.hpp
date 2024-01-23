@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::System::Reflection::Module);
 // SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3459)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3459))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3481))
 // CS Name: ::System.Reflection::Module*
 class CORDL_TYPE Module : public ::System::Object {

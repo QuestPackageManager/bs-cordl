@@ -16,83 +16,83 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupGridLayouter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4930))
 // CS Name: ::LightGroupGridLayouter*
 class CORDL_TYPE LightGroupGridLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
   /// @brief Field _columns, offset 0x20, size 0x4
-  __declspec(property(get = __get__columns, put = __set__columns)) int32_t _columns;
+  __declspec(property(get = __cordl_internal_get__columns, put = __cordl_internal_set__columns)) int32_t _columns;
 
   /// @brief Field _columnStep, offset 0x24, size 0xc
-  __declspec(property(get = __get__columnStep, put = __set__columnStep))::UnityEngine::Vector3 _columnStep;
+  __declspec(property(get = __cordl_internal_get__columnStep, put = __cordl_internal_set__columnStep))::UnityEngine::Vector3 _columnStep;
 
   /// @brief Field _columnsFromCenter, offset 0x30, size 0x1
-  __declspec(property(get = __get__columnsFromCenter, put = __set__columnsFromCenter)) bool _columnsFromCenter;
+  __declspec(property(get = __cordl_internal_get__columnsFromCenter, put = __cordl_internal_set__columnsFromCenter)) bool _columnsFromCenter;
 
   /// @brief Field _rowStep, offset 0x34, size 0xc
-  __declspec(property(get = __get__rowStep, put = __set__rowStep))::UnityEngine::Vector3 _rowStep;
+  __declspec(property(get = __cordl_internal_get__rowStep, put = __cordl_internal_set__rowStep))::UnityEngine::Vector3 _rowStep;
 
   /// @brief Field _rowsFromCenter, offset 0x40, size 0x1
-  __declspec(property(get = __get__rowsFromCenter, put = __set__rowsFromCenter)) bool _rowsFromCenter;
+  __declspec(property(get = __cordl_internal_get__rowsFromCenter, put = __cordl_internal_set__rowsFromCenter)) bool _rowsFromCenter;
 
   /// @brief Field _transposeOrder, offset 0x41, size 0x1
-  __declspec(property(get = __get__transposeOrder, put = __set__transposeOrder)) bool _transposeOrder;
+  __declspec(property(get = __cordl_internal_get__transposeOrder, put = __cordl_internal_set__transposeOrder)) bool _transposeOrder;
 
   /// @brief Field _alternateOrder, offset 0x42, size 0x1
-  __declspec(property(get = __get__alternateOrder, put = __set__alternateOrder)) bool _alternateOrder;
+  __declspec(property(get = __cordl_internal_get__alternateOrder, put = __cordl_internal_set__alternateOrder)) bool _alternateOrder;
 
   /// @brief Field _defaultRotation, offset 0x44, size 0xc
-  __declspec(property(get = __get__defaultRotation, put = __set__defaultRotation))::UnityEngine::Vector3 _defaultRotation;
+  __declspec(property(get = __cordl_internal_get__defaultRotation, put = __cordl_internal_set__defaultRotation))::UnityEngine::Vector3 _defaultRotation;
 
-  constexpr int32_t& __get__columns();
+  constexpr int32_t& __cordl_internal_get__columns();
 
-  constexpr int32_t const& __get__columns() const;
+  constexpr int32_t const& __cordl_internal_get__columns() const;
 
-  constexpr void __set__columns(int32_t value);
+  constexpr void __cordl_internal_set__columns(int32_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__columnStep();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__columnStep();
 
-  constexpr ::UnityEngine::Vector3 const& __get__columnStep() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__columnStep() const;
 
-  constexpr void __set__columnStep(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__columnStep(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__columnsFromCenter();
+  constexpr bool& __cordl_internal_get__columnsFromCenter();
 
-  constexpr bool const& __get__columnsFromCenter() const;
+  constexpr bool const& __cordl_internal_get__columnsFromCenter() const;
 
-  constexpr void __set__columnsFromCenter(bool value);
+  constexpr void __cordl_internal_set__columnsFromCenter(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__rowStep();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rowStep();
 
-  constexpr ::UnityEngine::Vector3 const& __get__rowStep() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rowStep() const;
 
-  constexpr void __set__rowStep(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__rowStep(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__rowsFromCenter();
+  constexpr bool& __cordl_internal_get__rowsFromCenter();
 
-  constexpr bool const& __get__rowsFromCenter() const;
+  constexpr bool const& __cordl_internal_get__rowsFromCenter() const;
 
-  constexpr void __set__rowsFromCenter(bool value);
+  constexpr void __cordl_internal_set__rowsFromCenter(bool value);
 
-  constexpr bool& __get__transposeOrder();
+  constexpr bool& __cordl_internal_get__transposeOrder();
 
-  constexpr bool const& __get__transposeOrder() const;
+  constexpr bool const& __cordl_internal_get__transposeOrder() const;
 
-  constexpr void __set__transposeOrder(bool value);
+  constexpr void __cordl_internal_set__transposeOrder(bool value);
 
-  constexpr bool& __get__alternateOrder();
+  constexpr bool& __cordl_internal_get__alternateOrder();
 
-  constexpr bool const& __get__alternateOrder() const;
+  constexpr bool const& __cordl_internal_get__alternateOrder() const;
 
-  constexpr void __set__alternateOrder(bool value);
+  constexpr void __cordl_internal_set__alternateOrder(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__defaultRotation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__defaultRotation();
 
-  constexpr ::UnityEngine::Vector3 const& __get__defaultRotation() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__defaultRotation() const;
 
-  constexpr void __set__defaultRotation(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__defaultRotation(::UnityEngine::Vector3 value);
 
   static inline ::GlobalNamespace::LightGroupGridLayouter* New_ctor();
 

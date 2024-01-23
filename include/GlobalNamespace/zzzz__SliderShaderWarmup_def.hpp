@@ -20,29 +20,30 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderShaderWarmup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4827))
 // CS Name: ::SliderShaderWarmup*
 class CORDL_TYPE SliderShaderWarmup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _sliderMeshController, offset 0x18, size 0x8
-  __declspec(property(get = __get__sliderMeshController, put = __set__sliderMeshController))::GlobalNamespace::SliderMeshController* _sliderMeshController;
+  __declspec(property(get = __cordl_internal_get__sliderMeshController, put = __cordl_internal_set__sliderMeshController))::UnityW<::GlobalNamespace::SliderMeshController> _sliderMeshController;
 
   /// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
-  constexpr ::GlobalNamespace::SliderMeshController*& __get__sliderMeshController();
+  constexpr ::UnityW<::GlobalNamespace::SliderMeshController>& __cordl_internal_get__sliderMeshController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderMeshController*> const& __get__sliderMeshController() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderMeshController> const& __cordl_internal_get__sliderMeshController() const;
 
-  constexpr void __set__sliderMeshController(::GlobalNamespace::SliderMeshController* value);
+  constexpr void __cordl_internal_set__sliderMeshController(::UnityW<::GlobalNamespace::SliderMeshController> value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
   /// @brief Method Start, addr 0x23959c8, size 0x1d4, virtual false, abstract: false, final false
   inline void Start();
@@ -67,10 +68,10 @@ protected:
 
 public:
   /// @brief Field _sliderMeshController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::SliderMeshController* ____sliderMeshController;
+  ::UnityW<::GlobalNamespace::SliderMeshController> ____sliderMeshController;
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

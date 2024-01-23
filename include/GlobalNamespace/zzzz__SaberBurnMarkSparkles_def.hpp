@@ -39,121 +39,122 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberBurnMarkSparkles);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4875))
 // CS Name: ::SaberBurnMarkSparkles*
 class CORDL_TYPE SaberBurnMarkSparkles : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _sparklesPS, offset 0x18, size 0x8
-  __declspec(property(get = __get__sparklesPS, put = __set__sparklesPS))::UnityEngine::ParticleSystem* _sparklesPS;
+  __declspec(property(get = __cordl_internal_get__sparklesPS, put = __cordl_internal_set__sparklesPS))::UnityW<::UnityEngine::ParticleSystem> _sparklesPS;
 
   /// @brief Field _burnMarksPSPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__burnMarksPSPrefab, put = __set__burnMarksPSPrefab))::UnityEngine::ParticleSystem* _burnMarksPSPrefab;
+  __declspec(property(get = __cordl_internal_get__burnMarksPSPrefab, put = __cordl_internal_set__burnMarksPSPrefab))::UnityW<::UnityEngine::ParticleSystem> _burnMarksPSPrefab;
 
   /// @brief Field _boxCollider, offset 0x28, size 0x8
-  __declspec(property(get = __get__boxCollider, put = __set__boxCollider))::UnityEngine::BoxCollider* _boxCollider;
+  __declspec(property(get = __cordl_internal_get__boxCollider, put = __cordl_internal_set__boxCollider))::UnityW<::UnityEngine::BoxCollider> _boxCollider;
 
   /// @brief Field _colorManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _saberManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__saberManager, put = __set__saberManager))::GlobalNamespace::SaberManager* _saberManager;
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
   /// @brief Field _sabers, offset 0x40, size 0x8
-  __declspec(property(get = __get__sabers, put = __set__sabers))::ArrayW<::GlobalNamespace::Saber*, ::Array<::GlobalNamespace::Saber*>*> _sabers;
+  __declspec(property(get = __cordl_internal_get__sabers, put = __cordl_internal_set__sabers))::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> _sabers;
 
   /// @brief Field _plane, offset 0x48, size 0x10
-  __declspec(property(get = __get__plane, put = __set__plane))::UnityEngine::Plane _plane;
+  __declspec(property(get = __cordl_internal_get__plane, put = __cordl_internal_set__plane))::UnityEngine::Plane _plane;
 
   /// @brief Field _prevBurnMarkPos, offset 0x58, size 0x8
-  __declspec(property(get = __get__prevBurnMarkPos, put = __set__prevBurnMarkPos))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _prevBurnMarkPos;
+  __declspec(property(get = __cordl_internal_get__prevBurnMarkPos, put = __cordl_internal_set__prevBurnMarkPos))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _prevBurnMarkPos;
 
   /// @brief Field _prevBurnMarkPosValid, offset 0x60, size 0x8
-  __declspec(property(get = __get__prevBurnMarkPosValid, put = __set__prevBurnMarkPosValid))::ArrayW<bool, ::Array<bool>*> _prevBurnMarkPosValid;
+  __declspec(property(get = __cordl_internal_get__prevBurnMarkPosValid, put = __cordl_internal_set__prevBurnMarkPosValid))::ArrayW<bool, ::Array<bool>*> _prevBurnMarkPosValid;
 
   /// @brief Field _burnMarksPS, offset 0x68, size 0x8
-  __declspec(property(get = __get__burnMarksPS, put = __set__burnMarksPS))::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> _burnMarksPS;
+  __declspec(property(get = __cordl_internal_get__burnMarksPS,
+                      put = __cordl_internal_set__burnMarksPS))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _burnMarksPS;
 
   /// @brief Field _burnMarksEmissionModules, offset 0x70, size 0x8
-  __declspec(
-      property(get = __get__burnMarksEmissionModules,
-               put = __set__burnMarksEmissionModules))::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> _burnMarksEmissionModules;
+  __declspec(property(get = __cordl_internal_get__burnMarksEmissionModules,
+                      put = __cordl_internal_set__burnMarksEmissionModules))::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule,
+                                                                                     ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> _burnMarksEmissionModules;
 
   /// @brief Field _sparklesEmitParams, offset 0x78, size 0x90
-  __declspec(property(get = __get__sparklesEmitParams, put = __set__sparklesEmitParams))::UnityEngine::__ParticleSystem__EmitParams _sparklesEmitParams;
+  __declspec(property(get = __cordl_internal_get__sparklesEmitParams, put = __cordl_internal_set__sparklesEmitParams))::UnityEngine::__ParticleSystem__EmitParams _sparklesEmitParams;
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__sparklesPS();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__sparklesPS();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__sparklesPS() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__sparklesPS() const;
 
-  constexpr void __set__sparklesPS(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__sparklesPS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__burnMarksPSPrefab();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__burnMarksPSPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__burnMarksPSPrefab() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__burnMarksPSPrefab() const;
 
-  constexpr void __set__burnMarksPSPrefab(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__burnMarksPSPrefab(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::BoxCollider*& __get__boxCollider();
+  constexpr ::UnityW<::UnityEngine::BoxCollider>& __cordl_internal_get__boxCollider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::BoxCollider*> const& __get__boxCollider() const;
+  constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get__boxCollider() const;
 
-  constexpr void __set__boxCollider(::UnityEngine::BoxCollider* value);
+  constexpr void __cordl_internal_set__boxCollider(::UnityW<::UnityEngine::BoxCollider> value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr ::GlobalNamespace::SaberManager*& __get__saberManager();
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberManager*> const& __get__saberManager() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
-  constexpr void __set__saberManager(::GlobalNamespace::SaberManager* value);
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::Saber*, ::Array<::GlobalNamespace::Saber*>*>& __get__sabers();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*>& __cordl_internal_get__sabers();
 
-  constexpr ::ArrayW<::GlobalNamespace::Saber*, ::Array<::GlobalNamespace::Saber*>*> const& __get__sabers() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> const& __cordl_internal_get__sabers() const;
 
-  constexpr void __set__sabers(::ArrayW<::GlobalNamespace::Saber*, ::Array<::GlobalNamespace::Saber*>*> value);
+  constexpr void __cordl_internal_set__sabers(::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> value);
 
-  constexpr ::UnityEngine::Plane& __get__plane();
+  constexpr ::UnityEngine::Plane& __cordl_internal_get__plane();
 
-  constexpr ::UnityEngine::Plane const& __get__plane() const;
+  constexpr ::UnityEngine::Plane const& __cordl_internal_get__plane() const;
 
-  constexpr void __set__plane(::UnityEngine::Plane value);
+  constexpr void __cordl_internal_set__plane(::UnityEngine::Plane value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get__prevBurnMarkPos();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__prevBurnMarkPos();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get__prevBurnMarkPos() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__prevBurnMarkPos() const;
 
-  constexpr void __set__prevBurnMarkPos(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set__prevBurnMarkPos(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get__prevBurnMarkPosValid();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__prevBurnMarkPosValid();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get__prevBurnMarkPosValid() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__prevBurnMarkPosValid() const;
 
-  constexpr void __set__prevBurnMarkPosValid(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set__prevBurnMarkPosValid(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*>& __get__burnMarksPS();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>& __cordl_internal_get__burnMarksPS();
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> const& __get__burnMarksPS() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> const& __cordl_internal_get__burnMarksPS() const;
 
-  constexpr void __set__burnMarksPS(::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> value);
+  constexpr void __cordl_internal_set__burnMarksPS(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*>& __get__burnMarksEmissionModules();
+  constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*>& __cordl_internal_get__burnMarksEmissionModules();
 
-  constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> const& __get__burnMarksEmissionModules() const;
+  constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> const& __cordl_internal_get__burnMarksEmissionModules() const;
 
-  constexpr void __set__burnMarksEmissionModules(::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> value);
+  constexpr void __cordl_internal_set__burnMarksEmissionModules(::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> value);
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __get__sparklesEmitParams();
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__sparklesEmitParams();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __get__sparklesEmitParams() const;
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__sparklesEmitParams() const;
 
-  constexpr void __set__sparklesEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+  constexpr void __cordl_internal_set__sparklesEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
   /// @brief Method Start, addr 0x239d88c, size 0x494, virtual false, abstract: false, final false
   inline void Start();
@@ -193,22 +194,22 @@ protected:
 
 public:
   /// @brief Field _sparklesPS, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____sparklesPS;
+  ::UnityW<::UnityEngine::ParticleSystem> ____sparklesPS;
 
   /// @brief Field _burnMarksPSPrefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____burnMarksPSPrefab;
+  ::UnityW<::UnityEngine::ParticleSystem> ____burnMarksPSPrefab;
 
   /// @brief Field _boxCollider, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::BoxCollider* ____boxCollider;
+  ::UnityW<::UnityEngine::BoxCollider> ____boxCollider;
 
   /// @brief Field _colorManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field _saberManager, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::SaberManager* ____saberManager;
+  ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _sabers, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::Saber*, ::Array<::GlobalNamespace::Saber*>*> ____sabers;
+  ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> ____sabers;
 
   /// @brief Field _plane, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Plane ____plane;
@@ -220,7 +221,7 @@ public:
   ::ArrayW<bool, ::Array<bool>*> ____prevBurnMarkPosValid;
 
   /// @brief Field _burnMarksPS, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> ____burnMarksPS;
+  ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____burnMarksPS;
 
   /// @brief Field _burnMarksEmissionModules, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> ____burnMarksEmissionModules;

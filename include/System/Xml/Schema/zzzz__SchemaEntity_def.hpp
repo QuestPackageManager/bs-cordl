@@ -22,50 +22,50 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaEntity);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11705))
 // CS Name: ::System.Xml.Schema::SchemaEntity*
 class CORDL_TYPE SchemaEntity : public ::System::Object {
 public:
   // Declarations
   /// @brief Field qname, offset 0x10, size 0x8
-  __declspec(property(get = __get_qname, put = __set_qname))::System::Xml::XmlQualifiedName* qname;
+  __declspec(property(get = __cordl_internal_get_qname, put = __cordl_internal_set_qname))::System::Xml::XmlQualifiedName* qname;
 
   /// @brief Field url, offset 0x18, size 0x8
-  __declspec(property(get = __get_url, put = __set_url))::StringW url;
+  __declspec(property(get = __cordl_internal_get_url, put = __cordl_internal_set_url))::StringW url;
 
   /// @brief Field pubid, offset 0x20, size 0x8
-  __declspec(property(get = __get_pubid, put = __set_pubid))::StringW pubid;
+  __declspec(property(get = __cordl_internal_get_pubid, put = __cordl_internal_set_pubid))::StringW pubid;
 
   /// @brief Field text, offset 0x28, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::StringW text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   /// @brief Field ndata, offset 0x30, size 0x8
-  __declspec(property(get = __get_ndata, put = __set_ndata))::System::Xml::XmlQualifiedName* ndata;
+  __declspec(property(get = __cordl_internal_get_ndata, put = __cordl_internal_set_ndata))::System::Xml::XmlQualifiedName* ndata;
 
   /// @brief Field lineNumber, offset 0x38, size 0x4
-  __declspec(property(get = __get_lineNumber, put = __set_lineNumber)) int32_t lineNumber;
+  __declspec(property(get = __cordl_internal_get_lineNumber, put = __cordl_internal_set_lineNumber)) int32_t lineNumber;
 
   /// @brief Field linePosition, offset 0x3c, size 0x4
-  __declspec(property(get = __get_linePosition, put = __set_linePosition)) int32_t linePosition;
+  __declspec(property(get = __cordl_internal_get_linePosition, put = __cordl_internal_set_linePosition)) int32_t linePosition;
 
   /// @brief Field isParameter, offset 0x40, size 0x1
-  __declspec(property(get = __get_isParameter, put = __set_isParameter)) bool isParameter;
+  __declspec(property(get = __cordl_internal_get_isParameter, put = __cordl_internal_set_isParameter)) bool isParameter;
 
   /// @brief Field isExternal, offset 0x41, size 0x1
-  __declspec(property(get = __get_isExternal, put = __set_isExternal)) bool isExternal;
+  __declspec(property(get = __cordl_internal_get_isExternal, put = __cordl_internal_set_isExternal)) bool isExternal;
 
   /// @brief Field parsingInProgress, offset 0x42, size 0x1
-  __declspec(property(get = __get_parsingInProgress, put = __set_parsingInProgress)) bool parsingInProgress;
+  __declspec(property(get = __cordl_internal_get_parsingInProgress, put = __cordl_internal_set_parsingInProgress)) bool parsingInProgress;
 
   /// @brief Field isDeclaredInExternal, offset 0x43, size 0x1
-  __declspec(property(get = __get_isDeclaredInExternal, put = __set_isDeclaredInExternal)) bool isDeclaredInExternal;
+  __declspec(property(get = __cordl_internal_get_isDeclaredInExternal, put = __cordl_internal_set_isDeclaredInExternal)) bool isDeclaredInExternal;
 
   /// @brief Field baseURI, offset 0x48, size 0x8
-  __declspec(property(get = __get_baseURI, put = __set_baseURI))::StringW baseURI;
+  __declspec(property(get = __cordl_internal_get_baseURI, put = __cordl_internal_set_baseURI))::StringW baseURI;
 
   /// @brief Field declaredURI, offset 0x50, size 0x8
-  __declspec(property(get = __get_declaredURI, put = __set_declaredURI))::StringW declaredURI;
+  __declspec(property(get = __cordl_internal_get_declaredURI, put = __cordl_internal_set_declaredURI))::StringW declaredURI;
 
   __declspec(property(get = System_Xml_IDtdEntityInfo_get_Name))::StringW System_Xml_IDtdEntityInfo_Name;
 
@@ -121,83 +121,83 @@ public:
   /// @brief Convert to "::System::Xml::IDtdEntityInfo"
   constexpr ::System::Xml::IDtdEntityInfo* i___System__Xml__IDtdEntityInfo() noexcept;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_qname();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qname();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_qname() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qname() const;
 
-  constexpr void __set_qname(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_qname(::System::Xml::XmlQualifiedName* value);
 
-  constexpr ::StringW& __get_url();
+  constexpr ::StringW& __cordl_internal_get_url();
 
-  constexpr ::StringW const& __get_url() const;
+  constexpr ::StringW const& __cordl_internal_get_url() const;
 
-  constexpr void __set_url(::StringW value);
+  constexpr void __cordl_internal_set_url(::StringW value);
 
-  constexpr ::StringW& __get_pubid();
+  constexpr ::StringW& __cordl_internal_get_pubid();
 
-  constexpr ::StringW const& __get_pubid() const;
+  constexpr ::StringW const& __cordl_internal_get_pubid() const;
 
-  constexpr void __set_pubid(::StringW value);
+  constexpr void __cordl_internal_set_pubid(::StringW value);
 
-  constexpr ::StringW& __get_text();
+  constexpr ::StringW& __cordl_internal_get_text();
 
-  constexpr ::StringW const& __get_text() const;
+  constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::StringW value);
+  constexpr void __cordl_internal_set_text(::StringW value);
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_ndata();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_ndata();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_ndata() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_ndata() const;
 
-  constexpr void __set_ndata(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_ndata(::System::Xml::XmlQualifiedName* value);
 
-  constexpr int32_t& __get_lineNumber();
+  constexpr int32_t& __cordl_internal_get_lineNumber();
 
-  constexpr int32_t const& __get_lineNumber() const;
+  constexpr int32_t const& __cordl_internal_get_lineNumber() const;
 
-  constexpr void __set_lineNumber(int32_t value);
+  constexpr void __cordl_internal_set_lineNumber(int32_t value);
 
-  constexpr int32_t& __get_linePosition();
+  constexpr int32_t& __cordl_internal_get_linePosition();
 
-  constexpr int32_t const& __get_linePosition() const;
+  constexpr int32_t const& __cordl_internal_get_linePosition() const;
 
-  constexpr void __set_linePosition(int32_t value);
+  constexpr void __cordl_internal_set_linePosition(int32_t value);
 
-  constexpr bool& __get_isParameter();
+  constexpr bool& __cordl_internal_get_isParameter();
 
-  constexpr bool const& __get_isParameter() const;
+  constexpr bool const& __cordl_internal_get_isParameter() const;
 
-  constexpr void __set_isParameter(bool value);
+  constexpr void __cordl_internal_set_isParameter(bool value);
 
-  constexpr bool& __get_isExternal();
+  constexpr bool& __cordl_internal_get_isExternal();
 
-  constexpr bool const& __get_isExternal() const;
+  constexpr bool const& __cordl_internal_get_isExternal() const;
 
-  constexpr void __set_isExternal(bool value);
+  constexpr void __cordl_internal_set_isExternal(bool value);
 
-  constexpr bool& __get_parsingInProgress();
+  constexpr bool& __cordl_internal_get_parsingInProgress();
 
-  constexpr bool const& __get_parsingInProgress() const;
+  constexpr bool const& __cordl_internal_get_parsingInProgress() const;
 
-  constexpr void __set_parsingInProgress(bool value);
+  constexpr void __cordl_internal_set_parsingInProgress(bool value);
 
-  constexpr bool& __get_isDeclaredInExternal();
+  constexpr bool& __cordl_internal_get_isDeclaredInExternal();
 
-  constexpr bool const& __get_isDeclaredInExternal() const;
+  constexpr bool const& __cordl_internal_get_isDeclaredInExternal() const;
 
-  constexpr void __set_isDeclaredInExternal(bool value);
+  constexpr void __cordl_internal_set_isDeclaredInExternal(bool value);
 
-  constexpr ::StringW& __get_baseURI();
+  constexpr ::StringW& __cordl_internal_get_baseURI();
 
-  constexpr ::StringW const& __get_baseURI() const;
+  constexpr ::StringW const& __cordl_internal_get_baseURI() const;
 
-  constexpr void __set_baseURI(::StringW value);
+  constexpr void __cordl_internal_set_baseURI(::StringW value);
 
-  constexpr ::StringW& __get_declaredURI();
+  constexpr ::StringW& __cordl_internal_get_declaredURI();
 
-  constexpr ::StringW const& __get_declaredURI() const;
+  constexpr ::StringW const& __cordl_internal_get_declaredURI() const;
 
-  constexpr void __set_declaredURI(::StringW value);
+  constexpr void __cordl_internal_set_declaredURI(::StringW value);
 
   static inline ::System::Xml::Schema::SchemaEntity* New_ctor(::System::Xml::XmlQualifiedName* qname, bool isParameter);
 

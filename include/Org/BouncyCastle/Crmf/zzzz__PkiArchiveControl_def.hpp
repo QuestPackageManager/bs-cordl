@@ -30,14 +30,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PkiArchiveControl);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(703))
 // CS Name: ::Org.BouncyCastle.Crmf::PkiArchiveControl*
 class CORDL_TYPE PkiArchiveControl : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pkiArchiveOptions, offset 0x10, size 0x8
-  __declspec(property(get = __get_pkiArchiveOptions, put = __set_pkiArchiveOptions))::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions;
+  __declspec(property(get = __cordl_internal_get_pkiArchiveOptions, put = __cordl_internal_set_pkiArchiveOptions))::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions;
 
   /// @brief Field encryptedPrivKey, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_encryptedPrivKey, put = setStaticF_encryptedPrivKey)) int32_t encryptedPrivKey;
@@ -65,11 +65,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
   constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*& __get_pkiArchiveOptions();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*& __cordl_internal_get_pkiArchiveOptions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*> const& __get_pkiArchiveOptions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*> const& __cordl_internal_get_pkiArchiveOptions() const;
 
-  constexpr void __set_pkiArchiveOptions(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* value);
+  constexpr void __cordl_internal_set_pkiArchiveOptions(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* value);
 
   static inline void setStaticF_encryptedPrivKey(int32_t value);
 

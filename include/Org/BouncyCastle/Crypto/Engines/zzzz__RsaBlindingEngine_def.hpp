@@ -32,23 +32,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(863))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaBlindingEngine*
 class CORDL_TYPE RsaBlindingEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field core, offset 0x10, size 0x8
-  __declspec(property(get = __get_core, put = __set_core))::Org::BouncyCastle::Crypto::IRsa* core;
+  __declspec(property(get = __cordl_internal_get_core, put = __cordl_internal_set_core))::Org::BouncyCastle::Crypto::IRsa* core;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
 
   /// @brief Field blindingFactor, offset 0x20, size 0x8
-  __declspec(property(get = __get_blindingFactor, put = __set_blindingFactor))::Org::BouncyCastle::Math::BigInteger* blindingFactor;
+  __declspec(property(get = __cordl_internal_get_blindingFactor, put = __cordl_internal_set_blindingFactor))::Org::BouncyCastle::Math::BigInteger* blindingFactor;
 
   /// @brief Field forEncryption, offset 0x28, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -58,29 +58,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IRsa*& __get_core();
+  constexpr ::Org::BouncyCastle::Crypto::IRsa*& __cordl_internal_get_core();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IRsa*> const& __get_core() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IRsa*> const& __cordl_internal_get_core() const;
 
-  constexpr void __set_core(::Org::BouncyCastle::Crypto::IRsa* value);
+  constexpr void __cordl_internal_set_core(::Org::BouncyCastle::Crypto::IRsa* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_blindingFactor();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_blindingFactor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_blindingFactor() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_blindingFactor() const;
 
-  constexpr void __set_blindingFactor(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_blindingFactor(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine* New_ctor();
 

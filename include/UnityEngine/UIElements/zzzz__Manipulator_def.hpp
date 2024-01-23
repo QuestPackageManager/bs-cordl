@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Manipulator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6905))
 // CS Name: ::UnityEngine.UIElements::Manipulator*
 class CORDL_TYPE Manipulator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Target, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Target, put = __set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
+  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
 
   __declspec(property(get = get_target, put = set_target))::UnityEngine::UIElements::VisualElement* target;
 
@@ -37,11 +37,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IManipulator"
   constexpr ::UnityEngine::UIElements::IManipulator* i___UnityEngine__UIElements__IManipulator() noexcept;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Target();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Target() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
 
-  constexpr void __set_m_Target(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method RegisterCallbacksOnTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterCallbacksOnTarget();

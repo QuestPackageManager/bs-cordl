@@ -48,50 +48,50 @@ MARK_REF_PTR_T(::HMUI::__PanelAnimation___AnimationCoroutine_d__1);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13508))
 // CS Name: ::PanelAnimation::<AnimationCoroutine>d__1*
 class CORDL_TYPE __PanelAnimation___AnimationCoroutine_d__1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field canvasGroup, offset 0x20, size 0x8
-  __declspec(property(get = __get_canvasGroup, put = __set_canvasGroup))::UnityEngine::CanvasGroup* canvasGroup;
+  __declspec(property(get = __cordl_internal_get_canvasGroup, put = __cordl_internal_set_canvasGroup))::UnityW<::UnityEngine::CanvasGroup> canvasGroup;
 
   /// @brief Field duration, offset 0x28, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field parentCanvasGroup, offset 0x30, size 0x8
-  __declspec(property(get = __get_parentCanvasGroup, put = __set_parentCanvasGroup))::UnityEngine::CanvasGroup* parentCanvasGroup;
+  __declspec(property(get = __cordl_internal_get_parentCanvasGroup, put = __cordl_internal_set_parentCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> parentCanvasGroup;
 
   /// @brief Field parentAlphaAnimationCurve, offset 0x38, size 0x8
-  __declspec(property(get = __get_parentAlphaAnimationCurve, put = __set_parentAlphaAnimationCurve))::UnityEngine::AnimationCurve* parentAlphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_parentAlphaAnimationCurve, put = __cordl_internal_set_parentAlphaAnimationCurve))::UnityEngine::AnimationCurve* parentAlphaAnimationCurve;
 
   /// @brief Field alphaAnimationCurve, offset 0x40, size 0x8
-  __declspec(property(get = __get_alphaAnimationCurve, put = __set_alphaAnimationCurve))::UnityEngine::AnimationCurve* alphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_alphaAnimationCurve, put = __cordl_internal_set_alphaAnimationCurve))::UnityEngine::AnimationCurve* alphaAnimationCurve;
 
   /// @brief Field scaleXAnimationCurve, offset 0x48, size 0x8
-  __declspec(property(get = __get_scaleXAnimationCurve, put = __set_scaleXAnimationCurve))::UnityEngine::AnimationCurve* scaleXAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_scaleXAnimationCurve, put = __cordl_internal_set_scaleXAnimationCurve))::UnityEngine::AnimationCurve* scaleXAnimationCurve;
 
   /// @brief Field scaleYAnimationCurve, offset 0x50, size 0x8
-  __declspec(property(get = __get_scaleYAnimationCurve, put = __set_scaleYAnimationCurve))::UnityEngine::AnimationCurve* scaleYAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_scaleYAnimationCurve, put = __cordl_internal_set_scaleYAnimationCurve))::UnityEngine::AnimationCurve* scaleYAnimationCurve;
 
   /// @brief Field <>4__this, offset 0x58, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::PanelAnimation* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::PanelAnimation> __4__this;
 
   /// @brief Field finishedCallback, offset 0x60, size 0x8
-  __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
   /// @brief Field <canvasTransform>5__2, offset 0x68, size 0x8
-  __declspec(property(get = __get__canvasTransform_5__2, put = __set__canvasTransform_5__2))::UnityEngine::Transform* _canvasTransform_5__2;
+  __declspec(property(get = __cordl_internal_get__canvasTransform_5__2, put = __cordl_internal_set__canvasTransform_5__2))::UnityW<::UnityEngine::Transform> _canvasTransform_5__2;
 
   /// @brief Field <elapsedTime>5__3, offset 0x70, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__3, put = __set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -115,83 +115,83 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get_canvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get_canvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get_canvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get_canvasGroup() const;
 
-  constexpr void __set_canvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set_canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get_parentCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get_parentCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get_parentCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get_parentCanvasGroup() const;
 
-  constexpr void __set_parentCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set_parentCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_parentAlphaAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_parentAlphaAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_parentAlphaAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_parentAlphaAnimationCurve() const;
 
-  constexpr void __set_parentAlphaAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_parentAlphaAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_alphaAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_alphaAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_alphaAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_alphaAnimationCurve() const;
 
-  constexpr void __set_alphaAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_alphaAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_scaleXAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_scaleXAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_scaleXAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_scaleXAnimationCurve() const;
 
-  constexpr void __set_scaleXAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_scaleXAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_scaleYAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_scaleYAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_scaleYAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_scaleYAnimationCurve() const;
 
-  constexpr void __set_scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::HMUI::PanelAnimation*& __get___4__this();
+  constexpr ::UnityW<::HMUI::PanelAnimation>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimation*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::PanelAnimation> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::PanelAnimation* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::PanelAnimation> value);
 
-  constexpr ::System::Action*& __get_finishedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_finishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __set_finishedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  constexpr ::UnityEngine::Transform*& __get__canvasTransform_5__2();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__canvasTransform_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__canvasTransform_5__2() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__canvasTransform_5__2() const;
 
-  constexpr void __set__canvasTransform_5__2(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__canvasTransform_5__2(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get__elapsedTime_5__3();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__3();
 
-  constexpr float_t const& __get__elapsedTime_5__3() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__3() const;
 
-  constexpr void __set__elapsedTime_5__3(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__3(float_t value);
 
   static inline ::HMUI::__PanelAnimation___AnimationCoroutine_d__1* New_ctor(int32_t __1__state);
 
@@ -234,13 +234,13 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field canvasGroup, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ___canvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ___canvasGroup;
 
   /// @brief Field duration, offset: 0x28, size: 0x4, def value: None
   float_t ___duration;
 
   /// @brief Field parentCanvasGroup, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ___parentCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ___parentCanvasGroup;
 
   /// @brief Field parentAlphaAnimationCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___parentAlphaAnimationCurve;
@@ -255,13 +255,13 @@ public:
   ::UnityEngine::AnimationCurve* ___scaleYAnimationCurve;
 
   /// @brief Field <>4__this, offset: 0x58, size: 0x8, def value: None
-  ::HMUI::PanelAnimation* _____4__this;
+  ::UnityW<::HMUI::PanelAnimation> _____4__this;
 
   /// @brief Field finishedCallback, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___finishedCallback;
 
   /// @brief Field <canvasTransform>5__2, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____canvasTransform_5__2;
+  ::UnityW<::UnityEngine::Transform> ____canvasTransform_5__2;
 
   /// @brief Field <elapsedTime>5__3, offset: 0x70, size: 0x4, def value: None
   float_t ____elapsedTime_5__3;
@@ -302,7 +302,7 @@ static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ____e
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13509))
 // CS Name: ::HMUI::PanelAnimation*
 class CORDL_TYPE PanelAnimation : public ::UnityEngine::MonoBehaviour {

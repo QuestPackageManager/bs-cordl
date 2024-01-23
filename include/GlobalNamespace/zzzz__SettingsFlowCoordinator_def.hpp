@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SettingsFlowCoordinator);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5523))
 // CS Name: ::SettingsFlowCoordinator::FinishAction
 struct CORDL_TYPE __SettingsFlowCoordinator__FinishAction {
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__SettingsFlowCoordinator__FinishActio
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5524))
 // CS Name: ::SettingsFlowCoordinator*
 class CORDL_TYPE SettingsFlowCoordinator : public ::HMUI::FlowCoordinator {
@@ -110,64 +110,67 @@ public:
   using FinishAction = ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction;
 
   /// @brief Field _mainSettingsModel, offset 0xa8, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _mainSettingsMenuViewController, offset 0xb0, size 0x8
-  __declspec(property(get = __get__mainSettingsMenuViewController, put = __set__mainSettingsMenuViewController))::GlobalNamespace::MainSettingsMenuViewController* _mainSettingsMenuViewController;
+  __declspec(property(get = __cordl_internal_get__mainSettingsMenuViewController,
+                      put = __cordl_internal_set__mainSettingsMenuViewController))::UnityW<::GlobalNamespace::MainSettingsMenuViewController> _mainSettingsMenuViewController;
 
   /// @brief Field _settingsNavigationController, offset 0xb8, size 0x8
-  __declspec(property(get = __get__settingsNavigationController, put = __set__settingsNavigationController))::GlobalNamespace::SettingsNavigationController* _settingsNavigationController;
+  __declspec(property(get = __cordl_internal_get__settingsNavigationController,
+                      put = __cordl_internal_set__settingsNavigationController))::UnityW<::GlobalNamespace::SettingsNavigationController> _settingsNavigationController;
 
   /// @brief Field _saveData, offset 0xc0, size 0x8
-  __declspec(property(get = __get__saveData, put = __set__saveData))::GlobalNamespace::ISaveData* _saveData;
+  __declspec(property(get = __cordl_internal_get__saveData, put = __cordl_internal_set__saveData))::GlobalNamespace::ISaveData* _saveData;
 
   /// @brief Field didFinishEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_didFinishEvent,
-                      put = __set_didFinishEvent))::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* didFinishEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didFinishEvent,
+      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* didFinishEvent;
 
   /// @brief Field _selectedSettingsSubMenuInfoIdx, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__selectedSettingsSubMenuInfoIdx, put = setStaticF__selectedSettingsSubMenuInfoIdx)) int32_t _selectedSettingsSubMenuInfoIdx;
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::GlobalNamespace::MainSettingsMenuViewController*& __get__mainSettingsMenuViewController();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& __cordl_internal_get__mainSettingsMenuViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const& __get__mainSettingsMenuViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const& __cordl_internal_get__mainSettingsMenuViewController() const;
 
-  constexpr void __set__mainSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value);
+  constexpr void __cordl_internal_set__mainSettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value);
 
-  constexpr ::GlobalNamespace::SettingsNavigationController*& __get__settingsNavigationController();
+  constexpr ::UnityW<::GlobalNamespace::SettingsNavigationController>& __cordl_internal_get__settingsNavigationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsNavigationController*> const& __get__settingsNavigationController() const;
+  constexpr ::UnityW<::GlobalNamespace::SettingsNavigationController> const& __cordl_internal_get__settingsNavigationController() const;
 
-  constexpr void __set__settingsNavigationController(::GlobalNamespace::SettingsNavigationController* value);
+  constexpr void __cordl_internal_set__settingsNavigationController(::UnityW<::GlobalNamespace::SettingsNavigationController> value);
 
-  constexpr ::GlobalNamespace::ISaveData*& __get__saveData();
+  constexpr ::GlobalNamespace::ISaveData*& __cordl_internal_get__saveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __get__saveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __cordl_internal_get__saveData() const;
 
-  constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
+  constexpr void __cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>*& __get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>*> const&
-  __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>*> const&
+  __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
   static inline void setStaticF__selectedSettingsSubMenuInfoIdx(int32_t value);
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
   /// @brief Method add_didFinishEvent, addr 0x228b9b8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x228c1d8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
   /// @brief Method DidActivate, addr 0x229b6d0, size 0x2b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -213,19 +216,19 @@ protected:
 
 public:
   /// @brief Field _mainSettingsModel, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _mainSettingsMenuViewController, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsMenuViewController* ____mainSettingsMenuViewController;
+  ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> ____mainSettingsMenuViewController;
 
   /// @brief Field _settingsNavigationController, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::SettingsNavigationController* ____settingsNavigationController;
+  ::UnityW<::GlobalNamespace::SettingsNavigationController> ____settingsNavigationController;
 
   /// @brief Field _saveData, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::ISaveData* ____saveData;
 
   /// @brief Field didFinishEvent, offset: 0xc8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

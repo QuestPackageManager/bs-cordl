@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::Rendering::LocalKeywordSpace);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10373))
 // CS Name: ::UnityEngine.Rendering::LocalKeywordSpace
 struct CORDL_TYPE LocalKeywordSpace {

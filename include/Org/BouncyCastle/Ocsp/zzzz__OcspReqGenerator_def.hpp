@@ -59,29 +59,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1614))
 // CS Name: ::OcspReqGenerator::RequestObject*
 class CORDL_TYPE __OcspReqGenerator__RequestObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certId, offset 0x10, size 0x8
-  __declspec(property(get = __get_certId, put = __set_certId))::Org::BouncyCastle::Ocsp::CertificateID* certId;
+  __declspec(property(get = __cordl_internal_get_certId, put = __cordl_internal_set_certId))::Org::BouncyCastle::Ocsp::CertificateID* certId;
 
   /// @brief Field extensions, offset 0x18, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
 
-  constexpr ::Org::BouncyCastle::Ocsp::CertificateID*& __get_certId();
+  constexpr ::Org::BouncyCastle::Ocsp::CertificateID*& __cordl_internal_get_certId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::CertificateID*> const& __get_certId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::CertificateID*> const& __cordl_internal_get_certId() const;
 
-  constexpr void __set_certId(::Org::BouncyCastle::Ocsp::CertificateID* value);
+  constexpr void __cordl_internal_set_certId(::Org::BouncyCastle::Ocsp::CertificateID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_extensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   static inline ::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObject* New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
@@ -125,7 +125,7 @@ static_assert(offsetof(::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObj
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1615))
 // CS Name: ::Org.BouncyCastle.Ocsp::OcspReqGenerator*
 class CORDL_TYPE OcspReqGenerator : public ::System::Object {
@@ -134,33 +134,33 @@ public:
   using RequestObject = ::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObject;
 
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::IList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
 
   /// @brief Field requestorName, offset 0x18, size 0x8
-  __declspec(property(get = __get_requestorName, put = __set_requestorName))::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName;
+  __declspec(property(get = __cordl_internal_get_requestorName, put = __cordl_internal_set_requestorName))::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName;
 
   /// @brief Field requestExtensions, offset 0x20, size 0x8
-  __declspec(property(get = __get_requestExtensions, put = __set_requestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions;
+  __declspec(property(get = __cordl_internal_get_requestExtensions, put = __cordl_internal_set_requestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions;
 
   __declspec(property(get = get_SignatureAlgNames))::System::Collections::IEnumerable* SignatureAlgNames;
 
-  constexpr ::System::Collections::IList*& __get_list();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_requestorName();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_requestorName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_requestorName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_requestorName() const;
 
-  constexpr void __set_requestorName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_requestorName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_requestExtensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_requestExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_requestExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_requestExtensions() const;
 
-  constexpr void __set_requestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_requestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   /// @brief Method AddRequest, addr 0x10a08d0, size 0xe4, virtual false, abstract: false, final false
   inline void AddRequest(::Org::BouncyCastle::Ocsp::CertificateID* certId);

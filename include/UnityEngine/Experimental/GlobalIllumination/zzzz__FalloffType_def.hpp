@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::FalloffType);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10388))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::FalloffType
 struct CORDL_TYPE FalloffType {

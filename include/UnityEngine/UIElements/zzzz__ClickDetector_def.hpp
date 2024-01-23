@@ -35,47 +35,47 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6755))
 // CS Name: ::ClickDetector::ButtonClickStatus*
 class CORDL_TYPE __ClickDetector__ButtonClickStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Target, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Target, put = __set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
+  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
 
   /// @brief Field m_PointerDownPosition, offset 0x18, size 0xc
-  __declspec(property(get = __get_m_PointerDownPosition, put = __set_m_PointerDownPosition))::UnityEngine::Vector3 m_PointerDownPosition;
+  __declspec(property(get = __cordl_internal_get_m_PointerDownPosition, put = __cordl_internal_set_m_PointerDownPosition))::UnityEngine::Vector3 m_PointerDownPosition;
 
   /// @brief Field m_LastPointerDownTime, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_LastPointerDownTime, put = __set_m_LastPointerDownTime)) int64_t m_LastPointerDownTime;
+  __declspec(property(get = __cordl_internal_get_m_LastPointerDownTime, put = __cordl_internal_set_m_LastPointerDownTime)) int64_t m_LastPointerDownTime;
 
   /// @brief Field m_ClickCount, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_ClickCount, put = __set_m_ClickCount)) int32_t m_ClickCount;
+  __declspec(property(get = __cordl_internal_get_m_ClickCount, put = __cordl_internal_set_m_ClickCount)) int32_t m_ClickCount;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Target();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Target() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
 
-  constexpr void __set_m_Target(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_PointerDownPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_PointerDownPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_PointerDownPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_PointerDownPosition() const;
 
-  constexpr void __set_m_PointerDownPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_PointerDownPosition(::UnityEngine::Vector3 value);
 
-  constexpr int64_t& __get_m_LastPointerDownTime();
+  constexpr int64_t& __cordl_internal_get_m_LastPointerDownTime();
 
-  constexpr int64_t const& __get_m_LastPointerDownTime() const;
+  constexpr int64_t const& __cordl_internal_get_m_LastPointerDownTime() const;
 
-  constexpr void __set_m_LastPointerDownTime(int64_t value);
+  constexpr void __cordl_internal_set_m_LastPointerDownTime(int64_t value);
 
-  constexpr int32_t& __get_m_ClickCount();
+  constexpr int32_t& __cordl_internal_get_m_ClickCount();
 
-  constexpr int32_t const& __get_m_ClickCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ClickCount() const;
 
-  constexpr void __set_m_ClickCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ClickCount(int32_t value);
 
   /// @brief Method Reset, addr 0x2db334c, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
@@ -129,7 +129,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickSt
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6756))
 // CS Name: ::UnityEngine.UIElements::ClickDetector*
 class CORDL_TYPE ClickDetector : public ::System::Object {
@@ -138,16 +138,18 @@ public:
   using ButtonClickStatus = ::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus;
 
   /// @brief Field m_ClickStatus, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ClickStatus, put = __set_m_ClickStatus))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* m_ClickStatus;
+  __declspec(property(get = __cordl_internal_get_m_ClickStatus,
+                      put = __cordl_internal_set_m_ClickStatus))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* m_ClickStatus;
 
   /// @brief Field <s_DoubleClickTime>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__s_DoubleClickTime_k__BackingField, put = setStaticF__s_DoubleClickTime_k__BackingField)) int32_t _s_DoubleClickTime_k__BackingField;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*& __get_m_ClickStatus();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*& __cordl_internal_get_m_ClickStatus();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*> const& __get_m_ClickStatus() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*> const&
+  __cordl_internal_get_m_ClickStatus() const;
 
-  constexpr void __set_m_ClickStatus(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* value);
+  constexpr void __cordl_internal_set_m_ClickStatus(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* value);
 
   static inline void setStaticF__s_DoubleClickTime_k__BackingField(int32_t value);
 

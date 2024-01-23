@@ -22,47 +22,47 @@ MARK_REF_PTR_T(::System::Xml::HtmlUtf8RawTextWriterIndent);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11419))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11419))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11420))
 // CS Name: ::System.Xml::HtmlUtf8RawTextWriterIndent*
 class CORDL_TYPE HtmlUtf8RawTextWriterIndent : public ::System::Xml::HtmlUtf8RawTextWriter {
 public:
   // Declarations
   /// @brief Field indentLevel, offset 0xb4, size 0x4
-  __declspec(property(get = __get_indentLevel, put = __set_indentLevel)) int32_t indentLevel;
+  __declspec(property(get = __cordl_internal_get_indentLevel, put = __cordl_internal_set_indentLevel)) int32_t indentLevel;
 
   /// @brief Field endBlockPos, offset 0xb8, size 0x4
-  __declspec(property(get = __get_endBlockPos, put = __set_endBlockPos)) int32_t endBlockPos;
+  __declspec(property(get = __cordl_internal_get_endBlockPos, put = __cordl_internal_set_endBlockPos)) int32_t endBlockPos;
 
   /// @brief Field indentChars, offset 0xc0, size 0x8
-  __declspec(property(get = __get_indentChars, put = __set_indentChars))::StringW indentChars;
+  __declspec(property(get = __cordl_internal_get_indentChars, put = __cordl_internal_set_indentChars))::StringW indentChars;
 
   /// @brief Field newLineOnAttributes, offset 0xc8, size 0x1
-  __declspec(property(get = __get_newLineOnAttributes, put = __set_newLineOnAttributes)) bool newLineOnAttributes;
+  __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
 
-  constexpr int32_t& __get_indentLevel();
+  constexpr int32_t& __cordl_internal_get_indentLevel();
 
-  constexpr int32_t const& __get_indentLevel() const;
+  constexpr int32_t const& __cordl_internal_get_indentLevel() const;
 
-  constexpr void __set_indentLevel(int32_t value);
+  constexpr void __cordl_internal_set_indentLevel(int32_t value);
 
-  constexpr int32_t& __get_endBlockPos();
+  constexpr int32_t& __cordl_internal_get_endBlockPos();
 
-  constexpr int32_t const& __get_endBlockPos() const;
+  constexpr int32_t const& __cordl_internal_get_endBlockPos() const;
 
-  constexpr void __set_endBlockPos(int32_t value);
+  constexpr void __cordl_internal_set_endBlockPos(int32_t value);
 
-  constexpr ::StringW& __get_indentChars();
+  constexpr ::StringW& __cordl_internal_get_indentChars();
 
-  constexpr ::StringW const& __get_indentChars() const;
+  constexpr ::StringW const& __cordl_internal_get_indentChars() const;
 
-  constexpr void __set_indentChars(::StringW value);
+  constexpr void __cordl_internal_set_indentChars(::StringW value);
 
-  constexpr bool& __get_newLineOnAttributes();
+  constexpr bool& __cordl_internal_get_newLineOnAttributes();
 
-  constexpr bool const& __get_newLineOnAttributes() const;
+  constexpr bool const& __cordl_internal_get_newLineOnAttributes() const;
 
-  constexpr void __set_newLineOnAttributes(bool value);
+  constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
 
   static inline ::System::Xml::HtmlUtf8RawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 

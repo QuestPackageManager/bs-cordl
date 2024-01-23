@@ -17,56 +17,56 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementProgress);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13409))
 // CS Name: ::Oculus.Platform.Models::AchievementProgress*
 class CORDL_TYPE AchievementProgress : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Bitfield, offset 0x10, size 0x8
-  __declspec(property(get = __get_Bitfield, put = __set_Bitfield))::StringW Bitfield;
+  __declspec(property(get = __cordl_internal_get_Bitfield, put = __cordl_internal_set_Bitfield))::StringW Bitfield;
 
   /// @brief Field Count, offset 0x18, size 0x8
-  __declspec(property(get = __get_Count, put = __set_Count)) uint64_t Count;
+  __declspec(property(get = __cordl_internal_get_Count, put = __cordl_internal_set_Count)) uint64_t Count;
 
   /// @brief Field IsUnlocked, offset 0x20, size 0x1
-  __declspec(property(get = __get_IsUnlocked, put = __set_IsUnlocked)) bool IsUnlocked;
+  __declspec(property(get = __cordl_internal_get_IsUnlocked, put = __cordl_internal_set_IsUnlocked)) bool IsUnlocked;
 
   /// @brief Field Name, offset 0x28, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field UnlockTime, offset 0x30, size 0x8
-  __declspec(property(get = __get_UnlockTime, put = __set_UnlockTime))::System::DateTime UnlockTime;
+  __declspec(property(get = __cordl_internal_get_UnlockTime, put = __cordl_internal_set_UnlockTime))::System::DateTime UnlockTime;
 
-  constexpr ::StringW& __get_Bitfield();
+  constexpr ::StringW& __cordl_internal_get_Bitfield();
 
-  constexpr ::StringW const& __get_Bitfield() const;
+  constexpr ::StringW const& __cordl_internal_get_Bitfield() const;
 
-  constexpr void __set_Bitfield(::StringW value);
+  constexpr void __cordl_internal_set_Bitfield(::StringW value);
 
-  constexpr uint64_t& __get_Count();
+  constexpr uint64_t& __cordl_internal_get_Count();
 
-  constexpr uint64_t const& __get_Count() const;
+  constexpr uint64_t const& __cordl_internal_get_Count() const;
 
-  constexpr void __set_Count(uint64_t value);
+  constexpr void __cordl_internal_set_Count(uint64_t value);
 
-  constexpr bool& __get_IsUnlocked();
+  constexpr bool& __cordl_internal_get_IsUnlocked();
 
-  constexpr bool const& __get_IsUnlocked() const;
+  constexpr bool const& __cordl_internal_get_IsUnlocked() const;
 
-  constexpr void __set_IsUnlocked(bool value);
+  constexpr void __cordl_internal_set_IsUnlocked(bool value);
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr ::System::DateTime& __get_UnlockTime();
+  constexpr ::System::DateTime& __cordl_internal_get_UnlockTime();
 
-  constexpr ::System::DateTime const& __get_UnlockTime() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_UnlockTime() const;
 
-  constexpr void __set_UnlockTime(::System::DateTime value);
+  constexpr void __cordl_internal_set_UnlockTime(::System::DateTime value);
 
   static inline ::Oculus::Platform::Models::AchievementProgress* New_ctor(void* o);
 

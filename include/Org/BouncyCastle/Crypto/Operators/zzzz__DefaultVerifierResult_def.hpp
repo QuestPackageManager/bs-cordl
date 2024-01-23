@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1003))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultVerifierResult*
 class CORDL_TYPE DefaultVerifierResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mSigner, offset 0x10, size 0x8
-  __declspec(property(get = __get_mSigner, put = __set_mSigner))::Org::BouncyCastle::Crypto::ISigner* mSigner;
+  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner))::Org::BouncyCastle::Crypto::ISigner* mSigner;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifier*() noexcept;
@@ -37,11 +37,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifier"
   constexpr ::Org::BouncyCastle::Crypto::IVerifier* i___Org__BouncyCastle__Crypto__IVerifier() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get_mSigner();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_mSigner();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get_mSigner() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_mSigner() const;
 
-  constexpr void __set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 

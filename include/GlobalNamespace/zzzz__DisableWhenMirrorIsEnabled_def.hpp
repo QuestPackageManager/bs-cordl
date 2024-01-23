@@ -17,25 +17,25 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableWhenMirrorIsEnabled);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5858))
 // CS Name: ::DisableWhenMirrorIsEnabled*
 class CORDL_TYPE DisableWhenMirrorIsEnabled : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _mirror, offset 0x18, size 0x8
-  __declspec(property(get = __get__mirror, put = __set__mirror))::GlobalNamespace::Mirror* _mirror;
+  __declspec(property(get = __cordl_internal_get__mirror, put = __cordl_internal_set__mirror))::UnityW<::GlobalNamespace::Mirror> _mirror;
 
-  __declspec(property(get = get_mirror, put = set_mirror))::GlobalNamespace::Mirror* mirror;
+  __declspec(property(get = get_mirror, put = set_mirror))::UnityW<::GlobalNamespace::Mirror> mirror;
 
-  constexpr ::GlobalNamespace::Mirror*& __get__mirror();
+  constexpr ::UnityW<::GlobalNamespace::Mirror>& __cordl_internal_get__mirror();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Mirror*> const& __get__mirror() const;
+  constexpr ::UnityW<::GlobalNamespace::Mirror> const& __cordl_internal_get__mirror() const;
 
-  constexpr void __set__mirror(::GlobalNamespace::Mirror* value);
+  constexpr void __cordl_internal_set__mirror(::UnityW<::GlobalNamespace::Mirror> value);
 
   /// @brief Method get_mirror, addr 0x22f77fc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::Mirror* get_mirror();
+  inline ::UnityW<::GlobalNamespace::Mirror> get_mirror();
 
   /// @brief Method set_mirror, addr 0x22f7804, size 0x8, virtual false, abstract: false, final false
   inline void set_mirror(::GlobalNamespace::Mirror* value);
@@ -69,7 +69,7 @@ protected:
 
 public:
   /// @brief Field _mirror, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::Mirror* ____mirror;
+  ::UnityW<::GlobalNamespace::Mirror> ____mirror;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

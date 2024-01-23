@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Security::Principal::IdentityReference);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3000))
 // CS Name: ::System.Security.Principal::IdentityReference*
 class CORDL_TYPE IdentityReference : public ::System::Object {

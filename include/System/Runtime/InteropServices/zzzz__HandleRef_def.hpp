@@ -19,7 +19,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::HandleRef);
 // SizeInfo { instance_size: 16, native_size: 8, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3303))
 // CS Name: ::System.Runtime.InteropServices::HandleRef
 struct CORDL_TYPE HandleRef {

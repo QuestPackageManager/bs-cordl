@@ -63,20 +63,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509V2AttributeCertificate);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606)), TypeDefinitionIndex(TypeDefinitionIndex(2368))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1871))
 // CS Name: ::Org.BouncyCastle.X509::X509V2AttributeCertificate*
 class CORDL_TYPE X509V2AttributeCertificate : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field cert, offset 0x10, size 0x8
-  __declspec(property(get = __get_cert, put = __set_cert))::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert;
 
   /// @brief Field notBefore, offset 0x18, size 0x8
-  __declspec(property(get = __get_notBefore, put = __set_notBefore))::System::DateTime notBefore;
+  __declspec(property(get = __cordl_internal_get_notBefore, put = __cordl_internal_set_notBefore))::System::DateTime notBefore;
 
   /// @brief Field notAfter, offset 0x20, size 0x8
-  __declspec(property(get = __get_notAfter, put = __set_notAfter))::System::DateTime notAfter;
+  __declspec(property(get = __cordl_internal_get_notAfter, put = __cordl_internal_set_notAfter))::System::DateTime notAfter;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -106,23 +106,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"
   constexpr ::Org::BouncyCastle::X509::IX509Extension* i___Org__BouncyCastle__X509__IX509Extension() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __get_cert();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __cordl_internal_get_cert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificate*> const& __get_cert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificate*> const& __cordl_internal_get_cert() const;
 
-  constexpr void __set_cert(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
+  constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
 
-  constexpr ::System::DateTime& __get_notBefore();
+  constexpr ::System::DateTime& __cordl_internal_get_notBefore();
 
-  constexpr ::System::DateTime const& __get_notBefore() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_notBefore() const;
 
-  constexpr void __set_notBefore(::System::DateTime value);
+  constexpr void __cordl_internal_set_notBefore(::System::DateTime value);
 
-  constexpr ::System::DateTime& __get_notAfter();
+  constexpr ::System::DateTime& __cordl_internal_get_notAfter();
 
-  constexpr ::System::DateTime const& __get_notAfter() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_notAfter() const;
 
-  constexpr void __set_notAfter(::System::DateTime value);
+  constexpr void __cordl_internal_set_notAfter(::System::DateTime value);
 
   /// @brief Method GetObject, addr 0x1182ea8, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetObject(::System::IO::Stream* input);

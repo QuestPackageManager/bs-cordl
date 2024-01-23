@@ -67,87 +67,93 @@ MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncEventArgs);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9345)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9339)), TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(9355)), TypeDefinitionIndex(TypeDefinitionIndex(9347)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(9348))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9357)) CS Name:
-// ::System.Net.Sockets::SocketAsyncEventArgs*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(9339)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9345)), TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(9348)), TypeDefinitionIndex(TypeDefinitionIndex(9355)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9357)) CS Name: ::System.Net.Sockets::SocketAsyncEventArgs*
 class CORDL_TYPE SocketAsyncEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field disposed, offset 0x10, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field in_progress, offset 0x14, size 0x4
-  __declspec(property(get = __get_in_progress, put = __set_in_progress)) int32_t in_progress;
+  __declspec(property(get = __cordl_internal_get_in_progress, put = __cordl_internal_set_in_progress)) int32_t in_progress;
 
   /// @brief Field remote_ep, offset 0x18, size 0x8
-  __declspec(property(get = __get_remote_ep, put = __set_remote_ep))::System::Net::EndPoint* remote_ep;
+  __declspec(property(get = __cordl_internal_get_remote_ep, put = __cordl_internal_set_remote_ep))::System::Net::EndPoint* remote_ep;
 
   /// @brief Field current_socket, offset 0x20, size 0x8
-  __declspec(property(get = __get_current_socket, put = __set_current_socket))::System::Net::Sockets::Socket* current_socket;
+  __declspec(property(get = __cordl_internal_get_current_socket, put = __cordl_internal_set_current_socket))::System::Net::Sockets::Socket* current_socket;
 
   /// @brief Field socket_async_result, offset 0x28, size 0x8
-  __declspec(property(get = __get_socket_async_result, put = __set_socket_async_result))::System::Net::Sockets::SocketAsyncResult* socket_async_result;
+  __declspec(property(get = __cordl_internal_get_socket_async_result, put = __cordl_internal_set_socket_async_result))::System::Net::Sockets::SocketAsyncResult* socket_async_result;
 
   /// @brief Field <ConnectByNameError>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__ConnectByNameError_k__BackingField, put = __set__ConnectByNameError_k__BackingField))::System::Exception* _ConnectByNameError_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ConnectByNameError_k__BackingField,
+                      put = __cordl_internal_set__ConnectByNameError_k__BackingField))::System::Exception* _ConnectByNameError_k__BackingField;
 
   /// @brief Field <AcceptSocket>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__AcceptSocket_k__BackingField, put = __set__AcceptSocket_k__BackingField))::System::Net::Sockets::Socket* _AcceptSocket_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AcceptSocket_k__BackingField, put = __cordl_internal_set__AcceptSocket_k__BackingField))::System::Net::Sockets::Socket* _AcceptSocket_k__BackingField;
 
   /// @brief Field <BytesTransferred>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__BytesTransferred_k__BackingField, put = __set__BytesTransferred_k__BackingField)) int32_t _BytesTransferred_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BytesTransferred_k__BackingField, put = __cordl_internal_set__BytesTransferred_k__BackingField)) int32_t _BytesTransferred_k__BackingField;
 
   /// @brief Field <DisconnectReuseSocket>k__BackingField, offset 0x44, size 0x1
-  __declspec(property(get = __get__DisconnectReuseSocket_k__BackingField, put = __set__DisconnectReuseSocket_k__BackingField)) bool _DisconnectReuseSocket_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DisconnectReuseSocket_k__BackingField,
+                      put = __cordl_internal_set__DisconnectReuseSocket_k__BackingField)) bool _DisconnectReuseSocket_k__BackingField;
 
   /// @brief Field <LastOperation>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __get__LastOperation_k__BackingField, put = __set__LastOperation_k__BackingField))::System::Net::Sockets::SocketAsyncOperation _LastOperation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LastOperation_k__BackingField,
+                      put = __cordl_internal_set__LastOperation_k__BackingField))::System::Net::Sockets::SocketAsyncOperation _LastOperation_k__BackingField;
 
   /// @brief Field <ReceiveMessageFromPacketInfo>k__BackingField, offset 0x50, size 0x10
-  __declspec(property(get = __get__ReceiveMessageFromPacketInfo_k__BackingField,
-                      put = __set__ReceiveMessageFromPacketInfo_k__BackingField))::System::Net::Sockets::IPPacketInformation _ReceiveMessageFromPacketInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReceiveMessageFromPacketInfo_k__BackingField,
+                      put = __cordl_internal_set__ReceiveMessageFromPacketInfo_k__BackingField))::System::Net::Sockets::IPPacketInformation _ReceiveMessageFromPacketInfo_k__BackingField;
 
   /// @brief Field <SendPacketsElements>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__SendPacketsElements_k__BackingField,
-                      put = __set__SendPacketsElements_k__BackingField))::ArrayW<::System::Net::Sockets::SendPacketsElement*,
-                                                                                 ::Array<::System::Net::Sockets::SendPacketsElement*>*> _SendPacketsElements_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SendPacketsElements_k__BackingField,
+                      put = __cordl_internal_set__SendPacketsElements_k__BackingField))::ArrayW<::System::Net::Sockets::SendPacketsElement*,
+                                                                                                ::Array<::System::Net::Sockets::SendPacketsElement*>*> _SendPacketsElements_k__BackingField;
 
   /// @brief Field <SendPacketsFlags>k__BackingField, offset 0x68, size 0x4
-  __declspec(property(get = __get__SendPacketsFlags_k__BackingField, put = __set__SendPacketsFlags_k__BackingField))::System::Net::Sockets::TransmitFileOptions _SendPacketsFlags_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SendPacketsFlags_k__BackingField,
+                      put = __cordl_internal_set__SendPacketsFlags_k__BackingField))::System::Net::Sockets::TransmitFileOptions _SendPacketsFlags_k__BackingField;
 
   /// @brief Field <SendPacketsSendSize>k__BackingField, offset 0x6c, size 0x4
-  __declspec(property(get = __get__SendPacketsSendSize_k__BackingField, put = __set__SendPacketsSendSize_k__BackingField)) int32_t _SendPacketsSendSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SendPacketsSendSize_k__BackingField, put = __cordl_internal_set__SendPacketsSendSize_k__BackingField)) int32_t _SendPacketsSendSize_k__BackingField;
 
   /// @brief Field <SocketError>k__BackingField, offset 0x70, size 0x4
-  __declspec(property(get = __get__SocketError_k__BackingField, put = __set__SocketError_k__BackingField))::System::Net::Sockets::SocketError _SocketError_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SocketError_k__BackingField,
+                      put = __cordl_internal_set__SocketError_k__BackingField))::System::Net::Sockets::SocketError _SocketError_k__BackingField;
 
   /// @brief Field <SocketFlags>k__BackingField, offset 0x74, size 0x4
-  __declspec(property(get = __get__SocketFlags_k__BackingField, put = __set__SocketFlags_k__BackingField))::System::Net::Sockets::SocketFlags _SocketFlags_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SocketFlags_k__BackingField,
+                      put = __cordl_internal_set__SocketFlags_k__BackingField))::System::Net::Sockets::SocketFlags _SocketFlags_k__BackingField;
 
   /// @brief Field <UserToken>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __get__UserToken_k__BackingField, put = __set__UserToken_k__BackingField))::System::Object* _UserToken_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UserToken_k__BackingField, put = __cordl_internal_set__UserToken_k__BackingField))::System::Object* _UserToken_k__BackingField;
 
   /// @brief Field Completed, offset 0x80, size 0x8
-  __declspec(property(get = __get_Completed, put = __set_Completed))::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
+  __declspec(property(get = __cordl_internal_get_Completed, put = __cordl_internal_set_Completed))::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
 
   /// @brief Field _buffer, offset 0x88, size 0x10
-  __declspec(property(get = __get__buffer, put = __set__buffer))::System::Memory_1<uint8_t> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::System::Memory_1<uint8_t> _buffer;
 
   /// @brief Field _offset, offset 0x98, size 0x4
-  __declspec(property(get = __get__offset, put = __set__offset)) int32_t _offset;
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
 
   /// @brief Field _count, offset 0x9c, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _bufferIsExplicitArray, offset 0xa0, size 0x1
-  __declspec(property(get = __get__bufferIsExplicitArray, put = __set__bufferIsExplicitArray)) bool _bufferIsExplicitArray;
+  __declspec(property(get = __cordl_internal_get__bufferIsExplicitArray, put = __cordl_internal_set__bufferIsExplicitArray)) bool _bufferIsExplicitArray;
 
   /// @brief Field _bufferList, offset 0xa8, size 0x8
-  __declspec(property(get = __get__bufferList, put = __set__bufferList))::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* _bufferList;
+  __declspec(property(get = __cordl_internal_get__bufferList, put = __cordl_internal_set__bufferList))::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* _bufferList;
 
   /// @brief Field _bufferListInternal, offset 0xb0, size 0x8
-  __declspec(property(get = __get__bufferListInternal, put = __set__bufferListInternal))::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* _bufferListInternal;
+  __declspec(property(get = __cordl_internal_get__bufferListInternal,
+                      put = __cordl_internal_set__bufferListInternal))::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* _bufferListInternal;
 
   __declspec(property(get = get_AcceptSocket, put = set_AcceptSocket))::System::Net::Sockets::Socket* AcceptSocket;
 
@@ -181,149 +187,149 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr int32_t& __get_in_progress();
+  constexpr int32_t& __cordl_internal_get_in_progress();
 
-  constexpr int32_t const& __get_in_progress() const;
+  constexpr int32_t const& __cordl_internal_get_in_progress() const;
 
-  constexpr void __set_in_progress(int32_t value);
+  constexpr void __cordl_internal_set_in_progress(int32_t value);
 
-  constexpr ::System::Net::EndPoint*& __get_remote_ep();
+  constexpr ::System::Net::EndPoint*& __cordl_internal_get_remote_ep();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __get_remote_ep() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __cordl_internal_get_remote_ep() const;
 
-  constexpr void __set_remote_ep(::System::Net::EndPoint* value);
+  constexpr void __cordl_internal_set_remote_ep(::System::Net::EndPoint* value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get_current_socket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_current_socket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_current_socket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_current_socket() const;
 
-  constexpr void __set_current_socket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_current_socket(::System::Net::Sockets::Socket* value);
 
-  constexpr ::System::Net::Sockets::SocketAsyncResult*& __get_socket_async_result();
+  constexpr ::System::Net::Sockets::SocketAsyncResult*& __cordl_internal_get_socket_async_result();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SocketAsyncResult*> const& __get_socket_async_result() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SocketAsyncResult*> const& __cordl_internal_get_socket_async_result() const;
 
-  constexpr void __set_socket_async_result(::System::Net::Sockets::SocketAsyncResult* value);
+  constexpr void __cordl_internal_set_socket_async_result(::System::Net::Sockets::SocketAsyncResult* value);
 
-  constexpr ::System::Exception*& __get__ConnectByNameError_k__BackingField();
+  constexpr ::System::Exception*& __cordl_internal_get__ConnectByNameError_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get__ConnectByNameError_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get__ConnectByNameError_k__BackingField() const;
 
-  constexpr void __set__ConnectByNameError_k__BackingField(::System::Exception* value);
+  constexpr void __cordl_internal_set__ConnectByNameError_k__BackingField(::System::Exception* value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get__AcceptSocket_k__BackingField();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__AcceptSocket_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get__AcceptSocket_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__AcceptSocket_k__BackingField() const;
 
-  constexpr void __set__AcceptSocket_k__BackingField(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set__AcceptSocket_k__BackingField(::System::Net::Sockets::Socket* value);
 
-  constexpr int32_t& __get__BytesTransferred_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__BytesTransferred_k__BackingField();
 
-  constexpr int32_t const& __get__BytesTransferred_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__BytesTransferred_k__BackingField() const;
 
-  constexpr void __set__BytesTransferred_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__BytesTransferred_k__BackingField(int32_t value);
 
-  constexpr bool& __get__DisconnectReuseSocket_k__BackingField();
+  constexpr bool& __cordl_internal_get__DisconnectReuseSocket_k__BackingField();
 
-  constexpr bool const& __get__DisconnectReuseSocket_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__DisconnectReuseSocket_k__BackingField() const;
 
-  constexpr void __set__DisconnectReuseSocket_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__DisconnectReuseSocket_k__BackingField(bool value);
 
-  constexpr ::System::Net::Sockets::SocketAsyncOperation& __get__LastOperation_k__BackingField();
+  constexpr ::System::Net::Sockets::SocketAsyncOperation& __cordl_internal_get__LastOperation_k__BackingField();
 
-  constexpr ::System::Net::Sockets::SocketAsyncOperation const& __get__LastOperation_k__BackingField() const;
+  constexpr ::System::Net::Sockets::SocketAsyncOperation const& __cordl_internal_get__LastOperation_k__BackingField() const;
 
-  constexpr void __set__LastOperation_k__BackingField(::System::Net::Sockets::SocketAsyncOperation value);
+  constexpr void __cordl_internal_set__LastOperation_k__BackingField(::System::Net::Sockets::SocketAsyncOperation value);
 
-  constexpr ::System::Net::Sockets::IPPacketInformation& __get__ReceiveMessageFromPacketInfo_k__BackingField();
+  constexpr ::System::Net::Sockets::IPPacketInformation& __cordl_internal_get__ReceiveMessageFromPacketInfo_k__BackingField();
 
-  constexpr ::System::Net::Sockets::IPPacketInformation const& __get__ReceiveMessageFromPacketInfo_k__BackingField() const;
+  constexpr ::System::Net::Sockets::IPPacketInformation const& __cordl_internal_get__ReceiveMessageFromPacketInfo_k__BackingField() const;
 
-  constexpr void __set__ReceiveMessageFromPacketInfo_k__BackingField(::System::Net::Sockets::IPPacketInformation value);
+  constexpr void __cordl_internal_set__ReceiveMessageFromPacketInfo_k__BackingField(::System::Net::Sockets::IPPacketInformation value);
 
-  constexpr ::ArrayW<::System::Net::Sockets::SendPacketsElement*, ::Array<::System::Net::Sockets::SendPacketsElement*>*>& __get__SendPacketsElements_k__BackingField();
+  constexpr ::ArrayW<::System::Net::Sockets::SendPacketsElement*, ::Array<::System::Net::Sockets::SendPacketsElement*>*>& __cordl_internal_get__SendPacketsElements_k__BackingField();
 
-  constexpr ::ArrayW<::System::Net::Sockets::SendPacketsElement*, ::Array<::System::Net::Sockets::SendPacketsElement*>*> const& __get__SendPacketsElements_k__BackingField() const;
+  constexpr ::ArrayW<::System::Net::Sockets::SendPacketsElement*, ::Array<::System::Net::Sockets::SendPacketsElement*>*> const& __cordl_internal_get__SendPacketsElements_k__BackingField() const;
 
-  constexpr void __set__SendPacketsElements_k__BackingField(::ArrayW<::System::Net::Sockets::SendPacketsElement*, ::Array<::System::Net::Sockets::SendPacketsElement*>*> value);
+  constexpr void __cordl_internal_set__SendPacketsElements_k__BackingField(::ArrayW<::System::Net::Sockets::SendPacketsElement*, ::Array<::System::Net::Sockets::SendPacketsElement*>*> value);
 
-  constexpr ::System::Net::Sockets::TransmitFileOptions& __get__SendPacketsFlags_k__BackingField();
+  constexpr ::System::Net::Sockets::TransmitFileOptions& __cordl_internal_get__SendPacketsFlags_k__BackingField();
 
-  constexpr ::System::Net::Sockets::TransmitFileOptions const& __get__SendPacketsFlags_k__BackingField() const;
+  constexpr ::System::Net::Sockets::TransmitFileOptions const& __cordl_internal_get__SendPacketsFlags_k__BackingField() const;
 
-  constexpr void __set__SendPacketsFlags_k__BackingField(::System::Net::Sockets::TransmitFileOptions value);
+  constexpr void __cordl_internal_set__SendPacketsFlags_k__BackingField(::System::Net::Sockets::TransmitFileOptions value);
 
-  constexpr int32_t& __get__SendPacketsSendSize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__SendPacketsSendSize_k__BackingField();
 
-  constexpr int32_t const& __get__SendPacketsSendSize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__SendPacketsSendSize_k__BackingField() const;
 
-  constexpr void __set__SendPacketsSendSize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__SendPacketsSendSize_k__BackingField(int32_t value);
 
-  constexpr ::System::Net::Sockets::SocketError& __get__SocketError_k__BackingField();
+  constexpr ::System::Net::Sockets::SocketError& __cordl_internal_get__SocketError_k__BackingField();
 
-  constexpr ::System::Net::Sockets::SocketError const& __get__SocketError_k__BackingField() const;
+  constexpr ::System::Net::Sockets::SocketError const& __cordl_internal_get__SocketError_k__BackingField() const;
 
-  constexpr void __set__SocketError_k__BackingField(::System::Net::Sockets::SocketError value);
+  constexpr void __cordl_internal_set__SocketError_k__BackingField(::System::Net::Sockets::SocketError value);
 
-  constexpr ::System::Net::Sockets::SocketFlags& __get__SocketFlags_k__BackingField();
+  constexpr ::System::Net::Sockets::SocketFlags& __cordl_internal_get__SocketFlags_k__BackingField();
 
-  constexpr ::System::Net::Sockets::SocketFlags const& __get__SocketFlags_k__BackingField() const;
+  constexpr ::System::Net::Sockets::SocketFlags const& __cordl_internal_get__SocketFlags_k__BackingField() const;
 
-  constexpr void __set__SocketFlags_k__BackingField(::System::Net::Sockets::SocketFlags value);
+  constexpr void __cordl_internal_set__SocketFlags_k__BackingField(::System::Net::Sockets::SocketFlags value);
 
-  constexpr ::System::Object*& __get__UserToken_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__UserToken_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__UserToken_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__UserToken_k__BackingField() const;
 
-  constexpr void __set__UserToken_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__UserToken_k__BackingField(::System::Object* value);
 
-  constexpr ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*& __get_Completed();
+  constexpr ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*& __cordl_internal_get_Completed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*> const& __get_Completed() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*> const& __cordl_internal_get_Completed() const;
 
-  constexpr void __set_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
+  constexpr void __cordl_internal_set_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
-  constexpr ::System::Memory_1<uint8_t>& __get__buffer();
+  constexpr ::System::Memory_1<uint8_t>& __cordl_internal_get__buffer();
 
-  constexpr ::System::Memory_1<uint8_t> const& __get__buffer() const;
+  constexpr ::System::Memory_1<uint8_t> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::System::Memory_1<uint8_t> value);
+  constexpr void __cordl_internal_set__buffer(::System::Memory_1<uint8_t> value);
 
-  constexpr int32_t& __get__offset();
+  constexpr int32_t& __cordl_internal_get__offset();
 
-  constexpr int32_t const& __get__offset() const;
+  constexpr int32_t const& __cordl_internal_get__offset() const;
 
-  constexpr void __set__offset(int32_t value);
+  constexpr void __cordl_internal_set__offset(int32_t value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr bool& __get__bufferIsExplicitArray();
+  constexpr bool& __cordl_internal_get__bufferIsExplicitArray();
 
-  constexpr bool const& __get__bufferIsExplicitArray() const;
+  constexpr bool const& __cordl_internal_get__bufferIsExplicitArray() const;
 
-  constexpr void __set__bufferIsExplicitArray(bool value);
+  constexpr void __cordl_internal_set__bufferIsExplicitArray(bool value);
 
-  constexpr ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& __get__bufferList();
+  constexpr ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& __cordl_internal_get__bufferList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*> const& __get__bufferList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*> const& __cordl_internal_get__bufferList() const;
 
-  constexpr void __set__bufferList(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* value);
+  constexpr void __cordl_internal_set__bufferList(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>*& __get__bufferListInternal();
+  constexpr ::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>*& __cordl_internal_get__bufferListInternal();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>*> const& __get__bufferListInternal() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>*> const& __cordl_internal_get__bufferListInternal() const;
 
-  constexpr void __set__bufferListInternal(::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* value);
+  constexpr void __cordl_internal_set__bufferListInternal(::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* value);
 
   /// @brief Method get_AcceptSocket, addr 0x28fe760, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_AcceptSocket();

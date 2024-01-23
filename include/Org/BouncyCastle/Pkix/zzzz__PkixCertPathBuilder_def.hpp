@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1716))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilder*
 class CORDL_TYPE PkixCertPathBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certPathException, offset 0x10, size 0x8
-  __declspec(property(get = __get_certPathException, put = __set_certPathException))::System::Exception* certPathException;
+  __declspec(property(get = __cordl_internal_get_certPathException, put = __cordl_internal_set_certPathException))::System::Exception* certPathException;
 
-  constexpr ::System::Exception*& __get_certPathException();
+  constexpr ::System::Exception*& __cordl_internal_get_certPathException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_certPathException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_certPathException() const;
 
-  constexpr void __set_certPathException(::System::Exception* value);
+  constexpr void __cordl_internal_set_certPathException(::System::Exception* value);
 
   /// @brief Method Build, addr 0x10f29d4, size 0x8dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);

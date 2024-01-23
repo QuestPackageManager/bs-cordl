@@ -27,23 +27,24 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayersViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5725))
 // CS Name: ::NetworkPlayersViewController*
 class CORDL_TYPE NetworkPlayersViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _networkPlayersTableView, offset 0x70, size 0x8
-  __declspec(property(get = __get__networkPlayersTableView, put = __set__networkPlayersTableView))::GlobalNamespace::NetworkPlayersTableView* _networkPlayersTableView;
+  __declspec(property(get = __cordl_internal_get__networkPlayersTableView,
+                      put = __cordl_internal_set__networkPlayersTableView))::UnityW<::GlobalNamespace::NetworkPlayersTableView> _networkPlayersTableView;
 
   /// @brief Field _refreshIsNeeded, offset 0x78, size 0x1
-  __declspec(property(get = __get__refreshIsNeeded, put = __set__refreshIsNeeded)) bool _refreshIsNeeded;
+  __declspec(property(get = __cordl_internal_get__refreshIsNeeded, put = __cordl_internal_set__refreshIsNeeded)) bool _refreshIsNeeded;
 
   /// @brief Field onJoinRequestEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_onJoinRequestEvent, put = __set_onJoinRequestEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent;
+  __declspec(property(get = __cordl_internal_get_onJoinRequestEvent, put = __cordl_internal_set_onJoinRequestEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent;
 
   /// @brief Field onInviteRequestEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_onInviteRequestEvent, put = __set_onInviteRequestEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* onInviteRequestEvent;
+  __declspec(property(get = __cordl_internal_get_onInviteRequestEvent, put = __cordl_internal_set_onInviteRequestEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* onInviteRequestEvent;
 
   __declspec(property(get = get_myPartyTitle))::StringW myPartyTitle;
 
@@ -51,29 +52,29 @@ public:
 
   __declspec(property(get = get_networkPlayerModel))::GlobalNamespace::INetworkPlayerModel* networkPlayerModel;
 
-  constexpr ::GlobalNamespace::NetworkPlayersTableView*& __get__networkPlayersTableView();
+  constexpr ::UnityW<::GlobalNamespace::NetworkPlayersTableView>& __cordl_internal_get__networkPlayersTableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayersTableView*> const& __get__networkPlayersTableView() const;
+  constexpr ::UnityW<::GlobalNamespace::NetworkPlayersTableView> const& __cordl_internal_get__networkPlayersTableView() const;
 
-  constexpr void __set__networkPlayersTableView(::GlobalNamespace::NetworkPlayersTableView* value);
+  constexpr void __cordl_internal_set__networkPlayersTableView(::UnityW<::GlobalNamespace::NetworkPlayersTableView> value);
 
-  constexpr bool& __get__refreshIsNeeded();
+  constexpr bool& __cordl_internal_get__refreshIsNeeded();
 
-  constexpr bool const& __get__refreshIsNeeded() const;
+  constexpr bool const& __cordl_internal_get__refreshIsNeeded() const;
 
-  constexpr void __set__refreshIsNeeded(bool value);
+  constexpr void __cordl_internal_set__refreshIsNeeded(bool value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __get_onJoinRequestEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_onJoinRequestEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __get_onJoinRequestEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_onJoinRequestEvent() const;
 
-  constexpr void __set_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+  constexpr void __cordl_internal_set_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __get_onInviteRequestEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_onInviteRequestEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __get_onInviteRequestEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_onInviteRequestEvent() const;
 
-  constexpr void __set_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+  constexpr void __cordl_internal_set_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
   /// @brief Method get_myPartyTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_myPartyTitle();
@@ -143,7 +144,7 @@ protected:
 
 public:
   /// @brief Field _networkPlayersTableView, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayersTableView* ____networkPlayersTableView;
+  ::UnityW<::GlobalNamespace::NetworkPlayersTableView> ____networkPlayersTableView;
 
   /// @brief Field _refreshIsNeeded, offset: 0x78, size: 0x1, def value: None
   bool ____refreshIsNeeded;

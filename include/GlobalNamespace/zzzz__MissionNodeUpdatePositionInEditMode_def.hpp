@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeUpdatePositionInEditMode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5550))
 // CS Name: ::MissionNodeUpdatePositionInEditMode*
 class CORDL_TYPE MissionNodeUpdatePositionInEditMode : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _missionNodeConnection, offset 0x18, size 0x8
-  __declspec(property(get = __get__missionNodeConnection, put = __set__missionNodeConnection))::GlobalNamespace::MissionNodeConnection* _missionNodeConnection;
+  __declspec(property(get = __cordl_internal_get__missionNodeConnection, put = __cordl_internal_set__missionNodeConnection))::UnityW<::GlobalNamespace::MissionNodeConnection> _missionNodeConnection;
 
-  constexpr ::GlobalNamespace::MissionNodeConnection*& __get__missionNodeConnection();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeConnection>& __cordl_internal_get__missionNodeConnection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodeConnection*> const& __get__missionNodeConnection() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeConnection> const& __cordl_internal_get__missionNodeConnection() const;
 
-  constexpr void __set__missionNodeConnection(::GlobalNamespace::MissionNodeConnection* value);
+  constexpr void __cordl_internal_set__missionNodeConnection(::UnityW<::GlobalNamespace::MissionNodeConnection> value);
 
   static inline ::GlobalNamespace::MissionNodeUpdatePositionInEditMode* New_ctor();
 
@@ -52,7 +52,7 @@ protected:
 
 public:
   /// @brief Field _missionNodeConnection, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodeConnection* ____missionNodeConnection;
+  ::UnityW<::GlobalNamespace::MissionNodeConnection> ____missionNodeConnection;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

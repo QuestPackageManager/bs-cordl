@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::XYZColor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12114))
 // CS Name: ::UnityEngine.ProBuilder::XYZColor*
 class CORDL_TYPE XYZColor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x4
-  __declspec(property(get = __get_x, put = __set_x)) float_t x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) float_t x;
 
   /// @brief Field y, offset 0x14, size 0x4
-  __declspec(property(get = __get_y, put = __set_y)) float_t y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) float_t y;
 
   /// @brief Field z, offset 0x18, size 0x4
-  __declspec(property(get = __get_z, put = __set_z)) float_t z;
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) float_t z;
 
-  constexpr float_t& __get_x();
+  constexpr float_t& __cordl_internal_get_x();
 
-  constexpr float_t const& __get_x() const;
+  constexpr float_t const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(float_t value);
+  constexpr void __cordl_internal_set_x(float_t value);
 
-  constexpr float_t& __get_y();
+  constexpr float_t& __cordl_internal_get_y();
 
-  constexpr float_t const& __get_y() const;
+  constexpr float_t const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(float_t value);
+  constexpr void __cordl_internal_set_y(float_t value);
 
-  constexpr float_t& __get_z();
+  constexpr float_t& __cordl_internal_get_z();
 
-  constexpr float_t const& __get_z() const;
+  constexpr float_t const& __cordl_internal_get_z() const;
 
-  constexpr void __set_z(float_t value);
+  constexpr void __cordl_internal_set_z(float_t value);
 
   static inline ::UnityEngine::ProBuilder::XYZColor* New_ctor(float_t x, float_t y, float_t z);
 

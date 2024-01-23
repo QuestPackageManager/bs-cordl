@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryAssem
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3257))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryAssemblyInfo*
 class CORDL_TYPE BinaryAssemblyInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assemblyString, offset 0x10, size 0x8
-  __declspec(property(get = __get_assemblyString, put = __set_assemblyString))::StringW assemblyString;
+  __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
 
   /// @brief Field assembly, offset 0x18, size 0x8
-  __declspec(property(get = __get_assembly, put = __set_assembly))::System::Reflection::Assembly* assembly;
+  __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly))::System::Reflection::Assembly* assembly;
 
-  constexpr ::StringW& __get_assemblyString();
+  constexpr ::StringW& __cordl_internal_get_assemblyString();
 
-  constexpr ::StringW const& __get_assemblyString() const;
+  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
 
-  constexpr void __set_assemblyString(::StringW value);
+  constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  constexpr ::System::Reflection::Assembly*& __get_assembly();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get_assembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get_assembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_assembly() const;
 
-  constexpr void __set_assembly(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString);
 

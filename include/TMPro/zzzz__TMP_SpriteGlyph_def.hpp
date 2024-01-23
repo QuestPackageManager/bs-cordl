@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::TMPro::TMP_SpriteGlyph);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15530))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15530))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12423))
 // CS Name: ::TMPro::TMP_SpriteGlyph*
 class CORDL_TYPE TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
 public:
   // Declarations
   /// @brief Field sprite, offset 0x48, size 0x8
-  __declspec(property(get = __get_sprite, put = __set_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
-  constexpr ::UnityEngine::Sprite*& __get_sprite();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_sprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get_sprite() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_sprite() const;
 
-  constexpr void __set_sprite(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
   static inline ::TMPro::TMP_SpriteGlyph* New_ctor();
 
@@ -71,7 +71,7 @@ protected:
 
 public:
   /// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ___sprite;
+  ::UnityW<::UnityEngine::Sprite> ___sprite;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AppDownloadProgressResult);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13230)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13230))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13412))
 // CS Name: ::Oculus.Platform.Models::AppDownloadProgressResult*
 class CORDL_TYPE AppDownloadProgressResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DownloadBytes, offset 0x10, size 0x8
-  __declspec(property(get = __get_DownloadBytes, put = __set_DownloadBytes)) int64_t DownloadBytes;
+  __declspec(property(get = __cordl_internal_get_DownloadBytes, put = __cordl_internal_set_DownloadBytes)) int64_t DownloadBytes;
 
   /// @brief Field DownloadedBytes, offset 0x18, size 0x8
-  __declspec(property(get = __get_DownloadedBytes, put = __set_DownloadedBytes)) int64_t DownloadedBytes;
+  __declspec(property(get = __cordl_internal_get_DownloadedBytes, put = __cordl_internal_set_DownloadedBytes)) int64_t DownloadedBytes;
 
   /// @brief Field StatusCode, offset 0x20, size 0x4
-  __declspec(property(get = __get_StatusCode, put = __set_StatusCode))::Oculus::Platform::AppStatus StatusCode;
+  __declspec(property(get = __cordl_internal_get_StatusCode, put = __cordl_internal_set_StatusCode))::Oculus::Platform::AppStatus StatusCode;
 
-  constexpr int64_t& __get_DownloadBytes();
+  constexpr int64_t& __cordl_internal_get_DownloadBytes();
 
-  constexpr int64_t const& __get_DownloadBytes() const;
+  constexpr int64_t const& __cordl_internal_get_DownloadBytes() const;
 
-  constexpr void __set_DownloadBytes(int64_t value);
+  constexpr void __cordl_internal_set_DownloadBytes(int64_t value);
 
-  constexpr int64_t& __get_DownloadedBytes();
+  constexpr int64_t& __cordl_internal_get_DownloadedBytes();
 
-  constexpr int64_t const& __get_DownloadedBytes() const;
+  constexpr int64_t const& __cordl_internal_get_DownloadedBytes() const;
 
-  constexpr void __set_DownloadedBytes(int64_t value);
+  constexpr void __cordl_internal_set_DownloadedBytes(int64_t value);
 
-  constexpr ::Oculus::Platform::AppStatus& __get_StatusCode();
+  constexpr ::Oculus::Platform::AppStatus& __cordl_internal_get_StatusCode();
 
-  constexpr ::Oculus::Platform::AppStatus const& __get_StatusCode() const;
+  constexpr ::Oculus::Platform::AppStatus const& __cordl_internal_get_StatusCode() const;
 
-  constexpr void __set_StatusCode(::Oculus::Platform::AppStatus value);
+  constexpr void __cordl_internal_set_StatusCode(::Oculus::Platform::AppStatus value);
 
   static inline ::Oculus::Platform::Models::AppDownloadProgressResult* New_ctor(void* o);
 

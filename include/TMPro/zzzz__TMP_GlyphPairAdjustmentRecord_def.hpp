@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::TMPro::TMP_GlyphPairAdjustmentRecord);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12373)), TypeDefinitionIndex(TypeDefinitionIndex(12371))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12371)), TypeDefinitionIndex(TypeDefinitionIndex(12373))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12374))
 // CS Name: ::TMPro::TMP_GlyphPairAdjustmentRecord*
 class CORDL_TYPE TMP_GlyphPairAdjustmentRecord : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_FirstAdjustmentRecord, offset 0x10, size 0x14
-  __declspec(property(get = __get_m_FirstAdjustmentRecord, put = __set_m_FirstAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord;
+  __declspec(property(get = __cordl_internal_get_m_FirstAdjustmentRecord, put = __cordl_internal_set_m_FirstAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord;
 
   /// @brief Field m_SecondAdjustmentRecord, offset 0x24, size 0x14
-  __declspec(property(get = __get_m_SecondAdjustmentRecord, put = __set_m_SecondAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord;
+  __declspec(property(get = __cordl_internal_get_m_SecondAdjustmentRecord, put = __cordl_internal_set_m_SecondAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord;
 
   /// @brief Field m_FeatureLookupFlags, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_FeatureLookupFlags, put = __set_m_FeatureLookupFlags))::TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
+  __declspec(property(get = __cordl_internal_get_m_FeatureLookupFlags, put = __cordl_internal_set_m_FeatureLookupFlags))::TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
 
   __declspec(property(get = get_firstAdjustmentRecord, put = set_firstAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord;
 
@@ -46,23 +46,23 @@ public:
 
   __declspec(property(get = get_featureLookupFlags, put = set_featureLookupFlags))::TMPro::FontFeatureLookupFlags featureLookupFlags;
 
-  constexpr ::TMPro::TMP_GlyphAdjustmentRecord& __get_m_FirstAdjustmentRecord();
+  constexpr ::TMPro::TMP_GlyphAdjustmentRecord& __cordl_internal_get_m_FirstAdjustmentRecord();
 
-  constexpr ::TMPro::TMP_GlyphAdjustmentRecord const& __get_m_FirstAdjustmentRecord() const;
+  constexpr ::TMPro::TMP_GlyphAdjustmentRecord const& __cordl_internal_get_m_FirstAdjustmentRecord() const;
 
-  constexpr void __set_m_FirstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
+  constexpr void __cordl_internal_set_m_FirstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  constexpr ::TMPro::TMP_GlyphAdjustmentRecord& __get_m_SecondAdjustmentRecord();
+  constexpr ::TMPro::TMP_GlyphAdjustmentRecord& __cordl_internal_get_m_SecondAdjustmentRecord();
 
-  constexpr ::TMPro::TMP_GlyphAdjustmentRecord const& __get_m_SecondAdjustmentRecord() const;
+  constexpr ::TMPro::TMP_GlyphAdjustmentRecord const& __cordl_internal_get_m_SecondAdjustmentRecord() const;
 
-  constexpr void __set_m_SecondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
+  constexpr void __cordl_internal_set_m_SecondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  constexpr ::TMPro::FontFeatureLookupFlags& __get_m_FeatureLookupFlags();
+  constexpr ::TMPro::FontFeatureLookupFlags& __cordl_internal_get_m_FeatureLookupFlags();
 
-  constexpr ::TMPro::FontFeatureLookupFlags const& __get_m_FeatureLookupFlags() const;
+  constexpr ::TMPro::FontFeatureLookupFlags const& __cordl_internal_get_m_FeatureLookupFlags() const;
 
-  constexpr void __set_m_FeatureLookupFlags(::TMPro::FontFeatureLookupFlags value);
+  constexpr void __cordl_internal_set_m_FeatureLookupFlags(::TMPro::FontFeatureLookupFlags value);
 
   /// @brief Method get_firstAdjustmentRecord, addr 0x2c12240, size 0x14, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();

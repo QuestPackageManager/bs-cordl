@@ -59,41 +59,41 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1659))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPublicKey*
 class CORDL_TYPE PgpPublicKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field keyId, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyId, put = __set_keyId)) int64_t keyId;
+  __declspec(property(get = __cordl_internal_get_keyId, put = __cordl_internal_set_keyId)) int64_t keyId;
 
   /// @brief Field fingerprint, offset 0x18, size 0x8
-  __declspec(property(get = __get_fingerprint, put = __set_fingerprint))::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint;
+  __declspec(property(get = __cordl_internal_get_fingerprint, put = __cordl_internal_set_fingerprint))::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint;
 
   /// @brief Field keyStrength, offset 0x20, size 0x4
-  __declspec(property(get = __get_keyStrength, put = __set_keyStrength)) int32_t keyStrength;
+  __declspec(property(get = __cordl_internal_get_keyStrength, put = __cordl_internal_set_keyStrength)) int32_t keyStrength;
 
   /// @brief Field publicPk, offset 0x28, size 0x8
-  __declspec(property(get = __get_publicPk, put = __set_publicPk))::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicPk;
+  __declspec(property(get = __cordl_internal_get_publicPk, put = __cordl_internal_set_publicPk))::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicPk;
 
   /// @brief Field trustPk, offset 0x30, size 0x8
-  __declspec(property(get = __get_trustPk, put = __set_trustPk))::Org::BouncyCastle::Bcpg::TrustPacket* trustPk;
+  __declspec(property(get = __cordl_internal_get_trustPk, put = __cordl_internal_set_trustPk))::Org::BouncyCastle::Bcpg::TrustPacket* trustPk;
 
   /// @brief Field keySigs, offset 0x38, size 0x8
-  __declspec(property(get = __get_keySigs, put = __set_keySigs))::System::Collections::IList* keySigs;
+  __declspec(property(get = __cordl_internal_get_keySigs, put = __cordl_internal_set_keySigs))::System::Collections::IList* keySigs;
 
   /// @brief Field ids, offset 0x40, size 0x8
-  __declspec(property(get = __get_ids, put = __set_ids))::System::Collections::IList* ids;
+  __declspec(property(get = __cordl_internal_get_ids, put = __cordl_internal_set_ids))::System::Collections::IList* ids;
 
   /// @brief Field idTrusts, offset 0x48, size 0x8
-  __declspec(property(get = __get_idTrusts, put = __set_idTrusts))::System::Collections::IList* idTrusts;
+  __declspec(property(get = __cordl_internal_get_idTrusts, put = __cordl_internal_set_idTrusts))::System::Collections::IList* idTrusts;
 
   /// @brief Field idSigs, offset 0x50, size 0x8
-  __declspec(property(get = __get_idSigs, put = __set_idSigs))::System::Collections::IList* idSigs;
+  __declspec(property(get = __cordl_internal_get_idSigs, put = __cordl_internal_set_idSigs))::System::Collections::IList* idSigs;
 
   /// @brief Field subSigs, offset 0x58, size 0x8
-  __declspec(property(get = __get_subSigs, put = __set_subSigs))::System::Collections::IList* subSigs;
+  __declspec(property(get = __cordl_internal_get_subSigs, put = __cordl_internal_set_subSigs))::System::Collections::IList* subSigs;
 
   /// @brief Field MasterKeyCertificationTypes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MasterKeyCertificationTypes, put = setStaticF_MasterKeyCertificationTypes))::ArrayW<int32_t, ::Array<int32_t>*> MasterKeyCertificationTypes;
@@ -116,65 +116,65 @@ public:
 
   __declspec(property(get = get_PublicKeyPacket))::Org::BouncyCastle::Bcpg::PublicKeyPacket* PublicKeyPacket;
 
-  constexpr int64_t& __get_keyId();
+  constexpr int64_t& __cordl_internal_get_keyId();
 
-  constexpr int64_t const& __get_keyId() const;
+  constexpr int64_t const& __cordl_internal_get_keyId() const;
 
-  constexpr void __set_keyId(int64_t value);
+  constexpr void __cordl_internal_set_keyId(int64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fingerprint();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fingerprint();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fingerprint() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fingerprint() const;
 
-  constexpr void __set_fingerprint(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fingerprint(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_keyStrength();
+  constexpr int32_t& __cordl_internal_get_keyStrength();
 
-  constexpr int32_t const& __get_keyStrength() const;
+  constexpr int32_t const& __cordl_internal_get_keyStrength() const;
 
-  constexpr void __set_keyStrength(int32_t value);
+  constexpr void __cordl_internal_set_keyStrength(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyPacket*& __get_publicPk();
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyPacket*& __cordl_internal_get_publicPk();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::PublicKeyPacket*> const& __get_publicPk() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::PublicKeyPacket*> const& __cordl_internal_get_publicPk() const;
 
-  constexpr void __set_publicPk(::Org::BouncyCastle::Bcpg::PublicKeyPacket* value);
+  constexpr void __cordl_internal_set_publicPk(::Org::BouncyCastle::Bcpg::PublicKeyPacket* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::TrustPacket*& __get_trustPk();
+  constexpr ::Org::BouncyCastle::Bcpg::TrustPacket*& __cordl_internal_get_trustPk();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::TrustPacket*> const& __get_trustPk() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::TrustPacket*> const& __cordl_internal_get_trustPk() const;
 
-  constexpr void __set_trustPk(::Org::BouncyCastle::Bcpg::TrustPacket* value);
+  constexpr void __cordl_internal_set_trustPk(::Org::BouncyCastle::Bcpg::TrustPacket* value);
 
-  constexpr ::System::Collections::IList*& __get_keySigs();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_keySigs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_keySigs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_keySigs() const;
 
-  constexpr void __set_keySigs(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_keySigs(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_ids();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_ids();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_ids() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_ids() const;
 
-  constexpr void __set_ids(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_ids(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_idTrusts();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_idTrusts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_idTrusts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_idTrusts() const;
 
-  constexpr void __set_idTrusts(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_idTrusts(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_idSigs();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_idSigs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_idSigs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_idSigs() const;
 
-  constexpr void __set_idSigs(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_idSigs(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_subSigs();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_subSigs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_subSigs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_subSigs() const;
 
-  constexpr void __set_subSigs(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_subSigs(::System::Collections::IList* value);
 
   static inline void setStaticF_MasterKeyCertificationTypes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

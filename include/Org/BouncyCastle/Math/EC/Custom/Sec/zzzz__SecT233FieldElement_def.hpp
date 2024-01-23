@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT233FieldElement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1441))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1441))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1479))
 // CS Name: ::Org.BouncyCastle.Math.EC.Custom.Sec::SecT233FieldElement*
 class CORDL_TYPE SecT233FieldElement : public ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::ArrayW<uint64_t, ::Array<uint64_t>*> x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<uint64_t, ::Array<uint64_t>*> x;
 
   __declspec(property(get = get_IsOne)) bool IsOne;
 
@@ -55,11 +55,11 @@ public:
 
   __declspec(property(get = get_K3)) int32_t K3;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_x();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_x();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_x() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_x(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT233FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
 

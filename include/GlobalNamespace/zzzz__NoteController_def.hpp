@@ -91,23 +91,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4760))
 // CS Name: ::NoteController::<DissolveCoroutine>d__75*
 class CORDL_TYPE __NoteController___DissolveCoroutine_d__75 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::NoteController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::NoteController> __4__this;
 
   /// @brief Field duration, offset 0x28, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -131,29 +131,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::NoteController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::NoteController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::NoteController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::NoteController> value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
   static inline ::GlobalNamespace::__NoteController___DissolveCoroutine_d__75* New_ctor(int32_t __1__state);
 
@@ -196,7 +196,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NoteController* _____4__this;
+  ::UnityW<::GlobalNamespace::NoteController> _____4__this;
 
   /// @brief Field duration, offset: 0x28, size: 0x4, def value: None
   float_t ___duration;
@@ -219,7 +219,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteController___DissolveCoroutine_d
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4770))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4770))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4761))
 // CS Name: ::NoteController*
 class CORDL_TYPE NoteController : public ::GlobalNamespace::NoteControllerBase {
@@ -228,53 +228,55 @@ public:
   using _DissolveCoroutine_d__75 = ::GlobalNamespace::__NoteController___DissolveCoroutine_d__75;
 
   /// @brief Field _noteMovement, offset 0x18, size 0x8
-  __declspec(property(get = __get__noteMovement, put = __set__noteMovement))::GlobalNamespace::NoteMovement* _noteMovement;
+  __declspec(property(get = __cordl_internal_get__noteMovement, put = __cordl_internal_set__noteMovement))::UnityW<::GlobalNamespace::NoteMovement> _noteMovement;
 
   /// @brief Field _noteTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__noteTransform, put = __set__noteTransform))::UnityEngine::Transform* _noteTransform;
+  __declspec(property(get = __cordl_internal_get__noteTransform, put = __cordl_internal_set__noteTransform))::UnityW<::UnityEngine::Transform> _noteTransform;
 
   /// @brief Field <hidden>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__hidden_k__BackingField, put = __set__hidden_k__BackingField)) bool _hidden_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hidden_k__BackingField, put = __cordl_internal_set__hidden_k__BackingField)) bool _hidden_k__BackingField;
 
   /// @brief Field _didInitEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get__didInitEvent, put = __set__didInitEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* _didInitEvent;
+  __declspec(property(get = __cordl_internal_get__didInitEvent,
+                      put = __cordl_internal_set__didInitEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* _didInitEvent;
 
   /// @brief Field _noteDidStartJumpEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get__noteDidStartJumpEvent,
-                      put = __set__noteDidStartJumpEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* _noteDidStartJumpEvent;
+  __declspec(property(get = __cordl_internal_get__noteDidStartJumpEvent,
+                      put = __cordl_internal_set__noteDidStartJumpEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* _noteDidStartJumpEvent;
 
   /// @brief Field _noteDidFinishJumpEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get__noteDidFinishJumpEvent,
-                      put = __set__noteDidFinishJumpEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* _noteDidFinishJumpEvent;
+  __declspec(property(get = __cordl_internal_get__noteDidFinishJumpEvent,
+                      put = __cordl_internal_set__noteDidFinishJumpEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* _noteDidFinishJumpEvent;
 
   /// @brief Field _noteDidPassJumpThreeQuartersEvent, offset 0x48, size 0x8
-  __declspec(property(
-      get = __get__noteDidPassJumpThreeQuartersEvent,
-      put = __set__noteDidPassJumpThreeQuartersEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* _noteDidPassJumpThreeQuartersEvent;
+  __declspec(property(get = __cordl_internal_get__noteDidPassJumpThreeQuartersEvent, put = __cordl_internal_set__noteDidPassJumpThreeQuartersEvent))::GlobalNamespace::LazyCopyHashSet_1<
+      ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* _noteDidPassJumpThreeQuartersEvent;
 
   /// @brief Field _noteWasCutEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get__noteWasCutEvent, put = __set__noteWasCutEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>* _noteWasCutEvent;
+  __declspec(property(get = __cordl_internal_get__noteWasCutEvent,
+                      put = __cordl_internal_set__noteWasCutEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>* _noteWasCutEvent;
 
   /// @brief Field _noteWasMissedEvent, offset 0x58, size 0x8
-  __declspec(property(get = __get__noteWasMissedEvent,
-                      put = __set__noteWasMissedEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>* _noteWasMissedEvent;
+  __declspec(property(get = __cordl_internal_get__noteWasMissedEvent,
+                      put = __cordl_internal_set__noteWasMissedEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>* _noteWasMissedEvent;
 
   /// @brief Field _noteDidStartDissolvingEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get__noteDidStartDissolvingEvent,
-                      put = __set__noteDidStartDissolvingEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* _noteDidStartDissolvingEvent;
+  __declspec(property(
+      get = __cordl_internal_get__noteDidStartDissolvingEvent,
+      put = __cordl_internal_set__noteDidStartDissolvingEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* _noteDidStartDissolvingEvent;
 
   /// @brief Field _noteDidDissolveEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get__noteDidDissolveEvent,
-                      put = __set__noteDidDissolveEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* _noteDidDissolveEvent;
+  __declspec(property(get = __cordl_internal_get__noteDidDissolveEvent,
+                      put = __cordl_internal_set__noteDidDissolveEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* _noteDidDissolveEvent;
 
   /// @brief Field _noteData, offset 0x70, size 0x8
-  __declspec(property(get = __get__noteData, put = __set__noteData))::GlobalNamespace::NoteData* _noteData;
+  __declspec(property(get = __cordl_internal_get__noteData, put = __cordl_internal_set__noteData))::GlobalNamespace::NoteData* _noteData;
 
   /// @brief Field _dissolving, offset 0x78, size 0x1
-  __declspec(property(get = __get__dissolving, put = __set__dissolving)) bool _dissolving;
+  __declspec(property(get = __cordl_internal_get__dissolving, put = __cordl_internal_set__dissolving)) bool _dissolving;
 
   /// @brief Field _uniformScale, offset 0x7c, size 0x4
-  __declspec(property(get = __get__uniformScale, put = __set__uniformScale)) float_t _uniformScale;
+  __declspec(property(get = __cordl_internal_get__uniformScale, put = __cordl_internal_set__uniformScale)) float_t _uniformScale;
 
   __declspec(property(get = get_didInitEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* didInitEvent;
 
@@ -293,7 +295,7 @@ public:
 
   __declspec(property(get = get_noteDidDissolveEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* noteDidDissolveEvent;
 
-  __declspec(property(get = get_noteTransform))::UnityEngine::Transform* noteTransform;
+  __declspec(property(get = get_noteTransform))::UnityW<::UnityEngine::Transform> noteTransform;
 
   __declspec(property(get = get_worldRotation))::UnityEngine::Quaternion worldRotation;
 
@@ -333,91 +335,94 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
   constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
-  constexpr ::GlobalNamespace::NoteMovement*& __get__noteMovement();
+  constexpr ::UnityW<::GlobalNamespace::NoteMovement>& __cordl_internal_get__noteMovement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteMovement*> const& __get__noteMovement() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteMovement> const& __cordl_internal_get__noteMovement() const;
 
-  constexpr void __set__noteMovement(::GlobalNamespace::NoteMovement* value);
+  constexpr void __cordl_internal_set__noteMovement(::UnityW<::GlobalNamespace::NoteMovement> value);
 
-  constexpr ::UnityEngine::Transform*& __get__noteTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__noteTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__noteTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__noteTransform() const;
 
-  constexpr void __set__noteTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__noteTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__hidden_k__BackingField();
+  constexpr bool& __cordl_internal_get__hidden_k__BackingField();
 
-  constexpr bool const& __get__hidden_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hidden_k__BackingField() const;
 
-  constexpr void __set__hidden_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hidden_k__BackingField(bool value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*& __get__didInitEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*& __cordl_internal_get__didInitEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*> const& __get__didInitEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*> const& __cordl_internal_get__didInitEvent() const;
 
-  constexpr void __set__didInitEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* value);
+  constexpr void __cordl_internal_set__didInitEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>*& __get__noteDidStartJumpEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>*& __cordl_internal_get__noteDidStartJumpEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>*> const& __get__noteDidStartJumpEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>*> const&
+  __cordl_internal_get__noteDidStartJumpEvent() const;
 
-  constexpr void __set__noteDidStartJumpEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* value);
+  constexpr void __cordl_internal_set__noteDidStartJumpEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>*& __get__noteDidFinishJumpEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>*& __cordl_internal_get__noteDidFinishJumpEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>*> const& __get__noteDidFinishJumpEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>*> const&
+  __cordl_internal_get__noteDidFinishJumpEvent() const;
 
-  constexpr void __set__noteDidFinishJumpEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* value);
+  constexpr void __cordl_internal_set__noteDidFinishJumpEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*& __get__noteDidPassJumpThreeQuartersEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*& __cordl_internal_get__noteDidPassJumpThreeQuartersEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*> const&
-  __get__noteDidPassJumpThreeQuartersEvent() const;
+  __cordl_internal_get__noteDidPassJumpThreeQuartersEvent() const;
 
-  constexpr void __set__noteDidPassJumpThreeQuartersEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* value);
+  constexpr void __cordl_internal_set__noteDidPassJumpThreeQuartersEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>*& __get__noteWasCutEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>*& __cordl_internal_get__noteWasCutEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>*> const& __get__noteWasCutEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>*> const& __cordl_internal_get__noteWasCutEvent() const;
 
-  constexpr void __set__noteWasCutEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>* value);
+  constexpr void __cordl_internal_set__noteWasCutEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>*& __get__noteWasMissedEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>*& __cordl_internal_get__noteWasMissedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>*> const& __get__noteWasMissedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>*> const& __cordl_internal_get__noteWasMissedEvent() const;
 
-  constexpr void __set__noteWasMissedEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>* value);
+  constexpr void __cordl_internal_set__noteWasMissedEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*& __get__noteDidStartDissolvingEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*& __cordl_internal_get__noteDidStartDissolvingEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*> const&
-  __get__noteDidStartDissolvingEvent() const;
+  __cordl_internal_get__noteDidStartDissolvingEvent() const;
 
-  constexpr void __set__noteDidStartDissolvingEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* value);
+  constexpr void __cordl_internal_set__noteDidStartDissolvingEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>*& __get__noteDidDissolveEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>*& __cordl_internal_get__noteDidDissolveEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>*> const& __get__noteDidDissolveEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>*> const&
+  __cordl_internal_get__noteDidDissolveEvent() const;
 
-  constexpr void __set__noteDidDissolveEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* value);
+  constexpr void __cordl_internal_set__noteDidDissolveEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* value);
 
-  constexpr ::GlobalNamespace::NoteData*& __get__noteData();
+  constexpr ::GlobalNamespace::NoteData*& __cordl_internal_get__noteData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteData*> const& __get__noteData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteData*> const& __cordl_internal_get__noteData() const;
 
-  constexpr void __set__noteData(::GlobalNamespace::NoteData* value);
+  constexpr void __cordl_internal_set__noteData(::GlobalNamespace::NoteData* value);
 
-  constexpr bool& __get__dissolving();
+  constexpr bool& __cordl_internal_get__dissolving();
 
-  constexpr bool const& __get__dissolving() const;
+  constexpr bool const& __cordl_internal_get__dissolving() const;
 
-  constexpr void __set__dissolving(bool value);
+  constexpr void __cordl_internal_set__dissolving(bool value);
 
-  constexpr float_t& __get__uniformScale();
+  constexpr float_t& __cordl_internal_get__uniformScale();
 
-  constexpr float_t const& __get__uniformScale() const;
+  constexpr float_t const& __cordl_internal_get__uniformScale() const;
 
-  constexpr void __set__uniformScale(float_t value);
+  constexpr void __cordl_internal_set__uniformScale(float_t value);
 
   /// @brief Method get_didInitEvent, addr 0x2386d04, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* get_didInitEvent();
@@ -444,7 +449,7 @@ public:
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* get_noteDidDissolveEvent();
 
   /// @brief Method get_noteTransform, addr 0x2386d44, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* get_noteTransform();
+  inline ::UnityW<::UnityEngine::Transform> get_noteTransform();
 
   /// @brief Method get_worldRotation, addr 0x237782c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
@@ -572,10 +577,10 @@ protected:
 
 public:
   /// @brief Field _noteMovement, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::NoteMovement* ____noteMovement;
+  ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
 
   /// @brief Field _noteTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____noteTransform;
+  ::UnityW<::UnityEngine::Transform> ____noteTransform;
 
   /// @brief Field <hidden>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____hidden_k__BackingField;

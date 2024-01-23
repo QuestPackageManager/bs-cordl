@@ -17,33 +17,33 @@ MARK_REF_PTR_T(::System::Net::Security::AuthenticatedStream);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9364))
 // CS Name: ::System.Net.Security::AuthenticatedStream*
 class CORDL_TYPE AuthenticatedStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _InnerStream, offset 0x28, size 0x8
-  __declspec(property(get = __get__InnerStream, put = __set__InnerStream))::System::IO::Stream* _InnerStream;
+  __declspec(property(get = __cordl_internal_get__InnerStream, put = __cordl_internal_set__InnerStream))::System::IO::Stream* _InnerStream;
 
   /// @brief Field _LeaveStreamOpen, offset 0x30, size 0x1
-  __declspec(property(get = __get__LeaveStreamOpen, put = __set__LeaveStreamOpen)) bool _LeaveStreamOpen;
+  __declspec(property(get = __cordl_internal_get__LeaveStreamOpen, put = __cordl_internal_set__LeaveStreamOpen)) bool _LeaveStreamOpen;
 
   __declspec(property(get = get_InnerStream))::System::IO::Stream* InnerStream;
 
   __declspec(property(get = get_IsAuthenticated)) bool IsAuthenticated;
 
-  constexpr ::System::IO::Stream*& __get__InnerStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__InnerStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__InnerStream() const;
 
-  constexpr void __set__InnerStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__InnerStream(::System::IO::Stream* value);
 
-  constexpr bool& __get__LeaveStreamOpen();
+  constexpr bool& __cordl_internal_get__LeaveStreamOpen();
 
-  constexpr bool const& __get__LeaveStreamOpen() const;
+  constexpr bool const& __cordl_internal_get__LeaveStreamOpen() const;
 
-  constexpr void __set__LeaveStreamOpen(bool value);
+  constexpr void __cordl_internal_set__LeaveStreamOpen(bool value);
 
   static inline ::System::Net::Security::AuthenticatedStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
 

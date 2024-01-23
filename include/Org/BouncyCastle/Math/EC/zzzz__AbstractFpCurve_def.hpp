@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractFpCurve);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1361))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1361))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1364))
 // CS Name: ::Org.BouncyCastle.Math.EC::AbstractFpCurve*
 class CORDL_TYPE AbstractFpCurve : public ::Org::BouncyCastle::Math::EC::ECCurve {

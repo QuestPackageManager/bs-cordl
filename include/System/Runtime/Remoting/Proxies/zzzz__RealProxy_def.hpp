@@ -54,85 +54,85 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::RealProxy);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3088))
 // CS Name: ::System.Runtime.Remoting.Proxies::RealProxy*
 class CORDL_TYPE RealProxy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field class_to_proxy, offset 0x10, size 0x8
-  __declspec(property(get = __get_class_to_proxy, put = __set_class_to_proxy))::System::Type* class_to_proxy;
+  __declspec(property(get = __cordl_internal_get_class_to_proxy, put = __cordl_internal_set_class_to_proxy))::System::Type* class_to_proxy;
 
   /// @brief Field _targetContext, offset 0x18, size 0x8
-  __declspec(property(get = __get__targetContext, put = __set__targetContext))::System::Runtime::Remoting::Contexts::Context* _targetContext;
+  __declspec(property(get = __cordl_internal_get__targetContext, put = __cordl_internal_set__targetContext))::System::Runtime::Remoting::Contexts::Context* _targetContext;
 
   /// @brief Field _server, offset 0x20, size 0x8
-  __declspec(property(get = __get__server, put = __set__server))::System::MarshalByRefObject* _server;
+  __declspec(property(get = __cordl_internal_get__server, put = __cordl_internal_set__server))::System::MarshalByRefObject* _server;
 
   /// @brief Field _targetDomainId, offset 0x28, size 0x4
-  __declspec(property(get = __get__targetDomainId, put = __set__targetDomainId)) int32_t _targetDomainId;
+  __declspec(property(get = __cordl_internal_get__targetDomainId, put = __cordl_internal_set__targetDomainId)) int32_t _targetDomainId;
 
   /// @brief Field _targetUri, offset 0x30, size 0x8
-  __declspec(property(get = __get__targetUri, put = __set__targetUri))::StringW _targetUri;
+  __declspec(property(get = __cordl_internal_get__targetUri, put = __cordl_internal_set__targetUri))::StringW _targetUri;
 
   /// @brief Field _objectIdentity, offset 0x38, size 0x8
-  __declspec(property(get = __get__objectIdentity, put = __set__objectIdentity))::System::Runtime::Remoting::Identity* _objectIdentity;
+  __declspec(property(get = __cordl_internal_get__objectIdentity, put = __cordl_internal_set__objectIdentity))::System::Runtime::Remoting::Identity* _objectIdentity;
 
   /// @brief Field _objTP, offset 0x40, size 0x8
-  __declspec(property(get = __get__objTP, put = __set__objTP))::System::Object* _objTP;
+  __declspec(property(get = __cordl_internal_get__objTP, put = __cordl_internal_set__objTP))::System::Object* _objTP;
 
   /// @brief Field _stubData, offset 0x48, size 0x8
-  __declspec(property(get = __get__stubData, put = __set__stubData))::System::Object* _stubData;
+  __declspec(property(get = __cordl_internal_get__stubData, put = __cordl_internal_set__stubData))::System::Object* _stubData;
 
   __declspec(property(get = get_ObjectIdentity, put = set_ObjectIdentity))::System::Runtime::Remoting::Identity* ObjectIdentity;
 
-  constexpr ::System::Type*& __get_class_to_proxy();
+  constexpr ::System::Type*& __cordl_internal_get_class_to_proxy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_class_to_proxy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_class_to_proxy() const;
 
-  constexpr void __set_class_to_proxy(::System::Type* value);
+  constexpr void __cordl_internal_set_class_to_proxy(::System::Type* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::Context*& __get__targetContext();
+  constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__targetContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __get__targetContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __cordl_internal_get__targetContext() const;
 
-  constexpr void __set__targetContext(::System::Runtime::Remoting::Contexts::Context* value);
+  constexpr void __cordl_internal_set__targetContext(::System::Runtime::Remoting::Contexts::Context* value);
 
-  constexpr ::System::MarshalByRefObject*& __get__server();
+  constexpr ::System::MarshalByRefObject*& __cordl_internal_get__server();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __get__server() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __cordl_internal_get__server() const;
 
-  constexpr void __set__server(::System::MarshalByRefObject* value);
+  constexpr void __cordl_internal_set__server(::System::MarshalByRefObject* value);
 
-  constexpr int32_t& __get__targetDomainId();
+  constexpr int32_t& __cordl_internal_get__targetDomainId();
 
-  constexpr int32_t const& __get__targetDomainId() const;
+  constexpr int32_t const& __cordl_internal_get__targetDomainId() const;
 
-  constexpr void __set__targetDomainId(int32_t value);
+  constexpr void __cordl_internal_set__targetDomainId(int32_t value);
 
-  constexpr ::StringW& __get__targetUri();
+  constexpr ::StringW& __cordl_internal_get__targetUri();
 
-  constexpr ::StringW const& __get__targetUri() const;
+  constexpr ::StringW const& __cordl_internal_get__targetUri() const;
 
-  constexpr void __set__targetUri(::StringW value);
+  constexpr void __cordl_internal_set__targetUri(::StringW value);
 
-  constexpr ::System::Runtime::Remoting::Identity*& __get__objectIdentity();
+  constexpr ::System::Runtime::Remoting::Identity*& __cordl_internal_get__objectIdentity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Identity*> const& __get__objectIdentity() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Identity*> const& __cordl_internal_get__objectIdentity() const;
 
-  constexpr void __set__objectIdentity(::System::Runtime::Remoting::Identity* value);
+  constexpr void __cordl_internal_set__objectIdentity(::System::Runtime::Remoting::Identity* value);
 
-  constexpr ::System::Object*& __get__objTP();
+  constexpr ::System::Object*& __cordl_internal_get__objTP();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__objTP() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__objTP() const;
 
-  constexpr void __set__objTP(::System::Object* value);
+  constexpr void __cordl_internal_set__objTP(::System::Object* value);
 
-  constexpr ::System::Object*& __get__stubData();
+  constexpr ::System::Object*& __cordl_internal_get__stubData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__stubData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__stubData() const;
 
-  constexpr void __set__stubData(::System::Object* value);
+  constexpr void __cordl_internal_set__stubData(::System::Object* value);
 
   static inline ::System::Runtime::Remoting::Proxies::RealProxy* New_ctor();
 

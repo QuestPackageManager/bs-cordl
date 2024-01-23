@@ -73,26 +73,26 @@ MARK_REF_PTR_T(::Zenject::__InjectContext___get_ParentContexts_d__52);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11110))
 // CS Name: ::InjectContext::<get_ParentContexts>d__52*
 class CORDL_TYPE __InjectContext___get_ParentContexts_d__52 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::Zenject::InjectContext* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::Zenject::InjectContext* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::InjectContext* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::InjectContext* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current))::Zenject::InjectContext* System_Collections_Generic_IEnumerator_Zenject_InjectContext__Current;
 
@@ -128,35 +128,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::Zenject::InjectContext*& __get___2__current();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set___2__current(::Zenject::InjectContext* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::Zenject::InjectContext*& __get___4__this();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::InjectContext* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* value);
 
   static inline ::Zenject::__InjectContext___get_ParentContexts_d__52* New_ctor(int32_t __1__state);
 
@@ -242,26 +242,26 @@ static_assert(offsetof(::Zenject::__InjectContext___get_ParentContexts_d__52, __
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11111))
 // CS Name: ::InjectContext::<get_ParentContextsAndSelf>d__54*
 class CORDL_TYPE __InjectContext___get_ParentContextsAndSelf_d__54 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::Zenject::InjectContext* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::Zenject::InjectContext* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::InjectContext* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::InjectContext* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current))::Zenject::InjectContext* System_Collections_Generic_IEnumerator_Zenject_InjectContext__Current;
 
@@ -297,35 +297,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::Zenject::InjectContext*& __get___2__current();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set___2__current(::Zenject::InjectContext* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::Zenject::InjectContext*& __get___4__this();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::InjectContext* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* value);
 
   static inline ::Zenject::__InjectContext___get_ParentContextsAndSelf_d__54* New_ctor(int32_t __1__state);
 
@@ -411,26 +411,26 @@ static_assert(offsetof(::Zenject::__InjectContext___get_ParentContextsAndSelf_d_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11112))
 // CS Name: ::InjectContext::<get_AllObjectTypes>d__56*
 class CORDL_TYPE __InjectContext___get_AllObjectTypes_d__56 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Type* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Type* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::InjectContext* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::InjectContext* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Type__get_Current))::System::Type* System_Collections_Generic_IEnumerator_System_Type__Current;
 
@@ -466,35 +466,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Type*& __get___2__current();
+  constexpr ::System::Type*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Type* value);
+  constexpr void __cordl_internal_set___2__current(::System::Type* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::Zenject::InjectContext*& __get___4__this();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::InjectContext* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* value);
 
   static inline ::Zenject::__InjectContext___get_AllObjectTypes_d__56* New_ctor(int32_t __1__state);
 
@@ -580,7 +580,7 @@ static_assert(offsetof(::Zenject::__InjectContext___get_AllObjectTypes_d__56, __
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11113))
 // CS Name: ::Zenject::InjectContext*
 class CORDL_TYPE InjectContext : public ::System::Object {
@@ -593,34 +593,34 @@ public:
   using _get_ParentContexts_d__52 = ::Zenject::__InjectContext___get_ParentContexts_d__52;
 
   /// @brief Field _bindingId, offset 0x10, size 0x10
-  __declspec(property(get = __get__bindingId, put = __set__bindingId))::Zenject::BindingId _bindingId;
+  __declspec(property(get = __cordl_internal_get__bindingId, put = __cordl_internal_set__bindingId))::Zenject::BindingId _bindingId;
 
   /// @brief Field _objectType, offset 0x20, size 0x8
-  __declspec(property(get = __get__objectType, put = __set__objectType))::System::Type* _objectType;
+  __declspec(property(get = __cordl_internal_get__objectType, put = __cordl_internal_set__objectType))::System::Type* _objectType;
 
   /// @brief Field _parentContext, offset 0x28, size 0x8
-  __declspec(property(get = __get__parentContext, put = __set__parentContext))::Zenject::InjectContext* _parentContext;
+  __declspec(property(get = __cordl_internal_get__parentContext, put = __cordl_internal_set__parentContext))::Zenject::InjectContext* _parentContext;
 
   /// @brief Field _objectInstance, offset 0x30, size 0x8
-  __declspec(property(get = __get__objectInstance, put = __set__objectInstance))::System::Object* _objectInstance;
+  __declspec(property(get = __cordl_internal_get__objectInstance, put = __cordl_internal_set__objectInstance))::System::Object* _objectInstance;
 
   /// @brief Field _memberName, offset 0x38, size 0x8
-  __declspec(property(get = __get__memberName, put = __set__memberName))::StringW _memberName;
+  __declspec(property(get = __cordl_internal_get__memberName, put = __cordl_internal_set__memberName))::StringW _memberName;
 
   /// @brief Field _optional, offset 0x40, size 0x1
-  __declspec(property(get = __get__optional, put = __set__optional)) bool _optional;
+  __declspec(property(get = __cordl_internal_get__optional, put = __cordl_internal_set__optional)) bool _optional;
 
   /// @brief Field _sourceType, offset 0x44, size 0x4
-  __declspec(property(get = __get__sourceType, put = __set__sourceType))::Zenject::InjectSources _sourceType;
+  __declspec(property(get = __cordl_internal_get__sourceType, put = __cordl_internal_set__sourceType))::Zenject::InjectSources _sourceType;
 
   /// @brief Field _fallBackValue, offset 0x48, size 0x8
-  __declspec(property(get = __get__fallBackValue, put = __set__fallBackValue))::System::Object* _fallBackValue;
+  __declspec(property(get = __cordl_internal_get__fallBackValue, put = __cordl_internal_set__fallBackValue))::System::Object* _fallBackValue;
 
   /// @brief Field _concreteIdentifier, offset 0x50, size 0x8
-  __declspec(property(get = __get__concreteIdentifier, put = __set__concreteIdentifier))::System::Object* _concreteIdentifier;
+  __declspec(property(get = __cordl_internal_get__concreteIdentifier, put = __cordl_internal_set__concreteIdentifier))::System::Object* _concreteIdentifier;
 
   /// @brief Field _container, offset 0x58, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   __declspec(property(get = get_BindingId))::Zenject::BindingId BindingId;
 
@@ -658,65 +658,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::Zenject::BindingId& __get__bindingId();
+  constexpr ::Zenject::BindingId& __cordl_internal_get__bindingId();
 
-  constexpr ::Zenject::BindingId const& __get__bindingId() const;
+  constexpr ::Zenject::BindingId const& __cordl_internal_get__bindingId() const;
 
-  constexpr void __set__bindingId(::Zenject::BindingId value);
+  constexpr void __cordl_internal_set__bindingId(::Zenject::BindingId value);
 
-  constexpr ::System::Type*& __get__objectType();
+  constexpr ::System::Type*& __cordl_internal_get__objectType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__objectType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__objectType() const;
 
-  constexpr void __set__objectType(::System::Type* value);
+  constexpr void __cordl_internal_set__objectType(::System::Type* value);
 
-  constexpr ::Zenject::InjectContext*& __get__parentContext();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get__parentContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get__parentContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get__parentContext() const;
 
-  constexpr void __set__parentContext(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set__parentContext(::Zenject::InjectContext* value);
 
-  constexpr ::System::Object*& __get__objectInstance();
+  constexpr ::System::Object*& __cordl_internal_get__objectInstance();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__objectInstance() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__objectInstance() const;
 
-  constexpr void __set__objectInstance(::System::Object* value);
+  constexpr void __cordl_internal_set__objectInstance(::System::Object* value);
 
-  constexpr ::StringW& __get__memberName();
+  constexpr ::StringW& __cordl_internal_get__memberName();
 
-  constexpr ::StringW const& __get__memberName() const;
+  constexpr ::StringW const& __cordl_internal_get__memberName() const;
 
-  constexpr void __set__memberName(::StringW value);
+  constexpr void __cordl_internal_set__memberName(::StringW value);
 
-  constexpr bool& __get__optional();
+  constexpr bool& __cordl_internal_get__optional();
 
-  constexpr bool const& __get__optional() const;
+  constexpr bool const& __cordl_internal_get__optional() const;
 
-  constexpr void __set__optional(bool value);
+  constexpr void __cordl_internal_set__optional(bool value);
 
-  constexpr ::Zenject::InjectSources& __get__sourceType();
+  constexpr ::Zenject::InjectSources& __cordl_internal_get__sourceType();
 
-  constexpr ::Zenject::InjectSources const& __get__sourceType() const;
+  constexpr ::Zenject::InjectSources const& __cordl_internal_get__sourceType() const;
 
-  constexpr void __set__sourceType(::Zenject::InjectSources value);
+  constexpr void __cordl_internal_set__sourceType(::Zenject::InjectSources value);
 
-  constexpr ::System::Object*& __get__fallBackValue();
+  constexpr ::System::Object*& __cordl_internal_get__fallBackValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__fallBackValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__fallBackValue() const;
 
-  constexpr void __set__fallBackValue(::System::Object* value);
+  constexpr void __cordl_internal_set__fallBackValue(::System::Object* value);
 
-  constexpr ::System::Object*& __get__concreteIdentifier();
+  constexpr ::System::Object*& __cordl_internal_get__concreteIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__concreteIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__concreteIdentifier() const;
 
-  constexpr void __set__concreteIdentifier(::System::Object* value);
+  constexpr void __cordl_internal_set__concreteIdentifier(::System::Object* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   static inline ::Zenject::InjectContext* New_ctor();
 

@@ -31,54 +31,59 @@ MARK_REF_PTR_T(::TMPro::MaterialReferenceManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12302))
 // CS Name: ::TMPro::MaterialReferenceManager*
 class CORDL_TYPE MaterialReferenceManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_FontMaterialReferenceLookup, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_FontMaterialReferenceLookup,
-                      put = __set_m_FontMaterialReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>* m_FontMaterialReferenceLookup;
+  __declspec(property(get = __cordl_internal_get_m_FontMaterialReferenceLookup,
+                      put = __cordl_internal_set_m_FontMaterialReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Material>>* m_FontMaterialReferenceLookup;
 
   /// @brief Field m_FontAssetReferenceLookup, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_FontAssetReferenceLookup,
-                      put = __set_m_FontAssetReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>* m_FontAssetReferenceLookup;
+  __declspec(property(get = __cordl_internal_get_m_FontAssetReferenceLookup,
+                      put = __cordl_internal_set_m_FontAssetReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* m_FontAssetReferenceLookup;
 
   /// @brief Field m_SpriteAssetReferenceLookup, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_SpriteAssetReferenceLookup,
-                      put = __set_m_SpriteAssetReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>* m_SpriteAssetReferenceLookup;
+  __declspec(property(get = __cordl_internal_get_m_SpriteAssetReferenceLookup,
+                      put = __cordl_internal_set_m_SpriteAssetReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_SpriteAsset>>* m_SpriteAssetReferenceLookup;
 
   /// @brief Field m_ColorGradientReferenceLookup, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ColorGradientReferenceLookup,
-                      put = __set_m_ColorGradientReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>* m_ColorGradientReferenceLookup;
+  __declspec(
+      property(get = __cordl_internal_get_m_ColorGradientReferenceLookup,
+               put = __cordl_internal_set_m_ColorGradientReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_ColorGradient>>* m_ColorGradientReferenceLookup;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::TMPro::MaterialReferenceManager* s_Instance;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>*& __get_m_FontMaterialReferenceLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_m_FontMaterialReferenceLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>*> const& __get_m_FontMaterialReferenceLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Material>>*> const&
+  __cordl_internal_get_m_FontMaterialReferenceLookup() const;
 
-  constexpr void __set_m_FontMaterialReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>* value);
+  constexpr void __cordl_internal_set_m_FontMaterialReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Material>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>*& __get_m_FontAssetReferenceLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>*& __cordl_internal_get_m_FontAssetReferenceLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>*> const& __get_m_FontAssetReferenceLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>*> const&
+  __cordl_internal_get_m_FontAssetReferenceLookup() const;
 
-  constexpr void __set_m_FontAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>* value);
+  constexpr void __cordl_internal_set_m_FontAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>*& __get_m_SpriteAssetReferenceLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_SpriteAsset>>*& __cordl_internal_get_m_SpriteAssetReferenceLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>*> const& __get_m_SpriteAssetReferenceLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_SpriteAsset>>*> const&
+  __cordl_internal_get_m_SpriteAssetReferenceLookup() const;
 
-  constexpr void __set_m_SpriteAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>* value);
+  constexpr void __cordl_internal_set_m_SpriteAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>*& __get_m_ColorGradientReferenceLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_ColorGradient>>*& __cordl_internal_get_m_ColorGradientReferenceLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>*> const& __get_m_ColorGradientReferenceLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_ColorGradient>>*> const&
+  __cordl_internal_get_m_ColorGradientReferenceLookup() const;
 
-  constexpr void __set_m_ColorGradientReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>* value);
+  constexpr void __cordl_internal_set_m_ColorGradientReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_ColorGradient>>* value);
 
   static inline void setStaticF_s_Instance(::TMPro::MaterialReferenceManager* value);
 
@@ -167,16 +172,16 @@ protected:
 
 public:
   /// @brief Field m_FontMaterialReferenceLookup, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>* ___m_FontMaterialReferenceLookup;
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Material>>* ___m_FontMaterialReferenceLookup;
 
   /// @brief Field m_FontAssetReferenceLookup, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>* ___m_FontAssetReferenceLookup;
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* ___m_FontAssetReferenceLookup;
 
   /// @brief Field m_SpriteAssetReferenceLookup, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>* ___m_SpriteAssetReferenceLookup;
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_SpriteAsset>>* ___m_SpriteAssetReferenceLookup;
 
   /// @brief Field m_ColorGradientReferenceLookup, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>* ___m_ColorGradientReferenceLookup;
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_ColorGradient>>* ___m_ColorGradientReferenceLookup;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

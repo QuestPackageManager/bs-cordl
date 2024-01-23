@@ -62,33 +62,33 @@ MARK_REF_PTR_T(::System::__MonoCustomAttrs__AttributeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2607))
 // CS Name: ::MonoCustomAttrs::AttributeInfo*
 class CORDL_TYPE __MonoCustomAttrs__AttributeInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _usage, offset 0x10, size 0x8
-  __declspec(property(get = __get__usage, put = __set__usage))::System::AttributeUsageAttribute* _usage;
+  __declspec(property(get = __cordl_internal_get__usage, put = __cordl_internal_set__usage))::System::AttributeUsageAttribute* _usage;
 
   /// @brief Field _inheritanceLevel, offset 0x18, size 0x4
-  __declspec(property(get = __get__inheritanceLevel, put = __set__inheritanceLevel)) int32_t _inheritanceLevel;
+  __declspec(property(get = __cordl_internal_get__inheritanceLevel, put = __cordl_internal_set__inheritanceLevel)) int32_t _inheritanceLevel;
 
   __declspec(property(get = get_Usage))::System::AttributeUsageAttribute* Usage;
 
   __declspec(property(get = get_InheritanceLevel)) int32_t InheritanceLevel;
 
-  constexpr ::System::AttributeUsageAttribute*& __get__usage();
+  constexpr ::System::AttributeUsageAttribute*& __cordl_internal_get__usage();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AttributeUsageAttribute*> const& __get__usage() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AttributeUsageAttribute*> const& __cordl_internal_get__usage() const;
 
-  constexpr void __set__usage(::System::AttributeUsageAttribute* value);
+  constexpr void __cordl_internal_set__usage(::System::AttributeUsageAttribute* value);
 
-  constexpr int32_t& __get__inheritanceLevel();
+  constexpr int32_t& __cordl_internal_get__inheritanceLevel();
 
-  constexpr int32_t const& __get__inheritanceLevel() const;
+  constexpr int32_t const& __cordl_internal_get__inheritanceLevel() const;
 
-  constexpr void __set__inheritanceLevel(int32_t value);
+  constexpr void __cordl_internal_set__inheritanceLevel(int32_t value);
 
   static inline ::System::__MonoCustomAttrs__AttributeInfo* New_ctor(::System::AttributeUsageAttribute* usage, int32_t inheritanceLevel);
 
@@ -135,7 +135,7 @@ static_assert(offsetof(::System::__MonoCustomAttrs__AttributeInfo, ____inheritan
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2608))
 // CS Name: ::System::MonoCustomAttrs*
 class CORDL_TYPE MonoCustomAttrs : public ::System::Object {

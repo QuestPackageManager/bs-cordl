@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC2Engine);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(854))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RC2Engine*
 class CORDL_TYPE RC2Engine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field workingKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<int32_t, ::Array<int32_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<int32_t, ::Array<int32_t>*> workingKey;
 
   /// @brief Field encrypting, offset 0x18, size 0x1
-  __declspec(property(get = __get_encrypting, put = __set_encrypting)) bool encrypting;
+  __declspec(property(get = __cordl_internal_get_encrypting, put = __cordl_internal_set_encrypting)) bool encrypting;
 
   /// @brief Field piTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_piTable, put = setStaticF_piTable))::ArrayW<uint8_t, ::Array<uint8_t>*> piTable;
@@ -48,17 +48,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_workingKey();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get_encrypting();
+  constexpr bool& __cordl_internal_get_encrypting();
 
-  constexpr bool const& __get_encrypting() const;
+  constexpr bool const& __cordl_internal_get_encrypting() const;
 
-  constexpr void __set_encrypting(bool value);
+  constexpr void __cordl_internal_set_encrypting(bool value);
 
   static inline void setStaticF_piTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

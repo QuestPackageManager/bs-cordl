@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Tsp::Accuracy);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(314))
 // CS Name: ::Org.BouncyCastle.Asn1.Tsp::Accuracy*
 class CORDL_TYPE Accuracy : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field seconds, offset 0x10, size 0x8
-  __declspec(property(get = __get_seconds, put = __set_seconds))::Org::BouncyCastle::Asn1::DerInteger* seconds;
+  __declspec(property(get = __cordl_internal_get_seconds, put = __cordl_internal_set_seconds))::Org::BouncyCastle::Asn1::DerInteger* seconds;
 
   /// @brief Field millis, offset 0x18, size 0x8
-  __declspec(property(get = __get_millis, put = __set_millis))::Org::BouncyCastle::Asn1::DerInteger* millis;
+  __declspec(property(get = __cordl_internal_get_millis, put = __cordl_internal_set_millis))::Org::BouncyCastle::Asn1::DerInteger* millis;
 
   /// @brief Field micros, offset 0x20, size 0x8
-  __declspec(property(get = __get_micros, put = __set_micros))::Org::BouncyCastle::Asn1::DerInteger* micros;
+  __declspec(property(get = __cordl_internal_get_micros, put = __cordl_internal_set_micros))::Org::BouncyCastle::Asn1::DerInteger* micros;
 
   __declspec(property(get = get_Seconds))::Org::BouncyCastle::Asn1::DerInteger* Seconds;
 
@@ -48,23 +48,23 @@ public:
 
   __declspec(property(get = get_Micros))::Org::BouncyCastle::Asn1::DerInteger* Micros;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_seconds();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_seconds();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_seconds() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_seconds() const;
 
-  constexpr void __set_seconds(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_seconds(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_millis();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_millis();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_millis() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_millis() const;
 
-  constexpr void __set_millis(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_millis(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_micros();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_micros();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_micros() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_micros() const;
 
-  constexpr void __set_micros(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_micros(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis,
                                                                    ::Org::BouncyCastle::Asn1::DerInteger* micros);

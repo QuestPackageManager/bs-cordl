@@ -148,7 +148,7 @@ MARK_GEN_VAL_T(::System::__RuntimeType__ListBuilder_1);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2565))
 // CS Name: ::RuntimeType::MemberListType
 struct CORDL_TYPE __RuntimeType__MemberListType {
@@ -208,7 +208,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2566))
 // CS Name: ::RuntimeType::ListBuilder`1<T>
 struct CORDL_TYPE __RuntimeType__ListBuilder_1 {
@@ -267,7 +267,7 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3459)), TypeDefinitionIndex(TypeDefinitionIndex(3502))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3459)), TypeDefinitionIndex(TypeDefinitionIndex(3502))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2567))
 // CS Name: ::System::RuntimeType*
 class CORDL_TYPE RuntimeType : public ::System::Reflection::TypeInfo {
@@ -278,13 +278,13 @@ public:
   using MemberListType = ::System::__RuntimeType__MemberListType;
 
   /// @brief Field type_info, offset 0x18, size 0x8
-  __declspec(property(get = __get_type_info, put = __set_type_info))::System::MonoTypeInfo* type_info;
+  __declspec(property(get = __cordl_internal_get_type_info, put = __cordl_internal_set_type_info))::System::MonoTypeInfo* type_info;
 
   /// @brief Field GenericCache, offset 0x20, size 0x8
-  __declspec(property(get = __get_GenericCache, put = __set_GenericCache))::System::Object* GenericCache;
+  __declspec(property(get = __cordl_internal_get_GenericCache, put = __cordl_internal_set_GenericCache))::System::Object* GenericCache;
 
   /// @brief Field m_serializationCtor, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_serializationCtor, put = __set_m_serializationCtor))::System::Reflection::RuntimeConstructorInfo* m_serializationCtor;
+  __declspec(property(get = __cordl_internal_get_m_serializationCtor, put = __cordl_internal_set_m_serializationCtor))::System::Reflection::RuntimeConstructorInfo* m_serializationCtor;
 
   /// @brief Field ValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ValueType, put = setStaticF_ValueType))::System::RuntimeType* ValueType;
@@ -374,23 +374,23 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::MonoTypeInfo*& __get_type_info();
+  constexpr ::System::MonoTypeInfo*& __cordl_internal_get_type_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MonoTypeInfo*> const& __get_type_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::MonoTypeInfo*> const& __cordl_internal_get_type_info() const;
 
-  constexpr void __set_type_info(::System::MonoTypeInfo* value);
+  constexpr void __cordl_internal_set_type_info(::System::MonoTypeInfo* value);
 
-  constexpr ::System::Object*& __get_GenericCache();
+  constexpr ::System::Object*& __cordl_internal_get_GenericCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_GenericCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_GenericCache() const;
 
-  constexpr void __set_GenericCache(::System::Object* value);
+  constexpr void __cordl_internal_set_GenericCache(::System::Object* value);
 
-  constexpr ::System::Reflection::RuntimeConstructorInfo*& __get_m_serializationCtor();
+  constexpr ::System::Reflection::RuntimeConstructorInfo*& __cordl_internal_get_m_serializationCtor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeConstructorInfo*> const& __get_m_serializationCtor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeConstructorInfo*> const& __cordl_internal_get_m_serializationCtor() const;
 
-  constexpr void __set_m_serializationCtor(::System::Reflection::RuntimeConstructorInfo* value);
+  constexpr void __cordl_internal_set_m_serializationCtor(::System::Reflection::RuntimeConstructorInfo* value);
 
   static inline void setStaticF_ValueType(::System::RuntimeType* value);
 

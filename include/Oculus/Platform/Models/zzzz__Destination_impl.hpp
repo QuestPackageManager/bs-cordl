@@ -8,56 +8,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x27040b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::Destination*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::Destination*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Oculus::Platform::Models::Destination::__get_ApiName() {
+constexpr ::StringW& Oculus::Platform::Models::Destination::__cordl_internal_get_ApiName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApiName;
 }
-constexpr ::StringW const& Oculus::Platform::Models::Destination::__get_ApiName() const {
+constexpr ::StringW const& Oculus::Platform::Models::Destination::__cordl_internal_get_ApiName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApiName;
 }
-constexpr void Oculus::Platform::Models::Destination::__set_ApiName(::StringW value) {
+constexpr void Oculus::Platform::Models::Destination::__cordl_internal_set_ApiName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ApiName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Oculus::Platform::Models::Destination::__get_DeeplinkMessage() {
+constexpr ::StringW& Oculus::Platform::Models::Destination::__cordl_internal_get_DeeplinkMessage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeeplinkMessage;
 }
-constexpr ::StringW const& Oculus::Platform::Models::Destination::__get_DeeplinkMessage() const {
+constexpr ::StringW const& Oculus::Platform::Models::Destination::__cordl_internal_get_DeeplinkMessage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeeplinkMessage;
 }
-constexpr void Oculus::Platform::Models::Destination::__set_DeeplinkMessage(::StringW value) {
+constexpr void Oculus::Platform::Models::Destination::__cordl_internal_set_DeeplinkMessage(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DeeplinkMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Oculus::Platform::Models::Destination::__get_DisplayName() {
+constexpr ::StringW& Oculus::Platform::Models::Destination::__cordl_internal_get_DisplayName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisplayName;
 }
-constexpr ::StringW const& Oculus::Platform::Models::Destination::__get_DisplayName() const {
+constexpr ::StringW const& Oculus::Platform::Models::Destination::__cordl_internal_get_DisplayName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisplayName;
 }
-constexpr void Oculus::Platform::Models::Destination::__set_DisplayName(::StringW value) {
+constexpr void Oculus::Platform::Models::Destination::__cordl_internal_set_DisplayName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::Destination* Oculus::Platform::Models::Destination::New_ctor(void* o) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Oculus::Platform::Models::Destination*>(o));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::Destination*>(o));
 }
 inline void Oculus::Platform::Models::Destination::_ctor(void* o) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::Destination*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::Destination*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
 }
 // Ctor Parameters []

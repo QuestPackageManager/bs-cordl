@@ -48,192 +48,194 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRExternalComposition);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7504))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7504))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7507))
 // CS Name: ::OVRExternalComposition*
 class CORDL_TYPE OVRExternalComposition : public ::GlobalNamespace::OVRComposition {
 public:
   // Declarations
   /// @brief Field previousMainCameraObject, offset 0x40, size 0x8
-  __declspec(property(get = __get_previousMainCameraObject, put = __set_previousMainCameraObject))::UnityEngine::GameObject* previousMainCameraObject;
+  __declspec(property(get = __cordl_internal_get_previousMainCameraObject, put = __cordl_internal_set_previousMainCameraObject))::UnityW<::UnityEngine::GameObject> previousMainCameraObject;
 
   /// @brief Field foregroundCameraGameObject, offset 0x48, size 0x8
-  __declspec(property(get = __get_foregroundCameraGameObject, put = __set_foregroundCameraGameObject))::UnityEngine::GameObject* foregroundCameraGameObject;
+  __declspec(property(get = __cordl_internal_get_foregroundCameraGameObject, put = __cordl_internal_set_foregroundCameraGameObject))::UnityW<::UnityEngine::GameObject> foregroundCameraGameObject;
 
   /// @brief Field foregroundCamera, offset 0x50, size 0x8
-  __declspec(property(get = __get_foregroundCamera, put = __set_foregroundCamera))::UnityEngine::Camera* foregroundCamera;
+  __declspec(property(get = __cordl_internal_get_foregroundCamera, put = __cordl_internal_set_foregroundCamera))::UnityW<::UnityEngine::Camera> foregroundCamera;
 
   /// @brief Field backgroundCameraGameObject, offset 0x58, size 0x8
-  __declspec(property(get = __get_backgroundCameraGameObject, put = __set_backgroundCameraGameObject))::UnityEngine::GameObject* backgroundCameraGameObject;
+  __declspec(property(get = __cordl_internal_get_backgroundCameraGameObject, put = __cordl_internal_set_backgroundCameraGameObject))::UnityW<::UnityEngine::GameObject> backgroundCameraGameObject;
 
   /// @brief Field backgroundCamera, offset 0x60, size 0x8
-  __declspec(property(get = __get_backgroundCamera, put = __set_backgroundCamera))::UnityEngine::Camera* backgroundCamera;
+  __declspec(property(get = __cordl_internal_get_backgroundCamera, put = __cordl_internal_set_backgroundCamera))::UnityW<::UnityEngine::Camera> backgroundCamera;
 
   /// @brief Field skipFrame, offset 0x68, size 0x1
-  __declspec(property(get = __get_skipFrame, put = __set_skipFrame)) bool skipFrame;
+  __declspec(property(get = __cordl_internal_get_skipFrame, put = __cordl_internal_set_skipFrame)) bool skipFrame;
 
   /// @brief Field fpsThreshold, offset 0x6c, size 0x4
-  __declspec(property(get = __get_fpsThreshold, put = __set_fpsThreshold)) float_t fpsThreshold;
+  __declspec(property(get = __cordl_internal_get_fpsThreshold, put = __cordl_internal_set_fpsThreshold)) float_t fpsThreshold;
 
   /// @brief Field isFrameSkipped, offset 0x70, size 0x1
-  __declspec(property(get = __get_isFrameSkipped, put = __set_isFrameSkipped)) bool isFrameSkipped;
+  __declspec(property(get = __cordl_internal_get_isFrameSkipped, put = __cordl_internal_set_isFrameSkipped)) bool isFrameSkipped;
 
   /// @brief Field renderCombinedFrame, offset 0x71, size 0x1
-  __declspec(property(get = __get_renderCombinedFrame, put = __set_renderCombinedFrame)) bool renderCombinedFrame;
+  __declspec(property(get = __cordl_internal_get_renderCombinedFrame, put = __cordl_internal_set_renderCombinedFrame)) bool renderCombinedFrame;
 
   /// @brief Field audioListener, offset 0x78, size 0x8
-  __declspec(property(get = __get_audioListener, put = __set_audioListener))::UnityEngine::AudioListener* audioListener;
+  __declspec(property(get = __cordl_internal_get_audioListener, put = __cordl_internal_set_audioListener))::UnityW<::UnityEngine::AudioListener> audioListener;
 
   /// @brief Field audioFilter, offset 0x80, size 0x8
-  __declspec(property(get = __get_audioFilter, put = __set_audioFilter))::GlobalNamespace::OVRMRAudioFilter* audioFilter;
+  __declspec(property(get = __cordl_internal_get_audioFilter, put = __cordl_internal_set_audioFilter))::UnityW<::GlobalNamespace::OVRMRAudioFilter> audioFilter;
 
   /// @brief Field mrcRenderTextureArray, offset 0x88, size 0x8
-  __declspec(property(get = __get_mrcRenderTextureArray, put = __set_mrcRenderTextureArray))::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> mrcRenderTextureArray;
+  __declspec(property(get = __cordl_internal_get_mrcRenderTextureArray,
+                      put = __cordl_internal_set_mrcRenderTextureArray))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> mrcRenderTextureArray;
 
   /// @brief Field frameIndex, offset 0x90, size 0x4
-  __declspec(property(get = __get_frameIndex, put = __set_frameIndex)) int32_t frameIndex;
+  __declspec(property(get = __cordl_internal_get_frameIndex, put = __cordl_internal_set_frameIndex)) int32_t frameIndex;
 
   /// @brief Field lastMrcEncodeFrameSyncId, offset 0x94, size 0x4
-  __declspec(property(get = __get_lastMrcEncodeFrameSyncId, put = __set_lastMrcEncodeFrameSyncId)) int32_t lastMrcEncodeFrameSyncId;
+  __declspec(property(get = __cordl_internal_get_lastMrcEncodeFrameSyncId, put = __cordl_internal_set_lastMrcEncodeFrameSyncId)) int32_t lastMrcEncodeFrameSyncId;
 
   /// @brief Field mrcForegroundRenderTextureArray, offset 0x98, size 0x8
-  __declspec(property(get = __get_mrcForegroundRenderTextureArray,
-                      put = __set_mrcForegroundRenderTextureArray))::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> mrcForegroundRenderTextureArray;
+  __declspec(property(
+      get = __cordl_internal_get_mrcForegroundRenderTextureArray,
+      put = __cordl_internal_set_mrcForegroundRenderTextureArray))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> mrcForegroundRenderTextureArray;
 
   /// @brief Field cameraPoseTimeArray, offset 0xa0, size 0x8
-  __declspec(property(get = __get_cameraPoseTimeArray, put = __set_cameraPoseTimeArray))::ArrayW<double_t, ::Array<double_t>*> cameraPoseTimeArray;
+  __declspec(property(get = __cordl_internal_get_cameraPoseTimeArray, put = __cordl_internal_set_cameraPoseTimeArray))::ArrayW<double_t, ::Array<double_t>*> cameraPoseTimeArray;
 
   /// @brief Field cachedAudioDataArray, offset 0xa8, size 0x8
-  __declspec(property(get = __get_cachedAudioDataArray, put = __set_cachedAudioDataArray))::ArrayW<float_t, ::Array<float_t>*> cachedAudioDataArray;
+  __declspec(property(get = __cordl_internal_get_cachedAudioDataArray, put = __cordl_internal_set_cachedAudioDataArray))::ArrayW<float_t, ::Array<float_t>*> cachedAudioDataArray;
 
   /// @brief Field audioDataLock, offset 0xb0, size 0x8
-  __declspec(property(get = __get_audioDataLock, put = __set_audioDataLock))::System::Object* audioDataLock;
+  __declspec(property(get = __cordl_internal_get_audioDataLock, put = __cordl_internal_set_audioDataLock))::System::Object* audioDataLock;
 
   /// @brief Field cachedAudioData, offset 0xb8, size 0x8
-  __declspec(property(get = __get_cachedAudioData, put = __set_cachedAudioData))::System::Collections::Generic::List_1<float_t>* cachedAudioData;
+  __declspec(property(get = __cordl_internal_get_cachedAudioData, put = __cordl_internal_set_cachedAudioData))::System::Collections::Generic::List_1<float_t>* cachedAudioData;
 
   /// @brief Field cachedChannels, offset 0xc0, size 0x4
-  __declspec(property(get = __get_cachedChannels, put = __set_cachedChannels)) int32_t cachedChannels;
+  __declspec(property(get = __cordl_internal_get_cachedChannels, put = __cordl_internal_set_cachedChannels)) int32_t cachedChannels;
 
-  constexpr ::UnityEngine::GameObject*& __get_previousMainCameraObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_previousMainCameraObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_previousMainCameraObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_previousMainCameraObject() const;
 
-  constexpr void __set_previousMainCameraObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_previousMainCameraObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_foregroundCameraGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_foregroundCameraGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_foregroundCameraGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_foregroundCameraGameObject() const;
 
-  constexpr void __set_foregroundCameraGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_foregroundCameraGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Camera*& __get_foregroundCamera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_foregroundCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get_foregroundCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_foregroundCamera() const;
 
-  constexpr void __set_foregroundCamera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set_foregroundCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_backgroundCameraGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_backgroundCameraGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_backgroundCameraGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_backgroundCameraGameObject() const;
 
-  constexpr void __set_backgroundCameraGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_backgroundCameraGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Camera*& __get_backgroundCamera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_backgroundCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get_backgroundCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_backgroundCamera() const;
 
-  constexpr void __set_backgroundCamera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set_backgroundCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr bool& __get_skipFrame();
+  constexpr bool& __cordl_internal_get_skipFrame();
 
-  constexpr bool const& __get_skipFrame() const;
+  constexpr bool const& __cordl_internal_get_skipFrame() const;
 
-  constexpr void __set_skipFrame(bool value);
+  constexpr void __cordl_internal_set_skipFrame(bool value);
 
-  constexpr float_t& __get_fpsThreshold();
+  constexpr float_t& __cordl_internal_get_fpsThreshold();
 
-  constexpr float_t const& __get_fpsThreshold() const;
+  constexpr float_t const& __cordl_internal_get_fpsThreshold() const;
 
-  constexpr void __set_fpsThreshold(float_t value);
+  constexpr void __cordl_internal_set_fpsThreshold(float_t value);
 
-  constexpr bool& __get_isFrameSkipped();
+  constexpr bool& __cordl_internal_get_isFrameSkipped();
 
-  constexpr bool const& __get_isFrameSkipped() const;
+  constexpr bool const& __cordl_internal_get_isFrameSkipped() const;
 
-  constexpr void __set_isFrameSkipped(bool value);
+  constexpr void __cordl_internal_set_isFrameSkipped(bool value);
 
-  constexpr bool& __get_renderCombinedFrame();
+  constexpr bool& __cordl_internal_get_renderCombinedFrame();
 
-  constexpr bool const& __get_renderCombinedFrame() const;
+  constexpr bool const& __cordl_internal_get_renderCombinedFrame() const;
 
-  constexpr void __set_renderCombinedFrame(bool value);
+  constexpr void __cordl_internal_set_renderCombinedFrame(bool value);
 
-  constexpr ::UnityEngine::AudioListener*& __get_audioListener();
+  constexpr ::UnityW<::UnityEngine::AudioListener>& __cordl_internal_get_audioListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioListener*> const& __get_audioListener() const;
+  constexpr ::UnityW<::UnityEngine::AudioListener> const& __cordl_internal_get_audioListener() const;
 
-  constexpr void __set_audioListener(::UnityEngine::AudioListener* value);
+  constexpr void __cordl_internal_set_audioListener(::UnityW<::UnityEngine::AudioListener> value);
 
-  constexpr ::GlobalNamespace::OVRMRAudioFilter*& __get_audioFilter();
+  constexpr ::UnityW<::GlobalNamespace::OVRMRAudioFilter>& __cordl_internal_get_audioFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRMRAudioFilter*> const& __get_audioFilter() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRMRAudioFilter> const& __cordl_internal_get_audioFilter() const;
 
-  constexpr void __set_audioFilter(::GlobalNamespace::OVRMRAudioFilter* value);
+  constexpr void __cordl_internal_set_audioFilter(::UnityW<::GlobalNamespace::OVRMRAudioFilter> value);
 
-  constexpr ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*>& __get_mrcRenderTextureArray();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get_mrcRenderTextureArray();
 
-  constexpr ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> const& __get_mrcRenderTextureArray() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get_mrcRenderTextureArray() const;
 
-  constexpr void __set_mrcRenderTextureArray(::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> value);
+  constexpr void __cordl_internal_set_mrcRenderTextureArray(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
 
-  constexpr int32_t& __get_frameIndex();
+  constexpr int32_t& __cordl_internal_get_frameIndex();
 
-  constexpr int32_t const& __get_frameIndex() const;
+  constexpr int32_t const& __cordl_internal_get_frameIndex() const;
 
-  constexpr void __set_frameIndex(int32_t value);
+  constexpr void __cordl_internal_set_frameIndex(int32_t value);
 
-  constexpr int32_t& __get_lastMrcEncodeFrameSyncId();
+  constexpr int32_t& __cordl_internal_get_lastMrcEncodeFrameSyncId();
 
-  constexpr int32_t const& __get_lastMrcEncodeFrameSyncId() const;
+  constexpr int32_t const& __cordl_internal_get_lastMrcEncodeFrameSyncId() const;
 
-  constexpr void __set_lastMrcEncodeFrameSyncId(int32_t value);
+  constexpr void __cordl_internal_set_lastMrcEncodeFrameSyncId(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*>& __get_mrcForegroundRenderTextureArray();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get_mrcForegroundRenderTextureArray();
 
-  constexpr ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> const& __get_mrcForegroundRenderTextureArray() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get_mrcForegroundRenderTextureArray() const;
 
-  constexpr void __set_mrcForegroundRenderTextureArray(::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> value);
+  constexpr void __cordl_internal_set_mrcForegroundRenderTextureArray(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
 
-  constexpr ::ArrayW<double_t, ::Array<double_t>*>& __get_cameraPoseTimeArray();
+  constexpr ::ArrayW<double_t, ::Array<double_t>*>& __cordl_internal_get_cameraPoseTimeArray();
 
-  constexpr ::ArrayW<double_t, ::Array<double_t>*> const& __get_cameraPoseTimeArray() const;
+  constexpr ::ArrayW<double_t, ::Array<double_t>*> const& __cordl_internal_get_cameraPoseTimeArray() const;
 
-  constexpr void __set_cameraPoseTimeArray(::ArrayW<double_t, ::Array<double_t>*> value);
+  constexpr void __cordl_internal_set_cameraPoseTimeArray(::ArrayW<double_t, ::Array<double_t>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_cachedAudioDataArray();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_cachedAudioDataArray();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_cachedAudioDataArray() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_cachedAudioDataArray() const;
 
-  constexpr void __set_cachedAudioDataArray(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_cachedAudioDataArray(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::System::Object*& __get_audioDataLock();
+  constexpr ::System::Object*& __cordl_internal_get_audioDataLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_audioDataLock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_audioDataLock() const;
 
-  constexpr void __set_audioDataLock(::System::Object* value);
+  constexpr void __cordl_internal_set_audioDataLock(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __get_cachedAudioData();
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_cachedAudioData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __get_cachedAudioData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get_cachedAudioData() const;
 
-  constexpr void __set_cachedAudioData(::System::Collections::Generic::List_1<float_t>* value);
+  constexpr void __cordl_internal_set_cachedAudioData(::System::Collections::Generic::List_1<float_t>* value);
 
-  constexpr int32_t& __get_cachedChannels();
+  constexpr int32_t& __cordl_internal_get_cachedChannels();
 
-  constexpr int32_t const& __get_cachedChannels() const;
+  constexpr int32_t const& __cordl_internal_get_cachedChannels() const;
 
-  constexpr void __set_cachedChannels(int32_t value);
+  constexpr void __cordl_internal_set_cachedChannels(int32_t value);
 
   /// @brief Method CompositionMethod, addr 0x270df20, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__OVRManager__CompositionMethod CompositionMethod();
@@ -290,19 +292,19 @@ protected:
 
 public:
   /// @brief Field previousMainCameraObject, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___previousMainCameraObject;
+  ::UnityW<::UnityEngine::GameObject> ___previousMainCameraObject;
 
   /// @brief Field foregroundCameraGameObject, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___foregroundCameraGameObject;
+  ::UnityW<::UnityEngine::GameObject> ___foregroundCameraGameObject;
 
   /// @brief Field foregroundCamera, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Camera* ___foregroundCamera;
+  ::UnityW<::UnityEngine::Camera> ___foregroundCamera;
 
   /// @brief Field backgroundCameraGameObject, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___backgroundCameraGameObject;
+  ::UnityW<::UnityEngine::GameObject> ___backgroundCameraGameObject;
 
   /// @brief Field backgroundCamera, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Camera* ___backgroundCamera;
+  ::UnityW<::UnityEngine::Camera> ___backgroundCamera;
 
   /// @brief Field skipFrame, offset: 0x68, size: 0x1, def value: None
   bool ___skipFrame;
@@ -317,13 +319,13 @@ public:
   bool ___renderCombinedFrame;
 
   /// @brief Field audioListener, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::AudioListener* ___audioListener;
+  ::UnityW<::UnityEngine::AudioListener> ___audioListener;
 
   /// @brief Field audioFilter, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::OVRMRAudioFilter* ___audioFilter;
+  ::UnityW<::GlobalNamespace::OVRMRAudioFilter> ___audioFilter;
 
   /// @brief Field mrcRenderTextureArray, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> ___mrcRenderTextureArray;
+  ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ___mrcRenderTextureArray;
 
   /// @brief Field frameIndex, offset: 0x90, size: 0x4, def value: None
   int32_t ___frameIndex;
@@ -332,7 +334,7 @@ public:
   int32_t ___lastMrcEncodeFrameSyncId;
 
   /// @brief Field mrcForegroundRenderTextureArray, offset: 0x98, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> ___mrcForegroundRenderTextureArray;
+  ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ___mrcForegroundRenderTextureArray;
 
   /// @brief Field cameraPoseTimeArray, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<double_t, ::Array<double_t>*> ___cameraPoseTimeArray;

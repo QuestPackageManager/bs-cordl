@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RIPEMD160Managed);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2953))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2953))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2954))
 // CS Name: ::System.Security.Cryptography::RIPEMD160Managed*
 class CORDL_TYPE RIPEMD160Managed : public ::System::Security::Cryptography::RIPEMD160 {
 public:
   // Declarations
   /// @brief Field _buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _count, offset 0x30, size 0x8
-  __declspec(property(get = __get__count, put = __set__count)) int64_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int64_t _count;
 
   /// @brief Field _stateMD160, offset 0x38, size 0x8
-  __declspec(property(get = __get__stateMD160, put = __set__stateMD160))::ArrayW<uint32_t, ::Array<uint32_t>*> _stateMD160;
+  __declspec(property(get = __cordl_internal_get__stateMD160, put = __cordl_internal_set__stateMD160))::ArrayW<uint32_t, ::Array<uint32_t>*> _stateMD160;
 
   /// @brief Field _blockDWords, offset 0x40, size 0x8
-  __declspec(property(get = __get__blockDWords, put = __set__blockDWords))::ArrayW<uint32_t, ::Array<uint32_t>*> _blockDWords;
+  __declspec(property(get = __cordl_internal_get__blockDWords, put = __cordl_internal_set__blockDWords))::ArrayW<uint32_t, ::Array<uint32_t>*> _blockDWords;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int64_t& __get__count();
+  constexpr int64_t& __cordl_internal_get__count();
 
-  constexpr int64_t const& __get__count() const;
+  constexpr int64_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int64_t value);
+  constexpr void __cordl_internal_set__count(int64_t value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__stateMD160();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__stateMD160();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__stateMD160() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__stateMD160() const;
 
-  constexpr void __set__stateMD160(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__stateMD160(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__blockDWords();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__blockDWords();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__blockDWords() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__blockDWords() const;
 
-  constexpr void __set__blockDWords(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__blockDWords(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline ::System::Security::Cryptography::RIPEMD160Managed* New_ctor();
 

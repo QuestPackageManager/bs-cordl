@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::Ssl3Mac);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1283))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::Ssl3Mac*
 class CORDL_TYPE Ssl3Mac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field padLength, offset 0x18, size 0x4
-  __declspec(property(get = __get_padLength, put = __set_padLength)) int32_t padLength;
+  __declspec(property(get = __cordl_internal_get_padLength, put = __cordl_internal_set_padLength)) int32_t padLength;
 
   /// @brief Field secret, offset 0x20, size 0x8
-  __declspec(property(get = __get_secret, put = __set_secret))::ArrayW<uint8_t, ::Array<uint8_t>*> secret;
+  __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret))::ArrayW<uint8_t, ::Array<uint8_t>*> secret;
 
   /// @brief Field IPAD, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IPAD, put = setStaticF_IPAD))::ArrayW<uint8_t, ::Array<uint8_t>*> IPAD;
@@ -55,23 +55,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr int32_t& __get_padLength();
+  constexpr int32_t& __cordl_internal_get_padLength();
 
-  constexpr int32_t const& __get_padLength() const;
+  constexpr int32_t const& __cordl_internal_get_padLength() const;
 
-  constexpr void __set_padLength(int32_t value);
+  constexpr void __cordl_internal_set_padLength(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_secret();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_secret();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_secret() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_secret() const;
 
-  constexpr void __set_secret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_secret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_IPAD(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

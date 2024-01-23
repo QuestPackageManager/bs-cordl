@@ -18,7 +18,7 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12453))
 // CS Name: ::TMPro::TMP_TextProcessingStack`1<T>
 struct CORDL_TYPE TMP_TextProcessingStack_1 {

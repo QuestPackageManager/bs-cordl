@@ -27,33 +27,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4972))
 // CS Name: ::VideoProjectionDataModelSO::VideoClipWithId*
 class CORDL_TYPE __VideoProjectionDataModelSO__VideoClipWithId : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _id, offset 0x10, size 0x4
-  __declspec(property(get = __get__id, put = __set__id)) int32_t _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
   /// @brief Field _videoAssetReference, offset 0x18, size 0x8
-  __declspec(property(get = __get__videoAssetReference, put = __set__videoAssetReference))::UnityEngine::AddressableAssets::AssetReference* _videoAssetReference;
+  __declspec(property(get = __cordl_internal_get__videoAssetReference, put = __cordl_internal_set__videoAssetReference))::UnityEngine::AddressableAssets::AssetReference* _videoAssetReference;
 
   __declspec(property(get = get_id)) int32_t id;
 
   __declspec(property(get = get_videoAssetReference))::UnityEngine::AddressableAssets::AssetReference* videoAssetReference;
 
-  constexpr int32_t& __get__id();
+  constexpr int32_t& __cordl_internal_get__id();
 
-  constexpr int32_t const& __get__id() const;
+  constexpr int32_t const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(int32_t value);
+  constexpr void __cordl_internal_set__id(int32_t value);
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReference*& __get__videoAssetReference();
+  constexpr ::UnityEngine::AddressableAssets::AssetReference*& __cordl_internal_get__videoAssetReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __get__videoAssetReference() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __cordl_internal_get__videoAssetReference() const;
 
-  constexpr void __set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
+  constexpr void __cordl_internal_set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
   /// @brief Method get_id, addr 0x23b2e4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
@@ -100,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionDataModelSO__VideoCli
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4973))
 // CS Name: ::VideoProjectionDataModelSO*
 class CORDL_TYPE VideoProjectionDataModelSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -109,19 +109,21 @@ public:
   using VideoClipWithId = ::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId;
 
   /// @brief Field _videoClipsWithId, offset 0x18, size 0x8
-  __declspec(property(get = __get__videoClipsWithId, put = __set__videoClipsWithId))::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*,
-                                                                                             ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> _videoClipsWithId;
+  __declspec(property(get = __cordl_internal_get__videoClipsWithId,
+                      put = __cordl_internal_set__videoClipsWithId))::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*,
+                                                                             ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> _videoClipsWithId;
 
   __declspec(property(get = get_videoClipWithIds))::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*,
                                                            ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> videoClipWithIds;
 
-  constexpr ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*>& __get__videoClipsWithId();
+  constexpr ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*>&
+  __cordl_internal_get__videoClipsWithId();
 
   constexpr ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> const&
-  __get__videoClipsWithId() const;
+  __cordl_internal_get__videoClipsWithId() const;
 
-  constexpr void
-  __set__videoClipsWithId(::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> value);
+  constexpr void __cordl_internal_set__videoClipsWithId(
+      ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> value);
 
   /// @brief Method get_videoClipWithIds, addr 0x23b2e3c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> get_videoClipWithIds();

@@ -51,29 +51,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__Threefis
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(875))
 // CS Name: ::ThreefishEngine::ThreefishCipher*
 class CORDL_TYPE __ThreefishEngine__ThreefishCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field t, offset 0x10, size 0x8
-  __declspec(property(get = __get_t, put = __set_t))::ArrayW<uint64_t, ::Array<uint64_t>*> t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::ArrayW<uint64_t, ::Array<uint64_t>*> t;
 
   /// @brief Field kw, offset 0x18, size 0x8
-  __declspec(property(get = __get_kw, put = __set_kw))::ArrayW<uint64_t, ::Array<uint64_t>*> kw;
+  __declspec(property(get = __cordl_internal_get_kw, put = __cordl_internal_set_kw))::ArrayW<uint64_t, ::Array<uint64_t>*> kw;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_t();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_t();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_t() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_t() const;
 
-  constexpr void __set_t(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_t(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_kw();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_kw();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_kw() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_kw() const;
 
-  constexpr void __set_kw(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_kw(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
@@ -120,7 +120,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(875))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(875))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(876))
 // CS Name: ::ThreefishEngine::Threefish256Cipher*
 class CORDL_TYPE __ThreefishEngine__Threefish256Cipher : public ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher {
@@ -209,7 +209,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engin
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(875))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(875))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(877))
 // CS Name: ::ThreefishEngine::Threefish512Cipher*
 class CORDL_TYPE __ThreefishEngine__Threefish512Cipher : public ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher {
@@ -346,7 +346,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engin
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(875))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(875))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(878))
 // CS Name: ::ThreefishEngine::Threefish1024Cipher*
 class CORDL_TYPE __ThreefishEngine__Threefish1024Cipher : public ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher {
@@ -579,7 +579,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engin
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(879))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::ThreefishEngine*
 class CORDL_TYPE ThreefishEngine : public ::System::Object {
@@ -594,25 +594,25 @@ public:
   using ThreefishCipher = ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher;
 
   /// @brief Field blocksizeBytes, offset 0x10, size 0x4
-  __declspec(property(get = __get_blocksizeBytes, put = __set_blocksizeBytes)) int32_t blocksizeBytes;
+  __declspec(property(get = __cordl_internal_get_blocksizeBytes, put = __cordl_internal_set_blocksizeBytes)) int32_t blocksizeBytes;
 
   /// @brief Field blocksizeWords, offset 0x14, size 0x4
-  __declspec(property(get = __get_blocksizeWords, put = __set_blocksizeWords)) int32_t blocksizeWords;
+  __declspec(property(get = __cordl_internal_get_blocksizeWords, put = __cordl_internal_set_blocksizeWords)) int32_t blocksizeWords;
 
   /// @brief Field currentBlock, offset 0x18, size 0x8
-  __declspec(property(get = __get_currentBlock, put = __set_currentBlock))::ArrayW<uint64_t, ::Array<uint64_t>*> currentBlock;
+  __declspec(property(get = __cordl_internal_get_currentBlock, put = __cordl_internal_set_currentBlock))::ArrayW<uint64_t, ::Array<uint64_t>*> currentBlock;
 
   /// @brief Field t, offset 0x20, size 0x8
-  __declspec(property(get = __get_t, put = __set_t))::ArrayW<uint64_t, ::Array<uint64_t>*> t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::ArrayW<uint64_t, ::Array<uint64_t>*> t;
 
   /// @brief Field kw, offset 0x28, size 0x8
-  __declspec(property(get = __get_kw, put = __set_kw))::ArrayW<uint64_t, ::Array<uint64_t>*> kw;
+  __declspec(property(get = __cordl_internal_get_kw, put = __cordl_internal_set_kw))::ArrayW<uint64_t, ::Array<uint64_t>*> kw;
 
   /// @brief Field cipher, offset 0x30, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher* cipher;
 
   /// @brief Field forEncryption, offset 0x38, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field MOD9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MOD9, put = setStaticF_MOD9))::ArrayW<int32_t, ::Array<int32_t>*> MOD9;
@@ -636,47 +636,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr int32_t& __get_blocksizeBytes();
+  constexpr int32_t& __cordl_internal_get_blocksizeBytes();
 
-  constexpr int32_t const& __get_blocksizeBytes() const;
+  constexpr int32_t const& __cordl_internal_get_blocksizeBytes() const;
 
-  constexpr void __set_blocksizeBytes(int32_t value);
+  constexpr void __cordl_internal_set_blocksizeBytes(int32_t value);
 
-  constexpr int32_t& __get_blocksizeWords();
+  constexpr int32_t& __cordl_internal_get_blocksizeWords();
 
-  constexpr int32_t const& __get_blocksizeWords() const;
+  constexpr int32_t const& __cordl_internal_get_blocksizeWords() const;
 
-  constexpr void __set_blocksizeWords(int32_t value);
+  constexpr void __cordl_internal_set_blocksizeWords(int32_t value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_currentBlock();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_currentBlock();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_currentBlock() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_currentBlock() const;
 
-  constexpr void __set_currentBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_currentBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_t();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_t();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_t() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_t() const;
 
-  constexpr void __set_t(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_t(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_kw();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_kw();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_kw() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_kw() const;
 
-  constexpr void __set_kw(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_kw(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher* value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
   static inline void setStaticF_MOD9(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

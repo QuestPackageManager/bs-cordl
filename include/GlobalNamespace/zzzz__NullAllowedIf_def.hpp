@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::GlobalNamespace::NullAllowedIf);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16252)), TypeDefinitionIndex(TypeDefinitionIndex(16247))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16247)), TypeDefinitionIndex(TypeDefinitionIndex(16252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16253))
 // CS Name: ::NullAllowedIf*
 class CORDL_TYPE NullAllowedIf : public ::GlobalNamespace::NullAllowed {
 public:
   // Declarations
   /// @brief Field propertyName, offset 0x18, size 0x8
-  __declspec(property(get = __get_propertyName, put = __set_propertyName))::StringW propertyName;
+  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
   /// @brief Field _valueToCompare, offset 0x20, size 0x8
-  __declspec(property(get = __get__valueToCompare, put = __set__valueToCompare))::System::Object* _valueToCompare;
+  __declspec(property(get = __cordl_internal_get__valueToCompare, put = __cordl_internal_set__valueToCompare))::System::Object* _valueToCompare;
 
   /// @brief Field _comparisonOperation, offset 0x28, size 0x4
-  __declspec(property(get = __get__comparisonOperation, put = __set__comparisonOperation))::GlobalNamespace::ComparisonOperation _comparisonOperation;
+  __declspec(property(get = __cordl_internal_get__comparisonOperation, put = __cordl_internal_set__comparisonOperation))::GlobalNamespace::ComparisonOperation _comparisonOperation;
 
-  constexpr ::StringW& __get_propertyName();
+  constexpr ::StringW& __cordl_internal_get_propertyName();
 
-  constexpr ::StringW const& __get_propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
 
-  constexpr void __set_propertyName(::StringW value);
+  constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  constexpr ::System::Object*& __get__valueToCompare();
+  constexpr ::System::Object*& __cordl_internal_get__valueToCompare();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__valueToCompare() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__valueToCompare() const;
 
-  constexpr void __set__valueToCompare(::System::Object* value);
+  constexpr void __cordl_internal_set__valueToCompare(::System::Object* value);
 
-  constexpr ::GlobalNamespace::ComparisonOperation& __get__comparisonOperation();
+  constexpr ::GlobalNamespace::ComparisonOperation& __cordl_internal_get__comparisonOperation();
 
-  constexpr ::GlobalNamespace::ComparisonOperation const& __get__comparisonOperation() const;
+  constexpr ::GlobalNamespace::ComparisonOperation const& __cordl_internal_get__comparisonOperation() const;
 
-  constexpr void __set__comparisonOperation(::GlobalNamespace::ComparisonOperation value);
+  constexpr void __cordl_internal_set__comparisonOperation(::GlobalNamespace::ComparisonOperation value);
 
   static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context);
 

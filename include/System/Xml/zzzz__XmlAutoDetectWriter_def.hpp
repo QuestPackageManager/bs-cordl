@@ -44,69 +44,69 @@ MARK_REF_PTR_T(::System::Xml::XmlAutoDetectWriter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11455))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11448))
 // CS Name: ::System.Xml::XmlAutoDetectWriter*
 class CORDL_TYPE XmlAutoDetectWriter : public ::System::Xml::XmlRawWriter {
 public:
   // Declarations
   /// @brief Field wrapped, offset 0x20, size 0x8
-  __declspec(property(get = __get_wrapped, put = __set_wrapped))::System::Xml::XmlRawWriter* wrapped;
+  __declspec(property(get = __cordl_internal_get_wrapped, put = __cordl_internal_set_wrapped))::System::Xml::XmlRawWriter* wrapped;
 
   /// @brief Field onRemove, offset 0x28, size 0x8
-  __declspec(property(get = __get_onRemove, put = __set_onRemove))::System::Xml::OnRemoveWriter* onRemove;
+  __declspec(property(get = __cordl_internal_get_onRemove, put = __cordl_internal_set_onRemove))::System::Xml::OnRemoveWriter* onRemove;
 
   /// @brief Field writerSettings, offset 0x30, size 0x8
-  __declspec(property(get = __get_writerSettings, put = __set_writerSettings))::System::Xml::XmlWriterSettings* writerSettings;
+  __declspec(property(get = __cordl_internal_get_writerSettings, put = __cordl_internal_set_writerSettings))::System::Xml::XmlWriterSettings* writerSettings;
 
   /// @brief Field eventCache, offset 0x38, size 0x8
-  __declspec(property(get = __get_eventCache, put = __set_eventCache))::System::Xml::XmlEventCache* eventCache;
+  __declspec(property(get = __cordl_internal_get_eventCache, put = __cordl_internal_set_eventCache))::System::Xml::XmlEventCache* eventCache;
 
   /// @brief Field textWriter, offset 0x40, size 0x8
-  __declspec(property(get = __get_textWriter, put = __set_textWriter))::System::IO::TextWriter* textWriter;
+  __declspec(property(get = __cordl_internal_get_textWriter, put = __cordl_internal_set_textWriter))::System::IO::TextWriter* textWriter;
 
   /// @brief Field strm, offset 0x48, size 0x8
-  __declspec(property(get = __get_strm, put = __set_strm))::System::IO::Stream* strm;
+  __declspec(property(get = __cordl_internal_get_strm, put = __cordl_internal_set_strm))::System::IO::Stream* strm;
 
   __declspec(property(put = set_NamespaceResolver))::System::Xml::IXmlNamespaceResolver* NamespaceResolver;
 
   __declspec(property(get = get_SupportsNamespaceDeclarationInChunks)) bool SupportsNamespaceDeclarationInChunks;
 
-  constexpr ::System::Xml::XmlRawWriter*& __get_wrapped();
+  constexpr ::System::Xml::XmlRawWriter*& __cordl_internal_get_wrapped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __get_wrapped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __cordl_internal_get_wrapped() const;
 
-  constexpr void __set_wrapped(::System::Xml::XmlRawWriter* value);
+  constexpr void __cordl_internal_set_wrapped(::System::Xml::XmlRawWriter* value);
 
-  constexpr ::System::Xml::OnRemoveWriter*& __get_onRemove();
+  constexpr ::System::Xml::OnRemoveWriter*& __cordl_internal_get_onRemove();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::OnRemoveWriter*> const& __get_onRemove() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::OnRemoveWriter*> const& __cordl_internal_get_onRemove() const;
 
-  constexpr void __set_onRemove(::System::Xml::OnRemoveWriter* value);
+  constexpr void __cordl_internal_set_onRemove(::System::Xml::OnRemoveWriter* value);
 
-  constexpr ::System::Xml::XmlWriterSettings*& __get_writerSettings();
+  constexpr ::System::Xml::XmlWriterSettings*& __cordl_internal_get_writerSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriterSettings*> const& __get_writerSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriterSettings*> const& __cordl_internal_get_writerSettings() const;
 
-  constexpr void __set_writerSettings(::System::Xml::XmlWriterSettings* value);
+  constexpr void __cordl_internal_set_writerSettings(::System::Xml::XmlWriterSettings* value);
 
-  constexpr ::System::Xml::XmlEventCache*& __get_eventCache();
+  constexpr ::System::Xml::XmlEventCache*& __cordl_internal_get_eventCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlEventCache*> const& __get_eventCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlEventCache*> const& __cordl_internal_get_eventCache() const;
 
-  constexpr void __set_eventCache(::System::Xml::XmlEventCache* value);
+  constexpr void __cordl_internal_set_eventCache(::System::Xml::XmlEventCache* value);
 
-  constexpr ::System::IO::TextWriter*& __get_textWriter();
+  constexpr ::System::IO::TextWriter*& __cordl_internal_get_textWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __get_textWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get_textWriter() const;
 
-  constexpr void __set_textWriter(::System::IO::TextWriter* value);
+  constexpr void __cordl_internal_set_textWriter(::System::IO::TextWriter* value);
 
-  constexpr ::System::IO::Stream*& __get_strm();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_strm();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_strm() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_strm() const;
 
-  constexpr void __set_strm(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_strm(::System::IO::Stream* value);
 
   static inline ::System::Xml::XmlAutoDetectWriter* New_ctor(::System::Xml::XmlWriterSettings* writerSettings);
 

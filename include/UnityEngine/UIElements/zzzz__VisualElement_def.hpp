@@ -377,20 +377,20 @@ MARK_VAL_T(::UnityEngine::UIElements::__VisualElement__Hierarchy);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6942))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6942))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6732))
 // CS Name: ::VisualElement::BaseVisualElementScheduledItem*
 class CORDL_TYPE __VisualElement__BaseVisualElementScheduledItem : public ::UnityEngine::UIElements::ScheduledItem {
 public:
   // Declarations
   /// @brief Field <element>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__element_k__BackingField, put = __set__element_k__BackingField))::UnityEngine::UIElements::VisualElement* _element_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__element_k__BackingField, put = __cordl_internal_set__element_k__BackingField))::UnityEngine::UIElements::VisualElement* _element_k__BackingField;
 
   /// @brief Field isScheduled, offset 0x40, size 0x1
-  __declspec(property(get = __get_isScheduled, put = __set_isScheduled)) bool isScheduled;
+  __declspec(property(get = __cordl_internal_get_isScheduled, put = __cordl_internal_set_isScheduled)) bool isScheduled;
 
   /// @brief Field m_Activator, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Activator, put = __set_m_Activator))::UnityEngine::UIElements::VisualElementPanelActivator* m_Activator;
+  __declspec(property(get = __cordl_internal_get_m_Activator, put = __cordl_internal_set_m_Activator))::UnityEngine::UIElements::VisualElementPanelActivator* m_Activator;
 
   __declspec(property(get = get_element, put = set_element))::UnityEngine::UIElements::VisualElement* element;
 
@@ -406,23 +406,23 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IVisualElementPanelActivatable"
   constexpr ::UnityEngine::UIElements::IVisualElementPanelActivatable* i___UnityEngine__UIElements__IVisualElementPanelActivatable() noexcept;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__element_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__element_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__element_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__element_k__BackingField() const;
 
-  constexpr void __set__element_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__element_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr bool& __get_isScheduled();
+  constexpr bool& __cordl_internal_get_isScheduled();
 
-  constexpr bool const& __get_isScheduled() const;
+  constexpr bool const& __cordl_internal_get_isScheduled() const;
 
-  constexpr void __set_isScheduled(bool value);
+  constexpr void __cordl_internal_set_isScheduled(bool value);
 
-  constexpr ::UnityEngine::UIElements::VisualElementPanelActivator*& __get_m_Activator();
+  constexpr ::UnityEngine::UIElements::VisualElementPanelActivator*& __cordl_internal_get_m_Activator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementPanelActivator*> const& __get_m_Activator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementPanelActivator*> const& __cordl_internal_get_m_Activator() const;
 
-  constexpr void __set_m_Activator(::UnityEngine::UIElements::VisualElementPanelActivator* value);
+  constexpr void __cordl_internal_set_m_Activator(::UnityEngine::UIElements::VisualElementPanelActivator* value);
 
   /// @brief Method get_element, addr 0x2db0338, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_element();
@@ -503,20 +503,20 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename ActionType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6732))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6732))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6733))
 // CS Name: ::VisualElement::VisualElementScheduledItem`1<ActionType>*
 class CORDL_TYPE __VisualElement__VisualElementScheduledItem_1 : public ::UnityEngine::UIElements::__VisualElement__BaseVisualElementScheduledItem {
 public:
   // Declarations
   /// @brief Field updateEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_updateEvent, put = __set_updateEvent)) ActionType updateEvent;
+  __declspec(property(get = __cordl_internal_get_updateEvent, put = __cordl_internal_set_updateEvent)) ActionType updateEvent;
 
-  constexpr ActionType& __get_updateEvent();
+  constexpr ActionType& __cordl_internal_get_updateEvent();
 
-  constexpr ActionType const& __get_updateEvent() const;
+  constexpr ActionType const& __cordl_internal_get_updateEvent() const;
 
-  constexpr void __set_updateEvent(ActionType value);
+  constexpr void __cordl_internal_set_updateEvent(ActionType value);
 
   static inline ::UnityEngine::UIElements::__VisualElement__VisualElementScheduledItem_1<ActionType>* New_ctor(::UnityEngine::UIElements::VisualElement* handler, ActionType upEvent);
 
@@ -548,9 +548,9 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6733), inst: 5351 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 404 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6939)), TypeDefinitionIndex(TypeDefinitionIndex(6733))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6734))
-// CS Name: ::VisualElement::TimerStateScheduledItem*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6733)), TypeDefinitionIndex(TypeDefinitionIndex(6939)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 404 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6733), inst: 5351 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6734)) CS Name: ::VisualElement::TimerStateScheduledItem*
 class CORDL_TYPE __VisualElement__TimerStateScheduledItem
     : public ::UnityEngine::UIElements::__VisualElement__VisualElementScheduledItem_1<::System::Action_1<::UnityEngine::UIElements::TimerState>*> {
 public:
@@ -588,8 +588,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6733)), TypeDefinitionIndex(TypeDefinitionIndex(2322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6733), inst: 1000
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6735)) CS Name: ::VisualElement::SimpleScheduledItem*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2322)), TypeDefinitionIndex(TypeDefinitionIndex(6733)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6733), inst: 1000
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6735)) CS Name: ::VisualElement::SimpleScheduledItem*
 class CORDL_TYPE __VisualElement__SimpleScheduledItem : public ::UnityEngine::UIElements::__VisualElement__VisualElementScheduledItem_1<::System::Action*> {
 public:
   // Declarations
@@ -625,114 +625,118 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6995))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6995))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6737))
 // CS Name: ::VisualElement::UxmlTraits*
 class CORDL_TYPE __VisualElement__UxmlTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_Name, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
 
   /// @brief Field m_ViewDataKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ViewDataKey, put = __set_m_ViewDataKey))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ViewDataKey;
+  __declspec(property(get = __cordl_internal_get_m_ViewDataKey, put = __cordl_internal_set_m_ViewDataKey))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ViewDataKey;
 
   /// @brief Field m_PickingMode, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_PickingMode, put = __set_m_PickingMode))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>* m_PickingMode;
+  __declspec(property(get = __cordl_internal_get_m_PickingMode,
+                      put = __cordl_internal_set_m_PickingMode))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>* m_PickingMode;
 
   /// @brief Field m_Tooltip, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Tooltip, put = __set_m_Tooltip))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Tooltip;
+  __declspec(property(get = __cordl_internal_get_m_Tooltip, put = __cordl_internal_set_m_Tooltip))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Tooltip;
 
   /// @brief Field m_UsageHints, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_UsageHints, put = __set_m_UsageHints))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>* m_UsageHints;
+  __declspec(property(get = __cordl_internal_get_m_UsageHints,
+                      put = __cordl_internal_set_m_UsageHints))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>* m_UsageHints;
 
   /// @brief Field <focusIndex>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__focusIndex_k__BackingField, put = __set__focusIndex_k__BackingField))::UnityEngine::UIElements::UxmlIntAttributeDescription* _focusIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__focusIndex_k__BackingField,
+                      put = __cordl_internal_set__focusIndex_k__BackingField))::UnityEngine::UIElements::UxmlIntAttributeDescription* _focusIndex_k__BackingField;
 
   /// @brief Field m_TabIndex, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_TabIndex, put = __set_m_TabIndex))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_TabIndex;
+  __declspec(property(get = __cordl_internal_get_m_TabIndex, put = __cordl_internal_set_m_TabIndex))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_TabIndex;
 
   /// @brief Field <focusable>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__focusable_k__BackingField, put = __set__focusable_k__BackingField))::UnityEngine::UIElements::UxmlBoolAttributeDescription* _focusable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__focusable_k__BackingField,
+                      put = __cordl_internal_set__focusable_k__BackingField))::UnityEngine::UIElements::UxmlBoolAttributeDescription* _focusable_k__BackingField;
 
   /// @brief Field m_Class, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_Class, put = __set_m_Class))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Class;
+  __declspec(property(get = __cordl_internal_get_m_Class, put = __cordl_internal_set_m_Class))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Class;
 
   /// @brief Field m_ContentContainer, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_ContentContainer, put = __set_m_ContentContainer))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ContentContainer;
+  __declspec(property(get = __cordl_internal_get_m_ContentContainer, put = __cordl_internal_set_m_ContentContainer))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ContentContainer;
 
   /// @brief Field m_Style, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Style, put = __set_m_Style))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Style;
+  __declspec(property(get = __cordl_internal_get_m_Style, put = __cordl_internal_set_m_Style))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Style;
 
   __declspec(property(get = get_focusIndex))::UnityEngine::UIElements::UxmlIntAttributeDescription* focusIndex;
 
   __declspec(property(get = get_focusable))::UnityEngine::UIElements::UxmlBoolAttributeDescription* focusable;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Name();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Name();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Name() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_ViewDataKey();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_ViewDataKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_ViewDataKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_ViewDataKey() const;
 
-  constexpr void __set_m_ViewDataKey(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ViewDataKey(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>*& __get_m_PickingMode();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>*& __cordl_internal_get_m_PickingMode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>*> const& __get_m_PickingMode() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>*> const& __cordl_internal_get_m_PickingMode() const;
 
-  constexpr void __set_m_PickingMode(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>* value);
+  constexpr void __cordl_internal_set_m_PickingMode(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::PickingMode>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Tooltip();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Tooltip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Tooltip() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Tooltip() const;
 
-  constexpr void __set_m_Tooltip(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Tooltip(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>*& __get_m_UsageHints();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>*& __cordl_internal_get_m_UsageHints();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>*> const& __get_m_UsageHints() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>*> const& __cordl_internal_get_m_UsageHints() const;
 
-  constexpr void __set_m_UsageHints(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>* value);
+  constexpr void __cordl_internal_set_m_UsageHints(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get__focusIndex_k__BackingField();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get__focusIndex_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get__focusIndex_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get__focusIndex_k__BackingField() const;
 
-  constexpr void __set__focusIndex_k__BackingField(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set__focusIndex_k__BackingField(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get_m_TabIndex();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_TabIndex();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get_m_TabIndex() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get_m_TabIndex() const;
 
-  constexpr void __set_m_TabIndex(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_TabIndex(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get__focusable_k__BackingField();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get__focusable_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get__focusable_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get__focusable_k__BackingField() const;
 
-  constexpr void __set__focusable_k__BackingField(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set__focusable_k__BackingField(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Class();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Class();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Class() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Class() const;
 
-  constexpr void __set_m_Class(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Class(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_ContentContainer();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_ContentContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_ContentContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_ContentContainer() const;
 
-  constexpr void __set_m_ContentContainer(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ContentContainer(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Style();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Style();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Style() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Style() const;
 
-  constexpr void __set_m_Style(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Style(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   /// @brief Method get_focusIndex, addr 0x2db0b4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* get_focusIndex();
@@ -827,7 +831,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__UxmlTraits, _
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6739))
 // CS Name: ::VisualElement::RenderTargetMode
 struct CORDL_TYPE __VisualElement__RenderTargetMode {
@@ -885,7 +889,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__RenderTargetM
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6741))
 // CS Name: ::VisualElement::Hierarchy
 struct CORDL_TYPE __VisualElement__Hierarchy {
@@ -994,10 +998,10 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__Hierarchy, m_
 // SizeInfo { instance_size: 944, native_size: -1, calculated_instance_size: 944, calculated_native_size: 944, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6880)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6865)), TypeDefinitionIndex(TypeDefinitionIndex(7396)), TypeDefinitionIndex(TypeDefinitionIndex(6821)), TypeDefinitionIndex(TypeDefinitionIndex(6739)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6822)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(6823)), TypeDefinitionIndex(TypeDefinitionIndex(7296)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6741)), TypeDefinitionIndex(TypeDefinitionIndex(10159))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6744)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6739)), TypeDefinitionIndex(TypeDefinitionIndex(6741)), TypeDefinitionIndex(TypeDefinitionIndex(6821)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6822)), TypeDefinitionIndex(TypeDefinitionIndex(6823)), TypeDefinitionIndex(TypeDefinitionIndex(6865)), TypeDefinitionIndex(TypeDefinitionIndex(6880)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7296)), TypeDefinitionIndex(TypeDefinitionIndex(7396)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10159)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10245))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6744)) CS Name:
 // ::UnityEngine.UIElements::VisualElement*
 class CORDL_TYPE VisualElement : public ::UnityEngine::UIElements::Focusable {
 public:
@@ -1027,152 +1031,161 @@ public:
   using BaseVisualElementScheduledItem = ::UnityEngine::UIElements::__VisualElement__BaseVisualElementScheduledItem;
 
   /// @brief Field <UnityEngine.UIElements.IStylePropertyAnimations.runningAnimationCount>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField,
-                      put = __set__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField)) int32_t
+  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField,
+                      put = __cordl_internal_set__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField)) int32_t
       _UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField;
 
   /// @brief Field <UnityEngine.UIElements.IStylePropertyAnimations.completedAnimationCount>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField,
-                      put = __set__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField)) int32_t
+  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField,
+                      put = __cordl_internal_set__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField)) int32_t
       _UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField;
 
   /// @brief Field m_Name, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::StringW m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
 
   /// @brief Field m_ClassList, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_ClassList, put = __set_m_ClassList))::System::Collections::Generic::List_1<::StringW>* m_ClassList;
+  __declspec(property(get = __cordl_internal_get_m_ClassList, put = __cordl_internal_set_m_ClassList))::System::Collections::Generic::List_1<::StringW>* m_ClassList;
 
   /// @brief Field m_PropertyBag, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_PropertyBag,
-                      put = __set_m_PropertyBag))::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::PropertyName, ::System::Object*>>* m_PropertyBag;
+  __declspec(property(
+      get = __cordl_internal_get_m_PropertyBag,
+      put = __cordl_internal_set_m_PropertyBag))::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::PropertyName, ::System::Object*>>* m_PropertyBag;
 
   /// @brief Field m_Flags, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags))::UnityEngine::UIElements::VisualElementFlags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::UIElements::VisualElementFlags m_Flags;
 
   /// @brief Field m_ViewDataKey, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_ViewDataKey, put = __set_m_ViewDataKey))::StringW m_ViewDataKey;
+  __declspec(property(get = __cordl_internal_get_m_ViewDataKey, put = __cordl_internal_set_m_ViewDataKey))::StringW m_ViewDataKey;
 
   /// @brief Field m_RenderHints, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_RenderHints, put = __set_m_RenderHints))::UnityEngine::UIElements::RenderHints m_RenderHints;
+  __declspec(property(get = __cordl_internal_get_m_RenderHints, put = __cordl_internal_set_m_RenderHints))::UnityEngine::UIElements::RenderHints m_RenderHints;
 
   /// @brief Field lastLayout, offset 0x5c, size 0x10
-  __declspec(property(get = __get_lastLayout, put = __set_lastLayout))::UnityEngine::Rect lastLayout;
+  __declspec(property(get = __cordl_internal_get_lastLayout, put = __cordl_internal_set_lastLayout))::UnityEngine::Rect lastLayout;
 
   /// @brief Field lastPseudoPadding, offset 0x6c, size 0x10
-  __declspec(property(get = __get_lastPseudoPadding, put = __set_lastPseudoPadding))::UnityEngine::Rect lastPseudoPadding;
+  __declspec(property(get = __cordl_internal_get_lastPseudoPadding, put = __cordl_internal_set_lastPseudoPadding))::UnityEngine::Rect lastPseudoPadding;
 
   /// @brief Field renderChainData, offset 0x80, size 0x158
-  __declspec(property(get = __get_renderChainData, put = __set_renderChainData))::UnityEngine::UIElements::UIR::RenderChainVEData renderChainData;
+  __declspec(property(get = __cordl_internal_get_renderChainData, put = __cordl_internal_set_renderChainData))::UnityEngine::UIElements::UIR::RenderChainVEData renderChainData;
 
   /// @brief Field m_Layout, offset 0x1d8, size 0x10
-  __declspec(property(get = __get_m_Layout, put = __set_m_Layout))::UnityEngine::Rect m_Layout;
+  __declspec(property(get = __cordl_internal_get_m_Layout, put = __cordl_internal_set_m_Layout))::UnityEngine::Rect m_Layout;
 
   /// @brief Field m_BoundingBox, offset 0x1e8, size 0x10
-  __declspec(property(get = __get_m_BoundingBox, put = __set_m_BoundingBox))::UnityEngine::Rect m_BoundingBox;
+  __declspec(property(get = __cordl_internal_get_m_BoundingBox, put = __cordl_internal_set_m_BoundingBox))::UnityEngine::Rect m_BoundingBox;
 
   /// @brief Field m_WorldBoundingBox, offset 0x1f8, size 0x10
-  __declspec(property(get = __get_m_WorldBoundingBox, put = __set_m_WorldBoundingBox))::UnityEngine::Rect m_WorldBoundingBox;
+  __declspec(property(get = __cordl_internal_get_m_WorldBoundingBox, put = __cordl_internal_set_m_WorldBoundingBox))::UnityEngine::Rect m_WorldBoundingBox;
 
   /// @brief Field m_WorldTransformCache, offset 0x208, size 0x40
-  __declspec(property(get = __get_m_WorldTransformCache, put = __set_m_WorldTransformCache))::UnityEngine::Matrix4x4 m_WorldTransformCache;
+  __declspec(property(get = __cordl_internal_get_m_WorldTransformCache, put = __cordl_internal_set_m_WorldTransformCache))::UnityEngine::Matrix4x4 m_WorldTransformCache;
 
   /// @brief Field m_WorldTransformInverseCache, offset 0x248, size 0x40
-  __declspec(property(get = __get_m_WorldTransformInverseCache, put = __set_m_WorldTransformInverseCache))::UnityEngine::Matrix4x4 m_WorldTransformInverseCache;
+  __declspec(property(get = __cordl_internal_get_m_WorldTransformInverseCache, put = __cordl_internal_set_m_WorldTransformInverseCache))::UnityEngine::Matrix4x4 m_WorldTransformInverseCache;
 
   /// @brief Field m_WorldClip, offset 0x288, size 0x10
-  __declspec(property(get = __get_m_WorldClip, put = __set_m_WorldClip))::UnityEngine::Rect m_WorldClip;
+  __declspec(property(get = __cordl_internal_get_m_WorldClip, put = __cordl_internal_set_m_WorldClip))::UnityEngine::Rect m_WorldClip;
 
   /// @brief Field m_WorldClipMinusGroup, offset 0x298, size 0x10
-  __declspec(property(get = __get_m_WorldClipMinusGroup, put = __set_m_WorldClipMinusGroup))::UnityEngine::Rect m_WorldClipMinusGroup;
+  __declspec(property(get = __cordl_internal_get_m_WorldClipMinusGroup, put = __cordl_internal_set_m_WorldClipMinusGroup))::UnityEngine::Rect m_WorldClipMinusGroup;
 
   /// @brief Field m_WorldClipIsInfinite, offset 0x2a8, size 0x1
-  __declspec(property(get = __get_m_WorldClipIsInfinite, put = __set_m_WorldClipIsInfinite)) bool m_WorldClipIsInfinite;
+  __declspec(property(get = __cordl_internal_get_m_WorldClipIsInfinite, put = __cordl_internal_set_m_WorldClipIsInfinite)) bool m_WorldClipIsInfinite;
 
   /// @brief Field triggerPseudoMask, offset 0x2ac, size 0x4
-  __declspec(property(get = __get_triggerPseudoMask, put = __set_triggerPseudoMask))::UnityEngine::UIElements::PseudoStates triggerPseudoMask;
+  __declspec(property(get = __cordl_internal_get_triggerPseudoMask, put = __cordl_internal_set_triggerPseudoMask))::UnityEngine::UIElements::PseudoStates triggerPseudoMask;
 
   /// @brief Field dependencyPseudoMask, offset 0x2b0, size 0x4
-  __declspec(property(get = __get_dependencyPseudoMask, put = __set_dependencyPseudoMask))::UnityEngine::UIElements::PseudoStates dependencyPseudoMask;
+  __declspec(property(get = __cordl_internal_get_dependencyPseudoMask, put = __cordl_internal_set_dependencyPseudoMask))::UnityEngine::UIElements::PseudoStates dependencyPseudoMask;
 
   /// @brief Field m_PseudoStates, offset 0x2b4, size 0x4
-  __declspec(property(get = __get_m_PseudoStates, put = __set_m_PseudoStates))::UnityEngine::UIElements::PseudoStates m_PseudoStates;
+  __declspec(property(get = __cordl_internal_get_m_PseudoStates, put = __cordl_internal_set_m_PseudoStates))::UnityEngine::UIElements::PseudoStates m_PseudoStates;
 
   /// @brief Field <containedPointerIds>k__BackingField, offset 0x2b8, size 0x4
-  __declspec(property(get = __get__containedPointerIds_k__BackingField, put = __set__containedPointerIds_k__BackingField)) int32_t _containedPointerIds_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__containedPointerIds_k__BackingField, put = __cordl_internal_set__containedPointerIds_k__BackingField)) int32_t _containedPointerIds_k__BackingField;
 
   /// @brief Field <pickingMode>k__BackingField, offset 0x2bc, size 0x4
-  __declspec(property(get = __get__pickingMode_k__BackingField, put = __set__pickingMode_k__BackingField))::UnityEngine::UIElements::PickingMode _pickingMode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pickingMode_k__BackingField,
+                      put = __cordl_internal_set__pickingMode_k__BackingField))::UnityEngine::UIElements::PickingMode _pickingMode_k__BackingField;
 
   /// @brief Field <yogaNode>k__BackingField, offset 0x2c0, size 0x8
-  __declspec(property(get = __get__yogaNode_k__BackingField, put = __set__yogaNode_k__BackingField))::UnityEngine::Yoga::YogaNode* _yogaNode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__yogaNode_k__BackingField, put = __cordl_internal_set__yogaNode_k__BackingField))::UnityEngine::Yoga::YogaNode* _yogaNode_k__BackingField;
 
   /// @brief Field m_Style, offset 0x2c8, size 0x58
-  __declspec(property(get = __get_m_Style, put = __set_m_Style))::UnityEngine::UIElements::ComputedStyle m_Style;
+  __declspec(property(get = __cordl_internal_get_m_Style, put = __cordl_internal_set_m_Style))::UnityEngine::UIElements::ComputedStyle m_Style;
 
   /// @brief Field variableContext, offset 0x320, size 0x8
-  __declspec(property(get = __get_variableContext, put = __set_variableContext))::UnityEngine::UIElements::StyleVariableContext* variableContext;
+  __declspec(property(get = __cordl_internal_get_variableContext, put = __cordl_internal_set_variableContext))::UnityEngine::UIElements::StyleVariableContext* variableContext;
 
   /// @brief Field inheritedStylesHash, offset 0x328, size 0x4
-  __declspec(property(get = __get_inheritedStylesHash, put = __set_inheritedStylesHash)) int32_t inheritedStylesHash;
+  __declspec(property(get = __cordl_internal_get_inheritedStylesHash, put = __cordl_internal_set_inheritedStylesHash)) int32_t inheritedStylesHash;
 
   /// @brief Field controlid, offset 0x32c, size 0x4
-  __declspec(property(get = __get_controlid, put = __set_controlid)) uint32_t controlid;
+  __declspec(property(get = __cordl_internal_get_controlid, put = __cordl_internal_set_controlid)) uint32_t controlid;
 
   /// @brief Field imguiContainerDescendantCount, offset 0x330, size 0x4
-  __declspec(property(get = __get_imguiContainerDescendantCount, put = __set_imguiContainerDescendantCount)) int32_t imguiContainerDescendantCount;
+  __declspec(property(get = __cordl_internal_get_imguiContainerDescendantCount, put = __cordl_internal_set_imguiContainerDescendantCount)) int32_t imguiContainerDescendantCount;
 
   /// @brief Field <enabledSelf>k__BackingField, offset 0x334, size 0x1
-  __declspec(property(get = __get__enabledSelf_k__BackingField, put = __set__enabledSelf_k__BackingField)) bool _enabledSelf_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__enabledSelf_k__BackingField, put = __cordl_internal_set__enabledSelf_k__BackingField)) bool _enabledSelf_k__BackingField;
 
   /// @brief Field <generateVisualContent>k__BackingField, offset 0x338, size 0x8
-  __declspec(property(get = __get__generateVisualContent_k__BackingField,
-                      put = __set__generateVisualContent_k__BackingField))::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>* _generateVisualContent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__generateVisualContent_k__BackingField,
+                      put = __cordl_internal_set__generateVisualContent_k__BackingField))::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>* _generateVisualContent_k__BackingField;
 
   /// @brief Field k_GenerateVisualContentMarker, offset 0x340, size 0x8
-  __declspec(property(get = __get_k_GenerateVisualContentMarker, put = __set_k_GenerateVisualContentMarker))::Unity::Profiling::ProfilerMarker k_GenerateVisualContentMarker;
+  __declspec(property(get = __cordl_internal_get_k_GenerateVisualContentMarker,
+                      put = __cordl_internal_set_k_GenerateVisualContentMarker))::Unity::Profiling::ProfilerMarker k_GenerateVisualContentMarker;
 
   /// @brief Field m_SubRenderTargetMode, offset 0x348, size 0x4
-  __declspec(property(get = __get_m_SubRenderTargetMode, put = __set_m_SubRenderTargetMode))::UnityEngine::UIElements::__VisualElement__RenderTargetMode m_SubRenderTargetMode;
+  __declspec(property(get = __cordl_internal_get_m_SubRenderTargetMode,
+                      put = __cordl_internal_set_m_SubRenderTargetMode))::UnityEngine::UIElements::__VisualElement__RenderTargetMode m_SubRenderTargetMode;
 
   /// @brief Field m_defaultMaterial, offset 0x350, size 0x8
-  __declspec(property(get = __get_m_defaultMaterial, put = __set_m_defaultMaterial))::UnityEngine::Material* m_defaultMaterial;
+  __declspec(property(get = __cordl_internal_get_m_defaultMaterial, put = __cordl_internal_set_m_defaultMaterial))::UnityW<::UnityEngine::Material> m_defaultMaterial;
 
   /// @brief Field m_TypeData, offset 0x358, size 0x8
-  __declspec(property(get = __get_m_TypeData, put = __set_m_TypeData))::UnityEngine::UIElements::__VisualElement__TypeData* m_TypeData;
+  __declspec(property(get = __cordl_internal_get_m_TypeData, put = __cordl_internal_set_m_TypeData))::UnityEngine::UIElements::__VisualElement__TypeData* m_TypeData;
 
   /// @brief Field <hierarchy>k__BackingField, offset 0x360, size 0x8
-  __declspec(property(get = __get__hierarchy_k__BackingField, put = __set__hierarchy_k__BackingField))::UnityEngine::UIElements::__VisualElement__Hierarchy _hierarchy_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hierarchy_k__BackingField,
+                      put = __cordl_internal_set__hierarchy_k__BackingField))::UnityEngine::UIElements::__VisualElement__Hierarchy _hierarchy_k__BackingField;
 
   /// @brief Field <isRootVisualContainer>k__BackingField, offset 0x368, size 0x1
-  __declspec(property(get = __get__isRootVisualContainer_k__BackingField, put = __set__isRootVisualContainer_k__BackingField)) bool _isRootVisualContainer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isRootVisualContainer_k__BackingField,
+                      put = __cordl_internal_set__isRootVisualContainer_k__BackingField)) bool _isRootVisualContainer_k__BackingField;
 
   /// @brief Field <cacheAsBitmap>k__BackingField, offset 0x369, size 0x1
-  __declspec(property(get = __get__cacheAsBitmap_k__BackingField, put = __set__cacheAsBitmap_k__BackingField)) bool _cacheAsBitmap_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cacheAsBitmap_k__BackingField, put = __cordl_internal_set__cacheAsBitmap_k__BackingField)) bool _cacheAsBitmap_k__BackingField;
 
   /// @brief Field m_PhysicalParent, offset 0x370, size 0x8
-  __declspec(property(get = __get_m_PhysicalParent, put = __set_m_PhysicalParent))::UnityEngine::UIElements::VisualElement* m_PhysicalParent;
+  __declspec(property(get = __cordl_internal_get_m_PhysicalParent, put = __cordl_internal_set_m_PhysicalParent))::UnityEngine::UIElements::VisualElement* m_PhysicalParent;
 
   /// @brief Field m_LogicalParent, offset 0x378, size 0x8
-  __declspec(property(get = __get_m_LogicalParent, put = __set_m_LogicalParent))::UnityEngine::UIElements::VisualElement* m_LogicalParent;
+  __declspec(property(get = __cordl_internal_get_m_LogicalParent, put = __cordl_internal_set_m_LogicalParent))::UnityEngine::UIElements::VisualElement* m_LogicalParent;
 
   /// @brief Field m_Children, offset 0x380, size 0x8
-  __declspec(property(get = __get_m_Children, put = __set_m_Children))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* m_Children;
+  __declspec(property(get = __cordl_internal_get_m_Children, put = __cordl_internal_set_m_Children))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* m_Children;
 
   /// @brief Field <elementPanel>k__BackingField, offset 0x388, size 0x8
-  __declspec(property(get = __get__elementPanel_k__BackingField, put = __set__elementPanel_k__BackingField))::UnityEngine::UIElements::BaseVisualElementPanel* _elementPanel_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__elementPanel_k__BackingField,
+                      put = __cordl_internal_set__elementPanel_k__BackingField))::UnityEngine::UIElements::BaseVisualElementPanel* _elementPanel_k__BackingField;
 
   /// @brief Field m_VisualTreeAssetSource, offset 0x390, size 0x8
-  __declspec(property(get = __get_m_VisualTreeAssetSource, put = __set_m_VisualTreeAssetSource))::UnityEngine::UIElements::VisualTreeAsset* m_VisualTreeAssetSource;
+  __declspec(property(get = __cordl_internal_get_m_VisualTreeAssetSource,
+                      put = __cordl_internal_set_m_VisualTreeAssetSource))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> m_VisualTreeAssetSource;
 
   /// @brief Field inlineStyleAccess, offset 0x398, size 0x8
-  __declspec(property(get = __get_inlineStyleAccess, put = __set_inlineStyleAccess))::UnityEngine::UIElements::InlineStyleAccess* inlineStyleAccess;
+  __declspec(property(get = __cordl_internal_get_inlineStyleAccess, put = __cordl_internal_set_inlineStyleAccess))::UnityEngine::UIElements::InlineStyleAccess* inlineStyleAccess;
 
   /// @brief Field styleSheetList, offset 0x3a0, size 0x8
-  __declspec(property(get = __get_styleSheetList, put = __set_styleSheetList))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* styleSheetList;
+  __declspec(property(get = __cordl_internal_get_styleSheetList,
+                      put = __cordl_internal_set_styleSheetList))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* styleSheetList;
 
   /// @brief Field m_RunningAnimations, offset 0x3a8, size 0x8
-  __declspec(property(get = __get_m_RunningAnimations,
-                      put = __set_m_RunningAnimations))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* m_RunningAnimations;
+  __declspec(property(get = __cordl_internal_get_m_RunningAnimations,
+                      put = __cordl_internal_set_m_RunningAnimations))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* m_RunningAnimations;
 
   /// @brief Field tooltipPropertyKey, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_tooltipPropertyKey, put = setStaticF_tooltipPropertyKey))::UnityEngine::PropertyName tooltipPropertyKey;
@@ -1193,7 +1206,7 @@ public:
   static __declspec(property(get = getStaticF_s_InfiniteRect, put = setStaticF_s_InfiniteRect))::UnityEngine::Rect s_InfiniteRect;
 
   /// @brief Field s_runtimeMaterial, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_runtimeMaterial, put = setStaticF_s_runtimeMaterial))::UnityEngine::Material* s_runtimeMaterial;
+  static __declspec(property(get = getStaticF_s_runtimeMaterial, put = setStaticF_s_runtimeMaterial))::UnityW<::UnityEngine::Material> s_runtimeMaterial;
 
   /// @brief Field s_TypeData, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_TypeData,
@@ -1330,7 +1343,7 @@ public:
 
   __declspec(property(get = get_subRenderTargetMode))::UnityEngine::UIElements::__VisualElement__RenderTargetMode subRenderTargetMode;
 
-  __declspec(property(get = get_defaultMaterial))::UnityEngine::Material* defaultMaterial;
+  __declspec(property(get = get_defaultMaterial))::UnityW<::UnityEngine::Material> defaultMaterial;
 
   __declspec(property(get = get_typeData))::UnityEngine::UIElements::__VisualElement__TypeData* typeData;
 
@@ -1353,7 +1366,7 @@ public:
 
   __declspec(property(get = get_contentContainer))::UnityEngine::UIElements::VisualElement* contentContainer;
 
-  __declspec(property(put = set_visualTreeAssetSource))::UnityEngine::UIElements::VisualTreeAsset* visualTreeAssetSource;
+  __declspec(property(put = set_visualTreeAssetSource))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> visualTreeAssetSource;
 
   __declspec(property(get = get_Item))::UnityEngine::UIElements::VisualElement* Item[];
 
@@ -1491,288 +1504,289 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IResolvedStyle"
   constexpr ::UnityEngine::UIElements::IResolvedStyle* i___UnityEngine__UIElements__IResolvedStyle() noexcept;
 
-  constexpr int32_t& __get__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField();
 
-  constexpr int32_t const& __get__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField() const;
 
-  constexpr void __set__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField();
 
-  constexpr int32_t const& __get__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField() const;
 
-  constexpr void __set__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get_m_Name();
+  constexpr ::StringW& __cordl_internal_get_m_Name();
 
-  constexpr ::StringW const& __get_m_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::StringW value);
+  constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_ClassList();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_ClassList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_ClassList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_ClassList() const;
 
-  constexpr void __set_m_ClassList(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_ClassList(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::PropertyName, ::System::Object*>>*& __get_m_PropertyBag();
+  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::PropertyName, ::System::Object*>>*& __cordl_internal_get_m_PropertyBag();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::PropertyName, ::System::Object*>>*> const&
-  __get_m_PropertyBag() const;
+  __cordl_internal_get_m_PropertyBag() const;
 
-  constexpr void __set_m_PropertyBag(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::PropertyName, ::System::Object*>>* value);
+  constexpr void __cordl_internal_set_m_PropertyBag(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::PropertyName, ::System::Object*>>* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElementFlags& __get_m_Flags();
+  constexpr ::UnityEngine::UIElements::VisualElementFlags& __cordl_internal_get_m_Flags();
 
-  constexpr ::UnityEngine::UIElements::VisualElementFlags const& __get_m_Flags() const;
+  constexpr ::UnityEngine::UIElements::VisualElementFlags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(::UnityEngine::UIElements::VisualElementFlags value);
+  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::UIElements::VisualElementFlags value);
 
-  constexpr ::StringW& __get_m_ViewDataKey();
+  constexpr ::StringW& __cordl_internal_get_m_ViewDataKey();
 
-  constexpr ::StringW const& __get_m_ViewDataKey() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ViewDataKey() const;
 
-  constexpr void __set_m_ViewDataKey(::StringW value);
+  constexpr void __cordl_internal_set_m_ViewDataKey(::StringW value);
 
-  constexpr ::UnityEngine::UIElements::RenderHints& __get_m_RenderHints();
+  constexpr ::UnityEngine::UIElements::RenderHints& __cordl_internal_get_m_RenderHints();
 
-  constexpr ::UnityEngine::UIElements::RenderHints const& __get_m_RenderHints() const;
+  constexpr ::UnityEngine::UIElements::RenderHints const& __cordl_internal_get_m_RenderHints() const;
 
-  constexpr void __set_m_RenderHints(::UnityEngine::UIElements::RenderHints value);
+  constexpr void __cordl_internal_set_m_RenderHints(::UnityEngine::UIElements::RenderHints value);
 
-  constexpr ::UnityEngine::Rect& __get_lastLayout();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_lastLayout();
 
-  constexpr ::UnityEngine::Rect const& __get_lastLayout() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_lastLayout() const;
 
-  constexpr void __set_lastLayout(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_lastLayout(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get_lastPseudoPadding();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_lastPseudoPadding();
 
-  constexpr ::UnityEngine::Rect const& __get_lastPseudoPadding() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_lastPseudoPadding() const;
 
-  constexpr void __set_lastPseudoPadding(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_lastPseudoPadding(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData& __get_renderChainData();
+  constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData& __cordl_internal_get_renderChainData();
 
-  constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData const& __get_renderChainData() const;
+  constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData const& __cordl_internal_get_renderChainData() const;
 
-  constexpr void __set_renderChainData(::UnityEngine::UIElements::UIR::RenderChainVEData value);
+  constexpr void __cordl_internal_set_renderChainData(::UnityEngine::UIElements::UIR::RenderChainVEData value);
 
-  constexpr ::UnityEngine::Rect& __get_m_Layout();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_Layout();
 
-  constexpr ::UnityEngine::Rect const& __get_m_Layout() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_Layout() const;
 
-  constexpr void __set_m_Layout(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_Layout(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get_m_BoundingBox();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_BoundingBox();
 
-  constexpr ::UnityEngine::Rect const& __get_m_BoundingBox() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_BoundingBox() const;
 
-  constexpr void __set_m_BoundingBox(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_BoundingBox(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get_m_WorldBoundingBox();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_WorldBoundingBox();
 
-  constexpr ::UnityEngine::Rect const& __get_m_WorldBoundingBox() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_WorldBoundingBox() const;
 
-  constexpr void __set_m_WorldBoundingBox(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_WorldBoundingBox(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Matrix4x4& __get_m_WorldTransformCache();
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_m_WorldTransformCache();
 
-  constexpr ::UnityEngine::Matrix4x4 const& __get_m_WorldTransformCache() const;
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_m_WorldTransformCache() const;
 
-  constexpr void __set_m_WorldTransformCache(::UnityEngine::Matrix4x4 value);
+  constexpr void __cordl_internal_set_m_WorldTransformCache(::UnityEngine::Matrix4x4 value);
 
-  constexpr ::UnityEngine::Matrix4x4& __get_m_WorldTransformInverseCache();
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_m_WorldTransformInverseCache();
 
-  constexpr ::UnityEngine::Matrix4x4 const& __get_m_WorldTransformInverseCache() const;
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_m_WorldTransformInverseCache() const;
 
-  constexpr void __set_m_WorldTransformInverseCache(::UnityEngine::Matrix4x4 value);
+  constexpr void __cordl_internal_set_m_WorldTransformInverseCache(::UnityEngine::Matrix4x4 value);
 
-  constexpr ::UnityEngine::Rect& __get_m_WorldClip();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_WorldClip();
 
-  constexpr ::UnityEngine::Rect const& __get_m_WorldClip() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_WorldClip() const;
 
-  constexpr void __set_m_WorldClip(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_WorldClip(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get_m_WorldClipMinusGroup();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_WorldClipMinusGroup();
 
-  constexpr ::UnityEngine::Rect const& __get_m_WorldClipMinusGroup() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_WorldClipMinusGroup() const;
 
-  constexpr void __set_m_WorldClipMinusGroup(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_WorldClipMinusGroup(::UnityEngine::Rect value);
 
-  constexpr bool& __get_m_WorldClipIsInfinite();
+  constexpr bool& __cordl_internal_get_m_WorldClipIsInfinite();
 
-  constexpr bool const& __get_m_WorldClipIsInfinite() const;
+  constexpr bool const& __cordl_internal_get_m_WorldClipIsInfinite() const;
 
-  constexpr void __set_m_WorldClipIsInfinite(bool value);
+  constexpr void __cordl_internal_set_m_WorldClipIsInfinite(bool value);
 
-  constexpr ::UnityEngine::UIElements::PseudoStates& __get_triggerPseudoMask();
+  constexpr ::UnityEngine::UIElements::PseudoStates& __cordl_internal_get_triggerPseudoMask();
 
-  constexpr ::UnityEngine::UIElements::PseudoStates const& __get_triggerPseudoMask() const;
+  constexpr ::UnityEngine::UIElements::PseudoStates const& __cordl_internal_get_triggerPseudoMask() const;
 
-  constexpr void __set_triggerPseudoMask(::UnityEngine::UIElements::PseudoStates value);
+  constexpr void __cordl_internal_set_triggerPseudoMask(::UnityEngine::UIElements::PseudoStates value);
 
-  constexpr ::UnityEngine::UIElements::PseudoStates& __get_dependencyPseudoMask();
+  constexpr ::UnityEngine::UIElements::PseudoStates& __cordl_internal_get_dependencyPseudoMask();
 
-  constexpr ::UnityEngine::UIElements::PseudoStates const& __get_dependencyPseudoMask() const;
+  constexpr ::UnityEngine::UIElements::PseudoStates const& __cordl_internal_get_dependencyPseudoMask() const;
 
-  constexpr void __set_dependencyPseudoMask(::UnityEngine::UIElements::PseudoStates value);
+  constexpr void __cordl_internal_set_dependencyPseudoMask(::UnityEngine::UIElements::PseudoStates value);
 
-  constexpr ::UnityEngine::UIElements::PseudoStates& __get_m_PseudoStates();
+  constexpr ::UnityEngine::UIElements::PseudoStates& __cordl_internal_get_m_PseudoStates();
 
-  constexpr ::UnityEngine::UIElements::PseudoStates const& __get_m_PseudoStates() const;
+  constexpr ::UnityEngine::UIElements::PseudoStates const& __cordl_internal_get_m_PseudoStates() const;
 
-  constexpr void __set_m_PseudoStates(::UnityEngine::UIElements::PseudoStates value);
+  constexpr void __cordl_internal_set_m_PseudoStates(::UnityEngine::UIElements::PseudoStates value);
 
-  constexpr int32_t& __get__containedPointerIds_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__containedPointerIds_k__BackingField();
 
-  constexpr int32_t const& __get__containedPointerIds_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__containedPointerIds_k__BackingField() const;
 
-  constexpr void __set__containedPointerIds_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__containedPointerIds_k__BackingField(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::PickingMode& __get__pickingMode_k__BackingField();
+  constexpr ::UnityEngine::UIElements::PickingMode& __cordl_internal_get__pickingMode_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::PickingMode const& __get__pickingMode_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::PickingMode const& __cordl_internal_get__pickingMode_k__BackingField() const;
 
-  constexpr void __set__pickingMode_k__BackingField(::UnityEngine::UIElements::PickingMode value);
+  constexpr void __cordl_internal_set__pickingMode_k__BackingField(::UnityEngine::UIElements::PickingMode value);
 
-  constexpr ::UnityEngine::Yoga::YogaNode*& __get__yogaNode_k__BackingField();
+  constexpr ::UnityEngine::Yoga::YogaNode*& __cordl_internal_get__yogaNode_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::YogaNode*> const& __get__yogaNode_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::YogaNode*> const& __cordl_internal_get__yogaNode_k__BackingField() const;
 
-  constexpr void __set__yogaNode_k__BackingField(::UnityEngine::Yoga::YogaNode* value);
+  constexpr void __cordl_internal_set__yogaNode_k__BackingField(::UnityEngine::Yoga::YogaNode* value);
 
-  constexpr ::UnityEngine::UIElements::ComputedStyle& __get_m_Style();
+  constexpr ::UnityEngine::UIElements::ComputedStyle& __cordl_internal_get_m_Style();
 
-  constexpr ::UnityEngine::UIElements::ComputedStyle const& __get_m_Style() const;
+  constexpr ::UnityEngine::UIElements::ComputedStyle const& __cordl_internal_get_m_Style() const;
 
-  constexpr void __set_m_Style(::UnityEngine::UIElements::ComputedStyle value);
+  constexpr void __cordl_internal_set_m_Style(::UnityEngine::UIElements::ComputedStyle value);
 
-  constexpr ::UnityEngine::UIElements::StyleVariableContext*& __get_variableContext();
+  constexpr ::UnityEngine::UIElements::StyleVariableContext*& __cordl_internal_get_variableContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const& __get_variableContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const& __cordl_internal_get_variableContext() const;
 
-  constexpr void __set_variableContext(::UnityEngine::UIElements::StyleVariableContext* value);
+  constexpr void __cordl_internal_set_variableContext(::UnityEngine::UIElements::StyleVariableContext* value);
 
-  constexpr int32_t& __get_inheritedStylesHash();
+  constexpr int32_t& __cordl_internal_get_inheritedStylesHash();
 
-  constexpr int32_t const& __get_inheritedStylesHash() const;
+  constexpr int32_t const& __cordl_internal_get_inheritedStylesHash() const;
 
-  constexpr void __set_inheritedStylesHash(int32_t value);
+  constexpr void __cordl_internal_set_inheritedStylesHash(int32_t value);
 
-  constexpr uint32_t& __get_controlid();
+  constexpr uint32_t& __cordl_internal_get_controlid();
 
-  constexpr uint32_t const& __get_controlid() const;
+  constexpr uint32_t const& __cordl_internal_get_controlid() const;
 
-  constexpr void __set_controlid(uint32_t value);
+  constexpr void __cordl_internal_set_controlid(uint32_t value);
 
-  constexpr int32_t& __get_imguiContainerDescendantCount();
+  constexpr int32_t& __cordl_internal_get_imguiContainerDescendantCount();
 
-  constexpr int32_t const& __get_imguiContainerDescendantCount() const;
+  constexpr int32_t const& __cordl_internal_get_imguiContainerDescendantCount() const;
 
-  constexpr void __set_imguiContainerDescendantCount(int32_t value);
+  constexpr void __cordl_internal_set_imguiContainerDescendantCount(int32_t value);
 
-  constexpr bool& __get__enabledSelf_k__BackingField();
+  constexpr bool& __cordl_internal_get__enabledSelf_k__BackingField();
 
-  constexpr bool const& __get__enabledSelf_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enabledSelf_k__BackingField() const;
 
-  constexpr void __set__enabledSelf_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__enabledSelf_k__BackingField(bool value);
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>*& __get__generateVisualContent_k__BackingField();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>*& __cordl_internal_get__generateVisualContent_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>*> const& __get__generateVisualContent_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>*> const& __cordl_internal_get__generateVisualContent_k__BackingField() const;
 
-  constexpr void __set__generateVisualContent_k__BackingField(::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>* value);
+  constexpr void __cordl_internal_set__generateVisualContent_k__BackingField(::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>* value);
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __get_k_GenerateVisualContentMarker();
+  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_k_GenerateVisualContentMarker();
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __get_k_GenerateVisualContentMarker() const;
+  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_k_GenerateVisualContentMarker() const;
 
-  constexpr void __set_k_GenerateVisualContentMarker(::Unity::Profiling::ProfilerMarker value);
+  constexpr void __cordl_internal_set_k_GenerateVisualContentMarker(::Unity::Profiling::ProfilerMarker value);
 
-  constexpr ::UnityEngine::UIElements::__VisualElement__RenderTargetMode& __get_m_SubRenderTargetMode();
+  constexpr ::UnityEngine::UIElements::__VisualElement__RenderTargetMode& __cordl_internal_get_m_SubRenderTargetMode();
 
-  constexpr ::UnityEngine::UIElements::__VisualElement__RenderTargetMode const& __get_m_SubRenderTargetMode() const;
+  constexpr ::UnityEngine::UIElements::__VisualElement__RenderTargetMode const& __cordl_internal_get_m_SubRenderTargetMode() const;
 
-  constexpr void __set_m_SubRenderTargetMode(::UnityEngine::UIElements::__VisualElement__RenderTargetMode value);
+  constexpr void __cordl_internal_set_m_SubRenderTargetMode(::UnityEngine::UIElements::__VisualElement__RenderTargetMode value);
 
-  constexpr ::UnityEngine::Material*& __get_m_defaultMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_defaultMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_defaultMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_defaultMaterial() const;
 
-  constexpr void __set_m_defaultMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_defaultMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::UIElements::__VisualElement__TypeData*& __get_m_TypeData();
+  constexpr ::UnityEngine::UIElements::__VisualElement__TypeData*& __cordl_internal_get_m_TypeData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__VisualElement__TypeData*> const& __get_m_TypeData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__VisualElement__TypeData*> const& __cordl_internal_get_m_TypeData() const;
 
-  constexpr void __set_m_TypeData(::UnityEngine::UIElements::__VisualElement__TypeData* value);
+  constexpr void __cordl_internal_set_m_TypeData(::UnityEngine::UIElements::__VisualElement__TypeData* value);
 
-  constexpr ::UnityEngine::UIElements::__VisualElement__Hierarchy& __get__hierarchy_k__BackingField();
+  constexpr ::UnityEngine::UIElements::__VisualElement__Hierarchy& __cordl_internal_get__hierarchy_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::__VisualElement__Hierarchy const& __get__hierarchy_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::__VisualElement__Hierarchy const& __cordl_internal_get__hierarchy_k__BackingField() const;
 
-  constexpr void __set__hierarchy_k__BackingField(::UnityEngine::UIElements::__VisualElement__Hierarchy value);
+  constexpr void __cordl_internal_set__hierarchy_k__BackingField(::UnityEngine::UIElements::__VisualElement__Hierarchy value);
 
-  constexpr bool& __get__isRootVisualContainer_k__BackingField();
+  constexpr bool& __cordl_internal_get__isRootVisualContainer_k__BackingField();
 
-  constexpr bool const& __get__isRootVisualContainer_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isRootVisualContainer_k__BackingField() const;
 
-  constexpr void __set__isRootVisualContainer_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isRootVisualContainer_k__BackingField(bool value);
 
-  constexpr bool& __get__cacheAsBitmap_k__BackingField();
+  constexpr bool& __cordl_internal_get__cacheAsBitmap_k__BackingField();
 
-  constexpr bool const& __get__cacheAsBitmap_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__cacheAsBitmap_k__BackingField() const;
 
-  constexpr void __set__cacheAsBitmap_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__cacheAsBitmap_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_PhysicalParent();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_PhysicalParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_PhysicalParent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_PhysicalParent() const;
 
-  constexpr void __set_m_PhysicalParent(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_PhysicalParent(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_LogicalParent();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_LogicalParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_LogicalParent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_LogicalParent() const;
 
-  constexpr void __set_m_LogicalParent(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_LogicalParent(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_Children();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_Children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_Children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_Children() const;
 
-  constexpr void __set_m_Children(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_Children(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __get__elementPanel_k__BackingField();
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get__elementPanel_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __get__elementPanel_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __cordl_internal_get__elementPanel_k__BackingField() const;
 
-  constexpr void __set__elementPanel_k__BackingField(::UnityEngine::UIElements::BaseVisualElementPanel* value);
+  constexpr void __cordl_internal_set__elementPanel_k__BackingField(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  constexpr ::UnityEngine::UIElements::VisualTreeAsset*& __get_m_VisualTreeAssetSource();
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get_m_VisualTreeAssetSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& __get_m_VisualTreeAssetSource() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get_m_VisualTreeAssetSource() const;
 
-  constexpr void __set_m_VisualTreeAssetSource(::UnityEngine::UIElements::VisualTreeAsset* value);
+  constexpr void __cordl_internal_set_m_VisualTreeAssetSource(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  constexpr ::UnityEngine::UIElements::InlineStyleAccess*& __get_inlineStyleAccess();
+  constexpr ::UnityEngine::UIElements::InlineStyleAccess*& __cordl_internal_get_inlineStyleAccess();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::InlineStyleAccess*> const& __get_inlineStyleAccess() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::InlineStyleAccess*> const& __cordl_internal_get_inlineStyleAccess() const;
 
-  constexpr void __set_inlineStyleAccess(::UnityEngine::UIElements::InlineStyleAccess* value);
+  constexpr void __cordl_internal_set_inlineStyleAccess(::UnityEngine::UIElements::InlineStyleAccess* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>*& __get_styleSheetList();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*& __cordl_internal_get_styleSheetList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>*> const& __get_styleSheetList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*> const& __cordl_internal_get_styleSheetList() const;
 
-  constexpr void __set_styleSheetList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* value);
+  constexpr void __cordl_internal_set_styleSheetList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*& __get_m_RunningAnimations();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*& __cordl_internal_get_m_RunningAnimations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*> const& __get_m_RunningAnimations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*> const&
+  __cordl_internal_get_m_RunningAnimations() const;
 
-  constexpr void __set_m_RunningAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* value);
+  constexpr void __cordl_internal_set_m_RunningAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* value);
 
   static inline void setStaticF_tooltipPropertyKey(::UnityEngine::PropertyName value);
 
@@ -1798,9 +1812,9 @@ public:
 
   static inline ::UnityEngine::Rect getStaticF_s_InfiniteRect();
 
-  static inline void setStaticF_s_runtimeMaterial(::UnityEngine::Material* value);
+  static inline void setStaticF_s_runtimeMaterial(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF_s_runtimeMaterial();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_runtimeMaterial();
 
   static inline void setStaticF_s_TypeData(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::__VisualElement__TypeData*>* value);
 
@@ -2377,7 +2391,7 @@ public:
   inline ::UnityEngine::UIElements::__VisualElement__RenderTargetMode get_subRenderTargetMode();
 
   /// @brief Method get_defaultMaterial, addr 0x2dab7e0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_defaultMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
   /// @brief Method get_typeData, addr 0x2da7d98, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__VisualElement__TypeData* get_typeData();
@@ -2809,7 +2823,7 @@ public:
   ::UnityEngine::UIElements::__VisualElement__RenderTargetMode ___m_SubRenderTargetMode;
 
   /// @brief Field m_defaultMaterial, offset: 0x350, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_defaultMaterial;
+  ::UnityW<::UnityEngine::Material> ___m_defaultMaterial;
 
   /// @brief Field m_TypeData, offset: 0x358, size: 0x8, def value: None
   ::UnityEngine::UIElements::__VisualElement__TypeData* ___m_TypeData;
@@ -2836,13 +2850,13 @@ public:
   ::UnityEngine::UIElements::BaseVisualElementPanel* ____elementPanel_k__BackingField;
 
   /// @brief Field m_VisualTreeAssetSource, offset: 0x390, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeAsset* ___m_VisualTreeAssetSource;
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___m_VisualTreeAssetSource;
 
   /// @brief Field inlineStyleAccess, offset: 0x398, size: 0x8, def value: None
   ::UnityEngine::UIElements::InlineStyleAccess* ___inlineStyleAccess;
 
   /// @brief Field styleSheetList, offset: 0x3a0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* ___styleSheetList;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___styleSheetList;
 
   /// @brief Field m_RunningAnimations, offset: 0x3a8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* ___m_RunningAnimations;
@@ -2954,8 +2968,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElement, ___m_RunningAni
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6737)), TypeDefinitionIndex(TypeDefinitionIndex(6744)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5288 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6736)) CS Name: ::VisualElement::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737)), TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5288 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6736)) CS Name: ::VisualElement::UxmlFactory*
 class CORDL_TYPE __VisualElement__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::__VisualElement__UxmlTraits*> {
 public:
   // Declarations
@@ -2988,7 +3002,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6738))
 // CS Name: ::VisualElement::MeasureMode
 struct CORDL_TYPE __VisualElement__MeasureMode {
@@ -3042,20 +3056,20 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__MeasureMode, 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6740))
 // CS Name: ::VisualElement::TypeData*
 class CORDL_TYPE __VisualElement__TypeData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <type>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__type_k__BackingField, put = __set__type_k__BackingField))::System::Type* _type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__type_k__BackingField, put = __cordl_internal_set__type_k__BackingField))::System::Type* _type_k__BackingField;
 
   /// @brief Field m_FullTypeName, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_FullTypeName, put = __set_m_FullTypeName))::StringW m_FullTypeName;
+  __declspec(property(get = __cordl_internal_get_m_FullTypeName, put = __cordl_internal_set_m_FullTypeName))::StringW m_FullTypeName;
 
   /// @brief Field m_TypeName, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_TypeName, put = __set_m_TypeName))::StringW m_TypeName;
+  __declspec(property(get = __cordl_internal_get_m_TypeName, put = __cordl_internal_set_m_TypeName))::StringW m_TypeName;
 
   __declspec(property(get = get_type))::System::Type* type;
 
@@ -3063,23 +3077,23 @@ public:
 
   __declspec(property(get = get_typeName))::StringW typeName;
 
-  constexpr ::System::Type*& __get__type_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__type_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__type_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type_k__BackingField() const;
 
-  constexpr void __set__type_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__type_k__BackingField(::System::Type* value);
 
-  constexpr ::StringW& __get_m_FullTypeName();
+  constexpr ::StringW& __cordl_internal_get_m_FullTypeName();
 
-  constexpr ::StringW const& __get_m_FullTypeName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_FullTypeName() const;
 
-  constexpr void __set_m_FullTypeName(::StringW value);
+  constexpr void __cordl_internal_set_m_FullTypeName(::StringW value);
 
-  constexpr ::StringW& __get_m_TypeName();
+  constexpr ::StringW& __cordl_internal_get_m_TypeName();
 
-  constexpr ::StringW const& __get_m_TypeName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_TypeName() const;
 
-  constexpr void __set_m_TypeName(::StringW value);
+  constexpr void __cordl_internal_set_m_TypeName(::StringW value);
 
   /// @brief Method get_type, addr 0x2db12b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
@@ -3134,18 +3148,19 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__TypeData, ___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6742))
 // CS Name: ::VisualElement::CustomStyleAccess*
 class CORDL_TYPE __VisualElement__CustomStyleAccess : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_CustomProperties, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_CustomProperties,
-                      put = __set_m_CustomProperties))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* m_CustomProperties;
+  __declspec(
+      property(get = __cordl_internal_get_m_CustomProperties,
+               put = __cordl_internal_set_m_CustomProperties))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* m_CustomProperties;
 
   /// @brief Field m_DpiScaling, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_DpiScaling, put = __set_m_DpiScaling)) float_t m_DpiScaling;
+  __declspec(property(get = __cordl_internal_get_m_DpiScaling, put = __cordl_internal_set_m_DpiScaling)) float_t m_DpiScaling;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::ICustomStyle"
   constexpr operator ::UnityEngine::UIElements::ICustomStyle*() noexcept;
@@ -3153,18 +3168,18 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::ICustomStyle"
   constexpr ::UnityEngine::UIElements::ICustomStyle* i___UnityEngine__UIElements__ICustomStyle() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*& __get_m_CustomProperties();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*& __cordl_internal_get_m_CustomProperties();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*> const&
-  __get_m_CustomProperties() const;
+  __cordl_internal_get_m_CustomProperties() const;
 
-  constexpr void __set_m_CustomProperties(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value);
+  constexpr void __cordl_internal_set_m_CustomProperties(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value);
 
-  constexpr float_t& __get_m_DpiScaling();
+  constexpr float_t& __cordl_internal_get_m_DpiScaling();
 
-  constexpr float_t const& __get_m_DpiScaling() const;
+  constexpr float_t const& __cordl_internal_get_m_DpiScaling() const;
 
-  constexpr void __set_m_DpiScaling(float_t value);
+  constexpr void __cordl_internal_set_m_DpiScaling(float_t value);
 
   /// @brief Method SetContext, addr 0x2dacfe8, size 0xc, virtual false, abstract: false, final false
   inline void SetContext(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* customProperties, float_t dpiScaling);
@@ -3179,13 +3194,13 @@ public:
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> property, ByRef<::UnityEngine::Color> value);
 
   /// @brief Method TryGetValue, addr 0x2db1dec, size 0x100, virtual true, abstract: false, final true
-  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*> property, ByRef<::UnityEngine::Texture2D*> value);
+  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> property, ByRef<::UnityEngine::Texture2D*> value);
 
   /// @brief Method TryGetValue, addr 0x2db1eec, size 0x100, virtual true, abstract: false, final true
-  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*> property, ByRef<::UnityEngine::Sprite*> value);
+  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>> property, ByRef<::UnityEngine::Sprite*> value);
 
   /// @brief Method TryGetValue, addr 0x2db1fec, size 0x100, virtual true, abstract: false, final true
-  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*> property, ByRef<::UnityEngine::UIElements::VectorImage*> value);
+  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>> property, ByRef<::UnityEngine::UIElements::VectorImage*> value);
 
   /// @brief Method TryGetValue, addr 0x2db20ec, size 0xc4, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::StringW> property, ByRef<::StringW> value);
@@ -3235,29 +3250,29 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__CustomStyleAc
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7454)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7454))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6743))
 // CS Name: ::VisualElement::<>c__DisplayClass435_0*
 class CORDL_TYPE __VisualElement____c__DisplayClass435_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::UIElements::VisualElement* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::UIElements::VisualElement* __4__this;
 
   /// @brief Field to, offset 0x18, size 0x8
-  __declspec(property(get = __get_to, put = __set_to))::UnityEngine::UIElements::Experimental::StyleValues to;
+  __declspec(property(get = __cordl_internal_get_to, put = __cordl_internal_set_to))::UnityEngine::UIElements::Experimental::StyleValues to;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get___4__this();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::Experimental::StyleValues& __get_to();
+  constexpr ::UnityEngine::UIElements::Experimental::StyleValues& __cordl_internal_get_to();
 
-  constexpr ::UnityEngine::UIElements::Experimental::StyleValues const& __get_to() const;
+  constexpr ::UnityEngine::UIElements::Experimental::StyleValues const& __cordl_internal_get_to() const;
 
-  constexpr void __set_to(::UnityEngine::UIElements::Experimental::StyleValues value);
+  constexpr void __cordl_internal_set_to(::UnityEngine::UIElements::Experimental::StyleValues value);
 
   static inline ::UnityEngine::UIElements::__VisualElement____c__DisplayClass435_0* New_ctor();
 

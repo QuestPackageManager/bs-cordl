@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1795))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1795))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1803))
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::UrlBase64Encoder*
 class CORDL_TYPE UrlBase64Encoder : public ::Org::BouncyCastle::Utilities::Encoders::Base64Encoder {

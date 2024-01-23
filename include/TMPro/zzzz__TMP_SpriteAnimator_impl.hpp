@@ -20,10 +20,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2c42180;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -35,10 +35,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2c42228;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -50,10 +50,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8e0;
   constexpr static std::size_t addrs = 0x2c4222c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(), "MoveNext",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -65,10 +65,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c42b30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -80,10 +80,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2c42b38;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -95,10 +95,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c42b78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -127,235 +127,235 @@ constexpr TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::operator
 constexpr ::System::IDisposable* TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___1__state() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___1__state() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set___1__state(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___2__current() {
+constexpr ::System::Object*& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set___2__current(::System::Object* value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::TMP_SpriteAnimator*& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___4__this() {
+constexpr ::UnityW<::TMPro::TMP_SpriteAnimator>& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAnimator*> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___4__this() const {
+constexpr ::UnityW<::TMPro::TMP_SpriteAnimator> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set___4__this(::TMPro::TMP_SpriteAnimator* value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set___4__this(::UnityW<::TMPro::TMP_SpriteAnimator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_start() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_start() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_start() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_start() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_start(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set_start(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___start = value;
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_end() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_end() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___end;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_end() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_end() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___end;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_end(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set_end(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___end = value;
 }
-constexpr ::TMPro::TMP_SpriteAsset*& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_spriteAsset() {
+constexpr ::UnityW<::TMPro::TMP_SpriteAsset>& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_spriteAsset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spriteAsset;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAsset*> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_spriteAsset() const {
+constexpr ::UnityW<::TMPro::TMP_SpriteAsset> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_spriteAsset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spriteAsset;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_spriteAsset(::TMPro::TMP_SpriteAsset* value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set_spriteAsset(::UnityW<::TMPro::TMP_SpriteAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spriteAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_currentCharacter() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_currentCharacter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentCharacter;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_currentCharacter() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_currentCharacter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentCharacter;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_currentCharacter(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set_currentCharacter(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentCharacter = value;
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_framerate() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_framerate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_framerate() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get_framerate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_framerate(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set_framerate(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___framerate = value;
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__currentFrame_5__2() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__currentFrame_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFrame_5__2;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__currentFrame_5__2() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__currentFrame_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFrame_5__2;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__currentFrame_5__2(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__currentFrame_5__2(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentFrame_5__2 = value;
 }
-constexpr ::TMPro::TMP_CharacterInfo& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__charInfo_5__3() {
+constexpr ::TMPro::TMP_CharacterInfo& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__charInfo_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charInfo_5__3;
 }
-constexpr ::TMPro::TMP_CharacterInfo const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__charInfo_5__3() const {
+constexpr ::TMPro::TMP_CharacterInfo const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__charInfo_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charInfo_5__3;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__charInfo_5__3(::TMPro::TMP_CharacterInfo value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__charInfo_5__3(::TMPro::TMP_CharacterInfo value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charInfo_5__3 = value;
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__materialIndex_5__4() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__materialIndex_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIndex_5__4;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__materialIndex_5__4() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__materialIndex_5__4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIndex_5__4;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__materialIndex_5__4(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__materialIndex_5__4(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____materialIndex_5__4 = value;
 }
-constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__vertexIndex_5__5() {
+constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__vertexIndex_5__5() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex_5__5;
 }
-constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__vertexIndex_5__5() const {
+constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__vertexIndex_5__5() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex_5__5;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__vertexIndex_5__5(int32_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__vertexIndex_5__5(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexIndex_5__5 = value;
 }
-constexpr ::TMPro::TMP_MeshInfo& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__meshInfo_5__6() {
+constexpr ::TMPro::TMP_MeshInfo& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__meshInfo_5__6() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshInfo_5__6;
 }
-constexpr ::TMPro::TMP_MeshInfo const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__meshInfo_5__6() const {
+constexpr ::TMPro::TMP_MeshInfo const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__meshInfo_5__6() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshInfo_5__6;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__meshInfo_5__6(::TMPro::TMP_MeshInfo value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__meshInfo_5__6(::TMPro::TMP_MeshInfo value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshInfo_5__6 = value;
 }
-constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__baseSpriteScale_5__7() {
+constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__baseSpriteScale_5__7() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseSpriteScale_5__7;
 }
-constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__baseSpriteScale_5__7() const {
+constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__baseSpriteScale_5__7() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseSpriteScale_5__7;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__baseSpriteScale_5__7(float_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__baseSpriteScale_5__7(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseSpriteScale_5__7 = value;
 }
-constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__elapsedTime_5__8() {
+constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__elapsedTime_5__8() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__8;
 }
-constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__elapsedTime_5__8() const {
+constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__elapsedTime_5__8() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__8;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__elapsedTime_5__8(float_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__elapsedTime_5__8(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__8 = value;
 }
-constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__targetTime_5__9() {
+constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__targetTime_5__9() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTime_5__9;
 }
-constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__targetTime_5__9() const {
+constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_get__targetTime_5__9() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTime_5__9;
 }
-constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__targetTime_5__9(float_t value) {
+constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__cordl_internal_set__targetTime_5__9(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetTime_5__9 = value;
 }
 inline ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7* TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>(__1__state));
 }
 inline void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(), "MoveNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -367,9 +367,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x2c41f44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -380,9 +380,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2c41f94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "OnEnable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -393,9 +393,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2c41f98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "OnDisable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -406,9 +406,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x2c41f9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "StopAllAnimations",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -420,10 +420,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x2c41ff8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimation", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimation", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 5>{
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -438,10 +438,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x2c420e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimationInternal", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimationInternal", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 5>{
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -455,79 +455,81 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x2c421a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>*& TMPro::TMP_SpriteAnimator::__get_m_animations() {
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>*& TMPro::TMP_SpriteAnimator::__cordl_internal_get_m_animations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animations;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, bool>*> const& TMPro::TMP_SpriteAnimator::__get_m_animations() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, bool>*> const& TMPro::TMP_SpriteAnimator::__cordl_internal_get_m_animations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animations;
 }
-constexpr void TMPro::TMP_SpriteAnimator::__set_m_animations(::System::Collections::Generic::Dictionary_2<int32_t, bool>* value) {
+constexpr void TMPro::TMP_SpriteAnimator::__cordl_internal_set_m_animations(::System::Collections::Generic::Dictionary_2<int32_t, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_animations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::TMP_Text*& TMPro::TMP_SpriteAnimator::__get_m_TextComponent() {
+constexpr ::UnityW<::TMPro::TMP_Text>& TMPro::TMP_SpriteAnimator::__cordl_internal_get_m_TextComponent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextComponent;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& TMPro::TMP_SpriteAnimator::__get_m_TextComponent() const {
+constexpr ::UnityW<::TMPro::TMP_Text> const& TMPro::TMP_SpriteAnimator::__cordl_internal_get_m_TextComponent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextComponent;
 }
-constexpr void TMPro::TMP_SpriteAnimator::__set_m_TextComponent(::TMPro::TMP_Text* value) {
+constexpr void TMPro::TMP_SpriteAnimator::__cordl_internal_set_m_TextComponent(::UnityW<::TMPro::TMP_Text> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextComponent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void TMPro::TMP_SpriteAnimator::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_SpriteAnimator::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "OnEnable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_SpriteAnimator::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "OnDisable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_SpriteAnimator::StopAllAnimations() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "StopAllAnimations",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_SpriteAnimator::DoSpriteAnimation(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end, int32_t framerate) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimation", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimation", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 5>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentCharacter, spriteAsset, start, end, framerate);
 }
 inline ::System::Collections::IEnumerator* TMPro::TMP_SpriteAnimator::DoSpriteAnimationInternal(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end,
                                                                                                 int32_t framerate) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimationInternal", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "DoSpriteAnimationInternal", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 5>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, currentCharacter, spriteAsset, start, end, framerate);
 }
 inline ::TMPro::TMP_SpriteAnimator* TMPro::TMP_SpriteAnimator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::TMPro::TMP_SpriteAnimator*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SpriteAnimator*>());
 }
 inline void TMPro::TMP_SpriteAnimator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

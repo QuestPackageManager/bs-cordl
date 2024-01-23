@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1628))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1628))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1644))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpExperimental*
 class CORDL_TYPE PgpExperimental : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Org::BouncyCastle::Bcpg::ExperimentalPacket* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Bcpg::ExperimentalPacket* p;
 
-  constexpr ::Org::BouncyCastle::Bcpg::ExperimentalPacket*& __get_p();
+  constexpr ::Org::BouncyCastle::Bcpg::ExperimentalPacket*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::ExperimentalPacket*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::ExperimentalPacket*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Org::BouncyCastle::Bcpg::ExperimentalPacket* value);
+  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Bcpg::ExperimentalPacket* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

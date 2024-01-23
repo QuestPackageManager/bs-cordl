@@ -24,60 +24,61 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeFixedUpdateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4084))
 // CS Name: ::SongTimeFixedUpdateController*
 class CORDL_TYPE SongTimeFixedUpdateController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioTimeSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field songControllerFixedTimeDidUpdateEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_songControllerFixedTimeDidUpdateEvent, put = __set_songControllerFixedTimeDidUpdateEvent))::System::Action_1<float_t>* songControllerFixedTimeDidUpdateEvent;
+  __declspec(property(get = __cordl_internal_get_songControllerFixedTimeDidUpdateEvent,
+                      put = __cordl_internal_set_songControllerFixedTimeDidUpdateEvent))::System::Action_1<float_t>* songControllerFixedTimeDidUpdateEvent;
 
   /// @brief Field songControllerTimeDidUpdateEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_songControllerTimeDidUpdateEvent, put = __set_songControllerTimeDidUpdateEvent))::System::Action* songControllerTimeDidUpdateEvent;
+  __declspec(property(get = __cordl_internal_get_songControllerTimeDidUpdateEvent, put = __cordl_internal_set_songControllerTimeDidUpdateEvent))::System::Action* songControllerTimeDidUpdateEvent;
 
   /// @brief Field _accumulator, offset 0x30, size 0x4
-  __declspec(property(get = __get__accumulator, put = __set__accumulator)) float_t _accumulator;
+  __declspec(property(get = __cordl_internal_get__accumulator, put = __cordl_internal_set__accumulator)) float_t _accumulator;
 
   /// @brief Field _interpolationFactor, offset 0x34, size 0x4
-  __declspec(property(get = __get__interpolationFactor, put = __set__interpolationFactor)) float_t _interpolationFactor;
+  __declspec(property(get = __cordl_internal_get__interpolationFactor, put = __cordl_internal_set__interpolationFactor)) float_t _interpolationFactor;
 
   __declspec(property(get = get_fixedDeltaTime)) float_t fixedDeltaTime;
 
   __declspec(property(get = get_interpolationFactor)) float_t interpolationFactor;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::System::Action_1<float_t>*& __get_songControllerFixedTimeDidUpdateEvent();
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_songControllerFixedTimeDidUpdateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_songControllerFixedTimeDidUpdateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_songControllerFixedTimeDidUpdateEvent() const;
 
-  constexpr void __set_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
-  constexpr ::System::Action*& __get_songControllerTimeDidUpdateEvent();
+  constexpr ::System::Action*& __cordl_internal_get_songControllerTimeDidUpdateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_songControllerTimeDidUpdateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songControllerTimeDidUpdateEvent() const;
 
-  constexpr void __set_songControllerTimeDidUpdateEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  constexpr float_t& __get__accumulator();
+  constexpr float_t& __cordl_internal_get__accumulator();
 
-  constexpr float_t const& __get__accumulator() const;
+  constexpr float_t const& __cordl_internal_get__accumulator() const;
 
-  constexpr void __set__accumulator(float_t value);
+  constexpr void __cordl_internal_set__accumulator(float_t value);
 
-  constexpr float_t& __get__interpolationFactor();
+  constexpr float_t& __cordl_internal_get__interpolationFactor();
 
-  constexpr float_t const& __get__interpolationFactor() const;
+  constexpr float_t const& __cordl_internal_get__interpolationFactor() const;
 
-  constexpr void __set__interpolationFactor(float_t value);
+  constexpr void __cordl_internal_set__interpolationFactor(float_t value);
 
   /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x22316d0, size 0xb0, virtual false, abstract: false, final false
   inline void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);

@@ -31,29 +31,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1331))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsStreamCipher*
 class CORDL_TYPE TlsStreamCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field encryptCipher, offset 0x18, size 0x8
-  __declspec(property(get = __get_encryptCipher, put = __set_encryptCipher))::Org::BouncyCastle::Crypto::IStreamCipher* encryptCipher;
+  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher))::Org::BouncyCastle::Crypto::IStreamCipher* encryptCipher;
 
   /// @brief Field decryptCipher, offset 0x20, size 0x8
-  __declspec(property(get = __get_decryptCipher, put = __set_decryptCipher))::Org::BouncyCastle::Crypto::IStreamCipher* decryptCipher;
+  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher))::Org::BouncyCastle::Crypto::IStreamCipher* decryptCipher;
 
   /// @brief Field writeMac, offset 0x28, size 0x8
-  __declspec(property(get = __get_writeMac, put = __set_writeMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
+  __declspec(property(get = __cordl_internal_get_writeMac, put = __cordl_internal_set_writeMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
 
   /// @brief Field readMac, offset 0x30, size 0x8
-  __declspec(property(get = __get_readMac, put = __set_readMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* readMac;
+  __declspec(property(get = __cordl_internal_get_readMac, put = __cordl_internal_set_readMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* readMac;
 
   /// @brief Field usesNonce, offset 0x38, size 0x1
-  __declspec(property(get = __get_usesNonce, put = __set_usesNonce)) bool usesNonce;
+  __declspec(property(get = __cordl_internal_get_usesNonce, put = __cordl_internal_set_usesNonce)) bool usesNonce;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
@@ -61,41 +61,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_context();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher*& __get_encryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher*& __cordl_internal_get_encryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IStreamCipher*> const& __get_encryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IStreamCipher*> const& __cordl_internal_get_encryptCipher() const;
 
-  constexpr void __set_encryptCipher(::Org::BouncyCastle::Crypto::IStreamCipher* value);
+  constexpr void __cordl_internal_set_encryptCipher(::Org::BouncyCastle::Crypto::IStreamCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher*& __get_decryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher*& __cordl_internal_get_decryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IStreamCipher*> const& __get_decryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IStreamCipher*> const& __cordl_internal_get_decryptCipher() const;
 
-  constexpr void __set_decryptCipher(::Org::BouncyCastle::Crypto::IStreamCipher* value);
+  constexpr void __cordl_internal_set_decryptCipher(::Org::BouncyCastle::Crypto::IStreamCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __get_writeMac();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_writeMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __get_writeMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_writeMac() const;
 
-  constexpr void __set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
+  constexpr void __cordl_internal_set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __get_readMac();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_readMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __get_readMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_readMac() const;
 
-  constexpr void __set_readMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
+  constexpr void __cordl_internal_set_readMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  constexpr bool& __get_usesNonce();
+  constexpr bool& __cordl_internal_get_usesNonce();
 
-  constexpr bool const& __get_usesNonce() const;
+  constexpr bool const& __cordl_internal_get_usesNonce() const;
 
-  constexpr void __set_usesNonce(bool value);
+  constexpr void __cordl_internal_set_usesNonce(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IStreamCipher* clientWriteCipher,
                                                                             ::Org::BouncyCastle::Crypto::IStreamCipher* serverWriteCipher, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,

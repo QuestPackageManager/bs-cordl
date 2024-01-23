@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::HMUI::TextPageScrollView);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13648))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13648))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13670))
 // CS Name: ::HMUI::TextPageScrollView*
 class CORDL_TYPE TextPageScrollView : public ::HMUI::ScrollView {
 public:
   // Declarations
   /// @brief Field _text, offset 0xa0, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   /// @brief Method SetText, addr 0x214aa2c, size 0x68, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
@@ -56,7 +56,7 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0xa0, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

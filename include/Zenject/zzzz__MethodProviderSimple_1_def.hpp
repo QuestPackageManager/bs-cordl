@@ -41,14 +41,14 @@ namespace Zenject {
 // cpp template
 template <typename TReturn>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11209))
 // CS Name: ::Zenject::MethodProviderSimple`1<TReturn>*
 class CORDL_TYPE MethodProviderSimple_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _method, offset 0x10, size 0x8
-  __declspec(property(get = __get__method, put = __set__method))::System::Func_1<TReturn>* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_1<TReturn>* _method;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -60,11 +60,11 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::System::Func_1<TReturn>*& __get__method();
+  constexpr ::System::Func_1<TReturn>*& __cordl_internal_get__method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TReturn>*> const& __get__method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TReturn>*> const& __cordl_internal_get__method() const;
 
-  constexpr void __set__method(::System::Func_1<TReturn>* value);
+  constexpr void __cordl_internal_set__method(::System::Func_1<TReturn>* value);
 
   static inline ::Zenject::MethodProviderSimple_1<TReturn>* New_ctor(::System::Func_1<TReturn>* method);
 

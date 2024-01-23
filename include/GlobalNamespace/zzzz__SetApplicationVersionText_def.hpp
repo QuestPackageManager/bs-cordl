@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SetApplicationVersionText);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5047))
 // CS Name: ::SetApplicationVersionText*
 class CORDL_TYPE SetApplicationVersionText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _versionText, offset 0x18, size 0x8
-  __declspec(property(get = __get__versionText, put = __set__versionText))::TMPro::TextMeshPro* _versionText;
+  __declspec(property(get = __cordl_internal_get__versionText, put = __cordl_internal_set__versionText))::UnityW<::TMPro::TextMeshPro> _versionText;
 
-  constexpr ::TMPro::TextMeshPro*& __get__versionText();
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__versionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& __get__versionText() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__versionText() const;
 
-  constexpr void __set__versionText(::TMPro::TextMeshPro* value);
+  constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
   /// @brief Method Start, addr 0x23c32a8, size 0x48, virtual false, abstract: false, final false
   inline void Start();
@@ -55,7 +55,7 @@ protected:
 
 public:
   /// @brief Field _versionText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshPro* ____versionText;
+  ::UnityW<::TMPro::TextMeshPro> ____versionText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

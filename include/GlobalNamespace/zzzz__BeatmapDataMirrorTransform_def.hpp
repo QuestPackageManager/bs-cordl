@@ -28,20 +28,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClas
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4124))
 // CS Name: ::BeatmapDataMirrorTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataMirrorTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field numberOfLines, offset 0x10, size 0x4
-  __declspec(property(get = __get_numberOfLines, put = __set_numberOfLines)) int32_t numberOfLines;
+  __declspec(property(get = __cordl_internal_get_numberOfLines, put = __cordl_internal_set_numberOfLines)) int32_t numberOfLines;
 
-  constexpr int32_t& __get_numberOfLines();
+  constexpr int32_t& __cordl_internal_get_numberOfLines();
 
-  constexpr int32_t const& __get_numberOfLines() const;
+  constexpr int32_t const& __cordl_internal_get_numberOfLines() const;
 
-  constexpr void __set_numberOfLines(int32_t value);
+  constexpr void __cordl_internal_set_numberOfLines(int32_t value);
 
   static inline ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0* New_ctor();
 
@@ -80,7 +80,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataMirrorTransform____c__Dis
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4125))
 // CS Name: ::BeatmapDataMirrorTransform*
 class CORDL_TYPE BeatmapDataMirrorTransform : public ::System::Object {

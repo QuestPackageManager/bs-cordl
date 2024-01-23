@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__BaseRuntimePanel____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6876))
 // CS Name: ::BaseRuntimePanel::<>c*
 class CORDL_TYPE __BaseRuntimePanel____c : public ::System::Object {
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BaseR
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(6875))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6875)), TypeDefinitionIndex(TypeDefinitionIndex(10245))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6877))
 // CS Name: ::UnityEngine.UIElements::BaseRuntimePanel*
 class CORDL_TYPE BaseRuntimePanel : public ::UnityEngine::UIElements::Panel {
@@ -107,34 +107,35 @@ public:
   using __c = ::UnityEngine::UIElements::__BaseRuntimePanel____c;
 
   /// @brief Field m_SelectableGameObject, offset 0x158, size 0x8
-  __declspec(property(get = __get_m_SelectableGameObject, put = __set_m_SelectableGameObject))::UnityEngine::GameObject* m_SelectableGameObject;
+  __declspec(property(get = __cordl_internal_get_m_SelectableGameObject, put = __cordl_internal_set_m_SelectableGameObject))::UnityW<::UnityEngine::GameObject> m_SelectableGameObject;
 
   /// @brief Field m_RuntimePanelCreationIndex, offset 0x160, size 0x4
-  __declspec(property(get = __get_m_RuntimePanelCreationIndex, put = __set_m_RuntimePanelCreationIndex)) int32_t m_RuntimePanelCreationIndex;
+  __declspec(property(get = __cordl_internal_get_m_RuntimePanelCreationIndex, put = __cordl_internal_set_m_RuntimePanelCreationIndex)) int32_t m_RuntimePanelCreationIndex;
 
   /// @brief Field m_SortingPriority, offset 0x164, size 0x4
-  __declspec(property(get = __get_m_SortingPriority, put = __set_m_SortingPriority)) float_t m_SortingPriority;
+  __declspec(property(get = __cordl_internal_get_m_SortingPriority, put = __cordl_internal_set_m_SortingPriority)) float_t m_SortingPriority;
 
   /// @brief Field destroyed, offset 0x168, size 0x8
-  __declspec(property(get = __get_destroyed, put = __set_destroyed))::System::Action* destroyed;
+  __declspec(property(get = __cordl_internal_get_destroyed, put = __cordl_internal_set_destroyed))::System::Action* destroyed;
 
   /// @brief Field m_StandardWorldSpaceShader, offset 0x170, size 0x8
-  __declspec(property(get = __get_m_StandardWorldSpaceShader, put = __set_m_StandardWorldSpaceShader))::UnityEngine::Shader* m_StandardWorldSpaceShader;
+  __declspec(property(get = __cordl_internal_get_m_StandardWorldSpaceShader, put = __cordl_internal_set_m_StandardWorldSpaceShader))::UnityW<::UnityEngine::Shader> m_StandardWorldSpaceShader;
 
   /// @brief Field m_DrawToCameras, offset 0x178, size 0x1
-  __declspec(property(get = __get_m_DrawToCameras, put = __set_m_DrawToCameras)) bool m_DrawToCameras;
+  __declspec(property(get = __cordl_internal_get_m_DrawToCameras, put = __cordl_internal_set_m_DrawToCameras)) bool m_DrawToCameras;
 
   /// @brief Field targetTexture, offset 0x180, size 0x8
-  __declspec(property(get = __get_targetTexture, put = __set_targetTexture))::UnityEngine::RenderTexture* targetTexture;
+  __declspec(property(get = __cordl_internal_get_targetTexture, put = __cordl_internal_set_targetTexture))::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
   /// @brief Field panelToWorld, offset 0x188, size 0x40
-  __declspec(property(get = __get_panelToWorld, put = __set_panelToWorld))::UnityEngine::Matrix4x4 panelToWorld;
+  __declspec(property(get = __cordl_internal_get_panelToWorld, put = __cordl_internal_set_panelToWorld))::UnityEngine::Matrix4x4 panelToWorld;
 
   /// @brief Field <targetDisplay>k__BackingField, offset 0x1c8, size 0x4
-  __declspec(property(get = __get__targetDisplay_k__BackingField, put = __set__targetDisplay_k__BackingField)) int32_t _targetDisplay_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__targetDisplay_k__BackingField, put = __cordl_internal_set__targetDisplay_k__BackingField)) int32_t _targetDisplay_k__BackingField;
 
   /// @brief Field m_ScreenToPanelSpace, offset 0x1d0, size 0x8
-  __declspec(property(get = __get_m_ScreenToPanelSpace, put = __set_m_ScreenToPanelSpace))::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* m_ScreenToPanelSpace;
+  __declspec(property(get = __cordl_internal_get_m_ScreenToPanelSpace,
+                      put = __cordl_internal_set_m_ScreenToPanelSpace))::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* m_ScreenToPanelSpace;
 
   /// @brief Field s_CurrentRuntimePanelCounter, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_CurrentRuntimePanelCounter, put = setStaticF_s_CurrentRuntimePanelCounter)) int32_t s_CurrentRuntimePanelCounter;
@@ -143,11 +144,11 @@ public:
   static __declspec(property(get = getStaticF_DefaultScreenToPanelSpace,
                              put = setStaticF_DefaultScreenToPanelSpace))::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* DefaultScreenToPanelSpace;
 
-  __declspec(property(get = get_selectableGameObject, put = set_selectableGameObject))::UnityEngine::GameObject* selectableGameObject;
+  __declspec(property(get = get_selectableGameObject, put = set_selectableGameObject))::UnityW<::UnityEngine::GameObject> selectableGameObject;
 
   __declspec(property(get = get_sortingPriority, put = set_sortingPriority)) float_t sortingPriority;
 
-  __declspec(property(get = get_standardWorldSpaceShader))::UnityEngine::Shader* standardWorldSpaceShader;
+  __declspec(property(get = get_standardWorldSpaceShader))::UnityW<::UnityEngine::Shader> standardWorldSpaceShader;
 
   __declspec(property(get = get_drawToCameras, put = set_drawToCameras)) bool drawToCameras;
 
@@ -159,65 +160,65 @@ public:
 
   __declspec(property(get = get_screenToPanelSpace, put = set_screenToPanelSpace))::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* screenToPanelSpace;
 
-  constexpr ::UnityEngine::GameObject*& __get_m_SelectableGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_SelectableGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_SelectableGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_SelectableGameObject() const;
 
-  constexpr void __set_m_SelectableGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_SelectableGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr int32_t& __get_m_RuntimePanelCreationIndex();
+  constexpr int32_t& __cordl_internal_get_m_RuntimePanelCreationIndex();
 
-  constexpr int32_t const& __get_m_RuntimePanelCreationIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_RuntimePanelCreationIndex() const;
 
-  constexpr void __set_m_RuntimePanelCreationIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_RuntimePanelCreationIndex(int32_t value);
 
-  constexpr float_t& __get_m_SortingPriority();
+  constexpr float_t& __cordl_internal_get_m_SortingPriority();
 
-  constexpr float_t const& __get_m_SortingPriority() const;
+  constexpr float_t const& __cordl_internal_get_m_SortingPriority() const;
 
-  constexpr void __set_m_SortingPriority(float_t value);
+  constexpr void __cordl_internal_set_m_SortingPriority(float_t value);
 
-  constexpr ::System::Action*& __get_destroyed();
+  constexpr ::System::Action*& __cordl_internal_get_destroyed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_destroyed() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_destroyed() const;
 
-  constexpr void __set_destroyed(::System::Action* value);
+  constexpr void __cordl_internal_set_destroyed(::System::Action* value);
 
-  constexpr ::UnityEngine::Shader*& __get_m_StandardWorldSpaceShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_StandardWorldSpaceShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_m_StandardWorldSpaceShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_StandardWorldSpaceShader() const;
 
-  constexpr void __set_m_StandardWorldSpaceShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_m_StandardWorldSpaceShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr bool& __get_m_DrawToCameras();
+  constexpr bool& __cordl_internal_get_m_DrawToCameras();
 
-  constexpr bool const& __get_m_DrawToCameras() const;
+  constexpr bool const& __cordl_internal_get_m_DrawToCameras() const;
 
-  constexpr void __set_m_DrawToCameras(bool value);
+  constexpr void __cordl_internal_set_m_DrawToCameras(bool value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get_targetTexture();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get_targetTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get_targetTexture() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_targetTexture() const;
 
-  constexpr void __set_targetTexture(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set_targetTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  constexpr ::UnityEngine::Matrix4x4& __get_panelToWorld();
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_panelToWorld();
 
-  constexpr ::UnityEngine::Matrix4x4 const& __get_panelToWorld() const;
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_panelToWorld() const;
 
-  constexpr void __set_panelToWorld(::UnityEngine::Matrix4x4 value);
+  constexpr void __cordl_internal_set_panelToWorld(::UnityEngine::Matrix4x4 value);
 
-  constexpr int32_t& __get__targetDisplay_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__targetDisplay_k__BackingField();
 
-  constexpr int32_t const& __get__targetDisplay_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__targetDisplay_k__BackingField() const;
 
-  constexpr void __set__targetDisplay_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__targetDisplay_k__BackingField(int32_t value);
 
-  constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*& __get_m_ScreenToPanelSpace();
+  constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*& __cordl_internal_get_m_ScreenToPanelSpace();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*> const& __get_m_ScreenToPanelSpace() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*> const& __cordl_internal_get_m_ScreenToPanelSpace() const;
 
-  constexpr void __set_m_ScreenToPanelSpace(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
+  constexpr void __cordl_internal_set_m_ScreenToPanelSpace(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
 
   static inline void setStaticF_s_CurrentRuntimePanelCounter(int32_t value);
 
@@ -228,7 +229,7 @@ public:
   static inline ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* getStaticF_DefaultScreenToPanelSpace();
 
   /// @brief Method get_selectableGameObject, addr 0x2df88f0, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* get_selectableGameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_selectableGameObject();
 
   /// @brief Method set_selectableGameObject, addr 0x2df88f8, size 0x9c, virtual true, abstract: false, final true
   inline void set_selectableGameObject(::UnityEngine::GameObject* value);
@@ -254,7 +255,7 @@ public:
   inline void Dispose(bool disposing);
 
   /// @brief Method get_standardWorldSpaceShader, addr 0x2df90c4, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Shader* get_standardWorldSpaceShader();
+  inline ::UnityW<::UnityEngine::Shader> get_standardWorldSpaceShader();
 
   /// @brief Method get_drawToCameras, addr 0x2df90cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawToCameras();
@@ -314,7 +315,7 @@ protected:
 
 public:
   /// @brief Field m_SelectableGameObject, offset: 0x158, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_SelectableGameObject;
+  ::UnityW<::UnityEngine::GameObject> ___m_SelectableGameObject;
 
   /// @brief Field m_RuntimePanelCreationIndex, offset: 0x160, size: 0x4, def value: None
   int32_t ___m_RuntimePanelCreationIndex;
@@ -326,13 +327,13 @@ public:
   ::System::Action* ___destroyed;
 
   /// @brief Field m_StandardWorldSpaceShader, offset: 0x170, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___m_StandardWorldSpaceShader;
+  ::UnityW<::UnityEngine::Shader> ___m_StandardWorldSpaceShader;
 
   /// @brief Field m_DrawToCameras, offset: 0x178, size: 0x1, def value: None
   bool ___m_DrawToCameras;
 
   /// @brief Field targetTexture, offset: 0x180, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ___targetTexture;
+  ::UnityW<::UnityEngine::RenderTexture> ___targetTexture;
 
   /// @brief Field panelToWorld, offset: 0x188, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___panelToWorld;

@@ -92,7 +92,7 @@ MARK_VAL_T(::GlobalNamespace::__Interop__Sys__FileStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2211))
 // CS Name: ::Interop::Error
 struct CORDL_TYPE __Interop__Error {
@@ -458,7 +458,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Error, value__) == 0x0, "Of
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2211))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2211))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2212))
 // CS Name: ::Interop::ErrorInfo
 struct CORDL_TYPE __Interop__ErrorInfo {
@@ -517,7 +517,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__ErrorInfo, _rawErrno) == 0x
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2213))
 // CS Name: ::Interop::Sys::NodeType
 struct CORDL_TYPE __Interop__Sys__NodeType {
@@ -595,7 +595,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__NodeType, value__) == 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2213))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2213))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2214))
 // CS Name: ::Interop::Sys::DirectoryEntry
 struct CORDL_TYPE __Interop__Sys__DirectoryEntry {
@@ -640,7 +640,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__DirectoryEntry, InodeT
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2216))
 // CS Name: ::Interop::Sys::FileStatusFlags
 struct CORDL_TYPE __Interop__Sys__FileStatusFlags {
@@ -690,7 +690,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__FileStatusFlags, value
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2216))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2216))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2215))
 // CS Name: ::Interop::Sys::FileStatus
 struct CORDL_TYPE __Interop__Sys__FileStatus {
@@ -804,7 +804,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__FileStatus, UserFlags)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2217))
 // CS Name: ::Interop::Sys::Permissions
 struct CORDL_TYPE __Interop__Sys__Permissions {
@@ -898,7 +898,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__Permissions, value__) 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2218))
 // CS Name: ::Interop::Sys*
 class CORDL_TYPE __Interop__Sys : public ::System::Object {
@@ -1032,7 +1032,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Interop__Sys,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2219))
 // CS Name: ::Interop*
 class CORDL_TYPE Interop : public ::System::Object {

@@ -23,130 +23,130 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeaderboardPanelItem);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5038))
 // CS Name: ::MultiplayerLeaderboardPanelItem*
 class CORDL_TYPE MultiplayerLeaderboardPanelItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _playerNameText, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerNameText, put = __set__playerNameText))::TMPro::TextMeshProUGUI* _playerNameText;
+  __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText))::UnityW<::TMPro::TextMeshProUGUI> _playerNameText;
 
   /// @brief Field _scoreText, offset 0x20, size 0x8
-  __declspec(property(get = __get__scoreText, put = __set__scoreText))::TMPro::TextMeshProUGUI* _scoreText;
+  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
   /// @brief Field _positionText, offset 0x28, size 0x8
-  __declspec(property(get = __get__positionText, put = __set__positionText))::TMPro::TextMeshProUGUI* _positionText;
+  __declspec(property(get = __cordl_internal_get__positionText, put = __cordl_internal_set__positionText))::UnityW<::TMPro::TextMeshProUGUI> _positionText;
 
   /// @brief Field _backgroundImage, offset 0x30, size 0x8
-  __declspec(property(get = __get__backgroundImage, put = __set__backgroundImage))::UnityEngine::UI::Image* _backgroundImage;
+  __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage))::UnityW<::UnityEngine::UI::Image> _backgroundImage;
 
   /// @brief Field _normalPlayerTextColor, offset 0x38, size 0x10
-  __declspec(property(get = __get__normalPlayerTextColor, put = __set__normalPlayerTextColor))::UnityEngine::Color _normalPlayerTextColor;
+  __declspec(property(get = __cordl_internal_get__normalPlayerTextColor, put = __cordl_internal_set__normalPlayerTextColor))::UnityEngine::Color _normalPlayerTextColor;
 
   /// @brief Field _failedPlayerTextColor, offset 0x48, size 0x10
-  __declspec(property(get = __get__failedPlayerTextColor, put = __set__failedPlayerTextColor))::UnityEngine::Color _failedPlayerTextColor;
+  __declspec(property(get = __cordl_internal_get__failedPlayerTextColor, put = __cordl_internal_set__failedPlayerTextColor))::UnityEngine::Color _failedPlayerTextColor;
 
   /// @brief Field _firstPlayerBackgroundColor, offset 0x58, size 0x10
-  __declspec(property(get = __get__firstPlayerBackgroundColor, put = __set__firstPlayerBackgroundColor))::UnityEngine::Color _firstPlayerBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__firstPlayerBackgroundColor, put = __cordl_internal_set__firstPlayerBackgroundColor))::UnityEngine::Color _firstPlayerBackgroundColor;
 
   /// @brief Field _lastPlayerBackgroundColor, offset 0x68, size 0x10
-  __declspec(property(get = __get__lastPlayerBackgroundColor, put = __set__lastPlayerBackgroundColor))::UnityEngine::Color _lastPlayerBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__lastPlayerBackgroundColor, put = __cordl_internal_set__lastPlayerBackgroundColor))::UnityEngine::Color _lastPlayerBackgroundColor;
 
   /// @brief Field _prevPosition, offset 0x78, size 0x4
-  __declspec(property(get = __get__prevPosition, put = __set__prevPosition)) int32_t _prevPosition;
+  __declspec(property(get = __cordl_internal_get__prevPosition, put = __cordl_internal_set__prevPosition)) int32_t _prevPosition;
 
   /// @brief Field _prevPlayerName, offset 0x80, size 0x8
-  __declspec(property(get = __get__prevPlayerName, put = __set__prevPlayerName))::StringW _prevPlayerName;
+  __declspec(property(get = __cordl_internal_get__prevPlayerName, put = __cordl_internal_set__prevPlayerName))::StringW _prevPlayerName;
 
   /// @brief Field _prevScore, offset 0x88, size 0x4
-  __declspec(property(get = __get__prevScore, put = __set__prevScore)) int32_t _prevScore;
+  __declspec(property(get = __cordl_internal_get__prevScore, put = __cordl_internal_set__prevScore)) int32_t _prevScore;
 
   /// @brief Field _prevFailed, offset 0x8c, size 0x1
-  __declspec(property(get = __get__prevFailed, put = __set__prevFailed)) bool _prevFailed;
+  __declspec(property(get = __cordl_internal_get__prevFailed, put = __cordl_internal_set__prevFailed)) bool _prevFailed;
 
   /// @brief Field _prevNumberOfPlayers, offset 0x90, size 0x4
-  __declspec(property(get = __get__prevNumberOfPlayers, put = __set__prevNumberOfPlayers)) int32_t _prevNumberOfPlayers;
+  __declspec(property(get = __cordl_internal_get__prevNumberOfPlayers, put = __cordl_internal_set__prevNumberOfPlayers)) int32_t _prevNumberOfPlayers;
 
   __declspec(property(put = set_hide)) bool hide;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__playerNameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerNameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__playerNameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerNameText() const;
 
-  constexpr void __set__playerNameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__scoreText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__scoreText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
 
-  constexpr void __set__scoreText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__positionText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__positionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__positionText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__positionText() const;
 
-  constexpr void __set__positionText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__positionText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__backgroundImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__backgroundImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__backgroundImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
 
-  constexpr void __set__backgroundImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__backgroundImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::Color& __get__normalPlayerTextColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__normalPlayerTextColor();
 
-  constexpr ::UnityEngine::Color const& __get__normalPlayerTextColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalPlayerTextColor() const;
 
-  constexpr void __set__normalPlayerTextColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__normalPlayerTextColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__failedPlayerTextColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__failedPlayerTextColor();
 
-  constexpr ::UnityEngine::Color const& __get__failedPlayerTextColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__failedPlayerTextColor() const;
 
-  constexpr void __set__failedPlayerTextColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__failedPlayerTextColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__firstPlayerBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__firstPlayerBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__firstPlayerBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__firstPlayerBackgroundColor() const;
 
-  constexpr void __set__firstPlayerBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__firstPlayerBackgroundColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__lastPlayerBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__lastPlayerBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__lastPlayerBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__lastPlayerBackgroundColor() const;
 
-  constexpr void __set__lastPlayerBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__lastPlayerBackgroundColor(::UnityEngine::Color value);
 
-  constexpr int32_t& __get__prevPosition();
+  constexpr int32_t& __cordl_internal_get__prevPosition();
 
-  constexpr int32_t const& __get__prevPosition() const;
+  constexpr int32_t const& __cordl_internal_get__prevPosition() const;
 
-  constexpr void __set__prevPosition(int32_t value);
+  constexpr void __cordl_internal_set__prevPosition(int32_t value);
 
-  constexpr ::StringW& __get__prevPlayerName();
+  constexpr ::StringW& __cordl_internal_get__prevPlayerName();
 
-  constexpr ::StringW const& __get__prevPlayerName() const;
+  constexpr ::StringW const& __cordl_internal_get__prevPlayerName() const;
 
-  constexpr void __set__prevPlayerName(::StringW value);
+  constexpr void __cordl_internal_set__prevPlayerName(::StringW value);
 
-  constexpr int32_t& __get__prevScore();
+  constexpr int32_t& __cordl_internal_get__prevScore();
 
-  constexpr int32_t const& __get__prevScore() const;
+  constexpr int32_t const& __cordl_internal_get__prevScore() const;
 
-  constexpr void __set__prevScore(int32_t value);
+  constexpr void __cordl_internal_set__prevScore(int32_t value);
 
-  constexpr bool& __get__prevFailed();
+  constexpr bool& __cordl_internal_get__prevFailed();
 
-  constexpr bool const& __get__prevFailed() const;
+  constexpr bool const& __cordl_internal_get__prevFailed() const;
 
-  constexpr void __set__prevFailed(bool value);
+  constexpr void __cordl_internal_set__prevFailed(bool value);
 
-  constexpr int32_t& __get__prevNumberOfPlayers();
+  constexpr int32_t& __cordl_internal_get__prevNumberOfPlayers();
 
-  constexpr int32_t const& __get__prevNumberOfPlayers() const;
+  constexpr int32_t const& __cordl_internal_get__prevNumberOfPlayers() const;
 
-  constexpr void __set__prevNumberOfPlayers(int32_t value);
+  constexpr void __cordl_internal_set__prevNumberOfPlayers(int32_t value);
 
   /// @brief Method SetData, addr 0x23c1c14, size 0x2d0, virtual false, abstract: false, final false
   inline void SetData(int32_t position, ::StringW playerName, int32_t score, bool failed, int32_t numberOfPlayers);
@@ -174,16 +174,16 @@ protected:
 
 public:
   /// @brief Field _playerNameText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____playerNameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
 
   /// @brief Field _scoreText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____scoreText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
   /// @brief Field _positionText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____positionText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____positionText;
 
   /// @brief Field _backgroundImage, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____backgroundImage;
+  ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
   /// @brief Field _normalPlayerTextColor, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____normalPlayerTextColor;

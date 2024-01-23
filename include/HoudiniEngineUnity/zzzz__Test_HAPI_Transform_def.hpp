@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_Transform);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9726))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9894))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_Transform*
 class CORDL_TYPE Test_HAPI_Transform : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x28
-  __declspec(property(get = __get_self, put = __set_self))::HoudiniEngineUnity::HAPI_Transform self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::HoudiniEngineUnity::HAPI_Transform self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>*() noexcept;
@@ -36,11 +36,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_Transform__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::HAPI_Transform& __get_self();
+  constexpr ::HoudiniEngineUnity::HAPI_Transform& __cordl_internal_get_self();
 
-  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __get_self() const;
+  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::HoudiniEngineUnity::HAPI_Transform value);
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_Transform value);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_Transform* New_ctor(::HoudiniEngineUnity::HAPI_Transform self);
 

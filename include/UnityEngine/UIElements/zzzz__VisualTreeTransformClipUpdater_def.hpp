@@ -26,17 +26,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeTransformClipUpdater);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6784))
 // CS Name: ::UnityEngine.UIElements::VisualTreeTransformClipUpdater*
 class CORDL_TYPE VisualTreeTransformClipUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
   /// @brief Field m_Version, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_Version, put = __set_m_Version)) uint32_t m_Version;
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) uint32_t m_Version;
 
   /// @brief Field m_LastVersion, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_LastVersion, put = __set_m_LastVersion)) uint32_t m_LastVersion;
+  __declspec(property(get = __cordl_internal_get_m_LastVersion, put = __cordl_internal_set_m_LastVersion)) uint32_t m_LastVersion;
 
   /// @brief Field s_Description, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description))::StringW s_Description;
@@ -46,17 +46,17 @@ public:
 
   __declspec(property(get = get_profilerMarker))::Unity::Profiling::ProfilerMarker profilerMarker;
 
-  constexpr uint32_t& __get_m_Version();
+  constexpr uint32_t& __cordl_internal_get_m_Version();
 
-  constexpr uint32_t const& __get_m_Version() const;
+  constexpr uint32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr void __set_m_Version(uint32_t value);
+  constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  constexpr uint32_t& __get_m_LastVersion();
+  constexpr uint32_t& __cordl_internal_get_m_LastVersion();
 
-  constexpr uint32_t const& __get_m_LastVersion() const;
+  constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
 
-  constexpr void __set_m_LastVersion(uint32_t value);
+  constexpr void __cordl_internal_set_m_LastVersion(uint32_t value);
 
   static inline void setStaticF_s_Description(::StringW value);
 

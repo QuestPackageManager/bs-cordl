@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Diagnostics::BooleanSwitch);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8935))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8935))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8933))
 // CS Name: ::System.Diagnostics::BooleanSwitch*
 class CORDL_TYPE BooleanSwitch : public ::System::Diagnostics::Switch {

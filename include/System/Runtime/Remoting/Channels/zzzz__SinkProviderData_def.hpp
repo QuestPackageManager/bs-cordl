@@ -27,42 +27,42 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::SinkProviderData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3128))
 // CS Name: ::System.Runtime.Remoting.Channels::SinkProviderData*
 class CORDL_TYPE SinkProviderData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sinkName, offset 0x10, size 0x8
-  __declspec(property(get = __get_sinkName, put = __set_sinkName))::StringW sinkName;
+  __declspec(property(get = __cordl_internal_get_sinkName, put = __cordl_internal_set_sinkName))::StringW sinkName;
 
   /// @brief Field children, offset 0x18, size 0x8
-  __declspec(property(get = __get_children, put = __set_children))::System::Collections::ArrayList* children;
+  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::System::Collections::ArrayList* children;
 
   /// @brief Field properties, offset 0x20, size 0x8
-  __declspec(property(get = __get_properties, put = __set_properties))::System::Collections::Hashtable* properties;
+  __declspec(property(get = __cordl_internal_get_properties, put = __cordl_internal_set_properties))::System::Collections::Hashtable* properties;
 
   __declspec(property(get = get_Children))::System::Collections::IList* Children;
 
   __declspec(property(get = get_Properties))::System::Collections::IDictionary* Properties;
 
-  constexpr ::StringW& __get_sinkName();
+  constexpr ::StringW& __cordl_internal_get_sinkName();
 
-  constexpr ::StringW const& __get_sinkName() const;
+  constexpr ::StringW const& __cordl_internal_get_sinkName() const;
 
-  constexpr void __set_sinkName(::StringW value);
+  constexpr void __cordl_internal_set_sinkName(::StringW value);
 
-  constexpr ::System::Collections::ArrayList*& __get_children();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_children() const;
 
-  constexpr void __set_children(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_children(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_properties();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_properties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_properties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_properties() const;
 
-  constexpr void __set_properties(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_properties(::System::Collections::Hashtable* value);
 
   static inline ::System::Runtime::Remoting::Channels::SinkProviderData* New_ctor(::StringW name);
 

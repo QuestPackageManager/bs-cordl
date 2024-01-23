@@ -37,23 +37,23 @@ namespace System::Linq {
 // cpp template
 template <typename TSource, typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14289))
 // CS Name: ::System.Linq::GroupedEnumerable`3<TSource,TKey,TElement>*
 class CORDL_TYPE GroupedEnumerable_3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field source, offset 0x10, size 0x8
-  __declspec(property(get = __get_source, put = __set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Field keySelector, offset 0x18, size 0x8
-  __declspec(property(get = __get_keySelector, put = __set_keySelector))::System::Func_2<TSource, TKey>* keySelector;
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TSource, TKey>* keySelector;
 
   /// @brief Field elementSelector, offset 0x20, size 0x8
-  __declspec(property(get = __get_elementSelector, put = __set_elementSelector))::System::Func_2<TSource, TElement>* elementSelector;
+  __declspec(property(get = __cordl_internal_get_elementSelector, put = __cordl_internal_set_elementSelector))::System::Func_2<TSource, TElement>* elementSelector;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept;
@@ -68,29 +68,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& __get_source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& __cordl_internal_get_source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& __get_source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value);
+  constexpr void __cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value);
 
-  constexpr ::System::Func_2<TSource, TKey>*& __get_keySelector();
+  constexpr ::System::Func_2<TSource, TKey>*& __cordl_internal_get_keySelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TKey>*> const& __get_keySelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TKey>*> const& __cordl_internal_get_keySelector() const;
 
-  constexpr void __set_keySelector(::System::Func_2<TSource, TKey>* value);
+  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TSource, TKey>* value);
 
-  constexpr ::System::Func_2<TSource, TElement>*& __get_elementSelector();
+  constexpr ::System::Func_2<TSource, TElement>*& __cordl_internal_get_elementSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TElement>*> const& __get_elementSelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TElement>*> const& __cordl_internal_get_elementSelector() const;
 
-  constexpr void __set_elementSelector(::System::Func_2<TSource, TElement>* value);
+  constexpr void __cordl_internal_set_elementSelector(::System::Func_2<TSource, TElement>* value);
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
   static inline ::System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>* New_ctor(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector,
                                                                                        ::System::Func_2<TSource, TElement>* elementSelector,

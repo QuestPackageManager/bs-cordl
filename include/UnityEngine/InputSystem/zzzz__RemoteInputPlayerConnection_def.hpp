@@ -49,17 +49,17 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6272))
 // CS Name: ::RemoteInputPlayerConnection::Subscriber*
 class CORDL_TYPE __RemoteInputPlayerConnection__Subscriber : public ::System::Object {
 public:
   // Declarations
   /// @brief Field owner, offset 0x10, size 0x8
-  __declspec(property(get = __get_owner, put = __set_owner))::UnityEngine::InputSystem::RemoteInputPlayerConnection* owner;
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner))::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> owner;
 
   /// @brief Field observer, offset 0x18, size 0x8
-  __declspec(property(get = __get_observer, put = __set_observer))::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer;
+  __declspec(property(get = __cordl_internal_get_observer, put = __cordl_internal_set_observer))::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -67,17 +67,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::RemoteInputPlayerConnection*& __get_owner();
+  constexpr ::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection>& __cordl_internal_get_owner();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::RemoteInputPlayerConnection*> const& __get_owner() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> const& __cordl_internal_get_owner() const;
 
-  constexpr void __set_owner(::UnityEngine::InputSystem::RemoteInputPlayerConnection* value);
+  constexpr void __cordl_internal_set_owner(::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> value);
 
-  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*& __get_observer();
+  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*& __cordl_internal_get_observer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*> const& __get_observer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*> const& __cordl_internal_get_observer() const;
 
-  constexpr void __set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value);
+  constexpr void __cordl_internal_set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value);
 
   /// @brief Method Dispose, addr 0x2aa79e0, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
@@ -102,7 +102,7 @@ protected:
 
 public:
   /// @brief Field owner, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::RemoteInputPlayerConnection* ___owner;
+  ::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> ___owner;
 
   /// @brief Field observer, offset: 0x18, size: 0x8, def value: None
   ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* ___observer;
@@ -121,7 +121,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__RemoteInputPlayerConnection
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6273))
 // CS Name: ::UnityEngine.InputSystem::RemoteInputPlayerConnection*
 class CORDL_TYPE RemoteInputPlayerConnection : public ::UnityEngine::ScriptableObject {
@@ -130,14 +130,15 @@ public:
   using Subscriber = ::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber;
 
   /// @brief Field m_Connection, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Connection, put = __set_m_Connection))::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* m_Connection;
+  __declspec(property(get = __cordl_internal_get_m_Connection, put = __cordl_internal_set_m_Connection))::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* m_Connection;
 
   /// @brief Field m_Subscribers, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Subscribers, put = __set_m_Subscribers))::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*,
-                                                                                     ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> m_Subscribers;
+  __declspec(property(get = __cordl_internal_get_m_Subscribers,
+                      put = __cordl_internal_set_m_Subscribers))::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*,
+                                                                         ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> m_Subscribers;
 
   /// @brief Field m_ConnectedIds, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ConnectedIds, put = __set_m_ConnectedIds))::ArrayW<int32_t, ::Array<int32_t>*> m_ConnectedIds;
+  __declspec(property(get = __cordl_internal_get_m_ConnectedIds, put = __cordl_internal_set_m_ConnectedIds))::ArrayW<int32_t, ::Array<int32_t>*> m_ConnectedIds;
 
   /// @brief Field kNewDeviceMsg, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_kNewDeviceMsg, put = setStaticF_kNewDeviceMsg))::System::Guid kNewDeviceMsg;
@@ -172,25 +173,26 @@ public:
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
   constexpr ::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>* i___System__IObservable_1___UnityEngine__InputSystem____InputRemoting__Message_() noexcept;
 
-  constexpr ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*& __get_m_Connection();
+  constexpr ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*& __cordl_internal_get_m_Connection();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*> const& __get_m_Connection() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*> const& __cordl_internal_get_m_Connection() const;
 
-  constexpr void __set_m_Connection(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* value);
+  constexpr void __cordl_internal_set_m_Connection(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*>& __get_m_Subscribers();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*>&
+  __cordl_internal_get_m_Subscribers();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> const&
-  __get_m_Subscribers() const;
+  __cordl_internal_get_m_Subscribers() const;
 
-  constexpr void
-  __set_m_Subscribers(::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> value);
+  constexpr void __cordl_internal_set_m_Subscribers(
+      ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_ConnectedIds();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_ConnectedIds();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_ConnectedIds() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_ConnectedIds() const;
 
-  constexpr void __set_m_ConnectedIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_ConnectedIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline void setStaticF_kNewDeviceMsg(::System::Guid value);
 

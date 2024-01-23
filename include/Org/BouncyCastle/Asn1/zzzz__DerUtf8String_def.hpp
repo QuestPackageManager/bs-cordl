@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerUtf8String);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(33))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(33))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(520))
 // CS Name: ::Org.BouncyCastle.Asn1::DerUtf8String*
 class CORDL_TYPE DerUtf8String : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
   // Declarations
   /// @brief Field str, offset 0x10, size 0x8
-  __declspec(property(get = __get_str, put = __set_str))::StringW str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::StringW str;
 
-  constexpr ::StringW& __get_str();
+  constexpr ::StringW& __cordl_internal_get_str();
 
-  constexpr ::StringW const& __get_str() const;
+  constexpr ::StringW const& __cordl_internal_get_str() const;
 
-  constexpr void __set_str(::StringW value);
+  constexpr void __cordl_internal_set_str(::StringW value);
 
   /// @brief Method GetInstance, addr 0x11c559c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetInstance(::System::Object* obj);

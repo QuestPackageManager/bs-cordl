@@ -39,26 +39,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerExternal);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(504))
 // CS Name: ::Org.BouncyCastle.Asn1::DerExternal*
 class CORDL_TYPE DerExternal : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   /// @brief Field directReference, offset 0x10, size 0x8
-  __declspec(property(get = __get_directReference, put = __set_directReference))::Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference;
+  __declspec(property(get = __cordl_internal_get_directReference, put = __cordl_internal_set_directReference))::Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference;
 
   /// @brief Field indirectReference, offset 0x18, size 0x8
-  __declspec(property(get = __get_indirectReference, put = __set_indirectReference))::Org::BouncyCastle::Asn1::DerInteger* indirectReference;
+  __declspec(property(get = __cordl_internal_get_indirectReference, put = __cordl_internal_set_indirectReference))::Org::BouncyCastle::Asn1::DerInteger* indirectReference;
 
   /// @brief Field dataValueDescriptor, offset 0x20, size 0x8
-  __declspec(property(get = __get_dataValueDescriptor, put = __set_dataValueDescriptor))::Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor;
+  __declspec(property(get = __cordl_internal_get_dataValueDescriptor, put = __cordl_internal_set_dataValueDescriptor))::Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor;
 
   /// @brief Field encoding, offset 0x28, size 0x4
-  __declspec(property(get = __get_encoding, put = __set_encoding)) int32_t encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding)) int32_t encoding;
 
   /// @brief Field externalContent, offset 0x30, size 0x8
-  __declspec(property(get = __get_externalContent, put = __set_externalContent))::Org::BouncyCastle::Asn1::Asn1Object* externalContent;
+  __declspec(property(get = __cordl_internal_get_externalContent, put = __cordl_internal_set_externalContent))::Org::BouncyCastle::Asn1::Asn1Object* externalContent;
 
   __declspec(property(get = get_DataValueDescriptor, put = set_DataValueDescriptor))::Org::BouncyCastle::Asn1::Asn1Object* DataValueDescriptor;
 
@@ -70,35 +70,35 @@ public:
 
   __declspec(property(get = get_IndirectReference, put = set_IndirectReference))::Org::BouncyCastle::Asn1::DerInteger* IndirectReference;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_directReference();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_directReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_directReference() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_directReference() const;
 
-  constexpr void __set_directReference(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_directReference(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_indirectReference();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_indirectReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_indirectReference() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_indirectReference() const;
 
-  constexpr void __set_indirectReference(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_indirectReference(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get_dataValueDescriptor();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_dataValueDescriptor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __get_dataValueDescriptor() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_dataValueDescriptor() const;
 
-  constexpr void __set_dataValueDescriptor(::Org::BouncyCastle::Asn1::Asn1Object* value);
+  constexpr void __cordl_internal_set_dataValueDescriptor(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  constexpr int32_t& __get_encoding();
+  constexpr int32_t& __cordl_internal_get_encoding();
 
-  constexpr int32_t const& __get_encoding() const;
+  constexpr int32_t const& __cordl_internal_get_encoding() const;
 
-  constexpr void __set_encoding(int32_t value);
+  constexpr void __cordl_internal_set_encoding(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get_externalContent();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_externalContent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __get_externalContent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_externalContent() const;
 
-  constexpr void __set_externalContent(::Org::BouncyCastle::Asn1::Asn1Object* value);
+  constexpr void __cordl_internal_set_externalContent(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
   static inline ::Org::BouncyCastle::Asn1::DerExternal* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* vector);
 

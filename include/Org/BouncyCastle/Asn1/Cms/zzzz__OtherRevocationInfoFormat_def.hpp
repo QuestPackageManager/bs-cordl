@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(86))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::OtherRevocationInfoFormat*
 class CORDL_TYPE OtherRevocationInfoFormat : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field otherRevInfoFormat, offset 0x10, size 0x8
-  __declspec(property(get = __get_otherRevInfoFormat, put = __set_otherRevInfoFormat))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat;
+  __declspec(property(get = __cordl_internal_get_otherRevInfoFormat, put = __cordl_internal_set_otherRevInfoFormat))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat;
 
   /// @brief Field otherRevInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_otherRevInfo, put = __set_otherRevInfo))::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo;
+  __declspec(property(get = __cordl_internal_get_otherRevInfo, put = __cordl_internal_set_otherRevInfo))::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo;
 
   __declspec(property(get = get_InfoFormat))::Org::BouncyCastle::Asn1::DerObjectIdentifier* InfoFormat;
 
   __declspec(property(get = get_Info))::Org::BouncyCastle::Asn1::Asn1Encodable* Info;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_otherRevInfoFormat();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_otherRevInfoFormat();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_otherRevInfoFormat() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_otherRevInfoFormat() const;
 
-  constexpr void __set_otherRevInfoFormat(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_otherRevInfoFormat(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_otherRevInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_otherRevInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __get_otherRevInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_otherRevInfo() const;
 
-  constexpr void __set_otherRevInfo(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  constexpr void __cordl_internal_set_otherRevInfo(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo);

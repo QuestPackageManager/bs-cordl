@@ -19,68 +19,68 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2Transform);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2284))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2981))
 // CS Name: ::System.Security.Cryptography::RC2Transform*
 class CORDL_TYPE RC2Transform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
   // Declarations
   /// @brief Field R0, offset 0x58, size 0x2
-  __declspec(property(get = __get_R0, put = __set_R0)) uint16_t R0;
+  __declspec(property(get = __cordl_internal_get_R0, put = __cordl_internal_set_R0)) uint16_t R0;
 
   /// @brief Field R1, offset 0x5a, size 0x2
-  __declspec(property(get = __get_R1, put = __set_R1)) uint16_t R1;
+  __declspec(property(get = __cordl_internal_get_R1, put = __cordl_internal_set_R1)) uint16_t R1;
 
   /// @brief Field R2, offset 0x5c, size 0x2
-  __declspec(property(get = __get_R2, put = __set_R2)) uint16_t R2;
+  __declspec(property(get = __cordl_internal_get_R2, put = __cordl_internal_set_R2)) uint16_t R2;
 
   /// @brief Field R3, offset 0x5e, size 0x2
-  __declspec(property(get = __get_R3, put = __set_R3)) uint16_t R3;
+  __declspec(property(get = __cordl_internal_get_R3, put = __cordl_internal_set_R3)) uint16_t R3;
 
   /// @brief Field K, offset 0x60, size 0x8
-  __declspec(property(get = __get_K, put = __set_K))::ArrayW<uint16_t, ::Array<uint16_t>*> K;
+  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K))::ArrayW<uint16_t, ::Array<uint16_t>*> K;
 
   /// @brief Field j, offset 0x68, size 0x4
-  __declspec(property(get = __get_j, put = __set_j)) int32_t j;
+  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j)) int32_t j;
 
   /// @brief Field pitable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_pitable, put = setStaticF_pitable))::ArrayW<uint8_t, ::Array<uint8_t>*> pitable;
 
-  constexpr uint16_t& __get_R0();
+  constexpr uint16_t& __cordl_internal_get_R0();
 
-  constexpr uint16_t const& __get_R0() const;
+  constexpr uint16_t const& __cordl_internal_get_R0() const;
 
-  constexpr void __set_R0(uint16_t value);
+  constexpr void __cordl_internal_set_R0(uint16_t value);
 
-  constexpr uint16_t& __get_R1();
+  constexpr uint16_t& __cordl_internal_get_R1();
 
-  constexpr uint16_t const& __get_R1() const;
+  constexpr uint16_t const& __cordl_internal_get_R1() const;
 
-  constexpr void __set_R1(uint16_t value);
+  constexpr void __cordl_internal_set_R1(uint16_t value);
 
-  constexpr uint16_t& __get_R2();
+  constexpr uint16_t& __cordl_internal_get_R2();
 
-  constexpr uint16_t const& __get_R2() const;
+  constexpr uint16_t const& __cordl_internal_get_R2() const;
 
-  constexpr void __set_R2(uint16_t value);
+  constexpr void __cordl_internal_set_R2(uint16_t value);
 
-  constexpr uint16_t& __get_R3();
+  constexpr uint16_t& __cordl_internal_get_R3();
 
-  constexpr uint16_t const& __get_R3() const;
+  constexpr uint16_t const& __cordl_internal_get_R3() const;
 
-  constexpr void __set_R3(uint16_t value);
+  constexpr void __cordl_internal_set_R3(uint16_t value);
 
-  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& __get_K();
+  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& __cordl_internal_get_K();
 
-  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*> const& __get_K() const;
+  constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*> const& __cordl_internal_get_K() const;
 
-  constexpr void __set_K(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
+  constexpr void __cordl_internal_set_K(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
 
-  constexpr int32_t& __get_j();
+  constexpr int32_t& __cordl_internal_get_j();
 
-  constexpr int32_t const& __get_j() const;
+  constexpr int32_t const& __cordl_internal_get_j() const;
 
-  constexpr void __set_j(int32_t value);
+  constexpr void __cordl_internal_set_j(int32_t value);
 
   static inline void setStaticF_pitable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

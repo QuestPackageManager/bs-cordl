@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SdkAccount);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13385)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13385))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13478))
 // CS Name: ::Oculus.Platform.Models::SdkAccount*
 class CORDL_TYPE SdkAccount : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AccountType, offset 0x10, size 0x4
-  __declspec(property(get = __get_AccountType, put = __set_AccountType))::Oculus::Platform::SdkAccountType AccountType;
+  __declspec(property(get = __cordl_internal_get_AccountType, put = __cordl_internal_set_AccountType))::Oculus::Platform::SdkAccountType AccountType;
 
   /// @brief Field UserId, offset 0x18, size 0x8
-  __declspec(property(get = __get_UserId, put = __set_UserId)) uint64_t UserId;
+  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
 
-  constexpr ::Oculus::Platform::SdkAccountType& __get_AccountType();
+  constexpr ::Oculus::Platform::SdkAccountType& __cordl_internal_get_AccountType();
 
-  constexpr ::Oculus::Platform::SdkAccountType const& __get_AccountType() const;
+  constexpr ::Oculus::Platform::SdkAccountType const& __cordl_internal_get_AccountType() const;
 
-  constexpr void __set_AccountType(::Oculus::Platform::SdkAccountType value);
+  constexpr void __cordl_internal_set_AccountType(::Oculus::Platform::SdkAccountType value);
 
-  constexpr uint64_t& __get_UserId();
+  constexpr uint64_t& __cordl_internal_get_UserId();
 
-  constexpr uint64_t const& __get_UserId() const;
+  constexpr uint64_t const& __cordl_internal_get_UserId() const;
 
-  constexpr void __set_UserId(uint64_t value);
+  constexpr void __cordl_internal_set_UserId(uint64_t value);
 
   static inline ::Oculus::Platform::Models::SdkAccount* New_ctor(void* o);
 

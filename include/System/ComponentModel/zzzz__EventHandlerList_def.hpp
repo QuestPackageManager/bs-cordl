@@ -30,38 +30,38 @@ MARK_REF_PTR_T(::System::ComponentModel::__EventHandlerList__ListEntry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9394))
 // CS Name: ::EventHandlerList::ListEntry*
 class CORDL_TYPE __EventHandlerList__ListEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _next, offset 0x10, size 0x8
-  __declspec(property(get = __get__next, put = __set__next))::System::ComponentModel::__EventHandlerList__ListEntry* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::ComponentModel::__EventHandlerList__ListEntry* _next;
 
   /// @brief Field _key, offset 0x18, size 0x8
-  __declspec(property(get = __get__key, put = __set__key))::System::Object* _key;
+  __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key))::System::Object* _key;
 
   /// @brief Field _handler, offset 0x20, size 0x8
-  __declspec(property(get = __get__handler, put = __set__handler))::System::Delegate* _handler;
+  __declspec(property(get = __cordl_internal_get__handler, put = __cordl_internal_set__handler))::System::Delegate* _handler;
 
-  constexpr ::System::ComponentModel::__EventHandlerList__ListEntry*& __get__next();
+  constexpr ::System::ComponentModel::__EventHandlerList__ListEntry*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__EventHandlerList__ListEntry*> const& __get__next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__EventHandlerList__ListEntry*> const& __cordl_internal_get__next() const;
 
-  constexpr void __set__next(::System::ComponentModel::__EventHandlerList__ListEntry* value);
+  constexpr void __cordl_internal_set__next(::System::ComponentModel::__EventHandlerList__ListEntry* value);
 
-  constexpr ::System::Object*& __get__key();
+  constexpr ::System::Object*& __cordl_internal_get__key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__key() const;
 
-  constexpr void __set__key(::System::Object* value);
+  constexpr void __cordl_internal_set__key(::System::Object* value);
 
-  constexpr ::System::Delegate*& __get__handler();
+  constexpr ::System::Delegate*& __cordl_internal_get__handler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __get__handler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __cordl_internal_get__handler() const;
 
-  constexpr void __set__handler(::System::Delegate* value);
+  constexpr void __cordl_internal_set__handler(::System::Delegate* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventHandlerList__ListEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -102,7 +102,7 @@ static_assert(offsetof(::System::ComponentModel::__EventHandlerList__ListEntry, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9395))
 // CS Name: ::System.ComponentModel::EventHandlerList*
 class CORDL_TYPE EventHandlerList : public ::System::Object {
@@ -111,24 +111,24 @@ public:
   using ListEntry = ::System::ComponentModel::__EventHandlerList__ListEntry;
 
   /// @brief Field _head, offset 0x10, size 0x8
-  __declspec(property(get = __get__head, put = __set__head))::System::ComponentModel::__EventHandlerList__ListEntry* _head;
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::System::ComponentModel::__EventHandlerList__ListEntry* _head;
 
   /// @brief Field _parent, offset 0x18, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::System::ComponentModel::Component* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::System::ComponentModel::Component* _parent;
 
   __declspec(property(get = get_Item))::System::Delegate* Item[];
 
-  constexpr ::System::ComponentModel::__EventHandlerList__ListEntry*& __get__head();
+  constexpr ::System::ComponentModel::__EventHandlerList__ListEntry*& __cordl_internal_get__head();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__EventHandlerList__ListEntry*> const& __get__head() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__EventHandlerList__ListEntry*> const& __cordl_internal_get__head() const;
 
-  constexpr void __set__head(::System::ComponentModel::__EventHandlerList__ListEntry* value);
+  constexpr void __cordl_internal_set__head(::System::ComponentModel::__EventHandlerList__ListEntry* value);
 
-  constexpr ::System::ComponentModel::Component*& __get__parent();
+  constexpr ::System::ComponentModel::Component*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::Component*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::Component*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::System::ComponentModel::Component* value);
+  constexpr void __cordl_internal_set__parent(::System::ComponentModel::Component* value);
 
   /// @brief Method get_Item, addr 0x2904dbc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Delegate* get_Item(::System::Object* key);

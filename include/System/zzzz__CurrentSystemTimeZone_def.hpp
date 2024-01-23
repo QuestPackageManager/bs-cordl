@@ -30,47 +30,47 @@ MARK_REF_PTR_T(::System::CurrentSystemTimeZone);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2485))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2485))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2366))
 // CS Name: ::System::CurrentSystemTimeZone*
 class CORDL_TYPE CurrentSystemTimeZone : public ::System::TimeZone {
 public:
   // Declarations
   /// @brief Field m_ticksOffset, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ticksOffset, put = __set_m_ticksOffset)) int64_t m_ticksOffset;
+  __declspec(property(get = __cordl_internal_get_m_ticksOffset, put = __cordl_internal_set_m_ticksOffset)) int64_t m_ticksOffset;
 
   /// @brief Field m_standardName, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_standardName, put = __set_m_standardName))::StringW m_standardName;
+  __declspec(property(get = __cordl_internal_get_m_standardName, put = __cordl_internal_set_m_standardName))::StringW m_standardName;
 
   /// @brief Field m_daylightName, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_daylightName, put = __set_m_daylightName))::StringW m_daylightName;
+  __declspec(property(get = __cordl_internal_get_m_daylightName, put = __cordl_internal_set_m_daylightName))::StringW m_daylightName;
 
   /// @brief Field m_CachedDaylightChanges, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_CachedDaylightChanges, put = __set_m_CachedDaylightChanges))::System::Collections::Hashtable* m_CachedDaylightChanges;
+  __declspec(property(get = __cordl_internal_get_m_CachedDaylightChanges, put = __cordl_internal_set_m_CachedDaylightChanges))::System::Collections::Hashtable* m_CachedDaylightChanges;
 
-  constexpr int64_t& __get_m_ticksOffset();
+  constexpr int64_t& __cordl_internal_get_m_ticksOffset();
 
-  constexpr int64_t const& __get_m_ticksOffset() const;
+  constexpr int64_t const& __cordl_internal_get_m_ticksOffset() const;
 
-  constexpr void __set_m_ticksOffset(int64_t value);
+  constexpr void __cordl_internal_set_m_ticksOffset(int64_t value);
 
-  constexpr ::StringW& __get_m_standardName();
+  constexpr ::StringW& __cordl_internal_get_m_standardName();
 
-  constexpr ::StringW const& __get_m_standardName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_standardName() const;
 
-  constexpr void __set_m_standardName(::StringW value);
+  constexpr void __cordl_internal_set_m_standardName(::StringW value);
 
-  constexpr ::StringW& __get_m_daylightName();
+  constexpr ::StringW& __cordl_internal_get_m_daylightName();
 
-  constexpr ::StringW const& __get_m_daylightName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_daylightName() const;
 
-  constexpr void __set_m_daylightName(::StringW value);
+  constexpr void __cordl_internal_set_m_daylightName(::StringW value);
 
-  constexpr ::System::Collections::Hashtable*& __get_m_CachedDaylightChanges();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_CachedDaylightChanges();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_m_CachedDaylightChanges() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_CachedDaylightChanges() const;
 
-  constexpr void __set_m_CachedDaylightChanges(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_m_CachedDaylightChanges(::System::Collections::Hashtable* value);
 
   static inline ::System::CurrentSystemTimeZone* New_ctor();
 

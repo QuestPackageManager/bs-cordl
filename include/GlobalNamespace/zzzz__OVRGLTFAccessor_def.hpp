@@ -48,92 +48,92 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGLTFAccessor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7551)), TypeDefinitionIndex(TypeDefinitionIndex(7552))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7551)), TypeDefinitionIndex(TypeDefinitionIndex(7552))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
 // CS Name: ::OVRGLTFAccessor*
 class CORDL_TYPE OVRGLTFAccessor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field byteOffset, offset 0x10, size 0x4
-  __declspec(property(get = __get_byteOffset, put = __set_byteOffset)) int32_t byteOffset;
+  __declspec(property(get = __cordl_internal_get_byteOffset, put = __cordl_internal_set_byteOffset)) int32_t byteOffset;
 
   /// @brief Field byteLength, offset 0x14, size 0x4
-  __declspec(property(get = __get_byteLength, put = __set_byteLength)) int32_t byteLength;
+  __declspec(property(get = __cordl_internal_get_byteLength, put = __cordl_internal_set_byteLength)) int32_t byteLength;
 
   /// @brief Field byteStride, offset 0x18, size 0x4
-  __declspec(property(get = __get_byteStride, put = __set_byteStride)) int32_t byteStride;
+  __declspec(property(get = __cordl_internal_get_byteStride, put = __cordl_internal_set_byteStride)) int32_t byteStride;
 
   /// @brief Field bufferId, offset 0x1c, size 0x4
-  __declspec(property(get = __get_bufferId, put = __set_bufferId)) int32_t bufferId;
+  __declspec(property(get = __cordl_internal_get_bufferId, put = __cordl_internal_set_bufferId)) int32_t bufferId;
 
   /// @brief Field bufferLength, offset 0x20, size 0x4
-  __declspec(property(get = __get_bufferLength, put = __set_bufferLength)) int32_t bufferLength;
+  __declspec(property(get = __cordl_internal_get_bufferLength, put = __cordl_internal_set_bufferLength)) int32_t bufferLength;
 
   /// @brief Field additionalOffset, offset 0x24, size 0x4
-  __declspec(property(get = __get_additionalOffset, put = __set_additionalOffset)) int32_t additionalOffset;
+  __declspec(property(get = __cordl_internal_get_additionalOffset, put = __cordl_internal_set_additionalOffset)) int32_t additionalOffset;
 
   /// @brief Field dataType, offset 0x28, size 0x4
-  __declspec(property(get = __get_dataType, put = __set_dataType))::GlobalNamespace::OVRGLTFType dataType;
+  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType))::GlobalNamespace::OVRGLTFType dataType;
 
   /// @brief Field componentType, offset 0x2c, size 0x4
-  __declspec(property(get = __get_componentType, put = __set_componentType))::GlobalNamespace::OVRGLTFComponentType componentType;
+  __declspec(property(get = __cordl_internal_get_componentType, put = __cordl_internal_set_componentType))::GlobalNamespace::OVRGLTFComponentType componentType;
 
   /// @brief Field dataCount, offset 0x30, size 0x4
-  __declspec(property(get = __get_dataCount, put = __set_dataCount)) int32_t dataCount;
+  __declspec(property(get = __cordl_internal_get_dataCount, put = __cordl_internal_set_dataCount)) int32_t dataCount;
 
-  constexpr int32_t& __get_byteOffset();
+  constexpr int32_t& __cordl_internal_get_byteOffset();
 
-  constexpr int32_t const& __get_byteOffset() const;
+  constexpr int32_t const& __cordl_internal_get_byteOffset() const;
 
-  constexpr void __set_byteOffset(int32_t value);
+  constexpr void __cordl_internal_set_byteOffset(int32_t value);
 
-  constexpr int32_t& __get_byteLength();
+  constexpr int32_t& __cordl_internal_get_byteLength();
 
-  constexpr int32_t const& __get_byteLength() const;
+  constexpr int32_t const& __cordl_internal_get_byteLength() const;
 
-  constexpr void __set_byteLength(int32_t value);
+  constexpr void __cordl_internal_set_byteLength(int32_t value);
 
-  constexpr int32_t& __get_byteStride();
+  constexpr int32_t& __cordl_internal_get_byteStride();
 
-  constexpr int32_t const& __get_byteStride() const;
+  constexpr int32_t const& __cordl_internal_get_byteStride() const;
 
-  constexpr void __set_byteStride(int32_t value);
+  constexpr void __cordl_internal_set_byteStride(int32_t value);
 
-  constexpr int32_t& __get_bufferId();
+  constexpr int32_t& __cordl_internal_get_bufferId();
 
-  constexpr int32_t const& __get_bufferId() const;
+  constexpr int32_t const& __cordl_internal_get_bufferId() const;
 
-  constexpr void __set_bufferId(int32_t value);
+  constexpr void __cordl_internal_set_bufferId(int32_t value);
 
-  constexpr int32_t& __get_bufferLength();
+  constexpr int32_t& __cordl_internal_get_bufferLength();
 
-  constexpr int32_t const& __get_bufferLength() const;
+  constexpr int32_t const& __cordl_internal_get_bufferLength() const;
 
-  constexpr void __set_bufferLength(int32_t value);
+  constexpr void __cordl_internal_set_bufferLength(int32_t value);
 
-  constexpr int32_t& __get_additionalOffset();
+  constexpr int32_t& __cordl_internal_get_additionalOffset();
 
-  constexpr int32_t const& __get_additionalOffset() const;
+  constexpr int32_t const& __cordl_internal_get_additionalOffset() const;
 
-  constexpr void __set_additionalOffset(int32_t value);
+  constexpr void __cordl_internal_set_additionalOffset(int32_t value);
 
-  constexpr ::GlobalNamespace::OVRGLTFType& __get_dataType();
+  constexpr ::GlobalNamespace::OVRGLTFType& __cordl_internal_get_dataType();
 
-  constexpr ::GlobalNamespace::OVRGLTFType const& __get_dataType() const;
+  constexpr ::GlobalNamespace::OVRGLTFType const& __cordl_internal_get_dataType() const;
 
-  constexpr void __set_dataType(::GlobalNamespace::OVRGLTFType value);
+  constexpr void __cordl_internal_set_dataType(::GlobalNamespace::OVRGLTFType value);
 
-  constexpr ::GlobalNamespace::OVRGLTFComponentType& __get_componentType();
+  constexpr ::GlobalNamespace::OVRGLTFComponentType& __cordl_internal_get_componentType();
 
-  constexpr ::GlobalNamespace::OVRGLTFComponentType const& __get_componentType() const;
+  constexpr ::GlobalNamespace::OVRGLTFComponentType const& __cordl_internal_get_componentType() const;
 
-  constexpr void __set_componentType(::GlobalNamespace::OVRGLTFComponentType value);
+  constexpr void __cordl_internal_set_componentType(::GlobalNamespace::OVRGLTFComponentType value);
 
-  constexpr int32_t& __get_dataCount();
+  constexpr int32_t& __cordl_internal_get_dataCount();
 
-  constexpr int32_t const& __get_dataCount() const;
+  constexpr int32_t const& __cordl_internal_get_dataCount() const;
 
-  constexpr void __set_dataCount(int32_t value);
+  constexpr void __cordl_internal_set_dataCount(int32_t value);
 
   static inline ::GlobalNamespace::OVRGLTFAccessor* New_ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
 

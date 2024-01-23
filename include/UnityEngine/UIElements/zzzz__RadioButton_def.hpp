@@ -47,19 +47,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__RadioButton__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914 }), TypeDefinitionIndex(TypeDefinitionIndex(6992)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7131))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7077)) CS Name: ::RadioButton::UxmlTraits*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6992)), TypeDefinitionIndex(TypeDefinitionIndex(7131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7077)) CS Name: ::RadioButton::UxmlTraits*
 class CORDL_TYPE __RadioButton__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
   // Declarations
   /// @brief Field m_Text, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Text();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Text() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e31424, size 0x118, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -98,7 +98,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__RadioButton__UxmlTraits, ___
 // SizeInfo { instance_size: 1072, native_size: -1, calculated_instance_size: 1072, calculated_native_size: 1072, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7067))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7067))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7078))
 // CS Name: ::UnityEngine.UIElements::RadioButton*
 class CORDL_TYPE RadioButton : public ::UnityEngine::UIElements::BaseBoolField {
@@ -109,7 +109,7 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__RadioButton__UxmlFactory;
 
   /// @brief Field m_CheckmarkBackground, offset 0x428, size 0x8
-  __declspec(property(get = __get_m_CheckmarkBackground, put = __set_m_CheckmarkBackground))::UnityEngine::UIElements::VisualElement* m_CheckmarkBackground;
+  __declspec(property(get = __cordl_internal_get_m_CheckmarkBackground, put = __cordl_internal_set_m_CheckmarkBackground))::UnityEngine::UIElements::VisualElement* m_CheckmarkBackground;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -137,11 +137,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBoxOption"
   constexpr ::UnityEngine::UIElements::IGroupBoxOption* i___UnityEngine__UIElements__IGroupBoxOption() noexcept;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_CheckmarkBackground();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckmarkBackground();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_CheckmarkBackground() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CheckmarkBackground() const;
 
-  constexpr void __set_m_CheckmarkBackground(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_CheckmarkBackground(::UnityEngine::UIElements::VisualElement* value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -230,8 +230,8 @@ static_assert(offsetof(::UnityEngine::UIElements::RadioButton, ___m_CheckmarkBac
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7078)), TypeDefinitionIndex(TypeDefinitionIndex(7077)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5271 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7076)) CS Name: ::RadioButton::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7077)), TypeDefinitionIndex(TypeDefinitionIndex(7078)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5271 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7076)) CS Name: ::RadioButton::UxmlFactory*
 class CORDL_TYPE __RadioButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButton*, ::UnityEngine::UIElements::__RadioButton__UxmlTraits*> {
 public:
   // Declarations

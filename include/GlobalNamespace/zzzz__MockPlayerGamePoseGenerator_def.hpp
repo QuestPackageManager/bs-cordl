@@ -45,26 +45,28 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15515))
 // CS Name: ::MockPlayerGamePoseGenerator*
 class CORDL_TYPE MockPlayerGamePoseGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __get_multiplayerSessionManager, put = __set_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get_multiplayerSessionManager,
+                      put = __cordl_internal_set_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
   /// @brief Field gameplayRpcManager, offset 0x18, size 0x8
-  __declspec(property(get = __get_gameplayRpcManager, put = __set_gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get_gameplayRpcManager, put = __cordl_internal_set_gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
 
   /// @brief Field leftHanded, offset 0x20, size 0x1
-  __declspec(property(get = __get_leftHanded, put = __set_leftHanded)) bool leftHanded;
+  __declspec(property(get = __cordl_internal_get_leftHanded, put = __cordl_internal_set_leftHanded)) bool leftHanded;
 
   /// @brief Field mockNodePoseSyncStateSender, offset 0x28, size 0x8
-  __declspec(property(get = __get_mockNodePoseSyncStateSender, put = __set_mockNodePoseSyncStateSender))::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
+  __declspec(property(get = __cordl_internal_get_mockNodePoseSyncStateSender,
+                      put = __cordl_internal_set_mockNodePoseSyncStateSender))::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
 
   /// @brief Field mockScoreSyncStateSender, offset 0x30, size 0x8
-  __declspec(property(get = __get_mockScoreSyncStateSender, put = __set_mockScoreSyncStateSender))::GlobalNamespace::MockScoreSyncStateSender* mockScoreSyncStateSender;
+  __declspec(property(get = __cordl_internal_get_mockScoreSyncStateSender, put = __cordl_internal_set_mockScoreSyncStateSender))::GlobalNamespace::MockScoreSyncStateSender* mockScoreSyncStateSender;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -72,35 +74,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get_multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get_multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get_multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get_multiplayerSessionManager() const;
 
-  constexpr void __set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get_gameplayRpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get_gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get_gameplayRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get_gameplayRpcManager() const;
 
-  constexpr void __set_gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set_gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr bool& __get_leftHanded();
+  constexpr bool& __cordl_internal_get_leftHanded();
 
-  constexpr bool const& __get_leftHanded() const;
+  constexpr bool const& __cordl_internal_get_leftHanded() const;
 
-  constexpr void __set_leftHanded(bool value);
+  constexpr void __cordl_internal_set_leftHanded(bool value);
 
-  constexpr ::GlobalNamespace::MockNodePoseSyncStateSender*& __get_mockNodePoseSyncStateSender();
+  constexpr ::GlobalNamespace::MockNodePoseSyncStateSender*& __cordl_internal_get_mockNodePoseSyncStateSender();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockNodePoseSyncStateSender*> const& __get_mockNodePoseSyncStateSender() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockNodePoseSyncStateSender*> const& __cordl_internal_get_mockNodePoseSyncStateSender() const;
 
-  constexpr void __set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender* value);
+  constexpr void __cordl_internal_set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender* value);
 
-  constexpr ::GlobalNamespace::MockScoreSyncStateSender*& __get_mockScoreSyncStateSender();
+  constexpr ::GlobalNamespace::MockScoreSyncStateSender*& __cordl_internal_get_mockScoreSyncStateSender();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockScoreSyncStateSender*> const& __get_mockScoreSyncStateSender() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockScoreSyncStateSender*> const& __cordl_internal_get_mockScoreSyncStateSender() const;
 
-  constexpr void __set_mockScoreSyncStateSender(::GlobalNamespace::MockScoreSyncStateSender* value);
+  constexpr void __cordl_internal_set_mockScoreSyncStateSender(::GlobalNamespace::MockScoreSyncStateSender* value);
 
   static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);

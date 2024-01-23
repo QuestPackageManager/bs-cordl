@@ -29,14 +29,14 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 160 }), TypeDefinitionIndex(TypeDefinitionIndex(11085))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 160 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11086))
 // CS Name: ::Zenject::StaticMemoryPool`1<TValue>*
 class CORDL_TYPE StaticMemoryPool_1 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
 public:
   // Declarations
   /// @brief Field _onSpawnMethod, offset 0x28, size 0x8
-  __declspec(property(get = __get__onSpawnMethod, put = __set__onSpawnMethod))::System::Action_1<TValue>* _onSpawnMethod;
+  __declspec(property(get = __cordl_internal_get__onSpawnMethod, put = __cordl_internal_set__onSpawnMethod))::System::Action_1<TValue>* _onSpawnMethod;
 
   __declspec(property(put = set_OnSpawnMethod))::System::Action_1<TValue>* OnSpawnMethod;
 
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::Zenject::IMemoryPool"
   constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
-  constexpr ::System::Action_1<TValue>*& __get__onSpawnMethod();
+  constexpr ::System::Action_1<TValue>*& __cordl_internal_get__onSpawnMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __get__onSpawnMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __cordl_internal_get__onSpawnMethod() const;
 
-  constexpr void __set__onSpawnMethod(::System::Action_1<TValue>* value);
+  constexpr void __cordl_internal_set__onSpawnMethod(::System::Action_1<TValue>* value);
 
   static inline ::Zenject::StaticMemoryPool_1<TValue>* New_ctor(::System::Action_1<TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod, int32_t initialSize);
 

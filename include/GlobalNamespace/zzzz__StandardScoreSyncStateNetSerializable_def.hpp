@@ -41,20 +41,20 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12988))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12980))
 // CS Name: ::StandardScoreSyncStateNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateNetSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _state, offset 0x10, size 0x14
-  __declspec(property(get = __get__state, put = __set__state))::GlobalNamespace::StandardScoreSyncState _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::StandardScoreSyncState _state;
 
   /// @brief Field <id>k__BackingField, offset 0x24, size 0x1
-  __declspec(property(get = __get__id_k__BackingField, put = __set__id_k__BackingField))::GlobalNamespace::SyncStateId _id_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__id_k__BackingField, put = __cordl_internal_set__id_k__BackingField))::GlobalNamespace::SyncStateId _id_k__BackingField;
 
   /// @brief Field <time>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__time_k__BackingField, put = __set__time_k__BackingField)) int64_t _time_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) int64_t _time_k__BackingField;
 
   __declspec(property(get = get_id, put = set_id))::GlobalNamespace::SyncStateId id;
 
@@ -80,23 +80,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
   constexpr ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>* i___GlobalNamespace__ISyncStateSerializable_1___GlobalNamespace__StandardScoreSyncState_() noexcept;
 
-  constexpr ::GlobalNamespace::StandardScoreSyncState& __get__state();
+  constexpr ::GlobalNamespace::StandardScoreSyncState& __cordl_internal_get__state();
 
-  constexpr ::GlobalNamespace::StandardScoreSyncState const& __get__state() const;
+  constexpr ::GlobalNamespace::StandardScoreSyncState const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::GlobalNamespace::StandardScoreSyncState value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::StandardScoreSyncState value);
 
-  constexpr ::GlobalNamespace::SyncStateId& __get__id_k__BackingField();
+  constexpr ::GlobalNamespace::SyncStateId& __cordl_internal_get__id_k__BackingField();
 
-  constexpr ::GlobalNamespace::SyncStateId const& __get__id_k__BackingField() const;
+  constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__id_k__BackingField() const;
 
-  constexpr void __set__id_k__BackingField(::GlobalNamespace::SyncStateId value);
+  constexpr void __cordl_internal_set__id_k__BackingField(::GlobalNamespace::SyncStateId value);
 
-  constexpr int64_t& __get__time_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__time_k__BackingField();
 
-  constexpr int64_t const& __get__time_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__time_k__BackingField() const;
 
-  constexpr void __set__time_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__time_k__BackingField(int64_t value);
 
   /// @brief Method get_pool, addr 0xe5aabc, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();

@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12723))
 // CS Name: ::EncryptionUtility::IEncryptionState*
 class CORDL_TYPE __EncryptionUtility__IEncryptionState {
@@ -96,44 +96,46 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12724))
 // CS Name: ::EncryptionUtility::EncryptionState*
 class CORDL_TYPE __EncryptionUtility__EncryptionState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _isValid, offset 0x10, size 0x1
-  __declspec(property(get = __get__isValid, put = __set__isValid)) bool _isValid;
+  __declspec(property(get = __cordl_internal_get__isValid, put = __cordl_internal_set__isValid)) bool _isValid;
 
   /// @brief Field _lastSentSequenceNum, offset 0x14, size 0x4
-  __declspec(property(get = __get__lastSentSequenceNum, put = __set__lastSentSequenceNum)) int32_t _lastSentSequenceNum;
+  __declspec(property(get = __cordl_internal_get__lastSentSequenceNum, put = __cordl_internal_set__lastSentSequenceNum)) int32_t _lastSentSequenceNum;
 
   /// @brief Field _hasReceivedSequenceNum, offset 0x18, size 0x1
-  __declspec(property(get = __get__hasReceivedSequenceNum, put = __set__hasReceivedSequenceNum)) bool _hasReceivedSequenceNum;
+  __declspec(property(get = __cordl_internal_get__hasReceivedSequenceNum, put = __cordl_internal_set__hasReceivedSequenceNum)) bool _hasReceivedSequenceNum;
 
   /// @brief Field _lastReceivedSequenceNum, offset 0x1c, size 0x4
-  __declspec(property(get = __get__lastReceivedSequenceNum, put = __set__lastReceivedSequenceNum)) uint32_t _lastReceivedSequenceNum;
+  __declspec(property(get = __cordl_internal_get__lastReceivedSequenceNum, put = __cordl_internal_set__lastReceivedSequenceNum)) uint32_t _lastReceivedSequenceNum;
 
   /// @brief Field _receivedSequenceNumBuffer, offset 0x20, size 0x8
-  __declspec(property(get = __get__receivedSequenceNumBuffer, put = __set__receivedSequenceNumBuffer))::ArrayW<bool, ::Array<bool>*> _receivedSequenceNumBuffer;
+  __declspec(property(get = __cordl_internal_get__receivedSequenceNumBuffer, put = __cordl_internal_set__receivedSequenceNumBuffer))::ArrayW<bool, ::Array<bool>*> _receivedSequenceNumBuffer;
 
   /// @brief Field sendKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_sendKey, put = __set_sendKey))::ArrayW<uint8_t, ::Array<uint8_t>*> sendKey;
+  __declspec(property(get = __cordl_internal_get_sendKey, put = __cordl_internal_set_sendKey))::ArrayW<uint8_t, ::Array<uint8_t>*> sendKey;
 
   /// @brief Field receiveKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_receiveKey, put = __set_receiveKey))::ArrayW<uint8_t, ::Array<uint8_t>*> receiveKey;
+  __declspec(property(get = __cordl_internal_get_receiveKey, put = __cordl_internal_set_receiveKey))::ArrayW<uint8_t, ::Array<uint8_t>*> receiveKey;
 
   /// @brief Field _sendMacKey, offset 0x38, size 0x8
-  __declspec(property(get = __get__sendMacKey, put = __set__sendMacKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _sendMacKey;
+  __declspec(property(get = __cordl_internal_get__sendMacKey, put = __cordl_internal_set__sendMacKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _sendMacKey;
 
   /// @brief Field _receiveMacKey, offset 0x40, size 0x8
-  __declspec(property(get = __get__receiveMacKey, put = __set__receiveMacKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _receiveMacKey;
+  __declspec(property(get = __cordl_internal_get__receiveMacKey, put = __cordl_internal_set__receiveMacKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _receiveMacKey;
 
   /// @brief Field _sendMacQueue, offset 0x48, size 0x8
-  __declspec(property(get = __get__sendMacQueue, put = __set__sendMacQueue))::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* _sendMacQueue;
+  __declspec(property(get = __cordl_internal_get__sendMacQueue,
+                      put = __cordl_internal_set__sendMacQueue))::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* _sendMacQueue;
 
   /// @brief Field _receiveMacQueue, offset 0x50, size 0x8
-  __declspec(property(get = __get__receiveMacQueue, put = __set__receiveMacQueue))::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* _receiveMacQueue;
+  __declspec(property(get = __cordl_internal_get__receiveMacQueue,
+                      put = __cordl_internal_set__receiveMacQueue))::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* _receiveMacQueue;
 
   __declspec(property(get = get_isValid)) bool isValid;
 
@@ -149,71 +151,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get__isValid();
+  constexpr bool& __cordl_internal_get__isValid();
 
-  constexpr bool const& __get__isValid() const;
+  constexpr bool const& __cordl_internal_get__isValid() const;
 
-  constexpr void __set__isValid(bool value);
+  constexpr void __cordl_internal_set__isValid(bool value);
 
-  constexpr int32_t& __get__lastSentSequenceNum();
+  constexpr int32_t& __cordl_internal_get__lastSentSequenceNum();
 
-  constexpr int32_t const& __get__lastSentSequenceNum() const;
+  constexpr int32_t const& __cordl_internal_get__lastSentSequenceNum() const;
 
-  constexpr void __set__lastSentSequenceNum(int32_t value);
+  constexpr void __cordl_internal_set__lastSentSequenceNum(int32_t value);
 
-  constexpr bool& __get__hasReceivedSequenceNum();
+  constexpr bool& __cordl_internal_get__hasReceivedSequenceNum();
 
-  constexpr bool const& __get__hasReceivedSequenceNum() const;
+  constexpr bool const& __cordl_internal_get__hasReceivedSequenceNum() const;
 
-  constexpr void __set__hasReceivedSequenceNum(bool value);
+  constexpr void __cordl_internal_set__hasReceivedSequenceNum(bool value);
 
-  constexpr uint32_t& __get__lastReceivedSequenceNum();
+  constexpr uint32_t& __cordl_internal_get__lastReceivedSequenceNum();
 
-  constexpr uint32_t const& __get__lastReceivedSequenceNum() const;
+  constexpr uint32_t const& __cordl_internal_get__lastReceivedSequenceNum() const;
 
-  constexpr void __set__lastReceivedSequenceNum(uint32_t value);
+  constexpr void __cordl_internal_set__lastReceivedSequenceNum(uint32_t value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get__receivedSequenceNumBuffer();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__receivedSequenceNumBuffer();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get__receivedSequenceNumBuffer() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__receivedSequenceNumBuffer() const;
 
-  constexpr void __set__receivedSequenceNumBuffer(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set__receivedSequenceNumBuffer(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_sendKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sendKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_sendKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sendKey() const;
 
-  constexpr void __set_sendKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_sendKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_receiveKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_receiveKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_receiveKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_receiveKey() const;
 
-  constexpr void __set_receiveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_receiveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__sendMacKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__sendMacKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__sendMacKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__sendMacKey() const;
 
-  constexpr void __set__sendMacKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__sendMacKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__receiveMacKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__receiveMacKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__receiveMacKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__receiveMacKey() const;
 
-  constexpr void __set__receiveMacKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__receiveMacKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& __get__sendMacQueue();
+  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& __cordl_internal_get__sendMacQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*> const& __get__sendMacQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*> const& __cordl_internal_get__sendMacQueue() const;
 
-  constexpr void __set__sendMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* value);
+  constexpr void __cordl_internal_set__sendMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* value);
 
-  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& __get__receiveMacQueue();
+  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& __cordl_internal_get__receiveMacQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*> const& __get__receiveMacQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*> const& __cordl_internal_get__receiveMacQueue() const;
 
-  constexpr void __set__receiveMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* value);
+  constexpr void __cordl_internal_set__receiveMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* value);
 
   /// @brief Method get_isValid, addr 0xe36614, size 0x18, virtual true, abstract: false, final true
   inline bool get_isValid();
@@ -340,47 +342,47 @@ static_assert(offsetof(::GlobalNamespace::__EncryptionUtility__EncryptionState, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12725))
 // CS Name: ::EncryptionUtility::<>c__DisplayClass18_0*
 class CORDL_TYPE __EncryptionUtility____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field preMasterSecret, offset 0x10, size 0x8
-  __declspec(property(get = __get_preMasterSecret, put = __set_preMasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret;
+  __declspec(property(get = __cordl_internal_get_preMasterSecret, put = __cordl_internal_set_preMasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret;
 
   /// @brief Field serverSeed, offset 0x18, size 0x8
-  __declspec(property(get = __get_serverSeed, put = __set_serverSeed))::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed;
+  __declspec(property(get = __cordl_internal_get_serverSeed, put = __cordl_internal_set_serverSeed))::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed;
 
   /// @brief Field clientSeed, offset 0x20, size 0x8
-  __declspec(property(get = __get_clientSeed, put = __set_clientSeed))::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed;
+  __declspec(property(get = __cordl_internal_get_clientSeed, put = __cordl_internal_set_clientSeed))::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed;
 
   /// @brief Field isClient, offset 0x28, size 0x1
-  __declspec(property(get = __get_isClient, put = __set_isClient)) bool isClient;
+  __declspec(property(get = __cordl_internal_get_isClient, put = __cordl_internal_set_isClient)) bool isClient;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_preMasterSecret();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_preMasterSecret();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_preMasterSecret() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_preMasterSecret() const;
 
-  constexpr void __set_preMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_preMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_serverSeed();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_serverSeed();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_serverSeed() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_serverSeed() const;
 
-  constexpr void __set_serverSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_serverSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_clientSeed();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_clientSeed();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_clientSeed() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientSeed() const;
 
-  constexpr void __set_clientSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_clientSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_isClient();
+  constexpr bool& __cordl_internal_get_isClient();
 
-  constexpr bool const& __get_isClient() const;
+  constexpr bool const& __cordl_internal_get_isClient() const;
 
-  constexpr void __set_isClient(bool value);
+  constexpr void __cordl_internal_set_isClient(bool value);
 
   static inline ::GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0* New_ctor();
 
@@ -434,7 +436,7 @@ static_assert(offsetof(::GlobalNamespace::__EncryptionUtility____c__DisplayClass
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12726))
 // CS Name: ::EncryptionUtility*
 class CORDL_TYPE EncryptionUtility : public ::System::Object {

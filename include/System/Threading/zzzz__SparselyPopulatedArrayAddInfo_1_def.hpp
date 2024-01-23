@@ -20,7 +20,7 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2693))
 // CS Name: ::System.Threading::SparselyPopulatedArrayAddInfo`1<T>
 struct CORDL_TYPE SparselyPopulatedArrayAddInfo_1 {

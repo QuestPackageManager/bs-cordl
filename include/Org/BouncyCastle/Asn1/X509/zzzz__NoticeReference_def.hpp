@@ -37,31 +37,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::NoticeReference);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(371))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::NoticeReference*
 class CORDL_TYPE NoticeReference : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field organization, offset 0x10, size 0x8
-  __declspec(property(get = __get_organization, put = __set_organization))::Org::BouncyCastle::Asn1::X509::DisplayText* organization;
+  __declspec(property(get = __cordl_internal_get_organization, put = __cordl_internal_set_organization))::Org::BouncyCastle::Asn1::X509::DisplayText* organization;
 
   /// @brief Field noticeNumbers, offset 0x18, size 0x8
-  __declspec(property(get = __get_noticeNumbers, put = __set_noticeNumbers))::Org::BouncyCastle::Asn1::Asn1Sequence* noticeNumbers;
+  __declspec(property(get = __cordl_internal_get_noticeNumbers, put = __cordl_internal_set_noticeNumbers))::Org::BouncyCastle::Asn1::Asn1Sequence* noticeNumbers;
 
   __declspec(property(get = get_Organization))::Org::BouncyCastle::Asn1::X509::DisplayText* Organization;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& __get_organization();
+  constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& __cordl_internal_get_organization();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DisplayText*> const& __get_organization() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DisplayText*> const& __cordl_internal_get_organization() const;
 
-  constexpr void __set_organization(::Org::BouncyCastle::Asn1::X509::DisplayText* value);
+  constexpr void __cordl_internal_set_organization(::Org::BouncyCastle::Asn1::X509::DisplayText* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_noticeNumbers();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_noticeNumbers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_noticeNumbers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_noticeNumbers() const;
 
-  constexpr void __set_noticeNumbers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_noticeNumbers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method ConvertVector, addr 0x1192e8c, size 0x47c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ConvertVector(::System::Collections::IList* numbers);

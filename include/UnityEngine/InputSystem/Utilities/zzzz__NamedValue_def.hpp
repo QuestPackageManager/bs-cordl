@@ -31,7 +31,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::NamedValue);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6699))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6699))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6683))
 // CS Name: ::UnityEngine.InputSystem.Utilities::NamedValue
 struct CORDL_TYPE NamedValue {

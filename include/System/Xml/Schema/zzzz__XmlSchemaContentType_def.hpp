@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaContentType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11722))
 // CS Name: ::System.Xml.Schema::XmlSchemaContentType
 struct CORDL_TYPE XmlSchemaContentType {

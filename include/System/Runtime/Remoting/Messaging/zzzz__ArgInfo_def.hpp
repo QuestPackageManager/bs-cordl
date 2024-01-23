@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ArgInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3150))
 // CS Name: ::System.Runtime.Remoting.Messaging::ArgInfo*
 class CORDL_TYPE ArgInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _paramMap, offset 0x10, size 0x8
-  __declspec(property(get = __get__paramMap, put = __set__paramMap))::ArrayW<int32_t, ::Array<int32_t>*> _paramMap;
+  __declspec(property(get = __cordl_internal_get__paramMap, put = __cordl_internal_set__paramMap))::ArrayW<int32_t, ::Array<int32_t>*> _paramMap;
 
   /// @brief Field _inoutArgCount, offset 0x18, size 0x4
-  __declspec(property(get = __get__inoutArgCount, put = __set__inoutArgCount)) int32_t _inoutArgCount;
+  __declspec(property(get = __cordl_internal_get__inoutArgCount, put = __cordl_internal_set__inoutArgCount)) int32_t _inoutArgCount;
 
   /// @brief Field _method, offset 0x20, size 0x8
-  __declspec(property(get = __get__method, put = __set__method))::System::Reflection::MethodBase* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Reflection::MethodBase* _method;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__paramMap();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__paramMap();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__paramMap() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__paramMap() const;
 
-  constexpr void __set__paramMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__paramMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get__inoutArgCount();
+  constexpr int32_t& __cordl_internal_get__inoutArgCount();
 
-  constexpr int32_t const& __get__inoutArgCount() const;
+  constexpr int32_t const& __cordl_internal_get__inoutArgCount() const;
 
-  constexpr void __set__inoutArgCount(int32_t value);
+  constexpr void __cordl_internal_set__inoutArgCount(int32_t value);
 
-  constexpr ::System::Reflection::MethodBase*& __get__method();
+  constexpr ::System::Reflection::MethodBase*& __cordl_internal_get__method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __get__method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __cordl_internal_get__method() const;
 
-  constexpr void __set__method(::System::Reflection::MethodBase* value);
+  constexpr void __cordl_internal_set__method(::System::Reflection::MethodBase* value);
 
   static inline ::System::Runtime::Remoting::Messaging::ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
 

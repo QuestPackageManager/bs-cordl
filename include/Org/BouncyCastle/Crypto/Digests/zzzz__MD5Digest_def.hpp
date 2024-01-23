@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::MD5Digest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(750))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(750))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(759))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::MD5Digest*
 class CORDL_TYPE MD5Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
   // Declarations
   /// @brief Field H1, offset 0x28, size 0x4
-  __declspec(property(get = __get_H1, put = __set_H1)) uint32_t H1;
+  __declspec(property(get = __cordl_internal_get_H1, put = __cordl_internal_set_H1)) uint32_t H1;
 
   /// @brief Field H2, offset 0x2c, size 0x4
-  __declspec(property(get = __get_H2, put = __set_H2)) uint32_t H2;
+  __declspec(property(get = __cordl_internal_get_H2, put = __cordl_internal_set_H2)) uint32_t H2;
 
   /// @brief Field H3, offset 0x30, size 0x4
-  __declspec(property(get = __get_H3, put = __set_H3)) uint32_t H3;
+  __declspec(property(get = __cordl_internal_get_H3, put = __cordl_internal_set_H3)) uint32_t H3;
 
   /// @brief Field H4, offset 0x34, size 0x4
-  __declspec(property(get = __get_H4, put = __set_H4)) uint32_t H4;
+  __declspec(property(get = __cordl_internal_get_H4, put = __cordl_internal_set_H4)) uint32_t H4;
 
   /// @brief Field X, offset 0x38, size 0x8
-  __declspec(property(get = __get_X, put = __set_X))::ArrayW<uint32_t, ::Array<uint32_t>*> X;
+  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X))::ArrayW<uint32_t, ::Array<uint32_t>*> X;
 
   /// @brief Field xOff, offset 0x40, size 0x4
-  __declspec(property(get = __get_xOff, put = __set_xOff)) int32_t xOff;
+  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
   /// @brief Field S11, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_S11, put = setStaticF_S11)) int32_t S11;
@@ -94,41 +94,41 @@ public:
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr uint32_t& __get_H1();
+  constexpr uint32_t& __cordl_internal_get_H1();
 
-  constexpr uint32_t const& __get_H1() const;
+  constexpr uint32_t const& __cordl_internal_get_H1() const;
 
-  constexpr void __set_H1(uint32_t value);
+  constexpr void __cordl_internal_set_H1(uint32_t value);
 
-  constexpr uint32_t& __get_H2();
+  constexpr uint32_t& __cordl_internal_get_H2();
 
-  constexpr uint32_t const& __get_H2() const;
+  constexpr uint32_t const& __cordl_internal_get_H2() const;
 
-  constexpr void __set_H2(uint32_t value);
+  constexpr void __cordl_internal_set_H2(uint32_t value);
 
-  constexpr uint32_t& __get_H3();
+  constexpr uint32_t& __cordl_internal_get_H3();
 
-  constexpr uint32_t const& __get_H3() const;
+  constexpr uint32_t const& __cordl_internal_get_H3() const;
 
-  constexpr void __set_H3(uint32_t value);
+  constexpr void __cordl_internal_set_H3(uint32_t value);
 
-  constexpr uint32_t& __get_H4();
+  constexpr uint32_t& __cordl_internal_get_H4();
 
-  constexpr uint32_t const& __get_H4() const;
+  constexpr uint32_t const& __cordl_internal_get_H4() const;
 
-  constexpr void __set_H4(uint32_t value);
+  constexpr void __cordl_internal_set_H4(uint32_t value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_X();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_X();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_X() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_X() const;
 
-  constexpr void __set_X(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_X(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr int32_t& __get_xOff();
+  constexpr int32_t& __cordl_internal_get_xOff();
 
-  constexpr int32_t const& __get_xOff() const;
+  constexpr int32_t const& __cordl_internal_get_xOff() const;
 
-  constexpr void __set_xOff(int32_t value);
+  constexpr void __cordl_internal_set_xOff(int32_t value);
 
   static inline void setStaticF_S11(int32_t value);
 

@@ -61,32 +61,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1292))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1292))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1323))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsServerProtocol*
 class CORDL_TYPE TlsServerProtocol : public ::Org::BouncyCastle::Crypto::Tls::TlsProtocol {
 public:
   // Declarations
   /// @brief Field mTlsServer, offset 0xa8, size 0x8
-  __declspec(property(get = __get_mTlsServer, put = __set_mTlsServer))::Org::BouncyCastle::Crypto::Tls::TlsServer* mTlsServer;
+  __declspec(property(get = __cordl_internal_get_mTlsServer, put = __cordl_internal_set_mTlsServer))::Org::BouncyCastle::Crypto::Tls::TlsServer* mTlsServer;
 
   /// @brief Field mTlsServerContext, offset 0xb0, size 0x8
-  __declspec(property(get = __get_mTlsServerContext, put = __set_mTlsServerContext))::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* mTlsServerContext;
+  __declspec(property(get = __cordl_internal_get_mTlsServerContext, put = __cordl_internal_set_mTlsServerContext))::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* mTlsServerContext;
 
   /// @brief Field mKeyExchange, offset 0xb8, size 0x8
-  __declspec(property(get = __get_mKeyExchange, put = __set_mKeyExchange))::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* mKeyExchange;
+  __declspec(property(get = __cordl_internal_get_mKeyExchange, put = __cordl_internal_set_mKeyExchange))::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* mKeyExchange;
 
   /// @brief Field mServerCredentials, offset 0xc0, size 0x8
-  __declspec(property(get = __get_mServerCredentials, put = __set_mServerCredentials))::Org::BouncyCastle::Crypto::Tls::TlsCredentials* mServerCredentials;
+  __declspec(property(get = __cordl_internal_get_mServerCredentials, put = __cordl_internal_set_mServerCredentials))::Org::BouncyCastle::Crypto::Tls::TlsCredentials* mServerCredentials;
 
   /// @brief Field mCertificateRequest, offset 0xc8, size 0x8
-  __declspec(property(get = __get_mCertificateRequest, put = __set_mCertificateRequest))::Org::BouncyCastle::Crypto::Tls::CertificateRequest* mCertificateRequest;
+  __declspec(property(get = __cordl_internal_get_mCertificateRequest, put = __cordl_internal_set_mCertificateRequest))::Org::BouncyCastle::Crypto::Tls::CertificateRequest* mCertificateRequest;
 
   /// @brief Field mClientCertificateType, offset 0xd0, size 0x2
-  __declspec(property(get = __get_mClientCertificateType, put = __set_mClientCertificateType)) int16_t mClientCertificateType;
+  __declspec(property(get = __cordl_internal_get_mClientCertificateType, put = __cordl_internal_set_mClientCertificateType)) int16_t mClientCertificateType;
 
   /// @brief Field mPrepareFinishHash, offset 0xd8, size 0x8
-  __declspec(property(get = __get_mPrepareFinishHash, put = __set_mPrepareFinishHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* mPrepareFinishHash;
+  __declspec(property(get = __cordl_internal_get_mPrepareFinishHash, put = __cordl_internal_set_mPrepareFinishHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* mPrepareFinishHash;
 
   __declspec(property(get = get_Context))::Org::BouncyCastle::Crypto::Tls::TlsContext* Context;
 
@@ -94,47 +94,47 @@ public:
 
   __declspec(property(get = get_Peer))::Org::BouncyCastle::Crypto::Tls::TlsPeer* Peer;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServer*& __get_mTlsServer();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServer*& __cordl_internal_get_mTlsServer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsServer*> const& __get_mTlsServer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsServer*> const& __cordl_internal_get_mTlsServer() const;
 
-  constexpr void __set_mTlsServer(::Org::BouncyCastle::Crypto::Tls::TlsServer* value);
+  constexpr void __cordl_internal_set_mTlsServer(::Org::BouncyCastle::Crypto::Tls::TlsServer* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl*& __get_mTlsServerContext();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl*& __cordl_internal_get_mTlsServerContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl*> const& __get_mTlsServerContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl*> const& __cordl_internal_get_mTlsServerContext() const;
 
-  constexpr void __set_mTlsServerContext(::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* value);
+  constexpr void __cordl_internal_set_mTlsServerContext(::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*& __get_mKeyExchange();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*& __cordl_internal_get_mKeyExchange();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*> const& __get_mKeyExchange() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*> const& __cordl_internal_get_mKeyExchange() const;
 
-  constexpr void __set_mKeyExchange(::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* value);
+  constexpr void __cordl_internal_set_mKeyExchange(::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*& __get_mServerCredentials();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*& __cordl_internal_get_mServerCredentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCredentials*> const& __get_mServerCredentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCredentials*> const& __cordl_internal_get_mServerCredentials() const;
 
-  constexpr void __set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* value);
+  constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateRequest*& __get_mCertificateRequest();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateRequest*& __cordl_internal_get_mCertificateRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::CertificateRequest*> const& __get_mCertificateRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::CertificateRequest*> const& __cordl_internal_get_mCertificateRequest() const;
 
-  constexpr void __set_mCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* value);
+  constexpr void __cordl_internal_set_mCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* value);
 
-  constexpr int16_t& __get_mClientCertificateType();
+  constexpr int16_t& __cordl_internal_get_mClientCertificateType();
 
-  constexpr int16_t const& __get_mClientCertificateType() const;
+  constexpr int16_t const& __cordl_internal_get_mClientCertificateType() const;
 
-  constexpr void __set_mClientCertificateType(int16_t value);
+  constexpr void __cordl_internal_set_mClientCertificateType(int16_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*& __get_mPrepareFinishHash();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*& __cordl_internal_get_mPrepareFinishHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*> const& __get_mPrepareFinishHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*> const& __cordl_internal_get_mPrepareFinishHash() const;
 
-  constexpr void __set_mPrepareFinishHash(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* value);
+  constexpr void __cordl_internal_set_mPrepareFinishHash(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 

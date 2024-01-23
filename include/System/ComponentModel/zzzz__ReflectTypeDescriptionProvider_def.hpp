@@ -74,85 +74,85 @@ MARK_REF_PTR_T(::System::ComponentModel::__ReflectTypeDescriptionProvider__Refle
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9476))
 // CS Name: ::ReflectTypeDescriptionProvider::ReflectedTypeData*
 class CORDL_TYPE __ReflectTypeDescriptionProvider__ReflectedTypeData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _type, offset 0x10, size 0x8
-  __declspec(property(get = __get__type, put = __set__type))::System::Type* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
   /// @brief Field _attributes, offset 0x18, size 0x8
-  __declspec(property(get = __get__attributes, put = __set__attributes))::System::ComponentModel::AttributeCollection* _attributes;
+  __declspec(property(get = __cordl_internal_get__attributes, put = __cordl_internal_set__attributes))::System::ComponentModel::AttributeCollection* _attributes;
 
   /// @brief Field _events, offset 0x20, size 0x8
-  __declspec(property(get = __get__events, put = __set__events))::System::ComponentModel::EventDescriptorCollection* _events;
+  __declspec(property(get = __cordl_internal_get__events, put = __cordl_internal_set__events))::System::ComponentModel::EventDescriptorCollection* _events;
 
   /// @brief Field _properties, offset 0x28, size 0x8
-  __declspec(property(get = __get__properties, put = __set__properties))::System::ComponentModel::PropertyDescriptorCollection* _properties;
+  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties))::System::ComponentModel::PropertyDescriptorCollection* _properties;
 
   /// @brief Field _converter, offset 0x30, size 0x8
-  __declspec(property(get = __get__converter, put = __set__converter))::System::ComponentModel::TypeConverter* _converter;
+  __declspec(property(get = __cordl_internal_get__converter, put = __cordl_internal_set__converter))::System::ComponentModel::TypeConverter* _converter;
 
   /// @brief Field _editors, offset 0x38, size 0x8
-  __declspec(property(get = __get__editors, put = __set__editors))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _editors;
+  __declspec(property(get = __cordl_internal_get__editors, put = __cordl_internal_set__editors))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _editors;
 
   /// @brief Field _editorTypes, offset 0x40, size 0x8
-  __declspec(property(get = __get__editorTypes, put = __set__editorTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _editorTypes;
+  __declspec(property(get = __cordl_internal_get__editorTypes, put = __cordl_internal_set__editorTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _editorTypes;
 
   /// @brief Field _editorCount, offset 0x48, size 0x4
-  __declspec(property(get = __get__editorCount, put = __set__editorCount)) int32_t _editorCount;
+  __declspec(property(get = __cordl_internal_get__editorCount, put = __cordl_internal_set__editorCount)) int32_t _editorCount;
 
   __declspec(property(get = get_IsPopulated)) bool IsPopulated;
 
-  constexpr ::System::Type*& __get__type();
+  constexpr ::System::Type*& __cordl_internal_get__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::System::Type* value);
+  constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  constexpr ::System::ComponentModel::AttributeCollection*& __get__attributes();
+  constexpr ::System::ComponentModel::AttributeCollection*& __cordl_internal_get__attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::AttributeCollection*> const& __get__attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::AttributeCollection*> const& __cordl_internal_get__attributes() const;
 
-  constexpr void __set__attributes(::System::ComponentModel::AttributeCollection* value);
+  constexpr void __cordl_internal_set__attributes(::System::ComponentModel::AttributeCollection* value);
 
-  constexpr ::System::ComponentModel::EventDescriptorCollection*& __get__events();
+  constexpr ::System::ComponentModel::EventDescriptorCollection*& __cordl_internal_get__events();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventDescriptorCollection*> const& __get__events() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventDescriptorCollection*> const& __cordl_internal_get__events() const;
 
-  constexpr void __set__events(::System::ComponentModel::EventDescriptorCollection* value);
+  constexpr void __cordl_internal_set__events(::System::ComponentModel::EventDescriptorCollection* value);
 
-  constexpr ::System::ComponentModel::PropertyDescriptorCollection*& __get__properties();
+  constexpr ::System::ComponentModel::PropertyDescriptorCollection*& __cordl_internal_get__properties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptorCollection*> const& __get__properties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptorCollection*> const& __cordl_internal_get__properties() const;
 
-  constexpr void __set__properties(::System::ComponentModel::PropertyDescriptorCollection* value);
+  constexpr void __cordl_internal_set__properties(::System::ComponentModel::PropertyDescriptorCollection* value);
 
-  constexpr ::System::ComponentModel::TypeConverter*& __get__converter();
+  constexpr ::System::ComponentModel::TypeConverter*& __cordl_internal_get__converter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const& __get__converter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const& __cordl_internal_get__converter() const;
 
-  constexpr void __set__converter(::System::ComponentModel::TypeConverter* value);
+  constexpr void __cordl_internal_set__converter(::System::ComponentModel::TypeConverter* value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__editors();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__editors();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__editors() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__editors() const;
 
-  constexpr void __set__editors(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__editors(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__editorTypes();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__editorTypes();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get__editorTypes() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__editorTypes() const;
 
-  constexpr void __set__editorTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set__editorTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  constexpr int32_t& __get__editorCount();
+  constexpr int32_t& __cordl_internal_get__editorCount();
 
-  constexpr int32_t const& __get__editorCount() const;
+  constexpr int32_t const& __cordl_internal_get__editorCount() const;
 
-  constexpr void __set__editorCount(int32_t value);
+  constexpr void __cordl_internal_set__editorCount(int32_t value);
 
   static inline ::System::ComponentModel::__ReflectTypeDescriptionProvider__ReflectedTypeData* New_ctor(::System::Type* type);
 
@@ -262,7 +262,7 @@ static_assert(offsetof(::System::ComponentModel::__ReflectTypeDescriptionProvide
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9460)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(9460))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9477))
 // CS Name: ::System.ComponentModel::ReflectTypeDescriptionProvider*
 class CORDL_TYPE ReflectTypeDescriptionProvider : public ::System::ComponentModel::TypeDescriptionProvider {
@@ -271,7 +271,7 @@ public:
   using ReflectedTypeData = ::System::ComponentModel::__ReflectTypeDescriptionProvider__ReflectedTypeData;
 
   /// @brief Field _typeData, offset 0x20, size 0x8
-  __declspec(property(get = __get__typeData, put = __set__typeData))::System::Collections::Hashtable* _typeData;
+  __declspec(property(get = __cordl_internal_get__typeData, put = __cordl_internal_set__typeData))::System::Collections::Hashtable* _typeData;
 
   /// @brief Field _typeConstructor, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__typeConstructor, put = setStaticF__typeConstructor))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _typeConstructor;
@@ -319,11 +319,11 @@ public:
   /// @brief Field _internalSyncObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__internalSyncObject, put = setStaticF__internalSyncObject))::System::Object* _internalSyncObject;
 
-  constexpr ::System::Collections::Hashtable*& __get__typeData();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__typeData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__typeData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__typeData() const;
 
-  constexpr void __set__typeData(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__typeData(::System::Collections::Hashtable* value);
 
   static inline void setStaticF__typeConstructor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 

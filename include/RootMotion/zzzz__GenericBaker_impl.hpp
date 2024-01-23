@@ -11,20 +11,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x218;
   constexpr static std::size_t addrs = 0x1230e20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::RootMotion::GenericBaker.GetCharacterRoot
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (::RootMotion::GenericBaker::*)()>(&::RootMotion::GenericBaker::GetCharacterRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::RootMotion::GenericBaker::*)()>(
+    &::RootMotion::GenericBaker::GetCharacterRoot)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x123123c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), 4));
@@ -38,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x1231244;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), 5));
@@ -52,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x1231430;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), 6));
@@ -67,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x1231694;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), 7));
@@ -81,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x12319ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), 8));
@@ -95,10 +96,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x1231038;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "IsIgnored", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "IsIgnored", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
     return ___internal_method;
   }
 };
@@ -109,10 +110,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x12310f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "BakePosition", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "BakePosition", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
     return ___internal_method;
   }
 };
@@ -123,117 +124,117 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x1231c0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& RootMotion::GenericBaker::__get_markAsLegacy() {
+constexpr bool& RootMotion::GenericBaker::__cordl_internal_get_markAsLegacy() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___markAsLegacy;
 }
-constexpr bool const& RootMotion::GenericBaker::__get_markAsLegacy() const {
+constexpr bool const& RootMotion::GenericBaker::__cordl_internal_get_markAsLegacy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___markAsLegacy;
 }
-constexpr void RootMotion::GenericBaker::__set_markAsLegacy(bool value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_markAsLegacy(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___markAsLegacy = value;
 }
-constexpr ::UnityEngine::Transform*& RootMotion::GenericBaker::__get_root() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::GenericBaker::__cordl_internal_get_root() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::GenericBaker::__get_root() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::GenericBaker::__cordl_internal_get_root() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
-constexpr void RootMotion::GenericBaker::__set_root(::UnityEngine::Transform* value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_root(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::GenericBaker::__get_rootNode() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::GenericBaker::__cordl_internal_get_rootNode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::GenericBaker::__get_rootNode() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::GenericBaker::__cordl_internal_get_rootNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootNode;
 }
-constexpr void RootMotion::GenericBaker::__set_rootNode(::UnityEngine::Transform* value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_rootNode(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& RootMotion::GenericBaker::__get_ignoreList() {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& RootMotion::GenericBaker::__cordl_internal_get_ignoreList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreList;
 }
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& RootMotion::GenericBaker::__get_ignoreList() const {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& RootMotion::GenericBaker::__cordl_internal_get_ignoreList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreList;
 }
-constexpr void RootMotion::GenericBaker::__set_ignoreList(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_ignoreList(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ignoreList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& RootMotion::GenericBaker::__get_bakePositionList() {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& RootMotion::GenericBaker::__cordl_internal_get_bakePositionList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bakePositionList;
 }
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& RootMotion::GenericBaker::__get_bakePositionList() const {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& RootMotion::GenericBaker::__cordl_internal_get_bakePositionList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bakePositionList;
 }
-constexpr void RootMotion::GenericBaker::__set_bakePositionList(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_bakePositionList(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bakePositionList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*>& RootMotion::GenericBaker::__get_children() {
+constexpr ::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*>& RootMotion::GenericBaker::__cordl_internal_get_children() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
-constexpr ::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> const& RootMotion::GenericBaker::__get_children() const {
+constexpr ::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> const& RootMotion::GenericBaker::__cordl_internal_get_children() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
-constexpr void RootMotion::GenericBaker::__set_children(::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_children(::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___children)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::RootMotion::BakerTransform*& RootMotion::GenericBaker::__get_rootChild() {
+constexpr ::RootMotion::BakerTransform*& RootMotion::GenericBaker::__cordl_internal_get_rootChild() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootChild;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerTransform*> const& RootMotion::GenericBaker::__get_rootChild() const {
+constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerTransform*> const& RootMotion::GenericBaker::__cordl_internal_get_rootChild() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootChild;
 }
-constexpr void RootMotion::GenericBaker::__set_rootChild(::RootMotion::BakerTransform* value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_rootChild(::RootMotion::BakerTransform* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootChild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& RootMotion::GenericBaker::__get_rootChildIndex() {
+constexpr int32_t& RootMotion::GenericBaker::__cordl_internal_get_rootChildIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootChildIndex;
 }
-constexpr int32_t const& RootMotion::GenericBaker::__get_rootChildIndex() const {
+constexpr int32_t const& RootMotion::GenericBaker::__cordl_internal_get_rootChildIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootChildIndex;
 }
-constexpr void RootMotion::GenericBaker::__set_rootChildIndex(int32_t value) {
+constexpr void RootMotion::GenericBaker::__cordl_internal_set_rootChildIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootChildIndex = value;
 }
 inline void RootMotion::GenericBaker::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Transform* RootMotion::GenericBaker::GetCharacterRoot() {
+inline ::UnityW<::UnityEngine::Transform> RootMotion::GenericBaker::GetCharacterRoot() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Transform*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
 }
 inline void RootMotion::GenericBaker::OnStartBaking() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -257,22 +258,22 @@ inline void RootMotion::GenericBaker::OnSetKeyframes(float_t time, bool lastFram
 }
 inline bool RootMotion::GenericBaker::IsIgnored(::UnityEngine::Transform* t) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "IsIgnored", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "IsIgnored", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, t);
 }
 inline bool RootMotion::GenericBaker::BakePosition(::UnityEngine::Transform* t) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "BakePosition", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "BakePosition", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, t);
 }
 inline ::RootMotion::GenericBaker* RootMotion::GenericBaker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::GenericBaker*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::GenericBaker*>());
 }
 inline void RootMotion::GenericBaker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

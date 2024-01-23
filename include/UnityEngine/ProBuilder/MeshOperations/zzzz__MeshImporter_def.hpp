@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12271))
 // CS Name: ::MeshImporter::<>c*
 class CORDL_TYPE __MeshImporter____c : public ::System::Object {
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12272))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImporter*
 class CORDL_TYPE MeshImporter : public ::System::Object {
@@ -107,43 +107,45 @@ public:
   using __c = ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c;
 
   /// @brief Field m_SourceMesh, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_SourceMesh, put = __set_m_SourceMesh))::UnityEngine::Mesh* m_SourceMesh;
+  __declspec(property(get = __cordl_internal_get_m_SourceMesh, put = __cordl_internal_set_m_SourceMesh))::UnityW<::UnityEngine::Mesh> m_SourceMesh;
 
   /// @brief Field m_SourceMaterials, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_SourceMaterials, put = __set_m_SourceMaterials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> m_SourceMaterials;
+  __declspec(property(get = __cordl_internal_get_m_SourceMaterials,
+                      put = __cordl_internal_set_m_SourceMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> m_SourceMaterials;
 
   /// @brief Field m_Destination, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Destination, put = __set_m_Destination))::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination;
+  __declspec(property(get = __cordl_internal_get_m_Destination, put = __cordl_internal_set_m_Destination))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Destination;
 
   /// @brief Field m_Vertices, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Vertices, put = __set_m_Vertices))::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> m_Vertices;
+  __declspec(property(get = __cordl_internal_get_m_Vertices,
+                      put = __cordl_internal_set_m_Vertices))::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> m_Vertices;
 
   /// @brief Field k_DefaultImportSettings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_DefaultImportSettings, put = setStaticF_k_DefaultImportSettings))::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* k_DefaultImportSettings;
 
-  constexpr ::UnityEngine::Mesh*& __get_m_SourceMesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_SourceMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get_m_SourceMesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_SourceMesh() const;
 
-  constexpr void __set_m_SourceMesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set_m_SourceMesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>& __get_m_SourceMaterials();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get_m_SourceMaterials();
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> const& __get_m_SourceMaterials() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get_m_SourceMaterials() const;
 
-  constexpr void __set_m_SourceMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
+  constexpr void __cordl_internal_set_m_SourceMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& __get_m_Destination();
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_m_Destination();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& __get_m_Destination() const;
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_m_Destination() const;
 
-  constexpr void __set_m_Destination(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_m_Destination(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*>& __get_m_Vertices();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*>& __cordl_internal_get_m_Vertices();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> const& __get_m_Vertices() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> const& __cordl_internal_get_m_Vertices() const;
 
-  constexpr void __set_m_Vertices(::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> value);
+  constexpr void __cordl_internal_set_m_Vertices(::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> value);
 
   static inline void setStaticF_k_DefaultImportSettings(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* value);
 
@@ -186,13 +188,13 @@ protected:
 
 public:
   /// @brief Field m_SourceMesh, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ___m_SourceMesh;
+  ::UnityW<::UnityEngine::Mesh> ___m_SourceMesh;
 
   /// @brief Field m_SourceMaterials, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> ___m_SourceMaterials;
+  ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> ___m_SourceMaterials;
 
   /// @brief Field m_Destination, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* ___m_Destination;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___m_Destination;
 
   /// @brief Field m_Vertices, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> ___m_Vertices;

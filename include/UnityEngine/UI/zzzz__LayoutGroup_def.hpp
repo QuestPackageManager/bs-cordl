@@ -61,20 +61,20 @@ MARK_REF_PTR_T(::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13090))
 // CS Name: ::LayoutGroup::<DelayedSetDirty>d__56*
 class CORDL_TYPE __LayoutGroup___DelayedSetDirty_d__56 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get_rectTransform, put = __set_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = __cordl_internal_get_rectTransform, put = __cordl_internal_set_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -98,23 +98,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_rectTransform() const;
 
-  constexpr void __set_rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
   static inline ::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56* New_ctor(int32_t __1__state);
 
@@ -157,7 +157,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field rectTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ___rectTransform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -175,44 +175,45 @@ static_assert(offsetof(::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13091)) CS Name: ::UnityEngine.UI::LayoutGroup*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15901))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13091)) CS Name: ::UnityEngine.UI::LayoutGroup*
 class CORDL_TYPE LayoutGroup : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
   using _DelayedSetDirty_d__56 = ::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56;
 
   /// @brief Field m_Padding, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Padding, put = __set_m_Padding))::UnityEngine::RectOffset* m_Padding;
+  __declspec(property(get = __cordl_internal_get_m_Padding, put = __cordl_internal_set_m_Padding))::UnityEngine::RectOffset* m_Padding;
 
   /// @brief Field m_ChildAlignment, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_ChildAlignment, put = __set_m_ChildAlignment))::UnityEngine::TextAnchor m_ChildAlignment;
+  __declspec(property(get = __cordl_internal_get_m_ChildAlignment, put = __cordl_internal_set_m_ChildAlignment))::UnityEngine::TextAnchor m_ChildAlignment;
 
   /// @brief Field m_Rect, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Rect, put = __set_m_Rect))::UnityEngine::RectTransform* m_Rect;
+  __declspec(property(get = __cordl_internal_get_m_Rect, put = __cordl_internal_set_m_Rect))::UnityW<::UnityEngine::RectTransform> m_Rect;
 
   /// @brief Field m_Tracker, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_Tracker, put = __set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
+  __declspec(property(get = __cordl_internal_get_m_Tracker, put = __cordl_internal_set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
 
   /// @brief Field m_TotalMinSize, offset 0x34, size 0x8
-  __declspec(property(get = __get_m_TotalMinSize, put = __set_m_TotalMinSize))::UnityEngine::Vector2 m_TotalMinSize;
+  __declspec(property(get = __cordl_internal_get_m_TotalMinSize, put = __cordl_internal_set_m_TotalMinSize))::UnityEngine::Vector2 m_TotalMinSize;
 
   /// @brief Field m_TotalPreferredSize, offset 0x3c, size 0x8
-  __declspec(property(get = __get_m_TotalPreferredSize, put = __set_m_TotalPreferredSize))::UnityEngine::Vector2 m_TotalPreferredSize;
+  __declspec(property(get = __cordl_internal_get_m_TotalPreferredSize, put = __cordl_internal_set_m_TotalPreferredSize))::UnityEngine::Vector2 m_TotalPreferredSize;
 
   /// @brief Field m_TotalFlexibleSize, offset 0x44, size 0x8
-  __declspec(property(get = __get_m_TotalFlexibleSize, put = __set_m_TotalFlexibleSize))::UnityEngine::Vector2 m_TotalFlexibleSize;
+  __declspec(property(get = __cordl_internal_get_m_TotalFlexibleSize, put = __cordl_internal_set_m_TotalFlexibleSize))::UnityEngine::Vector2 m_TotalFlexibleSize;
 
   /// @brief Field m_RectChildren, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_RectChildren, put = __set_m_RectChildren))::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* m_RectChildren;
+  __declspec(property(get = __cordl_internal_get_m_RectChildren,
+                      put = __cordl_internal_set_m_RectChildren))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* m_RectChildren;
 
   __declspec(property(get = get_padding, put = set_padding))::UnityEngine::RectOffset* padding;
 
   __declspec(property(get = get_childAlignment, put = set_childAlignment))::UnityEngine::TextAnchor childAlignment;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  __declspec(property(get = get_rectChildren))::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* rectChildren;
+  __declspec(property(get = get_rectChildren))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* rectChildren;
 
   __declspec(property(get = get_minWidth)) float_t minWidth;
 
@@ -248,53 +249,53 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
   constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
-  constexpr ::UnityEngine::RectOffset*& __get_m_Padding();
+  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Padding();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __get_m_Padding() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __cordl_internal_get_m_Padding() const;
 
-  constexpr void __set_m_Padding(::UnityEngine::RectOffset* value);
+  constexpr void __cordl_internal_set_m_Padding(::UnityEngine::RectOffset* value);
 
-  constexpr ::UnityEngine::TextAnchor& __get_m_ChildAlignment();
+  constexpr ::UnityEngine::TextAnchor& __cordl_internal_get_m_ChildAlignment();
 
-  constexpr ::UnityEngine::TextAnchor const& __get_m_ChildAlignment() const;
+  constexpr ::UnityEngine::TextAnchor const& __cordl_internal_get_m_ChildAlignment() const;
 
-  constexpr void __set_m_ChildAlignment(::UnityEngine::TextAnchor value);
+  constexpr void __cordl_internal_set_m_ChildAlignment(::UnityEngine::TextAnchor value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_Rect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_Rect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_Rect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_Rect() const;
 
-  constexpr void __set_m_Rect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_Rect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker& __get_m_Tracker();
+  constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get_m_Tracker();
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker const& __get_m_Tracker() const;
+  constexpr ::UnityEngine::DrivenRectTransformTracker const& __cordl_internal_get_m_Tracker() const;
 
-  constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
+  constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_TotalMinSize();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_TotalMinSize();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_TotalMinSize() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_TotalMinSize() const;
 
-  constexpr void __set_m_TotalMinSize(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_TotalMinSize(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_TotalPreferredSize();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_TotalPreferredSize();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_TotalPreferredSize() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_TotalPreferredSize() const;
 
-  constexpr void __set_m_TotalPreferredSize(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_TotalPreferredSize(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_TotalFlexibleSize();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_TotalFlexibleSize();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_TotalFlexibleSize() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_TotalFlexibleSize() const;
 
-  constexpr void __set_m_TotalFlexibleSize(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_TotalFlexibleSize(::UnityEngine::Vector2 value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*& __get_m_RectChildren();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>*& __cordl_internal_get_m_RectChildren();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*> const& __get_m_RectChildren() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>*> const& __cordl_internal_get_m_RectChildren() const;
 
-  constexpr void __set_m_RectChildren(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* value);
+  constexpr void __cordl_internal_set_m_RectChildren(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* value);
 
   /// @brief Method get_padding, addr 0x2d778e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* get_padding();
@@ -309,10 +310,10 @@ public:
   inline void set_childAlignment(::UnityEngine::TextAnchor value);
 
   /// @brief Method get_rectTransform, addr 0x2d75730, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method get_rectChildren, addr 0x2d779ac, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* get_rectChildren();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* get_rectChildren();
 
   /// @brief Method CalculateLayoutInputHorizontal, addr 0x2d750c8, size 0x3bc, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
@@ -430,7 +431,7 @@ public:
   ::UnityEngine::TextAnchor ___m_ChildAlignment;
 
   /// @brief Field m_Rect, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_Rect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_Rect;
 
   /// @brief Field m_Tracker, offset: 0x30, size: 0x1, def value: None
   ::UnityEngine::DrivenRectTransformTracker ___m_Tracker;
@@ -445,7 +446,7 @@ public:
   ::UnityEngine::Vector2 ___m_TotalFlexibleSize;
 
   /// @brief Field m_RectChildren, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* ___m_RectChildren;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* ___m_RectChildren;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

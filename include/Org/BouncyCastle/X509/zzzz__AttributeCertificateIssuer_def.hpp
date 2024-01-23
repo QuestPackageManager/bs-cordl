@@ -40,14 +40,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::AttributeCertificateIssuer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1853))
 // CS Name: ::Org.BouncyCastle.X509::AttributeCertificateIssuer*
 class CORDL_TYPE AttributeCertificateIssuer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field form, offset 0x10, size 0x8
-  __declspec(property(get = __get_form, put = __set_form))::Org::BouncyCastle::Asn1::Asn1Encodable* form;
+  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form))::Org::BouncyCastle::Asn1::Asn1Encodable* form;
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
@@ -61,11 +61,11 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_form();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_form();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __get_form() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_form() const;
 
-  constexpr void __set_form(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  constexpr void __cordl_internal_set_form(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardViewController);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5650))
 // CS Name: ::LeaderboardViewController*
 class CORDL_TYPE LeaderboardViewController : public ::HMUI::ViewController {

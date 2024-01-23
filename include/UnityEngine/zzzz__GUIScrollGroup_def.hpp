@@ -18,119 +18,119 @@ MARK_REF_PTR_T(::UnityEngine::GUIScrollGroup);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14622))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14622))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14623))
 // CS Name: ::UnityEngine::GUIScrollGroup*
 class CORDL_TYPE GUIScrollGroup : public ::UnityEngine::GUILayoutGroup {
 public:
   // Declarations
   /// @brief Field calcMinWidth, offset 0x90, size 0x4
-  __declspec(property(get = __get_calcMinWidth, put = __set_calcMinWidth)) float_t calcMinWidth;
+  __declspec(property(get = __cordl_internal_get_calcMinWidth, put = __cordl_internal_set_calcMinWidth)) float_t calcMinWidth;
 
   /// @brief Field calcMaxWidth, offset 0x94, size 0x4
-  __declspec(property(get = __get_calcMaxWidth, put = __set_calcMaxWidth)) float_t calcMaxWidth;
+  __declspec(property(get = __cordl_internal_get_calcMaxWidth, put = __cordl_internal_set_calcMaxWidth)) float_t calcMaxWidth;
 
   /// @brief Field calcMinHeight, offset 0x98, size 0x4
-  __declspec(property(get = __get_calcMinHeight, put = __set_calcMinHeight)) float_t calcMinHeight;
+  __declspec(property(get = __cordl_internal_get_calcMinHeight, put = __cordl_internal_set_calcMinHeight)) float_t calcMinHeight;
 
   /// @brief Field calcMaxHeight, offset 0x9c, size 0x4
-  __declspec(property(get = __get_calcMaxHeight, put = __set_calcMaxHeight)) float_t calcMaxHeight;
+  __declspec(property(get = __cordl_internal_get_calcMaxHeight, put = __cordl_internal_set_calcMaxHeight)) float_t calcMaxHeight;
 
   /// @brief Field clientWidth, offset 0xa0, size 0x4
-  __declspec(property(get = __get_clientWidth, put = __set_clientWidth)) float_t clientWidth;
+  __declspec(property(get = __cordl_internal_get_clientWidth, put = __cordl_internal_set_clientWidth)) float_t clientWidth;
 
   /// @brief Field clientHeight, offset 0xa4, size 0x4
-  __declspec(property(get = __get_clientHeight, put = __set_clientHeight)) float_t clientHeight;
+  __declspec(property(get = __cordl_internal_get_clientHeight, put = __cordl_internal_set_clientHeight)) float_t clientHeight;
 
   /// @brief Field allowHorizontalScroll, offset 0xa8, size 0x1
-  __declspec(property(get = __get_allowHorizontalScroll, put = __set_allowHorizontalScroll)) bool allowHorizontalScroll;
+  __declspec(property(get = __cordl_internal_get_allowHorizontalScroll, put = __cordl_internal_set_allowHorizontalScroll)) bool allowHorizontalScroll;
 
   /// @brief Field allowVerticalScroll, offset 0xa9, size 0x1
-  __declspec(property(get = __get_allowVerticalScroll, put = __set_allowVerticalScroll)) bool allowVerticalScroll;
+  __declspec(property(get = __cordl_internal_get_allowVerticalScroll, put = __cordl_internal_set_allowVerticalScroll)) bool allowVerticalScroll;
 
   /// @brief Field needsHorizontalScrollbar, offset 0xaa, size 0x1
-  __declspec(property(get = __get_needsHorizontalScrollbar, put = __set_needsHorizontalScrollbar)) bool needsHorizontalScrollbar;
+  __declspec(property(get = __cordl_internal_get_needsHorizontalScrollbar, put = __cordl_internal_set_needsHorizontalScrollbar)) bool needsHorizontalScrollbar;
 
   /// @brief Field needsVerticalScrollbar, offset 0xab, size 0x1
-  __declspec(property(get = __get_needsVerticalScrollbar, put = __set_needsVerticalScrollbar)) bool needsVerticalScrollbar;
+  __declspec(property(get = __cordl_internal_get_needsVerticalScrollbar, put = __cordl_internal_set_needsVerticalScrollbar)) bool needsVerticalScrollbar;
 
   /// @brief Field horizontalScrollbar, offset 0xb0, size 0x8
-  __declspec(property(get = __get_horizontalScrollbar, put = __set_horizontalScrollbar))::UnityEngine::GUIStyle* horizontalScrollbar;
+  __declspec(property(get = __cordl_internal_get_horizontalScrollbar, put = __cordl_internal_set_horizontalScrollbar))::UnityEngine::GUIStyle* horizontalScrollbar;
 
   /// @brief Field verticalScrollbar, offset 0xb8, size 0x8
-  __declspec(property(get = __get_verticalScrollbar, put = __set_verticalScrollbar))::UnityEngine::GUIStyle* verticalScrollbar;
+  __declspec(property(get = __cordl_internal_get_verticalScrollbar, put = __cordl_internal_set_verticalScrollbar))::UnityEngine::GUIStyle* verticalScrollbar;
 
-  constexpr float_t& __get_calcMinWidth();
+  constexpr float_t& __cordl_internal_get_calcMinWidth();
 
-  constexpr float_t const& __get_calcMinWidth() const;
+  constexpr float_t const& __cordl_internal_get_calcMinWidth() const;
 
-  constexpr void __set_calcMinWidth(float_t value);
+  constexpr void __cordl_internal_set_calcMinWidth(float_t value);
 
-  constexpr float_t& __get_calcMaxWidth();
+  constexpr float_t& __cordl_internal_get_calcMaxWidth();
 
-  constexpr float_t const& __get_calcMaxWidth() const;
+  constexpr float_t const& __cordl_internal_get_calcMaxWidth() const;
 
-  constexpr void __set_calcMaxWidth(float_t value);
+  constexpr void __cordl_internal_set_calcMaxWidth(float_t value);
 
-  constexpr float_t& __get_calcMinHeight();
+  constexpr float_t& __cordl_internal_get_calcMinHeight();
 
-  constexpr float_t const& __get_calcMinHeight() const;
+  constexpr float_t const& __cordl_internal_get_calcMinHeight() const;
 
-  constexpr void __set_calcMinHeight(float_t value);
+  constexpr void __cordl_internal_set_calcMinHeight(float_t value);
 
-  constexpr float_t& __get_calcMaxHeight();
+  constexpr float_t& __cordl_internal_get_calcMaxHeight();
 
-  constexpr float_t const& __get_calcMaxHeight() const;
+  constexpr float_t const& __cordl_internal_get_calcMaxHeight() const;
 
-  constexpr void __set_calcMaxHeight(float_t value);
+  constexpr void __cordl_internal_set_calcMaxHeight(float_t value);
 
-  constexpr float_t& __get_clientWidth();
+  constexpr float_t& __cordl_internal_get_clientWidth();
 
-  constexpr float_t const& __get_clientWidth() const;
+  constexpr float_t const& __cordl_internal_get_clientWidth() const;
 
-  constexpr void __set_clientWidth(float_t value);
+  constexpr void __cordl_internal_set_clientWidth(float_t value);
 
-  constexpr float_t& __get_clientHeight();
+  constexpr float_t& __cordl_internal_get_clientHeight();
 
-  constexpr float_t const& __get_clientHeight() const;
+  constexpr float_t const& __cordl_internal_get_clientHeight() const;
 
-  constexpr void __set_clientHeight(float_t value);
+  constexpr void __cordl_internal_set_clientHeight(float_t value);
 
-  constexpr bool& __get_allowHorizontalScroll();
+  constexpr bool& __cordl_internal_get_allowHorizontalScroll();
 
-  constexpr bool const& __get_allowHorizontalScroll() const;
+  constexpr bool const& __cordl_internal_get_allowHorizontalScroll() const;
 
-  constexpr void __set_allowHorizontalScroll(bool value);
+  constexpr void __cordl_internal_set_allowHorizontalScroll(bool value);
 
-  constexpr bool& __get_allowVerticalScroll();
+  constexpr bool& __cordl_internal_get_allowVerticalScroll();
 
-  constexpr bool const& __get_allowVerticalScroll() const;
+  constexpr bool const& __cordl_internal_get_allowVerticalScroll() const;
 
-  constexpr void __set_allowVerticalScroll(bool value);
+  constexpr void __cordl_internal_set_allowVerticalScroll(bool value);
 
-  constexpr bool& __get_needsHorizontalScrollbar();
+  constexpr bool& __cordl_internal_get_needsHorizontalScrollbar();
 
-  constexpr bool const& __get_needsHorizontalScrollbar() const;
+  constexpr bool const& __cordl_internal_get_needsHorizontalScrollbar() const;
 
-  constexpr void __set_needsHorizontalScrollbar(bool value);
+  constexpr void __cordl_internal_set_needsHorizontalScrollbar(bool value);
 
-  constexpr bool& __get_needsVerticalScrollbar();
+  constexpr bool& __cordl_internal_get_needsVerticalScrollbar();
 
-  constexpr bool const& __get_needsVerticalScrollbar() const;
+  constexpr bool const& __cordl_internal_get_needsVerticalScrollbar() const;
 
-  constexpr void __set_needsVerticalScrollbar(bool value);
+  constexpr void __cordl_internal_set_needsVerticalScrollbar(bool value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_horizontalScrollbar();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_horizontalScrollbar();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_horizontalScrollbar() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_horizontalScrollbar() const;
 
-  constexpr void __set_horizontalScrollbar(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_horizontalScrollbar(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_verticalScrollbar();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_verticalScrollbar();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_verticalScrollbar() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_verticalScrollbar() const;
 
-  constexpr void __set_verticalScrollbar(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle* value);
 
   static inline ::UnityEngine::GUIScrollGroup* New_ctor();
 

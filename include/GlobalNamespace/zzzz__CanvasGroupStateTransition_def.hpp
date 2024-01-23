@@ -25,33 +25,33 @@ MARK_REF_PTR_T(::GlobalNamespace::CanvasGroupStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15666)), TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 922
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5444)) CS Name: ::CanvasGroupStateTransition*
-class CORDL_TYPE CanvasGroupStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::CanvasGroup*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5442)), TypeDefinitionIndex(TypeDefinitionIndex(15666)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 922
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5444)) CS Name: ::CanvasGroupStateTransition*
+class CORDL_TYPE CanvasGroupStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::CanvasGroup>> {
 public:
   // Declarations
   /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __get__transition, put = __set__transition))::GlobalNamespace::CanvasGroupTransitionSO* _transition;
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> _transition;
 
   /// @brief Field _floatTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__floatTween, put = __set__floatTween))::Tweening::FloatTween* _floatTween;
+  __declspec(property(get = __cordl_internal_get__floatTween, put = __cordl_internal_set__floatTween))::Tweening::FloatTween* _floatTween;
 
-  __declspec(property(get = get_transition))::GlobalNamespace::BaseTransitionSO* transition;
+  __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::GlobalNamespace::CanvasGroupTransitionSO*& __get__transition();
+  constexpr ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO>& __cordl_internal_get__transition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CanvasGroupTransitionSO*> const& __get__transition() const;
+  constexpr ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> const& __cordl_internal_get__transition() const;
 
-  constexpr void __set__transition(::GlobalNamespace::CanvasGroupTransitionSO* value);
+  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> value);
 
-  constexpr ::Tweening::FloatTween*& __get__floatTween();
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__floatTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __get__floatTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__floatTween() const;
 
-  constexpr void __set__floatTween(::Tweening::FloatTween* value);
+  constexpr void __cordl_internal_set__floatTween(::Tweening::FloatTween* value);
 
   /// @brief Method get_transition, addr 0x227ce1c, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BaseTransitionSO* get_transition();
+  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
   /// @brief Method TransitionToNormalState, addr 0x227ce24, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
@@ -118,7 +118,7 @@ protected:
 
 public:
   /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::CanvasGroupTransitionSO* ____transition;
+  ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> ____transition;
 
   /// @brief Field _floatTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::FloatTween* ____floatTween;

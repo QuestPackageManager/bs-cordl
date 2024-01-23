@@ -35,8 +35,8 @@ MARK_VAL_T(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2794)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 900
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3401)) CS Name: ::System.Runtime.CompilerServices::AsyncTaskMethodBuilder
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2794)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 900
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3401)) CS Name: ::System.Runtime.CompilerServices::AsyncTaskMethodBuilder
 struct CORDL_TYPE AsyncTaskMethodBuilder {
 public:
   // Declarations

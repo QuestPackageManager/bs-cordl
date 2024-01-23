@@ -31,21 +31,21 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__D
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4129))
 // CS Name: ::BeatmapDataObstaclesMergingTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prevObstacleDataInLines, offset 0x10, size 0x8
-  __declspec(property(get = __get_prevObstacleDataInLines,
-                      put = __set_prevObstacleDataInLines))::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> prevObstacleDataInLines;
+  __declspec(property(get = __cordl_internal_get_prevObstacleDataInLines,
+                      put = __cordl_internal_set_prevObstacleDataInLines))::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> prevObstacleDataInLines;
 
-  constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>& __get_prevObstacleDataInLines();
+  constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>& __cordl_internal_get_prevObstacleDataInLines();
 
-  constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> const& __get_prevObstacleDataInLines() const;
+  constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> const& __cordl_internal_get_prevObstacleDataInLines() const;
 
-  constexpr void __set_prevObstacleDataInLines(::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> value);
+  constexpr void __cordl_internal_set_prevObstacleDataInLines(::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> value);
 
   static inline ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0* New_ctor();
 
@@ -84,7 +84,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataObstaclesMergingTransform
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4130))
 // CS Name: ::BeatmapDataObstaclesMergingTransform*
 class CORDL_TYPE BeatmapDataObstaclesMergingTransform : public ::System::Object {

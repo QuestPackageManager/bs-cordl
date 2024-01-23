@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(350))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(350))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(376))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::PolicyQualifierID*
 class CORDL_TYPE PolicyQualifierID : public ::Org::BouncyCastle::Asn1::DerObjectIdentifier {

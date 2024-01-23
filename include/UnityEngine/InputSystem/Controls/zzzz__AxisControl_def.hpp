@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::AxisControl);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6627))
 // CS Name: ::AxisControl::Clamp
 struct CORDL_TYPE __AxisControl__Clamp {
@@ -83,111 +83,111 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__AxisControl__Clam
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 391 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6627))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6628)) CS Name: ::UnityEngine.InputSystem.Controls::AxisControl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 391
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6628)) CS Name: ::UnityEngine.InputSystem.Controls::AxisControl*
 class CORDL_TYPE AxisControl : public ::UnityEngine::InputSystem::InputControl_1<float_t> {
 public:
   // Declarations
   using Clamp = ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp;
 
   /// @brief Field clamp, offset 0xf0, size 0x4
-  __declspec(property(get = __get_clamp, put = __set_clamp))::UnityEngine::InputSystem::Controls::__AxisControl__Clamp clamp;
+  __declspec(property(get = __cordl_internal_get_clamp, put = __cordl_internal_set_clamp))::UnityEngine::InputSystem::Controls::__AxisControl__Clamp clamp;
 
   /// @brief Field clampMin, offset 0xf4, size 0x4
-  __declspec(property(get = __get_clampMin, put = __set_clampMin)) float_t clampMin;
+  __declspec(property(get = __cordl_internal_get_clampMin, put = __cordl_internal_set_clampMin)) float_t clampMin;
 
   /// @brief Field clampMax, offset 0xf8, size 0x4
-  __declspec(property(get = __get_clampMax, put = __set_clampMax)) float_t clampMax;
+  __declspec(property(get = __cordl_internal_get_clampMax, put = __cordl_internal_set_clampMax)) float_t clampMax;
 
   /// @brief Field clampConstant, offset 0xfc, size 0x4
-  __declspec(property(get = __get_clampConstant, put = __set_clampConstant)) float_t clampConstant;
+  __declspec(property(get = __cordl_internal_get_clampConstant, put = __cordl_internal_set_clampConstant)) float_t clampConstant;
 
   /// @brief Field invert, offset 0x100, size 0x1
-  __declspec(property(get = __get_invert, put = __set_invert)) bool invert;
+  __declspec(property(get = __cordl_internal_get_invert, put = __cordl_internal_set_invert)) bool invert;
 
   /// @brief Field normalize, offset 0x101, size 0x1
-  __declspec(property(get = __get_normalize, put = __set_normalize)) bool normalize;
+  __declspec(property(get = __cordl_internal_get_normalize, put = __cordl_internal_set_normalize)) bool normalize;
 
   /// @brief Field normalizeMin, offset 0x104, size 0x4
-  __declspec(property(get = __get_normalizeMin, put = __set_normalizeMin)) float_t normalizeMin;
+  __declspec(property(get = __cordl_internal_get_normalizeMin, put = __cordl_internal_set_normalizeMin)) float_t normalizeMin;
 
   /// @brief Field normalizeMax, offset 0x108, size 0x4
-  __declspec(property(get = __get_normalizeMax, put = __set_normalizeMax)) float_t normalizeMax;
+  __declspec(property(get = __cordl_internal_get_normalizeMax, put = __cordl_internal_set_normalizeMax)) float_t normalizeMax;
 
   /// @brief Field normalizeZero, offset 0x10c, size 0x4
-  __declspec(property(get = __get_normalizeZero, put = __set_normalizeZero)) float_t normalizeZero;
+  __declspec(property(get = __cordl_internal_get_normalizeZero, put = __cordl_internal_set_normalizeZero)) float_t normalizeZero;
 
   /// @brief Field scale, offset 0x110, size 0x1
-  __declspec(property(get = __get_scale, put = __set_scale)) bool scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) bool scale;
 
   /// @brief Field scaleFactor, offset 0x114, size 0x4
-  __declspec(property(get = __get_scaleFactor, put = __set_scaleFactor)) float_t scaleFactor;
+  __declspec(property(get = __cordl_internal_get_scaleFactor, put = __cordl_internal_set_scaleFactor)) float_t scaleFactor;
 
-  constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp& __get_clamp();
+  constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp& __cordl_internal_get_clamp();
 
-  constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp const& __get_clamp() const;
+  constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp const& __cordl_internal_get_clamp() const;
 
-  constexpr void __set_clamp(::UnityEngine::InputSystem::Controls::__AxisControl__Clamp value);
+  constexpr void __cordl_internal_set_clamp(::UnityEngine::InputSystem::Controls::__AxisControl__Clamp value);
 
-  constexpr float_t& __get_clampMin();
+  constexpr float_t& __cordl_internal_get_clampMin();
 
-  constexpr float_t const& __get_clampMin() const;
+  constexpr float_t const& __cordl_internal_get_clampMin() const;
 
-  constexpr void __set_clampMin(float_t value);
+  constexpr void __cordl_internal_set_clampMin(float_t value);
 
-  constexpr float_t& __get_clampMax();
+  constexpr float_t& __cordl_internal_get_clampMax();
 
-  constexpr float_t const& __get_clampMax() const;
+  constexpr float_t const& __cordl_internal_get_clampMax() const;
 
-  constexpr void __set_clampMax(float_t value);
+  constexpr void __cordl_internal_set_clampMax(float_t value);
 
-  constexpr float_t& __get_clampConstant();
+  constexpr float_t& __cordl_internal_get_clampConstant();
 
-  constexpr float_t const& __get_clampConstant() const;
+  constexpr float_t const& __cordl_internal_get_clampConstant() const;
 
-  constexpr void __set_clampConstant(float_t value);
+  constexpr void __cordl_internal_set_clampConstant(float_t value);
 
-  constexpr bool& __get_invert();
+  constexpr bool& __cordl_internal_get_invert();
 
-  constexpr bool const& __get_invert() const;
+  constexpr bool const& __cordl_internal_get_invert() const;
 
-  constexpr void __set_invert(bool value);
+  constexpr void __cordl_internal_set_invert(bool value);
 
-  constexpr bool& __get_normalize();
+  constexpr bool& __cordl_internal_get_normalize();
 
-  constexpr bool const& __get_normalize() const;
+  constexpr bool const& __cordl_internal_get_normalize() const;
 
-  constexpr void __set_normalize(bool value);
+  constexpr void __cordl_internal_set_normalize(bool value);
 
-  constexpr float_t& __get_normalizeMin();
+  constexpr float_t& __cordl_internal_get_normalizeMin();
 
-  constexpr float_t const& __get_normalizeMin() const;
+  constexpr float_t const& __cordl_internal_get_normalizeMin() const;
 
-  constexpr void __set_normalizeMin(float_t value);
+  constexpr void __cordl_internal_set_normalizeMin(float_t value);
 
-  constexpr float_t& __get_normalizeMax();
+  constexpr float_t& __cordl_internal_get_normalizeMax();
 
-  constexpr float_t const& __get_normalizeMax() const;
+  constexpr float_t const& __cordl_internal_get_normalizeMax() const;
 
-  constexpr void __set_normalizeMax(float_t value);
+  constexpr void __cordl_internal_set_normalizeMax(float_t value);
 
-  constexpr float_t& __get_normalizeZero();
+  constexpr float_t& __cordl_internal_get_normalizeZero();
 
-  constexpr float_t const& __get_normalizeZero() const;
+  constexpr float_t const& __cordl_internal_get_normalizeZero() const;
 
-  constexpr void __set_normalizeZero(float_t value);
+  constexpr void __cordl_internal_set_normalizeZero(float_t value);
 
-  constexpr bool& __get_scale();
+  constexpr bool& __cordl_internal_get_scale();
 
-  constexpr bool const& __get_scale() const;
+  constexpr bool const& __cordl_internal_get_scale() const;
 
-  constexpr void __set_scale(bool value);
+  constexpr void __cordl_internal_set_scale(bool value);
 
-  constexpr float_t& __get_scaleFactor();
+  constexpr float_t& __cordl_internal_get_scaleFactor();
 
-  constexpr float_t const& __get_scaleFactor() const;
+  constexpr float_t const& __cordl_internal_get_scaleFactor() const;
 
-  constexpr void __set_scaleFactor(float_t value);
+  constexpr void __cordl_internal_set_scaleFactor(float_t value);
 
   /// @brief Method Preprocess, addr 0x2b09ab4, size 0xd4, virtual false, abstract: false, final false
   inline float_t Preprocess(float_t value);

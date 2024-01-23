@@ -30,65 +30,65 @@ MARK_REF_PTR_T(::GlobalNamespace::OnWillRenderObjectTrigger);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14578))
 // CS Name: ::OnWillRenderObjectTrigger*
 class CORDL_TYPE OnWillRenderObjectTrigger : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _overrideShader, offset 0x18, size 0x8
-  __declspec(property(get = __get__overrideShader, put = __set__overrideShader))::UnityEngine::Shader* _overrideShader;
+  __declspec(property(get = __cordl_internal_get__overrideShader, put = __cordl_internal_set__overrideShader))::UnityW<::UnityEngine::Shader> _overrideShader;
 
   /// @brief Field _renderQueue, offset 0x20, size 0x4
-  __declspec(property(get = __get__renderQueue, put = __set__renderQueue)) int32_t _renderQueue;
+  __declspec(property(get = __cordl_internal_get__renderQueue, put = __cordl_internal_set__renderQueue)) int32_t _renderQueue;
 
   /// @brief Field _material, offset 0x28, size 0x8
-  __declspec(property(get = __get__material, put = __set__material))::UnityEngine::Material* _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _mesh, offset 0x30, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field _meshFilter, offset 0x38, size 0x8
-  __declspec(property(get = __get__meshFilter, put = __set__meshFilter))::UnityEngine::MeshFilter* _meshFilter;
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   /// @brief Field _meshRenderer, offset 0x40, size 0x8
-  __declspec(property(get = __get__meshRenderer, put = __set__meshRenderer))::UnityEngine::MeshRenderer* _meshRenderer;
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  constexpr ::UnityEngine::Shader*& __get__overrideShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__overrideShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__overrideShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__overrideShader() const;
 
-  constexpr void __set__overrideShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__overrideShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr int32_t& __get__renderQueue();
+  constexpr int32_t& __cordl_internal_get__renderQueue();
 
-  constexpr int32_t const& __get__renderQueue() const;
+  constexpr int32_t const& __cordl_internal_get__renderQueue() const;
 
-  constexpr void __set__renderQueue(int32_t value);
+  constexpr void __cordl_internal_set__renderQueue(int32_t value);
 
-  constexpr ::UnityEngine::Material*& __get__material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __set__material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
 
-  constexpr void __set__meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__meshRenderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__meshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
 
-  constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
   /// @brief Method OnEnable, addr 0x21159a4, size 0x3f8, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -116,22 +116,22 @@ protected:
 
 public:
   /// @brief Field _overrideShader, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____overrideShader;
+  ::UnityW<::UnityEngine::Shader> ____overrideShader;
 
   /// @brief Field _renderQueue, offset: 0x20, size: 0x4, def value: None
   int32_t ____renderQueue;
 
   /// @brief Field _material, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material;
+  ::UnityW<::UnityEngine::Material> ____material;
 
   /// @brief Field _mesh, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief Field _meshFilter, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
   /// @brief Field _meshRenderer, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____meshRenderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

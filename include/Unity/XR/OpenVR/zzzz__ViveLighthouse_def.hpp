@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::ViveLighthouse);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6289))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6289))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6118))
 // CS Name: ::Unity.XR.OpenVR::ViveLighthouse*
 class CORDL_TYPE ViveLighthouse : public ::UnityEngine::InputSystem::TrackedDevice {

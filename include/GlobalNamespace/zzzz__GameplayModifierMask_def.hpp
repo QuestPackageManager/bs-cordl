@@ -15,7 +15,7 @@ MARK_VAL_T(::GlobalNamespace::GameplayModifierMask);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14997))
 // CS Name: ::GameplayModifierMask
 struct CORDL_TYPE GameplayModifierMask {

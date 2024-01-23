@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MaterialData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9777))
 // CS Name: ::HEU_MaterialData::Source
 struct CORDL_TYPE __HEU_MaterialData__Source {
@@ -107,7 +107,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_MaterialData__Source, value__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9777)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9777)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9778))
 // CS Name: ::HoudiniEngineUnity::HEU_MaterialData*
 class CORDL_TYPE HEU_MaterialData : public ::UnityEngine::ScriptableObject {
@@ -116,37 +116,37 @@ public:
   using Source = ::HoudiniEngineUnity::__HEU_MaterialData__Source;
 
   /// @brief Field _material, offset 0x18, size 0x8
-  __declspec(property(get = __get__material, put = __set__material))::UnityEngine::Material* _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _materialSource, offset 0x20, size 0x4
-  __declspec(property(get = __get__materialSource, put = __set__materialSource))::HoudiniEngineUnity::__HEU_MaterialData__Source _materialSource;
+  __declspec(property(get = __cordl_internal_get__materialSource, put = __cordl_internal_set__materialSource))::HoudiniEngineUnity::__HEU_MaterialData__Source _materialSource;
 
   /// @brief Field _materialKey, offset 0x24, size 0x4
-  __declspec(property(get = __get__materialKey, put = __set__materialKey)) int32_t _materialKey;
+  __declspec(property(get = __cordl_internal_get__materialKey, put = __cordl_internal_set__materialKey)) int32_t _materialKey;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_MaterialData__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_MaterialData__() noexcept;
 
-  constexpr ::UnityEngine::Material*& __get__material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __set__material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source& __get__materialSource();
+  constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source& __cordl_internal_get__materialSource();
 
-  constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source const& __get__materialSource() const;
+  constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source const& __cordl_internal_get__materialSource() const;
 
-  constexpr void __set__materialSource(::HoudiniEngineUnity::__HEU_MaterialData__Source value);
+  constexpr void __cordl_internal_set__materialSource(::HoudiniEngineUnity::__HEU_MaterialData__Source value);
 
-  constexpr int32_t& __get__materialKey();
+  constexpr int32_t& __cordl_internal_get__materialKey();
 
-  constexpr int32_t const& __get__materialKey() const;
+  constexpr int32_t const& __cordl_internal_get__materialKey() const;
 
-  constexpr void __set__materialKey(int32_t value);
+  constexpr void __cordl_internal_set__materialKey(int32_t value);
 
   /// @brief Method IsExistingMaterial, addr 0x219d59c, size 0x14, virtual false, abstract: false, final false
   inline bool IsExistingMaterial();
@@ -195,7 +195,7 @@ protected:
 
 public:
   /// @brief Field _material, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material;
+  ::UnityW<::UnityEngine::Material> ____material;
 
   /// @brief Field _materialSource, offset: 0x20, size: 0x4, def value: None
   ::HoudiniEngineUnity::__HEU_MaterialData__Source ____materialSource;

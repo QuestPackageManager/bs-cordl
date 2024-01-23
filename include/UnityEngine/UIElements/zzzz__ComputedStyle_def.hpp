@@ -176,12 +176,12 @@ MARK_VAL_T(::UnityEngine::UIElements::ComputedStyle);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7357)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3310 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(7315), inst: 3382 }), TypeDefinitionIndex(TypeDefinitionIndex(7315)), TypeDefinitionIndex(TypeDefinitionIndex(7361)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(7315), inst: 3370 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3298 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(7315), inst: 3344 }), TypeDefinitionIndex(TypeDefinitionIndex(7358)), TypeDefinitionIndex(TypeDefinitionIndex(7360)), TypeDefinitionIndex(TypeDefinitionIndex(7359)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3371 }), TypeDefinitionIndex(TypeDefinitionIndex(7356))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7296)) CS
-// Name: ::UnityEngine.UIElements::ComputedStyle
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7315)), TypeDefinitionIndex(TypeDefinitionIndex(7356)), TypeDefinitionIndex(TypeDefinitionIndex(7357)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7358)), TypeDefinitionIndex(TypeDefinitionIndex(7359)), TypeDefinitionIndex(TypeDefinitionIndex(7360)), TypeDefinitionIndex(TypeDefinitionIndex(7361)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3298 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3310 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3344 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3370 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3371 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3382 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7296)) CS Name: ::UnityEngine.UIElements::ComputedStyle
 struct CORDL_TYPE ComputedStyle {
 public:
   // Declarations
@@ -309,7 +309,7 @@ public:
 
   __declspec(property(get = get_unityBackgroundScaleMode))::UnityEngine::ScaleMode unityBackgroundScaleMode;
 
-  __declspec(property(get = get_unityFont))::UnityEngine::Font* unityFont;
+  __declspec(property(get = get_unityFont))::UnityW<::UnityEngine::Font> unityFont;
 
   __declspec(property(get = get_unityFontDefinition))::UnityEngine::UIElements::FontDefinition unityFontDefinition;
 
@@ -562,7 +562,7 @@ public:
   inline ::UnityEngine::ScaleMode get_unityBackgroundScaleMode();
 
   /// @brief Method get_unityFont, addr 0x2e588f4, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::Font* get_unityFont();
+  inline ::UnityW<::UnityEngine::Font> get_unityFont();
 
   /// @brief Method get_unityFontDefinition, addr 0x2e58944, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FontDefinition get_unityFontDefinition();

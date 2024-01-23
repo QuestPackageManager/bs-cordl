@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(451))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(451))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(508))
 // CS Name: ::Org.BouncyCastle.Asn1::DerGenerator*
 class CORDL_TYPE DerGenerator : public ::Org::BouncyCastle::Asn1::Asn1Generator {
 public:
   // Declarations
   /// @brief Field _tagged, offset 0x18, size 0x1
-  __declspec(property(get = __get__tagged, put = __set__tagged)) bool _tagged;
+  __declspec(property(get = __cordl_internal_get__tagged, put = __cordl_internal_set__tagged)) bool _tagged;
 
   /// @brief Field _isExplicit, offset 0x19, size 0x1
-  __declspec(property(get = __get__isExplicit, put = __set__isExplicit)) bool _isExplicit;
+  __declspec(property(get = __cordl_internal_get__isExplicit, put = __cordl_internal_set__isExplicit)) bool _isExplicit;
 
   /// @brief Field _tagNo, offset 0x1c, size 0x4
-  __declspec(property(get = __get__tagNo, put = __set__tagNo)) int32_t _tagNo;
+  __declspec(property(get = __cordl_internal_get__tagNo, put = __cordl_internal_set__tagNo)) int32_t _tagNo;
 
-  constexpr bool& __get__tagged();
+  constexpr bool& __cordl_internal_get__tagged();
 
-  constexpr bool const& __get__tagged() const;
+  constexpr bool const& __cordl_internal_get__tagged() const;
 
-  constexpr void __set__tagged(bool value);
+  constexpr void __cordl_internal_set__tagged(bool value);
 
-  constexpr bool& __get__isExplicit();
+  constexpr bool& __cordl_internal_get__isExplicit();
 
-  constexpr bool const& __get__isExplicit() const;
+  constexpr bool const& __cordl_internal_get__isExplicit() const;
 
-  constexpr void __set__isExplicit(bool value);
+  constexpr void __cordl_internal_set__isExplicit(bool value);
 
-  constexpr int32_t& __get__tagNo();
+  constexpr int32_t& __cordl_internal_get__tagNo();
 
-  constexpr int32_t const& __get__tagNo() const;
+  constexpr int32_t const& __cordl_internal_get__tagNo() const;
 
-  constexpr void __set__tagNo(int32_t value);
+  constexpr void __cordl_internal_set__tagNo(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream);
 

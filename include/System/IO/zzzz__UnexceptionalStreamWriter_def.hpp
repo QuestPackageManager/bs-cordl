@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::IO::UnexceptionalStreamWriter);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3578))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3578))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3636))
 // CS Name: ::System.IO::UnexceptionalStreamWriter*
 class CORDL_TYPE UnexceptionalStreamWriter : public ::System::IO::StreamWriter {

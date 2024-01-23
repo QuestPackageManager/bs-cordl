@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::HMUI::HoverTextSetter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13544))
 // CS Name: ::HMUI::HoverTextSetter*
 class CORDL_TYPE HoverTextSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _hoverTextController, offset 0x18, size 0x8
-  __declspec(property(get = __get__hoverTextController, put = __set__hoverTextController))::HMUI::HoverTextController* _hoverTextController;
+  __declspec(property(get = __cordl_internal_get__hoverTextController, put = __cordl_internal_set__hoverTextController))::UnityW<::HMUI::HoverTextController> _hoverTextController;
 
   /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::StringW _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::StringW _text;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
@@ -62,17 +62,17 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  constexpr ::HMUI::HoverTextController*& __get__hoverTextController();
+  constexpr ::UnityW<::HMUI::HoverTextController>& __cordl_internal_get__hoverTextController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverTextController*> const& __get__hoverTextController() const;
+  constexpr ::UnityW<::HMUI::HoverTextController> const& __cordl_internal_get__hoverTextController() const;
 
-  constexpr void __set__hoverTextController(::HMUI::HoverTextController* value);
+  constexpr void __cordl_internal_set__hoverTextController(::UnityW<::HMUI::HoverTextController> value);
 
-  constexpr ::StringW& __get__text();
+  constexpr ::StringW& __cordl_internal_get__text();
 
-  constexpr ::StringW const& __get__text() const;
+  constexpr ::StringW const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::StringW value);
+  constexpr void __cordl_internal_set__text(::StringW value);
 
   /// @brief Method get_text, addr 0x211ec40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
@@ -109,7 +109,7 @@ protected:
 
 public:
   /// @brief Field _hoverTextController, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::HoverTextController* ____hoverTextController;
+  ::UnityW<::HMUI::HoverTextController> ____hoverTextController;
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::StringW ____text;

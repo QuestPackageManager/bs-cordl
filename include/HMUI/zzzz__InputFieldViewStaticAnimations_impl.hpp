@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x2141750;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -23,9 +23,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x21417d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,9 +36,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x21418fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "OnEnable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -49,9 +49,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x2141918;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "OnDestroy",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -63,10 +63,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x21417fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "HandleInputFieldViewSelectionStateDidChange", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__InputFieldView__SelectionState>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "HandleInputFieldViewSelectionStateDidChange", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__InputFieldView__SelectionState>::get() })));
     return ___internal_method;
   }
 };
@@ -77,128 +77,128 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21419e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::HMUI::InputFieldView*& HMUI::InputFieldViewStaticAnimations::__get__inputFieldView() {
+constexpr ::UnityW<::HMUI::InputFieldView>& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__inputFieldView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFieldView;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::InputFieldView*> const& HMUI::InputFieldViewStaticAnimations::__get__inputFieldView() const {
+constexpr ::UnityW<::HMUI::InputFieldView> const& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__inputFieldView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFieldView;
 }
-constexpr void HMUI::InputFieldViewStaticAnimations::__set__inputFieldView(::HMUI::InputFieldView* value) {
+constexpr void HMUI::InputFieldViewStaticAnimations::__cordl_internal_set__inputFieldView(::UnityW<::HMUI::InputFieldView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputFieldView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AnimationClip*& HMUI::InputFieldViewStaticAnimations::__get__normalClip() {
+constexpr ::UnityW<::UnityEngine::AnimationClip>& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__normalClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::InputFieldViewStaticAnimations::__get__normalClip() const {
+constexpr ::UnityW<::UnityEngine::AnimationClip> const& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__normalClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalClip;
 }
-constexpr void HMUI::InputFieldViewStaticAnimations::__set__normalClip(::UnityEngine::AnimationClip* value) {
+constexpr void HMUI::InputFieldViewStaticAnimations::__cordl_internal_set__normalClip(::UnityW<::UnityEngine::AnimationClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AnimationClip*& HMUI::InputFieldViewStaticAnimations::__get__highlightedClip() {
+constexpr ::UnityW<::UnityEngine::AnimationClip>& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__highlightedClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::InputFieldViewStaticAnimations::__get__highlightedClip() const {
+constexpr ::UnityW<::UnityEngine::AnimationClip> const& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__highlightedClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedClip;
 }
-constexpr void HMUI::InputFieldViewStaticAnimations::__set__highlightedClip(::UnityEngine::AnimationClip* value) {
+constexpr void HMUI::InputFieldViewStaticAnimations::__cordl_internal_set__highlightedClip(::UnityW<::UnityEngine::AnimationClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____highlightedClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AnimationClip*& HMUI::InputFieldViewStaticAnimations::__get__pressedClip() {
+constexpr ::UnityW<::UnityEngine::AnimationClip>& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__pressedClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::InputFieldViewStaticAnimations::__get__pressedClip() const {
+constexpr ::UnityW<::UnityEngine::AnimationClip> const& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__pressedClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedClip;
 }
-constexpr void HMUI::InputFieldViewStaticAnimations::__set__pressedClip(::UnityEngine::AnimationClip* value) {
+constexpr void HMUI::InputFieldViewStaticAnimations::__cordl_internal_set__pressedClip(::UnityW<::UnityEngine::AnimationClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pressedClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AnimationClip*& HMUI::InputFieldViewStaticAnimations::__get__disabledClip() {
+constexpr ::UnityW<::UnityEngine::AnimationClip>& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__disabledClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::InputFieldViewStaticAnimations::__get__disabledClip() const {
+constexpr ::UnityW<::UnityEngine::AnimationClip> const& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__disabledClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledClip;
 }
-constexpr void HMUI::InputFieldViewStaticAnimations::__set__disabledClip(::UnityEngine::AnimationClip* value) {
+constexpr void HMUI::InputFieldViewStaticAnimations::__cordl_internal_set__disabledClip(::UnityW<::UnityEngine::AnimationClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disabledClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AnimationClip*& HMUI::InputFieldViewStaticAnimations::__get__selectedClip() {
+constexpr ::UnityW<::UnityEngine::AnimationClip>& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__selectedClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::InputFieldViewStaticAnimations::__get__selectedClip() const {
+constexpr ::UnityW<::UnityEngine::AnimationClip> const& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__selectedClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedClip;
 }
-constexpr void HMUI::InputFieldViewStaticAnimations::__set__selectedClip(::UnityEngine::AnimationClip* value) {
+constexpr void HMUI::InputFieldViewStaticAnimations::__cordl_internal_set__selectedClip(::UnityW<::UnityEngine::AnimationClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& HMUI::InputFieldViewStaticAnimations::__get__didStart() {
+constexpr bool& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__didStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didStart;
 }
-constexpr bool const& HMUI::InputFieldViewStaticAnimations::__get__didStart() const {
+constexpr bool const& HMUI::InputFieldViewStaticAnimations::__cordl_internal_get__didStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didStart;
 }
-constexpr void HMUI::InputFieldViewStaticAnimations::__set__didStart(bool value) {
+constexpr void HMUI::InputFieldViewStaticAnimations::__cordl_internal_set__didStart(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____didStart = value;
 }
 inline void HMUI::InputFieldViewStaticAnimations::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void HMUI::InputFieldViewStaticAnimations::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void HMUI::InputFieldViewStaticAnimations::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "OnEnable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void HMUI::InputFieldViewStaticAnimations::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "OnDestroy",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void HMUI::InputFieldViewStaticAnimations::HandleInputFieldViewSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "HandleInputFieldViewSelectionStateDidChange", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__InputFieldView__SelectionState>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "HandleInputFieldViewSelectionStateDidChange", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__InputFieldView__SelectionState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
 inline ::HMUI::InputFieldViewStaticAnimations* HMUI::InputFieldViewStaticAnimations::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HMUI::InputFieldViewStaticAnimations*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::InputFieldViewStaticAnimations*>());
 }
 inline void HMUI::InputFieldViewStaticAnimations::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

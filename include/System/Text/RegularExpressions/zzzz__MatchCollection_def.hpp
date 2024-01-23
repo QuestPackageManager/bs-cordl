@@ -72,17 +72,17 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::__MatchCollection__Enumerator
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8908))
 // CS Name: ::MatchCollection::Enumerator*
 class CORDL_TYPE __MatchCollection__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _collection, offset 0x10, size 0x8
-  __declspec(property(get = __get__collection, put = __set__collection))::System::Text::RegularExpressions::MatchCollection* _collection;
+  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Text::RegularExpressions::MatchCollection* _collection;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   __declspec(property(get = get_Current))::System::Text::RegularExpressions::Match* Current;
 
@@ -107,17 +107,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Text::RegularExpressions::MatchCollection*& __get__collection();
+  constexpr ::System::Text::RegularExpressions::MatchCollection*& __cordl_internal_get__collection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::MatchCollection*> const& __get__collection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::MatchCollection*> const& __cordl_internal_get__collection() const;
 
-  constexpr void __set__collection(::System::Text::RegularExpressions::MatchCollection* value);
+  constexpr void __cordl_internal_set__collection(::System::Text::RegularExpressions::MatchCollection* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline ::System::Text::RegularExpressions::__MatchCollection__Enumerator* New_ctor(::System::Text::RegularExpressions::MatchCollection* collection);
 
@@ -173,7 +173,7 @@ static_assert(offsetof(::System::Text::RegularExpressions::__MatchCollection__En
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8909))
 // CS Name: ::System.Text.RegularExpressions::MatchCollection*
 class CORDL_TYPE MatchCollection : public ::System::Object {
@@ -182,28 +182,28 @@ public:
   using Enumerator = ::System::Text::RegularExpressions::__MatchCollection__Enumerator;
 
   /// @brief Field _regex, offset 0x10, size 0x8
-  __declspec(property(get = __get__regex, put = __set__regex))::System::Text::RegularExpressions::Regex* _regex;
+  __declspec(property(get = __cordl_internal_get__regex, put = __cordl_internal_set__regex))::System::Text::RegularExpressions::Regex* _regex;
 
   /// @brief Field _matches, offset 0x18, size 0x8
-  __declspec(property(get = __get__matches, put = __set__matches))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>* _matches;
+  __declspec(property(get = __cordl_internal_get__matches, put = __cordl_internal_set__matches))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>* _matches;
 
   /// @brief Field _done, offset 0x20, size 0x1
-  __declspec(property(get = __get__done, put = __set__done)) bool _done;
+  __declspec(property(get = __cordl_internal_get__done, put = __cordl_internal_set__done)) bool _done;
 
   /// @brief Field _input, offset 0x28, size 0x8
-  __declspec(property(get = __get__input, put = __set__input))::StringW _input;
+  __declspec(property(get = __cordl_internal_get__input, put = __cordl_internal_set__input))::StringW _input;
 
   /// @brief Field _beginning, offset 0x30, size 0x4
-  __declspec(property(get = __get__beginning, put = __set__beginning)) int32_t _beginning;
+  __declspec(property(get = __cordl_internal_get__beginning, put = __cordl_internal_set__beginning)) int32_t _beginning;
 
   /// @brief Field _length, offset 0x34, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) int32_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   /// @brief Field _startat, offset 0x38, size 0x4
-  __declspec(property(get = __get__startat, put = __set__startat)) int32_t _startat;
+  __declspec(property(get = __cordl_internal_get__startat, put = __cordl_internal_set__startat)) int32_t _startat;
 
   /// @brief Field _prevlen, offset 0x3c, size 0x4
-  __declspec(property(get = __get__prevlen, put = __set__prevlen)) int32_t _prevlen;
+  __declspec(property(get = __cordl_internal_get__prevlen, put = __cordl_internal_set__prevlen)) int32_t _prevlen;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
@@ -274,53 +274,53 @@ public:
   /// @brief Convert to "::System::Collections::ICollection"
   constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  constexpr ::System::Text::RegularExpressions::Regex*& __get__regex();
+  constexpr ::System::Text::RegularExpressions::Regex*& __cordl_internal_get__regex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __get__regex() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __cordl_internal_get__regex() const;
 
-  constexpr void __set__regex(::System::Text::RegularExpressions::Regex* value);
+  constexpr void __cordl_internal_set__regex(::System::Text::RegularExpressions::Regex* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>*& __get__matches();
+  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>*& __cordl_internal_get__matches();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>*> const& __get__matches() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>*> const& __cordl_internal_get__matches() const;
 
-  constexpr void __set__matches(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>* value);
+  constexpr void __cordl_internal_set__matches(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>* value);
 
-  constexpr bool& __get__done();
+  constexpr bool& __cordl_internal_get__done();
 
-  constexpr bool const& __get__done() const;
+  constexpr bool const& __cordl_internal_get__done() const;
 
-  constexpr void __set__done(bool value);
+  constexpr void __cordl_internal_set__done(bool value);
 
-  constexpr ::StringW& __get__input();
+  constexpr ::StringW& __cordl_internal_get__input();
 
-  constexpr ::StringW const& __get__input() const;
+  constexpr ::StringW const& __cordl_internal_get__input() const;
 
-  constexpr void __set__input(::StringW value);
+  constexpr void __cordl_internal_set__input(::StringW value);
 
-  constexpr int32_t& __get__beginning();
+  constexpr int32_t& __cordl_internal_get__beginning();
 
-  constexpr int32_t const& __get__beginning() const;
+  constexpr int32_t const& __cordl_internal_get__beginning() const;
 
-  constexpr void __set__beginning(int32_t value);
+  constexpr void __cordl_internal_set__beginning(int32_t value);
 
-  constexpr int32_t& __get__length();
+  constexpr int32_t& __cordl_internal_get__length();
 
-  constexpr int32_t const& __get__length() const;
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int32_t value);
+  constexpr void __cordl_internal_set__length(int32_t value);
 
-  constexpr int32_t& __get__startat();
+  constexpr int32_t& __cordl_internal_get__startat();
 
-  constexpr int32_t const& __get__startat() const;
+  constexpr int32_t const& __cordl_internal_get__startat() const;
 
-  constexpr void __set__startat(int32_t value);
+  constexpr void __cordl_internal_set__startat(int32_t value);
 
-  constexpr int32_t& __get__prevlen();
+  constexpr int32_t& __cordl_internal_get__prevlen();
 
-  constexpr int32_t const& __get__prevlen() const;
+  constexpr int32_t const& __cordl_internal_get__prevlen() const;
 
-  constexpr void __set__prevlen(int32_t value);
+  constexpr void __cordl_internal_set__prevlen(int32_t value);
 
   static inline ::System::Text::RegularExpressions::MatchCollection* New_ctor(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat);
 

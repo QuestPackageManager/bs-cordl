@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__KeyboardState___keys_e__Fixed
 // SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6502))
 // CS Name: ::KeyboardState::<keys>e__FixedBuffer
 #pragma pack(push, 0)
@@ -69,7 +69,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__KeyboardState___k
 // SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 14, calculated_native_size: 30, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6502))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6502))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6503))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::KeyboardState
 struct CORDL_TYPE KeyboardState {

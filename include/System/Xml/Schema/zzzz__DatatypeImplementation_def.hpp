@@ -77,20 +77,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11620))
 // CS Name: ::DatatypeImplementation::SchemaDatatypeMap*
 class CORDL_TYPE __DatatypeImplementation__SchemaDatatypeMap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field type, offset 0x18, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Xml::Schema::DatatypeImplementation* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Xml::Schema::DatatypeImplementation* type;
 
   /// @brief Field parentIndex, offset 0x20, size 0x4
-  __declspec(property(get = __get_parentIndex, put = __set_parentIndex)) int32_t parentIndex;
+  __declspec(property(get = __cordl_internal_get_parentIndex, put = __cordl_internal_set_parentIndex)) int32_t parentIndex;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -102,23 +102,23 @@ public:
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::System::Xml::Schema::DatatypeImplementation*& __get_type();
+  constexpr ::System::Xml::Schema::DatatypeImplementation*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DatatypeImplementation*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DatatypeImplementation*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Xml::Schema::DatatypeImplementation* value);
+  constexpr void __cordl_internal_set_type(::System::Xml::Schema::DatatypeImplementation* value);
 
-  constexpr int32_t& __get_parentIndex();
+  constexpr int32_t& __cordl_internal_get_parentIndex();
 
-  constexpr int32_t const& __get_parentIndex() const;
+  constexpr int32_t const& __cordl_internal_get_parentIndex() const;
 
-  constexpr void __set_parentIndex(int32_t value);
+  constexpr void __cordl_internal_set_parentIndex(int32_t value);
 
   static inline ::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type);
 
@@ -181,7 +181,7 @@ static_assert(offsetof(::System::Xml::Schema::__DatatypeImplementation__SchemaDa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11615)), TypeDefinitionIndex(TypeDefinitionIndex(11723))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11615)), TypeDefinitionIndex(TypeDefinitionIndex(11723))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11621))
 // CS Name: ::System.Xml.Schema::DatatypeImplementation*
 class CORDL_TYPE DatatypeImplementation : public ::System::Xml::Schema::XmlSchemaDatatype {
@@ -190,19 +190,19 @@ public:
   using SchemaDatatypeMap = ::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap;
 
   /// @brief Field variety, offset 0x10, size 0x4
-  __declspec(property(get = __get_variety, put = __set_variety))::System::Xml::Schema::XmlSchemaDatatypeVariety variety;
+  __declspec(property(get = __cordl_internal_get_variety, put = __cordl_internal_set_variety))::System::Xml::Schema::XmlSchemaDatatypeVariety variety;
 
   /// @brief Field restriction, offset 0x18, size 0x8
-  __declspec(property(get = __get_restriction, put = __set_restriction))::System::Xml::Schema::RestrictionFacets* restriction;
+  __declspec(property(get = __cordl_internal_get_restriction, put = __cordl_internal_set_restriction))::System::Xml::Schema::RestrictionFacets* restriction;
 
   /// @brief Field baseType, offset 0x20, size 0x8
-  __declspec(property(get = __get_baseType, put = __set_baseType))::System::Xml::Schema::DatatypeImplementation* baseType;
+  __declspec(property(get = __cordl_internal_get_baseType, put = __cordl_internal_set_baseType))::System::Xml::Schema::DatatypeImplementation* baseType;
 
   /// @brief Field valueConverter, offset 0x28, size 0x8
-  __declspec(property(get = __get_valueConverter, put = __set_valueConverter))::System::Xml::Schema::XmlValueConverter* valueConverter;
+  __declspec(property(get = __cordl_internal_get_valueConverter, put = __cordl_internal_set_valueConverter))::System::Xml::Schema::XmlValueConverter* valueConverter;
 
   /// @brief Field parentSchemaType, offset 0x30, size 0x8
-  __declspec(property(get = __get_parentSchemaType, put = __set_parentSchemaType))::System::Xml::Schema::XmlSchemaType* parentSchemaType;
+  __declspec(property(get = __cordl_internal_get_parentSchemaType, put = __cordl_internal_set_parentSchemaType))::System::Xml::Schema::XmlSchemaType* parentSchemaType;
 
   /// @brief Field builtinTypes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_builtinTypes, put = setStaticF_builtinTypes))::System::Collections::Hashtable* builtinTypes;
@@ -480,35 +480,35 @@ public:
 
   __declspec(property(get = get_BuiltInWhitespaceFacet))::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety& __get_variety();
+  constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety& __cordl_internal_get_variety();
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety const& __get_variety() const;
+  constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety const& __cordl_internal_get_variety() const;
 
-  constexpr void __set_variety(::System::Xml::Schema::XmlSchemaDatatypeVariety value);
+  constexpr void __cordl_internal_set_variety(::System::Xml::Schema::XmlSchemaDatatypeVariety value);
 
-  constexpr ::System::Xml::Schema::RestrictionFacets*& __get_restriction();
+  constexpr ::System::Xml::Schema::RestrictionFacets*& __cordl_internal_get_restriction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::RestrictionFacets*> const& __get_restriction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::RestrictionFacets*> const& __cordl_internal_get_restriction() const;
 
-  constexpr void __set_restriction(::System::Xml::Schema::RestrictionFacets* value);
+  constexpr void __cordl_internal_set_restriction(::System::Xml::Schema::RestrictionFacets* value);
 
-  constexpr ::System::Xml::Schema::DatatypeImplementation*& __get_baseType();
+  constexpr ::System::Xml::Schema::DatatypeImplementation*& __cordl_internal_get_baseType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DatatypeImplementation*> const& __get_baseType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DatatypeImplementation*> const& __cordl_internal_get_baseType() const;
 
-  constexpr void __set_baseType(::System::Xml::Schema::DatatypeImplementation* value);
+  constexpr void __cordl_internal_set_baseType(::System::Xml::Schema::DatatypeImplementation* value);
 
-  constexpr ::System::Xml::Schema::XmlValueConverter*& __get_valueConverter();
+  constexpr ::System::Xml::Schema::XmlValueConverter*& __cordl_internal_get_valueConverter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlValueConverter*> const& __get_valueConverter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlValueConverter*> const& __cordl_internal_get_valueConverter() const;
 
-  constexpr void __set_valueConverter(::System::Xml::Schema::XmlValueConverter* value);
+  constexpr void __cordl_internal_set_valueConverter(::System::Xml::Schema::XmlValueConverter* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __get_parentSchemaType();
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_parentSchemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __get_parentSchemaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_parentSchemaType() const;
 
-  constexpr void __set_parentSchemaType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr void __cordl_internal_set_parentSchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
   static inline void setStaticF_builtinTypes(::System::Collections::Hashtable* value);
 

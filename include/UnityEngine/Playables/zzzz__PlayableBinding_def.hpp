@@ -41,7 +41,7 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableBinding);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10430))
 // CS Name: ::PlayableBinding::CreateOutputMethod*
 class CORDL_TYPE __PlayableBinding__CreateOutputMethod : public ::System::MulticastDelegate {
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::__Playab
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10431))
 // CS Name: ::UnityEngine.Playables::PlayableBinding
 struct CORDL_TYPE PlayableBinding {
@@ -95,7 +95,7 @@ public:
 
   __declspec(property(get = get_streamName))::StringW streamName;
 
-  __declspec(property(get = get_sourceObject))::UnityEngine::Object* sourceObject;
+  __declspec(property(get = get_sourceObject))::UnityW<::UnityEngine::Object> sourceObject;
 
   static inline void setStaticF_None(::ArrayW<::UnityEngine::Playables::PlayableBinding, ::Array<::UnityEngine::Playables::PlayableBinding>*> value);
 
@@ -109,7 +109,7 @@ public:
   inline ::StringW get_streamName();
 
   /// @brief Method get_sourceObject, addr 0x2cf5ef4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* get_sourceObject();
+  inline ::UnityW<::UnityEngine::Object> get_sourceObject();
 
   /// @brief Method CreateOutput, addr 0x2cf5efc, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput CreateOutput(::UnityEngine::Playables::PlayableGraph graph);
@@ -118,10 +118,10 @@ public:
   static inline ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType,
                                                                          ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* createFunction);
 
-  // Ctor Parameters [CppParam { name: "m_StreamName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_SourceObject", ty: "::UnityEngine::Object*", modifiers: "", def_value:
-  // None }, CppParam { name: "m_SourceBindingType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "m_CreateOutputMethod", ty:
+  // Ctor Parameters [CppParam { name: "m_StreamName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_SourceObject", ty: "::UnityW<::UnityEngine::Object>", modifiers: "",
+  // def_value: None }, CppParam { name: "m_SourceBindingType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "m_CreateOutputMethod", ty:
   // "::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod*", modifiers: "", def_value: None }]
-  constexpr PlayableBinding(::StringW m_StreamName, ::UnityEngine::Object* m_SourceObject, ::System::Type* m_SourceBindingType,
+  constexpr PlayableBinding(::StringW m_StreamName, ::UnityW<::UnityEngine::Object> m_SourceObject, ::System::Type* m_SourceBindingType,
                             ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* m_CreateOutputMethod) noexcept;
 
   // Ctor Parameters []
@@ -132,7 +132,7 @@ public:
   ::StringW m_StreamName;
 
   /// @brief Field m_SourceObject, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Object* m_SourceObject;
+  ::UnityW<::UnityEngine::Object> m_SourceObject;
 
   /// @brief Field m_SourceBindingType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* m_SourceBindingType;

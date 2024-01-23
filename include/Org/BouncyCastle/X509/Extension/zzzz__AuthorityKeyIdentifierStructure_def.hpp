@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStruc
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Extension {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(345))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(345))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1839))
 // CS Name: ::Org.BouncyCastle.X509.Extension::AuthorityKeyIdentifierStructure*
 class CORDL_TYPE AuthorityKeyIdentifierStructure : public ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier {

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DESCryptoServiceProvider);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2928))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2928))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2929))
 // CS Name: ::System.Security.Cryptography::DESCryptoServiceProvider*
 class CORDL_TYPE DESCryptoServiceProvider : public ::System::Security::Cryptography::DES {

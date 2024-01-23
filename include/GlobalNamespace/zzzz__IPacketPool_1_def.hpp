@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12808))
 // CS Name: ::IPacketPool`1<T>*
 class CORDL_TYPE IPacketPool_1 {

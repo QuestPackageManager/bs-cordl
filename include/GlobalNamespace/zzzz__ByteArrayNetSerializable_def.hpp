@@ -27,29 +27,29 @@ MARK_REF_PTR_T(::GlobalNamespace::ByteArrayNetSerializable);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12687))
 // CS Name: ::ByteArrayNetSerializable*
 class CORDL_TYPE ByteArrayNetSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
 
   /// @brief Field _length, offset 0x18, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) int32_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   /// @brief Field _name, offset 0x20, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _allowEmpty, offset 0x28, size 0x1
-  __declspec(property(get = __get__allowEmpty, put = __set__allowEmpty)) bool _allowEmpty;
+  __declspec(property(get = __cordl_internal_get__allowEmpty, put = __cordl_internal_set__allowEmpty)) bool _allowEmpty;
 
   /// @brief Field _minLength, offset 0x2c, size 0x4
-  __declspec(property(get = __get__minLength, put = __set__minLength)) int32_t _minLength;
+  __declspec(property(get = __cordl_internal_get__minLength, put = __cordl_internal_set__minLength)) int32_t _minLength;
 
   /// @brief Field _maxLength, offset 0x30, size 0x4
-  __declspec(property(get = __get__maxLength, put = __set__maxLength)) int32_t _maxLength;
+  __declspec(property(get = __cordl_internal_get__maxLength, put = __cordl_internal_set__maxLength)) int32_t _maxLength;
 
   __declspec(property(get = get_length)) int32_t length;
 
@@ -61,41 +61,41 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__length();
+  constexpr int32_t& __cordl_internal_get__length();
 
-  constexpr int32_t const& __get__length() const;
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int32_t value);
+  constexpr void __cordl_internal_set__length(int32_t value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr bool& __get__allowEmpty();
+  constexpr bool& __cordl_internal_get__allowEmpty();
 
-  constexpr bool const& __get__allowEmpty() const;
+  constexpr bool const& __cordl_internal_get__allowEmpty() const;
 
-  constexpr void __set__allowEmpty(bool value);
+  constexpr void __cordl_internal_set__allowEmpty(bool value);
 
-  constexpr int32_t& __get__minLength();
+  constexpr int32_t& __cordl_internal_get__minLength();
 
-  constexpr int32_t const& __get__minLength() const;
+  constexpr int32_t const& __cordl_internal_get__minLength() const;
 
-  constexpr void __set__minLength(int32_t value);
+  constexpr void __cordl_internal_set__minLength(int32_t value);
 
-  constexpr int32_t& __get__maxLength();
+  constexpr int32_t& __cordl_internal_get__maxLength();
 
-  constexpr int32_t const& __get__maxLength() const;
+  constexpr int32_t const& __cordl_internal_get__maxLength() const;
 
-  constexpr void __set__maxLength(int32_t value);
+  constexpr void __cordl_internal_set__maxLength(int32_t value);
 
   /// @brief Method get_length, addr 0xe29d6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();

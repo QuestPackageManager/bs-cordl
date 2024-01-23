@@ -37,7 +37,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRTelemetryMarker__OVRTelemetryMarkerState);
 // SizeInfo { instance_size: 4, native_size: 8, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7863))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7863))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8023))
 // CS Name: ::OVRTelemetryMarker::OVRTelemetryMarkerState
 struct CORDL_TYPE __OVRTelemetryMarker__OVRTelemetryMarkerState {
@@ -93,7 +93,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTelemetryMarker__OVRTelemetryMark
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8023))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8023))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8024))
 // CS Name: ::OVRTelemetryMarker
 struct CORDL_TYPE OVRTelemetryMarker {

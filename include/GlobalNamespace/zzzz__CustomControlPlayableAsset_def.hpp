@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomControlPlayableAsset);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13874))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6008))
 // CS Name: ::CustomControlPlayableAsset*
 class CORDL_TYPE CustomControlPlayableAsset : public ::UnityEngine::Timeline::ControlPlayableAsset {
 public:
   // Declarations
   /// @brief Field _template, offset 0x58, size 0x8
-  __declspec(property(get = __get__template, put = __set__template))::GlobalNamespace::AvatarColorBehaviour* _template;
+  __declspec(property(get = __cordl_internal_get__template, put = __cordl_internal_set__template))::GlobalNamespace::AvatarColorBehaviour* _template;
 
   __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
 
@@ -40,11 +40,11 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
-  constexpr ::GlobalNamespace::AvatarColorBehaviour*& __get__template();
+  constexpr ::GlobalNamespace::AvatarColorBehaviour*& __cordl_internal_get__template();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AvatarColorBehaviour*> const& __get__template() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AvatarColorBehaviour*> const& __cordl_internal_get__template() const;
 
-  constexpr void __set__template(::GlobalNamespace::AvatarColorBehaviour* value);
+  constexpr void __cordl_internal_set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
   /// @brief Method get_clipCaps, addr 0x2315858, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();

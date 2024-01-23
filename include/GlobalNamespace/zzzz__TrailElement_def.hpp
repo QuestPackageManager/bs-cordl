@@ -19,56 +19,56 @@ MARK_REF_PTR_T(::GlobalNamespace::TrailElement);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4879))
 // CS Name: ::TrailElement*
 class CORDL_TYPE TrailElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field position, offset 0x10, size 0xc
-  __declspec(property(get = __get_position, put = __set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
 
   /// @brief Field normal, offset 0x1c, size 0xc
-  __declspec(property(get = __get_normal, put = __set_normal))::UnityEngine::Vector3 normal;
+  __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal))::UnityEngine::Vector3 normal;
 
   /// @brief Field distance, offset 0x28, size 0x4
-  __declspec(property(get = __get_distance, put = __set_distance)) float_t distance;
+  __declspec(property(get = __cordl_internal_get_distance, put = __cordl_internal_set_distance)) float_t distance;
 
   /// @brief Field localDistance, offset 0x2c, size 0x4
-  __declspec(property(get = __get_localDistance, put = __set_localDistance)) float_t localDistance;
+  __declspec(property(get = __cordl_internal_get_localDistance, put = __cordl_internal_set_localDistance)) float_t localDistance;
 
   /// @brief Field time, offset 0x30, size 0x4
-  __declspec(property(get = __get_time, put = __set_time)) float_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  constexpr ::UnityEngine::Vector3& __get_position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
 
-  constexpr ::UnityEngine::Vector3 const& __get_position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_normal();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_normal();
 
-  constexpr ::UnityEngine::Vector3 const& __get_normal() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_normal() const;
 
-  constexpr void __set_normal(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_normal(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_distance();
+  constexpr float_t& __cordl_internal_get_distance();
 
-  constexpr float_t const& __get_distance() const;
+  constexpr float_t const& __cordl_internal_get_distance() const;
 
-  constexpr void __set_distance(float_t value);
+  constexpr void __cordl_internal_set_distance(float_t value);
 
-  constexpr float_t& __get_localDistance();
+  constexpr float_t& __cordl_internal_get_localDistance();
 
-  constexpr float_t const& __get_localDistance() const;
+  constexpr float_t const& __cordl_internal_get_localDistance() const;
 
-  constexpr void __set_localDistance(float_t value);
+  constexpr void __cordl_internal_set_localDistance(float_t value);
 
-  constexpr float_t& __get_time();
+  constexpr float_t& __cordl_internal_get_time();
 
-  constexpr float_t const& __get_time() const;
+  constexpr float_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(float_t value);
+  constexpr void __cordl_internal_set_time(float_t value);
 
   /// @brief Method SetData, addr 0x23a0850, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);

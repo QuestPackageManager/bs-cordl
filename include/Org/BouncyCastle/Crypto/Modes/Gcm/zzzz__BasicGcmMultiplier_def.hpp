@@ -19,14 +19,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(952))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes.Gcm::BasicGcmMultiplier*
 class CORDL_TYPE BasicGcmMultiplier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field H, offset 0x10, size 0x8
-  __declspec(property(get = __get_H, put = __set_H))::ArrayW<uint32_t, ::Array<uint32_t>*> H;
+  __declspec(property(get = __cordl_internal_get_H, put = __cordl_internal_set_H))::ArrayW<uint32_t, ::Array<uint32_t>*> H;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*() noexcept;
@@ -34,11 +34,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
   constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* i___Org__BouncyCastle__Crypto__Modes__Gcm__IGcmMultiplier() noexcept;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_H();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_H();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_H() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_H() const;
 
-  constexpr void __set_H(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_H(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   /// @brief Method Init, addr 0xf123c0, size 0x68, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);

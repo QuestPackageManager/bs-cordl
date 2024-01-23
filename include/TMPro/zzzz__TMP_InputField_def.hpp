@@ -253,7 +253,7 @@ MARK_REF_PTR_T(::TMPro::__TMP_InputField___MouseDragOutsideRect_d__294);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12378))
 // CS Name: ::TMP_InputField::ContentType
 struct CORDL_TYPE __TMP_InputField__ContentType {
@@ -335,7 +335,7 @@ static_assert(offsetof(::TMPro::__TMP_InputField__ContentType, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12379))
 // CS Name: ::TMP_InputField::InputType
 struct CORDL_TYPE __TMP_InputField__InputType {
@@ -389,7 +389,7 @@ static_assert(offsetof(::TMPro::__TMP_InputField__InputType, value__) == 0x0, "O
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12380))
 // CS Name: ::TMP_InputField::CharacterValidation
 struct CORDL_TYPE __TMP_InputField__CharacterValidation {
@@ -467,7 +467,7 @@ static_assert(offsetof(::TMPro::__TMP_InputField__CharacterValidation, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12381))
 // CS Name: ::TMP_InputField::LineType
 struct CORDL_TYPE __TMP_InputField__LineType {
@@ -521,7 +521,7 @@ static_assert(offsetof(::TMPro::__TMP_InputField__LineType, value__) == 0x0, "Of
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12382))
 // CS Name: ::TMP_InputField::OnValidateInput*
 class CORDL_TYPE __TMP_InputField__OnValidateInput : public ::System::MulticastDelegate {
@@ -565,7 +565,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__OnValid
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12383))
 // CS Name: ::TMP_InputField::SubmitEvent*
 class CORDL_TYPE __TMP_InputField__SubmitEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -600,7 +600,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__SubmitE
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12384))
 // CS Name: ::TMP_InputField::OnChangeEvent*
 class CORDL_TYPE __TMP_InputField__OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -635,7 +635,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__OnChang
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12385))
 // CS Name: ::TMP_InputField::SelectionEvent*
 class CORDL_TYPE __TMP_InputField__SelectionEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -670,7 +670,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__Selecti
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10467), inst: 2503 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10467), inst: 2503 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12386))
 // CS Name: ::TMP_InputField::TextSelectionEvent*
 class CORDL_TYPE __TMP_InputField__TextSelectionEvent : public ::UnityEngine::Events::UnityEvent_3<::StringW, int32_t, int32_t> {
@@ -705,8 +705,8 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__TextSel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5240 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10183))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12387)) CS Name: ::TMP_InputField::TouchScreenKeyboardEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10183)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 5240 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12387)) CS Name: ::TMP_InputField::TouchScreenKeyboardEvent*
 class CORDL_TYPE __TMP_InputField__TouchScreenKeyboardEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::__TouchScreenKeyboard__Status> {
 public:
   // Declarations
@@ -739,7 +739,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__TouchSc
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12388))
 // CS Name: ::TMP_InputField::EditState
 struct CORDL_TYPE __TMP_InputField__EditState {
@@ -789,20 +789,20 @@ static_assert(offsetof(::TMPro::__TMP_InputField__EditState, value__) == 0x0, "O
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12389))
 // CS Name: ::TMP_InputField::<CaretBlink>d__276*
 class CORDL_TYPE __TMP_InputField___CaretBlink_d__276 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::TMPro::TMP_InputField* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::TMPro::TMP_InputField> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -826,23 +826,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::TMPro::TMP_InputField*& __get___4__this();
+  constexpr ::UnityW<::TMPro::TMP_InputField>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_InputField*> const& __get___4__this() const;
+  constexpr ::UnityW<::TMPro::TMP_InputField> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::TMPro::TMP_InputField* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value);
 
   static inline ::TMPro::__TMP_InputField___CaretBlink_d__276* New_ctor(int32_t __1__state);
 
@@ -885,7 +885,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TMP_InputField* _____4__this;
+  ::UnityW<::TMPro::TMP_InputField> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -903,23 +903,23 @@ static_assert(offsetof(::TMPro::__TMP_InputField___CaretBlink_d__276, _____4__th
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12390))
 // CS Name: ::TMP_InputField::<MouseDragOutsideRect>d__294*
 class CORDL_TYPE __TMP_InputField___MouseDragOutsideRect_d__294 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::TMPro::TMP_InputField* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::TMPro::TMP_InputField> __4__this;
 
   /// @brief Field eventData, offset 0x28, size 0x8
-  __declspec(property(get = __get_eventData, put = __set_eventData))::UnityEngine::EventSystems::PointerEventData* eventData;
+  __declspec(property(get = __cordl_internal_get_eventData, put = __cordl_internal_set_eventData))::UnityEngine::EventSystems::PointerEventData* eventData;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -943,29 +943,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::TMPro::TMP_InputField*& __get___4__this();
+  constexpr ::UnityW<::TMPro::TMP_InputField>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_InputField*> const& __get___4__this() const;
+  constexpr ::UnityW<::TMPro::TMP_InputField> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::TMPro::TMP_InputField* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value);
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData*& __get_eventData();
+  constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_eventData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __get_eventData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_eventData() const;
 
-  constexpr void __set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
+  constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
   static inline ::TMPro::__TMP_InputField___MouseDragOutsideRect_d__294* New_ctor(int32_t __1__state);
 
@@ -1008,7 +1008,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TMP_InputField* _____4__this;
+  ::UnityW<::TMPro::TMP_InputField> _____4__this;
 
   /// @brief Field eventData, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::EventSystems::PointerEventData* ___eventData;
@@ -1031,9 +1031,9 @@ static_assert(offsetof(::TMPro::__TMP_InputField___MouseDragOutsideRect_d__294, 
 // SizeInfo { instance_size: 752, native_size: -1, calculated_instance_size: 752, calculated_native_size: 752, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(12381)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12379)), TypeDefinitionIndex(TypeDefinitionIndex(12378)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10185)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(12380))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12391)) CS Name: ::TMPro::TMP_InputField*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10185)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12378)), TypeDefinitionIndex(TypeDefinitionIndex(12379)), TypeDefinitionIndex(TypeDefinitionIndex(12380)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12381)), TypeDefinitionIndex(TypeDefinitionIndex(13119))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12391)) CS Name: ::TMPro::TMP_InputField*
 class CORDL_TYPE TMP_InputField : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
@@ -1064,289 +1064,291 @@ public:
   using ContentType = ::TMPro::__TMP_InputField__ContentType;
 
   /// @brief Field m_SoftKeyboard, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_SoftKeyboard, put = __set_m_SoftKeyboard))::UnityEngine::TouchScreenKeyboard* m_SoftKeyboard;
+  __declspec(property(get = __cordl_internal_get_m_SoftKeyboard, put = __cordl_internal_set_m_SoftKeyboard))::UnityEngine::TouchScreenKeyboard* m_SoftKeyboard;
 
   /// @brief Field m_RectTransform, offset 0x100, size 0x8
-  __declspec(property(get = __get_m_RectTransform, put = __set_m_RectTransform))::UnityEngine::RectTransform* m_RectTransform;
+  __declspec(property(get = __cordl_internal_get_m_RectTransform, put = __cordl_internal_set_m_RectTransform))::UnityW<::UnityEngine::RectTransform> m_RectTransform;
 
   /// @brief Field m_TextViewport, offset 0x108, size 0x8
-  __declspec(property(get = __get_m_TextViewport, put = __set_m_TextViewport))::UnityEngine::RectTransform* m_TextViewport;
+  __declspec(property(get = __cordl_internal_get_m_TextViewport, put = __cordl_internal_set_m_TextViewport))::UnityW<::UnityEngine::RectTransform> m_TextViewport;
 
   /// @brief Field m_TextComponentRectMask, offset 0x110, size 0x8
-  __declspec(property(get = __get_m_TextComponentRectMask, put = __set_m_TextComponentRectMask))::UnityEngine::UI::RectMask2D* m_TextComponentRectMask;
+  __declspec(property(get = __cordl_internal_get_m_TextComponentRectMask, put = __cordl_internal_set_m_TextComponentRectMask))::UnityW<::UnityEngine::UI::RectMask2D> m_TextComponentRectMask;
 
   /// @brief Field m_TextViewportRectMask, offset 0x118, size 0x8
-  __declspec(property(get = __get_m_TextViewportRectMask, put = __set_m_TextViewportRectMask))::UnityEngine::UI::RectMask2D* m_TextViewportRectMask;
+  __declspec(property(get = __cordl_internal_get_m_TextViewportRectMask, put = __cordl_internal_set_m_TextViewportRectMask))::UnityW<::UnityEngine::UI::RectMask2D> m_TextViewportRectMask;
 
   /// @brief Field m_CachedViewportRect, offset 0x120, size 0x10
-  __declspec(property(get = __get_m_CachedViewportRect, put = __set_m_CachedViewportRect))::UnityEngine::Rect m_CachedViewportRect;
+  __declspec(property(get = __cordl_internal_get_m_CachedViewportRect, put = __cordl_internal_set_m_CachedViewportRect))::UnityEngine::Rect m_CachedViewportRect;
 
   /// @brief Field m_TextComponent, offset 0x130, size 0x8
-  __declspec(property(get = __get_m_TextComponent, put = __set_m_TextComponent))::TMPro::TMP_Text* m_TextComponent;
+  __declspec(property(get = __cordl_internal_get_m_TextComponent, put = __cordl_internal_set_m_TextComponent))::UnityW<::TMPro::TMP_Text> m_TextComponent;
 
   /// @brief Field m_TextComponentRectTransform, offset 0x138, size 0x8
-  __declspec(property(get = __get_m_TextComponentRectTransform, put = __set_m_TextComponentRectTransform))::UnityEngine::RectTransform* m_TextComponentRectTransform;
+  __declspec(property(get = __cordl_internal_get_m_TextComponentRectTransform,
+                      put = __cordl_internal_set_m_TextComponentRectTransform))::UnityW<::UnityEngine::RectTransform> m_TextComponentRectTransform;
 
   /// @brief Field m_Placeholder, offset 0x140, size 0x8
-  __declspec(property(get = __get_m_Placeholder, put = __set_m_Placeholder))::UnityEngine::UI::Graphic* m_Placeholder;
+  __declspec(property(get = __cordl_internal_get_m_Placeholder, put = __cordl_internal_set_m_Placeholder))::UnityW<::UnityEngine::UI::Graphic> m_Placeholder;
 
   /// @brief Field m_VerticalScrollbar, offset 0x148, size 0x8
-  __declspec(property(get = __get_m_VerticalScrollbar, put = __set_m_VerticalScrollbar))::UnityEngine::UI::Scrollbar* m_VerticalScrollbar;
+  __declspec(property(get = __cordl_internal_get_m_VerticalScrollbar, put = __cordl_internal_set_m_VerticalScrollbar))::UnityW<::UnityEngine::UI::Scrollbar> m_VerticalScrollbar;
 
   /// @brief Field m_VerticalScrollbarEventHandler, offset 0x150, size 0x8
-  __declspec(property(get = __get_m_VerticalScrollbarEventHandler, put = __set_m_VerticalScrollbarEventHandler))::TMPro::TMP_ScrollbarEventHandler* m_VerticalScrollbarEventHandler;
+  __declspec(property(get = __cordl_internal_get_m_VerticalScrollbarEventHandler,
+                      put = __cordl_internal_set_m_VerticalScrollbarEventHandler))::UnityW<::TMPro::TMP_ScrollbarEventHandler> m_VerticalScrollbarEventHandler;
 
   /// @brief Field m_IsDrivenByLayoutComponents, offset 0x158, size 0x1
-  __declspec(property(get = __get_m_IsDrivenByLayoutComponents, put = __set_m_IsDrivenByLayoutComponents)) bool m_IsDrivenByLayoutComponents;
+  __declspec(property(get = __cordl_internal_get_m_IsDrivenByLayoutComponents, put = __cordl_internal_set_m_IsDrivenByLayoutComponents)) bool m_IsDrivenByLayoutComponents;
 
   /// @brief Field m_LayoutGroup, offset 0x160, size 0x8
-  __declspec(property(get = __get_m_LayoutGroup, put = __set_m_LayoutGroup))::UnityEngine::UI::LayoutGroup* m_LayoutGroup;
+  __declspec(property(get = __cordl_internal_get_m_LayoutGroup, put = __cordl_internal_set_m_LayoutGroup))::UnityW<::UnityEngine::UI::LayoutGroup> m_LayoutGroup;
 
   /// @brief Field m_IScrollHandlerParent, offset 0x168, size 0x8
-  __declspec(property(get = __get_m_IScrollHandlerParent, put = __set_m_IScrollHandlerParent))::UnityEngine::EventSystems::IScrollHandler* m_IScrollHandlerParent;
+  __declspec(property(get = __cordl_internal_get_m_IScrollHandlerParent, put = __cordl_internal_set_m_IScrollHandlerParent))::UnityEngine::EventSystems::IScrollHandler* m_IScrollHandlerParent;
 
   /// @brief Field m_ScrollPosition, offset 0x170, size 0x4
-  __declspec(property(get = __get_m_ScrollPosition, put = __set_m_ScrollPosition)) float_t m_ScrollPosition;
+  __declspec(property(get = __cordl_internal_get_m_ScrollPosition, put = __cordl_internal_set_m_ScrollPosition)) float_t m_ScrollPosition;
 
   /// @brief Field m_ScrollSensitivity, offset 0x174, size 0x4
-  __declspec(property(get = __get_m_ScrollSensitivity, put = __set_m_ScrollSensitivity)) float_t m_ScrollSensitivity;
+  __declspec(property(get = __cordl_internal_get_m_ScrollSensitivity, put = __cordl_internal_set_m_ScrollSensitivity)) float_t m_ScrollSensitivity;
 
   /// @brief Field m_ContentType, offset 0x178, size 0x4
-  __declspec(property(get = __get_m_ContentType, put = __set_m_ContentType))::TMPro::__TMP_InputField__ContentType m_ContentType;
+  __declspec(property(get = __cordl_internal_get_m_ContentType, put = __cordl_internal_set_m_ContentType))::TMPro::__TMP_InputField__ContentType m_ContentType;
 
   /// @brief Field m_InputType, offset 0x17c, size 0x4
-  __declspec(property(get = __get_m_InputType, put = __set_m_InputType))::TMPro::__TMP_InputField__InputType m_InputType;
+  __declspec(property(get = __cordl_internal_get_m_InputType, put = __cordl_internal_set_m_InputType))::TMPro::__TMP_InputField__InputType m_InputType;
 
   /// @brief Field m_AsteriskChar, offset 0x180, size 0x2
-  __declspec(property(get = __get_m_AsteriskChar, put = __set_m_AsteriskChar)) char16_t m_AsteriskChar;
+  __declspec(property(get = __cordl_internal_get_m_AsteriskChar, put = __cordl_internal_set_m_AsteriskChar)) char16_t m_AsteriskChar;
 
   /// @brief Field m_KeyboardType, offset 0x184, size 0x4
-  __declspec(property(get = __get_m_KeyboardType, put = __set_m_KeyboardType))::UnityEngine::TouchScreenKeyboardType m_KeyboardType;
+  __declspec(property(get = __cordl_internal_get_m_KeyboardType, put = __cordl_internal_set_m_KeyboardType))::UnityEngine::TouchScreenKeyboardType m_KeyboardType;
 
   /// @brief Field m_LineType, offset 0x188, size 0x4
-  __declspec(property(get = __get_m_LineType, put = __set_m_LineType))::TMPro::__TMP_InputField__LineType m_LineType;
+  __declspec(property(get = __cordl_internal_get_m_LineType, put = __cordl_internal_set_m_LineType))::TMPro::__TMP_InputField__LineType m_LineType;
 
   /// @brief Field m_HideMobileInput, offset 0x18c, size 0x1
-  __declspec(property(get = __get_m_HideMobileInput, put = __set_m_HideMobileInput)) bool m_HideMobileInput;
+  __declspec(property(get = __cordl_internal_get_m_HideMobileInput, put = __cordl_internal_set_m_HideMobileInput)) bool m_HideMobileInput;
 
   /// @brief Field m_HideSoftKeyboard, offset 0x18d, size 0x1
-  __declspec(property(get = __get_m_HideSoftKeyboard, put = __set_m_HideSoftKeyboard)) bool m_HideSoftKeyboard;
+  __declspec(property(get = __cordl_internal_get_m_HideSoftKeyboard, put = __cordl_internal_set_m_HideSoftKeyboard)) bool m_HideSoftKeyboard;
 
   /// @brief Field m_CharacterValidation, offset 0x190, size 0x4
-  __declspec(property(get = __get_m_CharacterValidation, put = __set_m_CharacterValidation))::TMPro::__TMP_InputField__CharacterValidation m_CharacterValidation;
+  __declspec(property(get = __cordl_internal_get_m_CharacterValidation, put = __cordl_internal_set_m_CharacterValidation))::TMPro::__TMP_InputField__CharacterValidation m_CharacterValidation;
 
   /// @brief Field m_RegexValue, offset 0x198, size 0x8
-  __declspec(property(get = __get_m_RegexValue, put = __set_m_RegexValue))::StringW m_RegexValue;
+  __declspec(property(get = __cordl_internal_get_m_RegexValue, put = __cordl_internal_set_m_RegexValue))::StringW m_RegexValue;
 
   /// @brief Field m_GlobalPointSize, offset 0x1a0, size 0x4
-  __declspec(property(get = __get_m_GlobalPointSize, put = __set_m_GlobalPointSize)) float_t m_GlobalPointSize;
+  __declspec(property(get = __cordl_internal_get_m_GlobalPointSize, put = __cordl_internal_set_m_GlobalPointSize)) float_t m_GlobalPointSize;
 
   /// @brief Field m_CharacterLimit, offset 0x1a4, size 0x4
-  __declspec(property(get = __get_m_CharacterLimit, put = __set_m_CharacterLimit)) int32_t m_CharacterLimit;
+  __declspec(property(get = __cordl_internal_get_m_CharacterLimit, put = __cordl_internal_set_m_CharacterLimit)) int32_t m_CharacterLimit;
 
   /// @brief Field m_OnEndEdit, offset 0x1a8, size 0x8
-  __declspec(property(get = __get_m_OnEndEdit, put = __set_m_OnEndEdit))::TMPro::__TMP_InputField__SubmitEvent* m_OnEndEdit;
+  __declspec(property(get = __cordl_internal_get_m_OnEndEdit, put = __cordl_internal_set_m_OnEndEdit))::TMPro::__TMP_InputField__SubmitEvent* m_OnEndEdit;
 
   /// @brief Field m_OnSubmit, offset 0x1b0, size 0x8
-  __declspec(property(get = __get_m_OnSubmit, put = __set_m_OnSubmit))::TMPro::__TMP_InputField__SubmitEvent* m_OnSubmit;
+  __declspec(property(get = __cordl_internal_get_m_OnSubmit, put = __cordl_internal_set_m_OnSubmit))::TMPro::__TMP_InputField__SubmitEvent* m_OnSubmit;
 
   /// @brief Field m_OnSelect, offset 0x1b8, size 0x8
-  __declspec(property(get = __get_m_OnSelect, put = __set_m_OnSelect))::TMPro::__TMP_InputField__SelectionEvent* m_OnSelect;
+  __declspec(property(get = __cordl_internal_get_m_OnSelect, put = __cordl_internal_set_m_OnSelect))::TMPro::__TMP_InputField__SelectionEvent* m_OnSelect;
 
   /// @brief Field m_OnDeselect, offset 0x1c0, size 0x8
-  __declspec(property(get = __get_m_OnDeselect, put = __set_m_OnDeselect))::TMPro::__TMP_InputField__SelectionEvent* m_OnDeselect;
+  __declspec(property(get = __cordl_internal_get_m_OnDeselect, put = __cordl_internal_set_m_OnDeselect))::TMPro::__TMP_InputField__SelectionEvent* m_OnDeselect;
 
   /// @brief Field m_OnTextSelection, offset 0x1c8, size 0x8
-  __declspec(property(get = __get_m_OnTextSelection, put = __set_m_OnTextSelection))::TMPro::__TMP_InputField__TextSelectionEvent* m_OnTextSelection;
+  __declspec(property(get = __cordl_internal_get_m_OnTextSelection, put = __cordl_internal_set_m_OnTextSelection))::TMPro::__TMP_InputField__TextSelectionEvent* m_OnTextSelection;
 
   /// @brief Field m_OnEndTextSelection, offset 0x1d0, size 0x8
-  __declspec(property(get = __get_m_OnEndTextSelection, put = __set_m_OnEndTextSelection))::TMPro::__TMP_InputField__TextSelectionEvent* m_OnEndTextSelection;
+  __declspec(property(get = __cordl_internal_get_m_OnEndTextSelection, put = __cordl_internal_set_m_OnEndTextSelection))::TMPro::__TMP_InputField__TextSelectionEvent* m_OnEndTextSelection;
 
   /// @brief Field m_OnValueChanged, offset 0x1d8, size 0x8
-  __declspec(property(get = __get_m_OnValueChanged, put = __set_m_OnValueChanged))::TMPro::__TMP_InputField__OnChangeEvent* m_OnValueChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnValueChanged, put = __cordl_internal_set_m_OnValueChanged))::TMPro::__TMP_InputField__OnChangeEvent* m_OnValueChanged;
 
   /// @brief Field m_OnTouchScreenKeyboardStatusChanged, offset 0x1e0, size 0x8
-  __declspec(property(get = __get_m_OnTouchScreenKeyboardStatusChanged,
-                      put = __set_m_OnTouchScreenKeyboardStatusChanged))::TMPro::__TMP_InputField__TouchScreenKeyboardEvent* m_OnTouchScreenKeyboardStatusChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnTouchScreenKeyboardStatusChanged,
+                      put = __cordl_internal_set_m_OnTouchScreenKeyboardStatusChanged))::TMPro::__TMP_InputField__TouchScreenKeyboardEvent* m_OnTouchScreenKeyboardStatusChanged;
 
   /// @brief Field m_OnValidateInput, offset 0x1e8, size 0x8
-  __declspec(property(get = __get_m_OnValidateInput, put = __set_m_OnValidateInput))::TMPro::__TMP_InputField__OnValidateInput* m_OnValidateInput;
+  __declspec(property(get = __cordl_internal_get_m_OnValidateInput, put = __cordl_internal_set_m_OnValidateInput))::TMPro::__TMP_InputField__OnValidateInput* m_OnValidateInput;
 
   /// @brief Field m_CaretColor, offset 0x1f0, size 0x10
-  __declspec(property(get = __get_m_CaretColor, put = __set_m_CaretColor))::UnityEngine::Color m_CaretColor;
+  __declspec(property(get = __cordl_internal_get_m_CaretColor, put = __cordl_internal_set_m_CaretColor))::UnityEngine::Color m_CaretColor;
 
   /// @brief Field m_CustomCaretColor, offset 0x200, size 0x1
-  __declspec(property(get = __get_m_CustomCaretColor, put = __set_m_CustomCaretColor)) bool m_CustomCaretColor;
+  __declspec(property(get = __cordl_internal_get_m_CustomCaretColor, put = __cordl_internal_set_m_CustomCaretColor)) bool m_CustomCaretColor;
 
   /// @brief Field m_SelectionColor, offset 0x204, size 0x10
-  __declspec(property(get = __get_m_SelectionColor, put = __set_m_SelectionColor))::UnityEngine::Color m_SelectionColor;
+  __declspec(property(get = __cordl_internal_get_m_SelectionColor, put = __cordl_internal_set_m_SelectionColor))::UnityEngine::Color m_SelectionColor;
 
   /// @brief Field m_Text, offset 0x218, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::StringW m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::StringW m_Text;
 
   /// @brief Field m_CaretBlinkRate, offset 0x220, size 0x4
-  __declspec(property(get = __get_m_CaretBlinkRate, put = __set_m_CaretBlinkRate)) float_t m_CaretBlinkRate;
+  __declspec(property(get = __cordl_internal_get_m_CaretBlinkRate, put = __cordl_internal_set_m_CaretBlinkRate)) float_t m_CaretBlinkRate;
 
   /// @brief Field m_CaretWidth, offset 0x224, size 0x4
-  __declspec(property(get = __get_m_CaretWidth, put = __set_m_CaretWidth)) int32_t m_CaretWidth;
+  __declspec(property(get = __cordl_internal_get_m_CaretWidth, put = __cordl_internal_set_m_CaretWidth)) int32_t m_CaretWidth;
 
   /// @brief Field m_ReadOnly, offset 0x228, size 0x1
-  __declspec(property(get = __get_m_ReadOnly, put = __set_m_ReadOnly)) bool m_ReadOnly;
+  __declspec(property(get = __cordl_internal_get_m_ReadOnly, put = __cordl_internal_set_m_ReadOnly)) bool m_ReadOnly;
 
   /// @brief Field m_RichText, offset 0x229, size 0x1
-  __declspec(property(get = __get_m_RichText, put = __set_m_RichText)) bool m_RichText;
+  __declspec(property(get = __cordl_internal_get_m_RichText, put = __cordl_internal_set_m_RichText)) bool m_RichText;
 
   /// @brief Field m_StringPosition, offset 0x22c, size 0x4
-  __declspec(property(get = __get_m_StringPosition, put = __set_m_StringPosition)) int32_t m_StringPosition;
+  __declspec(property(get = __cordl_internal_get_m_StringPosition, put = __cordl_internal_set_m_StringPosition)) int32_t m_StringPosition;
 
   /// @brief Field m_StringSelectPosition, offset 0x230, size 0x4
-  __declspec(property(get = __get_m_StringSelectPosition, put = __set_m_StringSelectPosition)) int32_t m_StringSelectPosition;
+  __declspec(property(get = __cordl_internal_get_m_StringSelectPosition, put = __cordl_internal_set_m_StringSelectPosition)) int32_t m_StringSelectPosition;
 
   /// @brief Field m_CaretPosition, offset 0x234, size 0x4
-  __declspec(property(get = __get_m_CaretPosition, put = __set_m_CaretPosition)) int32_t m_CaretPosition;
+  __declspec(property(get = __cordl_internal_get_m_CaretPosition, put = __cordl_internal_set_m_CaretPosition)) int32_t m_CaretPosition;
 
   /// @brief Field m_CaretSelectPosition, offset 0x238, size 0x4
-  __declspec(property(get = __get_m_CaretSelectPosition, put = __set_m_CaretSelectPosition)) int32_t m_CaretSelectPosition;
+  __declspec(property(get = __cordl_internal_get_m_CaretSelectPosition, put = __cordl_internal_set_m_CaretSelectPosition)) int32_t m_CaretSelectPosition;
 
   /// @brief Field caretRectTrans, offset 0x240, size 0x8
-  __declspec(property(get = __get_caretRectTrans, put = __set_caretRectTrans))::UnityEngine::RectTransform* caretRectTrans;
+  __declspec(property(get = __cordl_internal_get_caretRectTrans, put = __cordl_internal_set_caretRectTrans))::UnityW<::UnityEngine::RectTransform> caretRectTrans;
 
   /// @brief Field m_CursorVerts, offset 0x248, size 0x8
-  __declspec(property(get = __get_m_CursorVerts, put = __set_m_CursorVerts))::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> m_CursorVerts;
+  __declspec(property(get = __cordl_internal_get_m_CursorVerts, put = __cordl_internal_set_m_CursorVerts))::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> m_CursorVerts;
 
   /// @brief Field m_CachedInputRenderer, offset 0x250, size 0x8
-  __declspec(property(get = __get_m_CachedInputRenderer, put = __set_m_CachedInputRenderer))::UnityEngine::CanvasRenderer* m_CachedInputRenderer;
+  __declspec(property(get = __cordl_internal_get_m_CachedInputRenderer, put = __cordl_internal_set_m_CachedInputRenderer))::UnityW<::UnityEngine::CanvasRenderer> m_CachedInputRenderer;
 
   /// @brief Field m_LastPosition, offset 0x258, size 0x8
-  __declspec(property(get = __get_m_LastPosition, put = __set_m_LastPosition))::UnityEngine::Vector2 m_LastPosition;
+  __declspec(property(get = __cordl_internal_get_m_LastPosition, put = __cordl_internal_set_m_LastPosition))::UnityEngine::Vector2 m_LastPosition;
 
   /// @brief Field m_Mesh, offset 0x260, size 0x8
-  __declspec(property(get = __get_m_Mesh, put = __set_m_Mesh))::UnityEngine::Mesh* m_Mesh;
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::Mesh> m_Mesh;
 
   /// @brief Field m_AllowInput, offset 0x268, size 0x1
-  __declspec(property(get = __get_m_AllowInput, put = __set_m_AllowInput)) bool m_AllowInput;
+  __declspec(property(get = __cordl_internal_get_m_AllowInput, put = __cordl_internal_set_m_AllowInput)) bool m_AllowInput;
 
   /// @brief Field m_ShouldActivateNextUpdate, offset 0x269, size 0x1
-  __declspec(property(get = __get_m_ShouldActivateNextUpdate, put = __set_m_ShouldActivateNextUpdate)) bool m_ShouldActivateNextUpdate;
+  __declspec(property(get = __cordl_internal_get_m_ShouldActivateNextUpdate, put = __cordl_internal_set_m_ShouldActivateNextUpdate)) bool m_ShouldActivateNextUpdate;
 
   /// @brief Field m_UpdateDrag, offset 0x26a, size 0x1
-  __declspec(property(get = __get_m_UpdateDrag, put = __set_m_UpdateDrag)) bool m_UpdateDrag;
+  __declspec(property(get = __cordl_internal_get_m_UpdateDrag, put = __cordl_internal_set_m_UpdateDrag)) bool m_UpdateDrag;
 
   /// @brief Field m_DragPositionOutOfBounds, offset 0x26b, size 0x1
-  __declspec(property(get = __get_m_DragPositionOutOfBounds, put = __set_m_DragPositionOutOfBounds)) bool m_DragPositionOutOfBounds;
+  __declspec(property(get = __cordl_internal_get_m_DragPositionOutOfBounds, put = __cordl_internal_set_m_DragPositionOutOfBounds)) bool m_DragPositionOutOfBounds;
 
   /// @brief Field m_CaretVisible, offset 0x26c, size 0x1
-  __declspec(property(get = __get_m_CaretVisible, put = __set_m_CaretVisible)) bool m_CaretVisible;
+  __declspec(property(get = __cordl_internal_get_m_CaretVisible, put = __cordl_internal_set_m_CaretVisible)) bool m_CaretVisible;
 
   /// @brief Field m_BlinkCoroutine, offset 0x270, size 0x8
-  __declspec(property(get = __get_m_BlinkCoroutine, put = __set_m_BlinkCoroutine))::UnityEngine::Coroutine* m_BlinkCoroutine;
+  __declspec(property(get = __cordl_internal_get_m_BlinkCoroutine, put = __cordl_internal_set_m_BlinkCoroutine))::UnityEngine::Coroutine* m_BlinkCoroutine;
 
   /// @brief Field m_BlinkStartTime, offset 0x278, size 0x4
-  __declspec(property(get = __get_m_BlinkStartTime, put = __set_m_BlinkStartTime)) float_t m_BlinkStartTime;
+  __declspec(property(get = __cordl_internal_get_m_BlinkStartTime, put = __cordl_internal_set_m_BlinkStartTime)) float_t m_BlinkStartTime;
 
   /// @brief Field m_DragCoroutine, offset 0x280, size 0x8
-  __declspec(property(get = __get_m_DragCoroutine, put = __set_m_DragCoroutine))::UnityEngine::Coroutine* m_DragCoroutine;
+  __declspec(property(get = __cordl_internal_get_m_DragCoroutine, put = __cordl_internal_set_m_DragCoroutine))::UnityEngine::Coroutine* m_DragCoroutine;
 
   /// @brief Field m_OriginalText, offset 0x288, size 0x8
-  __declspec(property(get = __get_m_OriginalText, put = __set_m_OriginalText))::StringW m_OriginalText;
+  __declspec(property(get = __cordl_internal_get_m_OriginalText, put = __cordl_internal_set_m_OriginalText))::StringW m_OriginalText;
 
   /// @brief Field m_WasCanceled, offset 0x290, size 0x1
-  __declspec(property(get = __get_m_WasCanceled, put = __set_m_WasCanceled)) bool m_WasCanceled;
+  __declspec(property(get = __cordl_internal_get_m_WasCanceled, put = __cordl_internal_set_m_WasCanceled)) bool m_WasCanceled;
 
   /// @brief Field m_HasDoneFocusTransition, offset 0x291, size 0x1
-  __declspec(property(get = __get_m_HasDoneFocusTransition, put = __set_m_HasDoneFocusTransition)) bool m_HasDoneFocusTransition;
+  __declspec(property(get = __cordl_internal_get_m_HasDoneFocusTransition, put = __cordl_internal_set_m_HasDoneFocusTransition)) bool m_HasDoneFocusTransition;
 
   /// @brief Field m_WaitForSecondsRealtime, offset 0x298, size 0x8
-  __declspec(property(get = __get_m_WaitForSecondsRealtime, put = __set_m_WaitForSecondsRealtime))::UnityEngine::WaitForSecondsRealtime* m_WaitForSecondsRealtime;
+  __declspec(property(get = __cordl_internal_get_m_WaitForSecondsRealtime, put = __cordl_internal_set_m_WaitForSecondsRealtime))::UnityEngine::WaitForSecondsRealtime* m_WaitForSecondsRealtime;
 
   /// @brief Field m_PreventCallback, offset 0x2a0, size 0x1
-  __declspec(property(get = __get_m_PreventCallback, put = __set_m_PreventCallback)) bool m_PreventCallback;
+  __declspec(property(get = __cordl_internal_get_m_PreventCallback, put = __cordl_internal_set_m_PreventCallback)) bool m_PreventCallback;
 
   /// @brief Field m_TouchKeyboardAllowsInPlaceEditing, offset 0x2a1, size 0x1
-  __declspec(property(get = __get_m_TouchKeyboardAllowsInPlaceEditing, put = __set_m_TouchKeyboardAllowsInPlaceEditing)) bool m_TouchKeyboardAllowsInPlaceEditing;
+  __declspec(property(get = __cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing, put = __cordl_internal_set_m_TouchKeyboardAllowsInPlaceEditing)) bool m_TouchKeyboardAllowsInPlaceEditing;
 
   /// @brief Field m_IsTextComponentUpdateRequired, offset 0x2a2, size 0x1
-  __declspec(property(get = __get_m_IsTextComponentUpdateRequired, put = __set_m_IsTextComponentUpdateRequired)) bool m_IsTextComponentUpdateRequired;
+  __declspec(property(get = __cordl_internal_get_m_IsTextComponentUpdateRequired, put = __cordl_internal_set_m_IsTextComponentUpdateRequired)) bool m_IsTextComponentUpdateRequired;
 
   /// @brief Field m_isLastKeyBackspace, offset 0x2a3, size 0x1
-  __declspec(property(get = __get_m_isLastKeyBackspace, put = __set_m_isLastKeyBackspace)) bool m_isLastKeyBackspace;
+  __declspec(property(get = __cordl_internal_get_m_isLastKeyBackspace, put = __cordl_internal_set_m_isLastKeyBackspace)) bool m_isLastKeyBackspace;
 
   /// @brief Field m_PointerDownClickStartTime, offset 0x2a4, size 0x4
-  __declspec(property(get = __get_m_PointerDownClickStartTime, put = __set_m_PointerDownClickStartTime)) float_t m_PointerDownClickStartTime;
+  __declspec(property(get = __cordl_internal_get_m_PointerDownClickStartTime, put = __cordl_internal_set_m_PointerDownClickStartTime)) float_t m_PointerDownClickStartTime;
 
   /// @brief Field m_KeyDownStartTime, offset 0x2a8, size 0x4
-  __declspec(property(get = __get_m_KeyDownStartTime, put = __set_m_KeyDownStartTime)) float_t m_KeyDownStartTime;
+  __declspec(property(get = __cordl_internal_get_m_KeyDownStartTime, put = __cordl_internal_set_m_KeyDownStartTime)) float_t m_KeyDownStartTime;
 
   /// @brief Field m_DoubleClickDelay, offset 0x2ac, size 0x4
-  __declspec(property(get = __get_m_DoubleClickDelay, put = __set_m_DoubleClickDelay)) float_t m_DoubleClickDelay;
+  __declspec(property(get = __cordl_internal_get_m_DoubleClickDelay, put = __cordl_internal_set_m_DoubleClickDelay)) float_t m_DoubleClickDelay;
 
   /// @brief Field m_IsCompositionActive, offset 0x2b0, size 0x1
-  __declspec(property(get = __get_m_IsCompositionActive, put = __set_m_IsCompositionActive)) bool m_IsCompositionActive;
+  __declspec(property(get = __cordl_internal_get_m_IsCompositionActive, put = __cordl_internal_set_m_IsCompositionActive)) bool m_IsCompositionActive;
 
   /// @brief Field m_ShouldUpdateIMEWindowPosition, offset 0x2b1, size 0x1
-  __declspec(property(get = __get_m_ShouldUpdateIMEWindowPosition, put = __set_m_ShouldUpdateIMEWindowPosition)) bool m_ShouldUpdateIMEWindowPosition;
+  __declspec(property(get = __cordl_internal_get_m_ShouldUpdateIMEWindowPosition, put = __cordl_internal_set_m_ShouldUpdateIMEWindowPosition)) bool m_ShouldUpdateIMEWindowPosition;
 
   /// @brief Field m_PreviousIMEInsertionLine, offset 0x2b4, size 0x4
-  __declspec(property(get = __get_m_PreviousIMEInsertionLine, put = __set_m_PreviousIMEInsertionLine)) int32_t m_PreviousIMEInsertionLine;
+  __declspec(property(get = __cordl_internal_get_m_PreviousIMEInsertionLine, put = __cordl_internal_set_m_PreviousIMEInsertionLine)) int32_t m_PreviousIMEInsertionLine;
 
   /// @brief Field m_GlobalFontAsset, offset 0x2b8, size 0x8
-  __declspec(property(get = __get_m_GlobalFontAsset, put = __set_m_GlobalFontAsset))::TMPro::TMP_FontAsset* m_GlobalFontAsset;
+  __declspec(property(get = __cordl_internal_get_m_GlobalFontAsset, put = __cordl_internal_set_m_GlobalFontAsset))::UnityW<::TMPro::TMP_FontAsset> m_GlobalFontAsset;
 
   /// @brief Field m_OnFocusSelectAll, offset 0x2c0, size 0x1
-  __declspec(property(get = __get_m_OnFocusSelectAll, put = __set_m_OnFocusSelectAll)) bool m_OnFocusSelectAll;
+  __declspec(property(get = __cordl_internal_get_m_OnFocusSelectAll, put = __cordl_internal_set_m_OnFocusSelectAll)) bool m_OnFocusSelectAll;
 
   /// @brief Field m_isSelectAll, offset 0x2c1, size 0x1
-  __declspec(property(get = __get_m_isSelectAll, put = __set_m_isSelectAll)) bool m_isSelectAll;
+  __declspec(property(get = __cordl_internal_get_m_isSelectAll, put = __cordl_internal_set_m_isSelectAll)) bool m_isSelectAll;
 
   /// @brief Field m_ResetOnDeActivation, offset 0x2c2, size 0x1
-  __declspec(property(get = __get_m_ResetOnDeActivation, put = __set_m_ResetOnDeActivation)) bool m_ResetOnDeActivation;
+  __declspec(property(get = __cordl_internal_get_m_ResetOnDeActivation, put = __cordl_internal_set_m_ResetOnDeActivation)) bool m_ResetOnDeActivation;
 
   /// @brief Field m_SelectionStillActive, offset 0x2c3, size 0x1
-  __declspec(property(get = __get_m_SelectionStillActive, put = __set_m_SelectionStillActive)) bool m_SelectionStillActive;
+  __declspec(property(get = __cordl_internal_get_m_SelectionStillActive, put = __cordl_internal_set_m_SelectionStillActive)) bool m_SelectionStillActive;
 
   /// @brief Field m_ReleaseSelection, offset 0x2c4, size 0x1
-  __declspec(property(get = __get_m_ReleaseSelection, put = __set_m_ReleaseSelection)) bool m_ReleaseSelection;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseSelection, put = __cordl_internal_set_m_ReleaseSelection)) bool m_ReleaseSelection;
 
   /// @brief Field m_PreviouslySelectedObject, offset 0x2c8, size 0x8
-  __declspec(property(get = __get_m_PreviouslySelectedObject, put = __set_m_PreviouslySelectedObject))::UnityEngine::GameObject* m_PreviouslySelectedObject;
+  __declspec(property(get = __cordl_internal_get_m_PreviouslySelectedObject, put = __cordl_internal_set_m_PreviouslySelectedObject))::UnityW<::UnityEngine::GameObject> m_PreviouslySelectedObject;
 
   /// @brief Field m_RestoreOriginalTextOnEscape, offset 0x2d0, size 0x1
-  __declspec(property(get = __get_m_RestoreOriginalTextOnEscape, put = __set_m_RestoreOriginalTextOnEscape)) bool m_RestoreOriginalTextOnEscape;
+  __declspec(property(get = __cordl_internal_get_m_RestoreOriginalTextOnEscape, put = __cordl_internal_set_m_RestoreOriginalTextOnEscape)) bool m_RestoreOriginalTextOnEscape;
 
   /// @brief Field m_isRichTextEditingAllowed, offset 0x2d1, size 0x1
-  __declspec(property(get = __get_m_isRichTextEditingAllowed, put = __set_m_isRichTextEditingAllowed)) bool m_isRichTextEditingAllowed;
+  __declspec(property(get = __cordl_internal_get_m_isRichTextEditingAllowed, put = __cordl_internal_set_m_isRichTextEditingAllowed)) bool m_isRichTextEditingAllowed;
 
   /// @brief Field m_LineLimit, offset 0x2d4, size 0x4
-  __declspec(property(get = __get_m_LineLimit, put = __set_m_LineLimit)) int32_t m_LineLimit;
+  __declspec(property(get = __cordl_internal_get_m_LineLimit, put = __cordl_internal_set_m_LineLimit)) int32_t m_LineLimit;
 
   /// @brief Field m_InputValidator, offset 0x2d8, size 0x8
-  __declspec(property(get = __get_m_InputValidator, put = __set_m_InputValidator))::TMPro::TMP_InputValidator* m_InputValidator;
+  __declspec(property(get = __cordl_internal_get_m_InputValidator, put = __cordl_internal_set_m_InputValidator))::UnityW<::TMPro::TMP_InputValidator> m_InputValidator;
 
   /// @brief Field m_isSelected, offset 0x2e0, size 0x1
-  __declspec(property(get = __get_m_isSelected, put = __set_m_isSelected)) bool m_isSelected;
+  __declspec(property(get = __cordl_internal_get_m_isSelected, put = __cordl_internal_set_m_isSelected)) bool m_isSelected;
 
   /// @brief Field m_IsStringPositionDirty, offset 0x2e1, size 0x1
-  __declspec(property(get = __get_m_IsStringPositionDirty, put = __set_m_IsStringPositionDirty)) bool m_IsStringPositionDirty;
+  __declspec(property(get = __cordl_internal_get_m_IsStringPositionDirty, put = __cordl_internal_set_m_IsStringPositionDirty)) bool m_IsStringPositionDirty;
 
   /// @brief Field m_IsCaretPositionDirty, offset 0x2e2, size 0x1
-  __declspec(property(get = __get_m_IsCaretPositionDirty, put = __set_m_IsCaretPositionDirty)) bool m_IsCaretPositionDirty;
+  __declspec(property(get = __cordl_internal_get_m_IsCaretPositionDirty, put = __cordl_internal_set_m_IsCaretPositionDirty)) bool m_IsCaretPositionDirty;
 
   /// @brief Field m_forceRectTransformAdjustment, offset 0x2e3, size 0x1
-  __declspec(property(get = __get_m_forceRectTransformAdjustment, put = __set_m_forceRectTransformAdjustment)) bool m_forceRectTransformAdjustment;
+  __declspec(property(get = __cordl_internal_get_m_forceRectTransformAdjustment, put = __cordl_internal_set_m_forceRectTransformAdjustment)) bool m_forceRectTransformAdjustment;
 
   /// @brief Field m_ProcessingEvent, offset 0x2e8, size 0x8
-  __declspec(property(get = __get_m_ProcessingEvent, put = __set_m_ProcessingEvent))::UnityEngine::Event* m_ProcessingEvent;
+  __declspec(property(get = __cordl_internal_get_m_ProcessingEvent, put = __cordl_internal_set_m_ProcessingEvent))::UnityEngine::Event* m_ProcessingEvent;
 
   /// @brief Field kSeparators, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kSeparators, put = setStaticF_kSeparators))::ArrayW<char16_t, ::Array<char16_t>*> kSeparators;
 
-  __declspec(property(get = get_inputSystem))::UnityEngine::EventSystems::BaseInput* inputSystem;
+  __declspec(property(get = get_inputSystem))::UnityW<::UnityEngine::EventSystems::BaseInput> inputSystem;
 
   __declspec(property(get = get_compositionString))::StringW compositionString;
 
   __declspec(property(get = get_compositionLength)) int32_t compositionLength;
 
-  __declspec(property(get = get_mesh))::UnityEngine::Mesh* mesh;
+  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
   __declspec(property(get = get_shouldHideMobileInput, put = set_shouldHideMobileInput)) bool shouldHideMobileInput;
 
@@ -1360,13 +1362,13 @@ public:
 
   __declspec(property(get = get_caretWidth, put = set_caretWidth)) int32_t caretWidth;
 
-  __declspec(property(get = get_textViewport, put = set_textViewport))::UnityEngine::RectTransform* textViewport;
+  __declspec(property(get = get_textViewport, put = set_textViewport))::UnityW<::UnityEngine::RectTransform> textViewport;
 
-  __declspec(property(get = get_textComponent, put = set_textComponent))::TMPro::TMP_Text* textComponent;
+  __declspec(property(get = get_textComponent, put = set_textComponent))::UnityW<::TMPro::TMP_Text> textComponent;
 
-  __declspec(property(get = get_placeholder, put = set_placeholder))::UnityEngine::UI::Graphic* placeholder;
+  __declspec(property(get = get_placeholder, put = set_placeholder))::UnityW<::UnityEngine::UI::Graphic> placeholder;
 
-  __declspec(property(get = get_verticalScrollbar, put = set_verticalScrollbar))::UnityEngine::UI::Scrollbar* verticalScrollbar;
+  __declspec(property(get = get_verticalScrollbar, put = set_verticalScrollbar))::UnityW<::UnityEngine::UI::Scrollbar> verticalScrollbar;
 
   __declspec(property(get = get_scrollSensitivity, put = set_scrollSensitivity)) float_t scrollSensitivity;
 
@@ -1399,7 +1401,7 @@ public:
 
   __declspec(property(get = get_pointSize, put = set_pointSize)) float_t pointSize;
 
-  __declspec(property(get = get_fontAsset, put = set_fontAsset))::TMPro::TMP_FontAsset* fontAsset;
+  __declspec(property(get = get_fontAsset, put = set_fontAsset))::UnityW<::TMPro::TMP_FontAsset> fontAsset;
 
   __declspec(property(get = get_onFocusSelectAll, put = set_onFocusSelectAll)) bool onFocusSelectAll;
 
@@ -1421,7 +1423,7 @@ public:
 
   __declspec(property(get = get_characterValidation, put = set_characterValidation))::TMPro::__TMP_InputField__CharacterValidation characterValidation;
 
-  __declspec(property(get = get_inputValidator, put = set_inputValidator))::TMPro::TMP_InputValidator* inputValidator;
+  __declspec(property(get = get_inputValidator, put = set_inputValidator))::UnityW<::TMPro::TMP_InputValidator> inputValidator;
 
   __declspec(property(get = get_readOnly, put = set_readOnly)) bool readOnly;
 
@@ -1529,558 +1531,558 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IScrollHandler"
   constexpr ::UnityEngine::EventSystems::IScrollHandler* i___UnityEngine__EventSystems__IScrollHandler() noexcept;
 
-  constexpr ::UnityEngine::TouchScreenKeyboard*& __get_m_SoftKeyboard();
+  constexpr ::UnityEngine::TouchScreenKeyboard*& __cordl_internal_get_m_SoftKeyboard();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TouchScreenKeyboard*> const& __get_m_SoftKeyboard() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TouchScreenKeyboard*> const& __cordl_internal_get_m_SoftKeyboard() const;
 
-  constexpr void __set_m_SoftKeyboard(::UnityEngine::TouchScreenKeyboard* value);
+  constexpr void __cordl_internal_set_m_SoftKeyboard(::UnityEngine::TouchScreenKeyboard* value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_RectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_RectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_RectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_RectTransform() const;
 
-  constexpr void __set_m_RectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_RectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_TextViewport();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_TextViewport();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_TextViewport() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_TextViewport() const;
 
-  constexpr void __set_m_TextViewport(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_TextViewport(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::RectMask2D*& __get_m_TextComponentRectMask();
+  constexpr ::UnityW<::UnityEngine::UI::RectMask2D>& __cordl_internal_get_m_TextComponentRectMask();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::RectMask2D*> const& __get_m_TextComponentRectMask() const;
+  constexpr ::UnityW<::UnityEngine::UI::RectMask2D> const& __cordl_internal_get_m_TextComponentRectMask() const;
 
-  constexpr void __set_m_TextComponentRectMask(::UnityEngine::UI::RectMask2D* value);
+  constexpr void __cordl_internal_set_m_TextComponentRectMask(::UnityW<::UnityEngine::UI::RectMask2D> value);
 
-  constexpr ::UnityEngine::UI::RectMask2D*& __get_m_TextViewportRectMask();
+  constexpr ::UnityW<::UnityEngine::UI::RectMask2D>& __cordl_internal_get_m_TextViewportRectMask();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::RectMask2D*> const& __get_m_TextViewportRectMask() const;
+  constexpr ::UnityW<::UnityEngine::UI::RectMask2D> const& __cordl_internal_get_m_TextViewportRectMask() const;
 
-  constexpr void __set_m_TextViewportRectMask(::UnityEngine::UI::RectMask2D* value);
+  constexpr void __cordl_internal_set_m_TextViewportRectMask(::UnityW<::UnityEngine::UI::RectMask2D> value);
 
-  constexpr ::UnityEngine::Rect& __get_m_CachedViewportRect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_CachedViewportRect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_CachedViewportRect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_CachedViewportRect() const;
 
-  constexpr void __set_m_CachedViewportRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_CachedViewportRect(::UnityEngine::Rect value);
 
-  constexpr ::TMPro::TMP_Text*& __get_m_TextComponent();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_m_TextComponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get_m_TextComponent() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_TextComponent() const;
 
-  constexpr void __set_m_TextComponent(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_m_TextComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_TextComponentRectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_TextComponentRectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_TextComponentRectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_TextComponentRectTransform() const;
 
-  constexpr void __set_m_TextComponentRectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_TextComponentRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::Graphic*& __get_m_Placeholder();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get_m_Placeholder();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Graphic*> const& __get_m_Placeholder() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Placeholder() const;
 
-  constexpr void __set_m_Placeholder(::UnityEngine::UI::Graphic* value);
+  constexpr void __cordl_internal_set_m_Placeholder(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  constexpr ::UnityEngine::UI::Scrollbar*& __get_m_VerticalScrollbar();
+  constexpr ::UnityW<::UnityEngine::UI::Scrollbar>& __cordl_internal_get_m_VerticalScrollbar();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Scrollbar*> const& __get_m_VerticalScrollbar() const;
+  constexpr ::UnityW<::UnityEngine::UI::Scrollbar> const& __cordl_internal_get_m_VerticalScrollbar() const;
 
-  constexpr void __set_m_VerticalScrollbar(::UnityEngine::UI::Scrollbar* value);
+  constexpr void __cordl_internal_set_m_VerticalScrollbar(::UnityW<::UnityEngine::UI::Scrollbar> value);
 
-  constexpr ::TMPro::TMP_ScrollbarEventHandler*& __get_m_VerticalScrollbarEventHandler();
+  constexpr ::UnityW<::TMPro::TMP_ScrollbarEventHandler>& __cordl_internal_get_m_VerticalScrollbarEventHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_ScrollbarEventHandler*> const& __get_m_VerticalScrollbarEventHandler() const;
+  constexpr ::UnityW<::TMPro::TMP_ScrollbarEventHandler> const& __cordl_internal_get_m_VerticalScrollbarEventHandler() const;
 
-  constexpr void __set_m_VerticalScrollbarEventHandler(::TMPro::TMP_ScrollbarEventHandler* value);
+  constexpr void __cordl_internal_set_m_VerticalScrollbarEventHandler(::UnityW<::TMPro::TMP_ScrollbarEventHandler> value);
 
-  constexpr bool& __get_m_IsDrivenByLayoutComponents();
+  constexpr bool& __cordl_internal_get_m_IsDrivenByLayoutComponents();
 
-  constexpr bool const& __get_m_IsDrivenByLayoutComponents() const;
+  constexpr bool const& __cordl_internal_get_m_IsDrivenByLayoutComponents() const;
 
-  constexpr void __set_m_IsDrivenByLayoutComponents(bool value);
+  constexpr void __cordl_internal_set_m_IsDrivenByLayoutComponents(bool value);
 
-  constexpr ::UnityEngine::UI::LayoutGroup*& __get_m_LayoutGroup();
+  constexpr ::UnityW<::UnityEngine::UI::LayoutGroup>& __cordl_internal_get_m_LayoutGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::LayoutGroup*> const& __get_m_LayoutGroup() const;
+  constexpr ::UnityW<::UnityEngine::UI::LayoutGroup> const& __cordl_internal_get_m_LayoutGroup() const;
 
-  constexpr void __set_m_LayoutGroup(::UnityEngine::UI::LayoutGroup* value);
+  constexpr void __cordl_internal_set_m_LayoutGroup(::UnityW<::UnityEngine::UI::LayoutGroup> value);
 
-  constexpr ::UnityEngine::EventSystems::IScrollHandler*& __get_m_IScrollHandlerParent();
+  constexpr ::UnityEngine::EventSystems::IScrollHandler*& __cordl_internal_get_m_IScrollHandlerParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::IScrollHandler*> const& __get_m_IScrollHandlerParent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::IScrollHandler*> const& __cordl_internal_get_m_IScrollHandlerParent() const;
 
-  constexpr void __set_m_IScrollHandlerParent(::UnityEngine::EventSystems::IScrollHandler* value);
+  constexpr void __cordl_internal_set_m_IScrollHandlerParent(::UnityEngine::EventSystems::IScrollHandler* value);
 
-  constexpr float_t& __get_m_ScrollPosition();
+  constexpr float_t& __cordl_internal_get_m_ScrollPosition();
 
-  constexpr float_t const& __get_m_ScrollPosition() const;
+  constexpr float_t const& __cordl_internal_get_m_ScrollPosition() const;
 
-  constexpr void __set_m_ScrollPosition(float_t value);
+  constexpr void __cordl_internal_set_m_ScrollPosition(float_t value);
 
-  constexpr float_t& __get_m_ScrollSensitivity();
+  constexpr float_t& __cordl_internal_get_m_ScrollSensitivity();
 
-  constexpr float_t const& __get_m_ScrollSensitivity() const;
+  constexpr float_t const& __cordl_internal_get_m_ScrollSensitivity() const;
 
-  constexpr void __set_m_ScrollSensitivity(float_t value);
+  constexpr void __cordl_internal_set_m_ScrollSensitivity(float_t value);
 
-  constexpr ::TMPro::__TMP_InputField__ContentType& __get_m_ContentType();
+  constexpr ::TMPro::__TMP_InputField__ContentType& __cordl_internal_get_m_ContentType();
 
-  constexpr ::TMPro::__TMP_InputField__ContentType const& __get_m_ContentType() const;
+  constexpr ::TMPro::__TMP_InputField__ContentType const& __cordl_internal_get_m_ContentType() const;
 
-  constexpr void __set_m_ContentType(::TMPro::__TMP_InputField__ContentType value);
+  constexpr void __cordl_internal_set_m_ContentType(::TMPro::__TMP_InputField__ContentType value);
 
-  constexpr ::TMPro::__TMP_InputField__InputType& __get_m_InputType();
+  constexpr ::TMPro::__TMP_InputField__InputType& __cordl_internal_get_m_InputType();
 
-  constexpr ::TMPro::__TMP_InputField__InputType const& __get_m_InputType() const;
+  constexpr ::TMPro::__TMP_InputField__InputType const& __cordl_internal_get_m_InputType() const;
 
-  constexpr void __set_m_InputType(::TMPro::__TMP_InputField__InputType value);
+  constexpr void __cordl_internal_set_m_InputType(::TMPro::__TMP_InputField__InputType value);
 
-  constexpr char16_t& __get_m_AsteriskChar();
+  constexpr char16_t& __cordl_internal_get_m_AsteriskChar();
 
-  constexpr char16_t const& __get_m_AsteriskChar() const;
+  constexpr char16_t const& __cordl_internal_get_m_AsteriskChar() const;
 
-  constexpr void __set_m_AsteriskChar(char16_t value);
+  constexpr void __cordl_internal_set_m_AsteriskChar(char16_t value);
 
-  constexpr ::UnityEngine::TouchScreenKeyboardType& __get_m_KeyboardType();
+  constexpr ::UnityEngine::TouchScreenKeyboardType& __cordl_internal_get_m_KeyboardType();
 
-  constexpr ::UnityEngine::TouchScreenKeyboardType const& __get_m_KeyboardType() const;
+  constexpr ::UnityEngine::TouchScreenKeyboardType const& __cordl_internal_get_m_KeyboardType() const;
 
-  constexpr void __set_m_KeyboardType(::UnityEngine::TouchScreenKeyboardType value);
+  constexpr void __cordl_internal_set_m_KeyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
-  constexpr ::TMPro::__TMP_InputField__LineType& __get_m_LineType();
+  constexpr ::TMPro::__TMP_InputField__LineType& __cordl_internal_get_m_LineType();
 
-  constexpr ::TMPro::__TMP_InputField__LineType const& __get_m_LineType() const;
+  constexpr ::TMPro::__TMP_InputField__LineType const& __cordl_internal_get_m_LineType() const;
 
-  constexpr void __set_m_LineType(::TMPro::__TMP_InputField__LineType value);
+  constexpr void __cordl_internal_set_m_LineType(::TMPro::__TMP_InputField__LineType value);
 
-  constexpr bool& __get_m_HideMobileInput();
+  constexpr bool& __cordl_internal_get_m_HideMobileInput();
 
-  constexpr bool const& __get_m_HideMobileInput() const;
+  constexpr bool const& __cordl_internal_get_m_HideMobileInput() const;
 
-  constexpr void __set_m_HideMobileInput(bool value);
+  constexpr void __cordl_internal_set_m_HideMobileInput(bool value);
 
-  constexpr bool& __get_m_HideSoftKeyboard();
+  constexpr bool& __cordl_internal_get_m_HideSoftKeyboard();
 
-  constexpr bool const& __get_m_HideSoftKeyboard() const;
+  constexpr bool const& __cordl_internal_get_m_HideSoftKeyboard() const;
 
-  constexpr void __set_m_HideSoftKeyboard(bool value);
+  constexpr void __cordl_internal_set_m_HideSoftKeyboard(bool value);
 
-  constexpr ::TMPro::__TMP_InputField__CharacterValidation& __get_m_CharacterValidation();
+  constexpr ::TMPro::__TMP_InputField__CharacterValidation& __cordl_internal_get_m_CharacterValidation();
 
-  constexpr ::TMPro::__TMP_InputField__CharacterValidation const& __get_m_CharacterValidation() const;
+  constexpr ::TMPro::__TMP_InputField__CharacterValidation const& __cordl_internal_get_m_CharacterValidation() const;
 
-  constexpr void __set_m_CharacterValidation(::TMPro::__TMP_InputField__CharacterValidation value);
+  constexpr void __cordl_internal_set_m_CharacterValidation(::TMPro::__TMP_InputField__CharacterValidation value);
 
-  constexpr ::StringW& __get_m_RegexValue();
+  constexpr ::StringW& __cordl_internal_get_m_RegexValue();
 
-  constexpr ::StringW const& __get_m_RegexValue() const;
+  constexpr ::StringW const& __cordl_internal_get_m_RegexValue() const;
 
-  constexpr void __set_m_RegexValue(::StringW value);
+  constexpr void __cordl_internal_set_m_RegexValue(::StringW value);
 
-  constexpr float_t& __get_m_GlobalPointSize();
+  constexpr float_t& __cordl_internal_get_m_GlobalPointSize();
 
-  constexpr float_t const& __get_m_GlobalPointSize() const;
+  constexpr float_t const& __cordl_internal_get_m_GlobalPointSize() const;
 
-  constexpr void __set_m_GlobalPointSize(float_t value);
+  constexpr void __cordl_internal_set_m_GlobalPointSize(float_t value);
 
-  constexpr int32_t& __get_m_CharacterLimit();
+  constexpr int32_t& __cordl_internal_get_m_CharacterLimit();
 
-  constexpr int32_t const& __get_m_CharacterLimit() const;
+  constexpr int32_t const& __cordl_internal_get_m_CharacterLimit() const;
 
-  constexpr void __set_m_CharacterLimit(int32_t value);
+  constexpr void __cordl_internal_set_m_CharacterLimit(int32_t value);
 
-  constexpr ::TMPro::__TMP_InputField__SubmitEvent*& __get_m_OnEndEdit();
+  constexpr ::TMPro::__TMP_InputField__SubmitEvent*& __cordl_internal_get_m_OnEndEdit();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SubmitEvent*> const& __get_m_OnEndEdit() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SubmitEvent*> const& __cordl_internal_get_m_OnEndEdit() const;
 
-  constexpr void __set_m_OnEndEdit(::TMPro::__TMP_InputField__SubmitEvent* value);
+  constexpr void __cordl_internal_set_m_OnEndEdit(::TMPro::__TMP_InputField__SubmitEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__SubmitEvent*& __get_m_OnSubmit();
+  constexpr ::TMPro::__TMP_InputField__SubmitEvent*& __cordl_internal_get_m_OnSubmit();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SubmitEvent*> const& __get_m_OnSubmit() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SubmitEvent*> const& __cordl_internal_get_m_OnSubmit() const;
 
-  constexpr void __set_m_OnSubmit(::TMPro::__TMP_InputField__SubmitEvent* value);
+  constexpr void __cordl_internal_set_m_OnSubmit(::TMPro::__TMP_InputField__SubmitEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__SelectionEvent*& __get_m_OnSelect();
+  constexpr ::TMPro::__TMP_InputField__SelectionEvent*& __cordl_internal_get_m_OnSelect();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SelectionEvent*> const& __get_m_OnSelect() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SelectionEvent*> const& __cordl_internal_get_m_OnSelect() const;
 
-  constexpr void __set_m_OnSelect(::TMPro::__TMP_InputField__SelectionEvent* value);
+  constexpr void __cordl_internal_set_m_OnSelect(::TMPro::__TMP_InputField__SelectionEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__SelectionEvent*& __get_m_OnDeselect();
+  constexpr ::TMPro::__TMP_InputField__SelectionEvent*& __cordl_internal_get_m_OnDeselect();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SelectionEvent*> const& __get_m_OnDeselect() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__SelectionEvent*> const& __cordl_internal_get_m_OnDeselect() const;
 
-  constexpr void __set_m_OnDeselect(::TMPro::__TMP_InputField__SelectionEvent* value);
+  constexpr void __cordl_internal_set_m_OnDeselect(::TMPro::__TMP_InputField__SelectionEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__TextSelectionEvent*& __get_m_OnTextSelection();
+  constexpr ::TMPro::__TMP_InputField__TextSelectionEvent*& __cordl_internal_get_m_OnTextSelection();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__TextSelectionEvent*> const& __get_m_OnTextSelection() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__TextSelectionEvent*> const& __cordl_internal_get_m_OnTextSelection() const;
 
-  constexpr void __set_m_OnTextSelection(::TMPro::__TMP_InputField__TextSelectionEvent* value);
+  constexpr void __cordl_internal_set_m_OnTextSelection(::TMPro::__TMP_InputField__TextSelectionEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__TextSelectionEvent*& __get_m_OnEndTextSelection();
+  constexpr ::TMPro::__TMP_InputField__TextSelectionEvent*& __cordl_internal_get_m_OnEndTextSelection();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__TextSelectionEvent*> const& __get_m_OnEndTextSelection() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__TextSelectionEvent*> const& __cordl_internal_get_m_OnEndTextSelection() const;
 
-  constexpr void __set_m_OnEndTextSelection(::TMPro::__TMP_InputField__TextSelectionEvent* value);
+  constexpr void __cordl_internal_set_m_OnEndTextSelection(::TMPro::__TMP_InputField__TextSelectionEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__OnChangeEvent*& __get_m_OnValueChanged();
+  constexpr ::TMPro::__TMP_InputField__OnChangeEvent*& __cordl_internal_get_m_OnValueChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__OnChangeEvent*> const& __get_m_OnValueChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__OnChangeEvent*> const& __cordl_internal_get_m_OnValueChanged() const;
 
-  constexpr void __set_m_OnValueChanged(::TMPro::__TMP_InputField__OnChangeEvent* value);
+  constexpr void __cordl_internal_set_m_OnValueChanged(::TMPro::__TMP_InputField__OnChangeEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__TouchScreenKeyboardEvent*& __get_m_OnTouchScreenKeyboardStatusChanged();
+  constexpr ::TMPro::__TMP_InputField__TouchScreenKeyboardEvent*& __cordl_internal_get_m_OnTouchScreenKeyboardStatusChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__TouchScreenKeyboardEvent*> const& __get_m_OnTouchScreenKeyboardStatusChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__TouchScreenKeyboardEvent*> const& __cordl_internal_get_m_OnTouchScreenKeyboardStatusChanged() const;
 
-  constexpr void __set_m_OnTouchScreenKeyboardStatusChanged(::TMPro::__TMP_InputField__TouchScreenKeyboardEvent* value);
+  constexpr void __cordl_internal_set_m_OnTouchScreenKeyboardStatusChanged(::TMPro::__TMP_InputField__TouchScreenKeyboardEvent* value);
 
-  constexpr ::TMPro::__TMP_InputField__OnValidateInput*& __get_m_OnValidateInput();
+  constexpr ::TMPro::__TMP_InputField__OnValidateInput*& __cordl_internal_get_m_OnValidateInput();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__OnValidateInput*> const& __get_m_OnValidateInput() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_InputField__OnValidateInput*> const& __cordl_internal_get_m_OnValidateInput() const;
 
-  constexpr void __set_m_OnValidateInput(::TMPro::__TMP_InputField__OnValidateInput* value);
+  constexpr void __cordl_internal_set_m_OnValidateInput(::TMPro::__TMP_InputField__OnValidateInput* value);
 
-  constexpr ::UnityEngine::Color& __get_m_CaretColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_CaretColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_CaretColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_CaretColor() const;
 
-  constexpr void __set_m_CaretColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_CaretColor(::UnityEngine::Color value);
 
-  constexpr bool& __get_m_CustomCaretColor();
+  constexpr bool& __cordl_internal_get_m_CustomCaretColor();
 
-  constexpr bool const& __get_m_CustomCaretColor() const;
+  constexpr bool const& __cordl_internal_get_m_CustomCaretColor() const;
 
-  constexpr void __set_m_CustomCaretColor(bool value);
+  constexpr void __cordl_internal_set_m_CustomCaretColor(bool value);
 
-  constexpr ::UnityEngine::Color& __get_m_SelectionColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_SelectionColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_SelectionColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_SelectionColor() const;
 
-  constexpr void __set_m_SelectionColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_SelectionColor(::UnityEngine::Color value);
 
-  constexpr ::StringW& __get_m_Text();
+  constexpr ::StringW& __cordl_internal_get_m_Text();
 
-  constexpr ::StringW const& __get_m_Text() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::StringW value);
+  constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  constexpr float_t& __get_m_CaretBlinkRate();
+  constexpr float_t& __cordl_internal_get_m_CaretBlinkRate();
 
-  constexpr float_t const& __get_m_CaretBlinkRate() const;
+  constexpr float_t const& __cordl_internal_get_m_CaretBlinkRate() const;
 
-  constexpr void __set_m_CaretBlinkRate(float_t value);
+  constexpr void __cordl_internal_set_m_CaretBlinkRate(float_t value);
 
-  constexpr int32_t& __get_m_CaretWidth();
+  constexpr int32_t& __cordl_internal_get_m_CaretWidth();
 
-  constexpr int32_t const& __get_m_CaretWidth() const;
+  constexpr int32_t const& __cordl_internal_get_m_CaretWidth() const;
 
-  constexpr void __set_m_CaretWidth(int32_t value);
+  constexpr void __cordl_internal_set_m_CaretWidth(int32_t value);
 
-  constexpr bool& __get_m_ReadOnly();
+  constexpr bool& __cordl_internal_get_m_ReadOnly();
 
-  constexpr bool const& __get_m_ReadOnly() const;
+  constexpr bool const& __cordl_internal_get_m_ReadOnly() const;
 
-  constexpr void __set_m_ReadOnly(bool value);
+  constexpr void __cordl_internal_set_m_ReadOnly(bool value);
 
-  constexpr bool& __get_m_RichText();
+  constexpr bool& __cordl_internal_get_m_RichText();
 
-  constexpr bool const& __get_m_RichText() const;
+  constexpr bool const& __cordl_internal_get_m_RichText() const;
 
-  constexpr void __set_m_RichText(bool value);
+  constexpr void __cordl_internal_set_m_RichText(bool value);
 
-  constexpr int32_t& __get_m_StringPosition();
+  constexpr int32_t& __cordl_internal_get_m_StringPosition();
 
-  constexpr int32_t const& __get_m_StringPosition() const;
+  constexpr int32_t const& __cordl_internal_get_m_StringPosition() const;
 
-  constexpr void __set_m_StringPosition(int32_t value);
+  constexpr void __cordl_internal_set_m_StringPosition(int32_t value);
 
-  constexpr int32_t& __get_m_StringSelectPosition();
+  constexpr int32_t& __cordl_internal_get_m_StringSelectPosition();
 
-  constexpr int32_t const& __get_m_StringSelectPosition() const;
+  constexpr int32_t const& __cordl_internal_get_m_StringSelectPosition() const;
 
-  constexpr void __set_m_StringSelectPosition(int32_t value);
+  constexpr void __cordl_internal_set_m_StringSelectPosition(int32_t value);
 
-  constexpr int32_t& __get_m_CaretPosition();
+  constexpr int32_t& __cordl_internal_get_m_CaretPosition();
 
-  constexpr int32_t const& __get_m_CaretPosition() const;
+  constexpr int32_t const& __cordl_internal_get_m_CaretPosition() const;
 
-  constexpr void __set_m_CaretPosition(int32_t value);
+  constexpr void __cordl_internal_set_m_CaretPosition(int32_t value);
 
-  constexpr int32_t& __get_m_CaretSelectPosition();
+  constexpr int32_t& __cordl_internal_get_m_CaretSelectPosition();
 
-  constexpr int32_t const& __get_m_CaretSelectPosition() const;
+  constexpr int32_t const& __cordl_internal_get_m_CaretSelectPosition() const;
 
-  constexpr void __set_m_CaretSelectPosition(int32_t value);
+  constexpr void __cordl_internal_set_m_CaretSelectPosition(int32_t value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_caretRectTrans();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_caretRectTrans();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_caretRectTrans() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_caretRectTrans() const;
 
-  constexpr void __set_caretRectTrans(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_caretRectTrans(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*>& __get_m_CursorVerts();
+  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*>& __cordl_internal_get_m_CursorVerts();
 
-  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> const& __get_m_CursorVerts() const;
+  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> const& __cordl_internal_get_m_CursorVerts() const;
 
-  constexpr void __set_m_CursorVerts(::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> value);
+  constexpr void __cordl_internal_set_m_CursorVerts(::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> value);
 
-  constexpr ::UnityEngine::CanvasRenderer*& __get_m_CachedInputRenderer();
+  constexpr ::UnityW<::UnityEngine::CanvasRenderer>& __cordl_internal_get_m_CachedInputRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasRenderer*> const& __get_m_CachedInputRenderer() const;
+  constexpr ::UnityW<::UnityEngine::CanvasRenderer> const& __cordl_internal_get_m_CachedInputRenderer() const;
 
-  constexpr void __set_m_CachedInputRenderer(::UnityEngine::CanvasRenderer* value);
+  constexpr void __cordl_internal_set_m_CachedInputRenderer(::UnityW<::UnityEngine::CanvasRenderer> value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_LastPosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastPosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_LastPosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastPosition() const;
 
-  constexpr void __set_m_LastPosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_LastPosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Mesh*& __get_m_Mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_Mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get_m_Mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_Mesh() const;
 
-  constexpr void __set_m_Mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr bool& __get_m_AllowInput();
+  constexpr bool& __cordl_internal_get_m_AllowInput();
 
-  constexpr bool const& __get_m_AllowInput() const;
+  constexpr bool const& __cordl_internal_get_m_AllowInput() const;
 
-  constexpr void __set_m_AllowInput(bool value);
+  constexpr void __cordl_internal_set_m_AllowInput(bool value);
 
-  constexpr bool& __get_m_ShouldActivateNextUpdate();
+  constexpr bool& __cordl_internal_get_m_ShouldActivateNextUpdate();
 
-  constexpr bool const& __get_m_ShouldActivateNextUpdate() const;
+  constexpr bool const& __cordl_internal_get_m_ShouldActivateNextUpdate() const;
 
-  constexpr void __set_m_ShouldActivateNextUpdate(bool value);
+  constexpr void __cordl_internal_set_m_ShouldActivateNextUpdate(bool value);
 
-  constexpr bool& __get_m_UpdateDrag();
+  constexpr bool& __cordl_internal_get_m_UpdateDrag();
 
-  constexpr bool const& __get_m_UpdateDrag() const;
+  constexpr bool const& __cordl_internal_get_m_UpdateDrag() const;
 
-  constexpr void __set_m_UpdateDrag(bool value);
+  constexpr void __cordl_internal_set_m_UpdateDrag(bool value);
 
-  constexpr bool& __get_m_DragPositionOutOfBounds();
+  constexpr bool& __cordl_internal_get_m_DragPositionOutOfBounds();
 
-  constexpr bool const& __get_m_DragPositionOutOfBounds() const;
+  constexpr bool const& __cordl_internal_get_m_DragPositionOutOfBounds() const;
 
-  constexpr void __set_m_DragPositionOutOfBounds(bool value);
+  constexpr void __cordl_internal_set_m_DragPositionOutOfBounds(bool value);
 
-  constexpr bool& __get_m_CaretVisible();
+  constexpr bool& __cordl_internal_get_m_CaretVisible();
 
-  constexpr bool const& __get_m_CaretVisible() const;
+  constexpr bool const& __cordl_internal_get_m_CaretVisible() const;
 
-  constexpr void __set_m_CaretVisible(bool value);
+  constexpr void __cordl_internal_set_m_CaretVisible(bool value);
 
-  constexpr ::UnityEngine::Coroutine*& __get_m_BlinkCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get_m_BlinkCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get_m_BlinkCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get_m_BlinkCoroutine() const;
 
-  constexpr void __set_m_BlinkCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set_m_BlinkCoroutine(::UnityEngine::Coroutine* value);
 
-  constexpr float_t& __get_m_BlinkStartTime();
+  constexpr float_t& __cordl_internal_get_m_BlinkStartTime();
 
-  constexpr float_t const& __get_m_BlinkStartTime() const;
+  constexpr float_t const& __cordl_internal_get_m_BlinkStartTime() const;
 
-  constexpr void __set_m_BlinkStartTime(float_t value);
+  constexpr void __cordl_internal_set_m_BlinkStartTime(float_t value);
 
-  constexpr ::UnityEngine::Coroutine*& __get_m_DragCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get_m_DragCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get_m_DragCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get_m_DragCoroutine() const;
 
-  constexpr void __set_m_DragCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set_m_DragCoroutine(::UnityEngine::Coroutine* value);
 
-  constexpr ::StringW& __get_m_OriginalText();
+  constexpr ::StringW& __cordl_internal_get_m_OriginalText();
 
-  constexpr ::StringW const& __get_m_OriginalText() const;
+  constexpr ::StringW const& __cordl_internal_get_m_OriginalText() const;
 
-  constexpr void __set_m_OriginalText(::StringW value);
+  constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
-  constexpr bool& __get_m_WasCanceled();
+  constexpr bool& __cordl_internal_get_m_WasCanceled();
 
-  constexpr bool const& __get_m_WasCanceled() const;
+  constexpr bool const& __cordl_internal_get_m_WasCanceled() const;
 
-  constexpr void __set_m_WasCanceled(bool value);
+  constexpr void __cordl_internal_set_m_WasCanceled(bool value);
 
-  constexpr bool& __get_m_HasDoneFocusTransition();
+  constexpr bool& __cordl_internal_get_m_HasDoneFocusTransition();
 
-  constexpr bool const& __get_m_HasDoneFocusTransition() const;
+  constexpr bool const& __cordl_internal_get_m_HasDoneFocusTransition() const;
 
-  constexpr void __set_m_HasDoneFocusTransition(bool value);
+  constexpr void __cordl_internal_set_m_HasDoneFocusTransition(bool value);
 
-  constexpr ::UnityEngine::WaitForSecondsRealtime*& __get_m_WaitForSecondsRealtime();
+  constexpr ::UnityEngine::WaitForSecondsRealtime*& __cordl_internal_get_m_WaitForSecondsRealtime();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSecondsRealtime*> const& __get_m_WaitForSecondsRealtime() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSecondsRealtime*> const& __cordl_internal_get_m_WaitForSecondsRealtime() const;
 
-  constexpr void __set_m_WaitForSecondsRealtime(::UnityEngine::WaitForSecondsRealtime* value);
+  constexpr void __cordl_internal_set_m_WaitForSecondsRealtime(::UnityEngine::WaitForSecondsRealtime* value);
 
-  constexpr bool& __get_m_PreventCallback();
+  constexpr bool& __cordl_internal_get_m_PreventCallback();
 
-  constexpr bool const& __get_m_PreventCallback() const;
+  constexpr bool const& __cordl_internal_get_m_PreventCallback() const;
 
-  constexpr void __set_m_PreventCallback(bool value);
+  constexpr void __cordl_internal_set_m_PreventCallback(bool value);
 
-  constexpr bool& __get_m_TouchKeyboardAllowsInPlaceEditing();
+  constexpr bool& __cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing();
 
-  constexpr bool const& __get_m_TouchKeyboardAllowsInPlaceEditing() const;
+  constexpr bool const& __cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing() const;
 
-  constexpr void __set_m_TouchKeyboardAllowsInPlaceEditing(bool value);
+  constexpr void __cordl_internal_set_m_TouchKeyboardAllowsInPlaceEditing(bool value);
 
-  constexpr bool& __get_m_IsTextComponentUpdateRequired();
+  constexpr bool& __cordl_internal_get_m_IsTextComponentUpdateRequired();
 
-  constexpr bool const& __get_m_IsTextComponentUpdateRequired() const;
+  constexpr bool const& __cordl_internal_get_m_IsTextComponentUpdateRequired() const;
 
-  constexpr void __set_m_IsTextComponentUpdateRequired(bool value);
+  constexpr void __cordl_internal_set_m_IsTextComponentUpdateRequired(bool value);
 
-  constexpr bool& __get_m_isLastKeyBackspace();
+  constexpr bool& __cordl_internal_get_m_isLastKeyBackspace();
 
-  constexpr bool const& __get_m_isLastKeyBackspace() const;
+  constexpr bool const& __cordl_internal_get_m_isLastKeyBackspace() const;
 
-  constexpr void __set_m_isLastKeyBackspace(bool value);
+  constexpr void __cordl_internal_set_m_isLastKeyBackspace(bool value);
 
-  constexpr float_t& __get_m_PointerDownClickStartTime();
+  constexpr float_t& __cordl_internal_get_m_PointerDownClickStartTime();
 
-  constexpr float_t const& __get_m_PointerDownClickStartTime() const;
+  constexpr float_t const& __cordl_internal_get_m_PointerDownClickStartTime() const;
 
-  constexpr void __set_m_PointerDownClickStartTime(float_t value);
+  constexpr void __cordl_internal_set_m_PointerDownClickStartTime(float_t value);
 
-  constexpr float_t& __get_m_KeyDownStartTime();
+  constexpr float_t& __cordl_internal_get_m_KeyDownStartTime();
 
-  constexpr float_t const& __get_m_KeyDownStartTime() const;
+  constexpr float_t const& __cordl_internal_get_m_KeyDownStartTime() const;
 
-  constexpr void __set_m_KeyDownStartTime(float_t value);
+  constexpr void __cordl_internal_set_m_KeyDownStartTime(float_t value);
 
-  constexpr float_t& __get_m_DoubleClickDelay();
+  constexpr float_t& __cordl_internal_get_m_DoubleClickDelay();
 
-  constexpr float_t const& __get_m_DoubleClickDelay() const;
+  constexpr float_t const& __cordl_internal_get_m_DoubleClickDelay() const;
 
-  constexpr void __set_m_DoubleClickDelay(float_t value);
+  constexpr void __cordl_internal_set_m_DoubleClickDelay(float_t value);
 
-  constexpr bool& __get_m_IsCompositionActive();
+  constexpr bool& __cordl_internal_get_m_IsCompositionActive();
 
-  constexpr bool const& __get_m_IsCompositionActive() const;
+  constexpr bool const& __cordl_internal_get_m_IsCompositionActive() const;
 
-  constexpr void __set_m_IsCompositionActive(bool value);
+  constexpr void __cordl_internal_set_m_IsCompositionActive(bool value);
 
-  constexpr bool& __get_m_ShouldUpdateIMEWindowPosition();
+  constexpr bool& __cordl_internal_get_m_ShouldUpdateIMEWindowPosition();
 
-  constexpr bool const& __get_m_ShouldUpdateIMEWindowPosition() const;
+  constexpr bool const& __cordl_internal_get_m_ShouldUpdateIMEWindowPosition() const;
 
-  constexpr void __set_m_ShouldUpdateIMEWindowPosition(bool value);
+  constexpr void __cordl_internal_set_m_ShouldUpdateIMEWindowPosition(bool value);
 
-  constexpr int32_t& __get_m_PreviousIMEInsertionLine();
+  constexpr int32_t& __cordl_internal_get_m_PreviousIMEInsertionLine();
 
-  constexpr int32_t const& __get_m_PreviousIMEInsertionLine() const;
+  constexpr int32_t const& __cordl_internal_get_m_PreviousIMEInsertionLine() const;
 
-  constexpr void __set_m_PreviousIMEInsertionLine(int32_t value);
+  constexpr void __cordl_internal_set_m_PreviousIMEInsertionLine(int32_t value);
 
-  constexpr ::TMPro::TMP_FontAsset*& __get_m_GlobalFontAsset();
+  constexpr ::UnityW<::TMPro::TMP_FontAsset>& __cordl_internal_get_m_GlobalFontAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_FontAsset*> const& __get_m_GlobalFontAsset() const;
+  constexpr ::UnityW<::TMPro::TMP_FontAsset> const& __cordl_internal_get_m_GlobalFontAsset() const;
 
-  constexpr void __set_m_GlobalFontAsset(::TMPro::TMP_FontAsset* value);
+  constexpr void __cordl_internal_set_m_GlobalFontAsset(::UnityW<::TMPro::TMP_FontAsset> value);
 
-  constexpr bool& __get_m_OnFocusSelectAll();
+  constexpr bool& __cordl_internal_get_m_OnFocusSelectAll();
 
-  constexpr bool const& __get_m_OnFocusSelectAll() const;
+  constexpr bool const& __cordl_internal_get_m_OnFocusSelectAll() const;
 
-  constexpr void __set_m_OnFocusSelectAll(bool value);
+  constexpr void __cordl_internal_set_m_OnFocusSelectAll(bool value);
 
-  constexpr bool& __get_m_isSelectAll();
+  constexpr bool& __cordl_internal_get_m_isSelectAll();
 
-  constexpr bool const& __get_m_isSelectAll() const;
+  constexpr bool const& __cordl_internal_get_m_isSelectAll() const;
 
-  constexpr void __set_m_isSelectAll(bool value);
+  constexpr void __cordl_internal_set_m_isSelectAll(bool value);
 
-  constexpr bool& __get_m_ResetOnDeActivation();
+  constexpr bool& __cordl_internal_get_m_ResetOnDeActivation();
 
-  constexpr bool const& __get_m_ResetOnDeActivation() const;
+  constexpr bool const& __cordl_internal_get_m_ResetOnDeActivation() const;
 
-  constexpr void __set_m_ResetOnDeActivation(bool value);
+  constexpr void __cordl_internal_set_m_ResetOnDeActivation(bool value);
 
-  constexpr bool& __get_m_SelectionStillActive();
+  constexpr bool& __cordl_internal_get_m_SelectionStillActive();
 
-  constexpr bool const& __get_m_SelectionStillActive() const;
+  constexpr bool const& __cordl_internal_get_m_SelectionStillActive() const;
 
-  constexpr void __set_m_SelectionStillActive(bool value);
+  constexpr void __cordl_internal_set_m_SelectionStillActive(bool value);
 
-  constexpr bool& __get_m_ReleaseSelection();
+  constexpr bool& __cordl_internal_get_m_ReleaseSelection();
 
-  constexpr bool const& __get_m_ReleaseSelection() const;
+  constexpr bool const& __cordl_internal_get_m_ReleaseSelection() const;
 
-  constexpr void __set_m_ReleaseSelection(bool value);
+  constexpr void __cordl_internal_set_m_ReleaseSelection(bool value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_PreviouslySelectedObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_PreviouslySelectedObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_PreviouslySelectedObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PreviouslySelectedObject() const;
 
-  constexpr void __set_m_PreviouslySelectedObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_PreviouslySelectedObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get_m_RestoreOriginalTextOnEscape();
+  constexpr bool& __cordl_internal_get_m_RestoreOriginalTextOnEscape();
 
-  constexpr bool const& __get_m_RestoreOriginalTextOnEscape() const;
+  constexpr bool const& __cordl_internal_get_m_RestoreOriginalTextOnEscape() const;
 
-  constexpr void __set_m_RestoreOriginalTextOnEscape(bool value);
+  constexpr void __cordl_internal_set_m_RestoreOriginalTextOnEscape(bool value);
 
-  constexpr bool& __get_m_isRichTextEditingAllowed();
+  constexpr bool& __cordl_internal_get_m_isRichTextEditingAllowed();
 
-  constexpr bool const& __get_m_isRichTextEditingAllowed() const;
+  constexpr bool const& __cordl_internal_get_m_isRichTextEditingAllowed() const;
 
-  constexpr void __set_m_isRichTextEditingAllowed(bool value);
+  constexpr void __cordl_internal_set_m_isRichTextEditingAllowed(bool value);
 
-  constexpr int32_t& __get_m_LineLimit();
+  constexpr int32_t& __cordl_internal_get_m_LineLimit();
 
-  constexpr int32_t const& __get_m_LineLimit() const;
+  constexpr int32_t const& __cordl_internal_get_m_LineLimit() const;
 
-  constexpr void __set_m_LineLimit(int32_t value);
+  constexpr void __cordl_internal_set_m_LineLimit(int32_t value);
 
-  constexpr ::TMPro::TMP_InputValidator*& __get_m_InputValidator();
+  constexpr ::UnityW<::TMPro::TMP_InputValidator>& __cordl_internal_get_m_InputValidator();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_InputValidator*> const& __get_m_InputValidator() const;
+  constexpr ::UnityW<::TMPro::TMP_InputValidator> const& __cordl_internal_get_m_InputValidator() const;
 
-  constexpr void __set_m_InputValidator(::TMPro::TMP_InputValidator* value);
+  constexpr void __cordl_internal_set_m_InputValidator(::UnityW<::TMPro::TMP_InputValidator> value);
 
-  constexpr bool& __get_m_isSelected();
+  constexpr bool& __cordl_internal_get_m_isSelected();
 
-  constexpr bool const& __get_m_isSelected() const;
+  constexpr bool const& __cordl_internal_get_m_isSelected() const;
 
-  constexpr void __set_m_isSelected(bool value);
+  constexpr void __cordl_internal_set_m_isSelected(bool value);
 
-  constexpr bool& __get_m_IsStringPositionDirty();
+  constexpr bool& __cordl_internal_get_m_IsStringPositionDirty();
 
-  constexpr bool const& __get_m_IsStringPositionDirty() const;
+  constexpr bool const& __cordl_internal_get_m_IsStringPositionDirty() const;
 
-  constexpr void __set_m_IsStringPositionDirty(bool value);
+  constexpr void __cordl_internal_set_m_IsStringPositionDirty(bool value);
 
-  constexpr bool& __get_m_IsCaretPositionDirty();
+  constexpr bool& __cordl_internal_get_m_IsCaretPositionDirty();
 
-  constexpr bool const& __get_m_IsCaretPositionDirty() const;
+  constexpr bool const& __cordl_internal_get_m_IsCaretPositionDirty() const;
 
-  constexpr void __set_m_IsCaretPositionDirty(bool value);
+  constexpr void __cordl_internal_set_m_IsCaretPositionDirty(bool value);
 
-  constexpr bool& __get_m_forceRectTransformAdjustment();
+  constexpr bool& __cordl_internal_get_m_forceRectTransformAdjustment();
 
-  constexpr bool const& __get_m_forceRectTransformAdjustment() const;
+  constexpr bool const& __cordl_internal_get_m_forceRectTransformAdjustment() const;
 
-  constexpr void __set_m_forceRectTransformAdjustment(bool value);
+  constexpr void __cordl_internal_set_m_forceRectTransformAdjustment(bool value);
 
-  constexpr ::UnityEngine::Event*& __get_m_ProcessingEvent();
+  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ProcessingEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __get_m_ProcessingEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get_m_ProcessingEvent() const;
 
-  constexpr void __set_m_ProcessingEvent(::UnityEngine::Event* value);
+  constexpr void __cordl_internal_set_m_ProcessingEvent(::UnityEngine::Event* value);
 
   static inline void setStaticF_kSeparators(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_kSeparators();
 
   /// @brief Method get_inputSystem, addr 0x2c1235c, size 0x110, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::BaseInput* get_inputSystem();
+  inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_inputSystem();
 
   /// @brief Method get_compositionString, addr 0x2c1246c, size 0x94, virtual false, abstract: false, final false
   inline ::StringW get_compositionString();
@@ -2094,7 +2096,7 @@ public:
   inline void _ctor();
 
   /// @brief Method get_mesh, addr 0x2c12850, size 0xa8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_mesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
   /// @brief Method get_shouldHideMobileInput, addr 0x2c128f8, size 0x48, virtual false, abstract: false, final false
   inline bool get_shouldHideMobileInput();
@@ -2139,25 +2141,25 @@ public:
   inline void set_caretWidth(int32_t value);
 
   /// @brief Method get_textViewport, addr 0x2c13440, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_textViewport();
+  inline ::UnityW<::UnityEngine::RectTransform> get_textViewport();
 
   /// @brief Method set_textViewport, addr 0x2c03528, size 0x58, virtual false, abstract: false, final false
   inline void set_textViewport(::UnityEngine::RectTransform* value);
 
   /// @brief Method get_textComponent, addr 0x2c13448, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Text* get_textComponent();
+  inline ::UnityW<::TMPro::TMP_Text> get_textComponent();
 
   /// @brief Method set_textComponent, addr 0x2c03580, size 0x74, virtual false, abstract: false, final false
   inline void set_textComponent(::TMPro::TMP_Text* value);
 
   /// @brief Method get_placeholder, addr 0x2c13450, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Graphic* get_placeholder();
+  inline ::UnityW<::UnityEngine::UI::Graphic> get_placeholder();
 
   /// @brief Method set_placeholder, addr 0x2c035f4, size 0x58, virtual false, abstract: false, final false
   inline void set_placeholder(::UnityEngine::UI::Graphic* value);
 
   /// @brief Method get_verticalScrollbar, addr 0x2c13458, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Scrollbar* get_verticalScrollbar();
+  inline ::UnityW<::UnityEngine::UI::Scrollbar> get_verticalScrollbar();
 
   /// @brief Method set_verticalScrollbar, addr 0x2c13460, size 0x1b8, virtual false, abstract: false, final false
   inline void set_verticalScrollbar(::UnityEngine::UI::Scrollbar* value);
@@ -2253,7 +2255,7 @@ public:
   inline void set_pointSize(float_t value);
 
   /// @brief Method get_fontAsset, addr 0x2c13d34, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_FontAsset* get_fontAsset();
+  inline ::UnityW<::TMPro::TMP_FontAsset> get_fontAsset();
 
   /// @brief Method set_fontAsset, addr 0x2c0364c, size 0x80, virtual false, abstract: false, final false
   inline void set_fontAsset(::TMPro::TMP_FontAsset* value);
@@ -2319,7 +2321,7 @@ public:
   inline void set_characterValidation(::TMPro::__TMP_InputField__CharacterValidation value);
 
   /// @brief Method get_inputValidator, addr 0x2c142f4, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_InputValidator* get_inputValidator();
+  inline ::UnityW<::TMPro::TMP_InputValidator> get_inputValidator();
 
   /// @brief Method set_inputValidator, addr 0x2c142fc, size 0x84, virtual false, abstract: false, final false
   inline void set_inputValidator(::TMPro::TMP_InputValidator* value);
@@ -2751,7 +2753,7 @@ public:
   inline void SetGlobalFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
   /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2c1dfe8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
+  inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -2771,40 +2773,40 @@ public:
   ::UnityEngine::TouchScreenKeyboard* ___m_SoftKeyboard;
 
   /// @brief Field m_RectTransform, offset: 0x100, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_RectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
   /// @brief Field m_TextViewport, offset: 0x108, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_TextViewport;
+  ::UnityW<::UnityEngine::RectTransform> ___m_TextViewport;
 
   /// @brief Field m_TextComponentRectMask, offset: 0x110, size: 0x8, def value: None
-  ::UnityEngine::UI::RectMask2D* ___m_TextComponentRectMask;
+  ::UnityW<::UnityEngine::UI::RectMask2D> ___m_TextComponentRectMask;
 
   /// @brief Field m_TextViewportRectMask, offset: 0x118, size: 0x8, def value: None
-  ::UnityEngine::UI::RectMask2D* ___m_TextViewportRectMask;
+  ::UnityW<::UnityEngine::UI::RectMask2D> ___m_TextViewportRectMask;
 
   /// @brief Field m_CachedViewportRect, offset: 0x120, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_CachedViewportRect;
 
   /// @brief Field m_TextComponent, offset: 0x130, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___m_TextComponent;
+  ::UnityW<::TMPro::TMP_Text> ___m_TextComponent;
 
   /// @brief Field m_TextComponentRectTransform, offset: 0x138, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_TextComponentRectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ___m_TextComponentRectTransform;
 
   /// @brief Field m_Placeholder, offset: 0x140, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* ___m_Placeholder;
+  ::UnityW<::UnityEngine::UI::Graphic> ___m_Placeholder;
 
   /// @brief Field m_VerticalScrollbar, offset: 0x148, size: 0x8, def value: None
-  ::UnityEngine::UI::Scrollbar* ___m_VerticalScrollbar;
+  ::UnityW<::UnityEngine::UI::Scrollbar> ___m_VerticalScrollbar;
 
   /// @brief Field m_VerticalScrollbarEventHandler, offset: 0x150, size: 0x8, def value: None
-  ::TMPro::TMP_ScrollbarEventHandler* ___m_VerticalScrollbarEventHandler;
+  ::UnityW<::TMPro::TMP_ScrollbarEventHandler> ___m_VerticalScrollbarEventHandler;
 
   /// @brief Field m_IsDrivenByLayoutComponents, offset: 0x158, size: 0x1, def value: None
   bool ___m_IsDrivenByLayoutComponents;
 
   /// @brief Field m_LayoutGroup, offset: 0x160, size: 0x8, def value: None
-  ::UnityEngine::UI::LayoutGroup* ___m_LayoutGroup;
+  ::UnityW<::UnityEngine::UI::LayoutGroup> ___m_LayoutGroup;
 
   /// @brief Field m_IScrollHandlerParent, offset: 0x168, size: 0x8, def value: None
   ::UnityEngine::EventSystems::IScrollHandler* ___m_IScrollHandlerParent;
@@ -2912,19 +2914,19 @@ public:
   int32_t ___m_CaretSelectPosition;
 
   /// @brief Field caretRectTrans, offset: 0x240, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___caretRectTrans;
+  ::UnityW<::UnityEngine::RectTransform> ___caretRectTrans;
 
   /// @brief Field m_CursorVerts, offset: 0x248, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> ___m_CursorVerts;
 
   /// @brief Field m_CachedInputRenderer, offset: 0x250, size: 0x8, def value: None
-  ::UnityEngine::CanvasRenderer* ___m_CachedInputRenderer;
+  ::UnityW<::UnityEngine::CanvasRenderer> ___m_CachedInputRenderer;
 
   /// @brief Field m_LastPosition, offset: 0x258, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_LastPosition;
 
   /// @brief Field m_Mesh, offset: 0x260, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ___m_Mesh;
+  ::UnityW<::UnityEngine::Mesh> ___m_Mesh;
 
   /// @brief Field m_AllowInput, offset: 0x268, size: 0x1, def value: None
   bool ___m_AllowInput;
@@ -2993,7 +2995,7 @@ public:
   int32_t ___m_PreviousIMEInsertionLine;
 
   /// @brief Field m_GlobalFontAsset, offset: 0x2b8, size: 0x8, def value: None
-  ::TMPro::TMP_FontAsset* ___m_GlobalFontAsset;
+  ::UnityW<::TMPro::TMP_FontAsset> ___m_GlobalFontAsset;
 
   /// @brief Field m_OnFocusSelectAll, offset: 0x2c0, size: 0x1, def value: None
   bool ___m_OnFocusSelectAll;
@@ -3011,7 +3013,7 @@ public:
   bool ___m_ReleaseSelection;
 
   /// @brief Field m_PreviouslySelectedObject, offset: 0x2c8, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_PreviouslySelectedObject;
+  ::UnityW<::UnityEngine::GameObject> ___m_PreviouslySelectedObject;
 
   /// @brief Field m_RestoreOriginalTextOnEscape, offset: 0x2d0, size: 0x1, def value: None
   bool ___m_RestoreOriginalTextOnEscape;
@@ -3023,7 +3025,7 @@ public:
   int32_t ___m_LineLimit;
 
   /// @brief Field m_InputValidator, offset: 0x2d8, size: 0x8, def value: None
-  ::TMPro::TMP_InputValidator* ___m_InputValidator;
+  ::UnityW<::TMPro::TMP_InputValidator> ___m_InputValidator;
 
   /// @brief Field m_isSelected, offset: 0x2e0, size: 0x1, def value: None
   bool ___m_isSelected;

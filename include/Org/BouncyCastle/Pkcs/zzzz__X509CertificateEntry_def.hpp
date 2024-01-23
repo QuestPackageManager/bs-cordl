@@ -27,22 +27,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::X509CertificateEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1693))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1693))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1708))
 // CS Name: ::Org.BouncyCastle.Pkcs::X509CertificateEntry*
 class CORDL_TYPE X509CertificateEntry : public ::Org::BouncyCastle::Pkcs::Pkcs12Entry {
 public:
   // Declarations
   /// @brief Field cert, offset 0x18, size 0x8
-  __declspec(property(get = __get_cert, put = __set_cert))::Org::BouncyCastle::X509::X509Certificate* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::X509::X509Certificate* cert;
 
   __declspec(property(get = get_Certificate))::Org::BouncyCastle::X509::X509Certificate* Certificate;
 
-  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __get_cert();
+  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_cert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __get_cert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_cert() const;
 
-  constexpr void __set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 

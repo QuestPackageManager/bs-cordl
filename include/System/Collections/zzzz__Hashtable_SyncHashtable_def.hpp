@@ -42,14 +42,14 @@ MARK_REF_PTR_T(::System::Collections::__Hashtable__SyncHashtable);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3798))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3798))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3795))
 // CS Name: ::Hashtable::SyncHashtable*
 class CORDL_TYPE __Hashtable__SyncHashtable : public ::System::Collections::Hashtable {
 public:
   // Declarations
   /// @brief Field _table, offset 0x50, size 0x8
-  __declspec(property(get = __get__table, put = __set__table))::System::Collections::Hashtable* _table;
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Collections::Hashtable* _table;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -73,11 +73,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Hashtable*& __get__table();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__table();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__table() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__table() const;
 
-  constexpr void __set__table(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__table(::System::Collections::Hashtable* value);
 
   static inline ::System::Collections::__Hashtable__SyncHashtable* New_ctor(::System::Collections::Hashtable* table);
 

@@ -23,38 +23,39 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberModelContainer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5297))
 // CS Name: ::SaberModelContainer*
 class CORDL_TYPE SaberModelContainer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _saber, offset 0x18, size 0x8
-  __declspec(property(get = __get__saber, put = __set__saber))::GlobalNamespace::Saber* _saber;
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::Saber> _saber;
 
   /// @brief Field _saberModelControllerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__saberModelControllerPrefab, put = __set__saberModelControllerPrefab))::GlobalNamespace::SaberModelController* _saberModelControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__saberModelControllerPrefab,
+                      put = __cordl_internal_set__saberModelControllerPrefab))::UnityW<::GlobalNamespace::SaberModelController> _saberModelControllerPrefab;
 
   /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
-  constexpr ::GlobalNamespace::Saber*& __get__saber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__saber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
 
-  constexpr void __set__saber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
-  constexpr ::GlobalNamespace::SaberModelController*& __get__saberModelControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SaberModelController>& __cordl_internal_get__saberModelControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberModelController*> const& __get__saberModelControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberModelController> const& __cordl_internal_get__saberModelControllerPrefab() const;
 
-  constexpr void __set__saberModelControllerPrefab(::GlobalNamespace::SaberModelController* value);
+  constexpr void __cordl_internal_set__saberModelControllerPrefab(::UnityW<::GlobalNamespace::SaberModelController> value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   /// @brief Method Start, addr 0x2264128, size 0x84, virtual false, abstract: false, final false
   inline void Start();
@@ -79,10 +80,10 @@ protected:
 
 public:
   /// @brief Field _saber, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____saber;
+  ::UnityW<::GlobalNamespace::Saber> ____saber;
 
   /// @brief Field _saberModelControllerPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SaberModelController* ____saberModelControllerPrefab;
+  ::UnityW<::GlobalNamespace::SaberModelController> ____saberModelControllerPrefab;
 
   /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__ConnectionErrorDialogViewController____c__Di
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5617))
 // CS Name: ::ConnectionErrorDialogViewController::<>c__DisplayClass0_0*
 class CORDL_TYPE __ConnectionErrorDialogViewController____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field buttonAction, offset 0x10, size 0x8
-  __declspec(property(get = __get_buttonAction, put = __set_buttonAction))::System::Action* buttonAction;
+  __declspec(property(get = __cordl_internal_get_buttonAction, put = __cordl_internal_set_buttonAction))::System::Action* buttonAction;
 
-  constexpr ::System::Action*& __get_buttonAction();
+  constexpr ::System::Action*& __cordl_internal_get_buttonAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_buttonAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_buttonAction() const;
 
-  constexpr void __set_buttonAction(::System::Action* value);
+  constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
 
   static inline ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0* New_ctor();
 
@@ -81,7 +81,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectionErrorDialogViewController_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5763))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5763))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5618))
 // CS Name: ::ConnectionErrorDialogViewController*
 class CORDL_TYPE ConnectionErrorDialogViewController : public ::GlobalNamespace::SimpleDialogPromptViewController {

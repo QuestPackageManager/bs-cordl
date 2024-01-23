@@ -139,7 +139,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRSceneManager___QueryForExistingAnchorsTransfo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7961))
 // CS Name: ::OVRSceneManager::Classification*
 class CORDL_TYPE __OVRSceneManager__Classification : public ::System::Object {
@@ -230,38 +230,38 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneManag
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7962))
 // CS Name: ::OVRSceneManager::RoomLayoutInformation*
 class CORDL_TYPE __OVRSceneManager__RoomLayoutInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Floor, offset 0x10, size 0x8
-  __declspec(property(get = __get_Floor, put = __set_Floor))::GlobalNamespace::OVRScenePlane* Floor;
+  __declspec(property(get = __cordl_internal_get_Floor, put = __cordl_internal_set_Floor))::UnityW<::GlobalNamespace::OVRScenePlane> Floor;
 
   /// @brief Field Ceiling, offset 0x18, size 0x8
-  __declspec(property(get = __get_Ceiling, put = __set_Ceiling))::GlobalNamespace::OVRScenePlane* Ceiling;
+  __declspec(property(get = __cordl_internal_get_Ceiling, put = __cordl_internal_set_Ceiling))::UnityW<::GlobalNamespace::OVRScenePlane> Ceiling;
 
   /// @brief Field Walls, offset 0x20, size 0x8
-  __declspec(property(get = __get_Walls, put = __set_Walls))::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>* Walls;
+  __declspec(property(get = __cordl_internal_get_Walls, put = __cordl_internal_set_Walls))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* Walls;
 
-  constexpr ::GlobalNamespace::OVRScenePlane*& __get_Floor();
+  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane>& __cordl_internal_get_Floor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRScenePlane*> const& __get_Floor() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane> const& __cordl_internal_get_Floor() const;
 
-  constexpr void __set_Floor(::GlobalNamespace::OVRScenePlane* value);
+  constexpr void __cordl_internal_set_Floor(::UnityW<::GlobalNamespace::OVRScenePlane> value);
 
-  constexpr ::GlobalNamespace::OVRScenePlane*& __get_Ceiling();
+  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane>& __cordl_internal_get_Ceiling();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRScenePlane*> const& __get_Ceiling() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane> const& __cordl_internal_get_Ceiling() const;
 
-  constexpr void __set_Ceiling(::GlobalNamespace::OVRScenePlane* value);
+  constexpr void __cordl_internal_set_Ceiling(::UnityW<::GlobalNamespace::OVRScenePlane> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>*& __get_Walls();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*& __cordl_internal_get_Walls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>*> const& __get_Walls() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*> const& __cordl_internal_get_Walls() const;
 
-  constexpr void __set_Walls(::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>* value);
+  constexpr void __cordl_internal_set_Walls(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
 
   static inline ::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation* New_ctor();
 
@@ -283,13 +283,13 @@ protected:
 
 public:
   /// @brief Field Floor, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::OVRScenePlane* ___Floor;
+  ::UnityW<::GlobalNamespace::OVRScenePlane> ___Floor;
 
   /// @brief Field Ceiling, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::OVRScenePlane* ___Ceiling;
+  ::UnityW<::GlobalNamespace::OVRScenePlane> ___Ceiling;
 
   /// @brief Field Walls, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>* ___Walls;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* ___Walls;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -307,7 +307,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager__RoomLayoutInformati
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7963))
 // CS Name: ::OVRSceneManager::LogForwarder
 #pragma pack(push, 0)
@@ -344,7 +344,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneManag
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7964))
 // CS Name: ::OVRSceneManager::Development*
 class CORDL_TYPE __OVRSceneManager__Development : public ::System::Object {
@@ -383,9 +383,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneManag
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7510)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(8072)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8072), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 980 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8146))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7965)) CS Name: ::OVRSceneManager::<OnApplicationPause>d__28
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(7510)), TypeDefinitionIndex(TypeDefinitionIndex(8072)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8146)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8072), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(8146), inst: 980 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7965)) CS Name: ::OVRSceneManager::<OnApplicationPause>d__28
 struct CORDL_TYPE __OVRSceneManager___OnApplicationPause_d__28 {
 public:
   // Declarations
@@ -403,12 +403,12 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "isPaused", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "__4__this", ty: "::GlobalNamespace::OVRSceneManager*", modifiers: "", def_value: None }, CppParam { name: "_anchors_5__2", ty:
+  // "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: None }, CppParam { name: "_anchors_5__2", ty:
   // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
   // "::GlobalNamespace::__OVRObjectPool__ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::__OVRTask_1__Awaiter<bool>",
   // modifiers: "", def_value: None }]
   constexpr __OVRSceneManager___OnApplicationPause_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, bool isPaused,
-                                                         ::GlobalNamespace::OVRSceneManager* __4__this, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* _anchors_5__2,
+                                                         ::UnityW<::GlobalNamespace::OVRSceneManager> __4__this, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* _anchors_5__2,
                                                          ::GlobalNamespace::__OVRObjectPool__ListScope_1<::GlobalNamespace::OVRAnchor> __7__wrap2,
                                                          ::GlobalNamespace::__OVRTask_1__Awaiter<bool> __u__1) noexcept;
 
@@ -426,7 +426,7 @@ public:
   bool isPaused;
 
   /// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneManager* __4__this;
+  ::UnityW<::GlobalNamespace::OVRSceneManager> __4__this;
 
   /// @brief Field <anchors>5__2, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* _anchors_5__2;
@@ -464,9 +464,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager___OnApplicationPause
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8146)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 980 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8072), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(7510)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8072)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 314 }), TypeDefinitionIndex(TypeDefinitionIndex(2406))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(7510)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8072)), TypeDefinitionIndex(TypeDefinitionIndex(8146)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8072), inst: 105 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 314 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 980 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7966)) CS Name: ::OVRSceneManager::<QueryForExistingAnchorsTransform>d__29
 struct CORDL_TYPE __OVRSceneManager___QueryForExistingAnchorsTransform_d__29 {
 public:
@@ -535,28 +535,29 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager___QueryForExistingAn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7967)) CS Name: ::OVRSceneManager::<>c__DisplayClass37_0*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7967)) CS Name: ::OVRSceneManager::<>c__DisplayClass37_0*
 class CORDL_TYPE __OVRSceneManager____c__DisplayClass37_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field requestedAnchorClassifications, offset 0x10, size 0x8
-  __declspec(property(get = __get_requestedAnchorClassifications, put = __set_requestedAnchorClassifications))::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications;
+  __declspec(property(get = __cordl_internal_get_requestedAnchorClassifications,
+                      put = __cordl_internal_set_requestedAnchorClassifications))::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications;
 
   /// @brief Field task, offset 0x18, size 0x10
-  __declspec(property(get = __get_task, put = __set_task))::GlobalNamespace::OVRTask_1<bool> task;
+  __declspec(property(get = __cordl_internal_get_task, put = __cordl_internal_set_task))::GlobalNamespace::OVRTask_1<bool> task;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __get_requestedAnchorClassifications();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __cordl_internal_get_requestedAnchorClassifications();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __get_requestedAnchorClassifications() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __cordl_internal_get_requestedAnchorClassifications() const;
 
-  constexpr void __set_requestedAnchorClassifications(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
+  constexpr void __cordl_internal_set_requestedAnchorClassifications(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::OVRTask_1<bool>& __get_task();
+  constexpr ::GlobalNamespace::OVRTask_1<bool>& __cordl_internal_get_task();
 
-  constexpr ::GlobalNamespace::OVRTask_1<bool> const& __get_task() const;
+  constexpr ::GlobalNamespace::OVRTask_1<bool> const& __cordl_internal_get_task() const;
 
-  constexpr void __set_task(::GlobalNamespace::OVRTask_1<bool> value);
+  constexpr void __cordl_internal_set_task(::GlobalNamespace::OVRTask_1<bool> value);
 
   static inline ::GlobalNamespace::__OVRSceneManager____c__DisplayClass37_0* New_ctor();
 
@@ -600,37 +601,38 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager____c__DisplayClass37
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8075))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7968)) CS Name: ::OVRSceneManager::<>c__DisplayClass40_0*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7968)) CS Name: ::OVRSceneManager::<>c__DisplayClass40_0*
 class CORDL_TYPE __OVRSceneManager____c__DisplayClass40_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field requestedAnchorClassifications, offset 0x10, size 0x8
-  __declspec(property(get = __get_requestedAnchorClassifications, put = __set_requestedAnchorClassifications))::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications;
+  __declspec(property(get = __cordl_internal_get_requestedAnchorClassifications,
+                      put = __cordl_internal_set_requestedAnchorClassifications))::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications;
 
   /// @brief Field task, offset 0x18, size 0x10
-  __declspec(property(get = __get_task, put = __set_task))::GlobalNamespace::OVRTask_1<bool> task;
+  __declspec(property(get = __cordl_internal_get_task, put = __cordl_internal_set_task))::GlobalNamespace::OVRTask_1<bool> task;
 
   /// @brief Field roomAnchors, offset 0x28, size 0x8
-  __declspec(property(get = __get_roomAnchors, put = __set_roomAnchors))::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* roomAnchors;
+  __declspec(property(get = __cordl_internal_get_roomAnchors, put = __cordl_internal_set_roomAnchors))::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* roomAnchors;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __get_requestedAnchorClassifications();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __cordl_internal_get_requestedAnchorClassifications();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __get_requestedAnchorClassifications() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __cordl_internal_get_requestedAnchorClassifications() const;
 
-  constexpr void __set_requestedAnchorClassifications(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
+  constexpr void __cordl_internal_set_requestedAnchorClassifications(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::OVRTask_1<bool>& __get_task();
+  constexpr ::GlobalNamespace::OVRTask_1<bool>& __cordl_internal_get_task();
 
-  constexpr ::GlobalNamespace::OVRTask_1<bool> const& __get_task() const;
+  constexpr ::GlobalNamespace::OVRTask_1<bool> const& __cordl_internal_get_task() const;
 
-  constexpr void __set_task(::GlobalNamespace::OVRTask_1<bool> value);
+  constexpr void __cordl_internal_set_task(::GlobalNamespace::OVRTask_1<bool> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*& __get_roomAnchors();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*& __cordl_internal_get_roomAnchors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*> const& __get_roomAnchors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*> const& __cordl_internal_get_roomAnchors() const;
 
-  constexpr void __set_roomAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* value);
+  constexpr void __cordl_internal_set_roomAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* value);
 
   static inline ::GlobalNamespace::__OVRSceneManager____c__DisplayClass40_0* New_ctor();
 
@@ -679,7 +681,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager____c__DisplayClass40
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7969))
 // CS Name: ::OVRSceneManager*
 class CORDL_TYPE OVRSceneManager : public ::UnityEngine::MonoBehaviour {
@@ -702,174 +704,176 @@ public:
   using Classification = ::GlobalNamespace::__OVRSceneManager__Classification;
 
   /// @brief Field PlanePrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get_PlanePrefab, put = __set_PlanePrefab))::GlobalNamespace::OVRSceneAnchor* PlanePrefab;
+  __declspec(property(get = __cordl_internal_get_PlanePrefab, put = __cordl_internal_set_PlanePrefab))::UnityW<::GlobalNamespace::OVRSceneAnchor> PlanePrefab;
 
   /// @brief Field VolumePrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get_VolumePrefab, put = __set_VolumePrefab))::GlobalNamespace::OVRSceneAnchor* VolumePrefab;
+  __declspec(property(get = __cordl_internal_get_VolumePrefab, put = __cordl_internal_set_VolumePrefab))::UnityW<::GlobalNamespace::OVRSceneAnchor> VolumePrefab;
 
   /// @brief Field PrefabOverrides, offset 0x28, size 0x8
-  __declspec(property(get = __get_PrefabOverrides, put = __set_PrefabOverrides))::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>* PrefabOverrides;
+  __declspec(property(get = __cordl_internal_get_PrefabOverrides,
+                      put = __cordl_internal_set_PrefabOverrides))::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>* PrefabOverrides;
 
   /// @brief Field VerboseLogging, offset 0x30, size 0x1
-  __declspec(property(get = __get_VerboseLogging, put = __set_VerboseLogging)) bool VerboseLogging;
+  __declspec(property(get = __cordl_internal_get_VerboseLogging, put = __cordl_internal_set_VerboseLogging)) bool VerboseLogging;
 
   /// @brief Field MaxSceneAnchorUpdatesPerFrame, offset 0x34, size 0x4
-  __declspec(property(get = __get_MaxSceneAnchorUpdatesPerFrame, put = __set_MaxSceneAnchorUpdatesPerFrame)) int32_t MaxSceneAnchorUpdatesPerFrame;
+  __declspec(property(get = __cordl_internal_get_MaxSceneAnchorUpdatesPerFrame, put = __cordl_internal_set_MaxSceneAnchorUpdatesPerFrame)) int32_t MaxSceneAnchorUpdatesPerFrame;
 
   /// @brief Field _initialAnchorParent, offset 0x38, size 0x8
-  __declspec(property(get = __get__initialAnchorParent, put = __set__initialAnchorParent))::UnityEngine::Transform* _initialAnchorParent;
+  __declspec(property(get = __cordl_internal_get__initialAnchorParent, put = __cordl_internal_set__initialAnchorParent))::UnityW<::UnityEngine::Transform> _initialAnchorParent;
 
   /// @brief Field SceneModelLoadedSuccessfully, offset 0x40, size 0x8
-  __declspec(property(get = __get_SceneModelLoadedSuccessfully, put = __set_SceneModelLoadedSuccessfully))::System::Action* SceneModelLoadedSuccessfully;
+  __declspec(property(get = __cordl_internal_get_SceneModelLoadedSuccessfully, put = __cordl_internal_set_SceneModelLoadedSuccessfully))::System::Action* SceneModelLoadedSuccessfully;
 
   /// @brief Field NoSceneModelToLoad, offset 0x48, size 0x8
-  __declspec(property(get = __get_NoSceneModelToLoad, put = __set_NoSceneModelToLoad))::System::Action* NoSceneModelToLoad;
+  __declspec(property(get = __cordl_internal_get_NoSceneModelToLoad, put = __cordl_internal_set_NoSceneModelToLoad))::System::Action* NoSceneModelToLoad;
 
   /// @brief Field SceneCaptureReturnedWithoutError, offset 0x50, size 0x8
-  __declspec(property(get = __get_SceneCaptureReturnedWithoutError, put = __set_SceneCaptureReturnedWithoutError))::System::Action* SceneCaptureReturnedWithoutError;
+  __declspec(property(get = __cordl_internal_get_SceneCaptureReturnedWithoutError, put = __cordl_internal_set_SceneCaptureReturnedWithoutError))::System::Action* SceneCaptureReturnedWithoutError;
 
   /// @brief Field UnexpectedErrorWithSceneCapture, offset 0x58, size 0x8
-  __declspec(property(get = __get_UnexpectedErrorWithSceneCapture, put = __set_UnexpectedErrorWithSceneCapture))::System::Action* UnexpectedErrorWithSceneCapture;
+  __declspec(property(get = __cordl_internal_get_UnexpectedErrorWithSceneCapture, put = __cordl_internal_set_UnexpectedErrorWithSceneCapture))::System::Action* UnexpectedErrorWithSceneCapture;
 
   /// @brief Field NewSceneModelAvailable, offset 0x60, size 0x8
-  __declspec(property(get = __get_NewSceneModelAvailable, put = __set_NewSceneModelAvailable))::System::Action* NewSceneModelAvailable;
+  __declspec(property(get = __cordl_internal_get_NewSceneModelAvailable, put = __cordl_internal_set_NewSceneModelAvailable))::System::Action* NewSceneModelAvailable;
 
   /// @brief Field RoomLayout, offset 0x68, size 0x8
-  __declspec(property(get = __get_RoomLayout, put = __set_RoomLayout))::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation* RoomLayout;
+  __declspec(property(get = __cordl_internal_get_RoomLayout, put = __cordl_internal_set_RoomLayout))::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation* RoomLayout;
 
   /// @brief Field _sceneCaptureRequestId, offset 0x70, size 0x8
-  __declspec(property(get = __get__sceneCaptureRequestId, put = __set__sceneCaptureRequestId)) uint64_t _sceneCaptureRequestId;
+  __declspec(property(get = __cordl_internal_get__sceneCaptureRequestId, put = __cordl_internal_set__sceneCaptureRequestId)) uint64_t _sceneCaptureRequestId;
 
   /// @brief Field _cameraRig, offset 0x78, size 0x8
-  __declspec(property(get = __get__cameraRig, put = __set__cameraRig))::GlobalNamespace::OVRCameraRig* _cameraRig;
+  __declspec(property(get = __cordl_internal_get__cameraRig, put = __cordl_internal_set__cameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> _cameraRig;
 
   /// @brief Field _sceneAnchorUpdateIndex, offset 0x80, size 0x4
-  __declspec(property(get = __get__sceneAnchorUpdateIndex, put = __set__sceneAnchorUpdateIndex)) int32_t _sceneAnchorUpdateIndex;
+  __declspec(property(get = __cordl_internal_get__sceneAnchorUpdateIndex, put = __cordl_internal_set__sceneAnchorUpdateIndex)) int32_t _sceneAnchorUpdateIndex;
 
   /// @brief Field _roomCounter, offset 0x84, size 0x4
-  __declspec(property(get = __get__roomCounter, put = __set__roomCounter)) int32_t _roomCounter;
+  __declspec(property(get = __cordl_internal_get__roomCounter, put = __cordl_internal_set__roomCounter)) int32_t _roomCounter;
 
   /// @brief Field _onAnchorsFetchCompleted, offset 0x88, size 0x8
-  __declspec(property(get = __get__onAnchorsFetchCompleted,
-                      put = __set__onAnchorsFetchCompleted))::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>* _onAnchorsFetchCompleted;
+  __declspec(property(get = __cordl_internal_get__onAnchorsFetchCompleted,
+                      put = __cordl_internal_set__onAnchorsFetchCompleted))::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>* _onAnchorsFetchCompleted;
 
   /// @brief Field _hasLoadedScene, offset 0x90, size 0x1
-  __declspec(property(get = __get__hasLoadedScene, put = __set__hasLoadedScene)) bool _hasLoadedScene;
+  __declspec(property(get = __cordl_internal_get__hasLoadedScene, put = __cordl_internal_set__hasLoadedScene)) bool _hasLoadedScene;
 
-  __declspec(property(get = get_InitialAnchorParent, put = set_InitialAnchorParent))::UnityEngine::Transform* InitialAnchorParent;
+  __declspec(property(get = get_InitialAnchorParent, put = set_InitialAnchorParent))::UnityW<::UnityEngine::Transform> InitialAnchorParent;
 
   __declspec(property(get = get_Verbose))::System::Nullable_1<::GlobalNamespace::__OVRSceneManager__LogForwarder> Verbose;
 
-  constexpr ::GlobalNamespace::OVRSceneAnchor*& __get_PlanePrefab();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get_PlanePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneAnchor*> const& __get_PlanePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get_PlanePrefab() const;
 
-  constexpr void __set_PlanePrefab(::GlobalNamespace::OVRSceneAnchor* value);
+  constexpr void __cordl_internal_set_PlanePrefab(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  constexpr ::GlobalNamespace::OVRSceneAnchor*& __get_VolumePrefab();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get_VolumePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneAnchor*> const& __get_VolumePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get_VolumePrefab() const;
 
-  constexpr void __set_VolumePrefab(::GlobalNamespace::OVRSceneAnchor* value);
+  constexpr void __cordl_internal_set_VolumePrefab(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>*& __get_PrefabOverrides();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>*& __cordl_internal_get_PrefabOverrides();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>*> const& __get_PrefabOverrides() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>*> const& __cordl_internal_get_PrefabOverrides() const;
 
-  constexpr void __set_PrefabOverrides(::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>* value);
+  constexpr void __cordl_internal_set_PrefabOverrides(::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>* value);
 
-  constexpr bool& __get_VerboseLogging();
+  constexpr bool& __cordl_internal_get_VerboseLogging();
 
-  constexpr bool const& __get_VerboseLogging() const;
+  constexpr bool const& __cordl_internal_get_VerboseLogging() const;
 
-  constexpr void __set_VerboseLogging(bool value);
+  constexpr void __cordl_internal_set_VerboseLogging(bool value);
 
-  constexpr int32_t& __get_MaxSceneAnchorUpdatesPerFrame();
+  constexpr int32_t& __cordl_internal_get_MaxSceneAnchorUpdatesPerFrame();
 
-  constexpr int32_t const& __get_MaxSceneAnchorUpdatesPerFrame() const;
+  constexpr int32_t const& __cordl_internal_get_MaxSceneAnchorUpdatesPerFrame() const;
 
-  constexpr void __set_MaxSceneAnchorUpdatesPerFrame(int32_t value);
+  constexpr void __cordl_internal_set_MaxSceneAnchorUpdatesPerFrame(int32_t value);
 
-  constexpr ::UnityEngine::Transform*& __get__initialAnchorParent();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__initialAnchorParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__initialAnchorParent() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__initialAnchorParent() const;
 
-  constexpr void __set__initialAnchorParent(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__initialAnchorParent(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::System::Action*& __get_SceneModelLoadedSuccessfully();
+  constexpr ::System::Action*& __cordl_internal_get_SceneModelLoadedSuccessfully();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_SceneModelLoadedSuccessfully() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_SceneModelLoadedSuccessfully() const;
 
-  constexpr void __set_SceneModelLoadedSuccessfully(::System::Action* value);
+  constexpr void __cordl_internal_set_SceneModelLoadedSuccessfully(::System::Action* value);
 
-  constexpr ::System::Action*& __get_NoSceneModelToLoad();
+  constexpr ::System::Action*& __cordl_internal_get_NoSceneModelToLoad();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_NoSceneModelToLoad() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_NoSceneModelToLoad() const;
 
-  constexpr void __set_NoSceneModelToLoad(::System::Action* value);
+  constexpr void __cordl_internal_set_NoSceneModelToLoad(::System::Action* value);
 
-  constexpr ::System::Action*& __get_SceneCaptureReturnedWithoutError();
+  constexpr ::System::Action*& __cordl_internal_get_SceneCaptureReturnedWithoutError();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_SceneCaptureReturnedWithoutError() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_SceneCaptureReturnedWithoutError() const;
 
-  constexpr void __set_SceneCaptureReturnedWithoutError(::System::Action* value);
+  constexpr void __cordl_internal_set_SceneCaptureReturnedWithoutError(::System::Action* value);
 
-  constexpr ::System::Action*& __get_UnexpectedErrorWithSceneCapture();
+  constexpr ::System::Action*& __cordl_internal_get_UnexpectedErrorWithSceneCapture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_UnexpectedErrorWithSceneCapture() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_UnexpectedErrorWithSceneCapture() const;
 
-  constexpr void __set_UnexpectedErrorWithSceneCapture(::System::Action* value);
+  constexpr void __cordl_internal_set_UnexpectedErrorWithSceneCapture(::System::Action* value);
 
-  constexpr ::System::Action*& __get_NewSceneModelAvailable();
+  constexpr ::System::Action*& __cordl_internal_get_NewSceneModelAvailable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_NewSceneModelAvailable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_NewSceneModelAvailable() const;
 
-  constexpr void __set_NewSceneModelAvailable(::System::Action* value);
+  constexpr void __cordl_internal_set_NewSceneModelAvailable(::System::Action* value);
 
-  constexpr ::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation*& __get_RoomLayout();
+  constexpr ::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation*& __cordl_internal_get_RoomLayout();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation*> const& __get_RoomLayout() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation*> const& __cordl_internal_get_RoomLayout() const;
 
-  constexpr void __set_RoomLayout(::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation* value);
+  constexpr void __cordl_internal_set_RoomLayout(::GlobalNamespace::__OVRSceneManager__RoomLayoutInformation* value);
 
-  constexpr uint64_t& __get__sceneCaptureRequestId();
+  constexpr uint64_t& __cordl_internal_get__sceneCaptureRequestId();
 
-  constexpr uint64_t const& __get__sceneCaptureRequestId() const;
+  constexpr uint64_t const& __cordl_internal_get__sceneCaptureRequestId() const;
 
-  constexpr void __set__sceneCaptureRequestId(uint64_t value);
+  constexpr void __cordl_internal_set__sceneCaptureRequestId(uint64_t value);
 
-  constexpr ::GlobalNamespace::OVRCameraRig*& __get__cameraRig();
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get__cameraRig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& __get__cameraRig() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get__cameraRig() const;
 
-  constexpr void __set__cameraRig(::GlobalNamespace::OVRCameraRig* value);
+  constexpr void __cordl_internal_set__cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  constexpr int32_t& __get__sceneAnchorUpdateIndex();
+  constexpr int32_t& __cordl_internal_get__sceneAnchorUpdateIndex();
 
-  constexpr int32_t const& __get__sceneAnchorUpdateIndex() const;
+  constexpr int32_t const& __cordl_internal_get__sceneAnchorUpdateIndex() const;
 
-  constexpr void __set__sceneAnchorUpdateIndex(int32_t value);
+  constexpr void __cordl_internal_set__sceneAnchorUpdateIndex(int32_t value);
 
-  constexpr int32_t& __get__roomCounter();
+  constexpr int32_t& __cordl_internal_get__roomCounter();
 
-  constexpr int32_t const& __get__roomCounter() const;
+  constexpr int32_t const& __cordl_internal_get__roomCounter() const;
 
-  constexpr void __set__roomCounter(int32_t value);
+  constexpr void __cordl_internal_set__roomCounter(int32_t value);
 
-  constexpr ::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>*& __get__onAnchorsFetchCompleted();
+  constexpr ::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>*& __cordl_internal_get__onAnchorsFetchCompleted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>*> const& __get__onAnchorsFetchCompleted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>*> const&
+  __cordl_internal_get__onAnchorsFetchCompleted() const;
 
-  constexpr void __set__onAnchorsFetchCompleted(::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>* value);
+  constexpr void __cordl_internal_set__onAnchorsFetchCompleted(::System::Action_2<bool, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>* value);
 
-  constexpr bool& __get__hasLoadedScene();
+  constexpr bool& __cordl_internal_get__hasLoadedScene();
 
-  constexpr bool const& __get__hasLoadedScene() const;
+  constexpr bool const& __cordl_internal_get__hasLoadedScene() const;
 
-  constexpr void __set__hasLoadedScene(bool value);
+  constexpr void __cordl_internal_set__hasLoadedScene(bool value);
 
   /// @brief Method get_InitialAnchorParent, addr 0x2781d54, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_InitialAnchorParent();
+  inline ::UnityW<::UnityEngine::Transform> get_InitialAnchorParent();
 
   /// @brief Method set_InitialAnchorParent, addr 0x2781d5c, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialAnchorParent(::UnityEngine::Transform* value);
@@ -955,7 +959,7 @@ public:
   inline void OVRManager_SceneCaptureComplete(uint64_t requestId, bool result);
 
   /// @brief Method InstantiateSceneAnchor, addr 0x2784d28, size 0x50c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRSceneAnchor* InstantiateSceneAnchor(::GlobalNamespace::OVRAnchor anchor, ::GlobalNamespace::OVRSceneAnchor* prefab);
+  inline ::UnityW<::GlobalNamespace::OVRSceneAnchor> InstantiateSceneAnchor(::GlobalNamespace::OVRAnchor anchor, ::GlobalNamespace::OVRSceneAnchor* prefab);
 
   static inline ::GlobalNamespace::OVRSceneManager* New_ctor();
 
@@ -977,10 +981,10 @@ protected:
 
 public:
   /// @brief Field PlanePrefab, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneAnchor* ___PlanePrefab;
+  ::UnityW<::GlobalNamespace::OVRSceneAnchor> ___PlanePrefab;
 
   /// @brief Field VolumePrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneAnchor* ___VolumePrefab;
+  ::UnityW<::GlobalNamespace::OVRSceneAnchor> ___VolumePrefab;
 
   /// @brief Field PrefabOverrides, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride*>* ___PrefabOverrides;
@@ -992,7 +996,7 @@ public:
   int32_t ___MaxSceneAnchorUpdatesPerFrame;
 
   /// @brief Field _initialAnchorParent, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____initialAnchorParent;
+  ::UnityW<::UnityEngine::Transform> ____initialAnchorParent;
 
   /// @brief Field SceneModelLoadedSuccessfully, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___SceneModelLoadedSuccessfully;
@@ -1016,7 +1020,7 @@ public:
   uint64_t ____sceneCaptureRequestId;
 
   /// @brief Field _cameraRig, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::OVRCameraRig* ____cameraRig;
+  ::UnityW<::GlobalNamespace::OVRCameraRig> ____cameraRig;
 
   /// @brief Field _sceneAnchorUpdateIndex, offset: 0x80, size: 0x4, def value: None
   int32_t ____sceneAnchorUpdateIndex;

@@ -27,15 +27,16 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomBeatmapLevelCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4377))
 // CS Name: ::CustomBeatmapLevelCollection*
 class CORDL_TYPE CustomBeatmapLevelCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _customPreviewBeatmapLevels, offset 0x10, size 0x8
-  __declspec(property(get = __get__customPreviewBeatmapLevels,
-                      put = __set__customPreviewBeatmapLevels))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>* _customPreviewBeatmapLevels;
+  __declspec(
+      property(get = __cordl_internal_get__customPreviewBeatmapLevels,
+               put = __cordl_internal_set__customPreviewBeatmapLevels))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>* _customPreviewBeatmapLevels;
 
   __declspec(property(get = get_beatmapLevels))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* beatmapLevels;
 
@@ -45,11 +46,12 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelCollection"
   constexpr ::GlobalNamespace::IBeatmapLevelCollection* i___GlobalNamespace__IBeatmapLevelCollection() noexcept;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*& __get__customPreviewBeatmapLevels();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*& __cordl_internal_get__customPreviewBeatmapLevels();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*> const& __get__customPreviewBeatmapLevels() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*> const&
+  __cordl_internal_get__customPreviewBeatmapLevels() const;
 
-  constexpr void __set__customPreviewBeatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>* value);
+  constexpr void __cordl_internal_set__customPreviewBeatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>* value);
 
   /// @brief Method get_beatmapLevels, addr 0x2346a7c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();

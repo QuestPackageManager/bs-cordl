@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::System::Xml::XmlRawWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11491))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11491))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11455))
 // CS Name: ::System.Xml::XmlRawWriter*
 class CORDL_TYPE XmlRawWriter : public ::System::Xml::XmlWriter {
 public:
   // Declarations
   /// @brief Field base64Encoder, offset 0x10, size 0x8
-  __declspec(property(get = __get_base64Encoder, put = __set_base64Encoder))::System::Xml::XmlRawWriterBase64Encoder* base64Encoder;
+  __declspec(property(get = __cordl_internal_get_base64Encoder, put = __cordl_internal_set_base64Encoder))::System::Xml::XmlRawWriterBase64Encoder* base64Encoder;
 
   /// @brief Field resolver, offset 0x18, size 0x8
-  __declspec(property(get = __get_resolver, put = __set_resolver))::System::Xml::IXmlNamespaceResolver* resolver;
+  __declspec(property(get = __cordl_internal_get_resolver, put = __cordl_internal_set_resolver))::System::Xml::IXmlNamespaceResolver* resolver;
 
   __declspec(property(get = get_WriteState))::System::Xml::WriteState WriteState;
 
@@ -50,17 +50,17 @@ public:
 
   __declspec(property(get = get_SupportsNamespaceDeclarationInChunks)) bool SupportsNamespaceDeclarationInChunks;
 
-  constexpr ::System::Xml::XmlRawWriterBase64Encoder*& __get_base64Encoder();
+  constexpr ::System::Xml::XmlRawWriterBase64Encoder*& __cordl_internal_get_base64Encoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriterBase64Encoder*> const& __get_base64Encoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriterBase64Encoder*> const& __cordl_internal_get_base64Encoder() const;
 
-  constexpr void __set_base64Encoder(::System::Xml::XmlRawWriterBase64Encoder* value);
+  constexpr void __cordl_internal_set_base64Encoder(::System::Xml::XmlRawWriterBase64Encoder* value);
 
-  constexpr ::System::Xml::IXmlNamespaceResolver*& __get_resolver();
+  constexpr ::System::Xml::IXmlNamespaceResolver*& __cordl_internal_get_resolver();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& __get_resolver() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& __cordl_internal_get_resolver() const;
 
-  constexpr void __set_resolver(::System::Xml::IXmlNamespaceResolver* value);
+  constexpr void __cordl_internal_set_resolver(::System::Xml::IXmlNamespaceResolver* value);
 
   /// @brief Method WriteStartDocument, addr 0x28598c4, size 0x60, virtual true, abstract: false, final false
   inline void WriteStartDocument();

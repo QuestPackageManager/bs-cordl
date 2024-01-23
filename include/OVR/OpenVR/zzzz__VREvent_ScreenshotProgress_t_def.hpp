@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_ScreenshotProgress_t);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8681))
 // CS Name: ::OVR.OpenVR::VREvent_ScreenshotProgress_t
 struct CORDL_TYPE VREvent_ScreenshotProgress_t {

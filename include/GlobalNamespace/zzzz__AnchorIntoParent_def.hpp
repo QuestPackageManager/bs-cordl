@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::GlobalNamespace::AnchorIntoParent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5351))
 // CS Name: ::AnchorIntoParent*
 class CORDL_TYPE AnchorIntoParent : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _parentTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__parentTransform, put = __set__parentTransform))::UnityEngine::Transform* _parentTransform;
+  __declspec(property(get = __cordl_internal_get__parentTransform, put = __cordl_internal_set__parentTransform))::UnityW<::UnityEngine::Transform> _parentTransform;
 
   /// @brief Field _positionOffset, offset 0x20, size 0xc
-  __declspec(property(get = __get__positionOffset, put = __set__positionOffset))::UnityEngine::Vector3 _positionOffset;
+  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
 
-  constexpr ::UnityEngine::Transform*& __get__parentTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__parentTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__parentTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentTransform() const;
 
-  constexpr void __set__parentTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__parentTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get__positionOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__positionOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
 
-  constexpr void __set__positionOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
   /// @brief Method Start, addr 0x226be24, size 0x100, virtual false, abstract: false, final false
   inline void Start();
@@ -65,7 +65,7 @@ protected:
 
 public:
   /// @brief Field _parentTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____parentTransform;
+  ::UnityW<::UnityEngine::Transform> ____parentTransform;
 
   /// @brief Field _positionOffset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____positionOffset;

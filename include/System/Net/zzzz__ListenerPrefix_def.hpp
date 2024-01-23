@@ -22,29 +22,29 @@ MARK_REF_PTR_T(::System::Net::ListenerPrefix);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9190))
 // CS Name: ::System.Net::ListenerPrefix*
 class CORDL_TYPE ListenerPrefix : public ::System::Object {
 public:
   // Declarations
   /// @brief Field original, offset 0x10, size 0x8
-  __declspec(property(get = __get_original, put = __set_original))::StringW original;
+  __declspec(property(get = __cordl_internal_get_original, put = __cordl_internal_set_original))::StringW original;
 
   /// @brief Field host, offset 0x18, size 0x8
-  __declspec(property(get = __get_host, put = __set_host))::StringW host;
+  __declspec(property(get = __cordl_internal_get_host, put = __cordl_internal_set_host))::StringW host;
 
   /// @brief Field port, offset 0x20, size 0x2
-  __declspec(property(get = __get_port, put = __set_port)) uint16_t port;
+  __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) uint16_t port;
 
   /// @brief Field path, offset 0x28, size 0x8
-  __declspec(property(get = __get_path, put = __set_path))::StringW path;
+  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
 
   /// @brief Field secure, offset 0x30, size 0x1
-  __declspec(property(get = __get_secure, put = __set_secure)) bool secure;
+  __declspec(property(get = __cordl_internal_get_secure, put = __cordl_internal_set_secure)) bool secure;
 
   /// @brief Field Listener, offset 0x38, size 0x8
-  __declspec(property(get = __get_Listener, put = __set_Listener))::System::Net::HttpListener* Listener;
+  __declspec(property(get = __cordl_internal_get_Listener, put = __cordl_internal_set_Listener))::System::Net::HttpListener* Listener;
 
   __declspec(property(get = get_Secure)) bool Secure;
 
@@ -54,41 +54,41 @@ public:
 
   __declspec(property(get = get_Path))::StringW Path;
 
-  constexpr ::StringW& __get_original();
+  constexpr ::StringW& __cordl_internal_get_original();
 
-  constexpr ::StringW const& __get_original() const;
+  constexpr ::StringW const& __cordl_internal_get_original() const;
 
-  constexpr void __set_original(::StringW value);
+  constexpr void __cordl_internal_set_original(::StringW value);
 
-  constexpr ::StringW& __get_host();
+  constexpr ::StringW& __cordl_internal_get_host();
 
-  constexpr ::StringW const& __get_host() const;
+  constexpr ::StringW const& __cordl_internal_get_host() const;
 
-  constexpr void __set_host(::StringW value);
+  constexpr void __cordl_internal_set_host(::StringW value);
 
-  constexpr uint16_t& __get_port();
+  constexpr uint16_t& __cordl_internal_get_port();
 
-  constexpr uint16_t const& __get_port() const;
+  constexpr uint16_t const& __cordl_internal_get_port() const;
 
-  constexpr void __set_port(uint16_t value);
+  constexpr void __cordl_internal_set_port(uint16_t value);
 
-  constexpr ::StringW& __get_path();
+  constexpr ::StringW& __cordl_internal_get_path();
 
-  constexpr ::StringW const& __get_path() const;
+  constexpr ::StringW const& __cordl_internal_get_path() const;
 
-  constexpr void __set_path(::StringW value);
+  constexpr void __cordl_internal_set_path(::StringW value);
 
-  constexpr bool& __get_secure();
+  constexpr bool& __cordl_internal_get_secure();
 
-  constexpr bool const& __get_secure() const;
+  constexpr bool const& __cordl_internal_get_secure() const;
 
-  constexpr void __set_secure(bool value);
+  constexpr void __cordl_internal_set_secure(bool value);
 
-  constexpr ::System::Net::HttpListener*& __get_Listener();
+  constexpr ::System::Net::HttpListener*& __cordl_internal_get_Listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __get_Listener() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_Listener() const;
 
-  constexpr void __set_Listener(::System::Net::HttpListener* value);
+  constexpr void __cordl_internal_set_Listener(::System::Net::HttpListener* value);
 
   static inline ::System::Net::ListenerPrefix* New_ctor(::StringW prefix);
 

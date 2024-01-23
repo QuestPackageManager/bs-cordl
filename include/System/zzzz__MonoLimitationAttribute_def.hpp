@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::MonoLimitationAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2538))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2538))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2539))
 // CS Name: ::System::MonoLimitationAttribute*
 class CORDL_TYPE MonoLimitationAttribute : public ::System::MonoTODOAttribute {

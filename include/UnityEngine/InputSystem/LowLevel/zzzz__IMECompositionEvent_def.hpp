@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::IMECompositionEvent);
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6529))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6529)), TypeDefinitionIndex(TypeDefinitionIndex(6530))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6526))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionEvent
 #pragma pack(push, 0)
@@ -40,10 +40,10 @@ struct CORDL_TYPE IMECompositionEvent {
 public:
   // Declarations
   /// @brief Field baseEvent, offset 0x0, size 0x14
-  __declspec(property(get = __get_baseEvent, put = __set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
+  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
   /// @brief Field compositionString, offset 0x14, size 0x84
-  __declspec(property(get = __get_compositionString, put = __set_compositionString))::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString;
+  __declspec(property(get = __cordl_internal_get_compositionString, put = __cordl_internal_set_compositionString))::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -53,17 +53,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __get_baseEvent() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString& __get_compositionString();
+  constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString& __cordl_internal_get_compositionString();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString const& __get_compositionString() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString const& __cordl_internal_get_compositionString() const;
 
-  constexpr void __set_compositionString(::UnityEngine::InputSystem::LowLevel::IMECompositionString value);
+  constexpr void __cordl_internal_set_compositionString(::UnityEngine::InputSystem::LowLevel::IMECompositionString value);
 
   /// @brief Method get_typeStatic, addr 0x2ae9d4c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();

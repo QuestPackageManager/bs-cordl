@@ -37,41 +37,41 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Face);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12100)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12100))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12124))
 // CS Name: ::UnityEngine.ProBuilder::Face*
 class CORDL_TYPE Face : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Indexes, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Indexes, put = __set_m_Indexes))::ArrayW<int32_t, ::Array<int32_t>*> m_Indexes;
+  __declspec(property(get = __cordl_internal_get_m_Indexes, put = __cordl_internal_set_m_Indexes))::ArrayW<int32_t, ::Array<int32_t>*> m_Indexes;
 
   /// @brief Field m_SmoothingGroup, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_SmoothingGroup, put = __set_m_SmoothingGroup)) int32_t m_SmoothingGroup;
+  __declspec(property(get = __cordl_internal_get_m_SmoothingGroup, put = __cordl_internal_set_m_SmoothingGroup)) int32_t m_SmoothingGroup;
 
   /// @brief Field m_Uv, offset 0x1c, size 0x20
-  __declspec(property(get = __get_m_Uv, put = __set_m_Uv))::UnityEngine::ProBuilder::AutoUnwrapSettings m_Uv;
+  __declspec(property(get = __cordl_internal_get_m_Uv, put = __cordl_internal_set_m_Uv))::UnityEngine::ProBuilder::AutoUnwrapSettings m_Uv;
 
   /// @brief Field m_Material, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Material, put = __set_m_Material))::UnityEngine::Material* m_Material;
+  __declspec(property(get = __cordl_internal_get_m_Material, put = __cordl_internal_set_m_Material))::UnityW<::UnityEngine::Material> m_Material;
 
   /// @brief Field m_SubmeshIndex, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_SubmeshIndex, put = __set_m_SubmeshIndex)) int32_t m_SubmeshIndex;
+  __declspec(property(get = __cordl_internal_get_m_SubmeshIndex, put = __cordl_internal_set_m_SubmeshIndex)) int32_t m_SubmeshIndex;
 
   /// @brief Field m_ManualUV, offset 0x4c, size 0x1
-  __declspec(property(get = __get_m_ManualUV, put = __set_m_ManualUV)) bool m_ManualUV;
+  __declspec(property(get = __cordl_internal_get_m_ManualUV, put = __cordl_internal_set_m_ManualUV)) bool m_ManualUV;
 
   /// @brief Field elementGroup, offset 0x50, size 0x4
-  __declspec(property(get = __get_elementGroup, put = __set_elementGroup)) int32_t elementGroup;
+  __declspec(property(get = __cordl_internal_get_elementGroup, put = __cordl_internal_set_elementGroup)) int32_t elementGroup;
 
   /// @brief Field m_TextureGroup, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_TextureGroup, put = __set_m_TextureGroup)) int32_t m_TextureGroup;
+  __declspec(property(get = __cordl_internal_get_m_TextureGroup, put = __cordl_internal_set_m_TextureGroup)) int32_t m_TextureGroup;
 
   /// @brief Field m_DistinctIndexes, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_DistinctIndexes, put = __set_m_DistinctIndexes))::ArrayW<int32_t, ::Array<int32_t>*> m_DistinctIndexes;
+  __declspec(property(get = __cordl_internal_get_m_DistinctIndexes, put = __cordl_internal_set_m_DistinctIndexes))::ArrayW<int32_t, ::Array<int32_t>*> m_DistinctIndexes;
 
   /// @brief Field m_Edges, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_Edges, put = __set_m_Edges))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> m_Edges;
+  __declspec(property(get = __cordl_internal_get_m_Edges, put = __cordl_internal_set_m_Edges))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> m_Edges;
 
   __declspec(property(get = get_manualUV, put = set_manualUV)) bool manualUV;
 
@@ -91,7 +91,7 @@ public:
 
   __declspec(property(get = get_smoothingGroup, put = set_smoothingGroup)) int32_t smoothingGroup;
 
-  __declspec(property(get = get_material, put = set_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material, put = set_material))::UnityW<::UnityEngine::Material> material;
 
   __declspec(property(get = get_submeshIndex, put = set_submeshIndex)) int32_t submeshIndex;
 
@@ -99,65 +99,65 @@ public:
 
   __declspec(property(get = get_Item)) int32_t Item[];
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_Indexes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_Indexes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_Indexes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_Indexes() const;
 
-  constexpr void __set_m_Indexes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_Indexes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_m_SmoothingGroup();
+  constexpr int32_t& __cordl_internal_get_m_SmoothingGroup();
 
-  constexpr int32_t const& __get_m_SmoothingGroup() const;
+  constexpr int32_t const& __cordl_internal_get_m_SmoothingGroup() const;
 
-  constexpr void __set_m_SmoothingGroup(int32_t value);
+  constexpr void __cordl_internal_set_m_SmoothingGroup(int32_t value);
 
-  constexpr ::UnityEngine::ProBuilder::AutoUnwrapSettings& __get_m_Uv();
+  constexpr ::UnityEngine::ProBuilder::AutoUnwrapSettings& __cordl_internal_get_m_Uv();
 
-  constexpr ::UnityEngine::ProBuilder::AutoUnwrapSettings const& __get_m_Uv() const;
+  constexpr ::UnityEngine::ProBuilder::AutoUnwrapSettings const& __cordl_internal_get_m_Uv() const;
 
-  constexpr void __set_m_Uv(::UnityEngine::ProBuilder::AutoUnwrapSettings value);
+  constexpr void __cordl_internal_set_m_Uv(::UnityEngine::ProBuilder::AutoUnwrapSettings value);
 
-  constexpr ::UnityEngine::Material*& __get_m_Material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_Material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_Material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_Material() const;
 
-  constexpr void __set_m_Material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_Material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get_m_SubmeshIndex();
+  constexpr int32_t& __cordl_internal_get_m_SubmeshIndex();
 
-  constexpr int32_t const& __get_m_SubmeshIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_SubmeshIndex() const;
 
-  constexpr void __set_m_SubmeshIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_SubmeshIndex(int32_t value);
 
-  constexpr bool& __get_m_ManualUV();
+  constexpr bool& __cordl_internal_get_m_ManualUV();
 
-  constexpr bool const& __get_m_ManualUV() const;
+  constexpr bool const& __cordl_internal_get_m_ManualUV() const;
 
-  constexpr void __set_m_ManualUV(bool value);
+  constexpr void __cordl_internal_set_m_ManualUV(bool value);
 
-  constexpr int32_t& __get_elementGroup();
+  constexpr int32_t& __cordl_internal_get_elementGroup();
 
-  constexpr int32_t const& __get_elementGroup() const;
+  constexpr int32_t const& __cordl_internal_get_elementGroup() const;
 
-  constexpr void __set_elementGroup(int32_t value);
+  constexpr void __cordl_internal_set_elementGroup(int32_t value);
 
-  constexpr int32_t& __get_m_TextureGroup();
+  constexpr int32_t& __cordl_internal_get_m_TextureGroup();
 
-  constexpr int32_t const& __get_m_TextureGroup() const;
+  constexpr int32_t const& __cordl_internal_get_m_TextureGroup() const;
 
-  constexpr void __set_m_TextureGroup(int32_t value);
+  constexpr void __cordl_internal_set_m_TextureGroup(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_DistinctIndexes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_DistinctIndexes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_DistinctIndexes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_DistinctIndexes() const;
 
-  constexpr void __set_m_DistinctIndexes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_DistinctIndexes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>& __get_m_Edges();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>& __cordl_internal_get_m_Edges();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> const& __get_m_Edges() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> const& __cordl_internal_get_m_Edges() const;
 
-  constexpr void __set_m_Edges(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
+  constexpr void __cordl_internal_set_m_Edges(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
 
   /// @brief Method get_manualUV, addr 0x2b40098, size 0x8, virtual false, abstract: false, final false
   inline bool get_manualUV();
@@ -202,7 +202,7 @@ public:
   inline void set_smoothingGroup(int32_t value);
 
   /// @brief Method get_material, addr 0x2b407bc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Method set_material, addr 0x2b407c4, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
@@ -320,7 +320,7 @@ public:
   ::UnityEngine::ProBuilder::AutoUnwrapSettings ___m_Uv;
 
   /// @brief Field m_Material, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_Material;
+  ::UnityW<::UnityEngine::Material> ___m_Material;
 
   /// @brief Field m_SubmeshIndex, offset: 0x48, size: 0x4, def value: None
   int32_t ___m_SubmeshIndex;

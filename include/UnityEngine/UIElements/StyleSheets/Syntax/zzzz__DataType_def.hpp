@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::DataType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7494))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::DataType
 struct CORDL_TYPE DataType {

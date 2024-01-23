@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14704))
 // CS Name: ::System.Net.Http.Headers::RangeHeaderValue*
 class CORDL_TYPE RangeHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ranges, offset 0x10, size 0x8
-  __declspec(property(get = __get_ranges, put = __set_ranges))::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* ranges;
+  __declspec(property(get = __cordl_internal_get_ranges, put = __cordl_internal_set_ranges))::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* ranges;
 
   /// @brief Field unit, offset 0x18, size 0x8
-  __declspec(property(get = __get_unit, put = __set_unit))::StringW unit;
+  __declspec(property(get = __cordl_internal_get_unit, put = __cordl_internal_set_unit))::StringW unit;
 
   __declspec(property(get = get_Ranges))::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* Ranges;
 
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>*& __get_ranges();
+  constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>*& __cordl_internal_get_ranges();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>*> const& __get_ranges() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>*> const& __cordl_internal_get_ranges() const;
 
-  constexpr void __set_ranges(::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* value);
+  constexpr void __cordl_internal_set_ranges(::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* value);
 
-  constexpr ::StringW& __get_unit();
+  constexpr ::StringW& __cordl_internal_get_unit();
 
-  constexpr ::StringW const& __get_unit() const;
+  constexpr ::StringW const& __cordl_internal_get_unit() const;
 
-  constexpr void __set_unit(::StringW value);
+  constexpr void __cordl_internal_set_unit(::StringW value);
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor();
 

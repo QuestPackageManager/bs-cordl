@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheBinding);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9320))
 // CS Name: ::System.Net.Cache::RequestCacheBinding*
 class CORDL_TYPE RequestCacheBinding : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_RequestCache, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_RequestCache, put = __set_m_RequestCache))::System::Net::Cache::RequestCache* m_RequestCache;
+  __declspec(property(get = __cordl_internal_get_m_RequestCache, put = __cordl_internal_set_m_RequestCache))::System::Net::Cache::RequestCache* m_RequestCache;
 
   /// @brief Field m_CacheValidator, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_CacheValidator, put = __set_m_CacheValidator))::System::Net::Cache::RequestCacheValidator* m_CacheValidator;
+  __declspec(property(get = __cordl_internal_get_m_CacheValidator, put = __cordl_internal_set_m_CacheValidator))::System::Net::Cache::RequestCacheValidator* m_CacheValidator;
 
   /// @brief Field m_Policy, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Policy, put = __set_m_Policy))::System::Net::Cache::RequestCachePolicy* m_Policy;
+  __declspec(property(get = __cordl_internal_get_m_Policy, put = __cordl_internal_set_m_Policy))::System::Net::Cache::RequestCachePolicy* m_Policy;
 
   __declspec(property(get = get_Cache))::System::Net::Cache::RequestCache* Cache;
 
@@ -44,23 +44,23 @@ public:
 
   __declspec(property(get = get_Policy))::System::Net::Cache::RequestCachePolicy* Policy;
 
-  constexpr ::System::Net::Cache::RequestCache*& __get_m_RequestCache();
+  constexpr ::System::Net::Cache::RequestCache*& __cordl_internal_get_m_RequestCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCache*> const& __get_m_RequestCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCache*> const& __cordl_internal_get_m_RequestCache() const;
 
-  constexpr void __set_m_RequestCache(::System::Net::Cache::RequestCache* value);
+  constexpr void __cordl_internal_set_m_RequestCache(::System::Net::Cache::RequestCache* value);
 
-  constexpr ::System::Net::Cache::RequestCacheValidator*& __get_m_CacheValidator();
+  constexpr ::System::Net::Cache::RequestCacheValidator*& __cordl_internal_get_m_CacheValidator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheValidator*> const& __get_m_CacheValidator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheValidator*> const& __cordl_internal_get_m_CacheValidator() const;
 
-  constexpr void __set_m_CacheValidator(::System::Net::Cache::RequestCacheValidator* value);
+  constexpr void __cordl_internal_set_m_CacheValidator(::System::Net::Cache::RequestCacheValidator* value);
 
-  constexpr ::System::Net::Cache::RequestCachePolicy*& __get_m_Policy();
+  constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get_m_Policy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __get_m_Policy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __cordl_internal_get_m_Policy() const;
 
-  constexpr void __set_m_Policy(::System::Net::Cache::RequestCachePolicy* value);
+  constexpr void __cordl_internal_set_m_Policy(::System::Net::Cache::RequestCachePolicy* value);
 
   static inline ::System::Net::Cache::RequestCacheBinding* New_ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator,
                                                                     ::System::Net::Cache::RequestCachePolicy* policy);

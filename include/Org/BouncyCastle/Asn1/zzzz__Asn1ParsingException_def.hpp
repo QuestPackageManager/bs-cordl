@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1ParsingException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2427))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2427))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(459))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1ParsingException*
 class CORDL_TYPE Asn1ParsingException : public ::System::InvalidOperationException {

@@ -38,33 +38,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10340))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10340))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15308))
 // CS Name: ::ShaderVariantsSO::ShaderVariant::Variant*
 class CORDL_TYPE __ShaderVariantsSO__ShaderVariant__Variant : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _passType, offset 0x10, size 0x4
-  __declspec(property(get = __get__passType, put = __set__passType))::UnityEngine::Rendering::PassType _passType;
+  __declspec(property(get = __cordl_internal_get__passType, put = __cordl_internal_set__passType))::UnityEngine::Rendering::PassType _passType;
 
   /// @brief Field _keywords, offset 0x18, size 0x8
-  __declspec(property(get = __get__keywords, put = __set__keywords))::StringW _keywords;
+  __declspec(property(get = __cordl_internal_get__keywords, put = __cordl_internal_set__keywords))::StringW _keywords;
 
   __declspec(property(get = get_passType))::UnityEngine::Rendering::PassType passType;
 
   __declspec(property(get = get_keywords))::StringW keywords;
 
-  constexpr ::UnityEngine::Rendering::PassType& __get__passType();
+  constexpr ::UnityEngine::Rendering::PassType& __cordl_internal_get__passType();
 
-  constexpr ::UnityEngine::Rendering::PassType const& __get__passType() const;
+  constexpr ::UnityEngine::Rendering::PassType const& __cordl_internal_get__passType() const;
 
-  constexpr void __set__passType(::UnityEngine::Rendering::PassType value);
+  constexpr void __cordl_internal_set__passType(::UnityEngine::Rendering::PassType value);
 
-  constexpr ::StringW& __get__keywords();
+  constexpr ::StringW& __cordl_internal_get__keywords();
 
-  constexpr ::StringW const& __get__keywords() const;
+  constexpr ::StringW const& __cordl_internal_get__keywords() const;
 
-  constexpr void __set__keywords(::StringW value);
+  constexpr void __cordl_internal_set__keywords(::StringW value);
 
   /// @brief Method get_passType, addr 0x280bcf4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::PassType get_passType();
@@ -111,7 +111,7 @@ static_assert(offsetof(::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Var
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15309))
 // CS Name: ::ShaderVariantsSO::ShaderVariant*
 class CORDL_TYPE __ShaderVariantsSO__ShaderVariant : public ::System::Object {
@@ -120,34 +120,35 @@ public:
   using Variant = ::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant;
 
   /// @brief Field _variants, offset 0x10, size 0x8
-  __declspec(
-      property(get = __get__variants,
-               put = __set__variants))::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> _variants;
+  __declspec(property(get = __cordl_internal_get__variants, put = __cordl_internal_set__variants))::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*,
+                                                                                                           ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> _variants;
 
   /// @brief Field _shader, offset 0x18, size 0x8
-  __declspec(property(get = __get__shader, put = __set__shader))::UnityEngine::Shader* _shader;
+  __declspec(property(get = __cordl_internal_get__shader, put = __cordl_internal_set__shader))::UnityW<::UnityEngine::Shader> _shader;
 
   __declspec(property(get = get_variants))::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> variants;
 
-  __declspec(property(get = get_shader))::UnityEngine::Shader* shader;
+  __declspec(property(get = get_shader))::UnityW<::UnityEngine::Shader> shader;
 
-  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*>& __get__variants();
+  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*>& __cordl_internal_get__variants();
 
-  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> const& __get__variants() const;
+  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> const&
+  __cordl_internal_get__variants() const;
 
-  constexpr void __set__variants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> value);
+  constexpr void
+  __cordl_internal_set__variants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> value);
 
-  constexpr ::UnityEngine::Shader*& __get__shader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__shader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__shader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__shader() const;
 
-  constexpr void __set__shader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__shader(::UnityW<::UnityEngine::Shader> value);
 
   /// @brief Method get_variants, addr 0x280bcb8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> get_variants();
 
   /// @brief Method get_shader, addr 0x280bcc0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Shader* get_shader();
+  inline ::UnityW<::UnityEngine::Shader> get_shader();
 
   static inline ::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*
   New_ctor(::UnityEngine::Shader* shader, ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> variants);
@@ -174,7 +175,7 @@ public:
   ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> ____variants;
 
   /// @brief Field _shader, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____shader;
+  ::UnityW<::UnityEngine::Shader> ____shader;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -190,7 +191,7 @@ static_assert(offsetof(::GlobalNamespace::__ShaderVariantsSO__ShaderVariant, ___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15310))
 // CS Name: ::ShaderVariantsSO*
 class CORDL_TYPE ShaderVariantsSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -199,16 +200,17 @@ public:
   using ShaderVariant = ::GlobalNamespace::__ShaderVariantsSO__ShaderVariant;
 
   /// @brief Field _shaderVariants, offset 0x18, size 0x8
-  __declspec(property(get = __get__shaderVariants,
-                      put = __set__shaderVariants))::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> _shaderVariants;
+  __declspec(property(
+      get = __cordl_internal_get__shaderVariants,
+      put = __cordl_internal_set__shaderVariants))::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> _shaderVariants;
 
   __declspec(property(get = get_shaderVariants))::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> shaderVariants;
 
-  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*>& __get__shaderVariants();
+  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*>& __cordl_internal_get__shaderVariants();
 
-  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> const& __get__shaderVariants() const;
+  constexpr ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> const& __cordl_internal_get__shaderVariants() const;
 
-  constexpr void __set__shaderVariants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> value);
+  constexpr void __cordl_internal_set__shaderVariants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> value);
 
   /// @brief Method get_shaderVariants, addr 0x280bca0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> get_shaderVariants();

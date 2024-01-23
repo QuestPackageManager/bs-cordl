@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1307))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1307))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1310))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsFatalAlertReceived*
 class CORDL_TYPE TlsFatalAlertReceived : public ::Org::BouncyCastle::Crypto::Tls::TlsException {
 public:
   // Declarations
   /// @brief Field alertDescription, offset 0x8c, size 0x1
-  __declspec(property(get = __get_alertDescription, put = __set_alertDescription)) uint8_t alertDescription;
+  __declspec(property(get = __cordl_internal_get_alertDescription, put = __cordl_internal_set_alertDescription)) uint8_t alertDescription;
 
   __declspec(property(get = get_AlertDescription)) uint8_t AlertDescription;
 
-  constexpr uint8_t& __get_alertDescription();
+  constexpr uint8_t& __cordl_internal_get_alertDescription();
 
-  constexpr uint8_t const& __get_alertDescription() const;
+  constexpr uint8_t const& __cordl_internal_get_alertDescription() const;
 
-  constexpr void __set_alertDescription(uint8_t value);
+  constexpr void __cordl_internal_set_alertDescription(uint8_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived* New_ctor(uint8_t alertDescription);
 

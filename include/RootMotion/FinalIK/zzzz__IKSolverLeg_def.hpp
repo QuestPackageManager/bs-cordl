@@ -35,110 +35,110 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverLeg);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12575))
 // CS Name: ::RootMotion.FinalIK::IKSolverLeg*
 class CORDL_TYPE IKSolverLeg : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
   /// @brief Field IKRotationWeight, offset 0x58, size 0x4
-  __declspec(property(get = __get_IKRotationWeight, put = __set_IKRotationWeight)) float_t IKRotationWeight;
+  __declspec(property(get = __cordl_internal_get_IKRotationWeight, put = __cordl_internal_set_IKRotationWeight)) float_t IKRotationWeight;
 
   /// @brief Field IKRotation, offset 0x5c, size 0x10
-  __declspec(property(get = __get_IKRotation, put = __set_IKRotation))::UnityEngine::Quaternion IKRotation;
+  __declspec(property(get = __cordl_internal_get_IKRotation, put = __cordl_internal_set_IKRotation))::UnityEngine::Quaternion IKRotation;
 
   /// @brief Field pelvis, offset 0x70, size 0x8
-  __declspec(property(get = __get_pelvis, put = __set_pelvis))::RootMotion::FinalIK::__IKSolver__Point* pelvis;
+  __declspec(property(get = __cordl_internal_get_pelvis, put = __cordl_internal_set_pelvis))::RootMotion::FinalIK::__IKSolver__Point* pelvis;
 
   /// @brief Field thigh, offset 0x78, size 0x8
-  __declspec(property(get = __get_thigh, put = __set_thigh))::RootMotion::FinalIK::__IKSolver__Point* thigh;
+  __declspec(property(get = __cordl_internal_get_thigh, put = __cordl_internal_set_thigh))::RootMotion::FinalIK::__IKSolver__Point* thigh;
 
   /// @brief Field calf, offset 0x80, size 0x8
-  __declspec(property(get = __get_calf, put = __set_calf))::RootMotion::FinalIK::__IKSolver__Point* calf;
+  __declspec(property(get = __cordl_internal_get_calf, put = __cordl_internal_set_calf))::RootMotion::FinalIK::__IKSolver__Point* calf;
 
   /// @brief Field foot, offset 0x88, size 0x8
-  __declspec(property(get = __get_foot, put = __set_foot))::RootMotion::FinalIK::__IKSolver__Point* foot;
+  __declspec(property(get = __cordl_internal_get_foot, put = __cordl_internal_set_foot))::RootMotion::FinalIK::__IKSolver__Point* foot;
 
   /// @brief Field toe, offset 0x90, size 0x8
-  __declspec(property(get = __get_toe, put = __set_toe))::RootMotion::FinalIK::__IKSolver__Point* toe;
+  __declspec(property(get = __cordl_internal_get_toe, put = __cordl_internal_set_toe))::RootMotion::FinalIK::__IKSolver__Point* toe;
 
   /// @brief Field leg, offset 0x98, size 0x8
-  __declspec(property(get = __get_leg, put = __set_leg))::RootMotion::FinalIK::__IKSolverVR__Leg* leg;
+  __declspec(property(get = __cordl_internal_get_leg, put = __cordl_internal_set_leg))::RootMotion::FinalIK::__IKSolverVR__Leg* leg;
 
   /// @brief Field heelOffset, offset 0xa0, size 0xc
-  __declspec(property(get = __get_heelOffset, put = __set_heelOffset))::UnityEngine::Vector3 heelOffset;
+  __declspec(property(get = __cordl_internal_get_heelOffset, put = __cordl_internal_set_heelOffset))::UnityEngine::Vector3 heelOffset;
 
   /// @brief Field positions, offset 0xb0, size 0x8
-  __declspec(property(get = __get_positions, put = __set_positions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions;
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions;
 
   /// @brief Field rotations, offset 0xb8, size 0x8
-  __declspec(property(get = __get_rotations, put = __set_rotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations;
+  __declspec(property(get = __cordl_internal_get_rotations, put = __cordl_internal_set_rotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations;
 
-  constexpr float_t& __get_IKRotationWeight();
+  constexpr float_t& __cordl_internal_get_IKRotationWeight();
 
-  constexpr float_t const& __get_IKRotationWeight() const;
+  constexpr float_t const& __cordl_internal_get_IKRotationWeight() const;
 
-  constexpr void __set_IKRotationWeight(float_t value);
+  constexpr void __cordl_internal_set_IKRotationWeight(float_t value);
 
-  constexpr ::UnityEngine::Quaternion& __get_IKRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_IKRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
 
-  constexpr void __set_IKRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __get_pelvis();
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_pelvis();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __get_pelvis() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_pelvis() const;
 
-  constexpr void __set_pelvis(::RootMotion::FinalIK::__IKSolver__Point* value);
+  constexpr void __cordl_internal_set_pelvis(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __get_thigh();
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_thigh();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __get_thigh() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_thigh() const;
 
-  constexpr void __set_thigh(::RootMotion::FinalIK::__IKSolver__Point* value);
+  constexpr void __cordl_internal_set_thigh(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __get_calf();
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_calf();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __get_calf() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_calf() const;
 
-  constexpr void __set_calf(::RootMotion::FinalIK::__IKSolver__Point* value);
+  constexpr void __cordl_internal_set_calf(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __get_foot();
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_foot();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __get_foot() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_foot() const;
 
-  constexpr void __set_foot(::RootMotion::FinalIK::__IKSolver__Point* value);
+  constexpr void __cordl_internal_set_foot(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __get_toe();
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_toe();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __get_toe() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_toe() const;
 
-  constexpr void __set_toe(::RootMotion::FinalIK::__IKSolver__Point* value);
+  constexpr void __cordl_internal_set_toe(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolverVR__Leg*& __get_leg();
+  constexpr ::RootMotion::FinalIK::__IKSolverVR__Leg*& __cordl_internal_get_leg();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Leg*> const& __get_leg() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Leg*> const& __cordl_internal_get_leg() const;
 
-  constexpr void __set_leg(::RootMotion::FinalIK::__IKSolverVR__Leg* value);
+  constexpr void __cordl_internal_set_leg(::RootMotion::FinalIK::__IKSolverVR__Leg* value);
 
-  constexpr ::UnityEngine::Vector3& __get_heelOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_heelOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_heelOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_heelOffset() const;
 
-  constexpr void __set_heelOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_heelOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_positions();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_positions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_positions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_positions() const;
 
-  constexpr void __set_positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __get_rotations();
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_rotations();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __get_rotations() const;
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_rotations() const;
 
-  constexpr void __set_rotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  constexpr void __cordl_internal_set_rotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
   /// @brief Method IsValid, addr 0x126a8b8, size 0x35c, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);

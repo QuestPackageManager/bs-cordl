@@ -40,7 +40,7 @@ MARK_VAL_T(::System::Xml::__XmlNamespaceManager__NamespaceDeclaration);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11569))
 // CS Name: ::XmlNamespaceManager::NamespaceDeclaration
 struct CORDL_TYPE __XmlNamespaceManager__NamespaceDeclaration {
@@ -90,7 +90,7 @@ static_assert(offsetof(::System::Xml::__XmlNamespaceManager__NamespaceDeclaratio
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11570))
 // CS Name: ::System.Xml::XmlNamespaceManager*
 class CORDL_TYPE XmlNamespaceManager : public ::System::Object {
@@ -99,29 +99,30 @@ public:
   using NamespaceDeclaration = ::System::Xml::__XmlNamespaceManager__NamespaceDeclaration;
 
   /// @brief Field nsdecls, offset 0x10, size 0x8
-  __declspec(property(get = __get_nsdecls,
-                      put = __set_nsdecls))::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*> nsdecls;
+  __declspec(
+      property(get = __cordl_internal_get_nsdecls,
+               put = __cordl_internal_set_nsdecls))::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*> nsdecls;
 
   /// @brief Field lastDecl, offset 0x18, size 0x4
-  __declspec(property(get = __get_lastDecl, put = __set_lastDecl)) int32_t lastDecl;
+  __declspec(property(get = __cordl_internal_get_lastDecl, put = __cordl_internal_set_lastDecl)) int32_t lastDecl;
 
   /// @brief Field nameTable, offset 0x20, size 0x8
-  __declspec(property(get = __get_nameTable, put = __set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field scopeId, offset 0x28, size 0x4
-  __declspec(property(get = __get_scopeId, put = __set_scopeId)) int32_t scopeId;
+  __declspec(property(get = __cordl_internal_get_scopeId, put = __cordl_internal_set_scopeId)) int32_t scopeId;
 
   /// @brief Field hashTable, offset 0x30, size 0x8
-  __declspec(property(get = __get_hashTable, put = __set_hashTable))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* hashTable;
+  __declspec(property(get = __cordl_internal_get_hashTable, put = __cordl_internal_set_hashTable))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* hashTable;
 
   /// @brief Field useHashtable, offset 0x38, size 0x1
-  __declspec(property(get = __get_useHashtable, put = __set_useHashtable)) bool useHashtable;
+  __declspec(property(get = __cordl_internal_get_useHashtable, put = __cordl_internal_set_useHashtable)) bool useHashtable;
 
   /// @brief Field xml, offset 0x40, size 0x8
-  __declspec(property(get = __get_xml, put = __set_xml))::StringW xml;
+  __declspec(property(get = __cordl_internal_get_xml, put = __cordl_internal_set_xml))::StringW xml;
 
   /// @brief Field xmlNs, offset 0x48, size 0x8
-  __declspec(property(get = __get_xmlNs, put = __set_xmlNs))::StringW xmlNs;
+  __declspec(property(get = __cordl_internal_get_xmlNs, put = __cordl_internal_set_xmlNs))::StringW xmlNs;
 
   __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
 
@@ -139,53 +140,53 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*>& __get_nsdecls();
+  constexpr ::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*>& __cordl_internal_get_nsdecls();
 
-  constexpr ::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*> const& __get_nsdecls() const;
+  constexpr ::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*> const& __cordl_internal_get_nsdecls() const;
 
-  constexpr void __set_nsdecls(::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*> value);
+  constexpr void __cordl_internal_set_nsdecls(::ArrayW<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, ::Array<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration>*> value);
 
-  constexpr int32_t& __get_lastDecl();
+  constexpr int32_t& __cordl_internal_get_lastDecl();
 
-  constexpr int32_t const& __get_lastDecl() const;
+  constexpr int32_t const& __cordl_internal_get_lastDecl() const;
 
-  constexpr void __set_lastDecl(int32_t value);
+  constexpr void __cordl_internal_set_lastDecl(int32_t value);
 
-  constexpr ::System::Xml::XmlNameTable*& __get_nameTable();
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __get_nameTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
 
-  constexpr void __set_nameTable(::System::Xml::XmlNameTable* value);
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  constexpr int32_t& __get_scopeId();
+  constexpr int32_t& __cordl_internal_get_scopeId();
 
-  constexpr int32_t const& __get_scopeId() const;
+  constexpr int32_t const& __cordl_internal_get_scopeId() const;
 
-  constexpr void __set_scopeId(int32_t value);
+  constexpr void __cordl_internal_set_scopeId(int32_t value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __get_hashTable();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get_hashTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __get_hashTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get_hashTable() const;
 
-  constexpr void __set_hashTable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr void __cordl_internal_set_hashTable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
-  constexpr bool& __get_useHashtable();
+  constexpr bool& __cordl_internal_get_useHashtable();
 
-  constexpr bool const& __get_useHashtable() const;
+  constexpr bool const& __cordl_internal_get_useHashtable() const;
 
-  constexpr void __set_useHashtable(bool value);
+  constexpr void __cordl_internal_set_useHashtable(bool value);
 
-  constexpr ::StringW& __get_xml();
+  constexpr ::StringW& __cordl_internal_get_xml();
 
-  constexpr ::StringW const& __get_xml() const;
+  constexpr ::StringW const& __cordl_internal_get_xml() const;
 
-  constexpr void __set_xml(::StringW value);
+  constexpr void __cordl_internal_set_xml(::StringW value);
 
-  constexpr ::StringW& __get_xmlNs();
+  constexpr ::StringW& __cordl_internal_get_xmlNs();
 
-  constexpr ::StringW const& __get_xmlNs() const;
+  constexpr ::StringW const& __cordl_internal_get_xmlNs() const;
 
-  constexpr void __set_xmlNs(::StringW value);
+  constexpr void __cordl_internal_set_xmlNs(::StringW value);
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor();
 

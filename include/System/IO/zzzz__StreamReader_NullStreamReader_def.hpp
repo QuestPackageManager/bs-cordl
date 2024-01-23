@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::IO::__StreamReader__NullStreamReader);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3575))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3575))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3572))
 // CS Name: ::StreamReader::NullStreamReader*
 class CORDL_TYPE __StreamReader__NullStreamReader : public ::System::IO::StreamReader {

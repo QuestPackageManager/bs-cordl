@@ -58,7 +58,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::__RegexCharClass__SingleRange);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8915))
 // CS Name: ::RegexCharClass::LowerCaseMapping
 struct CORDL_TYPE __RegexCharClass__LowerCaseMapping {
@@ -108,7 +108,7 @@ static_assert(offsetof(::System::Text::RegularExpressions::__RegexCharClass__Low
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8916))
 // CS Name: ::RegexCharClass::SingleRangeComparer*
 class CORDL_TYPE __RegexCharClass__SingleRangeComparer : public ::System::Object {
@@ -160,7 +160,7 @@ static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions
 // SizeInfo { instance_size: 4, native_size: 2, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8917))
 // CS Name: ::RegexCharClass::SingleRange
 struct CORDL_TYPE __RegexCharClass__SingleRange {
@@ -199,7 +199,7 @@ static_assert(offsetof(::System::Text::RegularExpressions::__RegexCharClass__Sin
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8918))
 // CS Name: ::System.Text.RegularExpressions::RegexCharClass*
 class CORDL_TYPE RegexCharClass : public ::System::Object {
@@ -212,19 +212,20 @@ public:
   using LowerCaseMapping = ::System::Text::RegularExpressions::__RegexCharClass__LowerCaseMapping;
 
   /// @brief Field _rangelist, offset 0x10, size 0x8
-  __declspec(property(get = __get__rangelist, put = __set__rangelist))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>* _rangelist;
+  __declspec(property(get = __cordl_internal_get__rangelist,
+                      put = __cordl_internal_set__rangelist))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>* _rangelist;
 
   /// @brief Field _categories, offset 0x18, size 0x8
-  __declspec(property(get = __get__categories, put = __set__categories))::System::Text::StringBuilder* _categories;
+  __declspec(property(get = __cordl_internal_get__categories, put = __cordl_internal_set__categories))::System::Text::StringBuilder* _categories;
 
   /// @brief Field _canonical, offset 0x20, size 0x1
-  __declspec(property(get = __get__canonical, put = __set__canonical)) bool _canonical;
+  __declspec(property(get = __cordl_internal_get__canonical, put = __cordl_internal_set__canonical)) bool _canonical;
 
   /// @brief Field _negate, offset 0x21, size 0x1
-  __declspec(property(get = __get__negate, put = __set__negate)) bool _negate;
+  __declspec(property(get = __cordl_internal_get__negate, put = __cordl_internal_set__negate)) bool _negate;
 
   /// @brief Field _subtractor, offset 0x28, size 0x8
-  __declspec(property(get = __get__subtractor, put = __set__subtractor))::System::Text::RegularExpressions::RegexCharClass* _subtractor;
+  __declspec(property(get = __cordl_internal_get__subtractor, put = __cordl_internal_set__subtractor))::System::Text::RegularExpressions::RegexCharClass* _subtractor;
 
   /// @brief Field s_internalRegexIgnoreCase, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_internalRegexIgnoreCase, put = setStaticF_s_internalRegexIgnoreCase))::StringW s_internalRegexIgnoreCase;
@@ -274,35 +275,36 @@ public:
 
   __declspec(property(put = set_Negate)) bool Negate;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*& __get__rangelist();
+  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*& __cordl_internal_get__rangelist();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*> const& __get__rangelist() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*> const&
+  __cordl_internal_get__rangelist() const;
 
-  constexpr void __set__rangelist(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>* value);
+  constexpr void __cordl_internal_set__rangelist(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>* value);
 
-  constexpr ::System::Text::StringBuilder*& __get__categories();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__categories();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__categories() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__categories() const;
 
-  constexpr void __set__categories(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__categories(::System::Text::StringBuilder* value);
 
-  constexpr bool& __get__canonical();
+  constexpr bool& __cordl_internal_get__canonical();
 
-  constexpr bool const& __get__canonical() const;
+  constexpr bool const& __cordl_internal_get__canonical() const;
 
-  constexpr void __set__canonical(bool value);
+  constexpr void __cordl_internal_set__canonical(bool value);
 
-  constexpr bool& __get__negate();
+  constexpr bool& __cordl_internal_get__negate();
 
-  constexpr bool const& __get__negate() const;
+  constexpr bool const& __cordl_internal_get__negate() const;
 
-  constexpr void __set__negate(bool value);
+  constexpr void __cordl_internal_set__negate(bool value);
 
-  constexpr ::System::Text::RegularExpressions::RegexCharClass*& __get__subtractor();
+  constexpr ::System::Text::RegularExpressions::RegexCharClass*& __cordl_internal_get__subtractor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCharClass*> const& __get__subtractor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCharClass*> const& __cordl_internal_get__subtractor() const;
 
-  constexpr void __set__subtractor(::System::Text::RegularExpressions::RegexCharClass* value);
+  constexpr void __cordl_internal_set__subtractor(::System::Text::RegularExpressions::RegexCharClass* value);
 
   static inline void setStaticF_s_internalRegexIgnoreCase(::StringW value);
 

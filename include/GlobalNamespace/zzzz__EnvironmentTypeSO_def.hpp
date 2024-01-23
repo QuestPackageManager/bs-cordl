@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentTypeSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4182))
 // CS Name: ::EnvironmentTypeSO*
 class CORDL_TYPE EnvironmentTypeSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _typeNameLocalizationKey, offset 0x18, size 0x8
-  __declspec(property(get = __get__typeNameLocalizationKey, put = __set__typeNameLocalizationKey))::StringW _typeNameLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__typeNameLocalizationKey, put = __cordl_internal_set__typeNameLocalizationKey))::StringW _typeNameLocalizationKey;
 
   __declspec(property(get = get_typeNameLocalizationKey))::StringW typeNameLocalizationKey;
 
-  constexpr ::StringW& __get__typeNameLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__typeNameLocalizationKey();
 
-  constexpr ::StringW const& __get__typeNameLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__typeNameLocalizationKey() const;
 
-  constexpr void __set__typeNameLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__typeNameLocalizationKey(::StringW value);
 
   /// @brief Method get_typeNameLocalizationKey, addr 0x23230f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_typeNameLocalizationKey();

@@ -30,7 +30,7 @@ MARK_VAL_T(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14043))
 // CS Name: ::PackedPlayModeBuildLogs::RuntimeBuildLog
 struct CORDL_TYPE __PackedPlayModeBuildLogs__RuntimeBuildLog {
@@ -69,7 +69,7 @@ static_assert(offsetof(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuil
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14044))
 // CS Name: ::PackedPlayModeBuildLogs*
 class CORDL_TYPE PackedPlayModeBuildLogs : public ::System::Object {
@@ -78,16 +78,17 @@ public:
   using RuntimeBuildLog = ::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog;
 
   /// @brief Field m_RuntimeBuildLogs, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_RuntimeBuildLogs,
-                      put = __set_m_RuntimeBuildLogs))::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* m_RuntimeBuildLogs;
+  __declspec(property(get = __cordl_internal_get_m_RuntimeBuildLogs,
+                      put = __cordl_internal_set_m_RuntimeBuildLogs))::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* m_RuntimeBuildLogs;
 
   __declspec(property(get = get_RuntimeBuildLogs, put = set_RuntimeBuildLogs))::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* RuntimeBuildLogs;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*& __get_m_RuntimeBuildLogs();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*& __cordl_internal_get_m_RuntimeBuildLogs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*> const& __get_m_RuntimeBuildLogs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*> const&
+  __cordl_internal_get_m_RuntimeBuildLogs() const;
 
-  constexpr void __set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
+  constexpr void __cordl_internal_set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
   /// @brief Method get_RuntimeBuildLogs, addr 0x2a0ef6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* get_RuntimeBuildLogs();

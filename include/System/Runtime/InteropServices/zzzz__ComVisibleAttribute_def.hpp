@@ -14,20 +14,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComVisibleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3319))
 // CS Name: ::System.Runtime.InteropServices::ComVisibleAttribute*
 class CORDL_TYPE ComVisibleAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _val, offset 0x10, size 0x1
-  __declspec(property(get = __get__val, put = __set__val)) bool _val;
+  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) bool _val;
 
-  constexpr bool& __get__val();
+  constexpr bool& __cordl_internal_get__val();
 
-  constexpr bool const& __get__val() const;
+  constexpr bool const& __cordl_internal_get__val() const;
 
-  constexpr void __set__val(bool value);
+  constexpr void __cordl_internal_set__val(bool value);
 
   static inline ::System::Runtime::InteropServices::ComVisibleAttribute* New_ctor(bool visibility);
 

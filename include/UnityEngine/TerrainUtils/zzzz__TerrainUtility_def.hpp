@@ -38,20 +38,20 @@ MARK_REF_PTR_T(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15480))
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_0*
 class CORDL_TYPE __TerrainUtility____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field onlyAutoConnectedTerrains, offset 0x10, size 0x1
-  __declspec(property(get = __get_onlyAutoConnectedTerrains, put = __set_onlyAutoConnectedTerrains)) bool onlyAutoConnectedTerrains;
+  __declspec(property(get = __cordl_internal_get_onlyAutoConnectedTerrains, put = __cordl_internal_set_onlyAutoConnectedTerrains)) bool onlyAutoConnectedTerrains;
 
-  constexpr bool& __get_onlyAutoConnectedTerrains();
+  constexpr bool& __cordl_internal_get_onlyAutoConnectedTerrains();
 
-  constexpr bool const& __get_onlyAutoConnectedTerrains() const;
+  constexpr bool const& __cordl_internal_get_onlyAutoConnectedTerrains() const;
 
-  constexpr void __set_onlyAutoConnectedTerrains(bool value);
+  constexpr void __cordl_internal_set_onlyAutoConnectedTerrains(bool value);
 
   static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* New_ctor();
 
@@ -87,29 +87,29 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15481))
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_1*
 class CORDL_TYPE __TerrainUtility____c__DisplayClass2_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field t, offset 0x10, size 0x8
-  __declspec(property(get = __get_t, put = __set_t))::UnityEngine::Terrain* t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityW<::UnityEngine::Terrain> t;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* CS$__8__locals1;
 
-  constexpr ::UnityEngine::Terrain*& __get_t();
+  constexpr ::UnityW<::UnityEngine::Terrain>& __cordl_internal_get_t();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Terrain*> const& __get_t() const;
+  constexpr ::UnityW<::UnityEngine::Terrain> const& __cordl_internal_get_t() const;
 
-  constexpr void __set_t(::UnityEngine::Terrain* value);
+  constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Terrain> value);
 
-  constexpr ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*& __get_CS$__8__locals1();
+  constexpr ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* value);
 
   static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* New_ctor();
 
@@ -134,7 +134,7 @@ protected:
 
 public:
   /// @brief Field t, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Terrain* ___t;
+  ::UnityW<::UnityEngine::Terrain> ___t;
 
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* ___CS$__8__locals1;
@@ -153,7 +153,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15482))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainUtility*
 class CORDL_TYPE TerrainUtility : public ::System::Object {

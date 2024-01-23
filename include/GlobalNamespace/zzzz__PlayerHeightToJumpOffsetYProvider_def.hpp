@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5281))
 // CS Name: ::PlayerHeightToJumpOffsetYProvider*
 class CORDL_TYPE PlayerHeightToJumpOffsetYProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _playerHeightDetector, offset 0x10, size 0x8
-  __declspec(property(get = __get__playerHeightDetector, put = __set__playerHeightDetector))::GlobalNamespace::PlayerHeightDetector* _playerHeightDetector;
+  __declspec(property(get = __cordl_internal_get__playerHeightDetector, put = __cordl_internal_set__playerHeightDetector))::UnityW<::GlobalNamespace::PlayerHeightDetector> _playerHeightDetector;
 
   /// @brief Field _jumpOffsetY, offset 0x18, size 0x4
-  __declspec(property(get = __get__jumpOffsetY, put = __set__jumpOffsetY)) float_t _jumpOffsetY;
+  __declspec(property(get = __cordl_internal_get__jumpOffsetY, put = __cordl_internal_set__jumpOffsetY)) float_t _jumpOffsetY;
 
   __declspec(property(get = get_jumpOffsetY)) float_t jumpOffsetY;
 
@@ -59,17 +59,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::PlayerHeightDetector*& __get__playerHeightDetector();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector>& __cordl_internal_get__playerHeightDetector();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeightDetector*> const& __get__playerHeightDetector() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector> const& __cordl_internal_get__playerHeightDetector() const;
 
-  constexpr void __set__playerHeightDetector(::GlobalNamespace::PlayerHeightDetector* value);
+  constexpr void __cordl_internal_set__playerHeightDetector(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
 
-  constexpr float_t& __get__jumpOffsetY();
+  constexpr float_t& __cordl_internal_get__jumpOffsetY();
 
-  constexpr float_t const& __get__jumpOffsetY() const;
+  constexpr float_t const& __cordl_internal_get__jumpOffsetY() const;
 
-  constexpr void __set__jumpOffsetY(float_t value);
+  constexpr void __cordl_internal_set__jumpOffsetY(float_t value);
 
   /// @brief Method get_jumpOffsetY, addr 0x2261628, size 0x8, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
@@ -106,7 +106,7 @@ protected:
 
 public:
   /// @brief Field _playerHeightDetector, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeightDetector* ____playerHeightDetector;
+  ::UnityW<::GlobalNamespace::PlayerHeightDetector> ____playerHeightDetector;
 
   /// @brief Field _jumpOffsetY, offset: 0x18, size: 0x4, def value: None
   float_t ____jumpOffsetY;

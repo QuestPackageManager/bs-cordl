@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x29f0db0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
-                                                                               "get_Section", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_Section", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -24,9 +24,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x29f0e08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
-                                                                               "get_Ipv6Enabled", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_Ipv6Enabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -38,33 +38,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x29f0e10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& System::Net::Configuration::SettingsSectionInternal::__get_HttpListenerUnescapeRequestUrl() {
+constexpr bool& System::Net::Configuration::SettingsSectionInternal::__cordl_internal_get_HttpListenerUnescapeRequestUrl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HttpListenerUnescapeRequestUrl;
 }
-constexpr bool const& System::Net::Configuration::SettingsSectionInternal::__get_HttpListenerUnescapeRequestUrl() const {
+constexpr bool const& System::Net::Configuration::SettingsSectionInternal::__cordl_internal_get_HttpListenerUnescapeRequestUrl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HttpListenerUnescapeRequestUrl;
 }
-constexpr void System::Net::Configuration::SettingsSectionInternal::__set_HttpListenerUnescapeRequestUrl(bool value) {
+constexpr void System::Net::Configuration::SettingsSectionInternal::__cordl_internal_set_HttpListenerUnescapeRequestUrl(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HttpListenerUnescapeRequestUrl = value;
 }
-constexpr ::System::Net::Sockets::IPProtectionLevel& System::Net::Configuration::SettingsSectionInternal::__get_IPProtectionLevel() {
+constexpr ::System::Net::Sockets::IPProtectionLevel& System::Net::Configuration::SettingsSectionInternal::__cordl_internal_get_IPProtectionLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IPProtectionLevel;
 }
-constexpr ::System::Net::Sockets::IPProtectionLevel const& System::Net::Configuration::SettingsSectionInternal::__get_IPProtectionLevel() const {
+constexpr ::System::Net::Sockets::IPProtectionLevel const& System::Net::Configuration::SettingsSectionInternal::__cordl_internal_get_IPProtectionLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IPProtectionLevel;
 }
-constexpr void System::Net::Configuration::SettingsSectionInternal::__set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value) {
+constexpr void System::Net::Configuration::SettingsSectionInternal::__cordl_internal_set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IPProtectionLevel = value;
 }
@@ -79,20 +79,20 @@ inline ::System::Net::Configuration::SettingsSectionInternal* System::Net::Confi
 }
 inline ::System::Net::Configuration::SettingsSectionInternal* System::Net::Configuration::SettingsSectionInternal::get_Section() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
-                                                                             "get_Section", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Section", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::Configuration::SettingsSectionInternal*, false>(nullptr, ___internal_method);
 }
 inline bool System::Net::Configuration::SettingsSectionInternal::get_Ipv6Enabled() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
-                                                                             "get_Ipv6Enabled", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Ipv6Enabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Net::Configuration::SettingsSectionInternal* System::Net::Configuration::SettingsSectionInternal::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Net::Configuration::SettingsSectionInternal*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Configuration::SettingsSectionInternal*>());
 }
 inline void System::Net::Configuration::SettingsSectionInternal::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

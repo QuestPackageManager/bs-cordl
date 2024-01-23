@@ -69,7 +69,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SelectLevelCategoryViewController____c__Disp
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5674))
 // CS Name: ::SelectLevelCategoryViewController::LevelCategory
 struct CORDL_TYPE __SelectLevelCategoryViewController__LevelCategory {
@@ -131,38 +131,38 @@ static_assert(offsetof(::GlobalNamespace::__SelectLevelCategoryViewController__L
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5674))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5674))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5675))
 // CS Name: ::SelectLevelCategoryViewController::LevelCategoryInfo*
 class CORDL_TYPE __SelectLevelCategoryViewController__LevelCategoryInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field levelCategory, offset 0x10, size 0x4
-  __declspec(property(get = __get_levelCategory, put = __set_levelCategory))::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory levelCategory;
+  __declspec(property(get = __cordl_internal_get_levelCategory, put = __cordl_internal_set_levelCategory))::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory levelCategory;
 
   /// @brief Field localizedKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_localizedKey, put = __set_localizedKey))::StringW localizedKey;
+  __declspec(property(get = __cordl_internal_get_localizedKey, put = __cordl_internal_set_localizedKey))::StringW localizedKey;
 
   /// @brief Field categoryIcon, offset 0x20, size 0x8
-  __declspec(property(get = __get_categoryIcon, put = __set_categoryIcon))::UnityEngine::Sprite* categoryIcon;
+  __declspec(property(get = __cordl_internal_get_categoryIcon, put = __cordl_internal_set_categoryIcon))::UnityW<::UnityEngine::Sprite> categoryIcon;
 
-  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory& __get_levelCategory();
+  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory& __cordl_internal_get_levelCategory();
 
-  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory const& __get_levelCategory() const;
+  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory const& __cordl_internal_get_levelCategory() const;
 
-  constexpr void __set_levelCategory(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory value);
+  constexpr void __cordl_internal_set_levelCategory(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory value);
 
-  constexpr ::StringW& __get_localizedKey();
+  constexpr ::StringW& __cordl_internal_get_localizedKey();
 
-  constexpr ::StringW const& __get_localizedKey() const;
+  constexpr ::StringW const& __cordl_internal_get_localizedKey() const;
 
-  constexpr void __set_localizedKey(::StringW value);
+  constexpr void __cordl_internal_set_localizedKey(::StringW value);
 
-  constexpr ::UnityEngine::Sprite*& __get_categoryIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_categoryIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get_categoryIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_categoryIcon() const;
 
-  constexpr void __set_categoryIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set_categoryIcon(::UnityW<::UnityEngine::Sprite> value);
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* New_ctor();
 
@@ -190,7 +190,7 @@ public:
   ::StringW ___localizedKey;
 
   /// @brief Field categoryIcon, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ___categoryIcon;
+  ::UnityW<::UnityEngine::Sprite> ___categoryIcon;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -208,25 +208,25 @@ static_assert(offsetof(::GlobalNamespace::__SelectLevelCategoryViewController__L
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5676))
 // CS Name: ::SelectLevelCategoryViewController::<>c__DisplayClass12_0*
 class CORDL_TYPE __SelectLevelCategoryViewController____c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field enabledLevelCategories, offset 0x10, size 0x8
-  __declspec(property(get = __get_enabledLevelCategories,
-                      put = __set_enabledLevelCategories))::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory,
-                                                                   ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> enabledLevelCategories;
+  __declspec(property(get = __cordl_internal_get_enabledLevelCategories,
+                      put = __cordl_internal_set_enabledLevelCategories))::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory,
+                                                                                  ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> enabledLevelCategories;
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*>&
-  __get_enabledLevelCategories();
+  __cordl_internal_get_enabledLevelCategories();
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
-  __get_enabledLevelCategories() const;
+  __cordl_internal_get_enabledLevelCategories() const;
 
-  constexpr void
-  __set_enabledLevelCategories(::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value);
+  constexpr void __cordl_internal_set_enabledLevelCategories(
+      ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value);
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0* New_ctor();
 
@@ -265,7 +265,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectLevelCategoryViewController___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5677))
 // CS Name: ::SelectLevelCategoryViewController::<>c*
 class CORDL_TYPE __SelectLevelCategoryViewController____c : public ::System::Object {
@@ -332,7 +332,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectLevelCa
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5674)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5674)), TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5678))
 // CS Name: ::SelectLevelCategoryViewController*
 class CORDL_TYPE SelectLevelCategoryViewController : public ::HMUI::ViewController {
@@ -347,83 +347,86 @@ public:
   using LevelCategory = ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory;
 
   /// @brief Field _allLevelCategoryInfos, offset 0x70, size 0x8
-  __declspec(property(get = __get__allLevelCategoryInfos,
-                      put = __set__allLevelCategoryInfos))::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*,
-                                                                   ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> _allLevelCategoryInfos;
+  __declspec(property(get = __cordl_internal_get__allLevelCategoryInfos,
+                      put = __cordl_internal_set__allLevelCategoryInfos))::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*,
+                                                                                  ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> _allLevelCategoryInfos;
 
   /// @brief Field _levelFilterCategoryIconSegmentedControl, offset 0x78, size 0x8
-  __declspec(property(get = __get__levelFilterCategoryIconSegmentedControl,
-                      put = __set__levelFilterCategoryIconSegmentedControl))::HMUI::IconSegmentedControl* _levelFilterCategoryIconSegmentedControl;
+  __declspec(property(get = __cordl_internal_get__levelFilterCategoryIconSegmentedControl,
+                      put = __cordl_internal_set__levelFilterCategoryIconSegmentedControl))::UnityW<::HMUI::IconSegmentedControl> _levelFilterCategoryIconSegmentedControl;
 
   /// @brief Field _analyticsModel, offset 0x80, size 0x8
-  __declspec(property(get = __get__analyticsModel, put = __set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
   /// @brief Field didSelectLevelCategoryEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didSelectLevelCategoryEvent,
-                      put = __set_didSelectLevelCategoryEvent))::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*,
-                                                                                  ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* didSelectLevelCategoryEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectLevelCategoryEvent,
+                      put = __cordl_internal_set_didSelectLevelCategoryEvent))::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>,
+                                                                                                 ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* didSelectLevelCategoryEvent;
 
   /// @brief Field _prevSelectedLevelCategory, offset 0x90, size 0x4
-  __declspec(property(get = __get__prevSelectedLevelCategory, put = __set__prevSelectedLevelCategory))::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory _prevSelectedLevelCategory;
+  __declspec(property(get = __cordl_internal_get__prevSelectedLevelCategory,
+                      put = __cordl_internal_set__prevSelectedLevelCategory))::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory _prevSelectedLevelCategory;
 
   /// @brief Field _levelCategoryInfos, offset 0x98, size 0x8
-  __declspec(property(get = __get__levelCategoryInfos,
-                      put = __set__levelCategoryInfos))::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*,
-                                                                ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> _levelCategoryInfos;
+  __declspec(property(get = __cordl_internal_get__levelCategoryInfos,
+                      put = __cordl_internal_set__levelCategoryInfos))::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*,
+                                                                               ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> _levelCategoryInfos;
 
   __declspec(property(get = get_selectedLevelCategory))::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedLevelCategory;
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*>&
-  __get__allLevelCategoryInfos();
+  __cordl_internal_get__allLevelCategoryInfos();
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> const&
-  __get__allLevelCategoryInfos() const;
+  __cordl_internal_get__allLevelCategoryInfos() const;
 
-  constexpr void __set__allLevelCategoryInfos(
+  constexpr void __cordl_internal_set__allLevelCategoryInfos(
       ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> value);
 
-  constexpr ::HMUI::IconSegmentedControl*& __get__levelFilterCategoryIconSegmentedControl();
+  constexpr ::UnityW<::HMUI::IconSegmentedControl>& __cordl_internal_get__levelFilterCategoryIconSegmentedControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::IconSegmentedControl*> const& __get__levelFilterCategoryIconSegmentedControl() const;
+  constexpr ::UnityW<::HMUI::IconSegmentedControl> const& __cordl_internal_get__levelFilterCategoryIconSegmentedControl() const;
 
-  constexpr void __set__levelFilterCategoryIconSegmentedControl(::HMUI::IconSegmentedControl* value);
+  constexpr void __cordl_internal_set__levelFilterCategoryIconSegmentedControl(::UnityW<::HMUI::IconSegmentedControl> value);
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __get__analyticsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*& __get_didSelectLevelCategoryEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*&
+  __cordl_internal_get_didSelectLevelCategoryEvent();
 
   constexpr ::cordl_internals::to_const_pointer<
-      ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
-  __get_didSelectLevelCategoryEvent() const;
+      ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
+  __cordl_internal_get_didSelectLevelCategoryEvent() const;
 
-  constexpr void
-  __set_didSelectLevelCategoryEvent(::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
+  constexpr void __cordl_internal_set_didSelectLevelCategoryEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
-  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory& __get__prevSelectedLevelCategory();
+  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory& __cordl_internal_get__prevSelectedLevelCategory();
 
-  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory const& __get__prevSelectedLevelCategory() const;
+  constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory const& __cordl_internal_get__prevSelectedLevelCategory() const;
 
-  constexpr void __set__prevSelectedLevelCategory(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory value);
+  constexpr void __cordl_internal_set__prevSelectedLevelCategory(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory value);
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*>&
-  __get__levelCategoryInfos();
+  __cordl_internal_get__levelCategoryInfos();
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> const&
-  __get__levelCategoryInfos() const;
+  __cordl_internal_get__levelCategoryInfos() const;
 
-  constexpr void __set__levelCategoryInfos(
+  constexpr void __cordl_internal_set__levelCategoryInfos(
       ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> value);
 
   /// @brief Method add_didSelectLevelCategoryEvent, addr 0x22bdf68, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectLevelCategoryEvent(::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
+  inline void
+  add_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
   /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x22be674, size 0xb0, virtual false, abstract: false, final false
   inline void
-  remove_didSelectLevelCategoryEvent(::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
+  remove_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
   /// @brief Method get_selectedLevelCategory, addr 0x22bd268, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory get_selectedLevelCategory();
@@ -465,13 +468,13 @@ public:
   ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> ____allLevelCategoryInfos;
 
   /// @brief Field _levelFilterCategoryIconSegmentedControl, offset: 0x78, size: 0x8, def value: None
-  ::HMUI::IconSegmentedControl* ____levelFilterCategoryIconSegmentedControl;
+  ::UnityW<::HMUI::IconSegmentedControl> ____levelFilterCategoryIconSegmentedControl;
 
   /// @brief Field _analyticsModel, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
   /// @brief Field didSelectLevelCategoryEvent, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* ___didSelectLevelCategoryEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* ___didSelectLevelCategoryEvent;
 
   /// @brief Field _prevSelectedLevelCategory, offset: 0x90, size: 0x4, def value: None
   ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory ____prevSelectedLevelCategory;

@@ -19,19 +19,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GeometryChangedEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
-// 1722 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7212)) CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
+// 1722 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7212)) CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
 class CORDL_TYPE GeometryChangedEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::GeometryChangedEvent*> {
 public:
   // Declarations
   /// @brief Field <oldRect>k__BackingField, offset 0x7c, size 0x10
-  __declspec(property(get = __get__oldRect_k__BackingField, put = __set__oldRect_k__BackingField))::UnityEngine::Rect _oldRect_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__oldRect_k__BackingField, put = __cordl_internal_set__oldRect_k__BackingField))::UnityEngine::Rect _oldRect_k__BackingField;
 
   /// @brief Field <newRect>k__BackingField, offset 0x8c, size 0x10
-  __declspec(property(get = __get__newRect_k__BackingField, put = __set__newRect_k__BackingField))::UnityEngine::Rect _newRect_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__newRect_k__BackingField, put = __cordl_internal_set__newRect_k__BackingField))::UnityEngine::Rect _newRect_k__BackingField;
 
   /// @brief Field <layoutPass>k__BackingField, offset 0x9c, size 0x4
-  __declspec(property(get = __get__layoutPass_k__BackingField, put = __set__layoutPass_k__BackingField)) int32_t _layoutPass_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__layoutPass_k__BackingField, put = __cordl_internal_set__layoutPass_k__BackingField)) int32_t _layoutPass_k__BackingField;
 
   __declspec(property(get = get_oldRect, put = set_oldRect))::UnityEngine::Rect oldRect;
 
@@ -39,23 +39,23 @@ public:
 
   __declspec(property(get = get_layoutPass, put = set_layoutPass)) int32_t layoutPass;
 
-  constexpr ::UnityEngine::Rect& __get__oldRect_k__BackingField();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__oldRect_k__BackingField();
 
-  constexpr ::UnityEngine::Rect const& __get__oldRect_k__BackingField() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__oldRect_k__BackingField() const;
 
-  constexpr void __set__oldRect_k__BackingField(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__oldRect_k__BackingField(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get__newRect_k__BackingField();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__newRect_k__BackingField();
 
-  constexpr ::UnityEngine::Rect const& __get__newRect_k__BackingField() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__newRect_k__BackingField() const;
 
-  constexpr void __set__newRect_k__BackingField(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__newRect_k__BackingField(::UnityEngine::Rect value);
 
-  constexpr int32_t& __get__layoutPass_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__layoutPass_k__BackingField();
 
-  constexpr int32_t const& __get__layoutPass_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__layoutPass_k__BackingField() const;
 
-  constexpr void __set__layoutPass_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__layoutPass_k__BackingField(int32_t value);
 
   /// @brief Method GetPooled, addr 0x2e50c3c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* GetPooled(::UnityEngine::Rect oldRect, ::UnityEngine::Rect newRect);

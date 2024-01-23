@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::CullingGroupEvent);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 22, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10146))
 // CS Name: ::UnityEngine::CullingGroupEvent
 struct CORDL_TYPE CullingGroupEvent {

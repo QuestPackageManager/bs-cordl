@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::Ice::__FloorLightTile__Pool);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16168))
 // CS Name: ::Ice::FloorLightTile*
 class CORDL_TYPE FloorLightTile : public ::UnityEngine::MonoBehaviour {
@@ -50,58 +50,58 @@ public:
   using Pool = ::Ice::__FloorLightTile__Pool;
 
   /// @brief Field _colorSetter, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorSetter, put = __set__colorSetter))::GlobalNamespace::MaterialPropertyBlockColorSetter* _colorSetter;
+  __declspec(property(get = __cordl_internal_get__colorSetter, put = __cordl_internal_set__colorSetter))::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _colorSetter;
 
   /// @brief Field _tubeBloomPrePassLight, offset 0x20, size 0x8
-  __declspec(property(get = __get__tubeBloomPrePassLight, put = __set__tubeBloomPrePassLight))::GlobalNamespace::TubeBloomPrePassLight* _tubeBloomPrePassLight;
+  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
   /// @brief Field _songTimeTweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__songTimeTweeningManager, put = __set__songTimeTweeningManager))::Tweening::SongTimeTweeningManager* _songTimeTweeningManager;
+  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
   /// @brief Field didFinish, offset 0x30, size 0x8
-  __declspec(property(get = __get_didFinish, put = __set_didFinish))::System::Action_1<::Ice::FloorLightTile*>* didFinish;
+  __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish))::System::Action_1<::UnityW<::Ice::FloorLightTile>>* didFinish;
 
   /// @brief Field _fadeInTween, offset 0x38, size 0x8
-  __declspec(property(get = __get__fadeInTween, put = __set__fadeInTween))::Tweening::ColorTween* _fadeInTween;
+  __declspec(property(get = __cordl_internal_get__fadeInTween, put = __cordl_internal_set__fadeInTween))::Tweening::ColorTween* _fadeInTween;
 
   /// @brief Field _fadeOutTween, offset 0x40, size 0x8
-  __declspec(property(get = __get__fadeOutTween, put = __set__fadeOutTween))::Tweening::ColorTween* _fadeOutTween;
+  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween))::Tweening::ColorTween* _fadeOutTween;
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& __get__colorSetter();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__colorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const& __get__colorSetter() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__colorSetter() const;
 
-  constexpr void __set__colorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value);
+  constexpr void __cordl_internal_set__colorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
 
-  constexpr ::GlobalNamespace::TubeBloomPrePassLight*& __get__tubeBloomPrePassLight();
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__tubeBloomPrePassLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeBloomPrePassLight*> const& __get__tubeBloomPrePassLight() const;
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__tubeBloomPrePassLight() const;
 
-  constexpr void __set__tubeBloomPrePassLight(::GlobalNamespace::TubeBloomPrePassLight* value);
+  constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  constexpr ::Tweening::SongTimeTweeningManager*& __get__songTimeTweeningManager();
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__songTimeTweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::SongTimeTweeningManager*> const& __get__songTimeTweeningManager() const;
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__songTimeTweeningManager() const;
 
-  constexpr void __set__songTimeTweeningManager(::Tweening::SongTimeTweeningManager* value);
+  constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  constexpr ::System::Action_1<::Ice::FloorLightTile*>*& __get_didFinish();
+  constexpr ::System::Action_1<::UnityW<::Ice::FloorLightTile>>*& __cordl_internal_get_didFinish();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Ice::FloorLightTile*>*> const& __get_didFinish() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::Ice::FloorLightTile>>*> const& __cordl_internal_get_didFinish() const;
 
-  constexpr void __set_didFinish(::System::Action_1<::Ice::FloorLightTile*>* value);
+  constexpr void __cordl_internal_set_didFinish(::System::Action_1<::UnityW<::Ice::FloorLightTile>>* value);
 
-  constexpr ::Tweening::ColorTween*& __get__fadeInTween();
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__fadeInTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __get__fadeInTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__fadeInTween() const;
 
-  constexpr void __set__fadeInTween(::Tweening::ColorTween* value);
+  constexpr void __cordl_internal_set__fadeInTween(::Tweening::ColorTween* value);
 
-  constexpr ::Tweening::ColorTween*& __get__fadeOutTween();
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__fadeOutTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __get__fadeOutTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__fadeOutTween() const;
 
-  constexpr void __set__fadeOutTween(::Tweening::ColorTween* value);
+  constexpr void __cordl_internal_set__fadeOutTween(::Tweening::ColorTween* value);
 
   /// @brief Method Awake, addr 0x129f894, size 0x1f0, virtual false, abstract: false, final false
   inline void Awake();
@@ -141,16 +141,16 @@ protected:
 
 public:
   /// @brief Field _colorSetter, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockColorSetter* ____colorSetter;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____colorSetter;
 
   /// @brief Field _tubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::TubeBloomPrePassLight* ____tubeBloomPrePassLight;
+  ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
   /// @brief Field _songTimeTweeningManager, offset: 0x28, size: 0x8, def value: None
-  ::Tweening::SongTimeTweeningManager* ____songTimeTweeningManager;
+  ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
   /// @brief Field didFinish, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::Ice::FloorLightTile*>* ___didFinish;
+  ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* ___didFinish;
 
   /// @brief Field _fadeInTween, offset: 0x38, size: 0x8, def value: None
   ::Tweening::ColorTween* ____fadeInTween;
@@ -180,9 +180,9 @@ static_assert(offsetof(::Ice::FloorLightTile, ____fadeOutTween) == 0x40, "Offset
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(16168)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 308 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16167)) CS Name: ::FloorLightTile::Pool*
-class CORDL_TYPE __FloorLightTile__Pool : public ::Zenject::MonoMemoryPool_1<::Ice::FloorLightTile*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(16168)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 308 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16167)) CS Name: ::FloorLightTile::Pool*
+class CORDL_TYPE __FloorLightTile__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::Ice::FloorLightTile>> {
 public:
   // Declarations
   static inline ::Ice::__FloorLightTile__Pool* New_ctor();

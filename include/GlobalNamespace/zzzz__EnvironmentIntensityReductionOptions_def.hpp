@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentIntensityReductionOptions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4171))
 // CS Name: ::EnvironmentIntensityReductionOptions::CompressExpandReductionType
 struct CORDL_TYPE __EnvironmentIntensityReductionOptions__CompressExpandReductionType {
@@ -81,7 +81,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4172))
 // CS Name: ::EnvironmentIntensityReductionOptions::RotateRingsReductionType
 struct CORDL_TYPE __EnvironmentIntensityReductionOptions__RotateRingsReductionType {
@@ -131,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4172)), TypeDefinitionIndex(TypeDefinitionIndex(4171)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4171)), TypeDefinitionIndex(TypeDefinitionIndex(4172))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4173))
 // CS Name: ::EnvironmentIntensityReductionOptions*
 class CORDL_TYPE EnvironmentIntensityReductionOptions : public ::System::Object {
@@ -142,26 +142,28 @@ public:
   using CompressExpandReductionType = ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType;
 
   /// @brief Field _compressExpand, offset 0x10, size 0x4
-  __declspec(property(get = __get__compressExpand, put = __set__compressExpand))::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType _compressExpand;
+  __declspec(property(get = __cordl_internal_get__compressExpand,
+                      put = __cordl_internal_set__compressExpand))::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType _compressExpand;
 
   /// @brief Field _rotateRings, offset 0x14, size 0x4
-  __declspec(property(get = __get__rotateRings, put = __set__rotateRings))::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType _rotateRings;
+  __declspec(property(get = __cordl_internal_get__rotateRings,
+                      put = __cordl_internal_set__rotateRings))::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType _rotateRings;
 
   __declspec(property(get = get_compressExpand))::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType compressExpand;
 
   __declspec(property(get = get_rotateRings))::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType rotateRings;
 
-  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType& __get__compressExpand();
+  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType& __cordl_internal_get__compressExpand();
 
-  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType const& __get__compressExpand() const;
+  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType const& __cordl_internal_get__compressExpand() const;
 
-  constexpr void __set__compressExpand(::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType value);
+  constexpr void __cordl_internal_set__compressExpand(::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType value);
 
-  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType& __get__rotateRings();
+  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType& __cordl_internal_get__rotateRings();
 
-  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType const& __get__rotateRings() const;
+  constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType const& __cordl_internal_get__rotateRings() const;
 
-  constexpr void __set__rotateRings(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType value);
+  constexpr void __cordl_internal_set__rotateRings(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType value);
 
   /// @brief Method get_compressExpand, addr 0x224038c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType get_compressExpand();

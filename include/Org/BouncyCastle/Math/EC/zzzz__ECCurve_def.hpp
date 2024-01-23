@@ -65,47 +65,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::__ECCurve__DefaultLookupTable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1359))
 // CS Name: ::ECCurve::Config*
 class CORDL_TYPE __ECCurve__Config : public ::System::Object {
 public:
   // Declarations
   /// @brief Field outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_outer, put = __set_outer))::Org::BouncyCastle::Math::EC::ECCurve* outer;
+  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::Org::BouncyCastle::Math::EC::ECCurve* outer;
 
   /// @brief Field coord, offset 0x18, size 0x4
-  __declspec(property(get = __get_coord, put = __set_coord)) int32_t coord;
+  __declspec(property(get = __cordl_internal_get_coord, put = __cordl_internal_set_coord)) int32_t coord;
 
   /// @brief Field endomorphism, offset 0x20, size 0x8
-  __declspec(property(get = __get_endomorphism, put = __set_endomorphism))::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism;
+  __declspec(property(get = __cordl_internal_get_endomorphism, put = __cordl_internal_set_endomorphism))::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism;
 
   /// @brief Field multiplier, offset 0x28, size 0x8
-  __declspec(property(get = __get_multiplier, put = __set_multiplier))::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier;
+  __declspec(property(get = __cordl_internal_get_multiplier, put = __cordl_internal_set_multiplier))::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_outer();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_outer() const;
 
-  constexpr void __set_outer(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr int32_t& __get_coord();
+  constexpr int32_t& __cordl_internal_get_coord();
 
-  constexpr int32_t const& __get_coord() const;
+  constexpr int32_t const& __cordl_internal_get_coord() const;
 
-  constexpr void __set_coord(int32_t value);
+  constexpr void __cordl_internal_set_coord(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __get_endomorphism();
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __cordl_internal_get_endomorphism();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*> const& __get_endomorphism() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*> const& __cordl_internal_get_endomorphism() const;
 
-  constexpr void __set_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
+  constexpr void __cordl_internal_set_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& __get_multiplier();
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& __cordl_internal_get_multiplier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*> const& __get_multiplier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*> const& __cordl_internal_get_multiplier() const;
 
-  constexpr void __set_multiplier(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* value);
+  constexpr void __cordl_internal_set_multiplier(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* value);
 
   static inline ::Org::BouncyCastle::Math::EC::__ECCurve__Config* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* outer, int32_t coord,
                                                                            ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism,
@@ -171,40 +171,40 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::__ECCurve__Config, ___mult
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1363))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1363))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1360))
 // CS Name: ::ECCurve::DefaultLookupTable*
 class CORDL_TYPE __ECCurve__DefaultLookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
 public:
   // Declarations
   /// @brief Field m_outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_outer, put = __set_m_outer))::Org::BouncyCastle::Math::EC::ECCurve* m_outer;
+  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::Org::BouncyCastle::Math::EC::ECCurve* m_outer;
 
   /// @brief Field m_table, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_table, put = __set_m_table))::ArrayW<uint8_t, ::Array<uint8_t>*> m_table;
+  __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table))::ArrayW<uint8_t, ::Array<uint8_t>*> m_table;
 
   /// @brief Field m_size, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_size, put = __set_m_size)) int32_t m_size;
+  __declspec(property(get = __cordl_internal_get_m_size, put = __cordl_internal_set_m_size)) int32_t m_size;
 
   __declspec(property(get = get_Size)) int32_t Size;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_m_outer();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_m_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_m_outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_m_outer() const;
 
-  constexpr void __set_m_outer(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_table();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_table();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_table() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_table() const;
 
-  constexpr void __set_m_table(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_table(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_m_size();
+  constexpr int32_t& __cordl_internal_get_m_size();
 
-  constexpr int32_t const& __get_m_size() const;
+  constexpr int32_t const& __cordl_internal_get_m_size() const;
 
-  constexpr void __set_m_size(int32_t value);
+  constexpr void __cordl_internal_set_m_size(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::__ECCurve__DefaultLookupTable* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* outer, ::ArrayW<uint8_t, ::Array<uint8_t>*> table, int32_t size);
 
@@ -262,7 +262,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::__ECCurve__DefaultLookupTa
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1361))
 // CS Name: ::Org.BouncyCastle.Math.EC::ECCurve*
 class CORDL_TYPE ECCurve : public ::System::Object {
@@ -273,28 +273,28 @@ public:
   using Config = ::Org::BouncyCastle::Math::EC::__ECCurve__Config;
 
   /// @brief Field m_field, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_field, put = __set_m_field))::Org::BouncyCastle::Math::Field::IFiniteField* m_field;
+  __declspec(property(get = __cordl_internal_get_m_field, put = __cordl_internal_set_m_field))::Org::BouncyCastle::Math::Field::IFiniteField* m_field;
 
   /// @brief Field m_a, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_a, put = __set_m_a))::Org::BouncyCastle::Math::EC::ECFieldElement* m_a;
+  __declspec(property(get = __cordl_internal_get_m_a, put = __cordl_internal_set_m_a))::Org::BouncyCastle::Math::EC::ECFieldElement* m_a;
 
   /// @brief Field m_b, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_b, put = __set_m_b))::Org::BouncyCastle::Math::EC::ECFieldElement* m_b;
+  __declspec(property(get = __cordl_internal_get_m_b, put = __cordl_internal_set_m_b))::Org::BouncyCastle::Math::EC::ECFieldElement* m_b;
 
   /// @brief Field m_order, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_order, put = __set_m_order))::Org::BouncyCastle::Math::BigInteger* m_order;
+  __declspec(property(get = __cordl_internal_get_m_order, put = __cordl_internal_set_m_order))::Org::BouncyCastle::Math::BigInteger* m_order;
 
   /// @brief Field m_cofactor, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_cofactor, put = __set_m_cofactor))::Org::BouncyCastle::Math::BigInteger* m_cofactor;
+  __declspec(property(get = __cordl_internal_get_m_cofactor, put = __cordl_internal_set_m_cofactor))::Org::BouncyCastle::Math::BigInteger* m_cofactor;
 
   /// @brief Field m_coord, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_coord, put = __set_m_coord)) int32_t m_coord;
+  __declspec(property(get = __cordl_internal_get_m_coord, put = __cordl_internal_set_m_coord)) int32_t m_coord;
 
   /// @brief Field m_endomorphism, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_endomorphism, put = __set_m_endomorphism))::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism;
+  __declspec(property(get = __cordl_internal_get_m_endomorphism, put = __cordl_internal_set_m_endomorphism))::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism;
 
   /// @brief Field m_multiplier, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_multiplier, put = __set_m_multiplier))::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* m_multiplier;
+  __declspec(property(get = __cordl_internal_get_m_multiplier, put = __cordl_internal_set_m_multiplier))::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* m_multiplier;
 
   __declspec(property(get = get_FieldSize)) int32_t FieldSize;
 
@@ -312,53 +312,53 @@ public:
 
   __declspec(property(get = get_CoordinateSystem)) int32_t CoordinateSystem;
 
-  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField*& __get_m_field();
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField*& __cordl_internal_get_m_field();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IFiniteField*> const& __get_m_field() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IFiniteField*> const& __cordl_internal_get_m_field() const;
 
-  constexpr void __set_m_field(::Org::BouncyCastle::Math::Field::IFiniteField* value);
+  constexpr void __cordl_internal_set_m_field(::Org::BouncyCastle::Math::Field::IFiniteField* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __get_m_a();
+  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_m_a();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __get_m_a() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __cordl_internal_get_m_a() const;
 
-  constexpr void __set_m_a(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
+  constexpr void __cordl_internal_set_m_a(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __get_m_b();
+  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_m_b();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __get_m_b() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __cordl_internal_get_m_b() const;
 
-  constexpr void __set_m_b(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
+  constexpr void __cordl_internal_set_m_b(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_order();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_order();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_order() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_order() const;
 
-  constexpr void __set_m_order(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_order(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_cofactor();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_cofactor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_cofactor() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_cofactor() const;
 
-  constexpr void __set_m_cofactor(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_cofactor(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr int32_t& __get_m_coord();
+  constexpr int32_t& __cordl_internal_get_m_coord();
 
-  constexpr int32_t const& __get_m_coord() const;
+  constexpr int32_t const& __cordl_internal_get_m_coord() const;
 
-  constexpr void __set_m_coord(int32_t value);
+  constexpr void __cordl_internal_set_m_coord(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __get_m_endomorphism();
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __cordl_internal_get_m_endomorphism();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*> const& __get_m_endomorphism() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*> const& __cordl_internal_get_m_endomorphism() const;
 
-  constexpr void __set_m_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
+  constexpr void __cordl_internal_set_m_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& __get_m_multiplier();
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& __cordl_internal_get_m_multiplier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*> const& __get_m_multiplier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*> const& __cordl_internal_get_m_multiplier() const;
 
-  constexpr void __set_m_multiplier(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* value);
+  constexpr void __cordl_internal_set_m_multiplier(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* value);
 
   /// @brief Method GetAllCoordinateSystems, addr 0xfc9cdc, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetAllCoordinateSystems();

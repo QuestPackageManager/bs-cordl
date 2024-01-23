@@ -29,92 +29,92 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleMaterialSetter);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4795))
 // CS Name: ::ObstacleMaterialSetter*
 class CORDL_TYPE ObstacleMaterialSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _screenDisplacement, offset 0x18, size 0x8
-  __declspec(property(get = __get__screenDisplacement, put = __set__screenDisplacement))::GlobalNamespace::BoolSO* _screenDisplacement;
+  __declspec(property(get = __cordl_internal_get__screenDisplacement, put = __cordl_internal_set__screenDisplacement))::UnityW<::GlobalNamespace::BoolSO> _screenDisplacement;
 
   /// @brief Field _obstaclesQuality, offset 0x20, size 0x8
-  __declspec(property(get = __get__obstaclesQuality, put = __set__obstaclesQuality))::GlobalNamespace::ObstaclesQualitySO* _obstaclesQuality;
+  __declspec(property(get = __cordl_internal_get__obstaclesQuality, put = __cordl_internal_set__obstaclesQuality))::UnityW<::GlobalNamespace::ObstaclesQualitySO> _obstaclesQuality;
 
   /// @brief Field _lwCoreMaterial, offset 0x28, size 0x8
-  __declspec(property(get = __get__lwCoreMaterial, put = __set__lwCoreMaterial))::UnityEngine::Material* _lwCoreMaterial;
+  __declspec(property(get = __cordl_internal_get__lwCoreMaterial, put = __cordl_internal_set__lwCoreMaterial))::UnityW<::UnityEngine::Material> _lwCoreMaterial;
 
   /// @brief Field _hwCoreMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __get__hwCoreMaterial, put = __set__hwCoreMaterial))::UnityEngine::Material* _hwCoreMaterial;
+  __declspec(property(get = __cordl_internal_get__hwCoreMaterial, put = __cordl_internal_set__hwCoreMaterial))::UnityW<::UnityEngine::Material> _hwCoreMaterial;
 
   /// @brief Field _texturedCoreMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __get__texturedCoreMaterial, put = __set__texturedCoreMaterial))::UnityEngine::Material* _texturedCoreMaterial;
+  __declspec(property(get = __cordl_internal_get__texturedCoreMaterial, put = __cordl_internal_set__texturedCoreMaterial))::UnityW<::UnityEngine::Material> _texturedCoreMaterial;
 
   /// @brief Field _fakeGlowLWMaterial, offset 0x40, size 0x8
-  __declspec(property(get = __get__fakeGlowLWMaterial, put = __set__fakeGlowLWMaterial))::UnityEngine::Material* _fakeGlowLWMaterial;
+  __declspec(property(get = __cordl_internal_get__fakeGlowLWMaterial, put = __cordl_internal_set__fakeGlowLWMaterial))::UnityW<::UnityEngine::Material> _fakeGlowLWMaterial;
 
   /// @brief Field _fakeGlowTexturedMaterial, offset 0x48, size 0x8
-  __declspec(property(get = __get__fakeGlowTexturedMaterial, put = __set__fakeGlowTexturedMaterial))::UnityEngine::Material* _fakeGlowTexturedMaterial;
+  __declspec(property(get = __cordl_internal_get__fakeGlowTexturedMaterial, put = __cordl_internal_set__fakeGlowTexturedMaterial))::UnityW<::UnityEngine::Material> _fakeGlowTexturedMaterial;
 
   /// @brief Field _obstacleCoreRenderer, offset 0x50, size 0x8
-  __declspec(property(get = __get__obstacleCoreRenderer, put = __set__obstacleCoreRenderer))::UnityEngine::Renderer* _obstacleCoreRenderer;
+  __declspec(property(get = __cordl_internal_get__obstacleCoreRenderer, put = __cordl_internal_set__obstacleCoreRenderer))::UnityW<::UnityEngine::Renderer> _obstacleCoreRenderer;
 
   /// @brief Field _obstacleFakeGlowRenderer, offset 0x58, size 0x8
-  __declspec(property(get = __get__obstacleFakeGlowRenderer, put = __set__obstacleFakeGlowRenderer))::UnityEngine::Renderer* _obstacleFakeGlowRenderer;
+  __declspec(property(get = __cordl_internal_get__obstacleFakeGlowRenderer, put = __cordl_internal_set__obstacleFakeGlowRenderer))::UnityW<::UnityEngine::Renderer> _obstacleFakeGlowRenderer;
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__screenDisplacement();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__screenDisplacement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__screenDisplacement() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__screenDisplacement() const;
 
-  constexpr void __set__screenDisplacement(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__screenDisplacement(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  constexpr ::GlobalNamespace::ObstaclesQualitySO*& __get__obstaclesQuality();
+  constexpr ::UnityW<::GlobalNamespace::ObstaclesQualitySO>& __cordl_internal_get__obstaclesQuality();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstaclesQualitySO*> const& __get__obstaclesQuality() const;
+  constexpr ::UnityW<::GlobalNamespace::ObstaclesQualitySO> const& __cordl_internal_get__obstaclesQuality() const;
 
-  constexpr void __set__obstaclesQuality(::GlobalNamespace::ObstaclesQualitySO* value);
+  constexpr void __cordl_internal_set__obstaclesQuality(::UnityW<::GlobalNamespace::ObstaclesQualitySO> value);
 
-  constexpr ::UnityEngine::Material*& __get__lwCoreMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__lwCoreMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__lwCoreMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__lwCoreMaterial() const;
 
-  constexpr void __set__lwCoreMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__lwCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__hwCoreMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__hwCoreMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__hwCoreMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__hwCoreMaterial() const;
 
-  constexpr void __set__hwCoreMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__hwCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__texturedCoreMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__texturedCoreMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__texturedCoreMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__texturedCoreMaterial() const;
 
-  constexpr void __set__texturedCoreMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__texturedCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__fakeGlowLWMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__fakeGlowLWMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__fakeGlowLWMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fakeGlowLWMaterial() const;
 
-  constexpr void __set__fakeGlowLWMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__fakeGlowLWMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__fakeGlowTexturedMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__fakeGlowTexturedMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__fakeGlowTexturedMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fakeGlowTexturedMaterial() const;
 
-  constexpr void __set__fakeGlowTexturedMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__fakeGlowTexturedMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Renderer*& __get__obstacleCoreRenderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__obstacleCoreRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__obstacleCoreRenderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__obstacleCoreRenderer() const;
 
-  constexpr void __set__obstacleCoreRenderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__obstacleCoreRenderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr ::UnityEngine::Renderer*& __get__obstacleFakeGlowRenderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__obstacleFakeGlowRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__obstacleFakeGlowRenderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__obstacleFakeGlowRenderer() const;
 
-  constexpr void __set__obstacleFakeGlowRenderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__obstacleFakeGlowRenderer(::UnityW<::UnityEngine::Renderer> value);
 
   /// @brief Method Awake, addr 0x238e5b4, size 0x68, virtual false, abstract: false, final false
   inline void Awake();
@@ -145,31 +145,31 @@ protected:
 
 public:
   /// @brief Field _screenDisplacement, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____screenDisplacement;
+  ::UnityW<::GlobalNamespace::BoolSO> ____screenDisplacement;
 
   /// @brief Field _obstaclesQuality, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ObstaclesQualitySO* ____obstaclesQuality;
+  ::UnityW<::GlobalNamespace::ObstaclesQualitySO> ____obstaclesQuality;
 
   /// @brief Field _lwCoreMaterial, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Material* ____lwCoreMaterial;
+  ::UnityW<::UnityEngine::Material> ____lwCoreMaterial;
 
   /// @brief Field _hwCoreMaterial, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* ____hwCoreMaterial;
+  ::UnityW<::UnityEngine::Material> ____hwCoreMaterial;
 
   /// @brief Field _texturedCoreMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ____texturedCoreMaterial;
+  ::UnityW<::UnityEngine::Material> ____texturedCoreMaterial;
 
   /// @brief Field _fakeGlowLWMaterial, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Material* ____fakeGlowLWMaterial;
+  ::UnityW<::UnityEngine::Material> ____fakeGlowLWMaterial;
 
   /// @brief Field _fakeGlowTexturedMaterial, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Material* ____fakeGlowTexturedMaterial;
+  ::UnityW<::UnityEngine::Material> ____fakeGlowTexturedMaterial;
 
   /// @brief Field _obstacleCoreRenderer, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____obstacleCoreRenderer;
+  ::UnityW<::UnityEngine::Renderer> ____obstacleCoreRenderer;
 
   /// @brief Field _obstacleFakeGlowRenderer, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____obstacleFakeGlowRenderer;
+  ::UnityW<::UnityEngine::Renderer> ____obstacleFakeGlowRenderer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

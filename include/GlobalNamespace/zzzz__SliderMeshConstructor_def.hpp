@@ -31,70 +31,70 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4821))
 // CS Name: ::SliderMeshConstructor*
 class CORDL_TYPE SliderMeshConstructor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _meshFilter, offset 0x18, size 0x8
-  __declspec(property(get = __get__meshFilter, put = __set__meshFilter))::UnityEngine::MeshFilter* _meshFilter;
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   /// @brief Field reusableVerts, offset 0x20, size 0x8
-  __declspec(property(get = __get_reusableVerts, put = __set_reusableVerts))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
+  __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
 
   /// @brief Field reusableUvs, offset 0x28, size 0x8
-  __declspec(property(get = __get_reusableUvs, put = __set_reusableUvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> reusableUvs;
+  __declspec(property(get = __cordl_internal_get_reusableUvs, put = __cordl_internal_set_reusableUvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> reusableUvs;
 
   /// @brief Field reusableNormals, offset 0x30, size 0x8
-  __declspec(property(get = __get_reusableNormals, put = __set_reusableNormals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableNormals;
+  __declspec(property(get = __cordl_internal_get_reusableNormals, put = __cordl_internal_set_reusableNormals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableNormals;
 
   /// @brief Field reusableTriangles, offset 0x38, size 0x8
-  __declspec(property(get = __get_reusableTriangles, put = __set_reusableTriangles))::ArrayW<int32_t, ::Array<int32_t>*> reusableTriangles;
+  __declspec(property(get = __cordl_internal_get_reusableTriangles, put = __cordl_internal_set_reusableTriangles))::ArrayW<int32_t, ::Array<int32_t>*> reusableTriangles;
 
   /// @brief Field _mesh, offset 0x40, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
-  __declspec(property(get = get_mesh))::UnityEngine::Mesh* mesh;
+  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
 
-  constexpr void __set__meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_reusableVerts();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_reusableVerts();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_reusableVerts() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_reusableVerts() const;
 
-  constexpr void __set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __get_reusableUvs();
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_reusableUvs();
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __get_reusableUvs() const;
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_reusableUvs() const;
 
-  constexpr void __set_reusableUvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+  constexpr void __cordl_internal_set_reusableUvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_reusableNormals();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_reusableNormals();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_reusableNormals() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_reusableNormals() const;
 
-  constexpr void __set_reusableNormals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_reusableNormals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_reusableTriangles();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_reusableTriangles();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_reusableTriangles() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_reusableTriangles() const;
 
-  constexpr void __set_reusableTriangles(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_reusableTriangles(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
   /// @brief Method get_mesh, addr 0x23944f8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_mesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
   /// @brief Method CreateMeshIfNonExisting, addr 0x2394500, size 0xb8, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
@@ -131,7 +131,7 @@ protected:
 
 public:
   /// @brief Field _meshFilter, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
   /// @brief Field reusableVerts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___reusableVerts;
@@ -146,7 +146,7 @@ public:
   ::ArrayW<int32_t, ::Array<int32_t>*> ___reusableTriangles;
 
   /// @brief Field _mesh, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

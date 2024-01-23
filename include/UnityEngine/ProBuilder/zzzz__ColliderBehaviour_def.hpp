@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColliderBehaviour);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12123))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12123))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12111))
 // CS Name: ::UnityEngine.ProBuilder::ColliderBehaviour*
 class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {

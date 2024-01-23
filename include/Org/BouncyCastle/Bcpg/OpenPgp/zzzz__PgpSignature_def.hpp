@@ -56,26 +56,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1666))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpSignature*
 class CORDL_TYPE PgpSignature : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sigPck, offset 0x10, size 0x8
-  __declspec(property(get = __get_sigPck, put = __set_sigPck))::Org::BouncyCastle::Bcpg::SignaturePacket* sigPck;
+  __declspec(property(get = __cordl_internal_get_sigPck, put = __cordl_internal_set_sigPck))::Org::BouncyCastle::Bcpg::SignaturePacket* sigPck;
 
   /// @brief Field signatureType, offset 0x18, size 0x4
-  __declspec(property(get = __get_signatureType, put = __set_signatureType)) int32_t signatureType;
+  __declspec(property(get = __cordl_internal_get_signatureType, put = __cordl_internal_set_signatureType)) int32_t signatureType;
 
   /// @brief Field trustPck, offset 0x20, size 0x8
-  __declspec(property(get = __get_trustPck, put = __set_trustPck))::Org::BouncyCastle::Bcpg::TrustPacket* trustPck;
+  __declspec(property(get = __cordl_internal_get_trustPck, put = __cordl_internal_set_trustPck))::Org::BouncyCastle::Bcpg::TrustPacket* trustPck;
 
   /// @brief Field sig, offset 0x28, size 0x8
-  __declspec(property(get = __get_sig, put = __set_sig))::Org::BouncyCastle::Crypto::ISigner* sig;
+  __declspec(property(get = __cordl_internal_get_sig, put = __cordl_internal_set_sig))::Org::BouncyCastle::Crypto::ISigner* sig;
 
   /// @brief Field lastb, offset 0x30, size 0x1
-  __declspec(property(get = __get_lastb, put = __set_lastb)) uint8_t lastb;
+  __declspec(property(get = __cordl_internal_get_lastb, put = __cordl_internal_set_lastb)) uint8_t lastb;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -91,35 +91,35 @@ public:
 
   __declspec(property(get = get_HasSubpackets)) bool HasSubpackets;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SignaturePacket*& __get_sigPck();
+  constexpr ::Org::BouncyCastle::Bcpg::SignaturePacket*& __cordl_internal_get_sigPck();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::SignaturePacket*> const& __get_sigPck() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::SignaturePacket*> const& __cordl_internal_get_sigPck() const;
 
-  constexpr void __set_sigPck(::Org::BouncyCastle::Bcpg::SignaturePacket* value);
+  constexpr void __cordl_internal_set_sigPck(::Org::BouncyCastle::Bcpg::SignaturePacket* value);
 
-  constexpr int32_t& __get_signatureType();
+  constexpr int32_t& __cordl_internal_get_signatureType();
 
-  constexpr int32_t const& __get_signatureType() const;
+  constexpr int32_t const& __cordl_internal_get_signatureType() const;
 
-  constexpr void __set_signatureType(int32_t value);
+  constexpr void __cordl_internal_set_signatureType(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::TrustPacket*& __get_trustPck();
+  constexpr ::Org::BouncyCastle::Bcpg::TrustPacket*& __cordl_internal_get_trustPck();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::TrustPacket*> const& __get_trustPck() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::TrustPacket*> const& __cordl_internal_get_trustPck() const;
 
-  constexpr void __set_trustPck(::Org::BouncyCastle::Bcpg::TrustPacket* value);
+  constexpr void __cordl_internal_set_trustPck(::Org::BouncyCastle::Bcpg::TrustPacket* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get_sig();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_sig();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get_sig() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_sig() const;
 
-  constexpr void __set_sig(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set_sig(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  constexpr uint8_t& __get_lastb();
+  constexpr uint8_t& __cordl_internal_get_lastb();
 
-  constexpr uint8_t const& __get_lastb() const;
+  constexpr uint8_t const& __cordl_internal_get_lastb() const;
 
-  constexpr void __set_lastb(uint8_t value);
+  constexpr void __cordl_internal_set_lastb(uint8_t value);
 
   /// @brief Method Cast, addr 0x10c80fc, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::SignaturePacket* Cast(::Org::BouncyCastle::Bcpg::Packet* packet);

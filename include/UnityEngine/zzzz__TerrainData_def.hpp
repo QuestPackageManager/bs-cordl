@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::UnityEngine::TerrainData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15471))
 // CS Name: ::TerrainData::BoundaryValueType
 struct CORDL_TYPE __TerrainData__BoundaryValueType {
@@ -122,7 +122,7 @@ static_assert(offsetof(::UnityEngine::__TerrainData__BoundaryValueType, value__)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15472))
 // CS Name: ::UnityEngine::TerrainData*
 class CORDL_TYPE TerrainData : public ::UnityEngine::Object {
@@ -181,9 +181,9 @@ public:
 
   __declspec(property(get = get_alphamapHeight)) int32_t alphamapHeight;
 
-  __declspec(property(get = get_terrainLayers, put = set_terrainLayers))::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*> terrainLayers;
+  __declspec(property(get = get_terrainLayers, put = set_terrainLayers))::ArrayW<::UnityW<::UnityEngine::TerrainLayer>, ::Array<::UnityW<::UnityEngine::TerrainLayer>>*> terrainLayers;
 
-  __declspec(property(get = get_users))::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> users;
+  __declspec(property(get = get_users))::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> users;
 
   static inline void setStaticF_k_MaximumResolution(int32_t value);
 
@@ -335,13 +335,13 @@ public:
   inline void Internal_SetAlphamaps(int32_t x, int32_t y, int32_t width, int32_t height, Il2CppObject* map);
 
   /// @brief Method get_terrainLayers, addr 0x2d1e1c8, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*> get_terrainLayers();
+  inline ::ArrayW<::UnityW<::UnityEngine::TerrainLayer>, ::Array<::UnityW<::UnityEngine::TerrainLayer>>*> get_terrainLayers();
 
   /// @brief Method set_terrainLayers, addr 0x2d1e204, size 0x44, virtual false, abstract: false, final false
   inline void set_terrainLayers(::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*> value);
 
   /// @brief Method get_users, addr 0x2d1e248, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> get_users();
+  inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_users();
 
   /// @brief Method get_size_Injected, addr 0x2d1cc14, size 0x44, virtual false, abstract: false, final false
   inline void get_size_Injected(ByRef<::UnityEngine::Vector3> ret);

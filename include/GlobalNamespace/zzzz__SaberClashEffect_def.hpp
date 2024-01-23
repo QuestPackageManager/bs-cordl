@@ -30,93 +30,95 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberClashEffect);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15883))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15883))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4969))
 // CS Name: ::SaberClashEffect*
 class CORDL_TYPE SaberClashEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _sparkleParticleSystem, offset 0x18, size 0x8
-  __declspec(property(get = __get__sparkleParticleSystem, put = __set__sparkleParticleSystem))::UnityEngine::ParticleSystem* _sparkleParticleSystem;
+  __declspec(property(get = __cordl_internal_get__sparkleParticleSystem, put = __cordl_internal_set__sparkleParticleSystem))::UnityW<::UnityEngine::ParticleSystem> _sparkleParticleSystem;
 
   /// @brief Field _glowParticleSystem, offset 0x20, size 0x8
-  __declspec(property(get = __get__glowParticleSystem, put = __set__glowParticleSystem))::UnityEngine::ParticleSystem* _glowParticleSystem;
+  __declspec(property(get = __cordl_internal_get__glowParticleSystem, put = __cordl_internal_set__glowParticleSystem))::UnityW<::UnityEngine::ParticleSystem> _glowParticleSystem;
 
   /// @brief Field _rumblePreset, offset 0x28, size 0x8
-  __declspec(property(get = __get__rumblePreset, put = __set__rumblePreset))::Libraries::HM::HMLib::VR::HapticPresetSO* _rumblePreset;
+  __declspec(property(get = __cordl_internal_get__rumblePreset, put = __cordl_internal_set__rumblePreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _rumblePreset;
 
   /// @brief Field _saberClashChecker, offset 0x30, size 0x8
-  __declspec(property(get = __get__saberClashChecker, put = __set__saberClashChecker))::GlobalNamespace::SaberClashChecker* _saberClashChecker;
+  __declspec(property(get = __cordl_internal_get__saberClashChecker, put = __cordl_internal_set__saberClashChecker))::GlobalNamespace::SaberClashChecker* _saberClashChecker;
 
   /// @brief Field _hapticFeedbackController, offset 0x38, size 0x8
-  __declspec(property(get = __get__hapticFeedbackController, put = __set__hapticFeedbackController))::GlobalNamespace::HapticFeedbackManager* _hapticFeedbackController;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackController,
+                      put = __cordl_internal_set__hapticFeedbackController))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackController;
 
   /// @brief Field _colorManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _sparkleParticleSystemEmmisionModule, offset 0x48, size 0x8
-  __declspec(property(get = __get__sparkleParticleSystemEmmisionModule,
-                      put = __set__sparkleParticleSystemEmmisionModule))::UnityEngine::__ParticleSystem__EmissionModule _sparkleParticleSystemEmmisionModule;
+  __declspec(property(get = __cordl_internal_get__sparkleParticleSystemEmmisionModule,
+                      put = __cordl_internal_set__sparkleParticleSystemEmmisionModule))::UnityEngine::__ParticleSystem__EmissionModule _sparkleParticleSystemEmmisionModule;
 
   /// @brief Field _glowParticleSystemEmmisionModule, offset 0x50, size 0x8
-  __declspec(property(get = __get__glowParticleSystemEmmisionModule, put = __set__glowParticleSystemEmmisionModule))::UnityEngine::__ParticleSystem__EmissionModule _glowParticleSystemEmmisionModule;
+  __declspec(property(get = __cordl_internal_get__glowParticleSystemEmmisionModule,
+                      put = __cordl_internal_set__glowParticleSystemEmmisionModule))::UnityEngine::__ParticleSystem__EmissionModule _glowParticleSystemEmmisionModule;
 
   /// @brief Field _sabersAreClashing, offset 0x58, size 0x1
-  __declspec(property(get = __get__sabersAreClashing, put = __set__sabersAreClashing)) bool _sabersAreClashing;
+  __declspec(property(get = __cordl_internal_get__sabersAreClashing, put = __cordl_internal_set__sabersAreClashing)) bool _sabersAreClashing;
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__sparkleParticleSystem();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__sparkleParticleSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__sparkleParticleSystem() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__sparkleParticleSystem() const;
 
-  constexpr void __set__sparkleParticleSystem(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__sparkleParticleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__glowParticleSystem();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__glowParticleSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__glowParticleSystem() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__glowParticleSystem() const;
 
-  constexpr void __set__glowParticleSystem(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__glowParticleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& __get__rumblePreset();
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__rumblePreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& __get__rumblePreset() const;
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__rumblePreset() const;
 
-  constexpr void __set__rumblePreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value);
+  constexpr void __cordl_internal_set__rumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  constexpr ::GlobalNamespace::SaberClashChecker*& __get__saberClashChecker();
+  constexpr ::GlobalNamespace::SaberClashChecker*& __cordl_internal_get__saberClashChecker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberClashChecker*> const& __get__saberClashChecker() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberClashChecker*> const& __cordl_internal_get__saberClashChecker() const;
 
-  constexpr void __set__saberClashChecker(::GlobalNamespace::SaberClashChecker* value);
+  constexpr void __cordl_internal_set__saberClashChecker(::GlobalNamespace::SaberClashChecker* value);
 
-  constexpr ::GlobalNamespace::HapticFeedbackManager*& __get__hapticFeedbackController();
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& __get__hapticFeedbackController() const;
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackController() const;
 
-  constexpr void __set__hapticFeedbackController(::GlobalNamespace::HapticFeedbackManager* value);
+  constexpr void __cordl_internal_set__hapticFeedbackController(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule& __get__sparkleParticleSystemEmmisionModule();
+  constexpr ::UnityEngine::__ParticleSystem__EmissionModule& __cordl_internal_get__sparkleParticleSystemEmmisionModule();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& __get__sparkleParticleSystemEmmisionModule() const;
+  constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& __cordl_internal_get__sparkleParticleSystemEmmisionModule() const;
 
-  constexpr void __set__sparkleParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
+  constexpr void __cordl_internal_set__sparkleParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule& __get__glowParticleSystemEmmisionModule();
+  constexpr ::UnityEngine::__ParticleSystem__EmissionModule& __cordl_internal_get__glowParticleSystemEmmisionModule();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& __get__glowParticleSystemEmmisionModule() const;
+  constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& __cordl_internal_get__glowParticleSystemEmmisionModule() const;
 
-  constexpr void __set__glowParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
+  constexpr void __cordl_internal_set__glowParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
 
-  constexpr bool& __get__sabersAreClashing();
+  constexpr bool& __cordl_internal_get__sabersAreClashing();
 
-  constexpr bool const& __get__sabersAreClashing() const;
+  constexpr bool const& __cordl_internal_get__sabersAreClashing() const;
 
-  constexpr void __set__sabersAreClashing(bool value);
+  constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
   /// @brief Method Start, addr 0x23b2168, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
@@ -147,19 +149,19 @@ protected:
 
 public:
   /// @brief Field _sparkleParticleSystem, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____sparkleParticleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> ____sparkleParticleSystem;
 
   /// @brief Field _glowParticleSystem, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____glowParticleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> ____glowParticleSystem;
 
   /// @brief Field _rumblePreset, offset: 0x28, size: 0x8, def value: None
-  ::Libraries::HM::HMLib::VR::HapticPresetSO* ____rumblePreset;
+  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____rumblePreset;
 
   /// @brief Field _saberClashChecker, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SaberClashChecker* ____saberClashChecker;
 
   /// @brief Field _hapticFeedbackController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::HapticFeedbackManager* ____hapticFeedbackController;
+  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackController;
 
   /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;

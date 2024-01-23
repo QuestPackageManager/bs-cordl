@@ -51,29 +51,30 @@ MARK_REF_PTR_T(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12931))
 // CS Name: ::ProfanityFilter::TrieNode*
 class CORDL_TYPE __ProfanityFilter__TrieNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _children, offset 0x10, size 0x8
-  __declspec(property(get = __get__children, put = __set__children))::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>* _children;
+  __declspec(property(get = __cordl_internal_get__children,
+                      put = __cordl_internal_set__children))::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>* _children;
 
   /// @brief Field _shortestWord, offset 0x18, size 0x4
-  __declspec(property(get = __get__shortestWord, put = __set__shortestWord)) int32_t _shortestWord;
+  __declspec(property(get = __cordl_internal_get__shortestWord, put = __cordl_internal_set__shortestWord)) int32_t _shortestWord;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>*& __get__children();
+  constexpr ::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>*& __cordl_internal_get__children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>*> const& __get__children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>*> const& __cordl_internal_get__children() const;
 
-  constexpr void __set__children(::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>* value);
+  constexpr void __cordl_internal_set__children(::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::__ProfanityFilter__TrieNode*>* value);
 
-  constexpr int32_t& __get__shortestWord();
+  constexpr int32_t& __cordl_internal_get__shortestWord();
 
-  constexpr int32_t const& __get__shortestWord() const;
+  constexpr int32_t const& __cordl_internal_get__shortestWord() const;
 
-  constexpr void __set__shortestWord(int32_t value);
+  constexpr void __cordl_internal_set__shortestWord(int32_t value);
 
   /// @brief Method AddWord, addr 0xe539b8, size 0x4c4, virtual false, abstract: false, final false
   inline void AddWord(::StringW word, int32_t index);
@@ -120,26 +121,26 @@ static_assert(offsetof(::GlobalNamespace::__ProfanityFilter__TrieNode, ____short
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12932))
 // CS Name: ::ProfanityFilter::<GetLookalikeLetters>d__4*
 class CORDL_TYPE __ProfanityFilter___GetLookalikeLetters_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x14, size 0x2
-  __declspec(property(get = __get___2__current, put = __set___2__current)) char16_t __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) char16_t __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x18, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field c, offset 0x1c, size 0x2
-  __declspec(property(get = __get_c, put = __set_c)) char16_t c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) char16_t c;
 
   /// @brief Field <>3__c, offset 0x1e, size 0x2
-  __declspec(property(get = __get___3__c, put = __set___3__c)) char16_t __3__c;
+  __declspec(property(get = __cordl_internal_get___3__c, put = __cordl_internal_set___3__c)) char16_t __3__c;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Char__get_Current)) char16_t System_Collections_Generic_IEnumerator_System_Char__Current;
 
@@ -175,35 +176,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr char16_t& __get___2__current();
+  constexpr char16_t& __cordl_internal_get___2__current();
 
-  constexpr char16_t const& __get___2__current() const;
+  constexpr char16_t const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(char16_t value);
+  constexpr void __cordl_internal_set___2__current(char16_t value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr char16_t& __get_c();
+  constexpr char16_t& __cordl_internal_get_c();
 
-  constexpr char16_t const& __get_c() const;
+  constexpr char16_t const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(char16_t value);
+  constexpr void __cordl_internal_set_c(char16_t value);
 
-  constexpr char16_t& __get___3__c();
+  constexpr char16_t& __cordl_internal_get___3__c();
 
-  constexpr char16_t const& __get___3__c() const;
+  constexpr char16_t const& __cordl_internal_get___3__c() const;
 
-  constexpr void __set___3__c(char16_t value);
+  constexpr void __cordl_internal_set___3__c(char16_t value);
 
   static inline ::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4* New_ctor(int32_t __1__state);
 
@@ -280,7 +281,7 @@ static_assert(offsetof(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetter
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12933))
 // CS Name: ::ProfanityFilter*
 class CORDL_TYPE ProfanityFilter : public ::System::Object {
@@ -291,13 +292,13 @@ public:
   using TrieNode = ::GlobalNamespace::__ProfanityFilter__TrieNode;
 
   /// @brief Field _trie, offset 0x10, size 0x8
-  __declspec(property(get = __get__trie, put = __set__trie))::GlobalNamespace::__ProfanityFilter__TrieNode* _trie;
+  __declspec(property(get = __cordl_internal_get__trie, put = __cordl_internal_set__trie))::GlobalNamespace::__ProfanityFilter__TrieNode* _trie;
 
-  constexpr ::GlobalNamespace::__ProfanityFilter__TrieNode*& __get__trie();
+  constexpr ::GlobalNamespace::__ProfanityFilter__TrieNode*& __cordl_internal_get__trie();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ProfanityFilter__TrieNode*> const& __get__trie() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ProfanityFilter__TrieNode*> const& __cordl_internal_get__trie() const;
 
-  constexpr void __set__trie(::GlobalNamespace::__ProfanityFilter__TrieNode* value);
+  constexpr void __cordl_internal_set__trie(::GlobalNamespace::__ProfanityFilter__TrieNode* value);
 
   static inline ::GlobalNamespace::ProfanityFilter* New_ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList);
 

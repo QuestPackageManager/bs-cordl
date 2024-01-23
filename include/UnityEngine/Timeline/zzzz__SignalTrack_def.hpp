@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SignalTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13890))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13890))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13896))
 // CS Name: ::UnityEngine.Timeline::SignalTrack*
 class CORDL_TYPE SignalTrack : public ::UnityEngine::Timeline::MarkerTrack {

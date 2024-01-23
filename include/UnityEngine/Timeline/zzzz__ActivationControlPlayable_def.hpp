@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationControlPlayable);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13900))
 // CS Name: ::ActivationControlPlayable::PostPlaybackState
 struct CORDL_TYPE __ActivationControlPlayable__PostPlaybackState {
@@ -103,7 +103,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__ActivationControlPlayable__Pos
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13901))
 // CS Name: ::ActivationControlPlayable::InitialState
 struct CORDL_TYPE __ActivationControlPlayable__InitialState {
@@ -157,7 +157,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__ActivationControlPlayable__Ini
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13901)), TypeDefinitionIndex(TypeDefinitionIndex(13900)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13900)), TypeDefinitionIndex(TypeDefinitionIndex(13901))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13902))
 // CS Name: ::UnityEngine.Timeline::ActivationControlPlayable*
 class CORDL_TYPE ActivationControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
@@ -168,31 +168,31 @@ public:
   using PostPlaybackState = ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState;
 
   /// @brief Field gameObject, offset 0x10, size 0x8
-  __declspec(property(get = __get_gameObject, put = __set_gameObject))::UnityEngine::GameObject* gameObject;
+  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
 
   /// @brief Field postPlayback, offset 0x18, size 0x4
-  __declspec(property(get = __get_postPlayback, put = __set_postPlayback))::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState postPlayback;
+  __declspec(property(get = __cordl_internal_get_postPlayback, put = __cordl_internal_set_postPlayback))::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState postPlayback;
 
   /// @brief Field m_InitialState, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_InitialState, put = __set_m_InitialState))::UnityEngine::Timeline::__ActivationControlPlayable__InitialState m_InitialState;
+  __declspec(property(get = __cordl_internal_get_m_InitialState, put = __cordl_internal_set_m_InitialState))::UnityEngine::Timeline::__ActivationControlPlayable__InitialState m_InitialState;
 
-  constexpr ::UnityEngine::GameObject*& __get_gameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_gameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_gameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
 
-  constexpr void __set_gameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState& __get_postPlayback();
+  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState& __cordl_internal_get_postPlayback();
 
-  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState const& __get_postPlayback() const;
+  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState const& __cordl_internal_get_postPlayback() const;
 
-  constexpr void __set_postPlayback(::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState value);
+  constexpr void __cordl_internal_set_postPlayback(::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState value);
 
-  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__InitialState& __get_m_InitialState();
+  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__InitialState& __cordl_internal_get_m_InitialState();
 
-  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__InitialState const& __get_m_InitialState() const;
+  constexpr ::UnityEngine::Timeline::__ActivationControlPlayable__InitialState const& __cordl_internal_get_m_InitialState() const;
 
-  constexpr void __set_m_InitialState(::UnityEngine::Timeline::__ActivationControlPlayable__InitialState value);
+  constexpr void __cordl_internal_set_m_InitialState(::UnityEngine::Timeline::__ActivationControlPlayable__InitialState value);
 
   /// @brief Method Create, addr 0x2c65224, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationControlPlayable*>
@@ -233,7 +233,7 @@ protected:
 
 public:
   /// @brief Field gameObject, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___gameObject;
+  ::UnityW<::UnityEngine::GameObject> ___gameObject;
 
   /// @brief Field postPlayback, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState ___postPlayback;

@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::TypeDependencyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3417))
 // CS Name: ::System.Runtime.CompilerServices::TypeDependencyAttribute*
 class CORDL_TYPE TypeDependencyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field typeName, offset 0x10, size 0x8
-  __declspec(property(get = __get_typeName, put = __set_typeName))::StringW typeName;
+  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
 
-  constexpr ::StringW& __get_typeName();
+  constexpr ::StringW& __cordl_internal_get_typeName();
 
-  constexpr ::StringW const& __get_typeName() const;
+  constexpr ::StringW const& __cordl_internal_get_typeName() const;
 
-  constexpr void __set_typeName(::StringW value);
+  constexpr void __cordl_internal_set_typeName(::StringW value);
 
   static inline ::System::Runtime::CompilerServices::TypeDependencyAttribute* New_ctor(::StringW typeName);
 

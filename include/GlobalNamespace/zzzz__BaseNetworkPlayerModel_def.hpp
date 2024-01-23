@@ -91,38 +91,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__BaseNetworkPlayerModel___GetPartyPlayers_d__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14937))
 // CS Name: ::BaseNetworkPlayerModel::PartyConfig*
 class CORDL_TYPE __BaseNetworkPlayerModel__PartyConfig : public ::System::Object {
 public:
   // Declarations
   /// @brief Field selectionMask, offset 0x10, size 0x28
-  __declspec(property(get = __get_selectionMask, put = __set_selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
+  __declspec(property(get = __cordl_internal_get_selectionMask, put = __cordl_internal_set_selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
   /// @brief Field configuration, offset 0x38, size 0x18
-  __declspec(property(get = __get_configuration, put = __set_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
+  __declspec(property(get = __cordl_internal_get_configuration, put = __cordl_internal_set_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
 
   /// @brief Field partyManager, offset 0x50, size 0x8
-  __declspec(property(get = __get_partyManager, put = __set_partyManager))::GlobalNamespace::INetworkPlayerModel* partyManager;
+  __declspec(property(get = __cordl_internal_get_partyManager, put = __cordl_internal_set_partyManager))::GlobalNamespace::INetworkPlayerModel* partyManager;
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get_selectionMask();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get_selectionMask();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get_selectionMask() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get_selectionMask() const;
 
-  constexpr void __set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get_configuration();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get_configuration();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get_configuration() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get_configuration() const;
 
-  constexpr void __set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  constexpr ::GlobalNamespace::INetworkPlayerModel*& __get_partyManager();
+  constexpr ::GlobalNamespace::INetworkPlayerModel*& __cordl_internal_get_partyManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayerModel*> const& __get_partyManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayerModel*> const& __cordl_internal_get_partyManager() const;
 
-  constexpr void __set_partyManager(::GlobalNamespace::INetworkPlayerModel* value);
+  constexpr void __cordl_internal_set_partyManager(::GlobalNamespace::INetworkPlayerModel* value);
 
   static inline ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig* New_ctor();
 
@@ -168,20 +168,20 @@ static_assert(offsetof(::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14938))
 // CS Name: ::BaseNetworkPlayerModel::<GetPartyPlayers>d__55*
 class CORDL_TYPE __BaseNetworkPlayerModel___GetPartyPlayers_d__55 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current))::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
 
@@ -217,23 +217,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get___2__current();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
   static inline ::GlobalNamespace::__BaseNetworkPlayerModel___GetPartyPlayers_d__55* New_ctor(int32_t __1__state);
 
@@ -300,20 +300,20 @@ static_assert(offsetof(::GlobalNamespace::__BaseNetworkPlayerModel___GetPartyPla
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14939))
 // CS Name: ::BaseNetworkPlayerModel::<GetOtherPlayers>d__56*
 class CORDL_TYPE __BaseNetworkPlayerModel___GetOtherPlayers_d__56 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current))::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
 
@@ -349,23 +349,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get___2__current();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
   static inline ::GlobalNamespace::__BaseNetworkPlayerModel___GetOtherPlayers_d__56* New_ctor(int32_t __1__state);
 
@@ -432,7 +432,7 @@ static_assert(offsetof(::GlobalNamespace::__BaseNetworkPlayerModel___GetOtherPla
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12966)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14940))
 // CS Name: ::BaseNetworkPlayerModel*
 class CORDL_TYPE BaseNetworkPlayerModel : public ::GlobalNamespace::StandaloneMonobehavior {
@@ -445,27 +445,27 @@ public:
   using PartyConfig = ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig;
 
   /// @brief Field _connectedPlayerManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__connectedPlayerManager, put = __set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
+  __declspec(property(get = __cordl_internal_get__connectedPlayerManager, put = __cordl_internal_set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
 
   /// @brief Field _partyManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__partyManager, put = __set__partyManager))::GlobalNamespace::INetworkPlayerModel* _partyManager;
+  __declspec(property(get = __cordl_internal_get__partyManager, put = __cordl_internal_set__partyManager))::GlobalNamespace::INetworkPlayerModel* _partyManager;
 
   /// @brief Field _configuration, offset 0x48, size 0x18
-  __declspec(property(get = __get__configuration, put = __set__configuration))::GlobalNamespace::GameplayServerConfiguration _configuration;
+  __declspec(property(get = __cordl_internal_get__configuration, put = __cordl_internal_set__configuration))::GlobalNamespace::GameplayServerConfiguration _configuration;
 
   /// @brief Field _selectionMask, offset 0x60, size 0x28
-  __declspec(property(get = __get__selectionMask, put = __set__selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask;
+  __declspec(property(get = __cordl_internal_get__selectionMask, put = __cordl_internal_set__selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask;
 
   /// @brief Field <discoveryEnabled>k__BackingField, offset 0x88, size 0x1
-  __declspec(property(get = __get__discoveryEnabled_k__BackingField, put = __set__discoveryEnabled_k__BackingField)) bool _discoveryEnabled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__discoveryEnabled_k__BackingField, put = __cordl_internal_set__discoveryEnabled_k__BackingField)) bool _discoveryEnabled_k__BackingField;
 
   /// @brief Field connectedPlayerManagerCreatedEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_connectedPlayerManagerCreatedEvent,
-                      put = __set_connectedPlayerManagerCreatedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerCreatedEvent;
+  __declspec(property(get = __cordl_internal_get_connectedPlayerManagerCreatedEvent,
+                      put = __cordl_internal_set_connectedPlayerManagerCreatedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerCreatedEvent;
 
   /// @brief Field connectedPlayerManagerDestroyedEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_connectedPlayerManagerDestroyedEvent,
-                      put = __set_connectedPlayerManagerDestroyedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerDestroyedEvent;
+  __declspec(property(get = __cordl_internal_get_connectedPlayerManagerDestroyedEvent,
+                      put = __cordl_internal_set_connectedPlayerManagerDestroyedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerDestroyedEvent;
 
   __declspec(property(get = get_connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager;
 
@@ -501,47 +501,47 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
   constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
 
-  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __get__connectedPlayerManager();
+  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __cordl_internal_get__connectedPlayerManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __get__connectedPlayerManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __cordl_internal_get__connectedPlayerManager() const;
 
-  constexpr void __set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
+  constexpr void __cordl_internal_set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
 
-  constexpr ::GlobalNamespace::INetworkPlayerModel*& __get__partyManager();
+  constexpr ::GlobalNamespace::INetworkPlayerModel*& __cordl_internal_get__partyManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayerModel*> const& __get__partyManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayerModel*> const& __cordl_internal_get__partyManager() const;
 
-  constexpr void __set__partyManager(::GlobalNamespace::INetworkPlayerModel* value);
+  constexpr void __cordl_internal_set__partyManager(::GlobalNamespace::INetworkPlayerModel* value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get__configuration();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get__configuration();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get__configuration() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration() const;
 
-  constexpr void __set__configuration(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set__configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get__selectionMask();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get__selectionMask() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get__selectionMask() const;
 
-  constexpr void __set__selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set__selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr bool& __get__discoveryEnabled_k__BackingField();
+  constexpr bool& __cordl_internal_get__discoveryEnabled_k__BackingField();
 
-  constexpr bool const& __get__discoveryEnabled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__discoveryEnabled_k__BackingField() const;
 
-  constexpr void __set__discoveryEnabled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__discoveryEnabled_k__BackingField(bool value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& __get_connectedPlayerManagerCreatedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& __cordl_internal_get_connectedPlayerManagerCreatedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& __get_connectedPlayerManagerCreatedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& __cordl_internal_get_connectedPlayerManagerCreatedEvent() const;
 
-  constexpr void __set_connectedPlayerManagerCreatedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
+  constexpr void __cordl_internal_set_connectedPlayerManagerCreatedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& __get_connectedPlayerManagerDestroyedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& __cordl_internal_get_connectedPlayerManagerDestroyedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& __get_connectedPlayerManagerDestroyedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& __cordl_internal_get_connectedPlayerManagerDestroyedEvent() const;
 
-  constexpr void __set_connectedPlayerManagerDestroyedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
+  constexpr void __cordl_internal_set_connectedPlayerManagerDestroyedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
   /// @brief Method get_connectedPlayerManager, addr 0x2635de8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();

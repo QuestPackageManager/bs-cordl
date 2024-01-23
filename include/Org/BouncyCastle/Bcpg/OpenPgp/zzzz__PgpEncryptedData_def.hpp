@@ -30,47 +30,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__Truncated
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(498))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1637))
 // CS Name: ::PgpEncryptedData::TruncatedStream*
 class CORDL_TYPE __PgpEncryptedData__TruncatedStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
   /// @brief Field inStr, offset 0x30, size 0x8
-  __declspec(property(get = __get_inStr, put = __set_inStr))::System::IO::Stream* inStr;
+  __declspec(property(get = __cordl_internal_get_inStr, put = __cordl_internal_set_inStr))::System::IO::Stream* inStr;
 
   /// @brief Field lookAhead, offset 0x38, size 0x8
-  __declspec(property(get = __get_lookAhead, put = __set_lookAhead))::ArrayW<uint8_t, ::Array<uint8_t>*> lookAhead;
+  __declspec(property(get = __cordl_internal_get_lookAhead, put = __cordl_internal_set_lookAhead))::ArrayW<uint8_t, ::Array<uint8_t>*> lookAhead;
 
   /// @brief Field bufStart, offset 0x40, size 0x4
-  __declspec(property(get = __get_bufStart, put = __set_bufStart)) int32_t bufStart;
+  __declspec(property(get = __cordl_internal_get_bufStart, put = __cordl_internal_set_bufStart)) int32_t bufStart;
 
   /// @brief Field bufEnd, offset 0x44, size 0x4
-  __declspec(property(get = __get_bufEnd, put = __set_bufEnd)) int32_t bufEnd;
+  __declspec(property(get = __cordl_internal_get_bufEnd, put = __cordl_internal_set_bufEnd)) int32_t bufEnd;
 
-  constexpr ::System::IO::Stream*& __get_inStr();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_inStr();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_inStr() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_inStr() const;
 
-  constexpr void __set_inStr(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_inStr(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_lookAhead();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_lookAhead();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_lookAhead() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lookAhead() const;
 
-  constexpr void __set_lookAhead(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_lookAhead(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_bufStart();
+  constexpr int32_t& __cordl_internal_get_bufStart();
 
-  constexpr int32_t const& __get_bufStart() const;
+  constexpr int32_t const& __cordl_internal_get_bufStart() const;
 
-  constexpr void __set_bufStart(int32_t value);
+  constexpr void __cordl_internal_set_bufStart(int32_t value);
 
-  constexpr int32_t& __get_bufEnd();
+  constexpr int32_t& __cordl_internal_get_bufEnd();
 
-  constexpr int32_t const& __get_bufEnd() const;
+  constexpr int32_t const& __cordl_internal_get_bufEnd() const;
 
-  constexpr void __set_bufEnd(int32_t value);
+  constexpr void __cordl_internal_set_bufEnd(int32_t value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* New_ctor(::System::IO::Stream* inStr);
 
@@ -142,7 +142,7 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__T
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1638))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedData*
 class CORDL_TYPE PgpEncryptedData : public ::System::Object {
@@ -151,31 +151,31 @@ public:
   using TruncatedStream = ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream;
 
   /// @brief Field encData, offset 0x10, size 0x8
-  __declspec(property(get = __get_encData, put = __set_encData))::Org::BouncyCastle::Bcpg::InputStreamPacket* encData;
+  __declspec(property(get = __cordl_internal_get_encData, put = __cordl_internal_set_encData))::Org::BouncyCastle::Bcpg::InputStreamPacket* encData;
 
   /// @brief Field encStream, offset 0x18, size 0x8
-  __declspec(property(get = __get_encStream, put = __set_encStream))::System::IO::Stream* encStream;
+  __declspec(property(get = __cordl_internal_get_encStream, put = __cordl_internal_set_encStream))::System::IO::Stream* encStream;
 
   /// @brief Field truncStream, offset 0x20, size 0x8
-  __declspec(property(get = __get_truncStream, put = __set_truncStream))::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* truncStream;
+  __declspec(property(get = __cordl_internal_get_truncStream, put = __cordl_internal_set_truncStream))::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* truncStream;
 
-  constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& __get_encData();
+  constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& __cordl_internal_get_encData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& __get_encData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& __cordl_internal_get_encData() const;
 
-  constexpr void __set_encData(::Org::BouncyCastle::Bcpg::InputStreamPacket* value);
+  constexpr void __cordl_internal_set_encData(::Org::BouncyCastle::Bcpg::InputStreamPacket* value);
 
-  constexpr ::System::IO::Stream*& __get_encStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_encStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_encStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_encStream() const;
 
-  constexpr void __set_encStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_encStream(::System::IO::Stream* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*& __get_truncStream();
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*& __cordl_internal_get_truncStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*> const& __get_truncStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*> const& __cordl_internal_get_truncStream() const;
 
-  constexpr void __set_truncStream(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* value);
+  constexpr void __cordl_internal_set_truncStream(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 

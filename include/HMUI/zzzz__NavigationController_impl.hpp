@@ -34,9 +34,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x212b32c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass8_0*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -48,76 +48,78 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2a8;
   constexpr static std::size_t addrs = 0x212b5dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass8_0*>::get(), "<PushViewController>g__AnimationLayouter|0", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass8_0*>::get(), "<PushViewController>g__AnimationLayouter|0",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass8_0::__get_startPositions() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get_startPositions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get_startPositions() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get_startPositions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___startPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::NavigationController*& HMUI::__NavigationController____c__DisplayClass8_0::__get___4__this() {
+constexpr ::UnityW<::HMUI::NavigationController>& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::NavigationController*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get___4__this() const {
+constexpr ::UnityW<::HMUI::NavigationController> const& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set___4__this(::HMUI::NavigationController* value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_set___4__this(::UnityW<::HMUI::NavigationController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ViewController*& HMUI::__NavigationController____c__DisplayClass8_0::__get_viewController() {
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get_viewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___viewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get_viewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get_viewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___viewController;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set_viewController(::HMUI::ViewController* value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___viewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass8_0::__get_endPositions() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get_endPositions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get_endPositions() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_get_endPositions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__cordl_internal_set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HMUI::__NavigationController____c__DisplayClass8_0* HMUI::__NavigationController____c__DisplayClass8_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HMUI::__NavigationController____c__DisplayClass8_0*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__NavigationController____c__DisplayClass8_0*>());
 }
 inline void HMUI::__NavigationController____c__DisplayClass8_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass8_0*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void HMUI::__NavigationController____c__DisplayClass8_0::_PushViewController_g__AnimationLayouter_0(float_t t,
                                                                                                            ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass8_0*>::get(), "<PushViewController>g__AnimationLayouter|0", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass8_0*>::get(), "<PushViewController>g__AnimationLayouter|0",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, viewControllers);
 }
 // Ctor Parameters []
@@ -130,9 +132,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x212b530;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass10_0*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -140,85 +142,86 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__NavigationController____c__DisplayClass10_0::*)(
-    float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*)>(
+    float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::__NavigationController____c__DisplayClass10_0::_PopViewControllers_g__AnimationLayouter_0)> {
   constexpr static std::size_t size = 0x274;
   constexpr static std::size_t addrs = 0x212b884;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass10_0*>::get(), "<PopViewControllers>g__AnimationLayouter|0",
-        std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>::get() })));
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass10_0::__get_startPositions() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get_startPositions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass10_0::__get_startPositions() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get_startPositions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___startPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::NavigationController*& HMUI::__NavigationController____c__DisplayClass10_0::__get___4__this() {
+constexpr ::UnityW<::HMUI::NavigationController>& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::NavigationController*> const& HMUI::__NavigationController____c__DisplayClass10_0::__get___4__this() const {
+constexpr ::UnityW<::HMUI::NavigationController> const& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set___4__this(::HMUI::NavigationController* value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_set___4__this(::UnityW<::HMUI::NavigationController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass10_0::__get_endPositions() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get_endPositions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass10_0::__get_endPositions() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get_endPositions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& HMUI::__NavigationController____c__DisplayClass10_0::__get_moveOffset() {
+constexpr float_t& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get_moveOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
-constexpr float_t const& HMUI::__NavigationController____c__DisplayClass10_0::__get_moveOffset() const {
+constexpr float_t const& HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_get_moveOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
-constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set_moveOffset(float_t value) {
+constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__cordl_internal_set_moveOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffset = value;
 }
 inline ::HMUI::__NavigationController____c__DisplayClass10_0* HMUI::__NavigationController____c__DisplayClass10_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HMUI::__NavigationController____c__DisplayClass10_0*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__NavigationController____c__DisplayClass10_0*>());
 }
 inline void HMUI::__NavigationController____c__DisplayClass10_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass10_0*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void
 HMUI::__NavigationController____c__DisplayClass10_0::_PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
-                                                                                                ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers) {
+                                                                                                ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass10_0*>::get(), "<PopViewControllers>g__AnimationLayouter|0", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__NavigationController____c__DisplayClass10_0*>::get(), "<PopViewControllers>g__AnimationLayouter|0",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, viewControllers, removingViewControllers);
 }
 // Ctor Parameters []
@@ -226,12 +229,12 @@ constexpr ::HMUI::__NavigationController____c__DisplayClass10_0::__NavigationCon
 //  Writing Method size for method: ::HMUI::NavigationController.LayoutViewControllers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)(::System::Collections::Generic::List_1<::HMUI::ViewController*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::NavigationController::LayoutViewControllers)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x212abf4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), 12));
@@ -246,11 +249,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x212b24c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PushViewController", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PushViewController", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -261,10 +264,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x212b334;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewController", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewController", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -276,11 +279,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e8;
   constexpr static std::size_t addrs = 0x212b348;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewControllers", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewControllers", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -291,10 +294,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x212b22c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PositionVector", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PositionVector", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -306,10 +309,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x212b200;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "SetupViewControllerRect", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "SetupViewControllerRect", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get() })));
     return ___internal_method;
   }
 };
@@ -317,17 +320,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::HMUI::NavigationController::*)(
-    ::System::Collections::Generic::List_1<::HMUI::ViewController*>*, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*, float_t)>(
+    ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*, float_t)>(
     &::HMUI::NavigationController::GetNewPositionsForViewControllers)> {
   constexpr static std::size_t size = 0x4f4;
   constexpr static std::size_t addrs = 0x212ad0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "GetNewPositionsForViewControllers", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HMUI::ViewController*>*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "GetNewPositionsForViewControllers", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -338,73 +341,73 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x212b5cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::HMUI::__NavigationController__Orientation& HMUI::NavigationController::__get__orientation() {
+constexpr ::HMUI::__NavigationController__Orientation& HMUI::NavigationController::__cordl_internal_get__orientation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientation;
 }
-constexpr ::HMUI::__NavigationController__Orientation const& HMUI::NavigationController::__get__orientation() const {
+constexpr ::HMUI::__NavigationController__Orientation const& HMUI::NavigationController::__cordl_internal_get__orientation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientation;
 }
-constexpr void HMUI::NavigationController::__set__orientation(::HMUI::__NavigationController__Orientation value) {
+constexpr void HMUI::NavigationController::__cordl_internal_set__orientation(::HMUI::__NavigationController__Orientation value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____orientation = value;
 }
-constexpr bool& HMUI::NavigationController::__get__reversedStacking() {
+constexpr bool& HMUI::NavigationController::__cordl_internal_get__reversedStacking() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reversedStacking;
 }
-constexpr bool const& HMUI::NavigationController::__get__reversedStacking() const {
+constexpr bool const& HMUI::NavigationController::__cordl_internal_get__reversedStacking() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reversedStacking;
 }
-constexpr void HMUI::NavigationController::__set__reversedStacking(bool value) {
+constexpr void HMUI::NavigationController::__cordl_internal_set__reversedStacking(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reversedStacking = value;
 }
-constexpr ::HMUI::__NavigationController__Alignment& HMUI::NavigationController::__get__alignment() {
+constexpr ::HMUI::__NavigationController__Alignment& HMUI::NavigationController::__cordl_internal_get__alignment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alignment;
 }
-constexpr ::HMUI::__NavigationController__Alignment const& HMUI::NavigationController::__get__alignment() const {
+constexpr ::HMUI::__NavigationController__Alignment const& HMUI::NavigationController::__cordl_internal_get__alignment() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alignment;
 }
-constexpr void HMUI::NavigationController::__set__alignment(::HMUI::__NavigationController__Alignment value) {
+constexpr void HMUI::NavigationController::__cordl_internal_set__alignment(::HMUI::__NavigationController__Alignment value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alignment = value;
 }
-constexpr float_t& HMUI::NavigationController::__get__edgeSize() {
+constexpr float_t& HMUI::NavigationController::__cordl_internal_get__edgeSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeSize;
 }
-constexpr float_t const& HMUI::NavigationController::__get__edgeSize() const {
+constexpr float_t const& HMUI::NavigationController::__cordl_internal_get__edgeSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeSize;
 }
-constexpr void HMUI::NavigationController::__set__edgeSize(float_t value) {
+constexpr void HMUI::NavigationController::__cordl_internal_set__edgeSize(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____edgeSize = value;
 }
-constexpr float_t& HMUI::NavigationController::__get__viewControllersSeparator() {
+constexpr float_t& HMUI::NavigationController::__cordl_internal_get__viewControllersSeparator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewControllersSeparator;
 }
-constexpr float_t const& HMUI::NavigationController::__get__viewControllersSeparator() const {
+constexpr float_t const& HMUI::NavigationController::__cordl_internal_get__viewControllersSeparator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewControllersSeparator;
 }
-constexpr void HMUI::NavigationController::__set__viewControllersSeparator(float_t value) {
+constexpr void HMUI::NavigationController::__cordl_internal_set__viewControllersSeparator(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____viewControllersSeparator = value;
 }
-inline void HMUI::NavigationController::LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers) {
+inline void HMUI::NavigationController::LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewControllers);
@@ -412,54 +415,54 @@ inline void HMUI::NavigationController::LayoutViewControllers(::System::Collecti
 /// @param immediately: bool (default: false)
 inline void HMUI::NavigationController::PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PushViewController", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PushViewController", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController, finishedCallback, immediately);
 }
 inline void HMUI::NavigationController::PopViewController(::System::Action* finishedCallback, bool immediately) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewController", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewController", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, finishedCallback, immediately);
 }
 inline void HMUI::NavigationController::PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewControllers", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PopViewControllers", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, numberOfViewControllersToPop, finishedCallback, immediately);
 }
 inline ::UnityEngine::Vector3 HMUI::NavigationController::PositionVector(float_t pos) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PositionVector", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "PositionVector", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, pos);
 }
 inline void HMUI::NavigationController::SetupViewControllerRect(::HMUI::ViewController* viewController) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "SetupViewControllerRect", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "SetupViewControllerRect", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController);
 }
-/// @param fixedViewControllers: ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* (default: nullptr)
+/// @param fixedViewControllers: ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* (default: nullptr)
 /// @param fixedEndPos: float_t (default: 0.0)
-inline ::ArrayW<float_t, ::Array<float_t>*> HMUI::NavigationController::GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers,
-                                                                                                          ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* fixedViewControllers,
-                                                                                                          float_t fixedEndPos) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "GetNewPositionsForViewControllers", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HMUI::ViewController*>*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+inline ::ArrayW<float_t, ::Array<float_t>*>
+HMUI::NavigationController::GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
+                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* fixedViewControllers, float_t fixedEndPos) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), "GetNewPositionsForViewControllers", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t, ::Array<float_t>*>, false>(this, ___internal_method, viewControllers, fixedViewControllers, fixedEndPos);
 }
 inline ::HMUI::NavigationController* HMUI::NavigationController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HMUI::NavigationController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::NavigationController*>());
 }
 inline void HMUI::NavigationController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

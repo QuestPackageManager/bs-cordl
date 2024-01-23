@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::MD2Digest);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(757))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::MD2Digest*
 class CORDL_TYPE MD2Digest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field X, offset 0x10, size 0x8
-  __declspec(property(get = __get_X, put = __set_X))::ArrayW<uint8_t, ::Array<uint8_t>*> X;
+  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X))::ArrayW<uint8_t, ::Array<uint8_t>*> X;
 
   /// @brief Field xOff, offset 0x18, size 0x4
-  __declspec(property(get = __get_xOff, put = __set_xOff)) int32_t xOff;
+  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
   /// @brief Field M, offset 0x20, size 0x8
-  __declspec(property(get = __get_M, put = __set_M))::ArrayW<uint8_t, ::Array<uint8_t>*> M;
+  __declspec(property(get = __cordl_internal_get_M, put = __cordl_internal_set_M))::ArrayW<uint8_t, ::Array<uint8_t>*> M;
 
   /// @brief Field mOff, offset 0x28, size 0x4
-  __declspec(property(get = __get_mOff, put = __set_mOff)) int32_t mOff;
+  __declspec(property(get = __cordl_internal_get_mOff, put = __cordl_internal_set_mOff)) int32_t mOff;
 
   /// @brief Field C, offset 0x30, size 0x8
-  __declspec(property(get = __get_C, put = __set_C))::ArrayW<uint8_t, ::Array<uint8_t>*> C;
+  __declspec(property(get = __cordl_internal_get_C, put = __cordl_internal_set_C))::ArrayW<uint8_t, ::Array<uint8_t>*> C;
 
   /// @brief Field COff, offset 0x38, size 0x4
-  __declspec(property(get = __get_COff, put = __set_COff)) int32_t COff;
+  __declspec(property(get = __cordl_internal_get_COff, put = __cordl_internal_set_COff)) int32_t COff;
 
   /// @brief Field S, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_S, put = setStaticF_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
@@ -64,41 +64,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_X();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_X();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_X() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_X() const;
 
-  constexpr void __set_X(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_X(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_xOff();
+  constexpr int32_t& __cordl_internal_get_xOff();
 
-  constexpr int32_t const& __get_xOff() const;
+  constexpr int32_t const& __cordl_internal_get_xOff() const;
 
-  constexpr void __set_xOff(int32_t value);
+  constexpr void __cordl_internal_set_xOff(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_M();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_M();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_M() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_M() const;
 
-  constexpr void __set_M(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_M(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mOff();
+  constexpr int32_t& __cordl_internal_get_mOff();
 
-  constexpr int32_t const& __get_mOff() const;
+  constexpr int32_t const& __cordl_internal_get_mOff() const;
 
-  constexpr void __set_mOff(int32_t value);
+  constexpr void __cordl_internal_set_mOff(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_C();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_C();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_C() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_C() const;
 
-  constexpr void __set_C(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_C(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_COff();
+  constexpr int32_t& __cordl_internal_get_COff();
 
-  constexpr int32_t const& __get_COff() const;
+  constexpr int32_t const& __cordl_internal_get_COff() const;
 
-  constexpr void __set_COff(int32_t value);
+  constexpr void __cordl_internal_set_COff(int32_t value);
 
   static inline void setStaticF_S(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

@@ -59,38 +59,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509Certificate);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1860))
 // CS Name: ::Org.BouncyCastle.X509::X509Certificate*
 class CORDL_TYPE X509Certificate : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c;
 
   /// @brief Field sigAlgName, offset 0x18, size 0x8
-  __declspec(property(get = __get_sigAlgName, put = __set_sigAlgName))::StringW sigAlgName;
+  __declspec(property(get = __cordl_internal_get_sigAlgName, put = __cordl_internal_set_sigAlgName))::StringW sigAlgName;
 
   /// @brief Field sigAlgParams, offset 0x20, size 0x8
-  __declspec(property(get = __get_sigAlgParams, put = __set_sigAlgParams))::ArrayW<uint8_t, ::Array<uint8_t>*> sigAlgParams;
+  __declspec(property(get = __cordl_internal_get_sigAlgParams, put = __cordl_internal_set_sigAlgParams))::ArrayW<uint8_t, ::Array<uint8_t>*> sigAlgParams;
 
   /// @brief Field basicConstraints, offset 0x28, size 0x8
-  __declspec(property(get = __get_basicConstraints, put = __set_basicConstraints))::Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints;
+  __declspec(property(get = __cordl_internal_get_basicConstraints, put = __cordl_internal_set_basicConstraints))::Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints;
 
   /// @brief Field keyUsage, offset 0x30, size 0x8
-  __declspec(property(get = __get_keyUsage, put = __set_keyUsage))::ArrayW<bool, ::Array<bool>*> keyUsage;
+  __declspec(property(get = __cordl_internal_get_keyUsage, put = __cordl_internal_set_keyUsage))::ArrayW<bool, ::Array<bool>*> keyUsage;
 
   /// @brief Field cacheLock, offset 0x38, size 0x8
-  __declspec(property(get = __get_cacheLock, put = __set_cacheLock))::System::Object* cacheLock;
+  __declspec(property(get = __cordl_internal_get_cacheLock, put = __cordl_internal_set_cacheLock))::System::Object* cacheLock;
 
   /// @brief Field publicKeyValue, offset 0x40, size 0x8
-  __declspec(property(get = __get_publicKeyValue, put = __set_publicKeyValue))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue;
+  __declspec(property(get = __cordl_internal_get_publicKeyValue, put = __cordl_internal_set_publicKeyValue))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue;
 
   /// @brief Field hashValueSet, offset 0x48, size 0x1
-  __declspec(property(get = __get_hashValueSet, put = __set_hashValueSet)) bool hashValueSet;
+  __declspec(property(get = __cordl_internal_get_hashValueSet, put = __cordl_internal_set_hashValueSet)) bool hashValueSet;
 
   /// @brief Field hashValue, offset 0x4c, size 0x4
-  __declspec(property(get = __get_hashValue, put = __set_hashValue)) int32_t hashValue;
+  __declspec(property(get = __cordl_internal_get_hashValue, put = __cordl_internal_set_hashValue)) int32_t hashValue;
 
   __declspec(property(get = get_CertificateStructure))::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* CertificateStructure;
 
@@ -116,59 +116,59 @@ public:
 
   __declspec(property(get = get_SubjectUniqueID))::Org::BouncyCastle::Asn1::DerBitString* SubjectUniqueID;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& __get_c();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
+  constexpr void __cordl_internal_set_c(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
 
-  constexpr ::StringW& __get_sigAlgName();
+  constexpr ::StringW& __cordl_internal_get_sigAlgName();
 
-  constexpr ::StringW const& __get_sigAlgName() const;
+  constexpr ::StringW const& __cordl_internal_get_sigAlgName() const;
 
-  constexpr void __set_sigAlgName(::StringW value);
+  constexpr void __cordl_internal_set_sigAlgName(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_sigAlgParams();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sigAlgParams();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_sigAlgParams() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sigAlgParams() const;
 
-  constexpr void __set_sigAlgParams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_sigAlgParams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::BasicConstraints*& __get_basicConstraints();
+  constexpr ::Org::BouncyCastle::Asn1::X509::BasicConstraints*& __cordl_internal_get_basicConstraints();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::BasicConstraints*> const& __get_basicConstraints() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::BasicConstraints*> const& __cordl_internal_get_basicConstraints() const;
 
-  constexpr void __set_basicConstraints(::Org::BouncyCastle::Asn1::X509::BasicConstraints* value);
+  constexpr void __cordl_internal_set_basicConstraints(::Org::BouncyCastle::Asn1::X509::BasicConstraints* value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_keyUsage();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_keyUsage();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_keyUsage() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_keyUsage() const;
 
-  constexpr void __set_keyUsage(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_keyUsage(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::System::Object*& __get_cacheLock();
+  constexpr ::System::Object*& __cordl_internal_get_cacheLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_cacheLock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_cacheLock() const;
 
-  constexpr void __set_cacheLock(::System::Object* value);
+  constexpr void __cordl_internal_set_cacheLock(::System::Object* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_publicKeyValue();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_publicKeyValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_publicKeyValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_publicKeyValue() const;
 
-  constexpr void __set_publicKeyValue(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_publicKeyValue(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  constexpr bool& __get_hashValueSet();
+  constexpr bool& __cordl_internal_get_hashValueSet();
 
-  constexpr bool const& __get_hashValueSet() const;
+  constexpr bool const& __cordl_internal_get_hashValueSet() const;
 
-  constexpr void __set_hashValueSet(bool value);
+  constexpr void __cordl_internal_set_hashValueSet(bool value);
 
-  constexpr int32_t& __get_hashValue();
+  constexpr int32_t& __cordl_internal_get_hashValue();
 
-  constexpr int32_t const& __get_hashValue() const;
+  constexpr int32_t const& __cordl_internal_get_hashValue() const;
 
-  constexpr void __set_hashValue(int32_t value);
+  constexpr void __cordl_internal_set_hashValue(int32_t value);
 
   static inline ::Org::BouncyCastle::X509::X509Certificate* New_ctor();
 

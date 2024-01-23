@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::TimeHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14348))
 // CS Name: ::TimeHelper*
 class CORDL_TYPE TimeHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _accumulator, offset 0x18, size 0x4
-  __declspec(property(get = __get__accumulator, put = __set__accumulator)) float_t _accumulator;
+  __declspec(property(get = __cordl_internal_get__accumulator, put = __cordl_internal_set__accumulator)) float_t _accumulator;
 
   /// @brief Field <time>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__time_k__BackingField, put = setStaticF__time_k__BackingField)) float_t _time_k__BackingField;
@@ -36,11 +36,11 @@ public:
   /// @brief Field <interpolationFactor>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__interpolationFactor_k__BackingField, put = setStaticF__interpolationFactor_k__BackingField)) float_t _interpolationFactor_k__BackingField;
 
-  constexpr float_t& __get__accumulator();
+  constexpr float_t& __cordl_internal_get__accumulator();
 
-  constexpr float_t const& __get__accumulator() const;
+  constexpr float_t const& __cordl_internal_get__accumulator() const;
 
-  constexpr void __set__accumulator(float_t value);
+  constexpr void __cordl_internal_set__accumulator(float_t value);
 
   static inline void setStaticF__time_k__BackingField(float_t value);
 

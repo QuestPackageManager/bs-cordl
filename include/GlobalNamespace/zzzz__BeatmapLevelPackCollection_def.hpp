@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4353))
 // CS Name: ::BeatmapLevelPackCollection*
 class CORDL_TYPE BeatmapLevelPackCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapLevelPacks, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevelPacks,
-                      put = __set__beatmapLevelPacks))::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> _beatmapLevelPacks;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPacks,
+                      put = __cordl_internal_set__beatmapLevelPacks))::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> _beatmapLevelPacks;
 
   __declspec(property(get = get_beatmapLevelPacks))::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> beatmapLevelPacks;
 
@@ -39,11 +39,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelPackCollection"
   constexpr ::GlobalNamespace::IBeatmapLevelPackCollection* i___GlobalNamespace__IBeatmapLevelPackCollection() noexcept;
 
-  constexpr ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*>& __get__beatmapLevelPacks();
+  constexpr ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*>& __cordl_internal_get__beatmapLevelPacks();
 
-  constexpr ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> const& __get__beatmapLevelPacks() const;
+  constexpr ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> const& __cordl_internal_get__beatmapLevelPacks() const;
 
-  constexpr void __set__beatmapLevelPacks(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> value);
+  constexpr void __cordl_internal_set__beatmapLevelPacks(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> value);
 
   /// @brief Method get_beatmapLevelPacks, addr 0x23424a4, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> get_beatmapLevelPacks();

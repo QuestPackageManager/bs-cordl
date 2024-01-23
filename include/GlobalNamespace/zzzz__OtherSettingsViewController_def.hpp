@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::OtherSettingsViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5756))
 // CS Name: ::OtherSettingsViewController*
 class CORDL_TYPE OtherSettingsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _playerDataModel, offset 0x70, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _hideExplicitToggle, offset 0x78, size 0x8
-  __declspec(property(get = __get__hideExplicitToggle, put = __set__hideExplicitToggle))::UnityEngine::UI::Toggle* _hideExplicitToggle;
+  __declspec(property(get = __cordl_internal_get__hideExplicitToggle, put = __cordl_internal_set__hideExplicitToggle))::UnityW<::UnityEngine::UI::Toggle> _hideExplicitToggle;
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__hideExplicitToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__hideExplicitToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__hideExplicitToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__hideExplicitToggle() const;
 
-  constexpr void __set__hideExplicitToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__hideExplicitToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
   /// @brief Method DidActivate, addr 0x22da650, size 0x10c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -73,10 +73,10 @@ protected:
 
 public:
   /// @brief Field _playerDataModel, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _hideExplicitToggle, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____hideExplicitToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____hideExplicitToggle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

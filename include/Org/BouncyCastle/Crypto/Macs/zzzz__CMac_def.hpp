@@ -26,38 +26,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::CMac);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(938))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::CMac*
 class CORDL_TYPE CMac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ZEROES, offset 0x10, size 0x8
-  __declspec(property(get = __get_ZEROES, put = __set_ZEROES))::ArrayW<uint8_t, ::Array<uint8_t>*> ZEROES;
+  __declspec(property(get = __cordl_internal_get_ZEROES, put = __cordl_internal_set_ZEROES))::ArrayW<uint8_t, ::Array<uint8_t>*> ZEROES;
 
   /// @brief Field mac, offset 0x18, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
 
   /// @brief Field buf, offset 0x20, size 0x8
-  __declspec(property(get = __get_buf, put = __set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
 
   /// @brief Field bufOff, offset 0x28, size 0x4
-  __declspec(property(get = __get_bufOff, put = __set_bufOff)) int32_t bufOff;
+  __declspec(property(get = __cordl_internal_get_bufOff, put = __cordl_internal_set_bufOff)) int32_t bufOff;
 
   /// @brief Field cipher, offset 0x30, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field macSize, offset 0x38, size 0x4
-  __declspec(property(get = __get_macSize, put = __set_macSize)) int32_t macSize;
+  __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
 
   /// @brief Field L, offset 0x40, size 0x8
-  __declspec(property(get = __get_L, put = __set_L))::ArrayW<uint8_t, ::Array<uint8_t>*> L;
+  __declspec(property(get = __cordl_internal_get_L, put = __cordl_internal_set_L))::ArrayW<uint8_t, ::Array<uint8_t>*> L;
 
   /// @brief Field Lu, offset 0x48, size 0x8
-  __declspec(property(get = __get_Lu, put = __set_Lu))::ArrayW<uint8_t, ::Array<uint8_t>*> Lu;
+  __declspec(property(get = __cordl_internal_get_Lu, put = __cordl_internal_set_Lu))::ArrayW<uint8_t, ::Array<uint8_t>*> Lu;
 
   /// @brief Field Lu2, offset 0x50, size 0x8
-  __declspec(property(get = __get_Lu2, put = __set_Lu2))::ArrayW<uint8_t, ::Array<uint8_t>*> Lu2;
+  __declspec(property(get = __cordl_internal_get_Lu2, put = __cordl_internal_set_Lu2))::ArrayW<uint8_t, ::Array<uint8_t>*> Lu2;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -67,59 +67,59 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ZEROES();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ZEROES();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ZEROES() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ZEROES() const;
 
-  constexpr void __set_ZEROES(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ZEROES(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mac();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mac();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mac() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_bufOff();
+  constexpr int32_t& __cordl_internal_get_bufOff();
 
-  constexpr int32_t const& __get_bufOff() const;
+  constexpr int32_t const& __cordl_internal_get_bufOff() const;
 
-  constexpr void __set_bufOff(int32_t value);
+  constexpr void __cordl_internal_set_bufOff(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr int32_t& __get_macSize();
+  constexpr int32_t& __cordl_internal_get_macSize();
 
-  constexpr int32_t const& __get_macSize() const;
+  constexpr int32_t const& __cordl_internal_get_macSize() const;
 
-  constexpr void __set_macSize(int32_t value);
+  constexpr void __cordl_internal_set_macSize(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_L();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_L();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_L() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_L() const;
 
-  constexpr void __set_L(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_L(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Lu();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Lu();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Lu() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Lu() const;
 
-  constexpr void __set_Lu(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Lu(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Lu2();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Lu2();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Lu2() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Lu2() const;
 
-  constexpr void __set_Lu2(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Lu2(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::CMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 

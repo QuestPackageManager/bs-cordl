@@ -53,49 +53,49 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509V1CertificateGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1870))
 // CS Name: ::Org.BouncyCastle.X509::X509V1CertificateGenerator*
 class CORDL_TYPE X509V1CertificateGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tbsGen, offset 0x10, size 0x8
-  __declspec(property(get = __get_tbsGen, put = __set_tbsGen))::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* tbsGen;
+  __declspec(property(get = __cordl_internal_get_tbsGen, put = __cordl_internal_set_tbsGen))::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* tbsGen;
 
   /// @brief Field sigOID, offset 0x18, size 0x8
-  __declspec(property(get = __get_sigOID, put = __set_sigOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOID;
+  __declspec(property(get = __cordl_internal_get_sigOID, put = __cordl_internal_set_sigOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOID;
 
   /// @brief Field sigAlgId, offset 0x20, size 0x8
-  __declspec(property(get = __get_sigAlgId, put = __set_sigAlgId))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId;
+  __declspec(property(get = __cordl_internal_get_sigAlgId, put = __cordl_internal_set_sigAlgId))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId;
 
   /// @brief Field signatureAlgorithm, offset 0x28, size 0x8
-  __declspec(property(get = __get_signatureAlgorithm, put = __set_signatureAlgorithm))::StringW signatureAlgorithm;
+  __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm))::StringW signatureAlgorithm;
 
   __declspec(property(get = get_SignatureAlgNames))::System::Collections::IEnumerable* SignatureAlgNames;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*& __get_tbsGen();
+  constexpr ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*& __cordl_internal_get_tbsGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*> const& __get_tbsGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*> const& __cordl_internal_get_tbsGen() const;
 
-  constexpr void __set_tbsGen(::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* value);
+  constexpr void __cordl_internal_set_tbsGen(::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_sigOID();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_sigOID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_sigOID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_sigOID() const;
 
-  constexpr void __set_sigOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_sigOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_sigAlgId();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_sigAlgId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_sigAlgId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_sigAlgId() const;
 
-  constexpr void __set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::StringW& __get_signatureAlgorithm();
+  constexpr ::StringW& __cordl_internal_get_signatureAlgorithm();
 
-  constexpr ::StringW const& __get_signatureAlgorithm() const;
+  constexpr ::StringW const& __cordl_internal_get_signatureAlgorithm() const;
 
-  constexpr void __set_signatureAlgorithm(::StringW value);
+  constexpr void __cordl_internal_set_signatureAlgorithm(::StringW value);
 
   static inline ::Org::BouncyCastle::X509::X509V1CertificateGenerator* New_ctor();
 

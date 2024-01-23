@@ -37,26 +37,27 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerAuthenticationTokenProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12681))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12681))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15513))
 // CS Name: ::MockPlayerAuthenticationTokenProvider*
 class CORDL_TYPE MockPlayerAuthenticationTokenProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _userId, offset 0x10, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _password, offset 0x18, size 0x8
-  __declspec(property(get = __get__password, put = __set__password))::StringW _password;
+  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::StringW _password;
 
   /// @brief Field <hashedUserId>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__hashedUserId_k__BackingField, put = __set__hashedUserId_k__BackingField))::StringW _hashedUserId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hashedUserId_k__BackingField, put = __cordl_internal_set__hashedUserId_k__BackingField))::StringW _hashedUserId_k__BackingField;
 
   /// @brief Field <userName>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__userName_k__BackingField, put = __set__userName_k__BackingField))::StringW _userName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userName_k__BackingField, put = __cordl_internal_set__userName_k__BackingField))::StringW _userName_k__BackingField;
 
   /// @brief Field <platform>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__platform_k__BackingField, put = __set__platform_k__BackingField))::GlobalNamespace::__AuthenticationToken__Platform _platform_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__platform_k__BackingField,
+                      put = __cordl_internal_set__platform_k__BackingField))::GlobalNamespace::__AuthenticationToken__Platform _platform_k__BackingField;
 
   __declspec(property(get = get_hashedUserId))::StringW hashedUserId;
 
@@ -70,35 +71,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr ::GlobalNamespace::IAuthenticationTokenProvider* i___GlobalNamespace__IAuthenticationTokenProvider() noexcept;
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr ::StringW& __get__password();
+  constexpr ::StringW& __cordl_internal_get__password();
 
-  constexpr ::StringW const& __get__password() const;
+  constexpr ::StringW const& __cordl_internal_get__password() const;
 
-  constexpr void __set__password(::StringW value);
+  constexpr void __cordl_internal_set__password(::StringW value);
 
-  constexpr ::StringW& __get__hashedUserId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__hashedUserId_k__BackingField();
 
-  constexpr ::StringW const& __get__hashedUserId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__hashedUserId_k__BackingField() const;
 
-  constexpr void __set__hashedUserId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__hashedUserId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__userName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__userName_k__BackingField();
 
-  constexpr ::StringW const& __get__userName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__userName_k__BackingField() const;
 
-  constexpr void __set__userName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
 
-  constexpr ::GlobalNamespace::__AuthenticationToken__Platform& __get__platform_k__BackingField();
+  constexpr ::GlobalNamespace::__AuthenticationToken__Platform& __cordl_internal_get__platform_k__BackingField();
 
-  constexpr ::GlobalNamespace::__AuthenticationToken__Platform const& __get__platform_k__BackingField() const;
+  constexpr ::GlobalNamespace::__AuthenticationToken__Platform const& __cordl_internal_get__platform_k__BackingField() const;
 
-  constexpr void __set__platform_k__BackingField(::GlobalNamespace::__AuthenticationToken__Platform value);
+  constexpr void __cordl_internal_set__platform_k__BackingField(::GlobalNamespace::__AuthenticationToken__Platform value);
 
   /// @brief Method get_hashedUserId, addr 0x23e6e80, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();

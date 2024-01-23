@@ -31,20 +31,21 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeneratedOutput);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9627))
 // CS Name: ::HoudiniEngineUnity::HEU_GeneratedOutput*
 class CORDL_TYPE HEU_GeneratedOutput : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _outputData, offset 0x10, size 0x8
-  __declspec(property(get = __get__outputData, put = __set__outputData))::HoudiniEngineUnity::HEU_GeneratedOutputData* _outputData;
+  __declspec(property(get = __cordl_internal_get__outputData, put = __cordl_internal_set__outputData))::HoudiniEngineUnity::HEU_GeneratedOutputData* _outputData;
 
   /// @brief Field _childOutputs, offset 0x18, size 0x8
-  __declspec(property(get = __get__childOutputs, put = __set__childOutputs))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* _childOutputs;
+  __declspec(property(get = __cordl_internal_get__childOutputs,
+                      put = __cordl_internal_set__childOutputs))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* _childOutputs;
 
   /// @brief Field isInstancer, offset 0x20, size 0x1
-  __declspec(property(get = __get_isInstancer, put = __set_isInstancer)) bool isInstancer;
+  __declspec(property(get = __cordl_internal_get_isInstancer, put = __cordl_internal_set_isInstancer)) bool isInstancer;
 
   __declspec(property(get = get_IsInstancer, put = set_IsInstancer)) bool IsInstancer;
 
@@ -54,23 +55,23 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_GeneratedOutput__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::HEU_GeneratedOutputData*& __get__outputData();
+  constexpr ::HoudiniEngineUnity::HEU_GeneratedOutputData*& __cordl_internal_get__outputData();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutputData*> const& __get__outputData() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutputData*> const& __cordl_internal_get__outputData() const;
 
-  constexpr void __set__outputData(::HoudiniEngineUnity::HEU_GeneratedOutputData* value);
+  constexpr void __cordl_internal_set__outputData(::HoudiniEngineUnity::HEU_GeneratedOutputData* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*& __get__childOutputs();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*& __cordl_internal_get__childOutputs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*> const& __get__childOutputs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*> const& __cordl_internal_get__childOutputs() const;
 
-  constexpr void __set__childOutputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* value);
+  constexpr void __cordl_internal_set__childOutputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* value);
 
-  constexpr bool& __get_isInstancer();
+  constexpr bool& __cordl_internal_get_isInstancer();
 
-  constexpr bool const& __get_isInstancer() const;
+  constexpr bool const& __cordl_internal_get_isInstancer() const;
 
-  constexpr void __set_isInstancer(bool value);
+  constexpr void __cordl_internal_set_isInstancer(bool value);
 
   /// @brief Method get_IsInstancer, addr 0x2155d18, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInstancer();
@@ -85,8 +86,8 @@ public:
   static inline void ResetMaterialOverrides(::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
 
   /// @brief Method GetGeneratedMaterialsForGameObject, addr 0x2155f88, size 0x1ec, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> GetGeneratedMaterialsForGameObject(::HoudiniEngineUnity::HEU_GeneratedOutput* output,
-                                                                                                                          ::UnityEngine::GameObject* inGameObject);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetGeneratedMaterialsForGameObject(::HoudiniEngineUnity::HEU_GeneratedOutput* output,
+                                                                                                                                            ::UnityEngine::GameObject* inGameObject);
 
   /// @brief Method HasLODGroup, addr 0x2155e88, size 0x54, virtual false, abstract: false, final false
   static inline bool HasLODGroup(::HoudiniEngineUnity::HEU_GeneratedOutput* output);

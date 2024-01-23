@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::TMPro::TMP_Character);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12448))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12448))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12328))
 // CS Name: ::TMPro::TMP_Character*
 class CORDL_TYPE TMP_Character : public ::TMPro::TMP_TextElement {

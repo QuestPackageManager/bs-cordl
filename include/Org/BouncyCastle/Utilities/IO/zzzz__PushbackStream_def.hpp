@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::PushbackStream);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(452))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(452))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1811))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::PushbackStream*
 class CORDL_TYPE PushbackStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
 public:
   // Declarations
   /// @brief Field buf, offset 0x30, size 0x4
-  __declspec(property(get = __get_buf, put = __set_buf)) int32_t buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf)) int32_t buf;
 
-  constexpr int32_t& __get_buf();
+  constexpr int32_t& __cordl_internal_get_buf();
 
-  constexpr int32_t const& __get_buf() const;
+  constexpr int32_t const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(int32_t value);
+  constexpr void __cordl_internal_set_buf(int32_t value);
 
   static inline ::Org::BouncyCastle::Utilities::IO::PushbackStream* New_ctor(::System::IO::Stream* s);
 

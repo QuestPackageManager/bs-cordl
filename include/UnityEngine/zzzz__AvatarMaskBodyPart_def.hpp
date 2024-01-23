@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::AvatarMaskBodyPart);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14855))
 // CS Name: ::UnityEngine::AvatarMaskBodyPart
 struct CORDL_TYPE AvatarMaskBodyPart {

@@ -13,85 +13,90 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>&
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_DepOp() {
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_DepOp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DepOp;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> const&
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_DepOp() const {
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_DepOp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DepOp;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr void
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_DepOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> value) {
+constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_DepOp(
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DepOp = value;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_WrappedOp() {
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>&
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_WrappedOp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WrappedOp;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> const&
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_WrappedOp() const {
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_WrappedOp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WrappedOp;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr void
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_WrappedOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> value) {
+constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_WrappedOp(
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WrappedOp = value;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_depStatus() {
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_depStatus() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_depStatus;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_depStatus() const {
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const&
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_depStatus() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_depStatus;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_depStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value) {
+constexpr void
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_depStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_depStatus = value;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_wrapStatus() {
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_wrapStatus() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_wrapStatus;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_wrapStatus() const {
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const&
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_wrapStatus() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_wrapStatus;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_wrapStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value) {
+constexpr void
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_wrapStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_wrapStatus = value;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                            ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_Callback() {
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_Callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                                                                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_Callback() const {
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_Callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_Callback(
+constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_Callback(
     ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -99,43 +104,45 @@ constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjec
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_CachedOnWrappedCompleted() {
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_CachedOnWrappedCompleted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedOnWrappedCompleted;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
-UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_CachedOnWrappedCompleted() const {
+UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_CachedOnWrappedCompleted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedOnWrappedCompleted;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_CachedOnWrappedCompleted(
+constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_CachedOnWrappedCompleted(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedOnWrappedCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TObject, typename TObjectDependency> constexpr bool& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_ReleaseDependenciesOnFailure() {
+template <typename TObject, typename TObjectDependency>
+constexpr bool& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_ReleaseDependenciesOnFailure() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseDependenciesOnFailure;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr bool const& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_ReleaseDependenciesOnFailure() const {
+constexpr bool const& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_ReleaseDependenciesOnFailure() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseDependenciesOnFailure;
 }
-template <typename TObject, typename TObjectDependency> constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_ReleaseDependenciesOnFailure(bool value) {
+template <typename TObject, typename TObjectDependency>
+constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_ReleaseDependenciesOnFailure(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReleaseDependenciesOnFailure = value;
 }
 template <typename TObject, typename TObjectDependency>
 inline ::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>* UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>());
 }
 template <typename TObject, typename TObjectDependency> inline void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TObject, typename TObjectDependency> inline ::StringW UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::get_DebugName() {
@@ -159,8 +166,8 @@ UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::I
                                                                                                      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback,
                                                                                     bool releaseDependenciesOnFailure) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                                                                                  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*>::get(),
@@ -183,8 +190,8 @@ template <typename TObject, typename TObjectDependency>
 inline void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::OnWrappedCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(), "OnWrappedCompleted",
-      std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>::get() })));
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x);
 }
 template <typename TObject, typename TObjectDependency> inline void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::Destroy() {
@@ -210,9 +217,10 @@ UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::G
 /// @param visited: ::System::Collections::Generic::HashSet_1<::System::Object*>* (default: nullptr)
 template <typename TObject, typename TObjectDependency>
 inline void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::RefreshDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(), "RefreshDownloadStatus",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::System::Object*>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(),
+                                  "RefreshDownloadStatus", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, visited);
 }
 template <typename TObject, typename TObjectDependency> inline float_t UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::get_Progress() {

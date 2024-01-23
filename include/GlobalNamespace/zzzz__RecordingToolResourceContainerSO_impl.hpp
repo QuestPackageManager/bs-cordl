@@ -13,23 +13,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2308cf0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolResourceContainerSO*>::get(),
-                                                                               "get_beatmapLevelPacks", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_beatmapLevelPacks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolResourceContainerSO.get_environmentsList
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentsListSO* (::GlobalNamespace::RecordingToolResourceContainerSO::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentsListSO> (::GlobalNamespace::RecordingToolResourceContainerSO::*)()>(
     &::GlobalNamespace::RecordingToolResourceContainerSO::get_environmentsList)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2308cf8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolResourceContainerSO*>::get(),
-                                                                               "get_environmentsList", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_environmentsList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x2308d00;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolResourceContainerSO*>::get(),
@@ -57,70 +57,70 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2308dcc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolResourceContainerSO*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& GlobalNamespace::RecordingToolResourceContainerSO::__get__dlcLevelPackCollection() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__dlcLevelPackCollection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dlcLevelPackCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& GlobalNamespace::RecordingToolResourceContainerSO::__get__dlcLevelPackCollection() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__dlcLevelPackCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dlcLevelPackCollection;
 }
-constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__set__dlcLevelPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value) {
+constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_set__dlcLevelPackCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dlcLevelPackCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& GlobalNamespace::RecordingToolResourceContainerSO::__get__ostAndExtrasPackCollection() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__ostAndExtrasPackCollection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ostAndExtrasPackCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& GlobalNamespace::RecordingToolResourceContainerSO::__get__ostAndExtrasPackCollection() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__ostAndExtrasPackCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ostAndExtrasPackCollection;
 }
-constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__set__ostAndExtrasPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value) {
+constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_set__ostAndExtrasPackCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ostAndExtrasPackCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EnvironmentsListSO*& GlobalNamespace::RecordingToolResourceContainerSO::__get__environmentsList() {
+constexpr ::UnityW<::GlobalNamespace::EnvironmentsListSO>& GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__environmentsList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentsList;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListSO*> const& GlobalNamespace::RecordingToolResourceContainerSO::__get__environmentsList() const {
+constexpr ::UnityW<::GlobalNamespace::EnvironmentsListSO> const& GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__environmentsList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentsList;
 }
-constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__set__environmentsList(::GlobalNamespace::EnvironmentsListSO* value) {
+constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_set__environmentsList(::UnityW<::GlobalNamespace::EnvironmentsListSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentsList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*& GlobalNamespace::RecordingToolResourceContainerSO::__get__beatmapLevelPacks() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*& GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__beatmapLevelPacks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelPacks;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*> const&
-GlobalNamespace::RecordingToolResourceContainerSO::__get__beatmapLevelPacks() const {
+GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_get__beatmapLevelPacks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelPacks;
 }
-constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__set__beatmapLevelPacks(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* value) {
+constexpr void GlobalNamespace::RecordingToolResourceContainerSO::__cordl_internal_set__beatmapLevelPacks(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelPacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* GlobalNamespace::RecordingToolResourceContainerSO::get_beatmapLevelPacks() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolResourceContainerSO*>::get(),
-                                                                             "get_beatmapLevelPacks", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_beatmapLevelPacks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EnvironmentsListSO* GlobalNamespace::RecordingToolResourceContainerSO::get_environmentsList() {
+inline ::UnityW<::GlobalNamespace::EnvironmentsListSO> GlobalNamespace::RecordingToolResourceContainerSO::get_environmentsList() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolResourceContainerSO*>::get(),
-                                                                             "get_environmentsList", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EnvironmentsListSO*, false>(this, ___internal_method);
+                                                                             "get_environmentsList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::EnvironmentsListSO>, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::RecordingToolResourceContainerSO::OnEnable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -128,11 +128,11 @@ inline void GlobalNamespace::RecordingToolResourceContainerSO::OnEnable() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::RecordingToolResourceContainerSO* GlobalNamespace::RecordingToolResourceContainerSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::RecordingToolResourceContainerSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolResourceContainerSO*>());
 }
 inline void GlobalNamespace::RecordingToolResourceContainerSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolResourceContainerSO*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

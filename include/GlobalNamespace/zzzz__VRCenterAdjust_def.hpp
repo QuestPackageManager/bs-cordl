@@ -26,47 +26,47 @@ MARK_REF_PTR_T(::GlobalNamespace::VRCenterAdjust);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5999))
 // CS Name: ::VRCenterAdjust*
 class CORDL_TYPE VRCenterAdjust : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _roomCenter, offset 0x18, size 0x8
-  __declspec(property(get = __get__roomCenter, put = __set__roomCenter))::GlobalNamespace::Vector3SO* _roomCenter;
+  __declspec(property(get = __cordl_internal_get__roomCenter, put = __cordl_internal_set__roomCenter))::UnityW<::GlobalNamespace::Vector3SO> _roomCenter;
 
   /// @brief Field _roomRotation, offset 0x20, size 0x8
-  __declspec(property(get = __get__roomRotation, put = __set__roomRotation))::GlobalNamespace::FloatSO* _roomRotation;
+  __declspec(property(get = __cordl_internal_get__roomRotation, put = __cordl_internal_set__roomRotation))::UnityW<::GlobalNamespace::FloatSO> _roomRotation;
 
   /// @brief Field _mainSettingsModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _savedata, offset 0x30, size 0x8
-  __declspec(property(get = __get__savedata, put = __set__savedata))::GlobalNamespace::ISaveData* _savedata;
+  __declspec(property(get = __cordl_internal_get__savedata, put = __cordl_internal_set__savedata))::GlobalNamespace::ISaveData* _savedata;
 
-  constexpr ::GlobalNamespace::Vector3SO*& __get__roomCenter();
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__roomCenter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& __get__roomCenter() const;
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__roomCenter() const;
 
-  constexpr void __set__roomCenter(::GlobalNamespace::Vector3SO* value);
+  constexpr void __cordl_internal_set__roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__roomRotation();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__roomRotation();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__roomRotation() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__roomRotation() const;
 
-  constexpr void __set__roomRotation(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__roomRotation(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::GlobalNamespace::ISaveData*& __get__savedata();
+  constexpr ::GlobalNamespace::ISaveData*& __cordl_internal_get__savedata();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __get__savedata() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __cordl_internal_get__savedata() const;
 
-  constexpr void __set__savedata(::GlobalNamespace::ISaveData* value);
+  constexpr void __cordl_internal_set__savedata(::GlobalNamespace::ISaveData* value);
 
   /// @brief Method Awake, addr 0x2314828, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
@@ -112,13 +112,13 @@ protected:
 
 public:
   /// @brief Field _roomCenter, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::Vector3SO* ____roomCenter;
+  ::UnityW<::GlobalNamespace::Vector3SO> ____roomCenter;
 
   /// @brief Field _roomRotation, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____roomRotation;
+  ::UnityW<::GlobalNamespace::FloatSO> ____roomRotation;
 
   /// @brief Field _mainSettingsModel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _savedata, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ISaveData* ____savedata;

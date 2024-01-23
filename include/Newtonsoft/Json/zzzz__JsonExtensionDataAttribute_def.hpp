@@ -14,33 +14,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonExtensionDataAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11805))
 // CS Name: ::Newtonsoft.Json::JsonExtensionDataAttribute*
 class CORDL_TYPE JsonExtensionDataAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <WriteData>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__WriteData_k__BackingField, put = __set__WriteData_k__BackingField)) bool _WriteData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__WriteData_k__BackingField, put = __cordl_internal_set__WriteData_k__BackingField)) bool _WriteData_k__BackingField;
 
   /// @brief Field <ReadData>k__BackingField, offset 0x11, size 0x1
-  __declspec(property(get = __get__ReadData_k__BackingField, put = __set__ReadData_k__BackingField)) bool _ReadData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReadData_k__BackingField, put = __cordl_internal_set__ReadData_k__BackingField)) bool _ReadData_k__BackingField;
 
   __declspec(property(get = get_WriteData, put = set_WriteData)) bool WriteData;
 
   __declspec(property(get = get_ReadData, put = set_ReadData)) bool ReadData;
 
-  constexpr bool& __get__WriteData_k__BackingField();
+  constexpr bool& __cordl_internal_get__WriteData_k__BackingField();
 
-  constexpr bool const& __get__WriteData_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__WriteData_k__BackingField() const;
 
-  constexpr void __set__WriteData_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
 
-  constexpr bool& __get__ReadData_k__BackingField();
+  constexpr bool& __cordl_internal_get__ReadData_k__BackingField();
 
-  constexpr bool const& __get__ReadData_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ReadData_k__BackingField() const;
 
-  constexpr void __set__ReadData_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ReadData_k__BackingField(bool value);
 
   /// @brief Method get_WriteData, addr 0x263e9a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();

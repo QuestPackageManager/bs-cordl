@@ -25,56 +25,56 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3958))
 // CS Name: ::BeatmapObjectAvoidanceTiltEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidanceTiltEvaluator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _audioTimeSource, offset 0x10, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _gravity, offset 0x18, size 0x8
-  __declspec(property(get = __get__gravity, put = __set__gravity))::UnityEngine::Vector2 _gravity;
+  __declspec(property(get = __cordl_internal_get__gravity, put = __cordl_internal_set__gravity))::UnityEngine::Vector2 _gravity;
 
   /// @brief Field _normalizedGravity, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalizedGravity, put = __set__normalizedGravity))::UnityEngine::Vector2 _normalizedGravity;
+  __declspec(property(get = __cordl_internal_get__normalizedGravity, put = __cordl_internal_set__normalizedGravity))::UnityEngine::Vector2 _normalizedGravity;
 
   /// @brief Field _bezierSplineEvaluator, offset 0x28, size 0x8
-  __declspec(property(get = __get__bezierSplineEvaluator, put = __set__bezierSplineEvaluator))::GlobalNamespace::BezierSplineEvaluator* _bezierSplineEvaluator;
+  __declspec(property(get = __cordl_internal_get__bezierSplineEvaluator, put = __cordl_internal_set__bezierSplineEvaluator))::GlobalNamespace::BezierSplineEvaluator* _bezierSplineEvaluator;
 
   /// @brief Field _currentAcceleration, offset 0x30, size 0x4
-  __declspec(property(get = __get__currentAcceleration, put = __set__currentAcceleration)) float_t _currentAcceleration;
+  __declspec(property(get = __cordl_internal_get__currentAcceleration, put = __cordl_internal_set__currentAcceleration)) float_t _currentAcceleration;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::UnityEngine::Vector2& __get__gravity();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__gravity();
 
-  constexpr ::UnityEngine::Vector2 const& __get__gravity() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__gravity() const;
 
-  constexpr void __set__gravity(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__gravity(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__normalizedGravity();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__normalizedGravity();
 
-  constexpr ::UnityEngine::Vector2 const& __get__normalizedGravity() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__normalizedGravity() const;
 
-  constexpr void __set__normalizedGravity(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__normalizedGravity(::UnityEngine::Vector2 value);
 
-  constexpr ::GlobalNamespace::BezierSplineEvaluator*& __get__bezierSplineEvaluator();
+  constexpr ::GlobalNamespace::BezierSplineEvaluator*& __cordl_internal_get__bezierSplineEvaluator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const& __get__bezierSplineEvaluator() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const& __cordl_internal_get__bezierSplineEvaluator() const;
 
-  constexpr void __set__bezierSplineEvaluator(::GlobalNamespace::BezierSplineEvaluator* value);
+  constexpr void __cordl_internal_set__bezierSplineEvaluator(::GlobalNamespace::BezierSplineEvaluator* value);
 
-  constexpr float_t& __get__currentAcceleration();
+  constexpr float_t& __cordl_internal_get__currentAcceleration();
 
-  constexpr float_t const& __get__currentAcceleration() const;
+  constexpr float_t const& __cordl_internal_get__currentAcceleration() const;
 
-  constexpr void __set__currentAcceleration(float_t value);
+  constexpr void __cordl_internal_set__currentAcceleration(float_t value);
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
                                                                                  ::UnityEngine::Vector2 gravity);

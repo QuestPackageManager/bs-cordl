@@ -21,33 +21,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12074)), TypeDefinitionIndex(TypeDefinitionIndex(12082))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12074)), TypeDefinitionIndex(TypeDefinitionIndex(12082))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12077))
 // CS Name: ::Newtonsoft.Json.Bson::BsonValue*
 class CORDL_TYPE BsonValue : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
   // Declarations
   /// @brief Field _value, offset 0x20, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::System::Object* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::System::Object* _value;
 
   /// @brief Field _type, offset 0x28, size 0x1
-  __declspec(property(get = __get__type, put = __set__type))::Newtonsoft::Json::Bson::BsonType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::Newtonsoft::Json::Bson::BsonType _type;
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
   __declspec(property(get = get_Type))::Newtonsoft::Json::Bson::BsonType Type;
 
-  constexpr ::System::Object*& __get__value();
+  constexpr ::System::Object*& __cordl_internal_get__value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::System::Object* value);
+  constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  constexpr ::Newtonsoft::Json::Bson::BsonType& __get__type();
+  constexpr ::Newtonsoft::Json::Bson::BsonType& __cordl_internal_get__type();
 
-  constexpr ::Newtonsoft::Json::Bson::BsonType const& __get__type() const;
+  constexpr ::Newtonsoft::Json::Bson::BsonType const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::Newtonsoft::Json::Bson::BsonType value);
+  constexpr void __cordl_internal_set__type(::Newtonsoft::Json::Bson::BsonType value);
 
   static inline ::Newtonsoft::Json::Bson::BsonValue* New_ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 

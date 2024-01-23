@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4828))
 // CS Name: ::StaticJumpOffsetYProvider::InitData*
 class CORDL_TYPE __StaticJumpOffsetYProvider__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field jumpyYOffset, offset 0x10, size 0x4
-  __declspec(property(get = __get_jumpyYOffset, put = __set_jumpyYOffset)) float_t jumpyYOffset;
+  __declspec(property(get = __cordl_internal_get_jumpyYOffset, put = __cordl_internal_set_jumpyYOffset)) float_t jumpyYOffset;
 
-  constexpr float_t& __get_jumpyYOffset();
+  constexpr float_t& __cordl_internal_get_jumpyYOffset();
 
-  constexpr float_t const& __get_jumpyYOffset() const;
+  constexpr float_t const& __cordl_internal_get_jumpyYOffset() const;
 
-  constexpr void __set_jumpyYOffset(float_t value);
+  constexpr void __cordl_internal_set_jumpyYOffset(float_t value);
 
   static inline ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* New_ctor(float_t jumpyYOffset);
 
@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4829))
 // CS Name: ::StaticJumpOffsetYProvider*
 class CORDL_TYPE StaticJumpOffsetYProvider : public ::System::Object {
@@ -83,7 +83,7 @@ public:
   using InitData = ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData;
 
   /// @brief Field _initData, offset 0x10, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* _initData;
 
   __declspec(property(get = get_jumpOffsetY)) float_t jumpOffsetY;
 
@@ -93,11 +93,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
   constexpr ::GlobalNamespace::IJumpOffsetYProvider* i___GlobalNamespace__IJumpOffsetYProvider() noexcept;
 
-  constexpr ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* value);
 
   /// @brief Method get_jumpOffsetY, addr 0x2395ba4, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();

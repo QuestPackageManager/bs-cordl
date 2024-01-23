@@ -22,23 +22,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(724))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::DHKdfParameters*
 class CORDL_TYPE DHKdfParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm;
 
   /// @brief Field keySize, offset 0x18, size 0x4
-  __declspec(property(get = __get_keySize, put = __set_keySize)) int32_t keySize;
+  __declspec(property(get = __cordl_internal_get_keySize, put = __cordl_internal_set_keySize)) int32_t keySize;
 
   /// @brief Field z, offset 0x20, size 0x8
-  __declspec(property(get = __get_z, put = __set_z))::ArrayW<uint8_t, ::Array<uint8_t>*> z;
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z))::ArrayW<uint8_t, ::Array<uint8_t>*> z;
 
   /// @brief Field extraInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_extraInfo, put = __set_extraInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> extraInfo;
+  __declspec(property(get = __cordl_internal_get_extraInfo, put = __cordl_internal_set_extraInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> extraInfo;
 
   __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Algorithm;
 
@@ -50,29 +50,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_algorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_algorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr int32_t& __get_keySize();
+  constexpr int32_t& __cordl_internal_get_keySize();
 
-  constexpr int32_t const& __get_keySize() const;
+  constexpr int32_t const& __cordl_internal_get_keySize() const;
 
-  constexpr void __set_keySize(int32_t value);
+  constexpr void __cordl_internal_set_keySize(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_z();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_z();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_z() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_z() const;
 
-  constexpr void __set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_extraInfo();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_extraInfo();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_extraInfo() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_extraInfo() const;
 
-  constexpr void __set_extraInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_extraInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize,
                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> z);

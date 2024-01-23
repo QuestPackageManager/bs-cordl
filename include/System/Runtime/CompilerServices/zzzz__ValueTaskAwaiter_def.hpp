@@ -41,7 +41,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3389))
 // CS Name: ::ValueTaskAwaiter::<>c*
 class CORDL_TYPE __ValueTaskAwaiter____c : public ::System::Object {
@@ -86,7 +86,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3390))
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter
 struct CORDL_TYPE ValueTaskAwaiter {

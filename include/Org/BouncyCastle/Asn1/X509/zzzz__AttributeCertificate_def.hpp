@@ -34,20 +34,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::AttributeCertificate);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(341))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::AttributeCertificate*
 class CORDL_TYPE AttributeCertificate : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field acinfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_acinfo, put = __set_acinfo))::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo;
+  __declspec(property(get = __cordl_internal_get_acinfo, put = __cordl_internal_set_acinfo))::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo;
 
   /// @brief Field signatureAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get_signatureAlgorithm, put = __set_signatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm;
+  __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm;
 
   /// @brief Field signatureValue, offset 0x20, size 0x8
-  __declspec(property(get = __get_signatureValue, put = __set_signatureValue))::Org::BouncyCastle::Asn1::DerBitString* signatureValue;
+  __declspec(property(get = __cordl_internal_get_signatureValue, put = __cordl_internal_set_signatureValue))::Org::BouncyCastle::Asn1::DerBitString* signatureValue;
 
   __declspec(property(get = get_ACInfo))::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* ACInfo;
 
@@ -55,23 +55,23 @@ public:
 
   __declspec(property(get = get_SignatureValue))::Org::BouncyCastle::Asn1::DerBitString* SignatureValue;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*& __get_acinfo();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*& __cordl_internal_get_acinfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*> const& __get_acinfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*> const& __cordl_internal_get_acinfo() const;
 
-  constexpr void __set_acinfo(::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* value);
+  constexpr void __cordl_internal_set_acinfo(::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_signatureAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_signatureAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_signatureAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_signatureAlgorithm() const;
 
-  constexpr void __set_signatureAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_signatureAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_signatureValue();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_signatureValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_signatureValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_signatureValue() const;
 
-  constexpr void __set_signatureValue(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_signatureValue(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   /// @brief Method GetInstance, addr 0x1084344, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetInstance(::System::Object* obj);

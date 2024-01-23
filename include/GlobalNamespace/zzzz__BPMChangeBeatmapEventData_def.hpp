@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BPMChangeBeatmapEventData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14729))
 // CS Name: ::BPMChangeBeatmapEventData*
 class CORDL_TYPE BPMChangeBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
   /// @brief Field bpm, offset 0x30, size 0x4
-  __declspec(property(get = __get_bpm, put = __set_bpm)) float_t bpm;
+  __declspec(property(get = __cordl_internal_get_bpm, put = __cordl_internal_set_bpm)) float_t bpm;
 
-  constexpr float_t& __get_bpm();
+  constexpr float_t& __cordl_internal_get_bpm();
 
-  constexpr float_t const& __get_bpm() const;
+  constexpr float_t const& __cordl_internal_get_bpm() const;
 
-  constexpr void __set_bpm(float_t value);
+  constexpr void __cordl_internal_set_bpm(float_t value);
 
   static inline ::GlobalNamespace::BPMChangeBeatmapEventData* New_ctor(float_t time, float_t bpm);
 

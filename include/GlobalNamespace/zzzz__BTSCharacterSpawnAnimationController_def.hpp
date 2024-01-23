@@ -36,134 +36,139 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterSpawnAnimationController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3970))
 // CS Name: ::BTSCharacterSpawnAnimationController*
 class CORDL_TYPE BTSCharacterSpawnAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _spawnCharacterPlayableDirector, offset 0x18, size 0x8
-  __declspec(property(get = __get__spawnCharacterPlayableDirector, put = __set__spawnCharacterPlayableDirector))::UnityEngine::Playables::PlayableDirector* _spawnCharacterPlayableDirector;
+  __declspec(property(get = __cordl_internal_get__spawnCharacterPlayableDirector,
+                      put = __cordl_internal_set__spawnCharacterPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _spawnCharacterPlayableDirector;
 
   /// @brief Field _jumpReceiver, offset 0x20, size 0x8
-  __declspec(property(get = __get__jumpReceiver, put = __set__jumpReceiver))::GlobalNamespace::JumpReceiver* _jumpReceiver;
+  __declspec(property(get = __cordl_internal_get__jumpReceiver, put = __cordl_internal_set__jumpReceiver))::UnityW<::GlobalNamespace::JumpReceiver> _jumpReceiver;
 
   /// @brief Field _appearAnimationEndTime, offset 0x28, size 0x4
-  __declspec(property(get = __get__appearAnimationEndTime, put = __set__appearAnimationEndTime)) float_t _appearAnimationEndTime;
+  __declspec(property(get = __cordl_internal_get__appearAnimationEndTime, put = __cordl_internal_set__appearAnimationEndTime)) float_t _appearAnimationEndTime;
 
   /// @brief Field _disappearAnimationStartTime, offset 0x2c, size 0x4
-  __declspec(property(get = __get__disappearAnimationStartTime, put = __set__disappearAnimationStartTime)) float_t _disappearAnimationStartTime;
+  __declspec(property(get = __cordl_internal_get__disappearAnimationStartTime, put = __cordl_internal_set__disappearAnimationStartTime)) float_t _disappearAnimationStartTime;
 
   /// @brief Field _rimLightColorSetter, offset 0x30, size 0x8
-  __declspec(property(get = __get__rimLightColorSetter, put = __set__rimLightColorSetter))::GlobalNamespace::MaterialPropertyBlockColorSetter* _rimLightColorSetter;
+  __declspec(property(get = __cordl_internal_get__rimLightColorSetter,
+                      put = __cordl_internal_set__rimLightColorSetter))::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _rimLightColorSetter;
 
   /// @brief Field _rimLightIntensityAnimator, offset 0x38, size 0x8
-  __declspec(property(get = __get__rimLightIntensityAnimator, put = __set__rimLightIntensityAnimator))::GlobalNamespace::MaterialPropertyBlockFloatAnimator* _rimLightIntensityAnimator;
+  __declspec(property(get = __cordl_internal_get__rimLightIntensityAnimator,
+                      put = __cordl_internal_set__rimLightIntensityAnimator))::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> _rimLightIntensityAnimator;
 
   /// @brief Field _rimLightEdgeStartAnimator, offset 0x40, size 0x8
-  __declspec(property(get = __get__rimLightEdgeStartAnimator, put = __set__rimLightEdgeStartAnimator))::GlobalNamespace::MaterialPropertyBlockFloatAnimator* _rimLightEdgeStartAnimator;
+  __declspec(property(get = __cordl_internal_get__rimLightEdgeStartAnimator,
+                      put = __cordl_internal_set__rimLightEdgeStartAnimator))::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> _rimLightEdgeStartAnimator;
 
   /// @brief Field _songSpeedData, offset 0x48, size 0x8
-  __declspec(property(get = __get__songSpeedData, put = __set__songSpeedData))::GlobalNamespace::SongSpeedData* _songSpeedData;
+  __declspec(property(get = __cordl_internal_get__songSpeedData, put = __cordl_internal_set__songSpeedData))::GlobalNamespace::SongSpeedData* _songSpeedData;
 
   /// @brief Field _characterActivationTrack, offset 0x50, size 0x8
-  __declspec(property(get = __get__characterActivationTrack, put = __set__characterActivationTrack))::UnityEngine::Timeline::ActivationTrack* _characterActivationTrack;
+  __declspec(property(get = __cordl_internal_get__characterActivationTrack,
+                      put = __cordl_internal_set__characterActivationTrack))::UnityW<::UnityEngine::Timeline::ActivationTrack> _characterActivationTrack;
 
   /// @brief Field _currentBtsCharacter, offset 0x58, size 0x8
-  __declspec(property(get = __get__currentBtsCharacter, put = __set__currentBtsCharacter))::GlobalNamespace::BTSCharacter* _currentBtsCharacter;
+  __declspec(property(get = __cordl_internal_get__currentBtsCharacter, put = __cordl_internal_set__currentBtsCharacter))::UnityW<::GlobalNamespace::BTSCharacter> _currentBtsCharacter;
 
   /// @brief Field _defaultSpawnCharacterDuration, offset 0x60, size 0x4
-  __declspec(property(get = __get__defaultSpawnCharacterDuration, put = __set__defaultSpawnCharacterDuration)) float_t _defaultSpawnCharacterDuration;
+  __declspec(property(get = __cordl_internal_get__defaultSpawnCharacterDuration, put = __cordl_internal_set__defaultSpawnCharacterDuration)) float_t _defaultSpawnCharacterDuration;
 
   /// @brief Field _playableDirectorTimeBeforePause, offset 0x68, size 0x8
-  __declspec(property(get = __get__playableDirectorTimeBeforePause, put = __set__playableDirectorTimeBeforePause)) double_t _playableDirectorTimeBeforePause;
+  __declspec(property(get = __cordl_internal_get__playableDirectorTimeBeforePause, put = __cordl_internal_set__playableDirectorTimeBeforePause)) double_t _playableDirectorTimeBeforePause;
 
   /// @brief Field _animatorNormalizedTimeBeforePause, offset 0x70, size 0x4
-  __declspec(property(get = __get__animatorNormalizedTimeBeforePause, put = __set__animatorNormalizedTimeBeforePause)) float_t _animatorNormalizedTimeBeforePause;
+  __declspec(property(get = __cordl_internal_get__animatorNormalizedTimeBeforePause, put = __cordl_internal_set__animatorNormalizedTimeBeforePause)) float_t _animatorNormalizedTimeBeforePause;
 
   __declspec(property(get = get_isCharacterVisible)) bool isCharacterVisible;
 
   __declspec(property(get = get_duration)) float_t duration;
 
-  __declspec(property(get = get_characterActivationTrack))::UnityEngine::Timeline::ActivationTrack* characterActivationTrack;
+  __declspec(property(get = get_characterActivationTrack))::UnityW<::UnityEngine::Timeline::ActivationTrack> characterActivationTrack;
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get__spawnCharacterPlayableDirector();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__spawnCharacterPlayableDirector();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get__spawnCharacterPlayableDirector() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__spawnCharacterPlayableDirector() const;
 
-  constexpr void __set__spawnCharacterPlayableDirector(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set__spawnCharacterPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  constexpr ::GlobalNamespace::JumpReceiver*& __get__jumpReceiver();
+  constexpr ::UnityW<::GlobalNamespace::JumpReceiver>& __cordl_internal_get__jumpReceiver();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::JumpReceiver*> const& __get__jumpReceiver() const;
+  constexpr ::UnityW<::GlobalNamespace::JumpReceiver> const& __cordl_internal_get__jumpReceiver() const;
 
-  constexpr void __set__jumpReceiver(::GlobalNamespace::JumpReceiver* value);
+  constexpr void __cordl_internal_set__jumpReceiver(::UnityW<::GlobalNamespace::JumpReceiver> value);
 
-  constexpr float_t& __get__appearAnimationEndTime();
+  constexpr float_t& __cordl_internal_get__appearAnimationEndTime();
 
-  constexpr float_t const& __get__appearAnimationEndTime() const;
+  constexpr float_t const& __cordl_internal_get__appearAnimationEndTime() const;
 
-  constexpr void __set__appearAnimationEndTime(float_t value);
+  constexpr void __cordl_internal_set__appearAnimationEndTime(float_t value);
 
-  constexpr float_t& __get__disappearAnimationStartTime();
+  constexpr float_t& __cordl_internal_get__disappearAnimationStartTime();
 
-  constexpr float_t const& __get__disappearAnimationStartTime() const;
+  constexpr float_t const& __cordl_internal_get__disappearAnimationStartTime() const;
 
-  constexpr void __set__disappearAnimationStartTime(float_t value);
+  constexpr void __cordl_internal_set__disappearAnimationStartTime(float_t value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& __get__rimLightColorSetter();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__rimLightColorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const& __get__rimLightColorSetter() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__rimLightColorSetter() const;
 
-  constexpr void __set__rimLightColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value);
+  constexpr void __cordl_internal_set__rimLightColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& __get__rimLightIntensityAnimator();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& __cordl_internal_get__rimLightIntensityAnimator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockFloatAnimator*> const& __get__rimLightIntensityAnimator() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& __cordl_internal_get__rimLightIntensityAnimator() const;
 
-  constexpr void __set__rimLightIntensityAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator* value);
+  constexpr void __cordl_internal_set__rimLightIntensityAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& __get__rimLightEdgeStartAnimator();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& __cordl_internal_get__rimLightEdgeStartAnimator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockFloatAnimator*> const& __get__rimLightEdgeStartAnimator() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& __cordl_internal_get__rimLightEdgeStartAnimator() const;
 
-  constexpr void __set__rimLightEdgeStartAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator* value);
+  constexpr void __cordl_internal_set__rimLightEdgeStartAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value);
 
-  constexpr ::GlobalNamespace::SongSpeedData*& __get__songSpeedData();
+  constexpr ::GlobalNamespace::SongSpeedData*& __cordl_internal_get__songSpeedData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongSpeedData*> const& __get__songSpeedData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongSpeedData*> const& __cordl_internal_get__songSpeedData() const;
 
-  constexpr void __set__songSpeedData(::GlobalNamespace::SongSpeedData* value);
+  constexpr void __cordl_internal_set__songSpeedData(::GlobalNamespace::SongSpeedData* value);
 
-  constexpr ::UnityEngine::Timeline::ActivationTrack*& __get__characterActivationTrack();
+  constexpr ::UnityW<::UnityEngine::Timeline::ActivationTrack>& __cordl_internal_get__characterActivationTrack();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ActivationTrack*> const& __get__characterActivationTrack() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::ActivationTrack> const& __cordl_internal_get__characterActivationTrack() const;
 
-  constexpr void __set__characterActivationTrack(::UnityEngine::Timeline::ActivationTrack* value);
+  constexpr void __cordl_internal_set__characterActivationTrack(::UnityW<::UnityEngine::Timeline::ActivationTrack> value);
 
-  constexpr ::GlobalNamespace::BTSCharacter*& __get__currentBtsCharacter();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacter>& __cordl_internal_get__currentBtsCharacter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacter*> const& __get__currentBtsCharacter() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacter> const& __cordl_internal_get__currentBtsCharacter() const;
 
-  constexpr void __set__currentBtsCharacter(::GlobalNamespace::BTSCharacter* value);
+  constexpr void __cordl_internal_set__currentBtsCharacter(::UnityW<::GlobalNamespace::BTSCharacter> value);
 
-  constexpr float_t& __get__defaultSpawnCharacterDuration();
+  constexpr float_t& __cordl_internal_get__defaultSpawnCharacterDuration();
 
-  constexpr float_t const& __get__defaultSpawnCharacterDuration() const;
+  constexpr float_t const& __cordl_internal_get__defaultSpawnCharacterDuration() const;
 
-  constexpr void __set__defaultSpawnCharacterDuration(float_t value);
+  constexpr void __cordl_internal_set__defaultSpawnCharacterDuration(float_t value);
 
-  constexpr double_t& __get__playableDirectorTimeBeforePause();
+  constexpr double_t& __cordl_internal_get__playableDirectorTimeBeforePause();
 
-  constexpr double_t const& __get__playableDirectorTimeBeforePause() const;
+  constexpr double_t const& __cordl_internal_get__playableDirectorTimeBeforePause() const;
 
-  constexpr void __set__playableDirectorTimeBeforePause(double_t value);
+  constexpr void __cordl_internal_set__playableDirectorTimeBeforePause(double_t value);
 
-  constexpr float_t& __get__animatorNormalizedTimeBeforePause();
+  constexpr float_t& __cordl_internal_get__animatorNormalizedTimeBeforePause();
 
-  constexpr float_t const& __get__animatorNormalizedTimeBeforePause() const;
+  constexpr float_t const& __cordl_internal_get__animatorNormalizedTimeBeforePause() const;
 
-  constexpr void __set__animatorNormalizedTimeBeforePause(float_t value);
+  constexpr void __cordl_internal_set__animatorNormalizedTimeBeforePause(float_t value);
 
   /// @brief Method get_isCharacterVisible, addr 0x2219c34, size 0x28, virtual false, abstract: false, final false
   inline bool get_isCharacterVisible();
@@ -172,7 +177,7 @@ public:
   inline float_t get_duration();
 
   /// @brief Method get_characterActivationTrack, addr 0x2219c94, size 0x410, virtual false, abstract: false, final false
-  inline ::UnityEngine::Timeline::ActivationTrack* get_characterActivationTrack();
+  inline ::UnityW<::UnityEngine::Timeline::ActivationTrack> get_characterActivationTrack();
 
   /// @brief Method PlayAnimation, addr 0x221a0a4, size 0xcc, virtual false, abstract: false, final false
   inline void PlayAnimation();
@@ -215,10 +220,10 @@ protected:
 
 public:
   /// @brief Field _spawnCharacterPlayableDirector, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ____spawnCharacterPlayableDirector;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ____spawnCharacterPlayableDirector;
 
   /// @brief Field _jumpReceiver, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::JumpReceiver* ____jumpReceiver;
+  ::UnityW<::GlobalNamespace::JumpReceiver> ____jumpReceiver;
 
   /// @brief Field _appearAnimationEndTime, offset: 0x28, size: 0x4, def value: None
   float_t ____appearAnimationEndTime;
@@ -227,22 +232,22 @@ public:
   float_t ____disappearAnimationStartTime;
 
   /// @brief Field _rimLightColorSetter, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockColorSetter* ____rimLightColorSetter;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____rimLightColorSetter;
 
   /// @brief Field _rimLightIntensityAnimator, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* ____rimLightIntensityAnimator;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> ____rimLightIntensityAnimator;
 
   /// @brief Field _rimLightEdgeStartAnimator, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* ____rimLightEdgeStartAnimator;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> ____rimLightEdgeStartAnimator;
 
   /// @brief Field _songSpeedData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::SongSpeedData* ____songSpeedData;
 
   /// @brief Field _characterActivationTrack, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Timeline::ActivationTrack* ____characterActivationTrack;
+  ::UnityW<::UnityEngine::Timeline::ActivationTrack> ____characterActivationTrack;
 
   /// @brief Field _currentBtsCharacter, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::BTSCharacter* ____currentBtsCharacter;
+  ::UnityW<::GlobalNamespace::BTSCharacter> ____currentBtsCharacter;
 
   /// @brief Field _defaultSpawnCharacterDuration, offset: 0x60, size: 0x4, def value: None
   float_t ____defaultSpawnCharacterDuration;

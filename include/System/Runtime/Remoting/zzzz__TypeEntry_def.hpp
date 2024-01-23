@@ -15,33 +15,33 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::TypeEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3079))
 // CS Name: ::System.Runtime.Remoting::TypeEntry*
 class CORDL_TYPE TypeEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assembly_name, offset 0x10, size 0x8
-  __declspec(property(get = __get_assembly_name, put = __set_assembly_name))::StringW assembly_name;
+  __declspec(property(get = __cordl_internal_get_assembly_name, put = __cordl_internal_set_assembly_name))::StringW assembly_name;
 
   /// @brief Field type_name, offset 0x18, size 0x8
-  __declspec(property(get = __get_type_name, put = __set_type_name))::StringW type_name;
+  __declspec(property(get = __cordl_internal_get_type_name, put = __cordl_internal_set_type_name))::StringW type_name;
 
   __declspec(property(get = get_AssemblyName, put = set_AssemblyName))::StringW AssemblyName;
 
   __declspec(property(get = get_TypeName, put = set_TypeName))::StringW TypeName;
 
-  constexpr ::StringW& __get_assembly_name();
+  constexpr ::StringW& __cordl_internal_get_assembly_name();
 
-  constexpr ::StringW const& __get_assembly_name() const;
+  constexpr ::StringW const& __cordl_internal_get_assembly_name() const;
 
-  constexpr void __set_assembly_name(::StringW value);
+  constexpr void __cordl_internal_set_assembly_name(::StringW value);
 
-  constexpr ::StringW& __get_type_name();
+  constexpr ::StringW& __cordl_internal_get_type_name();
 
-  constexpr ::StringW const& __get_type_name() const;
+  constexpr ::StringW const& __cordl_internal_get_type_name() const;
 
-  constexpr void __set_type_name(::StringW value);
+  constexpr void __cordl_internal_set_type_name(::StringW value);
 
   static inline ::System::Runtime::Remoting::TypeEntry* New_ctor();
 

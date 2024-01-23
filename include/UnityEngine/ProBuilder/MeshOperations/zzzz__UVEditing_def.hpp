@@ -65,29 +65,29 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__Disp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12286))
 // CS Name: ::UVEditing::<>c__DisplayClass0_0*
 class CORDL_TYPE __UVEditing____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field f1, offset 0x10, size 0x8
-  __declspec(property(get = __get_f1, put = __set_f1))::UnityEngine::ProBuilder::Face* f1;
+  __declspec(property(get = __cordl_internal_get_f1, put = __cordl_internal_set_f1))::UnityEngine::ProBuilder::Face* f1;
 
   /// @brief Field f2, offset 0x18, size 0x8
-  __declspec(property(get = __get_f2, put = __set_f2))::UnityEngine::ProBuilder::Face* f2;
+  __declspec(property(get = __cordl_internal_get_f2, put = __cordl_internal_set_f2))::UnityEngine::ProBuilder::Face* f2;
 
-  constexpr ::UnityEngine::ProBuilder::Face*& __get_f1();
+  constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_f1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __get_f1() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_f1() const;
 
-  constexpr void __set_f1(::UnityEngine::ProBuilder::Face* value);
+  constexpr void __cordl_internal_set_f1(::UnityEngine::ProBuilder::Face* value);
 
-  constexpr ::UnityEngine::ProBuilder::Face*& __get_f2();
+  constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_f2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __get_f2() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_f2() const;
 
-  constexpr void __set_f2(::UnityEngine::ProBuilder::Face* value);
+  constexpr void __cordl_internal_set_f2(::UnityEngine::ProBuilder::Face* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0* New_ctor();
 
@@ -131,7 +131,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__UVEditing___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12287))
 // CS Name: ::UVEditing::<>c*
 class CORDL_TYPE __UVEditing____c : public ::System::Object {
@@ -237,20 +237,20 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12288))
 // CS Name: ::UVEditing::<>c__DisplayClass4_0*
 class CORDL_TYPE __UVEditing____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field b, offset 0x10, size 0x4
-  __declspec(property(get = __get_b, put = __set_b)) int32_t b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) int32_t b;
 
-  constexpr int32_t& __get_b();
+  constexpr int32_t& __cordl_internal_get_b();
 
-  constexpr int32_t const& __get_b() const;
+  constexpr int32_t const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(int32_t value);
+  constexpr void __cordl_internal_set_b(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0* New_ctor();
 
@@ -289,7 +289,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__UVEditing___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12289))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::UVEditing*
 class CORDL_TYPE UVEditing : public ::System::Object {

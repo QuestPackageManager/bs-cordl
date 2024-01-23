@@ -19,7 +19,7 @@ MARK_VAL_T(::TMPro::TMP_Offset);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12330))
 // CS Name: ::TMPro::TMP_Offset
 struct CORDL_TYPE TMP_Offset {

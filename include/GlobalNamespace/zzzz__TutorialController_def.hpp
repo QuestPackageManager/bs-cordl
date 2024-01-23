@@ -62,20 +62,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__TutorialController___OutroCoroutine_d__19);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5340))
 // CS Name: ::TutorialController::<OutroCoroutine>d__19*
 class CORDL_TYPE __TutorialController___OutroCoroutine_d__19 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::TutorialController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::TutorialController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -99,23 +99,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::TutorialController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::TutorialController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::TutorialController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TutorialController> value);
 
   static inline ::GlobalNamespace::__TutorialController___OutroCoroutine_d__19* New_ctor(int32_t __1__state);
 
@@ -158,7 +158,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::TutorialController* _____4__this;
+  ::UnityW<::GlobalNamespace::TutorialController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -176,7 +176,7 @@ static_assert(offsetof(::GlobalNamespace::__TutorialController___OutroCoroutine_
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5341))
 // CS Name: ::TutorialController*
 class CORDL_TYPE TutorialController : public ::UnityEngine::MonoBehaviour {
@@ -185,37 +185,40 @@ public:
   using _OutroCoroutine_d__19 = ::GlobalNamespace::__TutorialController___OutroCoroutine_d__19;
 
   /// @brief Field _tutorialSongController, offset 0x18, size 0x8
-  __declspec(property(get = __get__tutorialSongController, put = __set__tutorialSongController))::GlobalNamespace::TutorialSongController* _tutorialSongController;
+  __declspec(property(get = __cordl_internal_get__tutorialSongController,
+                      put = __cordl_internal_set__tutorialSongController))::UnityW<::GlobalNamespace::TutorialSongController> _tutorialSongController;
 
   /// @brief Field _introTutorialController, offset 0x20, size 0x8
-  __declspec(property(get = __get__introTutorialController, put = __set__introTutorialController))::GlobalNamespace::IntroTutorialController* _introTutorialController;
+  __declspec(property(get = __cordl_internal_get__introTutorialController,
+                      put = __cordl_internal_set__introTutorialController))::UnityW<::GlobalNamespace::IntroTutorialController> _introTutorialController;
 
   /// @brief Field _audioFading, offset 0x28, size 0x8
-  __declspec(property(get = __get__audioFading, put = __set__audioFading))::GlobalNamespace::AudioFading* _audioFading;
+  __declspec(property(get = __cordl_internal_get__audioFading, put = __cordl_internal_set__audioFading))::UnityW<::GlobalNamespace::AudioFading> _audioFading;
 
   /// @brief Field _tutorialSceneSetupData, offset 0x30, size 0x8
-  __declspec(property(get = __get__tutorialSceneSetupData, put = __set__tutorialSceneSetupData))::GlobalNamespace::TutorialScenesTransitionSetupDataSO* _tutorialSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__tutorialSceneSetupData,
+                      put = __cordl_internal_set__tutorialSceneSetupData))::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> _tutorialSceneSetupData;
 
   /// @brief Field _tutorialIntroStartedSignal, offset 0x38, size 0x8
-  __declspec(property(get = __get__tutorialIntroStartedSignal, put = __set__tutorialIntroStartedSignal))::GlobalNamespace::Signal* _tutorialIntroStartedSignal;
+  __declspec(property(get = __cordl_internal_get__tutorialIntroStartedSignal, put = __cordl_internal_set__tutorialIntroStartedSignal))::UnityW<::GlobalNamespace::Signal> _tutorialIntroStartedSignal;
 
   /// @brief Field _tutorialFinishedSignal, offset 0x40, size 0x8
-  __declspec(property(get = __get__tutorialFinishedSignal, put = __set__tutorialFinishedSignal))::GlobalNamespace::Signal* _tutorialFinishedSignal;
+  __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal))::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
   /// @brief Field _pauseController, offset 0x48, size 0x8
-  __declspec(property(get = __get__pauseController, put = __set__pauseController))::GlobalNamespace::PauseController* _pauseController;
+  __declspec(property(get = __cordl_internal_get__pauseController, put = __cordl_internal_set__pauseController))::UnityW<::GlobalNamespace::PauseController> _pauseController;
 
   /// @brief Field levelWillStartIntroEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_levelWillStartIntroEvent, put = __set_levelWillStartIntroEvent))::System::Action* levelWillStartIntroEvent;
+  __declspec(property(get = __cordl_internal_get_levelWillStartIntroEvent, put = __cordl_internal_set_levelWillStartIntroEvent))::System::Action* levelWillStartIntroEvent;
 
   /// @brief Field levelDidStartEvent, offset 0x58, size 0x8
-  __declspec(property(get = __get_levelDidStartEvent, put = __set_levelDidStartEvent))::System::Action* levelDidStartEvent;
+  __declspec(property(get = __cordl_internal_get_levelDidStartEvent, put = __cordl_internal_set_levelDidStartEvent))::System::Action* levelDidStartEvent;
 
   /// @brief Field _paused, offset 0x60, size 0x1
-  __declspec(property(get = __get__paused, put = __set__paused)) bool _paused;
+  __declspec(property(get = __cordl_internal_get__paused, put = __cordl_internal_set__paused)) bool _paused;
 
   /// @brief Field _doingOutroTransition, offset 0x61, size 0x1
-  __declspec(property(get = __get__doingOutroTransition, put = __set__doingOutroTransition)) bool _doingOutroTransition;
+  __declspec(property(get = __cordl_internal_get__doingOutroTransition, put = __cordl_internal_set__doingOutroTransition)) bool _doingOutroTransition;
 
   /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
   constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
@@ -223,71 +226,71 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelStartController"
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
-  constexpr ::GlobalNamespace::TutorialSongController*& __get__tutorialSongController();
+  constexpr ::UnityW<::GlobalNamespace::TutorialSongController>& __cordl_internal_get__tutorialSongController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSongController*> const& __get__tutorialSongController() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialSongController> const& __cordl_internal_get__tutorialSongController() const;
 
-  constexpr void __set__tutorialSongController(::GlobalNamespace::TutorialSongController* value);
+  constexpr void __cordl_internal_set__tutorialSongController(::UnityW<::GlobalNamespace::TutorialSongController> value);
 
-  constexpr ::GlobalNamespace::IntroTutorialController*& __get__introTutorialController();
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialController>& __cordl_internal_get__introTutorialController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntroTutorialController*> const& __get__introTutorialController() const;
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialController> const& __cordl_internal_get__introTutorialController() const;
 
-  constexpr void __set__introTutorialController(::GlobalNamespace::IntroTutorialController* value);
+  constexpr void __cordl_internal_set__introTutorialController(::UnityW<::GlobalNamespace::IntroTutorialController> value);
 
-  constexpr ::GlobalNamespace::AudioFading*& __get__audioFading();
+  constexpr ::UnityW<::GlobalNamespace::AudioFading>& __cordl_internal_get__audioFading();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioFading*> const& __get__audioFading() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioFading> const& __cordl_internal_get__audioFading() const;
 
-  constexpr void __set__audioFading(::GlobalNamespace::AudioFading* value);
+  constexpr void __cordl_internal_set__audioFading(::UnityW<::GlobalNamespace::AudioFading> value);
 
-  constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& __get__tutorialSceneSetupData();
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*> const& __get__tutorialSceneSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialSceneSetupData() const;
 
-  constexpr void __set__tutorialSceneSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__tutorialIntroStartedSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialIntroStartedSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__tutorialIntroStartedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialIntroStartedSignal() const;
 
-  constexpr void __set__tutorialIntroStartedSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__tutorialIntroStartedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__tutorialFinishedSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialFinishedSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__tutorialFinishedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialFinishedSignal() const;
 
-  constexpr void __set__tutorialFinishedSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::PauseController*& __get__pauseController();
+  constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get__pauseController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PauseController*> const& __get__pauseController() const;
+  constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get__pauseController() const;
 
-  constexpr void __set__pauseController(::GlobalNamespace::PauseController* value);
+  constexpr void __cordl_internal_set__pauseController(::UnityW<::GlobalNamespace::PauseController> value);
 
-  constexpr ::System::Action*& __get_levelWillStartIntroEvent();
+  constexpr ::System::Action*& __cordl_internal_get_levelWillStartIntroEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_levelWillStartIntroEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelWillStartIntroEvent() const;
 
-  constexpr void __set_levelWillStartIntroEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_levelWillStartIntroEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_levelDidStartEvent();
+  constexpr ::System::Action*& __cordl_internal_get_levelDidStartEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_levelDidStartEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelDidStartEvent() const;
 
-  constexpr void __set_levelDidStartEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_levelDidStartEvent(::System::Action* value);
 
-  constexpr bool& __get__paused();
+  constexpr bool& __cordl_internal_get__paused();
 
-  constexpr bool const& __get__paused() const;
+  constexpr bool const& __cordl_internal_get__paused() const;
 
-  constexpr void __set__paused(bool value);
+  constexpr void __cordl_internal_set__paused(bool value);
 
-  constexpr bool& __get__doingOutroTransition();
+  constexpr bool& __cordl_internal_get__doingOutroTransition();
 
-  constexpr bool const& __get__doingOutroTransition() const;
+  constexpr bool const& __cordl_internal_get__doingOutroTransition() const;
 
-  constexpr void __set__doingOutroTransition(bool value);
+  constexpr void __cordl_internal_set__doingOutroTransition(bool value);
 
   /// @brief Method add_levelWillStartIntroEvent, addr 0x2269c58, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
@@ -345,25 +348,25 @@ protected:
 
 public:
   /// @brief Field _tutorialSongController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::TutorialSongController* ____tutorialSongController;
+  ::UnityW<::GlobalNamespace::TutorialSongController> ____tutorialSongController;
 
   /// @brief Field _introTutorialController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IntroTutorialController* ____introTutorialController;
+  ::UnityW<::GlobalNamespace::IntroTutorialController> ____introTutorialController;
 
   /// @brief Field _audioFading, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::AudioFading* ____audioFading;
+  ::UnityW<::GlobalNamespace::AudioFading> ____audioFading;
 
   /// @brief Field _tutorialSceneSetupData, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* ____tutorialSceneSetupData;
+  ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ____tutorialSceneSetupData;
 
   /// @brief Field _tutorialIntroStartedSignal, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____tutorialIntroStartedSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____tutorialIntroStartedSignal;
 
   /// @brief Field _tutorialFinishedSignal, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____tutorialFinishedSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____tutorialFinishedSignal;
 
   /// @brief Field _pauseController, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::PauseController* ____pauseController;
+  ::UnityW<::GlobalNamespace::PauseController> ____pauseController;
 
   /// @brief Field levelWillStartIntroEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___levelWillStartIntroEvent;

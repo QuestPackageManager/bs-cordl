@@ -39,8 +39,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDevi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6387)) CS Name: ::OnScreenControl::OnScreenDeviceInfo
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6387)) CS Name: ::OnScreenControl::OnScreenDeviceInfo
 struct CORDL_TYPE __OnScreenControl__OnScreenDeviceInfo {
 public:
   // Declarations
@@ -55,9 +55,9 @@ public:
 
   // Ctor Parameters [CppParam { name: "eventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
   // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None },
-  // CppParam { name: "firstControl", ty: "::UnityEngine::InputSystem::OnScreen::OnScreenControl*", modifiers: "", def_value: None }]
+  // CppParam { name: "firstControl", ty: "::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>", modifiers: "", def_value: None }]
   constexpr __OnScreenControl__OnScreenDeviceInfo(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::Unity::Collections::NativeArray_1<uint8_t> buffer,
-                                                  ::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::OnScreen::OnScreenControl* firstControl) noexcept;
+                                                  ::UnityEngine::InputSystem::InputDevice* device, ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> firstControl) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -73,7 +73,7 @@ public:
   ::UnityEngine::InputSystem::InputDevice* device;
 
   /// @brief Field firstControl, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::OnScreen::OnScreenControl* firstControl;
+  ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> firstControl;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -96,8 +96,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::__OnScreenControl__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6387)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3872 }), TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6388)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6387)), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3872 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6388)) CS
 // Name: ::UnityEngine.InputSystem.OnScreen::OnScreenControl*
 class CORDL_TYPE OnScreenControl : public ::UnityEngine::MonoBehaviour {
 public:
@@ -105,13 +105,14 @@ public:
   using OnScreenDeviceInfo = ::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo;
 
   /// @brief Field m_Control, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Control, put = __set_m_Control))::UnityEngine::InputSystem::InputControl* m_Control;
+  __declspec(property(get = __cordl_internal_get_m_Control, put = __cordl_internal_set_m_Control))::UnityEngine::InputSystem::InputControl* m_Control;
 
   /// @brief Field m_NextControlOnDevice, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_NextControlOnDevice, put = __set_m_NextControlOnDevice))::UnityEngine::InputSystem::OnScreen::OnScreenControl* m_NextControlOnDevice;
+  __declspec(property(get = __cordl_internal_get_m_NextControlOnDevice,
+                      put = __cordl_internal_set_m_NextControlOnDevice))::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> m_NextControlOnDevice;
 
   /// @brief Field m_InputEventPtr, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_InputEventPtr, put = __set_m_InputEventPtr))::UnityEngine::InputSystem::LowLevel::InputEventPtr m_InputEventPtr;
+  __declspec(property(get = __cordl_internal_get_m_InputEventPtr, put = __cordl_internal_set_m_InputEventPtr))::UnityEngine::InputSystem::LowLevel::InputEventPtr m_InputEventPtr;
 
   /// @brief Field s_OnScreenDevices, offset 0xffffffff, size 0x38
   static __declspec(
@@ -124,23 +125,23 @@ public:
 
   __declspec(property(get = get_controlPathInternal, put = set_controlPathInternal))::StringW controlPathInternal;
 
-  constexpr ::UnityEngine::InputSystem::InputControl*& __get_m_Control();
+  constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get_m_Control();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __get_m_Control() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __cordl_internal_get_m_Control() const;
 
-  constexpr void __set_m_Control(::UnityEngine::InputSystem::InputControl* value);
+  constexpr void __cordl_internal_set_m_Control(::UnityEngine::InputSystem::InputControl* value);
 
-  constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenControl*& __get_m_NextControlOnDevice();
+  constexpr ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>& __cordl_internal_get_m_NextControlOnDevice();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::OnScreen::OnScreenControl*> const& __get_m_NextControlOnDevice() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> const& __cordl_internal_get_m_NextControlOnDevice() const;
 
-  constexpr void __set_m_NextControlOnDevice(::UnityEngine::InputSystem::OnScreen::OnScreenControl* value);
+  constexpr void __cordl_internal_set_m_NextControlOnDevice(::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __get_m_InputEventPtr();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __cordl_internal_get_m_InputEventPtr();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __get_m_InputEventPtr() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __cordl_internal_get_m_InputEventPtr() const;
 
-  constexpr void __set_m_InputEventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
+  constexpr void __cordl_internal_set_m_InputEventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
   static inline void setStaticF_s_OnScreenDevices(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo> value);
 
@@ -199,7 +200,7 @@ public:
   ::UnityEngine::InputSystem::InputControl* ___m_Control;
 
   /// @brief Field m_NextControlOnDevice, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::OnScreen::OnScreenControl* ___m_NextControlOnDevice;
+  ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> ___m_NextControlOnDevice;
 
   /// @brief Field m_InputEventPtr, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::InputSystem::LowLevel::InputEventPtr ___m_InputEventPtr;

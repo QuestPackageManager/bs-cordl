@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GamepadState);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6492))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::GamepadState
 #pragma pack(push, 0)
@@ -38,19 +38,19 @@ struct CORDL_TYPE GamepadState {
 public:
   // Declarations
   /// @brief Field buttons, offset 0x0, size 0x4
-  __declspec(property(get = __get_buttons, put = __set_buttons)) uint32_t buttons;
+  __declspec(property(get = __cordl_internal_get_buttons, put = __cordl_internal_set_buttons)) uint32_t buttons;
 
   /// @brief Field leftStick, offset 0x4, size 0x8
-  __declspec(property(get = __get_leftStick, put = __set_leftStick))::UnityEngine::Vector2 leftStick;
+  __declspec(property(get = __cordl_internal_get_leftStick, put = __cordl_internal_set_leftStick))::UnityEngine::Vector2 leftStick;
 
   /// @brief Field rightStick, offset 0xc, size 0x8
-  __declspec(property(get = __get_rightStick, put = __set_rightStick))::UnityEngine::Vector2 rightStick;
+  __declspec(property(get = __cordl_internal_get_rightStick, put = __cordl_internal_set_rightStick))::UnityEngine::Vector2 rightStick;
 
   /// @brief Field leftTrigger, offset 0x14, size 0x4
-  __declspec(property(get = __get_leftTrigger, put = __set_leftTrigger)) float_t leftTrigger;
+  __declspec(property(get = __cordl_internal_get_leftTrigger, put = __cordl_internal_set_leftTrigger)) float_t leftTrigger;
 
   /// @brief Field rightTrigger, offset 0x18, size 0x4
-  __declspec(property(get = __get_rightTrigger, put = __set_rightTrigger)) float_t rightTrigger;
+  __declspec(property(get = __cordl_internal_get_rightTrigger, put = __cordl_internal_set_rightTrigger)) float_t rightTrigger;
 
   __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
 
@@ -60,35 +60,35 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  constexpr uint32_t& __get_buttons();
+  constexpr uint32_t& __cordl_internal_get_buttons();
 
-  constexpr uint32_t const& __get_buttons() const;
+  constexpr uint32_t const& __cordl_internal_get_buttons() const;
 
-  constexpr void __set_buttons(uint32_t value);
+  constexpr void __cordl_internal_set_buttons(uint32_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_leftStick();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_leftStick();
 
-  constexpr ::UnityEngine::Vector2 const& __get_leftStick() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_leftStick() const;
 
-  constexpr void __set_leftStick(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_leftStick(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_rightStick();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_rightStick();
 
-  constexpr ::UnityEngine::Vector2 const& __get_rightStick() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_rightStick() const;
 
-  constexpr void __set_rightStick(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_rightStick(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get_leftTrigger();
+  constexpr float_t& __cordl_internal_get_leftTrigger();
 
-  constexpr float_t const& __get_leftTrigger() const;
+  constexpr float_t const& __cordl_internal_get_leftTrigger() const;
 
-  constexpr void __set_leftTrigger(float_t value);
+  constexpr void __cordl_internal_set_leftTrigger(float_t value);
 
-  constexpr float_t& __get_rightTrigger();
+  constexpr float_t& __cordl_internal_get_rightTrigger();
 
-  constexpr float_t const& __get_rightTrigger() const;
+  constexpr float_t const& __cordl_internal_get_rightTrigger() const;
 
-  constexpr void __set_rightTrigger(float_t value);
+  constexpr void __cordl_internal_set_rightTrigger(float_t value);
 
   /// @brief Method get_Format, addr 0x2ae86a8, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();

@@ -9,73 +9,73 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x11688b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t, ::Array<int16_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t, ::Array<int16_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_static_tree() {
+constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_static_tree() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_tree;
 }
-constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_static_tree() const {
+constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_static_tree() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_tree;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_static_tree(::ArrayW<int16_t, ::Array<int16_t>*> value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_set_static_tree(::ArrayW<int16_t, ::Array<int16_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___static_tree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_bits() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_extra_bits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_bits;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_bits() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_extra_bits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_bits;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_extra_bits(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_set_extra_bits(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extra_bits)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_base() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_extra_base() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_base;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_base() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_extra_base() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_base;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_extra_base(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_set_extra_base(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extra_base = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_elems() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_elems() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elems;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_elems() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_elems() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elems;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_elems(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_set_elems(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elems = value;
 }
-constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_max_length() {
+constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_max_length() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_length;
 }
-constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_max_length() const {
+constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_get_max_length() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_length;
 }
-constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_max_length(int32_t value) {
+constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__cordl_internal_set_max_length(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max_length = value;
 }
@@ -127,16 +127,16 @@ inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* Org::BouncyCastle::Util
 inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* Org::BouncyCastle::Utilities::Zlib::StaticTree::New_ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree,
                                                                                                                   ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems,
                                                                                                                   int32_t max_length) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>(static_tree, extra_bits, extra_base, elems, max_length));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>(static_tree, extra_bits, extra_base, elems, max_length));
 }
 inline void Org::BouncyCastle::Utilities::Zlib::StaticTree::_ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree, ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems,
                                                                   int32_t max_length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t, ::Array<int16_t>*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t, ::Array<int16_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, static_tree, extra_bits, extra_base, elems, max_length);
 }
 // Ctor Parameters []

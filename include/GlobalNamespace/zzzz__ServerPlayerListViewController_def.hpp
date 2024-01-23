@@ -57,129 +57,133 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerPlayerListViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5724))
 // CS Name: ::ServerPlayerListViewController*
 class CORDL_TYPE ServerPlayerListViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _gameServerPlayersTableView, offset 0x70, size 0x8
-  __declspec(property(get = __get__gameServerPlayersTableView, put = __set__gameServerPlayersTableView))::GlobalNamespace::GameServerPlayersTableView* _gameServerPlayersTableView;
+  __declspec(property(get = __cordl_internal_get__gameServerPlayersTableView,
+                      put = __cordl_internal_set__gameServerPlayersTableView))::UnityW<::GlobalNamespace::GameServerPlayersTableView> _gameServerPlayersTableView;
 
   /// @brief Field _invitePlayerButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__invitePlayerButton, put = __set__invitePlayerButton))::UnityEngine::UI::Button* _invitePlayerButton;
+  __declspec(property(get = __cordl_internal_get__invitePlayerButton, put = __cordl_internal_set__invitePlayerButton))::UnityW<::UnityEngine::UI::Button> _invitePlayerButton;
 
   /// @brief Field _cantInvitePlayerHoverHint, offset 0x80, size 0x8
-  __declspec(property(get = __get__cantInvitePlayerHoverHint, put = __set__cantInvitePlayerHoverHint))::HMUI::HoverHint* _cantInvitePlayerHoverHint;
+  __declspec(property(get = __cordl_internal_get__cantInvitePlayerHoverHint, put = __cordl_internal_set__cantInvitePlayerHoverHint))::UnityW<::HMUI::HoverHint> _cantInvitePlayerHoverHint;
 
   /// @brief Field _invitePlatformHandler, offset 0x88, size 0x8
-  __declspec(property(get = __get__invitePlatformHandler, put = __set__invitePlatformHandler))::GlobalNamespace::IInvitePlatformHandler* _invitePlatformHandler;
+  __declspec(property(get = __cordl_internal_get__invitePlatformHandler, put = __cordl_internal_set__invitePlatformHandler))::GlobalNamespace::IInvitePlatformHandler* _invitePlatformHandler;
 
   /// @brief Field _lobbyPlayersDataModel, offset 0x90, size 0x8
-  __declspec(property(get = __get__lobbyPlayersDataModel, put = __set__lobbyPlayersDataModel))::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayersDataModel, put = __cordl_internal_set__lobbyPlayersDataModel))::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
 
   /// @brief Field _lobbyStateDataModel, offset 0x98, size 0x8
-  __declspec(property(get = __get__lobbyStateDataModel, put = __set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
   /// @brief Field _lobbyPlayerPermissionsModel, offset 0xa0, size 0x8
-  __declspec(property(get = __get__lobbyPlayerPermissionsModel, put = __set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
+                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
 
   /// @brief Field _lobbyGameStateController, offset 0xa8, size 0x8
-  __declspec(property(get = __get__lobbyGameStateController, put = __set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
+  __declspec(property(get = __cordl_internal_get__lobbyGameStateController,
+                      put = __cordl_internal_set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
 
   /// @brief Field selectSuggestedBeatmapEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_selectSuggestedBeatmapEvent, put = __set_selectSuggestedBeatmapEvent))::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* selectSuggestedBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_selectSuggestedBeatmapEvent,
+                      put = __cordl_internal_set_selectSuggestedBeatmapEvent))::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* selectSuggestedBeatmapEvent;
 
   /// @brief Field selectSuggestedGameplayModifiersEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __get_selectSuggestedGameplayModifiersEvent,
-                      put = __set_selectSuggestedGameplayModifiersEvent))::System::Action_1<::GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_selectSuggestedGameplayModifiersEvent,
+                      put = __cordl_internal_set_selectSuggestedGameplayModifiersEvent))::System::Action_1<::GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent;
 
   /// @brief Field kickPlayerEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __get_kickPlayerEvent, put = __set_kickPlayerEvent))::System::Action_1<::StringW>* kickPlayerEvent;
+  __declspec(property(get = __cordl_internal_get_kickPlayerEvent, put = __cordl_internal_set_kickPlayerEvent))::System::Action_1<::StringW>* kickPlayerEvent;
 
   /// @brief Field didOpenInvitePanelEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_didOpenInvitePanelEvent, put = __set_didOpenInvitePanelEvent))::System::Action* didOpenInvitePanelEvent;
+  __declspec(property(get = __cordl_internal_get_didOpenInvitePanelEvent, put = __cordl_internal_set_didOpenInvitePanelEvent))::System::Action* didOpenInvitePanelEvent;
 
   /// @brief Field _buttonBinder, offset 0xd0, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  constexpr ::GlobalNamespace::GameServerPlayersTableView*& __get__gameServerPlayersTableView();
+  constexpr ::UnityW<::GlobalNamespace::GameServerPlayersTableView>& __cordl_internal_get__gameServerPlayersTableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServerPlayersTableView*> const& __get__gameServerPlayersTableView() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServerPlayersTableView> const& __cordl_internal_get__gameServerPlayersTableView() const;
 
-  constexpr void __set__gameServerPlayersTableView(::GlobalNamespace::GameServerPlayersTableView* value);
+  constexpr void __cordl_internal_set__gameServerPlayersTableView(::UnityW<::GlobalNamespace::GameServerPlayersTableView> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__invitePlayerButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__invitePlayerButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__invitePlayerButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__invitePlayerButton() const;
 
-  constexpr void __set__invitePlayerButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__invitePlayerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::HoverHint*& __get__cantInvitePlayerHoverHint();
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__cantInvitePlayerHoverHint();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& __get__cantInvitePlayerHoverHint() const;
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__cantInvitePlayerHoverHint() const;
 
-  constexpr void __set__cantInvitePlayerHoverHint(::HMUI::HoverHint* value);
+  constexpr void __cordl_internal_set__cantInvitePlayerHoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  constexpr ::GlobalNamespace::IInvitePlatformHandler*& __get__invitePlatformHandler();
+  constexpr ::GlobalNamespace::IInvitePlatformHandler*& __cordl_internal_get__invitePlatformHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IInvitePlatformHandler*> const& __get__invitePlatformHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IInvitePlatformHandler*> const& __cordl_internal_get__invitePlatformHandler() const;
 
-  constexpr void __set__invitePlatformHandler(::GlobalNamespace::IInvitePlatformHandler* value);
+  constexpr void __cordl_internal_set__invitePlatformHandler(::GlobalNamespace::IInvitePlatformHandler* value);
 
-  constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& __get__lobbyPlayersDataModel();
+  constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& __cordl_internal_get__lobbyPlayersDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& __get__lobbyPlayersDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& __cordl_internal_get__lobbyPlayersDataModel() const;
 
-  constexpr void __set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel* value);
+  constexpr void __cordl_internal_set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel* value);
 
-  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __get__lobbyStateDataModel();
+  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __get__lobbyStateDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
 
-  constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
+  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
 
-  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __get__lobbyPlayerPermissionsModel();
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __get__lobbyPlayerPermissionsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
-  constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
+  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
 
-  constexpr ::GlobalNamespace::ILobbyGameStateController*& __get__lobbyGameStateController();
+  constexpr ::GlobalNamespace::ILobbyGameStateController*& __cordl_internal_get__lobbyGameStateController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& __get__lobbyGameStateController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& __cordl_internal_get__lobbyGameStateController() const;
 
-  constexpr void __set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
+  constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& __get_selectSuggestedBeatmapEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& __cordl_internal_get_selectSuggestedBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*> const& __get_selectSuggestedBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*> const& __cordl_internal_get_selectSuggestedBeatmapEvent() const;
 
-  constexpr void __set_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
+  constexpr void __cordl_internal_set_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& __get_selectSuggestedGameplayModifiersEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& __cordl_internal_get_selectSuggestedGameplayModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::GameplayModifiers*>*> const& __get_selectSuggestedGameplayModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::GameplayModifiers*>*> const& __cordl_internal_get_selectSuggestedGameplayModifiersEvent() const;
 
-  constexpr void __set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
+  constexpr void __cordl_internal_set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_kickPlayerEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_kickPlayerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_kickPlayerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_kickPlayerEvent() const;
 
-  constexpr void __set_kickPlayerEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action*& __get_didOpenInvitePanelEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didOpenInvitePanelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didOpenInvitePanelEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didOpenInvitePanelEvent() const;
 
-  constexpr void __set_didOpenInvitePanelEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didOpenInvitePanelEvent(::System::Action* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method add_selectSuggestedBeatmapEvent, addr 0x22d0a0c, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
@@ -258,13 +262,13 @@ protected:
 
 public:
   /// @brief Field _gameServerPlayersTableView, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::GameServerPlayersTableView* ____gameServerPlayersTableView;
+  ::UnityW<::GlobalNamespace::GameServerPlayersTableView> ____gameServerPlayersTableView;
 
   /// @brief Field _invitePlayerButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____invitePlayerButton;
+  ::UnityW<::UnityEngine::UI::Button> ____invitePlayerButton;
 
   /// @brief Field _cantInvitePlayerHoverHint, offset: 0x80, size: 0x8, def value: None
-  ::HMUI::HoverHint* ____cantInvitePlayerHoverHint;
+  ::UnityW<::HMUI::HoverHint> ____cantInvitePlayerHoverHint;
 
   /// @brief Field _invitePlatformHandler, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::IInvitePlatformHandler* ____invitePlatformHandler;

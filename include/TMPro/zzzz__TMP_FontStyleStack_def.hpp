@@ -18,7 +18,7 @@ MARK_VAL_T(::TMPro::TMP_FontStyleStack);
 // SizeInfo { instance_size: 10, native_size: 10, calculated_instance_size: 10, calculated_native_size: 26, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12452))
 // CS Name: ::TMPro::TMP_FontStyleStack
 struct CORDL_TYPE TMP_FontStyleStack {

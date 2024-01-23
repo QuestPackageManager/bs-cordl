@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaGroupRef);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11734))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11734))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11728))
 // CS Name: ::System.Xml.Schema::XmlSchemaGroupRef*
 class CORDL_TYPE XmlSchemaGroupRef : public ::System::Xml::Schema::XmlSchemaParticle {

@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::GlobalNamespace::ZenjectSafeBehaviour);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15314))
 // CS Name: ::ZenjectSafeBehaviour*
 class CORDL_TYPE ZenjectSafeBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _isInjected, offset 0x18, size 0x1
-  __declspec(property(get = __get__isInjected, put = __set__isInjected)) bool _isInjected;
+  __declspec(property(get = __cordl_internal_get__isInjected, put = __cordl_internal_set__isInjected)) bool _isInjected;
 
   /// @brief Field _wasOnEnableCalled, offset 0x19, size 0x1
-  __declspec(property(get = __get__wasOnEnableCalled, put = __set__wasOnEnableCalled)) bool _wasOnEnableCalled;
+  __declspec(property(get = __cordl_internal_get__wasOnEnableCalled, put = __cordl_internal_set__wasOnEnableCalled)) bool _wasOnEnableCalled;
 
-  constexpr bool& __get__isInjected();
+  constexpr bool& __cordl_internal_get__isInjected();
 
-  constexpr bool const& __get__isInjected() const;
+  constexpr bool const& __cordl_internal_get__isInjected() const;
 
-  constexpr void __set__isInjected(bool value);
+  constexpr void __cordl_internal_set__isInjected(bool value);
 
-  constexpr bool& __get__wasOnEnableCalled();
+  constexpr bool& __cordl_internal_get__wasOnEnableCalled();
 
-  constexpr bool const& __get__wasOnEnableCalled() const;
+  constexpr bool const& __cordl_internal_get__wasOnEnableCalled() const;
 
-  constexpr void __set__wasOnEnableCalled(bool value);
+  constexpr void __cordl_internal_set__wasOnEnableCalled(bool value);
 
   /// @brief Method Inject, addr 0x280c338, size 0x20, virtual false, abstract: false, final false
   inline void Inject();

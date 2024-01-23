@@ -44,17 +44,17 @@ namespace Zenject {
 // cpp template
 template <typename TReturn>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11207))
 // CS Name: ::Zenject::MethodProvider`1<TReturn>*
 class CORDL_TYPE MethodProvider_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _method, offset 0x18, size 0x8
-  __declspec(property(get = __get__method, put = __set__method))::System::Func_2<::Zenject::InjectContext*, TReturn>* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_2<::Zenject::InjectContext*, TReturn>* _method;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -66,17 +66,17 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Func_2<::Zenject::InjectContext*, TReturn>*& __get__method();
+  constexpr ::System::Func_2<::Zenject::InjectContext*, TReturn>*& __cordl_internal_get__method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, TReturn>*> const& __get__method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, TReturn>*> const& __cordl_internal_get__method() const;
 
-  constexpr void __set__method(::System::Func_2<::Zenject::InjectContext*, TReturn>* value);
+  constexpr void __cordl_internal_set__method(::System::Func_2<::Zenject::InjectContext*, TReturn>* value);
 
   static inline ::Zenject::MethodProvider_1<TReturn>* New_ctor(::System::Func_2<::Zenject::InjectContext*, TReturn>* method, ::Zenject::DiContainer* container);
 

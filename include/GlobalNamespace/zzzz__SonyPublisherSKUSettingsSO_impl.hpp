@@ -9,9 +9,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369d84;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                               "get_skuName", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_skuName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -23,9 +23,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                               "get_serviceIdPrefix", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_serviceIdPrefix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -37,9 +37,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369d94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                               "get_titleId", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_titleId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -51,9 +51,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369d9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                               "get_productLabel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_productLabel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -64,86 +64,86 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2368248;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__skuName() {
+constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__skuName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skuName;
 }
-constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__skuName() const {
+constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__skuName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skuName;
 }
-constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__set__skuName(::StringW value) {
+constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_set__skuName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____skuName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__serviceIdPrefix() {
+constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__serviceIdPrefix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serviceIdPrefix;
 }
-constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__serviceIdPrefix() const {
+constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__serviceIdPrefix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serviceIdPrefix;
 }
-constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__set__serviceIdPrefix(::StringW value) {
+constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_set__serviceIdPrefix(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serviceIdPrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__titleId() {
+constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__titleId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____titleId;
 }
-constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__titleId() const {
+constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__titleId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____titleId;
 }
-constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__set__titleId(::StringW value) {
+constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_set__titleId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____titleId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__productLabel() {
+constexpr ::StringW& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__productLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
-constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__get__productLabel() const {
+constexpr ::StringW const& GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_get__productLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
-constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__set__productLabel(::StringW value) {
+constexpr void GlobalNamespace::SonyPublisherSKUSettingsSO::__cordl_internal_set__productLabel(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____productLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::SonyPublisherSKUSettingsSO::get_skuName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                             "get_skuName", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_skuName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::SonyPublisherSKUSettingsSO::get_serviceIdPrefix() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                             "get_serviceIdPrefix", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_serviceIdPrefix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::SonyPublisherSKUSettingsSO::get_titleId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                             "get_titleId", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_titleId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::SonyPublisherSKUSettingsSO::get_productLabel() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
-                                                                             "get_productLabel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_productLabel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::SonyPublisherSKUSettingsSO* GlobalNamespace::SonyPublisherSKUSettingsSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SonyPublisherSKUSettingsSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyPublisherSKUSettingsSO*>());
 }
 inline void GlobalNamespace::SonyPublisherSKUSettingsSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -19,34 +19,34 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformUserAuthTokenData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15982))
 // CS Name: ::PlatformUserAuthTokenData*
 class CORDL_TYPE PlatformUserAuthTokenData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <token>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__token_k__BackingField, put = __set__token_k__BackingField))::StringW _token_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__token_k__BackingField, put = __cordl_internal_set__token_k__BackingField))::StringW _token_k__BackingField;
 
   /// @brief Field <validPlatformEnvironment>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__validPlatformEnvironment_k__BackingField,
-                      put = __set__validPlatformEnvironment_k__BackingField))::GlobalNamespace::PlatformEnvironment _validPlatformEnvironment_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__validPlatformEnvironment_k__BackingField,
+                      put = __cordl_internal_set__validPlatformEnvironment_k__BackingField))::GlobalNamespace::PlatformEnvironment _validPlatformEnvironment_k__BackingField;
 
   __declspec(property(get = get_token, put = set_token))::StringW token;
 
   __declspec(property(get = get_validPlatformEnvironment, put = set_validPlatformEnvironment))::GlobalNamespace::PlatformEnvironment validPlatformEnvironment;
 
-  constexpr ::StringW& __get__token_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__token_k__BackingField();
 
-  constexpr ::StringW const& __get__token_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__token_k__BackingField() const;
 
-  constexpr void __set__token_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__token_k__BackingField(::StringW value);
 
-  constexpr ::GlobalNamespace::PlatformEnvironment& __get__validPlatformEnvironment_k__BackingField();
+  constexpr ::GlobalNamespace::PlatformEnvironment& __cordl_internal_get__validPlatformEnvironment_k__BackingField();
 
-  constexpr ::GlobalNamespace::PlatformEnvironment const& __get__validPlatformEnvironment_k__BackingField() const;
+  constexpr ::GlobalNamespace::PlatformEnvironment const& __cordl_internal_get__validPlatformEnvironment_k__BackingField() const;
 
-  constexpr void __set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
+  constexpr void __cordl_internal_set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
 
   /// @brief Method get_token, addr 0x27fde4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_token();

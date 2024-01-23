@@ -15,11 +15,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x24ce520;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -31,11 +31,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x24ce978;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*>::get() })));
     return ___internal_method;
   }
 };
@@ -48,96 +48,96 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x314;
   constexpr static std::size_t addrs = 0x24cd978;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), "Fixup", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), "Fixup", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_valueFixupEnum() {
+constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_valueFixupEnum() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueFixupEnum;
 }
-constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_valueFixupEnum() const {
+constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_valueFixupEnum() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueFixupEnum;
 }
-constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_valueFixupEnum(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value) {
+constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_set_valueFixupEnum(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueFixupEnum = value;
 }
-constexpr ::System::Array*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_arrayObj() {
+constexpr ::System::Array*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_arrayObj() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayObj;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_arrayObj() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_arrayObj() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayObj;
 }
-constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_arrayObj(::System::Array* value) {
+constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_set_arrayObj(::System::Array* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___arrayObj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_indexMap() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_indexMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indexMap;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_indexMap() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_indexMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indexMap;
 }
-constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_indexMap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_set_indexMap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indexMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_header() {
+constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_header() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___header;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_header() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_header() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___header;
 }
-constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_header(::System::Object* value) {
+constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_set_header(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___header)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberObject() {
+constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_memberObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberObject() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_memberObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberObject;
 }
-constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_memberObject(::System::Object* value) {
+constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_set_memberObject(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_objectInfo() {
+constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_objectInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*> const&
-System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_objectInfo() const {
+System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_objectInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectInfo;
 }
-constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_objectInfo(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value) {
+constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_set_objectInfo(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___objectInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberName() {
+constexpr ::StringW& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_memberName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberName;
 }
-constexpr ::StringW const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberName() const {
+constexpr ::StringW const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_get_memberName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberName;
 }
-constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_memberName(::StringW value) {
+constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__cordl_internal_set_memberName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -152,34 +152,34 @@ inline ::System::Reflection::MemberInfo* System::Runtime::Serialization::Formatt
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* System::Runtime::Serialization::Formatters::Binary::ValueFixup::New_ctor(::System::Array* arrayObj,
                                                                                                                                                   ::ArrayW<int32_t, ::Array<int32_t>*> indexMap) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>(arrayObj, indexMap));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>(arrayObj, indexMap));
 }
 inline void System::Runtime::Serialization::Formatters::Binary::ValueFixup::_ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(),
-                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arrayObj, indexMap);
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup*
 System::Runtime::Serialization::Formatters::Binary::ValueFixup::New_ctor(::System::Object* memberObject, ::StringW memberName,
                                                                          ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>(memberObject, memberName, objectInfo));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>(memberObject, memberName, objectInfo));
 }
 inline void System::Runtime::Serialization::Formatters::Binary::ValueFixup::_ctor(::System::Object* memberObject, ::StringW memberName,
                                                                                   ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, memberObject, memberName, objectInfo);
 }
 inline void System::Runtime::Serialization::Formatters::Binary::ValueFixup::Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record,
                                                                                   ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), "Fixup", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ValueFixup*>::get(), "Fixup", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, parent);
 }
 // Ctor Parameters []

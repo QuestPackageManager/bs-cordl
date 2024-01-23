@@ -9,32 +9,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x29c94d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerBasicIdentity*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerBasicIdentity*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Net::HttpListenerBasicIdentity::__get_password() {
+constexpr ::StringW& System::Net::HttpListenerBasicIdentity::__cordl_internal_get_password() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
 }
-constexpr ::StringW const& System::Net::HttpListenerBasicIdentity::__get_password() const {
+constexpr ::StringW const& System::Net::HttpListenerBasicIdentity::__cordl_internal_get_password() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
 }
-constexpr void System::Net::HttpListenerBasicIdentity::__set_password(::StringW value) {
+constexpr void System::Net::HttpListenerBasicIdentity::__cordl_internal_set_password(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::HttpListenerBasicIdentity* System::Net::HttpListenerBasicIdentity::New_ctor(::StringW username, ::StringW password) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Net::HttpListenerBasicIdentity*>(username, password));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpListenerBasicIdentity*>(username, password));
 }
 inline void System::Net::HttpListenerBasicIdentity::_ctor(::StringW username, ::StringW password) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerBasicIdentity*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerBasicIdentity*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, username, password);
 }
 // Ctor Parameters []

@@ -19,7 +19,7 @@ MARK_VAL_T(::System::Globalization::HebrewNumberParsingContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3673))
 // CS Name: ::System.Globalization::HebrewNumberParsingContext
 struct CORDL_TYPE HebrewNumberParsingContext {

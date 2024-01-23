@@ -42,8 +42,8 @@ MARK_VAL_T(::UnityEngine::RenderTextureDescriptor);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10118)), TypeDefinitionIndex(TypeDefinitionIndex(10119)), TypeDefinitionIndex(TypeDefinitionIndex(10121)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10350)), TypeDefinitionIndex(TypeDefinitionIndex(10406)), TypeDefinitionIndex(TypeDefinitionIndex(10348))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10118)), TypeDefinitionIndex(TypeDefinitionIndex(10119)), TypeDefinitionIndex(TypeDefinitionIndex(10121)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10348)), TypeDefinitionIndex(TypeDefinitionIndex(10350)), TypeDefinitionIndex(TypeDefinitionIndex(10406))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(10089)) CS Name: ::UnityEngine::RenderTextureDescriptor
 struct CORDL_TYPE RenderTextureDescriptor {
 public:

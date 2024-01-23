@@ -50,47 +50,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsSignedDataParser);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(620))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(620))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(652))
 // CS Name: ::Org.BouncyCastle.Cms::CmsSignedDataParser*
 class CORDL_TYPE CmsSignedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
   // Declarations
   /// @brief Field _signedData, offset 0x20, size 0x8
-  __declspec(property(get = __get__signedData, put = __set__signedData))::Org::BouncyCastle::Asn1::Cms::SignedDataParser* _signedData;
+  __declspec(property(get = __cordl_internal_get__signedData, put = __cordl_internal_set__signedData))::Org::BouncyCastle::Asn1::Cms::SignedDataParser* _signedData;
 
   /// @brief Field _signedContentType, offset 0x28, size 0x8
-  __declspec(property(get = __get__signedContentType, put = __set__signedContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _signedContentType;
+  __declspec(property(get = __cordl_internal_get__signedContentType, put = __cordl_internal_set__signedContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _signedContentType;
 
   /// @brief Field _signedContent, offset 0x30, size 0x8
-  __declspec(property(get = __get__signedContent, put = __set__signedContent))::Org::BouncyCastle::Cms::CmsTypedStream* _signedContent;
+  __declspec(property(get = __cordl_internal_get__signedContent, put = __cordl_internal_set__signedContent))::Org::BouncyCastle::Cms::CmsTypedStream* _signedContent;
 
   /// @brief Field _digests, offset 0x38, size 0x8
-  __declspec(property(get = __get__digests, put = __set__digests))::System::Collections::IDictionary* _digests;
+  __declspec(property(get = __cordl_internal_get__digests, put = __cordl_internal_set__digests))::System::Collections::IDictionary* _digests;
 
   /// @brief Field _digestOids, offset 0x40, size 0x8
-  __declspec(property(get = __get__digestOids, put = __set__digestOids))::Org::BouncyCastle::Utilities::Collections::ISet* _digestOids;
+  __declspec(property(get = __cordl_internal_get__digestOids, put = __cordl_internal_set__digestOids))::Org::BouncyCastle::Utilities::Collections::ISet* _digestOids;
 
   /// @brief Field _signerInfoStore, offset 0x48, size 0x8
-  __declspec(property(get = __get__signerInfoStore, put = __set__signerInfoStore))::Org::BouncyCastle::Cms::SignerInformationStore* _signerInfoStore;
+  __declspec(property(get = __cordl_internal_get__signerInfoStore, put = __cordl_internal_set__signerInfoStore))::Org::BouncyCastle::Cms::SignerInformationStore* _signerInfoStore;
 
   /// @brief Field _certSet, offset 0x50, size 0x8
-  __declspec(property(get = __get__certSet, put = __set__certSet))::Org::BouncyCastle::Asn1::Asn1Set* _certSet;
+  __declspec(property(get = __cordl_internal_get__certSet, put = __cordl_internal_set__certSet))::Org::BouncyCastle::Asn1::Asn1Set* _certSet;
 
   /// @brief Field _crlSet, offset 0x58, size 0x8
-  __declspec(property(get = __get__crlSet, put = __set__crlSet))::Org::BouncyCastle::Asn1::Asn1Set* _crlSet;
+  __declspec(property(get = __cordl_internal_get__crlSet, put = __cordl_internal_set__crlSet))::Org::BouncyCastle::Asn1::Asn1Set* _crlSet;
 
   /// @brief Field _isCertCrlParsed, offset 0x60, size 0x1
-  __declspec(property(get = __get__isCertCrlParsed, put = __set__isCertCrlParsed)) bool _isCertCrlParsed;
+  __declspec(property(get = __cordl_internal_get__isCertCrlParsed, put = __cordl_internal_set__isCertCrlParsed)) bool _isCertCrlParsed;
 
   /// @brief Field _attributeStore, offset 0x68, size 0x8
-  __declspec(property(get = __get__attributeStore, put = __set__attributeStore))::Org::BouncyCastle::X509::Store::IX509Store* _attributeStore;
+  __declspec(property(get = __cordl_internal_get__attributeStore, put = __cordl_internal_set__attributeStore))::Org::BouncyCastle::X509::Store::IX509Store* _attributeStore;
 
   /// @brief Field _certificateStore, offset 0x70, size 0x8
-  __declspec(property(get = __get__certificateStore, put = __set__certificateStore))::Org::BouncyCastle::X509::Store::IX509Store* _certificateStore;
+  __declspec(property(get = __cordl_internal_get__certificateStore, put = __cordl_internal_set__certificateStore))::Org::BouncyCastle::X509::Store::IX509Store* _certificateStore;
 
   /// @brief Field _crlStore, offset 0x78, size 0x8
-  __declspec(property(get = __get__crlStore, put = __set__crlStore))::Org::BouncyCastle::X509::Store::IX509Store* _crlStore;
+  __declspec(property(get = __cordl_internal_get__crlStore, put = __cordl_internal_set__crlStore))::Org::BouncyCastle::X509::Store::IX509Store* _crlStore;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
@@ -101,77 +101,77 @@ public:
 
   __declspec(property(get = get_SignedContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedContentType;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::SignedDataParser*& __get__signedData();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::SignedDataParser*& __cordl_internal_get__signedData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignedDataParser*> const& __get__signedData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignedDataParser*> const& __cordl_internal_get__signedData() const;
 
-  constexpr void __set__signedData(::Org::BouncyCastle::Asn1::Cms::SignedDataParser* value);
+  constexpr void __cordl_internal_set__signedData(::Org::BouncyCastle::Asn1::Cms::SignedDataParser* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get__signedContentType();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get__signedContentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get__signedContentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get__signedContentType() const;
 
-  constexpr void __set__signedContentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set__signedContentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsTypedStream*& __get__signedContent();
+  constexpr ::Org::BouncyCastle::Cms::CmsTypedStream*& __cordl_internal_get__signedContent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsTypedStream*> const& __get__signedContent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsTypedStream*> const& __cordl_internal_get__signedContent() const;
 
-  constexpr void __set__signedContent(::Org::BouncyCastle::Cms::CmsTypedStream* value);
+  constexpr void __cordl_internal_set__signedContent(::Org::BouncyCastle::Cms::CmsTypedStream* value);
 
-  constexpr ::System::Collections::IDictionary*& __get__digests();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get__digests();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get__digests() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__digests() const;
 
-  constexpr void __set__digests(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set__digests(::System::Collections::IDictionary* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get__digestOids();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get__digestOids();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get__digestOids() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get__digestOids() const;
 
-  constexpr void __set__digestOids(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set__digestOids(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Cms::SignerInformationStore*& __get__signerInfoStore();
+  constexpr ::Org::BouncyCastle::Cms::SignerInformationStore*& __cordl_internal_get__signerInfoStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformationStore*> const& __get__signerInfoStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformationStore*> const& __cordl_internal_get__signerInfoStore() const;
 
-  constexpr void __set__signerInfoStore(::Org::BouncyCastle::Cms::SignerInformationStore* value);
+  constexpr void __cordl_internal_set__signerInfoStore(::Org::BouncyCastle::Cms::SignerInformationStore* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get__certSet();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get__certSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get__certSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get__certSet() const;
 
-  constexpr void __set__certSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set__certSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get__crlSet();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get__crlSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get__crlSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get__crlSet() const;
 
-  constexpr void __set__crlSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set__crlSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr bool& __get__isCertCrlParsed();
+  constexpr bool& __cordl_internal_get__isCertCrlParsed();
 
-  constexpr bool const& __get__isCertCrlParsed() const;
+  constexpr bool const& __cordl_internal_get__isCertCrlParsed() const;
 
-  constexpr void __set__isCertCrlParsed(bool value);
+  constexpr void __cordl_internal_set__isCertCrlParsed(bool value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get__attributeStore();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get__attributeStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get__attributeStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get__attributeStore() const;
 
-  constexpr void __set__attributeStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set__attributeStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get__certificateStore();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get__certificateStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get__certificateStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get__certificateStore() const;
 
-  constexpr void __set__certificateStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set__certificateStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get__crlStore();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get__crlStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get__crlStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get__crlStore() const;
 
-  constexpr void __set__crlStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set__crlStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsSignedHelper* value);
 

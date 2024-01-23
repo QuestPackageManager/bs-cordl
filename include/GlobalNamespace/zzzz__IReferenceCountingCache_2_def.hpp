@@ -17,7 +17,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5897))
 // CS Name: ::IReferenceCountingCache`2<TKey,TValue>*
 class CORDL_TYPE IReferenceCountingCache_2 {

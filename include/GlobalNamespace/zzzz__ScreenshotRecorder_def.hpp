@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScreenshotRecorder);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14379))
 // CS Name: ::ScreenshotRecorder::RecordingType
 struct CORDL_TYPE __ScreenshotRecorder__RecordingType {
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__ScreenshotRecorder__RecordingType, v
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14379)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14379))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14380))
 // CS Name: ::ScreenshotRecorder*
 class CORDL_TYPE ScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
@@ -110,168 +110,168 @@ public:
   using RecordingType = ::GlobalNamespace::__ScreenshotRecorder__RecordingType;
 
   /// @brief Field _directory, offset 0x18, size 0x8
-  __declspec(property(get = __get__directory, put = __set__directory))::StringW _directory;
+  __declspec(property(get = __cordl_internal_get__directory, put = __cordl_internal_set__directory))::StringW _directory;
 
   /// @brief Field _camera, offset 0x20, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _frameRate, offset 0x28, size 0x4
-  __declspec(property(get = __get__frameRate, put = __set__frameRate)) int32_t _frameRate;
+  __declspec(property(get = __cordl_internal_get__frameRate, put = __cordl_internal_set__frameRate)) int32_t _frameRate;
 
   /// @brief Field _forceFixedFramerate, offset 0x2c, size 0x1
-  __declspec(property(get = __get__forceFixedFramerate, put = __set__forceFixedFramerate)) bool _forceFixedFramerate;
+  __declspec(property(get = __cordl_internal_get__forceFixedFramerate, put = __cordl_internal_set__forceFixedFramerate)) bool _forceFixedFramerate;
 
   /// @brief Field _interval, offset 0x30, size 0x4
-  __declspec(property(get = __get__interval, put = __set__interval)) int32_t _interval;
+  __declspec(property(get = __cordl_internal_get__interval, put = __cordl_internal_set__interval)) int32_t _interval;
 
   /// @brief Field _recordingType, offset 0x34, size 0x4
-  __declspec(property(get = __get__recordingType, put = __set__recordingType))::GlobalNamespace::__ScreenshotRecorder__RecordingType _recordingType;
+  __declspec(property(get = __cordl_internal_get__recordingType, put = __cordl_internal_set__recordingType))::GlobalNamespace::__ScreenshotRecorder__RecordingType _recordingType;
 
   /// @brief Field _pauseWithPButton, offset 0x38, size 0x1
-  __declspec(property(get = __get__pauseWithPButton, put = __set__pauseWithPButton)) bool _pauseWithPButton;
+  __declspec(property(get = __cordl_internal_get__pauseWithPButton, put = __cordl_internal_set__pauseWithPButton)) bool _pauseWithPButton;
 
   /// @brief Field _antiAlias, offset 0x3c, size 0x4
-  __declspec(property(get = __get__antiAlias, put = __set__antiAlias)) int32_t _antiAlias;
+  __declspec(property(get = __cordl_internal_get__antiAlias, put = __cordl_internal_set__antiAlias)) int32_t _antiAlias;
 
   /// @brief Field _screenshotWidth, offset 0x40, size 0x4
-  __declspec(property(get = __get__screenshotWidth, put = __set__screenshotWidth)) int32_t _screenshotWidth;
+  __declspec(property(get = __cordl_internal_get__screenshotWidth, put = __cordl_internal_set__screenshotWidth)) int32_t _screenshotWidth;
 
   /// @brief Field _screenshotHeight, offset 0x44, size 0x4
-  __declspec(property(get = __get__screenshotHeight, put = __set__screenshotHeight)) int32_t _screenshotHeight;
+  __declspec(property(get = __cordl_internal_get__screenshotHeight, put = __cordl_internal_set__screenshotHeight)) int32_t _screenshotHeight;
 
   /// @brief Field _counter, offset 0x48, size 0x4
-  __declspec(property(get = __get__counter, put = __set__counter)) int32_t _counter;
+  __declspec(property(get = __cordl_internal_get__counter, put = __cordl_internal_set__counter)) int32_t _counter;
 
   /// @brief Field _originalTimeScale, offset 0x4c, size 0x4
-  __declspec(property(get = __get__originalTimeScale, put = __set__originalTimeScale)) float_t _originalTimeScale;
+  __declspec(property(get = __cordl_internal_get__originalTimeScale, put = __cordl_internal_set__originalTimeScale)) float_t _originalTimeScale;
 
   /// @brief Field _paused, offset 0x50, size 0x1
-  __declspec(property(get = __get__paused, put = __set__paused)) bool _paused;
+  __declspec(property(get = __cordl_internal_get__paused, put = __cordl_internal_set__paused)) bool _paused;
 
   /// @brief Field _frameNum, offset 0x54, size 0x4
-  __declspec(property(get = __get__frameNum, put = __set__frameNum)) int32_t _frameNum;
+  __declspec(property(get = __cordl_internal_get__frameNum, put = __cordl_internal_set__frameNum)) int32_t _frameNum;
 
   /// @brief Field _cubemapLeftEye, offset 0x58, size 0x8
-  __declspec(property(get = __get__cubemapLeftEye, put = __set__cubemapLeftEye))::UnityEngine::RenderTexture* _cubemapLeftEye;
+  __declspec(property(get = __cordl_internal_get__cubemapLeftEye, put = __cordl_internal_set__cubemapLeftEye))::UnityW<::UnityEngine::RenderTexture> _cubemapLeftEye;
 
   /// @brief Field _cubemapRighEye, offset 0x60, size 0x8
-  __declspec(property(get = __get__cubemapRighEye, put = __set__cubemapRighEye))::UnityEngine::RenderTexture* _cubemapRighEye;
+  __declspec(property(get = __cordl_internal_get__cubemapRighEye, put = __cordl_internal_set__cubemapRighEye))::UnityW<::UnityEngine::RenderTexture> _cubemapRighEye;
 
   /// @brief Field _equirectTexture, offset 0x68, size 0x8
-  __declspec(property(get = __get__equirectTexture, put = __set__equirectTexture))::UnityEngine::RenderTexture* _equirectTexture;
+  __declspec(property(get = __cordl_internal_get__equirectTexture, put = __cordl_internal_set__equirectTexture))::UnityW<::UnityEngine::RenderTexture> _equirectTexture;
 
   /// @brief Field _cameraRenderTexture, offset 0x70, size 0x8
-  __declspec(property(get = __get__cameraRenderTexture, put = __set__cameraRenderTexture))::UnityEngine::RenderTexture* _cameraRenderTexture;
+  __declspec(property(get = __cordl_internal_get__cameraRenderTexture, put = __cordl_internal_set__cameraRenderTexture))::UnityW<::UnityEngine::RenderTexture> _cameraRenderTexture;
 
   __declspec(property(get = get_directory, put = set_directory))::StringW directory;
 
-  constexpr ::StringW& __get__directory();
+  constexpr ::StringW& __cordl_internal_get__directory();
 
-  constexpr ::StringW const& __get__directory() const;
+  constexpr ::StringW const& __cordl_internal_get__directory() const;
 
-  constexpr void __set__directory(::StringW value);
+  constexpr void __cordl_internal_set__directory(::StringW value);
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr int32_t& __get__frameRate();
+  constexpr int32_t& __cordl_internal_get__frameRate();
 
-  constexpr int32_t const& __get__frameRate() const;
+  constexpr int32_t const& __cordl_internal_get__frameRate() const;
 
-  constexpr void __set__frameRate(int32_t value);
+  constexpr void __cordl_internal_set__frameRate(int32_t value);
 
-  constexpr bool& __get__forceFixedFramerate();
+  constexpr bool& __cordl_internal_get__forceFixedFramerate();
 
-  constexpr bool const& __get__forceFixedFramerate() const;
+  constexpr bool const& __cordl_internal_get__forceFixedFramerate() const;
 
-  constexpr void __set__forceFixedFramerate(bool value);
+  constexpr void __cordl_internal_set__forceFixedFramerate(bool value);
 
-  constexpr int32_t& __get__interval();
+  constexpr int32_t& __cordl_internal_get__interval();
 
-  constexpr int32_t const& __get__interval() const;
+  constexpr int32_t const& __cordl_internal_get__interval() const;
 
-  constexpr void __set__interval(int32_t value);
+  constexpr void __cordl_internal_set__interval(int32_t value);
 
-  constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType& __get__recordingType();
+  constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType& __cordl_internal_get__recordingType();
 
-  constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType const& __get__recordingType() const;
+  constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType const& __cordl_internal_get__recordingType() const;
 
-  constexpr void __set__recordingType(::GlobalNamespace::__ScreenshotRecorder__RecordingType value);
+  constexpr void __cordl_internal_set__recordingType(::GlobalNamespace::__ScreenshotRecorder__RecordingType value);
 
-  constexpr bool& __get__pauseWithPButton();
+  constexpr bool& __cordl_internal_get__pauseWithPButton();
 
-  constexpr bool const& __get__pauseWithPButton() const;
+  constexpr bool const& __cordl_internal_get__pauseWithPButton() const;
 
-  constexpr void __set__pauseWithPButton(bool value);
+  constexpr void __cordl_internal_set__pauseWithPButton(bool value);
 
-  constexpr int32_t& __get__antiAlias();
+  constexpr int32_t& __cordl_internal_get__antiAlias();
 
-  constexpr int32_t const& __get__antiAlias() const;
+  constexpr int32_t const& __cordl_internal_get__antiAlias() const;
 
-  constexpr void __set__antiAlias(int32_t value);
+  constexpr void __cordl_internal_set__antiAlias(int32_t value);
 
-  constexpr int32_t& __get__screenshotWidth();
+  constexpr int32_t& __cordl_internal_get__screenshotWidth();
 
-  constexpr int32_t const& __get__screenshotWidth() const;
+  constexpr int32_t const& __cordl_internal_get__screenshotWidth() const;
 
-  constexpr void __set__screenshotWidth(int32_t value);
+  constexpr void __cordl_internal_set__screenshotWidth(int32_t value);
 
-  constexpr int32_t& __get__screenshotHeight();
+  constexpr int32_t& __cordl_internal_get__screenshotHeight();
 
-  constexpr int32_t const& __get__screenshotHeight() const;
+  constexpr int32_t const& __cordl_internal_get__screenshotHeight() const;
 
-  constexpr void __set__screenshotHeight(int32_t value);
+  constexpr void __cordl_internal_set__screenshotHeight(int32_t value);
 
-  constexpr int32_t& __get__counter();
+  constexpr int32_t& __cordl_internal_get__counter();
 
-  constexpr int32_t const& __get__counter() const;
+  constexpr int32_t const& __cordl_internal_get__counter() const;
 
-  constexpr void __set__counter(int32_t value);
+  constexpr void __cordl_internal_set__counter(int32_t value);
 
-  constexpr float_t& __get__originalTimeScale();
+  constexpr float_t& __cordl_internal_get__originalTimeScale();
 
-  constexpr float_t const& __get__originalTimeScale() const;
+  constexpr float_t const& __cordl_internal_get__originalTimeScale() const;
 
-  constexpr void __set__originalTimeScale(float_t value);
+  constexpr void __cordl_internal_set__originalTimeScale(float_t value);
 
-  constexpr bool& __get__paused();
+  constexpr bool& __cordl_internal_get__paused();
 
-  constexpr bool const& __get__paused() const;
+  constexpr bool const& __cordl_internal_get__paused() const;
 
-  constexpr void __set__paused(bool value);
+  constexpr void __cordl_internal_set__paused(bool value);
 
-  constexpr int32_t& __get__frameNum();
+  constexpr int32_t& __cordl_internal_get__frameNum();
 
-  constexpr int32_t const& __get__frameNum() const;
+  constexpr int32_t const& __cordl_internal_get__frameNum() const;
 
-  constexpr void __set__frameNum(int32_t value);
+  constexpr void __cordl_internal_set__frameNum(int32_t value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__cubemapLeftEye();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__cubemapLeftEye();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__cubemapLeftEye() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__cubemapLeftEye() const;
 
-  constexpr void __set__cubemapLeftEye(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__cubemapLeftEye(::UnityW<::UnityEngine::RenderTexture> value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__cubemapRighEye();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__cubemapRighEye();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__cubemapRighEye() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__cubemapRighEye() const;
 
-  constexpr void __set__cubemapRighEye(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__cubemapRighEye(::UnityW<::UnityEngine::RenderTexture> value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__equirectTexture();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__equirectTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__equirectTexture() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__equirectTexture() const;
 
-  constexpr void __set__equirectTexture(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__equirectTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__cameraRenderTexture();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__cameraRenderTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__cameraRenderTexture() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__cameraRenderTexture() const;
 
-  constexpr void __set__cameraRenderTexture(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__cameraRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
   /// @brief Method get_directory, addr 0x20f3f28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
@@ -298,7 +298,7 @@ public:
   inline void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
 
   /// @brief Method ConvertRenderTexture, addr 0x20f42d0, size 0x11c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
+  inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::ScreenshotRecorder* New_ctor();
 
@@ -323,7 +323,7 @@ public:
   ::StringW ____directory;
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _frameRate, offset: 0x28, size: 0x4, def value: None
   int32_t ____frameRate;
@@ -362,16 +362,16 @@ public:
   int32_t ____frameNum;
 
   /// @brief Field _cubemapLeftEye, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____cubemapLeftEye;
+  ::UnityW<::UnityEngine::RenderTexture> ____cubemapLeftEye;
 
   /// @brief Field _cubemapRighEye, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____cubemapRighEye;
+  ::UnityW<::UnityEngine::RenderTexture> ____cubemapRighEye;
 
   /// @brief Field _equirectTexture, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____equirectTexture;
+  ::UnityW<::UnityEngine::RenderTexture> ____equirectTexture;
 
   /// @brief Field _cameraRenderTexture, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____cameraRenderTexture;
+  ::UnityW<::UnityEngine::RenderTexture> ____cameraRenderTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

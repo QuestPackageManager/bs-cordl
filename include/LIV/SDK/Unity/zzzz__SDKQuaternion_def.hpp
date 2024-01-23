@@ -22,7 +22,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKQuaternion);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15110))
 // CS Name: ::LIV.SDK.Unity::SDKQuaternion
 struct CORDL_TYPE SDKQuaternion {

@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3845), inst: 767 }), TypeDefinitionIndex(TypeDefinitionIndex(3845))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3845)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3845), inst: 767 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3847))
 // CS Name: ::System.Collections.Generic::LargeArrayBuilder`1<T>
 struct CORDL_TYPE LargeArrayBuilder_1 {

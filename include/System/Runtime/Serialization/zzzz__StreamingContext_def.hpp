@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Runtime::Serialization::StreamingContext);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3236))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3236))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3235))
 // CS Name: ::System.Runtime.Serialization::StreamingContext
 struct CORDL_TYPE StreamingContext {

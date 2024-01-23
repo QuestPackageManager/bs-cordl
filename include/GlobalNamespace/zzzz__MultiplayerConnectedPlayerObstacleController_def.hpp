@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4792))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4792))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5142))
 // CS Name: ::MultiplayerConnectedPlayerObstacleController*
 class CORDL_TYPE MultiplayerConnectedPlayerObstacleController : public ::GlobalNamespace::ObstacleController {
@@ -41,15 +41,14 @@ public:
   using Pool = ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool;
 
   /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset 0x120, size 0x8
-  __declspec(property(
-      get = __get__multiplayerConnectedPlayerObstacleClippingController,
-      put = __set__multiplayerConnectedPlayerObstacleClippingController))::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* _multiplayerConnectedPlayerObstacleClippingController;
+  __declspec(property(get = __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController, put = __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController))::UnityW<
+      ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> _multiplayerConnectedPlayerObstacleClippingController;
 
-  constexpr ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*& __get__multiplayerConnectedPlayerObstacleClippingController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController>& __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*> const& __get__multiplayerConnectedPlayerObstacleClippingController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> const& __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController() const;
 
-  constexpr void __set__multiplayerConnectedPlayerObstacleClippingController(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* value);
+  constexpr void __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> value);
 
   /// @brief Method Init, addr 0x23d7c4c, size 0x1d0, virtual true, abstract: false, final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos,
@@ -75,7 +74,7 @@ protected:
 
 public:
   /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset: 0x120, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* ____multiplayerConnectedPlayerObstacleClippingController;
+  ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> ____multiplayerConnectedPlayerObstacleClippingController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,9 +88,9 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleCont
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2820 }), TypeDefinitionIndex(TypeDefinitionIndex(5142)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5141)) CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
-class CORDL_TYPE __MultiplayerConnectedPlayerObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5142)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2820 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5141)) CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
+class CORDL_TYPE __MultiplayerConnectedPlayerObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool* New_ctor();

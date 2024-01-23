@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::System::Xml::BitStack);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11408))
 // CS Name: ::System.Xml::BitStack*
 class CORDL_TYPE BitStack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bitStack, offset 0x10, size 0x8
-  __declspec(property(get = __get_bitStack, put = __set_bitStack))::ArrayW<uint32_t, ::Array<uint32_t>*> bitStack;
+  __declspec(property(get = __cordl_internal_get_bitStack, put = __cordl_internal_set_bitStack))::ArrayW<uint32_t, ::Array<uint32_t>*> bitStack;
 
   /// @brief Field stackPos, offset 0x18, size 0x4
-  __declspec(property(get = __get_stackPos, put = __set_stackPos)) int32_t stackPos;
+  __declspec(property(get = __cordl_internal_get_stackPos, put = __cordl_internal_set_stackPos)) int32_t stackPos;
 
   /// @brief Field curr, offset 0x1c, size 0x4
-  __declspec(property(get = __get_curr, put = __set_curr)) uint32_t curr;
+  __declspec(property(get = __cordl_internal_get_curr, put = __cordl_internal_set_curr)) uint32_t curr;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_bitStack();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_bitStack();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_bitStack() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_bitStack() const;
 
-  constexpr void __set_bitStack(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_bitStack(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr int32_t& __get_stackPos();
+  constexpr int32_t& __cordl_internal_get_stackPos();
 
-  constexpr int32_t const& __get_stackPos() const;
+  constexpr int32_t const& __cordl_internal_get_stackPos() const;
 
-  constexpr void __set_stackPos(int32_t value);
+  constexpr void __cordl_internal_set_stackPos(int32_t value);
 
-  constexpr uint32_t& __get_curr();
+  constexpr uint32_t& __cordl_internal_get_curr();
 
-  constexpr uint32_t const& __get_curr() const;
+  constexpr uint32_t const& __cordl_internal_get_curr() const;
 
-  constexpr void __set_curr(uint32_t value);
+  constexpr void __cordl_internal_set_curr(uint32_t value);
 
   static inline ::System::Xml::BitStack* New_ctor();
 

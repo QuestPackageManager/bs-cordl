@@ -29,60 +29,60 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Store);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13758))
 // CS Name: ::Mono.Security.X509::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _storePath, offset 0x10, size 0x8
-  __declspec(property(get = __get__storePath, put = __set__storePath))::StringW _storePath;
+  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath))::StringW _storePath;
 
   /// @brief Field _certificates, offset 0x18, size 0x8
-  __declspec(property(get = __get__certificates, put = __set__certificates))::Mono::Security::X509::X509CertificateCollection* _certificates;
+  __declspec(property(get = __cordl_internal_get__certificates, put = __cordl_internal_set__certificates))::Mono::Security::X509::X509CertificateCollection* _certificates;
 
   /// @brief Field _crls, offset 0x20, size 0x8
-  __declspec(property(get = __get__crls, put = __set__crls))::System::Collections::ArrayList* _crls;
+  __declspec(property(get = __cordl_internal_get__crls, put = __cordl_internal_set__crls))::System::Collections::ArrayList* _crls;
 
   /// @brief Field _crl, offset 0x28, size 0x1
-  __declspec(property(get = __get__crl, put = __set__crl)) bool _crl;
+  __declspec(property(get = __cordl_internal_get__crl, put = __cordl_internal_set__crl)) bool _crl;
 
   /// @brief Field _newFormat, offset 0x29, size 0x1
-  __declspec(property(get = __get__newFormat, put = __set__newFormat)) bool _newFormat;
+  __declspec(property(get = __cordl_internal_get__newFormat, put = __cordl_internal_set__newFormat)) bool _newFormat;
 
   __declspec(property(get = get_Certificates))::Mono::Security::X509::X509CertificateCollection* Certificates;
 
   __declspec(property(get = get_Crls))::System::Collections::ArrayList* Crls;
 
-  constexpr ::StringW& __get__storePath();
+  constexpr ::StringW& __cordl_internal_get__storePath();
 
-  constexpr ::StringW const& __get__storePath() const;
+  constexpr ::StringW const& __cordl_internal_get__storePath() const;
 
-  constexpr void __set__storePath(::StringW value);
+  constexpr void __cordl_internal_set__storePath(::StringW value);
 
-  constexpr ::Mono::Security::X509::X509CertificateCollection*& __get__certificates();
+  constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__certificates();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __get__certificates() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get__certificates() const;
 
-  constexpr void __set__certificates(::Mono::Security::X509::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__certificates(::Mono::Security::X509::X509CertificateCollection* value);
 
-  constexpr ::System::Collections::ArrayList*& __get__crls();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__crls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__crls() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__crls() const;
 
-  constexpr void __set__crls(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__crls(::System::Collections::ArrayList* value);
 
-  constexpr bool& __get__crl();
+  constexpr bool& __cordl_internal_get__crl();
 
-  constexpr bool const& __get__crl() const;
+  constexpr bool const& __cordl_internal_get__crl() const;
 
-  constexpr void __set__crl(bool value);
+  constexpr void __cordl_internal_set__crl(bool value);
 
-  constexpr bool& __get__newFormat();
+  constexpr bool& __cordl_internal_get__newFormat();
 
-  constexpr bool const& __get__newFormat() const;
+  constexpr bool const& __cordl_internal_get__newFormat() const;
 
-  constexpr void __set__newFormat(bool value);
+  constexpr void __cordl_internal_set__newFormat(bool value);
 
   static inline ::Mono::Security::X509::X509Store* New_ctor(::StringW path, bool crl, bool newFormat);
 

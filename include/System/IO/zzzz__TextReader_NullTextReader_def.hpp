@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::IO::__TextReader__NullTextReader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3579))
 // CS Name: ::TextReader::NullTextReader*
 class CORDL_TYPE __TextReader__NullTextReader : public ::System::IO::TextReader {

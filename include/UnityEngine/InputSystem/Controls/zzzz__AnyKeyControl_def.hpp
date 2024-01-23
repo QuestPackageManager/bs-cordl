@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::AnyKeyControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6629))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6629))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6626))
 // CS Name: ::UnityEngine.InputSystem.Controls::AnyKeyControl*
 class CORDL_TYPE AnyKeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {

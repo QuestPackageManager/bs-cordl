@@ -30,65 +30,65 @@ MARK_REF_PTR_T(::GlobalNamespace::BurstFireEffect);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4007))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4007))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4005))
 // CS Name: ::BurstFireEffect*
 class CORDL_TYPE BurstFireEffect : public ::GlobalNamespace::FireEffect {
 public:
   // Declarations
   /// @brief Field _fadeOutDuration, offset 0x80, size 0x4
-  __declspec(property(get = __get__fadeOutDuration, put = __set__fadeOutDuration)) float_t _fadeOutDuration;
+  __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
 
   /// @brief Field _flipbookFadeOutCurve, offset 0x88, size 0x8
-  __declspec(property(get = __get__flipbookFadeOutCurve, put = __set__flipbookFadeOutCurve))::UnityEngine::AnimationCurve* _flipbookFadeOutCurve;
+  __declspec(property(get = __cordl_internal_get__flipbookFadeOutCurve, put = __cordl_internal_set__flipbookFadeOutCurve))::UnityEngine::AnimationCurve* _flipbookFadeOutCurve;
 
   /// @brief Field _bloomFadeOutCurve, offset 0x90, size 0x8
-  __declspec(property(get = __get__bloomFadeOutCurve, put = __set__bloomFadeOutCurve))::UnityEngine::AnimationCurve* _bloomFadeOutCurve;
+  __declspec(property(get = __cordl_internal_get__bloomFadeOutCurve, put = __cordl_internal_set__bloomFadeOutCurve))::UnityEngine::AnimationCurve* _bloomFadeOutCurve;
 
   /// @brief Field _audioTimeSource, offset 0x98, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _songTimeTweeningManager, offset 0xa0, size 0x8
-  __declspec(property(get = __get__songTimeTweeningManager, put = __set__songTimeTweeningManager))::Tweening::SongTimeTweeningManager* _songTimeTweeningManager;
+  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
   /// @brief Field _fadeOutTween, offset 0xa8, size 0x8
-  __declspec(property(get = __get__fadeOutTween, put = __set__fadeOutTween))::Tweening::FloatTween* _fadeOutTween;
+  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween))::Tweening::FloatTween* _fadeOutTween;
 
-  constexpr float_t& __get__fadeOutDuration();
+  constexpr float_t& __cordl_internal_get__fadeOutDuration();
 
-  constexpr float_t const& __get__fadeOutDuration() const;
+  constexpr float_t const& __cordl_internal_get__fadeOutDuration() const;
 
-  constexpr void __set__fadeOutDuration(float_t value);
+  constexpr void __cordl_internal_set__fadeOutDuration(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__flipbookFadeOutCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__flipbookFadeOutCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__flipbookFadeOutCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__flipbookFadeOutCurve() const;
 
-  constexpr void __set__flipbookFadeOutCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__flipbookFadeOutCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__bloomFadeOutCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__bloomFadeOutCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__bloomFadeOutCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__bloomFadeOutCurve() const;
 
-  constexpr void __set__bloomFadeOutCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__bloomFadeOutCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::Tweening::SongTimeTweeningManager*& __get__songTimeTweeningManager();
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__songTimeTweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::SongTimeTweeningManager*> const& __get__songTimeTweeningManager() const;
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__songTimeTweeningManager() const;
 
-  constexpr void __set__songTimeTweeningManager(::Tweening::SongTimeTweeningManager* value);
+  constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  constexpr ::Tweening::FloatTween*& __get__fadeOutTween();
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__fadeOutTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __get__fadeOutTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__fadeOutTween() const;
 
-  constexpr void __set__fadeOutTween(::Tweening::FloatTween* value);
+  constexpr void __cordl_internal_set__fadeOutTween(::Tweening::FloatTween* value);
 
   /// @brief Method Awake, addr 0x222102c, size 0x124, virtual false, abstract: false, final false
   inline void Awake();
@@ -146,7 +146,7 @@ public:
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
   /// @brief Field _songTimeTweeningManager, offset: 0xa0, size: 0x8, def value: None
-  ::Tweening::SongTimeTweeningManager* ____songTimeTweeningManager;
+  ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
   /// @brief Field _fadeOutTween, offset: 0xa8, size: 0x8, def value: None
   ::Tweening::FloatTween* ____fadeOutTween;

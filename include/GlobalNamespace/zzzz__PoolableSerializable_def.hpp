@@ -36,14 +36,14 @@ MARK_REF_PTR_T(::GlobalNamespace::PoolableSerializable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15033))
 // CS Name: ::PoolableSerializable*
 class CORDL_TYPE PoolableSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _referenceCount, offset 0x10, size 0x4
-  __declspec(property(get = __get__referenceCount, put = __set__referenceCount)) int32_t _referenceCount;
+  __declspec(property(get = __cordl_internal_get__referenceCount, put = __cordl_internal_set__referenceCount)) int32_t _referenceCount;
 
   /// @brief Field _pools, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__pools, put = setStaticF__pools))::System::Collections::Concurrent::ConcurrentDictionary_2<
@@ -61,11 +61,11 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr int32_t& __get__referenceCount();
+  constexpr int32_t& __cordl_internal_get__referenceCount();
 
-  constexpr int32_t const& __get__referenceCount() const;
+  constexpr int32_t const& __cordl_internal_get__referenceCount() const;
 
-  constexpr void __set__referenceCount(int32_t value);
+  constexpr void __cordl_internal_set__referenceCount(int32_t value);
 
   static inline void
   setStaticF__pools(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>*>* value);

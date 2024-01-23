@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProvider
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5952))
 // CS Name: ::CustomizableEnvironmentCommandLineArgsProviderSO*
 class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProviderSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _useCustomCommandLineArgs, offset 0x18, size 0x1
-  __declspec(property(get = __get__useCustomCommandLineArgs, put = __set__useCustomCommandLineArgs)) bool _useCustomCommandLineArgs;
+  __declspec(property(get = __cordl_internal_get__useCustomCommandLineArgs, put = __cordl_internal_set__useCustomCommandLineArgs)) bool _useCustomCommandLineArgs;
 
   /// @brief Field _useEnvironmentCommandLineArgs, offset 0x19, size 0x1
-  __declspec(property(get = __get__useEnvironmentCommandLineArgs, put = __set__useEnvironmentCommandLineArgs)) bool _useEnvironmentCommandLineArgs;
+  __declspec(property(get = __cordl_internal_get__useEnvironmentCommandLineArgs, put = __cordl_internal_set__useEnvironmentCommandLineArgs)) bool _useEnvironmentCommandLineArgs;
 
   /// @brief Field _customCommandLineArgs, offset 0x20, size 0x8
-  __declspec(property(get = __get__customCommandLineArgs, put = __set__customCommandLineArgs))::StringW _customCommandLineArgs;
+  __declspec(property(get = __cordl_internal_get__customCommandLineArgs, put = __cordl_internal_set__customCommandLineArgs))::StringW _customCommandLineArgs;
 
   /// @brief Field _environmentCommandLineArgsProvider, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__environmentCommandLineArgsProvider,
@@ -47,23 +47,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::ICommandLineArgsProvider"
   constexpr ::GlobalNamespace::ICommandLineArgsProvider* i___GlobalNamespace__ICommandLineArgsProvider() noexcept;
 
-  constexpr bool& __get__useCustomCommandLineArgs();
+  constexpr bool& __cordl_internal_get__useCustomCommandLineArgs();
 
-  constexpr bool const& __get__useCustomCommandLineArgs() const;
+  constexpr bool const& __cordl_internal_get__useCustomCommandLineArgs() const;
 
-  constexpr void __set__useCustomCommandLineArgs(bool value);
+  constexpr void __cordl_internal_set__useCustomCommandLineArgs(bool value);
 
-  constexpr bool& __get__useEnvironmentCommandLineArgs();
+  constexpr bool& __cordl_internal_get__useEnvironmentCommandLineArgs();
 
-  constexpr bool const& __get__useEnvironmentCommandLineArgs() const;
+  constexpr bool const& __cordl_internal_get__useEnvironmentCommandLineArgs() const;
 
-  constexpr void __set__useEnvironmentCommandLineArgs(bool value);
+  constexpr void __cordl_internal_set__useEnvironmentCommandLineArgs(bool value);
 
-  constexpr ::StringW& __get__customCommandLineArgs();
+  constexpr ::StringW& __cordl_internal_get__customCommandLineArgs();
 
-  constexpr ::StringW const& __get__customCommandLineArgs() const;
+  constexpr ::StringW const& __cordl_internal_get__customCommandLineArgs() const;
 
-  constexpr void __set__customCommandLineArgs(::StringW value);
+  constexpr void __cordl_internal_set__customCommandLineArgs(::StringW value);
 
   static inline void setStaticF__environmentCommandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value);
 

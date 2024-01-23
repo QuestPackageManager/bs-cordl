@@ -39,14 +39,14 @@ MARK_REF_PTR_T(::Zenject::PrefabGameObjectProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11192))
 // CS Name: ::Zenject::PrefabGameObjectProvider*
 class CORDL_TYPE PrefabGameObjectProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _prefabCreator, offset 0x10, size 0x8
-  __declspec(property(get = __get__prefabCreator, put = __set__prefabCreator))::Zenject::IPrefabInstantiator* _prefabCreator;
+  __declspec(property(get = __cordl_internal_get__prefabCreator, put = __cordl_internal_set__prefabCreator))::Zenject::IPrefabInstantiator* _prefabCreator;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::Zenject::IPrefabInstantiator*& __get__prefabCreator();
+  constexpr ::Zenject::IPrefabInstantiator*& __cordl_internal_get__prefabCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __get__prefabCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __cordl_internal_get__prefabCreator() const;
 
-  constexpr void __set__prefabCreator(::Zenject::IPrefabInstantiator* value);
+  constexpr void __cordl_internal_set__prefabCreator(::Zenject::IPrefabInstantiator* value);
 
   static inline ::Zenject::PrefabGameObjectProvider* New_ctor(::Zenject::IPrefabInstantiator* prefabCreator);
 

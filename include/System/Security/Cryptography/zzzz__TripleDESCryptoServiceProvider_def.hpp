@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TripleDESCryptoServiceProvider)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2974))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2974))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2975))
 // CS Name: ::System.Security.Cryptography::TripleDESCryptoServiceProvider*
 class CORDL_TYPE TripleDESCryptoServiceProvider : public ::System::Security::Cryptography::TripleDES {

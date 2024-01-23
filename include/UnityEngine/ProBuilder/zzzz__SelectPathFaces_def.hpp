@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::SelectPathFaces);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12193))
 // CS Name: ::UnityEngine.ProBuilder::SelectPathFaces*
 class CORDL_TYPE SelectPathFaces : public ::System::Object {
@@ -45,7 +45,7 @@ public:
   static __declspec(property(get = getStaticF_s_cachedStart, put = setStaticF_s_cachedStart)) int32_t s_cachedStart;
 
   /// @brief Field s_cachedMesh, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cachedMesh, put = setStaticF_s_cachedMesh))::UnityEngine::ProBuilder::ProBuilderMesh* s_cachedMesh;
+  static __declspec(property(get = getStaticF_s_cachedMesh, put = setStaticF_s_cachedMesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> s_cachedMesh;
 
   /// @brief Field s_cachedFacesCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_cachedFacesCount, put = setStaticF_s_cachedFacesCount)) int32_t s_cachedFacesCount;
@@ -65,9 +65,9 @@ public:
 
   static inline int32_t getStaticF_s_cachedStart();
 
-  static inline void setStaticF_s_cachedMesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  static inline void setStaticF_s_cachedMesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* getStaticF_s_cachedMesh();
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> getStaticF_s_cachedMesh();
 
   static inline void setStaticF_s_cachedFacesCount(int32_t value);
 

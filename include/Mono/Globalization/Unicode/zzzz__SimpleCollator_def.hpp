@@ -75,7 +75,7 @@ MARK_VAL_T(::Mono::Globalization::Unicode::__SimpleCollator__PreviousInfo);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3659))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2267))
 // CS Name: ::SimpleCollator::Context
 struct CORDL_TYPE __SimpleCollator__Context {
@@ -144,7 +144,7 @@ static_assert(offsetof(::Mono::Globalization::Unicode::__SimpleCollator__Context
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2268))
 // CS Name: ::SimpleCollator::PreviousInfo
 struct CORDL_TYPE __SimpleCollator__PreviousInfo {
@@ -183,7 +183,7 @@ static_assert(offsetof(::Mono::Globalization::Unicode::__SimpleCollator__Previou
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2269))
 // CS Name: ::SimpleCollator::Escape
 struct CORDL_TYPE __SimpleCollator__Escape {
@@ -236,7 +236,7 @@ static_assert(offsetof(::Mono::Globalization::Unicode::__SimpleCollator__Escape,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2270))
 // CS Name: ::SimpleCollator::ExtenderType
 struct CORDL_TYPE __SimpleCollator__ExtenderType {
@@ -298,7 +298,7 @@ static_assert(offsetof(::Mono::Globalization::Unicode::__SimpleCollator__Extende
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2271))
 // CS Name: ::Mono.Globalization.Unicode::SimpleCollator*
 class CORDL_TYPE SimpleCollator : public ::System::Object {
@@ -313,37 +313,39 @@ public:
   using Context = ::Mono::Globalization::Unicode::__SimpleCollator__Context;
 
   /// @brief Field textInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_textInfo, put = __set_textInfo))::System::Globalization::TextInfo* textInfo;
+  __declspec(property(get = __cordl_internal_get_textInfo, put = __cordl_internal_set_textInfo))::System::Globalization::TextInfo* textInfo;
 
   /// @brief Field cjkIndexer, offset 0x18, size 0x8
-  __declspec(property(get = __get_cjkIndexer, put = __set_cjkIndexer))::Mono::Globalization::Unicode::CodePointIndexer* cjkIndexer;
+  __declspec(property(get = __cordl_internal_get_cjkIndexer, put = __cordl_internal_set_cjkIndexer))::Mono::Globalization::Unicode::CodePointIndexer* cjkIndexer;
 
   /// @brief Field contractions, offset 0x20, size 0x8
-  __declspec(property(get = __get_contractions, put = __set_contractions))::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> contractions;
+  __declspec(property(get = __cordl_internal_get_contractions,
+                      put = __cordl_internal_set_contractions))::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> contractions;
 
   /// @brief Field level2Maps, offset 0x28, size 0x8
-  __declspec(property(get = __get_level2Maps, put = __set_level2Maps))::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> level2Maps;
+  __declspec(property(get = __cordl_internal_get_level2Maps,
+                      put = __cordl_internal_set_level2Maps))::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> level2Maps;
 
   /// @brief Field unsafeFlags, offset 0x30, size 0x8
-  __declspec(property(get = __get_unsafeFlags, put = __set_unsafeFlags))::ArrayW<uint8_t, ::Array<uint8_t>*> unsafeFlags;
+  __declspec(property(get = __cordl_internal_get_unsafeFlags, put = __cordl_internal_set_unsafeFlags))::ArrayW<uint8_t, ::Array<uint8_t>*> unsafeFlags;
 
   /// @brief Field cjkCatTable, offset 0x38, size 0x8
-  __declspec(property(get = __get_cjkCatTable, put = __set_cjkCatTable))::cordl_internals::Ptr<uint8_t> cjkCatTable;
+  __declspec(property(get = __cordl_internal_get_cjkCatTable, put = __cordl_internal_set_cjkCatTable))::cordl_internals::Ptr<uint8_t> cjkCatTable;
 
   /// @brief Field cjkLv1Table, offset 0x40, size 0x8
-  __declspec(property(get = __get_cjkLv1Table, put = __set_cjkLv1Table))::cordl_internals::Ptr<uint8_t> cjkLv1Table;
+  __declspec(property(get = __cordl_internal_get_cjkLv1Table, put = __cordl_internal_set_cjkLv1Table))::cordl_internals::Ptr<uint8_t> cjkLv1Table;
 
   /// @brief Field cjkLv2Table, offset 0x48, size 0x8
-  __declspec(property(get = __get_cjkLv2Table, put = __set_cjkLv2Table))::cordl_internals::Ptr<uint8_t> cjkLv2Table;
+  __declspec(property(get = __cordl_internal_get_cjkLv2Table, put = __cordl_internal_set_cjkLv2Table))::cordl_internals::Ptr<uint8_t> cjkLv2Table;
 
   /// @brief Field cjkLv2Indexer, offset 0x50, size 0x8
-  __declspec(property(get = __get_cjkLv2Indexer, put = __set_cjkLv2Indexer))::Mono::Globalization::Unicode::CodePointIndexer* cjkLv2Indexer;
+  __declspec(property(get = __cordl_internal_get_cjkLv2Indexer, put = __cordl_internal_set_cjkLv2Indexer))::Mono::Globalization::Unicode::CodePointIndexer* cjkLv2Indexer;
 
   /// @brief Field lcid, offset 0x58, size 0x4
-  __declspec(property(get = __get_lcid, put = __set_lcid)) int32_t lcid;
+  __declspec(property(get = __cordl_internal_get_lcid, put = __cordl_internal_set_lcid)) int32_t lcid;
 
   /// @brief Field frenchSort, offset 0x5c, size 0x1
-  __declspec(property(get = __get_frenchSort, put = __set_frenchSort)) bool frenchSort;
+  __declspec(property(get = __cordl_internal_get_frenchSort, put = __cordl_internal_set_frenchSort)) bool frenchSort;
 
   /// @brief Field invariant, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_invariant, put = setStaticF_invariant))::Mono::Globalization::Unicode::SimpleCollator* invariant;
@@ -354,71 +356,71 @@ public:
   /// @brief Convert to "::System::Globalization::ISimpleCollator"
   constexpr ::System::Globalization::ISimpleCollator* i___System__Globalization__ISimpleCollator() noexcept;
 
-  constexpr ::System::Globalization::TextInfo*& __get_textInfo();
+  constexpr ::System::Globalization::TextInfo*& __cordl_internal_get_textInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::TextInfo*> const& __get_textInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::TextInfo*> const& __cordl_internal_get_textInfo() const;
 
-  constexpr void __set_textInfo(::System::Globalization::TextInfo* value);
+  constexpr void __cordl_internal_set_textInfo(::System::Globalization::TextInfo* value);
 
-  constexpr ::Mono::Globalization::Unicode::CodePointIndexer*& __get_cjkIndexer();
+  constexpr ::Mono::Globalization::Unicode::CodePointIndexer*& __cordl_internal_get_cjkIndexer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Globalization::Unicode::CodePointIndexer*> const& __get_cjkIndexer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Globalization::Unicode::CodePointIndexer*> const& __cordl_internal_get_cjkIndexer() const;
 
-  constexpr void __set_cjkIndexer(::Mono::Globalization::Unicode::CodePointIndexer* value);
+  constexpr void __cordl_internal_set_cjkIndexer(::Mono::Globalization::Unicode::CodePointIndexer* value);
 
-  constexpr ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>& __get_contractions();
+  constexpr ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>& __cordl_internal_get_contractions();
 
-  constexpr ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> const& __get_contractions() const;
+  constexpr ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> const& __cordl_internal_get_contractions() const;
 
-  constexpr void __set_contractions(::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> value);
+  constexpr void __cordl_internal_set_contractions(::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> value);
 
-  constexpr ::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>& __get_level2Maps();
+  constexpr ::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>& __cordl_internal_get_level2Maps();
 
-  constexpr ::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> const& __get_level2Maps() const;
+  constexpr ::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> const& __cordl_internal_get_level2Maps() const;
 
-  constexpr void __set_level2Maps(::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> value);
+  constexpr void __cordl_internal_set_level2Maps(::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_unsafeFlags();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_unsafeFlags();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_unsafeFlags() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_unsafeFlags() const;
 
-  constexpr void __set_unsafeFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_unsafeFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_cjkCatTable();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_cjkCatTable();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_cjkCatTable() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_cjkCatTable() const;
 
-  constexpr void __set_cjkCatTable(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_cjkCatTable(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_cjkLv1Table();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_cjkLv1Table();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_cjkLv1Table() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_cjkLv1Table() const;
 
-  constexpr void __set_cjkLv1Table(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_cjkLv1Table(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_cjkLv2Table();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_cjkLv2Table();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_cjkLv2Table() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_cjkLv2Table() const;
 
-  constexpr void __set_cjkLv2Table(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_cjkLv2Table(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::Mono::Globalization::Unicode::CodePointIndexer*& __get_cjkLv2Indexer();
+  constexpr ::Mono::Globalization::Unicode::CodePointIndexer*& __cordl_internal_get_cjkLv2Indexer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Globalization::Unicode::CodePointIndexer*> const& __get_cjkLv2Indexer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Globalization::Unicode::CodePointIndexer*> const& __cordl_internal_get_cjkLv2Indexer() const;
 
-  constexpr void __set_cjkLv2Indexer(::Mono::Globalization::Unicode::CodePointIndexer* value);
+  constexpr void __cordl_internal_set_cjkLv2Indexer(::Mono::Globalization::Unicode::CodePointIndexer* value);
 
-  constexpr int32_t& __get_lcid();
+  constexpr int32_t& __cordl_internal_get_lcid();
 
-  constexpr int32_t const& __get_lcid() const;
+  constexpr int32_t const& __cordl_internal_get_lcid() const;
 
-  constexpr void __set_lcid(int32_t value);
+  constexpr void __cordl_internal_set_lcid(int32_t value);
 
-  constexpr bool& __get_frenchSort();
+  constexpr bool& __cordl_internal_get_frenchSort();
 
-  constexpr bool const& __get_frenchSort() const;
+  constexpr bool const& __cordl_internal_get_frenchSort() const;
 
-  constexpr void __set_frenchSort(bool value);
+  constexpr void __cordl_internal_set_frenchSort(bool value);
 
   static inline void setStaticF_invariant(::Mono::Globalization::Unicode::SimpleCollator* value);
 

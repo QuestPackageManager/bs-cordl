@@ -20,33 +20,34 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ErrorEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11916))
 // CS Name: ::Newtonsoft.Json.Serialization::ErrorEventArgs*
 class CORDL_TYPE ErrorEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field <CurrentObject>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__CurrentObject_k__BackingField, put = __set__CurrentObject_k__BackingField))::System::Object* _CurrentObject_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CurrentObject_k__BackingField, put = __cordl_internal_set__CurrentObject_k__BackingField))::System::Object* _CurrentObject_k__BackingField;
 
   /// @brief Field <ErrorContext>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__ErrorContext_k__BackingField, put = __set__ErrorContext_k__BackingField))::Newtonsoft::Json::Serialization::ErrorContext* _ErrorContext_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ErrorContext_k__BackingField,
+                      put = __cordl_internal_set__ErrorContext_k__BackingField))::Newtonsoft::Json::Serialization::ErrorContext* _ErrorContext_k__BackingField;
 
   __declspec(property(get = get_CurrentObject, put = set_CurrentObject))::System::Object* CurrentObject;
 
   __declspec(property(get = get_ErrorContext, put = set_ErrorContext))::Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
 
-  constexpr ::System::Object*& __get__CurrentObject_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__CurrentObject_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__CurrentObject_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__CurrentObject_k__BackingField() const;
 
-  constexpr void __set__CurrentObject_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__CurrentObject_k__BackingField(::System::Object* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::ErrorContext*& __get__ErrorContext_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::ErrorContext*& __cordl_internal_get__ErrorContext_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ErrorContext*> const& __get__ErrorContext_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ErrorContext*> const& __cordl_internal_get__ErrorContext_k__BackingField() const;
 
-  constexpr void __set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext* value);
+  constexpr void __cordl_internal_set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext* value);
 
   /// @brief Method get_CurrentObject, addr 0x266e72c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentObject();

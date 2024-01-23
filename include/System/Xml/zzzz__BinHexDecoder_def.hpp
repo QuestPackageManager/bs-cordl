@@ -17,58 +17,58 @@ MARK_REF_PTR_T(::System::Xml::BinHexDecoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11432))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11432))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11406))
 // CS Name: ::System.Xml::BinHexDecoder*
 class CORDL_TYPE BinHexDecoder : public ::System::Xml::IncrementalReadDecoder {
 public:
   // Declarations
   /// @brief Field buffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field curIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_curIndex, put = __set_curIndex)) int32_t curIndex;
+  __declspec(property(get = __cordl_internal_get_curIndex, put = __cordl_internal_set_curIndex)) int32_t curIndex;
 
   /// @brief Field endIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __get_endIndex, put = __set_endIndex)) int32_t endIndex;
+  __declspec(property(get = __cordl_internal_get_endIndex, put = __cordl_internal_set_endIndex)) int32_t endIndex;
 
   /// @brief Field hasHalfByteCached, offset 0x20, size 0x1
-  __declspec(property(get = __get_hasHalfByteCached, put = __set_hasHalfByteCached)) bool hasHalfByteCached;
+  __declspec(property(get = __cordl_internal_get_hasHalfByteCached, put = __cordl_internal_set_hasHalfByteCached)) bool hasHalfByteCached;
 
   /// @brief Field cachedHalfByte, offset 0x21, size 0x1
-  __declspec(property(get = __get_cachedHalfByte, put = __set_cachedHalfByte)) uint8_t cachedHalfByte;
+  __declspec(property(get = __cordl_internal_get_cachedHalfByte, put = __cordl_internal_set_cachedHalfByte)) uint8_t cachedHalfByte;
 
   __declspec(property(get = get_IsFull)) bool IsFull;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_curIndex();
+  constexpr int32_t& __cordl_internal_get_curIndex();
 
-  constexpr int32_t const& __get_curIndex() const;
+  constexpr int32_t const& __cordl_internal_get_curIndex() const;
 
-  constexpr void __set_curIndex(int32_t value);
+  constexpr void __cordl_internal_set_curIndex(int32_t value);
 
-  constexpr int32_t& __get_endIndex();
+  constexpr int32_t& __cordl_internal_get_endIndex();
 
-  constexpr int32_t const& __get_endIndex() const;
+  constexpr int32_t const& __cordl_internal_get_endIndex() const;
 
-  constexpr void __set_endIndex(int32_t value);
+  constexpr void __cordl_internal_set_endIndex(int32_t value);
 
-  constexpr bool& __get_hasHalfByteCached();
+  constexpr bool& __cordl_internal_get_hasHalfByteCached();
 
-  constexpr bool const& __get_hasHalfByteCached() const;
+  constexpr bool const& __cordl_internal_get_hasHalfByteCached() const;
 
-  constexpr void __set_hasHalfByteCached(bool value);
+  constexpr void __cordl_internal_set_hasHalfByteCached(bool value);
 
-  constexpr uint8_t& __get_cachedHalfByte();
+  constexpr uint8_t& __cordl_internal_get_cachedHalfByte();
 
-  constexpr uint8_t const& __get_cachedHalfByte() const;
+  constexpr uint8_t const& __cordl_internal_get_cachedHalfByte() const;
 
-  constexpr void __set_cachedHalfByte(uint8_t value);
+  constexpr void __cordl_internal_set_cachedHalfByte(uint8_t value);
 
   /// @brief Method get_IsFull, addr 0x284dc04, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsFull();

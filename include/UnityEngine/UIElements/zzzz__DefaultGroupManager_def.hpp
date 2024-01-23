@@ -23,17 +23,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultGroupManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6861))
 // CS Name: ::UnityEngine.UIElements::DefaultGroupManager*
 class CORDL_TYPE DefaultGroupManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_GroupOptions, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_GroupOptions, put = __set_m_GroupOptions))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* m_GroupOptions;
+  __declspec(property(get = __cordl_internal_get_m_GroupOptions,
+                      put = __cordl_internal_set_m_GroupOptions))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* m_GroupOptions;
 
   /// @brief Field m_SelectedOption, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_SelectedOption, put = __set_m_SelectedOption))::UnityEngine::UIElements::IGroupBoxOption* m_SelectedOption;
+  __declspec(property(get = __cordl_internal_get_m_SelectedOption, put = __cordl_internal_set_m_SelectedOption))::UnityEngine::UIElements::IGroupBoxOption* m_SelectedOption;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
   constexpr operator ::UnityEngine::UIElements::IGroupManager*() noexcept;
@@ -41,17 +42,17 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
   constexpr ::UnityEngine::UIElements::IGroupManager* i___UnityEngine__UIElements__IGroupManager() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*& __get_m_GroupOptions();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*& __cordl_internal_get_m_GroupOptions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*> const& __get_m_GroupOptions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*> const& __cordl_internal_get_m_GroupOptions() const;
 
-  constexpr void __set_m_GroupOptions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* value);
+  constexpr void __cordl_internal_set_m_GroupOptions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* value);
 
-  constexpr ::UnityEngine::UIElements::IGroupBoxOption*& __get_m_SelectedOption();
+  constexpr ::UnityEngine::UIElements::IGroupBoxOption*& __cordl_internal_get_m_SelectedOption();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IGroupBoxOption*> const& __get_m_SelectedOption() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IGroupBoxOption*> const& __cordl_internal_get_m_SelectedOption() const;
 
-  constexpr void __set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
+  constexpr void __cordl_internal_set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
 
   /// @brief Method OnOptionSelectionChanged, addr 0x2dc839c, size 0x1d0, virtual true, abstract: false, final true
   inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);

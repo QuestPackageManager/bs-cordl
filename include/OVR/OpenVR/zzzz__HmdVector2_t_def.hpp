@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdVector2_t);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8650))
 // CS Name: ::OVR.OpenVR::HmdVector2_t
 struct CORDL_TYPE HmdVector2_t {

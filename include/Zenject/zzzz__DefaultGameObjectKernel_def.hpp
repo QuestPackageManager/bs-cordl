@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Zenject::DefaultGameObjectKernel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11323))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11323))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11321))
 // CS Name: ::Zenject::DefaultGameObjectKernel*
 class CORDL_TYPE DefaultGameObjectKernel : public ::Zenject::MonoKernel {

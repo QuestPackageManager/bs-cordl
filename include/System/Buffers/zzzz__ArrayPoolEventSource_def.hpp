@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Buffers::ArrayPoolEventSource);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3881))
 // CS Name: ::ArrayPoolEventSource::BufferAllocatedReason
 struct CORDL_TYPE __ArrayPoolEventSource__BufferAllocatedReason {
@@ -77,7 +77,7 @@ static_assert(offsetof(::System::Buffers::__ArrayPoolEventSource__BufferAllocate
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3747))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3747))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3882))
 // CS Name: ::System.Buffers::ArrayPoolEventSource*
 class CORDL_TYPE ArrayPoolEventSource : public ::System::Diagnostics::Tracing::EventSource {

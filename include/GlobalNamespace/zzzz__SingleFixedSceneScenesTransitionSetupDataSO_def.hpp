@@ -20,25 +20,25 @@ MARK_REF_PTR_T(::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15417))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15417))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15418))
 // CS Name: ::SingleFixedSceneScenesTransitionSetupDataSO*
 class CORDL_TYPE SingleFixedSceneScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
   /// @brief Field _sceneInfo, offset 0x30, size 0x8
-  __declspec(property(get = __get__sceneInfo, put = __set__sceneInfo))::GlobalNamespace::SceneInfo* _sceneInfo;
+  __declspec(property(get = __cordl_internal_get__sceneInfo, put = __cordl_internal_set__sceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _sceneInfo;
 
-  __declspec(property(get = get_sceneInfo))::GlobalNamespace::SceneInfo* sceneInfo;
+  __declspec(property(get = get_sceneInfo))::UnityW<::GlobalNamespace::SceneInfo> sceneInfo;
 
-  constexpr ::GlobalNamespace::SceneInfo*& __get__sceneInfo();
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__sceneInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneInfo*> const& __get__sceneInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__sceneInfo() const;
 
-  constexpr void __set__sceneInfo(::GlobalNamespace::SceneInfo* value);
+  constexpr void __cordl_internal_set__sceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
   /// @brief Method get_sceneInfo, addr 0xe23c24, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SceneInfo* get_sceneInfo();
+  inline ::UnityW<::GlobalNamespace::SceneInfo> get_sceneInfo();
 
   /// @brief Method Init, addr 0xe23494, size 0xf0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SceneSetupData* sceneSetupData);
@@ -63,7 +63,7 @@ protected:
 
 public:
   /// @brief Field _sceneInfo, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::SceneInfo* ____sceneInfo;
+  ::UnityW<::GlobalNamespace::SceneInfo> ____sceneInfo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,56 +27,56 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberClashChecker);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5294))
 // CS Name: ::SaberClashChecker*
 class CORDL_TYPE SaberClashChecker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _sabersAreClashing, offset 0x10, size 0x1
-  __declspec(property(get = __get__sabersAreClashing, put = __set__sabersAreClashing)) bool _sabersAreClashing;
+  __declspec(property(get = __cordl_internal_get__sabersAreClashing, put = __cordl_internal_set__sabersAreClashing)) bool _sabersAreClashing;
 
   /// @brief Field _clashingPoint, offset 0x14, size 0xc
-  __declspec(property(get = __get__clashingPoint, put = __set__clashingPoint))::UnityEngine::Vector3 _clashingPoint;
+  __declspec(property(get = __cordl_internal_get__clashingPoint, put = __cordl_internal_set__clashingPoint))::UnityEngine::Vector3 _clashingPoint;
 
   /// @brief Field _leftSaber, offset 0x20, size 0x8
-  __declspec(property(get = __get__leftSaber, put = __set__leftSaber))::GlobalNamespace::Saber* _leftSaber;
+  __declspec(property(get = __cordl_internal_get__leftSaber, put = __cordl_internal_set__leftSaber))::UnityW<::GlobalNamespace::Saber> _leftSaber;
 
   /// @brief Field _rightSaber, offset 0x28, size 0x8
-  __declspec(property(get = __get__rightSaber, put = __set__rightSaber))::GlobalNamespace::Saber* _rightSaber;
+  __declspec(property(get = __cordl_internal_get__rightSaber, put = __cordl_internal_set__rightSaber))::UnityW<::GlobalNamespace::Saber> _rightSaber;
 
   /// @brief Field _prevGetFrameNum, offset 0x30, size 0x4
-  __declspec(property(get = __get__prevGetFrameNum, put = __set__prevGetFrameNum)) int32_t _prevGetFrameNum;
+  __declspec(property(get = __cordl_internal_get__prevGetFrameNum, put = __cordl_internal_set__prevGetFrameNum)) int32_t _prevGetFrameNum;
 
-  constexpr bool& __get__sabersAreClashing();
+  constexpr bool& __cordl_internal_get__sabersAreClashing();
 
-  constexpr bool const& __get__sabersAreClashing() const;
+  constexpr bool const& __cordl_internal_get__sabersAreClashing() const;
 
-  constexpr void __set__sabersAreClashing(bool value);
+  constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__clashingPoint();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__clashingPoint();
 
-  constexpr ::UnityEngine::Vector3 const& __get__clashingPoint() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__clashingPoint() const;
 
-  constexpr void __set__clashingPoint(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__clashingPoint(::UnityEngine::Vector3 value);
 
-  constexpr ::GlobalNamespace::Saber*& __get__leftSaber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__leftSaber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__leftSaber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__leftSaber() const;
 
-  constexpr void __set__leftSaber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__leftSaber(::UnityW<::GlobalNamespace::Saber> value);
 
-  constexpr ::GlobalNamespace::Saber*& __get__rightSaber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__rightSaber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__rightSaber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__rightSaber() const;
 
-  constexpr void __set__rightSaber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__rightSaber(::UnityW<::GlobalNamespace::Saber> value);
 
-  constexpr int32_t& __get__prevGetFrameNum();
+  constexpr int32_t& __cordl_internal_get__prevGetFrameNum();
 
-  constexpr int32_t const& __get__prevGetFrameNum() const;
+  constexpr int32_t const& __cordl_internal_get__prevGetFrameNum() const;
 
-  constexpr void __set__prevGetFrameNum(int32_t value);
+  constexpr void __cordl_internal_set__prevGetFrameNum(int32_t value);
 
   /// @brief Method Init, addr 0x2263c04, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
@@ -113,10 +113,10 @@ public:
   ::UnityEngine::Vector3 ____clashingPoint;
 
   /// @brief Field _leftSaber, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____leftSaber;
+  ::UnityW<::GlobalNamespace::Saber> ____leftSaber;
 
   /// @brief Field _rightSaber, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____rightSaber;
+  ::UnityW<::GlobalNamespace::Saber> ____rightSaber;
 
   /// @brief Field _prevGetFrameNum, offset: 0x30, size: 0x4, def value: None
   int32_t ____prevGetFrameNum;

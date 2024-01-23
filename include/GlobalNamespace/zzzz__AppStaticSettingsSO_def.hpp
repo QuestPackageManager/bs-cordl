@@ -14,47 +14,47 @@ MARK_REF_PTR_T(::GlobalNamespace::AppStaticSettingsSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4122))
 // CS Name: ::AppStaticSettingsSO*
 class CORDL_TYPE AppStaticSettingsSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field requirePrivacyPolicy, offset 0x18, size 0x1
-  __declspec(property(get = __get_requirePrivacyPolicy, put = __set_requirePrivacyPolicy)) bool requirePrivacyPolicy;
+  __declspec(property(get = __cordl_internal_get_requirePrivacyPolicy, put = __cordl_internal_set_requirePrivacyPolicy)) bool requirePrivacyPolicy;
 
   /// @brief Field enable360DegreeLevels, offset 0x19, size 0x1
-  __declspec(property(get = __get_enable360DegreeLevels, put = __set_enable360DegreeLevels)) bool enable360DegreeLevels;
+  __declspec(property(get = __cordl_internal_get_enable360DegreeLevels, put = __cordl_internal_set_enable360DegreeLevels)) bool enable360DegreeLevels;
 
   /// @brief Field enableCustomLevels, offset 0x1a, size 0x1
-  __declspec(property(get = __get_enableCustomLevels, put = __set_enableCustomLevels)) bool enableCustomLevels;
+  __declspec(property(get = __cordl_internal_get_enableCustomLevels, put = __cordl_internal_set_enableCustomLevels)) bool enableCustomLevels;
 
   /// @brief Field disableMultiplayer, offset 0x1b, size 0x1
-  __declspec(property(get = __get_disableMultiplayer, put = __set_disableMultiplayer)) bool disableMultiplayer;
+  __declspec(property(get = __cordl_internal_get_disableMultiplayer, put = __cordl_internal_set_disableMultiplayer)) bool disableMultiplayer;
 
-  constexpr bool& __get_requirePrivacyPolicy();
+  constexpr bool& __cordl_internal_get_requirePrivacyPolicy();
 
-  constexpr bool const& __get_requirePrivacyPolicy() const;
+  constexpr bool const& __cordl_internal_get_requirePrivacyPolicy() const;
 
-  constexpr void __set_requirePrivacyPolicy(bool value);
+  constexpr void __cordl_internal_set_requirePrivacyPolicy(bool value);
 
-  constexpr bool& __get_enable360DegreeLevels();
+  constexpr bool& __cordl_internal_get_enable360DegreeLevels();
 
-  constexpr bool const& __get_enable360DegreeLevels() const;
+  constexpr bool const& __cordl_internal_get_enable360DegreeLevels() const;
 
-  constexpr void __set_enable360DegreeLevels(bool value);
+  constexpr void __cordl_internal_set_enable360DegreeLevels(bool value);
 
-  constexpr bool& __get_enableCustomLevels();
+  constexpr bool& __cordl_internal_get_enableCustomLevels();
 
-  constexpr bool const& __get_enableCustomLevels() const;
+  constexpr bool const& __cordl_internal_get_enableCustomLevels() const;
 
-  constexpr void __set_enableCustomLevels(bool value);
+  constexpr void __cordl_internal_set_enableCustomLevels(bool value);
 
-  constexpr bool& __get_disableMultiplayer();
+  constexpr bool& __cordl_internal_get_disableMultiplayer();
 
-  constexpr bool const& __get_disableMultiplayer() const;
+  constexpr bool const& __cordl_internal_get_disableMultiplayer() const;
 
-  constexpr void __set_disableMultiplayer(bool value);
+  constexpr void __cordl_internal_set_disableMultiplayer(bool value);
 
   static inline ::GlobalNamespace::AppStaticSettingsSO* New_ctor();
 

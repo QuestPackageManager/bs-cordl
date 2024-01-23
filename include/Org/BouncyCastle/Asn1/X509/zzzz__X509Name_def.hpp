@@ -46,26 +46,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509Name);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(408))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509Name*
 class CORDL_TYPE X509Name : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field ordering, offset 0x10, size 0x8
-  __declspec(property(get = __get_ordering, put = __set_ordering))::System::Collections::IList* ordering;
+  __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering))::System::Collections::IList* ordering;
 
   /// @brief Field converter, offset 0x18, size 0x8
-  __declspec(property(get = __get_converter, put = __set_converter))::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter;
+  __declspec(property(get = __cordl_internal_get_converter, put = __cordl_internal_set_converter))::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter;
 
   /// @brief Field values, offset 0x20, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::System::Collections::IList* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::Collections::IList* values;
 
   /// @brief Field added, offset 0x28, size 0x8
-  __declspec(property(get = __get_added, put = __set_added))::System::Collections::IList* added;
+  __declspec(property(get = __cordl_internal_get_added, put = __cordl_internal_set_added))::System::Collections::IList* added;
 
   /// @brief Field seq, offset 0x30, size 0x8
-  __declspec(property(get = __get_seq, put = __set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
   /// @brief Field C, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_C, put = setStaticF_C))::Org::BouncyCastle::Asn1::DerObjectIdentifier* C;
@@ -187,35 +187,35 @@ public:
   /// @brief Field DefaultLookup, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DefaultLookup, put = setStaticF_DefaultLookup))::System::Collections::Hashtable* DefaultLookup;
 
-  constexpr ::System::Collections::IList*& __get_ordering();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_ordering();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_ordering() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_ordering() const;
 
-  constexpr void __set_ordering(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_ordering(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*& __get_converter();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*& __cordl_internal_get_converter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*> const& __get_converter() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*> const& __cordl_internal_get_converter() const;
 
-  constexpr void __set_converter(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* value);
+  constexpr void __cordl_internal_set_converter(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* value);
 
-  constexpr ::System::Collections::IList*& __get_values();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_values(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_added();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_added();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_added() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_added() const;
 
-  constexpr void __set_added(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_added(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_seq();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_seq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_seq() const;
 
-  constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   static inline void setStaticF_C(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 

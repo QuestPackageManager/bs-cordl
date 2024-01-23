@@ -18,24 +18,25 @@ MARK_REF_PTR_T(::GlobalNamespace::BurstSliderNoteDisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 288 }), TypeDefinitionIndex(TypeDefinitionIndex(4738)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4742))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4739)) CS Name: ::BurstSliderNoteDisappearingArrowController*
-class CORDL_TYPE BurstSliderNoteDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::BurstSliderGameNoteController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4738)), TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 288
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4739)) CS Name: ::BurstSliderNoteDisappearingArrowController*
+class CORDL_TYPE BurstSliderNoteDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>> {
 public:
   // Declarations
   /// @brief Field _burstSliderNoteController, offset 0x50, size 0x8
-  __declspec(property(get = __get__burstSliderNoteController, put = __set__burstSliderNoteController))::GlobalNamespace::BurstSliderGameNoteController* _burstSliderNoteController;
+  __declspec(property(get = __cordl_internal_get__burstSliderNoteController,
+                      put = __cordl_internal_set__burstSliderNoteController))::UnityW<::GlobalNamespace::BurstSliderGameNoteController> _burstSliderNoteController;
 
-  __declspec(property(get = get_gameNoteController))::GlobalNamespace::BurstSliderGameNoteController* gameNoteController;
+  __declspec(property(get = get_gameNoteController))::UnityW<::GlobalNamespace::BurstSliderGameNoteController> gameNoteController;
 
-  constexpr ::GlobalNamespace::BurstSliderGameNoteController*& __get__burstSliderNoteController();
+  constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController>& __cordl_internal_get__burstSliderNoteController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BurstSliderGameNoteController*> const& __get__burstSliderNoteController() const;
+  constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> const& __cordl_internal_get__burstSliderNoteController() const;
 
-  constexpr void __set__burstSliderNoteController(::GlobalNamespace::BurstSliderGameNoteController* value);
+  constexpr void __cordl_internal_set__burstSliderNoteController(::UnityW<::GlobalNamespace::BurstSliderGameNoteController> value);
 
   /// @brief Method get_gameNoteController, addr 0x2384ba4, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BurstSliderGameNoteController* get_gameNoteController();
+  inline ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> get_gameNoteController();
 
   static inline ::GlobalNamespace::BurstSliderNoteDisappearingArrowController* New_ctor();
 
@@ -57,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _burstSliderNoteController, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::BurstSliderGameNoteController* ____burstSliderNoteController;
+  ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> ____burstSliderNoteController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,56 +30,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1818))
 // CS Name: ::Deflate::Config*
 class CORDL_TYPE __Deflate__Config : public ::System::Object {
 public:
   // Declarations
   /// @brief Field good_length, offset 0x10, size 0x4
-  __declspec(property(get = __get_good_length, put = __set_good_length)) int32_t good_length;
+  __declspec(property(get = __cordl_internal_get_good_length, put = __cordl_internal_set_good_length)) int32_t good_length;
 
   /// @brief Field max_lazy, offset 0x14, size 0x4
-  __declspec(property(get = __get_max_lazy, put = __set_max_lazy)) int32_t max_lazy;
+  __declspec(property(get = __cordl_internal_get_max_lazy, put = __cordl_internal_set_max_lazy)) int32_t max_lazy;
 
   /// @brief Field nice_length, offset 0x18, size 0x4
-  __declspec(property(get = __get_nice_length, put = __set_nice_length)) int32_t nice_length;
+  __declspec(property(get = __cordl_internal_get_nice_length, put = __cordl_internal_set_nice_length)) int32_t nice_length;
 
   /// @brief Field max_chain, offset 0x1c, size 0x4
-  __declspec(property(get = __get_max_chain, put = __set_max_chain)) int32_t max_chain;
+  __declspec(property(get = __cordl_internal_get_max_chain, put = __cordl_internal_set_max_chain)) int32_t max_chain;
 
   /// @brief Field func, offset 0x20, size 0x4
-  __declspec(property(get = __get_func, put = __set_func)) int32_t func;
+  __declspec(property(get = __cordl_internal_get_func, put = __cordl_internal_set_func)) int32_t func;
 
-  constexpr int32_t& __get_good_length();
+  constexpr int32_t& __cordl_internal_get_good_length();
 
-  constexpr int32_t const& __get_good_length() const;
+  constexpr int32_t const& __cordl_internal_get_good_length() const;
 
-  constexpr void __set_good_length(int32_t value);
+  constexpr void __cordl_internal_set_good_length(int32_t value);
 
-  constexpr int32_t& __get_max_lazy();
+  constexpr int32_t& __cordl_internal_get_max_lazy();
 
-  constexpr int32_t const& __get_max_lazy() const;
+  constexpr int32_t const& __cordl_internal_get_max_lazy() const;
 
-  constexpr void __set_max_lazy(int32_t value);
+  constexpr void __cordl_internal_set_max_lazy(int32_t value);
 
-  constexpr int32_t& __get_nice_length();
+  constexpr int32_t& __cordl_internal_get_nice_length();
 
-  constexpr int32_t const& __get_nice_length() const;
+  constexpr int32_t const& __cordl_internal_get_nice_length() const;
 
-  constexpr void __set_nice_length(int32_t value);
+  constexpr void __cordl_internal_set_nice_length(int32_t value);
 
-  constexpr int32_t& __get_max_chain();
+  constexpr int32_t& __cordl_internal_get_max_chain();
 
-  constexpr int32_t const& __get_max_chain() const;
+  constexpr int32_t const& __cordl_internal_get_max_chain() const;
 
-  constexpr void __set_max_chain(int32_t value);
+  constexpr void __cordl_internal_set_max_chain(int32_t value);
 
-  constexpr int32_t& __get_func();
+  constexpr int32_t& __cordl_internal_get_func();
 
-  constexpr int32_t const& __get_func() const;
+  constexpr int32_t const& __cordl_internal_get_func() const;
 
-  constexpr void __set_func(int32_t value);
+  constexpr void __cordl_internal_set_func(int32_t value);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config* New_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func);
 
@@ -135,7 +135,7 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, 
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1819))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Deflate*
 class CORDL_TYPE Deflate : public ::System::Object {
@@ -144,172 +144,172 @@ public:
   using Config = ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config;
 
   /// @brief Field strm, offset 0x10, size 0x8
-  __declspec(property(get = __get_strm, put = __set_strm))::Org::BouncyCastle::Utilities::Zlib::ZStream* strm;
+  __declspec(property(get = __cordl_internal_get_strm, put = __cordl_internal_set_strm))::Org::BouncyCastle::Utilities::Zlib::ZStream* strm;
 
   /// @brief Field status, offset 0x18, size 0x4
-  __declspec(property(get = __get_status, put = __set_status)) int32_t status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) int32_t status;
 
   /// @brief Field pending_buf, offset 0x20, size 0x8
-  __declspec(property(get = __get_pending_buf, put = __set_pending_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> pending_buf;
+  __declspec(property(get = __cordl_internal_get_pending_buf, put = __cordl_internal_set_pending_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> pending_buf;
 
   /// @brief Field pending_out, offset 0x28, size 0x4
-  __declspec(property(get = __get_pending_out, put = __set_pending_out)) int32_t pending_out;
+  __declspec(property(get = __cordl_internal_get_pending_out, put = __cordl_internal_set_pending_out)) int32_t pending_out;
 
   /// @brief Field pending, offset 0x2c, size 0x4
-  __declspec(property(get = __get_pending, put = __set_pending)) int32_t pending;
+  __declspec(property(get = __cordl_internal_get_pending, put = __cordl_internal_set_pending)) int32_t pending;
 
   /// @brief Field noheader, offset 0x30, size 0x4
-  __declspec(property(get = __get_noheader, put = __set_noheader)) int32_t noheader;
+  __declspec(property(get = __cordl_internal_get_noheader, put = __cordl_internal_set_noheader)) int32_t noheader;
 
   /// @brief Field data_type, offset 0x34, size 0x1
-  __declspec(property(get = __get_data_type, put = __set_data_type)) uint8_t data_type;
+  __declspec(property(get = __cordl_internal_get_data_type, put = __cordl_internal_set_data_type)) uint8_t data_type;
 
   /// @brief Field method, offset 0x35, size 0x1
-  __declspec(property(get = __get_method, put = __set_method)) uint8_t method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) uint8_t method;
 
   /// @brief Field last_flush, offset 0x38, size 0x4
-  __declspec(property(get = __get_last_flush, put = __set_last_flush)) int32_t last_flush;
+  __declspec(property(get = __cordl_internal_get_last_flush, put = __cordl_internal_set_last_flush)) int32_t last_flush;
 
   /// @brief Field w_size, offset 0x3c, size 0x4
-  __declspec(property(get = __get_w_size, put = __set_w_size)) int32_t w_size;
+  __declspec(property(get = __cordl_internal_get_w_size, put = __cordl_internal_set_w_size)) int32_t w_size;
 
   /// @brief Field w_bits, offset 0x40, size 0x4
-  __declspec(property(get = __get_w_bits, put = __set_w_bits)) int32_t w_bits;
+  __declspec(property(get = __cordl_internal_get_w_bits, put = __cordl_internal_set_w_bits)) int32_t w_bits;
 
   /// @brief Field w_mask, offset 0x44, size 0x4
-  __declspec(property(get = __get_w_mask, put = __set_w_mask)) int32_t w_mask;
+  __declspec(property(get = __cordl_internal_get_w_mask, put = __cordl_internal_set_w_mask)) int32_t w_mask;
 
   /// @brief Field window, offset 0x48, size 0x8
-  __declspec(property(get = __get_window, put = __set_window))::ArrayW<uint8_t, ::Array<uint8_t>*> window;
+  __declspec(property(get = __cordl_internal_get_window, put = __cordl_internal_set_window))::ArrayW<uint8_t, ::Array<uint8_t>*> window;
 
   /// @brief Field window_size, offset 0x50, size 0x4
-  __declspec(property(get = __get_window_size, put = __set_window_size)) int32_t window_size;
+  __declspec(property(get = __cordl_internal_get_window_size, put = __cordl_internal_set_window_size)) int32_t window_size;
 
   /// @brief Field prev, offset 0x58, size 0x8
-  __declspec(property(get = __get_prev, put = __set_prev))::ArrayW<int16_t, ::Array<int16_t>*> prev;
+  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::ArrayW<int16_t, ::Array<int16_t>*> prev;
 
   /// @brief Field head, offset 0x60, size 0x8
-  __declspec(property(get = __get_head, put = __set_head))::ArrayW<int16_t, ::Array<int16_t>*> head;
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::ArrayW<int16_t, ::Array<int16_t>*> head;
 
   /// @brief Field ins_h, offset 0x68, size 0x4
-  __declspec(property(get = __get_ins_h, put = __set_ins_h)) int32_t ins_h;
+  __declspec(property(get = __cordl_internal_get_ins_h, put = __cordl_internal_set_ins_h)) int32_t ins_h;
 
   /// @brief Field hash_size, offset 0x6c, size 0x4
-  __declspec(property(get = __get_hash_size, put = __set_hash_size)) int32_t hash_size;
+  __declspec(property(get = __cordl_internal_get_hash_size, put = __cordl_internal_set_hash_size)) int32_t hash_size;
 
   /// @brief Field hash_bits, offset 0x70, size 0x4
-  __declspec(property(get = __get_hash_bits, put = __set_hash_bits)) int32_t hash_bits;
+  __declspec(property(get = __cordl_internal_get_hash_bits, put = __cordl_internal_set_hash_bits)) int32_t hash_bits;
 
   /// @brief Field hash_mask, offset 0x74, size 0x4
-  __declspec(property(get = __get_hash_mask, put = __set_hash_mask)) int32_t hash_mask;
+  __declspec(property(get = __cordl_internal_get_hash_mask, put = __cordl_internal_set_hash_mask)) int32_t hash_mask;
 
   /// @brief Field hash_shift, offset 0x78, size 0x4
-  __declspec(property(get = __get_hash_shift, put = __set_hash_shift)) int32_t hash_shift;
+  __declspec(property(get = __cordl_internal_get_hash_shift, put = __cordl_internal_set_hash_shift)) int32_t hash_shift;
 
   /// @brief Field block_start, offset 0x7c, size 0x4
-  __declspec(property(get = __get_block_start, put = __set_block_start)) int32_t block_start;
+  __declspec(property(get = __cordl_internal_get_block_start, put = __cordl_internal_set_block_start)) int32_t block_start;
 
   /// @brief Field match_length, offset 0x80, size 0x4
-  __declspec(property(get = __get_match_length, put = __set_match_length)) int32_t match_length;
+  __declspec(property(get = __cordl_internal_get_match_length, put = __cordl_internal_set_match_length)) int32_t match_length;
 
   /// @brief Field prev_match, offset 0x84, size 0x4
-  __declspec(property(get = __get_prev_match, put = __set_prev_match)) int32_t prev_match;
+  __declspec(property(get = __cordl_internal_get_prev_match, put = __cordl_internal_set_prev_match)) int32_t prev_match;
 
   /// @brief Field match_available, offset 0x88, size 0x4
-  __declspec(property(get = __get_match_available, put = __set_match_available)) int32_t match_available;
+  __declspec(property(get = __cordl_internal_get_match_available, put = __cordl_internal_set_match_available)) int32_t match_available;
 
   /// @brief Field strstart, offset 0x8c, size 0x4
-  __declspec(property(get = __get_strstart, put = __set_strstart)) int32_t strstart;
+  __declspec(property(get = __cordl_internal_get_strstart, put = __cordl_internal_set_strstart)) int32_t strstart;
 
   /// @brief Field match_start, offset 0x90, size 0x4
-  __declspec(property(get = __get_match_start, put = __set_match_start)) int32_t match_start;
+  __declspec(property(get = __cordl_internal_get_match_start, put = __cordl_internal_set_match_start)) int32_t match_start;
 
   /// @brief Field lookahead, offset 0x94, size 0x4
-  __declspec(property(get = __get_lookahead, put = __set_lookahead)) int32_t lookahead;
+  __declspec(property(get = __cordl_internal_get_lookahead, put = __cordl_internal_set_lookahead)) int32_t lookahead;
 
   /// @brief Field prev_length, offset 0x98, size 0x4
-  __declspec(property(get = __get_prev_length, put = __set_prev_length)) int32_t prev_length;
+  __declspec(property(get = __cordl_internal_get_prev_length, put = __cordl_internal_set_prev_length)) int32_t prev_length;
 
   /// @brief Field max_chain_length, offset 0x9c, size 0x4
-  __declspec(property(get = __get_max_chain_length, put = __set_max_chain_length)) int32_t max_chain_length;
+  __declspec(property(get = __cordl_internal_get_max_chain_length, put = __cordl_internal_set_max_chain_length)) int32_t max_chain_length;
 
   /// @brief Field max_lazy_match, offset 0xa0, size 0x4
-  __declspec(property(get = __get_max_lazy_match, put = __set_max_lazy_match)) int32_t max_lazy_match;
+  __declspec(property(get = __cordl_internal_get_max_lazy_match, put = __cordl_internal_set_max_lazy_match)) int32_t max_lazy_match;
 
   /// @brief Field level, offset 0xa4, size 0x4
-  __declspec(property(get = __get_level, put = __set_level)) int32_t level;
+  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level)) int32_t level;
 
   /// @brief Field strategy, offset 0xa8, size 0x4
-  __declspec(property(get = __get_strategy, put = __set_strategy)) int32_t strategy;
+  __declspec(property(get = __cordl_internal_get_strategy, put = __cordl_internal_set_strategy)) int32_t strategy;
 
   /// @brief Field good_match, offset 0xac, size 0x4
-  __declspec(property(get = __get_good_match, put = __set_good_match)) int32_t good_match;
+  __declspec(property(get = __cordl_internal_get_good_match, put = __cordl_internal_set_good_match)) int32_t good_match;
 
   /// @brief Field nice_match, offset 0xb0, size 0x4
-  __declspec(property(get = __get_nice_match, put = __set_nice_match)) int32_t nice_match;
+  __declspec(property(get = __cordl_internal_get_nice_match, put = __cordl_internal_set_nice_match)) int32_t nice_match;
 
   /// @brief Field dyn_ltree, offset 0xb8, size 0x8
-  __declspec(property(get = __get_dyn_ltree, put = __set_dyn_ltree))::ArrayW<int16_t, ::Array<int16_t>*> dyn_ltree;
+  __declspec(property(get = __cordl_internal_get_dyn_ltree, put = __cordl_internal_set_dyn_ltree))::ArrayW<int16_t, ::Array<int16_t>*> dyn_ltree;
 
   /// @brief Field dyn_dtree, offset 0xc0, size 0x8
-  __declspec(property(get = __get_dyn_dtree, put = __set_dyn_dtree))::ArrayW<int16_t, ::Array<int16_t>*> dyn_dtree;
+  __declspec(property(get = __cordl_internal_get_dyn_dtree, put = __cordl_internal_set_dyn_dtree))::ArrayW<int16_t, ::Array<int16_t>*> dyn_dtree;
 
   /// @brief Field bl_tree, offset 0xc8, size 0x8
-  __declspec(property(get = __get_bl_tree, put = __set_bl_tree))::ArrayW<int16_t, ::Array<int16_t>*> bl_tree;
+  __declspec(property(get = __cordl_internal_get_bl_tree, put = __cordl_internal_set_bl_tree))::ArrayW<int16_t, ::Array<int16_t>*> bl_tree;
 
   /// @brief Field l_desc, offset 0xd0, size 0x8
-  __declspec(property(get = __get_l_desc, put = __set_l_desc))::Org::BouncyCastle::Utilities::Zlib::Tree* l_desc;
+  __declspec(property(get = __cordl_internal_get_l_desc, put = __cordl_internal_set_l_desc))::Org::BouncyCastle::Utilities::Zlib::Tree* l_desc;
 
   /// @brief Field d_desc, offset 0xd8, size 0x8
-  __declspec(property(get = __get_d_desc, put = __set_d_desc))::Org::BouncyCastle::Utilities::Zlib::Tree* d_desc;
+  __declspec(property(get = __cordl_internal_get_d_desc, put = __cordl_internal_set_d_desc))::Org::BouncyCastle::Utilities::Zlib::Tree* d_desc;
 
   /// @brief Field bl_desc, offset 0xe0, size 0x8
-  __declspec(property(get = __get_bl_desc, put = __set_bl_desc))::Org::BouncyCastle::Utilities::Zlib::Tree* bl_desc;
+  __declspec(property(get = __cordl_internal_get_bl_desc, put = __cordl_internal_set_bl_desc))::Org::BouncyCastle::Utilities::Zlib::Tree* bl_desc;
 
   /// @brief Field bl_count, offset 0xe8, size 0x8
-  __declspec(property(get = __get_bl_count, put = __set_bl_count))::ArrayW<int16_t, ::Array<int16_t>*> bl_count;
+  __declspec(property(get = __cordl_internal_get_bl_count, put = __cordl_internal_set_bl_count))::ArrayW<int16_t, ::Array<int16_t>*> bl_count;
 
   /// @brief Field heap, offset 0xf0, size 0x8
-  __declspec(property(get = __get_heap, put = __set_heap))::ArrayW<int32_t, ::Array<int32_t>*> heap;
+  __declspec(property(get = __cordl_internal_get_heap, put = __cordl_internal_set_heap))::ArrayW<int32_t, ::Array<int32_t>*> heap;
 
   /// @brief Field heap_len, offset 0xf8, size 0x4
-  __declspec(property(get = __get_heap_len, put = __set_heap_len)) int32_t heap_len;
+  __declspec(property(get = __cordl_internal_get_heap_len, put = __cordl_internal_set_heap_len)) int32_t heap_len;
 
   /// @brief Field heap_max, offset 0xfc, size 0x4
-  __declspec(property(get = __get_heap_max, put = __set_heap_max)) int32_t heap_max;
+  __declspec(property(get = __cordl_internal_get_heap_max, put = __cordl_internal_set_heap_max)) int32_t heap_max;
 
   /// @brief Field depth, offset 0x100, size 0x8
-  __declspec(property(get = __get_depth, put = __set_depth))::ArrayW<uint8_t, ::Array<uint8_t>*> depth;
+  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth))::ArrayW<uint8_t, ::Array<uint8_t>*> depth;
 
   /// @brief Field l_buf, offset 0x108, size 0x4
-  __declspec(property(get = __get_l_buf, put = __set_l_buf)) int32_t l_buf;
+  __declspec(property(get = __cordl_internal_get_l_buf, put = __cordl_internal_set_l_buf)) int32_t l_buf;
 
   /// @brief Field lit_bufsize, offset 0x10c, size 0x4
-  __declspec(property(get = __get_lit_bufsize, put = __set_lit_bufsize)) int32_t lit_bufsize;
+  __declspec(property(get = __cordl_internal_get_lit_bufsize, put = __cordl_internal_set_lit_bufsize)) int32_t lit_bufsize;
 
   /// @brief Field last_lit, offset 0x110, size 0x4
-  __declspec(property(get = __get_last_lit, put = __set_last_lit)) int32_t last_lit;
+  __declspec(property(get = __cordl_internal_get_last_lit, put = __cordl_internal_set_last_lit)) int32_t last_lit;
 
   /// @brief Field d_buf, offset 0x114, size 0x4
-  __declspec(property(get = __get_d_buf, put = __set_d_buf)) int32_t d_buf;
+  __declspec(property(get = __cordl_internal_get_d_buf, put = __cordl_internal_set_d_buf)) int32_t d_buf;
 
   /// @brief Field opt_len, offset 0x118, size 0x4
-  __declspec(property(get = __get_opt_len, put = __set_opt_len)) int32_t opt_len;
+  __declspec(property(get = __cordl_internal_get_opt_len, put = __cordl_internal_set_opt_len)) int32_t opt_len;
 
   /// @brief Field static_len, offset 0x11c, size 0x4
-  __declspec(property(get = __get_static_len, put = __set_static_len)) int32_t static_len;
+  __declspec(property(get = __cordl_internal_get_static_len, put = __cordl_internal_set_static_len)) int32_t static_len;
 
   /// @brief Field matches, offset 0x120, size 0x4
-  __declspec(property(get = __get_matches, put = __set_matches)) int32_t matches;
+  __declspec(property(get = __cordl_internal_get_matches, put = __cordl_internal_set_matches)) int32_t matches;
 
   /// @brief Field last_eob_len, offset 0x124, size 0x4
-  __declspec(property(get = __get_last_eob_len, put = __set_last_eob_len)) int32_t last_eob_len;
+  __declspec(property(get = __cordl_internal_get_last_eob_len, put = __cordl_internal_set_last_eob_len)) int32_t last_eob_len;
 
   /// @brief Field bi_buf, offset 0x128, size 0x4
-  __declspec(property(get = __get_bi_buf, put = __set_bi_buf)) uint32_t bi_buf;
+  __declspec(property(get = __cordl_internal_get_bi_buf, put = __cordl_internal_set_bi_buf)) uint32_t bi_buf;
 
   /// @brief Field bi_valid, offset 0x12c, size 0x4
-  __declspec(property(get = __get_bi_valid, put = __set_bi_valid)) int32_t bi_valid;
+  __declspec(property(get = __cordl_internal_get_bi_valid, put = __cordl_internal_set_bi_valid)) int32_t bi_valid;
 
   /// @brief Field config_table, offset 0xffffffff, size 0x8
   static __declspec(
@@ -319,341 +319,341 @@ public:
   /// @brief Field z_errmsg, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_z_errmsg, put = setStaticF_z_errmsg))::ArrayW<::StringW, ::Array<::StringW>*> z_errmsg;
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __get_strm();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_strm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __get_strm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __cordl_internal_get_strm() const;
 
-  constexpr void __set_strm(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
+  constexpr void __cordl_internal_set_strm(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
 
-  constexpr int32_t& __get_status();
+  constexpr int32_t& __cordl_internal_get_status();
 
-  constexpr int32_t const& __get_status() const;
+  constexpr int32_t const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(int32_t value);
+  constexpr void __cordl_internal_set_status(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_pending_buf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_pending_buf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_pending_buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_pending_buf() const;
 
-  constexpr void __set_pending_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_pending_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_pending_out();
+  constexpr int32_t& __cordl_internal_get_pending_out();
 
-  constexpr int32_t const& __get_pending_out() const;
+  constexpr int32_t const& __cordl_internal_get_pending_out() const;
 
-  constexpr void __set_pending_out(int32_t value);
+  constexpr void __cordl_internal_set_pending_out(int32_t value);
 
-  constexpr int32_t& __get_pending();
+  constexpr int32_t& __cordl_internal_get_pending();
 
-  constexpr int32_t const& __get_pending() const;
+  constexpr int32_t const& __cordl_internal_get_pending() const;
 
-  constexpr void __set_pending(int32_t value);
+  constexpr void __cordl_internal_set_pending(int32_t value);
 
-  constexpr int32_t& __get_noheader();
+  constexpr int32_t& __cordl_internal_get_noheader();
 
-  constexpr int32_t const& __get_noheader() const;
+  constexpr int32_t const& __cordl_internal_get_noheader() const;
 
-  constexpr void __set_noheader(int32_t value);
+  constexpr void __cordl_internal_set_noheader(int32_t value);
 
-  constexpr uint8_t& __get_data_type();
+  constexpr uint8_t& __cordl_internal_get_data_type();
 
-  constexpr uint8_t const& __get_data_type() const;
+  constexpr uint8_t const& __cordl_internal_get_data_type() const;
 
-  constexpr void __set_data_type(uint8_t value);
+  constexpr void __cordl_internal_set_data_type(uint8_t value);
 
-  constexpr uint8_t& __get_method();
+  constexpr uint8_t& __cordl_internal_get_method();
 
-  constexpr uint8_t const& __get_method() const;
+  constexpr uint8_t const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(uint8_t value);
+  constexpr void __cordl_internal_set_method(uint8_t value);
 
-  constexpr int32_t& __get_last_flush();
+  constexpr int32_t& __cordl_internal_get_last_flush();
 
-  constexpr int32_t const& __get_last_flush() const;
+  constexpr int32_t const& __cordl_internal_get_last_flush() const;
 
-  constexpr void __set_last_flush(int32_t value);
+  constexpr void __cordl_internal_set_last_flush(int32_t value);
 
-  constexpr int32_t& __get_w_size();
+  constexpr int32_t& __cordl_internal_get_w_size();
 
-  constexpr int32_t const& __get_w_size() const;
+  constexpr int32_t const& __cordl_internal_get_w_size() const;
 
-  constexpr void __set_w_size(int32_t value);
+  constexpr void __cordl_internal_set_w_size(int32_t value);
 
-  constexpr int32_t& __get_w_bits();
+  constexpr int32_t& __cordl_internal_get_w_bits();
 
-  constexpr int32_t const& __get_w_bits() const;
+  constexpr int32_t const& __cordl_internal_get_w_bits() const;
 
-  constexpr void __set_w_bits(int32_t value);
+  constexpr void __cordl_internal_set_w_bits(int32_t value);
 
-  constexpr int32_t& __get_w_mask();
+  constexpr int32_t& __cordl_internal_get_w_mask();
 
-  constexpr int32_t const& __get_w_mask() const;
+  constexpr int32_t const& __cordl_internal_get_w_mask() const;
 
-  constexpr void __set_w_mask(int32_t value);
+  constexpr void __cordl_internal_set_w_mask(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_window();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_window();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_window() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_window() const;
 
-  constexpr void __set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_window_size();
+  constexpr int32_t& __cordl_internal_get_window_size();
 
-  constexpr int32_t const& __get_window_size() const;
+  constexpr int32_t const& __cordl_internal_get_window_size() const;
 
-  constexpr void __set_window_size(int32_t value);
+  constexpr void __cordl_internal_set_window_size(int32_t value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_prev();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_prev();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_prev() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_prev() const;
 
-  constexpr void __set_prev(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_prev(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_head();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_head();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_head() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_head() const;
 
-  constexpr void __set_head(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_head(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr int32_t& __get_ins_h();
+  constexpr int32_t& __cordl_internal_get_ins_h();
 
-  constexpr int32_t const& __get_ins_h() const;
+  constexpr int32_t const& __cordl_internal_get_ins_h() const;
 
-  constexpr void __set_ins_h(int32_t value);
+  constexpr void __cordl_internal_set_ins_h(int32_t value);
 
-  constexpr int32_t& __get_hash_size();
+  constexpr int32_t& __cordl_internal_get_hash_size();
 
-  constexpr int32_t const& __get_hash_size() const;
+  constexpr int32_t const& __cordl_internal_get_hash_size() const;
 
-  constexpr void __set_hash_size(int32_t value);
+  constexpr void __cordl_internal_set_hash_size(int32_t value);
 
-  constexpr int32_t& __get_hash_bits();
+  constexpr int32_t& __cordl_internal_get_hash_bits();
 
-  constexpr int32_t const& __get_hash_bits() const;
+  constexpr int32_t const& __cordl_internal_get_hash_bits() const;
 
-  constexpr void __set_hash_bits(int32_t value);
+  constexpr void __cordl_internal_set_hash_bits(int32_t value);
 
-  constexpr int32_t& __get_hash_mask();
+  constexpr int32_t& __cordl_internal_get_hash_mask();
 
-  constexpr int32_t const& __get_hash_mask() const;
+  constexpr int32_t const& __cordl_internal_get_hash_mask() const;
 
-  constexpr void __set_hash_mask(int32_t value);
+  constexpr void __cordl_internal_set_hash_mask(int32_t value);
 
-  constexpr int32_t& __get_hash_shift();
+  constexpr int32_t& __cordl_internal_get_hash_shift();
 
-  constexpr int32_t const& __get_hash_shift() const;
+  constexpr int32_t const& __cordl_internal_get_hash_shift() const;
 
-  constexpr void __set_hash_shift(int32_t value);
+  constexpr void __cordl_internal_set_hash_shift(int32_t value);
 
-  constexpr int32_t& __get_block_start();
+  constexpr int32_t& __cordl_internal_get_block_start();
 
-  constexpr int32_t const& __get_block_start() const;
+  constexpr int32_t const& __cordl_internal_get_block_start() const;
 
-  constexpr void __set_block_start(int32_t value);
+  constexpr void __cordl_internal_set_block_start(int32_t value);
 
-  constexpr int32_t& __get_match_length();
+  constexpr int32_t& __cordl_internal_get_match_length();
 
-  constexpr int32_t const& __get_match_length() const;
+  constexpr int32_t const& __cordl_internal_get_match_length() const;
 
-  constexpr void __set_match_length(int32_t value);
+  constexpr void __cordl_internal_set_match_length(int32_t value);
 
-  constexpr int32_t& __get_prev_match();
+  constexpr int32_t& __cordl_internal_get_prev_match();
 
-  constexpr int32_t const& __get_prev_match() const;
+  constexpr int32_t const& __cordl_internal_get_prev_match() const;
 
-  constexpr void __set_prev_match(int32_t value);
+  constexpr void __cordl_internal_set_prev_match(int32_t value);
 
-  constexpr int32_t& __get_match_available();
+  constexpr int32_t& __cordl_internal_get_match_available();
 
-  constexpr int32_t const& __get_match_available() const;
+  constexpr int32_t const& __cordl_internal_get_match_available() const;
 
-  constexpr void __set_match_available(int32_t value);
+  constexpr void __cordl_internal_set_match_available(int32_t value);
 
-  constexpr int32_t& __get_strstart();
+  constexpr int32_t& __cordl_internal_get_strstart();
 
-  constexpr int32_t const& __get_strstart() const;
+  constexpr int32_t const& __cordl_internal_get_strstart() const;
 
-  constexpr void __set_strstart(int32_t value);
+  constexpr void __cordl_internal_set_strstart(int32_t value);
 
-  constexpr int32_t& __get_match_start();
+  constexpr int32_t& __cordl_internal_get_match_start();
 
-  constexpr int32_t const& __get_match_start() const;
+  constexpr int32_t const& __cordl_internal_get_match_start() const;
 
-  constexpr void __set_match_start(int32_t value);
+  constexpr void __cordl_internal_set_match_start(int32_t value);
 
-  constexpr int32_t& __get_lookahead();
+  constexpr int32_t& __cordl_internal_get_lookahead();
 
-  constexpr int32_t const& __get_lookahead() const;
+  constexpr int32_t const& __cordl_internal_get_lookahead() const;
 
-  constexpr void __set_lookahead(int32_t value);
+  constexpr void __cordl_internal_set_lookahead(int32_t value);
 
-  constexpr int32_t& __get_prev_length();
+  constexpr int32_t& __cordl_internal_get_prev_length();
 
-  constexpr int32_t const& __get_prev_length() const;
+  constexpr int32_t const& __cordl_internal_get_prev_length() const;
 
-  constexpr void __set_prev_length(int32_t value);
+  constexpr void __cordl_internal_set_prev_length(int32_t value);
 
-  constexpr int32_t& __get_max_chain_length();
+  constexpr int32_t& __cordl_internal_get_max_chain_length();
 
-  constexpr int32_t const& __get_max_chain_length() const;
+  constexpr int32_t const& __cordl_internal_get_max_chain_length() const;
 
-  constexpr void __set_max_chain_length(int32_t value);
+  constexpr void __cordl_internal_set_max_chain_length(int32_t value);
 
-  constexpr int32_t& __get_max_lazy_match();
+  constexpr int32_t& __cordl_internal_get_max_lazy_match();
 
-  constexpr int32_t const& __get_max_lazy_match() const;
+  constexpr int32_t const& __cordl_internal_get_max_lazy_match() const;
 
-  constexpr void __set_max_lazy_match(int32_t value);
+  constexpr void __cordl_internal_set_max_lazy_match(int32_t value);
 
-  constexpr int32_t& __get_level();
+  constexpr int32_t& __cordl_internal_get_level();
 
-  constexpr int32_t const& __get_level() const;
+  constexpr int32_t const& __cordl_internal_get_level() const;
 
-  constexpr void __set_level(int32_t value);
+  constexpr void __cordl_internal_set_level(int32_t value);
 
-  constexpr int32_t& __get_strategy();
+  constexpr int32_t& __cordl_internal_get_strategy();
 
-  constexpr int32_t const& __get_strategy() const;
+  constexpr int32_t const& __cordl_internal_get_strategy() const;
 
-  constexpr void __set_strategy(int32_t value);
+  constexpr void __cordl_internal_set_strategy(int32_t value);
 
-  constexpr int32_t& __get_good_match();
+  constexpr int32_t& __cordl_internal_get_good_match();
 
-  constexpr int32_t const& __get_good_match() const;
+  constexpr int32_t const& __cordl_internal_get_good_match() const;
 
-  constexpr void __set_good_match(int32_t value);
+  constexpr void __cordl_internal_set_good_match(int32_t value);
 
-  constexpr int32_t& __get_nice_match();
+  constexpr int32_t& __cordl_internal_get_nice_match();
 
-  constexpr int32_t const& __get_nice_match() const;
+  constexpr int32_t const& __cordl_internal_get_nice_match() const;
 
-  constexpr void __set_nice_match(int32_t value);
+  constexpr void __cordl_internal_set_nice_match(int32_t value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_dyn_ltree();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_dyn_ltree();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_dyn_ltree() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_dyn_ltree() const;
 
-  constexpr void __set_dyn_ltree(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_dyn_ltree(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_dyn_dtree();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_dyn_dtree();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_dyn_dtree() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_dyn_dtree() const;
 
-  constexpr void __set_dyn_dtree(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_dyn_dtree(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_bl_tree();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_bl_tree();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_bl_tree() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_bl_tree() const;
 
-  constexpr void __set_bl_tree(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_bl_tree(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __get_l_desc();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_l_desc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __get_l_desc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __cordl_internal_get_l_desc() const;
 
-  constexpr void __set_l_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value);
+  constexpr void __cordl_internal_set_l_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __get_d_desc();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_d_desc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __get_d_desc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __cordl_internal_get_d_desc() const;
 
-  constexpr void __set_d_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value);
+  constexpr void __cordl_internal_set_d_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __get_bl_desc();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_bl_desc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __get_bl_desc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __cordl_internal_get_bl_desc() const;
 
-  constexpr void __set_bl_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value);
+  constexpr void __cordl_internal_set_bl_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_bl_count();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_bl_count();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_bl_count() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_bl_count() const;
 
-  constexpr void __set_bl_count(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_bl_count(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_heap();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_heap();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_heap() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_heap() const;
 
-  constexpr void __set_heap(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_heap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_heap_len();
+  constexpr int32_t& __cordl_internal_get_heap_len();
 
-  constexpr int32_t const& __get_heap_len() const;
+  constexpr int32_t const& __cordl_internal_get_heap_len() const;
 
-  constexpr void __set_heap_len(int32_t value);
+  constexpr void __cordl_internal_set_heap_len(int32_t value);
 
-  constexpr int32_t& __get_heap_max();
+  constexpr int32_t& __cordl_internal_get_heap_max();
 
-  constexpr int32_t const& __get_heap_max() const;
+  constexpr int32_t const& __cordl_internal_get_heap_max() const;
 
-  constexpr void __set_heap_max(int32_t value);
+  constexpr void __cordl_internal_set_heap_max(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_depth();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_depth();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_depth() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_depth() const;
 
-  constexpr void __set_depth(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_depth(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_l_buf();
+  constexpr int32_t& __cordl_internal_get_l_buf();
 
-  constexpr int32_t const& __get_l_buf() const;
+  constexpr int32_t const& __cordl_internal_get_l_buf() const;
 
-  constexpr void __set_l_buf(int32_t value);
+  constexpr void __cordl_internal_set_l_buf(int32_t value);
 
-  constexpr int32_t& __get_lit_bufsize();
+  constexpr int32_t& __cordl_internal_get_lit_bufsize();
 
-  constexpr int32_t const& __get_lit_bufsize() const;
+  constexpr int32_t const& __cordl_internal_get_lit_bufsize() const;
 
-  constexpr void __set_lit_bufsize(int32_t value);
+  constexpr void __cordl_internal_set_lit_bufsize(int32_t value);
 
-  constexpr int32_t& __get_last_lit();
+  constexpr int32_t& __cordl_internal_get_last_lit();
 
-  constexpr int32_t const& __get_last_lit() const;
+  constexpr int32_t const& __cordl_internal_get_last_lit() const;
 
-  constexpr void __set_last_lit(int32_t value);
+  constexpr void __cordl_internal_set_last_lit(int32_t value);
 
-  constexpr int32_t& __get_d_buf();
+  constexpr int32_t& __cordl_internal_get_d_buf();
 
-  constexpr int32_t const& __get_d_buf() const;
+  constexpr int32_t const& __cordl_internal_get_d_buf() const;
 
-  constexpr void __set_d_buf(int32_t value);
+  constexpr void __cordl_internal_set_d_buf(int32_t value);
 
-  constexpr int32_t& __get_opt_len();
+  constexpr int32_t& __cordl_internal_get_opt_len();
 
-  constexpr int32_t const& __get_opt_len() const;
+  constexpr int32_t const& __cordl_internal_get_opt_len() const;
 
-  constexpr void __set_opt_len(int32_t value);
+  constexpr void __cordl_internal_set_opt_len(int32_t value);
 
-  constexpr int32_t& __get_static_len();
+  constexpr int32_t& __cordl_internal_get_static_len();
 
-  constexpr int32_t const& __get_static_len() const;
+  constexpr int32_t const& __cordl_internal_get_static_len() const;
 
-  constexpr void __set_static_len(int32_t value);
+  constexpr void __cordl_internal_set_static_len(int32_t value);
 
-  constexpr int32_t& __get_matches();
+  constexpr int32_t& __cordl_internal_get_matches();
 
-  constexpr int32_t const& __get_matches() const;
+  constexpr int32_t const& __cordl_internal_get_matches() const;
 
-  constexpr void __set_matches(int32_t value);
+  constexpr void __cordl_internal_set_matches(int32_t value);
 
-  constexpr int32_t& __get_last_eob_len();
+  constexpr int32_t& __cordl_internal_get_last_eob_len();
 
-  constexpr int32_t const& __get_last_eob_len() const;
+  constexpr int32_t const& __cordl_internal_get_last_eob_len() const;
 
-  constexpr void __set_last_eob_len(int32_t value);
+  constexpr void __cordl_internal_set_last_eob_len(int32_t value);
 
-  constexpr uint32_t& __get_bi_buf();
+  constexpr uint32_t& __cordl_internal_get_bi_buf();
 
-  constexpr uint32_t const& __get_bi_buf() const;
+  constexpr uint32_t const& __cordl_internal_get_bi_buf() const;
 
-  constexpr void __set_bi_buf(uint32_t value);
+  constexpr void __cordl_internal_set_bi_buf(uint32_t value);
 
-  constexpr int32_t& __get_bi_valid();
+  constexpr int32_t& __cordl_internal_get_bi_valid();
 
-  constexpr int32_t const& __get_bi_valid() const;
+  constexpr int32_t const& __cordl_internal_get_bi_valid() const;
 
-  constexpr void __set_bi_valid(int32_t value);
+  constexpr void __cordl_internal_set_bi_valid(int32_t value);
 
   static inline void setStaticF_config_table(::ArrayW<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*, ::Array<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*>*> value);
 

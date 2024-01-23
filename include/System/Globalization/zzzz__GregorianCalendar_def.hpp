@@ -33,14 +33,14 @@ MARK_REF_PTR_T(::System::Globalization::GregorianCalendar);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3696)), TypeDefinitionIndex(TypeDefinitionIndex(3701))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3696)), TypeDefinitionIndex(TypeDefinitionIndex(3701))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3698))
 // CS Name: ::System.Globalization::GregorianCalendar*
 class CORDL_TYPE GregorianCalendar : public ::System::Globalization::Calendar {
 public:
   // Declarations
   /// @brief Field m_type, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_type, put = __set_m_type))::System::Globalization::GregorianCalendarTypes m_type;
+  __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::System::Globalization::GregorianCalendarTypes m_type;
 
   /// @brief Field DaysToMonth365, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DaysToMonth365, put = setStaticF_DaysToMonth365))::ArrayW<int32_t, ::Array<int32_t>*> DaysToMonth365;
@@ -61,11 +61,11 @@ public:
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
 
-  constexpr ::System::Globalization::GregorianCalendarTypes& __get_m_type();
+  constexpr ::System::Globalization::GregorianCalendarTypes& __cordl_internal_get_m_type();
 
-  constexpr ::System::Globalization::GregorianCalendarTypes const& __get_m_type() const;
+  constexpr ::System::Globalization::GregorianCalendarTypes const& __cordl_internal_get_m_type() const;
 
-  constexpr void __set_m_type(::System::Globalization::GregorianCalendarTypes value);
+  constexpr void __cordl_internal_set_m_type(::System::Globalization::GregorianCalendarTypes value);
 
   static inline void setStaticF_DaysToMonth365(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

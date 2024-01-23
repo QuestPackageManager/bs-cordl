@@ -38,14 +38,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ErrorMessage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3164))
 // CS Name: ::System.Runtime.Remoting.Messaging::ErrorMessage*
 class CORDL_TYPE ErrorMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _uri, offset 0x10, size 0x8
-  __declspec(property(get = __get__uri, put = __set__uri))::StringW _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::StringW _uri;
 
   __declspec(property(get = get_ArgCount)) int32_t ArgCount;
 
@@ -83,11 +83,11 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
-  constexpr ::StringW& __get__uri();
+  constexpr ::StringW& __cordl_internal_get__uri();
 
-  constexpr ::StringW const& __get__uri() const;
+  constexpr ::StringW const& __cordl_internal_get__uri() const;
 
-  constexpr void __set__uri(::StringW value);
+  constexpr void __cordl_internal_set__uri(::StringW value);
 
   static inline ::System::Runtime::Remoting::Messaging::ErrorMessage* New_ctor();
 

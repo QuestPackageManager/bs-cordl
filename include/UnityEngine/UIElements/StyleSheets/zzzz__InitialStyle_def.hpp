@@ -111,7 +111,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::InitialStyle);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7296))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7296))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7485))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::InitialStyle*
 class CORDL_TYPE InitialStyle : public ::System::Object {
@@ -311,7 +311,7 @@ public:
   static inline ::UnityEngine::ScaleMode get_unityBackgroundScaleMode();
 
   /// @brief Method get_unityFont, addr 0x2df55dc, size 0x74, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Font* get_unityFont();
+  static inline ::UnityW<::UnityEngine::Font> get_unityFont();
 
   /// @brief Method get_unityFontDefinition, addr 0x2df5650, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FontDefinition get_unityFontDefinition();

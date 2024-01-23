@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::NetDataReader);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14194))
 // CS Name: ::LiteNetLib.Utils::NetDataReader*
 class CORDL_TYPE NetDataReader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
 
   /// @brief Field _position, offset 0x18, size 0x4
-  __declspec(property(get = __get__position, put = __set__position)) int32_t _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int32_t _position;
 
   /// @brief Field _dataSize, offset 0x1c, size 0x4
-  __declspec(property(get = __get__dataSize, put = __set__dataSize)) int32_t _dataSize;
+  __declspec(property(get = __cordl_internal_get__dataSize, put = __cordl_internal_set__dataSize)) int32_t _dataSize;
 
   /// @brief Field _offset, offset 0x20, size 0x4
-  __declspec(property(get = __get__offset, put = __set__offset)) int32_t _offset;
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
 
   __declspec(property(get = get_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
 
@@ -62,29 +62,29 @@ public:
 
   __declspec(property(get = get_AvailableBytes)) int32_t AvailableBytes;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__position();
+  constexpr int32_t& __cordl_internal_get__position();
 
-  constexpr int32_t const& __get__position() const;
+  constexpr int32_t const& __cordl_internal_get__position() const;
 
-  constexpr void __set__position(int32_t value);
+  constexpr void __cordl_internal_set__position(int32_t value);
 
-  constexpr int32_t& __get__dataSize();
+  constexpr int32_t& __cordl_internal_get__dataSize();
 
-  constexpr int32_t const& __get__dataSize() const;
+  constexpr int32_t const& __cordl_internal_get__dataSize() const;
 
-  constexpr void __set__dataSize(int32_t value);
+  constexpr void __cordl_internal_set__dataSize(int32_t value);
 
-  constexpr int32_t& __get__offset();
+  constexpr int32_t& __cordl_internal_get__offset();
 
-  constexpr int32_t const& __get__offset() const;
+  constexpr int32_t const& __cordl_internal_get__offset() const;
 
-  constexpr void __set__offset(int32_t value);
+  constexpr void __cordl_internal_set__offset(int32_t value);
 
   /// @brief Method get_RawData, addr 0x2208910, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();

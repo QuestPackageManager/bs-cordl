@@ -20,103 +20,103 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(750))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(750))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(764))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::RipeMD256Digest*
 class CORDL_TYPE RipeMD256Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
   // Declarations
   /// @brief Field H0, offset 0x28, size 0x4
-  __declspec(property(get = __get_H0, put = __set_H0)) int32_t H0;
+  __declspec(property(get = __cordl_internal_get_H0, put = __cordl_internal_set_H0)) int32_t H0;
 
   /// @brief Field H1, offset 0x2c, size 0x4
-  __declspec(property(get = __get_H1, put = __set_H1)) int32_t H1;
+  __declspec(property(get = __cordl_internal_get_H1, put = __cordl_internal_set_H1)) int32_t H1;
 
   /// @brief Field H2, offset 0x30, size 0x4
-  __declspec(property(get = __get_H2, put = __set_H2)) int32_t H2;
+  __declspec(property(get = __cordl_internal_get_H2, put = __cordl_internal_set_H2)) int32_t H2;
 
   /// @brief Field H3, offset 0x34, size 0x4
-  __declspec(property(get = __get_H3, put = __set_H3)) int32_t H3;
+  __declspec(property(get = __cordl_internal_get_H3, put = __cordl_internal_set_H3)) int32_t H3;
 
   /// @brief Field H4, offset 0x38, size 0x4
-  __declspec(property(get = __get_H4, put = __set_H4)) int32_t H4;
+  __declspec(property(get = __cordl_internal_get_H4, put = __cordl_internal_set_H4)) int32_t H4;
 
   /// @brief Field H5, offset 0x3c, size 0x4
-  __declspec(property(get = __get_H5, put = __set_H5)) int32_t H5;
+  __declspec(property(get = __cordl_internal_get_H5, put = __cordl_internal_set_H5)) int32_t H5;
 
   /// @brief Field H6, offset 0x40, size 0x4
-  __declspec(property(get = __get_H6, put = __set_H6)) int32_t H6;
+  __declspec(property(get = __cordl_internal_get_H6, put = __cordl_internal_set_H6)) int32_t H6;
 
   /// @brief Field H7, offset 0x44, size 0x4
-  __declspec(property(get = __get_H7, put = __set_H7)) int32_t H7;
+  __declspec(property(get = __cordl_internal_get_H7, put = __cordl_internal_set_H7)) int32_t H7;
 
   /// @brief Field X, offset 0x48, size 0x8
-  __declspec(property(get = __get_X, put = __set_X))::ArrayW<int32_t, ::Array<int32_t>*> X;
+  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X))::ArrayW<int32_t, ::Array<int32_t>*> X;
 
   /// @brief Field xOff, offset 0x50, size 0x4
-  __declspec(property(get = __get_xOff, put = __set_xOff)) int32_t xOff;
+  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr int32_t& __get_H0();
+  constexpr int32_t& __cordl_internal_get_H0();
 
-  constexpr int32_t const& __get_H0() const;
+  constexpr int32_t const& __cordl_internal_get_H0() const;
 
-  constexpr void __set_H0(int32_t value);
+  constexpr void __cordl_internal_set_H0(int32_t value);
 
-  constexpr int32_t& __get_H1();
+  constexpr int32_t& __cordl_internal_get_H1();
 
-  constexpr int32_t const& __get_H1() const;
+  constexpr int32_t const& __cordl_internal_get_H1() const;
 
-  constexpr void __set_H1(int32_t value);
+  constexpr void __cordl_internal_set_H1(int32_t value);
 
-  constexpr int32_t& __get_H2();
+  constexpr int32_t& __cordl_internal_get_H2();
 
-  constexpr int32_t const& __get_H2() const;
+  constexpr int32_t const& __cordl_internal_get_H2() const;
 
-  constexpr void __set_H2(int32_t value);
+  constexpr void __cordl_internal_set_H2(int32_t value);
 
-  constexpr int32_t& __get_H3();
+  constexpr int32_t& __cordl_internal_get_H3();
 
-  constexpr int32_t const& __get_H3() const;
+  constexpr int32_t const& __cordl_internal_get_H3() const;
 
-  constexpr void __set_H3(int32_t value);
+  constexpr void __cordl_internal_set_H3(int32_t value);
 
-  constexpr int32_t& __get_H4();
+  constexpr int32_t& __cordl_internal_get_H4();
 
-  constexpr int32_t const& __get_H4() const;
+  constexpr int32_t const& __cordl_internal_get_H4() const;
 
-  constexpr void __set_H4(int32_t value);
+  constexpr void __cordl_internal_set_H4(int32_t value);
 
-  constexpr int32_t& __get_H5();
+  constexpr int32_t& __cordl_internal_get_H5();
 
-  constexpr int32_t const& __get_H5() const;
+  constexpr int32_t const& __cordl_internal_get_H5() const;
 
-  constexpr void __set_H5(int32_t value);
+  constexpr void __cordl_internal_set_H5(int32_t value);
 
-  constexpr int32_t& __get_H6();
+  constexpr int32_t& __cordl_internal_get_H6();
 
-  constexpr int32_t const& __get_H6() const;
+  constexpr int32_t const& __cordl_internal_get_H6() const;
 
-  constexpr void __set_H6(int32_t value);
+  constexpr void __cordl_internal_set_H6(int32_t value);
 
-  constexpr int32_t& __get_H7();
+  constexpr int32_t& __cordl_internal_get_H7();
 
-  constexpr int32_t const& __get_H7() const;
+  constexpr int32_t const& __cordl_internal_get_H7() const;
 
-  constexpr void __set_H7(int32_t value);
+  constexpr void __cordl_internal_set_H7(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_X();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_X();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_X() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_X() const;
 
-  constexpr void __set_X(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_X(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_xOff();
+  constexpr int32_t& __cordl_internal_get_xOff();
 
-  constexpr int32_t const& __get_xOff() const;
+  constexpr int32_t const& __cordl_internal_get_xOff() const;
 
-  constexpr void __set_xOff(int32_t value);
+  constexpr void __cordl_internal_set_xOff(int32_t value);
 
   /// @brief Method get_AlgorithmName, addr 0xe9eed4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();

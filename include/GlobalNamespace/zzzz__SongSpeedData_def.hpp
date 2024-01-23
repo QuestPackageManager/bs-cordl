@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SongSpeedData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4184))
 // CS Name: ::SongSpeedData*
 class CORDL_TYPE SongSpeedData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field speedMul, offset 0x10, size 0x4
-  __declspec(property(get = __get_speedMul, put = __set_speedMul)) float_t speedMul;
+  __declspec(property(get = __cordl_internal_get_speedMul, put = __cordl_internal_set_speedMul)) float_t speedMul;
 
-  constexpr float_t& __get_speedMul();
+  constexpr float_t& __cordl_internal_get_speedMul();
 
-  constexpr float_t const& __get_speedMul() const;
+  constexpr float_t const& __cordl_internal_get_speedMul() const;
 
-  constexpr void __set_speedMul(float_t value);
+  constexpr void __cordl_internal_set_speedMul(float_t value);
 
   static inline ::GlobalNamespace::SongSpeedData* New_ctor(float_t speedMul);
 

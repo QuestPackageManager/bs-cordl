@@ -44,17 +44,17 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationFieldInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3469))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3469))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3233))
 // CS Name: ::System.Runtime.Serialization::SerializationFieldInfo*
 class CORDL_TYPE SerializationFieldInfo : public ::System::Reflection::FieldInfo {
 public:
   // Declarations
   /// @brief Field m_field, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_field, put = __set_m_field))::System::Reflection::RuntimeFieldInfo* m_field;
+  __declspec(property(get = __cordl_internal_get_m_field, put = __cordl_internal_set_m_field))::System::Reflection::RuntimeFieldInfo* m_field;
 
   /// @brief Field m_serializationName, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_serializationName, put = __set_m_serializationName))::StringW m_serializationName;
+  __declspec(property(get = __cordl_internal_get_m_serializationName, put = __cordl_internal_set_m_serializationName))::StringW m_serializationName;
 
   __declspec(property(get = get_Module))::System::Reflection::Module* Module;
 
@@ -74,17 +74,17 @@ public:
 
   __declspec(property(get = get_Attributes))::System::Reflection::FieldAttributes Attributes;
 
-  constexpr ::System::Reflection::RuntimeFieldInfo*& __get_m_field();
+  constexpr ::System::Reflection::RuntimeFieldInfo*& __cordl_internal_get_m_field();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeFieldInfo*> const& __get_m_field() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeFieldInfo*> const& __cordl_internal_get_m_field() const;
 
-  constexpr void __set_m_field(::System::Reflection::RuntimeFieldInfo* value);
+  constexpr void __cordl_internal_set_m_field(::System::Reflection::RuntimeFieldInfo* value);
 
-  constexpr ::StringW& __get_m_serializationName();
+  constexpr ::StringW& __cordl_internal_get_m_serializationName();
 
-  constexpr ::StringW const& __get_m_serializationName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_serializationName() const;
 
-  constexpr void __set_m_serializationName(::StringW value);
+  constexpr void __cordl_internal_set_m_serializationName(::StringW value);
 
   /// @brief Method get_Module, addr 0x24bdef0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();

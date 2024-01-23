@@ -26,65 +26,65 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListTableCell);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5422))
 // CS Name: ::GameServerListTableCell*
 class CORDL_TYPE GameServerListTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _serverName, offset 0x58, size 0x8
-  __declspec(property(get = __get__serverName, put = __set__serverName))::HMUI::CurvedTextMeshPro* _serverName;
+  __declspec(property(get = __cordl_internal_get__serverName, put = __cordl_internal_set__serverName))::UnityW<::HMUI::CurvedTextMeshPro> _serverName;
 
   /// @brief Field _difficultiesText, offset 0x60, size 0x8
-  __declspec(property(get = __get__difficultiesText, put = __set__difficultiesText))::HMUI::CurvedTextMeshPro* _difficultiesText;
+  __declspec(property(get = __cordl_internal_get__difficultiesText, put = __cordl_internal_set__difficultiesText))::UnityW<::HMUI::CurvedTextMeshPro> _difficultiesText;
 
   /// @brief Field _musicPackText, offset 0x68, size 0x8
-  __declspec(property(get = __get__musicPackText, put = __set__musicPackText))::HMUI::CurvedTextMeshPro* _musicPackText;
+  __declspec(property(get = __cordl_internal_get__musicPackText, put = __cordl_internal_set__musicPackText))::UnityW<::HMUI::CurvedTextMeshPro> _musicPackText;
 
   /// @brief Field _playerCount, offset 0x70, size 0x8
-  __declspec(property(get = __get__playerCount, put = __set__playerCount))::HMUI::CurvedTextMeshPro* _playerCount;
+  __declspec(property(get = __cordl_internal_get__playerCount, put = __cordl_internal_set__playerCount))::UnityW<::HMUI::CurvedTextMeshPro> _playerCount;
 
   /// @brief Field _passwordProtected, offset 0x78, size 0x8
-  __declspec(property(get = __get__passwordProtected, put = __set__passwordProtected))::UnityEngine::GameObject* _passwordProtected;
+  __declspec(property(get = __cordl_internal_get__passwordProtected, put = __cordl_internal_set__passwordProtected))::UnityW<::UnityEngine::GameObject> _passwordProtected;
 
   /// @brief Field _songPackMasksModel, offset 0x80, size 0x8
-  __declspec(property(get = __get__songPackMasksModel, put = __set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
+  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__serverName();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__serverName();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__serverName() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__serverName() const;
 
-  constexpr void __set__serverName(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__serverName(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__difficultiesText();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__difficultiesText();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__difficultiesText() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__difficultiesText() const;
 
-  constexpr void __set__difficultiesText(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__difficultiesText(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__musicPackText();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__musicPackText();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__musicPackText() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__musicPackText() const;
 
-  constexpr void __set__musicPackText(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__musicPackText(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__playerCount();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__playerCount();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__playerCount() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__playerCount() const;
 
-  constexpr void __set__playerCount(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__playerCount(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__passwordProtected();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__passwordProtected();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__passwordProtected() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__passwordProtected() const;
 
-  constexpr void __set__passwordProtected(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__passwordProtected(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::SongPackMasksModel*& __get__songPackMasksModel();
+  constexpr ::GlobalNamespace::SongPackMasksModel*& __cordl_internal_get__songPackMasksModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __get__songPackMasksModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __cordl_internal_get__songPackMasksModel() const;
 
-  constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
+  constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
   /// @brief Method SetData, addr 0x2278f74, size 0x390, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
@@ -109,19 +109,19 @@ protected:
 
 public:
   /// @brief Field _serverName, offset: 0x58, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____serverName;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____serverName;
 
   /// @brief Field _difficultiesText, offset: 0x60, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____difficultiesText;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____difficultiesText;
 
   /// @brief Field _musicPackText, offset: 0x68, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____musicPackText;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____musicPackText;
 
   /// @brief Field _playerCount, offset: 0x70, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____playerCount;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____playerCount;
 
   /// @brief Field _passwordProtected, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____passwordProtected;
+  ::UnityW<::UnityEngine::GameObject> ____passwordProtected;
 
   /// @brief Field _songPackMasksModel, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;

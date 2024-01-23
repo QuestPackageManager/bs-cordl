@@ -24,22 +24,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1027))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1027))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1031))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaPublicKeyParameters*
 class CORDL_TYPE DsaPublicKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters {
 public:
   // Declarations
   /// @brief Field y, offset 0x20, size 0x8
-  __declspec(property(get = __get_y, put = __set_y))::Org::BouncyCastle::Math::BigInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Math::BigInteger* y;
 
   __declspec(property(get = get_Y))::Org::BouncyCastle::Math::BigInteger* Y;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_y();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_y();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_y() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Math::BigInteger* value);
 
   /// @brief Method Validate, addr 0xf31f9c, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Validate(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);

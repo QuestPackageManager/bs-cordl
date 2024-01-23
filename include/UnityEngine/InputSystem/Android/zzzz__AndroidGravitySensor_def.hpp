@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGravitySensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6277))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6277))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6438))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidGravitySensor*
 class CORDL_TYPE AndroidGravitySensor : public ::UnityEngine::InputSystem::GravitySensor {

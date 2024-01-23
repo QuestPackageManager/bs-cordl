@@ -20,31 +20,31 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11738))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11738))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11740))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeRestriction*
 class CORDL_TYPE XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
   // Declarations
   /// @brief Field baseTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __get_baseTypeName, put = __set_baseTypeName))::System::Xml::XmlQualifiedName* baseTypeName;
+  __declspec(property(get = __cordl_internal_get_baseTypeName, put = __cordl_internal_set_baseTypeName))::System::Xml::XmlQualifiedName* baseTypeName;
 
   /// @brief Field facets, offset 0x18, size 0x8
-  __declspec(property(get = __get_facets, put = __set_facets))::System::Xml::Schema::XmlSchemaObjectCollection* facets;
+  __declspec(property(get = __cordl_internal_get_facets, put = __cordl_internal_set_facets))::System::Xml::Schema::XmlSchemaObjectCollection* facets;
 
   __declspec(property(put = set_BaseTypeName))::System::Xml::XmlQualifiedName* BaseTypeName;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_baseTypeName();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_baseTypeName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_baseTypeName() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_baseTypeName() const;
 
-  constexpr void __set_baseTypeName(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_baseTypeName(::System::Xml::XmlQualifiedName* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __get_facets();
+  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_facets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __get_facets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __cordl_internal_get_facets() const;
 
-  constexpr void __set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
+  constexpr void __cordl_internal_set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
   /// @brief Method set_BaseTypeName, addr 0x28c917c, size 0x98, virtual false, abstract: false, final false
   inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);

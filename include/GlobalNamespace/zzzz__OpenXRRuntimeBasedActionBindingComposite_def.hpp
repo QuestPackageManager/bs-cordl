@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14437))
 // CS Name: ::OpenXRRuntimeBasedActionBindingComposite*
 class CORDL_TYPE OpenXRRuntimeBasedActionBindingComposite : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
   // Declarations
   /// @brief Field oculusRuntime, offset 0x10, size 0x4
-  __declspec(property(get = __get_oculusRuntime, put = __set_oculusRuntime)) int32_t oculusRuntime;
+  __declspec(property(get = __cordl_internal_get_oculusRuntime, put = __cordl_internal_set_oculusRuntime)) int32_t oculusRuntime;
 
   /// @brief Field otherRuntimes, offset 0x14, size 0x4
-  __declspec(property(get = __get_otherRuntimes, put = __set_otherRuntimes)) int32_t otherRuntimes;
+  __declspec(property(get = __cordl_internal_get_otherRuntimes, put = __cordl_internal_set_otherRuntimes)) int32_t otherRuntimes;
 
-  constexpr int32_t& __get_oculusRuntime();
+  constexpr int32_t& __cordl_internal_get_oculusRuntime();
 
-  constexpr int32_t const& __get_oculusRuntime() const;
+  constexpr int32_t const& __cordl_internal_get_oculusRuntime() const;
 
-  constexpr void __set_oculusRuntime(int32_t value);
+  constexpr void __cordl_internal_set_oculusRuntime(int32_t value);
 
-  constexpr int32_t& __get_otherRuntimes();
+  constexpr int32_t& __cordl_internal_get_otherRuntimes();
 
-  constexpr int32_t const& __get_otherRuntimes() const;
+  constexpr int32_t const& __cordl_internal_get_otherRuntimes() const;
 
-  constexpr void __set_otherRuntimes(int32_t value);
+  constexpr void __cordl_internal_set_otherRuntimes(int32_t value);
 
   /// @brief Method ReadValue, addr 0x20ff28c, size 0x8, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);

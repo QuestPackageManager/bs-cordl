@@ -40,7 +40,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Dimension);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7471))
 // CS Name: ::Dimension::Unit
 struct CORDL_TYPE __Dimension__Unit {
@@ -118,7 +118,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__Dimension__Unit
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7472))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::Dimension
 struct CORDL_TYPE Dimension {

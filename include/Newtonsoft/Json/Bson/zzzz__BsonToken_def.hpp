@@ -18,17 +18,17 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonToken);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12074))
 // CS Name: ::Newtonsoft.Json.Bson::BsonToken*
 class CORDL_TYPE BsonToken : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Parent>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Parent_k__BackingField, put = __set__Parent_k__BackingField))::Newtonsoft::Json::Bson::BsonToken* _Parent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Parent_k__BackingField, put = __cordl_internal_set__Parent_k__BackingField))::Newtonsoft::Json::Bson::BsonToken* _Parent_k__BackingField;
 
   /// @brief Field <CalculatedSize>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__CalculatedSize_k__BackingField, put = __set__CalculatedSize_k__BackingField)) int32_t _CalculatedSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CalculatedSize_k__BackingField, put = __cordl_internal_set__CalculatedSize_k__BackingField)) int32_t _CalculatedSize_k__BackingField;
 
   __declspec(property(get = get_Type))::Newtonsoft::Json::Bson::BsonType Type;
 
@@ -36,17 +36,17 @@ public:
 
   __declspec(property(get = get_CalculatedSize, put = set_CalculatedSize)) int32_t CalculatedSize;
 
-  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __get__Parent_k__BackingField();
+  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __cordl_internal_get__Parent_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __get__Parent_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __cordl_internal_get__Parent_k__BackingField() const;
 
-  constexpr void __set__Parent_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
+  constexpr void __cordl_internal_set__Parent_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  constexpr int32_t& __get__CalculatedSize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__CalculatedSize_k__BackingField();
 
-  constexpr int32_t const& __get__CalculatedSize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__CalculatedSize_k__BackingField() const;
 
-  constexpr void __set__CalculatedSize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__CalculatedSize_k__BackingField(int32_t value);
 
   /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();

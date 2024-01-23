@@ -19,31 +19,31 @@ MARK_REF_PTR_T(::Mono::Security::X509::Extensions::BasicConstraintsExtension);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::X509::Extensions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13756))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13756))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13762))
 // CS Name: ::Mono.Security.X509.Extensions::BasicConstraintsExtension*
 class CORDL_TYPE BasicConstraintsExtension : public ::Mono::Security::X509::X509Extension {
 public:
   // Declarations
   /// @brief Field cA, offset 0x28, size 0x1
-  __declspec(property(get = __get_cA, put = __set_cA)) bool cA;
+  __declspec(property(get = __cordl_internal_get_cA, put = __cordl_internal_set_cA)) bool cA;
 
   /// @brief Field pathLenConstraint, offset 0x2c, size 0x4
-  __declspec(property(get = __get_pathLenConstraint, put = __set_pathLenConstraint)) int32_t pathLenConstraint;
+  __declspec(property(get = __cordl_internal_get_pathLenConstraint, put = __cordl_internal_set_pathLenConstraint)) int32_t pathLenConstraint;
 
   __declspec(property(get = get_CertificateAuthority)) bool CertificateAuthority;
 
-  constexpr bool& __get_cA();
+  constexpr bool& __cordl_internal_get_cA();
 
-  constexpr bool const& __get_cA() const;
+  constexpr bool const& __cordl_internal_get_cA() const;
 
-  constexpr void __set_cA(bool value);
+  constexpr void __cordl_internal_set_cA(bool value);
 
-  constexpr int32_t& __get_pathLenConstraint();
+  constexpr int32_t& __cordl_internal_get_pathLenConstraint();
 
-  constexpr int32_t const& __get_pathLenConstraint() const;
+  constexpr int32_t const& __cordl_internal_get_pathLenConstraint() const;
 
-  constexpr void __set_pathLenConstraint(int32_t value);
+  constexpr void __cordl_internal_set_pathLenConstraint(int32_t value);
 
   static inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 

@@ -29,52 +29,53 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionConnectionsGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5536))
 // CS Name: ::MissionConnectionsGenerator*
 class CORDL_TYPE MissionConnectionsGenerator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _missionNodesManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__missionNodesManager, put = __set__missionNodesManager))::GlobalNamespace::MissionNodesManager* _missionNodesManager;
+  __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager))::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
   /// @brief Field _nodeConnectionPref, offset 0x20, size 0x8
-  __declspec(property(get = __get__nodeConnectionPref, put = __set__nodeConnectionPref))::GlobalNamespace::MissionNodeConnection* _nodeConnectionPref;
+  __declspec(property(get = __cordl_internal_get__nodeConnectionPref, put = __cordl_internal_set__nodeConnectionPref))::UnityW<::GlobalNamespace::MissionNodeConnection> _nodeConnectionPref;
 
   /// @brief Field _connectionsCanvas, offset 0x28, size 0x8
-  __declspec(property(get = __get__connectionsCanvas, put = __set__connectionsCanvas))::UnityEngine::GameObject* _connectionsCanvas;
+  __declspec(property(get = __cordl_internal_get__connectionsCanvas, put = __cordl_internal_set__connectionsCanvas))::UnityW<::UnityEngine::GameObject> _connectionsCanvas;
 
   /// @brief Field _missionNodes, offset 0x30, size 0x8
-  __declspec(property(get = __get__missionNodes, put = __set__missionNodes))::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* _missionNodes;
+  __declspec(property(get = __cordl_internal_get__missionNodes,
+                      put = __cordl_internal_set__missionNodes))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* _missionNodes;
 
-  __declspec(property(get = get__rootMissionNode))::GlobalNamespace::MissionNode* _rootMissionNode;
+  __declspec(property(get = get__rootMissionNode))::UnityW<::GlobalNamespace::MissionNode> _rootMissionNode;
 
-  constexpr ::GlobalNamespace::MissionNodesManager*& __get__missionNodesManager();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodesManager*> const& __get__missionNodesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager> const& __cordl_internal_get__missionNodesManager() const;
 
-  constexpr void __set__missionNodesManager(::GlobalNamespace::MissionNodesManager* value);
+  constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
-  constexpr ::GlobalNamespace::MissionNodeConnection*& __get__nodeConnectionPref();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeConnection>& __cordl_internal_get__nodeConnectionPref();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodeConnection*> const& __get__nodeConnectionPref() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeConnection> const& __cordl_internal_get__nodeConnectionPref() const;
 
-  constexpr void __set__nodeConnectionPref(::GlobalNamespace::MissionNodeConnection* value);
+  constexpr void __cordl_internal_set__nodeConnectionPref(::UnityW<::GlobalNamespace::MissionNodeConnection> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__connectionsCanvas();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectionsCanvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__connectionsCanvas() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectionsCanvas() const;
 
-  constexpr void __set__connectionsCanvas(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__connectionsCanvas(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*& __get__missionNodes();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*& __cordl_internal_get__missionNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*> const& __get__missionNodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*> const& __cordl_internal_get__missionNodes() const;
 
-  constexpr void __set__missionNodes(::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* value);
+  constexpr void __cordl_internal_set__missionNodes(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* value);
 
   /// @brief Method get__rootMissionNode, addr 0x229e8c4, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* get__rootMissionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNode> get__rootMissionNode();
 
   /// @brief Method CreateNodeConnections, addr 0x229e8e0, size 0x90, virtual false, abstract: false, final false
   inline void CreateNodeConnections();
@@ -83,10 +84,10 @@ public:
   inline void RemoveOldConnections();
 
   /// @brief Method CreateConnections, addr 0x229ee2c, size 0x1f8, virtual false, abstract: false, final false
-  inline void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes);
+  inline void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
   /// @brief Method CreateConnectionBetweenNodes, addr 0x229f024, size 0xd0, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
+  inline ::UnityW<::GlobalNamespace::MissionNodeConnection> CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
 
   static inline ::GlobalNamespace::MissionConnectionsGenerator* New_ctor();
 
@@ -108,16 +109,16 @@ protected:
 
 public:
   /// @brief Field _missionNodesManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodesManager* ____missionNodesManager;
+  ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
   /// @brief Field _nodeConnectionPref, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodeConnection* ____nodeConnectionPref;
+  ::UnityW<::GlobalNamespace::MissionNodeConnection> ____nodeConnectionPref;
 
   /// @brief Field _connectionsCanvas, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____connectionsCanvas;
+  ::UnityW<::UnityEngine::GameObject> ____connectionsCanvas;
 
   /// @brief Field _missionNodes, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* ____missionNodes;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* ____missionNodes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

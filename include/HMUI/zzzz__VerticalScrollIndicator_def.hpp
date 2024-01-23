@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::HMUI::VerticalScrollIndicator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13675))
 // CS Name: ::HMUI::VerticalScrollIndicator*
 class CORDL_TYPE VerticalScrollIndicator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _handle, offset 0x18, size 0x8
-  __declspec(property(get = __get__handle, put = __set__handle))::UnityEngine::RectTransform* _handle;
+  __declspec(property(get = __cordl_internal_get__handle, put = __cordl_internal_set__handle))::UnityW<::UnityEngine::RectTransform> _handle;
 
   /// @brief Field _normalAnimationClip, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalAnimationClip, put = __set__normalAnimationClip))::UnityEngine::AnimationClip* _normalAnimationClip;
+  __declspec(property(get = __cordl_internal_get__normalAnimationClip, put = __cordl_internal_set__normalAnimationClip))::UnityW<::UnityEngine::AnimationClip> _normalAnimationClip;
 
   /// @brief Field _disabledAnimationClip, offset 0x28, size 0x8
-  __declspec(property(get = __get__disabledAnimationClip, put = __set__disabledAnimationClip))::UnityEngine::AnimationClip* _disabledAnimationClip;
+  __declspec(property(get = __cordl_internal_get__disabledAnimationClip, put = __cordl_internal_set__disabledAnimationClip))::UnityW<::UnityEngine::AnimationClip> _disabledAnimationClip;
 
   /// @brief Field _padding, offset 0x30, size 0x4
-  __declspec(property(get = __get__padding, put = __set__padding)) float_t _padding;
+  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
 
   /// @brief Field _progress, offset 0x34, size 0x4
-  __declspec(property(get = __get__progress, put = __set__progress)) float_t _progress;
+  __declspec(property(get = __cordl_internal_get__progress, put = __cordl_internal_set__progress)) float_t _progress;
 
   /// @brief Field _normalizedPageHeight, offset 0x38, size 0x4
-  __declspec(property(get = __get__normalizedPageHeight, put = __set__normalizedPageHeight)) float_t _normalizedPageHeight;
+  __declspec(property(get = __cordl_internal_get__normalizedPageHeight, put = __cordl_internal_set__normalizedPageHeight)) float_t _normalizedPageHeight;
 
   __declspec(property(get = get_progress, put = set_progress)) float_t progress;
 
@@ -51,41 +51,41 @@ public:
 
   __declspec(property(put = set_disabled)) bool disabled;
 
-  constexpr ::UnityEngine::RectTransform*& __get__handle();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__handle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__handle() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__handle() const;
 
-  constexpr void __set__handle(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__handle(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__normalAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__normalAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__normalAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__normalAnimationClip() const;
 
-  constexpr void __set__normalAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__normalAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__disabledAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__disabledAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__disabledAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__disabledAnimationClip() const;
 
-  constexpr void __set__disabledAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__disabledAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr float_t& __get__padding();
+  constexpr float_t& __cordl_internal_get__padding();
 
-  constexpr float_t const& __get__padding() const;
+  constexpr float_t const& __cordl_internal_get__padding() const;
 
-  constexpr void __set__padding(float_t value);
+  constexpr void __cordl_internal_set__padding(float_t value);
 
-  constexpr float_t& __get__progress();
+  constexpr float_t& __cordl_internal_get__progress();
 
-  constexpr float_t const& __get__progress() const;
+  constexpr float_t const& __cordl_internal_get__progress() const;
 
-  constexpr void __set__progress(float_t value);
+  constexpr void __cordl_internal_set__progress(float_t value);
 
-  constexpr float_t& __get__normalizedPageHeight();
+  constexpr float_t& __cordl_internal_get__normalizedPageHeight();
 
-  constexpr float_t const& __get__normalizedPageHeight() const;
+  constexpr float_t const& __cordl_internal_get__normalizedPageHeight() const;
 
-  constexpr void __set__normalizedPageHeight(float_t value);
+  constexpr void __cordl_internal_set__normalizedPageHeight(float_t value);
 
   /// @brief Method set_progress, addr 0x2144640, size 0x2c, virtual false, abstract: false, final false
   inline void set_progress(float_t value);
@@ -128,13 +128,13 @@ protected:
 
 public:
   /// @brief Field _handle, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____handle;
+  ::UnityW<::UnityEngine::RectTransform> ____handle;
 
   /// @brief Field _normalAnimationClip, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____normalAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____normalAnimationClip;
 
   /// @brief Field _disabledAnimationClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____disabledAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____disabledAnimationClip;
 
   /// @brief Field _padding, offset: 0x30, size: 0x4, def value: None
   float_t ____padding;

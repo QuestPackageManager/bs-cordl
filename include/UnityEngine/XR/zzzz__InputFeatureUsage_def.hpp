@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::XR::InputFeatureUsage);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15615))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15615))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15619))
 // CS Name: ::UnityEngine.XR::InputFeatureUsage
 struct CORDL_TYPE InputFeatureUsage {

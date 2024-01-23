@@ -38,20 +38,20 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11084))
 // CS Name: ::Zenject::StaticMemoryPoolBaseBase`1<TValue>*
 class CORDL_TYPE StaticMemoryPoolBaseBase_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _stack, offset 0x10, size 0x8
-  __declspec(property(get = __get__stack, put = __set__stack))::System::Collections::Generic::Stack_1<TValue>* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Generic::Stack_1<TValue>* _stack;
 
   /// @brief Field _onDespawnedMethod, offset 0x18, size 0x8
-  __declspec(property(get = __get__onDespawnedMethod, put = __set__onDespawnedMethod))::System::Action_1<TValue>* _onDespawnedMethod;
+  __declspec(property(get = __cordl_internal_get__onDespawnedMethod, put = __cordl_internal_set__onDespawnedMethod))::System::Action_1<TValue>* _onDespawnedMethod;
 
   /// @brief Field _activeCount, offset 0x20, size 0x4
-  __declspec(property(get = __get__activeCount, put = __set__activeCount)) int32_t _activeCount;
+  __declspec(property(get = __cordl_internal_get__activeCount, put = __cordl_internal_set__activeCount)) int32_t _activeCount;
 
   __declspec(property(put = set_OnDespawnedMethod))::System::Action_1<TValue>* OnDespawnedMethod;
 
@@ -81,23 +81,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::Stack_1<TValue>*& __get__stack();
+  constexpr ::System::Collections::Generic::Stack_1<TValue>*& __cordl_internal_get__stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<TValue>*> const& __get__stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<TValue>*> const& __cordl_internal_get__stack() const;
 
-  constexpr void __set__stack(::System::Collections::Generic::Stack_1<TValue>* value);
+  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::Stack_1<TValue>* value);
 
-  constexpr ::System::Action_1<TValue>*& __get__onDespawnedMethod();
+  constexpr ::System::Action_1<TValue>*& __cordl_internal_get__onDespawnedMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __get__onDespawnedMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __cordl_internal_get__onDespawnedMethod() const;
 
-  constexpr void __set__onDespawnedMethod(::System::Action_1<TValue>* value);
+  constexpr void __cordl_internal_set__onDespawnedMethod(::System::Action_1<TValue>* value);
 
-  constexpr int32_t& __get__activeCount();
+  constexpr int32_t& __cordl_internal_get__activeCount();
 
-  constexpr int32_t const& __get__activeCount() const;
+  constexpr int32_t const& __cordl_internal_get__activeCount() const;
 
-  constexpr void __set__activeCount(int32_t value);
+  constexpr void __cordl_internal_set__activeCount(int32_t value);
 
   static inline ::Zenject::StaticMemoryPoolBaseBase_1<TValue>* New_ctor(::System::Action_1<TValue>* onDespawnedMethod);
 

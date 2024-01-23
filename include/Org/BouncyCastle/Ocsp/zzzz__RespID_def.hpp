@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RespID);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1623))
 // CS Name: ::Org.BouncyCastle.Ocsp::RespID*
 class CORDL_TYPE RespID : public ::System::Object {
 public:
   // Declarations
   /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __get_id, put = __set_id))::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __get_id();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_id();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponderID*> const& __get_id() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponderID*> const& __cordl_internal_get_id() const;
 
-  constexpr void __set_id(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
+  constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 

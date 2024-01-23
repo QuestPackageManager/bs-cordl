@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IO::SignerStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(933))
 // CS Name: ::Org.BouncyCastle.Crypto.IO::SignerStream*
 class CORDL_TYPE SignerStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field stream, offset 0x28, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   /// @brief Field inSigner, offset 0x30, size 0x8
-  __declspec(property(get = __get_inSigner, put = __set_inSigner))::Org::BouncyCastle::Crypto::ISigner* inSigner;
+  __declspec(property(get = __cordl_internal_get_inSigner, put = __cordl_internal_set_inSigner))::Org::BouncyCastle::Crypto::ISigner* inSigner;
 
   /// @brief Field outSigner, offset 0x38, size 0x8
-  __declspec(property(get = __get_outSigner, put = __set_outSigner))::Org::BouncyCastle::Crypto::ISigner* outSigner;
+  __declspec(property(get = __cordl_internal_get_outSigner, put = __cordl_internal_set_outSigner))::Org::BouncyCastle::Crypto::ISigner* outSigner;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -50,23 +50,23 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get_inSigner();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_inSigner();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get_inSigner() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_inSigner() const;
 
-  constexpr void __set_inSigner(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set_inSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get_outSigner();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_outSigner();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get_outSigner() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_outSigner() const;
 
-  constexpr void __set_outSigner(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set_outSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
   static inline ::Org::BouncyCastle::Crypto::IO::SignerStream* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::ISigner* readSigner,
                                                                         ::Org::BouncyCastle::Crypto::ISigner* writeSigner);

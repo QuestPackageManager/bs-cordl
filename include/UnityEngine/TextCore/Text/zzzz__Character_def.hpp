@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::Character);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13706))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13706))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13700))
 // CS Name: ::UnityEngine.TextCore.Text::Character*
 class CORDL_TYPE Character : public ::UnityEngine::TextCore::Text::TextElement {

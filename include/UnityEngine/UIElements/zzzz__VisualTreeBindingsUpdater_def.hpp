@@ -45,34 +45,39 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeBindingsUpdater);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6787)), TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6787)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10159))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7344))
 // CS Name: ::UnityEngine.UIElements::VisualTreeBindingsUpdater*
 class CORDL_TYPE VisualTreeBindingsUpdater : public ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater {
 public:
   // Declarations
   /// @brief Field m_ElementsWithBindings, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_ElementsWithBindings,
-                      put = __set_m_ElementsWithBindings))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsWithBindings;
+  __declspec(property(get = __cordl_internal_get_m_ElementsWithBindings,
+                      put = __cordl_internal_set_m_ElementsWithBindings))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsWithBindings;
 
   /// @brief Field m_ElementsToAdd, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_ElementsToAdd, put = __set_m_ElementsToAdd))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsToAdd;
+  __declspec(property(get = __cordl_internal_get_m_ElementsToAdd,
+                      put = __cordl_internal_set_m_ElementsToAdd))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsToAdd;
 
   /// @brief Field m_ElementsToRemove, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_ElementsToRemove, put = __set_m_ElementsToRemove))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsToRemove;
+  __declspec(property(get = __cordl_internal_get_m_ElementsToRemove,
+                      put = __cordl_internal_set_m_ElementsToRemove))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsToRemove;
 
   /// @brief Field m_LastUpdateTime, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_LastUpdateTime, put = __set_m_LastUpdateTime)) int64_t m_LastUpdateTime;
+  __declspec(property(get = __cordl_internal_get_m_LastUpdateTime, put = __cordl_internal_set_m_LastUpdateTime)) int64_t m_LastUpdateTime;
 
   /// @brief Field m_ElementsToBind, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_ElementsToBind, put = __set_m_ElementsToBind))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsToBind;
+  __declspec(property(get = __cordl_internal_get_m_ElementsToBind,
+                      put = __cordl_internal_set_m_ElementsToBind))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ElementsToBind;
 
   /// @brief Field <temporaryObjectCache>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__temporaryObjectCache_k__BackingField,
-                      put = __set__temporaryObjectCache_k__BackingField))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* _temporaryObjectCache_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__temporaryObjectCache_k__BackingField,
+      put = __cordl_internal_set__temporaryObjectCache_k__BackingField))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* _temporaryObjectCache_k__BackingField;
 
   /// @brief Field updatedBindings, offset 0x68, size 0x8
-  __declspec(property(get = __get_updatedBindings, put = __set_updatedBindings))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* updatedBindings;
+  __declspec(property(get = __cordl_internal_get_updatedBindings,
+                      put = __cordl_internal_set_updatedBindings))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* updatedBindings;
 
   /// @brief Field s_BindingRequestObjectVEPropertyName, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_BindingRequestObjectVEPropertyName,
@@ -104,47 +109,48 @@ public:
 
   __declspec(property(get = get_temporaryObjectCache))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* temporaryObjectCache;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_ElementsWithBindings();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsWithBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_ElementsWithBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsWithBindings() const;
 
-  constexpr void __set_m_ElementsWithBindings(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_ElementsWithBindings(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_ElementsToAdd();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsToAdd();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_ElementsToAdd() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsToAdd() const;
 
-  constexpr void __set_m_ElementsToAdd(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_ElementsToAdd(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_ElementsToRemove();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsToRemove();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_ElementsToRemove() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsToRemove() const;
 
-  constexpr void __set_m_ElementsToRemove(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_ElementsToRemove(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr int64_t& __get_m_LastUpdateTime();
+  constexpr int64_t& __cordl_internal_get_m_LastUpdateTime();
 
-  constexpr int64_t const& __get_m_LastUpdateTime() const;
+  constexpr int64_t const& __cordl_internal_get_m_LastUpdateTime() const;
 
-  constexpr void __set_m_LastUpdateTime(int64_t value);
+  constexpr void __cordl_internal_set_m_LastUpdateTime(int64_t value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_ElementsToBind();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsToBind();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_ElementsToBind() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsToBind() const;
 
-  constexpr void __set_m_ElementsToBind(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_ElementsToBind(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __get__temporaryObjectCache_k__BackingField();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__temporaryObjectCache_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const& __get__temporaryObjectCache_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const&
+  __cordl_internal_get__temporaryObjectCache_k__BackingField() const;
 
-  constexpr void __set__temporaryObjectCache_k__BackingField(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set__temporaryObjectCache_k__BackingField(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>*& __get_updatedBindings();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>*& __cordl_internal_get_updatedBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>*> const& __get_updatedBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>*> const& __cordl_internal_get_updatedBindings() const;
 
-  constexpr void __set_updatedBindings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* value);
+  constexpr void __cordl_internal_set_updatedBindings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* value);
 
   static inline void setStaticF_s_BindingRequestObjectVEPropertyName(::UnityEngine::PropertyName value);
 

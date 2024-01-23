@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskCanceledException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2455))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2455))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2756))
 // CS Name: ::System.Threading.Tasks::TaskCanceledException*
 class CORDL_TYPE TaskCanceledException : public ::System::OperationCanceledException {
 public:
   // Declarations
   /// @brief Field _canceledTask, offset 0x98, size 0x8
-  __declspec(property(get = __get__canceledTask, put = __set__canceledTask))::System::Threading::Tasks::Task* _canceledTask;
+  __declspec(property(get = __cordl_internal_get__canceledTask, put = __cordl_internal_set__canceledTask))::System::Threading::Tasks::Task* _canceledTask;
 
-  constexpr ::System::Threading::Tasks::Task*& __get__canceledTask();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__canceledTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get__canceledTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__canceledTask() const;
 
-  constexpr void __set__canceledTask(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set__canceledTask(::System::Threading::Tasks::Task* value);
 
   static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor();
 

@@ -24,24 +24,24 @@ MARK_REF_PTR_T(::System::Xml::Schema::Positions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11598))
 // CS Name: ::System.Xml.Schema::Positions*
 class CORDL_TYPE Positions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field positions, offset 0x10, size 0x8
-  __declspec(property(get = __get_positions, put = __set_positions))::System::Collections::ArrayList* positions;
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::System::Collections::ArrayList* positions;
 
   __declspec(property(get = get_Item))::System::Xml::Schema::Position Item[];
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::System::Collections::ArrayList*& __get_positions();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_positions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_positions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_positions() const;
 
-  constexpr void __set_positions(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_positions(::System::Collections::ArrayList* value);
 
   /// @brief Method Add, addr 0x28ada20, size 0x90, virtual false, abstract: false, final false
   inline int32_t Add(int32_t symbol, ::System::Object* particle);

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::ISet);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1781))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::ISet*
 class CORDL_TYPE ISet {

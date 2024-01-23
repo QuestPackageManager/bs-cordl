@@ -66,44 +66,45 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeCache);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9957))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeCache*
 class CORDL_TYPE HEU_VolumeCache : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _ownerNode, offset 0x18, size 0x8
-  __declspec(property(get = __get__ownerNode, put = __set__ownerNode))::HoudiniEngineUnity::HEU_GeoNode* _ownerNode;
+  __declspec(property(get = __cordl_internal_get__ownerNode, put = __cordl_internal_set__ownerNode))::UnityW<::HoudiniEngineUnity::HEU_GeoNode> _ownerNode;
 
   /// @brief Field _layers, offset 0x20, size 0x8
-  __declspec(property(get = __get__layers, put = __set__layers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* _layers;
+  __declspec(property(get = __cordl_internal_get__layers, put = __cordl_internal_set__layers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* _layers;
 
   /// @brief Field _updatedLayers, offset 0x28, size 0x8
-  __declspec(property(get = __get__updatedLayers, put = __set__updatedLayers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* _updatedLayers;
+  __declspec(property(get = __cordl_internal_get__updatedLayers,
+                      put = __cordl_internal_set__updatedLayers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* _updatedLayers;
 
   /// @brief Field _tileIndex, offset 0x30, size 0x4
-  __declspec(property(get = __get__tileIndex, put = __set__tileIndex)) int32_t _tileIndex;
+  __declspec(property(get = __cordl_internal_get__tileIndex, put = __cordl_internal_set__tileIndex)) int32_t _tileIndex;
 
   /// @brief Field _isDirty, offset 0x34, size 0x1
-  __declspec(property(get = __get__isDirty, put = __set__isDirty)) bool _isDirty;
+  __declspec(property(get = __cordl_internal_get__isDirty, put = __cordl_internal_set__isDirty)) bool _isDirty;
 
   /// @brief Field _geoName, offset 0x38, size 0x8
-  __declspec(property(get = __get__geoName, put = __set__geoName))::StringW _geoName;
+  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
 
   /// @brief Field _objName, offset 0x40, size 0x8
-  __declspec(property(get = __get__objName, put = __set__objName))::StringW _objName;
+  __declspec(property(get = __cordl_internal_get__objName, put = __cordl_internal_set__objName))::StringW _objName;
 
   /// @brief Field _uiExpanded, offset 0x48, size 0x1
-  __declspec(property(get = __get__uiExpanded, put = __set__uiExpanded)) bool _uiExpanded;
+  __declspec(property(get = __cordl_internal_get__uiExpanded, put = __cordl_internal_set__uiExpanded)) bool _uiExpanded;
 
   /// @brief Field _terrainData, offset 0x50, size 0x8
-  __declspec(property(get = __get__terrainData, put = __set__terrainData))::UnityEngine::TerrainData* _terrainData;
+  __declspec(property(get = __cordl_internal_get__terrainData, put = __cordl_internal_set__terrainData))::UnityW<::UnityEngine::TerrainData> _terrainData;
 
   /// @brief Field _scatterTrees, offset 0x58, size 0x8
-  __declspec(property(get = __get__scatterTrees, put = __set__scatterTrees))::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees;
+  __declspec(property(get = __cordl_internal_get__scatterTrees, put = __cordl_internal_set__scatterTrees))::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees;
 
   /// @brief Field _detailProperties, offset 0x60, size 0x8
-  __declspec(property(get = __get__detailProperties, put = __set__detailProperties))::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties;
+  __declspec(property(get = __cordl_internal_get__detailProperties, put = __cordl_internal_set__detailProperties))::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties;
 
   __declspec(property(get = get_IsDirty, put = set_IsDirty)) bool IsDirty;
 
@@ -115,77 +116,77 @@ public:
 
   __declspec(property(get = get_UIExpanded, put = set_UIExpanded)) bool UIExpanded;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeCache__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_VolumeCache__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::HEU_GeoNode*& __get__ownerNode();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_GeoNode>& __cordl_internal_get__ownerNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeoNode*> const& __get__ownerNode() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_GeoNode> const& __cordl_internal_get__ownerNode() const;
 
-  constexpr void __set__ownerNode(::HoudiniEngineUnity::HEU_GeoNode* value);
+  constexpr void __cordl_internal_set__ownerNode(::UnityW<::HoudiniEngineUnity::HEU_GeoNode> value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*& __get__layers();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*& __cordl_internal_get__layers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*> const& __get__layers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*> const& __cordl_internal_get__layers() const;
 
-  constexpr void __set__layers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* value);
+  constexpr void __cordl_internal_set__layers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*& __get__updatedLayers();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*& __cordl_internal_get__updatedLayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*> const& __get__updatedLayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*> const& __cordl_internal_get__updatedLayers() const;
 
-  constexpr void __set__updatedLayers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* value);
+  constexpr void __cordl_internal_set__updatedLayers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* value);
 
-  constexpr int32_t& __get__tileIndex();
+  constexpr int32_t& __cordl_internal_get__tileIndex();
 
-  constexpr int32_t const& __get__tileIndex() const;
+  constexpr int32_t const& __cordl_internal_get__tileIndex() const;
 
-  constexpr void __set__tileIndex(int32_t value);
+  constexpr void __cordl_internal_set__tileIndex(int32_t value);
 
-  constexpr bool& __get__isDirty();
+  constexpr bool& __cordl_internal_get__isDirty();
 
-  constexpr bool const& __get__isDirty() const;
+  constexpr bool const& __cordl_internal_get__isDirty() const;
 
-  constexpr void __set__isDirty(bool value);
+  constexpr void __cordl_internal_set__isDirty(bool value);
 
-  constexpr ::StringW& __get__geoName();
+  constexpr ::StringW& __cordl_internal_get__geoName();
 
-  constexpr ::StringW const& __get__geoName() const;
+  constexpr ::StringW const& __cordl_internal_get__geoName() const;
 
-  constexpr void __set__geoName(::StringW value);
+  constexpr void __cordl_internal_set__geoName(::StringW value);
 
-  constexpr ::StringW& __get__objName();
+  constexpr ::StringW& __cordl_internal_get__objName();
 
-  constexpr ::StringW const& __get__objName() const;
+  constexpr ::StringW const& __cordl_internal_get__objName() const;
 
-  constexpr void __set__objName(::StringW value);
+  constexpr void __cordl_internal_set__objName(::StringW value);
 
-  constexpr bool& __get__uiExpanded();
+  constexpr bool& __cordl_internal_get__uiExpanded();
 
-  constexpr bool const& __get__uiExpanded() const;
+  constexpr bool const& __cordl_internal_get__uiExpanded() const;
 
-  constexpr void __set__uiExpanded(bool value);
+  constexpr void __cordl_internal_set__uiExpanded(bool value);
 
-  constexpr ::UnityEngine::TerrainData*& __get__terrainData();
+  constexpr ::UnityW<::UnityEngine::TerrainData>& __cordl_internal_get__terrainData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TerrainData*> const& __get__terrainData() const;
+  constexpr ::UnityW<::UnityEngine::TerrainData> const& __cordl_internal_get__terrainData() const;
 
-  constexpr void __set__terrainData(::UnityEngine::TerrainData* value);
+  constexpr void __cordl_internal_set__terrainData(::UnityW<::UnityEngine::TerrainData> value);
 
-  constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& __get__scatterTrees();
+  constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& __cordl_internal_get__scatterTrees();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> const& __get__scatterTrees() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> const& __cordl_internal_get__scatterTrees() const;
 
-  constexpr void __set__scatterTrees(::HoudiniEngineUnity::HEU_VolumeScatterTrees* value);
+  constexpr void __cordl_internal_set__scatterTrees(::HoudiniEngineUnity::HEU_VolumeScatterTrees* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_DetailProperties*& __get__detailProperties();
+  constexpr ::HoudiniEngineUnity::HEU_DetailProperties*& __cordl_internal_get__detailProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_DetailProperties*> const& __get__detailProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_DetailProperties*> const& __cordl_internal_get__detailProperties() const;
 
-  constexpr void __set__detailProperties(::HoudiniEngineUnity::HEU_DetailProperties* value);
+  constexpr void __cordl_internal_set__detailProperties(::HoudiniEngineUnity::HEU_DetailProperties* value);
 
   /// @brief Method get_IsDirty, addr 0x21ea9fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDirty();
@@ -209,10 +210,10 @@ public:
   inline void set_UIExpanded(bool value);
 
   /// @brief Method UpdateVolumeCachesFromParts, addr 0x21eaa3c, size 0x8dc, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*
+  static inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*
   UpdateVolumeCachesFromParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoNode* ownerNode,
-                              ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts,
-                              ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* volumeCaches);
+                              ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* volumeParts,
+                              ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* volumeCaches);
 
   /// @brief Method Initialize, addr 0x21eb76c, size 0x3c, virtual false, abstract: false, final false
   inline void Initialize(::HoudiniEngineUnity::HEU_GeoNode* ownerNode, int32_t tileIndex);
@@ -279,10 +280,10 @@ public:
   static inline void CopyPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* srcProto, ::HoudiniEngineUnity::HEU_DetailPrototype* destProto);
 
   /// @brief Method LoadDefaultSplatTexture, addr 0x21edd54, size 0x88, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* LoadDefaultSplatTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> LoadDefaultSplatTexture();
 
   /// @brief Method LoadAssetTexture, addr 0x21ebdcc, size 0x100, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* LoadAssetTexture(::StringW path);
+  static inline ::UnityW<::UnityEngine::Texture2D> LoadAssetTexture(::StringW path);
 
   /// @brief Method IsEquivalentTo, addr 0x21ee7a0, size 0x31c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeCache* other);
@@ -307,7 +308,7 @@ protected:
 
 public:
   /// @brief Field _ownerNode, offset: 0x18, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_GeoNode* ____ownerNode;
+  ::UnityW<::HoudiniEngineUnity::HEU_GeoNode> ____ownerNode;
 
   /// @brief Field _layers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* ____layers;
@@ -331,7 +332,7 @@ public:
   bool ____uiExpanded;
 
   /// @brief Field _terrainData, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::TerrainData* ____terrainData;
+  ::UnityW<::UnityEngine::TerrainData> ____terrainData;
 
   /// @brief Field _scatterTrees, offset: 0x58, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_VolumeScatterTrees* ____scatterTrees;

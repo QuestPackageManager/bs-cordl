@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Xml::SafeAsciiDecoder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2827))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2827))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11556))
 // CS Name: ::System.Xml::SafeAsciiDecoder*
 class CORDL_TYPE SafeAsciiDecoder : public ::System::Text::Decoder {

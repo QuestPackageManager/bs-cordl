@@ -66,59 +66,59 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15827))
 // CS Name: ::ShuffleExtensions::<PickRandomElementsWithTombstone>d__1`1<T>*
 class CORDL_TYPE __ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __get_source, put = __set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__source, put = __set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
 
   /// @brief Field count, offset 0x38, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field <>3__count, offset 0x3c, size 0x4
-  __declspec(property(get = __get___3__count, put = __set___3__count)) int32_t __3__count;
+  __declspec(property(get = __cordl_internal_get___3__count, put = __cordl_internal_set___3__count)) int32_t __3__count;
 
   /// @brief Field random, offset 0x40, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::System::Random* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::System::Random* random;
 
   /// @brief Field <>3__random, offset 0x48, size 0x8
-  __declspec(property(get = __get___3__random, put = __set___3__random))::System::Random* __3__random;
+  __declspec(property(get = __cordl_internal_get___3__random, put = __cordl_internal_set___3__random))::System::Random* __3__random;
 
   /// @brief Field limit, offset 0x50, size 0x4
-  __declspec(property(get = __get_limit, put = __set_limit)) int32_t limit;
+  __declspec(property(get = __cordl_internal_get_limit, put = __cordl_internal_set_limit)) int32_t limit;
 
   /// @brief Field <>3__limit, offset 0x54, size 0x4
-  __declspec(property(get = __get___3__limit, put = __set___3__limit)) int32_t __3__limit;
+  __declspec(property(get = __cordl_internal_get___3__limit, put = __cordl_internal_set___3__limit)) int32_t __3__limit;
 
   /// @brief Field tombstone, offset 0x58, size 0x8
-  __declspec(property(get = __get_tombstone, put = __set_tombstone)) T tombstone;
+  __declspec(property(get = __cordl_internal_get_tombstone, put = __cordl_internal_set_tombstone)) T tombstone;
 
   /// @brief Field <>3__tombstone, offset 0x60, size 0x8
-  __declspec(property(get = __get___3__tombstone, put = __set___3__tombstone)) T __3__tombstone;
+  __declspec(property(get = __cordl_internal_get___3__tombstone, put = __cordl_internal_set___3__tombstone)) T __3__tombstone;
 
   /// @brief Field <index>5__2, offset 0x68, size 0x4
-  __declspec(property(get = __get__index_5__2, put = __set__index_5__2)) int32_t _index_5__2;
+  __declspec(property(get = __cordl_internal_get__index_5__2, put = __cordl_internal_set__index_5__2)) int32_t _index_5__2;
 
   /// @brief Field <picked>5__3, offset 0x6c, size 0x4
-  __declspec(property(get = __get__picked_5__3, put = __set__picked_5__3)) int32_t _picked_5__3;
+  __declspec(property(get = __cordl_internal_get__picked_5__3, put = __cordl_internal_set__picked_5__3)) int32_t _picked_5__3;
 
   /// @brief Field <>7__wrap3, offset 0x70, size 0x8
-  __declspec(property(get = __get___7__wrap3, put = __set___7__wrap3))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap3;
+  __declspec(property(get = __cordl_internal_get___7__wrap3, put = __cordl_internal_set___7__wrap3))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -154,101 +154,101 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get_source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get_source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get___3__source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get___3__source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__source() const;
 
-  constexpr void __set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr int32_t& __get___3__count();
+  constexpr int32_t& __cordl_internal_get___3__count();
 
-  constexpr int32_t const& __get___3__count() const;
+  constexpr int32_t const& __cordl_internal_get___3__count() const;
 
-  constexpr void __set___3__count(int32_t value);
+  constexpr void __cordl_internal_set___3__count(int32_t value);
 
-  constexpr ::System::Random*& __get_random();
+  constexpr ::System::Random*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::System::Random* value);
+  constexpr void __cordl_internal_set_random(::System::Random* value);
 
-  constexpr ::System::Random*& __get___3__random();
+  constexpr ::System::Random*& __cordl_internal_get___3__random();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __get___3__random() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get___3__random() const;
 
-  constexpr void __set___3__random(::System::Random* value);
+  constexpr void __cordl_internal_set___3__random(::System::Random* value);
 
-  constexpr int32_t& __get_limit();
+  constexpr int32_t& __cordl_internal_get_limit();
 
-  constexpr int32_t const& __get_limit() const;
+  constexpr int32_t const& __cordl_internal_get_limit() const;
 
-  constexpr void __set_limit(int32_t value);
+  constexpr void __cordl_internal_set_limit(int32_t value);
 
-  constexpr int32_t& __get___3__limit();
+  constexpr int32_t& __cordl_internal_get___3__limit();
 
-  constexpr int32_t const& __get___3__limit() const;
+  constexpr int32_t const& __cordl_internal_get___3__limit() const;
 
-  constexpr void __set___3__limit(int32_t value);
+  constexpr void __cordl_internal_set___3__limit(int32_t value);
 
-  constexpr T& __get_tombstone();
+  constexpr T& __cordl_internal_get_tombstone();
 
-  constexpr T const& __get_tombstone() const;
+  constexpr T const& __cordl_internal_get_tombstone() const;
 
-  constexpr void __set_tombstone(T value);
+  constexpr void __cordl_internal_set_tombstone(T value);
 
-  constexpr T& __get___3__tombstone();
+  constexpr T& __cordl_internal_get___3__tombstone();
 
-  constexpr T const& __get___3__tombstone() const;
+  constexpr T const& __cordl_internal_get___3__tombstone() const;
 
-  constexpr void __set___3__tombstone(T value);
+  constexpr void __cordl_internal_set___3__tombstone(T value);
 
-  constexpr int32_t& __get__index_5__2();
+  constexpr int32_t& __cordl_internal_get__index_5__2();
 
-  constexpr int32_t const& __get__index_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__index_5__2() const;
 
-  constexpr void __set__index_5__2(int32_t value);
+  constexpr void __cordl_internal_set__index_5__2(int32_t value);
 
-  constexpr int32_t& __get__picked_5__3();
+  constexpr int32_t& __cordl_internal_get__picked_5__3();
 
-  constexpr int32_t const& __get__picked_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__picked_5__3() const;
 
-  constexpr void __set__picked_5__3(int32_t value);
+  constexpr void __cordl_internal_set__picked_5__3(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __get___7__wrap3();
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __get___7__wrap3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap3() const;
 
-  constexpr void __set___7__wrap3(::System::Collections::Generic::IEnumerator_1<T>* value);
+  constexpr void __cordl_internal_set___7__wrap3(::System::Collections::Generic::IEnumerator_1<T>* value);
 
   static inline ::GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>* New_ctor(int32_t __1__state);
 
@@ -351,44 +351,44 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15828))
 // CS Name: ::ShuffleExtensions::<TakeWithTombstone>d__2`1<T>*
 class CORDL_TYPE __ShuffleExtensions___TakeWithTombstone_d__2_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __get_source, put = __set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__source, put = __set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
 
   /// @brief Field limit, offset 0x38, size 0x4
-  __declspec(property(get = __get_limit, put = __set_limit)) int32_t limit;
+  __declspec(property(get = __cordl_internal_get_limit, put = __cordl_internal_set_limit)) int32_t limit;
 
   /// @brief Field <>3__limit, offset 0x3c, size 0x4
-  __declspec(property(get = __get___3__limit, put = __set___3__limit)) int32_t __3__limit;
+  __declspec(property(get = __cordl_internal_get___3__limit, put = __cordl_internal_set___3__limit)) int32_t __3__limit;
 
   /// @brief Field tombstone, offset 0x40, size 0x8
-  __declspec(property(get = __get_tombstone, put = __set_tombstone)) T tombstone;
+  __declspec(property(get = __cordl_internal_get_tombstone, put = __cordl_internal_set_tombstone)) T tombstone;
 
   /// @brief Field <>3__tombstone, offset 0x48, size 0x8
-  __declspec(property(get = __get___3__tombstone, put = __set___3__tombstone)) T __3__tombstone;
+  __declspec(property(get = __cordl_internal_get___3__tombstone, put = __cordl_internal_set___3__tombstone)) T __3__tombstone;
 
   /// @brief Field <enumerator>5__2, offset 0x50, size 0x8
-  __declspec(property(get = __get__enumerator_5__2, put = __set__enumerator_5__2))::System::Collections::Generic::IEnumerator_1<T>* _enumerator_5__2;
+  __declspec(property(get = __cordl_internal_get__enumerator_5__2, put = __cordl_internal_set__enumerator_5__2))::System::Collections::Generic::IEnumerator_1<T>* _enumerator_5__2;
 
   /// @brief Field <index>5__3, offset 0x58, size 0x4
-  __declspec(property(get = __get__index_5__3, put = __set__index_5__3)) int32_t _index_5__3;
+  __declspec(property(get = __cordl_internal_get__index_5__3, put = __cordl_internal_set__index_5__3)) int32_t _index_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -424,71 +424,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get_source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get_source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get___3__source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get___3__source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__source() const;
 
-  constexpr void __set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr int32_t& __get_limit();
+  constexpr int32_t& __cordl_internal_get_limit();
 
-  constexpr int32_t const& __get_limit() const;
+  constexpr int32_t const& __cordl_internal_get_limit() const;
 
-  constexpr void __set_limit(int32_t value);
+  constexpr void __cordl_internal_set_limit(int32_t value);
 
-  constexpr int32_t& __get___3__limit();
+  constexpr int32_t& __cordl_internal_get___3__limit();
 
-  constexpr int32_t const& __get___3__limit() const;
+  constexpr int32_t const& __cordl_internal_get___3__limit() const;
 
-  constexpr void __set___3__limit(int32_t value);
+  constexpr void __cordl_internal_set___3__limit(int32_t value);
 
-  constexpr T& __get_tombstone();
+  constexpr T& __cordl_internal_get_tombstone();
 
-  constexpr T const& __get_tombstone() const;
+  constexpr T const& __cordl_internal_get_tombstone() const;
 
-  constexpr void __set_tombstone(T value);
+  constexpr void __cordl_internal_set_tombstone(T value);
 
-  constexpr T& __get___3__tombstone();
+  constexpr T& __cordl_internal_get___3__tombstone();
 
-  constexpr T const& __get___3__tombstone() const;
+  constexpr T const& __cordl_internal_get___3__tombstone() const;
 
-  constexpr void __set___3__tombstone(T value);
+  constexpr void __cordl_internal_set___3__tombstone(T value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __get__enumerator_5__2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get__enumerator_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __get__enumerator_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get__enumerator_5__2() const;
 
-  constexpr void __set__enumerator_5__2(::System::Collections::Generic::IEnumerator_1<T>* value);
+  constexpr void __cordl_internal_set__enumerator_5__2(::System::Collections::Generic::IEnumerator_1<T>* value);
 
-  constexpr int32_t& __get__index_5__3();
+  constexpr int32_t& __cordl_internal_get__index_5__3();
 
-  constexpr int32_t const& __get__index_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__index_5__3() const;
 
-  constexpr void __set__index_5__3(int32_t value);
+  constexpr void __cordl_internal_set__index_5__3(int32_t value);
 
   static inline ::GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>* New_ctor(int32_t __1__state);
 
@@ -576,43 +576,43 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5306 }), TypeDefinitionIndex(TypeDefinitionIndex(2507)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15829)) CS Name: ::ShuffleExtensions::<ZipSkipTombstone>d__3`2<T1,T2>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5306
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15829)) CS Name: ::ShuffleExtensions::<ZipSkipTombstone>d__3`2<T1,T2>*
 class CORDL_TYPE __ShuffleExtensions___ZipSkipTombstone_d__3_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::ValueTuple_2<T1, T2> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::ValueTuple_2<T1, T2> __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field collection1, offset 0x30, size 0x8
-  __declspec(property(get = __get_collection1, put = __set_collection1))::System::Collections::Generic::IEnumerable_1<T1>* collection1;
+  __declspec(property(get = __cordl_internal_get_collection1, put = __cordl_internal_set_collection1))::System::Collections::Generic::IEnumerable_1<T1>* collection1;
 
   /// @brief Field <>3__collection1, offset 0x38, size 0x8
-  __declspec(property(get = __get___3__collection1, put = __set___3__collection1))::System::Collections::Generic::IEnumerable_1<T1>* __3__collection1;
+  __declspec(property(get = __cordl_internal_get___3__collection1, put = __cordl_internal_set___3__collection1))::System::Collections::Generic::IEnumerable_1<T1>* __3__collection1;
 
   /// @brief Field collection2, offset 0x40, size 0x8
-  __declspec(property(get = __get_collection2, put = __set_collection2))::System::Collections::Generic::IEnumerable_1<T2>* collection2;
+  __declspec(property(get = __cordl_internal_get_collection2, put = __cordl_internal_set_collection2))::System::Collections::Generic::IEnumerable_1<T2>* collection2;
 
   /// @brief Field <>3__collection2, offset 0x48, size 0x8
-  __declspec(property(get = __get___3__collection2, put = __set___3__collection2))::System::Collections::Generic::IEnumerable_1<T2>* __3__collection2;
+  __declspec(property(get = __cordl_internal_get___3__collection2, put = __cordl_internal_set___3__collection2))::System::Collections::Generic::IEnumerable_1<T2>* __3__collection2;
 
   /// @brief Field collection2Tombstone, offset 0x50, size 0x8
-  __declspec(property(get = __get_collection2Tombstone, put = __set_collection2Tombstone)) T2 collection2Tombstone;
+  __declspec(property(get = __cordl_internal_get_collection2Tombstone, put = __cordl_internal_set_collection2Tombstone)) T2 collection2Tombstone;
 
   /// @brief Field <>3__collection2Tombstone, offset 0x58, size 0x8
-  __declspec(property(get = __get___3__collection2Tombstone, put = __set___3__collection2Tombstone)) T2 __3__collection2Tombstone;
+  __declspec(property(get = __cordl_internal_get___3__collection2Tombstone, put = __cordl_internal_set___3__collection2Tombstone)) T2 __3__collection2Tombstone;
 
   /// @brief Field <enum1>5__2, offset 0x60, size 0x8
-  __declspec(property(get = __get__enum1_5__2, put = __set__enum1_5__2))::System::Collections::Generic::IEnumerator_1<T1>* _enum1_5__2;
+  __declspec(property(get = __cordl_internal_get__enum1_5__2, put = __cordl_internal_set__enum1_5__2))::System::Collections::Generic::IEnumerator_1<T1>* _enum1_5__2;
 
   /// @brief Field <enum2>5__3, offset 0x68, size 0x8
-  __declspec(property(get = __get__enum2_5__3, put = __set__enum2_5__3))::System::Collections::Generic::IEnumerator_1<T2>* _enum2_5__3;
+  __declspec(property(get = __cordl_internal_get__enum2_5__3, put = __cordl_internal_set__enum2_5__3))::System::Collections::Generic::IEnumerator_1<T2>* _enum2_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator__T1_T2___get_Current))::System::ValueTuple_2<T1, T2> System_Collections_Generic_IEnumerator__T1_T2___Current;
 
@@ -648,71 +648,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::ValueTuple_2<T1, T2>& __get___2__current();
+  constexpr ::System::ValueTuple_2<T1, T2>& __cordl_internal_get___2__current();
 
-  constexpr ::System::ValueTuple_2<T1, T2> const& __get___2__current() const;
+  constexpr ::System::ValueTuple_2<T1, T2> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::ValueTuple_2<T1, T2> value);
+  constexpr void __cordl_internal_set___2__current(::System::ValueTuple_2<T1, T2> value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& __get_collection1();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& __cordl_internal_get_collection1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const& __get_collection1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const& __cordl_internal_get_collection1() const;
 
-  constexpr void __set_collection1(::System::Collections::Generic::IEnumerable_1<T1>* value);
+  constexpr void __cordl_internal_set_collection1(::System::Collections::Generic::IEnumerable_1<T1>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& __get___3__collection1();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& __cordl_internal_get___3__collection1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const& __get___3__collection1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const& __cordl_internal_get___3__collection1() const;
 
-  constexpr void __set___3__collection1(::System::Collections::Generic::IEnumerable_1<T1>* value);
+  constexpr void __cordl_internal_set___3__collection1(::System::Collections::Generic::IEnumerable_1<T1>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& __get_collection2();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& __cordl_internal_get_collection2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const& __get_collection2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const& __cordl_internal_get_collection2() const;
 
-  constexpr void __set_collection2(::System::Collections::Generic::IEnumerable_1<T2>* value);
+  constexpr void __cordl_internal_set_collection2(::System::Collections::Generic::IEnumerable_1<T2>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& __get___3__collection2();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& __cordl_internal_get___3__collection2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const& __get___3__collection2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const& __cordl_internal_get___3__collection2() const;
 
-  constexpr void __set___3__collection2(::System::Collections::Generic::IEnumerable_1<T2>* value);
+  constexpr void __cordl_internal_set___3__collection2(::System::Collections::Generic::IEnumerable_1<T2>* value);
 
-  constexpr T2& __get_collection2Tombstone();
+  constexpr T2& __cordl_internal_get_collection2Tombstone();
 
-  constexpr T2 const& __get_collection2Tombstone() const;
+  constexpr T2 const& __cordl_internal_get_collection2Tombstone() const;
 
-  constexpr void __set_collection2Tombstone(T2 value);
+  constexpr void __cordl_internal_set_collection2Tombstone(T2 value);
 
-  constexpr T2& __get___3__collection2Tombstone();
+  constexpr T2& __cordl_internal_get___3__collection2Tombstone();
 
-  constexpr T2 const& __get___3__collection2Tombstone() const;
+  constexpr T2 const& __cordl_internal_get___3__collection2Tombstone() const;
 
-  constexpr void __set___3__collection2Tombstone(T2 value);
+  constexpr void __cordl_internal_set___3__collection2Tombstone(T2 value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T1>*& __get__enum1_5__2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<T1>*& __cordl_internal_get__enum1_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T1>*> const& __get__enum1_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T1>*> const& __cordl_internal_get__enum1_5__2() const;
 
-  constexpr void __set__enum1_5__2(::System::Collections::Generic::IEnumerator_1<T1>* value);
+  constexpr void __cordl_internal_set__enum1_5__2(::System::Collections::Generic::IEnumerator_1<T1>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T2>*& __get__enum2_5__3();
+  constexpr ::System::Collections::Generic::IEnumerator_1<T2>*& __cordl_internal_get__enum2_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T2>*> const& __get__enum2_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T2>*> const& __cordl_internal_get__enum2_5__3() const;
 
-  constexpr void __set__enum2_5__3(::System::Collections::Generic::IEnumerator_1<T2>* value);
+  constexpr void __cordl_internal_set__enum2_5__3(::System::Collections::Generic::IEnumerator_1<T2>* value);
 
   static inline ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>* New_ctor(int32_t __1__state);
 
@@ -801,7 +801,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15830))
 // CS Name: ::ShuffleExtensions*
 class CORDL_TYPE ShuffleExtensions : public ::System::Object {

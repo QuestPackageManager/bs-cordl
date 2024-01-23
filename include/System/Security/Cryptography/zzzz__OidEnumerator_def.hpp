@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::System::Security::Cryptography::OidEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8974))
 // CS Name: ::System.Security.Cryptography::OidEnumerator*
 class CORDL_TYPE OidEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _oids, offset 0x10, size 0x8
-  __declspec(property(get = __get__oids, put = __set__oids))::System::Security::Cryptography::OidCollection* _oids;
+  __declspec(property(get = __cordl_internal_get__oids, put = __cordl_internal_set__oids))::System::Security::Cryptography::OidCollection* _oids;
 
   /// @brief Field _current, offset 0x18, size 0x4
-  __declspec(property(get = __get__current, put = __set__current)) int32_t _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) int32_t _current;
 
   __declspec(property(get = get_Current))::System::Security::Cryptography::Oid* Current;
 
@@ -49,17 +49,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Security::Cryptography::OidCollection*& __get__oids();
+  constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get__oids();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __get__oids() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __cordl_internal_get__oids() const;
 
-  constexpr void __set__oids(::System::Security::Cryptography::OidCollection* value);
+  constexpr void __cordl_internal_set__oids(::System::Security::Cryptography::OidCollection* value);
 
-  constexpr int32_t& __get__current();
+  constexpr int32_t& __cordl_internal_get__current();
 
-  constexpr int32_t const& __get__current() const;
+  constexpr int32_t const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(int32_t value);
+  constexpr void __cordl_internal_set__current(int32_t value);
 
   static inline ::System::Security::Cryptography::OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection* oids);
 

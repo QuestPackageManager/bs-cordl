@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatAnimator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14563))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14563))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14567))
 // CS Name: ::MaterialPropertyBlockFloatAnimator*
 class CORDL_TYPE MaterialPropertyBlockFloatAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
   // Declarations
   /// @brief Field _value, offset 0x30, size 0x4
-  __declspec(property(get = __get__value, put = __set__value)) float_t _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) float_t _value;
 
-  constexpr float_t& __get__value();
+  constexpr float_t& __cordl_internal_get__value();
 
-  constexpr float_t const& __get__value() const;
+  constexpr float_t const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(float_t value);
+  constexpr void __cordl_internal_set__value(float_t value);
 
   /// @brief Method SetProperty, addr 0x2115070, size 0x30, virtual true, abstract: false, final false
   inline void SetProperty();

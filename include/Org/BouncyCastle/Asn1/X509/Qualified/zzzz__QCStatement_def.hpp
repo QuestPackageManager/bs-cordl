@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(331))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.Qualified::QCStatement*
 class CORDL_TYPE QCStatement : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field qcStatementId, offset 0x10, size 0x8
-  __declspec(property(get = __get_qcStatementId, put = __set_qcStatementId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId;
+  __declspec(property(get = __cordl_internal_get_qcStatementId, put = __cordl_internal_set_qcStatementId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId;
 
   /// @brief Field qcStatementInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_qcStatementInfo, put = __set_qcStatementInfo))::Org::BouncyCastle::Asn1::Asn1Encodable* qcStatementInfo;
+  __declspec(property(get = __cordl_internal_get_qcStatementInfo, put = __cordl_internal_set_qcStatementInfo))::Org::BouncyCastle::Asn1::Asn1Encodable* qcStatementInfo;
 
   __declspec(property(get = get_StatementId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* StatementId;
 
   __declspec(property(get = get_StatementInfo))::Org::BouncyCastle::Asn1::Asn1Encodable* StatementInfo;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_qcStatementId();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_qcStatementId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_qcStatementId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_qcStatementId() const;
 
-  constexpr void __set_qcStatementId(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_qcStatementId(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_qcStatementInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_qcStatementInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __get_qcStatementInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_qcStatementInfo() const;
 
-  constexpr void __set_qcStatementInfo(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  constexpr void __cordl_internal_set_qcStatementInfo(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   /// @brief Method GetInstance, addr 0x1081594, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement* GetInstance(::System::Object* obj);

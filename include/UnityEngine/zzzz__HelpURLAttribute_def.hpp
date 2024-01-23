@@ -15,38 +15,38 @@ MARK_REF_PTR_T(::UnityEngine::HelpURLAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10221))
 // CS Name: ::UnityEngine::HelpURLAttribute*
 class CORDL_TYPE HelpURLAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_Url, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Url, put = __set_m_Url))::StringW m_Url;
+  __declspec(property(get = __cordl_internal_get_m_Url, put = __cordl_internal_set_m_Url))::StringW m_Url;
 
   /// @brief Field m_Dispatcher, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_Dispatcher, put = __set_m_Dispatcher)) bool m_Dispatcher;
+  __declspec(property(get = __cordl_internal_get_m_Dispatcher, put = __cordl_internal_set_m_Dispatcher)) bool m_Dispatcher;
 
   /// @brief Field m_DispatchingFieldName, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_DispatchingFieldName, put = __set_m_DispatchingFieldName))::StringW m_DispatchingFieldName;
+  __declspec(property(get = __cordl_internal_get_m_DispatchingFieldName, put = __cordl_internal_set_m_DispatchingFieldName))::StringW m_DispatchingFieldName;
 
-  constexpr ::StringW& __get_m_Url();
+  constexpr ::StringW& __cordl_internal_get_m_Url();
 
-  constexpr ::StringW const& __get_m_Url() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Url() const;
 
-  constexpr void __set_m_Url(::StringW value);
+  constexpr void __cordl_internal_set_m_Url(::StringW value);
 
-  constexpr bool& __get_m_Dispatcher();
+  constexpr bool& __cordl_internal_get_m_Dispatcher();
 
-  constexpr bool const& __get_m_Dispatcher() const;
+  constexpr bool const& __cordl_internal_get_m_Dispatcher() const;
 
-  constexpr void __set_m_Dispatcher(bool value);
+  constexpr void __cordl_internal_set_m_Dispatcher(bool value);
 
-  constexpr ::StringW& __get_m_DispatchingFieldName();
+  constexpr ::StringW& __cordl_internal_get_m_DispatchingFieldName();
 
-  constexpr ::StringW const& __get_m_DispatchingFieldName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DispatchingFieldName() const;
 
-  constexpr void __set_m_DispatchingFieldName(::StringW value);
+  constexpr void __cordl_internal_set_m_DispatchingFieldName(::StringW value);
 
   static inline ::UnityEngine::HelpURLAttribute* New_ctor(::StringW url);
 

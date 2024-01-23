@@ -33,26 +33,26 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthCheckService);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12773))
 // CS Name: ::HealthCheckService*
 class CORDL_TYPE HealthCheckService : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _port, offset 0x10, size 0x4
-  __declspec(property(get = __get__port, put = __set__port)) int32_t _port;
+  __declspec(property(get = __cordl_internal_get__port, put = __cordl_internal_set__port)) int32_t _port;
 
   /// @brief Field _runThread, offset 0x18, size 0x8
-  __declspec(property(get = __get__runThread, put = __set__runThread))::System::Threading::Thread* _runThread;
+  __declspec(property(get = __cordl_internal_get__runThread, put = __cordl_internal_set__runThread))::System::Threading::Thread* _runThread;
 
   /// @brief Field _disposed, offset 0x20, size 0x1
-  __declspec(property(get = __get__disposed, put = __set__disposed)) bool _disposed;
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   /// @brief Field _manualResetEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get__manualResetEvent, put = __set__manualResetEvent))::System::Threading::ManualResetEvent* _manualResetEvent;
+  __declspec(property(get = __cordl_internal_get__manualResetEvent, put = __cordl_internal_set__manualResetEvent))::System::Threading::ManualResetEvent* _manualResetEvent;
 
   /// @brief Field _listener, offset 0x30, size 0x8
-  __declspec(property(get = __get__listener, put = __set__listener))::System::Net::HttpListener* _listener;
+  __declspec(property(get = __cordl_internal_get__listener, put = __cordl_internal_set__listener))::System::Net::HttpListener* _listener;
 
   /// @brief Convert operator to "::GlobalNamespace::IHealthCheckService"
   constexpr operator ::GlobalNamespace::IHealthCheckService*() noexcept;
@@ -72,35 +72,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get__port();
+  constexpr int32_t& __cordl_internal_get__port();
 
-  constexpr int32_t const& __get__port() const;
+  constexpr int32_t const& __cordl_internal_get__port() const;
 
-  constexpr void __set__port(int32_t value);
+  constexpr void __cordl_internal_set__port(int32_t value);
 
-  constexpr ::System::Threading::Thread*& __get__runThread();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__runThread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get__runThread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__runThread() const;
 
-  constexpr void __set__runThread(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set__runThread(::System::Threading::Thread* value);
 
-  constexpr bool& __get__disposed();
+  constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-  constexpr void __set__disposed(bool value);
+  constexpr void __cordl_internal_set__disposed(bool value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get__manualResetEvent();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get__manualResetEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get__manualResetEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get__manualResetEvent() const;
 
-  constexpr void __set__manualResetEvent(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set__manualResetEvent(::System::Threading::ManualResetEvent* value);
 
-  constexpr ::System::Net::HttpListener*& __get__listener();
+  constexpr ::System::Net::HttpListener*& __cordl_internal_get__listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __get__listener() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get__listener() const;
 
-  constexpr void __set__listener(::System::Net::HttpListener* value);
+  constexpr void __cordl_internal_set__listener(::System::Net::HttpListener* value);
 
   static inline ::GlobalNamespace::HealthCheckService* New_ctor(int32_t port);
 

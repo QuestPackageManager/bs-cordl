@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Boundary);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15127))
 // CS Name: ::Boundary::BoundaryType
 struct CORDL_TYPE __Boundary__BoundaryType {
@@ -77,7 +77,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__Boundary__BoundaryType, value__) =
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15128))
 // CS Name: ::Unity.XR.Oculus::Boundary*
 class CORDL_TYPE Boundary : public ::System::Object {

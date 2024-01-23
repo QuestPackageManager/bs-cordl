@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertifiedKeyPair*
 class CORDL_TYPE CertifiedKeyPair : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field certOrEncCert, offset 0x10, size 0x8
-  __declspec(property(get = __get_certOrEncCert, put = __set_certOrEncCert))::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert;
+  __declspec(property(get = __cordl_internal_get_certOrEncCert, put = __cordl_internal_set_certOrEncCert))::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert;
 
   /// @brief Field privateKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_privateKey, put = __set_privateKey))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* privateKey;
 
   /// @brief Field publicationInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_publicationInfo, put = __set_publicationInfo))::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* publicationInfo;
+  __declspec(property(get = __cordl_internal_get_publicationInfo, put = __cordl_internal_set_publicationInfo))::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* publicationInfo;
 
   __declspec(property(get = get_CertOrEncCert))::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* CertOrEncCert;
 
@@ -53,23 +53,23 @@ public:
 
   __declspec(property(get = get_PublicationInfo))::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* PublicationInfo;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*& __get_certOrEncCert();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*& __cordl_internal_get_certOrEncCert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*> const& __get_certOrEncCert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*> const& __cordl_internal_get_certOrEncCert() const;
 
-  constexpr void __set_certOrEncCert(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* value);
+  constexpr void __cordl_internal_set_certOrEncCert(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& __get_privateKey();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& __cordl_internal_get_privateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*> const& __get_privateKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*> const& __cordl_internal_get_privateKey() const;
 
-  constexpr void __set_privateKey(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value);
+  constexpr void __cordl_internal_set_privateKey(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*& __get_publicationInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*& __cordl_internal_get_publicationInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*> const& __get_publicationInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*> const& __cordl_internal_get_publicationInfo() const;
 
-  constexpr void __set_publicationInfo(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* value);
+  constexpr void __cordl_internal_set_publicationInfo(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

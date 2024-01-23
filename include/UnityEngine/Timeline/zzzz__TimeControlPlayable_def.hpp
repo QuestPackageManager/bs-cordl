@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimeControlPlayable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13909))
 // CS Name: ::UnityEngine.Timeline::TimeControlPlayable*
 class CORDL_TYPE TimeControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   /// @brief Field m_timeControl, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_timeControl, put = __set_m_timeControl))::UnityEngine::Timeline::ITimeControl* m_timeControl;
+  __declspec(property(get = __cordl_internal_get_m_timeControl, put = __cordl_internal_set_m_timeControl))::UnityEngine::Timeline::ITimeControl* m_timeControl;
 
   /// @brief Field m_started, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_started, put = __set_m_started)) bool m_started;
+  __declspec(property(get = __cordl_internal_get_m_started, put = __cordl_internal_set_m_started)) bool m_started;
 
-  constexpr ::UnityEngine::Timeline::ITimeControl*& __get_m_timeControl();
+  constexpr ::UnityEngine::Timeline::ITimeControl*& __cordl_internal_get_m_timeControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ITimeControl*> const& __get_m_timeControl() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ITimeControl*> const& __cordl_internal_get_m_timeControl() const;
 
-  constexpr void __set_m_timeControl(::UnityEngine::Timeline::ITimeControl* value);
+  constexpr void __cordl_internal_set_m_timeControl(::UnityEngine::Timeline::ITimeControl* value);
 
-  constexpr bool& __get_m_started();
+  constexpr bool& __cordl_internal_get_m_started();
 
-  constexpr bool const& __get_m_started() const;
+  constexpr bool const& __cordl_internal_get_m_started() const;
 
-  constexpr void __set_m_started(bool value);
+  constexpr void __cordl_internal_set_m_started(bool value);
 
   /// @brief Method Create, addr 0x2c6d334, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,

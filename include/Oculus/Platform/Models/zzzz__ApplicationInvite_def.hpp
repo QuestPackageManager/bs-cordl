@@ -22,83 +22,83 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInvite);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13414))
 // CS Name: ::Oculus.Platform.Models::ApplicationInvite*
 class CORDL_TYPE ApplicationInvite : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DestinationOptional, offset 0x10, size 0x8
-  __declspec(property(get = __get_DestinationOptional, put = __set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
+  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
 
   /// @brief Field Destination, offset 0x18, size 0x8
-  __declspec(property(get = __get_Destination, put = __set_Destination))::Oculus::Platform::Models::Destination* Destination;
+  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination))::Oculus::Platform::Models::Destination* Destination;
 
   /// @brief Field ID, offset 0x20, size 0x8
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) uint64_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
   /// @brief Field IsActive, offset 0x28, size 0x1
-  __declspec(property(get = __get_IsActive, put = __set_IsActive)) bool IsActive;
+  __declspec(property(get = __cordl_internal_get_IsActive, put = __cordl_internal_set_IsActive)) bool IsActive;
 
   /// @brief Field LobbySessionId, offset 0x30, size 0x8
-  __declspec(property(get = __get_LobbySessionId, put = __set_LobbySessionId))::StringW LobbySessionId;
+  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId))::StringW LobbySessionId;
 
   /// @brief Field MatchSessionId, offset 0x38, size 0x8
-  __declspec(property(get = __get_MatchSessionId, put = __set_MatchSessionId))::StringW MatchSessionId;
+  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId))::StringW MatchSessionId;
 
   /// @brief Field RecipientOptional, offset 0x40, size 0x8
-  __declspec(property(get = __get_RecipientOptional, put = __set_RecipientOptional))::Oculus::Platform::Models::User* RecipientOptional;
+  __declspec(property(get = __cordl_internal_get_RecipientOptional, put = __cordl_internal_set_RecipientOptional))::Oculus::Platform::Models::User* RecipientOptional;
 
   /// @brief Field Recipient, offset 0x48, size 0x8
-  __declspec(property(get = __get_Recipient, put = __set_Recipient))::Oculus::Platform::Models::User* Recipient;
+  __declspec(property(get = __cordl_internal_get_Recipient, put = __cordl_internal_set_Recipient))::Oculus::Platform::Models::User* Recipient;
 
-  constexpr ::Oculus::Platform::Models::Destination*& __get_DestinationOptional();
+  constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_DestinationOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __get_DestinationOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_DestinationOptional() const;
 
-  constexpr void __set_DestinationOptional(::Oculus::Platform::Models::Destination* value);
+  constexpr void __cordl_internal_set_DestinationOptional(::Oculus::Platform::Models::Destination* value);
 
-  constexpr ::Oculus::Platform::Models::Destination*& __get_Destination();
+  constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_Destination();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __get_Destination() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_Destination() const;
 
-  constexpr void __set_Destination(::Oculus::Platform::Models::Destination* value);
+  constexpr void __cordl_internal_set_Destination(::Oculus::Platform::Models::Destination* value);
 
-  constexpr uint64_t& __get__cordl_ID();
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
 
-  constexpr uint64_t const& __get__cordl_ID() const;
+  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(uint64_t value);
+  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  constexpr bool& __get_IsActive();
+  constexpr bool& __cordl_internal_get_IsActive();
 
-  constexpr bool const& __get_IsActive() const;
+  constexpr bool const& __cordl_internal_get_IsActive() const;
 
-  constexpr void __set_IsActive(bool value);
+  constexpr void __cordl_internal_set_IsActive(bool value);
 
-  constexpr ::StringW& __get_LobbySessionId();
+  constexpr ::StringW& __cordl_internal_get_LobbySessionId();
 
-  constexpr ::StringW const& __get_LobbySessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_LobbySessionId() const;
 
-  constexpr void __set_LobbySessionId(::StringW value);
+  constexpr void __cordl_internal_set_LobbySessionId(::StringW value);
 
-  constexpr ::StringW& __get_MatchSessionId();
+  constexpr ::StringW& __cordl_internal_get_MatchSessionId();
 
-  constexpr ::StringW const& __get_MatchSessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_MatchSessionId() const;
 
-  constexpr void __set_MatchSessionId(::StringW value);
+  constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
-  constexpr ::Oculus::Platform::Models::User*& __get_RecipientOptional();
+  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_RecipientOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __get_RecipientOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_RecipientOptional() const;
 
-  constexpr void __set_RecipientOptional(::Oculus::Platform::Models::User* value);
+  constexpr void __cordl_internal_set_RecipientOptional(::Oculus::Platform::Models::User* value);
 
-  constexpr ::Oculus::Platform::Models::User*& __get_Recipient();
+  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_Recipient();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __get_Recipient() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_Recipient() const;
 
-  constexpr void __set_Recipient(::Oculus::Platform::Models::User* value);
+  constexpr void __cordl_internal_set_Recipient(::Oculus::Platform::Models::User* value);
 
   static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(void* o);
 

@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Polyglot::CsvReader);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15546))
 // CS Name: ::CsvReader::ParsingMode
 struct CORDL_TYPE __CsvReader__ParsingMode {
@@ -81,7 +81,7 @@ static_assert(offsetof(::Polyglot::__CsvReader__ParsingMode, value__) == 0x0, "O
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15547))
 // CS Name: ::Polyglot::CsvReader*
 class CORDL_TYPE CsvReader : public ::System::Object {

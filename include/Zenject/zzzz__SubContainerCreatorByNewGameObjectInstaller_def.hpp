@@ -47,29 +47,29 @@ MARK_REF_PTR_T(::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__Di
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11256))
 // CS Name: ::SubContainerCreatorByNewGameObjectInstaller::<>c__DisplayClass3_0*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::SubContainerCreatorByNewGameObjectInstaller* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::SubContainerCreatorByNewGameObjectInstaller* __4__this;
 
   /// @brief Field args, offset 0x18, size 0x8
-  __declspec(property(get = __get_args, put = __set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
-  constexpr ::Zenject::SubContainerCreatorByNewGameObjectInstaller*& __get___4__this();
+  constexpr ::Zenject::SubContainerCreatorByNewGameObjectInstaller*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewGameObjectInstaller*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewGameObjectInstaller*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::SubContainerCreatorByNewGameObjectInstaller* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewGameObjectInstaller* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __get_args();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_args();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __get_args() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_args() const;
 
-  constexpr void __set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
   static inline ::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0* New_ctor();
 
@@ -119,7 +119,7 @@ static_assert(offsetof(::Zenject::__SubContainerCreatorByNewGameObjectInstaller_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11257))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectInstaller*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectInstaller : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
@@ -128,22 +128,22 @@ public:
   using __c__DisplayClass3_0 = ::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0;
 
   /// @brief Field _installerType, offset 0x20, size 0x8
-  __declspec(property(get = __get__installerType, put = __set__installerType))::System::Type* _installerType;
+  __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType))::System::Type* _installerType;
 
   /// @brief Field _extraArgs, offset 0x28, size 0x8
-  __declspec(property(get = __get__extraArgs, put = __set__extraArgs))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArgs;
+  __declspec(property(get = __cordl_internal_get__extraArgs, put = __cordl_internal_set__extraArgs))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArgs;
 
-  constexpr ::System::Type*& __get__installerType();
+  constexpr ::System::Type*& __cordl_internal_get__installerType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__installerType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__installerType() const;
 
-  constexpr void __set__installerType(::System::Type* value);
+  constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __get__extraArgs();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__extraArgs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __get__extraArgs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__extraArgs() const;
 
-  constexpr void __set__extraArgs(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  constexpr void __cordl_internal_set__extraArgs(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                                                                                  ::System::Type* installerType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);

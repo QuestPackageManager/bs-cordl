@@ -41,46 +41,47 @@ MARK_REF_PTR_T(::GlobalNamespace::GamePause);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5049))
 // CS Name: ::GamePause*
 class CORDL_TYPE GamePause : public ::System::Object {
 public:
   // Declarations
   /// @brief Field didPauseEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_didPauseEvent, put = __set_didPauseEvent))::System::Action* didPauseEvent;
+  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent))::System::Action* didPauseEvent;
 
   /// @brief Field willResumeEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_willResumeEvent, put = __set_willResumeEvent))::System::Action* willResumeEvent;
+  __declspec(property(get = __cordl_internal_get_willResumeEvent, put = __cordl_internal_set_willResumeEvent))::System::Action* willResumeEvent;
 
   /// @brief Field didResumeEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didResumeEvent, put = __set_didResumeEvent))::System::Action* didResumeEvent;
+  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent))::System::Action* didResumeEvent;
 
   /// @brief Field _gameEnergyCounter, offset 0x28, size 0x8
-  __declspec(property(get = __get__gameEnergyCounter, put = __set__gameEnergyCounter))::GlobalNamespace::GameEnergyCounter* _gameEnergyCounter;
+  __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter))::UnityW<::GlobalNamespace::GameEnergyCounter> _gameEnergyCounter;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset 0x30, size 0x8
-  __declspec(property(get = __get__playerHeadAndObstacleInteraction,
-                      put = __set__playerHeadAndObstacleInteraction))::GlobalNamespace::PlayerHeadAndObstacleInteraction* _playerHeadAndObstacleInteraction;
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
 
   /// @brief Field _scoreController, offset 0x38, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _beatmapObjectExecutionRatingsRecorder, offset 0x40, size 0x8
-  __declspec(property(get = __get__beatmapObjectExecutionRatingsRecorder,
-                      put = __set__beatmapObjectExecutionRatingsRecorder))::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* _beatmapObjectExecutionRatingsRecorder;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectExecutionRatingsRecorder,
+                      put = __cordl_internal_set__beatmapObjectExecutionRatingsRecorder))::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> _beatmapObjectExecutionRatingsRecorder;
 
   /// @brief Field _songController, offset 0x48, size 0x8
-  __declspec(property(get = __get__songController, put = __set__songController))::GlobalNamespace::SongController* _songController;
+  __declspec(property(get = __cordl_internal_get__songController, put = __cordl_internal_set__songController))::UnityW<::GlobalNamespace::SongController> _songController;
 
   /// @brief Field _saberManager, offset 0x50, size 0x8
-  __declspec(property(get = __get__saberManager, put = __set__saberManager))::GlobalNamespace::SaberManager* _saberManager;
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
   /// @brief Field _audioListenerController, offset 0x58, size 0x8
-  __declspec(property(get = __get__audioListenerController, put = __set__audioListenerController))::GlobalNamespace::AudioListenerController* _audioListenerController;
+  __declspec(property(get = __cordl_internal_get__audioListenerController,
+                      put = __cordl_internal_set__audioListenerController))::UnityW<::GlobalNamespace::AudioListenerController> _audioListenerController;
 
   /// @brief Field _pause, offset 0x60, size 0x1
-  __declspec(property(get = __get__pause, put = __set__pause)) bool _pause;
+  __declspec(property(get = __cordl_internal_get__pause, put = __cordl_internal_set__pause)) bool _pause;
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
@@ -90,71 +91,71 @@ public:
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  constexpr ::System::Action*& __get_didPauseEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPauseEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPauseEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPauseEvent() const;
 
-  constexpr void __set_didPauseEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPauseEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_willResumeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_willResumeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_willResumeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_willResumeEvent() const;
 
-  constexpr void __set_willResumeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didResumeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didResumeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didResumeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didResumeEvent() const;
 
-  constexpr void __set_didResumeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didResumeEvent(::System::Action* value);
 
-  constexpr ::GlobalNamespace::GameEnergyCounter*& __get__gameEnergyCounter();
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& __cordl_internal_get__gameEnergyCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameEnergyCounter*> const& __get__gameEnergyCounter() const;
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__gameEnergyCounter() const;
 
-  constexpr void __set__gameEnergyCounter(::GlobalNamespace::GameEnergyCounter* value);
+  constexpr void __cordl_internal_set__gameEnergyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
-  constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& __get__playerHeadAndObstacleInteraction();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeadAndObstacleInteraction*> const& __get__playerHeadAndObstacleInteraction() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
 
-  constexpr void __set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*& __get__beatmapObjectExecutionRatingsRecorder();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder>& __cordl_internal_get__beatmapObjectExecutionRatingsRecorder();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*> const& __get__beatmapObjectExecutionRatingsRecorder() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> const& __cordl_internal_get__beatmapObjectExecutionRatingsRecorder() const;
 
-  constexpr void __set__beatmapObjectExecutionRatingsRecorder(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* value);
+  constexpr void __cordl_internal_set__beatmapObjectExecutionRatingsRecorder(::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> value);
 
-  constexpr ::GlobalNamespace::SongController*& __get__songController();
+  constexpr ::UnityW<::GlobalNamespace::SongController>& __cordl_internal_get__songController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongController*> const& __get__songController() const;
+  constexpr ::UnityW<::GlobalNamespace::SongController> const& __cordl_internal_get__songController() const;
 
-  constexpr void __set__songController(::GlobalNamespace::SongController* value);
+  constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  constexpr ::GlobalNamespace::SaberManager*& __get__saberManager();
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberManager*> const& __get__saberManager() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
-  constexpr void __set__saberManager(::GlobalNamespace::SaberManager* value);
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  constexpr ::GlobalNamespace::AudioListenerController*& __get__audioListenerController();
+  constexpr ::UnityW<::GlobalNamespace::AudioListenerController>& __cordl_internal_get__audioListenerController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioListenerController*> const& __get__audioListenerController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioListenerController> const& __cordl_internal_get__audioListenerController() const;
 
-  constexpr void __set__audioListenerController(::GlobalNamespace::AudioListenerController* value);
+  constexpr void __cordl_internal_set__audioListenerController(::UnityW<::GlobalNamespace::AudioListenerController> value);
 
-  constexpr bool& __get__pause();
+  constexpr bool& __cordl_internal_get__pause();
 
-  constexpr bool const& __get__pause() const;
+  constexpr bool const& __cordl_internal_get__pause() const;
 
-  constexpr void __set__pause(bool value);
+  constexpr void __cordl_internal_set__pause(bool value);
 
   /// @brief Method get_isPaused, addr 0x23c376c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
@@ -215,25 +216,25 @@ public:
   ::System::Action* ___didResumeEvent;
 
   /// @brief Field _gameEnergyCounter, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GameEnergyCounter* ____gameEnergyCounter;
+  ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeadAndObstacleInteraction* ____playerHeadAndObstacleInteraction;
+  ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
   /// @brief Field _scoreController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
   /// @brief Field _beatmapObjectExecutionRatingsRecorder, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* ____beatmapObjectExecutionRatingsRecorder;
+  ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> ____beatmapObjectExecutionRatingsRecorder;
 
   /// @brief Field _songController, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::SongController* ____songController;
+  ::UnityW<::GlobalNamespace::SongController> ____songController;
 
   /// @brief Field _saberManager, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::SaberManager* ____saberManager;
+  ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _audioListenerController, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::AudioListenerController* ____audioListenerController;
+  ::UnityW<::GlobalNamespace::AudioListenerController> ____audioListenerController;
 
   /// @brief Field _pause, offset: 0x60, size: 0x1, def value: None
   bool ____pause;

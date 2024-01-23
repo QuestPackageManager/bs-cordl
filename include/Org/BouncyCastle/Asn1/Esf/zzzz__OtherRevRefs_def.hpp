@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OtherRevRefs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(151))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OtherRevRefs*
 class CORDL_TYPE OtherRevRefs : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field otherRevRefType, offset 0x10, size 0x8
-  __declspec(property(get = __get_otherRevRefType, put = __set_otherRevRefType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType;
+  __declspec(property(get = __cordl_internal_get_otherRevRefType, put = __cordl_internal_set_otherRevRefType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType;
 
   /// @brief Field otherRevRefs, offset 0x18, size 0x8
-  __declspec(property(get = __get_otherRevRefs, put = __set_otherRevRefs))::Org::BouncyCastle::Asn1::Asn1Object* otherRevRefs;
+  __declspec(property(get = __cordl_internal_get_otherRevRefs, put = __cordl_internal_set_otherRevRefs))::Org::BouncyCastle::Asn1::Asn1Object* otherRevRefs;
 
   __declspec(property(get = get_OtherRevRefType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* OtherRevRefType;
 
   __declspec(property(get = get_OtherRevRefsObject))::Org::BouncyCastle::Asn1::Asn1Object* OtherRevRefsObject;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_otherRevRefType();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_otherRevRefType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_otherRevRefType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_otherRevRefType() const;
 
-  constexpr void __set_otherRevRefType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_otherRevRefType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get_otherRevRefs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_otherRevRefs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __get_otherRevRefs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_otherRevRefs() const;
 
-  constexpr void __set_otherRevRefs(::Org::BouncyCastle::Asn1::Asn1Object* value);
+  constexpr void __cordl_internal_set_otherRevRefs(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
   /// @brief Method GetInstance, addr 0xe92aec, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* GetInstance(::System::Object* obj);

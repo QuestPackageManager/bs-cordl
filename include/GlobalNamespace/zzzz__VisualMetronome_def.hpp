@@ -28,59 +28,59 @@ MARK_REF_PTR_T(::GlobalNamespace::VisualMetronome);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5407))
 // CS Name: ::VisualMetronome*
 class CORDL_TYPE VisualMetronome : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _leftPadding, offset 0x20, size 0x4
-  __declspec(property(get = __get__leftPadding, put = __set__leftPadding)) float_t _leftPadding;
+  __declspec(property(get = __cordl_internal_get__leftPadding, put = __cordl_internal_set__leftPadding)) float_t _leftPadding;
 
   /// @brief Field _rightPadding, offset 0x24, size 0x4
-  __declspec(property(get = __get__rightPadding, put = __set__rightPadding)) float_t _rightPadding;
+  __declspec(property(get = __cordl_internal_get__rightPadding, put = __cordl_internal_set__rightPadding)) float_t _rightPadding;
 
   /// @brief Field _ticker, offset 0x28, size 0x8
-  __declspec(property(get = __get__ticker, put = __set__ticker))::UnityEngine::RectTransform* _ticker;
+  __declspec(property(get = __cordl_internal_get__ticker, put = __cordl_internal_set__ticker))::UnityW<::UnityEngine::RectTransform> _ticker;
 
   /// @brief Field _movingTicker, offset 0x30, size 0x8
-  __declspec(property(get = __get__movingTicker, put = __set__movingTicker))::UnityEngine::RectTransform* _movingTicker;
+  __declspec(property(get = __cordl_internal_get__movingTicker, put = __cordl_internal_set__movingTicker))::UnityW<::UnityEngine::RectTransform> _movingTicker;
 
   /// @brief Field _tickerImage, offset 0x38, size 0x8
-  __declspec(property(get = __get__tickerImage, put = __set__tickerImage))::UnityEngine::UI::Image* _tickerImage;
+  __declspec(property(get = __cordl_internal_get__tickerImage, put = __cordl_internal_set__tickerImage))::UnityW<::UnityEngine::UI::Image> _tickerImage;
 
   /// @brief Field _movingTickerImage, offset 0x40, size 0x8
-  __declspec(property(get = __get__movingTickerImage, put = __set__movingTickerImage))::UnityEngine::UI::Image* _movingTickerImage;
+  __declspec(property(get = __cordl_internal_get__movingTickerImage, put = __cordl_internal_set__movingTickerImage))::UnityW<::UnityEngine::UI::Image> _movingTickerImage;
 
   /// @brief Field _metronomeInterval, offset 0x48, size 0x4
-  __declspec(property(get = __get__metronomeInterval, put = __set__metronomeInterval)) float_t _metronomeInterval;
+  __declspec(property(get = __cordl_internal_get__metronomeInterval, put = __cordl_internal_set__metronomeInterval)) float_t _metronomeInterval;
 
   /// @brief Field _normalTickerSize, offset 0x4c, size 0x8
-  __declspec(property(get = __get__normalTickerSize, put = __set__normalTickerSize))::UnityEngine::Vector2 _normalTickerSize;
+  __declspec(property(get = __cordl_internal_get__normalTickerSize, put = __cordl_internal_set__normalTickerSize))::UnityEngine::Vector2 _normalTickerSize;
 
   /// @brief Field _tickTickerSize0, offset 0x54, size 0x8
-  __declspec(property(get = __get__tickTickerSize0, put = __set__tickTickerSize0))::UnityEngine::Vector2 _tickTickerSize0;
+  __declspec(property(get = __cordl_internal_get__tickTickerSize0, put = __cordl_internal_set__tickTickerSize0))::UnityEngine::Vector2 _tickTickerSize0;
 
   /// @brief Field _tickTickerSize1, offset 0x5c, size 0x8
-  __declspec(property(get = __get__tickTickerSize1, put = __set__tickTickerSize1))::UnityEngine::Vector2 _tickTickerSize1;
+  __declspec(property(get = __cordl_internal_get__tickTickerSize1, put = __cordl_internal_set__tickTickerSize1))::UnityEngine::Vector2 _tickTickerSize1;
 
   /// @brief Field _smooth, offset 0x64, size 0x4
-  __declspec(property(get = __get__smooth, put = __set__smooth)) float_t _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _prevAudioTime, offset 0x68, size 0x4
-  __declspec(property(get = __get__prevAudioTime, put = __set__prevAudioTime)) float_t _prevAudioTime;
+  __declspec(property(get = __cordl_internal_get__prevAudioTime, put = __cordl_internal_set__prevAudioTime)) float_t _prevAudioTime;
 
   /// @brief Field _zeroOffset, offset 0x6c, size 0x4
-  __declspec(property(get = __get__zeroOffset, put = __set__zeroOffset)) float_t _zeroOffset;
+  __declspec(property(get = __cordl_internal_get__zeroOffset, put = __cordl_internal_set__zeroOffset)) float_t _zeroOffset;
 
   /// @brief Field _direction, offset 0x70, size 0x4
-  __declspec(property(get = __get__direction, put = __set__direction)) float_t _direction;
+  __declspec(property(get = __cordl_internal_get__direction, put = __cordl_internal_set__direction)) float_t _direction;
 
   /// @brief Field _dontTickThisFrame, offset 0x74, size 0x1
-  __declspec(property(get = __get__dontTickThisFrame, put = __set__dontTickThisFrame)) bool _dontTickThisFrame;
+  __declspec(property(get = __cordl_internal_get__dontTickThisFrame, put = __cordl_internal_set__dontTickThisFrame)) bool _dontTickThisFrame;
 
   __declspec(property(put = set_tickerColor))::UnityEngine::Color tickerColor;
 
@@ -88,101 +88,101 @@ public:
 
   __declspec(property(get = get_zeroOffset, put = set_zeroOffset)) float_t zeroOffset;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get__leftPadding();
+  constexpr float_t& __cordl_internal_get__leftPadding();
 
-  constexpr float_t const& __get__leftPadding() const;
+  constexpr float_t const& __cordl_internal_get__leftPadding() const;
 
-  constexpr void __set__leftPadding(float_t value);
+  constexpr void __cordl_internal_set__leftPadding(float_t value);
 
-  constexpr float_t& __get__rightPadding();
+  constexpr float_t& __cordl_internal_get__rightPadding();
 
-  constexpr float_t const& __get__rightPadding() const;
+  constexpr float_t const& __cordl_internal_get__rightPadding() const;
 
-  constexpr void __set__rightPadding(float_t value);
+  constexpr void __cordl_internal_set__rightPadding(float_t value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__ticker();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__ticker();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__ticker() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__ticker() const;
 
-  constexpr void __set__ticker(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__ticker(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__movingTicker();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__movingTicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__movingTicker() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__movingTicker() const;
 
-  constexpr void __set__movingTicker(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__movingTicker(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__tickerImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__tickerImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__tickerImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__tickerImage() const;
 
-  constexpr void __set__tickerImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__tickerImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__movingTickerImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__movingTickerImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__movingTickerImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__movingTickerImage() const;
 
-  constexpr void __set__movingTickerImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__movingTickerImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr float_t& __get__metronomeInterval();
+  constexpr float_t& __cordl_internal_get__metronomeInterval();
 
-  constexpr float_t const& __get__metronomeInterval() const;
+  constexpr float_t const& __cordl_internal_get__metronomeInterval() const;
 
-  constexpr void __set__metronomeInterval(float_t value);
+  constexpr void __cordl_internal_set__metronomeInterval(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get__normalTickerSize();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__normalTickerSize();
 
-  constexpr ::UnityEngine::Vector2 const& __get__normalTickerSize() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__normalTickerSize() const;
 
-  constexpr void __set__normalTickerSize(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__normalTickerSize(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__tickTickerSize0();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__tickTickerSize0();
 
-  constexpr ::UnityEngine::Vector2 const& __get__tickTickerSize0() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__tickTickerSize0() const;
 
-  constexpr void __set__tickTickerSize0(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__tickTickerSize0(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__tickTickerSize1();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__tickTickerSize1();
 
-  constexpr ::UnityEngine::Vector2 const& __get__tickTickerSize1() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__tickTickerSize1() const;
 
-  constexpr void __set__tickTickerSize1(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__tickTickerSize1(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get__smooth();
+  constexpr float_t& __cordl_internal_get__smooth();
 
-  constexpr float_t const& __get__smooth() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(float_t value);
+  constexpr void __cordl_internal_set__smooth(float_t value);
 
-  constexpr float_t& __get__prevAudioTime();
+  constexpr float_t& __cordl_internal_get__prevAudioTime();
 
-  constexpr float_t const& __get__prevAudioTime() const;
+  constexpr float_t const& __cordl_internal_get__prevAudioTime() const;
 
-  constexpr void __set__prevAudioTime(float_t value);
+  constexpr void __cordl_internal_set__prevAudioTime(float_t value);
 
-  constexpr float_t& __get__zeroOffset();
+  constexpr float_t& __cordl_internal_get__zeroOffset();
 
-  constexpr float_t const& __get__zeroOffset() const;
+  constexpr float_t const& __cordl_internal_get__zeroOffset() const;
 
-  constexpr void __set__zeroOffset(float_t value);
+  constexpr void __cordl_internal_set__zeroOffset(float_t value);
 
-  constexpr float_t& __get__direction();
+  constexpr float_t& __cordl_internal_get__direction();
 
-  constexpr float_t const& __get__direction() const;
+  constexpr float_t const& __cordl_internal_get__direction() const;
 
-  constexpr void __set__direction(float_t value);
+  constexpr void __cordl_internal_set__direction(float_t value);
 
-  constexpr bool& __get__dontTickThisFrame();
+  constexpr bool& __cordl_internal_get__dontTickThisFrame();
 
-  constexpr bool const& __get__dontTickThisFrame() const;
+  constexpr bool const& __cordl_internal_get__dontTickThisFrame() const;
 
-  constexpr void __set__dontTickThisFrame(bool value);
+  constexpr void __cordl_internal_set__dontTickThisFrame(bool value);
 
   /// @brief Method set_tickerColor, addr 0x2274738, size 0x24, virtual false, abstract: false, final false
   inline void set_tickerColor(::UnityEngine::Color value);
@@ -231,7 +231,7 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _leftPadding, offset: 0x20, size: 0x4, def value: None
   float_t ____leftPadding;
@@ -240,16 +240,16 @@ public:
   float_t ____rightPadding;
 
   /// @brief Field _ticker, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____ticker;
+  ::UnityW<::UnityEngine::RectTransform> ____ticker;
 
   /// @brief Field _movingTicker, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____movingTicker;
+  ::UnityW<::UnityEngine::RectTransform> ____movingTicker;
 
   /// @brief Field _tickerImage, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____tickerImage;
+  ::UnityW<::UnityEngine::UI::Image> ____tickerImage;
 
   /// @brief Field _movingTickerImage, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____movingTickerImage;
+  ::UnityW<::UnityEngine::UI::Image> ____movingTickerImage;
 
   /// @brief Field _metronomeInterval, offset: 0x48, size: 0x4, def value: None
   float_t ____metronomeInterval;

@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::TMPro::TMP_FontAssetUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12370))
 // CS Name: ::TMPro::TMP_FontAssetUtilities*
 class CORDL_TYPE TMP_FontAssetUtilities : public ::System::Object {
@@ -80,8 +80,8 @@ public:
 
   /// @brief Method GetCharacterFromFontAssets, addr 0x2c119c4, size 0x258, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAssets(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset,
-                                                                   ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fontAssets, bool includeFallbacks, ::TMPro::FontStyles fontStyle,
-                                                                   ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
+                                                                   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets, bool includeFallbacks,
+                                                                   ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 
   /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x2c11c1c, size 0x30c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, bool includeFallbacks);

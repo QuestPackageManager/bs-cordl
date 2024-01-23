@@ -36,20 +36,20 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14671))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14671))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14669))
 // CS Name: ::HeaderInfo::HeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__HeaderTypeInfo_2 : public ::System::Net::Http::Headers::HeaderInfo {
 public:
   // Declarations
   /// @brief Field parser, offset 0x28, size 0x8
-  __declspec(property(get = __get_parser, put = __set_parser))::System::Net::Http::Headers::TryParseDelegate_1<T>* parser;
+  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser))::System::Net::Http::Headers::TryParseDelegate_1<T>* parser;
 
-  constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>*& __get_parser();
+  constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>*& __cordl_internal_get_parser();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::TryParseDelegate_1<T>*> const& __get_parser() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::TryParseDelegate_1<T>*> const& __cordl_internal_get_parser() const;
 
-  constexpr void __set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value);
+  constexpr void __cordl_internal_set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value);
 
   static inline ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>* New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
                                                                                              ::System::Net::Http::Headers::HttpHeaderKind headerKind);

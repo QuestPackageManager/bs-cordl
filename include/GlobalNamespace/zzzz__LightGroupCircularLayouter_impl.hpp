@@ -19,90 +19,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x23a9830;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupCircularLayouter*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__get__radius() {
+constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__radius() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius;
 }
-constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__get__radius() const {
+constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__radius() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius;
 }
-constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__radius(float_t value) {
+constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__radius(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radius = value;
 }
-constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__get__angle() {
+constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__angle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____angle;
 }
-constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__get__angle() const {
+constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__angle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____angle;
 }
-constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__angle(float_t value) {
+constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__angle(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____angle = value;
 }
-constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__get__startingAngle() {
+constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__startingAngle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startingAngle;
 }
-constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__get__startingAngle() const {
+constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__startingAngle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startingAngle;
 }
-constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__startingAngle(float_t value) {
+constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__startingAngle(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startingAngle = value;
 }
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection& GlobalNamespace::LightGroupCircularLayouter::__get__rotationDirection() {
+constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__rotationDirection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection const& GlobalNamespace::LightGroupCircularLayouter::__get__rotationDirection() const {
+constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__rotationDirection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
-constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__rotationDirection(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection value) {
+constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__rotationDirection(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationDirection = value;
 }
-constexpr bool& GlobalNamespace::LightGroupCircularLayouter::__get__staticRotation() {
+constexpr bool& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__staticRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____staticRotation;
 }
-constexpr bool const& GlobalNamespace::LightGroupCircularLayouter::__get__staticRotation() const {
+constexpr bool const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__staticRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____staticRotation;
 }
-constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__staticRotation(bool value) {
+constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__staticRotation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____staticRotation = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::LightGroupCircularLayouter::__get__additionalAngle() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__additionalAngle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalAngle;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightGroupCircularLayouter::__get__additionalAngle() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__additionalAngle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalAngle;
 }
-constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__additionalAngle(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__additionalAngle(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____additionalAngle = value;
 }
 inline ::GlobalNamespace::LightGroupCircularLayouter* GlobalNamespace::LightGroupCircularLayouter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LightGroupCircularLayouter*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightGroupCircularLayouter*>());
 }
 inline void GlobalNamespace::LightGroupCircularLayouter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupCircularLayouter*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

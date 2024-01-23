@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::ParameterUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1753))
 // CS Name: ::Org.BouncyCastle.Security::ParameterUtilities*
 class CORDL_TYPE ParameterUtilities : public ::System::Object {

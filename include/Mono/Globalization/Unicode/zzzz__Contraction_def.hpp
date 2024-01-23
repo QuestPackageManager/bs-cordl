@@ -17,47 +17,47 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::Contraction);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2260))
 // CS Name: ::Mono.Globalization.Unicode::Contraction*
 class CORDL_TYPE Contraction : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Index, offset 0x10, size 0x4
-  __declspec(property(get = __get_Index, put = __set_Index)) int32_t Index;
+  __declspec(property(get = __cordl_internal_get_Index, put = __cordl_internal_set_Index)) int32_t Index;
 
   /// @brief Field Source, offset 0x18, size 0x8
-  __declspec(property(get = __get_Source, put = __set_Source))::ArrayW<char16_t, ::Array<char16_t>*> Source;
+  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source))::ArrayW<char16_t, ::Array<char16_t>*> Source;
 
   /// @brief Field Replacement, offset 0x20, size 0x8
-  __declspec(property(get = __get_Replacement, put = __set_Replacement))::StringW Replacement;
+  __declspec(property(get = __cordl_internal_get_Replacement, put = __cordl_internal_set_Replacement))::StringW Replacement;
 
   /// @brief Field SortKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_SortKey, put = __set_SortKey))::ArrayW<uint8_t, ::Array<uint8_t>*> SortKey;
+  __declspec(property(get = __cordl_internal_get_SortKey, put = __cordl_internal_set_SortKey))::ArrayW<uint8_t, ::Array<uint8_t>*> SortKey;
 
-  constexpr int32_t& __get_Index();
+  constexpr int32_t& __cordl_internal_get_Index();
 
-  constexpr int32_t const& __get_Index() const;
+  constexpr int32_t const& __cordl_internal_get_Index() const;
 
-  constexpr void __set_Index(int32_t value);
+  constexpr void __cordl_internal_set_Index(int32_t value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_Source();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_Source();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_Source() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_Source() const;
 
-  constexpr void __set_Source(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_Source(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::StringW& __get_Replacement();
+  constexpr ::StringW& __cordl_internal_get_Replacement();
 
-  constexpr ::StringW const& __get_Replacement() const;
+  constexpr ::StringW const& __cordl_internal_get_Replacement() const;
 
-  constexpr void __set_Replacement(::StringW value);
+  constexpr void __cordl_internal_set_Replacement(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_SortKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_SortKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_SortKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_SortKey() const;
 
-  constexpr void __set_SortKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_SortKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Mono::Globalization::Unicode::Contraction* New_ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement,
                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);

@@ -22,47 +22,47 @@ MARK_REF_PTR_T(::System::Text::EncoderFallbackException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2843))
 // CS Name: ::System.Text::EncoderFallbackException*
 class CORDL_TYPE EncoderFallbackException : public ::System::ArgumentException {
 public:
   // Declarations
   /// @brief Field _charUnknown, offset 0x98, size 0x2
-  __declspec(property(get = __get__charUnknown, put = __set__charUnknown)) char16_t _charUnknown;
+  __declspec(property(get = __cordl_internal_get__charUnknown, put = __cordl_internal_set__charUnknown)) char16_t _charUnknown;
 
   /// @brief Field _charUnknownHigh, offset 0x9a, size 0x2
-  __declspec(property(get = __get__charUnknownHigh, put = __set__charUnknownHigh)) char16_t _charUnknownHigh;
+  __declspec(property(get = __cordl_internal_get__charUnknownHigh, put = __cordl_internal_set__charUnknownHigh)) char16_t _charUnknownHigh;
 
   /// @brief Field _charUnknownLow, offset 0x9c, size 0x2
-  __declspec(property(get = __get__charUnknownLow, put = __set__charUnknownLow)) char16_t _charUnknownLow;
+  __declspec(property(get = __cordl_internal_get__charUnknownLow, put = __cordl_internal_set__charUnknownLow)) char16_t _charUnknownLow;
 
   /// @brief Field _index, offset 0xa0, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-  constexpr char16_t& __get__charUnknown();
+  constexpr char16_t& __cordl_internal_get__charUnknown();
 
-  constexpr char16_t const& __get__charUnknown() const;
+  constexpr char16_t const& __cordl_internal_get__charUnknown() const;
 
-  constexpr void __set__charUnknown(char16_t value);
+  constexpr void __cordl_internal_set__charUnknown(char16_t value);
 
-  constexpr char16_t& __get__charUnknownHigh();
+  constexpr char16_t& __cordl_internal_get__charUnknownHigh();
 
-  constexpr char16_t const& __get__charUnknownHigh() const;
+  constexpr char16_t const& __cordl_internal_get__charUnknownHigh() const;
 
-  constexpr void __set__charUnknownHigh(char16_t value);
+  constexpr void __cordl_internal_set__charUnknownHigh(char16_t value);
 
-  constexpr char16_t& __get__charUnknownLow();
+  constexpr char16_t& __cordl_internal_get__charUnknownLow();
 
-  constexpr char16_t const& __get__charUnknownLow() const;
+  constexpr char16_t const& __cordl_internal_get__charUnknownLow() const;
 
-  constexpr void __set__charUnknownLow(char16_t value);
+  constexpr void __cordl_internal_set__charUnknownLow(char16_t value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline ::System::Text::EncoderFallbackException* New_ctor();
 

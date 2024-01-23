@@ -101,7 +101,7 @@ MARK_REF_PTR_T(::System::__DateTimeParse____c);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2386))
 // CS Name: ::DateTimeParse::MatchNumberDelegate*
 class CORDL_TYPE __DateTimeParse__MatchNumberDelegate : public ::System::MulticastDelegate {
@@ -139,7 +139,7 @@ static_assert(::cordl_internals::size_check_v<::System::__DateTimeParse__MatchNu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2387))
 // CS Name: ::DateTimeParse::DTT
 struct CORDL_TYPE __DateTimeParse__DTT {
@@ -265,7 +265,7 @@ static_assert(offsetof(::System::__DateTimeParse__DTT, value__) == 0x0, "Offset 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2388))
 // CS Name: ::DateTimeParse::TM
 struct CORDL_TYPE __DateTimeParse__TM {
@@ -319,7 +319,7 @@ static_assert(offsetof(::System::__DateTimeParse__TM, value__) == 0x0, "Offset m
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2389))
 // CS Name: ::DateTimeParse::DS
 struct CORDL_TYPE __DateTimeParse__DS {
@@ -517,7 +517,7 @@ static_assert(offsetof(::System::__DateTimeParse__DS, value__) == 0x0, "Offset m
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2390))
 // CS Name: ::DateTimeParse::<>c*
 class CORDL_TYPE __DateTimeParse____c : public ::System::Object {
@@ -569,7 +569,7 @@ static_assert(::cordl_internals::size_check_v<::System::__DateTimeParse____c, 0x
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2391))
 // CS Name: ::System::DateTimeParse*
 class CORDL_TYPE DateTimeParse : public ::System::Object {

@@ -109,7 +109,7 @@ namespace UnityEngine::EventSystems {
 // cpp template
 template <typename T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13196))
 // CS Name: ::ExecuteEvents::EventFunction`1<T1>*
 class CORDL_TYPE __ExecuteEvents__EventFunction_1 : public ::System::MulticastDelegate {
@@ -151,7 +151,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13197))
 // CS Name: ::UnityEngine.EventSystems::ExecuteEvents*
 class CORDL_TYPE ExecuteEvents : public ::System::Object {
@@ -239,7 +239,7 @@ public:
 
   /// @brief Field s_InternalTransformList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_InternalTransformList,
-                             put = setStaticF_s_InternalTransformList))::System::Collections::Generic::List_1<::UnityEngine::Transform*>* s_InternalTransformList;
+                             put = setStaticF_s_InternalTransformList))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* s_InternalTransformList;
 
   static inline void setStaticF_s_PointerMoveHandler(::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IPointerMoveHandler*>* value);
 
@@ -313,9 +313,9 @@ public:
 
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* getStaticF_s_CancelHandler();
 
-  static inline void setStaticF_s_InternalTransformList(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* value);
+  static inline void setStaticF_s_InternalTransformList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* getStaticF_s_InternalTransformList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* getStaticF_s_InternalTransformList();
 
   /// @brief Method ValidateEventData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T ValidateEventData(::UnityEngine::EventSystems::BaseEventData* data);
@@ -429,7 +429,7 @@ public:
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* get_cancelHandler();
 
   /// @brief Method GetEventChain, addr 0x2d99f80, size 0x194, virtual false, abstract: false, final false
-  static inline void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityEngine::Transform*>* eventChain);
+  static inline void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Transform>>* eventChain);
 
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -437,8 +437,8 @@ public:
 
   /// @brief Method ExecuteHierarchy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline ::UnityEngine::GameObject* ExecuteHierarchy(::UnityEngine::GameObject* root, ::UnityEngine::EventSystems::BaseEventData* eventData,
-                                                            ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<T>* callbackFunction);
+  static inline ::UnityW<::UnityEngine::GameObject> ExecuteHierarchy(::UnityEngine::GameObject* root, ::UnityEngine::EventSystems::BaseEventData* eventData,
+                                                                     ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<T>* callbackFunction);
 
   /// @brief Method ShouldSendToComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ShouldSendToComponent(::UnityEngine::Component* component);
@@ -450,7 +450,7 @@ public:
   template <typename T> static inline bool CanHandleEvent(::UnityEngine::GameObject* go);
 
   /// @brief Method GetEventHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::GameObject* GetEventHandler(::UnityEngine::GameObject* root);
+  template <typename T> static inline ::UnityW<::UnityEngine::GameObject> GetEventHandler(::UnityEngine::GameObject* root);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

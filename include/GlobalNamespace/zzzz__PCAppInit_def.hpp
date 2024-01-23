@@ -24,48 +24,48 @@ MARK_REF_PTR_T(::GlobalNamespace::PCAppInit);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15392))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15392))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4035))
 // CS Name: ::PCAppInit*
 class CORDL_TYPE PCAppInit : public ::GlobalNamespace::AppInit {
 public:
   // Declarations
   /// @brief Field _mainSystemInit, offset 0x48, size 0x8
-  __declspec(property(get = __get__mainSystemInit, put = __set__mainSystemInit))::GlobalNamespace::MainSystemInit* _mainSystemInit;
+  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
   /// @brief Field _defaultScenesTransitionsFromInit, offset 0x50, size 0x8
-  __declspec(property(get = __get__defaultScenesTransitionsFromInit,
-                      put = __set__defaultScenesTransitionsFromInit))::GlobalNamespace::DefaultScenesTransitionsFromInit* _defaultScenesTransitionsFromInit;
+  __declspec(property(get = __cordl_internal_get__defaultScenesTransitionsFromInit,
+                      put = __cordl_internal_set__defaultScenesTransitionsFromInit))::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> _defaultScenesTransitionsFromInit;
 
   /// @brief Field _goStraightToMenuCommandArgument, offset 0x58, size 0x8
-  __declspec(property(get = __get__goStraightToMenuCommandArgument, put = __set__goStraightToMenuCommandArgument))::StringW _goStraightToMenuCommandArgument;
+  __declspec(property(get = __cordl_internal_get__goStraightToMenuCommandArgument, put = __cordl_internal_set__goStraightToMenuCommandArgument))::StringW _goStraightToMenuCommandArgument;
 
   /// @brief Field _goStraightToEditorCommandArgument, offset 0x60, size 0x8
-  __declspec(property(get = __get__goStraightToEditorCommandArgument, put = __set__goStraightToEditorCommandArgument))::StringW _goStraightToEditorCommandArgument;
+  __declspec(property(get = __cordl_internal_get__goStraightToEditorCommandArgument, put = __cordl_internal_set__goStraightToEditorCommandArgument))::StringW _goStraightToEditorCommandArgument;
 
-  constexpr ::GlobalNamespace::MainSystemInit*& __get__mainSystemInit();
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSystemInit*> const& __get__mainSystemInit() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
 
-  constexpr void __set__mainSystemInit(::GlobalNamespace::MainSystemInit* value);
+  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
 
-  constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit*& __get__defaultScenesTransitionsFromInit();
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultScenesTransitionsFromInit*> const& __get__defaultScenesTransitionsFromInit() const;
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
 
-  constexpr void __set__defaultScenesTransitionsFromInit(::GlobalNamespace::DefaultScenesTransitionsFromInit* value);
+  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
 
-  constexpr ::StringW& __get__goStraightToMenuCommandArgument();
+  constexpr ::StringW& __cordl_internal_get__goStraightToMenuCommandArgument();
 
-  constexpr ::StringW const& __get__goStraightToMenuCommandArgument() const;
+  constexpr ::StringW const& __cordl_internal_get__goStraightToMenuCommandArgument() const;
 
-  constexpr void __set__goStraightToMenuCommandArgument(::StringW value);
+  constexpr void __cordl_internal_set__goStraightToMenuCommandArgument(::StringW value);
 
-  constexpr ::StringW& __get__goStraightToEditorCommandArgument();
+  constexpr ::StringW& __cordl_internal_get__goStraightToEditorCommandArgument();
 
-  constexpr ::StringW const& __get__goStraightToEditorCommandArgument() const;
+  constexpr ::StringW const& __cordl_internal_get__goStraightToEditorCommandArgument() const;
 
-  constexpr void __set__goStraightToEditorCommandArgument(::StringW value);
+  constexpr void __cordl_internal_set__goStraightToEditorCommandArgument(::StringW value);
 
   /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2229668, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
@@ -99,10 +99,10 @@ protected:
 
 public:
   /// @brief Field _mainSystemInit, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MainSystemInit* ____mainSystemInit;
+  ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 
   /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::DefaultScenesTransitionsFromInit* ____defaultScenesTransitionsFromInit;
+  ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
 
   /// @brief Field _goStraightToMenuCommandArgument, offset: 0x58, size: 0x8, def value: None
   ::StringW ____goStraightToMenuCommandArgument;

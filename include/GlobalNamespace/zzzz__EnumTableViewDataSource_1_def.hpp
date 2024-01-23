@@ -32,20 +32,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4684))
 // CS Name: ::EnumTableViewDataSource`1<T>*
 class CORDL_TYPE EnumTableViewDataSource_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _cellPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__cellPrefab, put = __set__cellPrefab))::GlobalNamespace::TextOnlyTableCell* _cellPrefab;
+  __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::TextOnlyTableCell> _cellPrefab;
 
   /// @brief Field _cellHeight, offset 0x20, size 0x4
-  __declspec(property(get = __get__cellHeight, put = __set__cellHeight)) float_t _cellHeight;
+  __declspec(property(get = __cordl_internal_get__cellHeight, put = __cordl_internal_set__cellHeight)) float_t _cellHeight;
 
   /// @brief Field _values, offset 0x28, size 0x8
-  __declspec(property(get = __get__values, put = __set__values))::ArrayW<T, ::Array<T>*> _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::ArrayW<T, ::Array<T>*> _values;
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
@@ -53,23 +53,23 @@ public:
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  constexpr ::GlobalNamespace::TextOnlyTableCell*& __get__cellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::TextOnlyTableCell>& __cordl_internal_get__cellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TextOnlyTableCell*> const& __get__cellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::TextOnlyTableCell> const& __cordl_internal_get__cellPrefab() const;
 
-  constexpr void __set__cellPrefab(::GlobalNamespace::TextOnlyTableCell* value);
+  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::TextOnlyTableCell> value);
 
-  constexpr float_t& __get__cellHeight();
+  constexpr float_t& __cordl_internal_get__cellHeight();
 
-  constexpr float_t const& __get__cellHeight() const;
+  constexpr float_t const& __cordl_internal_get__cellHeight() const;
 
-  constexpr void __set__cellHeight(float_t value);
+  constexpr void __cordl_internal_set__cellHeight(float_t value);
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__values();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__values();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__values() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__values() const;
 
-  constexpr void __set__values(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__values(::ArrayW<T, ::Array<T>*> value);
 
   /// @brief Method CellSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t CellSize();
@@ -78,7 +78,7 @@ public:
   inline int32_t NumberOfCells();
 
   /// @brief Method CellForIdx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t idx);
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
   /// @brief Method GetIdForValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetIdForValue(T value);
@@ -112,7 +112,7 @@ protected:
 
 public:
   /// @brief Field _cellPrefab, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::TextOnlyTableCell* ____cellPrefab;
+  ::UnityW<::GlobalNamespace::TextOnlyTableCell> ____cellPrefab;
 
   /// @brief Field _cellHeight, offset: 0x20, size: 0x4, def value: None
   float_t ____cellHeight;

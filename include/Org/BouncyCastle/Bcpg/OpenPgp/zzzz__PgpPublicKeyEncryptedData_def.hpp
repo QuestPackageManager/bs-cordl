@@ -37,22 +37,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1638))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1638))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1660))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPublicKeyEncryptedData*
 class CORDL_TYPE PgpPublicKeyEncryptedData : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData {
 public:
   // Declarations
   /// @brief Field keyData, offset 0x28, size 0x8
-  __declspec(property(get = __get_keyData, put = __set_keyData))::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* keyData;
+  __declspec(property(get = __cordl_internal_get_keyData, put = __cordl_internal_set_keyData))::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* keyData;
 
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*& __get_keyData();
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*& __cordl_internal_get_keyData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*> const& __get_keyData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*> const& __cordl_internal_get_keyData() const;
 
-  constexpr void __set_keyData(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* value);
+  constexpr void __cordl_internal_set_keyData(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* keyData,
                                                                                         ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);

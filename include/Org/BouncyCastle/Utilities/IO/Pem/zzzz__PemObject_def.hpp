@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemObject);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1806))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemObject*
 class CORDL_TYPE PemObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::StringW type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
 
   /// @brief Field headers, offset 0x18, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Collections::IList* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Collections::IList* headers;
 
   /// @brief Field content, offset 0x20, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::ArrayW<uint8_t, ::Array<uint8_t>*> content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::ArrayW<uint8_t, ::Array<uint8_t>*> content;
 
   __declspec(property(get = get_Type))::StringW Type;
 
@@ -50,23 +50,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept;
 
-  constexpr ::StringW& __get_type();
+  constexpr ::StringW& __cordl_internal_get_type();
 
-  constexpr ::StringW const& __get_type() const;
+  constexpr ::StringW const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::StringW value);
+  constexpr void __cordl_internal_set_type(::StringW value);
 
-  constexpr ::System::Collections::IList*& __get_headers();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_headers(::System::Collections::IList* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_content();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_content();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_content() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_content(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* New_ctor(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 

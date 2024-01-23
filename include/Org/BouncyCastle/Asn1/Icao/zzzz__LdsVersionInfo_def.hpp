@@ -27,29 +27,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Icao {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(178))
 // CS Name: ::Org.BouncyCastle.Asn1.Icao::LdsVersionInfo*
 class CORDL_TYPE LdsVersionInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field ldsVersion, offset 0x10, size 0x8
-  __declspec(property(get = __get_ldsVersion, put = __set_ldsVersion))::Org::BouncyCastle::Asn1::DerPrintableString* ldsVersion;
+  __declspec(property(get = __cordl_internal_get_ldsVersion, put = __cordl_internal_set_ldsVersion))::Org::BouncyCastle::Asn1::DerPrintableString* ldsVersion;
 
   /// @brief Field unicodeVersion, offset 0x18, size 0x8
-  __declspec(property(get = __get_unicodeVersion, put = __set_unicodeVersion))::Org::BouncyCastle::Asn1::DerPrintableString* unicodeVersion;
+  __declspec(property(get = __cordl_internal_get_unicodeVersion, put = __cordl_internal_set_unicodeVersion))::Org::BouncyCastle::Asn1::DerPrintableString* unicodeVersion;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __get_ldsVersion();
+  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_ldsVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerPrintableString*> const& __get_ldsVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerPrintableString*> const& __cordl_internal_get_ldsVersion() const;
 
-  constexpr void __set_ldsVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
+  constexpr void __cordl_internal_set_ldsVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __get_unicodeVersion();
+  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_unicodeVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerPrintableString*> const& __get_unicodeVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerPrintableString*> const& __cordl_internal_get_unicodeVersion() const;
 
-  constexpr void __set_unicodeVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
+  constexpr void __cordl_internal_set_unicodeVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 

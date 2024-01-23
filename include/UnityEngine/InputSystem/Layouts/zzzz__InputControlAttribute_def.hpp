@@ -20,80 +20,80 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlAttribute);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6594))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputControlAttribute*
 class CORDL_TYPE InputControlAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field <layout>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__layout_k__BackingField, put = __set__layout_k__BackingField))::StringW _layout_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__layout_k__BackingField, put = __cordl_internal_set__layout_k__BackingField))::StringW _layout_k__BackingField;
 
   /// @brief Field <variants>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__variants_k__BackingField, put = __set__variants_k__BackingField))::StringW _variants_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__variants_k__BackingField, put = __cordl_internal_set__variants_k__BackingField))::StringW _variants_k__BackingField;
 
   /// @brief Field <name>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__name_k__BackingField, put = __set__name_k__BackingField))::StringW _name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
 
   /// @brief Field <format>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__format_k__BackingField, put = __set__format_k__BackingField))::StringW _format_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__format_k__BackingField, put = __cordl_internal_set__format_k__BackingField))::StringW _format_k__BackingField;
 
   /// @brief Field <usage>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__usage_k__BackingField, put = __set__usage_k__BackingField))::StringW _usage_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__usage_k__BackingField, put = __cordl_internal_set__usage_k__BackingField))::StringW _usage_k__BackingField;
 
   /// @brief Field <usages>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__usages_k__BackingField, put = __set__usages_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _usages_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__usages_k__BackingField, put = __cordl_internal_set__usages_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _usages_k__BackingField;
 
   /// @brief Field <parameters>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__parameters_k__BackingField, put = __set__parameters_k__BackingField))::StringW _parameters_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__parameters_k__BackingField, put = __cordl_internal_set__parameters_k__BackingField))::StringW _parameters_k__BackingField;
 
   /// @brief Field <processors>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__processors_k__BackingField, put = __set__processors_k__BackingField))::StringW _processors_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__processors_k__BackingField, put = __cordl_internal_set__processors_k__BackingField))::StringW _processors_k__BackingField;
 
   /// @brief Field <alias>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__alias_k__BackingField, put = __set__alias_k__BackingField))::StringW _alias_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__alias_k__BackingField, put = __cordl_internal_set__alias_k__BackingField))::StringW _alias_k__BackingField;
 
   /// @brief Field <aliases>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__aliases_k__BackingField, put = __set__aliases_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _aliases_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__aliases_k__BackingField, put = __cordl_internal_set__aliases_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _aliases_k__BackingField;
 
   /// @brief Field <useStateFrom>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__useStateFrom_k__BackingField, put = __set__useStateFrom_k__BackingField))::StringW _useStateFrom_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__useStateFrom_k__BackingField, put = __cordl_internal_set__useStateFrom_k__BackingField))::StringW _useStateFrom_k__BackingField;
 
   /// @brief Field <bit>k__BackingField, offset 0x68, size 0x4
-  __declspec(property(get = __get__bit_k__BackingField, put = __set__bit_k__BackingField)) uint32_t _bit_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bit_k__BackingField, put = __cordl_internal_set__bit_k__BackingField)) uint32_t _bit_k__BackingField;
 
   /// @brief Field <offset>k__BackingField, offset 0x6c, size 0x4
-  __declspec(property(get = __get__offset_k__BackingField, put = __set__offset_k__BackingField)) uint32_t _offset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__offset_k__BackingField, put = __cordl_internal_set__offset_k__BackingField)) uint32_t _offset_k__BackingField;
 
   /// @brief Field <sizeInBits>k__BackingField, offset 0x70, size 0x4
-  __declspec(property(get = __get__sizeInBits_k__BackingField, put = __set__sizeInBits_k__BackingField)) uint32_t _sizeInBits_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__sizeInBits_k__BackingField, put = __cordl_internal_set__sizeInBits_k__BackingField)) uint32_t _sizeInBits_k__BackingField;
 
   /// @brief Field <arraySize>k__BackingField, offset 0x74, size 0x4
-  __declspec(property(get = __get__arraySize_k__BackingField, put = __set__arraySize_k__BackingField)) int32_t _arraySize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__arraySize_k__BackingField, put = __cordl_internal_set__arraySize_k__BackingField)) int32_t _arraySize_k__BackingField;
 
   /// @brief Field <displayName>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __get__displayName_k__BackingField, put = __set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
 
   /// @brief Field <shortDisplayName>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__shortDisplayName_k__BackingField, put = __set__shortDisplayName_k__BackingField))::StringW _shortDisplayName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__shortDisplayName_k__BackingField, put = __cordl_internal_set__shortDisplayName_k__BackingField))::StringW _shortDisplayName_k__BackingField;
 
   /// @brief Field <noisy>k__BackingField, offset 0x88, size 0x1
-  __declspec(property(get = __get__noisy_k__BackingField, put = __set__noisy_k__BackingField)) bool _noisy_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noisy_k__BackingField, put = __cordl_internal_set__noisy_k__BackingField)) bool _noisy_k__BackingField;
 
   /// @brief Field <synthetic>k__BackingField, offset 0x89, size 0x1
-  __declspec(property(get = __get__synthetic_k__BackingField, put = __set__synthetic_k__BackingField)) bool _synthetic_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__synthetic_k__BackingField, put = __cordl_internal_set__synthetic_k__BackingField)) bool _synthetic_k__BackingField;
 
   /// @brief Field <dontReset>k__BackingField, offset 0x8a, size 0x1
-  __declspec(property(get = __get__dontReset_k__BackingField, put = __set__dontReset_k__BackingField)) bool _dontReset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dontReset_k__BackingField, put = __cordl_internal_set__dontReset_k__BackingField)) bool _dontReset_k__BackingField;
 
   /// @brief Field <defaultState>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__defaultState_k__BackingField, put = __set__defaultState_k__BackingField))::System::Object* _defaultState_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__defaultState_k__BackingField, put = __cordl_internal_set__defaultState_k__BackingField))::System::Object* _defaultState_k__BackingField;
 
   /// @brief Field <minValue>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__minValue_k__BackingField, put = __set__minValue_k__BackingField))::System::Object* _minValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__minValue_k__BackingField, put = __cordl_internal_set__minValue_k__BackingField))::System::Object* _minValue_k__BackingField;
 
   /// @brief Field <maxValue>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__maxValue_k__BackingField, put = __set__maxValue_k__BackingField))::System::Object* _maxValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxValue_k__BackingField, put = __cordl_internal_set__maxValue_k__BackingField))::System::Object* _maxValue_k__BackingField;
 
   __declspec(property(get = get_layout, put = set_layout))::StringW layout;
 
@@ -141,143 +141,143 @@ public:
 
   __declspec(property(get = get_maxValue, put = set_maxValue))::System::Object* maxValue;
 
-  constexpr ::StringW& __get__layout_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__layout_k__BackingField();
 
-  constexpr ::StringW const& __get__layout_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__layout_k__BackingField() const;
 
-  constexpr void __set__layout_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__layout_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__variants_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__variants_k__BackingField();
 
-  constexpr ::StringW const& __get__variants_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__variants_k__BackingField() const;
 
-  constexpr void __set__variants_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__variants_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__name_k__BackingField();
 
-  constexpr ::StringW const& __get__name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
 
-  constexpr void __set__name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__name_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__format_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__format_k__BackingField();
 
-  constexpr ::StringW const& __get__format_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__format_k__BackingField() const;
 
-  constexpr void __set__format_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__format_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__usage_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__usage_k__BackingField();
 
-  constexpr ::StringW const& __get__usage_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__usage_k__BackingField() const;
 
-  constexpr void __set__usage_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__usage_k__BackingField(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__usages_k__BackingField();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__usages_k__BackingField();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__usages_k__BackingField() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__usages_k__BackingField() const;
 
-  constexpr void __set__usages_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__usages_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get__parameters_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__parameters_k__BackingField();
 
-  constexpr ::StringW const& __get__parameters_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__parameters_k__BackingField() const;
 
-  constexpr void __set__parameters_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__parameters_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__processors_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__processors_k__BackingField();
 
-  constexpr ::StringW const& __get__processors_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__processors_k__BackingField() const;
 
-  constexpr void __set__processors_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__processors_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__alias_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__alias_k__BackingField();
 
-  constexpr ::StringW const& __get__alias_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__alias_k__BackingField() const;
 
-  constexpr void __set__alias_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__alias_k__BackingField(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__aliases_k__BackingField();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__aliases_k__BackingField();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__aliases_k__BackingField() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__aliases_k__BackingField() const;
 
-  constexpr void __set__aliases_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__aliases_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get__useStateFrom_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__useStateFrom_k__BackingField();
 
-  constexpr ::StringW const& __get__useStateFrom_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__useStateFrom_k__BackingField() const;
 
-  constexpr void __set__useStateFrom_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__useStateFrom_k__BackingField(::StringW value);
 
-  constexpr uint32_t& __get__bit_k__BackingField();
+  constexpr uint32_t& __cordl_internal_get__bit_k__BackingField();
 
-  constexpr uint32_t const& __get__bit_k__BackingField() const;
+  constexpr uint32_t const& __cordl_internal_get__bit_k__BackingField() const;
 
-  constexpr void __set__bit_k__BackingField(uint32_t value);
+  constexpr void __cordl_internal_set__bit_k__BackingField(uint32_t value);
 
-  constexpr uint32_t& __get__offset_k__BackingField();
+  constexpr uint32_t& __cordl_internal_get__offset_k__BackingField();
 
-  constexpr uint32_t const& __get__offset_k__BackingField() const;
+  constexpr uint32_t const& __cordl_internal_get__offset_k__BackingField() const;
 
-  constexpr void __set__offset_k__BackingField(uint32_t value);
+  constexpr void __cordl_internal_set__offset_k__BackingField(uint32_t value);
 
-  constexpr uint32_t& __get__sizeInBits_k__BackingField();
+  constexpr uint32_t& __cordl_internal_get__sizeInBits_k__BackingField();
 
-  constexpr uint32_t const& __get__sizeInBits_k__BackingField() const;
+  constexpr uint32_t const& __cordl_internal_get__sizeInBits_k__BackingField() const;
 
-  constexpr void __set__sizeInBits_k__BackingField(uint32_t value);
+  constexpr void __cordl_internal_set__sizeInBits_k__BackingField(uint32_t value);
 
-  constexpr int32_t& __get__arraySize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__arraySize_k__BackingField();
 
-  constexpr int32_t const& __get__arraySize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__arraySize_k__BackingField() const;
 
-  constexpr void __set__arraySize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__arraySize_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__displayName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__displayName_k__BackingField();
 
-  constexpr ::StringW const& __get__displayName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
 
-  constexpr void __set__displayName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__shortDisplayName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__shortDisplayName_k__BackingField();
 
-  constexpr ::StringW const& __get__shortDisplayName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__shortDisplayName_k__BackingField() const;
 
-  constexpr void __set__shortDisplayName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__shortDisplayName_k__BackingField(::StringW value);
 
-  constexpr bool& __get__noisy_k__BackingField();
+  constexpr bool& __cordl_internal_get__noisy_k__BackingField();
 
-  constexpr bool const& __get__noisy_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__noisy_k__BackingField() const;
 
-  constexpr void __set__noisy_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__noisy_k__BackingField(bool value);
 
-  constexpr bool& __get__synthetic_k__BackingField();
+  constexpr bool& __cordl_internal_get__synthetic_k__BackingField();
 
-  constexpr bool const& __get__synthetic_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__synthetic_k__BackingField() const;
 
-  constexpr void __set__synthetic_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__synthetic_k__BackingField(bool value);
 
-  constexpr bool& __get__dontReset_k__BackingField();
+  constexpr bool& __cordl_internal_get__dontReset_k__BackingField();
 
-  constexpr bool const& __get__dontReset_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__dontReset_k__BackingField() const;
 
-  constexpr void __set__dontReset_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__dontReset_k__BackingField(bool value);
 
-  constexpr ::System::Object*& __get__defaultState_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__defaultState_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__defaultState_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__defaultState_k__BackingField() const;
 
-  constexpr void __set__defaultState_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__defaultState_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Object*& __get__minValue_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__minValue_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__minValue_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__minValue_k__BackingField() const;
 
-  constexpr void __set__minValue_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__minValue_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Object*& __get__maxValue_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__maxValue_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__maxValue_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__maxValue_k__BackingField() const;
 
-  constexpr void __set__maxValue_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__maxValue_k__BackingField(::System::Object* value);
 
   /// @brief Method get_layout, addr 0x2afa128, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();

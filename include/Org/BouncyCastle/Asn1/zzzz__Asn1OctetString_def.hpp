@@ -35,14 +35,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1OctetString);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(456))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1OctetString*
 class CORDL_TYPE Asn1OctetString : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   /// @brief Field str, offset 0x10, size 0x8
-  __declspec(property(get = __get_str, put = __set_str))::ArrayW<uint8_t, ::Array<uint8_t>*> str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::ArrayW<uint8_t, ::Array<uint8_t>*> str;
 
   __declspec(property(get = get_Parser))::Org::BouncyCastle::Asn1::Asn1OctetStringParser* Parser;
 
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_str();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_str();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_str() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_str() const;
 
-  constexpr void __set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method GetInstance, addr 0x11b756c, size 0xd4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);

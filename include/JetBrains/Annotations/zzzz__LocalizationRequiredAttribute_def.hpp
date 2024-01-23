@@ -14,22 +14,22 @@ MARK_REF_PTR_T(::JetBrains::Annotations::LocalizationRequiredAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15745))
 // CS Name: ::JetBrains.Annotations::LocalizationRequiredAttribute*
 class CORDL_TYPE LocalizationRequiredAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Required>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__Required_k__BackingField, put = __set__Required_k__BackingField)) bool _Required_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Required_k__BackingField, put = __cordl_internal_set__Required_k__BackingField)) bool _Required_k__BackingField;
 
   __declspec(property(get = get_Required, put = set_Required)) bool Required;
 
-  constexpr bool& __get__Required_k__BackingField();
+  constexpr bool& __cordl_internal_get__Required_k__BackingField();
 
-  constexpr bool const& __get__Required_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Required_k__BackingField() const;
 
-  constexpr void __set__Required_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Required_k__BackingField(bool value);
 
   static inline ::JetBrains::Annotations::LocalizationRequiredAttribute* New_ctor();
 

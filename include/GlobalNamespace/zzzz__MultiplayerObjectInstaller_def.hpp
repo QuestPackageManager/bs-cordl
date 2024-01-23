@@ -23,39 +23,42 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerObjectInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5228))
 // CS Name: ::MultiplayerObjectInstaller*
 class CORDL_TYPE MultiplayerObjectInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _inEnvironmentTextsPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__inEnvironmentTextsPrefab, put = __set__inEnvironmentTextsPrefab))::GlobalNamespace::MultiplayerScoreRingItem* _inEnvironmentTextsPrefab;
+  __declspec(property(get = __cordl_internal_get__inEnvironmentTextsPrefab,
+                      put = __cordl_internal_set__inEnvironmentTextsPrefab))::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> _inEnvironmentTextsPrefab;
 
   /// @brief Field _fireworkItemControllerPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__fireworkItemControllerPrefab, put = __set__fireworkItemControllerPrefab))::GlobalNamespace::FireworkItemController* _fireworkItemControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__fireworkItemControllerPrefab,
+                      put = __cordl_internal_set__fireworkItemControllerPrefab))::UnityW<::GlobalNamespace::FireworkItemController> _fireworkItemControllerPrefab;
 
   /// @brief Field _multiplayerResultsPyramidViewAvatarPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__multiplayerResultsPyramidViewAvatarPrefab,
-                      put = __set__multiplayerResultsPyramidViewAvatarPrefab))::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* _multiplayerResultsPyramidViewAvatarPrefab;
+  __declspec(
+      property(get = __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab,
+               put = __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab))::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> _multiplayerResultsPyramidViewAvatarPrefab;
 
-  constexpr ::GlobalNamespace::MultiplayerScoreRingItem*& __get__inEnvironmentTextsPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem>& __cordl_internal_get__inEnvironmentTextsPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreRingItem*> const& __get__inEnvironmentTextsPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> const& __cordl_internal_get__inEnvironmentTextsPrefab() const;
 
-  constexpr void __set__inEnvironmentTextsPrefab(::GlobalNamespace::MultiplayerScoreRingItem* value);
+  constexpr void __cordl_internal_set__inEnvironmentTextsPrefab(::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> value);
 
-  constexpr ::GlobalNamespace::FireworkItemController*& __get__fireworkItemControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController>& __cordl_internal_get__fireworkItemControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworkItemController*> const& __get__fireworkItemControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController> const& __cordl_internal_get__fireworkItemControllerPrefab() const;
 
-  constexpr void __set__fireworkItemControllerPrefab(::GlobalNamespace::FireworkItemController* value);
+  constexpr void __cordl_internal_set__fireworkItemControllerPrefab(::UnityW<::GlobalNamespace::FireworkItemController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& __get__multiplayerResultsPyramidViewAvatarPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>& __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> const& __get__multiplayerResultsPyramidViewAvatarPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> const& __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab() const;
 
-  constexpr void __set__multiplayerResultsPyramidViewAvatarPrefab(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* value);
+  constexpr void __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
 
   /// @brief Method InstallBindings, addr 0x22529fc, size 0x144, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -80,13 +83,13 @@ protected:
 
 public:
   /// @brief Field _inEnvironmentTextsPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreRingItem* ____inEnvironmentTextsPrefab;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> ____inEnvironmentTextsPrefab;
 
   /// @brief Field _fireworkItemControllerPrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::FireworkItemController* ____fireworkItemControllerPrefab;
+  ::UnityW<::GlobalNamespace::FireworkItemController> ____fireworkItemControllerPrefab;
 
   /// @brief Field _multiplayerResultsPyramidViewAvatarPrefab, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* ____multiplayerResultsPyramidViewAvatarPrefab;
+  ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> ____multiplayerResultsPyramidViewAvatarPrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

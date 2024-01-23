@@ -25,40 +25,40 @@ MARK_REF_PTR_T(::GlobalNamespace::PlaybackScreenshotRecorder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5926))
 // CS Name: ::PlaybackScreenshotRecorder*
 class CORDL_TYPE PlaybackScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _directory, offset 0x18, size 0x8
-  __declspec(property(get = __get__directory, put = __set__directory))::StringW _directory;
+  __declspec(property(get = __cordl_internal_get__directory, put = __cordl_internal_set__directory))::StringW _directory;
 
   /// @brief Field _playbackRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __get__playbackRenderer, put = __set__playbackRenderer))::GlobalNamespace::PlaybackRenderer* _playbackRenderer;
+  __declspec(property(get = __cordl_internal_get__playbackRenderer, put = __cordl_internal_set__playbackRenderer))::UnityW<::GlobalNamespace::PlaybackRenderer> _playbackRenderer;
 
   /// @brief Field _frameNumber, offset 0x28, size 0x4
-  __declspec(property(get = __get__frameNumber, put = __set__frameNumber)) int32_t _frameNumber;
+  __declspec(property(get = __cordl_internal_get__frameNumber, put = __cordl_internal_set__frameNumber)) int32_t _frameNumber;
 
   __declspec(property(get = get_directory))::StringW directory;
 
-  constexpr ::StringW& __get__directory();
+  constexpr ::StringW& __cordl_internal_get__directory();
 
-  constexpr ::StringW const& __get__directory() const;
+  constexpr ::StringW const& __cordl_internal_get__directory() const;
 
-  constexpr void __set__directory(::StringW value);
+  constexpr void __cordl_internal_set__directory(::StringW value);
 
-  constexpr ::GlobalNamespace::PlaybackRenderer*& __get__playbackRenderer();
+  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer>& __cordl_internal_get__playbackRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlaybackRenderer*> const& __get__playbackRenderer() const;
+  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer> const& __cordl_internal_get__playbackRenderer() const;
 
-  constexpr void __set__playbackRenderer(::GlobalNamespace::PlaybackRenderer* value);
+  constexpr void __cordl_internal_set__playbackRenderer(::UnityW<::GlobalNamespace::PlaybackRenderer> value);
 
-  constexpr int32_t& __get__frameNumber();
+  constexpr int32_t& __cordl_internal_get__frameNumber();
 
-  constexpr int32_t const& __get__frameNumber() const;
+  constexpr int32_t const& __cordl_internal_get__frameNumber() const;
 
-  constexpr void __set__frameNumber(int32_t value);
+  constexpr void __cordl_internal_set__frameNumber(int32_t value);
 
   /// @brief Method get_directory, addr 0x2301358, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
@@ -79,7 +79,7 @@ public:
   inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
 
   /// @brief Method ConvertRenderTexture, addr 0x2301620, size 0x11c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
+  static inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::PlaybackScreenshotRecorder* New_ctor();
 
@@ -104,7 +104,7 @@ public:
   ::StringW ____directory;
 
   /// @brief Field _playbackRenderer, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PlaybackRenderer* ____playbackRenderer;
+  ::UnityW<::GlobalNamespace::PlaybackRenderer> ____playbackRenderer;
 
   /// @brief Field _frameNumber, offset: 0x28, size: 0x4, def value: None
   int32_t ____frameNumber;

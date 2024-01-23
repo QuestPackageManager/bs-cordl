@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::System::PointerSpec);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2635))
 // CS Name: ::System::PointerSpec*
 class CORDL_TYPE PointerSpec : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pointer_level, offset 0x10, size 0x4
-  __declspec(property(get = __get_pointer_level, put = __set_pointer_level)) int32_t pointer_level;
+  __declspec(property(get = __cordl_internal_get_pointer_level, put = __cordl_internal_set_pointer_level)) int32_t pointer_level;
 
   /// @brief Convert operator to "::System::ModifierSpec"
   constexpr operator ::System::ModifierSpec*() noexcept;
@@ -40,11 +40,11 @@ public:
   /// @brief Convert to "::System::ModifierSpec"
   constexpr ::System::ModifierSpec* i___System__ModifierSpec() noexcept;
 
-  constexpr int32_t& __get_pointer_level();
+  constexpr int32_t& __cordl_internal_get_pointer_level();
 
-  constexpr int32_t const& __get_pointer_level() const;
+  constexpr int32_t const& __cordl_internal_get_pointer_level() const;
 
-  constexpr void __set_pointer_level(int32_t value);
+  constexpr void __cordl_internal_set_pointer_level(int32_t value);
 
   static inline ::System::PointerSpec* New_ctor(int32_t pointer_level);
 

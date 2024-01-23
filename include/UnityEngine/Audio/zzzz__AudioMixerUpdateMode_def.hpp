@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Audio::AudioMixerUpdateMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15603))
 // CS Name: ::UnityEngine.Audio::AudioMixerUpdateMode
 struct CORDL_TYPE AudioMixerUpdateMode {

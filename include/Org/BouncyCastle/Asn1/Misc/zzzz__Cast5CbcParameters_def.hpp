@@ -31,31 +31,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Misc {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(195))
 // CS Name: ::Org.BouncyCastle.Asn1.Misc::Cast5CbcParameters*
 class CORDL_TYPE Cast5CbcParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field keyLength, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyLength, put = __set_keyLength))::Org::BouncyCastle::Asn1::DerInteger* keyLength;
+  __declspec(property(get = __cordl_internal_get_keyLength, put = __cordl_internal_set_keyLength))::Org::BouncyCastle::Asn1::DerInteger* keyLength;
 
   /// @brief Field iv, offset 0x18, size 0x8
-  __declspec(property(get = __get_iv, put = __set_iv))::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
 
   __declspec(property(get = get_KeyLength)) int32_t KeyLength;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_keyLength();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_keyLength();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_keyLength() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_keyLength() const;
 
-  constexpr void __set_keyLength(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_keyLength(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_iv();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_iv() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_iv() const;
 
-  constexpr void __set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   /// @brief Method GetInstance, addr 0xf7bd18, size 0x148, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters* GetInstance(::System::Object* o);

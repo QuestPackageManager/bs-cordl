@@ -34,32 +34,34 @@ MARK_REF_PTR_T(::GlobalNamespace::SongStartHandler);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12960))
 // CS Name: ::SongStartHandler*
 class CORDL_TYPE SongStartHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _gameplayRpcManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameplayRpcManager, put = __set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
   /// @brief Field _playersAtGameStartModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__playersAtGameStartModel, put = __set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
+  __declspec(property(get = __cordl_internal_get__playersAtGameStartModel,
+                      put = __cordl_internal_set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
 
   /// @brief Field _readyPlayers, offset 0x28, size 0x8
-  __declspec(property(get = __get__readyPlayers, put = __set__readyPlayers))::System::Collections::Generic::HashSet_1<::StringW>* _readyPlayers;
+  __declspec(property(get = __cordl_internal_get__readyPlayers, put = __cordl_internal_set__readyPlayers))::System::Collections::Generic::HashSet_1<::StringW>* _readyPlayers;
 
   /// @brief Field _started, offset 0x30, size 0x1
-  __declspec(property(get = __get__started, put = __set__started)) bool _started;
+  __declspec(property(get = __cordl_internal_get__started, put = __cordl_internal_set__started)) bool _started;
 
   /// @brief Field _startTime, offset 0x38, size 0x8
-  __declspec(property(get = __get__startTime, put = __set__startTime)) int64_t _startTime;
+  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) int64_t _startTime;
 
   /// @brief Field setSongStartSyncTimeEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_setSongStartSyncTimeEvent, put = __set_setSongStartSyncTimeEvent))::System::Action_1<int64_t>* setSongStartSyncTimeEvent;
+  __declspec(property(get = __cordl_internal_get_setSongStartSyncTimeEvent, put = __cordl_internal_set_setSongStartSyncTimeEvent))::System::Action_1<int64_t>* setSongStartSyncTimeEvent;
 
   __declspec(property(get = get_songStartSyncTime)) int64_t songStartSyncTime;
 
@@ -69,47 +71,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__gameplayRpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__gameplayRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
 
-  constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __get__playersAtGameStartModel();
+  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __cordl_internal_get__playersAtGameStartModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __get__playersAtGameStartModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __cordl_internal_get__playersAtGameStartModel() const;
 
-  constexpr void __set__playersAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
+  constexpr void __cordl_internal_set__playersAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__readyPlayers();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__readyPlayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__readyPlayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__readyPlayers() const;
 
-  constexpr void __set__readyPlayers(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__readyPlayers(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr bool& __get__started();
+  constexpr bool& __cordl_internal_get__started();
 
-  constexpr bool const& __get__started() const;
+  constexpr bool const& __cordl_internal_get__started() const;
 
-  constexpr void __set__started(bool value);
+  constexpr void __cordl_internal_set__started(bool value);
 
-  constexpr int64_t& __get__startTime();
+  constexpr int64_t& __cordl_internal_get__startTime();
 
-  constexpr int64_t const& __get__startTime() const;
+  constexpr int64_t const& __cordl_internal_get__startTime() const;
 
-  constexpr void __set__startTime(int64_t value);
+  constexpr void __cordl_internal_set__startTime(int64_t value);
 
-  constexpr ::System::Action_1<int64_t>*& __get_setSongStartSyncTimeEvent();
+  constexpr ::System::Action_1<int64_t>*& __cordl_internal_get_setSongStartSyncTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int64_t>*> const& __get_setSongStartSyncTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int64_t>*> const& __cordl_internal_get_setSongStartSyncTimeEvent() const;
 
-  constexpr void __set_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
+  constexpr void __cordl_internal_set_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
   /// @brief Method get_songStartSyncTime, addr 0xe57244, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();

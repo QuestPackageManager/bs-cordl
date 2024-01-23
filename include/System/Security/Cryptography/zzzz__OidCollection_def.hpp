@@ -39,14 +39,14 @@ MARK_REF_PTR_T(::System::Security::Cryptography::OidCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8973))
 // CS Name: ::System.Security.Cryptography::OidCollection*
 class CORDL_TYPE OidCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* _list;
 
   __declspec(property(get = get_Item))::System::Security::Cryptography::Oid* Item[];
 
@@ -68,11 +68,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*& __get__list();
+  constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* value);
 
   static inline ::System::Security::Cryptography::OidCollection* New_ctor();
 

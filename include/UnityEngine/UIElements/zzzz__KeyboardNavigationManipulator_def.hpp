@@ -51,7 +51,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__Disp
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6828))
 // CS Name: ::KeyboardNavigationManipulator::<>c__DisplayClass5_0
 struct CORDL_TYPE __KeyboardNavigationManipulator____c__DisplayClass5_0 {
@@ -82,7 +82,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__KeyboardNavigationManipulato
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6829))
 // CS Name: ::KeyboardNavigationManipulator::<>c__DisplayClass6_0
 struct CORDL_TYPE __KeyboardNavigationManipulator____c__DisplayClass6_0 {
@@ -113,7 +113,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__KeyboardNavigationManipulato
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6905))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6905))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6830))
 // CS Name: ::UnityEngine.UIElements::KeyboardNavigationManipulator*
 class CORDL_TYPE KeyboardNavigationManipulator : public ::UnityEngine::UIElements::Manipulator {
@@ -124,13 +124,15 @@ public:
   using __c__DisplayClass5_0 = ::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0;
 
   /// @brief Field m_Action, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Action, put = __set_m_Action))::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* m_Action;
+  __declspec(property(get = __cordl_internal_get_m_Action,
+                      put = __cordl_internal_set_m_Action))::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* m_Action;
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>*& __get_m_Action();
+  constexpr ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>*& __cordl_internal_get_m_Action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>*> const& __get_m_Action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>*> const&
+  __cordl_internal_get_m_Action() const;
 
-  constexpr void __set_m_Action(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* value);
+  constexpr void __cordl_internal_set_m_Action(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* value);
 
   static inline ::UnityEngine::UIElements::KeyboardNavigationManipulator*
   New_ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* action);

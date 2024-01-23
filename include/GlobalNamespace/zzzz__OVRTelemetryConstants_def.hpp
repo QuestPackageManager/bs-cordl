@@ -87,7 +87,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRTelemetryConstants__Scene__MarkerId);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8012))
 // CS Name: ::OVRTelemetryConstants::OVRManager::MarkerId*
 class CORDL_TYPE __OVRTelemetryConstants__OVRManager__MarkerId : public ::System::Object {
@@ -123,7 +123,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8013))
 // CS Name: ::OVRTelemetryConstants::OVRManager::AnnotationTypes*
 class CORDL_TYPE __OVRTelemetryConstants__OVRManager__AnnotationTypes : public ::System::Object {
@@ -156,7 +156,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8014))
 // CS Name: ::OVRTelemetryConstants::OVRManager::ConsentOrigins
 struct CORDL_TYPE __OVRTelemetryConstants__OVRManager__ConsentOrigins {
@@ -210,7 +210,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTelemetryConstants__OVRManager__C
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8007))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8007))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8015))
 // CS Name: ::OVRTelemetryConstants::OVRManager*
 class CORDL_TYPE __OVRTelemetryConstants__OVRManager : public ::System::Object {
@@ -260,7 +260,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8016))
 // CS Name: ::OVRTelemetryConstants::Scene::MarkerId*
 class CORDL_TYPE __OVRTelemetryConstants__Scene__MarkerId : public ::System::Object {
@@ -305,7 +305,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8017))
 // CS Name: ::OVRTelemetryConstants::Scene*
 class CORDL_TYPE __OVRTelemetryConstants__Scene : public ::System::Object {
@@ -337,7 +337,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8018))
 // CS Name: ::OVRTelemetryConstants::Editor*
 class CORDL_TYPE __OVRTelemetryConstants__Editor : public ::System::Object {
@@ -370,7 +370,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8019))
 // CS Name: ::OVRTelemetryConstants::SBB::MarkerId*
 class CORDL_TYPE __OVRTelemetryConstants__SBB__MarkerId : public ::System::Object {
@@ -415,7 +415,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8020))
 // CS Name: ::OVRTelemetryConstants::SBB::AnnotationType*
 class CORDL_TYPE __OVRTelemetryConstants__SBB__AnnotationType : public ::System::Object {
@@ -448,7 +448,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8021))
 // CS Name: ::OVRTelemetryConstants::SBB*
 class CORDL_TYPE __OVRTelemetryConstants__SBB : public ::System::Object {
@@ -482,7 +482,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8022))
 // CS Name: ::OVRTelemetryConstants*
 class CORDL_TYPE OVRTelemetryConstants : public ::System::Object {

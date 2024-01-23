@@ -23,64 +23,65 @@ MARK_REF_PTR_T(::HMUI::CurvedCanvasSettingsHelper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13526))
 // CS Name: ::HMUI::CurvedCanvasSettingsHelper*
 class CORDL_TYPE CurvedCanvasSettingsHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cachedCanvas, offset 0x10, size 0x8
-  __declspec(property(get = __get__cachedCanvas, put = __set__cachedCanvas))::UnityEngine::Canvas* _cachedCanvas;
+  __declspec(property(get = __cordl_internal_get__cachedCanvas, put = __cordl_internal_set__cachedCanvas))::UnityW<::UnityEngine::Canvas> _cachedCanvas;
 
   /// @brief Field _cachedCanvasIsRootCanvas, offset 0x18, size 0x1
-  __declspec(property(get = __get__cachedCanvasIsRootCanvas, put = __set__cachedCanvasIsRootCanvas)) bool _cachedCanvasIsRootCanvas;
+  __declspec(property(get = __cordl_internal_get__cachedCanvasIsRootCanvas, put = __cordl_internal_set__cachedCanvasIsRootCanvas)) bool _cachedCanvasIsRootCanvas;
 
   /// @brief Field _curvedCanvasSettings, offset 0x20, size 0x8
-  __declspec(property(get = __get__curvedCanvasSettings, put = __set__curvedCanvasSettings))::HMUI::CurvedCanvasSettings* _curvedCanvasSettings;
+  __declspec(property(get = __cordl_internal_get__curvedCanvasSettings, put = __cordl_internal_set__curvedCanvasSettings))::UnityW<::HMUI::CurvedCanvasSettings> _curvedCanvasSettings;
 
   /// @brief Field _hasCachedData, offset 0x28, size 0x1
-  __declspec(property(get = __get__hasCachedData, put = __set__hasCachedData)) bool _hasCachedData;
+  __declspec(property(get = __cordl_internal_get__hasCachedData, put = __cordl_internal_set__hasCachedData)) bool _hasCachedData;
 
   /// @brief Field _curvedCanvasCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__curvedCanvasCache,
-                             put = setStaticF__curvedCanvasCache))::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* _curvedCanvasCache;
+  static __declspec(
+      property(get = getStaticF__curvedCanvasCache,
+               put = setStaticF__curvedCanvasCache))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* _curvedCanvasCache;
 
-  constexpr ::UnityEngine::Canvas*& __get__cachedCanvas();
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get__cachedCanvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& __get__cachedCanvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__cachedCanvas() const;
 
-  constexpr void __set__cachedCanvas(::UnityEngine::Canvas* value);
+  constexpr void __cordl_internal_set__cachedCanvas(::UnityW<::UnityEngine::Canvas> value);
 
-  constexpr bool& __get__cachedCanvasIsRootCanvas();
+  constexpr bool& __cordl_internal_get__cachedCanvasIsRootCanvas();
 
-  constexpr bool const& __get__cachedCanvasIsRootCanvas() const;
+  constexpr bool const& __cordl_internal_get__cachedCanvasIsRootCanvas() const;
 
-  constexpr void __set__cachedCanvasIsRootCanvas(bool value);
+  constexpr void __cordl_internal_set__cachedCanvasIsRootCanvas(bool value);
 
-  constexpr ::HMUI::CurvedCanvasSettings*& __get__curvedCanvasSettings();
+  constexpr ::UnityW<::HMUI::CurvedCanvasSettings>& __cordl_internal_get__curvedCanvasSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettings*> const& __get__curvedCanvasSettings() const;
+  constexpr ::UnityW<::HMUI::CurvedCanvasSettings> const& __cordl_internal_get__curvedCanvasSettings() const;
 
-  constexpr void __set__curvedCanvasSettings(::HMUI::CurvedCanvasSettings* value);
+  constexpr void __cordl_internal_set__curvedCanvasSettings(::UnityW<::HMUI::CurvedCanvasSettings> value);
 
-  constexpr bool& __get__hasCachedData();
+  constexpr bool& __cordl_internal_get__hasCachedData();
 
-  constexpr bool const& __get__hasCachedData() const;
+  constexpr bool const& __cordl_internal_get__hasCachedData() const;
 
-  constexpr void __set__hasCachedData(bool value);
+  constexpr void __cordl_internal_set__hasCachedData(bool value);
 
-  static inline void setStaticF__curvedCanvasCache(::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* value);
+  static inline void setStaticF__curvedCanvasCache(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* getStaticF__curvedCanvasCache();
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* getStaticF__curvedCanvasCache();
 
   /// @brief Method Reset, addr 0x211b4c0, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   /// @brief Method GetCurvedCanvasSettings, addr 0x211b4d4, size 0x1ec, virtual false, abstract: false, final false
-  inline ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
+  inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
 
   /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x211b6c0, size 0x110, virtual false, abstract: false, final false
-  static inline ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
+  static inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::HMUI::CurvedCanvasSettingsHelper* New_ctor();
 
@@ -102,13 +103,13 @@ protected:
 
 public:
   /// @brief Field _cachedCanvas, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Canvas* ____cachedCanvas;
+  ::UnityW<::UnityEngine::Canvas> ____cachedCanvas;
 
   /// @brief Field _cachedCanvasIsRootCanvas, offset: 0x18, size: 0x1, def value: None
   bool ____cachedCanvasIsRootCanvas;
 
   /// @brief Field _curvedCanvasSettings, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::CurvedCanvasSettings* ____curvedCanvasSettings;
+  ::UnityW<::HMUI::CurvedCanvasSettings> ____curvedCanvasSettings;
 
   /// @brief Field _hasCachedData, offset: 0x28, size: 0x1, def value: None
   bool ____hasCachedData;

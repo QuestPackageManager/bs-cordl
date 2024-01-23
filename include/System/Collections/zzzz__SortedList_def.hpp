@@ -80,38 +80,38 @@ MARK_REF_PTR_T(::System::Collections::__SortedList__ValueList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3779))
 // CS Name: ::SortedList::SortedListEnumerator*
 class CORDL_TYPE __SortedList__SortedListEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _sortedList, offset 0x10, size 0x8
-  __declspec(property(get = __get__sortedList, put = __set__sortedList))::System::Collections::SortedList* _sortedList;
+  __declspec(property(get = __cordl_internal_get__sortedList, put = __cordl_internal_set__sortedList))::System::Collections::SortedList* _sortedList;
 
   /// @brief Field _key, offset 0x18, size 0x8
-  __declspec(property(get = __get__key, put = __set__key))::System::Object* _key;
+  __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key))::System::Object* _key;
 
   /// @brief Field _value, offset 0x20, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::System::Object* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::System::Object* _value;
 
   /// @brief Field _index, offset 0x28, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _startIndex, offset 0x2c, size 0x4
-  __declspec(property(get = __get__startIndex, put = __set__startIndex)) int32_t _startIndex;
+  __declspec(property(get = __cordl_internal_get__startIndex, put = __cordl_internal_set__startIndex)) int32_t _startIndex;
 
   /// @brief Field _endIndex, offset 0x30, size 0x4
-  __declspec(property(get = __get__endIndex, put = __set__endIndex)) int32_t _endIndex;
+  __declspec(property(get = __cordl_internal_get__endIndex, put = __cordl_internal_set__endIndex)) int32_t _endIndex;
 
   /// @brief Field _version, offset 0x34, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _current, offset 0x38, size 0x1
-  __declspec(property(get = __get__current, put = __set__current)) bool _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) bool _current;
 
   /// @brief Field _getObjectRetType, offset 0x3c, size 0x4
-  __declspec(property(get = __get__getObjectRetType, put = __set__getObjectRetType)) int32_t _getObjectRetType;
+  __declspec(property(get = __cordl_internal_get__getObjectRetType, put = __cordl_internal_set__getObjectRetType)) int32_t _getObjectRetType;
 
   __declspec(property(get = get_Key))::System::Object* Key;
 
@@ -139,59 +139,59 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::SortedList*& __get__sortedList();
+  constexpr ::System::Collections::SortedList*& __cordl_internal_get__sortedList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __get__sortedList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __cordl_internal_get__sortedList() const;
 
-  constexpr void __set__sortedList(::System::Collections::SortedList* value);
+  constexpr void __cordl_internal_set__sortedList(::System::Collections::SortedList* value);
 
-  constexpr ::System::Object*& __get__key();
+  constexpr ::System::Object*& __cordl_internal_get__key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__key() const;
 
-  constexpr void __set__key(::System::Object* value);
+  constexpr void __cordl_internal_set__key(::System::Object* value);
 
-  constexpr ::System::Object*& __get__value();
+  constexpr ::System::Object*& __cordl_internal_get__value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::System::Object* value);
+  constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr int32_t& __get__startIndex();
+  constexpr int32_t& __cordl_internal_get__startIndex();
 
-  constexpr int32_t const& __get__startIndex() const;
+  constexpr int32_t const& __cordl_internal_get__startIndex() const;
 
-  constexpr void __set__startIndex(int32_t value);
+  constexpr void __cordl_internal_set__startIndex(int32_t value);
 
-  constexpr int32_t& __get__endIndex();
+  constexpr int32_t& __cordl_internal_get__endIndex();
 
-  constexpr int32_t const& __get__endIndex() const;
+  constexpr int32_t const& __cordl_internal_get__endIndex() const;
 
-  constexpr void __set__endIndex(int32_t value);
+  constexpr void __cordl_internal_set__endIndex(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr bool& __get__current();
+  constexpr bool& __cordl_internal_get__current();
 
-  constexpr bool const& __get__current() const;
+  constexpr bool const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(bool value);
+  constexpr void __cordl_internal_set__current(bool value);
 
-  constexpr int32_t& __get__getObjectRetType();
+  constexpr int32_t& __cordl_internal_get__getObjectRetType();
 
-  constexpr int32_t const& __get__getObjectRetType() const;
+  constexpr int32_t const& __cordl_internal_get__getObjectRetType() const;
 
-  constexpr void __set__getObjectRetType(int32_t value);
+  constexpr void __cordl_internal_set__getObjectRetType(int32_t value);
 
   static inline ::System::Collections::__SortedList__SortedListEnumerator* New_ctor(::System::Collections::SortedList* sortedList, int32_t index, int32_t count, int32_t getObjRetType);
 
@@ -288,14 +288,14 @@ static_assert(offsetof(::System::Collections::__SortedList__SortedListEnumerator
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3780))
 // CS Name: ::SortedList::KeyList*
 class CORDL_TYPE __SortedList__KeyList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sortedList, offset 0x10, size 0x8
-  __declspec(property(get = __get_sortedList, put = __set_sortedList))::System::Collections::SortedList* sortedList;
+  __declspec(property(get = __cordl_internal_get_sortedList, put = __cordl_internal_set_sortedList))::System::Collections::SortedList* sortedList;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -327,11 +327,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::SortedList*& __get_sortedList();
+  constexpr ::System::Collections::SortedList*& __cordl_internal_get_sortedList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __get_sortedList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __cordl_internal_get_sortedList() const;
 
-  constexpr void __set_sortedList(::System::Collections::SortedList* value);
+  constexpr void __cordl_internal_set_sortedList(::System::Collections::SortedList* value);
 
   static inline ::System::Collections::__SortedList__KeyList* New_ctor(::System::Collections::SortedList* sortedList);
 
@@ -415,14 +415,14 @@ static_assert(offsetof(::System::Collections::__SortedList__KeyList, ___sortedLi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3781))
 // CS Name: ::SortedList::ValueList*
 class CORDL_TYPE __SortedList__ValueList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sortedList, offset 0x10, size 0x8
-  __declspec(property(get = __get_sortedList, put = __set_sortedList))::System::Collections::SortedList* sortedList;
+  __declspec(property(get = __cordl_internal_get_sortedList, put = __cordl_internal_set_sortedList))::System::Collections::SortedList* sortedList;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -454,11 +454,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::SortedList*& __get_sortedList();
+  constexpr ::System::Collections::SortedList*& __cordl_internal_get_sortedList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __get_sortedList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __cordl_internal_get_sortedList() const;
 
-  constexpr void __set_sortedList(::System::Collections::SortedList* value);
+  constexpr void __cordl_internal_set_sortedList(::System::Collections::SortedList* value);
 
   static inline ::System::Collections::__SortedList__ValueList* New_ctor(::System::Collections::SortedList* sortedList);
 
@@ -542,7 +542,7 @@ static_assert(offsetof(::System::Collections::__SortedList__ValueList, ___sorted
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3782))
 // CS Name: ::SortedList::SortedListDebugView*
 class CORDL_TYPE __SortedList__SortedListDebugView : public ::System::Object {
@@ -572,7 +572,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__SortedLis
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3783))
 // CS Name: ::System.Collections::SortedList*
 class CORDL_TYPE SortedList : public ::System::Object {
@@ -589,28 +589,28 @@ public:
   using SyncSortedList = ::System::Collections::__SortedList__SyncSortedList;
 
   /// @brief Field keys, offset 0x10, size 0x8
-  __declspec(property(get = __get_keys, put = __set_keys))::ArrayW<::System::Object*, ::Array<::System::Object*>*> keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::ArrayW<::System::Object*, ::Array<::System::Object*>*> keys;
 
   /// @brief Field values, offset 0x18, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::ArrayW<::System::Object*, ::Array<::System::Object*>*> values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::ArrayW<::System::Object*, ::Array<::System::Object*>*> values;
 
   /// @brief Field _size, offset 0x20, size 0x4
-  __declspec(property(get = __get__size, put = __set__size)) int32_t _size;
+  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
 
   /// @brief Field version, offset 0x24, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::IComparer* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::IComparer* comparer;
 
   /// @brief Field keyList, offset 0x30, size 0x8
-  __declspec(property(get = __get_keyList, put = __set_keyList))::System::Collections::__SortedList__KeyList* keyList;
+  __declspec(property(get = __cordl_internal_get_keyList, put = __cordl_internal_set_keyList))::System::Collections::__SortedList__KeyList* keyList;
 
   /// @brief Field valueList, offset 0x38, size 0x8
-  __declspec(property(get = __get_valueList, put = __set_valueList))::System::Collections::__SortedList__ValueList* valueList;
+  __declspec(property(get = __cordl_internal_get_valueList, put = __cordl_internal_set_valueList))::System::Collections::__SortedList__ValueList* valueList;
 
   /// @brief Field _syncRoot, offset 0x40, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(put = set_Capacity)) int32_t Capacity;
 
@@ -654,53 +654,53 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_keys();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_keys();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_keys() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_keys() const;
 
-  constexpr void __set_keys(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_keys(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_values();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_values();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_values() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_values(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr int32_t& __get__size();
+  constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr int32_t const& __get__size() const;
+  constexpr int32_t const& __cordl_internal_get__size() const;
 
-  constexpr void __set__size(int32_t value);
+  constexpr void __cordl_internal_set__size(int32_t value);
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr ::System::Collections::IComparer*& __get_comparer();
+  constexpr ::System::Collections::IComparer*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::IComparer* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::IComparer* value);
 
-  constexpr ::System::Collections::__SortedList__KeyList*& __get_keyList();
+  constexpr ::System::Collections::__SortedList__KeyList*& __cordl_internal_get_keyList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::__SortedList__KeyList*> const& __get_keyList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::__SortedList__KeyList*> const& __cordl_internal_get_keyList() const;
 
-  constexpr void __set_keyList(::System::Collections::__SortedList__KeyList* value);
+  constexpr void __cordl_internal_set_keyList(::System::Collections::__SortedList__KeyList* value);
 
-  constexpr ::System::Collections::__SortedList__ValueList*& __get_valueList();
+  constexpr ::System::Collections::__SortedList__ValueList*& __cordl_internal_get_valueList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::__SortedList__ValueList*> const& __get_valueList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::__SortedList__ValueList*> const& __cordl_internal_get_valueList() const;
 
-  constexpr void __set_valueList(::System::Collections::__SortedList__ValueList* value);
+  constexpr void __cordl_internal_set_valueList(::System::Collections::__SortedList__ValueList* value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::System::Collections::SortedList* New_ctor();
 

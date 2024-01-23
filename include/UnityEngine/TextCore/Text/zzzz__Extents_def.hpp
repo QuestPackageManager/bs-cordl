@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::Extents);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13694))
 // CS Name: ::UnityEngine.TextCore.Text::Extents
 struct CORDL_TYPE Extents {

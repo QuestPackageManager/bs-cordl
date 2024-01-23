@@ -25,35 +25,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1287))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsAeadCipher*
 class CORDL_TYPE TlsAeadCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field macSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_macSize, put = __set_macSize)) int32_t macSize;
+  __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
 
   /// @brief Field record_iv_length, offset 0x1c, size 0x4
-  __declspec(property(get = __get_record_iv_length, put = __set_record_iv_length)) int32_t record_iv_length;
+  __declspec(property(get = __cordl_internal_get_record_iv_length, put = __cordl_internal_set_record_iv_length)) int32_t record_iv_length;
 
   /// @brief Field encryptCipher, offset 0x20, size 0x8
-  __declspec(property(get = __get_encryptCipher, put = __set_encryptCipher))::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* encryptCipher;
+  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher))::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* encryptCipher;
 
   /// @brief Field decryptCipher, offset 0x28, size 0x8
-  __declspec(property(get = __get_decryptCipher, put = __set_decryptCipher))::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* decryptCipher;
+  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher))::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* decryptCipher;
 
   /// @brief Field encryptImplicitNonce, offset 0x30, size 0x8
-  __declspec(property(get = __get_encryptImplicitNonce, put = __set_encryptImplicitNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> encryptImplicitNonce;
+  __declspec(property(get = __cordl_internal_get_encryptImplicitNonce, put = __cordl_internal_set_encryptImplicitNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> encryptImplicitNonce;
 
   /// @brief Field decryptImplicitNonce, offset 0x38, size 0x8
-  __declspec(property(get = __get_decryptImplicitNonce, put = __set_decryptImplicitNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> decryptImplicitNonce;
+  __declspec(property(get = __cordl_internal_get_decryptImplicitNonce, put = __cordl_internal_set_decryptImplicitNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> decryptImplicitNonce;
 
   /// @brief Field nonceMode, offset 0x40, size 0x4
-  __declspec(property(get = __get_nonceMode, put = __set_nonceMode)) int32_t nonceMode;
+  __declspec(property(get = __cordl_internal_get_nonceMode, put = __cordl_internal_set_nonceMode)) int32_t nonceMode;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
@@ -61,53 +61,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_context();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr int32_t& __get_macSize();
+  constexpr int32_t& __cordl_internal_get_macSize();
 
-  constexpr int32_t const& __get_macSize() const;
+  constexpr int32_t const& __cordl_internal_get_macSize() const;
 
-  constexpr void __set_macSize(int32_t value);
+  constexpr void __cordl_internal_set_macSize(int32_t value);
 
-  constexpr int32_t& __get_record_iv_length();
+  constexpr int32_t& __cordl_internal_get_record_iv_length();
 
-  constexpr int32_t const& __get_record_iv_length() const;
+  constexpr int32_t const& __cordl_internal_get_record_iv_length() const;
 
-  constexpr void __set_record_iv_length(int32_t value);
+  constexpr void __cordl_internal_set_record_iv_length(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*& __get_encryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*& __cordl_internal_get_encryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*> const& __get_encryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*> const& __cordl_internal_get_encryptCipher() const;
 
-  constexpr void __set_encryptCipher(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* value);
+  constexpr void __cordl_internal_set_encryptCipher(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*& __get_decryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*& __cordl_internal_get_decryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*> const& __get_decryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*> const& __cordl_internal_get_decryptCipher() const;
 
-  constexpr void __set_decryptCipher(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* value);
+  constexpr void __cordl_internal_set_decryptCipher(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_encryptImplicitNonce();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encryptImplicitNonce();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_encryptImplicitNonce() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encryptImplicitNonce() const;
 
-  constexpr void __set_encryptImplicitNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_encryptImplicitNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_decryptImplicitNonce();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_decryptImplicitNonce();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_decryptImplicitNonce() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_decryptImplicitNonce() const;
 
-  constexpr void __set_decryptImplicitNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_decryptImplicitNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_nonceMode();
+  constexpr int32_t& __cordl_internal_get_nonceMode();
 
-  constexpr int32_t const& __get_nonceMode() const;
+  constexpr int32_t const& __cordl_internal_get_nonceMode() const;
 
-  constexpr void __set_nonceMode(int32_t value);
+  constexpr void __cordl_internal_set_nonceMode(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                           ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,

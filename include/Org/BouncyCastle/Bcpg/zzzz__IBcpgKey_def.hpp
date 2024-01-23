@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::IBcpgKey);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(562))
 // CS Name: ::Org.BouncyCastle.Bcpg::IBcpgKey*
 class CORDL_TYPE IBcpgKey {

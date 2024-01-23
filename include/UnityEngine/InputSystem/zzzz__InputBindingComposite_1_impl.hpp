@@ -38,12 +38,12 @@ inline ::System::Object* UnityEngine::InputSystem::InputBindingComposite_1<TValu
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, context);
 }
 template <typename TValue> inline ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>* UnityEngine::InputSystem::InputBindingComposite_1<TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::InputSystem::InputBindingComposite_1<TValue>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputBindingComposite_1<TValue>*>());
 }
 template <typename TValue> inline void UnityEngine::InputSystem::InputBindingComposite_1<TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBindingComposite_1<TValue>*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

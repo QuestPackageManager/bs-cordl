@@ -100,7 +100,7 @@ MARK_REF_PTR_T(::System::Net::__WebRequest____c__DisplayClass79_0);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9093))
 // CS Name: ::WebRequest::DesignerWebRequestCreate*
 class CORDL_TYPE __WebRequest__DesignerWebRequestCreate : public ::System::Object {
@@ -144,29 +144,29 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequest__Desig
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9094))
 // CS Name: ::WebRequest::<>c__DisplayClass78_0*
 class CORDL_TYPE __WebRequest____c__DisplayClass78_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field currentUser, offset 0x10, size 0x8
-  __declspec(property(get = __get_currentUser, put = __set_currentUser))::System::Security::Principal::WindowsIdentity* currentUser;
+  __declspec(property(get = __cordl_internal_get_currentUser, put = __cordl_internal_set_currentUser))::System::Security::Principal::WindowsIdentity* currentUser;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Net::WebRequest* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::WebRequest* __4__this;
 
-  constexpr ::System::Security::Principal::WindowsIdentity*& __get_currentUser();
+  constexpr ::System::Security::Principal::WindowsIdentity*& __cordl_internal_get_currentUser();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::WindowsIdentity*> const& __get_currentUser() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::WindowsIdentity*> const& __cordl_internal_get_currentUser() const;
 
-  constexpr void __set_currentUser(::System::Security::Principal::WindowsIdentity* value);
+  constexpr void __cordl_internal_set_currentUser(::System::Security::Principal::WindowsIdentity* value);
 
-  constexpr ::System::Net::WebRequest*& __get___4__this();
+  constexpr ::System::Net::WebRequest*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Net::WebRequest* value);
+  constexpr void __cordl_internal_set___4__this(::System::Net::WebRequest* value);
 
   static inline ::System::Net::__WebRequest____c__DisplayClass78_0* New_ctor();
 
@@ -210,29 +210,29 @@ static_assert(offsetof(::System::Net::__WebRequest____c__DisplayClass78_0, _____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9095))
 // CS Name: ::WebRequest::<>c__DisplayClass79_0*
 class CORDL_TYPE __WebRequest____c__DisplayClass79_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field currentUser, offset 0x10, size 0x8
-  __declspec(property(get = __get_currentUser, put = __set_currentUser))::System::Security::Principal::WindowsIdentity* currentUser;
+  __declspec(property(get = __cordl_internal_get_currentUser, put = __cordl_internal_set_currentUser))::System::Security::Principal::WindowsIdentity* currentUser;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Net::WebRequest* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::WebRequest* __4__this;
 
-  constexpr ::System::Security::Principal::WindowsIdentity*& __get_currentUser();
+  constexpr ::System::Security::Principal::WindowsIdentity*& __cordl_internal_get_currentUser();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::WindowsIdentity*> const& __get_currentUser() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::WindowsIdentity*> const& __cordl_internal_get_currentUser() const;
 
-  constexpr void __set_currentUser(::System::Security::Principal::WindowsIdentity* value);
+  constexpr void __cordl_internal_set_currentUser(::System::Security::Principal::WindowsIdentity* value);
 
-  constexpr ::System::Net::WebRequest*& __get___4__this();
+  constexpr ::System::Net::WebRequest*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Net::WebRequest* value);
+  constexpr void __cordl_internal_set___4__this(::System::Net::WebRequest* value);
 
   static inline ::System::Net::__WebRequest____c__DisplayClass79_0* New_ctor();
 
@@ -276,7 +276,7 @@ static_assert(offsetof(::System::Net::__WebRequest____c__DisplayClass79_0, _____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9365)), TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(2997))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(9365))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9096))
 // CS Name: ::System.Net::WebRequest*
 class CORDL_TYPE WebRequest : public ::System::MarshalByRefObject {
@@ -289,19 +289,19 @@ public:
   using DesignerWebRequestCreate = ::System::Net::__WebRequest__DesignerWebRequestCreate;
 
   /// @brief Field m_AuthenticationLevel, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_AuthenticationLevel, put = __set_m_AuthenticationLevel))::System::Net::Security::AuthenticationLevel m_AuthenticationLevel;
+  __declspec(property(get = __cordl_internal_get_m_AuthenticationLevel, put = __cordl_internal_set_m_AuthenticationLevel))::System::Net::Security::AuthenticationLevel m_AuthenticationLevel;
 
   /// @brief Field m_ImpersonationLevel, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_ImpersonationLevel, put = __set_m_ImpersonationLevel))::System::Security::Principal::TokenImpersonationLevel m_ImpersonationLevel;
+  __declspec(property(get = __cordl_internal_get_m_ImpersonationLevel, put = __cordl_internal_set_m_ImpersonationLevel))::System::Security::Principal::TokenImpersonationLevel m_ImpersonationLevel;
 
   /// @brief Field m_CachePolicy, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_CachePolicy, put = __set_m_CachePolicy))::System::Net::Cache::RequestCachePolicy* m_CachePolicy;
+  __declspec(property(get = __cordl_internal_get_m_CachePolicy, put = __cordl_internal_set_m_CachePolicy))::System::Net::Cache::RequestCachePolicy* m_CachePolicy;
 
   /// @brief Field m_CacheProtocol, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_CacheProtocol, put = __set_m_CacheProtocol))::System::Net::Cache::RequestCacheProtocol* m_CacheProtocol;
+  __declspec(property(get = __cordl_internal_get_m_CacheProtocol, put = __cordl_internal_set_m_CacheProtocol))::System::Net::Cache::RequestCacheProtocol* m_CacheProtocol;
 
   /// @brief Field m_CacheBinding, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_CacheBinding, put = __set_m_CacheBinding))::System::Net::Cache::RequestCacheBinding* m_CacheBinding;
+  __declspec(property(get = __cordl_internal_get_m_CacheBinding, put = __cordl_internal_set_m_CacheBinding))::System::Net::Cache::RequestCacheBinding* m_CacheBinding;
 
   /// @brief Field s_PrefixList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_PrefixList, put = setStaticF_s_PrefixList))::System::Collections::ArrayList* s_PrefixList;
@@ -351,35 +351,35 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Net::Security::AuthenticationLevel& __get_m_AuthenticationLevel();
+  constexpr ::System::Net::Security::AuthenticationLevel& __cordl_internal_get_m_AuthenticationLevel();
 
-  constexpr ::System::Net::Security::AuthenticationLevel const& __get_m_AuthenticationLevel() const;
+  constexpr ::System::Net::Security::AuthenticationLevel const& __cordl_internal_get_m_AuthenticationLevel() const;
 
-  constexpr void __set_m_AuthenticationLevel(::System::Net::Security::AuthenticationLevel value);
+  constexpr void __cordl_internal_set_m_AuthenticationLevel(::System::Net::Security::AuthenticationLevel value);
 
-  constexpr ::System::Security::Principal::TokenImpersonationLevel& __get_m_ImpersonationLevel();
+  constexpr ::System::Security::Principal::TokenImpersonationLevel& __cordl_internal_get_m_ImpersonationLevel();
 
-  constexpr ::System::Security::Principal::TokenImpersonationLevel const& __get_m_ImpersonationLevel() const;
+  constexpr ::System::Security::Principal::TokenImpersonationLevel const& __cordl_internal_get_m_ImpersonationLevel() const;
 
-  constexpr void __set_m_ImpersonationLevel(::System::Security::Principal::TokenImpersonationLevel value);
+  constexpr void __cordl_internal_set_m_ImpersonationLevel(::System::Security::Principal::TokenImpersonationLevel value);
 
-  constexpr ::System::Net::Cache::RequestCachePolicy*& __get_m_CachePolicy();
+  constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get_m_CachePolicy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __get_m_CachePolicy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __cordl_internal_get_m_CachePolicy() const;
 
-  constexpr void __set_m_CachePolicy(::System::Net::Cache::RequestCachePolicy* value);
+  constexpr void __cordl_internal_set_m_CachePolicy(::System::Net::Cache::RequestCachePolicy* value);
 
-  constexpr ::System::Net::Cache::RequestCacheProtocol*& __get_m_CacheProtocol();
+  constexpr ::System::Net::Cache::RequestCacheProtocol*& __cordl_internal_get_m_CacheProtocol();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheProtocol*> const& __get_m_CacheProtocol() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheProtocol*> const& __cordl_internal_get_m_CacheProtocol() const;
 
-  constexpr void __set_m_CacheProtocol(::System::Net::Cache::RequestCacheProtocol* value);
+  constexpr void __cordl_internal_set_m_CacheProtocol(::System::Net::Cache::RequestCacheProtocol* value);
 
-  constexpr ::System::Net::Cache::RequestCacheBinding*& __get_m_CacheBinding();
+  constexpr ::System::Net::Cache::RequestCacheBinding*& __cordl_internal_get_m_CacheBinding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheBinding*> const& __get_m_CacheBinding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheBinding*> const& __cordl_internal_get_m_CacheBinding() const;
 
-  constexpr void __set_m_CacheBinding(::System::Net::Cache::RequestCacheBinding* value);
+  constexpr void __cordl_internal_set_m_CacheBinding(::System::Net::Cache::RequestCacheBinding* value);
 
   static inline void setStaticF_s_PrefixList(::System::Collections::ArrayList* value);
 

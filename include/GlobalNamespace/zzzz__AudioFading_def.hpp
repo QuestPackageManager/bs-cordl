@@ -18,47 +18,47 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioFading);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4045))
 // CS Name: ::AudioFading*
 class CORDL_TYPE AudioFading : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _smooth, offset 0x20, size 0x4
-  __declspec(property(get = __get__smooth, put = __set__smooth)) float_t _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _fadeInOnStart, offset 0x24, size 0x1
-  __declspec(property(get = __get__fadeInOnStart, put = __set__fadeInOnStart)) bool _fadeInOnStart;
+  __declspec(property(get = __cordl_internal_get__fadeInOnStart, put = __cordl_internal_set__fadeInOnStart)) bool _fadeInOnStart;
 
   /// @brief Field _targetVolume, offset 0x28, size 0x4
-  __declspec(property(get = __get__targetVolume, put = __set__targetVolume)) float_t _targetVolume;
+  __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get__smooth();
+  constexpr float_t& __cordl_internal_get__smooth();
 
-  constexpr float_t const& __get__smooth() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(float_t value);
+  constexpr void __cordl_internal_set__smooth(float_t value);
 
-  constexpr bool& __get__fadeInOnStart();
+  constexpr bool& __cordl_internal_get__fadeInOnStart();
 
-  constexpr bool const& __get__fadeInOnStart() const;
+  constexpr bool const& __cordl_internal_get__fadeInOnStart() const;
 
-  constexpr void __set__fadeInOnStart(bool value);
+  constexpr void __cordl_internal_set__fadeInOnStart(bool value);
 
-  constexpr float_t& __get__targetVolume();
+  constexpr float_t& __cordl_internal_get__targetVolume();
 
-  constexpr float_t const& __get__targetVolume() const;
+  constexpr float_t const& __cordl_internal_get__targetVolume() const;
 
-  constexpr void __set__targetVolume(float_t value);
+  constexpr void __cordl_internal_set__targetVolume(float_t value);
 
   /// @brief Method Start, addr 0x222ae60, size 0x5c, virtual false, abstract: false, final false
   inline void Start();
@@ -92,7 +92,7 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;

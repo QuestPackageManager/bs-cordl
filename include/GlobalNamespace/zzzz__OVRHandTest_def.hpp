@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRHandTest____c);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8117))
 // CS Name: ::OVRHandTest::BoolMonitor::BoolGenerator*
 class CORDL_TYPE __OVRHandTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
@@ -107,7 +107,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8118))
 // CS Name: ::OVRHandTest::BoolMonitor*
 class CORDL_TYPE __OVRHandTest__BoolMonitor : public ::System::Object {
@@ -116,67 +116,67 @@ public:
   using BoolGenerator = ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator;
 
   /// @brief Field m_name, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_name, put = __set_m_name))::StringW m_name;
+  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
 
   /// @brief Field m_generator, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_generator, put = __set_m_generator))::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* m_generator;
+  __declspec(property(get = __cordl_internal_get_m_generator, put = __cordl_internal_set_m_generator))::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* m_generator;
 
   /// @brief Field m_prevValue, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_prevValue, put = __set_m_prevValue)) bool m_prevValue;
+  __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
   /// @brief Field m_currentValue, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_currentValue, put = __set_m_currentValue)) bool m_currentValue;
+  __declspec(property(get = __cordl_internal_get_m_currentValue, put = __cordl_internal_set_m_currentValue)) bool m_currentValue;
 
   /// @brief Field m_currentValueRecentlyChanged, offset 0x22, size 0x1
-  __declspec(property(get = __get_m_currentValueRecentlyChanged, put = __set_m_currentValueRecentlyChanged)) bool m_currentValueRecentlyChanged;
+  __declspec(property(get = __cordl_internal_get_m_currentValueRecentlyChanged, put = __cordl_internal_set_m_currentValueRecentlyChanged)) bool m_currentValueRecentlyChanged;
 
   /// @brief Field m_displayTimeout, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_displayTimeout, put = __set_m_displayTimeout)) float_t m_displayTimeout;
+  __declspec(property(get = __cordl_internal_get_m_displayTimeout, put = __cordl_internal_set_m_displayTimeout)) float_t m_displayTimeout;
 
   /// @brief Field m_displayTimer, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_displayTimer, put = __set_m_displayTimer)) float_t m_displayTimer;
+  __declspec(property(get = __cordl_internal_get_m_displayTimer, put = __cordl_internal_set_m_displayTimer)) float_t m_displayTimer;
 
-  constexpr ::StringW& __get_m_name();
+  constexpr ::StringW& __cordl_internal_get_m_name();
 
-  constexpr ::StringW const& __get_m_name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
-  constexpr void __set_m_name(::StringW value);
+  constexpr void __cordl_internal_set_m_name(::StringW value);
 
-  constexpr ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator*& __get_m_generator();
+  constexpr ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator*& __cordl_internal_get_m_generator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator*> const& __get_m_generator() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator*> const& __cordl_internal_get_m_generator() const;
 
-  constexpr void __set_m_generator(::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* value);
+  constexpr void __cordl_internal_set_m_generator(::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* value);
 
-  constexpr bool& __get_m_prevValue();
+  constexpr bool& __cordl_internal_get_m_prevValue();
 
-  constexpr bool const& __get_m_prevValue() const;
+  constexpr bool const& __cordl_internal_get_m_prevValue() const;
 
-  constexpr void __set_m_prevValue(bool value);
+  constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  constexpr bool& __get_m_currentValue();
+  constexpr bool& __cordl_internal_get_m_currentValue();
 
-  constexpr bool const& __get_m_currentValue() const;
+  constexpr bool const& __cordl_internal_get_m_currentValue() const;
 
-  constexpr void __set_m_currentValue(bool value);
+  constexpr void __cordl_internal_set_m_currentValue(bool value);
 
-  constexpr bool& __get_m_currentValueRecentlyChanged();
+  constexpr bool& __cordl_internal_get_m_currentValueRecentlyChanged();
 
-  constexpr bool const& __get_m_currentValueRecentlyChanged() const;
+  constexpr bool const& __cordl_internal_get_m_currentValueRecentlyChanged() const;
 
-  constexpr void __set_m_currentValueRecentlyChanged(bool value);
+  constexpr void __cordl_internal_set_m_currentValueRecentlyChanged(bool value);
 
-  constexpr float_t& __get_m_displayTimeout();
+  constexpr float_t& __cordl_internal_get_m_displayTimeout();
 
-  constexpr float_t const& __get_m_displayTimeout() const;
+  constexpr float_t const& __cordl_internal_get_m_displayTimeout() const;
 
-  constexpr void __set_m_displayTimeout(float_t value);
+  constexpr void __cordl_internal_set_m_displayTimeout(float_t value);
 
-  constexpr float_t& __get_m_displayTimer();
+  constexpr float_t& __cordl_internal_get_m_displayTimer();
 
-  constexpr float_t const& __get_m_displayTimer() const;
+  constexpr float_t const& __cordl_internal_get_m_displayTimer() const;
 
-  constexpr void __set_m_displayTimer(float_t value);
+  constexpr void __cordl_internal_set_m_displayTimer(float_t value);
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
@@ -248,7 +248,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_displ
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8119))
 // CS Name: ::OVRHandTest::<>c*
 class CORDL_TYPE __OVRHandTest____c : public ::System::Object {
@@ -303,7 +303,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 372, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(7771))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8120))
 // CS Name: ::OVRHandTest*
 class CORDL_TYPE OVRHandTest : public ::UnityEngine::MonoBehaviour {
@@ -314,43 +314,43 @@ public:
   using BoolMonitor = ::GlobalNamespace::__OVRHandTest__BoolMonitor;
 
   /// @brief Field uiText, offset 0x18, size 0x8
-  __declspec(property(get = __get_uiText, put = __set_uiText))::UnityEngine::UI::Text* uiText;
+  __declspec(property(get = __cordl_internal_get_uiText, put = __cordl_internal_set_uiText))::UnityW<::UnityEngine::UI::Text> uiText;
 
   /// @brief Field monitors, offset 0x20, size 0x8
-  __declspec(property(get = __get_monitors, put = __set_monitors))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>* monitors;
+  __declspec(property(get = __cordl_internal_get_monitors, put = __cordl_internal_set_monitors))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>* monitors;
 
   /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::Text::StringBuilder* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::Text::StringBuilder* data;
 
   /// @brief Field hs_LH, offset 0x30, size 0x78
-  __declspec(property(get = __get_hs_LH, put = __set_hs_LH))::GlobalNamespace::__OVRPlugin__HandState hs_LH;
+  __declspec(property(get = __cordl_internal_get_hs_LH, put = __cordl_internal_set_hs_LH))::GlobalNamespace::__OVRPlugin__HandState hs_LH;
 
   /// @brief Field hs_RH, offset 0xa8, size 0x78
-  __declspec(property(get = __get_hs_RH, put = __set_hs_RH))::GlobalNamespace::__OVRPlugin__HandState hs_RH;
+  __declspec(property(get = __cordl_internal_get_hs_RH, put = __cordl_internal_set_hs_RH))::GlobalNamespace::__OVRPlugin__HandState hs_RH;
 
   /// @brief Field skel_LH, offset 0x120, size 0x20
-  __declspec(property(get = __get_skel_LH, put = __set_skel_LH))::GlobalNamespace::__OVRPlugin__Skeleton skel_LH;
+  __declspec(property(get = __cordl_internal_get_skel_LH, put = __cordl_internal_set_skel_LH))::GlobalNamespace::__OVRPlugin__Skeleton skel_LH;
 
   /// @brief Field skel_RH, offset 0x140, size 0x20
-  __declspec(property(get = __get_skel_RH, put = __set_skel_RH))::GlobalNamespace::__OVRPlugin__Skeleton skel_RH;
+  __declspec(property(get = __cordl_internal_get_skel_RH, put = __cordl_internal_set_skel_RH))::GlobalNamespace::__OVRPlugin__Skeleton skel_RH;
 
   /// @brief Field mesh_LH, offset 0x160, size 0x8
-  __declspec(property(get = __get_mesh_LH, put = __set_mesh_LH))::GlobalNamespace::__OVRPlugin__Mesh* mesh_LH;
+  __declspec(property(get = __cordl_internal_get_mesh_LH, put = __cordl_internal_set_mesh_LH))::GlobalNamespace::__OVRPlugin__Mesh* mesh_LH;
 
   /// @brief Field mesh_RH, offset 0x168, size 0x8
-  __declspec(property(get = __get_mesh_RH, put = __set_mesh_RH))::GlobalNamespace::__OVRPlugin__Mesh* mesh_RH;
+  __declspec(property(get = __cordl_internal_get_mesh_RH, put = __cordl_internal_set_mesh_RH))::GlobalNamespace::__OVRPlugin__Mesh* mesh_RH;
 
   /// @brief Field result_skel_LH, offset 0x170, size 0x1
-  __declspec(property(get = __get_result_skel_LH, put = __set_result_skel_LH)) bool result_skel_LH;
+  __declspec(property(get = __cordl_internal_get_result_skel_LH, put = __cordl_internal_set_result_skel_LH)) bool result_skel_LH;
 
   /// @brief Field result_skel_RH, offset 0x171, size 0x1
-  __declspec(property(get = __get_result_skel_RH, put = __set_result_skel_RH)) bool result_skel_RH;
+  __declspec(property(get = __cordl_internal_get_result_skel_RH, put = __cordl_internal_set_result_skel_RH)) bool result_skel_RH;
 
   /// @brief Field result_mesh_LH, offset 0x172, size 0x1
-  __declspec(property(get = __get_result_mesh_LH, put = __set_result_mesh_LH)) bool result_mesh_LH;
+  __declspec(property(get = __cordl_internal_get_result_mesh_LH, put = __cordl_internal_set_result_mesh_LH)) bool result_mesh_LH;
 
   /// @brief Field result_mesh_RH, offset 0x173, size 0x1
-  __declspec(property(get = __get_result_mesh_RH, put = __set_result_mesh_RH)) bool result_mesh_RH;
+  __declspec(property(get = __cordl_internal_get_result_mesh_RH, put = __cordl_internal_set_result_mesh_RH)) bool result_mesh_RH;
 
   /// @brief Field prevConnected, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_prevConnected, put = setStaticF_prevConnected))::StringW prevConnected;
@@ -358,83 +358,83 @@ public:
   /// @brief Field controllers, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_controllers, put = setStaticF_controllers))::GlobalNamespace::__OVRHandTest__BoolMonitor* controllers;
 
-  constexpr ::UnityEngine::UI::Text*& __get_uiText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_uiText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_uiText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_uiText() const;
 
-  constexpr void __set_uiText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>*& __get_monitors();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>*& __cordl_internal_get_monitors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>*> const& __get_monitors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>*> const& __cordl_internal_get_monitors() const;
 
-  constexpr void __set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>* value);
+  constexpr void __cordl_internal_set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>* value);
 
-  constexpr ::System::Text::StringBuilder*& __get_data();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_data(::System::Text::StringBuilder* value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__HandState& __get_hs_LH();
+  constexpr ::GlobalNamespace::__OVRPlugin__HandState& __cordl_internal_get_hs_LH();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__HandState const& __get_hs_LH() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__HandState const& __cordl_internal_get_hs_LH() const;
 
-  constexpr void __set_hs_LH(::GlobalNamespace::__OVRPlugin__HandState value);
+  constexpr void __cordl_internal_set_hs_LH(::GlobalNamespace::__OVRPlugin__HandState value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__HandState& __get_hs_RH();
+  constexpr ::GlobalNamespace::__OVRPlugin__HandState& __cordl_internal_get_hs_RH();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__HandState const& __get_hs_RH() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__HandState const& __cordl_internal_get_hs_RH() const;
 
-  constexpr void __set_hs_RH(::GlobalNamespace::__OVRPlugin__HandState value);
+  constexpr void __cordl_internal_set_hs_RH(::GlobalNamespace::__OVRPlugin__HandState value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton& __get_skel_LH();
+  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton& __cordl_internal_get_skel_LH();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton const& __get_skel_LH() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton const& __cordl_internal_get_skel_LH() const;
 
-  constexpr void __set_skel_LH(::GlobalNamespace::__OVRPlugin__Skeleton value);
+  constexpr void __cordl_internal_set_skel_LH(::GlobalNamespace::__OVRPlugin__Skeleton value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton& __get_skel_RH();
+  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton& __cordl_internal_get_skel_RH();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton const& __get_skel_RH() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton const& __cordl_internal_get_skel_RH() const;
 
-  constexpr void __set_skel_RH(::GlobalNamespace::__OVRPlugin__Skeleton value);
+  constexpr void __cordl_internal_set_skel_RH(::GlobalNamespace::__OVRPlugin__Skeleton value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Mesh*& __get_mesh_LH();
+  constexpr ::GlobalNamespace::__OVRPlugin__Mesh*& __cordl_internal_get_mesh_LH();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPlugin__Mesh*> const& __get_mesh_LH() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPlugin__Mesh*> const& __cordl_internal_get_mesh_LH() const;
 
-  constexpr void __set_mesh_LH(::GlobalNamespace::__OVRPlugin__Mesh* value);
+  constexpr void __cordl_internal_set_mesh_LH(::GlobalNamespace::__OVRPlugin__Mesh* value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Mesh*& __get_mesh_RH();
+  constexpr ::GlobalNamespace::__OVRPlugin__Mesh*& __cordl_internal_get_mesh_RH();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPlugin__Mesh*> const& __get_mesh_RH() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPlugin__Mesh*> const& __cordl_internal_get_mesh_RH() const;
 
-  constexpr void __set_mesh_RH(::GlobalNamespace::__OVRPlugin__Mesh* value);
+  constexpr void __cordl_internal_set_mesh_RH(::GlobalNamespace::__OVRPlugin__Mesh* value);
 
-  constexpr bool& __get_result_skel_LH();
+  constexpr bool& __cordl_internal_get_result_skel_LH();
 
-  constexpr bool const& __get_result_skel_LH() const;
+  constexpr bool const& __cordl_internal_get_result_skel_LH() const;
 
-  constexpr void __set_result_skel_LH(bool value);
+  constexpr void __cordl_internal_set_result_skel_LH(bool value);
 
-  constexpr bool& __get_result_skel_RH();
+  constexpr bool& __cordl_internal_get_result_skel_RH();
 
-  constexpr bool const& __get_result_skel_RH() const;
+  constexpr bool const& __cordl_internal_get_result_skel_RH() const;
 
-  constexpr void __set_result_skel_RH(bool value);
+  constexpr void __cordl_internal_set_result_skel_RH(bool value);
 
-  constexpr bool& __get_result_mesh_LH();
+  constexpr bool& __cordl_internal_get_result_mesh_LH();
 
-  constexpr bool const& __get_result_mesh_LH() const;
+  constexpr bool const& __cordl_internal_get_result_mesh_LH() const;
 
-  constexpr void __set_result_mesh_LH(bool value);
+  constexpr void __cordl_internal_set_result_mesh_LH(bool value);
 
-  constexpr bool& __get_result_mesh_RH();
+  constexpr bool& __cordl_internal_get_result_mesh_RH();
 
-  constexpr bool const& __get_result_mesh_RH() const;
+  constexpr bool const& __cordl_internal_get_result_mesh_RH() const;
 
-  constexpr void __set_result_mesh_RH(bool value);
+  constexpr void __cordl_internal_set_result_mesh_RH(bool value);
 
   static inline void setStaticF_prevConnected(::StringW value);
 
@@ -470,7 +470,7 @@ protected:
 
 public:
   /// @brief Field uiText, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___uiText;
+  ::UnityW<::UnityEngine::UI::Text> ___uiText;
 
   /// @brief Field monitors, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>* ___monitors;

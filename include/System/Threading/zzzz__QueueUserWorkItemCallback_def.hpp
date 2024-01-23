@@ -36,20 +36,20 @@ MARK_REF_PTR_T(::System::Threading::QueueUserWorkItemCallback);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2737))
 // CS Name: ::System.Threading::QueueUserWorkItemCallback*
 class CORDL_TYPE QueueUserWorkItemCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Threading::WaitCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Threading::WaitCallback* callback;
 
   /// @brief Field context, offset 0x18, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::System::Threading::ExecutionContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Threading::ExecutionContext* context;
 
   /// @brief Field state, offset 0x20, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::System::Object* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
 
   /// @brief Field ccb, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ccb, put = setStaticF_ccb))::System::Threading::ContextCallback* ccb;
@@ -60,23 +60,23 @@ public:
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
   constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  constexpr ::System::Threading::WaitCallback*& __get_callback();
+  constexpr ::System::Threading::WaitCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Threading::WaitCallback* value);
+  constexpr void __cordl_internal_set_callback(::System::Threading::WaitCallback* value);
 
-  constexpr ::System::Threading::ExecutionContext*& __get_context();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set_context(::System::Threading::ExecutionContext* value);
 
-  constexpr ::System::Object*& __get_state();
+  constexpr ::System::Object*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Object* value);
+  constexpr void __cordl_internal_set_state(::System::Object* value);
 
   static inline void setStaticF_ccb(::System::Threading::ContextCallback* value);
 

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMenuInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5401))
 // CS Name: ::MultiplayerMenuInstaller*
 class CORDL_TYPE MultiplayerMenuInstaller : public ::Zenject::MonoInstaller {

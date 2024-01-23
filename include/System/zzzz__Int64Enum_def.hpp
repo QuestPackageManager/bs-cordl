@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Int64Enum);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2596))
 // CS Name: ::System::Int64Enum
 struct CORDL_TYPE Int64Enum {

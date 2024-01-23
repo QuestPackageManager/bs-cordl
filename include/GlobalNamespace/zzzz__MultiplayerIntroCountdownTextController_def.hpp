@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdownTextController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5214))
 // CS Name: ::MultiplayerIntroCountdownTextController*
 class CORDL_TYPE MultiplayerIntroCountdownTextController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _texts, offset 0x18, size 0x8
-  __declspec(property(get = __get__texts, put = __set__texts))::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> _texts;
+  __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts))::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> _texts;
 
   __declspec(property(put = set_hide)) bool hide;
 
@@ -35,11 +35,11 @@ public:
 
   __declspec(property(get = get_alpha, put = set_alpha)) float_t alpha;
 
-  constexpr ::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*>& __get__texts();
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>& __cordl_internal_get__texts();
 
-  constexpr ::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> const& __get__texts() const;
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get__texts() const;
 
-  constexpr void __set__texts(::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> value);
+  constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
 
   /// @brief Method SetText, addr 0x224fc14, size 0x70, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
@@ -82,7 +82,7 @@ protected:
 
 public:
   /// @brief Field _texts, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> ____texts;
+  ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> ____texts;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

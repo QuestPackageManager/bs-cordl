@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::UIElements::EasingFunction);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7285))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7285))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7286))
 // CS Name: ::UnityEngine.UIElements::EasingFunction
 struct CORDL_TYPE EasingFunction {

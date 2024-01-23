@@ -46,7 +46,7 @@ MARK_VAL_T(::System::Xml::__XmlEventCache__XmlEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11451))
 // CS Name: ::XmlEventCache::XmlEventType
 struct CORDL_TYPE __XmlEventCache__XmlEventType {
@@ -192,7 +192,7 @@ static_assert(offsetof(::System::Xml::__XmlEventCache__XmlEventType, value__) ==
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11451))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11451))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11452))
 // CS Name: ::XmlEventCache::XmlEvent
 struct CORDL_TYPE __XmlEventCache__XmlEvent {
@@ -288,7 +288,7 @@ static_assert(offsetof(::System::Xml::__XmlEventCache__XmlEvent, o) == 0x20, "Of
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11592)), TypeDefinitionIndex(TypeDefinitionIndex(11455))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11455)), TypeDefinitionIndex(TypeDefinitionIndex(11592))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11453))
 // CS Name: ::System.Xml::XmlEventCache*
 class CORDL_TYPE XmlEventCache : public ::System::Xml::XmlRawWriter {
@@ -299,60 +299,62 @@ public:
   using XmlEventType = ::System::Xml::__XmlEventCache__XmlEventType;
 
   /// @brief Field pages, offset 0x20, size 0x8
-  __declspec(property(get = __get_pages,
-                      put = __set_pages))::System::Collections::Generic::List_1<::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>>* pages;
+  __declspec(
+      property(get = __cordl_internal_get_pages,
+               put = __cordl_internal_set_pages))::System::Collections::Generic::List_1<::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>>* pages;
 
   /// @brief Field pageCurr, offset 0x28, size 0x8
-  __declspec(property(get = __get_pageCurr, put = __set_pageCurr))::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*> pageCurr;
+  __declspec(property(get = __cordl_internal_get_pageCurr,
+                      put = __cordl_internal_set_pageCurr))::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*> pageCurr;
 
   /// @brief Field pageSize, offset 0x30, size 0x4
-  __declspec(property(get = __get_pageSize, put = __set_pageSize)) int32_t pageSize;
+  __declspec(property(get = __cordl_internal_get_pageSize, put = __cordl_internal_set_pageSize)) int32_t pageSize;
 
   /// @brief Field hasRootNode, offset 0x34, size 0x1
-  __declspec(property(get = __get_hasRootNode, put = __set_hasRootNode)) bool hasRootNode;
+  __declspec(property(get = __cordl_internal_get_hasRootNode, put = __cordl_internal_set_hasRootNode)) bool hasRootNode;
 
   /// @brief Field singleText, offset 0x38, size 0x38
-  __declspec(property(get = __get_singleText, put = __set_singleText))::System::Xml::Xsl::Runtime::StringConcat singleText;
+  __declspec(property(get = __cordl_internal_get_singleText, put = __cordl_internal_set_singleText))::System::Xml::Xsl::Runtime::StringConcat singleText;
 
   /// @brief Field baseUri, offset 0x70, size 0x8
-  __declspec(property(get = __get_baseUri, put = __set_baseUri))::StringW baseUri;
+  __declspec(property(get = __cordl_internal_get_baseUri, put = __cordl_internal_set_baseUri))::StringW baseUri;
 
-  constexpr ::System::Collections::Generic::List_1<::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>>*& __get_pages();
+  constexpr ::System::Collections::Generic::List_1<::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>>*& __cordl_internal_get_pages();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>>*> const&
-  __get_pages() const;
+  __cordl_internal_get_pages() const;
 
-  constexpr void __set_pages(::System::Collections::Generic::List_1<::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>>* value);
+  constexpr void __cordl_internal_set_pages(::System::Collections::Generic::List_1<::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>>* value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>& __get_pageCurr();
+  constexpr ::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*>& __cordl_internal_get_pageCurr();
 
-  constexpr ::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*> const& __get_pageCurr() const;
+  constexpr ::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*> const& __cordl_internal_get_pageCurr() const;
 
-  constexpr void __set_pageCurr(::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*> value);
+  constexpr void __cordl_internal_set_pageCurr(::ArrayW<::System::Xml::__XmlEventCache__XmlEvent, ::Array<::System::Xml::__XmlEventCache__XmlEvent>*> value);
 
-  constexpr int32_t& __get_pageSize();
+  constexpr int32_t& __cordl_internal_get_pageSize();
 
-  constexpr int32_t const& __get_pageSize() const;
+  constexpr int32_t const& __cordl_internal_get_pageSize() const;
 
-  constexpr void __set_pageSize(int32_t value);
+  constexpr void __cordl_internal_set_pageSize(int32_t value);
 
-  constexpr bool& __get_hasRootNode();
+  constexpr bool& __cordl_internal_get_hasRootNode();
 
-  constexpr bool const& __get_hasRootNode() const;
+  constexpr bool const& __cordl_internal_get_hasRootNode() const;
 
-  constexpr void __set_hasRootNode(bool value);
+  constexpr void __cordl_internal_set_hasRootNode(bool value);
 
-  constexpr ::System::Xml::Xsl::Runtime::StringConcat& __get_singleText();
+  constexpr ::System::Xml::Xsl::Runtime::StringConcat& __cordl_internal_get_singleText();
 
-  constexpr ::System::Xml::Xsl::Runtime::StringConcat const& __get_singleText() const;
+  constexpr ::System::Xml::Xsl::Runtime::StringConcat const& __cordl_internal_get_singleText() const;
 
-  constexpr void __set_singleText(::System::Xml::Xsl::Runtime::StringConcat value);
+  constexpr void __cordl_internal_set_singleText(::System::Xml::Xsl::Runtime::StringConcat value);
 
-  constexpr ::StringW& __get_baseUri();
+  constexpr ::StringW& __cordl_internal_get_baseUri();
 
-  constexpr ::StringW const& __get_baseUri() const;
+  constexpr ::StringW const& __cordl_internal_get_baseUri() const;
 
-  constexpr void __set_baseUri(::StringW value);
+  constexpr void __cordl_internal_set_baseUri(::StringW value);
 
   static inline ::System::Xml::XmlEventCache* New_ctor(::StringW baseUri, bool hasRootNode);
 

@@ -30,7 +30,7 @@ MARK_VAL_T(::GlobalNamespace::ColorSchemeNetSerializable);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15045))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15045))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12690))
 // CS Name: ::ColorSchemeNetSerializable
 struct CORDL_TYPE ColorSchemeNetSerializable {

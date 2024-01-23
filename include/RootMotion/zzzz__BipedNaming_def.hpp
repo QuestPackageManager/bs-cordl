@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::RootMotion::BipedNaming);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12484))
 // CS Name: ::BipedNaming::BoneType
 struct CORDL_TYPE __BipedNaming__BoneType {
@@ -105,7 +105,7 @@ static_assert(offsetof(::RootMotion::__BipedNaming__BoneType, value__) == 0x0, "
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12485))
 // CS Name: ::BipedNaming::BoneSide
 struct CORDL_TYPE __BipedNaming__BoneSide {
@@ -159,7 +159,7 @@ static_assert(offsetof(::RootMotion::__BipedNaming__BoneSide, value__) == 0x0, "
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12486))
 // CS Name: ::RootMotion::BipedNaming*
 class CORDL_TYPE BipedNaming : public ::System::Object {
@@ -296,24 +296,24 @@ public:
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_foot();
 
   /// @brief Method GetBonesOfType, addr 0x123637c, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> GetBonesOfType(::RootMotion::__BipedNaming__BoneType boneType,
-                                                                                                        ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
+  GetBonesOfType(::RootMotion::__BipedNaming__BoneType boneType, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
   /// @brief Method GetBonesOfSide, addr 0x1236640, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> GetBonesOfSide(::RootMotion::__BipedNaming__BoneSide boneSide,
-                                                                                                        ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
+  GetBonesOfSide(::RootMotion::__BipedNaming__BoneSide boneSide, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
   /// @brief Method GetBonesOfTypeAndSide, addr 0x1236874, size 0x74, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>
+  static inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
   GetBonesOfTypeAndSide(::RootMotion::__BipedNaming__BoneType boneType, ::RootMotion::__BipedNaming__BoneSide boneSide, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
   /// @brief Method GetFirstBoneOfTypeAndSide, addr 0x12368e8, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetFirstBoneOfTypeAndSide(::RootMotion::__BipedNaming__BoneType boneType, ::RootMotion::__BipedNaming__BoneSide boneSide,
-                                                                    ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
+  static inline ::UnityW<::UnityEngine::Transform> GetFirstBoneOfTypeAndSide(::RootMotion::__BipedNaming__BoneType boneType, ::RootMotion::__BipedNaming__BoneSide boneSide,
+                                                                             ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
   /// @brief Method GetNamingMatch, addr 0x123697c, size 0x114, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetNamingMatch(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms,
-                                                         ::ArrayW<::ArrayW<::StringW, ::Array<::StringW>*>, ::Array<::ArrayW<::StringW, ::Array<::StringW>*>>*> namings);
+  static inline ::UnityW<::UnityEngine::Transform> GetNamingMatch(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms,
+                                                                  ::ArrayW<::ArrayW<::StringW, ::Array<::StringW>*>, ::Array<::ArrayW<::StringW, ::Array<::StringW>*>>*> namings);
 
   /// @brief Method GetBoneType, addr 0x1236528, size 0x118, virtual false, abstract: false, final false
   static inline ::RootMotion::__BipedNaming__BoneType GetBoneType(::StringW boneName);
@@ -322,9 +322,9 @@ public:
   static inline ::RootMotion::__BipedNaming__BoneSide GetBoneSide(::StringW boneName);
 
   /// @brief Method GetBone, addr 0x12370b4, size 0x80, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetBone(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms, ::RootMotion::__BipedNaming__BoneType boneType,
-                                                  ::RootMotion::__BipedNaming__BoneSide boneSide,
-                                                  ::ArrayW<::ArrayW<::StringW, ::Array<::StringW>*>, ::Array<::ArrayW<::StringW, ::Array<::StringW>*>>*> namings);
+  static inline ::UnityW<::UnityEngine::Transform> GetBone(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms, ::RootMotion::__BipedNaming__BoneType boneType,
+                                                           ::RootMotion::__BipedNaming__BoneSide boneSide,
+                                                           ::ArrayW<::ArrayW<::StringW, ::Array<::StringW>*>, ::Array<::ArrayW<::StringW, ::Array<::StringW>*>>*> namings);
 
   /// @brief Method isLeft, addr 0x1236f0c, size 0xd4, virtual false, abstract: false, final false
   static inline bool isLeft(::StringW boneName);

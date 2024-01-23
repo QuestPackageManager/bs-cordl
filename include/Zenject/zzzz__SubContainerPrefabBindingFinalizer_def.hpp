@@ -74,29 +74,29 @@ MARK_REF_PTR_T(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClas
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10976))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass5_0*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::SubContainerPrefabBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::SubContainerPrefabBindingFinalizer* __4__this;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
 
-  constexpr ::Zenject::SubContainerPrefabBindingFinalizer*& __get___4__this();
+  constexpr ::Zenject::SubContainerPrefabBindingFinalizer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerPrefabBindingFinalizer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerPrefabBindingFinalizer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::SubContainerPrefabBindingFinalizer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerPrefabBindingFinalizer* value);
 
-  constexpr ::Zenject::DiContainer*& __get_container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0* New_ctor();
 
@@ -146,29 +146,29 @@ static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__Dis
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10977))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass5_1*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field containerCreator, offset 0x10, size 0x8
-  __declspec(property(get = __get_containerCreator, put = __set_containerCreator))::Zenject::SubContainerCreatorCached* containerCreator;
+  __declspec(property(get = __cordl_internal_get_containerCreator, put = __cordl_internal_set_containerCreator))::Zenject::SubContainerCreatorCached* containerCreator;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0* CS$__8__locals1;
 
-  constexpr ::Zenject::SubContainerCreatorCached*& __get_containerCreator();
+  constexpr ::Zenject::SubContainerCreatorCached*& __cordl_internal_get_containerCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorCached*> const& __get_containerCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorCached*> const& __cordl_internal_get_containerCreator() const;
 
-  constexpr void __set_containerCreator(::Zenject::SubContainerCreatorCached* value);
+  constexpr void __cordl_internal_set_containerCreator(::Zenject::SubContainerCreatorCached* value);
 
-  constexpr ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0*& __get_CS$__8__locals1();
+  constexpr ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0* value);
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1* New_ctor();
 
@@ -218,29 +218,29 @@ static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__Dis
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10978))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass6_0*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::SubContainerPrefabBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::SubContainerPrefabBindingFinalizer* __4__this;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
 
-  constexpr ::Zenject::SubContainerPrefabBindingFinalizer*& __get___4__this();
+  constexpr ::Zenject::SubContainerPrefabBindingFinalizer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerPrefabBindingFinalizer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerPrefabBindingFinalizer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::SubContainerPrefabBindingFinalizer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerPrefabBindingFinalizer* value);
 
-  constexpr ::Zenject::DiContainer*& __get_container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0* New_ctor();
 
@@ -290,29 +290,29 @@ static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__Dis
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10979))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass6_1*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field containerCreator, offset 0x10, size 0x8
-  __declspec(property(get = __get_containerCreator, put = __set_containerCreator))::Zenject::SubContainerCreatorCached* containerCreator;
+  __declspec(property(get = __cordl_internal_get_containerCreator, put = __cordl_internal_set_containerCreator))::Zenject::SubContainerCreatorCached* containerCreator;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0* CS$__8__locals1;
 
-  constexpr ::Zenject::SubContainerCreatorCached*& __get_containerCreator();
+  constexpr ::Zenject::SubContainerCreatorCached*& __cordl_internal_get_containerCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorCached*> const& __get_containerCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorCached*> const& __cordl_internal_get_containerCreator() const;
 
-  constexpr void __set_containerCreator(::Zenject::SubContainerCreatorCached* value);
+  constexpr void __cordl_internal_set_containerCreator(::Zenject::SubContainerCreatorCached* value);
 
-  constexpr ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0*& __get_CS$__8__locals1();
+  constexpr ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0* value);
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1* New_ctor();
 
@@ -362,7 +362,7 @@ static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__Dis
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10980))
 // CS Name: ::Zenject::SubContainerPrefabBindingFinalizer*
 class CORDL_TYPE SubContainerPrefabBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
@@ -377,32 +377,32 @@ public:
   using __c__DisplayClass5_0 = ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0;
 
   /// @brief Field _subIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __get__subIdentifier, put = __set__subIdentifier))::System::Object* _subIdentifier;
+  __declspec(property(get = __cordl_internal_get__subIdentifier, put = __cordl_internal_set__subIdentifier))::System::Object* _subIdentifier;
 
   /// @brief Field _resolveAll, offset 0x20, size 0x1
-  __declspec(property(get = __get__resolveAll, put = __set__resolveAll)) bool _resolveAll;
+  __declspec(property(get = __cordl_internal_get__resolveAll, put = __cordl_internal_set__resolveAll)) bool _resolveAll;
 
   /// @brief Field _subContainerCreatorFactory, offset 0x28, size 0x8
-  __declspec(property(get = __get__subContainerCreatorFactory,
-                      put = __set__subContainerCreatorFactory))::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* _subContainerCreatorFactory;
+  __declspec(property(get = __cordl_internal_get__subContainerCreatorFactory,
+                      put = __cordl_internal_set__subContainerCreatorFactory))::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* _subContainerCreatorFactory;
 
-  constexpr ::System::Object*& __get__subIdentifier();
+  constexpr ::System::Object*& __cordl_internal_get__subIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__subIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__subIdentifier() const;
 
-  constexpr void __set__subIdentifier(::System::Object* value);
+  constexpr void __cordl_internal_set__subIdentifier(::System::Object* value);
 
-  constexpr bool& __get__resolveAll();
+  constexpr bool& __cordl_internal_get__resolveAll();
 
-  constexpr bool const& __get__resolveAll() const;
+  constexpr bool const& __cordl_internal_get__resolveAll() const;
 
-  constexpr void __set__resolveAll(bool value);
+  constexpr void __cordl_internal_set__resolveAll(bool value);
 
-  constexpr ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*& __get__subContainerCreatorFactory();
+  constexpr ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*& __cordl_internal_get__subContainerCreatorFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*> const& __get__subContainerCreatorFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*> const& __cordl_internal_get__subContainerCreatorFactory() const;
 
-  constexpr void __set__subContainerCreatorFactory(::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* value);
+  constexpr void __cordl_internal_set__subContainerCreatorFactory(::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* value);
 
   static inline ::Zenject::SubContainerPrefabBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Object* subIdentifier, bool resolveAll,
                                                                         ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* subContainerCreatorFactory);

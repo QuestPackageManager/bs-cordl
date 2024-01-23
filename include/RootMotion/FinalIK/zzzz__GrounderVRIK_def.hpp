@@ -27,29 +27,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderVRIK);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12518))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12525))
 // CS Name: ::RootMotion.FinalIK::GrounderVRIK*
 class CORDL_TYPE GrounderVRIK : public ::RootMotion::FinalIK::Grounder {
 public:
   // Declarations
   /// @brief Field ik, offset 0x40, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::VRIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
 
   /// @brief Field feet, offset 0x48, size 0x8
-  __declspec(property(get = __get_feet, put = __set_feet))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> feet;
+  __declspec(property(get = __cordl_internal_get_feet, put = __cordl_internal_set_feet))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> feet;
 
-  constexpr ::RootMotion::FinalIK::VRIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::VRIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::VRIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_feet();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_feet();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_feet() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
 
-  constexpr void __set_feet(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_feet(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
   /// @brief Method OpenTutorial, addr 0x124b1b0, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial();
@@ -107,10 +107,10 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x40, size: 0x8, def value: None
-  ::RootMotion::FinalIK::VRIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::VRIK> ___ik;
 
   /// @brief Field feet, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___feet;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___feet;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,50 +24,52 @@ MARK_REF_PTR_T(::TMPro::TMP_UpdateRegistry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12459))
 // CS Name: ::TMPro::TMP_UpdateRegistry*
 class CORDL_TYPE TMP_UpdateRegistry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_LayoutRebuildQueue, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_LayoutRebuildQueue, put = __set_m_LayoutRebuildQueue))::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* m_LayoutRebuildQueue;
+  __declspec(property(get = __cordl_internal_get_m_LayoutRebuildQueue,
+                      put = __cordl_internal_set_m_LayoutRebuildQueue))::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* m_LayoutRebuildQueue;
 
   /// @brief Field m_LayoutQueueLookup, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_LayoutQueueLookup, put = __set_m_LayoutQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_LayoutQueueLookup;
+  __declspec(property(get = __cordl_internal_get_m_LayoutQueueLookup, put = __cordl_internal_set_m_LayoutQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_LayoutQueueLookup;
 
   /// @brief Field m_GraphicRebuildQueue, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_GraphicRebuildQueue, put = __set_m_GraphicRebuildQueue))::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue;
+  __declspec(property(get = __cordl_internal_get_m_GraphicRebuildQueue,
+                      put = __cordl_internal_set_m_GraphicRebuildQueue))::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue;
 
   /// @brief Field m_GraphicQueueLookup, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_GraphicQueueLookup, put = __set_m_GraphicQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_GraphicQueueLookup;
+  __declspec(property(get = __cordl_internal_get_m_GraphicQueueLookup, put = __cordl_internal_set_m_GraphicQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_GraphicQueueLookup;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::TMPro::TMP_UpdateRegistry* s_Instance;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*& __get_m_LayoutRebuildQueue();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*& __cordl_internal_get_m_LayoutRebuildQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*> const& __get_m_LayoutRebuildQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*> const& __cordl_internal_get_m_LayoutRebuildQueue() const;
 
-  constexpr void __set_m_LayoutRebuildQueue(::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* value);
+  constexpr void __cordl_internal_set_m_LayoutRebuildQueue(::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_LayoutQueueLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_LayoutQueueLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_LayoutQueueLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_LayoutQueueLookup() const;
 
-  constexpr void __set_m_LayoutQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_LayoutQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*& __get_m_GraphicRebuildQueue();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*& __cordl_internal_get_m_GraphicRebuildQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*> const& __get_m_GraphicRebuildQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>*> const& __cordl_internal_get_m_GraphicRebuildQueue() const;
 
-  constexpr void __set_m_GraphicRebuildQueue(::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* value);
+  constexpr void __cordl_internal_set_m_GraphicRebuildQueue(::System::Collections::Generic::List_1<::UnityEngine::UI::ICanvasElement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_GraphicQueueLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_GraphicQueueLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_GraphicQueueLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_GraphicQueueLookup() const;
 
-  constexpr void __set_m_GraphicQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_GraphicQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
   static inline void setStaticF_s_Instance(::TMPro::TMP_UpdateRegistry* value);
 

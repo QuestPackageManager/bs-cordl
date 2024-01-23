@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Microsoft::Win32::NativeMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8859))
 // CS Name: ::Microsoft.Win32::NativeMethods*
 class CORDL_TYPE NativeMethods : public ::System::Object {

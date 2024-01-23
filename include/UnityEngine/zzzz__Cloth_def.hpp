@@ -19,31 +19,32 @@ MARK_REF_PTR_T(::UnityEngine::Cloth);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16181))
 // CS Name: ::UnityEngine::Cloth*
 class CORDL_TYPE Cloth : public ::UnityEngine::Component {
 public:
   // Declarations
   /// @brief Field <useContinuousCollision>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__useContinuousCollision_k__BackingField, put = __set__useContinuousCollision_k__BackingField)) float_t _useContinuousCollision_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__useContinuousCollision_k__BackingField,
+                      put = __cordl_internal_set__useContinuousCollision_k__BackingField)) float_t _useContinuousCollision_k__BackingField;
 
   /// @brief Field <selfCollision>k__BackingField, offset 0x1c, size 0x1
-  __declspec(property(get = __get__selfCollision_k__BackingField, put = __set__selfCollision_k__BackingField)) bool _selfCollision_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__selfCollision_k__BackingField, put = __cordl_internal_set__selfCollision_k__BackingField)) bool _selfCollision_k__BackingField;
 
   __declspec(property(put = set_externalAcceleration))::UnityEngine::Vector3 externalAcceleration;
 
-  constexpr float_t& __get__useContinuousCollision_k__BackingField();
+  constexpr float_t& __cordl_internal_get__useContinuousCollision_k__BackingField();
 
-  constexpr float_t const& __get__useContinuousCollision_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__useContinuousCollision_k__BackingField() const;
 
-  constexpr void __set__useContinuousCollision_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  constexpr bool& __get__selfCollision_k__BackingField();
+  constexpr bool& __cordl_internal_get__selfCollision_k__BackingField();
 
-  constexpr bool const& __get__selfCollision_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__selfCollision_k__BackingField() const;
 
-  constexpr void __set__selfCollision_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__selfCollision_k__BackingField(bool value);
 
   /// @brief Method set_externalAcceleration, addr 0x2c9d454, size 0x54, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);

@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FakeMirrorObjectsInstaller____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5391))
 // CS Name: ::FakeMirrorObjectsInstaller::<>c*
 class CORDL_TYPE __FakeMirrorObjectsInstaller____c : public ::System::Object {
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FakeMirrorObj
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5392))
 // CS Name: ::FakeMirrorObjectsInstaller*
 class CORDL_TYPE FakeMirrorObjectsInstaller : public ::Zenject::MonoInstaller {
@@ -107,94 +107,99 @@ public:
   using __c = ::GlobalNamespace::__FakeMirrorObjectsInstaller____c;
 
   /// @brief Field _mirroredGameNoteControllerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__mirroredGameNoteControllerPrefab, put = __set__mirroredGameNoteControllerPrefab))::GlobalNamespace::MirroredGameNoteController* _mirroredGameNoteControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__mirroredGameNoteControllerPrefab,
+                      put = __cordl_internal_set__mirroredGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredGameNoteControllerPrefab;
 
   /// @brief Field _mirroredBurstSliderHeadGameNoteControllerPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__mirroredBurstSliderHeadGameNoteControllerPrefab,
-                      put = __set__mirroredBurstSliderHeadGameNoteControllerPrefab))::GlobalNamespace::MirroredGameNoteController* _mirroredBurstSliderHeadGameNoteControllerPrefab;
+  __declspec(
+      property(get = __cordl_internal_get__mirroredBurstSliderHeadGameNoteControllerPrefab,
+               put = __cordl_internal_set__mirroredBurstSliderHeadGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredBurstSliderHeadGameNoteControllerPrefab;
 
   /// @brief Field _mirroredBurstSliderGameNoteControllerPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__mirroredBurstSliderGameNoteControllerPrefab,
-                      put = __set__mirroredBurstSliderGameNoteControllerPrefab))::GlobalNamespace::MirroredGameNoteController* _mirroredBurstSliderGameNoteControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__mirroredBurstSliderGameNoteControllerPrefab,
+                      put = __cordl_internal_set__mirroredBurstSliderGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredBurstSliderGameNoteControllerPrefab;
 
   /// @brief Field _mirroredBurstSliderFillControllerPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __get__mirroredBurstSliderFillControllerPrefab,
-                      put = __set__mirroredBurstSliderFillControllerPrefab))::GlobalNamespace::MirroredGameNoteController* _mirroredBurstSliderFillControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__mirroredBurstSliderFillControllerPrefab,
+                      put = __cordl_internal_set__mirroredBurstSliderFillControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredBurstSliderFillControllerPrefab;
 
   /// @brief Field _mirroredBombNoteControllerPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __get__mirroredBombNoteControllerPrefab, put = __set__mirroredBombNoteControllerPrefab))::GlobalNamespace::MirroredBombNoteController* _mirroredBombNoteControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__mirroredBombNoteControllerPrefab,
+                      put = __cordl_internal_set__mirroredBombNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredBombNoteController> _mirroredBombNoteControllerPrefab;
 
   /// @brief Field _mirroredObstacleControllerPrefab, offset 0x48, size 0x8
-  __declspec(property(get = __get__mirroredObstacleControllerPrefab, put = __set__mirroredObstacleControllerPrefab))::GlobalNamespace::MirroredObstacleController* _mirroredObstacleControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__mirroredObstacleControllerPrefab,
+                      put = __cordl_internal_set__mirroredObstacleControllerPrefab))::UnityW<::GlobalNamespace::MirroredObstacleController> _mirroredObstacleControllerPrefab;
 
   /// @brief Field _mirroredSliderControllerPrefab, offset 0x50, size 0x8
-  __declspec(property(get = __get__mirroredSliderControllerPrefab, put = __set__mirroredSliderControllerPrefab))::GlobalNamespace::MirroredSliderController* _mirroredSliderControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__mirroredSliderControllerPrefab,
+                      put = __cordl_internal_set__mirroredSliderControllerPrefab))::UnityW<::GlobalNamespace::MirroredSliderController> _mirroredSliderControllerPrefab;
 
   /// @brief Field _mirrorGraphicsSettings, offset 0x58, size 0x8
-  __declspec(property(get = __get__mirrorGraphicsSettings, put = __set__mirrorGraphicsSettings))::GlobalNamespace::IntSO* _mirrorGraphicsSettings;
+  __declspec(property(get = __cordl_internal_get__mirrorGraphicsSettings, put = __cordl_internal_set__mirrorGraphicsSettings))::UnityW<::GlobalNamespace::IntSO> _mirrorGraphicsSettings;
 
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x60, size 0x8
-  __declspec(property(get = __get__mirrorRendererGraphicsSettingsPresets,
-                      put = __set__mirrorRendererGraphicsSettingsPresets))::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* _mirrorRendererGraphicsSettingsPresets;
+  __declspec(property(get = __cordl_internal_get__mirrorRendererGraphicsSettingsPresets,
+                      put = __cordl_internal_set__mirrorRendererGraphicsSettingsPresets))::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> _mirrorRendererGraphicsSettingsPresets;
 
-  __declspec(property(get = get_mirroredGameNoteControllerPrefab))::GlobalNamespace::MirroredGameNoteController* mirroredGameNoteControllerPrefab;
+  __declspec(property(get = get_mirroredGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> mirroredGameNoteControllerPrefab;
 
-  constexpr ::GlobalNamespace::MirroredGameNoteController*& __get__mirroredGameNoteControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& __cordl_internal_get__mirroredGameNoteControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const& __get__mirroredGameNoteControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& __cordl_internal_get__mirroredGameNoteControllerPrefab() const;
 
-  constexpr void __set__mirroredGameNoteControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value);
+  constexpr void __cordl_internal_set__mirroredGameNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
-  constexpr ::GlobalNamespace::MirroredGameNoteController*& __get__mirroredBurstSliderHeadGameNoteControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& __cordl_internal_get__mirroredBurstSliderHeadGameNoteControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const& __get__mirroredBurstSliderHeadGameNoteControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& __cordl_internal_get__mirroredBurstSliderHeadGameNoteControllerPrefab() const;
 
-  constexpr void __set__mirroredBurstSliderHeadGameNoteControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value);
+  constexpr void __cordl_internal_set__mirroredBurstSliderHeadGameNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
-  constexpr ::GlobalNamespace::MirroredGameNoteController*& __get__mirroredBurstSliderGameNoteControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& __cordl_internal_get__mirroredBurstSliderGameNoteControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const& __get__mirroredBurstSliderGameNoteControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& __cordl_internal_get__mirroredBurstSliderGameNoteControllerPrefab() const;
 
-  constexpr void __set__mirroredBurstSliderGameNoteControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value);
+  constexpr void __cordl_internal_set__mirroredBurstSliderGameNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
-  constexpr ::GlobalNamespace::MirroredGameNoteController*& __get__mirroredBurstSliderFillControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& __cordl_internal_get__mirroredBurstSliderFillControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const& __get__mirroredBurstSliderFillControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& __cordl_internal_get__mirroredBurstSliderFillControllerPrefab() const;
 
-  constexpr void __set__mirroredBurstSliderFillControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value);
+  constexpr void __cordl_internal_set__mirroredBurstSliderFillControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
-  constexpr ::GlobalNamespace::MirroredBombNoteController*& __get__mirroredBombNoteControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MirroredBombNoteController>& __cordl_internal_get__mirroredBombNoteControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredBombNoteController*> const& __get__mirroredBombNoteControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredBombNoteController> const& __cordl_internal_get__mirroredBombNoteControllerPrefab() const;
 
-  constexpr void __set__mirroredBombNoteControllerPrefab(::GlobalNamespace::MirroredBombNoteController* value);
+  constexpr void __cordl_internal_set__mirroredBombNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredBombNoteController> value);
 
-  constexpr ::GlobalNamespace::MirroredObstacleController*& __get__mirroredObstacleControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MirroredObstacleController>& __cordl_internal_get__mirroredObstacleControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredObstacleController*> const& __get__mirroredObstacleControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredObstacleController> const& __cordl_internal_get__mirroredObstacleControllerPrefab() const;
 
-  constexpr void __set__mirroredObstacleControllerPrefab(::GlobalNamespace::MirroredObstacleController* value);
+  constexpr void __cordl_internal_set__mirroredObstacleControllerPrefab(::UnityW<::GlobalNamespace::MirroredObstacleController> value);
 
-  constexpr ::GlobalNamespace::MirroredSliderController*& __get__mirroredSliderControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MirroredSliderController>& __cordl_internal_get__mirroredSliderControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredSliderController*> const& __get__mirroredSliderControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredSliderController> const& __cordl_internal_get__mirroredSliderControllerPrefab() const;
 
-  constexpr void __set__mirroredSliderControllerPrefab(::GlobalNamespace::MirroredSliderController* value);
+  constexpr void __cordl_internal_set__mirroredSliderControllerPrefab(::UnityW<::GlobalNamespace::MirroredSliderController> value);
 
-  constexpr ::GlobalNamespace::IntSO*& __get__mirrorGraphicsSettings();
+  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__mirrorGraphicsSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& __get__mirrorGraphicsSettings() const;
+  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__mirrorGraphicsSettings() const;
 
-  constexpr void __set__mirrorGraphicsSettings(::GlobalNamespace::IntSO* value);
+  constexpr void __cordl_internal_set__mirrorGraphicsSettings(::UnityW<::GlobalNamespace::IntSO> value);
 
-  constexpr ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& __get__mirrorRendererGraphicsSettingsPresets();
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*> const& __get__mirrorRendererGraphicsSettingsPresets() const;
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> const& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets() const;
 
-  constexpr void __set__mirrorRendererGraphicsSettingsPresets(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value);
+  constexpr void __cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value);
 
   /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x226f8ac, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MirroredGameNoteController* get_mirroredGameNoteControllerPrefab();
+  inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
   /// @brief Method InstallBindings, addr 0x226f8b4, size 0x580, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -219,31 +224,31 @@ protected:
 
 public:
   /// @brief Field _mirroredGameNoteControllerPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredGameNoteController* ____mirroredGameNoteControllerPrefab;
+  ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredGameNoteControllerPrefab;
 
   /// @brief Field _mirroredBurstSliderHeadGameNoteControllerPrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredGameNoteController* ____mirroredBurstSliderHeadGameNoteControllerPrefab;
+  ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredBurstSliderHeadGameNoteControllerPrefab;
 
   /// @brief Field _mirroredBurstSliderGameNoteControllerPrefab, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredGameNoteController* ____mirroredBurstSliderGameNoteControllerPrefab;
+  ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredBurstSliderGameNoteControllerPrefab;
 
   /// @brief Field _mirroredBurstSliderFillControllerPrefab, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredGameNoteController* ____mirroredBurstSliderFillControllerPrefab;
+  ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredBurstSliderFillControllerPrefab;
 
   /// @brief Field _mirroredBombNoteControllerPrefab, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredBombNoteController* ____mirroredBombNoteControllerPrefab;
+  ::UnityW<::GlobalNamespace::MirroredBombNoteController> ____mirroredBombNoteControllerPrefab;
 
   /// @brief Field _mirroredObstacleControllerPrefab, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredObstacleController* ____mirroredObstacleControllerPrefab;
+  ::UnityW<::GlobalNamespace::MirroredObstacleController> ____mirroredObstacleControllerPrefab;
 
   /// @brief Field _mirroredSliderControllerPrefab, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredSliderController* ____mirroredSliderControllerPrefab;
+  ::UnityW<::GlobalNamespace::MirroredSliderController> ____mirroredSliderControllerPrefab;
 
   /// @brief Field _mirrorGraphicsSettings, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::IntSO* ____mirrorGraphicsSettings;
+  ::UnityW<::GlobalNamespace::IntSO> ____mirrorGraphicsSettings;
 
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* ____mirrorRendererGraphicsSettingsPresets;
+  ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

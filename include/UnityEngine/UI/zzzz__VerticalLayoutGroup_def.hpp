@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::VerticalLayoutGroup);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13083))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13083))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13096))
 // CS Name: ::UnityEngine.UI::VerticalLayoutGroup*
 class CORDL_TYPE VerticalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {

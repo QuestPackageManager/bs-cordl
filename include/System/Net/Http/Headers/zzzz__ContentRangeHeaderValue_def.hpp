@@ -27,22 +27,22 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ContentRangeHeaderValue);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14664)) CS Name: ::System.Net.Http.Headers::ContentRangeHeaderValue*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14664)) CS Name: ::System.Net.Http.Headers::ContentRangeHeaderValue*
 class CORDL_TYPE ContentRangeHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field unit, offset 0x10, size 0x8
-  __declspec(property(get = __get_unit, put = __set_unit))::StringW unit;
+  __declspec(property(get = __cordl_internal_get_unit, put = __cordl_internal_set_unit))::StringW unit;
 
   /// @brief Field <From>k__BackingField, offset 0x18, size 0x10
-  __declspec(property(get = __get__From_k__BackingField, put = __set__From_k__BackingField))::System::Nullable_1<int64_t> _From_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__From_k__BackingField, put = __cordl_internal_set__From_k__BackingField))::System::Nullable_1<int64_t> _From_k__BackingField;
 
   /// @brief Field <Length>k__BackingField, offset 0x28, size 0x10
-  __declspec(property(get = __get__Length_k__BackingField, put = __set__Length_k__BackingField))::System::Nullable_1<int64_t> _Length_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Length_k__BackingField, put = __cordl_internal_set__Length_k__BackingField))::System::Nullable_1<int64_t> _Length_k__BackingField;
 
   /// @brief Field <To>k__BackingField, offset 0x38, size 0x10
-  __declspec(property(get = __get__To_k__BackingField, put = __set__To_k__BackingField))::System::Nullable_1<int64_t> _To_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__To_k__BackingField, put = __cordl_internal_set__To_k__BackingField))::System::Nullable_1<int64_t> _To_k__BackingField;
 
   __declspec(property(get = get_From, put = set_From))::System::Nullable_1<int64_t> From;
 
@@ -58,29 +58,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::StringW& __get_unit();
+  constexpr ::StringW& __cordl_internal_get_unit();
 
-  constexpr ::StringW const& __get_unit() const;
+  constexpr ::StringW const& __cordl_internal_get_unit() const;
 
-  constexpr void __set_unit(::StringW value);
+  constexpr void __cordl_internal_set_unit(::StringW value);
 
-  constexpr ::System::Nullable_1<int64_t>& __get__From_k__BackingField();
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__From_k__BackingField();
 
-  constexpr ::System::Nullable_1<int64_t> const& __get__From_k__BackingField() const;
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
 
-  constexpr void __set__From_k__BackingField(::System::Nullable_1<int64_t> value);
+  constexpr void __cordl_internal_set__From_k__BackingField(::System::Nullable_1<int64_t> value);
 
-  constexpr ::System::Nullable_1<int64_t>& __get__Length_k__BackingField();
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__Length_k__BackingField();
 
-  constexpr ::System::Nullable_1<int64_t> const& __get__Length_k__BackingField() const;
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__Length_k__BackingField() const;
 
-  constexpr void __set__Length_k__BackingField(::System::Nullable_1<int64_t> value);
+  constexpr void __cordl_internal_set__Length_k__BackingField(::System::Nullable_1<int64_t> value);
 
-  constexpr ::System::Nullable_1<int64_t>& __get__To_k__BackingField();
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__To_k__BackingField();
 
-  constexpr ::System::Nullable_1<int64_t> const& __get__To_k__BackingField() const;
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__To_k__BackingField() const;
 
-  constexpr void __set__To_k__BackingField(::System::Nullable_1<int64_t> value);
+  constexpr void __cordl_internal_set__To_k__BackingField(::System::Nullable_1<int64_t> value);
 
   static inline ::System::Net::Http::Headers::ContentRangeHeaderValue* New_ctor();
 

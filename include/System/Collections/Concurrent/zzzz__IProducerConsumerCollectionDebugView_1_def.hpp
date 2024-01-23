@@ -16,7 +16,7 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3813))
 // CS Name: ::System.Collections.Concurrent::IProducerConsumerCollectionDebugView`1<T>*
 class CORDL_TYPE IProducerConsumerCollectionDebugView_1 : public ::System::Object {

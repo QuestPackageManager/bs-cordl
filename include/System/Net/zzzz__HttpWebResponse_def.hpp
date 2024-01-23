@@ -53,47 +53,47 @@ MARK_REF_PTR_T(::System::Net::HttpWebResponse);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(9027))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9097))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9187))
 // CS Name: ::System.Net::HttpWebResponse*
 class CORDL_TYPE HttpWebResponse : public ::System::Net::WebResponse {
 public:
   // Declarations
   /// @brief Field uri, offset 0x20, size 0x8
-  __declspec(property(get = __get_uri, put = __set_uri))::System::Uri* uri;
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
 
   /// @brief Field webHeaders, offset 0x28, size 0x8
-  __declspec(property(get = __get_webHeaders, put = __set_webHeaders))::System::Net::WebHeaderCollection* webHeaders;
+  __declspec(property(get = __cordl_internal_get_webHeaders, put = __cordl_internal_set_webHeaders))::System::Net::WebHeaderCollection* webHeaders;
 
   /// @brief Field cookieCollection, offset 0x30, size 0x8
-  __declspec(property(get = __get_cookieCollection, put = __set_cookieCollection))::System::Net::CookieCollection* cookieCollection;
+  __declspec(property(get = __cordl_internal_get_cookieCollection, put = __cordl_internal_set_cookieCollection))::System::Net::CookieCollection* cookieCollection;
 
   /// @brief Field method, offset 0x38, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::StringW method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::StringW method;
 
   /// @brief Field version, offset 0x40, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::System::Version* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
 
   /// @brief Field statusCode, offset 0x48, size 0x4
-  __declspec(property(get = __get_statusCode, put = __set_statusCode))::System::Net::HttpStatusCode statusCode;
+  __declspec(property(get = __cordl_internal_get_statusCode, put = __cordl_internal_set_statusCode))::System::Net::HttpStatusCode statusCode;
 
   /// @brief Field statusDescription, offset 0x50, size 0x8
-  __declspec(property(get = __get_statusDescription, put = __set_statusDescription))::StringW statusDescription;
+  __declspec(property(get = __cordl_internal_get_statusDescription, put = __cordl_internal_set_statusDescription))::StringW statusDescription;
 
   /// @brief Field contentLength, offset 0x58, size 0x8
-  __declspec(property(get = __get_contentLength, put = __set_contentLength)) int64_t contentLength;
+  __declspec(property(get = __cordl_internal_get_contentLength, put = __cordl_internal_set_contentLength)) int64_t contentLength;
 
   /// @brief Field contentType, offset 0x60, size 0x8
-  __declspec(property(get = __get_contentType, put = __set_contentType))::StringW contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::StringW contentType;
 
   /// @brief Field cookie_container, offset 0x68, size 0x8
-  __declspec(property(get = __get_cookie_container, put = __set_cookie_container))::System::Net::CookieContainer* cookie_container;
+  __declspec(property(get = __cordl_internal_get_cookie_container, put = __cordl_internal_set_cookie_container))::System::Net::CookieContainer* cookie_container;
 
   /// @brief Field disposed, offset 0x70, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field stream, offset 0x78, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
 
@@ -115,77 +115,77 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Uri*& __get_uri();
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
 
-  constexpr void __set_uri(::System::Uri* value);
+  constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get_webHeaders();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_webHeaders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get_webHeaders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_webHeaders() const;
 
-  constexpr void __set_webHeaders(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set_webHeaders(::System::Net::WebHeaderCollection* value);
 
-  constexpr ::System::Net::CookieCollection*& __get_cookieCollection();
+  constexpr ::System::Net::CookieCollection*& __cordl_internal_get_cookieCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __get_cookieCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __cordl_internal_get_cookieCollection() const;
 
-  constexpr void __set_cookieCollection(::System::Net::CookieCollection* value);
+  constexpr void __cordl_internal_set_cookieCollection(::System::Net::CookieCollection* value);
 
-  constexpr ::StringW& __get_method();
+  constexpr ::StringW& __cordl_internal_get_method();
 
-  constexpr ::StringW const& __get_method() const;
+  constexpr ::StringW const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::StringW value);
+  constexpr void __cordl_internal_set_method(::StringW value);
 
-  constexpr ::System::Version*& __get_version();
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::System::Version* value);
+  constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  constexpr ::System::Net::HttpStatusCode& __get_statusCode();
+  constexpr ::System::Net::HttpStatusCode& __cordl_internal_get_statusCode();
 
-  constexpr ::System::Net::HttpStatusCode const& __get_statusCode() const;
+  constexpr ::System::Net::HttpStatusCode const& __cordl_internal_get_statusCode() const;
 
-  constexpr void __set_statusCode(::System::Net::HttpStatusCode value);
+  constexpr void __cordl_internal_set_statusCode(::System::Net::HttpStatusCode value);
 
-  constexpr ::StringW& __get_statusDescription();
+  constexpr ::StringW& __cordl_internal_get_statusDescription();
 
-  constexpr ::StringW const& __get_statusDescription() const;
+  constexpr ::StringW const& __cordl_internal_get_statusDescription() const;
 
-  constexpr void __set_statusDescription(::StringW value);
+  constexpr void __cordl_internal_set_statusDescription(::StringW value);
 
-  constexpr int64_t& __get_contentLength();
+  constexpr int64_t& __cordl_internal_get_contentLength();
 
-  constexpr int64_t const& __get_contentLength() const;
+  constexpr int64_t const& __cordl_internal_get_contentLength() const;
 
-  constexpr void __set_contentLength(int64_t value);
+  constexpr void __cordl_internal_set_contentLength(int64_t value);
 
-  constexpr ::StringW& __get_contentType();
+  constexpr ::StringW& __cordl_internal_get_contentType();
 
-  constexpr ::StringW const& __get_contentType() const;
+  constexpr ::StringW const& __cordl_internal_get_contentType() const;
 
-  constexpr void __set_contentType(::StringW value);
+  constexpr void __cordl_internal_set_contentType(::StringW value);
 
-  constexpr ::System::Net::CookieContainer*& __get_cookie_container();
+  constexpr ::System::Net::CookieContainer*& __cordl_internal_get_cookie_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __get_cookie_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __cordl_internal_get_cookie_container() const;
 
-  constexpr void __set_cookie_container(::System::Net::CookieContainer* value);
+  constexpr void __cordl_internal_set_cookie_container(::System::Net::CookieContainer* value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
   static inline ::System::Net::HttpWebResponse* New_ctor();
 

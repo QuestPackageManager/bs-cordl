@@ -29,7 +29,7 @@ MARK_VAL_T(::System::Reflection::CustomAttributeNamedArgument);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3504))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3504))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3503))
 // CS Name: ::System.Reflection::CustomAttributeNamedArgument
 struct CORDL_TYPE CustomAttributeNamedArgument {

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerReg
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15421))
 // CS Name: ::AsyncInstaller::IInstallerRegistry*
 class CORDL_TYPE __AsyncInstaller__IInstallerRegistry {
@@ -58,7 +58,7 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15422))
 // CS Name: ::BGLib.AppFlow.Initialization::AsyncInstaller*
 class CORDL_TYPE AsyncInstaller : public ::Zenject::MonoInstaller {

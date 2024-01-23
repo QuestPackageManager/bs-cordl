@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::Threading::__OSSpecificSynchronizationContext____c);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2718))
 // CS Name: ::OSSpecificSynchronizationContext::InvocationEntryDelegate*
 class CORDL_TYPE __OSSpecificSynchronizationContext__InvocationEntryDelegate : public ::System::MulticastDelegate {
@@ -91,29 +91,29 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__OSSpecificS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2719))
 // CS Name: ::OSSpecificSynchronizationContext::InvocationContext*
 class CORDL_TYPE __OSSpecificSynchronizationContext__InvocationContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Delegate, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Delegate, put = __set_m_Delegate))::System::Threading::SendOrPostCallback* m_Delegate;
+  __declspec(property(get = __cordl_internal_get_m_Delegate, put = __cordl_internal_set_m_Delegate))::System::Threading::SendOrPostCallback* m_Delegate;
 
   /// @brief Field m_State, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_State, put = __set_m_State))::System::Object* m_State;
+  __declspec(property(get = __cordl_internal_get_m_State, put = __cordl_internal_set_m_State))::System::Object* m_State;
 
-  constexpr ::System::Threading::SendOrPostCallback*& __get_m_Delegate();
+  constexpr ::System::Threading::SendOrPostCallback*& __cordl_internal_get_m_Delegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SendOrPostCallback*> const& __get_m_Delegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SendOrPostCallback*> const& __cordl_internal_get_m_Delegate() const;
 
-  constexpr void __set_m_Delegate(::System::Threading::SendOrPostCallback* value);
+  constexpr void __cordl_internal_set_m_Delegate(::System::Threading::SendOrPostCallback* value);
 
-  constexpr ::System::Object*& __get_m_State();
+  constexpr ::System::Object*& __cordl_internal_get_m_State();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_State() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_State() const;
 
-  constexpr void __set_m_State(::System::Object* value);
+  constexpr void __cordl_internal_set_m_State(::System::Object* value);
 
   static inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext* New_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
@@ -157,7 +157,7 @@ static_assert(offsetof(::System::Threading::__OSSpecificSynchronizationContext__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2720))
 // CS Name: ::OSSpecificSynchronizationContext::<>c*
 class CORDL_TYPE __OSSpecificSynchronizationContext____c : public ::System::Object {
@@ -211,7 +211,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__OSSpecificS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2721))
 // CS Name: ::System.Threading::OSSpecificSynchronizationContext*
 class CORDL_TYPE OSSpecificSynchronizationContext : public ::System::Threading::SynchronizationContext {
@@ -224,18 +224,18 @@ public:
   using InvocationEntryDelegate = ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate;
 
   /// @brief Field m_OSSynchronizationContext, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_OSSynchronizationContext, put = __set_m_OSSynchronizationContext))::System::Object* m_OSSynchronizationContext;
+  __declspec(property(get = __cordl_internal_get_m_OSSynchronizationContext, put = __cordl_internal_set_m_OSSynchronizationContext))::System::Object* m_OSSynchronizationContext;
 
   /// @brief Field s_ContextCache, offset 0xffffffff, size 0x8
   static __declspec(
       property(get = getStaticF_s_ContextCache,
                put = setStaticF_s_ContextCache))::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>* s_ContextCache;
 
-  constexpr ::System::Object*& __get_m_OSSynchronizationContext();
+  constexpr ::System::Object*& __cordl_internal_get_m_OSSynchronizationContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_OSSynchronizationContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_OSSynchronizationContext() const;
 
-  constexpr void __set_m_OSSynchronizationContext(::System::Object* value);
+  constexpr void __cordl_internal_set_m_OSSynchronizationContext(::System::Object* value);
 
   static inline void setStaticF_s_ContextCache(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>* value);
 

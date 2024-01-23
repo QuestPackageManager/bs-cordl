@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::Zenject::__SignalDeclaration__Factory);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(11172))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10659))
 // CS Name: ::Zenject::SignalDeclaration*
 class CORDL_TYPE SignalDeclaration : public ::System::Object {
@@ -66,25 +66,25 @@ public:
   using Factory = ::Zenject::__SignalDeclaration__Factory;
 
   /// @brief Field _subscriptions, offset 0x10, size 0x8
-  __declspec(property(get = __get__subscriptions, put = __set__subscriptions))::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* _subscriptions;
+  __declspec(property(get = __cordl_internal_get__subscriptions, put = __cordl_internal_set__subscriptions))::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* _subscriptions;
 
   /// @brief Field _asyncQueue, offset 0x18, size 0x8
-  __declspec(property(get = __get__asyncQueue, put = __set__asyncQueue))::System::Collections::Generic::List_1<::System::Object*>* _asyncQueue;
+  __declspec(property(get = __cordl_internal_get__asyncQueue, put = __cordl_internal_set__asyncQueue))::System::Collections::Generic::List_1<::System::Object*>* _asyncQueue;
 
   /// @brief Field _bindingId, offset 0x20, size 0x10
-  __declspec(property(get = __get__bindingId, put = __set__bindingId))::Zenject::BindingId _bindingId;
+  __declspec(property(get = __cordl_internal_get__bindingId, put = __cordl_internal_set__bindingId))::Zenject::BindingId _bindingId;
 
   /// @brief Field _missingHandlerResponses, offset 0x30, size 0x4
-  __declspec(property(get = __get__missingHandlerResponses, put = __set__missingHandlerResponses))::Zenject::SignalMissingHandlerResponses _missingHandlerResponses;
+  __declspec(property(get = __cordl_internal_get__missingHandlerResponses, put = __cordl_internal_set__missingHandlerResponses))::Zenject::SignalMissingHandlerResponses _missingHandlerResponses;
 
   /// @brief Field _isAsync, offset 0x34, size 0x1
-  __declspec(property(get = __get__isAsync, put = __set__isAsync)) bool _isAsync;
+  __declspec(property(get = __cordl_internal_get__isAsync, put = __cordl_internal_set__isAsync)) bool _isAsync;
 
   /// @brief Field _settings, offset 0x38, size 0x8
-  __declspec(property(get = __get__settings, put = __set__settings))::Zenject::__ZenjectSettings__SignalSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::Zenject::__ZenjectSettings__SignalSettings* _settings;
 
   /// @brief Field <TickPriority>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__TickPriority_k__BackingField, put = __set__TickPriority_k__BackingField)) int32_t _TickPriority_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TickPriority_k__BackingField, put = __cordl_internal_set__TickPriority_k__BackingField)) int32_t _TickPriority_k__BackingField;
 
   __declspec(property(get = get_TickPriority, put = set_TickPriority)) int32_t TickPriority;
 
@@ -104,47 +104,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*& __get__subscriptions();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*& __cordl_internal_get__subscriptions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*> const& __get__subscriptions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*> const& __cordl_internal_get__subscriptions() const;
 
-  constexpr void __set__subscriptions(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* value);
+  constexpr void __cordl_internal_set__subscriptions(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get__asyncQueue();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__asyncQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get__asyncQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__asyncQueue() const;
 
-  constexpr void __set__asyncQueue(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__asyncQueue(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  constexpr ::Zenject::BindingId& __get__bindingId();
+  constexpr ::Zenject::BindingId& __cordl_internal_get__bindingId();
 
-  constexpr ::Zenject::BindingId const& __get__bindingId() const;
+  constexpr ::Zenject::BindingId const& __cordl_internal_get__bindingId() const;
 
-  constexpr void __set__bindingId(::Zenject::BindingId value);
+  constexpr void __cordl_internal_set__bindingId(::Zenject::BindingId value);
 
-  constexpr ::Zenject::SignalMissingHandlerResponses& __get__missingHandlerResponses();
+  constexpr ::Zenject::SignalMissingHandlerResponses& __cordl_internal_get__missingHandlerResponses();
 
-  constexpr ::Zenject::SignalMissingHandlerResponses const& __get__missingHandlerResponses() const;
+  constexpr ::Zenject::SignalMissingHandlerResponses const& __cordl_internal_get__missingHandlerResponses() const;
 
-  constexpr void __set__missingHandlerResponses(::Zenject::SignalMissingHandlerResponses value);
+  constexpr void __cordl_internal_set__missingHandlerResponses(::Zenject::SignalMissingHandlerResponses value);
 
-  constexpr bool& __get__isAsync();
+  constexpr bool& __cordl_internal_get__isAsync();
 
-  constexpr bool const& __get__isAsync() const;
+  constexpr bool const& __cordl_internal_get__isAsync() const;
 
-  constexpr void __set__isAsync(bool value);
+  constexpr void __cordl_internal_set__isAsync(bool value);
 
-  constexpr ::Zenject::__ZenjectSettings__SignalSettings*& __get__settings();
+  constexpr ::Zenject::__ZenjectSettings__SignalSettings*& __cordl_internal_get__settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& __get__settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__settings(::Zenject::__ZenjectSettings__SignalSettings* value);
+  constexpr void __cordl_internal_set__settings(::Zenject::__ZenjectSettings__SignalSettings* value);
 
-  constexpr int32_t& __get__TickPriority_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__TickPriority_k__BackingField();
 
-  constexpr int32_t const& __get__TickPriority_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__TickPriority_k__BackingField() const;
 
-  constexpr void __set__TickPriority_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__TickPriority_k__BackingField(int32_t value);
 
   static inline ::Zenject::SignalDeclaration* New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings);
 
@@ -246,8 +246,8 @@ static_assert(offsetof(::Zenject::SignalDeclaration, ____TickPriority_k__Backing
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3493 }), TypeDefinitionIndex(TypeDefinitionIndex(10654)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10659)), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10658)) CS Name: ::SignalDeclaration::Factory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10654)), TypeDefinitionIndex(TypeDefinitionIndex(10659)), TypeDefinitionIndex(TypeDefinitionIndex(11005)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3493 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10658)) CS Name: ::SignalDeclaration::Factory*
 class CORDL_TYPE __SignalDeclaration__Factory : public ::Zenject::PlaceholderFactory_2<::Zenject::SignalDeclarationBindInfo*, ::Zenject::SignalDeclaration*> {
 public:
   // Declarations

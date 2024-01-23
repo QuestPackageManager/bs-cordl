@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1719))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathValidatorResult*
 class CORDL_TYPE PkixCertPathValidatorResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field trustAnchor, offset 0x10, size 0x8
-  __declspec(property(get = __get_trustAnchor, put = __set_trustAnchor))::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor;
+  __declspec(property(get = __cordl_internal_get_trustAnchor, put = __cordl_internal_set_trustAnchor))::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor;
 
   /// @brief Field policyTree, offset 0x18, size 0x8
-  __declspec(property(get = __get_policyTree, put = __set_policyTree))::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree;
+  __declspec(property(get = __cordl_internal_get_policyTree, put = __cordl_internal_set_policyTree))::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree;
 
   /// @brief Field subjectPublicKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_subjectPublicKey, put = __set_subjectPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey;
+  __declspec(property(get = __cordl_internal_get_subjectPublicKey, put = __cordl_internal_set_subjectPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey;
 
   __declspec(property(get = get_PolicyTree))::Org::BouncyCastle::Pkix::PkixPolicyNode* PolicyTree;
 
@@ -48,23 +48,23 @@ public:
 
   __declspec(property(get = get_SubjectPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* SubjectPublicKey;
 
-  constexpr ::Org::BouncyCastle::Pkix::TrustAnchor*& __get_trustAnchor();
+  constexpr ::Org::BouncyCastle::Pkix::TrustAnchor*& __cordl_internal_get_trustAnchor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::TrustAnchor*> const& __get_trustAnchor() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::TrustAnchor*> const& __cordl_internal_get_trustAnchor() const;
 
-  constexpr void __set_trustAnchor(::Org::BouncyCastle::Pkix::TrustAnchor* value);
+  constexpr void __cordl_internal_set_trustAnchor(::Org::BouncyCastle::Pkix::TrustAnchor* value);
 
-  constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& __get_policyTree();
+  constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& __cordl_internal_get_policyTree();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixPolicyNode*> const& __get_policyTree() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixPolicyNode*> const& __cordl_internal_get_policyTree() const;
 
-  constexpr void __set_policyTree(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
+  constexpr void __cordl_internal_set_policyTree(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_subjectPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_subjectPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_subjectPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_subjectPublicKey() const;
 
-  constexpr void __set_subjectPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_subjectPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
   /// @brief Method get_PolicyTree, addr 0x10f3fa8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_PolicyTree();

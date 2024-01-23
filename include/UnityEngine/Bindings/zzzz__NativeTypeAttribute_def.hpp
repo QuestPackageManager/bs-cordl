@@ -19,21 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeTypeAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16020)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(16020))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16022))
 // CS Name: ::UnityEngine.Bindings::NativeTypeAttribute*
 class CORDL_TYPE NativeTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Header>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Header_k__BackingField, put = __set__Header_k__BackingField))::StringW _Header_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Header_k__BackingField, put = __cordl_internal_set__Header_k__BackingField))::StringW _Header_k__BackingField;
 
   /// @brief Field <IntermediateScriptingStructName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__IntermediateScriptingStructName_k__BackingField,
-                      put = __set__IntermediateScriptingStructName_k__BackingField))::StringW _IntermediateScriptingStructName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IntermediateScriptingStructName_k__BackingField,
+                      put = __cordl_internal_set__IntermediateScriptingStructName_k__BackingField))::StringW _IntermediateScriptingStructName_k__BackingField;
 
   /// @brief Field <CodegenOptions>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__CodegenOptions_k__BackingField, put = __set__CodegenOptions_k__BackingField))::UnityEngine::Bindings::CodegenOptions _CodegenOptions_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CodegenOptions_k__BackingField,
+                      put = __cordl_internal_set__CodegenOptions_k__BackingField))::UnityEngine::Bindings::CodegenOptions _CodegenOptions_k__BackingField;
 
   __declspec(property(put = set_Header))::StringW Header;
 
@@ -41,23 +42,23 @@ public:
 
   __declspec(property(put = set_CodegenOptions))::UnityEngine::Bindings::CodegenOptions CodegenOptions;
 
-  constexpr ::StringW& __get__Header_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Header_k__BackingField();
 
-  constexpr ::StringW const& __get__Header_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Header_k__BackingField() const;
 
-  constexpr void __set__Header_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Header_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__IntermediateScriptingStructName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__IntermediateScriptingStructName_k__BackingField();
 
-  constexpr ::StringW const& __get__IntermediateScriptingStructName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__IntermediateScriptingStructName_k__BackingField() const;
 
-  constexpr void __set__IntermediateScriptingStructName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::Bindings::CodegenOptions& __get__CodegenOptions_k__BackingField();
+  constexpr ::UnityEngine::Bindings::CodegenOptions& __cordl_internal_get__CodegenOptions_k__BackingField();
 
-  constexpr ::UnityEngine::Bindings::CodegenOptions const& __get__CodegenOptions_k__BackingField() const;
+  constexpr ::UnityEngine::Bindings::CodegenOptions const& __cordl_internal_get__CodegenOptions_k__BackingField() const;
 
-  constexpr void __set__CodegenOptions_k__BackingField(::UnityEngine::Bindings::CodegenOptions value);
+  constexpr void __cordl_internal_set__CodegenOptions_k__BackingField(::UnityEngine::Bindings::CodegenOptions value);
 
   /// @brief Method set_Header, addr 0x2d186e4, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);

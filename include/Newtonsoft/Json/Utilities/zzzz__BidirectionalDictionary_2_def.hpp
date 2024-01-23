@@ -24,47 +24,47 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TFirst, typename TSecond>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11869))
 // CS Name: ::Newtonsoft.Json.Utilities::BidirectionalDictionary`2<TFirst,TSecond>*
 class CORDL_TYPE BidirectionalDictionary_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _firstToSecond, offset 0x10, size 0x8
-  __declspec(property(get = __get__firstToSecond, put = __set__firstToSecond))::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* _firstToSecond;
+  __declspec(property(get = __cordl_internal_get__firstToSecond, put = __cordl_internal_set__firstToSecond))::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* _firstToSecond;
 
   /// @brief Field _secondToFirst, offset 0x18, size 0x8
-  __declspec(property(get = __get__secondToFirst, put = __set__secondToFirst))::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* _secondToFirst;
+  __declspec(property(get = __cordl_internal_get__secondToFirst, put = __cordl_internal_set__secondToFirst))::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* _secondToFirst;
 
   /// @brief Field _duplicateFirstErrorMessage, offset 0x20, size 0x8
-  __declspec(property(get = __get__duplicateFirstErrorMessage, put = __set__duplicateFirstErrorMessage))::StringW _duplicateFirstErrorMessage;
+  __declspec(property(get = __cordl_internal_get__duplicateFirstErrorMessage, put = __cordl_internal_set__duplicateFirstErrorMessage))::StringW _duplicateFirstErrorMessage;
 
   /// @brief Field _duplicateSecondErrorMessage, offset 0x28, size 0x8
-  __declspec(property(get = __get__duplicateSecondErrorMessage, put = __set__duplicateSecondErrorMessage))::StringW _duplicateSecondErrorMessage;
+  __declspec(property(get = __cordl_internal_get__duplicateSecondErrorMessage, put = __cordl_internal_set__duplicateSecondErrorMessage))::StringW _duplicateSecondErrorMessage;
 
-  constexpr ::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*& __get__firstToSecond();
+  constexpr ::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*& __cordl_internal_get__firstToSecond();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*> const& __get__firstToSecond() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*> const& __cordl_internal_get__firstToSecond() const;
 
-  constexpr void __set__firstToSecond(::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* value);
+  constexpr void __cordl_internal_set__firstToSecond(::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* value);
 
-  constexpr ::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*& __get__secondToFirst();
+  constexpr ::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*& __cordl_internal_get__secondToFirst();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*> const& __get__secondToFirst() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*> const& __cordl_internal_get__secondToFirst() const;
 
-  constexpr void __set__secondToFirst(::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* value);
+  constexpr void __cordl_internal_set__secondToFirst(::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* value);
 
-  constexpr ::StringW& __get__duplicateFirstErrorMessage();
+  constexpr ::StringW& __cordl_internal_get__duplicateFirstErrorMessage();
 
-  constexpr ::StringW const& __get__duplicateFirstErrorMessage() const;
+  constexpr ::StringW const& __cordl_internal_get__duplicateFirstErrorMessage() const;
 
-  constexpr void __set__duplicateFirstErrorMessage(::StringW value);
+  constexpr void __cordl_internal_set__duplicateFirstErrorMessage(::StringW value);
 
-  constexpr ::StringW& __get__duplicateSecondErrorMessage();
+  constexpr ::StringW& __cordl_internal_get__duplicateSecondErrorMessage();
 
-  constexpr ::StringW const& __get__duplicateSecondErrorMessage() const;
+  constexpr ::StringW const& __cordl_internal_get__duplicateSecondErrorMessage() const;
 
-  constexpr void __set__duplicateSecondErrorMessage(::StringW value);
+  constexpr void __cordl_internal_set__duplicateSecondErrorMessage(::StringW value);
 
   static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* New_ctor();
 

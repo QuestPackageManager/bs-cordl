@@ -55,85 +55,85 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::KeyboardTextEditorEventHandler);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7094)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7094)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7041))
 // CS Name: ::UnityEngine.UIElements::KeyboardTextEditorEventHandler*
 class CORDL_TYPE KeyboardTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
 public:
   // Declarations
   /// @brief Field m_Changed, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_Changed, put = __set_m_Changed)) bool m_Changed;
+  __declspec(property(get = __cordl_internal_get_m_Changed, put = __cordl_internal_set_m_Changed)) bool m_Changed;
 
   /// @brief Field m_Dragged, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_Dragged, put = __set_m_Dragged)) bool m_Dragged;
+  __declspec(property(get = __cordl_internal_get_m_Dragged, put = __cordl_internal_set_m_Dragged)) bool m_Dragged;
 
   /// @brief Field m_DragToPosition, offset 0x22, size 0x1
-  __declspec(property(get = __get_m_DragToPosition, put = __set_m_DragToPosition)) bool m_DragToPosition;
+  __declspec(property(get = __cordl_internal_get_m_DragToPosition, put = __cordl_internal_set_m_DragToPosition)) bool m_DragToPosition;
 
   /// @brief Field m_SelectAllOnMouseUp, offset 0x23, size 0x1
-  __declspec(property(get = __get_m_SelectAllOnMouseUp, put = __set_m_SelectAllOnMouseUp)) bool m_SelectAllOnMouseUp;
+  __declspec(property(get = __cordl_internal_get_m_SelectAllOnMouseUp, put = __cordl_internal_set_m_SelectAllOnMouseUp)) bool m_SelectAllOnMouseUp;
 
   /// @brief Field m_PreDrawCursorText, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_PreDrawCursorText, put = __set_m_PreDrawCursorText))::StringW m_PreDrawCursorText;
+  __declspec(property(get = __cordl_internal_get_m_PreDrawCursorText, put = __cordl_internal_set_m_PreDrawCursorText))::StringW m_PreDrawCursorText;
 
   /// @brief Field m_IsClicking, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_IsClicking, put = __set_m_IsClicking)) bool m_IsClicking;
+  __declspec(property(get = __cordl_internal_get_m_IsClicking, put = __cordl_internal_set_m_IsClicking)) bool m_IsClicking;
 
   /// @brief Field m_ClickStartPosition, offset 0x34, size 0x8
-  __declspec(property(get = __get_m_ClickStartPosition, put = __set_m_ClickStartPosition))::UnityEngine::Vector2 m_ClickStartPosition;
+  __declspec(property(get = __cordl_internal_get_m_ClickStartPosition, put = __cordl_internal_set_m_ClickStartPosition))::UnityEngine::Vector2 m_ClickStartPosition;
 
   /// @brief Field m_ImguiEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_ImguiEvent, put = __set_m_ImguiEvent))::UnityEngine::Event* m_ImguiEvent;
+  __declspec(property(get = __cordl_internal_get_m_ImguiEvent, put = __cordl_internal_set_m_ImguiEvent))::UnityEngine::Event* m_ImguiEvent;
 
   __declspec(property(get = get_isClicking, put = set_isClicking)) bool isClicking;
 
-  constexpr bool& __get_m_Changed();
+  constexpr bool& __cordl_internal_get_m_Changed();
 
-  constexpr bool const& __get_m_Changed() const;
+  constexpr bool const& __cordl_internal_get_m_Changed() const;
 
-  constexpr void __set_m_Changed(bool value);
+  constexpr void __cordl_internal_set_m_Changed(bool value);
 
-  constexpr bool& __get_m_Dragged();
+  constexpr bool& __cordl_internal_get_m_Dragged();
 
-  constexpr bool const& __get_m_Dragged() const;
+  constexpr bool const& __cordl_internal_get_m_Dragged() const;
 
-  constexpr void __set_m_Dragged(bool value);
+  constexpr void __cordl_internal_set_m_Dragged(bool value);
 
-  constexpr bool& __get_m_DragToPosition();
+  constexpr bool& __cordl_internal_get_m_DragToPosition();
 
-  constexpr bool const& __get_m_DragToPosition() const;
+  constexpr bool const& __cordl_internal_get_m_DragToPosition() const;
 
-  constexpr void __set_m_DragToPosition(bool value);
+  constexpr void __cordl_internal_set_m_DragToPosition(bool value);
 
-  constexpr bool& __get_m_SelectAllOnMouseUp();
+  constexpr bool& __cordl_internal_get_m_SelectAllOnMouseUp();
 
-  constexpr bool const& __get_m_SelectAllOnMouseUp() const;
+  constexpr bool const& __cordl_internal_get_m_SelectAllOnMouseUp() const;
 
-  constexpr void __set_m_SelectAllOnMouseUp(bool value);
+  constexpr void __cordl_internal_set_m_SelectAllOnMouseUp(bool value);
 
-  constexpr ::StringW& __get_m_PreDrawCursorText();
+  constexpr ::StringW& __cordl_internal_get_m_PreDrawCursorText();
 
-  constexpr ::StringW const& __get_m_PreDrawCursorText() const;
+  constexpr ::StringW const& __cordl_internal_get_m_PreDrawCursorText() const;
 
-  constexpr void __set_m_PreDrawCursorText(::StringW value);
+  constexpr void __cordl_internal_set_m_PreDrawCursorText(::StringW value);
 
-  constexpr bool& __get_m_IsClicking();
+  constexpr bool& __cordl_internal_get_m_IsClicking();
 
-  constexpr bool const& __get_m_IsClicking() const;
+  constexpr bool const& __cordl_internal_get_m_IsClicking() const;
 
-  constexpr void __set_m_IsClicking(bool value);
+  constexpr void __cordl_internal_set_m_IsClicking(bool value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_ClickStartPosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_ClickStartPosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_ClickStartPosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_ClickStartPosition() const;
 
-  constexpr void __set_m_ClickStartPosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_ClickStartPosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Event*& __get_m_ImguiEvent();
+  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ImguiEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __get_m_ImguiEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get_m_ImguiEvent() const;
 
-  constexpr void __set_m_ImguiEvent(::UnityEngine::Event* value);
+  constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
 
   /// @brief Method get_isClicking, addr 0x2e1e5a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isClicking();

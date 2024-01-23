@@ -22,140 +22,140 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfCodes);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1821))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfCodes*
 class CORDL_TYPE InfCodes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mode, offset 0x10, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode)) int32_t mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) int32_t mode;
 
   /// @brief Field len, offset 0x14, size 0x4
-  __declspec(property(get = __get_len, put = __set_len)) int32_t len;
+  __declspec(property(get = __cordl_internal_get_len, put = __cordl_internal_set_len)) int32_t len;
 
   /// @brief Field tree, offset 0x18, size 0x8
-  __declspec(property(get = __get_tree, put = __set_tree))::ArrayW<int32_t, ::Array<int32_t>*> tree;
+  __declspec(property(get = __cordl_internal_get_tree, put = __cordl_internal_set_tree))::ArrayW<int32_t, ::Array<int32_t>*> tree;
 
   /// @brief Field tree_index, offset 0x20, size 0x4
-  __declspec(property(get = __get_tree_index, put = __set_tree_index)) int32_t tree_index;
+  __declspec(property(get = __cordl_internal_get_tree_index, put = __cordl_internal_set_tree_index)) int32_t tree_index;
 
   /// @brief Field need, offset 0x24, size 0x4
-  __declspec(property(get = __get_need, put = __set_need)) int32_t need;
+  __declspec(property(get = __cordl_internal_get_need, put = __cordl_internal_set_need)) int32_t need;
 
   /// @brief Field lit, offset 0x28, size 0x4
-  __declspec(property(get = __get_lit, put = __set_lit)) int32_t lit;
+  __declspec(property(get = __cordl_internal_get_lit, put = __cordl_internal_set_lit)) int32_t lit;
 
   /// @brief Field get, offset 0x2c, size 0x4
-  __declspec(property(get = __get_get, put = __set_get)) int32_t get;
+  __declspec(property(get = __cordl_internal_get_get, put = __cordl_internal_set_get)) int32_t get;
 
   /// @brief Field dist, offset 0x30, size 0x4
-  __declspec(property(get = __get_dist, put = __set_dist)) int32_t dist;
+  __declspec(property(get = __cordl_internal_get_dist, put = __cordl_internal_set_dist)) int32_t dist;
 
   /// @brief Field lbits, offset 0x34, size 0x1
-  __declspec(property(get = __get_lbits, put = __set_lbits)) uint8_t lbits;
+  __declspec(property(get = __cordl_internal_get_lbits, put = __cordl_internal_set_lbits)) uint8_t lbits;
 
   /// @brief Field dbits, offset 0x35, size 0x1
-  __declspec(property(get = __get_dbits, put = __set_dbits)) uint8_t dbits;
+  __declspec(property(get = __cordl_internal_get_dbits, put = __cordl_internal_set_dbits)) uint8_t dbits;
 
   /// @brief Field ltree, offset 0x38, size 0x8
-  __declspec(property(get = __get_ltree, put = __set_ltree))::ArrayW<int32_t, ::Array<int32_t>*> ltree;
+  __declspec(property(get = __cordl_internal_get_ltree, put = __cordl_internal_set_ltree))::ArrayW<int32_t, ::Array<int32_t>*> ltree;
 
   /// @brief Field ltree_index, offset 0x40, size 0x4
-  __declspec(property(get = __get_ltree_index, put = __set_ltree_index)) int32_t ltree_index;
+  __declspec(property(get = __cordl_internal_get_ltree_index, put = __cordl_internal_set_ltree_index)) int32_t ltree_index;
 
   /// @brief Field dtree, offset 0x48, size 0x8
-  __declspec(property(get = __get_dtree, put = __set_dtree))::ArrayW<int32_t, ::Array<int32_t>*> dtree;
+  __declspec(property(get = __cordl_internal_get_dtree, put = __cordl_internal_set_dtree))::ArrayW<int32_t, ::Array<int32_t>*> dtree;
 
   /// @brief Field dtree_index, offset 0x50, size 0x4
-  __declspec(property(get = __get_dtree_index, put = __set_dtree_index)) int32_t dtree_index;
+  __declspec(property(get = __cordl_internal_get_dtree_index, put = __cordl_internal_set_dtree_index)) int32_t dtree_index;
 
   /// @brief Field inflate_mask, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_inflate_mask, put = setStaticF_inflate_mask))::ArrayW<int32_t, ::Array<int32_t>*> inflate_mask;
 
-  constexpr int32_t& __get_mode();
+  constexpr int32_t& __cordl_internal_get_mode();
 
-  constexpr int32_t const& __get_mode() const;
+  constexpr int32_t const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(int32_t value);
+  constexpr void __cordl_internal_set_mode(int32_t value);
 
-  constexpr int32_t& __get_len();
+  constexpr int32_t& __cordl_internal_get_len();
 
-  constexpr int32_t const& __get_len() const;
+  constexpr int32_t const& __cordl_internal_get_len() const;
 
-  constexpr void __set_len(int32_t value);
+  constexpr void __cordl_internal_set_len(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_tree();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_tree();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_tree() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_tree() const;
 
-  constexpr void __set_tree(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_tree(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_tree_index();
+  constexpr int32_t& __cordl_internal_get_tree_index();
 
-  constexpr int32_t const& __get_tree_index() const;
+  constexpr int32_t const& __cordl_internal_get_tree_index() const;
 
-  constexpr void __set_tree_index(int32_t value);
+  constexpr void __cordl_internal_set_tree_index(int32_t value);
 
-  constexpr int32_t& __get_need();
+  constexpr int32_t& __cordl_internal_get_need();
 
-  constexpr int32_t const& __get_need() const;
+  constexpr int32_t const& __cordl_internal_get_need() const;
 
-  constexpr void __set_need(int32_t value);
+  constexpr void __cordl_internal_set_need(int32_t value);
 
-  constexpr int32_t& __get_lit();
+  constexpr int32_t& __cordl_internal_get_lit();
 
-  constexpr int32_t const& __get_lit() const;
+  constexpr int32_t const& __cordl_internal_get_lit() const;
 
-  constexpr void __set_lit(int32_t value);
+  constexpr void __cordl_internal_set_lit(int32_t value);
 
-  constexpr int32_t& __get_get();
+  constexpr int32_t& __cordl_internal_get_get();
 
-  constexpr int32_t const& __get_get() const;
+  constexpr int32_t const& __cordl_internal_get_get() const;
 
-  constexpr void __set_get(int32_t value);
+  constexpr void __cordl_internal_set_get(int32_t value);
 
-  constexpr int32_t& __get_dist();
+  constexpr int32_t& __cordl_internal_get_dist();
 
-  constexpr int32_t const& __get_dist() const;
+  constexpr int32_t const& __cordl_internal_get_dist() const;
 
-  constexpr void __set_dist(int32_t value);
+  constexpr void __cordl_internal_set_dist(int32_t value);
 
-  constexpr uint8_t& __get_lbits();
+  constexpr uint8_t& __cordl_internal_get_lbits();
 
-  constexpr uint8_t const& __get_lbits() const;
+  constexpr uint8_t const& __cordl_internal_get_lbits() const;
 
-  constexpr void __set_lbits(uint8_t value);
+  constexpr void __cordl_internal_set_lbits(uint8_t value);
 
-  constexpr uint8_t& __get_dbits();
+  constexpr uint8_t& __cordl_internal_get_dbits();
 
-  constexpr uint8_t const& __get_dbits() const;
+  constexpr uint8_t const& __cordl_internal_get_dbits() const;
 
-  constexpr void __set_dbits(uint8_t value);
+  constexpr void __cordl_internal_set_dbits(uint8_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_ltree();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_ltree();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_ltree() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_ltree() const;
 
-  constexpr void __set_ltree(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_ltree(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_ltree_index();
+  constexpr int32_t& __cordl_internal_get_ltree_index();
 
-  constexpr int32_t const& __get_ltree_index() const;
+  constexpr int32_t const& __cordl_internal_get_ltree_index() const;
 
-  constexpr void __set_ltree_index(int32_t value);
+  constexpr void __cordl_internal_set_ltree_index(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_dtree();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_dtree();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_dtree() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_dtree() const;
 
-  constexpr void __set_dtree(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_dtree(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_dtree_index();
+  constexpr int32_t& __cordl_internal_get_dtree_index();
 
-  constexpr int32_t const& __get_dtree_index() const;
+  constexpr int32_t const& __cordl_internal_get_dtree_index() const;
 
-  constexpr void __set_dtree_index(int32_t value);
+  constexpr void __cordl_internal_set_dtree_index(int32_t value);
 
   static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

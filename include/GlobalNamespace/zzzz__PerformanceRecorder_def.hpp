@@ -24,51 +24,52 @@ MARK_REF_PTR_T(::GlobalNamespace::PerformanceRecorder);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5945))
 // CS Name: ::PerformanceRecorder*
 class CORDL_TYPE PerformanceRecorder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field minFpsWindow, offset 0x18, size 0x4
-  __declspec(property(get = __get_minFpsWindow, put = __set_minFpsWindow)) float_t minFpsWindow;
+  __declspec(property(get = __cordl_internal_get_minFpsWindow, put = __cordl_internal_set_minFpsWindow)) float_t minFpsWindow;
 
   /// @brief Field <gamePause>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__gamePause_k__BackingField, put = __set__gamePause_k__BackingField))::GlobalNamespace::IGamePause* _gamePause_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__gamePause_k__BackingField, put = __cordl_internal_set__gamePause_k__BackingField))::GlobalNamespace::IGamePause* _gamePause_k__BackingField;
 
   /// @brief Field <sceneSetupData>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__sceneSetupData_k__BackingField, put = __set__sceneSetupData_k__BackingField))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData_k__BackingField,
+                      put = __cordl_internal_set__sceneSetupData_k__BackingField))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData_k__BackingField;
 
   /// @brief Field frameTimes, offset 0x30, size 0x8
-  __declspec(property(get = __get_frameTimes, put = __set_frameTimes))::System::Collections::Generic::List_1<float_t>* frameTimes;
+  __declspec(property(get = __cordl_internal_get_frameTimes, put = __cordl_internal_set_frameTimes))::System::Collections::Generic::List_1<float_t>* frameTimes;
 
   __declspec(property(get = get_gamePause, put = set_gamePause))::GlobalNamespace::IGamePause* gamePause;
 
   __declspec(property(get = get_sceneSetupData, put = set_sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
 
-  constexpr float_t& __get_minFpsWindow();
+  constexpr float_t& __cordl_internal_get_minFpsWindow();
 
-  constexpr float_t const& __get_minFpsWindow() const;
+  constexpr float_t const& __cordl_internal_get_minFpsWindow() const;
 
-  constexpr void __set_minFpsWindow(float_t value);
+  constexpr void __cordl_internal_set_minFpsWindow(float_t value);
 
-  constexpr ::GlobalNamespace::IGamePause*& __get__gamePause_k__BackingField();
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __get__gamePause_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause_k__BackingField() const;
 
-  constexpr void __set__gamePause_k__BackingField(::GlobalNamespace::IGamePause* value);
+  constexpr void __cordl_internal_set__gamePause_k__BackingField(::GlobalNamespace::IGamePause* value);
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __get__sceneSetupData_k__BackingField();
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __get__sceneSetupData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData_k__BackingField() const;
 
-  constexpr void __set__sceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __get_frameTimes();
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_frameTimes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __get_frameTimes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get_frameTimes() const;
 
-  constexpr void __set_frameTimes(::System::Collections::Generic::List_1<float_t>* value);
+  constexpr void __cordl_internal_set_frameTimes(::System::Collections::Generic::List_1<float_t>* value);
 
   /// @brief Method get_gamePause, addr 0x2303fb8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_gamePause();

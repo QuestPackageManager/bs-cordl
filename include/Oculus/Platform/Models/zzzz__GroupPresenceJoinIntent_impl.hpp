@@ -9,68 +9,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x2705dfc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::GroupPresenceJoinIntent*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_DeeplinkMessage() {
+constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_DeeplinkMessage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeeplinkMessage;
 }
-constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_DeeplinkMessage() const {
+constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_DeeplinkMessage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeeplinkMessage;
 }
-constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__set_DeeplinkMessage(::StringW value) {
+constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_set_DeeplinkMessage(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DeeplinkMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_DestinationApiName() {
+constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_DestinationApiName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationApiName;
 }
-constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_DestinationApiName() const {
+constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_DestinationApiName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationApiName;
 }
-constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__set_DestinationApiName(::StringW value) {
+constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_set_DestinationApiName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DestinationApiName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_LobbySessionId() {
+constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_LobbySessionId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LobbySessionId;
 }
-constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_LobbySessionId() const {
+constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_LobbySessionId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LobbySessionId;
 }
-constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__set_LobbySessionId(::StringW value) {
+constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_set_LobbySessionId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LobbySessionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_MatchSessionId() {
+constexpr ::StringW& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_MatchSessionId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MatchSessionId;
 }
-constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__get_MatchSessionId() const {
+constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_get_MatchSessionId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MatchSessionId;
 }
-constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__set_MatchSessionId(::StringW value) {
+constexpr void Oculus::Platform::Models::GroupPresenceJoinIntent::__cordl_internal_set_MatchSessionId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MatchSessionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* Oculus::Platform::Models::GroupPresenceJoinIntent::New_ctor(void* o) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Oculus::Platform::Models::GroupPresenceJoinIntent*>(o));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::GroupPresenceJoinIntent*>(o));
 }
 inline void Oculus::Platform::Models::GroupPresenceJoinIntent::_ctor(void* o) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::GroupPresenceJoinIntent*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
 }
 // Ctor Parameters []

@@ -29,7 +29,7 @@ MARK_VAL_T(::System::IO::FileStatus);
 // SizeInfo { instance_size: 120, native_size: 128, calculated_instance_size: 120, calculated_native_size: 135, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2215))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2215))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3594))
 // CS Name: ::System.IO::FileStatus
 struct CORDL_TYPE FileStatus {

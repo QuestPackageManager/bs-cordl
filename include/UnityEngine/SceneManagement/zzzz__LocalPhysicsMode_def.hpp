@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::LocalPhysicsMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10376))
 // CS Name: ::UnityEngine.SceneManagement::LocalPhysicsMode
 struct CORDL_TYPE LocalPhysicsMode {

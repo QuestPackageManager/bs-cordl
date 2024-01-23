@@ -34,26 +34,29 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::OptionalAvatarDataSender);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15169))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15169))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15207))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarDataSender*
 class CORDL_TYPE OptionalAvatarDataSender : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _avatarSystemCollection, offset 0x10, size 0x8
-  __declspec(property(get = __get__avatarSystemCollection, put = __set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
+  __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
   /// @brief Field _optionalAvatarDataSyncHandler, offset 0x18, size 0x8
-  __declspec(property(get = __get__optionalAvatarDataSyncHandler, put = __set__optionalAvatarDataSyncHandler))::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* _optionalAvatarDataSyncHandler;
+  __declspec(property(get = __cordl_internal_get__optionalAvatarDataSyncHandler,
+                      put = __cordl_internal_set__optionalAvatarDataSyncHandler))::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* _optionalAvatarDataSyncHandler;
 
   /// @brief Field _optionalAvatarDataProvider, offset 0x20, size 0x8
-  __declspec(property(get = __get__optionalAvatarDataProvider, put = __set__optionalAvatarDataProvider))::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* _optionalAvatarDataProvider;
+  __declspec(property(get = __cordl_internal_get__optionalAvatarDataProvider,
+                      put = __cordl_internal_set__optionalAvatarDataProvider))::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* _optionalAvatarDataProvider;
 
   /// @brief Field _currentAvatarDisplayContext, offset 0x28, size 0x4
-  __declspec(property(get = __get__currentAvatarDisplayContext, put = __set__currentAvatarDisplayContext))::BeatSaber::AvatarCore::AvatarDisplayContext _currentAvatarDisplayContext;
+  __declspec(property(get = __cordl_internal_get__currentAvatarDisplayContext,
+                      put = __cordl_internal_set__currentAvatarDisplayContext))::BeatSaber::AvatarCore::AvatarDisplayContext _currentAvatarDisplayContext;
 
   /// @brief Field _selectedAvatarTypeId, offset 0x30, size 0x8
-  __declspec(property(get = __get__selectedAvatarTypeId, put = __set__selectedAvatarTypeId))::StringW _selectedAvatarTypeId;
+  __declspec(property(get = __cordl_internal_get__selectedAvatarTypeId, put = __cordl_internal_set__selectedAvatarTypeId))::StringW _selectedAvatarTypeId;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -61,35 +64,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __get__avatarSystemCollection();
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __get__avatarSystemCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __cordl_internal_get__avatarSystemCollection() const;
 
-  constexpr void __set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
+  constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
 
-  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*& __get__optionalAvatarDataSyncHandler();
+  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*& __cordl_internal_get__optionalAvatarDataSyncHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*> const& __get__optionalAvatarDataSyncHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*> const& __cordl_internal_get__optionalAvatarDataSyncHandler() const;
 
-  constexpr void __set__optionalAvatarDataSyncHandler(::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* value);
+  constexpr void __cordl_internal_set__optionalAvatarDataSyncHandler(::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* value);
 
-  constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*& __get__optionalAvatarDataProvider();
+  constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*& __cordl_internal_get__optionalAvatarDataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*> const& __get__optionalAvatarDataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*> const& __cordl_internal_get__optionalAvatarDataProvider() const;
 
-  constexpr void __set__optionalAvatarDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* value);
+  constexpr void __cordl_internal_set__optionalAvatarDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* value);
 
-  constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext& __get__currentAvatarDisplayContext();
+  constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext& __cordl_internal_get__currentAvatarDisplayContext();
 
-  constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext const& __get__currentAvatarDisplayContext() const;
+  constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext const& __cordl_internal_get__currentAvatarDisplayContext() const;
 
-  constexpr void __set__currentAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext value);
+  constexpr void __cordl_internal_set__currentAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext value);
 
-  constexpr ::StringW& __get__selectedAvatarTypeId();
+  constexpr ::StringW& __cordl_internal_get__selectedAvatarTypeId();
 
-  constexpr ::StringW const& __get__selectedAvatarTypeId() const;
+  constexpr ::StringW const& __cordl_internal_get__selectedAvatarTypeId() const;
 
-  constexpr void __set__selectedAvatarTypeId(::StringW value);
+  constexpr void __cordl_internal_set__selectedAvatarTypeId(::StringW value);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSender* New_ctor(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                             ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);

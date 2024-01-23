@@ -23,128 +23,128 @@ MARK_REF_PTR_T(::System::Xml::Schema::RestrictionFacets);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11618)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11617))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11617)), TypeDefinitionIndex(TypeDefinitionIndex(11618))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11619))
 // CS Name: ::System.Xml.Schema::RestrictionFacets*
 class CORDL_TYPE RestrictionFacets : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Length, offset 0x10, size 0x4
-  __declspec(property(get = __get_Length, put = __set_Length)) int32_t Length;
+  __declspec(property(get = __cordl_internal_get_Length, put = __cordl_internal_set_Length)) int32_t Length;
 
   /// @brief Field MinLength, offset 0x14, size 0x4
-  __declspec(property(get = __get_MinLength, put = __set_MinLength)) int32_t MinLength;
+  __declspec(property(get = __cordl_internal_get_MinLength, put = __cordl_internal_set_MinLength)) int32_t MinLength;
 
   /// @brief Field MaxLength, offset 0x18, size 0x4
-  __declspec(property(get = __get_MaxLength, put = __set_MaxLength)) int32_t MaxLength;
+  __declspec(property(get = __cordl_internal_get_MaxLength, put = __cordl_internal_set_MaxLength)) int32_t MaxLength;
 
   /// @brief Field Patterns, offset 0x20, size 0x8
-  __declspec(property(get = __get_Patterns, put = __set_Patterns))::System::Collections::ArrayList* Patterns;
+  __declspec(property(get = __cordl_internal_get_Patterns, put = __cordl_internal_set_Patterns))::System::Collections::ArrayList* Patterns;
 
   /// @brief Field Enumeration, offset 0x28, size 0x8
-  __declspec(property(get = __get_Enumeration, put = __set_Enumeration))::System::Collections::ArrayList* Enumeration;
+  __declspec(property(get = __cordl_internal_get_Enumeration, put = __cordl_internal_set_Enumeration))::System::Collections::ArrayList* Enumeration;
 
   /// @brief Field WhiteSpace, offset 0x30, size 0x4
-  __declspec(property(get = __get_WhiteSpace, put = __set_WhiteSpace))::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace;
+  __declspec(property(get = __cordl_internal_get_WhiteSpace, put = __cordl_internal_set_WhiteSpace))::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace;
 
   /// @brief Field MaxInclusive, offset 0x38, size 0x8
-  __declspec(property(get = __get_MaxInclusive, put = __set_MaxInclusive))::System::Object* MaxInclusive;
+  __declspec(property(get = __cordl_internal_get_MaxInclusive, put = __cordl_internal_set_MaxInclusive))::System::Object* MaxInclusive;
 
   /// @brief Field MaxExclusive, offset 0x40, size 0x8
-  __declspec(property(get = __get_MaxExclusive, put = __set_MaxExclusive))::System::Object* MaxExclusive;
+  __declspec(property(get = __cordl_internal_get_MaxExclusive, put = __cordl_internal_set_MaxExclusive))::System::Object* MaxExclusive;
 
   /// @brief Field MinInclusive, offset 0x48, size 0x8
-  __declspec(property(get = __get_MinInclusive, put = __set_MinInclusive))::System::Object* MinInclusive;
+  __declspec(property(get = __cordl_internal_get_MinInclusive, put = __cordl_internal_set_MinInclusive))::System::Object* MinInclusive;
 
   /// @brief Field MinExclusive, offset 0x50, size 0x8
-  __declspec(property(get = __get_MinExclusive, put = __set_MinExclusive))::System::Object* MinExclusive;
+  __declspec(property(get = __cordl_internal_get_MinExclusive, put = __cordl_internal_set_MinExclusive))::System::Object* MinExclusive;
 
   /// @brief Field TotalDigits, offset 0x58, size 0x4
-  __declspec(property(get = __get_TotalDigits, put = __set_TotalDigits)) int32_t TotalDigits;
+  __declspec(property(get = __cordl_internal_get_TotalDigits, put = __cordl_internal_set_TotalDigits)) int32_t TotalDigits;
 
   /// @brief Field FractionDigits, offset 0x5c, size 0x4
-  __declspec(property(get = __get_FractionDigits, put = __set_FractionDigits)) int32_t FractionDigits;
+  __declspec(property(get = __cordl_internal_get_FractionDigits, put = __cordl_internal_set_FractionDigits)) int32_t FractionDigits;
 
   /// @brief Field Flags, offset 0x60, size 0x4
-  __declspec(property(get = __get_Flags, put = __set_Flags))::System::Xml::Schema::RestrictionFlags Flags;
+  __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags))::System::Xml::Schema::RestrictionFlags Flags;
 
-  constexpr int32_t& __get_Length();
+  constexpr int32_t& __cordl_internal_get_Length();
 
-  constexpr int32_t const& __get_Length() const;
+  constexpr int32_t const& __cordl_internal_get_Length() const;
 
-  constexpr void __set_Length(int32_t value);
+  constexpr void __cordl_internal_set_Length(int32_t value);
 
-  constexpr int32_t& __get_MinLength();
+  constexpr int32_t& __cordl_internal_get_MinLength();
 
-  constexpr int32_t const& __get_MinLength() const;
+  constexpr int32_t const& __cordl_internal_get_MinLength() const;
 
-  constexpr void __set_MinLength(int32_t value);
+  constexpr void __cordl_internal_set_MinLength(int32_t value);
 
-  constexpr int32_t& __get_MaxLength();
+  constexpr int32_t& __cordl_internal_get_MaxLength();
 
-  constexpr int32_t const& __get_MaxLength() const;
+  constexpr int32_t const& __cordl_internal_get_MaxLength() const;
 
-  constexpr void __set_MaxLength(int32_t value);
+  constexpr void __cordl_internal_set_MaxLength(int32_t value);
 
-  constexpr ::System::Collections::ArrayList*& __get_Patterns();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_Patterns();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_Patterns() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_Patterns() const;
 
-  constexpr void __set_Patterns(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_Patterns(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::ArrayList*& __get_Enumeration();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_Enumeration();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_Enumeration() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_Enumeration() const;
 
-  constexpr void __set_Enumeration(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_Enumeration(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace& __get_WhiteSpace();
+  constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace& __cordl_internal_get_WhiteSpace();
 
-  constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace const& __get_WhiteSpace() const;
+  constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace const& __cordl_internal_get_WhiteSpace() const;
 
-  constexpr void __set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
+  constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
 
-  constexpr ::System::Object*& __get_MaxInclusive();
+  constexpr ::System::Object*& __cordl_internal_get_MaxInclusive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_MaxInclusive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MaxInclusive() const;
 
-  constexpr void __set_MaxInclusive(::System::Object* value);
+  constexpr void __cordl_internal_set_MaxInclusive(::System::Object* value);
 
-  constexpr ::System::Object*& __get_MaxExclusive();
+  constexpr ::System::Object*& __cordl_internal_get_MaxExclusive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_MaxExclusive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MaxExclusive() const;
 
-  constexpr void __set_MaxExclusive(::System::Object* value);
+  constexpr void __cordl_internal_set_MaxExclusive(::System::Object* value);
 
-  constexpr ::System::Object*& __get_MinInclusive();
+  constexpr ::System::Object*& __cordl_internal_get_MinInclusive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_MinInclusive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MinInclusive() const;
 
-  constexpr void __set_MinInclusive(::System::Object* value);
+  constexpr void __cordl_internal_set_MinInclusive(::System::Object* value);
 
-  constexpr ::System::Object*& __get_MinExclusive();
+  constexpr ::System::Object*& __cordl_internal_get_MinExclusive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_MinExclusive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MinExclusive() const;
 
-  constexpr void __set_MinExclusive(::System::Object* value);
+  constexpr void __cordl_internal_set_MinExclusive(::System::Object* value);
 
-  constexpr int32_t& __get_TotalDigits();
+  constexpr int32_t& __cordl_internal_get_TotalDigits();
 
-  constexpr int32_t const& __get_TotalDigits() const;
+  constexpr int32_t const& __cordl_internal_get_TotalDigits() const;
 
-  constexpr void __set_TotalDigits(int32_t value);
+  constexpr void __cordl_internal_set_TotalDigits(int32_t value);
 
-  constexpr int32_t& __get_FractionDigits();
+  constexpr int32_t& __cordl_internal_get_FractionDigits();
 
-  constexpr int32_t const& __get_FractionDigits() const;
+  constexpr int32_t const& __cordl_internal_get_FractionDigits() const;
 
-  constexpr void __set_FractionDigits(int32_t value);
+  constexpr void __cordl_internal_set_FractionDigits(int32_t value);
 
-  constexpr ::System::Xml::Schema::RestrictionFlags& __get_Flags();
+  constexpr ::System::Xml::Schema::RestrictionFlags& __cordl_internal_get_Flags();
 
-  constexpr ::System::Xml::Schema::RestrictionFlags const& __get_Flags() const;
+  constexpr ::System::Xml::Schema::RestrictionFlags const& __cordl_internal_get_Flags() const;
 
-  constexpr void __set_Flags(::System::Xml::Schema::RestrictionFlags value);
+  constexpr void __cordl_internal_set_Flags(::System::Xml::Schema::RestrictionFlags value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RestrictionFacets", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

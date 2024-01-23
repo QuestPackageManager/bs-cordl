@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::System::Collections::Specialized::StringDictionary);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9518))
 // CS Name: ::System.Collections.Specialized::StringDictionary*
 class CORDL_TYPE StringDictionary : public ::System::Object {
 public:
   // Declarations
   /// @brief Field contents, offset 0x10, size 0x8
-  __declspec(property(get = __get_contents, put = __set_contents))::System::Collections::Hashtable* contents;
+  __declspec(property(get = __cordl_internal_get_contents, put = __cordl_internal_set_contents))::System::Collections::Hashtable* contents;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -39,11 +39,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Hashtable*& __get_contents();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_contents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_contents() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_contents() const;
 
-  constexpr void __set_contents(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_contents(::System::Collections::Hashtable* value);
 
   static inline ::System::Collections::Specialized::StringDictionary* New_ctor();
 

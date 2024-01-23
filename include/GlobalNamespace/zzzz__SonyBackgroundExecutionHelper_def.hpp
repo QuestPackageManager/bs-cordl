@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyBackgroundExecutionHelper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4579))
 // CS Name: ::SonyBackgroundExecutionHelper*
 class CORDL_TYPE SonyBackgroundExecutionHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field didGoToBackgroundExecutionEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_didGoToBackgroundExecutionEvent, put = __set_didGoToBackgroundExecutionEvent))::System::Action* didGoToBackgroundExecutionEvent;
+  __declspec(property(get = __cordl_internal_get_didGoToBackgroundExecutionEvent, put = __cordl_internal_set_didGoToBackgroundExecutionEvent))::System::Action* didGoToBackgroundExecutionEvent;
 
   /// @brief Field didGoToForegroundExecutionEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_didGoToForegroundExecutionEvent, put = __set_didGoToForegroundExecutionEvent))::System::Action* didGoToForegroundExecutionEvent;
+  __declspec(property(get = __cordl_internal_get_didGoToForegroundExecutionEvent, put = __cordl_internal_set_didGoToForegroundExecutionEvent))::System::Action* didGoToForegroundExecutionEvent;
 
   /// @brief Field _isInBackgroundExecution, offset 0x20, size 0x1
-  __declspec(property(get = __get__isInBackgroundExecution, put = __set__isInBackgroundExecution)) bool _isInBackgroundExecution;
+  __declspec(property(get = __cordl_internal_get__isInBackgroundExecution, put = __cordl_internal_set__isInBackgroundExecution)) bool _isInBackgroundExecution;
 
   __declspec(property(get = get_isInBackgroundExecution)) bool isInBackgroundExecution;
 
@@ -43,23 +43,23 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  constexpr ::System::Action*& __get_didGoToBackgroundExecutionEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didGoToBackgroundExecutionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didGoToBackgroundExecutionEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didGoToBackgroundExecutionEvent() const;
 
-  constexpr void __set_didGoToBackgroundExecutionEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didGoToBackgroundExecutionEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didGoToForegroundExecutionEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didGoToForegroundExecutionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didGoToForegroundExecutionEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didGoToForegroundExecutionEvent() const;
 
-  constexpr void __set_didGoToForegroundExecutionEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didGoToForegroundExecutionEvent(::System::Action* value);
 
-  constexpr bool& __get__isInBackgroundExecution();
+  constexpr bool& __cordl_internal_get__isInBackgroundExecution();
 
-  constexpr bool const& __get__isInBackgroundExecution() const;
+  constexpr bool const& __cordl_internal_get__isInBackgroundExecution() const;
 
-  constexpr void __set__isInBackgroundExecution(bool value);
+  constexpr void __cordl_internal_set__isInBackgroundExecution(bool value);
 
   /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x2368df4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGoToBackgroundExecutionEvent(::System::Action* value);

@@ -13,9 +13,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3f8;
   constexpr static std::size_t addrs = 0x21159a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OnWillRenderObjectTrigger*>::get(), "OnEnable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -26,9 +26,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2115d9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OnWillRenderObjectTrigger*>::get(),
-                                                                               "OnDisable", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -39,100 +39,100 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2115dcc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OnWillRenderObjectTrigger*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Shader*& GlobalNamespace::OnWillRenderObjectTrigger::__get__overrideShader() {
+constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__overrideShader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideShader;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::OnWillRenderObjectTrigger::__get__overrideShader() const {
+constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__overrideShader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideShader;
 }
-constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__set__overrideShader(::UnityEngine::Shader* value) {
+constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_set__overrideShader(::UnityW<::UnityEngine::Shader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::OnWillRenderObjectTrigger::__get__renderQueue() {
+constexpr int32_t& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__renderQueue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderQueue;
 }
-constexpr int32_t const& GlobalNamespace::OnWillRenderObjectTrigger::__get__renderQueue() const {
+constexpr int32_t const& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__renderQueue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderQueue;
 }
-constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__set__renderQueue(int32_t value) {
+constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_set__renderQueue(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____renderQueue = value;
 }
-constexpr ::UnityEngine::Material*& GlobalNamespace::OnWillRenderObjectTrigger::__get__material() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__material() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::OnWillRenderObjectTrigger::__get__material() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__material() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
-constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__set__material(::UnityEngine::Material* value) {
+constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_set__material(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____material)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Mesh*& GlobalNamespace::OnWillRenderObjectTrigger::__get__mesh() {
+constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__mesh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mesh;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& GlobalNamespace::OnWillRenderObjectTrigger::__get__mesh() const {
+constexpr ::UnityW<::UnityEngine::Mesh> const& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__mesh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mesh;
 }
-constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__set__mesh(::UnityEngine::Mesh* value) {
+constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::MeshFilter*& GlobalNamespace::OnWillRenderObjectTrigger::__get__meshFilter() {
+constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__meshFilter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshFilter;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& GlobalNamespace::OnWillRenderObjectTrigger::__get__meshFilter() const {
+constexpr ::UnityW<::UnityEngine::MeshFilter> const& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__meshFilter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshFilter;
 }
-constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__set__meshFilter(::UnityEngine::MeshFilter* value) {
+constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::MeshRenderer*& GlobalNamespace::OnWillRenderObjectTrigger::__get__meshRenderer() {
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__meshRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderer;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& GlobalNamespace::OnWillRenderObjectTrigger::__get__meshRenderer() const {
+constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_get__meshRenderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderer;
 }
-constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__set__meshRenderer(::UnityEngine::MeshRenderer* value) {
+constexpr void GlobalNamespace::OnWillRenderObjectTrigger::__cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OnWillRenderObjectTrigger::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OnWillRenderObjectTrigger*>::get(), "OnEnable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OnWillRenderObjectTrigger::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OnWillRenderObjectTrigger*>::get(), "OnDisable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::OnWillRenderObjectTrigger* GlobalNamespace::OnWillRenderObjectTrigger::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::OnWillRenderObjectTrigger*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OnWillRenderObjectTrigger*>());
 }
 inline void GlobalNamespace::OnWillRenderObjectTrigger::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OnWillRenderObjectTrigger*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

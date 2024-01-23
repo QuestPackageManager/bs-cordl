@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSelectionViewController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5718))
 // CS Name: ::MultiplayerModeSelectionViewController::MenuButton
 struct CORDL_TYPE __MultiplayerModeSelectionViewController__MenuButton {
@@ -96,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionViewControll
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5719))
 // CS Name: ::MultiplayerModeSelectionViewController*
 class CORDL_TYPE MultiplayerModeSelectionViewController : public ::HMUI::ViewController {
@@ -105,85 +105,90 @@ public:
   using MenuButton = ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton;
 
   /// @brief Field _quickPlayButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__quickPlayButton, put = __set__quickPlayButton))::UnityEngine::UI::Button* _quickPlayButton;
+  __declspec(property(get = __cordl_internal_get__quickPlayButton, put = __cordl_internal_set__quickPlayButton))::UnityW<::UnityEngine::UI::Button> _quickPlayButton;
 
   /// @brief Field _gameBrowserButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__gameBrowserButton, put = __set__gameBrowserButton))::UnityEngine::UI::Button* _gameBrowserButton;
+  __declspec(property(get = __cordl_internal_get__gameBrowserButton, put = __cordl_internal_set__gameBrowserButton))::UnityW<::UnityEngine::UI::Button> _gameBrowserButton;
 
   /// @brief Field _joinWithCodeButton, offset 0x80, size 0x8
-  __declspec(property(get = __get__joinWithCodeButton, put = __set__joinWithCodeButton))::UnityEngine::UI::Button* _joinWithCodeButton;
+  __declspec(property(get = __cordl_internal_get__joinWithCodeButton, put = __cordl_internal_set__joinWithCodeButton))::UnityW<::UnityEngine::UI::Button> _joinWithCodeButton;
 
   /// @brief Field _createServerButton, offset 0x88, size 0x8
-  __declspec(property(get = __get__createServerButton, put = __set__createServerButton))::UnityEngine::UI::Button* _createServerButton;
+  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton))::UnityW<::UnityEngine::UI::Button> _createServerButton;
 
   /// @brief Field _maintenanceMessageText, offset 0x90, size 0x8
-  __declspec(property(get = __get__maintenanceMessageText, put = __set__maintenanceMessageText))::TMPro::TextMeshProUGUI* _maintenanceMessageText;
+  __declspec(property(get = __cordl_internal_get__maintenanceMessageText, put = __cordl_internal_set__maintenanceMessageText))::UnityW<::TMPro::TextMeshProUGUI> _maintenanceMessageText;
 
   /// @brief Field _customServerEndPointText, offset 0x98, size 0x8
-  __declspec(property(get = __get__customServerEndPointText, put = __set__customServerEndPointText))::TMPro::TextMeshProUGUI* _customServerEndPointText;
+  __declspec(property(get = __cordl_internal_get__customServerEndPointText, put = __cordl_internal_set__customServerEndPointText))::UnityW<::TMPro::TextMeshProUGUI> _customServerEndPointText;
 
   /// @brief Field _networkConfig, offset 0xa0, size 0x8
-  __declspec(property(get = __get__networkConfig, put = __set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
   /// @brief Field didFinishEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*,
-                                                                                                 ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>,
+                                                                                    ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* didFinishEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__quickPlayButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__quickPlayButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__quickPlayButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__quickPlayButton() const;
 
-  constexpr void __set__quickPlayButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__quickPlayButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__gameBrowserButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__gameBrowserButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__gameBrowserButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__gameBrowserButton() const;
 
-  constexpr void __set__gameBrowserButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__gameBrowserButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__joinWithCodeButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinWithCodeButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__joinWithCodeButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinWithCodeButton() const;
 
-  constexpr void __set__joinWithCodeButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__joinWithCodeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__createServerButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__createServerButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__createServerButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createServerButton() const;
 
-  constexpr void __set__createServerButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__createServerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__maintenanceMessageText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maintenanceMessageText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__maintenanceMessageText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maintenanceMessageText() const;
 
-  constexpr void __set__maintenanceMessageText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__maintenanceMessageText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__customServerEndPointText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__customServerEndPointText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__customServerEndPointText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__customServerEndPointText() const;
 
-  constexpr void __set__customServerEndPointText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__customServerEndPointText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __get__networkConfig();
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __get__networkConfig() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
-  constexpr void __set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*& __get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*&
+  __cordl_internal_get_didFinishEvent();
 
   constexpr ::cordl_internals::to_const_pointer<
-      ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*> const&
-  __get_didFinishEvent() const;
+      ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*> const&
+  __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22cf3b4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
+  inline void
+  add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x22cf464, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
+  inline void
+  remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
   /// @brief Method DidActivate, addr 0x22cf514, size 0x2dc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -226,28 +231,28 @@ protected:
 
 public:
   /// @brief Field _quickPlayButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____quickPlayButton;
+  ::UnityW<::UnityEngine::UI::Button> ____quickPlayButton;
 
   /// @brief Field _gameBrowserButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____gameBrowserButton;
+  ::UnityW<::UnityEngine::UI::Button> ____gameBrowserButton;
 
   /// @brief Field _joinWithCodeButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____joinWithCodeButton;
+  ::UnityW<::UnityEngine::UI::Button> ____joinWithCodeButton;
 
   /// @brief Field _createServerButton, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____createServerButton;
+  ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
   /// @brief Field _maintenanceMessageText, offset: 0x90, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____maintenanceMessageText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____maintenanceMessageText;
 
   /// @brief Field _customServerEndPointText, offset: 0x98, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____customServerEndPointText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____customServerEndPointText;
 
   /// @brief Field _networkConfig, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 
   /// @brief Field didFinishEvent, offset: 0xa8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

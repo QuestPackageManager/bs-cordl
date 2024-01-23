@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRHapticsClip);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7577))
 // CS Name: ::OVRHapticsClip*
 class CORDL_TYPE OVRHapticsClip : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Count>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__Count_k__BackingField, put = __set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
 
   /// @brief Field <Capacity>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__Capacity_k__BackingField, put = __set__Capacity_k__BackingField)) int32_t _Capacity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Capacity_k__BackingField, put = __cordl_internal_set__Capacity_k__BackingField)) int32_t _Capacity_k__BackingField;
 
   /// @brief Field <Samples>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Samples_k__BackingField, put = __set__Samples_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Samples_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Samples_k__BackingField, put = __cordl_internal_set__Samples_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Samples_k__BackingField;
 
   __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
 
@@ -41,23 +41,23 @@ public:
 
   __declspec(property(get = get_Samples, put = set_Samples))::ArrayW<uint8_t, ::Array<uint8_t>*> Samples;
 
-  constexpr int32_t& __get__Count_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
 
-  constexpr int32_t const& __get__Count_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
 
-  constexpr void __set__Count_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__Capacity_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Capacity_k__BackingField();
 
-  constexpr int32_t const& __get__Capacity_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Capacity_k__BackingField() const;
 
-  constexpr void __set__Capacity_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Capacity_k__BackingField(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__Samples_k__BackingField();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Samples_k__BackingField();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__Samples_k__BackingField() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Samples_k__BackingField() const;
 
-  constexpr void __set__Samples_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__Samples_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_Count, addr 0x2729854, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();

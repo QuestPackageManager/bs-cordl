@@ -20,7 +20,7 @@ MARK_VAL_T(::ENet::Address);
 // SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15217))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15217))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15228))
 // CS Name: ::ENet::Address
 struct CORDL_TYPE Address {

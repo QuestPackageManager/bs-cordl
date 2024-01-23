@@ -33,31 +33,35 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ReusableCollectionItem);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7372))
 // CS Name: ::UnityEngine.UIElements::ReusableCollectionItem*
 class CORDL_TYPE ReusableCollectionItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <bindableElement>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__bindableElement_k__BackingField, put = __set__bindableElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _bindableElement_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bindableElement_k__BackingField,
+                      put = __cordl_internal_set__bindableElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _bindableElement_k__BackingField;
 
   /// @brief Field <animator>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__animator_k__BackingField,
-                      put = __set__animator_k__BackingField))::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* _animator_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__animator_k__BackingField,
+      put = __cordl_internal_set__animator_k__BackingField))::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* _animator_k__BackingField;
 
   /// @brief Field <index>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__index_k__BackingField, put = __set__index_k__BackingField)) int32_t _index_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__index_k__BackingField, put = __cordl_internal_set__index_k__BackingField)) int32_t _index_k__BackingField;
 
   /// @brief Field <id>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__id_k__BackingField, put = __set__id_k__BackingField)) int32_t _id_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__id_k__BackingField, put = __cordl_internal_set__id_k__BackingField)) int32_t _id_k__BackingField;
 
   /// @brief Field onGeometryChanged, offset 0x28, size 0x8
-  __declspec(property(get = __get_onGeometryChanged, put = __set_onGeometryChanged))::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* onGeometryChanged;
+  __declspec(property(get = __cordl_internal_get_onGeometryChanged,
+                      put = __cordl_internal_set_onGeometryChanged))::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* onGeometryChanged;
 
   /// @brief Field m_GeometryChangedEventCallback, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_GeometryChangedEventCallback,
-                      put = __set_m_GeometryChangedEventCallback))::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* m_GeometryChangedEventCallback;
+  __declspec(
+      property(get = __cordl_internal_get_m_GeometryChangedEventCallback,
+               put = __cordl_internal_set_m_GeometryChangedEventCallback))::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* m_GeometryChangedEventCallback;
 
   __declspec(property(get = get_rootElement))::UnityEngine::UIElements::VisualElement* rootElement;
 
@@ -69,42 +73,43 @@ public:
 
   __declspec(property(get = get_id, put = set_id)) int32_t id;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__bindableElement_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__bindableElement_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__bindableElement_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__bindableElement_k__BackingField() const;
 
-  constexpr void __set__bindableElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__bindableElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*& __get__animator_k__BackingField();
+  constexpr ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*& __cordl_internal_get__animator_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*> const&
-  __get__animator_k__BackingField() const;
+  __cordl_internal_get__animator_k__BackingField() const;
 
-  constexpr void __set__animator_k__BackingField(::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* value);
+  constexpr void __cordl_internal_set__animator_k__BackingField(::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* value);
 
-  constexpr int32_t& __get__index_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__index_k__BackingField();
 
-  constexpr int32_t const& __get__index_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__index_k__BackingField() const;
 
-  constexpr void __set__index_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__index_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__id_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__id_k__BackingField();
 
-  constexpr int32_t const& __get__id_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__id_k__BackingField() const;
 
-  constexpr void __set__id_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__id_k__BackingField(int32_t value);
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*& __get_onGeometryChanged();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*& __cordl_internal_get_onGeometryChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*> const& __get_onGeometryChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*> const& __cordl_internal_get_onGeometryChanged() const;
 
-  constexpr void __set_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
+  constexpr void __cordl_internal_set_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
-  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>*& __get_m_GeometryChangedEventCallback();
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>*& __cordl_internal_get_m_GeometryChangedEventCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>*> const& __get_m_GeometryChangedEventCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>*> const&
+  __cordl_internal_get_m_GeometryChangedEventCallback() const;
 
-  constexpr void __set_m_GeometryChangedEventCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* value);
+  constexpr void __cordl_internal_set_m_GeometryChangedEventCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* value);
 
   /// @brief Method get_rootElement, addr 0x2e87bcc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();

@@ -35,65 +35,67 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::PreferenceDictionary);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12151))
 // CS Name: ::UnityEngine.ProBuilder::PreferenceDictionary*
 class CORDL_TYPE PreferenceDictionary : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field m_Bool, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Bool, put = __set_m_Bool))::System::Collections::Generic::Dictionary_2<::StringW, bool>* m_Bool;
+  __declspec(property(get = __cordl_internal_get_m_Bool, put = __cordl_internal_set_m_Bool))::System::Collections::Generic::Dictionary_2<::StringW, bool>* m_Bool;
 
   /// @brief Field m_Int, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Int, put = __set_m_Int))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* m_Int;
+  __declspec(property(get = __cordl_internal_get_m_Int, put = __cordl_internal_set_m_Int))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* m_Int;
 
   /// @brief Field m_Float, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Float, put = __set_m_Float))::System::Collections::Generic::Dictionary_2<::StringW, float_t>* m_Float;
+  __declspec(property(get = __cordl_internal_get_m_Float, put = __cordl_internal_set_m_Float))::System::Collections::Generic::Dictionary_2<::StringW, float_t>* m_Float;
 
   /// @brief Field m_String, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_String, put = __set_m_String))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* m_String;
+  __declspec(property(get = __cordl_internal_get_m_String, put = __cordl_internal_set_m_String))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* m_String;
 
   /// @brief Field m_Color, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Color, put = __set_m_Color))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* m_Color;
+  __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* m_Color;
 
   /// @brief Field m_Material, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Material, put = __set_m_Material))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Material*>* m_Material;
+  __declspec(property(get = __cordl_internal_get_m_Material,
+                      put = __cordl_internal_set_m_Material))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* m_Material;
 
   /// @brief Field m_Bool_keys, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Bool_keys, put = __set_m_Bool_keys))::System::Collections::Generic::List_1<::StringW>* m_Bool_keys;
+  __declspec(property(get = __cordl_internal_get_m_Bool_keys, put = __cordl_internal_set_m_Bool_keys))::System::Collections::Generic::List_1<::StringW>* m_Bool_keys;
 
   /// @brief Field m_Int_keys, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_Int_keys, put = __set_m_Int_keys))::System::Collections::Generic::List_1<::StringW>* m_Int_keys;
+  __declspec(property(get = __cordl_internal_get_m_Int_keys, put = __cordl_internal_set_m_Int_keys))::System::Collections::Generic::List_1<::StringW>* m_Int_keys;
 
   /// @brief Field m_Float_keys, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_Float_keys, put = __set_m_Float_keys))::System::Collections::Generic::List_1<::StringW>* m_Float_keys;
+  __declspec(property(get = __cordl_internal_get_m_Float_keys, put = __cordl_internal_set_m_Float_keys))::System::Collections::Generic::List_1<::StringW>* m_Float_keys;
 
   /// @brief Field m_String_keys, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_String_keys, put = __set_m_String_keys))::System::Collections::Generic::List_1<::StringW>* m_String_keys;
+  __declspec(property(get = __cordl_internal_get_m_String_keys, put = __cordl_internal_set_m_String_keys))::System::Collections::Generic::List_1<::StringW>* m_String_keys;
 
   /// @brief Field m_Color_keys, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Color_keys, put = __set_m_Color_keys))::System::Collections::Generic::List_1<::StringW>* m_Color_keys;
+  __declspec(property(get = __cordl_internal_get_m_Color_keys, put = __cordl_internal_set_m_Color_keys))::System::Collections::Generic::List_1<::StringW>* m_Color_keys;
 
   /// @brief Field m_Material_keys, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_Material_keys, put = __set_m_Material_keys))::System::Collections::Generic::List_1<::StringW>* m_Material_keys;
+  __declspec(property(get = __cordl_internal_get_m_Material_keys, put = __cordl_internal_set_m_Material_keys))::System::Collections::Generic::List_1<::StringW>* m_Material_keys;
 
   /// @brief Field m_Bool_values, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_Bool_values, put = __set_m_Bool_values))::System::Collections::Generic::List_1<bool>* m_Bool_values;
+  __declspec(property(get = __cordl_internal_get_m_Bool_values, put = __cordl_internal_set_m_Bool_values))::System::Collections::Generic::List_1<bool>* m_Bool_values;
 
   /// @brief Field m_Int_values, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Int_values, put = __set_m_Int_values))::System::Collections::Generic::List_1<int32_t>* m_Int_values;
+  __declspec(property(get = __cordl_internal_get_m_Int_values, put = __cordl_internal_set_m_Int_values))::System::Collections::Generic::List_1<int32_t>* m_Int_values;
 
   /// @brief Field m_Float_values, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Float_values, put = __set_m_Float_values))::System::Collections::Generic::List_1<float_t>* m_Float_values;
+  __declspec(property(get = __cordl_internal_get_m_Float_values, put = __cordl_internal_set_m_Float_values))::System::Collections::Generic::List_1<float_t>* m_Float_values;
 
   /// @brief Field m_String_values, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_String_values, put = __set_m_String_values))::System::Collections::Generic::List_1<::StringW>* m_String_values;
+  __declspec(property(get = __cordl_internal_get_m_String_values, put = __cordl_internal_set_m_String_values))::System::Collections::Generic::List_1<::StringW>* m_String_values;
 
   /// @brief Field m_Color_values, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_Color_values, put = __set_m_Color_values))::System::Collections::Generic::List_1<::UnityEngine::Color>* m_Color_values;
+  __declspec(property(get = __cordl_internal_get_m_Color_values, put = __cordl_internal_set_m_Color_values))::System::Collections::Generic::List_1<::UnityEngine::Color>* m_Color_values;
 
   /// @brief Field m_Material_values, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_Material_values, put = __set_m_Material_values))::System::Collections::Generic::List_1<::UnityEngine::Material*>* m_Material_values;
+  __declspec(property(get = __cordl_internal_get_m_Material_values,
+                      put = __cordl_internal_set_m_Material_values))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* m_Material_values;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
@@ -107,113 +109,113 @@ public:
   /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
   constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>*& __get_m_Bool();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>*& __cordl_internal_get_m_Bool();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, bool>*> const& __get_m_Bool() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, bool>*> const& __cordl_internal_get_m_Bool() const;
 
-  constexpr void __set_m_Bool(::System::Collections::Generic::Dictionary_2<::StringW, bool>* value);
+  constexpr void __cordl_internal_set_m_Bool(::System::Collections::Generic::Dictionary_2<::StringW, bool>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __get_m_Int();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get_m_Int();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __get_m_Int() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get_m_Int() const;
 
-  constexpr void __set_m_Int(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr void __cordl_internal_set_m_Int(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>*& __get_m_Float();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>*& __cordl_internal_get_m_Float();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, float_t>*> const& __get_m_Float() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, float_t>*> const& __cordl_internal_get_m_Float() const;
 
-  constexpr void __set_m_Float(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
+  constexpr void __cordl_internal_set_m_Float(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __get_m_String();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get_m_String();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __get_m_String() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get_m_String() const;
 
-  constexpr void __set_m_String(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_m_String(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>*& __get_m_Color();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>*& __cordl_internal_get_m_Color();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>*> const& __get_m_Color() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>*> const& __cordl_internal_get_m_Color() const;
 
-  constexpr void __set_m_Color(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_m_Color(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Material*>*& __get_m_Material();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_m_Material();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Material*>*> const& __get_m_Material() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get_m_Material() const;
 
-  constexpr void __set_m_Material(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Material*>* value);
+  constexpr void __cordl_internal_set_m_Material(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_Bool_keys();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Bool_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_Bool_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Bool_keys() const;
 
-  constexpr void __set_m_Bool_keys(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_Bool_keys(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_Int_keys();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Int_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_Int_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Int_keys() const;
 
-  constexpr void __set_m_Int_keys(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_Int_keys(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_Float_keys();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Float_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_Float_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Float_keys() const;
 
-  constexpr void __set_m_Float_keys(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_Float_keys(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_String_keys();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_String_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_String_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_String_keys() const;
 
-  constexpr void __set_m_String_keys(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_String_keys(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_Color_keys();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Color_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_Color_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Color_keys() const;
 
-  constexpr void __set_m_Color_keys(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_Color_keys(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_Material_keys();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Material_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_Material_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Material_keys() const;
 
-  constexpr void __set_m_Material_keys(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_Material_keys(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<bool>*& __get_m_Bool_values();
+  constexpr ::System::Collections::Generic::List_1<bool>*& __cordl_internal_get_m_Bool_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<bool>*> const& __get_m_Bool_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<bool>*> const& __cordl_internal_get_m_Bool_values() const;
 
-  constexpr void __set_m_Bool_values(::System::Collections::Generic::List_1<bool>* value);
+  constexpr void __cordl_internal_set_m_Bool_values(::System::Collections::Generic::List_1<bool>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_Int_values();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_Int_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_Int_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_Int_values() const;
 
-  constexpr void __set_m_Int_values(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_Int_values(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __get_m_Float_values();
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_m_Float_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __get_m_Float_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get_m_Float_values() const;
 
-  constexpr void __set_m_Float_values(::System::Collections::Generic::List_1<float_t>* value);
+  constexpr void __cordl_internal_set_m_Float_values(::System::Collections::Generic::List_1<float_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_String_values();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_String_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_String_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_String_values() const;
 
-  constexpr void __set_m_String_values(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_String_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __get_m_Color_values();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get_m_Color_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __get_m_Color_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __cordl_internal_get_m_Color_values() const;
 
-  constexpr void __set_m_Color_values(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_m_Color_values(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& __get_m_Material_values();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_m_Material_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Material*>*> const& __get_m_Material_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get_m_Material_values() const;
 
-  constexpr void __set_m_Material_values(::System::Collections::Generic::List_1<::UnityEngine::Material*>* value);
+  constexpr void __cordl_internal_set_m_Material_values(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* value);
 
   /// @brief Method OnBeforeSerialize, addr 0x2b56064, size 0x314, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
@@ -255,7 +257,7 @@ public:
   inline ::UnityEngine::Color GetColor(::StringW key, ::UnityEngine::Color fallback);
 
   /// @brief Method GetMaterial, addr 0x2b56e60, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetMaterial(::StringW key, ::UnityEngine::Material* fallback);
+  inline ::UnityW<::UnityEngine::Material> GetMaterial(::StringW key, ::UnityEngine::Material* fallback);
 
   /// @brief Method SetBool, addr 0x2b56edc, size 0xcc, virtual false, abstract: false, final false
   inline void SetBool(::StringW key, bool value);
@@ -291,7 +293,7 @@ public:
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* GetColorDictionary();
 
   /// @brief Method GetMaterialDictionary, addr 0x2b573fc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Material*>* GetMaterialDictionary();
+  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* GetMaterialDictionary();
 
   /// @brief Method Clear, addr 0x2b57404, size 0xe0, virtual false, abstract: false, final false
   inline void Clear();
@@ -331,7 +333,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* ___m_Color;
 
   /// @brief Field m_Material, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Material*>* ___m_Material;
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* ___m_Material;
 
   /// @brief Field m_Bool_keys, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Bool_keys;
@@ -367,7 +369,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::Color>* ___m_Color_values;
 
   /// @brief Field m_Material_values, offset: 0xa0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Material*>* ___m_Material_values;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* ___m_Material_values;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

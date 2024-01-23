@@ -62,29 +62,31 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9838))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9838))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9840))
 // CS Name: ::HEU_InputInterfaceMesh::HEU_InputDataMeshes*
 class CORDL_TYPE __HEU_InputInterfaceMesh__HEU_InputDataMeshes : public ::HoudiniEngineUnity::HEU_InputData {
 public:
   // Declarations
   /// @brief Field _inputMeshes, offset 0x18, size 0x8
-  __declspec(property(get = __get__inputMeshes, put = __set__inputMeshes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* _inputMeshes;
+  __declspec(property(get = __cordl_internal_get__inputMeshes,
+                      put = __cordl_internal_set__inputMeshes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* _inputMeshes;
 
   /// @brief Field _hasLOD, offset 0x20, size 0x1
-  __declspec(property(get = __get__hasLOD, put = __set__hasLOD)) bool _hasLOD;
+  __declspec(property(get = __cordl_internal_get__hasLOD, put = __cordl_internal_set__hasLOD)) bool _hasLOD;
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>*& __get__inputMeshes();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>*& __cordl_internal_get__inputMeshes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>*> const& __get__inputMeshes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>*> const&
+  __cordl_internal_get__inputMeshes() const;
 
-  constexpr void __set__inputMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* value);
+  constexpr void __cordl_internal_set__inputMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* value);
 
-  constexpr bool& __get__hasLOD();
+  constexpr bool& __cordl_internal_get__hasLOD();
 
-  constexpr bool const& __get__hasLOD() const;
+  constexpr bool const& __cordl_internal_get__hasLOD() const;
 
-  constexpr void __set__hasLOD(bool value);
+  constexpr void __cordl_internal_set__hasLOD(bool value);
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes* New_ctor();
 
@@ -125,101 +127,101 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_Input
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9841))
 // CS Name: ::HEU_InputInterfaceMesh::HEU_InputDataMesh*
 class CORDL_TYPE __HEU_InputInterfaceMesh__HEU_InputDataMesh : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _mesh, offset 0x10, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field _materials, offset 0x18, size 0x8
-  __declspec(property(get = __get__materials, put = __set__materials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> _materials;
+  __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _materials;
 
   /// @brief Field _meshPath, offset 0x20, size 0x8
-  __declspec(property(get = __get__meshPath, put = __set__meshPath))::StringW _meshPath;
+  __declspec(property(get = __cordl_internal_get__meshPath, put = __cordl_internal_set__meshPath))::StringW _meshPath;
 
   /// @brief Field _meshName, offset 0x28, size 0x8
-  __declspec(property(get = __get__meshName, put = __set__meshName))::StringW _meshName;
+  __declspec(property(get = __cordl_internal_get__meshName, put = __cordl_internal_set__meshName))::StringW _meshName;
 
   /// @brief Field _numVertices, offset 0x30, size 0x4
-  __declspec(property(get = __get__numVertices, put = __set__numVertices)) int32_t _numVertices;
+  __declspec(property(get = __cordl_internal_get__numVertices, put = __cordl_internal_set__numVertices)) int32_t _numVertices;
 
   /// @brief Field _numSubMeshes, offset 0x34, size 0x4
-  __declspec(property(get = __get__numSubMeshes, put = __set__numSubMeshes)) int32_t _numSubMeshes;
+  __declspec(property(get = __cordl_internal_get__numSubMeshes, put = __cordl_internal_set__numSubMeshes)) int32_t _numSubMeshes;
 
   /// @brief Field _indexStart, offset 0x38, size 0x8
-  __declspec(property(get = __get__indexStart, put = __set__indexStart))::ArrayW<uint32_t, ::Array<uint32_t>*> _indexStart;
+  __declspec(property(get = __cordl_internal_get__indexStart, put = __cordl_internal_set__indexStart))::ArrayW<uint32_t, ::Array<uint32_t>*> _indexStart;
 
   /// @brief Field _indexCount, offset 0x40, size 0x8
-  __declspec(property(get = __get__indexCount, put = __set__indexCount))::ArrayW<uint32_t, ::Array<uint32_t>*> _indexCount;
+  __declspec(property(get = __cordl_internal_get__indexCount, put = __cordl_internal_set__indexCount))::ArrayW<uint32_t, ::Array<uint32_t>*> _indexCount;
 
   /// @brief Field _LODScreenTransition, offset 0x48, size 0x4
-  __declspec(property(get = __get__LODScreenTransition, put = __set__LODScreenTransition)) float_t _LODScreenTransition;
+  __declspec(property(get = __cordl_internal_get__LODScreenTransition, put = __cordl_internal_set__LODScreenTransition)) float_t _LODScreenTransition;
 
   /// @brief Field _transform, offset 0x50, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>& __get__materials();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__materials();
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> const& __get__materials() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__materials() const;
 
-  constexpr void __set__materials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
+  constexpr void __cordl_internal_set__materials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  constexpr ::StringW& __get__meshPath();
+  constexpr ::StringW& __cordl_internal_get__meshPath();
 
-  constexpr ::StringW const& __get__meshPath() const;
+  constexpr ::StringW const& __cordl_internal_get__meshPath() const;
 
-  constexpr void __set__meshPath(::StringW value);
+  constexpr void __cordl_internal_set__meshPath(::StringW value);
 
-  constexpr ::StringW& __get__meshName();
+  constexpr ::StringW& __cordl_internal_get__meshName();
 
-  constexpr ::StringW const& __get__meshName() const;
+  constexpr ::StringW const& __cordl_internal_get__meshName() const;
 
-  constexpr void __set__meshName(::StringW value);
+  constexpr void __cordl_internal_set__meshName(::StringW value);
 
-  constexpr int32_t& __get__numVertices();
+  constexpr int32_t& __cordl_internal_get__numVertices();
 
-  constexpr int32_t const& __get__numVertices() const;
+  constexpr int32_t const& __cordl_internal_get__numVertices() const;
 
-  constexpr void __set__numVertices(int32_t value);
+  constexpr void __cordl_internal_set__numVertices(int32_t value);
 
-  constexpr int32_t& __get__numSubMeshes();
+  constexpr int32_t& __cordl_internal_get__numSubMeshes();
 
-  constexpr int32_t const& __get__numSubMeshes() const;
+  constexpr int32_t const& __cordl_internal_get__numSubMeshes() const;
 
-  constexpr void __set__numSubMeshes(int32_t value);
+  constexpr void __cordl_internal_set__numSubMeshes(int32_t value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__indexStart();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__indexStart();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__indexStart() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__indexStart() const;
 
-  constexpr void __set__indexStart(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__indexStart(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__indexCount();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__indexCount();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__indexCount() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__indexCount() const;
 
-  constexpr void __set__indexCount(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__indexCount(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr float_t& __get__LODScreenTransition();
+  constexpr float_t& __cordl_internal_get__LODScreenTransition();
 
-  constexpr float_t const& __get__LODScreenTransition() const;
+  constexpr float_t const& __cordl_internal_get__LODScreenTransition() const;
 
-  constexpr void __set__LODScreenTransition(float_t value);
+  constexpr void __cordl_internal_set__LODScreenTransition(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh* New_ctor();
 
@@ -241,10 +243,10 @@ protected:
 
 public:
   /// @brief Field _mesh, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief Field _materials, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> ____materials;
+  ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> ____materials;
 
   /// @brief Field _meshPath, offset: 0x20, size: 0x8, def value: None
   ::StringW ____meshPath;
@@ -268,7 +270,7 @@ public:
   float_t ____LODScreenTransition;
 
   /// @brief Field _transform, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -300,7 +302,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_Input
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9839))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9839))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9842))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceMesh*
 class CORDL_TYPE HEU_InputInterfaceMesh : public ::HoudiniEngineUnity::HEU_InputInterface {
@@ -335,7 +337,7 @@ public:
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh* CreateSingleMeshData(::UnityEngine::GameObject* meshGameObject);
 
   /// @brief Method GetMeshFromObject, addr 0x21c7dd4, size 0x1138, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh* GetMeshFromObject(::UnityEngine::GameObject* meshGameObject);
+  static inline ::UnityW<::UnityEngine::Mesh> GetMeshFromObject(::UnityEngine::GameObject* meshGameObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputInterfaceMesh", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

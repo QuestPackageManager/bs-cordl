@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::SupportedRenderingFeatures);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10361))
 // CS Name: ::SupportedRenderingFeatures::ReflectionProbeModes
 struct CORDL_TYPE __SupportedRenderingFeatures__ReflectionProbeModes {
@@ -93,7 +93,7 @@ static_assert(offsetof(::UnityEngine::Rendering::__SupportedRenderingFeatures__R
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10362))
 // CS Name: ::SupportedRenderingFeatures::LightmapMixedBakeModes
 struct CORDL_TYPE __SupportedRenderingFeatures__LightmapMixedBakeModes {
@@ -151,8 +151,8 @@ static_assert(offsetof(::UnityEngine::Rendering::__SupportedRenderingFeatures__L
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10122)), TypeDefinitionIndex(TypeDefinitionIndex(10362)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10361)), TypeDefinitionIndex(TypeDefinitionIndex(10105))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10363)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10105)), TypeDefinitionIndex(TypeDefinitionIndex(10122)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10361)), TypeDefinitionIndex(TypeDefinitionIndex(10362))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10363)) CS Name:
 // ::UnityEngine.Rendering::SupportedRenderingFeatures*
 class CORDL_TYPE SupportedRenderingFeatures : public ::System::Object {
 public:
@@ -162,90 +162,104 @@ public:
   using ReflectionProbeModes = ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes;
 
   /// @brief Field <reflectionProbeModes>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__reflectionProbeModes_k__BackingField,
-                      put = __set__reflectionProbeModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes _reflectionProbeModes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__reflectionProbeModes_k__BackingField,
+                      put = __cordl_internal_set__reflectionProbeModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes
+      _reflectionProbeModes_k__BackingField;
 
   /// @brief Field <defaultMixedLightingModes>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__defaultMixedLightingModes_k__BackingField,
-                      put = __set__defaultMixedLightingModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes _defaultMixedLightingModes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__defaultMixedLightingModes_k__BackingField,
+                      put = __cordl_internal_set__defaultMixedLightingModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes
+      _defaultMixedLightingModes_k__BackingField;
 
   /// @brief Field <mixedLightingModes>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__mixedLightingModes_k__BackingField,
-                      put = __set__mixedLightingModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes _mixedLightingModes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__mixedLightingModes_k__BackingField,
+                      put = __cordl_internal_set__mixedLightingModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes
+      _mixedLightingModes_k__BackingField;
 
   /// @brief Field <lightmapBakeTypes>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__lightmapBakeTypes_k__BackingField, put = __set__lightmapBakeTypes_k__BackingField))::UnityEngine::LightmapBakeType _lightmapBakeTypes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lightmapBakeTypes_k__BackingField,
+                      put = __cordl_internal_set__lightmapBakeTypes_k__BackingField))::UnityEngine::LightmapBakeType _lightmapBakeTypes_k__BackingField;
 
   /// @brief Field <lightmapsModes>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__lightmapsModes_k__BackingField, put = __set__lightmapsModes_k__BackingField))::UnityEngine::LightmapsMode _lightmapsModes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lightmapsModes_k__BackingField,
+                      put = __cordl_internal_set__lightmapsModes_k__BackingField))::UnityEngine::LightmapsMode _lightmapsModes_k__BackingField;
 
   /// @brief Field <enlightenLightmapper>k__BackingField, offset 0x24, size 0x1
-  __declspec(property(get = __get__enlightenLightmapper_k__BackingField, put = __set__enlightenLightmapper_k__BackingField)) bool _enlightenLightmapper_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__enlightenLightmapper_k__BackingField, put = __cordl_internal_set__enlightenLightmapper_k__BackingField)) bool _enlightenLightmapper_k__BackingField;
 
   /// @brief Field <enlighten>k__BackingField, offset 0x25, size 0x1
-  __declspec(property(get = __get__enlighten_k__BackingField, put = __set__enlighten_k__BackingField)) bool _enlighten_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__enlighten_k__BackingField, put = __cordl_internal_set__enlighten_k__BackingField)) bool _enlighten_k__BackingField;
 
   /// @brief Field <lightProbeProxyVolumes>k__BackingField, offset 0x26, size 0x1
-  __declspec(property(get = __get__lightProbeProxyVolumes_k__BackingField, put = __set__lightProbeProxyVolumes_k__BackingField)) bool _lightProbeProxyVolumes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lightProbeProxyVolumes_k__BackingField,
+                      put = __cordl_internal_set__lightProbeProxyVolumes_k__BackingField)) bool _lightProbeProxyVolumes_k__BackingField;
 
   /// @brief Field <motionVectors>k__BackingField, offset 0x27, size 0x1
-  __declspec(property(get = __get__motionVectors_k__BackingField, put = __set__motionVectors_k__BackingField)) bool _motionVectors_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__motionVectors_k__BackingField, put = __cordl_internal_set__motionVectors_k__BackingField)) bool _motionVectors_k__BackingField;
 
   /// @brief Field <receiveShadows>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__receiveShadows_k__BackingField, put = __set__receiveShadows_k__BackingField)) bool _receiveShadows_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__receiveShadows_k__BackingField, put = __cordl_internal_set__receiveShadows_k__BackingField)) bool _receiveShadows_k__BackingField;
 
   /// @brief Field <reflectionProbes>k__BackingField, offset 0x29, size 0x1
-  __declspec(property(get = __get__reflectionProbes_k__BackingField, put = __set__reflectionProbes_k__BackingField)) bool _reflectionProbes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__reflectionProbes_k__BackingField, put = __cordl_internal_set__reflectionProbes_k__BackingField)) bool _reflectionProbes_k__BackingField;
 
   /// @brief Field <reflectionProbesBlendDistance>k__BackingField, offset 0x2a, size 0x1
-  __declspec(property(get = __get__reflectionProbesBlendDistance_k__BackingField, put = __set__reflectionProbesBlendDistance_k__BackingField)) bool _reflectionProbesBlendDistance_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__reflectionProbesBlendDistance_k__BackingField,
+                      put = __cordl_internal_set__reflectionProbesBlendDistance_k__BackingField)) bool _reflectionProbesBlendDistance_k__BackingField;
 
   /// @brief Field <rendererPriority>k__BackingField, offset 0x2b, size 0x1
-  __declspec(property(get = __get__rendererPriority_k__BackingField, put = __set__rendererPriority_k__BackingField)) bool _rendererPriority_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rendererPriority_k__BackingField, put = __cordl_internal_set__rendererPriority_k__BackingField)) bool _rendererPriority_k__BackingField;
 
   /// @brief Field <rendersUIOverlay>k__BackingField, offset 0x2c, size 0x1
-  __declspec(property(get = __get__rendersUIOverlay_k__BackingField, put = __set__rendersUIOverlay_k__BackingField)) bool _rendersUIOverlay_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rendersUIOverlay_k__BackingField, put = __cordl_internal_set__rendersUIOverlay_k__BackingField)) bool _rendersUIOverlay_k__BackingField;
 
   /// @brief Field <overridesEnvironmentLighting>k__BackingField, offset 0x2d, size 0x1
-  __declspec(property(get = __get__overridesEnvironmentLighting_k__BackingField, put = __set__overridesEnvironmentLighting_k__BackingField)) bool _overridesEnvironmentLighting_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overridesEnvironmentLighting_k__BackingField,
+                      put = __cordl_internal_set__overridesEnvironmentLighting_k__BackingField)) bool _overridesEnvironmentLighting_k__BackingField;
 
   /// @brief Field <overridesFog>k__BackingField, offset 0x2e, size 0x1
-  __declspec(property(get = __get__overridesFog_k__BackingField, put = __set__overridesFog_k__BackingField)) bool _overridesFog_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overridesFog_k__BackingField, put = __cordl_internal_set__overridesFog_k__BackingField)) bool _overridesFog_k__BackingField;
 
   /// @brief Field <overridesRealtimeReflectionProbes>k__BackingField, offset 0x2f, size 0x1
-  __declspec(property(get = __get__overridesRealtimeReflectionProbes_k__BackingField,
-                      put = __set__overridesRealtimeReflectionProbes_k__BackingField)) bool _overridesRealtimeReflectionProbes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overridesRealtimeReflectionProbes_k__BackingField,
+                      put = __cordl_internal_set__overridesRealtimeReflectionProbes_k__BackingField)) bool _overridesRealtimeReflectionProbes_k__BackingField;
 
   /// @brief Field <overridesOtherLightingSettings>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__overridesOtherLightingSettings_k__BackingField, put = __set__overridesOtherLightingSettings_k__BackingField)) bool _overridesOtherLightingSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overridesOtherLightingSettings_k__BackingField,
+                      put = __cordl_internal_set__overridesOtherLightingSettings_k__BackingField)) bool _overridesOtherLightingSettings_k__BackingField;
 
   /// @brief Field <editableMaterialRenderQueue>k__BackingField, offset 0x31, size 0x1
-  __declspec(property(get = __get__editableMaterialRenderQueue_k__BackingField, put = __set__editableMaterialRenderQueue_k__BackingField)) bool _editableMaterialRenderQueue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__editableMaterialRenderQueue_k__BackingField,
+                      put = __cordl_internal_set__editableMaterialRenderQueue_k__BackingField)) bool _editableMaterialRenderQueue_k__BackingField;
 
   /// @brief Field <overridesLODBias>k__BackingField, offset 0x32, size 0x1
-  __declspec(property(get = __get__overridesLODBias_k__BackingField, put = __set__overridesLODBias_k__BackingField)) bool _overridesLODBias_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overridesLODBias_k__BackingField, put = __cordl_internal_set__overridesLODBias_k__BackingField)) bool _overridesLODBias_k__BackingField;
 
   /// @brief Field <overridesMaximumLODLevel>k__BackingField, offset 0x33, size 0x1
-  __declspec(property(get = __get__overridesMaximumLODLevel_k__BackingField, put = __set__overridesMaximumLODLevel_k__BackingField)) bool _overridesMaximumLODLevel_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overridesMaximumLODLevel_k__BackingField,
+                      put = __cordl_internal_set__overridesMaximumLODLevel_k__BackingField)) bool _overridesMaximumLODLevel_k__BackingField;
 
   /// @brief Field <rendererProbes>k__BackingField, offset 0x34, size 0x1
-  __declspec(property(get = __get__rendererProbes_k__BackingField, put = __set__rendererProbes_k__BackingField)) bool _rendererProbes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rendererProbes_k__BackingField, put = __cordl_internal_set__rendererProbes_k__BackingField)) bool _rendererProbes_k__BackingField;
 
   /// @brief Field <particleSystemInstancing>k__BackingField, offset 0x35, size 0x1
-  __declspec(property(get = __get__particleSystemInstancing_k__BackingField, put = __set__particleSystemInstancing_k__BackingField)) bool _particleSystemInstancing_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__particleSystemInstancing_k__BackingField,
+                      put = __cordl_internal_set__particleSystemInstancing_k__BackingField)) bool _particleSystemInstancing_k__BackingField;
 
   /// @brief Field <autoAmbientProbeBaking>k__BackingField, offset 0x36, size 0x1
-  __declspec(property(get = __get__autoAmbientProbeBaking_k__BackingField, put = __set__autoAmbientProbeBaking_k__BackingField)) bool _autoAmbientProbeBaking_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__autoAmbientProbeBaking_k__BackingField,
+                      put = __cordl_internal_set__autoAmbientProbeBaking_k__BackingField)) bool _autoAmbientProbeBaking_k__BackingField;
 
   /// @brief Field <autoDefaultReflectionProbeBaking>k__BackingField, offset 0x37, size 0x1
-  __declspec(property(get = __get__autoDefaultReflectionProbeBaking_k__BackingField,
-                      put = __set__autoDefaultReflectionProbeBaking_k__BackingField)) bool _autoDefaultReflectionProbeBaking_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__autoDefaultReflectionProbeBaking_k__BackingField,
+                      put = __cordl_internal_set__autoDefaultReflectionProbeBaking_k__BackingField)) bool _autoDefaultReflectionProbeBaking_k__BackingField;
 
   /// @brief Field <overridesShadowmask>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__overridesShadowmask_k__BackingField, put = __set__overridesShadowmask_k__BackingField)) bool _overridesShadowmask_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overridesShadowmask_k__BackingField, put = __cordl_internal_set__overridesShadowmask_k__BackingField)) bool _overridesShadowmask_k__BackingField;
 
   /// @brief Field <overrideShadowmaskMessage>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__overrideShadowmaskMessage_k__BackingField, put = __set__overrideShadowmaskMessage_k__BackingField))::StringW _overrideShadowmaskMessage_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overrideShadowmaskMessage_k__BackingField,
+                      put = __cordl_internal_set__overrideShadowmaskMessage_k__BackingField))::StringW _overrideShadowmaskMessage_k__BackingField;
 
   /// @brief Field s_Active, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Active, put = setStaticF_s_Active))::UnityEngine::Rendering::SupportedRenderingFeatures* s_Active;
@@ -268,167 +282,167 @@ public:
 
   __declspec(property(get = get_autoDefaultReflectionProbeBaking)) bool autoDefaultReflectionProbeBaking;
 
-  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes& __get__reflectionProbeModes_k__BackingField();
+  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes& __cordl_internal_get__reflectionProbeModes_k__BackingField();
 
-  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes const& __get__reflectionProbeModes_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes const& __cordl_internal_get__reflectionProbeModes_k__BackingField() const;
 
-  constexpr void __set__reflectionProbeModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes value);
+  constexpr void __cordl_internal_set__reflectionProbeModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes value);
 
-  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes& __get__defaultMixedLightingModes_k__BackingField();
+  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes& __cordl_internal_get__defaultMixedLightingModes_k__BackingField();
 
-  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes const& __get__defaultMixedLightingModes_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes const& __cordl_internal_get__defaultMixedLightingModes_k__BackingField() const;
 
-  constexpr void __set__defaultMixedLightingModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes value);
+  constexpr void __cordl_internal_set__defaultMixedLightingModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes value);
 
-  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes& __get__mixedLightingModes_k__BackingField();
+  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes& __cordl_internal_get__mixedLightingModes_k__BackingField();
 
-  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes const& __get__mixedLightingModes_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes const& __cordl_internal_get__mixedLightingModes_k__BackingField() const;
 
-  constexpr void __set__mixedLightingModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes value);
+  constexpr void __cordl_internal_set__mixedLightingModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes value);
 
-  constexpr ::UnityEngine::LightmapBakeType& __get__lightmapBakeTypes_k__BackingField();
+  constexpr ::UnityEngine::LightmapBakeType& __cordl_internal_get__lightmapBakeTypes_k__BackingField();
 
-  constexpr ::UnityEngine::LightmapBakeType const& __get__lightmapBakeTypes_k__BackingField() const;
+  constexpr ::UnityEngine::LightmapBakeType const& __cordl_internal_get__lightmapBakeTypes_k__BackingField() const;
 
-  constexpr void __set__lightmapBakeTypes_k__BackingField(::UnityEngine::LightmapBakeType value);
+  constexpr void __cordl_internal_set__lightmapBakeTypes_k__BackingField(::UnityEngine::LightmapBakeType value);
 
-  constexpr ::UnityEngine::LightmapsMode& __get__lightmapsModes_k__BackingField();
+  constexpr ::UnityEngine::LightmapsMode& __cordl_internal_get__lightmapsModes_k__BackingField();
 
-  constexpr ::UnityEngine::LightmapsMode const& __get__lightmapsModes_k__BackingField() const;
+  constexpr ::UnityEngine::LightmapsMode const& __cordl_internal_get__lightmapsModes_k__BackingField() const;
 
-  constexpr void __set__lightmapsModes_k__BackingField(::UnityEngine::LightmapsMode value);
+  constexpr void __cordl_internal_set__lightmapsModes_k__BackingField(::UnityEngine::LightmapsMode value);
 
-  constexpr bool& __get__enlightenLightmapper_k__BackingField();
+  constexpr bool& __cordl_internal_get__enlightenLightmapper_k__BackingField();
 
-  constexpr bool const& __get__enlightenLightmapper_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enlightenLightmapper_k__BackingField() const;
 
-  constexpr void __set__enlightenLightmapper_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__enlightenLightmapper_k__BackingField(bool value);
 
-  constexpr bool& __get__enlighten_k__BackingField();
+  constexpr bool& __cordl_internal_get__enlighten_k__BackingField();
 
-  constexpr bool const& __get__enlighten_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enlighten_k__BackingField() const;
 
-  constexpr void __set__enlighten_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__enlighten_k__BackingField(bool value);
 
-  constexpr bool& __get__lightProbeProxyVolumes_k__BackingField();
+  constexpr bool& __cordl_internal_get__lightProbeProxyVolumes_k__BackingField();
 
-  constexpr bool const& __get__lightProbeProxyVolumes_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__lightProbeProxyVolumes_k__BackingField() const;
 
-  constexpr void __set__lightProbeProxyVolumes_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__lightProbeProxyVolumes_k__BackingField(bool value);
 
-  constexpr bool& __get__motionVectors_k__BackingField();
+  constexpr bool& __cordl_internal_get__motionVectors_k__BackingField();
 
-  constexpr bool const& __get__motionVectors_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__motionVectors_k__BackingField() const;
 
-  constexpr void __set__motionVectors_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__motionVectors_k__BackingField(bool value);
 
-  constexpr bool& __get__receiveShadows_k__BackingField();
+  constexpr bool& __cordl_internal_get__receiveShadows_k__BackingField();
 
-  constexpr bool const& __get__receiveShadows_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__receiveShadows_k__BackingField() const;
 
-  constexpr void __set__receiveShadows_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__receiveShadows_k__BackingField(bool value);
 
-  constexpr bool& __get__reflectionProbes_k__BackingField();
+  constexpr bool& __cordl_internal_get__reflectionProbes_k__BackingField();
 
-  constexpr bool const& __get__reflectionProbes_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__reflectionProbes_k__BackingField() const;
 
-  constexpr void __set__reflectionProbes_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__reflectionProbes_k__BackingField(bool value);
 
-  constexpr bool& __get__reflectionProbesBlendDistance_k__BackingField();
+  constexpr bool& __cordl_internal_get__reflectionProbesBlendDistance_k__BackingField();
 
-  constexpr bool const& __get__reflectionProbesBlendDistance_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__reflectionProbesBlendDistance_k__BackingField() const;
 
-  constexpr void __set__reflectionProbesBlendDistance_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__reflectionProbesBlendDistance_k__BackingField(bool value);
 
-  constexpr bool& __get__rendererPriority_k__BackingField();
+  constexpr bool& __cordl_internal_get__rendererPriority_k__BackingField();
 
-  constexpr bool const& __get__rendererPriority_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__rendererPriority_k__BackingField() const;
 
-  constexpr void __set__rendererPriority_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__rendererPriority_k__BackingField(bool value);
 
-  constexpr bool& __get__rendersUIOverlay_k__BackingField();
+  constexpr bool& __cordl_internal_get__rendersUIOverlay_k__BackingField();
 
-  constexpr bool const& __get__rendersUIOverlay_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__rendersUIOverlay_k__BackingField() const;
 
-  constexpr void __set__rendersUIOverlay_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__rendersUIOverlay_k__BackingField(bool value);
 
-  constexpr bool& __get__overridesEnvironmentLighting_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesEnvironmentLighting_k__BackingField();
 
-  constexpr bool const& __get__overridesEnvironmentLighting_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesEnvironmentLighting_k__BackingField() const;
 
-  constexpr void __set__overridesEnvironmentLighting_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__overridesEnvironmentLighting_k__BackingField(bool value);
 
-  constexpr bool& __get__overridesFog_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesFog_k__BackingField();
 
-  constexpr bool const& __get__overridesFog_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesFog_k__BackingField() const;
 
-  constexpr void __set__overridesFog_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__overridesFog_k__BackingField(bool value);
 
-  constexpr bool& __get__overridesRealtimeReflectionProbes_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesRealtimeReflectionProbes_k__BackingField();
 
-  constexpr bool const& __get__overridesRealtimeReflectionProbes_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesRealtimeReflectionProbes_k__BackingField() const;
 
-  constexpr void __set__overridesRealtimeReflectionProbes_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__overridesRealtimeReflectionProbes_k__BackingField(bool value);
 
-  constexpr bool& __get__overridesOtherLightingSettings_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesOtherLightingSettings_k__BackingField();
 
-  constexpr bool const& __get__overridesOtherLightingSettings_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesOtherLightingSettings_k__BackingField() const;
 
-  constexpr void __set__overridesOtherLightingSettings_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__overridesOtherLightingSettings_k__BackingField(bool value);
 
-  constexpr bool& __get__editableMaterialRenderQueue_k__BackingField();
+  constexpr bool& __cordl_internal_get__editableMaterialRenderQueue_k__BackingField();
 
-  constexpr bool const& __get__editableMaterialRenderQueue_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__editableMaterialRenderQueue_k__BackingField() const;
 
-  constexpr void __set__editableMaterialRenderQueue_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__editableMaterialRenderQueue_k__BackingField(bool value);
 
-  constexpr bool& __get__overridesLODBias_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesLODBias_k__BackingField();
 
-  constexpr bool const& __get__overridesLODBias_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesLODBias_k__BackingField() const;
 
-  constexpr void __set__overridesLODBias_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__overridesLODBias_k__BackingField(bool value);
 
-  constexpr bool& __get__overridesMaximumLODLevel_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesMaximumLODLevel_k__BackingField();
 
-  constexpr bool const& __get__overridesMaximumLODLevel_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesMaximumLODLevel_k__BackingField() const;
 
-  constexpr void __set__overridesMaximumLODLevel_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__overridesMaximumLODLevel_k__BackingField(bool value);
 
-  constexpr bool& __get__rendererProbes_k__BackingField();
+  constexpr bool& __cordl_internal_get__rendererProbes_k__BackingField();
 
-  constexpr bool const& __get__rendererProbes_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__rendererProbes_k__BackingField() const;
 
-  constexpr void __set__rendererProbes_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__rendererProbes_k__BackingField(bool value);
 
-  constexpr bool& __get__particleSystemInstancing_k__BackingField();
+  constexpr bool& __cordl_internal_get__particleSystemInstancing_k__BackingField();
 
-  constexpr bool const& __get__particleSystemInstancing_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__particleSystemInstancing_k__BackingField() const;
 
-  constexpr void __set__particleSystemInstancing_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__particleSystemInstancing_k__BackingField(bool value);
 
-  constexpr bool& __get__autoAmbientProbeBaking_k__BackingField();
+  constexpr bool& __cordl_internal_get__autoAmbientProbeBaking_k__BackingField();
 
-  constexpr bool const& __get__autoAmbientProbeBaking_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__autoAmbientProbeBaking_k__BackingField() const;
 
-  constexpr void __set__autoAmbientProbeBaking_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__autoAmbientProbeBaking_k__BackingField(bool value);
 
-  constexpr bool& __get__autoDefaultReflectionProbeBaking_k__BackingField();
+  constexpr bool& __cordl_internal_get__autoDefaultReflectionProbeBaking_k__BackingField();
 
-  constexpr bool const& __get__autoDefaultReflectionProbeBaking_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__autoDefaultReflectionProbeBaking_k__BackingField() const;
 
-  constexpr void __set__autoDefaultReflectionProbeBaking_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__autoDefaultReflectionProbeBaking_k__BackingField(bool value);
 
-  constexpr bool& __get__overridesShadowmask_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesShadowmask_k__BackingField();
 
-  constexpr bool const& __get__overridesShadowmask_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesShadowmask_k__BackingField() const;
 
-  constexpr void __set__overridesShadowmask_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__overridesShadowmask_k__BackingField(bool value);
 
-  constexpr ::StringW& __get__overrideShadowmaskMessage_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__overrideShadowmaskMessage_k__BackingField();
 
-  constexpr ::StringW const& __get__overrideShadowmaskMessage_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__overrideShadowmaskMessage_k__BackingField() const;
 
-  constexpr void __set__overrideShadowmaskMessage_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__overrideShadowmaskMessage_k__BackingField(::StringW value);
 
   static inline void setStaticF_s_Active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 

@@ -40,23 +40,23 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::WarningHeaderValue);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
 // ::System.Net.Http.Headers::WarningHeaderValue*
 class CORDL_TYPE WarningHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Agent>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Agent_k__BackingField, put = __set__Agent_k__BackingField))::StringW _Agent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Agent_k__BackingField, put = __cordl_internal_set__Agent_k__BackingField))::StringW _Agent_k__BackingField;
 
   /// @brief Field <Code>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__Code_k__BackingField, put = __set__Code_k__BackingField)) int32_t _Code_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Code_k__BackingField, put = __cordl_internal_set__Code_k__BackingField)) int32_t _Code_k__BackingField;
 
   /// @brief Field <Date>k__BackingField, offset 0x20, size 0x18
-  __declspec(property(get = __get__Date_k__BackingField, put = __set__Date_k__BackingField))::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Date_k__BackingField, put = __cordl_internal_set__Date_k__BackingField))::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField;
 
   /// @brief Field <Text>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__Text_k__BackingField, put = __set__Text_k__BackingField))::StringW _Text_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Text_k__BackingField, put = __cordl_internal_set__Text_k__BackingField))::StringW _Text_k__BackingField;
 
   __declspec(property(get = get_Agent, put = set_Agent))::StringW Agent;
 
@@ -72,29 +72,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::StringW& __get__Agent_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Agent_k__BackingField();
 
-  constexpr ::StringW const& __get__Agent_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Agent_k__BackingField() const;
 
-  constexpr void __set__Agent_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Agent_k__BackingField(::StringW value);
 
-  constexpr int32_t& __get__Code_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Code_k__BackingField();
 
-  constexpr int32_t const& __get__Code_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Code_k__BackingField() const;
 
-  constexpr void __set__Code_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Code_k__BackingField(int32_t value);
 
-  constexpr ::System::Nullable_1<::System::DateTimeOffset>& __get__Date_k__BackingField();
+  constexpr ::System::Nullable_1<::System::DateTimeOffset>& __cordl_internal_get__Date_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __get__Date_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
 
-  constexpr void __set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value);
+  constexpr void __cordl_internal_set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  constexpr ::StringW& __get__Text_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Text_k__BackingField();
 
-  constexpr ::StringW const& __get__Text_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Text_k__BackingField() const;
 
-  constexpr void __set__Text_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Text_k__BackingField(::StringW value);
 
   static inline ::System::Net::Http::Headers::WarningHeaderValue* New_ctor();
 

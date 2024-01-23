@@ -23,49 +23,49 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::ITilemap);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10247)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 754 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15948)) CS Name: ::UnityEngine.Tilemaps::ITilemap*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10247)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 754 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15948)) CS Name: ::UnityEngine.Tilemaps::ITilemap*
 class CORDL_TYPE ITilemap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Tilemap, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Tilemap, put = __set_m_Tilemap))::UnityEngine::Tilemaps::Tilemap* m_Tilemap;
+  __declspec(property(get = __cordl_internal_get_m_Tilemap, put = __cordl_internal_set_m_Tilemap))::UnityW<::UnityEngine::Tilemaps::Tilemap> m_Tilemap;
 
   /// @brief Field m_AddToList, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_AddToList, put = __set_m_AddToList)) bool m_AddToList;
+  __declspec(property(get = __cordl_internal_get_m_AddToList, put = __cordl_internal_set_m_AddToList)) bool m_AddToList;
 
   /// @brief Field m_RefreshCount, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_RefreshCount, put = __set_m_RefreshCount)) int32_t m_RefreshCount;
+  __declspec(property(get = __cordl_internal_get_m_RefreshCount, put = __cordl_internal_set_m_RefreshCount)) int32_t m_RefreshCount;
 
   /// @brief Field m_RefreshPos, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_RefreshPos, put = __set_m_RefreshPos))::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> m_RefreshPos;
+  __declspec(property(get = __cordl_internal_get_m_RefreshPos, put = __cordl_internal_set_m_RefreshPos))::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> m_RefreshPos;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::Tilemaps::ITilemap* s_Instance;
 
-  constexpr ::UnityEngine::Tilemaps::Tilemap*& __get_m_Tilemap();
+  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap>& __cordl_internal_get_m_Tilemap();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Tilemaps::Tilemap*> const& __get_m_Tilemap() const;
+  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap> const& __cordl_internal_get_m_Tilemap() const;
 
-  constexpr void __set_m_Tilemap(::UnityEngine::Tilemaps::Tilemap* value);
+  constexpr void __cordl_internal_set_m_Tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
 
-  constexpr bool& __get_m_AddToList();
+  constexpr bool& __cordl_internal_get_m_AddToList();
 
-  constexpr bool const& __get_m_AddToList() const;
+  constexpr bool const& __cordl_internal_get_m_AddToList() const;
 
-  constexpr void __set_m_AddToList(bool value);
+  constexpr void __cordl_internal_set_m_AddToList(bool value);
 
-  constexpr int32_t& __get_m_RefreshCount();
+  constexpr int32_t& __cordl_internal_get_m_RefreshCount();
 
-  constexpr int32_t const& __get_m_RefreshCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_RefreshCount() const;
 
-  constexpr void __set_m_RefreshCount(int32_t value);
+  constexpr void __cordl_internal_set_m_RefreshCount(int32_t value);
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>& __get_m_RefreshPos();
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>& __cordl_internal_get_m_RefreshPos();
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> const& __get_m_RefreshPos() const;
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> const& __cordl_internal_get_m_RefreshPos() const;
 
-  constexpr void __set_m_RefreshPos(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> value);
+  constexpr void __cordl_internal_set_m_RefreshPos(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> value);
 
   static inline void setStaticF_s_Instance(::UnityEngine::Tilemaps::ITilemap* value);
 
@@ -103,7 +103,7 @@ protected:
 
 public:
   /// @brief Field m_Tilemap, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Tilemaps::Tilemap* ___m_Tilemap;
+  ::UnityW<::UnityEngine::Tilemaps::Tilemap> ___m_Tilemap;
 
   /// @brief Field m_AddToList, offset: 0x18, size: 0x1, def value: None
   bool ___m_AddToList;

@@ -24,31 +24,31 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferOwners);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15279))
 // CS Name: ::CommandBufferOwners*
 class CORDL_TYPE CommandBufferOwners : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _owners, offset 0x10, size 0x8
-  __declspec(property(get = __get__owners, put = __set__owners))::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>* _owners;
+  __declspec(property(get = __cordl_internal_get__owners, put = __cordl_internal_set__owners))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* _owners;
 
   /// @brief Field commandBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __get_commandBuffer, put = __set_commandBuffer))::UnityEngine::Rendering::CommandBuffer* commandBuffer;
+  __declspec(property(get = __cordl_internal_get_commandBuffer, put = __cordl_internal_set_commandBuffer))::UnityEngine::Rendering::CommandBuffer* commandBuffer;
 
   __declspec(property(get = get_NumberOfOwners)) int32_t NumberOfOwners;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>*& __get__owners();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get__owners();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>*> const& __get__owners() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get__owners() const;
 
-  constexpr void __set__owners(::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>* value);
+  constexpr void __cordl_internal_set__owners(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* value);
 
-  constexpr ::UnityEngine::Rendering::CommandBuffer*& __get_commandBuffer();
+  constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get_commandBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& __get_commandBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& __cordl_internal_get_commandBuffer() const;
 
-  constexpr void __set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
+  constexpr void __cordl_internal_set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
   /// @brief Method AddOwner, addr 0x28073e8, size 0xa0, virtual false, abstract: false, final false
   inline void AddOwner(::UnityEngine::Object* owner);
@@ -82,7 +82,7 @@ protected:
 
 public:
   /// @brief Field _owners, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>* ____owners;
+  ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* ____owners;
 
   /// @brief Field commandBuffer, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ___commandBuffer;

@@ -22,38 +22,38 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCameraSmoothnessSettingsController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16149))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5610))
 // CS Name: ::SmoothCameraSmoothnessSettingsController*
 class CORDL_TYPE SmoothCameraSmoothnessSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
   /// @brief Field _smoothCameraPositionSmooth, offset 0x28, size 0x8
-  __declspec(property(get = __get__smoothCameraPositionSmooth, put = __set__smoothCameraPositionSmooth))::GlobalNamespace::FloatSO* _smoothCameraPositionSmooth;
+  __declspec(property(get = __cordl_internal_get__smoothCameraPositionSmooth, put = __cordl_internal_set__smoothCameraPositionSmooth))::UnityW<::GlobalNamespace::FloatSO> _smoothCameraPositionSmooth;
 
   /// @brief Field _smoothCameraRotationSmooth, offset 0x30, size 0x8
-  __declspec(property(get = __get__smoothCameraRotationSmooth, put = __set__smoothCameraRotationSmooth))::GlobalNamespace::FloatSO* _smoothCameraRotationSmooth;
+  __declspec(property(get = __cordl_internal_get__smoothCameraRotationSmooth, put = __cordl_internal_set__smoothCameraRotationSmooth))::UnityW<::GlobalNamespace::FloatSO> _smoothCameraRotationSmooth;
 
   /// @brief Field _smoothnesses, offset 0x38, size 0x8
-  __declspec(property(get = __get__smoothnesses, put = __set__smoothnesses))::ArrayW<float_t, ::Array<float_t>*> _smoothnesses;
+  __declspec(property(get = __cordl_internal_get__smoothnesses, put = __cordl_internal_set__smoothnesses))::ArrayW<float_t, ::Array<float_t>*> _smoothnesses;
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__smoothCameraPositionSmooth();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__smoothCameraPositionSmooth();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__smoothCameraPositionSmooth() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__smoothCameraPositionSmooth() const;
 
-  constexpr void __set__smoothCameraPositionSmooth(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__smoothCameraPositionSmooth(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__smoothCameraRotationSmooth();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__smoothCameraRotationSmooth();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__smoothCameraRotationSmooth() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__smoothCameraRotationSmooth() const;
 
-  constexpr void __set__smoothCameraRotationSmooth(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__smoothCameraRotationSmooth(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__smoothnesses();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__smoothnesses();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__smoothnesses() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__smoothnesses() const;
 
-  constexpr void __set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value);
 
   /// @brief Method GetInitValues, addr 0x22abff4, size 0x114, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
@@ -84,10 +84,10 @@ protected:
 
 public:
   /// @brief Field _smoothCameraPositionSmooth, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____smoothCameraPositionSmooth;
+  ::UnityW<::GlobalNamespace::FloatSO> ____smoothCameraPositionSmooth;
 
   /// @brief Field _smoothCameraRotationSmooth, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____smoothCameraRotationSmooth;
+  ::UnityW<::GlobalNamespace::FloatSO> ____smoothCameraRotationSmooth;
 
   /// @brief Field _smoothnesses, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ____smoothnesses;

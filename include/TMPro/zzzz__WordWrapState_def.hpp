@@ -72,14 +72,14 @@ MARK_VAL_T(::TMPro::WordWrapState);
 // SizeInfo { instance_size: 888, native_size: -1, calculated_instance_size: 888, calculated_native_size: 902, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12304)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst:
-// 5054 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(12452)), TypeDefinitionIndex(TypeDefinitionIndex(12438)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5052 }), TypeDefinitionIndex(TypeDefinitionIndex(12334)), TypeDefinitionIndex(TypeDefinitionIndex(12430)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5053 }), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(12453), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(12439)), TypeDefinitionIndex(TypeDefinitionIndex(12394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(12453))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12324)) CS
-// Name: ::TMPro::WordWrapState
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12304)), TypeDefinitionIndex(TypeDefinitionIndex(12322)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12334)), TypeDefinitionIndex(TypeDefinitionIndex(12394)), TypeDefinitionIndex(TypeDefinitionIndex(12430)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12438)), TypeDefinitionIndex(TypeDefinitionIndex(12439)), TypeDefinitionIndex(TypeDefinitionIndex(12452)), TypeDefinitionIndex(TypeDefinitionIndex(12453)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 742 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5052 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5053 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5054 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12324)) CS Name: ::TMPro::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
@@ -108,16 +108,16 @@ public:
   // "strikethroughColorStack", ty: "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "highlightColorStack", ty:
   // "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "highlightStateStack", ty:
   // "::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState>", modifiers: "", def_value: None }, CppParam { name: "colorGradientStack", ty:
-  // "::TMPro::TMP_TextProcessingStack_1<::TMPro::TMP_ColorGradient*>", modifiers: "", def_value: None }, CppParam { name: "sizeStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers:
-  // "", def_value: None }, CppParam { name: "indentStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "fontWeightStack", ty:
+  // "::TMPro::TMP_TextProcessingStack_1<::UnityW<::TMPro::TMP_ColorGradient>>", modifiers: "", def_value: None }, CppParam { name: "sizeStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>",
+  // modifiers: "", def_value: None }, CppParam { name: "indentStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "fontWeightStack", ty:
   // "::TMPro::TMP_TextProcessingStack_1<::TMPro::FontWeight>", modifiers: "", def_value: None }, CppParam { name: "styleStack", ty: "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "",
   // def_value: None }, CppParam { name: "baselineStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "actionStack", ty:
   // "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "materialReferenceStack", ty: "::TMPro::TMP_TextProcessingStack_1<::TMPro::MaterialReference>",
   // modifiers: "", def_value: None }, CppParam { name: "lineJustificationStack", ty: "::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions>", modifiers: "", def_value: None },
-  // CppParam { name: "spriteAnimationID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currentFontAsset", ty: "::TMPro::TMP_FontAsset*", modifiers: "", def_value: None },
-  // CppParam { name: "currentSpriteAsset", ty: "::TMPro::TMP_SpriteAsset*", modifiers: "", def_value: None }, CppParam { name: "currentMaterial", ty: "::UnityEngine::Material*", modifiers: "",
-  // def_value: None }, CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "meshExtents", ty: "::TMPro::Extents", modifiers: "", def_value: None
-  // }, CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: None }]
+  // CppParam { name: "spriteAnimationID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currentFontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None
+  // }, CppParam { name: "currentSpriteAsset", ty: "::UnityW<::TMPro::TMP_SpriteAsset>", modifiers: "", def_value: None }, CppParam { name: "currentMaterial", ty: "::UnityW<::UnityEngine::Material>",
+  // modifiers: "", def_value: None }, CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "meshExtents", ty: "::TMPro::Extents", modifiers: "",
+  // def_value: None }, CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: None }]
   constexpr WordWrapState(int32_t previous_WordBreak, int32_t total_CharacterCount, int32_t visible_CharacterCount, int32_t visible_SpriteCount, int32_t visible_LinkCount, int32_t firstCharacterIndex,
                           int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharIndex, int32_t lineNumber, float_t maxCapHeight, float_t maxAscender,
                           float_t maxDescender, float_t startOfLineAscender, float_t maxLineAscender, float_t maxLineDescender, float_t pageAscender,
@@ -129,13 +129,13 @@ public:
                           ::TMPro::TMP_TextProcessingStack_1<int32_t> italicAngleStack, ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> colorStack,
                           ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> underlineColorStack, ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> strikethroughColorStack,
                           ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> highlightColorStack, ::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState> highlightStateStack,
-                          ::TMPro::TMP_TextProcessingStack_1<::TMPro::TMP_ColorGradient*> colorGradientStack, ::TMPro::TMP_TextProcessingStack_1<float_t> sizeStack,
+                          ::TMPro::TMP_TextProcessingStack_1<::UnityW<::TMPro::TMP_ColorGradient>> colorGradientStack, ::TMPro::TMP_TextProcessingStack_1<float_t> sizeStack,
                           ::TMPro::TMP_TextProcessingStack_1<float_t> indentStack, ::TMPro::TMP_TextProcessingStack_1<::TMPro::FontWeight> fontWeightStack,
                           ::TMPro::TMP_TextProcessingStack_1<int32_t> styleStack, ::TMPro::TMP_TextProcessingStack_1<float_t> baselineStack, ::TMPro::TMP_TextProcessingStack_1<int32_t> actionStack,
                           ::TMPro::TMP_TextProcessingStack_1<::TMPro::MaterialReference> materialReferenceStack,
-                          ::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions> lineJustificationStack, int32_t spriteAnimationID, ::TMPro::TMP_FontAsset* currentFontAsset,
-                          ::TMPro::TMP_SpriteAsset* currentSpriteAsset, ::UnityEngine::Material* currentMaterial, int32_t currentMaterialIndex, ::TMPro::Extents meshExtents, bool tagNoParsing,
-                          bool isNonBreakingSpace) noexcept;
+                          ::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions> lineJustificationStack, int32_t spriteAnimationID, ::UnityW<::TMPro::TMP_FontAsset> currentFontAsset,
+                          ::UnityW<::TMPro::TMP_SpriteAsset> currentSpriteAsset, ::UnityW<::UnityEngine::Material> currentMaterial, int32_t currentMaterialIndex, ::TMPro::Extents meshExtents,
+                          bool tagNoParsing, bool isNonBreakingSpace) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -286,7 +286,7 @@ public:
   ::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState> highlightStateStack;
 
   /// @brief Field colorGradientStack, offset: 0x1e0, size: 0x28, def value: None
-  ::TMPro::TMP_TextProcessingStack_1<::TMPro::TMP_ColorGradient*> colorGradientStack;
+  ::TMPro::TMP_TextProcessingStack_1<::UnityW<::TMPro::TMP_ColorGradient>> colorGradientStack;
 
   /// @brief Field sizeStack, offset: 0x208, size: 0x20, def value: None
   ::TMPro::TMP_TextProcessingStack_1<float_t> sizeStack;
@@ -316,13 +316,13 @@ public:
   int32_t spriteAnimationID;
 
   /// @brief Field currentFontAsset, offset: 0x348, size: 0x8, def value: None
-  ::TMPro::TMP_FontAsset* currentFontAsset;
+  ::UnityW<::TMPro::TMP_FontAsset> currentFontAsset;
 
   /// @brief Field currentSpriteAsset, offset: 0x350, size: 0x8, def value: None
-  ::TMPro::TMP_SpriteAsset* currentSpriteAsset;
+  ::UnityW<::TMPro::TMP_SpriteAsset> currentSpriteAsset;
 
   /// @brief Field currentMaterial, offset: 0x358, size: 0x8, def value: None
-  ::UnityEngine::Material* currentMaterial;
+  ::UnityW<::UnityEngine::Material> currentMaterial;
 
   /// @brief Field currentMaterialIndex, offset: 0x360, size: 0x4, def value: None
   int32_t currentMaterialIndex;

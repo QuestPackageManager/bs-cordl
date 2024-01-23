@@ -27,30 +27,32 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TimerEventScheduler);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6943))
 // CS Name: ::UnityEngine.UIElements::TimerEventScheduler*
 class CORDL_TYPE TimerEventScheduler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ScheduledItems, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ScheduledItems, put = __set_m_ScheduledItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* m_ScheduledItems;
+  __declspec(property(get = __cordl_internal_get_m_ScheduledItems,
+                      put = __cordl_internal_set_m_ScheduledItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* m_ScheduledItems;
 
   /// @brief Field m_TransactionMode, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_TransactionMode, put = __set_m_TransactionMode)) bool m_TransactionMode;
+  __declspec(property(get = __cordl_internal_get_m_TransactionMode, put = __cordl_internal_set_m_TransactionMode)) bool m_TransactionMode;
 
   /// @brief Field m_ScheduleTransactions, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ScheduleTransactions, put = __set_m_ScheduleTransactions))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* m_ScheduleTransactions;
+  __declspec(property(get = __cordl_internal_get_m_ScheduleTransactions,
+                      put = __cordl_internal_set_m_ScheduleTransactions))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* m_ScheduleTransactions;
 
   /// @brief Field m_UnscheduleTransactions, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_UnscheduleTransactions,
-                      put = __set_m_UnscheduleTransactions))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* m_UnscheduleTransactions;
+  __declspec(property(get = __cordl_internal_get_m_UnscheduleTransactions,
+                      put = __cordl_internal_set_m_UnscheduleTransactions))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* m_UnscheduleTransactions;
 
   /// @brief Field disableThrottling, offset 0x30, size 0x1
-  __declspec(property(get = __get_disableThrottling, put = __set_disableThrottling)) bool disableThrottling;
+  __declspec(property(get = __cordl_internal_get_disableThrottling, put = __cordl_internal_set_disableThrottling)) bool disableThrottling;
 
   /// @brief Field m_LastUpdatedIndex, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_LastUpdatedIndex, put = __set_m_LastUpdatedIndex)) int32_t m_LastUpdatedIndex;
+  __declspec(property(get = __cordl_internal_get_m_LastUpdatedIndex, put = __cordl_internal_set_m_LastUpdatedIndex)) int32_t m_LastUpdatedIndex;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IScheduler"
   constexpr operator ::UnityEngine::UIElements::IScheduler*() noexcept;
@@ -58,41 +60,41 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IScheduler"
   constexpr ::UnityEngine::UIElements::IScheduler* i___UnityEngine__UIElements__IScheduler() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& __get_m_ScheduledItems();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& __cordl_internal_get_m_ScheduledItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*> const& __get_m_ScheduledItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*> const& __cordl_internal_get_m_ScheduledItems() const;
 
-  constexpr void __set_m_ScheduledItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* value);
+  constexpr void __cordl_internal_set_m_ScheduledItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* value);
 
-  constexpr bool& __get_m_TransactionMode();
+  constexpr bool& __cordl_internal_get_m_TransactionMode();
 
-  constexpr bool const& __get_m_TransactionMode() const;
+  constexpr bool const& __cordl_internal_get_m_TransactionMode() const;
 
-  constexpr void __set_m_TransactionMode(bool value);
+  constexpr void __cordl_internal_set_m_TransactionMode(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& __get_m_ScheduleTransactions();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& __cordl_internal_get_m_ScheduleTransactions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*> const& __get_m_ScheduleTransactions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*> const& __cordl_internal_get_m_ScheduleTransactions() const;
 
-  constexpr void __set_m_ScheduleTransactions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* value);
+  constexpr void __cordl_internal_set_m_ScheduleTransactions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*& __get_m_UnscheduleTransactions();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*& __cordl_internal_get_m_UnscheduleTransactions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*> const& __get_m_UnscheduleTransactions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*> const& __cordl_internal_get_m_UnscheduleTransactions() const;
 
-  constexpr void __set_m_UnscheduleTransactions(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* value);
+  constexpr void __cordl_internal_set_m_UnscheduleTransactions(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* value);
 
-  constexpr bool& __get_disableThrottling();
+  constexpr bool& __cordl_internal_get_disableThrottling();
 
-  constexpr bool const& __get_disableThrottling() const;
+  constexpr bool const& __cordl_internal_get_disableThrottling() const;
 
-  constexpr void __set_disableThrottling(bool value);
+  constexpr void __cordl_internal_set_disableThrottling(bool value);
 
-  constexpr int32_t& __get_m_LastUpdatedIndex();
+  constexpr int32_t& __cordl_internal_get_m_LastUpdatedIndex();
 
-  constexpr int32_t const& __get_m_LastUpdatedIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_LastUpdatedIndex() const;
 
-  constexpr void __set_m_LastUpdatedIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_LastUpdatedIndex(int32_t value);
 
   /// @brief Method Schedule, addr 0x2e079a8, size 0x1c8, virtual true, abstract: false, final true
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);

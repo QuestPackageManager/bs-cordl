@@ -65,25 +65,25 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeFieldInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3520)), TypeDefinitionIndex(TypeDefinitionIndex(2616)), TypeDefinitionIndex(TypeDefinitionIndex(3468)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2603))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3521)) CS Name: ::System.Reflection::RuntimeFieldInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2616)), TypeDefinitionIndex(TypeDefinitionIndex(3468)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3520))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3521)) CS Name: ::System.Reflection::RuntimeFieldInfo*
 class CORDL_TYPE RuntimeFieldInfo : public ::System::Reflection::RtFieldInfo {
 public:
   // Declarations
   /// @brief Field klass, offset 0x10, size 0x8
-  __declspec(property(get = __get_klass, put = __set_klass)) void* klass;
+  __declspec(property(get = __cordl_internal_get_klass, put = __cordl_internal_set_klass)) void* klass;
 
   /// @brief Field fhandle, offset 0x18, size 0x8
-  __declspec(property(get = __get_fhandle, put = __set_fhandle))::System::RuntimeFieldHandle fhandle;
+  __declspec(property(get = __cordl_internal_get_fhandle, put = __cordl_internal_set_fhandle))::System::RuntimeFieldHandle fhandle;
 
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field type, offset 0x28, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   /// @brief Field attrs, offset 0x30, size 0x4
-  __declspec(property(get = __get_attrs, put = __set_attrs))::System::Reflection::FieldAttributes attrs;
+  __declspec(property(get = __cordl_internal_get_attrs, put = __cordl_internal_set_attrs))::System::Reflection::FieldAttributes attrs;
 
   __declspec(property(get = get_BindingFlags))::System::Reflection::BindingFlags BindingFlags;
 
@@ -111,35 +111,35 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr void*& __get_klass();
+  constexpr void*& __cordl_internal_get_klass();
 
-  constexpr void* const& __get_klass() const;
+  constexpr void* const& __cordl_internal_get_klass() const;
 
-  constexpr void __set_klass(void* value);
+  constexpr void __cordl_internal_set_klass(void* value);
 
-  constexpr ::System::RuntimeFieldHandle& __get_fhandle();
+  constexpr ::System::RuntimeFieldHandle& __cordl_internal_get_fhandle();
 
-  constexpr ::System::RuntimeFieldHandle const& __get_fhandle() const;
+  constexpr ::System::RuntimeFieldHandle const& __cordl_internal_get_fhandle() const;
 
-  constexpr void __set_fhandle(::System::RuntimeFieldHandle value);
+  constexpr void __cordl_internal_set_fhandle(::System::RuntimeFieldHandle value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  constexpr ::System::Reflection::FieldAttributes& __get_attrs();
+  constexpr ::System::Reflection::FieldAttributes& __cordl_internal_get_attrs();
 
-  constexpr ::System::Reflection::FieldAttributes const& __get_attrs() const;
+  constexpr ::System::Reflection::FieldAttributes const& __cordl_internal_get_attrs() const;
 
-  constexpr void __set_attrs(::System::Reflection::FieldAttributes value);
+  constexpr void __cordl_internal_set_attrs(::System::Reflection::FieldAttributes value);
 
   /// @brief Method get_BindingFlags, addr 0x24f2c80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::BindingFlags get_BindingFlags();

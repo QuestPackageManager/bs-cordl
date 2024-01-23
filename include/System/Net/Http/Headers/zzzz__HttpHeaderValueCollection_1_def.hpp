@@ -46,23 +46,23 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14674))
 // CS Name: ::System.Net.Http.Headers::HttpHeaderValueCollection`1<T>*
 class CORDL_TYPE HttpHeaderValueCollection_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::Generic::List_1<T>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::List_1<T>* list;
 
   /// @brief Field headers, offset 0x18, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Net::Http::Headers::HttpHeaders* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpHeaders* headers;
 
   /// @brief Field headerInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_headerInfo, put = __set_headerInfo))::System::Net::Http::Headers::HeaderInfo* headerInfo;
+  __declspec(property(get = __cordl_internal_get_headerInfo, put = __cordl_internal_set_headerInfo))::System::Net::Http::Headers::HeaderInfo* headerInfo;
 
   /// @brief Field invalidValues, offset 0x28, size 0x8
-  __declspec(property(get = __get_invalidValues, put = __set_invalidValues))::System::Collections::Generic::List_1<::StringW>* invalidValues;
+  __declspec(property(get = __cordl_internal_get_invalidValues, put = __cordl_internal_set_invalidValues))::System::Collections::Generic::List_1<::StringW>* invalidValues;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -88,29 +88,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get_list();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr ::System::Net::Http::Headers::HttpHeaders*& __get_headers();
+  constexpr ::System::Net::Http::Headers::HttpHeaders*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpHeaders*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpHeaders*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Net::Http::Headers::HttpHeaders* value);
+  constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpHeaders* value);
 
-  constexpr ::System::Net::Http::Headers::HeaderInfo*& __get_headerInfo();
+  constexpr ::System::Net::Http::Headers::HeaderInfo*& __cordl_internal_get_headerInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HeaderInfo*> const& __get_headerInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HeaderInfo*> const& __cordl_internal_get_headerInfo() const;
 
-  constexpr void __set_headerInfo(::System::Net::Http::Headers::HeaderInfo* value);
+  constexpr void __cordl_internal_set_headerInfo(::System::Net::Http::Headers::HeaderInfo* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_invalidValues();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_invalidValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_invalidValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_invalidValues() const;
 
-  constexpr void __set_invalidValues(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_invalidValues(::System::Collections::Generic::List_1<::StringW>* value);
 
   static inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* New_ctor(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 

@@ -11,10 +11,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0xdfe19c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0xdfe1e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(), 6));
@@ -41,22 +41,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0xdfe274;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(), 7));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::ColorBoostBeatmapEventData::__get_boostColorsAreOn() {
+constexpr bool& GlobalNamespace::ColorBoostBeatmapEventData::__cordl_internal_get_boostColorsAreOn() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boostColorsAreOn;
 }
-constexpr bool const& GlobalNamespace::ColorBoostBeatmapEventData::__get_boostColorsAreOn() const {
+constexpr bool const& GlobalNamespace::ColorBoostBeatmapEventData::__cordl_internal_get_boostColorsAreOn() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boostColorsAreOn;
 }
-constexpr void GlobalNamespace::ColorBoostBeatmapEventData::__set_boostColorsAreOn(bool value) {
+constexpr void GlobalNamespace::ColorBoostBeatmapEventData::__cordl_internal_set_boostColorsAreOn(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___boostColorsAreOn = value;
 }
@@ -70,12 +70,12 @@ inline ::GlobalNamespace::ColorBoostBeatmapEventData* GlobalNamespace::ColorBoos
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get>();
 }
 inline ::GlobalNamespace::ColorBoostBeatmapEventData* GlobalNamespace::ColorBoostBeatmapEventData::New_ctor(float_t time, bool boostColorsAreOn) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ColorBoostBeatmapEventData*>(time, boostColorsAreOn));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorBoostBeatmapEventData*>(time, boostColorsAreOn));
 }
 inline void GlobalNamespace::ColorBoostBeatmapEventData::_ctor(float_t time, bool boostColorsAreOn) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorBoostBeatmapEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, boostColorsAreOn);
 }
 inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::ColorBoostBeatmapEventData::GetCopy() {

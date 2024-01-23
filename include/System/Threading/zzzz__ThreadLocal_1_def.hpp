@@ -58,7 +58,7 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2702))
 // CS Name: ::ThreadLocal`1::LinkedSlotVolatile<T>
 struct CORDL_TYPE __ThreadLocal_1__LinkedSlotVolatile {
@@ -87,48 +87,49 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2703))
 // CS Name: ::ThreadLocal`1::LinkedSlot<T>*
 class CORDL_TYPE __ThreadLocal_1__LinkedSlot : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Next, offset 0x10, size 0x8
-  __declspec(property(get = __get_Next, put = __set_Next))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Next;
 
   /// @brief Field Previous, offset 0x18, size 0x8
-  __declspec(property(get = __get_Previous, put = __set_Previous))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Previous;
+  __declspec(property(get = __cordl_internal_get_Previous, put = __cordl_internal_set_Previous))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Previous;
 
   /// @brief Field SlotArray, offset 0x20, size 0x8
-  __declspec(property(get = __get_SlotArray,
-                      put = __set_SlotArray))::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> SlotArray;
+  __declspec(property(
+      get = __cordl_internal_get_SlotArray,
+      put = __cordl_internal_set_SlotArray))::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> SlotArray;
 
   /// @brief Field Value, offset 0x28, size 0x8
-  __declspec(property(get = __get_Value, put = __set_Value)) T Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) T Value;
 
-  constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& __get_Next();
+  constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& __get_Next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __set_Next(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value);
+  constexpr void __cordl_internal_set_Next(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value);
 
-  constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& __get_Previous();
+  constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& __cordl_internal_get_Previous();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& __get_Previous() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& __cordl_internal_get_Previous() const;
 
-  constexpr void __set_Previous(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value);
+  constexpr void __cordl_internal_set_Previous(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value);
 
-  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>& __get_SlotArray();
+  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>& __cordl_internal_get_SlotArray();
 
-  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> const& __get_SlotArray() const;
+  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> const& __cordl_internal_get_SlotArray() const;
 
-  constexpr void __set_SlotArray(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value);
+  constexpr void __cordl_internal_set_SlotArray(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value);
 
-  constexpr T& __get_Value();
+  constexpr T& __cordl_internal_get_Value();
 
-  constexpr T const& __get_Value() const;
+  constexpr T const& __cordl_internal_get_Value() const;
 
-  constexpr void __set_Value(T value);
+  constexpr void __cordl_internal_set_Value(T value);
 
   static inline ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*
   New_ctor(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray);
@@ -172,29 +173,29 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2704))
 // CS Name: ::ThreadLocal`1::IdManager<T>*
 class CORDL_TYPE __ThreadLocal_1__IdManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_nextIdToTry, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_nextIdToTry, put = __set_m_nextIdToTry)) int32_t m_nextIdToTry;
+  __declspec(property(get = __cordl_internal_get_m_nextIdToTry, put = __cordl_internal_set_m_nextIdToTry)) int32_t m_nextIdToTry;
 
   /// @brief Field m_freeIds, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_freeIds, put = __set_m_freeIds))::System::Collections::Generic::List_1<bool>* m_freeIds;
+  __declspec(property(get = __cordl_internal_get_m_freeIds, put = __cordl_internal_set_m_freeIds))::System::Collections::Generic::List_1<bool>* m_freeIds;
 
-  constexpr int32_t& __get_m_nextIdToTry();
+  constexpr int32_t& __cordl_internal_get_m_nextIdToTry();
 
-  constexpr int32_t const& __get_m_nextIdToTry() const;
+  constexpr int32_t const& __cordl_internal_get_m_nextIdToTry() const;
 
-  constexpr void __set_m_nextIdToTry(int32_t value);
+  constexpr void __cordl_internal_set_m_nextIdToTry(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<bool>*& __get_m_freeIds();
+  constexpr ::System::Collections::Generic::List_1<bool>*& __cordl_internal_get_m_freeIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<bool>*> const& __get_m_freeIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<bool>*> const& __cordl_internal_get_m_freeIds() const;
 
-  constexpr void __set_m_freeIds(::System::Collections::Generic::List_1<bool>* value);
+  constexpr void __cordl_internal_set_m_freeIds(::System::Collections::Generic::List_1<bool>* value);
 
   /// @brief Method GetId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetId();
@@ -237,30 +238,31 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2705))
 // CS Name: ::ThreadLocal`1::FinalizationHelper<T>*
 class CORDL_TYPE __ThreadLocal_1__FinalizationHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field SlotArray, offset 0x10, size 0x8
-  __declspec(property(get = __get_SlotArray,
-                      put = __set_SlotArray))::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> SlotArray;
+  __declspec(property(
+      get = __cordl_internal_get_SlotArray,
+      put = __cordl_internal_set_SlotArray))::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> SlotArray;
 
   /// @brief Field m_trackAllValues, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_trackAllValues, put = __set_m_trackAllValues)) bool m_trackAllValues;
+  __declspec(property(get = __cordl_internal_get_m_trackAllValues, put = __cordl_internal_set_m_trackAllValues)) bool m_trackAllValues;
 
-  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>& __get_SlotArray();
+  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>& __cordl_internal_get_SlotArray();
 
-  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> const& __get_SlotArray() const;
+  constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> const& __cordl_internal_get_SlotArray() const;
 
-  constexpr void __set_SlotArray(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value);
+  constexpr void __cordl_internal_set_SlotArray(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value);
 
-  constexpr bool& __get_m_trackAllValues();
+  constexpr bool& __cordl_internal_get_m_trackAllValues();
 
-  constexpr bool const& __get_m_trackAllValues() const;
+  constexpr bool const& __cordl_internal_get_m_trackAllValues() const;
 
-  constexpr void __set_m_trackAllValues(bool value);
+  constexpr void __cordl_internal_set_m_trackAllValues(bool value);
 
   static inline ::System::Threading::__ThreadLocal_1__FinalizationHelper<T>*
   New_ctor(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray, bool trackAllValues);
@@ -301,7 +303,7 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2706))
 // CS Name: ::System.Threading::ThreadLocal`1<T>*
 class CORDL_TYPE ThreadLocal_1 : public ::System::Object {
@@ -316,19 +318,19 @@ public:
   using LinkedSlotVolatile = ::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>;
 
   /// @brief Field m_valueFactory, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_valueFactory, put = __set_m_valueFactory))::System::Func_1<T>* m_valueFactory;
+  __declspec(property(get = __cordl_internal_get_m_valueFactory, put = __cordl_internal_set_m_valueFactory))::System::Func_1<T>* m_valueFactory;
 
   /// @brief Field m_idComplement, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_idComplement, put = __set_m_idComplement)) int32_t m_idComplement;
+  __declspec(property(get = __cordl_internal_get_m_idComplement, put = __cordl_internal_set_m_idComplement)) int32_t m_idComplement;
 
   /// @brief Field m_initialized, offset 0x1c, size 0x1
-  __declspec(property(get = __get_m_initialized, put = __set_m_initialized)) bool m_initialized;
+  __declspec(property(get = __cordl_internal_get_m_initialized, put = __cordl_internal_set_m_initialized)) bool m_initialized;
 
   /// @brief Field m_linkedSlot, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_linkedSlot, put = __set_m_linkedSlot))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* m_linkedSlot;
+  __declspec(property(get = __cordl_internal_get_m_linkedSlot, put = __cordl_internal_set_m_linkedSlot))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* m_linkedSlot;
 
   /// @brief Field m_trackAllValues, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_trackAllValues, put = __set_m_trackAllValues)) bool m_trackAllValues;
+  __declspec(property(get = __cordl_internal_get_m_trackAllValues, put = __cordl_internal_set_m_trackAllValues)) bool m_trackAllValues;
 
   /// @brief Field ts_slotArray, offset 0xffffffff, size 0x8
   static __declspec(
@@ -351,35 +353,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Func_1<T>*& __get_m_valueFactory();
+  constexpr ::System::Func_1<T>*& __cordl_internal_get_m_valueFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __get_m_valueFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_m_valueFactory() const;
 
-  constexpr void __set_m_valueFactory(::System::Func_1<T>* value);
+  constexpr void __cordl_internal_set_m_valueFactory(::System::Func_1<T>* value);
 
-  constexpr int32_t& __get_m_idComplement();
+  constexpr int32_t& __cordl_internal_get_m_idComplement();
 
-  constexpr int32_t const& __get_m_idComplement() const;
+  constexpr int32_t const& __cordl_internal_get_m_idComplement() const;
 
-  constexpr void __set_m_idComplement(int32_t value);
+  constexpr void __cordl_internal_set_m_idComplement(int32_t value);
 
-  constexpr bool& __get_m_initialized();
+  constexpr bool& __cordl_internal_get_m_initialized();
 
-  constexpr bool const& __get_m_initialized() const;
+  constexpr bool const& __cordl_internal_get_m_initialized() const;
 
-  constexpr void __set_m_initialized(bool value);
+  constexpr void __cordl_internal_set_m_initialized(bool value);
 
-  constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& __get_m_linkedSlot();
+  constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& __cordl_internal_get_m_linkedSlot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& __get_m_linkedSlot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& __cordl_internal_get_m_linkedSlot() const;
 
-  constexpr void __set_m_linkedSlot(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value);
+  constexpr void __cordl_internal_set_m_linkedSlot(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value);
 
-  constexpr bool& __get_m_trackAllValues();
+  constexpr bool& __cordl_internal_get_m_trackAllValues();
 
-  constexpr bool const& __get_m_trackAllValues() const;
+  constexpr bool const& __cordl_internal_get_m_trackAllValues() const;
 
-  constexpr void __set_m_trackAllValues(bool value);
+  constexpr void __cordl_internal_set_m_trackAllValues(bool value);
 
   static inline void setStaticF_ts_slotArray(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value);
 

@@ -94,9 +94,9 @@ MARK_VAL_T(::System::Net::__WebOperation___Run_d__58);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9225)) CS Name: ::WebOperation::<GetRequestStream>d__50
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 899 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9225)) CS Name: ::WebOperation::<GetRequestStream>d__50
 struct CORDL_TYPE __WebOperation___GetRequestStream_d__50 {
 public:
   // Declarations
@@ -157,8 +157,9 @@ static_assert(offsetof(::System::Net::__WebOperation___GetRequestStream_d__50, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(9238))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9226)) CS Name: ::WebOperation::<Run>d__58
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9226)) CS
+// Name: ::WebOperation::<Run>d__58
 struct CORDL_TYPE __WebOperation___Run_d__58 {
 public:
   // Declarations
@@ -236,7 +237,7 @@ static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, __u__2) == 0x5
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9227))
 // CS Name: ::System.Net::WebOperation*
 class CORDL_TYPE WebOperation : public ::System::Object {
@@ -247,55 +248,57 @@ public:
   using _GetRequestStream_d__50 = ::System::Net::__WebOperation___GetRequestStream_d__50;
 
   /// @brief Field <Request>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Request_k__BackingField, put = __set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
 
   /// @brief Field <Connection>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Connection_k__BackingField, put = __set__Connection_k__BackingField))::System::Net::WebConnection* _Connection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Connection_k__BackingField, put = __cordl_internal_set__Connection_k__BackingField))::System::Net::WebConnection* _Connection_k__BackingField;
 
   /// @brief Field <ServicePoint>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__ServicePoint_k__BackingField, put = __set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ServicePoint_k__BackingField, put = __cordl_internal_set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
 
   /// @brief Field <WriteBuffer>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__WriteBuffer_k__BackingField, put = __set__WriteBuffer_k__BackingField))::System::Net::BufferOffsetSize* _WriteBuffer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__WriteBuffer_k__BackingField, put = __cordl_internal_set__WriteBuffer_k__BackingField))::System::Net::BufferOffsetSize* _WriteBuffer_k__BackingField;
 
   /// @brief Field <IsNtlmChallenge>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__IsNtlmChallenge_k__BackingField, put = __set__IsNtlmChallenge_k__BackingField)) bool _IsNtlmChallenge_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsNtlmChallenge_k__BackingField, put = __cordl_internal_set__IsNtlmChallenge_k__BackingField)) bool _IsNtlmChallenge_k__BackingField;
 
   /// @brief Field cts, offset 0x38, size 0x8
-  __declspec(property(get = __get_cts, put = __set_cts))::System::Threading::CancellationTokenSource* cts;
+  __declspec(property(get = __cordl_internal_get_cts, put = __cordl_internal_set_cts))::System::Threading::CancellationTokenSource* cts;
 
   /// @brief Field requestTask, offset 0x40, size 0x8
-  __declspec(property(get = __get_requestTask, put = __set_requestTask))::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* requestTask;
+  __declspec(property(get = __cordl_internal_get_requestTask, put = __cordl_internal_set_requestTask))::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* requestTask;
 
   /// @brief Field requestWrittenTask, offset 0x48, size 0x8
-  __declspec(property(get = __get_requestWrittenTask, put = __set_requestWrittenTask))::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* requestWrittenTask;
+  __declspec(property(get = __cordl_internal_get_requestWrittenTask,
+                      put = __cordl_internal_set_requestWrittenTask))::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* requestWrittenTask;
 
   /// @brief Field responseTask, offset 0x50, size 0x8
-  __declspec(property(get = __get_responseTask, put = __set_responseTask))::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>* responseTask;
+  __declspec(property(get = __cordl_internal_get_responseTask, put = __cordl_internal_set_responseTask))::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>* responseTask;
 
   /// @brief Field finishedTask, offset 0x58, size 0x8
-  __declspec(property(get = __get_finishedTask, put = __set_finishedTask))::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* finishedTask;
+  __declspec(property(get = __cordl_internal_get_finishedTask,
+                      put = __cordl_internal_set_finishedTask))::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* finishedTask;
 
   /// @brief Field writeStream, offset 0x60, size 0x8
-  __declspec(property(get = __get_writeStream, put = __set_writeStream))::System::Net::WebRequestStream* writeStream;
+  __declspec(property(get = __cordl_internal_get_writeStream, put = __cordl_internal_set_writeStream))::System::Net::WebRequestStream* writeStream;
 
   /// @brief Field responseStream, offset 0x68, size 0x8
-  __declspec(property(get = __get_responseStream, put = __set_responseStream))::System::Net::WebResponseStream* responseStream;
+  __declspec(property(get = __cordl_internal_get_responseStream, put = __cordl_internal_set_responseStream))::System::Net::WebResponseStream* responseStream;
 
   /// @brief Field disposedInfo, offset 0x70, size 0x8
-  __declspec(property(get = __get_disposedInfo, put = __set_disposedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* disposedInfo;
+  __declspec(property(get = __cordl_internal_get_disposedInfo, put = __cordl_internal_set_disposedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* disposedInfo;
 
   /// @brief Field closedInfo, offset 0x78, size 0x8
-  __declspec(property(get = __get_closedInfo, put = __set_closedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* closedInfo;
+  __declspec(property(get = __cordl_internal_get_closedInfo, put = __cordl_internal_set_closedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* closedInfo;
 
   /// @brief Field priorityRequest, offset 0x80, size 0x8
-  __declspec(property(get = __get_priorityRequest, put = __set_priorityRequest))::System::Net::WebOperation* priorityRequest;
+  __declspec(property(get = __cordl_internal_get_priorityRequest, put = __cordl_internal_set_priorityRequest))::System::Net::WebOperation* priorityRequest;
 
   /// @brief Field requestSent, offset 0x88, size 0x4
-  __declspec(property(get = __get_requestSent, put = __set_requestSent)) int32_t requestSent;
+  __declspec(property(get = __cordl_internal_get_requestSent, put = __cordl_internal_set_requestSent)) int32_t requestSent;
 
   /// @brief Field finished, offset 0x8c, size 0x4
-  __declspec(property(get = __get_finished, put = __set_finished)) int32_t finished;
+  __declspec(property(get = __cordl_internal_get_finished, put = __cordl_internal_set_finished)) int32_t finished;
 
   __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
 
@@ -315,107 +318,107 @@ public:
 
   __declspec(property(get = get_Finished))::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* Finished;
 
-  constexpr ::System::Net::HttpWebRequest*& __get__Request_k__BackingField();
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __get__Request_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
 
-  constexpr void __set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
+  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
 
-  constexpr ::System::Net::WebConnection*& __get__Connection_k__BackingField();
+  constexpr ::System::Net::WebConnection*& __cordl_internal_get__Connection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnection*> const& __get__Connection_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnection*> const& __cordl_internal_get__Connection_k__BackingField() const;
 
-  constexpr void __set__Connection_k__BackingField(::System::Net::WebConnection* value);
+  constexpr void __cordl_internal_set__Connection_k__BackingField(::System::Net::WebConnection* value);
 
-  constexpr ::System::Net::ServicePoint*& __get__ServicePoint_k__BackingField();
+  constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __get__ServicePoint_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __cordl_internal_get__ServicePoint_k__BackingField() const;
 
-  constexpr void __set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
+  constexpr void __cordl_internal_set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
 
-  constexpr ::System::Net::BufferOffsetSize*& __get__WriteBuffer_k__BackingField();
+  constexpr ::System::Net::BufferOffsetSize*& __cordl_internal_get__WriteBuffer_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::BufferOffsetSize*> const& __get__WriteBuffer_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::BufferOffsetSize*> const& __cordl_internal_get__WriteBuffer_k__BackingField() const;
 
-  constexpr void __set__WriteBuffer_k__BackingField(::System::Net::BufferOffsetSize* value);
+  constexpr void __cordl_internal_set__WriteBuffer_k__BackingField(::System::Net::BufferOffsetSize* value);
 
-  constexpr bool& __get__IsNtlmChallenge_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsNtlmChallenge_k__BackingField();
 
-  constexpr bool const& __get__IsNtlmChallenge_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsNtlmChallenge_k__BackingField() const;
 
-  constexpr void __set__IsNtlmChallenge_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsNtlmChallenge_k__BackingField(bool value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get_cts();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get_cts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get_cts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get_cts() const;
 
-  constexpr void __set_cts(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __get_requestTask();
+  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __cordl_internal_get_requestTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __get_requestTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __cordl_internal_get_requestTask() const;
 
-  constexpr void __set_requestTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
+  constexpr void __cordl_internal_set_requestTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
 
-  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __get_requestWrittenTask();
+  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __cordl_internal_get_requestWrittenTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __get_requestWrittenTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __cordl_internal_get_requestWrittenTask() const;
 
-  constexpr void __set_requestWrittenTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
+  constexpr void __cordl_internal_set_requestWrittenTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
 
-  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*& __get_responseTask();
+  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*& __cordl_internal_get_responseTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*> const& __get_responseTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*> const& __cordl_internal_get_responseTask() const;
 
-  constexpr void __set_responseTask(::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>* value);
+  constexpr void __cordl_internal_set_responseTask(::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>* value);
 
-  constexpr ::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*& __get_finishedTask();
+  constexpr ::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*& __cordl_internal_get_finishedTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*> const& __get_finishedTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*> const& __cordl_internal_get_finishedTask() const;
 
-  constexpr void __set_finishedTask(::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* value);
+  constexpr void __cordl_internal_set_finishedTask(::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* value);
 
-  constexpr ::System::Net::WebRequestStream*& __get_writeStream();
+  constexpr ::System::Net::WebRequestStream*& __cordl_internal_get_writeStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __get_writeStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __cordl_internal_get_writeStream() const;
 
-  constexpr void __set_writeStream(::System::Net::WebRequestStream* value);
+  constexpr void __cordl_internal_set_writeStream(::System::Net::WebRequestStream* value);
 
-  constexpr ::System::Net::WebResponseStream*& __get_responseStream();
+  constexpr ::System::Net::WebResponseStream*& __cordl_internal_get_responseStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& __get_responseStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& __cordl_internal_get_responseStream() const;
 
-  constexpr void __set_responseStream(::System::Net::WebResponseStream* value);
+  constexpr void __cordl_internal_set_responseStream(::System::Net::WebResponseStream* value);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __get_disposedInfo();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_disposedInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __get_disposedInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get_disposedInfo() const;
 
-  constexpr void __set_disposedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr void __cordl_internal_set_disposedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __get_closedInfo();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_closedInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __get_closedInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get_closedInfo() const;
 
-  constexpr void __set_closedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr void __cordl_internal_set_closedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  constexpr ::System::Net::WebOperation*& __get_priorityRequest();
+  constexpr ::System::Net::WebOperation*& __cordl_internal_get_priorityRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __get_priorityRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get_priorityRequest() const;
 
-  constexpr void __set_priorityRequest(::System::Net::WebOperation* value);
+  constexpr void __cordl_internal_set_priorityRequest(::System::Net::WebOperation* value);
 
-  constexpr int32_t& __get_requestSent();
+  constexpr int32_t& __cordl_internal_get_requestSent();
 
-  constexpr int32_t const& __get_requestSent() const;
+  constexpr int32_t const& __cordl_internal_get_requestSent() const;
 
-  constexpr void __set_requestSent(int32_t value);
+  constexpr void __cordl_internal_set_requestSent(int32_t value);
 
-  constexpr int32_t& __get_finished();
+  constexpr int32_t& __cordl_internal_get_finished();
 
-  constexpr int32_t const& __get_finished() const;
+  constexpr int32_t const& __cordl_internal_get_finished() const;
 
-  constexpr void __set_finished(int32_t value);
+  constexpr void __cordl_internal_set_finished(int32_t value);
 
   /// @brief Method get_Request, addr 0x29e1f34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();

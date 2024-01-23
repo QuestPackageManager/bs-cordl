@@ -111,7 +111,7 @@ MARK_VAL_T(::Tayx::Graphy::__GraphyDebugger__DebugCondition);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15051))
 // CS Name: ::GraphyDebugger::DebugVariable
 struct CORDL_TYPE __GraphyDebugger__DebugVariable {
@@ -185,7 +185,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugVariable, value__)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15052))
 // CS Name: ::GraphyDebugger::DebugComparer
 struct CORDL_TYPE __GraphyDebugger__DebugComparer {
@@ -247,7 +247,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugComparer, value__)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15053))
 // CS Name: ::GraphyDebugger::ConditionEvaluation
 struct CORDL_TYPE __GraphyDebugger__ConditionEvaluation {
@@ -297,7 +297,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation, va
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15054))
 // CS Name: ::GraphyDebugger::MessageType
 struct CORDL_TYPE __GraphyDebugger__MessageType {
@@ -351,7 +351,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__MessageType, value__) =
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15052)), TypeDefinitionIndex(TypeDefinitionIndex(15051))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15051)), TypeDefinitionIndex(TypeDefinitionIndex(15052))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15055))
 // CS Name: ::GraphyDebugger::DebugCondition
 struct CORDL_TYPE __GraphyDebugger__DebugCondition {
@@ -393,166 +393,167 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugCondition, Value) 
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15054)), TypeDefinitionIndex(TypeDefinitionIndex(15053)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15053)), TypeDefinitionIndex(TypeDefinitionIndex(15054))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15056))
 // CS Name: ::GraphyDebugger::DebugPacket*
 class CORDL_TYPE __GraphyDebugger__DebugPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Active, offset 0x10, size 0x1
-  __declspec(property(get = __get_Active, put = __set_Active)) bool Active;
+  __declspec(property(get = __cordl_internal_get_Active, put = __cordl_internal_set_Active)) bool Active;
 
   /// @brief Field Id, offset 0x14, size 0x4
-  __declspec(property(get = __get_Id, put = __set_Id)) int32_t Id;
+  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) int32_t Id;
 
   /// @brief Field ExecuteOnce, offset 0x18, size 0x1
-  __declspec(property(get = __get_ExecuteOnce, put = __set_ExecuteOnce)) bool ExecuteOnce;
+  __declspec(property(get = __cordl_internal_get_ExecuteOnce, put = __cordl_internal_set_ExecuteOnce)) bool ExecuteOnce;
 
   /// @brief Field InitSleepTime, offset 0x1c, size 0x4
-  __declspec(property(get = __get_InitSleepTime, put = __set_InitSleepTime)) float_t InitSleepTime;
+  __declspec(property(get = __cordl_internal_get_InitSleepTime, put = __cordl_internal_set_InitSleepTime)) float_t InitSleepTime;
 
   /// @brief Field ExecuteSleepTime, offset 0x20, size 0x4
-  __declspec(property(get = __get_ExecuteSleepTime, put = __set_ExecuteSleepTime)) float_t ExecuteSleepTime;
+  __declspec(property(get = __cordl_internal_get_ExecuteSleepTime, put = __cordl_internal_set_ExecuteSleepTime)) float_t ExecuteSleepTime;
 
   /// @brief Field ConditionEvaluation, offset 0x24, size 0x4
-  __declspec(property(get = __get_ConditionEvaluation, put = __set_ConditionEvaluation))::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation ConditionEvaluation;
+  __declspec(property(get = __cordl_internal_get_ConditionEvaluation, put = __cordl_internal_set_ConditionEvaluation))::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation ConditionEvaluation;
 
   /// @brief Field DebugConditions, offset 0x28, size 0x8
-  __declspec(property(get = __get_DebugConditions, put = __set_DebugConditions))::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* DebugConditions;
+  __declspec(property(get = __cordl_internal_get_DebugConditions,
+                      put = __cordl_internal_set_DebugConditions))::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* DebugConditions;
 
   /// @brief Field MessageType, offset 0x30, size 0x4
-  __declspec(property(get = __get_MessageType, put = __set_MessageType))::Tayx::Graphy::__GraphyDebugger__MessageType MessageType;
+  __declspec(property(get = __cordl_internal_get_MessageType, put = __cordl_internal_set_MessageType))::Tayx::Graphy::__GraphyDebugger__MessageType MessageType;
 
   /// @brief Field Message, offset 0x38, size 0x8
-  __declspec(property(get = __get_Message, put = __set_Message))::StringW Message;
+  __declspec(property(get = __cordl_internal_get_Message, put = __cordl_internal_set_Message))::StringW Message;
 
   /// @brief Field TakeScreenshot, offset 0x40, size 0x1
-  __declspec(property(get = __get_TakeScreenshot, put = __set_TakeScreenshot)) bool TakeScreenshot;
+  __declspec(property(get = __cordl_internal_get_TakeScreenshot, put = __cordl_internal_set_TakeScreenshot)) bool TakeScreenshot;
 
   /// @brief Field ScreenshotFileName, offset 0x48, size 0x8
-  __declspec(property(get = __get_ScreenshotFileName, put = __set_ScreenshotFileName))::StringW ScreenshotFileName;
+  __declspec(property(get = __cordl_internal_get_ScreenshotFileName, put = __cordl_internal_set_ScreenshotFileName))::StringW ScreenshotFileName;
 
   /// @brief Field DebugBreak, offset 0x50, size 0x1
-  __declspec(property(get = __get_DebugBreak, put = __set_DebugBreak)) bool DebugBreak;
+  __declspec(property(get = __cordl_internal_get_DebugBreak, put = __cordl_internal_set_DebugBreak)) bool DebugBreak;
 
   /// @brief Field UnityEvents, offset 0x58, size 0x8
-  __declspec(property(get = __get_UnityEvents, put = __set_UnityEvents))::UnityEngine::Events::UnityEvent* UnityEvents;
+  __declspec(property(get = __cordl_internal_get_UnityEvents, put = __cordl_internal_set_UnityEvents))::UnityEngine::Events::UnityEvent* UnityEvents;
 
   /// @brief Field Callbacks, offset 0x60, size 0x8
-  __declspec(property(get = __get_Callbacks, put = __set_Callbacks))::System::Collections::Generic::List_1<::System::Action*>* Callbacks;
+  __declspec(property(get = __cordl_internal_get_Callbacks, put = __cordl_internal_set_Callbacks))::System::Collections::Generic::List_1<::System::Action*>* Callbacks;
 
   /// @brief Field canBeChecked, offset 0x68, size 0x1
-  __declspec(property(get = __get_canBeChecked, put = __set_canBeChecked)) bool canBeChecked;
+  __declspec(property(get = __cordl_internal_get_canBeChecked, put = __cordl_internal_set_canBeChecked)) bool canBeChecked;
 
   /// @brief Field executed, offset 0x69, size 0x1
-  __declspec(property(get = __get_executed, put = __set_executed)) bool executed;
+  __declspec(property(get = __cordl_internal_get_executed, put = __cordl_internal_set_executed)) bool executed;
 
   /// @brief Field timePassed, offset 0x6c, size 0x4
-  __declspec(property(get = __get_timePassed, put = __set_timePassed)) float_t timePassed;
+  __declspec(property(get = __cordl_internal_get_timePassed, put = __cordl_internal_set_timePassed)) float_t timePassed;
 
   __declspec(property(get = get_Check)) bool Check;
 
-  constexpr bool& __get_Active();
+  constexpr bool& __cordl_internal_get_Active();
 
-  constexpr bool const& __get_Active() const;
+  constexpr bool const& __cordl_internal_get_Active() const;
 
-  constexpr void __set_Active(bool value);
+  constexpr void __cordl_internal_set_Active(bool value);
 
-  constexpr int32_t& __get_Id();
+  constexpr int32_t& __cordl_internal_get_Id();
 
-  constexpr int32_t const& __get_Id() const;
+  constexpr int32_t const& __cordl_internal_get_Id() const;
 
-  constexpr void __set_Id(int32_t value);
+  constexpr void __cordl_internal_set_Id(int32_t value);
 
-  constexpr bool& __get_ExecuteOnce();
+  constexpr bool& __cordl_internal_get_ExecuteOnce();
 
-  constexpr bool const& __get_ExecuteOnce() const;
+  constexpr bool const& __cordl_internal_get_ExecuteOnce() const;
 
-  constexpr void __set_ExecuteOnce(bool value);
+  constexpr void __cordl_internal_set_ExecuteOnce(bool value);
 
-  constexpr float_t& __get_InitSleepTime();
+  constexpr float_t& __cordl_internal_get_InitSleepTime();
 
-  constexpr float_t const& __get_InitSleepTime() const;
+  constexpr float_t const& __cordl_internal_get_InitSleepTime() const;
 
-  constexpr void __set_InitSleepTime(float_t value);
+  constexpr void __cordl_internal_set_InitSleepTime(float_t value);
 
-  constexpr float_t& __get_ExecuteSleepTime();
+  constexpr float_t& __cordl_internal_get_ExecuteSleepTime();
 
-  constexpr float_t const& __get_ExecuteSleepTime() const;
+  constexpr float_t const& __cordl_internal_get_ExecuteSleepTime() const;
 
-  constexpr void __set_ExecuteSleepTime(float_t value);
+  constexpr void __cordl_internal_set_ExecuteSleepTime(float_t value);
 
-  constexpr ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation& __get_ConditionEvaluation();
+  constexpr ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation& __cordl_internal_get_ConditionEvaluation();
 
-  constexpr ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation const& __get_ConditionEvaluation() const;
+  constexpr ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation const& __cordl_internal_get_ConditionEvaluation() const;
 
-  constexpr void __set_ConditionEvaluation(::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation value);
+  constexpr void __cordl_internal_set_ConditionEvaluation(::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation value);
 
-  constexpr ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>*& __get_DebugConditions();
+  constexpr ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>*& __cordl_internal_get_DebugConditions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>*> const& __get_DebugConditions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>*> const& __cordl_internal_get_DebugConditions() const;
 
-  constexpr void __set_DebugConditions(::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* value);
+  constexpr void __cordl_internal_set_DebugConditions(::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* value);
 
-  constexpr ::Tayx::Graphy::__GraphyDebugger__MessageType& __get_MessageType();
+  constexpr ::Tayx::Graphy::__GraphyDebugger__MessageType& __cordl_internal_get_MessageType();
 
-  constexpr ::Tayx::Graphy::__GraphyDebugger__MessageType const& __get_MessageType() const;
+  constexpr ::Tayx::Graphy::__GraphyDebugger__MessageType const& __cordl_internal_get_MessageType() const;
 
-  constexpr void __set_MessageType(::Tayx::Graphy::__GraphyDebugger__MessageType value);
+  constexpr void __cordl_internal_set_MessageType(::Tayx::Graphy::__GraphyDebugger__MessageType value);
 
-  constexpr ::StringW& __get_Message();
+  constexpr ::StringW& __cordl_internal_get_Message();
 
-  constexpr ::StringW const& __get_Message() const;
+  constexpr ::StringW const& __cordl_internal_get_Message() const;
 
-  constexpr void __set_Message(::StringW value);
+  constexpr void __cordl_internal_set_Message(::StringW value);
 
-  constexpr bool& __get_TakeScreenshot();
+  constexpr bool& __cordl_internal_get_TakeScreenshot();
 
-  constexpr bool const& __get_TakeScreenshot() const;
+  constexpr bool const& __cordl_internal_get_TakeScreenshot() const;
 
-  constexpr void __set_TakeScreenshot(bool value);
+  constexpr void __cordl_internal_set_TakeScreenshot(bool value);
 
-  constexpr ::StringW& __get_ScreenshotFileName();
+  constexpr ::StringW& __cordl_internal_get_ScreenshotFileName();
 
-  constexpr ::StringW const& __get_ScreenshotFileName() const;
+  constexpr ::StringW const& __cordl_internal_get_ScreenshotFileName() const;
 
-  constexpr void __set_ScreenshotFileName(::StringW value);
+  constexpr void __cordl_internal_set_ScreenshotFileName(::StringW value);
 
-  constexpr bool& __get_DebugBreak();
+  constexpr bool& __cordl_internal_get_DebugBreak();
 
-  constexpr bool const& __get_DebugBreak() const;
+  constexpr bool const& __cordl_internal_get_DebugBreak() const;
 
-  constexpr void __set_DebugBreak(bool value);
+  constexpr void __cordl_internal_set_DebugBreak(bool value);
 
-  constexpr ::UnityEngine::Events::UnityEvent*& __get_UnityEvents();
+  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get_UnityEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __get_UnityEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __cordl_internal_get_UnityEvents() const;
 
-  constexpr void __set_UnityEvents(::UnityEngine::Events::UnityEvent* value);
+  constexpr void __cordl_internal_set_UnityEvents(::UnityEngine::Events::UnityEvent* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Action*>*& __get_Callbacks();
+  constexpr ::System::Collections::Generic::List_1<::System::Action*>*& __cordl_internal_get_Callbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Action*>*> const& __get_Callbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Action*>*> const& __cordl_internal_get_Callbacks() const;
 
-  constexpr void __set_Callbacks(::System::Collections::Generic::List_1<::System::Action*>* value);
+  constexpr void __cordl_internal_set_Callbacks(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  constexpr bool& __get_canBeChecked();
+  constexpr bool& __cordl_internal_get_canBeChecked();
 
-  constexpr bool const& __get_canBeChecked() const;
+  constexpr bool const& __cordl_internal_get_canBeChecked() const;
 
-  constexpr void __set_canBeChecked(bool value);
+  constexpr void __cordl_internal_set_canBeChecked(bool value);
 
-  constexpr bool& __get_executed();
+  constexpr bool& __cordl_internal_get_executed();
 
-  constexpr bool const& __get_executed() const;
+  constexpr bool const& __cordl_internal_get_executed() const;
 
-  constexpr void __set_executed(bool value);
+  constexpr void __cordl_internal_set_executed(bool value);
 
-  constexpr float_t& __get_timePassed();
+  constexpr float_t& __cordl_internal_get_timePassed();
 
-  constexpr float_t const& __get_timePassed() const;
+  constexpr float_t const& __cordl_internal_get_timePassed() const;
 
-  constexpr void __set_timePassed(float_t value);
+  constexpr void __cordl_internal_set_timePassed(float_t value);
 
   /// @brief Method get_Check, addr 0x2a005d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Check();
@@ -677,20 +678,20 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugPacket, ___timePas
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15057))
 // CS Name: ::GraphyDebugger::<>c__DisplayClass18_0*
 class CORDL_TYPE __GraphyDebugger____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field packetId, offset 0x10, size 0x4
-  __declspec(property(get = __get_packetId, put = __set_packetId)) int32_t packetId;
+  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
 
-  constexpr int32_t& __get_packetId();
+  constexpr int32_t& __cordl_internal_get_packetId();
 
-  constexpr int32_t const& __get_packetId() const;
+  constexpr int32_t const& __cordl_internal_get_packetId() const;
 
-  constexpr void __set_packetId(int32_t value);
+  constexpr void __cordl_internal_set_packetId(int32_t value);
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0* New_ctor();
 
@@ -729,20 +730,20 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15058))
 // CS Name: ::GraphyDebugger::<>c__DisplayClass19_0*
 class CORDL_TYPE __GraphyDebugger____c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field packetId, offset 0x10, size 0x4
-  __declspec(property(get = __get_packetId, put = __set_packetId)) int32_t packetId;
+  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
 
-  constexpr int32_t& __get_packetId();
+  constexpr int32_t& __cordl_internal_get_packetId();
 
-  constexpr int32_t const& __get_packetId() const;
+  constexpr int32_t const& __cordl_internal_get_packetId() const;
 
-  constexpr void __set_packetId(int32_t value);
+  constexpr void __cordl_internal_set_packetId(int32_t value);
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0* New_ctor();
 
@@ -781,20 +782,20 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15059))
 // CS Name: ::GraphyDebugger::<>c__DisplayClass21_0*
 class CORDL_TYPE __GraphyDebugger____c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field packetId, offset 0x10, size 0x4
-  __declspec(property(get = __get_packetId, put = __set_packetId)) int32_t packetId;
+  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
 
-  constexpr int32_t& __get_packetId();
+  constexpr int32_t& __cordl_internal_get_packetId();
 
-  constexpr int32_t const& __get_packetId() const;
+  constexpr int32_t const& __cordl_internal_get_packetId() const;
 
-  constexpr void __set_packetId(int32_t value);
+  constexpr void __cordl_internal_set_packetId(int32_t value);
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0* New_ctor();
 
@@ -833,7 +834,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15060))
 // CS Name: ::GraphyDebugger::<>c*
 class CORDL_TYPE __GraphyDebugger____c : public ::System::Object {
@@ -885,10 +886,10 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15071)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2552 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15071)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2552 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15061))
 // CS Name: ::Tayx.Graphy::GraphyDebugger*
-class CORDL_TYPE GraphyDebugger : public ::Tayx::Graphy::Utils::G_Singleton_1<::Tayx::Graphy::GraphyDebugger*> {
+class CORDL_TYPE GraphyDebugger : public ::Tayx::Graphy::Utils::G_Singleton_1<::UnityW<::Tayx::Graphy::GraphyDebugger>> {
 public:
   // Declarations
   using __c = ::Tayx::Graphy::__GraphyDebugger____c;
@@ -912,40 +913,41 @@ public:
   using DebugVariable = ::Tayx::Graphy::__GraphyDebugger__DebugVariable;
 
   /// @brief Field m_debugPackets, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_debugPackets, put = __set_m_debugPackets))::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* m_debugPackets;
+  __declspec(property(get = __cordl_internal_get_m_debugPackets,
+                      put = __cordl_internal_set_m_debugPackets))::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* m_debugPackets;
 
   /// @brief Field m_fpsMonitor, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_fpsMonitor, put = __set_m_fpsMonitor))::Tayx::Graphy::Fps::G_FpsMonitor* m_fpsMonitor;
+  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor))::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
 
   /// @brief Field m_ramMonitor, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ramMonitor, put = __set_m_ramMonitor))::Tayx::Graphy::Ram::G_RamMonitor* m_ramMonitor;
+  __declspec(property(get = __cordl_internal_get_m_ramMonitor, put = __cordl_internal_set_m_ramMonitor))::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> m_ramMonitor;
 
   /// @brief Field m_audioMonitor, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_audioMonitor, put = __set_m_audioMonitor))::Tayx::Graphy::Audio::G_AudioMonitor* m_audioMonitor;
+  __declspec(property(get = __cordl_internal_get_m_audioMonitor, put = __cordl_internal_set_m_audioMonitor))::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> m_audioMonitor;
 
-  constexpr ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>*& __get_m_debugPackets();
+  constexpr ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>*& __cordl_internal_get_m_debugPackets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>*> const& __get_m_debugPackets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>*> const& __cordl_internal_get_m_debugPackets() const;
 
-  constexpr void __set_m_debugPackets(::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* value);
+  constexpr void __cordl_internal_set_m_debugPackets(::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* value);
 
-  constexpr ::Tayx::Graphy::Fps::G_FpsMonitor*& __get_m_fpsMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>& __cordl_internal_get_m_fpsMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Fps::G_FpsMonitor*> const& __get_m_fpsMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
 
-  constexpr void __set_m_fpsMonitor(::Tayx::Graphy::Fps::G_FpsMonitor* value);
+  constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> value);
 
-  constexpr ::Tayx::Graphy::Ram::G_RamMonitor*& __get_m_ramMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor>& __cordl_internal_get_m_ramMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamMonitor*> const& __get_m_ramMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> const& __cordl_internal_get_m_ramMonitor() const;
 
-  constexpr void __set_m_ramMonitor(::Tayx::Graphy::Ram::G_RamMonitor* value);
+  constexpr void __cordl_internal_set_m_ramMonitor(::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> value);
 
-  constexpr ::Tayx::Graphy::Audio::G_AudioMonitor*& __get_m_audioMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor>& __cordl_internal_get_m_audioMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Audio::G_AudioMonitor*> const& __get_m_audioMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
 
-  constexpr void __set_m_audioMonitor(::Tayx::Graphy::Audio::G_AudioMonitor* value);
+  constexpr void __cordl_internal_set_m_audioMonitor(::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> value);
 
   static inline ::Tayx::Graphy::GraphyDebugger* New_ctor();
 
@@ -1026,13 +1028,13 @@ public:
   ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* ___m_debugPackets;
 
   /// @brief Field m_fpsMonitor, offset: 0x20, size: 0x8, def value: None
-  ::Tayx::Graphy::Fps::G_FpsMonitor* ___m_fpsMonitor;
+  ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> ___m_fpsMonitor;
 
   /// @brief Field m_ramMonitor, offset: 0x28, size: 0x8, def value: None
-  ::Tayx::Graphy::Ram::G_RamMonitor* ___m_ramMonitor;
+  ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> ___m_ramMonitor;
 
   /// @brief Field m_audioMonitor, offset: 0x30, size: 0x8, def value: None
-  ::Tayx::Graphy::Audio::G_AudioMonitor* ___m_audioMonitor;
+  ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> ___m_audioMonitor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

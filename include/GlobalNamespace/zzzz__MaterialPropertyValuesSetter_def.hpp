@@ -59,31 +59,31 @@ MARK_REF_PTR_T(::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValueP
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14572))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyValuePairBase*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyValuePairBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _propertyName, offset 0x10, size 0x8
-  __declspec(property(get = __get__propertyName, put = __set__propertyName))::StringW _propertyName;
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
   /// @brief Field <propertyId>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__propertyId_k__BackingField, put = __set__propertyId_k__BackingField)) int32_t _propertyId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__propertyId_k__BackingField, put = __cordl_internal_set__propertyId_k__BackingField)) int32_t _propertyId_k__BackingField;
 
   __declspec(property(get = get_propertyId, put = set_propertyId)) int32_t propertyId;
 
-  constexpr ::StringW& __get__propertyName();
+  constexpr ::StringW& __cordl_internal_get__propertyName();
 
-  constexpr ::StringW const& __get__propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
-  constexpr void __set__propertyName(::StringW value);
+  constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  constexpr int32_t& __get__propertyId_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__propertyId_k__BackingField();
 
-  constexpr int32_t const& __get__propertyId_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__propertyId_k__BackingField() const;
 
-  constexpr void __set__propertyId_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__propertyId_k__BackingField(int32_t value);
 
   /// @brief Method get_propertyId, addr 0x21158cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_propertyId();
@@ -133,20 +133,20 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14572))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14572))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14573))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameFloatValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
   // Declarations
   /// @brief Field value, offset 0x1c, size 0x4
-  __declspec(property(get = __get_value, put = __set_value)) float_t value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) float_t value;
 
-  constexpr float_t& __get_value();
+  constexpr float_t& __cordl_internal_get_value();
 
-  constexpr float_t const& __get_value() const;
+  constexpr float_t const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(float_t value);
+  constexpr void __cordl_internal_set_value(float_t value);
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair* New_ctor();
 
@@ -182,20 +182,20 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14572))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14572))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14574))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameIntValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameIntValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
   // Declarations
   /// @brief Field value, offset 0x1c, size 0x4
-  __declspec(property(get = __get_value, put = __set_value)) int32_t value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
-  constexpr int32_t& __get_value();
+  constexpr int32_t& __cordl_internal_get_value();
 
-  constexpr int32_t const& __get_value() const;
+  constexpr int32_t const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(int32_t value);
+  constexpr void __cordl_internal_set_value(int32_t value);
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair* New_ctor();
 
@@ -231,20 +231,20 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14572)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(14572))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14575))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameVectorValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
   // Declarations
   /// @brief Field vector, offset 0x1c, size 0x10
-  __declspec(property(get = __get_vector, put = __set_vector))::UnityEngine::Vector4 vector;
+  __declspec(property(get = __cordl_internal_get_vector, put = __cordl_internal_set_vector))::UnityEngine::Vector4 vector;
 
-  constexpr ::UnityEngine::Vector4& __get_vector();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_vector();
 
-  constexpr ::UnityEngine::Vector4 const& __get_vector() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_vector() const;
 
-  constexpr void __set_vector(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_vector(::UnityEngine::Vector4 value);
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair* New_ctor();
 
@@ -280,20 +280,20 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14572)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14572))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14576))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameColorValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameColorValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
   // Declarations
   /// @brief Field color, offset 0x1c, size 0x10
-  __declspec(property(get = __get_color, put = __set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
-  constexpr ::UnityEngine::Color& __get_color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
-  constexpr ::UnityEngine::Color const& __get_color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __set_color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair* New_ctor();
 
@@ -329,7 +329,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14577))
 // CS Name: ::MaterialPropertyValuesSetter*
 class CORDL_TYPE MaterialPropertyValuesSetter : public ::UnityEngine::MonoBehaviour {
@@ -346,65 +346,69 @@ public:
   using PropertyValuePairBase = ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase;
 
   /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _floats, offset 0x20, size 0x8
-  __declspec(property(get = __get__floats, put = __set__floats))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*,
-                                                                         ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*> _floats;
+  __declspec(property(get = __cordl_internal_get__floats,
+                      put = __cordl_internal_set__floats))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*,
+                                                                   ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*> _floats;
 
   /// @brief Field _vectors, offset 0x28, size 0x8
-  __declspec(property(get = __get__vectors, put = __set__vectors))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*,
-                                                                           ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> _vectors;
+  __declspec(property(get = __cordl_internal_get__vectors,
+                      put = __cordl_internal_set__vectors))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*,
+                                                                    ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> _vectors;
 
   /// @brief Field _colors, offset 0x30, size 0x8
-  __declspec(property(get = __get__colors, put = __set__colors))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*,
-                                                                         ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> _colors;
+  __declspec(property(get = __cordl_internal_get__colors,
+                      put = __cordl_internal_set__colors))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*,
+                                                                   ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> _colors;
 
   /// @brief Field _ints, offset 0x38, size 0x8
-  __declspec(property(get = __get__ints, put = __set__ints))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*,
-                                                                     ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> _ints;
+  __declspec(property(get = __cordl_internal_get__ints, put = __cordl_internal_set__ints))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*,
+                                                                                                   ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> _ints;
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*>&
-  __get__floats();
+  __cordl_internal_get__floats();
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*> const&
-  __get__floats() const;
+  __cordl_internal_get__floats() const;
 
-  constexpr void __set__floats(
+  constexpr void __cordl_internal_set__floats(
       ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*>&
-  __get__vectors();
+  __cordl_internal_get__vectors();
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> const&
-  __get__vectors() const;
+  __cordl_internal_get__vectors() const;
 
-  constexpr void __set__vectors(
+  constexpr void __cordl_internal_set__vectors(
       ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*>&
-  __get__colors();
+  __cordl_internal_get__colors();
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> const&
-  __get__colors() const;
+  __cordl_internal_get__colors() const;
 
-  constexpr void __set__colors(
+  constexpr void __cordl_internal_set__colors(
       ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*>&
-  __get__ints();
+  __cordl_internal_get__ints();
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> const&
-  __get__ints() const;
+  __cordl_internal_get__ints() const;
 
-  constexpr void
-  __set__ints(::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> value);
+  constexpr void __cordl_internal_set__ints(
+      ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> value);
 
   /// @brief Method Start, addr 0x21154f8, size 0x18, virtual false, abstract: false, final false
   inline void Start();
@@ -438,7 +442,7 @@ protected:
 
 public:
   /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief Field _floats, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*> ____floats;

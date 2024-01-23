@@ -147,33 +147,34 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15395))
 // CS Name: ::GameScenesManager::ScenesStackData*
 class CORDL_TYPE __GameScenesManager__ScenesStackData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <sceneNames>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__sceneNames_k__BackingField, put = __set__sceneNames_k__BackingField))::System::Collections::Generic::List_1<::StringW>* _sceneNames_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__sceneNames_k__BackingField,
+                      put = __cordl_internal_set__sceneNames_k__BackingField))::System::Collections::Generic::List_1<::StringW>* _sceneNames_k__BackingField;
 
   /// @brief Field <container>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__container_k__BackingField, put = __set__container_k__BackingField))::Zenject::DiContainer* _container_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__container_k__BackingField, put = __cordl_internal_set__container_k__BackingField))::Zenject::DiContainer* _container_k__BackingField;
 
   __declspec(property(get = get_sceneNames, put = set_sceneNames))::System::Collections::Generic::List_1<::StringW>* sceneNames;
 
   __declspec(property(get = get_container, put = set_container))::Zenject::DiContainer* container;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__sceneNames_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__sceneNames_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__sceneNames_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__sceneNames_k__BackingField() const;
 
-  constexpr void __set__sceneNames_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__sceneNames_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container_k__BackingField();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container_k__BackingField() const;
 
-  constexpr void __set__container_k__BackingField(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container_k__BackingField(::Zenject::DiContainer* value);
 
   /// @brief Method get_sceneNames, addr 0xe21a04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_sceneNames();
@@ -229,7 +230,7 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager__ScenesStackData, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15396))
 // CS Name: ::GameScenesManager::ScenePresentType
 struct CORDL_TYPE __GameScenesManager__ScenePresentType {
@@ -283,7 +284,7 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager__ScenePresentType,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15397))
 // CS Name: ::GameScenesManager::SceneDismissType
 struct CORDL_TYPE __GameScenesManager__SceneDismissType {
@@ -337,47 +338,48 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager__SceneDismissType,
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15398))
 // CS Name: ::GameScenesManager::<>c__DisplayClass30_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass30_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scenesStackData, offset 0x10, size 0x8
-  __declspec(property(get = __get_scenesStackData, put = __set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
+  __declspec(property(get = __cordl_internal_get_scenesStackData, put = __cordl_internal_set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
 
   /// @brief Field scenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_scenesTransitionSetupData, put = __set_scenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_scenesTransitionSetupData,
+                      put = __cordl_internal_set_scenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> scenesTransitionSetupData;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GameScenesManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GameScenesManager> __4__this;
 
   /// @brief Field finishCallback, offset 0x28, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
 
-  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __get_scenesStackData();
+  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __cordl_internal_get_scenesStackData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __get_scenesStackData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __cordl_internal_get_scenesStackData() const;
 
-  constexpr void __set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
+  constexpr void __cordl_internal_set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_scenesTransitionSetupData() const;
 
-  constexpr void __set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_finishCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass30_0* New_ctor();
 
@@ -408,10 +410,10 @@ public:
   ::GlobalNamespace::__GameScenesManager__ScenesStackData* ___scenesStackData;
 
   /// @brief Field scenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___scenesTransitionSetupData;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* _____4__this;
+  ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
 
   /// @brief Field finishCallback, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ___finishCallback;
@@ -434,29 +436,29 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15399))
 // CS Name: ::GameScenesManager::<>c__DisplayClass31_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass31_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GameScenesManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GameScenesManager> __4__this;
 
   /// @brief Field finishCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_finishCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass31_0* New_ctor();
 
@@ -481,7 +483,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* _____4__this;
+  ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
 
   /// @brief Field finishCallback, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ___finishCallback;
@@ -500,83 +502,85 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15400))
 // CS Name: ::GameScenesManager::<>c__DisplayClass32_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass32_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GameScenesManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GameScenesManager> __4__this;
 
   /// @brief Field scenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_scenesTransitionSetupData, put = __set_scenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_scenesTransitionSetupData,
+                      put = __cordl_internal_set_scenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> scenesTransitionSetupData;
 
   /// @brief Field newSceneNames, offset 0x20, size 0x8
-  __declspec(property(get = __get_newSceneNames, put = __set_newSceneNames))::System::Collections::Generic::List_1<::StringW>* newSceneNames;
+  __declspec(property(get = __cordl_internal_get_newSceneNames, put = __cordl_internal_set_newSceneNames))::System::Collections::Generic::List_1<::StringW>* newSceneNames;
 
   /// @brief Field emptyTransitionSceneNameList, offset 0x28, size 0x8
-  __declspec(property(get = __get_emptyTransitionSceneNameList, put = __set_emptyTransitionSceneNameList))::System::Collections::Generic::List_1<::StringW>* emptyTransitionSceneNameList;
+  __declspec(property(get = __cordl_internal_get_emptyTransitionSceneNameList,
+                      put = __cordl_internal_set_emptyTransitionSceneNameList))::System::Collections::Generic::List_1<::StringW>* emptyTransitionSceneNameList;
 
   /// @brief Field scenesStackData, offset 0x30, size 0x8
-  __declspec(property(get = __get_scenesStackData, put = __set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
+  __declspec(property(get = __cordl_internal_get_scenesStackData, put = __cordl_internal_set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
 
   /// @brief Field finishCallback, offset 0x38, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
 
   /// @brief Field <>9__1, offset 0x40, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::System::Action_1<::Zenject::DiContainer*>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Action_1<::Zenject::DiContainer*>* __9__1;
 
   /// @brief Field <>9__2, offset 0x48, size 0x8
-  __declspec(property(get = __get___9__2, put = __set___9__2))::System::Action_1<::Zenject::DiContainer*>* __9__2;
+  __declspec(property(get = __cordl_internal_get___9__2, put = __cordl_internal_set___9__2))::System::Action_1<::Zenject::DiContainer*>* __9__2;
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_scenesTransitionSetupData() const;
 
-  constexpr void __set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_newSceneNames();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_newSceneNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_newSceneNames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_newSceneNames() const;
 
-  constexpr void __set_newSceneNames(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_newSceneNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_emptyTransitionSceneNameList();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_emptyTransitionSceneNameList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_emptyTransitionSceneNameList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_emptyTransitionSceneNameList() const;
 
-  constexpr void __set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __get_scenesStackData();
+  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __cordl_internal_get_scenesStackData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __get_scenesStackData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __cordl_internal_get_scenesStackData() const;
 
-  constexpr void __set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
+  constexpr void __cordl_internal_set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_finishCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get___9__1();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set___9__1(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get___9__2();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get___9__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get___9__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get___9__2() const;
 
-  constexpr void __set___9__2(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set___9__2(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0* New_ctor();
 
@@ -607,10 +611,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* _____4__this;
+  ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
 
   /// @brief Field scenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___scenesTransitionSetupData;
 
   /// @brief Field newSceneNames, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___newSceneNames;
@@ -656,83 +660,85 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15401))
 // CS Name: ::GameScenesManager::<>c__DisplayClass33_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass33_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GameScenesManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GameScenesManager> __4__this;
 
   /// @brief Field scenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_scenesTransitionSetupData, put = __set_scenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_scenesTransitionSetupData,
+                      put = __cordl_internal_set_scenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> scenesTransitionSetupData;
 
   /// @brief Field newSceneNames, offset 0x20, size 0x8
-  __declspec(property(get = __get_newSceneNames, put = __set_newSceneNames))::System::Collections::Generic::List_1<::StringW>* newSceneNames;
+  __declspec(property(get = __cordl_internal_get_newSceneNames, put = __cordl_internal_set_newSceneNames))::System::Collections::Generic::List_1<::StringW>* newSceneNames;
 
   /// @brief Field emptyTransitionSceneNameList, offset 0x28, size 0x8
-  __declspec(property(get = __get_emptyTransitionSceneNameList, put = __set_emptyTransitionSceneNameList))::System::Collections::Generic::List_1<::StringW>* emptyTransitionSceneNameList;
+  __declspec(property(get = __cordl_internal_get_emptyTransitionSceneNameList,
+                      put = __cordl_internal_set_emptyTransitionSceneNameList))::System::Collections::Generic::List_1<::StringW>* emptyTransitionSceneNameList;
 
   /// @brief Field scenesStackData, offset 0x30, size 0x8
-  __declspec(property(get = __get_scenesStackData, put = __set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
+  __declspec(property(get = __cordl_internal_get_scenesStackData, put = __cordl_internal_set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
 
   /// @brief Field finishCallback, offset 0x38, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
 
   /// @brief Field <>9__1, offset 0x40, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::System::Action_1<::Zenject::DiContainer*>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Action_1<::Zenject::DiContainer*>* __9__1;
 
   /// @brief Field <>9__2, offset 0x48, size 0x8
-  __declspec(property(get = __get___9__2, put = __set___9__2))::System::Action_1<::Zenject::DiContainer*>* __9__2;
+  __declspec(property(get = __cordl_internal_get___9__2, put = __cordl_internal_set___9__2))::System::Action_1<::Zenject::DiContainer*>* __9__2;
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_scenesTransitionSetupData() const;
 
-  constexpr void __set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_newSceneNames();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_newSceneNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_newSceneNames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_newSceneNames() const;
 
-  constexpr void __set_newSceneNames(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_newSceneNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_emptyTransitionSceneNameList();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_emptyTransitionSceneNameList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_emptyTransitionSceneNameList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_emptyTransitionSceneNameList() const;
 
-  constexpr void __set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __get_scenesStackData();
+  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __cordl_internal_get_scenesStackData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __get_scenesStackData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __cordl_internal_get_scenesStackData() const;
 
-  constexpr void __set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
+  constexpr void __cordl_internal_set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_finishCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get___9__1();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set___9__1(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get___9__2();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get___9__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get___9__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get___9__2() const;
 
-  constexpr void __set___9__2(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set___9__2(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0* New_ctor();
 
@@ -763,10 +769,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* _____4__this;
+  ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
 
   /// @brief Field scenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___scenesTransitionSetupData;
 
   /// @brief Field newSceneNames, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___newSceneNames;
@@ -812,47 +818,48 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15402))
 // CS Name: ::GameScenesManager::<>c__DisplayClass34_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass34_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scenesStackData, offset 0x10, size 0x8
-  __declspec(property(get = __get_scenesStackData, put = __set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
+  __declspec(property(get = __cordl_internal_get_scenesStackData, put = __cordl_internal_set_scenesStackData))::GlobalNamespace::__GameScenesManager__ScenesStackData* scenesStackData;
 
   /// @brief Field scenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_scenesTransitionSetupData, put = __set_scenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_scenesTransitionSetupData,
+                      put = __cordl_internal_set_scenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> scenesTransitionSetupData;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GameScenesManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GameScenesManager> __4__this;
 
   /// @brief Field finishCallback, offset 0x28, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
 
-  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __get_scenesStackData();
+  constexpr ::GlobalNamespace::__GameScenesManager__ScenesStackData*& __cordl_internal_get_scenesStackData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __get_scenesStackData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager__ScenesStackData*> const& __cordl_internal_get_scenesStackData() const;
 
-  constexpr void __set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
+  constexpr void __cordl_internal_set_scenesStackData(::GlobalNamespace::__GameScenesManager__ScenesStackData* value);
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_scenesTransitionSetupData() const;
 
-  constexpr void __set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_finishCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0* New_ctor();
 
@@ -883,10 +890,10 @@ public:
   ::GlobalNamespace::__GameScenesManager__ScenesStackData* ___scenesStackData;
 
   /// @brief Field scenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___scenesTransitionSetupData;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* _____4__this;
+  ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
 
   /// @brief Field finishCallback, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ___finishCallback;
@@ -909,38 +916,38 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15403))
 // CS Name: ::GameScenesManager::<>c__DisplayClass35_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass35_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GameScenesManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GameScenesManager> __4__this;
 
   /// @brief Field finishCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
 
   /// @brief Field sceneNamesToRemove, offset 0x20, size 0x8
-  __declspec(property(get = __get_sceneNamesToRemove, put = __set_sceneNamesToRemove))::System::Collections::Generic::List_1<::StringW>* sceneNamesToRemove;
+  __declspec(property(get = __cordl_internal_get_sceneNamesToRemove, put = __cordl_internal_set_sceneNamesToRemove))::System::Collections::Generic::List_1<::StringW>* sceneNamesToRemove;
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_finishCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_sceneNamesToRemove();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_sceneNamesToRemove();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_sceneNamesToRemove() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_sceneNamesToRemove() const;
 
-  constexpr void __set_sceneNamesToRemove(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_sceneNamesToRemove(::System::Collections::Generic::List_1<::StringW>* value);
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass35_0* New_ctor();
 
@@ -968,7 +975,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* _____4__this;
+  ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
 
   /// @brief Field finishCallback, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ___finishCallback;
@@ -992,20 +999,21 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15404))
 // CS Name: ::GameScenesManager::<>c__DisplayClass38_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass38_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field newScenesTransitionSetupData, offset 0x10, size 0x8
-  __declspec(property(get = __get_newScenesTransitionSetupData, put = __set_newScenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* newScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_newScenesTransitionSetupData,
+                      put = __cordl_internal_set_newScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> newScenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_newScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_newScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_newScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_newScenesTransitionSetupData() const;
 
-  constexpr void __set_newScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_newScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0* New_ctor();
 
@@ -1033,7 +1041,7 @@ protected:
 
 public:
   /// @brief Field newScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___newScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___newScenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1047,65 +1055,66 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15397)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15405)) CS Name: ::GameScenesManager::<ScenesTransitionCoroutine>d__38*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(15396)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15405)) CS
+// Name: ::GameScenesManager::<ScenesTransitionCoroutine>d__38*
 class CORDL_TYPE __GameScenesManager___ScenesTransitionCoroutine_d__38 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field newScenesTransitionSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get_newScenesTransitionSetupData, put = __set_newScenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* newScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_newScenesTransitionSetupData,
+                      put = __cordl_internal_set_newScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> newScenesTransitionSetupData;
 
   /// @brief Field scenesToDismiss, offset 0x28, size 0x8
-  __declspec(property(get = __get_scenesToDismiss, put = __set_scenesToDismiss))::System::Collections::Generic::List_1<::StringW>* scenesToDismiss;
+  __declspec(property(get = __cordl_internal_get_scenesToDismiss, put = __cordl_internal_set_scenesToDismiss))::System::Collections::Generic::List_1<::StringW>* scenesToDismiss;
 
   /// @brief Field <>4__this, offset 0x30, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GameScenesManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GameScenesManager> __4__this;
 
   /// @brief Field scenesToPresent, offset 0x38, size 0x8
-  __declspec(property(get = __get_scenesToPresent, put = __set_scenesToPresent))::System::Collections::Generic::List_1<::StringW>* scenesToPresent;
+  __declspec(property(get = __cordl_internal_get_scenesToPresent, put = __cordl_internal_set_scenesToPresent))::System::Collections::Generic::List_1<::StringW>* scenesToPresent;
 
   /// @brief Field minDuration, offset 0x40, size 0x4
-  __declspec(property(get = __get_minDuration, put = __set_minDuration)) float_t minDuration;
+  __declspec(property(get = __cordl_internal_get_minDuration, put = __cordl_internal_set_minDuration)) float_t minDuration;
 
   /// @brief Field presentType, offset 0x44, size 0x4
-  __declspec(property(get = __get_presentType, put = __set_presentType))::GlobalNamespace::__GameScenesManager__ScenePresentType presentType;
+  __declspec(property(get = __cordl_internal_get_presentType, put = __cordl_internal_set_presentType))::GlobalNamespace::__GameScenesManager__ScenePresentType presentType;
 
   /// @brief Field afterMinDurationCallback, offset 0x48, size 0x8
-  __declspec(property(get = __get_afterMinDurationCallback, put = __set_afterMinDurationCallback))::System::Action* afterMinDurationCallback;
+  __declspec(property(get = __cordl_internal_get_afterMinDurationCallback, put = __cordl_internal_set_afterMinDurationCallback))::System::Action* afterMinDurationCallback;
 
   /// @brief Field <>8__1, offset 0x50, size 0x8
-  __declspec(property(get = __get___8__1, put = __set___8__1))::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0* __8__1;
 
   /// @brief Field extraBindingsCallback, offset 0x58, size 0x8
-  __declspec(property(get = __get_extraBindingsCallback, put = __set_extraBindingsCallback))::System::Action_1<::Zenject::DiContainer*>* extraBindingsCallback;
+  __declspec(property(get = __cordl_internal_get_extraBindingsCallback, put = __cordl_internal_set_extraBindingsCallback))::System::Action_1<::Zenject::DiContainer*>* extraBindingsCallback;
 
   /// @brief Field dismissType, offset 0x60, size 0x4
-  __declspec(property(get = __get_dismissType, put = __set_dismissType))::GlobalNamespace::__GameScenesManager__SceneDismissType dismissType;
+  __declspec(property(get = __cordl_internal_get_dismissType, put = __cordl_internal_set_dismissType))::GlobalNamespace::__GameScenesManager__SceneDismissType dismissType;
 
   /// @brief Field finishCallback, offset 0x68, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action_1<::Zenject::DiContainer*>* finishCallback;
 
   /// @brief Field <eventSystem>5__2, offset 0x70, size 0x8
-  __declspec(property(get = __get__eventSystem_5__2, put = __set__eventSystem_5__2))::UnityEngine::EventSystems::EventSystem* _eventSystem_5__2;
+  __declspec(property(get = __cordl_internal_get__eventSystem_5__2, put = __cordl_internal_set__eventSystem_5__2))::UnityW<::UnityEngine::EventSystems::EventSystem> _eventSystem_5__2;
 
   /// @brief Field <sceneName>5__3, offset 0x78, size 0x8
-  __declspec(property(get = __get__sceneName_5__3, put = __set__sceneName_5__3))::StringW _sceneName_5__3;
+  __declspec(property(get = __cordl_internal_get__sceneName_5__3, put = __cordl_internal_set__sceneName_5__3))::StringW _sceneName_5__3;
 
   /// @brief Field <loadSceneOperation>5__4, offset 0x80, size 0x8
-  __declspec(property(get = __get__loadSceneOperation_5__4, put = __set__loadSceneOperation_5__4))::UnityEngine::AsyncOperation* _loadSceneOperation_5__4;
+  __declspec(property(get = __cordl_internal_get__loadSceneOperation_5__4, put = __cordl_internal_set__loadSceneOperation_5__4))::UnityEngine::AsyncOperation* _loadSceneOperation_5__4;
 
   /// @brief Field <sceneNum>5__5, offset 0x88, size 0x4
-  __declspec(property(get = __get__sceneNum_5__5, put = __set__sceneNum_5__5)) int32_t _sceneNum_5__5;
+  __declspec(property(get = __cordl_internal_get__sceneNum_5__5, put = __cordl_internal_set__sceneNum_5__5)) int32_t _sceneNum_5__5;
 
   /// @brief Field <>7__wrap5, offset 0x90, size 0x18
-  __declspec(property(get = __get___7__wrap5, put = __set___7__wrap5))::System::Collections::Generic::__List_1__Enumerator<::StringW> __7__wrap5;
+  __declspec(property(get = __cordl_internal_get___7__wrap5, put = __cordl_internal_set___7__wrap5))::System::Collections::Generic::__List_1__Enumerator<::StringW> __7__wrap5;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -1129,113 +1138,113 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_newScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_newScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_newScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_newScenesTransitionSetupData() const;
 
-  constexpr void __set_newScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_newScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_scenesToDismiss();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_scenesToDismiss();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_scenesToDismiss() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_scenesToDismiss() const;
 
-  constexpr void __set_scenesToDismiss(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_scenesToDismiss(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_scenesToPresent();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_scenesToPresent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_scenesToPresent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_scenesToPresent() const;
 
-  constexpr void __set_scenesToPresent(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_scenesToPresent(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr float_t& __get_minDuration();
+  constexpr float_t& __cordl_internal_get_minDuration();
 
-  constexpr float_t const& __get_minDuration() const;
+  constexpr float_t const& __cordl_internal_get_minDuration() const;
 
-  constexpr void __set_minDuration(float_t value);
+  constexpr void __cordl_internal_set_minDuration(float_t value);
 
-  constexpr ::GlobalNamespace::__GameScenesManager__ScenePresentType& __get_presentType();
+  constexpr ::GlobalNamespace::__GameScenesManager__ScenePresentType& __cordl_internal_get_presentType();
 
-  constexpr ::GlobalNamespace::__GameScenesManager__ScenePresentType const& __get_presentType() const;
+  constexpr ::GlobalNamespace::__GameScenesManager__ScenePresentType const& __cordl_internal_get_presentType() const;
 
-  constexpr void __set_presentType(::GlobalNamespace::__GameScenesManager__ScenePresentType value);
+  constexpr void __cordl_internal_set_presentType(::GlobalNamespace::__GameScenesManager__ScenePresentType value);
 
-  constexpr ::System::Action*& __get_afterMinDurationCallback();
+  constexpr ::System::Action*& __cordl_internal_get_afterMinDurationCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_afterMinDurationCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_afterMinDurationCallback() const;
 
-  constexpr void __set_afterMinDurationCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_afterMinDurationCallback(::System::Action* value);
 
-  constexpr ::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0*& __get___8__1();
+  constexpr ::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0*& __cordl_internal_get___8__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0*> const& __get___8__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0*> const& __cordl_internal_get___8__1() const;
 
-  constexpr void __set___8__1(::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0* value);
+  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0* value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_extraBindingsCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_extraBindingsCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_extraBindingsCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_extraBindingsCallback() const;
 
-  constexpr void __set_extraBindingsCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_extraBindingsCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  constexpr ::GlobalNamespace::__GameScenesManager__SceneDismissType& __get_dismissType();
+  constexpr ::GlobalNamespace::__GameScenesManager__SceneDismissType& __cordl_internal_get_dismissType();
 
-  constexpr ::GlobalNamespace::__GameScenesManager__SceneDismissType const& __get_dismissType() const;
+  constexpr ::GlobalNamespace::__GameScenesManager__SceneDismissType const& __cordl_internal_get_dismissType() const;
 
-  constexpr void __set_dismissType(::GlobalNamespace::__GameScenesManager__SceneDismissType value);
+  constexpr void __cordl_internal_set_dismissType(::GlobalNamespace::__GameScenesManager__SceneDismissType value);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get_finishCallback();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  constexpr ::UnityEngine::EventSystems::EventSystem*& __get__eventSystem_5__2();
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get__eventSystem_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::EventSystem*> const& __get__eventSystem_5__2() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get__eventSystem_5__2() const;
 
-  constexpr void __set__eventSystem_5__2(::UnityEngine::EventSystems::EventSystem* value);
+  constexpr void __cordl_internal_set__eventSystem_5__2(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
-  constexpr ::StringW& __get__sceneName_5__3();
+  constexpr ::StringW& __cordl_internal_get__sceneName_5__3();
 
-  constexpr ::StringW const& __get__sceneName_5__3() const;
+  constexpr ::StringW const& __cordl_internal_get__sceneName_5__3() const;
 
-  constexpr void __set__sceneName_5__3(::StringW value);
+  constexpr void __cordl_internal_set__sceneName_5__3(::StringW value);
 
-  constexpr ::UnityEngine::AsyncOperation*& __get__loadSceneOperation_5__4();
+  constexpr ::UnityEngine::AsyncOperation*& __cordl_internal_get__loadSceneOperation_5__4();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __get__loadSceneOperation_5__4() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __cordl_internal_get__loadSceneOperation_5__4() const;
 
-  constexpr void __set__loadSceneOperation_5__4(::UnityEngine::AsyncOperation* value);
+  constexpr void __cordl_internal_set__loadSceneOperation_5__4(::UnityEngine::AsyncOperation* value);
 
-  constexpr int32_t& __get__sceneNum_5__5();
+  constexpr int32_t& __cordl_internal_get__sceneNum_5__5();
 
-  constexpr int32_t const& __get__sceneNum_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__sceneNum_5__5() const;
 
-  constexpr void __set__sceneNum_5__5(int32_t value);
+  constexpr void __cordl_internal_set__sceneNum_5__5(int32_t value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW>& __get___7__wrap5();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW>& __cordl_internal_get___7__wrap5();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW> const& __get___7__wrap5() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW> const& __cordl_internal_get___7__wrap5() const;
 
-  constexpr void __set___7__wrap5(::System::Collections::Generic::__List_1__Enumerator<::StringW> value);
+  constexpr void __cordl_internal_set___7__wrap5(::System::Collections::Generic::__List_1__Enumerator<::StringW> value);
 
   static inline ::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38* New_ctor(int32_t __1__state);
 
@@ -1284,13 +1293,13 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field newScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___newScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___newScenesTransitionSetupData;
 
   /// @brief Field scenesToDismiss, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___scenesToDismiss;
 
   /// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* _____4__this;
+  ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
 
   /// @brief Field scenesToPresent, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___scenesToPresent;
@@ -1317,7 +1326,7 @@ public:
   ::System::Action_1<::Zenject::DiContainer*>* ___finishCallback;
 
   /// @brief Field <eventSystem>5__2, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::EventSystem* ____eventSystem_5__2;
+  ::UnityW<::UnityEngine::EventSystems::EventSystem> ____eventSystem_5__2;
 
   /// @brief Field <sceneName>5__3, offset: 0x78, size: 0x8, def value: None
   ::StringW ____sceneName_5__3;
@@ -1377,7 +1386,7 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransition
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15406))
 // CS Name: ::GameScenesManager*
 class CORDL_TYPE GameScenesManager : public ::UnityEngine::MonoBehaviour {
@@ -1406,33 +1415,36 @@ public:
   using ScenesStackData = ::GlobalNamespace::__GameScenesManager__ScenesStackData;
 
   /// @brief Field _emptyTransitionSceneInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__emptyTransitionSceneInfo, put = __set__emptyTransitionSceneInfo))::GlobalNamespace::SceneInfo* _emptyTransitionSceneInfo;
+  __declspec(property(get = __cordl_internal_get__emptyTransitionSceneInfo, put = __cordl_internal_set__emptyTransitionSceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _emptyTransitionSceneInfo;
 
   /// @brief Field _zenjectSceneLoader, offset 0x20, size 0x8
-  __declspec(property(get = __get__zenjectSceneLoader, put = __set__zenjectSceneLoader))::Zenject::ZenjectSceneLoader* _zenjectSceneLoader;
+  __declspec(property(get = __cordl_internal_get__zenjectSceneLoader, put = __cordl_internal_set__zenjectSceneLoader))::Zenject::ZenjectSceneLoader* _zenjectSceneLoader;
 
   /// @brief Field transitionDidStartEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_transitionDidStartEvent, put = __set_transitionDidStartEvent))::System::Action_1<float_t>* transitionDidStartEvent;
+  __declspec(property(get = __cordl_internal_get_transitionDidStartEvent, put = __cordl_internal_set_transitionDidStartEvent))::System::Action_1<float_t>* transitionDidStartEvent;
 
   /// @brief Field beforeDismissingScenesEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_beforeDismissingScenesEvent, put = __set_beforeDismissingScenesEvent))::System::Action* beforeDismissingScenesEvent;
+  __declspec(property(get = __cordl_internal_get_beforeDismissingScenesEvent, put = __cordl_internal_set_beforeDismissingScenesEvent))::System::Action* beforeDismissingScenesEvent;
 
   /// @brief Field transitionDidFinishEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_transitionDidFinishEvent,
-                      put = __set_transitionDidFinishEvent))::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* transitionDidFinishEvent;
+  __declspec(
+      property(get = __cordl_internal_get_transitionDidFinishEvent,
+               put = __cordl_internal_set_transitionDidFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* transitionDidFinishEvent;
 
   /// @brief Field installEarlyBindingsEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_installEarlyBindingsEvent,
-                      put = __set_installEarlyBindingsEvent))::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* installEarlyBindingsEvent;
+  __declspec(
+      property(get = __cordl_internal_get_installEarlyBindingsEvent,
+               put = __cordl_internal_set_installEarlyBindingsEvent))::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* installEarlyBindingsEvent;
 
   /// @brief Field _inTransition, offset 0x48, size 0x1
-  __declspec(property(get = __get__inTransition, put = __set__inTransition)) bool _inTransition;
+  __declspec(property(get = __cordl_internal_get__inTransition, put = __cordl_internal_set__inTransition)) bool _inTransition;
 
   /// @brief Field _scenesStack, offset 0x50, size 0x8
-  __declspec(property(get = __get__scenesStack, put = __set__scenesStack))::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>* _scenesStack;
+  __declspec(property(get = __cordl_internal_get__scenesStack,
+                      put = __cordl_internal_set__scenesStack))::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>* _scenesStack;
 
   /// @brief Field _neverUnloadScenes, offset 0x58, size 0x8
-  __declspec(property(get = __get__neverUnloadScenes, put = __set__neverUnloadScenes))::System::Collections::Generic::HashSet_1<::StringW>* _neverUnloadScenes;
+  __declspec(property(get = __cordl_internal_get__neverUnloadScenes, put = __cordl_internal_set__neverUnloadScenes))::System::Collections::Generic::HashSet_1<::StringW>* _neverUnloadScenes;
 
   __declspec(property(get = get_currentScenesContainer))::Zenject::DiContainer* currentScenesContainer;
 
@@ -1440,59 +1452,61 @@ public:
 
   __declspec(property(get = get_waitUntilSceneTransitionFinish))::UnityEngine::WaitUntil* waitUntilSceneTransitionFinish;
 
-  constexpr ::GlobalNamespace::SceneInfo*& __get__emptyTransitionSceneInfo();
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__emptyTransitionSceneInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneInfo*> const& __get__emptyTransitionSceneInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__emptyTransitionSceneInfo() const;
 
-  constexpr void __set__emptyTransitionSceneInfo(::GlobalNamespace::SceneInfo* value);
+  constexpr void __cordl_internal_set__emptyTransitionSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  constexpr ::Zenject::ZenjectSceneLoader*& __get__zenjectSceneLoader();
+  constexpr ::Zenject::ZenjectSceneLoader*& __cordl_internal_get__zenjectSceneLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenjectSceneLoader*> const& __get__zenjectSceneLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenjectSceneLoader*> const& __cordl_internal_get__zenjectSceneLoader() const;
 
-  constexpr void __set__zenjectSceneLoader(::Zenject::ZenjectSceneLoader* value);
+  constexpr void __cordl_internal_set__zenjectSceneLoader(::Zenject::ZenjectSceneLoader* value);
 
-  constexpr ::System::Action_1<float_t>*& __get_transitionDidStartEvent();
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_transitionDidStartEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_transitionDidStartEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_transitionDidStartEvent() const;
 
-  constexpr void __set_transitionDidStartEvent(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set_transitionDidStartEvent(::System::Action_1<float_t>* value);
 
-  constexpr ::System::Action*& __get_beforeDismissingScenesEvent();
+  constexpr ::System::Action*& __cordl_internal_get_beforeDismissingScenesEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_beforeDismissingScenesEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_beforeDismissingScenesEvent() const;
 
-  constexpr void __set_beforeDismissingScenesEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_beforeDismissingScenesEvent(::System::Action* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>*& __get_transitionDidFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>*& __cordl_internal_get_transitionDidFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>*> const& __get_transitionDidFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>*> const&
+  __cordl_internal_get_transitionDidFinishEvent() const;
 
-  constexpr void __set_transitionDidFinishEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_transitionDidFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>*& __get_installEarlyBindingsEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>*& __cordl_internal_get_installEarlyBindingsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>*> const& __get_installEarlyBindingsEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>*> const&
+  __cordl_internal_get_installEarlyBindingsEvent() const;
 
-  constexpr void __set_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  constexpr bool& __get__inTransition();
+  constexpr bool& __cordl_internal_get__inTransition();
 
-  constexpr bool const& __get__inTransition() const;
+  constexpr bool const& __cordl_internal_get__inTransition() const;
 
-  constexpr void __set__inTransition(bool value);
+  constexpr void __cordl_internal_set__inTransition(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>*& __get__scenesStack();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>*& __cordl_internal_get__scenesStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>*> const& __get__scenesStack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>*> const& __cordl_internal_get__scenesStack() const;
 
-  constexpr void __set__scenesStack(::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>* value);
+  constexpr void __cordl_internal_set__scenesStack(::System::Collections::Generic::List_1<::GlobalNamespace::__GameScenesManager__ScenesStackData*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__neverUnloadScenes();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__neverUnloadScenes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__neverUnloadScenes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__neverUnloadScenes() const;
 
-  constexpr void __set__neverUnloadScenes(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__neverUnloadScenes(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
   /// @brief Method add_transitionDidStartEvent, addr 0xe1eac8, size 0xb0, virtual false, abstract: false, final false
   inline void add_transitionDidStartEvent(::System::Action_1<float_t>* value);
@@ -1507,16 +1521,16 @@ public:
   inline void remove_beforeDismissingScenesEvent(::System::Action* value);
 
   /// @brief Method add_transitionDidFinishEvent, addr 0xe1ec28, size 0xb0, virtual false, abstract: false, final false
-  inline void add_transitionDidFinishEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  inline void add_transitionDidFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method remove_transitionDidFinishEvent, addr 0xe1ecd8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_transitionDidFinishEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  inline void remove_transitionDidFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method add_installEarlyBindingsEvent, addr 0xe1ed88, size 0xb0, virtual false, abstract: false, final false
-  inline void add_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  inline void add_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method remove_installEarlyBindingsEvent, addr 0xe1ee38, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  inline void remove_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method get_currentScenesContainer, addr 0xe1eee8, size 0x58, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_currentScenesContainer();
@@ -1614,7 +1628,7 @@ protected:
 
 public:
   /// @brief Field _emptyTransitionSceneInfo, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::SceneInfo* ____emptyTransitionSceneInfo;
+  ::UnityW<::GlobalNamespace::SceneInfo> ____emptyTransitionSceneInfo;
 
   /// @brief Field _zenjectSceneLoader, offset: 0x20, size: 0x8, def value: None
   ::Zenject::ZenjectSceneLoader* ____zenjectSceneLoader;
@@ -1626,10 +1640,10 @@ public:
   ::System::Action* ___beforeDismissingScenesEvent;
 
   /// @brief Field transitionDidFinishEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* ___transitionDidFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* ___transitionDidFinishEvent;
 
   /// @brief Field installEarlyBindingsEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* ___installEarlyBindingsEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* ___installEarlyBindingsEvent;
 
   /// @brief Field _inTransition, offset: 0x48, size: 0x1, def value: None
   bool ____inTransition;

@@ -23,24 +23,24 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15344))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationPoint*
 class CORDL_TYPE TriangulationPoint : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Edges>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Edges_k__BackingField,
-                      put = __set__Edges_k__BackingField))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* _Edges_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Edges_k__BackingField,
+                      put = __cordl_internal_set__Edges_k__BackingField))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* _Edges_k__BackingField;
 
   /// @brief Field X, offset 0x18, size 0x8
-  __declspec(property(get = __get_X, put = __set_X)) double_t X;
+  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X)) double_t X;
 
   /// @brief Field Y, offset 0x20, size 0x8
-  __declspec(property(get = __get_Y, put = __set_Y)) double_t Y;
+  __declspec(property(get = __cordl_internal_get_Y, put = __cordl_internal_set_Y)) double_t Y;
 
   /// @brief Field Index, offset 0x28, size 0x4
-  __declspec(property(get = __get_Index, put = __set_Index)) int32_t Index;
+  __declspec(property(get = __cordl_internal_get_Index, put = __cordl_internal_set_Index)) int32_t Index;
 
   __declspec(property(get = get_Edges, put = set_Edges))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* Edges;
 
@@ -50,29 +50,30 @@ public:
 
   __declspec(property(get = get_HasEdges)) bool HasEdges;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& __get__Edges_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& __cordl_internal_get__Edges_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*> const& __get__Edges_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*> const&
+  __cordl_internal_get__Edges_k__BackingField() const;
 
-  constexpr void __set__Edges_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
+  constexpr void __cordl_internal_set__Edges_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
 
-  constexpr double_t& __get_X();
+  constexpr double_t& __cordl_internal_get_X();
 
-  constexpr double_t const& __get_X() const;
+  constexpr double_t const& __cordl_internal_get_X() const;
 
-  constexpr void __set_X(double_t value);
+  constexpr void __cordl_internal_set_X(double_t value);
 
-  constexpr double_t& __get_Y();
+  constexpr double_t& __cordl_internal_get_Y();
 
-  constexpr double_t const& __get_Y() const;
+  constexpr double_t const& __cordl_internal_get_Y() const;
 
-  constexpr void __set_Y(double_t value);
+  constexpr void __cordl_internal_set_Y(double_t value);
 
-  constexpr int32_t& __get_Index();
+  constexpr int32_t& __cordl_internal_get_Index();
 
-  constexpr int32_t const& __get_Index() const;
+  constexpr int32_t const& __cordl_internal_get_Index() const;
 
-  constexpr void __set_Index(int32_t value);
+  constexpr void __cordl_internal_set_Index(int32_t value);
 
   /// @brief Method get_Edges, addr 0x2b356d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();

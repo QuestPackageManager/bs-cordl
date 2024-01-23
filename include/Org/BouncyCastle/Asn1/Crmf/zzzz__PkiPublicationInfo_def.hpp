@@ -30,31 +30,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(116))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::PkiPublicationInfo*
 class CORDL_TYPE PkiPublicationInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field action, offset 0x10, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::Org::BouncyCastle::Asn1::DerInteger* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::Org::BouncyCastle::Asn1::DerInteger* action;
 
   /// @brief Field pubInfos, offset 0x18, size 0x8
-  __declspec(property(get = __get_pubInfos, put = __set_pubInfos))::Org::BouncyCastle::Asn1::Asn1Sequence* pubInfos;
+  __declspec(property(get = __cordl_internal_get_pubInfos, put = __cordl_internal_set_pubInfos))::Org::BouncyCastle::Asn1::Asn1Sequence* pubInfos;
 
   __declspec(property(get = get_Action))::Org::BouncyCastle::Asn1::DerInteger* Action;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_action();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_action(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_pubInfos();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_pubInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_pubInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_pubInfos() const;
 
-  constexpr void __set_pubInfos(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_pubInfos(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

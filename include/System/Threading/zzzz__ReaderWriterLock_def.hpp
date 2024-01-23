@@ -21,67 +21,67 @@ MARK_REF_PTR_T(::System::Threading::ReaderWriterLock);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3354))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2745))
 // CS Name: ::System.Threading::ReaderWriterLock*
 class CORDL_TYPE ReaderWriterLock : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
   /// @brief Field seq_num, offset 0x10, size 0x4
-  __declspec(property(get = __get_seq_num, put = __set_seq_num)) int32_t seq_num;
+  __declspec(property(get = __cordl_internal_get_seq_num, put = __cordl_internal_set_seq_num)) int32_t seq_num;
 
   /// @brief Field state, offset 0x14, size 0x4
-  __declspec(property(get = __get_state, put = __set_state)) int32_t state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) int32_t state;
 
   /// @brief Field readers, offset 0x18, size 0x4
-  __declspec(property(get = __get_readers, put = __set_readers)) int32_t readers;
+  __declspec(property(get = __cordl_internal_get_readers, put = __cordl_internal_set_readers)) int32_t readers;
 
   /// @brief Field writer_lock_owner, offset 0x1c, size 0x4
-  __declspec(property(get = __get_writer_lock_owner, put = __set_writer_lock_owner)) int32_t writer_lock_owner;
+  __declspec(property(get = __cordl_internal_get_writer_lock_owner, put = __cordl_internal_set_writer_lock_owner)) int32_t writer_lock_owner;
 
   /// @brief Field writer_queue, offset 0x20, size 0x8
-  __declspec(property(get = __get_writer_queue, put = __set_writer_queue))::System::Threading::LockQueue* writer_queue;
+  __declspec(property(get = __cordl_internal_get_writer_queue, put = __cordl_internal_set_writer_queue))::System::Threading::LockQueue* writer_queue;
 
   /// @brief Field reader_locks, offset 0x28, size 0x8
-  __declspec(property(get = __get_reader_locks, put = __set_reader_locks))::System::Collections::Hashtable* reader_locks;
+  __declspec(property(get = __cordl_internal_get_reader_locks, put = __cordl_internal_set_reader_locks))::System::Collections::Hashtable* reader_locks;
 
   __declspec(property(get = get_IsWriterLockHeld)) bool IsWriterLockHeld;
 
-  constexpr int32_t& __get_seq_num();
+  constexpr int32_t& __cordl_internal_get_seq_num();
 
-  constexpr int32_t const& __get_seq_num() const;
+  constexpr int32_t const& __cordl_internal_get_seq_num() const;
 
-  constexpr void __set_seq_num(int32_t value);
+  constexpr void __cordl_internal_set_seq_num(int32_t value);
 
-  constexpr int32_t& __get_state();
+  constexpr int32_t& __cordl_internal_get_state();
 
-  constexpr int32_t const& __get_state() const;
+  constexpr int32_t const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(int32_t value);
+  constexpr void __cordl_internal_set_state(int32_t value);
 
-  constexpr int32_t& __get_readers();
+  constexpr int32_t& __cordl_internal_get_readers();
 
-  constexpr int32_t const& __get_readers() const;
+  constexpr int32_t const& __cordl_internal_get_readers() const;
 
-  constexpr void __set_readers(int32_t value);
+  constexpr void __cordl_internal_set_readers(int32_t value);
 
-  constexpr int32_t& __get_writer_lock_owner();
+  constexpr int32_t& __cordl_internal_get_writer_lock_owner();
 
-  constexpr int32_t const& __get_writer_lock_owner() const;
+  constexpr int32_t const& __cordl_internal_get_writer_lock_owner() const;
 
-  constexpr void __set_writer_lock_owner(int32_t value);
+  constexpr void __cordl_internal_set_writer_lock_owner(int32_t value);
 
-  constexpr ::System::Threading::LockQueue*& __get_writer_queue();
+  constexpr ::System::Threading::LockQueue*& __cordl_internal_get_writer_queue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::LockQueue*> const& __get_writer_queue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::LockQueue*> const& __cordl_internal_get_writer_queue() const;
 
-  constexpr void __set_writer_queue(::System::Threading::LockQueue* value);
+  constexpr void __cordl_internal_set_writer_queue(::System::Threading::LockQueue* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_reader_locks();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_reader_locks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_reader_locks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_reader_locks() const;
 
-  constexpr void __set_reader_locks(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_reader_locks(::System::Collections::Hashtable* value);
 
   static inline ::System::Threading::ReaderWriterLock* New_ctor();
 

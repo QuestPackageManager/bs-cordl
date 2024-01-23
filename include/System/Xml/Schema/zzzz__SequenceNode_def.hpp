@@ -35,7 +35,7 @@ MARK_VAL_T(::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11603))
 // CS Name: ::SequenceNode::SequenceConstructPosContext
 struct CORDL_TYPE __SequenceNode__SequenceConstructPosContext {
@@ -92,7 +92,7 @@ static_assert(offsetof(::System::Xml::Schema::__SequenceNode__SequenceConstructP
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11602))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11602))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11604))
 // CS Name: ::System.Xml.Schema::SequenceNode*
 class CORDL_TYPE SequenceNode : public ::System::Xml::Schema::InteriorNode {

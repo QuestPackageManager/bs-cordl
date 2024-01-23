@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelCompletionResults);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12876))
 // CS Name: ::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState
 struct CORDL_TYPE __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState {
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelCompletionResults__M
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12877))
 // CS Name: ::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndReason
 struct CORDL_TYPE __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason {
@@ -177,7 +177,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelCompletionResults__M
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12877))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12877))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12878))
 // CS Name: ::MultiplayerLevelCompletionResults*
 class CORDL_TYPE MultiplayerLevelCompletionResults : public ::System::Object {
@@ -188,14 +188,15 @@ public:
   using MultiplayerPlayerLevelEndState = ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 
   /// @brief Field _playerLevelEndState, offset 0x10, size 0x4
-  __declspec(property(get = __get__playerLevelEndState, put = __set__playerLevelEndState))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState _playerLevelEndState;
+  __declspec(property(get = __cordl_internal_get__playerLevelEndState,
+                      put = __cordl_internal_set__playerLevelEndState))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState _playerLevelEndState;
 
   /// @brief Field _playerLevelEndReason, offset 0x14, size 0x4
-  __declspec(property(get = __get__playerLevelEndReason,
-                      put = __set__playerLevelEndReason))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason _playerLevelEndReason;
+  __declspec(property(get = __cordl_internal_get__playerLevelEndReason,
+                      put = __cordl_internal_set__playerLevelEndReason))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason _playerLevelEndReason;
 
   /// @brief Field _levelCompletionResults, offset 0x18, size 0x8
-  __declspec(property(get = __get__levelCompletionResults, put = __set__levelCompletionResults))::GlobalNamespace::LevelCompletionResults* _levelCompletionResults;
+  __declspec(property(get = __cordl_internal_get__levelCompletionResults, put = __cordl_internal_set__levelCompletionResults))::GlobalNamespace::LevelCompletionResults* _levelCompletionResults;
 
   __declspec(property(get = get_playerLevelEndState))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState;
 
@@ -220,23 +221,23 @@ public:
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState& __get__playerLevelEndState();
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState& __cordl_internal_get__playerLevelEndState();
 
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const& __get__playerLevelEndState() const;
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const& __cordl_internal_get__playerLevelEndState() const;
 
-  constexpr void __set__playerLevelEndState(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState value);
+  constexpr void __cordl_internal_set__playerLevelEndState(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState value);
 
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason& __get__playerLevelEndReason();
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason& __cordl_internal_get__playerLevelEndReason();
 
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const& __get__playerLevelEndReason() const;
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const& __cordl_internal_get__playerLevelEndReason() const;
 
-  constexpr void __set__playerLevelEndReason(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason value);
+  constexpr void __cordl_internal_set__playerLevelEndReason(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason value);
 
-  constexpr ::GlobalNamespace::LevelCompletionResults*& __get__levelCompletionResults();
+  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get__levelCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __get__levelCompletionResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get__levelCompletionResults() const;
 
-  constexpr void __set__levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
+  constexpr void __cordl_internal_set__levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
 
   /// @brief Method get_playerLevelEndState, addr 0xe49b00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState get_playerLevelEndState();

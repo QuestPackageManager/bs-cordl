@@ -35,29 +35,29 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::__SoapServices__TypeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3077))
 // CS Name: ::SoapServices::TypeInfo*
 class CORDL_TYPE __SoapServices__TypeInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Attributes, offset 0x10, size 0x8
-  __declspec(property(get = __get_Attributes, put = __set_Attributes))::System::Collections::Hashtable* Attributes;
+  __declspec(property(get = __cordl_internal_get_Attributes, put = __cordl_internal_set_Attributes))::System::Collections::Hashtable* Attributes;
 
   /// @brief Field Elements, offset 0x18, size 0x8
-  __declspec(property(get = __get_Elements, put = __set_Elements))::System::Collections::Hashtable* Elements;
+  __declspec(property(get = __cordl_internal_get_Elements, put = __cordl_internal_set_Elements))::System::Collections::Hashtable* Elements;
 
-  constexpr ::System::Collections::Hashtable*& __get_Attributes();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_Attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Attributes() const;
 
-  constexpr void __set_Attributes(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_Attributes(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_Elements();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Elements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_Elements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Elements() const;
 
-  constexpr void __set_Elements(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_Elements(::System::Collections::Hashtable* value);
 
   static inline ::System::Runtime::Remoting::__SoapServices__TypeInfo* New_ctor();
 
@@ -98,7 +98,7 @@ static_assert(offsetof(::System::Runtime::Remoting::__SoapServices__TypeInfo, __
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3078))
 // CS Name: ::System.Runtime.Remoting::SoapServices*
 class CORDL_TYPE SoapServices : public ::System::Object {

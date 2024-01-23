@@ -27,29 +27,29 @@ MARK_REF_PTR_T(::System::Threading::AbandonedMutexException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2656))
 // CS Name: ::System.Threading::AbandonedMutexException*
 class CORDL_TYPE AbandonedMutexException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field _mutexIndex, offset 0x8c, size 0x4
-  __declspec(property(get = __get__mutexIndex, put = __set__mutexIndex)) int32_t _mutexIndex;
+  __declspec(property(get = __cordl_internal_get__mutexIndex, put = __cordl_internal_set__mutexIndex)) int32_t _mutexIndex;
 
   /// @brief Field _mutex, offset 0x90, size 0x8
-  __declspec(property(get = __get__mutex, put = __set__mutex))::System::Threading::Mutex* _mutex;
+  __declspec(property(get = __cordl_internal_get__mutex, put = __cordl_internal_set__mutex))::System::Threading::Mutex* _mutex;
 
-  constexpr int32_t& __get__mutexIndex();
+  constexpr int32_t& __cordl_internal_get__mutexIndex();
 
-  constexpr int32_t const& __get__mutexIndex() const;
+  constexpr int32_t const& __cordl_internal_get__mutexIndex() const;
 
-  constexpr void __set__mutexIndex(int32_t value);
+  constexpr void __cordl_internal_set__mutexIndex(int32_t value);
 
-  constexpr ::System::Threading::Mutex*& __get__mutex();
+  constexpr ::System::Threading::Mutex*& __cordl_internal_get__mutex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Mutex*> const& __get__mutex() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Mutex*> const& __cordl_internal_get__mutex() const;
 
-  constexpr void __set__mutex(::System::Threading::Mutex* value);
+  constexpr void __cordl_internal_set__mutex(::System::Threading::Mutex* value);
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor();
 

@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TouchState);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6514))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TouchState
 #pragma pack(push, 0)
@@ -38,40 +38,40 @@ struct CORDL_TYPE TouchState {
 public:
   // Declarations
   /// @brief Field touchId, offset 0x0, size 0x4
-  __declspec(property(get = __get_touchId, put = __set_touchId)) int32_t touchId;
+  __declspec(property(get = __cordl_internal_get_touchId, put = __cordl_internal_set_touchId)) int32_t touchId;
 
   /// @brief Field position, offset 0x4, size 0x8
-  __declspec(property(get = __get_position, put = __set_position))::UnityEngine::Vector2 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector2 position;
 
   /// @brief Field delta, offset 0xc, size 0x8
-  __declspec(property(get = __get_delta, put = __set_delta))::UnityEngine::Vector2 delta;
+  __declspec(property(get = __cordl_internal_get_delta, put = __cordl_internal_set_delta))::UnityEngine::Vector2 delta;
 
   /// @brief Field pressure, offset 0x14, size 0x4
-  __declspec(property(get = __get_pressure, put = __set_pressure)) float_t pressure;
+  __declspec(property(get = __cordl_internal_get_pressure, put = __cordl_internal_set_pressure)) float_t pressure;
 
   /// @brief Field radius, offset 0x18, size 0x8
-  __declspec(property(get = __get_radius, put = __set_radius))::UnityEngine::Vector2 radius;
+  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius))::UnityEngine::Vector2 radius;
 
   /// @brief Field phaseId, offset 0x20, size 0x1
-  __declspec(property(get = __get_phaseId, put = __set_phaseId)) uint8_t phaseId;
+  __declspec(property(get = __cordl_internal_get_phaseId, put = __cordl_internal_set_phaseId)) uint8_t phaseId;
 
   /// @brief Field tapCount, offset 0x21, size 0x1
-  __declspec(property(get = __get_tapCount, put = __set_tapCount)) uint8_t tapCount;
+  __declspec(property(get = __cordl_internal_get_tapCount, put = __cordl_internal_set_tapCount)) uint8_t tapCount;
 
   /// @brief Field displayIndex, offset 0x22, size 0x1
-  __declspec(property(get = __get_displayIndex, put = __set_displayIndex)) uint8_t displayIndex;
+  __declspec(property(get = __cordl_internal_get_displayIndex, put = __cordl_internal_set_displayIndex)) uint8_t displayIndex;
 
   /// @brief Field flags, offset 0x23, size 0x1
-  __declspec(property(get = __get_flags, put = __set_flags)) uint8_t flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) uint8_t flags;
 
   /// @brief Field updateStepCount, offset 0x24, size 0x4
-  __declspec(property(get = __get_updateStepCount, put = __set_updateStepCount)) uint32_t updateStepCount;
+  __declspec(property(get = __cordl_internal_get_updateStepCount, put = __cordl_internal_set_updateStepCount)) uint32_t updateStepCount;
 
   /// @brief Field startTime, offset 0x28, size 0x8
-  __declspec(property(get = __get_startTime, put = __set_startTime)) double_t startTime;
+  __declspec(property(get = __cordl_internal_get_startTime, put = __cordl_internal_set_startTime)) double_t startTime;
 
   /// @brief Field startPosition, offset 0x30, size 0x8
-  __declspec(property(get = __get_startPosition, put = __set_startPosition))::UnityEngine::Vector2 startPosition;
+  __declspec(property(get = __cordl_internal_get_startPosition, put = __cordl_internal_set_startPosition))::UnityEngine::Vector2 startPosition;
 
   __declspec(property(get = get_phase, put = set_phase))::UnityEngine::InputSystem::TouchPhase phase;
 
@@ -101,77 +101,77 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  constexpr int32_t& __get_touchId();
+  constexpr int32_t& __cordl_internal_get_touchId();
 
-  constexpr int32_t const& __get_touchId() const;
+  constexpr int32_t const& __cordl_internal_get_touchId() const;
 
-  constexpr void __set_touchId(int32_t value);
+  constexpr void __cordl_internal_set_touchId(int32_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_position();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
 
-  constexpr ::UnityEngine::Vector2 const& __get_position() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_delta();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_delta();
 
-  constexpr ::UnityEngine::Vector2 const& __get_delta() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_delta() const;
 
-  constexpr void __set_delta(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_delta(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get_pressure();
+  constexpr float_t& __cordl_internal_get_pressure();
 
-  constexpr float_t const& __get_pressure() const;
+  constexpr float_t const& __cordl_internal_get_pressure() const;
 
-  constexpr void __set_pressure(float_t value);
+  constexpr void __cordl_internal_set_pressure(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_radius();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_radius();
 
-  constexpr ::UnityEngine::Vector2 const& __get_radius() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_radius() const;
 
-  constexpr void __set_radius(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_radius(::UnityEngine::Vector2 value);
 
-  constexpr uint8_t& __get_phaseId();
+  constexpr uint8_t& __cordl_internal_get_phaseId();
 
-  constexpr uint8_t const& __get_phaseId() const;
+  constexpr uint8_t const& __cordl_internal_get_phaseId() const;
 
-  constexpr void __set_phaseId(uint8_t value);
+  constexpr void __cordl_internal_set_phaseId(uint8_t value);
 
-  constexpr uint8_t& __get_tapCount();
+  constexpr uint8_t& __cordl_internal_get_tapCount();
 
-  constexpr uint8_t const& __get_tapCount() const;
+  constexpr uint8_t const& __cordl_internal_get_tapCount() const;
 
-  constexpr void __set_tapCount(uint8_t value);
+  constexpr void __cordl_internal_set_tapCount(uint8_t value);
 
-  constexpr uint8_t& __get_displayIndex();
+  constexpr uint8_t& __cordl_internal_get_displayIndex();
 
-  constexpr uint8_t const& __get_displayIndex() const;
+  constexpr uint8_t const& __cordl_internal_get_displayIndex() const;
 
-  constexpr void __set_displayIndex(uint8_t value);
+  constexpr void __cordl_internal_set_displayIndex(uint8_t value);
 
-  constexpr uint8_t& __get_flags();
+  constexpr uint8_t& __cordl_internal_get_flags();
 
-  constexpr uint8_t const& __get_flags() const;
+  constexpr uint8_t const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(uint8_t value);
+  constexpr void __cordl_internal_set_flags(uint8_t value);
 
-  constexpr uint32_t& __get_updateStepCount();
+  constexpr uint32_t& __cordl_internal_get_updateStepCount();
 
-  constexpr uint32_t const& __get_updateStepCount() const;
+  constexpr uint32_t const& __cordl_internal_get_updateStepCount() const;
 
-  constexpr void __set_updateStepCount(uint32_t value);
+  constexpr void __cordl_internal_set_updateStepCount(uint32_t value);
 
-  constexpr double_t& __get_startTime();
+  constexpr double_t& __cordl_internal_get_startTime();
 
-  constexpr double_t const& __get_startTime() const;
+  constexpr double_t const& __cordl_internal_get_startTime() const;
 
-  constexpr void __set_startTime(double_t value);
+  constexpr void __cordl_internal_set_startTime(double_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_startPosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_startPosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_startPosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_startPosition() const;
 
-  constexpr void __set_startPosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_startPosition(::UnityEngine::Vector2 value);
 
   /// @brief Method get_Format, addr 0x2ae8d5c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();

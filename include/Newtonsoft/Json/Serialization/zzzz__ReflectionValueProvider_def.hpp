@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ReflectionValueProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11963))
 // CS Name: ::Newtonsoft.Json.Serialization::ReflectionValueProvider*
 class CORDL_TYPE ReflectionValueProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _memberInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get__memberInfo, put = __set__memberInfo))::System::Reflection::MemberInfo* _memberInfo;
+  __declspec(property(get = __cordl_internal_get__memberInfo, put = __cordl_internal_set__memberInfo))::System::Reflection::MemberInfo* _memberInfo;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IValueProvider"
   constexpr operator ::Newtonsoft::Json::Serialization::IValueProvider*() noexcept;
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IValueProvider"
   constexpr ::Newtonsoft::Json::Serialization::IValueProvider* i___Newtonsoft__Json__Serialization__IValueProvider() noexcept;
 
-  constexpr ::System::Reflection::MemberInfo*& __get__memberInfo();
+  constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__memberInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __get__memberInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get__memberInfo() const;
 
-  constexpr void __set__memberInfo(::System::Reflection::MemberInfo* value);
+  constexpr void __cordl_internal_set__memberInfo(::System::Reflection::MemberInfo* value);
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo);
 

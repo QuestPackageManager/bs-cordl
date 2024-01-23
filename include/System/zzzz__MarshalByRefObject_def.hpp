@@ -26,22 +26,22 @@ MARK_REF_PTR_T(::System::MarshalByRefObject);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2605))
 // CS Name: ::System::MarshalByRefObject*
 class CORDL_TYPE MarshalByRefObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _identity, offset 0x10, size 0x8
-  __declspec(property(get = __get__identity, put = __set__identity))::System::Object* _identity;
+  __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity))::System::Object* _identity;
 
   __declspec(property(get = get_ObjectIdentity, put = set_ObjectIdentity))::System::Runtime::Remoting::ServerIdentity* ObjectIdentity;
 
-  constexpr ::System::Object*& __get__identity();
+  constexpr ::System::Object*& __cordl_internal_get__identity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__identity() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identity() const;
 
-  constexpr void __set__identity(::System::Object* value);
+  constexpr void __cordl_internal_set__identity(::System::Object* value);
 
   static inline ::System::MarshalByRefObject* New_ctor();
 

@@ -92,7 +92,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6907))
 // CS Name: ::IMGUIContainer::UxmlTraits*
 class CORDL_TYPE __IMGUIContainer__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__IMGUI
 // SizeInfo { instance_size: 120, native_size: 124, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6908))
 // CS Name: ::IMGUIContainer::GUIGlobals
 struct CORDL_TYPE __IMGUIContainer__GUIGlobals {
@@ -192,8 +192,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals, 
 // SizeInfo { instance_size: 1224, native_size: -1, calculated_instance_size: 1224, calculated_native_size: 1220, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6908)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6862)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6862)), TypeDefinitionIndex(TypeDefinitionIndex(6908)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10245))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(6909)) CS Name: ::UnityEngine.UIElements::IMGUIContainer*
 class CORDL_TYPE IMGUIContainer : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -205,59 +205,60 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__IMGUIContainer__UxmlFactory;
 
   /// @brief Field m_OnGUIHandler, offset 0x3b0, size 0x8
-  __declspec(property(get = __get_m_OnGUIHandler, put = __set_m_OnGUIHandler))::System::Action* m_OnGUIHandler;
+  __declspec(property(get = __cordl_internal_get_m_OnGUIHandler, put = __cordl_internal_set_m_OnGUIHandler))::System::Action* m_OnGUIHandler;
 
   /// @brief Field m_ObjectGUIState, offset 0x3b8, size 0x8
-  __declspec(property(get = __get_m_ObjectGUIState, put = __set_m_ObjectGUIState))::UnityEngine::ObjectGUIState* m_ObjectGUIState;
+  __declspec(property(get = __cordl_internal_get_m_ObjectGUIState, put = __cordl_internal_set_m_ObjectGUIState))::UnityEngine::ObjectGUIState* m_ObjectGUIState;
 
   /// @brief Field useOwnerObjectGUIState, offset 0x3c0, size 0x1
-  __declspec(property(get = __get_useOwnerObjectGUIState, put = __set_useOwnerObjectGUIState)) bool useOwnerObjectGUIState;
+  __declspec(property(get = __cordl_internal_get_useOwnerObjectGUIState, put = __cordl_internal_set_useOwnerObjectGUIState)) bool useOwnerObjectGUIState;
 
   /// @brief Field <lastWorldClip>k__BackingField, offset 0x3c4, size 0x10
-  __declspec(property(get = __get__lastWorldClip_k__BackingField, put = __set__lastWorldClip_k__BackingField))::UnityEngine::Rect _lastWorldClip_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lastWorldClip_k__BackingField, put = __cordl_internal_set__lastWorldClip_k__BackingField))::UnityEngine::Rect _lastWorldClip_k__BackingField;
 
   /// @brief Field m_CullingEnabled, offset 0x3d4, size 0x1
-  __declspec(property(get = __get_m_CullingEnabled, put = __set_m_CullingEnabled)) bool m_CullingEnabled;
+  __declspec(property(get = __cordl_internal_get_m_CullingEnabled, put = __cordl_internal_set_m_CullingEnabled)) bool m_CullingEnabled;
 
   /// @brief Field m_IsFocusDelegated, offset 0x3d5, size 0x1
-  __declspec(property(get = __get_m_IsFocusDelegated, put = __set_m_IsFocusDelegated)) bool m_IsFocusDelegated;
+  __declspec(property(get = __cordl_internal_get_m_IsFocusDelegated, put = __cordl_internal_set_m_IsFocusDelegated)) bool m_IsFocusDelegated;
 
   /// @brief Field m_RefreshCachedLayout, offset 0x3d6, size 0x1
-  __declspec(property(get = __get_m_RefreshCachedLayout, put = __set_m_RefreshCachedLayout)) bool m_RefreshCachedLayout;
+  __declspec(property(get = __cordl_internal_get_m_RefreshCachedLayout, put = __cordl_internal_set_m_RefreshCachedLayout)) bool m_RefreshCachedLayout;
 
   /// @brief Field m_Cache, offset 0x3d8, size 0x8
-  __declspec(property(get = __get_m_Cache, put = __set_m_Cache))::UnityEngine::__GUILayoutUtility__LayoutCache* m_Cache;
+  __declspec(property(get = __cordl_internal_get_m_Cache, put = __cordl_internal_set_m_Cache))::UnityEngine::__GUILayoutUtility__LayoutCache* m_Cache;
 
   /// @brief Field m_CachedClippingRect, offset 0x3e0, size 0x10
-  __declspec(property(get = __get_m_CachedClippingRect, put = __set_m_CachedClippingRect))::UnityEngine::Rect m_CachedClippingRect;
+  __declspec(property(get = __cordl_internal_get_m_CachedClippingRect, put = __cordl_internal_set_m_CachedClippingRect))::UnityEngine::Rect m_CachedClippingRect;
 
   /// @brief Field m_CachedTransform, offset 0x3f0, size 0x40
-  __declspec(property(get = __get_m_CachedTransform, put = __set_m_CachedTransform))::UnityEngine::Matrix4x4 m_CachedTransform;
+  __declspec(property(get = __cordl_internal_get_m_CachedTransform, put = __cordl_internal_set_m_CachedTransform))::UnityEngine::Matrix4x4 m_CachedTransform;
 
   /// @brief Field <contextType>k__BackingField, offset 0x430, size 0x4
-  __declspec(property(get = __get__contextType_k__BackingField, put = __set__contextType_k__BackingField))::UnityEngine::UIElements::ContextType _contextType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__contextType_k__BackingField,
+                      put = __cordl_internal_set__contextType_k__BackingField))::UnityEngine::UIElements::ContextType _contextType_k__BackingField;
 
   /// @brief Field lostFocus, offset 0x434, size 0x1
-  __declspec(property(get = __get_lostFocus, put = __set_lostFocus)) bool lostFocus;
+  __declspec(property(get = __cordl_internal_get_lostFocus, put = __cordl_internal_set_lostFocus)) bool lostFocus;
 
   /// @brief Field receivedFocus, offset 0x435, size 0x1
-  __declspec(property(get = __get_receivedFocus, put = __set_receivedFocus)) bool receivedFocus;
+  __declspec(property(get = __cordl_internal_get_receivedFocus, put = __cordl_internal_set_receivedFocus)) bool receivedFocus;
 
   /// @brief Field focusChangeDirection, offset 0x438, size 0x8
-  __declspec(property(get = __get_focusChangeDirection, put = __set_focusChangeDirection))::UnityEngine::UIElements::FocusChangeDirection* focusChangeDirection;
+  __declspec(property(get = __cordl_internal_get_focusChangeDirection, put = __cordl_internal_set_focusChangeDirection))::UnityEngine::UIElements::FocusChangeDirection* focusChangeDirection;
 
   /// @brief Field hasFocusableControls, offset 0x440, size 0x1
-  __declspec(property(get = __get_hasFocusableControls, put = __set_hasFocusableControls)) bool hasFocusableControls;
+  __declspec(property(get = __cordl_internal_get_hasFocusableControls, put = __cordl_internal_set_hasFocusableControls)) bool hasFocusableControls;
 
   /// @brief Field newKeyboardFocusControlID, offset 0x444, size 0x4
-  __declspec(property(get = __get_newKeyboardFocusControlID, put = __set_newKeyboardFocusControlID)) int32_t newKeyboardFocusControlID;
+  __declspec(property(get = __cordl_internal_get_newKeyboardFocusControlID, put = __cordl_internal_set_newKeyboardFocusControlID)) int32_t newKeyboardFocusControlID;
 
   /// @brief Field <focusOnlyIfHasFocusableControls>k__BackingField, offset 0x448, size 0x1
-  __declspec(property(get = __get__focusOnlyIfHasFocusableControls_k__BackingField,
-                      put = __set__focusOnlyIfHasFocusableControls_k__BackingField)) bool _focusOnlyIfHasFocusableControls_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__focusOnlyIfHasFocusableControls_k__BackingField,
+                      put = __cordl_internal_set__focusOnlyIfHasFocusableControls_k__BackingField)) bool _focusOnlyIfHasFocusableControls_k__BackingField;
 
   /// @brief Field m_GUIGlobals, offset 0x44c, size 0x78
-  __declspec(property(get = __get_m_GUIGlobals, put = __set_m_GUIGlobals))::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals m_GUIGlobals;
+  __declspec(property(get = __cordl_internal_get_m_GUIGlobals, put = __cordl_internal_set_m_GUIGlobals))::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals m_GUIGlobals;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -310,113 +311,113 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Action*& __get_m_OnGUIHandler();
+  constexpr ::System::Action*& __cordl_internal_get_m_OnGUIHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_OnGUIHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_OnGUIHandler() const;
 
-  constexpr void __set_m_OnGUIHandler(::System::Action* value);
+  constexpr void __cordl_internal_set_m_OnGUIHandler(::System::Action* value);
 
-  constexpr ::UnityEngine::ObjectGUIState*& __get_m_ObjectGUIState();
+  constexpr ::UnityEngine::ObjectGUIState*& __cordl_internal_get_m_ObjectGUIState();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ObjectGUIState*> const& __get_m_ObjectGUIState() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ObjectGUIState*> const& __cordl_internal_get_m_ObjectGUIState() const;
 
-  constexpr void __set_m_ObjectGUIState(::UnityEngine::ObjectGUIState* value);
+  constexpr void __cordl_internal_set_m_ObjectGUIState(::UnityEngine::ObjectGUIState* value);
 
-  constexpr bool& __get_useOwnerObjectGUIState();
+  constexpr bool& __cordl_internal_get_useOwnerObjectGUIState();
 
-  constexpr bool const& __get_useOwnerObjectGUIState() const;
+  constexpr bool const& __cordl_internal_get_useOwnerObjectGUIState() const;
 
-  constexpr void __set_useOwnerObjectGUIState(bool value);
+  constexpr void __cordl_internal_set_useOwnerObjectGUIState(bool value);
 
-  constexpr ::UnityEngine::Rect& __get__lastWorldClip_k__BackingField();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__lastWorldClip_k__BackingField();
 
-  constexpr ::UnityEngine::Rect const& __get__lastWorldClip_k__BackingField() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__lastWorldClip_k__BackingField() const;
 
-  constexpr void __set__lastWorldClip_k__BackingField(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__lastWorldClip_k__BackingField(::UnityEngine::Rect value);
 
-  constexpr bool& __get_m_CullingEnabled();
+  constexpr bool& __cordl_internal_get_m_CullingEnabled();
 
-  constexpr bool const& __get_m_CullingEnabled() const;
+  constexpr bool const& __cordl_internal_get_m_CullingEnabled() const;
 
-  constexpr void __set_m_CullingEnabled(bool value);
+  constexpr void __cordl_internal_set_m_CullingEnabled(bool value);
 
-  constexpr bool& __get_m_IsFocusDelegated();
+  constexpr bool& __cordl_internal_get_m_IsFocusDelegated();
 
-  constexpr bool const& __get_m_IsFocusDelegated() const;
+  constexpr bool const& __cordl_internal_get_m_IsFocusDelegated() const;
 
-  constexpr void __set_m_IsFocusDelegated(bool value);
+  constexpr void __cordl_internal_set_m_IsFocusDelegated(bool value);
 
-  constexpr bool& __get_m_RefreshCachedLayout();
+  constexpr bool& __cordl_internal_get_m_RefreshCachedLayout();
 
-  constexpr bool const& __get_m_RefreshCachedLayout() const;
+  constexpr bool const& __cordl_internal_get_m_RefreshCachedLayout() const;
 
-  constexpr void __set_m_RefreshCachedLayout(bool value);
+  constexpr void __cordl_internal_set_m_RefreshCachedLayout(bool value);
 
-  constexpr ::UnityEngine::__GUILayoutUtility__LayoutCache*& __get_m_Cache();
+  constexpr ::UnityEngine::__GUILayoutUtility__LayoutCache*& __cordl_internal_get_m_Cache();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__GUILayoutUtility__LayoutCache*> const& __get_m_Cache() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__GUILayoutUtility__LayoutCache*> const& __cordl_internal_get_m_Cache() const;
 
-  constexpr void __set_m_Cache(::UnityEngine::__GUILayoutUtility__LayoutCache* value);
+  constexpr void __cordl_internal_set_m_Cache(::UnityEngine::__GUILayoutUtility__LayoutCache* value);
 
-  constexpr ::UnityEngine::Rect& __get_m_CachedClippingRect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_CachedClippingRect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_CachedClippingRect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_CachedClippingRect() const;
 
-  constexpr void __set_m_CachedClippingRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_CachedClippingRect(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Matrix4x4& __get_m_CachedTransform();
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_m_CachedTransform();
 
-  constexpr ::UnityEngine::Matrix4x4 const& __get_m_CachedTransform() const;
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_m_CachedTransform() const;
 
-  constexpr void __set_m_CachedTransform(::UnityEngine::Matrix4x4 value);
+  constexpr void __cordl_internal_set_m_CachedTransform(::UnityEngine::Matrix4x4 value);
 
-  constexpr ::UnityEngine::UIElements::ContextType& __get__contextType_k__BackingField();
+  constexpr ::UnityEngine::UIElements::ContextType& __cordl_internal_get__contextType_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::ContextType const& __get__contextType_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::ContextType const& __cordl_internal_get__contextType_k__BackingField() const;
 
-  constexpr void __set__contextType_k__BackingField(::UnityEngine::UIElements::ContextType value);
+  constexpr void __cordl_internal_set__contextType_k__BackingField(::UnityEngine::UIElements::ContextType value);
 
-  constexpr bool& __get_lostFocus();
+  constexpr bool& __cordl_internal_get_lostFocus();
 
-  constexpr bool const& __get_lostFocus() const;
+  constexpr bool const& __cordl_internal_get_lostFocus() const;
 
-  constexpr void __set_lostFocus(bool value);
+  constexpr void __cordl_internal_set_lostFocus(bool value);
 
-  constexpr bool& __get_receivedFocus();
+  constexpr bool& __cordl_internal_get_receivedFocus();
 
-  constexpr bool const& __get_receivedFocus() const;
+  constexpr bool const& __cordl_internal_get_receivedFocus() const;
 
-  constexpr void __set_receivedFocus(bool value);
+  constexpr void __cordl_internal_set_receivedFocus(bool value);
 
-  constexpr ::UnityEngine::UIElements::FocusChangeDirection*& __get_focusChangeDirection();
+  constexpr ::UnityEngine::UIElements::FocusChangeDirection*& __cordl_internal_get_focusChangeDirection();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusChangeDirection*> const& __get_focusChangeDirection() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusChangeDirection*> const& __cordl_internal_get_focusChangeDirection() const;
 
-  constexpr void __set_focusChangeDirection(::UnityEngine::UIElements::FocusChangeDirection* value);
+  constexpr void __cordl_internal_set_focusChangeDirection(::UnityEngine::UIElements::FocusChangeDirection* value);
 
-  constexpr bool& __get_hasFocusableControls();
+  constexpr bool& __cordl_internal_get_hasFocusableControls();
 
-  constexpr bool const& __get_hasFocusableControls() const;
+  constexpr bool const& __cordl_internal_get_hasFocusableControls() const;
 
-  constexpr void __set_hasFocusableControls(bool value);
+  constexpr void __cordl_internal_set_hasFocusableControls(bool value);
 
-  constexpr int32_t& __get_newKeyboardFocusControlID();
+  constexpr int32_t& __cordl_internal_get_newKeyboardFocusControlID();
 
-  constexpr int32_t const& __get_newKeyboardFocusControlID() const;
+  constexpr int32_t const& __cordl_internal_get_newKeyboardFocusControlID() const;
 
-  constexpr void __set_newKeyboardFocusControlID(int32_t value);
+  constexpr void __cordl_internal_set_newKeyboardFocusControlID(int32_t value);
 
-  constexpr bool& __get__focusOnlyIfHasFocusableControls_k__BackingField();
+  constexpr bool& __cordl_internal_get__focusOnlyIfHasFocusableControls_k__BackingField();
 
-  constexpr bool const& __get__focusOnlyIfHasFocusableControls_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__focusOnlyIfHasFocusableControls_k__BackingField() const;
 
-  constexpr void __set__focusOnlyIfHasFocusableControls_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__focusOnlyIfHasFocusableControls_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals& __get_m_GUIGlobals();
+  constexpr ::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals& __cordl_internal_get_m_GUIGlobals();
 
-  constexpr ::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals const& __get_m_GUIGlobals() const;
+  constexpr ::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals const& __cordl_internal_get_m_GUIGlobals() const;
 
-  constexpr void __set_m_GUIGlobals(::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals value);
+  constexpr void __cordl_internal_set_m_GUIGlobals(::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -691,8 +692,8 @@ static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_GUIGlobal
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6909)), TypeDefinitionIndex(TypeDefinitionIndex(6907)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5263 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6906)) CS Name: ::IMGUIContainer::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6907)), TypeDefinitionIndex(TypeDefinitionIndex(6909)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5263 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6906)) CS Name: ::IMGUIContainer::UxmlFactory*
 class CORDL_TYPE __IMGUIContainer__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::IMGUIContainer*, ::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits*> {
 public:
   // Declarations

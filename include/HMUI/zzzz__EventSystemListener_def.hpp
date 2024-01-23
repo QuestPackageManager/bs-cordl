@@ -29,17 +29,19 @@ MARK_REF_PTR_T(::HMUI::EventSystemListener);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13531))
 // CS Name: ::HMUI::EventSystemListener*
 class CORDL_TYPE EventSystemListener : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field pointerDidEnterEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_pointerDidEnterEvent, put = __set_pointerDidEnterEvent))::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidEnterEvent;
+  __declspec(property(get = __cordl_internal_get_pointerDidEnterEvent,
+                      put = __cordl_internal_set_pointerDidEnterEvent))::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidEnterEvent;
 
   /// @brief Field pointerDidExitEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_pointerDidExitEvent, put = __set_pointerDidExitEvent))::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidExitEvent;
+  __declspec(property(get = __cordl_internal_get_pointerDidExitEvent,
+                      put = __cordl_internal_set_pointerDidExitEvent))::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidExitEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
@@ -59,17 +61,17 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __get_pointerDidEnterEvent();
+  constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get_pointerDidEnterEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*> const& __get_pointerDidEnterEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*> const& __cordl_internal_get_pointerDidEnterEvent() const;
 
-  constexpr void __set_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
+  constexpr void __cordl_internal_set_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __get_pointerDidExitEvent();
+  constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get_pointerDidExitEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*> const& __get_pointerDidExitEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*> const& __cordl_internal_get_pointerDidExitEvent() const;
 
-  constexpr void __set_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
+  constexpr void __cordl_internal_set_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Method add_pointerDidEnterEvent, addr 0x211c6a4, size 0xb0, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);

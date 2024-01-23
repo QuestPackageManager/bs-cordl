@@ -20,33 +20,33 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AsnEncodedData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8977))
 // CS Name: ::System.Security.Cryptography::AsnEncodedData*
 class CORDL_TYPE AsnEncodedData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _oid, offset 0x10, size 0x8
-  __declspec(property(get = __get__oid, put = __set__oid))::System::Security::Cryptography::Oid* _oid;
+  __declspec(property(get = __cordl_internal_get__oid, put = __cordl_internal_set__oid))::System::Security::Cryptography::Oid* _oid;
 
   /// @brief Field _raw, offset 0x18, size 0x8
-  __declspec(property(get = __get__raw, put = __set__raw))::ArrayW<uint8_t, ::Array<uint8_t>*> _raw;
+  __declspec(property(get = __cordl_internal_get__raw, put = __cordl_internal_set__raw))::ArrayW<uint8_t, ::Array<uint8_t>*> _raw;
 
   __declspec(property(get = get_Oid, put = set_Oid))::System::Security::Cryptography::Oid* Oid;
 
   __declspec(property(get = get_RawData, put = set_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
 
-  constexpr ::System::Security::Cryptography::Oid*& __get__oid();
+  constexpr ::System::Security::Cryptography::Oid*& __cordl_internal_get__oid();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::Oid*> const& __get__oid() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::Oid*> const& __cordl_internal_get__oid() const;
 
-  constexpr void __set__oid(::System::Security::Cryptography::Oid* value);
+  constexpr void __cordl_internal_set__oid(::System::Security::Cryptography::Oid* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__raw();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__raw();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__raw() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__raw() const;
 
-  constexpr void __set__raw(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__raw(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::Security::Cryptography::AsnEncodedData* New_ctor();
 

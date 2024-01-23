@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::Lexer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14683))
 // CS Name: ::System.Net.Http.Headers::Lexer*
 class CORDL_TYPE Lexer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s, offset 0x10, size 0x8
-  __declspec(property(get = __get_s, put = __set_s))::StringW s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::StringW s;
 
   /// @brief Field pos, offset 0x18, size 0x4
-  __declspec(property(get = __get_pos, put = __set_pos)) int32_t pos;
+  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
   /// @brief Field token_chars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_token_chars, put = setStaticF_token_chars))::ArrayW<bool, ::Array<bool>*> token_chars;
@@ -54,17 +54,17 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int32_t Position;
 
-  constexpr ::StringW& __get_s();
+  constexpr ::StringW& __cordl_internal_get_s();
 
-  constexpr ::StringW const& __get_s() const;
+  constexpr ::StringW const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(::StringW value);
+  constexpr void __cordl_internal_set_s(::StringW value);
 
-  constexpr int32_t& __get_pos();
+  constexpr int32_t& __cordl_internal_get_pos();
 
-  constexpr int32_t const& __get_pos() const;
+  constexpr int32_t const& __cordl_internal_get_pos() const;
 
-  constexpr void __set_pos(int32_t value);
+  constexpr void __cordl_internal_set_pos(int32_t value);
 
   static inline void setStaticF_token_chars(::ArrayW<bool, ::Array<bool>*> value);
 

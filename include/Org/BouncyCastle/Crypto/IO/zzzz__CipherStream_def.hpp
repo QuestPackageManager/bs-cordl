@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IO::CipherStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(927))
 // CS Name: ::Org.BouncyCastle.Crypto.IO::CipherStream*
 class CORDL_TYPE CipherStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field stream, offset 0x28, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   /// @brief Field inCipher, offset 0x30, size 0x8
-  __declspec(property(get = __get_inCipher, put = __set_inCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* inCipher;
+  __declspec(property(get = __cordl_internal_get_inCipher, put = __cordl_internal_set_inCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* inCipher;
 
   /// @brief Field outCipher, offset 0x38, size 0x8
-  __declspec(property(get = __get_outCipher, put = __set_outCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* outCipher;
+  __declspec(property(get = __cordl_internal_get_outCipher, put = __cordl_internal_set_outCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* outCipher;
 
   /// @brief Field mInBuf, offset 0x40, size 0x8
-  __declspec(property(get = __get_mInBuf, put = __set_mInBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> mInBuf;
+  __declspec(property(get = __cordl_internal_get_mInBuf, put = __cordl_internal_set_mInBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> mInBuf;
 
   /// @brief Field mInPos, offset 0x48, size 0x4
-  __declspec(property(get = __get_mInPos, put = __set_mInPos)) int32_t mInPos;
+  __declspec(property(get = __cordl_internal_get_mInPos, put = __cordl_internal_set_mInPos)) int32_t mInPos;
 
   /// @brief Field inStreamEnded, offset 0x4c, size 0x1
-  __declspec(property(get = __get_inStreamEnded, put = __set_inStreamEnded)) bool inStreamEnded;
+  __declspec(property(get = __cordl_internal_get_inStreamEnded, put = __cordl_internal_set_inStreamEnded)) bool inStreamEnded;
 
   __declspec(property(get = get_ReadCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* ReadCipher;
 
@@ -63,41 +63,41 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __get_inCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_inCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __get_inCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __cordl_internal_get_inCipher() const;
 
-  constexpr void __set_inCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+  constexpr void __cordl_internal_set_inCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __get_outCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_outCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __get_outCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __cordl_internal_get_outCipher() const;
 
-  constexpr void __set_outCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+  constexpr void __cordl_internal_set_outCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mInBuf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mInBuf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mInBuf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mInBuf() const;
 
-  constexpr void __set_mInBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mInBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mInPos();
+  constexpr int32_t& __cordl_internal_get_mInPos();
 
-  constexpr int32_t const& __get_mInPos() const;
+  constexpr int32_t const& __cordl_internal_get_mInPos() const;
 
-  constexpr void __set_mInPos(int32_t value);
+  constexpr void __cordl_internal_set_mInPos(int32_t value);
 
-  constexpr bool& __get_inStreamEnded();
+  constexpr bool& __cordl_internal_get_inStreamEnded();
 
-  constexpr bool const& __get_inStreamEnded() const;
+  constexpr bool const& __cordl_internal_get_inStreamEnded() const;
 
-  constexpr void __set_inStreamEnded(bool value);
+  constexpr void __cordl_internal_set_inStreamEnded(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::IO::CipherStream* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::IBufferedCipher* readCipher,
                                                                         ::Org::BouncyCastle::Crypto::IBufferedCipher* writeCipher);

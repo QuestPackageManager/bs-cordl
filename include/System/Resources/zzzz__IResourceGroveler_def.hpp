@@ -13,7 +13,7 @@ MARK_REF_PTR_T(::System::Resources::IResourceGroveler);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3434))
 // CS Name: ::System.Resources::IResourceGroveler*
 class CORDL_TYPE IResourceGroveler {

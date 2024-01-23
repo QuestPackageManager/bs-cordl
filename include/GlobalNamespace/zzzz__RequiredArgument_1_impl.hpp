@@ -1,21 +1,21 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ArgumentBase_impl.hpp"
 #include "GlobalNamespace/zzzz__RequiredArgument_1_def.hpp"
-template <typename T> constexpr T& GlobalNamespace::RequiredArgument_1<T>::__get__value() {
+template <typename T> constexpr T& GlobalNamespace::RequiredArgument_1<T>::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-template <typename T> constexpr T const& GlobalNamespace::RequiredArgument_1<T>::__get__value() const {
+template <typename T> constexpr T const& GlobalNamespace::RequiredArgument_1<T>::__cordl_internal_get__value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-template <typename T> constexpr void GlobalNamespace::RequiredArgument_1<T>::__set__value(T value) {
+template <typename T> constexpr void GlobalNamespace::RequiredArgument_1<T>::__cordl_internal_set__value(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T GlobalNamespace::RequiredArgument_1<T>::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RequiredArgument_1<T>*>::get(), "get_value",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T> inline bool GlobalNamespace::RequiredArgument_1<T>::get_isOptional() {
@@ -24,12 +24,12 @@ template <typename T> inline bool GlobalNamespace::RequiredArgument_1<T>::get_is
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename T> inline ::GlobalNamespace::RequiredArgument_1<T>* GlobalNamespace::RequiredArgument_1<T>::New_ctor(::StringW name, ::StringW description) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::RequiredArgument_1<T>*>(name, description));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RequiredArgument_1<T>*>(name, description));
 }
 template <typename T> inline void GlobalNamespace::RequiredArgument_1<T>::_ctor(::StringW name, ::StringW description) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RequiredArgument_1<T>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RequiredArgument_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, description);
 }
 template <typename T> inline void GlobalNamespace::RequiredArgument_1<T>::Reset() {
@@ -43,9 +43,9 @@ template <typename T> inline bool GlobalNamespace::RequiredArgument_1<T>::TryPar
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, inValue);
 }
 template <typename T> inline T GlobalNamespace::RequiredArgument_1<T>::op_Implicit_T(::GlobalNamespace::RequiredArgument_1<T>* requiredArgument) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RequiredArgument_1<T>*>::get(), "op_Implicit", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RequiredArgument_1<T>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RequiredArgument_1<T>*>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RequiredArgument_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, requiredArgument);
 }
 template <typename T> inline ::StringW GlobalNamespace::RequiredArgument_1<T>::ToString() {

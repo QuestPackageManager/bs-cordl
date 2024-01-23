@@ -27,20 +27,22 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7166))
 // CS Name: ::UnityEngine.UIElements::EventCallbackList*
 class CORDL_TYPE EventCallbackList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_List, put = __set_m_List))::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* m_List;
 
   /// @brief Field <trickleDownCallbackCount>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__trickleDownCallbackCount_k__BackingField, put = __set__trickleDownCallbackCount_k__BackingField)) int32_t _trickleDownCallbackCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__trickleDownCallbackCount_k__BackingField,
+                      put = __cordl_internal_set__trickleDownCallbackCount_k__BackingField)) int32_t _trickleDownCallbackCount_k__BackingField;
 
   /// @brief Field <bubbleUpCallbackCount>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__bubbleUpCallbackCount_k__BackingField, put = __set__bubbleUpCallbackCount_k__BackingField)) int32_t _bubbleUpCallbackCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bubbleUpCallbackCount_k__BackingField,
+                      put = __cordl_internal_set__bubbleUpCallbackCount_k__BackingField)) int32_t _bubbleUpCallbackCount_k__BackingField;
 
   __declspec(property(get = get_trickleDownCallbackCount, put = set_trickleDownCallbackCount)) int32_t trickleDownCallbackCount;
 
@@ -50,23 +52,23 @@ public:
 
   __declspec(property(get = get_Item))::UnityEngine::UIElements::EventCallbackFunctorBase* Item[];
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>*& __get_m_List();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>*& __cordl_internal_get_m_List();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>*> const& __get_m_List() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>*> const& __cordl_internal_get_m_List() const;
 
-  constexpr void __set_m_List(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* value);
+  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* value);
 
-  constexpr int32_t& __get__trickleDownCallbackCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__trickleDownCallbackCount_k__BackingField();
 
-  constexpr int32_t const& __get__trickleDownCallbackCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__trickleDownCallbackCount_k__BackingField() const;
 
-  constexpr void __set__trickleDownCallbackCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__trickleDownCallbackCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__bubbleUpCallbackCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__bubbleUpCallbackCount_k__BackingField();
 
-  constexpr int32_t const& __get__bubbleUpCallbackCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__bubbleUpCallbackCount_k__BackingField() const;
 
-  constexpr void __set__bubbleUpCallbackCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__bubbleUpCallbackCount_k__BackingField(int32_t value);
 
   /// @brief Method get_trickleDownCallbackCount, addr 0x2e4b244, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_trickleDownCallbackCount();

@@ -55,20 +55,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlBaseConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11747)), TypeDefinitionIndex(TypeDefinitionIndex(11746))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11746)), TypeDefinitionIndex(TypeDefinitionIndex(11747))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11748))
 // CS Name: ::System.Xml.Schema::XmlBaseConverter*
 class CORDL_TYPE XmlBaseConverter : public ::System::Xml::Schema::XmlValueConverter {
 public:
   // Declarations
   /// @brief Field schemaType, offset 0x10, size 0x8
-  __declspec(property(get = __get_schemaType, put = __set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
 
   /// @brief Field typeCode, offset 0x18, size 0x4
-  __declspec(property(get = __get_typeCode, put = __set_typeCode))::System::Xml::Schema::XmlTypeCode typeCode;
+  __declspec(property(get = __cordl_internal_get_typeCode, put = __cordl_internal_set_typeCode))::System::Xml::Schema::XmlTypeCode typeCode;
 
   /// @brief Field clrTypeDefault, offset 0x20, size 0x8
-  __declspec(property(get = __get_clrTypeDefault, put = __set_clrTypeDefault))::System::Type* clrTypeDefault;
+  __declspec(property(get = __cordl_internal_get_clrTypeDefault, put = __cordl_internal_set_clrTypeDefault))::System::Type* clrTypeDefault;
 
   /// @brief Field ICollectionType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ICollectionType, put = setStaticF_ICollectionType))::System::Type* ICollectionType;
@@ -165,23 +165,23 @@ public:
 
   __declspec(property(get = get_DefaultClrType))::System::Type* DefaultClrType;
 
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __get_schemaType();
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __get_schemaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
 
-  constexpr void __set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  constexpr ::System::Xml::Schema::XmlTypeCode& __get_typeCode();
+  constexpr ::System::Xml::Schema::XmlTypeCode& __cordl_internal_get_typeCode();
 
-  constexpr ::System::Xml::Schema::XmlTypeCode const& __get_typeCode() const;
+  constexpr ::System::Xml::Schema::XmlTypeCode const& __cordl_internal_get_typeCode() const;
 
-  constexpr void __set_typeCode(::System::Xml::Schema::XmlTypeCode value);
+  constexpr void __cordl_internal_set_typeCode(::System::Xml::Schema::XmlTypeCode value);
 
-  constexpr ::System::Type*& __get_clrTypeDefault();
+  constexpr ::System::Type*& __cordl_internal_get_clrTypeDefault();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_clrTypeDefault() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_clrTypeDefault() const;
 
-  constexpr void __set_clrTypeDefault(::System::Type* value);
+  constexpr void __cordl_internal_set_clrTypeDefault(::System::Type* value);
 
   static inline void setStaticF_ICollectionType(::System::Type* value);
 

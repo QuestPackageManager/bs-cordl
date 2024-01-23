@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SignatureFormatter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2920))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2920))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2984))
 // CS Name: ::System.Security.Cryptography::RSAPKCS1SignatureFormatter*
 class CORDL_TYPE RSAPKCS1SignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter {

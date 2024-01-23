@@ -27,22 +27,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1021))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1021))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1023))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DHPrivateKeyParameters*
 class CORDL_TYPE DHPrivateKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters {
 public:
   // Declarations
   /// @brief Field x, offset 0x28, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::Org::BouncyCastle::Math::BigInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Math::BigInteger* x;
 
   __declspec(property(get = get_X))::Org::BouncyCastle::Math::BigInteger* X;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_x();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_x() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 

@@ -25,8 +25,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1704
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3231 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3871)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3231
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1704 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3871)) CS Name:
 // ::System.Collections.Generic::NullableEqualityComparer`1<T>*
 class CORDL_TYPE NullableEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<T>> {
 public:

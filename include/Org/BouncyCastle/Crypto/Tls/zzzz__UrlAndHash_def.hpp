@@ -23,33 +23,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::UrlAndHash);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1333))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::UrlAndHash*
 class CORDL_TYPE UrlAndHash : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mUrl, offset 0x10, size 0x8
-  __declspec(property(get = __get_mUrl, put = __set_mUrl))::StringW mUrl;
+  __declspec(property(get = __cordl_internal_get_mUrl, put = __cordl_internal_set_mUrl))::StringW mUrl;
 
   /// @brief Field mSha1Hash, offset 0x18, size 0x8
-  __declspec(property(get = __get_mSha1Hash, put = __set_mSha1Hash))::ArrayW<uint8_t, ::Array<uint8_t>*> mSha1Hash;
+  __declspec(property(get = __cordl_internal_get_mSha1Hash, put = __cordl_internal_set_mSha1Hash))::ArrayW<uint8_t, ::Array<uint8_t>*> mSha1Hash;
 
   __declspec(property(get = get_Url))::StringW Url;
 
   __declspec(property(get = get_Sha1Hash))::ArrayW<uint8_t, ::Array<uint8_t>*> Sha1Hash;
 
-  constexpr ::StringW& __get_mUrl();
+  constexpr ::StringW& __cordl_internal_get_mUrl();
 
-  constexpr ::StringW const& __get_mUrl() const;
+  constexpr ::StringW const& __cordl_internal_get_mUrl() const;
 
-  constexpr void __set_mUrl(::StringW value);
+  constexpr void __cordl_internal_set_mUrl(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSha1Hash();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSha1Hash();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSha1Hash() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSha1Hash() const;
 
-  constexpr void __set_mSha1Hash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSha1Hash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* New_ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 

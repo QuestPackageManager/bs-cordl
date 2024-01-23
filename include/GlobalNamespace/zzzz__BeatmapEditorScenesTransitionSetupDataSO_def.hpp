@@ -17,37 +17,38 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15418))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15418))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6061))
 // CS Name: ::BeatmapEditorScenesTransitionSetupDataSO*
 class CORDL_TYPE BeatmapEditorScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
   /// @brief Field didFinishEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* didFinishEvent;
 
   /// @brief Field <goStraightToEditor>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__goStraightToEditor_k__BackingField, put = __set__goStraightToEditor_k__BackingField)) bool _goStraightToEditor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__goStraightToEditor_k__BackingField, put = __cordl_internal_set__goStraightToEditor_k__BackingField)) bool _goStraightToEditor_k__BackingField;
 
   __declspec(property(get = get_goStraightToEditor, put = set_goStraightToEditor)) bool goStraightToEditor;
 
-  constexpr ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
-  constexpr bool& __get__goStraightToEditor_k__BackingField();
+  constexpr bool& __cordl_internal_get__goStraightToEditor_k__BackingField();
 
-  constexpr bool const& __get__goStraightToEditor_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__goStraightToEditor_k__BackingField() const;
 
-  constexpr void __set__goStraightToEditor_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__goStraightToEditor_k__BackingField(bool value);
 
   /// @brief Method add_didFinishEvent, addr 0x231ce9c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x231cf4c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
   /// @brief Method get_goStraightToEditor, addr 0x231cffc, size 0x8, virtual false, abstract: false, final false
   inline bool get_goStraightToEditor();
@@ -81,7 +82,7 @@ protected:
 
 public:
   /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* ___didFinishEvent;
 
   /// @brief Field <goStraightToEditor>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____goStraightToEditor_k__BackingField;

@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolConfigViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5738))
 // CS Name: ::RecordingToolConfigViewController*
 class CORDL_TYPE RecordingToolConfigViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _textPageScrollView, offset 0x70, size 0x8
-  __declspec(property(get = __get__textPageScrollView, put = __set__textPageScrollView))::HMUI::TextPageScrollView* _textPageScrollView;
+  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
 
   /// @brief Field _recordingToolManager, offset 0x78, size 0x8
-  __declspec(property(get = __get__recordingToolManager, put = __set__recordingToolManager))::GlobalNamespace::RecordingToolManager* _recordingToolManager;
+  __declspec(property(get = __cordl_internal_get__recordingToolManager, put = __cordl_internal_set__recordingToolManager))::GlobalNamespace::RecordingToolManager* _recordingToolManager;
 
-  constexpr ::HMUI::TextPageScrollView*& __get__textPageScrollView();
+  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TextPageScrollView*> const& __get__textPageScrollView() const;
+  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
 
-  constexpr void __set__textPageScrollView(::HMUI::TextPageScrollView* value);
+  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
 
-  constexpr ::GlobalNamespace::RecordingToolManager*& __get__recordingToolManager();
+  constexpr ::GlobalNamespace::RecordingToolManager*& __cordl_internal_get__recordingToolManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolManager*> const& __get__recordingToolManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolManager*> const& __cordl_internal_get__recordingToolManager() const;
 
-  constexpr void __set__recordingToolManager(::GlobalNamespace::RecordingToolManager* value);
+  constexpr void __cordl_internal_set__recordingToolManager(::GlobalNamespace::RecordingToolManager* value);
 
   /// @brief Method DidActivate, addr 0x22d5e98, size 0x8c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -67,7 +67,7 @@ protected:
 
 public:
   /// @brief Field _textPageScrollView, offset: 0x70, size: 0x8, def value: None
-  ::HMUI::TextPageScrollView* ____textPageScrollView;
+  ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
   /// @brief Field _recordingToolManager, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::RecordingToolManager* ____recordingToolManager;

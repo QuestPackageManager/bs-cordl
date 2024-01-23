@@ -22,24 +22,24 @@ template <typename TElement> inline ::System::Func_2<TElement, TElement>* System
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__IdentityFunction_1____c<TElement>*>::get>();
 }
 template <typename TElement> inline ::System::Linq::__IdentityFunction_1____c<TElement>* System::Linq::__IdentityFunction_1____c<TElement>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Linq::__IdentityFunction_1____c<TElement>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::__IdentityFunction_1____c<TElement>*>());
 }
 template <typename TElement> inline void System::Linq::__IdentityFunction_1____c<TElement>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__IdentityFunction_1____c<TElement>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TElement> inline TElement System::Linq::__IdentityFunction_1____c<TElement>::_get_Instance_b__1_0(TElement x) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__IdentityFunction_1____c<TElement>*>::get(), "<get_Instance>b__1_0",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TElement>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__IdentityFunction_1____c<TElement>*>::get(), "<get_Instance>b__1_0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TElement>::get() })));
   return ::cordl_internals::RunMethodRethrow<TElement, false>(this, ___internal_method, x);
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::__IdentityFunction_1____c<TElement>::__IdentityFunction_1____c() {}
 template <typename TElement> inline ::System::Func_2<TElement, TElement>* System::Linq::IdentityFunction_1<TElement>::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::IdentityFunction_1<TElement>*>::get(),
-                                                                             "get_Instance", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Instance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Func_2<TElement, TElement>*, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []

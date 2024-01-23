@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventStream);
 // SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 129, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6532))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6532))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6537))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventStream
 struct CORDL_TYPE InputEventStream {

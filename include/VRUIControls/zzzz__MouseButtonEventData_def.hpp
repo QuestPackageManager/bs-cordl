@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::VRUIControls::MouseButtonEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13167))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13167))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15669))
 // CS Name: ::VRUIControls::MouseButtonEventData*
 class CORDL_TYPE MouseButtonEventData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field buttonState, offset 0x10, size 0x4
-  __declspec(property(get = __get_buttonState, put = __set_buttonState))::UnityEngine::EventSystems::__PointerEventData__FramePressState buttonState;
+  __declspec(property(get = __cordl_internal_get_buttonState, put = __cordl_internal_set_buttonState))::UnityEngine::EventSystems::__PointerEventData__FramePressState buttonState;
 
   /// @brief Field buttonData, offset 0x18, size 0x8
-  __declspec(property(get = __get_buttonData, put = __set_buttonData))::UnityEngine::EventSystems::PointerEventData* buttonData;
+  __declspec(property(get = __cordl_internal_get_buttonData, put = __cordl_internal_set_buttonData))::UnityEngine::EventSystems::PointerEventData* buttonData;
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& __get_buttonState();
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& __cordl_internal_get_buttonState();
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& __get_buttonState() const;
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& __cordl_internal_get_buttonState() const;
 
-  constexpr void __set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
+  constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData*& __get_buttonData();
+  constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_buttonData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __get_buttonData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_buttonData() const;
 
-  constexpr void __set_buttonData(::UnityEngine::EventSystems::PointerEventData* value);
+  constexpr void __cordl_internal_set_buttonData(::UnityEngine::EventSystems::PointerEventData* value);
 
   /// @brief Method PressedThisFrame, addr 0x2eb41a8, size 0x10, virtual false, abstract: false, final false
   inline bool PressedThisFrame();

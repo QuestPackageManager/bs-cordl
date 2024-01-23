@@ -22,26 +22,26 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::ARC4Managed);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 91, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13798))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13798))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13787))
 // CS Name: ::Mono.Security.Cryptography::ARC4Managed*
 class CORDL_TYPE ARC4Managed : public ::Mono::Security::Cryptography::RC4 {
 public:
   // Declarations
   /// @brief Field key, offset 0x48, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
 
   /// @brief Field state, offset 0x50, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
 
   /// @brief Field x, offset 0x58, size 0x1
-  __declspec(property(get = __get_x, put = __set_x)) uint8_t x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) uint8_t x;
 
   /// @brief Field y, offset 0x59, size 0x1
-  __declspec(property(get = __get_y, put = __set_y)) uint8_t y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) uint8_t y;
 
   /// @brief Field m_disposed, offset 0x5a, size 0x1
-  __declspec(property(get = __get_m_disposed, put = __set_m_disposed)) bool m_disposed;
+  __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
 
@@ -63,35 +63,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_key();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_key();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_key() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_state();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_state();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_state() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint8_t& __get_x();
+  constexpr uint8_t& __cordl_internal_get_x();
 
-  constexpr uint8_t const& __get_x() const;
+  constexpr uint8_t const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(uint8_t value);
+  constexpr void __cordl_internal_set_x(uint8_t value);
 
-  constexpr uint8_t& __get_y();
+  constexpr uint8_t& __cordl_internal_get_y();
 
-  constexpr uint8_t const& __get_y() const;
+  constexpr uint8_t const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(uint8_t value);
+  constexpr void __cordl_internal_set_y(uint8_t value);
 
-  constexpr bool& __get_m_disposed();
+  constexpr bool& __cordl_internal_get_m_disposed();
 
-  constexpr bool const& __get_m_disposed() const;
+  constexpr bool const& __cordl_internal_get_m_disposed() const;
 
-  constexpr void __set_m_disposed(bool value);
+  constexpr void __cordl_internal_set_m_disposed(bool value);
 
   static inline ::Mono::Security::Cryptography::ARC4Managed* New_ctor();
 

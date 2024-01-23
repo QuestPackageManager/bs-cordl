@@ -23,32 +23,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(842))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Dstu7624Engine*
 class CORDL_TYPE Dstu7624Engine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field internalState, offset 0x10, size 0x8
-  __declspec(property(get = __get_internalState, put = __set_internalState))::ArrayW<uint64_t, ::Array<uint64_t>*> internalState;
+  __declspec(property(get = __cordl_internal_get_internalState, put = __cordl_internal_set_internalState))::ArrayW<uint64_t, ::Array<uint64_t>*> internalState;
 
   /// @brief Field workingKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<uint64_t, ::Array<uint64_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint64_t, ::Array<uint64_t>*> workingKey;
 
   /// @brief Field roundKeys, offset 0x20, size 0x8
-  __declspec(property(get = __get_roundKeys, put = __set_roundKeys))::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> roundKeys;
+  __declspec(property(get = __cordl_internal_get_roundKeys,
+                      put = __cordl_internal_set_roundKeys))::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> roundKeys;
 
   /// @brief Field wordsInBlock, offset 0x28, size 0x4
-  __declspec(property(get = __get_wordsInBlock, put = __set_wordsInBlock)) int32_t wordsInBlock;
+  __declspec(property(get = __cordl_internal_get_wordsInBlock, put = __cordl_internal_set_wordsInBlock)) int32_t wordsInBlock;
 
   /// @brief Field wordsInKey, offset 0x2c, size 0x4
-  __declspec(property(get = __get_wordsInKey, put = __set_wordsInKey)) int32_t wordsInKey;
+  __declspec(property(get = __cordl_internal_get_wordsInKey, put = __cordl_internal_set_wordsInKey)) int32_t wordsInKey;
 
   /// @brief Field roundsAmount, offset 0x30, size 0x4
-  __declspec(property(get = __get_roundsAmount, put = __set_roundsAmount)) int32_t roundsAmount;
+  __declspec(property(get = __cordl_internal_get_roundsAmount, put = __cordl_internal_set_roundsAmount)) int32_t roundsAmount;
 
   /// @brief Field forEncryption, offset 0x34, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field S0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_S0, put = setStaticF_S0))::ArrayW<uint8_t, ::Array<uint8_t>*> S0;
@@ -84,47 +85,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_internalState();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_internalState();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_internalState() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_internalState() const;
 
-  constexpr void __set_internalState(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_internalState(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_workingKey();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*>& __get_roundKeys();
+  constexpr ::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*>& __cordl_internal_get_roundKeys();
 
-  constexpr ::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> const& __get_roundKeys() const;
+  constexpr ::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> const& __cordl_internal_get_roundKeys() const;
 
-  constexpr void __set_roundKeys(::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> value);
+  constexpr void __cordl_internal_set_roundKeys(::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> value);
 
-  constexpr int32_t& __get_wordsInBlock();
+  constexpr int32_t& __cordl_internal_get_wordsInBlock();
 
-  constexpr int32_t const& __get_wordsInBlock() const;
+  constexpr int32_t const& __cordl_internal_get_wordsInBlock() const;
 
-  constexpr void __set_wordsInBlock(int32_t value);
+  constexpr void __cordl_internal_set_wordsInBlock(int32_t value);
 
-  constexpr int32_t& __get_wordsInKey();
+  constexpr int32_t& __cordl_internal_get_wordsInKey();
 
-  constexpr int32_t const& __get_wordsInKey() const;
+  constexpr int32_t const& __cordl_internal_get_wordsInKey() const;
 
-  constexpr void __set_wordsInKey(int32_t value);
+  constexpr void __cordl_internal_set_wordsInKey(int32_t value);
 
-  constexpr int32_t& __get_roundsAmount();
+  constexpr int32_t& __cordl_internal_get_roundsAmount();
 
-  constexpr int32_t const& __get_roundsAmount() const;
+  constexpr int32_t const& __cordl_internal_get_roundsAmount() const;
 
-  constexpr void __set_roundsAmount(int32_t value);
+  constexpr void __cordl_internal_set_roundsAmount(int32_t value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
   static inline void setStaticF_S0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

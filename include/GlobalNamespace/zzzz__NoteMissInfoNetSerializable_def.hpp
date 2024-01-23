@@ -33,23 +33,24 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteMissInfoNetSerializable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15033))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15027))
 // CS Name: ::NoteMissInfoNetSerializable*
 class CORDL_TYPE NoteMissInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
   /// @brief Field <colorType>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__colorType_k__BackingField, put = __set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__colorType_k__BackingField, put = __cordl_internal_set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
 
   /// @brief Field <noteTime>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__noteTime_k__BackingField, put = __set__noteTime_k__BackingField)) float_t _noteTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteTime_k__BackingField, put = __cordl_internal_set__noteTime_k__BackingField)) float_t _noteTime_k__BackingField;
 
   /// @brief Field <noteLineIndex>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__noteLineIndex_k__BackingField, put = __set__noteLineIndex_k__BackingField)) int32_t _noteLineIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteLineIndex_k__BackingField, put = __cordl_internal_set__noteLineIndex_k__BackingField)) int32_t _noteLineIndex_k__BackingField;
 
   /// @brief Field <noteLineLayer>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__noteLineLayer_k__BackingField, put = __set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteLineLayer_k__BackingField,
+                      put = __cordl_internal_set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
 
   __declspec(property(get = get_colorType, put = set_colorType))::GlobalNamespace::ColorType colorType;
 
@@ -59,29 +60,29 @@ public:
 
   __declspec(property(get = get_noteLineLayer, put = set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
 
-  constexpr ::GlobalNamespace::ColorType& __get__colorType_k__BackingField();
+  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get__colorType_k__BackingField();
 
-  constexpr ::GlobalNamespace::ColorType const& __get__colorType_k__BackingField() const;
+  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
 
-  constexpr void __set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
+  constexpr void __cordl_internal_set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
 
-  constexpr float_t& __get__noteTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__noteTime_k__BackingField();
 
-  constexpr float_t const& __get__noteTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__noteTime_k__BackingField() const;
 
-  constexpr void __set__noteTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__noteTime_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__noteLineIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__noteLineIndex_k__BackingField();
 
-  constexpr int32_t const& __get__noteLineIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__noteLineIndex_k__BackingField() const;
 
-  constexpr void __set__noteLineIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__noteLineIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__noteLineLayer_k__BackingField();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__noteLineLayer_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__noteLineLayer_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__noteLineLayer_k__BackingField() const;
 
-  constexpr void __set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
   /// @brief Method get_colorType, addr 0x12a4a38, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();

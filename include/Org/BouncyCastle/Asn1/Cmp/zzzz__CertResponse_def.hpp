@@ -35,23 +35,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertResponse);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertResponse*
 class CORDL_TYPE CertResponse : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field certReqId, offset 0x10, size 0x8
-  __declspec(property(get = __get_certReqId, put = __set_certReqId))::Org::BouncyCastle::Asn1::DerInteger* certReqId;
+  __declspec(property(get = __cordl_internal_get_certReqId, put = __cordl_internal_set_certReqId))::Org::BouncyCastle::Asn1::DerInteger* certReqId;
 
   /// @brief Field status, offset 0x18, size 0x8
-  __declspec(property(get = __get_status, put = __set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status;
 
   /// @brief Field certifiedKeyPair, offset 0x20, size 0x8
-  __declspec(property(get = __get_certifiedKeyPair, put = __set_certifiedKeyPair))::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* certifiedKeyPair;
+  __declspec(property(get = __cordl_internal_get_certifiedKeyPair, put = __cordl_internal_set_certifiedKeyPair))::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* certifiedKeyPair;
 
   /// @brief Field rspInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_rspInfo, put = __set_rspInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* rspInfo;
+  __declspec(property(get = __cordl_internal_get_rspInfo, put = __cordl_internal_set_rspInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* rspInfo;
 
   __declspec(property(get = get_CertReqID))::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
 
@@ -59,29 +59,29 @@ public:
 
   __declspec(property(get = get_CertifiedKeyPair))::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* CertifiedKeyPair;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_certReqId();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_certReqId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_certReqId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_certReqId() const;
 
-  constexpr void __set_certReqId(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_certReqId(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __get_status();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __cordl_internal_get_status();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __get_status() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
+  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*& __get_certifiedKeyPair();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*& __cordl_internal_get_certifiedKeyPair();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*> const& __get_certifiedKeyPair() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*> const& __cordl_internal_get_certifiedKeyPair() const;
 
-  constexpr void __set_certifiedKeyPair(::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* value);
+  constexpr void __cordl_internal_set_certifiedKeyPair(::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_rspInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_rspInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_rspInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_rspInfo() const;
 
-  constexpr void __set_rspInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_rspInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

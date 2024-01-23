@@ -74,36 +74,36 @@ MARK_VAL_T(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVis
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8169))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8169))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8039))
 // CS Name: ::OVRTrackedKeyboardHands::HandBoneMapping
 struct CORDL_TYPE __OVRTrackedKeyboardHands__HandBoneMapping {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "::UnityEngine::Transform*", modifiers: "", def_value: None }, CppParam { name: "LeftPresenceTransform", ty:
-  // "::UnityEngine::Transform*", modifiers: "", def_value: None }, CppParam { name: "RightHandTransform", ty: "::UnityEngine::Transform*", modifiers: "", def_value: None }, CppParam { name:
-  // "RightPresenceTransform", ty: "::UnityEngine::Transform*", modifiers: "", def_value: None }, CppParam { name: "BoneName", ty: "::GlobalNamespace::__OVRSkeleton__BoneId", modifiers: "", def_value:
-  // None }, CppParam { name: "HandPresenceLeftBoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "HandPresenceRightBoneName", ty: "::StringW", modifiers: "", def_value:
-  // None }]
-  constexpr __OVRTrackedKeyboardHands__HandBoneMapping(::UnityEngine::Transform* LeftHandTransform, ::UnityEngine::Transform* LeftPresenceTransform, ::UnityEngine::Transform* RightHandTransform,
-                                                       ::UnityEngine::Transform* RightPresenceTransform, ::GlobalNamespace::__OVRSkeleton__BoneId BoneName, ::StringW HandPresenceLeftBoneName,
-                                                       ::StringW HandPresenceRightBoneName) noexcept;
+  // Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "LeftPresenceTransform", ty:
+  // "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "RightHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam
+  // { name: "RightPresenceTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "BoneName", ty: "::GlobalNamespace::__OVRSkeleton__BoneId",
+  // modifiers: "", def_value: None }, CppParam { name: "HandPresenceLeftBoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "HandPresenceRightBoneName", ty: "::StringW",
+  // modifiers: "", def_value: None }]
+  constexpr __OVRTrackedKeyboardHands__HandBoneMapping(::UnityW<::UnityEngine::Transform> LeftHandTransform, ::UnityW<::UnityEngine::Transform> LeftPresenceTransform,
+                                                       ::UnityW<::UnityEngine::Transform> RightHandTransform, ::UnityW<::UnityEngine::Transform> RightPresenceTransform,
+                                                       ::GlobalNamespace::__OVRSkeleton__BoneId BoneName, ::StringW HandPresenceLeftBoneName, ::StringW HandPresenceRightBoneName) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTrackedKeyboardHands__HandBoneMapping();
 
   /// @brief Field LeftHandTransform, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Transform* LeftHandTransform;
+  ::UnityW<::UnityEngine::Transform> LeftHandTransform;
 
   /// @brief Field LeftPresenceTransform, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Transform* LeftPresenceTransform;
+  ::UnityW<::UnityEngine::Transform> LeftPresenceTransform;
 
   /// @brief Field RightHandTransform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* RightHandTransform;
+  ::UnityW<::UnityEngine::Transform> RightHandTransform;
 
   /// @brief Field RightPresenceTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* RightPresenceTransform;
+  ::UnityW<::UnityEngine::Transform> RightPresenceTransform;
 
   /// @brief Field BoneName, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__OVRSkeleton__BoneId BoneName;
@@ -141,7 +141,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMap
 // SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8040))
 // CS Name: ::OVRTrackedKeyboardHands::TrackedKeyboardHandsVisibilityChangedEvent
 struct CORDL_TYPE __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent {
@@ -177,8 +177,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyb
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 212, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8040)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8041)) CS Name: ::OVRTrackedKeyboardHands*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(8040)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8041)) CS Name: ::OVRTrackedKeyboardHands*
 class CORDL_TYPE OVRTrackedKeyboardHands : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -187,88 +187,95 @@ public:
   using HandBoneMapping = ::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping;
 
   /// @brief Field LeftHandPresence, offset 0x18, size 0x8
-  __declspec(property(get = __get_LeftHandPresence, put = __set_LeftHandPresence))::UnityEngine::GameObject* LeftHandPresence;
+  __declspec(property(get = __cordl_internal_get_LeftHandPresence, put = __cordl_internal_set_LeftHandPresence))::UnityW<::UnityEngine::GameObject> LeftHandPresence;
 
   /// @brief Field RightHandPresence, offset 0x20, size 0x8
-  __declspec(property(get = __get_RightHandPresence, put = __set_RightHandPresence))::UnityEngine::GameObject* RightHandPresence;
+  __declspec(property(get = __cordl_internal_get_RightHandPresence, put = __cordl_internal_set_RightHandPresence))::UnityW<::UnityEngine::GameObject> RightHandPresence;
 
   /// @brief Field handPresenceInitialized_, offset 0x28, size 0x1
-  __declspec(property(get = __get_handPresenceInitialized_, put = __set_handPresenceInitialized_)) bool handPresenceInitialized_;
+  __declspec(property(get = __cordl_internal_get_handPresenceInitialized_, put = __cordl_internal_set_handPresenceInitialized_)) bool handPresenceInitialized_;
 
   /// @brief Field leftHandRoot_, offset 0x30, size 0x8
-  __declspec(property(get = __get_leftHandRoot_, put = __set_leftHandRoot_))::UnityEngine::Transform* leftHandRoot_;
+  __declspec(property(get = __cordl_internal_get_leftHandRoot_, put = __cordl_internal_set_leftHandRoot_))::UnityW<::UnityEngine::Transform> leftHandRoot_;
 
   /// @brief Field rightHandRoot_, offset 0x38, size 0x8
-  __declspec(property(get = __get_rightHandRoot_, put = __set_rightHandRoot_))::UnityEngine::Transform* rightHandRoot_;
+  __declspec(property(get = __cordl_internal_get_rightHandRoot_, put = __cordl_internal_set_rightHandRoot_))::UnityW<::UnityEngine::Transform> rightHandRoot_;
 
   /// @brief Field KeyboardTracker, offset 0x40, size 0x8
-  __declspec(property(get = __get_KeyboardTracker, put = __set_KeyboardTracker))::GlobalNamespace::OVRTrackedKeyboard* KeyboardTracker;
+  __declspec(property(get = __cordl_internal_get_KeyboardTracker, put = __cordl_internal_set_KeyboardTracker))::UnityW<::GlobalNamespace::OVRTrackedKeyboard> KeyboardTracker;
 
   /// @brief Field cameraRig_, offset 0x48, size 0x8
-  __declspec(property(get = __get_cameraRig_, put = __set_cameraRig_))::GlobalNamespace::OVRCameraRig* cameraRig_;
+  __declspec(property(get = __cordl_internal_get_cameraRig_, put = __cordl_internal_set_cameraRig_))::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig_;
 
   /// @brief Field leftHand_, offset 0x50, size 0x8
-  __declspec(property(get = __get_leftHand_, put = __set_leftHand_))::GlobalNamespace::OVRHand* leftHand_;
+  __declspec(property(get = __cordl_internal_get_leftHand_, put = __cordl_internal_set_leftHand_))::UnityW<::GlobalNamespace::OVRHand> leftHand_;
 
   /// @brief Field leftHandSkeleton_, offset 0x58, size 0x8
-  __declspec(property(get = __get_leftHandSkeleton_, put = __set_leftHandSkeleton_))::GlobalNamespace::OVRSkeleton* leftHandSkeleton_;
+  __declspec(property(get = __cordl_internal_get_leftHandSkeleton_, put = __cordl_internal_set_leftHandSkeleton_))::UnityW<::GlobalNamespace::OVRSkeleton> leftHandSkeleton_;
 
   /// @brief Field leftHandSkeletonRenderer_, offset 0x60, size 0x8
-  __declspec(property(get = __get_leftHandSkeletonRenderer_, put = __set_leftHandSkeletonRenderer_))::GlobalNamespace::OVRSkeletonRenderer* leftHandSkeletonRenderer_;
+  __declspec(property(get = __cordl_internal_get_leftHandSkeletonRenderer_,
+                      put = __cordl_internal_set_leftHandSkeletonRenderer_))::UnityW<::GlobalNamespace::OVRSkeletonRenderer> leftHandSkeletonRenderer_;
 
   /// @brief Field leftHandSkeletonRendererGO_, offset 0x68, size 0x8
-  __declspec(property(get = __get_leftHandSkeletonRendererGO_, put = __set_leftHandSkeletonRendererGO_))::UnityEngine::GameObject* leftHandSkeletonRendererGO_;
+  __declspec(property(get = __cordl_internal_get_leftHandSkeletonRendererGO_, put = __cordl_internal_set_leftHandSkeletonRendererGO_))::UnityW<::UnityEngine::GameObject> leftHandSkeletonRendererGO_;
 
   /// @brief Field leftHandSkinnedMeshRenderer_, offset 0x70, size 0x8
-  __declspec(property(get = __get_leftHandSkinnedMeshRenderer_, put = __set_leftHandSkinnedMeshRenderer_))::UnityEngine::SkinnedMeshRenderer* leftHandSkinnedMeshRenderer_;
+  __declspec(property(get = __cordl_internal_get_leftHandSkinnedMeshRenderer_,
+                      put = __cordl_internal_set_leftHandSkinnedMeshRenderer_))::UnityW<::UnityEngine::SkinnedMeshRenderer> leftHandSkinnedMeshRenderer_;
 
   /// @brief Field leftHandMeshRenderer_, offset 0x78, size 0x8
-  __declspec(property(get = __get_leftHandMeshRenderer_, put = __set_leftHandMeshRenderer_))::GlobalNamespace::OVRMeshRenderer* leftHandMeshRenderer_;
+  __declspec(property(get = __cordl_internal_get_leftHandMeshRenderer_, put = __cordl_internal_set_leftHandMeshRenderer_))::UnityW<::GlobalNamespace::OVRMeshRenderer> leftHandMeshRenderer_;
 
   /// @brief Field rightHand_, offset 0x80, size 0x8
-  __declspec(property(get = __get_rightHand_, put = __set_rightHand_))::GlobalNamespace::OVRHand* rightHand_;
+  __declspec(property(get = __cordl_internal_get_rightHand_, put = __cordl_internal_set_rightHand_))::UnityW<::GlobalNamespace::OVRHand> rightHand_;
 
   /// @brief Field rightHandSkeleton_, offset 0x88, size 0x8
-  __declspec(property(get = __get_rightHandSkeleton_, put = __set_rightHandSkeleton_))::GlobalNamespace::OVRSkeleton* rightHandSkeleton_;
+  __declspec(property(get = __cordl_internal_get_rightHandSkeleton_, put = __cordl_internal_set_rightHandSkeleton_))::UnityW<::GlobalNamespace::OVRSkeleton> rightHandSkeleton_;
 
   /// @brief Field rightHandSkeletonRenderer_, offset 0x90, size 0x8
-  __declspec(property(get = __get_rightHandSkeletonRenderer_, put = __set_rightHandSkeletonRenderer_))::GlobalNamespace::OVRSkeletonRenderer* rightHandSkeletonRenderer_;
+  __declspec(property(get = __cordl_internal_get_rightHandSkeletonRenderer_,
+                      put = __cordl_internal_set_rightHandSkeletonRenderer_))::UnityW<::GlobalNamespace::OVRSkeletonRenderer> rightHandSkeletonRenderer_;
 
   /// @brief Field rightHandSkeletonRendererGO_, offset 0x98, size 0x8
-  __declspec(property(get = __get_rightHandSkeletonRendererGO_, put = __set_rightHandSkeletonRendererGO_))::UnityEngine::GameObject* rightHandSkeletonRendererGO_;
+  __declspec(property(get = __cordl_internal_get_rightHandSkeletonRendererGO_,
+                      put = __cordl_internal_set_rightHandSkeletonRendererGO_))::UnityW<::UnityEngine::GameObject> rightHandSkeletonRendererGO_;
 
   /// @brief Field rightHandMeshRenderer_, offset 0xa0, size 0x8
-  __declspec(property(get = __get_rightHandMeshRenderer_, put = __set_rightHandMeshRenderer_))::GlobalNamespace::OVRMeshRenderer* rightHandMeshRenderer_;
+  __declspec(property(get = __cordl_internal_get_rightHandMeshRenderer_, put = __cordl_internal_set_rightHandMeshRenderer_))::UnityW<::GlobalNamespace::OVRMeshRenderer> rightHandMeshRenderer_;
 
   /// @brief Field rightHandSkinnedMeshRenderer_, offset 0xa8, size 0x8
-  __declspec(property(get = __get_rightHandSkinnedMeshRenderer_, put = __set_rightHandSkinnedMeshRenderer_))::UnityEngine::SkinnedMeshRenderer* rightHandSkinnedMeshRenderer_;
+  __declspec(property(get = __cordl_internal_get_rightHandSkinnedMeshRenderer_,
+                      put = __cordl_internal_set_rightHandSkinnedMeshRenderer_))::UnityW<::UnityEngine::SkinnedMeshRenderer> rightHandSkinnedMeshRenderer_;
 
   /// @brief Field <RightHandOverKeyboard>k__BackingField, offset 0xb0, size 0x1
-  __declspec(property(get = __get__RightHandOverKeyboard_k__BackingField, put = __set__RightHandOverKeyboard_k__BackingField)) bool _RightHandOverKeyboard_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__RightHandOverKeyboard_k__BackingField,
+                      put = __cordl_internal_set__RightHandOverKeyboard_k__BackingField)) bool _RightHandOverKeyboard_k__BackingField;
 
   /// @brief Field <LeftHandOverKeyboard>k__BackingField, offset 0xb1, size 0x1
-  __declspec(property(get = __get__LeftHandOverKeyboard_k__BackingField, put = __set__LeftHandOverKeyboard_k__BackingField)) bool _LeftHandOverKeyboard_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LeftHandOverKeyboard_k__BackingField, put = __cordl_internal_set__LeftHandOverKeyboard_k__BackingField)) bool _LeftHandOverKeyboard_k__BackingField;
 
   /// @brief Field lastVisibilityEvent_, offset 0xb2, size 0x3
-  __declspec(property(get = __get_lastVisibilityEvent_,
-                      put = __set_lastVisibilityEvent_))::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> lastVisibilityEvent_;
+  __declspec(
+      property(get = __cordl_internal_get_lastVisibilityEvent_,
+               put = __cordl_internal_set_lastVisibilityEvent_))::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> lastVisibilityEvent_;
 
   /// @brief Field boneMappings_, offset 0xb8, size 0x8
-  __declspec(property(
-      get = __get_boneMappings_,
-      put = __set_boneMappings_))::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> boneMappings_;
+  __declspec(property(get = __cordl_internal_get_boneMappings_,
+                      put = __cordl_internal_set_boneMappings_))::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping,
+                                                                         ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> boneMappings_;
 
   /// @brief Field HandsMaterial, offset 0xc0, size 0x8
-  __declspec(property(get = __get_HandsMaterial, put = __set_HandsMaterial))::UnityEngine::Material* HandsMaterial;
+  __declspec(property(get = __cordl_internal_get_HandsMaterial, put = __cordl_internal_set_HandsMaterial))::UnityW<::UnityEngine::Material> HandsMaterial;
 
   /// @brief Field keyboardPositionID_, offset 0xc8, size 0x4
-  __declspec(property(get = __get_keyboardPositionID_, put = __set_keyboardPositionID_)) int32_t keyboardPositionID_;
+  __declspec(property(get = __cordl_internal_get_keyboardPositionID_, put = __cordl_internal_set_keyboardPositionID_)) int32_t keyboardPositionID_;
 
   /// @brief Field keyboardRotationID_, offset 0xcc, size 0x4
-  __declspec(property(get = __get_keyboardRotationID_, put = __set_keyboardRotationID_)) int32_t keyboardRotationID_;
+  __declspec(property(get = __cordl_internal_get_keyboardRotationID_, put = __cordl_internal_set_keyboardRotationID_)) int32_t keyboardRotationID_;
 
   /// @brief Field keyboardScaleID_, offset 0xd0, size 0x4
-  __declspec(property(get = __get_keyboardScaleID_, put = __set_keyboardScaleID_)) int32_t keyboardScaleID_;
+  __declspec(property(get = __cordl_internal_get_keyboardScaleID_, put = __cordl_internal_set_keyboardScaleID_)) int32_t keyboardScaleID_;
 
   /// @brief Field handInnerAlphaThreshold_, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_handInnerAlphaThreshold_, put = setStaticF_handInnerAlphaThreshold_)) float_t handInnerAlphaThreshold_;
@@ -288,167 +295,169 @@ public:
 
   __declspec(property(get = get_AreControllersActive)) bool AreControllersActive;
 
-  constexpr ::UnityEngine::GameObject*& __get_LeftHandPresence();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_LeftHandPresence();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_LeftHandPresence() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_LeftHandPresence() const;
 
-  constexpr void __set_LeftHandPresence(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_LeftHandPresence(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_RightHandPresence();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_RightHandPresence();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_RightHandPresence() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_RightHandPresence() const;
 
-  constexpr void __set_RightHandPresence(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_RightHandPresence(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get_handPresenceInitialized_();
+  constexpr bool& __cordl_internal_get_handPresenceInitialized_();
 
-  constexpr bool const& __get_handPresenceInitialized_() const;
+  constexpr bool const& __cordl_internal_get_handPresenceInitialized_() const;
 
-  constexpr void __set_handPresenceInitialized_(bool value);
+  constexpr void __cordl_internal_set_handPresenceInitialized_(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftHandRoot_();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftHandRoot_();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftHandRoot_() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftHandRoot_() const;
 
-  constexpr void __set_leftHandRoot_(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftHandRoot_(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightHandRoot_();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightHandRoot_();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightHandRoot_() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightHandRoot_() const;
 
-  constexpr void __set_rightHandRoot_(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightHandRoot_(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::OVRTrackedKeyboard*& __get_KeyboardTracker();
+  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get_KeyboardTracker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRTrackedKeyboard*> const& __get_KeyboardTracker() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get_KeyboardTracker() const;
 
-  constexpr void __set_KeyboardTracker(::GlobalNamespace::OVRTrackedKeyboard* value);
+  constexpr void __cordl_internal_set_KeyboardTracker(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  constexpr ::GlobalNamespace::OVRCameraRig*& __get_cameraRig_();
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& __get_cameraRig_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraRig_() const;
 
-  constexpr void __set_cameraRig_(::GlobalNamespace::OVRCameraRig* value);
+  constexpr void __cordl_internal_set_cameraRig_(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  constexpr ::GlobalNamespace::OVRHand*& __get_leftHand_();
+  constexpr ::UnityW<::GlobalNamespace::OVRHand>& __cordl_internal_get_leftHand_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& __get_leftHand_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRHand> const& __cordl_internal_get_leftHand_() const;
 
-  constexpr void __set_leftHand_(::GlobalNamespace::OVRHand* value);
+  constexpr void __cordl_internal_set_leftHand_(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  constexpr ::GlobalNamespace::OVRSkeleton*& __get_leftHandSkeleton_();
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton>& __cordl_internal_get_leftHandSkeleton_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& __get_leftHandSkeleton_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton> const& __cordl_internal_get_leftHandSkeleton_() const;
 
-  constexpr void __set_leftHandSkeleton_(::GlobalNamespace::OVRSkeleton* value);
+  constexpr void __cordl_internal_set_leftHandSkeleton_(::UnityW<::GlobalNamespace::OVRSkeleton> value);
 
-  constexpr ::GlobalNamespace::OVRSkeletonRenderer*& __get_leftHandSkeletonRenderer_();
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeletonRenderer>& __cordl_internal_get_leftHandSkeletonRenderer_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeletonRenderer*> const& __get_leftHandSkeletonRenderer_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeletonRenderer> const& __cordl_internal_get_leftHandSkeletonRenderer_() const;
 
-  constexpr void __set_leftHandSkeletonRenderer_(::GlobalNamespace::OVRSkeletonRenderer* value);
+  constexpr void __cordl_internal_set_leftHandSkeletonRenderer_(::UnityW<::GlobalNamespace::OVRSkeletonRenderer> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_leftHandSkeletonRendererGO_();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_leftHandSkeletonRendererGO_();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_leftHandSkeletonRendererGO_() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_leftHandSkeletonRendererGO_() const;
 
-  constexpr void __set_leftHandSkeletonRendererGO_(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_leftHandSkeletonRendererGO_(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::SkinnedMeshRenderer*& __get_leftHandSkinnedMeshRenderer_();
+  constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer>& __cordl_internal_get_leftHandSkinnedMeshRenderer_();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SkinnedMeshRenderer*> const& __get_leftHandSkinnedMeshRenderer_() const;
+  constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer> const& __cordl_internal_get_leftHandSkinnedMeshRenderer_() const;
 
-  constexpr void __set_leftHandSkinnedMeshRenderer_(::UnityEngine::SkinnedMeshRenderer* value);
+  constexpr void __cordl_internal_set_leftHandSkinnedMeshRenderer_(::UnityW<::UnityEngine::SkinnedMeshRenderer> value);
 
-  constexpr ::GlobalNamespace::OVRMeshRenderer*& __get_leftHandMeshRenderer_();
+  constexpr ::UnityW<::GlobalNamespace::OVRMeshRenderer>& __cordl_internal_get_leftHandMeshRenderer_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRMeshRenderer*> const& __get_leftHandMeshRenderer_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRMeshRenderer> const& __cordl_internal_get_leftHandMeshRenderer_() const;
 
-  constexpr void __set_leftHandMeshRenderer_(::GlobalNamespace::OVRMeshRenderer* value);
+  constexpr void __cordl_internal_set_leftHandMeshRenderer_(::UnityW<::GlobalNamespace::OVRMeshRenderer> value);
 
-  constexpr ::GlobalNamespace::OVRHand*& __get_rightHand_();
+  constexpr ::UnityW<::GlobalNamespace::OVRHand>& __cordl_internal_get_rightHand_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& __get_rightHand_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRHand> const& __cordl_internal_get_rightHand_() const;
 
-  constexpr void __set_rightHand_(::GlobalNamespace::OVRHand* value);
+  constexpr void __cordl_internal_set_rightHand_(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  constexpr ::GlobalNamespace::OVRSkeleton*& __get_rightHandSkeleton_();
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton>& __cordl_internal_get_rightHandSkeleton_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& __get_rightHandSkeleton_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton> const& __cordl_internal_get_rightHandSkeleton_() const;
 
-  constexpr void __set_rightHandSkeleton_(::GlobalNamespace::OVRSkeleton* value);
+  constexpr void __cordl_internal_set_rightHandSkeleton_(::UnityW<::GlobalNamespace::OVRSkeleton> value);
 
-  constexpr ::GlobalNamespace::OVRSkeletonRenderer*& __get_rightHandSkeletonRenderer_();
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeletonRenderer>& __cordl_internal_get_rightHandSkeletonRenderer_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeletonRenderer*> const& __get_rightHandSkeletonRenderer_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeletonRenderer> const& __cordl_internal_get_rightHandSkeletonRenderer_() const;
 
-  constexpr void __set_rightHandSkeletonRenderer_(::GlobalNamespace::OVRSkeletonRenderer* value);
+  constexpr void __cordl_internal_set_rightHandSkeletonRenderer_(::UnityW<::GlobalNamespace::OVRSkeletonRenderer> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_rightHandSkeletonRendererGO_();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_rightHandSkeletonRendererGO_();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_rightHandSkeletonRendererGO_() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_rightHandSkeletonRendererGO_() const;
 
-  constexpr void __set_rightHandSkeletonRendererGO_(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_rightHandSkeletonRendererGO_(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::OVRMeshRenderer*& __get_rightHandMeshRenderer_();
+  constexpr ::UnityW<::GlobalNamespace::OVRMeshRenderer>& __cordl_internal_get_rightHandMeshRenderer_();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRMeshRenderer*> const& __get_rightHandMeshRenderer_() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRMeshRenderer> const& __cordl_internal_get_rightHandMeshRenderer_() const;
 
-  constexpr void __set_rightHandMeshRenderer_(::GlobalNamespace::OVRMeshRenderer* value);
+  constexpr void __cordl_internal_set_rightHandMeshRenderer_(::UnityW<::GlobalNamespace::OVRMeshRenderer> value);
 
-  constexpr ::UnityEngine::SkinnedMeshRenderer*& __get_rightHandSkinnedMeshRenderer_();
+  constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer>& __cordl_internal_get_rightHandSkinnedMeshRenderer_();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SkinnedMeshRenderer*> const& __get_rightHandSkinnedMeshRenderer_() const;
+  constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer> const& __cordl_internal_get_rightHandSkinnedMeshRenderer_() const;
 
-  constexpr void __set_rightHandSkinnedMeshRenderer_(::UnityEngine::SkinnedMeshRenderer* value);
+  constexpr void __cordl_internal_set_rightHandSkinnedMeshRenderer_(::UnityW<::UnityEngine::SkinnedMeshRenderer> value);
 
-  constexpr bool& __get__RightHandOverKeyboard_k__BackingField();
+  constexpr bool& __cordl_internal_get__RightHandOverKeyboard_k__BackingField();
 
-  constexpr bool const& __get__RightHandOverKeyboard_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__RightHandOverKeyboard_k__BackingField() const;
 
-  constexpr void __set__RightHandOverKeyboard_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__RightHandOverKeyboard_k__BackingField(bool value);
 
-  constexpr bool& __get__LeftHandOverKeyboard_k__BackingField();
+  constexpr bool& __cordl_internal_get__LeftHandOverKeyboard_k__BackingField();
 
-  constexpr bool const& __get__LeftHandOverKeyboard_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__LeftHandOverKeyboard_k__BackingField() const;
 
-  constexpr void __set__LeftHandOverKeyboard_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__LeftHandOverKeyboard_k__BackingField(bool value);
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent>& __get_lastVisibilityEvent_();
+  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent>& __cordl_internal_get_lastVisibilityEvent_();
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> const& __get_lastVisibilityEvent_() const;
+  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> const& __cordl_internal_get_lastVisibilityEvent_() const;
 
-  constexpr void __set_lastVisibilityEvent_(::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> value);
+  constexpr void __cordl_internal_set_lastVisibilityEvent_(::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*>& __get_boneMappings_();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*>& __cordl_internal_get_boneMappings_();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> const& __get_boneMappings_() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> const&
+  __cordl_internal_get_boneMappings_() const;
 
-  constexpr void __set_boneMappings_(::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> value);
+  constexpr void
+  __cordl_internal_set_boneMappings_(::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> value);
 
-  constexpr ::UnityEngine::Material*& __get_HandsMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_HandsMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_HandsMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_HandsMaterial() const;
 
-  constexpr void __set_HandsMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_HandsMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get_keyboardPositionID_();
+  constexpr int32_t& __cordl_internal_get_keyboardPositionID_();
 
-  constexpr int32_t const& __get_keyboardPositionID_() const;
+  constexpr int32_t const& __cordl_internal_get_keyboardPositionID_() const;
 
-  constexpr void __set_keyboardPositionID_(int32_t value);
+  constexpr void __cordl_internal_set_keyboardPositionID_(int32_t value);
 
-  constexpr int32_t& __get_keyboardRotationID_();
+  constexpr int32_t& __cordl_internal_get_keyboardRotationID_();
 
-  constexpr int32_t const& __get_keyboardRotationID_() const;
+  constexpr int32_t const& __cordl_internal_get_keyboardRotationID_() const;
 
-  constexpr void __set_keyboardRotationID_(int32_t value);
+  constexpr void __cordl_internal_set_keyboardRotationID_(int32_t value);
 
-  constexpr int32_t& __get_keyboardScaleID_();
+  constexpr int32_t& __cordl_internal_get_keyboardScaleID_();
 
-  constexpr int32_t const& __get_keyboardScaleID_() const;
+  constexpr int32_t const& __cordl_internal_get_keyboardScaleID_() const;
 
-  constexpr void __set_keyboardScaleID_(int32_t value);
+  constexpr void __cordl_internal_set_keyboardScaleID_(int32_t value);
 
   static inline void setStaticF_handInnerAlphaThreshold_(float_t value);
 
@@ -540,61 +549,61 @@ protected:
 
 public:
   /// @brief Field LeftHandPresence, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___LeftHandPresence;
+  ::UnityW<::UnityEngine::GameObject> ___LeftHandPresence;
 
   /// @brief Field RightHandPresence, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___RightHandPresence;
+  ::UnityW<::UnityEngine::GameObject> ___RightHandPresence;
 
   /// @brief Field handPresenceInitialized_, offset: 0x28, size: 0x1, def value: None
   bool ___handPresenceInitialized_;
 
   /// @brief Field leftHandRoot_, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftHandRoot_;
+  ::UnityW<::UnityEngine::Transform> ___leftHandRoot_;
 
   /// @brief Field rightHandRoot_, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightHandRoot_;
+  ::UnityW<::UnityEngine::Transform> ___rightHandRoot_;
 
   /// @brief Field KeyboardTracker, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::OVRTrackedKeyboard* ___KeyboardTracker;
+  ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> ___KeyboardTracker;
 
   /// @brief Field cameraRig_, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::OVRCameraRig* ___cameraRig_;
+  ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig_;
 
   /// @brief Field leftHand_, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::OVRHand* ___leftHand_;
+  ::UnityW<::GlobalNamespace::OVRHand> ___leftHand_;
 
   /// @brief Field leftHandSkeleton_, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSkeleton* ___leftHandSkeleton_;
+  ::UnityW<::GlobalNamespace::OVRSkeleton> ___leftHandSkeleton_;
 
   /// @brief Field leftHandSkeletonRenderer_, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSkeletonRenderer* ___leftHandSkeletonRenderer_;
+  ::UnityW<::GlobalNamespace::OVRSkeletonRenderer> ___leftHandSkeletonRenderer_;
 
   /// @brief Field leftHandSkeletonRendererGO_, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___leftHandSkeletonRendererGO_;
+  ::UnityW<::UnityEngine::GameObject> ___leftHandSkeletonRendererGO_;
 
   /// @brief Field leftHandSkinnedMeshRenderer_, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::SkinnedMeshRenderer* ___leftHandSkinnedMeshRenderer_;
+  ::UnityW<::UnityEngine::SkinnedMeshRenderer> ___leftHandSkinnedMeshRenderer_;
 
   /// @brief Field leftHandMeshRenderer_, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::OVRMeshRenderer* ___leftHandMeshRenderer_;
+  ::UnityW<::GlobalNamespace::OVRMeshRenderer> ___leftHandMeshRenderer_;
 
   /// @brief Field rightHand_, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::OVRHand* ___rightHand_;
+  ::UnityW<::GlobalNamespace::OVRHand> ___rightHand_;
 
   /// @brief Field rightHandSkeleton_, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSkeleton* ___rightHandSkeleton_;
+  ::UnityW<::GlobalNamespace::OVRSkeleton> ___rightHandSkeleton_;
 
   /// @brief Field rightHandSkeletonRenderer_, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSkeletonRenderer* ___rightHandSkeletonRenderer_;
+  ::UnityW<::GlobalNamespace::OVRSkeletonRenderer> ___rightHandSkeletonRenderer_;
 
   /// @brief Field rightHandSkeletonRendererGO_, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___rightHandSkeletonRendererGO_;
+  ::UnityW<::UnityEngine::GameObject> ___rightHandSkeletonRendererGO_;
 
   /// @brief Field rightHandMeshRenderer_, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::OVRMeshRenderer* ___rightHandMeshRenderer_;
+  ::UnityW<::GlobalNamespace::OVRMeshRenderer> ___rightHandMeshRenderer_;
 
   /// @brief Field rightHandSkinnedMeshRenderer_, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::SkinnedMeshRenderer* ___rightHandSkinnedMeshRenderer_;
+  ::UnityW<::UnityEngine::SkinnedMeshRenderer> ___rightHandSkinnedMeshRenderer_;
 
   /// @brief Field <RightHandOverKeyboard>k__BackingField, offset: 0xb0, size: 0x1, def value: None
   bool ____RightHandOverKeyboard_k__BackingField;
@@ -609,7 +618,7 @@ public:
   ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> ___boneMappings_;
 
   /// @brief Field HandsMaterial, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::Material* ___HandsMaterial;
+  ::UnityW<::UnityEngine::Material> ___HandsMaterial;
 
   /// @brief Field keyboardPositionID_, offset: 0xc8, size: 0x4, def value: None
   int32_t ___keyboardPositionID_;

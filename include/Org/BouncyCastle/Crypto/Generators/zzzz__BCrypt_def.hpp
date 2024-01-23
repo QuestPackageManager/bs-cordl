@@ -16,17 +16,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::BCrypt);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(887))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::BCrypt*
 class CORDL_TYPE BCrypt : public ::System::Object {
 public:
   // Declarations
   /// @brief Field S, offset 0x10, size 0x8
-  __declspec(property(get = __get_S, put = __set_S))::ArrayW<uint32_t, ::Array<uint32_t>*> S;
+  __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S))::ArrayW<uint32_t, ::Array<uint32_t>*> S;
 
   /// @brief Field P, offset 0x18, size 0x8
-  __declspec(property(get = __get_P, put = __set_P))::ArrayW<uint32_t, ::Array<uint32_t>*> P;
+  __declspec(property(get = __cordl_internal_get_P, put = __cordl_internal_set_P))::ArrayW<uint32_t, ::Array<uint32_t>*> P;
 
   /// @brief Field MAGIC_STRING, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MAGIC_STRING, put = setStaticF_MAGIC_STRING))::ArrayW<uint32_t, ::Array<uint32_t>*> MAGIC_STRING;
@@ -46,17 +46,17 @@ public:
   /// @brief Field KS3, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_KS3, put = setStaticF_KS3))::ArrayW<uint32_t, ::Array<uint32_t>*> KS3;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_S();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_S();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_S() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_S() const;
 
-  constexpr void __set_S(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_S(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_P();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_P();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_P() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_P() const;
 
-  constexpr void __set_P(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_P(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline void setStaticF_MAGIC_STRING(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 

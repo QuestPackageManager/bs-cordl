@@ -31,14 +31,14 @@ MARK_REF_PTR_T(::System::Text::EncoderReplacementFallback);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2844))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2844))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2847))
 // CS Name: ::System.Text::EncoderReplacementFallback*
 class CORDL_TYPE EncoderReplacementFallback : public ::System::Text::EncoderFallback {
 public:
   // Declarations
   /// @brief Field _strDefault, offset 0x10, size 0x8
-  __declspec(property(get = __get__strDefault, put = __set__strDefault))::StringW _strDefault;
+  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault))::StringW _strDefault;
 
   __declspec(property(get = get_DefaultString))::StringW DefaultString;
 
@@ -50,11 +50,11 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::StringW& __get__strDefault();
+  constexpr ::StringW& __cordl_internal_get__strDefault();
 
-  constexpr ::StringW const& __get__strDefault() const;
+  constexpr ::StringW const& __cordl_internal_get__strDefault() const;
 
-  constexpr void __set__strDefault(::StringW value);
+  constexpr void __cordl_internal_set__strDefault(::StringW value);
 
   static inline ::System::Text::EncoderReplacementFallback* New_ctor();
 

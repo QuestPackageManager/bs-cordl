@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ButtonStripField__UxmlTraits);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 98 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7103))
 // CS Name: ::ButtonStripField::UxmlTraits*
 class CORDL_TYPE __ButtonStripField__UxmlTraits : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<int32_t> {
@@ -71,7 +71,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Butto
 // SizeInfo { instance_size: 1040, native_size: -1, calculated_instance_size: 1040, calculated_native_size: 1040, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(7130))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7104))
 // CS Name: ::UnityEngine.UIElements::ButtonStripField*
 class CORDL_TYPE ButtonStripField : public ::UnityEngine::UIElements::BaseField_1<int32_t> {
@@ -82,15 +82,15 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__ButtonStripField__UxmlFactory;
 
   /// @brief Field m_Buttons, offset 0x408, size 0x8
-  __declspec(property(get = __get_m_Buttons, put = __set_m_Buttons))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* m_Buttons;
+  __declspec(property(get = __cordl_internal_get_m_Buttons, put = __cordl_internal_set_m_Buttons))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* m_Buttons;
 
   __declspec(property(get = get_buttons))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* buttons;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& __get_m_Buttons();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& __cordl_internal_get_m_Buttons();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*> const& __get_m_Buttons() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*> const& __cordl_internal_get_m_Buttons() const;
 
-  constexpr void __set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
+  constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
   /// @brief Method get_buttons, addr 0x2e33ce4, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* get_buttons();
@@ -135,8 +135,8 @@ static_assert(offsetof(::UnityEngine::UIElements::ButtonStripField, ___m_Buttons
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5258 }), TypeDefinitionIndex(TypeDefinitionIndex(7103)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7104))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7102)) CS Name: ::ButtonStripField::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7103)), TypeDefinitionIndex(TypeDefinitionIndex(7104)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5258 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7102)) CS Name: ::ButtonStripField::UxmlFactory*
 class CORDL_TYPE __ButtonStripField__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ButtonStripField*, ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits*> {
 public:

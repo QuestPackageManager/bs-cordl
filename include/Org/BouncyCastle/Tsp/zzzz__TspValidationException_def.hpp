@@ -16,22 +16,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TspValidationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1774))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1774))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1776))
 // CS Name: ::Org.BouncyCastle.Tsp::TspValidationException*
 class CORDL_TYPE TspValidationException : public ::Org::BouncyCastle::Tsp::TspException {
 public:
   // Declarations
   /// @brief Field failureCode, offset 0x8c, size 0x4
-  __declspec(property(get = __get_failureCode, put = __set_failureCode)) int32_t failureCode;
+  __declspec(property(get = __cordl_internal_get_failureCode, put = __cordl_internal_set_failureCode)) int32_t failureCode;
 
   __declspec(property(get = get_FailureCode)) int32_t FailureCode;
 
-  constexpr int32_t& __get_failureCode();
+  constexpr int32_t& __cordl_internal_get_failureCode();
 
-  constexpr int32_t const& __get_failureCode() const;
+  constexpr int32_t const& __cordl_internal_get_failureCode() const;
 
-  constexpr void __set_failureCode(int32_t value);
+  constexpr void __cordl_internal_set_failureCode(int32_t value);
 
   static inline ::Org::BouncyCastle::Tsp::TspValidationException* New_ctor(::StringW message);
 

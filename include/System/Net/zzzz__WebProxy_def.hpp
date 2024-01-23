@@ -50,39 +50,39 @@ MARK_REF_PTR_T(::System::Net::WebProxy);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9139))
 // CS Name: ::System.Net::WebProxy*
 class CORDL_TYPE WebProxy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _UseRegistry, offset 0x10, size 0x1
-  __declspec(property(get = __get__UseRegistry, put = __set__UseRegistry)) bool _UseRegistry;
+  __declspec(property(get = __cordl_internal_get__UseRegistry, put = __cordl_internal_set__UseRegistry)) bool _UseRegistry;
 
   /// @brief Field _BypassOnLocal, offset 0x11, size 0x1
-  __declspec(property(get = __get__BypassOnLocal, put = __set__BypassOnLocal)) bool _BypassOnLocal;
+  __declspec(property(get = __cordl_internal_get__BypassOnLocal, put = __cordl_internal_set__BypassOnLocal)) bool _BypassOnLocal;
 
   /// @brief Field m_EnableAutoproxy, offset 0x12, size 0x1
-  __declspec(property(get = __get_m_EnableAutoproxy, put = __set_m_EnableAutoproxy)) bool m_EnableAutoproxy;
+  __declspec(property(get = __cordl_internal_get_m_EnableAutoproxy, put = __cordl_internal_set_m_EnableAutoproxy)) bool m_EnableAutoproxy;
 
   /// @brief Field _ProxyAddress, offset 0x18, size 0x8
-  __declspec(property(get = __get__ProxyAddress, put = __set__ProxyAddress))::System::Uri* _ProxyAddress;
+  __declspec(property(get = __cordl_internal_get__ProxyAddress, put = __cordl_internal_set__ProxyAddress))::System::Uri* _ProxyAddress;
 
   /// @brief Field _BypassList, offset 0x20, size 0x8
-  __declspec(property(get = __get__BypassList, put = __set__BypassList))::System::Collections::ArrayList* _BypassList;
+  __declspec(property(get = __cordl_internal_get__BypassList, put = __cordl_internal_set__BypassList))::System::Collections::ArrayList* _BypassList;
 
   /// @brief Field _Credentials, offset 0x28, size 0x8
-  __declspec(property(get = __get__Credentials, put = __set__Credentials))::System::Net::ICredentials* _Credentials;
+  __declspec(property(get = __cordl_internal_get__Credentials, put = __cordl_internal_set__Credentials))::System::Net::ICredentials* _Credentials;
 
   /// @brief Field _RegExBypassList, offset 0x30, size 0x8
-  __declspec(property(get = __get__RegExBypassList,
-                      put = __set__RegExBypassList))::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*> _RegExBypassList;
+  __declspec(property(get = __cordl_internal_get__RegExBypassList,
+                      put = __cordl_internal_set__RegExBypassList))::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*> _RegExBypassList;
 
   /// @brief Field _ProxyHostAddresses, offset 0x38, size 0x8
-  __declspec(property(get = __get__ProxyHostAddresses, put = __set__ProxyHostAddresses))::System::Collections::Hashtable* _ProxyHostAddresses;
+  __declspec(property(get = __cordl_internal_get__ProxyHostAddresses, put = __cordl_internal_set__ProxyHostAddresses))::System::Collections::Hashtable* _ProxyHostAddresses;
 
   /// @brief Field m_ScriptEngine, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_ScriptEngine, put = __set_m_ScriptEngine))::System::Net::AutoWebProxyScriptEngine* m_ScriptEngine;
+  __declspec(property(get = __cordl_internal_get_m_ScriptEngine, put = __cordl_internal_set_m_ScriptEngine))::System::Net::AutoWebProxyScriptEngine* m_ScriptEngine;
 
   __declspec(property(get = get_Credentials))::System::Net::ICredentials* Credentials;
 
@@ -102,59 +102,59 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr bool& __get__UseRegistry();
+  constexpr bool& __cordl_internal_get__UseRegistry();
 
-  constexpr bool const& __get__UseRegistry() const;
+  constexpr bool const& __cordl_internal_get__UseRegistry() const;
 
-  constexpr void __set__UseRegistry(bool value);
+  constexpr void __cordl_internal_set__UseRegistry(bool value);
 
-  constexpr bool& __get__BypassOnLocal();
+  constexpr bool& __cordl_internal_get__BypassOnLocal();
 
-  constexpr bool const& __get__BypassOnLocal() const;
+  constexpr bool const& __cordl_internal_get__BypassOnLocal() const;
 
-  constexpr void __set__BypassOnLocal(bool value);
+  constexpr void __cordl_internal_set__BypassOnLocal(bool value);
 
-  constexpr bool& __get_m_EnableAutoproxy();
+  constexpr bool& __cordl_internal_get_m_EnableAutoproxy();
 
-  constexpr bool const& __get_m_EnableAutoproxy() const;
+  constexpr bool const& __cordl_internal_get_m_EnableAutoproxy() const;
 
-  constexpr void __set_m_EnableAutoproxy(bool value);
+  constexpr void __cordl_internal_set_m_EnableAutoproxy(bool value);
 
-  constexpr ::System::Uri*& __get__ProxyAddress();
+  constexpr ::System::Uri*& __cordl_internal_get__ProxyAddress();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get__ProxyAddress() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__ProxyAddress() const;
 
-  constexpr void __set__ProxyAddress(::System::Uri* value);
+  constexpr void __cordl_internal_set__ProxyAddress(::System::Uri* value);
 
-  constexpr ::System::Collections::ArrayList*& __get__BypassList();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__BypassList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__BypassList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__BypassList() const;
 
-  constexpr void __set__BypassList(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__BypassList(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Net::ICredentials*& __get__Credentials();
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get__Credentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __get__Credentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get__Credentials() const;
 
-  constexpr void __set__Credentials(::System::Net::ICredentials* value);
+  constexpr void __cordl_internal_set__Credentials(::System::Net::ICredentials* value);
 
-  constexpr ::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*>& __get__RegExBypassList();
+  constexpr ::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*>& __cordl_internal_get__RegExBypassList();
 
-  constexpr ::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*> const& __get__RegExBypassList() const;
+  constexpr ::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*> const& __cordl_internal_get__RegExBypassList() const;
 
-  constexpr void __set__RegExBypassList(::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*> value);
+  constexpr void __cordl_internal_set__RegExBypassList(::ArrayW<::System::Text::RegularExpressions::Regex*, ::Array<::System::Text::RegularExpressions::Regex*>*> value);
 
-  constexpr ::System::Collections::Hashtable*& __get__ProxyHostAddresses();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__ProxyHostAddresses();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__ProxyHostAddresses() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__ProxyHostAddresses() const;
 
-  constexpr void __set__ProxyHostAddresses(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__ProxyHostAddresses(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Net::AutoWebProxyScriptEngine*& __get_m_ScriptEngine();
+  constexpr ::System::Net::AutoWebProxyScriptEngine*& __cordl_internal_get_m_ScriptEngine();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::AutoWebProxyScriptEngine*> const& __get_m_ScriptEngine() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::AutoWebProxyScriptEngine*> const& __cordl_internal_get_m_ScriptEngine() const;
 
-  constexpr void __set_m_ScriptEngine(::System::Net::AutoWebProxyScriptEngine* value);
+  constexpr void __cordl_internal_set_m_ScriptEngine(::System::Net::AutoWebProxyScriptEngine* value);
 
   static inline ::System::Net::WebProxy* New_ctor();
 

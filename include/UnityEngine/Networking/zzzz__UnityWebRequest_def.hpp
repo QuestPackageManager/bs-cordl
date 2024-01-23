@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequest);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15576))
 // CS Name: ::UnityWebRequest::UnityWebRequestMethod
 struct CORDL_TYPE __UnityWebRequest__UnityWebRequestMethod {
@@ -123,7 +123,7 @@ static_assert(offsetof(::UnityEngine::Networking::__UnityWebRequest__UnityWebReq
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15577))
 // CS Name: ::UnityWebRequest::UnityWebRequestError
 struct CORDL_TYPE __UnityWebRequest__UnityWebRequestError {
@@ -281,7 +281,7 @@ static_assert(offsetof(::UnityEngine::Networking::__UnityWebRequest__UnityWebReq
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15578))
 // CS Name: ::UnityWebRequest::Result
 struct CORDL_TYPE __UnityWebRequest__Result {
@@ -343,7 +343,7 @@ static_assert(offsetof(::UnityEngine::Networking::__UnityWebRequest__Result, val
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15579))
 // CS Name: ::UnityEngine.Networking::UnityWebRequest*
 class CORDL_TYPE UnityWebRequest : public ::System::Object {
@@ -356,30 +356,31 @@ public:
   using UnityWebRequestMethod = ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Field m_DownloadHandler, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_DownloadHandler, put = __set_m_DownloadHandler))::UnityEngine::Networking::DownloadHandler* m_DownloadHandler;
+  __declspec(property(get = __cordl_internal_get_m_DownloadHandler, put = __cordl_internal_set_m_DownloadHandler))::UnityEngine::Networking::DownloadHandler* m_DownloadHandler;
 
   /// @brief Field m_UploadHandler, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_UploadHandler, put = __set_m_UploadHandler))::UnityEngine::Networking::UploadHandler* m_UploadHandler;
+  __declspec(property(get = __cordl_internal_get_m_UploadHandler, put = __cordl_internal_set_m_UploadHandler))::UnityEngine::Networking::UploadHandler* m_UploadHandler;
 
   /// @brief Field m_CertificateHandler, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_CertificateHandler, put = __set_m_CertificateHandler))::UnityEngine::Networking::CertificateHandler* m_CertificateHandler;
+  __declspec(property(get = __cordl_internal_get_m_CertificateHandler, put = __cordl_internal_set_m_CertificateHandler))::UnityEngine::Networking::CertificateHandler* m_CertificateHandler;
 
   /// @brief Field m_Uri, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Uri, put = __set_m_Uri))::System::Uri* m_Uri;
+  __declspec(property(get = __cordl_internal_get_m_Uri, put = __cordl_internal_set_m_Uri))::System::Uri* m_Uri;
 
   /// @brief Field <disposeCertificateHandlerOnDispose>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__disposeCertificateHandlerOnDispose_k__BackingField,
-                      put = __set__disposeCertificateHandlerOnDispose_k__BackingField)) bool _disposeCertificateHandlerOnDispose_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField,
+                      put = __cordl_internal_set__disposeCertificateHandlerOnDispose_k__BackingField)) bool _disposeCertificateHandlerOnDispose_k__BackingField;
 
   /// @brief Field <disposeDownloadHandlerOnDispose>k__BackingField, offset 0x39, size 0x1
-  __declspec(property(get = __get__disposeDownloadHandlerOnDispose_k__BackingField,
-                      put = __set__disposeDownloadHandlerOnDispose_k__BackingField)) bool _disposeDownloadHandlerOnDispose_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField,
+                      put = __cordl_internal_set__disposeDownloadHandlerOnDispose_k__BackingField)) bool _disposeDownloadHandlerOnDispose_k__BackingField;
 
   /// @brief Field <disposeUploadHandlerOnDispose>k__BackingField, offset 0x3a, size 0x1
-  __declspec(property(get = __get__disposeUploadHandlerOnDispose_k__BackingField, put = __set__disposeUploadHandlerOnDispose_k__BackingField)) bool _disposeUploadHandlerOnDispose_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField,
+                      put = __cordl_internal_set__disposeUploadHandlerOnDispose_k__BackingField)) bool _disposeUploadHandlerOnDispose_k__BackingField;
 
   __declspec(property(get = get_disposeCertificateHandlerOnDispose, put = set_disposeCertificateHandlerOnDispose)) bool disposeCertificateHandlerOnDispose;
 
@@ -421,53 +422,53 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  constexpr ::UnityEngine::Networking::DownloadHandler*& __get_m_DownloadHandler();
+  constexpr ::UnityEngine::Networking::DownloadHandler*& __cordl_internal_get_m_DownloadHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandler*> const& __get_m_DownloadHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandler*> const& __cordl_internal_get_m_DownloadHandler() const;
 
-  constexpr void __set_m_DownloadHandler(::UnityEngine::Networking::DownloadHandler* value);
+  constexpr void __cordl_internal_set_m_DownloadHandler(::UnityEngine::Networking::DownloadHandler* value);
 
-  constexpr ::UnityEngine::Networking::UploadHandler*& __get_m_UploadHandler();
+  constexpr ::UnityEngine::Networking::UploadHandler*& __cordl_internal_get_m_UploadHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UploadHandler*> const& __get_m_UploadHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UploadHandler*> const& __cordl_internal_get_m_UploadHandler() const;
 
-  constexpr void __set_m_UploadHandler(::UnityEngine::Networking::UploadHandler* value);
+  constexpr void __cordl_internal_set_m_UploadHandler(::UnityEngine::Networking::UploadHandler* value);
 
-  constexpr ::UnityEngine::Networking::CertificateHandler*& __get_m_CertificateHandler();
+  constexpr ::UnityEngine::Networking::CertificateHandler*& __cordl_internal_get_m_CertificateHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& __get_m_CertificateHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& __cordl_internal_get_m_CertificateHandler() const;
 
-  constexpr void __set_m_CertificateHandler(::UnityEngine::Networking::CertificateHandler* value);
+  constexpr void __cordl_internal_set_m_CertificateHandler(::UnityEngine::Networking::CertificateHandler* value);
 
-  constexpr ::System::Uri*& __get_m_Uri();
+  constexpr ::System::Uri*& __cordl_internal_get_m_Uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_m_Uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_Uri() const;
 
-  constexpr void __set_m_Uri(::System::Uri* value);
+  constexpr void __cordl_internal_set_m_Uri(::System::Uri* value);
 
-  constexpr bool& __get__disposeCertificateHandlerOnDispose_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField();
 
-  constexpr bool const& __get__disposeCertificateHandlerOnDispose_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField() const;
 
-  constexpr void __set__disposeCertificateHandlerOnDispose_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposeCertificateHandlerOnDispose_k__BackingField(bool value);
 
-  constexpr bool& __get__disposeDownloadHandlerOnDispose_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField();
 
-  constexpr bool const& __get__disposeDownloadHandlerOnDispose_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField() const;
 
-  constexpr void __set__disposeDownloadHandlerOnDispose_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposeDownloadHandlerOnDispose_k__BackingField(bool value);
 
-  constexpr bool& __get__disposeUploadHandlerOnDispose_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField();
 
-  constexpr bool const& __get__disposeUploadHandlerOnDispose_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField() const;
 
-  constexpr void __set__disposeUploadHandlerOnDispose_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposeUploadHandlerOnDispose_k__BackingField(bool value);
 
   /// @brief Method GetWebErrorString, addr 0x2ead9e4, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetWebErrorString(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError err);

@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1325))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSessionImpl*
 class CORDL_TYPE TlsSessionImpl : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mSessionID, offset 0x10, size 0x8
-  __declspec(property(get = __get_mSessionID, put = __set_mSessionID))::ArrayW<uint8_t, ::Array<uint8_t>*> mSessionID;
+  __declspec(property(get = __cordl_internal_get_mSessionID, put = __cordl_internal_set_mSessionID))::ArrayW<uint8_t, ::Array<uint8_t>*> mSessionID;
 
   /// @brief Field mSessionParameters, offset 0x18, size 0x8
-  __declspec(property(get = __get_mSessionParameters, put = __set_mSessionParameters))::Org::BouncyCastle::Crypto::Tls::SessionParameters* mSessionParameters;
+  __declspec(property(get = __cordl_internal_get_mSessionParameters, put = __cordl_internal_set_mSessionParameters))::Org::BouncyCastle::Crypto::Tls::SessionParameters* mSessionParameters;
 
   /// @brief Field mResumable, offset 0x20, size 0x1
-  __declspec(property(get = __get_mResumable, put = __set_mResumable)) bool mResumable;
+  __declspec(property(get = __cordl_internal_get_mResumable, put = __cordl_internal_set_mResumable)) bool mResumable;
 
   __declspec(property(get = get_SessionID))::ArrayW<uint8_t, ::Array<uint8_t>*> SessionID;
 
@@ -47,23 +47,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSession"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession* i___Org__BouncyCastle__Crypto__Tls__TlsSession() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSessionID();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSessionID();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSessionID() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSessionID() const;
 
-  constexpr void __set_mSessionID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSessionID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters*& __get_mSessionParameters();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters*& __cordl_internal_get_mSessionParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SessionParameters*> const& __get_mSessionParameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SessionParameters*> const& __cordl_internal_get_mSessionParameters() const;
 
-  constexpr void __set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value);
+  constexpr void __cordl_internal_set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value);
 
-  constexpr bool& __get_mResumable();
+  constexpr bool& __cordl_internal_get_mResumable();
 
-  constexpr bool const& __get_mResumable() const;
+  constexpr bool const& __cordl_internal_get_mResumable() const;
 
-  constexpr void __set_mResumable(bool value);
+  constexpr void __cordl_internal_set_mResumable(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
 

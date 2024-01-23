@@ -19,7 +19,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_in6);
 // SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9274))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9274))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9273))
 // CS Name: ::System.Net.NetworkInformation::sockaddr_in6
 struct CORDL_TYPE sockaddr_in6 {

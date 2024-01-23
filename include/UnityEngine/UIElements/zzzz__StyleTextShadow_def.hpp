@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleTextShadow);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6790)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6790)), TypeDefinitionIndex(TypeDefinitionIndex(7300))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7319))
 // CS Name: ::UnityEngine.UIElements::StyleTextShadow
 struct CORDL_TYPE StyleTextShadow {

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAchievementProgressList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4571 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13410))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13269)) CS Name: ::Oculus.Platform::MessageWithAchievementProgressList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 4571 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13269)) CS Name: ::Oculus.Platform::MessageWithAchievementProgressList*
 class CORDL_TYPE MessageWithAchievementProgressList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*> {
 public:
   // Declarations

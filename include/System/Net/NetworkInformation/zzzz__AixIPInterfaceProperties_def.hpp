@@ -30,22 +30,22 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixIPInterfaceProperties);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9290))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9290))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9259))
 // CS Name: ::System.Net.NetworkInformation::AixIPInterfaceProperties*
 class CORDL_TYPE AixIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
   // Declarations
   /// @brief Field _mtu, offset 0x20, size 0x4
-  __declspec(property(get = __get__mtu, put = __set__mtu)) int32_t _mtu;
+  __declspec(property(get = __cordl_internal_get__mtu, put = __cordl_internal_set__mtu)) int32_t _mtu;
 
   __declspec(property(get = get_GatewayAddresses))::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* GatewayAddresses;
 
-  constexpr int32_t& __get__mtu();
+  constexpr int32_t& __cordl_internal_get__mtu();
 
-  constexpr int32_t const& __get__mtu() const;
+  constexpr int32_t const& __cordl_internal_get__mtu() const;
 
-  constexpr void __set__mtu(int32_t value);
+  constexpr void __cordl_internal_set__mtu(int32_t value);
 
   static inline ::System::Net::NetworkInformation::AixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface,
                                                                                       ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);

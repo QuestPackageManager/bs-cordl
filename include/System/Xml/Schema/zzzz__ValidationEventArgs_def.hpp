@@ -21,33 +21,33 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11745)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11745))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11709))
 // CS Name: ::System.Xml.Schema::ValidationEventArgs*
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field ex, offset 0x10, size 0x8
-  __declspec(property(get = __get_ex, put = __set_ex))::System::Xml::Schema::XmlSchemaException* ex;
+  __declspec(property(get = __cordl_internal_get_ex, put = __cordl_internal_set_ex))::System::Xml::Schema::XmlSchemaException* ex;
 
   /// @brief Field severity, offset 0x18, size 0x4
-  __declspec(property(get = __get_severity, put = __set_severity))::System::Xml::Schema::XmlSeverityType severity;
+  __declspec(property(get = __cordl_internal_get_severity, put = __cordl_internal_set_severity))::System::Xml::Schema::XmlSeverityType severity;
 
   __declspec(property(get = get_Severity))::System::Xml::Schema::XmlSeverityType Severity;
 
   __declspec(property(get = get_Exception))::System::Xml::Schema::XmlSchemaException* Exception;
 
-  constexpr ::System::Xml::Schema::XmlSchemaException*& __get_ex();
+  constexpr ::System::Xml::Schema::XmlSchemaException*& __cordl_internal_get_ex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaException*> const& __get_ex() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaException*> const& __cordl_internal_get_ex() const;
 
-  constexpr void __set_ex(::System::Xml::Schema::XmlSchemaException* value);
+  constexpr void __cordl_internal_set_ex(::System::Xml::Schema::XmlSchemaException* value);
 
-  constexpr ::System::Xml::Schema::XmlSeverityType& __get_severity();
+  constexpr ::System::Xml::Schema::XmlSeverityType& __cordl_internal_get_severity();
 
-  constexpr ::System::Xml::Schema::XmlSeverityType const& __get_severity() const;
+  constexpr ::System::Xml::Schema::XmlSeverityType const& __cordl_internal_get_severity() const;
 
-  constexpr void __set_severity(::System::Xml::Schema::XmlSeverityType value);
+  constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
   /// @brief Method get_Severity, addr 0x28c5bf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ProgressBar__UxmlFactory);
 // SizeInfo { instance_size: 1000, native_size: -1, calculated_instance_size: 1000, calculated_native_size: 996, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7117))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7117))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7119))
 // CS Name: ::UnityEngine.UIElements::ProgressBar*
 class CORDL_TYPE ProgressBar : public ::UnityEngine::UIElements::AbstractProgressBar {
@@ -59,8 +59,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Progres
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7116)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5270 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7119)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7118)) CS Name: ::ProgressBar::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7116)), TypeDefinitionIndex(TypeDefinitionIndex(7119)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5270 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7118)) CS Name: ::ProgressBar::UxmlFactory*
 class CORDL_TYPE __ProgressBar__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ProgressBar*, ::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits*> {
 public:
   // Declarations

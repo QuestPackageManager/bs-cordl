@@ -20,38 +20,38 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMultimodalHandsAndControllersSample);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7652))
 // CS Name: ::OVRMultimodalHandsAndControllersSample*
 class CORDL_TYPE OVRMultimodalHandsAndControllersSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field enableButton, offset 0x18, size 0x8
-  __declspec(property(get = __get_enableButton, put = __set_enableButton))::UnityEngine::UI::Button* enableButton;
+  __declspec(property(get = __cordl_internal_get_enableButton, put = __cordl_internal_set_enableButton))::UnityW<::UnityEngine::UI::Button> enableButton;
 
   /// @brief Field disableButton, offset 0x20, size 0x8
-  __declspec(property(get = __get_disableButton, put = __set_disableButton))::UnityEngine::UI::Button* disableButton;
+  __declspec(property(get = __cordl_internal_get_disableButton, put = __cordl_internal_set_disableButton))::UnityW<::UnityEngine::UI::Button> disableButton;
 
   /// @brief Field displayText, offset 0x28, size 0x8
-  __declspec(property(get = __get_displayText, put = __set_displayText))::UnityEngine::UI::Text* displayText;
+  __declspec(property(get = __cordl_internal_get_displayText, put = __cordl_internal_set_displayText))::UnityW<::UnityEngine::UI::Text> displayText;
 
-  constexpr ::UnityEngine::UI::Button*& __get_enableButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_enableButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get_enableButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_enableButton() const;
 
-  constexpr void __set_enableButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set_enableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get_disableButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_disableButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get_disableButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_disableButton() const;
 
-  constexpr void __set_disableButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set_disableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_displayText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_displayText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_displayText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_displayText() const;
 
-  constexpr void __set_displayText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_displayText(::UnityW<::UnityEngine::UI::Text> value);
 
   /// @brief Method Awake, addr 0x2745e5c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
@@ -94,13 +94,13 @@ protected:
 
 public:
   /// @brief Field enableButton, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ___enableButton;
+  ::UnityW<::UnityEngine::UI::Button> ___enableButton;
 
   /// @brief Field disableButton, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ___disableButton;
+  ::UnityW<::UnityEngine::UI::Button> ___disableButton;
 
   /// @brief Field displayText, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___displayText;
+  ::UnityW<::UnityEngine::UI::Text> ___displayText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

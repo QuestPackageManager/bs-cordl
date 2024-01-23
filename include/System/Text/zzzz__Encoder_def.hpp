@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::System::Text::Encoder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2838))
 // CS Name: ::System.Text::Encoder*
 class CORDL_TYPE Encoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _fallback, offset 0x10, size 0x8
-  __declspec(property(get = __get__fallback, put = __set__fallback))::System::Text::EncoderFallback* _fallback;
+  __declspec(property(get = __cordl_internal_get__fallback, put = __cordl_internal_set__fallback))::System::Text::EncoderFallback* _fallback;
 
   /// @brief Field _fallbackBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __get__fallbackBuffer, put = __set__fallbackBuffer))::System::Text::EncoderFallbackBuffer* _fallbackBuffer;
+  __declspec(property(get = __cordl_internal_get__fallbackBuffer, put = __cordl_internal_set__fallbackBuffer))::System::Text::EncoderFallbackBuffer* _fallbackBuffer;
 
   __declspec(property(get = get_Fallback))::System::Text::EncoderFallback* Fallback;
 
@@ -41,17 +41,17 @@ public:
 
   __declspec(property(get = get_InternalHasFallbackBuffer)) bool InternalHasFallbackBuffer;
 
-  constexpr ::System::Text::EncoderFallback*& __get__fallback();
+  constexpr ::System::Text::EncoderFallback*& __cordl_internal_get__fallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallback*> const& __get__fallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallback*> const& __cordl_internal_get__fallback() const;
 
-  constexpr void __set__fallback(::System::Text::EncoderFallback* value);
+  constexpr void __cordl_internal_set__fallback(::System::Text::EncoderFallback* value);
 
-  constexpr ::System::Text::EncoderFallbackBuffer*& __get__fallbackBuffer();
+  constexpr ::System::Text::EncoderFallbackBuffer*& __cordl_internal_get__fallbackBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallbackBuffer*> const& __get__fallbackBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallbackBuffer*> const& __cordl_internal_get__fallbackBuffer() const;
 
-  constexpr void __set__fallbackBuffer(::System::Text::EncoderFallbackBuffer* value);
+  constexpr void __cordl_internal_set__fallbackBuffer(::System::Text::EncoderFallbackBuffer* value);
 
   static inline ::System::Text::Encoder* New_ctor();
 

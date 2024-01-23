@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type2Message);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13765))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13765))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13770))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type2Message*
 class CORDL_TYPE Type2Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
   // Declarations
   /// @brief Field _nonce, offset 0x18, size 0x8
-  __declspec(property(get = __get__nonce, put = __set__nonce))::ArrayW<uint8_t, ::Array<uint8_t>*> _nonce;
+  __declspec(property(get = __cordl_internal_get__nonce, put = __cordl_internal_set__nonce))::ArrayW<uint8_t, ::Array<uint8_t>*> _nonce;
 
   /// @brief Field _targetName, offset 0x20, size 0x8
-  __declspec(property(get = __get__targetName, put = __set__targetName))::StringW _targetName;
+  __declspec(property(get = __cordl_internal_get__targetName, put = __cordl_internal_set__targetName))::StringW _targetName;
 
   /// @brief Field _targetInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get__targetInfo, put = __set__targetInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> _targetInfo;
+  __declspec(property(get = __cordl_internal_get__targetInfo, put = __cordl_internal_set__targetInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> _targetInfo;
 
   __declspec(property(get = get_Nonce))::ArrayW<uint8_t, ::Array<uint8_t>*> Nonce;
 
@@ -38,23 +38,23 @@ public:
 
   __declspec(property(get = get_TargetInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> TargetInfo;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__nonce();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__nonce();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__nonce() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__nonce() const;
 
-  constexpr void __set__nonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__nonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get__targetName();
+  constexpr ::StringW& __cordl_internal_get__targetName();
 
-  constexpr ::StringW const& __get__targetName() const;
+  constexpr ::StringW const& __cordl_internal_get__targetName() const;
 
-  constexpr void __set__targetName(::StringW value);
+  constexpr void __cordl_internal_set__targetName(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__targetInfo();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__targetInfo();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__targetInfo() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__targetInfo() const;
 
-  constexpr void __set__targetInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__targetInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Mono::Security::Protocol::Ntlm::Type2Message* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 

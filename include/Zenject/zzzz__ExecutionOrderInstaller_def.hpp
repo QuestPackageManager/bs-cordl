@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::Zenject::ExecutionOrderInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1695 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(11132), inst: 3906 }), TypeDefinitionIndex(TypeDefinitionIndex(2494)), TypeDefinitionIndex(TypeDefinitionIndex(11132))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2494)), TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(11132)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1695 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3906 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(11351)) CS Name: ::Zenject::ExecutionOrderInstaller*
 class CORDL_TYPE ExecutionOrderInstaller : public ::Zenject::Installer_2<::System::Collections::Generic::List_1<::System::Type*>*, ::Zenject::ExecutionOrderInstaller*> {
 public:
   // Declarations
   /// @brief Field _typeOrder, offset 0x18, size 0x8
-  __declspec(property(get = __get__typeOrder, put = __set__typeOrder))::System::Collections::Generic::List_1<::System::Type*>* _typeOrder;
+  __declspec(property(get = __cordl_internal_get__typeOrder, put = __cordl_internal_set__typeOrder))::System::Collections::Generic::List_1<::System::Type*>* _typeOrder;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __get__typeOrder();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__typeOrder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __get__typeOrder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get__typeOrder() const;
 
-  constexpr void __set__typeOrder(::System::Collections::Generic::List_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set__typeOrder(::System::Collections::Generic::List_1<::System::Type*>* value);
 
   static inline ::Zenject::ExecutionOrderInstaller* New_ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
 

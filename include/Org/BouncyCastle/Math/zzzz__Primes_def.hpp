@@ -40,17 +40,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::__Primes__STOutput);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1602))
 // CS Name: ::Primes::MROutput*
 class CORDL_TYPE __Primes__MROutput : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mProvablyComposite, offset 0x10, size 0x1
-  __declspec(property(get = __get_mProvablyComposite, put = __set_mProvablyComposite)) bool mProvablyComposite;
+  __declspec(property(get = __cordl_internal_get_mProvablyComposite, put = __cordl_internal_set_mProvablyComposite)) bool mProvablyComposite;
 
   /// @brief Field mFactor, offset 0x18, size 0x8
-  __declspec(property(get = __get_mFactor, put = __set_mFactor))::Org::BouncyCastle::Math::BigInteger* mFactor;
+  __declspec(property(get = __cordl_internal_get_mFactor, put = __cordl_internal_set_mFactor))::Org::BouncyCastle::Math::BigInteger* mFactor;
 
   __declspec(property(get = get_Factor))::Org::BouncyCastle::Math::BigInteger* Factor;
 
@@ -58,17 +58,17 @@ public:
 
   __declspec(property(get = get_IsNotPrimePower)) bool IsNotPrimePower;
 
-  constexpr bool& __get_mProvablyComposite();
+  constexpr bool& __cordl_internal_get_mProvablyComposite();
 
-  constexpr bool const& __get_mProvablyComposite() const;
+  constexpr bool const& __cordl_internal_get_mProvablyComposite() const;
 
-  constexpr void __set_mProvablyComposite(bool value);
+  constexpr void __cordl_internal_set_mProvablyComposite(bool value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_mFactor();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_mFactor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_mFactor() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_mFactor() const;
 
-  constexpr void __set_mFactor(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_mFactor(::Org::BouncyCastle::Math::BigInteger* value);
 
   /// @brief Method ProbablyPrime, addr 0x109b608, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::__Primes__MROutput* ProbablyPrime();
@@ -127,20 +127,20 @@ static_assert(offsetof(::Org::BouncyCastle::Math::__Primes__MROutput, ___mFactor
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1603))
 // CS Name: ::Primes::STOutput*
 class CORDL_TYPE __Primes__STOutput : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mPrime, offset 0x10, size 0x8
-  __declspec(property(get = __get_mPrime, put = __set_mPrime))::Org::BouncyCastle::Math::BigInteger* mPrime;
+  __declspec(property(get = __cordl_internal_get_mPrime, put = __cordl_internal_set_mPrime))::Org::BouncyCastle::Math::BigInteger* mPrime;
 
   /// @brief Field mPrimeSeed, offset 0x18, size 0x8
-  __declspec(property(get = __get_mPrimeSeed, put = __set_mPrimeSeed))::ArrayW<uint8_t, ::Array<uint8_t>*> mPrimeSeed;
+  __declspec(property(get = __cordl_internal_get_mPrimeSeed, put = __cordl_internal_set_mPrimeSeed))::ArrayW<uint8_t, ::Array<uint8_t>*> mPrimeSeed;
 
   /// @brief Field mPrimeGenCounter, offset 0x20, size 0x4
-  __declspec(property(get = __get_mPrimeGenCounter, put = __set_mPrimeGenCounter)) int32_t mPrimeGenCounter;
+  __declspec(property(get = __cordl_internal_get_mPrimeGenCounter, put = __cordl_internal_set_mPrimeGenCounter)) int32_t mPrimeGenCounter;
 
   __declspec(property(get = get_Prime))::Org::BouncyCastle::Math::BigInteger* Prime;
 
@@ -148,23 +148,23 @@ public:
 
   __declspec(property(get = get_PrimeGenCounter)) int32_t PrimeGenCounter;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_mPrime();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_mPrime();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_mPrime() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_mPrime() const;
 
-  constexpr void __set_mPrime(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_mPrime(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPrimeSeed();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPrimeSeed();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPrimeSeed() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPrimeSeed() const;
 
-  constexpr void __set_mPrimeSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPrimeSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mPrimeGenCounter();
+  constexpr int32_t& __cordl_internal_get_mPrimeGenCounter();
 
-  constexpr int32_t const& __get_mPrimeGenCounter() const;
+  constexpr int32_t const& __cordl_internal_get_mPrimeGenCounter() const;
 
-  constexpr void __set_mPrimeGenCounter(int32_t value);
+  constexpr void __cordl_internal_set_mPrimeGenCounter(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::__Primes__STOutput* New_ctor(::Org::BouncyCastle::Math::BigInteger* prime, ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed, int32_t primeGenCounter);
 
@@ -219,7 +219,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::__Primes__STOutput, ___mPrimeG
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1604))
 // CS Name: ::Org.BouncyCastle.Math::Primes*
 class CORDL_TYPE Primes : public ::System::Object {

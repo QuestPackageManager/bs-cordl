@@ -12,10 +12,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x217289c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InstancedInput*>::get(), "IsEquivalentTo", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InstancedInput*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InstancedInput*>::get(), "IsEquivalentTo", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InstancedInput*>::get() })));
     return ___internal_method;
   }
 };
@@ -26,9 +26,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x2172a3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InstancedInput*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,54 +41,54 @@ constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Instanced
 HoudiniEngineUnity::HEU_InstancedInput::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InstancedInput__() noexcept {
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*>(static_cast<void*>(this));
 }
-constexpr ::UnityEngine::GameObject*& HoudiniEngineUnity::HEU_InstancedInput::__get__instancedGameObject() {
+constexpr ::UnityW<::UnityEngine::GameObject>& HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_get__instancedGameObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancedGameObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& HoudiniEngineUnity::HEU_InstancedInput::__get__instancedGameObject() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_get__instancedGameObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancedGameObject;
 }
-constexpr void HoudiniEngineUnity::HEU_InstancedInput::__set__instancedGameObject(::UnityEngine::GameObject* value) {
+constexpr void HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_set__instancedGameObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instancedGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InstancedInput::__get__rotationOffset() {
+constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_get__rotationOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationOffset;
 }
-constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InstancedInput::__get__rotationOffset() const {
+constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_get__rotationOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationOffset;
 }
-constexpr void HoudiniEngineUnity::HEU_InstancedInput::__set__rotationOffset(::UnityEngine::Vector3 value) {
+constexpr void HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_set__rotationOffset(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationOffset = value;
 }
-constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InstancedInput::__get__scaleOffset() {
+constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_get__scaleOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleOffset;
 }
-constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InstancedInput::__get__scaleOffset() const {
+constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_get__scaleOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleOffset;
 }
-constexpr void HoudiniEngineUnity::HEU_InstancedInput::__set__scaleOffset(::UnityEngine::Vector3 value) {
+constexpr void HoudiniEngineUnity::HEU_InstancedInput::__cordl_internal_set__scaleOffset(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scaleOffset = value;
 }
 inline bool HoudiniEngineUnity::HEU_InstancedInput::IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InstancedInput*>::get(), "IsEquivalentTo", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InstancedInput*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InstancedInput*>::get(), "IsEquivalentTo", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InstancedInput*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 inline ::HoudiniEngineUnity::HEU_InstancedInput* HoudiniEngineUnity::HEU_InstancedInput::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HoudiniEngineUnity::HEU_InstancedInput*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_InstancedInput*>());
 }
 inline void HoudiniEngineUnity::HEU_InstancedInput::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InstancedInput*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::Physics2DRaycaster);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13212))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13212))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13210))
 // CS Name: ::UnityEngine.EventSystems::Physics2DRaycaster*
 class CORDL_TYPE Physics2DRaycaster : public ::UnityEngine::EventSystems::PhysicsRaycaster {
 public:
   // Declarations
   /// @brief Field m_Hits, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Hits, put = __set_m_Hits))::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> m_Hits;
+  __declspec(property(get = __cordl_internal_get_m_Hits, put = __cordl_internal_set_m_Hits))::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> m_Hits;
 
-  constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>& __get_m_Hits();
+  constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>& __cordl_internal_get_m_Hits();
 
-  constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> const& __get_m_Hits() const;
+  constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> const& __cordl_internal_get_m_Hits() const;
 
-  constexpr void __set_m_Hits(::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> value);
+  constexpr void __cordl_internal_set_m_Hits(::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> value);
 
   static inline ::UnityEngine::EventSystems::Physics2DRaycaster* New_ctor();
 

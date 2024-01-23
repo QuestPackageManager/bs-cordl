@@ -12,30 +12,30 @@
 //  Writing Method size for method: ::GlobalNamespace::OVRPlayerController.add_TransformUpdated
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityEngine::Transform*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRPlayerController::add_TransformUpdated)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x27b6ee4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_TransformUpdated", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRPlayerController.remove_TransformUpdated
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityEngine::Transform*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRPlayerController::remove_TransformUpdated)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x27b6f94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_TransformUpdated", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -47,10 +47,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x27b7044;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_CameraUpdated",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_CameraUpdated",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -62,10 +62,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x27b70e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_CameraUpdated",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_CameraUpdated",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -77,10 +77,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x27b717c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_PreCharacterMove",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_PreCharacterMove",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -92,10 +92,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x27b7218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_PreCharacterMove",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_PreCharacterMove",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -107,9 +107,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27b72b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(),
-                                                                               "get_InitialYRotation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_InitialYRotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -121,10 +121,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27b72bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "set_InitialYRotation",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "set_InitialYRotation",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -135,9 +135,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x27b72c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -148,9 +148,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c8;
   constexpr static std::size_t addrs = 0x27b7388;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -161,9 +161,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x27b7550;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "OnEnable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -174,9 +174,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x27b7554;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "OnDisable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -187,9 +187,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x27b76f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -200,7 +200,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6f0;
   constexpr static std::size_t addrs = 0x27b78ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), 4));
@@ -214,7 +214,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc94;
   constexpr static std::size_t addrs = 0x27b7fdc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), 5));
@@ -229,10 +229,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x27b8c70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "UpdateTransform", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRCameraRig*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "UpdateTransform", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRCameraRig*>::get() })));
     return ___internal_method;
   }
 };
@@ -243,9 +243,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x27b8df8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Jump",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -256,9 +256,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x27b8e78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Stop",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -270,10 +270,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x27b8f1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetMoveScaleMultiplier",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetMoveScaleMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -285,10 +285,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27b8f28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetMoveScaleMultiplier",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetMoveScaleMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -300,10 +300,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x27b8f30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetRotationScaleMultiplier",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetRotationScaleMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -315,10 +315,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27b8f3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetRotationScaleMultiplier",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetRotationScaleMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -330,10 +330,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x27b8f44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetSkipMouseRotation",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetSkipMouseRotation",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -345,10 +345,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x27b8f50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetSkipMouseRotation",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -360,10 +360,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x27b8f5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetHaltUpdateMovement",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetHaltUpdateMovement",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -375,10 +375,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x27b8f68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetHaltUpdateMovement",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -389,9 +389,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x27b8f74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(),
-                                                                               "ResetOrientation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "ResetOrientation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -402,538 +402,538 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x27b9038;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_Acceleration() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Acceleration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Acceleration;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_Acceleration() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Acceleration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Acceleration;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_Acceleration(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_Acceleration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Acceleration = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_Damping() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Damping() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Damping;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_Damping() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Damping() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Damping;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_Damping(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_Damping(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Damping = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_BackAndSideDampen() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_BackAndSideDampen() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BackAndSideDampen;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_BackAndSideDampen() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_BackAndSideDampen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BackAndSideDampen;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_BackAndSideDampen(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_BackAndSideDampen(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BackAndSideDampen = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_JumpForce() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_JumpForce() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___JumpForce;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_JumpForce() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_JumpForce() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___JumpForce;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_JumpForce(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_JumpForce(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___JumpForce = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_RotationAmount() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationAmount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationAmount;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_RotationAmount() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationAmount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationAmount;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_RotationAmount(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_RotationAmount(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RotationAmount = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_RotationRatchet() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationRatchet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationRatchet;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_RotationRatchet() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationRatchet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationRatchet;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_RotationRatchet(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_RotationRatchet(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RotationRatchet = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_SnapRotation() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_SnapRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SnapRotation;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_SnapRotation() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_SnapRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SnapRotation;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_SnapRotation(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_SnapRotation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SnapRotation = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_RotateAroundGuardianCenter() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotateAroundGuardianCenter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotateAroundGuardianCenter;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_RotateAroundGuardianCenter() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotateAroundGuardianCenter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotateAroundGuardianCenter;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_RotateAroundGuardianCenter(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_RotateAroundGuardianCenter(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RotateAroundGuardianCenter = value;
 }
-constexpr int32_t& GlobalNamespace::OVRPlayerController::__get_FixedSpeedSteps() {
+constexpr int32_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_FixedSpeedSteps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FixedSpeedSteps;
 }
-constexpr int32_t const& GlobalNamespace::OVRPlayerController::__get_FixedSpeedSteps() const {
+constexpr int32_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_FixedSpeedSteps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FixedSpeedSteps;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_FixedSpeedSteps(int32_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_FixedSpeedSteps(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FixedSpeedSteps = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_HmdResetsY() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_HmdResetsY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HmdResetsY;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_HmdResetsY() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_HmdResetsY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HmdResetsY;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_HmdResetsY(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_HmdResetsY(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HmdResetsY = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_HmdRotatesY() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_HmdRotatesY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HmdRotatesY;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_HmdRotatesY() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_HmdRotatesY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HmdRotatesY;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_HmdRotatesY(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_HmdRotatesY(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HmdRotatesY = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_GravityModifier() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_GravityModifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___GravityModifier;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_GravityModifier() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_GravityModifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___GravityModifier;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_GravityModifier(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_GravityModifier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___GravityModifier = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_useProfileData() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_useProfileData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useProfileData;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_useProfileData() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_useProfileData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useProfileData;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_useProfileData(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_useProfileData(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useProfileData = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_CameraHeight() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_CameraHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraHeight;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_CameraHeight() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_CameraHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraHeight;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_CameraHeight(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_CameraHeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CameraHeight = value;
 }
-constexpr ::System::Action_1<::UnityEngine::Transform*>*& GlobalNamespace::OVRPlayerController::__get_TransformUpdated() {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>*& GlobalNamespace::OVRPlayerController::__cordl_internal_get_TransformUpdated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TransformUpdated;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Transform*>*> const& GlobalNamespace::OVRPlayerController::__get_TransformUpdated() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::Transform>>*> const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_TransformUpdated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TransformUpdated;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_TransformUpdated(::System::Action_1<::UnityEngine::Transform*>* value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TransformUpdated)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_Teleported() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Teleported() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Teleported;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_Teleported() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Teleported() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Teleported;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_Teleported(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_Teleported(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Teleported = value;
 }
-constexpr ::System::Action*& GlobalNamespace::OVRPlayerController::__get_CameraUpdated() {
+constexpr ::System::Action*& GlobalNamespace::OVRPlayerController::__cordl_internal_get_CameraUpdated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraUpdated;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRPlayerController::__get_CameraUpdated() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_CameraUpdated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraUpdated;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_CameraUpdated(::System::Action* value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_CameraUpdated(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CameraUpdated)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::OVRPlayerController::__get_PreCharacterMove() {
+constexpr ::System::Action*& GlobalNamespace::OVRPlayerController::__cordl_internal_get_PreCharacterMove() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreCharacterMove;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRPlayerController::__get_PreCharacterMove() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_PreCharacterMove() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreCharacterMove;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_PreCharacterMove(::System::Action* value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_PreCharacterMove(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PreCharacterMove)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_EnableLinearMovement() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_EnableLinearMovement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EnableLinearMovement;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_EnableLinearMovement() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_EnableLinearMovement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EnableLinearMovement;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_EnableLinearMovement(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_EnableLinearMovement(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EnableLinearMovement = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_EnableRotation() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_EnableRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EnableRotation;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_EnableRotation() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_EnableRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EnableRotation;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_EnableRotation(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_EnableRotation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EnableRotation = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_RotationEitherThumbstick() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationEitherThumbstick() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationEitherThumbstick;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_RotationEitherThumbstick() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationEitherThumbstick() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationEitherThumbstick;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_RotationEitherThumbstick(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_RotationEitherThumbstick(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RotationEitherThumbstick = value;
 }
-constexpr ::UnityEngine::CharacterController*& GlobalNamespace::OVRPlayerController::__get_Controller() {
+constexpr ::UnityW<::UnityEngine::CharacterController>& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Controller() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Controller;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CharacterController*> const& GlobalNamespace::OVRPlayerController::__get_Controller() const {
+constexpr ::UnityW<::UnityEngine::CharacterController> const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_Controller() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Controller;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_Controller(::UnityEngine::CharacterController* value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_Controller(::UnityW<::UnityEngine::CharacterController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Controller)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OVRCameraRig*& GlobalNamespace::OVRPlayerController::__get_CameraRig() {
+constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& GlobalNamespace::OVRPlayerController::__cordl_internal_get_CameraRig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraRig;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& GlobalNamespace::OVRPlayerController::__get_CameraRig() const {
+constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_CameraRig() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraRig;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_CameraRig(::GlobalNamespace::OVRCameraRig* value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_CameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CameraRig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_MoveScale() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_MoveScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoveScale;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_MoveScale() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_MoveScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoveScale;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_MoveScale(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_MoveScale(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MoveScale = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRPlayerController::__get_MoveThrottle() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRPlayerController::__cordl_internal_get_MoveThrottle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoveThrottle;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRPlayerController::__get_MoveThrottle() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_MoveThrottle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoveThrottle;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_MoveThrottle(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_MoveThrottle(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MoveThrottle = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_FallSpeed() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_FallSpeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FallSpeed;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_FallSpeed() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_FallSpeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FallSpeed;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_FallSpeed(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_FallSpeed(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FallSpeed = value;
 }
-constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose>& GlobalNamespace::OVRPlayerController::__get_InitialPose() {
+constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose>& GlobalNamespace::OVRPlayerController::__cordl_internal_get_InitialPose() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialPose;
 }
-constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose> const& GlobalNamespace::OVRPlayerController::__get_InitialPose() const {
+constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose> const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_InitialPose() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialPose;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_InitialPose(::System::Nullable_1<::GlobalNamespace::OVRPose> value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_InitialPose(::System::Nullable_1<::GlobalNamespace::OVRPose> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InitialPose = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get__InitialYRotation_k__BackingField() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get__InitialYRotation_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InitialYRotation_k__BackingField;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get__InitialYRotation_k__BackingField() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get__InitialYRotation_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InitialYRotation_k__BackingField;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set__InitialYRotation_k__BackingField(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set__InitialYRotation_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____InitialYRotation_k__BackingField = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_MoveScaleMultiplier() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_MoveScaleMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoveScaleMultiplier;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_MoveScaleMultiplier() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_MoveScaleMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoveScaleMultiplier;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_MoveScaleMultiplier(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_MoveScaleMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MoveScaleMultiplier = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_RotationScaleMultiplier() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationScaleMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationScaleMultiplier;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_RotationScaleMultiplier() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_RotationScaleMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RotationScaleMultiplier;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_RotationScaleMultiplier(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_RotationScaleMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RotationScaleMultiplier = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_SkipMouseRotation() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_SkipMouseRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SkipMouseRotation;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_SkipMouseRotation() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_SkipMouseRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SkipMouseRotation;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_SkipMouseRotation(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_SkipMouseRotation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SkipMouseRotation = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_HaltUpdateMovement() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_HaltUpdateMovement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HaltUpdateMovement;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_HaltUpdateMovement() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_HaltUpdateMovement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HaltUpdateMovement;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_HaltUpdateMovement(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_HaltUpdateMovement(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HaltUpdateMovement = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_prevHatLeft() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_prevHatLeft() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevHatLeft;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_prevHatLeft() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_prevHatLeft() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevHatLeft;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_prevHatLeft(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_prevHatLeft(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prevHatLeft = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_prevHatRight() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_prevHatRight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevHatRight;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_prevHatRight() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_prevHatRight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevHatRight;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_prevHatRight(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_prevHatRight(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prevHatRight = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_SimulationRate() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_SimulationRate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SimulationRate;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_SimulationRate() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_SimulationRate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SimulationRate;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_SimulationRate(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_SimulationRate(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SimulationRate = value;
 }
-constexpr float_t& GlobalNamespace::OVRPlayerController::__get_buttonRotation() {
+constexpr float_t& GlobalNamespace::OVRPlayerController::__cordl_internal_get_buttonRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonRotation;
 }
-constexpr float_t const& GlobalNamespace::OVRPlayerController::__get_buttonRotation() const {
+constexpr float_t const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_buttonRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonRotation;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_buttonRotation(float_t value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_buttonRotation(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buttonRotation = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_ReadyToSnapTurn() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_ReadyToSnapTurn() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReadyToSnapTurn;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_ReadyToSnapTurn() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_ReadyToSnapTurn() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReadyToSnapTurn;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_ReadyToSnapTurn(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_ReadyToSnapTurn(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ReadyToSnapTurn = value;
 }
-constexpr bool& GlobalNamespace::OVRPlayerController::__get_playerControllerEnabled() {
+constexpr bool& GlobalNamespace::OVRPlayerController::__cordl_internal_get_playerControllerEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerControllerEnabled;
 }
-constexpr bool const& GlobalNamespace::OVRPlayerController::__get_playerControllerEnabled() const {
+constexpr bool const& GlobalNamespace::OVRPlayerController::__cordl_internal_get_playerControllerEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerControllerEnabled;
 }
-constexpr void GlobalNamespace::OVRPlayerController::__set_playerControllerEnabled(bool value) {
+constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_playerControllerEnabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerControllerEnabled = value;
 }
-inline void GlobalNamespace::OVRPlayerController::add_TransformUpdated(::System::Action_1<::UnityEngine::Transform*>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_TransformUpdated", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+inline void GlobalNamespace::OVRPlayerController::add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRPlayerController::remove_TransformUpdated(::System::Action_1<::UnityEngine::Transform*>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_TransformUpdated", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+inline void GlobalNamespace::OVRPlayerController::remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRPlayerController::add_CameraUpdated(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_CameraUpdated", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_CameraUpdated", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRPlayerController::remove_CameraUpdated(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_CameraUpdated",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_CameraUpdated",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRPlayerController::add_PreCharacterMove(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_PreCharacterMove",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_PreCharacterMove",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRPlayerController::remove_PreCharacterMove(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_PreCharacterMove",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_PreCharacterMove",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t GlobalNamespace::OVRPlayerController::get_InitialYRotation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(),
-                                                                             "get_InitialYRotation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_InitialYRotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::set_InitialYRotation(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "set_InitialYRotation",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRPlayerController::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "OnEnable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "OnDisable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::UpdateController() {
@@ -947,80 +947,80 @@ inline void GlobalNamespace::OVRPlayerController::UpdateMovement() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::UpdateTransform(::GlobalNamespace::OVRCameraRig* rig) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "UpdateTransform", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRCameraRig*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "UpdateTransform", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRCameraRig*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rig);
 }
 inline bool GlobalNamespace::OVRPlayerController::Jump() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Jump",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::Stop() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "Stop",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRPlayerController::GetMoveScaleMultiplier(ByRef<float_t> moveScaleMultiplier) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetMoveScaleMultiplier",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetMoveScaleMultiplier",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, moveScaleMultiplier);
 }
 inline void GlobalNamespace::OVRPlayerController::SetMoveScaleMultiplier(float_t moveScaleMultiplier) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetMoveScaleMultiplier",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, moveScaleMultiplier);
 }
 inline void GlobalNamespace::OVRPlayerController::GetRotationScaleMultiplier(ByRef<float_t> rotationScaleMultiplier) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetRotationScaleMultiplier",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetRotationScaleMultiplier",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rotationScaleMultiplier);
 }
 inline void GlobalNamespace::OVRPlayerController::SetRotationScaleMultiplier(float_t rotationScaleMultiplier) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetRotationScaleMultiplier",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rotationScaleMultiplier);
 }
 inline void GlobalNamespace::OVRPlayerController::GetSkipMouseRotation(ByRef<bool> skipMouseRotation) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetSkipMouseRotation",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetSkipMouseRotation",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, skipMouseRotation);
 }
 inline void GlobalNamespace::OVRPlayerController::SetSkipMouseRotation(bool skipMouseRotation) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetSkipMouseRotation",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, skipMouseRotation);
 }
 inline void GlobalNamespace::OVRPlayerController::GetHaltUpdateMovement(ByRef<bool> haltUpdateMovement) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetHaltUpdateMovement",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "GetHaltUpdateMovement",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, haltUpdateMovement);
 }
 inline void GlobalNamespace::OVRPlayerController::SetHaltUpdateMovement(bool haltUpdateMovement) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "SetHaltUpdateMovement",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, haltUpdateMovement);
 }
 inline void GlobalNamespace::OVRPlayerController::ResetOrientation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "ResetOrientation",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::OVRPlayerController* GlobalNamespace::OVRPlayerController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::OVRPlayerController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRPlayerController*>());
 }
 inline void GlobalNamespace::OVRPlayerController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

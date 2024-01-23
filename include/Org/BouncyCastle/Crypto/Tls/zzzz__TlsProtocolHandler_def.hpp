@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1293))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1293))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1315))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsProtocolHandler*
 class CORDL_TYPE TlsProtocolHandler : public ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol {

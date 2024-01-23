@@ -29,58 +29,58 @@ MARK_REF_PTR_T(::Zenject::MonoKernel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11323))
 // CS Name: ::Zenject::MonoKernel*
 class CORDL_TYPE MonoKernel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _tickableManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__tickableManager, put = __set__tickableManager))::Zenject::TickableManager* _tickableManager;
+  __declspec(property(get = __cordl_internal_get__tickableManager, put = __cordl_internal_set__tickableManager))::Zenject::TickableManager* _tickableManager;
 
   /// @brief Field _initializableManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__initializableManager, put = __set__initializableManager))::Zenject::InitializableManager* _initializableManager;
+  __declspec(property(get = __cordl_internal_get__initializableManager, put = __cordl_internal_set__initializableManager))::Zenject::InitializableManager* _initializableManager;
 
   /// @brief Field _disposablesManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__disposablesManager, put = __set__disposablesManager))::Zenject::DisposableManager* _disposablesManager;
+  __declspec(property(get = __cordl_internal_get__disposablesManager, put = __cordl_internal_set__disposablesManager))::Zenject::DisposableManager* _disposablesManager;
 
   /// @brief Field _hasInitialized, offset 0x30, size 0x1
-  __declspec(property(get = __get__hasInitialized, put = __set__hasInitialized)) bool _hasInitialized;
+  __declspec(property(get = __cordl_internal_get__hasInitialized, put = __cordl_internal_set__hasInitialized)) bool _hasInitialized;
 
   /// @brief Field _isDestroyed, offset 0x31, size 0x1
-  __declspec(property(get = __get__isDestroyed, put = __set__isDestroyed)) bool _isDestroyed;
+  __declspec(property(get = __cordl_internal_get__isDestroyed, put = __cordl_internal_set__isDestroyed)) bool _isDestroyed;
 
   __declspec(property(get = get_IsDestroyed)) bool IsDestroyed;
 
-  constexpr ::Zenject::TickableManager*& __get__tickableManager();
+  constexpr ::Zenject::TickableManager*& __cordl_internal_get__tickableManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::TickableManager*> const& __get__tickableManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::TickableManager*> const& __cordl_internal_get__tickableManager() const;
 
-  constexpr void __set__tickableManager(::Zenject::TickableManager* value);
+  constexpr void __cordl_internal_set__tickableManager(::Zenject::TickableManager* value);
 
-  constexpr ::Zenject::InitializableManager*& __get__initializableManager();
+  constexpr ::Zenject::InitializableManager*& __cordl_internal_get__initializableManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InitializableManager*> const& __get__initializableManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InitializableManager*> const& __cordl_internal_get__initializableManager() const;
 
-  constexpr void __set__initializableManager(::Zenject::InitializableManager* value);
+  constexpr void __cordl_internal_set__initializableManager(::Zenject::InitializableManager* value);
 
-  constexpr ::Zenject::DisposableManager*& __get__disposablesManager();
+  constexpr ::Zenject::DisposableManager*& __cordl_internal_get__disposablesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DisposableManager*> const& __get__disposablesManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DisposableManager*> const& __cordl_internal_get__disposablesManager() const;
 
-  constexpr void __set__disposablesManager(::Zenject::DisposableManager* value);
+  constexpr void __cordl_internal_set__disposablesManager(::Zenject::DisposableManager* value);
 
-  constexpr bool& __get__hasInitialized();
+  constexpr bool& __cordl_internal_get__hasInitialized();
 
-  constexpr bool const& __get__hasInitialized() const;
+  constexpr bool const& __cordl_internal_get__hasInitialized() const;
 
-  constexpr void __set__hasInitialized(bool value);
+  constexpr void __cordl_internal_set__hasInitialized(bool value);
 
-  constexpr bool& __get__isDestroyed();
+  constexpr bool& __cordl_internal_get__isDestroyed();
 
-  constexpr bool const& __get__isDestroyed() const;
+  constexpr bool const& __cordl_internal_get__isDestroyed() const;
 
-  constexpr void __set__isDestroyed(bool value);
+  constexpr void __cordl_internal_set__isDestroyed(bool value);
 
   /// @brief Method get_IsDestroyed, addr 0x2f1568c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDestroyed();

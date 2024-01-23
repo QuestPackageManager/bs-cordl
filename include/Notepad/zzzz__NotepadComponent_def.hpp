@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::Notepad::NotepadComponent);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Notepad {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16278))
 // CS Name: ::Notepad::NotepadComponent*
 class CORDL_TYPE NotepadComponent : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field note, offset 0x18, size 0x8
-  __declspec(property(get = __get_note, put = __set_note))::Notepad::NoteSO* note;
+  __declspec(property(get = __cordl_internal_get_note, put = __cordl_internal_set_note))::UnityW<::Notepad::NoteSO> note;
 
-  constexpr ::Notepad::NoteSO*& __get_note();
+  constexpr ::UnityW<::Notepad::NoteSO>& __cordl_internal_get_note();
 
-  constexpr ::cordl_internals::to_const_pointer<::Notepad::NoteSO*> const& __get_note() const;
+  constexpr ::UnityW<::Notepad::NoteSO> const& __cordl_internal_get_note() const;
 
-  constexpr void __set_note(::Notepad::NoteSO* value);
+  constexpr void __cordl_internal_set_note(::UnityW<::Notepad::NoteSO> value);
 
   static inline ::Notepad::NotepadComponent* New_ctor();
 
@@ -52,7 +52,7 @@ protected:
 
 public:
   /// @brief Field note, offset: 0x18, size: 0x8, def value: None
-  ::Notepad::NoteSO* ___note;
+  ::UnityW<::Notepad::NoteSO> ___note;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

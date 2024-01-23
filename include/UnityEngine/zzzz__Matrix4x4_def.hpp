@@ -39,7 +39,7 @@ MARK_VAL_T(::UnityEngine::Matrix4x4);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10245))
 // CS Name: ::UnityEngine::Matrix4x4
 struct CORDL_TYPE Matrix4x4 {

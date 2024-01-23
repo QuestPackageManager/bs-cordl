@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(989))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::RsaOaepWrapperProvider*
 class CORDL_TYPE RsaOaepWrapperProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digestOid, offset 0x10, size 0x8
-  __declspec(property(get = __get_digestOid, put = __set_digestOid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid;
+  __declspec(property(get = __cordl_internal_get_digestOid, put = __cordl_internal_set_digestOid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Operators::WrapperProvider*() noexcept;
@@ -41,11 +41,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
   constexpr ::Org::BouncyCastle::Crypto::Operators::WrapperProvider* i___Org__BouncyCastle__Crypto__Operators__WrapperProvider() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_digestOid();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_digestOid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_digestOid() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_digestOid() const;
 
-  constexpr void __set_digestOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_digestOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 

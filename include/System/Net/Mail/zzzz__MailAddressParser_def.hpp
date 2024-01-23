@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::Mail::MailAddressParser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9378))
 // CS Name: ::System.Net.Mail::MailAddressParser*
 class CORDL_TYPE MailAddressParser : public ::System::Object {

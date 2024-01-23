@@ -24,31 +24,31 @@ MARK_REF_PTR_T(::System::BadImageFormatException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2356))
 // CS Name: ::System::BadImageFormatException*
 class CORDL_TYPE BadImageFormatException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field _fileName, offset 0x90, size 0x8
-  __declspec(property(get = __get__fileName, put = __set__fileName))::StringW _fileName;
+  __declspec(property(get = __cordl_internal_get__fileName, put = __cordl_internal_set__fileName))::StringW _fileName;
 
   /// @brief Field _fusionLog, offset 0x98, size 0x8
-  __declspec(property(get = __get__fusionLog, put = __set__fusionLog))::StringW _fusionLog;
+  __declspec(property(get = __cordl_internal_get__fusionLog, put = __cordl_internal_set__fusionLog))::StringW _fusionLog;
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::StringW& __get__fileName();
+  constexpr ::StringW& __cordl_internal_get__fileName();
 
-  constexpr ::StringW const& __get__fileName() const;
+  constexpr ::StringW const& __cordl_internal_get__fileName() const;
 
-  constexpr void __set__fileName(::StringW value);
+  constexpr void __cordl_internal_set__fileName(::StringW value);
 
-  constexpr ::StringW& __get__fusionLog();
+  constexpr ::StringW& __cordl_internal_get__fusionLog();
 
-  constexpr ::StringW const& __get__fusionLog() const;
+  constexpr ::StringW const& __cordl_internal_get__fusionLog() const;
 
-  constexpr void __set__fusionLog(::StringW value);
+  constexpr void __cordl_internal_set__fusionLog(::StringW value);
 
   static inline ::System::BadImageFormatException* New_ctor();
 

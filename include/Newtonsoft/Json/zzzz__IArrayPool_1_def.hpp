@@ -17,7 +17,7 @@ namespace Newtonsoft::Json {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11801))
 // CS Name: ::Newtonsoft.Json::IArrayPool`1<T>*
 class CORDL_TYPE IArrayPool_1 {

@@ -20,38 +20,38 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSceneSetupData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6048))
 // CS Name: ::EnvironmentSceneSetupData*
 class CORDL_TYPE EnvironmentSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   /// @brief Field hideBranding, offset 0x10, size 0x1
-  __declspec(property(get = __get_hideBranding, put = __set_hideBranding)) bool hideBranding;
+  __declspec(property(get = __cordl_internal_get_hideBranding, put = __cordl_internal_set_hideBranding)) bool hideBranding;
 
   /// @brief Field environmentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_environmentInfo, put = __set_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   /// @brief Field previewBeatmapLevel, offset 0x20, size 0x8
-  __declspec(property(get = __get_previewBeatmapLevel, put = __set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  __declspec(property(get = __cordl_internal_get_previewBeatmapLevel, put = __cordl_internal_set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
 
-  constexpr bool& __get_hideBranding();
+  constexpr bool& __cordl_internal_get_hideBranding();
 
-  constexpr bool const& __get_hideBranding() const;
+  constexpr bool const& __cordl_internal_get_hideBranding() const;
 
-  constexpr void __set_hideBranding(bool value);
+  constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  constexpr ::GlobalNamespace::EnvironmentInfoSO*& __get_environmentInfo();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get_environmentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& __get_environmentInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get_environmentInfo() const;
 
-  constexpr void __set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
+  constexpr void __cordl_internal_set_environmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get_previewBeatmapLevel();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_previewBeatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get_previewBeatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_previewBeatmapLevel() const;
 
-  constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
   static inline ::GlobalNamespace::EnvironmentSceneSetupData* New_ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                        bool hideBranding);
@@ -77,7 +77,7 @@ public:
   bool ___hideBranding;
 
   /// @brief Field environmentInfo, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* ___environmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ___environmentInfo;
 
   /// @brief Field previewBeatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IPreviewBeatmapLevel* ___previewBeatmapLevel;

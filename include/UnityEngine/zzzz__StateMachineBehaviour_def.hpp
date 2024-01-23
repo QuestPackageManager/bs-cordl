@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::StateMachineBehaviour);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14887))
 // CS Name: ::UnityEngine::StateMachineBehaviour*
 class CORDL_TYPE StateMachineBehaviour : public ::UnityEngine::ScriptableObject {

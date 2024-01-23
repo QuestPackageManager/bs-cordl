@@ -26,16 +26,16 @@ MARK_REF_PTR_T(::UnityEngine::UI::BaseMeshEffect);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13214))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13143))
 // CS Name: ::UnityEngine.UI::BaseMeshEffect*
 class CORDL_TYPE BaseMeshEffect : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
   /// @brief Field m_Graphic, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Graphic, put = __set_m_Graphic))::UnityEngine::UI::Graphic* m_Graphic;
+  __declspec(property(get = __cordl_internal_get_m_Graphic, put = __cordl_internal_set_m_Graphic))::UnityW<::UnityEngine::UI::Graphic> m_Graphic;
 
-  __declspec(property(get = get_graphic))::UnityEngine::UI::Graphic* graphic;
+  __declspec(property(get = get_graphic))::UnityW<::UnityEngine::UI::Graphic> graphic;
 
   /// @brief Convert operator to "::UnityEngine::UI::IMeshModifier"
   constexpr operator ::UnityEngine::UI::IMeshModifier*() noexcept;
@@ -43,14 +43,14 @@ public:
   /// @brief Convert to "::UnityEngine::UI::IMeshModifier"
   constexpr ::UnityEngine::UI::IMeshModifier* i___UnityEngine__UI__IMeshModifier() noexcept;
 
-  constexpr ::UnityEngine::UI::Graphic*& __get_m_Graphic();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get_m_Graphic();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Graphic*> const& __get_m_Graphic() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
 
-  constexpr void __set_m_Graphic(::UnityEngine::UI::Graphic* value);
+  constexpr void __cordl_internal_set_m_Graphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
   /// @brief Method get_graphic, addr 0x2d90520, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Graphic* get_graphic();
+  inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
   /// @brief Method OnEnable, addr 0x2d905b4, size 0xa8, virtual true, abstract: false, final false
   inline void OnEnable();
@@ -87,7 +87,7 @@ protected:
 
 public:
   /// @brief Field m_Graphic, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* ___m_Graphic;
+  ::UnityW<::UnityEngine::UI::Graphic> ___m_Graphic;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

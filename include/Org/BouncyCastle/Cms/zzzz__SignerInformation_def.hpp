@@ -65,53 +65,53 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInformation);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(691))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInformation*
 class CORDL_TYPE SignerInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sid, offset 0x10, size 0x8
-  __declspec(property(get = __get_sid, put = __set_sid))::Org::BouncyCastle::Cms::SignerID* sid;
+  __declspec(property(get = __cordl_internal_get_sid, put = __cordl_internal_set_sid))::Org::BouncyCastle::Cms::SignerID* sid;
 
   /// @brief Field info, offset 0x18, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::Org::BouncyCastle::Asn1::Cms::SignerInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::SignerInfo* info;
 
   /// @brief Field digestAlgorithm, offset 0x20, size 0x8
-  __declspec(property(get = __get_digestAlgorithm, put = __set_digestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm;
+  __declspec(property(get = __cordl_internal_get_digestAlgorithm, put = __cordl_internal_set_digestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm;
 
   /// @brief Field encryptionAlgorithm, offset 0x28, size 0x8
-  __declspec(property(get = __get_encryptionAlgorithm, put = __set_encryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgorithm;
+  __declspec(property(get = __cordl_internal_get_encryptionAlgorithm, put = __cordl_internal_set_encryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgorithm;
 
   /// @brief Field signedAttributeSet, offset 0x30, size 0x8
-  __declspec(property(get = __get_signedAttributeSet, put = __set_signedAttributeSet))::Org::BouncyCastle::Asn1::Asn1Set* signedAttributeSet;
+  __declspec(property(get = __cordl_internal_get_signedAttributeSet, put = __cordl_internal_set_signedAttributeSet))::Org::BouncyCastle::Asn1::Asn1Set* signedAttributeSet;
 
   /// @brief Field unsignedAttributeSet, offset 0x38, size 0x8
-  __declspec(property(get = __get_unsignedAttributeSet, put = __set_unsignedAttributeSet))::Org::BouncyCastle::Asn1::Asn1Set* unsignedAttributeSet;
+  __declspec(property(get = __cordl_internal_get_unsignedAttributeSet, put = __cordl_internal_set_unsignedAttributeSet))::Org::BouncyCastle::Asn1::Asn1Set* unsignedAttributeSet;
 
   /// @brief Field content, offset 0x40, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::Org::BouncyCastle::Cms::CmsProcessable* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::Org::BouncyCastle::Cms::CmsProcessable* content;
 
   /// @brief Field signature, offset 0x48, size 0x8
-  __declspec(property(get = __get_signature, put = __set_signature))::ArrayW<uint8_t, ::Array<uint8_t>*> signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::ArrayW<uint8_t, ::Array<uint8_t>*> signature;
 
   /// @brief Field contentType, offset 0x50, size 0x8
-  __declspec(property(get = __get_contentType, put = __set_contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
 
   /// @brief Field digestCalculator, offset 0x58, size 0x8
-  __declspec(property(get = __get_digestCalculator, put = __set_digestCalculator))::Org::BouncyCastle::Cms::IDigestCalculator* digestCalculator;
+  __declspec(property(get = __cordl_internal_get_digestCalculator, put = __cordl_internal_set_digestCalculator))::Org::BouncyCastle::Cms::IDigestCalculator* digestCalculator;
 
   /// @brief Field resultDigest, offset 0x60, size 0x8
-  __declspec(property(get = __get_resultDigest, put = __set_resultDigest))::ArrayW<uint8_t, ::Array<uint8_t>*> resultDigest;
+  __declspec(property(get = __cordl_internal_get_resultDigest, put = __cordl_internal_set_resultDigest))::ArrayW<uint8_t, ::Array<uint8_t>*> resultDigest;
 
   /// @brief Field signedAttributeTable, offset 0x68, size 0x8
-  __declspec(property(get = __get_signedAttributeTable, put = __set_signedAttributeTable))::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttributeTable;
+  __declspec(property(get = __cordl_internal_get_signedAttributeTable, put = __cordl_internal_set_signedAttributeTable))::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttributeTable;
 
   /// @brief Field unsignedAttributeTable, offset 0x70, size 0x8
-  __declspec(property(get = __get_unsignedAttributeTable, put = __set_unsignedAttributeTable))::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttributeTable;
+  __declspec(property(get = __cordl_internal_get_unsignedAttributeTable, put = __cordl_internal_set_unsignedAttributeTable))::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttributeTable;
 
   /// @brief Field isCounterSignature, offset 0x78, size 0x1
-  __declspec(property(get = __get_isCounterSignature, put = __set_isCounterSignature)) bool isCounterSignature;
+  __declspec(property(get = __cordl_internal_get_isCounterSignature, put = __cordl_internal_set_isCounterSignature)) bool isCounterSignature;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
@@ -140,89 +140,89 @@ public:
 
   __declspec(property(get = get_UnsignedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* UnsignedAttributes;
 
-  constexpr ::Org::BouncyCastle::Cms::SignerID*& __get_sid();
+  constexpr ::Org::BouncyCastle::Cms::SignerID*& __cordl_internal_get_sid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerID*> const& __get_sid() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerID*> const& __cordl_internal_get_sid() const;
 
-  constexpr void __set_sid(::Org::BouncyCastle::Cms::SignerID* value);
+  constexpr void __cordl_internal_set_sid(::Org::BouncyCastle::Cms::SignerID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::SignerInfo*& __get_info();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::SignerInfo*& __cordl_internal_get_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerInfo*> const& __get_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerInfo*> const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::Org::BouncyCastle::Asn1::Cms::SignerInfo* value);
+  constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::SignerInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_digestAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_digestAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_digestAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_digestAlgorithm() const;
 
-  constexpr void __set_digestAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_digestAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_encryptionAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_encryptionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_encryptionAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_encryptionAlgorithm() const;
 
-  constexpr void __set_encryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_encryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_signedAttributeSet();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_signedAttributeSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_signedAttributeSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_signedAttributeSet() const;
 
-  constexpr void __set_signedAttributeSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_signedAttributeSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_unsignedAttributeSet();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unsignedAttributeSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_unsignedAttributeSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unsignedAttributeSet() const;
 
-  constexpr void __set_unsignedAttributeSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_unsignedAttributeSet(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsProcessable*& __get_content();
+  constexpr ::Org::BouncyCastle::Cms::CmsProcessable*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsProcessable*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsProcessable*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::Org::BouncyCastle::Cms::CmsProcessable* value);
+  constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Cms::CmsProcessable* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_signature();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_signature();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_signature() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_signature() const;
 
-  constexpr void __set_signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_contentType();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_contentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_contentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_contentType() const;
 
-  constexpr void __set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Cms::IDigestCalculator*& __get_digestCalculator();
+  constexpr ::Org::BouncyCastle::Cms::IDigestCalculator*& __cordl_internal_get_digestCalculator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::IDigestCalculator*> const& __get_digestCalculator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::IDigestCalculator*> const& __cordl_internal_get_digestCalculator() const;
 
-  constexpr void __set_digestCalculator(::Org::BouncyCastle::Cms::IDigestCalculator* value);
+  constexpr void __cordl_internal_set_digestCalculator(::Org::BouncyCastle::Cms::IDigestCalculator* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_resultDigest();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_resultDigest();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_resultDigest() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_resultDigest() const;
 
-  constexpr void __set_resultDigest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_resultDigest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __get_signedAttributeTable();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_signedAttributeTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __get_signedAttributeTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get_signedAttributeTable() const;
 
-  constexpr void __set_signedAttributeTable(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr void __cordl_internal_set_signedAttributeTable(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __get_unsignedAttributeTable();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_unsignedAttributeTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __get_unsignedAttributeTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get_unsignedAttributeTable() const;
 
-  constexpr void __set_unsignedAttributeTable(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr void __cordl_internal_set_unsignedAttributeTable(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
-  constexpr bool& __get_isCounterSignature();
+  constexpr bool& __cordl_internal_get_isCounterSignature();
 
-  constexpr bool const& __get_isCounterSignature() const;
+  constexpr bool const& __cordl_internal_get_isCounterSignature() const;
 
-  constexpr void __set_isCounterSignature(bool value);
+  constexpr void __cordl_internal_set_isCounterSignature(bool value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsSignedHelper* value);
 

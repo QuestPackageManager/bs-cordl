@@ -70,23 +70,23 @@ MARK_REF_PTR_T(::System::Resources::__ResourceReader__ResourceEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3440))
 // CS Name: ::ResourceReader::ResourceEnumerator*
 class CORDL_TYPE __ResourceReader__ResourceEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _reader, offset 0x10, size 0x8
-  __declspec(property(get = __get__reader, put = __set__reader))::System::Resources::ResourceReader* _reader;
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::Resources::ResourceReader* _reader;
 
   /// @brief Field _currentIsValid, offset 0x18, size 0x1
-  __declspec(property(get = __get__currentIsValid, put = __set__currentIsValid)) bool _currentIsValid;
+  __declspec(property(get = __cordl_internal_get__currentIsValid, put = __cordl_internal_set__currentIsValid)) bool _currentIsValid;
 
   /// @brief Field _currentName, offset 0x1c, size 0x4
-  __declspec(property(get = __get__currentName, put = __set__currentName)) int32_t _currentName;
+  __declspec(property(get = __cordl_internal_get__currentName, put = __cordl_internal_set__currentName)) int32_t _currentName;
 
   /// @brief Field _dataPosition, offset 0x20, size 0x4
-  __declspec(property(get = __get__dataPosition, put = __set__dataPosition)) int32_t _dataPosition;
+  __declspec(property(get = __cordl_internal_get__dataPosition, put = __cordl_internal_set__dataPosition)) int32_t _dataPosition;
 
   __declspec(property(get = get_Key))::System::Object* Key;
 
@@ -110,29 +110,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Resources::ResourceReader*& __get__reader();
+  constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __get__reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __cordl_internal_get__reader() const;
 
-  constexpr void __set__reader(::System::Resources::ResourceReader* value);
+  constexpr void __cordl_internal_set__reader(::System::Resources::ResourceReader* value);
 
-  constexpr bool& __get__currentIsValid();
+  constexpr bool& __cordl_internal_get__currentIsValid();
 
-  constexpr bool const& __get__currentIsValid() const;
+  constexpr bool const& __cordl_internal_get__currentIsValid() const;
 
-  constexpr void __set__currentIsValid(bool value);
+  constexpr void __cordl_internal_set__currentIsValid(bool value);
 
-  constexpr int32_t& __get__currentName();
+  constexpr int32_t& __cordl_internal_get__currentName();
 
-  constexpr int32_t const& __get__currentName() const;
+  constexpr int32_t const& __cordl_internal_get__currentName() const;
 
-  constexpr void __set__currentName(int32_t value);
+  constexpr void __cordl_internal_set__currentName(int32_t value);
 
-  constexpr int32_t& __get__dataPosition();
+  constexpr int32_t& __cordl_internal_get__dataPosition();
 
-  constexpr int32_t const& __get__dataPosition() const;
+  constexpr int32_t const& __cordl_internal_get__dataPosition() const;
 
-  constexpr void __set__dataPosition(int32_t value);
+  constexpr void __cordl_internal_set__dataPosition(int32_t value);
 
   static inline ::System::Resources::__ResourceReader__ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader);
 
@@ -204,7 +204,7 @@ static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3441))
 // CS Name: ::System.Resources::ResourceReader*
 class CORDL_TYPE ResourceReader : public ::System::Object {
@@ -213,46 +213,47 @@ public:
   using ResourceEnumerator = ::System::Resources::__ResourceReader__ResourceEnumerator;
 
   /// @brief Field _store, offset 0x10, size 0x8
-  __declspec(property(get = __get__store, put = __set__store))::System::IO::BinaryReader* _store;
+  __declspec(property(get = __cordl_internal_get__store, put = __cordl_internal_set__store))::System::IO::BinaryReader* _store;
 
   /// @brief Field _resCache, offset 0x18, size 0x8
-  __declspec(property(get = __get__resCache, put = __set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
+  __declspec(property(get = __cordl_internal_get__resCache,
+                      put = __cordl_internal_set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
 
   /// @brief Field _nameSectionOffset, offset 0x20, size 0x8
-  __declspec(property(get = __get__nameSectionOffset, put = __set__nameSectionOffset)) int64_t _nameSectionOffset;
+  __declspec(property(get = __cordl_internal_get__nameSectionOffset, put = __cordl_internal_set__nameSectionOffset)) int64_t _nameSectionOffset;
 
   /// @brief Field _dataSectionOffset, offset 0x28, size 0x8
-  __declspec(property(get = __get__dataSectionOffset, put = __set__dataSectionOffset)) int64_t _dataSectionOffset;
+  __declspec(property(get = __cordl_internal_get__dataSectionOffset, put = __cordl_internal_set__dataSectionOffset)) int64_t _dataSectionOffset;
 
   /// @brief Field _nameHashes, offset 0x30, size 0x8
-  __declspec(property(get = __get__nameHashes, put = __set__nameHashes))::ArrayW<int32_t, ::Array<int32_t>*> _nameHashes;
+  __declspec(property(get = __cordl_internal_get__nameHashes, put = __cordl_internal_set__nameHashes))::ArrayW<int32_t, ::Array<int32_t>*> _nameHashes;
 
   /// @brief Field _nameHashesPtr, offset 0x38, size 0x8
-  __declspec(property(get = __get__nameHashesPtr, put = __set__nameHashesPtr))::cordl_internals::Ptr<int32_t> _nameHashesPtr;
+  __declspec(property(get = __cordl_internal_get__nameHashesPtr, put = __cordl_internal_set__nameHashesPtr))::cordl_internals::Ptr<int32_t> _nameHashesPtr;
 
   /// @brief Field _namePositions, offset 0x40, size 0x8
-  __declspec(property(get = __get__namePositions, put = __set__namePositions))::ArrayW<int32_t, ::Array<int32_t>*> _namePositions;
+  __declspec(property(get = __cordl_internal_get__namePositions, put = __cordl_internal_set__namePositions))::ArrayW<int32_t, ::Array<int32_t>*> _namePositions;
 
   /// @brief Field _namePositionsPtr, offset 0x48, size 0x8
-  __declspec(property(get = __get__namePositionsPtr, put = __set__namePositionsPtr))::cordl_internals::Ptr<int32_t> _namePositionsPtr;
+  __declspec(property(get = __cordl_internal_get__namePositionsPtr, put = __cordl_internal_set__namePositionsPtr))::cordl_internals::Ptr<int32_t> _namePositionsPtr;
 
   /// @brief Field _typeTable, offset 0x50, size 0x8
-  __declspec(property(get = __get__typeTable, put = __set__typeTable))::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> _typeTable;
+  __declspec(property(get = __cordl_internal_get__typeTable, put = __cordl_internal_set__typeTable))::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> _typeTable;
 
   /// @brief Field _typeNamePositions, offset 0x58, size 0x8
-  __declspec(property(get = __get__typeNamePositions, put = __set__typeNamePositions))::ArrayW<int32_t, ::Array<int32_t>*> _typeNamePositions;
+  __declspec(property(get = __cordl_internal_get__typeNamePositions, put = __cordl_internal_set__typeNamePositions))::ArrayW<int32_t, ::Array<int32_t>*> _typeNamePositions;
 
   /// @brief Field _objFormatter, offset 0x60, size 0x8
-  __declspec(property(get = __get__objFormatter, put = __set__objFormatter))::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* _objFormatter;
+  __declspec(property(get = __cordl_internal_get__objFormatter, put = __cordl_internal_set__objFormatter))::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* _objFormatter;
 
   /// @brief Field _numResources, offset 0x68, size 0x4
-  __declspec(property(get = __get__numResources, put = __set__numResources)) int32_t _numResources;
+  __declspec(property(get = __cordl_internal_get__numResources, put = __cordl_internal_set__numResources)) int32_t _numResources;
 
   /// @brief Field _ums, offset 0x70, size 0x8
-  __declspec(property(get = __get__ums, put = __set__ums))::System::IO::UnmanagedMemoryStream* _ums;
+  __declspec(property(get = __cordl_internal_get__ums, put = __cordl_internal_set__ums))::System::IO::UnmanagedMemoryStream* _ums;
 
   /// @brief Field _version, offset 0x78, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Convert operator to "::System::Resources::IResourceReader"
   constexpr operator ::System::Resources::IResourceReader*() noexcept;
@@ -272,89 +273,89 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::IO::BinaryReader*& __get__store();
+  constexpr ::System::IO::BinaryReader*& __cordl_internal_get__store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __get__store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __cordl_internal_get__store() const;
 
-  constexpr void __set__store(::System::IO::BinaryReader* value);
+  constexpr void __cordl_internal_set__store(::System::IO::BinaryReader* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __get__resCache();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __get__resCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __cordl_internal_get__resCache() const;
 
-  constexpr void __set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+  constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
 
-  constexpr int64_t& __get__nameSectionOffset();
+  constexpr int64_t& __cordl_internal_get__nameSectionOffset();
 
-  constexpr int64_t const& __get__nameSectionOffset() const;
+  constexpr int64_t const& __cordl_internal_get__nameSectionOffset() const;
 
-  constexpr void __set__nameSectionOffset(int64_t value);
+  constexpr void __cordl_internal_set__nameSectionOffset(int64_t value);
 
-  constexpr int64_t& __get__dataSectionOffset();
+  constexpr int64_t& __cordl_internal_get__dataSectionOffset();
 
-  constexpr int64_t const& __get__dataSectionOffset() const;
+  constexpr int64_t const& __cordl_internal_get__dataSectionOffset() const;
 
-  constexpr void __set__dataSectionOffset(int64_t value);
+  constexpr void __cordl_internal_set__dataSectionOffset(int64_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__nameHashes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__nameHashes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__nameHashes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__nameHashes() const;
 
-  constexpr void __set__nameHashes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__nameHashes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::cordl_internals::Ptr<int32_t>& __get__nameHashesPtr();
+  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__nameHashesPtr();
 
-  constexpr ::cordl_internals::Ptr<int32_t> const& __get__nameHashesPtr() const;
+  constexpr ::cordl_internals::Ptr<int32_t> const& __cordl_internal_get__nameHashesPtr() const;
 
-  constexpr void __set__nameHashesPtr(::cordl_internals::Ptr<int32_t> value);
+  constexpr void __cordl_internal_set__nameHashesPtr(::cordl_internals::Ptr<int32_t> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__namePositions();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__namePositions();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__namePositions() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__namePositions() const;
 
-  constexpr void __set__namePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__namePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::cordl_internals::Ptr<int32_t>& __get__namePositionsPtr();
+  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__namePositionsPtr();
 
-  constexpr ::cordl_internals::Ptr<int32_t> const& __get__namePositionsPtr() const;
+  constexpr ::cordl_internals::Ptr<int32_t> const& __cordl_internal_get__namePositionsPtr() const;
 
-  constexpr void __set__namePositionsPtr(::cordl_internals::Ptr<int32_t> value);
+  constexpr void __cordl_internal_set__namePositionsPtr(::cordl_internals::Ptr<int32_t> value);
 
-  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>& __get__typeTable();
+  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>& __cordl_internal_get__typeTable();
 
-  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> const& __get__typeTable() const;
+  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> const& __cordl_internal_get__typeTable() const;
 
-  constexpr void __set__typeTable(::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> value);
+  constexpr void __cordl_internal_set__typeTable(::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__typeNamePositions();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__typeNamePositions();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__typeNamePositions() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__typeNamePositions() const;
 
-  constexpr void __set__typeNamePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__typeNamePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*& __get__objFormatter();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*& __cordl_internal_get__objFormatter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*> const& __get__objFormatter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*> const& __cordl_internal_get__objFormatter() const;
 
-  constexpr void __set__objFormatter(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* value);
+  constexpr void __cordl_internal_set__objFormatter(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* value);
 
-  constexpr int32_t& __get__numResources();
+  constexpr int32_t& __cordl_internal_get__numResources();
 
-  constexpr int32_t const& __get__numResources() const;
+  constexpr int32_t const& __cordl_internal_get__numResources() const;
 
-  constexpr void __set__numResources(int32_t value);
+  constexpr void __cordl_internal_set__numResources(int32_t value);
 
-  constexpr ::System::IO::UnmanagedMemoryStream*& __get__ums();
+  constexpr ::System::IO::UnmanagedMemoryStream*& __cordl_internal_get__ums();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::UnmanagedMemoryStream*> const& __get__ums() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::UnmanagedMemoryStream*> const& __cordl_internal_get__ums() const;
 
-  constexpr void __set__ums(::System::IO::UnmanagedMemoryStream* value);
+  constexpr void __cordl_internal_set__ums(::System::IO::UnmanagedMemoryStream* value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
   static inline ::System::Resources::ResourceReader* New_ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 

@@ -17,52 +17,52 @@ MARK_REF_PTR_T(::System::Globalization::CodePageDataItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3714))
 // CS Name: ::System.Globalization::CodePageDataItem*
 class CORDL_TYPE CodePageDataItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_dataIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_dataIndex, put = __set_m_dataIndex)) int32_t m_dataIndex;
+  __declspec(property(get = __cordl_internal_get_m_dataIndex, put = __cordl_internal_set_m_dataIndex)) int32_t m_dataIndex;
 
   /// @brief Field m_uiFamilyCodePage, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_uiFamilyCodePage, put = __set_m_uiFamilyCodePage)) int32_t m_uiFamilyCodePage;
+  __declspec(property(get = __cordl_internal_get_m_uiFamilyCodePage, put = __cordl_internal_set_m_uiFamilyCodePage)) int32_t m_uiFamilyCodePage;
 
   /// @brief Field m_webName, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_webName, put = __set_m_webName))::StringW m_webName;
+  __declspec(property(get = __cordl_internal_get_m_webName, put = __cordl_internal_set_m_webName))::StringW m_webName;
 
   /// @brief Field m_flags, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_flags, put = __set_m_flags)) uint32_t m_flags;
+  __declspec(property(get = __cordl_internal_get_m_flags, put = __cordl_internal_set_m_flags)) uint32_t m_flags;
 
   /// @brief Field sep, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sep, put = setStaticF_sep))::ArrayW<char16_t, ::Array<char16_t>*> sep;
 
   __declspec(property(get = get_WebName))::StringW WebName;
 
-  constexpr int32_t& __get_m_dataIndex();
+  constexpr int32_t& __cordl_internal_get_m_dataIndex();
 
-  constexpr int32_t const& __get_m_dataIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_dataIndex() const;
 
-  constexpr void __set_m_dataIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_dataIndex(int32_t value);
 
-  constexpr int32_t& __get_m_uiFamilyCodePage();
+  constexpr int32_t& __cordl_internal_get_m_uiFamilyCodePage();
 
-  constexpr int32_t const& __get_m_uiFamilyCodePage() const;
+  constexpr int32_t const& __cordl_internal_get_m_uiFamilyCodePage() const;
 
-  constexpr void __set_m_uiFamilyCodePage(int32_t value);
+  constexpr void __cordl_internal_set_m_uiFamilyCodePage(int32_t value);
 
-  constexpr ::StringW& __get_m_webName();
+  constexpr ::StringW& __cordl_internal_get_m_webName();
 
-  constexpr ::StringW const& __get_m_webName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_webName() const;
 
-  constexpr void __set_m_webName(::StringW value);
+  constexpr void __cordl_internal_set_m_webName(::StringW value);
 
-  constexpr uint32_t& __get_m_flags();
+  constexpr uint32_t& __cordl_internal_get_m_flags();
 
-  constexpr uint32_t const& __get_m_flags() const;
+  constexpr uint32_t const& __cordl_internal_get_m_flags() const;
 
-  constexpr void __set_m_flags(uint32_t value);
+  constexpr void __cordl_internal_set_m_flags(uint32_t value);
 
   static inline void setStaticF_sep(::ArrayW<char16_t, ::Array<char16_t>*> value);
 

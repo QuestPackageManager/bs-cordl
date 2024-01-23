@@ -28,38 +28,38 @@ MARK_REF_PTR_T(::HMUI::CircleTouchable);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13564))
 // CS Name: ::HMUI::CircleTouchable*
 class CORDL_TYPE CircleTouchable : public ::HMUI::Touchable {
 public:
   // Declarations
   /// @brief Field _minRadius, offset 0xa0, size 0x4
-  __declspec(property(get = __get__minRadius, put = __set__minRadius)) float_t _minRadius;
+  __declspec(property(get = __cordl_internal_get__minRadius, put = __cordl_internal_set__minRadius)) float_t _minRadius;
 
   /// @brief Field _maxRadius, offset 0xa4, size 0x4
-  __declspec(property(get = __get__maxRadius, put = __set__maxRadius)) float_t _maxRadius;
+  __declspec(property(get = __cordl_internal_get__maxRadius, put = __cordl_internal_set__maxRadius)) float_t _maxRadius;
 
   /// @brief Field _containerRect, offset 0xa8, size 0x8
-  __declspec(property(get = __get__containerRect, put = __set__containerRect))::UnityEngine::RectTransform* _containerRect;
+  __declspec(property(get = __cordl_internal_get__containerRect, put = __cordl_internal_set__containerRect))::UnityW<::UnityEngine::RectTransform> _containerRect;
 
-  constexpr float_t& __get__minRadius();
+  constexpr float_t& __cordl_internal_get__minRadius();
 
-  constexpr float_t const& __get__minRadius() const;
+  constexpr float_t const& __cordl_internal_get__minRadius() const;
 
-  constexpr void __set__minRadius(float_t value);
+  constexpr void __cordl_internal_set__minRadius(float_t value);
 
-  constexpr float_t& __get__maxRadius();
+  constexpr float_t& __cordl_internal_get__maxRadius();
 
-  constexpr float_t const& __get__maxRadius() const;
+  constexpr float_t const& __cordl_internal_get__maxRadius() const;
 
-  constexpr void __set__maxRadius(float_t value);
+  constexpr void __cordl_internal_set__maxRadius(float_t value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__containerRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__containerRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__containerRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
 
-  constexpr void __set__containerRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__containerRect(::UnityW<::UnityEngine::RectTransform> value);
 
   /// @brief Method OnEnable, addr 0x212486c, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
@@ -102,7 +102,7 @@ public:
   float_t ____maxRadius;
 
   /// @brief Field _containerRect, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____containerRect;
+  ::UnityW<::UnityEngine::RectTransform> ____containerRect;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

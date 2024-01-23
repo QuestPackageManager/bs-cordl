@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationPlayableOutput);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10415))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10415))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14901))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableOutput
 struct CORDL_TYPE AnimationPlayableOutput {
@@ -63,13 +63,13 @@ public:
   static inline ::UnityEngine::Animations::AnimationPlayableOutput op_Explicit___UnityEngine__Animations__AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutput output);
 
   /// @brief Method GetTarget, addr 0x2c99398, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Animator* GetTarget();
+  inline ::UnityW<::UnityEngine::Animator> GetTarget();
 
   /// @brief Method SetTarget, addr 0x2c992d4, size 0x44, virtual false, abstract: false, final false
   inline void SetTarget(::UnityEngine::Animator* value);
 
   /// @brief Method InternalGetTarget, addr 0x2c993d4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Animator* InternalGetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+  static inline ::UnityW<::UnityEngine::Animator> InternalGetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
   /// @brief Method InternalSetTarget, addr 0x2c99410, size 0x44, virtual false, abstract: false, final false
   static inline void InternalSetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle, ::UnityEngine::Animator* target);

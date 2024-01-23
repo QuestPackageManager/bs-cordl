@@ -17,25 +17,26 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackCollectionContainerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4354))
 // CS Name: ::BeatmapLevelPackCollectionContainerSO*
 class CORDL_TYPE BeatmapLevelPackCollectionContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _beatmapLevelPackCollection, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapLevelPackCollection, put = __set__beatmapLevelPackCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* _beatmapLevelPackCollection;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPackCollection,
+                      put = __cordl_internal_set__beatmapLevelPackCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> _beatmapLevelPackCollection;
 
-  __declspec(property(get = get_beatmapLevelPackCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* beatmapLevelPackCollection;
+  __declspec(property(get = get_beatmapLevelPackCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> beatmapLevelPackCollection;
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& __get__beatmapLevelPackCollection();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& __cordl_internal_get__beatmapLevelPackCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& __get__beatmapLevelPackCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& __cordl_internal_get__beatmapLevelPackCollection() const;
 
-  constexpr void __set__beatmapLevelPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+  constexpr void __cordl_internal_set__beatmapLevelPackCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value);
 
   /// @brief Method get_beatmapLevelPackCollection, addr 0x23424d4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_beatmapLevelPackCollection();
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> get_beatmapLevelPackCollection();
 
   static inline ::GlobalNamespace::BeatmapLevelPackCollectionContainerSO* New_ctor();
 
@@ -57,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _beatmapLevelPackCollection, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackCollectionSO* ____beatmapLevelPackCollection;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ____beatmapLevelPackCollection;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

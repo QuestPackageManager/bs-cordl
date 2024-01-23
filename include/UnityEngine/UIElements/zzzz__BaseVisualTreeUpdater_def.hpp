@@ -35,17 +35,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualTreeUpdater);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6754))
 // CS Name: ::UnityEngine.UIElements::BaseVisualTreeUpdater*
 class CORDL_TYPE BaseVisualTreeUpdater : public ::System::Object {
 public:
   // Declarations
   /// @brief Field panelChanged, offset 0x10, size 0x8
-  __declspec(property(get = __get_panelChanged, put = __set_panelChanged))::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* panelChanged;
+  __declspec(property(get = __cordl_internal_get_panelChanged, put = __cordl_internal_set_panelChanged))::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* panelChanged;
 
   /// @brief Field m_Panel, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Panel, put = __set_m_Panel))::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel;
+  __declspec(property(get = __cordl_internal_get_m_Panel, put = __cordl_internal_set_m_Panel))::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel;
 
   __declspec(property(get = get_panel, put = set_panel))::UnityEngine::UIElements::BaseVisualElementPanel* panel;
 
@@ -65,17 +65,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __get_panelChanged();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __cordl_internal_get_panelChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*> const& __get_panelChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*> const& __cordl_internal_get_panelChanged() const;
 
-  constexpr void __set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
+  constexpr void __cordl_internal_set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __get_m_Panel();
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_m_Panel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __get_m_Panel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __cordl_internal_get_m_Panel() const;
 
-  constexpr void __set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
+  constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
   /// @brief Method add_panelChanged, addr 0x2db2ba4, size 0xb0, virtual false, abstract: false, final false
   inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);

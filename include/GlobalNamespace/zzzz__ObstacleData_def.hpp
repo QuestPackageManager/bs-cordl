@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14761))
 // CS Name: ::ObstacleData*
 class CORDL_TYPE ObstacleData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations
   /// @brief Field <lineIndex>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__lineIndex_k__BackingField, put = __set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
   /// @brief Field <lineLayer>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__lineLayer_k__BackingField, put = __set__lineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _lineLayer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lineLayer_k__BackingField, put = __cordl_internal_set__lineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _lineLayer_k__BackingField;
 
   /// @brief Field <duration>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__duration_k__BackingField, put = __set__duration_k__BackingField)) float_t _duration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__duration_k__BackingField, put = __cordl_internal_set__duration_k__BackingField)) float_t _duration_k__BackingField;
 
   /// @brief Field <width>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__width_k__BackingField, put = __set__width_k__BackingField)) int32_t _width_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__width_k__BackingField, put = __cordl_internal_set__width_k__BackingField)) int32_t _width_k__BackingField;
 
   /// @brief Field <height>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__height_k__BackingField, put = __set__height_k__BackingField)) int32_t _height_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__height_k__BackingField, put = __cordl_internal_set__height_k__BackingField)) int32_t _height_k__BackingField;
 
   __declspec(property(get = get_lineIndex, put = set_lineIndex)) int32_t lineIndex;
 
@@ -54,35 +54,35 @@ public:
 
   __declspec(property(get = get_height, put = set_height)) int32_t height;
 
-  constexpr int32_t& __get__lineIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
 
-  constexpr int32_t const& __get__lineIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
 
-  constexpr void __set__lineIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__lineLayer_k__BackingField();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__lineLayer_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer_k__BackingField() const;
 
-  constexpr void __set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr float_t& __get__duration_k__BackingField();
+  constexpr float_t& __cordl_internal_get__duration_k__BackingField();
 
-  constexpr float_t const& __get__duration_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__duration_k__BackingField() const;
 
-  constexpr void __set__duration_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__duration_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__width_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__width_k__BackingField();
 
-  constexpr int32_t const& __get__width_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__width_k__BackingField() const;
 
-  constexpr void __set__width_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__height_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__height_k__BackingField();
 
-  constexpr int32_t const& __get__height_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__height_k__BackingField() const;
 
-  constexpr void __set__height_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__height_k__BackingField(int32_t value);
 
   /// @brief Method get_lineIndex, addr 0xe0140c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();

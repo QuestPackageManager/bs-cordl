@@ -34,86 +34,87 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionDataSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4457))
 // CS Name: ::MissionDataSO*
 class CORDL_TYPE MissionDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _level, offset 0x18, size 0x8
-  __declspec(property(get = __get__level, put = __set__level))::GlobalNamespace::BeatmapLevelSO* _level;
+  __declspec(property(get = __cordl_internal_get__level, put = __cordl_internal_set__level))::UnityW<::GlobalNamespace::BeatmapLevelSO> _level;
 
   /// @brief Field _beatmapCharacteristic, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristic, put = __set__beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset 0x28, size 0x4
-  __declspec(property(get = __get__beatmapDifficulty, put = __set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
 
   /// @brief Field _missionObjectives, offset 0x30, size 0x8
-  __declspec(property(get = __get__missionObjectives, put = __set__missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> _missionObjectives;
+  __declspec(property(get = __cordl_internal_get__missionObjectives,
+                      put = __cordl_internal_set__missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> _missionObjectives;
 
   /// @brief Field _gameplayModifiers, offset 0x38, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   /// @brief Field _missionHelp, offset 0x40, size 0x8
-  __declspec(property(get = __get__missionHelp, put = __set__missionHelp))::GlobalNamespace::MissionHelpSO* _missionHelp;
+  __declspec(property(get = __cordl_internal_get__missionHelp, put = __cordl_internal_set__missionHelp))::UnityW<::GlobalNamespace::MissionHelpSO> _missionHelp;
 
   __declspec(property(get = get_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
 
-  __declspec(property(get = get_level))::GlobalNamespace::BeatmapLevelSO* level;
+  __declspec(property(get = get_level))::UnityW<::GlobalNamespace::BeatmapLevelSO> level;
 
-  __declspec(property(get = get_beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
+  __declspec(property(get = get_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
   __declspec(property(get = get_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
 
   __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  __declspec(property(get = get_missionHelp))::GlobalNamespace::MissionHelpSO* missionHelp;
+  __declspec(property(get = get_missionHelp))::UnityW<::GlobalNamespace::MissionHelpSO> missionHelp;
 
-  constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__level();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__level();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& __get__level() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__level() const;
 
-  constexpr void __set__level(::GlobalNamespace::BeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__level(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
-  constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__beatmapDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__beatmapDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
 
-  constexpr void __set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __get__missionObjectives();
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get__missionObjectives();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __get__missionObjectives() const;
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get__missionObjectives() const;
 
-  constexpr void __set__missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
+  constexpr void __cordl_internal_set__missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr ::GlobalNamespace::MissionHelpSO*& __get__missionHelp();
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpSO>& __cordl_internal_get__missionHelp();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionHelpSO*> const& __get__missionHelp() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& __cordl_internal_get__missionHelp() const;
 
-  constexpr void __set__missionHelp(::GlobalNamespace::MissionHelpSO* value);
+  constexpr void __cordl_internal_set__missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
   /// @brief Method get_missionObjectives, addr 0x2352a14, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> get_missionObjectives();
 
   /// @brief Method get_level, addr 0x2352a1c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelSO* get_level();
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_level();
 
   /// @brief Method get_beatmapCharacteristic, addr 0x2352a24, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
   /// @brief Method get_beatmapDifficulty, addr 0x2352a2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
@@ -122,7 +123,7 @@ public:
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   /// @brief Method get_missionHelp, addr 0x2352a3c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionHelpSO* get_missionHelp();
+  inline ::UnityW<::GlobalNamespace::MissionHelpSO> get_missionHelp();
 
   /// @brief Method OnValidate, addr 0x2352a44, size 0x8c, virtual false, abstract: false, final false
   inline void OnValidate();
@@ -147,10 +148,10 @@ protected:
 
 public:
   /// @brief Field _level, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelSO* ____level;
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____level;
 
   /// @brief Field _beatmapCharacteristic, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
@@ -162,7 +163,7 @@ public:
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
   /// @brief Field _missionHelp, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MissionHelpSO* ____missionHelp;
+  ::UnityW<::GlobalNamespace::MissionHelpSO> ____missionHelp;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

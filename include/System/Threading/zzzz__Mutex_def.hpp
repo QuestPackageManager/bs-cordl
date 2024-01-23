@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Threading::Mutex);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2740))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2740))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2743))
 // CS Name: ::System.Threading::Mutex*
 class CORDL_TYPE Mutex : public ::System::Threading::WaitHandle {

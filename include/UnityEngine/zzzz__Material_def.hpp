@@ -64,17 +64,17 @@ MARK_REF_PTR_T(::UnityEngine::Material);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10097))
 // CS Name: ::UnityEngine::Material*
 class CORDL_TYPE Material : public ::UnityEngine::Object {
 public:
   // Declarations
-  __declspec(property(get = get_shader, put = set_shader))::UnityEngine::Shader* shader;
+  __declspec(property(get = get_shader, put = set_shader))::UnityW<::UnityEngine::Shader> shader;
 
   __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
 
-  __declspec(property(get = get_mainTexture, put = set_mainTexture))::UnityEngine::Texture* mainTexture;
+  __declspec(property(get = get_mainTexture, put = set_mainTexture))::UnityW<::UnityEngine::Texture> mainTexture;
 
   __declspec(property(get = get_mainTextureOffset, put = set_mainTextureOffset))::UnityEngine::Vector2 mainTextureOffset;
 
@@ -97,7 +97,7 @@ public:
   __declspec(property(get = get_shaderKeywords, put = set_shaderKeywords))::ArrayW<::StringW, ::Array<::StringW>*> shaderKeywords;
 
   /// @brief Method Create, addr 0x2cbc28c, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* Create(::StringW scriptContents);
+  static inline ::UnityW<::UnityEngine::Material> Create(::StringW scriptContents);
 
   /// @brief Method CreateWithShader, addr 0x2cbc364, size 0x44, virtual false, abstract: false, final false
   static inline void CreateWithShader(::UnityEngine::Material* self, ::UnityEngine::Shader* shader);
@@ -124,16 +124,16 @@ public:
   inline void _ctor(::StringW contents);
 
   /// @brief Method GetDefaultMaterial, addr 0x2cbc548, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultMaterial();
 
   /// @brief Method GetDefaultParticleMaterial, addr 0x2cbc570, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultParticleMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultParticleMaterial();
 
   /// @brief Method GetDefaultLineMaterial, addr 0x2cbc598, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultLineMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultLineMaterial();
 
   /// @brief Method get_shader, addr 0x2cbc5c0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Shader* get_shader();
+  inline ::UnityW<::UnityEngine::Shader> get_shader();
 
   /// @brief Method set_shader, addr 0x2cbc5fc, size 0x44, virtual false, abstract: false, final false
   inline void set_shader(::UnityEngine::Shader* value);
@@ -145,7 +145,7 @@ public:
   inline void set_color(::UnityEngine::Color value);
 
   /// @brief Method get_mainTexture, addr 0x2cbc8b4, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* get_mainTexture();
+  inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
   /// @brief Method set_mainTexture, addr 0x2cbca18, size 0xc8, virtual false, abstract: false, final false
   inline void set_mainTexture(::UnityEngine::Texture* value);
@@ -430,7 +430,7 @@ public:
   inline ::UnityEngine::Matrix4x4 GetMatrixImpl(int32_t name);
 
   /// @brief Method GetTextureImpl, addr 0x2cbedac, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* GetTextureImpl(int32_t name);
+  inline ::UnityW<::UnityEngine::Texture> GetTextureImpl(int32_t name);
 
   /// @brief Method SetFloatArrayImpl, addr 0x2cbedf0, size 0x5c, virtual false, abstract: false, final false
   inline void SetFloatArrayImpl(int32_t name, ::ArrayW<float_t, ::Array<float_t>*> values, int32_t count);
@@ -670,10 +670,10 @@ public:
   inline ::UnityEngine::Matrix4x4 GetMatrix(int32_t nameID);
 
   /// @brief Method GetTexture, addr 0x2cbc9a8, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* GetTexture(::StringW name);
+  inline ::UnityW<::UnityEngine::Texture> GetTexture(::StringW name);
 
   /// @brief Method GetTexture, addr 0x2cbc964, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* GetTexture(int32_t nameID);
+  inline ::UnityW<::UnityEngine::Texture> GetTexture(int32_t nameID);
 
   /// @brief Method GetFloatArray, addr 0x2cc1284, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetFloatArray(::StringW name);

@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::System::Linq::Expressions::LambdaExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14300))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14300))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14303))
 // CS Name: ::System.Linq.Expressions::LambdaExpression*
 class CORDL_TYPE LambdaExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
   /// @brief Field _body, offset 0x10, size 0x8
-  __declspec(property(get = __get__body, put = __set__body))::System::Linq::Expressions::Expression* _body;
+  __declspec(property(get = __cordl_internal_get__body, put = __cordl_internal_set__body))::System::Linq::Expressions::Expression* _body;
 
   __declspec(property(get = get_Body))::System::Linq::Expressions::Expression* Body;
 
-  constexpr ::System::Linq::Expressions::Expression*& __get__body();
+  constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__body();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __get__body() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__body() const;
 
-  constexpr void __set__body(::System::Linq::Expressions::Expression* value);
+  constexpr void __cordl_internal_set__body(::System::Linq::Expressions::Expression* value);
 
   /// @brief Method get_Body, addr 0x2813d58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();

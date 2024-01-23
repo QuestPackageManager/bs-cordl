@@ -26,20 +26,20 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TDistance>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15922))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::NearestNeighbourList`2<TItem,TDistance>*
 class CORDL_TYPE NearestNeighbourList_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field queue, offset 0x10, size 0x8
-  __declspec(property(get = __get_queue, put = __set_queue))::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* queue;
+  __declspec(property(get = __cordl_internal_get_queue, put = __cordl_internal_set_queue))::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* queue;
 
   /// @brief Field distanceMath, offset 0x18, size 0x8
-  __declspec(property(get = __get_distanceMath, put = __set_distanceMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath;
+  __declspec(property(get = __cordl_internal_get_distanceMath, put = __cordl_internal_set_distanceMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath;
 
   /// @brief Field maxCapacity, offset 0x20, size 0x4
-  __declspec(property(get = __get_maxCapacity, put = __set_maxCapacity)) int32_t maxCapacity;
+  __declspec(property(get = __cordl_internal_get_maxCapacity, put = __cordl_internal_set_maxCapacity)) int32_t maxCapacity;
 
   __declspec(property(get = get_MaxCapacity)) int32_t MaxCapacity;
 
@@ -53,23 +53,23 @@ public:
   /// @brief Convert to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
   constexpr ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>* i___UnityEngine__ProBuilder__KdTree__INearestNeighbourList_2_TItem_TDistance_() noexcept;
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*& __get_queue();
+  constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*& __cordl_internal_get_queue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*> const& __get_queue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*> const& __cordl_internal_get_queue() const;
 
-  constexpr void __set_queue(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* value);
+  constexpr void __cordl_internal_set_queue(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*& __get_distanceMath();
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*& __cordl_internal_get_distanceMath();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*> const& __get_distanceMath() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*> const& __cordl_internal_get_distanceMath() const;
 
-  constexpr void __set_distanceMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* value);
+  constexpr void __cordl_internal_set_distanceMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* value);
 
-  constexpr int32_t& __get_maxCapacity();
+  constexpr int32_t& __cordl_internal_get_maxCapacity();
 
-  constexpr int32_t const& __get_maxCapacity() const;
+  constexpr int32_t const& __cordl_internal_get_maxCapacity() const;
 
-  constexpr void __set_maxCapacity(int32_t value);
+  constexpr void __cordl_internal_set_maxCapacity(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>* New_ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath);
 

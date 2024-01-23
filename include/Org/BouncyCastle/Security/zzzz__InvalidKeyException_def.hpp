@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::InvalidKeyException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1748))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1748))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1749))
 // CS Name: ::Org.BouncyCastle.Security::InvalidKeyException*
 class CORDL_TYPE InvalidKeyException : public ::Org::BouncyCastle::Security::KeyException {

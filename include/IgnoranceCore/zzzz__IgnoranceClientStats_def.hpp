@@ -15,7 +15,7 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceClientStats);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15249))
 // CS Name: ::IgnoranceCore::IgnoranceClientStats
 struct CORDL_TYPE IgnoranceClientStats {

@@ -35,26 +35,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedDataParser);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(620))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(620))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(635))
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedDataParser*
 class CORDL_TYPE CmsEnvelopedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
   // Declarations
   /// @brief Field recipientInfoStore, offset 0x20, size 0x8
-  __declspec(property(get = __get_recipientInfoStore, put = __set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
+  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
 
   /// @brief Field envelopedData, offset 0x28, size 0x8
-  __declspec(property(get = __get_envelopedData, put = __set_envelopedData))::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* envelopedData;
+  __declspec(property(get = __cordl_internal_get_envelopedData, put = __cordl_internal_set_envelopedData))::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* envelopedData;
 
   /// @brief Field _encAlg, offset 0x30, size 0x8
-  __declspec(property(get = __get__encAlg, put = __set__encAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _encAlg;
+  __declspec(property(get = __cordl_internal_get__encAlg, put = __cordl_internal_set__encAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _encAlg;
 
   /// @brief Field _unprotectedAttributes, offset 0x38, size 0x8
-  __declspec(property(get = __get__unprotectedAttributes, put = __set__unprotectedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* _unprotectedAttributes;
+  __declspec(property(get = __cordl_internal_get__unprotectedAttributes, put = __cordl_internal_set__unprotectedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* _unprotectedAttributes;
 
   /// @brief Field _attrNotRead, offset 0x40, size 0x1
-  __declspec(property(get = __get__attrNotRead, put = __set__attrNotRead)) bool _attrNotRead;
+  __declspec(property(get = __cordl_internal_get__attrNotRead, put = __cordl_internal_set__attrNotRead)) bool _attrNotRead;
 
   __declspec(property(get = get_EncryptionAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* EncryptionAlgorithmID;
 
@@ -62,35 +62,35 @@ public:
 
   __declspec(property(get = get_EncryptionAlgParams))::Org::BouncyCastle::Asn1::Asn1Object* EncryptionAlgParams;
 
-  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __get_recipientInfoStore();
+  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __cordl_internal_get_recipientInfoStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __get_recipientInfoStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __cordl_internal_get_recipientInfoStore() const;
 
-  constexpr void __set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
+  constexpr void __cordl_internal_set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*& __get_envelopedData();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*& __cordl_internal_get_envelopedData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*> const& __get_envelopedData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*> const& __cordl_internal_get_envelopedData() const;
 
-  constexpr void __set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* value);
+  constexpr void __cordl_internal_set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get__encAlg();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get__encAlg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get__encAlg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get__encAlg() const;
 
-  constexpr void __set__encAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set__encAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __get__unprotectedAttributes();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get__unprotectedAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __get__unprotectedAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get__unprotectedAttributes() const;
 
-  constexpr void __set__unprotectedAttributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr void __cordl_internal_set__unprotectedAttributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
-  constexpr bool& __get__attrNotRead();
+  constexpr bool& __cordl_internal_get__attrNotRead();
 
-  constexpr bool const& __get__attrNotRead() const;
+  constexpr bool const& __cordl_internal_get__attrNotRead() const;
 
-  constexpr void __set__attrNotRead(bool value);
+  constexpr void __cordl_internal_set__attrNotRead(bool value);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 

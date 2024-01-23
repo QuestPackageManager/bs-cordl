@@ -32,76 +32,77 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15200))
 // CS Name: ::BeatSaber.AvatarCore::MultiplayerAvatarPoseController*
 class CORDL_TYPE MultiplayerAvatarPoseController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _leftSaberTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__leftSaberTransform, put = __set__leftSaberTransform))::UnityEngine::Transform* _leftSaberTransform;
+  __declspec(property(get = __cordl_internal_get__leftSaberTransform, put = __cordl_internal_set__leftSaberTransform))::UnityW<::UnityEngine::Transform> _leftSaberTransform;
 
   /// @brief Field _rightSaberTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__rightSaberTransform, put = __set__rightSaberTransform))::UnityEngine::Transform* _rightSaberTransform;
+  __declspec(property(get = __cordl_internal_get__rightSaberTransform, put = __cordl_internal_set__rightSaberTransform))::UnityW<::UnityEngine::Transform> _rightSaberTransform;
 
   /// @brief Field _headTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get__headTransform, put = __set__headTransform))::UnityEngine::Transform* _headTransform;
+  __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform))::UnityW<::UnityEngine::Transform> _headTransform;
 
   /// @brief Field _nodePoseSyncStateManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__nodePoseSyncStateManager, put = __set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
+  __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
+                      put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
   /// @brief Field _avatarPoseRestriction, offset 0x38, size 0x8
-  __declspec(property(get = __get__avatarPoseRestriction, put = __set__avatarPoseRestriction))::BeatSaber::AvatarCore::IAvatarPoseRestriction* _avatarPoseRestriction;
+  __declspec(property(get = __cordl_internal_get__avatarPoseRestriction, put = __cordl_internal_set__avatarPoseRestriction))::BeatSaber::AvatarCore::IAvatarPoseRestriction* _avatarPoseRestriction;
 
   /// @brief Field _connectedPlayer, offset 0x40, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field didUpdatePoseEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_didUpdatePoseEvent, put = __set_didUpdatePoseEvent))::System::Action_1<::UnityEngine::Vector3>* didUpdatePoseEvent;
+  __declspec(property(get = __cordl_internal_get_didUpdatePoseEvent, put = __cordl_internal_set_didUpdatePoseEvent))::System::Action_1<::UnityEngine::Vector3>* didUpdatePoseEvent;
 
   __declspec(property(put = set_connectedPlayer))::GlobalNamespace::IConnectedPlayer* connectedPlayer;
 
-  constexpr ::UnityEngine::Transform*& __get__leftSaberTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftSaberTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__leftSaberTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftSaberTransform() const;
 
-  constexpr void __set__leftSaberTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__leftSaberTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__rightSaberTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightSaberTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__rightSaberTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightSaberTransform() const;
 
-  constexpr void __set__rightSaberTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__rightSaberTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__headTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__headTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
 
-  constexpr void __set__headTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__headTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __get__nodePoseSyncStateManager();
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __get__nodePoseSyncStateManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
-  constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
+  constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __get__avatarPoseRestriction();
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __cordl_internal_get__avatarPoseRestriction();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseRestriction*> const& __get__avatarPoseRestriction() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseRestriction*> const& __cordl_internal_get__avatarPoseRestriction() const;
 
-  constexpr void __set__avatarPoseRestriction(::BeatSaber::AvatarCore::IAvatarPoseRestriction* value);
+  constexpr void __cordl_internal_set__avatarPoseRestriction(::BeatSaber::AvatarCore::IAvatarPoseRestriction* value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::System::Action_1<::UnityEngine::Vector3>*& __get_didUpdatePoseEvent();
+  constexpr ::System::Action_1<::UnityEngine::Vector3>*& __cordl_internal_get_didUpdatePoseEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Vector3>*> const& __get_didUpdatePoseEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_didUpdatePoseEvent() const;
 
-  constexpr void __set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
   /// @brief Method add_didUpdatePoseEvent, addr 0xe0bad0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
@@ -138,13 +139,13 @@ protected:
 
 public:
   /// @brief Field _leftSaberTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____leftSaberTransform;
+  ::UnityW<::UnityEngine::Transform> ____leftSaberTransform;
 
   /// @brief Field _rightSaberTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____rightSaberTransform;
+  ::UnityW<::UnityEngine::Transform> ____rightSaberTransform;
 
   /// @brief Field _headTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____headTransform;
+  ::UnityW<::UnityEngine::Transform> ____headTransform;
 
   /// @brief Field _nodePoseSyncStateManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::INodePoseSyncStateManager* ____nodePoseSyncStateManager;

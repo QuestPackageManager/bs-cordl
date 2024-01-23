@@ -81,38 +81,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapCallbacksController__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4704))
 // CS Name: ::BeatmapCallbacksController::InitData*
 class CORDL_TYPE __BeatmapCallbacksController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field beatmapData, offset 0x10, size 0x8
-  __declspec(property(get = __get_beatmapData, put = __set_beatmapData))::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
+  __declspec(property(get = __cordl_internal_get_beatmapData, put = __cordl_internal_set_beatmapData))::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
 
   /// @brief Field startFilterTime, offset 0x18, size 0x4
-  __declspec(property(get = __get_startFilterTime, put = __set_startFilterTime)) float_t startFilterTime;
+  __declspec(property(get = __cordl_internal_get_startFilterTime, put = __cordl_internal_set_startFilterTime)) float_t startFilterTime;
 
   /// @brief Field shouldKeepReplayState, offset 0x1c, size 0x1
-  __declspec(property(get = __get_shouldKeepReplayState, put = __set_shouldKeepReplayState)) bool shouldKeepReplayState;
+  __declspec(property(get = __cordl_internal_get_shouldKeepReplayState, put = __cordl_internal_set_shouldKeepReplayState)) bool shouldKeepReplayState;
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get_beatmapData();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get_beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get_beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get_beatmapData() const;
 
-  constexpr void __set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  constexpr float_t& __get_startFilterTime();
+  constexpr float_t& __cordl_internal_get_startFilterTime();
 
-  constexpr float_t const& __get_startFilterTime() const;
+  constexpr float_t const& __cordl_internal_get_startFilterTime() const;
 
-  constexpr void __set_startFilterTime(float_t value);
+  constexpr void __cordl_internal_set_startFilterTime(float_t value);
 
-  constexpr bool& __get_shouldKeepReplayState();
+  constexpr bool& __cordl_internal_get_shouldKeepReplayState();
 
-  constexpr bool const& __get_shouldKeepReplayState() const;
+  constexpr bool const& __cordl_internal_get_shouldKeepReplayState() const;
 
-  constexpr void __set_shouldKeepReplayState(bool value);
+  constexpr void __cordl_internal_set_shouldKeepReplayState(bool value);
 
   static inline ::GlobalNamespace::__BeatmapCallbacksController__InitData* New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, float_t startFilterTime, bool shouldKeepReplayState);
 
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapCallbacksController__InitData
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4705))
 // CS Name: ::BeatmapCallbacksController::ICallCallbacksBehavior*
 class CORDL_TYPE __BeatmapCallbacksController__ICallCallbacksBehavior {
@@ -186,7 +186,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4706))
 // CS Name: ::BeatmapCallbacksController::CallCallbacksBehavior*
 class CORDL_TYPE __BeatmapCallbacksController__CallCallbacksBehavior : public ::System::Object {
@@ -233,15 +233,16 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapCallba
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4707))
 // CS Name: ::BeatmapCallbacksController::CallCallbacksBehaviorWithLastState*
 class CORDL_TYPE __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _replayState, offset 0x10, size 0x8
-  __declspec(property(get = __get__replayState,
-                      put = __set__replayState))::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* _replayState;
+  __declspec(property(
+      get = __cordl_internal_get__replayState,
+      put = __cordl_internal_set__replayState))::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* _replayState;
 
   /// @brief Convert operator to "::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior"
   constexpr operator ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*() noexcept;
@@ -249,12 +250,12 @@ public:
   /// @brief Convert to "::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior"
   constexpr ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior* i___GlobalNamespace____BeatmapCallbacksController__ICallCallbacksBehavior() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>*& __get__replayState();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get__replayState();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>*> const&
-  __get__replayState() const;
+  __cordl_internal_get__replayState() const;
 
-  constexpr void __set__replayState(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* value);
+  constexpr void __cordl_internal_set__replayState(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* value);
 
   /// @brief Method CallCallbacks, addr 0x237b84c, size 0xc4, virtual true, abstract: false, final true
   inline void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
@@ -296,7 +297,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapCallbacksController__CallCall
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 62, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4708))
 // CS Name: ::BeatmapCallbacksController*
 class CORDL_TYPE BeatmapCallbacksController : public ::System::Object {
@@ -311,31 +312,35 @@ public:
   using InitData = ::GlobalNamespace::__BeatmapCallbacksController__InitData;
 
   /// @brief Field didProcessAllCallbacksThisFrameEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_didProcessAllCallbacksThisFrameEvent, put = __set_didProcessAllCallbacksThisFrameEvent))::System::Action* didProcessAllCallbacksThisFrameEvent;
+  __declspec(property(get = __cordl_internal_get_didProcessAllCallbacksThisFrameEvent,
+                      put = __cordl_internal_set_didProcessAllCallbacksThisFrameEvent))::System::Action* didProcessAllCallbacksThisFrameEvent;
 
   /// @brief Field _callbacksInTimes, offset 0x18, size 0x8
-  __declspec(property(get = __get__callbacksInTimes, put = __set__callbacksInTimes))::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* _callbacksInTimes;
+  __declspec(property(get = __cordl_internal_get__callbacksInTimes,
+                      put = __cordl_internal_set__callbacksInTimes))::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* _callbacksInTimes;
 
   /// @brief Field _beatmapData, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapData, put = __set__beatmapData))::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
 
   /// @brief Field _callCallbacksBehavior, offset 0x28, size 0x8
-  __declspec(property(get = __get__callCallbacksBehavior, put = __set__callCallbacksBehavior))::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior* _callCallbacksBehavior;
+  __declspec(property(get = __cordl_internal_get__callCallbacksBehavior,
+                      put = __cordl_internal_set__callCallbacksBehavior))::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior* _callCallbacksBehavior;
 
   /// @brief Field _startFilterTime, offset 0x30, size 0x4
-  __declspec(property(get = __get__startFilterTime, put = __set__startFilterTime)) float_t _startFilterTime;
+  __declspec(property(get = __cordl_internal_get__startFilterTime, put = __cordl_internal_set__startFilterTime)) float_t _startFilterTime;
 
   /// @brief Field _prevSongTime, offset 0x34, size 0x4
-  __declspec(property(get = __get__prevSongTime, put = __set__prevSongTime)) float_t _prevSongTime;
+  __declspec(property(get = __cordl_internal_get__prevSongTime, put = __cordl_internal_set__prevSongTime)) float_t _prevSongTime;
 
   /// @brief Field _songTime, offset 0x38, size 0x4
-  __declspec(property(get = __get__songTime, put = __set__songTime)) float_t _songTime;
+  __declspec(property(get = __cordl_internal_get__songTime, put = __cordl_internal_set__songTime)) float_t _songTime;
 
   /// @brief Field _sendCallbacksOnBeatmapDataChangeChange, offset 0x3c, size 0x1
-  __declspec(property(get = __get__sendCallbacksOnBeatmapDataChangeChange, put = __set__sendCallbacksOnBeatmapDataChangeChange)) bool _sendCallbacksOnBeatmapDataChangeChange;
+  __declspec(property(get = __cordl_internal_get__sendCallbacksOnBeatmapDataChangeChange,
+                      put = __cordl_internal_set__sendCallbacksOnBeatmapDataChangeChange)) bool _sendCallbacksOnBeatmapDataChangeChange;
 
   /// @brief Field _processingCallbacks, offset 0x3d, size 0x1
-  __declspec(property(get = __get__processingCallbacks, put = __set__processingCallbacks)) bool _processingCallbacks;
+  __declspec(property(get = __cordl_internal_get__processingCallbacks, put = __cordl_internal_set__processingCallbacks)) bool _processingCallbacks;
 
   __declspec(property(get = get_sendCallbacksOnBeatmapDataChange, put = set_sendCallbacksOnBeatmapDataChange)) bool sendCallbacksOnBeatmapDataChange;
 
@@ -347,59 +352,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Action*& __get_didProcessAllCallbacksThisFrameEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didProcessAllCallbacksThisFrameEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didProcessAllCallbacksThisFrameEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didProcessAllCallbacksThisFrameEvent() const;
 
-  constexpr void __set_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>*& __get__callbacksInTimes();
+  constexpr ::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>*& __cordl_internal_get__callbacksInTimes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>*> const& __get__callbacksInTimes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>*> const& __cordl_internal_get__callbacksInTimes() const;
 
-  constexpr void __set__callbacksInTimes(::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* value);
+  constexpr void __cordl_internal_set__callbacksInTimes(::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* value);
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get__beatmapData();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get__beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
-  constexpr void __set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  constexpr ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*& __get__callCallbacksBehavior();
+  constexpr ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*& __cordl_internal_get__callCallbacksBehavior();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*> const& __get__callCallbacksBehavior() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*> const& __cordl_internal_get__callCallbacksBehavior() const;
 
-  constexpr void __set__callCallbacksBehavior(::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior* value);
+  constexpr void __cordl_internal_set__callCallbacksBehavior(::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior* value);
 
-  constexpr float_t& __get__startFilterTime();
+  constexpr float_t& __cordl_internal_get__startFilterTime();
 
-  constexpr float_t const& __get__startFilterTime() const;
+  constexpr float_t const& __cordl_internal_get__startFilterTime() const;
 
-  constexpr void __set__startFilterTime(float_t value);
+  constexpr void __cordl_internal_set__startFilterTime(float_t value);
 
-  constexpr float_t& __get__prevSongTime();
+  constexpr float_t& __cordl_internal_get__prevSongTime();
 
-  constexpr float_t const& __get__prevSongTime() const;
+  constexpr float_t const& __cordl_internal_get__prevSongTime() const;
 
-  constexpr void __set__prevSongTime(float_t value);
+  constexpr void __cordl_internal_set__prevSongTime(float_t value);
 
-  constexpr float_t& __get__songTime();
+  constexpr float_t& __cordl_internal_get__songTime();
 
-  constexpr float_t const& __get__songTime() const;
+  constexpr float_t const& __cordl_internal_get__songTime() const;
 
-  constexpr void __set__songTime(float_t value);
+  constexpr void __cordl_internal_set__songTime(float_t value);
 
-  constexpr bool& __get__sendCallbacksOnBeatmapDataChangeChange();
+  constexpr bool& __cordl_internal_get__sendCallbacksOnBeatmapDataChangeChange();
 
-  constexpr bool const& __get__sendCallbacksOnBeatmapDataChangeChange() const;
+  constexpr bool const& __cordl_internal_get__sendCallbacksOnBeatmapDataChangeChange() const;
 
-  constexpr void __set__sendCallbacksOnBeatmapDataChangeChange(bool value);
+  constexpr void __cordl_internal_set__sendCallbacksOnBeatmapDataChangeChange(bool value);
 
-  constexpr bool& __get__processingCallbacks();
+  constexpr bool& __cordl_internal_get__processingCallbacks();
 
-  constexpr bool const& __get__processingCallbacks() const;
+  constexpr bool const& __cordl_internal_get__processingCallbacks() const;
 
-  constexpr void __set__processingCallbacks(bool value);
+  constexpr void __cordl_internal_set__processingCallbacks(bool value);
 
   /// @brief Method get_sendCallbacksOnBeatmapDataChange, addr 0x2379a8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_sendCallbacksOnBeatmapDataChange();

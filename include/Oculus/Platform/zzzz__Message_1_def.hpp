@@ -34,7 +34,7 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13261))
 // CS Name: ::Message`1::Callback<T>*
 class CORDL_TYPE __Message_1__Callback : public ::System::MulticastDelegate {
@@ -78,7 +78,7 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13266))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13266))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13262))
 // CS Name: ::Oculus.Platform::Message`1<T>*
 class CORDL_TYPE Message_1 : public ::Oculus::Platform::Message {
@@ -87,15 +87,15 @@ public:
   using Callback = ::Oculus::Platform::__Message_1__Callback<T>;
 
   /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __get_data, put = __set_data)) T data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) T data;
 
   __declspec(property(get = get_Data)) T Data;
 
-  constexpr T& __get_data();
+  constexpr T& __cordl_internal_get_data();
 
-  constexpr T const& __get_data() const;
+  constexpr T const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(T value);
+  constexpr void __cordl_internal_set_data(T value);
 
   static inline ::Oculus::Platform::Message_1<T>* New_ctor(void* c_message);
 

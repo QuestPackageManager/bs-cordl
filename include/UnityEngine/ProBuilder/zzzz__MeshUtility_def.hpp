@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__MeshUtility____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12143))
 // CS Name: ::MeshUtility::<>c*
 class CORDL_TYPE __MeshUtility____c : public ::System::Object {
@@ -117,7 +117,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__MeshU
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12144))
 // CS Name: ::UnityEngine.ProBuilder::MeshUtility*
 class CORDL_TYPE MeshUtility : public ::System::Object {
@@ -132,13 +132,13 @@ public:
   static inline void GenerateTangent(::UnityEngine::Mesh* mesh);
 
   /// @brief Method DeepCopy, addr 0x2b51848, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh* DeepCopy(::UnityEngine::Mesh* source);
+  static inline ::UnityW<::UnityEngine::Mesh> DeepCopy(::UnityEngine::Mesh* source);
 
   /// @brief Method CopyTo, addr 0x2b518b4, size 0x4a0, virtual false, abstract: false, final false
   static inline void CopyTo(::UnityEngine::Mesh* source, ::UnityEngine::Mesh* destination);
 
   /// @brief Method GetMeshChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityEngine::Mesh*, T>* attributeGetter);
+  template <typename T> static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityW<::UnityEngine::Mesh>, T>* attributeGetter);
 
   /// @brief Method PrintAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void PrintAttribute(::System::Text::StringBuilder* sb, ::StringW title, ::System::Collections::Generic::IEnumerable_1<T>* attrib, ::StringW fmt);

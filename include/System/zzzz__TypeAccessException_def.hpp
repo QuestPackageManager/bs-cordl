@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::TypeAccessException);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2573))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2573))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2495))
 // CS Name: ::System::TypeAccessException*
 class CORDL_TYPE TypeAccessException : public ::System::TypeLoadException {

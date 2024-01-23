@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaRunnableProxy);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14912))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14911))
 // CS Name: ::UnityEngine::AndroidJavaRunnableProxy*
 class CORDL_TYPE AndroidJavaRunnableProxy : public ::UnityEngine::AndroidJavaProxy {
 public:
   // Declarations
   /// @brief Field mRunnable, offset 0x20, size 0x8
-  __declspec(property(get = __get_mRunnable, put = __set_mRunnable))::UnityEngine::AndroidJavaRunnable* mRunnable;
+  __declspec(property(get = __cordl_internal_get_mRunnable, put = __cordl_internal_set_mRunnable))::UnityEngine::AndroidJavaRunnable* mRunnable;
 
-  constexpr ::UnityEngine::AndroidJavaRunnable*& __get_mRunnable();
+  constexpr ::UnityEngine::AndroidJavaRunnable*& __cordl_internal_get_mRunnable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AndroidJavaRunnable*> const& __get_mRunnable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AndroidJavaRunnable*> const& __cordl_internal_get_mRunnable() const;
 
-  constexpr void __set_mRunnable(::UnityEngine::AndroidJavaRunnable* value);
+  constexpr void __cordl_internal_set_mRunnable(::UnityEngine::AndroidJavaRunnable* value);
 
   static inline ::UnityEngine::AndroidJavaRunnableProxy* New_ctor(::UnityEngine::AndroidJavaRunnable* runnable);
 

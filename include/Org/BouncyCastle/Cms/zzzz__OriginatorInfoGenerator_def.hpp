@@ -26,29 +26,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInfoGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(680))
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorInfoGenerator*
 class CORDL_TYPE OriginatorInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field origCerts, offset 0x10, size 0x8
-  __declspec(property(get = __get_origCerts, put = __set_origCerts))::System::Collections::IList* origCerts;
+  __declspec(property(get = __cordl_internal_get_origCerts, put = __cordl_internal_set_origCerts))::System::Collections::IList* origCerts;
 
   /// @brief Field origCrls, offset 0x18, size 0x8
-  __declspec(property(get = __get_origCrls, put = __set_origCrls))::System::Collections::IList* origCrls;
+  __declspec(property(get = __cordl_internal_get_origCrls, put = __cordl_internal_set_origCrls))::System::Collections::IList* origCrls;
 
-  constexpr ::System::Collections::IList*& __get_origCerts();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_origCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_origCerts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_origCerts() const;
 
-  constexpr void __set_origCerts(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_origCerts(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_origCrls();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_origCrls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_origCrls() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_origCrls() const;
 
-  constexpr void __set_origCrls(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_origCrls(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 

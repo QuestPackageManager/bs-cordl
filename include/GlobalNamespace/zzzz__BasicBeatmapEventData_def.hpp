@@ -29,23 +29,23 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicBeatmapEventData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(14727))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14721))
 // CS Name: ::BasicBeatmapEventData*
 class CORDL_TYPE BasicBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
   /// @brief Field <sameTypeIndex>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__sameTypeIndex_k__BackingField, put = __set__sameTypeIndex_k__BackingField)) int32_t _sameTypeIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__sameTypeIndex_k__BackingField, put = __cordl_internal_set__sameTypeIndex_k__BackingField)) int32_t _sameTypeIndex_k__BackingField;
 
   /// @brief Field basicBeatmapEventType, offset 0x34, size 0x4
-  __declspec(property(get = __get_basicBeatmapEventType, put = __set_basicBeatmapEventType))::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType;
+  __declspec(property(get = __cordl_internal_get_basicBeatmapEventType, put = __cordl_internal_set_basicBeatmapEventType))::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType;
 
   /// @brief Field value, offset 0x38, size 0x4
-  __declspec(property(get = __get_value, put = __set_value)) int32_t value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
   /// @brief Field floatValue, offset 0x3c, size 0x4
-  __declspec(property(get = __get_floatValue, put = __set_floatValue)) float_t floatValue;
+  __declspec(property(get = __cordl_internal_get_floatValue, put = __cordl_internal_set_floatValue)) float_t floatValue;
 
   /// @brief Field _defaultsForType, offset 0xffffffff, size 0x8
   static __declspec(
@@ -58,29 +58,29 @@ public:
 
   __declspec(property(get = get_sameTypeIndex, put = set_sameTypeIndex)) int32_t sameTypeIndex;
 
-  constexpr int32_t& __get__sameTypeIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__sameTypeIndex_k__BackingField();
 
-  constexpr int32_t const& __get__sameTypeIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__sameTypeIndex_k__BackingField() const;
 
-  constexpr void __set__sameTypeIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__sameTypeIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __get_basicBeatmapEventType();
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get_basicBeatmapEventType();
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __get_basicBeatmapEventType() const;
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get_basicBeatmapEventType() const;
 
-  constexpr void __set_basicBeatmapEventType(::GlobalNamespace::BasicBeatmapEventType value);
+  constexpr void __cordl_internal_set_basicBeatmapEventType(::GlobalNamespace::BasicBeatmapEventType value);
 
-  constexpr int32_t& __get_value();
+  constexpr int32_t& __cordl_internal_get_value();
 
-  constexpr int32_t const& __get_value() const;
+  constexpr int32_t const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(int32_t value);
+  constexpr void __cordl_internal_set_value(int32_t value);
 
-  constexpr float_t& __get_floatValue();
+  constexpr float_t& __cordl_internal_get_floatValue();
 
-  constexpr float_t const& __get_floatValue() const;
+  constexpr float_t const& __cordl_internal_get_floatValue() const;
 
-  constexpr void __set_floatValue(float_t value);
+  constexpr void __cordl_internal_set_floatValue(float_t value);
 
   static inline void setStaticF__defaultsForType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* value);
 

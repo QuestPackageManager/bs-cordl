@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15698))
 // CS Name: ::MulticolorAvatarPartPropertyBlockSetter::ColorData*
 class CORDL_TYPE __MulticolorAvatarPartPropertyBlockSetter__ColorData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _defaultColor, offset 0x10, size 0x10
-  __declspec(property(get = __get__defaultColor, put = __set__defaultColor))::UnityEngine::Color _defaultColor;
+  __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor))::UnityEngine::Color _defaultColor;
 
   /// @brief Field _darkerColorMultiplier, offset 0x20, size 0x4
-  __declspec(property(get = __get__darkerColorMultiplier, put = __set__darkerColorMultiplier)) float_t _darkerColorMultiplier;
+  __declspec(property(get = __cordl_internal_get__darkerColorMultiplier, put = __cordl_internal_set__darkerColorMultiplier)) float_t _darkerColorMultiplier;
 
   /// @brief Field _whiteBoost, offset 0x24, size 0x4
-  __declspec(property(get = __get__whiteBoost, put = __set__whiteBoost)) float_t _whiteBoost;
+  __declspec(property(get = __cordl_internal_get__whiteBoost, put = __cordl_internal_set__whiteBoost)) float_t _whiteBoost;
 
   __declspec(property(get = get_defaultColor))::UnityEngine::Color defaultColor;
 
@@ -69,23 +69,23 @@ public:
 
   __declspec(property(get = get_whiteBoost)) float_t whiteBoost;
 
-  constexpr ::UnityEngine::Color& __get__defaultColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor();
 
-  constexpr ::UnityEngine::Color const& __get__defaultColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
 
-  constexpr void __set__defaultColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get__darkerColorMultiplier();
+  constexpr float_t& __cordl_internal_get__darkerColorMultiplier();
 
-  constexpr float_t const& __get__darkerColorMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__darkerColorMultiplier() const;
 
-  constexpr void __set__darkerColorMultiplier(float_t value);
+  constexpr void __cordl_internal_set__darkerColorMultiplier(float_t value);
 
-  constexpr float_t& __get__whiteBoost();
+  constexpr float_t& __cordl_internal_get__whiteBoost();
 
-  constexpr float_t const& __get__whiteBoost() const;
+  constexpr float_t const& __cordl_internal_get__whiteBoost() const;
 
-  constexpr void __set__whiteBoost(float_t value);
+  constexpr void __cordl_internal_set__whiteBoost(float_t value);
 
   /// @brief Method get_defaultColor, addr 0xe1c488, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_defaultColor();
@@ -140,7 +140,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropert
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15699))
 // CS Name: ::MulticolorAvatarPartPropertyBlockSetter::<>c*
 class CORDL_TYPE __MulticolorAvatarPartPropertyBlockSetter____c : public ::System::Object {
@@ -193,7 +193,7 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::__Mult
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15700))
 // CS Name: ::BeatSaber.BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*
 class CORDL_TYPE MulticolorAvatarPartPropertyBlockSetter : public ::UnityEngine::MonoBehaviour {
@@ -204,84 +204,85 @@ public:
   using ColorData = ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData;
 
   /// @brief Field _colorDataList, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorDataList, put = __set__colorDataList))::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*,
-                                                                                       ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*> _colorDataList;
+  __declspec(property(get = __cordl_internal_get__colorDataList,
+                      put = __cordl_internal_set__colorDataList))::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*,
+                                                                          ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*> _colorDataList;
 
   /// @brief Field _renderer, offset 0x20, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::Renderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
   /// @brief Field _editInPlayMode, offset 0x28, size 0x1
-  __declspec(property(get = __get__editInPlayMode, put = __set__editInPlayMode)) bool _editInPlayMode;
+  __declspec(property(get = __cordl_internal_get__editInPlayMode, put = __cordl_internal_set__editInPlayMode)) bool _editInPlayMode;
 
   /// @brief Field _colors, offset 0x30, size 0x8
-  __declspec(property(get = __get__colors, put = __set__colors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
+  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
 
   /// @brief Field _rimLightColors, offset 0x38, size 0x8
-  __declspec(property(get = __get__rimLightColors, put = __set__rimLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _rimLightColors;
+  __declspec(property(get = __cordl_internal_get__rimLightColors, put = __cordl_internal_set__rimLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _rimLightColors;
 
   /// @brief Field _boostColors, offset 0x40, size 0x8
-  __declspec(property(get = __get__boostColors, put = __set__boostColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _boostColors;
+  __declspec(property(get = __cordl_internal_get__boostColors, put = __cordl_internal_set__boostColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _boostColors;
 
   /// @brief Field _highlighted, offset 0x48, size 0x1
-  __declspec(property(get = __get__highlighted, put = __set__highlighted)) bool _highlighted;
+  __declspec(property(get = __cordl_internal_get__highlighted, put = __cordl_internal_set__highlighted)) bool _highlighted;
 
   /// @brief Field _uvSegment, offset 0x4c, size 0x4
-  __declspec(property(get = __get__uvSegment, put = __set__uvSegment)) int32_t _uvSegment;
+  __declspec(property(get = __cordl_internal_get__uvSegment, put = __cordl_internal_set__uvSegment)) int32_t _uvSegment;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
   constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*>&
-  __get__colorDataList();
+  __cordl_internal_get__colorDataList();
 
   constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*,
                      ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*> const&
-  __get__colorDataList() const;
+  __cordl_internal_get__colorDataList() const;
 
-  constexpr void __set__colorDataList(
+  constexpr void __cordl_internal_set__colorDataList(
       ::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*> value);
 
-  constexpr ::UnityEngine::Renderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr bool& __get__editInPlayMode();
+  constexpr bool& __cordl_internal_get__editInPlayMode();
 
-  constexpr bool const& __get__editInPlayMode() const;
+  constexpr bool const& __cordl_internal_get__editInPlayMode() const;
 
-  constexpr void __set__editInPlayMode(bool value);
+  constexpr void __cordl_internal_set__editInPlayMode(bool value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__colors();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__colors();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__colors() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__colors() const;
 
-  constexpr void __set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__rimLightColors();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__rimLightColors();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__rimLightColors() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__rimLightColors() const;
 
-  constexpr void __set__rimLightColors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__rimLightColors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __get__boostColors();
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get__boostColors();
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __get__boostColors() const;
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__boostColors() const;
 
-  constexpr void __set__boostColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+  constexpr void __cordl_internal_set__boostColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
 
-  constexpr bool& __get__highlighted();
+  constexpr bool& __cordl_internal_get__highlighted();
 
-  constexpr bool const& __get__highlighted() const;
+  constexpr bool const& __cordl_internal_get__highlighted() const;
 
-  constexpr void __set__highlighted(bool value);
+  constexpr void __cordl_internal_set__highlighted(bool value);
 
-  constexpr int32_t& __get__uvSegment();
+  constexpr int32_t& __cordl_internal_get__uvSegment();
 
-  constexpr int32_t const& __get__uvSegment() const;
+  constexpr int32_t const& __cordl_internal_get__uvSegment() const;
 
-  constexpr void __set__uvSegment(int32_t value);
+  constexpr void __cordl_internal_set__uvSegment(int32_t value);
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
@@ -323,7 +324,7 @@ public:
       ____colorDataList;
 
   /// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____renderer;
+  ::UnityW<::UnityEngine::Renderer> ____renderer;
 
   /// @brief Field _editInPlayMode, offset: 0x28, size: 0x1, def value: None
   bool ____editInPlayMode;

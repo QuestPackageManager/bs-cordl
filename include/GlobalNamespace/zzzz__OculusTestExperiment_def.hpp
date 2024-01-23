@@ -48,14 +48,14 @@ MARK_VAL_T(::GlobalNamespace::__OculusTestExperiment___Init_d__3);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4188))
 // CS Name: ::OculusTestExperiment::ExperimentData*
 class CORDL_TYPE __OculusTestExperiment__ExperimentData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _experimentPlatformKey, offset 0x10, size 0x8
-  __declspec(property(get = __get__experimentPlatformKey, put = __set__experimentPlatformKey))::StringW _experimentPlatformKey;
+  __declspec(property(get = __cordl_internal_get__experimentPlatformKey, put = __cordl_internal_set__experimentPlatformKey))::StringW _experimentPlatformKey;
 
   __declspec(property(get = get_experimentPlatformKey))::StringW experimentPlatformKey;
 
@@ -65,11 +65,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IExperimentData"
   constexpr ::GlobalNamespace::IExperimentData* i___GlobalNamespace__IExperimentData() noexcept;
 
-  constexpr ::StringW& __get__experimentPlatformKey();
+  constexpr ::StringW& __cordl_internal_get__experimentPlatformKey();
 
-  constexpr ::StringW const& __get__experimentPlatformKey() const;
+  constexpr ::StringW const& __cordl_internal_get__experimentPlatformKey() const;
 
-  constexpr void __set__experimentPlatformKey(::StringW value);
+  constexpr void __cordl_internal_set__experimentPlatformKey(::StringW value);
 
   /// @brief Method get_experimentPlatformKey, addr 0x23232a4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_experimentPlatformKey();
@@ -108,8 +108,8 @@ static_assert(offsetof(::GlobalNamespace::__OculusTestExperiment__ExperimentData
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4189)) CS Name: ::OculusTestExperiment::<Init>d__3
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4189)) CS Name: ::OculusTestExperiment::<Init>d__3
 struct CORDL_TYPE __OculusTestExperiment___Init_d__3 {
 public:
   // Declarations
@@ -168,7 +168,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusTestExperiment___Init_d__3, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4190))
 // CS Name: ::OculusTestExperiment*
 class CORDL_TYPE OculusTestExperiment : public ::System::Object {
@@ -179,13 +179,13 @@ public:
   using ExperimentData = ::GlobalNamespace::__OculusTestExperiment__ExperimentData;
 
   /// @brief Field _experimentModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__experimentModel, put = __set__experimentModel))::GlobalNamespace::IExperimentModel* _experimentModel;
+  __declspec(property(get = __cordl_internal_get__experimentModel, put = __cordl_internal_set__experimentModel))::GlobalNamespace::IExperimentModel* _experimentModel;
 
-  constexpr ::GlobalNamespace::IExperimentModel*& __get__experimentModel();
+  constexpr ::GlobalNamespace::IExperimentModel*& __cordl_internal_get__experimentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IExperimentModel*> const& __get__experimentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IExperimentModel*> const& __cordl_internal_get__experimentModel() const;
 
-  constexpr void __set__experimentModel(::GlobalNamespace::IExperimentModel* value);
+  constexpr void __cordl_internal_set__experimentModel(::GlobalNamespace::IExperimentModel* value);
 
   /// @brief Method Init, addr 0x2323208, size 0x94, virtual false, abstract: false, final false
   inline void Init();

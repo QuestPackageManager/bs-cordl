@@ -144,29 +144,29 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::__JToken___GetAncestors_d__41);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11996))
 // CS Name: ::JToken::LineInfoAnnotation*
 class CORDL_TYPE __JToken__LineInfoAnnotation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field LineNumber, offset 0x10, size 0x4
-  __declspec(property(get = __get_LineNumber, put = __set_LineNumber)) int32_t LineNumber;
+  __declspec(property(get = __cordl_internal_get_LineNumber, put = __cordl_internal_set_LineNumber)) int32_t LineNumber;
 
   /// @brief Field LinePosition, offset 0x14, size 0x4
-  __declspec(property(get = __get_LinePosition, put = __set_LinePosition)) int32_t LinePosition;
+  __declspec(property(get = __cordl_internal_get_LinePosition, put = __cordl_internal_set_LinePosition)) int32_t LinePosition;
 
-  constexpr int32_t& __get_LineNumber();
+  constexpr int32_t& __cordl_internal_get_LineNumber();
 
-  constexpr int32_t const& __get_LineNumber() const;
+  constexpr int32_t const& __cordl_internal_get_LineNumber() const;
 
-  constexpr void __set_LineNumber(int32_t value);
+  constexpr void __cordl_internal_set_LineNumber(int32_t value);
 
-  constexpr int32_t& __get_LinePosition();
+  constexpr int32_t& __cordl_internal_get_LinePosition();
 
-  constexpr int32_t const& __get_LinePosition() const;
+  constexpr int32_t const& __cordl_internal_get_LinePosition() const;
 
-  constexpr void __set_LinePosition(int32_t value);
+  constexpr void __cordl_internal_set_LinePosition(int32_t value);
 
   static inline ::Newtonsoft::Json::Linq::__JToken__LineInfoAnnotation* New_ctor(int32_t lineNumber, int32_t linePosition);
 
@@ -207,32 +207,32 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::__JToken__LineInfoAnnotation, _
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11997))
 // CS Name: ::JToken::<GetAncestors>d__41*
 class CORDL_TYPE __JToken___GetAncestors_d__41 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::Newtonsoft::Json::Linq::JToken* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::Newtonsoft::Json::Linq::JToken* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field self, offset 0x24, size 0x1
-  __declspec(property(get = __get_self, put = __set_self)) bool self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self)) bool self;
 
   /// @brief Field <>3__self, offset 0x25, size 0x1
-  __declspec(property(get = __get___3__self, put = __set___3__self)) bool __3__self;
+  __declspec(property(get = __cordl_internal_get___3__self, put = __cordl_internal_set___3__self)) bool __3__self;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
 
   /// @brief Field <current>5__1, offset 0x30, size 0x8
-  __declspec(property(get = __get__current_5__1, put = __set__current_5__1))::Newtonsoft::Json::Linq::JToken* _current_5__1;
+  __declspec(property(get = __cordl_internal_get__current_5__1, put = __cordl_internal_set__current_5__1))::Newtonsoft::Json::Linq::JToken* _current_5__1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current))::Newtonsoft::Json::Linq::
       JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__Current;
@@ -269,47 +269,47 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___2__current();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___2__current(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr bool& __get_self();
+  constexpr bool& __cordl_internal_get_self();
 
-  constexpr bool const& __get_self() const;
+  constexpr bool const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(bool value);
+  constexpr void __cordl_internal_set_self(bool value);
 
-  constexpr bool& __get___3__self();
+  constexpr bool& __cordl_internal_get___3__self();
 
-  constexpr bool const& __get___3__self() const;
+  constexpr bool const& __cordl_internal_get___3__self() const;
 
-  constexpr void __set___3__self(bool value);
+  constexpr void __cordl_internal_set___3__self(bool value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___4__this();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__current_5__1();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__current_5__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__current_5__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__current_5__1() const;
 
-  constexpr void __set__current_5__1(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__current_5__1(::Newtonsoft::Json::Linq::JToken* value);
 
   static inline ::Newtonsoft::Json::Linq::__JToken___GetAncestors_d__41* New_ctor(int32_t __1__state);
 
@@ -396,26 +396,26 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::__JToken___GetAncestors_d__41, 
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11998))
 // CS Name: ::JToken::<AfterSelf>d__42*
 class CORDL_TYPE __JToken___AfterSelf_d__42 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::Newtonsoft::Json::Linq::JToken* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::Newtonsoft::Json::Linq::JToken* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
 
   /// @brief Field <o>5__1, offset 0x30, size 0x8
-  __declspec(property(get = __get__o_5__1, put = __set__o_5__1))::Newtonsoft::Json::Linq::JToken* _o_5__1;
+  __declspec(property(get = __cordl_internal_get__o_5__1, put = __cordl_internal_set__o_5__1))::Newtonsoft::Json::Linq::JToken* _o_5__1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current))::Newtonsoft::Json::Linq::
       JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__Current;
@@ -452,35 +452,35 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___2__current();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___2__current(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___4__this();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__o_5__1();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__o_5__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__o_5__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__o_5__1() const;
 
-  constexpr void __set__o_5__1(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__o_5__1(::Newtonsoft::Json::Linq::JToken* value);
 
   static inline ::Newtonsoft::Json::Linq::__JToken___AfterSelf_d__42* New_ctor(int32_t __1__state);
 
@@ -557,26 +557,26 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::__JToken___AfterSelf_d__42, ___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11999))
 // CS Name: ::JToken::<BeforeSelf>d__43*
 class CORDL_TYPE __JToken___BeforeSelf_d__43 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::Newtonsoft::Json::Linq::JToken* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::Newtonsoft::Json::Linq::JToken* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
 
   /// @brief Field <o>5__1, offset 0x30, size 0x8
-  __declspec(property(get = __get__o_5__1, put = __set__o_5__1))::Newtonsoft::Json::Linq::JToken* _o_5__1;
+  __declspec(property(get = __cordl_internal_get__o_5__1, put = __cordl_internal_set__o_5__1))::Newtonsoft::Json::Linq::JToken* _o_5__1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current))::Newtonsoft::Json::Linq::
       JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__Current;
@@ -613,35 +613,35 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___2__current();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___2__current(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___4__this();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__o_5__1();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__o_5__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__o_5__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__o_5__1() const;
 
-  constexpr void __set__o_5__1(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__o_5__1(::Newtonsoft::Json::Linq::JToken* value);
 
   static inline ::Newtonsoft::Json::Linq::__JToken___BeforeSelf_d__43* New_ctor(int32_t __1__state);
 
@@ -720,29 +720,29 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12000))
 // CS Name: ::JToken::<Annotations>d__171`1<T>*
 class CORDL_TYPE __JToken___Annotations_d__171_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
 
   /// @brief Field <annotations>5__1, offset 0x30, size 0x8
-  __declspec(property(get = __get__annotations_5__1, put = __set__annotations_5__1))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _annotations_5__1;
+  __declspec(property(get = __cordl_internal_get__annotations_5__1, put = __cordl_internal_set__annotations_5__1))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _annotations_5__1;
 
   /// @brief Field <i>5__2, offset 0x38, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -778,41 +778,41 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___4__this();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__annotations_5__1();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__annotations_5__1();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__annotations_5__1() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__annotations_5__1() const;
 
-  constexpr void __set__annotations_5__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__annotations_5__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::Newtonsoft::Json::Linq::__JToken___Annotations_d__171_1<T>* New_ctor(int32_t __1__state);
 
@@ -880,35 +880,35 @@ public:
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12001))
 // CS Name: ::JToken::<Annotations>d__172*
 class CORDL_TYPE __JToken___Annotations_d__172 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field type, offset 0x28, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   /// @brief Field <>3__type, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__type, put = __set___3__type))::System::Type* __3__type;
+  __declspec(property(get = __cordl_internal_get___3__type, put = __cordl_internal_set___3__type))::System::Type* __3__type;
 
   /// @brief Field <>4__this, offset 0x38, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Linq::JToken* __4__this;
 
   /// @brief Field <annotations>5__1, offset 0x40, size 0x8
-  __declspec(property(get = __get__annotations_5__1, put = __set__annotations_5__1))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _annotations_5__1;
+  __declspec(property(get = __cordl_internal_get__annotations_5__1, put = __cordl_internal_set__annotations_5__1))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _annotations_5__1;
 
   /// @brief Field <i>5__2, offset 0x48, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -944,53 +944,53 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  constexpr ::System::Type*& __get___3__type();
+  constexpr ::System::Type*& __cordl_internal_get___3__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get___3__type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___3__type() const;
 
-  constexpr void __set___3__type(::System::Type* value);
+  constexpr void __cordl_internal_set___3__type(::System::Type* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get___4__this();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__annotations_5__1();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__annotations_5__1();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__annotations_5__1() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__annotations_5__1() const;
 
-  constexpr void __set__annotations_5__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__annotations_5__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::Newtonsoft::Json::Linq::__JToken___Annotations_d__172* New_ctor(int32_t __1__state);
 
@@ -1082,7 +1082,7 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::__JToken___Annotations_d__172, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12002))
 // CS Name: ::Newtonsoft.Json.Linq::JToken*
 class CORDL_TYPE JToken : public ::System::Object {
@@ -1101,16 +1101,16 @@ public:
   using LineInfoAnnotation = ::Newtonsoft::Json::Linq::__JToken__LineInfoAnnotation;
 
   /// @brief Field _parent, offset 0x10, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::Newtonsoft::Json::Linq::JContainer* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Linq::JContainer* _parent;
 
   /// @brief Field _previous, offset 0x18, size 0x8
-  __declspec(property(get = __get__previous, put = __set__previous))::Newtonsoft::Json::Linq::JToken* _previous;
+  __declspec(property(get = __cordl_internal_get__previous, put = __cordl_internal_set__previous))::Newtonsoft::Json::Linq::JToken* _previous;
 
   /// @brief Field _next, offset 0x20, size 0x8
-  __declspec(property(get = __get__next, put = __set__next))::Newtonsoft::Json::Linq::JToken* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::Newtonsoft::Json::Linq::JToken* _next;
 
   /// @brief Field _annotations, offset 0x28, size 0x8
-  __declspec(property(get = __get__annotations, put = __set__annotations))::System::Object* _annotations;
+  __declspec(property(get = __cordl_internal_get__annotations, put = __cordl_internal_set__annotations))::System::Object* _annotations;
 
   /// @brief Field _equalityComparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__equalityComparer, put = setStaticF__equalityComparer))::Newtonsoft::Json::Linq::JTokenEqualityComparer* _equalityComparer;
@@ -1201,29 +1201,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::Newtonsoft::Json::Linq::JContainer*& __get__parent();
+  constexpr ::Newtonsoft::Json::Linq::JContainer*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::Newtonsoft::Json::Linq::JContainer* value);
+  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Linq::JContainer* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__previous();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__previous();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__previous() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__previous() const;
 
-  constexpr void __set__previous(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__previous(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__next();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__next() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__next() const;
 
-  constexpr void __set__next(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__next(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::System::Object*& __get__annotations();
+  constexpr ::System::Object*& __cordl_internal_get__annotations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__annotations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__annotations() const;
 
-  constexpr void __set__annotations(::System::Object* value);
+  constexpr void __cordl_internal_set__annotations(::System::Object* value);
 
   static inline void setStaticF__equalityComparer(::Newtonsoft::Json::Linq::JTokenEqualityComparer* value);
 

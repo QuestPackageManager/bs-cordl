@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableFile);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(646))
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableFile*
 class CORDL_TYPE CmsProcessableFile : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _file, offset 0x10, size 0x8
-  __declspec(property(get = __get__file, put = __set__file))::System::IO::FileInfo* _file;
+  __declspec(property(get = __cordl_internal_get__file, put = __cordl_internal_set__file))::System::IO::FileInfo* _file;
 
   /// @brief Field _bufSize, offset 0x18, size 0x4
-  __declspec(property(get = __get__bufSize, put = __set__bufSize)) int32_t _bufSize;
+  __declspec(property(get = __cordl_internal_get__bufSize, put = __cordl_internal_set__bufSize)) int32_t _bufSize;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
 
-  constexpr ::System::IO::FileInfo*& __get__file();
+  constexpr ::System::IO::FileInfo*& __cordl_internal_get__file();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::FileInfo*> const& __get__file() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::FileInfo*> const& __cordl_internal_get__file() const;
 
-  constexpr void __set__file(::System::IO::FileInfo* value);
+  constexpr void __cordl_internal_set__file(::System::IO::FileInfo* value);
 
-  constexpr int32_t& __get__bufSize();
+  constexpr int32_t& __cordl_internal_get__bufSize();
 
-  constexpr int32_t const& __get__bufSize() const;
+  constexpr int32_t const& __cordl_internal_get__bufSize() const;
 
-  constexpr void __set__bufSize(int32_t value);
+  constexpr void __cordl_internal_set__bufSize(int32_t value);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
 

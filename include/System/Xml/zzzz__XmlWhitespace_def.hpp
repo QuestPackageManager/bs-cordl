@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Xml::XmlWhitespace);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11500))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11500))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11529))
 // CS Name: ::System.Xml::XmlWhitespace*
 class CORDL_TYPE XmlWhitespace : public ::System::Xml::XmlCharacterData {

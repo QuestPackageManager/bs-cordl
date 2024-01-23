@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XContainerWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12065))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12064))
 // CS Name: ::Newtonsoft.Json.Converters::XContainerWrapper*
 class CORDL_TYPE XContainerWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
   /// @brief Field _childNodes, offset 0x18, size 0x8
-  __declspec(property(get = __get__childNodes, put = __set__childNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _childNodes;
+  __declspec(property(get = __cordl_internal_get__childNodes, put = __cordl_internal_set__childNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _childNodes;
 
   __declspec(property(get = get_Container))::System::Xml::Linq::XContainer* Container;
 
@@ -41,11 +41,11 @@ public:
 
   __declspec(property(get = get_ParentNode))::Newtonsoft::Json::Converters::IXmlNode* ParentNode;
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __get__childNodes();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __cordl_internal_get__childNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __get__childNodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __cordl_internal_get__childNodes() const;
 
-  constexpr void __set__childNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
+  constexpr void __cordl_internal_set__childNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
   /// @brief Method get_Container, addr 0x26bc978, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XContainer* get_Container();

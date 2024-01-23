@@ -42,7 +42,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3);
 // SizeInfo { instance_size: 3, native_size: 12, calculated_instance_size: 3, calculated_native_size: 19, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15351))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::FixedBitArray3
 struct CORDL_TYPE FixedBitArray3 {
@@ -127,29 +127,29 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, _2) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15351))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15351))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15350))
 // CS Name: ::FixedBitArray3::<Enumerate>d__10*
 class CORDL_TYPE __FixedBitArray3___Enumerate_d__10 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x14, size 0x1
-  __declspec(property(get = __get___2__current, put = __set___2__current)) bool __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) bool __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x18, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x1c, size 0x3
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __4__this;
 
   /// @brief Field <>3__<>4__this, offset 0x1f, size 0x3
-  __declspec(property(get = __get___3____4__this, put = __set___3____4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __3____4__this;
+  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __3____4__this;
 
   /// @brief Field <i>5__2, offset 0x24, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Boolean__get_Current)) bool System_Collections_Generic_IEnumerator_System_Boolean__Current;
 
@@ -185,41 +185,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr bool& __get___2__current();
+  constexpr bool& __cordl_internal_get___2__current();
 
-  constexpr bool const& __get___2__current() const;
+  constexpr bool const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(bool value);
+  constexpr void __cordl_internal_set___2__current(bool value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __get___4__this();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get___4__this();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __get___4__this() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __get___3____4__this();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get___3____4__this();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __get___3____4__this() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get___3____4__this() const;
 
-  constexpr void __set___3____4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
+  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10* New_ctor(int32_t __1__state);
 

@@ -33,17 +33,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1584))
 // CS Name: ::Org.BouncyCastle.Math.Field::GenericPolynomialExtensionField*
 class CORDL_TYPE GenericPolynomialExtensionField : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subfield, offset 0x10, size 0x8
-  __declspec(property(get = __get_subfield, put = __set_subfield))::Org::BouncyCastle::Math::Field::IFiniteField* subfield;
+  __declspec(property(get = __cordl_internal_get_subfield, put = __cordl_internal_set_subfield))::Org::BouncyCastle::Math::Field::IFiniteField* subfield;
 
   /// @brief Field minimalPolynomial, offset 0x18, size 0x8
-  __declspec(property(get = __get_minimalPolynomial, put = __set_minimalPolynomial))::Org::BouncyCastle::Math::Field::IPolynomial* minimalPolynomial;
+  __declspec(property(get = __cordl_internal_get_minimalPolynomial, put = __cordl_internal_set_minimalPolynomial))::Org::BouncyCastle::Math::Field::IPolynomial* minimalPolynomial;
 
   __declspec(property(get = get_Characteristic))::Org::BouncyCastle::Math::BigInteger* Characteristic;
 
@@ -73,17 +73,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField*& __get_subfield();
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField*& __cordl_internal_get_subfield();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IFiniteField*> const& __get_subfield() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IFiniteField*> const& __cordl_internal_get_subfield() const;
 
-  constexpr void __set_subfield(::Org::BouncyCastle::Math::Field::IFiniteField* value);
+  constexpr void __cordl_internal_set_subfield(::Org::BouncyCastle::Math::Field::IFiniteField* value);
 
-  constexpr ::Org::BouncyCastle::Math::Field::IPolynomial*& __get_minimalPolynomial();
+  constexpr ::Org::BouncyCastle::Math::Field::IPolynomial*& __cordl_internal_get_minimalPolynomial();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IPolynomial*> const& __get_minimalPolynomial() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IPolynomial*> const& __cordl_internal_get_minimalPolynomial() const;
 
-  constexpr void __set_minimalPolynomial(::Org::BouncyCastle::Math::Field::IPolynomial* value);
+  constexpr void __cordl_internal_set_minimalPolynomial(::Org::BouncyCastle::Math::Field::IPolynomial* value);
 
   static inline ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField* subfield,
                                                                                             ::Org::BouncyCastle::Math::Field::IPolynomial* polynomial);

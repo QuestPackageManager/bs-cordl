@@ -21,7 +21,7 @@ MARK_VAL_T(::System::Runtime::Serialization::SerializationEntry);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3198))
 // CS Name: ::System.Runtime.Serialization::SerializationEntry
 struct CORDL_TYPE SerializationEntry {

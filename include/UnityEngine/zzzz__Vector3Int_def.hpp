@@ -31,7 +31,7 @@ MARK_VAL_T(::UnityEngine::Vector3Int);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10247))
 // CS Name: ::UnityEngine::Vector3Int
 struct CORDL_TYPE Vector3Int {

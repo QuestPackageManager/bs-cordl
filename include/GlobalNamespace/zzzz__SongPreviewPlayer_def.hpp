@@ -77,20 +77,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCorou
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4078))
 // CS Name: ::SongPreviewPlayer::InitData*
 class CORDL_TYPE __SongPreviewPlayer__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ambientVolumeScale, offset 0x10, size 0x4
-  __declspec(property(get = __get_ambientVolumeScale, put = __set_ambientVolumeScale)) float_t ambientVolumeScale;
+  __declspec(property(get = __cordl_internal_get_ambientVolumeScale, put = __cordl_internal_set_ambientVolumeScale)) float_t ambientVolumeScale;
 
-  constexpr float_t& __get_ambientVolumeScale();
+  constexpr float_t& __cordl_internal_get_ambientVolumeScale();
 
-  constexpr float_t const& __get_ambientVolumeScale() const;
+  constexpr float_t const& __cordl_internal_get_ambientVolumeScale() const;
 
-  constexpr void __set_ambientVolumeScale(float_t value);
+  constexpr void __cordl_internal_set_ambientVolumeScale(float_t value);
 
   static inline ::GlobalNamespace::__SongPreviewPlayer__InitData* New_ctor(float_t ambientVolumeScale);
 
@@ -126,23 +126,23 @@ static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__InitData, ___ambi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4079))
 // CS Name: ::SongPreviewPlayer::AudioSourceParams*
 class CORDL_TYPE __SongPreviewPlayer__AudioSourceParams : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _position, offset 0x10, size 0xc
-  __declspec(property(get = __get__position, put = __set__position))::UnityEngine::Vector3 _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
 
   /// @brief Field _reverbZoneMix, offset 0x1c, size 0x4
-  __declspec(property(get = __get__reverbZoneMix, put = __set__reverbZoneMix)) float_t _reverbZoneMix;
+  __declspec(property(get = __cordl_internal_get__reverbZoneMix, put = __cordl_internal_set__reverbZoneMix)) float_t _reverbZoneMix;
 
   /// @brief Field _spatialBlend, offset 0x20, size 0x4
-  __declspec(property(get = __get__spatialBlend, put = __set__spatialBlend)) float_t _spatialBlend;
+  __declspec(property(get = __cordl_internal_get__spatialBlend, put = __cordl_internal_set__spatialBlend)) float_t _spatialBlend;
 
   /// @brief Field _spread, offset 0x24, size 0x4
-  __declspec(property(get = __get__spread, put = __set__spread)) float_t _spread;
+  __declspec(property(get = __cordl_internal_get__spread, put = __cordl_internal_set__spread)) float_t _spread;
 
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
@@ -152,29 +152,29 @@ public:
 
   __declspec(property(get = get_spread)) float_t spread;
 
-  constexpr ::UnityEngine::Vector3& __get__position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position();
 
-  constexpr ::UnityEngine::Vector3 const& __get__position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position() const;
 
-  constexpr void __set__position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__reverbZoneMix();
+  constexpr float_t& __cordl_internal_get__reverbZoneMix();
 
-  constexpr float_t const& __get__reverbZoneMix() const;
+  constexpr float_t const& __cordl_internal_get__reverbZoneMix() const;
 
-  constexpr void __set__reverbZoneMix(float_t value);
+  constexpr void __cordl_internal_set__reverbZoneMix(float_t value);
 
-  constexpr float_t& __get__spatialBlend();
+  constexpr float_t& __cordl_internal_get__spatialBlend();
 
-  constexpr float_t const& __get__spatialBlend() const;
+  constexpr float_t const& __cordl_internal_get__spatialBlend() const;
 
-  constexpr void __set__spatialBlend(float_t value);
+  constexpr void __cordl_internal_set__spatialBlend(float_t value);
 
-  constexpr float_t& __get__spread();
+  constexpr float_t& __cordl_internal_get__spread();
 
-  constexpr float_t const& __get__spread() const;
+  constexpr float_t const& __cordl_internal_get__spread() const;
 
-  constexpr void __set__spread(float_t value);
+  constexpr void __cordl_internal_set__spread(float_t value);
 
   /// @brief Method get_position, addr 0x2231148, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
@@ -237,42 +237,42 @@ static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4080))
 // CS Name: ::SongPreviewPlayer::AudioSourceVolumeController*
 class CORDL_TYPE __SongPreviewPlayer__AudioSourceVolumeController : public ::System::Object {
 public:
   // Declarations
   /// @brief Field audioSource, offset 0x10, size 0x8
-  __declspec(property(get = __get_audioSource, put = __set_audioSource))::UnityEngine::AudioSource* audioSource;
+  __declspec(property(get = __cordl_internal_get_audioSource, put = __cordl_internal_set_audioSource))::UnityW<::UnityEngine::AudioSource> audioSource;
 
   /// @brief Field <maxVolume>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__maxVolume_k__BackingField, put = __set__maxVolume_k__BackingField)) float_t _maxVolume_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxVolume_k__BackingField, put = __cordl_internal_set__maxVolume_k__BackingField)) float_t _maxVolume_k__BackingField;
 
   /// @brief Field _volume, offset 0x1c, size 0x4
-  __declspec(property(get = __get__volume, put = __set__volume)) float_t _volume;
+  __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
 
   __declspec(property(get = get_volume, put = set_volume)) float_t volume;
 
   __declspec(property(get = get_maxVolume, put = set_maxVolume)) float_t maxVolume;
 
-  constexpr ::UnityEngine::AudioSource*& __get_audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get_audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get_audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audioSource() const;
 
-  constexpr void __set_audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set_audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get__maxVolume_k__BackingField();
+  constexpr float_t& __cordl_internal_get__maxVolume_k__BackingField();
 
-  constexpr float_t const& __get__maxVolume_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__maxVolume_k__BackingField() const;
 
-  constexpr void __set__maxVolume_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__maxVolume_k__BackingField(float_t value);
 
-  constexpr float_t& __get__volume();
+  constexpr float_t& __cordl_internal_get__volume();
 
-  constexpr float_t const& __get__volume() const;
+  constexpr float_t const& __cordl_internal_get__volume() const;
 
-  constexpr void __set__volume(float_t value);
+  constexpr void __cordl_internal_set__volume(float_t value);
 
   /// @brief Method set_volume, addr 0x22309c8, size 0x34, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
@@ -306,7 +306,7 @@ protected:
 
 public:
   /// @brief Field audioSource, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ___audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ___audioSource;
 
   /// @brief Field <maxVolume>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____maxVolume_k__BackingField;
@@ -330,23 +330,23 @@ static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolume
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4081))
 // CS Name: ::SongPreviewPlayer::<CrossFadeAfterDelayCoroutine>d__28*
 class CORDL_TYPE __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::SongPreviewPlayer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SongPreviewPlayer> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -370,29 +370,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::GlobalNamespace::SongPreviewPlayer*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::SongPreviewPlayer* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
   static inline ::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28* New_ctor(int32_t __1__state);
 
@@ -438,7 +438,7 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SongPreviewPlayer* _____4__this;
+  ::UnityW<::GlobalNamespace::SongPreviewPlayer> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -458,7 +458,7 @@ static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDe
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4050))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4050))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4082))
 // CS Name: ::SongPreviewPlayer*
 class CORDL_TYPE SongPreviewPlayer : public ::GlobalNamespace::AudioPlayerBase {
@@ -473,195 +473,197 @@ public:
   using InitData = ::GlobalNamespace::__SongPreviewPlayer__InitData;
 
   /// @brief Field _channelsCount, offset 0x18, size 0x4
-  __declspec(property(get = __get__channelsCount, put = __set__channelsCount)) int32_t _channelsCount;
+  __declspec(property(get = __cordl_internal_get__channelsCount, put = __cordl_internal_set__channelsCount)) int32_t _channelsCount;
 
   /// @brief Field _audioSourcePrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioSourcePrefab, put = __set__audioSourcePrefab))::UnityEngine::AudioSource* _audioSourcePrefab;
+  __declspec(property(get = __cordl_internal_get__audioSourcePrefab, put = __cordl_internal_set__audioSourcePrefab))::UnityW<::UnityEngine::AudioSource> _audioSourcePrefab;
 
   /// @brief Field _defaultAudioClip, offset 0x28, size 0x8
-  __declspec(property(get = __get__defaultAudioClip, put = __set__defaultAudioClip))::UnityEngine::AudioClip* _defaultAudioClip;
+  __declspec(property(get = __cordl_internal_get__defaultAudioClip, put = __cordl_internal_set__defaultAudioClip))::UnityW<::UnityEngine::AudioClip> _defaultAudioClip;
 
   /// @brief Field _volume, offset 0x30, size 0x4
-  __declspec(property(get = __get__volume, put = __set__volume)) float_t _volume;
+  __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
 
   /// @brief Field _crossFadeToAnotherSongSpeed, offset 0x34, size 0x4
-  __declspec(property(get = __get__crossFadeToAnotherSongSpeed, put = __set__crossFadeToAnotherSongSpeed)) float_t _crossFadeToAnotherSongSpeed;
+  __declspec(property(get = __cordl_internal_get__crossFadeToAnotherSongSpeed, put = __cordl_internal_set__crossFadeToAnotherSongSpeed)) float_t _crossFadeToAnotherSongSpeed;
 
   /// @brief Field _crossFadeToDefaultSpeed, offset 0x38, size 0x4
-  __declspec(property(get = __get__crossFadeToDefaultSpeed, put = __set__crossFadeToDefaultSpeed)) float_t _crossFadeToDefaultSpeed;
+  __declspec(property(get = __cordl_internal_get__crossFadeToDefaultSpeed, put = __cordl_internal_set__crossFadeToDefaultSpeed)) float_t _crossFadeToDefaultSpeed;
 
   /// @brief Field _fadeInSpeed, offset 0x3c, size 0x4
-  __declspec(property(get = __get__fadeInSpeed, put = __set__fadeInSpeed)) float_t _fadeInSpeed;
+  __declspec(property(get = __cordl_internal_get__fadeInSpeed, put = __cordl_internal_set__fadeInSpeed)) float_t _fadeInSpeed;
 
   /// @brief Field _defaultAudioSourceParams, offset 0x40, size 0x8
-  __declspec(property(get = __get__defaultAudioSourceParams, put = __set__defaultAudioSourceParams))::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* _defaultAudioSourceParams;
+  __declspec(property(get = __cordl_internal_get__defaultAudioSourceParams,
+                      put = __cordl_internal_set__defaultAudioSourceParams))::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* _defaultAudioSourceParams;
 
   /// @brief Field _othersAudioSourceParams, offset 0x48, size 0x8
-  __declspec(property(get = __get__othersAudioSourceParams, put = __set__othersAudioSourceParams))::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* _othersAudioSourceParams;
+  __declspec(property(get = __cordl_internal_get__othersAudioSourceParams,
+                      put = __cordl_internal_set__othersAudioSourceParams))::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* _othersAudioSourceParams;
 
   /// @brief Field _initData, offset 0x50, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__SongPreviewPlayer__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__SongPreviewPlayer__InitData* _initData;
 
   /// @brief Field _audioManager, offset 0x58, size 0x8
-  __declspec(property(get = __get__audioManager, put = __set__audioManager))::GlobalNamespace::AudioManagerSO* _audioManager;
+  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
   /// @brief Field _audioSourceControllers, offset 0x60, size 0x8
-  __declspec(property(get = __get__audioSourceControllers,
-                      put = __set__audioSourceControllers))::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*,
-                                                                    ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> _audioSourceControllers;
+  __declspec(property(get = __cordl_internal_get__audioSourceControllers,
+                      put = __cordl_internal_set__audioSourceControllers))::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*,
+                                                                                   ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> _audioSourceControllers;
 
   /// @brief Field _activeChannel, offset 0x68, size 0x4
-  __declspec(property(get = __get__activeChannel, put = __set__activeChannel)) int32_t _activeChannel;
+  __declspec(property(get = __cordl_internal_get__activeChannel, put = __cordl_internal_set__activeChannel)) int32_t _activeChannel;
 
   /// @brief Field _timeToDefaultAudioTransition, offset 0x6c, size 0x4
-  __declspec(property(get = __get__timeToDefaultAudioTransition, put = __set__timeToDefaultAudioTransition)) float_t _timeToDefaultAudioTransition;
+  __declspec(property(get = __cordl_internal_get__timeToDefaultAudioTransition, put = __cordl_internal_set__timeToDefaultAudioTransition)) float_t _timeToDefaultAudioTransition;
 
   /// @brief Field _transitionAfterDelay, offset 0x70, size 0x1
-  __declspec(property(get = __get__transitionAfterDelay, put = __set__transitionAfterDelay)) bool _transitionAfterDelay;
+  __declspec(property(get = __cordl_internal_get__transitionAfterDelay, put = __cordl_internal_set__transitionAfterDelay)) bool _transitionAfterDelay;
 
   /// @brief Field _volumeScale, offset 0x74, size 0x4
-  __declspec(property(get = __get__volumeScale, put = __set__volumeScale)) float_t _volumeScale;
+  __declspec(property(get = __cordl_internal_get__volumeScale, put = __cordl_internal_set__volumeScale)) float_t _volumeScale;
 
   /// @brief Field _fadeSpeed, offset 0x78, size 0x4
-  __declspec(property(get = __get__fadeSpeed, put = __set__fadeSpeed)) float_t _fadeSpeed;
+  __declspec(property(get = __cordl_internal_get__fadeSpeed, put = __cordl_internal_set__fadeSpeed)) float_t _fadeSpeed;
 
   /// @brief Field _ambientVolumeScale, offset 0x7c, size 0x4
-  __declspec(property(get = __get__ambientVolumeScale, put = __set__ambientVolumeScale)) float_t _ambientVolumeScale;
+  __declspec(property(get = __cordl_internal_get__ambientVolumeScale, put = __cordl_internal_set__ambientVolumeScale)) float_t _ambientVolumeScale;
 
   /// @brief Field _isActiveChannelPaused, offset 0x80, size 0x1
-  __declspec(property(get = __get__isActiveChannelPaused, put = __set__isActiveChannelPaused)) bool _isActiveChannelPaused;
+  __declspec(property(get = __cordl_internal_get__isActiveChannelPaused, put = __cordl_internal_set__isActiveChannelPaused)) bool _isActiveChannelPaused;
 
   /// @brief Field _channelToFadeOutCallbackDictionary, offset 0x88, size 0x8
-  __declspec(property(get = __get__channelToFadeOutCallbackDictionary,
-                      put = __set__channelToFadeOutCallbackDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* _channelToFadeOutCallbackDictionary;
+  __declspec(property(get = __cordl_internal_get__channelToFadeOutCallbackDictionary,
+                      put = __cordl_internal_set__channelToFadeOutCallbackDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* _channelToFadeOutCallbackDictionary;
 
-  __declspec(property(get = get_activeAudioClip))::UnityEngine::AudioClip* activeAudioClip;
+  __declspec(property(get = get_activeAudioClip))::UnityW<::UnityEngine::AudioClip> activeAudioClip;
 
-  constexpr int32_t& __get__channelsCount();
+  constexpr int32_t& __cordl_internal_get__channelsCount();
 
-  constexpr int32_t const& __get__channelsCount() const;
+  constexpr int32_t const& __cordl_internal_get__channelsCount() const;
 
-  constexpr void __set__channelsCount(int32_t value);
+  constexpr void __cordl_internal_set__channelsCount(int32_t value);
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSourcePrefab();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSourcePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSourcePrefab() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSourcePrefab() const;
 
-  constexpr void __set__audioSourcePrefab(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSourcePrefab(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__defaultAudioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__defaultAudioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__defaultAudioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__defaultAudioClip() const;
 
-  constexpr void __set__defaultAudioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__defaultAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr float_t& __get__volume();
+  constexpr float_t& __cordl_internal_get__volume();
 
-  constexpr float_t const& __get__volume() const;
+  constexpr float_t const& __cordl_internal_get__volume() const;
 
-  constexpr void __set__volume(float_t value);
+  constexpr void __cordl_internal_set__volume(float_t value);
 
-  constexpr float_t& __get__crossFadeToAnotherSongSpeed();
+  constexpr float_t& __cordl_internal_get__crossFadeToAnotherSongSpeed();
 
-  constexpr float_t const& __get__crossFadeToAnotherSongSpeed() const;
+  constexpr float_t const& __cordl_internal_get__crossFadeToAnotherSongSpeed() const;
 
-  constexpr void __set__crossFadeToAnotherSongSpeed(float_t value);
+  constexpr void __cordl_internal_set__crossFadeToAnotherSongSpeed(float_t value);
 
-  constexpr float_t& __get__crossFadeToDefaultSpeed();
+  constexpr float_t& __cordl_internal_get__crossFadeToDefaultSpeed();
 
-  constexpr float_t const& __get__crossFadeToDefaultSpeed() const;
+  constexpr float_t const& __cordl_internal_get__crossFadeToDefaultSpeed() const;
 
-  constexpr void __set__crossFadeToDefaultSpeed(float_t value);
+  constexpr void __cordl_internal_set__crossFadeToDefaultSpeed(float_t value);
 
-  constexpr float_t& __get__fadeInSpeed();
+  constexpr float_t& __cordl_internal_get__fadeInSpeed();
 
-  constexpr float_t const& __get__fadeInSpeed() const;
+  constexpr float_t const& __cordl_internal_get__fadeInSpeed() const;
 
-  constexpr void __set__fadeInSpeed(float_t value);
+  constexpr void __cordl_internal_set__fadeInSpeed(float_t value);
 
-  constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& __get__defaultAudioSourceParams();
+  constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& __cordl_internal_get__defaultAudioSourceParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& __get__defaultAudioSourceParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& __cordl_internal_get__defaultAudioSourceParams() const;
 
-  constexpr void __set__defaultAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value);
+  constexpr void __cordl_internal_set__defaultAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value);
 
-  constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& __get__othersAudioSourceParams();
+  constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& __cordl_internal_get__othersAudioSourceParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& __get__othersAudioSourceParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& __cordl_internal_get__othersAudioSourceParams() const;
 
-  constexpr void __set__othersAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value);
+  constexpr void __cordl_internal_set__othersAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value);
 
-  constexpr ::GlobalNamespace::__SongPreviewPlayer__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__SongPreviewPlayer__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__SongPreviewPlayer__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SongPreviewPlayer__InitData* value);
 
-  constexpr ::GlobalNamespace::AudioManagerSO*& __get__audioManager();
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioManagerSO*> const& __get__audioManager() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
 
-  constexpr void __set__audioManager(::GlobalNamespace::AudioManagerSO* value);
+  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*>&
-  __get__audioSourceControllers();
+  __cordl_internal_get__audioSourceControllers();
 
   constexpr ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> const&
-  __get__audioSourceControllers() const;
+  __cordl_internal_get__audioSourceControllers() const;
 
-  constexpr void
-  __set__audioSourceControllers(::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> value);
+  constexpr void __cordl_internal_set__audioSourceControllers(
+      ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> value);
 
-  constexpr int32_t& __get__activeChannel();
+  constexpr int32_t& __cordl_internal_get__activeChannel();
 
-  constexpr int32_t const& __get__activeChannel() const;
+  constexpr int32_t const& __cordl_internal_get__activeChannel() const;
 
-  constexpr void __set__activeChannel(int32_t value);
+  constexpr void __cordl_internal_set__activeChannel(int32_t value);
 
-  constexpr float_t& __get__timeToDefaultAudioTransition();
+  constexpr float_t& __cordl_internal_get__timeToDefaultAudioTransition();
 
-  constexpr float_t const& __get__timeToDefaultAudioTransition() const;
+  constexpr float_t const& __cordl_internal_get__timeToDefaultAudioTransition() const;
 
-  constexpr void __set__timeToDefaultAudioTransition(float_t value);
+  constexpr void __cordl_internal_set__timeToDefaultAudioTransition(float_t value);
 
-  constexpr bool& __get__transitionAfterDelay();
+  constexpr bool& __cordl_internal_get__transitionAfterDelay();
 
-  constexpr bool const& __get__transitionAfterDelay() const;
+  constexpr bool const& __cordl_internal_get__transitionAfterDelay() const;
 
-  constexpr void __set__transitionAfterDelay(bool value);
+  constexpr void __cordl_internal_set__transitionAfterDelay(bool value);
 
-  constexpr float_t& __get__volumeScale();
+  constexpr float_t& __cordl_internal_get__volumeScale();
 
-  constexpr float_t const& __get__volumeScale() const;
+  constexpr float_t const& __cordl_internal_get__volumeScale() const;
 
-  constexpr void __set__volumeScale(float_t value);
+  constexpr void __cordl_internal_set__volumeScale(float_t value);
 
-  constexpr float_t& __get__fadeSpeed();
+  constexpr float_t& __cordl_internal_get__fadeSpeed();
 
-  constexpr float_t const& __get__fadeSpeed() const;
+  constexpr float_t const& __cordl_internal_get__fadeSpeed() const;
 
-  constexpr void __set__fadeSpeed(float_t value);
+  constexpr void __cordl_internal_set__fadeSpeed(float_t value);
 
-  constexpr float_t& __get__ambientVolumeScale();
+  constexpr float_t& __cordl_internal_get__ambientVolumeScale();
 
-  constexpr float_t const& __get__ambientVolumeScale() const;
+  constexpr float_t const& __cordl_internal_get__ambientVolumeScale() const;
 
-  constexpr void __set__ambientVolumeScale(float_t value);
+  constexpr void __cordl_internal_set__ambientVolumeScale(float_t value);
 
-  constexpr bool& __get__isActiveChannelPaused();
+  constexpr bool& __cordl_internal_get__isActiveChannelPaused();
 
-  constexpr bool const& __get__isActiveChannelPaused() const;
+  constexpr bool const& __cordl_internal_get__isActiveChannelPaused() const;
 
-  constexpr void __set__isActiveChannelPaused(bool value);
+  constexpr void __cordl_internal_set__isActiveChannelPaused(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*& __get__channelToFadeOutCallbackDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*& __cordl_internal_get__channelToFadeOutCallbackDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*> const& __get__channelToFadeOutCallbackDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*> const& __cordl_internal_get__channelToFadeOutCallbackDictionary() const;
 
-  constexpr void __set__channelToFadeOutCallbackDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* value);
+  constexpr void __cordl_internal_set__channelToFadeOutCallbackDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* value);
 
   /// @brief Method get_activeAudioClip, addr 0x2230378, size 0x54, virtual true, abstract: false, final false
-  inline ::UnityEngine::AudioClip* get_activeAudioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
   /// @brief Method Awake, addr 0x22303cc, size 0x1d4, virtual false, abstract: false, final false
   inline void Awake();
@@ -728,10 +730,10 @@ public:
   int32_t ____channelsCount;
 
   /// @brief Field _audioSourcePrefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSourcePrefab;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSourcePrefab;
 
   /// @brief Field _defaultAudioClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____defaultAudioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____defaultAudioClip;
 
   /// @brief Field _volume, offset: 0x30, size: 0x4, def value: None
   float_t ____volume;
@@ -755,7 +757,7 @@ public:
   ::GlobalNamespace::__SongPreviewPlayer__InitData* ____initData;
 
   /// @brief Field _audioManager, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::AudioManagerSO* ____audioManager;
+  ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 
   /// @brief Field _audioSourceControllers, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> ____audioSourceControllers;

@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::RejoinDialogResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13477))
 // CS Name: ::Oculus.Platform.Models::RejoinDialogResult*
 class CORDL_TYPE RejoinDialogResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RejoinSelected, offset 0x10, size 0x1
-  __declspec(property(get = __get_RejoinSelected, put = __set_RejoinSelected)) bool RejoinSelected;
+  __declspec(property(get = __cordl_internal_get_RejoinSelected, put = __cordl_internal_set_RejoinSelected)) bool RejoinSelected;
 
-  constexpr bool& __get_RejoinSelected();
+  constexpr bool& __cordl_internal_get_RejoinSelected();
 
-  constexpr bool const& __get_RejoinSelected() const;
+  constexpr bool const& __cordl_internal_get_RejoinSelected() const;
 
-  constexpr void __set_RejoinSelected(bool value);
+  constexpr void __cordl_internal_set_RejoinSelected(bool value);
 
   static inline ::Oculus::Platform::Models::RejoinDialogResult* New_ctor(void* o);
 

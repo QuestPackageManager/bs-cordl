@@ -33,26 +33,30 @@ MARK_REF_PTR_T(::GlobalNamespace::GameSongController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5334))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5334))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5332))
 // CS Name: ::GameSongController*
 class CORDL_TYPE GameSongController : public ::GlobalNamespace::SongController {
 public:
   // Declarations
   /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _failAudioPitchGainEffect, offset 0x28, size 0x8
-  __declspec(property(get = __get__failAudioPitchGainEffect, put = __set__failAudioPitchGainEffect))::GlobalNamespace::AudioPitchGainEffect* _failAudioPitchGainEffect;
+  __declspec(property(get = __cordl_internal_get__failAudioPitchGainEffect,
+                      put = __cordl_internal_set__failAudioPitchGainEffect))::UnityW<::GlobalNamespace::AudioPitchGainEffect> _failAudioPitchGainEffect;
 
   /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _beatmapCallbacksUpdater, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksUpdater, put = __set__beatmapCallbacksUpdater))::GlobalNamespace::BeatmapCallbacksUpdater* _beatmapCallbacksUpdater;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksUpdater,
+                      put = __cordl_internal_set__beatmapCallbacksUpdater))::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> _beatmapCallbacksUpdater;
 
   /// @brief Field _songDidFinish, offset 0x40, size 0x1
-  __declspec(property(get = __get__songDidFinish, put = __set__songDidFinish)) bool _songDidFinish;
+  __declspec(property(get = __cordl_internal_get__songDidFinish, put = __cordl_internal_set__songDidFinish)) bool _songDidFinish;
 
   __declspec(property(get = get_songLength)) float_t songLength;
 
@@ -64,35 +68,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
   constexpr ::GlobalNamespace::IStartSeekSongController* i___GlobalNamespace__IStartSeekSongController() noexcept;
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::GlobalNamespace::AudioPitchGainEffect*& __get__failAudioPitchGainEffect();
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& __cordl_internal_get__failAudioPitchGainEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPitchGainEffect*> const& __get__failAudioPitchGainEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& __cordl_internal_get__failAudioPitchGainEffect() const;
 
-  constexpr void __set__failAudioPitchGainEffect(::GlobalNamespace::AudioPitchGainEffect* value);
+  constexpr void __cordl_internal_set__failAudioPitchGainEffect(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksUpdater*& __get__beatmapCallbacksUpdater();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater>& __cordl_internal_get__beatmapCallbacksUpdater();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksUpdater*> const& __get__beatmapCallbacksUpdater() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> const& __cordl_internal_get__beatmapCallbacksUpdater() const;
 
-  constexpr void __set__beatmapCallbacksUpdater(::GlobalNamespace::BeatmapCallbacksUpdater* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksUpdater(::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> value);
 
-  constexpr bool& __get__songDidFinish();
+  constexpr bool& __cordl_internal_get__songDidFinish();
 
-  constexpr bool const& __get__songDidFinish() const;
+  constexpr bool const& __cordl_internal_get__songDidFinish() const;
 
-  constexpr void __set__songDidFinish(bool value);
+  constexpr void __cordl_internal_set__songDidFinish(bool value);
 
   /// @brief Method get_songLength, addr 0x22686d4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_songLength();
@@ -144,16 +148,16 @@ protected:
 
 public:
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _failAudioPitchGainEffect, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPitchGainEffect* ____failAudioPitchGainEffect;
+  ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____failAudioPitchGainEffect;
 
   /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
   /// @brief Field _beatmapCallbacksUpdater, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCallbacksUpdater* ____beatmapCallbacksUpdater;
+  ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> ____beatmapCallbacksUpdater;
 
   /// @brief Field _songDidFinish, offset: 0x40, size: 0x1, def value: None
   bool ____songDidFinish;

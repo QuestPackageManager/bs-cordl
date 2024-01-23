@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PenState);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6506))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PenState
 #pragma pack(push, 0)
@@ -37,25 +37,25 @@ struct CORDL_TYPE PenState {
 public:
   // Declarations
   /// @brief Field position, offset 0x0, size 0x8
-  __declspec(property(get = __get_position, put = __set_position))::UnityEngine::Vector2 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector2 position;
 
   /// @brief Field delta, offset 0x8, size 0x8
-  __declspec(property(get = __get_delta, put = __set_delta))::UnityEngine::Vector2 delta;
+  __declspec(property(get = __cordl_internal_get_delta, put = __cordl_internal_set_delta))::UnityEngine::Vector2 delta;
 
   /// @brief Field tilt, offset 0x10, size 0x8
-  __declspec(property(get = __get_tilt, put = __set_tilt))::UnityEngine::Vector2 tilt;
+  __declspec(property(get = __cordl_internal_get_tilt, put = __cordl_internal_set_tilt))::UnityEngine::Vector2 tilt;
 
   /// @brief Field pressure, offset 0x18, size 0x4
-  __declspec(property(get = __get_pressure, put = __set_pressure)) float_t pressure;
+  __declspec(property(get = __cordl_internal_get_pressure, put = __cordl_internal_set_pressure)) float_t pressure;
 
   /// @brief Field twist, offset 0x1c, size 0x4
-  __declspec(property(get = __get_twist, put = __set_twist)) float_t twist;
+  __declspec(property(get = __cordl_internal_get_twist, put = __cordl_internal_set_twist)) float_t twist;
 
   /// @brief Field buttons, offset 0x20, size 0x2
-  __declspec(property(get = __get_buttons, put = __set_buttons)) uint16_t buttons;
+  __declspec(property(get = __cordl_internal_get_buttons, put = __cordl_internal_set_buttons)) uint16_t buttons;
 
   /// @brief Field displayIndex, offset 0x22, size 0x2
-  __declspec(property(get = __get_displayIndex, put = __set_displayIndex)) uint16_t displayIndex;
+  __declspec(property(get = __cordl_internal_get_displayIndex, put = __cordl_internal_set_displayIndex)) uint16_t displayIndex;
 
   __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
 
@@ -65,47 +65,47 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  constexpr ::UnityEngine::Vector2& __get_position();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
 
-  constexpr ::UnityEngine::Vector2 const& __get_position() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_delta();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_delta();
 
-  constexpr ::UnityEngine::Vector2 const& __get_delta() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_delta() const;
 
-  constexpr void __set_delta(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_delta(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_tilt();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_tilt();
 
-  constexpr ::UnityEngine::Vector2 const& __get_tilt() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_tilt() const;
 
-  constexpr void __set_tilt(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_tilt(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get_pressure();
+  constexpr float_t& __cordl_internal_get_pressure();
 
-  constexpr float_t const& __get_pressure() const;
+  constexpr float_t const& __cordl_internal_get_pressure() const;
 
-  constexpr void __set_pressure(float_t value);
+  constexpr void __cordl_internal_set_pressure(float_t value);
 
-  constexpr float_t& __get_twist();
+  constexpr float_t& __cordl_internal_get_twist();
 
-  constexpr float_t const& __get_twist() const;
+  constexpr float_t const& __cordl_internal_get_twist() const;
 
-  constexpr void __set_twist(float_t value);
+  constexpr void __cordl_internal_set_twist(float_t value);
 
-  constexpr uint16_t& __get_buttons();
+  constexpr uint16_t& __cordl_internal_get_buttons();
 
-  constexpr uint16_t const& __get_buttons() const;
+  constexpr uint16_t const& __cordl_internal_get_buttons() const;
 
-  constexpr void __set_buttons(uint16_t value);
+  constexpr void __cordl_internal_set_buttons(uint16_t value);
 
-  constexpr uint16_t& __get_displayIndex();
+  constexpr uint16_t& __cordl_internal_get_displayIndex();
 
-  constexpr uint16_t const& __get_displayIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_displayIndex() const;
 
-  constexpr void __set_displayIndex(uint16_t value);
+  constexpr void __cordl_internal_set_displayIndex(uint16_t value);
 
   /// @brief Method get_Format, addr 0x2ae8a88, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();

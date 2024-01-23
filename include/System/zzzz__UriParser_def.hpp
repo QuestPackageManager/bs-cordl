@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::System::UriParser);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8885))
 // CS Name: ::UriParser::UriQuirksVersion
 struct CORDL_TYPE __UriParser__UriQuirksVersion {
@@ -98,7 +98,7 @@ static_assert(offsetof(::System::__UriParser__UriQuirksVersion, value__) == 0x0,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8890)), TypeDefinitionIndex(TypeDefinitionIndex(8885))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8885)), TypeDefinitionIndex(TypeDefinitionIndex(8890))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8887))
 // CS Name: ::System::UriParser*
 class CORDL_TYPE UriParser : public ::System::Object {
@@ -109,19 +109,19 @@ public:
   using UriQuirksVersion = ::System::__UriParser__UriQuirksVersion;
 
   /// @brief Field m_Flags, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags))::System::UriSyntaxFlags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::System::UriSyntaxFlags m_Flags;
 
   /// @brief Field m_UpdatableFlags, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_UpdatableFlags, put = __set_m_UpdatableFlags))::System::UriSyntaxFlags m_UpdatableFlags;
+  __declspec(property(get = __cordl_internal_get_m_UpdatableFlags, put = __cordl_internal_set_m_UpdatableFlags))::System::UriSyntaxFlags m_UpdatableFlags;
 
   /// @brief Field m_UpdatableFlagsUsed, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_UpdatableFlagsUsed, put = __set_m_UpdatableFlagsUsed)) bool m_UpdatableFlagsUsed;
+  __declspec(property(get = __cordl_internal_get_m_UpdatableFlagsUsed, put = __cordl_internal_set_m_UpdatableFlagsUsed)) bool m_UpdatableFlagsUsed;
 
   /// @brief Field m_Port, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_Port, put = __set_m_Port)) int32_t m_Port;
+  __declspec(property(get = __cordl_internal_get_m_Port, put = __cordl_internal_set_m_Port)) int32_t m_Port;
 
   /// @brief Field m_Scheme, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Scheme, put = __set_m_Scheme))::StringW m_Scheme;
+  __declspec(property(get = __cordl_internal_get_m_Scheme, put = __cordl_internal_set_m_Scheme))::StringW m_Scheme;
 
   /// @brief Field m_Table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_Table, put = setStaticF_m_Table))::System::Collections::Generic::Dictionary_2<::StringW, ::System::UriParser*>* m_Table;
@@ -194,35 +194,35 @@ public:
 
   __declspec(property(get = get_IsSimple)) bool IsSimple;
 
-  constexpr ::System::UriSyntaxFlags& __get_m_Flags();
+  constexpr ::System::UriSyntaxFlags& __cordl_internal_get_m_Flags();
 
-  constexpr ::System::UriSyntaxFlags const& __get_m_Flags() const;
+  constexpr ::System::UriSyntaxFlags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(::System::UriSyntaxFlags value);
+  constexpr void __cordl_internal_set_m_Flags(::System::UriSyntaxFlags value);
 
-  constexpr ::System::UriSyntaxFlags& __get_m_UpdatableFlags();
+  constexpr ::System::UriSyntaxFlags& __cordl_internal_get_m_UpdatableFlags();
 
-  constexpr ::System::UriSyntaxFlags const& __get_m_UpdatableFlags() const;
+  constexpr ::System::UriSyntaxFlags const& __cordl_internal_get_m_UpdatableFlags() const;
 
-  constexpr void __set_m_UpdatableFlags(::System::UriSyntaxFlags value);
+  constexpr void __cordl_internal_set_m_UpdatableFlags(::System::UriSyntaxFlags value);
 
-  constexpr bool& __get_m_UpdatableFlagsUsed();
+  constexpr bool& __cordl_internal_get_m_UpdatableFlagsUsed();
 
-  constexpr bool const& __get_m_UpdatableFlagsUsed() const;
+  constexpr bool const& __cordl_internal_get_m_UpdatableFlagsUsed() const;
 
-  constexpr void __set_m_UpdatableFlagsUsed(bool value);
+  constexpr void __cordl_internal_set_m_UpdatableFlagsUsed(bool value);
 
-  constexpr int32_t& __get_m_Port();
+  constexpr int32_t& __cordl_internal_get_m_Port();
 
-  constexpr int32_t const& __get_m_Port() const;
+  constexpr int32_t const& __cordl_internal_get_m_Port() const;
 
-  constexpr void __set_m_Port(int32_t value);
+  constexpr void __cordl_internal_set_m_Port(int32_t value);
 
-  constexpr ::StringW& __get_m_Scheme();
+  constexpr ::StringW& __cordl_internal_get_m_Scheme();
 
-  constexpr ::StringW const& __get_m_Scheme() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Scheme() const;
 
-  constexpr void __set_m_Scheme(::StringW value);
+  constexpr void __cordl_internal_set_m_Scheme(::StringW value);
 
   static inline void setStaticF_m_Table(::System::Collections::Generic::Dictionary_2<::StringW, ::System::UriParser*>* value);
 

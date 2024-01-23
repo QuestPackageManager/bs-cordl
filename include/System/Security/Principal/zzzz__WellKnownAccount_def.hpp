@@ -20,29 +20,30 @@ MARK_REF_PTR_T(::System::Security::Principal::WellKnownAccount);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3004))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3004))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3003))
 // CS Name: ::System.Security.Principal::WellKnownAccount*
 class CORDL_TYPE WellKnownAccount : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <WellKnownValue>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__WellKnownValue_k__BackingField, put = __set__WellKnownValue_k__BackingField))::System::Security::Principal::WellKnownSidType _WellKnownValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__WellKnownValue_k__BackingField,
+                      put = __cordl_internal_set__WellKnownValue_k__BackingField))::System::Security::Principal::WellKnownSidType _WellKnownValue_k__BackingField;
 
   /// @brief Field <IsAbsolute>k__BackingField, offset 0x14, size 0x1
-  __declspec(property(get = __get__IsAbsolute_k__BackingField, put = __set__IsAbsolute_k__BackingField)) bool _IsAbsolute_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsAbsolute_k__BackingField, put = __cordl_internal_set__IsAbsolute_k__BackingField)) bool _IsAbsolute_k__BackingField;
 
   /// @brief Field <Sid>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Sid_k__BackingField, put = __set__Sid_k__BackingField))::StringW _Sid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Sid_k__BackingField, put = __cordl_internal_set__Sid_k__BackingField))::StringW _Sid_k__BackingField;
 
   /// @brief Field <Rid>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Rid_k__BackingField, put = __set__Rid_k__BackingField))::StringW _Rid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Rid_k__BackingField, put = __cordl_internal_set__Rid_k__BackingField))::StringW _Rid_k__BackingField;
 
   /// @brief Field <Name>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__Name_k__BackingField, put = __set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
   /// @brief Field <SddlForm>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__SddlForm_k__BackingField, put = __set__SddlForm_k__BackingField))::StringW _SddlForm_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SddlForm_k__BackingField, put = __cordl_internal_set__SddlForm_k__BackingField))::StringW _SddlForm_k__BackingField;
 
   /// @brief Field accounts, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_accounts,
@@ -60,41 +61,41 @@ public:
 
   __declspec(property(get = get_SddlForm, put = set_SddlForm))::StringW SddlForm;
 
-  constexpr ::System::Security::Principal::WellKnownSidType& __get__WellKnownValue_k__BackingField();
+  constexpr ::System::Security::Principal::WellKnownSidType& __cordl_internal_get__WellKnownValue_k__BackingField();
 
-  constexpr ::System::Security::Principal::WellKnownSidType const& __get__WellKnownValue_k__BackingField() const;
+  constexpr ::System::Security::Principal::WellKnownSidType const& __cordl_internal_get__WellKnownValue_k__BackingField() const;
 
-  constexpr void __set__WellKnownValue_k__BackingField(::System::Security::Principal::WellKnownSidType value);
+  constexpr void __cordl_internal_set__WellKnownValue_k__BackingField(::System::Security::Principal::WellKnownSidType value);
 
-  constexpr bool& __get__IsAbsolute_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsAbsolute_k__BackingField();
 
-  constexpr bool const& __get__IsAbsolute_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsAbsolute_k__BackingField() const;
 
-  constexpr void __set__IsAbsolute_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsAbsolute_k__BackingField(bool value);
 
-  constexpr ::StringW& __get__Sid_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Sid_k__BackingField();
 
-  constexpr ::StringW const& __get__Sid_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Sid_k__BackingField() const;
 
-  constexpr void __set__Sid_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Sid_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__Rid_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Rid_k__BackingField();
 
-  constexpr ::StringW const& __get__Rid_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Rid_k__BackingField() const;
 
-  constexpr void __set__Rid_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Rid_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__Name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::StringW const& __get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr void __set__Name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__SddlForm_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__SddlForm_k__BackingField();
 
-  constexpr ::StringW const& __get__SddlForm_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__SddlForm_k__BackingField() const;
 
-  constexpr void __set__SddlForm_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__SddlForm_k__BackingField(::StringW value);
 
   static inline void setStaticF_accounts(::ArrayW<::System::Security::Principal::WellKnownAccount*, ::Array<::System::Security::Principal::WellKnownAccount*>*> value);
 

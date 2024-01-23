@@ -36,51 +36,51 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CollectionViewController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7365))
 // CS Name: ::UnityEngine.UIElements::CollectionViewController*
 class CORDL_TYPE CollectionViewController : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_View, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_View, put = __set_m_View))::UnityEngine::UIElements::BaseVerticalCollectionView* m_View;
+  __declspec(property(get = __cordl_internal_get_m_View, put = __cordl_internal_set_m_View))::UnityEngine::UIElements::BaseVerticalCollectionView* m_View;
 
   /// @brief Field m_ItemsSource, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ItemsSource, put = __set_m_ItemsSource))::System::Collections::IList* m_ItemsSource;
+  __declspec(property(get = __cordl_internal_get_m_ItemsSource, put = __cordl_internal_set_m_ItemsSource))::System::Collections::IList* m_ItemsSource;
 
   /// @brief Field itemsSourceChanged, offset 0x20, size 0x8
-  __declspec(property(get = __get_itemsSourceChanged, put = __set_itemsSourceChanged))::System::Action* itemsSourceChanged;
+  __declspec(property(get = __cordl_internal_get_itemsSourceChanged, put = __cordl_internal_set_itemsSourceChanged))::System::Action* itemsSourceChanged;
 
   /// @brief Field itemIndexChanged, offset 0x28, size 0x8
-  __declspec(property(get = __get_itemIndexChanged, put = __set_itemIndexChanged))::System::Action_2<int32_t, int32_t>* itemIndexChanged;
+  __declspec(property(get = __cordl_internal_get_itemIndexChanged, put = __cordl_internal_set_itemIndexChanged))::System::Action_2<int32_t, int32_t>* itemIndexChanged;
 
   __declspec(property(get = get_itemsSource, put = set_itemsSource))::System::Collections::IList* itemsSource;
 
   __declspec(property(get = get_view))::UnityEngine::UIElements::BaseVerticalCollectionView* view;
 
-  constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __get_m_View();
+  constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __cordl_internal_get_m_View();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const& __get_m_View() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const& __cordl_internal_get_m_View() const;
 
-  constexpr void __set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
+  constexpr void __cordl_internal_set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
 
-  constexpr ::System::Collections::IList*& __get_m_ItemsSource();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_m_ItemsSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_m_ItemsSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_m_ItemsSource() const;
 
-  constexpr void __set_m_ItemsSource(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_m_ItemsSource(::System::Collections::IList* value);
 
-  constexpr ::System::Action*& __get_itemsSourceChanged();
+  constexpr ::System::Action*& __cordl_internal_get_itemsSourceChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_itemsSourceChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_itemsSourceChanged() const;
 
-  constexpr void __set_itemsSourceChanged(::System::Action* value);
+  constexpr void __cordl_internal_set_itemsSourceChanged(::System::Action* value);
 
-  constexpr ::System::Action_2<int32_t, int32_t>*& __get_itemIndexChanged();
+  constexpr ::System::Action_2<int32_t, int32_t>*& __cordl_internal_get_itemIndexChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __get_itemIndexChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __cordl_internal_get_itemIndexChanged() const;
 
-  constexpr void __set_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
 
   /// @brief Method add_itemsSourceChanged, addr 0x2e86ca0, size 0x9c, virtual false, abstract: false, final false
   inline void add_itemsSourceChanged(::System::Action* value);

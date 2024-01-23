@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDocumentWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12064))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12064))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12060))
 // CS Name: ::Newtonsoft.Json.Converters::XDocumentWrapper*
 class CORDL_TYPE XDocumentWrapper : public ::Newtonsoft::Json::Converters::XContainerWrapper {

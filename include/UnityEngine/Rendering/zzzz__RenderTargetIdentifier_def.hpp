@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderTargetIdentifier);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10116)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10339))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10116)), TypeDefinitionIndex(TypeDefinitionIndex(10339))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10346))
 // CS Name: ::UnityEngine.Rendering::RenderTargetIdentifier
 struct CORDL_TYPE RenderTargetIdentifier {

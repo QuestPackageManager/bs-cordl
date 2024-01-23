@@ -27,244 +27,248 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0xf90bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServer*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_server() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServer*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_server() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___server;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsServer*> const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_server() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsServer*> const&
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_server() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___server;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_server(::Org::BouncyCastle::Crypto::Tls::TlsServer* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_server(::Org::BouncyCastle::Crypto::Tls::TlsServer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___server)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_serverContext() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_serverContext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_serverContext() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_serverContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverContext;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_serverContext(::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_serverContext(::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_tlsSession() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_tlsSession() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsSession;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSession*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_tlsSession() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_tlsSession() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsSession;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_tlsSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_tlsSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tlsSession)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_sessionParameters() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_sessionParameters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sessionParameters;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SessionParameters*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_sessionParameters() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_sessionParameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sessionParameters;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_sessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_sessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sessionParameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_sessionParametersBuilder() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_sessionParametersBuilder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sessionParametersBuilder;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_sessionParametersBuilder() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_sessionParametersBuilder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sessionParametersBuilder;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_sessionParametersBuilder(::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* value) {
+constexpr void
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_sessionParametersBuilder(::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sessionParametersBuilder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_offeredCipherSuites() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_offeredCipherSuites() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offeredCipherSuites;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_offeredCipherSuites() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_offeredCipherSuites() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offeredCipherSuites;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_offeredCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_offeredCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___offeredCipherSuites)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_offeredCompressionMethods() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_offeredCompressionMethods() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offeredCompressionMethods;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_offeredCompressionMethods() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_offeredCompressionMethods() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offeredCompressionMethods;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_offeredCompressionMethods(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_offeredCompressionMethods(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___offeredCompressionMethods)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_clientExtensions() {
+constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_clientExtensions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientExtensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_clientExtensions() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const&
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_clientExtensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientExtensions;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_clientExtensions(::System::Collections::IDictionary* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_clientExtensions(::System::Collections::IDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientExtensions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_serverExtensions() {
+constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_serverExtensions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverExtensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_serverExtensions() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const&
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_serverExtensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverExtensions;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_serverExtensions(::System::Collections::IDictionary* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_serverExtensions(::System::Collections::IDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverExtensions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_resumedSession() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_resumedSession() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resumedSession;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_resumedSession() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_resumedSession() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resumedSession;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_resumedSession(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_resumedSession(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resumedSession = value;
 }
-constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_secure_renegotiation() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_secure_renegotiation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secure_renegotiation;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_secure_renegotiation() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_secure_renegotiation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secure_renegotiation;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_secure_renegotiation(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_secure_renegotiation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___secure_renegotiation = value;
 }
-constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_allowCertificateStatus() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_allowCertificateStatus() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowCertificateStatus;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_allowCertificateStatus() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_allowCertificateStatus() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowCertificateStatus;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_allowCertificateStatus(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_allowCertificateStatus(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowCertificateStatus = value;
 }
-constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_expectSessionTicket() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_expectSessionTicket() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expectSessionTicket;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_expectSessionTicket() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_expectSessionTicket() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expectSessionTicket;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_expectSessionTicket(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_expectSessionTicket(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___expectSessionTicket = value;
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_keyExchange() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_keyExchange() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyExchange;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_keyExchange() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_keyExchange() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyExchange;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_keyExchange(::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_keyExchange(::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyExchange)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_serverCredentials() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_serverCredentials() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverCredentials;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCredentials*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_serverCredentials() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_serverCredentials() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverCredentials;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_serverCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_serverCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverCredentials)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateRequest*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_certificateRequest() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateRequest*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_certificateRequest() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateRequest;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::CertificateRequest*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_certificateRequest() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_certificateRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateRequest;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_certificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_certificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificateRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int16_t& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_clientCertificateType() {
+constexpr int16_t& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_clientCertificateType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientCertificateType;
 }
-constexpr int16_t const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_clientCertificateType() const {
+constexpr int16_t const& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_clientCertificateType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientCertificateType;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_clientCertificateType(int16_t value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_clientCertificateType(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clientCertificateType = value;
 }
-constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_clientCertificate() {
+constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_clientCertificate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientCertificate;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const&
-Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__get_clientCertificate() const {
+Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_get_clientCertificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientCertificate;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__set_clientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::__cordl_internal_set_clientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientCertificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState*>());
 }
 inline void Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -277,10 +281,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0xf7130c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
     return ___internal_method;
   }
 };
@@ -292,7 +296,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf71318;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -308,7 +312,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0xf71320;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -325,7 +329,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58c;
   constexpr static std::size_t addrs = 0xf7132c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -342,7 +346,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0xf718b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -359,7 +363,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe18;
   constexpr static std::size_t addrs = 0xf71908;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -375,7 +379,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0xf72720;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -392,7 +396,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0xf727e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -409,7 +413,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0xf72868;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -426,7 +430,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0xf728ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -442,7 +446,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x764;
   constexpr static std::size_t addrs = 0xf72970;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -459,7 +463,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2e4;
   constexpr static std::size_t addrs = 0xf730d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -476,7 +480,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0xf733b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -493,7 +497,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x518;
   constexpr static std::size_t addrs = 0xf73480;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -509,7 +513,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6b0;
   constexpr static std::size_t addrs = 0xf73998;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -526,7 +530,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0xf74048;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -543,7 +547,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0xf74140;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -559,7 +563,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0xf7423c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(),
@@ -567,25 +571,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr bool& Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::__get_mVerifyRequests() {
+constexpr bool& Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::__cordl_internal_get_mVerifyRequests() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mVerifyRequests;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::__get_mVerifyRequests() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::__cordl_internal_get_mVerifyRequests() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mVerifyRequests;
 }
-constexpr void Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::__set_mVerifyRequests(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::__cordl_internal_set_mVerifyRequests(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mVerifyRequests = value;
 }
 inline ::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol* Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>(secureRandom));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>(secureRandom));
 }
 inline void Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, secureRandom);
 }
 inline bool Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::get_VerifyRequests() {

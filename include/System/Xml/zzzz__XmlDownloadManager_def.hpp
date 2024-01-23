@@ -71,20 +71,20 @@ MARK_VAL_T(::System::Xml::__XmlDownloadManager___GetNonFileStreamAsync_d__5);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11549))
 // CS Name: ::XmlDownloadManager::<>c__DisplayClass4_0*
 class CORDL_TYPE __XmlDownloadManager____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field uri, offset 0x10, size 0x8
-  __declspec(property(get = __get_uri, put = __set_uri))::System::Uri* uri;
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
 
-  constexpr ::System::Uri*& __get_uri();
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
 
-  constexpr void __set_uri(::System::Uri* value);
+  constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
   static inline ::System::Xml::__XmlDownloadManager____c__DisplayClass4_0* New_ctor();
 
@@ -123,9 +123,9 @@ static_assert(offsetof(::System::Xml::__XmlDownloadManager____c__DisplayClass4_0
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 899 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11550)) CS Name: ::XmlDownloadManager::<GetNonFileStreamAsync>d__5
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 899 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11550)) CS Name: ::XmlDownloadManager::<GetNonFileStreamAsync>d__5
 struct CORDL_TYPE __XmlDownloadManager___GetNonFileStreamAsync_d__5 {
 public:
   // Declarations
@@ -214,7 +214,7 @@ static_assert(offsetof(::System::Xml::__XmlDownloadManager___GetNonFileStreamAsy
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11551))
 // CS Name: ::System.Xml::XmlDownloadManager*
 class CORDL_TYPE XmlDownloadManager : public ::System::Object {
@@ -225,13 +225,13 @@ public:
   using __c__DisplayClass4_0 = ::System::Xml::__XmlDownloadManager____c__DisplayClass4_0;
 
   /// @brief Field connections, offset 0x10, size 0x8
-  __declspec(property(get = __get_connections, put = __set_connections))::System::Collections::Hashtable* connections;
+  __declspec(property(get = __cordl_internal_get_connections, put = __cordl_internal_set_connections))::System::Collections::Hashtable* connections;
 
-  constexpr ::System::Collections::Hashtable*& __get_connections();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_connections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_connections() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_connections() const;
 
-  constexpr void __set_connections(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_connections(::System::Collections::Hashtable* value);
 
   /// @brief Method GetStream, addr 0x28a3cb0, size 0x104, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);

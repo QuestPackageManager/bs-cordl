@@ -35,29 +35,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedColorListController__ColorValuePair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16150))
 // CS Name: ::NamedColorListController::ColorValuePair*
 class CORDL_TYPE __NamedColorListController__ColorValuePair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field color, offset 0x10, size 0x10
-  __declspec(property(get = __get_color, put = __set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
   /// @brief Field value, offset 0x20, size 0x4
-  __declspec(property(get = __get_value, put = __set_value)) int32_t value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
-  constexpr ::UnityEngine::Color& __get_color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
-  constexpr ::UnityEngine::Color const& __get_color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __set_color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  constexpr int32_t& __get_value();
+  constexpr int32_t& __cordl_internal_get_value();
 
-  constexpr int32_t const& __get_value() const;
+  constexpr int32_t const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(int32_t value);
+  constexpr void __cordl_internal_set_value(int32_t value);
 
   static inline ::GlobalNamespace::__NamedColorListController__ColorValuePair* New_ctor();
 
@@ -98,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__NamedColorListController__ColorValue
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16148))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16148))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16151))
 // CS Name: ::NamedColorListController*
 class CORDL_TYPE NamedColorListController : public ::GlobalNamespace::ListColorController {
@@ -107,15 +107,15 @@ public:
   using ColorValuePair = ::GlobalNamespace::__NamedColorListController__ColorValuePair;
 
   /// @brief Field _textValuePairs, offset 0x28, size 0x8
-  __declspec(property(
-      get = __get__textValuePairs,
-      put = __set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> _textValuePairs;
+  __declspec(property(get = __cordl_internal_get__textValuePairs,
+                      put = __cordl_internal_set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*,
+                                                                           ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> _textValuePairs;
 
   /// @brief Field _value, offset 0x30, size 0x4
-  __declspec(property(get = __get__value, put = __set__value)) int32_t _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int32_t _value;
 
   /// @brief Field valueChangedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_valueChangedEvent, put = __set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
+  __declspec(property(get = __cordl_internal_get_valueChangedEvent, put = __cordl_internal_set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
 
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
@@ -123,23 +123,25 @@ public:
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
-  constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>& __get__textValuePairs();
+  constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>& __cordl_internal_get__textValuePairs();
 
-  constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> const& __get__textValuePairs() const;
+  constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> const&
+  __cordl_internal_get__textValuePairs() const;
 
-  constexpr void __set__textValuePairs(::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> value);
+  constexpr void
+  __cordl_internal_set__textValuePairs(::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> value);
 
-  constexpr int32_t& __get__value();
+  constexpr int32_t& __cordl_internal_get__value();
 
-  constexpr int32_t const& __get__value() const;
+  constexpr int32_t const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(int32_t value);
+  constexpr void __cordl_internal_set__value(int32_t value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_valueChangedEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_valueChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_valueChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_valueChangedEvent() const;
 
-  constexpr void __set_valueChangedEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Method add_valueChangedEvent, addr 0x23e51d0, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);

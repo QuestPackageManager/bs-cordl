@@ -33,29 +33,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameter
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::CryptoPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(127))
 // CS Name: ::Org.BouncyCastle.Asn1.CryptoPro::ECGost3410ParamSetParameters*
 class CORDL_TYPE ECGost3410ParamSetParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Org::BouncyCastle::Asn1::DerInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Asn1::DerInteger* p;
 
   /// @brief Field q, offset 0x18, size 0x8
-  __declspec(property(get = __get_q, put = __set_q))::Org::BouncyCastle::Asn1::DerInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Asn1::DerInteger* q;
 
   /// @brief Field a, offset 0x20, size 0x8
-  __declspec(property(get = __get_a, put = __set_a))::Org::BouncyCastle::Asn1::DerInteger* a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::Org::BouncyCastle::Asn1::DerInteger* a;
 
   /// @brief Field b, offset 0x28, size 0x8
-  __declspec(property(get = __get_b, put = __set_b))::Org::BouncyCastle::Asn1::DerInteger* b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b))::Org::BouncyCastle::Asn1::DerInteger* b;
 
   /// @brief Field x, offset 0x30, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::Org::BouncyCastle::Asn1::DerInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Asn1::DerInteger* x;
 
   /// @brief Field y, offset 0x38, size 0x8
-  __declspec(property(get = __get_y, put = __set_y))::Org::BouncyCastle::Asn1::DerInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Asn1::DerInteger* y;
 
   __declspec(property(get = get_P))::Org::BouncyCastle::Math::BigInteger* P;
 
@@ -63,41 +63,41 @@ public:
 
   __declspec(property(get = get_A))::Org::BouncyCastle::Math::BigInteger* A;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_p();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_q();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_a();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_a();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_a() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_a(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_b();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_b();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_b() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_b(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_x();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_x() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_y();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_y();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_y() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   /// @brief Method GetInstance, addr 0xe8c370, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

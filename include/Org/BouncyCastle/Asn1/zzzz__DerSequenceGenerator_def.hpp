@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerSequenceGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(508))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(508))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(513))
 // CS Name: ::Org.BouncyCastle.Asn1::DerSequenceGenerator*
 class CORDL_TYPE DerSequenceGenerator : public ::Org::BouncyCastle::Asn1::DerGenerator {
 public:
   // Declarations
   /// @brief Field _bOut, offset 0x20, size 0x8
-  __declspec(property(get = __get__bOut, put = __set__bOut))::System::IO::MemoryStream* _bOut;
+  __declspec(property(get = __cordl_internal_get__bOut, put = __cordl_internal_set__bOut))::System::IO::MemoryStream* _bOut;
 
-  constexpr ::System::IO::MemoryStream*& __get__bOut();
+  constexpr ::System::IO::MemoryStream*& __cordl_internal_get__bOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __get__bOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get__bOut() const;
 
-  constexpr void __set__bOut(::System::IO::MemoryStream* value);
+  constexpr void __cordl_internal_set__bOut(::System::IO::MemoryStream* value);
 
   static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
 

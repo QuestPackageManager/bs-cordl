@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Diagnostics::Tracing::EventKeywords);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3744))
 // CS Name: ::System.Diagnostics.Tracing::EventKeywords
 struct CORDL_TYPE EventKeywords {

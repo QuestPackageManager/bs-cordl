@@ -55,20 +55,20 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRCompositor);
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8387)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8387))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8564))
 // CS Name: ::OVR.OpenVR::CVRCompositor*
 class CORDL_TYPE CVRCompositor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x158
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRCompositor FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRCompositor FnTable;
 
-  constexpr ::OVR::OpenVR::IVRCompositor& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRCompositor& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRCompositor const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRCompositor const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRCompositor value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRCompositor value);
 
   static inline ::OVR::OpenVR::CVRCompositor* New_ctor(void* pInterface);
 

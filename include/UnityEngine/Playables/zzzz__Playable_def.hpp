@@ -31,7 +31,7 @@ MARK_VAL_T(::UnityEngine::Playables::Playable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10440))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10428))
 // CS Name: ::UnityEngine.Playables::Playable
 struct CORDL_TYPE Playable {

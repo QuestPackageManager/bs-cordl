@@ -35,33 +35,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::PKMacValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(117))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::PKMacValue*
 class CORDL_TYPE PKMacValue : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field algID, offset 0x10, size 0x8
-  __declspec(property(get = __get_algID, put = __set_algID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
+  __declspec(property(get = __cordl_internal_get_algID, put = __cordl_internal_set_algID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
 
   /// @brief Field macValue, offset 0x18, size 0x8
-  __declspec(property(get = __get_macValue, put = __set_macValue))::Org::BouncyCastle::Asn1::DerBitString* macValue;
+  __declspec(property(get = __cordl_internal_get_macValue, put = __cordl_internal_set_macValue))::Org::BouncyCastle::Asn1::DerBitString* macValue;
 
   __declspec(property(get = get_AlgID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgID;
 
   __declspec(property(get = get_MacValue))::Org::BouncyCastle::Asn1::DerBitString* MacValue;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algID();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_algID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algID() const;
 
-  constexpr void __set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_macValue();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_macValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_macValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_macValue() const;
 
-  constexpr void __set_macValue(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_macValue(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

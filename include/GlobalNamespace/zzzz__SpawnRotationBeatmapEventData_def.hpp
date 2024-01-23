@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationBeatmapEventData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14738))
 // CS Name: ::SpawnRotationBeatmapEventData::SpawnRotationEventType
 struct CORDL_TYPE __SpawnRotationBeatmapEventData__SpawnRotationEventType {
@@ -81,7 +81,7 @@ static_assert(offsetof(::GlobalNamespace::__SpawnRotationBeatmapEventData__Spawn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14738))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14738))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14739))
 // CS Name: ::SpawnRotationBeatmapEventData*
 class CORDL_TYPE SpawnRotationBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
@@ -90,13 +90,14 @@ public:
   using SpawnRotationEventType = ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType;
 
   /// @brief Field <rotation>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__rotation_k__BackingField, put = __set__rotation_k__BackingField)) float_t _rotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rotation_k__BackingField, put = __cordl_internal_set__rotation_k__BackingField)) float_t _rotation_k__BackingField;
 
   /// @brief Field spawnRotationEventType, offset 0x34, size 0x4
-  __declspec(property(get = __get_spawnRotationEventType, put = __set_spawnRotationEventType))::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType;
+  __declspec(property(get = __cordl_internal_get_spawnRotationEventType,
+                      put = __cordl_internal_set_spawnRotationEventType))::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType;
 
   /// @brief Field _deltaRotation, offset 0x38, size 0x4
-  __declspec(property(get = __get__deltaRotation, put = __set__deltaRotation)) float_t _deltaRotation;
+  __declspec(property(get = __cordl_internal_get__deltaRotation, put = __cordl_internal_set__deltaRotation)) float_t _deltaRotation;
 
   /// @brief Field _defaultCopy, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__defaultCopy, put = setStaticF__defaultCopy))::GlobalNamespace::BeatmapEventData* _defaultCopy;
@@ -105,23 +106,23 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) float_t rotation;
 
-  constexpr float_t& __get__rotation_k__BackingField();
+  constexpr float_t& __cordl_internal_get__rotation_k__BackingField();
 
-  constexpr float_t const& __get__rotation_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__rotation_k__BackingField() const;
 
-  constexpr void __set__rotation_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__rotation_k__BackingField(float_t value);
 
-  constexpr ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType& __get_spawnRotationEventType();
+  constexpr ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType& __cordl_internal_get_spawnRotationEventType();
 
-  constexpr ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType const& __get_spawnRotationEventType() const;
+  constexpr ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType const& __cordl_internal_get_spawnRotationEventType() const;
 
-  constexpr void __set_spawnRotationEventType(::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType value);
+  constexpr void __cordl_internal_set_spawnRotationEventType(::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType value);
 
-  constexpr float_t& __get__deltaRotation();
+  constexpr float_t& __cordl_internal_get__deltaRotation();
 
-  constexpr float_t const& __get__deltaRotation() const;
+  constexpr float_t const& __cordl_internal_get__deltaRotation() const;
 
-  constexpr void __set__deltaRotation(float_t value);
+  constexpr void __cordl_internal_set__deltaRotation(float_t value);
 
   static inline void setStaticF__defaultCopy(::GlobalNamespace::BeatmapEventData* value);
 

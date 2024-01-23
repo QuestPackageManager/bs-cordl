@@ -28,22 +28,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509Attribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1859))
 // CS Name: ::Org.BouncyCastle.X509::X509Attribute*
 class CORDL_TYPE X509Attribute : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field attr, offset 0x10, size 0x8
-  __declspec(property(get = __get_attr, put = __set_attr))::Org::BouncyCastle::Asn1::X509::AttributeX509* attr;
+  __declspec(property(get = __cordl_internal_get_attr, put = __cordl_internal_set_attr))::Org::BouncyCastle::Asn1::X509::AttributeX509* attr;
 
   __declspec(property(get = get_Oid))::StringW Oid;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeX509*& __get_attr();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeX509*& __cordl_internal_get_attr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeX509*> const& __get_attr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeX509*> const& __cordl_internal_get_attr() const;
 
-  constexpr void __set_attr(::Org::BouncyCastle::Asn1::X509::AttributeX509* value);
+  constexpr void __cordl_internal_set_attr(::Org::BouncyCastle::Asn1::X509::AttributeX509* value);
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
 

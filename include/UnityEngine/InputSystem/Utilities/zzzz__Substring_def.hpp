@@ -31,7 +31,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Substring);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6709))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Substring
 struct CORDL_TYPE Substring {

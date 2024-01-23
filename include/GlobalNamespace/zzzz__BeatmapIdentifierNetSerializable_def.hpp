@@ -35,21 +35,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapIdentifierNetSerializable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14987))
 // CS Name: ::BeatmapIdentifierNetSerializable*
 class CORDL_TYPE BeatmapIdentifierNetSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <levelID>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__levelID_k__BackingField, put = __set__levelID_k__BackingField))::StringW _levelID_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__levelID_k__BackingField, put = __cordl_internal_set__levelID_k__BackingField))::StringW _levelID_k__BackingField;
 
   /// @brief Field <beatmapCharacteristicSerializedName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristicSerializedName_k__BackingField,
-                      put = __set__beatmapCharacteristicSerializedName_k__BackingField))::StringW _beatmapCharacteristicSerializedName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicSerializedName_k__BackingField,
+                      put = __cordl_internal_set__beatmapCharacteristicSerializedName_k__BackingField))::StringW _beatmapCharacteristicSerializedName_k__BackingField;
 
   /// @brief Field <difficulty>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__difficulty_k__BackingField, put = __set__difficulty_k__BackingField))::GlobalNamespace::BeatmapDifficulty _difficulty_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__difficulty_k__BackingField, put = __cordl_internal_set__difficulty_k__BackingField))::GlobalNamespace::BeatmapDifficulty _difficulty_k__BackingField;
 
   __declspec(property(get = get_levelID, put = set_levelID))::StringW levelID;
 
@@ -69,23 +69,23 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>* i___System__IEquatable_1___GlobalNamespace__BeatmapIdentifierNetSerializable__() noexcept;
 
-  constexpr ::StringW& __get__levelID_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__levelID_k__BackingField();
 
-  constexpr ::StringW const& __get__levelID_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__levelID_k__BackingField() const;
 
-  constexpr void __set__levelID_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__levelID_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__beatmapCharacteristicSerializedName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__beatmapCharacteristicSerializedName_k__BackingField();
 
-  constexpr ::StringW const& __get__beatmapCharacteristicSerializedName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__beatmapCharacteristicSerializedName_k__BackingField() const;
 
-  constexpr void __set__beatmapCharacteristicSerializedName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__beatmapCharacteristicSerializedName_k__BackingField(::StringW value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__difficulty_k__BackingField();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__difficulty_k__BackingField();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__difficulty_k__BackingField() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__difficulty_k__BackingField() const;
 
-  constexpr void __set__difficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__difficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value);
 
   /// @brief Method get_levelID, addr 0x12a0078, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();

@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__HMAsyncRequest__CancelHander);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14369))
 // CS Name: ::HMAsyncRequest::CancelHander*
 class CORDL_TYPE __HMAsyncRequest__CancelHander : public ::System::MulticastDelegate {
@@ -76,7 +76,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HMAsyncReques
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14371))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14371))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14370))
 // CS Name: ::HMAsyncRequest*
 class CORDL_TYPE HMAsyncRequest : public ::GlobalNamespace::HMAutoincrementedRequestId {
@@ -85,26 +85,26 @@ public:
   using CancelHander = ::GlobalNamespace::__HMAsyncRequest__CancelHander;
 
   /// @brief Field _cancelled, offset 0x18, size 0x1
-  __declspec(property(get = __get__cancelled, put = __set__cancelled)) bool _cancelled;
+  __declspec(property(get = __cordl_internal_get__cancelled, put = __cordl_internal_set__cancelled)) bool _cancelled;
 
   /// @brief Field _cancelHander, offset 0x20, size 0x8
-  __declspec(property(get = __get__cancelHander, put = __set__cancelHander))::GlobalNamespace::__HMAsyncRequest__CancelHander* _cancelHander;
+  __declspec(property(get = __cordl_internal_get__cancelHander, put = __cordl_internal_set__cancelHander))::GlobalNamespace::__HMAsyncRequest__CancelHander* _cancelHander;
 
   __declspec(property(get = get_CancelHandler, put = set_CancelHandler))::GlobalNamespace::__HMAsyncRequest__CancelHander* CancelHandler;
 
   __declspec(property(get = get_cancelled)) bool cancelled;
 
-  constexpr bool& __get__cancelled();
+  constexpr bool& __cordl_internal_get__cancelled();
 
-  constexpr bool const& __get__cancelled() const;
+  constexpr bool const& __cordl_internal_get__cancelled() const;
 
-  constexpr void __set__cancelled(bool value);
+  constexpr void __cordl_internal_set__cancelled(bool value);
 
-  constexpr ::GlobalNamespace::__HMAsyncRequest__CancelHander*& __get__cancelHander();
+  constexpr ::GlobalNamespace::__HMAsyncRequest__CancelHander*& __cordl_internal_get__cancelHander();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HMAsyncRequest__CancelHander*> const& __get__cancelHander() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HMAsyncRequest__CancelHander*> const& __cordl_internal_get__cancelHander() const;
 
-  constexpr void __set__cancelHander(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
+  constexpr void __cordl_internal_set__cancelHander(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
 
   /// @brief Method get_CancelHandler, addr 0x20f2ea8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* get_CancelHandler();

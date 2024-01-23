@@ -25,17 +25,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5912))
 // CS Name: ::ReferenceCountingCache`2<TKey,TValue>*
 class CORDL_TYPE ReferenceCountingCache_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _items;
 
   /// @brief Field _referencesCount, offset 0x18, size 0x8
-  __declspec(property(get = __get__referencesCount, put = __set__referencesCount))::System::Collections::Generic::Dictionary_2<TKey, int32_t>* _referencesCount;
+  __declspec(property(get = __cordl_internal_get__referencesCount, put = __cordl_internal_set__referencesCount))::System::Collections::Generic::Dictionary_2<TKey, int32_t>* _referencesCount;
 
   /// @brief Convert operator to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
   constexpr operator ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*() noexcept;
@@ -43,17 +43,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
   constexpr ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>* i___GlobalNamespace__IReferenceCountingCache_2_TKey_TValue_() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __get__items();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __get__items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__items(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, int32_t>*& __get__referencesCount();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, int32_t>*& __cordl_internal_get__referencesCount();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, int32_t>*> const& __get__referencesCount() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, int32_t>*> const& __cordl_internal_get__referencesCount() const;
 
-  constexpr void __set__referencesCount(::System::Collections::Generic::Dictionary_2<TKey, int32_t>* value);
+  constexpr void __cordl_internal_set__referencesCount(::System::Collections::Generic::Dictionary_2<TKey, int32_t>* value);
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t Insert(TKey key, TValue item);

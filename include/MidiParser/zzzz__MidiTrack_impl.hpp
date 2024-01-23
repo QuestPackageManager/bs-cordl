@@ -10,42 +10,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x23e6444;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiTrack*>::get(), ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiTrack*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& MidiParser::MidiTrack::__get_Index() {
+constexpr int32_t& MidiParser::MidiTrack::__cordl_internal_get_Index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Index;
 }
-constexpr int32_t const& MidiParser::MidiTrack::__get_Index() const {
+constexpr int32_t const& MidiParser::MidiTrack::__cordl_internal_get_Index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Index;
 }
-constexpr void MidiParser::MidiTrack::__set_Index(int32_t value) {
+constexpr void MidiParser::MidiTrack::__cordl_internal_set_Index(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Index = value;
 }
-constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& MidiParser::MidiTrack::__get_MidiEvents() {
+constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& MidiParser::MidiTrack::__cordl_internal_get_MidiEvents() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MidiEvents;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*> const& MidiParser::MidiTrack::__get_MidiEvents() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*> const& MidiParser::MidiTrack::__cordl_internal_get_MidiEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MidiEvents;
 }
-constexpr void MidiParser::MidiTrack::__set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value) {
+constexpr void MidiParser::MidiTrack::__cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MidiEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::MidiParser::MidiTrack* MidiParser::MidiTrack::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::MidiParser::MidiTrack*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MidiParser::MidiTrack*>());
 }
 inline void MidiParser::MidiTrack::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiTrack*>::get(), ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiTrack*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

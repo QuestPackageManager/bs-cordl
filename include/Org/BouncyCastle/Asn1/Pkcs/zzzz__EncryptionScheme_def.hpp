@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(235))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(235))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(236))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::EncryptionScheme*
 class CORDL_TYPE EncryptionScheme : public ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {

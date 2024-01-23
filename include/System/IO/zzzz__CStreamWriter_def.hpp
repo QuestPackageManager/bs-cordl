@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::System::IO::CStreamWriter);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3578))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3578))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3638))
 // CS Name: ::System.IO::CStreamWriter*
 class CORDL_TYPE CStreamWriter : public ::System::IO::StreamWriter {
 public:
   // Declarations
   /// @brief Field driver, offset 0x70, size 0x8
-  __declspec(property(get = __get_driver, put = __set_driver))::System::TermInfoDriver* driver;
+  __declspec(property(get = __cordl_internal_get_driver, put = __cordl_internal_set_driver))::System::TermInfoDriver* driver;
 
-  constexpr ::System::TermInfoDriver*& __get_driver();
+  constexpr ::System::TermInfoDriver*& __cordl_internal_get_driver();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::TermInfoDriver*> const& __get_driver() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::TermInfoDriver*> const& __cordl_internal_get_driver() const;
 
-  constexpr void __set_driver(::System::TermInfoDriver* value);
+  constexpr void __cordl_internal_set_driver(::System::TermInfoDriver* value);
 
   static inline ::System::IO::CStreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen);
 

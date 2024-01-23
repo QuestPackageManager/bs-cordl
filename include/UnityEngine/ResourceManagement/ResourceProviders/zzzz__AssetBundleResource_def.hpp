@@ -72,7 +72,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundle
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13992))
 // CS Name: ::AssetBundleResource::LoadType
 struct CORDL_TYPE __AssetBundleResource__LoadType {
@@ -126,7 +126,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__A
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13993))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleResource*
 class CORDL_TYPE AssetBundleResource : public ::System::Object {
@@ -135,55 +135,56 @@ public:
   using LoadType = ::UnityEngine::ResourceManagement::ResourceProviders::__AssetBundleResource__LoadType;
 
   /// @brief Field m_AssetBundle, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_AssetBundle, put = __set_m_AssetBundle))::UnityEngine::AssetBundle* m_AssetBundle;
+  __declspec(property(get = __cordl_internal_get_m_AssetBundle, put = __cordl_internal_set_m_AssetBundle))::UnityW<::UnityEngine::AssetBundle> m_AssetBundle;
 
   /// @brief Field m_downloadHandler, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_downloadHandler, put = __set_m_downloadHandler))::UnityEngine::Networking::DownloadHandlerAssetBundle* m_downloadHandler;
+  __declspec(property(get = __cordl_internal_get_m_downloadHandler, put = __cordl_internal_set_m_downloadHandler))::UnityEngine::Networking::DownloadHandlerAssetBundle* m_downloadHandler;
 
   /// @brief Field m_RequestOperation, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_RequestOperation, put = __set_m_RequestOperation))::UnityEngine::AsyncOperation* m_RequestOperation;
+  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::AsyncOperation* m_RequestOperation;
 
   /// @brief Field m_WebRequestQueueOperation, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_WebRequestQueueOperation, put = __set_m_WebRequestQueueOperation))::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_WebRequestQueueOperation;
+  __declspec(property(get = __cordl_internal_get_m_WebRequestQueueOperation,
+                      put = __cordl_internal_set_m_WebRequestQueueOperation))::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_WebRequestQueueOperation;
 
   /// @brief Field m_ProvideHandle, offset 0x30, size 0x18
-  __declspec(property(get = __get_m_ProvideHandle, put = __set_m_ProvideHandle))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
+  __declspec(property(get = __cordl_internal_get_m_ProvideHandle, put = __cordl_internal_set_m_ProvideHandle))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
 
   /// @brief Field m_Options, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Options, put = __set_m_Options))::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* m_Options;
+  __declspec(property(get = __cordl_internal_get_m_Options, put = __cordl_internal_set_m_Options))::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* m_Options;
 
   /// @brief Field m_WebRequestCompletedCallbackCalled, offset 0x50, size 0x1
-  __declspec(property(get = __get_m_WebRequestCompletedCallbackCalled, put = __set_m_WebRequestCompletedCallbackCalled)) bool m_WebRequestCompletedCallbackCalled;
+  __declspec(property(get = __cordl_internal_get_m_WebRequestCompletedCallbackCalled, put = __cordl_internal_set_m_WebRequestCompletedCallbackCalled)) bool m_WebRequestCompletedCallbackCalled;
 
   /// @brief Field m_Retries, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_Retries, put = __set_m_Retries)) int32_t m_Retries;
+  __declspec(property(get = __cordl_internal_get_m_Retries, put = __cordl_internal_set_m_Retries)) int32_t m_Retries;
 
   /// @brief Field m_BytesToDownload, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_BytesToDownload, put = __set_m_BytesToDownload)) int64_t m_BytesToDownload;
+  __declspec(property(get = __cordl_internal_get_m_BytesToDownload, put = __cordl_internal_set_m_BytesToDownload)) int64_t m_BytesToDownload;
 
   /// @brief Field m_DownloadedBytes, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_DownloadedBytes, put = __set_m_DownloadedBytes)) int64_t m_DownloadedBytes;
+  __declspec(property(get = __cordl_internal_get_m_DownloadedBytes, put = __cordl_internal_set_m_DownloadedBytes)) int64_t m_DownloadedBytes;
 
   /// @brief Field m_Completed, offset 0x68, size 0x1
-  __declspec(property(get = __get_m_Completed, put = __set_m_Completed)) bool m_Completed;
+  __declspec(property(get = __cordl_internal_get_m_Completed, put = __cordl_internal_set_m_Completed)) bool m_Completed;
 
   /// @brief Field m_TransformedInternalId, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_TransformedInternalId, put = __set_m_TransformedInternalId))::StringW m_TransformedInternalId;
+  __declspec(property(get = __cordl_internal_get_m_TransformedInternalId, put = __cordl_internal_set_m_TransformedInternalId))::StringW m_TransformedInternalId;
 
   /// @brief Field m_PreloadRequest, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_PreloadRequest, put = __set_m_PreloadRequest))::UnityEngine::AssetBundleRequest* m_PreloadRequest;
+  __declspec(property(get = __cordl_internal_get_m_PreloadRequest, put = __cordl_internal_set_m_PreloadRequest))::UnityEngine::AssetBundleRequest* m_PreloadRequest;
 
   /// @brief Field m_PreloadCompleted, offset 0x80, size 0x1
-  __declspec(property(get = __get_m_PreloadCompleted, put = __set_m_PreloadCompleted)) bool m_PreloadCompleted;
+  __declspec(property(get = __cordl_internal_get_m_PreloadCompleted, put = __cordl_internal_set_m_PreloadCompleted)) bool m_PreloadCompleted;
 
   /// @brief Field m_LastDownloadedByteCount, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_LastDownloadedByteCount, put = __set_m_LastDownloadedByteCount)) uint64_t m_LastDownloadedByteCount;
+  __declspec(property(get = __cordl_internal_get_m_LastDownloadedByteCount, put = __cordl_internal_set_m_LastDownloadedByteCount)) uint64_t m_LastDownloadedByteCount;
 
   /// @brief Field m_TimeoutTimer, offset 0x90, size 0x4
-  __declspec(property(get = __get_m_TimeoutTimer, put = __set_m_TimeoutTimer)) float_t m_TimeoutTimer;
+  __declspec(property(get = __cordl_internal_get_m_TimeoutTimer, put = __cordl_internal_set_m_TimeoutTimer)) float_t m_TimeoutTimer;
 
   /// @brief Field m_TimeoutOverFrames, offset 0x94, size 0x4
-  __declspec(property(get = __get_m_TimeoutOverFrames, put = __set_m_TimeoutOverFrames)) int32_t m_TimeoutOverFrames;
+  __declspec(property(get = __cordl_internal_get_m_TimeoutOverFrames, put = __cordl_internal_set_m_TimeoutOverFrames)) int32_t m_TimeoutOverFrames;
 
   __declspec(property(get = get_HasTimedOut)) bool HasTimedOut;
 
@@ -201,107 +202,107 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr ::UnityEngine::ResourceManagement::IUpdateReceiver* i___UnityEngine__ResourceManagement__IUpdateReceiver() noexcept;
 
-  constexpr ::UnityEngine::AssetBundle*& __get_m_AssetBundle();
+  constexpr ::UnityW<::UnityEngine::AssetBundle>& __cordl_internal_get_m_AssetBundle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundle*> const& __get_m_AssetBundle() const;
+  constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
 
-  constexpr void __set_m_AssetBundle(::UnityEngine::AssetBundle* value);
+  constexpr void __cordl_internal_set_m_AssetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  constexpr ::UnityEngine::Networking::DownloadHandlerAssetBundle*& __get_m_downloadHandler();
+  constexpr ::UnityEngine::Networking::DownloadHandlerAssetBundle*& __cordl_internal_get_m_downloadHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandlerAssetBundle*> const& __get_m_downloadHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandlerAssetBundle*> const& __cordl_internal_get_m_downloadHandler() const;
 
-  constexpr void __set_m_downloadHandler(::UnityEngine::Networking::DownloadHandlerAssetBundle* value);
+  constexpr void __cordl_internal_set_m_downloadHandler(::UnityEngine::Networking::DownloadHandlerAssetBundle* value);
 
-  constexpr ::UnityEngine::AsyncOperation*& __get_m_RequestOperation();
+  constexpr ::UnityEngine::AsyncOperation*& __cordl_internal_get_m_RequestOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __get_m_RequestOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __cordl_internal_get_m_RequestOperation() const;
 
-  constexpr void __set_m_RequestOperation(::UnityEngine::AsyncOperation* value);
+  constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::AsyncOperation* value);
 
-  constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __get_m_WebRequestQueueOperation();
+  constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __cordl_internal_get_m_WebRequestQueueOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const& __get_m_WebRequestQueueOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const& __cordl_internal_get_m_WebRequestQueueOperation() const;
 
-  constexpr void __set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
+  constexpr void __cordl_internal_set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __get_m_ProvideHandle();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProvideHandle();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __get_m_ProvideHandle() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
 
-  constexpr void __set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
+  constexpr void __cordl_internal_set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*& __get_m_Options();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*& __cordl_internal_get_m_Options();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*> const& __get_m_Options() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*> const& __cordl_internal_get_m_Options() const;
 
-  constexpr void __set_m_Options(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* value);
+  constexpr void __cordl_internal_set_m_Options(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* value);
 
-  constexpr bool& __get_m_WebRequestCompletedCallbackCalled();
+  constexpr bool& __cordl_internal_get_m_WebRequestCompletedCallbackCalled();
 
-  constexpr bool const& __get_m_WebRequestCompletedCallbackCalled() const;
+  constexpr bool const& __cordl_internal_get_m_WebRequestCompletedCallbackCalled() const;
 
-  constexpr void __set_m_WebRequestCompletedCallbackCalled(bool value);
+  constexpr void __cordl_internal_set_m_WebRequestCompletedCallbackCalled(bool value);
 
-  constexpr int32_t& __get_m_Retries();
+  constexpr int32_t& __cordl_internal_get_m_Retries();
 
-  constexpr int32_t const& __get_m_Retries() const;
+  constexpr int32_t const& __cordl_internal_get_m_Retries() const;
 
-  constexpr void __set_m_Retries(int32_t value);
+  constexpr void __cordl_internal_set_m_Retries(int32_t value);
 
-  constexpr int64_t& __get_m_BytesToDownload();
+  constexpr int64_t& __cordl_internal_get_m_BytesToDownload();
 
-  constexpr int64_t const& __get_m_BytesToDownload() const;
+  constexpr int64_t const& __cordl_internal_get_m_BytesToDownload() const;
 
-  constexpr void __set_m_BytesToDownload(int64_t value);
+  constexpr void __cordl_internal_set_m_BytesToDownload(int64_t value);
 
-  constexpr int64_t& __get_m_DownloadedBytes();
+  constexpr int64_t& __cordl_internal_get_m_DownloadedBytes();
 
-  constexpr int64_t const& __get_m_DownloadedBytes() const;
+  constexpr int64_t const& __cordl_internal_get_m_DownloadedBytes() const;
 
-  constexpr void __set_m_DownloadedBytes(int64_t value);
+  constexpr void __cordl_internal_set_m_DownloadedBytes(int64_t value);
 
-  constexpr bool& __get_m_Completed();
+  constexpr bool& __cordl_internal_get_m_Completed();
 
-  constexpr bool const& __get_m_Completed() const;
+  constexpr bool const& __cordl_internal_get_m_Completed() const;
 
-  constexpr void __set_m_Completed(bool value);
+  constexpr void __cordl_internal_set_m_Completed(bool value);
 
-  constexpr ::StringW& __get_m_TransformedInternalId();
+  constexpr ::StringW& __cordl_internal_get_m_TransformedInternalId();
 
-  constexpr ::StringW const& __get_m_TransformedInternalId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_TransformedInternalId() const;
 
-  constexpr void __set_m_TransformedInternalId(::StringW value);
+  constexpr void __cordl_internal_set_m_TransformedInternalId(::StringW value);
 
-  constexpr ::UnityEngine::AssetBundleRequest*& __get_m_PreloadRequest();
+  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_PreloadRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __get_m_PreloadRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __cordl_internal_get_m_PreloadRequest() const;
 
-  constexpr void __set_m_PreloadRequest(::UnityEngine::AssetBundleRequest* value);
+  constexpr void __cordl_internal_set_m_PreloadRequest(::UnityEngine::AssetBundleRequest* value);
 
-  constexpr bool& __get_m_PreloadCompleted();
+  constexpr bool& __cordl_internal_get_m_PreloadCompleted();
 
-  constexpr bool const& __get_m_PreloadCompleted() const;
+  constexpr bool const& __cordl_internal_get_m_PreloadCompleted() const;
 
-  constexpr void __set_m_PreloadCompleted(bool value);
+  constexpr void __cordl_internal_set_m_PreloadCompleted(bool value);
 
-  constexpr uint64_t& __get_m_LastDownloadedByteCount();
+  constexpr uint64_t& __cordl_internal_get_m_LastDownloadedByteCount();
 
-  constexpr uint64_t const& __get_m_LastDownloadedByteCount() const;
+  constexpr uint64_t const& __cordl_internal_get_m_LastDownloadedByteCount() const;
 
-  constexpr void __set_m_LastDownloadedByteCount(uint64_t value);
+  constexpr void __cordl_internal_set_m_LastDownloadedByteCount(uint64_t value);
 
-  constexpr float_t& __get_m_TimeoutTimer();
+  constexpr float_t& __cordl_internal_get_m_TimeoutTimer();
 
-  constexpr float_t const& __get_m_TimeoutTimer() const;
+  constexpr float_t const& __cordl_internal_get_m_TimeoutTimer() const;
 
-  constexpr void __set_m_TimeoutTimer(float_t value);
+  constexpr void __cordl_internal_set_m_TimeoutTimer(float_t value);
 
-  constexpr int32_t& __get_m_TimeoutOverFrames();
+  constexpr int32_t& __cordl_internal_get_m_TimeoutOverFrames();
 
-  constexpr int32_t const& __get_m_TimeoutOverFrames() const;
+  constexpr int32_t const& __cordl_internal_get_m_TimeoutOverFrames() const;
 
-  constexpr void __set_m_TimeoutOverFrames(int32_t value);
+  constexpr void __cordl_internal_set_m_TimeoutOverFrames(int32_t value);
 
   /// @brief Method get_HasTimedOut, addr 0x2bd3af8, size 0x40, virtual false, abstract: false, final false
   inline bool get_HasTimedOut();
@@ -325,7 +326,7 @@ public:
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
 
   /// @brief Method GetAssetBundle, addr 0x2bd3f44, size 0xf8, virtual true, abstract: false, final true
-  inline ::UnityEngine::AssetBundle* GetAssetBundle();
+  inline ::UnityW<::UnityEngine::AssetBundle> GetAssetBundle();
 
   /// @brief Method Start, addr 0x2bd41a4, size 0x238, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
@@ -391,7 +392,7 @@ protected:
 
 public:
   /// @brief Field m_AssetBundle, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AssetBundle* ___m_AssetBundle;
+  ::UnityW<::UnityEngine::AssetBundle> ___m_AssetBundle;
 
   /// @brief Field m_downloadHandler, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Networking::DownloadHandlerAssetBundle* ___m_downloadHandler;

@@ -19,23 +19,23 @@ MARK_REF_PTR_T(::GlobalNamespace::ProcessPort);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8065))
 // CS Name: ::ProcessPort*
 class CORDL_TYPE ProcessPort : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <processName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__processName_k__BackingField, put = __set__processName_k__BackingField))::StringW _processName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__processName_k__BackingField, put = __cordl_internal_set__processName_k__BackingField))::StringW _processName_k__BackingField;
 
   /// @brief Field <processId>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__processId_k__BackingField, put = __set__processId_k__BackingField)) int32_t _processId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__processId_k__BackingField, put = __cordl_internal_set__processId_k__BackingField)) int32_t _processId_k__BackingField;
 
   /// @brief Field <portNumber>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__portNumber_k__BackingField, put = __set__portNumber_k__BackingField))::StringW _portNumber_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__portNumber_k__BackingField, put = __cordl_internal_set__portNumber_k__BackingField))::StringW _portNumber_k__BackingField;
 
   /// @brief Field <protocol>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__protocol_k__BackingField, put = __set__protocol_k__BackingField))::StringW _protocol_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__protocol_k__BackingField, put = __cordl_internal_set__protocol_k__BackingField))::StringW _protocol_k__BackingField;
 
   __declspec(property(get = get_processName, put = set_processName))::StringW processName;
 
@@ -45,29 +45,29 @@ public:
 
   __declspec(property(get = get_protocol, put = set_protocol))::StringW protocol;
 
-  constexpr ::StringW& __get__processName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__processName_k__BackingField();
 
-  constexpr ::StringW const& __get__processName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__processName_k__BackingField() const;
 
-  constexpr void __set__processName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__processName_k__BackingField(::StringW value);
 
-  constexpr int32_t& __get__processId_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__processId_k__BackingField();
 
-  constexpr int32_t const& __get__processId_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__processId_k__BackingField() const;
 
-  constexpr void __set__processId_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__processId_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__portNumber_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__portNumber_k__BackingField();
 
-  constexpr ::StringW const& __get__portNumber_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__portNumber_k__BackingField() const;
 
-  constexpr void __set__portNumber_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__portNumber_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__protocol_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__protocol_k__BackingField();
 
-  constexpr ::StringW const& __get__protocol_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__protocol_k__BackingField() const;
 
-  constexpr void __set__protocol_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__protocol_k__BackingField(::StringW value);
 
   /// @brief Method ToString, addr 0x27a0f20, size 0x168, virtual true, abstract: false, final false
   inline ::StringW ToString();

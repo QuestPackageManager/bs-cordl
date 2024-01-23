@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::PrimeField);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1587))
 // CS Name: ::Org.BouncyCastle.Math.Field::PrimeField*
 class CORDL_TYPE PrimeField : public ::System::Object {
 public:
   // Declarations
   /// @brief Field characteristic, offset 0x10, size 0x8
-  __declspec(property(get = __get_characteristic, put = __set_characteristic))::Org::BouncyCastle::Math::BigInteger* characteristic;
+  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::Org::BouncyCastle::Math::BigInteger* characteristic;
 
   __declspec(property(get = get_Characteristic))::Org::BouncyCastle::Math::BigInteger* Characteristic;
 
@@ -43,11 +43,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_characteristic();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_characteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_characteristic() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_characteristic() const;
 
-  constexpr void __set_characteristic(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_characteristic(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Math::Field::PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 

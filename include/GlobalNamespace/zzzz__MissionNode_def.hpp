@@ -30,35 +30,37 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNode);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5543))
 // CS Name: ::MissionNode*
 class CORDL_TYPE MissionNode : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _missionDataSO, offset 0x18, size 0x8
-  __declspec(property(get = __get__missionDataSO, put = __set__missionDataSO))::GlobalNamespace::MissionDataSO* _missionDataSO;
+  __declspec(property(get = __cordl_internal_get__missionDataSO, put = __cordl_internal_set__missionDataSO))::UnityW<::GlobalNamespace::MissionDataSO> _missionDataSO;
 
   /// @brief Field _letterPartName, offset 0x20, size 0x8
-  __declspec(property(get = __get__letterPartName, put = __set__letterPartName))::StringW _letterPartName;
+  __declspec(property(get = __cordl_internal_get__letterPartName, put = __cordl_internal_set__letterPartName))::StringW _letterPartName;
 
   /// @brief Field _numberPartName, offset 0x28, size 0x4
-  __declspec(property(get = __get__numberPartName, put = __set__numberPartName)) int32_t _numberPartName;
+  __declspec(property(get = __cordl_internal_get__numberPartName, put = __cordl_internal_set__numberPartName)) int32_t _numberPartName;
 
   /// @brief Field _rectTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _missionNodeVisualController, offset 0x38, size 0x8
-  __declspec(property(get = __get__missionNodeVisualController, put = __set__missionNodeVisualController))::GlobalNamespace::MissionNodeVisualController* _missionNodeVisualController;
+  __declspec(property(get = __cordl_internal_get__missionNodeVisualController,
+                      put = __cordl_internal_set__missionNodeVisualController))::UnityW<::GlobalNamespace::MissionNodeVisualController> _missionNodeVisualController;
 
   /// @brief Field _childNodes, offset 0x40, size 0x8
-  __declspec(property(get = __get__childNodes, put = __set__childNodes))::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> _childNodes;
+  __declspec(property(get = __cordl_internal_get__childNodes,
+                      put = __cordl_internal_set__childNodes))::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> _childNodes;
 
-  __declspec(property(get = get_missionData))::GlobalNamespace::MissionDataSO* missionData;
+  __declspec(property(get = get_missionData))::UnityW<::GlobalNamespace::MissionDataSO> missionData;
 
-  __declspec(property(get = get_childNodes))::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> childNodes;
+  __declspec(property(get = get_childNodes))::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> childNodes;
 
-  __declspec(property(get = get_missionNodeVisualController))::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController;
+  __declspec(property(get = get_missionNodeVisualController))::UnityW<::GlobalNamespace::MissionNodeVisualController> missionNodeVisualController;
 
   __declspec(property(get = get_letterPartName))::StringW letterPartName;
 
@@ -72,50 +74,50 @@ public:
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  constexpr ::GlobalNamespace::MissionDataSO*& __get__missionDataSO();
+  constexpr ::UnityW<::GlobalNamespace::MissionDataSO>& __cordl_internal_get__missionDataSO();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionDataSO*> const& __get__missionDataSO() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionDataSO> const& __cordl_internal_get__missionDataSO() const;
 
-  constexpr void __set__missionDataSO(::GlobalNamespace::MissionDataSO* value);
+  constexpr void __cordl_internal_set__missionDataSO(::UnityW<::GlobalNamespace::MissionDataSO> value);
 
-  constexpr ::StringW& __get__letterPartName();
+  constexpr ::StringW& __cordl_internal_get__letterPartName();
 
-  constexpr ::StringW const& __get__letterPartName() const;
+  constexpr ::StringW const& __cordl_internal_get__letterPartName() const;
 
-  constexpr void __set__letterPartName(::StringW value);
+  constexpr void __cordl_internal_set__letterPartName(::StringW value);
 
-  constexpr int32_t& __get__numberPartName();
+  constexpr int32_t& __cordl_internal_get__numberPartName();
 
-  constexpr int32_t const& __get__numberPartName() const;
+  constexpr int32_t const& __cordl_internal_get__numberPartName() const;
 
-  constexpr void __set__numberPartName(int32_t value);
+  constexpr void __cordl_internal_set__numberPartName(int32_t value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::GlobalNamespace::MissionNodeVisualController*& __get__missionNodeVisualController();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController>& __cordl_internal_get__missionNodeVisualController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodeVisualController*> const& __get__missionNodeVisualController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController> const& __cordl_internal_get__missionNodeVisualController() const;
 
-  constexpr void __set__missionNodeVisualController(::GlobalNamespace::MissionNodeVisualController* value);
+  constexpr void __cordl_internal_set__missionNodeVisualController(::UnityW<::GlobalNamespace::MissionNodeVisualController> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*>& __get__childNodes();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*>& __cordl_internal_get__childNodes();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> const& __get__childNodes() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> const& __cordl_internal_get__childNodes() const;
 
-  constexpr void __set__childNodes(::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> value);
+  constexpr void __cordl_internal_set__childNodes(::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> value);
 
   /// @brief Method get_missionData, addr 0x22a04c8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionDataSO* get_missionData();
+  inline ::UnityW<::GlobalNamespace::MissionDataSO> get_missionData();
 
   /// @brief Method get_childNodes, addr 0x22a04d0, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> get_childNodes();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> get_childNodes();
 
   /// @brief Method get_missionNodeVisualController, addr 0x22a04d8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
+  inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_missionNodeVisualController();
 
   /// @brief Method get_letterPartName, addr 0x22a04e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_letterPartName();
@@ -155,7 +157,7 @@ protected:
 
 public:
   /// @brief Field _missionDataSO, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionDataSO* ____missionDataSO;
+  ::UnityW<::GlobalNamespace::MissionDataSO> ____missionDataSO;
 
   /// @brief Field _letterPartName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____letterPartName;
@@ -164,13 +166,13 @@ public:
   int32_t ____numberPartName;
 
   /// @brief Field _rectTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _missionNodeVisualController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodeVisualController* ____missionNodeVisualController;
+  ::UnityW<::GlobalNamespace::MissionNodeVisualController> ____missionNodeVisualController;
 
   /// @brief Field _childNodes, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> ____childNodes;
+  ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> ____childNodes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

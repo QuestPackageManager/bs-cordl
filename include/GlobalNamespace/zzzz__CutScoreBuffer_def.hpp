@@ -48,41 +48,43 @@ MARK_REF_PTR_T(::GlobalNamespace::CutScoreBuffer);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15025)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15025))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5315))
 // CS Name: ::CutScoreBuffer*
 class CORDL_TYPE CutScoreBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _saberSwingRatingCounter, offset 0x10, size 0x8
-  __declspec(property(get = __get__saberSwingRatingCounter, put = __set__saberSwingRatingCounter))::GlobalNamespace::SaberSwingRatingCounter* _saberSwingRatingCounter;
+  __declspec(property(get = __cordl_internal_get__saberSwingRatingCounter, put = __cordl_internal_set__saberSwingRatingCounter))::GlobalNamespace::SaberSwingRatingCounter* _saberSwingRatingCounter;
 
   /// @brief Field _noteCutInfo, offset 0x18, size 0x90
-  __declspec(property(get = __get__noteCutInfo, put = __set__noteCutInfo))::GlobalNamespace::NoteCutInfo _noteCutInfo;
+  __declspec(property(get = __cordl_internal_get__noteCutInfo, put = __cordl_internal_set__noteCutInfo))::GlobalNamespace::NoteCutInfo _noteCutInfo;
 
   /// @brief Field _noteScoreDefinition, offset 0xa8, size 0x8
-  __declspec(property(get = __get__noteScoreDefinition, put = __set__noteScoreDefinition))::GlobalNamespace::__ScoreModel__NoteScoreDefinition* _noteScoreDefinition;
+  __declspec(property(get = __cordl_internal_get__noteScoreDefinition, put = __cordl_internal_set__noteScoreDefinition))::GlobalNamespace::__ScoreModel__NoteScoreDefinition* _noteScoreDefinition;
 
   /// @brief Field _afterCutScore, offset 0xb0, size 0x4
-  __declspec(property(get = __get__afterCutScore, put = __set__afterCutScore)) int32_t _afterCutScore;
+  __declspec(property(get = __cordl_internal_get__afterCutScore, put = __cordl_internal_set__afterCutScore)) int32_t _afterCutScore;
 
   /// @brief Field _beforeCutScore, offset 0xb4, size 0x4
-  __declspec(property(get = __get__beforeCutScore, put = __set__beforeCutScore)) int32_t _beforeCutScore;
+  __declspec(property(get = __cordl_internal_get__beforeCutScore, put = __cordl_internal_set__beforeCutScore)) int32_t _beforeCutScore;
 
   /// @brief Field _centerDistanceCutScore, offset 0xb8, size 0x4
-  __declspec(property(get = __get__centerDistanceCutScore, put = __set__centerDistanceCutScore)) int32_t _centerDistanceCutScore;
+  __declspec(property(get = __cordl_internal_get__centerDistanceCutScore, put = __cordl_internal_set__centerDistanceCutScore)) int32_t _centerDistanceCutScore;
 
   /// @brief Field _initialized, offset 0xbc, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _isFinished, offset 0xbd, size 0x1
-  __declspec(property(get = __get__isFinished, put = __set__isFinished)) bool _isFinished;
+  __declspec(property(get = __cordl_internal_get__isFinished, put = __cordl_internal_set__isFinished)) bool _isFinished;
 
   /// @brief Field _didFinishEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __get__didFinishEvent, put = __set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* _didFinishEvent;
+  __declspec(property(get = __cordl_internal_get__didFinishEvent,
+                      put = __cordl_internal_set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* _didFinishEvent;
 
   /// @brief Field _didChangeEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get__didChangeEvent, put = __set__didChangeEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* _didChangeEvent;
+  __declspec(property(get = __cordl_internal_get__didChangeEvent,
+                      put = __cordl_internal_set__didChangeEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* _didChangeEvent;
 
   __declspec(property(get = get_executionOrder)) int32_t executionOrder;
 
@@ -124,65 +126,65 @@ public:
   /// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
   constexpr ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* i___GlobalNamespace__ISaberSwingRatingCounterDidFinishReceiver() noexcept;
 
-  constexpr ::GlobalNamespace::SaberSwingRatingCounter*& __get__saberSwingRatingCounter();
+  constexpr ::GlobalNamespace::SaberSwingRatingCounter*& __cordl_internal_get__saberSwingRatingCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberSwingRatingCounter*> const& __get__saberSwingRatingCounter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberSwingRatingCounter*> const& __cordl_internal_get__saberSwingRatingCounter() const;
 
-  constexpr void __set__saberSwingRatingCounter(::GlobalNamespace::SaberSwingRatingCounter* value);
+  constexpr void __cordl_internal_set__saberSwingRatingCounter(::GlobalNamespace::SaberSwingRatingCounter* value);
 
-  constexpr ::GlobalNamespace::NoteCutInfo& __get__noteCutInfo();
+  constexpr ::GlobalNamespace::NoteCutInfo& __cordl_internal_get__noteCutInfo();
 
-  constexpr ::GlobalNamespace::NoteCutInfo const& __get__noteCutInfo() const;
+  constexpr ::GlobalNamespace::NoteCutInfo const& __cordl_internal_get__noteCutInfo() const;
 
-  constexpr void __set__noteCutInfo(::GlobalNamespace::NoteCutInfo value);
+  constexpr void __cordl_internal_set__noteCutInfo(::GlobalNamespace::NoteCutInfo value);
 
-  constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& __get__noteScoreDefinition();
+  constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& __cordl_internal_get__noteScoreDefinition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*> const& __get__noteScoreDefinition() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*> const& __cordl_internal_get__noteScoreDefinition() const;
 
-  constexpr void __set__noteScoreDefinition(::GlobalNamespace::__ScoreModel__NoteScoreDefinition* value);
+  constexpr void __cordl_internal_set__noteScoreDefinition(::GlobalNamespace::__ScoreModel__NoteScoreDefinition* value);
 
-  constexpr int32_t& __get__afterCutScore();
+  constexpr int32_t& __cordl_internal_get__afterCutScore();
 
-  constexpr int32_t const& __get__afterCutScore() const;
+  constexpr int32_t const& __cordl_internal_get__afterCutScore() const;
 
-  constexpr void __set__afterCutScore(int32_t value);
+  constexpr void __cordl_internal_set__afterCutScore(int32_t value);
 
-  constexpr int32_t& __get__beforeCutScore();
+  constexpr int32_t& __cordl_internal_get__beforeCutScore();
 
-  constexpr int32_t const& __get__beforeCutScore() const;
+  constexpr int32_t const& __cordl_internal_get__beforeCutScore() const;
 
-  constexpr void __set__beforeCutScore(int32_t value);
+  constexpr void __cordl_internal_set__beforeCutScore(int32_t value);
 
-  constexpr int32_t& __get__centerDistanceCutScore();
+  constexpr int32_t& __cordl_internal_get__centerDistanceCutScore();
 
-  constexpr int32_t const& __get__centerDistanceCutScore() const;
+  constexpr int32_t const& __cordl_internal_get__centerDistanceCutScore() const;
 
-  constexpr void __set__centerDistanceCutScore(int32_t value);
+  constexpr void __cordl_internal_set__centerDistanceCutScore(int32_t value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
-  constexpr bool& __get__isFinished();
+  constexpr bool& __cordl_internal_get__isFinished();
 
-  constexpr bool const& __get__isFinished() const;
+  constexpr bool const& __cordl_internal_get__isFinished() const;
 
-  constexpr void __set__isFinished(bool value);
+  constexpr void __cordl_internal_set__isFinished(bool value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*& __get__didFinishEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*& __cordl_internal_get__didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*> const& __get__didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*> const& __cordl_internal_get__didFinishEvent() const;
 
-  constexpr void __set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* value);
+  constexpr void __cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& __get__didChangeEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& __cordl_internal_get__didChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*> const& __get__didChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*> const& __cordl_internal_get__didChangeEvent() const;
 
-  constexpr void __set__didChangeEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* value);
+  constexpr void __cordl_internal_set__didChangeEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* value);
 
   /// @brief Method get_executionOrder, addr 0x2265464, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();

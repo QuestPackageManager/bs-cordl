@@ -37,7 +37,7 @@ MARK_VAL_T(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3996))
 // CS Name: ::BezierSplineEvaluator::CubicSolveResult
 struct CORDL_TYPE __BezierSplineEvaluator__CubicSolveResult {
@@ -93,7 +93,7 @@ static_assert(offsetof(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveRes
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3997))
 // CS Name: ::BezierSplineEvaluator*
 class CORDL_TYPE BezierSplineEvaluator : public ::System::Object {
@@ -102,22 +102,22 @@ public:
   using CubicSolveResult = ::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult;
 
   /// @brief Field _segments, offset 0x10, size 0x8
-  __declspec(property(get = __get__segments, put = __set__segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
+  __declspec(property(get = __cordl_internal_get__segments, put = __cordl_internal_set__segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
 
   /// @brief Field _currentSegmentIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get__currentSegmentIndex, put = __set__currentSegmentIndex)) int32_t _currentSegmentIndex;
+  __declspec(property(get = __cordl_internal_get__currentSegmentIndex, put = __cordl_internal_set__currentSegmentIndex)) int32_t _currentSegmentIndex;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& __get__segments();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& __cordl_internal_get__segments();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*> const& __get__segments() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*> const& __cordl_internal_get__segments() const;
 
-  constexpr void __set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* value);
+  constexpr void __cordl_internal_set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* value);
 
-  constexpr int32_t& __get__currentSegmentIndex();
+  constexpr int32_t& __cordl_internal_get__currentSegmentIndex();
 
-  constexpr int32_t const& __get__currentSegmentIndex() const;
+  constexpr int32_t const& __cordl_internal_get__currentSegmentIndex() const;
 
-  constexpr void __set__currentSegmentIndex(int32_t value);
+  constexpr void __cordl_internal_set__currentSegmentIndex(int32_t value);
 
   static inline ::GlobalNamespace::BezierSplineEvaluator* New_ctor(::GlobalNamespace::BezierSpline* spline);
 

@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::BGLib::UnityExtension::ButtonAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15879))
 // CS Name: ::BGLib.UnityExtension::ButtonAttribute*
 class CORDL_TYPE ButtonAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __get_title, put = __set_title))::StringW title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
 
-  constexpr ::StringW& __get_title();
+  constexpr ::StringW& __cordl_internal_get_title();
 
-  constexpr ::StringW const& __get_title() const;
+  constexpr ::StringW const& __cordl_internal_get_title() const;
 
-  constexpr void __set_title(::StringW value);
+  constexpr void __cordl_internal_set_title(::StringW value);
 
   static inline ::BGLib::UnityExtension::ButtonAttribute* New_ctor(::StringW title);
 

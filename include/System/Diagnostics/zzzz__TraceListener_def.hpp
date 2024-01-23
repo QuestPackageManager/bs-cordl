@@ -32,29 +32,29 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceListener);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8945)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(8945))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8943))
 // CS Name: ::System.Diagnostics::TraceListener*
 class CORDL_TYPE TraceListener : public ::System::MarshalByRefObject {
 public:
   // Declarations
   /// @brief Field indentLevel, offset 0x18, size 0x4
-  __declspec(property(get = __get_indentLevel, put = __set_indentLevel)) int32_t indentLevel;
+  __declspec(property(get = __cordl_internal_get_indentLevel, put = __cordl_internal_set_indentLevel)) int32_t indentLevel;
 
   /// @brief Field indentSize, offset 0x1c, size 0x4
-  __declspec(property(get = __get_indentSize, put = __set_indentSize)) int32_t indentSize;
+  __declspec(property(get = __cordl_internal_get_indentSize, put = __cordl_internal_set_indentSize)) int32_t indentSize;
 
   /// @brief Field traceOptions, offset 0x20, size 0x4
-  __declspec(property(get = __get_traceOptions, put = __set_traceOptions))::System::Diagnostics::TraceOptions traceOptions;
+  __declspec(property(get = __cordl_internal_get_traceOptions, put = __cordl_internal_set_traceOptions))::System::Diagnostics::TraceOptions traceOptions;
 
   /// @brief Field needIndent, offset 0x24, size 0x1
-  __declspec(property(get = __get_needIndent, put = __set_needIndent)) bool needIndent;
+  __declspec(property(get = __cordl_internal_get_needIndent, put = __cordl_internal_set_needIndent)) bool needIndent;
 
   /// @brief Field listenerName, offset 0x28, size 0x8
-  __declspec(property(get = __get_listenerName, put = __set_listenerName))::StringW listenerName;
+  __declspec(property(get = __cordl_internal_get_listenerName, put = __cordl_internal_set_listenerName))::StringW listenerName;
 
   /// @brief Field filter, offset 0x30, size 0x8
-  __declspec(property(get = __get_filter, put = __set_filter))::System::Diagnostics::TraceFilter* filter;
+  __declspec(property(get = __cordl_internal_get_filter, put = __cordl_internal_set_filter))::System::Diagnostics::TraceFilter* filter;
 
   __declspec(property(get = get_IsThreadSafe)) bool IsThreadSafe;
 
@@ -74,41 +74,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_indentLevel();
+  constexpr int32_t& __cordl_internal_get_indentLevel();
 
-  constexpr int32_t const& __get_indentLevel() const;
+  constexpr int32_t const& __cordl_internal_get_indentLevel() const;
 
-  constexpr void __set_indentLevel(int32_t value);
+  constexpr void __cordl_internal_set_indentLevel(int32_t value);
 
-  constexpr int32_t& __get_indentSize();
+  constexpr int32_t& __cordl_internal_get_indentSize();
 
-  constexpr int32_t const& __get_indentSize() const;
+  constexpr int32_t const& __cordl_internal_get_indentSize() const;
 
-  constexpr void __set_indentSize(int32_t value);
+  constexpr void __cordl_internal_set_indentSize(int32_t value);
 
-  constexpr ::System::Diagnostics::TraceOptions& __get_traceOptions();
+  constexpr ::System::Diagnostics::TraceOptions& __cordl_internal_get_traceOptions();
 
-  constexpr ::System::Diagnostics::TraceOptions const& __get_traceOptions() const;
+  constexpr ::System::Diagnostics::TraceOptions const& __cordl_internal_get_traceOptions() const;
 
-  constexpr void __set_traceOptions(::System::Diagnostics::TraceOptions value);
+  constexpr void __cordl_internal_set_traceOptions(::System::Diagnostics::TraceOptions value);
 
-  constexpr bool& __get_needIndent();
+  constexpr bool& __cordl_internal_get_needIndent();
 
-  constexpr bool const& __get_needIndent() const;
+  constexpr bool const& __cordl_internal_get_needIndent() const;
 
-  constexpr void __set_needIndent(bool value);
+  constexpr void __cordl_internal_set_needIndent(bool value);
 
-  constexpr ::StringW& __get_listenerName();
+  constexpr ::StringW& __cordl_internal_get_listenerName();
 
-  constexpr ::StringW const& __get_listenerName() const;
+  constexpr ::StringW const& __cordl_internal_get_listenerName() const;
 
-  constexpr void __set_listenerName(::StringW value);
+  constexpr void __cordl_internal_set_listenerName(::StringW value);
 
-  constexpr ::System::Diagnostics::TraceFilter*& __get_filter();
+  constexpr ::System::Diagnostics::TraceFilter*& __cordl_internal_get_filter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::TraceFilter*> const& __get_filter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::TraceFilter*> const& __cordl_internal_get_filter() const;
 
-  constexpr void __set_filter(::System::Diagnostics::TraceFilter* value);
+  constexpr void __cordl_internal_set_filter(::System::Diagnostics::TraceFilter* value);
 
   static inline ::System::Diagnostics::TraceListener* New_ctor(::StringW name);
 

@@ -91,7 +91,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::__InputActionTrace__Enumerator
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6653))
 // CS Name: ::InputActionTrace::ActionEventPtr
 struct CORDL_TYPE __InputActionTrace__ActionEventPtr {
@@ -180,7 +180,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__InputActionTrace
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6654))
 // CS Name: ::InputActionTrace::Enumerator
 struct CORDL_TYPE __InputActionTrace__Enumerator {
@@ -276,10 +276,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__InputActionTrace
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3867 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6532)), TypeDefinitionIndex(TypeDefinitionIndex(6152)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3104 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6134)), TypeDefinitionIndex(TypeDefinitionIndex(6181)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3103 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6655)) CS Name: ::UnityEngine.InputSystem.Utilities::InputActionTrace*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6134)), TypeDefinitionIndex(TypeDefinitionIndex(6152)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6181)), TypeDefinitionIndex(TypeDefinitionIndex(6532)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 3103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3104 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 3867 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6655)) CS Name: ::UnityEngine.InputSystem.Utilities::InputActionTrace*
 class CORDL_TYPE InputActionTrace : public ::System::Object {
 public:
   // Declarations
@@ -288,36 +288,37 @@ public:
   using ActionEventPtr = ::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr;
 
   /// @brief Field m_SubscribedToAll, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_SubscribedToAll, put = __set_m_SubscribedToAll)) bool m_SubscribedToAll;
+  __declspec(property(get = __cordl_internal_get_m_SubscribedToAll, put = __cordl_internal_set_m_SubscribedToAll)) bool m_SubscribedToAll;
 
   /// @brief Field m_OnActionChangeHooked, offset 0x11, size 0x1
-  __declspec(property(get = __get_m_OnActionChangeHooked, put = __set_m_OnActionChangeHooked)) bool m_OnActionChangeHooked;
+  __declspec(property(get = __cordl_internal_get_m_OnActionChangeHooked, put = __cordl_internal_set_m_OnActionChangeHooked)) bool m_OnActionChangeHooked;
 
   /// @brief Field m_SubscribedActions, offset 0x18, size 0x18
-  __declspec(property(get = __get_m_SubscribedActions,
-                      put = __set_m_SubscribedActions))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> m_SubscribedActions;
+  __declspec(property(get = __cordl_internal_get_m_SubscribedActions,
+                      put = __cordl_internal_set_m_SubscribedActions))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> m_SubscribedActions;
 
   /// @brief Field m_SubscribedActionMaps, offset 0x30, size 0x18
-  __declspec(property(get = __get_m_SubscribedActionMaps,
-                      put = __set_m_SubscribedActionMaps))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> m_SubscribedActionMaps;
+  __declspec(property(get = __cordl_internal_get_m_SubscribedActionMaps,
+                      put = __cordl_internal_set_m_SubscribedActionMaps))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> m_SubscribedActionMaps;
 
   /// @brief Field m_EventBuffer, offset 0x48, size 0x20
-  __declspec(property(get = __get_m_EventBuffer, put = __set_m_EventBuffer))::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_EventBuffer;
+  __declspec(property(get = __cordl_internal_get_m_EventBuffer, put = __cordl_internal_set_m_EventBuffer))::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_EventBuffer;
 
   /// @brief Field m_ActionMapStates, offset 0x68, size 0x18
-  __declspec(property(get = __get_m_ActionMapStates,
-                      put = __set_m_ActionMapStates))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> m_ActionMapStates;
+  __declspec(property(get = __cordl_internal_get_m_ActionMapStates,
+                      put = __cordl_internal_set_m_ActionMapStates))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> m_ActionMapStates;
 
   /// @brief Field m_ActionMapStateClones, offset 0x80, size 0x18
-  __declspec(property(get = __get_m_ActionMapStateClones,
-                      put = __set_m_ActionMapStateClones))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> m_ActionMapStateClones;
+  __declspec(property(get = __cordl_internal_get_m_ActionMapStateClones,
+                      put = __cordl_internal_set_m_ActionMapStateClones))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> m_ActionMapStateClones;
 
   /// @brief Field m_CallbackDelegate, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_CallbackDelegate, put = __set_m_CallbackDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_CallbackDelegate;
+  __declspec(property(get = __cordl_internal_get_m_CallbackDelegate,
+                      put = __cordl_internal_set_m_CallbackDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_CallbackDelegate;
 
   /// @brief Field m_ActionChangeDelegate, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_ActionChangeDelegate,
-                      put = __set_m_ActionChangeDelegate))::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>* m_ActionChangeDelegate;
+  __declspec(property(get = __cordl_internal_get_m_ActionChangeDelegate,
+                      put = __cordl_internal_set_m_ActionChangeDelegate))::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>* m_ActionChangeDelegate;
 
   __declspec(property(get = get_buffer))::UnityEngine::InputSystem::LowLevel::InputEventBuffer buffer;
 
@@ -342,59 +343,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_m_SubscribedToAll();
+  constexpr bool& __cordl_internal_get_m_SubscribedToAll();
 
-  constexpr bool const& __get_m_SubscribedToAll() const;
+  constexpr bool const& __cordl_internal_get_m_SubscribedToAll() const;
 
-  constexpr void __set_m_SubscribedToAll(bool value);
+  constexpr void __cordl_internal_set_m_SubscribedToAll(bool value);
 
-  constexpr bool& __get_m_OnActionChangeHooked();
+  constexpr bool& __cordl_internal_get_m_OnActionChangeHooked();
 
-  constexpr bool const& __get_m_OnActionChangeHooked() const;
+  constexpr bool const& __cordl_internal_get_m_OnActionChangeHooked() const;
 
-  constexpr void __set_m_OnActionChangeHooked(bool value);
+  constexpr void __cordl_internal_set_m_OnActionChangeHooked(bool value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*>& __get_m_SubscribedActions();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*>& __cordl_internal_get_m_SubscribedActions();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> const& __get_m_SubscribedActions() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_SubscribedActions() const;
 
-  constexpr void __set_m_SubscribedActions(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> value);
+  constexpr void __cordl_internal_set_m_SubscribedActions(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*>& __get_m_SubscribedActionMaps();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*>& __cordl_internal_get_m_SubscribedActionMaps();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> const& __get_m_SubscribedActionMaps() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> const& __cordl_internal_get_m_SubscribedActionMaps() const;
 
-  constexpr void __set_m_SubscribedActionMaps(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> value);
+  constexpr void __cordl_internal_set_m_SubscribedActionMaps(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer& __get_m_EventBuffer();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer& __cordl_internal_get_m_EventBuffer();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer const& __get_m_EventBuffer() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer const& __cordl_internal_get_m_EventBuffer() const;
 
-  constexpr void __set_m_EventBuffer(::UnityEngine::InputSystem::LowLevel::InputEventBuffer value);
+  constexpr void __cordl_internal_set_m_EventBuffer(::UnityEngine::InputSystem::LowLevel::InputEventBuffer value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*>& __get_m_ActionMapStates();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*>& __cordl_internal_get_m_ActionMapStates();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> const& __get_m_ActionMapStates() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> const& __cordl_internal_get_m_ActionMapStates() const;
 
-  constexpr void __set_m_ActionMapStates(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> value);
+  constexpr void __cordl_internal_set_m_ActionMapStates(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*>& __get_m_ActionMapStateClones();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*>& __cordl_internal_get_m_ActionMapStateClones();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> const& __get_m_ActionMapStateClones() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> const& __cordl_internal_get_m_ActionMapStateClones() const;
 
-  constexpr void __set_m_ActionMapStateClones(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> value);
+  constexpr void __cordl_internal_set_m_ActionMapStateClones(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_CallbackDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_CallbackDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_CallbackDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_CallbackDelegate() const;
 
-  constexpr void __set_m_CallbackDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_CallbackDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*& __get_m_ActionChangeDelegate();
+  constexpr ::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*& __cordl_internal_get_m_ActionChangeDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*> const& __get_m_ActionChangeDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*> const& __cordl_internal_get_m_ActionChangeDelegate() const;
 
-  constexpr void __set_m_ActionChangeDelegate(::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>* value);
+  constexpr void __cordl_internal_set_m_ActionChangeDelegate(::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>* value);
 
   /// @brief Method get_buffer, addr 0x2b0d4f4, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventBuffer get_buffer();

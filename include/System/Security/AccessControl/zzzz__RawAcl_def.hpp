@@ -21,33 +21,33 @@ MARK_REF_PTR_T(::System::Security::AccessControl::RawAcl);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3047))
 // CS Name: ::System.Security.AccessControl::RawAcl*
 class CORDL_TYPE RawAcl : public ::System::Security::AccessControl::GenericAcl {
 public:
   // Declarations
   /// @brief Field revision, offset 0x10, size 0x1
-  __declspec(property(get = __get_revision, put = __set_revision)) uint8_t revision;
+  __declspec(property(get = __cordl_internal_get_revision, put = __cordl_internal_set_revision)) uint8_t revision;
 
   /// @brief Field list, offset 0x18, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* list;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_Item, put = set_Item))::System::Security::AccessControl::GenericAce* Item[];
 
-  constexpr uint8_t& __get_revision();
+  constexpr uint8_t& __cordl_internal_get_revision();
 
-  constexpr uint8_t const& __get_revision() const;
+  constexpr uint8_t const& __cordl_internal_get_revision() const;
 
-  constexpr void __set_revision(uint8_t value);
+  constexpr void __cordl_internal_set_revision(uint8_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*& __get_list();
+  constexpr ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* value);
 
   static inline ::System::Security::AccessControl::RawAcl* New_ctor(uint8_t revision, int32_t capacity);
 

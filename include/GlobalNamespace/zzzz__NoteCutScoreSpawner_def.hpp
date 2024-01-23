@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutScoreSpawner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4894))
 // CS Name: ::NoteCutScoreSpawner*
 class CORDL_TYPE NoteCutScoreSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _flyingScoreSpawner, offset 0x18, size 0x8
-  __declspec(property(get = __get__flyingScoreSpawner, put = __set__flyingScoreSpawner))::GlobalNamespace::FlyingScoreSpawner* _flyingScoreSpawner;
+  __declspec(property(get = __cordl_internal_get__flyingScoreSpawner, put = __cordl_internal_set__flyingScoreSpawner))::UnityW<::GlobalNamespace::FlyingScoreSpawner> _flyingScoreSpawner;
 
   /// @brief Field _scoreController, offset 0x20, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
-  constexpr ::GlobalNamespace::FlyingScoreSpawner*& __get__flyingScoreSpawner();
+  constexpr ::UnityW<::GlobalNamespace::FlyingScoreSpawner>& __cordl_internal_get__flyingScoreSpawner();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FlyingScoreSpawner*> const& __get__flyingScoreSpawner() const;
+  constexpr ::UnityW<::GlobalNamespace::FlyingScoreSpawner> const& __cordl_internal_get__flyingScoreSpawner() const;
 
-  constexpr void __set__flyingScoreSpawner(::GlobalNamespace::FlyingScoreSpawner* value);
+  constexpr void __cordl_internal_set__flyingScoreSpawner(::UnityW<::GlobalNamespace::FlyingScoreSpawner> value);
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
   /// @brief Method Start, addr 0x23a36a4, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
@@ -76,7 +76,7 @@ protected:
 
 public:
   /// @brief Field _flyingScoreSpawner, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FlyingScoreSpawner* ____flyingScoreSpawner;
+  ::UnityW<::GlobalNamespace::FlyingScoreSpawner> ____flyingScoreSpawner;
 
   /// @brief Field _scoreController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;

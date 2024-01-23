@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::XR::Interaction {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16198))
 // CS Name: ::UnityEngine.Experimental.XR.Interaction::BasePoseProvider*
 class CORDL_TYPE BasePoseProvider : public ::UnityEngine::MonoBehaviour {

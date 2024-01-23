@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6813))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7036))
 // CS Name: ::Label::UxmlTraits*
 class CORDL_TYPE __Label__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
@@ -65,7 +65,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label
 // SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6814))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7037))
 // CS Name: ::UnityEngine.UIElements::Label*
 class CORDL_TYPE Label : public ::UnityEngine::UIElements::TextElement {
@@ -116,8 +116,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7037)), TypeDefinitionIndex(TypeDefinitionIndex(7036)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5266 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7035)) CS Name: ::Label::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7036)), TypeDefinitionIndex(TypeDefinitionIndex(7037)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5266 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7035)) CS Name: ::Label::UxmlFactory*
 class CORDL_TYPE __Label__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::__Label__UxmlTraits*> {
 public:
   // Declarations

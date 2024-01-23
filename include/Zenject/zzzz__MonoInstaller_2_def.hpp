@@ -23,7 +23,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11146))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11146))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11140))
 // CS Name: ::Zenject::MonoInstaller`2<TParam1,TDerived>*
 class CORDL_TYPE MonoInstaller_2 : public ::Zenject::MonoInstallerBase {

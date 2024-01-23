@@ -101,20 +101,20 @@ MARK_REF_PTR_T(::System::Text::__Encoding__EncodingCharBuffer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2838))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2838))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2870))
 // CS Name: ::Encoding::DefaultEncoder*
 class CORDL_TYPE __Encoding__DefaultEncoder : public ::System::Text::Encoder {
 public:
   // Declarations
   /// @brief Field m_encoding, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_encoding, put = __set_m_encoding))::System::Text::Encoding* m_encoding;
+  __declspec(property(get = __cordl_internal_get_m_encoding, put = __cordl_internal_set_m_encoding))::System::Text::Encoding* m_encoding;
 
   /// @brief Field m_hasInitializedEncoding, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_hasInitializedEncoding, put = __set_m_hasInitializedEncoding)) bool m_hasInitializedEncoding;
+  __declspec(property(get = __cordl_internal_get_m_hasInitializedEncoding, put = __cordl_internal_set_m_hasInitializedEncoding)) bool m_hasInitializedEncoding;
 
   /// @brief Field charLeftOver, offset 0x2a, size 0x2
-  __declspec(property(get = __get_charLeftOver, put = __set_charLeftOver)) char16_t charLeftOver;
+  __declspec(property(get = __cordl_internal_get_charLeftOver, put = __cordl_internal_set_charLeftOver)) char16_t charLeftOver;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -128,23 +128,23 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
   constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
-  constexpr ::System::Text::Encoding*& __get_m_encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_m_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_m_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_m_encoding() const;
 
-  constexpr void __set_m_encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_m_encoding(::System::Text::Encoding* value);
 
-  constexpr bool& __get_m_hasInitializedEncoding();
+  constexpr bool& __cordl_internal_get_m_hasInitializedEncoding();
 
-  constexpr bool const& __get_m_hasInitializedEncoding() const;
+  constexpr bool const& __cordl_internal_get_m_hasInitializedEncoding() const;
 
-  constexpr void __set_m_hasInitializedEncoding(bool value);
+  constexpr void __cordl_internal_set_m_hasInitializedEncoding(bool value);
 
-  constexpr char16_t& __get_charLeftOver();
+  constexpr char16_t& __cordl_internal_get_charLeftOver();
 
-  constexpr char16_t const& __get_charLeftOver() const;
+  constexpr char16_t const& __cordl_internal_get_charLeftOver() const;
 
-  constexpr void __set_charLeftOver(char16_t value);
+  constexpr void __cordl_internal_set_charLeftOver(char16_t value);
 
   static inline ::System::Text::__Encoding__DefaultEncoder* New_ctor(::System::Text::Encoding* encoding);
 
@@ -213,17 +213,17 @@ static_assert(offsetof(::System::Text::__Encoding__DefaultEncoder, ___charLeftOv
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2827))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2827))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2871))
 // CS Name: ::Encoding::DefaultDecoder*
 class CORDL_TYPE __Encoding__DefaultDecoder : public ::System::Text::Decoder {
 public:
   // Declarations
   /// @brief Field m_encoding, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_encoding, put = __set_m_encoding))::System::Text::Encoding* m_encoding;
+  __declspec(property(get = __cordl_internal_get_m_encoding, put = __cordl_internal_set_m_encoding))::System::Text::Encoding* m_encoding;
 
   /// @brief Field m_hasInitializedEncoding, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_hasInitializedEncoding, put = __set_m_hasInitializedEncoding)) bool m_hasInitializedEncoding;
+  __declspec(property(get = __cordl_internal_get_m_hasInitializedEncoding, put = __cordl_internal_set_m_hasInitializedEncoding)) bool m_hasInitializedEncoding;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -237,17 +237,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
   constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
-  constexpr ::System::Text::Encoding*& __get_m_encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_m_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_m_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_m_encoding() const;
 
-  constexpr void __set_m_encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_m_encoding(::System::Text::Encoding* value);
 
-  constexpr bool& __get_m_hasInitializedEncoding();
+  constexpr bool& __cordl_internal_get_m_hasInitializedEncoding();
 
-  constexpr bool const& __get_m_hasInitializedEncoding() const;
+  constexpr bool const& __cordl_internal_get_m_hasInitializedEncoding() const;
 
-  constexpr void __set_m_hasInitializedEncoding(bool value);
+  constexpr void __cordl_internal_set_m_hasInitializedEncoding(bool value);
 
   static inline ::System::Text::__Encoding__DefaultDecoder* New_ctor(::System::Text::Encoding* encoding);
 
@@ -317,41 +317,41 @@ static_assert(offsetof(::System::Text::__Encoding__DefaultDecoder, ___m_hasIniti
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2872))
 // CS Name: ::Encoding::EncodingCharBuffer*
 class CORDL_TYPE __Encoding__EncodingCharBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field chars, offset 0x10, size 0x8
-  __declspec(property(get = __get_chars, put = __set_chars))::cordl_internals::Ptr<char16_t> chars;
+  __declspec(property(get = __cordl_internal_get_chars, put = __cordl_internal_set_chars))::cordl_internals::Ptr<char16_t> chars;
 
   /// @brief Field charStart, offset 0x18, size 0x8
-  __declspec(property(get = __get_charStart, put = __set_charStart))::cordl_internals::Ptr<char16_t> charStart;
+  __declspec(property(get = __cordl_internal_get_charStart, put = __cordl_internal_set_charStart))::cordl_internals::Ptr<char16_t> charStart;
 
   /// @brief Field charEnd, offset 0x20, size 0x8
-  __declspec(property(get = __get_charEnd, put = __set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
+  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
 
   /// @brief Field charCountResult, offset 0x28, size 0x4
-  __declspec(property(get = __get_charCountResult, put = __set_charCountResult)) int32_t charCountResult;
+  __declspec(property(get = __cordl_internal_get_charCountResult, put = __cordl_internal_set_charCountResult)) int32_t charCountResult;
 
   /// @brief Field enc, offset 0x30, size 0x8
-  __declspec(property(get = __get_enc, put = __set_enc))::System::Text::Encoding* enc;
+  __declspec(property(get = __cordl_internal_get_enc, put = __cordl_internal_set_enc))::System::Text::Encoding* enc;
 
   /// @brief Field decoder, offset 0x38, size 0x8
-  __declspec(property(get = __get_decoder, put = __set_decoder))::System::Text::DecoderNLS* decoder;
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder))::System::Text::DecoderNLS* decoder;
 
   /// @brief Field byteStart, offset 0x40, size 0x8
-  __declspec(property(get = __get_byteStart, put = __set_byteStart))::cordl_internals::Ptr<uint8_t> byteStart;
+  __declspec(property(get = __cordl_internal_get_byteStart, put = __cordl_internal_set_byteStart))::cordl_internals::Ptr<uint8_t> byteStart;
 
   /// @brief Field byteEnd, offset 0x48, size 0x8
-  __declspec(property(get = __get_byteEnd, put = __set_byteEnd))::cordl_internals::Ptr<uint8_t> byteEnd;
+  __declspec(property(get = __cordl_internal_get_byteEnd, put = __cordl_internal_set_byteEnd))::cordl_internals::Ptr<uint8_t> byteEnd;
 
   /// @brief Field bytes, offset 0x50, size 0x8
-  __declspec(property(get = __get_bytes, put = __set_bytes))::cordl_internals::Ptr<uint8_t> bytes;
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::cordl_internals::Ptr<uint8_t> bytes;
 
   /// @brief Field fallbackBuffer, offset 0x58, size 0x8
-  __declspec(property(get = __get_fallbackBuffer, put = __set_fallbackBuffer))::System::Text::DecoderFallbackBuffer* fallbackBuffer;
+  __declspec(property(get = __cordl_internal_get_fallbackBuffer, put = __cordl_internal_set_fallbackBuffer))::System::Text::DecoderFallbackBuffer* fallbackBuffer;
 
   __declspec(property(get = get_MoreData)) bool MoreData;
 
@@ -359,65 +359,65 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_chars();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_chars();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_chars() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_chars() const;
 
-  constexpr void __set_chars(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_chars(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_charStart();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charStart();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_charStart() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charStart() const;
 
-  constexpr void __set_charStart(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charStart(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_charEnd();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charEnd();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_charEnd() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charEnd() const;
 
-  constexpr void __set_charEnd(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr int32_t& __get_charCountResult();
+  constexpr int32_t& __cordl_internal_get_charCountResult();
 
-  constexpr int32_t const& __get_charCountResult() const;
+  constexpr int32_t const& __cordl_internal_get_charCountResult() const;
 
-  constexpr void __set_charCountResult(int32_t value);
+  constexpr void __cordl_internal_set_charCountResult(int32_t value);
 
-  constexpr ::System::Text::Encoding*& __get_enc();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_enc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_enc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_enc() const;
 
-  constexpr void __set_enc(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_enc(::System::Text::Encoding* value);
 
-  constexpr ::System::Text::DecoderNLS*& __get_decoder();
+  constexpr ::System::Text::DecoderNLS*& __cordl_internal_get_decoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::DecoderNLS*> const& __get_decoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::DecoderNLS*> const& __cordl_internal_get_decoder() const;
 
-  constexpr void __set_decoder(::System::Text::DecoderNLS* value);
+  constexpr void __cordl_internal_set_decoder(::System::Text::DecoderNLS* value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_byteStart();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_byteStart();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_byteStart() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_byteStart() const;
 
-  constexpr void __set_byteStart(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_byteStart(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_byteEnd();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_byteEnd();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_byteEnd() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_byteEnd() const;
 
-  constexpr void __set_byteEnd(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_byteEnd(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_bytes();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_bytes();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_bytes() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_bytes() const;
 
-  constexpr void __set_bytes(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_bytes(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::System::Text::DecoderFallbackBuffer*& __get_fallbackBuffer();
+  constexpr ::System::Text::DecoderFallbackBuffer*& __cordl_internal_get_fallbackBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::DecoderFallbackBuffer*> const& __get_fallbackBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::DecoderFallbackBuffer*> const& __cordl_internal_get_fallbackBuffer() const;
 
-  constexpr void __set_fallbackBuffer(::System::Text::DecoderFallbackBuffer* value);
+  constexpr void __cordl_internal_set_fallbackBuffer(::System::Text::DecoderFallbackBuffer* value);
 
   static inline ::System::Text::__Encoding__EncodingCharBuffer* New_ctor(::System::Text::Encoding* enc, ::System::Text::DecoderNLS* decoder, ::cordl_internals::Ptr<char16_t> charStart,
                                                                          int32_t charCount, ::cordl_internals::Ptr<uint8_t> byteStart, int32_t byteCount);
@@ -527,41 +527,41 @@ static_assert(offsetof(::System::Text::__Encoding__EncodingCharBuffer, ___fallba
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2873))
 // CS Name: ::Encoding::EncodingByteBuffer*
 class CORDL_TYPE __Encoding__EncodingByteBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bytes, offset 0x10, size 0x8
-  __declspec(property(get = __get_bytes, put = __set_bytes))::cordl_internals::Ptr<uint8_t> bytes;
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::cordl_internals::Ptr<uint8_t> bytes;
 
   /// @brief Field byteStart, offset 0x18, size 0x8
-  __declspec(property(get = __get_byteStart, put = __set_byteStart))::cordl_internals::Ptr<uint8_t> byteStart;
+  __declspec(property(get = __cordl_internal_get_byteStart, put = __cordl_internal_set_byteStart))::cordl_internals::Ptr<uint8_t> byteStart;
 
   /// @brief Field byteEnd, offset 0x20, size 0x8
-  __declspec(property(get = __get_byteEnd, put = __set_byteEnd))::cordl_internals::Ptr<uint8_t> byteEnd;
+  __declspec(property(get = __cordl_internal_get_byteEnd, put = __cordl_internal_set_byteEnd))::cordl_internals::Ptr<uint8_t> byteEnd;
 
   /// @brief Field chars, offset 0x28, size 0x8
-  __declspec(property(get = __get_chars, put = __set_chars))::cordl_internals::Ptr<char16_t> chars;
+  __declspec(property(get = __cordl_internal_get_chars, put = __cordl_internal_set_chars))::cordl_internals::Ptr<char16_t> chars;
 
   /// @brief Field charStart, offset 0x30, size 0x8
-  __declspec(property(get = __get_charStart, put = __set_charStart))::cordl_internals::Ptr<char16_t> charStart;
+  __declspec(property(get = __cordl_internal_get_charStart, put = __cordl_internal_set_charStart))::cordl_internals::Ptr<char16_t> charStart;
 
   /// @brief Field charEnd, offset 0x38, size 0x8
-  __declspec(property(get = __get_charEnd, put = __set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
+  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
 
   /// @brief Field byteCountResult, offset 0x40, size 0x4
-  __declspec(property(get = __get_byteCountResult, put = __set_byteCountResult)) int32_t byteCountResult;
+  __declspec(property(get = __cordl_internal_get_byteCountResult, put = __cordl_internal_set_byteCountResult)) int32_t byteCountResult;
 
   /// @brief Field enc, offset 0x48, size 0x8
-  __declspec(property(get = __get_enc, put = __set_enc))::System::Text::Encoding* enc;
+  __declspec(property(get = __cordl_internal_get_enc, put = __cordl_internal_set_enc))::System::Text::Encoding* enc;
 
   /// @brief Field encoder, offset 0x50, size 0x8
-  __declspec(property(get = __get_encoder, put = __set_encoder))::System::Text::EncoderNLS* encoder;
+  __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder))::System::Text::EncoderNLS* encoder;
 
   /// @brief Field fallbackBuffer, offset 0x58, size 0x8
-  __declspec(property(get = __get_fallbackBuffer, put = __set_fallbackBuffer))::System::Text::EncoderFallbackBuffer* fallbackBuffer;
+  __declspec(property(get = __cordl_internal_get_fallbackBuffer, put = __cordl_internal_set_fallbackBuffer))::System::Text::EncoderFallbackBuffer* fallbackBuffer;
 
   __declspec(property(get = get_MoreData)) bool MoreData;
 
@@ -569,65 +569,65 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_bytes();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_bytes();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_bytes() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_bytes() const;
 
-  constexpr void __set_bytes(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_bytes(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_byteStart();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_byteStart();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_byteStart() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_byteStart() const;
 
-  constexpr void __set_byteStart(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_byteStart(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get_byteEnd();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_byteEnd();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get_byteEnd() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_byteEnd() const;
 
-  constexpr void __set_byteEnd(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_byteEnd(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_chars();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_chars();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_chars() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_chars() const;
 
-  constexpr void __set_chars(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_chars(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_charStart();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charStart();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_charStart() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charStart() const;
 
-  constexpr void __set_charStart(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charStart(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __get_charEnd();
+  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charEnd();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __get_charEnd() const;
+  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charEnd() const;
 
-  constexpr void __set_charEnd(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value);
 
-  constexpr int32_t& __get_byteCountResult();
+  constexpr int32_t& __cordl_internal_get_byteCountResult();
 
-  constexpr int32_t const& __get_byteCountResult() const;
+  constexpr int32_t const& __cordl_internal_get_byteCountResult() const;
 
-  constexpr void __set_byteCountResult(int32_t value);
+  constexpr void __cordl_internal_set_byteCountResult(int32_t value);
 
-  constexpr ::System::Text::Encoding*& __get_enc();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_enc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_enc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_enc() const;
 
-  constexpr void __set_enc(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_enc(::System::Text::Encoding* value);
 
-  constexpr ::System::Text::EncoderNLS*& __get_encoder();
+  constexpr ::System::Text::EncoderNLS*& __cordl_internal_get_encoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderNLS*> const& __get_encoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderNLS*> const& __cordl_internal_get_encoder() const;
 
-  constexpr void __set_encoder(::System::Text::EncoderNLS* value);
+  constexpr void __cordl_internal_set_encoder(::System::Text::EncoderNLS* value);
 
-  constexpr ::System::Text::EncoderFallbackBuffer*& __get_fallbackBuffer();
+  constexpr ::System::Text::EncoderFallbackBuffer*& __cordl_internal_get_fallbackBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallbackBuffer*> const& __get_fallbackBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallbackBuffer*> const& __cordl_internal_get_fallbackBuffer() const;
 
-  constexpr void __set_fallbackBuffer(::System::Text::EncoderFallbackBuffer* value);
+  constexpr void __cordl_internal_set_fallbackBuffer(::System::Text::EncoderFallbackBuffer* value);
 
   static inline ::System::Text::__Encoding__EncodingByteBuffer* New_ctor(::System::Text::Encoding* inEncoding, ::System::Text::EncoderNLS* inEncoder, ::cordl_internals::Ptr<uint8_t> inByteStart,
                                                                          int32_t inByteCount, ::cordl_internals::Ptr<char16_t> inCharStart, int32_t inCharCount);
@@ -737,7 +737,7 @@ static_assert(offsetof(::System::Text::__Encoding__EncodingByteBuffer, ___fallba
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2874))
 // CS Name: ::System.Text::Encoding*
 class CORDL_TYPE Encoding : public ::System::Object {
@@ -752,22 +752,22 @@ public:
   using DefaultEncoder = ::System::Text::__Encoding__DefaultEncoder;
 
   /// @brief Field m_codePage, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_codePage, put = __set_m_codePage)) int32_t m_codePage;
+  __declspec(property(get = __cordl_internal_get_m_codePage, put = __cordl_internal_set_m_codePage)) int32_t m_codePage;
 
   /// @brief Field dataItem, offset 0x18, size 0x8
-  __declspec(property(get = __get_dataItem, put = __set_dataItem))::System::Globalization::CodePageDataItem* dataItem;
+  __declspec(property(get = __cordl_internal_get_dataItem, put = __cordl_internal_set_dataItem))::System::Globalization::CodePageDataItem* dataItem;
 
   /// @brief Field m_deserializedFromEverett, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_deserializedFromEverett, put = __set_m_deserializedFromEverett)) bool m_deserializedFromEverett;
+  __declspec(property(get = __cordl_internal_get_m_deserializedFromEverett, put = __cordl_internal_set_m_deserializedFromEverett)) bool m_deserializedFromEverett;
 
   /// @brief Field m_isReadOnly, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_isReadOnly, put = __set_m_isReadOnly)) bool m_isReadOnly;
+  __declspec(property(get = __cordl_internal_get_m_isReadOnly, put = __cordl_internal_set_m_isReadOnly)) bool m_isReadOnly;
 
   /// @brief Field encoderFallback, offset 0x28, size 0x8
-  __declspec(property(get = __get_encoderFallback, put = __set_encoderFallback))::System::Text::EncoderFallback* encoderFallback;
+  __declspec(property(get = __cordl_internal_get_encoderFallback, put = __cordl_internal_set_encoderFallback))::System::Text::EncoderFallback* encoderFallback;
 
   /// @brief Field decoderFallback, offset 0x30, size 0x8
-  __declspec(property(get = __get_decoderFallback, put = __set_decoderFallback))::System::Text::DecoderFallback* decoderFallback;
+  __declspec(property(get = __cordl_internal_get_decoderFallback, put = __cordl_internal_set_decoderFallback))::System::Text::DecoderFallback* decoderFallback;
 
   /// @brief Field defaultEncoding, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_defaultEncoding, put = setStaticF_defaultEncoding))::System::Text::Encoding* defaultEncoding;
@@ -819,41 +819,41 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr int32_t& __get_m_codePage();
+  constexpr int32_t& __cordl_internal_get_m_codePage();
 
-  constexpr int32_t const& __get_m_codePage() const;
+  constexpr int32_t const& __cordl_internal_get_m_codePage() const;
 
-  constexpr void __set_m_codePage(int32_t value);
+  constexpr void __cordl_internal_set_m_codePage(int32_t value);
 
-  constexpr ::System::Globalization::CodePageDataItem*& __get_dataItem();
+  constexpr ::System::Globalization::CodePageDataItem*& __cordl_internal_get_dataItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CodePageDataItem*> const& __get_dataItem() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CodePageDataItem*> const& __cordl_internal_get_dataItem() const;
 
-  constexpr void __set_dataItem(::System::Globalization::CodePageDataItem* value);
+  constexpr void __cordl_internal_set_dataItem(::System::Globalization::CodePageDataItem* value);
 
-  constexpr bool& __get_m_deserializedFromEverett();
+  constexpr bool& __cordl_internal_get_m_deserializedFromEverett();
 
-  constexpr bool const& __get_m_deserializedFromEverett() const;
+  constexpr bool const& __cordl_internal_get_m_deserializedFromEverett() const;
 
-  constexpr void __set_m_deserializedFromEverett(bool value);
+  constexpr void __cordl_internal_set_m_deserializedFromEverett(bool value);
 
-  constexpr bool& __get_m_isReadOnly();
+  constexpr bool& __cordl_internal_get_m_isReadOnly();
 
-  constexpr bool const& __get_m_isReadOnly() const;
+  constexpr bool const& __cordl_internal_get_m_isReadOnly() const;
 
-  constexpr void __set_m_isReadOnly(bool value);
+  constexpr void __cordl_internal_set_m_isReadOnly(bool value);
 
-  constexpr ::System::Text::EncoderFallback*& __get_encoderFallback();
+  constexpr ::System::Text::EncoderFallback*& __cordl_internal_get_encoderFallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallback*> const& __get_encoderFallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallback*> const& __cordl_internal_get_encoderFallback() const;
 
-  constexpr void __set_encoderFallback(::System::Text::EncoderFallback* value);
+  constexpr void __cordl_internal_set_encoderFallback(::System::Text::EncoderFallback* value);
 
-  constexpr ::System::Text::DecoderFallback*& __get_decoderFallback();
+  constexpr ::System::Text::DecoderFallback*& __cordl_internal_get_decoderFallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::DecoderFallback*> const& __get_decoderFallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::DecoderFallback*> const& __cordl_internal_get_decoderFallback() const;
 
-  constexpr void __set_decoderFallback(::System::Text::DecoderFallback* value);
+  constexpr void __cordl_internal_set_decoderFallback(::System::Text::DecoderFallback* value);
 
   static inline void setStaticF_defaultEncoding(::System::Text::Encoding* value);
 

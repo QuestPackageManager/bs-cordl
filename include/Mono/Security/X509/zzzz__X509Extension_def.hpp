@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Extension);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13756))
 // CS Name: ::Mono.Security.X509::X509Extension*
 class CORDL_TYPE X509Extension : public ::System::Object {
 public:
   // Declarations
   /// @brief Field extnOid, offset 0x10, size 0x8
-  __declspec(property(get = __get_extnOid, put = __set_extnOid))::StringW extnOid;
+  __declspec(property(get = __cordl_internal_get_extnOid, put = __cordl_internal_set_extnOid))::StringW extnOid;
 
   /// @brief Field extnCritical, offset 0x18, size 0x1
-  __declspec(property(get = __get_extnCritical, put = __set_extnCritical)) bool extnCritical;
+  __declspec(property(get = __cordl_internal_get_extnCritical, put = __cordl_internal_set_extnCritical)) bool extnCritical;
 
   /// @brief Field extnValue, offset 0x20, size 0x8
-  __declspec(property(get = __get_extnValue, put = __set_extnValue))::Mono::Security::ASN1* extnValue;
+  __declspec(property(get = __cordl_internal_get_extnValue, put = __cordl_internal_set_extnValue))::Mono::Security::ASN1* extnValue;
 
   __declspec(property(get = get_Oid))::StringW Oid;
 
@@ -46,23 +46,23 @@ public:
 
   __declspec(property(get = get_Value))::Mono::Security::ASN1* Value;
 
-  constexpr ::StringW& __get_extnOid();
+  constexpr ::StringW& __cordl_internal_get_extnOid();
 
-  constexpr ::StringW const& __get_extnOid() const;
+  constexpr ::StringW const& __cordl_internal_get_extnOid() const;
 
-  constexpr void __set_extnOid(::StringW value);
+  constexpr void __cordl_internal_set_extnOid(::StringW value);
 
-  constexpr bool& __get_extnCritical();
+  constexpr bool& __cordl_internal_get_extnCritical();
 
-  constexpr bool const& __get_extnCritical() const;
+  constexpr bool const& __cordl_internal_get_extnCritical() const;
 
-  constexpr void __set_extnCritical(bool value);
+  constexpr void __cordl_internal_set_extnCritical(bool value);
 
-  constexpr ::Mono::Security::ASN1*& __get_extnValue();
+  constexpr ::Mono::Security::ASN1*& __cordl_internal_get_extnValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __get_extnValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __cordl_internal_get_extnValue() const;
 
-  constexpr void __set_extnValue(::Mono::Security::ASN1* value);
+  constexpr void __cordl_internal_set_extnValue(::Mono::Security::ASN1* value);
 
   static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::ASN1* asn1);
 

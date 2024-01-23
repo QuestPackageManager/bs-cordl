@@ -26,31 +26,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ExperimentalPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(579)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(579))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(571))
 // CS Name: ::Org.BouncyCastle.Bcpg::ExperimentalPacket*
 class CORDL_TYPE ExperimentalPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
   /// @brief Field tag, offset 0x10, size 0x4
-  __declspec(property(get = __get_tag, put = __set_tag))::Org::BouncyCastle::Bcpg::PacketTag tag;
+  __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag))::Org::BouncyCastle::Bcpg::PacketTag tag;
 
   /// @brief Field contents, offset 0x18, size 0x8
-  __declspec(property(get = __get_contents, put = __set_contents))::ArrayW<uint8_t, ::Array<uint8_t>*> contents;
+  __declspec(property(get = __cordl_internal_get_contents, put = __cordl_internal_set_contents))::ArrayW<uint8_t, ::Array<uint8_t>*> contents;
 
   __declspec(property(get = get_Tag))::Org::BouncyCastle::Bcpg::PacketTag Tag;
 
-  constexpr ::Org::BouncyCastle::Bcpg::PacketTag& __get_tag();
+  constexpr ::Org::BouncyCastle::Bcpg::PacketTag& __cordl_internal_get_tag();
 
-  constexpr ::Org::BouncyCastle::Bcpg::PacketTag const& __get_tag() const;
+  constexpr ::Org::BouncyCastle::Bcpg::PacketTag const& __cordl_internal_get_tag() const;
 
-  constexpr void __set_tag(::Org::BouncyCastle::Bcpg::PacketTag value);
+  constexpr void __cordl_internal_set_tag(::Org::BouncyCastle::Bcpg::PacketTag value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_contents();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_contents();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_contents() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_contents() const;
 
-  constexpr void __set_contents(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_contents(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Bcpg::ExperimentalPacket* New_ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

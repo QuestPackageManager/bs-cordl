@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1001))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultVerifierCalculator*
 class CORDL_TYPE DefaultVerifierCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mSignerSink, offset 0x10, size 0x8
-  __declspec(property(get = __get_mSignerSink, put = __set_mSignerSink))::Org::BouncyCastle::Crypto::IO::SignerSink* mSignerSink;
+  __declspec(property(get = __cordl_internal_get_mSignerSink, put = __cordl_internal_set_mSignerSink))::Org::BouncyCastle::Crypto::IO::SignerSink* mSignerSink;
 
   __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
 
@@ -46,11 +46,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IO::SignerSink*& __get_mSignerSink();
+  constexpr ::Org::BouncyCastle::Crypto::IO::SignerSink*& __cordl_internal_get_mSignerSink();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::SignerSink*> const& __get_mSignerSink() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::SignerSink*> const& __cordl_internal_get_mSignerSink() const;
 
-  constexpr void __set_mSignerSink(::Org::BouncyCastle::Crypto::IO::SignerSink* value);
+  constexpr void __cordl_internal_set_mSignerSink(::Org::BouncyCastle::Crypto::IO::SignerSink* value);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 

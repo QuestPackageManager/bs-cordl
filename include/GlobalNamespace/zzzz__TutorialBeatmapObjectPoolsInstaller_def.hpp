@@ -26,48 +26,48 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5404))
 // CS Name: ::TutorialBeatmapObjectPoolsInstaller*
 class CORDL_TYPE TutorialBeatmapObjectPoolsInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _basicNotePrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__basicNotePrefab, put = __set__basicNotePrefab))::GlobalNamespace::TutorialNoteController* _basicNotePrefab;
+  __declspec(property(get = __cordl_internal_get__basicNotePrefab, put = __cordl_internal_set__basicNotePrefab))::UnityW<::GlobalNamespace::TutorialNoteController> _basicNotePrefab;
 
   /// @brief Field _bombNotePrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__bombNotePrefab, put = __set__bombNotePrefab))::GlobalNamespace::BombNoteController* _bombNotePrefab;
+  __declspec(property(get = __cordl_internal_get__bombNotePrefab, put = __cordl_internal_set__bombNotePrefab))::UnityW<::GlobalNamespace::BombNoteController> _bombNotePrefab;
 
   /// @brief Field _obstaclePrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__obstaclePrefab, put = __set__obstaclePrefab))::GlobalNamespace::ObstacleController* _obstaclePrefab;
+  __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab))::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
 
   /// @brief Field _noteLineConnectionControllerPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __get__noteLineConnectionControllerPrefab,
-                      put = __set__noteLineConnectionControllerPrefab))::GlobalNamespace::NoteLineConnectionController* _noteLineConnectionControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__noteLineConnectionControllerPrefab,
+                      put = __cordl_internal_set__noteLineConnectionControllerPrefab))::UnityW<::GlobalNamespace::NoteLineConnectionController> _noteLineConnectionControllerPrefab;
 
-  constexpr ::GlobalNamespace::TutorialNoteController*& __get__basicNotePrefab();
+  constexpr ::UnityW<::GlobalNamespace::TutorialNoteController>& __cordl_internal_get__basicNotePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialNoteController*> const& __get__basicNotePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialNoteController> const& __cordl_internal_get__basicNotePrefab() const;
 
-  constexpr void __set__basicNotePrefab(::GlobalNamespace::TutorialNoteController* value);
+  constexpr void __cordl_internal_set__basicNotePrefab(::UnityW<::GlobalNamespace::TutorialNoteController> value);
 
-  constexpr ::GlobalNamespace::BombNoteController*& __get__bombNotePrefab();
+  constexpr ::UnityW<::GlobalNamespace::BombNoteController>& __cordl_internal_get__bombNotePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BombNoteController*> const& __get__bombNotePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::BombNoteController> const& __cordl_internal_get__bombNotePrefab() const;
 
-  constexpr void __set__bombNotePrefab(::GlobalNamespace::BombNoteController* value);
+  constexpr void __cordl_internal_set__bombNotePrefab(::UnityW<::GlobalNamespace::BombNoteController> value);
 
-  constexpr ::GlobalNamespace::ObstacleController*& __get__obstaclePrefab();
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__obstaclePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleController*> const& __get__obstaclePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__obstaclePrefab() const;
 
-  constexpr void __set__obstaclePrefab(::GlobalNamespace::ObstacleController* value);
+  constexpr void __cordl_internal_set__obstaclePrefab(::UnityW<::GlobalNamespace::ObstacleController> value);
 
-  constexpr ::GlobalNamespace::NoteLineConnectionController*& __get__noteLineConnectionControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController>& __cordl_internal_get__noteLineConnectionControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteLineConnectionController*> const& __get__noteLineConnectionControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController> const& __cordl_internal_get__noteLineConnectionControllerPrefab() const;
 
-  constexpr void __set__noteLineConnectionControllerPrefab(::GlobalNamespace::NoteLineConnectionController* value);
+  constexpr void __cordl_internal_set__noteLineConnectionControllerPrefab(::UnityW<::GlobalNamespace::NoteLineConnectionController> value);
 
   /// @brief Method InstallBindings, addr 0x227356c, size 0x18c, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -92,16 +92,16 @@ protected:
 
 public:
   /// @brief Field _basicNotePrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::TutorialNoteController* ____basicNotePrefab;
+  ::UnityW<::GlobalNamespace::TutorialNoteController> ____basicNotePrefab;
 
   /// @brief Field _bombNotePrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BombNoteController* ____bombNotePrefab;
+  ::UnityW<::GlobalNamespace::BombNoteController> ____bombNotePrefab;
 
   /// @brief Field _obstaclePrefab, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::ObstacleController* ____obstaclePrefab;
+  ::UnityW<::GlobalNamespace::ObstacleController> ____obstaclePrefab;
 
   /// @brief Field _noteLineConnectionControllerPrefab, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::NoteLineConnectionController* ____noteLineConnectionControllerPrefab;
+  ::UnityW<::GlobalNamespace::NoteLineConnectionController> ____noteLineConnectionControllerPrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

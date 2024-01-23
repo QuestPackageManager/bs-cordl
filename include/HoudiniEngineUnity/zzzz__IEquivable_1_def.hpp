@@ -15,7 +15,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9883))
 // CS Name: ::HoudiniEngineUnity::IEquivable`1<T>*
 class CORDL_TYPE IEquivable_1 {

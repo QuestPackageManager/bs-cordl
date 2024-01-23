@@ -72,110 +72,110 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d_
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12618))
 // CS Name: ::RagdollUtility::Rigidbone*
 class CORDL_TYPE __RagdollUtility__Rigidbone : public ::System::Object {
 public:
   // Declarations
   /// @brief Field r, offset 0x10, size 0x8
-  __declspec(property(get = __get_r, put = __set_r))::UnityEngine::Rigidbody* r;
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r))::UnityW<::UnityEngine::Rigidbody> r;
 
   /// @brief Field t, offset 0x18, size 0x8
-  __declspec(property(get = __get_t, put = __set_t))::UnityEngine::Transform* t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityW<::UnityEngine::Transform> t;
 
   /// @brief Field collider, offset 0x20, size 0x8
-  __declspec(property(get = __get_collider, put = __set_collider))::UnityEngine::Collider* collider;
+  __declspec(property(get = __cordl_internal_get_collider, put = __cordl_internal_set_collider))::UnityW<::UnityEngine::Collider> collider;
 
   /// @brief Field joint, offset 0x28, size 0x8
-  __declspec(property(get = __get_joint, put = __set_joint))::UnityEngine::Joint* joint;
+  __declspec(property(get = __cordl_internal_get_joint, put = __cordl_internal_set_joint))::UnityW<::UnityEngine::Joint> joint;
 
   /// @brief Field c, offset 0x30, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::UnityEngine::Rigidbody* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::UnityW<::UnityEngine::Rigidbody> c;
 
   /// @brief Field updateAnchor, offset 0x38, size 0x1
-  __declspec(property(get = __get_updateAnchor, put = __set_updateAnchor)) bool updateAnchor;
+  __declspec(property(get = __cordl_internal_get_updateAnchor, put = __cordl_internal_set_updateAnchor)) bool updateAnchor;
 
   /// @brief Field deltaPosition, offset 0x3c, size 0xc
-  __declspec(property(get = __get_deltaPosition, put = __set_deltaPosition))::UnityEngine::Vector3 deltaPosition;
+  __declspec(property(get = __cordl_internal_get_deltaPosition, put = __cordl_internal_set_deltaPosition))::UnityEngine::Vector3 deltaPosition;
 
   /// @brief Field deltaRotation, offset 0x48, size 0x10
-  __declspec(property(get = __get_deltaRotation, put = __set_deltaRotation))::UnityEngine::Quaternion deltaRotation;
+  __declspec(property(get = __cordl_internal_get_deltaRotation, put = __cordl_internal_set_deltaRotation))::UnityEngine::Quaternion deltaRotation;
 
   /// @brief Field deltaTime, offset 0x58, size 0x4
-  __declspec(property(get = __get_deltaTime, put = __set_deltaTime)) float_t deltaTime;
+  __declspec(property(get = __cordl_internal_get_deltaTime, put = __cordl_internal_set_deltaTime)) float_t deltaTime;
 
   /// @brief Field lastPosition, offset 0x5c, size 0xc
-  __declspec(property(get = __get_lastPosition, put = __set_lastPosition))::UnityEngine::Vector3 lastPosition;
+  __declspec(property(get = __cordl_internal_get_lastPosition, put = __cordl_internal_set_lastPosition))::UnityEngine::Vector3 lastPosition;
 
   /// @brief Field lastRotation, offset 0x68, size 0x10
-  __declspec(property(get = __get_lastRotation, put = __set_lastRotation))::UnityEngine::Quaternion lastRotation;
+  __declspec(property(get = __cordl_internal_get_lastRotation, put = __cordl_internal_set_lastRotation))::UnityEngine::Quaternion lastRotation;
 
-  constexpr ::UnityEngine::Rigidbody*& __get_r();
+  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get_r();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& __get_r() const;
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get_r() const;
 
-  constexpr void __set_r(::UnityEngine::Rigidbody* value);
+  constexpr void __cordl_internal_set_r(::UnityW<::UnityEngine::Rigidbody> value);
 
-  constexpr ::UnityEngine::Transform*& __get_t();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_t();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_t() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_t() const;
 
-  constexpr void __set_t(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Collider*& __get_collider();
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_collider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Collider*> const& __get_collider() const;
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_collider() const;
 
-  constexpr void __set_collider(::UnityEngine::Collider* value);
+  constexpr void __cordl_internal_set_collider(::UnityW<::UnityEngine::Collider> value);
 
-  constexpr ::UnityEngine::Joint*& __get_joint();
+  constexpr ::UnityW<::UnityEngine::Joint>& __cordl_internal_get_joint();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Joint*> const& __get_joint() const;
+  constexpr ::UnityW<::UnityEngine::Joint> const& __cordl_internal_get_joint() const;
 
-  constexpr void __set_joint(::UnityEngine::Joint* value);
+  constexpr void __cordl_internal_set_joint(::UnityW<::UnityEngine::Joint> value);
 
-  constexpr ::UnityEngine::Rigidbody*& __get_c();
+  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& __get_c() const;
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::UnityEngine::Rigidbody* value);
+  constexpr void __cordl_internal_set_c(::UnityW<::UnityEngine::Rigidbody> value);
 
-  constexpr bool& __get_updateAnchor();
+  constexpr bool& __cordl_internal_get_updateAnchor();
 
-  constexpr bool const& __get_updateAnchor() const;
+  constexpr bool const& __cordl_internal_get_updateAnchor() const;
 
-  constexpr void __set_updateAnchor(bool value);
+  constexpr void __cordl_internal_set_updateAnchor(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get_deltaPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_deltaPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_deltaPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_deltaPosition() const;
 
-  constexpr void __set_deltaPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_deltaPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_deltaRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_deltaRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_deltaRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_deltaRotation() const;
 
-  constexpr void __set_deltaRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_deltaRotation(::UnityEngine::Quaternion value);
 
-  constexpr float_t& __get_deltaTime();
+  constexpr float_t& __cordl_internal_get_deltaTime();
 
-  constexpr float_t const& __get_deltaTime() const;
+  constexpr float_t const& __cordl_internal_get_deltaTime() const;
 
-  constexpr void __set_deltaTime(float_t value);
+  constexpr void __cordl_internal_set_deltaTime(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_lastPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_lastPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastPosition() const;
 
-  constexpr void __set_lastPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_lastPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_lastRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_lastRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastRotation() const;
 
-  constexpr void __set_lastRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_lastRotation(::UnityEngine::Quaternion value);
 
   static inline ::RootMotion::FinalIK::__RagdollUtility__Rigidbone* New_ctor(::UnityEngine::Rigidbody* r);
 
@@ -203,19 +203,19 @@ protected:
 
 public:
   /// @brief Field r, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Rigidbody* ___r;
+  ::UnityW<::UnityEngine::Rigidbody> ___r;
 
   /// @brief Field t, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___t;
+  ::UnityW<::UnityEngine::Transform> ___t;
 
   /// @brief Field collider, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Collider* ___collider;
+  ::UnityW<::UnityEngine::Collider> ___collider;
 
   /// @brief Field joint, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Joint* ___joint;
+  ::UnityW<::UnityEngine::Joint> ___joint;
 
   /// @brief Field c, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Rigidbody* ___c;
+  ::UnityW<::UnityEngine::Rigidbody> ___c;
 
   /// @brief Field updateAnchor, offset: 0x38, size: 0x1, def value: None
   bool ___updateAnchor;
@@ -267,38 +267,38 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility__Rigidbone, ___la
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12619))
 // CS Name: ::RagdollUtility::Child*
 class CORDL_TYPE __RagdollUtility__Child : public ::System::Object {
 public:
   // Declarations
   /// @brief Field t, offset 0x10, size 0x8
-  __declspec(property(get = __get_t, put = __set_t))::UnityEngine::Transform* t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityW<::UnityEngine::Transform> t;
 
   /// @brief Field localPosition, offset 0x18, size 0xc
-  __declspec(property(get = __get_localPosition, put = __set_localPosition))::UnityEngine::Vector3 localPosition;
+  __declspec(property(get = __cordl_internal_get_localPosition, put = __cordl_internal_set_localPosition))::UnityEngine::Vector3 localPosition;
 
   /// @brief Field localRotation, offset 0x24, size 0x10
-  __declspec(property(get = __get_localRotation, put = __set_localRotation))::UnityEngine::Quaternion localRotation;
+  __declspec(property(get = __cordl_internal_get_localRotation, put = __cordl_internal_set_localRotation))::UnityEngine::Quaternion localRotation;
 
-  constexpr ::UnityEngine::Transform*& __get_t();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_t();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_t() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_t() const;
 
-  constexpr void __set_t(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get_localPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_localPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_localPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localPosition() const;
 
-  constexpr void __set_localPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_localPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_localRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_localRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_localRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_localRotation() const;
 
-  constexpr void __set_localRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_localRotation(::UnityEngine::Quaternion value);
 
   static inline ::RootMotion::FinalIK::__RagdollUtility__Child* New_ctor(::UnityEngine::Transform* transform);
 
@@ -326,7 +326,7 @@ protected:
 
 public:
   /// @brief Field t, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___t;
+  ::UnityW<::UnityEngine::Transform> ___t;
 
   /// @brief Field localPosition, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___localPosition;
@@ -350,20 +350,20 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility__Child, ___localR
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12620))
 // CS Name: ::RagdollUtility::<DisableRagdollSmooth>d__21*
 class CORDL_TYPE __RagdollUtility___DisableRagdollSmooth_d__21 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::RootMotion::FinalIK::RagdollUtility* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::RootMotion::FinalIK::RagdollUtility> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -387,23 +387,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::RootMotion::FinalIK::RagdollUtility*& __get___4__this();
+  constexpr ::UnityW<::RootMotion::FinalIK::RagdollUtility>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::RagdollUtility*> const& __get___4__this() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::RagdollUtility> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::RootMotion::FinalIK::RagdollUtility* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::RootMotion::FinalIK::RagdollUtility> value);
 
   static inline ::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21* New_ctor(int32_t __1__state);
 
@@ -446,7 +446,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::RootMotion::FinalIK::RagdollUtility* _____4__this;
+  ::UnityW<::RootMotion::FinalIK::RagdollUtility> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -464,7 +464,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility___DisableRagdollS
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14877)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14877))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12621))
 // CS Name: ::RootMotion.FinalIK::RagdollUtility*
 class CORDL_TYPE RagdollUtility : public ::UnityEngine::MonoBehaviour {
@@ -477,153 +477,155 @@ public:
   using Rigidbone = ::RootMotion::FinalIK::__RagdollUtility__Rigidbone;
 
   /// @brief Field ik, offset 0x18, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::IK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::IK> ik;
 
   /// @brief Field ragdollToAnimationTime, offset 0x20, size 0x4
-  __declspec(property(get = __get_ragdollToAnimationTime, put = __set_ragdollToAnimationTime)) float_t ragdollToAnimationTime;
+  __declspec(property(get = __cordl_internal_get_ragdollToAnimationTime, put = __cordl_internal_set_ragdollToAnimationTime)) float_t ragdollToAnimationTime;
 
   /// @brief Field applyIkOnRagdoll, offset 0x24, size 0x1
-  __declspec(property(get = __get_applyIkOnRagdoll, put = __set_applyIkOnRagdoll)) bool applyIkOnRagdoll;
+  __declspec(property(get = __cordl_internal_get_applyIkOnRagdoll, put = __cordl_internal_set_applyIkOnRagdoll)) bool applyIkOnRagdoll;
 
   /// @brief Field applyVelocity, offset 0x28, size 0x4
-  __declspec(property(get = __get_applyVelocity, put = __set_applyVelocity)) float_t applyVelocity;
+  __declspec(property(get = __cordl_internal_get_applyVelocity, put = __cordl_internal_set_applyVelocity)) float_t applyVelocity;
 
   /// @brief Field applyAngularVelocity, offset 0x2c, size 0x4
-  __declspec(property(get = __get_applyAngularVelocity, put = __set_applyAngularVelocity)) float_t applyAngularVelocity;
+  __declspec(property(get = __cordl_internal_get_applyAngularVelocity, put = __cordl_internal_set_applyAngularVelocity)) float_t applyAngularVelocity;
 
   /// @brief Field animator, offset 0x30, size 0x8
-  __declspec(property(get = __get_animator, put = __set_animator))::UnityEngine::Animator* animator;
+  __declspec(property(get = __cordl_internal_get_animator, put = __cordl_internal_set_animator))::UnityW<::UnityEngine::Animator> animator;
 
   /// @brief Field rigidbones, offset 0x38, size 0x8
-  __declspec(property(get = __get_rigidbones,
-                      put = __set_rigidbones))::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*> rigidbones;
+  __declspec(property(get = __cordl_internal_get_rigidbones,
+                      put = __cordl_internal_set_rigidbones))::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*> rigidbones;
 
   /// @brief Field children, offset 0x40, size 0x8
-  __declspec(property(get = __get_children, put = __set_children))::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*> children;
+  __declspec(property(get = __cordl_internal_get_children,
+                      put = __cordl_internal_set_children))::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*> children;
 
   /// @brief Field enableRagdollFlag, offset 0x48, size 0x1
-  __declspec(property(get = __get_enableRagdollFlag, put = __set_enableRagdollFlag)) bool enableRagdollFlag;
+  __declspec(property(get = __cordl_internal_get_enableRagdollFlag, put = __cordl_internal_set_enableRagdollFlag)) bool enableRagdollFlag;
 
   /// @brief Field animatorUpdateMode, offset 0x4c, size 0x4
-  __declspec(property(get = __get_animatorUpdateMode, put = __set_animatorUpdateMode))::UnityEngine::AnimatorUpdateMode animatorUpdateMode;
+  __declspec(property(get = __cordl_internal_get_animatorUpdateMode, put = __cordl_internal_set_animatorUpdateMode))::UnityEngine::AnimatorUpdateMode animatorUpdateMode;
 
   /// @brief Field allIKComponents, offset 0x50, size 0x8
-  __declspec(property(get = __get_allIKComponents, put = __set_allIKComponents))::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> allIKComponents;
+  __declspec(property(get = __cordl_internal_get_allIKComponents,
+                      put = __cordl_internal_set_allIKComponents))::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> allIKComponents;
 
   /// @brief Field fixTransforms, offset 0x58, size 0x8
-  __declspec(property(get = __get_fixTransforms, put = __set_fixTransforms))::ArrayW<bool, ::Array<bool>*> fixTransforms;
+  __declspec(property(get = __cordl_internal_get_fixTransforms, put = __cordl_internal_set_fixTransforms))::ArrayW<bool, ::Array<bool>*> fixTransforms;
 
   /// @brief Field ragdollWeight, offset 0x60, size 0x4
-  __declspec(property(get = __get_ragdollWeight, put = __set_ragdollWeight)) float_t ragdollWeight;
+  __declspec(property(get = __cordl_internal_get_ragdollWeight, put = __cordl_internal_set_ragdollWeight)) float_t ragdollWeight;
 
   /// @brief Field ragdollWeightV, offset 0x64, size 0x4
-  __declspec(property(get = __get_ragdollWeightV, put = __set_ragdollWeightV)) float_t ragdollWeightV;
+  __declspec(property(get = __cordl_internal_get_ragdollWeightV, put = __cordl_internal_set_ragdollWeightV)) float_t ragdollWeightV;
 
   /// @brief Field fixedFrame, offset 0x68, size 0x1
-  __declspec(property(get = __get_fixedFrame, put = __set_fixedFrame)) bool fixedFrame;
+  __declspec(property(get = __cordl_internal_get_fixedFrame, put = __cordl_internal_set_fixedFrame)) bool fixedFrame;
 
   /// @brief Field disabledIKComponents, offset 0x70, size 0x8
-  __declspec(property(get = __get_disabledIKComponents, put = __set_disabledIKComponents))::ArrayW<bool, ::Array<bool>*> disabledIKComponents;
+  __declspec(property(get = __cordl_internal_get_disabledIKComponents, put = __cordl_internal_set_disabledIKComponents))::ArrayW<bool, ::Array<bool>*> disabledIKComponents;
 
   __declspec(property(get = get_isRagdoll)) bool isRagdoll;
 
   __declspec(property(get = get_ikUsed)) bool ikUsed;
 
-  constexpr ::RootMotion::FinalIK::IK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::IK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::IK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::IK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::IK> value);
 
-  constexpr float_t& __get_ragdollToAnimationTime();
+  constexpr float_t& __cordl_internal_get_ragdollToAnimationTime();
 
-  constexpr float_t const& __get_ragdollToAnimationTime() const;
+  constexpr float_t const& __cordl_internal_get_ragdollToAnimationTime() const;
 
-  constexpr void __set_ragdollToAnimationTime(float_t value);
+  constexpr void __cordl_internal_set_ragdollToAnimationTime(float_t value);
 
-  constexpr bool& __get_applyIkOnRagdoll();
+  constexpr bool& __cordl_internal_get_applyIkOnRagdoll();
 
-  constexpr bool const& __get_applyIkOnRagdoll() const;
+  constexpr bool const& __cordl_internal_get_applyIkOnRagdoll() const;
 
-  constexpr void __set_applyIkOnRagdoll(bool value);
+  constexpr void __cordl_internal_set_applyIkOnRagdoll(bool value);
 
-  constexpr float_t& __get_applyVelocity();
+  constexpr float_t& __cordl_internal_get_applyVelocity();
 
-  constexpr float_t const& __get_applyVelocity() const;
+  constexpr float_t const& __cordl_internal_get_applyVelocity() const;
 
-  constexpr void __set_applyVelocity(float_t value);
+  constexpr void __cordl_internal_set_applyVelocity(float_t value);
 
-  constexpr float_t& __get_applyAngularVelocity();
+  constexpr float_t& __cordl_internal_get_applyAngularVelocity();
 
-  constexpr float_t const& __get_applyAngularVelocity() const;
+  constexpr float_t const& __cordl_internal_get_applyAngularVelocity() const;
 
-  constexpr void __set_applyAngularVelocity(float_t value);
+  constexpr void __cordl_internal_set_applyAngularVelocity(float_t value);
 
-  constexpr ::UnityEngine::Animator*& __get_animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get_animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get_animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get_animator() const;
 
-  constexpr void __set_animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set_animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*>& __get_rigidbones();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*>& __cordl_internal_get_rigidbones();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*> const& __get_rigidbones() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*> const& __cordl_internal_get_rigidbones() const;
 
-  constexpr void __set_rigidbones(::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*> value);
+  constexpr void __cordl_internal_set_rigidbones(::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*>& __get_children();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*>& __cordl_internal_get_children();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*> const& __get_children() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*> const& __cordl_internal_get_children() const;
 
-  constexpr void __set_children(::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*> value);
+  constexpr void __cordl_internal_set_children(::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Child*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Child*>*> value);
 
-  constexpr bool& __get_enableRagdollFlag();
+  constexpr bool& __cordl_internal_get_enableRagdollFlag();
 
-  constexpr bool const& __get_enableRagdollFlag() const;
+  constexpr bool const& __cordl_internal_get_enableRagdollFlag() const;
 
-  constexpr void __set_enableRagdollFlag(bool value);
+  constexpr void __cordl_internal_set_enableRagdollFlag(bool value);
 
-  constexpr ::UnityEngine::AnimatorUpdateMode& __get_animatorUpdateMode();
+  constexpr ::UnityEngine::AnimatorUpdateMode& __cordl_internal_get_animatorUpdateMode();
 
-  constexpr ::UnityEngine::AnimatorUpdateMode const& __get_animatorUpdateMode() const;
+  constexpr ::UnityEngine::AnimatorUpdateMode const& __cordl_internal_get_animatorUpdateMode() const;
 
-  constexpr void __set_animatorUpdateMode(::UnityEngine::AnimatorUpdateMode value);
+  constexpr void __cordl_internal_set_animatorUpdateMode(::UnityEngine::AnimatorUpdateMode value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>& __get_allIKComponents();
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*>& __cordl_internal_get_allIKComponents();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> const& __get_allIKComponents() const;
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> const& __cordl_internal_get_allIKComponents() const;
 
-  constexpr void __set_allIKComponents(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> value);
+  constexpr void __cordl_internal_set_allIKComponents(::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_fixTransforms();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_fixTransforms();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_fixTransforms() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_fixTransforms() const;
 
-  constexpr void __set_fixTransforms(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_fixTransforms(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr float_t& __get_ragdollWeight();
+  constexpr float_t& __cordl_internal_get_ragdollWeight();
 
-  constexpr float_t const& __get_ragdollWeight() const;
+  constexpr float_t const& __cordl_internal_get_ragdollWeight() const;
 
-  constexpr void __set_ragdollWeight(float_t value);
+  constexpr void __cordl_internal_set_ragdollWeight(float_t value);
 
-  constexpr float_t& __get_ragdollWeightV();
+  constexpr float_t& __cordl_internal_get_ragdollWeightV();
 
-  constexpr float_t const& __get_ragdollWeightV() const;
+  constexpr float_t const& __cordl_internal_get_ragdollWeightV() const;
 
-  constexpr void __set_ragdollWeightV(float_t value);
+  constexpr void __cordl_internal_set_ragdollWeightV(float_t value);
 
-  constexpr bool& __get_fixedFrame();
+  constexpr bool& __cordl_internal_get_fixedFrame();
 
-  constexpr bool const& __get_fixedFrame() const;
+  constexpr bool const& __cordl_internal_get_fixedFrame() const;
 
-  constexpr void __set_fixedFrame(bool value);
+  constexpr void __cordl_internal_set_fixedFrame(bool value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_disabledIKComponents();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_disabledIKComponents();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_disabledIKComponents() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_disabledIKComponents() const;
 
-  constexpr void __set_disabledIKComponents(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_disabledIKComponents(::ArrayW<bool, ::Array<bool>*> value);
 
   /// @brief Method EnableRagdoll, addr 0x128d510, size 0x2c, virtual false, abstract: false, final false
   inline void EnableRagdoll();
@@ -696,7 +698,7 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x18, size: 0x8, def value: None
-  ::RootMotion::FinalIK::IK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::IK> ___ik;
 
   /// @brief Field ragdollToAnimationTime, offset: 0x20, size: 0x4, def value: None
   float_t ___ragdollToAnimationTime;
@@ -711,7 +713,7 @@ public:
   float_t ___applyAngularVelocity;
 
   /// @brief Field animator, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Animator* ___animator;
+  ::UnityW<::UnityEngine::Animator> ___animator;
 
   /// @brief Field rigidbones, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*, ::Array<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>*> ___rigidbones;
@@ -726,7 +728,7 @@ public:
   ::UnityEngine::AnimatorUpdateMode ___animatorUpdateMode;
 
   /// @brief Field allIKComponents, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ___allIKComponents;
+  ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> ___allIKComponents;
 
   /// @brief Field fixTransforms, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<bool, ::Array<bool>*> ___fixTransforms;

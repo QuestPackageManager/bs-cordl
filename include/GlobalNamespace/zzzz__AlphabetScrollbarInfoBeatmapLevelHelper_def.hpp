@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4410))
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper::<>c*
 class CORDL_TYPE __AlphabetScrollbarInfoBeatmapLevelHelper____c : public ::System::Object {
@@ -88,7 +88,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AlphabetScrol
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4411))
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper*
 class CORDL_TYPE AlphabetScrollbarInfoBeatmapLevelHelper : public ::System::Object {

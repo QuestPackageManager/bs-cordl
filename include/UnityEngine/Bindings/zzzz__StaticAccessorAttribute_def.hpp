@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::StaticAccessorAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(16027))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(16027))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16028))
 // CS Name: ::UnityEngine.Bindings::StaticAccessorAttribute*
 class CORDL_TYPE StaticAccessorAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Name_k__BackingField, put = __set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
   /// @brief Field <Type>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__Type_k__BackingField, put = __set__Type_k__BackingField))::UnityEngine::Bindings::StaticAccessorType _Type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField))::UnityEngine::Bindings::StaticAccessorType _Type_k__BackingField;
 
   __declspec(property(put = set_Name))::StringW Name;
 
   __declspec(property(put = set_Type))::UnityEngine::Bindings::StaticAccessorType Type;
 
-  constexpr ::StringW& __get__Name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::StringW const& __get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr void __set__Name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::Bindings::StaticAccessorType& __get__Type_k__BackingField();
+  constexpr ::UnityEngine::Bindings::StaticAccessorType& __cordl_internal_get__Type_k__BackingField();
 
-  constexpr ::UnityEngine::Bindings::StaticAccessorType const& __get__Type_k__BackingField() const;
+  constexpr ::UnityEngine::Bindings::StaticAccessorType const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr void __set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
+  constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
   /// @brief Method set_Name, addr 0x2d1893c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);

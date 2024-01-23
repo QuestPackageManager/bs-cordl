@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComDefaultInterfaceAttribute)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3316))
 // CS Name: ::System.Runtime.InteropServices::ComDefaultInterfaceAttribute*
 class CORDL_TYPE ComDefaultInterfaceAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _val, offset 0x10, size 0x8
-  __declspec(property(get = __get__val, put = __set__val))::System::Type* _val;
+  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val))::System::Type* _val;
 
-  constexpr ::System::Type*& __get__val();
+  constexpr ::System::Type*& __cordl_internal_get__val();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__val() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__val() const;
 
-  constexpr void __set__val(::System::Type* value);
+  constexpr void __cordl_internal_set__val(::System::Type* value);
 
   static inline ::System::Runtime::InteropServices::ComDefaultInterfaceAttribute* New_ctor(::System::Type* defaultInterface);
 

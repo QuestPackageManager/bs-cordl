@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::VmpcEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(882))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::VmpcEngine*
 class CORDL_TYPE VmpcEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field n, offset 0x10, size 0x1
-  __declspec(property(get = __get_n, put = __set_n)) uint8_t n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) uint8_t n;
 
   /// @brief Field P, offset 0x18, size 0x8
-  __declspec(property(get = __get_P, put = __set_P))::ArrayW<uint8_t, ::Array<uint8_t>*> P;
+  __declspec(property(get = __cordl_internal_get_P, put = __cordl_internal_set_P))::ArrayW<uint8_t, ::Array<uint8_t>*> P;
 
   /// @brief Field s, offset 0x20, size 0x1
-  __declspec(property(get = __get_s, put = __set_s)) uint8_t s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) uint8_t s;
 
   /// @brief Field workingIV, offset 0x28, size 0x8
-  __declspec(property(get = __get_workingIV, put = __set_workingIV))::ArrayW<uint8_t, ::Array<uint8_t>*> workingIV;
+  __declspec(property(get = __cordl_internal_get_workingIV, put = __cordl_internal_set_workingIV))::ArrayW<uint8_t, ::Array<uint8_t>*> workingIV;
 
   /// @brief Field workingKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -52,35 +52,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
-  constexpr uint8_t& __get_n();
+  constexpr uint8_t& __cordl_internal_get_n();
 
-  constexpr uint8_t const& __get_n() const;
+  constexpr uint8_t const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(uint8_t value);
+  constexpr void __cordl_internal_set_n(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_P();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_P();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_P() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_P() const;
 
-  constexpr void __set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint8_t& __get_s();
+  constexpr uint8_t& __cordl_internal_get_s();
 
-  constexpr uint8_t const& __get_s() const;
+  constexpr uint8_t const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(uint8_t value);
+  constexpr void __cordl_internal_set_s(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workingIV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingIV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workingIV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingIV() const;
 
-  constexpr void __set_workingIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workingIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workingKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_AlgorithmName, addr 0xef4120, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();

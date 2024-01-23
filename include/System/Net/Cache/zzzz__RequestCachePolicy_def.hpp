@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCachePolicy);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9321)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9321))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9322))
 // CS Name: ::System.Net.Cache::RequestCachePolicy*
 class CORDL_TYPE RequestCachePolicy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Level, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Level, put = __set_m_Level))::System::Net::Cache::RequestCacheLevel m_Level;
+  __declspec(property(get = __cordl_internal_get_m_Level, put = __cordl_internal_set_m_Level))::System::Net::Cache::RequestCacheLevel m_Level;
 
   __declspec(property(get = get_Level))::System::Net::Cache::RequestCacheLevel Level;
 
-  constexpr ::System::Net::Cache::RequestCacheLevel& __get_m_Level();
+  constexpr ::System::Net::Cache::RequestCacheLevel& __cordl_internal_get_m_Level();
 
-  constexpr ::System::Net::Cache::RequestCacheLevel const& __get_m_Level() const;
+  constexpr ::System::Net::Cache::RequestCacheLevel const& __cordl_internal_get_m_Level() const;
 
-  constexpr void __set_m_Level(::System::Net::Cache::RequestCacheLevel value);
+  constexpr void __cordl_internal_set_m_Level(::System::Net::Cache::RequestCacheLevel value);
 
   static inline ::System::Net::Cache::RequestCachePolicy* New_ctor(::System::Net::Cache::RequestCacheLevel level);
 

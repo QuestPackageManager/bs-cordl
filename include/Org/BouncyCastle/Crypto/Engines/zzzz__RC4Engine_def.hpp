@@ -23,23 +23,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC4Engine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(856))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RC4Engine*
 class CORDL_TYPE RC4Engine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field engineState, offset 0x10, size 0x8
-  __declspec(property(get = __get_engineState, put = __set_engineState))::ArrayW<uint8_t, ::Array<uint8_t>*> engineState;
+  __declspec(property(get = __cordl_internal_get_engineState, put = __cordl_internal_set_engineState))::ArrayW<uint8_t, ::Array<uint8_t>*> engineState;
 
   /// @brief Field x, offset 0x18, size 0x4
-  __declspec(property(get = __get_x, put = __set_x)) int32_t x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) int32_t x;
 
   /// @brief Field y, offset 0x1c, size 0x4
-  __declspec(property(get = __get_y, put = __set_y)) int32_t y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) int32_t y;
 
   /// @brief Field workingKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
   /// @brief Field STATE_LENGTH, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_STATE_LENGTH, put = setStaticF_STATE_LENGTH)) int32_t STATE_LENGTH;
@@ -52,29 +52,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_engineState();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_engineState();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_engineState() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_engineState() const;
 
-  constexpr void __set_engineState(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_engineState(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_x();
+  constexpr int32_t& __cordl_internal_get_x();
 
-  constexpr int32_t const& __get_x() const;
+  constexpr int32_t const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(int32_t value);
+  constexpr void __cordl_internal_set_x(int32_t value);
 
-  constexpr int32_t& __get_y();
+  constexpr int32_t& __cordl_internal_get_y();
 
-  constexpr int32_t const& __get_y() const;
+  constexpr int32_t const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(int32_t value);
+  constexpr void __cordl_internal_set_y(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workingKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_STATE_LENGTH(int32_t value);
 

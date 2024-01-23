@@ -71,35 +71,35 @@ MARK_REF_PTR_T(::System::Threading::Thread);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3354))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2723))
 // CS Name: ::System.Threading::Thread*
 class CORDL_TYPE Thread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
   /// @brief Field internal_thread, offset 0x10, size 0x8
-  __declspec(property(get = __get_internal_thread, put = __set_internal_thread))::System::Threading::InternalThread* internal_thread;
+  __declspec(property(get = __cordl_internal_get_internal_thread, put = __cordl_internal_set_internal_thread))::System::Threading::InternalThread* internal_thread;
 
   /// @brief Field m_ThreadStartArg, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ThreadStartArg, put = __set_m_ThreadStartArg))::System::Object* m_ThreadStartArg;
+  __declspec(property(get = __cordl_internal_get_m_ThreadStartArg, put = __cordl_internal_set_m_ThreadStartArg))::System::Object* m_ThreadStartArg;
 
   /// @brief Field pending_exception, offset 0x20, size 0x8
-  __declspec(property(get = __get_pending_exception, put = __set_pending_exception))::System::Object* pending_exception;
+  __declspec(property(get = __cordl_internal_get_pending_exception, put = __cordl_internal_set_pending_exception))::System::Object* pending_exception;
 
   /// @brief Field m_Delegate, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Delegate, put = __set_m_Delegate))::System::MulticastDelegate* m_Delegate;
+  __declspec(property(get = __cordl_internal_get_m_Delegate, put = __cordl_internal_set_m_Delegate))::System::MulticastDelegate* m_Delegate;
 
   /// @brief Field m_ExecutionContext, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_ExecutionContext, put = __set_m_ExecutionContext))::System::Threading::ExecutionContext* m_ExecutionContext;
+  __declspec(property(get = __cordl_internal_get_m_ExecutionContext, put = __cordl_internal_set_m_ExecutionContext))::System::Threading::ExecutionContext* m_ExecutionContext;
 
   /// @brief Field m_ExecutionContextBelongsToOuterScope, offset 0x38, size 0x1
-  __declspec(property(get = __get_m_ExecutionContextBelongsToOuterScope, put = __set_m_ExecutionContextBelongsToOuterScope)) bool m_ExecutionContextBelongsToOuterScope;
+  __declspec(property(get = __cordl_internal_get_m_ExecutionContextBelongsToOuterScope, put = __cordl_internal_set_m_ExecutionContextBelongsToOuterScope)) bool m_ExecutionContextBelongsToOuterScope;
 
   /// @brief Field principal, offset 0x40, size 0x8
-  __declspec(property(get = __get_principal, put = __set_principal))::System::Security::Principal::IPrincipal* principal;
+  __declspec(property(get = __cordl_internal_get_principal, put = __cordl_internal_set_principal))::System::Security::Principal::IPrincipal* principal;
 
   /// @brief Field principal_version, offset 0x48, size 0x4
-  __declspec(property(get = __get_principal_version, put = __set_principal_version)) int32_t principal_version;
+  __declspec(property(get = __cordl_internal_get_principal_version, put = __cordl_internal_set_principal_version)) int32_t principal_version;
 
   /// @brief Field s_LocalDataStoreMgr, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_LocalDataStoreMgr, put = setStaticF_s_LocalDataStoreMgr))::System::LocalDataStoreMgr* s_LocalDataStoreMgr;
@@ -146,53 +146,53 @@ public:
 
   __declspec(property(get = get_ManagedThreadId)) int32_t ManagedThreadId;
 
-  constexpr ::System::Threading::InternalThread*& __get_internal_thread();
+  constexpr ::System::Threading::InternalThread*& __cordl_internal_get_internal_thread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::InternalThread*> const& __get_internal_thread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::InternalThread*> const& __cordl_internal_get_internal_thread() const;
 
-  constexpr void __set_internal_thread(::System::Threading::InternalThread* value);
+  constexpr void __cordl_internal_set_internal_thread(::System::Threading::InternalThread* value);
 
-  constexpr ::System::Object*& __get_m_ThreadStartArg();
+  constexpr ::System::Object*& __cordl_internal_get_m_ThreadStartArg();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_ThreadStartArg() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_ThreadStartArg() const;
 
-  constexpr void __set_m_ThreadStartArg(::System::Object* value);
+  constexpr void __cordl_internal_set_m_ThreadStartArg(::System::Object* value);
 
-  constexpr ::System::Object*& __get_pending_exception();
+  constexpr ::System::Object*& __cordl_internal_get_pending_exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_pending_exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_pending_exception() const;
 
-  constexpr void __set_pending_exception(::System::Object* value);
+  constexpr void __cordl_internal_set_pending_exception(::System::Object* value);
 
-  constexpr ::System::MulticastDelegate*& __get_m_Delegate();
+  constexpr ::System::MulticastDelegate*& __cordl_internal_get_m_Delegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MulticastDelegate*> const& __get_m_Delegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::MulticastDelegate*> const& __cordl_internal_get_m_Delegate() const;
 
-  constexpr void __set_m_Delegate(::System::MulticastDelegate* value);
+  constexpr void __cordl_internal_set_m_Delegate(::System::MulticastDelegate* value);
 
-  constexpr ::System::Threading::ExecutionContext*& __get_m_ExecutionContext();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_ExecutionContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get_m_ExecutionContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_m_ExecutionContext() const;
 
-  constexpr void __set_m_ExecutionContext(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set_m_ExecutionContext(::System::Threading::ExecutionContext* value);
 
-  constexpr bool& __get_m_ExecutionContextBelongsToOuterScope();
+  constexpr bool& __cordl_internal_get_m_ExecutionContextBelongsToOuterScope();
 
-  constexpr bool const& __get_m_ExecutionContextBelongsToOuterScope() const;
+  constexpr bool const& __cordl_internal_get_m_ExecutionContextBelongsToOuterScope() const;
 
-  constexpr void __set_m_ExecutionContextBelongsToOuterScope(bool value);
+  constexpr void __cordl_internal_set_m_ExecutionContextBelongsToOuterScope(bool value);
 
-  constexpr ::System::Security::Principal::IPrincipal*& __get_principal();
+  constexpr ::System::Security::Principal::IPrincipal*& __cordl_internal_get_principal();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& __get_principal() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& __cordl_internal_get_principal() const;
 
-  constexpr void __set_principal(::System::Security::Principal::IPrincipal* value);
+  constexpr void __cordl_internal_set_principal(::System::Security::Principal::IPrincipal* value);
 
-  constexpr int32_t& __get_principal_version();
+  constexpr int32_t& __cordl_internal_get_principal_version();
 
-  constexpr int32_t const& __get_principal_version() const;
+  constexpr int32_t const& __cordl_internal_get_principal_version() const;
 
-  constexpr void __set_principal_version(int32_t value);
+  constexpr void __cordl_internal_set_principal_version(int32_t value);
 
   static inline void setStaticF_s_LocalDataStoreMgr(::System::LocalDataStoreMgr* value);
 

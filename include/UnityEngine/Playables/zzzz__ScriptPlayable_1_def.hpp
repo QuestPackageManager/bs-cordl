@@ -45,8 +45,8 @@ namespace UnityEngine::Playables {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440)), TypeDefinitionIndex(TypeDefinitionIndex(10423)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10423), inst:
-// 4948 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(10423)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10423)), TypeDefinitionIndex(TypeDefinitionIndex(10440)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10423), inst:
+// 4948 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10423)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
 struct CORDL_TYPE ScriptPlayable_1 {
 public:
   // Declarations

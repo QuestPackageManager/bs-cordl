@@ -27,29 +27,30 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberPrimi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3253))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3267))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveTyped*
 class CORDL_TYPE MemberPrimitiveTyped : public ::System::Object {
 public:
   // Declarations
   /// @brief Field primitiveTypeEnum, offset 0x10, size 0x4
-  __declspec(property(get = __get_primitiveTypeEnum, put = __set_primitiveTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum;
+  __declspec(property(get = __cordl_internal_get_primitiveTypeEnum,
+                      put = __cordl_internal_set_primitiveTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::System::Object* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __get_primitiveTypeEnum();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_primitiveTypeEnum();
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __get_primitiveTypeEnum() const;
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_primitiveTypeEnum() const;
 
-  constexpr void __set_primitiveTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+  constexpr void __cordl_internal_set_primitiveTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
 
-  constexpr ::System::Object*& __get_value();
+  constexpr ::System::Object*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::System::Object* value);
+  constexpr void __cordl_internal_set_value(::System::Object* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor();
 

@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UQuery__UQueryMatcher);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6920))
 // CS Name: ::UQuery::IVisualPredicateWrapper*
 class CORDL_TYPE __UQuery__IVisualPredicateWrapper {
@@ -103,7 +103,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6921))
 // CS Name: ::UQuery::IsOfType`1<T>*
 class CORDL_TYPE __UQuery__IsOfType_1 : public ::System::Object {
@@ -152,7 +152,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6922))
 // CS Name: ::UQuery::UQueryMatcher::<>c*
 class CORDL_TYPE __UQuery__UQueryMatcher____c : public ::System::Object {
@@ -205,7 +205,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UQuery__UQuer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7459))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7459))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6923))
 // CS Name: ::UQuery::UQueryMatcher*
 class CORDL_TYPE __UQuery__UQueryMatcher : public ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal {
@@ -214,13 +214,13 @@ public:
   using __c = ::GlobalNamespace::__UQuery__UQueryMatcher____c;
 
   /// @brief Field m_Matchers, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Matchers, put = __set_m_Matchers))::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers;
+  __declspec(property(get = __cordl_internal_get_m_Matchers, put = __cordl_internal_set_m_Matchers))::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*& __get_m_Matchers();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*& __cordl_internal_get_m_Matchers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*> const& __get_m_Matchers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*> const& __cordl_internal_get_m_Matchers() const;
 
-  constexpr void __set_m_Matchers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* value);
+  constexpr void __cordl_internal_set_m_Matchers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* value);
 
   static inline ::UnityEngine::UIElements::__UQuery__UQueryMatcher* New_ctor();
 
@@ -271,22 +271,22 @@ static_assert(offsetof(::UnityEngine::UIElements::__UQuery__UQueryMatcher, ___m_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6923))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6923))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6924))
 // CS Name: ::UQuery::SingleQueryMatcher*
 class CORDL_TYPE __UQuery__SingleQueryMatcher : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
   // Declarations
   /// @brief Field <match>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__match_k__BackingField, put = __set__match_k__BackingField))::UnityEngine::UIElements::VisualElement* _match_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__match_k__BackingField, put = __cordl_internal_set__match_k__BackingField))::UnityEngine::UIElements::VisualElement* _match_k__BackingField;
 
   __declspec(property(get = get_match, put = set_match))::UnityEngine::UIElements::VisualElement* match;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__match_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__match_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__match_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__match_k__BackingField() const;
 
-  constexpr void __set__match_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__match_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method get_match, addr 0x2e0493c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_match();
@@ -337,7 +337,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__UQuery__SingleQueryMatcher, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6924))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6924))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6925))
 // CS Name: ::UQuery::FirstQueryMatcher*
 class CORDL_TYPE __UQuery__FirstQueryMatcher : public ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher {
@@ -385,7 +385,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UQuer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6926))
 // CS Name: ::UnityEngine.UIElements::UQuery*
 class CORDL_TYPE UQuery : public ::System::Object {

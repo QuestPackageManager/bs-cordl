@@ -47,35 +47,39 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersListTableView);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5783))
 // CS Name: ::GameServersListTableView*
 class CORDL_TYPE GameServersListTableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _tableView, offset 0x18, size 0x8
-  __declspec(property(get = __get__tableView, put = __set__tableView))::GlobalNamespace::TableViewWithDetailCell* _tableView;
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::GlobalNamespace::TableViewWithDetailCell> _tableView;
 
   /// @brief Field _gameServerListCellPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameServerListCellPrefab, put = __set__gameServerListCellPrefab))::GlobalNamespace::GameServerListTableCell* _gameServerListCellPrefab;
+  __declspec(property(get = __cordl_internal_get__gameServerListCellPrefab,
+                      put = __cordl_internal_set__gameServerListCellPrefab))::UnityW<::GlobalNamespace::GameServerListTableCell> _gameServerListCellPrefab;
 
   /// @brief Field _gameServerDetailCellPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__gameServerDetailCellPrefab, put = __set__gameServerDetailCellPrefab))::GlobalNamespace::GameServerListDetailTableCell* _gameServerDetailCellPrefab;
+  __declspec(property(get = __cordl_internal_get__gameServerDetailCellPrefab,
+                      put = __cordl_internal_set__gameServerDetailCellPrefab))::UnityW<::GlobalNamespace::GameServerListDetailTableCell> _gameServerDetailCellPrefab;
 
   /// @brief Field _container, offset 0x30, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field joinButtonPressedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_joinButtonPressedEvent, put = __set_joinButtonPressedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* joinButtonPressedEvent;
+  __declspec(property(get = __cordl_internal_get_joinButtonPressedEvent,
+                      put = __cordl_internal_set_joinButtonPressedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* joinButtonPressedEvent;
 
   /// @brief Field _isInitialized, offset 0x40, size 0x1
-  __declspec(property(get = __get__isInitialized, put = __set__isInitialized)) bool _isInitialized;
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
   /// @brief Field _gamesList, offset 0x48, size 0x8
-  __declspec(property(get = __get__gamesList, put = __set__gamesList))::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> _gamesList;
+  __declspec(property(get = __cordl_internal_get__gamesList,
+                      put = __cordl_internal_set__gamesList))::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> _gamesList;
 
   /// @brief Field _selectedServer, offset 0x50, size 0x8
-  __declspec(property(get = __get__selectedServer, put = __set__selectedServer))::GlobalNamespace::INetworkPlayer* _selectedServer;
+  __declspec(property(get = __cordl_internal_get__selectedServer, put = __cordl_internal_set__selectedServer))::GlobalNamespace::INetworkPlayer* _selectedServer;
 
   /// @brief Convert operator to "::GlobalNamespace::__TableViewWithDetailCell__IDataSource"
   constexpr operator ::GlobalNamespace::__TableViewWithDetailCell__IDataSource*() noexcept;
@@ -83,53 +87,53 @@ public:
   /// @brief Convert to "::GlobalNamespace::__TableViewWithDetailCell__IDataSource"
   constexpr ::GlobalNamespace::__TableViewWithDetailCell__IDataSource* i___GlobalNamespace____TableViewWithDetailCell__IDataSource() noexcept;
 
-  constexpr ::GlobalNamespace::TableViewWithDetailCell*& __get__tableView();
+  constexpr ::UnityW<::GlobalNamespace::TableViewWithDetailCell>& __cordl_internal_get__tableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TableViewWithDetailCell*> const& __get__tableView() const;
+  constexpr ::UnityW<::GlobalNamespace::TableViewWithDetailCell> const& __cordl_internal_get__tableView() const;
 
-  constexpr void __set__tableView(::GlobalNamespace::TableViewWithDetailCell* value);
+  constexpr void __cordl_internal_set__tableView(::UnityW<::GlobalNamespace::TableViewWithDetailCell> value);
 
-  constexpr ::GlobalNamespace::GameServerListTableCell*& __get__gameServerListCellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::GameServerListTableCell>& __cordl_internal_get__gameServerListCellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServerListTableCell*> const& __get__gameServerListCellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServerListTableCell> const& __cordl_internal_get__gameServerListCellPrefab() const;
 
-  constexpr void __set__gameServerListCellPrefab(::GlobalNamespace::GameServerListTableCell* value);
+  constexpr void __cordl_internal_set__gameServerListCellPrefab(::UnityW<::GlobalNamespace::GameServerListTableCell> value);
 
-  constexpr ::GlobalNamespace::GameServerListDetailTableCell*& __get__gameServerDetailCellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::GameServerListDetailTableCell>& __cordl_internal_get__gameServerDetailCellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServerListDetailTableCell*> const& __get__gameServerDetailCellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServerListDetailTableCell> const& __cordl_internal_get__gameServerDetailCellPrefab() const;
 
-  constexpr void __set__gameServerDetailCellPrefab(::GlobalNamespace::GameServerListDetailTableCell* value);
+  constexpr void __cordl_internal_set__gameServerDetailCellPrefab(::UnityW<::GlobalNamespace::GameServerListDetailTableCell> value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __get_joinButtonPressedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_joinButtonPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __get_joinButtonPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_joinButtonPressedEvent() const;
 
-  constexpr void __set_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+  constexpr void __cordl_internal_set_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  constexpr bool& __get__isInitialized();
+  constexpr bool& __cordl_internal_get__isInitialized();
 
-  constexpr bool const& __get__isInitialized() const;
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-  constexpr void __set__isInitialized(bool value);
+  constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*>& __get__gamesList();
+  constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*>& __cordl_internal_get__gamesList();
 
-  constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> const& __get__gamesList() const;
+  constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get__gamesList() const;
 
-  constexpr void __set__gamesList(::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> value);
+  constexpr void __cordl_internal_set__gamesList(::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get__selectedServer();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get__selectedServer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get__selectedServer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get__selectedServer() const;
 
-  constexpr void __set__selectedServer(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set__selectedServer(::GlobalNamespace::INetworkPlayer* value);
 
   /// @brief Method add_joinButtonPressedEvent, addr 0x22e21a4, size 0xb0, virtual false, abstract: false, final false
   inline void add_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
@@ -147,10 +151,10 @@ public:
   inline void Init();
 
   /// @brief Method CellForContent, addr 0x22e243c, size 0x164, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForContent(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t idx, bool detailOpened);
+  inline ::UnityW<::HMUI::TableCell> CellForContent(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t idx, bool detailOpened);
 
   /// @brief Method CellForDetail, addr 0x22e25a0, size 0x1bc, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForDetail(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t contentIdx);
+  inline ::UnityW<::HMUI::TableCell> CellForDetail(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t contentIdx);
 
   /// @brief Method SetData, addr 0x22e275c, size 0x124, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* servers, bool clearSelection);
@@ -187,13 +191,13 @@ protected:
 
 public:
   /// @brief Field _tableView, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::TableViewWithDetailCell* ____tableView;
+  ::UnityW<::GlobalNamespace::TableViewWithDetailCell> ____tableView;
 
   /// @brief Field _gameServerListCellPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameServerListTableCell* ____gameServerListCellPrefab;
+  ::UnityW<::GlobalNamespace::GameServerListTableCell> ____gameServerListCellPrefab;
 
   /// @brief Field _gameServerDetailCellPrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GameServerListDetailTableCell* ____gameServerDetailCellPrefab;
+  ::UnityW<::GlobalNamespace::GameServerListDetailTableCell> ____gameServerDetailCellPrefab;
 
   /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

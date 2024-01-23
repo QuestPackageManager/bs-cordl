@@ -41,26 +41,26 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyDescriptor);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9474))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9474))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9444))
 // CS Name: ::System.ComponentModel::PropertyDescriptor*
 class CORDL_TYPE PropertyDescriptor : public ::System::ComponentModel::MemberDescriptor {
 public:
   // Declarations
   /// @brief Field _converter, offset 0x60, size 0x8
-  __declspec(property(get = __get__converter, put = __set__converter))::System::ComponentModel::TypeConverter* _converter;
+  __declspec(property(get = __cordl_internal_get__converter, put = __cordl_internal_set__converter))::System::ComponentModel::TypeConverter* _converter;
 
   /// @brief Field _valueChangedHandlers, offset 0x68, size 0x8
-  __declspec(property(get = __get__valueChangedHandlers, put = __set__valueChangedHandlers))::System::Collections::Hashtable* _valueChangedHandlers;
+  __declspec(property(get = __cordl_internal_get__valueChangedHandlers, put = __cordl_internal_set__valueChangedHandlers))::System::Collections::Hashtable* _valueChangedHandlers;
 
   /// @brief Field _editors, offset 0x70, size 0x8
-  __declspec(property(get = __get__editors, put = __set__editors))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _editors;
+  __declspec(property(get = __cordl_internal_get__editors, put = __cordl_internal_set__editors))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _editors;
 
   /// @brief Field _editorTypes, offset 0x78, size 0x8
-  __declspec(property(get = __get__editorTypes, put = __set__editorTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _editorTypes;
+  __declspec(property(get = __cordl_internal_get__editorTypes, put = __cordl_internal_set__editorTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _editorTypes;
 
   /// @brief Field _editorCount, offset 0x80, size 0x4
-  __declspec(property(get = __get__editorCount, put = __set__editorCount)) int32_t _editorCount;
+  __declspec(property(get = __cordl_internal_get__editorCount, put = __cordl_internal_set__editorCount)) int32_t _editorCount;
 
   __declspec(property(get = get_ComponentType))::System::Type* ComponentType;
 
@@ -68,35 +68,35 @@ public:
 
   __declspec(property(get = get_PropertyType))::System::Type* PropertyType;
 
-  constexpr ::System::ComponentModel::TypeConverter*& __get__converter();
+  constexpr ::System::ComponentModel::TypeConverter*& __cordl_internal_get__converter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const& __get__converter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const& __cordl_internal_get__converter() const;
 
-  constexpr void __set__converter(::System::ComponentModel::TypeConverter* value);
+  constexpr void __cordl_internal_set__converter(::System::ComponentModel::TypeConverter* value);
 
-  constexpr ::System::Collections::Hashtable*& __get__valueChangedHandlers();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__valueChangedHandlers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__valueChangedHandlers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__valueChangedHandlers() const;
 
-  constexpr void __set__valueChangedHandlers(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__valueChangedHandlers(::System::Collections::Hashtable* value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__editors();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__editors();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__editors() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__editors() const;
 
-  constexpr void __set__editors(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__editors(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__editorTypes();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__editorTypes();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get__editorTypes() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__editorTypes() const;
 
-  constexpr void __set__editorTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set__editorTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  constexpr int32_t& __get__editorCount();
+  constexpr int32_t& __cordl_internal_get__editorCount();
 
-  constexpr int32_t const& __get__editorCount() const;
+  constexpr int32_t const& __cordl_internal_get__editorCount() const;
 
-  constexpr void __set__editorCount(int32_t value);
+  constexpr void __cordl_internal_set__editorCount(int32_t value);
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 

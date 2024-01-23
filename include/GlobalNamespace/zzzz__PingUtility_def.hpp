@@ -60,7 +60,7 @@ MARK_VAL_T(::GlobalNamespace::__PingUtility___PingAsync_d__0);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12921))
 // CS Name: ::PingUtility::<>c*
 class CORDL_TYPE __PingUtility____c : public ::System::Object {
@@ -112,9 +112,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PingUtility__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 333 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5061 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9030))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12922)) CS Name: ::PingUtility::<PingAsync>d__0
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9030)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5061 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 333 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12922)) CS Name: ::PingUtility::<PingAsync>d__0
 struct CORDL_TYPE __PingUtility___PingAsync_d__0 {
 public:
   // Declarations
@@ -203,7 +203,7 @@ static_assert(offsetof(::GlobalNamespace::__PingUtility___PingAsync_d__0, __u__2
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12923))
 // CS Name: ::PingUtility*
 class CORDL_TYPE PingUtility : public ::System::Object {

@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1658))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPrivateKey*
 class CORDL_TYPE PgpPrivateKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field keyID, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyID, put = __set_keyID)) int64_t keyID;
+  __declspec(property(get = __cordl_internal_get_keyID, put = __cordl_internal_set_keyID)) int64_t keyID;
 
   /// @brief Field publicKeyPacket, offset 0x18, size 0x8
-  __declspec(property(get = __get_publicKeyPacket, put = __set_publicKeyPacket))::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket;
+  __declspec(property(get = __cordl_internal_get_publicKeyPacket, put = __cordl_internal_set_publicKeyPacket))::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket;
 
   /// @brief Field privateKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_privateKey, put = __set_privateKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey;
 
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
@@ -42,23 +42,23 @@ public:
 
   __declspec(property(get = get_Key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Key;
 
-  constexpr int64_t& __get_keyID();
+  constexpr int64_t& __cordl_internal_get_keyID();
 
-  constexpr int64_t const& __get_keyID() const;
+  constexpr int64_t const& __cordl_internal_get_keyID() const;
 
-  constexpr void __set_keyID(int64_t value);
+  constexpr void __cordl_internal_set_keyID(int64_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyPacket*& __get_publicKeyPacket();
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyPacket*& __cordl_internal_get_publicKeyPacket();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::PublicKeyPacket*> const& __get_publicKeyPacket() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::PublicKeyPacket*> const& __cordl_internal_get_publicKeyPacket() const;
 
-  constexpr void __set_publicKeyPacket(::Org::BouncyCastle::Bcpg::PublicKeyPacket* value);
+  constexpr void __cordl_internal_set_publicKeyPacket(::Org::BouncyCastle::Bcpg::PublicKeyPacket* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_privateKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_privateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_privateKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_privateKey() const;
 
-  constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_privateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* New_ctor(int64_t keyID, ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket,
                                                                             ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);

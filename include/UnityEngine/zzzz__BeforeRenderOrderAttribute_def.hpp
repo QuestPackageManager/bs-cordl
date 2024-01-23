@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::UnityEngine::BeforeRenderOrderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10098))
 // CS Name: ::UnityEngine::BeforeRenderOrderAttribute*
 class CORDL_TYPE BeforeRenderOrderAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <order>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__order_k__BackingField, put = __set__order_k__BackingField)) int32_t _order_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__order_k__BackingField, put = __cordl_internal_set__order_k__BackingField)) int32_t _order_k__BackingField;
 
   __declspec(property(get = get_order, put = set_order)) int32_t order;
 
-  constexpr int32_t& __get__order_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__order_k__BackingField();
 
-  constexpr int32_t const& __get__order_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__order_k__BackingField() const;
 
-  constexpr void __set__order_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
   /// @brief Method get_order, addr 0x2cc1744, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();

@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcAreaAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15767))
 // CS Name: ::JetBrains.Annotations::AspMvcAreaAttribute*
 class CORDL_TYPE AspMvcAreaAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <AnonymousProperty>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__AnonymousProperty_k__BackingField, put = __set__AnonymousProperty_k__BackingField))::StringW _AnonymousProperty_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AnonymousProperty_k__BackingField, put = __cordl_internal_set__AnonymousProperty_k__BackingField))::StringW _AnonymousProperty_k__BackingField;
 
   __declspec(property(get = get_AnonymousProperty, put = set_AnonymousProperty))::StringW AnonymousProperty;
 
-  constexpr ::StringW& __get__AnonymousProperty_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__AnonymousProperty_k__BackingField();
 
-  constexpr ::StringW const& __get__AnonymousProperty_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__AnonymousProperty_k__BackingField() const;
 
-  constexpr void __set__AnonymousProperty_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
 
   static inline ::JetBrains::Annotations::AspMvcAreaAttribute* New_ctor();
 

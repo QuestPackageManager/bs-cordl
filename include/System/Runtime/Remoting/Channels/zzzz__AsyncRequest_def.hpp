@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::AsyncRequest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3120))
 // CS Name: ::System.Runtime.Remoting.Channels::AsyncRequest*
 class CORDL_TYPE AsyncRequest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ReplySink, offset 0x10, size 0x8
-  __declspec(property(get = __get_ReplySink, put = __set_ReplySink))::System::Runtime::Remoting::Messaging::IMessageSink* ReplySink;
+  __declspec(property(get = __cordl_internal_get_ReplySink, put = __cordl_internal_set_ReplySink))::System::Runtime::Remoting::Messaging::IMessageSink* ReplySink;
 
   /// @brief Field MsgRequest, offset 0x18, size 0x8
-  __declspec(property(get = __get_MsgRequest, put = __set_MsgRequest))::System::Runtime::Remoting::Messaging::IMessage* MsgRequest;
+  __declspec(property(get = __cordl_internal_get_MsgRequest, put = __cordl_internal_set_MsgRequest))::System::Runtime::Remoting::Messaging::IMessage* MsgRequest;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get_ReplySink();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get_ReplySink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get_ReplySink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get_ReplySink() const;
 
-  constexpr void __set_ReplySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set_ReplySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __get_MsgRequest();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __cordl_internal_get_MsgRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __get_MsgRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __cordl_internal_get_MsgRequest() const;
 
-  constexpr void __set_MsgRequest(::System::Runtime::Remoting::Messaging::IMessage* value);
+  constexpr void __cordl_internal_set_MsgRequest(::System::Runtime::Remoting::Messaging::IMessage* value);
 
   static inline ::System::Runtime::Remoting::Channels::AsyncRequest* New_ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest,
                                                                               ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);

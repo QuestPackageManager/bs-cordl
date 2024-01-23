@@ -21,47 +21,47 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptParameterExample);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9592))
 // CS Name: ::HEU_ScriptParameterExample*
 class CORDL_TYPE HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _evergreenGameObject, offset 0x18, size 0x8
-  __declspec(property(get = __get__evergreenGameObject, put = __set__evergreenGameObject))::UnityEngine::GameObject* _evergreenGameObject;
+  __declspec(property(get = __cordl_internal_get__evergreenGameObject, put = __cordl_internal_set__evergreenGameObject))::UnityW<::UnityEngine::GameObject> _evergreenGameObject;
 
   /// @brief Field _evergreenAsset, offset 0x20, size 0x8
-  __declspec(property(get = __get__evergreenAsset, put = __set__evergreenAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* _evergreenAsset;
+  __declspec(property(get = __cordl_internal_get__evergreenAsset, put = __cordl_internal_set__evergreenAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _evergreenAsset;
 
   /// @brief Field _updateRate, offset 0x28, size 0x4
-  __declspec(property(get = __get__updateRate, put = __set__updateRate)) float_t _updateRate;
+  __declspec(property(get = __cordl_internal_get__updateRate, put = __cordl_internal_set__updateRate)) float_t _updateRate;
 
   /// @brief Field _scale, offset 0x2c, size 0x4
-  __declspec(property(get = __get__scale, put = __set__scale)) float_t _scale;
+  __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
 
-  constexpr ::UnityEngine::GameObject*& __get__evergreenGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__evergreenGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__evergreenGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__evergreenGameObject() const;
 
-  constexpr void __set__evergreenGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__evergreenGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& __get__evergreenAsset();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__evergreenAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& __get__evergreenAsset() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__evergreenAsset() const;
 
-  constexpr void __set__evergreenAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* value);
+  constexpr void __cordl_internal_set__evergreenAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr float_t& __get__updateRate();
+  constexpr float_t& __cordl_internal_get__updateRate();
 
-  constexpr float_t const& __get__updateRate() const;
+  constexpr float_t const& __cordl_internal_get__updateRate() const;
 
-  constexpr void __set__updateRate(float_t value);
+  constexpr void __cordl_internal_set__updateRate(float_t value);
 
-  constexpr float_t& __get__scale();
+  constexpr float_t& __cordl_internal_get__scale();
 
-  constexpr float_t const& __get__scale() const;
+  constexpr float_t const& __cordl_internal_get__scale() const;
 
-  constexpr void __set__scale(float_t value);
+  constexpr void __cordl_internal_set__scale(float_t value);
 
   /// @brief Method Start, addr 0x214d9c0, size 0x288, virtual false, abstract: false, final false
   inline void Start();
@@ -89,10 +89,10 @@ protected:
 
 public:
   /// @brief Field _evergreenGameObject, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____evergreenGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____evergreenGameObject;
 
   /// @brief Field _evergreenAsset, offset: 0x20, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_HoudiniAsset* ____evergreenAsset;
+  ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____evergreenAsset;
 
   /// @brief Field _updateRate, offset: 0x28, size: 0x4, def value: None
   float_t ____updateRate;

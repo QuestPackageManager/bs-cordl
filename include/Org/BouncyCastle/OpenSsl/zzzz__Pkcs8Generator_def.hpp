@@ -29,26 +29,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::Pkcs8Generator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1692))
 // CS Name: ::Org.BouncyCastle.OpenSsl::Pkcs8Generator*
 class CORDL_TYPE Pkcs8Generator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field password, offset 0x10, size 0x8
-  __declspec(property(get = __get_password, put = __set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
 
   /// @brief Field algorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::StringW algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::StringW algorithm;
 
   /// @brief Field iterationCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_iterationCount, put = __set_iterationCount)) int32_t iterationCount;
+  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount)) int32_t iterationCount;
 
   /// @brief Field privKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_privKey, put = __set_privKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey;
+  __declspec(property(get = __cordl_internal_get_privKey, put = __cordl_internal_set_privKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey;
 
   /// @brief Field random, offset 0x30, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field PbeSha1_RC4_128, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PbeSha1_RC4_128, put = setStaticF_PbeSha1_RC4_128))::StringW PbeSha1_RC4_128;
@@ -80,35 +80,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_password();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_password();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_password() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_password() const;
 
-  constexpr void __set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::StringW& __get_algorithm();
+  constexpr ::StringW& __cordl_internal_get_algorithm();
 
-  constexpr ::StringW const& __get_algorithm() const;
+  constexpr ::StringW const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::StringW value);
+  constexpr void __cordl_internal_set_algorithm(::StringW value);
 
-  constexpr int32_t& __get_iterationCount();
+  constexpr int32_t& __cordl_internal_get_iterationCount();
 
-  constexpr int32_t const& __get_iterationCount() const;
+  constexpr int32_t const& __cordl_internal_get_iterationCount() const;
 
-  constexpr void __set_iterationCount(int32_t value);
+  constexpr void __cordl_internal_set_iterationCount(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_privKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_privKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_privKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_privKey() const;
 
-  constexpr void __set_privKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline void setStaticF_PbeSha1_RC4_128(::StringW value);
 

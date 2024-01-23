@@ -68,7 +68,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBindi
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6191))
 // CS Name: ::InputBindingCompositeContext::PartBinding
 struct CORDL_TYPE __InputBindingCompositeContext__PartBinding {
@@ -123,7 +123,7 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6192))
 // CS Name: ::InputBindingCompositeContext::DefaultComparer`1<TValue>
 #pragma pack(push, 0)
@@ -155,7 +155,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6194))
 // CS Name: ::UnityEngine.InputSystem::InputBindingCompositeContext
 struct CORDL_TYPE InputBindingCompositeContext {
@@ -230,40 +230,40 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputBindingCompositeContext,
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6174)), TypeDefinitionIndex(TypeDefinitionIndex(6191)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6194))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6193)) CS Name: ::InputBindingCompositeContext::<get_controls>d__2*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6174)), TypeDefinitionIndex(TypeDefinitionIndex(6191)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6194))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6193)) CS Name: ::InputBindingCompositeContext::<get_controls>d__2*
 class CORDL_TYPE __InputBindingCompositeContext___get_controls_d__2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x30, size 0x10
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::InputSystem::InputBindingCompositeContext __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::InputSystem::InputBindingCompositeContext __4__this;
 
   /// @brief Field <>3__<>4__this, offset 0x40, size 0x10
-  __declspec(property(get = __get___3____4__this, put = __set___3____4__this))::UnityEngine::InputSystem::InputBindingCompositeContext __3____4__this;
+  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this))::UnityEngine::InputSystem::InputBindingCompositeContext __3____4__this;
 
   /// @brief Field <totalBindingCount>5__2, offset 0x50, size 0x4
-  __declspec(property(get = __get__totalBindingCount_5__2, put = __set__totalBindingCount_5__2)) int32_t _totalBindingCount_5__2;
+  __declspec(property(get = __cordl_internal_get__totalBindingCount_5__2, put = __cordl_internal_set__totalBindingCount_5__2)) int32_t _totalBindingCount_5__2;
 
   /// @brief Field <bindingIndex>5__3, offset 0x54, size 0x4
-  __declspec(property(get = __get__bindingIndex_5__3, put = __set__bindingIndex_5__3)) int32_t _bindingIndex_5__3;
+  __declspec(property(get = __cordl_internal_get__bindingIndex_5__3, put = __cordl_internal_set__bindingIndex_5__3)) int32_t _bindingIndex_5__3;
 
   /// @brief Field <bindingState>5__4, offset 0x58, size 0x20
-  __declspec(property(get = __get__bindingState_5__4, put = __set__bindingState_5__4))::UnityEngine::InputSystem::__InputActionState__BindingState _bindingState_5__4;
+  __declspec(property(get = __cordl_internal_get__bindingState_5__4, put = __cordl_internal_set__bindingState_5__4))::UnityEngine::InputSystem::__InputActionState__BindingState _bindingState_5__4;
 
   /// @brief Field <controlStartIndex>5__5, offset 0x78, size 0x4
-  __declspec(property(get = __get__controlStartIndex_5__5, put = __set__controlStartIndex_5__5)) int32_t _controlStartIndex_5__5;
+  __declspec(property(get = __cordl_internal_get__controlStartIndex_5__5, put = __cordl_internal_set__controlStartIndex_5__5)) int32_t _controlStartIndex_5__5;
 
   /// @brief Field <i>5__6, offset 0x7c, size 0x4
-  __declspec(property(get = __get__i_5__6, put = __set__i_5__6)) int32_t _i_5__6;
+  __declspec(property(get = __cordl_internal_get__i_5__6, put = __cordl_internal_set__i_5__6)) int32_t _i_5__6;
 
   __declspec(property(
       get =
@@ -304,65 +304,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding& __get___2__current();
+  constexpr ::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding const& __get___2__current() const;
+  constexpr ::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext& __get___4__this();
+  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext& __cordl_internal_get___4__this();
 
-  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext const& __get___4__this() const;
+  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::InputSystem::InputBindingCompositeContext value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::InputSystem::InputBindingCompositeContext value);
 
-  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext& __get___3____4__this();
+  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext& __cordl_internal_get___3____4__this();
 
-  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext const& __get___3____4__this() const;
+  constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext const& __cordl_internal_get___3____4__this() const;
 
-  constexpr void __set___3____4__this(::UnityEngine::InputSystem::InputBindingCompositeContext value);
+  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::InputSystem::InputBindingCompositeContext value);
 
-  constexpr int32_t& __get__totalBindingCount_5__2();
+  constexpr int32_t& __cordl_internal_get__totalBindingCount_5__2();
 
-  constexpr int32_t const& __get__totalBindingCount_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__totalBindingCount_5__2() const;
 
-  constexpr void __set__totalBindingCount_5__2(int32_t value);
+  constexpr void __cordl_internal_set__totalBindingCount_5__2(int32_t value);
 
-  constexpr int32_t& __get__bindingIndex_5__3();
+  constexpr int32_t& __cordl_internal_get__bindingIndex_5__3();
 
-  constexpr int32_t const& __get__bindingIndex_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__bindingIndex_5__3() const;
 
-  constexpr void __set__bindingIndex_5__3(int32_t value);
+  constexpr void __cordl_internal_set__bindingIndex_5__3(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::__InputActionState__BindingState& __get__bindingState_5__4();
+  constexpr ::UnityEngine::InputSystem::__InputActionState__BindingState& __cordl_internal_get__bindingState_5__4();
 
-  constexpr ::UnityEngine::InputSystem::__InputActionState__BindingState const& __get__bindingState_5__4() const;
+  constexpr ::UnityEngine::InputSystem::__InputActionState__BindingState const& __cordl_internal_get__bindingState_5__4() const;
 
-  constexpr void __set__bindingState_5__4(::UnityEngine::InputSystem::__InputActionState__BindingState value);
+  constexpr void __cordl_internal_set__bindingState_5__4(::UnityEngine::InputSystem::__InputActionState__BindingState value);
 
-  constexpr int32_t& __get__controlStartIndex_5__5();
+  constexpr int32_t& __cordl_internal_get__controlStartIndex_5__5();
 
-  constexpr int32_t const& __get__controlStartIndex_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__controlStartIndex_5__5() const;
 
-  constexpr void __set__controlStartIndex_5__5(int32_t value);
+  constexpr void __cordl_internal_set__controlStartIndex_5__5(int32_t value);
 
-  constexpr int32_t& __get__i_5__6();
+  constexpr int32_t& __cordl_internal_get__i_5__6();
 
-  constexpr int32_t const& __get__i_5__6() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__6() const;
 
-  constexpr void __set__i_5__6(int32_t value);
+  constexpr void __cordl_internal_set__i_5__6(int32_t value);
 
   static inline ::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2* New_ctor(int32_t __1__state);
 

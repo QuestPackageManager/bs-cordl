@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(340))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::AttCertValidityPeriod*
 class CORDL_TYPE AttCertValidityPeriod : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field notBeforeTime, offset 0x10, size 0x8
-  __declspec(property(get = __get_notBeforeTime, put = __set_notBeforeTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime;
+  __declspec(property(get = __cordl_internal_get_notBeforeTime, put = __cordl_internal_set_notBeforeTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime;
 
   /// @brief Field notAfterTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_notAfterTime, put = __set_notAfterTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime;
+  __declspec(property(get = __cordl_internal_get_notAfterTime, put = __cordl_internal_set_notAfterTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime;
 
   __declspec(property(get = get_NotBeforeTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotBeforeTime;
 
   __declspec(property(get = get_NotAfterTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotAfterTime;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_notBeforeTime();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_notBeforeTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_notBeforeTime() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_notBeforeTime() const;
 
-  constexpr void __set_notBeforeTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_notBeforeTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_notAfterTime();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_notAfterTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_notAfterTime() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_notAfterTime() const;
 
-  constexpr void __set_notAfterTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_notAfterTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
   /// @brief Method GetInstance, addr 0x1083f68, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::System::Object* obj);

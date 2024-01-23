@@ -86,7 +86,7 @@ MARK_VAL_T(::Zenject::__DisposableManager__DisposableInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11305))
 // CS Name: ::DisposableManager::DisposableInfo
 struct CORDL_TYPE __DisposableManager__DisposableInfo {
@@ -125,29 +125,29 @@ static_assert(offsetof(::Zenject::__DisposableManager__DisposableInfo, Priority)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11306))
 // CS Name: ::DisposableManager::LateDisposableInfo*
 class CORDL_TYPE __DisposableManager__LateDisposableInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field LateDisposable, offset 0x10, size 0x8
-  __declspec(property(get = __get_LateDisposable, put = __set_LateDisposable))::Zenject::ILateDisposable* LateDisposable;
+  __declspec(property(get = __cordl_internal_get_LateDisposable, put = __cordl_internal_set_LateDisposable))::Zenject::ILateDisposable* LateDisposable;
 
   /// @brief Field Priority, offset 0x18, size 0x4
-  __declspec(property(get = __get_Priority, put = __set_Priority)) int32_t Priority;
+  __declspec(property(get = __cordl_internal_get_Priority, put = __cordl_internal_set_Priority)) int32_t Priority;
 
-  constexpr ::Zenject::ILateDisposable*& __get_LateDisposable();
+  constexpr ::Zenject::ILateDisposable*& __cordl_internal_get_LateDisposable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& __get_LateDisposable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& __cordl_internal_get_LateDisposable() const;
 
-  constexpr void __set_LateDisposable(::Zenject::ILateDisposable* value);
+  constexpr void __cordl_internal_set_LateDisposable(::Zenject::ILateDisposable* value);
 
-  constexpr int32_t& __get_Priority();
+  constexpr int32_t& __cordl_internal_get_Priority();
 
-  constexpr int32_t const& __get_Priority() const;
+  constexpr int32_t const& __cordl_internal_get_Priority() const;
 
-  constexpr void __set_Priority(int32_t value);
+  constexpr void __cordl_internal_set_Priority(int32_t value);
 
   static inline ::Zenject::__DisposableManager__LateDisposableInfo* New_ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority);
 
@@ -194,20 +194,20 @@ static_assert(offsetof(::Zenject::__DisposableManager__LateDisposableInfo, ___Pr
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11307))
 // CS Name: ::DisposableManager::<>c__DisplayClass4_0*
 class CORDL_TYPE __DisposableManager____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field disposable, offset 0x10, size 0x8
-  __declspec(property(get = __get_disposable, put = __set_disposable))::System::IDisposable* disposable;
+  __declspec(property(get = __cordl_internal_get_disposable, put = __cordl_internal_set_disposable))::System::IDisposable* disposable;
 
-  constexpr ::System::IDisposable*& __get_disposable();
+  constexpr ::System::IDisposable*& __cordl_internal_get_disposable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __get_disposable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __cordl_internal_get_disposable() const;
 
-  constexpr void __set_disposable(::System::IDisposable* value);
+  constexpr void __cordl_internal_set_disposable(::System::IDisposable* value);
 
   static inline ::Zenject::__DisposableManager____c__DisplayClass4_0* New_ctor();
 
@@ -252,20 +252,20 @@ static_assert(offsetof(::Zenject::__DisposableManager____c__DisplayClass4_0, ___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11308))
 // CS Name: ::DisposableManager::<>c__DisplayClass4_1*
 class CORDL_TYPE __DisposableManager____c__DisplayClass4_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lateDisposable, offset 0x10, size 0x8
-  __declspec(property(get = __get_lateDisposable, put = __set_lateDisposable))::Zenject::ILateDisposable* lateDisposable;
+  __declspec(property(get = __cordl_internal_get_lateDisposable, put = __cordl_internal_set_lateDisposable))::Zenject::ILateDisposable* lateDisposable;
 
-  constexpr ::Zenject::ILateDisposable*& __get_lateDisposable();
+  constexpr ::Zenject::ILateDisposable*& __cordl_internal_get_lateDisposable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& __get_lateDisposable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& __cordl_internal_get_lateDisposable() const;
 
-  constexpr void __set_lateDisposable(::Zenject::ILateDisposable* value);
+  constexpr void __cordl_internal_set_lateDisposable(::Zenject::ILateDisposable* value);
 
   static inline ::Zenject::__DisposableManager____c__DisplayClass4_1* New_ctor();
 
@@ -310,7 +310,7 @@ static_assert(offsetof(::Zenject::__DisposableManager____c__DisplayClass4_1, ___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11309))
 // CS Name: ::DisposableManager::<>c*
 class CORDL_TYPE __DisposableManager____c : public ::System::Object {
@@ -400,20 +400,20 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__DisposableManager____
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11310))
 // CS Name: ::DisposableManager::<>c__DisplayClass9_0*
 class CORDL_TYPE __DisposableManager____c__DisplayClass9_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field disposable, offset 0x10, size 0x8
-  __declspec(property(get = __get_disposable, put = __set_disposable))::System::IDisposable* disposable;
+  __declspec(property(get = __cordl_internal_get_disposable, put = __cordl_internal_set_disposable))::System::IDisposable* disposable;
 
-  constexpr ::System::IDisposable*& __get_disposable();
+  constexpr ::System::IDisposable*& __cordl_internal_get_disposable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __get_disposable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __cordl_internal_get_disposable() const;
 
-  constexpr void __set_disposable(::System::IDisposable* value);
+  constexpr void __cordl_internal_set_disposable(::System::IDisposable* value);
 
   static inline ::Zenject::__DisposableManager____c__DisplayClass9_0* New_ctor();
 
@@ -458,7 +458,7 @@ static_assert(offsetof(::Zenject::__DisposableManager____c__DisplayClass9_0, ___
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11311))
 // CS Name: ::Zenject::DisposableManager*
 class CORDL_TYPE DisposableManager : public ::System::Object {
@@ -477,16 +477,18 @@ public:
   using DisposableInfo = ::Zenject::__DisposableManager__DisposableInfo;
 
   /// @brief Field _disposables, offset 0x10, size 0x8
-  __declspec(property(get = __get__disposables, put = __set__disposables))::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>* _disposables;
+  __declspec(property(get = __cordl_internal_get__disposables,
+                      put = __cordl_internal_set__disposables))::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>* _disposables;
 
   /// @brief Field _lateDisposables, offset 0x18, size 0x8
-  __declspec(property(get = __get__lateDisposables, put = __set__lateDisposables))::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>* _lateDisposables;
+  __declspec(property(get = __cordl_internal_get__lateDisposables,
+                      put = __cordl_internal_set__lateDisposables))::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>* _lateDisposables;
 
   /// @brief Field _disposed, offset 0x20, size 0x1
-  __declspec(property(get = __get__disposed, put = __set__disposed)) bool _disposed;
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   /// @brief Field _lateDisposed, offset 0x21, size 0x1
-  __declspec(property(get = __get__lateDisposed, put = __set__lateDisposed)) bool _lateDisposed;
+  __declspec(property(get = __cordl_internal_get__lateDisposed, put = __cordl_internal_set__lateDisposed)) bool _lateDisposed;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -494,29 +496,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*& __get__disposables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*& __cordl_internal_get__disposables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*> const& __get__disposables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*> const& __cordl_internal_get__disposables() const;
 
-  constexpr void __set__disposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>* value);
+  constexpr void __cordl_internal_set__disposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*& __get__lateDisposables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*& __cordl_internal_get__lateDisposables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*> const& __get__lateDisposables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*> const& __cordl_internal_get__lateDisposables() const;
 
-  constexpr void __set__lateDisposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>* value);
+  constexpr void __cordl_internal_set__lateDisposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>* value);
 
-  constexpr bool& __get__disposed();
+  constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-  constexpr void __set__disposed(bool value);
+  constexpr void __cordl_internal_set__disposed(bool value);
 
-  constexpr bool& __get__lateDisposed();
+  constexpr bool& __cordl_internal_get__lateDisposed();
 
-  constexpr bool const& __get__lateDisposed() const;
+  constexpr bool const& __cordl_internal_get__lateDisposed() const;
 
-  constexpr void __set__lateDisposed(bool value);
+  constexpr void __cordl_internal_set__lateDisposed(bool value);
 
   static inline ::Zenject::DisposableManager* New_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
                                                        ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,

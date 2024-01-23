@@ -23,33 +23,34 @@ MARK_REF_PTR_T(::Mono::Net::Security::AsyncReadOrWriteRequest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8822))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8822))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8824))
 // CS Name: ::Mono.Net.Security::AsyncReadOrWriteRequest*
 class CORDL_TYPE AsyncReadOrWriteRequest : public ::Mono::Net::Security::AsyncProtocolRequest {
 public:
   // Declarations
   /// @brief Field <UserBuffer>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__UserBuffer_k__BackingField, put = __set__UserBuffer_k__BackingField))::Mono::Net::Security::BufferOffsetSize* _UserBuffer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UserBuffer_k__BackingField,
+                      put = __cordl_internal_set__UserBuffer_k__BackingField))::Mono::Net::Security::BufferOffsetSize* _UserBuffer_k__BackingField;
 
   /// @brief Field <CurrentSize>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__CurrentSize_k__BackingField, put = __set__CurrentSize_k__BackingField)) int32_t _CurrentSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CurrentSize_k__BackingField, put = __cordl_internal_set__CurrentSize_k__BackingField)) int32_t _CurrentSize_k__BackingField;
 
   __declspec(property(get = get_UserBuffer))::Mono::Net::Security::BufferOffsetSize* UserBuffer;
 
   __declspec(property(get = get_CurrentSize, put = set_CurrentSize)) int32_t CurrentSize;
 
-  constexpr ::Mono::Net::Security::BufferOffsetSize*& __get__UserBuffer_k__BackingField();
+  constexpr ::Mono::Net::Security::BufferOffsetSize*& __cordl_internal_get__UserBuffer_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::BufferOffsetSize*> const& __get__UserBuffer_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::BufferOffsetSize*> const& __cordl_internal_get__UserBuffer_k__BackingField() const;
 
-  constexpr void __set__UserBuffer_k__BackingField(::Mono::Net::Security::BufferOffsetSize* value);
+  constexpr void __cordl_internal_set__UserBuffer_k__BackingField(::Mono::Net::Security::BufferOffsetSize* value);
 
-  constexpr int32_t& __get__CurrentSize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__CurrentSize_k__BackingField();
 
-  constexpr int32_t const& __get__CurrentSize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__CurrentSize_k__BackingField() const;
 
-  constexpr void __set__CurrentSize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__CurrentSize_k__BackingField(int32_t value);
 
   /// @brief Method get_UserBuffer, addr 0x281fa58, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer();

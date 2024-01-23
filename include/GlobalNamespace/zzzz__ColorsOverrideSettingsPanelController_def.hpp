@@ -54,50 +54,51 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorsOverrideSettingsPanelController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5412))
 // CS Name: ::ColorsOverrideSettingsPanelController*
 class CORDL_TYPE ColorsOverrideSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _overrideColorsToggle, offset 0x18, size 0x8
-  __declspec(property(get = __get__overrideColorsToggle, put = __set__overrideColorsToggle))::UnityEngine::UI::Toggle* _overrideColorsToggle;
+  __declspec(property(get = __cordl_internal_get__overrideColorsToggle, put = __cordl_internal_set__overrideColorsToggle))::UnityW<::UnityEngine::UI::Toggle> _overrideColorsToggle;
 
   /// @brief Field _detailsPanelGO, offset 0x20, size 0x8
-  __declspec(property(get = __get__detailsPanelGO, put = __set__detailsPanelGO))::UnityEngine::GameObject* _detailsPanelGO;
+  __declspec(property(get = __cordl_internal_get__detailsPanelGO, put = __cordl_internal_set__detailsPanelGO))::UnityW<::UnityEngine::GameObject> _detailsPanelGO;
 
   /// @brief Field _colorSchemeDropDown, offset 0x28, size 0x8
-  __declspec(property(get = __get__colorSchemeDropDown, put = __set__colorSchemeDropDown))::GlobalNamespace::ColorSchemeDropdown* _colorSchemeDropDown;
+  __declspec(property(get = __cordl_internal_get__colorSchemeDropDown, put = __cordl_internal_set__colorSchemeDropDown))::UnityW<::GlobalNamespace::ColorSchemeDropdown> _colorSchemeDropDown;
 
   /// @brief Field _editColorSchemeController, offset 0x30, size 0x8
-  __declspec(property(get = __get__editColorSchemeController, put = __set__editColorSchemeController))::GlobalNamespace::EditColorSchemeController* _editColorSchemeController;
+  __declspec(property(get = __cordl_internal_get__editColorSchemeController,
+                      put = __cordl_internal_set__editColorSchemeController))::UnityW<::GlobalNamespace::EditColorSchemeController> _editColorSchemeController;
 
   /// @brief Field _editColorSchemeModalView, offset 0x38, size 0x8
-  __declspec(property(get = __get__editColorSchemeModalView, put = __set__editColorSchemeModalView))::HMUI::ModalView* _editColorSchemeModalView;
+  __declspec(property(get = __cordl_internal_get__editColorSchemeModalView, put = __cordl_internal_set__editColorSchemeModalView))::UnityW<::HMUI::ModalView> _editColorSchemeModalView;
 
   /// @brief Field _editColorSchemeButton, offset 0x40, size 0x8
-  __declspec(property(get = __get__editColorSchemeButton, put = __set__editColorSchemeButton))::UnityEngine::UI::Button* _editColorSchemeButton;
+  __declspec(property(get = __cordl_internal_get__editColorSchemeButton, put = __cordl_internal_set__editColorSchemeButton))::UnityW<::UnityEngine::UI::Button> _editColorSchemeButton;
 
   /// @brief Field _presentPanelAnimation, offset 0x48, size 0x8
-  __declspec(property(get = __get__presentPanelAnimation, put = __set__presentPanelAnimation))::HMUI::PanelAnimationSO* _presentPanelAnimation;
+  __declspec(property(get = __cordl_internal_get__presentPanelAnimation, put = __cordl_internal_set__presentPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _presentPanelAnimation;
 
   /// @brief Field _dismissPanelAnimation, offset 0x50, size 0x8
-  __declspec(property(get = __get__dismissPanelAnimation, put = __set__dismissPanelAnimation))::HMUI::PanelAnimationSO* _dismissPanelAnimation;
+  __declspec(property(get = __cordl_internal_get__dismissPanelAnimation, put = __cordl_internal_set__dismissPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _dismissPanelAnimation;
 
   /// @brief Field _analyticsModel, offset 0x58, size 0x8
-  __declspec(property(get = __get__analyticsModel, put = __set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
   /// @brief Field _colorSchemesSettings, offset 0x60, size 0x8
-  __declspec(property(get = __get__colorSchemesSettings, put = __set__colorSchemesSettings))::GlobalNamespace::ColorSchemesSettings* _colorSchemesSettings;
+  __declspec(property(get = __cordl_internal_get__colorSchemesSettings, put = __cordl_internal_set__colorSchemesSettings))::GlobalNamespace::ColorSchemesSettings* _colorSchemesSettings;
 
   /// @brief Field _initialized, offset 0x68, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _isDirty, offset 0x69, size 0x1
-  __declspec(property(get = __get__isDirty, put = __set__isDirty)) bool _isDirty;
+  __declspec(property(get = __cordl_internal_get__isDirty, put = __cordl_internal_set__isDirty)) bool _isDirty;
 
   /// @brief Field _buttonBinder, offset 0x70, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
@@ -105,83 +106,83 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__overrideColorsToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__overrideColorsToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__overrideColorsToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__overrideColorsToggle() const;
 
-  constexpr void __set__overrideColorsToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__overrideColorsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__detailsPanelGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__detailsPanelGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__detailsPanelGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__detailsPanelGO() const;
 
-  constexpr void __set__detailsPanelGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__detailsPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::ColorSchemeDropdown*& __get__colorSchemeDropDown();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeDropdown>& __cordl_internal_get__colorSchemeDropDown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeDropdown*> const& __get__colorSchemeDropDown() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeDropdown> const& __cordl_internal_get__colorSchemeDropDown() const;
 
-  constexpr void __set__colorSchemeDropDown(::GlobalNamespace::ColorSchemeDropdown* value);
+  constexpr void __cordl_internal_set__colorSchemeDropDown(::UnityW<::GlobalNamespace::ColorSchemeDropdown> value);
 
-  constexpr ::GlobalNamespace::EditColorSchemeController*& __get__editColorSchemeController();
+  constexpr ::UnityW<::GlobalNamespace::EditColorSchemeController>& __cordl_internal_get__editColorSchemeController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EditColorSchemeController*> const& __get__editColorSchemeController() const;
+  constexpr ::UnityW<::GlobalNamespace::EditColorSchemeController> const& __cordl_internal_get__editColorSchemeController() const;
 
-  constexpr void __set__editColorSchemeController(::GlobalNamespace::EditColorSchemeController* value);
+  constexpr void __cordl_internal_set__editColorSchemeController(::UnityW<::GlobalNamespace::EditColorSchemeController> value);
 
-  constexpr ::HMUI::ModalView*& __get__editColorSchemeModalView();
+  constexpr ::UnityW<::HMUI::ModalView>& __cordl_internal_get__editColorSchemeModalView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ModalView*> const& __get__editColorSchemeModalView() const;
+  constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get__editColorSchemeModalView() const;
 
-  constexpr void __set__editColorSchemeModalView(::HMUI::ModalView* value);
+  constexpr void __cordl_internal_set__editColorSchemeModalView(::UnityW<::HMUI::ModalView> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__editColorSchemeButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__editColorSchemeButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__editColorSchemeButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editColorSchemeButton() const;
 
-  constexpr void __set__editColorSchemeButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__editColorSchemeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::PanelAnimationSO*& __get__presentPanelAnimation();
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__presentPanelAnimation();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& __get__presentPanelAnimation() const;
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__presentPanelAnimation() const;
 
-  constexpr void __set__presentPanelAnimation(::HMUI::PanelAnimationSO* value);
+  constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  constexpr ::HMUI::PanelAnimationSO*& __get__dismissPanelAnimation();
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__dismissPanelAnimation();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& __get__dismissPanelAnimation() const;
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__dismissPanelAnimation() const;
 
-  constexpr void __set__dismissPanelAnimation(::HMUI::PanelAnimationSO* value);
+  constexpr void __cordl_internal_set__dismissPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __get__analyticsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  constexpr ::GlobalNamespace::ColorSchemesSettings*& __get__colorSchemesSettings();
+  constexpr ::GlobalNamespace::ColorSchemesSettings*& __cordl_internal_get__colorSchemesSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemesSettings*> const& __get__colorSchemesSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemesSettings*> const& __cordl_internal_get__colorSchemesSettings() const;
 
-  constexpr void __set__colorSchemesSettings(::GlobalNamespace::ColorSchemesSettings* value);
+  constexpr void __cordl_internal_set__colorSchemesSettings(::GlobalNamespace::ColorSchemesSettings* value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
-  constexpr bool& __get__isDirty();
+  constexpr bool& __cordl_internal_get__isDirty();
 
-  constexpr bool const& __get__isDirty() const;
+  constexpr bool const& __cordl_internal_get__isDirty() const;
 
-  constexpr void __set__isDirty(bool value);
+  constexpr void __cordl_internal_set__isDirty(bool value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method SetData, addr 0x2275e84, size 0x268, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
@@ -236,28 +237,28 @@ protected:
 
 public:
   /// @brief Field _overrideColorsToggle, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____overrideColorsToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____overrideColorsToggle;
 
   /// @brief Field _detailsPanelGO, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____detailsPanelGO;
+  ::UnityW<::UnityEngine::GameObject> ____detailsPanelGO;
 
   /// @brief Field _colorSchemeDropDown, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeDropdown* ____colorSchemeDropDown;
+  ::UnityW<::GlobalNamespace::ColorSchemeDropdown> ____colorSchemeDropDown;
 
   /// @brief Field _editColorSchemeController, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::EditColorSchemeController* ____editColorSchemeController;
+  ::UnityW<::GlobalNamespace::EditColorSchemeController> ____editColorSchemeController;
 
   /// @brief Field _editColorSchemeModalView, offset: 0x38, size: 0x8, def value: None
-  ::HMUI::ModalView* ____editColorSchemeModalView;
+  ::UnityW<::HMUI::ModalView> ____editColorSchemeModalView;
 
   /// @brief Field _editColorSchemeButton, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____editColorSchemeButton;
+  ::UnityW<::UnityEngine::UI::Button> ____editColorSchemeButton;
 
   /// @brief Field _presentPanelAnimation, offset: 0x48, size: 0x8, def value: None
-  ::HMUI::PanelAnimationSO* ____presentPanelAnimation;
+  ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
 
   /// @brief Field _dismissPanelAnimation, offset: 0x50, size: 0x8, def value: None
-  ::HMUI::PanelAnimationSO* ____dismissPanelAnimation;
+  ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
   /// @brief Field _analyticsModel, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;

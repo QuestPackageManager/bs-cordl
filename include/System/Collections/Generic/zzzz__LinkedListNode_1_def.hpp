@@ -19,23 +19,23 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9535))
 // CS Name: ::System.Collections.Generic::LinkedListNode`1<T>*
 class CORDL_TYPE LinkedListNode_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::Generic::LinkedList_1<T>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::LinkedList_1<T>* list;
 
   /// @brief Field next, offset 0x18, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Collections::Generic::LinkedListNode_1<T>* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Collections::Generic::LinkedListNode_1<T>* next;
 
   /// @brief Field prev, offset 0x20, size 0x8
-  __declspec(property(get = __get_prev, put = __set_prev))::System::Collections::Generic::LinkedListNode_1<T>* prev;
+  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::System::Collections::Generic::LinkedListNode_1<T>* prev;
 
   /// @brief Field item, offset 0x28, size 0x8
-  __declspec(property(get = __get_item, put = __set_item)) T item;
+  __declspec(property(get = __cordl_internal_get_item, put = __cordl_internal_set_item)) T item;
 
   __declspec(property(get = get_List))::System::Collections::Generic::LinkedList_1<T>* List;
 
@@ -45,29 +45,29 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value)) T Value;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<T>*& __get_list();
+  constexpr ::System::Collections::Generic::LinkedList_1<T>*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::Generic::LinkedList_1<T>* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::Generic::LinkedList_1<T>* value);
 
-  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __get_next();
+  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Collections::Generic::LinkedListNode_1<T>* value);
+  constexpr void __cordl_internal_set_next(::System::Collections::Generic::LinkedListNode_1<T>* value);
 
-  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __get_prev();
+  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __cordl_internal_get_prev();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __get_prev() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __cordl_internal_get_prev() const;
 
-  constexpr void __set_prev(::System::Collections::Generic::LinkedListNode_1<T>* value);
+  constexpr void __cordl_internal_set_prev(::System::Collections::Generic::LinkedListNode_1<T>* value);
 
-  constexpr T& __get_item();
+  constexpr T& __cordl_internal_get_item();
 
-  constexpr T const& __get_item() const;
+  constexpr T const& __cordl_internal_get_item() const;
 
-  constexpr void __set_item(T value);
+  constexpr void __cordl_internal_set_item(T value);
 
   static inline ::System::Collections::Generic::LinkedListNode_1<T>* New_ctor(T value);
 

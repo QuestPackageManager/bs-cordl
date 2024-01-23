@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlAnyListConverter);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11757))
 // CS Name: ::System.Xml.Schema::XmlAnyListConverter*
 class CORDL_TYPE XmlAnyListConverter : public ::System::Xml::Schema::XmlListConverter {

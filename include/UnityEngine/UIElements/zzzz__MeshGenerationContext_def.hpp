@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshGenerationContext);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7337))
 // CS Name: ::MeshGenerationContext::MeshFlags
 struct CORDL_TYPE __MeshGenerationContext__MeshFlags {
@@ -80,7 +80,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContext__MeshF
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7338))
 // CS Name: ::UnityEngine.UIElements::MeshGenerationContext*
 class CORDL_TYPE MeshGenerationContext : public ::System::Object {
@@ -89,13 +89,13 @@ public:
   using MeshFlags = ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags;
 
   /// @brief Field painter, offset 0x10, size 0x8
-  __declspec(property(get = __get_painter, put = __set_painter))::UnityEngine::UIElements::IStylePainter* painter;
+  __declspec(property(get = __cordl_internal_get_painter, put = __cordl_internal_set_painter))::UnityEngine::UIElements::IStylePainter* painter;
 
-  constexpr ::UnityEngine::UIElements::IStylePainter*& __get_painter();
+  constexpr ::UnityEngine::UIElements::IStylePainter*& __cordl_internal_get_painter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IStylePainter*> const& __get_painter() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IStylePainter*> const& __cordl_internal_get_painter() const;
 
-  constexpr void __set_painter(::UnityEngine::UIElements::IStylePainter* value);
+  constexpr void __cordl_internal_set_painter(::UnityEngine::UIElements::IStylePainter* value);
 
   static inline ::UnityEngine::UIElements::MeshGenerationContext* New_ctor(::UnityEngine::UIElements::IStylePainter* painter);
 

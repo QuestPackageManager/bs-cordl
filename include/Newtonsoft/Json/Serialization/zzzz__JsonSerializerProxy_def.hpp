@@ -124,20 +124,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonSerializerProxy);
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11836))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11836))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11957))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonSerializerProxy*
 class CORDL_TYPE JsonSerializerProxy : public ::Newtonsoft::Json::JsonSerializer {
 public:
   // Declarations
   /// @brief Field _serializerReader, offset 0xe0, size 0x8
-  __declspec(property(get = __get__serializerReader, put = __set__serializerReader))::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* _serializerReader;
+  __declspec(property(get = __cordl_internal_get__serializerReader, put = __cordl_internal_set__serializerReader))::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* _serializerReader;
 
   /// @brief Field _serializerWriter, offset 0xe8, size 0x8
-  __declspec(property(get = __get__serializerWriter, put = __set__serializerWriter))::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* _serializerWriter;
+  __declspec(property(get = __cordl_internal_get__serializerWriter, put = __cordl_internal_set__serializerWriter))::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* _serializerWriter;
 
   /// @brief Field _serializer, offset 0xf0, size 0x8
-  __declspec(property(get = __get__serializer, put = __set__serializer))::Newtonsoft::Json::JsonSerializer* _serializer;
+  __declspec(property(get = __cordl_internal_get__serializer, put = __cordl_internal_set__serializer))::Newtonsoft::Json::JsonSerializer* _serializer;
 
   __declspec(property(get = get_ReferenceResolver, put = set_ReferenceResolver))::Newtonsoft::Json::Serialization::IReferenceResolver* ReferenceResolver;
 
@@ -195,23 +195,23 @@ public:
 
   __declspec(property(get = get_CheckAdditionalContent, put = set_CheckAdditionalContent)) bool CheckAdditionalContent;
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& __get__serializerReader();
+  constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& __cordl_internal_get__serializerReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*> const& __get__serializerReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*> const& __cordl_internal_get__serializerReader() const;
 
-  constexpr void __set__serializerReader(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* value);
+  constexpr void __cordl_internal_set__serializerReader(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*& __get__serializerWriter();
+  constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*& __cordl_internal_get__serializerWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*> const& __get__serializerWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*> const& __cordl_internal_get__serializerWriter() const;
 
-  constexpr void __set__serializerWriter(::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* value);
+  constexpr void __cordl_internal_set__serializerWriter(::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* value);
 
-  constexpr ::Newtonsoft::Json::JsonSerializer*& __get__serializer();
+  constexpr ::Newtonsoft::Json::JsonSerializer*& __cordl_internal_get__serializer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonSerializer*> const& __get__serializer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonSerializer*> const& __cordl_internal_get__serializer() const;
 
-  constexpr void __set__serializer(::Newtonsoft::Json::JsonSerializer* value);
+  constexpr void __cordl_internal_set__serializer(::Newtonsoft::Json::JsonSerializer* value);
 
   /// @brief Method add_Error, addr 0x268d830, size 0x20, virtual true, abstract: false, final false
   inline void add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);

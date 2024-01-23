@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Angle);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7304))
 // CS Name: ::Angle::Unit
 struct CORDL_TYPE __Angle__Unit {
@@ -96,7 +96,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__Angle__Unit, value__) == 0x0
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7304))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7304))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7305))
 // CS Name: ::UnityEngine.UIElements::Angle
 struct CORDL_TYPE Angle {

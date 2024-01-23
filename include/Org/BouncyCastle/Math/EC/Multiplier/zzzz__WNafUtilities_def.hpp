@@ -66,17 +66,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__Preco
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1542))
 // CS Name: ::WNafUtilities::ConfigureBasepointCallback*
 class CORDL_TYPE __WNafUtilities__ConfigureBasepointCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_curve, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_curve, put = __set_m_curve))::Org::BouncyCastle::Math::EC::ECCurve* m_curve;
+  __declspec(property(get = __cordl_internal_get_m_curve, put = __cordl_internal_set_m_curve))::Org::BouncyCastle::Math::EC::ECCurve* m_curve;
 
   /// @brief Field m_confWidth, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_confWidth, put = __set_m_confWidth)) int32_t m_confWidth;
+  __declspec(property(get = __cordl_internal_get_m_confWidth, put = __cordl_internal_set_m_confWidth)) int32_t m_confWidth;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
@@ -84,17 +84,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_m_curve();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_m_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_m_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_m_curve() const;
 
-  constexpr void __set_m_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_m_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr int32_t& __get_m_confWidth();
+  constexpr int32_t& __cordl_internal_get_m_confWidth();
 
-  constexpr int32_t const& __get_m_confWidth() const;
+  constexpr int32_t const& __cordl_internal_get_m_confWidth() const;
 
-  constexpr void __set_m_confWidth(int32_t value);
+  constexpr void __cordl_internal_set_m_confWidth(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__ConfigureBasepointCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, int32_t confWidth);
 
@@ -138,20 +138,20 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilitie
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1543))
 // CS Name: ::WNafUtilities::MapPointCallback*
 class CORDL_TYPE __WNafUtilities__MapPointCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_infoP, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_infoP, put = __set_m_infoP))::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* m_infoP;
+  __declspec(property(get = __cordl_internal_get_m_infoP, put = __cordl_internal_set_m_infoP))::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* m_infoP;
 
   /// @brief Field m_includeNegated, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_includeNegated, put = __set_m_includeNegated)) bool m_includeNegated;
+  __declspec(property(get = __cordl_internal_get_m_includeNegated, put = __cordl_internal_set_m_includeNegated)) bool m_includeNegated;
 
   /// @brief Field m_pointMap, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_pointMap, put = __set_m_pointMap))::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
+  __declspec(property(get = __cordl_internal_get_m_pointMap, put = __cordl_internal_set_m_pointMap))::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
@@ -159,23 +159,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*& __get_m_infoP();
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*& __cordl_internal_get_m_infoP();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*> const& __get_m_infoP() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*> const& __cordl_internal_get_m_infoP() const;
 
-  constexpr void __set_m_infoP(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* value);
+  constexpr void __cordl_internal_set_m_infoP(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* value);
 
-  constexpr bool& __get_m_includeNegated();
+  constexpr bool& __cordl_internal_get_m_includeNegated();
 
-  constexpr bool const& __get_m_includeNegated() const;
+  constexpr bool const& __cordl_internal_get_m_includeNegated() const;
 
-  constexpr void __set_m_includeNegated(bool value);
+  constexpr void __cordl_internal_set_m_includeNegated(bool value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& __get_m_pointMap();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& __cordl_internal_get_m_pointMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& __get_m_pointMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& __cordl_internal_get_m_pointMap() const;
 
-  constexpr void __set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
+  constexpr void __cordl_internal_set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__MapPointCallback* New_ctor(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* infoP, bool includeNegated,
                                                                                                        ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap);
@@ -225,20 +225,20 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilitie
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1544))
 // CS Name: ::WNafUtilities::PrecomputeCallback*
 class CORDL_TYPE __WNafUtilities__PrecomputeCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_p, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_p, put = __set_m_p))::Org::BouncyCastle::Math::EC::ECPoint* m_p;
+  __declspec(property(get = __cordl_internal_get_m_p, put = __cordl_internal_set_m_p))::Org::BouncyCastle::Math::EC::ECPoint* m_p;
 
   /// @brief Field m_minWidth, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_minWidth, put = __set_m_minWidth)) int32_t m_minWidth;
+  __declspec(property(get = __cordl_internal_get_m_minWidth, put = __cordl_internal_set_m_minWidth)) int32_t m_minWidth;
 
   /// @brief Field m_includeNegated, offset 0x1c, size 0x1
-  __declspec(property(get = __get_m_includeNegated, put = __set_m_includeNegated)) bool m_includeNegated;
+  __declspec(property(get = __cordl_internal_get_m_includeNegated, put = __cordl_internal_set_m_includeNegated)) bool m_includeNegated;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
@@ -246,23 +246,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_p();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_m_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_m_p() const;
 
-  constexpr void __set_m_p(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_m_p(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  constexpr int32_t& __get_m_minWidth();
+  constexpr int32_t& __cordl_internal_get_m_minWidth();
 
-  constexpr int32_t const& __get_m_minWidth() const;
+  constexpr int32_t const& __cordl_internal_get_m_minWidth() const;
 
-  constexpr void __set_m_minWidth(int32_t value);
+  constexpr void __cordl_internal_set_m_minWidth(int32_t value);
 
-  constexpr bool& __get_m_includeNegated();
+  constexpr bool& __cordl_internal_get_m_includeNegated();
 
-  constexpr bool const& __get_m_includeNegated() const;
+  constexpr bool const& __cordl_internal_get_m_includeNegated() const;
 
-  constexpr void __set_m_includeNegated(bool value);
+  constexpr void __cordl_internal_set_m_includeNegated(bool value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__PrecomputeCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, int32_t minWidth, bool includeNegated);
 
@@ -317,23 +317,23 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilitie
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1545))
 // CS Name: ::WNafUtilities::PrecomputeWithPointMapCallback*
 class CORDL_TYPE __WNafUtilities__PrecomputeWithPointMapCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_point, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_point, put = __set_m_point))::Org::BouncyCastle::Math::EC::ECPoint* m_point;
+  __declspec(property(get = __cordl_internal_get_m_point, put = __cordl_internal_set_m_point))::Org::BouncyCastle::Math::EC::ECPoint* m_point;
 
   /// @brief Field m_pointMap, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_pointMap, put = __set_m_pointMap))::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
+  __declspec(property(get = __cordl_internal_get_m_pointMap, put = __cordl_internal_set_m_pointMap))::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
 
   /// @brief Field m_fromWNaf, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_fromWNaf, put = __set_m_fromWNaf))::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* m_fromWNaf;
+  __declspec(property(get = __cordl_internal_get_m_fromWNaf, put = __cordl_internal_set_m_fromWNaf))::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* m_fromWNaf;
 
   /// @brief Field m_includeNegated, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_includeNegated, put = __set_m_includeNegated)) bool m_includeNegated;
+  __declspec(property(get = __cordl_internal_get_m_includeNegated, put = __cordl_internal_set_m_includeNegated)) bool m_includeNegated;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
@@ -341,29 +341,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_point();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_point();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_m_point() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_m_point() const;
 
-  constexpr void __set_m_point(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_m_point(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& __get_m_pointMap();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& __cordl_internal_get_m_pointMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& __get_m_pointMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& __cordl_internal_get_m_pointMap() const;
 
-  constexpr void __set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
+  constexpr void __cordl_internal_set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*& __get_m_fromWNaf();
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*& __cordl_internal_get_m_fromWNaf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*> const& __get_m_fromWNaf() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*> const& __cordl_internal_get_m_fromWNaf() const;
 
-  constexpr void __set_m_fromWNaf(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* value);
+  constexpr void __cordl_internal_set_m_fromWNaf(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* value);
 
-  constexpr bool& __get_m_includeNegated();
+  constexpr bool& __cordl_internal_get_m_includeNegated();
 
-  constexpr bool const& __get_m_includeNegated() const;
+  constexpr bool const& __cordl_internal_get_m_includeNegated() const;
 
-  constexpr void __set_m_includeNegated(bool value);
+  constexpr void __cordl_internal_set_m_includeNegated(bool value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__PrecomputeWithPointMapCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* point,
                                                                                                                      ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap,
@@ -427,7 +427,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilitie
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1546))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::WNafUtilities*
 class CORDL_TYPE WNafUtilities : public ::System::Object {

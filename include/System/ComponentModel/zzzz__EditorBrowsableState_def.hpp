@@ -15,7 +15,7 @@ MARK_VAL_T(::System::ComponentModel::EditorBrowsableState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9385))
 // CS Name: ::System.ComponentModel::EditorBrowsableState
 struct CORDL_TYPE EditorBrowsableState {

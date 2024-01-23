@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AttributeData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9661))
 // CS Name: ::HEU_AttributeData::AttributeType
 struct CORDL_TYPE __HEU_AttributeData__AttributeType {
@@ -104,7 +104,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9662))
 // CS Name: ::HEU_AttributeData::AttributeState
 struct CORDL_TYPE __HEU_AttributeData__AttributeState {
@@ -158,8 +158,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9662)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9741)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9661))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9663)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9661)), TypeDefinitionIndex(TypeDefinitionIndex(9662)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9741))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9663)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
 class CORDL_TYPE HEU_AttributeData : public ::System::Object {
 public:
   // Declarations
@@ -168,25 +168,25 @@ public:
   using AttributeType = ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType;
 
   /// @brief Field _attributeInfo, offset 0x10, size 0x28
-  __declspec(property(get = __get__attributeInfo, put = __set__attributeInfo))::HoudiniEngineUnity::HAPI_AttributeInfo _attributeInfo;
+  __declspec(property(get = __cordl_internal_get__attributeInfo, put = __cordl_internal_set__attributeInfo))::HoudiniEngineUnity::HAPI_AttributeInfo _attributeInfo;
 
   /// @brief Field _name, offset 0x38, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _attributeType, offset 0x40, size 0x4
-  __declspec(property(get = __get__attributeType, put = __set__attributeType))::HoudiniEngineUnity::__HEU_AttributeData__AttributeType _attributeType;
+  __declspec(property(get = __cordl_internal_get__attributeType, put = __cordl_internal_set__attributeType))::HoudiniEngineUnity::__HEU_AttributeData__AttributeType _attributeType;
 
   /// @brief Field _intValues, offset 0x48, size 0x8
-  __declspec(property(get = __get__intValues, put = __set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
+  __declspec(property(get = __cordl_internal_get__intValues, put = __cordl_internal_set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
 
   /// @brief Field _floatValues, offset 0x50, size 0x8
-  __declspec(property(get = __get__floatValues, put = __set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
+  __declspec(property(get = __cordl_internal_get__floatValues, put = __cordl_internal_set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
 
   /// @brief Field _stringValues, offset 0x58, size 0x8
-  __declspec(property(get = __get__stringValues, put = __set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
+  __declspec(property(get = __cordl_internal_get__stringValues, put = __cordl_internal_set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
 
   /// @brief Field _attributeState, offset 0x60, size 0x4
-  __declspec(property(get = __get__attributeState, put = __set__attributeState))::HoudiniEngineUnity::__HEU_AttributeData__AttributeState _attributeState;
+  __declspec(property(get = __cordl_internal_get__attributeState, put = __cordl_internal_set__attributeState))::HoudiniEngineUnity::__HEU_AttributeData__AttributeState _attributeState;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>*() noexcept;
@@ -194,47 +194,47 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_AttributeData__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __get__attributeInfo();
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __cordl_internal_get__attributeInfo();
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& __get__attributeInfo() const;
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& __cordl_internal_get__attributeInfo() const;
 
-  constexpr void __set__attributeInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value);
+  constexpr void __cordl_internal_set__attributeInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType& __get__attributeType();
+  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType& __cordl_internal_get__attributeType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const& __get__attributeType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const& __cordl_internal_get__attributeType() const;
 
-  constexpr void __set__attributeType(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType value);
+  constexpr void __cordl_internal_set__attributeType(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__intValues();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__intValues();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__intValues() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__intValues() const;
 
-  constexpr void __set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__floatValues();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__floatValues();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__floatValues() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__floatValues() const;
 
-  constexpr void __set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__stringValues();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__stringValues();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__stringValues() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__stringValues() const;
 
-  constexpr void __set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState& __get__attributeState();
+  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState& __cordl_internal_get__attributeState();
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState const& __get__attributeState() const;
+  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState const& __cordl_internal_get__attributeState() const;
 
-  constexpr void __set__attributeState(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState value);
+  constexpr void __cordl_internal_set__attributeState(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState value);
 
   /// @brief Method IsColorAttribute, addr 0x217f7c4, size 0x70, virtual false, abstract: false, final false
   inline bool IsColorAttribute();

@@ -21,7 +21,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2419))
 // CS Name: ::System::IObservable`1<T>*
 class CORDL_TYPE IObservable_1 {

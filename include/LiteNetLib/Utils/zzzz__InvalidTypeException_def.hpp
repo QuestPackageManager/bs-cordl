@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::InvalidTypeException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14207))
 // CS Name: ::LiteNetLib.Utils::InvalidTypeException*
 class CORDL_TYPE InvalidTypeException : public ::System::ArgumentException {

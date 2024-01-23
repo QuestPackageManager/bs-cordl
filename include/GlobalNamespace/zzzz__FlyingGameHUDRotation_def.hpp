@@ -21,56 +21,57 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingGameHUDRotation);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4987))
 // CS Name: ::FlyingGameHUDRotation*
 class CORDL_TYPE FlyingGameHUDRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _smooth, offset 0x18, size 0x4
-  __declspec(property(get = __get__smooth, put = __set__smooth)) float_t _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _beatLineManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatLineManager, put = __set__beatLineManager))::GlobalNamespace::BeatLineManager* _beatLineManager;
+  __declspec(property(get = __cordl_internal_get__beatLineManager, put = __cordl_internal_set__beatLineManager))::UnityW<::GlobalNamespace::BeatLineManager> _beatLineManager;
 
   /// @brief Field _environmentSpawnRotation, offset 0x28, size 0x8
-  __declspec(property(get = __get__environmentSpawnRotation, put = __set__environmentSpawnRotation))::GlobalNamespace::EnvironmentSpawnRotation* _environmentSpawnRotation;
+  __declspec(property(get = __cordl_internal_get__environmentSpawnRotation,
+                      put = __cordl_internal_set__environmentSpawnRotation))::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> _environmentSpawnRotation;
 
   /// @brief Field _prevYAngle, offset 0x30, size 0x4
-  __declspec(property(get = __get__prevYAngle, put = __set__prevYAngle)) float_t _prevYAngle;
+  __declspec(property(get = __cordl_internal_get__prevYAngle, put = __cordl_internal_set__prevYAngle)) float_t _prevYAngle;
 
   /// @brief Field _yAngle, offset 0x34, size 0x4
-  __declspec(property(get = __get__yAngle, put = __set__yAngle)) float_t _yAngle;
+  __declspec(property(get = __cordl_internal_get__yAngle, put = __cordl_internal_set__yAngle)) float_t _yAngle;
 
-  constexpr float_t& __get__smooth();
+  constexpr float_t& __cordl_internal_get__smooth();
 
-  constexpr float_t const& __get__smooth() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(float_t value);
+  constexpr void __cordl_internal_set__smooth(float_t value);
 
-  constexpr ::GlobalNamespace::BeatLineManager*& __get__beatLineManager();
+  constexpr ::UnityW<::GlobalNamespace::BeatLineManager>& __cordl_internal_get__beatLineManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatLineManager*> const& __get__beatLineManager() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatLineManager> const& __cordl_internal_get__beatLineManager() const;
 
-  constexpr void __set__beatLineManager(::GlobalNamespace::BeatLineManager* value);
+  constexpr void __cordl_internal_set__beatLineManager(::UnityW<::GlobalNamespace::BeatLineManager> value);
 
-  constexpr ::GlobalNamespace::EnvironmentSpawnRotation*& __get__environmentSpawnRotation();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation>& __cordl_internal_get__environmentSpawnRotation();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSpawnRotation*> const& __get__environmentSpawnRotation() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> const& __cordl_internal_get__environmentSpawnRotation() const;
 
-  constexpr void __set__environmentSpawnRotation(::GlobalNamespace::EnvironmentSpawnRotation* value);
+  constexpr void __cordl_internal_set__environmentSpawnRotation(::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> value);
 
-  constexpr float_t& __get__prevYAngle();
+  constexpr float_t& __cordl_internal_get__prevYAngle();
 
-  constexpr float_t const& __get__prevYAngle() const;
+  constexpr float_t const& __cordl_internal_get__prevYAngle() const;
 
-  constexpr void __set__prevYAngle(float_t value);
+  constexpr void __cordl_internal_set__prevYAngle(float_t value);
 
-  constexpr float_t& __get__yAngle();
+  constexpr float_t& __cordl_internal_get__yAngle();
 
-  constexpr float_t const& __get__yAngle() const;
+  constexpr float_t const& __cordl_internal_get__yAngle() const;
 
-  constexpr void __set__yAngle(float_t value);
+  constexpr void __cordl_internal_set__yAngle(float_t value);
 
   /// @brief Method Start, addr 0x23b4684, size 0xdc, virtual false, abstract: false, final false
   inline void Start();
@@ -104,10 +105,10 @@ public:
   float_t ____smooth;
 
   /// @brief Field _beatLineManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatLineManager* ____beatLineManager;
+  ::UnityW<::GlobalNamespace::BeatLineManager> ____beatLineManager;
 
   /// @brief Field _environmentSpawnRotation, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentSpawnRotation* ____environmentSpawnRotation;
+  ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> ____environmentSpawnRotation;
 
   /// @brief Field _prevYAngle, offset: 0x30, size: 0x4, def value: None
   float_t ____prevYAngle;

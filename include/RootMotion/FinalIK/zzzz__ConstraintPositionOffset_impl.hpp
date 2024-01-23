@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x12427bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(),
@@ -27,9 +27,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x124291c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,10 +41,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x1242924;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
     return ___internal_method;
   }
 };
@@ -56,57 +56,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x12428c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(),
-                                                                               "get_positionChanged", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_positionChanged", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::ConstraintPositionOffset::__get_offset() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_offset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::ConstraintPositionOffset::__get_offset() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_offset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__set_offset(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_set_offset(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::ConstraintPositionOffset::__get_defaultLocalPosition() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_defaultLocalPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalPosition;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::ConstraintPositionOffset::__get_defaultLocalPosition() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_defaultLocalPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalPosition;
 }
-constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__set_defaultLocalPosition(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalPosition = value;
 }
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::ConstraintPositionOffset::__get_lastLocalPosition() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_lastLocalPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastLocalPosition;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::ConstraintPositionOffset::__get_lastLocalPosition() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_lastLocalPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastLocalPosition;
 }
-constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__set_lastLocalPosition(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_set_lastLocalPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastLocalPosition = value;
 }
-constexpr bool& RootMotion::FinalIK::ConstraintPositionOffset::__get_initiated() {
+constexpr bool& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_initiated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
-constexpr bool const& RootMotion::FinalIK::ConstraintPositionOffset::__get_initiated() const {
+constexpr bool const& RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_get_initiated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
-constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__set_initiated(bool value) {
+constexpr void RootMotion::FinalIK::ConstraintPositionOffset::__cordl_internal_set_initiated(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
@@ -116,25 +116,25 @@ inline void RootMotion::FinalIK::ConstraintPositionOffset::UpdateConstraint() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::RootMotion::FinalIK::ConstraintPositionOffset* RootMotion::FinalIK::ConstraintPositionOffset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::ConstraintPositionOffset*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::ConstraintPositionOffset*>());
 }
 inline void RootMotion::FinalIK::ConstraintPositionOffset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::RootMotion::FinalIK::ConstraintPositionOffset* RootMotion::FinalIK::ConstraintPositionOffset::New_ctor(::UnityEngine::Transform* transform) {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::ConstraintPositionOffset*>(transform));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::ConstraintPositionOffset*>(transform));
 }
 inline void RootMotion::FinalIK::ConstraintPositionOffset::_ctor(::UnityEngine::Transform* transform) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transform);
 }
 inline bool RootMotion::FinalIK::ConstraintPositionOffset::get_positionChanged() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ConstraintPositionOffset*>::get(),
-                                                                             "get_positionChanged", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_positionChanged", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 // Ctor Parameters []

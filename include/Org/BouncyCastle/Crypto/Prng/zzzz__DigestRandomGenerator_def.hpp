@@ -22,26 +22,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1107))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::DigestRandomGenerator*
 class CORDL_TYPE DigestRandomGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field stateCounter, offset 0x10, size 0x8
-  __declspec(property(get = __get_stateCounter, put = __set_stateCounter)) int64_t stateCounter;
+  __declspec(property(get = __cordl_internal_get_stateCounter, put = __cordl_internal_set_stateCounter)) int64_t stateCounter;
 
   /// @brief Field seedCounter, offset 0x18, size 0x8
-  __declspec(property(get = __get_seedCounter, put = __set_seedCounter)) int64_t seedCounter;
+  __declspec(property(get = __cordl_internal_get_seedCounter, put = __cordl_internal_set_seedCounter)) int64_t seedCounter;
 
   /// @brief Field digest, offset 0x20, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
 
   /// @brief Field seed, offset 0x30, size 0x8
-  __declspec(property(get = __get_seed, put = __set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
@@ -49,35 +49,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept;
 
-  constexpr int64_t& __get_stateCounter();
+  constexpr int64_t& __cordl_internal_get_stateCounter();
 
-  constexpr int64_t const& __get_stateCounter() const;
+  constexpr int64_t const& __cordl_internal_get_stateCounter() const;
 
-  constexpr void __set_stateCounter(int64_t value);
+  constexpr void __cordl_internal_set_stateCounter(int64_t value);
 
-  constexpr int64_t& __get_seedCounter();
+  constexpr int64_t& __cordl_internal_get_seedCounter();
 
-  constexpr int64_t const& __get_seedCounter() const;
+  constexpr int64_t const& __cordl_internal_get_seedCounter() const;
 
-  constexpr void __set_seedCounter(int64_t value);
+  constexpr void __cordl_internal_set_seedCounter(int64_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_state();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_state();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_state() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_seed();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_seed() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
 
-  constexpr void __set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 

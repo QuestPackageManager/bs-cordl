@@ -72,17 +72,17 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::__GroupCollection__Enumerator
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8904))
 // CS Name: ::GroupCollection::Enumerator*
 class CORDL_TYPE __GroupCollection__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _collection, offset 0x10, size 0x8
-  __declspec(property(get = __get__collection, put = __set__collection))::System::Text::RegularExpressions::GroupCollection* _collection;
+  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Text::RegularExpressions::GroupCollection* _collection;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   __declspec(property(get = get_Current))::System::Text::RegularExpressions::Group* Current;
 
@@ -107,17 +107,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Text::RegularExpressions::GroupCollection*& __get__collection();
+  constexpr ::System::Text::RegularExpressions::GroupCollection*& __cordl_internal_get__collection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::GroupCollection*> const& __get__collection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::GroupCollection*> const& __cordl_internal_get__collection() const;
 
-  constexpr void __set__collection(::System::Text::RegularExpressions::GroupCollection* value);
+  constexpr void __cordl_internal_set__collection(::System::Text::RegularExpressions::GroupCollection* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline ::System::Text::RegularExpressions::__GroupCollection__Enumerator* New_ctor(::System::Text::RegularExpressions::GroupCollection* collection);
 
@@ -173,7 +173,7 @@ static_assert(offsetof(::System::Text::RegularExpressions::__GroupCollection__En
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8905))
 // CS Name: ::System.Text.RegularExpressions::GroupCollection*
 class CORDL_TYPE GroupCollection : public ::System::Object {
@@ -182,13 +182,14 @@ public:
   using Enumerator = ::System::Text::RegularExpressions::__GroupCollection__Enumerator;
 
   /// @brief Field _match, offset 0x10, size 0x8
-  __declspec(property(get = __get__match, put = __set__match))::System::Text::RegularExpressions::Match* _match;
+  __declspec(property(get = __cordl_internal_get__match, put = __cordl_internal_set__match))::System::Text::RegularExpressions::Match* _match;
 
   /// @brief Field _captureMap, offset 0x18, size 0x8
-  __declspec(property(get = __get__captureMap, put = __set__captureMap))::System::Collections::Hashtable* _captureMap;
+  __declspec(property(get = __cordl_internal_get__captureMap, put = __cordl_internal_set__captureMap))::System::Collections::Hashtable* _captureMap;
 
   /// @brief Field _groups, offset 0x20, size 0x8
-  __declspec(property(get = __get__groups, put = __set__groups))::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> _groups;
+  __declspec(property(get = __cordl_internal_get__groups,
+                      put = __cordl_internal_set__groups))::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> _groups;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
@@ -261,23 +262,23 @@ public:
   /// @brief Convert to "::System::Collections::ICollection"
   constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  constexpr ::System::Text::RegularExpressions::Match*& __get__match();
+  constexpr ::System::Text::RegularExpressions::Match*& __cordl_internal_get__match();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Match*> const& __get__match() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Match*> const& __cordl_internal_get__match() const;
 
-  constexpr void __set__match(::System::Text::RegularExpressions::Match* value);
+  constexpr void __cordl_internal_set__match(::System::Text::RegularExpressions::Match* value);
 
-  constexpr ::System::Collections::Hashtable*& __get__captureMap();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__captureMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__captureMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__captureMap() const;
 
-  constexpr void __set__captureMap(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__captureMap(::System::Collections::Hashtable* value);
 
-  constexpr ::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*>& __get__groups();
+  constexpr ::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*>& __cordl_internal_get__groups();
 
-  constexpr ::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> const& __get__groups() const;
+  constexpr ::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> const& __cordl_internal_get__groups() const;
 
-  constexpr void __set__groups(::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> value);
+  constexpr void __cordl_internal_set__groups(::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> value);
 
   static inline ::System::Text::RegularExpressions::GroupCollection* New_ctor(::System::Text::RegularExpressions::Match* match, ::System::Collections::Hashtable* caps);
 

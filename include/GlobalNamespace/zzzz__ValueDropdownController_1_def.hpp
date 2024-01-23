@@ -44,7 +44,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5601))
 // CS Name: ::ValueDropdownController`1::<>c<T>*
 class CORDL_TYPE __ValueDropdownController_1____c : public ::System::Object {
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5602))
 // CS Name: ::ValueDropdownController`1<T>*
 class CORDL_TYPE ValueDropdownController_1 : public ::UnityEngine::MonoBehaviour {
@@ -105,38 +105,38 @@ public:
   using __c = ::GlobalNamespace::__ValueDropdownController_1____c<T>;
 
   /// @brief Field _simpleTextDropdown, offset 0x18, size 0x8
-  __declspec(property(get = __get__simpleTextDropdown, put = __set__simpleTextDropdown))::HMUI::SimpleTextDropdown* _simpleTextDropdown;
+  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown))::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didSelectCellWithIdxEvent, put = __set_didSelectCellWithIdxEvent))::System::Action_2<int32_t, T>* didSelectCellWithIdxEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_2<int32_t, T>* didSelectCellWithIdxEvent;
 
   /// @brief Field _namedValues, offset 0x28, size 0x8
-  __declspec(property(get = __get__namedValues, put = __set__namedValues))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* _namedValues;
+  __declspec(property(get = __cordl_internal_get__namedValues, put = __cordl_internal_set__namedValues))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* _namedValues;
 
-  __declspec(property(get = get_innerDropdown))::HMUI::SimpleTextDropdown* innerDropdown;
+  __declspec(property(get = get_innerDropdown))::UnityW<::HMUI::SimpleTextDropdown> innerDropdown;
 
   __declspec(property(get = get_namedValues))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* namedValues;
 
-  constexpr ::HMUI::SimpleTextDropdown*& __get__simpleTextDropdown();
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& __get__simpleTextDropdown() const;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
 
-  constexpr void __set__simpleTextDropdown(::HMUI::SimpleTextDropdown* value);
+  constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  constexpr ::System::Action_2<int32_t, T>*& __get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_2<int32_t, T>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, T>*> const& __get_didSelectCellWithIdxEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, T>*> const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr void __set_didSelectCellWithIdxEvent(::System::Action_2<int32_t, T>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<int32_t, T>* value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*& __get__namedValues();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*& __cordl_internal_get__namedValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*> const& __get__namedValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*> const& __cordl_internal_get__namedValues() const;
 
-  constexpr void __set__namedValues(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* value);
+  constexpr void __cordl_internal_set__namedValues(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* value);
 
   /// @brief Method get_innerDropdown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::HMUI::SimpleTextDropdown* get_innerDropdown();
+  inline ::UnityW<::HMUI::SimpleTextDropdown> get_innerDropdown();
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_2<int32_t, T>* value);
@@ -188,7 +188,7 @@ protected:
 
 public:
   /// @brief Field _simpleTextDropdown, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::SimpleTextDropdown* ____simpleTextDropdown;
+  ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<int32_t, T>* ___didSelectCellWithIdxEvent;

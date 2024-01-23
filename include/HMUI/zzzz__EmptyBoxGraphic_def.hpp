@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::HMUI::EmptyBoxGraphic);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13042))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13042))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13565))
 // CS Name: ::HMUI::EmptyBoxGraphic*
 class CORDL_TYPE EmptyBoxGraphic : public ::UnityEngine::UI::Graphic {
 public:
   // Declarations
   /// @brief Field _depth, offset 0x9c, size 0x4
-  __declspec(property(get = __get__depth, put = __set__depth)) float_t _depth;
+  __declspec(property(get = __cordl_internal_get__depth, put = __cordl_internal_set__depth)) float_t _depth;
 
-  constexpr float_t& __get__depth();
+  constexpr float_t& __cordl_internal_get__depth();
 
-  constexpr float_t const& __get__depth() const;
+  constexpr float_t const& __cordl_internal_get__depth() const;
 
-  constexpr void __set__depth(float_t value);
+  constexpr void __cordl_internal_set__depth(float_t value);
 
   /// @brief Method OnPopulateMesh, addr 0x2124c18, size 0x5b8, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);

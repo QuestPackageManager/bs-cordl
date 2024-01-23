@@ -15,7 +15,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_FORMAT);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15104))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_FORMAT
 struct CORDL_TYPE TEXTURE_FORMAT {

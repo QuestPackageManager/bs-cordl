@@ -17,56 +17,55 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GradientRemap);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 313 }), TypeDefinitionIndex(TypeDefinitionIndex(7339)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7422)) CS Name:
-// ::UnityEngine.UIElements.UIR::GradientRemap*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 313 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7422)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemap*
 class CORDL_TYPE GradientRemap : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:
   // Declarations
   /// @brief Field origIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_origIndex, put = __set_origIndex)) int32_t origIndex;
+  __declspec(property(get = __cordl_internal_get_origIndex, put = __cordl_internal_set_origIndex)) int32_t origIndex;
 
   /// @brief Field destIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __get_destIndex, put = __set_destIndex)) int32_t destIndex;
+  __declspec(property(get = __cordl_internal_get_destIndex, put = __cordl_internal_set_destIndex)) int32_t destIndex;
 
   /// @brief Field location, offset 0x20, size 0x10
-  __declspec(property(get = __get_location, put = __set_location))::UnityEngine::RectInt location;
+  __declspec(property(get = __cordl_internal_get_location, put = __cordl_internal_set_location))::UnityEngine::RectInt location;
 
   /// @brief Field next, offset 0x30, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::UnityEngine::UIElements::UIR::GradientRemap* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::GradientRemap* next;
 
   /// @brief Field atlas, offset 0x38, size 0x4
-  __declspec(property(get = __get_atlas, put = __set_atlas))::UnityEngine::UIElements::TextureId atlas;
+  __declspec(property(get = __cordl_internal_get_atlas, put = __cordl_internal_set_atlas))::UnityEngine::UIElements::TextureId atlas;
 
-  constexpr int32_t& __get_origIndex();
+  constexpr int32_t& __cordl_internal_get_origIndex();
 
-  constexpr int32_t const& __get_origIndex() const;
+  constexpr int32_t const& __cordl_internal_get_origIndex() const;
 
-  constexpr void __set_origIndex(int32_t value);
+  constexpr void __cordl_internal_set_origIndex(int32_t value);
 
-  constexpr int32_t& __get_destIndex();
+  constexpr int32_t& __cordl_internal_get_destIndex();
 
-  constexpr int32_t const& __get_destIndex() const;
+  constexpr int32_t const& __cordl_internal_get_destIndex() const;
 
-  constexpr void __set_destIndex(int32_t value);
+  constexpr void __cordl_internal_set_destIndex(int32_t value);
 
-  constexpr ::UnityEngine::RectInt& __get_location();
+  constexpr ::UnityEngine::RectInt& __cordl_internal_get_location();
 
-  constexpr ::UnityEngine::RectInt const& __get_location() const;
+  constexpr ::UnityEngine::RectInt const& __cordl_internal_get_location() const;
 
-  constexpr void __set_location(::UnityEngine::RectInt value);
+  constexpr void __cordl_internal_set_location(::UnityEngine::RectInt value);
 
-  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __get_next();
+  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::UnityEngine::UIElements::UIR::GradientRemap* value);
+  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::GradientRemap* value);
 
-  constexpr ::UnityEngine::UIElements::TextureId& __get_atlas();
+  constexpr ::UnityEngine::UIElements::TextureId& __cordl_internal_get_atlas();
 
-  constexpr ::UnityEngine::UIElements::TextureId const& __get_atlas() const;
+  constexpr ::UnityEngine::UIElements::TextureId const& __cordl_internal_get_atlas() const;
 
-  constexpr void __set_atlas(::UnityEngine::UIElements::TextureId value);
+  constexpr void __cordl_internal_set_atlas(::UnityEngine::UIElements::TextureId value);
 
   /// @brief Method Reset, addr 0x2dcd160, size 0x68, virtual false, abstract: false, final false
   inline void Reset();

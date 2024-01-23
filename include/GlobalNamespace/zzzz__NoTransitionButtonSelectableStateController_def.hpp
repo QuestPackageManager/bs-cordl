@@ -18,9 +18,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NoTransitionButtonSelectableStateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5457)), TypeDefinitionIndex(TypeDefinitionIndex(13623)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst:
-// 4965 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5458)) CS Name: ::NoTransitionButtonSelectableStateController*
-class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsButton*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5457)), TypeDefinitionIndex(TypeDefinitionIndex(13623)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst:
+// 4965 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5458)) CS Name: ::NoTransitionButtonSelectableStateController*
+class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsButton>> {
 public:
   // Declarations
   /// @brief Method OnEnable, addr 0x227f60c, size 0xa4, virtual false, abstract: false, final false

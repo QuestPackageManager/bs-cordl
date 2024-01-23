@@ -32,23 +32,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DeferredHash);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1218))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DeferredHash*
 class CORDL_TYPE DeferredHash : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mContext, offset 0x10, size 0x8
-  __declspec(property(get = __get_mContext, put = __set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
+  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
 
   /// @brief Field mBuf, offset 0x18, size 0x8
-  __declspec(property(get = __get_mBuf, put = __set_mBuf))::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer* mBuf;
+  __declspec(property(get = __cordl_internal_get_mBuf, put = __cordl_internal_set_mBuf))::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer* mBuf;
 
   /// @brief Field mHashes, offset 0x20, size 0x8
-  __declspec(property(get = __get_mHashes, put = __set_mHashes))::System::Collections::IDictionary* mHashes;
+  __declspec(property(get = __cordl_internal_get_mHashes, put = __cordl_internal_set_mHashes))::System::Collections::IDictionary* mHashes;
 
   /// @brief Field mPrfHashAlgorithm, offset 0x28, size 0x4
-  __declspec(property(get = __get_mPrfHashAlgorithm, put = __set_mPrfHashAlgorithm)) int32_t mPrfHashAlgorithm;
+  __declspec(property(get = __cordl_internal_get_mPrfHashAlgorithm, put = __cordl_internal_set_mPrfHashAlgorithm)) int32_t mPrfHashAlgorithm;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -64,29 +64,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_mContext();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_mContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_mContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_mContext() const;
 
-  constexpr void __set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer*& __get_mBuf();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer*& __cordl_internal_get_mBuf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer*> const& __get_mBuf() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer*> const& __cordl_internal_get_mBuf() const;
 
-  constexpr void __set_mBuf(::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer* value);
+  constexpr void __cordl_internal_set_mBuf(::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer* value);
 
-  constexpr ::System::Collections::IDictionary*& __get_mHashes();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_mHashes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_mHashes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_mHashes() const;
 
-  constexpr void __set_mHashes(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_mHashes(::System::Collections::IDictionary* value);
 
-  constexpr int32_t& __get_mPrfHashAlgorithm();
+  constexpr int32_t& __cordl_internal_get_mPrfHashAlgorithm();
 
-  constexpr int32_t const& __get_mPrfHashAlgorithm() const;
+  constexpr int32_t const& __cordl_internal_get_mPrfHashAlgorithm() const;
 
-  constexpr void __set_mPrfHashAlgorithm(int32_t value);
+  constexpr void __cordl_internal_set_mPrfHashAlgorithm(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DeferredHash* New_ctor();
 

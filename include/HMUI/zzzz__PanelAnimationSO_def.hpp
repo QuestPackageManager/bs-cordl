@@ -27,56 +27,56 @@ MARK_REF_PTR_T(::HMUI::PanelAnimationSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13510))
 // CS Name: ::HMUI::PanelAnimationSO*
 class CORDL_TYPE PanelAnimationSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _duration, offset 0x18, size 0x4
-  __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _scaleXAnimationCurve, offset 0x20, size 0x8
-  __declspec(property(get = __get__scaleXAnimationCurve, put = __set__scaleXAnimationCurve))::UnityEngine::AnimationCurve* _scaleXAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__scaleXAnimationCurve, put = __cordl_internal_set__scaleXAnimationCurve))::UnityEngine::AnimationCurve* _scaleXAnimationCurve;
 
   /// @brief Field _scaleYAnimationCurve, offset 0x28, size 0x8
-  __declspec(property(get = __get__scaleYAnimationCurve, put = __set__scaleYAnimationCurve))::UnityEngine::AnimationCurve* _scaleYAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__scaleYAnimationCurve, put = __cordl_internal_set__scaleYAnimationCurve))::UnityEngine::AnimationCurve* _scaleYAnimationCurve;
 
   /// @brief Field _alphaAnimationCurve, offset 0x30, size 0x8
-  __declspec(property(get = __get__alphaAnimationCurve, put = __set__alphaAnimationCurve))::UnityEngine::AnimationCurve* _alphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__alphaAnimationCurve, put = __cordl_internal_set__alphaAnimationCurve))::UnityEngine::AnimationCurve* _alphaAnimationCurve;
 
   /// @brief Field _parentAlphaAnimationCurve, offset 0x38, size 0x8
-  __declspec(property(get = __get__parentAlphaAnimationCurve, put = __set__parentAlphaAnimationCurve))::UnityEngine::AnimationCurve* _parentAlphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__parentAlphaAnimationCurve, put = __cordl_internal_set__parentAlphaAnimationCurve))::UnityEngine::AnimationCurve* _parentAlphaAnimationCurve;
 
-  constexpr float_t& __get__duration();
+  constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr float_t const& __get__duration() const;
+  constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr void __set__duration(float_t value);
+  constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__scaleXAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__scaleXAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__scaleXAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__scaleXAnimationCurve() const;
 
-  constexpr void __set__scaleXAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__scaleXAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__scaleYAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__scaleYAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__scaleYAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__scaleYAnimationCurve() const;
 
-  constexpr void __set__scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__alphaAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__alphaAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__alphaAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__alphaAnimationCurve() const;
 
-  constexpr void __set__alphaAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__alphaAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__parentAlphaAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__parentAlphaAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__parentAlphaAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__parentAlphaAnimationCurve() const;
 
-  constexpr void __set__parentAlphaAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__parentAlphaAnimationCurve(::UnityEngine::AnimationCurve* value);
 
   /// @brief Method ExecuteAnimation, addr 0x2118200, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go);

@@ -69,20 +69,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsEnvelopedHelper__CmsEnvelopedSecur
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(638))
 // CS Name: ::CmsEnvelopedHelper::CmsAuthenticatedSecureReadable*
 class CORDL_TYPE __CmsEnvelopedHelper__CmsAuthenticatedSecureReadable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm;
 
   /// @brief Field mac, offset 0x18, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
 
   /// @brief Field readable, offset 0x20, size 0x8
-  __declspec(property(get = __get_readable, put = __set_readable))::Org::BouncyCastle::Cms::CmsReadable* readable;
+  __declspec(property(get = __cordl_internal_get_readable, put = __cordl_internal_set_readable))::Org::BouncyCastle::Cms::CmsReadable* readable;
 
   __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
 
@@ -94,23 +94,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_algorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __get_readable();
+  constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __cordl_internal_get_readable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsReadable*> const& __get_readable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsReadable*> const& __cordl_internal_get_readable() const;
 
-  constexpr void __set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
+  constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
 
   static inline ::Org::BouncyCastle::Cms::__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
                                                                                                          ::Org::BouncyCastle::Cms::CmsReadable* readable);
@@ -166,20 +166,20 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedHelper__CmsAuthen
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(639))
 // CS Name: ::CmsEnvelopedHelper::CmsEnvelopedSecureReadable*
 class CORDL_TYPE __CmsEnvelopedHelper__CmsEnvelopedSecureReadable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm;
 
   /// @brief Field cipher, offset 0x18, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IBufferedCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBufferedCipher* cipher;
 
   /// @brief Field readable, offset 0x20, size 0x8
-  __declspec(property(get = __get_readable, put = __set_readable))::Org::BouncyCastle::Cms::CmsReadable* readable;
+  __declspec(property(get = __cordl_internal_get_readable, put = __cordl_internal_set_readable))::Org::BouncyCastle::Cms::CmsReadable* readable;
 
   __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
 
@@ -191,23 +191,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_algorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __get_readable();
+  constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __cordl_internal_get_readable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsReadable*> const& __get_readable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsReadable*> const& __cordl_internal_get_readable() const;
 
-  constexpr void __set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
+  constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
 
   static inline ::Org::BouncyCastle::Cms::__CmsEnvelopedHelper__CmsEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
                                                                                                      ::Org::BouncyCastle::Cms::CmsReadable* readable);
@@ -263,7 +263,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedHelper__CmsEnvelo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(640))
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedHelper*
 class CORDL_TYPE CmsEnvelopedHelper : public ::System::Object {

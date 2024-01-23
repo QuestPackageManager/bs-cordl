@@ -16,33 +16,34 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15690))
 // CS Name: ::BeatSaber.BeatAvatarSDK::RandomizeAvatarColorMap*
 class CORDL_TYPE RandomizeAvatarColorMap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <totalIndices>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__totalIndices_k__BackingField, put = __set__totalIndices_k__BackingField)) int32_t _totalIndices_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__totalIndices_k__BackingField, put = __cordl_internal_set__totalIndices_k__BackingField)) int32_t _totalIndices_k__BackingField;
 
   /// @brief Field <colorIndices>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorIndices_k__BackingField, put = __set__colorIndices_k__BackingField))::ArrayW<int32_t, ::Array<int32_t>*> _colorIndices_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__colorIndices_k__BackingField,
+                      put = __cordl_internal_set__colorIndices_k__BackingField))::ArrayW<int32_t, ::Array<int32_t>*> _colorIndices_k__BackingField;
 
   __declspec(property(get = get_totalIndices)) int32_t totalIndices;
 
   __declspec(property(get = get_colorIndices))::ArrayW<int32_t, ::Array<int32_t>*> colorIndices;
 
-  constexpr int32_t& __get__totalIndices_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__totalIndices_k__BackingField();
 
-  constexpr int32_t const& __get__totalIndices_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__totalIndices_k__BackingField() const;
 
-  constexpr void __set__totalIndices_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__totalIndices_k__BackingField(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__colorIndices_k__BackingField();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__colorIndices_k__BackingField();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__colorIndices_k__BackingField() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__colorIndices_k__BackingField() const;
 
-  constexpr void __set__colorIndices_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__colorIndices_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method get_totalIndices, addr 0xe1afb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalIndices();

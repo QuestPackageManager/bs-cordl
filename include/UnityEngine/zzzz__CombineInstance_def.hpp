@@ -26,20 +26,20 @@ MARK_VAL_T(::UnityEngine::CombineInstance);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10246))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10136))
 // CS Name: ::UnityEngine::CombineInstance
 struct CORDL_TYPE CombineInstance {
 public:
   // Declarations
-  __declspec(property(get = get_mesh, put = set_mesh))::UnityEngine::Mesh* mesh;
+  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
   __declspec(property(put = set_subMeshIndex)) int32_t subMeshIndex;
 
   __declspec(property(put = set_transform))::UnityEngine::Matrix4x4 transform;
 
   /// @brief Method get_mesh, addr 0x2cc4670, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_mesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
   /// @brief Method set_mesh, addr 0x2cc467c, size 0x88, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);

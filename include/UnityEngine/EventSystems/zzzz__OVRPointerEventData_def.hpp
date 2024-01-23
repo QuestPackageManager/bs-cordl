@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRPointerEventData);
 // SizeInfo { instance_size: 384, native_size: -1, calculated_instance_size: 384, calculated_native_size: 384, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13168)), TypeDefinitionIndex(TypeDefinitionIndex(10169)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10169)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13168))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8742))
 // CS Name: ::UnityEngine.EventSystems::OVRPointerEventData*
 class CORDL_TYPE OVRPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
 public:
   // Declarations
   /// @brief Field worldSpaceRay, offset 0x160, size 0x18
-  __declspec(property(get = __get_worldSpaceRay, put = __set_worldSpaceRay))::UnityEngine::Ray worldSpaceRay;
+  __declspec(property(get = __cordl_internal_get_worldSpaceRay, put = __cordl_internal_set_worldSpaceRay))::UnityEngine::Ray worldSpaceRay;
 
   /// @brief Field swipeStart, offset 0x178, size 0x8
-  __declspec(property(get = __get_swipeStart, put = __set_swipeStart))::UnityEngine::Vector2 swipeStart;
+  __declspec(property(get = __cordl_internal_get_swipeStart, put = __cordl_internal_set_swipeStart))::UnityEngine::Vector2 swipeStart;
 
-  constexpr ::UnityEngine::Ray& __get_worldSpaceRay();
+  constexpr ::UnityEngine::Ray& __cordl_internal_get_worldSpaceRay();
 
-  constexpr ::UnityEngine::Ray const& __get_worldSpaceRay() const;
+  constexpr ::UnityEngine::Ray const& __cordl_internal_get_worldSpaceRay() const;
 
-  constexpr void __set_worldSpaceRay(::UnityEngine::Ray value);
+  constexpr void __cordl_internal_set_worldSpaceRay(::UnityEngine::Ray value);
 
-  constexpr ::UnityEngine::Vector2& __get_swipeStart();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_swipeStart();
 
-  constexpr ::UnityEngine::Vector2 const& __get_swipeStart() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_swipeStart() const;
 
-  constexpr void __set_swipeStart(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_swipeStart(::UnityEngine::Vector2 value);
 
   static inline ::UnityEngine::EventSystems::OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 

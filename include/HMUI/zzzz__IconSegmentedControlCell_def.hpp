@@ -28,22 +28,22 @@ MARK_REF_PTR_T(::HMUI::IconSegmentedControlCell);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13551))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13551))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13548))
 // CS Name: ::HMUI::IconSegmentedControlCell*
 class CORDL_TYPE IconSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
   // Declarations
   /// @brief Field _icon, offset 0x50, size 0x8
-  __declspec(property(get = __get__icon, put = __set__icon))::UnityEngine::UI::Image* _icon;
+  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::UI::Image> _icon;
 
   /// @brief Field _hoverHint, offset 0x58, size 0x8
-  __declspec(property(get = __get__hoverHint, put = __set__hoverHint))::HMUI::HoverHint* _hoverHint;
+  __declspec(property(get = __cordl_internal_get__hoverHint, put = __cordl_internal_set__hoverHint))::UnityW<::HMUI::HoverHint> _hoverHint;
 
   /// @brief Field _backgroundGameObject, offset 0x60, size 0x8
-  __declspec(property(get = __get__backgroundGameObject, put = __set__backgroundGameObject))::UnityEngine::GameObject* _backgroundGameObject;
+  __declspec(property(get = __cordl_internal_get__backgroundGameObject, put = __cordl_internal_set__backgroundGameObject))::UnityW<::UnityEngine::GameObject> _backgroundGameObject;
 
-  __declspec(property(get = get_sprite, put = set_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(get = get_sprite, put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
   __declspec(property(put = set_hintText))::StringW hintText;
 
@@ -51,29 +51,29 @@ public:
 
   __declspec(property(put = set_hideBackgroundImage)) bool hideBackgroundImage;
 
-  constexpr ::UnityEngine::UI::Image*& __get__icon();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__icon() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
 
-  constexpr void __set__icon(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::HMUI::HoverHint*& __get__hoverHint();
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& __get__hoverHint() const;
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
 
-  constexpr void __set__hoverHint(::HMUI::HoverHint* value);
+  constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__backgroundGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__backgroundGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
 
-  constexpr void __set__backgroundGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method set_sprite, addr 0x211f724, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
   /// @brief Method get_sprite, addr 0x211f99c, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_sprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
   /// @brief Method set_hintText, addr 0x211f740, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
@@ -104,13 +104,13 @@ protected:
 
 public:
   /// @brief Field _icon, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____icon;
+  ::UnityW<::UnityEngine::UI::Image> ____icon;
 
   /// @brief Field _hoverHint, offset: 0x58, size: 0x8, def value: None
-  ::HMUI::HoverHint* ____hoverHint;
+  ::UnityW<::HMUI::HoverHint> ____hoverHint;
 
   /// @brief Field _backgroundGameObject, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____backgroundGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataFullComboSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5108))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5108))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5100))
 // CS Name: ::MultiplayerBadgeDataFullComboSO*
 class CORDL_TYPE MultiplayerBadgeDataFullComboSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
 public:
   // Declarations
   /// @brief Field _weight, offset 0x30, size 0x4
-  __declspec(property(get = __get__weight, put = __set__weight)) float_t _weight;
+  __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
 
-  constexpr float_t& __get__weight();
+  constexpr float_t& __cordl_internal_get__weight();
 
-  constexpr float_t const& __get__weight() const;
+  constexpr float_t const& __cordl_internal_get__weight() const;
 
-  constexpr void __set__weight(float_t value);
+  constexpr void __cordl_internal_set__weight(float_t value);
 
   /// @brief Method CalculateBadgeData, addr 0x23cd798, size 0x464, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,

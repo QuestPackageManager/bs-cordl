@@ -37,27 +37,27 @@ MARK_REF_PTR_T(::Mono::Unity::X509ChainImplUnityTls);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8764)), TypeDefinitionIndex(TypeDefinitionIndex(9006))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8764)), TypeDefinitionIndex(TypeDefinitionIndex(9006))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8814))
 // CS Name: ::Mono.Unity::X509ChainImplUnityTls*
 class CORDL_TYPE X509ChainImplUnityTls : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {
 public:
   // Declarations
   /// @brief Field elements, offset 0x10, size 0x8
-  __declspec(property(get = __get_elements, put = __set_elements))::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* elements;
+  __declspec(property(get = __cordl_internal_get_elements, put = __cordl_internal_set_elements))::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* elements;
 
   /// @brief Field nativeCertificateChain, offset 0x18, size 0x8
-  __declspec(property(get = __get_nativeCertificateChain, put = __set_nativeCertificateChain))::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain;
+  __declspec(property(get = __cordl_internal_get_nativeCertificateChain, put = __cordl_internal_set_nativeCertificateChain))::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain;
 
   /// @brief Field policy, offset 0x20, size 0x8
-  __declspec(property(get = __get_policy, put = __set_policy))::System::Security::Cryptography::X509Certificates::X509ChainPolicy* policy;
+  __declspec(property(get = __cordl_internal_get_policy, put = __cordl_internal_set_policy))::System::Security::Cryptography::X509Certificates::X509ChainPolicy* policy;
 
   /// @brief Field chainStatusList, offset 0x28, size 0x8
-  __declspec(property(get = __get_chainStatusList,
-                      put = __set_chainStatusList))::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* chainStatusList;
+  __declspec(property(get = __cordl_internal_get_chainStatusList,
+                      put = __cordl_internal_set_chainStatusList))::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* chainStatusList;
 
   /// @brief Field reverseOrder, offset 0x30, size 0x1
-  __declspec(property(get = __get_reverseOrder, put = __set_reverseOrder)) bool reverseOrder;
+  __declspec(property(get = __cordl_internal_get_reverseOrder, put = __cordl_internal_set_reverseOrder)) bool reverseOrder;
 
   __declspec(property(get = get_IsValid)) bool IsValid;
 
@@ -70,35 +70,36 @@ public:
   __declspec(property(
       get = get_ChainStatus))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> ChainStatus;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& __get_elements();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& __cordl_internal_get_elements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*> const& __get_elements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*> const& __cordl_internal_get_elements() const;
 
-  constexpr void __set_elements(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value);
+  constexpr void __cordl_internal_set_elements(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value);
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref& __get_nativeCertificateChain();
+  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref& __cordl_internal_get_nativeCertificateChain();
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref const& __get_nativeCertificateChain() const;
+  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref const& __cordl_internal_get_nativeCertificateChain() const;
 
-  constexpr void __set_nativeCertificateChain(::Mono::Unity::__UnityTls__unitytls_x509list_ref value);
+  constexpr void __cordl_internal_set_nativeCertificateChain(::Mono::Unity::__UnityTls__unitytls_x509list_ref value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& __get_policy();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& __cordl_internal_get_policy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*> const& __get_policy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*> const& __cordl_internal_get_policy() const;
 
-  constexpr void __set_policy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
+  constexpr void __cordl_internal_set_policy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*& __get_chainStatusList();
+  constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*& __cordl_internal_get_chainStatusList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const& __get_chainStatusList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const&
+  __cordl_internal_get_chainStatusList() const;
 
-  constexpr void __set_chainStatusList(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
+  constexpr void __cordl_internal_set_chainStatusList(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
 
-  constexpr bool& __get_reverseOrder();
+  constexpr bool& __cordl_internal_get_reverseOrder();
 
-  constexpr bool const& __get_reverseOrder() const;
+  constexpr bool const& __cordl_internal_get_reverseOrder() const;
 
-  constexpr void __set_reverseOrder(bool value);
+  constexpr void __cordl_internal_set_reverseOrder(bool value);
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 

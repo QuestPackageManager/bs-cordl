@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::System::Reflection::SignatureArrayType);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3493))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3493))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3490))
 // CS Name: ::System.Reflection::SignatureArrayType*
 class CORDL_TYPE SignatureArrayType : public ::System::Reflection::SignatureHasElementType {
 public:
   // Declarations
   /// @brief Field _rank, offset 0x20, size 0x4
-  __declspec(property(get = __get__rank, put = __set__rank)) int32_t _rank;
+  __declspec(property(get = __cordl_internal_get__rank, put = __cordl_internal_set__rank)) int32_t _rank;
 
   /// @brief Field _isMultiDim, offset 0x24, size 0x1
-  __declspec(property(get = __get__isMultiDim, put = __set__isMultiDim)) bool _isMultiDim;
+  __declspec(property(get = __cordl_internal_get__isMultiDim, put = __cordl_internal_set__isMultiDim)) bool _isMultiDim;
 
   __declspec(property(get = get_IsSZArray)) bool IsSZArray;
 
@@ -37,17 +37,17 @@ public:
 
   __declspec(property(get = get_Suffix))::StringW Suffix;
 
-  constexpr int32_t& __get__rank();
+  constexpr int32_t& __cordl_internal_get__rank();
 
-  constexpr int32_t const& __get__rank() const;
+  constexpr int32_t const& __cordl_internal_get__rank() const;
 
-  constexpr void __set__rank(int32_t value);
+  constexpr void __cordl_internal_set__rank(int32_t value);
 
-  constexpr bool& __get__isMultiDim();
+  constexpr bool& __cordl_internal_get__isMultiDim();
 
-  constexpr bool const& __get__isMultiDim() const;
+  constexpr bool const& __cordl_internal_get__isMultiDim() const;
 
-  constexpr void __set__isMultiDim(bool value);
+  constexpr void __cordl_internal_set__isMultiDim(bool value);
 
   static inline ::System::Reflection::SignatureArrayType* New_ctor(::System::Reflection::SignatureType* elementType, int32_t rank, bool isMultiDim);
 

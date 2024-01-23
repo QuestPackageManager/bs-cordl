@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::PoseState);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15618)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15618))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6322))
 // CS Name: ::UnityEngine.InputSystem.XR::PoseState
 #pragma pack(push, 0)
@@ -41,22 +41,22 @@ struct CORDL_TYPE PoseState {
 public:
   // Declarations
   /// @brief Field isTracked, offset 0x0, size 0x1
-  __declspec(property(get = __get_isTracked, put = __set_isTracked)) bool isTracked;
+  __declspec(property(get = __cordl_internal_get_isTracked, put = __cordl_internal_set_isTracked)) bool isTracked;
 
   /// @brief Field trackingState, offset 0x4, size 0x4
-  __declspec(property(get = __get_trackingState, put = __set_trackingState))::UnityEngine::XR::InputTrackingState trackingState;
+  __declspec(property(get = __cordl_internal_get_trackingState, put = __cordl_internal_set_trackingState))::UnityEngine::XR::InputTrackingState trackingState;
 
   /// @brief Field position, offset 0x8, size 0xc
-  __declspec(property(get = __get_position, put = __set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
 
   /// @brief Field rotation, offset 0x14, size 0x10
-  __declspec(property(get = __get_rotation, put = __set_rotation))::UnityEngine::Quaternion rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Quaternion rotation;
 
   /// @brief Field velocity, offset 0x24, size 0xc
-  __declspec(property(get = __get_velocity, put = __set_velocity))::UnityEngine::Vector3 velocity;
+  __declspec(property(get = __cordl_internal_get_velocity, put = __cordl_internal_set_velocity))::UnityEngine::Vector3 velocity;
 
   /// @brief Field angularVelocity, offset 0x30, size 0xc
-  __declspec(property(get = __get_angularVelocity, put = __set_angularVelocity))::UnityEngine::Vector3 angularVelocity;
+  __declspec(property(get = __cordl_internal_get_angularVelocity, put = __cordl_internal_set_angularVelocity))::UnityEngine::Vector3 angularVelocity;
 
   __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
 
@@ -66,41 +66,41 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  constexpr bool& __get_isTracked();
+  constexpr bool& __cordl_internal_get_isTracked();
 
-  constexpr bool const& __get_isTracked() const;
+  constexpr bool const& __cordl_internal_get_isTracked() const;
 
-  constexpr void __set_isTracked(bool value);
+  constexpr void __cordl_internal_set_isTracked(bool value);
 
-  constexpr ::UnityEngine::XR::InputTrackingState& __get_trackingState();
+  constexpr ::UnityEngine::XR::InputTrackingState& __cordl_internal_get_trackingState();
 
-  constexpr ::UnityEngine::XR::InputTrackingState const& __get_trackingState() const;
+  constexpr ::UnityEngine::XR::InputTrackingState const& __cordl_internal_get_trackingState() const;
 
-  constexpr void __set_trackingState(::UnityEngine::XR::InputTrackingState value);
+  constexpr void __cordl_internal_set_trackingState(::UnityEngine::XR::InputTrackingState value);
 
-  constexpr ::UnityEngine::Vector3& __get_position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
 
-  constexpr ::UnityEngine::Vector3 const& __get_position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_rotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_rotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rotation() const;
 
-  constexpr void __set_rotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_rotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get_velocity();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_velocity();
 
-  constexpr ::UnityEngine::Vector3 const& __get_velocity() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_velocity() const;
 
-  constexpr void __set_velocity(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_velocity(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_angularVelocity();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_angularVelocity();
 
-  constexpr ::UnityEngine::Vector3 const& __get_angularVelocity() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_angularVelocity() const;
 
-  constexpr void __set_angularVelocity(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_angularVelocity(::UnityEngine::Vector3 value);
 
   /// @brief Method get_format, addr 0x2ac5264, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();

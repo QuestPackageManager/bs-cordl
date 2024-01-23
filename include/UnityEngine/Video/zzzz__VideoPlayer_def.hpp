@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::UnityEngine::Video::__VideoPlayer__TimeEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16083))
 // CS Name: ::VideoPlayer::EventHandler*
 class CORDL_TYPE __VideoPlayer__EventHandler : public ::System::MulticastDelegate {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16084))
 // CS Name: ::VideoPlayer::ErrorEventHandler*
 class CORDL_TYPE __VideoPlayer__ErrorEventHandler : public ::System::MulticastDelegate {
@@ -134,7 +134,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16085))
 // CS Name: ::VideoPlayer::FrameReadyEventHandler*
 class CORDL_TYPE __VideoPlayer__FrameReadyEventHandler : public ::System::MulticastDelegate {
@@ -172,7 +172,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16086))
 // CS Name: ::VideoPlayer::TimeEventHandler*
 class CORDL_TYPE __VideoPlayer__TimeEventHandler : public ::System::MulticastDelegate {
@@ -210,7 +210,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16087))
 // CS Name: ::UnityEngine.Video::VideoPlayer*
 class CORDL_TYPE VideoPlayer : public ::UnityEngine::Behaviour {
@@ -225,32 +225,32 @@ public:
   using EventHandler = ::UnityEngine::Video::__VideoPlayer__EventHandler;
 
   /// @brief Field prepareCompleted, offset 0x18, size 0x8
-  __declspec(property(get = __get_prepareCompleted, put = __set_prepareCompleted))::UnityEngine::Video::__VideoPlayer__EventHandler* prepareCompleted;
+  __declspec(property(get = __cordl_internal_get_prepareCompleted, put = __cordl_internal_set_prepareCompleted))::UnityEngine::Video::__VideoPlayer__EventHandler* prepareCompleted;
 
   /// @brief Field loopPointReached, offset 0x20, size 0x8
-  __declspec(property(get = __get_loopPointReached, put = __set_loopPointReached))::UnityEngine::Video::__VideoPlayer__EventHandler* loopPointReached;
+  __declspec(property(get = __cordl_internal_get_loopPointReached, put = __cordl_internal_set_loopPointReached))::UnityEngine::Video::__VideoPlayer__EventHandler* loopPointReached;
 
   /// @brief Field started, offset 0x28, size 0x8
-  __declspec(property(get = __get_started, put = __set_started))::UnityEngine::Video::__VideoPlayer__EventHandler* started;
+  __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started))::UnityEngine::Video::__VideoPlayer__EventHandler* started;
 
   /// @brief Field frameDropped, offset 0x30, size 0x8
-  __declspec(property(get = __get_frameDropped, put = __set_frameDropped))::UnityEngine::Video::__VideoPlayer__EventHandler* frameDropped;
+  __declspec(property(get = __cordl_internal_get_frameDropped, put = __cordl_internal_set_frameDropped))::UnityEngine::Video::__VideoPlayer__EventHandler* frameDropped;
 
   /// @brief Field errorReceived, offset 0x38, size 0x8
-  __declspec(property(get = __get_errorReceived, put = __set_errorReceived))::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* errorReceived;
+  __declspec(property(get = __cordl_internal_get_errorReceived, put = __cordl_internal_set_errorReceived))::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* errorReceived;
 
   /// @brief Field seekCompleted, offset 0x40, size 0x8
-  __declspec(property(get = __get_seekCompleted, put = __set_seekCompleted))::UnityEngine::Video::__VideoPlayer__EventHandler* seekCompleted;
+  __declspec(property(get = __cordl_internal_get_seekCompleted, put = __cordl_internal_set_seekCompleted))::UnityEngine::Video::__VideoPlayer__EventHandler* seekCompleted;
 
   /// @brief Field clockResyncOccurred, offset 0x48, size 0x8
-  __declspec(property(get = __get_clockResyncOccurred, put = __set_clockResyncOccurred))::UnityEngine::Video::__VideoPlayer__TimeEventHandler* clockResyncOccurred;
+  __declspec(property(get = __cordl_internal_get_clockResyncOccurred, put = __cordl_internal_set_clockResyncOccurred))::UnityEngine::Video::__VideoPlayer__TimeEventHandler* clockResyncOccurred;
 
   /// @brief Field frameReady, offset 0x50, size 0x8
-  __declspec(property(get = __get_frameReady, put = __set_frameReady))::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* frameReady;
+  __declspec(property(get = __cordl_internal_get_frameReady, put = __cordl_internal_set_frameReady))::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* frameReady;
 
-  __declspec(property(get = get_clip, put = set_clip))::UnityEngine::Video::VideoClip* clip;
+  __declspec(property(get = get_clip, put = set_clip))::UnityW<::UnityEngine::Video::VideoClip> clip;
 
-  __declspec(property(get = get_texture))::UnityEngine::Texture* texture;
+  __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture> texture;
 
   __declspec(property(get = get_isPlaying)) bool isPlaying;
 
@@ -264,62 +264,62 @@ public:
 
   __declspec(property(get = get_frameRate)) float_t frameRate;
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __get_prepareCompleted();
+  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __cordl_internal_get_prepareCompleted();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __get_prepareCompleted() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __cordl_internal_get_prepareCompleted() const;
 
-  constexpr void __set_prepareCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
+  constexpr void __cordl_internal_set_prepareCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __get_loopPointReached();
+  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __cordl_internal_get_loopPointReached();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __get_loopPointReached() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __cordl_internal_get_loopPointReached() const;
 
-  constexpr void __set_loopPointReached(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
+  constexpr void __cordl_internal_set_loopPointReached(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __get_started();
+  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __cordl_internal_get_started();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __get_started() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __cordl_internal_get_started() const;
 
-  constexpr void __set_started(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
+  constexpr void __cordl_internal_set_started(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __get_frameDropped();
+  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __cordl_internal_get_frameDropped();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __get_frameDropped() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __cordl_internal_get_frameDropped() const;
 
-  constexpr void __set_frameDropped(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
+  constexpr void __cordl_internal_set_frameDropped(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__ErrorEventHandler*& __get_errorReceived();
+  constexpr ::UnityEngine::Video::__VideoPlayer__ErrorEventHandler*& __cordl_internal_get_errorReceived();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__ErrorEventHandler*> const& __get_errorReceived() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__ErrorEventHandler*> const& __cordl_internal_get_errorReceived() const;
 
-  constexpr void __set_errorReceived(::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* value);
+  constexpr void __cordl_internal_set_errorReceived(::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* value);
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __get_seekCompleted();
+  constexpr ::UnityEngine::Video::__VideoPlayer__EventHandler*& __cordl_internal_get_seekCompleted();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __get_seekCompleted() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__EventHandler*> const& __cordl_internal_get_seekCompleted() const;
 
-  constexpr void __set_seekCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
+  constexpr void __cordl_internal_set_seekCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__TimeEventHandler*& __get_clockResyncOccurred();
+  constexpr ::UnityEngine::Video::__VideoPlayer__TimeEventHandler*& __cordl_internal_get_clockResyncOccurred();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__TimeEventHandler*> const& __get_clockResyncOccurred() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__TimeEventHandler*> const& __cordl_internal_get_clockResyncOccurred() const;
 
-  constexpr void __set_clockResyncOccurred(::UnityEngine::Video::__VideoPlayer__TimeEventHandler* value);
+  constexpr void __cordl_internal_set_clockResyncOccurred(::UnityEngine::Video::__VideoPlayer__TimeEventHandler* value);
 
-  constexpr ::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler*& __get_frameReady();
+  constexpr ::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler*& __cordl_internal_get_frameReady();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler*> const& __get_frameReady() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler*> const& __cordl_internal_get_frameReady() const;
 
-  constexpr void __set_frameReady(::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* value);
+  constexpr void __cordl_internal_set_frameReady(::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* value);
 
   /// @brief Method get_clip, addr 0x2eb1450, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Video::VideoClip* get_clip();
+  inline ::UnityW<::UnityEngine::Video::VideoClip> get_clip();
 
   /// @brief Method set_clip, addr 0x2eb148c, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::Video::VideoClip* value);
 
   /// @brief Method get_texture, addr 0x2eb14d0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* get_texture();
+  inline ::UnityW<::UnityEngine::Texture> get_texture();
 
   /// @brief Method Play, addr 0x2eb150c, size 0x3c, virtual false, abstract: false, final false
   inline void Play();

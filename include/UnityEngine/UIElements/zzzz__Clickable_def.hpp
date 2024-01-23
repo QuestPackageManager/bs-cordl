@@ -64,38 +64,39 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Clickable);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6826))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6826)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6807))
 // CS Name: ::UnityEngine.UIElements::Clickable*
 class CORDL_TYPE Clickable : public ::UnityEngine::UIElements::PointerManipulator {
 public:
   // Declarations
   /// @brief Field clickedWithEventInfo, offset 0x30, size 0x8
-  __declspec(property(get = __get_clickedWithEventInfo, put = __set_clickedWithEventInfo))::System::Action_1<::UnityEngine::UIElements::EventBase*>* clickedWithEventInfo;
+  __declspec(property(get = __cordl_internal_get_clickedWithEventInfo, put = __cordl_internal_set_clickedWithEventInfo))::System::Action_1<::UnityEngine::UIElements::EventBase*>* clickedWithEventInfo;
 
   /// @brief Field clicked, offset 0x38, size 0x8
-  __declspec(property(get = __get_clicked, put = __set_clicked))::System::Action* clicked;
+  __declspec(property(get = __cordl_internal_get_clicked, put = __cordl_internal_set_clicked))::System::Action* clicked;
 
   /// @brief Field m_Delay, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Delay, put = __set_m_Delay)) int64_t m_Delay;
+  __declspec(property(get = __cordl_internal_get_m_Delay, put = __cordl_internal_set_m_Delay)) int64_t m_Delay;
 
   /// @brief Field m_Interval, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Interval, put = __set_m_Interval)) int64_t m_Interval;
+  __declspec(property(get = __cordl_internal_get_m_Interval, put = __cordl_internal_set_m_Interval)) int64_t m_Interval;
 
   /// @brief Field <active>k__BackingField, offset 0x50, size 0x1
-  __declspec(property(get = __get__active_k__BackingField, put = __set__active_k__BackingField)) bool _active_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__active_k__BackingField, put = __cordl_internal_set__active_k__BackingField)) bool _active_k__BackingField;
 
   /// @brief Field <lastMousePosition>k__BackingField, offset 0x54, size 0x8
-  __declspec(property(get = __get__lastMousePosition_k__BackingField, put = __set__lastMousePosition_k__BackingField))::UnityEngine::Vector2 _lastMousePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lastMousePosition_k__BackingField,
+                      put = __cordl_internal_set__lastMousePosition_k__BackingField))::UnityEngine::Vector2 _lastMousePosition_k__BackingField;
 
   /// @brief Field m_ActivePointerId, offset 0x5c, size 0x4
-  __declspec(property(get = __get_m_ActivePointerId, put = __set_m_ActivePointerId)) int32_t m_ActivePointerId;
+  __declspec(property(get = __cordl_internal_get_m_ActivePointerId, put = __cordl_internal_set_m_ActivePointerId)) int32_t m_ActivePointerId;
 
   /// @brief Field m_AcceptClicksIfDisabled, offset 0x60, size 0x1
-  __declspec(property(get = __get_m_AcceptClicksIfDisabled, put = __set_m_AcceptClicksIfDisabled)) bool m_AcceptClicksIfDisabled;
+  __declspec(property(get = __cordl_internal_get_m_AcceptClicksIfDisabled, put = __cordl_internal_set_m_AcceptClicksIfDisabled)) bool m_AcceptClicksIfDisabled;
 
   /// @brief Field m_Repeater, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Repeater, put = __set_m_Repeater))::UnityEngine::UIElements::IVisualElementScheduledItem* m_Repeater;
+  __declspec(property(get = __cordl_internal_get_m_Repeater, put = __cordl_internal_set_m_Repeater))::UnityEngine::UIElements::IVisualElementScheduledItem* m_Repeater;
 
   __declspec(property(get = get_active, put = set_active)) bool active;
 
@@ -105,59 +106,59 @@ public:
 
   __declspec(property(get = get_invokePolicy))::UnityEngine::UIElements::InvokePolicy invokePolicy;
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::EventBase*>*& __get_clickedWithEventInfo();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::EventBase*>*& __cordl_internal_get_clickedWithEventInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::EventBase*>*> const& __get_clickedWithEventInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::EventBase*>*> const& __cordl_internal_get_clickedWithEventInfo() const;
 
-  constexpr void __set_clickedWithEventInfo(::System::Action_1<::UnityEngine::UIElements::EventBase*>* value);
+  constexpr void __cordl_internal_set_clickedWithEventInfo(::System::Action_1<::UnityEngine::UIElements::EventBase*>* value);
 
-  constexpr ::System::Action*& __get_clicked();
+  constexpr ::System::Action*& __cordl_internal_get_clicked();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_clicked() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_clicked() const;
 
-  constexpr void __set_clicked(::System::Action* value);
+  constexpr void __cordl_internal_set_clicked(::System::Action* value);
 
-  constexpr int64_t& __get_m_Delay();
+  constexpr int64_t& __cordl_internal_get_m_Delay();
 
-  constexpr int64_t const& __get_m_Delay() const;
+  constexpr int64_t const& __cordl_internal_get_m_Delay() const;
 
-  constexpr void __set_m_Delay(int64_t value);
+  constexpr void __cordl_internal_set_m_Delay(int64_t value);
 
-  constexpr int64_t& __get_m_Interval();
+  constexpr int64_t& __cordl_internal_get_m_Interval();
 
-  constexpr int64_t const& __get_m_Interval() const;
+  constexpr int64_t const& __cordl_internal_get_m_Interval() const;
 
-  constexpr void __set_m_Interval(int64_t value);
+  constexpr void __cordl_internal_set_m_Interval(int64_t value);
 
-  constexpr bool& __get__active_k__BackingField();
+  constexpr bool& __cordl_internal_get__active_k__BackingField();
 
-  constexpr bool const& __get__active_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__active_k__BackingField() const;
 
-  constexpr void __set__active_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__active_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::Vector2& __get__lastMousePosition_k__BackingField();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__lastMousePosition_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2 const& __get__lastMousePosition_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__lastMousePosition_k__BackingField() const;
 
-  constexpr void __set__lastMousePosition_k__BackingField(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__lastMousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr int32_t& __get_m_ActivePointerId();
+  constexpr int32_t& __cordl_internal_get_m_ActivePointerId();
 
-  constexpr int32_t const& __get_m_ActivePointerId() const;
+  constexpr int32_t const& __cordl_internal_get_m_ActivePointerId() const;
 
-  constexpr void __set_m_ActivePointerId(int32_t value);
+  constexpr void __cordl_internal_set_m_ActivePointerId(int32_t value);
 
-  constexpr bool& __get_m_AcceptClicksIfDisabled();
+  constexpr bool& __cordl_internal_get_m_AcceptClicksIfDisabled();
 
-  constexpr bool const& __get_m_AcceptClicksIfDisabled() const;
+  constexpr bool const& __cordl_internal_get_m_AcceptClicksIfDisabled() const;
 
-  constexpr void __set_m_AcceptClicksIfDisabled(bool value);
+  constexpr void __cordl_internal_set_m_AcceptClicksIfDisabled(bool value);
 
-  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __get_m_Repeater();
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_Repeater();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __get_m_Repeater() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_Repeater() const;
 
-  constexpr void __set_m_Repeater(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
+  constexpr void __cordl_internal_set_m_Repeater(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
   /// @brief Method get_active, addr 0x2dbcfbc, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();

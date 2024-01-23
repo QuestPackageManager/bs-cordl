@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyFirstPersonFlyingControllerHandler);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5837))
 // CS Name: ::SonyFirstPersonFlyingControllerHandler*
 class CORDL_TYPE SonyFirstPersonFlyingControllerHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _fpsFlying, offset 0x18, size 0x8
-  __declspec(property(get = __get__fpsFlying, put = __set__fpsFlying))::GlobalNamespace::FirstPersonFlyingController* _fpsFlying;
+  __declspec(property(get = __cordl_internal_get__fpsFlying, put = __cordl_internal_set__fpsFlying))::UnityW<::GlobalNamespace::FirstPersonFlyingController> _fpsFlying;
 
-  constexpr ::GlobalNamespace::FirstPersonFlyingController*& __get__fpsFlying();
+  constexpr ::UnityW<::GlobalNamespace::FirstPersonFlyingController>& __cordl_internal_get__fpsFlying();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FirstPersonFlyingController*> const& __get__fpsFlying() const;
+  constexpr ::UnityW<::GlobalNamespace::FirstPersonFlyingController> const& __cordl_internal_get__fpsFlying() const;
 
-  constexpr void __set__fpsFlying(::GlobalNamespace::FirstPersonFlyingController* value);
+  constexpr void __cordl_internal_set__fpsFlying(::UnityW<::GlobalNamespace::FirstPersonFlyingController> value);
 
   static inline ::GlobalNamespace::SonyFirstPersonFlyingControllerHandler* New_ctor();
 
@@ -52,7 +52,7 @@ protected:
 
 public:
   /// @brief Field _fpsFlying, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FirstPersonFlyingController* ____fpsFlying;
+  ::UnityW<::GlobalNamespace::FirstPersonFlyingController> ____fpsFlying;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

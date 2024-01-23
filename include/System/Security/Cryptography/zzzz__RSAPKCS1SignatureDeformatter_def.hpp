@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SignatureDeformatter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2919))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2919))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2983))
 // CS Name: ::System.Security.Cryptography::RSAPKCS1SignatureDeformatter*
 class CORDL_TYPE RSAPKCS1SignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter {
 public:
   // Declarations
   /// @brief Field rsa, offset 0x10, size 0x8
-  __declspec(property(get = __get_rsa, put = __set_rsa))::System::Security::Cryptography::RSA* rsa;
+  __declspec(property(get = __cordl_internal_get_rsa, put = __cordl_internal_set_rsa))::System::Security::Cryptography::RSA* rsa;
 
   /// @brief Field hashName, offset 0x18, size 0x8
-  __declspec(property(get = __get_hashName, put = __set_hashName))::StringW hashName;
+  __declspec(property(get = __cordl_internal_get_hashName, put = __cordl_internal_set_hashName))::StringW hashName;
 
-  constexpr ::System::Security::Cryptography::RSA*& __get_rsa();
+  constexpr ::System::Security::Cryptography::RSA*& __cordl_internal_get_rsa();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& __get_rsa() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& __cordl_internal_get_rsa() const;
 
-  constexpr void __set_rsa(::System::Security::Cryptography::RSA* value);
+  constexpr void __cordl_internal_set_rsa(::System::Security::Cryptography::RSA* value);
 
-  constexpr ::StringW& __get_hashName();
+  constexpr ::StringW& __cordl_internal_get_hashName();
 
-  constexpr ::StringW const& __get_hashName() const;
+  constexpr ::StringW const& __cordl_internal_get_hashName() const;
 
-  constexpr void __set_hashName(::StringW value);
+  constexpr void __cordl_internal_set_hashName(::StringW value);
 
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor();
 

@@ -34,32 +34,32 @@ MARK_REF_PTR_T(::System::Net::HttpListenerContext);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9173))
 // CS Name: ::System.Net::HttpListenerContext*
 class CORDL_TYPE HttpListenerContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field request, offset 0x10, size 0x8
-  __declspec(property(get = __get_request, put = __set_request))::System::Net::HttpListenerRequest* request;
+  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request))::System::Net::HttpListenerRequest* request;
 
   /// @brief Field response, offset 0x18, size 0x8
-  __declspec(property(get = __get_response, put = __set_response))::System::Net::HttpListenerResponse* response;
+  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::System::Net::HttpListenerResponse* response;
 
   /// @brief Field user, offset 0x20, size 0x8
-  __declspec(property(get = __get_user, put = __set_user))::System::Security::Principal::IPrincipal* user;
+  __declspec(property(get = __cordl_internal_get_user, put = __cordl_internal_set_user))::System::Security::Principal::IPrincipal* user;
 
   /// @brief Field cnc, offset 0x28, size 0x8
-  __declspec(property(get = __get_cnc, put = __set_cnc))::System::Net::HttpConnection* cnc;
+  __declspec(property(get = __cordl_internal_get_cnc, put = __cordl_internal_set_cnc))::System::Net::HttpConnection* cnc;
 
   /// @brief Field error, offset 0x30, size 0x8
-  __declspec(property(get = __get_error, put = __set_error))::StringW error;
+  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error))::StringW error;
 
   /// @brief Field err_status, offset 0x38, size 0x4
-  __declspec(property(get = __get_err_status, put = __set_err_status)) int32_t err_status;
+  __declspec(property(get = __cordl_internal_get_err_status, put = __cordl_internal_set_err_status)) int32_t err_status;
 
   /// @brief Field Listener, offset 0x40, size 0x8
-  __declspec(property(get = __get_Listener, put = __set_Listener))::System::Net::HttpListener* Listener;
+  __declspec(property(get = __cordl_internal_get_Listener, put = __cordl_internal_set_Listener))::System::Net::HttpListener* Listener;
 
   __declspec(property(get = get_ErrorStatus, put = set_ErrorStatus)) int32_t ErrorStatus;
 
@@ -73,47 +73,47 @@ public:
 
   __declspec(property(get = get_Response))::System::Net::HttpListenerResponse* Response;
 
-  constexpr ::System::Net::HttpListenerRequest*& __get_request();
+  constexpr ::System::Net::HttpListenerRequest*& __cordl_internal_get_request();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerRequest*> const& __get_request() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerRequest*> const& __cordl_internal_get_request() const;
 
-  constexpr void __set_request(::System::Net::HttpListenerRequest* value);
+  constexpr void __cordl_internal_set_request(::System::Net::HttpListenerRequest* value);
 
-  constexpr ::System::Net::HttpListenerResponse*& __get_response();
+  constexpr ::System::Net::HttpListenerResponse*& __cordl_internal_get_response();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerResponse*> const& __get_response() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerResponse*> const& __cordl_internal_get_response() const;
 
-  constexpr void __set_response(::System::Net::HttpListenerResponse* value);
+  constexpr void __cordl_internal_set_response(::System::Net::HttpListenerResponse* value);
 
-  constexpr ::System::Security::Principal::IPrincipal*& __get_user();
+  constexpr ::System::Security::Principal::IPrincipal*& __cordl_internal_get_user();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& __get_user() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& __cordl_internal_get_user() const;
 
-  constexpr void __set_user(::System::Security::Principal::IPrincipal* value);
+  constexpr void __cordl_internal_set_user(::System::Security::Principal::IPrincipal* value);
 
-  constexpr ::System::Net::HttpConnection*& __get_cnc();
+  constexpr ::System::Net::HttpConnection*& __cordl_internal_get_cnc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpConnection*> const& __get_cnc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpConnection*> const& __cordl_internal_get_cnc() const;
 
-  constexpr void __set_cnc(::System::Net::HttpConnection* value);
+  constexpr void __cordl_internal_set_cnc(::System::Net::HttpConnection* value);
 
-  constexpr ::StringW& __get_error();
+  constexpr ::StringW& __cordl_internal_get_error();
 
-  constexpr ::StringW const& __get_error() const;
+  constexpr ::StringW const& __cordl_internal_get_error() const;
 
-  constexpr void __set_error(::StringW value);
+  constexpr void __cordl_internal_set_error(::StringW value);
 
-  constexpr int32_t& __get_err_status();
+  constexpr int32_t& __cordl_internal_get_err_status();
 
-  constexpr int32_t const& __get_err_status() const;
+  constexpr int32_t const& __cordl_internal_get_err_status() const;
 
-  constexpr void __set_err_status(int32_t value);
+  constexpr void __cordl_internal_set_err_status(int32_t value);
 
-  constexpr ::System::Net::HttpListener*& __get_Listener();
+  constexpr ::System::Net::HttpListener*& __cordl_internal_get_Listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __get_Listener() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_Listener() const;
 
-  constexpr void __set_Listener(::System::Net::HttpListener* value);
+  constexpr void __cordl_internal_set_Listener(::System::Net::HttpListener* value);
 
   static inline ::System::Net::HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc);
 

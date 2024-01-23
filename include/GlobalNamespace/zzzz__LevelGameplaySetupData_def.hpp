@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelGameplaySetupData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4498))
 // CS Name: ::LevelGameplaySetupData*
 class CORDL_TYPE LevelGameplaySetupData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapLevel, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevel, put = __set__beatmapLevel))::GlobalNamespace::PreviewDifficultyBeatmap* _beatmapLevel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::PreviewDifficultyBeatmap* _beatmapLevel;
 
   /// @brief Field _gameplayModifiers, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   __declspec(property(get = get_beatmapLevel))::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel;
 
@@ -45,17 +45,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr ::GlobalNamespace::ILevelGameplaySetupData* i___GlobalNamespace__ILevelGameplaySetupData() noexcept;
 
-  constexpr ::GlobalNamespace::PreviewDifficultyBeatmap*& __get__beatmapLevel();
+  constexpr ::GlobalNamespace::PreviewDifficultyBeatmap*& __cordl_internal_get__beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewDifficultyBeatmap*> const& __get__beatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewDifficultyBeatmap*> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __set__beatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   /// @brief Method get_beatmapLevel, addr 0x2355d34, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();

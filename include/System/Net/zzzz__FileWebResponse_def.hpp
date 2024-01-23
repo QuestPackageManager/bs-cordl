@@ -46,29 +46,29 @@ MARK_REF_PTR_T(::System::Net::FileWebResponse);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(9097))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(9097))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9137))
 // CS Name: ::System.Net::FileWebResponse*
 class CORDL_TYPE FileWebResponse : public ::System::Net::WebResponse {
 public:
   // Declarations
   /// @brief Field m_closed, offset 0x19, size 0x1
-  __declspec(property(get = __get_m_closed, put = __set_m_closed)) bool m_closed;
+  __declspec(property(get = __cordl_internal_get_m_closed, put = __cordl_internal_set_m_closed)) bool m_closed;
 
   /// @brief Field m_contentLength, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_contentLength, put = __set_m_contentLength)) int64_t m_contentLength;
+  __declspec(property(get = __cordl_internal_get_m_contentLength, put = __cordl_internal_set_m_contentLength)) int64_t m_contentLength;
 
   /// @brief Field m_fileAccess, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_fileAccess, put = __set_m_fileAccess))::System::IO::FileAccess m_fileAccess;
+  __declspec(property(get = __cordl_internal_get_m_fileAccess, put = __cordl_internal_set_m_fileAccess))::System::IO::FileAccess m_fileAccess;
 
   /// @brief Field m_headers, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_headers, put = __set_m_headers))::System::Net::WebHeaderCollection* m_headers;
+  __declspec(property(get = __cordl_internal_get_m_headers, put = __cordl_internal_set_m_headers))::System::Net::WebHeaderCollection* m_headers;
 
   /// @brief Field m_stream, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_stream, put = __set_m_stream))::System::IO::Stream* m_stream;
+  __declspec(property(get = __cordl_internal_get_m_stream, put = __cordl_internal_set_m_stream))::System::IO::Stream* m_stream;
 
   /// @brief Field m_uri, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_uri, put = __set_m_uri))::System::Uri* m_uri;
+  __declspec(property(get = __cordl_internal_get_m_uri, put = __cordl_internal_set_m_uri))::System::Uri* m_uri;
 
   __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
 
@@ -86,41 +86,41 @@ public:
   /// @brief Convert to "::System::Net::ICloseEx"
   constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
-  constexpr bool& __get_m_closed();
+  constexpr bool& __cordl_internal_get_m_closed();
 
-  constexpr bool const& __get_m_closed() const;
+  constexpr bool const& __cordl_internal_get_m_closed() const;
 
-  constexpr void __set_m_closed(bool value);
+  constexpr void __cordl_internal_set_m_closed(bool value);
 
-  constexpr int64_t& __get_m_contentLength();
+  constexpr int64_t& __cordl_internal_get_m_contentLength();
 
-  constexpr int64_t const& __get_m_contentLength() const;
+  constexpr int64_t const& __cordl_internal_get_m_contentLength() const;
 
-  constexpr void __set_m_contentLength(int64_t value);
+  constexpr void __cordl_internal_set_m_contentLength(int64_t value);
 
-  constexpr ::System::IO::FileAccess& __get_m_fileAccess();
+  constexpr ::System::IO::FileAccess& __cordl_internal_get_m_fileAccess();
 
-  constexpr ::System::IO::FileAccess const& __get_m_fileAccess() const;
+  constexpr ::System::IO::FileAccess const& __cordl_internal_get_m_fileAccess() const;
 
-  constexpr void __set_m_fileAccess(::System::IO::FileAccess value);
+  constexpr void __cordl_internal_set_m_fileAccess(::System::IO::FileAccess value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get_m_headers();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_m_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get_m_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_m_headers() const;
 
-  constexpr void __set_m_headers(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set_m_headers(::System::Net::WebHeaderCollection* value);
 
-  constexpr ::System::IO::Stream*& __get_m_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_m_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_m_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_stream() const;
 
-  constexpr void __set_m_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_m_stream(::System::IO::Stream* value);
 
-  constexpr ::System::Uri*& __get_m_uri();
+  constexpr ::System::Uri*& __cordl_internal_get_m_uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_m_uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_uri() const;
 
-  constexpr void __set_m_uri(::System::Uri* value);
+  constexpr void __cordl_internal_set_m_uri(::System::Uri* value);
 
   static inline ::System::Net::FileWebResponse* New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 

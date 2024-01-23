@@ -19,34 +19,34 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(500))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(500))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(501))
 // CS Name: ::Org.BouncyCastle.Asn1::DefiniteLengthInputStream*
 class CORDL_TYPE DefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::LimitedInputStream {
 public:
   // Declarations
   /// @brief Field _originalLength, offset 0x3c, size 0x4
-  __declspec(property(get = __get__originalLength, put = __set__originalLength)) int32_t _originalLength;
+  __declspec(property(get = __cordl_internal_get__originalLength, put = __cordl_internal_set__originalLength)) int32_t _originalLength;
 
   /// @brief Field _remaining, offset 0x40, size 0x4
-  __declspec(property(get = __get__remaining, put = __set__remaining)) int32_t _remaining;
+  __declspec(property(get = __cordl_internal_get__remaining, put = __cordl_internal_set__remaining)) int32_t _remaining;
 
   /// @brief Field EmptyBytes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EmptyBytes, put = setStaticF_EmptyBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> EmptyBytes;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr int32_t& __get__originalLength();
+  constexpr int32_t& __cordl_internal_get__originalLength();
 
-  constexpr int32_t const& __get__originalLength() const;
+  constexpr int32_t const& __cordl_internal_get__originalLength() const;
 
-  constexpr void __set__originalLength(int32_t value);
+  constexpr void __cordl_internal_set__originalLength(int32_t value);
 
-  constexpr int32_t& __get__remaining();
+  constexpr int32_t& __cordl_internal_get__remaining();
 
-  constexpr int32_t const& __get__remaining() const;
+  constexpr int32_t const& __cordl_internal_get__remaining() const;
 
-  constexpr void __set__remaining(int32_t value);
+  constexpr void __cordl_internal_set__remaining(int32_t value);
 
   static inline void setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

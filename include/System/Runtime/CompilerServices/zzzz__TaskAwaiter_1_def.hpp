@@ -28,7 +28,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3394))
 // CS Name: ::System.Runtime.CompilerServices::TaskAwaiter`1<TResult>
 struct CORDL_TYPE TaskAwaiter_1 {

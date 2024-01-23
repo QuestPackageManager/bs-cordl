@@ -39,32 +39,32 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeModule);
 // SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3525))
 // CS Name: ::System.Reflection::RuntimeModule*
 class CORDL_TYPE RuntimeModule : public ::System::Reflection::Module {
 public:
   // Declarations
   /// @brief Field _impl, offset 0x10, size 0x8
-  __declspec(property(get = __get__impl, put = __set__impl)) void* _impl;
+  __declspec(property(get = __cordl_internal_get__impl, put = __cordl_internal_set__impl)) void* _impl;
 
   /// @brief Field assembly, offset 0x18, size 0x8
-  __declspec(property(get = __get_assembly, put = __set_assembly))::System::Reflection::Assembly* assembly;
+  __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly))::System::Reflection::Assembly* assembly;
 
   /// @brief Field fqname, offset 0x20, size 0x8
-  __declspec(property(get = __get_fqname, put = __set_fqname))::StringW fqname;
+  __declspec(property(get = __cordl_internal_get_fqname, put = __cordl_internal_set_fqname))::StringW fqname;
 
   /// @brief Field name, offset 0x28, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field scopename, offset 0x30, size 0x8
-  __declspec(property(get = __get_scopename, put = __set_scopename))::StringW scopename;
+  __declspec(property(get = __cordl_internal_get_scopename, put = __cordl_internal_set_scopename))::StringW scopename;
 
   /// @brief Field is_resource, offset 0x38, size 0x1
-  __declspec(property(get = __get_is_resource, put = __set_is_resource)) bool is_resource;
+  __declspec(property(get = __cordl_internal_get_is_resource, put = __cordl_internal_set_is_resource)) bool is_resource;
 
   /// @brief Field token, offset 0x3c, size 0x4
-  __declspec(property(get = __get_token, put = __set_token)) int32_t token;
+  __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token)) int32_t token;
 
   __declspec(property(get = get_Assembly))::System::Reflection::Assembly* Assembly;
 
@@ -72,47 +72,47 @@ public:
 
   __declspec(property(get = get_ModuleVersionId))::System::Guid ModuleVersionId;
 
-  constexpr void*& __get__impl();
+  constexpr void*& __cordl_internal_get__impl();
 
-  constexpr void* const& __get__impl() const;
+  constexpr void* const& __cordl_internal_get__impl() const;
 
-  constexpr void __set__impl(void* value);
+  constexpr void __cordl_internal_set__impl(void* value);
 
-  constexpr ::System::Reflection::Assembly*& __get_assembly();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get_assembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get_assembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_assembly() const;
 
-  constexpr void __set_assembly(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
 
-  constexpr ::StringW& __get_fqname();
+  constexpr ::StringW& __cordl_internal_get_fqname();
 
-  constexpr ::StringW const& __get_fqname() const;
+  constexpr ::StringW const& __cordl_internal_get_fqname() const;
 
-  constexpr void __set_fqname(::StringW value);
+  constexpr void __cordl_internal_set_fqname(::StringW value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_scopename();
+  constexpr ::StringW& __cordl_internal_get_scopename();
 
-  constexpr ::StringW const& __get_scopename() const;
+  constexpr ::StringW const& __cordl_internal_get_scopename() const;
 
-  constexpr void __set_scopename(::StringW value);
+  constexpr void __cordl_internal_set_scopename(::StringW value);
 
-  constexpr bool& __get_is_resource();
+  constexpr bool& __cordl_internal_get_is_resource();
 
-  constexpr bool const& __get_is_resource() const;
+  constexpr bool const& __cordl_internal_get_is_resource() const;
 
-  constexpr void __set_is_resource(bool value);
+  constexpr void __cordl_internal_set_is_resource(bool value);
 
-  constexpr int32_t& __get_token();
+  constexpr int32_t& __cordl_internal_get_token();
 
-  constexpr int32_t const& __get_token() const;
+  constexpr int32_t const& __cordl_internal_get_token() const;
 
-  constexpr void __set_token(int32_t value);
+  constexpr void __cordl_internal_set_token(int32_t value);
 
   /// @brief Method get_Assembly, addr 0x24f7174, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_Assembly();

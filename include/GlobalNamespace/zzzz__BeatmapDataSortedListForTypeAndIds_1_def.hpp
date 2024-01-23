@@ -49,7 +49,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4256))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1::<>c<TBase>*
 class CORDL_TYPE __BeatmapDataSortedListForTypeAndIds_1____c : public ::System::Object {
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4257))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1<TBase>*
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1 : public ::System::Object {
@@ -121,39 +121,40 @@ public:
   using __c = ::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>;
 
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __get__items,
-                      put = __set__items))::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* _items;
+  __declspec(
+      property(get = __cordl_internal_get__items,
+               put = __cordl_internal_set__items))::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* _items;
 
   /// @brief Field _sortedListsDataProcessors, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get__sortedListsDataProcessors,
-               put = __set__sortedListsDataProcessors))::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* _sortedListsDataProcessors;
+  __declspec(property(get = __cordl_internal_get__sortedListsDataProcessors, put = __cordl_internal_set__sortedListsDataProcessors))::System::Collections::Generic::Dictionary_2<
+      ::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* _sortedListsDataProcessors;
 
   /// @brief Field _itemToNodeMap, offset 0x20, size 0x8
-  __declspec(property(get = __get__itemToNodeMap,
-                      put = __set__itemToNodeMap))::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* _itemToNodeMap;
+  __declspec(property(get = __cordl_internal_get__itemToNodeMap,
+                      put = __cordl_internal_set__itemToNodeMap))::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* _itemToNodeMap;
 
   __declspec(property(get = get_sortedListHeads))::ArrayW<::System::Collections::Generic::LinkedListNode_1<TBase>*, ::Array<::System::Collections::Generic::LinkedListNode_1<TBase>*>*> sortedListHeads;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>*& __get__items();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>*& __cordl_internal_get__items();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>*> const&
-  __get__items() const;
+  __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* value);
+  constexpr void __cordl_internal_set__items(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*& __get__sortedListsDataProcessors();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*& __cordl_internal_get__sortedListsDataProcessors();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*> const&
-  __get__sortedListsDataProcessors() const;
+  __cordl_internal_get__sortedListsDataProcessors() const;
 
-  constexpr void __set__sortedListsDataProcessors(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* value);
+  constexpr void __cordl_internal_set__sortedListsDataProcessors(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*& __get__itemToNodeMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*& __cordl_internal_get__itemToNodeMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*> const& __get__itemToNodeMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*> const&
+  __cordl_internal_get__itemToNodeMap() const;
 
-  constexpr void __set__itemToNodeMap(::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* value);
+  constexpr void __cordl_internal_set__itemToNodeMap(::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* value);
 
   /// @brief Method get_sortedListHeads, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Collections::Generic::LinkedListNode_1<TBase>*, ::Array<::System::Collections::Generic::LinkedListNode_1<TBase>*>*> get_sortedListHeads();

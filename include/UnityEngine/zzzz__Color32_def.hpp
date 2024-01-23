@@ -26,26 +26,26 @@ MARK_VAL_T(::UnityEngine::Color32);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10250))
 // CS Name: ::UnityEngine::Color32
 struct CORDL_TYPE Color32 {
 public:
   // Declarations
   /// @brief Field rgba, offset 0x0, size 0x4
-  __declspec(property(get = __get_rgba, put = __set_rgba)) int32_t rgba;
+  __declspec(property(get = __cordl_internal_get_rgba, put = __cordl_internal_set_rgba)) int32_t rgba;
 
   /// @brief Field r, offset 0x0, size 0x1
-  __declspec(property(get = __get_r, put = __set_r)) uint8_t r;
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) uint8_t r;
 
   /// @brief Field g, offset 0x1, size 0x1
-  __declspec(property(get = __get_g, put = __set_g)) uint8_t g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) uint8_t g;
 
   /// @brief Field b, offset 0x2, size 0x1
-  __declspec(property(get = __get_b, put = __set_b)) uint8_t b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) uint8_t b;
 
   /// @brief Field a, offset 0x3, size 0x1
-  __declspec(property(get = __get_a, put = __set_a)) uint8_t a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) uint8_t a;
 
   __declspec(property(get = get_Item)) uint8_t Item[];
 
@@ -55,35 +55,35 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  constexpr int32_t& __get_rgba();
+  constexpr int32_t& __cordl_internal_get_rgba();
 
-  constexpr int32_t const& __get_rgba() const;
+  constexpr int32_t const& __cordl_internal_get_rgba() const;
 
-  constexpr void __set_rgba(int32_t value);
+  constexpr void __cordl_internal_set_rgba(int32_t value);
 
-  constexpr uint8_t& __get_r();
+  constexpr uint8_t& __cordl_internal_get_r();
 
-  constexpr uint8_t const& __get_r() const;
+  constexpr uint8_t const& __cordl_internal_get_r() const;
 
-  constexpr void __set_r(uint8_t value);
+  constexpr void __cordl_internal_set_r(uint8_t value);
 
-  constexpr uint8_t& __get_g();
+  constexpr uint8_t& __cordl_internal_get_g();
 
-  constexpr uint8_t const& __get_g() const;
+  constexpr uint8_t const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(uint8_t value);
+  constexpr void __cordl_internal_set_g(uint8_t value);
 
-  constexpr uint8_t& __get_b();
+  constexpr uint8_t& __cordl_internal_get_b();
 
-  constexpr uint8_t const& __get_b() const;
+  constexpr uint8_t const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(uint8_t value);
+  constexpr void __cordl_internal_set_b(uint8_t value);
 
-  constexpr uint8_t& __get_a();
+  constexpr uint8_t& __cordl_internal_get_a();
 
-  constexpr uint8_t const& __get_a() const;
+  constexpr uint8_t const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(uint8_t value);
+  constexpr void __cordl_internal_set_a(uint8_t value);
 
   /// @brief Method .ctor, addr 0x2cda0c8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a);

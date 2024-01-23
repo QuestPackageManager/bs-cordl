@@ -50,17 +50,17 @@ MARK_REF_PTR_T(::UnityEngine::__Transform__Enumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10275))
 // CS Name: ::Transform::Enumerator*
 class CORDL_TYPE __Transform__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_outer, put = __set_outer))::UnityEngine::Transform* outer;
+  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::UnityW<::UnityEngine::Transform> outer;
 
   /// @brief Field currentIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_currentIndex, put = __set_currentIndex)) int32_t currentIndex;
+  __declspec(property(get = __cordl_internal_get_currentIndex, put = __cordl_internal_set_currentIndex)) int32_t currentIndex;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -70,17 +70,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::UnityEngine::Transform*& __get_outer();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_outer() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_outer() const;
 
-  constexpr void __set_outer(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_outer(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr int32_t& __get_currentIndex();
+  constexpr int32_t& __cordl_internal_get_currentIndex();
 
-  constexpr int32_t const& __get_currentIndex() const;
+  constexpr int32_t const& __cordl_internal_get_currentIndex() const;
 
-  constexpr void __set_currentIndex(int32_t value);
+  constexpr void __cordl_internal_set_currentIndex(int32_t value);
 
   static inline ::UnityEngine::__Transform__Enumerator* New_ctor(::UnityEngine::Transform* outer);
 
@@ -111,7 +111,7 @@ protected:
 
 public:
   /// @brief Field outer, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___outer;
+  ::UnityW<::UnityEngine::Transform> ___outer;
 
   /// @brief Field currentIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___currentIndex;
@@ -130,7 +130,7 @@ static_assert(offsetof(::UnityEngine::__Transform__Enumerator, ___currentIndex) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10276))
 // CS Name: ::UnityEngine::Transform*
 class CORDL_TYPE Transform : public ::UnityEngine::Component {
@@ -160,15 +160,15 @@ public:
 
   __declspec(property(get = get_localScale, put = set_localScale))::UnityEngine::Vector3 localScale;
 
-  __declspec(property(get = get_parent, put = set_parent))::UnityEngine::Transform* parent;
+  __declspec(property(get = get_parent, put = set_parent))::UnityW<::UnityEngine::Transform> parent;
 
-  __declspec(property(get = get_parentInternal, put = set_parentInternal))::UnityEngine::Transform* parentInternal;
+  __declspec(property(get = get_parentInternal, put = set_parentInternal))::UnityW<::UnityEngine::Transform> parentInternal;
 
   __declspec(property(get = get_worldToLocalMatrix))::UnityEngine::Matrix4x4 worldToLocalMatrix;
 
   __declspec(property(get = get_localToWorldMatrix))::UnityEngine::Matrix4x4 localToWorldMatrix;
 
-  __declspec(property(get = get_root))::UnityEngine::Transform* root;
+  __declspec(property(get = get_root))::UnityW<::UnityEngine::Transform> root;
 
   __declspec(property(get = get_childCount)) int32_t childCount;
 
@@ -275,19 +275,19 @@ public:
   inline void set_localScale(::UnityEngine::Vector3 value);
 
   /// @brief Method get_parent, addr 0x2ce0a1c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_parent();
+  inline ::UnityW<::UnityEngine::Transform> get_parent();
 
   /// @brief Method set_parent, addr 0x2ce0a94, size 0xcc, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Transform* value);
 
   /// @brief Method get_parentInternal, addr 0x2ce0a58, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_parentInternal();
+  inline ::UnityW<::UnityEngine::Transform> get_parentInternal();
 
   /// @brief Method set_parentInternal, addr 0x2ce0b60, size 0x48, virtual false, abstract: false, final false
   inline void set_parentInternal(::UnityEngine::Transform* value);
 
   /// @brief Method GetParent, addr 0x2ce0ba8, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetParent();
+  inline ::UnityW<::UnityEngine::Transform> GetParent();
 
   /// @brief Method SetParent, addr 0x2ce0be4, size 0x48, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::Transform* p);
@@ -401,10 +401,10 @@ public:
   inline ::UnityEngine::Vector3 InverseTransformPoint(float_t x, float_t y, float_t z);
 
   /// @brief Method get_root, addr 0x2ce1cd4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_root();
+  inline ::UnityW<::UnityEngine::Transform> get_root();
 
   /// @brief Method GetRoot, addr 0x2ce1d10, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetRoot();
+  inline ::UnityW<::UnityEngine::Transform> GetRoot();
 
   /// @brief Method get_childCount, addr 0x2ce1d4c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_childCount();
@@ -428,10 +428,10 @@ public:
   inline int32_t GetSiblingIndex();
 
   /// @brief Method FindRelativeTransformWithPath, addr 0x2ce1f10, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* FindRelativeTransformWithPath(::UnityEngine::Transform* transform, ::StringW path, bool isActiveOnly);
+  static inline ::UnityW<::UnityEngine::Transform> FindRelativeTransformWithPath(::UnityEngine::Transform* transform, ::StringW path, bool isActiveOnly);
 
   /// @brief Method Find, addr 0x2ce1f64, size 0x98, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* Find(::StringW n);
+  inline ::UnityW<::UnityEngine::Transform> Find(::StringW n);
 
   /// @brief Method SendTransformChangedScale, addr 0x2ce1ffc, size 0x3c, virtual false, abstract: false, final false
   inline void SendTransformChangedScale();
@@ -449,7 +449,7 @@ public:
   inline void set_hasChanged(bool value);
 
   /// @brief Method FindChild, addr 0x2ce219c, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* FindChild(::StringW n);
+  inline ::UnityW<::UnityEngine::Transform> FindChild(::StringW n);
 
   /// @brief Method GetEnumerator, addr 0x2ce21a0, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
@@ -461,7 +461,7 @@ public:
   inline void RotateAroundLocal(::UnityEngine::Vector3 axis, float_t angle);
 
   /// @brief Method GetChild, addr 0x2ce23ac, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetChild(int32_t index);
+  inline ::UnityW<::UnityEngine::Transform> GetChild(int32_t index);
 
   /// @brief Method GetChildCount, addr 0x2ce23f0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetChildCount();

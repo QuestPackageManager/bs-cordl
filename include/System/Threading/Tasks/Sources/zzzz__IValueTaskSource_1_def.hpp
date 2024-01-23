@@ -28,7 +28,7 @@ namespace System::Threading::Tasks::Sources {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2824))
 // CS Name: ::System.Threading.Tasks.Sources::IValueTaskSource`1<TResult>*
 class CORDL_TYPE IValueTaskSource_1 {

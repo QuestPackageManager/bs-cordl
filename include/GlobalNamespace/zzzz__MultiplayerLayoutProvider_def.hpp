@@ -22,43 +22,44 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLayoutProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5233)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5215))
 // CS Name: ::MultiplayerLayoutProvider*
 class CORDL_TYPE MultiplayerLayoutProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <layout>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__layout_k__BackingField, put = __set__layout_k__BackingField))::GlobalNamespace::MultiplayerPlayerLayout _layout_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__layout_k__BackingField, put = __cordl_internal_set__layout_k__BackingField))::GlobalNamespace::MultiplayerPlayerLayout _layout_k__BackingField;
 
   /// @brief Field <activePlayerSpotsCount>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__activePlayerSpotsCount_k__BackingField, put = __set__activePlayerSpotsCount_k__BackingField)) int32_t _activePlayerSpotsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__activePlayerSpotsCount_k__BackingField,
+                      put = __cordl_internal_set__activePlayerSpotsCount_k__BackingField)) int32_t _activePlayerSpotsCount_k__BackingField;
 
   /// @brief Field playersLayoutWasCalculatedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_playersLayoutWasCalculatedEvent,
-                      put = __set_playersLayoutWasCalculatedEvent))::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* playersLayoutWasCalculatedEvent;
+  __declspec(property(get = __cordl_internal_get_playersLayoutWasCalculatedEvent,
+                      put = __cordl_internal_set_playersLayoutWasCalculatedEvent))::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* playersLayoutWasCalculatedEvent;
 
   __declspec(property(get = get_layout, put = set_layout))::GlobalNamespace::MultiplayerPlayerLayout layout;
 
   __declspec(property(get = get_activePlayerSpotsCount, put = set_activePlayerSpotsCount)) int32_t activePlayerSpotsCount;
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerLayout& __get__layout_k__BackingField();
+  constexpr ::GlobalNamespace::MultiplayerPlayerLayout& __cordl_internal_get__layout_k__BackingField();
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& __get__layout_k__BackingField() const;
+  constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& __cordl_internal_get__layout_k__BackingField() const;
 
-  constexpr void __set__layout_k__BackingField(::GlobalNamespace::MultiplayerPlayerLayout value);
+  constexpr void __cordl_internal_set__layout_k__BackingField(::GlobalNamespace::MultiplayerPlayerLayout value);
 
-  constexpr int32_t& __get__activePlayerSpotsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__activePlayerSpotsCount_k__BackingField();
 
-  constexpr int32_t const& __get__activePlayerSpotsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__activePlayerSpotsCount_k__BackingField() const;
 
-  constexpr void __set__activePlayerSpotsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__activePlayerSpotsCount_k__BackingField(int32_t value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*& __get_playersLayoutWasCalculatedEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*& __cordl_internal_get_playersLayoutWasCalculatedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*> const& __get_playersLayoutWasCalculatedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*> const& __cordl_internal_get_playersLayoutWasCalculatedEvent() const;
 
-  constexpr void __set_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
+  constexpr void __cordl_internal_set_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
   /// @brief Method get_layout, addr 0x224fcdc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout get_layout();

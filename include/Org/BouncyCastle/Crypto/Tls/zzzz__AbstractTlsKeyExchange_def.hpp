@@ -40,20 +40,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1171))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsKeyExchange*
 class CORDL_TYPE AbstractTlsKeyExchange : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mKeyExchange, offset 0x10, size 0x4
-  __declspec(property(get = __get_mKeyExchange, put = __set_mKeyExchange)) int32_t mKeyExchange;
+  __declspec(property(get = __cordl_internal_get_mKeyExchange, put = __cordl_internal_set_mKeyExchange)) int32_t mKeyExchange;
 
   /// @brief Field mSupportedSignatureAlgorithms, offset 0x18, size 0x8
-  __declspec(property(get = __get_mSupportedSignatureAlgorithms, put = __set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
+  __declspec(property(get = __cordl_internal_get_mSupportedSignatureAlgorithms, put = __cordl_internal_set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
 
   /// @brief Field mContext, offset 0x20, size 0x8
-  __declspec(property(get = __get_mContext, put = __set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
+  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
 
   __declspec(property(get = get_RequiresServerKeyExchange)) bool RequiresServerKeyExchange;
 
@@ -63,23 +63,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* i___Org__BouncyCastle__Crypto__Tls__TlsKeyExchange() noexcept;
 
-  constexpr int32_t& __get_mKeyExchange();
+  constexpr int32_t& __cordl_internal_get_mKeyExchange();
 
-  constexpr int32_t const& __get_mKeyExchange() const;
+  constexpr int32_t const& __cordl_internal_get_mKeyExchange() const;
 
-  constexpr void __set_mKeyExchange(int32_t value);
+  constexpr void __cordl_internal_set_mKeyExchange(int32_t value);
 
-  constexpr ::System::Collections::IList*& __get_mSupportedSignatureAlgorithms();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mSupportedSignatureAlgorithms();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mSupportedSignatureAlgorithms() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mSupportedSignatureAlgorithms() const;
 
-  constexpr void __set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_mContext();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_mContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_mContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_mContext() const;
 
-  constexpr void __set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms);
 

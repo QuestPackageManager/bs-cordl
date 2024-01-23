@@ -21,44 +21,44 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_DetailPrototype);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9956))
 // CS Name: ::HoudiniEngineUnity::HEU_DetailPrototype*
 class CORDL_TYPE HEU_DetailPrototype : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _prototypePrefab, offset 0x10, size 0x8
-  __declspec(property(get = __get__prototypePrefab, put = __set__prototypePrefab))::StringW _prototypePrefab;
+  __declspec(property(get = __cordl_internal_get__prototypePrefab, put = __cordl_internal_set__prototypePrefab))::StringW _prototypePrefab;
 
   /// @brief Field _prototypeTexture, offset 0x18, size 0x8
-  __declspec(property(get = __get__prototypeTexture, put = __set__prototypeTexture))::StringW _prototypeTexture;
+  __declspec(property(get = __cordl_internal_get__prototypeTexture, put = __cordl_internal_set__prototypeTexture))::StringW _prototypeTexture;
 
   /// @brief Field _bendFactor, offset 0x20, size 0x4
-  __declspec(property(get = __get__bendFactor, put = __set__bendFactor)) float_t _bendFactor;
+  __declspec(property(get = __cordl_internal_get__bendFactor, put = __cordl_internal_set__bendFactor)) float_t _bendFactor;
 
   /// @brief Field _dryColor, offset 0x24, size 0x10
-  __declspec(property(get = __get__dryColor, put = __set__dryColor))::UnityEngine::Color _dryColor;
+  __declspec(property(get = __cordl_internal_get__dryColor, put = __cordl_internal_set__dryColor))::UnityEngine::Color _dryColor;
 
   /// @brief Field _healthyColor, offset 0x34, size 0x10
-  __declspec(property(get = __get__healthyColor, put = __set__healthyColor))::UnityEngine::Color _healthyColor;
+  __declspec(property(get = __cordl_internal_get__healthyColor, put = __cordl_internal_set__healthyColor))::UnityEngine::Color _healthyColor;
 
   /// @brief Field _maxHeight, offset 0x44, size 0x4
-  __declspec(property(get = __get__maxHeight, put = __set__maxHeight)) float_t _maxHeight;
+  __declspec(property(get = __cordl_internal_get__maxHeight, put = __cordl_internal_set__maxHeight)) float_t _maxHeight;
 
   /// @brief Field _maxWidth, offset 0x48, size 0x4
-  __declspec(property(get = __get__maxWidth, put = __set__maxWidth)) float_t _maxWidth;
+  __declspec(property(get = __cordl_internal_get__maxWidth, put = __cordl_internal_set__maxWidth)) float_t _maxWidth;
 
   /// @brief Field _minHeight, offset 0x4c, size 0x4
-  __declspec(property(get = __get__minHeight, put = __set__minHeight)) float_t _minHeight;
+  __declspec(property(get = __cordl_internal_get__minHeight, put = __cordl_internal_set__minHeight)) float_t _minHeight;
 
   /// @brief Field _minWidth, offset 0x50, size 0x4
-  __declspec(property(get = __get__minWidth, put = __set__minWidth)) float_t _minWidth;
+  __declspec(property(get = __cordl_internal_get__minWidth, put = __cordl_internal_set__minWidth)) float_t _minWidth;
 
   /// @brief Field _noiseSpread, offset 0x54, size 0x4
-  __declspec(property(get = __get__noiseSpread, put = __set__noiseSpread)) float_t _noiseSpread;
+  __declspec(property(get = __cordl_internal_get__noiseSpread, put = __cordl_internal_set__noiseSpread)) float_t _noiseSpread;
 
   /// @brief Field _renderMode, offset 0x58, size 0x4
-  __declspec(property(get = __get__renderMode, put = __set__renderMode)) int32_t _renderMode;
+  __declspec(property(get = __cordl_internal_get__renderMode, put = __cordl_internal_set__renderMode)) int32_t _renderMode;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*() noexcept;
@@ -66,71 +66,71 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_DetailPrototype__() noexcept;
 
-  constexpr ::StringW& __get__prototypePrefab();
+  constexpr ::StringW& __cordl_internal_get__prototypePrefab();
 
-  constexpr ::StringW const& __get__prototypePrefab() const;
+  constexpr ::StringW const& __cordl_internal_get__prototypePrefab() const;
 
-  constexpr void __set__prototypePrefab(::StringW value);
+  constexpr void __cordl_internal_set__prototypePrefab(::StringW value);
 
-  constexpr ::StringW& __get__prototypeTexture();
+  constexpr ::StringW& __cordl_internal_get__prototypeTexture();
 
-  constexpr ::StringW const& __get__prototypeTexture() const;
+  constexpr ::StringW const& __cordl_internal_get__prototypeTexture() const;
 
-  constexpr void __set__prototypeTexture(::StringW value);
+  constexpr void __cordl_internal_set__prototypeTexture(::StringW value);
 
-  constexpr float_t& __get__bendFactor();
+  constexpr float_t& __cordl_internal_get__bendFactor();
 
-  constexpr float_t const& __get__bendFactor() const;
+  constexpr float_t const& __cordl_internal_get__bendFactor() const;
 
-  constexpr void __set__bendFactor(float_t value);
+  constexpr void __cordl_internal_set__bendFactor(float_t value);
 
-  constexpr ::UnityEngine::Color& __get__dryColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__dryColor();
 
-  constexpr ::UnityEngine::Color const& __get__dryColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__dryColor() const;
 
-  constexpr void __set__dryColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__dryColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__healthyColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__healthyColor();
 
-  constexpr ::UnityEngine::Color const& __get__healthyColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__healthyColor() const;
 
-  constexpr void __set__healthyColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__healthyColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get__maxHeight();
+  constexpr float_t& __cordl_internal_get__maxHeight();
 
-  constexpr float_t const& __get__maxHeight() const;
+  constexpr float_t const& __cordl_internal_get__maxHeight() const;
 
-  constexpr void __set__maxHeight(float_t value);
+  constexpr void __cordl_internal_set__maxHeight(float_t value);
 
-  constexpr float_t& __get__maxWidth();
+  constexpr float_t& __cordl_internal_get__maxWidth();
 
-  constexpr float_t const& __get__maxWidth() const;
+  constexpr float_t const& __cordl_internal_get__maxWidth() const;
 
-  constexpr void __set__maxWidth(float_t value);
+  constexpr void __cordl_internal_set__maxWidth(float_t value);
 
-  constexpr float_t& __get__minHeight();
+  constexpr float_t& __cordl_internal_get__minHeight();
 
-  constexpr float_t const& __get__minHeight() const;
+  constexpr float_t const& __cordl_internal_get__minHeight() const;
 
-  constexpr void __set__minHeight(float_t value);
+  constexpr void __cordl_internal_set__minHeight(float_t value);
 
-  constexpr float_t& __get__minWidth();
+  constexpr float_t& __cordl_internal_get__minWidth();
 
-  constexpr float_t const& __get__minWidth() const;
+  constexpr float_t const& __cordl_internal_get__minWidth() const;
 
-  constexpr void __set__minWidth(float_t value);
+  constexpr void __cordl_internal_set__minWidth(float_t value);
 
-  constexpr float_t& __get__noiseSpread();
+  constexpr float_t& __cordl_internal_get__noiseSpread();
 
-  constexpr float_t const& __get__noiseSpread() const;
+  constexpr float_t const& __cordl_internal_get__noiseSpread() const;
 
-  constexpr void __set__noiseSpread(float_t value);
+  constexpr void __cordl_internal_set__noiseSpread(float_t value);
 
-  constexpr int32_t& __get__renderMode();
+  constexpr int32_t& __cordl_internal_get__renderMode();
 
-  constexpr int32_t const& __get__renderMode() const;
+  constexpr int32_t const& __cordl_internal_get__renderMode() const;
 
-  constexpr void __set__renderMode(int32_t value);
+  constexpr void __cordl_internal_set__renderMode(int32_t value);
 
   static inline ::HoudiniEngineUnity::HEU_DetailPrototype* New_ctor();
 

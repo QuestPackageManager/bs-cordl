@@ -29,55 +29,55 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerSettings);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5180)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5184)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5185)) CS Name: ::MockPlayerSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5180)), TypeDefinitionIndex(TypeDefinitionIndex(5184)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5185)) CS Name: ::MockPlayerSettings*
 class CORDL_TYPE MockPlayerSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _userName, offset 0x10, size 0x8
-  __declspec(property(get = __get__userName, put = __set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
 
   /// @brief Field _userId, offset 0x18, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _sortIndex, offset 0x20, size 0x4
-  __declspec(property(get = __get__sortIndex, put = __set__sortIndex)) int32_t _sortIndex;
+  __declspec(property(get = __cordl_internal_get__sortIndex, put = __cordl_internal_set__sortIndex)) int32_t _sortIndex;
 
   /// @brief Field _latency, offset 0x28, size 0x8
-  __declspec(property(get = __get__latency, put = __set__latency)) int64_t _latency;
+  __declspec(property(get = __cordl_internal_get__latency, put = __cordl_internal_set__latency)) int64_t _latency;
 
   /// @brief Field _autoConnect, offset 0x30, size 0x1
-  __declspec(property(get = __get__autoConnect, put = __set__autoConnect)) bool _autoConnect;
+  __declspec(property(get = __cordl_internal_get__autoConnect, put = __cordl_internal_set__autoConnect)) bool _autoConnect;
 
   /// @brief Field _inactiveByDefault, offset 0x31, size 0x1
-  __declspec(property(get = __get__inactiveByDefault, put = __set__inactiveByDefault)) bool _inactiveByDefault;
+  __declspec(property(get = __cordl_internal_get__inactiveByDefault, put = __cordl_internal_set__inactiveByDefault)) bool _inactiveByDefault;
 
   /// @brief Field _movementType, offset 0x34, size 0x4
-  __declspec(property(get = __get__movementType, put = __set__movementType))::GlobalNamespace::MockPlayerMovementType _movementType;
+  __declspec(property(get = __cordl_internal_get__movementType, put = __cordl_internal_set__movementType))::GlobalNamespace::MockPlayerMovementType _movementType;
 
   /// @brief Field _avatarType, offset 0x38, size 0x4
-  __declspec(property(get = __get__avatarType, put = __set__avatarType))::GlobalNamespace::MockPlayerAvatarType _avatarType;
+  __declspec(property(get = __cordl_internal_get__avatarType, put = __cordl_internal_set__avatarType))::GlobalNamespace::MockPlayerAvatarType _avatarType;
 
   /// @brief Field _platformUserId, offset 0x40, size 0x8
-  __declspec(property(get = __get__platformUserId, put = __set__platformUserId)) uint64_t _platformUserId;
+  __declspec(property(get = __cordl_internal_get__platformUserId, put = __cordl_internal_set__platformUserId)) uint64_t _platformUserId;
 
   /// @brief Field _recodingFile, offset 0x48, size 0x8
-  __declspec(property(get = __get__recodingFile, put = __set__recodingFile))::StringW _recodingFile;
+  __declspec(property(get = __cordl_internal_get__recodingFile, put = __cordl_internal_set__recodingFile))::StringW _recodingFile;
 
   /// @brief Field _aiCubeHitChance, offset 0x50, size 0x4
-  __declspec(property(get = __get__aiCubeHitChance, put = __set__aiCubeHitChance)) float_t _aiCubeHitChance;
+  __declspec(property(get = __cordl_internal_get__aiCubeHitChance, put = __cordl_internal_set__aiCubeHitChance)) float_t _aiCubeHitChance;
 
   /// @brief Field _leftHanded, offset 0x54, size 0x1
-  __declspec(property(get = __get__leftHanded, put = __set__leftHanded)) bool _leftHanded;
+  __declspec(property(get = __cordl_internal_get__leftHanded, put = __cordl_internal_set__leftHanded)) bool _leftHanded;
 
   /// @brief Field _saberAColor, offset 0x58, size 0x10
-  __declspec(property(get = __get__saberAColor, put = __set__saberAColor))::UnityEngine::Color _saberAColor;
+  __declspec(property(get = __cordl_internal_get__saberAColor, put = __cordl_internal_set__saberAColor))::UnityEngine::Color _saberAColor;
 
   /// @brief Field _saberBColor, offset 0x68, size 0x10
-  __declspec(property(get = __get__saberBColor, put = __set__saberBColor))::UnityEngine::Color _saberBColor;
+  __declspec(property(get = __cordl_internal_get__saberBColor, put = __cordl_internal_set__saberBColor))::UnityEngine::Color _saberBColor;
 
   /// @brief Field _obstaclesColor, offset 0x78, size 0x10
-  __declspec(property(get = __get__obstaclesColor, put = __set__obstaclesColor))::UnityEngine::Color _obstaclesColor;
+  __declspec(property(get = __cordl_internal_get__obstaclesColor, put = __cordl_internal_set__obstaclesColor))::UnityEngine::Color _obstaclesColor;
 
   __declspec(property(get = get_userName, put = set_userName))::StringW userName;
 
@@ -109,95 +109,95 @@ public:
 
   __declspec(property(get = get_obstaclesColor, put = set_obstaclesColor))::UnityEngine::Color obstaclesColor;
 
-  constexpr ::StringW& __get__userName();
+  constexpr ::StringW& __cordl_internal_get__userName();
 
-  constexpr ::StringW const& __get__userName() const;
+  constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr void __set__userName(::StringW value);
+  constexpr void __cordl_internal_set__userName(::StringW value);
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr int32_t& __get__sortIndex();
+  constexpr int32_t& __cordl_internal_get__sortIndex();
 
-  constexpr int32_t const& __get__sortIndex() const;
+  constexpr int32_t const& __cordl_internal_get__sortIndex() const;
 
-  constexpr void __set__sortIndex(int32_t value);
+  constexpr void __cordl_internal_set__sortIndex(int32_t value);
 
-  constexpr int64_t& __get__latency();
+  constexpr int64_t& __cordl_internal_get__latency();
 
-  constexpr int64_t const& __get__latency() const;
+  constexpr int64_t const& __cordl_internal_get__latency() const;
 
-  constexpr void __set__latency(int64_t value);
+  constexpr void __cordl_internal_set__latency(int64_t value);
 
-  constexpr bool& __get__autoConnect();
+  constexpr bool& __cordl_internal_get__autoConnect();
 
-  constexpr bool const& __get__autoConnect() const;
+  constexpr bool const& __cordl_internal_get__autoConnect() const;
 
-  constexpr void __set__autoConnect(bool value);
+  constexpr void __cordl_internal_set__autoConnect(bool value);
 
-  constexpr bool& __get__inactiveByDefault();
+  constexpr bool& __cordl_internal_get__inactiveByDefault();
 
-  constexpr bool const& __get__inactiveByDefault() const;
+  constexpr bool const& __cordl_internal_get__inactiveByDefault() const;
 
-  constexpr void __set__inactiveByDefault(bool value);
+  constexpr void __cordl_internal_set__inactiveByDefault(bool value);
 
-  constexpr ::GlobalNamespace::MockPlayerMovementType& __get__movementType();
+  constexpr ::GlobalNamespace::MockPlayerMovementType& __cordl_internal_get__movementType();
 
-  constexpr ::GlobalNamespace::MockPlayerMovementType const& __get__movementType() const;
+  constexpr ::GlobalNamespace::MockPlayerMovementType const& __cordl_internal_get__movementType() const;
 
-  constexpr void __set__movementType(::GlobalNamespace::MockPlayerMovementType value);
+  constexpr void __cordl_internal_set__movementType(::GlobalNamespace::MockPlayerMovementType value);
 
-  constexpr ::GlobalNamespace::MockPlayerAvatarType& __get__avatarType();
+  constexpr ::GlobalNamespace::MockPlayerAvatarType& __cordl_internal_get__avatarType();
 
-  constexpr ::GlobalNamespace::MockPlayerAvatarType const& __get__avatarType() const;
+  constexpr ::GlobalNamespace::MockPlayerAvatarType const& __cordl_internal_get__avatarType() const;
 
-  constexpr void __set__avatarType(::GlobalNamespace::MockPlayerAvatarType value);
+  constexpr void __cordl_internal_set__avatarType(::GlobalNamespace::MockPlayerAvatarType value);
 
-  constexpr uint64_t& __get__platformUserId();
+  constexpr uint64_t& __cordl_internal_get__platformUserId();
 
-  constexpr uint64_t const& __get__platformUserId() const;
+  constexpr uint64_t const& __cordl_internal_get__platformUserId() const;
 
-  constexpr void __set__platformUserId(uint64_t value);
+  constexpr void __cordl_internal_set__platformUserId(uint64_t value);
 
-  constexpr ::StringW& __get__recodingFile();
+  constexpr ::StringW& __cordl_internal_get__recodingFile();
 
-  constexpr ::StringW const& __get__recodingFile() const;
+  constexpr ::StringW const& __cordl_internal_get__recodingFile() const;
 
-  constexpr void __set__recodingFile(::StringW value);
+  constexpr void __cordl_internal_set__recodingFile(::StringW value);
 
-  constexpr float_t& __get__aiCubeHitChance();
+  constexpr float_t& __cordl_internal_get__aiCubeHitChance();
 
-  constexpr float_t const& __get__aiCubeHitChance() const;
+  constexpr float_t const& __cordl_internal_get__aiCubeHitChance() const;
 
-  constexpr void __set__aiCubeHitChance(float_t value);
+  constexpr void __cordl_internal_set__aiCubeHitChance(float_t value);
 
-  constexpr bool& __get__leftHanded();
+  constexpr bool& __cordl_internal_get__leftHanded();
 
-  constexpr bool const& __get__leftHanded() const;
+  constexpr bool const& __cordl_internal_get__leftHanded() const;
 
-  constexpr void __set__leftHanded(bool value);
+  constexpr void __cordl_internal_set__leftHanded(bool value);
 
-  constexpr ::UnityEngine::Color& __get__saberAColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__saberAColor();
 
-  constexpr ::UnityEngine::Color const& __get__saberAColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__saberAColor() const;
 
-  constexpr void __set__saberAColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__saberAColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__saberBColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__saberBColor();
 
-  constexpr ::UnityEngine::Color const& __get__saberBColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__saberBColor() const;
 
-  constexpr void __set__saberBColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__saberBColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__obstaclesColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__obstaclesColor();
 
-  constexpr ::UnityEngine::Color const& __get__obstaclesColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__obstaclesColor() const;
 
-  constexpr void __set__obstaclesColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__obstaclesColor(::UnityEngine::Color value);
 
   /// @brief Method get_userName, addr 0x22443cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();

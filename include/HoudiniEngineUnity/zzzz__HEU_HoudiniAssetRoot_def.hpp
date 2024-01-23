@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAssetRoot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9640))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniAssetRoot*
 class CORDL_TYPE HEU_HoudiniAssetRoot : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _houdiniAsset, offset 0x18, size 0x8
-  __declspec(property(get = __get__houdiniAsset, put = __set__houdiniAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* _houdiniAsset;
+  __declspec(property(get = __cordl_internal_get__houdiniAsset, put = __cordl_internal_set__houdiniAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _houdiniAsset;
 
   /// @brief Field _bakeTargets, offset 0x20, size 0x8
-  __declspec(property(get = __get__bakeTargets, put = __set__bakeTargets))::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _bakeTargets;
+  __declspec(property(get = __cordl_internal_get__bakeTargets, put = __cordl_internal_set__bakeTargets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _bakeTargets;
 
-  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& __get__houdiniAsset();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__houdiniAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& __get__houdiniAsset() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__houdiniAsset() const;
 
-  constexpr void __set__houdiniAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* value);
+  constexpr void __cordl_internal_set__houdiniAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& __get__bakeTargets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__bakeTargets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> const& __get__bakeTargets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__bakeTargets() const;
 
-  constexpr void __set__bakeTargets(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* value);
+  constexpr void __cordl_internal_set__bakeTargets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method OnDestroy, addr 0x216d488, size 0x1c8, virtual false, abstract: false, final false
   inline void OnDestroy();
@@ -82,10 +82,10 @@ protected:
 
 public:
   /// @brief Field _houdiniAsset, offset: 0x18, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_HoudiniAsset* ____houdiniAsset;
+  ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____houdiniAsset;
 
   /// @brief Field _bakeTargets, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* ____bakeTargets;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ____bakeTargets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

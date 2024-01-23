@@ -11,22 +11,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x2861374;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObjectChangeEventArgs*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Linq::XObjectChange>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObjectChangeEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Linq::XObjectChange>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Linq::XObjectChange& System::Xml::Linq::XObjectChangeEventArgs::__get__objectChange() {
+constexpr ::System::Xml::Linq::XObjectChange& System::Xml::Linq::XObjectChangeEventArgs::__cordl_internal_get__objectChange() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectChange;
 }
-constexpr ::System::Xml::Linq::XObjectChange const& System::Xml::Linq::XObjectChangeEventArgs::__get__objectChange() const {
+constexpr ::System::Xml::Linq::XObjectChange const& System::Xml::Linq::XObjectChangeEventArgs::__cordl_internal_get__objectChange() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectChange;
 }
-constexpr void System::Xml::Linq::XObjectChangeEventArgs::__set__objectChange(::System::Xml::Linq::XObjectChange value) {
+constexpr void System::Xml::Linq::XObjectChangeEventArgs::__cordl_internal_set__objectChange(::System::Xml::Linq::XObjectChange value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____objectChange = value;
 }
@@ -63,12 +63,12 @@ inline ::System::Xml::Linq::XObjectChangeEventArgs* System::Xml::Linq::XObjectCh
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObjectChangeEventArgs*>::get>();
 }
 inline ::System::Xml::Linq::XObjectChangeEventArgs* System::Xml::Linq::XObjectChangeEventArgs::New_ctor(::System::Xml::Linq::XObjectChange objectChange) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Xml::Linq::XObjectChangeEventArgs*>(objectChange));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Linq::XObjectChangeEventArgs*>(objectChange));
 }
 inline void System::Xml::Linq::XObjectChangeEventArgs::_ctor(::System::Xml::Linq::XObjectChange objectChange) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObjectChangeEventArgs*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Linq::XObjectChange>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObjectChangeEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Linq::XObjectChange>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, objectChange);
 }
 // Ctor Parameters []

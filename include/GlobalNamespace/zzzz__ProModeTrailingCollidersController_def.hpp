@@ -24,49 +24,50 @@ MARK_REF_PTR_T(::GlobalNamespace::ProModeTrailingCollidersController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4784))
 // CS Name: ::ProModeTrailingCollidersController*
 class CORDL_TYPE ProModeTrailingCollidersController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _mainSmallCuttableBySaber, offset 0x18, size 0x8
-  __declspec(property(get = __get__mainSmallCuttableBySaber, put = __set__mainSmallCuttableBySaber))::GlobalNamespace::BoxCuttableBySaber* _mainSmallCuttableBySaber;
+  __declspec(property(get = __cordl_internal_get__mainSmallCuttableBySaber,
+                      put = __cordl_internal_set__mainSmallCuttableBySaber))::UnityW<::GlobalNamespace::BoxCuttableBySaber> _mainSmallCuttableBySaber;
 
   /// @brief Field _trailingSmallCuttableBySaberList, offset 0x20, size 0x8
-  __declspec(
-      property(get = __get__trailingSmallCuttableBySaberList,
-               put = __set__trailingSmallCuttableBySaberList))::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*> _trailingSmallCuttableBySaberList;
+  __declspec(property(get = __cordl_internal_get__trailingSmallCuttableBySaberList,
+                      put = __cordl_internal_set__trailingSmallCuttableBySaberList))::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,
+                                                                                             ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> _trailingSmallCuttableBySaberList;
 
   /// @brief Field _noteMovement, offset 0x28, size 0x8
-  __declspec(property(get = __get__noteMovement, put = __set__noteMovement))::GlobalNamespace::NoteMovement* _noteMovement;
+  __declspec(property(get = __cordl_internal_get__noteMovement, put = __cordl_internal_set__noteMovement))::UnityW<::GlobalNamespace::NoteMovement> _noteMovement;
 
   /// @brief Field _transform, offset 0x30, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::GlobalNamespace::BoxCuttableBySaber*& __get__mainSmallCuttableBySaber();
+  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber>& __cordl_internal_get__mainSmallCuttableBySaber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoxCuttableBySaber*> const& __get__mainSmallCuttableBySaber() const;
+  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__mainSmallCuttableBySaber() const;
 
-  constexpr void __set__mainSmallCuttableBySaber(::GlobalNamespace::BoxCuttableBySaber* value);
+  constexpr void __cordl_internal_set__mainSmallCuttableBySaber(::UnityW<::GlobalNamespace::BoxCuttableBySaber> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*>& __get__trailingSmallCuttableBySaberList();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>& __cordl_internal_get__trailingSmallCuttableBySaberList();
 
-  constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*> const& __get__trailingSmallCuttableBySaberList() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> const& __cordl_internal_get__trailingSmallCuttableBySaberList() const;
 
-  constexpr void __set__trailingSmallCuttableBySaberList(::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*> value);
+  constexpr void __cordl_internal_set__trailingSmallCuttableBySaberList(::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> value);
 
-  constexpr ::GlobalNamespace::NoteMovement*& __get__noteMovement();
+  constexpr ::UnityW<::GlobalNamespace::NoteMovement>& __cordl_internal_get__noteMovement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteMovement*> const& __get__noteMovement() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteMovement> const& __cordl_internal_get__noteMovement() const;
 
-  constexpr void __set__noteMovement(::GlobalNamespace::NoteMovement* value);
+  constexpr void __cordl_internal_set__noteMovement(::UnityW<::GlobalNamespace::NoteMovement> value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method Start, addr 0x238b9e4, size 0x98, virtual false, abstract: false, final false
   inline void Start();
@@ -97,16 +98,16 @@ protected:
 
 public:
   /// @brief Field _mainSmallCuttableBySaber, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BoxCuttableBySaber* ____mainSmallCuttableBySaber;
+  ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____mainSmallCuttableBySaber;
 
   /// @brief Field _trailingSmallCuttableBySaberList, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*> ____trailingSmallCuttableBySaberList;
+  ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> ____trailingSmallCuttableBySaberList;
 
   /// @brief Field _noteMovement, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::NoteMovement* ____noteMovement;
+  ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
 
   /// @brief Field _transform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

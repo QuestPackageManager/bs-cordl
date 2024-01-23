@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::TMPro::TMP_SelectionCaret);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13099))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12413))
 // CS Name: ::TMPro::TMP_SelectionCaret*
 class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {

@@ -27,56 +27,58 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialInstaller);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5405))
 // CS Name: ::TutorialInstaller*
 class CORDL_TYPE TutorialInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _audioClip, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioClip, put = __set__audioClip))::UnityEngine::AudioClip* _audioClip;
+  __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip))::UnityW<::UnityEngine::AudioClip> _audioClip;
 
   /// @brief Field _songBPM, offset 0x28, size 0x4
-  __declspec(property(get = __get__songBPM, put = __set__songBPM)) float_t _songBPM;
+  __declspec(property(get = __cordl_internal_get__songBPM, put = __cordl_internal_set__songBPM)) float_t _songBPM;
 
   /// @brief Field _playerHeightDetectorPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__playerHeightDetectorPrefab, put = __set__playerHeightDetectorPrefab))::GlobalNamespace::PlayerHeightDetector* _playerHeightDetectorPrefab;
+  __declspec(property(get = __cordl_internal_get__playerHeightDetectorPrefab,
+                      put = __cordl_internal_set__playerHeightDetectorPrefab))::UnityW<::GlobalNamespace::PlayerHeightDetector> _playerHeightDetectorPrefab;
 
   /// @brief Field _effectPoolsManualInstaller, offset 0x38, size 0x8
-  __declspec(property(get = __get__effectPoolsManualInstaller, put = __set__effectPoolsManualInstaller))::GlobalNamespace::EffectPoolsManualInstaller* _effectPoolsManualInstaller;
+  __declspec(property(get = __cordl_internal_get__effectPoolsManualInstaller,
+                      put = __cordl_internal_set__effectPoolsManualInstaller))::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> _effectPoolsManualInstaller;
 
   /// @brief Field _sceneSetupData, offset 0x40, size 0x8
-  __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::TutorialSceneSetupData* _sceneSetupData;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::TutorialSceneSetupData* _sceneSetupData;
 
-  constexpr ::UnityEngine::AudioClip*& __get__audioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__audioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
 
-  constexpr void __set__audioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr float_t& __get__songBPM();
+  constexpr float_t& __cordl_internal_get__songBPM();
 
-  constexpr float_t const& __get__songBPM() const;
+  constexpr float_t const& __cordl_internal_get__songBPM() const;
 
-  constexpr void __set__songBPM(float_t value);
+  constexpr void __cordl_internal_set__songBPM(float_t value);
 
-  constexpr ::GlobalNamespace::PlayerHeightDetector*& __get__playerHeightDetectorPrefab();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector>& __cordl_internal_get__playerHeightDetectorPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeightDetector*> const& __get__playerHeightDetectorPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector> const& __cordl_internal_get__playerHeightDetectorPrefab() const;
 
-  constexpr void __set__playerHeightDetectorPrefab(::GlobalNamespace::PlayerHeightDetector* value);
+  constexpr void __cordl_internal_set__playerHeightDetectorPrefab(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
 
-  constexpr ::GlobalNamespace::EffectPoolsManualInstaller*& __get__effectPoolsManualInstaller();
+  constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>& __cordl_internal_get__effectPoolsManualInstaller();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EffectPoolsManualInstaller*> const& __get__effectPoolsManualInstaller() const;
+  constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> const& __cordl_internal_get__effectPoolsManualInstaller() const;
 
-  constexpr void __set__effectPoolsManualInstaller(::GlobalNamespace::EffectPoolsManualInstaller* value);
+  constexpr void __cordl_internal_set__effectPoolsManualInstaller(::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> value);
 
-  constexpr ::GlobalNamespace::TutorialSceneSetupData*& __get__sceneSetupData();
+  constexpr ::GlobalNamespace::TutorialSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSceneSetupData*> const& __get__sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __set__sceneSetupData(::GlobalNamespace::TutorialSceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::TutorialSceneSetupData* value);
 
   /// @brief Method InstallBindings, addr 0x2273700, size 0xd08, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -101,16 +103,16 @@ protected:
 
 public:
   /// @brief Field _audioClip, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____audioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
   /// @brief Field _songBPM, offset: 0x28, size: 0x4, def value: None
   float_t ____songBPM;
 
   /// @brief Field _playerHeightDetectorPrefab, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeightDetector* ____playerHeightDetectorPrefab;
+  ::UnityW<::GlobalNamespace::PlayerHeightDetector> ____playerHeightDetectorPrefab;
 
   /// @brief Field _effectPoolsManualInstaller, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::EffectPoolsManualInstaller* ____effectPoolsManualInstaller;
+  ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> ____effectPoolsManualInstaller;
 
   /// @brief Field _sceneSetupData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::TutorialSceneSetupData* ____sceneSetupData;

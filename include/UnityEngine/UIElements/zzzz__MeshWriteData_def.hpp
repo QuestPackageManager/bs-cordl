@@ -28,26 +28,26 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshWriteData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9994))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7331)) CS Name: ::UnityEngine.UIElements::MeshWriteData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(9994)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9994), inst: 756 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7331)) CS Name: ::UnityEngine.UIElements::MeshWriteData*
 class CORDL_TYPE MeshWriteData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Vertices, offset 0x10, size 0x10
-  __declspec(property(get = __get_m_Vertices, put = __set_m_Vertices))::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> m_Vertices;
+  __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices))::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> m_Vertices;
 
   /// @brief Field m_Indices, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_Indices, put = __set_m_Indices))::Unity::Collections::NativeSlice_1<uint16_t> m_Indices;
+  __declspec(property(get = __cordl_internal_get_m_Indices, put = __cordl_internal_set_m_Indices))::Unity::Collections::NativeSlice_1<uint16_t> m_Indices;
 
   /// @brief Field m_UVRegion, offset 0x30, size 0x10
-  __declspec(property(get = __get_m_UVRegion, put = __set_m_UVRegion))::UnityEngine::Rect m_UVRegion;
+  __declspec(property(get = __cordl_internal_get_m_UVRegion, put = __cordl_internal_set_m_UVRegion))::UnityEngine::Rect m_UVRegion;
 
   /// @brief Field currentIndex, offset 0x40, size 0x4
-  __declspec(property(get = __get_currentIndex, put = __set_currentIndex)) int32_t currentIndex;
+  __declspec(property(get = __cordl_internal_get_currentIndex, put = __cordl_internal_set_currentIndex)) int32_t currentIndex;
 
   /// @brief Field currentVertex, offset 0x44, size 0x4
-  __declspec(property(get = __get_currentVertex, put = __set_currentVertex)) int32_t currentVertex;
+  __declspec(property(get = __cordl_internal_get_currentVertex, put = __cordl_internal_set_currentVertex)) int32_t currentVertex;
 
   __declspec(property(get = get_vertexCount)) int32_t vertexCount;
 
@@ -55,35 +55,35 @@ public:
 
   __declspec(property(get = get_uvRegion))::UnityEngine::Rect uvRegion;
 
-  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& __get_m_Vertices();
+  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& __cordl_internal_get_m_Vertices();
 
-  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& __get_m_Vertices() const;
+  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& __cordl_internal_get_m_Vertices() const;
 
-  constexpr void __set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
+  constexpr void __cordl_internal_set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
 
-  constexpr ::Unity::Collections::NativeSlice_1<uint16_t>& __get_m_Indices();
+  constexpr ::Unity::Collections::NativeSlice_1<uint16_t>& __cordl_internal_get_m_Indices();
 
-  constexpr ::Unity::Collections::NativeSlice_1<uint16_t> const& __get_m_Indices() const;
+  constexpr ::Unity::Collections::NativeSlice_1<uint16_t> const& __cordl_internal_get_m_Indices() const;
 
-  constexpr void __set_m_Indices(::Unity::Collections::NativeSlice_1<uint16_t> value);
+  constexpr void __cordl_internal_set_m_Indices(::Unity::Collections::NativeSlice_1<uint16_t> value);
 
-  constexpr ::UnityEngine::Rect& __get_m_UVRegion();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_UVRegion();
 
-  constexpr ::UnityEngine::Rect const& __get_m_UVRegion() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_UVRegion() const;
 
-  constexpr void __set_m_UVRegion(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_UVRegion(::UnityEngine::Rect value);
 
-  constexpr int32_t& __get_currentIndex();
+  constexpr int32_t& __cordl_internal_get_currentIndex();
 
-  constexpr int32_t const& __get_currentIndex() const;
+  constexpr int32_t const& __cordl_internal_get_currentIndex() const;
 
-  constexpr void __set_currentIndex(int32_t value);
+  constexpr void __cordl_internal_set_currentIndex(int32_t value);
 
-  constexpr int32_t& __get_currentVertex();
+  constexpr int32_t& __cordl_internal_get_currentVertex();
 
-  constexpr int32_t const& __get_currentVertex() const;
+  constexpr int32_t const& __cordl_internal_get_currentVertex() const;
 
-  constexpr void __set_currentVertex(int32_t value);
+  constexpr void __cordl_internal_set_currentVertex(int32_t value);
 
   static inline ::UnityEngine::UIElements::MeshWriteData* New_ctor();
 

@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand_
 // SizeInfo { instance_size: 1024, native_size: 1024, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6347))
 // CS Name: ::SendBufferedHapticCommand::<buffer>e__FixedBuffer
 #pragma pack(push, 0)
@@ -71,7 +71,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHa
 // Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6347)), TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6347)), TypeDefinitionIndex(TypeDefinitionIndex(6471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6348))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::SendBufferedHapticCommand
 #pragma pack(push, 0)
@@ -81,16 +81,16 @@ public:
   using _buffer_e__FixedBuffer = ::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer;
 
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __get_baseCommand, put = __set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field channel, offset 0x8, size 0x4
-  __declspec(property(get = __get_channel, put = __set_channel)) int32_t channel;
+  __declspec(property(get = __cordl_internal_get_channel, put = __cordl_internal_set_channel)) int32_t channel;
 
   /// @brief Field bufferSize, offset 0xc, size 0x4
-  __declspec(property(get = __get_bufferSize, put = __set_bufferSize)) int32_t bufferSize;
+  __declspec(property(get = __cordl_internal_get_bufferSize, put = __cordl_internal_set_bufferSize)) int32_t bufferSize;
 
   /// @brief Field buffer, offset 0x10, size 0x400
-  __declspec(property(get = __get_buffer, put = __set_buffer))::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer buffer;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -100,29 +100,29 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __get_baseCommand() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  constexpr int32_t& __get_channel();
+  constexpr int32_t& __cordl_internal_get_channel();
 
-  constexpr int32_t const& __get_channel() const;
+  constexpr int32_t const& __cordl_internal_get_channel() const;
 
-  constexpr void __set_channel(int32_t value);
+  constexpr void __cordl_internal_set_channel(int32_t value);
 
-  constexpr int32_t& __get_bufferSize();
+  constexpr int32_t& __cordl_internal_get_bufferSize();
 
-  constexpr int32_t const& __get_bufferSize() const;
+  constexpr int32_t const& __cordl_internal_get_bufferSize() const;
 
-  constexpr void __set_bufferSize(int32_t value);
+  constexpr void __cordl_internal_set_bufferSize(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer& __get_buffer();
+  constexpr ::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer& __cordl_internal_get_buffer();
 
-  constexpr ::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer const& __get_buffer() const;
+  constexpr ::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer value);
+  constexpr void __cordl_internal_set_buffer(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer value);
 
   /// @brief Method get_Type, addr 0x2ac9940, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();

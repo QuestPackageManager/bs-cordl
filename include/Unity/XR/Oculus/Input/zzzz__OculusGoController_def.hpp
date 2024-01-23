@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusGoController);
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15159))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15159))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15157))
 // CS Name: ::Unity.XR.Oculus.Input::OculusGoController*
 class CORDL_TYPE OculusGoController : public ::Unity::XR::Oculus::Input::GearVRTrackedController {

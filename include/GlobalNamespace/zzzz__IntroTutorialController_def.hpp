@@ -60,26 +60,26 @@ MARK_REF_PTR_T(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimatio
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5335))
 // CS Name: ::IntroTutorialController::<ShowFinishAnimationCoroutine>d__22*
 class CORDL_TYPE __IntroTutorialController___ShowFinishAnimationCoroutine_d__22 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::IntroTutorialController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::IntroTutorialController> __4__this;
 
   /// @brief Field <elapsedTime>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__2, put = __set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
 
   /// @brief Field <duration>5__3, offset 0x2c, size 0x4
-  __declspec(property(get = __get__duration_5__3, put = __set__duration_5__3)) float_t _duration_5__3;
+  __declspec(property(get = __cordl_internal_get__duration_5__3, put = __cordl_internal_set__duration_5__3)) float_t _duration_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -103,35 +103,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::IntroTutorialController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntroTutorialController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::IntroTutorialController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::IntroTutorialController> value);
 
-  constexpr float_t& __get__elapsedTime_5__2();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__2();
 
-  constexpr float_t const& __get__elapsedTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__2() const;
 
-  constexpr void __set__elapsedTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
-  constexpr float_t& __get__duration_5__3();
+  constexpr float_t& __cordl_internal_get__duration_5__3();
 
-  constexpr float_t const& __get__duration_5__3() const;
+  constexpr float_t const& __cordl_internal_get__duration_5__3() const;
 
-  constexpr void __set__duration_5__3(float_t value);
+  constexpr void __cordl_internal_set__duration_5__3(float_t value);
 
   static inline ::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22* New_ctor(int32_t __1__state);
 
@@ -174,7 +174,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IntroTutorialController* _____4__this;
+  ::UnityW<::GlobalNamespace::IntroTutorialController> _____4__this;
 
   /// @brief Field <elapsedTime>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____elapsedTime_5__2;
@@ -202,7 +202,7 @@ static_assert(offsetof(::GlobalNamespace::__IntroTutorialController___ShowFinish
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 107, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5336))
 // CS Name: ::IntroTutorialController*
 class CORDL_TYPE IntroTutorialController : public ::UnityEngine::MonoBehaviour {
@@ -211,121 +211,121 @@ public:
   using _ShowFinishAnimationCoroutine_d__22 = ::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
 
   /// @brief Field _redRing, offset 0x18, size 0x8
-  __declspec(property(get = __get__redRing, put = __set__redRing))::GlobalNamespace::IntroTutorialRing* _redRing;
+  __declspec(property(get = __cordl_internal_get__redRing, put = __cordl_internal_set__redRing))::UnityW<::GlobalNamespace::IntroTutorialRing> _redRing;
 
   /// @brief Field _blueRing, offset 0x20, size 0x8
-  __declspec(property(get = __get__blueRing, put = __set__blueRing))::GlobalNamespace::IntroTutorialRing* _blueRing;
+  __declspec(property(get = __cordl_internal_get__blueRing, put = __cordl_internal_set__blueRing))::UnityW<::GlobalNamespace::IntroTutorialRing> _blueRing;
 
   /// @brief Field _redRingWrapper, offset 0x28, size 0x8
-  __declspec(property(get = __get__redRingWrapper, put = __set__redRingWrapper))::UnityEngine::GameObject* _redRingWrapper;
+  __declspec(property(get = __cordl_internal_get__redRingWrapper, put = __cordl_internal_set__redRingWrapper))::UnityW<::UnityEngine::GameObject> _redRingWrapper;
 
   /// @brief Field _blueRingWrapper, offset 0x30, size 0x8
-  __declspec(property(get = __get__blueRingWrapper, put = __set__blueRingWrapper))::UnityEngine::GameObject* _blueRingWrapper;
+  __declspec(property(get = __cordl_internal_get__blueRingWrapper, put = __cordl_internal_set__blueRingWrapper))::UnityW<::UnityEngine::GameObject> _blueRingWrapper;
 
   /// @brief Field _textCanvasGroup, offset 0x38, size 0x8
-  __declspec(property(get = __get__textCanvasGroup, put = __set__textCanvasGroup))::UnityEngine::CanvasGroup* _textCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__textCanvasGroup, put = __cordl_internal_set__textCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _textCanvasGroup;
 
   /// @brief Field _shockWavePS, offset 0x40, size 0x8
-  __declspec(property(get = __get__shockWavePS, put = __set__shockWavePS))::UnityEngine::ParticleSystem* _shockWavePS;
+  __declspec(property(get = __cordl_internal_get__shockWavePS, put = __cordl_internal_set__shockWavePS))::UnityW<::UnityEngine::ParticleSystem> _shockWavePS;
 
   /// @brief Field _finishForParams, offset 0x48, size 0x8
-  __declspec(property(get = __get__finishForParams, put = __set__finishForParams))::GlobalNamespace::BloomFogEnvironmentParams* _finishForParams;
+  __declspec(property(get = __cordl_internal_get__finishForParams, put = __cordl_internal_set__finishForParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> _finishForParams;
 
   /// @brief Field _bloomFogAnimator, offset 0x50, size 0x8
-  __declspec(property(get = __get__bloomFogAnimator, put = __set__bloomFogAnimator))::GlobalNamespace::BloomFogParamsAnimator* _bloomFogAnimator;
+  __declspec(property(get = __cordl_internal_get__bloomFogAnimator, put = __cordl_internal_set__bloomFogAnimator))::UnityW<::GlobalNamespace::BloomFogParamsAnimator> _bloomFogAnimator;
 
   /// @brief Field _gamePause, offset 0x58, size 0x8
-  __declspec(property(get = __get__gamePause, put = __set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
 
   /// @brief Field introTutorialDidFinishEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_introTutorialDidFinishEvent, put = __set_introTutorialDidFinishEvent))::System::Action* introTutorialDidFinishEvent;
+  __declspec(property(get = __cordl_internal_get_introTutorialDidFinishEvent, put = __cordl_internal_set_introTutorialDidFinishEvent))::System::Action* introTutorialDidFinishEvent;
 
   /// @brief Field _showingFinishAnimation, offset 0x68, size 0x1
-  __declspec(property(get = __get__showingFinishAnimation, put = __set__showingFinishAnimation)) bool _showingFinishAnimation;
+  __declspec(property(get = __cordl_internal_get__showingFinishAnimation, put = __cordl_internal_set__showingFinishAnimation)) bool _showingFinishAnimation;
 
   /// @brief Field _redRingWrapperActive, offset 0x69, size 0x1
-  __declspec(property(get = __get__redRingWrapperActive, put = __set__redRingWrapperActive)) bool _redRingWrapperActive;
+  __declspec(property(get = __cordl_internal_get__redRingWrapperActive, put = __cordl_internal_set__redRingWrapperActive)) bool _redRingWrapperActive;
 
   /// @brief Field _blueRingWrapperActive, offset 0x6a, size 0x1
-  __declspec(property(get = __get__blueRingWrapperActive, put = __set__blueRingWrapperActive)) bool _blueRingWrapperActive;
+  __declspec(property(get = __cordl_internal_get__blueRingWrapperActive, put = __cordl_internal_set__blueRingWrapperActive)) bool _blueRingWrapperActive;
 
-  constexpr ::GlobalNamespace::IntroTutorialRing*& __get__redRing();
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing>& __cordl_internal_get__redRing();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntroTutorialRing*> const& __get__redRing() const;
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing> const& __cordl_internal_get__redRing() const;
 
-  constexpr void __set__redRing(::GlobalNamespace::IntroTutorialRing* value);
+  constexpr void __cordl_internal_set__redRing(::UnityW<::GlobalNamespace::IntroTutorialRing> value);
 
-  constexpr ::GlobalNamespace::IntroTutorialRing*& __get__blueRing();
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing>& __cordl_internal_get__blueRing();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntroTutorialRing*> const& __get__blueRing() const;
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing> const& __cordl_internal_get__blueRing() const;
 
-  constexpr void __set__blueRing(::GlobalNamespace::IntroTutorialRing* value);
+  constexpr void __cordl_internal_set__blueRing(::UnityW<::GlobalNamespace::IntroTutorialRing> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__redRingWrapper();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__redRingWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__redRingWrapper() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__redRingWrapper() const;
 
-  constexpr void __set__redRingWrapper(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__redRingWrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__blueRingWrapper();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__blueRingWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__blueRingWrapper() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__blueRingWrapper() const;
 
-  constexpr void __set__blueRingWrapper(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__blueRingWrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__textCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__textCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__textCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__textCanvasGroup() const;
 
-  constexpr void __set__textCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__textCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__shockWavePS();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__shockWavePS();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__shockWavePS() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__shockWavePS() const;
 
-  constexpr void __set__shockWavePS(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__shockWavePS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& __get__finishForParams();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__finishForParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& __get__finishForParams() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& __cordl_internal_get__finishForParams() const;
 
-  constexpr void __set__finishForParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
+  constexpr void __cordl_internal_set__finishForParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  constexpr ::GlobalNamespace::BloomFogParamsAnimator*& __get__bloomFogAnimator();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogParamsAnimator>& __cordl_internal_get__bloomFogAnimator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogParamsAnimator*> const& __get__bloomFogAnimator() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogParamsAnimator> const& __cordl_internal_get__bloomFogAnimator() const;
 
-  constexpr void __set__bloomFogAnimator(::GlobalNamespace::BloomFogParamsAnimator* value);
+  constexpr void __cordl_internal_set__bloomFogAnimator(::UnityW<::GlobalNamespace::BloomFogParamsAnimator> value);
 
-  constexpr ::GlobalNamespace::IGamePause*& __get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __get__gamePause() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
 
-  constexpr ::System::Action*& __get_introTutorialDidFinishEvent();
+  constexpr ::System::Action*& __cordl_internal_get_introTutorialDidFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_introTutorialDidFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_introTutorialDidFinishEvent() const;
 
-  constexpr void __set_introTutorialDidFinishEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_introTutorialDidFinishEvent(::System::Action* value);
 
-  constexpr bool& __get__showingFinishAnimation();
+  constexpr bool& __cordl_internal_get__showingFinishAnimation();
 
-  constexpr bool const& __get__showingFinishAnimation() const;
+  constexpr bool const& __cordl_internal_get__showingFinishAnimation() const;
 
-  constexpr void __set__showingFinishAnimation(bool value);
+  constexpr void __cordl_internal_set__showingFinishAnimation(bool value);
 
-  constexpr bool& __get__redRingWrapperActive();
+  constexpr bool& __cordl_internal_get__redRingWrapperActive();
 
-  constexpr bool const& __get__redRingWrapperActive() const;
+  constexpr bool const& __cordl_internal_get__redRingWrapperActive() const;
 
-  constexpr void __set__redRingWrapperActive(bool value);
+  constexpr void __cordl_internal_set__redRingWrapperActive(bool value);
 
-  constexpr bool& __get__blueRingWrapperActive();
+  constexpr bool& __cordl_internal_get__blueRingWrapperActive();
 
-  constexpr bool const& __get__blueRingWrapperActive() const;
+  constexpr bool const& __cordl_internal_get__blueRingWrapperActive() const;
 
-  constexpr void __set__blueRingWrapperActive(bool value);
+  constexpr void __cordl_internal_set__blueRingWrapperActive(bool value);
 
   /// @brief Method add_introTutorialDidFinishEvent, addr 0x2268ae8, size 0x9c, virtual false, abstract: false, final false
   inline void add_introTutorialDidFinishEvent(::System::Action* value);
@@ -380,28 +380,28 @@ protected:
 
 public:
   /// @brief Field _redRing, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IntroTutorialRing* ____redRing;
+  ::UnityW<::GlobalNamespace::IntroTutorialRing> ____redRing;
 
   /// @brief Field _blueRing, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IntroTutorialRing* ____blueRing;
+  ::UnityW<::GlobalNamespace::IntroTutorialRing> ____blueRing;
 
   /// @brief Field _redRingWrapper, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____redRingWrapper;
+  ::UnityW<::UnityEngine::GameObject> ____redRingWrapper;
 
   /// @brief Field _blueRingWrapper, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____blueRingWrapper;
+  ::UnityW<::UnityEngine::GameObject> ____blueRingWrapper;
 
   /// @brief Field _textCanvasGroup, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____textCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____textCanvasGroup;
 
   /// @brief Field _shockWavePS, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____shockWavePS;
+  ::UnityW<::UnityEngine::ParticleSystem> ____shockWavePS;
 
   /// @brief Field _finishForParams, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogEnvironmentParams* ____finishForParams;
+  ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____finishForParams;
 
   /// @brief Field _bloomFogAnimator, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogParamsAnimator* ____bloomFogAnimator;
+  ::UnityW<::GlobalNamespace::BloomFogParamsAnimator> ____bloomFogAnimator;
 
   /// @brief Field _gamePause, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;

@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::GlobalNamespace::StretchableCube);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4797))
 // CS Name: ::StretchableCube*
 class CORDL_TYPE StretchableCube : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _uvs, offset 0x18, size 0x8
-  __declspec(property(get = __get__uvs, put = __set__uvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _uvs;
+  __declspec(property(get = __cordl_internal_get__uvs, put = __cordl_internal_set__uvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _uvs;
 
   /// @brief Field _mesh, offset 0x20, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field p0, offset 0xffffffff, size 0xc
   static __declspec(property(get = getStaticF_p0, put = setStaticF_p0))::UnityEngine::Vector3 p0;
@@ -90,17 +90,17 @@ public:
   /// @brief Field triangles, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_triangles, put = setStaticF_triangles))::ArrayW<int32_t, ::Array<int32_t>*> triangles;
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __get__uvs();
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get__uvs();
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __get__uvs() const;
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get__uvs() const;
 
-  constexpr void __set__uvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+  constexpr void __cordl_internal_set__uvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
   static inline void setStaticF_p0(::UnityEngine::Vector3 value);
 
@@ -177,7 +177,7 @@ public:
   inline void OnDestroy();
 
   /// @brief Method CreateBox, addr 0x238ebf8, size 0x144, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* CreateBox();
+  inline ::UnityW<::UnityEngine::Mesh> CreateBox();
 
   /// @brief Method RecalculateUVs, addr 0x238ed48, size 0x1e4, virtual false, abstract: false, final false
   inline void RecalculateUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs);
@@ -208,7 +208,7 @@ public:
   ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> ____uvs;
 
   /// @brief Field _mesh, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief Field kLength offset 0xffffffff size 0x4
   static constexpr float_t kLength{ 1.0 };

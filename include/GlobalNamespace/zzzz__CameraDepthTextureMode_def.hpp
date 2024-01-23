@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::CameraDepthTextureMode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10108))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10108)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14354))
 // CS Name: ::CameraDepthTextureMode*
 class CORDL_TYPE CameraDepthTextureMode : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _depthTextureMode, offset 0x18, size 0x4
-  __declspec(property(get = __get__depthTextureMode, put = __set__depthTextureMode))::UnityEngine::DepthTextureMode _depthTextureMode;
+  __declspec(property(get = __cordl_internal_get__depthTextureMode, put = __cordl_internal_set__depthTextureMode))::UnityEngine::DepthTextureMode _depthTextureMode;
 
-  constexpr ::UnityEngine::DepthTextureMode& __get__depthTextureMode();
+  constexpr ::UnityEngine::DepthTextureMode& __cordl_internal_get__depthTextureMode();
 
-  constexpr ::UnityEngine::DepthTextureMode const& __get__depthTextureMode() const;
+  constexpr ::UnityEngine::DepthTextureMode const& __cordl_internal_get__depthTextureMode() const;
 
-  constexpr void __set__depthTextureMode(::UnityEngine::DepthTextureMode value);
+  constexpr void __cordl_internal_set__depthTextureMode(::UnityEngine::DepthTextureMode value);
 
   /// @brief Method Awake, addr 0x20f1204, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();

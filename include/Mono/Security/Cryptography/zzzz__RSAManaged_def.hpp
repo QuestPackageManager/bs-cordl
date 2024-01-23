@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHa
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13799))
 // CS Name: ::RSAManaged::KeyGeneratedEventHandler*
 class CORDL_TYPE __RSAManaged__KeyGeneratedEventHandler : public ::System::MulticastDelegate {
@@ -75,7 +75,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::__
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2956))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2956))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13800))
 // CS Name: ::Mono.Security.Cryptography::RSAManaged*
 class CORDL_TYPE RSAManaged : public ::System::Security::Cryptography::RSA {
@@ -84,125 +84,125 @@ public:
   using KeyGeneratedEventHandler = ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler;
 
   /// @brief Field isCRTpossible, offset 0x20, size 0x1
-  __declspec(property(get = __get_isCRTpossible, put = __set_isCRTpossible)) bool isCRTpossible;
+  __declspec(property(get = __cordl_internal_get_isCRTpossible, put = __cordl_internal_set_isCRTpossible)) bool isCRTpossible;
 
   /// @brief Field keyBlinding, offset 0x21, size 0x1
-  __declspec(property(get = __get_keyBlinding, put = __set_keyBlinding)) bool keyBlinding;
+  __declspec(property(get = __cordl_internal_get_keyBlinding, put = __cordl_internal_set_keyBlinding)) bool keyBlinding;
 
   /// @brief Field keypairGenerated, offset 0x22, size 0x1
-  __declspec(property(get = __get_keypairGenerated, put = __set_keypairGenerated)) bool keypairGenerated;
+  __declspec(property(get = __cordl_internal_get_keypairGenerated, put = __cordl_internal_set_keypairGenerated)) bool keypairGenerated;
 
   /// @brief Field m_disposed, offset 0x23, size 0x1
-  __declspec(property(get = __get_m_disposed, put = __set_m_disposed)) bool m_disposed;
+  __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field d, offset 0x28, size 0x8
-  __declspec(property(get = __get_d, put = __set_d))::Mono::Math::BigInteger* d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::Mono::Math::BigInteger* d;
 
   /// @brief Field p, offset 0x30, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Mono::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Mono::Math::BigInteger* p;
 
   /// @brief Field q, offset 0x38, size 0x8
-  __declspec(property(get = __get_q, put = __set_q))::Mono::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Mono::Math::BigInteger* q;
 
   /// @brief Field dp, offset 0x40, size 0x8
-  __declspec(property(get = __get_dp, put = __set_dp))::Mono::Math::BigInteger* dp;
+  __declspec(property(get = __cordl_internal_get_dp, put = __cordl_internal_set_dp))::Mono::Math::BigInteger* dp;
 
   /// @brief Field dq, offset 0x48, size 0x8
-  __declspec(property(get = __get_dq, put = __set_dq))::Mono::Math::BigInteger* dq;
+  __declspec(property(get = __cordl_internal_get_dq, put = __cordl_internal_set_dq))::Mono::Math::BigInteger* dq;
 
   /// @brief Field qInv, offset 0x50, size 0x8
-  __declspec(property(get = __get_qInv, put = __set_qInv))::Mono::Math::BigInteger* qInv;
+  __declspec(property(get = __cordl_internal_get_qInv, put = __cordl_internal_set_qInv))::Mono::Math::BigInteger* qInv;
 
   /// @brief Field n, offset 0x58, size 0x8
-  __declspec(property(get = __get_n, put = __set_n))::Mono::Math::BigInteger* n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Mono::Math::BigInteger* n;
 
   /// @brief Field e, offset 0x60, size 0x8
-  __declspec(property(get = __get_e, put = __set_e))::Mono::Math::BigInteger* e;
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::Mono::Math::BigInteger* e;
 
   /// @brief Field KeyGenerated, offset 0x68, size 0x8
-  __declspec(property(get = __get_KeyGenerated, put = __set_KeyGenerated))::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* KeyGenerated;
+  __declspec(property(get = __cordl_internal_get_KeyGenerated, put = __cordl_internal_set_KeyGenerated))::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* KeyGenerated;
 
   __declspec(property(get = get_KeySize)) int32_t KeySize;
 
   __declspec(property(get = get_PublicOnly)) bool PublicOnly;
 
-  constexpr bool& __get_isCRTpossible();
+  constexpr bool& __cordl_internal_get_isCRTpossible();
 
-  constexpr bool const& __get_isCRTpossible() const;
+  constexpr bool const& __cordl_internal_get_isCRTpossible() const;
 
-  constexpr void __set_isCRTpossible(bool value);
+  constexpr void __cordl_internal_set_isCRTpossible(bool value);
 
-  constexpr bool& __get_keyBlinding();
+  constexpr bool& __cordl_internal_get_keyBlinding();
 
-  constexpr bool const& __get_keyBlinding() const;
+  constexpr bool const& __cordl_internal_get_keyBlinding() const;
 
-  constexpr void __set_keyBlinding(bool value);
+  constexpr void __cordl_internal_set_keyBlinding(bool value);
 
-  constexpr bool& __get_keypairGenerated();
+  constexpr bool& __cordl_internal_get_keypairGenerated();
 
-  constexpr bool const& __get_keypairGenerated() const;
+  constexpr bool const& __cordl_internal_get_keypairGenerated() const;
 
-  constexpr void __set_keypairGenerated(bool value);
+  constexpr void __cordl_internal_set_keypairGenerated(bool value);
 
-  constexpr bool& __get_m_disposed();
+  constexpr bool& __cordl_internal_get_m_disposed();
 
-  constexpr bool const& __get_m_disposed() const;
+  constexpr bool const& __cordl_internal_get_m_disposed() const;
 
-  constexpr void __set_m_disposed(bool value);
+  constexpr void __cordl_internal_set_m_disposed(bool value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_d();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_d();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_d() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_d() const;
 
-  constexpr void __set_d(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_d(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_p();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_p(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_q();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_q(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_dp();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_dp();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_dp() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_dp() const;
 
-  constexpr void __set_dp(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_dp(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_dq();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_dq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_dq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_dq() const;
 
-  constexpr void __set_dq(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_dq(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_qInv();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_qInv();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_qInv() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_qInv() const;
 
-  constexpr void __set_qInv(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_qInv(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_n();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_n();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_n() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_n(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_e();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_e();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_e() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_e() const;
 
-  constexpr void __set_e(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_e(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*& __get_KeyGenerated();
+  constexpr ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*& __cordl_internal_get_KeyGenerated();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*> const& __get_KeyGenerated() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*> const& __cordl_internal_get_KeyGenerated() const;
 
-  constexpr void __set_KeyGenerated(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* value);
+  constexpr void __cordl_internal_set_KeyGenerated(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* value);
 
   static inline ::Mono::Security::Cryptography::RSAManaged* New_ctor();
 

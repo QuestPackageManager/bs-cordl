@@ -21,31 +21,31 @@ MARK_REF_PTR_T(::GlobalNamespace::CreateServerFormController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5564))
 // CS Name: ::CreateServerFormController*
 class CORDL_TYPE CreateServerFormController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _maxPlayersList, offset 0x18, size 0x8
-  __declspec(property(get = __get__maxPlayersList, put = __set__maxPlayersList))::GlobalNamespace::FormattedFloatListSettingsController* _maxPlayersList;
+  __declspec(property(get = __cordl_internal_get__maxPlayersList, put = __cordl_internal_set__maxPlayersList))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _maxPlayersList;
 
   /// @brief Field _netDiscoverable, offset 0x20, size 0x1
-  __declspec(property(get = __get__netDiscoverable, put = __set__netDiscoverable)) bool _netDiscoverable;
+  __declspec(property(get = __cordl_internal_get__netDiscoverable, put = __cordl_internal_set__netDiscoverable)) bool _netDiscoverable;
 
   __declspec(property(get = get_formData))::GlobalNamespace::CreateServerFormData formData;
 
-  constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& __get__maxPlayersList();
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__maxPlayersList();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const& __get__maxPlayersList() const;
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__maxPlayersList() const;
 
-  constexpr void __set__maxPlayersList(::GlobalNamespace::FormattedFloatListSettingsController* value);
+  constexpr void __cordl_internal_set__maxPlayersList(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  constexpr bool& __get__netDiscoverable();
+  constexpr bool& __cordl_internal_get__netDiscoverable();
 
-  constexpr bool const& __get__netDiscoverable() const;
+  constexpr bool const& __cordl_internal_get__netDiscoverable() const;
 
-  constexpr void __set__netDiscoverable(bool value);
+  constexpr void __cordl_internal_set__netDiscoverable(bool value);
 
   /// @brief Method get_formData, addr 0x22a3a9c, size 0xf0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData get_formData();
@@ -73,7 +73,7 @@ protected:
 
 public:
   /// @brief Field _maxPlayersList, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FormattedFloatListSettingsController* ____maxPlayersList;
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____maxPlayersList;
 
   /// @brief Field _netDiscoverable, offset: 0x20, size: 0x1, def value: None
   bool ____netDiscoverable;

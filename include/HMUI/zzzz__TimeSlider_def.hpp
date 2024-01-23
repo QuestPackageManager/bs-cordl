@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::HMUI::TimeSlider);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13561))
 // CS Name: ::TimeSlider::TimeType
 struct CORDL_TYPE __TimeSlider__TimeType {
@@ -76,7 +76,7 @@ static_assert(offsetof(::HMUI::__TimeSlider__TimeType, value__) == 0x0, "Offset 
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 364, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13558)), TypeDefinitionIndex(TypeDefinitionIndex(13561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558)), TypeDefinitionIndex(TypeDefinitionIndex(13561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13562))
 // CS Name: ::HMUI::TimeSlider*
 class CORDL_TYPE TimeSlider : public ::HMUI::RangeValuesTextSlider {
@@ -85,13 +85,13 @@ public:
   using TimeType = ::HMUI::__TimeSlider__TimeType;
 
   /// @brief Field _timeType, offset 0x168, size 0x4
-  __declspec(property(get = __get__timeType, put = __set__timeType))::HMUI::__TimeSlider__TimeType _timeType;
+  __declspec(property(get = __cordl_internal_get__timeType, put = __cordl_internal_set__timeType))::HMUI::__TimeSlider__TimeType _timeType;
 
-  constexpr ::HMUI::__TimeSlider__TimeType& __get__timeType();
+  constexpr ::HMUI::__TimeSlider__TimeType& __cordl_internal_get__timeType();
 
-  constexpr ::HMUI::__TimeSlider__TimeType const& __get__timeType() const;
+  constexpr ::HMUI::__TimeSlider__TimeType const& __cordl_internal_get__timeType() const;
 
-  constexpr void __set__timeType(::HMUI::__TimeSlider__TimeType value);
+  constexpr void __cordl_internal_set__timeType(::HMUI::__TimeSlider__TimeType value);
 
   /// @brief Method TextForValue, addr 0x2124180, size 0x254, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);

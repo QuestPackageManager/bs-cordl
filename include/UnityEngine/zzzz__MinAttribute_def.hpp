@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::MinAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10177))
 // CS Name: ::UnityEngine::MinAttribute*
 class CORDL_TYPE MinAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field min, offset 0x10, size 0x4
-  __declspec(property(get = __get_min, put = __set_min)) float_t min;
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
-  constexpr float_t& __get_min();
+  constexpr float_t& __cordl_internal_get_min();
 
-  constexpr float_t const& __get_min() const;
+  constexpr float_t const& __cordl_internal_get_min() const;
 
-  constexpr void __set_min(float_t value);
+  constexpr void __cordl_internal_set_min(float_t value);
 
   static inline ::UnityEngine::MinAttribute* New_ctor(float_t min);
 

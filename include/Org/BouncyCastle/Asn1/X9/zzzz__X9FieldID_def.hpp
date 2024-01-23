@@ -30,33 +30,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9FieldID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(446))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9FieldID*
 class CORDL_TYPE X9FieldID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __get_id, put = __set_id))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id;
 
   /// @brief Field parameters, offset 0x18, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::Org::BouncyCastle::Asn1::Asn1Object* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Asn1::Asn1Object* parameters;
 
   __declspec(property(get = get_Identifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Identifier;
 
   __declspec(property(get = get_Parameters))::Org::BouncyCastle::Asn1::Asn1Object* Parameters;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_id();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_id();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_id() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_id() const;
 
-  constexpr void __set_id(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get_parameters();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __get_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::Org::BouncyCastle::Asn1::Asn1Object* value);
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
 

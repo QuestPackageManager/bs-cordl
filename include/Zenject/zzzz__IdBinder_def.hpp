@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::Zenject::IdBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10920))
 // CS Name: ::Zenject::IdBinder*
 class CORDL_TYPE IdBinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bindInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get__bindInfo, put = __set__bindInfo))::Zenject::BindInfo* _bindInfo;
+  __declspec(property(get = __cordl_internal_get__bindInfo, put = __cordl_internal_set__bindInfo))::Zenject::BindInfo* _bindInfo;
 
-  constexpr ::Zenject::BindInfo*& __get__bindInfo();
+  constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __get__bindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __cordl_internal_get__bindInfo() const;
 
-  constexpr void __set__bindInfo(::Zenject::BindInfo* value);
+  constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
 
   static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 

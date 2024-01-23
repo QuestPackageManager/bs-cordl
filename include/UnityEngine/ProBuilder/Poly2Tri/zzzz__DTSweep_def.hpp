@@ -40,20 +40,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::__DTSweep____c__DisplayClass
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15326))
 // CS Name: ::DTSweep::<>c__DisplayClass21_0*
 class CORDL_TYPE __DTSweep____c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ep, offset 0x10, size 0x8
-  __declspec(property(get = __get_ep, put = __set_ep))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep;
+  __declspec(property(get = __cordl_internal_get_ep, put = __cordl_internal_set_ep))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __get_ep();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_ep();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __get_ep() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_ep() const;
 
-  constexpr void __set_ep(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+  constexpr void __cordl_internal_set_ep(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::__DTSweep____c__DisplayClass21_0* New_ctor();
 
@@ -92,7 +92,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::__DTSweep____c__Disp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15327))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweep*
 class CORDL_TYPE DTSweep : public ::System::Object {

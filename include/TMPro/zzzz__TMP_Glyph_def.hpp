@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::TMPro::TMP_Glyph);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12449))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12449))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12358))
 // CS Name: ::TMPro::TMP_Glyph*
 class CORDL_TYPE TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy {

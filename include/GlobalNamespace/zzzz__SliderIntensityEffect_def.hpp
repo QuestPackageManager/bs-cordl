@@ -81,29 +81,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__SliderIntensityEffect___ProcessEffectCorouti
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4814))
 // CS Name: ::SliderIntensityEffect::InitData*
 class CORDL_TYPE __SliderIntensityEffect__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sliderColorIntensity, offset 0x10, size 0x4
-  __declspec(property(get = __get_sliderColorIntensity, put = __set_sliderColorIntensity)) float_t sliderColorIntensity;
+  __declspec(property(get = __cordl_internal_get_sliderColorIntensity, put = __cordl_internal_set_sliderColorIntensity)) float_t sliderColorIntensity;
 
   /// @brief Field hapticFeedback, offset 0x14, size 0x4
-  __declspec(property(get = __get_hapticFeedback, put = __set_hapticFeedback)) float_t hapticFeedback;
+  __declspec(property(get = __cordl_internal_get_hapticFeedback, put = __cordl_internal_set_hapticFeedback)) float_t hapticFeedback;
 
-  constexpr float_t& __get_sliderColorIntensity();
+  constexpr float_t& __cordl_internal_get_sliderColorIntensity();
 
-  constexpr float_t const& __get_sliderColorIntensity() const;
+  constexpr float_t const& __cordl_internal_get_sliderColorIntensity() const;
 
-  constexpr void __set_sliderColorIntensity(float_t value);
+  constexpr void __cordl_internal_set_sliderColorIntensity(float_t value);
 
-  constexpr float_t& __get_hapticFeedback();
+  constexpr float_t& __cordl_internal_get_hapticFeedback();
 
-  constexpr float_t const& __get_hapticFeedback() const;
+  constexpr float_t const& __cordl_internal_get_hapticFeedback() const;
 
-  constexpr void __set_hapticFeedback(float_t value);
+  constexpr void __cordl_internal_set_hapticFeedback(float_t value);
 
   static inline ::GlobalNamespace::__SliderIntensityEffect__InitData* New_ctor(::GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled);
 
@@ -144,56 +144,56 @@ static_assert(offsetof(::GlobalNamespace::__SliderIntensityEffect__InitData, ___
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4815))
 // CS Name: ::SliderIntensityEffect::FadeElement*
 class CORDL_TYPE __SliderIntensityEffect__FadeElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field duration, offset 0x10, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field startIntensity, offset 0x14, size 0x4
-  __declspec(property(get = __get_startIntensity, put = __set_startIntensity)) float_t startIntensity;
+  __declspec(property(get = __cordl_internal_get_startIntensity, put = __cordl_internal_set_startIntensity)) float_t startIntensity;
 
   /// @brief Field endIntensity, offset 0x18, size 0x4
-  __declspec(property(get = __get_endIntensity, put = __set_endIntensity)) float_t endIntensity;
+  __declspec(property(get = __cordl_internal_get_endIntensity, put = __cordl_internal_set_endIntensity)) float_t endIntensity;
 
   /// @brief Field easeType, offset 0x1c, size 0x4
-  __declspec(property(get = __get_easeType, put = __set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
 
   /// @brief Field startCallback, offset 0x20, size 0x8
-  __declspec(property(get = __get_startCallback, put = __set_startCallback))::System::Action* startCallback;
+  __declspec(property(get = __cordl_internal_get_startCallback, put = __cordl_internal_set_startCallback))::System::Action* startCallback;
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
-  constexpr float_t& __get_startIntensity();
+  constexpr float_t& __cordl_internal_get_startIntensity();
 
-  constexpr float_t const& __get_startIntensity() const;
+  constexpr float_t const& __cordl_internal_get_startIntensity() const;
 
-  constexpr void __set_startIntensity(float_t value);
+  constexpr void __cordl_internal_set_startIntensity(float_t value);
 
-  constexpr float_t& __get_endIntensity();
+  constexpr float_t& __cordl_internal_get_endIntensity();
 
-  constexpr float_t const& __get_endIntensity() const;
+  constexpr float_t const& __cordl_internal_get_endIntensity() const;
 
-  constexpr void __set_endIntensity(float_t value);
+  constexpr void __cordl_internal_set_endIntensity(float_t value);
 
-  constexpr ::GlobalNamespace::EaseType& __get_easeType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get_easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
 
-  constexpr void __set_easeType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
 
-  constexpr ::System::Action*& __get_startCallback();
+  constexpr ::System::Action*& __cordl_internal_get_startCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_startCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_startCallback() const;
 
-  constexpr void __set_startCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_startCallback(::System::Action* value);
 
   static inline ::GlobalNamespace::__SliderIntensityEffect__FadeElement* New_ctor(::GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, ::System::Action* startCallback);
 
@@ -249,7 +249,7 @@ static_assert(offsetof(::GlobalNamespace::__SliderIntensityEffect__FadeElement, 
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4816))
 // CS Name: ::SliderIntensityEffect::IntensityCalculationDelegate*
 class CORDL_TYPE __SliderIntensityEffect__IntensityCalculationDelegate : public ::System::MulticastDelegate {
@@ -293,32 +293,34 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderIntensi
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4817))
 // CS Name: ::SliderIntensityEffect::<ProcessEffectCoroutine>d__32*
 class CORDL_TYPE __SliderIntensityEffect___ProcessEffectCoroutine_d__32 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field fadeElements, offset 0x20, size 0x8
-  __declspec(property(get = __get_fadeElements, put = __set_fadeElements))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* fadeElements;
+  __declspec(property(get = __cordl_internal_get_fadeElements,
+                      put = __cordl_internal_set_fadeElements))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* fadeElements;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::SliderIntensityEffect* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SliderIntensityEffect> __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1,
+                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* __7__wrap1;
 
   /// @brief Field <fadeElement>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __get__fadeElement_5__3, put = __set__fadeElement_5__3))::GlobalNamespace::__SliderIntensityEffect__FadeElement* _fadeElement_5__3;
+  __declspec(property(get = __cordl_internal_get__fadeElement_5__3, put = __cordl_internal_set__fadeElement_5__3))::GlobalNamespace::__SliderIntensityEffect__FadeElement* _fadeElement_5__3;
 
   /// @brief Field <startTime>5__4, offset 0x40, size 0x4
-  __declspec(property(get = __get__startTime_5__4, put = __set__startTime_5__4)) float_t _startTime_5__4;
+  __declspec(property(get = __cordl_internal_get__startTime_5__4, put = __cordl_internal_set__startTime_5__4)) float_t _startTime_5__4;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -342,47 +344,49 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*& __get_fadeElements();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*& __cordl_internal_get_fadeElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const& __get_fadeElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const&
+  __cordl_internal_get_fadeElements() const;
 
-  constexpr void __set_fadeElements(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* value);
+  constexpr void __cordl_internal_set_fadeElements(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* value);
 
-  constexpr ::GlobalNamespace::SliderIntensityEffect*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::SliderIntensityEffect>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderIntensityEffect*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderIntensityEffect> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::SliderIntensityEffect* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SliderIntensityEffect> value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const&
+  __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* value);
 
-  constexpr ::GlobalNamespace::__SliderIntensityEffect__FadeElement*& __get__fadeElement_5__3();
+  constexpr ::GlobalNamespace::__SliderIntensityEffect__FadeElement*& __cordl_internal_get__fadeElement_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderIntensityEffect__FadeElement*> const& __get__fadeElement_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderIntensityEffect__FadeElement*> const& __cordl_internal_get__fadeElement_5__3() const;
 
-  constexpr void __set__fadeElement_5__3(::GlobalNamespace::__SliderIntensityEffect__FadeElement* value);
+  constexpr void __cordl_internal_set__fadeElement_5__3(::GlobalNamespace::__SliderIntensityEffect__FadeElement* value);
 
-  constexpr float_t& __get__startTime_5__4();
+  constexpr float_t& __cordl_internal_get__startTime_5__4();
 
-  constexpr float_t const& __get__startTime_5__4() const;
+  constexpr float_t const& __cordl_internal_get__startTime_5__4() const;
 
-  constexpr void __set__startTime_5__4(float_t value);
+  constexpr void __cordl_internal_set__startTime_5__4(float_t value);
 
   static inline ::GlobalNamespace::__SliderIntensityEffect___ProcessEffectCoroutine_d__32* New_ctor(int32_t __1__state);
 
@@ -431,7 +435,7 @@ public:
   ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* ___fadeElements;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SliderIntensityEffect* _____4__this;
+  ::UnityW<::GlobalNamespace::SliderIntensityEffect> _____4__this;
 
   /// @brief Field <>7__wrap1, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* _____7__wrap1;
@@ -466,7 +470,7 @@ static_assert(offsetof(::GlobalNamespace::__SliderIntensityEffect___ProcessEffec
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4818))
 // CS Name: ::SliderIntensityEffect*
 class CORDL_TYPE SliderIntensityEffect : public ::UnityEngine::MonoBehaviour {
@@ -481,194 +485,202 @@ public:
   using InitData = ::GlobalNamespace::__SliderIntensityEffect__InitData;
 
   /// @brief Field _longSliderHeadIntensity, offset 0x18, size 0x4
-  __declspec(property(get = __get__longSliderHeadIntensity, put = __set__longSliderHeadIntensity)) float_t _longSliderHeadIntensity;
+  __declspec(property(get = __cordl_internal_get__longSliderHeadIntensity, put = __cordl_internal_set__longSliderHeadIntensity)) float_t _longSliderHeadIntensity;
 
   /// @brief Field _shortSliderHeadIntensity, offset 0x1c, size 0x4
-  __declspec(property(get = __get__shortSliderHeadIntensity, put = __set__shortSliderHeadIntensity)) float_t _shortSliderHeadIntensity;
+  __declspec(property(get = __cordl_internal_get__shortSliderHeadIntensity, put = __cordl_internal_set__shortSliderHeadIntensity)) float_t _shortSliderHeadIntensity;
 
   /// @brief Field _tailIntensity, offset 0x20, size 0x4
-  __declspec(property(get = __get__tailIntensity, put = __set__tailIntensity)) float_t _tailIntensity;
+  __declspec(property(get = __cordl_internal_get__tailIntensity, put = __cordl_internal_set__tailIntensity)) float_t _tailIntensity;
 
   /// @brief Field _fadeOutDuration, offset 0x24, size 0x4
-  __declspec(property(get = __get__fadeOutDuration, put = __set__fadeOutDuration)) float_t _fadeOutDuration;
+  __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
 
   /// @brief Field _stayOffDuration, offset 0x28, size 0x4
-  __declspec(property(get = __get__stayOffDuration, put = __set__stayOffDuration)) float_t _stayOffDuration;
+  __declspec(property(get = __cordl_internal_get__stayOffDuration, put = __cordl_internal_set__stayOffDuration)) float_t _stayOffDuration;
 
   /// @brief Field _flashBoost, offset 0x2c, size 0x4
-  __declspec(property(get = __get__flashBoost, put = __set__flashBoost)) float_t _flashBoost;
+  __declspec(property(get = __cordl_internal_get__flashBoost, put = __cordl_internal_set__flashBoost)) float_t _flashBoost;
 
   /// @brief Field _flashInDuration, offset 0x30, size 0x4
-  __declspec(property(get = __get__flashInDuration, put = __set__flashInDuration)) float_t _flashInDuration;
+  __declspec(property(get = __cordl_internal_get__flashInDuration, put = __cordl_internal_set__flashInDuration)) float_t _flashInDuration;
 
   /// @brief Field _flashOutDuration, offset 0x34, size 0x4
-  __declspec(property(get = __get__flashOutDuration, put = __set__flashOutDuration)) float_t _flashOutDuration;
+  __declspec(property(get = __cordl_internal_get__flashOutDuration, put = __cordl_internal_set__flashOutDuration)) float_t _flashOutDuration;
 
   /// @brief Field _audioTimeSyncController, offset 0x38, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _initData, offset 0x40, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__SliderIntensityEffect__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__SliderIntensityEffect__InitData* _initData;
 
   /// @brief Field fadeInDidStartEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_fadeInDidStartEvent, put = __set_fadeInDidStartEvent))::System::Action* fadeInDidStartEvent;
+  __declspec(property(get = __cordl_internal_get_fadeInDidStartEvent, put = __cordl_internal_set_fadeInDidStartEvent))::System::Action* fadeInDidStartEvent;
 
   /// @brief Field _coreIntensity, offset 0x50, size 0x4
-  __declspec(property(get = __get__coreIntensity, put = __set__coreIntensity)) float_t _coreIntensity;
+  __declspec(property(get = __cordl_internal_get__coreIntensity, put = __cordl_internal_set__coreIntensity)) float_t _coreIntensity;
 
   /// @brief Field _effectIntensity, offset 0x54, size 0x4
-  __declspec(property(get = __get__effectIntensity, put = __set__effectIntensity)) float_t _effectIntensity;
+  __declspec(property(get = __cordl_internal_get__effectIntensity, put = __cordl_internal_set__effectIntensity)) float_t _effectIntensity;
 
   /// @brief Field _halfJumpDuration, offset 0x58, size 0x4
-  __declspec(property(get = __get__halfJumpDuration, put = __set__halfJumpDuration)) float_t _halfJumpDuration;
+  __declspec(property(get = __cordl_internal_get__halfJumpDuration, put = __cordl_internal_set__halfJumpDuration)) float_t _halfJumpDuration;
 
   /// @brief Field _sliderDuration, offset 0x5c, size 0x4
-  __declspec(property(get = __get__sliderDuration, put = __set__sliderDuration)) float_t _sliderDuration;
+  __declspec(property(get = __cordl_internal_get__sliderDuration, put = __cordl_internal_set__sliderDuration)) float_t _sliderDuration;
 
   /// @brief Field headIntensity, offset 0x60, size 0x4
-  __declspec(property(get = __get_headIntensity, put = __set_headIntensity)) float_t headIntensity;
+  __declspec(property(get = __cordl_internal_get_headIntensity, put = __cordl_internal_set_headIntensity)) float_t headIntensity;
 
   /// @brief Field _intensityCalculationDelegate, offset 0x68, size 0x8
-  __declspec(property(get = __get__intensityCalculationDelegate,
-                      put = __set__intensityCalculationDelegate))::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* _intensityCalculationDelegate;
+  __declspec(property(get = __cordl_internal_get__intensityCalculationDelegate,
+                      put = __cordl_internal_set__intensityCalculationDelegate))::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* _intensityCalculationDelegate;
 
   /// @brief Field _dipEffectFadeElements, offset 0x70, size 0x8
-  __declspec(property(
-      get = __get__dipEffectFadeElements,
-      put = __set__dipEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _dipEffectFadeElements;
+  __declspec(property(get = __cordl_internal_get__dipEffectFadeElements,
+                      put = __cordl_internal_set__dipEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
+                                                                                  ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _dipEffectFadeElements;
 
   /// @brief Field _flashEffectFadeElements, offset 0x78, size 0x8
-  __declspec(property(get = __get__flashEffectFadeElements, put = __set__flashEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
-                                                                                                           ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _flashEffectFadeElements;
+  __declspec(property(get = __cordl_internal_get__flashEffectFadeElements,
+                      put = __cordl_internal_set__flashEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
+                                                                                    ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _flashEffectFadeElements;
 
   /// @brief Field _fadeInEffectFadeElements, offset 0x80, size 0x8
-  __declspec(property(get = __get__fadeInEffectFadeElements,
-                      put = __set__fadeInEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
-                                                                      ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _fadeInEffectFadeElements;
+  __declspec(property(get = __cordl_internal_get__fadeInEffectFadeElements,
+                      put = __cordl_internal_set__fadeInEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
+                                                                                     ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _fadeInEffectFadeElements;
 
   __declspec(property(get = get_intensity)) float_t intensity;
 
   __declspec(property(get = get_colorIntensity)) float_t colorIntensity;
 
-  constexpr float_t& __get__longSliderHeadIntensity();
+  constexpr float_t& __cordl_internal_get__longSliderHeadIntensity();
 
-  constexpr float_t const& __get__longSliderHeadIntensity() const;
+  constexpr float_t const& __cordl_internal_get__longSliderHeadIntensity() const;
 
-  constexpr void __set__longSliderHeadIntensity(float_t value);
+  constexpr void __cordl_internal_set__longSliderHeadIntensity(float_t value);
 
-  constexpr float_t& __get__shortSliderHeadIntensity();
+  constexpr float_t& __cordl_internal_get__shortSliderHeadIntensity();
 
-  constexpr float_t const& __get__shortSliderHeadIntensity() const;
+  constexpr float_t const& __cordl_internal_get__shortSliderHeadIntensity() const;
 
-  constexpr void __set__shortSliderHeadIntensity(float_t value);
+  constexpr void __cordl_internal_set__shortSliderHeadIntensity(float_t value);
 
-  constexpr float_t& __get__tailIntensity();
+  constexpr float_t& __cordl_internal_get__tailIntensity();
 
-  constexpr float_t const& __get__tailIntensity() const;
+  constexpr float_t const& __cordl_internal_get__tailIntensity() const;
 
-  constexpr void __set__tailIntensity(float_t value);
+  constexpr void __cordl_internal_set__tailIntensity(float_t value);
 
-  constexpr float_t& __get__fadeOutDuration();
+  constexpr float_t& __cordl_internal_get__fadeOutDuration();
 
-  constexpr float_t const& __get__fadeOutDuration() const;
+  constexpr float_t const& __cordl_internal_get__fadeOutDuration() const;
 
-  constexpr void __set__fadeOutDuration(float_t value);
+  constexpr void __cordl_internal_set__fadeOutDuration(float_t value);
 
-  constexpr float_t& __get__stayOffDuration();
+  constexpr float_t& __cordl_internal_get__stayOffDuration();
 
-  constexpr float_t const& __get__stayOffDuration() const;
+  constexpr float_t const& __cordl_internal_get__stayOffDuration() const;
 
-  constexpr void __set__stayOffDuration(float_t value);
+  constexpr void __cordl_internal_set__stayOffDuration(float_t value);
 
-  constexpr float_t& __get__flashBoost();
+  constexpr float_t& __cordl_internal_get__flashBoost();
 
-  constexpr float_t const& __get__flashBoost() const;
+  constexpr float_t const& __cordl_internal_get__flashBoost() const;
 
-  constexpr void __set__flashBoost(float_t value);
+  constexpr void __cordl_internal_set__flashBoost(float_t value);
 
-  constexpr float_t& __get__flashInDuration();
+  constexpr float_t& __cordl_internal_get__flashInDuration();
 
-  constexpr float_t const& __get__flashInDuration() const;
+  constexpr float_t const& __cordl_internal_get__flashInDuration() const;
 
-  constexpr void __set__flashInDuration(float_t value);
+  constexpr void __cordl_internal_set__flashInDuration(float_t value);
 
-  constexpr float_t& __get__flashOutDuration();
+  constexpr float_t& __cordl_internal_get__flashOutDuration();
 
-  constexpr float_t const& __get__flashOutDuration() const;
+  constexpr float_t const& __cordl_internal_get__flashOutDuration() const;
 
-  constexpr void __set__flashOutDuration(float_t value);
+  constexpr void __cordl_internal_set__flashOutDuration(float_t value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::GlobalNamespace::__SliderIntensityEffect__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__SliderIntensityEffect__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderIntensityEffect__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderIntensityEffect__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__SliderIntensityEffect__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SliderIntensityEffect__InitData* value);
 
-  constexpr ::System::Action*& __get_fadeInDidStartEvent();
+  constexpr ::System::Action*& __cordl_internal_get_fadeInDidStartEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_fadeInDidStartEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_fadeInDidStartEvent() const;
 
-  constexpr void __set_fadeInDidStartEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_fadeInDidStartEvent(::System::Action* value);
 
-  constexpr float_t& __get__coreIntensity();
+  constexpr float_t& __cordl_internal_get__coreIntensity();
 
-  constexpr float_t const& __get__coreIntensity() const;
+  constexpr float_t const& __cordl_internal_get__coreIntensity() const;
 
-  constexpr void __set__coreIntensity(float_t value);
+  constexpr void __cordl_internal_set__coreIntensity(float_t value);
 
-  constexpr float_t& __get__effectIntensity();
+  constexpr float_t& __cordl_internal_get__effectIntensity();
 
-  constexpr float_t const& __get__effectIntensity() const;
+  constexpr float_t const& __cordl_internal_get__effectIntensity() const;
 
-  constexpr void __set__effectIntensity(float_t value);
+  constexpr void __cordl_internal_set__effectIntensity(float_t value);
 
-  constexpr float_t& __get__halfJumpDuration();
+  constexpr float_t& __cordl_internal_get__halfJumpDuration();
 
-  constexpr float_t const& __get__halfJumpDuration() const;
+  constexpr float_t const& __cordl_internal_get__halfJumpDuration() const;
 
-  constexpr void __set__halfJumpDuration(float_t value);
+  constexpr void __cordl_internal_set__halfJumpDuration(float_t value);
 
-  constexpr float_t& __get__sliderDuration();
+  constexpr float_t& __cordl_internal_get__sliderDuration();
 
-  constexpr float_t const& __get__sliderDuration() const;
+  constexpr float_t const& __cordl_internal_get__sliderDuration() const;
 
-  constexpr void __set__sliderDuration(float_t value);
+  constexpr void __cordl_internal_set__sliderDuration(float_t value);
 
-  constexpr float_t& __get_headIntensity();
+  constexpr float_t& __cordl_internal_get_headIntensity();
 
-  constexpr float_t const& __get_headIntensity() const;
+  constexpr float_t const& __cordl_internal_get_headIntensity() const;
 
-  constexpr void __set_headIntensity(float_t value);
+  constexpr void __cordl_internal_set_headIntensity(float_t value);
 
-  constexpr ::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate*& __get__intensityCalculationDelegate();
+  constexpr ::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate*& __cordl_internal_get__intensityCalculationDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate*> const& __get__intensityCalculationDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate*> const& __cordl_internal_get__intensityCalculationDelegate() const;
 
-  constexpr void __set__intensityCalculationDelegate(::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* value);
+  constexpr void __cordl_internal_set__intensityCalculationDelegate(::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>& __get__dipEffectFadeElements();
+  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>& __cordl_internal_get__dipEffectFadeElements();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const& __get__dipEffectFadeElements() const;
+  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const&
+  __cordl_internal_get__dipEffectFadeElements() const;
 
-  constexpr void __set__dipEffectFadeElements(::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> value);
+  constexpr void
+  __cordl_internal_set__dipEffectFadeElements(::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>& __get__flashEffectFadeElements();
+  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>& __cordl_internal_get__flashEffectFadeElements();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const& __get__flashEffectFadeElements() const;
+  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const&
+  __cordl_internal_get__flashEffectFadeElements() const;
 
-  constexpr void __set__flashEffectFadeElements(::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> value);
+  constexpr void
+  __cordl_internal_set__flashEffectFadeElements(::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>& __get__fadeInEffectFadeElements();
+  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>& __cordl_internal_get__fadeInEffectFadeElements();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const& __get__fadeInEffectFadeElements() const;
+  constexpr ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> const&
+  __cordl_internal_get__fadeInEffectFadeElements() const;
 
-  constexpr void __set__fadeInEffectFadeElements(::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> value);
+  constexpr void
+  __cordl_internal_set__fadeInEffectFadeElements(::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> value);
 
   /// @brief Method add_fadeInDidStartEvent, addr 0x2391074, size 0x9c, virtual false, abstract: false, final false
   inline void add_fadeInDidStartEvent(::System::Action* value);
@@ -753,7 +765,7 @@ public:
   float_t ____flashOutDuration;
 
   /// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::__SliderIntensityEffect__InitData* ____initData;

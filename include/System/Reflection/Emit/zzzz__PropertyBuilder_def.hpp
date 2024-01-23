@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Reflection::Emit::PropertyBuilder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3488))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3488))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3546))
 // CS Name: ::System.Reflection.Emit::PropertyBuilder*
 class CORDL_TYPE PropertyBuilder : public ::System::Reflection::PropertyInfo {

@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::System::ByteMatcher);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2623))
 // CS Name: ::System::ByteMatcher*
 class CORDL_TYPE ByteMatcher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field map, offset 0x10, size 0x8
-  __declspec(property(get = __get_map, put = __set_map))::System::Collections::Hashtable* map;
+  __declspec(property(get = __cordl_internal_get_map, put = __cordl_internal_set_map))::System::Collections::Hashtable* map;
 
   /// @brief Field starts, offset 0x18, size 0x8
-  __declspec(property(get = __get_starts, put = __set_starts))::System::Collections::Hashtable* starts;
+  __declspec(property(get = __cordl_internal_get_starts, put = __cordl_internal_set_starts))::System::Collections::Hashtable* starts;
 
-  constexpr ::System::Collections::Hashtable*& __get_map();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_map();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_map() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_map() const;
 
-  constexpr void __set_map(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_map(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_starts();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_starts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_starts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_starts() const;
 
-  constexpr void __set_starts(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_starts(::System::Collections::Hashtable* value);
 
   /// @brief Method AddMapping, addr 0x2604f80, size 0x120, virtual false, abstract: false, final false
   inline void AddMapping(::System::TermInfoStrings key, ::ArrayW<uint8_t, ::Array<uint8_t>*> val);

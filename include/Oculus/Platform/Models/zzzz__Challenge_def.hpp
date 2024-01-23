@@ -25,118 +25,118 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Challenge);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13244)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13241))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13426)) CS Name: ::Oculus.Platform.Models::Challenge*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13241)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13244))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13426)) CS Name: ::Oculus.Platform.Models::Challenge*
 class CORDL_TYPE Challenge : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CreationType, offset 0x10, size 0x4
-  __declspec(property(get = __get_CreationType, put = __set_CreationType))::Oculus::Platform::ChallengeCreationType CreationType;
+  __declspec(property(get = __cordl_internal_get_CreationType, put = __cordl_internal_set_CreationType))::Oculus::Platform::ChallengeCreationType CreationType;
 
   /// @brief Field Description, offset 0x18, size 0x8
-  __declspec(property(get = __get_Description, put = __set_Description))::StringW Description;
+  __declspec(property(get = __cordl_internal_get_Description, put = __cordl_internal_set_Description))::StringW Description;
 
   /// @brief Field EndDate, offset 0x20, size 0x8
-  __declspec(property(get = __get_EndDate, put = __set_EndDate))::System::DateTime EndDate;
+  __declspec(property(get = __cordl_internal_get_EndDate, put = __cordl_internal_set_EndDate))::System::DateTime EndDate;
 
   /// @brief Field ID, offset 0x28, size 0x8
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) uint64_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
   /// @brief Field InvitedUsersOptional, offset 0x30, size 0x8
-  __declspec(property(get = __get_InvitedUsersOptional, put = __set_InvitedUsersOptional))::Oculus::Platform::Models::UserList* InvitedUsersOptional;
+  __declspec(property(get = __cordl_internal_get_InvitedUsersOptional, put = __cordl_internal_set_InvitedUsersOptional))::Oculus::Platform::Models::UserList* InvitedUsersOptional;
 
   /// @brief Field InvitedUsers, offset 0x38, size 0x8
-  __declspec(property(get = __get_InvitedUsers, put = __set_InvitedUsers))::Oculus::Platform::Models::UserList* InvitedUsers;
+  __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers))::Oculus::Platform::Models::UserList* InvitedUsers;
 
   /// @brief Field Leaderboard, offset 0x40, size 0x8
-  __declspec(property(get = __get_Leaderboard, put = __set_Leaderboard))::Oculus::Platform::Models::Leaderboard* Leaderboard;
+  __declspec(property(get = __cordl_internal_get_Leaderboard, put = __cordl_internal_set_Leaderboard))::Oculus::Platform::Models::Leaderboard* Leaderboard;
 
   /// @brief Field ParticipantsOptional, offset 0x48, size 0x8
-  __declspec(property(get = __get_ParticipantsOptional, put = __set_ParticipantsOptional))::Oculus::Platform::Models::UserList* ParticipantsOptional;
+  __declspec(property(get = __cordl_internal_get_ParticipantsOptional, put = __cordl_internal_set_ParticipantsOptional))::Oculus::Platform::Models::UserList* ParticipantsOptional;
 
   /// @brief Field Participants, offset 0x50, size 0x8
-  __declspec(property(get = __get_Participants, put = __set_Participants))::Oculus::Platform::Models::UserList* Participants;
+  __declspec(property(get = __cordl_internal_get_Participants, put = __cordl_internal_set_Participants))::Oculus::Platform::Models::UserList* Participants;
 
   /// @brief Field StartDate, offset 0x58, size 0x8
-  __declspec(property(get = __get_StartDate, put = __set_StartDate))::System::DateTime StartDate;
+  __declspec(property(get = __cordl_internal_get_StartDate, put = __cordl_internal_set_StartDate))::System::DateTime StartDate;
 
   /// @brief Field Title, offset 0x60, size 0x8
-  __declspec(property(get = __get_Title, put = __set_Title))::StringW Title;
+  __declspec(property(get = __cordl_internal_get_Title, put = __cordl_internal_set_Title))::StringW Title;
 
   /// @brief Field Visibility, offset 0x68, size 0x4
-  __declspec(property(get = __get_Visibility, put = __set_Visibility))::Oculus::Platform::ChallengeVisibility Visibility;
+  __declspec(property(get = __cordl_internal_get_Visibility, put = __cordl_internal_set_Visibility))::Oculus::Platform::ChallengeVisibility Visibility;
 
-  constexpr ::Oculus::Platform::ChallengeCreationType& __get_CreationType();
+  constexpr ::Oculus::Platform::ChallengeCreationType& __cordl_internal_get_CreationType();
 
-  constexpr ::Oculus::Platform::ChallengeCreationType const& __get_CreationType() const;
+  constexpr ::Oculus::Platform::ChallengeCreationType const& __cordl_internal_get_CreationType() const;
 
-  constexpr void __set_CreationType(::Oculus::Platform::ChallengeCreationType value);
+  constexpr void __cordl_internal_set_CreationType(::Oculus::Platform::ChallengeCreationType value);
 
-  constexpr ::StringW& __get_Description();
+  constexpr ::StringW& __cordl_internal_get_Description();
 
-  constexpr ::StringW const& __get_Description() const;
+  constexpr ::StringW const& __cordl_internal_get_Description() const;
 
-  constexpr void __set_Description(::StringW value);
+  constexpr void __cordl_internal_set_Description(::StringW value);
 
-  constexpr ::System::DateTime& __get_EndDate();
+  constexpr ::System::DateTime& __cordl_internal_get_EndDate();
 
-  constexpr ::System::DateTime const& __get_EndDate() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_EndDate() const;
 
-  constexpr void __set_EndDate(::System::DateTime value);
+  constexpr void __cordl_internal_set_EndDate(::System::DateTime value);
 
-  constexpr uint64_t& __get__cordl_ID();
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
 
-  constexpr uint64_t const& __get__cordl_ID() const;
+  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(uint64_t value);
+  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_InvitedUsersOptional();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsersOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_InvitedUsersOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsersOptional() const;
 
-  constexpr void __set_InvitedUsersOptional(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_InvitedUsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_InvitedUsers();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_InvitedUsers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsers() const;
 
-  constexpr void __set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::Oculus::Platform::Models::Leaderboard*& __get_Leaderboard();
+  constexpr ::Oculus::Platform::Models::Leaderboard*& __cordl_internal_get_Leaderboard();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Leaderboard*> const& __get_Leaderboard() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Leaderboard*> const& __cordl_internal_get_Leaderboard() const;
 
-  constexpr void __set_Leaderboard(::Oculus::Platform::Models::Leaderboard* value);
+  constexpr void __cordl_internal_set_Leaderboard(::Oculus::Platform::Models::Leaderboard* value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_ParticipantsOptional();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_ParticipantsOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_ParticipantsOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_ParticipantsOptional() const;
 
-  constexpr void __set_ParticipantsOptional(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_ParticipantsOptional(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_Participants();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_Participants();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_Participants() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_Participants() const;
 
-  constexpr void __set_Participants(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_Participants(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::System::DateTime& __get_StartDate();
+  constexpr ::System::DateTime& __cordl_internal_get_StartDate();
 
-  constexpr ::System::DateTime const& __get_StartDate() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_StartDate() const;
 
-  constexpr void __set_StartDate(::System::DateTime value);
+  constexpr void __cordl_internal_set_StartDate(::System::DateTime value);
 
-  constexpr ::StringW& __get_Title();
+  constexpr ::StringW& __cordl_internal_get_Title();
 
-  constexpr ::StringW const& __get_Title() const;
+  constexpr ::StringW const& __cordl_internal_get_Title() const;
 
-  constexpr void __set_Title(::StringW value);
+  constexpr void __cordl_internal_set_Title(::StringW value);
 
-  constexpr ::Oculus::Platform::ChallengeVisibility& __get_Visibility();
+  constexpr ::Oculus::Platform::ChallengeVisibility& __cordl_internal_get_Visibility();
 
-  constexpr ::Oculus::Platform::ChallengeVisibility const& __get_Visibility() const;
+  constexpr ::Oculus::Platform::ChallengeVisibility const& __cordl_internal_get_Visibility() const;
 
-  constexpr void __set_Visibility(::Oculus::Platform::ChallengeVisibility value);
+  constexpr void __cordl_internal_set_Visibility(::Oculus::Platform::ChallengeVisibility value);
 
   static inline ::Oculus::Platform::Models::Challenge* New_ctor(void* o);
 

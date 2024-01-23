@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6677))
 // CS Name: ::MemoryHelpers::BitRegion
 struct CORDL_TYPE __MemoryHelpers__BitRegion {
@@ -75,7 +75,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__MemoryHelpers__B
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6678))
 // CS Name: ::UnityEngine.InputSystem.Utilities::MemoryHelpers*
 class CORDL_TYPE MemoryHelpers : public ::System::Object {

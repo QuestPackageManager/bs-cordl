@@ -27,65 +27,65 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCubemapCapture);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8085))
 // CS Name: ::OVRCubemapCapture*
 class CORDL_TYPE OVRCubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field autoTriggerAfterLaunch, offset 0x18, size 0x1
-  __declspec(property(get = __get_autoTriggerAfterLaunch, put = __set_autoTriggerAfterLaunch)) bool autoTriggerAfterLaunch;
+  __declspec(property(get = __cordl_internal_get_autoTriggerAfterLaunch, put = __cordl_internal_set_autoTriggerAfterLaunch)) bool autoTriggerAfterLaunch;
 
   /// @brief Field autoTriggerDelay, offset 0x1c, size 0x4
-  __declspec(property(get = __get_autoTriggerDelay, put = __set_autoTriggerDelay)) float_t autoTriggerDelay;
+  __declspec(property(get = __cordl_internal_get_autoTriggerDelay, put = __cordl_internal_set_autoTriggerDelay)) float_t autoTriggerDelay;
 
   /// @brief Field autoTriggerElapse, offset 0x20, size 0x4
-  __declspec(property(get = __get_autoTriggerElapse, put = __set_autoTriggerElapse)) float_t autoTriggerElapse;
+  __declspec(property(get = __cordl_internal_get_autoTriggerElapse, put = __cordl_internal_set_autoTriggerElapse)) float_t autoTriggerElapse;
 
   /// @brief Field triggeredByKey, offset 0x24, size 0x4
-  __declspec(property(get = __get_triggeredByKey, put = __set_triggeredByKey))::UnityEngine::KeyCode triggeredByKey;
+  __declspec(property(get = __cordl_internal_get_triggeredByKey, put = __cordl_internal_set_triggeredByKey))::UnityEngine::KeyCode triggeredByKey;
 
   /// @brief Field pathName, offset 0x28, size 0x8
-  __declspec(property(get = __get_pathName, put = __set_pathName))::StringW pathName;
+  __declspec(property(get = __cordl_internal_get_pathName, put = __cordl_internal_set_pathName))::StringW pathName;
 
   /// @brief Field cubemapSize, offset 0x30, size 0x4
-  __declspec(property(get = __get_cubemapSize, put = __set_cubemapSize)) int32_t cubemapSize;
+  __declspec(property(get = __cordl_internal_get_cubemapSize, put = __cordl_internal_set_cubemapSize)) int32_t cubemapSize;
 
-  constexpr bool& __get_autoTriggerAfterLaunch();
+  constexpr bool& __cordl_internal_get_autoTriggerAfterLaunch();
 
-  constexpr bool const& __get_autoTriggerAfterLaunch() const;
+  constexpr bool const& __cordl_internal_get_autoTriggerAfterLaunch() const;
 
-  constexpr void __set_autoTriggerAfterLaunch(bool value);
+  constexpr void __cordl_internal_set_autoTriggerAfterLaunch(bool value);
 
-  constexpr float_t& __get_autoTriggerDelay();
+  constexpr float_t& __cordl_internal_get_autoTriggerDelay();
 
-  constexpr float_t const& __get_autoTriggerDelay() const;
+  constexpr float_t const& __cordl_internal_get_autoTriggerDelay() const;
 
-  constexpr void __set_autoTriggerDelay(float_t value);
+  constexpr void __cordl_internal_set_autoTriggerDelay(float_t value);
 
-  constexpr float_t& __get_autoTriggerElapse();
+  constexpr float_t& __cordl_internal_get_autoTriggerElapse();
 
-  constexpr float_t const& __get_autoTriggerElapse() const;
+  constexpr float_t const& __cordl_internal_get_autoTriggerElapse() const;
 
-  constexpr void __set_autoTriggerElapse(float_t value);
+  constexpr void __cordl_internal_set_autoTriggerElapse(float_t value);
 
-  constexpr ::UnityEngine::KeyCode& __get_triggeredByKey();
+  constexpr ::UnityEngine::KeyCode& __cordl_internal_get_triggeredByKey();
 
-  constexpr ::UnityEngine::KeyCode const& __get_triggeredByKey() const;
+  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get_triggeredByKey() const;
 
-  constexpr void __set_triggeredByKey(::UnityEngine::KeyCode value);
+  constexpr void __cordl_internal_set_triggeredByKey(::UnityEngine::KeyCode value);
 
-  constexpr ::StringW& __get_pathName();
+  constexpr ::StringW& __cordl_internal_get_pathName();
 
-  constexpr ::StringW const& __get_pathName() const;
+  constexpr ::StringW const& __cordl_internal_get_pathName() const;
 
-  constexpr void __set_pathName(::StringW value);
+  constexpr void __cordl_internal_set_pathName(::StringW value);
 
-  constexpr int32_t& __get_cubemapSize();
+  constexpr int32_t& __cordl_internal_get_cubemapSize();
 
-  constexpr int32_t const& __get_cubemapSize() const;
+  constexpr int32_t const& __cordl_internal_get_cubemapSize() const;
 
-  constexpr void __set_cubemapSize(int32_t value);
+  constexpr void __cordl_internal_set_cubemapSize(int32_t value);
 
   /// @brief Method Update, addr 0x27a7c08, size 0xa8, virtual false, abstract: false, final false
   inline void Update();

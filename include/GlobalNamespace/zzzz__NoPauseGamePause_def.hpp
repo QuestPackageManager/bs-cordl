@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::GlobalNamespace::NoPauseGamePause);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5061))
 // CS Name: ::NoPauseGamePause*
 class CORDL_TYPE NoPauseGamePause : public ::System::Object {
 public:
   // Declarations
   /// @brief Field didPauseEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_didPauseEvent, put = __set_didPauseEvent))::System::Action* didPauseEvent;
+  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent))::System::Action* didPauseEvent;
 
   /// @brief Field willResumeEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_willResumeEvent, put = __set_willResumeEvent))::System::Action* willResumeEvent;
+  __declspec(property(get = __cordl_internal_get_willResumeEvent, put = __cordl_internal_set_willResumeEvent))::System::Action* willResumeEvent;
 
   /// @brief Field didResumeEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didResumeEvent, put = __set_didResumeEvent))::System::Action* didResumeEvent;
+  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent))::System::Action* didResumeEvent;
 
   /// @brief Field _pause, offset 0x28, size 0x1
-  __declspec(property(get = __get__pause, put = __set__pause)) bool _pause;
+  __declspec(property(get = __cordl_internal_get__pause, put = __cordl_internal_set__pause)) bool _pause;
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
@@ -46,29 +46,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  constexpr ::System::Action*& __get_didPauseEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPauseEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPauseEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPauseEvent() const;
 
-  constexpr void __set_didPauseEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPauseEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_willResumeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_willResumeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_willResumeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_willResumeEvent() const;
 
-  constexpr void __set_willResumeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didResumeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didResumeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didResumeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didResumeEvent() const;
 
-  constexpr void __set_didResumeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didResumeEvent(::System::Action* value);
 
-  constexpr bool& __get__pause();
+  constexpr bool& __cordl_internal_get__pause();
 
-  constexpr bool const& __get__pause() const;
+  constexpr bool const& __cordl_internal_get__pause() const;
 
-  constexpr void __set__pause(bool value);
+  constexpr void __cordl_internal_set__pause(bool value);
 
   /// @brief Method get_isPaused, addr 0x23c6d00, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();

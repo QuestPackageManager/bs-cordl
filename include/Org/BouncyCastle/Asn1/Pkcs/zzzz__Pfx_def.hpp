@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::Pfx);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(243))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::Pfx*
 class CORDL_TYPE Pfx : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field contentInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_contentInfo, put = __set_contentInfo))::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo;
 
   /// @brief Field macData, offset 0x18, size 0x8
-  __declspec(property(get = __get_macData, put = __set_macData))::Org::BouncyCastle::Asn1::Pkcs::MacData* macData;
+  __declspec(property(get = __cordl_internal_get_macData, put = __cordl_internal_set_macData))::Org::BouncyCastle::Asn1::Pkcs::MacData* macData;
 
   __declspec(property(get = get_AuthSafe))::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* AuthSafe;
 
   __declspec(property(get = get_MacData))::Org::BouncyCastle::Asn1::Pkcs::MacData* MacData;
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*& __get_contentInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*& __cordl_internal_get_contentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> const& __get_contentInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
 
-  constexpr void __set_contentInfo(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* value);
+  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::MacData*& __get_macData();
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::MacData*& __cordl_internal_get_macData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::MacData*> const& __get_macData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::MacData*> const& __cordl_internal_get_macData() const;
 
-  constexpr void __set_macData(::Org::BouncyCastle::Asn1::Pkcs::MacData* value);
+  constexpr void __cordl_internal_set_macData(::Org::BouncyCastle::Asn1::Pkcs::MacData* value);
 
   /// @brief Method GetInstance, addr 0xf8a804, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* GetInstance(::System::Object* obj);

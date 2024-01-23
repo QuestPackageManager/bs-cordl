@@ -68,7 +68,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRIOBuffer);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8541))
 // CS Name: ::IVRIOBuffer::_Open*
 class CORDL_TYPE __IVRIOBuffer___Open : public ::System::MulticastDelegate {
@@ -113,7 +113,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Ope
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8542))
 // CS Name: ::IVRIOBuffer::_Close*
 class CORDL_TYPE __IVRIOBuffer___Close : public ::System::MulticastDelegate {
@@ -157,7 +157,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Clo
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8543))
 // CS Name: ::IVRIOBuffer::_Read*
 class CORDL_TYPE __IVRIOBuffer___Read : public ::System::MulticastDelegate {
@@ -201,7 +201,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Rea
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8544))
 // CS Name: ::IVRIOBuffer::_Write*
 class CORDL_TYPE __IVRIOBuffer___Write : public ::System::MulticastDelegate {
@@ -245,7 +245,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Wri
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8545))
 // CS Name: ::IVRIOBuffer::_PropertyContainer*
 class CORDL_TYPE __IVRIOBuffer___PropertyContainer : public ::System::MulticastDelegate {
@@ -289,7 +289,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Pro
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8546))
 // CS Name: ::OVR.OpenVR::IVRIOBuffer
 struct CORDL_TYPE IVRIOBuffer {

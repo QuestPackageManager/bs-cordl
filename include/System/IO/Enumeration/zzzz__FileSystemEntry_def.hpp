@@ -47,7 +47,7 @@ MARK_VAL_T(::System::IO::Enumeration::__FileSystemEntry____fileNameBuffer_e__Fix
 // SizeInfo { instance_size: 512, native_size: 512, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: Some(0) }
 namespace System::IO::Enumeration {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3641))
 // CS Name: ::FileSystemEntry::<_fileNameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
@@ -83,10 +83,10 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEntry____fileNameB
 // SizeInfo { instance_size: 752, native_size: 760, calculated_instance_size: 752, calculated_native_size: 768, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(3641)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2470)), TypeDefinitionIndex(TypeDefinitionIndex(3609)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 292 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3594)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(2214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3642))
-// CS Name: ::System.IO.Enumeration::FileSystemEntry
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(2470)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3594)), TypeDefinitionIndex(TypeDefinitionIndex(3609)), TypeDefinitionIndex(TypeDefinitionIndex(3641)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2464), inst: 292 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 292 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3642)) CS Name:
+// ::System.IO.Enumeration::FileSystemEntry
 struct CORDL_TYPE FileSystemEntry {
 public:
   // Declarations

@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14024))
 // CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEvent
 struct CORDL_TYPE DiagnosticEvent {

@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerInteger);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(123))
 // CS Name: ::Org.BouncyCastle.Asn1::DerInteger*
 class CORDL_TYPE DerInteger : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   /// @brief Field bytes, offset 0x10, size 0x8
-  __declspec(property(get = __get_bytes, put = __set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
 
   /// @brief Field start, offset 0x18, size 0x4
-  __declspec(property(get = __get_start, put = __set_start)) int32_t start;
+  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
 
   __declspec(property(get = get_PositiveValue))::Org::BouncyCastle::Math::BigInteger* PositiveValue;
 
@@ -54,17 +54,17 @@ public:
 
   __declspec(property(get = get_LongValueExact)) int64_t LongValueExact;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_bytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_bytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_bytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bytes() const;
 
-  constexpr void __set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_start();
+  constexpr int32_t& __cordl_internal_get_start();
 
-  constexpr int32_t const& __get_start() const;
+  constexpr int32_t const& __cordl_internal_get_start() const;
 
-  constexpr void __set_start(int32_t value);
+  constexpr void __cordl_internal_set_start(int32_t value);
 
   /// @brief Method AllowUnsafe, addr 0xe88b2c, size 0xb0, virtual false, abstract: false, final false
   static inline bool AllowUnsafe();

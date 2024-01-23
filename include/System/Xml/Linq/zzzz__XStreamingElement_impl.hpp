@@ -3,27 +3,27 @@
 #include "System/Xml/Linq/zzzz__XStreamingElement_def.hpp"
 #include "System/Xml/Linq/zzzz__XName_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-constexpr ::System::Xml::Linq::XName*& System::Xml::Linq::XStreamingElement::__get_name() {
+constexpr ::System::Xml::Linq::XName*& System::Xml::Linq::XStreamingElement::__cordl_internal_get_name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& System::Xml::Linq::XStreamingElement::__get_name() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& System::Xml::Linq::XStreamingElement::__cordl_internal_get_name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr void System::Xml::Linq::XStreamingElement::__set_name(::System::Xml::Linq::XName* value) {
+constexpr void System::Xml::Linq::XStreamingElement::__cordl_internal_set_name(::System::Xml::Linq::XName* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Xml::Linq::XStreamingElement::__get_content() {
+constexpr ::System::Object*& System::Xml::Linq::XStreamingElement::__cordl_internal_get_content() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Linq::XStreamingElement::__get_content() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Linq::XStreamingElement::__cordl_internal_get_content() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
-constexpr void System::Xml::Linq::XStreamingElement::__set_content(::System::Object* value) {
+constexpr void System::Xml::Linq::XStreamingElement::__cordl_internal_set_content(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

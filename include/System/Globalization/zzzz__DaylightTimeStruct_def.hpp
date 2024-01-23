@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Globalization::DaylightTimeStruct);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3672))
 // CS Name: ::System.Globalization::DaylightTimeStruct
 struct CORDL_TYPE DaylightTimeStruct {

@@ -39,38 +39,41 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatLineManager);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4701))
 // CS Name: ::BeatLineManager*
 class CORDL_TYPE BeatLineManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _linesYPosition, offset 0x18, size 0x4
-  __declspec(property(get = __get__linesYPosition, put = __set__linesYPosition)) float_t _linesYPosition;
+  __declspec(property(get = __cordl_internal_get__linesYPosition, put = __cordl_internal_set__linesYPosition)) float_t _linesYPosition;
 
   /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _beatLinePool, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatLinePool, put = __set__beatLinePool))::GlobalNamespace::__BeatLine__Pool* _beatLinePool;
+  __declspec(property(get = __cordl_internal_get__beatLinePool, put = __cordl_internal_set__beatLinePool))::GlobalNamespace::__BeatLine__Pool* _beatLinePool;
 
   /// @brief Field _audioTimeSyncController, offset 0x30, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _activeBeatLines, offset 0x38, size 0x8
-  __declspec(property(get = __get__activeBeatLines, put = __set__activeBeatLines))::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::GlobalNamespace::BeatLine*>* _activeBeatLines;
+  __declspec(property(get = __cordl_internal_get__activeBeatLines,
+                      put = __cordl_internal_set__activeBeatLines))::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>* _activeBeatLines;
 
   /// @brief Field _removeBeatLineKeyList, offset 0x40, size 0x8
-  __declspec(property(get = __get__removeBeatLineKeyList, put = __set__removeBeatLineKeyList))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _removeBeatLineKeyList;
+  __declspec(property(get = __cordl_internal_get__removeBeatLineKeyList,
+                      put = __cordl_internal_set__removeBeatLineKeyList))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _removeBeatLineKeyList;
 
   /// @brief Field _isMidRotationValid, offset 0x48, size 0x1
-  __declspec(property(get = __get__isMidRotationValid, put = __set__isMidRotationValid)) bool _isMidRotationValid;
+  __declspec(property(get = __cordl_internal_get__isMidRotationValid, put = __cordl_internal_set__isMidRotationValid)) bool _isMidRotationValid;
 
   /// @brief Field _midRotation, offset 0x4c, size 0x4
-  __declspec(property(get = __get__midRotation, put = __set__midRotation)) float_t _midRotation;
+  __declspec(property(get = __cordl_internal_get__midRotation, put = __cordl_internal_set__midRotation)) float_t _midRotation;
 
   /// @brief Field _rotationRange, offset 0x50, size 0x4
-  __declspec(property(get = __get__rotationRange, put = __set__rotationRange)) float_t _rotationRange;
+  __declspec(property(get = __cordl_internal_get__rotationRange, put = __cordl_internal_set__rotationRange)) float_t _rotationRange;
 
   __declspec(property(get = get_isMidRotationValid)) bool isMidRotationValid;
 
@@ -78,59 +81,60 @@ public:
 
   __declspec(property(get = get_rotationRange)) float_t rotationRange;
 
-  constexpr float_t& __get__linesYPosition();
+  constexpr float_t& __cordl_internal_get__linesYPosition();
 
-  constexpr float_t const& __get__linesYPosition() const;
+  constexpr float_t const& __cordl_internal_get__linesYPosition() const;
 
-  constexpr void __set__linesYPosition(float_t value);
+  constexpr void __cordl_internal_set__linesYPosition(float_t value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::__BeatLine__Pool*& __get__beatLinePool();
+  constexpr ::GlobalNamespace::__BeatLine__Pool*& __cordl_internal_get__beatLinePool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatLine__Pool*> const& __get__beatLinePool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatLine__Pool*> const& __cordl_internal_get__beatLinePool() const;
 
-  constexpr void __set__beatLinePool(::GlobalNamespace::__BeatLine__Pool* value);
+  constexpr void __cordl_internal_set__beatLinePool(::GlobalNamespace::__BeatLine__Pool* value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::GlobalNamespace::BeatLine*>*& __get__activeBeatLines();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>*& __cordl_internal_get__activeBeatLines();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::GlobalNamespace::BeatLine*>*> const& __get__activeBeatLines() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>*> const&
+  __cordl_internal_get__activeBeatLines() const;
 
-  constexpr void __set__activeBeatLines(::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::GlobalNamespace::BeatLine*>* value);
+  constexpr void __cordl_internal_set__activeBeatLines(::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get__removeBeatLineKeyList();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get__removeBeatLineKeyList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get__removeBeatLineKeyList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get__removeBeatLineKeyList() const;
 
-  constexpr void __set__removeBeatLineKeyList(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set__removeBeatLineKeyList(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr bool& __get__isMidRotationValid();
+  constexpr bool& __cordl_internal_get__isMidRotationValid();
 
-  constexpr bool const& __get__isMidRotationValid() const;
+  constexpr bool const& __cordl_internal_get__isMidRotationValid() const;
 
-  constexpr void __set__isMidRotationValid(bool value);
+  constexpr void __cordl_internal_set__isMidRotationValid(bool value);
 
-  constexpr float_t& __get__midRotation();
+  constexpr float_t& __cordl_internal_get__midRotation();
 
-  constexpr float_t const& __get__midRotation() const;
+  constexpr float_t const& __cordl_internal_get__midRotation() const;
 
-  constexpr void __set__midRotation(float_t value);
+  constexpr void __cordl_internal_set__midRotation(float_t value);
 
-  constexpr float_t& __get__rotationRange();
+  constexpr float_t& __cordl_internal_get__rotationRange();
 
-  constexpr float_t const& __get__rotationRange() const;
+  constexpr float_t const& __cordl_internal_get__rotationRange() const;
 
-  constexpr void __set__rotationRange(float_t value);
+  constexpr void __cordl_internal_set__rotationRange(float_t value);
 
   /// @brief Method get_isMidRotationValid, addr 0x2376ea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMidRotationValid();
@@ -182,10 +186,10 @@ public:
   ::GlobalNamespace::__BeatLine__Pool* ____beatLinePool;
 
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _activeBeatLines, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::GlobalNamespace::BeatLine*>* ____activeBeatLines;
+  ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>* ____activeBeatLines;
 
   /// @brief Field _removeBeatLineKeyList, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ____removeBeatLineKeyList;

@@ -53,7 +53,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7369))
 // CS Name: ::VerticalVirtualizationController`1::<>c<T>*
 class CORDL_TYPE __VerticalVirtualizationController_1____c : public ::System::Object {
@@ -115,7 +115,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7371))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7371))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7370))
 // CS Name: ::UnityEngine.UIElements::VerticalVirtualizationController`1<T>*
 class CORDL_TYPE VerticalVirtualizationController_1 : public ::UnityEngine::UIElements::CollectionVirtualizationController {
@@ -124,32 +124,32 @@ public:
   using __c = ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>;
 
   /// @brief Field m_ListView, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ListView, put = __set_m_ListView))::UnityEngine::UIElements::BaseVerticalCollectionView* m_ListView;
+  __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView))::UnityEngine::UIElements::BaseVerticalCollectionView* m_ListView;
 
   /// @brief Field m_Pool, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Pool, put = __set_m_Pool))::UnityEngine::Pool::ObjectPool_1<T>* m_Pool;
+  __declspec(property(get = __cordl_internal_get_m_Pool, put = __cordl_internal_set_m_Pool))::UnityEngine::Pool::ObjectPool_1<T>* m_Pool;
 
   /// @brief Field m_ActiveItems, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ActiveItems, put = __set_m_ActiveItems))::System::Collections::Generic::List_1<T>* m_ActiveItems;
+  __declspec(property(get = __cordl_internal_get_m_ActiveItems, put = __cordl_internal_set_m_ActiveItems))::System::Collections::Generic::List_1<T>* m_ActiveItems;
 
   /// @brief Field m_LastFocusedElementIndex, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_LastFocusedElementIndex, put = __set_m_LastFocusedElementIndex)) int32_t m_LastFocusedElementIndex;
+  __declspec(property(get = __cordl_internal_get_m_LastFocusedElementIndex, put = __cordl_internal_set_m_LastFocusedElementIndex)) int32_t m_LastFocusedElementIndex;
 
   /// @brief Field m_LastFocusedElementTreeChildIndexes, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_LastFocusedElementTreeChildIndexes,
-                      put = __set_m_LastFocusedElementTreeChildIndexes))::System::Collections::Generic::List_1<int32_t>* m_LastFocusedElementTreeChildIndexes;
+  __declspec(property(get = __cordl_internal_get_m_LastFocusedElementTreeChildIndexes,
+                      put = __cordl_internal_set_m_LastFocusedElementTreeChildIndexes))::System::Collections::Generic::List_1<int32_t>* m_LastFocusedElementTreeChildIndexes;
 
   /// @brief Field m_FirstVisibleIndex, offset 0x40, size 0x4
-  __declspec(property(get = __get_m_FirstVisibleIndex, put = __set_m_FirstVisibleIndex)) int32_t m_FirstVisibleIndex;
+  __declspec(property(get = __cordl_internal_get_m_FirstVisibleIndex, put = __cordl_internal_set_m_FirstVisibleIndex)) int32_t m_FirstVisibleIndex;
 
   /// @brief Field m_VisibleItemPredicateDelegate, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_VisibleItemPredicateDelegate, put = __set_m_VisibleItemPredicateDelegate))::System::Func_2<T, bool>* m_VisibleItemPredicateDelegate;
+  __declspec(property(get = __cordl_internal_get_m_VisibleItemPredicateDelegate, put = __cordl_internal_set_m_VisibleItemPredicateDelegate))::System::Func_2<T, bool>* m_VisibleItemPredicateDelegate;
 
   /// @brief Field m_ScrollInsertionList, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_ScrollInsertionList, put = __set_m_ScrollInsertionList))::System::Collections::Generic::List_1<T>* m_ScrollInsertionList;
+  __declspec(property(get = __cordl_internal_get_m_ScrollInsertionList, put = __cordl_internal_set_m_ScrollInsertionList))::System::Collections::Generic::List_1<T>* m_ScrollInsertionList;
 
   /// @brief Field k_EmptyRows, offset 0x58, size 0x8
-  __declspec(property(get = __get_k_EmptyRows, put = __set_k_EmptyRows))::UnityEngine::UIElements::VisualElement* k_EmptyRows;
+  __declspec(property(get = __cordl_internal_get_k_EmptyRows, put = __cordl_internal_set_k_EmptyRows))::UnityEngine::UIElements::VisualElement* k_EmptyRows;
 
   __declspec(property(get = get_activeItems))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* activeItems;
 
@@ -163,59 +163,59 @@ public:
 
   __declspec(property(get = get_lastHeight)) float_t lastHeight;
 
-  constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __get_m_ListView();
+  constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __cordl_internal_get_m_ListView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const& __get_m_ListView() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const& __cordl_internal_get_m_ListView() const;
 
-  constexpr void __set_m_ListView(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
+  constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
 
-  constexpr ::UnityEngine::Pool::ObjectPool_1<T>*& __get_m_Pool();
+  constexpr ::UnityEngine::Pool::ObjectPool_1<T>*& __cordl_internal_get_m_Pool();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Pool::ObjectPool_1<T>*> const& __get_m_Pool() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Pool::ObjectPool_1<T>*> const& __cordl_internal_get_m_Pool() const;
 
-  constexpr void __set_m_Pool(::UnityEngine::Pool::ObjectPool_1<T>* value);
+  constexpr void __cordl_internal_set_m_Pool(::UnityEngine::Pool::ObjectPool_1<T>* value);
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get_m_ActiveItems();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_ActiveItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get_m_ActiveItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_m_ActiveItems() const;
 
-  constexpr void __set_m_ActiveItems(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set_m_ActiveItems(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr int32_t& __get_m_LastFocusedElementIndex();
+  constexpr int32_t& __cordl_internal_get_m_LastFocusedElementIndex();
 
-  constexpr int32_t const& __get_m_LastFocusedElementIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_LastFocusedElementIndex() const;
 
-  constexpr void __set_m_LastFocusedElementIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_LastFocusedElementIndex(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_LastFocusedElementTreeChildIndexes();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_LastFocusedElementTreeChildIndexes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_LastFocusedElementTreeChildIndexes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_LastFocusedElementTreeChildIndexes() const;
 
-  constexpr void __set_m_LastFocusedElementTreeChildIndexes(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_LastFocusedElementTreeChildIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr int32_t& __get_m_FirstVisibleIndex();
+  constexpr int32_t& __cordl_internal_get_m_FirstVisibleIndex();
 
-  constexpr int32_t const& __get_m_FirstVisibleIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_FirstVisibleIndex() const;
 
-  constexpr void __set_m_FirstVisibleIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_FirstVisibleIndex(int32_t value);
 
-  constexpr ::System::Func_2<T, bool>*& __get_m_VisibleItemPredicateDelegate();
+  constexpr ::System::Func_2<T, bool>*& __cordl_internal_get_m_VisibleItemPredicateDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T, bool>*> const& __get_m_VisibleItemPredicateDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T, bool>*> const& __cordl_internal_get_m_VisibleItemPredicateDelegate() const;
 
-  constexpr void __set_m_VisibleItemPredicateDelegate(::System::Func_2<T, bool>* value);
+  constexpr void __cordl_internal_set_m_VisibleItemPredicateDelegate(::System::Func_2<T, bool>* value);
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get_m_ScrollInsertionList();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_ScrollInsertionList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get_m_ScrollInsertionList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_m_ScrollInsertionList() const;
 
-  constexpr void __set_m_ScrollInsertionList(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set_m_ScrollInsertionList(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_k_EmptyRows();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_k_EmptyRows();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_k_EmptyRows() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_k_EmptyRows() const;
 
-  constexpr void __set_k_EmptyRows(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_k_EmptyRows(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* get_activeItems();

@@ -28,33 +28,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDista
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4717))
 // CS Name: ::BeatmapObjectSpawnCenter::PlayerCountToDistance*
 class CORDL_TYPE __BeatmapObjectSpawnCenter__PlayerCountToDistance : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _playerCount, offset 0x10, size 0x4
-  __declspec(property(get = __get__playerCount, put = __set__playerCount)) int32_t _playerCount;
+  __declspec(property(get = __cordl_internal_get__playerCount, put = __cordl_internal_set__playerCount)) int32_t _playerCount;
 
   /// @brief Field _distance, offset 0x14, size 0x4
-  __declspec(property(get = __get__distance, put = __set__distance)) float_t _distance;
+  __declspec(property(get = __cordl_internal_get__distance, put = __cordl_internal_set__distance)) float_t _distance;
 
   __declspec(property(get = get_playerCount)) int32_t playerCount;
 
   __declspec(property(get = get_distance)) float_t distance;
 
-  constexpr int32_t& __get__playerCount();
+  constexpr int32_t& __cordl_internal_get__playerCount();
 
-  constexpr int32_t const& __get__playerCount() const;
+  constexpr int32_t const& __cordl_internal_get__playerCount() const;
 
-  constexpr void __set__playerCount(int32_t value);
+  constexpr void __cordl_internal_set__playerCount(int32_t value);
 
-  constexpr float_t& __get__distance();
+  constexpr float_t& __cordl_internal_get__distance();
 
-  constexpr float_t const& __get__distance() const;
+  constexpr float_t const& __cordl_internal_get__distance() const;
 
-  constexpr void __set__distance(float_t value);
+  constexpr void __cordl_internal_set__distance(float_t value);
 
   /// @brief Method get_playerCount, addr 0x237f8e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playerCount();
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCoun
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4718))
 // CS Name: ::BeatmapObjectSpawnCenter*
 class CORDL_TYPE BeatmapObjectSpawnCenter : public ::UnityEngine::MonoBehaviour {
@@ -110,56 +110,59 @@ public:
   using PlayerCountToDistance = ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance;
 
   /// @brief Field _distances, offset 0x18, size 0x8
-  __declspec(property(get = __get__distances, put = __set__distances))::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*,
-                                                                               ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> _distances;
+  __declspec(property(get = __cordl_internal_get__distances,
+                      put = __cordl_internal_set__distances))::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*,
+                                                                      ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> _distances;
 
   /// @brief Field _defaultDistnace, offset 0x20, size 0x4
-  __declspec(property(get = __get__defaultDistnace, put = __set__defaultDistnace)) float_t _defaultDistnace;
+  __declspec(property(get = __cordl_internal_get__defaultDistnace, put = __cordl_internal_set__defaultDistnace)) float_t _defaultDistnace;
 
   /// @brief Field spawnCenterDistanceWasFoundEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_spawnCenterDistanceWasFoundEvent, put = __set_spawnCenterDistanceWasFoundEvent))::System::Action_1<float_t>* spawnCenterDistanceWasFoundEvent;
+  __declspec(property(get = __cordl_internal_get_spawnCenterDistanceWasFoundEvent,
+                      put = __cordl_internal_set_spawnCenterDistanceWasFoundEvent))::System::Action_1<float_t>* spawnCenterDistanceWasFoundEvent;
 
   /// @brief Field _spawnCenterDistanceWasFound, offset 0x30, size 0x1
-  __declspec(property(get = __get__spawnCenterDistanceWasFound, put = __set__spawnCenterDistanceWasFound)) bool _spawnCenterDistanceWasFound;
+  __declspec(property(get = __cordl_internal_get__spawnCenterDistanceWasFound, put = __cordl_internal_set__spawnCenterDistanceWasFound)) bool _spawnCenterDistanceWasFound;
 
   /// @brief Field _spawnCenterDistance, offset 0x34, size 0x4
-  __declspec(property(get = __get__spawnCenterDistance, put = __set__spawnCenterDistance)) float_t _spawnCenterDistance;
+  __declspec(property(get = __cordl_internal_get__spawnCenterDistance, put = __cordl_internal_set__spawnCenterDistance)) float_t _spawnCenterDistance;
 
   __declspec(property(get = get_spawnCenterDistance)) float_t spawnCenterDistance;
 
   __declspec(property(get = get_spawnCenterDistanceWasFound)) bool spawnCenterDistanceWasFound;
 
-  constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*>& __get__distances();
+  constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*>&
+  __cordl_internal_get__distances();
 
   constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> const&
-  __get__distances() const;
+  __cordl_internal_get__distances() const;
 
-  constexpr void
-  __set__distances(::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> value);
+  constexpr void __cordl_internal_set__distances(
+      ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> value);
 
-  constexpr float_t& __get__defaultDistnace();
+  constexpr float_t& __cordl_internal_get__defaultDistnace();
 
-  constexpr float_t const& __get__defaultDistnace() const;
+  constexpr float_t const& __cordl_internal_get__defaultDistnace() const;
 
-  constexpr void __set__defaultDistnace(float_t value);
+  constexpr void __cordl_internal_set__defaultDistnace(float_t value);
 
-  constexpr ::System::Action_1<float_t>*& __get_spawnCenterDistanceWasFoundEvent();
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_spawnCenterDistanceWasFoundEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_spawnCenterDistanceWasFoundEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_spawnCenterDistanceWasFoundEvent() const;
 
-  constexpr void __set_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  constexpr bool& __get__spawnCenterDistanceWasFound();
+  constexpr bool& __cordl_internal_get__spawnCenterDistanceWasFound();
 
-  constexpr bool const& __get__spawnCenterDistanceWasFound() const;
+  constexpr bool const& __cordl_internal_get__spawnCenterDistanceWasFound() const;
 
-  constexpr void __set__spawnCenterDistanceWasFound(bool value);
+  constexpr void __cordl_internal_set__spawnCenterDistanceWasFound(bool value);
 
-  constexpr float_t& __get__spawnCenterDistance();
+  constexpr float_t& __cordl_internal_get__spawnCenterDistance();
 
-  constexpr float_t const& __get__spawnCenterDistance() const;
+  constexpr float_t const& __cordl_internal_get__spawnCenterDistance() const;
 
-  constexpr void __set__spawnCenterDistance(float_t value);
+  constexpr void __cordl_internal_set__spawnCenterDistance(float_t value);
 
   /// @brief Method get_spawnCenterDistance, addr 0x237f694, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spawnCenterDistance();

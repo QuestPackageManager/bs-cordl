@@ -22,38 +22,38 @@ MARK_REF_PTR_T(::System::Globalization::IdnMapping);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3723))
 // CS Name: ::System.Globalization::IdnMapping*
 class CORDL_TYPE IdnMapping : public ::System::Object {
 public:
   // Declarations
   /// @brief Field allow_unassigned, offset 0x10, size 0x1
-  __declspec(property(get = __get_allow_unassigned, put = __set_allow_unassigned)) bool allow_unassigned;
+  __declspec(property(get = __cordl_internal_get_allow_unassigned, put = __cordl_internal_set_allow_unassigned)) bool allow_unassigned;
 
   /// @brief Field use_std3, offset 0x11, size 0x1
-  __declspec(property(get = __get_use_std3, put = __set_use_std3)) bool use_std3;
+  __declspec(property(get = __cordl_internal_get_use_std3, put = __cordl_internal_set_use_std3)) bool use_std3;
 
   /// @brief Field puny, offset 0x18, size 0x8
-  __declspec(property(get = __get_puny, put = __set_puny))::System::Globalization::Punycode* puny;
+  __declspec(property(get = __cordl_internal_get_puny, put = __cordl_internal_set_puny))::System::Globalization::Punycode* puny;
 
-  constexpr bool& __get_allow_unassigned();
+  constexpr bool& __cordl_internal_get_allow_unassigned();
 
-  constexpr bool const& __get_allow_unassigned() const;
+  constexpr bool const& __cordl_internal_get_allow_unassigned() const;
 
-  constexpr void __set_allow_unassigned(bool value);
+  constexpr void __cordl_internal_set_allow_unassigned(bool value);
 
-  constexpr bool& __get_use_std3();
+  constexpr bool& __cordl_internal_get_use_std3();
 
-  constexpr bool const& __get_use_std3() const;
+  constexpr bool const& __cordl_internal_get_use_std3() const;
 
-  constexpr void __set_use_std3(bool value);
+  constexpr void __cordl_internal_set_use_std3(bool value);
 
-  constexpr ::System::Globalization::Punycode*& __get_puny();
+  constexpr ::System::Globalization::Punycode*& __cordl_internal_get_puny();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Punycode*> const& __get_puny() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Punycode*> const& __cordl_internal_get_puny() const;
 
-  constexpr void __set_puny(::System::Globalization::Punycode* value);
+  constexpr void __cordl_internal_set_puny(::System::Globalization::Punycode* value);
 
   static inline ::System::Globalization::IdnMapping* New_ctor();
 

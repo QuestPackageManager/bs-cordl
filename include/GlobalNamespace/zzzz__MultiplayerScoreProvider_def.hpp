@@ -69,19 +69,19 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerScoreProvider____c__DisplayClass1
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5248))
 // CS Name: ::MultiplayerScoreProvider::RankedPlayer*
 class CORDL_TYPE __MultiplayerScoreProvider__RankedPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _multiplayerSyncState, offset 0x10, size 0x8
-  __declspec(property(get = __get__multiplayerSyncState,
-                      put = __set__multiplayerSyncState))::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score,
-                                                                                                   int32_t>* _multiplayerSyncState;
+  __declspec(property(get = __cordl_internal_get__multiplayerSyncState,
+                      put = __cordl_internal_set__multiplayerSyncState))::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState,
+                                                                                                                  ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>* _multiplayerSyncState;
 
   /// @brief Field _scoreSyncManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreSyncManager, put = __set__scoreSyncManager))::GlobalNamespace::MultiplayerScoreProvider* _scoreSyncManager;
+  __declspec(property(get = __cordl_internal_get__scoreSyncManager, put = __cordl_internal_set__scoreSyncManager))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreSyncManager;
 
   __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
 
@@ -109,19 +109,21 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* i___System__IComparable_1___GlobalNamespace____MultiplayerScoreProvider__RankedPlayer__() noexcept;
 
-  constexpr ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>*& __get__multiplayerSyncState();
+  constexpr ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>*&
+  __cordl_internal_get__multiplayerSyncState();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>*> const&
-  __get__multiplayerSyncState() const;
+  __cordl_internal_get__multiplayerSyncState() const;
 
-  constexpr void __set__multiplayerSyncState(::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>* value);
+  constexpr void
+  __cordl_internal_set__multiplayerSyncState(::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>* value);
 
-  constexpr ::GlobalNamespace::MultiplayerScoreProvider*& __get__scoreSyncManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreSyncManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreProvider*> const& __get__scoreSyncManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreSyncManager() const;
 
-  constexpr void __set__scoreSyncManager(::GlobalNamespace::MultiplayerScoreProvider* value);
+  constexpr void __cordl_internal_set__scoreSyncManager(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
   /// @brief Method get_offsetSyncTime, addr 0x225968c, size 0xb8, virtual false, abstract: false, final false
   inline int64_t get_offsetSyncTime();
@@ -182,7 +184,7 @@ public:
   ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>* ____multiplayerSyncState;
 
   /// @brief Field _scoreSyncManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreProvider* ____scoreSyncManager;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreSyncManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -198,7 +200,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlay
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5249))
 // CS Name: ::MultiplayerScoreProvider::<>c*
 class CORDL_TYPE __MultiplayerScoreProvider____c : public ::System::Object {
@@ -250,20 +252,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5250))
 // CS Name: ::MultiplayerScoreProvider::<>c__DisplayClass18_0*
 class CORDL_TYPE __MultiplayerScoreProvider____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field userId, offset 0x10, size 0x8
-  __declspec(property(get = __get_userId, put = __set_userId))::StringW userId;
+  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
 
-  constexpr ::StringW& __get_userId();
+  constexpr ::StringW& __cordl_internal_get_userId();
 
-  constexpr ::StringW const& __get_userId() const;
+  constexpr ::StringW const& __cordl_internal_get_userId() const;
 
-  constexpr void __set_userId(::StringW value);
+  constexpr void __cordl_internal_set_userId(::StringW value);
 
   static inline ::GlobalNamespace::__MultiplayerScoreProvider____c__DisplayClass18_0* New_ctor();
 
@@ -302,7 +304,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreProvider____c__Displ
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5251))
 // CS Name: ::MultiplayerScoreProvider*
 class CORDL_TYPE MultiplayerScoreProvider : public ::UnityEngine::MonoBehaviour {
@@ -315,23 +317,26 @@ public:
   using RankedPlayer = ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer;
 
   /// @brief Field _scoreSyncStateManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreSyncStateManager, put = __set__scoreSyncStateManager))::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
+  __declspec(property(get = __cordl_internal_get__scoreSyncStateManager, put = __cordl_internal_set__scoreSyncStateManager))::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
 
   /// @brief Field <firstPlayer>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__firstPlayer_k__BackingField, put = __set__firstPlayer_k__BackingField))::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* _firstPlayer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__firstPlayer_k__BackingField,
+                      put = __cordl_internal_set__firstPlayer_k__BackingField))::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* _firstPlayer_k__BackingField;
 
   /// @brief Field firstPlayerDidChangeEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_firstPlayerDidChangeEvent,
-                      put = __set_firstPlayerDidChangeEvent))::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* firstPlayerDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_firstPlayerDidChangeEvent,
+                      put = __cordl_internal_set_firstPlayerDidChangeEvent))::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* firstPlayerDidChangeEvent;
 
   /// @brief Field _sharedOffsetSyncTime, offset 0x30, size 0x8
-  __declspec(property(get = __get__sharedOffsetSyncTime, put = __set__sharedOffsetSyncTime)) int64_t _sharedOffsetSyncTime;
+  __declspec(property(get = __cordl_internal_get__sharedOffsetSyncTime, put = __cordl_internal_set__sharedOffsetSyncTime)) int64_t _sharedOffsetSyncTime;
 
   /// @brief Field _rankedPlayers, offset 0x38, size 0x8
-  __declspec(property(get = __get__rankedPlayers, put = __set__rankedPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* _rankedPlayers;
+  __declspec(property(get = __cordl_internal_get__rankedPlayers,
+                      put = __cordl_internal_set__rankedPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* _rankedPlayers;
 
   /// @brief Field _players, offset 0x40, size 0x8
-  __declspec(property(get = __get__players, put = __set__players))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* _players;
+  __declspec(property(get = __cordl_internal_get__players,
+                      put = __cordl_internal_set__players))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* _players;
 
   __declspec(property(get = get_scoresAvailable)) bool scoresAvailable;
 
@@ -339,41 +344,43 @@ public:
 
   __declspec(property(get = get_rankedPlayers))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* rankedPlayers;
 
-  constexpr ::GlobalNamespace::IScoreSyncStateManager*& __get__scoreSyncStateManager();
+  constexpr ::GlobalNamespace::IScoreSyncStateManager*& __cordl_internal_get__scoreSyncStateManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreSyncStateManager*> const& __get__scoreSyncStateManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreSyncStateManager*> const& __cordl_internal_get__scoreSyncStateManager() const;
 
-  constexpr void __set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
+  constexpr void __cordl_internal_set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
 
-  constexpr ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*& __get__firstPlayer_k__BackingField();
+  constexpr ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*& __cordl_internal_get__firstPlayer_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*> const& __get__firstPlayer_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*> const& __cordl_internal_get__firstPlayer_k__BackingField() const;
 
-  constexpr void __set__firstPlayer_k__BackingField(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
+  constexpr void __cordl_internal_set__firstPlayer_k__BackingField(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*& __get_firstPlayerDidChangeEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*& __cordl_internal_get_firstPlayerDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*> const& __get_firstPlayerDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*> const& __cordl_internal_get_firstPlayerDidChangeEvent() const;
 
-  constexpr void __set_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
+  constexpr void __cordl_internal_set_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
 
-  constexpr int64_t& __get__sharedOffsetSyncTime();
+  constexpr int64_t& __cordl_internal_get__sharedOffsetSyncTime();
 
-  constexpr int64_t const& __get__sharedOffsetSyncTime() const;
+  constexpr int64_t const& __cordl_internal_get__sharedOffsetSyncTime() const;
 
-  constexpr void __set__sharedOffsetSyncTime(int64_t value);
+  constexpr void __cordl_internal_set__sharedOffsetSyncTime(int64_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*& __get__rankedPlayers();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*& __cordl_internal_get__rankedPlayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*> const& __get__rankedPlayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*> const&
+  __cordl_internal_get__rankedPlayers() const;
 
-  constexpr void __set__rankedPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
+  constexpr void __cordl_internal_set__rankedPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*& __get__players();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*& __cordl_internal_get__players();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*> const& __get__players() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*> const&
+  __cordl_internal_get__players() const;
 
-  constexpr void __set__players(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
+  constexpr void __cordl_internal_set__players(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
 
   /// @brief Method get_scoresAvailable, addr 0x2257870, size 0x20, virtual false, abstract: false, final false
   inline bool get_scoresAvailable();

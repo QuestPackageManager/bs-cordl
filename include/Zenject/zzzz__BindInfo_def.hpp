@@ -43,64 +43,65 @@ MARK_REF_PTR_T(::Zenject::BindInfo);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10944)), TypeDefinitionIndex(TypeDefinitionIndex(10942)), TypeDefinitionIndex(TypeDefinitionIndex(10945)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10943))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10946)) CS Name: ::Zenject::BindInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10942)), TypeDefinitionIndex(TypeDefinitionIndex(10943)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10944)), TypeDefinitionIndex(TypeDefinitionIndex(10945))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10946)) CS Name: ::Zenject::BindInfo*
 class CORDL_TYPE BindInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field MarkAsCreationBinding, offset 0x10, size 0x1
-  __declspec(property(get = __get_MarkAsCreationBinding, put = __set_MarkAsCreationBinding)) bool MarkAsCreationBinding;
+  __declspec(property(get = __cordl_internal_get_MarkAsCreationBinding, put = __cordl_internal_set_MarkAsCreationBinding)) bool MarkAsCreationBinding;
 
   /// @brief Field MarkAsUniqueSingleton, offset 0x11, size 0x1
-  __declspec(property(get = __get_MarkAsUniqueSingleton, put = __set_MarkAsUniqueSingleton)) bool MarkAsUniqueSingleton;
+  __declspec(property(get = __cordl_internal_get_MarkAsUniqueSingleton, put = __cordl_internal_set_MarkAsUniqueSingleton)) bool MarkAsUniqueSingleton;
 
   /// @brief Field ConcreteIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_ConcreteIdentifier, put = __set_ConcreteIdentifier))::System::Object* ConcreteIdentifier;
+  __declspec(property(get = __cordl_internal_get_ConcreteIdentifier, put = __cordl_internal_set_ConcreteIdentifier))::System::Object* ConcreteIdentifier;
 
   /// @brief Field SaveProvider, offset 0x20, size 0x1
-  __declspec(property(get = __get_SaveProvider, put = __set_SaveProvider)) bool SaveProvider;
+  __declspec(property(get = __cordl_internal_get_SaveProvider, put = __cordl_internal_set_SaveProvider)) bool SaveProvider;
 
   /// @brief Field OnlyBindIfNotBound, offset 0x21, size 0x1
-  __declspec(property(get = __get_OnlyBindIfNotBound, put = __set_OnlyBindIfNotBound)) bool OnlyBindIfNotBound;
+  __declspec(property(get = __cordl_internal_get_OnlyBindIfNotBound, put = __cordl_internal_set_OnlyBindIfNotBound)) bool OnlyBindIfNotBound;
 
   /// @brief Field RequireExplicitScope, offset 0x22, size 0x1
-  __declspec(property(get = __get_RequireExplicitScope, put = __set_RequireExplicitScope)) bool RequireExplicitScope;
+  __declspec(property(get = __cordl_internal_get_RequireExplicitScope, put = __cordl_internal_set_RequireExplicitScope)) bool RequireExplicitScope;
 
   /// @brief Field Identifier, offset 0x28, size 0x8
-  __declspec(property(get = __get_Identifier, put = __set_Identifier))::System::Object* Identifier;
+  __declspec(property(get = __cordl_internal_get_Identifier, put = __cordl_internal_set_Identifier))::System::Object* Identifier;
 
   /// @brief Field ContractTypes, offset 0x30, size 0x8
-  __declspec(property(get = __get_ContractTypes, put = __set_ContractTypes))::System::Collections::Generic::List_1<::System::Type*>* ContractTypes;
+  __declspec(property(get = __cordl_internal_get_ContractTypes, put = __cordl_internal_set_ContractTypes))::System::Collections::Generic::List_1<::System::Type*>* ContractTypes;
 
   /// @brief Field BindingInheritanceMethod, offset 0x38, size 0x4
-  __declspec(property(get = __get_BindingInheritanceMethod, put = __set_BindingInheritanceMethod))::Zenject::BindingInheritanceMethods BindingInheritanceMethod;
+  __declspec(property(get = __cordl_internal_get_BindingInheritanceMethod, put = __cordl_internal_set_BindingInheritanceMethod))::Zenject::BindingInheritanceMethods BindingInheritanceMethod;
 
   /// @brief Field InvalidBindResponse, offset 0x3c, size 0x4
-  __declspec(property(get = __get_InvalidBindResponse, put = __set_InvalidBindResponse))::Zenject::InvalidBindResponses InvalidBindResponse;
+  __declspec(property(get = __cordl_internal_get_InvalidBindResponse, put = __cordl_internal_set_InvalidBindResponse))::Zenject::InvalidBindResponses InvalidBindResponse;
 
   /// @brief Field NonLazy, offset 0x40, size 0x1
-  __declspec(property(get = __get_NonLazy, put = __set_NonLazy)) bool NonLazy;
+  __declspec(property(get = __cordl_internal_get_NonLazy, put = __cordl_internal_set_NonLazy)) bool NonLazy;
 
   /// @brief Field Condition, offset 0x48, size 0x8
-  __declspec(property(get = __get_Condition, put = __set_Condition))::Zenject::BindingCondition* Condition;
+  __declspec(property(get = __cordl_internal_get_Condition, put = __cordl_internal_set_Condition))::Zenject::BindingCondition* Condition;
 
   /// @brief Field ToChoice, offset 0x50, size 0x4
-  __declspec(property(get = __get_ToChoice, put = __set_ToChoice))::Zenject::ToChoices ToChoice;
+  __declspec(property(get = __cordl_internal_get_ToChoice, put = __cordl_internal_set_ToChoice))::Zenject::ToChoices ToChoice;
 
   /// @brief Field ContextInfo, offset 0x58, size 0x8
-  __declspec(property(get = __get_ContextInfo, put = __set_ContextInfo))::StringW ContextInfo;
+  __declspec(property(get = __cordl_internal_get_ContextInfo, put = __cordl_internal_set_ContextInfo))::StringW ContextInfo;
 
   /// @brief Field ToTypes, offset 0x60, size 0x8
-  __declspec(property(get = __get_ToTypes, put = __set_ToTypes))::System::Collections::Generic::List_1<::System::Type*>* ToTypes;
+  __declspec(property(get = __cordl_internal_get_ToTypes, put = __cordl_internal_set_ToTypes))::System::Collections::Generic::List_1<::System::Type*>* ToTypes;
 
   /// @brief Field Scope, offset 0x68, size 0x4
-  __declspec(property(get = __get_Scope, put = __set_Scope))::Zenject::ScopeTypes Scope;
+  __declspec(property(get = __cordl_internal_get_Scope, put = __cordl_internal_set_Scope))::Zenject::ScopeTypes Scope;
 
   /// @brief Field Arguments, offset 0x70, size 0x8
-  __declspec(property(get = __get_Arguments, put = __set_Arguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Arguments;
+  __declspec(property(get = __cordl_internal_get_Arguments, put = __cordl_internal_set_Arguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Arguments;
 
   /// @brief Field InstantiatedCallback, offset 0x78, size 0x8
-  __declspec(property(get = __get_InstantiatedCallback, put = __set_InstantiatedCallback))::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* InstantiatedCallback;
+  __declspec(property(get = __cordl_internal_get_InstantiatedCallback,
+                      put = __cordl_internal_set_InstantiatedCallback))::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* InstantiatedCallback;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -108,113 +109,113 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_MarkAsCreationBinding();
+  constexpr bool& __cordl_internal_get_MarkAsCreationBinding();
 
-  constexpr bool const& __get_MarkAsCreationBinding() const;
+  constexpr bool const& __cordl_internal_get_MarkAsCreationBinding() const;
 
-  constexpr void __set_MarkAsCreationBinding(bool value);
+  constexpr void __cordl_internal_set_MarkAsCreationBinding(bool value);
 
-  constexpr bool& __get_MarkAsUniqueSingleton();
+  constexpr bool& __cordl_internal_get_MarkAsUniqueSingleton();
 
-  constexpr bool const& __get_MarkAsUniqueSingleton() const;
+  constexpr bool const& __cordl_internal_get_MarkAsUniqueSingleton() const;
 
-  constexpr void __set_MarkAsUniqueSingleton(bool value);
+  constexpr void __cordl_internal_set_MarkAsUniqueSingleton(bool value);
 
-  constexpr ::System::Object*& __get_ConcreteIdentifier();
+  constexpr ::System::Object*& __cordl_internal_get_ConcreteIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_ConcreteIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_ConcreteIdentifier() const;
 
-  constexpr void __set_ConcreteIdentifier(::System::Object* value);
+  constexpr void __cordl_internal_set_ConcreteIdentifier(::System::Object* value);
 
-  constexpr bool& __get_SaveProvider();
+  constexpr bool& __cordl_internal_get_SaveProvider();
 
-  constexpr bool const& __get_SaveProvider() const;
+  constexpr bool const& __cordl_internal_get_SaveProvider() const;
 
-  constexpr void __set_SaveProvider(bool value);
+  constexpr void __cordl_internal_set_SaveProvider(bool value);
 
-  constexpr bool& __get_OnlyBindIfNotBound();
+  constexpr bool& __cordl_internal_get_OnlyBindIfNotBound();
 
-  constexpr bool const& __get_OnlyBindIfNotBound() const;
+  constexpr bool const& __cordl_internal_get_OnlyBindIfNotBound() const;
 
-  constexpr void __set_OnlyBindIfNotBound(bool value);
+  constexpr void __cordl_internal_set_OnlyBindIfNotBound(bool value);
 
-  constexpr bool& __get_RequireExplicitScope();
+  constexpr bool& __cordl_internal_get_RequireExplicitScope();
 
-  constexpr bool const& __get_RequireExplicitScope() const;
+  constexpr bool const& __cordl_internal_get_RequireExplicitScope() const;
 
-  constexpr void __set_RequireExplicitScope(bool value);
+  constexpr void __cordl_internal_set_RequireExplicitScope(bool value);
 
-  constexpr ::System::Object*& __get_Identifier();
+  constexpr ::System::Object*& __cordl_internal_get_Identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_Identifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Identifier() const;
 
-  constexpr void __set_Identifier(::System::Object* value);
+  constexpr void __cordl_internal_set_Identifier(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __get_ContractTypes();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_ContractTypes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __get_ContractTypes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_ContractTypes() const;
 
-  constexpr void __set_ContractTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set_ContractTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  constexpr ::Zenject::BindingInheritanceMethods& __get_BindingInheritanceMethod();
+  constexpr ::Zenject::BindingInheritanceMethods& __cordl_internal_get_BindingInheritanceMethod();
 
-  constexpr ::Zenject::BindingInheritanceMethods const& __get_BindingInheritanceMethod() const;
+  constexpr ::Zenject::BindingInheritanceMethods const& __cordl_internal_get_BindingInheritanceMethod() const;
 
-  constexpr void __set_BindingInheritanceMethod(::Zenject::BindingInheritanceMethods value);
+  constexpr void __cordl_internal_set_BindingInheritanceMethod(::Zenject::BindingInheritanceMethods value);
 
-  constexpr ::Zenject::InvalidBindResponses& __get_InvalidBindResponse();
+  constexpr ::Zenject::InvalidBindResponses& __cordl_internal_get_InvalidBindResponse();
 
-  constexpr ::Zenject::InvalidBindResponses const& __get_InvalidBindResponse() const;
+  constexpr ::Zenject::InvalidBindResponses const& __cordl_internal_get_InvalidBindResponse() const;
 
-  constexpr void __set_InvalidBindResponse(::Zenject::InvalidBindResponses value);
+  constexpr void __cordl_internal_set_InvalidBindResponse(::Zenject::InvalidBindResponses value);
 
-  constexpr bool& __get_NonLazy();
+  constexpr bool& __cordl_internal_get_NonLazy();
 
-  constexpr bool const& __get_NonLazy() const;
+  constexpr bool const& __cordl_internal_get_NonLazy() const;
 
-  constexpr void __set_NonLazy(bool value);
+  constexpr void __cordl_internal_set_NonLazy(bool value);
 
-  constexpr ::Zenject::BindingCondition*& __get_Condition();
+  constexpr ::Zenject::BindingCondition*& __cordl_internal_get_Condition();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindingCondition*> const& __get_Condition() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindingCondition*> const& __cordl_internal_get_Condition() const;
 
-  constexpr void __set_Condition(::Zenject::BindingCondition* value);
+  constexpr void __cordl_internal_set_Condition(::Zenject::BindingCondition* value);
 
-  constexpr ::Zenject::ToChoices& __get_ToChoice();
+  constexpr ::Zenject::ToChoices& __cordl_internal_get_ToChoice();
 
-  constexpr ::Zenject::ToChoices const& __get_ToChoice() const;
+  constexpr ::Zenject::ToChoices const& __cordl_internal_get_ToChoice() const;
 
-  constexpr void __set_ToChoice(::Zenject::ToChoices value);
+  constexpr void __cordl_internal_set_ToChoice(::Zenject::ToChoices value);
 
-  constexpr ::StringW& __get_ContextInfo();
+  constexpr ::StringW& __cordl_internal_get_ContextInfo();
 
-  constexpr ::StringW const& __get_ContextInfo() const;
+  constexpr ::StringW const& __cordl_internal_get_ContextInfo() const;
 
-  constexpr void __set_ContextInfo(::StringW value);
+  constexpr void __cordl_internal_set_ContextInfo(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __get_ToTypes();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_ToTypes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __get_ToTypes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_ToTypes() const;
 
-  constexpr void __set_ToTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set_ToTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  constexpr ::Zenject::ScopeTypes& __get_Scope();
+  constexpr ::Zenject::ScopeTypes& __cordl_internal_get_Scope();
 
-  constexpr ::Zenject::ScopeTypes const& __get_Scope() const;
+  constexpr ::Zenject::ScopeTypes const& __cordl_internal_get_Scope() const;
 
-  constexpr void __set_Scope(::Zenject::ScopeTypes value);
+  constexpr void __cordl_internal_set_Scope(::Zenject::ScopeTypes value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __get_Arguments();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_Arguments();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __get_Arguments() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_Arguments() const;
 
-  constexpr void __set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  constexpr void __cordl_internal_set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
-  constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*& __get_InstantiatedCallback();
+  constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*& __cordl_internal_get_InstantiatedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*> const& __get_InstantiatedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*> const& __cordl_internal_get_InstantiatedCallback() const;
 
-  constexpr void __set_InstantiatedCallback(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_InstantiatedCallback(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* value);
 
   static inline ::Zenject::BindInfo* New_ctor();
 

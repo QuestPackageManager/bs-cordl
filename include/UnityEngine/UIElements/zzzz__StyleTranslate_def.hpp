@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleTranslate);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7302))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7302))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7291))
 // CS Name: ::UnityEngine.UIElements::StyleTranslate
 struct CORDL_TYPE StyleTranslate {

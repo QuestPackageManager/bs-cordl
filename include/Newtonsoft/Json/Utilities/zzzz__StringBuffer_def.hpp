@@ -20,7 +20,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::StringBuffer);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11890))
 // CS Name: ::Newtonsoft.Json.Utilities::StringBuffer
 struct CORDL_TYPE StringBuffer {

@@ -15,7 +15,7 @@ MARK_VAL_T(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13766))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmAuthLevel
 struct CORDL_TYPE NtlmAuthLevel {

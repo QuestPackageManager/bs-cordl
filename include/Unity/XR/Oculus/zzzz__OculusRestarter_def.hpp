@@ -50,23 +50,23 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15143))
 // CS Name: ::OculusRestarter::<PauseAndRestartCoroutine>d__22*
 class CORDL_TYPE __OculusRestarter___PauseAndRestartCoroutine_d__22 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field pauseTimeInSeconds, offset 0x20, size 0x4
-  __declspec(property(get = __get_pauseTimeInSeconds, put = __set_pauseTimeInSeconds)) float_t pauseTimeInSeconds;
+  __declspec(property(get = __cordl_internal_get_pauseTimeInSeconds, put = __cordl_internal_set_pauseTimeInSeconds)) float_t pauseTimeInSeconds;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Unity::XR::Oculus::OculusRestarter* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::Unity::XR::Oculus::OculusRestarter> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -90,29 +90,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_pauseTimeInSeconds();
+  constexpr float_t& __cordl_internal_get_pauseTimeInSeconds();
 
-  constexpr float_t const& __get_pauseTimeInSeconds() const;
+  constexpr float_t const& __cordl_internal_get_pauseTimeInSeconds() const;
 
-  constexpr void __set_pauseTimeInSeconds(float_t value);
+  constexpr void __cordl_internal_set_pauseTimeInSeconds(float_t value);
 
-  constexpr ::Unity::XR::Oculus::OculusRestarter*& __get___4__this();
+  constexpr ::UnityW<::Unity::XR::Oculus::OculusRestarter>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Unity::XR::Oculus::OculusRestarter*> const& __get___4__this() const;
+  constexpr ::UnityW<::Unity::XR::Oculus::OculusRestarter> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Unity::XR::Oculus::OculusRestarter* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::Unity::XR::Oculus::OculusRestarter> value);
 
   static inline ::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22* New_ctor(int32_t __1__state);
 
@@ -161,7 +161,7 @@ public:
   float_t ___pauseTimeInSeconds;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::Unity::XR::Oculus::OculusRestarter* _____4__this;
+  ::UnityW<::Unity::XR::Oculus::OculusRestarter> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -181,23 +181,23 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15144))
 // CS Name: ::OculusRestarter::<RestartCoroutine>d__23*
 class CORDL_TYPE __OculusRestarter___RestartCoroutine_d__23 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Unity::XR::Oculus::OculusRestarter* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::Unity::XR::Oculus::OculusRestarter> __4__this;
 
   /// @brief Field shouldRestart, offset 0x28, size 0x1
-  __declspec(property(get = __get_shouldRestart, put = __set_shouldRestart)) bool shouldRestart;
+  __declspec(property(get = __cordl_internal_get_shouldRestart, put = __cordl_internal_set_shouldRestart)) bool shouldRestart;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -221,29 +221,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::Unity::XR::Oculus::OculusRestarter*& __get___4__this();
+  constexpr ::UnityW<::Unity::XR::Oculus::OculusRestarter>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Unity::XR::Oculus::OculusRestarter*> const& __get___4__this() const;
+  constexpr ::UnityW<::Unity::XR::Oculus::OculusRestarter> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Unity::XR::Oculus::OculusRestarter* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::Unity::XR::Oculus::OculusRestarter> value);
 
-  constexpr bool& __get_shouldRestart();
+  constexpr bool& __cordl_internal_get_shouldRestart();
 
-  constexpr bool const& __get_shouldRestart() const;
+  constexpr bool const& __cordl_internal_get_shouldRestart() const;
 
-  constexpr void __set_shouldRestart(bool value);
+  constexpr void __cordl_internal_set_shouldRestart(bool value);
 
   static inline ::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23* New_ctor(int32_t __1__state);
 
@@ -289,7 +289,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::Unity::XR::Oculus::OculusRestarter* _____4__this;
+  ::UnityW<::Unity::XR::Oculus::OculusRestarter> _____4__this;
 
   /// @brief Field shouldRestart, offset: 0x28, size: 0x1, def value: None
   bool ___shouldRestart;
@@ -312,7 +312,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15145))
 // CS Name: ::Unity.XR.Oculus::OculusRestarter*
 class CORDL_TYPE OculusRestarter : public ::UnityEngine::MonoBehaviour {
@@ -323,28 +323,28 @@ public:
   using _PauseAndRestartCoroutine_d__22 = ::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22;
 
   /// @brief Field onAfterRestart, offset 0x18, size 0x8
-  __declspec(property(get = __get_onAfterRestart, put = __set_onAfterRestart))::System::Action* onAfterRestart;
+  __declspec(property(get = __cordl_internal_get_onAfterRestart, put = __cordl_internal_set_onAfterRestart))::System::Action* onAfterRestart;
 
   /// @brief Field onAfterShutdown, offset 0x20, size 0x8
-  __declspec(property(get = __get_onAfterShutdown, put = __set_onAfterShutdown))::System::Action* onAfterShutdown;
+  __declspec(property(get = __cordl_internal_get_onAfterShutdown, put = __cordl_internal_set_onAfterShutdown))::System::Action* onAfterShutdown;
 
   /// @brief Field onQuit, offset 0x28, size 0x8
-  __declspec(property(get = __get_onQuit, put = __set_onQuit))::System::Action* onQuit;
+  __declspec(property(get = __cordl_internal_get_onQuit, put = __cordl_internal_set_onQuit))::System::Action* onQuit;
 
   /// @brief Field onAfterCoroutine, offset 0x30, size 0x8
-  __declspec(property(get = __get_onAfterCoroutine, put = __set_onAfterCoroutine))::System::Action* onAfterCoroutine;
+  __declspec(property(get = __cordl_internal_get_onAfterCoroutine, put = __cordl_internal_set_onAfterCoroutine))::System::Action* onAfterCoroutine;
 
   /// @brief Field m_Coroutine, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Coroutine, put = __set_m_Coroutine))::UnityEngine::Coroutine* m_Coroutine;
+  __declspec(property(get = __cordl_internal_get_m_Coroutine, put = __cordl_internal_set_m_Coroutine))::UnityEngine::Coroutine* m_Coroutine;
 
   /// @brief Field m_pauseAndRestartCoroutine, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_pauseAndRestartCoroutine, put = __set_m_pauseAndRestartCoroutine))::UnityEngine::Coroutine* m_pauseAndRestartCoroutine;
+  __declspec(property(get = __cordl_internal_get_m_pauseAndRestartCoroutine, put = __cordl_internal_set_m_pauseAndRestartCoroutine))::UnityEngine::Coroutine* m_pauseAndRestartCoroutine;
 
   /// @brief Field k_GameObjectName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_GameObjectName, put = setStaticF_k_GameObjectName))::StringW k_GameObjectName;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::Unity::XR::Oculus::OculusRestarter* s_Instance;
+  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityW<::Unity::XR::Oculus::OculusRestarter> s_Instance;
 
   /// @brief Field m_pauseAndRestartAttempts, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_pauseAndRestartAttempts, put = setStaticF_m_pauseAndRestartAttempts)) int32_t m_pauseAndRestartAttempts;
@@ -355,49 +355,49 @@ public:
 
   __declspec(property(get = get_isRunning)) bool isRunning;
 
-  constexpr ::System::Action*& __get_onAfterRestart();
+  constexpr ::System::Action*& __cordl_internal_get_onAfterRestart();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onAfterRestart() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onAfterRestart() const;
 
-  constexpr void __set_onAfterRestart(::System::Action* value);
+  constexpr void __cordl_internal_set_onAfterRestart(::System::Action* value);
 
-  constexpr ::System::Action*& __get_onAfterShutdown();
+  constexpr ::System::Action*& __cordl_internal_get_onAfterShutdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onAfterShutdown() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onAfterShutdown() const;
 
-  constexpr void __set_onAfterShutdown(::System::Action* value);
+  constexpr void __cordl_internal_set_onAfterShutdown(::System::Action* value);
 
-  constexpr ::System::Action*& __get_onQuit();
+  constexpr ::System::Action*& __cordl_internal_get_onQuit();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onQuit() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onQuit() const;
 
-  constexpr void __set_onQuit(::System::Action* value);
+  constexpr void __cordl_internal_set_onQuit(::System::Action* value);
 
-  constexpr ::System::Action*& __get_onAfterCoroutine();
+  constexpr ::System::Action*& __cordl_internal_get_onAfterCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onAfterCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onAfterCoroutine() const;
 
-  constexpr void __set_onAfterCoroutine(::System::Action* value);
+  constexpr void __cordl_internal_set_onAfterCoroutine(::System::Action* value);
 
-  constexpr ::UnityEngine::Coroutine*& __get_m_Coroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get_m_Coroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get_m_Coroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get_m_Coroutine() const;
 
-  constexpr void __set_m_Coroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set_m_Coroutine(::UnityEngine::Coroutine* value);
 
-  constexpr ::UnityEngine::Coroutine*& __get_m_pauseAndRestartCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get_m_pauseAndRestartCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get_m_pauseAndRestartCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get_m_pauseAndRestartCoroutine() const;
 
-  constexpr void __set_m_pauseAndRestartCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set_m_pauseAndRestartCoroutine(::UnityEngine::Coroutine* value);
 
   static inline void setStaticF_k_GameObjectName(::StringW value);
 
   static inline ::StringW getStaticF_k_GameObjectName();
 
-  static inline void setStaticF_s_Instance(::Unity::XR::Oculus::OculusRestarter* value);
+  static inline void setStaticF_s_Instance(::UnityW<::Unity::XR::Oculus::OculusRestarter> value);
 
-  static inline ::Unity::XR::Oculus::OculusRestarter* getStaticF_s_Instance();
+  static inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> getStaticF_s_Instance();
 
   static inline void setStaticF_m_pauseAndRestartAttempts(int32_t value);
 
@@ -423,7 +423,7 @@ public:
   static inline int32_t get_PauseAndRestartAttempts();
 
   /// @brief Method get_Instance, addr 0x2c7aea8, size 0x1d4, virtual false, abstract: false, final false
-  static inline ::Unity::XR::Oculus::OculusRestarter* get_Instance();
+  static inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> get_Instance();
 
   /// @brief Method PauseAndRestart, addr 0x2c7b07c, size 0x120, virtual false, abstract: false, final false
   inline void PauseAndRestart();

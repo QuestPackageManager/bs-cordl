@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(851))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::NaccacheSternEngine*
 class CORDL_TYPE NaccacheSternEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field forEncryption, offset 0x10, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* key;
 
   /// @brief Field lookup, offset 0x20, size 0x8
-  __declspec(property(get = __get_lookup, put = __set_lookup))::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> lookup;
+  __declspec(property(get = __cordl_internal_get_lookup, put = __cordl_internal_set_lookup))::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> lookup;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -57,23 +57,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* value);
 
-  constexpr ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*>& __get_lookup();
+  constexpr ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*>& __cordl_internal_get_lookup();
 
-  constexpr ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> const& __get_lookup() const;
+  constexpr ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> const& __cordl_internal_get_lookup() const;
 
-  constexpr void __set_lookup(::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> value);
+  constexpr void __cordl_internal_set_lookup(::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> value);
 
   /// @brief Method get_AlgorithmName, addr 0xed6118, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();

@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::Oculus::Platform::VoipOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13401))
 // CS Name: ::Oculus.Platform::VoipOptions*
 class CORDL_TYPE VoipOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __get_Handle, put = __set_Handle)) void* Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  constexpr void*& __get_Handle();
+  constexpr void*& __cordl_internal_get_Handle();
 
-  constexpr void* const& __get_Handle() const;
+  constexpr void* const& __cordl_internal_get_Handle() const;
 
-  constexpr void __set_Handle(void* value);
+  constexpr void __cordl_internal_set_Handle(void* value);
 
   static inline ::Oculus::Platform::VoipOptions* New_ctor();
 

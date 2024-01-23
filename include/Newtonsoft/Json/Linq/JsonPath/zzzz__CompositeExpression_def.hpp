@@ -23,23 +23,25 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::CompositeExpression);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12022))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12022))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12023))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::CompositeExpression*
 class CORDL_TYPE CompositeExpression : public ::Newtonsoft::Json::Linq::JsonPath::QueryExpression {
 public:
   // Declarations
   /// @brief Field <Expressions>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Expressions_k__BackingField,
-                      put = __set__Expressions_k__BackingField))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* _Expressions_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__Expressions_k__BackingField,
+               put = __cordl_internal_set__Expressions_k__BackingField))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* _Expressions_k__BackingField;
 
   __declspec(property(get = get_Expressions, put = set_Expressions))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* Expressions;
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& __get__Expressions_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& __cordl_internal_get__Expressions_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*> const& __get__Expressions_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*> const&
+  __cordl_internal_get__Expressions_k__BackingField() const;
 
-  constexpr void __set__Expressions_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
+  constexpr void __cordl_internal_set__Expressions_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
   /// @brief Method get_Expressions, addr 0x26b1284, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* get_Expressions();

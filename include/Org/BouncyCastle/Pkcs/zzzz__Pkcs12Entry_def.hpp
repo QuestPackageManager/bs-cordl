@@ -30,14 +30,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12Entry);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1693))
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12Entry*
 class CORDL_TYPE Pkcs12Entry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributes, offset 0x10, size 0x8
-  __declspec(property(get = __get_attributes, put = __set_attributes))::System::Collections::IDictionary* attributes;
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::System::Collections::IDictionary* attributes;
 
   __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
 
@@ -45,11 +45,11 @@ public:
 
   __declspec(property(get = get_BagAttributeKeys))::System::Collections::IEnumerable* BagAttributeKeys;
 
-  constexpr ::System::Collections::IDictionary*& __get_attributes();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_attributes() const;
 
-  constexpr void __set_attributes(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Entry* New_ctor(::System::Collections::IDictionary* attributes);
 

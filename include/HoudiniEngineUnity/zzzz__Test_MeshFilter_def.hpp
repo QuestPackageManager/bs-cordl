@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_MeshFilter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9922))
 // CS Name: ::HoudiniEngineUnity::Test_MeshFilter*
 class CORDL_TYPE Test_MeshFilter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x8
-  __declspec(property(get = __get_self, put = __set_self))::UnityEngine::MeshFilter* self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::UnityW<::UnityEngine::MeshFilter> self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>*() noexcept;
@@ -44,11 +44,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_MeshFilter__() noexcept;
 
-  constexpr ::UnityEngine::MeshFilter*& __get_self();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_self();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get_self() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::MeshFilter> value);
 
   static inline ::HoudiniEngineUnity::Test_MeshFilter* New_ctor(::UnityEngine::MeshFilter* self);
 
@@ -76,7 +76,7 @@ protected:
 
 public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ___self;
+  ::UnityW<::UnityEngine::MeshFilter> ___self;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

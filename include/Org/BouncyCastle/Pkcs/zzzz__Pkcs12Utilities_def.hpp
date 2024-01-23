@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12Utilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1702))
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12Utilities*
 class CORDL_TYPE Pkcs12Utilities : public ::System::Object {

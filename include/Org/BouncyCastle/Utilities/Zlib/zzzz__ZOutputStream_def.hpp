@@ -25,32 +25,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1297))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::ZOutputStream*
 class CORDL_TYPE ZOutputStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field z, offset 0x28, size 0x8
-  __declspec(property(get = __get_z, put = __set_z))::Org::BouncyCastle::Utilities::Zlib::ZStream* z;
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z))::Org::BouncyCastle::Utilities::Zlib::ZStream* z;
 
   /// @brief Field flushLevel, offset 0x30, size 0x4
-  __declspec(property(get = __get_flushLevel, put = __set_flushLevel)) int32_t flushLevel;
+  __declspec(property(get = __cordl_internal_get_flushLevel, put = __cordl_internal_set_flushLevel)) int32_t flushLevel;
 
   /// @brief Field buf, offset 0x38, size 0x8
-  __declspec(property(get = __get_buf, put = __set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
 
   /// @brief Field buf1, offset 0x40, size 0x8
-  __declspec(property(get = __get_buf1, put = __set_buf1))::ArrayW<uint8_t, ::Array<uint8_t>*> buf1;
+  __declspec(property(get = __cordl_internal_get_buf1, put = __cordl_internal_set_buf1))::ArrayW<uint8_t, ::Array<uint8_t>*> buf1;
 
   /// @brief Field compress, offset 0x48, size 0x1
-  __declspec(property(get = __get_compress, put = __set_compress)) bool compress;
+  __declspec(property(get = __cordl_internal_get_compress, put = __cordl_internal_set_compress)) bool compress;
 
   /// @brief Field output, offset 0x50, size 0x8
-  __declspec(property(get = __get_output, put = __set_output))::System::IO::Stream* output;
+  __declspec(property(get = __cordl_internal_get_output, put = __cordl_internal_set_output))::System::IO::Stream* output;
 
   /// @brief Field closed, offset 0x58, size 0x1
-  __declspec(property(get = __get_closed, put = __set_closed)) bool closed;
+  __declspec(property(get = __cordl_internal_get_closed, put = __cordl_internal_set_closed)) bool closed;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -68,47 +68,47 @@ public:
 
   __declspec(property(get = get_TotalOut)) int64_t TotalOut;
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __get_z();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_z();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __get_z() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __cordl_internal_get_z() const;
 
-  constexpr void __set_z(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
+  constexpr void __cordl_internal_set_z(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
 
-  constexpr int32_t& __get_flushLevel();
+  constexpr int32_t& __cordl_internal_get_flushLevel();
 
-  constexpr int32_t const& __get_flushLevel() const;
+  constexpr int32_t const& __cordl_internal_get_flushLevel() const;
 
-  constexpr void __set_flushLevel(int32_t value);
+  constexpr void __cordl_internal_set_flushLevel(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buf1();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf1();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buf1() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf1() const;
 
-  constexpr void __set_buf1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buf1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_compress();
+  constexpr bool& __cordl_internal_get_compress();
 
-  constexpr bool const& __get_compress() const;
+  constexpr bool const& __cordl_internal_get_compress() const;
 
-  constexpr void __set_compress(bool value);
+  constexpr void __cordl_internal_set_compress(bool value);
 
-  constexpr ::System::IO::Stream*& __get_output();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_output();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_output() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_output() const;
 
-  constexpr void __set_output(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_output(::System::IO::Stream* value);
 
-  constexpr bool& __get_closed();
+  constexpr bool& __cordl_internal_get_closed();
 
-  constexpr bool const& __get_closed() const;
+  constexpr bool const& __cordl_internal_get_closed() const;
 
-  constexpr void __set_closed(bool value);
+  constexpr void __cordl_internal_set_closed(bool value);
 
   /// @brief Method GetDefaultZStream, addr 0xfa3218, size 0x70, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZStream* GetDefaultZStream(bool nowrap);

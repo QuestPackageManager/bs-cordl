@@ -23,14 +23,14 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1027 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1027 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7229))
 // CS Name: ::UnityEngine.UIElements::CommandEventBase`1<T>*
 class CORDL_TYPE CommandEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
   /// @brief Field m_CommandName, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_CommandName, put = __set_m_CommandName))::StringW m_CommandName;
+  __declspec(property(get = __cordl_internal_get_m_CommandName, put = __cordl_internal_set_m_CommandName))::StringW m_CommandName;
 
   __declspec(property(get = get_commandName, put = set_commandName))::StringW commandName;
 
@@ -40,11 +40,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::ICommandEvent"
   constexpr ::UnityEngine::UIElements::ICommandEvent* i___UnityEngine__UIElements__ICommandEvent() noexcept;
 
-  constexpr ::StringW& __get_m_CommandName();
+  constexpr ::StringW& __cordl_internal_get_m_CommandName();
 
-  constexpr ::StringW const& __get_m_CommandName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CommandName() const;
 
-  constexpr void __set_m_CommandName(::StringW value);
+  constexpr void __cordl_internal_set_m_CommandName(::StringW value);
 
   /// @brief Method get_commandName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_commandName();

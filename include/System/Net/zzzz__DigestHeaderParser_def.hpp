@@ -18,23 +18,23 @@ MARK_REF_PTR_T(::System::Net::DigestHeaderParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9159))
 // CS Name: ::System.Net::DigestHeaderParser*
 class CORDL_TYPE DigestHeaderParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field header, offset 0x10, size 0x8
-  __declspec(property(get = __get_header, put = __set_header))::StringW header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::StringW header;
 
   /// @brief Field length, offset 0x18, size 0x4
-  __declspec(property(get = __get_length, put = __set_length)) int32_t length;
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
 
   /// @brief Field pos, offset 0x1c, size 0x4
-  __declspec(property(get = __get_pos, put = __set_pos)) int32_t pos;
+  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
   /// @brief Field values, offset 0x20, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::ArrayW<::StringW, ::Array<::StringW>*> values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::ArrayW<::StringW, ::Array<::StringW>*> values;
 
   /// @brief Field keywords, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_keywords, put = setStaticF_keywords))::ArrayW<::StringW, ::Array<::StringW>*> keywords;
@@ -49,29 +49,29 @@ public:
 
   __declspec(property(get = get_QOP))::StringW QOP;
 
-  constexpr ::StringW& __get_header();
+  constexpr ::StringW& __cordl_internal_get_header();
 
-  constexpr ::StringW const& __get_header() const;
+  constexpr ::StringW const& __cordl_internal_get_header() const;
 
-  constexpr void __set_header(::StringW value);
+  constexpr void __cordl_internal_set_header(::StringW value);
 
-  constexpr int32_t& __get_length();
+  constexpr int32_t& __cordl_internal_get_length();
 
-  constexpr int32_t const& __get_length() const;
+  constexpr int32_t const& __cordl_internal_get_length() const;
 
-  constexpr void __set_length(int32_t value);
+  constexpr void __cordl_internal_set_length(int32_t value);
 
-  constexpr int32_t& __get_pos();
+  constexpr int32_t& __cordl_internal_get_pos();
 
-  constexpr int32_t const& __get_pos() const;
+  constexpr int32_t const& __cordl_internal_get_pos() const;
 
-  constexpr void __set_pos(int32_t value);
+  constexpr void __cordl_internal_set_pos(int32_t value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_values();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_values();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_values() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_values(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline void setStaticF_keywords(::ArrayW<::StringW, ::Array<::StringW>*> value);
 

@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Resources::SatelliteContractVersionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3430))
 // CS Name: ::System.Resources::SatelliteContractVersionAttribute*
 class CORDL_TYPE SatelliteContractVersionAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Version>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Version_k__BackingField, put = __set__Version_k__BackingField))::StringW _Version_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Version_k__BackingField, put = __cordl_internal_set__Version_k__BackingField))::StringW _Version_k__BackingField;
 
-  constexpr ::StringW& __get__Version_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Version_k__BackingField();
 
-  constexpr ::StringW const& __get__Version_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Version_k__BackingField() const;
 
-  constexpr void __set__Version_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Version_k__BackingField(::StringW value);
 
   static inline ::System::Resources::SatelliteContractVersionAttribute* New_ctor(::StringW version);
 

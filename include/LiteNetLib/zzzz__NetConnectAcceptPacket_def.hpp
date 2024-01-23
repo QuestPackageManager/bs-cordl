@@ -18,38 +18,38 @@ MARK_REF_PTR_T(::LiteNetLib::NetConnectAcceptPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14171))
 // CS Name: ::LiteNetLib::NetConnectAcceptPacket*
 class CORDL_TYPE NetConnectAcceptPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ConnectionId, offset 0x10, size 0x8
-  __declspec(property(get = __get_ConnectionId, put = __set_ConnectionId)) int64_t ConnectionId;
+  __declspec(property(get = __cordl_internal_get_ConnectionId, put = __cordl_internal_set_ConnectionId)) int64_t ConnectionId;
 
   /// @brief Field ConnectionNumber, offset 0x18, size 0x1
-  __declspec(property(get = __get_ConnectionNumber, put = __set_ConnectionNumber)) uint8_t ConnectionNumber;
+  __declspec(property(get = __cordl_internal_get_ConnectionNumber, put = __cordl_internal_set_ConnectionNumber)) uint8_t ConnectionNumber;
 
   /// @brief Field IsReusedPeer, offset 0x19, size 0x1
-  __declspec(property(get = __get_IsReusedPeer, put = __set_IsReusedPeer)) bool IsReusedPeer;
+  __declspec(property(get = __cordl_internal_get_IsReusedPeer, put = __cordl_internal_set_IsReusedPeer)) bool IsReusedPeer;
 
-  constexpr int64_t& __get_ConnectionId();
+  constexpr int64_t& __cordl_internal_get_ConnectionId();
 
-  constexpr int64_t const& __get_ConnectionId() const;
+  constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
-  constexpr void __set_ConnectionId(int64_t value);
+  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
 
-  constexpr uint8_t& __get_ConnectionNumber();
+  constexpr uint8_t& __cordl_internal_get_ConnectionNumber();
 
-  constexpr uint8_t const& __get_ConnectionNumber() const;
+  constexpr uint8_t const& __cordl_internal_get_ConnectionNumber() const;
 
-  constexpr void __set_ConnectionNumber(uint8_t value);
+  constexpr void __cordl_internal_set_ConnectionNumber(uint8_t value);
 
-  constexpr bool& __get_IsReusedPeer();
+  constexpr bool& __cordl_internal_get_IsReusedPeer();
 
-  constexpr bool const& __get_IsReusedPeer() const;
+  constexpr bool const& __cordl_internal_get_IsReusedPeer() const;
 
-  constexpr void __set_IsReusedPeer(bool value);
+  constexpr void __cordl_internal_set_IsReusedPeer(bool value);
 
   static inline ::LiteNetLib::NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 

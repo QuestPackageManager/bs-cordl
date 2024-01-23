@@ -47,20 +47,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4847))
 // CS Name: ::FireworksController::<SpawningCoroutine>d__8*
 class CORDL_TYPE __FireworksController___SpawningCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::FireworksController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FireworksController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -84,23 +84,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::FireworksController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::FireworksController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworksController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::FireworksController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::FireworksController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworksController> value);
 
   static inline ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8* New_ctor(int32_t __1__state);
 
@@ -143,7 +143,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FireworksController* _____4__this;
+  ::UnityW<::GlobalNamespace::FireworksController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,7 +161,7 @@ static_assert(offsetof(::GlobalNamespace::__FireworksController___SpawningCorout
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4848))
 // CS Name: ::FireworksController*
 class CORDL_TYPE FireworksController : public ::UnityEngine::MonoBehaviour {
@@ -170,67 +170,69 @@ public:
   using _SpawningCoroutine_d__8 = ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8;
 
   /// @brief Field _spawnSize, offset 0x18, size 0xc
-  __declspec(property(get = __get__spawnSize, put = __set__spawnSize))::UnityEngine::Vector3 _spawnSize;
+  __declspec(property(get = __cordl_internal_get__spawnSize, put = __cordl_internal_set__spawnSize))::UnityEngine::Vector3 _spawnSize;
 
   /// @brief Field _minSpawnInterval, offset 0x24, size 0x4
-  __declspec(property(get = __get__minSpawnInterval, put = __set__minSpawnInterval)) float_t _minSpawnInterval;
+  __declspec(property(get = __cordl_internal_get__minSpawnInterval, put = __cordl_internal_set__minSpawnInterval)) float_t _minSpawnInterval;
 
   /// @brief Field _maxSpawnInterval, offset 0x28, size 0x4
-  __declspec(property(get = __get__maxSpawnInterval, put = __set__maxSpawnInterval)) float_t _maxSpawnInterval;
+  __declspec(property(get = __cordl_internal_get__maxSpawnInterval, put = __cordl_internal_set__maxSpawnInterval)) float_t _maxSpawnInterval;
 
   /// @brief Field _directionalLights, offset 0x30, size 0x8
-  __declspec(property(get = __get__directionalLights, put = __set__directionalLights))::ArrayW<::GlobalNamespace::DirectionalLight*, ::Array<::GlobalNamespace::DirectionalLight*>*> _directionalLights;
+  __declspec(
+      property(get = __cordl_internal_get__directionalLights,
+               put = __cordl_internal_set__directionalLights))::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> _directionalLights;
 
   /// @brief Field _lightsIntensity, offset 0x38, size 0x4
-  __declspec(property(get = __get__lightsIntensity, put = __set__lightsIntensity)) float_t _lightsIntensity;
+  __declspec(property(get = __cordl_internal_get__lightsIntensity, put = __cordl_internal_set__lightsIntensity)) float_t _lightsIntensity;
 
   /// @brief Field _currentLightId, offset 0x3c, size 0x4
-  __declspec(property(get = __get__currentLightId, put = __set__currentLightId)) int32_t _currentLightId;
+  __declspec(property(get = __cordl_internal_get__currentLightId, put = __cordl_internal_set__currentLightId)) int32_t _currentLightId;
 
   /// @brief Field _fireworkItemPool, offset 0x40, size 0x8
-  __declspec(property(get = __get__fireworkItemPool, put = __set__fireworkItemPool))::GlobalNamespace::__FireworkItemController__Pool* _fireworkItemPool;
+  __declspec(property(get = __cordl_internal_get__fireworkItemPool, put = __cordl_internal_set__fireworkItemPool))::GlobalNamespace::__FireworkItemController__Pool* _fireworkItemPool;
 
-  constexpr ::UnityEngine::Vector3& __get__spawnSize();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__spawnSize();
 
-  constexpr ::UnityEngine::Vector3 const& __get__spawnSize() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__spawnSize() const;
 
-  constexpr void __set__spawnSize(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__spawnSize(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__minSpawnInterval();
+  constexpr float_t& __cordl_internal_get__minSpawnInterval();
 
-  constexpr float_t const& __get__minSpawnInterval() const;
+  constexpr float_t const& __cordl_internal_get__minSpawnInterval() const;
 
-  constexpr void __set__minSpawnInterval(float_t value);
+  constexpr void __cordl_internal_set__minSpawnInterval(float_t value);
 
-  constexpr float_t& __get__maxSpawnInterval();
+  constexpr float_t& __cordl_internal_get__maxSpawnInterval();
 
-  constexpr float_t const& __get__maxSpawnInterval() const;
+  constexpr float_t const& __cordl_internal_get__maxSpawnInterval() const;
 
-  constexpr void __set__maxSpawnInterval(float_t value);
+  constexpr void __cordl_internal_set__maxSpawnInterval(float_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::DirectionalLight*, ::Array<::GlobalNamespace::DirectionalLight*>*>& __get__directionalLights();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>& __cordl_internal_get__directionalLights();
 
-  constexpr ::ArrayW<::GlobalNamespace::DirectionalLight*, ::Array<::GlobalNamespace::DirectionalLight*>*> const& __get__directionalLights() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
 
-  constexpr void __set__directionalLights(::ArrayW<::GlobalNamespace::DirectionalLight*, ::Array<::GlobalNamespace::DirectionalLight*>*> value);
+  constexpr void __cordl_internal_set__directionalLights(::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> value);
 
-  constexpr float_t& __get__lightsIntensity();
+  constexpr float_t& __cordl_internal_get__lightsIntensity();
 
-  constexpr float_t const& __get__lightsIntensity() const;
+  constexpr float_t const& __cordl_internal_get__lightsIntensity() const;
 
-  constexpr void __set__lightsIntensity(float_t value);
+  constexpr void __cordl_internal_set__lightsIntensity(float_t value);
 
-  constexpr int32_t& __get__currentLightId();
+  constexpr int32_t& __cordl_internal_get__currentLightId();
 
-  constexpr int32_t const& __get__currentLightId() const;
+  constexpr int32_t const& __cordl_internal_get__currentLightId() const;
 
-  constexpr void __set__currentLightId(int32_t value);
+  constexpr void __cordl_internal_set__currentLightId(int32_t value);
 
-  constexpr ::GlobalNamespace::__FireworkItemController__Pool*& __get__fireworkItemPool();
+  constexpr ::GlobalNamespace::__FireworkItemController__Pool*& __cordl_internal_get__fireworkItemPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FireworkItemController__Pool*> const& __get__fireworkItemPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FireworkItemController__Pool*> const& __cordl_internal_get__fireworkItemPool() const;
 
-  constexpr void __set__fireworkItemPool(::GlobalNamespace::__FireworkItemController__Pool* value);
+  constexpr void __cordl_internal_set__fireworkItemPool(::GlobalNamespace::__FireworkItemController__Pool* value);
 
   /// @brief Method OnEnable, addr 0x23978c4, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -273,7 +275,7 @@ public:
   float_t ____maxSpawnInterval;
 
   /// @brief Field _directionalLights, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::DirectionalLight*, ::Array<::GlobalNamespace::DirectionalLight*>*> ____directionalLights;
+  ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> ____directionalLights;
 
   /// @brief Field _lightsIntensity, offset: 0x38, size: 0x4, def value: None
   float_t ____lightsIntensity;

@@ -32,47 +32,47 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__OffsetPose__EffectorLink);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12571))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12659))
 // CS Name: ::OffsetPose::EffectorLink*
 class CORDL_TYPE __OffsetPose__EffectorLink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field effector, offset 0x10, size 0x4
-  __declspec(property(get = __get_effector, put = __set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
+  __declspec(property(get = __cordl_internal_get_effector, put = __cordl_internal_set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
 
   /// @brief Field offset, offset 0x14, size 0xc
-  __declspec(property(get = __get_offset, put = __set_offset))::UnityEngine::Vector3 offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
   /// @brief Field pin, offset 0x20, size 0xc
-  __declspec(property(get = __get_pin, put = __set_pin))::UnityEngine::Vector3 pin;
+  __declspec(property(get = __cordl_internal_get_pin, put = __cordl_internal_set_pin))::UnityEngine::Vector3 pin;
 
   /// @brief Field pinWeight, offset 0x2c, size 0xc
-  __declspec(property(get = __get_pinWeight, put = __set_pinWeight))::UnityEngine::Vector3 pinWeight;
+  __declspec(property(get = __cordl_internal_get_pinWeight, put = __cordl_internal_set_pinWeight))::UnityEngine::Vector3 pinWeight;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __get_effector();
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effector();
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __get_effector() const;
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effector() const;
 
-  constexpr void __set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
+  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  constexpr ::UnityEngine::Vector3& __get_offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_pin();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pin();
 
-  constexpr ::UnityEngine::Vector3 const& __get_pin() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pin() const;
 
-  constexpr void __set_pin(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_pin(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_pinWeight();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pinWeight();
 
-  constexpr ::UnityEngine::Vector3 const& __get_pinWeight() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pinWeight() const;
 
-  constexpr void __set_pinWeight(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_pinWeight(::UnityEngine::Vector3 value);
 
   /// @brief Method Apply, addr 0x1298680, size 0x250, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, ::UnityEngine::Quaternion rotation);
@@ -126,7 +126,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetPose__EffectorLink, ___pin
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12660))
 // CS Name: ::RootMotion.FinalIK::OffsetPose*
 class CORDL_TYPE OffsetPose : public ::UnityEngine::MonoBehaviour {
@@ -135,14 +135,15 @@ public:
   using EffectorLink = ::RootMotion::FinalIK::__OffsetPose__EffectorLink;
 
   /// @brief Field effectorLinks, offset 0x18, size 0x8
-  __declspec(property(get = __get_effectorLinks,
-                      put = __set_effectorLinks))::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> effectorLinks;
+  __declspec(
+      property(get = __cordl_internal_get_effectorLinks,
+               put = __cordl_internal_set_effectorLinks))::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> effectorLinks;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*>& __get_effectorLinks();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*>& __cordl_internal_get_effectorLinks();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> const& __get_effectorLinks() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> const& __cordl_internal_get_effectorLinks() const;
 
-  constexpr void __set_effectorLinks(::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> value);
+  constexpr void __cordl_internal_set_effectorLinks(::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> value);
 
   /// @brief Method Apply, addr 0x1294c80, size 0xb4, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);

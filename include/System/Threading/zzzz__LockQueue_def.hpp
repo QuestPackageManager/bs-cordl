@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::System::Threading::LockQueue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2742))
 // CS Name: ::System.Threading::LockQueue*
 class CORDL_TYPE LockQueue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rwlock, offset 0x10, size 0x8
-  __declspec(property(get = __get_rwlock, put = __set_rwlock))::System::Threading::ReaderWriterLock* rwlock;
+  __declspec(property(get = __cordl_internal_get_rwlock, put = __cordl_internal_set_rwlock))::System::Threading::ReaderWriterLock* rwlock;
 
   /// @brief Field lockCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_lockCount, put = __set_lockCount)) int32_t lockCount;
+  __declspec(property(get = __cordl_internal_get_lockCount, put = __cordl_internal_set_lockCount)) int32_t lockCount;
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  constexpr ::System::Threading::ReaderWriterLock*& __get_rwlock();
+  constexpr ::System::Threading::ReaderWriterLock*& __cordl_internal_get_rwlock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& __get_rwlock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& __cordl_internal_get_rwlock() const;
 
-  constexpr void __set_rwlock(::System::Threading::ReaderWriterLock* value);
+  constexpr void __cordl_internal_set_rwlock(::System::Threading::ReaderWriterLock* value);
 
-  constexpr int32_t& __get_lockCount();
+  constexpr int32_t& __cordl_internal_get_lockCount();
 
-  constexpr int32_t const& __get_lockCount() const;
+  constexpr int32_t const& __cordl_internal_get_lockCount() const;
 
-  constexpr void __set_lockCount(int32_t value);
+  constexpr void __cordl_internal_set_lockCount(int32_t value);
 
   static inline ::System::Threading::LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock);
 

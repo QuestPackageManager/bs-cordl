@@ -18,49 +18,49 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessThreadTimes);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8953))
 // CS Name: ::System.Diagnostics::ProcessThreadTimes*
 class CORDL_TYPE ProcessThreadTimes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field create, offset 0x10, size 0x8
-  __declspec(property(get = __get_create, put = __set_create)) int64_t create;
+  __declspec(property(get = __cordl_internal_get_create, put = __cordl_internal_set_create)) int64_t create;
 
   /// @brief Field exit, offset 0x18, size 0x8
-  __declspec(property(get = __get_exit, put = __set_exit)) int64_t exit;
+  __declspec(property(get = __cordl_internal_get_exit, put = __cordl_internal_set_exit)) int64_t exit;
 
   /// @brief Field kernel, offset 0x20, size 0x8
-  __declspec(property(get = __get_kernel, put = __set_kernel)) int64_t kernel;
+  __declspec(property(get = __cordl_internal_get_kernel, put = __cordl_internal_set_kernel)) int64_t kernel;
 
   /// @brief Field user, offset 0x28, size 0x8
-  __declspec(property(get = __get_user, put = __set_user)) int64_t user;
+  __declspec(property(get = __cordl_internal_get_user, put = __cordl_internal_set_user)) int64_t user;
 
   __declspec(property(get = get_TotalProcessorTime))::System::TimeSpan TotalProcessorTime;
 
-  constexpr int64_t& __get_create();
+  constexpr int64_t& __cordl_internal_get_create();
 
-  constexpr int64_t const& __get_create() const;
+  constexpr int64_t const& __cordl_internal_get_create() const;
 
-  constexpr void __set_create(int64_t value);
+  constexpr void __cordl_internal_set_create(int64_t value);
 
-  constexpr int64_t& __get_exit();
+  constexpr int64_t& __cordl_internal_get_exit();
 
-  constexpr int64_t const& __get_exit() const;
+  constexpr int64_t const& __cordl_internal_get_exit() const;
 
-  constexpr void __set_exit(int64_t value);
+  constexpr void __cordl_internal_set_exit(int64_t value);
 
-  constexpr int64_t& __get_kernel();
+  constexpr int64_t& __cordl_internal_get_kernel();
 
-  constexpr int64_t const& __get_kernel() const;
+  constexpr int64_t const& __cordl_internal_get_kernel() const;
 
-  constexpr void __set_kernel(int64_t value);
+  constexpr void __cordl_internal_set_kernel(int64_t value);
 
-  constexpr int64_t& __get_user();
+  constexpr int64_t& __cordl_internal_get_user();
 
-  constexpr int64_t const& __get_user() const;
+  constexpr int64_t const& __cordl_internal_get_user() const;
 
-  constexpr void __set_user(int64_t value);
+  constexpr void __cordl_internal_set_user(int64_t value);
 
   /// @brief Method get_TotalProcessorTime, addr 0x2970134, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();

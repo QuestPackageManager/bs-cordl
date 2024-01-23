@@ -1919,110 +1919,110 @@ MARK_VAL_T(::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureIdsInternal);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7685))
 // CS Name: ::OVRPlugin::GUID*
 class CORDL_TYPE __OVRPlugin__GUID : public ::System::Object {
 public:
   // Declarations
   /// @brief Field a, offset 0x10, size 0x4
-  __declspec(property(get = __get_a, put = __set_a)) int32_t a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) int32_t a;
 
   /// @brief Field b, offset 0x14, size 0x2
-  __declspec(property(get = __get_b, put = __set_b)) int16_t b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) int16_t b;
 
   /// @brief Field c, offset 0x16, size 0x2
-  __declspec(property(get = __get_c, put = __set_c)) int16_t c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int16_t c;
 
   /// @brief Field d0, offset 0x18, size 0x1
-  __declspec(property(get = __get_d0, put = __set_d0)) uint8_t d0;
+  __declspec(property(get = __cordl_internal_get_d0, put = __cordl_internal_set_d0)) uint8_t d0;
 
   /// @brief Field d1, offset 0x19, size 0x1
-  __declspec(property(get = __get_d1, put = __set_d1)) uint8_t d1;
+  __declspec(property(get = __cordl_internal_get_d1, put = __cordl_internal_set_d1)) uint8_t d1;
 
   /// @brief Field d2, offset 0x1a, size 0x1
-  __declspec(property(get = __get_d2, put = __set_d2)) uint8_t d2;
+  __declspec(property(get = __cordl_internal_get_d2, put = __cordl_internal_set_d2)) uint8_t d2;
 
   /// @brief Field d3, offset 0x1b, size 0x1
-  __declspec(property(get = __get_d3, put = __set_d3)) uint8_t d3;
+  __declspec(property(get = __cordl_internal_get_d3, put = __cordl_internal_set_d3)) uint8_t d3;
 
   /// @brief Field d4, offset 0x1c, size 0x1
-  __declspec(property(get = __get_d4, put = __set_d4)) uint8_t d4;
+  __declspec(property(get = __cordl_internal_get_d4, put = __cordl_internal_set_d4)) uint8_t d4;
 
   /// @brief Field d5, offset 0x1d, size 0x1
-  __declspec(property(get = __get_d5, put = __set_d5)) uint8_t d5;
+  __declspec(property(get = __cordl_internal_get_d5, put = __cordl_internal_set_d5)) uint8_t d5;
 
   /// @brief Field d6, offset 0x1e, size 0x1
-  __declspec(property(get = __get_d6, put = __set_d6)) uint8_t d6;
+  __declspec(property(get = __cordl_internal_get_d6, put = __cordl_internal_set_d6)) uint8_t d6;
 
   /// @brief Field d7, offset 0x1f, size 0x1
-  __declspec(property(get = __get_d7, put = __set_d7)) uint8_t d7;
+  __declspec(property(get = __cordl_internal_get_d7, put = __cordl_internal_set_d7)) uint8_t d7;
 
-  constexpr int32_t& __get_a();
+  constexpr int32_t& __cordl_internal_get_a();
 
-  constexpr int32_t const& __get_a() const;
+  constexpr int32_t const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(int32_t value);
+  constexpr void __cordl_internal_set_a(int32_t value);
 
-  constexpr int16_t& __get_b();
+  constexpr int16_t& __cordl_internal_get_b();
 
-  constexpr int16_t const& __get_b() const;
+  constexpr int16_t const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(int16_t value);
+  constexpr void __cordl_internal_set_b(int16_t value);
 
-  constexpr int16_t& __get_c();
+  constexpr int16_t& __cordl_internal_get_c();
 
-  constexpr int16_t const& __get_c() const;
+  constexpr int16_t const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(int16_t value);
+  constexpr void __cordl_internal_set_c(int16_t value);
 
-  constexpr uint8_t& __get_d0();
+  constexpr uint8_t& __cordl_internal_get_d0();
 
-  constexpr uint8_t const& __get_d0() const;
+  constexpr uint8_t const& __cordl_internal_get_d0() const;
 
-  constexpr void __set_d0(uint8_t value);
+  constexpr void __cordl_internal_set_d0(uint8_t value);
 
-  constexpr uint8_t& __get_d1();
+  constexpr uint8_t& __cordl_internal_get_d1();
 
-  constexpr uint8_t const& __get_d1() const;
+  constexpr uint8_t const& __cordl_internal_get_d1() const;
 
-  constexpr void __set_d1(uint8_t value);
+  constexpr void __cordl_internal_set_d1(uint8_t value);
 
-  constexpr uint8_t& __get_d2();
+  constexpr uint8_t& __cordl_internal_get_d2();
 
-  constexpr uint8_t const& __get_d2() const;
+  constexpr uint8_t const& __cordl_internal_get_d2() const;
 
-  constexpr void __set_d2(uint8_t value);
+  constexpr void __cordl_internal_set_d2(uint8_t value);
 
-  constexpr uint8_t& __get_d3();
+  constexpr uint8_t& __cordl_internal_get_d3();
 
-  constexpr uint8_t const& __get_d3() const;
+  constexpr uint8_t const& __cordl_internal_get_d3() const;
 
-  constexpr void __set_d3(uint8_t value);
+  constexpr void __cordl_internal_set_d3(uint8_t value);
 
-  constexpr uint8_t& __get_d4();
+  constexpr uint8_t& __cordl_internal_get_d4();
 
-  constexpr uint8_t const& __get_d4() const;
+  constexpr uint8_t const& __cordl_internal_get_d4() const;
 
-  constexpr void __set_d4(uint8_t value);
+  constexpr void __cordl_internal_set_d4(uint8_t value);
 
-  constexpr uint8_t& __get_d5();
+  constexpr uint8_t& __cordl_internal_get_d5();
 
-  constexpr uint8_t const& __get_d5() const;
+  constexpr uint8_t const& __cordl_internal_get_d5() const;
 
-  constexpr void __set_d5(uint8_t value);
+  constexpr void __cordl_internal_set_d5(uint8_t value);
 
-  constexpr uint8_t& __get_d6();
+  constexpr uint8_t& __cordl_internal_get_d6();
 
-  constexpr uint8_t const& __get_d6() const;
+  constexpr uint8_t const& __cordl_internal_get_d6() const;
 
-  constexpr void __set_d6(uint8_t value);
+  constexpr void __cordl_internal_set_d6(uint8_t value);
 
-  constexpr uint8_t& __get_d7();
+  constexpr uint8_t& __cordl_internal_get_d7();
 
-  constexpr uint8_t const& __get_d7() const;
+  constexpr uint8_t const& __cordl_internal_get_d7() const;
 
-  constexpr void __set_d7(uint8_t value);
+  constexpr void __cordl_internal_set_d7(uint8_t value);
 
   static inline ::GlobalNamespace::__OVRPlugin__GUID* New_ctor();
 
@@ -2108,7 +2108,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__GUID, ___d7) == 0x1f, "Of
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7686))
 // CS Name: ::OVRPlugin::Bool
 struct CORDL_TYPE __OVRPlugin__Bool {
@@ -2158,7 +2158,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Bool, value__) == 0x0, "O
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7687))
 // CS Name: ::OVRPlugin::Result
 struct CORDL_TYPE __OVRPlugin__Result {
@@ -2280,7 +2280,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Result, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7688))
 // CS Name: ::OVRPlugin::LogLevel
 struct CORDL_TYPE __OVRPlugin__LogLevel {
@@ -2334,7 +2334,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LogLevel, value__) == 0x0
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7689))
 // CS Name: ::OVRPlugin::LogCallback2DelegateType*
 class CORDL_TYPE __OVRPlugin__LogCallback2DelegateType : public ::System::MulticastDelegate {
@@ -2378,7 +2378,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__Lo
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7690))
 // CS Name: ::OVRPlugin::CameraStatus
 struct CORDL_TYPE __OVRPlugin__CameraStatus {
@@ -2448,7 +2448,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraStatus, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7691))
 // CS Name: ::OVRPlugin::CameraAnchorType
 struct CORDL_TYPE __OVRPlugin__CameraAnchorType {
@@ -2506,7 +2506,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraAnchorType, value__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7692))
 // CS Name: ::OVRPlugin::XrApi
 struct CORDL_TYPE __OVRPlugin__XrApi {
@@ -2568,7 +2568,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__XrApi, value__) == 0x0, "
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7693))
 // CS Name: ::OVRPlugin::Eye
 struct CORDL_TYPE __OVRPlugin__Eye {
@@ -2626,7 +2626,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Eye, value__) == 0x0, "Of
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7694))
 // CS Name: ::OVRPlugin::Tracker
 struct CORDL_TYPE __OVRPlugin__Tracker {
@@ -2692,7 +2692,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Tracker, value__) == 0x0,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7695))
 // CS Name: ::OVRPlugin::Node
 struct CORDL_TYPE __OVRPlugin__Node {
@@ -2798,7 +2798,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Node, value__) == 0x0, "O
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7696))
 // CS Name: ::OVRPlugin::Controller
 struct CORDL_TYPE __OVRPlugin__Controller {
@@ -2884,7 +2884,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Controller, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7697))
 // CS Name: ::OVRPlugin::InteractionProfile
 struct CORDL_TYPE __OVRPlugin__InteractionProfile {
@@ -2942,7 +2942,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InteractionProfile, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7698))
 // CS Name: ::OVRPlugin::Handedness
 struct CORDL_TYPE __OVRPlugin__Handedness {
@@ -2996,7 +2996,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Handedness, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7699))
 // CS Name: ::OVRPlugin::TrackingOrigin
 struct CORDL_TYPE __OVRPlugin__TrackingOrigin {
@@ -3058,7 +3058,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TrackingOrigin, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7700))
 // CS Name: ::OVRPlugin::RecenterFlags
 struct CORDL_TYPE __OVRPlugin__RecenterFlags {
@@ -3112,7 +3112,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__RecenterFlags, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7701))
 // CS Name: ::OVRPlugin::BatteryStatus
 struct CORDL_TYPE __OVRPlugin__BatteryStatus {
@@ -3174,7 +3174,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BatteryStatus, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7702))
 // CS Name: ::OVRPlugin::EyeTextureFormat
 struct CORDL_TYPE __OVRPlugin__EyeTextureFormat {
@@ -3252,7 +3252,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__EyeTextureFormat, value__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7703))
 // CS Name: ::OVRPlugin::PlatformUI
 struct CORDL_TYPE __OVRPlugin__PlatformUI {
@@ -3306,7 +3306,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PlatformUI, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7704))
 // CS Name: ::OVRPlugin::SystemRegion
 struct CORDL_TYPE __OVRPlugin__SystemRegion {
@@ -3360,7 +3360,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SystemRegion, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7705))
 // CS Name: ::OVRPlugin::SystemHeadset
 struct CORDL_TYPE __OVRPlugin__SystemHeadset {
@@ -3482,7 +3482,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SystemHeadset, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7706))
 // CS Name: ::OVRPlugin::OverlayShape
 struct CORDL_TYPE __OVRPlugin__OverlayShape {
@@ -3564,7 +3564,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__OverlayShape, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7707))
 // CS Name: ::OVRPlugin::LayerSuperSamplingType
 struct CORDL_TYPE __OVRPlugin__LayerSuperSamplingType {
@@ -3618,7 +3618,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerSuperSamplingType, v
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7708))
 // CS Name: ::OVRPlugin::LayerSharpenType
 struct CORDL_TYPE __OVRPlugin__LayerSharpenType {
@@ -3672,7 +3672,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerSharpenType, value__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7709))
 // CS Name: ::OVRPlugin::Step
 struct CORDL_TYPE __OVRPlugin__Step {
@@ -3722,7 +3722,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Step, value__) == 0x0, "O
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7710))
 // CS Name: ::OVRPlugin::CameraDevice
 struct CORDL_TYPE __OVRPlugin__CameraDevice {
@@ -3780,7 +3780,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraDevice, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7711))
 // CS Name: ::OVRPlugin::CameraDeviceDepthSensingMode
 struct CORDL_TYPE __OVRPlugin__CameraDeviceDepthSensingMode {
@@ -3830,7 +3830,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraDeviceDepthSensingM
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7712))
 // CS Name: ::OVRPlugin::CameraDeviceDepthQuality
 struct CORDL_TYPE __OVRPlugin__CameraDeviceDepthQuality {
@@ -3884,7 +3884,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraDeviceDepthQuality,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7713))
 // CS Name: ::OVRPlugin::FoveatedRenderingLevel
 struct CORDL_TYPE __OVRPlugin__FoveatedRenderingLevel {
@@ -3950,7 +3950,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FoveatedRenderingLevel, v
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7714))
 // CS Name: ::OVRPlugin::FixedFoveatedRenderingLevel
 struct CORDL_TYPE __OVRPlugin__FixedFoveatedRenderingLevel {
@@ -4016,7 +4016,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FixedFoveatedRenderingLev
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7715))
 // CS Name: ::OVRPlugin::TiledMultiResLevel
 struct CORDL_TYPE __OVRPlugin__TiledMultiResLevel {
@@ -4082,7 +4082,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TiledMultiResLevel, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7716))
 // CS Name: ::OVRPlugin::PerfMetrics
 struct CORDL_TYPE __OVRPlugin__PerfMetrics {
@@ -4216,7 +4216,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PerfMetrics, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7717))
 // CS Name: ::OVRPlugin::ProcessorPerformanceLevel
 struct CORDL_TYPE __OVRPlugin__ProcessorPerformanceLevel {
@@ -4278,7 +4278,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7718))
 // CS Name: ::OVRPlugin::FeatureType
 struct CORDL_TYPE __OVRPlugin__FeatureType {
@@ -4356,7 +4356,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FeatureType, value__) == 
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7719))
 // CS Name: ::OVRPlugin::CameraDeviceIntrinsicsParameters
 struct CORDL_TYPE __OVRPlugin__CameraDeviceIntrinsicsParameters {
@@ -4458,7 +4458,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraDeviceIntrinsicsPar
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7720))
 // CS Name: ::OVRPlugin::OverlayFlag
 struct CORDL_TYPE __OVRPlugin__OverlayFlag {
@@ -4568,7 +4568,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__OverlayFlag, value__) == 
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7721))
 // CS Name: ::OVRPlugin::Vector2f
 struct CORDL_TYPE __OVRPlugin__Vector2f {
@@ -4604,7 +4604,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Vector2f, y) == 0x4, "Off
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7722))
 // CS Name: ::OVRPlugin::Vector3f
 struct CORDL_TYPE __OVRPlugin__Vector3f {
@@ -4656,7 +4656,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Vector3f, z) == 0x8, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7723))
 // CS Name: ::OVRPlugin::Vector4f
 struct CORDL_TYPE __OVRPlugin__Vector4f {
@@ -4713,7 +4713,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Vector4f, w) == 0xc, "Off
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7724))
 // CS Name: ::OVRPlugin::Vector4s
 struct CORDL_TYPE __OVRPlugin__Vector4s {
@@ -4770,7 +4770,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Vector4s, w) == 0x6, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7725))
 // CS Name: ::OVRPlugin::Quatf
 struct CORDL_TYPE __OVRPlugin__Quatf {
@@ -4827,7 +4827,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Quatf, w) == 0xc, "Offset
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7725))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7725))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7726))
 // CS Name: ::OVRPlugin::Posef
 struct CORDL_TYPE __OVRPlugin__Posef {
@@ -4874,7 +4874,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Posef, Position) == 0x10,
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10246))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7727))
 // CS Name: ::OVRPlugin::TextureRectMatrixf
 struct CORDL_TYPE __OVRPlugin__TextureRectMatrixf {
@@ -4932,7 +4932,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TextureRectMatrixf, right
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7726))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7726))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7728))
 // CS Name: ::OVRPlugin::PoseStatef
 struct CORDL_TYPE __OVRPlugin__PoseStatef {
@@ -4999,7 +4999,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PoseStatef, Time) == 0x50
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7729))
 // CS Name: ::OVRPlugin::HapticsLocation
 struct CORDL_TYPE __OVRPlugin__HapticsLocation {
@@ -5057,7 +5057,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HapticsLocation, value__)
 // SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7721))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7721))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7730))
 // CS Name: ::OVRPlugin::ControllerState6
 struct CORDL_TYPE __OVRPlugin__ControllerState6 {
@@ -5233,7 +5233,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__ControllerState6, RIndexT
 // SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7721))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7721))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7731))
 // CS Name: ::OVRPlugin::ControllerState5
 struct CORDL_TYPE __OVRPlugin__ControllerState5 {
@@ -5397,7 +5397,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__ControllerState5, RIndexT
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7721))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7721))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7732))
 // CS Name: ::OVRPlugin::ControllerState4
 struct CORDL_TYPE __OVRPlugin__ControllerState4 {
@@ -5672,7 +5672,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__ControllerState4, Reserve
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7721))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7721))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7733))
 // CS Name: ::OVRPlugin::ControllerState2
 struct CORDL_TYPE __OVRPlugin__ControllerState2 {
@@ -5768,7 +5768,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__ControllerState2, RTouchp
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7721))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7721))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7734))
 // CS Name: ::OVRPlugin::ControllerState
 struct CORDL_TYPE __OVRPlugin__ControllerState {
@@ -5849,7 +5849,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__ControllerState, RThumbst
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7735))
 // CS Name: ::OVRPlugin::HapticsBuffer
 struct CORDL_TYPE __OVRPlugin__HapticsBuffer {
@@ -5885,7 +5885,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HapticsBuffer, SamplesCou
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7736))
 // CS Name: ::OVRPlugin::HapticsState
 struct CORDL_TYPE __OVRPlugin__HapticsState {
@@ -5921,7 +5921,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HapticsState, SamplesQueu
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7737))
 // CS Name: ::OVRPlugin::HapticsDesc
 struct CORDL_TYPE __OVRPlugin__HapticsDesc {
@@ -5980,7 +5980,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HapticsDesc, MaximumBuffe
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7738))
 // CS Name: ::OVRPlugin::HapticsAmplitudeEnvelopeVibration
 struct CORDL_TYPE __OVRPlugin__HapticsAmplitudeEnvelopeVibration {
@@ -6022,7 +6022,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HapticsAmplitudeEnvelopeV
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7686))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7739))
 // CS Name: ::OVRPlugin::HapticsPcmVibration
 struct CORDL_TYPE __OVRPlugin__HapticsPcmVibration {
@@ -6075,7 +6075,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HapticsPcmVibration, Samp
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7740))
 // CS Name: ::OVRPlugin::HapticsConstants
 struct CORDL_TYPE __OVRPlugin__HapticsConstants {
@@ -6121,7 +6121,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HapticsConstants, value__
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7741))
 // CS Name: ::OVRPlugin::AppPerfFrameStats
 struct CORDL_TYPE __OVRPlugin__AppPerfFrameStats {
@@ -6226,7 +6226,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__AppPerfFrameStats, Compos
 // SizeInfo { instance_size: 24, native_size: 292, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7742))
 // CS Name: ::OVRPlugin::AppPerfStats
 struct CORDL_TYPE __OVRPlugin__AppPerfStats {
@@ -6275,7 +6275,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__AppPerfStats, AdaptiveGpu
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7743))
 // CS Name: ::OVRPlugin::Sizei
 struct CORDL_TYPE __OVRPlugin__Sizei {
@@ -6333,7 +6333,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Sizei, h) == 0x4, "Offset
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7744))
 // CS Name: ::OVRPlugin::Sizef
 struct CORDL_TYPE __OVRPlugin__Sizef {
@@ -6376,7 +6376,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Sizef, h) == 0x4, "Offset
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7745))
 // CS Name: ::OVRPlugin::Size3f
 struct CORDL_TYPE __OVRPlugin__Size3f {
@@ -6425,7 +6425,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Size3f, d) == 0x8, "Offse
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7746))
 // CS Name: ::OVRPlugin::Vector2i
 struct CORDL_TYPE __OVRPlugin__Vector2i {
@@ -6461,7 +6461,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Vector2i, y) == 0x4, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7746)), TypeDefinitionIndex(TypeDefinitionIndex(7743))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7743)), TypeDefinitionIndex(TypeDefinitionIndex(7746))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7747))
 // CS Name: ::OVRPlugin::Recti
 struct CORDL_TYPE __OVRPlugin__Recti {
@@ -6498,7 +6498,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Recti, Size) == 0x8, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7744)), TypeDefinitionIndex(TypeDefinitionIndex(7721))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7721)), TypeDefinitionIndex(TypeDefinitionIndex(7744))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7748))
 // CS Name: ::OVRPlugin::Rectf
 struct CORDL_TYPE __OVRPlugin__Rectf {
@@ -6535,7 +6535,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Rectf, Size) == 0x8, "Off
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7745))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7745))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7749))
 // CS Name: ::OVRPlugin::Boundsf
 struct CORDL_TYPE __OVRPlugin__Boundsf {
@@ -6572,7 +6572,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Boundsf, Size) == 0xc, "O
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7750))
 // CS Name: ::OVRPlugin::Frustumf
 struct CORDL_TYPE __OVRPlugin__Frustumf {
@@ -6619,7 +6619,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Frustumf, fovY) == 0xc, "
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7756))
 // CS Name: ::OVRPlugin::Fovf
 struct CORDL_TYPE __OVRPlugin__Fovf {
@@ -6666,7 +6666,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Fovf, RightTan) == 0xc, "
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7756))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7756))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7751))
 // CS Name: ::OVRPlugin::Frustumf2
 struct CORDL_TYPE __OVRPlugin__Frustumf2 {
@@ -6708,7 +6708,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Frustumf2, Fov) == 0x8, "
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7752))
 // CS Name: ::OVRPlugin::BoundaryType
 struct CORDL_TYPE __OVRPlugin__BoundaryType {
@@ -6758,7 +6758,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BoundaryType, value__) ==
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7722))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7722))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7753))
 // CS Name: ::OVRPlugin::BoundaryTestResult
 struct CORDL_TYPE __OVRPlugin__BoundaryTestResult {
@@ -6807,7 +6807,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BoundaryTestResult, Close
 // SizeInfo { instance_size: 24, native_size: 3080, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7752))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7752))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7754))
 // CS Name: ::OVRPlugin::BoundaryGeometry
 struct CORDL_TYPE __OVRPlugin__BoundaryGeometry {
@@ -6851,7 +6851,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BoundaryGeometry, PointsC
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7755))
 // CS Name: ::OVRPlugin::Colorf
 struct CORDL_TYPE __OVRPlugin__Colorf {
@@ -6901,7 +6901,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Colorf, a) == 0xc, "Offse
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7743))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7743)), TypeDefinitionIndex(TypeDefinitionIndex(7756))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7757))
 // CS Name: ::OVRPlugin::CameraIntrinsics
 struct CORDL_TYPE __OVRPlugin__CameraIntrinsics {
@@ -6961,8 +6961,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraIntrinsics, ImageSe
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7690)), TypeDefinitionIndex(TypeDefinitionIndex(7695)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7726))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7758)) CS Name: ::OVRPlugin::CameraExtrinsics
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7690)), TypeDefinitionIndex(TypeDefinitionIndex(7695)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7726))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7758)) CS Name: ::OVRPlugin::CameraExtrinsics
 struct CORDL_TYPE __OVRPlugin__CameraExtrinsics {
 public:
   // Declarations
@@ -7014,7 +7014,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraExtrinsics, Relativ
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7759))
 // CS Name: ::OVRPlugin::LayerLayout
 struct CORDL_TYPE __OVRPlugin__LayerLayout {
@@ -7076,7 +7076,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerLayout, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7760))
 // CS Name: ::OVRPlugin::LayerFlags
 struct CORDL_TYPE __OVRPlugin__LayerFlags {
@@ -7154,8 +7154,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerFlags, value__) == 0
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7759)), TypeDefinitionIndex(TypeDefinitionIndex(7706)), TypeDefinitionIndex(TypeDefinitionIndex(7702)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7743))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7761)) CS Name: ::OVRPlugin::LayerDesc
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7706)), TypeDefinitionIndex(TypeDefinitionIndex(7743)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7759))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7761)) CS Name: ::OVRPlugin::LayerDesc
 struct CORDL_TYPE __OVRPlugin__LayerDesc {
 public:
   // Declarations
@@ -7266,8 +7266,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerDesc, MotionVectorTe
 // SizeInfo { instance_size: 124, native_size: 124, calculated_instance_size: 124, calculated_native_size: 140, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7748)), TypeDefinitionIndex(TypeDefinitionIndex(7743)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7706)), TypeDefinitionIndex(TypeDefinitionIndex(7759))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7762))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7706)), TypeDefinitionIndex(TypeDefinitionIndex(7743)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7748)), TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7759))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7762))
 // CS Name: ::OVRPlugin::LayerDescInternal
 struct CORDL_TYPE __OVRPlugin__LayerDescInternal {
 public:
@@ -7392,7 +7392,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerDescInternal, Motion
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7763))
 // CS Name: ::OVRPlugin::BlendFactor
 struct CORDL_TYPE __OVRPlugin__BlendFactor {
@@ -7458,7 +7458,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BlendFactor, value__) == 
 // SizeInfo { instance_size: 48, native_size: 72, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7764))
 // CS Name: ::OVRPlugin::LayerSubmit
 struct CORDL_TYPE __OVRPlugin__LayerSubmit {
@@ -7512,7 +7512,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerSubmit, LayerSubmitF
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7765))
 // CS Name: ::OVRPlugin::TrackingConfidence
 struct CORDL_TYPE __OVRPlugin__TrackingConfidence {
@@ -7562,7 +7562,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TrackingConfidence, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7766))
 // CS Name: ::OVRPlugin::Hand
 struct CORDL_TYPE __OVRPlugin__Hand {
@@ -7616,7 +7616,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Hand, value__) == 0x0, "O
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7767))
 // CS Name: ::OVRPlugin::HandStatus
 struct CORDL_TYPE __OVRPlugin__HandStatus {
@@ -7678,7 +7678,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HandStatus, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7768))
 // CS Name: ::OVRPlugin::BoneId
 struct CORDL_TYPE __OVRPlugin__BoneId {
@@ -8124,7 +8124,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BoneId, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7769))
 // CS Name: ::OVRPlugin::HandFinger
 struct CORDL_TYPE __OVRPlugin__HandFinger {
@@ -8190,7 +8190,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HandFinger, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7770))
 // CS Name: ::OVRPlugin::HandFingerPinch
 struct CORDL_TYPE __OVRPlugin__HandFingerPinch {
@@ -8252,8 +8252,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HandFingerPinch, value__)
 // SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7770)), TypeDefinitionIndex(TypeDefinitionIndex(7765)), TypeDefinitionIndex(TypeDefinitionIndex(7767)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7726))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7771)) CS Name: ::OVRPlugin::HandState
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7765)), TypeDefinitionIndex(TypeDefinitionIndex(7767)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7770))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7771)) CS Name: ::OVRPlugin::HandState
 struct CORDL_TYPE __OVRPlugin__HandState {
 public:
   // Declarations
@@ -8344,8 +8344,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HandState, SampleTimeStam
 // SizeInfo { instance_size: 512, native_size: 512, calculated_instance_size: 512, calculated_native_size: 528, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7770)), TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7765)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7767)), TypeDefinitionIndex(TypeDefinitionIndex(7725))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7772)) CS Name: ::OVRPlugin::HandStateInternal
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7725)), TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7765)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7767)), TypeDefinitionIndex(TypeDefinitionIndex(7770))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7772)) CS Name: ::OVRPlugin::HandStateInternal
 struct CORDL_TYPE __OVRPlugin__HandStateInternal {
 public:
   // Declarations
@@ -8619,7 +8619,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HandStateInternal, Sample
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7722))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7722))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7773))
 // CS Name: ::OVRPlugin::BoneCapsule
 struct CORDL_TYPE __OVRPlugin__BoneCapsule {
@@ -8667,7 +8667,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BoneCapsule, Radius) == 0
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7768)), TypeDefinitionIndex(TypeDefinitionIndex(7726))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7768))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7774))
 // CS Name: ::OVRPlugin::Bone
 struct CORDL_TYPE __OVRPlugin__Bone {
@@ -8709,7 +8709,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Bone, Pose) == 0x8, "Offs
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7775))
 // CS Name: ::OVRPlugin::SkeletonConstants
 struct CORDL_TYPE __OVRPlugin__SkeletonConstants {
@@ -8771,7 +8771,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SkeletonConstants, value_
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7776))
 // CS Name: ::OVRPlugin::SkeletonType
 struct CORDL_TYPE __OVRPlugin__SkeletonType {
@@ -8829,7 +8829,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SkeletonType, value__) ==
 // SizeInfo { instance_size: 32, native_size: 1484, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7776))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7776))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7777))
 // CS Name: ::OVRPlugin::Skeleton
 struct CORDL_TYPE __OVRPlugin__Skeleton {
@@ -8885,7 +8885,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Skeleton, BoneCapsules) =
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7776))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7776))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7778))
 // CS Name: ::OVRPlugin::Skeleton2
 struct CORDL_TYPE __OVRPlugin__Skeleton2 {
@@ -8941,7 +8941,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Skeleton2, BoneCapsules) 
 // SizeInfo { instance_size: 3140, native_size: 3140, calculated_instance_size: 3140, calculated_native_size: 3156, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7774)), TypeDefinitionIndex(TypeDefinitionIndex(7776)), TypeDefinitionIndex(TypeDefinitionIndex(7773))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7773)), TypeDefinitionIndex(TypeDefinitionIndex(7774)), TypeDefinitionIndex(TypeDefinitionIndex(7776))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7779))
 // CS Name: ::OVRPlugin::Skeleton2Internal
 struct CORDL_TYPE __OVRPlugin__Skeleton2Internal {
@@ -9506,7 +9506,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Skeleton2Internal, BoneCa
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7780))
 // CS Name: ::OVRPlugin::MeshConstants
 struct CORDL_TYPE __OVRPlugin__MeshConstants {
@@ -9556,7 +9556,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__MeshConstants, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7781))
 // CS Name: ::OVRPlugin::MeshType
 struct CORDL_TYPE __OVRPlugin__MeshType {
@@ -9610,92 +9610,97 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__MeshType, value__) == 0x0
 // SizeInfo { instance_size: 80, native_size: 204012, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7781))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7781))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7782))
 // CS Name: ::OVRPlugin::Mesh*
 class CORDL_TYPE __OVRPlugin__Mesh : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Type, offset 0x10, size 0x4
-  __declspec(property(get = __get_Type, put = __set_Type))::GlobalNamespace::__OVRPlugin__MeshType Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::GlobalNamespace::__OVRPlugin__MeshType Type;
 
   /// @brief Field NumVertices, offset 0x14, size 0x4
-  __declspec(property(get = __get_NumVertices, put = __set_NumVertices)) uint32_t NumVertices;
+  __declspec(property(get = __cordl_internal_get_NumVertices, put = __cordl_internal_set_NumVertices)) uint32_t NumVertices;
 
   /// @brief Field NumIndices, offset 0x18, size 0x4
-  __declspec(property(get = __get_NumIndices, put = __set_NumIndices)) uint32_t NumIndices;
+  __declspec(property(get = __cordl_internal_get_NumIndices, put = __cordl_internal_set_NumIndices)) uint32_t NumIndices;
 
   /// @brief Field VertexPositions, offset 0x20, size 0x8
-  __declspec(property(get = __get_VertexPositions, put = __set_VertexPositions))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> VertexPositions;
+  __declspec(property(get = __cordl_internal_get_VertexPositions,
+                      put = __cordl_internal_set_VertexPositions))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> VertexPositions;
 
   /// @brief Field Indices, offset 0x28, size 0x8
-  __declspec(property(get = __get_Indices, put = __set_Indices))::ArrayW<int16_t, ::Array<int16_t>*> Indices;
+  __declspec(property(get = __cordl_internal_get_Indices, put = __cordl_internal_set_Indices))::ArrayW<int16_t, ::Array<int16_t>*> Indices;
 
   /// @brief Field VertexNormals, offset 0x30, size 0x8
-  __declspec(property(get = __get_VertexNormals, put = __set_VertexNormals))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> VertexNormals;
+  __declspec(property(get = __cordl_internal_get_VertexNormals,
+                      put = __cordl_internal_set_VertexNormals))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> VertexNormals;
 
   /// @brief Field VertexUV0, offset 0x38, size 0x8
-  __declspec(property(get = __get_VertexUV0, put = __set_VertexUV0))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> VertexUV0;
+  __declspec(property(get = __cordl_internal_get_VertexUV0,
+                      put = __cordl_internal_set_VertexUV0))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> VertexUV0;
 
   /// @brief Field BlendIndices, offset 0x40, size 0x8
-  __declspec(property(get = __get_BlendIndices, put = __set_BlendIndices))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> BlendIndices;
+  __declspec(property(get = __cordl_internal_get_BlendIndices,
+                      put = __cordl_internal_set_BlendIndices))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> BlendIndices;
 
   /// @brief Field BlendWeights, offset 0x48, size 0x8
-  __declspec(property(get = __get_BlendWeights, put = __set_BlendWeights))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> BlendWeights;
+  __declspec(property(get = __cordl_internal_get_BlendWeights,
+                      put = __cordl_internal_set_BlendWeights))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> BlendWeights;
 
-  constexpr ::GlobalNamespace::__OVRPlugin__MeshType& __get_Type();
+  constexpr ::GlobalNamespace::__OVRPlugin__MeshType& __cordl_internal_get_Type();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__MeshType const& __get_Type() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__MeshType const& __cordl_internal_get_Type() const;
 
-  constexpr void __set_Type(::GlobalNamespace::__OVRPlugin__MeshType value);
+  constexpr void __cordl_internal_set_Type(::GlobalNamespace::__OVRPlugin__MeshType value);
 
-  constexpr uint32_t& __get_NumVertices();
+  constexpr uint32_t& __cordl_internal_get_NumVertices();
 
-  constexpr uint32_t const& __get_NumVertices() const;
+  constexpr uint32_t const& __cordl_internal_get_NumVertices() const;
 
-  constexpr void __set_NumVertices(uint32_t value);
+  constexpr void __cordl_internal_set_NumVertices(uint32_t value);
 
-  constexpr uint32_t& __get_NumIndices();
+  constexpr uint32_t& __cordl_internal_get_NumIndices();
 
-  constexpr uint32_t const& __get_NumIndices() const;
+  constexpr uint32_t const& __cordl_internal_get_NumIndices() const;
 
-  constexpr void __set_NumIndices(uint32_t value);
+  constexpr void __cordl_internal_set_NumIndices(uint32_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __get_VertexPositions();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __cordl_internal_get_VertexPositions();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& __get_VertexPositions() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& __cordl_internal_get_VertexPositions() const;
 
-  constexpr void __set_VertexPositions(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
+  constexpr void __cordl_internal_set_VertexPositions(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_Indices();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_Indices();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_Indices() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_Indices() const;
 
-  constexpr void __set_Indices(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_Indices(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __get_VertexNormals();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __cordl_internal_get_VertexNormals();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& __get_VertexNormals() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& __cordl_internal_get_VertexNormals() const;
 
-  constexpr void __set_VertexNormals(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
+  constexpr void __cordl_internal_set_VertexNormals(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*>& __get_VertexUV0();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*>& __cordl_internal_get_VertexUV0();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> const& __get_VertexUV0() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> const& __cordl_internal_get_VertexUV0() const;
 
-  constexpr void __set_VertexUV0(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> value);
+  constexpr void __cordl_internal_set_VertexUV0(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*>& __get_BlendIndices();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*>& __cordl_internal_get_BlendIndices();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> const& __get_BlendIndices() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> const& __cordl_internal_get_BlendIndices() const;
 
-  constexpr void __set_BlendIndices(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> value);
+  constexpr void __cordl_internal_set_BlendIndices(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*>& __get_BlendWeights();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*>& __cordl_internal_get_BlendWeights();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> const& __get_BlendWeights() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> const& __cordl_internal_get_BlendWeights() const;
 
-  constexpr void __set_BlendWeights(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> value);
+  constexpr void __cordl_internal_set_BlendWeights(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> value);
 
   static inline ::GlobalNamespace::__OVRPlugin__Mesh* New_ctor();
 
@@ -9771,7 +9776,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Mesh, ___BlendWeights) ==
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7783))
 // CS Name: ::OVRPlugin::SpaceLocationFlags
 struct CORDL_TYPE __OVRPlugin__SpaceLocationFlags {
@@ -9829,7 +9834,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceLocationFlags, value
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7783))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7783))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7784))
 // CS Name: ::OVRPlugin::SpaceLocationf
 struct CORDL_TYPE __OVRPlugin__SpaceLocationf {
@@ -9866,7 +9871,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceLocationf, pose) == 
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7783)), TypeDefinitionIndex(TypeDefinitionIndex(7726))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7783))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7785))
 // CS Name: ::OVRPlugin::BodyJointLocation
 struct CORDL_TYPE __OVRPlugin__BodyJointLocation {
@@ -9923,7 +9928,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BodyJointLocation, Pose) 
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7786))
 // CS Name: ::OVRPlugin::BodyState
 struct CORDL_TYPE __OVRPlugin__BodyState {
@@ -9972,7 +9977,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BodyState, Time) == 0x10,
 // SizeInfo { instance_size: 2824, native_size: 2824, calculated_instance_size: 2824, calculated_native_size: 2840, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7785)), TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7785))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7787))
 // CS Name: ::OVRPlugin::BodyStateInternal
 struct CORDL_TYPE __OVRPlugin__BodyStateInternal {
@@ -10451,7 +10456,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BodyStateInternal, JointL
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7728)), TypeDefinitionIndex(TypeDefinitionIndex(7723)), TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7723)), TypeDefinitionIndex(TypeDefinitionIndex(7728))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7788))
 // CS Name: ::OVRPlugin::KeyboardState
 struct CORDL_TYPE __OVRPlugin__KeyboardState {
@@ -10518,7 +10523,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__KeyboardState, ContrastPa
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7789))
 // CS Name: ::OVRPlugin::KeyboardDescriptionConstants
 struct CORDL_TYPE __OVRPlugin__KeyboardDescriptionConstants {
@@ -10564,7 +10569,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__KeyboardDescriptionConsta
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7790))
 // CS Name: ::OVRPlugin::TrackedKeyboardPresentationStyles
 struct CORDL_TYPE __OVRPlugin__TrackedKeyboardPresentationStyles {
@@ -10618,7 +10623,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentati
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7791))
 // CS Name: ::OVRPlugin::TrackedKeyboardFlags
 struct CORDL_TYPE __OVRPlugin__TrackedKeyboardFlags {
@@ -10676,7 +10681,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TrackedKeyboardFlags, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7792))
 // CS Name: ::OVRPlugin::TrackedKeyboardQueryFlags
 struct CORDL_TYPE __OVRPlugin__TrackedKeyboardQueryFlags {
@@ -10726,7 +10731,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags
 // SizeInfo { instance_size: 40, native_size: 160, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7790)), TypeDefinitionIndex(TypeDefinitionIndex(7791))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7790)), TypeDefinitionIndex(TypeDefinitionIndex(7791))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7793))
 // CS Name: ::OVRPlugin::KeyboardDescription
 struct CORDL_TYPE __OVRPlugin__KeyboardDescription {
@@ -10782,7 +10787,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__KeyboardDescription, Supp
 // SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7794))
 // CS Name: ::OVRPlugin::FaceExpressionStatus
 struct CORDL_TYPE __OVRPlugin__FaceExpressionStatus {
@@ -10818,7 +10823,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceExpressionStatus, IsE
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7794))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7794))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7795))
 // CS Name: ::OVRPlugin::FaceState
 struct CORDL_TYPE __OVRPlugin__FaceState {
@@ -10867,7 +10872,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceState, Time) == 0x18,
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7796))
 // CS Name: ::OVRPlugin::FaceExpressionStatusInternal
 struct CORDL_TYPE __OVRPlugin__FaceExpressionStatusInternal {
@@ -10907,7 +10912,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceExpressionStatusInter
 // SizeInfo { instance_size: 280, native_size: 280, calculated_instance_size: 280, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7796))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7796))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7797))
 // CS Name: ::OVRPlugin::FaceStateInternal
 struct CORDL_TYPE __OVRPlugin__FaceStateInternal {
@@ -11314,7 +11319,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceStateInternal, Time) 
 // SizeInfo { instance_size: 280, native_size: 280, calculated_instance_size: 280, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7796))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7796))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7798))
 // CS Name: ::OVRPlugin::FaceState2Internal
 struct CORDL_TYPE __OVRPlugin__FaceState2Internal {
@@ -11721,7 +11726,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceState2Internal, Time)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7799))
 // CS Name: ::OVRPlugin::FaceRegionConfidence
 struct CORDL_TYPE __OVRPlugin__FaceRegionConfidence {
@@ -11775,7 +11780,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceRegionConfidence, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7800))
 // CS Name: ::OVRPlugin::FaceExpression
 struct CORDL_TYPE __OVRPlugin__FaceExpression {
@@ -12077,7 +12082,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceExpression, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7801))
 // CS Name: ::OVRPlugin::FaceConstants
 struct CORDL_TYPE __OVRPlugin__FaceConstants {
@@ -12127,7 +12132,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__FaceConstants, value__) =
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7726))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7802))
 // CS Name: ::OVRPlugin::EyeGazeState
 struct CORDL_TYPE __OVRPlugin__EyeGazeState {
@@ -12174,7 +12179,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__EyeGazeState, _isValid) =
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7803))
 // CS Name: ::OVRPlugin::EyeGazesState
 struct CORDL_TYPE __OVRPlugin__EyeGazesState {
@@ -12211,7 +12216,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__EyeGazesState, Time) == 0
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7802))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7802))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7804))
 // CS Name: ::OVRPlugin::EyeGazesStateInternal
 struct CORDL_TYPE __OVRPlugin__EyeGazesStateInternal {
@@ -12253,7 +12258,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__EyeGazesStateInternal, Ti
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7805))
 // CS Name: ::OVRPlugin::ColorSpace
 struct CORDL_TYPE __OVRPlugin__ColorSpace {
@@ -12331,7 +12336,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__ColorSpace, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7806))
 // CS Name: ::OVRPlugin::EventType
 struct CORDL_TYPE __OVRPlugin__EventType {
@@ -12437,7 +12442,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__EventType, value__) == 0x
 // SizeInfo { instance_size: 16, native_size: 4004, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7806))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7806))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7807))
 // CS Name: ::OVRPlugin::EventDataBuffer
 struct CORDL_TYPE __OVRPlugin__EventDataBuffer {
@@ -12474,7 +12479,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__EventDataBuffer, EventDat
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7808))
 // CS Name: ::OVRPlugin::RenderModelProperties
 struct CORDL_TYPE __OVRPlugin__RenderModelProperties {
@@ -12521,7 +12526,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__RenderModelProperties, Mo
 // SizeInfo { instance_size: 24, native_size: 80, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7809))
 // CS Name: ::OVRPlugin::RenderModelPropertiesInternal
 struct CORDL_TYPE __OVRPlugin__RenderModelPropertiesInternal {
@@ -12568,7 +12573,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__RenderModelPropertiesInte
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7810))
 // CS Name: ::OVRPlugin::RenderModelFlags
 struct CORDL_TYPE __OVRPlugin__RenderModelFlags {
@@ -12618,7 +12623,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__RenderModelFlags, value__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7811))
 // CS Name: ::OVRPlugin::VirtualKeyboardLocationType
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardLocationType {
@@ -12672,7 +12677,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardLocationTy
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7811))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7811))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7812))
 // CS Name: ::OVRPlugin::VirtualKeyboardSpaceCreateInfo
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardSpaceCreateInfo {
@@ -12709,7 +12714,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardSpaceCreat
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7811)), TypeDefinitionIndex(TypeDefinitionIndex(7726))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7811))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7813))
 // CS Name: ::OVRPlugin::VirtualKeyboardLocationInfo
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardLocationInfo {
@@ -12751,7 +12756,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardLocationIn
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7814))
 // CS Name: ::OVRPlugin::VirtualKeyboardCreateInfo
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardCreateInfo {
@@ -12777,7 +12782,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__Vi
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7815))
 // CS Name: ::OVRPlugin::VirtualKeyboardInputSource
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardInputSource {
@@ -12859,7 +12864,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardInputSourc
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7816))
 // CS Name: ::OVRPlugin::VirtualKeyboardInputStateFlags
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardInputStateFlags {
@@ -12905,7 +12910,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardInputState
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7816)), TypeDefinitionIndex(TypeDefinitionIndex(7815))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7815)), TypeDefinitionIndex(TypeDefinitionIndex(7816))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7817))
 // CS Name: ::OVRPlugin::VirtualKeyboardInputInfo
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardInputInfo {
@@ -12949,7 +12954,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardInputInfo,
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7818))
 // CS Name: ::OVRPlugin::VirtualKeyboardModelAnimationState
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardModelAnimationState {
@@ -12985,7 +12990,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelAnima
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7819))
 // CS Name: ::OVRPlugin::VirtualKeyboardModelAnimationStates
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardModelAnimationStates {
@@ -13018,7 +13023,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelAnima
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7820))
 // CS Name: ::OVRPlugin::VirtualKeyboardModelAnimationStatesInternal
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardModelAnimationStatesInternal {
@@ -13060,7 +13065,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelAnima
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7821))
 // CS Name: ::OVRPlugin::VirtualKeyboardTextureIds
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardTextureIds {
@@ -13091,7 +13096,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureIds
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7822))
 // CS Name: ::OVRPlugin::VirtualKeyboardTextureIdsInternal
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardTextureIdsInternal {
@@ -13133,7 +13138,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureIds
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7823))
 // CS Name: ::OVRPlugin::VirtualKeyboardTextureData
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardTextureData {
@@ -13186,7 +13191,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureDat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7686))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7824))
 // CS Name: ::OVRPlugin::VirtualKeyboardModelVisibility
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardModelVisibility {
@@ -13225,7 +13230,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelVisib
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7825))
 // CS Name: ::OVRPlugin::InsightPassthroughColorMapType
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughColorMapType {
@@ -13291,7 +13296,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMa
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7826))
 // CS Name: ::OVRPlugin::InsightPassthroughStyleFlags
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughStyleFlags {
@@ -13345,8 +13350,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InsightPassthroughStyleFl
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7755)), TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(7826)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2603))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7827)) CS Name: ::OVRPlugin::InsightPassthroughStyle
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7755)), TypeDefinitionIndex(TypeDefinitionIndex(7825)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7826))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7827)) CS Name: ::OVRPlugin::InsightPassthroughStyle
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughStyle {
 public:
   // Declarations
@@ -13405,8 +13410,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle, 
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7826)), TypeDefinitionIndex(TypeDefinitionIndex(7755)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7825))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7828)) CS Name: ::OVRPlugin::InsightPassthroughStyle2
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7755)), TypeDefinitionIndex(TypeDefinitionIndex(7825)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7826))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7828)) CS Name: ::OVRPlugin::InsightPassthroughStyle2
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughStyle2 {
 public:
   // Declarations
@@ -13484,7 +13489,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7829))
 // CS Name: ::OVRPlugin::PassthroughColorLutChannels
 struct CORDL_TYPE __OVRPlugin__PassthroughColorLutChannels {
@@ -13534,7 +13539,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughColorLutChanne
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7830))
 // CS Name: ::OVRPlugin::PassthroughColorLutData
 struct CORDL_TYPE __OVRPlugin__PassthroughColorLutData {
@@ -13570,7 +13575,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughColorLutData, 
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7831))
 // CS Name: ::OVRPlugin::InsightPassthroughKeyboardHandsIntensity
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughKeyboardHandsIntensity {
@@ -13606,7 +13611,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InsightPassthroughKeyboar
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7832))
 // CS Name: ::OVRPlugin::PassthroughCapabilityFlags
 struct CORDL_TYPE __OVRPlugin__PassthroughCapabilityFlags {
@@ -13660,7 +13665,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughCapabilityFlag
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7833))
 // CS Name: ::OVRPlugin::PassthroughCapabilityFields
 struct CORDL_TYPE __OVRPlugin__PassthroughCapabilityFields {
@@ -13710,7 +13715,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughCapabilityFiel
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7833)), TypeDefinitionIndex(TypeDefinitionIndex(7832))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7832)), TypeDefinitionIndex(TypeDefinitionIndex(7833))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7834))
 // CS Name: ::OVRPlugin::PassthroughCapabilities
 struct CORDL_TYPE __OVRPlugin__PassthroughCapabilities {
@@ -13753,7 +13758,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughCapabilities, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7835))
 // CS Name: ::OVRPlugin::SpaceComponentType
 struct CORDL_TYPE __OVRPlugin__SpaceComponentType {
@@ -13831,7 +13836,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceComponentType, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7836))
 // CS Name: ::OVRPlugin::SpaceStorageLocation
 struct CORDL_TYPE __OVRPlugin__SpaceStorageLocation {
@@ -13885,7 +13890,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceStorageLocation, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7837))
 // CS Name: ::OVRPlugin::SpaceStoragePersistenceMode
 struct CORDL_TYPE __OVRPlugin__SpaceStoragePersistenceMode {
@@ -13935,7 +13940,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceStoragePersistenceMo
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7838))
 // CS Name: ::OVRPlugin::SpaceQueryActionType
 struct CORDL_TYPE __OVRPlugin__SpaceQueryActionType {
@@ -13981,7 +13986,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceQueryActionType, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7839))
 // CS Name: ::OVRPlugin::SpaceQueryType
 struct CORDL_TYPE __OVRPlugin__SpaceQueryType {
@@ -14027,7 +14032,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceQueryType, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7840))
 // CS Name: ::OVRPlugin::SpaceQueryFilterType
 struct CORDL_TYPE __OVRPlugin__SpaceQueryFilterType {
@@ -14081,7 +14086,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceQueryFilterType, val
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7699))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7699)), TypeDefinitionIndex(TypeDefinitionIndex(7726))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7841))
 // CS Name: ::OVRPlugin::SpatialAnchorCreateInfo
 struct CORDL_TYPE __OVRPlugin__SpatialAnchorCreateInfo {
@@ -14123,7 +14128,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpatialAnchorCreateInfo, 
 // SizeInfo { instance_size: 16, native_size: 16388, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7842))
 // CS Name: ::OVRPlugin::SpaceFilterInfoIds
 struct CORDL_TYPE __OVRPlugin__SpaceFilterInfoIds {
@@ -14160,7 +14165,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceFilterInfoIds, NumId
 // SizeInfo { instance_size: 16, native_size: 68, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7843))
 // CS Name: ::OVRPlugin::SpaceFilterInfoComponents
 struct CORDL_TYPE __OVRPlugin__SpaceFilterInfoComponents {
@@ -14198,8 +14203,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceFilterInfoComponents
 // SizeInfo { instance_size: 64, native_size: 16488, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7836)), TypeDefinitionIndex(TypeDefinitionIndex(7840)), TypeDefinitionIndex(TypeDefinitionIndex(7843)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7838)), TypeDefinitionIndex(TypeDefinitionIndex(7842)), TypeDefinitionIndex(TypeDefinitionIndex(7839))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7844))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7836)), TypeDefinitionIndex(TypeDefinitionIndex(7838)), TypeDefinitionIndex(TypeDefinitionIndex(7839)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7840)), TypeDefinitionIndex(TypeDefinitionIndex(7842)), TypeDefinitionIndex(TypeDefinitionIndex(7843))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7844))
 // CS Name: ::OVRPlugin::SpaceQueryInfo
 struct CORDL_TYPE __OVRPlugin__SpaceQueryInfo {
 public:
@@ -14271,7 +14276,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceQueryInfo, Component
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7845))
 // CS Name: ::OVRPlugin::SpaceQueryResult
 struct CORDL_TYPE __OVRPlugin__SpaceQueryResult {
@@ -14307,7 +14312,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceQueryResult, uuid) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7846))
 // CS Name: ::OVRPlugin::Media::MrcActivationMode
 struct CORDL_TYPE __OVRPlugin__Media__MrcActivationMode {
@@ -14361,7 +14366,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Media__MrcActivationMode,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7847))
 // CS Name: ::OVRPlugin::Media::PlatformCameraMode
 struct CORDL_TYPE __OVRPlugin__Media__PlatformCameraMode {
@@ -14443,7 +14448,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7848))
 // CS Name: ::OVRPlugin::Media::InputVideoBufferType
 struct CORDL_TYPE __OVRPlugin__Media__InputVideoBufferType {
@@ -14497,7 +14502,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Media__InputVideoBufferTy
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7849))
 // CS Name: ::OVRPlugin::Media*
 class CORDL_TYPE __OVRPlugin__Media : public ::System::Object {
@@ -14510,11 +14515,11 @@ public:
   using MrcActivationMode = ::GlobalNamespace::__OVRPlugin__Media__MrcActivationMode;
 
   /// @brief Field cachedTexture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cachedTexture, put = setStaticF_cachedTexture))::UnityEngine::Texture2D* cachedTexture;
+  static __declspec(property(get = getStaticF_cachedTexture, put = setStaticF_cachedTexture))::UnityW<::UnityEngine::Texture2D> cachedTexture;
 
-  static inline void setStaticF_cachedTexture(::UnityEngine::Texture2D* value);
+  static inline void setStaticF_cachedTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  static inline ::UnityEngine::Texture2D* getStaticF_cachedTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_cachedTexture();
 
   /// @brief Method Initialize, addr 0x276d698, size 0xc0, virtual false, abstract: false, final false
   static inline bool Initialize();
@@ -14626,7 +14631,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__Me
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7850))
 // CS Name: ::OVRPlugin::SpaceContainerInternal
 struct CORDL_TYPE __OVRPlugin__SpaceContainerInternal {
@@ -14668,7 +14673,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceContainerInternal, u
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7851))
 // CS Name: ::OVRPlugin::SpaceSemanticLabelInternal
 struct CORDL_TYPE __OVRPlugin__SpaceSemanticLabelInternal {
@@ -14710,7 +14715,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceSemanticLabelInterna
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7852))
 // CS Name: ::OVRPlugin::RoomLayout
 struct CORDL_TYPE __OVRPlugin__RoomLayout {
@@ -14752,7 +14757,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__RoomLayout, wallUuids) ==
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7853))
 // CS Name: ::OVRPlugin::RoomLayoutInternal
 struct CORDL_TYPE __OVRPlugin__RoomLayoutInternal {
@@ -14805,7 +14810,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__RoomLayoutInternal, wallU
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7854))
 // CS Name: ::OVRPlugin::PolygonalBoundary2DInternal
 struct CORDL_TYPE __OVRPlugin__PolygonalBoundary2DInternal {
@@ -14847,7 +14852,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PolygonalBoundary2DIntern
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7855))
 // CS Name: ::OVRPlugin::SceneCaptureRequestInternal
 struct CORDL_TYPE __OVRPlugin__SceneCaptureRequestInternal {
@@ -14885,7 +14890,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7856))
 // CS Name: ::OVRPlugin::PinnedArray`1<T>
 struct CORDL_TYPE __OVRPlugin__PinnedArray_1 {
@@ -14927,7 +14932,7 @@ public:
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7857))
 // CS Name: ::OVRPlugin::TriangleMeshInternal
 struct CORDL_TYPE __OVRPlugin__TriangleMeshInternal {
@@ -14985,7 +14990,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TriangleMeshInternal, ind
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7858))
 // CS Name: ::OVRPlugin::PassthroughPreferenceFields
 struct CORDL_TYPE __OVRPlugin__PassthroughPreferenceFields {
@@ -15031,7 +15036,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughPreferenceFiel
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7859))
 // CS Name: ::OVRPlugin::PassthroughPreferenceFlags
 struct CORDL_TYPE __OVRPlugin__PassthroughPreferenceFlags {
@@ -15077,7 +15082,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughPreferenceFlag
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7858)), TypeDefinitionIndex(TypeDefinitionIndex(7859))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7858)), TypeDefinitionIndex(TypeDefinitionIndex(7859))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7860))
 // CS Name: ::OVRPlugin::PassthroughPreferences
 struct CORDL_TYPE __OVRPlugin__PassthroughPreferences {
@@ -15114,7 +15119,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughPreferences, F
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7861))
 // CS Name: ::OVRPlugin::Ktx*
 class CORDL_TYPE __OVRPlugin__Ktx : public ::System::Object {
@@ -15170,7 +15175,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__Kt
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7862))
 // CS Name: ::OVRPlugin::UnityOpenXR*
 class CORDL_TYPE __OVRPlugin__UnityOpenXR : public ::System::Object {
@@ -15245,7 +15250,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__Un
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7863))
 // CS Name: ::OVRPlugin::Qpl::ResultType
 struct CORDL_TYPE __OVRPlugin__Qpl__ResultType {
@@ -15299,7 +15304,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Qpl__ResultType, value__)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7864))
 // CS Name: ::OVRPlugin::Qpl*
 class CORDL_TYPE __OVRPlugin__Qpl : public ::System::Object {
@@ -15358,7 +15363,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__Qp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7865))
 // CS Name: ::OVRPlugin::OVRP_0_1_0*
 class CORDL_TYPE __OVRPlugin__OVRP_0_1_0 : public ::System::Object {
@@ -15398,7 +15403,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7866))
 // CS Name: ::OVRPlugin::OVRP_0_1_1*
 class CORDL_TYPE __OVRPlugin__OVRP_0_1_1 : public ::System::Object {
@@ -15439,7 +15444,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7867))
 // CS Name: ::OVRPlugin::OVRP_0_1_2*
 class CORDL_TYPE __OVRPlugin__OVRP_0_1_2 : public ::System::Object {
@@ -15482,7 +15487,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7868))
 // CS Name: ::OVRPlugin::OVRP_0_1_3*
 class CORDL_TYPE __OVRPlugin__OVRP_0_1_3 : public ::System::Object {
@@ -15525,7 +15530,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7869))
 // CS Name: ::OVRPlugin::OVRP_0_5_0*
 class CORDL_TYPE __OVRPlugin__OVRP_0_5_0 : public ::System::Object {
@@ -15562,7 +15567,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7870))
 // CS Name: ::OVRPlugin::OVRP_1_0_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_0_0 : public ::System::Object {
@@ -15611,7 +15616,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7871))
 // CS Name: ::OVRPlugin::OVRP_1_1_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_1_0 : public ::System::Object {
@@ -15792,7 +15797,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7872))
 // CS Name: ::OVRPlugin::OVRP_1_2_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_2_0 : public ::System::Object {
@@ -15835,7 +15840,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7873))
 // CS Name: ::OVRPlugin::OVRP_1_3_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_3_0 : public ::System::Object {
@@ -15881,7 +15886,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7874))
 // CS Name: ::OVRPlugin::OVRP_1_5_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_5_0 : public ::System::Object {
@@ -15921,7 +15926,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7875))
 // CS Name: ::OVRPlugin::OVRP_1_6_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_6_0 : public ::System::Object {
@@ -15986,7 +15991,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7876))
 // CS Name: ::OVRPlugin::OVRP_1_7_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_7_0 : public ::System::Object {
@@ -16029,7 +16034,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7877))
 // CS Name: ::OVRPlugin::OVRP_1_8_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_8_0 : public ::System::Object {
@@ -16099,7 +16104,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7878))
 // CS Name: ::OVRPlugin::OVRP_1_9_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_9_0 : public ::System::Object {
@@ -16154,7 +16159,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7879))
 // CS Name: ::OVRPlugin::OVRP_1_10_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_10_0 : public ::System::Object {
@@ -16191,7 +16196,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7880))
 // CS Name: ::OVRPlugin::OVRP_1_11_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_11_0 : public ::System::Object {
@@ -16234,7 +16239,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7881))
 // CS Name: ::OVRPlugin::OVRP_1_12_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_12_0 : public ::System::Object {
@@ -16280,7 +16285,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7882))
 // CS Name: ::OVRPlugin::OVRP_1_15_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_15_0 : public ::System::Object {
@@ -16373,7 +16378,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7883))
 // CS Name: ::OVRPlugin::OVRP_1_16_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_16_0 : public ::System::Object {
@@ -16443,7 +16448,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7884))
 // CS Name: ::OVRPlugin::OVRP_1_17_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_17_0 : public ::System::Object {
@@ -16480,7 +16485,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7885))
 // CS Name: ::OVRPlugin::OVRP_1_18_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_18_0 : public ::System::Object {
@@ -16526,7 +16531,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7886))
 // CS Name: ::OVRPlugin::OVRP_1_19_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_19_0 : public ::System::Object {
@@ -16563,7 +16568,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7887))
 // CS Name: ::OVRPlugin::OVRP_1_21_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_21_0 : public ::System::Object {
@@ -16627,7 +16632,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7888))
 // CS Name: ::OVRPlugin::OVRP_1_28_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_28_0 : public ::System::Object {
@@ -16673,7 +16678,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7889))
 // CS Name: ::OVRPlugin::OVRP_1_29_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_29_0 : public ::System::Object {
@@ -16725,7 +16730,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7890))
 // CS Name: ::OVRPlugin::OVRP_1_30_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_30_0 : public ::System::Object {
@@ -16780,7 +16785,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7891))
 // CS Name: ::OVRPlugin::OVRP_1_31_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_31_0 : public ::System::Object {
@@ -16824,7 +16829,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7892))
 // CS Name: ::OVRPlugin::OVRP_1_32_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_32_0 : public ::System::Object {
@@ -16864,7 +16869,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7893))
 // CS Name: ::OVRPlugin::OVRP_1_34_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_34_0 : public ::System::Object {
@@ -16909,7 +16914,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7894))
 // CS Name: ::OVRPlugin::OVRP_1_35_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_35_0 : public ::System::Object {
@@ -16946,7 +16951,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7895))
 // CS Name: ::OVRPlugin::OVRP_1_36_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_36_0 : public ::System::Object {
@@ -16983,7 +16988,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7896))
 // CS Name: ::OVRPlugin::OVRP_1_37_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_37_0 : public ::System::Object {
@@ -17020,7 +17025,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7897))
 // CS Name: ::OVRPlugin::OVRP_1_38_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_38_0 : public ::System::Object {
@@ -17132,7 +17137,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7898))
 // CS Name: ::OVRPlugin::OVRP_1_39_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_39_0 : public ::System::Object {
@@ -17169,7 +17174,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7899))
 // CS Name: ::OVRPlugin::OVRP_1_40_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_40_0 : public ::System::Object {
@@ -17206,7 +17211,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7900))
 // CS Name: ::OVRPlugin::OVRP_1_41_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_41_0 : public ::System::Object {
@@ -17243,7 +17248,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7901))
 // CS Name: ::OVRPlugin::OVRP_1_42_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_42_0 : public ::System::Object {
@@ -17283,7 +17288,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7902))
 // CS Name: ::OVRPlugin::OVRP_1_43_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_43_0 : public ::System::Object {
@@ -17320,7 +17325,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7903))
 // CS Name: ::OVRPlugin::OVRP_1_44_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_44_0 : public ::System::Object {
@@ -17394,7 +17399,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7904))
 // CS Name: ::OVRPlugin::OVRP_1_45_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_45_0 : public ::System::Object {
@@ -17437,7 +17442,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7905))
 // CS Name: ::OVRPlugin::OVRP_1_46_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_46_0 : public ::System::Object {
@@ -17480,7 +17485,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7906))
 // CS Name: ::OVRPlugin::OVRP_1_47_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_47_0 : public ::System::Object {
@@ -17517,7 +17522,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7907))
 // CS Name: ::OVRPlugin::OVRP_1_48_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_48_0 : public ::System::Object {
@@ -17558,7 +17563,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7908))
 // CS Name: ::OVRPlugin::OVRP_1_49_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_49_0 : public ::System::Object {
@@ -17650,7 +17655,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7909))
 // CS Name: ::OVRPlugin::OVRP_1_50_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_50_0 : public ::System::Object {
@@ -17687,7 +17692,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7910))
 // CS Name: ::OVRPlugin::OVRP_1_51_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_51_0 : public ::System::Object {
@@ -17724,7 +17729,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7911))
 // CS Name: ::OVRPlugin::OVRP_1_52_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_52_0 : public ::System::Object {
@@ -17761,7 +17766,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7912))
 // CS Name: ::OVRPlugin::OVRP_1_53_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_53_0 : public ::System::Object {
@@ -17798,7 +17803,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7913))
 // CS Name: ::OVRPlugin::OVRP_1_54_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_54_0 : public ::System::Object {
@@ -17838,7 +17843,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7914))
 // CS Name: ::OVRPlugin::OVRP_1_55_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_55_0 : public ::System::Object {
@@ -17887,7 +17892,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7915))
 // CS Name: ::OVRPlugin::OVRP_1_55_1*
 class CORDL_TYPE __OVRPlugin__OVRP_1_55_1 : public ::System::Object {
@@ -17927,7 +17932,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7916))
 // CS Name: ::OVRPlugin::OVRP_1_56_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_56_0 : public ::System::Object {
@@ -17964,7 +17969,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7917))
 // CS Name: ::OVRPlugin::OVRP_1_57_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_57_0 : public ::System::Object {
@@ -18016,7 +18021,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7918))
 // CS Name: ::OVRPlugin::OVRP_1_58_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_58_0 : public ::System::Object {
@@ -18053,7 +18058,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7919))
 // CS Name: ::OVRPlugin::OVRP_1_59_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_59_0 : public ::System::Object {
@@ -18090,7 +18095,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7920))
 // CS Name: ::OVRPlugin::OVRP_1_60_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_60_0 : public ::System::Object {
@@ -18127,7 +18132,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7921))
 // CS Name: ::OVRPlugin::OVRP_1_61_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_61_0 : public ::System::Object {
@@ -18164,7 +18169,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7922))
 // CS Name: ::OVRPlugin::OVRP_1_62_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_62_0 : public ::System::Object {
@@ -18201,7 +18206,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7923))
 // CS Name: ::OVRPlugin::OVRP_1_63_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_63_0 : public ::System::Object {
@@ -18267,7 +18272,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7924))
 // CS Name: ::OVRPlugin::OVRP_1_64_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_64_0 : public ::System::Object {
@@ -18308,7 +18313,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7925))
 // CS Name: ::OVRPlugin::OVRP_1_65_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_65_0 : public ::System::Object {
@@ -18369,7 +18374,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7926))
 // CS Name: ::OVRPlugin::OVRP_1_66_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_66_0 : public ::System::Object {
@@ -18412,7 +18417,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7927))
 // CS Name: ::OVRPlugin::OVRP_1_67_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_67_0 : public ::System::Object {
@@ -18449,7 +18454,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7928))
 // CS Name: ::OVRPlugin::OVRP_1_68_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_68_0 : public ::System::Object {
@@ -18519,7 +18524,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7929))
 // CS Name: ::OVRPlugin::OVRP_1_69_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_69_0 : public ::System::Object {
@@ -18559,7 +18564,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7930))
 // CS Name: ::OVRPlugin::OVRP_1_70_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_70_0 : public ::System::Object {
@@ -18599,7 +18604,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7931))
 // CS Name: ::OVRPlugin::OVRP_1_71_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_71_0 : public ::System::Object {
@@ -18684,7 +18689,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7932))
 // CS Name: ::OVRPlugin::OVRP_1_72_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_72_0 : public ::System::Object {
@@ -18771,7 +18776,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7933))
 // CS Name: ::OVRPlugin::OVRP_1_73_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_73_0 : public ::System::Object {
@@ -18808,7 +18813,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7934))
 // CS Name: ::OVRPlugin::OVRP_1_74_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_74_0 : public ::System::Object {
@@ -18874,7 +18879,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7935))
 // CS Name: ::OVRPlugin::OVRP_1_75_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_75_0 : public ::System::Object {
@@ -18911,7 +18916,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7936))
 // CS Name: ::OVRPlugin::OVRP_1_76_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_76_0 : public ::System::Object {
@@ -18952,7 +18957,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7937))
 // CS Name: ::OVRPlugin::OVRP_1_78_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_78_0 : public ::System::Object {
@@ -19080,7 +19085,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7938))
 // CS Name: ::OVRPlugin::OVRP_1_79_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_79_0 : public ::System::Object {
@@ -19159,7 +19164,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7939))
 // CS Name: ::OVRPlugin::OVRP_1_81_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_81_0 : public ::System::Object {
@@ -19196,7 +19201,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7940))
 // CS Name: ::OVRPlugin::OVRP_1_82_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_82_0 : public ::System::Object {
@@ -19236,7 +19241,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7941))
 // CS Name: ::OVRPlugin::OVRP_1_83_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_83_0 : public ::System::Object {
@@ -19288,7 +19293,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7942))
 // CS Name: ::OVRPlugin::OVRP_1_84_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_84_0 : public ::System::Object {
@@ -19344,7 +19349,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7943))
 // CS Name: ::OVRPlugin::OVRP_1_85_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_85_0 : public ::System::Object {
@@ -19387,7 +19392,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7944))
 // CS Name: ::OVRPlugin::OVRP_1_86_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_86_0 : public ::System::Object {
@@ -19448,7 +19453,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7945))
 // CS Name: ::OVRPlugin::OVRP_1_87_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_87_0 : public ::System::Object {
@@ -19497,7 +19502,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7946))
 // CS Name: ::OVRPlugin::OVRP_1_88_0*
 class CORDL_TYPE __OVRPlugin__OVRP_1_88_0 : public ::System::Object {
@@ -19537,9 +19542,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7772)), TypeDefinitionIndex(TypeDefinitionIndex(7777)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4774 }), TypeDefinitionIndex(TypeDefinitionIndex(7779)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7797)), TypeDefinitionIndex(TypeDefinitionIndex(7692)), TypeDefinitionIndex(TypeDefinitionIndex(7804)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7692)), TypeDefinitionIndex(TypeDefinitionIndex(7772)), TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(7779)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7797)), TypeDefinitionIndex(TypeDefinitionIndex(7804)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4774 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7947)) CS Name: ::OVRPlugin*
 class CORDL_TYPE OVRPlugin : public ::System::Object {
 public:

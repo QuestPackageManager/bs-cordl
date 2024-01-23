@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::System::Xml::XmlDocumentFragment);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11520))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11520))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11506))
 // CS Name: ::System.Xml::XmlDocumentFragment*
 class CORDL_TYPE XmlDocumentFragment : public ::System::Xml::XmlNode {
 public:
   // Declarations
   /// @brief Field lastChild, offset 0x18, size 0x8
-  __declspec(property(get = __get_lastChild, put = __set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
+  __declspec(property(get = __cordl_internal_get_lastChild, put = __cordl_internal_set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -52,11 +52,11 @@ public:
 
   __declspec(property(get = get_LastNode, put = set_LastNode))::System::Xml::XmlLinkedNode* LastNode;
 
-  constexpr ::System::Xml::XmlLinkedNode*& __get_lastChild();
+  constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_lastChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __get_lastChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __cordl_internal_get_lastChild() const;
 
-  constexpr void __set_lastChild(::System::Xml::XmlLinkedNode* value);
+  constexpr void __cordl_internal_set_lastChild(::System::Xml::XmlLinkedNode* value);
 
   static inline ::System::Xml::XmlDocumentFragment* New_ctor(::System::Xml::XmlDocument* ownerDocument);
 

@@ -27,13 +27,13 @@ MARK_VAL_T(::UnityEngine::RaycastHit);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15487))
 // CS Name: ::UnityEngine::RaycastHit
 struct CORDL_TYPE RaycastHit {
 public:
   // Declarations
-  __declspec(property(get = get_collider))::UnityEngine::Collider* collider;
+  __declspec(property(get = get_collider))::UnityW<::UnityEngine::Collider> collider;
 
   __declspec(property(get = get_point, put = set_point))::UnityEngine::Vector3 point;
 
@@ -42,7 +42,7 @@ public:
   __declspec(property(get = get_distance, put = set_distance)) float_t distance;
 
   /// @brief Method get_collider, addr 0x2d15b90, size 0xac, virtual false, abstract: false, final false
-  inline ::UnityEngine::Collider* get_collider();
+  inline ::UnityW<::UnityEngine::Collider> get_collider();
 
   /// @brief Method get_point, addr 0x2d15c3c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();

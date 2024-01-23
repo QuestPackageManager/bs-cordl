@@ -25,49 +25,49 @@ MARK_REF_PTR_T(::GlobalNamespace::TextOnlyTableCell);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5440))
 // CS Name: ::TextOnlyTableCell*
 class CORDL_TYPE TextOnlyTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _selectedHighlightColor, offset 0x58, size 0x10
-  __declspec(property(get = __get__selectedHighlightColor, put = __set__selectedHighlightColor))::UnityEngine::Color _selectedHighlightColor;
+  __declspec(property(get = __cordl_internal_get__selectedHighlightColor, put = __cordl_internal_set__selectedHighlightColor))::UnityEngine::Color _selectedHighlightColor;
 
   /// @brief Field _text, offset 0x68, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _bgImage, offset 0x70, size 0x8
-  __declspec(property(get = __get__bgImage, put = __set__bgImage))::HMUI::ImageView* _bgImage;
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::HMUI::ImageView> _bgImage;
 
   /// @brief Field _highlightImage, offset 0x78, size 0x8
-  __declspec(property(get = __get__highlightImage, put = __set__highlightImage))::HMUI::ImageView* _highlightImage;
+  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::HMUI::ImageView> _highlightImage;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::UnityEngine::Color& __get__selectedHighlightColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedHighlightColor();
 
-  constexpr ::UnityEngine::Color const& __get__selectedHighlightColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedHighlightColor() const;
 
-  constexpr void __set__selectedHighlightColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__selectedHighlightColor(::UnityEngine::Color value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::HMUI::ImageView*& __get__bgImage();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__bgImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__bgImage() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__bgImage() const;
 
-  constexpr void __set__bgImage(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__bgImage(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::HMUI::ImageView*& __get__highlightImage();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__highlightImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__highlightImage() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__highlightImage() const;
 
-  constexpr void __set__highlightImage(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__highlightImage(::UnityW<::HMUI::ImageView> value);
 
   /// @brief Method get_text, addr 0x227c84c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
@@ -107,13 +107,13 @@ public:
   ::UnityEngine::Color ____selectedHighlightColor;
 
   /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _bgImage, offset: 0x70, size: 0x8, def value: None
-  ::HMUI::ImageView* ____bgImage;
+  ::UnityW<::HMUI::ImageView> ____bgImage;
 
   /// @brief Field _highlightImage, offset: 0x78, size: 0x8, def value: None
-  ::HMUI::ImageView* ____highlightImage;
+  ::UnityW<::HMUI::ImageView> ____highlightImage;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

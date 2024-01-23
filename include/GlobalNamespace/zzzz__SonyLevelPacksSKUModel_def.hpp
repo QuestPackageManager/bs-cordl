@@ -46,33 +46,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4584))
 // CS Name: ::SonyLevelPacksSKUModel::PricePerBundlePair*
 class CORDL_TYPE __SonyLevelPacksSKUModel__PricePerBundlePair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _pricePerBundle, offset 0x10, size 0x4
-  __declspec(property(get = __get__pricePerBundle, put = __set__pricePerBundle)) float_t _pricePerBundle;
+  __declspec(property(get = __cordl_internal_get__pricePerBundle, put = __cordl_internal_set__pricePerBundle)) float_t _pricePerBundle;
 
   /// @brief Field _levelsCount, offset 0x14, size 0x4
-  __declspec(property(get = __get__levelsCount, put = __set__levelsCount)) int32_t _levelsCount;
+  __declspec(property(get = __cordl_internal_get__levelsCount, put = __cordl_internal_set__levelsCount)) int32_t _levelsCount;
 
   __declspec(property(get = get_pricePerBundle)) float_t pricePerBundle;
 
   __declspec(property(get = get_levelsCount)) int32_t levelsCount;
 
-  constexpr float_t& __get__pricePerBundle();
+  constexpr float_t& __cordl_internal_get__pricePerBundle();
 
-  constexpr float_t const& __get__pricePerBundle() const;
+  constexpr float_t const& __cordl_internal_get__pricePerBundle() const;
 
-  constexpr void __set__pricePerBundle(float_t value);
+  constexpr void __cordl_internal_set__pricePerBundle(float_t value);
 
-  constexpr int32_t& __get__levelsCount();
+  constexpr int32_t& __cordl_internal_get__levelsCount();
 
-  constexpr int32_t const& __get__levelsCount() const;
+  constexpr int32_t const& __cordl_internal_get__levelsCount() const;
 
-  constexpr void __set__levelsCount(int32_t value);
+  constexpr void __cordl_internal_set__levelsCount(int32_t value);
 
   /// @brief Method get_pricePerBundle, addr 0x23699dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pricePerBundle();
@@ -119,39 +119,39 @@ static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBund
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4585))
 // CS Name: ::SonyLevelPacksSKUModel::LevelProductData*
 class CORDL_TYPE __SonyLevelPacksSKUModel__LevelProductData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _levelIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get__levelIndex, put = __set__levelIndex)) int32_t _levelIndex;
+  __declspec(property(get = __cordl_internal_get__levelIndex, put = __cordl_internal_set__levelIndex)) int32_t _levelIndex;
 
   /// @brief Field _level, offset 0x18, size 0x8
-  __declspec(property(get = __get__level, put = __set__level))::GlobalNamespace::BeatmapLevelSO* _level;
+  __declspec(property(get = __cordl_internal_get__level, put = __cordl_internal_set__level))::UnityW<::GlobalNamespace::BeatmapLevelSO> _level;
 
   __declspec(property(get = get_levelIndex)) int32_t levelIndex;
 
-  __declspec(property(get = get_level))::GlobalNamespace::BeatmapLevelSO* level;
+  __declspec(property(get = get_level))::UnityW<::GlobalNamespace::BeatmapLevelSO> level;
 
-  constexpr int32_t& __get__levelIndex();
+  constexpr int32_t& __cordl_internal_get__levelIndex();
 
-  constexpr int32_t const& __get__levelIndex() const;
+  constexpr int32_t const& __cordl_internal_get__levelIndex() const;
 
-  constexpr void __set__levelIndex(int32_t value);
+  constexpr void __cordl_internal_set__levelIndex(int32_t value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__level();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__level();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& __get__level() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__level() const;
 
-  constexpr void __set__level(::GlobalNamespace::BeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__level(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
   /// @brief Method get_levelIndex, addr 0x23699f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelIndex();
 
   /// @brief Method get_level, addr 0x23699fc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelSO* get_level();
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_level();
 
   static inline ::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData* New_ctor();
 
@@ -176,7 +176,7 @@ public:
   int32_t ____levelIndex;
 
   /// @brief Field _level, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelSO* ____level;
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____level;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -192,52 +192,56 @@ static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProduct
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4586))
 // CS Name: ::SonyLevelPacksSKUModel::LevelPackProductData*
 class CORDL_TYPE __SonyLevelPacksSKUModel__LevelPackProductData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _packIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get__packIndex, put = __set__packIndex)) int32_t _packIndex;
+  __declspec(property(get = __cordl_internal_get__packIndex, put = __cordl_internal_set__packIndex)) int32_t _packIndex;
 
   /// @brief Field _levelPack, offset 0x18, size 0x8
-  __declspec(property(get = __get__levelPack, put = __set__levelPack))::GlobalNamespace::BeatmapLevelPackSO* _levelPack;
+  __declspec(property(get = __cordl_internal_get__levelPack, put = __cordl_internal_set__levelPack))::UnityW<::GlobalNamespace::BeatmapLevelPackSO> _levelPack;
 
   /// @brief Field _levelProductsData, offset 0x20, size 0x8
-  __declspec(property(get = __get__levelProductsData, put = __set__levelProductsData))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*,
-                                                                                               ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> _levelProductsData;
+  __declspec(property(get = __cordl_internal_get__levelProductsData,
+                      put = __cordl_internal_set__levelProductsData))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*,
+                                                                              ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> _levelProductsData;
 
   __declspec(property(get = get_packIndex)) int32_t packIndex;
 
-  __declspec(property(get = get_levelPack))::GlobalNamespace::BeatmapLevelPackSO* levelPack;
+  __declspec(property(get = get_levelPack))::UnityW<::GlobalNamespace::BeatmapLevelPackSO> levelPack;
 
   __declspec(property(
       get = get_levelProductsData))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> levelProductsData;
 
-  constexpr int32_t& __get__packIndex();
+  constexpr int32_t& __cordl_internal_get__packIndex();
 
-  constexpr int32_t const& __get__packIndex() const;
+  constexpr int32_t const& __cordl_internal_get__packIndex() const;
 
-  constexpr void __set__packIndex(int32_t value);
+  constexpr void __cordl_internal_set__packIndex(int32_t value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackSO*& __get__levelPack();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackSO>& __cordl_internal_get__levelPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackSO*> const& __get__levelPack() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> const& __cordl_internal_get__levelPack() const;
 
-  constexpr void __set__levelPack(::GlobalNamespace::BeatmapLevelPackSO* value);
+  constexpr void __cordl_internal_set__levelPack(::UnityW<::GlobalNamespace::BeatmapLevelPackSO> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*>& __get__levelProductsData();
+  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*>&
+  __cordl_internal_get__levelProductsData();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> const& __get__levelProductsData() const;
+  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> const&
+  __cordl_internal_get__levelProductsData() const;
 
-  constexpr void __set__levelProductsData(::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> value);
+  constexpr void
+  __cordl_internal_set__levelProductsData(::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> value);
 
   /// @brief Method get_packIndex, addr 0x2369a0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_packIndex();
 
   /// @brief Method get_levelPack, addr 0x2369a14, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelPackSO* get_levelPack();
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> get_levelPack();
 
   /// @brief Method get_levelProductsData, addr 0x2369a1c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> get_levelProductsData();
@@ -265,7 +269,7 @@ public:
   int32_t ____packIndex;
 
   /// @brief Field _levelPack, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackSO* ____levelPack;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> ____levelPack;
 
   /// @brief Field _levelProductsData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> ____levelProductsData;
@@ -286,7 +290,7 @@ static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackPro
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4587))
 // CS Name: ::SonyLevelPacksSKUModel*
 class CORDL_TYPE SonyLevelPacksSKUModel : public ::GlobalNamespace::PersistentScriptableObject {
@@ -299,16 +303,17 @@ public:
   using PricePerBundlePair = ::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair;
 
   /// @brief Field _pricePerLevel, offset 0x18, size 0x4
-  __declspec(property(get = __get__pricePerLevel, put = __set__pricePerLevel)) float_t _pricePerLevel;
+  __declspec(property(get = __cordl_internal_get__pricePerLevel, put = __cordl_internal_set__pricePerLevel)) float_t _pricePerLevel;
 
   /// @brief Field _pricePairBundlePairs, offset 0x20, size 0x8
-  __declspec(property(get = __get__pricePairBundlePairs, put = __set__pricePairBundlePairs))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*,
-                                                                                                     ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> _pricePairBundlePairs;
+  __declspec(property(get = __cordl_internal_get__pricePairBundlePairs,
+                      put = __cordl_internal_set__pricePairBundlePairs))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*,
+                                                                                 ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> _pricePairBundlePairs;
 
   /// @brief Field _levelPackProductsData, offset 0x28, size 0x8
-  __declspec(property(get = __get__levelPackProductsData,
-                      put = __set__levelPackProductsData))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*,
-                                                                   ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> _levelPackProductsData;
+  __declspec(property(get = __cordl_internal_get__levelPackProductsData,
+                      put = __cordl_internal_set__levelPackProductsData))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*,
+                                                                                  ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> _levelPackProductsData;
 
   __declspec(property(get = get_pricePerLevel)) float_t pricePerLevel;
 
@@ -318,27 +323,29 @@ public:
   __declspec(property(get = get_levelPackProductsData))::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*,
                                                                 ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> levelPackProductsData;
 
-  constexpr float_t& __get__pricePerLevel();
+  constexpr float_t& __cordl_internal_get__pricePerLevel();
 
-  constexpr float_t const& __get__pricePerLevel() const;
+  constexpr float_t const& __cordl_internal_get__pricePerLevel() const;
 
-  constexpr void __set__pricePerLevel(float_t value);
+  constexpr void __cordl_internal_set__pricePerLevel(float_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*>& __get__pricePairBundlePairs();
+  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*>&
+  __cordl_internal_get__pricePairBundlePairs();
 
   constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> const&
-  __get__pricePairBundlePairs() const;
+  __cordl_internal_get__pricePairBundlePairs() const;
 
-  constexpr void
-  __set__pricePairBundlePairs(::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> value);
+  constexpr void __cordl_internal_set__pricePairBundlePairs(
+      ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*>& __get__levelPackProductsData();
+  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*>&
+  __cordl_internal_get__levelPackProductsData();
 
   constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> const&
-  __get__levelPackProductsData() const;
+  __cordl_internal_get__levelPackProductsData() const;
 
-  constexpr void
-  __set__levelPackProductsData(::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> value);
+  constexpr void __cordl_internal_set__levelPackProductsData(
+      ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> value);
 
   /// @brief Method get_pricePerLevel, addr 0x236985c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pricePerLevel();

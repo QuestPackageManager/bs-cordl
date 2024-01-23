@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLo
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14021))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::IResourceLocation*
 class CORDL_TYPE IResourceLocation {

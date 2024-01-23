@@ -35,7 +35,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2757 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2757 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5322))
 // CS Name: ::ScoringElement::Pool`1<T>*
 class CORDL_TYPE __ScoringElement__Pool_1 : public ::Zenject::MemoryPool_1<T> {
@@ -71,7 +71,7 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5323))
 // CS Name: ::ScoringElement*
 class CORDL_TYPE ScoringElement : public ::System::Object {
@@ -80,16 +80,16 @@ public:
   template <typename T> using Pool_1 = ::GlobalNamespace::__ScoringElement__Pool_1<T>;
 
   /// @brief Field <noteData>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__noteData_k__BackingField, put = __set__noteData_k__BackingField))::GlobalNamespace::NoteData* _noteData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteData_k__BackingField, put = __cordl_internal_set__noteData_k__BackingField))::GlobalNamespace::NoteData* _noteData_k__BackingField;
 
   /// @brief Field <multiplier>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__multiplier_k__BackingField, put = __set__multiplier_k__BackingField)) int32_t _multiplier_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplier_k__BackingField, put = __cordl_internal_set__multiplier_k__BackingField)) int32_t _multiplier_k__BackingField;
 
   /// @brief Field <maxMultiplier>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__maxMultiplier_k__BackingField, put = __set__maxMultiplier_k__BackingField)) int32_t _maxMultiplier_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxMultiplier_k__BackingField, put = __cordl_internal_set__maxMultiplier_k__BackingField)) int32_t _maxMultiplier_k__BackingField;
 
   /// @brief Field <isFinished>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__isFinished_k__BackingField, put = __set__isFinished_k__BackingField)) bool _isFinished_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isFinished_k__BackingField, put = __cordl_internal_set__isFinished_k__BackingField)) bool _isFinished_k__BackingField;
 
   __declspec(property(get = get_noteData, put = set_noteData))::GlobalNamespace::NoteData* noteData;
 
@@ -117,29 +117,29 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ScoringElement*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::ScoringElement*>* i___System__IComparable_1___GlobalNamespace__ScoringElement__() noexcept;
 
-  constexpr ::GlobalNamespace::NoteData*& __get__noteData_k__BackingField();
+  constexpr ::GlobalNamespace::NoteData*& __cordl_internal_get__noteData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteData*> const& __get__noteData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteData*> const& __cordl_internal_get__noteData_k__BackingField() const;
 
-  constexpr void __set__noteData_k__BackingField(::GlobalNamespace::NoteData* value);
+  constexpr void __cordl_internal_set__noteData_k__BackingField(::GlobalNamespace::NoteData* value);
 
-  constexpr int32_t& __get__multiplier_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__multiplier_k__BackingField();
 
-  constexpr int32_t const& __get__multiplier_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__multiplier_k__BackingField() const;
 
-  constexpr void __set__multiplier_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__multiplier_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__maxMultiplier_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__maxMultiplier_k__BackingField();
 
-  constexpr int32_t const& __get__maxMultiplier_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__maxMultiplier_k__BackingField() const;
 
-  constexpr void __set__maxMultiplier_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__maxMultiplier_k__BackingField(int32_t value);
 
-  constexpr bool& __get__isFinished_k__BackingField();
+  constexpr bool& __cordl_internal_get__isFinished_k__BackingField();
 
-  constexpr bool const& __get__isFinished_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isFinished_k__BackingField() const;
 
-  constexpr void __set__isFinished_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isFinished_k__BackingField(bool value);
 
   /// @brief Method get_noteData, addr 0x2267ddc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* get_noteData();

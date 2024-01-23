@@ -125,9 +125,9 @@ MARK_VAL_T(::System::Net::__WebResponseStream___ReadAsync_d__40);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
 // TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name:
+// TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name:
 // ::WebResponseStream::<ReadAsync>d__40
 struct CORDL_TYPE __WebResponseStream___ReadAsync_d__40 {
 public:
@@ -235,47 +235,47 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __u
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9240))
 // CS Name: ::WebResponseStream::<>c__DisplayClass41_0*
 class CORDL_TYPE __WebResponseStream____c__DisplayClass41_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Net::WebResponseStream* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::WebResponseStream* __4__this;
 
   /// @brief Field buffer, offset 0x18, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field offset, offset 0x20, size 0x4
-  __declspec(property(get = __get_offset, put = __set_offset)) int32_t offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) int32_t offset;
 
   /// @brief Field size, offset 0x24, size 0x4
-  __declspec(property(get = __get_size, put = __set_size)) int32_t size;
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  constexpr ::System::Net::WebResponseStream*& __get___4__this();
+  constexpr ::System::Net::WebResponseStream*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Net::WebResponseStream* value);
+  constexpr void __cordl_internal_set___4__this(::System::Net::WebResponseStream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_offset();
+  constexpr int32_t& __cordl_internal_get_offset();
 
-  constexpr int32_t const& __get_offset() const;
+  constexpr int32_t const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(int32_t value);
+  constexpr void __cordl_internal_set_offset(int32_t value);
 
-  constexpr int32_t& __get_size();
+  constexpr int32_t& __cordl_internal_get_size();
 
-  constexpr int32_t const& __get_size() const;
+  constexpr int32_t const& __cordl_internal_get_size() const;
 
-  constexpr void __set_size(int32_t value);
+  constexpr void __cordl_internal_set_size(int32_t value);
 
   static inline ::System::Net::__WebResponseStream____c__DisplayClass41_0* New_ctor();
 
@@ -335,8 +335,8 @@ static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9241)) CS Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
 struct CORDL_TYPE __WebResponseStream___ReadAllAsyncInner_d__47 {
 public:
@@ -421,9 +421,9 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d_
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 873 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
 struct CORDL_TYPE __WebResponseStream___ReadAllAsync_d__48 {
 public:
   // Declarations
@@ -519,9 +519,9 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9214)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9243)) CS Name:
-// ::WebResponseStream::<InitReadAsync>d__52
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9214)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9243)) CS
+// Name: ::WebResponseStream::<InitReadAsync>d__52
 struct CORDL_TYPE __WebResponseStream___InitReadAsync_d__52 {
 public:
   // Declarations
@@ -604,7 +604,7 @@ static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52,
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 170, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9220))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9220))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9244))
 // CS Name: ::System.Net::WebResponseStream*
 class CORDL_TYPE WebResponseStream : public ::System::Net::WebConnectionStream {
@@ -621,46 +621,47 @@ public:
   using _ReadAsync_d__40 = ::System::Net::__WebResponseStream___ReadAsync_d__40;
 
   /// @brief Field innerStream, offset 0x58, size 0x8
-  __declspec(property(get = __get_innerStream, put = __set_innerStream))::System::Net::WebReadStream* innerStream;
+  __declspec(property(get = __cordl_internal_get_innerStream, put = __cordl_internal_set_innerStream))::System::Net::WebReadStream* innerStream;
 
   /// @brief Field nextReadCalled, offset 0x60, size 0x1
-  __declspec(property(get = __get_nextReadCalled, put = __set_nextReadCalled)) bool nextReadCalled;
+  __declspec(property(get = __cordl_internal_get_nextReadCalled, put = __cordl_internal_set_nextReadCalled)) bool nextReadCalled;
 
   /// @brief Field bufferedEntireContent, offset 0x61, size 0x1
-  __declspec(property(get = __get_bufferedEntireContent, put = __set_bufferedEntireContent)) bool bufferedEntireContent;
+  __declspec(property(get = __cordl_internal_get_bufferedEntireContent, put = __cordl_internal_set_bufferedEntireContent)) bool bufferedEntireContent;
 
   /// @brief Field pendingRead, offset 0x68, size 0x8
-  __declspec(property(get = __get_pendingRead, put = __set_pendingRead))::System::Net::WebCompletionSource* pendingRead;
+  __declspec(property(get = __cordl_internal_get_pendingRead, put = __cordl_internal_set_pendingRead))::System::Net::WebCompletionSource* pendingRead;
 
   /// @brief Field locker, offset 0x70, size 0x8
-  __declspec(property(get = __get_locker, put = __set_locker))::System::Object* locker;
+  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
 
   /// @brief Field nestedRead, offset 0x78, size 0x4
-  __declspec(property(get = __get_nestedRead, put = __set_nestedRead)) int32_t nestedRead;
+  __declspec(property(get = __cordl_internal_get_nestedRead, put = __cordl_internal_set_nestedRead)) int32_t nestedRead;
 
   /// @brief Field read_eof, offset 0x7c, size 0x1
-  __declspec(property(get = __get_read_eof, put = __set_read_eof)) bool read_eof;
+  __declspec(property(get = __cordl_internal_get_read_eof, put = __cordl_internal_set_read_eof)) bool read_eof;
 
   /// @brief Field <RequestStream>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__RequestStream_k__BackingField, put = __set__RequestStream_k__BackingField))::System::Net::WebRequestStream* _RequestStream_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__RequestStream_k__BackingField,
+                      put = __cordl_internal_set__RequestStream_k__BackingField))::System::Net::WebRequestStream* _RequestStream_k__BackingField;
 
   /// @brief Field <Headers>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__Headers_k__BackingField, put = __set__Headers_k__BackingField))::System::Net::WebHeaderCollection* _Headers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Headers_k__BackingField, put = __cordl_internal_set__Headers_k__BackingField))::System::Net::WebHeaderCollection* _Headers_k__BackingField;
 
   /// @brief Field <StatusCode>k__BackingField, offset 0x90, size 0x4
-  __declspec(property(get = __get__StatusCode_k__BackingField, put = __set__StatusCode_k__BackingField))::System::Net::HttpStatusCode _StatusCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__StatusCode_k__BackingField, put = __cordl_internal_set__StatusCode_k__BackingField))::System::Net::HttpStatusCode _StatusCode_k__BackingField;
 
   /// @brief Field <StatusDescription>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__StatusDescription_k__BackingField, put = __set__StatusDescription_k__BackingField))::StringW _StatusDescription_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__StatusDescription_k__BackingField, put = __cordl_internal_set__StatusDescription_k__BackingField))::StringW _StatusDescription_k__BackingField;
 
   /// @brief Field <Version>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__Version_k__BackingField, put = __set__Version_k__BackingField))::System::Version* _Version_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Version_k__BackingField, put = __cordl_internal_set__Version_k__BackingField))::System::Version* _Version_k__BackingField;
 
   /// @brief Field <KeepAlive>k__BackingField, offset 0xa8, size 0x1
-  __declspec(property(get = __get__KeepAlive_k__BackingField, put = __set__KeepAlive_k__BackingField)) bool _KeepAlive_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__KeepAlive_k__BackingField, put = __cordl_internal_set__KeepAlive_k__BackingField)) bool _KeepAlive_k__BackingField;
 
   /// @brief Field <ChunkedRead>k__BackingField, offset 0xa9, size 0x1
-  __declspec(property(get = __get__ChunkedRead_k__BackingField, put = __set__ChunkedRead_k__BackingField)) bool _ChunkedRead_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ChunkedRead_k__BackingField, put = __cordl_internal_set__ChunkedRead_k__BackingField)) bool _ChunkedRead_k__BackingField;
 
   __declspec(property(get = get_RequestStream))::System::Net::WebRequestStream* RequestStream;
 
@@ -682,89 +683,89 @@ public:
 
   __declspec(property(get = get_ExpectContent)) bool ExpectContent;
 
-  constexpr ::System::Net::WebReadStream*& __get_innerStream();
+  constexpr ::System::Net::WebReadStream*& __cordl_internal_get_innerStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebReadStream*> const& __get_innerStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebReadStream*> const& __cordl_internal_get_innerStream() const;
 
-  constexpr void __set_innerStream(::System::Net::WebReadStream* value);
+  constexpr void __cordl_internal_set_innerStream(::System::Net::WebReadStream* value);
 
-  constexpr bool& __get_nextReadCalled();
+  constexpr bool& __cordl_internal_get_nextReadCalled();
 
-  constexpr bool const& __get_nextReadCalled() const;
+  constexpr bool const& __cordl_internal_get_nextReadCalled() const;
 
-  constexpr void __set_nextReadCalled(bool value);
+  constexpr void __cordl_internal_set_nextReadCalled(bool value);
 
-  constexpr bool& __get_bufferedEntireContent();
+  constexpr bool& __cordl_internal_get_bufferedEntireContent();
 
-  constexpr bool const& __get_bufferedEntireContent() const;
+  constexpr bool const& __cordl_internal_get_bufferedEntireContent() const;
 
-  constexpr void __set_bufferedEntireContent(bool value);
+  constexpr void __cordl_internal_set_bufferedEntireContent(bool value);
 
-  constexpr ::System::Net::WebCompletionSource*& __get_pendingRead();
+  constexpr ::System::Net::WebCompletionSource*& __cordl_internal_get_pendingRead();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __get_pendingRead() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __cordl_internal_get_pendingRead() const;
 
-  constexpr void __set_pendingRead(::System::Net::WebCompletionSource* value);
+  constexpr void __cordl_internal_set_pendingRead(::System::Net::WebCompletionSource* value);
 
-  constexpr ::System::Object*& __get_locker();
+  constexpr ::System::Object*& __cordl_internal_get_locker();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_locker() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
 
-  constexpr void __set_locker(::System::Object* value);
+  constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  constexpr int32_t& __get_nestedRead();
+  constexpr int32_t& __cordl_internal_get_nestedRead();
 
-  constexpr int32_t const& __get_nestedRead() const;
+  constexpr int32_t const& __cordl_internal_get_nestedRead() const;
 
-  constexpr void __set_nestedRead(int32_t value);
+  constexpr void __cordl_internal_set_nestedRead(int32_t value);
 
-  constexpr bool& __get_read_eof();
+  constexpr bool& __cordl_internal_get_read_eof();
 
-  constexpr bool const& __get_read_eof() const;
+  constexpr bool const& __cordl_internal_get_read_eof() const;
 
-  constexpr void __set_read_eof(bool value);
+  constexpr void __cordl_internal_set_read_eof(bool value);
 
-  constexpr ::System::Net::WebRequestStream*& __get__RequestStream_k__BackingField();
+  constexpr ::System::Net::WebRequestStream*& __cordl_internal_get__RequestStream_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __get__RequestStream_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __cordl_internal_get__RequestStream_k__BackingField() const;
 
-  constexpr void __set__RequestStream_k__BackingField(::System::Net::WebRequestStream* value);
+  constexpr void __cordl_internal_set__RequestStream_k__BackingField(::System::Net::WebRequestStream* value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get__Headers_k__BackingField();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get__Headers_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get__Headers_k__BackingField() const;
 
-  constexpr void __set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
 
-  constexpr ::System::Net::HttpStatusCode& __get__StatusCode_k__BackingField();
+  constexpr ::System::Net::HttpStatusCode& __cordl_internal_get__StatusCode_k__BackingField();
 
-  constexpr ::System::Net::HttpStatusCode const& __get__StatusCode_k__BackingField() const;
+  constexpr ::System::Net::HttpStatusCode const& __cordl_internal_get__StatusCode_k__BackingField() const;
 
-  constexpr void __set__StatusCode_k__BackingField(::System::Net::HttpStatusCode value);
+  constexpr void __cordl_internal_set__StatusCode_k__BackingField(::System::Net::HttpStatusCode value);
 
-  constexpr ::StringW& __get__StatusDescription_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__StatusDescription_k__BackingField();
 
-  constexpr ::StringW const& __get__StatusDescription_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__StatusDescription_k__BackingField() const;
 
-  constexpr void __set__StatusDescription_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__StatusDescription_k__BackingField(::StringW value);
 
-  constexpr ::System::Version*& __get__Version_k__BackingField();
+  constexpr ::System::Version*& __cordl_internal_get__Version_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get__Version_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get__Version_k__BackingField() const;
 
-  constexpr void __set__Version_k__BackingField(::System::Version* value);
+  constexpr void __cordl_internal_set__Version_k__BackingField(::System::Version* value);
 
-  constexpr bool& __get__KeepAlive_k__BackingField();
+  constexpr bool& __cordl_internal_get__KeepAlive_k__BackingField();
 
-  constexpr bool const& __get__KeepAlive_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__KeepAlive_k__BackingField() const;
 
-  constexpr void __set__KeepAlive_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__KeepAlive_k__BackingField(bool value);
 
-  constexpr bool& __get__ChunkedRead_k__BackingField();
+  constexpr bool& __cordl_internal_get__ChunkedRead_k__BackingField();
 
-  constexpr bool const& __get__ChunkedRead_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ChunkedRead_k__BackingField() const;
 
-  constexpr void __set__ChunkedRead_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ChunkedRead_k__BackingField(bool value);
 
   /// @brief Method get_RequestStream, addr 0x29e7660, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebRequestStream* get_RequestStream();

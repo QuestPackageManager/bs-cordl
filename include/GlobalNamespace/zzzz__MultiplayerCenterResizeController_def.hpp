@@ -25,61 +25,63 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterResizeController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5193))
 // CS Name: ::MultiplayerCenterResizeController*
 class CORDL_TYPE MultiplayerCenterResizeController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _platformWidth, offset 0x18, size 0x4
-  __declspec(property(get = __get__platformWidth, put = __set__platformWidth)) float_t _platformWidth;
+  __declspec(property(get = __cordl_internal_get__platformWidth, put = __cordl_internal_set__platformWidth)) float_t _platformWidth;
 
   /// @brief Field _layoutProvider, offset 0x20, size 0x8
-  __declspec(property(get = __get__layoutProvider, put = __set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
+  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
   /// @brief Field edgeDistanceFromCenterWasCalculatedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_edgeDistanceFromCenterWasCalculatedEvent, put = __set_edgeDistanceFromCenterWasCalculatedEvent))::System::Action_1<float_t>* edgeDistanceFromCenterWasCalculatedEvent;
+  __declspec(property(get = __cordl_internal_get_edgeDistanceFromCenterWasCalculatedEvent,
+                      put = __cordl_internal_set_edgeDistanceFromCenterWasCalculatedEvent))::System::Action_1<float_t>* edgeDistanceFromCenterWasCalculatedEvent;
 
   /// @brief Field <isEdgeDistanceFromCenterCalculated>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__isEdgeDistanceFromCenterCalculated_k__BackingField,
-                      put = __set__isEdgeDistanceFromCenterCalculated_k__BackingField)) bool _isEdgeDistanceFromCenterCalculated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isEdgeDistanceFromCenterCalculated_k__BackingField,
+                      put = __cordl_internal_set__isEdgeDistanceFromCenterCalculated_k__BackingField)) bool _isEdgeDistanceFromCenterCalculated_k__BackingField;
 
   /// @brief Field <edgeDistanceFromCenter>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__edgeDistanceFromCenter_k__BackingField, put = __set__edgeDistanceFromCenter_k__BackingField)) float_t _edgeDistanceFromCenter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__edgeDistanceFromCenter_k__BackingField,
+                      put = __cordl_internal_set__edgeDistanceFromCenter_k__BackingField)) float_t _edgeDistanceFromCenter_k__BackingField;
 
   __declspec(property(get = get_isEdgeDistanceFromCenterCalculated, put = set_isEdgeDistanceFromCenterCalculated)) bool isEdgeDistanceFromCenterCalculated;
 
   __declspec(property(get = get_edgeDistanceFromCenter, put = set_edgeDistanceFromCenter)) float_t edgeDistanceFromCenter;
 
-  constexpr float_t& __get__platformWidth();
+  constexpr float_t& __cordl_internal_get__platformWidth();
 
-  constexpr float_t const& __get__platformWidth() const;
+  constexpr float_t const& __cordl_internal_get__platformWidth() const;
 
-  constexpr void __set__platformWidth(float_t value);
+  constexpr void __cordl_internal_set__platformWidth(float_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __get__layoutProvider();
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __get__layoutProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+  constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  constexpr ::System::Action_1<float_t>*& __get_edgeDistanceFromCenterWasCalculatedEvent();
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_edgeDistanceFromCenterWasCalculatedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_edgeDistanceFromCenterWasCalculatedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_edgeDistanceFromCenterWasCalculatedEvent() const;
 
-  constexpr void __set_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  constexpr bool& __get__isEdgeDistanceFromCenterCalculated_k__BackingField();
+  constexpr bool& __cordl_internal_get__isEdgeDistanceFromCenterCalculated_k__BackingField();
 
-  constexpr bool const& __get__isEdgeDistanceFromCenterCalculated_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isEdgeDistanceFromCenterCalculated_k__BackingField() const;
 
-  constexpr void __set__isEdgeDistanceFromCenterCalculated_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isEdgeDistanceFromCenterCalculated_k__BackingField(bool value);
 
-  constexpr float_t& __get__edgeDistanceFromCenter_k__BackingField();
+  constexpr float_t& __cordl_internal_get__edgeDistanceFromCenter_k__BackingField();
 
-  constexpr float_t const& __get__edgeDistanceFromCenter_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__edgeDistanceFromCenter_k__BackingField() const;
 
-  constexpr void __set__edgeDistanceFromCenter_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__edgeDistanceFromCenter_k__BackingField(float_t value);
 
   /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x2245524, size 0xb0, virtual false, abstract: false, final false
   inline void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);

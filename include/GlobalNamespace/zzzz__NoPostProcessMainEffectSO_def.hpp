@@ -21,49 +21,49 @@ MARK_REF_PTR_T(::GlobalNamespace::NoPostProcessMainEffectSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15293))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15293))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15294))
 // CS Name: ::NoPostProcessMainEffectSO*
 class CORDL_TYPE NoPostProcessMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
   // Declarations
   /// @brief Field _fadeShader, offset 0x18, size 0x8
-  __declspec(property(get = __get__fadeShader, put = __set__fadeShader))::UnityEngine::Shader* _fadeShader;
+  __declspec(property(get = __cordl_internal_get__fadeShader, put = __cordl_internal_set__fadeShader))::UnityW<::UnityEngine::Shader> _fadeShader;
 
   /// @brief Field _baseColorBoost, offset 0x20, size 0x4
-  __declspec(property(get = __get__baseColorBoost, put = __set__baseColorBoost)) float_t _baseColorBoost;
+  __declspec(property(get = __cordl_internal_get__baseColorBoost, put = __cordl_internal_set__baseColorBoost)) float_t _baseColorBoost;
 
   /// @brief Field _baseColorBoostThreshold, offset 0x24, size 0x4
-  __declspec(property(get = __get__baseColorBoostThreshold, put = __set__baseColorBoostThreshold)) float_t _baseColorBoostThreshold;
+  __declspec(property(get = __cordl_internal_get__baseColorBoostThreshold, put = __cordl_internal_set__baseColorBoostThreshold)) float_t _baseColorBoostThreshold;
 
   /// @brief Field _fadeMaterial, offset 0x28, size 0x8
-  __declspec(property(get = __get__fadeMaterial, put = __set__fadeMaterial))::UnityEngine::Material* _fadeMaterial;
+  __declspec(property(get = __cordl_internal_get__fadeMaterial, put = __cordl_internal_set__fadeMaterial))::UnityW<::UnityEngine::Material> _fadeMaterial;
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  constexpr ::UnityEngine::Shader*& __get__fadeShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__fadeShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__fadeShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__fadeShader() const;
 
-  constexpr void __set__fadeShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__fadeShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr float_t& __get__baseColorBoost();
+  constexpr float_t& __cordl_internal_get__baseColorBoost();
 
-  constexpr float_t const& __get__baseColorBoost() const;
+  constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
 
-  constexpr void __set__baseColorBoost(float_t value);
+  constexpr void __cordl_internal_set__baseColorBoost(float_t value);
 
-  constexpr float_t& __get__baseColorBoostThreshold();
+  constexpr float_t& __cordl_internal_get__baseColorBoostThreshold();
 
-  constexpr float_t const& __get__baseColorBoostThreshold() const;
+  constexpr float_t const& __cordl_internal_get__baseColorBoostThreshold() const;
 
-  constexpr void __set__baseColorBoostThreshold(float_t value);
+  constexpr void __cordl_internal_set__baseColorBoostThreshold(float_t value);
 
-  constexpr ::UnityEngine::Material*& __get__fadeMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__fadeMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__fadeMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fadeMaterial() const;
 
-  constexpr void __set__fadeMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__fadeMaterial(::UnityW<::UnityEngine::Material> value);
 
   /// @brief Method get_hasPostProcessEffect, addr 0x28089e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
@@ -103,7 +103,7 @@ protected:
 
 public:
   /// @brief Field _fadeShader, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____fadeShader;
+  ::UnityW<::UnityEngine::Shader> ____fadeShader;
 
   /// @brief Field _baseColorBoost, offset: 0x20, size: 0x4, def value: None
   float_t ____baseColorBoost;
@@ -112,7 +112,7 @@ public:
   float_t ____baseColorBoostThreshold;
 
   /// @brief Field _fadeMaterial, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Material* ____fadeMaterial;
+  ::UnityW<::UnityEngine::Material> ____fadeMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ MARK_VAL_T(::System::SmallRect);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2646))
 // CS Name: ::System::SmallRect
 struct CORDL_TYPE SmallRect {

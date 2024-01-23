@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::GlobalNamespace::MockLevelEndActions);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5022))
 // CS Name: ::MockLevelEndActions*
 class CORDL_TYPE MockLevelEndActions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field levelFailedEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_levelFailedEvent, put = __set_levelFailedEvent))::System::Action* levelFailedEvent;
+  __declspec(property(get = __cordl_internal_get_levelFailedEvent, put = __cordl_internal_set_levelFailedEvent))::System::Action* levelFailedEvent;
 
   /// @brief Field levelFinishedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_levelFinishedEvent, put = __set_levelFinishedEvent))::System::Action* levelFinishedEvent;
+  __declspec(property(get = __cordl_internal_get_levelFinishedEvent, put = __cordl_internal_set_levelFinishedEvent))::System::Action* levelFinishedEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::ILevelEndActions"
   constexpr operator ::GlobalNamespace::ILevelEndActions*() noexcept;
@@ -38,17 +38,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
   constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
-  constexpr ::System::Action*& __get_levelFailedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_levelFailedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_levelFailedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelFailedEvent() const;
 
-  constexpr void __set_levelFailedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_levelFailedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_levelFinishedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_levelFinishedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_levelFinishedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelFinishedEvent() const;
 
-  constexpr void __set_levelFinishedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
   /// @brief Method add_levelFailedEvent, addr 0x23bcbbc, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);

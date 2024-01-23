@@ -28,17 +28,17 @@ MARK_REF_PTR_T(::UnityEngine::TerrainLayer);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15465))
 // CS Name: ::UnityEngine::TerrainLayer*
 class CORDL_TYPE TerrainLayer : public ::UnityEngine::Object {
 public:
   // Declarations
-  __declspec(property(get = get_diffuseTexture, put = set_diffuseTexture))::UnityEngine::Texture2D* diffuseTexture;
+  __declspec(property(get = get_diffuseTexture, put = set_diffuseTexture))::UnityW<::UnityEngine::Texture2D> diffuseTexture;
 
-  __declspec(property(get = get_normalMapTexture, put = set_normalMapTexture))::UnityEngine::Texture2D* normalMapTexture;
+  __declspec(property(get = get_normalMapTexture, put = set_normalMapTexture))::UnityW<::UnityEngine::Texture2D> normalMapTexture;
 
-  __declspec(property(get = get_maskMapTexture, put = set_maskMapTexture))::UnityEngine::Texture2D* maskMapTexture;
+  __declspec(property(get = get_maskMapTexture, put = set_maskMapTexture))::UnityW<::UnityEngine::Texture2D> maskMapTexture;
 
   __declspec(property(get = get_tileSize, put = set_tileSize))::UnityEngine::Vector2 tileSize;
 
@@ -69,19 +69,19 @@ public:
   static inline void Internal_Create(::UnityEngine::TerrainLayer* layer);
 
   /// @brief Method get_diffuseTexture, addr 0x2d1b694, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_diffuseTexture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_diffuseTexture();
 
   /// @brief Method set_diffuseTexture, addr 0x2d1b6d0, size 0x44, virtual false, abstract: false, final false
   inline void set_diffuseTexture(::UnityEngine::Texture2D* value);
 
   /// @brief Method get_normalMapTexture, addr 0x2d1b714, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_normalMapTexture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_normalMapTexture();
 
   /// @brief Method set_normalMapTexture, addr 0x2d1b750, size 0x44, virtual false, abstract: false, final false
   inline void set_normalMapTexture(::UnityEngine::Texture2D* value);
 
   /// @brief Method get_maskMapTexture, addr 0x2d1b794, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_maskMapTexture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_maskMapTexture();
 
   /// @brief Method set_maskMapTexture, addr 0x2d1b7d0, size 0x44, virtual false, abstract: false, final false
   inline void set_maskMapTexture(::UnityEngine::Texture2D* value);

@@ -18,36 +18,36 @@ MARK_REF_PTR_T(::GlobalNamespace::SettingsSubMenuInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5692))
 // CS Name: ::SettingsSubMenuInfo*
 class CORDL_TYPE SettingsSubMenuInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _viewController, offset 0x10, size 0x8
-  __declspec(property(get = __get__viewController, put = __set__viewController))::HMUI::ViewController* _viewController;
+  __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController))::UnityW<::HMUI::ViewController> _viewController;
 
   /// @brief Field _menuName, offset 0x18, size 0x8
-  __declspec(property(get = __get__menuName, put = __set__menuName))::StringW _menuName;
+  __declspec(property(get = __cordl_internal_get__menuName, put = __cordl_internal_set__menuName))::StringW _menuName;
 
-  __declspec(property(get = get_viewController))::HMUI::ViewController* viewController;
+  __declspec(property(get = get_viewController))::UnityW<::HMUI::ViewController> viewController;
 
   __declspec(property(get = get_localizedMenuName))::StringW localizedMenuName;
 
-  constexpr ::HMUI::ViewController*& __get__viewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__viewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get__viewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__viewController() const;
 
-  constexpr void __set__viewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::StringW& __get__menuName();
+  constexpr ::StringW& __cordl_internal_get__menuName();
 
-  constexpr ::StringW const& __get__menuName() const;
+  constexpr ::StringW const& __cordl_internal_get__menuName() const;
 
-  constexpr void __set__menuName(::StringW value);
+  constexpr void __cordl_internal_set__menuName(::StringW value);
 
   /// @brief Method get_viewController, addr 0x22c94f8, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ViewController* get_viewController();
+  inline ::UnityW<::HMUI::ViewController> get_viewController();
 
   /// @brief Method get_localizedMenuName, addr 0x22c9500, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedMenuName();
@@ -72,7 +72,7 @@ protected:
 
 public:
   /// @brief Field _viewController, offset: 0x10, size: 0x8, def value: None
-  ::HMUI::ViewController* ____viewController;
+  ::UnityW<::HMUI::ViewController> ____viewController;
 
   /// @brief Field _menuName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____menuName;

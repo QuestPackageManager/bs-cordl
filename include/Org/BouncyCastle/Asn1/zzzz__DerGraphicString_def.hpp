@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerGraphicString);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(33))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(33))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(509))
 // CS Name: ::Org.BouncyCastle.Asn1::DerGraphicString*
 class CORDL_TYPE DerGraphicString : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
   // Declarations
   /// @brief Field mString, offset 0x10, size 0x8
-  __declspec(property(get = __get_mString, put = __set_mString))::ArrayW<uint8_t, ::Array<uint8_t>*> mString;
+  __declspec(property(get = __cordl_internal_get_mString, put = __cordl_internal_set_mString))::ArrayW<uint8_t, ::Array<uint8_t>*> mString;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mString();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mString();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mString() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mString() const;
 
-  constexpr void __set_mString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method GetInstance, addr 0x11c2db0, size 0x220, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGraphicString* GetInstance(::System::Object* obj);

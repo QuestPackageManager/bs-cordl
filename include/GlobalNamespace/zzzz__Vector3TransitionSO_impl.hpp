@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2280094;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                               "get_normalState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_normalState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,9 +25,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x22800a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                               "get_highlightedState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_highlightedState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -39,9 +39,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x22800ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                               "get_pressedState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_pressedState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -53,9 +53,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x22800b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                               "get_disabledState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_disabledState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -67,9 +67,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x22800c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                               "get_selectedState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_selectedState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -81,9 +81,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x22800d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                               "get_selectedAndHighlightedState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(), "get_selectedAndHighlightedState",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -94,120 +95,120 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22800dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__normalState() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__normalState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalState;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__normalState() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__normalState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalState;
 }
-constexpr void GlobalNamespace::Vector3TransitionSO::__set__normalState(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::Vector3TransitionSO::__cordl_internal_set__normalState(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalState = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__highlightedState() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__highlightedState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedState;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__highlightedState() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__highlightedState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedState;
 }
-constexpr void GlobalNamespace::Vector3TransitionSO::__set__highlightedState(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::Vector3TransitionSO::__cordl_internal_set__highlightedState(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightedState = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__pressedState() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__pressedState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedState;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__pressedState() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__pressedState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedState;
 }
-constexpr void GlobalNamespace::Vector3TransitionSO::__set__pressedState(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::Vector3TransitionSO::__cordl_internal_set__pressedState(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedState = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__disabledState() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__disabledState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledState;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__disabledState() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__disabledState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledState;
 }
-constexpr void GlobalNamespace::Vector3TransitionSO::__set__disabledState(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::Vector3TransitionSO::__cordl_internal_set__disabledState(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledState = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__selectedState() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__selectedState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedState;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__selectedState() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__selectedState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedState;
 }
-constexpr void GlobalNamespace::Vector3TransitionSO::__set__selectedState(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::Vector3TransitionSO::__cordl_internal_set__selectedState(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedState = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__selectedAndHighlightedState() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__selectedAndHighlightedState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedState;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__selectedAndHighlightedState() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__cordl_internal_get__selectedAndHighlightedState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedState;
 }
-constexpr void GlobalNamespace::Vector3TransitionSO::__set__selectedAndHighlightedState(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::Vector3TransitionSO::__cordl_internal_set__selectedAndHighlightedState(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAndHighlightedState = value;
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::Vector3TransitionSO::get_normalState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(), "get_normalState",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::Vector3TransitionSO::get_highlightedState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                             "get_highlightedState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_highlightedState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::Vector3TransitionSO::get_pressedState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(), "get_pressedState",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::Vector3TransitionSO::get_disabledState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                             "get_disabledState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_disabledState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::Vector3TransitionSO::get_selectedState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                             "get_selectedState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_selectedState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::Vector3TransitionSO::get_selectedAndHighlightedState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
-                                                                             "get_selectedAndHighlightedState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_selectedAndHighlightedState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::Vector3TransitionSO* GlobalNamespace::Vector3TransitionSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::Vector3TransitionSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Vector3TransitionSO*>());
 }
 inline void GlobalNamespace::Vector3TransitionSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

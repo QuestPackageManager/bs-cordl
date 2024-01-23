@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::__BeforeRenderHelper__OrderBlock);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10099))
 // CS Name: ::BeforeRenderHelper::OrderBlock
 struct CORDL_TYPE __BeforeRenderHelper__OrderBlock {
@@ -66,7 +66,7 @@ static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, callback
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10100))
 // CS Name: ::UnityEngine::BeforeRenderHelper*
 class CORDL_TYPE BeforeRenderHelper : public ::System::Object {

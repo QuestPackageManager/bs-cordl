@@ -31,38 +31,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(690))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInfoGeneratorBuilder*
 class CORDL_TYPE SignerInfoGeneratorBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field directSignature, offset 0x10, size 0x1
-  __declspec(property(get = __get_directSignature, put = __set_directSignature)) bool directSignature;
+  __declspec(property(get = __cordl_internal_get_directSignature, put = __cordl_internal_set_directSignature)) bool directSignature;
 
   /// @brief Field signedGen, offset 0x18, size 0x8
-  __declspec(property(get = __get_signedGen, put = __set_signedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen;
+  __declspec(property(get = __cordl_internal_get_signedGen, put = __cordl_internal_set_signedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen;
 
   /// @brief Field unsignedGen, offset 0x20, size 0x8
-  __declspec(property(get = __get_unsignedGen, put = __set_unsignedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen;
+  __declspec(property(get = __cordl_internal_get_unsignedGen, put = __cordl_internal_set_unsignedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen;
 
-  constexpr bool& __get_directSignature();
+  constexpr bool& __cordl_internal_get_directSignature();
 
-  constexpr bool const& __get_directSignature() const;
+  constexpr bool const& __cordl_internal_get_directSignature() const;
 
-  constexpr void __set_directSignature(bool value);
+  constexpr void __cordl_internal_set_directSignature(bool value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __get_signedGen();
+  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_signedGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __get_signedGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_signedGen() const;
 
-  constexpr void __set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
+  constexpr void __cordl_internal_set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __get_unsignedGen();
+  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_unsignedGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __get_unsignedGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_unsignedGen() const;
 
-  constexpr void __set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
+  constexpr void __cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* New_ctor();
 

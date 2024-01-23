@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Xml::Linq::XObjectChange);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15449))
 // CS Name: ::System.Xml.Linq::XObjectChange
 struct CORDL_TYPE XObjectChange {

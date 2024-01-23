@@ -69,7 +69,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__ListViewDragger__DragPosition);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6954))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6954))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6958))
 // CS Name: ::ListViewDragger::DragPosition
 struct CORDL_TYPE __ListViewDragger__DragPosition {
@@ -127,7 +127,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__ListViewDragger__DragPositio
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6969)), TypeDefinitionIndex(TypeDefinitionIndex(6958))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6958)), TypeDefinitionIndex(TypeDefinitionIndex(6969))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6959))
 // CS Name: ::UnityEngine.UIElements::ListViewDragger*
 class CORDL_TYPE ListViewDragger : public ::UnityEngine::UIElements::DragEventsProcessor {
@@ -136,14 +136,14 @@ public:
   using DragPosition = ::UnityEngine::UIElements::__ListViewDragger__DragPosition;
 
   /// @brief Field m_LastDragPosition, offset 0x38, size 0x18
-  __declspec(property(get = __get_m_LastDragPosition, put = __set_m_LastDragPosition))::UnityEngine::UIElements::__ListViewDragger__DragPosition m_LastDragPosition;
+  __declspec(property(get = __cordl_internal_get_m_LastDragPosition, put = __cordl_internal_set_m_LastDragPosition))::UnityEngine::UIElements::__ListViewDragger__DragPosition m_LastDragPosition;
 
   /// @brief Field m_DragHoverBar, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_DragHoverBar, put = __set_m_DragHoverBar))::UnityEngine::UIElements::VisualElement* m_DragHoverBar;
+  __declspec(property(get = __cordl_internal_get_m_DragHoverBar, put = __cordl_internal_set_m_DragHoverBar))::UnityEngine::UIElements::VisualElement* m_DragHoverBar;
 
   /// @brief Field <dragAndDropController>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__dragAndDropController_k__BackingField,
-                      put = __set__dragAndDropController_k__BackingField))::UnityEngine::UIElements::ICollectionDragAndDropController* _dragAndDropController_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dragAndDropController_k__BackingField,
+                      put = __cordl_internal_set__dragAndDropController_k__BackingField))::UnityEngine::UIElements::ICollectionDragAndDropController* _dragAndDropController_k__BackingField;
 
   __declspec(property(get = get_targetListView))::UnityEngine::UIElements::BaseVerticalCollectionView* targetListView;
 
@@ -151,23 +151,23 @@ public:
 
   __declspec(property(get = get_dragAndDropController, put = set_dragAndDropController))::UnityEngine::UIElements::ICollectionDragAndDropController* dragAndDropController;
 
-  constexpr ::UnityEngine::UIElements::__ListViewDragger__DragPosition& __get_m_LastDragPosition();
+  constexpr ::UnityEngine::UIElements::__ListViewDragger__DragPosition& __cordl_internal_get_m_LastDragPosition();
 
-  constexpr ::UnityEngine::UIElements::__ListViewDragger__DragPosition const& __get_m_LastDragPosition() const;
+  constexpr ::UnityEngine::UIElements::__ListViewDragger__DragPosition const& __cordl_internal_get_m_LastDragPosition() const;
 
-  constexpr void __set_m_LastDragPosition(::UnityEngine::UIElements::__ListViewDragger__DragPosition value);
+  constexpr void __cordl_internal_set_m_LastDragPosition(::UnityEngine::UIElements::__ListViewDragger__DragPosition value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_DragHoverBar();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragHoverBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_DragHoverBar() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_DragHoverBar() const;
 
-  constexpr void __set_m_DragHoverBar(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_DragHoverBar(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::ICollectionDragAndDropController*& __get__dragAndDropController_k__BackingField();
+  constexpr ::UnityEngine::UIElements::ICollectionDragAndDropController*& __cordl_internal_get__dragAndDropController_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ICollectionDragAndDropController*> const& __get__dragAndDropController_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ICollectionDragAndDropController*> const& __cordl_internal_get__dragAndDropController_k__BackingField() const;
 
-  constexpr void __set__dragAndDropController_k__BackingField(::UnityEngine::UIElements::ICollectionDragAndDropController* value);
+  constexpr void __cordl_internal_set__dragAndDropController_k__BackingField(::UnityEngine::UIElements::ICollectionDragAndDropController* value);
 
   /// @brief Method get_targetListView, addr 0x2e0998c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVerticalCollectionView* get_targetListView();

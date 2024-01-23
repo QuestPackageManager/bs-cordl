@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14163))
 // CS Name: ::NetEvent::EType
 struct CORDL_TYPE __NetEvent__EType {
@@ -123,102 +123,102 @@ static_assert(offsetof(::LiteNetLib::__NetEvent__EType, value__) == 0x0, "Offset
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14163)), TypeDefinitionIndex(TypeDefinitionIndex(14131)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14155))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14164)) CS Name: ::LiteNetLib::NetEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14131)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14155)), TypeDefinitionIndex(TypeDefinitionIndex(14163))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14164)) CS Name: ::LiteNetLib::NetEvent*
 class CORDL_TYPE NetEvent : public ::System::Object {
 public:
   // Declarations
   using EType = ::LiteNetLib::__NetEvent__EType;
 
   /// @brief Field Type, offset 0x10, size 0x4
-  __declspec(property(get = __get_Type, put = __set_Type))::LiteNetLib::__NetEvent__EType Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::LiteNetLib::__NetEvent__EType Type;
 
   /// @brief Field Peer, offset 0x18, size 0x8
-  __declspec(property(get = __get_Peer, put = __set_Peer))::LiteNetLib::NetPeer* Peer;
+  __declspec(property(get = __cordl_internal_get_Peer, put = __cordl_internal_set_Peer))::LiteNetLib::NetPeer* Peer;
 
   /// @brief Field RemoteEndPoint, offset 0x20, size 0x8
-  __declspec(property(get = __get_RemoteEndPoint, put = __set_RemoteEndPoint))::System::Net::IPEndPoint* RemoteEndPoint;
+  __declspec(property(get = __cordl_internal_get_RemoteEndPoint, put = __cordl_internal_set_RemoteEndPoint))::System::Net::IPEndPoint* RemoteEndPoint;
 
   /// @brief Field UserData, offset 0x28, size 0x8
-  __declspec(property(get = __get_UserData, put = __set_UserData))::System::Object* UserData;
+  __declspec(property(get = __cordl_internal_get_UserData, put = __cordl_internal_set_UserData))::System::Object* UserData;
 
   /// @brief Field Latency, offset 0x30, size 0x4
-  __declspec(property(get = __get_Latency, put = __set_Latency)) int32_t Latency;
+  __declspec(property(get = __cordl_internal_get_Latency, put = __cordl_internal_set_Latency)) int32_t Latency;
 
   /// @brief Field ErrorCode, offset 0x34, size 0x4
-  __declspec(property(get = __get_ErrorCode, put = __set_ErrorCode))::System::Net::Sockets::SocketError ErrorCode;
+  __declspec(property(get = __cordl_internal_get_ErrorCode, put = __cordl_internal_set_ErrorCode))::System::Net::Sockets::SocketError ErrorCode;
 
   /// @brief Field DisconnectReason, offset 0x38, size 0x4
-  __declspec(property(get = __get_DisconnectReason, put = __set_DisconnectReason))::LiteNetLib::DisconnectReason DisconnectReason;
+  __declspec(property(get = __cordl_internal_get_DisconnectReason, put = __cordl_internal_set_DisconnectReason))::LiteNetLib::DisconnectReason DisconnectReason;
 
   /// @brief Field ConnectionRequest, offset 0x40, size 0x8
-  __declspec(property(get = __get_ConnectionRequest, put = __set_ConnectionRequest))::LiteNetLib::ConnectionRequest* ConnectionRequest;
+  __declspec(property(get = __cordl_internal_get_ConnectionRequest, put = __cordl_internal_set_ConnectionRequest))::LiteNetLib::ConnectionRequest* ConnectionRequest;
 
   /// @brief Field DeliveryMethod, offset 0x48, size 0x1
-  __declspec(property(get = __get_DeliveryMethod, put = __set_DeliveryMethod))::LiteNetLib::DeliveryMethod DeliveryMethod;
+  __declspec(property(get = __cordl_internal_get_DeliveryMethod, put = __cordl_internal_set_DeliveryMethod))::LiteNetLib::DeliveryMethod DeliveryMethod;
 
   /// @brief Field DataReader, offset 0x50, size 0x8
-  __declspec(property(get = __get_DataReader, put = __set_DataReader))::LiteNetLib::NetPacketReader* DataReader;
+  __declspec(property(get = __cordl_internal_get_DataReader, put = __cordl_internal_set_DataReader))::LiteNetLib::NetPacketReader* DataReader;
 
-  constexpr ::LiteNetLib::__NetEvent__EType& __get_Type();
+  constexpr ::LiteNetLib::__NetEvent__EType& __cordl_internal_get_Type();
 
-  constexpr ::LiteNetLib::__NetEvent__EType const& __get_Type() const;
+  constexpr ::LiteNetLib::__NetEvent__EType const& __cordl_internal_get_Type() const;
 
-  constexpr void __set_Type(::LiteNetLib::__NetEvent__EType value);
+  constexpr void __cordl_internal_set_Type(::LiteNetLib::__NetEvent__EType value);
 
-  constexpr ::LiteNetLib::NetPeer*& __get_Peer();
+  constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_Peer();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __get_Peer() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get_Peer() const;
 
-  constexpr void __set_Peer(::LiteNetLib::NetPeer* value);
+  constexpr void __cordl_internal_set_Peer(::LiteNetLib::NetPeer* value);
 
-  constexpr ::System::Net::IPEndPoint*& __get_RemoteEndPoint();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_RemoteEndPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get_RemoteEndPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_RemoteEndPoint() const;
 
-  constexpr void __set_RemoteEndPoint(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set_RemoteEndPoint(::System::Net::IPEndPoint* value);
 
-  constexpr ::System::Object*& __get_UserData();
+  constexpr ::System::Object*& __cordl_internal_get_UserData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_UserData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_UserData() const;
 
-  constexpr void __set_UserData(::System::Object* value);
+  constexpr void __cordl_internal_set_UserData(::System::Object* value);
 
-  constexpr int32_t& __get_Latency();
+  constexpr int32_t& __cordl_internal_get_Latency();
 
-  constexpr int32_t const& __get_Latency() const;
+  constexpr int32_t const& __cordl_internal_get_Latency() const;
 
-  constexpr void __set_Latency(int32_t value);
+  constexpr void __cordl_internal_set_Latency(int32_t value);
 
-  constexpr ::System::Net::Sockets::SocketError& __get_ErrorCode();
+  constexpr ::System::Net::Sockets::SocketError& __cordl_internal_get_ErrorCode();
 
-  constexpr ::System::Net::Sockets::SocketError const& __get_ErrorCode() const;
+  constexpr ::System::Net::Sockets::SocketError const& __cordl_internal_get_ErrorCode() const;
 
-  constexpr void __set_ErrorCode(::System::Net::Sockets::SocketError value);
+  constexpr void __cordl_internal_set_ErrorCode(::System::Net::Sockets::SocketError value);
 
-  constexpr ::LiteNetLib::DisconnectReason& __get_DisconnectReason();
+  constexpr ::LiteNetLib::DisconnectReason& __cordl_internal_get_DisconnectReason();
 
-  constexpr ::LiteNetLib::DisconnectReason const& __get_DisconnectReason() const;
+  constexpr ::LiteNetLib::DisconnectReason const& __cordl_internal_get_DisconnectReason() const;
 
-  constexpr void __set_DisconnectReason(::LiteNetLib::DisconnectReason value);
+  constexpr void __cordl_internal_set_DisconnectReason(::LiteNetLib::DisconnectReason value);
 
-  constexpr ::LiteNetLib::ConnectionRequest*& __get_ConnectionRequest();
+  constexpr ::LiteNetLib::ConnectionRequest*& __cordl_internal_get_ConnectionRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::ConnectionRequest*> const& __get_ConnectionRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::ConnectionRequest*> const& __cordl_internal_get_ConnectionRequest() const;
 
-  constexpr void __set_ConnectionRequest(::LiteNetLib::ConnectionRequest* value);
+  constexpr void __cordl_internal_set_ConnectionRequest(::LiteNetLib::ConnectionRequest* value);
 
-  constexpr ::LiteNetLib::DeliveryMethod& __get_DeliveryMethod();
+  constexpr ::LiteNetLib::DeliveryMethod& __cordl_internal_get_DeliveryMethod();
 
-  constexpr ::LiteNetLib::DeliveryMethod const& __get_DeliveryMethod() const;
+  constexpr ::LiteNetLib::DeliveryMethod const& __cordl_internal_get_DeliveryMethod() const;
 
-  constexpr void __set_DeliveryMethod(::LiteNetLib::DeliveryMethod value);
+  constexpr void __cordl_internal_set_DeliveryMethod(::LiteNetLib::DeliveryMethod value);
 
-  constexpr ::LiteNetLib::NetPacketReader*& __get_DataReader();
+  constexpr ::LiteNetLib::NetPacketReader*& __cordl_internal_get_DataReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketReader*> const& __get_DataReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketReader*> const& __cordl_internal_get_DataReader() const;
 
-  constexpr void __set_DataReader(::LiteNetLib::NetPacketReader* value);
+  constexpr void __cordl_internal_set_DataReader(::LiteNetLib::NetPacketReader* value);
 
   static inline ::LiteNetLib::NetEvent* New_ctor(::LiteNetLib::NetManager* manager);
 

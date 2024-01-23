@@ -32,14 +32,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(570))
 // CS Name: ::Org.BouncyCastle.Bcpg::ElGamalSecretBcpgKey*
 class CORDL_TYPE ElGamalSecretBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::Org::BouncyCastle::Bcpg::MPInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Bcpg::MPInteger* x;
 
   __declspec(property(get = get_Format))::StringW Format;
 
@@ -51,11 +51,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* i___Org__BouncyCastle__Bcpg__IBcpgKey() noexcept;
 
-  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __get_x();
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __get_x() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::Org::BouncyCastle::Bcpg::MPInteger* value);
+  constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

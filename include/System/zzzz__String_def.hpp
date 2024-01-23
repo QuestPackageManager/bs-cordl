@@ -109,7 +109,7 @@ MARK_VAL_T(::System::__String__ProbabilisticMap);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2310))
 // CS Name: ::String::TrimType
 struct CORDL_TYPE __String__TrimType {
@@ -163,7 +163,7 @@ static_assert(offsetof(::System::__String__TrimType, value__) == 0x0, "Offset mi
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(0) }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2311))
 // CS Name: ::String::ProbabilisticMap
 #pragma pack(push, 0)
@@ -191,7 +191,7 @@ static_assert(::cordl_internals::size_check_v<::System::__String__ProbabilisticM
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2312))
 // CS Name: ::System::String*
 class CORDL_TYPE String : public ::System::Object {
@@ -202,10 +202,10 @@ public:
   using TrimType = ::System::__String__TrimType;
 
   /// @brief Field _stringLength, offset 0x10, size 0x4
-  __declspec(property(get = __get__stringLength, put = __set__stringLength)) int32_t _stringLength;
+  __declspec(property(get = __cordl_internal_get__stringLength, put = __cordl_internal_set__stringLength)) int32_t _stringLength;
 
   /// @brief Field _firstChar, offset 0x14, size 0x2
-  __declspec(property(get = __get__firstChar, put = __set__firstChar)) char16_t _firstChar;
+  __declspec(property(get = __cordl_internal_get__firstChar, put = __cordl_internal_set__firstChar)) char16_t _firstChar;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::StringW Empty;
@@ -256,17 +256,17 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr int32_t& __get__stringLength();
+  constexpr int32_t& __cordl_internal_get__stringLength();
 
-  constexpr int32_t const& __get__stringLength() const;
+  constexpr int32_t const& __cordl_internal_get__stringLength() const;
 
-  constexpr void __set__stringLength(int32_t value);
+  constexpr void __cordl_internal_set__stringLength(int32_t value);
 
-  constexpr char16_t& __get__firstChar();
+  constexpr char16_t& __cordl_internal_get__firstChar();
 
-  constexpr char16_t const& __get__firstChar() const;
+  constexpr char16_t const& __cordl_internal_get__firstChar() const;
 
-  constexpr void __set__firstChar(char16_t value);
+  constexpr void __cordl_internal_set__firstChar(char16_t value);
 
   static inline void setStaticF_Empty(::StringW value);
 

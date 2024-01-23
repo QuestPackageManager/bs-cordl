@@ -49,29 +49,29 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__RepeatButton__UxmlTraits);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6813))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7051))
 // CS Name: ::RepeatButton::UxmlTraits*
 class CORDL_TYPE __RepeatButton__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_Delay, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_Delay, put = __set_m_Delay))::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Delay;
+  __declspec(property(get = __cordl_internal_get_m_Delay, put = __cordl_internal_set_m_Delay))::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Delay;
 
   /// @brief Field m_Interval, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_Interval, put = __set_m_Interval))::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Interval;
+  __declspec(property(get = __cordl_internal_get_m_Interval, put = __cordl_internal_set_m_Interval))::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Interval;
 
-  constexpr ::UnityEngine::UIElements::UxmlLongAttributeDescription*& __get_m_Delay();
+  constexpr ::UnityEngine::UIElements::UxmlLongAttributeDescription*& __cordl_internal_get_m_Delay();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlLongAttributeDescription*> const& __get_m_Delay() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlLongAttributeDescription*> const& __cordl_internal_get_m_Delay() const;
 
-  constexpr void __set_m_Delay(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Delay(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlLongAttributeDescription*& __get_m_Interval();
+  constexpr ::UnityEngine::UIElements::UxmlLongAttributeDescription*& __cordl_internal_get_m_Interval();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlLongAttributeDescription*> const& __get_m_Interval() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlLongAttributeDescription*> const& __cordl_internal_get_m_Interval() const;
 
-  constexpr void __set_m_Interval(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Interval(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e27420, size 0x134, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -115,7 +115,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__RepeatButton__UxmlTraits, __
 // SizeInfo { instance_size: 1152, native_size: -1, calculated_instance_size: 1152, calculated_native_size: 1152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6814))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7052))
 // CS Name: ::UnityEngine.UIElements::RepeatButton*
 class CORDL_TYPE RepeatButton : public ::UnityEngine::UIElements::TextElement {
@@ -126,16 +126,16 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__RepeatButton__UxmlFactory;
 
   /// @brief Field m_Clickable, offset 0x478, size 0x8
-  __declspec(property(get = __get_m_Clickable, put = __set_m_Clickable))::UnityEngine::UIElements::Clickable* m_Clickable;
+  __declspec(property(get = __cordl_internal_get_m_Clickable, put = __cordl_internal_set_m_Clickable))::UnityEngine::UIElements::Clickable* m_Clickable;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  constexpr ::UnityEngine::UIElements::Clickable*& __get_m_Clickable();
+  constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __get_m_Clickable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __cordl_internal_get_m_Clickable() const;
 
-  constexpr void __set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
+  constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -183,8 +183,8 @@ static_assert(offsetof(::UnityEngine::UIElements::RepeatButton, ___m_Clickable) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7051)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7052)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5273 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7050)) CS Name: ::RepeatButton::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7051)), TypeDefinitionIndex(TypeDefinitionIndex(7052)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5273 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7050)) CS Name: ::RepeatButton::UxmlFactory*
 class CORDL_TYPE __RepeatButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RepeatButton*, ::UnityEngine::UIElements::__RepeatButton__UxmlTraits*> {
 public:
   // Declarations

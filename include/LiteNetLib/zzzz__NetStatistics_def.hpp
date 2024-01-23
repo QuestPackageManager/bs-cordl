@@ -16,26 +16,26 @@ MARK_REF_PTR_T(::LiteNetLib::NetStatistics);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14181))
 // CS Name: ::LiteNetLib::NetStatistics*
 class CORDL_TYPE NetStatistics : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _packetsSent, offset 0x10, size 0x8
-  __declspec(property(get = __get__packetsSent, put = __set__packetsSent)) int64_t _packetsSent;
+  __declspec(property(get = __cordl_internal_get__packetsSent, put = __cordl_internal_set__packetsSent)) int64_t _packetsSent;
 
   /// @brief Field _packetsReceived, offset 0x18, size 0x8
-  __declspec(property(get = __get__packetsReceived, put = __set__packetsReceived)) int64_t _packetsReceived;
+  __declspec(property(get = __cordl_internal_get__packetsReceived, put = __cordl_internal_set__packetsReceived)) int64_t _packetsReceived;
 
   /// @brief Field _bytesSent, offset 0x20, size 0x8
-  __declspec(property(get = __get__bytesSent, put = __set__bytesSent)) int64_t _bytesSent;
+  __declspec(property(get = __cordl_internal_get__bytesSent, put = __cordl_internal_set__bytesSent)) int64_t _bytesSent;
 
   /// @brief Field _bytesReceived, offset 0x28, size 0x8
-  __declspec(property(get = __get__bytesReceived, put = __set__bytesReceived)) int64_t _bytesReceived;
+  __declspec(property(get = __cordl_internal_get__bytesReceived, put = __cordl_internal_set__bytesReceived)) int64_t _bytesReceived;
 
   /// @brief Field _packetLoss, offset 0x30, size 0x8
-  __declspec(property(get = __get__packetLoss, put = __set__packetLoss)) int64_t _packetLoss;
+  __declspec(property(get = __cordl_internal_get__packetLoss, put = __cordl_internal_set__packetLoss)) int64_t _packetLoss;
 
   __declspec(property(get = get_PacketsSent)) int64_t PacketsSent;
 
@@ -49,35 +49,35 @@ public:
 
   __declspec(property(get = get_PacketLossPercent)) int64_t PacketLossPercent;
 
-  constexpr int64_t& __get__packetsSent();
+  constexpr int64_t& __cordl_internal_get__packetsSent();
 
-  constexpr int64_t const& __get__packetsSent() const;
+  constexpr int64_t const& __cordl_internal_get__packetsSent() const;
 
-  constexpr void __set__packetsSent(int64_t value);
+  constexpr void __cordl_internal_set__packetsSent(int64_t value);
 
-  constexpr int64_t& __get__packetsReceived();
+  constexpr int64_t& __cordl_internal_get__packetsReceived();
 
-  constexpr int64_t const& __get__packetsReceived() const;
+  constexpr int64_t const& __cordl_internal_get__packetsReceived() const;
 
-  constexpr void __set__packetsReceived(int64_t value);
+  constexpr void __cordl_internal_set__packetsReceived(int64_t value);
 
-  constexpr int64_t& __get__bytesSent();
+  constexpr int64_t& __cordl_internal_get__bytesSent();
 
-  constexpr int64_t const& __get__bytesSent() const;
+  constexpr int64_t const& __cordl_internal_get__bytesSent() const;
 
-  constexpr void __set__bytesSent(int64_t value);
+  constexpr void __cordl_internal_set__bytesSent(int64_t value);
 
-  constexpr int64_t& __get__bytesReceived();
+  constexpr int64_t& __cordl_internal_get__bytesReceived();
 
-  constexpr int64_t const& __get__bytesReceived() const;
+  constexpr int64_t const& __cordl_internal_get__bytesReceived() const;
 
-  constexpr void __set__bytesReceived(int64_t value);
+  constexpr void __cordl_internal_set__bytesReceived(int64_t value);
 
-  constexpr int64_t& __get__packetLoss();
+  constexpr int64_t& __cordl_internal_get__packetLoss();
 
-  constexpr int64_t const& __get__packetLoss() const;
+  constexpr int64_t const& __cordl_internal_get__packetLoss() const;
 
-  constexpr void __set__packetLoss(int64_t value);
+  constexpr void __cordl_internal_set__packetLoss(int64_t value);
 
   /// @brief Method get_PacketsSent, addr 0x2205c18, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_PacketsSent();

@@ -20,38 +20,39 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyEffect);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4909))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4910))
 // CS Name: ::MaterialPropertyEffect*
 class CORDL_TYPE MaterialPropertyEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
   /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _propertyName, offset 0x20, size 0x8
-  __declspec(property(get = __get__propertyName, put = __set__propertyName))::StringW _propertyName;
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
   /// @brief Field _propertyId, offset 0x28, size 0x4
-  __declspec(property(get = __get__propertyId, put = __set__propertyId)) int32_t _propertyId;
+  __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr ::StringW& __get__propertyName();
+  constexpr ::StringW& __cordl_internal_get__propertyName();
 
-  constexpr ::StringW const& __get__propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
-  constexpr void __set__propertyName(::StringW value);
+  constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  constexpr int32_t& __get__propertyId();
+  constexpr int32_t& __cordl_internal_get__propertyId();
 
-  constexpr int32_t const& __get__propertyId() const;
+  constexpr int32_t const& __cordl_internal_get__propertyId() const;
 
-  constexpr void __set__propertyId(int32_t value);
+  constexpr void __cordl_internal_set__propertyId(int32_t value);
 
   /// @brief Method Awake, addr 0x23a65d0, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
@@ -82,7 +83,7 @@ protected:
 
 public:
   /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief Field _propertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____propertyName;

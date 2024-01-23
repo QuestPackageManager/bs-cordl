@@ -55,47 +55,47 @@ namespace HMUI {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13512))
 // CS Name: ::InputFieldDataBinder::<>c__DisplayClass2_0`2<T0,T1>*
 class CORDL_TYPE __InputFieldDataBinder____c__DisplayClass2_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field toValueConvertor, offset 0x10, size 0x8
-  __declspec(property(get = __get_toValueConvertor, put = __set_toValueConvertor))::System::Func_2<::StringW, T1>* toValueConvertor;
+  __declspec(property(get = __cordl_internal_get_toValueConvertor, put = __cordl_internal_set_toValueConvertor))::System::Func_2<::StringW, T1>* toValueConvertor;
 
   /// @brief Field valueItem, offset 0x18, size 0x8
-  __declspec(property(get = __get_valueItem, put = __set_valueItem)) T0 valueItem;
+  __declspec(property(get = __cordl_internal_get_valueItem, put = __cordl_internal_set_valueItem)) T0 valueItem;
 
   /// @brief Field inputField, offset 0x20, size 0x8
-  __declspec(property(get = __get_inputField, put = __set_inputField))::UnityEngine::UI::InputField* inputField;
+  __declspec(property(get = __cordl_internal_get_inputField, put = __cordl_internal_set_inputField))::UnityW<::UnityEngine::UI::InputField> inputField;
 
   /// @brief Field toStringConvertor, offset 0x28, size 0x8
-  __declspec(property(get = __get_toStringConvertor, put = __set_toStringConvertor))::System::Func_2<T1, ::StringW>* toStringConvertor;
+  __declspec(property(get = __cordl_internal_get_toStringConvertor, put = __cordl_internal_set_toStringConvertor))::System::Func_2<T1, ::StringW>* toStringConvertor;
 
-  constexpr ::System::Func_2<::StringW, T1>*& __get_toValueConvertor();
+  constexpr ::System::Func_2<::StringW, T1>*& __cordl_internal_get_toValueConvertor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, T1>*> const& __get_toValueConvertor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, T1>*> const& __cordl_internal_get_toValueConvertor() const;
 
-  constexpr void __set_toValueConvertor(::System::Func_2<::StringW, T1>* value);
+  constexpr void __cordl_internal_set_toValueConvertor(::System::Func_2<::StringW, T1>* value);
 
-  constexpr T0& __get_valueItem();
+  constexpr T0& __cordl_internal_get_valueItem();
 
-  constexpr T0 const& __get_valueItem() const;
+  constexpr T0 const& __cordl_internal_get_valueItem() const;
 
-  constexpr void __set_valueItem(T0 value);
+  constexpr void __cordl_internal_set_valueItem(T0 value);
 
-  constexpr ::UnityEngine::UI::InputField*& __get_inputField();
+  constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_inputField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::InputField*> const& __get_inputField() const;
+  constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_inputField() const;
 
-  constexpr void __set_inputField(::UnityEngine::UI::InputField* value);
+  constexpr void __cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value);
 
-  constexpr ::System::Func_2<T1, ::StringW>*& __get_toStringConvertor();
+  constexpr ::System::Func_2<T1, ::StringW>*& __cordl_internal_get_toStringConvertor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T1, ::StringW>*> const& __get_toStringConvertor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T1, ::StringW>*> const& __cordl_internal_get_toStringConvertor() const;
 
-  constexpr void __set_toStringConvertor(::System::Func_2<T1, ::StringW>* value);
+  constexpr void __cordl_internal_set_toStringConvertor(::System::Func_2<T1, ::StringW>* value);
 
   static inline ::HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>* New_ctor();
 
@@ -129,7 +129,7 @@ public:
   T0 ___valueItem;
 
   /// @brief Field inputField, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::InputField* ___inputField;
+  ::UnityW<::UnityEngine::UI::InputField> ___inputField;
 
   /// @brief Field toStringConvertor, offset: 0x28, size: 0x8, def value: None
   ::System::Func_2<T1, ::StringW>* ___toStringConvertor;
@@ -144,7 +144,7 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13513))
 // CS Name: ::InputFieldDataBinder::<>c__3`1<T>*
 class CORDL_TYPE __InputFieldDataBinder____c__3_1 : public ::System::Object {
@@ -194,7 +194,7 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13514))
 // CS Name: ::HMUI::InputFieldDataBinder*
 class CORDL_TYPE InputFieldDataBinder : public ::System::Object {
@@ -205,20 +205,19 @@ public:
   template <typename T0, typename T1> using __c__DisplayClass2_0_2 = ::HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>;
 
   /// @brief Field _bindings, offset 0x10, size 0x8
-  __declspec(property(get = __get__bindings, put = __set__bindings))::System::Collections::Generic::List_1<
-      ::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* _bindings;
+  __declspec(property(get = __cordl_internal_get__bindings, put = __cordl_internal_set__bindings))::System::Collections::Generic::List_1<
+      ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* _bindings;
 
   constexpr ::System::Collections::Generic::List_1<
-      ::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*&
-  __get__bindings();
+      ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*&
+  __cordl_internal_get__bindings();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<
-      ::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*> const&
-  __get__bindings() const;
+      ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*> const&
+  __cordl_internal_get__bindings() const;
 
-  constexpr void
-  __set__bindings(::System::Collections::Generic::List_1<
-                  ::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* value);
+  constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*,
+                                                                                                         ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* value);
 
   static inline ::HMUI::InputFieldDataBinder* New_ctor();
 
@@ -228,10 +227,10 @@ public:
   /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0, typename T1>
   inline void
-  AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
+  AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
 
   /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::InputField*, T>*>* bindingData);
+  template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
 
   /// @brief Method ClearBindings, addr 0x2118954, size 0x2c4, virtual false, abstract: false, final false
   inline void ClearBindings();
@@ -252,7 +251,7 @@ protected:
 public:
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<
-      ::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* ____bindings;
+      ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* ____bindings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerBoolean);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(503))
 // CS Name: ::Org.BouncyCastle.Asn1::DerBoolean*
 class CORDL_TYPE DerBoolean : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x1
-  __declspec(property(get = __get_value, put = __set_value)) uint8_t value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) uint8_t value;
 
   /// @brief Field False, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_False, put = setStaticF_False))::Org::BouncyCastle::Asn1::DerBoolean* False;
@@ -46,11 +46,11 @@ public:
 
   __declspec(property(get = get_IsTrue)) bool IsTrue;
 
-  constexpr uint8_t& __get_value();
+  constexpr uint8_t& __cordl_internal_get_value();
 
-  constexpr uint8_t const& __get_value() const;
+  constexpr uint8_t const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(uint8_t value);
+  constexpr void __cordl_internal_set_value(uint8_t value);
 
   static inline void setStaticF_False(::Org::BouncyCastle::Asn1::DerBoolean* value);
 

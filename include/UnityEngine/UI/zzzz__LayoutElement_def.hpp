@@ -22,35 +22,35 @@ MARK_REF_PTR_T(::UnityEngine::UI::LayoutElement);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13214))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13089))
 // CS Name: ::UnityEngine.UI::LayoutElement*
 class CORDL_TYPE LayoutElement : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
   /// @brief Field m_IgnoreLayout, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_IgnoreLayout, put = __set_m_IgnoreLayout)) bool m_IgnoreLayout;
+  __declspec(property(get = __cordl_internal_get_m_IgnoreLayout, put = __cordl_internal_set_m_IgnoreLayout)) bool m_IgnoreLayout;
 
   /// @brief Field m_MinWidth, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_MinWidth, put = __set_m_MinWidth)) float_t m_MinWidth;
+  __declspec(property(get = __cordl_internal_get_m_MinWidth, put = __cordl_internal_set_m_MinWidth)) float_t m_MinWidth;
 
   /// @brief Field m_MinHeight, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_MinHeight, put = __set_m_MinHeight)) float_t m_MinHeight;
+  __declspec(property(get = __cordl_internal_get_m_MinHeight, put = __cordl_internal_set_m_MinHeight)) float_t m_MinHeight;
 
   /// @brief Field m_PreferredWidth, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_PreferredWidth, put = __set_m_PreferredWidth)) float_t m_PreferredWidth;
+  __declspec(property(get = __cordl_internal_get_m_PreferredWidth, put = __cordl_internal_set_m_PreferredWidth)) float_t m_PreferredWidth;
 
   /// @brief Field m_PreferredHeight, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_PreferredHeight, put = __set_m_PreferredHeight)) float_t m_PreferredHeight;
+  __declspec(property(get = __cordl_internal_get_m_PreferredHeight, put = __cordl_internal_set_m_PreferredHeight)) float_t m_PreferredHeight;
 
   /// @brief Field m_FlexibleWidth, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_FlexibleWidth, put = __set_m_FlexibleWidth)) float_t m_FlexibleWidth;
+  __declspec(property(get = __cordl_internal_get_m_FlexibleWidth, put = __cordl_internal_set_m_FlexibleWidth)) float_t m_FlexibleWidth;
 
   /// @brief Field m_FlexibleHeight, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_FlexibleHeight, put = __set_m_FlexibleHeight)) float_t m_FlexibleHeight;
+  __declspec(property(get = __cordl_internal_get_m_FlexibleHeight, put = __cordl_internal_set_m_FlexibleHeight)) float_t m_FlexibleHeight;
 
   /// @brief Field m_LayoutPriority, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_LayoutPriority, put = __set_m_LayoutPriority)) int32_t m_LayoutPriority;
+  __declspec(property(get = __cordl_internal_get_m_LayoutPriority, put = __cordl_internal_set_m_LayoutPriority)) int32_t m_LayoutPriority;
 
   __declspec(property(get = get_ignoreLayout, put = set_ignoreLayout)) bool ignoreLayout;
 
@@ -80,53 +80,53 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutIgnorer"
   constexpr ::UnityEngine::UI::ILayoutIgnorer* i___UnityEngine__UI__ILayoutIgnorer() noexcept;
 
-  constexpr bool& __get_m_IgnoreLayout();
+  constexpr bool& __cordl_internal_get_m_IgnoreLayout();
 
-  constexpr bool const& __get_m_IgnoreLayout() const;
+  constexpr bool const& __cordl_internal_get_m_IgnoreLayout() const;
 
-  constexpr void __set_m_IgnoreLayout(bool value);
+  constexpr void __cordl_internal_set_m_IgnoreLayout(bool value);
 
-  constexpr float_t& __get_m_MinWidth();
+  constexpr float_t& __cordl_internal_get_m_MinWidth();
 
-  constexpr float_t const& __get_m_MinWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_MinWidth() const;
 
-  constexpr void __set_m_MinWidth(float_t value);
+  constexpr void __cordl_internal_set_m_MinWidth(float_t value);
 
-  constexpr float_t& __get_m_MinHeight();
+  constexpr float_t& __cordl_internal_get_m_MinHeight();
 
-  constexpr float_t const& __get_m_MinHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_MinHeight() const;
 
-  constexpr void __set_m_MinHeight(float_t value);
+  constexpr void __cordl_internal_set_m_MinHeight(float_t value);
 
-  constexpr float_t& __get_m_PreferredWidth();
+  constexpr float_t& __cordl_internal_get_m_PreferredWidth();
 
-  constexpr float_t const& __get_m_PreferredWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_PreferredWidth() const;
 
-  constexpr void __set_m_PreferredWidth(float_t value);
+  constexpr void __cordl_internal_set_m_PreferredWidth(float_t value);
 
-  constexpr float_t& __get_m_PreferredHeight();
+  constexpr float_t& __cordl_internal_get_m_PreferredHeight();
 
-  constexpr float_t const& __get_m_PreferredHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_PreferredHeight() const;
 
-  constexpr void __set_m_PreferredHeight(float_t value);
+  constexpr void __cordl_internal_set_m_PreferredHeight(float_t value);
 
-  constexpr float_t& __get_m_FlexibleWidth();
+  constexpr float_t& __cordl_internal_get_m_FlexibleWidth();
 
-  constexpr float_t const& __get_m_FlexibleWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_FlexibleWidth() const;
 
-  constexpr void __set_m_FlexibleWidth(float_t value);
+  constexpr void __cordl_internal_set_m_FlexibleWidth(float_t value);
 
-  constexpr float_t& __get_m_FlexibleHeight();
+  constexpr float_t& __cordl_internal_get_m_FlexibleHeight();
 
-  constexpr float_t const& __get_m_FlexibleHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_FlexibleHeight() const;
 
-  constexpr void __set_m_FlexibleHeight(float_t value);
+  constexpr void __cordl_internal_set_m_FlexibleHeight(float_t value);
 
-  constexpr int32_t& __get_m_LayoutPriority();
+  constexpr int32_t& __cordl_internal_get_m_LayoutPriority();
 
-  constexpr int32_t const& __get_m_LayoutPriority() const;
+  constexpr int32_t const& __cordl_internal_get_m_LayoutPriority() const;
 
-  constexpr void __set_m_LayoutPriority(int32_t value);
+  constexpr void __cordl_internal_set_m_LayoutPriority(int32_t value);
 
   /// @brief Method get_ignoreLayout, addr 0x2d773dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_ignoreLayout();

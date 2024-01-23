@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackBindingTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(13917))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(13917))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13918))
 // CS Name: ::UnityEngine.Timeline::TrackBindingTypeAttribute*
 class CORDL_TYPE TrackBindingTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   /// @brief Field flags, offset 0x18, size 0x4
-  __declspec(property(get = __get_flags, put = __set_flags))::UnityEngine::Timeline::TrackBindingFlags flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::UnityEngine::Timeline::TrackBindingFlags flags;
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  constexpr ::UnityEngine::Timeline::TrackBindingFlags& __get_flags();
+  constexpr ::UnityEngine::Timeline::TrackBindingFlags& __cordl_internal_get_flags();
 
-  constexpr ::UnityEngine::Timeline::TrackBindingFlags const& __get_flags() const;
+  constexpr ::UnityEngine::Timeline::TrackBindingFlags const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(::UnityEngine::Timeline::TrackBindingFlags value);
+  constexpr void __cordl_internal_set_flags(::UnityEngine::Timeline::TrackBindingFlags value);
 
   static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type* type);
 

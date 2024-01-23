@@ -69,29 +69,29 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Parameters____c__DisplayClass35_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9763))
 // CS Name: ::HEU_Parameters::<>c__DisplayClass35_0*
 class CORDL_TYPE __HEU_Parameters____c__DisplayClass35_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parentID, offset 0x10, size 0x4
-  __declspec(property(get = __get_parentID, put = __set_parentID)) int32_t parentID;
+  __declspec(property(get = __cordl_internal_get_parentID, put = __cordl_internal_set_parentID)) int32_t parentID;
 
   /// @brief Field <>9__0, offset 0x18, size 0x8
-  __declspec(property(get = __get___9__0, put = __set___9__0))::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>* __9__0;
+  __declspec(property(get = __cordl_internal_get___9__0, put = __cordl_internal_set___9__0))::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>* __9__0;
 
-  constexpr int32_t& __get_parentID();
+  constexpr int32_t& __cordl_internal_get_parentID();
 
-  constexpr int32_t const& __get_parentID() const;
+  constexpr int32_t const& __cordl_internal_get_parentID() const;
 
-  constexpr void __set_parentID(int32_t value);
+  constexpr void __cordl_internal_set_parentID(int32_t value);
 
-  constexpr ::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*& __get___9__0();
+  constexpr ::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*& __cordl_internal_get___9__0();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*> const& __get___9__0() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*> const& __cordl_internal_get___9__0() const;
 
-  constexpr void __set___9__0(::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>* value);
+  constexpr void __cordl_internal_set___9__0(::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>* value);
 
   static inline ::HoudiniEngineUnity::__HEU_Parameters____c__DisplayClass35_0* New_ctor();
 
@@ -135,7 +135,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Parameters____c__DisplayClass
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 123, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9764))
 // CS Name: ::HoudiniEngineUnity::HEU_Parameters*
 class CORDL_TYPE HEU_Parameters : public ::UnityEngine::ScriptableObject {
@@ -144,49 +144,52 @@ public:
   using __c__DisplayClass35_0 = ::HoudiniEngineUnity::__HEU_Parameters____c__DisplayClass35_0;
 
   /// @brief Field _nodeID, offset 0x18, size 0x4
-  __declspec(property(get = __get__nodeID, put = __set__nodeID)) int32_t _nodeID;
+  __declspec(property(get = __cordl_internal_get__nodeID, put = __cordl_internal_set__nodeID)) int32_t _nodeID;
 
   /// @brief Field _uiLabel, offset 0x20, size 0x8
-  __declspec(property(get = __get__uiLabel, put = __set__uiLabel))::StringW _uiLabel;
+  __declspec(property(get = __cordl_internal_get__uiLabel, put = __cordl_internal_set__uiLabel))::StringW _uiLabel;
 
   /// @brief Field _paramInts, offset 0x28, size 0x8
-  __declspec(property(get = __get__paramInts, put = __set__paramInts))::ArrayW<int32_t, ::Array<int32_t>*> _paramInts;
+  __declspec(property(get = __cordl_internal_get__paramInts, put = __cordl_internal_set__paramInts))::ArrayW<int32_t, ::Array<int32_t>*> _paramInts;
 
   /// @brief Field _paramFloats, offset 0x30, size 0x8
-  __declspec(property(get = __get__paramFloats, put = __set__paramFloats))::ArrayW<float_t, ::Array<float_t>*> _paramFloats;
+  __declspec(property(get = __cordl_internal_get__paramFloats, put = __cordl_internal_set__paramFloats))::ArrayW<float_t, ::Array<float_t>*> _paramFloats;
 
   /// @brief Field _paramStrings, offset 0x38, size 0x8
-  __declspec(property(get = __get__paramStrings, put = __set__paramStrings))::ArrayW<::StringW, ::Array<::StringW>*> _paramStrings;
+  __declspec(property(get = __cordl_internal_get__paramStrings, put = __cordl_internal_set__paramStrings))::ArrayW<::StringW, ::Array<::StringW>*> _paramStrings;
 
   /// @brief Field _paramChoices, offset 0x40, size 0x8
-  __declspec(property(get = __get__paramChoices, put = __set__paramChoices))::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*> _paramChoices;
+  __declspec(property(get = __cordl_internal_get__paramChoices,
+                      put = __cordl_internal_set__paramChoices))::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*> _paramChoices;
 
   /// @brief Field _rootParameters, offset 0x48, size 0x8
-  __declspec(property(get = __get__rootParameters, put = __set__rootParameters))::System::Collections::Generic::List_1<int32_t>* _rootParameters;
+  __declspec(property(get = __cordl_internal_get__rootParameters, put = __cordl_internal_set__rootParameters))::System::Collections::Generic::List_1<int32_t>* _rootParameters;
 
   /// @brief Field _parameterList, offset 0x50, size 0x8
-  __declspec(property(get = __get__parameterList, put = __set__parameterList))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>* _parameterList;
+  __declspec(property(get = __cordl_internal_get__parameterList,
+                      put = __cordl_internal_set__parameterList))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>* _parameterList;
 
   /// @brief Field _parameterModifiers, offset 0x58, size 0x8
-  __declspec(property(get = __get__parameterModifiers, put = __set__parameterModifiers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* _parameterModifiers;
+  __declspec(property(get = __cordl_internal_get__parameterModifiers,
+                      put = __cordl_internal_set__parameterModifiers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* _parameterModifiers;
 
   /// @brief Field _regenerateParameters, offset 0x60, size 0x1
-  __declspec(property(get = __get__regenerateParameters, put = __set__regenerateParameters)) bool _regenerateParameters;
+  __declspec(property(get = __cordl_internal_get__regenerateParameters, put = __cordl_internal_set__regenerateParameters)) bool _regenerateParameters;
 
   /// @brief Field _presetData, offset 0x68, size 0x8
-  __declspec(property(get = __get__presetData, put = __set__presetData))::ArrayW<uint8_t, ::Array<uint8_t>*> _presetData;
+  __declspec(property(get = __cordl_internal_get__presetData, put = __cordl_internal_set__presetData))::ArrayW<uint8_t, ::Array<uint8_t>*> _presetData;
 
   /// @brief Field _defaultPresetData, offset 0x70, size 0x8
-  __declspec(property(get = __get__defaultPresetData, put = __set__defaultPresetData))::ArrayW<uint8_t, ::Array<uint8_t>*> _defaultPresetData;
+  __declspec(property(get = __cordl_internal_get__defaultPresetData, put = __cordl_internal_set__defaultPresetData))::ArrayW<uint8_t, ::Array<uint8_t>*> _defaultPresetData;
 
   /// @brief Field _validParameters, offset 0x78, size 0x1
-  __declspec(property(get = __get__validParameters, put = __set__validParameters)) bool _validParameters;
+  __declspec(property(get = __cordl_internal_get__validParameters, put = __cordl_internal_set__validParameters)) bool _validParameters;
 
   /// @brief Field _showParameters, offset 0x79, size 0x1
-  __declspec(property(get = __get__showParameters, put = __set__showParameters)) bool _showParameters;
+  __declspec(property(get = __cordl_internal_get__showParameters, put = __cordl_internal_set__showParameters)) bool _showParameters;
 
   /// @brief Field _recacheUI, offset 0x7a, size 0x1
-  __declspec(property(get = __get__recacheUI, put = __set__recacheUI)) bool _recacheUI;
+  __declspec(property(get = __cordl_internal_get__recacheUI, put = __cordl_internal_set__recacheUI)) bool _recacheUI;
 
   __declspec(property(get = get_RootParameters, put = set_RootParameters))::System::Collections::Generic::List_1<int32_t>* RootParameters;
 
@@ -198,101 +201,101 @@ public:
 
   __declspec(property(get = get_RecacheUI, put = set_RecacheUI)) bool RecacheUI;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Parameters__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Parameters__() noexcept;
 
-  constexpr int32_t& __get__nodeID();
+  constexpr int32_t& __cordl_internal_get__nodeID();
 
-  constexpr int32_t const& __get__nodeID() const;
+  constexpr int32_t const& __cordl_internal_get__nodeID() const;
 
-  constexpr void __set__nodeID(int32_t value);
+  constexpr void __cordl_internal_set__nodeID(int32_t value);
 
-  constexpr ::StringW& __get__uiLabel();
+  constexpr ::StringW& __cordl_internal_get__uiLabel();
 
-  constexpr ::StringW const& __get__uiLabel() const;
+  constexpr ::StringW const& __cordl_internal_get__uiLabel() const;
 
-  constexpr void __set__uiLabel(::StringW value);
+  constexpr void __cordl_internal_set__uiLabel(::StringW value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__paramInts();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__paramInts();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__paramInts() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__paramInts() const;
 
-  constexpr void __set__paramInts(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__paramInts(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__paramFloats();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__paramFloats();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__paramFloats() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__paramFloats() const;
 
-  constexpr void __set__paramFloats(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__paramFloats(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__paramStrings();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__paramStrings();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__paramStrings() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__paramStrings() const;
 
-  constexpr void __set__paramStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__paramStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*>& __get__paramChoices();
+  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*>& __cordl_internal_get__paramChoices();
 
-  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*> const& __get__paramChoices() const;
+  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*> const& __cordl_internal_get__paramChoices() const;
 
-  constexpr void __set__paramChoices(::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*> value);
+  constexpr void __cordl_internal_set__paramChoices(::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get__rootParameters();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__rootParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get__rootParameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__rootParameters() const;
 
-  constexpr void __set__rootParameters(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set__rootParameters(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>*& __get__parameterList();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>*& __cordl_internal_get__parameterList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>*> const& __get__parameterList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>*> const& __cordl_internal_get__parameterList() const;
 
-  constexpr void __set__parameterList(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>* value);
+  constexpr void __cordl_internal_set__parameterList(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*& __get__parameterModifiers();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*& __cordl_internal_get__parameterModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*> const& __get__parameterModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*> const& __cordl_internal_get__parameterModifiers() const;
 
-  constexpr void __set__parameterModifiers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* value);
+  constexpr void __cordl_internal_set__parameterModifiers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* value);
 
-  constexpr bool& __get__regenerateParameters();
+  constexpr bool& __cordl_internal_get__regenerateParameters();
 
-  constexpr bool const& __get__regenerateParameters() const;
+  constexpr bool const& __cordl_internal_get__regenerateParameters() const;
 
-  constexpr void __set__regenerateParameters(bool value);
+  constexpr void __cordl_internal_set__regenerateParameters(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__presetData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__presetData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__presetData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__presetData() const;
 
-  constexpr void __set__presetData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__presetData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__defaultPresetData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__defaultPresetData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__defaultPresetData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__defaultPresetData() const;
 
-  constexpr void __set__defaultPresetData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__defaultPresetData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get__validParameters();
+  constexpr bool& __cordl_internal_get__validParameters();
 
-  constexpr bool const& __get__validParameters() const;
+  constexpr bool const& __cordl_internal_get__validParameters() const;
 
-  constexpr void __set__validParameters(bool value);
+  constexpr void __cordl_internal_set__validParameters(bool value);
 
-  constexpr bool& __get__showParameters();
+  constexpr bool& __cordl_internal_get__showParameters();
 
-  constexpr bool const& __get__showParameters() const;
+  constexpr bool const& __cordl_internal_get__showParameters() const;
 
-  constexpr void __set__showParameters(bool value);
+  constexpr void __cordl_internal_set__showParameters(bool value);
 
-  constexpr bool& __get__recacheUI();
+  constexpr bool& __cordl_internal_get__recacheUI();
 
-  constexpr bool const& __get__recacheUI() const;
+  constexpr bool const& __cordl_internal_get__recacheUI() const;
 
-  constexpr void __set__recacheUI(bool value);
+  constexpr void __cordl_internal_set__recacheUI(bool value);
 
   /// @brief Method get_RootParameters, addr 0x2193058, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_RootParameters();
@@ -342,7 +345,8 @@ public:
   /// @brief Method Initialize, addr 0x2193370, size 0x1b38, virtual false, abstract: false, final false
   inline bool Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo,
                          ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* previousParamFolders,
-                         ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* previousParamInputNodes, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+                         ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* previousParamInputNodes,
+                         ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
   /// @brief Method SetupRampParameter, addr 0x2194eb0, size 0x3f0, virtual false, abstract: false, final false
   inline void SetupRampParameter(::HoudiniEngineUnity::HEU_ParameterData* rampParameter);
@@ -394,10 +398,10 @@ public:
 
   /// @brief Method GetParameterDataForUIRestore, addr 0x2196a94, size 0x1e8, virtual false, abstract: false, final false
   inline void GetParameterDataForUIRestore(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* folderParams,
-                                           ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* inputNodeParams);
+                                           ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* inputNodeParams);
 
   /// @brief Method GetInputNodeConnectionObjects, addr 0x2196c7c, size 0x4, virtual false, abstract: false, final false
-  inline void GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* inputNodeObjects);
+  inline void GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* inputNodeObjects);
 
   /// @brief Method DownloadPresetData, addr 0x2196c80, size 0x50, virtual false, abstract: false, final false
   inline void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);

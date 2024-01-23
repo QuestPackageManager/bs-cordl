@@ -18,56 +18,56 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15328))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepBasin*
 class CORDL_TYPE DTSweepBasin : public ::System::Object {
 public:
   // Declarations
   /// @brief Field leftNode, offset 0x10, size 0x8
-  __declspec(property(get = __get_leftNode, put = __set_leftNode))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode;
+  __declspec(property(get = __cordl_internal_get_leftNode, put = __cordl_internal_set_leftNode))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode;
 
   /// @brief Field bottomNode, offset 0x18, size 0x8
-  __declspec(property(get = __get_bottomNode, put = __set_bottomNode))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode;
+  __declspec(property(get = __cordl_internal_get_bottomNode, put = __cordl_internal_set_bottomNode))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode;
 
   /// @brief Field rightNode, offset 0x20, size 0x8
-  __declspec(property(get = __get_rightNode, put = __set_rightNode))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode;
+  __declspec(property(get = __cordl_internal_get_rightNode, put = __cordl_internal_set_rightNode))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode;
 
   /// @brief Field width, offset 0x28, size 0x8
-  __declspec(property(get = __get_width, put = __set_width)) double_t width;
+  __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) double_t width;
 
   /// @brief Field leftHighest, offset 0x30, size 0x1
-  __declspec(property(get = __get_leftHighest, put = __set_leftHighest)) bool leftHighest;
+  __declspec(property(get = __cordl_internal_get_leftHighest, put = __cordl_internal_set_leftHighest)) bool leftHighest;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_leftNode();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_leftNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_leftNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_leftNode() const;
 
-  constexpr void __set_leftNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_leftNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_bottomNode();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_bottomNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_bottomNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_bottomNode() const;
 
-  constexpr void __set_bottomNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_bottomNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_rightNode();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_rightNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_rightNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_rightNode() const;
 
-  constexpr void __set_rightNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_rightNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  constexpr double_t& __get_width();
+  constexpr double_t& __cordl_internal_get_width();
 
-  constexpr double_t const& __get_width() const;
+  constexpr double_t const& __cordl_internal_get_width() const;
 
-  constexpr void __set_width(double_t value);
+  constexpr void __cordl_internal_set_width(double_t value);
 
-  constexpr bool& __get_leftHighest();
+  constexpr bool& __cordl_internal_get_leftHighest();
 
-  constexpr bool const& __get_leftHighest() const;
+  constexpr bool const& __cordl_internal_get_leftHighest() const;
 
-  constexpr void __set_leftHighest(bool value);
+  constexpr void __cordl_internal_set_leftHighest(bool value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* New_ctor();
 

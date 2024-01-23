@@ -31,38 +31,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1122))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::X931SecureRandomBuilder*
 class CORDL_TYPE X931SecureRandomBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mRandom, offset 0x10, size 0x8
-  __declspec(property(get = __get_mRandom, put = __set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
+  __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
 
   /// @brief Field mEntropySourceProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get_mEntropySourceProvider, put = __set_mEntropySourceProvider))::Org::BouncyCastle::Crypto::IEntropySourceProvider* mEntropySourceProvider;
+  __declspec(property(get = __cordl_internal_get_mEntropySourceProvider, put = __cordl_internal_set_mEntropySourceProvider))::Org::BouncyCastle::Crypto::IEntropySourceProvider* mEntropySourceProvider;
 
   /// @brief Field mDateTimeVector, offset 0x20, size 0x8
-  __declspec(property(get = __get_mDateTimeVector, put = __set_mDateTimeVector))::ArrayW<uint8_t, ::Array<uint8_t>*> mDateTimeVector;
+  __declspec(property(get = __cordl_internal_get_mDateTimeVector, put = __cordl_internal_set_mDateTimeVector))::ArrayW<uint8_t, ::Array<uint8_t>*> mDateTimeVector;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mRandom();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandom();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_mRandom() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mRandom() const;
 
-  constexpr void __set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider*& __get_mEntropySourceProvider();
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider*& __cordl_internal_get_mEntropySourceProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySourceProvider*> const& __get_mEntropySourceProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySourceProvider*> const& __cordl_internal_get_mEntropySourceProvider() const;
 
-  constexpr void __set_mEntropySourceProvider(::Org::BouncyCastle::Crypto::IEntropySourceProvider* value);
+  constexpr void __cordl_internal_set_mEntropySourceProvider(::Org::BouncyCastle::Crypto::IEntropySourceProvider* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mDateTimeVector();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mDateTimeVector();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mDateTimeVector() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mDateTimeVector() const;
 
-  constexpr void __set_mDateTimeVector(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mDateTimeVector(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor();
 

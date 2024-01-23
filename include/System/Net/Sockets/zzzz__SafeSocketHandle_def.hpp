@@ -27,43 +27,44 @@ MARK_REF_PTR_T(::System::Net::Sockets::SafeSocketHandle);
 // SizeInfo { instance_size: 56, native_size: 8, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2302))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2302))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9356))
 // CS Name: ::System.Net.Sockets::SafeSocketHandle*
 class CORDL_TYPE SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid {
 public:
   // Declarations
   /// @brief Field blocking_threads, offset 0x20, size 0x8
-  __declspec(property(get = __get_blocking_threads, put = __set_blocking_threads))::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads;
+  __declspec(property(get = __cordl_internal_get_blocking_threads, put = __cordl_internal_set_blocking_threads))::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads;
 
   /// @brief Field threads_stacktraces, offset 0x28, size 0x8
-  __declspec(property(get = __get_threads_stacktraces,
-                      put = __set_threads_stacktraces))::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces;
+  __declspec(
+      property(get = __cordl_internal_get_threads_stacktraces,
+               put = __cordl_internal_set_threads_stacktraces))::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces;
 
   /// @brief Field in_cleanup, offset 0x30, size 0x1
-  __declspec(property(get = __get_in_cleanup, put = __set_in_cleanup)) bool in_cleanup;
+  __declspec(property(get = __cordl_internal_get_in_cleanup, put = __cordl_internal_set_in_cleanup)) bool in_cleanup;
 
   /// @brief Field THROW_ON_ABORT_RETRIES, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_THROW_ON_ABORT_RETRIES, put = setStaticF_THROW_ON_ABORT_RETRIES)) bool THROW_ON_ABORT_RETRIES;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>*& __get_blocking_threads();
+  constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>*& __cordl_internal_get_blocking_threads();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::Thread*>*> const& __get_blocking_threads() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::Thread*>*> const& __cordl_internal_get_blocking_threads() const;
 
-  constexpr void __set_blocking_threads(::System::Collections::Generic::List_1<::System::Threading::Thread*>* value);
+  constexpr void __cordl_internal_set_blocking_threads(::System::Collections::Generic::List_1<::System::Threading::Thread*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*& __get_threads_stacktraces();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*& __cordl_internal_get_threads_stacktraces();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*> const&
-  __get_threads_stacktraces() const;
+  __cordl_internal_get_threads_stacktraces() const;
 
-  constexpr void __set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value);
+  constexpr void __cordl_internal_set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value);
 
-  constexpr bool& __get_in_cleanup();
+  constexpr bool& __cordl_internal_get_in_cleanup();
 
-  constexpr bool const& __get_in_cleanup() const;
+  constexpr bool const& __cordl_internal_get_in_cleanup() const;
 
-  constexpr void __set_in_cleanup(bool value);
+  constexpr void __cordl_internal_set_in_cleanup(bool value);
 
   static inline void setStaticF_THROW_ON_ABORT_RETRIES(bool value);
 

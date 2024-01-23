@@ -37,21 +37,21 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileData);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15945)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15938))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15941)) CS Name: ::UnityEngine.Tilemaps::TileData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15938)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15945))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15941)) CS Name: ::UnityEngine.Tilemaps::TileData
 struct CORDL_TYPE TileData {
 public:
   // Declarations
   /// @brief Field Default, offset 0xffffffff, size 0x60
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::UnityEngine::Tilemaps::TileData Default;
 
-  __declspec(property(put = set_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
   __declspec(property(put = set_color))::UnityEngine::Color color;
 
   __declspec(property(put = set_transform))::UnityEngine::Matrix4x4 transform;
 
-  __declspec(property(put = set_gameObject))::UnityEngine::GameObject* gameObject;
+  __declspec(property(put = set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
 
   __declspec(property(put = set_flags))::UnityEngine::Tilemaps::TileFlags flags;
 

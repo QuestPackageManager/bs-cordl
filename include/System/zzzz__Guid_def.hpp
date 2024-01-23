@@ -77,7 +77,7 @@ MARK_VAL_T(::System::__Guid__GuidResult);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2402))
 // CS Name: ::Guid::GuidStyles
 struct CORDL_TYPE __Guid__GuidStyles {
@@ -179,7 +179,7 @@ static_assert(offsetof(::System::__Guid__GuidStyles, value__) == 0x0, "Offset mi
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2403))
 // CS Name: ::Guid::GuidParseThrowStyle
 struct CORDL_TYPE __Guid__GuidParseThrowStyle {
@@ -233,7 +233,7 @@ static_assert(offsetof(::System::__Guid__GuidParseThrowStyle, value__) == 0x0, "
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2404))
 // CS Name: ::Guid::ParseFailureKind
 struct CORDL_TYPE __Guid__ParseFailureKind {
@@ -299,7 +299,7 @@ static_assert(offsetof(::System::__Guid__ParseFailureKind, value__) == 0x0, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2406))
 // CS Name: ::System::Guid
 struct CORDL_TYPE Guid {
@@ -548,7 +548,7 @@ static_assert(offsetof(::System::Guid, _k) == 0xf, "Offset mismatch!");
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2404)), TypeDefinitionIndex(TypeDefinitionIndex(2403))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2403)), TypeDefinitionIndex(TypeDefinitionIndex(2404)), TypeDefinitionIndex(TypeDefinitionIndex(2406))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2405))
 // CS Name: ::Guid::GuidResult
 struct CORDL_TYPE __Guid__GuidResult {

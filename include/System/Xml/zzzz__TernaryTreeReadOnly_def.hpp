@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Xml::TernaryTreeReadOnly);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11439))
 // CS Name: ::System.Xml::TernaryTreeReadOnly*
 class CORDL_TYPE TernaryTreeReadOnly : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nodeBuffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_nodeBuffer, put = __set_nodeBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer;
+  __declspec(property(get = __cordl_internal_get_nodeBuffer, put = __cordl_internal_set_nodeBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_nodeBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_nodeBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_nodeBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_nodeBuffer() const;
 
-  constexpr void __set_nodeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_nodeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::Xml::TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
 

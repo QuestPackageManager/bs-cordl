@@ -41,17 +41,17 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSONLazyCreator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9869))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9879))
 // CS Name: ::HoudiniEngineUnity::JSONLazyCreator*
 class CORDL_TYPE JSONLazyCreator : public ::HoudiniEngineUnity::JSONNode {
 public:
   // Declarations
   /// @brief Field m_Node, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Node, put = __set_m_Node))::HoudiniEngineUnity::JSONNode* m_Node;
+  __declspec(property(get = __cordl_internal_get_m_Node, put = __cordl_internal_set_m_Node))::HoudiniEngineUnity::JSONNode* m_Node;
 
   /// @brief Field m_Key, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Key, put = __set_m_Key))::StringW m_Key;
+  __declspec(property(get = __cordl_internal_get_m_Key, put = __cordl_internal_set_m_Key))::StringW m_Key;
 
   __declspec(property(get = get_Tag))::HoudiniEngineUnity::JSONNodeType Tag;
 
@@ -73,17 +73,17 @@ public:
 
   __declspec(property(get = get_AsObject))::HoudiniEngineUnity::JSONObject* AsObject;
 
-  constexpr ::HoudiniEngineUnity::JSONNode*& __get_m_Node();
+  constexpr ::HoudiniEngineUnity::JSONNode*& __cordl_internal_get_m_Node();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __get_m_Node() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __cordl_internal_get_m_Node() const;
 
-  constexpr void __set_m_Node(::HoudiniEngineUnity::JSONNode* value);
+  constexpr void __cordl_internal_set_m_Node(::HoudiniEngineUnity::JSONNode* value);
 
-  constexpr ::StringW& __get_m_Key();
+  constexpr ::StringW& __cordl_internal_get_m_Key();
 
-  constexpr ::StringW const& __get_m_Key() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Key() const;
 
-  constexpr void __set_m_Key(::StringW value);
+  constexpr void __cordl_internal_set_m_Key(::StringW value);
 
   /// @brief Method get_Tag, addr 0x21db284, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();

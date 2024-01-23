@@ -23,7 +23,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPlane);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15109))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15109))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15112))
 // CS Name: ::LIV.SDK.Unity::SDKPlane
 struct CORDL_TYPE SDKPlane {

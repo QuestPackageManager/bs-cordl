@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IncDecSettingsController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16147))
 // CS Name: ::IncDecSettingsController*
 class CORDL_TYPE IncDecSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _stepValuePicker, offset 0x18, size 0x8
-  __declspec(property(get = __get__stepValuePicker, put = __set__stepValuePicker))::GlobalNamespace::StepValuePicker* _stepValuePicker;
+  __declspec(property(get = __cordl_internal_get__stepValuePicker, put = __cordl_internal_set__stepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _stepValuePicker;
 
   __declspec(property(put = set_enableDec)) bool enableDec;
 
@@ -33,11 +33,11 @@ public:
 
   __declspec(property(put = set_text))::StringW text;
 
-  constexpr ::GlobalNamespace::StepValuePicker*& __get__stepValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__stepValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StepValuePicker*> const& __get__stepValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
 
-  constexpr void __set__stepValuePicker(::GlobalNamespace::StepValuePicker* value);
+  constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
   /// @brief Method set_enableDec, addr 0x23e49f8, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
@@ -80,7 +80,7 @@ protected:
 
 public:
   /// @brief Field _stepValuePicker, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::StepValuePicker* ____stepValuePicker;
+  ::UnityW<::GlobalNamespace::StepValuePicker> ____stepValuePicker;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

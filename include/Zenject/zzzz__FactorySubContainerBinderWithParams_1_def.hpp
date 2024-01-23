@@ -63,47 +63,47 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10828))
 // CS Name: ::FactorySubContainerBinderWithParams`1::<>c__DisplayClass4_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderWithParams_1____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::FactorySubContainerBinderWithParams_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactorySubContainerBinderWithParams_1<TContract>* __4__this;
 
   /// @brief Field installerType, offset 0x18, size 0x8
-  __declspec(property(get = __get_installerType, put = __set_installerType))::System::Type* installerType;
+  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType))::System::Type* installerType;
 
   /// @brief Field prefab, offset 0x20, size 0x8
-  __declspec(property(get = __get_prefab, put = __set_prefab))::UnityEngine::Object* prefab;
+  __declspec(property(get = __cordl_internal_get_prefab, put = __cordl_internal_set_prefab))::UnityW<::UnityEngine::Object> prefab;
 
   /// @brief Field gameObjectInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_gameObjectInfo, put = __set_gameObjectInfo))::Zenject::GameObjectCreationParameters* gameObjectInfo;
+  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo))::Zenject::GameObjectCreationParameters* gameObjectInfo;
 
-  constexpr ::Zenject::FactorySubContainerBinderWithParams_1<TContract>*& __get___4__this();
+  constexpr ::Zenject::FactorySubContainerBinderWithParams_1<TContract>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactorySubContainerBinderWithParams_1<TContract>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactorySubContainerBinderWithParams_1<TContract>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::FactorySubContainerBinderWithParams_1<TContract>* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::FactorySubContainerBinderWithParams_1<TContract>* value);
 
-  constexpr ::System::Type*& __get_installerType();
+  constexpr ::System::Type*& __cordl_internal_get_installerType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_installerType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_installerType() const;
 
-  constexpr void __set_installerType(::System::Type* value);
+  constexpr void __cordl_internal_set_installerType(::System::Type* value);
 
-  constexpr ::UnityEngine::Object*& __get_prefab();
+  constexpr ::UnityW<::UnityEngine::Object>& __cordl_internal_get_prefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& __get_prefab() const;
+  constexpr ::UnityW<::UnityEngine::Object> const& __cordl_internal_get_prefab() const;
 
-  constexpr void __set_prefab(::UnityEngine::Object* value);
+  constexpr void __cordl_internal_set_prefab(::UnityW<::UnityEngine::Object> value);
 
-  constexpr ::Zenject::GameObjectCreationParameters*& __get_gameObjectInfo();
+  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get_gameObjectInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __get_gameObjectInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get_gameObjectInfo() const;
 
-  constexpr void __set_gameObjectInfo(::Zenject::GameObjectCreationParameters* value);
+  constexpr void __cordl_internal_set_gameObjectInfo(::Zenject::GameObjectCreationParameters* value);
 
   static inline ::Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>* New_ctor();
 
@@ -140,7 +140,7 @@ public:
   ::System::Type* ___installerType;
 
   /// @brief Field prefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Object* ___prefab;
+  ::UnityW<::UnityEngine::Object> ___prefab;
 
   /// @brief Field gameObjectInfo, offset: 0x28, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ___gameObjectInfo;
@@ -155,47 +155,47 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10829))
 // CS Name: ::FactorySubContainerBinderWithParams`1::<>c__DisplayClass8_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderWithParams_1____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::FactorySubContainerBinderWithParams_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactorySubContainerBinderWithParams_1<TContract>* __4__this;
 
   /// @brief Field installerType, offset 0x18, size 0x8
-  __declspec(property(get = __get_installerType, put = __set_installerType))::System::Type* installerType;
+  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType))::System::Type* installerType;
 
   /// @brief Field resourcePath, offset 0x20, size 0x8
-  __declspec(property(get = __get_resourcePath, put = __set_resourcePath))::StringW resourcePath;
+  __declspec(property(get = __cordl_internal_get_resourcePath, put = __cordl_internal_set_resourcePath))::StringW resourcePath;
 
   /// @brief Field gameObjectInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_gameObjectInfo, put = __set_gameObjectInfo))::Zenject::GameObjectCreationParameters* gameObjectInfo;
+  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo))::Zenject::GameObjectCreationParameters* gameObjectInfo;
 
-  constexpr ::Zenject::FactorySubContainerBinderWithParams_1<TContract>*& __get___4__this();
+  constexpr ::Zenject::FactorySubContainerBinderWithParams_1<TContract>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactorySubContainerBinderWithParams_1<TContract>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactorySubContainerBinderWithParams_1<TContract>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::FactorySubContainerBinderWithParams_1<TContract>* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::FactorySubContainerBinderWithParams_1<TContract>* value);
 
-  constexpr ::System::Type*& __get_installerType();
+  constexpr ::System::Type*& __cordl_internal_get_installerType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_installerType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_installerType() const;
 
-  constexpr void __set_installerType(::System::Type* value);
+  constexpr void __cordl_internal_set_installerType(::System::Type* value);
 
-  constexpr ::StringW& __get_resourcePath();
+  constexpr ::StringW& __cordl_internal_get_resourcePath();
 
-  constexpr ::StringW const& __get_resourcePath() const;
+  constexpr ::StringW const& __cordl_internal_get_resourcePath() const;
 
-  constexpr void __set_resourcePath(::StringW value);
+  constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  constexpr ::Zenject::GameObjectCreationParameters*& __get_gameObjectInfo();
+  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get_gameObjectInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __get_gameObjectInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get_gameObjectInfo() const;
 
-  constexpr void __set_gameObjectInfo(::Zenject::GameObjectCreationParameters* value);
+  constexpr void __cordl_internal_set_gameObjectInfo(::Zenject::GameObjectCreationParameters* value);
 
   static inline ::Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>* New_ctor();
 
@@ -247,7 +247,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10827), inst: 1849 }), TypeDefinitionIndex(TypeDefinitionIndex(10827))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10827)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10827), inst: 1849 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10830))
 // CS Name: ::Zenject::FactorySubContainerBinderWithParams`1<TContract>*
 class CORDL_TYPE FactorySubContainerBinderWithParams_1 : public ::Zenject::FactorySubContainerBinderBase_1<TContract> {

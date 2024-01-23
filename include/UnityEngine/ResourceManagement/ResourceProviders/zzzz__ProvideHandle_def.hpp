@@ -43,7 +43,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14002))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProvideHandle
 struct CORDL_TYPE ProvideHandle {

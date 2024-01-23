@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::GlobalNamespace::FillIndicator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5418))
 // CS Name: ::FillIndicator*
 class CORDL_TYPE FillIndicator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _bgImage, offset 0x18, size 0x8
-  __declspec(property(get = __get__bgImage, put = __set__bgImage))::UnityEngine::UI::Image* _bgImage;
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
 
   /// @brief Field _image, offset 0x20, size 0x8
-  __declspec(property(get = __get__image, put = __set__image))::UnityEngine::UI::Image* _image;
+  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image))::UnityW<::UnityEngine::UI::Image> _image;
 
   __declspec(property(get = get_fillAmount, put = set_fillAmount)) float_t fillAmount;
 
-  constexpr ::UnityEngine::UI::Image*& __get__bgImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__bgImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
 
-  constexpr void __set__bgImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__image();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__image() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
 
-  constexpr void __set__image(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
   /// @brief Method set_fillAmount, addr 0x2278948, size 0x44, virtual false, abstract: false, final false
   inline void set_fillAmount(float_t value);
@@ -70,10 +70,10 @@ protected:
 
 public:
   /// @brief Field _bgImage, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____bgImage;
+  ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
   /// @brief Field _image, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____image;
+  ::UnityW<::UnityEngine::UI::Image> ____image;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

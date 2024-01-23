@@ -37,20 +37,20 @@ MARK_REF_PTR_T(::HMUI::HoverHint);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13532))
 // CS Name: ::HMUI::HoverHint*
 class CORDL_TYPE HoverHint : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::StringW _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::StringW _text;
 
   /// @brief Field _hoverHintController, offset 0x20, size 0x8
-  __declspec(property(get = __get__hoverHintController, put = __set__hoverHintController))::HMUI::HoverHintController* _hoverHintController;
+  __declspec(property(get = __cordl_internal_get__hoverHintController, put = __cordl_internal_set__hoverHintController))::UnityW<::HMUI::HoverHintController> _hoverHintController;
 
   /// @brief Field _worldCornersTemp, offset 0x28, size 0x8
-  __declspec(property(get = __get__worldCornersTemp, put = __set__worldCornersTemp))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _worldCornersTemp;
+  __declspec(property(get = __cordl_internal_get__worldCornersTemp, put = __cordl_internal_set__worldCornersTemp))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _worldCornersTemp;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
@@ -76,23 +76,23 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  constexpr ::StringW& __get__text();
+  constexpr ::StringW& __cordl_internal_get__text();
 
-  constexpr ::StringW const& __get__text() const;
+  constexpr ::StringW const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::StringW value);
+  constexpr void __cordl_internal_set__text(::StringW value);
 
-  constexpr ::HMUI::HoverHintController*& __get__hoverHintController();
+  constexpr ::UnityW<::HMUI::HoverHintController>& __cordl_internal_get__hoverHintController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHintController*> const& __get__hoverHintController() const;
+  constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get__hoverHintController() const;
 
-  constexpr void __set__hoverHintController(::HMUI::HoverHintController* value);
+  constexpr void __cordl_internal_set__hoverHintController(::UnityW<::HMUI::HoverHintController> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get__worldCornersTemp();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__worldCornersTemp();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get__worldCornersTemp() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__worldCornersTemp() const;
 
-  constexpr void __set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
   /// @brief Method get_text, addr 0x211c9a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
@@ -138,7 +138,7 @@ public:
   ::StringW ____text;
 
   /// @brief Field _hoverHintController, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::HoverHintController* ____hoverHintController;
+  ::UnityW<::HMUI::HoverHintController> ____hoverHintController;
 
   /// @brief Field _worldCornersTemp, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____worldCornersTemp;

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::ComponentModel::SByteConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9407))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9453))
 // CS Name: ::System.ComponentModel::SByteConverter*
 class CORDL_TYPE SByteConverter : public ::System::ComponentModel::BaseNumberConverter {

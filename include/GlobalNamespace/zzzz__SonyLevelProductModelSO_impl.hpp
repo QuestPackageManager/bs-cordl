@@ -12,10 +12,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369a8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), "get_entitlementLabel",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -27,10 +27,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369a94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), "get_productLabel",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,10 +42,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369a9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), "get_levelId",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -57,77 +57,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x2369aa4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__entitlementLabel() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_get__entitlementLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entitlementLabel;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__entitlementLabel() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_get__entitlementLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entitlementLabel;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__set__entitlementLabel(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_set__entitlementLabel(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entitlementLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__productLabel() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_get__productLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__productLabel() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_get__productLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__set__productLabel(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_set__productLabel(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____productLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__levelId() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_get__levelId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__levelId() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_get__levelId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__set__levelId(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__cordl_internal_set__levelId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::get_entitlementLabel() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), "get_entitlementLabel",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::get_productLabel() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), "get_productLabel",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::get_levelId() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), "get_levelId",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData* GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::New_ctor(::StringW entitlementLabel, ::StringW productLabel,
                                                                                                                                               ::StringW levelId) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>(entitlementLabel, productLabel, levelId));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>(entitlementLabel, productLabel, levelId));
 }
 inline void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::_ctor(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entitlementLabel, productLabel, levelId);
 }
 // Ctor Parameters []
@@ -140,10 +140,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369ae0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "get_productLabel",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -155,10 +155,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369ae8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "get_levelPackId",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -170,10 +170,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369af0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(),
-                                                 "get_packLevelPriceDiscountMul", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_packLevelPriceDiscountMul", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -185,10 +185,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369af8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "get_packIndex",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -201,10 +201,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369b00;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(),
-                                                 "get_levelProductsData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_levelProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -217,15 +217,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x2369b08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*,
+                                                                                                           ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -237,10 +236,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x2369ba0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "CompareTo", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get() })));
     return ___internal_method;
   }
 };
@@ -253,123 +252,123 @@ constexpr ::System::IComparable_1<::GlobalNamespace::__SonyLevelProductModelSO__
 GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::i___System__IComparable_1___GlobalNamespace____SonyLevelProductModelSO__LevelPackProductData__() noexcept {
   return static_cast<::System::IComparable_1<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*>(static_cast<void*>(this));
 }
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__productLabel() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__productLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__productLabel() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__productLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__productLabel(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_set__productLabel(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____productLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packId() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__packId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packId;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packId() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__packId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packId;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__packId(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_set__packId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packLevelPriceDiscountMul() {
+constexpr float_t& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__packLevelPriceDiscountMul() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packLevelPriceDiscountMul;
 }
-constexpr float_t const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packLevelPriceDiscountMul() const {
+constexpr float_t const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__packLevelPriceDiscountMul() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packLevelPriceDiscountMul;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__packLevelPriceDiscountMul(float_t value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_set__packLevelPriceDiscountMul(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packLevelPriceDiscountMul = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>&
-GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__levelProductsData() {
+GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__levelProductsData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> const&
-GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__levelProductsData() const {
+GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__levelProductsData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__levelProductsData(
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_set__levelProductsData(
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packIndex() {
+constexpr int32_t& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__packIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packIndex;
 }
-constexpr int32_t const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packIndex() const {
+constexpr int32_t const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_get__packIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packIndex;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__packIndex(int32_t value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__cordl_internal_set__packIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packIndex = value;
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::get_productLabel() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "get_productLabel",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::get_levelPackId() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "get_levelPackId",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::get_packLevelPriceDiscountMul() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(),
-                                               "get_packLevelPriceDiscountMul", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_packLevelPriceDiscountMul", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::get_packIndex() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "get_packIndex",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>
 GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::get_levelProductsData() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(),
-                                               "get_levelProductsData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_levelProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>,
                                              false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData* GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::New_ctor(
     ::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul,
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> levelProductsData, int32_t packIndex) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>(productLabel, levelPackId, packLevelPriceDiscountMul, levelProductsData, packIndex));
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>(productLabel, levelPackId, packLevelPriceDiscountMul, levelProductsData, packIndex));
 }
 inline void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::_ctor(
     ::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul,
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> levelProductsData, int32_t packIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*,
+                                                                                                         ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, productLabel, levelPackId, packLevelPriceDiscountMul, levelProductsData, packIndex);
 }
 inline int32_t GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::CompareTo(::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData* other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "CompareTo", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, other);
 }
 // Ctor Parameters []
@@ -382,10 +381,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                                 "get_targetLevelPackId", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_targetLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -397,10 +396,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369bc8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                                 "get_shouldOwnLevelPackId", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_shouldOwnLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -412,10 +411,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369bd0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                                 "get_redirectedProductLabel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_redirectedProductLabel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -427,10 +426,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369bd8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                                 "get_validUntilDate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_validUntilDate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -442,92 +441,92 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369be0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__targetLevelPackId() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__targetLevelPackId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLevelPackId;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__targetLevelPackId() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__targetLevelPackId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLevelPackId;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__targetLevelPackId(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_set__targetLevelPackId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__shouldOwnLevelPackId() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__shouldOwnLevelPackId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldOwnLevelPackId;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__shouldOwnLevelPackId() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__shouldOwnLevelPackId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldOwnLevelPackId;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__shouldOwnLevelPackId(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_set__shouldOwnLevelPackId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shouldOwnLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__redirectedProductLabel() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__redirectedProductLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redirectedProductLabel;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__redirectedProductLabel() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__redirectedProductLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redirectedProductLabel;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__redirectedProductLabel(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_set__redirectedProductLabel(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____redirectedProductLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__validUntilDate() {
+constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__validUntilDate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validUntilDate;
 }
-constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__validUntilDate() const {
+constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_get__validUntilDate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validUntilDate;
 }
-constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__validUntilDate(::StringW value) {
+constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__cordl_internal_set__validUntilDate(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____validUntilDate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::get_targetLevelPackId() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                               "get_targetLevelPackId", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_targetLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::get_shouldOwnLevelPackId() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                               "get_shouldOwnLevelPackId", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_shouldOwnLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::get_redirectedProductLabel() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                               "get_redirectedProductLabel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_redirectedProductLabel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::get_validUntilDate() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(),
-                                               "get_validUntilDate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_validUntilDate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData* GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>());
 }
 inline void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -541,9 +540,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369a7c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductModelSO*>::get(),
-                                                                               "get_levelPackProductsData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_levelPackProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -556,9 +555,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2369a84;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductModelSO*>::get(),
-                                                                               "get_levelPackRedirectionData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_levelPackRedirectionData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -569,38 +568,38 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2368198;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductModelSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*>&
-GlobalNamespace::SonyLevelProductModelSO::__get__levelPackProductsData() {
+GlobalNamespace::SonyLevelProductModelSO::__cordl_internal_get__levelPackProductsData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*> const&
-GlobalNamespace::SonyLevelProductModelSO::__get__levelPackProductsData() const {
+GlobalNamespace::SonyLevelProductModelSO::__cordl_internal_get__levelPackProductsData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
-constexpr void GlobalNamespace::SonyLevelProductModelSO::__set__levelPackProductsData(
+constexpr void GlobalNamespace::SonyLevelProductModelSO::__cordl_internal_set__levelPackProductsData(
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*>&
-GlobalNamespace::SonyLevelProductModelSO::__get__levelPackRedirectionData() {
+GlobalNamespace::SonyLevelProductModelSO::__cordl_internal_get__levelPackRedirectionData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*> const&
-GlobalNamespace::SonyLevelProductModelSO::__get__levelPackRedirectionData() const {
+GlobalNamespace::SonyLevelProductModelSO::__cordl_internal_get__levelPackRedirectionData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
-constexpr void GlobalNamespace::SonyLevelProductModelSO::__set__levelPackRedirectionData(
+constexpr void GlobalNamespace::SonyLevelProductModelSO::__cordl_internal_set__levelPackRedirectionData(
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackRedirectionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -608,24 +607,24 @@ constexpr void GlobalNamespace::SonyLevelProductModelSO::__set__levelPackRedirec
 inline ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*>
 GlobalNamespace::SonyLevelProductModelSO::get_levelPackProductsData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductModelSO*>::get(),
-                                                                             "get_levelPackProductsData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_levelPackProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<
       ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*>, false>(this, ___internal_method);
 }
 inline ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*>
 GlobalNamespace::SonyLevelProductModelSO::get_levelPackRedirectionData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductModelSO*>::get(),
-                                                                             "get_levelPackRedirectionData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_levelPackRedirectionData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<
       ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*>, false>(this,
                                                                                                                                                                                    ___internal_method);
 }
 inline ::GlobalNamespace::SonyLevelProductModelSO* GlobalNamespace::SonyLevelProductModelSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SonyLevelProductModelSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyLevelProductModelSO*>());
 }
 inline void GlobalNamespace::SonyLevelProductModelSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductModelSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

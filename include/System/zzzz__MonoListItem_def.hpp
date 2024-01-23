@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::System::MonoListItem);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2609))
 // CS Name: ::System::MonoListItem*
 class CORDL_TYPE MonoListItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field next, offset 0x10, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::MonoListItem* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::MonoListItem* next;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::Object* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::Object* data;
 
-  constexpr ::System::MonoListItem*& __get_next();
+  constexpr ::System::MonoListItem*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MonoListItem*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::MonoListItem*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::MonoListItem* value);
+  constexpr void __cordl_internal_set_next(::System::MonoListItem* value);
 
-  constexpr ::System::Object*& __get_data();
+  constexpr ::System::Object*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::Object* value);
+  constexpr void __cordl_internal_set_data(::System::Object* value);
 
   static inline ::System::MonoListItem* New_ctor();
 

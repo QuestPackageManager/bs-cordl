@@ -42,51 +42,58 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonDictionaryContract);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 289, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11907))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11907))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11944))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonDictionaryContract*
 class CORDL_TYPE JsonDictionaryContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
   /// @brief Field <DictionaryKeyResolver>k__BackingField, offset 0xc0, size 0x8
-  __declspec(property(get = __get__DictionaryKeyResolver_k__BackingField,
-                      put = __set__DictionaryKeyResolver_k__BackingField))::System::Func_2<::StringW, ::StringW>* _DictionaryKeyResolver_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DictionaryKeyResolver_k__BackingField,
+                      put = __cordl_internal_set__DictionaryKeyResolver_k__BackingField))::System::Func_2<::StringW, ::StringW>* _DictionaryKeyResolver_k__BackingField;
 
   /// @brief Field <DictionaryKeyType>k__BackingField, offset 0xc8, size 0x8
-  __declspec(property(get = __get__DictionaryKeyType_k__BackingField, put = __set__DictionaryKeyType_k__BackingField))::System::Type* _DictionaryKeyType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DictionaryKeyType_k__BackingField, put = __cordl_internal_set__DictionaryKeyType_k__BackingField))::System::Type* _DictionaryKeyType_k__BackingField;
 
   /// @brief Field <DictionaryValueType>k__BackingField, offset 0xd0, size 0x8
-  __declspec(property(get = __get__DictionaryValueType_k__BackingField, put = __set__DictionaryValueType_k__BackingField))::System::Type* _DictionaryValueType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DictionaryValueType_k__BackingField,
+                      put = __cordl_internal_set__DictionaryValueType_k__BackingField))::System::Type* _DictionaryValueType_k__BackingField;
 
   /// @brief Field <KeyContract>k__BackingField, offset 0xd8, size 0x8
-  __declspec(property(get = __get__KeyContract_k__BackingField, put = __set__KeyContract_k__BackingField))::Newtonsoft::Json::Serialization::JsonContract* _KeyContract_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__KeyContract_k__BackingField,
+                      put = __cordl_internal_set__KeyContract_k__BackingField))::Newtonsoft::Json::Serialization::JsonContract* _KeyContract_k__BackingField;
 
   /// @brief Field _genericCollectionDefinitionType, offset 0xe0, size 0x8
-  __declspec(property(get = __get__genericCollectionDefinitionType, put = __set__genericCollectionDefinitionType))::System::Type* _genericCollectionDefinitionType;
+  __declspec(property(get = __cordl_internal_get__genericCollectionDefinitionType, put = __cordl_internal_set__genericCollectionDefinitionType))::System::Type* _genericCollectionDefinitionType;
 
   /// @brief Field _genericWrapperType, offset 0xe8, size 0x8
-  __declspec(property(get = __get__genericWrapperType, put = __set__genericWrapperType))::System::Type* _genericWrapperType;
+  __declspec(property(get = __cordl_internal_get__genericWrapperType, put = __cordl_internal_set__genericWrapperType))::System::Type* _genericWrapperType;
 
   /// @brief Field _genericWrapperCreator, offset 0xf0, size 0x8
-  __declspec(property(get = __get__genericWrapperCreator, put = __set__genericWrapperCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _genericWrapperCreator;
+  __declspec(property(get = __cordl_internal_get__genericWrapperCreator,
+                      put = __cordl_internal_set__genericWrapperCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _genericWrapperCreator;
 
   /// @brief Field _genericTemporaryDictionaryCreator, offset 0xf8, size 0x8
-  __declspec(property(get = __get__genericTemporaryDictionaryCreator, put = __set__genericTemporaryDictionaryCreator))::System::Func_1<::System::Object*>* _genericTemporaryDictionaryCreator;
+  __declspec(property(get = __cordl_internal_get__genericTemporaryDictionaryCreator,
+                      put = __cordl_internal_set__genericTemporaryDictionaryCreator))::System::Func_1<::System::Object*>* _genericTemporaryDictionaryCreator;
 
   /// @brief Field <ShouldCreateWrapper>k__BackingField, offset 0x100, size 0x1
-  __declspec(property(get = __get__ShouldCreateWrapper_k__BackingField, put = __set__ShouldCreateWrapper_k__BackingField)) bool _ShouldCreateWrapper_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ShouldCreateWrapper_k__BackingField, put = __cordl_internal_set__ShouldCreateWrapper_k__BackingField)) bool _ShouldCreateWrapper_k__BackingField;
 
   /// @brief Field _parameterizedConstructor, offset 0x108, size 0x8
-  __declspec(property(get = __get__parameterizedConstructor, put = __set__parameterizedConstructor))::System::Reflection::ConstructorInfo* _parameterizedConstructor;
+  __declspec(property(get = __cordl_internal_get__parameterizedConstructor, put = __cordl_internal_set__parameterizedConstructor))::System::Reflection::ConstructorInfo* _parameterizedConstructor;
 
   /// @brief Field _overrideCreator, offset 0x110, size 0x8
-  __declspec(property(get = __get__overrideCreator, put = __set__overrideCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _overrideCreator;
+  __declspec(property(get = __cordl_internal_get__overrideCreator,
+                      put = __cordl_internal_set__overrideCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _overrideCreator;
 
   /// @brief Field _parameterizedCreator, offset 0x118, size 0x8
-  __declspec(property(get = __get__parameterizedCreator, put = __set__parameterizedCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
+  __declspec(property(get = __cordl_internal_get__parameterizedCreator,
+                      put = __cordl_internal_set__parameterizedCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
   /// @brief Field <HasParameterizedCreator>k__BackingField, offset 0x120, size 0x1
-  __declspec(property(get = __get__HasParameterizedCreator_k__BackingField, put = __set__HasParameterizedCreator_k__BackingField)) bool _HasParameterizedCreator_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__HasParameterizedCreator_k__BackingField,
+                      put = __cordl_internal_set__HasParameterizedCreator_k__BackingField)) bool _HasParameterizedCreator_k__BackingField;
 
   __declspec(property(get = get_PropertyNameResolver, put = set_PropertyNameResolver))::System::Func_2<::StringW, ::StringW>* PropertyNameResolver;
 
@@ -108,83 +115,83 @@ public:
 
   __declspec(property(get = get_HasParameterizedCreatorInternal)) bool HasParameterizedCreatorInternal;
 
-  constexpr ::System::Func_2<::StringW, ::StringW>*& __get__DictionaryKeyResolver_k__BackingField();
+  constexpr ::System::Func_2<::StringW, ::StringW>*& __cordl_internal_get__DictionaryKeyResolver_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const& __get__DictionaryKeyResolver_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const& __cordl_internal_get__DictionaryKeyResolver_k__BackingField() const;
 
-  constexpr void __set__DictionaryKeyResolver_k__BackingField(::System::Func_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set__DictionaryKeyResolver_k__BackingField(::System::Func_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Type*& __get__DictionaryKeyType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__DictionaryKeyType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__DictionaryKeyType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__DictionaryKeyType_k__BackingField() const;
 
-  constexpr void __set__DictionaryKeyType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__DictionaryKeyType_k__BackingField(::System::Type* value);
 
-  constexpr ::System::Type*& __get__DictionaryValueType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__DictionaryValueType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__DictionaryValueType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__DictionaryValueType_k__BackingField() const;
 
-  constexpr void __set__DictionaryValueType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__DictionaryValueType_k__BackingField(::System::Type* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __get__KeyContract_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __cordl_internal_get__KeyContract_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __get__KeyContract_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __cordl_internal_get__KeyContract_k__BackingField() const;
 
-  constexpr void __set__KeyContract_k__BackingField(::Newtonsoft::Json::Serialization::JsonContract* value);
+  constexpr void __cordl_internal_set__KeyContract_k__BackingField(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  constexpr ::System::Type*& __get__genericCollectionDefinitionType();
+  constexpr ::System::Type*& __cordl_internal_get__genericCollectionDefinitionType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__genericCollectionDefinitionType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__genericCollectionDefinitionType() const;
 
-  constexpr void __set__genericCollectionDefinitionType(::System::Type* value);
+  constexpr void __cordl_internal_set__genericCollectionDefinitionType(::System::Type* value);
 
-  constexpr ::System::Type*& __get__genericWrapperType();
+  constexpr ::System::Type*& __cordl_internal_get__genericWrapperType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__genericWrapperType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__genericWrapperType() const;
 
-  constexpr void __set__genericWrapperType(::System::Type* value);
+  constexpr void __cordl_internal_set__genericWrapperType(::System::Type* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __get__genericWrapperCreator();
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__genericWrapperCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __get__genericWrapperCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__genericWrapperCreator() const;
 
-  constexpr void __set__genericWrapperCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__genericWrapperCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  constexpr ::System::Func_1<::System::Object*>*& __get__genericTemporaryDictionaryCreator();
+  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get__genericTemporaryDictionaryCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __get__genericTemporaryDictionaryCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __cordl_internal_get__genericTemporaryDictionaryCreator() const;
 
-  constexpr void __set__genericTemporaryDictionaryCreator(::System::Func_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__genericTemporaryDictionaryCreator(::System::Func_1<::System::Object*>* value);
 
-  constexpr bool& __get__ShouldCreateWrapper_k__BackingField();
+  constexpr bool& __cordl_internal_get__ShouldCreateWrapper_k__BackingField();
 
-  constexpr bool const& __get__ShouldCreateWrapper_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ShouldCreateWrapper_k__BackingField() const;
 
-  constexpr void __set__ShouldCreateWrapper_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ShouldCreateWrapper_k__BackingField(bool value);
 
-  constexpr ::System::Reflection::ConstructorInfo*& __get__parameterizedConstructor();
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__parameterizedConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __get__parameterizedConstructor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__parameterizedConstructor() const;
 
-  constexpr void __set__parameterizedConstructor(::System::Reflection::ConstructorInfo* value);
+  constexpr void __cordl_internal_set__parameterizedConstructor(::System::Reflection::ConstructorInfo* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __get__overrideCreator();
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__overrideCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __get__overrideCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__overrideCreator() const;
 
-  constexpr void __set__overrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__overrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __get__parameterizedCreator();
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__parameterizedCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __get__parameterizedCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__parameterizedCreator() const;
 
-  constexpr void __set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  constexpr bool& __get__HasParameterizedCreator_k__BackingField();
+  constexpr bool& __cordl_internal_get__HasParameterizedCreator_k__BackingField();
 
-  constexpr bool const& __get__HasParameterizedCreator_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__HasParameterizedCreator_k__BackingField() const;
 
-  constexpr void __set__HasParameterizedCreator_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__HasParameterizedCreator_k__BackingField(bool value);
 
   /// @brief Method get_PropertyNameResolver, addr 0x267a190, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();

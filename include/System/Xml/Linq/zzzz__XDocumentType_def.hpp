@@ -24,23 +24,23 @@ MARK_REF_PTR_T(::System::Xml::Linq::XDocumentType);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15453))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15453))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15439))
 // CS Name: ::System.Xml.Linq::XDocumentType*
 class CORDL_TYPE XDocumentType : public ::System::Xml::Linq::XNode {
 public:
   // Declarations
   /// @brief Field _name, offset 0x28, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _publicId, offset 0x30, size 0x8
-  __declspec(property(get = __get__publicId, put = __set__publicId))::StringW _publicId;
+  __declspec(property(get = __cordl_internal_get__publicId, put = __cordl_internal_set__publicId))::StringW _publicId;
 
   /// @brief Field _systemId, offset 0x38, size 0x8
-  __declspec(property(get = __get__systemId, put = __set__systemId))::StringW _systemId;
+  __declspec(property(get = __cordl_internal_get__systemId, put = __cordl_internal_set__systemId))::StringW _systemId;
 
   /// @brief Field _internalSubset, offset 0x40, size 0x8
-  __declspec(property(get = __get__internalSubset, put = __set__internalSubset))::StringW _internalSubset;
+  __declspec(property(get = __cordl_internal_get__internalSubset, put = __cordl_internal_set__internalSubset))::StringW _internalSubset;
 
   __declspec(property(get = get_InternalSubset))::StringW InternalSubset;
 
@@ -52,29 +52,29 @@ public:
 
   __declspec(property(get = get_SystemId))::StringW SystemId;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::StringW& __get__publicId();
+  constexpr ::StringW& __cordl_internal_get__publicId();
 
-  constexpr ::StringW const& __get__publicId() const;
+  constexpr ::StringW const& __cordl_internal_get__publicId() const;
 
-  constexpr void __set__publicId(::StringW value);
+  constexpr void __cordl_internal_set__publicId(::StringW value);
 
-  constexpr ::StringW& __get__systemId();
+  constexpr ::StringW& __cordl_internal_get__systemId();
 
-  constexpr ::StringW const& __get__systemId() const;
+  constexpr ::StringW const& __cordl_internal_get__systemId() const;
 
-  constexpr void __set__systemId(::StringW value);
+  constexpr void __cordl_internal_set__systemId(::StringW value);
 
-  constexpr ::StringW& __get__internalSubset();
+  constexpr ::StringW& __cordl_internal_get__internalSubset();
 
-  constexpr ::StringW const& __get__internalSubset() const;
+  constexpr ::StringW const& __cordl_internal_get__internalSubset() const;
 
-  constexpr void __set__internalSubset(::StringW value);
+  constexpr void __cordl_internal_set__internalSubset(::StringW value);
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 

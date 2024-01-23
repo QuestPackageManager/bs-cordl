@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticEnvironmentLights);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5002))
 // CS Name: ::StaticEnvironmentLights*
 class CORDL_TYPE StaticEnvironmentLights : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lightColors, offset 0x18, size 0x8
-  __declspec(property(get = __get__lightColors, put = __set__lightColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _lightColors;
+  __declspec(property(get = __cordl_internal_get__lightColors, put = __cordl_internal_set__lightColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _lightColors;
 
   /// @brief Field _materials, offset 0x20, size 0x8
-  __declspec(property(get = __get__materials, put = __set__materials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> _materials;
+  __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _materials;
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __get__lightColors();
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get__lightColors();
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __get__lightColors() const;
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__lightColors() const;
 
-  constexpr void __set__lightColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+  constexpr void __cordl_internal_set__lightColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>& __get__materials();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__materials();
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> const& __get__materials() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__materials() const;
 
-  constexpr void __set__materials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
+  constexpr void __cordl_internal_set__materials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
   /// @brief Method Awake, addr 0x23b76fc, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
@@ -71,7 +71,7 @@ public:
   ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ____lightColors;
 
   /// @brief Field _materials, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> ____materials;
+  ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> ____materials;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

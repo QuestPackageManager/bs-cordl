@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Mono::Unity::UnityTlsStream);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8836))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8836))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8813))
 // CS Name: ::Mono.Unity::UnityTlsStream*
 class CORDL_TYPE UnityTlsStream : public ::Mono::Net::Security::MobileAuthenticatedStream {

@@ -45,41 +45,41 @@ MARK_REF_PTR_T(::GlobalNamespace::__FadeInOutController___Fade_d__15);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14366))
 // CS Name: ::FadeInOutController::<Fade>d__15*
 class CORDL_TYPE __FadeInOutController___Fade_d__15 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field startDelay, offset 0x20, size 0x4
-  __declspec(property(get = __get_startDelay, put = __set_startDelay)) float_t startDelay;
+  __declspec(property(get = __cordl_internal_get_startDelay, put = __cordl_internal_set_startDelay)) float_t startDelay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::FadeInOutController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FadeInOutController> __4__this;
 
   /// @brief Field fromValue, offset 0x30, size 0x4
-  __declspec(property(get = __get_fromValue, put = __set_fromValue)) float_t fromValue;
+  __declspec(property(get = __cordl_internal_get_fromValue, put = __cordl_internal_set_fromValue)) float_t fromValue;
 
   /// @brief Field toValue, offset 0x34, size 0x4
-  __declspec(property(get = __get_toValue, put = __set_toValue)) float_t toValue;
+  __declspec(property(get = __cordl_internal_get_toValue, put = __cordl_internal_set_toValue)) float_t toValue;
 
   /// @brief Field curve, offset 0x38, size 0x8
-  __declspec(property(get = __get_curve, put = __set_curve))::UnityEngine::AnimationCurve* curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::UnityEngine::AnimationCurve* curve;
 
   /// @brief Field duration, offset 0x40, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field fadeFinishedCallback, offset 0x48, size 0x8
-  __declspec(property(get = __get_fadeFinishedCallback, put = __set_fadeFinishedCallback))::System::Action* fadeFinishedCallback;
+  __declspec(property(get = __cordl_internal_get_fadeFinishedCallback, put = __cordl_internal_set_fadeFinishedCallback))::System::Action* fadeFinishedCallback;
 
   /// @brief Field <elapsedTime>5__2, offset 0x50, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__2, put = __set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -103,65 +103,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_startDelay();
+  constexpr float_t& __cordl_internal_get_startDelay();
 
-  constexpr float_t const& __get_startDelay() const;
+  constexpr float_t const& __cordl_internal_get_startDelay() const;
 
-  constexpr void __set_startDelay(float_t value);
+  constexpr void __cordl_internal_set_startDelay(float_t value);
 
-  constexpr ::GlobalNamespace::FadeInOutController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FadeInOutController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::FadeInOutController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  constexpr float_t& __get_fromValue();
+  constexpr float_t& __cordl_internal_get_fromValue();
 
-  constexpr float_t const& __get_fromValue() const;
+  constexpr float_t const& __cordl_internal_get_fromValue() const;
 
-  constexpr void __set_fromValue(float_t value);
+  constexpr void __cordl_internal_set_fromValue(float_t value);
 
-  constexpr float_t& __get_toValue();
+  constexpr float_t& __cordl_internal_get_toValue();
 
-  constexpr float_t const& __get_toValue() const;
+  constexpr float_t const& __cordl_internal_get_toValue() const;
 
-  constexpr void __set_toValue(float_t value);
+  constexpr void __cordl_internal_set_toValue(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_curve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_curve(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
-  constexpr ::System::Action*& __get_fadeFinishedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_fadeFinishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_fadeFinishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_fadeFinishedCallback() const;
 
-  constexpr void __set_fadeFinishedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_fadeFinishedCallback(::System::Action* value);
 
-  constexpr float_t& __get__elapsedTime_5__2();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__2();
 
-  constexpr float_t const& __get__elapsedTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__2() const;
 
-  constexpr void __set__elapsedTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
   static inline ::GlobalNamespace::__FadeInOutController___Fade_d__15* New_ctor(int32_t __1__state);
 
@@ -207,7 +207,7 @@ public:
   float_t ___startDelay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::FadeInOutController* _____4__this;
+  ::UnityW<::GlobalNamespace::FadeInOutController> _____4__this;
 
   /// @brief Field fromValue, offset: 0x30, size: 0x4, def value: None
   float_t ___fromValue;
@@ -257,7 +257,7 @@ static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, __
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14367))
 // CS Name: ::FadeInOutController*
 class CORDL_TYPE FadeInOutController : public ::UnityEngine::MonoBehaviour {
@@ -266,58 +266,58 @@ public:
   using _Fade_d__15 = ::GlobalNamespace::__FadeInOutController___Fade_d__15;
 
   /// @brief Field _easeValue, offset 0x18, size 0x8
-  __declspec(property(get = __get__easeValue, put = __set__easeValue))::GlobalNamespace::FloatSO* _easeValue;
+  __declspec(property(get = __cordl_internal_get__easeValue, put = __cordl_internal_set__easeValue))::UnityW<::GlobalNamespace::FloatSO> _easeValue;
 
   /// @brief Field _fadeInCurve, offset 0x20, size 0x8
-  __declspec(property(get = __get__fadeInCurve, put = __set__fadeInCurve))::UnityEngine::AnimationCurve* _fadeInCurve;
+  __declspec(property(get = __cordl_internal_get__fadeInCurve, put = __cordl_internal_set__fadeInCurve))::UnityEngine::AnimationCurve* _fadeInCurve;
 
   /// @brief Field _fadeOutCurve, offset 0x28, size 0x8
-  __declspec(property(get = __get__fadeOutCurve, put = __set__fadeOutCurve))::UnityEngine::AnimationCurve* _fadeOutCurve;
+  __declspec(property(get = __cordl_internal_get__fadeOutCurve, put = __cordl_internal_set__fadeOutCurve))::UnityEngine::AnimationCurve* _fadeOutCurve;
 
   /// @brief Field _fadeInStartDelay, offset 0x30, size 0x4
-  __declspec(property(get = __get__fadeInStartDelay, put = __set__fadeInStartDelay)) float_t _fadeInStartDelay;
+  __declspec(property(get = __cordl_internal_get__fadeInStartDelay, put = __cordl_internal_set__fadeInStartDelay)) float_t _fadeInStartDelay;
 
   /// @brief Field _defaultFadeOutDuration, offset 0x34, size 0x4
-  __declspec(property(get = __get__defaultFadeOutDuration, put = __set__defaultFadeOutDuration)) float_t _defaultFadeOutDuration;
+  __declspec(property(get = __cordl_internal_get__defaultFadeOutDuration, put = __cordl_internal_set__defaultFadeOutDuration)) float_t _defaultFadeOutDuration;
 
   /// @brief Field _defaultFadeInDuration, offset 0x38, size 0x4
-  __declspec(property(get = __get__defaultFadeInDuration, put = __set__defaultFadeInDuration)) float_t _defaultFadeInDuration;
+  __declspec(property(get = __cordl_internal_get__defaultFadeInDuration, put = __cordl_internal_set__defaultFadeInDuration)) float_t _defaultFadeInDuration;
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__easeValue();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__easeValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__easeValue() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__easeValue() const;
 
-  constexpr void __set__easeValue(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__easeValue(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__fadeInCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeInCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__fadeInCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeInCurve() const;
 
-  constexpr void __set__fadeInCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__fadeInCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__fadeOutCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeOutCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__fadeOutCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeOutCurve() const;
 
-  constexpr void __set__fadeOutCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__fadeOutCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get__fadeInStartDelay();
+  constexpr float_t& __cordl_internal_get__fadeInStartDelay();
 
-  constexpr float_t const& __get__fadeInStartDelay() const;
+  constexpr float_t const& __cordl_internal_get__fadeInStartDelay() const;
 
-  constexpr void __set__fadeInStartDelay(float_t value);
+  constexpr void __cordl_internal_set__fadeInStartDelay(float_t value);
 
-  constexpr float_t& __get__defaultFadeOutDuration();
+  constexpr float_t& __cordl_internal_get__defaultFadeOutDuration();
 
-  constexpr float_t const& __get__defaultFadeOutDuration() const;
+  constexpr float_t const& __cordl_internal_get__defaultFadeOutDuration() const;
 
-  constexpr void __set__defaultFadeOutDuration(float_t value);
+  constexpr void __cordl_internal_set__defaultFadeOutDuration(float_t value);
 
-  constexpr float_t& __get__defaultFadeInDuration();
+  constexpr float_t& __cordl_internal_get__defaultFadeInDuration();
 
-  constexpr float_t const& __get__defaultFadeInDuration() const;
+  constexpr float_t const& __cordl_internal_get__defaultFadeInDuration() const;
 
-  constexpr void __set__defaultFadeInDuration(float_t value);
+  constexpr void __cordl_internal_set__defaultFadeInDuration(float_t value);
 
   /// @brief Method FadeOutInstant, addr 0x20f2858, size 0xc, virtual false, abstract: false, final false
   inline void FadeOutInstant();
@@ -370,7 +370,7 @@ protected:
 
 public:
   /// @brief Field _easeValue, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____easeValue;
+  ::UnityW<::GlobalNamespace::FloatSO> ____easeValue;
 
   /// @brief Field _fadeInCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeInCurve;

@@ -17,7 +17,7 @@ MARK_VAL_T(::TMPro::FontAssetCreationSettings);
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 101, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12359))
 // CS Name: ::TMPro::FontAssetCreationSettings
 struct CORDL_TYPE FontAssetCreationSettings {

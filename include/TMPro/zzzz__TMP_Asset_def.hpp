@@ -18,49 +18,49 @@ MARK_REF_PTR_T(::TMPro::TMP_Asset);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12327))
 // CS Name: ::TMPro::TMP_Asset*
 class CORDL_TYPE TMP_Asset : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field m_InstanceID, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_InstanceID, put = __set_m_InstanceID)) int32_t m_InstanceID;
+  __declspec(property(get = __cordl_internal_get_m_InstanceID, put = __cordl_internal_set_m_InstanceID)) int32_t m_InstanceID;
 
   /// @brief Field hashCode, offset 0x1c, size 0x4
-  __declspec(property(get = __get_hashCode, put = __set_hashCode)) int32_t hashCode;
+  __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field material, offset 0x20, size 0x8
-  __declspec(property(get = __get_material, put = __set_material))::UnityEngine::Material* material;
+  __declspec(property(get = __cordl_internal_get_material, put = __cordl_internal_set_material))::UnityW<::UnityEngine::Material> material;
 
   /// @brief Field materialHashCode, offset 0x28, size 0x4
-  __declspec(property(get = __get_materialHashCode, put = __set_materialHashCode)) int32_t materialHashCode;
+  __declspec(property(get = __cordl_internal_get_materialHashCode, put = __cordl_internal_set_materialHashCode)) int32_t materialHashCode;
 
   __declspec(property(get = get_instanceID)) int32_t instanceID;
 
-  constexpr int32_t& __get_m_InstanceID();
+  constexpr int32_t& __cordl_internal_get_m_InstanceID();
 
-  constexpr int32_t const& __get_m_InstanceID() const;
+  constexpr int32_t const& __cordl_internal_get_m_InstanceID() const;
 
-  constexpr void __set_m_InstanceID(int32_t value);
+  constexpr void __cordl_internal_set_m_InstanceID(int32_t value);
 
-  constexpr int32_t& __get_hashCode();
+  constexpr int32_t& __cordl_internal_get_hashCode();
 
-  constexpr int32_t const& __get_hashCode() const;
+  constexpr int32_t const& __cordl_internal_get_hashCode() const;
 
-  constexpr void __set_hashCode(int32_t value);
+  constexpr void __cordl_internal_set_hashCode(int32_t value);
 
-  constexpr ::UnityEngine::Material*& __get_material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_material() const;
 
-  constexpr void __set_material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get_materialHashCode();
+  constexpr int32_t& __cordl_internal_get_materialHashCode();
 
-  constexpr int32_t const& __get_materialHashCode() const;
+  constexpr int32_t const& __cordl_internal_get_materialHashCode() const;
 
-  constexpr void __set_materialHashCode(int32_t value);
+  constexpr void __cordl_internal_set_materialHashCode(int32_t value);
 
   /// @brief Method get_instanceID, addr 0x2c016b4, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
@@ -91,7 +91,7 @@ public:
   int32_t ___hashCode;
 
   /// @brief Field material, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Material* ___material;
+  ::UnityW<::UnityEngine::Material> ___material;
 
   /// @brief Field materialHashCode, offset: 0x28, size: 0x4, def value: None
   int32_t ___materialHashCode;

@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16037))
 // CS Name: ::XRManagementAnalytics::BuildEvent
 struct CORDL_TYPE __XRManagementAnalytics__BuildEvent {
@@ -72,7 +72,7 @@ static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__B
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16038))
 // CS Name: ::UnityEngine.XR.Management::XRManagementAnalytics*
 class CORDL_TYPE XRManagementAnalytics : public ::System::Object {

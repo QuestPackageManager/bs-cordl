@@ -32,38 +32,38 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilterText);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5782))
 // CS Name: ::GameServersFilterText*
 class CORDL_TYPE GameServersFilterText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::HMUI::CurvedTextMeshPro* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::HMUI::CurvedTextMeshPro> _text;
 
   /// @brief Field _songPackMasksModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__songPackMasksModel, put = __set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
+  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
   /// @brief Field _stringBuilder, offset 0x28, size 0x8
-  __declspec(property(get = __get__stringBuilder, put = __set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
+  __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__text();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__text() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::GlobalNamespace::SongPackMasksModel*& __get__songPackMasksModel();
+  constexpr ::GlobalNamespace::SongPackMasksModel*& __cordl_internal_get__songPackMasksModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __get__songPackMasksModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __cordl_internal_get__songPackMasksModel() const;
 
-  constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
+  constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  constexpr ::System::Text::StringBuilder*& __get__stringBuilder();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__stringBuilder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__stringBuilder() const;
 
-  constexpr void __set__stringBuilder(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
   /// @brief Method Setup, addr 0x22e1ef4, size 0x248, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameServersFilter* filter, bool visible);
@@ -91,7 +91,7 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____text;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____text;
 
   /// @brief Field _songPackMasksModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;

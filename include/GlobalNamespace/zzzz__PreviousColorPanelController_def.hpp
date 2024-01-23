@@ -32,65 +32,66 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviousColorPanelController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16178))
 // CS Name: ::PreviousColorPanelController*
 class CORDL_TYPE PreviousColorPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _graphics, offset 0x18, size 0x8
-  __declspec(property(get = __get__graphics, put = __set__graphics))::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> _graphics;
+  __declspec(property(get = __cordl_internal_get__graphics,
+                      put = __cordl_internal_set__graphics))::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> _graphics;
 
   /// @brief Field _button, offset 0x20, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field colorWasSelectedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_colorWasSelectedEvent, put = __set_colorWasSelectedEvent))::System::Action_1<::UnityEngine::Color>* colorWasSelectedEvent;
+  __declspec(property(get = __cordl_internal_get_colorWasSelectedEvent, put = __cordl_internal_set_colorWasSelectedEvent))::System::Action_1<::UnityEngine::Color>* colorWasSelectedEvent;
 
   /// @brief Field _buttonBinder, offset 0x30, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _color, offset 0x38, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _graphicsColor, offset 0x48, size 0x10
-  __declspec(property(get = __get__graphicsColor, put = __set__graphicsColor))::UnityEngine::Color _graphicsColor;
+  __declspec(property(get = __cordl_internal_get__graphicsColor, put = __cordl_internal_set__graphicsColor))::UnityEngine::Color _graphicsColor;
 
-  constexpr ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*>& __get__graphics();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*>& __cordl_internal_get__graphics();
 
-  constexpr ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> const& __get__graphics() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> const& __cordl_internal_get__graphics() const;
 
-  constexpr void __set__graphics(::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> value);
+  constexpr void __cordl_internal_set__graphics(::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__button();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __get_colorWasSelectedEvent();
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_colorWasSelectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __get_colorWasSelectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_colorWasSelectedEvent() const;
 
-  constexpr void __set_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__graphicsColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__graphicsColor();
 
-  constexpr ::UnityEngine::Color const& __get__graphicsColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__graphicsColor() const;
 
-  constexpr void __set__graphicsColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__graphicsColor(::UnityEngine::Color value);
 
   /// @brief Method add_colorWasSelectedEvent, addr 0x23e3848, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
@@ -133,10 +134,10 @@ protected:
 
 public:
   /// @brief Field _graphics, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> ____graphics;
+  ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> ____graphics;
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____button;
+  ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief Field colorWasSelectedEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Color>* ___colorWasSelectedEvent;

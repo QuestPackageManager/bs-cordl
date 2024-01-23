@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationPa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13998))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::InstantiationParameters
 struct CORDL_TYPE InstantiationParameters {
@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_Rotation))::UnityEngine::Quaternion Rotation;
 
-  __declspec(property(get = get_Parent))::UnityEngine::Transform* Parent;
+  __declspec(property(get = get_Parent))::UnityW<::UnityEngine::Transform> Parent;
 
   __declspec(property(get = get_InstantiateInWorldPosition)) bool InstantiateInWorldPosition;
 
@@ -48,7 +48,7 @@ public:
   inline ::UnityEngine::Quaternion get_Rotation();
 
   /// @brief Method get_Parent, addr 0x2bd6d44, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_Parent();
+  inline ::UnityW<::UnityEngine::Transform> get_Parent();
 
   /// @brief Method get_InstantiateInWorldPosition, addr 0x2bd6d4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateInWorldPosition();
@@ -66,9 +66,9 @@ public:
   template <typename TObject> inline TObject Instantiate(TObject source);
 
   // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Parent", ty: "::UnityEngine::Transform*", modifiers: "", def_value: None }, CppParam { name: "m_InstantiateInWorldPosition", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "m_SetPositionRotation", ty: "bool", modifiers: "", def_value: None }]
-  constexpr InstantiationParameters(::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation, ::UnityEngine::Transform* m_Parent, bool m_InstantiateInWorldPosition,
+  // def_value: None }, CppParam { name: "m_Parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "m_InstantiateInWorldPosition", ty: "bool", modifiers:
+  // "", def_value: None }, CppParam { name: "m_SetPositionRotation", ty: "bool", modifiers: "", def_value: None }]
+  constexpr InstantiationParameters(::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation, ::UnityW<::UnityEngine::Transform> m_Parent, bool m_InstantiateInWorldPosition,
                                     bool m_SetPositionRotation) noexcept;
 
   // Ctor Parameters []
@@ -82,7 +82,7 @@ public:
   ::UnityEngine::Quaternion m_Rotation;
 
   /// @brief Field m_Parent, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* m_Parent;
+  ::UnityW<::UnityEngine::Transform> m_Parent;
 
   /// @brief Field m_InstantiateInWorldPosition, offset: 0x28, size: 0x1, def value: None
   bool m_InstantiateInWorldPosition;

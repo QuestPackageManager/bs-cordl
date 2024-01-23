@@ -33,17 +33,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1628))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1628))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1643))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedDataList*
 class CORDL_TYPE PgpEncryptedDataList : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::IList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::Org::BouncyCastle::Bcpg::InputStreamPacket* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Bcpg::InputStreamPacket* data;
 
   __declspec(property(get = get_Item))::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* Item[];
 
@@ -53,17 +53,17 @@ public:
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  constexpr ::System::Collections::IList*& __get_list();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& __get_data();
+  constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::Org::BouncyCastle::Bcpg::InputStreamPacket* value);
+  constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::InputStreamPacket* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 

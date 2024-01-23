@@ -49,7 +49,7 @@ MARK_VAL_T(::System::Numerics::BigInteger);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15647))
 // CS Name: ::BigInteger::GetBytesMode
 struct CORDL_TYPE __BigInteger__GetBytesMode {
@@ -103,7 +103,7 @@ static_assert(offsetof(::System::Numerics::__BigInteger__GetBytesMode, value__) 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15648))
 // CS Name: ::System.Numerics::BigInteger
 struct CORDL_TYPE BigInteger {

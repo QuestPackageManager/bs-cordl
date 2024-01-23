@@ -67,20 +67,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::__JsonContract____c__DisplayCl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11941))
 // CS Name: ::JsonContract::<>c__DisplayClass73_0*
 class CORDL_TYPE __JsonContract____c__DisplayClass73_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callbackMethodInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_callbackMethodInfo, put = __set_callbackMethodInfo))::System::Reflection::MethodInfo* callbackMethodInfo;
+  __declspec(property(get = __cordl_internal_get_callbackMethodInfo, put = __cordl_internal_set_callbackMethodInfo))::System::Reflection::MethodInfo* callbackMethodInfo;
 
-  constexpr ::System::Reflection::MethodInfo*& __get_callbackMethodInfo();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_callbackMethodInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_callbackMethodInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_callbackMethodInfo() const;
 
-  constexpr void __set_callbackMethodInfo(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_callbackMethodInfo(::System::Reflection::MethodInfo* value);
 
   static inline ::Newtonsoft::Json::Serialization::__JsonContract____c__DisplayClass73_0* New_ctor();
 
@@ -119,20 +119,20 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__JsonContract____c__D
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11942))
 // CS Name: ::JsonContract::<>c__DisplayClass74_0*
 class CORDL_TYPE __JsonContract____c__DisplayClass74_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callbackMethodInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_callbackMethodInfo, put = __set_callbackMethodInfo))::System::Reflection::MethodInfo* callbackMethodInfo;
+  __declspec(property(get = __cordl_internal_get_callbackMethodInfo, put = __cordl_internal_set_callbackMethodInfo))::System::Reflection::MethodInfo* callbackMethodInfo;
 
-  constexpr ::System::Reflection::MethodInfo*& __get_callbackMethodInfo();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_callbackMethodInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_callbackMethodInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_callbackMethodInfo() const;
 
-  constexpr void __set_callbackMethodInfo(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_callbackMethodInfo(::System::Reflection::MethodInfo* value);
 
   static inline ::Newtonsoft::Json::Serialization::__JsonContract____c__DisplayClass74_0* New_ctor();
 
@@ -171,9 +171,9 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__JsonContract____c__D
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11936)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11823)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11943)) CS Name: ::Newtonsoft.Json.Serialization::JsonContract*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11823)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11936)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11943)) CS
+// Name: ::Newtonsoft.Json.Serialization::JsonContract*
 class CORDL_TYPE JsonContract : public ::System::Object {
 public:
   // Declarations
@@ -182,72 +182,76 @@ public:
   using __c__DisplayClass73_0 = ::Newtonsoft::Json::Serialization::__JsonContract____c__DisplayClass73_0;
 
   /// @brief Field IsNullable, offset 0x10, size 0x1
-  __declspec(property(get = __get_IsNullable, put = __set_IsNullable)) bool IsNullable;
+  __declspec(property(get = __cordl_internal_get_IsNullable, put = __cordl_internal_set_IsNullable)) bool IsNullable;
 
   /// @brief Field IsConvertable, offset 0x11, size 0x1
-  __declspec(property(get = __get_IsConvertable, put = __set_IsConvertable)) bool IsConvertable;
+  __declspec(property(get = __cordl_internal_get_IsConvertable, put = __cordl_internal_set_IsConvertable)) bool IsConvertable;
 
   /// @brief Field IsEnum, offset 0x12, size 0x1
-  __declspec(property(get = __get_IsEnum, put = __set_IsEnum)) bool IsEnum;
+  __declspec(property(get = __cordl_internal_get_IsEnum, put = __cordl_internal_set_IsEnum)) bool IsEnum;
 
   /// @brief Field NonNullableUnderlyingType, offset 0x18, size 0x8
-  __declspec(property(get = __get_NonNullableUnderlyingType, put = __set_NonNullableUnderlyingType))::System::Type* NonNullableUnderlyingType;
+  __declspec(property(get = __cordl_internal_get_NonNullableUnderlyingType, put = __cordl_internal_set_NonNullableUnderlyingType))::System::Type* NonNullableUnderlyingType;
 
   /// @brief Field InternalReadType, offset 0x20, size 0x4
-  __declspec(property(get = __get_InternalReadType, put = __set_InternalReadType))::Newtonsoft::Json::ReadType InternalReadType;
+  __declspec(property(get = __cordl_internal_get_InternalReadType, put = __cordl_internal_set_InternalReadType))::Newtonsoft::Json::ReadType InternalReadType;
 
   /// @brief Field ContractType, offset 0x24, size 0x4
-  __declspec(property(get = __get_ContractType, put = __set_ContractType))::Newtonsoft::Json::Serialization::JsonContractType ContractType;
+  __declspec(property(get = __cordl_internal_get_ContractType, put = __cordl_internal_set_ContractType))::Newtonsoft::Json::Serialization::JsonContractType ContractType;
 
   /// @brief Field IsReadOnlyOrFixedSize, offset 0x28, size 0x1
-  __declspec(property(get = __get_IsReadOnlyOrFixedSize, put = __set_IsReadOnlyOrFixedSize)) bool IsReadOnlyOrFixedSize;
+  __declspec(property(get = __cordl_internal_get_IsReadOnlyOrFixedSize, put = __cordl_internal_set_IsReadOnlyOrFixedSize)) bool IsReadOnlyOrFixedSize;
 
   /// @brief Field IsSealed, offset 0x29, size 0x1
-  __declspec(property(get = __get_IsSealed, put = __set_IsSealed)) bool IsSealed;
+  __declspec(property(get = __cordl_internal_get_IsSealed, put = __cordl_internal_set_IsSealed)) bool IsSealed;
 
   /// @brief Field IsInstantiable, offset 0x2a, size 0x1
-  __declspec(property(get = __get_IsInstantiable, put = __set_IsInstantiable)) bool IsInstantiable;
+  __declspec(property(get = __cordl_internal_get_IsInstantiable, put = __cordl_internal_set_IsInstantiable)) bool IsInstantiable;
 
   /// @brief Field _onDeserializedCallbacks, offset 0x30, size 0x8
-  __declspec(property(get = __get__onDeserializedCallbacks,
-                      put = __set__onDeserializedCallbacks))::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onDeserializedCallbacks;
+  __declspec(property(get = __cordl_internal_get__onDeserializedCallbacks,
+                      put = __cordl_internal_set__onDeserializedCallbacks))::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onDeserializedCallbacks;
 
   /// @brief Field _onDeserializingCallbacks, offset 0x38, size 0x8
-  __declspec(property(get = __get__onDeserializingCallbacks,
-                      put = __set__onDeserializingCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onDeserializingCallbacks;
+  __declspec(
+      property(get = __cordl_internal_get__onDeserializingCallbacks,
+               put = __cordl_internal_set__onDeserializingCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onDeserializingCallbacks;
 
   /// @brief Field _onSerializedCallbacks, offset 0x40, size 0x8
-  __declspec(property(get = __get__onSerializedCallbacks,
-                      put = __set__onSerializedCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onSerializedCallbacks;
+  __declspec(property(get = __cordl_internal_get__onSerializedCallbacks,
+                      put = __cordl_internal_set__onSerializedCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onSerializedCallbacks;
 
   /// @brief Field _onSerializingCallbacks, offset 0x48, size 0x8
-  __declspec(property(get = __get__onSerializingCallbacks,
-                      put = __set__onSerializingCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onSerializingCallbacks;
+  __declspec(property(get = __cordl_internal_get__onSerializingCallbacks,
+                      put = __cordl_internal_set__onSerializingCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* _onSerializingCallbacks;
 
   /// @brief Field _onErrorCallbacks, offset 0x50, size 0x8
-  __declspec(property(get = __get__onErrorCallbacks,
-                      put = __set__onErrorCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* _onErrorCallbacks;
+  __declspec(property(get = __cordl_internal_get__onErrorCallbacks,
+                      put = __cordl_internal_set__onErrorCallbacks))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* _onErrorCallbacks;
 
   /// @brief Field _createdType, offset 0x58, size 0x8
-  __declspec(property(get = __get__createdType, put = __set__createdType))::System::Type* _createdType;
+  __declspec(property(get = __cordl_internal_get__createdType, put = __cordl_internal_set__createdType))::System::Type* _createdType;
 
   /// @brief Field <UnderlyingType>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__UnderlyingType_k__BackingField, put = __set__UnderlyingType_k__BackingField))::System::Type* _UnderlyingType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UnderlyingType_k__BackingField, put = __cordl_internal_set__UnderlyingType_k__BackingField))::System::Type* _UnderlyingType_k__BackingField;
 
   /// @brief Field <IsReference>k__BackingField, offset 0x68, size 0x2
-  __declspec(property(get = __get__IsReference_k__BackingField, put = __set__IsReference_k__BackingField))::System::Nullable_1<bool> _IsReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsReference_k__BackingField, put = __cordl_internal_set__IsReference_k__BackingField))::System::Nullable_1<bool> _IsReference_k__BackingField;
 
   /// @brief Field <Converter>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __get__Converter_k__BackingField, put = __set__Converter_k__BackingField))::Newtonsoft::Json::JsonConverter* _Converter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Converter_k__BackingField, put = __cordl_internal_set__Converter_k__BackingField))::Newtonsoft::Json::JsonConverter* _Converter_k__BackingField;
 
   /// @brief Field <InternalConverter>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __get__InternalConverter_k__BackingField, put = __set__InternalConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _InternalConverter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InternalConverter_k__BackingField,
+                      put = __cordl_internal_set__InternalConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _InternalConverter_k__BackingField;
 
   /// @brief Field <DefaultCreator>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__DefaultCreator_k__BackingField, put = __set__DefaultCreator_k__BackingField))::System::Func_1<::System::Object*>* _DefaultCreator_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DefaultCreator_k__BackingField,
+                      put = __cordl_internal_set__DefaultCreator_k__BackingField))::System::Func_1<::System::Object*>* _DefaultCreator_k__BackingField;
 
   /// @brief Field <DefaultCreatorNonPublic>k__BackingField, offset 0x88, size 0x1
-  __declspec(property(get = __get__DefaultCreatorNonPublic_k__BackingField, put = __set__DefaultCreatorNonPublic_k__BackingField)) bool _DefaultCreatorNonPublic_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DefaultCreatorNonPublic_k__BackingField,
+                      put = __cordl_internal_set__DefaultCreatorNonPublic_k__BackingField)) bool _DefaultCreatorNonPublic_k__BackingField;
 
   __declspec(property(get = get_UnderlyingType, put = set_UnderlyingType))::System::Type* UnderlyingType;
 
@@ -283,131 +287,136 @@ public:
 
   __declspec(property(get = get_DefaultCreatorNonPublic, put = set_DefaultCreatorNonPublic)) bool DefaultCreatorNonPublic;
 
-  constexpr bool& __get_IsNullable();
+  constexpr bool& __cordl_internal_get_IsNullable();
 
-  constexpr bool const& __get_IsNullable() const;
+  constexpr bool const& __cordl_internal_get_IsNullable() const;
 
-  constexpr void __set_IsNullable(bool value);
+  constexpr void __cordl_internal_set_IsNullable(bool value);
 
-  constexpr bool& __get_IsConvertable();
+  constexpr bool& __cordl_internal_get_IsConvertable();
 
-  constexpr bool const& __get_IsConvertable() const;
+  constexpr bool const& __cordl_internal_get_IsConvertable() const;
 
-  constexpr void __set_IsConvertable(bool value);
+  constexpr void __cordl_internal_set_IsConvertable(bool value);
 
-  constexpr bool& __get_IsEnum();
+  constexpr bool& __cordl_internal_get_IsEnum();
 
-  constexpr bool const& __get_IsEnum() const;
+  constexpr bool const& __cordl_internal_get_IsEnum() const;
 
-  constexpr void __set_IsEnum(bool value);
+  constexpr void __cordl_internal_set_IsEnum(bool value);
 
-  constexpr ::System::Type*& __get_NonNullableUnderlyingType();
+  constexpr ::System::Type*& __cordl_internal_get_NonNullableUnderlyingType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_NonNullableUnderlyingType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_NonNullableUnderlyingType() const;
 
-  constexpr void __set_NonNullableUnderlyingType(::System::Type* value);
+  constexpr void __cordl_internal_set_NonNullableUnderlyingType(::System::Type* value);
 
-  constexpr ::Newtonsoft::Json::ReadType& __get_InternalReadType();
+  constexpr ::Newtonsoft::Json::ReadType& __cordl_internal_get_InternalReadType();
 
-  constexpr ::Newtonsoft::Json::ReadType const& __get_InternalReadType() const;
+  constexpr ::Newtonsoft::Json::ReadType const& __cordl_internal_get_InternalReadType() const;
 
-  constexpr void __set_InternalReadType(::Newtonsoft::Json::ReadType value);
+  constexpr void __cordl_internal_set_InternalReadType(::Newtonsoft::Json::ReadType value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonContractType& __get_ContractType();
+  constexpr ::Newtonsoft::Json::Serialization::JsonContractType& __cordl_internal_get_ContractType();
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonContractType const& __get_ContractType() const;
+  constexpr ::Newtonsoft::Json::Serialization::JsonContractType const& __cordl_internal_get_ContractType() const;
 
-  constexpr void __set_ContractType(::Newtonsoft::Json::Serialization::JsonContractType value);
+  constexpr void __cordl_internal_set_ContractType(::Newtonsoft::Json::Serialization::JsonContractType value);
 
-  constexpr bool& __get_IsReadOnlyOrFixedSize();
+  constexpr bool& __cordl_internal_get_IsReadOnlyOrFixedSize();
 
-  constexpr bool const& __get_IsReadOnlyOrFixedSize() const;
+  constexpr bool const& __cordl_internal_get_IsReadOnlyOrFixedSize() const;
 
-  constexpr void __set_IsReadOnlyOrFixedSize(bool value);
+  constexpr void __cordl_internal_set_IsReadOnlyOrFixedSize(bool value);
 
-  constexpr bool& __get_IsSealed();
+  constexpr bool& __cordl_internal_get_IsSealed();
 
-  constexpr bool const& __get_IsSealed() const;
+  constexpr bool const& __cordl_internal_get_IsSealed() const;
 
-  constexpr void __set_IsSealed(bool value);
+  constexpr void __cordl_internal_set_IsSealed(bool value);
 
-  constexpr bool& __get_IsInstantiable();
+  constexpr bool& __cordl_internal_get_IsInstantiable();
 
-  constexpr bool const& __get_IsInstantiable() const;
+  constexpr bool const& __cordl_internal_get_IsInstantiable() const;
 
-  constexpr void __set_IsInstantiable(bool value);
+  constexpr void __cordl_internal_set_IsInstantiable(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __get__onDeserializedCallbacks();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __cordl_internal_get__onDeserializedCallbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const& __get__onDeserializedCallbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const&
+  __cordl_internal_get__onDeserializedCallbacks() const;
 
-  constexpr void __set__onDeserializedCallbacks(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
+  constexpr void __cordl_internal_set__onDeserializedCallbacks(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __get__onDeserializingCallbacks();
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __cordl_internal_get__onDeserializingCallbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const& __get__onDeserializingCallbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const&
+  __cordl_internal_get__onDeserializingCallbacks() const;
 
-  constexpr void __set__onDeserializingCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
+  constexpr void __cordl_internal_set__onDeserializingCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __get__onSerializedCallbacks();
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __cordl_internal_get__onSerializedCallbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const& __get__onSerializedCallbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const&
+  __cordl_internal_get__onSerializedCallbacks() const;
 
-  constexpr void __set__onSerializedCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
+  constexpr void __cordl_internal_set__onSerializedCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __get__onSerializingCallbacks();
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& __cordl_internal_get__onSerializingCallbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const& __get__onSerializingCallbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> const&
+  __cordl_internal_get__onSerializingCallbacks() const;
 
-  constexpr void __set__onSerializingCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
+  constexpr void __cordl_internal_set__onSerializingCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*& __get__onErrorCallbacks();
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*& __cordl_internal_get__onErrorCallbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> const& __get__onErrorCallbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> const&
+  __cordl_internal_get__onErrorCallbacks() const;
 
-  constexpr void __set__onErrorCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* value);
+  constexpr void __cordl_internal_set__onErrorCallbacks(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* value);
 
-  constexpr ::System::Type*& __get__createdType();
+  constexpr ::System::Type*& __cordl_internal_get__createdType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__createdType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__createdType() const;
 
-  constexpr void __set__createdType(::System::Type* value);
+  constexpr void __cordl_internal_set__createdType(::System::Type* value);
 
-  constexpr ::System::Type*& __get__UnderlyingType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__UnderlyingType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__UnderlyingType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__UnderlyingType_k__BackingField() const;
 
-  constexpr void __set__UnderlyingType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__UnderlyingType_k__BackingField(::System::Type* value);
 
-  constexpr ::System::Nullable_1<bool>& __get__IsReference_k__BackingField();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__IsReference_k__BackingField();
 
-  constexpr ::System::Nullable_1<bool> const& __get__IsReference_k__BackingField() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__IsReference_k__BackingField() const;
 
-  constexpr void __set__IsReference_k__BackingField(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set__IsReference_k__BackingField(::System::Nullable_1<bool> value);
 
-  constexpr ::Newtonsoft::Json::JsonConverter*& __get__Converter_k__BackingField();
+  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__Converter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __get__Converter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__Converter_k__BackingField() const;
 
-  constexpr void __set__Converter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+  constexpr void __cordl_internal_set__Converter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
 
-  constexpr ::Newtonsoft::Json::JsonConverter*& __get__InternalConverter_k__BackingField();
+  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__InternalConverter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __get__InternalConverter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__InternalConverter_k__BackingField() const;
 
-  constexpr void __set__InternalConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+  constexpr void __cordl_internal_set__InternalConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
 
-  constexpr ::System::Func_1<::System::Object*>*& __get__DefaultCreator_k__BackingField();
+  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get__DefaultCreator_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __get__DefaultCreator_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __cordl_internal_get__DefaultCreator_k__BackingField() const;
 
-  constexpr void __set__DefaultCreator_k__BackingField(::System::Func_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__DefaultCreator_k__BackingField(::System::Func_1<::System::Object*>* value);
 
-  constexpr bool& __get__DefaultCreatorNonPublic_k__BackingField();
+  constexpr bool& __cordl_internal_get__DefaultCreatorNonPublic_k__BackingField();
 
-  constexpr bool const& __get__DefaultCreatorNonPublic_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__DefaultCreatorNonPublic_k__BackingField() const;
 
-  constexpr void __set__DefaultCreatorNonPublic_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__DefaultCreatorNonPublic_k__BackingField(bool value);
 
   /// @brief Method get_UnderlyingType, addr 0x267850c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_UnderlyingType();

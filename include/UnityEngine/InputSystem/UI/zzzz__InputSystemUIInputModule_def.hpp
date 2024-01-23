@@ -99,7 +99,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__InputActi
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 21, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6374))
 // CS Name: ::InputSystemUIInputModule::InputActionReferenceState
 struct CORDL_TYPE __InputSystemUIInputModule__InputActionReferenceState {
@@ -135,7 +135,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::__InputSystemUIInputModul
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6375))
 // CS Name: ::InputSystemUIInputModule::CursorLockBehavior
 struct CORDL_TYPE __InputSystemUIInputModule__CursorLockBehavior {
@@ -185,11 +185,11 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::__InputSystemUIInputModul
 // SizeInfo { instance_size: 912, native_size: -1, calculated_instance_size: 912, calculated_native_size: 912, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13199)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6378)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3868 }), TypeDefinitionIndex(TypeDefinitionIndex(6380)), TypeDefinitionIndex(TypeDefinitionIndex(6215)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3106 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6375)), TypeDefinitionIndex(TypeDefinitionIndex(6373)), TypeDefinitionIndex(TypeDefinitionIndex(6372))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6376))
-// CS Name: ::UnityEngine.InputSystem.UI::InputSystemUIInputModule*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6372)), TypeDefinitionIndex(TypeDefinitionIndex(6373)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6375)), TypeDefinitionIndex(TypeDefinitionIndex(6378)), TypeDefinitionIndex(TypeDefinitionIndex(6380)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13199)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 3106 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3868 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6376)) CS Name:
+// ::UnityEngine.InputSystem.UI::InputSystemUIInputModule*
 class CORDL_TYPE InputSystemUIInputModule : public ::UnityEngine::EventSystems::BaseInputModule {
 public:
   // Declarations
@@ -198,118 +198,131 @@ public:
   using InputActionReferenceState = ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__InputActionReferenceState;
 
   /// @brief Field m_MoveRepeatDelay, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_MoveRepeatDelay, put = __set_m_MoveRepeatDelay)) float_t m_MoveRepeatDelay;
+  __declspec(property(get = __cordl_internal_get_m_MoveRepeatDelay, put = __cordl_internal_set_m_MoveRepeatDelay)) float_t m_MoveRepeatDelay;
 
   /// @brief Field m_MoveRepeatRate, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_MoveRepeatRate, put = __set_m_MoveRepeatRate)) float_t m_MoveRepeatRate;
+  __declspec(property(get = __cordl_internal_get_m_MoveRepeatRate, put = __cordl_internal_set_m_MoveRepeatRate)) float_t m_MoveRepeatRate;
 
   /// @brief Field m_TrackedDeviceDragThresholdMultiplier, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_TrackedDeviceDragThresholdMultiplier, put = __set_m_TrackedDeviceDragThresholdMultiplier)) float_t m_TrackedDeviceDragThresholdMultiplier;
+  __declspec(property(get = __cordl_internal_get_m_TrackedDeviceDragThresholdMultiplier,
+                      put = __cordl_internal_set_m_TrackedDeviceDragThresholdMultiplier)) float_t m_TrackedDeviceDragThresholdMultiplier;
 
   /// @brief Field m_XRTrackingOrigin, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_XRTrackingOrigin, put = __set_m_XRTrackingOrigin))::UnityEngine::Transform* m_XRTrackingOrigin;
+  __declspec(property(get = __cordl_internal_get_m_XRTrackingOrigin, put = __cordl_internal_set_m_XRTrackingOrigin))::UnityW<::UnityEngine::Transform> m_XRTrackingOrigin;
 
   /// @brief Field m_ActionsAsset, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_ActionsAsset, put = __set_m_ActionsAsset))::UnityEngine::InputSystem::InputActionAsset* m_ActionsAsset;
+  __declspec(property(get = __cordl_internal_get_m_ActionsAsset, put = __cordl_internal_set_m_ActionsAsset))::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_ActionsAsset;
 
   /// @brief Field m_PointAction, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_PointAction, put = __set_m_PointAction))::UnityEngine::InputSystem::InputActionReference* m_PointAction;
+  __declspec(property(get = __cordl_internal_get_m_PointAction, put = __cordl_internal_set_m_PointAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_PointAction;
 
   /// @brief Field m_MoveAction, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_MoveAction, put = __set_m_MoveAction))::UnityEngine::InputSystem::InputActionReference* m_MoveAction;
+  __declspec(property(get = __cordl_internal_get_m_MoveAction, put = __cordl_internal_set_m_MoveAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_MoveAction;
 
   /// @brief Field m_SubmitAction, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_SubmitAction, put = __set_m_SubmitAction))::UnityEngine::InputSystem::InputActionReference* m_SubmitAction;
+  __declspec(property(get = __cordl_internal_get_m_SubmitAction, put = __cordl_internal_set_m_SubmitAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_SubmitAction;
 
   /// @brief Field m_CancelAction, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_CancelAction, put = __set_m_CancelAction))::UnityEngine::InputSystem::InputActionReference* m_CancelAction;
+  __declspec(property(get = __cordl_internal_get_m_CancelAction, put = __cordl_internal_set_m_CancelAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_CancelAction;
 
   /// @brief Field m_LeftClickAction, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_LeftClickAction, put = __set_m_LeftClickAction))::UnityEngine::InputSystem::InputActionReference* m_LeftClickAction;
+  __declspec(property(get = __cordl_internal_get_m_LeftClickAction, put = __cordl_internal_set_m_LeftClickAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_LeftClickAction;
 
   /// @brief Field m_MiddleClickAction, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_MiddleClickAction, put = __set_m_MiddleClickAction))::UnityEngine::InputSystem::InputActionReference* m_MiddleClickAction;
+  __declspec(property(get = __cordl_internal_get_m_MiddleClickAction, put = __cordl_internal_set_m_MiddleClickAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_MiddleClickAction;
 
   /// @brief Field m_RightClickAction, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_RightClickAction, put = __set_m_RightClickAction))::UnityEngine::InputSystem::InputActionReference* m_RightClickAction;
+  __declspec(property(get = __cordl_internal_get_m_RightClickAction, put = __cordl_internal_set_m_RightClickAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_RightClickAction;
 
   /// @brief Field m_ScrollWheelAction, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_ScrollWheelAction, put = __set_m_ScrollWheelAction))::UnityEngine::InputSystem::InputActionReference* m_ScrollWheelAction;
+  __declspec(property(get = __cordl_internal_get_m_ScrollWheelAction, put = __cordl_internal_set_m_ScrollWheelAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_ScrollWheelAction;
 
   /// @brief Field m_TrackedDevicePositionAction, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_TrackedDevicePositionAction, put = __set_m_TrackedDevicePositionAction))::UnityEngine::InputSystem::InputActionReference* m_TrackedDevicePositionAction;
+  __declspec(property(get = __cordl_internal_get_m_TrackedDevicePositionAction,
+                      put = __cordl_internal_set_m_TrackedDevicePositionAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_TrackedDevicePositionAction;
 
   /// @brief Field m_TrackedDeviceOrientationAction, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_TrackedDeviceOrientationAction, put = __set_m_TrackedDeviceOrientationAction))::UnityEngine::InputSystem::InputActionReference* m_TrackedDeviceOrientationAction;
+  __declspec(property(get = __cordl_internal_get_m_TrackedDeviceOrientationAction,
+                      put = __cordl_internal_set_m_TrackedDeviceOrientationAction))::UnityW<::UnityEngine::InputSystem::InputActionReference> m_TrackedDeviceOrientationAction;
 
   /// @brief Field m_DeselectOnBackgroundClick, offset 0xc0, size 0x1
-  __declspec(property(get = __get_m_DeselectOnBackgroundClick, put = __set_m_DeselectOnBackgroundClick)) bool m_DeselectOnBackgroundClick;
+  __declspec(property(get = __cordl_internal_get_m_DeselectOnBackgroundClick, put = __cordl_internal_set_m_DeselectOnBackgroundClick)) bool m_DeselectOnBackgroundClick;
 
   /// @brief Field m_PointerBehavior, offset 0xc4, size 0x4
-  __declspec(property(get = __get_m_PointerBehavior, put = __set_m_PointerBehavior))::UnityEngine::InputSystem::UI::UIPointerBehavior m_PointerBehavior;
+  __declspec(property(get = __cordl_internal_get_m_PointerBehavior, put = __cordl_internal_set_m_PointerBehavior))::UnityEngine::InputSystem::UI::UIPointerBehavior m_PointerBehavior;
 
   /// @brief Field m_CursorLockBehavior, offset 0xc8, size 0x4
-  __declspec(property(get = __get_m_CursorLockBehavior, put = __set_m_CursorLockBehavior))::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior m_CursorLockBehavior;
+  __declspec(property(get = __cordl_internal_get_m_CursorLockBehavior,
+                      put = __cordl_internal_set_m_CursorLockBehavior))::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior m_CursorLockBehavior;
 
   /// @brief Field m_ActionsHooked, offset 0xcc, size 0x1
-  __declspec(property(get = __get_m_ActionsHooked, put = __set_m_ActionsHooked)) bool m_ActionsHooked;
+  __declspec(property(get = __cordl_internal_get_m_ActionsHooked, put = __cordl_internal_set_m_ActionsHooked)) bool m_ActionsHooked;
 
   /// @brief Field m_NeedToPurgeStalePointers, offset 0xcd, size 0x1
-  __declspec(property(get = __get_m_NeedToPurgeStalePointers, put = __set_m_NeedToPurgeStalePointers)) bool m_NeedToPurgeStalePointers;
+  __declspec(property(get = __cordl_internal_get_m_NeedToPurgeStalePointers, put = __cordl_internal_set_m_NeedToPurgeStalePointers)) bool m_NeedToPurgeStalePointers;
 
   /// @brief Field m_OnPointDelegate, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_OnPointDelegate, put = __set_m_OnPointDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnPointDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnPointDelegate,
+                      put = __cordl_internal_set_m_OnPointDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnPointDelegate;
 
   /// @brief Field m_OnMoveDelegate, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_OnMoveDelegate, put = __set_m_OnMoveDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnMoveDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnMoveDelegate,
+                      put = __cordl_internal_set_m_OnMoveDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnMoveDelegate;
 
   /// @brief Field m_OnLeftClickDelegate, offset 0xe0, size 0x8
-  __declspec(property(get = __get_m_OnLeftClickDelegate, put = __set_m_OnLeftClickDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnLeftClickDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnLeftClickDelegate,
+                      put = __cordl_internal_set_m_OnLeftClickDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnLeftClickDelegate;
 
   /// @brief Field m_OnRightClickDelegate, offset 0xe8, size 0x8
-  __declspec(property(get = __get_m_OnRightClickDelegate, put = __set_m_OnRightClickDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnRightClickDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnRightClickDelegate,
+                      put = __cordl_internal_set_m_OnRightClickDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnRightClickDelegate;
 
   /// @brief Field m_OnMiddleClickDelegate, offset 0xf0, size 0x8
-  __declspec(property(get = __get_m_OnMiddleClickDelegate, put = __set_m_OnMiddleClickDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnMiddleClickDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnMiddleClickDelegate,
+                      put = __cordl_internal_set_m_OnMiddleClickDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnMiddleClickDelegate;
 
   /// @brief Field m_OnScrollWheelDelegate, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_OnScrollWheelDelegate, put = __set_m_OnScrollWheelDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnScrollWheelDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnScrollWheelDelegate,
+                      put = __cordl_internal_set_m_OnScrollWheelDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnScrollWheelDelegate;
 
   /// @brief Field m_OnTrackedDevicePositionDelegate, offset 0x100, size 0x8
-  __declspec(property(get = __get_m_OnTrackedDevicePositionDelegate,
-                      put = __set_m_OnTrackedDevicePositionDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnTrackedDevicePositionDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnTrackedDevicePositionDelegate,
+                      put = __cordl_internal_set_m_OnTrackedDevicePositionDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnTrackedDevicePositionDelegate;
 
   /// @brief Field m_OnTrackedDeviceOrientationDelegate, offset 0x108, size 0x8
-  __declspec(property(get = __get_m_OnTrackedDeviceOrientationDelegate,
-                      put = __set_m_OnTrackedDeviceOrientationDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnTrackedDeviceOrientationDelegate;
+  __declspec(
+      property(get = __cordl_internal_get_m_OnTrackedDeviceOrientationDelegate,
+               put = __cordl_internal_set_m_OnTrackedDeviceOrientationDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_OnTrackedDeviceOrientationDelegate;
 
   /// @brief Field m_OnControlsChangedDelegate, offset 0x110, size 0x8
-  __declspec(property(get = __get_m_OnControlsChangedDelegate, put = __set_m_OnControlsChangedDelegate))::System::Action_1<::System::Object*>* m_OnControlsChangedDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnControlsChangedDelegate,
+                      put = __cordl_internal_set_m_OnControlsChangedDelegate))::System::Action_1<::System::Object*>* m_OnControlsChangedDelegate;
 
   /// @brief Field m_CurrentPointerId, offset 0x118, size 0x4
-  __declspec(property(get = __get_m_CurrentPointerId, put = __set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
+  __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
   /// @brief Field m_CurrentPointerIndex, offset 0x11c, size 0x4
-  __declspec(property(get = __get_m_CurrentPointerIndex, put = __set_m_CurrentPointerIndex)) int32_t m_CurrentPointerIndex;
+  __declspec(property(get = __cordl_internal_get_m_CurrentPointerIndex, put = __cordl_internal_set_m_CurrentPointerIndex)) int32_t m_CurrentPointerIndex;
 
   /// @brief Field m_CurrentPointerType, offset 0x120, size 0x4
-  __declspec(property(get = __get_m_CurrentPointerType, put = __set_m_CurrentPointerType))::UnityEngine::InputSystem::UI::UIPointerType m_CurrentPointerType;
+  __declspec(property(get = __cordl_internal_get_m_CurrentPointerType, put = __cordl_internal_set_m_CurrentPointerType))::UnityEngine::InputSystem::UI::UIPointerType m_CurrentPointerType;
 
   /// @brief Field m_PointerIds, offset 0x128, size 0x10
-  __declspec(property(get = __get_m_PointerIds, put = __set_m_PointerIds))::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> m_PointerIds;
+  __declspec(property(get = __cordl_internal_get_m_PointerIds, put = __cordl_internal_set_m_PointerIds))::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> m_PointerIds;
 
   /// @brief Field m_PointerTouchControls, offset 0x138, size 0x18
-  __declspec(property(get = __get_m_PointerTouchControls,
-                      put = __set_m_PointerTouchControls))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> m_PointerTouchControls;
+  __declspec(property(get = __cordl_internal_get_m_PointerTouchControls,
+                      put = __cordl_internal_set_m_PointerTouchControls))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> m_PointerTouchControls;
 
   /// @brief Field m_PointerStates, offset 0x150, size 0x218
-  __declspec(property(get = __get_m_PointerStates, put = __set_m_PointerStates))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> m_PointerStates;
+  __declspec(property(get = __cordl_internal_get_m_PointerStates,
+                      put = __cordl_internal_set_m_PointerStates))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> m_PointerStates;
 
   /// @brief Field m_NavigationState, offset 0x368, size 0x20
-  __declspec(property(get = __get_m_NavigationState, put = __set_m_NavigationState))::UnityEngine::InputSystem::UI::NavigationModel m_NavigationState;
+  __declspec(property(get = __cordl_internal_get_m_NavigationState, put = __cordl_internal_set_m_NavigationState))::UnityEngine::InputSystem::UI::NavigationModel m_NavigationState;
 
   /// @brief Field m_LocalMultiPlayerRoot, offset 0x388, size 0x8
-  __declspec(property(get = __get_m_LocalMultiPlayerRoot, put = __set_m_LocalMultiPlayerRoot))::UnityEngine::GameObject* m_LocalMultiPlayerRoot;
+  __declspec(property(get = __cordl_internal_get_m_LocalMultiPlayerRoot, put = __cordl_internal_set_m_LocalMultiPlayerRoot))::UnityW<::UnityEngine::GameObject> m_LocalMultiPlayerRoot;
 
   /// @brief Field s_InputActionReferenceCounts, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_InputActionReferenceCounts, put = setStaticF_s_InputActionReferenceCounts))::System::Collections::Generic::Dictionary_2<
@@ -321,7 +334,7 @@ public:
 
   __declspec(property(get = get_cursorLockBehavior, put = set_cursorLockBehavior))::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior cursorLockBehavior;
 
-  __declspec(property(get = get_localMultiPlayerRoot, put = set_localMultiPlayerRoot))::UnityEngine::GameObject* localMultiPlayerRoot;
+  __declspec(property(get = get_localMultiPlayerRoot, put = set_localMultiPlayerRoot))::UnityW<::UnityEngine::GameObject> localMultiPlayerRoot;
 
   __declspec(property(get = get_moveRepeatDelay, put = set_moveRepeatDelay)) float_t moveRepeatDelay;
 
@@ -335,255 +348,256 @@ public:
 
   __declspec(property(get = get_repeatDelay, put = set_repeatDelay)) float_t repeatDelay;
 
-  __declspec(property(get = get_xrTrackingOrigin, put = set_xrTrackingOrigin))::UnityEngine::Transform* xrTrackingOrigin;
+  __declspec(property(get = get_xrTrackingOrigin, put = set_xrTrackingOrigin))::UnityW<::UnityEngine::Transform> xrTrackingOrigin;
 
   __declspec(property(get = get_trackedDeviceDragThresholdMultiplier, put = set_trackedDeviceDragThresholdMultiplier)) float_t trackedDeviceDragThresholdMultiplier;
 
-  __declspec(property(get = get_point, put = set_point))::UnityEngine::InputSystem::InputActionReference* point;
+  __declspec(property(get = get_point, put = set_point))::UnityW<::UnityEngine::InputSystem::InputActionReference> point;
 
-  __declspec(property(get = get_scrollWheel, put = set_scrollWheel))::UnityEngine::InputSystem::InputActionReference* scrollWheel;
+  __declspec(property(get = get_scrollWheel, put = set_scrollWheel))::UnityW<::UnityEngine::InputSystem::InputActionReference> scrollWheel;
 
-  __declspec(property(get = get_leftClick, put = set_leftClick))::UnityEngine::InputSystem::InputActionReference* leftClick;
+  __declspec(property(get = get_leftClick, put = set_leftClick))::UnityW<::UnityEngine::InputSystem::InputActionReference> leftClick;
 
-  __declspec(property(get = get_middleClick, put = set_middleClick))::UnityEngine::InputSystem::InputActionReference* middleClick;
+  __declspec(property(get = get_middleClick, put = set_middleClick))::UnityW<::UnityEngine::InputSystem::InputActionReference> middleClick;
 
-  __declspec(property(get = get_rightClick, put = set_rightClick))::UnityEngine::InputSystem::InputActionReference* rightClick;
+  __declspec(property(get = get_rightClick, put = set_rightClick))::UnityW<::UnityEngine::InputSystem::InputActionReference> rightClick;
 
-  __declspec(property(get = get_move, put = set_move))::UnityEngine::InputSystem::InputActionReference* move;
+  __declspec(property(get = get_move, put = set_move))::UnityW<::UnityEngine::InputSystem::InputActionReference> move;
 
-  __declspec(property(get = get_submit, put = set_submit))::UnityEngine::InputSystem::InputActionReference* submit;
+  __declspec(property(get = get_submit, put = set_submit))::UnityW<::UnityEngine::InputSystem::InputActionReference> submit;
 
-  __declspec(property(get = get_cancel, put = set_cancel))::UnityEngine::InputSystem::InputActionReference* cancel;
+  __declspec(property(get = get_cancel, put = set_cancel))::UnityW<::UnityEngine::InputSystem::InputActionReference> cancel;
 
-  __declspec(property(get = get_trackedDeviceOrientation, put = set_trackedDeviceOrientation))::UnityEngine::InputSystem::InputActionReference* trackedDeviceOrientation;
+  __declspec(property(get = get_trackedDeviceOrientation, put = set_trackedDeviceOrientation))::UnityW<::UnityEngine::InputSystem::InputActionReference> trackedDeviceOrientation;
 
-  __declspec(property(get = get_trackedDevicePosition, put = set_trackedDevicePosition))::UnityEngine::InputSystem::InputActionReference* trackedDevicePosition;
+  __declspec(property(get = get_trackedDevicePosition, put = set_trackedDevicePosition))::UnityW<::UnityEngine::InputSystem::InputActionReference> trackedDevicePosition;
 
-  __declspec(property(get = get_trackedDeviceSelect, put = set_trackedDeviceSelect))::UnityEngine::InputSystem::InputActionReference* trackedDeviceSelect;
+  __declspec(property(get = get_trackedDeviceSelect, put = set_trackedDeviceSelect))::UnityW<::UnityEngine::InputSystem::InputActionReference> trackedDeviceSelect;
 
-  __declspec(property(get = get_actionsAsset, put = set_actionsAsset))::UnityEngine::InputSystem::InputActionAsset* actionsAsset;
+  __declspec(property(get = get_actionsAsset, put = set_actionsAsset))::UnityW<::UnityEngine::InputSystem::InputActionAsset> actionsAsset;
 
-  constexpr float_t& __get_m_MoveRepeatDelay();
+  constexpr float_t& __cordl_internal_get_m_MoveRepeatDelay();
 
-  constexpr float_t const& __get_m_MoveRepeatDelay() const;
+  constexpr float_t const& __cordl_internal_get_m_MoveRepeatDelay() const;
 
-  constexpr void __set_m_MoveRepeatDelay(float_t value);
+  constexpr void __cordl_internal_set_m_MoveRepeatDelay(float_t value);
 
-  constexpr float_t& __get_m_MoveRepeatRate();
+  constexpr float_t& __cordl_internal_get_m_MoveRepeatRate();
 
-  constexpr float_t const& __get_m_MoveRepeatRate() const;
+  constexpr float_t const& __cordl_internal_get_m_MoveRepeatRate() const;
 
-  constexpr void __set_m_MoveRepeatRate(float_t value);
+  constexpr void __cordl_internal_set_m_MoveRepeatRate(float_t value);
 
-  constexpr float_t& __get_m_TrackedDeviceDragThresholdMultiplier();
+  constexpr float_t& __cordl_internal_get_m_TrackedDeviceDragThresholdMultiplier();
 
-  constexpr float_t const& __get_m_TrackedDeviceDragThresholdMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_m_TrackedDeviceDragThresholdMultiplier() const;
 
-  constexpr void __set_m_TrackedDeviceDragThresholdMultiplier(float_t value);
+  constexpr void __cordl_internal_set_m_TrackedDeviceDragThresholdMultiplier(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get_m_XRTrackingOrigin();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_XRTrackingOrigin();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_XRTrackingOrigin() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_XRTrackingOrigin() const;
 
-  constexpr void __set_m_XRTrackingOrigin(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_XRTrackingOrigin(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionAsset*& __get_m_ActionsAsset();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& __cordl_internal_get_m_ActionsAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionAsset*> const& __get_m_ActionsAsset() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& __cordl_internal_get_m_ActionsAsset() const;
 
-  constexpr void __set_m_ActionsAsset(::UnityEngine::InputSystem::InputActionAsset* value);
+  constexpr void __cordl_internal_set_m_ActionsAsset(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_PointAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_PointAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_PointAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_PointAction() const;
 
-  constexpr void __set_m_PointAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_PointAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_MoveAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_MoveAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_MoveAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_MoveAction() const;
 
-  constexpr void __set_m_MoveAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_MoveAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_SubmitAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_SubmitAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_SubmitAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_SubmitAction() const;
 
-  constexpr void __set_m_SubmitAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_SubmitAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_CancelAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_CancelAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_CancelAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_CancelAction() const;
 
-  constexpr void __set_m_CancelAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_CancelAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_LeftClickAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_LeftClickAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_LeftClickAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_LeftClickAction() const;
 
-  constexpr void __set_m_LeftClickAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_LeftClickAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_MiddleClickAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_MiddleClickAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_MiddleClickAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_MiddleClickAction() const;
 
-  constexpr void __set_m_MiddleClickAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_MiddleClickAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_RightClickAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_RightClickAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_RightClickAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_RightClickAction() const;
 
-  constexpr void __set_m_RightClickAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_RightClickAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_ScrollWheelAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_ScrollWheelAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_ScrollWheelAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_ScrollWheelAction() const;
 
-  constexpr void __set_m_ScrollWheelAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_ScrollWheelAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_TrackedDevicePositionAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_TrackedDevicePositionAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_TrackedDevicePositionAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_TrackedDevicePositionAction() const;
 
-  constexpr void __set_m_TrackedDevicePositionAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_TrackedDevicePositionAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get_m_TrackedDeviceOrientationAction();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get_m_TrackedDeviceOrientationAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get_m_TrackedDeviceOrientationAction() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get_m_TrackedDeviceOrientationAction() const;
 
-  constexpr void __set_m_TrackedDeviceOrientationAction(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set_m_TrackedDeviceOrientationAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr bool& __get_m_DeselectOnBackgroundClick();
+  constexpr bool& __cordl_internal_get_m_DeselectOnBackgroundClick();
 
-  constexpr bool const& __get_m_DeselectOnBackgroundClick() const;
+  constexpr bool const& __cordl_internal_get_m_DeselectOnBackgroundClick() const;
 
-  constexpr void __set_m_DeselectOnBackgroundClick(bool value);
+  constexpr void __cordl_internal_set_m_DeselectOnBackgroundClick(bool value);
 
-  constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior& __get_m_PointerBehavior();
+  constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior& __cordl_internal_get_m_PointerBehavior();
 
-  constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior const& __get_m_PointerBehavior() const;
+  constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior const& __cordl_internal_get_m_PointerBehavior() const;
 
-  constexpr void __set_m_PointerBehavior(::UnityEngine::InputSystem::UI::UIPointerBehavior value);
+  constexpr void __cordl_internal_set_m_PointerBehavior(::UnityEngine::InputSystem::UI::UIPointerBehavior value);
 
-  constexpr ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior& __get_m_CursorLockBehavior();
+  constexpr ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior& __cordl_internal_get_m_CursorLockBehavior();
 
-  constexpr ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior const& __get_m_CursorLockBehavior() const;
+  constexpr ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior const& __cordl_internal_get_m_CursorLockBehavior() const;
 
-  constexpr void __set_m_CursorLockBehavior(::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior value);
+  constexpr void __cordl_internal_set_m_CursorLockBehavior(::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior value);
 
-  constexpr bool& __get_m_ActionsHooked();
+  constexpr bool& __cordl_internal_get_m_ActionsHooked();
 
-  constexpr bool const& __get_m_ActionsHooked() const;
+  constexpr bool const& __cordl_internal_get_m_ActionsHooked() const;
 
-  constexpr void __set_m_ActionsHooked(bool value);
+  constexpr void __cordl_internal_set_m_ActionsHooked(bool value);
 
-  constexpr bool& __get_m_NeedToPurgeStalePointers();
+  constexpr bool& __cordl_internal_get_m_NeedToPurgeStalePointers();
 
-  constexpr bool const& __get_m_NeedToPurgeStalePointers() const;
+  constexpr bool const& __cordl_internal_get_m_NeedToPurgeStalePointers() const;
 
-  constexpr void __set_m_NeedToPurgeStalePointers(bool value);
+  constexpr void __cordl_internal_set_m_NeedToPurgeStalePointers(bool value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnPointDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnPointDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnPointDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_OnPointDelegate() const;
 
-  constexpr void __set_m_OnPointDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnPointDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnMoveDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnMoveDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnMoveDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_OnMoveDelegate() const;
 
-  constexpr void __set_m_OnMoveDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnMoveDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnLeftClickDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnLeftClickDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnLeftClickDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_OnLeftClickDelegate() const;
 
-  constexpr void __set_m_OnLeftClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnLeftClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnRightClickDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnRightClickDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnRightClickDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_OnRightClickDelegate() const;
 
-  constexpr void __set_m_OnRightClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnRightClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnMiddleClickDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnMiddleClickDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnMiddleClickDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_OnMiddleClickDelegate() const;
 
-  constexpr void __set_m_OnMiddleClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnMiddleClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnScrollWheelDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnScrollWheelDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnScrollWheelDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_OnScrollWheelDelegate() const;
 
-  constexpr void __set_m_OnScrollWheelDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnScrollWheelDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnTrackedDevicePositionDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnTrackedDevicePositionDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnTrackedDevicePositionDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_OnTrackedDevicePositionDelegate() const;
 
-  constexpr void __set_m_OnTrackedDevicePositionDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnTrackedDevicePositionDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_OnTrackedDeviceOrientationDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_OnTrackedDeviceOrientationDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_OnTrackedDeviceOrientationDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
+  __cordl_internal_get_m_OnTrackedDeviceOrientationDelegate() const;
 
-  constexpr void __set_m_OnTrackedDeviceOrientationDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_OnTrackedDeviceOrientationDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_1<::System::Object*>*& __get_m_OnControlsChangedDelegate();
+  constexpr ::System::Action_1<::System::Object*>*& __cordl_internal_get_m_OnControlsChangedDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __get_m_OnControlsChangedDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __cordl_internal_get_m_OnControlsChangedDelegate() const;
 
-  constexpr void __set_m_OnControlsChangedDelegate(::System::Action_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_m_OnControlsChangedDelegate(::System::Action_1<::System::Object*>* value);
 
-  constexpr int32_t& __get_m_CurrentPointerId();
+  constexpr int32_t& __cordl_internal_get_m_CurrentPointerId();
 
-  constexpr int32_t const& __get_m_CurrentPointerId() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentPointerId() const;
 
-  constexpr void __set_m_CurrentPointerId(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
 
-  constexpr int32_t& __get_m_CurrentPointerIndex();
+  constexpr int32_t& __cordl_internal_get_m_CurrentPointerIndex();
 
-  constexpr int32_t const& __get_m_CurrentPointerIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentPointerIndex() const;
 
-  constexpr void __set_m_CurrentPointerIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentPointerIndex(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::UI::UIPointerType& __get_m_CurrentPointerType();
+  constexpr ::UnityEngine::InputSystem::UI::UIPointerType& __cordl_internal_get_m_CurrentPointerType();
 
-  constexpr ::UnityEngine::InputSystem::UI::UIPointerType const& __get_m_CurrentPointerType() const;
+  constexpr ::UnityEngine::InputSystem::UI::UIPointerType const& __cordl_internal_get_m_CurrentPointerType() const;
 
-  constexpr void __set_m_CurrentPointerType(::UnityEngine::InputSystem::UI::UIPointerType value);
+  constexpr void __cordl_internal_set_m_CurrentPointerType(::UnityEngine::InputSystem::UI::UIPointerType value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t>& __get_m_PointerIds();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t>& __cordl_internal_get_m_PointerIds();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> const& __get_m_PointerIds() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> const& __cordl_internal_get_m_PointerIds() const;
 
-  constexpr void __set_m_PointerIds(::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> value);
+  constexpr void __cordl_internal_set_m_PointerIds(::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*>& __get_m_PointerTouchControls();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*>& __cordl_internal_get_m_PointerTouchControls();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> const& __get_m_PointerTouchControls() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> const& __cordl_internal_get_m_PointerTouchControls() const;
 
-  constexpr void __set_m_PointerTouchControls(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> value);
+  constexpr void __cordl_internal_set_m_PointerTouchControls(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel>& __get_m_PointerStates();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel>& __cordl_internal_get_m_PointerStates();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> const& __get_m_PointerStates() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> const& __cordl_internal_get_m_PointerStates() const;
 
-  constexpr void __set_m_PointerStates(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> value);
+  constexpr void __cordl_internal_set_m_PointerStates(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> value);
 
-  constexpr ::UnityEngine::InputSystem::UI::NavigationModel& __get_m_NavigationState();
+  constexpr ::UnityEngine::InputSystem::UI::NavigationModel& __cordl_internal_get_m_NavigationState();
 
-  constexpr ::UnityEngine::InputSystem::UI::NavigationModel const& __get_m_NavigationState() const;
+  constexpr ::UnityEngine::InputSystem::UI::NavigationModel const& __cordl_internal_get_m_NavigationState() const;
 
-  constexpr void __set_m_NavigationState(::UnityEngine::InputSystem::UI::NavigationModel value);
+  constexpr void __cordl_internal_set_m_NavigationState(::UnityEngine::InputSystem::UI::NavigationModel value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_LocalMultiPlayerRoot();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_LocalMultiPlayerRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_LocalMultiPlayerRoot() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_LocalMultiPlayerRoot() const;
 
-  constexpr void __set_m_LocalMultiPlayerRoot(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_LocalMultiPlayerRoot(::UnityW<::UnityEngine::GameObject> value);
 
   static inline void setStaticF_s_InputActionReferenceCounts(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__InputActionReferenceState>* value);
@@ -610,7 +624,7 @@ public:
   inline void set_cursorLockBehavior(::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior value);
 
   /// @brief Method get_localMultiPlayerRoot, addr 0x2ad023c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_localMultiPlayerRoot();
+  inline ::UnityW<::UnityEngine::GameObject> get_localMultiPlayerRoot();
 
   /// @brief Method set_localMultiPlayerRoot, addr 0x2ad0244, size 0x8, virtual false, abstract: false, final false
   inline void set_localMultiPlayerRoot(::UnityEngine::GameObject* value);
@@ -685,7 +699,7 @@ public:
   inline void set_repeatDelay(float_t value);
 
   /// @brief Method get_xrTrackingOrigin, addr 0x2ad3170, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_xrTrackingOrigin();
+  inline ::UnityW<::UnityEngine::Transform> get_xrTrackingOrigin();
 
   /// @brief Method set_xrTrackingOrigin, addr 0x2ad3178, size 0x8, virtual false, abstract: false, final false
   inline void set_xrTrackingOrigin(::UnityEngine::Transform* value);
@@ -701,61 +715,61 @@ public:
                          ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* actionCallback);
 
   /// @brief Method get_point, addr 0x2ad3728, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_point();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_point();
 
   /// @brief Method set_point, addr 0x2ad3730, size 0x18, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_scrollWheel, addr 0x2ad3748, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_scrollWheel();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_scrollWheel();
 
   /// @brief Method set_scrollWheel, addr 0x2ad3750, size 0x18, virtual false, abstract: false, final false
   inline void set_scrollWheel(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_leftClick, addr 0x2ad3768, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_leftClick();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_leftClick();
 
   /// @brief Method set_leftClick, addr 0x2ad3770, size 0x18, virtual false, abstract: false, final false
   inline void set_leftClick(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_middleClick, addr 0x2ad3788, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_middleClick();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_middleClick();
 
   /// @brief Method set_middleClick, addr 0x2ad3790, size 0x18, virtual false, abstract: false, final false
   inline void set_middleClick(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_rightClick, addr 0x2ad37a8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_rightClick();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_rightClick();
 
   /// @brief Method set_rightClick, addr 0x2ad37b0, size 0x18, virtual false, abstract: false, final false
   inline void set_rightClick(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_move, addr 0x2ad37c8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_move();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_move();
 
   /// @brief Method set_move, addr 0x2ad37d0, size 0x18, virtual false, abstract: false, final false
   inline void set_move(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_submit, addr 0x2ad37e8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_submit();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_submit();
 
   /// @brief Method set_submit, addr 0x2ad37f0, size 0x18, virtual false, abstract: false, final false
   inline void set_submit(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_cancel, addr 0x2ad3808, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_cancel();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_cancel();
 
   /// @brief Method set_cancel, addr 0x2ad3810, size 0x18, virtual false, abstract: false, final false
   inline void set_cancel(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_trackedDeviceOrientation, addr 0x2ad3828, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_trackedDeviceOrientation();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_trackedDeviceOrientation();
 
   /// @brief Method set_trackedDeviceOrientation, addr 0x2ad3830, size 0x18, virtual false, abstract: false, final false
   inline void set_trackedDeviceOrientation(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_trackedDevicePosition, addr 0x2ad3848, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_trackedDevicePosition();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_trackedDevicePosition();
 
   /// @brief Method set_trackedDevicePosition, addr 0x2ad3850, size 0x18, virtual false, abstract: false, final false
   inline void set_trackedDevicePosition(::UnityEngine::InputSystem::InputActionReference* value);
@@ -767,7 +781,7 @@ public:
   inline void UnassignActions();
 
   /// @brief Method get_trackedDeviceSelect, addr 0x2ad3e68, size 0x40, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_trackedDeviceSelect();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_trackedDeviceSelect();
 
   /// @brief Method set_trackedDeviceSelect, addr 0x2ad3ea8, size 0x40, virtual false, abstract: false, final false
   inline void set_trackedDeviceSelect(::UnityEngine::InputSystem::InputActionReference* value);
@@ -883,10 +897,10 @@ public:
                                        bool install);
 
   /// @brief Method UpdateReferenceForNewAsset, addr 0x2ad63c8, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* UpdateReferenceForNewAsset(::UnityEngine::InputSystem::InputActionReference* actionReference);
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> UpdateReferenceForNewAsset(::UnityEngine::InputSystem::InputActionReference* actionReference);
 
   /// @brief Method get_actionsAsset, addr 0x2ad6450, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionAsset* get_actionsAsset();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_actionsAsset();
 
   /// @brief Method set_actionsAsset, addr 0x2ad3b34, size 0x230, virtual false, abstract: false, final false
   inline void set_actionsAsset(::UnityEngine::InputSystem::InputActionAsset* value);
@@ -920,40 +934,40 @@ public:
   float_t ___m_TrackedDeviceDragThresholdMultiplier;
 
   /// @brief Field m_XRTrackingOrigin, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_XRTrackingOrigin;
+  ::UnityW<::UnityEngine::Transform> ___m_XRTrackingOrigin;
 
   /// @brief Field m_ActionsAsset, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionAsset* ___m_ActionsAsset;
+  ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ___m_ActionsAsset;
 
   /// @brief Field m_PointAction, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_PointAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_PointAction;
 
   /// @brief Field m_MoveAction, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_MoveAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_MoveAction;
 
   /// @brief Field m_SubmitAction, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_SubmitAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_SubmitAction;
 
   /// @brief Field m_CancelAction, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_CancelAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_CancelAction;
 
   /// @brief Field m_LeftClickAction, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_LeftClickAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_LeftClickAction;
 
   /// @brief Field m_MiddleClickAction, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_MiddleClickAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_MiddleClickAction;
 
   /// @brief Field m_RightClickAction, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_RightClickAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_RightClickAction;
 
   /// @brief Field m_ScrollWheelAction, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_ScrollWheelAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_ScrollWheelAction;
 
   /// @brief Field m_TrackedDevicePositionAction, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_TrackedDevicePositionAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_TrackedDevicePositionAction;
 
   /// @brief Field m_TrackedDeviceOrientationAction, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ___m_TrackedDeviceOrientationAction;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_TrackedDeviceOrientationAction;
 
   /// @brief Field m_DeselectOnBackgroundClick, offset: 0xc0, size: 0x1, def value: None
   bool ___m_DeselectOnBackgroundClick;
@@ -1019,7 +1033,7 @@ public:
   ::UnityEngine::InputSystem::UI::NavigationModel ___m_NavigationState;
 
   /// @brief Field m_LocalMultiPlayerRoot, offset: 0x388, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_LocalMultiPlayerRoot;
+  ::UnityW<::UnityEngine::GameObject> ___m_LocalMultiPlayerRoot;
 
   /// @brief Field kClickSpeed offset 0xffffffff size 0x4
   static constexpr float_t kClickSpeed{ 0.3 };

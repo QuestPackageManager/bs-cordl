@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVROnCompleteListener);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14912))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7653))
 // CS Name: ::OVROnCompleteListener*
 class CORDL_TYPE OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {

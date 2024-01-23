@@ -11,7 +11,7 @@ template <typename T> inline ::System::Buffers::ArrayPool_1<T>* System::Buffers:
 }
 template <typename T> inline ::System::Buffers::ArrayPool_1<T>* System::Buffers::ArrayPool_1<T>::get_Shared() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPool_1<T>*>::get(), "get_Shared",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Buffers::ArrayPool_1<T>*, false>(nullptr, ___internal_method);
 }
 template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Buffers::ArrayPool_1<T>::Rent(int32_t minimumLength) {
@@ -26,11 +26,11 @@ template <typename T> inline void System::Buffers::ArrayPool_1<T>::Return(::Arra
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, clearArray);
 }
 template <typename T> inline ::System::Buffers::ArrayPool_1<T>* System::Buffers::ArrayPool_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Buffers::ArrayPool_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::ArrayPool_1<T>*>());
 }
 template <typename T> inline void System::Buffers::ArrayPool_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPool_1<T>*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

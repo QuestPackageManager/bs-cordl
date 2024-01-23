@@ -27,31 +27,31 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SafeSerializationEventArgs);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(3235))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3225))
 // CS Name: ::System.Runtime.Serialization::SafeSerializationEventArgs*
 class CORDL_TYPE SafeSerializationEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field m_streamingContext, offset 0x10, size 0x10
-  __declspec(property(get = __get_m_streamingContext, put = __set_m_streamingContext))::System::Runtime::Serialization::StreamingContext m_streamingContext;
+  __declspec(property(get = __cordl_internal_get_m_streamingContext, put = __cordl_internal_set_m_streamingContext))::System::Runtime::Serialization::StreamingContext m_streamingContext;
 
   /// @brief Field m_serializedStates, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_serializedStates, put = __set_m_serializedStates))::System::Collections::Generic::List_1<::System::Object*>* m_serializedStates;
+  __declspec(property(get = __cordl_internal_get_m_serializedStates, put = __cordl_internal_set_m_serializedStates))::System::Collections::Generic::List_1<::System::Object*>* m_serializedStates;
 
   __declspec(property(get = get_SerializedStates))::System::Collections::Generic::IList_1<::System::Object*>* SerializedStates;
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __get_m_streamingContext();
+  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_m_streamingContext();
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __get_m_streamingContext() const;
+  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_streamingContext() const;
 
-  constexpr void __set_m_streamingContext(::System::Runtime::Serialization::StreamingContext value);
+  constexpr void __cordl_internal_set_m_streamingContext(::System::Runtime::Serialization::StreamingContext value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get_m_serializedStates();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get_m_serializedStates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get_m_serializedStates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get_m_serializedStates() const;
 
-  constexpr void __set_m_serializedStates(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_m_serializedStates(::System::Collections::Generic::List_1<::System::Object*>* value);
 
   static inline ::System::Runtime::Serialization::SafeSerializationEventArgs* New_ctor(::System::Runtime::Serialization::StreamingContext streamingContext);
 

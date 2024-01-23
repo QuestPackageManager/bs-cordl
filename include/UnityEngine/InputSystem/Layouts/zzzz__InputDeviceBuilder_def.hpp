@@ -59,7 +59,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstanc
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6617))
 // CS Name: ::InputDeviceBuilder::RefInstance
 #pragma pack(push, 0)
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layout
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6618))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceBuilder
 struct CORDL_TYPE InputDeviceBuilder {

@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEnvironmentHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4299))
 // CS Name: ::BeatmapEnvironmentHelper*
 class CORDL_TYPE BeatmapEnvironmentHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Method GetEnvironmentInfo, addr 0x2338350, size 0x4b4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfo(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+  static inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfo(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEnvironmentHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -35,130 +35,133 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilterViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5714))
 // CS Name: ::GameServersFilterViewController*
 class CORDL_TYPE GameServersFilterViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _filterByDifficultyToggle, offset 0x70, size 0x8
-  __declspec(property(get = __get__filterByDifficultyToggle, put = __set__filterByDifficultyToggle))::UnityEngine::UI::Toggle* _filterByDifficultyToggle;
+  __declspec(property(get = __cordl_internal_get__filterByDifficultyToggle, put = __cordl_internal_set__filterByDifficultyToggle))::UnityW<::UnityEngine::UI::Toggle> _filterByDifficultyToggle;
 
   /// @brief Field _filterByDifficultyButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__filterByDifficultyButton, put = __set__filterByDifficultyButton))::UnityEngine::UI::Button* _filterByDifficultyButton;
+  __declspec(property(get = __cordl_internal_get__filterByDifficultyButton, put = __cordl_internal_set__filterByDifficultyButton))::UnityW<::UnityEngine::UI::Button> _filterByDifficultyButton;
 
   /// @brief Field _beatmapDifficultyDropdown, offset 0x80, size 0x8
-  __declspec(property(get = __get__beatmapDifficultyDropdown, put = __set__beatmapDifficultyDropdown))::GlobalNamespace::BeatmapDifficultyDropdown* _beatmapDifficultyDropdown;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficultyDropdown,
+                      put = __cordl_internal_set__beatmapDifficultyDropdown))::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> _beatmapDifficultyDropdown;
 
   /// @brief Field _filterByModifiersToggle, offset 0x88, size 0x8
-  __declspec(property(get = __get__filterByModifiersToggle, put = __set__filterByModifiersToggle))::UnityEngine::UI::Toggle* _filterByModifiersToggle;
+  __declspec(property(get = __cordl_internal_get__filterByModifiersToggle, put = __cordl_internal_set__filterByModifiersToggle))::UnityW<::UnityEngine::UI::Toggle> _filterByModifiersToggle;
 
   /// @brief Field _filterByModifiersButton, offset 0x90, size 0x8
-  __declspec(property(get = __get__filterByModifiersButton, put = __set__filterByModifiersButton))::UnityEngine::UI::Button* _filterByModifiersButton;
+  __declspec(property(get = __cordl_internal_get__filterByModifiersButton, put = __cordl_internal_set__filterByModifiersButton))::UnityW<::UnityEngine::UI::Button> _filterByModifiersButton;
 
   /// @brief Field _gameplayModifiersDropdown, offset 0x98, size 0x8
-  __declspec(property(get = __get__gameplayModifiersDropdown, put = __set__gameplayModifiersDropdown))::GlobalNamespace::GameplayModifiersDropdown* _gameplayModifiersDropdown;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersDropdown,
+                      put = __cordl_internal_set__gameplayModifiersDropdown))::UnityW<::GlobalNamespace::GameplayModifiersDropdown> _gameplayModifiersDropdown;
 
   /// @brief Field _filterBySongsToggle, offset 0xa0, size 0x8
-  __declspec(property(get = __get__filterBySongsToggle, put = __set__filterBySongsToggle))::UnityEngine::UI::Toggle* _filterBySongsToggle;
+  __declspec(property(get = __cordl_internal_get__filterBySongsToggle, put = __cordl_internal_set__filterBySongsToggle))::UnityW<::UnityEngine::UI::Toggle> _filterBySongsToggle;
 
   /// @brief Field _filterBySongsButton, offset 0xa8, size 0x8
-  __declspec(property(get = __get__filterBySongsButton, put = __set__filterBySongsButton))::UnityEngine::UI::Button* _filterBySongsButton;
+  __declspec(property(get = __cordl_internal_get__filterBySongsButton, put = __cordl_internal_set__filterBySongsButton))::UnityW<::UnityEngine::UI::Button> _filterBySongsButton;
 
   /// @brief Field _songPacksDropdown, offset 0xb0, size 0x8
-  __declspec(property(get = __get__songPacksDropdown, put = __set__songPacksDropdown))::GlobalNamespace::SongPacksDropdown* _songPacksDropdown;
+  __declspec(property(get = __cordl_internal_get__songPacksDropdown, put = __cordl_internal_set__songPacksDropdown))::UnityW<::GlobalNamespace::SongPacksDropdown> _songPacksDropdown;
 
   /// @brief Field _showFullToggle, offset 0xb8, size 0x8
-  __declspec(property(get = __get__showFullToggle, put = __set__showFullToggle))::UnityEngine::UI::Toggle* _showFullToggle;
+  __declspec(property(get = __cordl_internal_get__showFullToggle, put = __cordl_internal_set__showFullToggle))::UnityW<::UnityEngine::UI::Toggle> _showFullToggle;
 
   /// @brief Field _showPasswordProtectedToggle, offset 0xc0, size 0x8
-  __declspec(property(get = __get__showPasswordProtectedToggle, put = __set__showPasswordProtectedToggle))::UnityEngine::UI::Toggle* _showPasswordProtectedToggle;
+  __declspec(property(get = __cordl_internal_get__showPasswordProtectedToggle,
+                      put = __cordl_internal_set__showPasswordProtectedToggle))::UnityW<::UnityEngine::UI::Toggle> _showPasswordProtectedToggle;
 
   /// @brief Field _toggleBinder, offset 0xc8, size 0x8
-  __declspec(property(get = __get__toggleBinder, put = __set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field _showInternetGames, offset 0xd0, size 0x1
-  __declspec(property(get = __get__showInternetGames, put = __set__showInternetGames)) bool _showInternetGames;
+  __declspec(property(get = __cordl_internal_get__showInternetGames, put = __cordl_internal_set__showInternetGames)) bool _showInternetGames;
 
   __declspec(property(get = get_gameServersFilter))::GlobalNamespace::GameServersFilter* gameServersFilter;
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__filterByDifficultyToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterByDifficultyToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__filterByDifficultyToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterByDifficultyToggle() const;
 
-  constexpr void __set__filterByDifficultyToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__filterByDifficultyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__filterByDifficultyButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterByDifficultyButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__filterByDifficultyButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterByDifficultyButton() const;
 
-  constexpr void __set__filterByDifficultyButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__filterByDifficultyButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficultyDropdown*& __get__beatmapDifficultyDropdown();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown>& __cordl_internal_get__beatmapDifficultyDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDifficultyDropdown*> const& __get__beatmapDifficultyDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& __cordl_internal_get__beatmapDifficultyDropdown() const;
 
-  constexpr void __set__beatmapDifficultyDropdown(::GlobalNamespace::BeatmapDifficultyDropdown* value);
+  constexpr void __cordl_internal_set__beatmapDifficultyDropdown(::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__filterByModifiersToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterByModifiersToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__filterByModifiersToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterByModifiersToggle() const;
 
-  constexpr void __set__filterByModifiersToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__filterByModifiersToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__filterByModifiersButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterByModifiersButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__filterByModifiersButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterByModifiersButton() const;
 
-  constexpr void __set__filterByModifiersButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__filterByModifiersButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::GameplayModifiersDropdown*& __get__gameplayModifiersDropdown();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown>& __cordl_internal_get__gameplayModifiersDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersDropdown*> const& __get__gameplayModifiersDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown> const& __cordl_internal_get__gameplayModifiersDropdown() const;
 
-  constexpr void __set__gameplayModifiersDropdown(::GlobalNamespace::GameplayModifiersDropdown* value);
+  constexpr void __cordl_internal_set__gameplayModifiersDropdown(::UnityW<::GlobalNamespace::GameplayModifiersDropdown> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__filterBySongsToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterBySongsToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__filterBySongsToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterBySongsToggle() const;
 
-  constexpr void __set__filterBySongsToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__filterBySongsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__filterBySongsButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterBySongsButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__filterBySongsButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterBySongsButton() const;
 
-  constexpr void __set__filterBySongsButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__filterBySongsButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::SongPacksDropdown*& __get__songPacksDropdown();
+  constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown>& __cordl_internal_get__songPacksDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPacksDropdown*> const& __get__songPacksDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown> const& __cordl_internal_get__songPacksDropdown() const;
 
-  constexpr void __set__songPacksDropdown(::GlobalNamespace::SongPacksDropdown* value);
+  constexpr void __cordl_internal_set__songPacksDropdown(::UnityW<::GlobalNamespace::SongPacksDropdown> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__showFullToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__showFullToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__showFullToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__showFullToggle() const;
 
-  constexpr void __set__showFullToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__showFullToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__showPasswordProtectedToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__showPasswordProtectedToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__showPasswordProtectedToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__showPasswordProtectedToggle() const;
 
-  constexpr void __set__showPasswordProtectedToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__showPasswordProtectedToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::HMUI::ToggleBinder*& __get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __get__toggleBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  constexpr bool& __get__showInternetGames();
+  constexpr bool& __cordl_internal_get__showInternetGames();
 
-  constexpr bool const& __get__showInternetGames() const;
+  constexpr bool const& __cordl_internal_get__showInternetGames() const;
 
-  constexpr void __set__showInternetGames(bool value);
+  constexpr void __cordl_internal_set__showInternetGames(bool value);
 
   /// @brief Method get_gameServersFilter, addr 0x22cd314, size 0x10c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
@@ -204,37 +207,37 @@ protected:
 
 public:
   /// @brief Field _filterByDifficultyToggle, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____filterByDifficultyToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____filterByDifficultyToggle;
 
   /// @brief Field _filterByDifficultyButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____filterByDifficultyButton;
+  ::UnityW<::UnityEngine::UI::Button> ____filterByDifficultyButton;
 
   /// @brief Field _beatmapDifficultyDropdown, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDifficultyDropdown* ____beatmapDifficultyDropdown;
+  ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> ____beatmapDifficultyDropdown;
 
   /// @brief Field _filterByModifiersToggle, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____filterByModifiersToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____filterByModifiersToggle;
 
   /// @brief Field _filterByModifiersButton, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____filterByModifiersButton;
+  ::UnityW<::UnityEngine::UI::Button> ____filterByModifiersButton;
 
   /// @brief Field _gameplayModifiersDropdown, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersDropdown* ____gameplayModifiersDropdown;
+  ::UnityW<::GlobalNamespace::GameplayModifiersDropdown> ____gameplayModifiersDropdown;
 
   /// @brief Field _filterBySongsToggle, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____filterBySongsToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____filterBySongsToggle;
 
   /// @brief Field _filterBySongsButton, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____filterBySongsButton;
+  ::UnityW<::UnityEngine::UI::Button> ____filterBySongsButton;
 
   /// @brief Field _songPacksDropdown, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::SongPacksDropdown* ____songPacksDropdown;
+  ::UnityW<::GlobalNamespace::SongPacksDropdown> ____songPacksDropdown;
 
   /// @brief Field _showFullToggle, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____showFullToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____showFullToggle;
 
   /// @brief Field _showPasswordProtectedToggle, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____showPasswordProtectedToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____showPasswordProtectedToggle;
 
   /// @brief Field _toggleBinder, offset: 0xc8, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;

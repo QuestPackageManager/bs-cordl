@@ -76,65 +76,65 @@ MARK_REF_PTR_T(::HMUI::__AnimatedSwitchView____c);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13614))
 // CS Name: ::AnimatedSwitchView::ColorBlock*
 class CORDL_TYPE __AnimatedSwitchView__ColorBlock : public ::System::Object {
 public:
   // Declarations
   /// @brief Field knobColor, offset 0x10, size 0x10
-  __declspec(property(get = __get_knobColor, put = __set_knobColor))::UnityEngine::Color knobColor;
+  __declspec(property(get = __cordl_internal_get_knobColor, put = __cordl_internal_set_knobColor))::UnityEngine::Color knobColor;
 
   /// @brief Field knobColor0, offset 0x20, size 0x10
-  __declspec(property(get = __get_knobColor0, put = __set_knobColor0))::UnityEngine::Color knobColor0;
+  __declspec(property(get = __cordl_internal_get_knobColor0, put = __cordl_internal_set_knobColor0))::UnityEngine::Color knobColor0;
 
   /// @brief Field knobColor1, offset 0x30, size 0x10
-  __declspec(property(get = __get_knobColor1, put = __set_knobColor1))::UnityEngine::Color knobColor1;
+  __declspec(property(get = __cordl_internal_get_knobColor1, put = __cordl_internal_set_knobColor1))::UnityEngine::Color knobColor1;
 
   /// @brief Field backgroundColor, offset 0x40, size 0x10
-  __declspec(property(get = __get_backgroundColor, put = __set_backgroundColor))::UnityEngine::Color backgroundColor;
+  __declspec(property(get = __cordl_internal_get_backgroundColor, put = __cordl_internal_set_backgroundColor))::UnityEngine::Color backgroundColor;
 
   /// @brief Field backgroundColor0, offset 0x50, size 0x10
-  __declspec(property(get = __get_backgroundColor0, put = __set_backgroundColor0))::UnityEngine::Color backgroundColor0;
+  __declspec(property(get = __cordl_internal_get_backgroundColor0, put = __cordl_internal_set_backgroundColor0))::UnityEngine::Color backgroundColor0;
 
   /// @brief Field backgroundColor1, offset 0x60, size 0x10
-  __declspec(property(get = __get_backgroundColor1, put = __set_backgroundColor1))::UnityEngine::Color backgroundColor1;
+  __declspec(property(get = __cordl_internal_get_backgroundColor1, put = __cordl_internal_set_backgroundColor1))::UnityEngine::Color backgroundColor1;
 
-  constexpr ::UnityEngine::Color& __get_knobColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_knobColor();
 
-  constexpr ::UnityEngine::Color const& __get_knobColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_knobColor() const;
 
-  constexpr void __set_knobColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_knobColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_knobColor0();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_knobColor0();
 
-  constexpr ::UnityEngine::Color const& __get_knobColor0() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_knobColor0() const;
 
-  constexpr void __set_knobColor0(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_knobColor0(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_knobColor1();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_knobColor1();
 
-  constexpr ::UnityEngine::Color const& __get_knobColor1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_knobColor1() const;
 
-  constexpr void __set_knobColor1(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_knobColor1(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_backgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_backgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get_backgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_backgroundColor() const;
 
-  constexpr void __set_backgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_backgroundColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_backgroundColor0();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_backgroundColor0();
 
-  constexpr ::UnityEngine::Color const& __get_backgroundColor0() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_backgroundColor0() const;
 
-  constexpr void __set_backgroundColor0(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_backgroundColor0(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_backgroundColor1();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_backgroundColor1();
 
-  constexpr ::UnityEngine::Color const& __get_backgroundColor1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_backgroundColor1() const;
 
-  constexpr void __set_backgroundColor1(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_backgroundColor1(::UnityEngine::Color value);
 
   static inline ::HMUI::__AnimatedSwitchView__ColorBlock* New_ctor();
 
@@ -195,7 +195,7 @@ static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___backgroundCo
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13615))
 // CS Name: ::AnimatedSwitchView::AnimationState
 struct CORDL_TYPE __AnimatedSwitchView__AnimationState {
@@ -265,7 +265,7 @@ static_assert(offsetof(::HMUI::__AnimatedSwitchView__AnimationState, value__) ==
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13616))
 // CS Name: ::AnimatedSwitchView::GetColorDelegate*
 class CORDL_TYPE __AnimatedSwitchView__GetColorDelegate : public ::System::MulticastDelegate {
@@ -309,7 +309,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView__GetC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13617))
 // CS Name: ::AnimatedSwitchView::<>c*
 class CORDL_TYPE __AnimatedSwitchView____c : public ::System::Object {
@@ -411,7 +411,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView____c,
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13615)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13615))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13618))
 // CS Name: ::HMUI::AnimatedSwitchView*
 class CORDL_TYPE AnimatedSwitchView : public ::UnityEngine::MonoBehaviour {
@@ -426,202 +426,202 @@ public:
   using ColorBlock = ::HMUI::__AnimatedSwitchView__ColorBlock;
 
   /// @brief Field _knobRectTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__knobRectTransform, put = __set__knobRectTransform))::UnityEngine::RectTransform* _knobRectTransform;
+  __declspec(property(get = __cordl_internal_get__knobRectTransform, put = __cordl_internal_set__knobRectTransform))::UnityW<::UnityEngine::RectTransform> _knobRectTransform;
 
   /// @brief Field _backgroundImage, offset 0x20, size 0x8
-  __declspec(property(get = __get__backgroundImage, put = __set__backgroundImage))::HMUI::ImageView* _backgroundImage;
+  __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage))::UnityW<::HMUI::ImageView> _backgroundImage;
 
   /// @brief Field _knobImage, offset 0x28, size 0x8
-  __declspec(property(get = __get__knobImage, put = __set__knobImage))::HMUI::ImageView* _knobImage;
+  __declspec(property(get = __cordl_internal_get__knobImage, put = __cordl_internal_set__knobImage))::UnityW<::HMUI::ImageView> _knobImage;
 
   /// @brief Field _onText, offset 0x30, size 0x8
-  __declspec(property(get = __get__onText, put = __set__onText))::TMPro::TextMeshProUGUI* _onText;
+  __declspec(property(get = __cordl_internal_get__onText, put = __cordl_internal_set__onText))::UnityW<::TMPro::TextMeshProUGUI> _onText;
 
   /// @brief Field _offText, offset 0x38, size 0x8
-  __declspec(property(get = __get__offText, put = __set__offText))::TMPro::TextMeshProUGUI* _offText;
+  __declspec(property(get = __cordl_internal_get__offText, put = __cordl_internal_set__offText))::UnityW<::TMPro::TextMeshProUGUI> _offText;
 
   /// @brief Field _switchAnimationSmooth, offset 0x40, size 0x4
-  __declspec(property(get = __get__switchAnimationSmooth, put = __set__switchAnimationSmooth)) float_t _switchAnimationSmooth;
+  __declspec(property(get = __cordl_internal_get__switchAnimationSmooth, put = __cordl_internal_set__switchAnimationSmooth)) float_t _switchAnimationSmooth;
 
   /// @brief Field _disableAnimationDuration, offset 0x44, size 0x4
-  __declspec(property(get = __get__disableAnimationDuration, put = __set__disableAnimationDuration)) float_t _disableAnimationDuration;
+  __declspec(property(get = __cordl_internal_get__disableAnimationDuration, put = __cordl_internal_set__disableAnimationDuration)) float_t _disableAnimationDuration;
 
   /// @brief Field _highlightAnimationDuration, offset 0x48, size 0x4
-  __declspec(property(get = __get__highlightAnimationDuration, put = __set__highlightAnimationDuration)) float_t _highlightAnimationDuration;
+  __declspec(property(get = __cordl_internal_get__highlightAnimationDuration, put = __cordl_internal_set__highlightAnimationDuration)) float_t _highlightAnimationDuration;
 
   /// @brief Field _horizontalStretchAmount, offset 0x4c, size 0x4
-  __declspec(property(get = __get__horizontalStretchAmount, put = __set__horizontalStretchAmount)) float_t _horizontalStretchAmount;
+  __declspec(property(get = __cordl_internal_get__horizontalStretchAmount, put = __cordl_internal_set__horizontalStretchAmount)) float_t _horizontalStretchAmount;
 
   /// @brief Field _verticalStretchAmount, offset 0x50, size 0x4
-  __declspec(property(get = __get__verticalStretchAmount, put = __set__verticalStretchAmount)) float_t _verticalStretchAmount;
+  __declspec(property(get = __cordl_internal_get__verticalStretchAmount, put = __cordl_internal_set__verticalStretchAmount)) float_t _verticalStretchAmount;
 
   /// @brief Field _onColors, offset 0x58, size 0x8
-  __declspec(property(get = __get__onColors, put = __set__onColors))::HMUI::__AnimatedSwitchView__ColorBlock* _onColors;
+  __declspec(property(get = __cordl_internal_get__onColors, put = __cordl_internal_set__onColors))::HMUI::__AnimatedSwitchView__ColorBlock* _onColors;
 
   /// @brief Field _offColors, offset 0x60, size 0x8
-  __declspec(property(get = __get__offColors, put = __set__offColors))::HMUI::__AnimatedSwitchView__ColorBlock* _offColors;
+  __declspec(property(get = __cordl_internal_get__offColors, put = __cordl_internal_set__offColors))::HMUI::__AnimatedSwitchView__ColorBlock* _offColors;
 
   /// @brief Field _onHighlightedColors, offset 0x68, size 0x8
-  __declspec(property(get = __get__onHighlightedColors, put = __set__onHighlightedColors))::HMUI::__AnimatedSwitchView__ColorBlock* _onHighlightedColors;
+  __declspec(property(get = __cordl_internal_get__onHighlightedColors, put = __cordl_internal_set__onHighlightedColors))::HMUI::__AnimatedSwitchView__ColorBlock* _onHighlightedColors;
 
   /// @brief Field _offHighlightedColors, offset 0x70, size 0x8
-  __declspec(property(get = __get__offHighlightedColors, put = __set__offHighlightedColors))::HMUI::__AnimatedSwitchView__ColorBlock* _offHighlightedColors;
+  __declspec(property(get = __cordl_internal_get__offHighlightedColors, put = __cordl_internal_set__offHighlightedColors))::HMUI::__AnimatedSwitchView__ColorBlock* _offHighlightedColors;
 
   /// @brief Field _disabledColors, offset 0x78, size 0x8
-  __declspec(property(get = __get__disabledColors, put = __set__disabledColors))::HMUI::__AnimatedSwitchView__ColorBlock* _disabledColors;
+  __declspec(property(get = __cordl_internal_get__disabledColors, put = __cordl_internal_set__disabledColors))::HMUI::__AnimatedSwitchView__ColorBlock* _disabledColors;
 
   /// @brief Field _animationState, offset 0x80, size 0x4
-  __declspec(property(get = __get__animationState, put = __set__animationState))::HMUI::__AnimatedSwitchView__AnimationState _animationState;
+  __declspec(property(get = __cordl_internal_get__animationState, put = __cordl_internal_set__animationState))::HMUI::__AnimatedSwitchView__AnimationState _animationState;
 
   /// @brief Field _switchAmount, offset 0x84, size 0x4
-  __declspec(property(get = __get__switchAmount, put = __set__switchAmount)) float_t _switchAmount;
+  __declspec(property(get = __cordl_internal_get__switchAmount, put = __cordl_internal_set__switchAmount)) float_t _switchAmount;
 
   /// @brief Field _highlightAmount, offset 0x88, size 0x4
-  __declspec(property(get = __get__highlightAmount, put = __set__highlightAmount)) float_t _highlightAmount;
+  __declspec(property(get = __cordl_internal_get__highlightAmount, put = __cordl_internal_set__highlightAmount)) float_t _highlightAmount;
 
   /// @brief Field _disabledAmount, offset 0x8c, size 0x4
-  __declspec(property(get = __get__disabledAmount, put = __set__disabledAmount)) float_t _disabledAmount;
+  __declspec(property(get = __cordl_internal_get__disabledAmount, put = __cordl_internal_set__disabledAmount)) float_t _disabledAmount;
 
   /// @brief Field _originalKnobWidth, offset 0x90, size 0x4
-  __declspec(property(get = __get__originalKnobWidth, put = __set__originalKnobWidth)) float_t _originalKnobWidth;
+  __declspec(property(get = __cordl_internal_get__originalKnobWidth, put = __cordl_internal_set__originalKnobWidth)) float_t _originalKnobWidth;
 
   /// @brief Field _originalKnobHeight, offset 0x94, size 0x4
-  __declspec(property(get = __get__originalKnobHeight, put = __set__originalKnobHeight)) float_t _originalKnobHeight;
+  __declspec(property(get = __cordl_internal_get__originalKnobHeight, put = __cordl_internal_set__originalKnobHeight)) float_t _originalKnobHeight;
 
   /// @brief Field _toggle, offset 0x98, size 0x8
-  __declspec(property(get = __get__toggle, put = __set__toggle))::HMUI::ToggleWithCallbacks* _toggle;
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::HMUI::ToggleWithCallbacks> _toggle;
 
-  constexpr ::UnityEngine::RectTransform*& __get__knobRectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__knobRectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__knobRectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__knobRectTransform() const;
 
-  constexpr void __set__knobRectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__knobRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::HMUI::ImageView*& __get__backgroundImage();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__backgroundImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__backgroundImage() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__backgroundImage() const;
 
-  constexpr void __set__backgroundImage(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__backgroundImage(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::HMUI::ImageView*& __get__knobImage();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__knobImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__knobImage() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__knobImage() const;
 
-  constexpr void __set__knobImage(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__knobImage(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__onText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__onText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__onText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__onText() const;
 
-  constexpr void __set__onText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__onText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__offText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__offText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__offText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__offText() const;
 
-  constexpr void __set__offText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__offText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr float_t& __get__switchAnimationSmooth();
+  constexpr float_t& __cordl_internal_get__switchAnimationSmooth();
 
-  constexpr float_t const& __get__switchAnimationSmooth() const;
+  constexpr float_t const& __cordl_internal_get__switchAnimationSmooth() const;
 
-  constexpr void __set__switchAnimationSmooth(float_t value);
+  constexpr void __cordl_internal_set__switchAnimationSmooth(float_t value);
 
-  constexpr float_t& __get__disableAnimationDuration();
+  constexpr float_t& __cordl_internal_get__disableAnimationDuration();
 
-  constexpr float_t const& __get__disableAnimationDuration() const;
+  constexpr float_t const& __cordl_internal_get__disableAnimationDuration() const;
 
-  constexpr void __set__disableAnimationDuration(float_t value);
+  constexpr void __cordl_internal_set__disableAnimationDuration(float_t value);
 
-  constexpr float_t& __get__highlightAnimationDuration();
+  constexpr float_t& __cordl_internal_get__highlightAnimationDuration();
 
-  constexpr float_t const& __get__highlightAnimationDuration() const;
+  constexpr float_t const& __cordl_internal_get__highlightAnimationDuration() const;
 
-  constexpr void __set__highlightAnimationDuration(float_t value);
+  constexpr void __cordl_internal_set__highlightAnimationDuration(float_t value);
 
-  constexpr float_t& __get__horizontalStretchAmount();
+  constexpr float_t& __cordl_internal_get__horizontalStretchAmount();
 
-  constexpr float_t const& __get__horizontalStretchAmount() const;
+  constexpr float_t const& __cordl_internal_get__horizontalStretchAmount() const;
 
-  constexpr void __set__horizontalStretchAmount(float_t value);
+  constexpr void __cordl_internal_set__horizontalStretchAmount(float_t value);
 
-  constexpr float_t& __get__verticalStretchAmount();
+  constexpr float_t& __cordl_internal_get__verticalStretchAmount();
 
-  constexpr float_t const& __get__verticalStretchAmount() const;
+  constexpr float_t const& __cordl_internal_get__verticalStretchAmount() const;
 
-  constexpr void __set__verticalStretchAmount(float_t value);
+  constexpr void __cordl_internal_set__verticalStretchAmount(float_t value);
 
-  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __get__onColors();
+  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __cordl_internal_get__onColors();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __get__onColors() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __cordl_internal_get__onColors() const;
 
-  constexpr void __set__onColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
+  constexpr void __cordl_internal_set__onColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
 
-  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __get__offColors();
+  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __cordl_internal_get__offColors();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __get__offColors() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __cordl_internal_get__offColors() const;
 
-  constexpr void __set__offColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
+  constexpr void __cordl_internal_set__offColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
 
-  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __get__onHighlightedColors();
+  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __cordl_internal_get__onHighlightedColors();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __get__onHighlightedColors() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __cordl_internal_get__onHighlightedColors() const;
 
-  constexpr void __set__onHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
+  constexpr void __cordl_internal_set__onHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
 
-  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __get__offHighlightedColors();
+  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __cordl_internal_get__offHighlightedColors();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __get__offHighlightedColors() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __cordl_internal_get__offHighlightedColors() const;
 
-  constexpr void __set__offHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
+  constexpr void __cordl_internal_set__offHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
 
-  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __get__disabledColors();
+  constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& __cordl_internal_get__disabledColors();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __get__disabledColors() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& __cordl_internal_get__disabledColors() const;
 
-  constexpr void __set__disabledColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
+  constexpr void __cordl_internal_set__disabledColors(::HMUI::__AnimatedSwitchView__ColorBlock* value);
 
-  constexpr ::HMUI::__AnimatedSwitchView__AnimationState& __get__animationState();
+  constexpr ::HMUI::__AnimatedSwitchView__AnimationState& __cordl_internal_get__animationState();
 
-  constexpr ::HMUI::__AnimatedSwitchView__AnimationState const& __get__animationState() const;
+  constexpr ::HMUI::__AnimatedSwitchView__AnimationState const& __cordl_internal_get__animationState() const;
 
-  constexpr void __set__animationState(::HMUI::__AnimatedSwitchView__AnimationState value);
+  constexpr void __cordl_internal_set__animationState(::HMUI::__AnimatedSwitchView__AnimationState value);
 
-  constexpr float_t& __get__switchAmount();
+  constexpr float_t& __cordl_internal_get__switchAmount();
 
-  constexpr float_t const& __get__switchAmount() const;
+  constexpr float_t const& __cordl_internal_get__switchAmount() const;
 
-  constexpr void __set__switchAmount(float_t value);
+  constexpr void __cordl_internal_set__switchAmount(float_t value);
 
-  constexpr float_t& __get__highlightAmount();
+  constexpr float_t& __cordl_internal_get__highlightAmount();
 
-  constexpr float_t const& __get__highlightAmount() const;
+  constexpr float_t const& __cordl_internal_get__highlightAmount() const;
 
-  constexpr void __set__highlightAmount(float_t value);
+  constexpr void __cordl_internal_set__highlightAmount(float_t value);
 
-  constexpr float_t& __get__disabledAmount();
+  constexpr float_t& __cordl_internal_get__disabledAmount();
 
-  constexpr float_t const& __get__disabledAmount() const;
+  constexpr float_t const& __cordl_internal_get__disabledAmount() const;
 
-  constexpr void __set__disabledAmount(float_t value);
+  constexpr void __cordl_internal_set__disabledAmount(float_t value);
 
-  constexpr float_t& __get__originalKnobWidth();
+  constexpr float_t& __cordl_internal_get__originalKnobWidth();
 
-  constexpr float_t const& __get__originalKnobWidth() const;
+  constexpr float_t const& __cordl_internal_get__originalKnobWidth() const;
 
-  constexpr void __set__originalKnobWidth(float_t value);
+  constexpr void __cordl_internal_set__originalKnobWidth(float_t value);
 
-  constexpr float_t& __get__originalKnobHeight();
+  constexpr float_t& __cordl_internal_get__originalKnobHeight();
 
-  constexpr float_t const& __get__originalKnobHeight() const;
+  constexpr float_t const& __cordl_internal_get__originalKnobHeight() const;
 
-  constexpr void __set__originalKnobHeight(float_t value);
+  constexpr void __cordl_internal_set__originalKnobHeight(float_t value);
 
-  constexpr ::HMUI::ToggleWithCallbacks*& __get__toggle();
+  constexpr ::UnityW<::HMUI::ToggleWithCallbacks>& __cordl_internal_get__toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleWithCallbacks*> const& __get__toggle() const;
+  constexpr ::UnityW<::HMUI::ToggleWithCallbacks> const& __cordl_internal_get__toggle() const;
 
-  constexpr void __set__toggle(::HMUI::ToggleWithCallbacks* value);
+  constexpr void __cordl_internal_set__toggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
 
   /// @brief Method Awake, addr 0x212f190, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
@@ -673,19 +673,19 @@ protected:
 
 public:
   /// @brief Field _knobRectTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____knobRectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____knobRectTransform;
 
   /// @brief Field _backgroundImage, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ImageView* ____backgroundImage;
+  ::UnityW<::HMUI::ImageView> ____backgroundImage;
 
   /// @brief Field _knobImage, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ImageView* ____knobImage;
+  ::UnityW<::HMUI::ImageView> ____knobImage;
 
   /// @brief Field _onText, offset: 0x30, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____onText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____onText;
 
   /// @brief Field _offText, offset: 0x38, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____offText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____offText;
 
   /// @brief Field _switchAnimationSmooth, offset: 0x40, size: 0x4, def value: None
   float_t ____switchAnimationSmooth;
@@ -736,7 +736,7 @@ public:
   float_t ____originalKnobHeight;
 
   /// @brief Field _toggle, offset: 0x98, size: 0x8, def value: None
-  ::HMUI::ToggleWithCallbacks* ____toggle;
+  ::UnityW<::HMUI::ToggleWithCallbacks> ____toggle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

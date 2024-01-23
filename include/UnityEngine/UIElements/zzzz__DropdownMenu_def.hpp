@@ -43,29 +43,29 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenu);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6949))
 // CS Name: ::UnityEngine.UIElements::DropdownMenu*
 class CORDL_TYPE DropdownMenu : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_MenuItems, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_MenuItems, put = __set_m_MenuItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
+  __declspec(property(get = __cordl_internal_get_m_MenuItems, put = __cordl_internal_set_m_MenuItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
 
   /// @brief Field m_DropdownMenuEventInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_DropdownMenuEventInfo, put = __set_m_DropdownMenuEventInfo))::UnityEngine::UIElements::DropdownMenuEventInfo* m_DropdownMenuEventInfo;
+  __declspec(property(get = __cordl_internal_get_m_DropdownMenuEventInfo, put = __cordl_internal_set_m_DropdownMenuEventInfo))::UnityEngine::UIElements::DropdownMenuEventInfo* m_DropdownMenuEventInfo;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*& __get_m_MenuItems();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*& __cordl_internal_get_m_MenuItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*> const& __get_m_MenuItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*> const& __cordl_internal_get_m_MenuItems() const;
 
-  constexpr void __set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
+  constexpr void __cordl_internal_set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
 
-  constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __get_m_DropdownMenuEventInfo();
+  constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __cordl_internal_get_m_DropdownMenuEventInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownMenuEventInfo*> const& __get_m_DropdownMenuEventInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownMenuEventInfo*> const& __cordl_internal_get_m_DropdownMenuEventInfo() const;
 
-  constexpr void __set_m_DropdownMenuEventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
+  constexpr void __cordl_internal_set_m_DropdownMenuEventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
   /// @brief Method MenuItems, addr 0x2e08604, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();

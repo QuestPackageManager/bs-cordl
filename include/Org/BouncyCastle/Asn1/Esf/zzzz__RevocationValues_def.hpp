@@ -36,40 +36,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::RevocationValues);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(154))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::RevocationValues*
 class CORDL_TYPE RevocationValues : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field crlVals, offset 0x10, size 0x8
-  __declspec(property(get = __get_crlVals, put = __set_crlVals))::Org::BouncyCastle::Asn1::Asn1Sequence* crlVals;
+  __declspec(property(get = __cordl_internal_get_crlVals, put = __cordl_internal_set_crlVals))::Org::BouncyCastle::Asn1::Asn1Sequence* crlVals;
 
   /// @brief Field ocspVals, offset 0x18, size 0x8
-  __declspec(property(get = __get_ocspVals, put = __set_ocspVals))::Org::BouncyCastle::Asn1::Asn1Sequence* ocspVals;
+  __declspec(property(get = __cordl_internal_get_ocspVals, put = __cordl_internal_set_ocspVals))::Org::BouncyCastle::Asn1::Asn1Sequence* ocspVals;
 
   /// @brief Field otherRevVals, offset 0x20, size 0x8
-  __declspec(property(get = __get_otherRevVals, put = __set_otherRevVals))::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals;
+  __declspec(property(get = __cordl_internal_get_otherRevVals, put = __cordl_internal_set_otherRevVals))::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals;
 
   __declspec(property(get = get_OtherRevVals))::Org::BouncyCastle::Asn1::Esf::OtherRevVals* OtherRevVals;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_crlVals();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crlVals();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_crlVals() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_crlVals() const;
 
-  constexpr void __set_crlVals(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_crlVals(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_ocspVals();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_ocspVals();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_ocspVals() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_ocspVals() const;
 
-  constexpr void __set_ocspVals(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_ocspVals(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*& __get_otherRevVals();
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*& __cordl_internal_get_otherRevVals();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherRevVals*> const& __get_otherRevVals() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherRevVals*> const& __cordl_internal_get_otherRevVals() const;
 
-  constexpr void __set_otherRevVals(::Org::BouncyCastle::Asn1::Esf::OtherRevVals* value);
+  constexpr void __cordl_internal_set_otherRevVals(::Org::BouncyCastle::Asn1::Esf::OtherRevVals* value);
 
   /// @brief Method GetInstance, addr 0xe96734, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* GetInstance(::System::Object* obj);

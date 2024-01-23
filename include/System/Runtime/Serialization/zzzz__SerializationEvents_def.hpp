@@ -32,49 +32,53 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationEvents);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3207))
 // CS Name: ::System.Runtime.Serialization::SerializationEvents*
 class CORDL_TYPE SerializationEvents : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _onSerializingMethods, offset 0x10, size 0x8
-  __declspec(property(get = __get__onSerializingMethods, put = __set__onSerializingMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onSerializingMethods;
+  __declspec(property(get = __cordl_internal_get__onSerializingMethods,
+                      put = __cordl_internal_set__onSerializingMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onSerializingMethods;
 
   /// @brief Field _onSerializedMethods, offset 0x18, size 0x8
-  __declspec(property(get = __get__onSerializedMethods, put = __set__onSerializedMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onSerializedMethods;
+  __declspec(property(get = __cordl_internal_get__onSerializedMethods,
+                      put = __cordl_internal_set__onSerializedMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onSerializedMethods;
 
   /// @brief Field _onDeserializingMethods, offset 0x20, size 0x8
-  __declspec(property(get = __get__onDeserializingMethods, put = __set__onDeserializingMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onDeserializingMethods;
+  __declspec(property(get = __cordl_internal_get__onDeserializingMethods,
+                      put = __cordl_internal_set__onDeserializingMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onDeserializingMethods;
 
   /// @brief Field _onDeserializedMethods, offset 0x28, size 0x8
-  __declspec(property(get = __get__onDeserializedMethods, put = __set__onDeserializedMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onDeserializedMethods;
+  __declspec(property(get = __cordl_internal_get__onDeserializedMethods,
+                      put = __cordl_internal_set__onDeserializedMethods))::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onDeserializedMethods;
 
   __declspec(property(get = get_HasOnSerializingEvents)) bool HasOnSerializingEvents;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __get__onSerializingMethods();
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onSerializingMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __get__onSerializingMethods() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onSerializingMethods() const;
 
-  constexpr void __set__onSerializingMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
+  constexpr void __cordl_internal_set__onSerializingMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __get__onSerializedMethods();
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onSerializedMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __get__onSerializedMethods() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onSerializedMethods() const;
 
-  constexpr void __set__onSerializedMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
+  constexpr void __cordl_internal_set__onSerializedMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __get__onDeserializingMethods();
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onDeserializingMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __get__onDeserializingMethods() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onDeserializingMethods() const;
 
-  constexpr void __set__onDeserializingMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
+  constexpr void __cordl_internal_set__onDeserializingMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __get__onDeserializedMethods();
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onDeserializedMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __get__onDeserializedMethods() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onDeserializedMethods() const;
 
-  constexpr void __set__onDeserializedMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
+  constexpr void __cordl_internal_set__onDeserializedMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
 
   static inline ::System::Runtime::Serialization::SerializationEvents* New_ctor(::System::Type* t);
 

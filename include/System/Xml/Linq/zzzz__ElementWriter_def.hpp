@@ -28,7 +28,7 @@ MARK_VAL_T(::System::Xml::Linq::ElementWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15448))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15448))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15446))
 // CS Name: ::System.Xml.Linq::ElementWriter
 struct CORDL_TYPE ElementWriter {

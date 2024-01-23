@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::System::Xml::ByteStack);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11410))
 // CS Name: ::System.Xml::ByteStack*
 class CORDL_TYPE ByteStack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field stack, offset 0x10, size 0x8
-  __declspec(property(get = __get_stack, put = __set_stack))::ArrayW<uint8_t, ::Array<uint8_t>*> stack;
+  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack))::ArrayW<uint8_t, ::Array<uint8_t>*> stack;
 
   /// @brief Field growthRate, offset 0x18, size 0x4
-  __declspec(property(get = __get_growthRate, put = __set_growthRate)) int32_t growthRate;
+  __declspec(property(get = __cordl_internal_get_growthRate, put = __cordl_internal_set_growthRate)) int32_t growthRate;
 
   /// @brief Field top, offset 0x1c, size 0x4
-  __declspec(property(get = __get_top, put = __set_top)) int32_t top;
+  __declspec(property(get = __cordl_internal_get_top, put = __cordl_internal_set_top)) int32_t top;
 
   /// @brief Field size, offset 0x20, size 0x4
-  __declspec(property(get = __get_size, put = __set_size)) int32_t size;
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_stack();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_stack();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_stack() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_stack() const;
 
-  constexpr void __set_stack(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_stack(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_growthRate();
+  constexpr int32_t& __cordl_internal_get_growthRate();
 
-  constexpr int32_t const& __get_growthRate() const;
+  constexpr int32_t const& __cordl_internal_get_growthRate() const;
 
-  constexpr void __set_growthRate(int32_t value);
+  constexpr void __cordl_internal_set_growthRate(int32_t value);
 
-  constexpr int32_t& __get_top();
+  constexpr int32_t& __cordl_internal_get_top();
 
-  constexpr int32_t const& __get_top() const;
+  constexpr int32_t const& __cordl_internal_get_top() const;
 
-  constexpr void __set_top(int32_t value);
+  constexpr void __cordl_internal_set_top(int32_t value);
 
-  constexpr int32_t& __get_size();
+  constexpr int32_t& __cordl_internal_get_size();
 
-  constexpr int32_t const& __get_size() const;
+  constexpr int32_t const& __cordl_internal_get_size() const;
 
-  constexpr void __set_size(int32_t value);
+  constexpr void __cordl_internal_set_size(int32_t value);
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 

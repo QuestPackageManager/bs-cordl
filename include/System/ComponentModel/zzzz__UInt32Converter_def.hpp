@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::ComponentModel::UInt32Converter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9407))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9463))
 // CS Name: ::System.ComponentModel::UInt32Converter*
 class CORDL_TYPE UInt32Converter : public ::System::ComponentModel::BaseNumberConverter {

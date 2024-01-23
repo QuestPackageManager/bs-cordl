@@ -75,62 +75,66 @@ MARK_REF_PTR_T(::Mono::Unity::UnityTlsContext);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8837)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(8837))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8810))
 // CS Name: ::Mono.Unity::UnityTlsContext*
 class CORDL_TYPE UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext {
 public:
   // Declarations
   /// @brief Field tlsContext, offset 0x58, size 0x8
-  __declspec(property(get = __get_tlsContext, put = __set_tlsContext))::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> tlsContext;
+  __declspec(property(get = __cordl_internal_get_tlsContext, put = __cordl_internal_set_tlsContext))::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> tlsContext;
 
   /// @brief Field requestedClientCertChain, offset 0x60, size 0x8
-  __declspec(property(get = __get_requestedClientCertChain, put = __set_requestedClientCertChain))::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> requestedClientCertChain;
+  __declspec(property(get = __cordl_internal_get_requestedClientCertChain,
+                      put = __cordl_internal_set_requestedClientCertChain))::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> requestedClientCertChain;
 
   /// @brief Field requestedClientKey, offset 0x68, size 0x8
-  __declspec(property(get = __get_requestedClientKey, put = __set_requestedClientKey))::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> requestedClientKey;
+  __declspec(property(get = __cordl_internal_get_requestedClientKey, put = __cordl_internal_set_requestedClientKey))::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> requestedClientKey;
 
   /// @brief Field readCallback, offset 0x70, size 0x8
-  __declspec(property(get = __get_readCallback, put = __set_readCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* readCallback;
+  __declspec(property(get = __cordl_internal_get_readCallback, put = __cordl_internal_set_readCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* readCallback;
 
   /// @brief Field writeCallback, offset 0x78, size 0x8
-  __declspec(property(get = __get_writeCallback, put = __set_writeCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* writeCallback;
+  __declspec(property(get = __cordl_internal_get_writeCallback, put = __cordl_internal_set_writeCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* writeCallback;
 
   /// @brief Field certificateCallback, offset 0x80, size 0x8
-  __declspec(property(get = __get_certificateCallback, put = __set_certificateCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* certificateCallback;
+  __declspec(property(get = __cordl_internal_get_certificateCallback,
+                      put = __cordl_internal_set_certificateCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* certificateCallback;
 
   /// @brief Field verifyCallback, offset 0x88, size 0x8
-  __declspec(property(get = __get_verifyCallback, put = __set_verifyCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* verifyCallback;
+  __declspec(property(get = __cordl_internal_get_verifyCallback, put = __cordl_internal_set_verifyCallback))::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* verifyCallback;
 
   /// @brief Field localClientCertificate, offset 0x90, size 0x8
-  __declspec(property(get = __get_localClientCertificate, put = __set_localClientCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate;
+  __declspec(property(get = __cordl_internal_get_localClientCertificate,
+                      put = __cordl_internal_set_localClientCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate;
 
   /// @brief Field remoteCertificate, offset 0x98, size 0x8
-  __declspec(property(get = __get_remoteCertificate, put = __set_remoteCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* remoteCertificate;
+  __declspec(property(get = __cordl_internal_get_remoteCertificate,
+                      put = __cordl_internal_set_remoteCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* remoteCertificate;
 
   /// @brief Field connectioninfo, offset 0xa0, size 0x8
-  __declspec(property(get = __get_connectioninfo, put = __set_connectioninfo))::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo;
+  __declspec(property(get = __cordl_internal_get_connectioninfo, put = __cordl_internal_set_connectioninfo))::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo;
 
   /// @brief Field isAuthenticated, offset 0xa8, size 0x1
-  __declspec(property(get = __get_isAuthenticated, put = __set_isAuthenticated)) bool isAuthenticated;
+  __declspec(property(get = __cordl_internal_get_isAuthenticated, put = __cordl_internal_set_isAuthenticated)) bool isAuthenticated;
 
   /// @brief Field hasContext, offset 0xa9, size 0x1
-  __declspec(property(get = __get_hasContext, put = __set_hasContext)) bool hasContext;
+  __declspec(property(get = __cordl_internal_get_hasContext, put = __cordl_internal_set_hasContext)) bool hasContext;
 
   /// @brief Field closedGraceful, offset 0xaa, size 0x1
-  __declspec(property(get = __get_closedGraceful, put = __set_closedGraceful)) bool closedGraceful;
+  __declspec(property(get = __cordl_internal_get_closedGraceful, put = __cordl_internal_set_closedGraceful)) bool closedGraceful;
 
   /// @brief Field writeBuffer, offset 0xb0, size 0x8
-  __declspec(property(get = __get_writeBuffer, put = __set_writeBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> writeBuffer;
+  __declspec(property(get = __cordl_internal_get_writeBuffer, put = __cordl_internal_set_writeBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> writeBuffer;
 
   /// @brief Field readBuffer, offset 0xb8, size 0x8
-  __declspec(property(get = __get_readBuffer, put = __set_readBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> readBuffer;
+  __declspec(property(get = __cordl_internal_get_readBuffer, put = __cordl_internal_set_readBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> readBuffer;
 
   /// @brief Field handle, offset 0xc0, size 0x8
-  __declspec(property(get = __get_handle, put = __set_handle))::System::Runtime::InteropServices::GCHandle handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle))::System::Runtime::InteropServices::GCHandle handle;
 
   /// @brief Field lastException, offset 0xc8, size 0x8
-  __declspec(property(get = __get_lastException, put = __set_lastException))::System::Exception* lastException;
+  __declspec(property(get = __cordl_internal_get_lastException, put = __cordl_internal_set_lastException))::System::Exception* lastException;
 
   __declspec(property(get = get_IsAuthenticated)) bool IsAuthenticated;
 
@@ -138,107 +142,107 @@ public:
 
   __declspec(property(get = get_RemoteCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* RemoteCertificate;
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>& __get_tlsContext();
+  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>& __cordl_internal_get_tlsContext();
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> const& __get_tlsContext() const;
+  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> const& __cordl_internal_get_tlsContext() const;
 
-  constexpr void __set_tlsContext(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> value);
+  constexpr void __cordl_internal_set_tlsContext(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> value);
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>& __get_requestedClientCertChain();
+  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>& __cordl_internal_get_requestedClientCertChain();
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> const& __get_requestedClientCertChain() const;
+  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> const& __cordl_internal_get_requestedClientCertChain() const;
 
-  constexpr void __set_requestedClientCertChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> value);
+  constexpr void __cordl_internal_set_requestedClientCertChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> value);
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>& __get_requestedClientKey();
+  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>& __cordl_internal_get_requestedClientKey();
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> const& __get_requestedClientKey() const;
+  constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> const& __cordl_internal_get_requestedClientKey() const;
 
-  constexpr void __set_requestedClientKey(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> value);
+  constexpr void __cordl_internal_set_requestedClientKey(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> value);
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*& __get_readCallback();
+  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*& __cordl_internal_get_readCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*> const& __get_readCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*> const& __cordl_internal_get_readCallback() const;
 
-  constexpr void __set_readCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* value);
+  constexpr void __cordl_internal_set_readCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* value);
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*& __get_writeCallback();
+  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*& __cordl_internal_get_writeCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*> const& __get_writeCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*> const& __cordl_internal_get_writeCallback() const;
 
-  constexpr void __set_writeCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* value);
+  constexpr void __cordl_internal_set_writeCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* value);
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*& __get_certificateCallback();
+  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*& __cordl_internal_get_certificateCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*> const& __get_certificateCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*> const& __cordl_internal_get_certificateCallback() const;
 
-  constexpr void __set_certificateCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* value);
+  constexpr void __cordl_internal_set_certificateCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* value);
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*& __get_verifyCallback();
+  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*& __cordl_internal_get_verifyCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*> const& __get_verifyCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*> const& __cordl_internal_get_verifyCallback() const;
 
-  constexpr void __set_verifyCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* value);
+  constexpr void __cordl_internal_set_verifyCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __get_localClientCertificate();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_localClientCertificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __get_localClientCertificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __cordl_internal_get_localClientCertificate() const;
 
-  constexpr void __set_localClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
+  constexpr void __cordl_internal_set_localClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __get_remoteCertificate();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_remoteCertificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __get_remoteCertificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __cordl_internal_get_remoteCertificate() const;
 
-  constexpr void __set_remoteCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
+  constexpr void __cordl_internal_set_remoteCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
 
-  constexpr ::Mono::Security::Interface::MonoTlsConnectionInfo*& __get_connectioninfo();
+  constexpr ::Mono::Security::Interface::MonoTlsConnectionInfo*& __cordl_internal_get_connectioninfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsConnectionInfo*> const& __get_connectioninfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsConnectionInfo*> const& __cordl_internal_get_connectioninfo() const;
 
-  constexpr void __set_connectioninfo(::Mono::Security::Interface::MonoTlsConnectionInfo* value);
+  constexpr void __cordl_internal_set_connectioninfo(::Mono::Security::Interface::MonoTlsConnectionInfo* value);
 
-  constexpr bool& __get_isAuthenticated();
+  constexpr bool& __cordl_internal_get_isAuthenticated();
 
-  constexpr bool const& __get_isAuthenticated() const;
+  constexpr bool const& __cordl_internal_get_isAuthenticated() const;
 
-  constexpr void __set_isAuthenticated(bool value);
+  constexpr void __cordl_internal_set_isAuthenticated(bool value);
 
-  constexpr bool& __get_hasContext();
+  constexpr bool& __cordl_internal_get_hasContext();
 
-  constexpr bool const& __get_hasContext() const;
+  constexpr bool const& __cordl_internal_get_hasContext() const;
 
-  constexpr void __set_hasContext(bool value);
+  constexpr void __cordl_internal_set_hasContext(bool value);
 
-  constexpr bool& __get_closedGraceful();
+  constexpr bool& __cordl_internal_get_closedGraceful();
 
-  constexpr bool const& __get_closedGraceful() const;
+  constexpr bool const& __cordl_internal_get_closedGraceful() const;
 
-  constexpr void __set_closedGraceful(bool value);
+  constexpr void __cordl_internal_set_closedGraceful(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_writeBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_writeBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_writeBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_writeBuffer() const;
 
-  constexpr void __set_writeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_writeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_readBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_readBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_readBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_readBuffer() const;
 
-  constexpr void __set_readBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_readBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get_handle();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_handle();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get_handle() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_handle() const;
 
-  constexpr void __set_handle(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set_handle(::System::Runtime::InteropServices::GCHandle value);
 
-  constexpr ::System::Exception*& __get_lastException();
+  constexpr ::System::Exception*& __cordl_internal_get_lastException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_lastException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_lastException() const;
 
-  constexpr void __set_lastException(::System::Exception* value);
+  constexpr void __cordl_internal_set_lastException(::System::Exception* value);
 
   static inline ::Mono::Unity::UnityTlsContext* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 

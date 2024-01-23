@@ -73,7 +73,7 @@ MARK_VAL_T(::System::IO::__StreamWriter___FlushAsyncInternal_d__74);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3357)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3357)), TypeDefinitionIndex(TypeDefinitionIndex(3395))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3576))
 // CS Name: ::StreamWriter::<DisposeAsyncCore>d__33
 struct CORDL_TYPE __StreamWriter___DisposeAsyncCore_d__33 {
@@ -134,8 +134,8 @@ static_assert(offsetof(::System::IO::__StreamWriter___DisposeAsyncCore_d__33, __
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3577)) CS Name: ::StreamWriter::<FlushAsyncInternal>d__74
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3577)) CS Name: ::StreamWriter::<FlushAsyncInternal>d__74
 struct CORDL_TYPE __StreamWriter___FlushAsyncInternal_d__74 {
 public:
   // Declarations
@@ -259,7 +259,7 @@ static_assert(offsetof(::System::IO::__StreamWriter___FlushAsyncInternal_d__74, 
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3586))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3578))
 // CS Name: ::System.IO::StreamWriter*
 class CORDL_TYPE StreamWriter : public ::System::IO::TextWriter {
@@ -270,37 +270,37 @@ public:
   using _DisposeAsyncCore_d__33 = ::System::IO::__StreamWriter___DisposeAsyncCore_d__33;
 
   /// @brief Field _stream, offset 0x30, size 0x8
-  __declspec(property(get = __get__stream, put = __set__stream))::System::IO::Stream* _stream;
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
 
   /// @brief Field _encoding, offset 0x38, size 0x8
-  __declspec(property(get = __get__encoding, put = __set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
   /// @brief Field _encoder, offset 0x40, size 0x8
-  __declspec(property(get = __get__encoder, put = __set__encoder))::System::Text::Encoder* _encoder;
+  __declspec(property(get = __cordl_internal_get__encoder, put = __cordl_internal_set__encoder))::System::Text::Encoder* _encoder;
 
   /// @brief Field _byteBuffer, offset 0x48, size 0x8
-  __declspec(property(get = __get__byteBuffer, put = __set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
+  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
 
   /// @brief Field _charBuffer, offset 0x50, size 0x8
-  __declspec(property(get = __get__charBuffer, put = __set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
+  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
 
   /// @brief Field _charPos, offset 0x58, size 0x4
-  __declspec(property(get = __get__charPos, put = __set__charPos)) int32_t _charPos;
+  __declspec(property(get = __cordl_internal_get__charPos, put = __cordl_internal_set__charPos)) int32_t _charPos;
 
   /// @brief Field _charLen, offset 0x5c, size 0x4
-  __declspec(property(get = __get__charLen, put = __set__charLen)) int32_t _charLen;
+  __declspec(property(get = __cordl_internal_get__charLen, put = __cordl_internal_set__charLen)) int32_t _charLen;
 
   /// @brief Field _autoFlush, offset 0x60, size 0x1
-  __declspec(property(get = __get__autoFlush, put = __set__autoFlush)) bool _autoFlush;
+  __declspec(property(get = __cordl_internal_get__autoFlush, put = __cordl_internal_set__autoFlush)) bool _autoFlush;
 
   /// @brief Field _haveWrittenPreamble, offset 0x61, size 0x1
-  __declspec(property(get = __get__haveWrittenPreamble, put = __set__haveWrittenPreamble)) bool _haveWrittenPreamble;
+  __declspec(property(get = __cordl_internal_get__haveWrittenPreamble, put = __cordl_internal_set__haveWrittenPreamble)) bool _haveWrittenPreamble;
 
   /// @brief Field _closable, offset 0x62, size 0x1
-  __declspec(property(get = __get__closable, put = __set__closable)) bool _closable;
+  __declspec(property(get = __cordl_internal_get__closable, put = __cordl_internal_set__closable)) bool _closable;
 
   /// @brief Field _asyncWriteTask, offset 0x68, size 0x8
-  __declspec(property(get = __get__asyncWriteTask, put = __set__asyncWriteTask))::System::Threading::Tasks::Task* _asyncWriteTask;
+  __declspec(property(get = __cordl_internal_get__asyncWriteTask, put = __cordl_internal_set__asyncWriteTask))::System::Threading::Tasks::Task* _asyncWriteTask;
 
   /// @brief Field Null, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::StreamWriter* Null;
@@ -313,71 +313,71 @@ public:
 
   __declspec(property(put = set_HaveWrittenPreamble_Prop)) bool HaveWrittenPreamble_Prop;
 
-  constexpr ::System::IO::Stream*& __get__stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __set__stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  constexpr ::System::Text::Encoding*& __get__encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  constexpr ::System::Text::Encoder*& __get__encoder();
+  constexpr ::System::Text::Encoder*& __cordl_internal_get__encoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& __get__encoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& __cordl_internal_get__encoder() const;
 
-  constexpr void __set__encoder(::System::Text::Encoder* value);
+  constexpr void __cordl_internal_set__encoder(::System::Text::Encoder* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__byteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__byteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__byteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
 
-  constexpr void __set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__charBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__charBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__charBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
 
-  constexpr void __set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get__charPos();
+  constexpr int32_t& __cordl_internal_get__charPos();
 
-  constexpr int32_t const& __get__charPos() const;
+  constexpr int32_t const& __cordl_internal_get__charPos() const;
 
-  constexpr void __set__charPos(int32_t value);
+  constexpr void __cordl_internal_set__charPos(int32_t value);
 
-  constexpr int32_t& __get__charLen();
+  constexpr int32_t& __cordl_internal_get__charLen();
 
-  constexpr int32_t const& __get__charLen() const;
+  constexpr int32_t const& __cordl_internal_get__charLen() const;
 
-  constexpr void __set__charLen(int32_t value);
+  constexpr void __cordl_internal_set__charLen(int32_t value);
 
-  constexpr bool& __get__autoFlush();
+  constexpr bool& __cordl_internal_get__autoFlush();
 
-  constexpr bool const& __get__autoFlush() const;
+  constexpr bool const& __cordl_internal_get__autoFlush() const;
 
-  constexpr void __set__autoFlush(bool value);
+  constexpr void __cordl_internal_set__autoFlush(bool value);
 
-  constexpr bool& __get__haveWrittenPreamble();
+  constexpr bool& __cordl_internal_get__haveWrittenPreamble();
 
-  constexpr bool const& __get__haveWrittenPreamble() const;
+  constexpr bool const& __cordl_internal_get__haveWrittenPreamble() const;
 
-  constexpr void __set__haveWrittenPreamble(bool value);
+  constexpr void __cordl_internal_set__haveWrittenPreamble(bool value);
 
-  constexpr bool& __get__closable();
+  constexpr bool& __cordl_internal_get__closable();
 
-  constexpr bool const& __get__closable() const;
+  constexpr bool const& __cordl_internal_get__closable() const;
 
-  constexpr void __set__closable(bool value);
+  constexpr void __cordl_internal_set__closable(bool value);
 
-  constexpr ::System::Threading::Tasks::Task*& __get__asyncWriteTask();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__asyncWriteTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get__asyncWriteTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__asyncWriteTask() const;
 
-  constexpr void __set__asyncWriteTask(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set__asyncWriteTask(::System::Threading::Tasks::Task* value);
 
   static inline void setStaticF_Null(::System::IO::StreamWriter* value);
 

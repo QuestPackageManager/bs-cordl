@@ -51,26 +51,26 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11049))
 // CS Name: ::Zenject::MemoryPoolBase`1<TContract>*
 class CORDL_TYPE MemoryPoolBase_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _inactiveItems, offset 0x10, size 0x8
-  __declspec(property(get = __get__inactiveItems, put = __set__inactiveItems))::System::Collections::Generic::Stack_1<TContract>* _inactiveItems;
+  __declspec(property(get = __cordl_internal_get__inactiveItems, put = __cordl_internal_set__inactiveItems))::System::Collections::Generic::Stack_1<TContract>* _inactiveItems;
 
   /// @brief Field _factory, offset 0x18, size 0x8
-  __declspec(property(get = __get__factory, put = __set__factory))::Zenject::IFactory_1<TContract>* _factory;
+  __declspec(property(get = __cordl_internal_get__factory, put = __cordl_internal_set__factory))::Zenject::IFactory_1<TContract>* _factory;
 
   /// @brief Field _settings, offset 0x20, size 0x8
-  __declspec(property(get = __get__settings, put = __set__settings))::Zenject::MemoryPoolSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::Zenject::MemoryPoolSettings* _settings;
 
   /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _activeCount, offset 0x30, size 0x4
-  __declspec(property(get = __get__activeCount, put = __set__activeCount)) int32_t _activeCount;
+  __declspec(property(get = __cordl_internal_get__activeCount, put = __cordl_internal_set__activeCount)) int32_t _activeCount;
 
   __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
 
@@ -102,35 +102,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::Stack_1<TContract>*& __get__inactiveItems();
+  constexpr ::System::Collections::Generic::Stack_1<TContract>*& __cordl_internal_get__inactiveItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<TContract>*> const& __get__inactiveItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<TContract>*> const& __cordl_internal_get__inactiveItems() const;
 
-  constexpr void __set__inactiveItems(::System::Collections::Generic::Stack_1<TContract>* value);
+  constexpr void __cordl_internal_set__inactiveItems(::System::Collections::Generic::Stack_1<TContract>* value);
 
-  constexpr ::Zenject::IFactory_1<TContract>*& __get__factory();
+  constexpr ::Zenject::IFactory_1<TContract>*& __cordl_internal_get__factory();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IFactory_1<TContract>*> const& __get__factory() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IFactory_1<TContract>*> const& __cordl_internal_get__factory() const;
 
-  constexpr void __set__factory(::Zenject::IFactory_1<TContract>* value);
+  constexpr void __cordl_internal_set__factory(::Zenject::IFactory_1<TContract>* value);
 
-  constexpr ::Zenject::MemoryPoolSettings*& __get__settings();
+  constexpr ::Zenject::MemoryPoolSettings*& __cordl_internal_get__settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolSettings*> const& __get__settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolSettings*> const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__settings(::Zenject::MemoryPoolSettings* value);
+  constexpr void __cordl_internal_set__settings(::Zenject::MemoryPoolSettings* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr int32_t& __get__activeCount();
+  constexpr int32_t& __cordl_internal_get__activeCount();
 
-  constexpr int32_t const& __get__activeCount() const;
+  constexpr int32_t const& __cordl_internal_get__activeCount() const;
 
-  constexpr void __set__activeCount(int32_t value);
+  constexpr void __cordl_internal_set__activeCount(int32_t value);
 
   /// @brief Method Construct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Construct(::Zenject::IFactory_1<TContract>* factory, ::Zenject::DiContainer* container, ::Zenject::MemoryPoolSettings* settings);

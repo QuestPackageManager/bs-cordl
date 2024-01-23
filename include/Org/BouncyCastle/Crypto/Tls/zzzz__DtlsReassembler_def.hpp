@@ -26,33 +26,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1227))
 // CS Name: ::DtlsReassembler::Range*
 class CORDL_TYPE __DtlsReassembler__Range : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mStart, offset 0x10, size 0x4
-  __declspec(property(get = __get_mStart, put = __set_mStart)) int32_t mStart;
+  __declspec(property(get = __cordl_internal_get_mStart, put = __cordl_internal_set_mStart)) int32_t mStart;
 
   /// @brief Field mEnd, offset 0x14, size 0x4
-  __declspec(property(get = __get_mEnd, put = __set_mEnd)) int32_t mEnd;
+  __declspec(property(get = __cordl_internal_get_mEnd, put = __cordl_internal_set_mEnd)) int32_t mEnd;
 
   __declspec(property(get = get_Start, put = set_Start)) int32_t Start;
 
   __declspec(property(get = get_End, put = set_End)) int32_t End;
 
-  constexpr int32_t& __get_mStart();
+  constexpr int32_t& __cordl_internal_get_mStart();
 
-  constexpr int32_t const& __get_mStart() const;
+  constexpr int32_t const& __cordl_internal_get_mStart() const;
 
-  constexpr void __set_mStart(int32_t value);
+  constexpr void __cordl_internal_set_mStart(int32_t value);
 
-  constexpr int32_t& __get_mEnd();
+  constexpr int32_t& __cordl_internal_get_mEnd();
 
-  constexpr int32_t const& __get_mEnd() const;
+  constexpr int32_t const& __cordl_internal_get_mEnd() const;
 
-  constexpr void __set_mEnd(int32_t value);
+  constexpr void __cordl_internal_set_mEnd(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range* New_ctor(int32_t start, int32_t end);
 
@@ -105,7 +105,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Rang
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1228))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReassembler*
 class CORDL_TYPE DtlsReassembler : public ::System::Object {
@@ -114,33 +114,33 @@ public:
   using Range = ::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range;
 
   /// @brief Field mMsgType, offset 0x10, size 0x1
-  __declspec(property(get = __get_mMsgType, put = __set_mMsgType)) uint8_t mMsgType;
+  __declspec(property(get = __cordl_internal_get_mMsgType, put = __cordl_internal_set_mMsgType)) uint8_t mMsgType;
 
   /// @brief Field mBody, offset 0x18, size 0x8
-  __declspec(property(get = __get_mBody, put = __set_mBody))::ArrayW<uint8_t, ::Array<uint8_t>*> mBody;
+  __declspec(property(get = __cordl_internal_get_mBody, put = __cordl_internal_set_mBody))::ArrayW<uint8_t, ::Array<uint8_t>*> mBody;
 
   /// @brief Field mMissing, offset 0x20, size 0x8
-  __declspec(property(get = __get_mMissing, put = __set_mMissing))::System::Collections::IList* mMissing;
+  __declspec(property(get = __cordl_internal_get_mMissing, put = __cordl_internal_set_mMissing))::System::Collections::IList* mMissing;
 
   __declspec(property(get = get_MsgType)) uint8_t MsgType;
 
-  constexpr uint8_t& __get_mMsgType();
+  constexpr uint8_t& __cordl_internal_get_mMsgType();
 
-  constexpr uint8_t const& __get_mMsgType() const;
+  constexpr uint8_t const& __cordl_internal_get_mMsgType() const;
 
-  constexpr void __set_mMsgType(uint8_t value);
+  constexpr void __cordl_internal_set_mMsgType(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mBody();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mBody();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mBody() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mBody() const;
 
-  constexpr void __set_mBody(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mBody(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::IList*& __get_mMissing();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mMissing();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mMissing() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mMissing() const;
 
-  constexpr void __set_mMissing(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mMissing(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReassembler* New_ctor(uint8_t msg_type, int32_t length);
 

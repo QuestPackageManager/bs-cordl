@@ -68,7 +68,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVROverlayMeshGenerator);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7659))
 // CS Name: ::OVROverlayMeshGenerator::CubeFace
 struct CORDL_TYPE __OVROverlayMeshGenerator__CubeFace {
@@ -138,69 +138,69 @@ static_assert(offsetof(::GlobalNamespace::__OVROverlayMeshGenerator__CubeFace, v
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7660)) CS Name: ::OVROverlayMeshGenerator*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7660)) CS Name: ::OVROverlayMeshGenerator*
 class CORDL_TYPE OVROverlayMeshGenerator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using CubeFace = ::GlobalNamespace::__OVROverlayMeshGenerator__CubeFace;
 
   /// @brief Field _Mesh, offset 0x18, size 0x8
-  __declspec(property(get = __get__Mesh, put = __set__Mesh))::UnityEngine::Mesh* _Mesh;
+  __declspec(property(get = __cordl_internal_get__Mesh, put = __cordl_internal_set__Mesh))::UnityW<::UnityEngine::Mesh> _Mesh;
 
   /// @brief Field _Verts, offset 0x20, size 0x8
-  __declspec(property(get = __get__Verts, put = __set__Verts))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _Verts;
+  __declspec(property(get = __cordl_internal_get__Verts, put = __cordl_internal_set__Verts))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _Verts;
 
   /// @brief Field _UV, offset 0x28, size 0x8
-  __declspec(property(get = __get__UV, put = __set__UV))::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _UV;
+  __declspec(property(get = __cordl_internal_get__UV, put = __cordl_internal_set__UV))::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _UV;
 
   /// @brief Field _Tris, offset 0x30, size 0x8
-  __declspec(property(get = __get__Tris, put = __set__Tris))::System::Collections::Generic::List_1<int32_t>* _Tris;
+  __declspec(property(get = __cordl_internal_get__Tris, put = __cordl_internal_set__Tris))::System::Collections::Generic::List_1<int32_t>* _Tris;
 
   /// @brief Field _Overlay, offset 0x38, size 0x8
-  __declspec(property(get = __get__Overlay, put = __set__Overlay))::GlobalNamespace::OVROverlay* _Overlay;
+  __declspec(property(get = __cordl_internal_get__Overlay, put = __cordl_internal_set__Overlay))::UnityW<::GlobalNamespace::OVROverlay> _Overlay;
 
   /// @brief Field _MeshFilter, offset 0x40, size 0x8
-  __declspec(property(get = __get__MeshFilter, put = __set__MeshFilter))::UnityEngine::MeshFilter* _MeshFilter;
+  __declspec(property(get = __cordl_internal_get__MeshFilter, put = __cordl_internal_set__MeshFilter))::UnityW<::UnityEngine::MeshFilter> _MeshFilter;
 
   /// @brief Field _MeshCollider, offset 0x48, size 0x8
-  __declspec(property(get = __get__MeshCollider, put = __set__MeshCollider))::UnityEngine::MeshCollider* _MeshCollider;
+  __declspec(property(get = __cordl_internal_get__MeshCollider, put = __cordl_internal_set__MeshCollider))::UnityW<::UnityEngine::MeshCollider> _MeshCollider;
 
   /// @brief Field _MeshRenderer, offset 0x50, size 0x8
-  __declspec(property(get = __get__MeshRenderer, put = __set__MeshRenderer))::UnityEngine::MeshRenderer* _MeshRenderer;
+  __declspec(property(get = __cordl_internal_get__MeshRenderer, put = __cordl_internal_set__MeshRenderer))::UnityW<::UnityEngine::MeshRenderer> _MeshRenderer;
 
   /// @brief Field _CameraRoot, offset 0x58, size 0x8
-  __declspec(property(get = __get__CameraRoot, put = __set__CameraRoot))::UnityEngine::Transform* _CameraRoot;
+  __declspec(property(get = __cordl_internal_get__CameraRoot, put = __cordl_internal_set__CameraRoot))::UnityW<::UnityEngine::Transform> _CameraRoot;
 
   /// @brief Field _Transform, offset 0x60, size 0x8
-  __declspec(property(get = __get__Transform, put = __set__Transform))::UnityEngine::Transform* _Transform;
+  __declspec(property(get = __cordl_internal_get__Transform, put = __cordl_internal_set__Transform))::UnityW<::UnityEngine::Transform> _Transform;
 
   /// @brief Field _LastShape, offset 0x68, size 0x4
-  __declspec(property(get = __get__LastShape, put = __set__LastShape))::GlobalNamespace::__OVROverlay__OverlayShape _LastShape;
+  __declspec(property(get = __cordl_internal_get__LastShape, put = __cordl_internal_set__LastShape))::GlobalNamespace::__OVROverlay__OverlayShape _LastShape;
 
   /// @brief Field _LastPosition, offset 0x6c, size 0xc
-  __declspec(property(get = __get__LastPosition, put = __set__LastPosition))::UnityEngine::Vector3 _LastPosition;
+  __declspec(property(get = __cordl_internal_get__LastPosition, put = __cordl_internal_set__LastPosition))::UnityEngine::Vector3 _LastPosition;
 
   /// @brief Field _LastRotation, offset 0x78, size 0x10
-  __declspec(property(get = __get__LastRotation, put = __set__LastRotation))::UnityEngine::Quaternion _LastRotation;
+  __declspec(property(get = __cordl_internal_get__LastRotation, put = __cordl_internal_set__LastRotation))::UnityEngine::Quaternion _LastRotation;
 
   /// @brief Field _LastScale, offset 0x88, size 0xc
-  __declspec(property(get = __get__LastScale, put = __set__LastScale))::UnityEngine::Vector3 _LastScale;
+  __declspec(property(get = __cordl_internal_get__LastScale, put = __cordl_internal_set__LastScale))::UnityEngine::Vector3 _LastScale;
 
   /// @brief Field _LastDestRectLeft, offset 0x94, size 0x10
-  __declspec(property(get = __get__LastDestRectLeft, put = __set__LastDestRectLeft))::UnityEngine::Rect _LastDestRectLeft;
+  __declspec(property(get = __cordl_internal_get__LastDestRectLeft, put = __cordl_internal_set__LastDestRectLeft))::UnityEngine::Rect _LastDestRectLeft;
 
   /// @brief Field _LastDestRectRight, offset 0xa4, size 0x10
-  __declspec(property(get = __get__LastDestRectRight, put = __set__LastDestRectRight))::UnityEngine::Rect _LastDestRectRight;
+  __declspec(property(get = __cordl_internal_get__LastDestRectRight, put = __cordl_internal_set__LastDestRectRight))::UnityEngine::Rect _LastDestRectRight;
 
   /// @brief Field _LastSrcRectLeft, offset 0xb4, size 0x10
-  __declspec(property(get = __get__LastSrcRectLeft, put = __set__LastSrcRectLeft))::UnityEngine::Rect _LastSrcRectLeft;
+  __declspec(property(get = __cordl_internal_get__LastSrcRectLeft, put = __cordl_internal_set__LastSrcRectLeft))::UnityEngine::Rect _LastSrcRectLeft;
 
   /// @brief Field _LastTexture, offset 0xc8, size 0x8
-  __declspec(property(get = __get__LastTexture, put = __set__LastTexture))::UnityEngine::Texture* _LastTexture;
+  __declspec(property(get = __cordl_internal_get__LastTexture, put = __cordl_internal_set__LastTexture))::UnityW<::UnityEngine::Texture> _LastTexture;
 
   /// @brief Field _Awake, offset 0xd0, size 0x1
-  __declspec(property(get = __get__Awake, put = __set__Awake)) bool _Awake;
+  __declspec(property(get = __cordl_internal_get__Awake, put = __cordl_internal_set__Awake)) bool _Awake;
 
   /// @brief Field BottomLeft, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_BottomLeft, put = setStaticF_BottomLeft))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> BottomLeft;
@@ -211,119 +211,119 @@ public:
   /// @brief Field UpVector, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UpVector, put = setStaticF_UpVector))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> UpVector;
 
-  constexpr ::UnityEngine::Mesh*& __get__Mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__Mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__Mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__Mesh() const;
 
-  constexpr void __set__Mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__Mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get__Verts();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__Verts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get__Verts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__Verts() const;
 
-  constexpr void __set__Verts(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__Verts(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& __get__UV();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& __cordl_internal_get__UV();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*> const& __get__UV() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*> const& __cordl_internal_get__UV() const;
 
-  constexpr void __set__UV(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* value);
+  constexpr void __cordl_internal_set__UV(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get__Tris();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__Tris();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get__Tris() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__Tris() const;
 
-  constexpr void __set__Tris(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set__Tris(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::GlobalNamespace::OVROverlay*& __get__Overlay();
+  constexpr ::UnityW<::GlobalNamespace::OVROverlay>& __cordl_internal_get__Overlay();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVROverlay*> const& __get__Overlay() const;
+  constexpr ::UnityW<::GlobalNamespace::OVROverlay> const& __cordl_internal_get__Overlay() const;
 
-  constexpr void __set__Overlay(::GlobalNamespace::OVROverlay* value);
+  constexpr void __cordl_internal_set__Overlay(::UnityW<::GlobalNamespace::OVROverlay> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__MeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__MeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__MeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__MeshFilter() const;
 
-  constexpr void __set__MeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__MeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::MeshCollider*& __get__MeshCollider();
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__MeshCollider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshCollider*> const& __get__MeshCollider() const;
+  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__MeshCollider() const;
 
-  constexpr void __set__MeshCollider(::UnityEngine::MeshCollider* value);
+  constexpr void __cordl_internal_set__MeshCollider(::UnityW<::UnityEngine::MeshCollider> value);
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__MeshRenderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__MeshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__MeshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__MeshRenderer() const;
 
-  constexpr void __set__MeshRenderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__MeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr ::UnityEngine::Transform*& __get__CameraRoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__CameraRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__CameraRoot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__CameraRoot() const;
 
-  constexpr void __set__CameraRoot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__CameraRoot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__Transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__Transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__Transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__Transform() const;
 
-  constexpr void __set__Transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__Transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::__OVROverlay__OverlayShape& __get__LastShape();
+  constexpr ::GlobalNamespace::__OVROverlay__OverlayShape& __cordl_internal_get__LastShape();
 
-  constexpr ::GlobalNamespace::__OVROverlay__OverlayShape const& __get__LastShape() const;
+  constexpr ::GlobalNamespace::__OVROverlay__OverlayShape const& __cordl_internal_get__LastShape() const;
 
-  constexpr void __set__LastShape(::GlobalNamespace::__OVROverlay__OverlayShape value);
+  constexpr void __cordl_internal_set__LastShape(::GlobalNamespace::__OVROverlay__OverlayShape value);
 
-  constexpr ::UnityEngine::Vector3& __get__LastPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__LastPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__LastPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__LastPosition() const;
 
-  constexpr void __set__LastPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__LastPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__LastRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__LastRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get__LastRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__LastRotation() const;
 
-  constexpr void __set__LastRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__LastRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get__LastScale();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__LastScale();
 
-  constexpr ::UnityEngine::Vector3 const& __get__LastScale() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__LastScale() const;
 
-  constexpr void __set__LastScale(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__LastScale(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Rect& __get__LastDestRectLeft();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__LastDestRectLeft();
 
-  constexpr ::UnityEngine::Rect const& __get__LastDestRectLeft() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__LastDestRectLeft() const;
 
-  constexpr void __set__LastDestRectLeft(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__LastDestRectLeft(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get__LastDestRectRight();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__LastDestRectRight();
 
-  constexpr ::UnityEngine::Rect const& __get__LastDestRectRight() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__LastDestRectRight() const;
 
-  constexpr void __set__LastDestRectRight(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__LastDestRectRight(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get__LastSrcRectLeft();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__LastSrcRectLeft();
 
-  constexpr ::UnityEngine::Rect const& __get__LastSrcRectLeft() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__LastSrcRectLeft() const;
 
-  constexpr void __set__LastSrcRectLeft(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__LastSrcRectLeft(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Texture*& __get__LastTexture();
+  constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get__LastTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture*> const& __get__LastTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get__LastTexture() const;
 
-  constexpr void __set__LastTexture(::UnityEngine::Texture* value);
+  constexpr void __cordl_internal_set__LastTexture(::UnityW<::UnityEngine::Texture> value);
 
-  constexpr bool& __get__Awake();
+  constexpr bool& __cordl_internal_get__Awake();
 
-  constexpr bool const& __get__Awake() const;
+  constexpr bool const& __cordl_internal_get__Awake() const;
 
-  constexpr void __set__Awake(bool value);
+  constexpr void __cordl_internal_set__Awake(bool value);
 
   static inline void setStaticF_BottomLeft(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
@@ -414,7 +414,7 @@ protected:
 
 public:
   /// @brief Field _Mesh, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____Mesh;
+  ::UnityW<::UnityEngine::Mesh> ____Mesh;
 
   /// @brief Field _Verts, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ____Verts;
@@ -426,22 +426,22 @@ public:
   ::System::Collections::Generic::List_1<int32_t>* ____Tris;
 
   /// @brief Field _Overlay, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::OVROverlay* ____Overlay;
+  ::UnityW<::GlobalNamespace::OVROverlay> ____Overlay;
 
   /// @brief Field _MeshFilter, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____MeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____MeshFilter;
 
   /// @brief Field _MeshCollider, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::MeshCollider* ____MeshCollider;
+  ::UnityW<::UnityEngine::MeshCollider> ____MeshCollider;
 
   /// @brief Field _MeshRenderer, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____MeshRenderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____MeshRenderer;
 
   /// @brief Field _CameraRoot, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____CameraRoot;
+  ::UnityW<::UnityEngine::Transform> ____CameraRoot;
 
   /// @brief Field _Transform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____Transform;
+  ::UnityW<::UnityEngine::Transform> ____Transform;
 
   /// @brief Field _LastShape, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::__OVROverlay__OverlayShape ____LastShape;
@@ -465,7 +465,7 @@ public:
   ::UnityEngine::Rect ____LastSrcRectLeft;
 
   /// @brief Field _LastTexture, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::Texture* ____LastTexture;
+  ::UnityW<::UnityEngine::Texture> ____LastTexture;
 
   /// @brief Field _Awake, offset: 0xd0, size: 0x1, def value: None
   bool ____Awake;

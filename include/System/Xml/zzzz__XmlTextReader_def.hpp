@@ -42,14 +42,14 @@ MARK_REF_PTR_T(::System::Xml::XmlTextReader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11456))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11456))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11459))
 // CS Name: ::System.Xml::XmlTextReader*
 class CORDL_TYPE XmlTextReader : public ::System::Xml::XmlReader {
 public:
   // Declarations
   /// @brief Field impl, offset 0x10, size 0x8
-  __declspec(property(get = __get_impl, put = __set_impl))::System::Xml::XmlTextReaderImpl* impl;
+  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl))::System::Xml::XmlTextReaderImpl* impl;
 
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
@@ -91,11 +91,11 @@ public:
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
   constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
 
-  constexpr ::System::Xml::XmlTextReaderImpl*& __get_impl();
+  constexpr ::System::Xml::XmlTextReaderImpl*& __cordl_internal_get_impl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextReaderImpl*> const& __get_impl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextReaderImpl*> const& __cordl_internal_get_impl() const;
 
-  constexpr void __set_impl(::System::Xml::XmlTextReaderImpl* value);
+  constexpr void __cordl_internal_set_impl(::System::Xml::XmlTextReaderImpl* value);
 
   static inline ::System::Xml::XmlTextReader* New_ctor(::System::IO::TextReader* input, ::System::Xml::XmlNameTable* nt);
 

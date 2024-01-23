@@ -25,38 +25,38 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11868))
 // CS Name: ::Newtonsoft.Json.Utilities::ThreadSafeStore`2<TKey,TValue>*
 class CORDL_TYPE ThreadSafeStore_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _lock, offset 0x10, size 0x8
-  __declspec(property(get = __get__lock, put = __set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
   /// @brief Field _store, offset 0x18, size 0x8
-  __declspec(property(get = __get__store, put = __set__store))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _store;
+  __declspec(property(get = __cordl_internal_get__store, put = __cordl_internal_set__store))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _store;
 
   /// @brief Field _creator, offset 0x20, size 0x8
-  __declspec(property(get = __get__creator, put = __set__creator))::System::Func_2<TKey, TValue>* _creator;
+  __declspec(property(get = __cordl_internal_get__creator, put = __cordl_internal_set__creator))::System::Func_2<TKey, TValue>* _creator;
 
-  constexpr ::System::Object*& __get__lock();
+  constexpr ::System::Object*& __cordl_internal_get__lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
 
-  constexpr void __set__lock(::System::Object* value);
+  constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __get__store();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __get__store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__store() const;
 
-  constexpr void __set__store(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__store(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
-  constexpr ::System::Func_2<TKey, TValue>*& __get__creator();
+  constexpr ::System::Func_2<TKey, TValue>*& __cordl_internal_get__creator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, TValue>*> const& __get__creator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, TValue>*> const& __cordl_internal_get__creator() const;
 
-  constexpr void __set__creator(::System::Func_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__creator(::System::Func_2<TKey, TValue>* value);
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* New_ctor(::System::Func_2<TKey, TValue>* creator);
 

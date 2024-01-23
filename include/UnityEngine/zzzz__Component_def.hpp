@@ -36,26 +36,26 @@ MARK_REF_PTR_T(::UnityEngine::Component);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10238))
 // CS Name: ::UnityEngine::Component*
 class CORDL_TYPE Component : public ::UnityEngine::Object {
 public:
   // Declarations
-  __declspec(property(get = get_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  __declspec(property(get = get_gameObject))::UnityEngine::GameObject* gameObject;
+  __declspec(property(get = get_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
 
   __declspec(property(get = get_tag, put = set_tag))::StringW tag;
 
   /// @brief Method get_transform, addr 0x2cd3d3c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_transform();
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
 
   /// @brief Method get_gameObject, addr 0x2cd3d78, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_gameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
   /// @brief Method GetComponent, addr 0x2cd3db4, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponent(::System::Type* type);
+  inline ::UnityW<::UnityEngine::Component> GetComponent(::System::Type* type);
 
   /// @brief Method GetComponentFastPath, addr 0x2cd3e2c, size 0x54, virtual false, abstract: false, final false
   inline void GetComponentFastPath(::System::Type* type, void* oneFurtherThanResultValue);
@@ -67,10 +67,10 @@ public:
   template <typename T> inline bool TryGetComponent(ByRef<T> component);
 
   /// @brief Method GetComponent, addr 0x2cd3e80, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponent(::StringW type);
+  inline ::UnityW<::UnityEngine::Component> GetComponent(::StringW type);
 
   /// @brief Method GetComponentInChildren, addr 0x2cd3ec4, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponentInChildren(::System::Type* t, bool includeInactive);
+  inline ::UnityW<::UnityEngine::Component> GetComponentInChildren(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInChildren(bool includeInactive);
@@ -79,7 +79,7 @@ public:
   template <typename T> inline T GetComponentInChildren();
 
   /// @brief Method GetComponentsInChildren, addr 0x2cd3f4c, size 0x60, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponentsInChildren(::System::Type* t, bool includeInactive);
+  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInChildren(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponentsInChildren(bool includeInactive);
@@ -94,13 +94,13 @@ public:
   template <typename T> inline void GetComponentsInChildren(::System::Collections::Generic::List_1<T>* results);
 
   /// @brief Method GetComponentInParent, addr 0x2cd3fac, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponentInParent(::System::Type* t, bool includeInactive);
+  inline ::UnityW<::UnityEngine::Component> GetComponentInParent(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInParent();
 
   /// @brief Method GetComponentsInParent, addr 0x2cd4034, size 0x60, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponentsInParent(::System::Type* t, bool includeInactive);
+  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInParent(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentsInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponentsInParent(bool includeInactive);
@@ -112,13 +112,13 @@ public:
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponentsInParent();
 
   /// @brief Method GetComponents, addr 0x2cd4094, size 0x50, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponents(::System::Type* type);
+  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponents(::System::Type* type);
 
   /// @brief Method GetComponentsForListInternal, addr 0x2cd40e4, size 0x54, virtual false, abstract: false, final false
   inline void GetComponentsForListInternal(::System::Type* searchType, ::System::Object* resultList);
 
   /// @brief Method GetComponents, addr 0x2cd4138, size 0x54, virtual false, abstract: false, final false
-  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* results);
+  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* results);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponents(::System::Collections::Generic::List_1<T>* results);

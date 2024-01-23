@@ -134,7 +134,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__BaseVerticalCollectionView____c__Display
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7142))
 // CS Name: ::BaseVerticalCollectionView::<>c__DisplayClass164_0
 struct CORDL_TYPE __BaseVerticalCollectionView____c__DisplayClass164_0 {
@@ -171,9 +171,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__BaseVerticalCollectionView__
 // SizeInfo { instance_size: 1176, native_size: -1, calculated_instance_size: 1176, calculated_native_size: 1172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7141)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7306)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6885)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7140)), TypeDefinitionIndex(TypeDefinitionIndex(6801))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7143)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(6885)), TypeDefinitionIndex(TypeDefinitionIndex(7140)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7141)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7143)) CS Name:
 // ::UnityEngine.UIElements::BaseVerticalCollectionView*
 class CORDL_TYPE BaseVerticalCollectionView : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -181,95 +181,103 @@ public:
   using __c__DisplayClass164_0 = ::UnityEngine::UIElements::__BaseVerticalCollectionView____c__DisplayClass164_0;
 
   /// @brief Field onItemsChosen, offset 0x3c0, size 0x8
-  __declspec(property(get = __get_onItemsChosen, put = __set_onItemsChosen))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* onItemsChosen;
+  __declspec(property(get = __cordl_internal_get_onItemsChosen,
+                      put = __cordl_internal_set_onItemsChosen))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* onItemsChosen;
 
   /// @brief Field onSelectionChange, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_onSelectionChange, put = __set_onSelectionChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* onSelectionChange;
+  __declspec(property(get = __cordl_internal_get_onSelectionChange,
+                      put = __cordl_internal_set_onSelectionChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* onSelectionChange;
 
   /// @brief Field onSelectedIndicesChange, offset 0x3d0, size 0x8
-  __declspec(property(get = __get_onSelectedIndicesChange, put = __set_onSelectedIndicesChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* onSelectedIndicesChange;
+  __declspec(property(get = __cordl_internal_get_onSelectedIndicesChange,
+                      put = __cordl_internal_set_onSelectedIndicesChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* onSelectedIndicesChange;
 
   /// @brief Field itemIndexChanged, offset 0x3d8, size 0x8
-  __declspec(property(get = __get_itemIndexChanged, put = __set_itemIndexChanged))::System::Action_2<int32_t, int32_t>* itemIndexChanged;
+  __declspec(property(get = __cordl_internal_get_itemIndexChanged, put = __cordl_internal_set_itemIndexChanged))::System::Action_2<int32_t, int32_t>* itemIndexChanged;
 
   /// @brief Field itemsSourceChanged, offset 0x3e0, size 0x8
-  __declspec(property(get = __get_itemsSourceChanged, put = __set_itemsSourceChanged))::System::Action* itemsSourceChanged;
+  __declspec(property(get = __cordl_internal_get_itemsSourceChanged, put = __cordl_internal_set_itemsSourceChanged))::System::Action* itemsSourceChanged;
 
   /// @brief Field m_GetItemId, offset 0x3e8, size 0x8
-  __declspec(property(get = __get_m_GetItemId, put = __set_m_GetItemId))::System::Func_2<int32_t, int32_t>* m_GetItemId;
+  __declspec(property(get = __cordl_internal_get_m_GetItemId, put = __cordl_internal_set_m_GetItemId))::System::Func_2<int32_t, int32_t>* m_GetItemId;
 
   /// @brief Field m_MakeItem, offset 0x3f0, size 0x8
-  __declspec(property(get = __get_m_MakeItem, put = __set_m_MakeItem))::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeItem;
+  __declspec(property(get = __cordl_internal_get_m_MakeItem, put = __cordl_internal_set_m_MakeItem))::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeItem;
 
   /// @brief Field m_BindItem, offset 0x3f8, size 0x8
-  __declspec(property(get = __get_m_BindItem, put = __set_m_BindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* m_BindItem;
+  __declspec(property(get = __cordl_internal_get_m_BindItem, put = __cordl_internal_set_m_BindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* m_BindItem;
 
   /// @brief Field <unbindItem>k__BackingField, offset 0x400, size 0x8
-  __declspec(property(get = __get__unbindItem_k__BackingField,
-                      put = __set__unbindItem_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* _unbindItem_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__unbindItem_k__BackingField,
+                      put = __cordl_internal_set__unbindItem_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* _unbindItem_k__BackingField;
 
   /// @brief Field <destroyItem>k__BackingField, offset 0x408, size 0x8
-  __declspec(property(get = __get__destroyItem_k__BackingField, put = __set__destroyItem_k__BackingField))::System::Action_1<::UnityEngine::UIElements::VisualElement*>* _destroyItem_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__destroyItem_k__BackingField,
+                      put = __cordl_internal_set__destroyItem_k__BackingField))::System::Action_1<::UnityEngine::UIElements::VisualElement*>* _destroyItem_k__BackingField;
 
   /// @brief Field m_SelectionType, offset 0x410, size 0x4
-  __declspec(property(get = __get_m_SelectionType, put = __set_m_SelectionType))::UnityEngine::UIElements::SelectionType m_SelectionType;
+  __declspec(property(get = __cordl_internal_get_m_SelectionType, put = __cordl_internal_set_m_SelectionType))::UnityEngine::UIElements::SelectionType m_SelectionType;
 
   /// @brief Field m_HorizontalScrollingEnabled, offset 0x414, size 0x1
-  __declspec(property(get = __get_m_HorizontalScrollingEnabled, put = __set_m_HorizontalScrollingEnabled)) bool m_HorizontalScrollingEnabled;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalScrollingEnabled, put = __cordl_internal_set_m_HorizontalScrollingEnabled)) bool m_HorizontalScrollingEnabled;
 
   /// @brief Field m_ShowAlternatingRowBackgrounds, offset 0x418, size 0x4
-  __declspec(property(get = __get_m_ShowAlternatingRowBackgrounds, put = __set_m_ShowAlternatingRowBackgrounds))::UnityEngine::UIElements::AlternatingRowBackground m_ShowAlternatingRowBackgrounds;
+  __declspec(property(get = __cordl_internal_get_m_ShowAlternatingRowBackgrounds,
+                      put = __cordl_internal_set_m_ShowAlternatingRowBackgrounds))::UnityEngine::UIElements::AlternatingRowBackground m_ShowAlternatingRowBackgrounds;
 
   /// @brief Field m_FixedItemHeight, offset 0x41c, size 0x4
-  __declspec(property(get = __get_m_FixedItemHeight, put = __set_m_FixedItemHeight)) float_t m_FixedItemHeight;
+  __declspec(property(get = __cordl_internal_get_m_FixedItemHeight, put = __cordl_internal_set_m_FixedItemHeight)) float_t m_FixedItemHeight;
 
   /// @brief Field m_ItemHeightIsInline, offset 0x420, size 0x1
-  __declspec(property(get = __get_m_ItemHeightIsInline, put = __set_m_ItemHeightIsInline)) bool m_ItemHeightIsInline;
+  __declspec(property(get = __cordl_internal_get_m_ItemHeightIsInline, put = __cordl_internal_set_m_ItemHeightIsInline)) bool m_ItemHeightIsInline;
 
   /// @brief Field m_VirtualizationMethod, offset 0x424, size 0x4
-  __declspec(property(get = __get_m_VirtualizationMethod, put = __set_m_VirtualizationMethod))::UnityEngine::UIElements::CollectionVirtualizationMethod m_VirtualizationMethod;
+  __declspec(property(get = __cordl_internal_get_m_VirtualizationMethod,
+                      put = __cordl_internal_set_m_VirtualizationMethod))::UnityEngine::UIElements::CollectionVirtualizationMethod m_VirtualizationMethod;
 
   /// @brief Field m_ScrollView, offset 0x428, size 0x8
-  __declspec(property(get = __get_m_ScrollView, put = __set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
+  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
 
   /// @brief Field m_ViewController, offset 0x430, size 0x8
-  __declspec(property(get = __get_m_ViewController, put = __set_m_ViewController))::UnityEngine::UIElements::CollectionViewController* m_ViewController;
+  __declspec(property(get = __cordl_internal_get_m_ViewController, put = __cordl_internal_set_m_ViewController))::UnityEngine::UIElements::CollectionViewController* m_ViewController;
 
   /// @brief Field m_VirtualizationController, offset 0x438, size 0x8
-  __declspec(property(get = __get_m_VirtualizationController, put = __set_m_VirtualizationController))::UnityEngine::UIElements::CollectionVirtualizationController* m_VirtualizationController;
+  __declspec(property(get = __cordl_internal_get_m_VirtualizationController,
+                      put = __cordl_internal_set_m_VirtualizationController))::UnityEngine::UIElements::CollectionVirtualizationController* m_VirtualizationController;
 
   /// @brief Field m_NavigationManipulator, offset 0x440, size 0x8
-  __declspec(property(get = __get_m_NavigationManipulator, put = __set_m_NavigationManipulator))::UnityEngine::UIElements::KeyboardNavigationManipulator* m_NavigationManipulator;
+  __declspec(property(get = __cordl_internal_get_m_NavigationManipulator,
+                      put = __cordl_internal_set_m_NavigationManipulator))::UnityEngine::UIElements::KeyboardNavigationManipulator* m_NavigationManipulator;
 
   /// @brief Field m_ScrollOffset, offset 0x448, size 0x8
-  __declspec(property(get = __get_m_ScrollOffset, put = __set_m_ScrollOffset))::UnityEngine::Vector2 m_ScrollOffset;
+  __declspec(property(get = __cordl_internal_get_m_ScrollOffset, put = __cordl_internal_set_m_ScrollOffset))::UnityEngine::Vector2 m_ScrollOffset;
 
   /// @brief Field m_SelectedIds, offset 0x450, size 0x8
-  __declspec(property(get = __get_m_SelectedIds, put = __set_m_SelectedIds))::System::Collections::Generic::List_1<int32_t>* m_SelectedIds;
+  __declspec(property(get = __cordl_internal_get_m_SelectedIds, put = __cordl_internal_set_m_SelectedIds))::System::Collections::Generic::List_1<int32_t>* m_SelectedIds;
 
   /// @brief Field m_SelectedIndices, offset 0x458, size 0x8
-  __declspec(property(get = __get_m_SelectedIndices, put = __set_m_SelectedIndices))::System::Collections::Generic::List_1<int32_t>* m_SelectedIndices;
+  __declspec(property(get = __cordl_internal_get_m_SelectedIndices, put = __cordl_internal_set_m_SelectedIndices))::System::Collections::Generic::List_1<int32_t>* m_SelectedIndices;
 
   /// @brief Field m_SelectedItems, offset 0x460, size 0x8
-  __declspec(property(get = __get_m_SelectedItems, put = __set_m_SelectedItems))::System::Collections::Generic::List_1<::System::Object*>* m_SelectedItems;
+  __declspec(property(get = __cordl_internal_get_m_SelectedItems, put = __cordl_internal_set_m_SelectedItems))::System::Collections::Generic::List_1<::System::Object*>* m_SelectedItems;
 
   /// @brief Field m_LastHeight, offset 0x468, size 0x4
-  __declspec(property(get = __get_m_LastHeight, put = __set_m_LastHeight)) float_t m_LastHeight;
+  __declspec(property(get = __cordl_internal_get_m_LastHeight, put = __cordl_internal_set_m_LastHeight)) float_t m_LastHeight;
 
   /// @brief Field m_IsRangeSelectionDirectionUp, offset 0x46c, size 0x1
-  __declspec(property(get = __get_m_IsRangeSelectionDirectionUp, put = __set_m_IsRangeSelectionDirectionUp)) bool m_IsRangeSelectionDirectionUp;
+  __declspec(property(get = __cordl_internal_get_m_IsRangeSelectionDirectionUp, put = __cordl_internal_set_m_IsRangeSelectionDirectionUp)) bool m_IsRangeSelectionDirectionUp;
 
   /// @brief Field m_Dragger, offset 0x470, size 0x8
-  __declspec(property(get = __get_m_Dragger, put = __set_m_Dragger))::UnityEngine::UIElements::ListViewDragger* m_Dragger;
+  __declspec(property(get = __cordl_internal_get_m_Dragger, put = __cordl_internal_set_m_Dragger))::UnityEngine::UIElements::ListViewDragger* m_Dragger;
 
   /// @brief Field m_ItemIndexChangedCallback, offset 0x478, size 0x8
-  __declspec(property(get = __get_m_ItemIndexChangedCallback, put = __set_m_ItemIndexChangedCallback))::System::Action_2<int32_t, int32_t>* m_ItemIndexChangedCallback;
+  __declspec(property(get = __cordl_internal_get_m_ItemIndexChangedCallback, put = __cordl_internal_set_m_ItemIndexChangedCallback))::System::Action_2<int32_t, int32_t>* m_ItemIndexChangedCallback;
 
   /// @brief Field m_ItemsSourceChangedCallback, offset 0x480, size 0x8
-  __declspec(property(get = __get_m_ItemsSourceChangedCallback, put = __set_m_ItemsSourceChangedCallback))::System::Action* m_ItemsSourceChangedCallback;
+  __declspec(property(get = __cordl_internal_get_m_ItemsSourceChangedCallback, put = __cordl_internal_set_m_ItemsSourceChangedCallback))::System::Action* m_ItemsSourceChangedCallback;
 
   /// @brief Field m_TouchDownPosition, offset 0x488, size 0xc
-  __declspec(property(get = __get_m_TouchDownPosition, put = __set_m_TouchDownPosition))::UnityEngine::Vector3 m_TouchDownPosition;
+  __declspec(property(get = __cordl_internal_get_m_TouchDownPosition, put = __cordl_internal_set_m_TouchDownPosition))::UnityEngine::Vector3 m_TouchDownPosition;
 
   /// @brief Field k_EmptyItems, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_EmptyItems, put = setStaticF_k_EmptyItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ReusableCollectionItem*>* k_EmptyItems;
@@ -359,185 +367,185 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& __get_onItemsChosen();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& __cordl_internal_get_onItemsChosen();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*> const& __get_onItemsChosen() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*> const& __cordl_internal_get_onItemsChosen() const;
 
-  constexpr void __set_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
+  constexpr void __cordl_internal_set_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& __get_onSelectionChange();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& __cordl_internal_get_onSelectionChange();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*> const& __get_onSelectionChange() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*> const& __cordl_internal_get_onSelectionChange() const;
 
-  constexpr void __set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
+  constexpr void __cordl_internal_set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __get_onSelectedIndicesChange();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_onSelectedIndicesChange();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __get_onSelectedIndicesChange() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_onSelectedIndicesChange() const;
 
-  constexpr void __set_onSelectedIndicesChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_onSelectedIndicesChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
-  constexpr ::System::Action_2<int32_t, int32_t>*& __get_itemIndexChanged();
+  constexpr ::System::Action_2<int32_t, int32_t>*& __cordl_internal_get_itemIndexChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __get_itemIndexChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __cordl_internal_get_itemIndexChanged() const;
 
-  constexpr void __set_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
 
-  constexpr ::System::Action*& __get_itemsSourceChanged();
+  constexpr ::System::Action*& __cordl_internal_get_itemsSourceChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_itemsSourceChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_itemsSourceChanged() const;
 
-  constexpr void __set_itemsSourceChanged(::System::Action* value);
+  constexpr void __cordl_internal_set_itemsSourceChanged(::System::Action* value);
 
-  constexpr ::System::Func_2<int32_t, int32_t>*& __get_m_GetItemId();
+  constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get_m_GetItemId();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __get_m_GetItemId() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __cordl_internal_get_m_GetItemId() const;
 
-  constexpr void __set_m_GetItemId(::System::Func_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_m_GetItemId(::System::Func_2<int32_t, int32_t>* value);
 
-  constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_MakeItem();
+  constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_MakeItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_MakeItem() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_MakeItem() const;
 
-  constexpr void __set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& __get_m_BindItem();
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& __cordl_internal_get_m_BindItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const& __get_m_BindItem() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const& __cordl_internal_get_m_BindItem() const;
 
-  constexpr void __set_m_BindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
+  constexpr void __cordl_internal_set_m_BindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& __get__unbindItem_k__BackingField();
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& __cordl_internal_get__unbindItem_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const& __get__unbindItem_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const& __cordl_internal_get__unbindItem_k__BackingField() const;
 
-  constexpr void __set__unbindItem_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
+  constexpr void __cordl_internal_set__unbindItem_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>*& __get__destroyItem_k__BackingField();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get__destroyItem_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*> const& __get__destroyItem_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get__destroyItem_k__BackingField() const;
 
-  constexpr void __set__destroyItem_k__BackingField(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set__destroyItem_k__BackingField(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::UnityEngine::UIElements::SelectionType& __get_m_SelectionType();
+  constexpr ::UnityEngine::UIElements::SelectionType& __cordl_internal_get_m_SelectionType();
 
-  constexpr ::UnityEngine::UIElements::SelectionType const& __get_m_SelectionType() const;
+  constexpr ::UnityEngine::UIElements::SelectionType const& __cordl_internal_get_m_SelectionType() const;
 
-  constexpr void __set_m_SelectionType(::UnityEngine::UIElements::SelectionType value);
+  constexpr void __cordl_internal_set_m_SelectionType(::UnityEngine::UIElements::SelectionType value);
 
-  constexpr bool& __get_m_HorizontalScrollingEnabled();
+  constexpr bool& __cordl_internal_get_m_HorizontalScrollingEnabled();
 
-  constexpr bool const& __get_m_HorizontalScrollingEnabled() const;
+  constexpr bool const& __cordl_internal_get_m_HorizontalScrollingEnabled() const;
 
-  constexpr void __set_m_HorizontalScrollingEnabled(bool value);
+  constexpr void __cordl_internal_set_m_HorizontalScrollingEnabled(bool value);
 
-  constexpr ::UnityEngine::UIElements::AlternatingRowBackground& __get_m_ShowAlternatingRowBackgrounds();
+  constexpr ::UnityEngine::UIElements::AlternatingRowBackground& __cordl_internal_get_m_ShowAlternatingRowBackgrounds();
 
-  constexpr ::UnityEngine::UIElements::AlternatingRowBackground const& __get_m_ShowAlternatingRowBackgrounds() const;
+  constexpr ::UnityEngine::UIElements::AlternatingRowBackground const& __cordl_internal_get_m_ShowAlternatingRowBackgrounds() const;
 
-  constexpr void __set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value);
+  constexpr void __cordl_internal_set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value);
 
-  constexpr float_t& __get_m_FixedItemHeight();
+  constexpr float_t& __cordl_internal_get_m_FixedItemHeight();
 
-  constexpr float_t const& __get_m_FixedItemHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_FixedItemHeight() const;
 
-  constexpr void __set_m_FixedItemHeight(float_t value);
+  constexpr void __cordl_internal_set_m_FixedItemHeight(float_t value);
 
-  constexpr bool& __get_m_ItemHeightIsInline();
+  constexpr bool& __cordl_internal_get_m_ItemHeightIsInline();
 
-  constexpr bool const& __get_m_ItemHeightIsInline() const;
+  constexpr bool const& __cordl_internal_get_m_ItemHeightIsInline() const;
 
-  constexpr void __set_m_ItemHeightIsInline(bool value);
+  constexpr void __cordl_internal_set_m_ItemHeightIsInline(bool value);
 
-  constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod& __get_m_VirtualizationMethod();
+  constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod& __cordl_internal_get_m_VirtualizationMethod();
 
-  constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod const& __get_m_VirtualizationMethod() const;
+  constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod const& __cordl_internal_get_m_VirtualizationMethod() const;
 
-  constexpr void __set_m_VirtualizationMethod(::UnityEngine::UIElements::CollectionVirtualizationMethod value);
+  constexpr void __cordl_internal_set_m_VirtualizationMethod(::UnityEngine::UIElements::CollectionVirtualizationMethod value);
 
-  constexpr ::UnityEngine::UIElements::ScrollView*& __get_m_ScrollView();
+  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __get_m_ScrollView() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
 
-  constexpr void __set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
+  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  constexpr ::UnityEngine::UIElements::CollectionViewController*& __get_m_ViewController();
+  constexpr ::UnityEngine::UIElements::CollectionViewController*& __cordl_internal_get_m_ViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::CollectionViewController*> const& __get_m_ViewController() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::CollectionViewController*> const& __cordl_internal_get_m_ViewController() const;
 
-  constexpr void __set_m_ViewController(::UnityEngine::UIElements::CollectionViewController* value);
+  constexpr void __cordl_internal_set_m_ViewController(::UnityEngine::UIElements::CollectionViewController* value);
 
-  constexpr ::UnityEngine::UIElements::CollectionVirtualizationController*& __get_m_VirtualizationController();
+  constexpr ::UnityEngine::UIElements::CollectionVirtualizationController*& __cordl_internal_get_m_VirtualizationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::CollectionVirtualizationController*> const& __get_m_VirtualizationController() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::CollectionVirtualizationController*> const& __cordl_internal_get_m_VirtualizationController() const;
 
-  constexpr void __set_m_VirtualizationController(::UnityEngine::UIElements::CollectionVirtualizationController* value);
+  constexpr void __cordl_internal_set_m_VirtualizationController(::UnityEngine::UIElements::CollectionVirtualizationController* value);
 
-  constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator*& __get_m_NavigationManipulator();
+  constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator*& __cordl_internal_get_m_NavigationManipulator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyboardNavigationManipulator*> const& __get_m_NavigationManipulator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyboardNavigationManipulator*> const& __cordl_internal_get_m_NavigationManipulator() const;
 
-  constexpr void __set_m_NavigationManipulator(::UnityEngine::UIElements::KeyboardNavigationManipulator* value);
+  constexpr void __cordl_internal_set_m_NavigationManipulator(::UnityEngine::UIElements::KeyboardNavigationManipulator* value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_ScrollOffset();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_ScrollOffset();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_ScrollOffset() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_ScrollOffset() const;
 
-  constexpr void __set_m_ScrollOffset(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_ScrollOffset(::UnityEngine::Vector2 value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_SelectedIds();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SelectedIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_SelectedIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SelectedIds() const;
 
-  constexpr void __set_m_SelectedIds(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_SelectedIds(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_SelectedIndices();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SelectedIndices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_SelectedIndices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SelectedIndices() const;
 
-  constexpr void __set_m_SelectedIndices(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_SelectedIndices(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get_m_SelectedItems();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get_m_SelectedItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get_m_SelectedItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get_m_SelectedItems() const;
 
-  constexpr void __set_m_SelectedItems(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_m_SelectedItems(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  constexpr float_t& __get_m_LastHeight();
+  constexpr float_t& __cordl_internal_get_m_LastHeight();
 
-  constexpr float_t const& __get_m_LastHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_LastHeight() const;
 
-  constexpr void __set_m_LastHeight(float_t value);
+  constexpr void __cordl_internal_set_m_LastHeight(float_t value);
 
-  constexpr bool& __get_m_IsRangeSelectionDirectionUp();
+  constexpr bool& __cordl_internal_get_m_IsRangeSelectionDirectionUp();
 
-  constexpr bool const& __get_m_IsRangeSelectionDirectionUp() const;
+  constexpr bool const& __cordl_internal_get_m_IsRangeSelectionDirectionUp() const;
 
-  constexpr void __set_m_IsRangeSelectionDirectionUp(bool value);
+  constexpr void __cordl_internal_set_m_IsRangeSelectionDirectionUp(bool value);
 
-  constexpr ::UnityEngine::UIElements::ListViewDragger*& __get_m_Dragger();
+  constexpr ::UnityEngine::UIElements::ListViewDragger*& __cordl_internal_get_m_Dragger();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListViewDragger*> const& __get_m_Dragger() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListViewDragger*> const& __cordl_internal_get_m_Dragger() const;
 
-  constexpr void __set_m_Dragger(::UnityEngine::UIElements::ListViewDragger* value);
+  constexpr void __cordl_internal_set_m_Dragger(::UnityEngine::UIElements::ListViewDragger* value);
 
-  constexpr ::System::Action_2<int32_t, int32_t>*& __get_m_ItemIndexChangedCallback();
+  constexpr ::System::Action_2<int32_t, int32_t>*& __cordl_internal_get_m_ItemIndexChangedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __get_m_ItemIndexChangedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __cordl_internal_get_m_ItemIndexChangedCallback() const;
 
-  constexpr void __set_m_ItemIndexChangedCallback(::System::Action_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_m_ItemIndexChangedCallback(::System::Action_2<int32_t, int32_t>* value);
 
-  constexpr ::System::Action*& __get_m_ItemsSourceChangedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_m_ItemsSourceChangedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_ItemsSourceChangedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_ItemsSourceChangedCallback() const;
 
-  constexpr void __set_m_ItemsSourceChangedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_m_ItemsSourceChangedCallback(::System::Action* value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_TouchDownPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_TouchDownPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_TouchDownPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_TouchDownPosition() const;
 
-  constexpr void __set_m_TouchDownPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_TouchDownPosition(::UnityEngine::Vector3 value);
 
   static inline void setStaticF_k_EmptyItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 

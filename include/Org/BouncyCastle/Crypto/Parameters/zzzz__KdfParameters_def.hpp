@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1064))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfParameters*
 class CORDL_TYPE KdfParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field iv, offset 0x10, size 0x8
-  __declspec(property(get = __get_iv, put = __set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
 
   /// @brief Field shared, offset 0x18, size 0x8
-  __declspec(property(get = __get_shared, put = __set_shared))::ArrayW<uint8_t, ::Array<uint8_t>*> shared;
+  __declspec(property(get = __cordl_internal_get_shared, put = __cordl_internal_set_shared))::ArrayW<uint8_t, ::Array<uint8_t>*> shared;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
@@ -37,17 +37,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_iv();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_iv();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_iv() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
 
-  constexpr void __set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_shared();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_shared();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_shared() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_shared() const;
 
-  constexpr void __set_shared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_shared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> shared, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 

@@ -35,20 +35,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::GeneralSubtree);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(363))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::GeneralSubtree*
 class CORDL_TYPE GeneralSubtree : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field baseName, offset 0x10, size 0x8
-  __declspec(property(get = __get_baseName, put = __set_baseName))::Org::BouncyCastle::Asn1::X509::GeneralName* baseName;
+  __declspec(property(get = __cordl_internal_get_baseName, put = __cordl_internal_set_baseName))::Org::BouncyCastle::Asn1::X509::GeneralName* baseName;
 
   /// @brief Field minimum, offset 0x18, size 0x8
-  __declspec(property(get = __get_minimum, put = __set_minimum))::Org::BouncyCastle::Asn1::DerInteger* minimum;
+  __declspec(property(get = __cordl_internal_get_minimum, put = __cordl_internal_set_minimum))::Org::BouncyCastle::Asn1::DerInteger* minimum;
 
   /// @brief Field maximum, offset 0x20, size 0x8
-  __declspec(property(get = __get_maximum, put = __set_maximum))::Org::BouncyCastle::Asn1::DerInteger* maximum;
+  __declspec(property(get = __cordl_internal_get_maximum, put = __cordl_internal_set_maximum))::Org::BouncyCastle::Asn1::DerInteger* maximum;
 
   __declspec(property(get = get_Base))::Org::BouncyCastle::Asn1::X509::GeneralName* Base;
 
@@ -56,23 +56,23 @@ public:
 
   __declspec(property(get = get_Maximum))::Org::BouncyCastle::Math::BigInteger* Maximum;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_baseName();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_baseName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_baseName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_baseName() const;
 
-  constexpr void __set_baseName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_baseName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_minimum();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_minimum();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_minimum() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_minimum() const;
 
-  constexpr void __set_minimum(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_minimum(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_maximum();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_maximum();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_maximum() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_maximum() const;
 
-  constexpr void __set_maximum(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_maximum(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

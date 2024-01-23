@@ -32,65 +32,65 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Torus);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12239))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Torus*
 class CORDL_TYPE Torus : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field m_Rows, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Rows, put = __set_m_Rows)) int32_t m_Rows;
+  __declspec(property(get = __cordl_internal_get_m_Rows, put = __cordl_internal_set_m_Rows)) int32_t m_Rows;
 
   /// @brief Field m_Columns, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_Columns, put = __set_m_Columns)) int32_t m_Columns;
+  __declspec(property(get = __cordl_internal_get_m_Columns, put = __cordl_internal_set_m_Columns)) int32_t m_Columns;
 
   /// @brief Field m_TubeRadius, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_TubeRadius, put = __set_m_TubeRadius)) float_t m_TubeRadius;
+  __declspec(property(get = __cordl_internal_get_m_TubeRadius, put = __cordl_internal_set_m_TubeRadius)) float_t m_TubeRadius;
 
   /// @brief Field m_HorizontalCircumference, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_HorizontalCircumference, put = __set_m_HorizontalCircumference)) float_t m_HorizontalCircumference;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalCircumference, put = __cordl_internal_set_m_HorizontalCircumference)) float_t m_HorizontalCircumference;
 
   /// @brief Field m_VerticalCircumference, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_VerticalCircumference, put = __set_m_VerticalCircumference)) float_t m_VerticalCircumference;
+  __declspec(property(get = __cordl_internal_get_m_VerticalCircumference, put = __cordl_internal_set_m_VerticalCircumference)) float_t m_VerticalCircumference;
 
   /// @brief Field m_Smooth, offset 0x24, size 0x1
-  __declspec(property(get = __get_m_Smooth, put = __set_m_Smooth)) bool m_Smooth;
+  __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  constexpr int32_t& __get_m_Rows();
+  constexpr int32_t& __cordl_internal_get_m_Rows();
 
-  constexpr int32_t const& __get_m_Rows() const;
+  constexpr int32_t const& __cordl_internal_get_m_Rows() const;
 
-  constexpr void __set_m_Rows(int32_t value);
+  constexpr void __cordl_internal_set_m_Rows(int32_t value);
 
-  constexpr int32_t& __get_m_Columns();
+  constexpr int32_t& __cordl_internal_get_m_Columns();
 
-  constexpr int32_t const& __get_m_Columns() const;
+  constexpr int32_t const& __cordl_internal_get_m_Columns() const;
 
-  constexpr void __set_m_Columns(int32_t value);
+  constexpr void __cordl_internal_set_m_Columns(int32_t value);
 
-  constexpr float_t& __get_m_TubeRadius();
+  constexpr float_t& __cordl_internal_get_m_TubeRadius();
 
-  constexpr float_t const& __get_m_TubeRadius() const;
+  constexpr float_t const& __cordl_internal_get_m_TubeRadius() const;
 
-  constexpr void __set_m_TubeRadius(float_t value);
+  constexpr void __cordl_internal_set_m_TubeRadius(float_t value);
 
-  constexpr float_t& __get_m_HorizontalCircumference();
+  constexpr float_t& __cordl_internal_get_m_HorizontalCircumference();
 
-  constexpr float_t const& __get_m_HorizontalCircumference() const;
+  constexpr float_t const& __cordl_internal_get_m_HorizontalCircumference() const;
 
-  constexpr void __set_m_HorizontalCircumference(float_t value);
+  constexpr void __cordl_internal_set_m_HorizontalCircumference(float_t value);
 
-  constexpr float_t& __get_m_VerticalCircumference();
+  constexpr float_t& __cordl_internal_get_m_VerticalCircumference();
 
-  constexpr float_t const& __get_m_VerticalCircumference() const;
+  constexpr float_t const& __cordl_internal_get_m_VerticalCircumference() const;
 
-  constexpr void __set_m_VerticalCircumference(float_t value);
+  constexpr void __cordl_internal_set_m_VerticalCircumference(float_t value);
 
-  constexpr bool& __get_m_Smooth();
+  constexpr bool& __cordl_internal_get_m_Smooth();
 
-  constexpr bool const& __get_m_Smooth() const;
+  constexpr bool const& __cordl_internal_get_m_Smooth() const;
 
-  constexpr void __set_m_Smooth(bool value);
+  constexpr void __cordl_internal_set_m_Smooth(bool value);
 
   /// @brief Method CopyShape, addr 0x2b914f0, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);

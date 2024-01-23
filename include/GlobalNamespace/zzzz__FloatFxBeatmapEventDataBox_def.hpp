@@ -36,32 +36,33 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14732)), TypeDefinitionIndex(TypeDefinitionIndex(4314)), TypeDefinitionIndex(TypeDefinitionIndex(4309)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4309), inst: 2547 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4311)) CS Name: ::FloatFxBeatmapEventDataBox*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4309)), TypeDefinitionIndex(TypeDefinitionIndex(4314)), TypeDefinitionIndex(TypeDefinitionIndex(14732)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4309), inst: 2547 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4311)) CS Name: ::FloatFxBeatmapEventDataBox*
 class CORDL_TYPE FloatFxBeatmapEventDataBox : public ::GlobalNamespace::FxBeatmapEventDataBox_2<::GlobalNamespace::FloatFxBaseData*, ::GlobalNamespace::FloatFxBeatmapEventData*> {
 public:
   // Declarations
   /// @brief Field _vfxBaseDataList, offset 0x40, size 0x8
-  __declspec(property(get = __get__vfxBaseDataList, put = __set__vfxBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* _vfxBaseDataList;
+  __declspec(property(get = __cordl_internal_get__vfxBaseDataList,
+                      put = __cordl_internal_set__vfxBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* _vfxBaseDataList;
 
   /// @brief Field _beatStep, offset 0x48, size 0x4
-  __declspec(property(get = __get__beatStep, put = __set__beatStep)) float_t _beatStep;
+  __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
   __declspec(property(get = get_beatStep)) float_t beatStep;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*& __get__vfxBaseDataList();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*& __cordl_internal_get__vfxBaseDataList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*> const& __get__vfxBaseDataList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*> const& __cordl_internal_get__vfxBaseDataList() const;
 
-  constexpr void __set__vfxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* value);
+  constexpr void __cordl_internal_set__vfxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* value);
 
-  constexpr float_t& __get__beatStep();
+  constexpr float_t& __cordl_internal_get__beatStep();
 
-  constexpr float_t const& __get__beatStep() const;
+  constexpr float_t const& __cordl_internal_get__beatStep() const;
 
-  constexpr void __set__beatStep(float_t value);
+  constexpr void __cordl_internal_set__beatStep(float_t value);
 
   /// @brief Method get_subtypeIdentifier, addr 0x233adf4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();

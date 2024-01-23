@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::PreloadData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10273))
 // CS Name: ::UnityEngine::PreloadData*
 class CORDL_TYPE PreloadData : public ::UnityEngine::Object {

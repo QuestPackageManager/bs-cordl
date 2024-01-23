@@ -32,31 +32,31 @@ MARK_REF_PTR_T(::System::ComponentModel::EnumConverter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9472))
 // CS Name: ::System.ComponentModel::EnumConverter*
 class CORDL_TYPE EnumConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
   /// @brief Field values, offset 0x10, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* values;
 
   /// @brief Field type, offset 0x18, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   __declspec(property(get = get_Comparer))::System::Collections::IComparer* Comparer;
 
-  constexpr ::System::ComponentModel::__TypeConverter__StandardValuesCollection*& __get_values();
+  constexpr ::System::ComponentModel::__TypeConverter__StandardValuesCollection*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeConverter__StandardValuesCollection*> const& __get_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeConverter__StandardValuesCollection*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
+  constexpr void __cordl_internal_set_values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
   static inline ::System::ComponentModel::EnumConverter* New_ctor(::System::Type* type);
 

@@ -53,105 +53,105 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__FBIKChain__ChildConstraint);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12548))
 // CS Name: ::FBIKChain::ChildConstraint*
 class CORDL_TYPE __FBIKChain__ChildConstraint : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pushElasticity, offset 0x10, size 0x4
-  __declspec(property(get = __get_pushElasticity, put = __set_pushElasticity)) float_t pushElasticity;
+  __declspec(property(get = __cordl_internal_get_pushElasticity, put = __cordl_internal_set_pushElasticity)) float_t pushElasticity;
 
   /// @brief Field pullElasticity, offset 0x14, size 0x4
-  __declspec(property(get = __get_pullElasticity, put = __set_pullElasticity)) float_t pullElasticity;
+  __declspec(property(get = __cordl_internal_get_pullElasticity, put = __cordl_internal_set_pullElasticity)) float_t pullElasticity;
 
   /// @brief Field bone1, offset 0x18, size 0x8
-  __declspec(property(get = __get_bone1, put = __set_bone1))::UnityEngine::Transform* bone1;
+  __declspec(property(get = __cordl_internal_get_bone1, put = __cordl_internal_set_bone1))::UnityW<::UnityEngine::Transform> bone1;
 
   /// @brief Field bone2, offset 0x20, size 0x8
-  __declspec(property(get = __get_bone2, put = __set_bone2))::UnityEngine::Transform* bone2;
+  __declspec(property(get = __cordl_internal_get_bone2, put = __cordl_internal_set_bone2))::UnityW<::UnityEngine::Transform> bone2;
 
   /// @brief Field <nominalDistance>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__nominalDistance_k__BackingField, put = __set__nominalDistance_k__BackingField)) float_t _nominalDistance_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__nominalDistance_k__BackingField, put = __cordl_internal_set__nominalDistance_k__BackingField)) float_t _nominalDistance_k__BackingField;
 
   /// @brief Field <isRigid>k__BackingField, offset 0x2c, size 0x1
-  __declspec(property(get = __get__isRigid_k__BackingField, put = __set__isRigid_k__BackingField)) bool _isRigid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isRigid_k__BackingField, put = __cordl_internal_set__isRigid_k__BackingField)) bool _isRigid_k__BackingField;
 
   /// @brief Field crossFade, offset 0x30, size 0x4
-  __declspec(property(get = __get_crossFade, put = __set_crossFade)) float_t crossFade;
+  __declspec(property(get = __cordl_internal_get_crossFade, put = __cordl_internal_set_crossFade)) float_t crossFade;
 
   /// @brief Field inverseCrossFade, offset 0x34, size 0x4
-  __declspec(property(get = __get_inverseCrossFade, put = __set_inverseCrossFade)) float_t inverseCrossFade;
+  __declspec(property(get = __cordl_internal_get_inverseCrossFade, put = __cordl_internal_set_inverseCrossFade)) float_t inverseCrossFade;
 
   /// @brief Field chain1Index, offset 0x38, size 0x4
-  __declspec(property(get = __get_chain1Index, put = __set_chain1Index)) int32_t chain1Index;
+  __declspec(property(get = __cordl_internal_get_chain1Index, put = __cordl_internal_set_chain1Index)) int32_t chain1Index;
 
   /// @brief Field chain2Index, offset 0x3c, size 0x4
-  __declspec(property(get = __get_chain2Index, put = __set_chain2Index)) int32_t chain2Index;
+  __declspec(property(get = __cordl_internal_get_chain2Index, put = __cordl_internal_set_chain2Index)) int32_t chain2Index;
 
   __declspec(property(get = get_nominalDistance, put = set_nominalDistance)) float_t nominalDistance;
 
   __declspec(property(get = get_isRigid, put = set_isRigid)) bool isRigid;
 
-  constexpr float_t& __get_pushElasticity();
+  constexpr float_t& __cordl_internal_get_pushElasticity();
 
-  constexpr float_t const& __get_pushElasticity() const;
+  constexpr float_t const& __cordl_internal_get_pushElasticity() const;
 
-  constexpr void __set_pushElasticity(float_t value);
+  constexpr void __cordl_internal_set_pushElasticity(float_t value);
 
-  constexpr float_t& __get_pullElasticity();
+  constexpr float_t& __cordl_internal_get_pullElasticity();
 
-  constexpr float_t const& __get_pullElasticity() const;
+  constexpr float_t const& __cordl_internal_get_pullElasticity() const;
 
-  constexpr void __set_pullElasticity(float_t value);
+  constexpr void __cordl_internal_set_pullElasticity(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get_bone1();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_bone1() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone1() const;
 
-  constexpr void __set_bone1(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_bone1(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_bone2();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_bone2() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone2() const;
 
-  constexpr void __set_bone2(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_bone2(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get__nominalDistance_k__BackingField();
+  constexpr float_t& __cordl_internal_get__nominalDistance_k__BackingField();
 
-  constexpr float_t const& __get__nominalDistance_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__nominalDistance_k__BackingField() const;
 
-  constexpr void __set__nominalDistance_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__nominalDistance_k__BackingField(float_t value);
 
-  constexpr bool& __get__isRigid_k__BackingField();
+  constexpr bool& __cordl_internal_get__isRigid_k__BackingField();
 
-  constexpr bool const& __get__isRigid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isRigid_k__BackingField() const;
 
-  constexpr void __set__isRigid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isRigid_k__BackingField(bool value);
 
-  constexpr float_t& __get_crossFade();
+  constexpr float_t& __cordl_internal_get_crossFade();
 
-  constexpr float_t const& __get_crossFade() const;
+  constexpr float_t const& __cordl_internal_get_crossFade() const;
 
-  constexpr void __set_crossFade(float_t value);
+  constexpr void __cordl_internal_set_crossFade(float_t value);
 
-  constexpr float_t& __get_inverseCrossFade();
+  constexpr float_t& __cordl_internal_get_inverseCrossFade();
 
-  constexpr float_t const& __get_inverseCrossFade() const;
+  constexpr float_t const& __cordl_internal_get_inverseCrossFade() const;
 
-  constexpr void __set_inverseCrossFade(float_t value);
+  constexpr void __cordl_internal_set_inverseCrossFade(float_t value);
 
-  constexpr int32_t& __get_chain1Index();
+  constexpr int32_t& __cordl_internal_get_chain1Index();
 
-  constexpr int32_t const& __get_chain1Index() const;
+  constexpr int32_t const& __cordl_internal_get_chain1Index() const;
 
-  constexpr void __set_chain1Index(int32_t value);
+  constexpr void __cordl_internal_set_chain1Index(int32_t value);
 
-  constexpr int32_t& __get_chain2Index();
+  constexpr int32_t& __cordl_internal_get_chain2Index();
 
-  constexpr int32_t const& __get_chain2Index() const;
+  constexpr int32_t const& __cordl_internal_get_chain2Index() const;
 
-  constexpr void __set_chain2Index(int32_t value);
+  constexpr void __cordl_internal_set_chain2Index(int32_t value);
 
   /// @brief Method get_nominalDistance, addr 0x1257a58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nominalDistance();
@@ -200,10 +200,10 @@ public:
   float_t ___pullElasticity;
 
   /// @brief Field bone1, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___bone1;
+  ::UnityW<::UnityEngine::Transform> ___bone1;
 
   /// @brief Field bone2, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___bone2;
+  ::UnityW<::UnityEngine::Transform> ___bone2;
 
   /// @brief Field <nominalDistance>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____nominalDistance_k__BackingField;
@@ -253,7 +253,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___c
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12549))
 // CS Name: ::FBIKChain::Smoothing
 struct CORDL_TYPE __FBIKChain__Smoothing {
@@ -307,7 +307,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__Smoothing, value__) =
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12549))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12549))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12550))
 // CS Name: ::RootMotion.FinalIK::FBIKChain*
 class CORDL_TYPE FBIKChain : public ::System::Object {
@@ -318,203 +318,204 @@ public:
   using ChildConstraint = ::RootMotion::FinalIK::__FBIKChain__ChildConstraint;
 
   /// @brief Field pin, offset 0x10, size 0x4
-  __declspec(property(get = __get_pin, put = __set_pin)) float_t pin;
+  __declspec(property(get = __cordl_internal_get_pin, put = __cordl_internal_set_pin)) float_t pin;
 
   /// @brief Field pull, offset 0x14, size 0x4
-  __declspec(property(get = __get_pull, put = __set_pull)) float_t pull;
+  __declspec(property(get = __cordl_internal_get_pull, put = __cordl_internal_set_pull)) float_t pull;
 
   /// @brief Field push, offset 0x18, size 0x4
-  __declspec(property(get = __get_push, put = __set_push)) float_t push;
+  __declspec(property(get = __cordl_internal_get_push, put = __cordl_internal_set_push)) float_t push;
 
   /// @brief Field pushParent, offset 0x1c, size 0x4
-  __declspec(property(get = __get_pushParent, put = __set_pushParent)) float_t pushParent;
+  __declspec(property(get = __cordl_internal_get_pushParent, put = __cordl_internal_set_pushParent)) float_t pushParent;
 
   /// @brief Field reach, offset 0x20, size 0x4
-  __declspec(property(get = __get_reach, put = __set_reach)) float_t reach;
+  __declspec(property(get = __cordl_internal_get_reach, put = __cordl_internal_set_reach)) float_t reach;
 
   /// @brief Field reachSmoothing, offset 0x24, size 0x4
-  __declspec(property(get = __get_reachSmoothing, put = __set_reachSmoothing))::RootMotion::FinalIK::__FBIKChain__Smoothing reachSmoothing;
+  __declspec(property(get = __cordl_internal_get_reachSmoothing, put = __cordl_internal_set_reachSmoothing))::RootMotion::FinalIK::__FBIKChain__Smoothing reachSmoothing;
 
   /// @brief Field pushSmoothing, offset 0x28, size 0x4
-  __declspec(property(get = __get_pushSmoothing, put = __set_pushSmoothing))::RootMotion::FinalIK::__FBIKChain__Smoothing pushSmoothing;
+  __declspec(property(get = __cordl_internal_get_pushSmoothing, put = __cordl_internal_set_pushSmoothing))::RootMotion::FinalIK::__FBIKChain__Smoothing pushSmoothing;
 
   /// @brief Field nodes, offset 0x30, size 0x8
-  __declspec(property(get = __get_nodes, put = __set_nodes))::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> nodes;
+  __declspec(property(get = __cordl_internal_get_nodes, put = __cordl_internal_set_nodes))::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> nodes;
 
   /// @brief Field children, offset 0x38, size 0x8
-  __declspec(property(get = __get_children, put = __set_children))::ArrayW<int32_t, ::Array<int32_t>*> children;
+  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::ArrayW<int32_t, ::Array<int32_t>*> children;
 
   /// @brief Field childConstraints, offset 0x40, size 0x8
-  __declspec(property(get = __get_childConstraints,
-                      put = __set_childConstraints))::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> childConstraints;
+  __declspec(property(
+      get = __cordl_internal_get_childConstraints,
+      put = __cordl_internal_set_childConstraints))::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> childConstraints;
 
   /// @brief Field bendConstraint, offset 0x48, size 0x8
-  __declspec(property(get = __get_bendConstraint, put = __set_bendConstraint))::RootMotion::FinalIK::IKConstraintBend* bendConstraint;
+  __declspec(property(get = __cordl_internal_get_bendConstraint, put = __cordl_internal_set_bendConstraint))::RootMotion::FinalIK::IKConstraintBend* bendConstraint;
 
   /// @brief Field rootLength, offset 0x50, size 0x4
-  __declspec(property(get = __get_rootLength, put = __set_rootLength)) float_t rootLength;
+  __declspec(property(get = __cordl_internal_get_rootLength, put = __cordl_internal_set_rootLength)) float_t rootLength;
 
   /// @brief Field initiated, offset 0x54, size 0x1
-  __declspec(property(get = __get_initiated, put = __set_initiated)) bool initiated;
+  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
 
   /// @brief Field length, offset 0x58, size 0x4
-  __declspec(property(get = __get_length, put = __set_length)) float_t length;
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
 
   /// @brief Field distance, offset 0x5c, size 0x4
-  __declspec(property(get = __get_distance, put = __set_distance)) float_t distance;
+  __declspec(property(get = __cordl_internal_get_distance, put = __cordl_internal_set_distance)) float_t distance;
 
   /// @brief Field p, offset 0x60, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::RootMotion::FinalIK::__IKSolver__Point* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::RootMotion::FinalIK::__IKSolver__Point* p;
 
   /// @brief Field reachForce, offset 0x68, size 0x4
-  __declspec(property(get = __get_reachForce, put = __set_reachForce)) float_t reachForce;
+  __declspec(property(get = __cordl_internal_get_reachForce, put = __cordl_internal_set_reachForce)) float_t reachForce;
 
   /// @brief Field pullParentSum, offset 0x6c, size 0x4
-  __declspec(property(get = __get_pullParentSum, put = __set_pullParentSum)) float_t pullParentSum;
+  __declspec(property(get = __cordl_internal_get_pullParentSum, put = __cordl_internal_set_pullParentSum)) float_t pullParentSum;
 
   /// @brief Field crossFades, offset 0x70, size 0x8
-  __declspec(property(get = __get_crossFades, put = __set_crossFades))::ArrayW<float_t, ::Array<float_t>*> crossFades;
+  __declspec(property(get = __cordl_internal_get_crossFades, put = __cordl_internal_set_crossFades))::ArrayW<float_t, ::Array<float_t>*> crossFades;
 
   /// @brief Field sqrMag1, offset 0x78, size 0x4
-  __declspec(property(get = __get_sqrMag1, put = __set_sqrMag1)) float_t sqrMag1;
+  __declspec(property(get = __cordl_internal_get_sqrMag1, put = __cordl_internal_set_sqrMag1)) float_t sqrMag1;
 
   /// @brief Field sqrMag2, offset 0x7c, size 0x4
-  __declspec(property(get = __get_sqrMag2, put = __set_sqrMag2)) float_t sqrMag2;
+  __declspec(property(get = __cordl_internal_get_sqrMag2, put = __cordl_internal_set_sqrMag2)) float_t sqrMag2;
 
   /// @brief Field sqrMagDif, offset 0x80, size 0x4
-  __declspec(property(get = __get_sqrMagDif, put = __set_sqrMagDif)) float_t sqrMagDif;
+  __declspec(property(get = __cordl_internal_get_sqrMagDif, put = __cordl_internal_set_sqrMagDif)) float_t sqrMagDif;
 
-  constexpr float_t& __get_pin();
+  constexpr float_t& __cordl_internal_get_pin();
 
-  constexpr float_t const& __get_pin() const;
+  constexpr float_t const& __cordl_internal_get_pin() const;
 
-  constexpr void __set_pin(float_t value);
+  constexpr void __cordl_internal_set_pin(float_t value);
 
-  constexpr float_t& __get_pull();
+  constexpr float_t& __cordl_internal_get_pull();
 
-  constexpr float_t const& __get_pull() const;
+  constexpr float_t const& __cordl_internal_get_pull() const;
 
-  constexpr void __set_pull(float_t value);
+  constexpr void __cordl_internal_set_pull(float_t value);
 
-  constexpr float_t& __get_push();
+  constexpr float_t& __cordl_internal_get_push();
 
-  constexpr float_t const& __get_push() const;
+  constexpr float_t const& __cordl_internal_get_push() const;
 
-  constexpr void __set_push(float_t value);
+  constexpr void __cordl_internal_set_push(float_t value);
 
-  constexpr float_t& __get_pushParent();
+  constexpr float_t& __cordl_internal_get_pushParent();
 
-  constexpr float_t const& __get_pushParent() const;
+  constexpr float_t const& __cordl_internal_get_pushParent() const;
 
-  constexpr void __set_pushParent(float_t value);
+  constexpr void __cordl_internal_set_pushParent(float_t value);
 
-  constexpr float_t& __get_reach();
+  constexpr float_t& __cordl_internal_get_reach();
 
-  constexpr float_t const& __get_reach() const;
+  constexpr float_t const& __cordl_internal_get_reach() const;
 
-  constexpr void __set_reach(float_t value);
+  constexpr void __cordl_internal_set_reach(float_t value);
 
-  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing& __get_reachSmoothing();
+  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing& __cordl_internal_get_reachSmoothing();
 
-  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing const& __get_reachSmoothing() const;
+  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing const& __cordl_internal_get_reachSmoothing() const;
 
-  constexpr void __set_reachSmoothing(::RootMotion::FinalIK::__FBIKChain__Smoothing value);
+  constexpr void __cordl_internal_set_reachSmoothing(::RootMotion::FinalIK::__FBIKChain__Smoothing value);
 
-  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing& __get_pushSmoothing();
+  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing& __cordl_internal_get_pushSmoothing();
 
-  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing const& __get_pushSmoothing() const;
+  constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing const& __cordl_internal_get_pushSmoothing() const;
 
-  constexpr void __set_pushSmoothing(::RootMotion::FinalIK::__FBIKChain__Smoothing value);
+  constexpr void __cordl_internal_set_pushSmoothing(::RootMotion::FinalIK::__FBIKChain__Smoothing value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*>& __get_nodes();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*>& __cordl_internal_get_nodes();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> const& __get_nodes() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> const& __cordl_internal_get_nodes() const;
 
-  constexpr void __set_nodes(::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> value);
+  constexpr void __cordl_internal_set_nodes(::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_children();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_children();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_children() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_children() const;
 
-  constexpr void __set_children(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_children(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*>& __get_childConstraints();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*>& __cordl_internal_get_childConstraints();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> const& __get_childConstraints() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> const& __cordl_internal_get_childConstraints() const;
 
-  constexpr void __set_childConstraints(::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> value);
+  constexpr void __cordl_internal_set_childConstraints(::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> value);
 
-  constexpr ::RootMotion::FinalIK::IKConstraintBend*& __get_bendConstraint();
+  constexpr ::RootMotion::FinalIK::IKConstraintBend*& __cordl_internal_get_bendConstraint();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKConstraintBend*> const& __get_bendConstraint() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKConstraintBend*> const& __cordl_internal_get_bendConstraint() const;
 
-  constexpr void __set_bendConstraint(::RootMotion::FinalIK::IKConstraintBend* value);
+  constexpr void __cordl_internal_set_bendConstraint(::RootMotion::FinalIK::IKConstraintBend* value);
 
-  constexpr float_t& __get_rootLength();
+  constexpr float_t& __cordl_internal_get_rootLength();
 
-  constexpr float_t const& __get_rootLength() const;
+  constexpr float_t const& __cordl_internal_get_rootLength() const;
 
-  constexpr void __set_rootLength(float_t value);
+  constexpr void __cordl_internal_set_rootLength(float_t value);
 
-  constexpr bool& __get_initiated();
+  constexpr bool& __cordl_internal_get_initiated();
 
-  constexpr bool const& __get_initiated() const;
+  constexpr bool const& __cordl_internal_get_initiated() const;
 
-  constexpr void __set_initiated(bool value);
+  constexpr void __cordl_internal_set_initiated(bool value);
 
-  constexpr float_t& __get_length();
+  constexpr float_t& __cordl_internal_get_length();
 
-  constexpr float_t const& __get_length() const;
+  constexpr float_t const& __cordl_internal_get_length() const;
 
-  constexpr void __set_length(float_t value);
+  constexpr void __cordl_internal_set_length(float_t value);
 
-  constexpr float_t& __get_distance();
+  constexpr float_t& __cordl_internal_get_distance();
 
-  constexpr float_t const& __get_distance() const;
+  constexpr float_t const& __cordl_internal_get_distance() const;
 
-  constexpr void __set_distance(float_t value);
+  constexpr void __cordl_internal_set_distance(float_t value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __get_p();
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::RootMotion::FinalIK::__IKSolver__Point* value);
+  constexpr void __cordl_internal_set_p(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  constexpr float_t& __get_reachForce();
+  constexpr float_t& __cordl_internal_get_reachForce();
 
-  constexpr float_t const& __get_reachForce() const;
+  constexpr float_t const& __cordl_internal_get_reachForce() const;
 
-  constexpr void __set_reachForce(float_t value);
+  constexpr void __cordl_internal_set_reachForce(float_t value);
 
-  constexpr float_t& __get_pullParentSum();
+  constexpr float_t& __cordl_internal_get_pullParentSum();
 
-  constexpr float_t const& __get_pullParentSum() const;
+  constexpr float_t const& __cordl_internal_get_pullParentSum() const;
 
-  constexpr void __set_pullParentSum(float_t value);
+  constexpr void __cordl_internal_set_pullParentSum(float_t value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_crossFades();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_crossFades();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_crossFades() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_crossFades() const;
 
-  constexpr void __set_crossFades(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_crossFades(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr float_t& __get_sqrMag1();
+  constexpr float_t& __cordl_internal_get_sqrMag1();
 
-  constexpr float_t const& __get_sqrMag1() const;
+  constexpr float_t const& __cordl_internal_get_sqrMag1() const;
 
-  constexpr void __set_sqrMag1(float_t value);
+  constexpr void __cordl_internal_set_sqrMag1(float_t value);
 
-  constexpr float_t& __get_sqrMag2();
+  constexpr float_t& __cordl_internal_get_sqrMag2();
 
-  constexpr float_t const& __get_sqrMag2() const;
+  constexpr float_t const& __cordl_internal_get_sqrMag2() const;
 
-  constexpr void __set_sqrMag2(float_t value);
+  constexpr void __cordl_internal_set_sqrMag2(float_t value);
 
-  constexpr float_t& __get_sqrMagDif();
+  constexpr float_t& __cordl_internal_get_sqrMagDif();
 
-  constexpr float_t const& __get_sqrMagDif() const;
+  constexpr float_t const& __cordl_internal_get_sqrMagDif() const;
 
-  constexpr void __set_sqrMagDif(float_t value);
+  constexpr void __cordl_internal_set_sqrMagDif(float_t value);
 
   static inline ::RootMotion::FinalIK::FBIKChain* New_ctor();
 

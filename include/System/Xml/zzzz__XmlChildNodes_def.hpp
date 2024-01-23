@@ -21,22 +21,22 @@ MARK_REF_PTR_T(::System::Xml::XmlChildNodes);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11523))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11523))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11502))
 // CS Name: ::System.Xml::XmlChildNodes*
 class CORDL_TYPE XmlChildNodes : public ::System::Xml::XmlNodeList {
 public:
   // Declarations
   /// @brief Field container, offset 0x10, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::System::Xml::XmlNode* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::System::Xml::XmlNode* container;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::System::Xml::XmlNode*& __get_container();
+  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::System::Xml::XmlNode* value);
+  constexpr void __cordl_internal_set_container(::System::Xml::XmlNode* value);
 
   static inline ::System::Xml::XmlChildNodes* New_ctor(::System::Xml::XmlNode* container);
 

@@ -111,20 +111,20 @@ MARK_GEN_REF_PTR_T(::Zenject::__ConventionFilterTypesBinder____c__DisplayClass9_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10688))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass2_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parentType, offset 0x10, size 0x8
-  __declspec(property(get = __get_parentType, put = __set_parentType))::System::Type* parentType;
+  __declspec(property(get = __cordl_internal_get_parentType, put = __cordl_internal_set_parentType))::System::Type* parentType;
 
-  constexpr ::System::Type*& __get_parentType();
+  constexpr ::System::Type*& __cordl_internal_get_parentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_parentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_parentType() const;
 
-  constexpr void __set_parentType(::System::Type* value);
+  constexpr void __cordl_internal_set_parentType(::System::Type* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass2_0* New_ctor();
 
@@ -169,20 +169,20 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10689))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass4_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parentType, offset 0x10, size 0x8
-  __declspec(property(get = __get_parentType, put = __set_parentType))::System::Type* parentType;
+  __declspec(property(get = __cordl_internal_get_parentType, put = __cordl_internal_set_parentType))::System::Type* parentType;
 
-  constexpr ::System::Type*& __get_parentType();
+  constexpr ::System::Type*& __cordl_internal_get_parentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_parentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_parentType() const;
 
-  constexpr void __set_parentType(::System::Type* value);
+  constexpr void __cordl_internal_set_parentType(::System::Type* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass4_0* New_ctor();
 
@@ -227,20 +227,20 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10690))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass6_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attribute, offset 0x10, size 0x8
-  __declspec(property(get = __get_attribute, put = __set_attribute))::System::Type* attribute;
+  __declspec(property(get = __cordl_internal_get_attribute, put = __cordl_internal_set_attribute))::System::Type* attribute;
 
-  constexpr ::System::Type*& __get_attribute();
+  constexpr ::System::Type*& __cordl_internal_get_attribute();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_attribute() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_attribute() const;
 
-  constexpr void __set_attribute(::System::Type* value);
+  constexpr void __cordl_internal_set_attribute(::System::Type* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass6_0* New_ctor();
 
@@ -285,20 +285,20 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10691))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass8_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attribute, offset 0x10, size 0x8
-  __declspec(property(get = __get_attribute, put = __set_attribute))::System::Type* attribute;
+  __declspec(property(get = __cordl_internal_get_attribute, put = __cordl_internal_set_attribute))::System::Type* attribute;
 
-  constexpr ::System::Type*& __get_attribute();
+  constexpr ::System::Type*& __cordl_internal_get_attribute();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_attribute() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_attribute() const;
 
-  constexpr void __set_attribute(::System::Type* value);
+  constexpr void __cordl_internal_set_attribute(::System::Type* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass8_0* New_ctor();
 
@@ -345,20 +345,20 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10692))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass9_0`1<T>*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass9_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field predicate, offset 0x10, size 0x8
-  __declspec(property(get = __get_predicate, put = __set_predicate))::System::Func_2<T, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<T, bool>* predicate;
 
-  constexpr ::System::Func_2<T, bool>*& __get_predicate();
+  constexpr ::System::Func_2<T, bool>*& __cordl_internal_get_predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T, bool>*> const& __get_predicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T, bool>*> const& __cordl_internal_get_predicate() const;
 
-  constexpr void __set_predicate(::System::Func_2<T, bool>* value);
+  constexpr void __cordl_internal_set_predicate(::System::Func_2<T, bool>* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass9_0_1<T>* New_ctor();
 
@@ -399,20 +399,20 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10693))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass13_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field namespaces, offset 0x10, size 0x8
-  __declspec(property(get = __get_namespaces, put = __set_namespaces))::System::Collections::Generic::IEnumerable_1<::StringW>* namespaces;
+  __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces))::System::Collections::Generic::IEnumerable_1<::StringW>* namespaces;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __get_namespaces();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __cordl_internal_get_namespaces();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __get_namespaces() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __cordl_internal_get_namespaces() const;
 
-  constexpr void __set_namespaces(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
+  constexpr void __cordl_internal_set_namespaces(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass13_0* New_ctor();
 
@@ -457,20 +457,20 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10694))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass13_1*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass13_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field t, offset 0x10, size 0x8
-  __declspec(property(get = __get_t, put = __set_t))::System::Type* t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::System::Type* t;
 
-  constexpr ::System::Type*& __get_t();
+  constexpr ::System::Type*& __cordl_internal_get_t();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_t() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_t() const;
 
-  constexpr void __set_t(::System::Type* value);
+  constexpr void __cordl_internal_set_t(::System::Type* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass13_1* New_ctor();
 
@@ -515,20 +515,20 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10695))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass14_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field suffix, offset 0x10, size 0x8
-  __declspec(property(get = __get_suffix, put = __set_suffix))::StringW suffix;
+  __declspec(property(get = __cordl_internal_get_suffix, put = __cordl_internal_set_suffix))::StringW suffix;
 
-  constexpr ::StringW& __get_suffix();
+  constexpr ::StringW& __cordl_internal_get_suffix();
 
-  constexpr ::StringW const& __get_suffix() const;
+  constexpr ::StringW const& __cordl_internal_get_suffix() const;
 
-  constexpr void __set_suffix(::StringW value);
+  constexpr void __cordl_internal_set_suffix(::StringW value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass14_0* New_ctor();
 
@@ -573,20 +573,20 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10696))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass15_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass15_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prefix, offset 0x10, size 0x8
-  __declspec(property(get = __get_prefix, put = __set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
 
-  constexpr ::StringW& __get_prefix();
+  constexpr ::StringW& __cordl_internal_get_prefix();
 
-  constexpr ::StringW const& __get_prefix() const;
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
-  constexpr void __set_prefix(::StringW value);
+  constexpr void __cordl_internal_set_prefix(::StringW value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass15_0* New_ctor();
 
@@ -631,20 +631,20 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10697))
 // CS Name: ::ConventionFilterTypesBinder::<>c__DisplayClass18_0*
 class CORDL_TYPE __ConventionFilterTypesBinder____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field regex, offset 0x10, size 0x8
-  __declspec(property(get = __get_regex, put = __set_regex))::System::Text::RegularExpressions::Regex* regex;
+  __declspec(property(get = __cordl_internal_get_regex, put = __cordl_internal_set_regex))::System::Text::RegularExpressions::Regex* regex;
 
-  constexpr ::System::Text::RegularExpressions::Regex*& __get_regex();
+  constexpr ::System::Text::RegularExpressions::Regex*& __cordl_internal_get_regex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __get_regex() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __cordl_internal_get_regex() const;
 
-  constexpr void __set_regex(::System::Text::RegularExpressions::Regex* value);
+  constexpr void __cordl_internal_set_regex(::System::Text::RegularExpressions::Regex* value);
 
   static inline ::Zenject::__ConventionFilterTypesBinder____c__DisplayClass18_0* New_ctor();
 
@@ -689,7 +689,7 @@ static_assert(offsetof(::Zenject::__ConventionFilterTypesBinder____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10684))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10684))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10698))
 // CS Name: ::Zenject::ConventionFilterTypesBinder*
 class CORDL_TYPE ConventionFilterTypesBinder : public ::Zenject::ConventionAssemblySelectionBinder {

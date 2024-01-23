@@ -40,36 +40,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMateri
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3966))
 // CS Name: ::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*
 class CORDL_TYPE __BTSCharacterMaterialSwitcher__RendererMaterialsPairs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _renderer, offset 0x10, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::Renderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
   /// @brief Field _materialPairs, offset 0x18, size 0x8
-  __declspec(property(get = __get__materialPairs, put = __set__materialPairs))::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* _materialPairs;
+  __declspec(property(get = __cordl_internal_get__materialPairs,
+                      put = __cordl_internal_set__materialPairs))::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* _materialPairs;
 
-  __declspec(property(get = get_renderer))::UnityEngine::Renderer* renderer;
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
   __declspec(property(get = get_materialPairs))::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* materialPairs;
 
-  constexpr ::UnityEngine::Renderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>*& __get__materialPairs();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>*& __cordl_internal_get__materialPairs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>*> const& __get__materialPairs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>*> const&
+  __cordl_internal_get__materialPairs() const;
 
-  constexpr void __set__materialPairs(::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* value);
+  constexpr void __cordl_internal_set__materialPairs(::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* value);
 
   /// @brief Method get_renderer, addr 0x2219afc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Renderer* get_renderer();
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
   /// @brief Method get_materialPairs, addr 0x2219b04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* get_materialPairs();
@@ -94,7 +96,7 @@ protected:
 
 public:
   /// @brief Field _renderer, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____renderer;
+  ::UnityW<::UnityEngine::Renderer> ____renderer;
 
   /// @brief Field _materialPairs, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* ____materialPairs;
@@ -113,38 +115,38 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__Render
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3967))
 // CS Name: ::BTSCharacterMaterialSwitcher::MaterialPairs*
 class CORDL_TYPE __BTSCharacterMaterialSwitcher__MaterialPairs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field materialIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get_materialIndex, put = __set_materialIndex)) int32_t materialIndex;
+  __declspec(property(get = __cordl_internal_get_materialIndex, put = __cordl_internal_set_materialIndex)) int32_t materialIndex;
 
   /// @brief Field defaultMaterial, offset 0x18, size 0x8
-  __declspec(property(get = __get_defaultMaterial, put = __set_defaultMaterial))::UnityEngine::Material* defaultMaterial;
+  __declspec(property(get = __cordl_internal_get_defaultMaterial, put = __cordl_internal_set_defaultMaterial))::UnityW<::UnityEngine::Material> defaultMaterial;
 
   /// @brief Field alternativeMaterial, offset 0x20, size 0x8
-  __declspec(property(get = __get_alternativeMaterial, put = __set_alternativeMaterial))::UnityEngine::Material* alternativeMaterial;
+  __declspec(property(get = __cordl_internal_get_alternativeMaterial, put = __cordl_internal_set_alternativeMaterial))::UnityW<::UnityEngine::Material> alternativeMaterial;
 
-  constexpr int32_t& __get_materialIndex();
+  constexpr int32_t& __cordl_internal_get_materialIndex();
 
-  constexpr int32_t const& __get_materialIndex() const;
+  constexpr int32_t const& __cordl_internal_get_materialIndex() const;
 
-  constexpr void __set_materialIndex(int32_t value);
+  constexpr void __cordl_internal_set_materialIndex(int32_t value);
 
-  constexpr ::UnityEngine::Material*& __get_defaultMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_defaultMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_defaultMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_defaultMaterial() const;
 
-  constexpr void __set_defaultMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_defaultMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_alternativeMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_alternativeMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_alternativeMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_alternativeMaterial() const;
 
-  constexpr void __set_alternativeMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_alternativeMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline ::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs* New_ctor();
 
@@ -169,10 +171,10 @@ public:
   int32_t ___materialIndex;
 
   /// @brief Field defaultMaterial, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ___defaultMaterial;
+  ::UnityW<::UnityEngine::Material> ___defaultMaterial;
 
   /// @brief Field alternativeMaterial, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Material* ___alternativeMaterial;
+  ::UnityW<::UnityEngine::Material> ___alternativeMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -190,7 +192,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__Materi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3968))
 // CS Name: ::BTSCharacterMaterialSwitcher*
 class CORDL_TYPE BTSCharacterMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
@@ -201,17 +203,17 @@ public:
   using RendererMaterialsPairs = ::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
 
   /// @brief Field _rendererMaterialsPairs, offset 0x18, size 0x8
-  __declspec(property(get = __get__rendererMaterialsPairs,
-                      put = __set__rendererMaterialsPairs))::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*,
-                                                                    ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> _rendererMaterialsPairs;
+  __declspec(property(get = __cordl_internal_get__rendererMaterialsPairs,
+                      put = __cordl_internal_set__rendererMaterialsPairs))::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*,
+                                                                                   ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> _rendererMaterialsPairs;
 
   constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*>&
-  __get__rendererMaterialsPairs();
+  __cordl_internal_get__rendererMaterialsPairs();
 
   constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> const&
-  __get__rendererMaterialsPairs() const;
+  __cordl_internal_get__rendererMaterialsPairs() const;
 
-  constexpr void __set__rendererMaterialsPairs(
+  constexpr void __cordl_internal_set__rendererMaterialsPairs(
       ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> value);
 
   /// @brief Method SwapMaterials, addr 0x2219850, size 0x254, virtual false, abstract: false, final false

@@ -25,7 +25,7 @@ MARK_VAL_T(::System::ParsingInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2388))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2388))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2400))
 // CS Name: ::System::ParsingInfo
 struct CORDL_TYPE ParsingInfo {

@@ -19,26 +19,26 @@ MARK_REF_PTR_T(::System::Net::ResponseDescription);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9037))
 // CS Name: ::System.Net::ResponseDescription*
 class CORDL_TYPE ResponseDescription : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Multiline, offset 0x10, size 0x1
-  __declspec(property(get = __get_Multiline, put = __set_Multiline)) bool Multiline;
+  __declspec(property(get = __cordl_internal_get_Multiline, put = __cordl_internal_set_Multiline)) bool Multiline;
 
   /// @brief Field Status, offset 0x14, size 0x4
-  __declspec(property(get = __get_Status, put = __set_Status)) int32_t Status;
+  __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status)) int32_t Status;
 
   /// @brief Field StatusDescription, offset 0x18, size 0x8
-  __declspec(property(get = __get_StatusDescription, put = __set_StatusDescription))::StringW StatusDescription;
+  __declspec(property(get = __cordl_internal_get_StatusDescription, put = __cordl_internal_set_StatusDescription))::StringW StatusDescription;
 
   /// @brief Field StatusBuffer, offset 0x20, size 0x8
-  __declspec(property(get = __get_StatusBuffer, put = __set_StatusBuffer))::System::Text::StringBuilder* StatusBuffer;
+  __declspec(property(get = __cordl_internal_get_StatusBuffer, put = __cordl_internal_set_StatusBuffer))::System::Text::StringBuilder* StatusBuffer;
 
   /// @brief Field StatusCodeString, offset 0x28, size 0x8
-  __declspec(property(get = __get_StatusCodeString, put = __set_StatusCodeString))::StringW StatusCodeString;
+  __declspec(property(get = __cordl_internal_get_StatusCodeString, put = __cordl_internal_set_StatusCodeString))::StringW StatusCodeString;
 
   __declspec(property(get = get_PositiveIntermediate)) bool PositiveIntermediate;
 
@@ -50,35 +50,35 @@ public:
 
   __declspec(property(get = get_InvalidStatusCode)) bool InvalidStatusCode;
 
-  constexpr bool& __get_Multiline();
+  constexpr bool& __cordl_internal_get_Multiline();
 
-  constexpr bool const& __get_Multiline() const;
+  constexpr bool const& __cordl_internal_get_Multiline() const;
 
-  constexpr void __set_Multiline(bool value);
+  constexpr void __cordl_internal_set_Multiline(bool value);
 
-  constexpr int32_t& __get_Status();
+  constexpr int32_t& __cordl_internal_get_Status();
 
-  constexpr int32_t const& __get_Status() const;
+  constexpr int32_t const& __cordl_internal_get_Status() const;
 
-  constexpr void __set_Status(int32_t value);
+  constexpr void __cordl_internal_set_Status(int32_t value);
 
-  constexpr ::StringW& __get_StatusDescription();
+  constexpr ::StringW& __cordl_internal_get_StatusDescription();
 
-  constexpr ::StringW const& __get_StatusDescription() const;
+  constexpr ::StringW const& __cordl_internal_get_StatusDescription() const;
 
-  constexpr void __set_StatusDescription(::StringW value);
+  constexpr void __cordl_internal_set_StatusDescription(::StringW value);
 
-  constexpr ::System::Text::StringBuilder*& __get_StatusBuffer();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_StatusBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_StatusBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_StatusBuffer() const;
 
-  constexpr void __set_StatusBuffer(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_StatusBuffer(::System::Text::StringBuilder* value);
 
-  constexpr ::StringW& __get_StatusCodeString();
+  constexpr ::StringW& __cordl_internal_get_StatusCodeString();
 
-  constexpr ::StringW const& __get_StatusCodeString() const;
+  constexpr ::StringW const& __cordl_internal_get_StatusCodeString() const;
 
-  constexpr void __set_StatusCodeString(::StringW value);
+  constexpr void __cordl_internal_set_StatusCodeString(::StringW value);
 
   /// @brief Method get_PositiveIntermediate, addr 0x298ec08, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveIntermediate();

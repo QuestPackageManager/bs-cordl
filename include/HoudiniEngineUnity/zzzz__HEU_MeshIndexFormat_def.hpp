@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshIndexFormat);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10328)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10328))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9852))
 // CS Name: ::HoudiniEngineUnity::HEU_MeshIndexFormat*
 class CORDL_TYPE HEU_MeshIndexFormat : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _indexFormat, offset 0x10, size 0x4
-  __declspec(property(get = __get__indexFormat, put = __set__indexFormat))::UnityEngine::Rendering::IndexFormat _indexFormat;
+  __declspec(property(get = __cordl_internal_get__indexFormat, put = __cordl_internal_set__indexFormat))::UnityEngine::Rendering::IndexFormat _indexFormat;
 
-  constexpr ::UnityEngine::Rendering::IndexFormat& __get__indexFormat();
+  constexpr ::UnityEngine::Rendering::IndexFormat& __cordl_internal_get__indexFormat();
 
-  constexpr ::UnityEngine::Rendering::IndexFormat const& __get__indexFormat() const;
+  constexpr ::UnityEngine::Rendering::IndexFormat const& __cordl_internal_get__indexFormat() const;
 
-  constexpr void __set__indexFormat(::UnityEngine::Rendering::IndexFormat value);
+  constexpr void __cordl_internal_set__indexFormat(::UnityEngine::Rendering::IndexFormat value);
 
   /// @brief Method CalculateIndexFormat, addr 0x21d01a8, size 0x78, virtual false, abstract: false, final false
   inline void CalculateIndexFormat(int32_t numVertices);

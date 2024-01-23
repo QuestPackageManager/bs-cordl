@@ -31,10 +31,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x22cad04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                                 ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -46,10 +46,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22cad7c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -61,10 +61,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x22cad80;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                                 "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -76,10 +76,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22cae3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -91,10 +91,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x22cae44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -106,10 +106,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22cae84;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -138,93 +138,92 @@ constexpr GlobalNamespace::__MissionResultsViewController___StartFireworksAfterD
 constexpr ::System::IDisposable* GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get___1__state() {
+constexpr int32_t& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get_delay() {
+constexpr float_t& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get_delay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr float_t const& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get_delay() const {
+constexpr float_t const& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get_delay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__set_delay(float_t value) {
+constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_set_delay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
-constexpr ::GlobalNamespace::MissionResultsViewController*& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionResultsViewController*> const&
-GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__set___4__this(::GlobalNamespace::MissionResultsViewController* value) {
+constexpr void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*
 GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>(__1__state));
 }
 inline void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                               "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -237,10 +236,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22cad2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -252,82 +251,84 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x410;
   constexpr static std::size_t addrs = 0x22cae8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>::get(), "<SetDataToUI>b__0", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ResultObjectiveListItem*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>::get(),
+                                                 "<SetDataToUI>b__0", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ResultObjectiveListItem*>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get_levelCleared() {
+constexpr bool& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get_levelCleared() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCleared;
 }
-constexpr bool const& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get_levelCleared() const {
+constexpr bool const& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get_levelCleared() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCleared;
 }
-constexpr void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__set_levelCleared(bool value) {
+constexpr void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_set_levelCleared(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelCleared = value;
 }
-constexpr ::GlobalNamespace::MissionResultsViewController*& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionResultsViewController*> const& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__set___4__this(::GlobalNamespace::MissionResultsViewController* value) {
+constexpr void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>&
-GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get_missionObjectives() {
+GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get_missionObjectives() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectives;
 }
 constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const&
-GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get_missionObjectives() const {
+GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get_missionObjectives() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectives;
 }
-constexpr void
-GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value) {
+constexpr void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_set_missionObjectives(
+    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___missionObjectives)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*>&
-GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get_missionObjectiveResults() {
+GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get_missionObjectiveResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectiveResults;
 }
 constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> const&
-GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__get_missionObjectiveResults() const {
+GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_get_missionObjectiveResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionObjectiveResults;
 }
-constexpr void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__set_missionObjectiveResults(
+constexpr void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::__cordl_internal_set_missionObjectiveResults(
     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___missionObjectiveResults)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0* GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>());
 }
 inline void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::_SetDataToUI_b__0(int32_t idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>::get(), "<SetDataToUI>b__0", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ResultObjectiveListItem*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0*>::get(),
+                                               "<SetDataToUI>b__0", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ResultObjectiveListItem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, idx, objectiveListItem);
 }
 // Ctor Parameters []
@@ -336,14 +337,14 @@ constexpr ::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*)>(&::GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x22ca568;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_continueButtonPressedEvent", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -351,14 +352,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*)>(&::GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x22ca61c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_continueButtonPressedEvent", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -366,14 +367,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*)>(&::GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x22ca6d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_retryButtonPressedEvent", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_retryButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -381,14 +382,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*)>(&::GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x22ca784;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_retryButtonPressedEvent", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_retryButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -400,11 +401,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22ca838;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "Init", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionCompletionResults*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionCompletionResults*>::get() })));
     return ___internal_method;
   }
 };
@@ -416,7 +417,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x22ca840;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
@@ -432,7 +433,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x22cacc8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
@@ -448,10 +449,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x22cac50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "StartFireworksAfterDelay",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "StartFireworksAfterDelay",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -463,9 +464,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x278;
   constexpr static std::size_t addrs = 0x22ca9d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
-                                                                               "SetDataToUI", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "SetDataToUI", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -477,9 +478,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22cad34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
-                                                                               "ContinueButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "ContinueButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -491,9 +492,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22cad54;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
-                                                                               "RetryButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "RetryButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -505,295 +506,296 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22cad74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::MissionResultsViewController::__get__failedBannerGo() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failedBannerGo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failedBannerGo;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::MissionResultsViewController::__get__failedBannerGo() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failedBannerGo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failedBannerGo;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__failedBannerGo(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__failedBannerGo(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____failedBannerGo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::MissionResultsViewController::__get__clearedBannerGo() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__clearedBannerGo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearedBannerGo;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::MissionResultsViewController::__get__clearedBannerGo() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__clearedBannerGo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearedBannerGo;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__clearedBannerGo(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__clearedBannerGo(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearedBannerGo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::MissionResultsViewController::__get__missionNameText() {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__missionNameText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNameText;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::MissionResultsViewController::__get__missionNameText() const {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__missionNameText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNameText;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__missionNameText(::TMPro::TextMeshProUGUI* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__missionNameText(::UnityW<::TMPro::TextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionNameText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::MissionResultsViewController::__get__songNameText() {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__songNameText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songNameText;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::MissionResultsViewController::__get__songNameText() const {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__songNameText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songNameText;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__songNameText(::TMPro::TextMeshProUGUI* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__songNameText(::UnityW<::TMPro::TextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songNameText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::MissionResultsViewController::__get__successIcon() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__successIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::MissionResultsViewController::__get__successIcon() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__successIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successIcon;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__successIcon(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__successIcon(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____successIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::MissionResultsViewController::__get__successIconGlow() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__successIconGlow() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successIconGlow;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::MissionResultsViewController::__get__successIconGlow() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__successIconGlow() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successIconGlow;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__successIconGlow(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__successIconGlow(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____successIconGlow)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::MissionResultsViewController::__get__successColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__successColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::MissionResultsViewController::__get__successColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__successColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successColor;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__successColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__successColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____successColor = value;
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::MissionResultsViewController::__get__failIcon() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::MissionResultsViewController::__get__failIcon() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failIcon;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__failIcon(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__failIcon(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____failIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::MissionResultsViewController::__get__failIconGlow() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failIconGlow() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failIconGlow;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::MissionResultsViewController::__get__failIconGlow() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failIconGlow() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failIconGlow;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__failIconGlow(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__failIconGlow(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____failIconGlow)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::MissionResultsViewController::__get__failColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::MissionResultsViewController::__get__failColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__failColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failColor;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__failColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__failColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____failColor = value;
 }
-constexpr ::GlobalNamespace::ResultObjectiveListItemsList*& GlobalNamespace::MissionResultsViewController::__get__resultObjectiveListItemList() {
+constexpr ::UnityW<::GlobalNamespace::ResultObjectiveListItemsList>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__resultObjectiveListItemList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultObjectiveListItemList;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ResultObjectiveListItemsList*> const& GlobalNamespace::MissionResultsViewController::__get__resultObjectiveListItemList() const {
+constexpr ::UnityW<::GlobalNamespace::ResultObjectiveListItemsList> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__resultObjectiveListItemList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultObjectiveListItemList;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__resultObjectiveListItemList(::GlobalNamespace::ResultObjectiveListItemsList* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__resultObjectiveListItemList(::UnityW<::GlobalNamespace::ResultObjectiveListItemsList> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultObjectiveListItemList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::MissionResultsViewController::__get__continueButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__continueButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continueButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::MissionResultsViewController::__get__continueButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__continueButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continueButton;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__continueButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____continueButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::MissionResultsViewController::__get__retryButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__retryButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____retryButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::MissionResultsViewController::__get__retryButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__retryButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____retryButton;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__retryButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__retryButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____retryButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MissionResultsViewController::__get__levelClearedAudioClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__levelClearedAudioClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelClearedAudioClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MissionResultsViewController::__get__levelClearedAudioClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__levelClearedAudioClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelClearedAudioClip;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__levelClearedAudioClip(::UnityEngine::AudioClip* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__levelClearedAudioClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelClearedAudioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FireworksController*& GlobalNamespace::MissionResultsViewController::__get__fireworksController() {
+constexpr ::UnityW<::GlobalNamespace::FireworksController>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__fireworksController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworksController*> const& GlobalNamespace::MissionResultsViewController::__get__fireworksController() const {
+constexpr ::UnityW<::GlobalNamespace::FireworksController> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__fireworksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworksController;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__fireworksController(::GlobalNamespace::FireworksController* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__fireworksController(::UnityW<::GlobalNamespace::FireworksController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fireworksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SongPreviewPlayer*& GlobalNamespace::MissionResultsViewController::__get__songPreviewPlayer() {
+constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__songPreviewPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPreviewPlayer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& GlobalNamespace::MissionResultsViewController::__get__songPreviewPlayer() const {
+constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__songPreviewPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPreviewPlayer;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__songPreviewPlayer(::GlobalNamespace::SongPreviewPlayer* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songPreviewPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& GlobalNamespace::MissionResultsViewController::__get_continueButtonPressedEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& GlobalNamespace::MissionResultsViewController::__cordl_internal_get_continueButtonPressedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueButtonPressedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*> const&
-GlobalNamespace::MissionResultsViewController::__get_continueButtonPressedEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*> const&
+GlobalNamespace::MissionResultsViewController::__cordl_internal_get_continueButtonPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueButtonPressedEvent;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___continueButtonPressedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& GlobalNamespace::MissionResultsViewController::__get_retryButtonPressedEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& GlobalNamespace::MissionResultsViewController::__cordl_internal_get_retryButtonPressedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___retryButtonPressedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*> const&
-GlobalNamespace::MissionResultsViewController::__get_retryButtonPressedEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*> const&
+GlobalNamespace::MissionResultsViewController::__cordl_internal_get_retryButtonPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___retryButtonPressedEvent;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___retryButtonPressedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MissionNode*& GlobalNamespace::MissionResultsViewController::__get__missionNode() {
+constexpr ::UnityW<::GlobalNamespace::MissionNode>& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__missionNode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNode*> const& GlobalNamespace::MissionResultsViewController::__get__missionNode() const {
+constexpr ::UnityW<::GlobalNamespace::MissionNode> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__missionNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNode;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__missionNode(::GlobalNamespace::MissionNode* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MissionCompletionResults*& GlobalNamespace::MissionResultsViewController::__get__missionCompletionResults() {
+constexpr ::GlobalNamespace::MissionCompletionResults*& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__missionCompletionResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionCompletionResults;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionCompletionResults*> const& GlobalNamespace::MissionResultsViewController::__get__missionCompletionResults() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionCompletionResults*> const&
+GlobalNamespace::MissionResultsViewController::__cordl_internal_get__missionCompletionResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionCompletionResults;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionCompletionResults)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Coroutine*& GlobalNamespace::MissionResultsViewController::__get__startFireworksAfterDelayCoroutine() {
+constexpr ::UnityEngine::Coroutine*& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__startFireworksAfterDelayCoroutine() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startFireworksAfterDelayCoroutine;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& GlobalNamespace::MissionResultsViewController::__get__startFireworksAfterDelayCoroutine() const {
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& GlobalNamespace::MissionResultsViewController::__cordl_internal_get__startFireworksAfterDelayCoroutine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startFireworksAfterDelayCoroutine;
 }
-constexpr void GlobalNamespace::MissionResultsViewController::__set__startFireworksAfterDelayCoroutine(::UnityEngine::Coroutine* value) {
+constexpr void GlobalNamespace::MissionResultsViewController::__cordl_internal_set__startFireworksAfterDelayCoroutine(::UnityEngine::Coroutine* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startFireworksAfterDelayCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value) {
+inline void GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_continueButtonPressedEvent", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value) {
+inline void GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_continueButtonPressedEvent", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value) {
+inline void GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_retryButtonPressedEvent", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "add_retryButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value) {
+inline void GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_retryButtonPressedEvent", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "remove_retryButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MissionResultsViewController::Init(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "Init", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionCompletionResults*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionCompletionResults*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, missionNode, missionCompletionResults);
 }
 inline void GlobalNamespace::MissionResultsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
@@ -809,30 +811,30 @@ inline void GlobalNamespace::MissionResultsViewController::DidDeactivate(bool re
 inline ::System::Collections::IEnumerator* GlobalNamespace::MissionResultsViewController::StartFireworksAfterDelay(float_t delay) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), "StartFireworksAfterDelay",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, delay);
 }
 inline void GlobalNamespace::MissionResultsViewController::SetDataToUI() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
-                                                                             "SetDataToUI", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "SetDataToUI", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MissionResultsViewController::ContinueButtonPressed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
-                                                                             "ContinueButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "ContinueButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MissionResultsViewController::RetryButtonPressed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
-                                                                             "RetryButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "RetryButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MissionResultsViewController* GlobalNamespace::MissionResultsViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MissionResultsViewController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionResultsViewController*>());
 }
 inline void GlobalNamespace::MissionResultsViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

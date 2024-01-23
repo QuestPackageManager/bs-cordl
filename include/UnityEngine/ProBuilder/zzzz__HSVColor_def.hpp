@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::HSVColor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12113))
 // CS Name: ::UnityEngine.ProBuilder::HSVColor*
 class CORDL_TYPE HSVColor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field h, offset 0x10, size 0x4
-  __declspec(property(get = __get_h, put = __set_h)) float_t h;
+  __declspec(property(get = __cordl_internal_get_h, put = __cordl_internal_set_h)) float_t h;
 
   /// @brief Field s, offset 0x14, size 0x4
-  __declspec(property(get = __get_s, put = __set_s)) float_t s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) float_t s;
 
   /// @brief Field v, offset 0x18, size 0x4
-  __declspec(property(get = __get_v, put = __set_v)) float_t v;
+  __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) float_t v;
 
-  constexpr float_t& __get_h();
+  constexpr float_t& __cordl_internal_get_h();
 
-  constexpr float_t const& __get_h() const;
+  constexpr float_t const& __cordl_internal_get_h() const;
 
-  constexpr void __set_h(float_t value);
+  constexpr void __cordl_internal_set_h(float_t value);
 
-  constexpr float_t& __get_s();
+  constexpr float_t& __cordl_internal_get_s();
 
-  constexpr float_t const& __get_s() const;
+  constexpr float_t const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(float_t value);
+  constexpr void __cordl_internal_set_s(float_t value);
 
-  constexpr float_t& __get_v();
+  constexpr float_t& __cordl_internal_get_v();
 
-  constexpr float_t const& __get_v() const;
+  constexpr float_t const& __cordl_internal_get_v() const;
 
-  constexpr void __set_v(float_t value);
+  constexpr void __cordl_internal_set_v(float_t value);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v);
 

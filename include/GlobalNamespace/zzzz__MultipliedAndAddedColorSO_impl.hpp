@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x122d8d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(), 5));
@@ -26,45 +26,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x122d940;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::SimpleColorSO*& GlobalNamespace::MultipliedAndAddedColorSO::__get__baseColor() {
+constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_get__baseColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleColorSO*> const& GlobalNamespace::MultipliedAndAddedColorSO::__get__baseColor() const {
+constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_get__baseColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColor;
 }
-constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__set__baseColor(::GlobalNamespace::SimpleColorSO* value) {
+constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_set__baseColor(::UnityW<::GlobalNamespace::SimpleColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____baseColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::MultipliedAndAddedColorSO::__get__multiplierColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_get__multiplierColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::MultipliedAndAddedColorSO::__get__multiplierColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_get__multiplierColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierColor;
 }
-constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__set__multiplierColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_set__multiplierColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplierColor = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::MultipliedAndAddedColorSO::__get__addColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_get__addColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::MultipliedAndAddedColorSO::__get__addColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_get__addColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addColor;
 }
-constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__set__addColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__cordl_internal_set__addColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____addColor = value;
 }
@@ -74,11 +74,11 @@ inline ::UnityEngine::Color GlobalNamespace::MultipliedAndAddedColorSO::get_colo
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MultipliedAndAddedColorSO* GlobalNamespace::MultipliedAndAddedColorSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultipliedAndAddedColorSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultipliedAndAddedColorSO*>());
 }
 inline void GlobalNamespace::MultipliedAndAddedColorSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

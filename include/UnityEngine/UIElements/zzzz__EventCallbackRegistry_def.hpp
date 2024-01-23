@@ -39,41 +39,41 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackRegistry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7167))
 // CS Name: ::UnityEngine.UIElements::EventCallbackRegistry*
 class CORDL_TYPE EventCallbackRegistry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Callbacks, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Callbacks, put = __set_m_Callbacks))::UnityEngine::UIElements::EventCallbackList* m_Callbacks;
+  __declspec(property(get = __cordl_internal_get_m_Callbacks, put = __cordl_internal_set_m_Callbacks))::UnityEngine::UIElements::EventCallbackList* m_Callbacks;
 
   /// @brief Field m_TemporaryCallbacks, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_TemporaryCallbacks, put = __set_m_TemporaryCallbacks))::UnityEngine::UIElements::EventCallbackList* m_TemporaryCallbacks;
+  __declspec(property(get = __cordl_internal_get_m_TemporaryCallbacks, put = __cordl_internal_set_m_TemporaryCallbacks))::UnityEngine::UIElements::EventCallbackList* m_TemporaryCallbacks;
 
   /// @brief Field m_IsInvoking, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_IsInvoking, put = __set_m_IsInvoking)) int32_t m_IsInvoking;
+  __declspec(property(get = __cordl_internal_get_m_IsInvoking, put = __cordl_internal_set_m_IsInvoking)) int32_t m_IsInvoking;
 
   /// @brief Field s_ListPool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ListPool, put = setStaticF_s_ListPool))::UnityEngine::UIElements::EventCallbackListPool* s_ListPool;
 
-  constexpr ::UnityEngine::UIElements::EventCallbackList*& __get_m_Callbacks();
+  constexpr ::UnityEngine::UIElements::EventCallbackList*& __cordl_internal_get_m_Callbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackList*> const& __get_m_Callbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackList*> const& __cordl_internal_get_m_Callbacks() const;
 
-  constexpr void __set_m_Callbacks(::UnityEngine::UIElements::EventCallbackList* value);
+  constexpr void __cordl_internal_set_m_Callbacks(::UnityEngine::UIElements::EventCallbackList* value);
 
-  constexpr ::UnityEngine::UIElements::EventCallbackList*& __get_m_TemporaryCallbacks();
+  constexpr ::UnityEngine::UIElements::EventCallbackList*& __cordl_internal_get_m_TemporaryCallbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackList*> const& __get_m_TemporaryCallbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackList*> const& __cordl_internal_get_m_TemporaryCallbacks() const;
 
-  constexpr void __set_m_TemporaryCallbacks(::UnityEngine::UIElements::EventCallbackList* value);
+  constexpr void __cordl_internal_set_m_TemporaryCallbacks(::UnityEngine::UIElements::EventCallbackList* value);
 
-  constexpr int32_t& __get_m_IsInvoking();
+  constexpr int32_t& __cordl_internal_get_m_IsInvoking();
 
-  constexpr int32_t const& __get_m_IsInvoking() const;
+  constexpr int32_t const& __cordl_internal_get_m_IsInvoking() const;
 
-  constexpr void __set_m_IsInvoking(int32_t value);
+  constexpr void __cordl_internal_set_m_IsInvoking(int32_t value);
 
   static inline void setStaticF_s_ListPool(::UnityEngine::UIElements::EventCallbackListPool* value);
 

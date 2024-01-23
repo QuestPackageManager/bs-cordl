@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::ChaChaEngine);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(836))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(836))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(838))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::ChaChaEngine*
 class CORDL_TYPE ChaChaEngine : public ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine {

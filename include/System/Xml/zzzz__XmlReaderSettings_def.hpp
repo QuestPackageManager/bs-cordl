@@ -39,68 +39,68 @@ MARK_REF_PTR_T(::System::Xml::XmlReaderSettings);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11445)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11743)), TypeDefinitionIndex(TypeDefinitionIndex(11413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11414))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11457)) CS Name: ::System.Xml::XmlReaderSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11413)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11414)), TypeDefinitionIndex(TypeDefinitionIndex(11445)), TypeDefinitionIndex(TypeDefinitionIndex(11743)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11457)) CS Name: ::System.Xml::XmlReaderSettings*
 class CORDL_TYPE XmlReaderSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field useAsync, offset 0x10, size 0x1
-  __declspec(property(get = __get_useAsync, put = __set_useAsync)) bool useAsync;
+  __declspec(property(get = __cordl_internal_get_useAsync, put = __cordl_internal_set_useAsync)) bool useAsync;
 
   /// @brief Field nameTable, offset 0x18, size 0x8
-  __declspec(property(get = __get_nameTable, put = __set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field xmlResolver, offset 0x20, size 0x8
-  __declspec(property(get = __get_xmlResolver, put = __set_xmlResolver))::System::Xml::XmlResolver* xmlResolver;
+  __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver))::System::Xml::XmlResolver* xmlResolver;
 
   /// @brief Field lineNumberOffset, offset 0x28, size 0x4
-  __declspec(property(get = __get_lineNumberOffset, put = __set_lineNumberOffset)) int32_t lineNumberOffset;
+  __declspec(property(get = __cordl_internal_get_lineNumberOffset, put = __cordl_internal_set_lineNumberOffset)) int32_t lineNumberOffset;
 
   /// @brief Field linePositionOffset, offset 0x2c, size 0x4
-  __declspec(property(get = __get_linePositionOffset, put = __set_linePositionOffset)) int32_t linePositionOffset;
+  __declspec(property(get = __cordl_internal_get_linePositionOffset, put = __cordl_internal_set_linePositionOffset)) int32_t linePositionOffset;
 
   /// @brief Field conformanceLevel, offset 0x30, size 0x4
-  __declspec(property(get = __get_conformanceLevel, put = __set_conformanceLevel))::System::Xml::ConformanceLevel conformanceLevel;
+  __declspec(property(get = __cordl_internal_get_conformanceLevel, put = __cordl_internal_set_conformanceLevel))::System::Xml::ConformanceLevel conformanceLevel;
 
   /// @brief Field checkCharacters, offset 0x34, size 0x1
-  __declspec(property(get = __get_checkCharacters, put = __set_checkCharacters)) bool checkCharacters;
+  __declspec(property(get = __cordl_internal_get_checkCharacters, put = __cordl_internal_set_checkCharacters)) bool checkCharacters;
 
   /// @brief Field maxCharactersInDocument, offset 0x38, size 0x8
-  __declspec(property(get = __get_maxCharactersInDocument, put = __set_maxCharactersInDocument)) int64_t maxCharactersInDocument;
+  __declspec(property(get = __cordl_internal_get_maxCharactersInDocument, put = __cordl_internal_set_maxCharactersInDocument)) int64_t maxCharactersInDocument;
 
   /// @brief Field maxCharactersFromEntities, offset 0x40, size 0x8
-  __declspec(property(get = __get_maxCharactersFromEntities, put = __set_maxCharactersFromEntities)) int64_t maxCharactersFromEntities;
+  __declspec(property(get = __cordl_internal_get_maxCharactersFromEntities, put = __cordl_internal_set_maxCharactersFromEntities)) int64_t maxCharactersFromEntities;
 
   /// @brief Field ignoreWhitespace, offset 0x48, size 0x1
-  __declspec(property(get = __get_ignoreWhitespace, put = __set_ignoreWhitespace)) bool ignoreWhitespace;
+  __declspec(property(get = __cordl_internal_get_ignoreWhitespace, put = __cordl_internal_set_ignoreWhitespace)) bool ignoreWhitespace;
 
   /// @brief Field ignorePIs, offset 0x49, size 0x1
-  __declspec(property(get = __get_ignorePIs, put = __set_ignorePIs)) bool ignorePIs;
+  __declspec(property(get = __cordl_internal_get_ignorePIs, put = __cordl_internal_set_ignorePIs)) bool ignorePIs;
 
   /// @brief Field ignoreComments, offset 0x4a, size 0x1
-  __declspec(property(get = __get_ignoreComments, put = __set_ignoreComments)) bool ignoreComments;
+  __declspec(property(get = __cordl_internal_get_ignoreComments, put = __cordl_internal_set_ignoreComments)) bool ignoreComments;
 
   /// @brief Field dtdProcessing, offset 0x4c, size 0x4
-  __declspec(property(get = __get_dtdProcessing, put = __set_dtdProcessing))::System::Xml::DtdProcessing dtdProcessing;
+  __declspec(property(get = __cordl_internal_get_dtdProcessing, put = __cordl_internal_set_dtdProcessing))::System::Xml::DtdProcessing dtdProcessing;
 
   /// @brief Field validationType, offset 0x50, size 0x4
-  __declspec(property(get = __get_validationType, put = __set_validationType))::System::Xml::ValidationType validationType;
+  __declspec(property(get = __cordl_internal_get_validationType, put = __cordl_internal_set_validationType))::System::Xml::ValidationType validationType;
 
   /// @brief Field validationFlags, offset 0x54, size 0x4
-  __declspec(property(get = __get_validationFlags, put = __set_validationFlags))::System::Xml::Schema::XmlSchemaValidationFlags validationFlags;
+  __declspec(property(get = __cordl_internal_get_validationFlags, put = __cordl_internal_set_validationFlags))::System::Xml::Schema::XmlSchemaValidationFlags validationFlags;
 
   /// @brief Field schemas, offset 0x58, size 0x8
-  __declspec(property(get = __get_schemas, put = __set_schemas))::System::Xml::Schema::XmlSchemaSet* schemas;
+  __declspec(property(get = __cordl_internal_get_schemas, put = __cordl_internal_set_schemas))::System::Xml::Schema::XmlSchemaSet* schemas;
 
   /// @brief Field closeInput, offset 0x60, size 0x1
-  __declspec(property(get = __get_closeInput, put = __set_closeInput)) bool closeInput;
+  __declspec(property(get = __cordl_internal_get_closeInput, put = __cordl_internal_set_closeInput)) bool closeInput;
 
   /// @brief Field isReadOnly, offset 0x61, size 0x1
-  __declspec(property(get = __get_isReadOnly, put = __set_isReadOnly)) bool isReadOnly;
+  __declspec(property(get = __cordl_internal_get_isReadOnly, put = __cordl_internal_set_isReadOnly)) bool isReadOnly;
 
   /// @brief Field <IsXmlResolverSet>k__BackingField, offset 0x62, size 0x1
-  __declspec(property(get = __get__IsXmlResolverSet_k__BackingField, put = __set__IsXmlResolverSet_k__BackingField)) bool _IsXmlResolverSet_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsXmlResolverSet_k__BackingField, put = __cordl_internal_set__IsXmlResolverSet_k__BackingField)) bool _IsXmlResolverSet_k__BackingField;
 
   /// @brief Field s_enableLegacyXmlSettings, offset 0xffffffff, size 0x2
   static __declspec(property(get = getStaticF_s_enableLegacyXmlSettings, put = setStaticF_s_enableLegacyXmlSettings))::System::Nullable_1<bool> s_enableLegacyXmlSettings;
@@ -137,119 +137,119 @@ public:
 
   __declspec(property(put = set_ReadOnly)) bool ReadOnly;
 
-  constexpr bool& __get_useAsync();
+  constexpr bool& __cordl_internal_get_useAsync();
 
-  constexpr bool const& __get_useAsync() const;
+  constexpr bool const& __cordl_internal_get_useAsync() const;
 
-  constexpr void __set_useAsync(bool value);
+  constexpr void __cordl_internal_set_useAsync(bool value);
 
-  constexpr ::System::Xml::XmlNameTable*& __get_nameTable();
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __get_nameTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
 
-  constexpr void __set_nameTable(::System::Xml::XmlNameTable* value);
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  constexpr ::System::Xml::XmlResolver*& __get_xmlResolver();
+  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __get_xmlResolver() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __cordl_internal_get_xmlResolver() const;
 
-  constexpr void __set_xmlResolver(::System::Xml::XmlResolver* value);
+  constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  constexpr int32_t& __get_lineNumberOffset();
+  constexpr int32_t& __cordl_internal_get_lineNumberOffset();
 
-  constexpr int32_t const& __get_lineNumberOffset() const;
+  constexpr int32_t const& __cordl_internal_get_lineNumberOffset() const;
 
-  constexpr void __set_lineNumberOffset(int32_t value);
+  constexpr void __cordl_internal_set_lineNumberOffset(int32_t value);
 
-  constexpr int32_t& __get_linePositionOffset();
+  constexpr int32_t& __cordl_internal_get_linePositionOffset();
 
-  constexpr int32_t const& __get_linePositionOffset() const;
+  constexpr int32_t const& __cordl_internal_get_linePositionOffset() const;
 
-  constexpr void __set_linePositionOffset(int32_t value);
+  constexpr void __cordl_internal_set_linePositionOffset(int32_t value);
 
-  constexpr ::System::Xml::ConformanceLevel& __get_conformanceLevel();
+  constexpr ::System::Xml::ConformanceLevel& __cordl_internal_get_conformanceLevel();
 
-  constexpr ::System::Xml::ConformanceLevel const& __get_conformanceLevel() const;
+  constexpr ::System::Xml::ConformanceLevel const& __cordl_internal_get_conformanceLevel() const;
 
-  constexpr void __set_conformanceLevel(::System::Xml::ConformanceLevel value);
+  constexpr void __cordl_internal_set_conformanceLevel(::System::Xml::ConformanceLevel value);
 
-  constexpr bool& __get_checkCharacters();
+  constexpr bool& __cordl_internal_get_checkCharacters();
 
-  constexpr bool const& __get_checkCharacters() const;
+  constexpr bool const& __cordl_internal_get_checkCharacters() const;
 
-  constexpr void __set_checkCharacters(bool value);
+  constexpr void __cordl_internal_set_checkCharacters(bool value);
 
-  constexpr int64_t& __get_maxCharactersInDocument();
+  constexpr int64_t& __cordl_internal_get_maxCharactersInDocument();
 
-  constexpr int64_t const& __get_maxCharactersInDocument() const;
+  constexpr int64_t const& __cordl_internal_get_maxCharactersInDocument() const;
 
-  constexpr void __set_maxCharactersInDocument(int64_t value);
+  constexpr void __cordl_internal_set_maxCharactersInDocument(int64_t value);
 
-  constexpr int64_t& __get_maxCharactersFromEntities();
+  constexpr int64_t& __cordl_internal_get_maxCharactersFromEntities();
 
-  constexpr int64_t const& __get_maxCharactersFromEntities() const;
+  constexpr int64_t const& __cordl_internal_get_maxCharactersFromEntities() const;
 
-  constexpr void __set_maxCharactersFromEntities(int64_t value);
+  constexpr void __cordl_internal_set_maxCharactersFromEntities(int64_t value);
 
-  constexpr bool& __get_ignoreWhitespace();
+  constexpr bool& __cordl_internal_get_ignoreWhitespace();
 
-  constexpr bool const& __get_ignoreWhitespace() const;
+  constexpr bool const& __cordl_internal_get_ignoreWhitespace() const;
 
-  constexpr void __set_ignoreWhitespace(bool value);
+  constexpr void __cordl_internal_set_ignoreWhitespace(bool value);
 
-  constexpr bool& __get_ignorePIs();
+  constexpr bool& __cordl_internal_get_ignorePIs();
 
-  constexpr bool const& __get_ignorePIs() const;
+  constexpr bool const& __cordl_internal_get_ignorePIs() const;
 
-  constexpr void __set_ignorePIs(bool value);
+  constexpr void __cordl_internal_set_ignorePIs(bool value);
 
-  constexpr bool& __get_ignoreComments();
+  constexpr bool& __cordl_internal_get_ignoreComments();
 
-  constexpr bool const& __get_ignoreComments() const;
+  constexpr bool const& __cordl_internal_get_ignoreComments() const;
 
-  constexpr void __set_ignoreComments(bool value);
+  constexpr void __cordl_internal_set_ignoreComments(bool value);
 
-  constexpr ::System::Xml::DtdProcessing& __get_dtdProcessing();
+  constexpr ::System::Xml::DtdProcessing& __cordl_internal_get_dtdProcessing();
 
-  constexpr ::System::Xml::DtdProcessing const& __get_dtdProcessing() const;
+  constexpr ::System::Xml::DtdProcessing const& __cordl_internal_get_dtdProcessing() const;
 
-  constexpr void __set_dtdProcessing(::System::Xml::DtdProcessing value);
+  constexpr void __cordl_internal_set_dtdProcessing(::System::Xml::DtdProcessing value);
 
-  constexpr ::System::Xml::ValidationType& __get_validationType();
+  constexpr ::System::Xml::ValidationType& __cordl_internal_get_validationType();
 
-  constexpr ::System::Xml::ValidationType const& __get_validationType() const;
+  constexpr ::System::Xml::ValidationType const& __cordl_internal_get_validationType() const;
 
-  constexpr void __set_validationType(::System::Xml::ValidationType value);
+  constexpr void __cordl_internal_set_validationType(::System::Xml::ValidationType value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaValidationFlags& __get_validationFlags();
+  constexpr ::System::Xml::Schema::XmlSchemaValidationFlags& __cordl_internal_get_validationFlags();
 
-  constexpr ::System::Xml::Schema::XmlSchemaValidationFlags const& __get_validationFlags() const;
+  constexpr ::System::Xml::Schema::XmlSchemaValidationFlags const& __cordl_internal_get_validationFlags() const;
 
-  constexpr void __set_validationFlags(::System::Xml::Schema::XmlSchemaValidationFlags value);
+  constexpr void __cordl_internal_set_validationFlags(::System::Xml::Schema::XmlSchemaValidationFlags value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaSet*& __get_schemas();
+  constexpr ::System::Xml::Schema::XmlSchemaSet*& __cordl_internal_get_schemas();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSet*> const& __get_schemas() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSet*> const& __cordl_internal_get_schemas() const;
 
-  constexpr void __set_schemas(::System::Xml::Schema::XmlSchemaSet* value);
+  constexpr void __cordl_internal_set_schemas(::System::Xml::Schema::XmlSchemaSet* value);
 
-  constexpr bool& __get_closeInput();
+  constexpr bool& __cordl_internal_get_closeInput();
 
-  constexpr bool const& __get_closeInput() const;
+  constexpr bool const& __cordl_internal_get_closeInput() const;
 
-  constexpr void __set_closeInput(bool value);
+  constexpr void __cordl_internal_set_closeInput(bool value);
 
-  constexpr bool& __get_isReadOnly();
+  constexpr bool& __cordl_internal_get_isReadOnly();
 
-  constexpr bool const& __get_isReadOnly() const;
+  constexpr bool const& __cordl_internal_get_isReadOnly() const;
 
-  constexpr void __set_isReadOnly(bool value);
+  constexpr void __cordl_internal_set_isReadOnly(bool value);
 
-  constexpr bool& __get__IsXmlResolverSet_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsXmlResolverSet_k__BackingField();
 
-  constexpr bool const& __get__IsXmlResolverSet_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsXmlResolverSet_k__BackingField() const;
 
-  constexpr void __set__IsXmlResolverSet_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsXmlResolverSet_k__BackingField(bool value);
 
   static inline void setStaticF_s_enableLegacyXmlSettings(::System::Nullable_1<bool> value);
 

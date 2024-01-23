@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier)
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7496))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7496))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7497))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplier
 struct CORDL_TYPE ExpressionMultiplier {

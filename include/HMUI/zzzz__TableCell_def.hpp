@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::HMUI::TableCell);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13653))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13653))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13664))
 // CS Name: ::HMUI::TableCell*
 class CORDL_TYPE TableCell : public ::HMUI::SelectableCell {
 public:
   // Declarations
   /// @brief Field <idx>k__BackingField, offset 0x44, size 0x4
-  __declspec(property(get = __get__idx_k__BackingField, put = __set__idx_k__BackingField)) int32_t _idx_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__idx_k__BackingField, put = __cordl_internal_set__idx_k__BackingField)) int32_t _idx_k__BackingField;
 
   /// @brief Field _reuseIdentifier, offset 0x48, size 0x8
-  __declspec(property(get = __get__reuseIdentifier, put = __set__reuseIdentifier))::StringW _reuseIdentifier;
+  __declspec(property(get = __cordl_internal_get__reuseIdentifier, put = __cordl_internal_set__reuseIdentifier))::StringW _reuseIdentifier;
 
   /// @brief Field _tableCellOwner, offset 0x50, size 0x8
-  __declspec(property(get = __get__tableCellOwner, put = __set__tableCellOwner))::HMUI::ITableCellOwner* _tableCellOwner;
+  __declspec(property(get = __cordl_internal_get__tableCellOwner, put = __cordl_internal_set__tableCellOwner))::HMUI::ITableCellOwner* _tableCellOwner;
 
   __declspec(property(get = get_reuseIdentifier, put = set_reuseIdentifier))::StringW reuseIdentifier;
 
@@ -40,23 +40,23 @@ public:
 
   __declspec(property(get = get_tableCellOwner))::HMUI::ITableCellOwner* tableCellOwner;
 
-  constexpr int32_t& __get__idx_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__idx_k__BackingField();
 
-  constexpr int32_t const& __get__idx_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__idx_k__BackingField() const;
 
-  constexpr void __set__idx_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__idx_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__reuseIdentifier();
+  constexpr ::StringW& __cordl_internal_get__reuseIdentifier();
 
-  constexpr ::StringW const& __get__reuseIdentifier() const;
+  constexpr ::StringW const& __cordl_internal_get__reuseIdentifier() const;
 
-  constexpr void __set__reuseIdentifier(::StringW value);
+  constexpr void __cordl_internal_set__reuseIdentifier(::StringW value);
 
-  constexpr ::HMUI::ITableCellOwner*& __get__tableCellOwner();
+  constexpr ::HMUI::ITableCellOwner*& __cordl_internal_get__tableCellOwner();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ITableCellOwner*> const& __get__tableCellOwner() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ITableCellOwner*> const& __cordl_internal_get__tableCellOwner() const;
 
-  constexpr void __set__tableCellOwner(::HMUI::ITableCellOwner* value);
+  constexpr void __cordl_internal_set__tableCellOwner(::HMUI::ITableCellOwner* value);
 
   /// @brief Method get_reuseIdentifier, addr 0x21487e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_reuseIdentifier();

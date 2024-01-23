@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerNoteController);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4761))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4761))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5138))
 // CS Name: ::MultiplayerConnectedPlayerNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerNoteController : public ::GlobalNamespace::NoteController {
 public:
   // Declarations
   /// @brief Field _visualsWrapperGo, offset 0x80, size 0x8
-  __declspec(property(get = __get__visualsWrapperGo, put = __set__visualsWrapperGo))::UnityEngine::GameObject* _visualsWrapperGo;
+  __declspec(property(get = __cordl_internal_get__visualsWrapperGo, put = __cordl_internal_set__visualsWrapperGo))::UnityW<::UnityEngine::GameObject> _visualsWrapperGo;
 
-  constexpr ::UnityEngine::GameObject*& __get__visualsWrapperGo();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__visualsWrapperGo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__visualsWrapperGo() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__visualsWrapperGo() const;
 
-  constexpr void __set__visualsWrapperGo(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__visualsWrapperGo(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method HiddenStateDidChange, addr 0x23d7a28, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
@@ -58,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _visualsWrapperGo, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____visualsWrapperGo;
+  ::UnityW<::UnityEngine::GameObject> ____visualsWrapperGo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

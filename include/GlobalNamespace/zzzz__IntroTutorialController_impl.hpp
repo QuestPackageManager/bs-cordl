@@ -23,10 +23,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x226919c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                                 ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -38,10 +38,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2269254;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -53,10 +53,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x2269258;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                                 "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -68,10 +68,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x226938c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -83,10 +83,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2269394;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -98,10 +98,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22693d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -130,105 +130,104 @@ constexpr GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCorout
 constexpr ::System::IDisposable* GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get___1__state() {
+constexpr int32_t& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntroTutorialController*& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::IntroTutorialController>& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntroTutorialController*> const&
-GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::IntroTutorialController> const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__set___4__this(::GlobalNamespace::IntroTutorialController* value) {
+constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::IntroTutorialController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get__elapsedTime_5__2() {
+constexpr float_t& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get__elapsedTime_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
-constexpr float_t const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get__elapsedTime_5__2() const {
+constexpr float_t const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get__elapsedTime_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
-constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__set__elapsedTime_5__2(float_t value) {
+constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_set__elapsedTime_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__2 = value;
 }
-constexpr float_t& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get__duration_5__3() {
+constexpr float_t& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get__duration_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration_5__3;
 }
-constexpr float_t const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__get__duration_5__3() const {
+constexpr float_t const& GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_get__duration_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration_5__3;
 }
-constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__set__duration_5__3(float_t value) {
+constexpr void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::__cordl_internal_set__duration_5__3(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration_5__3 = value;
 }
 inline ::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*
 GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>(__1__state));
 }
 inline void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                               "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -241,10 +240,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2268ae8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "add_introTutorialDidFinishEvent",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "add_introTutorialDidFinishEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -256,10 +255,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2268b84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "remove_introTutorialDidFinishEvent",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "remove_introTutorialDidFinishEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -270,9 +269,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x194;
   constexpr static std::size_t addrs = 0x2268c20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -283,9 +282,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2268db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "OnDestroy",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -296,9 +295,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x2268f5c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -309,9 +308,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x2268db8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "CleanUp",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -323,9 +322,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x226908c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                               "HandleGameDidPause", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "HandleGameDidPause", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -337,9 +336,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x22690fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                               "HandlegameDidResume", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "HandlegameDidResume", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -351,9 +350,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x2269010;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                               "ShowFinishAnimation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "ShowFinishAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -365,9 +364,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x2269134;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                               "ShowFinishAnimationCoroutine", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "ShowFinishAnimationCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -379,10 +378,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x22691c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "SetFinishAnimationParams",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "SetFinishAnimationParams",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -393,232 +392,232 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x226924c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IntroTutorialRing*& GlobalNamespace::IntroTutorialController::__get__redRing() {
+constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__redRing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redRing;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntroTutorialRing*> const& GlobalNamespace::IntroTutorialController::__get__redRing() const {
+constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__redRing() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redRing;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__redRing(::GlobalNamespace::IntroTutorialRing* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__redRing(::UnityW<::GlobalNamespace::IntroTutorialRing> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____redRing)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IntroTutorialRing*& GlobalNamespace::IntroTutorialController::__get__blueRing() {
+constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__blueRing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueRing;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntroTutorialRing*> const& GlobalNamespace::IntroTutorialController::__get__blueRing() const {
+constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__blueRing() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueRing;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__blueRing(::GlobalNamespace::IntroTutorialRing* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__blueRing(::UnityW<::GlobalNamespace::IntroTutorialRing> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blueRing)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::IntroTutorialController::__get__redRingWrapper() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__redRingWrapper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redRingWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::IntroTutorialController::__get__redRingWrapper() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__redRingWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redRingWrapper;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__redRingWrapper(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__redRingWrapper(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____redRingWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::IntroTutorialController::__get__blueRingWrapper() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__blueRingWrapper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueRingWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::IntroTutorialController::__get__blueRingWrapper() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__blueRingWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueRingWrapper;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__blueRingWrapper(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__blueRingWrapper(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blueRingWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::IntroTutorialController::__get__textCanvasGroup() {
+constexpr ::UnityW<::UnityEngine::CanvasGroup>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__textCanvasGroup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textCanvasGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::IntroTutorialController::__get__textCanvasGroup() const {
+constexpr ::UnityW<::UnityEngine::CanvasGroup> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__textCanvasGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textCanvasGroup;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__textCanvasGroup(::UnityEngine::CanvasGroup* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__textCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textCanvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::IntroTutorialController::__get__shockWavePS() {
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__shockWavePS() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockWavePS;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::IntroTutorialController::__get__shockWavePS() const {
+constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__shockWavePS() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockWavePS;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__shockWavePS(::UnityEngine::ParticleSystem* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__shockWavePS(::UnityW<::UnityEngine::ParticleSystem> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shockWavePS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& GlobalNamespace::IntroTutorialController::__get__finishForParams() {
+constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__finishForParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishForParams;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& GlobalNamespace::IntroTutorialController::__get__finishForParams() const {
+constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__finishForParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishForParams;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__finishForParams(::GlobalNamespace::BloomFogEnvironmentParams* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__finishForParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____finishForParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BloomFogParamsAnimator*& GlobalNamespace::IntroTutorialController::__get__bloomFogAnimator() {
+constexpr ::UnityW<::GlobalNamespace::BloomFogParamsAnimator>& GlobalNamespace::IntroTutorialController::__cordl_internal_get__bloomFogAnimator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogAnimator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogParamsAnimator*> const& GlobalNamespace::IntroTutorialController::__get__bloomFogAnimator() const {
+constexpr ::UnityW<::GlobalNamespace::BloomFogParamsAnimator> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__bloomFogAnimator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogAnimator;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__bloomFogAnimator(::GlobalNamespace::BloomFogParamsAnimator* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__bloomFogAnimator(::UnityW<::GlobalNamespace::BloomFogParamsAnimator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomFogAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IGamePause*& GlobalNamespace::IntroTutorialController::__get__gamePause() {
+constexpr ::GlobalNamespace::IGamePause*& GlobalNamespace::IntroTutorialController::__cordl_internal_get__gamePause() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gamePause;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& GlobalNamespace::IntroTutorialController::__get__gamePause() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__gamePause() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gamePause;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__gamePause(::GlobalNamespace::IGamePause* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gamePause)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::IntroTutorialController::__get_introTutorialDidFinishEvent() {
+constexpr ::System::Action*& GlobalNamespace::IntroTutorialController::__cordl_internal_get_introTutorialDidFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___introTutorialDidFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::IntroTutorialController::__get_introTutorialDidFinishEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::IntroTutorialController::__cordl_internal_get_introTutorialDidFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___introTutorialDidFinishEvent;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set_introTutorialDidFinishEvent(::System::Action* value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set_introTutorialDidFinishEvent(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___introTutorialDidFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::IntroTutorialController::__get__showingFinishAnimation() {
+constexpr bool& GlobalNamespace::IntroTutorialController::__cordl_internal_get__showingFinishAnimation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showingFinishAnimation;
 }
-constexpr bool const& GlobalNamespace::IntroTutorialController::__get__showingFinishAnimation() const {
+constexpr bool const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__showingFinishAnimation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showingFinishAnimation;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__showingFinishAnimation(bool value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__showingFinishAnimation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showingFinishAnimation = value;
 }
-constexpr bool& GlobalNamespace::IntroTutorialController::__get__redRingWrapperActive() {
+constexpr bool& GlobalNamespace::IntroTutorialController::__cordl_internal_get__redRingWrapperActive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redRingWrapperActive;
 }
-constexpr bool const& GlobalNamespace::IntroTutorialController::__get__redRingWrapperActive() const {
+constexpr bool const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__redRingWrapperActive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redRingWrapperActive;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__redRingWrapperActive(bool value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__redRingWrapperActive(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____redRingWrapperActive = value;
 }
-constexpr bool& GlobalNamespace::IntroTutorialController::__get__blueRingWrapperActive() {
+constexpr bool& GlobalNamespace::IntroTutorialController::__cordl_internal_get__blueRingWrapperActive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueRingWrapperActive;
 }
-constexpr bool const& GlobalNamespace::IntroTutorialController::__get__blueRingWrapperActive() const {
+constexpr bool const& GlobalNamespace::IntroTutorialController::__cordl_internal_get__blueRingWrapperActive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueRingWrapperActive;
 }
-constexpr void GlobalNamespace::IntroTutorialController::__set__blueRingWrapperActive(bool value) {
+constexpr void GlobalNamespace::IntroTutorialController::__cordl_internal_set__blueRingWrapperActive(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____blueRingWrapperActive = value;
 }
 inline void GlobalNamespace::IntroTutorialController::add_introTutorialDidFinishEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "add_introTutorialDidFinishEvent",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "add_introTutorialDidFinishEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::IntroTutorialController::remove_introTutorialDidFinishEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "remove_introTutorialDidFinishEvent",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "remove_introTutorialDidFinishEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::IntroTutorialController::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IntroTutorialController::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "OnDestroy",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IntroTutorialController::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IntroTutorialController::CleanUp() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "CleanUp",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IntroTutorialController::HandleGameDidPause() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                             "HandleGameDidPause", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "HandleGameDidPause", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IntroTutorialController::HandlegameDidResume() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                             "HandlegameDidResume", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "HandlegameDidResume", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IntroTutorialController::ShowFinishAnimation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                             "ShowFinishAnimation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "ShowFinishAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::IntroTutorialController::ShowFinishAnimationCoroutine() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
-                                                                             "ShowFinishAnimationCoroutine", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "ShowFinishAnimationCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IntroTutorialController::SetFinishAnimationParams(float_t progress) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "SetFinishAnimationParams",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, progress);
 }
 inline ::GlobalNamespace::IntroTutorialController* GlobalNamespace::IntroTutorialController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::IntroTutorialController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IntroTutorialController*>());
 }
 inline void GlobalNamespace::IntroTutorialController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

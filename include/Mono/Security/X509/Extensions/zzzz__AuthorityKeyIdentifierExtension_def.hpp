@@ -20,22 +20,22 @@ MARK_REF_PTR_T(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtensi
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509::Extensions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13756))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13756))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13761))
 // CS Name: ::Mono.Security.X509.Extensions::AuthorityKeyIdentifierExtension*
 class CORDL_TYPE AuthorityKeyIdentifierExtension : public ::Mono::Security::X509::X509Extension {
 public:
   // Declarations
   /// @brief Field aki, offset 0x28, size 0x8
-  __declspec(property(get = __get_aki, put = __set_aki))::ArrayW<uint8_t, ::Array<uint8_t>*> aki;
+  __declspec(property(get = __cordl_internal_get_aki, put = __cordl_internal_set_aki))::ArrayW<uint8_t, ::Array<uint8_t>*> aki;
 
   __declspec(property(get = get_Identifier))::ArrayW<uint8_t, ::Array<uint8_t>*> Identifier;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_aki();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_aki();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_aki() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_aki() const;
 
-  constexpr void __set_aki(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_aki(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 

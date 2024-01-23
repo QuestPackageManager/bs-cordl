@@ -28,67 +28,67 @@ MARK_REF_PTR_T(::GlobalNamespace::PackLevelListHeaderTableCell);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5433))
 // CS Name: ::PackLevelListHeaderTableCell*
 class CORDL_TYPE PackLevelListHeaderTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _selectedHighlightElementsColor, offset 0x58, size 0x10
-  __declspec(property(get = __get__selectedHighlightElementsColor, put = __set__selectedHighlightElementsColor))::UnityEngine::Color _selectedHighlightElementsColor;
+  __declspec(property(get = __cordl_internal_get__selectedHighlightElementsColor, put = __cordl_internal_set__selectedHighlightElementsColor))::UnityEngine::Color _selectedHighlightElementsColor;
 
   /// @brief Field _text, offset 0x68, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _bgImage, offset 0x70, size 0x8
-  __declspec(property(get = __get__bgImage, put = __set__bgImage))::UnityEngine::UI::Image* _bgImage;
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
 
   /// @brief Field _highlightImage, offset 0x78, size 0x8
-  __declspec(property(get = __get__highlightImage, put = __set__highlightImage))::UnityEngine::UI::Image* _highlightImage;
+  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
 
   /// @brief Field _arrowImage, offset 0x80, size 0x8
-  __declspec(property(get = __get__arrowImage, put = __set__arrowImage))::UnityEngine::UI::Image* _arrowImage;
+  __declspec(property(get = __cordl_internal_get__arrowImage, put = __cordl_internal_set__arrowImage))::UnityW<::UnityEngine::UI::Image> _arrowImage;
 
   /// @brief Field _cancellationTokenSource, offset 0x88, size 0x8
-  __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::UnityEngine::Color& __get__selectedHighlightElementsColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedHighlightElementsColor();
 
-  constexpr ::UnityEngine::Color const& __get__selectedHighlightElementsColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedHighlightElementsColor() const;
 
-  constexpr void __set__selectedHighlightElementsColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__selectedHighlightElementsColor(::UnityEngine::Color value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__bgImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__bgImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
 
-  constexpr void __set__bgImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__highlightImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__highlightImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
 
-  constexpr void __set__highlightImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__arrowImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__arrowImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__arrowImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__arrowImage() const;
 
-  constexpr void __set__arrowImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__arrowImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__cancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
   /// @brief Method set_text, addr 0x227c2ec, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
@@ -128,16 +128,16 @@ public:
   ::UnityEngine::Color ____selectedHighlightElementsColor;
 
   /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _bgImage, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____bgImage;
+  ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
   /// @brief Field _highlightImage, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____highlightImage;
+  ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 
   /// @brief Field _arrowImage, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____arrowImage;
+  ::UnityW<::UnityEngine::UI::Image> ____arrowImage;
 
   /// @brief Field _cancellationTokenSource, offset: 0x88, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;

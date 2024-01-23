@@ -25,56 +25,57 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelPackHeaderTableCell);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5431))
 // CS Name: ::LevelPackHeaderTableCell*
 class CORDL_TYPE LevelPackHeaderTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _nameText, offset 0x58, size 0x8
-  __declspec(property(get = __get__nameText, put = __set__nameText))::TMPro::TextMeshProUGUI* _nameText;
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
   /// @brief Field _backgroundImage, offset 0x60, size 0x8
-  __declspec(property(get = __get__backgroundImage, put = __set__backgroundImage))::UnityEngine::UI::Image* _backgroundImage;
+  __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage))::UnityW<::UnityEngine::UI::Image> _backgroundImage;
 
   /// @brief Field _highlightBackgroundColor, offset 0x68, size 0x10
-  __declspec(property(get = __get__highlightBackgroundColor, put = __set__highlightBackgroundColor))::UnityEngine::Color _highlightBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__highlightBackgroundColor, put = __cordl_internal_set__highlightBackgroundColor))::UnityEngine::Color _highlightBackgroundColor;
 
   /// @brief Field _selectedBackgroundColor, offset 0x78, size 0x10
-  __declspec(property(get = __get__selectedBackgroundColor, put = __set__selectedBackgroundColor))::UnityEngine::Color _selectedBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor))::UnityEngine::Color _selectedBackgroundColor;
 
   /// @brief Field _selectedAndHighlightedBackgroundColor, offset 0x88, size 0x10
-  __declspec(property(get = __get__selectedAndHighlightedBackgroundColor, put = __set__selectedAndHighlightedBackgroundColor))::UnityEngine::Color _selectedAndHighlightedBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedBackgroundColor,
+                      put = __cordl_internal_set__selectedAndHighlightedBackgroundColor))::UnityEngine::Color _selectedAndHighlightedBackgroundColor;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__nameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__nameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
-  constexpr void __set__nameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__backgroundImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__backgroundImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__backgroundImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
 
-  constexpr void __set__backgroundImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__backgroundImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::Color& __get__highlightBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__highlightBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__highlightBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__highlightBackgroundColor() const;
 
-  constexpr void __set__highlightBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__highlightBackgroundColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__selectedBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__selectedBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedBackgroundColor() const;
 
-  constexpr void __set__selectedBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__selectedBackgroundColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__selectedAndHighlightedBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedAndHighlightedBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__selectedAndHighlightedBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedAndHighlightedBackgroundColor() const;
 
-  constexpr void __set__selectedAndHighlightedBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__selectedAndHighlightedBackgroundColor(::UnityEngine::Color value);
 
   /// @brief Method SetData, addr 0x227bdb8, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::StringW headerText);
@@ -108,10 +109,10 @@ protected:
 
 public:
   /// @brief Field _nameText, offset: 0x58, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____nameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
   /// @brief Field _backgroundImage, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____backgroundImage;
+  ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
   /// @brief Field _highlightBackgroundColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightBackgroundColor;

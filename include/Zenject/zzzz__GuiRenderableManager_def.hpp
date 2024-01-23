@@ -58,29 +58,29 @@ MARK_REF_PTR_T(::Zenject::__GuiRenderableManager____c__DisplayClass1_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11312))
 // CS Name: ::GuiRenderableManager::RenderableInfo*
 class CORDL_TYPE __GuiRenderableManager__RenderableInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Renderable, offset 0x10, size 0x8
-  __declspec(property(get = __get_Renderable, put = __set_Renderable))::Zenject::IGuiRenderable* Renderable;
+  __declspec(property(get = __cordl_internal_get_Renderable, put = __cordl_internal_set_Renderable))::Zenject::IGuiRenderable* Renderable;
 
   /// @brief Field Priority, offset 0x18, size 0x4
-  __declspec(property(get = __get_Priority, put = __set_Priority)) int32_t Priority;
+  __declspec(property(get = __cordl_internal_get_Priority, put = __cordl_internal_set_Priority)) int32_t Priority;
 
-  constexpr ::Zenject::IGuiRenderable*& __get_Renderable();
+  constexpr ::Zenject::IGuiRenderable*& __cordl_internal_get_Renderable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IGuiRenderable*> const& __get_Renderable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IGuiRenderable*> const& __cordl_internal_get_Renderable() const;
 
-  constexpr void __set_Renderable(::Zenject::IGuiRenderable* value);
+  constexpr void __cordl_internal_set_Renderable(::Zenject::IGuiRenderable* value);
 
-  constexpr int32_t& __get_Priority();
+  constexpr int32_t& __cordl_internal_get_Priority();
 
-  constexpr int32_t const& __get_Priority() const;
+  constexpr int32_t const& __cordl_internal_get_Priority() const;
 
-  constexpr void __set_Priority(int32_t value);
+  constexpr void __cordl_internal_set_Priority(int32_t value);
 
   static inline ::Zenject::__GuiRenderableManager__RenderableInfo* New_ctor(::Zenject::IGuiRenderable* renderable, int32_t priority);
 
@@ -127,20 +127,20 @@ static_assert(offsetof(::Zenject::__GuiRenderableManager__RenderableInfo, ___Pri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11313))
 // CS Name: ::GuiRenderableManager::<>c__DisplayClass1_0*
 class CORDL_TYPE __GuiRenderableManager____c__DisplayClass1_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field renderable, offset 0x10, size 0x8
-  __declspec(property(get = __get_renderable, put = __set_renderable))::Zenject::IGuiRenderable* renderable;
+  __declspec(property(get = __cordl_internal_get_renderable, put = __cordl_internal_set_renderable))::Zenject::IGuiRenderable* renderable;
 
-  constexpr ::Zenject::IGuiRenderable*& __get_renderable();
+  constexpr ::Zenject::IGuiRenderable*& __cordl_internal_get_renderable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IGuiRenderable*> const& __get_renderable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IGuiRenderable*> const& __cordl_internal_get_renderable() const;
 
-  constexpr void __set_renderable(::Zenject::IGuiRenderable* value);
+  constexpr void __cordl_internal_set_renderable(::Zenject::IGuiRenderable* value);
 
   static inline ::Zenject::__GuiRenderableManager____c__DisplayClass1_0* New_ctor();
 
@@ -185,7 +185,7 @@ static_assert(offsetof(::Zenject::__GuiRenderableManager____c__DisplayClass1_0, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11314))
 // CS Name: ::GuiRenderableManager::<>c*
 class CORDL_TYPE __GuiRenderableManager____c : public ::System::Object {
@@ -253,7 +253,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__GuiRenderableManager_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11315))
 // CS Name: ::Zenject::GuiRenderableManager*
 class CORDL_TYPE GuiRenderableManager : public ::System::Object {
@@ -266,13 +266,14 @@ public:
   using RenderableInfo = ::Zenject::__GuiRenderableManager__RenderableInfo;
 
   /// @brief Field _renderables, offset 0x10, size 0x8
-  __declspec(property(get = __get__renderables, put = __set__renderables))::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* _renderables;
+  __declspec(property(get = __cordl_internal_get__renderables,
+                      put = __cordl_internal_set__renderables))::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* _renderables;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>*& __get__renderables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>*& __cordl_internal_get__renderables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>*> const& __get__renderables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>*> const& __cordl_internal_get__renderables() const;
 
-  constexpr void __set__renderables(::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* value);
+  constexpr void __cordl_internal_set__renderables(::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* value);
 
   static inline ::Zenject::GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                                                           ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);

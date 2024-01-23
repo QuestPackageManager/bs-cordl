@@ -22,7 +22,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3836))
 // CS Name: ::System.Collections.Generic::IReadOnlyCollection`1<T>*
 class CORDL_TYPE IReadOnlyCollection_1 {

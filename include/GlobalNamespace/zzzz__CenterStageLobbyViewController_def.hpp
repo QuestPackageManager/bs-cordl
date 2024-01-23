@@ -23,29 +23,30 @@ MARK_REF_PTR_T(::GlobalNamespace::CenterStageLobbyViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5709))
 // CS Name: ::CenterStageLobbyViewController*
 class CORDL_TYPE CenterStageLobbyViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _beatmapSelectionView, offset 0x70, size 0x8
-  __declspec(property(get = __get__beatmapSelectionView, put = __set__beatmapSelectionView))::GlobalNamespace::BeatmapSelectionView* _beatmapSelectionView;
+  __declspec(property(get = __cordl_internal_get__beatmapSelectionView, put = __cordl_internal_set__beatmapSelectionView))::UnityW<::GlobalNamespace::BeatmapSelectionView> _beatmapSelectionView;
 
   /// @brief Field _modifiersSelectionView, offset 0x78, size 0x8
-  __declspec(property(get = __get__modifiersSelectionView, put = __set__modifiersSelectionView))::GlobalNamespace::ModifiersSelectionView* _modifiersSelectionView;
+  __declspec(property(get = __cordl_internal_get__modifiersSelectionView,
+                      put = __cordl_internal_set__modifiersSelectionView))::UnityW<::GlobalNamespace::ModifiersSelectionView> _modifiersSelectionView;
 
-  constexpr ::GlobalNamespace::BeatmapSelectionView*& __get__beatmapSelectionView();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView>& __cordl_internal_get__beatmapSelectionView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapSelectionView*> const& __get__beatmapSelectionView() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
 
-  constexpr void __set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView* value);
+  constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value);
 
-  constexpr ::GlobalNamespace::ModifiersSelectionView*& __get__modifiersSelectionView();
+  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView>& __cordl_internal_get__modifiersSelectionView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ModifiersSelectionView*> const& __get__modifiersSelectionView() const;
+  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView> const& __cordl_internal_get__modifiersSelectionView() const;
 
-  constexpr void __set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView* value);
+  constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
 
   /// @brief Method SetLevelGameplaySetupData, addr 0x22cc804, size 0x13c, virtual false, abstract: false, final false
   inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
@@ -70,10 +71,10 @@ protected:
 
 public:
   /// @brief Field _beatmapSelectionView, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapSelectionView* ____beatmapSelectionView;
+  ::UnityW<::GlobalNamespace::BeatmapSelectionView> ____beatmapSelectionView;
 
   /// @brief Field _modifiersSelectionView, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::ModifiersSelectionView* ____modifiersSelectionView;
+  ::UnityW<::GlobalNamespace::ModifiersSelectionView> ____modifiersSelectionView;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

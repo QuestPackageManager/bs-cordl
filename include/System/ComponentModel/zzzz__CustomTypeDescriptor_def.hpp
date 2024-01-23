@@ -46,14 +46,14 @@ MARK_REF_PTR_T(::System::ComponentModel::CustomTypeDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9414))
 // CS Name: ::System.ComponentModel::CustomTypeDescriptor*
 class CORDL_TYPE CustomTypeDescriptor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _parent, offset 0x10, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::System::ComponentModel::ICustomTypeDescriptor* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::System::ComponentModel::ICustomTypeDescriptor* _parent;
 
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*() noexcept;
@@ -61,11 +61,11 @@ public:
   /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr ::System::ComponentModel::ICustomTypeDescriptor* i___System__ComponentModel__ICustomTypeDescriptor() noexcept;
 
-  constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __get__parent();
+  constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ICustomTypeDescriptor*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ICustomTypeDescriptor*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::System::ComponentModel::ICustomTypeDescriptor* value);
+  constexpr void __cordl_internal_set__parent(::System::ComponentModel::ICustomTypeDescriptor* value);
 
   static inline ::System::ComponentModel::CustomTypeDescriptor* New_ctor();
 

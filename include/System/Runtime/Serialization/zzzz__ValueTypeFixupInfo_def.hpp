@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ValueTypeFixupInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3211))
 // CS Name: ::System.Runtime.Serialization::ValueTypeFixupInfo*
 class CORDL_TYPE ValueTypeFixupInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _containerID, offset 0x10, size 0x8
-  __declspec(property(get = __get__containerID, put = __set__containerID)) int64_t _containerID;
+  __declspec(property(get = __cordl_internal_get__containerID, put = __cordl_internal_set__containerID)) int64_t _containerID;
 
   /// @brief Field _parentField, offset 0x18, size 0x8
-  __declspec(property(get = __get__parentField, put = __set__parentField))::System::Reflection::FieldInfo* _parentField;
+  __declspec(property(get = __cordl_internal_get__parentField, put = __cordl_internal_set__parentField))::System::Reflection::FieldInfo* _parentField;
 
   /// @brief Field _parentIndex, offset 0x20, size 0x8
-  __declspec(property(get = __get__parentIndex, put = __set__parentIndex))::ArrayW<int32_t, ::Array<int32_t>*> _parentIndex;
+  __declspec(property(get = __cordl_internal_get__parentIndex, put = __cordl_internal_set__parentIndex))::ArrayW<int32_t, ::Array<int32_t>*> _parentIndex;
 
   __declspec(property(get = get_ContainerID)) int64_t ContainerID;
 
@@ -40,23 +40,23 @@ public:
 
   __declspec(property(get = get_ParentIndex))::ArrayW<int32_t, ::Array<int32_t>*> ParentIndex;
 
-  constexpr int64_t& __get__containerID();
+  constexpr int64_t& __cordl_internal_get__containerID();
 
-  constexpr int64_t const& __get__containerID() const;
+  constexpr int64_t const& __cordl_internal_get__containerID() const;
 
-  constexpr void __set__containerID(int64_t value);
+  constexpr void __cordl_internal_set__containerID(int64_t value);
 
-  constexpr ::System::Reflection::FieldInfo*& __get__parentField();
+  constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get__parentField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __get__parentField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get__parentField() const;
 
-  constexpr void __set__parentField(::System::Reflection::FieldInfo* value);
+  constexpr void __cordl_internal_set__parentField(::System::Reflection::FieldInfo* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__parentIndex();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__parentIndex();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__parentIndex() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__parentIndex() const;
 
-  constexpr void __set__parentIndex(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__parentIndex(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline ::System::Runtime::Serialization::ValueTypeFixupInfo* New_ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
 

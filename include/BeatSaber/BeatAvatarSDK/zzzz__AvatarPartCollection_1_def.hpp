@@ -22,42 +22,42 @@ namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15685))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartCollection`1<T>*
 class CORDL_TYPE AvatarPartCollection_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _partById, offset 0x10, size 0x8
-  __declspec(property(get = __get__partById, put = __set__partById))::System::Collections::Generic::Dictionary_2<::StringW, T>* _partById;
+  __declspec(property(get = __cordl_internal_get__partById, put = __cordl_internal_set__partById))::System::Collections::Generic::Dictionary_2<::StringW, T>* _partById;
 
   /// @brief Field _partIndexById, offset 0x18, size 0x8
-  __declspec(property(get = __get__partIndexById, put = __set__partIndexById))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _partIndexById;
+  __declspec(property(get = __cordl_internal_get__partIndexById, put = __cordl_internal_set__partIndexById))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _partIndexById;
 
   /// @brief Field _parts, offset 0x20, size 0x8
-  __declspec(property(get = __get__parts, put = __set__parts))::ArrayW<T, ::Array<T>*> _parts;
+  __declspec(property(get = __cordl_internal_get__parts, put = __cordl_internal_set__parts))::ArrayW<T, ::Array<T>*> _parts;
 
   __declspec(property(get = get_count)) int32_t count;
 
   __declspec(property(get = get_parts))::ArrayW<T, ::Array<T>*> parts;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, T>*& __get__partById();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, T>*& __cordl_internal_get__partById();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, T>*> const& __get__partById() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, T>*> const& __cordl_internal_get__partById() const;
 
-  constexpr void __set__partById(::System::Collections::Generic::Dictionary_2<::StringW, T>* value);
+  constexpr void __cordl_internal_set__partById(::System::Collections::Generic::Dictionary_2<::StringW, T>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __get__partIndexById();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__partIndexById();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __get__partIndexById() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get__partIndexById() const;
 
-  constexpr void __set__partIndexById(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr void __cordl_internal_set__partIndexById(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__parts();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__parts();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__parts() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__parts() const;
 
-  constexpr void __set__parts(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__parts(::ArrayW<T, ::Array<T>*> value);
 
   /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_count();

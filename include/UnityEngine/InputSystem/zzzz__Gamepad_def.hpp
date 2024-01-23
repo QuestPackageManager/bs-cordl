@@ -39,60 +39,73 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Gamepad);
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6460))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6460))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6237))
 // CS Name: ::UnityEngine.InputSystem::Gamepad*
 class CORDL_TYPE Gamepad : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
   /// @brief Field <buttonWest>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __get__buttonWest_k__BackingField, put = __set__buttonWest_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonWest_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__buttonWest_k__BackingField,
+                      put = __cordl_internal_set__buttonWest_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonWest_k__BackingField;
 
   /// @brief Field <buttonNorth>k__BackingField, offset 0x160, size 0x8
-  __declspec(property(get = __get__buttonNorth_k__BackingField, put = __set__buttonNorth_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonNorth_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__buttonNorth_k__BackingField,
+                      put = __cordl_internal_set__buttonNorth_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonNorth_k__BackingField;
 
   /// @brief Field <buttonSouth>k__BackingField, offset 0x168, size 0x8
-  __declspec(property(get = __get__buttonSouth_k__BackingField, put = __set__buttonSouth_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonSouth_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__buttonSouth_k__BackingField,
+                      put = __cordl_internal_set__buttonSouth_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonSouth_k__BackingField;
 
   /// @brief Field <buttonEast>k__BackingField, offset 0x170, size 0x8
-  __declspec(property(get = __get__buttonEast_k__BackingField, put = __set__buttonEast_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonEast_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__buttonEast_k__BackingField,
+                      put = __cordl_internal_set__buttonEast_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _buttonEast_k__BackingField;
 
   /// @brief Field <leftStickButton>k__BackingField, offset 0x178, size 0x8
-  __declspec(property(get = __get__leftStickButton_k__BackingField, put = __set__leftStickButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftStickButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftStickButton_k__BackingField,
+                      put = __cordl_internal_set__leftStickButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftStickButton_k__BackingField;
 
   /// @brief Field <rightStickButton>k__BackingField, offset 0x180, size 0x8
-  __declspec(property(get = __get__rightStickButton_k__BackingField,
-                      put = __set__rightStickButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightStickButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightStickButton_k__BackingField,
+                      put = __cordl_internal_set__rightStickButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightStickButton_k__BackingField;
 
   /// @brief Field <startButton>k__BackingField, offset 0x188, size 0x8
-  __declspec(property(get = __get__startButton_k__BackingField, put = __set__startButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _startButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__startButton_k__BackingField,
+                      put = __cordl_internal_set__startButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _startButton_k__BackingField;
 
   /// @brief Field <selectButton>k__BackingField, offset 0x190, size 0x8
-  __declspec(property(get = __get__selectButton_k__BackingField, put = __set__selectButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _selectButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__selectButton_k__BackingField,
+                      put = __cordl_internal_set__selectButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _selectButton_k__BackingField;
 
   /// @brief Field <dpad>k__BackingField, offset 0x198, size 0x8
-  __declspec(property(get = __get__dpad_k__BackingField, put = __set__dpad_k__BackingField))::UnityEngine::InputSystem::Controls::DpadControl* _dpad_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dpad_k__BackingField, put = __cordl_internal_set__dpad_k__BackingField))::UnityEngine::InputSystem::Controls::DpadControl* _dpad_k__BackingField;
 
   /// @brief Field <leftShoulder>k__BackingField, offset 0x1a0, size 0x8
-  __declspec(property(get = __get__leftShoulder_k__BackingField, put = __set__leftShoulder_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftShoulder_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftShoulder_k__BackingField,
+                      put = __cordl_internal_set__leftShoulder_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftShoulder_k__BackingField;
 
   /// @brief Field <rightShoulder>k__BackingField, offset 0x1a8, size 0x8
-  __declspec(property(get = __get__rightShoulder_k__BackingField, put = __set__rightShoulder_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightShoulder_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightShoulder_k__BackingField,
+                      put = __cordl_internal_set__rightShoulder_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightShoulder_k__BackingField;
 
   /// @brief Field <leftStick>k__BackingField, offset 0x1b0, size 0x8
-  __declspec(property(get = __get__leftStick_k__BackingField, put = __set__leftStick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _leftStick_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftStick_k__BackingField,
+                      put = __cordl_internal_set__leftStick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _leftStick_k__BackingField;
 
   /// @brief Field <rightStick>k__BackingField, offset 0x1b8, size 0x8
-  __declspec(property(get = __get__rightStick_k__BackingField, put = __set__rightStick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _rightStick_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightStick_k__BackingField,
+                      put = __cordl_internal_set__rightStick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _rightStick_k__BackingField;
 
   /// @brief Field <leftTrigger>k__BackingField, offset 0x1c0, size 0x8
-  __declspec(property(get = __get__leftTrigger_k__BackingField, put = __set__leftTrigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftTrigger_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftTrigger_k__BackingField,
+                      put = __cordl_internal_set__leftTrigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftTrigger_k__BackingField;
 
   /// @brief Field <rightTrigger>k__BackingField, offset 0x1c8, size 0x8
-  __declspec(property(get = __get__rightTrigger_k__BackingField, put = __set__rightTrigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightTrigger_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightTrigger_k__BackingField,
+                      put = __cordl_internal_set__rightTrigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightTrigger_k__BackingField;
 
   /// @brief Field m_Rumble, offset 0x1d0, size 0x8
-  __declspec(property(get = __get_m_Rumble, put = __set_m_Rumble))::UnityEngine::InputSystem::Haptics::DualMotorRumble m_Rumble;
+  __declspec(property(get = __cordl_internal_get_m_Rumble, put = __cordl_internal_set_m_Rumble))::UnityEngine::InputSystem::Haptics::DualMotorRumble m_Rumble;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Gamepad* _current_k__BackingField;
@@ -163,101 +176,101 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__buttonWest_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__buttonWest_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__buttonWest_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__buttonWest_k__BackingField() const;
 
-  constexpr void __set__buttonWest_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__buttonWest_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__buttonNorth_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__buttonNorth_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__buttonNorth_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__buttonNorth_k__BackingField() const;
 
-  constexpr void __set__buttonNorth_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__buttonNorth_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__buttonSouth_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__buttonSouth_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__buttonSouth_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__buttonSouth_k__BackingField() const;
 
-  constexpr void __set__buttonSouth_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__buttonSouth_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__buttonEast_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__buttonEast_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__buttonEast_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__buttonEast_k__BackingField() const;
 
-  constexpr void __set__buttonEast_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__buttonEast_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__leftStickButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__leftStickButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__leftStickButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__leftStickButton_k__BackingField() const;
 
-  constexpr void __set__leftStickButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__leftStickButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__rightStickButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__rightStickButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__rightStickButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__rightStickButton_k__BackingField() const;
 
-  constexpr void __set__rightStickButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__rightStickButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__startButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__startButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__startButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__startButton_k__BackingField() const;
 
-  constexpr void __set__startButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__startButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__selectButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__selectButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__selectButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__selectButton_k__BackingField() const;
 
-  constexpr void __set__selectButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__selectButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::DpadControl*& __get__dpad_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::DpadControl*& __cordl_internal_get__dpad_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DpadControl*> const& __get__dpad_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DpadControl*> const& __cordl_internal_get__dpad_k__BackingField() const;
 
-  constexpr void __set__dpad_k__BackingField(::UnityEngine::InputSystem::Controls::DpadControl* value);
+  constexpr void __cordl_internal_set__dpad_k__BackingField(::UnityEngine::InputSystem::Controls::DpadControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__leftShoulder_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__leftShoulder_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__leftShoulder_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__leftShoulder_k__BackingField() const;
 
-  constexpr void __set__leftShoulder_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__leftShoulder_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__rightShoulder_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__rightShoulder_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__rightShoulder_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__rightShoulder_k__BackingField() const;
 
-  constexpr void __set__rightShoulder_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__rightShoulder_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __get__leftStick_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __cordl_internal_get__leftStick_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __get__leftStick_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __cordl_internal_get__leftStick_k__BackingField() const;
 
-  constexpr void __set__leftStick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
+  constexpr void __cordl_internal_set__leftStick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __get__rightStick_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __cordl_internal_get__rightStick_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __get__rightStick_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __cordl_internal_get__rightStick_k__BackingField() const;
 
-  constexpr void __set__rightStick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
+  constexpr void __cordl_internal_set__rightStick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__leftTrigger_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__leftTrigger_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__leftTrigger_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__leftTrigger_k__BackingField() const;
 
-  constexpr void __set__leftTrigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__leftTrigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__rightTrigger_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__rightTrigger_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__rightTrigger_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__rightTrigger_k__BackingField() const;
 
-  constexpr void __set__rightTrigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__rightTrigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Haptics::DualMotorRumble& __get_m_Rumble();
+  constexpr ::UnityEngine::InputSystem::Haptics::DualMotorRumble& __cordl_internal_get_m_Rumble();
 
-  constexpr ::UnityEngine::InputSystem::Haptics::DualMotorRumble const& __get_m_Rumble() const;
+  constexpr ::UnityEngine::InputSystem::Haptics::DualMotorRumble const& __cordl_internal_get_m_Rumble() const;
 
-  constexpr void __set_m_Rumble(::UnityEngine::InputSystem::Haptics::DualMotorRumble value);
+  constexpr void __cordl_internal_set_m_Rumble(::UnityEngine::InputSystem::Haptics::DualMotorRumble value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Gamepad* value);
 

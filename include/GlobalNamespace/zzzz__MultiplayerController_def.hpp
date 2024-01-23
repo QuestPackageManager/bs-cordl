@@ -139,7 +139,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerController____c__DisplayClass45_0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5198))
 // CS Name: ::MultiplayerController::State
 struct CORDL_TYPE __MultiplayerController__State {
@@ -209,23 +209,23 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerController__State, value_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5239))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5199))
 // CS Name: ::MultiplayerController::<PerformSongStartSync>d__39*
 class CORDL_TYPE __MultiplayerController___PerformSongStartSync_d__39 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerController> __4__this;
 
   /// @brief Field localPlayerSyncState, offset 0x28, size 0x4
-  __declspec(property(get = __get_localPlayerSyncState, put = __set_localPlayerSyncState))::GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState;
+  __declspec(property(get = __cordl_internal_get_localPlayerSyncState, put = __cordl_internal_set_localPlayerSyncState))::GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -249,29 +249,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerStartState& __get_localPlayerSyncState();
+  constexpr ::GlobalNamespace::MultiplayerPlayerStartState& __cordl_internal_get_localPlayerSyncState();
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __get_localPlayerSyncState() const;
+  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __cordl_internal_get_localPlayerSyncState() const;
 
-  constexpr void __set_localPlayerSyncState(::GlobalNamespace::MultiplayerPlayerStartState value);
+  constexpr void __cordl_internal_set_localPlayerSyncState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
   static inline ::GlobalNamespace::__MultiplayerController___PerformSongStartSync_d__39* New_ctor(int32_t __1__state);
 
@@ -314,7 +314,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerController> _____4__this;
 
   /// @brief Field localPlayerSyncState, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerStartState ___localPlayerSyncState;
@@ -337,29 +337,29 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerController___PerformSongS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5200))
 // CS Name: ::MultiplayerController::<>c__DisplayClass45_0*
 class CORDL_TYPE __MultiplayerController____c__DisplayClass45_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerController> __4__this;
 
   /// @brief Field introAnimationStartSyncTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_introAnimationStartSyncTime, put = __set_introAnimationStartSyncTime)) int64_t introAnimationStartSyncTime;
+  __declspec(property(get = __cordl_internal_get_introAnimationStartSyncTime, put = __cordl_internal_set_introAnimationStartSyncTime)) int64_t introAnimationStartSyncTime;
 
-  constexpr ::GlobalNamespace::MultiplayerController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr int64_t& __get_introAnimationStartSyncTime();
+  constexpr int64_t& __cordl_internal_get_introAnimationStartSyncTime();
 
-  constexpr int64_t const& __get_introAnimationStartSyncTime() const;
+  constexpr int64_t const& __cordl_internal_get_introAnimationStartSyncTime() const;
 
-  constexpr void __set_introAnimationStartSyncTime(int64_t value);
+  constexpr void __cordl_internal_set_introAnimationStartSyncTime(int64_t value);
 
   static inline ::GlobalNamespace::__MultiplayerController____c__DisplayClass45_0* New_ctor();
 
@@ -384,7 +384,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerController> _____4__this;
 
   /// @brief Field introAnimationStartSyncTime, offset: 0x18, size: 0x8, def value: None
   int64_t ___introAnimationStartSyncTime;
@@ -403,7 +403,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerController____c__DisplayC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5201))
 // CS Name: ::MultiplayerController::<>c*
 class CORDL_TYPE __MultiplayerController____c : public ::System::Object {
@@ -455,7 +455,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerCo
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5198)), TypeDefinitionIndex(TypeDefinitionIndex(5239))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5198)), TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5202))
 // CS Name: ::MultiplayerController*
 class CORDL_TYPE MultiplayerController : public ::UnityEngine::MonoBehaviour {
@@ -470,225 +470,232 @@ public:
   using State = ::GlobalNamespace::__MultiplayerController__State;
 
   /// @brief Field _loadingEnvironment, offset 0x18, size 0x8
-  __declspec(property(get = __get__loadingEnvironment, put = __set__loadingEnvironment))::UnityEngine::GameObject* _loadingEnvironment;
+  __declspec(property(get = __cordl_internal_get__loadingEnvironment, put = __cordl_internal_set__loadingEnvironment))::UnityW<::UnityEngine::GameObject> _loadingEnvironment;
 
   /// @brief Field _multiplayerLevelSceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerLevelSceneSetupData,
-                      put = __set__multiplayerLevelSceneSetupData))::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _multiplayerLevelSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__multiplayerLevelSceneSetupData,
+                      put = __cordl_internal_set__multiplayerLevelSceneSetupData))::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> _multiplayerLevelSceneSetupData;
 
   /// @brief Field _gameScenesManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _playersManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__playersManager, put = __set__playersManager))::GlobalNamespace::MultiplayerPlayersManager* _playersManager;
+  __declspec(property(get = __cordl_internal_get__playersManager, put = __cordl_internal_set__playersManager))::UnityW<::GlobalNamespace::MultiplayerPlayersManager> _playersManager;
 
   /// @brief Field _sceneStartSyncController, offset 0x38, size 0x8
-  __declspec(property(get = __get__sceneStartSyncController, put = __set__sceneStartSyncController))::GlobalNamespace::SceneStartSyncController* _sceneStartSyncController;
+  __declspec(property(get = __cordl_internal_get__sceneStartSyncController,
+                      put = __cordl_internal_set__sceneStartSyncController))::UnityW<::GlobalNamespace::SceneStartSyncController> _sceneStartSyncController;
 
   /// @brief Field _songStartSyncController, offset 0x40, size 0x8
-  __declspec(property(get = __get__songStartSyncController, put = __set__songStartSyncController))::GlobalNamespace::SongStartSyncController* _songStartSyncController;
+  __declspec(property(get = __cordl_internal_get__songStartSyncController,
+                      put = __cordl_internal_set__songStartSyncController))::UnityW<::GlobalNamespace::SongStartSyncController> _songStartSyncController;
 
   /// @brief Field _multiplayerLevelFinishedController, offset 0x48, size 0x8
-  __declspec(property(get = __get__multiplayerLevelFinishedController,
-                      put = __set__multiplayerLevelFinishedController))::GlobalNamespace::MultiplayerLevelFinishedController* _multiplayerLevelFinishedController;
+  __declspec(property(get = __cordl_internal_get__multiplayerLevelFinishedController,
+                      put = __cordl_internal_set__multiplayerLevelFinishedController))::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> _multiplayerLevelFinishedController;
 
   /// @brief Field _fadeInOutController, offset 0x50, size 0x8
-  __declspec(property(get = __get__fadeInOutController, put = __set__fadeInOutController))::GlobalNamespace::FadeInOutController* _fadeInOutController;
+  __declspec(property(get = __cordl_internal_get__fadeInOutController, put = __cordl_internal_set__fadeInOutController))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOutController;
 
   /// @brief Field _multiplayerSessionManager, offset 0x58, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _introAnimationController, offset 0x60, size 0x8
-  __declspec(property(get = __get__introAnimationController, put = __set__introAnimationController))::GlobalNamespace::MultiplayerIntroAnimationController* _introAnimationController;
+  __declspec(property(get = __cordl_internal_get__introAnimationController,
+                      put = __cordl_internal_set__introAnimationController))::UnityW<::GlobalNamespace::MultiplayerIntroAnimationController> _introAnimationController;
 
   /// @brief Field _outroAnimationController, offset 0x68, size 0x8
-  __declspec(property(get = __get__outroAnimationController, put = __set__outroAnimationController))::GlobalNamespace::MultiplayerOutroAnimationController* _outroAnimationController;
+  __declspec(property(get = __cordl_internal_get__outroAnimationController,
+                      put = __cordl_internal_set__outroAnimationController))::UnityW<::GlobalNamespace::MultiplayerOutroAnimationController> _outroAnimationController;
 
   /// @brief Field _menuRpcManager, offset 0x70, size 0x8
-  __declspec(property(get = __get__menuRpcManager, put = __set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
+  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
 
   /// @brief Field _gameplayRpcManager, offset 0x78, size 0x8
-  __declspec(property(get = __get__gameplayRpcManager, put = __set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
   /// @brief Field _sceneSetupData, offset 0x80, size 0x8
-  __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
   /// @brief Field _diContainer, offset 0x88, size 0x8
-  __declspec(property(get = __get__diContainer, put = __set__diContainer))::Zenject::DiContainer* _diContainer;
+  __declspec(property(get = __cordl_internal_get__diContainer, put = __cordl_internal_set__diContainer))::Zenject::DiContainer* _diContainer;
 
   /// @brief Field _badgesProvider, offset 0x90, size 0x8
-  __declspec(property(get = __get__badgesProvider, put = __set__badgesProvider))::GlobalNamespace::MultiplayerBadgesProvider* _badgesProvider;
+  __declspec(property(get = __cordl_internal_get__badgesProvider, put = __cordl_internal_set__badgesProvider))::GlobalNamespace::MultiplayerBadgesProvider* _badgesProvider;
 
   /// @brief Field stateChangedEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_stateChangedEvent, put = __set_stateChangedEvent))::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* stateChangedEvent;
+  __declspec(property(get = __cordl_internal_get_stateChangedEvent,
+                      put = __cordl_internal_set_stateChangedEvent))::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* stateChangedEvent;
 
   /// @brief Field _startTime, offset 0xa0, size 0x4
-  __declspec(property(get = __get__startTime, put = __set__startTime)) float_t _startTime;
+  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) float_t _startTime;
 
   /// @brief Field _localPlayerSyncStartState, offset 0xa4, size 0x4
-  __declspec(property(get = __get__localPlayerSyncStartState, put = __set__localPlayerSyncStartState))::GlobalNamespace::MultiplayerPlayerStartState _localPlayerSyncStartState;
+  __declspec(property(get = __cordl_internal_get__localPlayerSyncStartState,
+                      put = __cordl_internal_set__localPlayerSyncStartState))::GlobalNamespace::MultiplayerPlayerStartState _localPlayerSyncStartState;
 
   /// @brief Field _state, offset 0xa8, size 0x4
-  __declspec(property(get = __get__state, put = __set__state))::GlobalNamespace::__MultiplayerController__State _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::__MultiplayerController__State _state;
 
   /// @brief Field _sessionGameId, offset 0xb0, size 0x8
-  __declspec(property(get = __get__sessionGameId, put = __set__sessionGameId))::StringW _sessionGameId;
+  __declspec(property(get = __cordl_internal_get__sessionGameId, put = __cordl_internal_set__sessionGameId))::StringW _sessionGameId;
 
   /// @brief Field _resultsData, offset 0xb8, size 0x8
-  __declspec(property(get = __get__resultsData, put = __set__resultsData))::GlobalNamespace::MultiplayerResultsData* _resultsData;
+  __declspec(property(get = __cordl_internal_get__resultsData, put = __cordl_internal_set__resultsData))::GlobalNamespace::MultiplayerResultsData* _resultsData;
 
   /// @brief Field _playersSpecificSettingsAtGameStartModel, offset 0xc0, size 0x8
-  __declspec(property(get = __get__playersSpecificSettingsAtGameStartModel,
-                      put = __set__playersSpecificSettingsAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersSpecificSettingsAtGameStartModel;
+  __declspec(property(get = __cordl_internal_get__playersSpecificSettingsAtGameStartModel,
+                      put = __cordl_internal_set__playersSpecificSettingsAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersSpecificSettingsAtGameStartModel;
 
   /// @brief Field _timeoutGetGameStateCoroutine, offset 0xc8, size 0x8
-  __declspec(property(get = __get__timeoutGetGameStateCoroutine, put = __set__timeoutGetGameStateCoroutine))::UnityEngine::Coroutine* _timeoutGetGameStateCoroutine;
+  __declspec(property(get = __cordl_internal_get__timeoutGetGameStateCoroutine, put = __cordl_internal_set__timeoutGetGameStateCoroutine))::UnityEngine::Coroutine* _timeoutGetGameStateCoroutine;
 
   __declspec(property(get = get_state))::GlobalNamespace::__MultiplayerController__State state;
 
-  constexpr ::UnityEngine::GameObject*& __get__loadingEnvironment();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__loadingEnvironment();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__loadingEnvironment() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__loadingEnvironment() const;
 
-  constexpr void __set__loadingEnvironment(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__loadingEnvironment(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& __get__multiplayerLevelSceneSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& __cordl_internal_get__multiplayerLevelSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*> const& __get__multiplayerLevelSceneSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__multiplayerLevelSceneSetupData() const;
 
-  constexpr void __set__multiplayerLevelSceneSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__multiplayerLevelSceneSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayersManager*& __get__playersManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__playersManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayersManager*> const& __get__playersManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__playersManager() const;
 
-  constexpr void __set__playersManager(::GlobalNamespace::MultiplayerPlayersManager* value);
+  constexpr void __cordl_internal_set__playersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  constexpr ::GlobalNamespace::SceneStartSyncController*& __get__sceneStartSyncController();
+  constexpr ::UnityW<::GlobalNamespace::SceneStartSyncController>& __cordl_internal_get__sceneStartSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneStartSyncController*> const& __get__sceneStartSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::SceneStartSyncController> const& __cordl_internal_get__sceneStartSyncController() const;
 
-  constexpr void __set__sceneStartSyncController(::GlobalNamespace::SceneStartSyncController* value);
+  constexpr void __cordl_internal_set__sceneStartSyncController(::UnityW<::GlobalNamespace::SceneStartSyncController> value);
 
-  constexpr ::GlobalNamespace::SongStartSyncController*& __get__songStartSyncController();
+  constexpr ::UnityW<::GlobalNamespace::SongStartSyncController>& __cordl_internal_get__songStartSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongStartSyncController*> const& __get__songStartSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::SongStartSyncController> const& __cordl_internal_get__songStartSyncController() const;
 
-  constexpr void __set__songStartSyncController(::GlobalNamespace::SongStartSyncController* value);
+  constexpr void __cordl_internal_set__songStartSyncController(::UnityW<::GlobalNamespace::SongStartSyncController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelFinishedController*& __get__multiplayerLevelFinishedController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController>& __cordl_internal_get__multiplayerLevelFinishedController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelFinishedController*> const& __get__multiplayerLevelFinishedController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> const& __cordl_internal_get__multiplayerLevelFinishedController() const;
 
-  constexpr void __set__multiplayerLevelFinishedController(::GlobalNamespace::MultiplayerLevelFinishedController* value);
+  constexpr void __cordl_internal_set__multiplayerLevelFinishedController(::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> value);
 
-  constexpr ::GlobalNamespace::FadeInOutController*& __get__fadeInOutController();
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOutController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FadeInOutController*> const& __get__fadeInOutController() const;
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOutController() const;
 
-  constexpr void __set__fadeInOutController(::GlobalNamespace::FadeInOutController* value);
+  constexpr void __cordl_internal_set__fadeInOutController(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroAnimationController*& __get__introAnimationController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroAnimationController>& __cordl_internal_get__introAnimationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroAnimationController*> const& __get__introAnimationController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroAnimationController> const& __cordl_internal_get__introAnimationController() const;
 
-  constexpr void __set__introAnimationController(::GlobalNamespace::MultiplayerIntroAnimationController* value);
+  constexpr void __cordl_internal_set__introAnimationController(::UnityW<::GlobalNamespace::MultiplayerIntroAnimationController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerOutroAnimationController*& __get__outroAnimationController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerOutroAnimationController>& __cordl_internal_get__outroAnimationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerOutroAnimationController*> const& __get__outroAnimationController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerOutroAnimationController> const& __cordl_internal_get__outroAnimationController() const;
 
-  constexpr void __set__outroAnimationController(::GlobalNamespace::MultiplayerOutroAnimationController* value);
+  constexpr void __cordl_internal_set__outroAnimationController(::UnityW<::GlobalNamespace::MultiplayerOutroAnimationController> value);
 
-  constexpr ::GlobalNamespace::IMenuRpcManager*& __get__menuRpcManager();
+  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__menuRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __get__menuRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__menuRpcManager() const;
 
-  constexpr void __set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
+  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__gameplayRpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__gameplayRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
 
-  constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __get__sceneSetupData();
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __get__sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  constexpr ::Zenject::DiContainer*& __get__diContainer();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__diContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__diContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__diContainer() const;
 
-  constexpr void __set__diContainer(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__diContainer(::Zenject::DiContainer* value);
 
-  constexpr ::GlobalNamespace::MultiplayerBadgesProvider*& __get__badgesProvider();
+  constexpr ::GlobalNamespace::MultiplayerBadgesProvider*& __cordl_internal_get__badgesProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgesProvider*> const& __get__badgesProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgesProvider*> const& __cordl_internal_get__badgesProvider() const;
 
-  constexpr void __set__badgesProvider(::GlobalNamespace::MultiplayerBadgesProvider* value);
+  constexpr void __cordl_internal_set__badgesProvider(::GlobalNamespace::MultiplayerBadgesProvider* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__MultiplayerController__State>*& __get_stateChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__MultiplayerController__State>*& __cordl_internal_get_stateChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__MultiplayerController__State>*> const& __get_stateChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__MultiplayerController__State>*> const& __cordl_internal_get_stateChangedEvent() const;
 
-  constexpr void __set_stateChangedEvent(::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* value);
+  constexpr void __cordl_internal_set_stateChangedEvent(::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* value);
 
-  constexpr float_t& __get__startTime();
+  constexpr float_t& __cordl_internal_get__startTime();
 
-  constexpr float_t const& __get__startTime() const;
+  constexpr float_t const& __cordl_internal_get__startTime() const;
 
-  constexpr void __set__startTime(float_t value);
+  constexpr void __cordl_internal_set__startTime(float_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerStartState& __get__localPlayerSyncStartState();
+  constexpr ::GlobalNamespace::MultiplayerPlayerStartState& __cordl_internal_get__localPlayerSyncStartState();
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __get__localPlayerSyncStartState() const;
+  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __cordl_internal_get__localPlayerSyncStartState() const;
 
-  constexpr void __set__localPlayerSyncStartState(::GlobalNamespace::MultiplayerPlayerStartState value);
+  constexpr void __cordl_internal_set__localPlayerSyncStartState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  constexpr ::GlobalNamespace::__MultiplayerController__State& __get__state();
+  constexpr ::GlobalNamespace::__MultiplayerController__State& __cordl_internal_get__state();
 
-  constexpr ::GlobalNamespace::__MultiplayerController__State const& __get__state() const;
+  constexpr ::GlobalNamespace::__MultiplayerController__State const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::GlobalNamespace::__MultiplayerController__State value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::__MultiplayerController__State value);
 
-  constexpr ::StringW& __get__sessionGameId();
+  constexpr ::StringW& __cordl_internal_get__sessionGameId();
 
-  constexpr ::StringW const& __get__sessionGameId() const;
+  constexpr ::StringW const& __cordl_internal_get__sessionGameId() const;
 
-  constexpr void __set__sessionGameId(::StringW value);
+  constexpr void __cordl_internal_set__sessionGameId(::StringW value);
 
-  constexpr ::GlobalNamespace::MultiplayerResultsData*& __get__resultsData();
+  constexpr ::GlobalNamespace::MultiplayerResultsData*& __cordl_internal_get__resultsData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerResultsData*> const& __get__resultsData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerResultsData*> const& __cordl_internal_get__resultsData() const;
 
-  constexpr void __set__resultsData(::GlobalNamespace::MultiplayerResultsData* value);
+  constexpr void __cordl_internal_set__resultsData(::GlobalNamespace::MultiplayerResultsData* value);
 
-  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __get__playersSpecificSettingsAtGameStartModel();
+  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __cordl_internal_get__playersSpecificSettingsAtGameStartModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __get__playersSpecificSettingsAtGameStartModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __cordl_internal_get__playersSpecificSettingsAtGameStartModel() const;
 
-  constexpr void __set__playersSpecificSettingsAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
+  constexpr void __cordl_internal_set__playersSpecificSettingsAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__timeoutGetGameStateCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__timeoutGetGameStateCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__timeoutGetGameStateCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__timeoutGetGameStateCoroutine() const;
 
-  constexpr void __set__timeoutGetGameStateCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__timeoutGetGameStateCoroutine(::UnityEngine::Coroutine* value);
 
   /// @brief Method get_state, addr 0x224647c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerController__State get_state();
@@ -793,37 +800,37 @@ protected:
 
 public:
   /// @brief Field _loadingEnvironment, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____loadingEnvironment;
+  ::UnityW<::UnityEngine::GameObject> ____loadingEnvironment;
 
   /// @brief Field _multiplayerLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* ____multiplayerLevelSceneSetupData;
+  ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> ____multiplayerLevelSceneSetupData;
 
   /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _playersManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerPlayersManager* ____playersManager;
+  ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____playersManager;
 
   /// @brief Field _sceneStartSyncController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::SceneStartSyncController* ____sceneStartSyncController;
+  ::UnityW<::GlobalNamespace::SceneStartSyncController> ____sceneStartSyncController;
 
   /// @brief Field _songStartSyncController, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::SongStartSyncController* ____songStartSyncController;
+  ::UnityW<::GlobalNamespace::SongStartSyncController> ____songStartSyncController;
 
   /// @brief Field _multiplayerLevelFinishedController, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLevelFinishedController* ____multiplayerLevelFinishedController;
+  ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> ____multiplayerLevelFinishedController;
 
   /// @brief Field _fadeInOutController, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::FadeInOutController* ____fadeInOutController;
+  ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOutController;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _introAnimationController, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroAnimationController* ____introAnimationController;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroAnimationController> ____introAnimationController;
 
   /// @brief Field _outroAnimationController, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerOutroAnimationController* ____outroAnimationController;
+  ::UnityW<::GlobalNamespace::MultiplayerOutroAnimationController> ____outroAnimationController;
 
   /// @brief Field _menuRpcManager, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____menuRpcManager;

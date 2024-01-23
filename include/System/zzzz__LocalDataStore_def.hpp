@@ -28,29 +28,30 @@ MARK_REF_PTR_T(::System::LocalDataStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2543))
 // CS Name: ::System::LocalDataStore*
 class CORDL_TYPE LocalDataStore : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_DataTable, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_DataTable, put = __set_m_DataTable))::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> m_DataTable;
+  __declspec(property(get = __cordl_internal_get_m_DataTable,
+                      put = __cordl_internal_set_m_DataTable))::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> m_DataTable;
 
   /// @brief Field m_Manager, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Manager, put = __set_m_Manager))::System::LocalDataStoreMgr* m_Manager;
+  __declspec(property(get = __cordl_internal_get_m_Manager, put = __cordl_internal_set_m_Manager))::System::LocalDataStoreMgr* m_Manager;
 
-  constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*>& __get_m_DataTable();
+  constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*>& __cordl_internal_get_m_DataTable();
 
-  constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> const& __get_m_DataTable() const;
+  constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> const& __cordl_internal_get_m_DataTable() const;
 
-  constexpr void __set_m_DataTable(::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> value);
+  constexpr void __cordl_internal_set_m_DataTable(::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> value);
 
-  constexpr ::System::LocalDataStoreMgr*& __get_m_Manager();
+  constexpr ::System::LocalDataStoreMgr*& __cordl_internal_get_m_Manager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& __get_m_Manager() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& __cordl_internal_get_m_Manager() const;
 
-  constexpr void __set_m_Manager(::System::LocalDataStoreMgr* value);
+  constexpr void __cordl_internal_set_m_Manager(::System::LocalDataStoreMgr* value);
 
   static inline ::System::LocalDataStore* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 

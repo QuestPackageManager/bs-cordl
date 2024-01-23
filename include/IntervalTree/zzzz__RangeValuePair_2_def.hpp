@@ -24,7 +24,7 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16135))
 // CS Name: ::IntervalTree::RangeValuePair`2<TKey,TValue>
 struct CORDL_TYPE RangeValuePair_2 {

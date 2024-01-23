@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerBadgesProvider____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5112))
 // CS Name: ::MultiplayerBadgesProvider::<>c*
 class CORDL_TYPE __MultiplayerBadgesProvider____c : public ::System::Object {
@@ -103,7 +103,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerBa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5113))
 // CS Name: ::MultiplayerBadgesProvider*
 class CORDL_TYPE MultiplayerBadgesProvider : public ::System::Object {
@@ -112,31 +112,32 @@ public:
   using __c = ::GlobalNamespace::__MultiplayerBadgesProvider____c;
 
   /// @brief Field _playerDataModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _difficultyBeatmap, offset 0x18, size 0x8
-  __declspec(property(get = __get__difficultyBeatmap, put = __set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmap, put = __cordl_internal_set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
 
   /// @brief Field _multiplayerBadgesModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerBadgesModel, put = __set__multiplayerBadgesModel))::GlobalNamespace::MultiplayerBadgesModelSO* _multiplayerBadgesModel;
+  __declspec(property(get = __cordl_internal_get__multiplayerBadgesModel,
+                      put = __cordl_internal_set__multiplayerBadgesModel))::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> _multiplayerBadgesModel;
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap() const;
 
-  constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr ::GlobalNamespace::MultiplayerBadgesModelSO*& __get__multiplayerBadgesModel();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgesModelSO*> const& __get__multiplayerBadgesModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> const& __cordl_internal_get__multiplayerBadgesModel() const;
 
-  constexpr void __set__multiplayerBadgesModel(::GlobalNamespace::MultiplayerBadgesModelSO* value);
+  constexpr void __cordl_internal_set__multiplayerBadgesModel(::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> value);
 
   /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x23cfa58, size 0x14a4, virtual false, abstract: false, final false
   inline void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
@@ -161,13 +162,13 @@ protected:
 
 public:
   /// @brief Field _playerDataModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _difficultyBeatmap, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IDifficultyBeatmap* ____difficultyBeatmap;
 
   /// @brief Field _multiplayerBadgesModel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerBadgesModelSO* ____multiplayerBadgesModel;
+  ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> ____multiplayerBadgesModel;
 
   /// @brief Field kTargetPositiveBadgesCount offset 0xffffffff size 0x4
   static constexpr int32_t kTargetPositiveBadgesCount{ static_cast<int32_t>(0x2) };

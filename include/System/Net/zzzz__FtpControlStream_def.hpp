@@ -94,7 +94,7 @@ MARK_REF_PTR_T(::System::Net::__FtpControlStream____c__DisplayClass31_0);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9040))
 // CS Name: ::FtpControlStream::GetPathOption
 struct CORDL_TYPE __FtpControlStream__GetPathOption {
@@ -148,29 +148,29 @@ static_assert(offsetof(::System::Net::__FtpControlStream__GetPathOption, value__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9041))
 // CS Name: ::FtpControlStream::<>c__DisplayClass31_0*
 class CORDL_TYPE __FtpControlStream____c__DisplayClass31_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Net::FtpControlStream* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::FtpControlStream* __4__this;
 
   /// @brief Field tlsStream, offset 0x18, size 0x8
-  __declspec(property(get = __get_tlsStream, put = __set_tlsStream))::System::Net::TlsStream* tlsStream;
+  __declspec(property(get = __cordl_internal_get_tlsStream, put = __cordl_internal_set_tlsStream))::System::Net::TlsStream* tlsStream;
 
-  constexpr ::System::Net::FtpControlStream*& __get___4__this();
+  constexpr ::System::Net::FtpControlStream*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpControlStream*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpControlStream*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Net::FtpControlStream* value);
+  constexpr void __cordl_internal_set___4__this(::System::Net::FtpControlStream* value);
 
-  constexpr ::System::Net::TlsStream*& __get_tlsStream();
+  constexpr ::System::Net::TlsStream*& __cordl_internal_get_tlsStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::TlsStream*> const& __get_tlsStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::TlsStream*> const& __cordl_internal_get_tlsStream() const;
 
-  constexpr void __set_tlsStream(::System::Net::TlsStream* value);
+  constexpr void __cordl_internal_set_tlsStream(::System::Net::TlsStream* value);
 
   static inline ::System::Net::__FtpControlStream____c__DisplayClass31_0* New_ctor();
 
@@ -214,8 +214,8 @@ static_assert(offsetof(::System::Net::__FtpControlStream____c__DisplayClass31_0,
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9039)), TypeDefinitionIndex(TypeDefinitionIndex(9062)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9036))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9042)) CS Name: ::System.Net::FtpControlStream*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9036)), TypeDefinitionIndex(TypeDefinitionIndex(9039)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9062))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9042)) CS Name: ::System.Net::FtpControlStream*
 class CORDL_TYPE FtpControlStream : public ::System::Net::CommandStream {
 public:
   // Declarations
@@ -224,58 +224,58 @@ public:
   using GetPathOption = ::System::Net::__FtpControlStream__GetPathOption;
 
   /// @brief Field _dataSocket, offset 0x88, size 0x8
-  __declspec(property(get = __get__dataSocket, put = __set__dataSocket))::System::Net::Sockets::Socket* _dataSocket;
+  __declspec(property(get = __cordl_internal_get__dataSocket, put = __cordl_internal_set__dataSocket))::System::Net::Sockets::Socket* _dataSocket;
 
   /// @brief Field _passiveEndPoint, offset 0x90, size 0x8
-  __declspec(property(get = __get__passiveEndPoint, put = __set__passiveEndPoint))::System::Net::IPEndPoint* _passiveEndPoint;
+  __declspec(property(get = __cordl_internal_get__passiveEndPoint, put = __cordl_internal_set__passiveEndPoint))::System::Net::IPEndPoint* _passiveEndPoint;
 
   /// @brief Field _tlsStream, offset 0x98, size 0x8
-  __declspec(property(get = __get__tlsStream, put = __set__tlsStream))::System::Net::TlsStream* _tlsStream;
+  __declspec(property(get = __cordl_internal_get__tlsStream, put = __cordl_internal_set__tlsStream))::System::Net::TlsStream* _tlsStream;
 
   /// @brief Field _bannerMessage, offset 0xa0, size 0x8
-  __declspec(property(get = __get__bannerMessage, put = __set__bannerMessage))::System::Text::StringBuilder* _bannerMessage;
+  __declspec(property(get = __cordl_internal_get__bannerMessage, put = __cordl_internal_set__bannerMessage))::System::Text::StringBuilder* _bannerMessage;
 
   /// @brief Field _welcomeMessage, offset 0xa8, size 0x8
-  __declspec(property(get = __get__welcomeMessage, put = __set__welcomeMessage))::System::Text::StringBuilder* _welcomeMessage;
+  __declspec(property(get = __cordl_internal_get__welcomeMessage, put = __cordl_internal_set__welcomeMessage))::System::Text::StringBuilder* _welcomeMessage;
 
   /// @brief Field _exitMessage, offset 0xb0, size 0x8
-  __declspec(property(get = __get__exitMessage, put = __set__exitMessage))::System::Text::StringBuilder* _exitMessage;
+  __declspec(property(get = __cordl_internal_get__exitMessage, put = __cordl_internal_set__exitMessage))::System::Text::StringBuilder* _exitMessage;
 
   /// @brief Field _credentials, offset 0xb8, size 0x8
-  __declspec(property(get = __get__credentials, put = __set__credentials))::System::WeakReference* _credentials;
+  __declspec(property(get = __cordl_internal_get__credentials, put = __cordl_internal_set__credentials))::System::WeakReference* _credentials;
 
   /// @brief Field _currentTypeSetting, offset 0xc0, size 0x8
-  __declspec(property(get = __get__currentTypeSetting, put = __set__currentTypeSetting))::StringW _currentTypeSetting;
+  __declspec(property(get = __cordl_internal_get__currentTypeSetting, put = __cordl_internal_set__currentTypeSetting))::StringW _currentTypeSetting;
 
   /// @brief Field _contentLength, offset 0xc8, size 0x8
-  __declspec(property(get = __get__contentLength, put = __set__contentLength)) int64_t _contentLength;
+  __declspec(property(get = __cordl_internal_get__contentLength, put = __cordl_internal_set__contentLength)) int64_t _contentLength;
 
   /// @brief Field _lastModified, offset 0xd0, size 0x8
-  __declspec(property(get = __get__lastModified, put = __set__lastModified))::System::DateTime _lastModified;
+  __declspec(property(get = __cordl_internal_get__lastModified, put = __cordl_internal_set__lastModified))::System::DateTime _lastModified;
 
   /// @brief Field _dataHandshakeStarted, offset 0xd8, size 0x1
-  __declspec(property(get = __get__dataHandshakeStarted, put = __set__dataHandshakeStarted)) bool _dataHandshakeStarted;
+  __declspec(property(get = __cordl_internal_get__dataHandshakeStarted, put = __cordl_internal_set__dataHandshakeStarted)) bool _dataHandshakeStarted;
 
   /// @brief Field _loginDirectory, offset 0xe0, size 0x8
-  __declspec(property(get = __get__loginDirectory, put = __set__loginDirectory))::StringW _loginDirectory;
+  __declspec(property(get = __cordl_internal_get__loginDirectory, put = __cordl_internal_set__loginDirectory))::StringW _loginDirectory;
 
   /// @brief Field _establishedServerDirectory, offset 0xe8, size 0x8
-  __declspec(property(get = __get__establishedServerDirectory, put = __set__establishedServerDirectory))::StringW _establishedServerDirectory;
+  __declspec(property(get = __cordl_internal_get__establishedServerDirectory, put = __cordl_internal_set__establishedServerDirectory))::StringW _establishedServerDirectory;
 
   /// @brief Field _requestedServerDirectory, offset 0xf0, size 0x8
-  __declspec(property(get = __get__requestedServerDirectory, put = __set__requestedServerDirectory))::StringW _requestedServerDirectory;
+  __declspec(property(get = __cordl_internal_get__requestedServerDirectory, put = __cordl_internal_set__requestedServerDirectory))::StringW _requestedServerDirectory;
 
   /// @brief Field _responseUri, offset 0xf8, size 0x8
-  __declspec(property(get = __get__responseUri, put = __set__responseUri))::System::Uri* _responseUri;
+  __declspec(property(get = __cordl_internal_get__responseUri, put = __cordl_internal_set__responseUri))::System::Uri* _responseUri;
 
   /// @brief Field _loginState, offset 0x100, size 0x1
-  __declspec(property(get = __get__loginState, put = __set__loginState))::System::Net::FtpLoginState _loginState;
+  __declspec(property(get = __cordl_internal_get__loginState, put = __cordl_internal_set__loginState))::System::Net::FtpLoginState _loginState;
 
   /// @brief Field StatusCode, offset 0x104, size 0x4
-  __declspec(property(get = __get_StatusCode, put = __set_StatusCode))::System::Net::FtpStatusCode StatusCode;
+  __declspec(property(get = __cordl_internal_get_StatusCode, put = __cordl_internal_set_StatusCode))::System::Net::FtpStatusCode StatusCode;
 
   /// @brief Field StatusLine, offset 0x108, size 0x8
-  __declspec(property(get = __get_StatusLine, put = __set_StatusLine))::StringW StatusLine;
+  __declspec(property(get = __cordl_internal_get_StatusLine, put = __cordl_internal_set_StatusLine))::StringW StatusLine;
 
   /// @brief Field s_acceptCallbackDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_acceptCallbackDelegate, put = setStaticF_s_acceptCallbackDelegate))::System::AsyncCallback* s_acceptCallbackDelegate;
@@ -300,113 +300,113 @@ public:
 
   __declspec(property(get = get_ExitMessage))::StringW ExitMessage;
 
-  constexpr ::System::Net::Sockets::Socket*& __get__dataSocket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__dataSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get__dataSocket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__dataSocket() const;
 
-  constexpr void __set__dataSocket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set__dataSocket(::System::Net::Sockets::Socket* value);
 
-  constexpr ::System::Net::IPEndPoint*& __get__passiveEndPoint();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__passiveEndPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get__passiveEndPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__passiveEndPoint() const;
 
-  constexpr void __set__passiveEndPoint(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set__passiveEndPoint(::System::Net::IPEndPoint* value);
 
-  constexpr ::System::Net::TlsStream*& __get__tlsStream();
+  constexpr ::System::Net::TlsStream*& __cordl_internal_get__tlsStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::TlsStream*> const& __get__tlsStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::TlsStream*> const& __cordl_internal_get__tlsStream() const;
 
-  constexpr void __set__tlsStream(::System::Net::TlsStream* value);
+  constexpr void __cordl_internal_set__tlsStream(::System::Net::TlsStream* value);
 
-  constexpr ::System::Text::StringBuilder*& __get__bannerMessage();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__bannerMessage();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__bannerMessage() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__bannerMessage() const;
 
-  constexpr void __set__bannerMessage(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__bannerMessage(::System::Text::StringBuilder* value);
 
-  constexpr ::System::Text::StringBuilder*& __get__welcomeMessage();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__welcomeMessage();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__welcomeMessage() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__welcomeMessage() const;
 
-  constexpr void __set__welcomeMessage(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__welcomeMessage(::System::Text::StringBuilder* value);
 
-  constexpr ::System::Text::StringBuilder*& __get__exitMessage();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__exitMessage();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__exitMessage() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__exitMessage() const;
 
-  constexpr void __set__exitMessage(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__exitMessage(::System::Text::StringBuilder* value);
 
-  constexpr ::System::WeakReference*& __get__credentials();
+  constexpr ::System::WeakReference*& __cordl_internal_get__credentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& __get__credentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& __cordl_internal_get__credentials() const;
 
-  constexpr void __set__credentials(::System::WeakReference* value);
+  constexpr void __cordl_internal_set__credentials(::System::WeakReference* value);
 
-  constexpr ::StringW& __get__currentTypeSetting();
+  constexpr ::StringW& __cordl_internal_get__currentTypeSetting();
 
-  constexpr ::StringW const& __get__currentTypeSetting() const;
+  constexpr ::StringW const& __cordl_internal_get__currentTypeSetting() const;
 
-  constexpr void __set__currentTypeSetting(::StringW value);
+  constexpr void __cordl_internal_set__currentTypeSetting(::StringW value);
 
-  constexpr int64_t& __get__contentLength();
+  constexpr int64_t& __cordl_internal_get__contentLength();
 
-  constexpr int64_t const& __get__contentLength() const;
+  constexpr int64_t const& __cordl_internal_get__contentLength() const;
 
-  constexpr void __set__contentLength(int64_t value);
+  constexpr void __cordl_internal_set__contentLength(int64_t value);
 
-  constexpr ::System::DateTime& __get__lastModified();
+  constexpr ::System::DateTime& __cordl_internal_get__lastModified();
 
-  constexpr ::System::DateTime const& __get__lastModified() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__lastModified() const;
 
-  constexpr void __set__lastModified(::System::DateTime value);
+  constexpr void __cordl_internal_set__lastModified(::System::DateTime value);
 
-  constexpr bool& __get__dataHandshakeStarted();
+  constexpr bool& __cordl_internal_get__dataHandshakeStarted();
 
-  constexpr bool const& __get__dataHandshakeStarted() const;
+  constexpr bool const& __cordl_internal_get__dataHandshakeStarted() const;
 
-  constexpr void __set__dataHandshakeStarted(bool value);
+  constexpr void __cordl_internal_set__dataHandshakeStarted(bool value);
 
-  constexpr ::StringW& __get__loginDirectory();
+  constexpr ::StringW& __cordl_internal_get__loginDirectory();
 
-  constexpr ::StringW const& __get__loginDirectory() const;
+  constexpr ::StringW const& __cordl_internal_get__loginDirectory() const;
 
-  constexpr void __set__loginDirectory(::StringW value);
+  constexpr void __cordl_internal_set__loginDirectory(::StringW value);
 
-  constexpr ::StringW& __get__establishedServerDirectory();
+  constexpr ::StringW& __cordl_internal_get__establishedServerDirectory();
 
-  constexpr ::StringW const& __get__establishedServerDirectory() const;
+  constexpr ::StringW const& __cordl_internal_get__establishedServerDirectory() const;
 
-  constexpr void __set__establishedServerDirectory(::StringW value);
+  constexpr void __cordl_internal_set__establishedServerDirectory(::StringW value);
 
-  constexpr ::StringW& __get__requestedServerDirectory();
+  constexpr ::StringW& __cordl_internal_get__requestedServerDirectory();
 
-  constexpr ::StringW const& __get__requestedServerDirectory() const;
+  constexpr ::StringW const& __cordl_internal_get__requestedServerDirectory() const;
 
-  constexpr void __set__requestedServerDirectory(::StringW value);
+  constexpr void __cordl_internal_set__requestedServerDirectory(::StringW value);
 
-  constexpr ::System::Uri*& __get__responseUri();
+  constexpr ::System::Uri*& __cordl_internal_get__responseUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get__responseUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__responseUri() const;
 
-  constexpr void __set__responseUri(::System::Uri* value);
+  constexpr void __cordl_internal_set__responseUri(::System::Uri* value);
 
-  constexpr ::System::Net::FtpLoginState& __get__loginState();
+  constexpr ::System::Net::FtpLoginState& __cordl_internal_get__loginState();
 
-  constexpr ::System::Net::FtpLoginState const& __get__loginState() const;
+  constexpr ::System::Net::FtpLoginState const& __cordl_internal_get__loginState() const;
 
-  constexpr void __set__loginState(::System::Net::FtpLoginState value);
+  constexpr void __cordl_internal_set__loginState(::System::Net::FtpLoginState value);
 
-  constexpr ::System::Net::FtpStatusCode& __get_StatusCode();
+  constexpr ::System::Net::FtpStatusCode& __cordl_internal_get_StatusCode();
 
-  constexpr ::System::Net::FtpStatusCode const& __get_StatusCode() const;
+  constexpr ::System::Net::FtpStatusCode const& __cordl_internal_get_StatusCode() const;
 
-  constexpr void __set_StatusCode(::System::Net::FtpStatusCode value);
+  constexpr void __cordl_internal_set_StatusCode(::System::Net::FtpStatusCode value);
 
-  constexpr ::StringW& __get_StatusLine();
+  constexpr ::StringW& __cordl_internal_get_StatusLine();
 
-  constexpr ::StringW const& __get_StatusLine() const;
+  constexpr ::StringW const& __cordl_internal_get_StatusLine() const;
 
-  constexpr void __set_StatusLine(::StringW value);
+  constexpr void __cordl_internal_set_StatusLine(::StringW value);
 
   static inline void setStaticF_s_acceptCallbackDelegate(::System::AsyncCallback* value);
 

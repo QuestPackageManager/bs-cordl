@@ -58,29 +58,29 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Foldout__UxmlTraits);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7086))
 // CS Name: ::Foldout::UxmlTraits*
 class CORDL_TYPE __Foldout__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_Text, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
   /// @brief Field m_Value, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Value, put = __set_m_Value))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Value;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Text();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Text() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_Value();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Value();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_Value() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e330e8, size 0x130, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -124,7 +124,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__Foldout__UxmlTraits, ___m_Va
 // SizeInfo { instance_size: 984, native_size: -1, calculated_instance_size: 984, calculated_native_size: 977, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7087))
 // CS Name: ::UnityEngine.UIElements::Foldout*
 class CORDL_TYPE Foldout : public ::UnityEngine::UIElements::BindableElement {
@@ -135,13 +135,13 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__Foldout__UxmlFactory;
 
   /// @brief Field m_Toggle, offset 0x3c0, size 0x8
-  __declspec(property(get = __get_m_Toggle, put = __set_m_Toggle))::UnityEngine::UIElements::Toggle* m_Toggle;
+  __declspec(property(get = __cordl_internal_get_m_Toggle, put = __cordl_internal_set_m_Toggle))::UnityEngine::UIElements::Toggle* m_Toggle;
 
   /// @brief Field m_Container, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_m_Container, put = __set_m_Container))::UnityEngine::UIElements::VisualElement* m_Container;
+  __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container))::UnityEngine::UIElements::VisualElement* m_Container;
 
   /// @brief Field m_Value, offset 0x3d0, size 0x1
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) bool m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) bool m_Value;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -179,23 +179,23 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
   constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<bool>* i___UnityEngine__UIElements__INotifyValueChanged_1_bool_() noexcept;
 
-  constexpr ::UnityEngine::UIElements::Toggle*& __get_m_Toggle();
+  constexpr ::UnityEngine::UIElements::Toggle*& __cordl_internal_get_m_Toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Toggle*> const& __get_m_Toggle() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Toggle*> const& __cordl_internal_get_m_Toggle() const;
 
-  constexpr void __set_m_Toggle(::UnityEngine::UIElements::Toggle* value);
+  constexpr void __cordl_internal_set_m_Toggle(::UnityEngine::UIElements::Toggle* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Container();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Container() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Container() const;
 
-  constexpr void __set_m_Container(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Container(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr bool& __get_m_Value();
+  constexpr bool& __cordl_internal_get_m_Value();
 
-  constexpr bool const& __get_m_Value() const;
+  constexpr bool const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(bool value);
+  constexpr void __cordl_internal_set_m_Value(bool value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -297,8 +297,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Value) == 0x3d0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7086)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5260
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7087))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7085)) CS Name: ::Foldout::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7086)), TypeDefinitionIndex(TypeDefinitionIndex(7087)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5260 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7085)) CS Name: ::Foldout::UxmlFactory*
 class CORDL_TYPE __Foldout__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Foldout*, ::UnityEngine::UIElements::__Foldout__UxmlTraits*> {
 public:
   // Declarations

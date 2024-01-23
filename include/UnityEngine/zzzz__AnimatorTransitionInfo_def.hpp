@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorTransitionInfo);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14880))
 // CS Name: ::UnityEngine::AnimatorTransitionInfo
 struct CORDL_TYPE AnimatorTransitionInfo {

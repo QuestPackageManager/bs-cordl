@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::LightBakingOutput);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 33, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10106)), TypeDefinitionIndex(TypeDefinitionIndex(10105))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10105)), TypeDefinitionIndex(TypeDefinitionIndex(10106))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10080))
 // CS Name: ::UnityEngine::LightBakingOutput
 struct CORDL_TYPE LightBakingOutput {

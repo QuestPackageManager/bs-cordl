@@ -22,101 +22,101 @@ MARK_REF_PTR_T(::GlobalNamespace::FlexyFollow);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
 // CS Name: ::FlexyFollow*
 class CORDL_TYPE FlexyFollow : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _followObject, offset 0x18, size 0x8
-  __declspec(property(get = __get__followObject, put = __set__followObject))::UnityEngine::GameObject* _followObject;
+  __declspec(property(get = __cordl_internal_get__followObject, put = __cordl_internal_set__followObject))::UnityW<::UnityEngine::GameObject> _followObject;
 
   /// @brief Field _followSpeed, offset 0x20, size 0x4
-  __declspec(property(get = __get__followSpeed, put = __set__followSpeed)) float_t _followSpeed;
+  __declspec(property(get = __cordl_internal_get__followSpeed, put = __cordl_internal_set__followSpeed)) float_t _followSpeed;
 
   /// @brief Field _offset, offset 0x24, size 0xc
-  __declspec(property(get = __get__offset, put = __set__offset))::UnityEngine::Vector3 _offset;
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset))::UnityEngine::Vector3 _offset;
 
   /// @brief Field _fixedXOffset, offset 0x30, size 0x1
-  __declspec(property(get = __get__fixedXOffset, put = __set__fixedXOffset)) bool _fixedXOffset;
+  __declspec(property(get = __cordl_internal_get__fixedXOffset, put = __cordl_internal_set__fixedXOffset)) bool _fixedXOffset;
 
   /// @brief Field _fixedYOffset, offset 0x31, size 0x1
-  __declspec(property(get = __get__fixedYOffset, put = __set__fixedYOffset)) bool _fixedYOffset;
+  __declspec(property(get = __cordl_internal_get__fixedYOffset, put = __cordl_internal_set__fixedYOffset)) bool _fixedYOffset;
 
   /// @brief Field _fixedZOffset, offset 0x32, size 0x1
-  __declspec(property(get = __get__fixedZOffset, put = __set__fixedZOffset)) bool _fixedZOffset;
+  __declspec(property(get = __cordl_internal_get__fixedZOffset, put = __cordl_internal_set__fixedZOffset)) bool _fixedZOffset;
 
   /// @brief Field _useLocalPosition, offset 0x33, size 0x1
-  __declspec(property(get = __get__useLocalPosition, put = __set__useLocalPosition)) bool _useLocalPosition;
+  __declspec(property(get = __cordl_internal_get__useLocalPosition, put = __cordl_internal_set__useLocalPosition)) bool _useLocalPosition;
 
   /// @brief Field _instant, offset 0x34, size 0x1
-  __declspec(property(get = __get__instant, put = __set__instant)) bool _instant;
+  __declspec(property(get = __cordl_internal_get__instant, put = __cordl_internal_set__instant)) bool _instant;
 
   /// @brief Field _followTransform, offset 0x38, size 0x8
-  __declspec(property(get = __get__followTransform, put = __set__followTransform))::UnityEngine::Transform* _followTransform;
+  __declspec(property(get = __cordl_internal_get__followTransform, put = __cordl_internal_set__followTransform))::UnityW<::UnityEngine::Transform> _followTransform;
 
   /// @brief Field _transform, offset 0x40, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::UnityEngine::GameObject*& __get__followObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__followObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__followObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__followObject() const;
 
-  constexpr void __set__followObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__followObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr float_t& __get__followSpeed();
+  constexpr float_t& __cordl_internal_get__followSpeed();
 
-  constexpr float_t const& __get__followSpeed() const;
+  constexpr float_t const& __cordl_internal_get__followSpeed() const;
 
-  constexpr void __set__followSpeed(float_t value);
+  constexpr void __cordl_internal_set__followSpeed(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__offset() const;
 
-  constexpr void __set__offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__offset(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__fixedXOffset();
+  constexpr bool& __cordl_internal_get__fixedXOffset();
 
-  constexpr bool const& __get__fixedXOffset() const;
+  constexpr bool const& __cordl_internal_get__fixedXOffset() const;
 
-  constexpr void __set__fixedXOffset(bool value);
+  constexpr void __cordl_internal_set__fixedXOffset(bool value);
 
-  constexpr bool& __get__fixedYOffset();
+  constexpr bool& __cordl_internal_get__fixedYOffset();
 
-  constexpr bool const& __get__fixedYOffset() const;
+  constexpr bool const& __cordl_internal_get__fixedYOffset() const;
 
-  constexpr void __set__fixedYOffset(bool value);
+  constexpr void __cordl_internal_set__fixedYOffset(bool value);
 
-  constexpr bool& __get__fixedZOffset();
+  constexpr bool& __cordl_internal_get__fixedZOffset();
 
-  constexpr bool const& __get__fixedZOffset() const;
+  constexpr bool const& __cordl_internal_get__fixedZOffset() const;
 
-  constexpr void __set__fixedZOffset(bool value);
+  constexpr void __cordl_internal_set__fixedZOffset(bool value);
 
-  constexpr bool& __get__useLocalPosition();
+  constexpr bool& __cordl_internal_get__useLocalPosition();
 
-  constexpr bool const& __get__useLocalPosition() const;
+  constexpr bool const& __cordl_internal_get__useLocalPosition() const;
 
-  constexpr void __set__useLocalPosition(bool value);
+  constexpr void __cordl_internal_set__useLocalPosition(bool value);
 
-  constexpr bool& __get__instant();
+  constexpr bool& __cordl_internal_get__instant();
 
-  constexpr bool const& __get__instant() const;
+  constexpr bool const& __cordl_internal_get__instant() const;
 
-  constexpr void __set__instant(bool value);
+  constexpr void __cordl_internal_set__instant(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get__followTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__followTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__followTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__followTransform() const;
 
-  constexpr void __set__followTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__followTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method Start, addr 0x20f2cec, size 0x84, virtual false, abstract: false, final false
   inline void Start();
@@ -144,7 +144,7 @@ protected:
 
 public:
   /// @brief Field _followObject, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____followObject;
+  ::UnityW<::UnityEngine::GameObject> ____followObject;
 
   /// @brief Field _followSpeed, offset: 0x20, size: 0x4, def value: None
   float_t ____followSpeed;
@@ -168,10 +168,10 @@ public:
   bool ____instant;
 
   /// @brief Field _followTransform, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____followTransform;
+  ::UnityW<::UnityEngine::Transform> ____followTransform;
 
   /// @brief Field _transform, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -37,14 +37,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelMask);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14988))
 // CS Name: ::BeatmapLevelMask*
 class CORDL_TYPE BeatmapLevelMask : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bloomFilter, offset 0x10, size 0x8
-  __declspec(property(get = __get__bloomFilter, put = __set__bloomFilter))::GlobalNamespace::BitMaskSparse* _bloomFilter;
+  __declspec(property(get = __cordl_internal_get__bloomFilter, put = __cordl_internal_set__bloomFilter))::GlobalNamespace::BitMaskSparse* _bloomFilter;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>* i___System__IEquatable_1___GlobalNamespace__BeatmapLevelMask__() noexcept;
 
-  constexpr ::GlobalNamespace::BitMaskSparse*& __get__bloomFilter();
+  constexpr ::GlobalNamespace::BitMaskSparse*& __cordl_internal_get__bloomFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BitMaskSparse*> const& __get__bloomFilter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BitMaskSparse*> const& __cordl_internal_get__bloomFilter() const;
 
-  constexpr void __set__bloomFilter(::GlobalNamespace::BitMaskSparse* value);
+  constexpr void __cordl_internal_set__bloomFilter(::GlobalNamespace::BitMaskSparse* value);
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor();
 

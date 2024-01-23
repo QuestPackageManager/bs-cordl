@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ScriptableRenderContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10356))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10356))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10360))
 // CS Name: ::UnityEngine.Rendering::ScriptableRenderContext
 struct CORDL_TYPE ScriptableRenderContext {
@@ -56,7 +56,7 @@ public:
   inline void _ctor(void* ptr);
 
   /// @brief Method GetCameras, addr 0x2ced514, size 0x8c, virtual false, abstract: false, final false
-  inline void GetCameras(::System::Collections::Generic::List_1<::UnityEngine::Camera*>* results);
+  inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
 
   /// @brief Method Equals, addr 0x2cee308, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);

@@ -21,29 +21,31 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeaderboardPanelController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5037))
 // CS Name: ::MultiplayerLeaderboardPanelController*
 class CORDL_TYPE MultiplayerLeaderboardPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _items, offset 0x18, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*> _items;
+  __declspec(
+      property(get = __cordl_internal_get__items,
+               put = __cordl_internal_set__items))::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> _items;
 
   /// @brief Field _scoreProvider, offset 0x20, size 0x8
-  __declspec(property(get = __get__scoreProvider, put = __set__scoreProvider))::GlobalNamespace::MultiplayerScoreProvider* _scoreProvider;
+  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
-  constexpr ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*>& __get__items();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*>& __cordl_internal_get__items();
 
-  constexpr ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*> const& __get__items() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*> value);
+  constexpr void __cordl_internal_set__items(::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> value);
 
-  constexpr ::GlobalNamespace::MultiplayerScoreProvider*& __get__scoreProvider();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreProvider*> const& __get__scoreProvider() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
 
-  constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider* value);
+  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
   /// @brief Method Start, addr 0x23c1940, size 0x60, virtual false, abstract: false, final false
   inline void Start();
@@ -71,10 +73,10 @@ protected:
 
 public:
   /// @brief Field _items, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*> ____items;
+  ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> ____items;
 
   /// @brief Field _scoreProvider, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreProvider* ____scoreProvider;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

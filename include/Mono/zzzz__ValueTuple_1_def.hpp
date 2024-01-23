@@ -16,7 +16,7 @@ namespace Mono {
 // cpp template
 template <typename T1>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2243))
 // CS Name: ::Mono::ValueTuple`1<T1>
 struct CORDL_TYPE ValueTuple_1 {

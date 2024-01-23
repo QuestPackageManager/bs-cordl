@@ -29,65 +29,66 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5126))
 // CS Name: ::MultiplayerConnectedPlayerLevelFailController*
 class CORDL_TYPE MultiplayerConnectedPlayerLevelFailController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _failVFXController, offset 0x18, size 0x8
-  __declspec(property(get = __get__failVFXController, put = __set__failVFXController))::GlobalNamespace::VFXController* _failVFXController;
+  __declspec(property(get = __cordl_internal_get__failVFXController, put = __cordl_internal_set__failVFXController))::UnityW<::GlobalNamespace::VFXController> _failVFXController;
 
   /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _connectedPlayer, offset 0x30, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field playerDidFailEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_playerDidFailEvent, put = __set_playerDidFailEvent))::System::Action* playerDidFailEvent;
+  __declspec(property(get = __cordl_internal_get_playerDidFailEvent, put = __cordl_internal_set_playerDidFailEvent))::System::Action* playerDidFailEvent;
 
   /// @brief Field _wasActive, offset 0x40, size 0x1
-  __declspec(property(get = __get__wasActive, put = __set__wasActive)) bool _wasActive;
+  __declspec(property(get = __cordl_internal_get__wasActive, put = __cordl_internal_set__wasActive)) bool _wasActive;
 
-  constexpr ::GlobalNamespace::VFXController*& __get__failVFXController();
+  constexpr ::UnityW<::GlobalNamespace::VFXController>& __cordl_internal_get__failVFXController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VFXController*> const& __get__failVFXController() const;
+  constexpr ::UnityW<::GlobalNamespace::VFXController> const& __cordl_internal_get__failVFXController() const;
 
-  constexpr void __set__failVFXController(::GlobalNamespace::VFXController* value);
+  constexpr void __cordl_internal_set__failVFXController(::UnityW<::GlobalNamespace::VFXController> value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::System::Action*& __get_playerDidFailEvent();
+  constexpr ::System::Action*& __cordl_internal_get_playerDidFailEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_playerDidFailEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_playerDidFailEvent() const;
 
-  constexpr void __set_playerDidFailEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_playerDidFailEvent(::System::Action* value);
 
-  constexpr bool& __get__wasActive();
+  constexpr bool& __cordl_internal_get__wasActive();
 
-  constexpr bool const& __get__wasActive() const;
+  constexpr bool const& __cordl_internal_get__wasActive() const;
 
-  constexpr void __set__wasActive(bool value);
+  constexpr void __cordl_internal_set__wasActive(bool value);
 
   /// @brief Method add_playerDidFailEvent, addr 0x23d5680, size 0x9c, virtual false, abstract: false, final false
   inline void add_playerDidFailEvent(::System::Action* value);
@@ -130,7 +131,7 @@ protected:
 
 public:
   /// @brief Field _failVFXController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::VFXController* ____failVFXController;
+  ::UnityW<::GlobalNamespace::VFXController> ____failVFXController;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

@@ -22,33 +22,34 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectHolderList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3222))
 // CS Name: ::System.Runtime.Serialization::ObjectHolderList*
 class CORDL_TYPE ObjectHolderList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_values, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_values, put = __set_m_values))::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> m_values;
+  __declspec(property(get = __cordl_internal_get_m_values,
+                      put = __cordl_internal_set_m_values))::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> m_values;
 
   /// @brief Field m_count, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_count, put = __set_m_count)) int32_t m_count;
+  __declspec(property(get = __cordl_internal_get_m_count, put = __cordl_internal_set_m_count)) int32_t m_count;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*>& __get_m_values();
+  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*>& __cordl_internal_get_m_values();
 
-  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> const& __get_m_values() const;
+  constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> const& __cordl_internal_get_m_values() const;
 
-  constexpr void __set_m_values(::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> value);
+  constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> value);
 
-  constexpr int32_t& __get_m_count();
+  constexpr int32_t& __cordl_internal_get_m_count();
 
-  constexpr int32_t const& __get_m_count() const;
+  constexpr int32_t const& __cordl_internal_get_m_count() const;
 
-  constexpr void __set_m_count(int32_t value);
+  constexpr void __cordl_internal_set_m_count(int32_t value);
 
   static inline ::System::Runtime::Serialization::ObjectHolderList* New_ctor();
 

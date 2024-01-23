@@ -50,92 +50,94 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutCoreEffectsSpawner);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4893))
 // CS Name: ::NoteCutCoreEffectsSpawner*
 class CORDL_TYPE NoteCutCoreEffectsSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _shockWaveYPos, offset 0x18, size 0x4
-  __declspec(property(get = __get__shockWaveYPos, put = __set__shockWaveYPos)) float_t _shockWaveYPos;
+  __declspec(property(get = __cordl_internal_get__shockWaveYPos, put = __cordl_internal_set__shockWaveYPos)) float_t _shockWaveYPos;
 
   /// @brief Field _noteCutParticlesEffect, offset 0x20, size 0x8
-  __declspec(property(get = __get__noteCutParticlesEffect, put = __set__noteCutParticlesEffect))::GlobalNamespace::NoteCutParticlesEffect* _noteCutParticlesEffect;
+  __declspec(property(get = __cordl_internal_get__noteCutParticlesEffect,
+                      put = __cordl_internal_set__noteCutParticlesEffect))::UnityW<::GlobalNamespace::NoteCutParticlesEffect> _noteCutParticlesEffect;
 
   /// @brief Field _noteDebrisSpawner, offset 0x28, size 0x8
-  __declspec(property(get = __get__noteDebrisSpawner, put = __set__noteDebrisSpawner))::GlobalNamespace::NoteDebrisSpawner* _noteDebrisSpawner;
+  __declspec(property(get = __cordl_internal_get__noteDebrisSpawner, put = __cordl_internal_set__noteDebrisSpawner))::UnityW<::GlobalNamespace::NoteDebrisSpawner> _noteDebrisSpawner;
 
   /// @brief Field _noteCutHapticEffect, offset 0x30, size 0x8
-  __declspec(property(get = __get__noteCutHapticEffect, put = __set__noteCutHapticEffect))::GlobalNamespace::NoteCutHapticEffect* _noteCutHapticEffect;
+  __declspec(property(get = __cordl_internal_get__noteCutHapticEffect, put = __cordl_internal_set__noteCutHapticEffect))::UnityW<::GlobalNamespace::NoteCutHapticEffect> _noteCutHapticEffect;
 
   /// @brief Field _shockwaveEffect, offset 0x38, size 0x8
-  __declspec(property(get = __get__shockwaveEffect, put = __set__shockwaveEffect))::GlobalNamespace::ShockwaveEffect* _shockwaveEffect;
+  __declspec(property(get = __cordl_internal_get__shockwaveEffect, put = __cordl_internal_set__shockwaveEffect))::UnityW<::GlobalNamespace::ShockwaveEffect> _shockwaveEffect;
 
   /// @brief Field _bombExplosionEffect, offset 0x40, size 0x8
-  __declspec(property(get = __get__bombExplosionEffect, put = __set__bombExplosionEffect))::GlobalNamespace::BombExplosionEffect* _bombExplosionEffect;
+  __declspec(property(get = __cordl_internal_get__bombExplosionEffect, put = __cordl_internal_set__bombExplosionEffect))::UnityW<::GlobalNamespace::BombExplosionEffect> _bombExplosionEffect;
 
   /// @brief Field _colorManager, offset 0x48, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _beatmapObjectManager, offset 0x50, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _audioTimeSyncController, offset 0x58, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
-  constexpr float_t& __get__shockWaveYPos();
+  constexpr float_t& __cordl_internal_get__shockWaveYPos();
 
-  constexpr float_t const& __get__shockWaveYPos() const;
+  constexpr float_t const& __cordl_internal_get__shockWaveYPos() const;
 
-  constexpr void __set__shockWaveYPos(float_t value);
+  constexpr void __cordl_internal_set__shockWaveYPos(float_t value);
 
-  constexpr ::GlobalNamespace::NoteCutParticlesEffect*& __get__noteCutParticlesEffect();
+  constexpr ::UnityW<::GlobalNamespace::NoteCutParticlesEffect>& __cordl_internal_get__noteCutParticlesEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteCutParticlesEffect*> const& __get__noteCutParticlesEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteCutParticlesEffect> const& __cordl_internal_get__noteCutParticlesEffect() const;
 
-  constexpr void __set__noteCutParticlesEffect(::GlobalNamespace::NoteCutParticlesEffect* value);
+  constexpr void __cordl_internal_set__noteCutParticlesEffect(::UnityW<::GlobalNamespace::NoteCutParticlesEffect> value);
 
-  constexpr ::GlobalNamespace::NoteDebrisSpawner*& __get__noteDebrisSpawner();
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSpawner>& __cordl_internal_get__noteDebrisSpawner();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebrisSpawner*> const& __get__noteDebrisSpawner() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSpawner> const& __cordl_internal_get__noteDebrisSpawner() const;
 
-  constexpr void __set__noteDebrisSpawner(::GlobalNamespace::NoteDebrisSpawner* value);
+  constexpr void __cordl_internal_set__noteDebrisSpawner(::UnityW<::GlobalNamespace::NoteDebrisSpawner> value);
 
-  constexpr ::GlobalNamespace::NoteCutHapticEffect*& __get__noteCutHapticEffect();
+  constexpr ::UnityW<::GlobalNamespace::NoteCutHapticEffect>& __cordl_internal_get__noteCutHapticEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteCutHapticEffect*> const& __get__noteCutHapticEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteCutHapticEffect> const& __cordl_internal_get__noteCutHapticEffect() const;
 
-  constexpr void __set__noteCutHapticEffect(::GlobalNamespace::NoteCutHapticEffect* value);
+  constexpr void __cordl_internal_set__noteCutHapticEffect(::UnityW<::GlobalNamespace::NoteCutHapticEffect> value);
 
-  constexpr ::GlobalNamespace::ShockwaveEffect*& __get__shockwaveEffect();
+  constexpr ::UnityW<::GlobalNamespace::ShockwaveEffect>& __cordl_internal_get__shockwaveEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ShockwaveEffect*> const& __get__shockwaveEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::ShockwaveEffect> const& __cordl_internal_get__shockwaveEffect() const;
 
-  constexpr void __set__shockwaveEffect(::GlobalNamespace::ShockwaveEffect* value);
+  constexpr void __cordl_internal_set__shockwaveEffect(::UnityW<::GlobalNamespace::ShockwaveEffect> value);
 
-  constexpr ::GlobalNamespace::BombExplosionEffect*& __get__bombExplosionEffect();
+  constexpr ::UnityW<::GlobalNamespace::BombExplosionEffect>& __cordl_internal_get__bombExplosionEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BombExplosionEffect*> const& __get__bombExplosionEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::BombExplosionEffect> const& __cordl_internal_get__bombExplosionEffect() const;
 
-  constexpr void __set__bombExplosionEffect(::GlobalNamespace::BombExplosionEffect* value);
+  constexpr void __cordl_internal_set__bombExplosionEffect(::UnityW<::GlobalNamespace::BombExplosionEffect> value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
   /// @brief Method Start, addr 0x23a2554, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
@@ -178,19 +180,19 @@ public:
   float_t ____shockWaveYPos;
 
   /// @brief Field _noteCutParticlesEffect, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NoteCutParticlesEffect* ____noteCutParticlesEffect;
+  ::UnityW<::GlobalNamespace::NoteCutParticlesEffect> ____noteCutParticlesEffect;
 
   /// @brief Field _noteDebrisSpawner, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::NoteDebrisSpawner* ____noteDebrisSpawner;
+  ::UnityW<::GlobalNamespace::NoteDebrisSpawner> ____noteDebrisSpawner;
 
   /// @brief Field _noteCutHapticEffect, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::NoteCutHapticEffect* ____noteCutHapticEffect;
+  ::UnityW<::GlobalNamespace::NoteCutHapticEffect> ____noteCutHapticEffect;
 
   /// @brief Field _shockwaveEffect, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::ShockwaveEffect* ____shockwaveEffect;
+  ::UnityW<::GlobalNamespace::ShockwaveEffect> ____shockwaveEffect;
 
   /// @brief Field _bombExplosionEffect, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::BombExplosionEffect* ____bombExplosionEffect;
+  ::UnityW<::GlobalNamespace::BombExplosionEffect> ____bombExplosionEffect;
 
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
@@ -199,7 +201,7 @@ public:
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
   /// @brief Field _audioTimeSyncController, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field kNormalNoteSparkleParticlesCount offset 0xffffffff size 0x4
   static constexpr int32_t kNormalNoteSparkleParticlesCount{ static_cast<int32_t>(0x96) };

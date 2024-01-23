@@ -40,7 +40,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputInteractionContext);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6205))
 // CS Name: ::InputInteractionContext::Flags
 struct CORDL_TYPE __InputInteractionContext__Flags {
@@ -86,7 +86,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputInteractionContext__Fl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6176)), TypeDefinitionIndex(TypeDefinitionIndex(6205))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6176)), TypeDefinitionIndex(TypeDefinitionIndex(6205))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6206))
 // CS Name: ::UnityEngine.InputSystem::InputInteractionContext
 struct CORDL_TYPE InputInteractionContext {

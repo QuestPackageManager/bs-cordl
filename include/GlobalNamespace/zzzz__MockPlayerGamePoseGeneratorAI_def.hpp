@@ -62,283 +62,285 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGeneratorAI);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 279, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(15515))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(15515))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15516))
 // CS Name: ::MockPlayerGamePoseGeneratorAI*
 class CORDL_TYPE MockPlayerGamePoseGeneratorAI : public ::GlobalNamespace::MockPlayerGamePoseGenerator {
 public:
   // Declarations
   /// @brief Field _scoreCalculator, offset 0x38, size 0x8
-  __declspec(property(get = __get__scoreCalculator, put = __set__scoreCalculator))::GlobalNamespace::IMockPlayerScoreCalculator* _scoreCalculator;
+  __declspec(property(get = __cordl_internal_get__scoreCalculator, put = __cordl_internal_set__scoreCalculator))::GlobalNamespace::IMockPlayerScoreCalculator* _scoreCalculator;
 
   /// @brief Field _lastKnowScore, offset 0x40, size 0x4
-  __declspec(property(get = __get__lastKnowScore, put = __set__lastKnowScore)) int32_t _lastKnowScore;
+  __declspec(property(get = __cordl_internal_get__lastKnowScore, put = __cordl_internal_set__lastKnowScore)) int32_t _lastKnowScore;
 
   /// @brief Field _songStartTime, offset 0x48, size 0x8
-  __declspec(property(get = __get__songStartTime, put = __set__songStartTime)) int64_t _songStartTime;
+  __declspec(property(get = __cordl_internal_get__songStartTime, put = __cordl_internal_set__songStartTime)) int64_t _songStartTime;
 
   /// @brief Field _timeScale, offset 0x50, size 0x4
-  __declspec(property(get = __get__timeScale, put = __set__timeScale)) float_t _timeScale;
+  __declspec(property(get = __cordl_internal_get__timeScale, put = __cordl_internal_set__timeScale)) float_t _timeScale;
 
   /// @brief Field _onSongFinished, offset 0x58, size 0x8
-  __declspec(property(get = __get__onSongFinished, put = __set__onSongFinished))::System::Action* _onSongFinished;
+  __declspec(property(get = __cordl_internal_get__onSongFinished, put = __cordl_internal_set__onSongFinished))::System::Action* _onSongFinished;
 
   /// @brief Field _gameplayModifiers, offset 0x60, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   /// @brief Field _lastEventTime, offset 0x68, size 0x4
-  __declspec(property(get = __get__lastEventTime, put = __set__lastEventTime)) float_t _lastEventTime;
+  __declspec(property(get = __cordl_internal_get__lastEventTime, put = __cordl_internal_set__lastEventTime)) float_t _lastEventTime;
 
   /// @brief Field _lastHeadPose, offset 0x6c, size 0x1c
-  __declspec(property(get = __get__lastHeadPose, put = __set__lastHeadPose))::UnityEngine::Pose _lastHeadPose;
+  __declspec(property(get = __cordl_internal_get__lastHeadPose, put = __cordl_internal_set__lastHeadPose))::UnityEngine::Pose _lastHeadPose;
 
   /// @brief Field _lastLeftHandPose, offset 0x88, size 0x1c
-  __declspec(property(get = __get__lastLeftHandPose, put = __set__lastLeftHandPose))::UnityEngine::Pose _lastLeftHandPose;
+  __declspec(property(get = __cordl_internal_get__lastLeftHandPose, put = __cordl_internal_set__lastLeftHandPose))::UnityEngine::Pose _lastLeftHandPose;
 
   /// @brief Field _lastRightHandPose, offset 0xa4, size 0x1c
-  __declspec(property(get = __get__lastRightHandPose, put = __set__lastRightHandPose))::UnityEngine::Pose _lastRightHandPose;
+  __declspec(property(get = __cordl_internal_get__lastRightHandPose, put = __cordl_internal_set__lastRightHandPose))::UnityEngine::Pose _lastRightHandPose;
 
   /// @brief Field _lastSongTime, offset 0xc0, size 0x4
-  __declspec(property(get = __get__lastSongTime, put = __set__lastSongTime)) float_t _lastSongTime;
+  __declspec(property(get = __cordl_internal_get__lastSongTime, put = __cordl_internal_set__lastSongTime)) float_t _lastSongTime;
 
   /// @brief Field _lineCount, offset 0xc4, size 0x4
-  __declspec(property(get = __get__lineCount, put = __set__lineCount)) int32_t _lineCount;
+  __declspec(property(get = __cordl_internal_get__lineCount, put = __cordl_internal_set__lineCount)) int32_t _lineCount;
 
   /// @brief Field _leftNotes, offset 0xc8, size 0x8
-  __declspec(property(get = __get__leftNotes, put = __set__leftNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _leftNotes;
+  __declspec(property(get = __cordl_internal_get__leftNotes, put = __cordl_internal_set__leftNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _leftNotes;
 
   /// @brief Field _rightNotes, offset 0xd0, size 0x8
-  __declspec(property(get = __get__rightNotes, put = __set__rightNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _rightNotes;
+  __declspec(property(get = __cordl_internal_get__rightNotes,
+                      put = __cordl_internal_set__rightNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _rightNotes;
 
   /// @brief Field _bombNotes, offset 0xd8, size 0x8
-  __declspec(property(get = __get__bombNotes, put = __set__bombNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _bombNotes;
+  __declspec(property(get = __cordl_internal_get__bombNotes, put = __cordl_internal_set__bombNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _bombNotes;
 
   /// @brief Field _obstacles, offset 0xe0, size 0x8
-  __declspec(property(get = __get__obstacles, put = __set__obstacles))::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> _obstacles;
+  __declspec(property(get = __cordl_internal_get__obstacles,
+                      put = __cordl_internal_set__obstacles))::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> _obstacles;
 
   /// @brief Field _leftNoteIndex, offset 0xe8, size 0x4
-  __declspec(property(get = __get__leftNoteIndex, put = __set__leftNoteIndex)) int32_t _leftNoteIndex;
+  __declspec(property(get = __cordl_internal_get__leftNoteIndex, put = __cordl_internal_set__leftNoteIndex)) int32_t _leftNoteIndex;
 
   /// @brief Field _rightNoteIndex, offset 0xec, size 0x4
-  __declspec(property(get = __get__rightNoteIndex, put = __set__rightNoteIndex)) int32_t _rightNoteIndex;
+  __declspec(property(get = __cordl_internal_get__rightNoteIndex, put = __cordl_internal_set__rightNoteIndex)) int32_t _rightNoteIndex;
 
   /// @brief Field _bombNoteIndex, offset 0xf0, size 0x4
-  __declspec(property(get = __get__bombNoteIndex, put = __set__bombNoteIndex)) int32_t _bombNoteIndex;
+  __declspec(property(get = __cordl_internal_get__bombNoteIndex, put = __cordl_internal_set__bombNoteIndex)) int32_t _bombNoteIndex;
 
   /// @brief Field _obstacleIndex, offset 0xf4, size 0x4
-  __declspec(property(get = __get__obstacleIndex, put = __set__obstacleIndex)) int32_t _obstacleIndex;
+  __declspec(property(get = __cordl_internal_get__obstacleIndex, put = __cordl_internal_set__obstacleIndex)) int32_t _obstacleIndex;
 
   /// @brief Field _prevLeftScore, offset 0xf8, size 0x4
-  __declspec(property(get = __get__prevLeftScore, put = __set__prevLeftScore)) int32_t _prevLeftScore;
+  __declspec(property(get = __cordl_internal_get__prevLeftScore, put = __cordl_internal_set__prevLeftScore)) int32_t _prevLeftScore;
 
   /// @brief Field _prevRightScore, offset 0xfc, size 0x4
-  __declspec(property(get = __get__prevRightScore, put = __set__prevRightScore)) int32_t _prevRightScore;
+  __declspec(property(get = __cordl_internal_get__prevRightScore, put = __cordl_internal_set__prevRightScore)) int32_t _prevRightScore;
 
   /// @brief Field _nextLeftHitScore, offset 0x100, size 0x4
-  __declspec(property(get = __get__nextLeftHitScore, put = __set__nextLeftHitScore)) int32_t _nextLeftHitScore;
+  __declspec(property(get = __cordl_internal_get__nextLeftHitScore, put = __cordl_internal_set__nextLeftHitScore)) int32_t _nextLeftHitScore;
 
   /// @brief Field _nextRightHitScore, offset 0x104, size 0x4
-  __declspec(property(get = __get__nextRightHitScore, put = __set__nextRightHitScore)) int32_t _nextRightHitScore;
+  __declspec(property(get = __cordl_internal_get__nextRightHitScore, put = __cordl_internal_set__nextRightHitScore)) int32_t _nextRightHitScore;
 
   /// @brief Field _score, offset 0x108, size 0x4
-  __declspec(property(get = __get__score, put = __set__score)) int32_t _score;
+  __declspec(property(get = __cordl_internal_get__score, put = __cordl_internal_set__score)) int32_t _score;
 
   /// @brief Field _combo, offset 0x10c, size 0x4
-  __declspec(property(get = __get__combo, put = __set__combo)) int32_t _combo;
+  __declspec(property(get = __cordl_internal_get__combo, put = __cordl_internal_set__combo)) int32_t _combo;
 
   /// @brief Field _multiplier, offset 0x110, size 0x4
-  __declspec(property(get = __get__multiplier, put = __set__multiplier)) int32_t _multiplier;
+  __declspec(property(get = __cordl_internal_get__multiplier, put = __cordl_internal_set__multiplier)) int32_t _multiplier;
 
   /// @brief Field _fullCombo, offset 0x114, size 0x1
-  __declspec(property(get = __get__fullCombo, put = __set__fullCombo)) bool _fullCombo;
+  __declspec(property(get = __cordl_internal_get__fullCombo, put = __cordl_internal_set__fullCombo)) bool _fullCombo;
 
   /// @brief Field _hasFinishedLevel, offset 0x115, size 0x1
-  __declspec(property(get = __get__hasFinishedLevel, put = __set__hasFinishedLevel)) bool _hasFinishedLevel;
+  __declspec(property(get = __cordl_internal_get__hasFinishedLevel, put = __cordl_internal_set__hasFinishedLevel)) bool _hasFinishedLevel;
 
   /// @brief Field _isInited, offset 0x116, size 0x1
-  __declspec(property(get = __get__isInited, put = __set__isInited)) bool _isInited;
+  __declspec(property(get = __cordl_internal_get__isInited, put = __cordl_internal_set__isInited)) bool _isInited;
 
   __declspec(property(get = get_songTime)) float_t songTime;
 
-  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator*& __get__scoreCalculator();
+  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator*& __cordl_internal_get__scoreCalculator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMockPlayerScoreCalculator*> const& __get__scoreCalculator() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMockPlayerScoreCalculator*> const& __cordl_internal_get__scoreCalculator() const;
 
-  constexpr void __set__scoreCalculator(::GlobalNamespace::IMockPlayerScoreCalculator* value);
+  constexpr void __cordl_internal_set__scoreCalculator(::GlobalNamespace::IMockPlayerScoreCalculator* value);
 
-  constexpr int32_t& __get__lastKnowScore();
+  constexpr int32_t& __cordl_internal_get__lastKnowScore();
 
-  constexpr int32_t const& __get__lastKnowScore() const;
+  constexpr int32_t const& __cordl_internal_get__lastKnowScore() const;
 
-  constexpr void __set__lastKnowScore(int32_t value);
+  constexpr void __cordl_internal_set__lastKnowScore(int32_t value);
 
-  constexpr int64_t& __get__songStartTime();
+  constexpr int64_t& __cordl_internal_get__songStartTime();
 
-  constexpr int64_t const& __get__songStartTime() const;
+  constexpr int64_t const& __cordl_internal_get__songStartTime() const;
 
-  constexpr void __set__songStartTime(int64_t value);
+  constexpr void __cordl_internal_set__songStartTime(int64_t value);
 
-  constexpr float_t& __get__timeScale();
+  constexpr float_t& __cordl_internal_get__timeScale();
 
-  constexpr float_t const& __get__timeScale() const;
+  constexpr float_t const& __cordl_internal_get__timeScale() const;
 
-  constexpr void __set__timeScale(float_t value);
+  constexpr void __cordl_internal_set__timeScale(float_t value);
 
-  constexpr ::System::Action*& __get__onSongFinished();
+  constexpr ::System::Action*& __cordl_internal_get__onSongFinished();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get__onSongFinished() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__onSongFinished() const;
 
-  constexpr void __set__onSongFinished(::System::Action* value);
+  constexpr void __cordl_internal_set__onSongFinished(::System::Action* value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr float_t& __get__lastEventTime();
+  constexpr float_t& __cordl_internal_get__lastEventTime();
 
-  constexpr float_t const& __get__lastEventTime() const;
+  constexpr float_t const& __cordl_internal_get__lastEventTime() const;
 
-  constexpr void __set__lastEventTime(float_t value);
+  constexpr void __cordl_internal_set__lastEventTime(float_t value);
 
-  constexpr ::UnityEngine::Pose& __get__lastHeadPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__lastHeadPose();
 
-  constexpr ::UnityEngine::Pose const& __get__lastHeadPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__lastHeadPose() const;
 
-  constexpr void __set__lastHeadPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__lastHeadPose(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__lastLeftHandPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__lastLeftHandPose();
 
-  constexpr ::UnityEngine::Pose const& __get__lastLeftHandPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__lastLeftHandPose() const;
 
-  constexpr void __set__lastLeftHandPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__lastLeftHandPose(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__lastRightHandPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__lastRightHandPose();
 
-  constexpr ::UnityEngine::Pose const& __get__lastRightHandPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__lastRightHandPose() const;
 
-  constexpr void __set__lastRightHandPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__lastRightHandPose(::UnityEngine::Pose value);
 
-  constexpr float_t& __get__lastSongTime();
+  constexpr float_t& __cordl_internal_get__lastSongTime();
 
-  constexpr float_t const& __get__lastSongTime() const;
+  constexpr float_t const& __cordl_internal_get__lastSongTime() const;
 
-  constexpr void __set__lastSongTime(float_t value);
+  constexpr void __cordl_internal_set__lastSongTime(float_t value);
 
-  constexpr int32_t& __get__lineCount();
+  constexpr int32_t& __cordl_internal_get__lineCount();
 
-  constexpr int32_t const& __get__lineCount() const;
+  constexpr int32_t const& __cordl_internal_get__lineCount() const;
 
-  constexpr void __set__lineCount(int32_t value);
+  constexpr void __cordl_internal_set__lineCount(int32_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __get__leftNotes();
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __cordl_internal_get__leftNotes();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __get__leftNotes() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __cordl_internal_get__leftNotes() const;
 
-  constexpr void __set__leftNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
+  constexpr void __cordl_internal_set__leftNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __get__rightNotes();
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __cordl_internal_get__rightNotes();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __get__rightNotes() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __cordl_internal_get__rightNotes() const;
 
-  constexpr void __set__rightNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
+  constexpr void __cordl_internal_set__rightNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __get__bombNotes();
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __cordl_internal_get__bombNotes();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __get__bombNotes() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __cordl_internal_get__bombNotes() const;
 
-  constexpr void __set__bombNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
+  constexpr void __cordl_internal_set__bombNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*>& __get__obstacles();
+  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*>& __cordl_internal_get__obstacles();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> const& __get__obstacles() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> const& __cordl_internal_get__obstacles() const;
 
-  constexpr void __set__obstacles(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> value);
+  constexpr void __cordl_internal_set__obstacles(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> value);
 
-  constexpr int32_t& __get__leftNoteIndex();
+  constexpr int32_t& __cordl_internal_get__leftNoteIndex();
 
-  constexpr int32_t const& __get__leftNoteIndex() const;
+  constexpr int32_t const& __cordl_internal_get__leftNoteIndex() const;
 
-  constexpr void __set__leftNoteIndex(int32_t value);
+  constexpr void __cordl_internal_set__leftNoteIndex(int32_t value);
 
-  constexpr int32_t& __get__rightNoteIndex();
+  constexpr int32_t& __cordl_internal_get__rightNoteIndex();
 
-  constexpr int32_t const& __get__rightNoteIndex() const;
+  constexpr int32_t const& __cordl_internal_get__rightNoteIndex() const;
 
-  constexpr void __set__rightNoteIndex(int32_t value);
+  constexpr void __cordl_internal_set__rightNoteIndex(int32_t value);
 
-  constexpr int32_t& __get__bombNoteIndex();
+  constexpr int32_t& __cordl_internal_get__bombNoteIndex();
 
-  constexpr int32_t const& __get__bombNoteIndex() const;
+  constexpr int32_t const& __cordl_internal_get__bombNoteIndex() const;
 
-  constexpr void __set__bombNoteIndex(int32_t value);
+  constexpr void __cordl_internal_set__bombNoteIndex(int32_t value);
 
-  constexpr int32_t& __get__obstacleIndex();
+  constexpr int32_t& __cordl_internal_get__obstacleIndex();
 
-  constexpr int32_t const& __get__obstacleIndex() const;
+  constexpr int32_t const& __cordl_internal_get__obstacleIndex() const;
 
-  constexpr void __set__obstacleIndex(int32_t value);
+  constexpr void __cordl_internal_set__obstacleIndex(int32_t value);
 
-  constexpr int32_t& __get__prevLeftScore();
+  constexpr int32_t& __cordl_internal_get__prevLeftScore();
 
-  constexpr int32_t const& __get__prevLeftScore() const;
+  constexpr int32_t const& __cordl_internal_get__prevLeftScore() const;
 
-  constexpr void __set__prevLeftScore(int32_t value);
+  constexpr void __cordl_internal_set__prevLeftScore(int32_t value);
 
-  constexpr int32_t& __get__prevRightScore();
+  constexpr int32_t& __cordl_internal_get__prevRightScore();
 
-  constexpr int32_t const& __get__prevRightScore() const;
+  constexpr int32_t const& __cordl_internal_get__prevRightScore() const;
 
-  constexpr void __set__prevRightScore(int32_t value);
+  constexpr void __cordl_internal_set__prevRightScore(int32_t value);
 
-  constexpr int32_t& __get__nextLeftHitScore();
+  constexpr int32_t& __cordl_internal_get__nextLeftHitScore();
 
-  constexpr int32_t const& __get__nextLeftHitScore() const;
+  constexpr int32_t const& __cordl_internal_get__nextLeftHitScore() const;
 
-  constexpr void __set__nextLeftHitScore(int32_t value);
+  constexpr void __cordl_internal_set__nextLeftHitScore(int32_t value);
 
-  constexpr int32_t& __get__nextRightHitScore();
+  constexpr int32_t& __cordl_internal_get__nextRightHitScore();
 
-  constexpr int32_t const& __get__nextRightHitScore() const;
+  constexpr int32_t const& __cordl_internal_get__nextRightHitScore() const;
 
-  constexpr void __set__nextRightHitScore(int32_t value);
+  constexpr void __cordl_internal_set__nextRightHitScore(int32_t value);
 
-  constexpr int32_t& __get__score();
+  constexpr int32_t& __cordl_internal_get__score();
 
-  constexpr int32_t const& __get__score() const;
+  constexpr int32_t const& __cordl_internal_get__score() const;
 
-  constexpr void __set__score(int32_t value);
+  constexpr void __cordl_internal_set__score(int32_t value);
 
-  constexpr int32_t& __get__combo();
+  constexpr int32_t& __cordl_internal_get__combo();
 
-  constexpr int32_t const& __get__combo() const;
+  constexpr int32_t const& __cordl_internal_get__combo() const;
 
-  constexpr void __set__combo(int32_t value);
+  constexpr void __cordl_internal_set__combo(int32_t value);
 
-  constexpr int32_t& __get__multiplier();
+  constexpr int32_t& __cordl_internal_get__multiplier();
 
-  constexpr int32_t const& __get__multiplier() const;
+  constexpr int32_t const& __cordl_internal_get__multiplier() const;
 
-  constexpr void __set__multiplier(int32_t value);
+  constexpr void __cordl_internal_set__multiplier(int32_t value);
 
-  constexpr bool& __get__fullCombo();
+  constexpr bool& __cordl_internal_get__fullCombo();
 
-  constexpr bool const& __get__fullCombo() const;
+  constexpr bool const& __cordl_internal_get__fullCombo() const;
 
-  constexpr void __set__fullCombo(bool value);
+  constexpr void __cordl_internal_set__fullCombo(bool value);
 
-  constexpr bool& __get__hasFinishedLevel();
+  constexpr bool& __cordl_internal_get__hasFinishedLevel();
 
-  constexpr bool const& __get__hasFinishedLevel() const;
+  constexpr bool const& __cordl_internal_get__hasFinishedLevel() const;
 
-  constexpr void __set__hasFinishedLevel(bool value);
+  constexpr void __cordl_internal_set__hasFinishedLevel(bool value);
 
-  constexpr bool& __get__isInited();
+  constexpr bool& __cordl_internal_get__isInited();
 
-  constexpr bool const& __get__isInited() const;
+  constexpr bool const& __cordl_internal_get__isInited() const;
 
-  constexpr void __set__isInited(bool value);
+  constexpr void __cordl_internal_set__isInited(bool value);
 
   /// @brief Method get_songTime, addr 0x23e7720, size 0xc8, virtual false, abstract: false, final false
   inline float_t get_songTime();

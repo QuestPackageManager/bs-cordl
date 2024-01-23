@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1847))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CertPairStoreSelector*
 class CORDL_TYPE X509CertPairStoreSelector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certPair, offset 0x10, size 0x8
-  __declspec(property(get = __get_certPair, put = __set_certPair))::Org::BouncyCastle::X509::X509CertificatePair* certPair;
+  __declspec(property(get = __cordl_internal_get_certPair, put = __cordl_internal_set_certPair))::Org::BouncyCastle::X509::X509CertificatePair* certPair;
 
   /// @brief Field forwardSelector, offset 0x18, size 0x8
-  __declspec(property(get = __get_forwardSelector, put = __set_forwardSelector))::Org::BouncyCastle::X509::Store::X509CertStoreSelector* forwardSelector;
+  __declspec(property(get = __cordl_internal_get_forwardSelector, put = __cordl_internal_set_forwardSelector))::Org::BouncyCastle::X509::Store::X509CertStoreSelector* forwardSelector;
 
   /// @brief Field reverseSelector, offset 0x20, size 0x8
-  __declspec(property(get = __get_reverseSelector, put = __set_reverseSelector))::Org::BouncyCastle::X509::Store::X509CertStoreSelector* reverseSelector;
+  __declspec(property(get = __cordl_internal_get_reverseSelector, put = __cordl_internal_set_reverseSelector))::Org::BouncyCastle::X509::Store::X509CertStoreSelector* reverseSelector;
 
   __declspec(property(get = get_CertPair, put = set_CertPair))::Org::BouncyCastle::X509::X509CertificatePair* CertPair;
 
@@ -62,23 +62,23 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::Org::BouncyCastle::X509::X509CertificatePair*& __get_certPair();
+  constexpr ::Org::BouncyCastle::X509::X509CertificatePair*& __cordl_internal_get_certPair();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509CertificatePair*> const& __get_certPair() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509CertificatePair*> const& __cordl_internal_get_certPair() const;
 
-  constexpr void __set_certPair(::Org::BouncyCastle::X509::X509CertificatePair* value);
+  constexpr void __cordl_internal_set_certPair(::Org::BouncyCastle::X509::X509CertificatePair* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& __get_forwardSelector();
+  constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& __cordl_internal_get_forwardSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const& __get_forwardSelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const& __cordl_internal_get_forwardSelector() const;
 
-  constexpr void __set_forwardSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value);
+  constexpr void __cordl_internal_set_forwardSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& __get_reverseSelector();
+  constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& __cordl_internal_get_reverseSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const& __get_reverseSelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const& __cordl_internal_get_reverseSelector() const;
 
-  constexpr void __set_reverseSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value);
+  constexpr void __cordl_internal_set_reverseSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value);
 
   /// @brief Method CloneSelector, addr 0x117138c, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* CloneSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* s);

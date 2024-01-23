@@ -18,33 +18,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(719))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound3Payload*
 class CORDL_TYPE JPakeRound3Payload : public ::System::Object {
 public:
   // Declarations
   /// @brief Field participantId, offset 0x10, size 0x8
-  __declspec(property(get = __get_participantId, put = __set_participantId))::StringW participantId;
+  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId))::StringW participantId;
 
   /// @brief Field macTag, offset 0x18, size 0x8
-  __declspec(property(get = __get_macTag, put = __set_macTag))::Org::BouncyCastle::Math::BigInteger* macTag;
+  __declspec(property(get = __cordl_internal_get_macTag, put = __cordl_internal_set_macTag))::Org::BouncyCastle::Math::BigInteger* macTag;
 
   __declspec(property(get = get_ParticipantId))::StringW ParticipantId;
 
   __declspec(property(get = get_MacTag))::Org::BouncyCastle::Math::BigInteger* MacTag;
 
-  constexpr ::StringW& __get_participantId();
+  constexpr ::StringW& __cordl_internal_get_participantId();
 
-  constexpr ::StringW const& __get_participantId() const;
+  constexpr ::StringW const& __cordl_internal_get_participantId() const;
 
-  constexpr void __set_participantId(::StringW value);
+  constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_macTag();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_macTag();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_macTag() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_macTag() const;
 
-  constexpr void __set_macTag(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_macTag(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 

@@ -9,9 +9,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e4;
   constexpr static std::size_t addrs = 0x27aa268;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -22,9 +22,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x27aa44c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -35,9 +35,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27aab54;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "OnDestroy",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -48,9 +48,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3b4;
   constexpr static std::size_t addrs = 0x27aa504;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "InitUIComponents",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -61,9 +61,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x27aa8ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateVariable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -74,9 +74,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x230;
   constexpr static std::size_t addrs = 0x27aa924;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateStrings",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -88,10 +88,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x27ab304;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "RiftPresentGUI", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "RiftPresentGUI", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
     return ___internal_method;
   }
 };
@@ -102,41 +102,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x27aa8b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateDeviceDetection",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRDebugInfo.VariableObjectManager
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (
-    ::GlobalNamespace::OVRDebugInfo::*)(::UnityEngine::GameObject*, ::StringW, float_t, ::StringW, int32_t)>(&::GlobalNamespace::OVRDebugInfo::VariableObjectManager)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::OVRDebugInfo::*)(
+    ::UnityEngine::GameObject*, ::StringW, float_t, ::StringW, int32_t)>(&::GlobalNamespace::OVRDebugInfo::VariableObjectManager)> {
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0x27aab5c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "VariableObjectManager", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "VariableObjectManager", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRDebugInfo.ComponentComposition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (::GlobalNamespace::OVRDebugInfo::*)(::UnityEngine::GameObject*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::OVRDebugInfo::*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::OVRDebugInfo::ComponentComposition)> {
   constexpr static std::size_t size = 0x338;
   constexpr static std::size_t addrs = 0x27ab488;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "ComponentComposition", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "ComponentComposition", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
     return ___internal_method;
   }
 };
@@ -147,9 +147,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x27aad08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateIPD",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -160,9 +160,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x27aadd4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateEyeHeightOffset",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -173,9 +173,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x27aae94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateEyeDepthOffset",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -186,9 +186,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x27aaf54;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateFOV",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -199,9 +199,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x27ab054;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(),
-                                                                               "UpdateResolutionEyeTexture", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "UpdateResolutionEyeTexture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -212,9 +212,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x27ab220;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateLatencyValues",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -225,9 +225,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x27ab224;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateFPS",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -238,444 +238,444 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x27ab7c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_debugUIManager() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_debugUIManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugUIManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_debugUIManager() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_debugUIManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugUIManager;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_debugUIManager(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_debugUIManager(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___debugUIManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_debugUIObject() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_debugUIObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugUIObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_debugUIObject() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_debugUIObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugUIObject;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_debugUIObject(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_debugUIObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___debugUIObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_riftPresent() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_riftPresent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___riftPresent;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_riftPresent() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_riftPresent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___riftPresent;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_riftPresent(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_riftPresent(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___riftPresent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_fps() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_fps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fps;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_fps() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_fps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fps;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_fps(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_fps(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_ipd() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_ipd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ipd;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_ipd() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_ipd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ipd;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_ipd(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_ipd(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ipd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_fov() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_fov() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fov;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_fov() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_fov() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fov;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_fov(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_fov(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fov)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_height() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_height() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___height;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_height() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_height() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___height;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_height(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_height(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___height)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_depth() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_depth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_depth() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_depth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_depth(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_depth(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___depth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_resolutionEyeTexture() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_resolutionEyeTexture() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resolutionEyeTexture;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_resolutionEyeTexture() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_resolutionEyeTexture() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resolutionEyeTexture;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_resolutionEyeTexture(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_resolutionEyeTexture(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resolutionEyeTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_latencies() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_latencies() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___latencies;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_latencies() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_latencies() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___latencies;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_latencies(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_latencies(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___latencies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRDebugInfo::__get_texts() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_texts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___texts;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRDebugInfo::__get_texts() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_texts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___texts;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_texts(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_texts(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___texts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strRiftPresent() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strRiftPresent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strRiftPresent;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strRiftPresent() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strRiftPresent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strRiftPresent;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strRiftPresent(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strRiftPresent(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strRiftPresent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strFPS() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strFPS() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strFPS;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strFPS() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strFPS() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strFPS;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strFPS(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strFPS(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strFPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strIPD() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strIPD() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strIPD;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strIPD() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strIPD() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strIPD;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strIPD(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strIPD(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strIPD)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strFOV() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strFOV() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strFOV;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strFOV() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strFOV() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strFOV;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strFOV(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strFOV(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strFOV)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strHeight() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strHeight;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strHeight() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strHeight;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strHeight(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strHeight(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strHeight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strDepth() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strDepth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strDepth;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strDepth() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strDepth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strDepth;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strDepth(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strDepth(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strDepth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strResolutionEyeTexture() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strResolutionEyeTexture() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strResolutionEyeTexture;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strResolutionEyeTexture() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strResolutionEyeTexture() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strResolutionEyeTexture;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strResolutionEyeTexture(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strResolutionEyeTexture(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strResolutionEyeTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__get_strLatencies() {
+constexpr ::StringW& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strLatencies() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strLatencies;
 }
-constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__get_strLatencies() const {
+constexpr ::StringW const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_strLatencies() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strLatencies;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_strLatencies(::StringW value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_strLatencies(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strLatencies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::OVRDebugInfo::__get_updateInterval() {
+constexpr float_t& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_updateInterval() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___updateInterval;
 }
-constexpr float_t const& GlobalNamespace::OVRDebugInfo::__get_updateInterval() const {
+constexpr float_t const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_updateInterval() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___updateInterval;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_updateInterval(float_t value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_updateInterval(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___updateInterval = value;
 }
-constexpr float_t& GlobalNamespace::OVRDebugInfo::__get_accum() {
+constexpr float_t& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_accum() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accum;
 }
-constexpr float_t const& GlobalNamespace::OVRDebugInfo::__get_accum() const {
+constexpr float_t const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_accum() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accum;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_accum(float_t value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_accum(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___accum = value;
 }
-constexpr int32_t& GlobalNamespace::OVRDebugInfo::__get_frames() {
+constexpr int32_t& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_frames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
-constexpr int32_t const& GlobalNamespace::OVRDebugInfo::__get_frames() const {
+constexpr int32_t const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_frames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_frames(int32_t value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_frames(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___frames = value;
 }
-constexpr float_t& GlobalNamespace::OVRDebugInfo::__get_timeLeft() {
+constexpr float_t& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_timeLeft() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeLeft;
 }
-constexpr float_t const& GlobalNamespace::OVRDebugInfo::__get_timeLeft() const {
+constexpr float_t const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_timeLeft() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeLeft;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_timeLeft(float_t value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_timeLeft(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeLeft = value;
 }
-constexpr bool& GlobalNamespace::OVRDebugInfo::__get_initUIComponent() {
+constexpr bool& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_initUIComponent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initUIComponent;
 }
-constexpr bool const& GlobalNamespace::OVRDebugInfo::__get_initUIComponent() const {
+constexpr bool const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_initUIComponent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initUIComponent;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_initUIComponent(bool value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_initUIComponent(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initUIComponent = value;
 }
-constexpr bool& GlobalNamespace::OVRDebugInfo::__get_isInited() {
+constexpr bool& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_isInited() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInited;
 }
-constexpr bool const& GlobalNamespace::OVRDebugInfo::__get_isInited() const {
+constexpr bool const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_isInited() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInited;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_isInited(bool value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_isInited(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isInited = value;
 }
-constexpr float_t& GlobalNamespace::OVRDebugInfo::__get_offsetY() {
+constexpr float_t& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_offsetY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetY;
 }
-constexpr float_t const& GlobalNamespace::OVRDebugInfo::__get_offsetY() const {
+constexpr float_t const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_offsetY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetY;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_offsetY(float_t value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_offsetY(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offsetY = value;
 }
-constexpr float_t& GlobalNamespace::OVRDebugInfo::__get_riftPresentTimeout() {
+constexpr float_t& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_riftPresentTimeout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___riftPresentTimeout;
 }
-constexpr float_t const& GlobalNamespace::OVRDebugInfo::__get_riftPresentTimeout() const {
+constexpr float_t const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_riftPresentTimeout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___riftPresentTimeout;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_riftPresentTimeout(float_t value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_riftPresentTimeout(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___riftPresentTimeout = value;
 }
-constexpr bool& GlobalNamespace::OVRDebugInfo::__get_showVRVars() {
+constexpr bool& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_showVRVars() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showVRVars;
 }
-constexpr bool const& GlobalNamespace::OVRDebugInfo::__get_showVRVars() const {
+constexpr bool const& GlobalNamespace::OVRDebugInfo::__cordl_internal_get_showVRVars() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showVRVars;
 }
-constexpr void GlobalNamespace::OVRDebugInfo::__set_showVRVars(bool value) {
+constexpr void GlobalNamespace::OVRDebugInfo::__cordl_internal_set_showVRVars(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showVRVars = value;
 }
 inline void GlobalNamespace::OVRDebugInfo::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "OnDestroy",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::InitUIComponents() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "InitUIComponents",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateVariable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateVariable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateStrings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateStrings",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::RiftPresentGUI(::UnityEngine::GameObject* guiMainOBj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "RiftPresentGUI", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "RiftPresentGUI", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, guiMainOBj);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateDeviceDetection() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateDeviceDetection",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::GameObject* GlobalNamespace::OVRDebugInfo::VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize) {
+inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::OVRDebugInfo::VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "VariableObjectManager", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal_method, gameObject, name, posY, str, fontSize);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "VariableObjectManager", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, gameObject, name, posY, str, fontSize);
 }
-inline ::UnityEngine::GameObject* GlobalNamespace::OVRDebugInfo::ComponentComposition(::UnityEngine::GameObject* GO) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "ComponentComposition", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal_method, GO);
+inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::OVRDebugInfo::ComponentComposition(::UnityEngine::GameObject* GO) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "ComponentComposition", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, GO);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateIPD() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateIPD",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateEyeHeightOffset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateEyeHeightOffset",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateEyeDepthOffset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateEyeDepthOffset",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateFOV() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateFOV",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateResolutionEyeTexture() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(),
-                                                                             "UpdateResolutionEyeTexture", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "UpdateResolutionEyeTexture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateLatencyValues() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateLatencyValues",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRDebugInfo::UpdateFPS() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), "UpdateFPS",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::OVRDebugInfo* GlobalNamespace::OVRDebugInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::OVRDebugInfo*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRDebugInfo*>());
 }
 inline void GlobalNamespace::OVRDebugInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugInfo*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::QualitySettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10085))
 // CS Name: ::UnityEngine::QualitySettings*
 class CORDL_TYPE QualitySettings : public ::UnityEngine::Object {
@@ -40,13 +40,13 @@ public:
   static inline void set_antiAliasing(int32_t value);
 
   /// @brief Method get_INTERNAL_renderPipeline, addr 0x2cb672c, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ScriptableObject* get_INTERNAL_renderPipeline();
+  static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_renderPipeline();
 
   /// @brief Method set_INTERNAL_renderPipeline, addr 0x2cb6754, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_renderPipeline(::UnityEngine::ScriptableObject* value);
 
   /// @brief Method get_renderPipeline, addr 0x2cb6790, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RenderPipelineAsset* get_renderPipeline();
+  static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_renderPipeline();
 
   /// @brief Method set_renderPipeline, addr 0x2cb6820, size 0x3c, virtual false, abstract: false, final false
   static inline void set_renderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);

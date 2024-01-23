@@ -136,7 +136,7 @@ MARK_VAL_T(::LiteNetLib::__NetManager__NetPeerEnumerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14165))
 // CS Name: ::NetManager::IPEndPointComparer*
 class CORDL_TYPE __NetManager__IPEndPointComparer : public ::System::Object {
@@ -183,7 +183,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__NetManager__IPEndP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14166))
 // CS Name: ::NetManager::NetPeerEnumerator
 struct CORDL_TYPE __NetManager__NetPeerEnumerator {
@@ -260,7 +260,7 @@ static_assert(offsetof(::LiteNetLib::__NetManager__NetPeerEnumerator, _p) == 0x8
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2670))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2670))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14167))
 // CS Name: ::LiteNetLib::NetManager*
 class CORDL_TYPE NetManager : public ::System::Object {
@@ -271,124 +271,127 @@ public:
   using IPEndPointComparer = ::LiteNetLib::__NetManager__IPEndPointComparer;
 
   /// @brief Field _socket, offset 0x10, size 0x8
-  __declspec(property(get = __get__socket, put = __set__socket))::LiteNetLib::NetSocket* _socket;
+  __declspec(property(get = __cordl_internal_get__socket, put = __cordl_internal_set__socket))::LiteNetLib::NetSocket* _socket;
 
   /// @brief Field _logicThread, offset 0x18, size 0x8
-  __declspec(property(get = __get__logicThread, put = __set__logicThread))::System::Threading::Thread* _logicThread;
+  __declspec(property(get = __cordl_internal_get__logicThread, put = __cordl_internal_set__logicThread))::System::Threading::Thread* _logicThread;
 
   /// @brief Field _netEventsQueue, offset 0x20, size 0x8
-  __declspec(property(get = __get__netEventsQueue, put = __set__netEventsQueue))::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>* _netEventsQueue;
+  __declspec(property(get = __cordl_internal_get__netEventsQueue, put = __cordl_internal_set__netEventsQueue))::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>* _netEventsQueue;
 
   /// @brief Field _netEventsPool, offset 0x28, size 0x8
-  __declspec(property(get = __get__netEventsPool, put = __set__netEventsPool))::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>* _netEventsPool;
+  __declspec(property(get = __cordl_internal_get__netEventsPool, put = __cordl_internal_set__netEventsPool))::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>* _netEventsPool;
 
   /// @brief Field _netEventListener, offset 0x30, size 0x8
-  __declspec(property(get = __get__netEventListener, put = __set__netEventListener))::LiteNetLib::INetEventListener* _netEventListener;
+  __declspec(property(get = __cordl_internal_get__netEventListener, put = __cordl_internal_set__netEventListener))::LiteNetLib::INetEventListener* _netEventListener;
 
   /// @brief Field _deliveryEventListener, offset 0x38, size 0x8
-  __declspec(property(get = __get__deliveryEventListener, put = __set__deliveryEventListener))::LiteNetLib::IDeliveryEventListener* _deliveryEventListener;
+  __declspec(property(get = __cordl_internal_get__deliveryEventListener, put = __cordl_internal_set__deliveryEventListener))::LiteNetLib::IDeliveryEventListener* _deliveryEventListener;
 
   /// @brief Field _peersDict, offset 0x40, size 0x8
-  __declspec(property(get = __get__peersDict, put = __set__peersDict))::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>* _peersDict;
+  __declspec(property(get = __cordl_internal_get__peersDict,
+                      put = __cordl_internal_set__peersDict))::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>* _peersDict;
 
   /// @brief Field _requestsDict, offset 0x48, size 0x8
-  __declspec(property(get = __get__requestsDict, put = __set__requestsDict))::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>* _requestsDict;
+  __declspec(property(get = __cordl_internal_get__requestsDict,
+                      put = __cordl_internal_set__requestsDict))::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>* _requestsDict;
 
   /// @brief Field _peersLock, offset 0x50, size 0x8
-  __declspec(property(get = __get__peersLock, put = __set__peersLock))::System::Threading::ReaderWriterLockSlim* _peersLock;
+  __declspec(property(get = __cordl_internal_get__peersLock, put = __cordl_internal_set__peersLock))::System::Threading::ReaderWriterLockSlim* _peersLock;
 
   /// @brief Field _headPeer, offset 0x58, size 0x8
-  __declspec(property(get = __get__headPeer, put = __set__headPeer))::LiteNetLib::NetPeer* _headPeer;
+  __declspec(property(get = __cordl_internal_get__headPeer, put = __cordl_internal_set__headPeer))::LiteNetLib::NetPeer* _headPeer;
 
   /// @brief Field _connectedPeersCount, offset 0x60, size 0x4
-  __declspec(property(get = __get__connectedPeersCount, put = __set__connectedPeersCount)) int32_t _connectedPeersCount;
+  __declspec(property(get = __cordl_internal_get__connectedPeersCount, put = __cordl_internal_set__connectedPeersCount)) int32_t _connectedPeersCount;
 
   /// @brief Field _connectedPeerListCache, offset 0x68, size 0x8
-  __declspec(property(get = __get__connectedPeerListCache, put = __set__connectedPeerListCache))::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>* _connectedPeerListCache;
+  __declspec(property(get = __cordl_internal_get__connectedPeerListCache,
+                      put = __cordl_internal_set__connectedPeerListCache))::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>* _connectedPeerListCache;
 
   /// @brief Field _peersArray, offset 0x70, size 0x8
-  __declspec(property(get = __get__peersArray, put = __set__peersArray))::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*> _peersArray;
+  __declspec(property(get = __cordl_internal_get__peersArray, put = __cordl_internal_set__peersArray))::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*> _peersArray;
 
   /// @brief Field _extraPacketLayer, offset 0x78, size 0x8
-  __declspec(property(get = __get__extraPacketLayer, put = __set__extraPacketLayer))::LiteNetLib::Layers::PacketLayerBase* _extraPacketLayer;
+  __declspec(property(get = __cordl_internal_get__extraPacketLayer, put = __cordl_internal_set__extraPacketLayer))::LiteNetLib::Layers::PacketLayerBase* _extraPacketLayer;
 
   /// @brief Field _lastPeerId, offset 0x80, size 0x4
-  __declspec(property(get = __get__lastPeerId, put = __set__lastPeerId)) int32_t _lastPeerId;
+  __declspec(property(get = __cordl_internal_get__lastPeerId, put = __cordl_internal_set__lastPeerId)) int32_t _lastPeerId;
 
   /// @brief Field _peerIds, offset 0x88, size 0x8
-  __declspec(property(get = __get__peerIds, put = __set__peerIds))::System::Collections::Generic::Queue_1<int32_t>* _peerIds;
+  __declspec(property(get = __cordl_internal_get__peerIds, put = __cordl_internal_set__peerIds))::System::Collections::Generic::Queue_1<int32_t>* _peerIds;
 
   /// @brief Field _channelsCount, offset 0x90, size 0x1
-  __declspec(property(get = __get__channelsCount, put = __set__channelsCount)) uint8_t _channelsCount;
+  __declspec(property(get = __cordl_internal_get__channelsCount, put = __cordl_internal_set__channelsCount)) uint8_t _channelsCount;
 
   /// @brief Field NetPacketPool, offset 0x98, size 0x8
-  __declspec(property(get = __get_NetPacketPool, put = __set_NetPacketPool))::LiteNetLib::NetPacketPool* NetPacketPool;
+  __declspec(property(get = __cordl_internal_get_NetPacketPool, put = __cordl_internal_set_NetPacketPool))::LiteNetLib::NetPacketPool* NetPacketPool;
 
   /// @brief Field UnconnectedMessagesEnabled, offset 0xa0, size 0x1
-  __declspec(property(get = __get_UnconnectedMessagesEnabled, put = __set_UnconnectedMessagesEnabled)) bool UnconnectedMessagesEnabled;
+  __declspec(property(get = __cordl_internal_get_UnconnectedMessagesEnabled, put = __cordl_internal_set_UnconnectedMessagesEnabled)) bool UnconnectedMessagesEnabled;
 
   /// @brief Field NatPunchEnabled, offset 0xa1, size 0x1
-  __declspec(property(get = __get_NatPunchEnabled, put = __set_NatPunchEnabled)) bool NatPunchEnabled;
+  __declspec(property(get = __cordl_internal_get_NatPunchEnabled, put = __cordl_internal_set_NatPunchEnabled)) bool NatPunchEnabled;
 
   /// @brief Field UpdateTime, offset 0xa4, size 0x4
-  __declspec(property(get = __get_UpdateTime, put = __set_UpdateTime)) int32_t UpdateTime;
+  __declspec(property(get = __cordl_internal_get_UpdateTime, put = __cordl_internal_set_UpdateTime)) int32_t UpdateTime;
 
   /// @brief Field PingInterval, offset 0xa8, size 0x4
-  __declspec(property(get = __get_PingInterval, put = __set_PingInterval)) int32_t PingInterval;
+  __declspec(property(get = __cordl_internal_get_PingInterval, put = __cordl_internal_set_PingInterval)) int32_t PingInterval;
 
   /// @brief Field DisconnectTimeout, offset 0xac, size 0x4
-  __declspec(property(get = __get_DisconnectTimeout, put = __set_DisconnectTimeout)) int32_t DisconnectTimeout;
+  __declspec(property(get = __cordl_internal_get_DisconnectTimeout, put = __cordl_internal_set_DisconnectTimeout)) int32_t DisconnectTimeout;
 
   /// @brief Field SimulatePacketLoss, offset 0xb0, size 0x1
-  __declspec(property(get = __get_SimulatePacketLoss, put = __set_SimulatePacketLoss)) bool SimulatePacketLoss;
+  __declspec(property(get = __cordl_internal_get_SimulatePacketLoss, put = __cordl_internal_set_SimulatePacketLoss)) bool SimulatePacketLoss;
 
   /// @brief Field SimulateLatency, offset 0xb1, size 0x1
-  __declspec(property(get = __get_SimulateLatency, put = __set_SimulateLatency)) bool SimulateLatency;
+  __declspec(property(get = __cordl_internal_get_SimulateLatency, put = __cordl_internal_set_SimulateLatency)) bool SimulateLatency;
 
   /// @brief Field SimulationPacketLossChance, offset 0xb4, size 0x4
-  __declspec(property(get = __get_SimulationPacketLossChance, put = __set_SimulationPacketLossChance)) int32_t SimulationPacketLossChance;
+  __declspec(property(get = __cordl_internal_get_SimulationPacketLossChance, put = __cordl_internal_set_SimulationPacketLossChance)) int32_t SimulationPacketLossChance;
 
   /// @brief Field SimulationMinLatency, offset 0xb8, size 0x4
-  __declspec(property(get = __get_SimulationMinLatency, put = __set_SimulationMinLatency)) int32_t SimulationMinLatency;
+  __declspec(property(get = __cordl_internal_get_SimulationMinLatency, put = __cordl_internal_set_SimulationMinLatency)) int32_t SimulationMinLatency;
 
   /// @brief Field SimulationMaxLatency, offset 0xbc, size 0x4
-  __declspec(property(get = __get_SimulationMaxLatency, put = __set_SimulationMaxLatency)) int32_t SimulationMaxLatency;
+  __declspec(property(get = __cordl_internal_get_SimulationMaxLatency, put = __cordl_internal_set_SimulationMaxLatency)) int32_t SimulationMaxLatency;
 
   /// @brief Field UnsyncedEvents, offset 0xc0, size 0x1
-  __declspec(property(get = __get_UnsyncedEvents, put = __set_UnsyncedEvents)) bool UnsyncedEvents;
+  __declspec(property(get = __cordl_internal_get_UnsyncedEvents, put = __cordl_internal_set_UnsyncedEvents)) bool UnsyncedEvents;
 
   /// @brief Field UnsyncedDeliveryEvent, offset 0xc1, size 0x1
-  __declspec(property(get = __get_UnsyncedDeliveryEvent, put = __set_UnsyncedDeliveryEvent)) bool UnsyncedDeliveryEvent;
+  __declspec(property(get = __cordl_internal_get_UnsyncedDeliveryEvent, put = __cordl_internal_set_UnsyncedDeliveryEvent)) bool UnsyncedDeliveryEvent;
 
   /// @brief Field BroadcastReceiveEnabled, offset 0xc2, size 0x1
-  __declspec(property(get = __get_BroadcastReceiveEnabled, put = __set_BroadcastReceiveEnabled)) bool BroadcastReceiveEnabled;
+  __declspec(property(get = __cordl_internal_get_BroadcastReceiveEnabled, put = __cordl_internal_set_BroadcastReceiveEnabled)) bool BroadcastReceiveEnabled;
 
   /// @brief Field ReconnectDelay, offset 0xc4, size 0x4
-  __declspec(property(get = __get_ReconnectDelay, put = __set_ReconnectDelay)) int32_t ReconnectDelay;
+  __declspec(property(get = __cordl_internal_get_ReconnectDelay, put = __cordl_internal_set_ReconnectDelay)) int32_t ReconnectDelay;
 
   /// @brief Field MaxConnectAttempts, offset 0xc8, size 0x4
-  __declspec(property(get = __get_MaxConnectAttempts, put = __set_MaxConnectAttempts)) int32_t MaxConnectAttempts;
+  __declspec(property(get = __cordl_internal_get_MaxConnectAttempts, put = __cordl_internal_set_MaxConnectAttempts)) int32_t MaxConnectAttempts;
 
   /// @brief Field ReuseAddress, offset 0xcc, size 0x1
-  __declspec(property(get = __get_ReuseAddress, put = __set_ReuseAddress)) bool ReuseAddress;
+  __declspec(property(get = __cordl_internal_get_ReuseAddress, put = __cordl_internal_set_ReuseAddress)) bool ReuseAddress;
 
   /// @brief Field Statistics, offset 0xd0, size 0x8
-  __declspec(property(get = __get_Statistics, put = __set_Statistics))::LiteNetLib::NetStatistics* Statistics;
+  __declspec(property(get = __cordl_internal_get_Statistics, put = __cordl_internal_set_Statistics))::LiteNetLib::NetStatistics* Statistics;
 
   /// @brief Field EnableStatistics, offset 0xd8, size 0x1
-  __declspec(property(get = __get_EnableStatistics, put = __set_EnableStatistics)) bool EnableStatistics;
+  __declspec(property(get = __cordl_internal_get_EnableStatistics, put = __cordl_internal_set_EnableStatistics)) bool EnableStatistics;
 
   /// @brief Field NatPunchModule, offset 0xe0, size 0x8
-  __declspec(property(get = __get_NatPunchModule, put = __set_NatPunchModule))::LiteNetLib::NatPunchModule* NatPunchModule;
+  __declspec(property(get = __cordl_internal_get_NatPunchModule, put = __cordl_internal_set_NatPunchModule))::LiteNetLib::NatPunchModule* NatPunchModule;
 
   /// @brief Field AutoRecycle, offset 0xe8, size 0x1
-  __declspec(property(get = __get_AutoRecycle, put = __set_AutoRecycle)) bool AutoRecycle;
+  __declspec(property(get = __cordl_internal_get_AutoRecycle, put = __cordl_internal_set_AutoRecycle)) bool AutoRecycle;
 
   /// @brief Field IPv6Enabled, offset 0xe9, size 0x1
-  __declspec(property(get = __get_IPv6Enabled, put = __set_IPv6Enabled)) bool IPv6Enabled;
+  __declspec(property(get = __cordl_internal_get_IPv6Enabled, put = __cordl_internal_set_IPv6Enabled)) bool IPv6Enabled;
 
   /// @brief Field ThreadPriority, offset 0xec, size 0x4
-  __declspec(property(get = __get_ThreadPriority, put = __set_ThreadPriority))::System::Threading::ThreadPriority ThreadPriority;
+  __declspec(property(get = __cordl_internal_get_ThreadPriority, put = __cordl_internal_set_ThreadPriority))::System::Threading::ThreadPriority ThreadPriority;
 
   __declspec(property(get = get_IsRunning)) bool IsRunning;
 
@@ -420,245 +423,246 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::LiteNetLib::NetSocket*& __get__socket();
+  constexpr ::LiteNetLib::NetSocket*& __cordl_internal_get__socket();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& __get__socket() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& __cordl_internal_get__socket() const;
 
-  constexpr void __set__socket(::LiteNetLib::NetSocket* value);
+  constexpr void __cordl_internal_set__socket(::LiteNetLib::NetSocket* value);
 
-  constexpr ::System::Threading::Thread*& __get__logicThread();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__logicThread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get__logicThread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__logicThread() const;
 
-  constexpr void __set__logicThread(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set__logicThread(::System::Threading::Thread* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>*& __get__netEventsQueue();
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>*& __cordl_internal_get__netEventsQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>*> const& __get__netEventsQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>*> const& __cordl_internal_get__netEventsQueue() const;
 
-  constexpr void __set__netEventsQueue(::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>* value);
+  constexpr void __cordl_internal_set__netEventsQueue(::System::Collections::Generic::Queue_1<::LiteNetLib::NetEvent*>* value);
 
-  constexpr ::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>*& __get__netEventsPool();
+  constexpr ::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>*& __cordl_internal_get__netEventsPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>*> const& __get__netEventsPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>*> const& __cordl_internal_get__netEventsPool() const;
 
-  constexpr void __set__netEventsPool(::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>* value);
+  constexpr void __cordl_internal_set__netEventsPool(::System::Collections::Generic::Stack_1<::LiteNetLib::NetEvent*>* value);
 
-  constexpr ::LiteNetLib::INetEventListener*& __get__netEventListener();
+  constexpr ::LiteNetLib::INetEventListener*& __cordl_internal_get__netEventListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INetEventListener*> const& __get__netEventListener() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INetEventListener*> const& __cordl_internal_get__netEventListener() const;
 
-  constexpr void __set__netEventListener(::LiteNetLib::INetEventListener* value);
+  constexpr void __cordl_internal_set__netEventListener(::LiteNetLib::INetEventListener* value);
 
-  constexpr ::LiteNetLib::IDeliveryEventListener*& __get__deliveryEventListener();
+  constexpr ::LiteNetLib::IDeliveryEventListener*& __cordl_internal_get__deliveryEventListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::IDeliveryEventListener*> const& __get__deliveryEventListener() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::IDeliveryEventListener*> const& __cordl_internal_get__deliveryEventListener() const;
 
-  constexpr void __set__deliveryEventListener(::LiteNetLib::IDeliveryEventListener* value);
+  constexpr void __cordl_internal_set__deliveryEventListener(::LiteNetLib::IDeliveryEventListener* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>*& __get__peersDict();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>*& __cordl_internal_get__peersDict();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>*> const& __get__peersDict() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>*> const& __cordl_internal_get__peersDict() const;
 
-  constexpr void __set__peersDict(::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>* value);
+  constexpr void __cordl_internal_set__peersDict(::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::NetPeer*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>*& __get__requestsDict();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>*& __cordl_internal_get__requestsDict();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>*> const& __get__requestsDict() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>*> const&
+  __cordl_internal_get__requestsDict() const;
 
-  constexpr void __set__requestsDict(::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>* value);
+  constexpr void __cordl_internal_set__requestsDict(::System::Collections::Generic::Dictionary_2<::System::Net::IPEndPoint*, ::LiteNetLib::ConnectionRequest*>* value);
 
-  constexpr ::System::Threading::ReaderWriterLockSlim*& __get__peersLock();
+  constexpr ::System::Threading::ReaderWriterLockSlim*& __cordl_internal_get__peersLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLockSlim*> const& __get__peersLock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLockSlim*> const& __cordl_internal_get__peersLock() const;
 
-  constexpr void __set__peersLock(::System::Threading::ReaderWriterLockSlim* value);
+  constexpr void __cordl_internal_set__peersLock(::System::Threading::ReaderWriterLockSlim* value);
 
-  constexpr ::LiteNetLib::NetPeer*& __get__headPeer();
+  constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get__headPeer();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __get__headPeer() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get__headPeer() const;
 
-  constexpr void __set__headPeer(::LiteNetLib::NetPeer* value);
+  constexpr void __cordl_internal_set__headPeer(::LiteNetLib::NetPeer* value);
 
-  constexpr int32_t& __get__connectedPeersCount();
+  constexpr int32_t& __cordl_internal_get__connectedPeersCount();
 
-  constexpr int32_t const& __get__connectedPeersCount() const;
+  constexpr int32_t const& __cordl_internal_get__connectedPeersCount() const;
 
-  constexpr void __set__connectedPeersCount(int32_t value);
+  constexpr void __cordl_internal_set__connectedPeersCount(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>*& __get__connectedPeerListCache();
+  constexpr ::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>*& __cordl_internal_get__connectedPeerListCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>*> const& __get__connectedPeerListCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>*> const& __cordl_internal_get__connectedPeerListCache() const;
 
-  constexpr void __set__connectedPeerListCache(::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>* value);
+  constexpr void __cordl_internal_set__connectedPeerListCache(::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>* value);
 
-  constexpr ::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*>& __get__peersArray();
+  constexpr ::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*>& __cordl_internal_get__peersArray();
 
-  constexpr ::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*> const& __get__peersArray() const;
+  constexpr ::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*> const& __cordl_internal_get__peersArray() const;
 
-  constexpr void __set__peersArray(::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*> value);
+  constexpr void __cordl_internal_set__peersArray(::ArrayW<::LiteNetLib::NetPeer*, ::Array<::LiteNetLib::NetPeer*>*> value);
 
-  constexpr ::LiteNetLib::Layers::PacketLayerBase*& __get__extraPacketLayer();
+  constexpr ::LiteNetLib::Layers::PacketLayerBase*& __cordl_internal_get__extraPacketLayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Layers::PacketLayerBase*> const& __get__extraPacketLayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Layers::PacketLayerBase*> const& __cordl_internal_get__extraPacketLayer() const;
 
-  constexpr void __set__extraPacketLayer(::LiteNetLib::Layers::PacketLayerBase* value);
+  constexpr void __cordl_internal_set__extraPacketLayer(::LiteNetLib::Layers::PacketLayerBase* value);
 
-  constexpr int32_t& __get__lastPeerId();
+  constexpr int32_t& __cordl_internal_get__lastPeerId();
 
-  constexpr int32_t const& __get__lastPeerId() const;
+  constexpr int32_t const& __cordl_internal_get__lastPeerId() const;
 
-  constexpr void __set__lastPeerId(int32_t value);
+  constexpr void __cordl_internal_set__lastPeerId(int32_t value);
 
-  constexpr ::System::Collections::Generic::Queue_1<int32_t>*& __get__peerIds();
+  constexpr ::System::Collections::Generic::Queue_1<int32_t>*& __cordl_internal_get__peerIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<int32_t>*> const& __get__peerIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<int32_t>*> const& __cordl_internal_get__peerIds() const;
 
-  constexpr void __set__peerIds(::System::Collections::Generic::Queue_1<int32_t>* value);
+  constexpr void __cordl_internal_set__peerIds(::System::Collections::Generic::Queue_1<int32_t>* value);
 
-  constexpr uint8_t& __get__channelsCount();
+  constexpr uint8_t& __cordl_internal_get__channelsCount();
 
-  constexpr uint8_t const& __get__channelsCount() const;
+  constexpr uint8_t const& __cordl_internal_get__channelsCount() const;
 
-  constexpr void __set__channelsCount(uint8_t value);
+  constexpr void __cordl_internal_set__channelsCount(uint8_t value);
 
-  constexpr ::LiteNetLib::NetPacketPool*& __get_NetPacketPool();
+  constexpr ::LiteNetLib::NetPacketPool*& __cordl_internal_get_NetPacketPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketPool*> const& __get_NetPacketPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketPool*> const& __cordl_internal_get_NetPacketPool() const;
 
-  constexpr void __set_NetPacketPool(::LiteNetLib::NetPacketPool* value);
+  constexpr void __cordl_internal_set_NetPacketPool(::LiteNetLib::NetPacketPool* value);
 
-  constexpr bool& __get_UnconnectedMessagesEnabled();
+  constexpr bool& __cordl_internal_get_UnconnectedMessagesEnabled();
 
-  constexpr bool const& __get_UnconnectedMessagesEnabled() const;
+  constexpr bool const& __cordl_internal_get_UnconnectedMessagesEnabled() const;
 
-  constexpr void __set_UnconnectedMessagesEnabled(bool value);
+  constexpr void __cordl_internal_set_UnconnectedMessagesEnabled(bool value);
 
-  constexpr bool& __get_NatPunchEnabled();
+  constexpr bool& __cordl_internal_get_NatPunchEnabled();
 
-  constexpr bool const& __get_NatPunchEnabled() const;
+  constexpr bool const& __cordl_internal_get_NatPunchEnabled() const;
 
-  constexpr void __set_NatPunchEnabled(bool value);
+  constexpr void __cordl_internal_set_NatPunchEnabled(bool value);
 
-  constexpr int32_t& __get_UpdateTime();
+  constexpr int32_t& __cordl_internal_get_UpdateTime();
 
-  constexpr int32_t const& __get_UpdateTime() const;
+  constexpr int32_t const& __cordl_internal_get_UpdateTime() const;
 
-  constexpr void __set_UpdateTime(int32_t value);
+  constexpr void __cordl_internal_set_UpdateTime(int32_t value);
 
-  constexpr int32_t& __get_PingInterval();
+  constexpr int32_t& __cordl_internal_get_PingInterval();
 
-  constexpr int32_t const& __get_PingInterval() const;
+  constexpr int32_t const& __cordl_internal_get_PingInterval() const;
 
-  constexpr void __set_PingInterval(int32_t value);
+  constexpr void __cordl_internal_set_PingInterval(int32_t value);
 
-  constexpr int32_t& __get_DisconnectTimeout();
+  constexpr int32_t& __cordl_internal_get_DisconnectTimeout();
 
-  constexpr int32_t const& __get_DisconnectTimeout() const;
+  constexpr int32_t const& __cordl_internal_get_DisconnectTimeout() const;
 
-  constexpr void __set_DisconnectTimeout(int32_t value);
+  constexpr void __cordl_internal_set_DisconnectTimeout(int32_t value);
 
-  constexpr bool& __get_SimulatePacketLoss();
+  constexpr bool& __cordl_internal_get_SimulatePacketLoss();
 
-  constexpr bool const& __get_SimulatePacketLoss() const;
+  constexpr bool const& __cordl_internal_get_SimulatePacketLoss() const;
 
-  constexpr void __set_SimulatePacketLoss(bool value);
+  constexpr void __cordl_internal_set_SimulatePacketLoss(bool value);
 
-  constexpr bool& __get_SimulateLatency();
+  constexpr bool& __cordl_internal_get_SimulateLatency();
 
-  constexpr bool const& __get_SimulateLatency() const;
+  constexpr bool const& __cordl_internal_get_SimulateLatency() const;
 
-  constexpr void __set_SimulateLatency(bool value);
+  constexpr void __cordl_internal_set_SimulateLatency(bool value);
 
-  constexpr int32_t& __get_SimulationPacketLossChance();
+  constexpr int32_t& __cordl_internal_get_SimulationPacketLossChance();
 
-  constexpr int32_t const& __get_SimulationPacketLossChance() const;
+  constexpr int32_t const& __cordl_internal_get_SimulationPacketLossChance() const;
 
-  constexpr void __set_SimulationPacketLossChance(int32_t value);
+  constexpr void __cordl_internal_set_SimulationPacketLossChance(int32_t value);
 
-  constexpr int32_t& __get_SimulationMinLatency();
+  constexpr int32_t& __cordl_internal_get_SimulationMinLatency();
 
-  constexpr int32_t const& __get_SimulationMinLatency() const;
+  constexpr int32_t const& __cordl_internal_get_SimulationMinLatency() const;
 
-  constexpr void __set_SimulationMinLatency(int32_t value);
+  constexpr void __cordl_internal_set_SimulationMinLatency(int32_t value);
 
-  constexpr int32_t& __get_SimulationMaxLatency();
+  constexpr int32_t& __cordl_internal_get_SimulationMaxLatency();
 
-  constexpr int32_t const& __get_SimulationMaxLatency() const;
+  constexpr int32_t const& __cordl_internal_get_SimulationMaxLatency() const;
 
-  constexpr void __set_SimulationMaxLatency(int32_t value);
+  constexpr void __cordl_internal_set_SimulationMaxLatency(int32_t value);
 
-  constexpr bool& __get_UnsyncedEvents();
+  constexpr bool& __cordl_internal_get_UnsyncedEvents();
 
-  constexpr bool const& __get_UnsyncedEvents() const;
+  constexpr bool const& __cordl_internal_get_UnsyncedEvents() const;
 
-  constexpr void __set_UnsyncedEvents(bool value);
+  constexpr void __cordl_internal_set_UnsyncedEvents(bool value);
 
-  constexpr bool& __get_UnsyncedDeliveryEvent();
+  constexpr bool& __cordl_internal_get_UnsyncedDeliveryEvent();
 
-  constexpr bool const& __get_UnsyncedDeliveryEvent() const;
+  constexpr bool const& __cordl_internal_get_UnsyncedDeliveryEvent() const;
 
-  constexpr void __set_UnsyncedDeliveryEvent(bool value);
+  constexpr void __cordl_internal_set_UnsyncedDeliveryEvent(bool value);
 
-  constexpr bool& __get_BroadcastReceiveEnabled();
+  constexpr bool& __cordl_internal_get_BroadcastReceiveEnabled();
 
-  constexpr bool const& __get_BroadcastReceiveEnabled() const;
+  constexpr bool const& __cordl_internal_get_BroadcastReceiveEnabled() const;
 
-  constexpr void __set_BroadcastReceiveEnabled(bool value);
+  constexpr void __cordl_internal_set_BroadcastReceiveEnabled(bool value);
 
-  constexpr int32_t& __get_ReconnectDelay();
+  constexpr int32_t& __cordl_internal_get_ReconnectDelay();
 
-  constexpr int32_t const& __get_ReconnectDelay() const;
+  constexpr int32_t const& __cordl_internal_get_ReconnectDelay() const;
 
-  constexpr void __set_ReconnectDelay(int32_t value);
+  constexpr void __cordl_internal_set_ReconnectDelay(int32_t value);
 
-  constexpr int32_t& __get_MaxConnectAttempts();
+  constexpr int32_t& __cordl_internal_get_MaxConnectAttempts();
 
-  constexpr int32_t const& __get_MaxConnectAttempts() const;
+  constexpr int32_t const& __cordl_internal_get_MaxConnectAttempts() const;
 
-  constexpr void __set_MaxConnectAttempts(int32_t value);
+  constexpr void __cordl_internal_set_MaxConnectAttempts(int32_t value);
 
-  constexpr bool& __get_ReuseAddress();
+  constexpr bool& __cordl_internal_get_ReuseAddress();
 
-  constexpr bool const& __get_ReuseAddress() const;
+  constexpr bool const& __cordl_internal_get_ReuseAddress() const;
 
-  constexpr void __set_ReuseAddress(bool value);
+  constexpr void __cordl_internal_set_ReuseAddress(bool value);
 
-  constexpr ::LiteNetLib::NetStatistics*& __get_Statistics();
+  constexpr ::LiteNetLib::NetStatistics*& __cordl_internal_get_Statistics();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetStatistics*> const& __get_Statistics() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetStatistics*> const& __cordl_internal_get_Statistics() const;
 
-  constexpr void __set_Statistics(::LiteNetLib::NetStatistics* value);
+  constexpr void __cordl_internal_set_Statistics(::LiteNetLib::NetStatistics* value);
 
-  constexpr bool& __get_EnableStatistics();
+  constexpr bool& __cordl_internal_get_EnableStatistics();
 
-  constexpr bool const& __get_EnableStatistics() const;
+  constexpr bool const& __cordl_internal_get_EnableStatistics() const;
 
-  constexpr void __set_EnableStatistics(bool value);
+  constexpr void __cordl_internal_set_EnableStatistics(bool value);
 
-  constexpr ::LiteNetLib::NatPunchModule*& __get_NatPunchModule();
+  constexpr ::LiteNetLib::NatPunchModule*& __cordl_internal_get_NatPunchModule();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NatPunchModule*> const& __get_NatPunchModule() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NatPunchModule*> const& __cordl_internal_get_NatPunchModule() const;
 
-  constexpr void __set_NatPunchModule(::LiteNetLib::NatPunchModule* value);
+  constexpr void __cordl_internal_set_NatPunchModule(::LiteNetLib::NatPunchModule* value);
 
-  constexpr bool& __get_AutoRecycle();
+  constexpr bool& __cordl_internal_get_AutoRecycle();
 
-  constexpr bool const& __get_AutoRecycle() const;
+  constexpr bool const& __cordl_internal_get_AutoRecycle() const;
 
-  constexpr void __set_AutoRecycle(bool value);
+  constexpr void __cordl_internal_set_AutoRecycle(bool value);
 
-  constexpr bool& __get_IPv6Enabled();
+  constexpr bool& __cordl_internal_get_IPv6Enabled();
 
-  constexpr bool const& __get_IPv6Enabled() const;
+  constexpr bool const& __cordl_internal_get_IPv6Enabled() const;
 
-  constexpr void __set_IPv6Enabled(bool value);
+  constexpr void __cordl_internal_set_IPv6Enabled(bool value);
 
-  constexpr ::System::Threading::ThreadPriority& __get_ThreadPriority();
+  constexpr ::System::Threading::ThreadPriority& __cordl_internal_get_ThreadPriority();
 
-  constexpr ::System::Threading::ThreadPriority const& __get_ThreadPriority() const;
+  constexpr ::System::Threading::ThreadPriority const& __cordl_internal_get_ThreadPriority() const;
 
-  constexpr void __set_ThreadPriority(::System::Threading::ThreadPriority value);
+  constexpr void __cordl_internal_set_ThreadPriority(::System::Threading::ThreadPriority value);
 
   /// @brief Method get_IsRunning, addr 0x21fc7dc, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsRunning();
