@@ -11,5 +11,9 @@ struct FieldException : public ::il2cpp_utils::exceptions::StackTraceException {
 struct NullException : public ::il2cpp_utils::exceptions::StackTraceException {
   using StackTraceException::StackTraceException;
 };
+
+struct CastException : public ::il2cpp_utils::exceptions::StackTraceException {
+  using StackTraceException::StackTraceException;
+};
 } // namespace cordl_internals
 } // end anonymous namespace

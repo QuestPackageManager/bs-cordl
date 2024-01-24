@@ -16,7 +16,7 @@
 #define __UNITYW_UNITY_NULL_HANDLE_CHECK(...)                                  \
   if (isAlive())                                                               \
     return __VA_ARGS__;                                                        \
-  CRASH_UNLESS(false)
+  SAFE_ABORT_MSG(std::string(typeid(*this).name()) + "Unity object with null handle was accessed!")
 #endif
 
 template <typename T> struct UnityW {
@@ -27,18 +27,21 @@ template <typename T> struct UnityW {
     requires(std::is_convertible_v<U *, T *>)
   constexpr UnityW(UnityW<U> u) : innerPtr(u.innerPtr) {}
 
+  constexpr UnityW(nullptr_t) noexcept : innerPtr(nullptr) {}
   explicit constexpr UnityW(void *p) noexcept : innerPtr(static_cast<T *>(p)) {}
+
   constexpr void *convert() const noexcept {
     return const_cast<void *>(static_cast<void const *>(unsafePtr()));
   }
 
   template <typename U> inline UnityW<U> cast() const {
-    return UnityW<U>(::il2cpp_utils::cast<U>(const_cast<T *>(this->innerPtr)));
+    auto attemptedCast = try_cast<U>();
+    if (!attemptedCast) throw ::cordl_internals::CastException(std::string(typeid(*this).name()) + " could not cast to " + std::string(typeid(UnityW<U>).name()));
+    return UnityW<U>(attemptedCast.value());
   }
 
   template <typename U> inline std::optional<UnityW<U>> try_cast() const {
-    auto attemptedCast =
-        ::il2cpp_utils::try_cast<U>(const_cast<T *>(this->innerPtr));
+    auto attemptedCast = ::il2cpp_utils::try_cast<U>(const_cast<T *>(this->innerPtr));
     if (!attemptedCast)
       return std::nullopt;
 
@@ -54,14 +57,18 @@ template <typename T> struct UnityW {
   constexpr T const *ptr() const { __UNITYW_UNITY_NULL_HANDLE_CHECK(innerPtr); }
 
   /// @brief Implicitly cast this instance to a T*.
-  constexpr operator T *() const { return const_cast<T *>(ptr()); }
+  constexpr operator T *() const noexcept { return const_cast<T *>(unsafePtr()); }
 
+  /// @brief access underlying pointer with ->
   constexpr T *operator->() { return const_cast<T *>(ptr()); }
 
+  /// @brief access underlying pointer with ->
   constexpr T const *operator->() const { return ptr(); }
 
+  /// @brief get access to the underlying object as a reference
   constexpr T &operator*() { return *ptr(); }
 
+  /// @brief get access to the underlying object as a reference
   constexpr T const &operator*() const { return *ptr(); }
 
   constexpr operator bool() const { return isAlive(); }
@@ -87,6 +94,7 @@ template <typename T> struct UnityW {
   [[nodiscard]] static constexpr inline void *cached_ptr(T const *ptr) {
     return ptr->m_CachedPtr;
   }
+
 
 private:
   T *innerPtr;
